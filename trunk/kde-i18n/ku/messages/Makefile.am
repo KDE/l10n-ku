@@ -1,4 +1,4 @@
-KDE_LANG = kur
+KDE_LANG = ku
 SUBDIRS = $(AUTODIRS)
 
 POFILES = AUTO
