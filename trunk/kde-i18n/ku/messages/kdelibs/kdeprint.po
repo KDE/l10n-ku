@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2004-01-15 01:57+0100\n"
+"POT-Creation-Date: 2004-07-16 01:16+0200\n"
 "PO-Revision-Date: 2001-08-31 17:30+GMT\n"
 "Last-Translator: Abou-Zeid Gerdi <kde-ku@pispor.com>\n"
 "Language-Team: kurdish <kde-ku@pispor.com>\n"
@@ -155,8 +155,9 @@ msgid "Local printer queue (%1)"
 msgstr "Rîzbestî çapgerî xocêyî (%1)"
 
 #: lpd/kmlpdmanager.cpp:87
+#, fuzzy
 msgid ""
-"_: Unknown Type of local printer queue\n"
+"_: Unknown type of local printer queue\n"
 "Unknown"
 msgstr "Nenasraw"
 
@@ -374,26 +375,6 @@ msgstr "Nimune"
 msgid "Spooler Settings"
 msgstr "Dananewekan"
 
-#: cups/kmcupsuimanager.cpp:115 lpr/kmlpruimanager.cpp:58
-#, fuzzy
-msgid "&Local printer (parallel, serial, USB)"
-msgstr "Çapgerî cêxoyî (parallel, seriell, USB)"
-
-#: cups/kmcupsuimanager.cpp:117 lpr/kmlpruimanager.cpp:59
-#, fuzzy
-msgid "&Remote LPD queue"
-msgstr "Rêzbestî çawerûwanî LPD le ser kompyuterî dûr"
-
-#: lpr/kmlpruimanager.cpp:60
-#, fuzzy
-msgid "&Network printer (TCP)"
-msgstr "Çapgerî tor` (TCP)"
-
-#: cups/kmcupsuimanager.cpp:119 lpr/kmlpruimanager.cpp:61
-#, fuzzy
-msgid "&SMB shared printer (Windows)"
-msgstr "Çapgerî hawbeshî SMB (Windows)"
-
 #: lpr/lpchelper.cpp:235 lpr/lpchelper.cpp:273 lpr/lpchelper.cpp:291
 #: lpr/lpchelper.cpp:314
 #, fuzzy
@@ -506,18 +487,18 @@ msgstr "Korî"
 msgid "Printcap Entry: %1"
 msgstr "Bekarber gor`în"
 
-#: kprintdialog.cpp:93
+#: kprintdialog.cpp:94
 msgid ""
 " <qt> The <em>Location</em> may describe where the selected printer is "
 "located. The Location description is created by the administrator of the "
 "print system (or may be left empty). </qt>"
 msgstr ""
 
-#: kprintdialog.cpp:98
+#: kprintdialog.cpp:99
 msgid " <qt> The <em>Type</em> indicates your printer type. </qt>"
 msgstr ""
 
-#: kprintdialog.cpp:100
+#: kprintdialog.cpp:101
 msgid ""
 " <qt> The <em>State</em>"
 " indicates the state of the print queue on the print server (which could be "
@@ -525,14 +506,14 @@ msgid ""
 "or similar. </qt>"
 msgstr ""
 
-#: kprintdialog.cpp:104
+#: kprintdialog.cpp:105
 msgid ""
 " <qt> The <em>Comment</em> may describe the selected printer. This comment "
 "is created by the administrator of the print system (or may be left empty). "
 "</qt>"
 msgstr ""
 
-#: kprintdialog.cpp:108
+#: kprintdialog.cpp:109
 msgid ""
 " <qt>"
 "Use this combo box to select the printer to which you want to print. If you "
@@ -549,13 +530,13 @@ msgid ""
 "the remote server.</li> </ul> </qt>"
 msgstr ""
 
-#: kprintdialog.cpp:124
+#: kprintdialog.cpp:125
 msgid ""
 " <qt> This button takes you to where you can make decisions regarding all "
 "supported print job options. </qt>"
 msgstr ""
 
-#: kprintdialog.cpp:127
+#: kprintdialog.cpp:128
 msgid ""
 " <qt>"
 "<p> This button reduces the list of visible printers to a shorter, more "
@@ -568,7 +549,7 @@ msgid ""
 "Configuration</em> dialog).</p> </qt>"
 msgstr ""
 
-#: kprintdialog.cpp:136
+#: kprintdialog.cpp:137
 msgid ""
 "<qt> This button starts the <em>KDE Add Printer Wizard</em>. (<b>NOT</b> if "
 "you use <em>\"Generic LPD</em>\" or <em>\"LPRng\"</em>, or <em>\"Print "
@@ -576,7 +557,7 @@ msgid ""
 "or <em>\"RLPR\"</em>) to add locally defined printers to your system. </qt>"
 msgstr ""
 
-#: kprintdialog.cpp:142
+#: kprintdialog.cpp:143
 msgid ""
 " <qt> You can enter any command that would also print for you in a "
 "<em>konsole</em> window. "
@@ -584,14 +565,14 @@ msgid ""
 "<pre>a2ps -P &lt;printername&gt; --medium=A3</pre>. </qt>"
 msgstr ""
 
-#: kprintdialog.cpp:146
+#: kprintdialog.cpp:147
 msgid ""
 " <qt>This button expands or reduces the KDE printing dialog. KDEPrint will "
 "remember what you do here; next time, it will start this dialog 'expanded' "
 "or 'collapsed', depending on the mode you are using this time.... </qt>"
 msgstr ""
 
-#: kprintdialog.cpp:152
+#: kprintdialog.cpp:153
 msgid ""
 " <qt> This button starts a new dialog where you can adjust various settings "
 "of your printing system. Amongst them: "
@@ -604,15 +585,15 @@ msgid ""
 "more....  </qt>"
 msgstr ""
 
-#: kprintdialog.cpp:163
+#: kprintdialog.cpp:164
 msgid " <qt> This button takes you to the complete <em>KDEPrint Manual</em>. </qt>"
 msgstr ""
 
-#: kprintdialog.cpp:167
+#: kprintdialog.cpp:168
 msgid " <qt> This button cancels your print job and quits the kprinter dialog. </qt>"
 msgstr ""
 
-#: kprintdialog.cpp:171
+#: kprintdialog.cpp:172
 msgid ""
 " <qt> This button sends the job to the printing process. If you are sending "
 "non-PostScript files, you may be asked if you want KDE to convert the files "
@@ -620,7 +601,7 @@ msgid ""
 "</qt>"
 msgstr ""
 
-#: kprintdialog.cpp:177
+#: kprintdialog.cpp:178
 msgid ""
 " <qt>"
 "<p>"
@@ -632,7 +613,7 @@ msgid ""
 "quickly.</p> </qt>"
 msgstr ""
 
-#: kprintdialog.cpp:186
+#: kprintdialog.cpp:187
 msgid ""
 " <qt> The \"Output file:\" shows you where your file will be saved if you "
 "decide to \"Print to File\" your job, using one of the KDE <em>Special "
@@ -641,20 +622,20 @@ msgid ""
 "and/or editing the line on the right. </qt>"
 msgstr ""
 
-#: kprintdialog.cpp:193
+#: kprintdialog.cpp:194
 msgid ""
 " <qt> Edit this line to create a path and filename that suits you. (Only "
 "available if you \"Print to File\") </qt>"
 msgstr ""
 
-#: kprintdialog.cpp:197
+#: kprintdialog.cpp:198
 msgid ""
 " <qt> This button calls the \"File Open\" dialog to let you choose a "
 "directory and file name where your \"Print-to-File\" job should be saved. "
 "</qt>"
 msgstr ""
 
-#: kprintdialog.cpp:202
+#: kprintdialog.cpp:203
 msgid ""
 " <qt> This button calls the \"File Open\" dialog to allow you to select a "
 "file for printing. Note, that  "
@@ -666,32 +647,32 @@ msgid ""
 "\"multi-file job\" to the printing system. </ul> </qt>"
 msgstr ""
 
-#: kprintdialog.cpp:213
+#: kprintdialog.cpp:214
 msgid ""
 " <qt> This button removes the highlighted file from the list of files to be "
 "printed. </qt>"
 msgstr ""
 
-#: kprintdialog.cpp:217
+#: kprintdialog.cpp:218
 msgid ""
 " <qt> This button tries to open the highlighted file, so you can view or "
 "edit it before you send it to the printing system. </qt>"
 msgstr ""
 
-#: kprintdialog.cpp:222
+#: kprintdialog.cpp:223
 msgid ""
 " <qt> This button moves the highlighted file up in the list of files to be "
 "printed. (In effect, this changes the order of the files' printout.) </qt>"
 msgstr ""
 
-#: kprintdialog.cpp:227
+#: kprintdialog.cpp:228
 msgid ""
 " <qt>"
 " This button moves the highlighted file down in the list of files to be "
 "printed. (In effect, this changes the order of the files' printout.) </qt>"
 msgstr ""
 
-#: kprintdialog.cpp:232
+#: kprintdialog.cpp:233
 msgid ""
 " <qt> Enable this checkbox if you want to see a preview of your printout. A "
 "preview lets you check if, for instance, your intended \"poster\" or "
@@ -699,7 +680,7 @@ msgid ""
 "also lets you cancel the job if something looks wrong.  </qt>"
 msgstr ""
 
-#: kprintdialog.cpp:239
+#: kprintdialog.cpp:240
 msgid ""
 " <qt>"
 " This button sets the current printer as the user's default. (Button is only "
@@ -708,102 +689,103 @@ msgid ""
 "application\"</em> is disabled.) </qt>"
 msgstr ""
 
-#: kprintdialog.cpp:252 management/kmmainview.cpp:299 management/kmwend.cpp:90
-#: management/smbview.cpp:36
+#: kprintdialog.cpp:253 management/kmmainview.cpp:290 management/kmwend.cpp:90
+#: management/smbview.cpp:37
 msgid "Printer"
 msgstr "Çapger"
 
-#: kprintdialog.cpp:265 management/kmspecialprinterdlg.cpp:56
+#: kprintdialog.cpp:266 management/kmspecialprinterdlg.cpp:56
 #: management/kxmlcommanddlg.cpp:114
 #, fuzzy
 msgid "&Name:"
 msgstr "Naw:"
 
-#: kprintdialog.cpp:267 management/kminfopage.cpp:50
+#: kprintdialog.cpp:268 management/kminfopage.cpp:50
 msgid ""
 "_: Status\n"
 "State:"
 msgstr "Rewush:"
 
-#: kprintdialog.cpp:269 management/kminfopage.cpp:48
+#: kprintdialog.cpp:270 management/kminfopage.cpp:48
 msgid "Type:"
 msgstr "Cor: "
 
-#: kprintdialog.cpp:271 management/kmwname.cpp:40
+#: kprintdialog.cpp:272 management/kmwname.cpp:40
 msgid "Location:"
 msgstr "Naûnîshan:"
 
-#: kprintdialog.cpp:273 management/kxmlcommanddlg.cpp:175
+#: kprintdialog.cpp:274 management/kxmlcommanddlg.cpp:175
 msgid "Comment:"
 msgstr "Têbînî:"
 
-#: kprintdialog.cpp:276
+#: kprintdialog.cpp:277
 #, fuzzy
-msgid "P&roperties..."
-msgstr "Reftarekan..."
+msgid "P&roperties"
+msgstr "Rewûsht"
 
-#: kprintdialog.cpp:278
+#: kprintdialog.cpp:279
 #, fuzzy
 msgid "System Op&tions..."
 msgstr "Helbijardekan..."
 
-#: kprintdialog.cpp:280
+#: kprintdialog.cpp:281
 #, fuzzy
 msgid "Set as &Default"
 msgstr "Wek pênasekirawêk"
 
-#: kprintdialog.cpp:287
+#: kprintdialog.cpp:288
 #, fuzzy
 msgid "Toggle printer filtering"
 msgstr "Dananewekanî çapger"
 
-#: kprintdialog.cpp:292
+#: kprintdialog.cpp:293
 #, fuzzy
 msgid "Add printer..."
 msgstr "Çapger xistineser..."
 
-#: cups/ippreportdlg.cpp:34 cups/ippreportdlg.cpp:41 kprintdialog.cpp:294
+#: cups/ippreportdlg.cpp:34 cups/ippreportdlg.cpp:41 kprintdialog.cpp:295
 #, fuzzy
 msgid "&Print"
 msgstr "Çap"
 
-#: kprintdialog.cpp:300
+#: kprintdialog.cpp:301
 #, fuzzy
 msgid "Previe&w"
 msgstr "Xistiner`û"
 
-#: kprintdialog.cpp:302
+#: kprintdialog.cpp:303
 #, fuzzy
 msgid "O&utput file:"
 msgstr "Dosyey derçû:"
 
-#: kprintdialog.cpp:308
+#: kprintdialog.cpp:309
 #, fuzzy
 msgid "Print co&mmand:"
 msgstr "Firmanî çap:"
 
-#: kprintdialog.cpp:317
+#: kprintdialog.cpp:318
 #, fuzzy
 msgid "Show/hide advanced options"
 msgstr "Xistinerûy gisht helbijardekan"
 
-#: kprintdialog.cpp:319
+#: kprintdialog.cpp:320
 msgid "&Keep this dialog open after printing"
 msgstr ""
 
-#: kprintdialog.cpp:531 kprintdialog.cpp:903
+#: kprintdialog.cpp:532 kprintdialog.cpp:918
 msgid "An error occurred while retrieving the printer list:"
 msgstr ""
 
-#: kprintdialog.cpp:694
+#: kprintdialog.cpp:696
+#, fuzzy
 msgid "The output filename is empty."
 msgstr "Dosyeynawî derçû xaliye."
 
-#: kprintdialog.cpp:727
+#: kprintdialog.cpp:735
 msgid "You don't have write permissions to this file."
 msgstr "Êwe lem dosyeyeda mafî nusîntan niye."
 
-#: kprintdialog.cpp:733
+#: kprintdialog.cpp:741
 #, fuzzy
 msgid "The output directory does not exist."
 msgstr ""
@@ -811,30 +793,30 @@ msgstr ""
 "%1\n"
 "bûnî niye."
 
-#: kprintdialog.cpp:735
+#: kprintdialog.cpp:743
 msgid "You don't have write permissions in that directory."
 msgstr "Êwe bo em rabere mafî nusîntan niye."
 
-#: kprintdialog.cpp:842
+#: kprintdialog.cpp:854
 #, fuzzy
 msgid "Collaps&e"
 msgstr "Komkirdin"
 
-#: kprintdialog.cpp:851
+#: kprintdialog.cpp:866
 #, fuzzy
 msgid "&Expand"
 msgstr "Dîmenî têrûtesel"
 
-#: kprintdialog.cpp:893
+#: kprintdialog.cpp:908
 msgid "Initializing printing system..."
 msgstr ""
 
-#: kprintdialog.cpp:929
+#: kprintdialog.cpp:944
 #, fuzzy
 msgid "Print to File"
 msgstr "le dosyeda çapî bike"
 
-#: kmprinter.cpp:181 kprintdialog.cpp:947
+#: kmprinter.cpp:197 kprintdialog.cpp:962
 #, fuzzy
 msgid "All Files"
 msgstr "*|Gisht dosiyekan"
@@ -1019,29 +1001,30 @@ msgstr ""
 "çapger denêrdrên. Eger xwazyarî çapkirdinî dêr`ekanî rûbergû "
 "pashberg nît <b>hîç</b>helbijêre.</p>"
 
-#: cups/cupsaddsmb2.cpp:54 cups/cupsaddsmb2.cpp:362
+#: cups/cupsaddsmb2.cpp:55 cups/cupsaddsmb2.cpp:363
 #, fuzzy
 msgid "&Export"
 msgstr "Bo derewe"
 
-#: cups/cupsaddsmb2.cpp:60
+#: cups/cupsaddsmb2.cpp:61
 msgid "Export printer driver to Windows clients"
 msgstr ""
 
-#: cups/cupsaddsmb2.cpp:71
+#: cups/cupsaddsmb2.cpp:72
+#, fuzzy
 msgid "&Username:"
 msgstr "&Bekarber:"
 
-#: cups/cupsaddsmb2.cpp:72
+#: cups/cupsaddsmb2.cpp:73
 #, fuzzy
 msgid "&Samba server:"
 msgstr "Kargêr`"
 
-#: cups/cupsaddsmb2.cpp:73 management/kmwpassword.cpp:50
+#: cups/cupsaddsmb2.cpp:74 management/kmwpassword.cpp:50
 msgid "&Password:"
 msgstr "&Nihênî:"
 
-#: cups/cupsaddsmb2.cpp:78
+#: cups/cupsaddsmb2.cpp:79
 msgid ""
 "<p><b>Samba server</b></p>Adobe Windows PostScript driver files plus the "
 "CUPS printer PPD will be exported to the <tt>[print$]</tt> special share of "
@@ -1051,7 +1034,7 @@ msgid ""
 "<b>Export</b> button below."
 msgstr ""
 
-#: cups/cupsaddsmb2.cpp:87
+#: cups/cupsaddsmb2.cpp:88
 msgid ""
 "<p><b>Samba username</b></p>User needs to have write access to the "
 "<tt>[print$]</tt> share on the Samba server. <tt>[print$]</tt>"
@@ -1060,39 +1043,39 @@ msgid ""
 "(but works fine with <tt>security = user</tt>)."
 msgstr ""
 
-#: cups/cupsaddsmb2.cpp:95
+#: cups/cupsaddsmb2.cpp:96
 msgid ""
 "<p><b>Samba password</b></p>The Samba setting <tt>encrypt passwords = "
 "yes</tt> (default) requires prior use of <tt>smbpasswd -a [username]</tt> "
 "command, to create an encrypted Samba password and have Samba recognize it."
 msgstr ""
 
-#: cups/cupsaddsmb2.cpp:266
+#: cups/cupsaddsmb2.cpp:267
 #, fuzzy, c-format
 msgid "Creating folder %1"
 msgstr "Bawl nwê drust debê"
 
-#: cups/cupsaddsmb2.cpp:274
+#: cups/cupsaddsmb2.cpp:275
 #, fuzzy, c-format
 msgid "Uploading %1"
 msgstr ""
 "Hele le barkirdinî \"%1\"\n"
 
-#: cups/cupsaddsmb2.cpp:282
+#: cups/cupsaddsmb2.cpp:283
 #, fuzzy, c-format
 msgid "Installing driver for %1"
 msgstr "Raberî damezrandin (install)"
 
-#: cups/cupsaddsmb2.cpp:290
+#: cups/cupsaddsmb2.cpp:291
 #, fuzzy, c-format
 msgid "Installing printer %1"
 msgstr "Taqîkirdinewey çapger"
 
-#: cups/cupsaddsmb2.cpp:332
+#: cups/cupsaddsmb2.cpp:333
 msgid "Driver successfully exported."
 msgstr ""
 
-#: cups/cupsaddsmb2.cpp:342
+#: cups/cupsaddsmb2.cpp:343
 msgid ""
 "Operation failed. Possible reasons are: permission denied or invalid Samba "
 "configuration (see <a href=\"man:/cupsaddsmb\">cupsaddsmb</a> manual page "
@@ -1101,17 +1084,17 @@ msgid ""
 "login/password."
 msgstr ""
 
-#: cups/cupsaddsmb2.cpp:351
+#: cups/cupsaddsmb2.cpp:352
 #, fuzzy
 msgid "Operation aborted (process killed)."
 msgstr "Çalakî"
 
-#: cups/cupsaddsmb2.cpp:357
+#: cups/cupsaddsmb2.cpp:358
 #, fuzzy
-msgid "<h3>Operation failed!</h3><p>%1</p>"
+msgid "<h3>Operation failed.</h3><p>%1</p>"
 msgstr "Çalakî"
 
-#: cups/cupsaddsmb2.cpp:372
+#: cups/cupsaddsmb2.cpp:373
 msgid ""
 "You are about to prepare the <b>%1</b> driver to be shared out to Windows "
 "clients through Samba. This operation requires the <a "
@@ -1123,7 +1106,7 @@ msgid ""
 "window to learn more about this functionality."
 msgstr ""
 
-#: cups/cupsaddsmb2.cpp:392
+#: cups/cupsaddsmb2.cpp:393
 msgid ""
 "Some driver files are missing. You can get them on <a "
 "href=\"http://www.adobe.com\">Adobe</a> web site. See <a "
@@ -1131,21 +1114,21 @@ msgid ""
 "need <a href=\"http://www.cups.org\">CUPS</a> version 1.1.11 or higher)."
 msgstr ""
 
-#: cups/cupsaddsmb2.cpp:403
+#: cups/cupsaddsmb2.cpp:404
 #, fuzzy, c-format
 msgid "Preparing to upload driver to host %1"
 msgstr "Peywendî dekrê be host <b>%1</b>."
 
-#: cups/cupsaddsmb2.cpp:408 management/networkscanner.cpp:149
+#: cups/cupsaddsmb2.cpp:409 management/networkscanner.cpp:149
 #, fuzzy
 msgid "&Abort"
 msgstr "Helweshandin"
 
-#: cups/cupsaddsmb2.cpp:414
+#: cups/cupsaddsmb2.cpp:415
 msgid "The driver for printer <b>%1</b> could not be found."
 msgstr ""
 
-#: cups/cupsaddsmb2.cpp:454
+#: cups/cupsaddsmb2.cpp:455
 #, fuzzy, c-format
 msgid "Preparing to install driver on host %1"
 msgstr "Peywendî dekrê be host <b>%1</b>."
@@ -1157,57 +1140,57 @@ msgstr "Helbijardinî çapgerêkî IPP le kompyuterî dûr"
 
 #: cups/kmwippselect.cpp:49
 #, fuzzy
-msgid "You must select a printer!"
+msgid "You must select a printer."
 msgstr "Pêwîste çapgerêk helbijêrît."
 
-#: cups/ipprequest.cpp:101
+#: cups/ipprequest.cpp:110
 #, fuzzy
 msgid "You don't have access to the requested resource."
 msgstr "Êwe lem dosyeyeda mafî nusîntan niye."
 
-#: cups/ipprequest.cpp:104
+#: cups/ipprequest.cpp:113
 #, fuzzy
 msgid "You are not authorized to access the requested resource."
 msgstr "Êwe lem dosyeyeda mafî nusîntan niye."
 
-#: cups/ipprequest.cpp:107
+#: cups/ipprequest.cpp:116
 #, fuzzy
 msgid "The requested operation cannot be completed."
 msgstr "Ew kare leber destda niye."
 
-#: cups/ipprequest.cpp:110
+#: cups/ipprequest.cpp:119
 msgid "The requested service is currently unavailable."
 msgstr ""
 
-#: cups/ipprequest.cpp:113
+#: cups/ipprequest.cpp:122
 msgid "The target printer is not accepting print jobs."
 msgstr ""
 
-#: cups/ipprequest.cpp:224
+#: cups/ipprequest.cpp:233
 msgid ""
 "Connection to CUPS server failed. Check that the CUPS server is correctly "
 "installed and running."
 msgstr ""
 
-#: cups/ipprequest.cpp:227
+#: cups/ipprequest.cpp:236
 msgid "The IPP request failed for an unknown reason."
 msgstr ""
 
-#: cups/ipprequest.cpp:328
+#: cups/ipprequest.cpp:344
 #, fuzzy
 msgid "Attribute"
 msgstr "Attributes"
 
-#: cups/ipprequest.cpp:329
+#: cups/ipprequest.cpp:345
 #, fuzzy
 msgid "Values"
 msgstr "Nirx:"
 
-#: cups/ipprequest.cpp:360
+#: cups/ipprequest.cpp:376
 msgid "True"
 msgstr "Dirust"
 
-#: cups/ipprequest.cpp:360
+#: cups/ipprequest.cpp:376
 msgid "False"
 msgstr "Nadirust"
 
@@ -1245,11 +1228,11 @@ msgstr ""
 msgid "None"
 msgstr "Hîç kes"
 
-#: cups/kmwipp.cpp:34
+#: cups/kmwipp.cpp:35
 msgid "Remote IPP server"
 msgstr "Kargêr`î IPP leser kompyuterî dûr"
 
-#: cups/kmwipp.cpp:37
+#: cups/kmwipp.cpp:39
 msgid ""
 "<p>Enter the information concerning the remote IPP server owning the "
 "targeted printer. This wizard will poll the server before continuing.</p>"
@@ -1258,27 +1241,27 @@ msgstr ""
 "mebestîpêwebende. Raper`êner piris be kargêr dekat, pêsh ewey dirêje "
 "be karbidat.</p>"
 
-#: cups/kmwipp.cpp:40 management/kmwlpd.cpp:46 rlpr/kmproprlpr.cpp:34
+#: cups/kmwipp.cpp:42 management/kmwlpd.cpp:46 rlpr/kmproprlpr.cpp:34
 #: rlpr/kmwrlpr.cpp:62
 msgid "Host:"
 msgstr "Kopyuter:"
 
-#: cups/kmwipp.cpp:41
+#: cups/kmwipp.cpp:43
 msgid "Port:"
 msgstr "Bender (Port):"
 
-#: cups/kmwipp.cpp:49
-#, fuzzy
-msgid "Empty server name!"
-msgstr "Nebûnî nawî kargêr`"
+#: cups/kmwipp.cpp:52 management/kmwsmb.cpp:79
+msgid "Empty server name."
+msgstr "Nebûnî nawî kergêr`."
 
-#: cups/kmwipp.cpp:56
+#: cups/kmwipp.cpp:59
 #, fuzzy
-msgid "Incorrect port number!"
+msgid "Incorrect port number."
 msgstr "Zaniyarî nacorî bender!"
 
-#: cups/kmwipp.cpp:69
-msgid "<nobr>Unable to connect to <b>%1</b> on port <b>%2</b> !</nobr>"
+#: cups/kmwipp.cpp:72
+#, fuzzy
+msgid "<nobr>Unable to connect to <b>%1</b> on port <b>%2</b> .</nobr>"
 msgstr ""
 "<nobr>Natwandrê peywendî bigîrê be <b>%1</b> le benderî <b>%2</b> "
 "</nobr>"
@@ -1415,8 +1398,8 @@ msgstr ""
 msgid "Additional Tags"
 msgstr "Helbijardekanî trî GhostScript"
 
-#: cups/kptagspage.cpp:51 kfilelist.cpp:93 kpfilterpage.cpp:308
-#: management/kmjobviewer.cpp:235 management/kmwend.cpp:51
+#: cups/kptagspage.cpp:51 kfilelist.cpp:93 kpfilterpage.cpp:309
+#: management/kmjobviewer.cpp:237 management/kmwend.cpp:51
 #: management/kxmlcommanddlg.cpp:141 management/kxmlcommanddlg.cpp:544
 msgid "Name"
 msgstr "Naw"
@@ -1436,30 +1419,66 @@ msgstr "Tenha xuwêndinewe"
 msgid "The tag name must not contain any spaces: <b>%1</b>."
 msgstr "Nimûnenaw nabê boshayî têdabêt."
 
-#: cups/kmcupsuimanager.cpp:83 cups/kmcupsuimanager.cpp:86
-#: cups/kmcupsuimanager.cpp:89 cups/kmcupsuimanager.cpp:92
-#: cups/kmcupsuimanager.cpp:95 cups/kmcupsuimanager.cpp:98
-#: cups/kmcupsuimanager.cpp:101 cups/kmcupsuimanager.cpp:104
-#: cups/kmcupsuimanager.cpp:107 cups/kmcupsuimanager.cpp:110
-msgid "<qt><p> </p>. </qt>"
+#: cups/kmcupsuimanager.cpp:84
+msgid ""
+"<qt>"
+"<p>Print queue on remote CUPS server</p>"
+"<p>Use this for a print queue installed on a remote machine running a CUPS "
+"server. This allows to use remote printers when CUPS browsing is turned "
+"off.</p></qt>"
 msgstr ""
 
-#: cups/kmcupsuimanager.cpp:121
-#, fuzzy
-msgid "Ne&twork printer (TCP)"
-msgstr "Çapgerî tor` (TCP)"
+#: cups/kmcupsuimanager.cpp:91
+msgid ""
+"<qt>"
+"<p>Network IPP printer</p>"
+"<p>Use this for a network-enabled printer using the IPP protocol. Modern "
+"high-end printers can use this mode. Use this mode instead of TCP if your "
+"printer can do both.</p></qt>"
+msgstr ""
 
-#: cups/kmcupsuimanager.cpp:123
+#: cups/kmcupsuimanager.cpp:98
+msgid ""
+"<qt>"
+"<p>Fax/Modem printer</p>"
+"<p>Use this for a fax/modem printer. This requires the installation of the "
+"<a href=\"http://vigna.dsi.unimi.it/fax4CUPS/\">fax4CUPS</a> backend. "
+"Documents sent on this printer will be faxed to the given target fax "
+"number.</p></qt>"
+msgstr ""
+
+#: cups/kmcupsuimanager.cpp:105
+msgid ""
+"<qt>"
+"<p>Other printer</p>"
+"<p>Use this for any printer type. To use this option, you must know the URI "
+"of the printer you want to install. Refer to the CUPS documentation for more "
+"information about the printer URI. This option is mainly useful for printer "
+"types using 3rd party backends not covered by the other "
+"possibilities.</p></qt>"
+msgstr ""
+
+#: cups/kmcupsuimanager.cpp:113
+msgid ""
+"<qt>"
+"<p>Class of printers</p>"
+"<p>Use this to create a class of printers. When sending a document to a "
+"class, the document is actually sent to the first available (idle) printer "
+"in the class. Refer to the CUPS documentation for more information about "
+"class of printers.</p></qt>"
+msgstr ""
+
+#: cups/kmcupsuimanager.cpp:126
 #, fuzzy
 msgid "Re&mote CUPS server (IPP/HTTP)"
 msgstr "Kargêr`î CUPS (IPP/HTTP) leser Kompyuterî dûr"
 
-#: cups/kmcupsuimanager.cpp:125
+#: cups/kmcupsuimanager.cpp:127
 #, fuzzy
 msgid "Network printer w/&IPP (IPP/HTTP)"
 msgstr "Çapgerî tor` w/IPP (IPP/HTTP)"
 
-#: cups/kmcupsuimanager.cpp:127
+#: cups/kmcupsuimanager.cpp:128
 #, fuzzy
 msgid "S&erial Fax/Modem printer"
 msgstr "Çapgerî Serial Fax / Modem"
@@ -1469,17 +1488,17 @@ msgstr "Çapgerî Serial Fax / Modem"
 msgid "Other &printer type"
 msgstr "Corî çapger:"
 
-#: cups/kmcupsuimanager.cpp:133
+#: cups/kmcupsuimanager.cpp:131
 #, fuzzy
 msgid "Cl&ass of printers"
 msgstr "Polî çapger"
 
-#: cups/kmcupsuimanager.cpp:212
+#: cups/kmcupsuimanager.cpp:209
 #, fuzzy
 msgid "Priority"
 msgstr "Pêshû"
 
-#: cups/kmcupsuimanager.cpp:214
+#: cups/kmcupsuimanager.cpp:211
 #, fuzzy
 msgid "Billing Information"
 msgstr "Agadarî"
@@ -1497,60 +1516,60 @@ msgstr "<p>Ew amêre helbijêre ke Fax/Modem î serialî pêwe bestrawe.</p>"
 msgid "You must select a device."
 msgstr "Pêwîste amêrêk helbijêrî."
 
-#: cups/kmcupsmanager.cpp:742
+#: cups/kmcupsmanager.cpp:745
 #, fuzzy
-msgid "Library libcupsdconf not found. Check your installation."
+msgid "Library cupsdconf not found. Check your installation."
 msgstr ""
 "Dosyexaney <b>libcupsdconf</b> nedozrêtewe. Çaw be damezrêndraweketda "
 "bixshênewe."
 
-#: cups/kmcupsmanager.cpp:748
+#: cups/kmcupsmanager.cpp:751
 #, fuzzy
-msgid "Symbol %1 not found in libcupsdconf library."
+msgid "Symbol %1 not found in cupsdconf library."
 msgstr "Hêmay <b>%1</b> le dosyexaney \"libcupsdconf\" nedozrêtewe."
 
-#: cups/kmcupsmanager.cpp:823
+#: cups/kmcupsmanager.cpp:826
 #, fuzzy
 msgid "&Export Driver..."
 msgstr "Bo derewe"
 
-#: cups/kmcupsmanager.cpp:825
+#: cups/kmcupsmanager.cpp:828
 #, fuzzy
 msgid "&Printer IPP Report..."
 msgstr "IP çapger"
 
-#: cups/kmcupsmanager.cpp:871
+#: cups/kmcupsmanager.cpp:874
 #, fuzzy, c-format
 msgid "IPP report for %1"
 msgstr "Reftarekan bo %1"
 
-#: cups/kmcupsmanager.cpp:875
+#: cups/kmcupsmanager.cpp:878
 #, fuzzy
 msgid "Unable to retrieve printer information. Error received:"
 msgstr "Natwandrê zaniyariyekanî pol diyarî bikrên%1."
 
-#: cups/kmcupsmanager.cpp:887
+#: cups/kmcupsmanager.cpp:890
 #, fuzzy
 msgid "Connected to %1:%2"
 msgstr "Peywendîkira be kompyuterî %1"
 
-#: cups/kmcupsmanager.cpp:925 cups/kmcupsmanager.cpp:952
+#: cups/kmcupsmanager.cpp:928 cups/kmcupsmanager.cpp:955
 #, c-format
 msgid ""
 "Connection to CUPS server failed. Check that the CUPS server is correctly "
 "installed and running. Error: %1."
 msgstr ""
 
-#: cups/kmcupsmanager.cpp:926
+#: cups/kmcupsmanager.cpp:929
 msgid "the IPP request failed for an unknown reason"
 msgstr ""
 
-#: cups/kmcupsmanager.cpp:953
+#: cups/kmcupsmanager.cpp:956
 #, fuzzy
 msgid "connection refused"
 msgstr "Peywendî piçra"
 
-#: cups/kmcupsmanager.cpp:953
+#: cups/kmcupsmanager.cpp:956
 #, fuzzy
 msgid "host not found"
 msgstr "Kompyuter (host) dozrayewe"
@@ -1600,15 +1619,16 @@ msgstr "Bo nawewe"
 
 #: cups/kmwippprinter.cpp:112
 #, fuzzy
-msgid "You must enter a printer URI!"
+msgid "You must enter a printer URI."
 msgstr "Pêwîste URI yî çapger destnîshan biken."
 
 #: cups/kmwippprinter.cpp:119 management/kmwsocket.cpp:116
 #, fuzzy
-msgid "No printer found at this address/port!"
+msgid "No printer found at this address/port."
 msgstr "Le jêr em nawûnîshane yan bendere hîç çapgerêk peydanekira."
 
 #: cups/kmwippprinter.cpp:139 management/kmwsocket.cpp:135
+#, fuzzy
 msgid ""
 "_: Unknown host - 1 is the IP\n"
 "<Unknown> (%1)"
@@ -1771,7 +1791,7 @@ msgstr ""
 
 #: cups/kmwquota.cpp:130
 #, fuzzy
-msgid "You must at least specify one quota limit!"
+msgid "You must specify at least one quota limit."
 msgstr ""
 "Pêwîste dosyeyekî tênusîn bekarbênî.\n"
 
@@ -1948,7 +1968,7 @@ msgstr "Çapgerî pênasekiraw niye"
 msgid "Queue"
 msgstr "Rêzbestî çapger"
 
-#: management/kmwsmb.cpp:79 rlpr/kmrlprmanager.cpp:45
+#: management/kmwsmb.cpp:81 rlpr/kmrlprmanager.cpp:45
 msgid "Empty printer name."
 msgstr "Nebûnî nawî çapger"
 
@@ -2010,7 +2030,7 @@ msgstr ""
 msgid "&Use direct connection (might need root permissions)"
 msgstr ""
 
-#: management/kmwsmb.cpp:45 tools/escputil/escpwidget.cpp:96
+#: management/kmwsmb.cpp:46 tools/escputil/escpwidget.cpp:96
 #, fuzzy
 msgid "Printer:"
 msgstr "Çapger"
@@ -2079,12 +2099,12 @@ msgstr "Heley nawxo: filter nadozrêtewe."
 msgid "Operation terminated with errors."
 msgstr "Çalakî lelayen bekarhênerewe westênra"
 
-#: kpfilterpage.cpp:311 tools/escputil/escpwidget.cpp:214
+#: kpfilterpage.cpp:312 tools/escputil/escpwidget.cpp:214
 #, fuzzy
 msgid "Output"
 msgstr "Dosyey derçû:"
 
-#: management/kmmainview.cpp:73
+#: management/kmmainview.cpp:71
 #, fuzzy
 msgid ""
 "The printer %1 already exists. Continuing will overwrite existing printer. "
@@ -2093,255 +2113,265 @@ msgstr ""
 "<nobr>Çapgerî <b>%1</b> bûnî heye. Berdewam bûnit debête "
 "hoy<br>lebirîdananî em çapgerey êstat. Detewê berdewam bît?</nobr>"
 
-#: management/kmmainview.cpp:143 management/kmmainview.cpp:760
-#: management/kmmainview.cpp:863
+#: management/kmmainview.cpp:132 management/kmmainview.cpp:779
+#: management/kmmainview.cpp:855 management/kmmainview.cpp:879
 msgid "Initializing manager..."
 msgstr ""
 
-#: management/kmmainview.cpp:191
+#: management/kmmainview.cpp:179
 #, fuzzy
 msgid "&Icons,&List,&Tree"
 msgstr "Hêmakan,Lîstekan,dirext"
 
-#: management/kmmainview.cpp:195
+#: management/kmmainview.cpp:183
 #, fuzzy
 msgid "Start/Stop Printer"
 msgstr "Çapkirdin leser çapger"
 
-#: management/kmmainview.cpp:197
+#: management/kmmainview.cpp:185
 #, fuzzy
 msgid "&Start Printer"
 msgstr "Çapkirdinî dûr`û"
 
-#: management/kmmainview.cpp:198
+#: management/kmmainview.cpp:186
 #, fuzzy
 msgid "Sto&p Printer"
 msgstr "Çapkirdinî dûr`û"
 
-#: management/kmmainview.cpp:200
+#: management/kmmainview.cpp:188
 msgid "Enable/Disable Job Spooling"
 msgstr ""
 
-#: management/kmmainview.cpp:202
+#: management/kmmainview.cpp:190
 msgid "&Enable Job Spooling"
 msgstr ""
 
-#: management/kmmainview.cpp:203
+#: management/kmmainview.cpp:191
 msgid "&Disable Job Spooling"
 msgstr ""
 
-#: management/kmmainview.cpp:206
+#: management/kmmainview.cpp:194
 #, fuzzy
 msgid "&Configure..."
 msgstr "&Çawdêrî %1..."
 
-#: management/kmmainview.cpp:207
+#: management/kmmainview.cpp:195
 #, fuzzy
 msgid "Add &Printer/Class..."
 msgstr "Xistineserî çapger/pol...."
 
-#: management/kmmainview.cpp:208
+#: management/kmmainview.cpp:196
 #, fuzzy
 msgid "Add &Special (pseudo) Printer..."
 msgstr "Xistineserî çapgerî taybet..."
 
-#: management/kmmainview.cpp:209
+#: management/kmmainview.cpp:197
 #, fuzzy
 msgid "Set as &Local Default"
 msgstr "Wek standardî cêxoyî daynê"
 
-#: management/kmmainview.cpp:210
+#: management/kmmainview.cpp:198
 #, fuzzy
 msgid "Set as &User Default"
 msgstr "Wek Bekarberî asayî daybinê"
 
-#: management/kmmainview.cpp:211
+#: management/kmmainview.cpp:199
 #, fuzzy
 msgid "&Test Printer..."
 msgstr "Taqîkirdinewey çapger"
 
-#: management/kmmainview.cpp:212
+#: management/kmmainview.cpp:200
 #, fuzzy
 msgid "Configure &Manager..."
 msgstr "Ber`êweberî dananewe"
 
-#: management/kmmainview.cpp:213
+#: management/kmmainview.cpp:201
 msgid "Initialize Manager/&View"
 msgstr ""
 
-#: management/kmmainview.cpp:215
+#: management/kmmainview.cpp:203
 #, fuzzy
 msgid "&Orientation"
 msgstr "Rêr`ew"
 
-#: management/kmmainview.cpp:218
+#: management/kmmainview.cpp:206
 #, fuzzy
 msgid "&Vertical,&Horizontal"
 msgstr "Shawulî,Asoyî"
 
-#: management/kmmainview.cpp:222
+#: management/kmmainview.cpp:210
 #, fuzzy
 msgid "R&estart Server"
 msgstr "Serlenwê dagîrsandinewey kargêr`"
 
-#: management/kmmainview.cpp:223
+#: management/kmmainview.cpp:211
 #, fuzzy
 msgid "Configure &Server..."
 msgstr "Çawdêrî kargêr`"
 
-#: management/kmmainview.cpp:225
+#: management/kmmainview.cpp:214
 #, fuzzy
-msgid "View &Toolbar"
+msgid "Hide &Toolbar"
 msgstr "Xistiner`ûy sekoy kereste"
 
-#: management/kmmainview.cpp:227
+#: management/kmmainview.cpp:216
 #, fuzzy
-msgid "View Me&nu Toolbar"
+msgid "Show Me&nu Toolbar"
+msgstr "Sekoy &kereste"
+
+#: management/kmmainview.cpp:217
+#, fuzzy
+msgid "Hide Me&nu Toolbar"
 msgstr "Xistiner`ûy sekoy kereste"
 
-#: management/kmmainview.cpp:229
+#: management/kmmainview.cpp:219
 #, fuzzy
-msgid "Show/Hide Pr&inter Details"
+msgid "Show Pr&inter Details"
 msgstr "Xistinerûy gisht helbijardekan"
 
-#: management/kmmainview.cpp:233
+#: management/kmmainview.cpp:220
+#, fuzzy
+msgid "Hide Pr&inter Details"
+msgstr "Xistinerûy gisht helbijardekan"
+
+#: management/kmmainview.cpp:224
 #, fuzzy
 msgid "Toggle Printer &Filtering"
 msgstr "Dananewekanî çapger"
 
-#: management/kmmainview.cpp:237
+#: management/kmmainview.cpp:228
 msgid "%1 &Handbook"
 msgstr ""
 
-#: management/kmmainview.cpp:238
+#: management/kmmainview.cpp:229
 msgid "%1 &Web Site"
 msgstr ""
 
-#: management/kmmainview.cpp:240
+#: management/kmmainview.cpp:231
 #, fuzzy
 msgid "Pri&nter Tools"
 msgstr "Çapger"
 
-#: management/kmmainview.cpp:305
+#: management/kmmainview.cpp:296
 #, fuzzy
 msgid "Print Server"
 msgstr "Çapger"
 
-#: management/kmmainview.cpp:311
+#: management/kmmainview.cpp:302
 #, fuzzy
 msgid "Print Manager"
 msgstr "Çapger"
 
-#: management/kmmainview.cpp:328
+#: management/kmmainview.cpp:319
 #, fuzzy
 msgid "Documentation"
 msgstr "Rebîniyekan: %1"
 
-#: management/kmmainview.cpp:348
+#: management/kmmainview.cpp:340
 msgid "An error occurred while retrieving the printer list."
 msgstr ""
 
-#: management/kmmainview.cpp:494
+#: management/kmmainview.cpp:514
 #, fuzzy, c-format
 msgid "Unable to modify the state of printer %1."
 msgstr "Natwandrê dananewekanî çapgerî <b>%1</b> bigor`drên."
 
-#: management/kmmainview.cpp:505
+#: management/kmmainview.cpp:525
 #, fuzzy
 msgid "Do you really want to remove %1?"
 msgstr "<nobr>Dilniyay le lenawbirdinî <b>%1</b> ?</nobr>"
 
-#: management/kmmainview.cpp:509
+#: management/kmmainview.cpp:529
 #, fuzzy, c-format
 msgid "Unable to remove special printer %1."
 msgstr "Natwandrê çapgerî taybetî <b>%1</b> lenawbibrê."
 
-#: management/kmmainview.cpp:512
+#: management/kmmainview.cpp:532
 #, fuzzy, c-format
 msgid "Unable to remove printer %1."
 msgstr "Natwandrê çapgerî <b>%1</b> lenawbibrê."
 
-#: management/kmmainview.cpp:542
+#: management/kmmainview.cpp:562
 #, c-format
 msgid "Configure %1"
 msgstr "Çawdêrî %1"
 
-#: management/kmmainview.cpp:549
+#: management/kmmainview.cpp:569
 #, fuzzy, c-format
 msgid "Unable to modify settings of printer %1."
 msgstr "Natwandrê dananewekanî çapgerî <b>%1</b> bigor`drên."
 
-#: management/kmmainview.cpp:553
+#: management/kmmainview.cpp:573
 #, fuzzy, c-format
 msgid "Unable to load a valid driver for printer %1."
 msgstr "Natwandrê weger`xerêkî guncaw bo çapgerî <b>%1</b> barbikrê."
 
-#: management/kmmainview.cpp:565
+#: management/kmmainview.cpp:585
 msgid "Unable to create printer."
 msgstr "Natwandrê çapger amadebikrê."
 
-#: management/kmmainview.cpp:577
+#: management/kmmainview.cpp:597
 #, fuzzy
 msgid "Unable to define printer %1 as default."
 msgstr "Natwandrê çapgerî <b>%1</b> wek çapgerî asayî demezrênrê."
 
-#: management/kminstancepage.cpp:265 management/kmmainview.cpp:612
+#: management/kminstancepage.cpp:265 management/kmmainview.cpp:632
 msgid "You are about to print a test page on %1. Do you want to continue?"
 msgstr ""
 
-#: management/kminstancepage.cpp:265 management/kmmainview.cpp:612
+#: management/kminstancepage.cpp:265 management/kmmainview.cpp:632
 #, fuzzy
 msgid "Print Test Page"
 msgstr "Çapkirdinî buwar"
 
-#: management/kminstancepage.cpp:270 management/kmmainview.cpp:615
+#: management/kminstancepage.cpp:270 management/kmmainview.cpp:635
 #, fuzzy, c-format
 msgid "Test page successfully sent to printer %1."
 msgstr "<nobr>Laperey nimûne be dirûstî rewanekira bo <b>%1</b>.</nobr>"
 
-#: management/kmmainview.cpp:617
+#: management/kmmainview.cpp:637
 #, fuzzy, c-format
 msgid "Unable to test printer %1."
 msgstr "Natwandrê çapger taqîbikrêtewe: "
 
-#: management/kmmainview.cpp:630
+#: management/kmmainview.cpp:650
 #, fuzzy
 msgid "Error message received from manager:</p><p>%1</p>"
 msgstr "Peyamî kêshe le bernamey ber`êweberewe geyîsht:<br><br>%1"
 
-#: management/kmmainview.cpp:632
+#: management/kmmainview.cpp:652
 #, fuzzy
 msgid "Internal error (no error message)."
 msgstr ""
 "Heley nawxoyî kargêr` (server)\n"
 "%1"
 
-#: management/kmmainview.cpp:650
+#: management/kmmainview.cpp:670
 msgid "Unable to restart print server."
 msgstr "Natwandrê kargêr`î çapger weger`bixrêtewe."
 
-#: management/kmmainview.cpp:656
+#: management/kmmainview.cpp:675
 #, fuzzy
 msgid "Restarting server..."
 msgstr "Serlenwê dagîrsandinewey kargêr`"
 
-#: management/kmmainview.cpp:667
+#: management/kmmainview.cpp:685
 msgid "Unable to configure print server."
 msgstr "Natwandrê kargêr`î çapger çawdêrîbikrê."
 
-#: management/kmmainview.cpp:673
+#: management/kmmainview.cpp:690
 #, fuzzy
 msgid "Configuring server..."
 msgstr "Çawdêrî kargêr`"
 
-#: management/kmmainview.cpp:820
+#: management/kmmainview.cpp:838
 msgid ""
 "Unable to start printer tool. Possible reasons are: no printer selected, the "
 "selected printer doesn't have any local device defined (printer port), or "
 "the tool library could not be found."
 msgstr ""
 
-#: management/kmmainview.cpp:844
+#: management/kmmainview.cpp:862
 #, fuzzy
 msgid "Unable to retrieve the printer list."
 msgstr "Natwandrê çapger amadebikrê."
@@ -2399,6 +2429,11 @@ msgstr "Laper`ey dawakiraw nadorzrêtewe."
 #, fuzzy
 msgid "&Finish"
 msgstr "Payan"
+
+#: management/kdeprint_management_module.cpp:48
+#, fuzzy
+msgid "Select Command"
+msgstr "Helbijardinî pîtcor"
 
 #: management/kmwlocal.cpp:38
 #, fuzzy
@@ -2504,10 +2539,11 @@ msgid ""
 msgstr "Nenasraw"
 
 #: management/kminfopage.cpp:44 management/kmpropgeneral.cpp:38
+#, fuzzy
 msgid ""
 "_: Physical Location\n"
 "Location:"
-msgstr ""
+msgstr "Naûnîshan"
 
 #: management/kminfopage.cpp:46 management/kmpropgeneral.cpp:39
 #: management/kmwname.cpp:41
@@ -2549,6 +2585,7 @@ msgid "Special (pseudo) printer"
 msgstr "Çapgerî taybet"
 
 #: management/kminfopage.cpp:121
+#, fuzzy
 msgid ""
 "_: Unknown class of printer\n"
 "Unknown"
@@ -2571,7 +2608,7 @@ msgstr "Çapgerî pol"
 
 #: management/kmwclass.cpp:79
 #, fuzzy
-msgid "You must select at least one printer!"
+msgid "You must select at least one printer."
 msgstr "Pêwîste belayenî kemewe çapgerêk helbijêrît!"
 
 #: management/kmpropgeneral.cpp:37
@@ -2674,14 +2711,13 @@ msgstr ""
 msgid "Print to file:"
 msgstr "Çapkirdin le dosye:"
 
-#: management/kmwfile.cpp:60
-#, fuzzy
-msgid "Empty file name!"
-msgstr "Nebûnî nawî dosye"
+#: management/kmconfiggeneral.cpp:137 management/kmwfile.cpp:60
+msgid "Empty file name."
+msgstr "Nebûnî nawî dosye."
 
 #: management/kmwfile.cpp:66
 #, fuzzy
-msgid "Directory does not exist!"
+msgid "Directory does not exist."
 msgstr "Raber bûnî niye!"
 
 #: management/kmconfigpreview.cpp:35
@@ -2822,18 +2858,20 @@ msgstr "Rastîhelgirî weger`xerekan"
 
 #: management/kmdbcreator.cpp:171
 #, fuzzy
-msgid "Error while creating driver database: abnormal child process termination!"
+msgid "Error while creating driver database: abnormal child-process termination."
 msgstr "Naasa be payanhatinî prosey wabeste."
 
-#: management/kmwpassword.cpp:36
+#: management/kmwpassword.cpp:37
 #, fuzzy
 msgid "User Identification"
 msgstr "Nasînewey bekarhêner"
 
-#: management/kmwpassword.cpp:42
+#: management/kmwpassword.cpp:43
+#, fuzzy
 msgid ""
-"<p>This backend may require a login/password to work properly. Fill in the "
-"required entries or enable <b>Guest account</b> to use anonymous access.</p>"
+"<p>This backend may require a login/password to work properly. Select the "
+"type of access to use and fill in the login and password entries if "
+"needed.</p>"
 msgstr ""
 "<p>Em amêrey derçûn lewaneye pêwîstî be nawû nihênî bekarberêk "
 "habêt bo ewey karbikat. Xane dawakirawekan pir`bikerewe yan "
@@ -2845,14 +2883,28 @@ msgstr ""
 msgid "&Login:"
 msgstr "Jûnejûrewe:"
 
-#: management/kmwpassword.cpp:51
+#: management/kmwpassword.cpp:53
+msgid "&Anonymous (no login/password)"
+msgstr ""
+
+#: management/kmwpassword.cpp:54
 #, fuzzy
-msgid "&Guest account"
+msgid "&Guest account (login=\"guest\")"
 msgstr "Jûnejûrewey mêwan"
 
-#: management/kmwpassword.cpp:81
+#: management/kmwpassword.cpp:55
 #, fuzzy
-msgid "User name is empty!"
+msgid "Nor&mal account"
+msgstr "Jûnejûrewey mêwan"
+
+#: management/kmwpassword.cpp:88
+#, fuzzy
+msgid "Select one option"
+msgstr "Helbijardinî pîtcor"
+
+#: management/kmwpassword.cpp:90
+#, fuzzy
+msgid "User name is empty."
 msgstr "Nebûnî nawî bekarber!"
 
 #: management/kmwsocket.cpp:38
@@ -2872,12 +2924,12 @@ msgstr "Bender (Port):"
 
 #: management/kmwsocket.cpp:98
 #, fuzzy
-msgid "You must enter a printer address!"
+msgid "You must enter a printer address."
 msgstr "Pêwîst nawûnîshanî çapgerêk biden!"
 
 #: management/kmwsocket.cpp:109
 #, fuzzy
-msgid "Wrong port number!"
+msgid "Wrong port number."
 msgstr "Numrey çewtî bender (port)!"
 
 #: management/kmpropcontainer.cpp:35
@@ -2901,7 +2953,7 @@ msgstr "Çapgerî rastiye xawekan"
 
 #: management/kmwdriver.cpp:113
 #, fuzzy
-msgid "Internal error: unable to locate the driver!"
+msgid "Internal error: unable to locate the driver."
 msgstr "Heley nawxo: weger`xer nadozrêtewe."
 
 #: management/kmjobviewer.cpp:101 management/kmjobviewer.cpp:158
@@ -2910,8 +2962,8 @@ msgid "No Printer"
 msgstr "Hîç çapgerêk"
 
 #: management/kmjobviewer.cpp:138 management/kmjobviewer.cpp:177
-#: management/kmjobviewer.cpp:192 management/kmjobviewer.cpp:208
-#: management/kmjobviewer.cpp:353 management/kmjobviewer.cpp:537
+#: management/kmjobviewer.cpp:194 management/kmjobviewer.cpp:210
+#: management/kmjobviewer.cpp:356 management/kmjobviewer.cpp:543
 #, fuzzy
 msgid "All Printers"
 msgstr "Gisht çapgerekan"
@@ -2922,123 +2974,127 @@ msgid "Print Jobs for %1"
 msgstr "Reftarekan bo %1"
 
 #: management/kmjobviewer.cpp:170 management/kmjobviewer.cpp:172
-#: management/kmjobviewer.cpp:333
+#: management/kmjobviewer.cpp:336
 #, c-format
 msgid "Max.: %1"
 msgstr ""
 
 #: management/kmconfigjobs.cpp:41 management/kmjobviewer.cpp:170
-#: management/kmjobviewer.cpp:333
+#: management/kmjobviewer.cpp:336
 #, fuzzy
 msgid "Unlimited"
 msgstr "Bênaw"
 
-#: management/kmjobviewer.cpp:233
+#: management/kmjobviewer.cpp:235
 msgid "Job ID"
 msgstr "Nîshaney firman"
 
-#: management/kmjobviewer.cpp:234
+#: management/kmjobviewer.cpp:236
 msgid "Owner"
 msgstr "Xawen"
 
-#: management/kmjobviewer.cpp:236
+#: management/kmjobviewer.cpp:238
 msgid ""
 "_: Status\n"
 "State"
 msgstr "Bar"
 
-#: management/kmjobviewer.cpp:237
+#: management/kmjobviewer.cpp:239
 msgid "Size (KB)"
 msgstr "Qebare (KB)"
 
-#: management/kmjobviewer.cpp:238
+#: management/kmjobviewer.cpp:240
 #, fuzzy
 msgid "Page(s)"
 msgstr "Laper`"
 
-#: management/kmjobviewer.cpp:260
+#: management/kmjobviewer.cpp:262
 #, fuzzy
 msgid "&Hold"
 msgstr "Westan"
 
-#: management/kmjobviewer.cpp:261
+#: management/kmjobviewer.cpp:263
 #, fuzzy
 msgid "&Resume"
 msgstr "Bedewembûn"
 
-#: management/kmjobviewer.cpp:262
+#: management/kmjobviewer.cpp:264
 #, fuzzy
 msgid "R&emove"
 msgstr "Labirdin"
 
-#: management/kmjobviewer.cpp:263
+#: management/kmjobviewer.cpp:265
 #, fuzzy
 msgid "Res&tart"
 msgstr "Gêr`anewe"
 
-#: management/kmjobviewer.cpp:264
+#: management/kmjobviewer.cpp:266
 #, fuzzy
 msgid "&Move to Printer..."
 msgstr "Bo çapger biguwazewe..."
 
-#: management/kmjobviewer.cpp:270
+#: management/kmjobviewer.cpp:272
 #, fuzzy
 msgid "&Toggle Completed Jobs"
 msgstr "Tewewkirdinî wushegel"
 
-#: management/kmjobviewer.cpp:273
+#: management/kmjobviewer.cpp:275
 msgid "Show Only User Jobs"
 msgstr ""
 
-#: management/kmjobviewer.cpp:281
+#: management/kmjobviewer.cpp:276
+msgid "Hide Only User Jobs"
+msgstr ""
+
+#: management/kmjobviewer.cpp:284
 #, fuzzy
 msgid "User Name"
 msgstr "Nawî bekarber"
 
-#: management/kmjobviewer.cpp:298
+#: management/kmjobviewer.cpp:301
 #, fuzzy
 msgid "&Select Printer"
 msgstr "Dananewey çapger"
 
-#: management/kmjobviewer.cpp:327
+#: management/kmjobviewer.cpp:330
 msgid "Refresh"
 msgstr "Tazekirdinewe"
 
-#: management/kmjobviewer.cpp:331
+#: management/kmjobviewer.cpp:334
 msgid "Keep window permanent"
 msgstr ""
 
-#: management/kmjobviewer.cpp:475
+#: management/kmjobviewer.cpp:479
 #, fuzzy
 msgid ""
 "Unable to perform action \"%1\" on selected jobs. Error received from "
 "manager:"
 msgstr "Karî \"%1\" bo firmanî helbijêrdraw encam nadrê."
 
-#: management/kmjobviewer.cpp:487
+#: management/kmjobviewer.cpp:491
 msgid "Hold"
 msgstr "Westan"
 
-#: management/kmjobviewer.cpp:492
+#: management/kmjobviewer.cpp:496
 msgid "Resume"
 msgstr "Bedewembûn"
 
-#: management/kmjobviewer.cpp:502
+#: management/kmjobviewer.cpp:506
 #, fuzzy
 msgid "Restart"
 msgstr "Gêr`anewe"
 
-#: management/kmjobviewer.cpp:510
+#: management/kmjobviewer.cpp:514
 #, c-format
 msgid "Move to %1"
 msgstr "Biguwazewe bo %1"
 
-#: management/kmjobviewer.cpp:668
+#: management/kmjobviewer.cpp:674
 #, fuzzy
 msgid "Operation failed."
 msgstr "Çalakî"
 
-#: management/kmconfigjobs.cpp:34 management/kmjobviewer.cpp:693
+#: management/kmconfigjobs.cpp:34 management/kmjobviewer.cpp:699
 #, fuzzy
 msgid "Print Job Settings"
 msgstr "Dananewekanî çapger"
@@ -3087,11 +3143,7 @@ msgid ""
 "your printer anymore."
 msgstr ""
 
-#: management/kmconfiggeneral.cpp:137
-msgid "Empty file name."
-msgstr "Nebûnî nawî dosye."
-
-#: management/smbview.cpp:37
+#: management/smbview.cpp:38
 msgid "Comment"
 msgstr "Têbînî"
 
@@ -3219,27 +3271,32 @@ msgstr ""
 msgid "SMB Printer Settings"
 msgstr "Dananewekanî çapgerî SMB"
 
-#: management/kmwsmb.cpp:40
+#: management/kmwsmb.cpp:41
 msgid "Scan"
 msgstr "Têr`uwanîn"
 
-#: management/kmwsmb.cpp:41
+#: management/kmwsmb.cpp:42
 msgid "Abort"
 msgstr "Helweshandin"
 
-#: management/kmwsmb.cpp:43
+#: management/kmwsmb.cpp:44
 #, fuzzy
 msgid "Workgroup:"
 msgstr "Destey kar"
 
-#: management/kmwsmb.cpp:44
+#: management/kmwsmb.cpp:45
 #, fuzzy
 msgid "Server:"
 msgstr "Kargêr`"
 
-#: management/kmwsmb.cpp:77
-msgid "Empty server name."
-msgstr "Nebûnî nawî kergêr`."
+#: management/kmwsmb.cpp:99
+#, fuzzy, c-format
+msgid "Login: %1"
+msgstr "Jûnejûrewe:"
+
+#: management/kmwsmb.cpp:99
+msgid "<anonymous>"
+msgstr ""
 
 #: management/kmpropmembers.cpp:40
 #, fuzzy
@@ -3476,7 +3533,7 @@ msgstr "Dananewekanî &tomarkirdin"
 msgid "Supported &Input Formats"
 msgstr ""
 
-#: kpfilterpage.cpp:309 management/kxmlcommanddlg.cpp:839
+#: kpfilterpage.cpp:310 management/kxmlcommanddlg.cpp:839
 #, fuzzy
 msgid "Requirements"
 msgstr "Dawakariyekan:"
@@ -3507,21 +3564,22 @@ msgid "LPD Queue Information"
 msgstr "Zanyariyekanî rêzbestî çapgerî LPD"
 
 #: management/kmwlpd.cpp:44
+#, fuzzy
 msgid ""
-"<p>Enter the information concerning the remote LPD queue. This wizard will "
-"check them before continuing.</p>"
+"<p>Enter the information concerning the remote LPD queue; this wizard will "
+"check it before continuing.</p>"
 msgstr ""
 "<p>Zaniyarî serbe rêzbestî çapger leser kompyuterî dûr bide. "
 "Raper`êner deyanpishkinê, pêsh ewey dirêje be karbidat</p>"
 
 #: management/kmwlpd.cpp:54
 #, fuzzy
-msgid "Some information is missing!"
+msgid "Some information is missing."
 msgstr "Çend zaniyariyek amadenîn."
 
 #: management/kmwlpd.cpp:61
 #, fuzzy
-msgid "Can't find queue %1 on server %2! Do you want to continue anyway?"
+msgid "Can not find queue %1 on server %2; do you want to continue anyway?"
 msgstr "<nobr>Rêzbestî <b>%1</b> leser <b>%2</b> nadozrêtewe.</nobr>"
 
 #: management/kmconfigfilter.cpp:40
@@ -3575,7 +3633,7 @@ msgstr "Zaniyarî kargêr`"
 
 #: management/kmwdriverselect.cpp:62
 #, fuzzy
-msgid "You must select a driver!"
+msgid "You must select a driver."
 msgstr "Pêwîste weger`xerêk helbijêrît!"
 
 #: management/kmwdriverselect.cpp:82
@@ -3671,65 +3729,60 @@ msgstr "Shêwey weger`xerî çewut"
 msgid "Other"
 msgstr "Ewey tir"
 
-#: management/kxmlcommandselector.cpp:47
-#, fuzzy
-msgid "Select Command"
-msgstr "Helbijardinî pîtcor"
-
-#: management/kxmlcommandselector.cpp:67
+#: management/kxmlcommandselector.cpp:54
 #, fuzzy
 msgid "New command"
 msgstr "Firman:"
 
-#: management/kxmlcommandselector.cpp:68
+#: management/kxmlcommandselector.cpp:55
 #, fuzzy
 msgid "Edit command"
 msgstr "Firman:"
 
-#: management/kxmlcommandselector.cpp:85
+#: management/kxmlcommandselector.cpp:72
 msgid "&Browse..."
 msgstr "&Pishkinîn..."
 
-#: management/kxmlcommandselector.cpp:86
+#: management/kxmlcommandselector.cpp:73
 #, fuzzy
 msgid "Use co&mmand:"
 msgstr "Firman:"
 
-#: management/kxmlcommandselector.cpp:187
+#: management/kxmlcommandselector.cpp:174
 #, fuzzy
 msgid "Command Name"
 msgstr "Nawî baw:"
 
-#: management/kxmlcommandselector.cpp:187
+#: management/kxmlcommandselector.cpp:174
 msgid "Enter an identification name for the new command:"
 msgstr ""
 
-#: management/kxmlcommandselector.cpp:196
+#: management/kxmlcommandselector.cpp:183
 msgid ""
 "A command named %1 already exists. Do you want to continue and edit the "
 "existing one?"
 msgstr ""
 
-#: management/kxmlcommandselector.cpp:233
-msgid "Internal Error. The XML driver for the command %1 could not be found."
+#: management/kxmlcommandselector.cpp:220
+msgid "Internal error. The XML driver for the command %1 could not be found."
 msgstr ""
 
-#: management/kxmlcommandselector.cpp:251
+#: management/kxmlcommandselector.cpp:238
 #, fuzzy
 msgid "output"
 msgstr "Dosyey derçû:"
 
-#: management/kxmlcommandselector.cpp:255
+#: management/kxmlcommandselector.cpp:242
 #, fuzzy
 msgid "undefined"
 msgstr "Dugmey pênasenekiraw"
 
-#: management/kxmlcommandselector.cpp:260
+#: management/kxmlcommandselector.cpp:247
 #, fuzzy
 msgid "not allowed"
 msgstr "Dwakewt"
 
-#: management/kxmlcommandselector.cpp:266
+#: management/kxmlcommandselector.cpp:253
 msgid "(Unavailable: requirements not satisfied)"
 msgstr ""
 
@@ -3802,14 +3855,14 @@ msgstr "Naw:"
 
 #: management/kmwname.cpp:48
 #, fuzzy
-msgid "You must supply at least a name!"
+msgid "You must supply at least a name."
 msgstr "Pêwîsta belayenî kemewe nawêk binusî !"
 
 #: management/kmwname.cpp:56
 msgid ""
-"This is usually not a good idea to include spaces in printer name. This may "
+"It is usually not a good idea to include spaces in printer name: it may "
 "prevent your printer from working correctly. The wizard can strip all spaces "
-"from the string you entered, resulting in %1. What do you want to do?"
+"from the string you entered, resulting in %1; what do you want to do?"
 msgstr ""
 
 #: management/kmwname.cpp:62
@@ -3817,19 +3870,71 @@ msgstr ""
 msgid "Strip"
 msgstr "Westan"
 
-#: kprinterimpl.cpp:487 management/kmwname.cpp:62
+#: kprinterimpl.cpp:503 management/kmwname.cpp:62
 msgid "Keep"
 msgstr ""
 
-#: management/kmwbackend.cpp:52
+#: management/kmwbackend.cpp:54
 #, fuzzy
 msgid "Backend Selection"
 msgstr "Helbijardinî amêrî derçû"
 
-#: management/kmwbackend.cpp:66
+#: management/kmwbackend.cpp:68
 #, fuzzy
-msgid "You must select a backend!"
+msgid "You must select a backend."
 msgstr "Pêwîste amêrêkî derçû helbijardinî."
+
+#: management/kmwbackend.cpp:115
+#, fuzzy
+msgid "&Local printer (parallel, serial, USB)"
+msgstr "Çapgerî cêxoyî (parallel, seriell, USB)"
+
+#: management/kmwbackend.cpp:116
+msgid ""
+"<qt>"
+"<p>Locally-connected printer</p>"
+"<p>Use this for a printer connected to the computer via a parallel, serial "
+"or USB port.</p></qt>"
+msgstr ""
+
+#: management/kmwbackend.cpp:122
+#, fuzzy
+msgid "&SMB shared printer (Windows)"
+msgstr "Çapgerî hawbeshî SMB (Windows)"
+
+#: management/kmwbackend.cpp:123
+msgid ""
+"<qt>"
+"<p>Shared Windows printer</p>"
+"<p>Use this for a printer installed on a Windows server and shared on the "
+"network using the SMB protocol (samba).</p></qt>"
+msgstr ""
+
+#: management/kmwbackend.cpp:130
+#, fuzzy
+msgid "&Remote LPD queue"
+msgstr "Rêzbestî çawerûwanî LPD le ser kompyuterî dûr"
+
+#: management/kmwbackend.cpp:131
+msgid ""
+"<qt>"
+"<p>Print queue on a remote LPD server</p>"
+"<p>Use this for a print queue existing on a remote machine running a LPD "
+"print server.</p></qt>"
+msgstr ""
+
+#: management/kmwbackend.cpp:137
+#, fuzzy
+msgid "Ne&twork printer (TCP)"
+msgstr "Çapgerî tor` (TCP)"
+
+#: management/kmwbackend.cpp:138
+msgid ""
+"<qt>"
+"<p>Network TCP printer</p>"
+"<p>Use this for a network-enabled printer using TCP (usually on port 9100) "
+"as communication protocol. Most network printers can use this mode.</p></qt>"
+msgstr ""
 
 #: management/kminstancepage.cpp:61
 msgid ""
@@ -3885,7 +3990,8 @@ msgid "Enter name for new instance (leave untouched for default):"
 msgstr "Nawêk bo nimûney nwê bide (waz le dirawe asayîyekan bêne):"
 
 #: management/kminstancepage.cpp:142 management/kminstancepage.cpp:187
-msgid "Instance name may not contain any space!"
+#, fuzzy
+msgid "Instance name must not contain any spaces or slashes."
 msgstr "Nimûnenaw nabê boshayî têdabêt."
 
 #: management/kminstancepage.cpp:161
@@ -4123,7 +4229,7 @@ msgstr ""
 msgid "Initialization..."
 msgstr ""
 
-#: kprinter.cpp:283 kprinter.cpp:902
+#: kprinter.cpp:283 kprinter.cpp:903
 #, c-format
 msgid "Generating print data: page %1"
 msgstr ""
@@ -4176,12 +4282,12 @@ msgstr ""
 msgid "Parallel Port #%1"
 msgstr "Bender (port)î hawterîb # %1"
 
-#: kmmanager.cpp:486 kmmanager.cpp:502 kxmlcommand.cpp:659
+#: kmmanager.cpp:486 kmmanager.cpp:502 kxmlcommand.cpp:661
 #, fuzzy, c-format
 msgid "Unable to load KDE print management library: %1"
 msgstr "Pertûkxaney ber`êwebirdinî çapgerî KDE barnakirê:<br>%1"
 
-#: kmmanager.cpp:491 kxmlcommand.cpp:667
+#: kmmanager.cpp:491 kxmlcommand.cpp:669
 msgid "Unable to find wizard object in management library."
 msgstr "Tenî raper`ênerî (wizard) pertûkxaney ber`êwebirdin peydanabê."
 
@@ -4246,6 +4352,7 @@ msgstr ""
 "kekargêr` dagîrsawe."
 
 #: kprinterimpl.cpp:283
+#, fuzzy
 msgid ""
 "_: 1 is the command that <files> is given to\n"
 "Check the command syntax:\n"
@@ -4266,7 +4373,14 @@ msgid ""
 "information.</p>"
 msgstr ""
 
-#: kprinterimpl.cpp:366
+#: kprinterimpl.cpp:355
+#, fuzzy
+msgid "<p>Could not load filter description for <b>%1</b>.</p>"
+msgstr ""
+"Mafekan netwandran bigor`êndrên bo\n"
+"%1"
+
+#: kprinterimpl.cpp:371
 #, fuzzy
 msgid ""
 "<p>Error while reading filter description for <b>%1</b>. Empty command line "
@@ -4275,7 +4389,7 @@ msgstr ""
 "Hele le katî xwêndinewey lêdwan le filter bo <b>%1</b>. Dêr`î "
 "geyîshtûy firman xalîbû."
 
-#: kprinterimpl.cpp:380
+#: kprinterimpl.cpp:385
 msgid ""
 "The MIME type %1 is not supported as input of the filter chain (this may "
 "happen with non-CUPS spoolers when performing page selection on a "
@@ -4283,45 +4397,49 @@ msgid ""
 "format?</p>"
 msgstr ""
 
-#: kprinterimpl.cpp:384 kprinterimpl.cpp:486
+#: kprinterimpl.cpp:389 kprinterimpl.cpp:502
 #, fuzzy
 msgid "Convert"
 msgstr "Nawerok"
 
-#: kprinterimpl.cpp:394
+#: kprinterimpl.cpp:399
 #, fuzzy
 msgid "Select MIME Type"
 msgstr "MIME Type"
 
-#: kprinterimpl.cpp:395
+#: kprinterimpl.cpp:400
 msgid "Select the target format for the conversion:"
 msgstr ""
 
-#: kprinterimpl.cpp:399 kprinterimpl.cpp:425
+#: kprinterimpl.cpp:404 kprinterimpl.cpp:430
 #, fuzzy
 msgid "Operation aborted."
 msgstr "Çalakî"
 
-#: kprinterimpl.cpp:405
+#: kprinterimpl.cpp:410
 msgid "No appropriate filter found. Select another target format."
 msgstr ""
 
-#: kprinterimpl.cpp:418
+#: kprinterimpl.cpp:423
 msgid ""
 "<qt>Operation failed with message:"
 "<br>%1<br>Select another target format.</qt>"
 msgstr ""
 
-#: kprinterimpl.cpp:436
+#: kprinterimpl.cpp:441
 #, fuzzy
 msgid "Filtering print data"
 msgstr "Çapgerî dosye (çapkirdin le dosye)"
 
-#: kprinterimpl.cpp:440
+#: kprinterimpl.cpp:445
 msgid "Error while filtering. Command was: <b>%1</b>."
 msgstr "Hele le katî palawtin. Firman emebû: <b>%1</b>."
 
-#: kprinterimpl.cpp:481
+#: kprinterimpl.cpp:487
+msgid "<qt>The print file is empty and will be ignored:<p>%1</p></qt>"
+msgstr ""
+
+#: kprinterimpl.cpp:497
 msgid ""
 "The file format %1 is not directly supported by the current print system. "
 "KDE can try to convert this file automatically to a supported format. But "
@@ -4329,13 +4447,13 @@ msgid ""
 "you want KDE to try to convert this file to %2?"
 msgstr ""
 
-#: kprinterimpl.cpp:495
+#: kprinterimpl.cpp:511
 msgid ""
 "No appropriate filter was found to convert the file format %1 into %2. Do "
 "you want to print the file using its original format?"
 msgstr ""
 
-#: kprinterimpl.cpp:500
+#: kprinterimpl.cpp:516
 msgid "Skip"
 msgstr "Bazdan"
 
@@ -4453,22 +4571,25 @@ msgid "R&everse portrait"
 msgstr "Wêney pêçewane"
 
 #: kpgeneralpage.cpp:145
+#, fuzzy
 msgid ""
 "_: duplex orientation\n"
 "&None"
-msgstr ""
+msgstr "Çapkirdinî dûr`û"
 
 #: kpgeneralpage.cpp:146
+#, fuzzy
 msgid ""
 "_: duplex orientation\n"
 "Lon&g side"
-msgstr ""
+msgstr "Çapkirdinî dûr`û"
 
 #: kpgeneralpage.cpp:147
+#, fuzzy
 msgid ""
 "_: duplex orientation\n"
 "S&hort side"
-msgstr ""
+msgstr "Çapkirdinî dûr`û"
 
 #: kpgeneralpage.cpp:159
 #, fuzzy
@@ -4479,6 +4600,10 @@ msgstr "Sereta:"
 #, fuzzy
 msgid "En&d:"
 msgstr "Kotayî:"
+
+#: ppdloader.cpp:173
+msgid "(line %1): "
+msgstr ""
 
 #: droptionview.cpp:60
 msgid "Value:"
@@ -4528,7 +4653,7 @@ msgid ""
 msgstr ""
 
 #: kdeprintd.cpp:181
-msgid "Provide root's password"
+msgid "Provide root's Password"
 msgstr ""
 
 #: kdeprintd.cpp:200 kdeprintd.cpp:202
@@ -4546,7 +4671,8 @@ msgstr "sistêmî çap"
 msgid "Authentication failed (user name=%1)"
 msgstr "Nebûnî maf!"
 
-#: rc.cpp:3 rc.cpp:7
+#: rc.cpp:6 rc.cpp:14
+#, no-c-format
 msgid "&PageMarks"
 msgstr "&Per`amajekan"
 
@@ -4780,7 +4906,7 @@ msgstr "Çapgerdananewe"
 
 #: kprinterpropertydialog.cpp:138
 #, fuzzy
-msgid "No configurable options for that printer!"
+msgid "No configurable options for that printer."
 msgstr "Hîç cor dananeweyek bo ew çapgere nar`exsê!"
 
 #: marginpreview.cpp:135
@@ -4837,6 +4963,15 @@ msgstr ""
 msgid "JCL"
 msgstr ""
 
+#: kmvirtualmanager.cpp:161
+msgid ""
+"<qt>You are about to set a pseudo-printer as your personal default. This "
+"setting is specific to KDE and will not be available outside KDE "
+"applications. Note that this will only make your personal default printer as "
+"undefined for non-KDE applications and should not prevent you from printing "
+"normally. Do you really want to set <b>%1</b> as your personal default?</qt>"
+msgstr ""
+
 #: kpposterpage.cpp:40
 #, fuzzy
 msgid "Poster"
@@ -4880,12 +5015,12 @@ msgstr ""
 msgid "Unknown"
 msgstr "<Nenasraw>"
 
-#: kxmlcommand.cpp:780
+#: kxmlcommand.cpp:785
 #, fuzzy
 msgid "One of the command object's requirements is not met."
 msgstr "Yekêk le dawakariyekan encamnedirawin, Berdewambûn?"
 
-#: kxmlcommand.cpp:788 kxmlcommand.cpp:793
+#: kxmlcommand.cpp:793 kxmlcommand.cpp:798
 #, fuzzy, c-format
 msgid "The command does not contain the required tag %1."
 msgstr "Em firmane hîç nusrawêkî \"%1\" lexonagirê."
@@ -4919,18 +5054,18 @@ msgstr "Filter berewjêr bibe."
 msgid "Configure filter"
 msgstr "Filter diyarbike"
 
-#: kpfilterpage.cpp:181
+#: kpfilterpage.cpp:182
 msgid "Internal error: unable to load filter."
 msgstr "Heley nawxo: filter nadozrêtewe."
 
-#: kpfilterpage.cpp:296
+#: kpfilterpage.cpp:297
 msgid ""
 "<p>The filter chain is wrong. The output format of at least one filter is "
 "not supported by its follower. See <b>Filters</b> tab for more "
 "information.</p>"
 msgstr ""
 
-#: kpfilterpage.cpp:310
+#: kpfilterpage.cpp:311
 msgid "Input"
 msgstr ""
 
@@ -4958,6 +5093,50 @@ msgstr "Xolemêshî"
 #, fuzzy
 msgid "Ot&her"
 msgstr "Ewey tir"
+
+#, fuzzy
+#~ msgid "P&roperties..."
+#~ msgstr "Reftarekan..."
+
+#, fuzzy
+#~ msgid "View &Toolbar"
+#~ msgstr "Xistiner`ûy sekoy kereste"
+
+#, fuzzy
+#~ msgid "Empty server name!"
+#~ msgstr "Nebûnî nawî kargêr`"
+
+#, fuzzy
+#~ msgid "Empty file name!"
+#~ msgstr "Nebûnî nawî dosye"
+
+#, fuzzy
+#~ msgid "&Network printer (TCP)"
+#~ msgstr "Çapgerî tor` (TCP)"
+
+#, fuzzy
+#~ msgid "Unknown Driver"
+#~ msgstr "Dîmenî nenasraw"
+
+#, fuzzy
+#~ msgid "Status"
+#~ msgstr "Dewlet:"
+
+#, fuzzy
+#~ msgid "Unknown State"
+#~ msgstr "Dîmenî nenasraw"
+
+#, fuzzy
+#~ msgid "Unknown Protocol"
+#~ msgstr "Protokolî \"%1\" nenasrawe.\n"
+
+#, fuzzy
+#~ msgid "ev_longname"
+#~ msgstr "nawî dosiyey log"
+
+#, fuzzy
+#~ msgid "en"
+#~ msgstr "Xalbend"
 
 #~ msgid "Directory"
 #~ msgstr "Raber"
@@ -5377,9 +5556,6 @@ msgstr "Ewey tir"
 #~ msgid "&Properties..."
 #~ msgstr "&Rewûsht"
 
-#~ msgid "Properties"
-#~ msgstr "Rewûsht"
-
 #~ msgid "&Start"
 #~ msgstr "&Sereta"
 
@@ -5493,9 +5669,6 @@ msgstr "Ewey tir"
 
 #~ msgid "Show &Menubar"
 #~ msgstr "Sekoy &xalbend"
-
-#~ msgid "Show &Toolbar"
-#~ msgstr "Sekoy &kereste"
 
 #~ msgid "Show &Statusbar"
 #~ msgstr "Sekoy &rewsh"
@@ -7044,12 +7217,6 @@ msgstr "Ewey tir"
 #~ "Mafî desttêwerdanî em shwênet niye.</qt>"
 
 #, fuzzy
-#~ msgid "<qt>You do not have permission to run <b>%1</b>.</qt>"
-#~ msgstr ""
-#~ "Mafekan netwandran bigor`êndrên bo\n"
-#~ "%1"
-
-#, fuzzy
 #~ msgid "Open with:"
 #~ msgstr "Kirdinewe be:"
 
@@ -7098,9 +7265,6 @@ msgstr "Ewey tir"
 #~ msgstr ""
 #~ "Bangkirdinî têçu û derçû encamnadirê.\n"
 #~ "klauncher delêt: %1"
-
-#~ msgid "Unknown protocol '%1'.\n"
-#~ msgstr "Protokolî \"%1\" nenasrawe.\n"
 
 #, fuzzy
 #~ msgid "Can not find io-slave for protocol '%1'."
@@ -7325,9 +7489,6 @@ msgstr "Ewey tir"
 #~ msgid "&Preview"
 #~ msgstr "&Xistiner`û"
 
-#~ msgid "Unknown View"
-#~ msgstr "Dîmenî nenasraw"
-
 #, fuzzy
 #~ msgid "Desktop"
 #~ msgstr "Rûkar %1"
@@ -7354,9 +7515,6 @@ msgstr "Ewey tir"
 #, fuzzy
 #~ msgid "Test the sound"
 #~ msgstr "Kompyuter (host) dozrayewe"
-
-#~ msgid "Menu"
-#~ msgstr "Xalbend"
 
 #, fuzzy
 #~ msgid "Move Up"
@@ -8088,10 +8246,6 @@ msgstr "Ewey tir"
 #~ msgstr "&Destxet"
 
 #, fuzzy
-#~ msgid "Video Toolbar"
-#~ msgstr "Xistiner`ûy sekoy kereste"
-
-#, fuzzy
 #~ msgid "&Half Size"
 #~ msgstr "&Endazey berdest"
 
@@ -8113,10 +8267,6 @@ msgstr "Ewey tir"
 
 #~ msgid "Custom"
 #~ msgstr "Serbebekarber"
-
-#, fuzzy
-#~ msgid "Unknown type"
-#~ msgstr "Dîmenî nenasraw"
 
 #, fuzzy
 #~ msgid "Resource Selection"
@@ -10442,9 +10592,6 @@ msgstr "Ewey tir"
 #~ msgid "dir to save rendered images in"
 #~ msgstr "Bawlî parastinî wêne dir`awekan"
 
-#~ msgid "log filename"
-#~ msgstr "nawî dosiyey log"
-
 #~ msgid "TestRender"
 #~ msgstr "TestRender"
 
@@ -11900,10 +12047,6 @@ msgstr "Ewey tir"
 #~ msgstr "Heley dosye"
 
 #, fuzzy
-#~ msgid "State"
-#~ msgstr "Dewlet:"
-
-#, fuzzy
 #~ msgid "Signature:"
 #~ msgstr "Kompyuter:"
 
@@ -12215,9 +12358,6 @@ msgstr "Ewey tir"
 
 #~ msgid "Close"
 #~ msgstr "Daxistin"
-
-#~ msgid "Select Font"
-#~ msgstr "Helbijardinî pîtcor"
 
 #~ msgid ""
 #~ "_: QMessageBox\n"
