@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmkwm\n"
-"POT-Creation-Date: 2003-02-19 01:29+0100\n"
+"POT-Creation-Date: 2003-12-10 01:37+0100\n"
 "PO-Revision-Date: 2003-02-13 00:30+0100\n"
 "Last-Translator: Omezkar Ahmad/Zeidler <mizgar@lycos.de>\n"
 "Language-Team: Kurdish <ku@i18n.kde.org>\n"
@@ -26,23 +26,23 @@ msgid ""
 "Your emails"
 msgstr "mizgar@lycos.de abu@gerdi.net"
 
-#: main.cpp:88
+#: main.cpp:90
 msgid "&Focus"
 msgstr "&Aktîv"
 
-#: main.cpp:92
+#: main.cpp:95
 msgid "Actio&ns"
 msgstr "Çalekîa&n"
 
-#: main.cpp:96
+#: main.cpp:100
 msgid "&Moving"
 msgstr "&Cûlankirin"
 
-#: main.cpp:100
+#: main.cpp:105
 msgid "Ad&vanced"
 msgstr "Fireh&buyî"
 
-#: main.cpp:144
+#: main.cpp:151
 msgid ""
 "<h1>Window Behavior</h1> Here you can customize the way windows behave when "
 "being moved, resized or clicked on. You can also specify a focus policy as "
@@ -61,15 +61,15 @@ msgstr ""
 "bikardîne,fermo dokumentationan bixwîne, jibo ku tu zanibe reftarên "
 "penceran ji xwe re çawa çê bikî."
 
-#: main.cpp:155
+#: main.cpp:162
 msgid "kcmkwinoptions"
 msgstr "Optionên kcmkwin"
 
-#: main.cpp:155
+#: main.cpp:162
 msgid "Window Behavior Configuration Module"
 msgstr "Modula danana reftara penceran"
 
-#: main.cpp:157
+#: main.cpp:164
 msgid "(c) 1997 - 2002 KWin and KControl Authors"
 msgstr "(c) 1997 - 2002, Nivîskarê KWin û KControl"
 
@@ -97,23 +97,36 @@ msgstr "Mezin kirin (bitenê estûnî)"
 msgid "Maximize (horizontal only)"
 msgstr "Mezin kirin (bitenê asoyî)"
 
-#: mouse.cpp:72 mouse.cpp:153 mouse.cpp:186
+#: mouse.cpp:72 mouse.cpp:343
+#, fuzzy
+msgid "Minimize"
+msgstr "Mezin kirin"
+
+#: mouse.cpp:73 mouse.cpp:157 mouse.cpp:190
 msgid "Shade"
 msgstr "Saye kirin"
 
-#: mouse.cpp:73 mouse.cpp:129 mouse.cpp:149 mouse.cpp:333
+#: mouse.cpp:74 mouse.cpp:132 mouse.cpp:153 mouse.cpp:193 mouse.cpp:342
 msgid "Lower"
 msgstr "Nizimtir"
 
-#: mouse.cpp:78
+#: mouse.cpp:75
+msgid "On All Desktops"
+msgstr ""
+
+#: mouse.cpp:76 mouse.cpp:135 mouse.cpp:156 mouse.cpp:194 mouse.cpp:344
+msgid "Nothing"
+msgstr "Hîç"
+
+#: mouse.cpp:81
 msgid "Behavior on <em>double</em> click into the titlebar."
 msgstr "Reftar jibo <em>du</em> tikan li serdêra pencere."
 
-#: mouse.cpp:84
+#: mouse.cpp:87
 msgid "Titlebar && Frame"
 msgstr "Lista Sedêr && û Frame"
 
-#: mouse.cpp:88
+#: mouse.cpp:91
 msgid ""
 "Here you can customize mouse click behavior when clicking on the titlebar or "
 "the frame of a window."
@@ -121,11 +134,11 @@ msgstr ""
 "Livir tu kari bi taybet reftara mişkokê sazbikî, wê çibibe dema "
 "kirtkirinê liser serdêr û frame ya pencerekî."
 
-#: mouse.cpp:96 mouse.cpp:217
+#: mouse.cpp:99 mouse.cpp:225
 msgid "Left button:"
 msgstr "Mişkoka çepê:"
 
-#: mouse.cpp:97 mouse.cpp:218 mouse.cpp:296
+#: mouse.cpp:100 mouse.cpp:226 mouse.cpp:304
 msgid ""
 "In this row you can customize left click behavior when clicking into the "
 "titlebar or the frame."
@@ -133,11 +146,11 @@ msgstr ""
 "Di vê xêzkê tu kari bi taybet reftara mişkok çepê sazbikî, wê çibe "
 "dema kirtandinê liser serdêr û frame bi çi awayî be."
 
-#: mouse.cpp:100 mouse.cpp:221
+#: mouse.cpp:103 mouse.cpp:229
 msgid "Right button:"
 msgstr "Mişkoka rastê:"
 
-#: mouse.cpp:101 mouse.cpp:222 mouse.cpp:300
+#: mouse.cpp:104 mouse.cpp:230 mouse.cpp:308
 msgid ""
 "In this row you can customize right click behavior when clicking into the "
 "titlebar or the frame."
@@ -145,11 +158,11 @@ msgstr ""
 "Di vê xêzkê tu kari bi taybet reftara rasta mişkokê sazbikî, wê çibe "
 "dema kirtandinê liser serdêr yan jî frame."
 
-#: mouse.cpp:113 mouse.cpp:243
+#: mouse.cpp:116 mouse.cpp:251
 msgid "Middle button:"
 msgstr "Mişkoka nêvî:"
 
-#: mouse.cpp:114
+#: mouse.cpp:117
 msgid ""
 "In this row you can customize middle click behavior when clicking into the "
 "titlebar or the frame."
@@ -157,11 +170,11 @@ msgstr ""
 "Di vê xêzkê tu kari bi taybet reftara nêvî ya mişkokê sazbikî, wê "
 "çibe dema kirtandinê liser serdêr yan jî frame."
 
-#: mouse.cpp:121
+#: mouse.cpp:124
 msgid "Active"
 msgstr "Aktîv"
 
-#: mouse.cpp:123
+#: mouse.cpp:126
 msgid ""
 "In this column you can customize mouse clicks into the titlebar or the frame "
 "of an active window."
@@ -169,19 +182,19 @@ msgstr ""
 "Di vê estûnê de tu kari bi taybet reftara klîka mişkokê jibo serdêr "
 "û frame ya pencereka aktîv sazbike."
 
-#: mouse.cpp:128 mouse.cpp:148 mouse.cpp:332
+#: mouse.cpp:131 mouse.cpp:152 mouse.cpp:192 mouse.cpp:341
 msgid "Raise"
 msgstr "Bi pêş"
 
-#: mouse.cpp:130 mouse.cpp:150
+#: mouse.cpp:133 mouse.cpp:154 mouse.cpp:191
 msgid "Operations Menu"
 msgstr "Menu ya operationan"
 
-#: mouse.cpp:131 mouse.cpp:151 mouse.cpp:330
+#: mouse.cpp:134 mouse.cpp:155 mouse.cpp:339
 msgid "Toggle Raise & Lower"
 msgstr "Bi pêş/paş: pêxî/bikûj"
 
-#: mouse.cpp:135
+#: mouse.cpp:139
 msgid ""
 "Behavior on <em>left</em> click into the titlebar or frame of an "
 "<em>active</em> window."
@@ -189,7 +202,7 @@ msgstr ""
 "Reftara kirtandina <em>çep</em> ê mişkokê liser lista serdêr yan ji "
 "liser farmeka <em>aktîv</em> ya pencerekê."
 
-#: mouse.cpp:138
+#: mouse.cpp:142
 msgid ""
 "Behavior on <em>right</em> click into the titlebar or frame of an "
 "<em>active</em> window."
@@ -197,11 +210,7 @@ msgstr ""
 "Reftara kirtandina <em>rast</em> ya mişkokê liser lista serdêr yan liser "
 "farmeka <em>aktîv</em> ya pencerekê."
 
-#: mouse.cpp:152 mouse.cpp:334
-msgid "Nothing"
-msgstr "Hîç"
-
-#: mouse.cpp:159
+#: mouse.cpp:163
 msgid ""
 "Behavior on <em>middle</em> click into the titlebar or frame of an "
 "<em>active</em> window."
@@ -209,7 +218,7 @@ msgstr ""
 "Reftara kirtandina <em>nêvîn</em> ya mişkokê liser lista serdêr yan "
 "liser farmeka <em>aktîv</em> ya pencerekê."
 
-#: mouse.cpp:168
+#: mouse.cpp:172
 msgid ""
 "Behavior on <em>left</em> click into the titlebar or frame of an "
 "<em>inactive</em> window."
@@ -217,7 +226,7 @@ msgstr ""
 "Reftara kirtandina <em>çep</em> ê mişkokê liser lista serdêr yan liser "
 "farmeka <em>neaktîv</em> ya pencerekê."
 
-#: mouse.cpp:171
+#: mouse.cpp:175
 msgid ""
 "Behavior on <em>right</em> click into the titlebar or frame of an "
 "<em>inactive</em> window."
@@ -225,11 +234,11 @@ msgstr ""
 "Reftara kirtandina <em>rast</em> ya mişkokê liser lista serdêr yan liser "
 "farmeka <em>neaktîv</em> ya pencerekê."
 
-#: mouse.cpp:177
+#: mouse.cpp:181
 msgid "Inactive"
 msgstr "Neaktiv"
 
-#: mouse.cpp:179
+#: mouse.cpp:183
 msgid ""
 "In this column you can customize mouse clicks into the titlebar or the frame "
 "of an inactive window."
@@ -237,19 +246,19 @@ msgstr ""
 "Divê estûnê de tu kari bi taybet kirtandinên mişkokê liser serdêr yan "
 "frame ya pencerek neaktîv sazbike."
 
-#: mouse.cpp:183 mouse.cpp:255
+#: mouse.cpp:187 mouse.cpp:263
 msgid "Activate & Raise"
 msgstr "Aktîvkirin û bi pêş ve çûn"
 
-#: mouse.cpp:184
+#: mouse.cpp:188
 msgid "Activate & Lower"
 msgstr "Aktîvkirin û bi paş ve çûn"
 
-#: mouse.cpp:185 mouse.cpp:254
+#: mouse.cpp:189 mouse.cpp:262
 msgid "Activate"
 msgstr "Aktîvkirin"
 
-#: mouse.cpp:198
+#: mouse.cpp:206
 msgid ""
 "Behavior on <em>middle</em> click into the titlebar or frame of an "
 "<em>inactive</em> window."
@@ -257,11 +266,11 @@ msgstr ""
 "Reftara kirtandina <em>nêvîn</em> ya mişkokê liser lista serdêr yan "
 "liser farmeka <em>neaktîv</em> ya pencerekê."
 
-#: mouse.cpp:208
+#: mouse.cpp:216
 msgid "Inactive Inner Window"
 msgstr "Neaktîv, Navpencer"
 
-#: mouse.cpp:212
+#: mouse.cpp:220
 msgid ""
 "Here you can customize mouse click behavior when clicking on an inactive "
 "inner window ('inner' means: not titlebar, not frame)."
@@ -270,7 +279,7 @@ msgstr ""
 "kirtandinê liser nav navpencereka neaktîv (\"Nav\" yanî ne lista serdêr "
 "û ne frame)."
 
-#: mouse.cpp:231
+#: mouse.cpp:239
 msgid ""
 "In this row you can customize left click behavior when clicking into an "
 "inactive inner window ('inner' means: not titlebar, not frame)."
@@ -279,7 +288,7 @@ msgstr ""
 "çibe dema kirtandinê liser navpencereka neaktîv (\"Nav\" yanî ne lista "
 "serdêr û ne frame)."
 
-#: mouse.cpp:234
+#: mouse.cpp:242
 msgid ""
 "In this row you can customize right click behavior when clicking into an "
 "inactive inner window ('inner' means: not titlebar, not frame)."
@@ -288,7 +297,7 @@ msgstr ""
 "çibe dema kirtandinê liser navpencereka neaktîv (\"Nav\" yanî ne lista "
 "serdêr û ne frame)."
 
-#: mouse.cpp:244
+#: mouse.cpp:252
 msgid ""
 "In this row you can customize middle click behavior when clicking into an "
 "inactive inner window ('inner' means: not titlebar, not frame)."
@@ -297,19 +306,19 @@ msgstr ""
 "çibe dema kirtandinê liser navpencereka neaktîv (\"Nav\" yanî ne lista "
 "serdêr û ne frame)."
 
-#: mouse.cpp:252
+#: mouse.cpp:260
 msgid "Activate, Raise & Pass Click"
 msgstr "Aktîvbike heger bi pêş de û kirtandin çêbu"
 
-#: mouse.cpp:253
+#: mouse.cpp:261
 msgid "Activate & Pass Click"
 msgstr "Aktîvbike heger kirtandin çêbu"
 
-#: mouse.cpp:278
+#: mouse.cpp:286
 msgid "Inner Window, Titlebar && Frame"
 msgstr "Navpencer, Lista serdêr && û Frame"
 
-#: mouse.cpp:282
+#: mouse.cpp:290
 msgid ""
 "Here you can customize KDE's behavior when clicking somewhere into a window "
 "while pressing a modifier key."
@@ -318,11 +327,11 @@ msgstr ""
 "li her cihekî di pencerekê û ligel wê de ji Modifiera keyboardê hatibe "
 "pêlkirin."
 
-#: mouse.cpp:288
+#: mouse.cpp:296
 msgid "Modifier key:"
 msgstr "Modifier key:"
 
-#: mouse.cpp:290
+#: mouse.cpp:298
 msgid ""
 "Here you select whether holding the Meta key or Alt key will allow you to "
 "perform the following actions."
@@ -330,19 +339,19 @@ msgstr ""
 "Livir tu kari helbijêrî, ku heger pêlkirin çê bu liser tasta Meta yan "
 "ALT yek ji van çalekîyan destûr bistîne yan na."
 
-#: mouse.cpp:295
+#: mouse.cpp:303
 msgid "Modifier key + left button:"
 msgstr "Modifier key + mişkoka çepê mişkokê:"
 
-#: mouse.cpp:299
+#: mouse.cpp:307
 msgid "Modifier key + right button:"
 msgstr "Modifier key + mişkoka rastê mişkokê:"
 
-#: mouse.cpp:312
+#: mouse.cpp:320
 msgid "Modifier key + middle button:"
 msgstr "Modifier key + mişkoka nêvî mişkokê:"
 
-#: mouse.cpp:313
+#: mouse.cpp:321
 msgid ""
 "Here you can customize KDE's behavior when middle clicking into a window "
 "while pressing the modifier key."
@@ -351,43 +360,48 @@ msgstr ""
 "nêvîn ya mişkokê li her cihekî di pencerekê û ligel wê de ji "
 "Modifiera keyboardê hatibe pêlkirin."
 
-#: mouse.cpp:322
+#: mouse.cpp:330
 msgid "Meta"
 msgstr "Jûr"
 
-#: mouse.cpp:323
+#: mouse.cpp:331
 msgid "Alt"
 msgstr "Alt"
 
-#: mouse.cpp:331
+#: mouse.cpp:338
+#, fuzzy
+msgid "Activate, Raise and Move"
+msgstr "Aktîvkirin û bi pêş ve çûn"
+
+#: mouse.cpp:340
 msgid "Resize"
 msgstr "Endaze guhirtin"
 
-#: windows.cpp:112
+#: windows.cpp:113
 msgid "Focus"
 msgstr "Mêzedan"
 
-#: windows.cpp:118
+#: windows.cpp:120
 msgid "&Policy:"
 msgstr "&Siyaset:"
 
-#: windows.cpp:121
+#: windows.cpp:123
 msgid "Click to Focus"
 msgstr "Bikirtîne jibo mêzekirinê"
 
-#: windows.cpp:122
+#: windows.cpp:124
 msgid "Focus Follows Mouse"
 msgstr "Dîqet bide mişkokê"
 
-#: windows.cpp:123
+#: windows.cpp:125
 msgid "Focus Under Mouse"
 msgstr "Dîqet bide jêr mişkokê"
 
-#: windows.cpp:124
+#: windows.cpp:126
 msgid "Focus Strictly Under Mouse"
 msgstr "Rast dîqet bide jêr mişkokê"
 
-#: windows.cpp:129
+#: windows.cpp:131
 msgid ""
 "The focus policy is used to determine the active window, i.e. the window you "
 "can work in. "
@@ -428,23 +442,24 @@ msgstr ""
 "heger fokus li jêrî mişk be û liser bimîne\" ne gelekî başin. Evana "
 "Traditiona UNIX ya kevin hatîye."
 
-#: windows.cpp:152
+#: windows.cpp:154
 msgid "Auto &raise"
 msgstr "Automatik &bi pêş ve"
 
-#: windows.cpp:157 windows.cpp:468
+#: windows.cpp:159 windows.cpp:471
 msgid "Dela&y:"
 msgstr "&Westan:"
 
-#: windows.cpp:160 windows.cpp:471 windows.cpp:499
+#: windows.cpp:162 windows.cpp:474 windows.cpp:502
 msgid " msec"
 msgstr " msec"
 
-#: windows.cpp:163
-msgid "C&lick raise"
+#: windows.cpp:165
+#, fuzzy
+msgid "C&lick raise active window"
 msgstr "&Bi pêşve bikirtîne"
 
-#: windows.cpp:170
+#: windows.cpp:172
 msgid ""
 "When this option is enabled, a window in the background will automatically "
 "come to the front when the mouse pointer has been over it for some time."
@@ -452,7 +467,7 @@ msgstr ""
 "Heger ev danan aktîv be, hema heger tu çendakî bi mişkokê xwe liser "
 "bimîne wê ew pencerê li pişt jiber xwe ve bêne pêşçavan "
 
-#: windows.cpp:172
+#: windows.cpp:174
 msgid ""
 "This is the delay after which the window that the mouse pointer is over will "
 "automatically come to the front."
@@ -460,31 +475,33 @@ msgstr ""
 "Evaya westaneka kurte ku li piştî wêde ew pencera ku mişkok liser wêye "
 "dê bê pêşçavan."
 
-#: windows.cpp:176
+#: windows.cpp:178
+#, fuzzy
 msgid ""
-"When this option is enabled, your windows will be brought to the front when "
-"you click somewhere into the window contents."
+"When this option is enabled, the active window will be brought to the front "
+"when you click somewhere into the window contents. To change it for inactive "
+"windows, you need to change the settings in the Actions tab."
 msgstr ""
 "Heger ev danan aktîv be, wê pencerê dîne pêşçavan dema ku bi "
 "mişkokê li her cihekê liser wî kirtekî bikî."
 
-#: windows.cpp:181
+#: windows.cpp:185
 msgid "Navigation"
 msgstr "Navîgation"
 
-#: windows.cpp:186
+#: windows.cpp:189
 msgid "Walk through windows mode:"
 msgstr "Rewşa çûn û hatinê di nav penceran de:"
 
-#: windows.cpp:188
+#: windows.cpp:191
 msgid "&KDE"
 msgstr "&KDE"
 
-#: windows.cpp:190
+#: windows.cpp:193
 msgid "CD&E"
 msgstr "CD&E"
 
-#: windows.cpp:193
+#: windows.cpp:196
 msgid ""
 "Hold down the Alt key and press the Tab key repeatedly to walk through the "
 "windows on the current desktop (the Alt+Tab combination can be "
@@ -505,11 +522,11 @@ msgstr ""
 "<li><b>CDE:</b>Hema ku tu li Tasta Tabulator bixe, Fokus her carê diçe "
 "pencerek din, sobald die. Û ew erdê xweşşik nayête dîtin.</li></>"
 
-#: windows.cpp:204
+#: windows.cpp:207
 msgid "&Traverse windows on all desktops"
 msgstr "Hemmi &pencerên desktop werçerxîne"
 
-#: windows.cpp:208
+#: windows.cpp:210
 msgid ""
 "Leave this option disabled if you want to limit walking through windows to "
 "the current desktop."
@@ -517,23 +534,25 @@ msgstr ""
 "Vê dananê bihêle neaktîv, heger tu guhertina dinav penceran bi tenê "
 "jibo Desktopa aktuell dixwaze."
 
-#: windows.cpp:212
+#: windows.cpp:214
 msgid "Desktop navi&gation wraps around"
 msgstr "Jiberxwe ve &Navigationa dan û stendinê dike"
 
-#: windows.cpp:215
+#: windows.cpp:217
+#, fuzzy
 msgid ""
-"Enable this option if you want keyboard or electric border navigation beyond "
-"an edge desktop to bring you to the desktop at the opposite edge."
+"Enable this option if you want keyboard or active desktop border navigation "
+"beyond the edge of a desktop to take you to the opposite edge of the new "
+"desktop."
 msgstr ""
 "Vê Dananê aktîvbike, heger tu bixwaze ku navigation ji desktopa li rexê "
 "din bîne rexê li himberî wê."
 
-#: windows.cpp:219
+#: windows.cpp:221
 msgid "Popup desktop name on desktop &switch"
 msgstr "Navê desktopê &nîşandike heger ew desktop hate guhertin"
 
-#: windows.cpp:222
+#: windows.cpp:224
 msgid ""
 "Enable this option if you wish to see the current desktop name popup "
 "whenever the current desktop is changed."
@@ -541,15 +560,15 @@ msgstr ""
 "Vê optionê aktîv bike, heger tu bixwaze navê desktopa tu liser kardiki "
 "bibîne."
 
-#: windows.cpp:457
+#: windows.cpp:460
 msgid "Shading"
 msgstr "Barkerê penceran"
 
-#: windows.cpp:459
+#: windows.cpp:462
 msgid "Anima&te"
 msgstr "Anî&mation"
 
-#: windows.cpp:460
+#: windows.cpp:463
 msgid ""
 "Animate the action of reducing the window to its titlebar (shading) as well "
 "as the expansion of a shaded window"
@@ -557,11 +576,11 @@ msgstr ""
 "Penceran biçûk dike, bi tenê lista serdêr tê xuyakirin (Effekta "
 "Barkerêpenceran) û Dîsapêşkirina wê dibe mîna Animationekê"
 
-#: windows.cpp:463
+#: windows.cpp:466
 msgid "&Enable hover"
 msgstr "&Hover aktîv dike"
 
-#: windows.cpp:473
+#: windows.cpp:476
 msgid ""
 "If Shade Hover is enabled, a shaded window will un-shade automatically when "
 "the mouse pointer has been over the title bar for some time."
@@ -569,7 +588,7 @@ msgstr ""
 "Heger \"Barekerê-penceran yên Automatîk\" aktîv be, wê ew pencera "
 "berkirî bê xûya kirin, heger mişkok demeka kurt liser wî ma."
 
-#: windows.cpp:476
+#: windows.cpp:479
 msgid ""
 "Sets the time in milliseconds before the window unshades when the mouse "
 "pointer goes over the shaded window."
@@ -577,11 +596,11 @@ msgstr ""
 "Katekê disazîne (bi Millisekundan), ku tîrê mişkokê liser pencera "
 "aktîvkirî bimîne ta kupencere biçûk bibe."
 
-#: windows.cpp:487
+#: windows.cpp:490
 msgid "Active Desktop Borders"
 msgstr "Çarçêwên desktopa aktîv"
 
-#: windows.cpp:490
+#: windows.cpp:493
 msgid ""
 "If this option is enabled, moving the mouse to a screen border will change "
 "your desktop. This is e.g. useful if you want to drag windows from one "
@@ -591,23 +610,23 @@ msgstr ""
 "screen ê desktopa diguhrîne. Evaya zor çake heger tu bixwaze penceran ji "
 "desktopekê bibe desktopeka din (Yanî tu wana bibe û bîne)."
 
-#: windows.cpp:493
+#: windows.cpp:496
 msgid "D&isabled"
 msgstr "&Likarxistin"
 
-#: windows.cpp:494
+#: windows.cpp:497
 msgid "Only &when moving windows"
 msgstr "&Bitenê aktîv bike dema weguhastina penceran"
 
-#: windows.cpp:495
+#: windows.cpp:498
 msgid "A&lways enabled"
 msgstr "&Herdem aktîv bike"
 
-#: windows.cpp:500
+#: windows.cpp:503
 msgid "Desktop &switch delay:"
 msgstr "Demarawistanê bo çûn û hatin dinav &desktopa de:"
 
-#: windows.cpp:501
+#: windows.cpp:504
 msgid ""
 "Here you can set a delay for switching desktops using the active borders "
 "feature. Desktops will be switched after the mouse has been pushed against a "
@@ -618,15 +637,72 @@ msgstr ""
 "cendakî(li gor te çend Millisekunde danîne) liser Bord a Skrînê ma û "
 "ne livî."
 
-#: windows.cpp:636
+#: windows.cpp:517
+msgid "Focus stealing prevention level:"
+msgstr ""
+
+#: windows.cpp:519
+msgid ""
+"_: Focus Stealing Prevention Level\n"
+"None"
+msgstr ""
+
+#: windows.cpp:520
+msgid ""
+"_: Focus Stealing Prevention Level\n"
+"Low"
+msgstr ""
+
+#: windows.cpp:521
+msgid ""
+"_: Focus Stealing Prevention Level\n"
+"Normal"
+msgstr ""
+
+#: windows.cpp:522
+msgid ""
+"_: Focus Stealing Prevention Level\n"
+"High"
+msgstr ""
+
+#: windows.cpp:523
+msgid ""
+"_: Focus Stealing Prevention Level\n"
+"Extreme"
+msgstr ""
+
+#: windows.cpp:527
+msgid ""
+"This option specifies how much KWin will try to prevent unwanted focus "
+"stealing caused by unexpected activation of new "
+"windows."
+"<ul>"
+"<li><em>None:</em> The standard old behavior - prevention is turned off and "
+"new windows always become activated.</li>"
+"<li><em>Low:</em> Prevention is enabled; when some window doesn't have "
+"support for the underlying mechanism and KWin cannot reliably decide whether "
+"to activate the window or not, it will be activated. This setting may have "
+"both worse and better results than normal level, depending on the "
+"applications.</li>"
+"<li><em>Normal:</em> Prevention is enabled; the default "
+"setting.</li>"
+"<li><em>High:</em> New windows get activated only if no window is currently "
+"active or if they belong to the currently active application. This setting "
+"is probably not really usable when not using mouse focus "
+"policy.</li>"
+"<li><em>Extreme:</em> All windows must be explicitly activated by the "
+"user.</li></ul>"
+msgstr ""
+
+#: windows.cpp:688
 msgid "Windows"
 msgstr "Pencere"
 
-#: windows.cpp:645
+#: windows.cpp:696
 msgid "Di&splay content in moving windows"
 msgstr "Naweroka penceran ligel &cûlankirinê nîşanbide"
 
-#: windows.cpp:647
+#: windows.cpp:698
 msgid ""
 "Enable this option if you want a window's content to be fully shown while "
 "moving it, instead of just showing a window 'skeleton'. The result may not "
@@ -636,11 +712,11 @@ msgstr ""
 "moving it, instead of just showing a window 'skeleton'. The result may not "
 "be satisfying on slow machines without graphic acceleration."
 
-#: windows.cpp:651
+#: windows.cpp:702
 msgid "Display content in &resizing windows"
 msgstr "Naweropka penceran ligel &guhertina endazê wane nîşanbide"
 
-#: windows.cpp:653
+#: windows.cpp:704
 msgid ""
 "Enable this option if you want a window's content to be shown while resizing "
 "it, instead of just showing a window 'skeleton'. The result may not be "
@@ -651,11 +727,11 @@ msgstr ""
 "perçak ji wan.Ev option jibo PC-ê yên kevin ne başe jiber ku tawdana "
 "karên grafîk jêre pêwîste."
 
-#: windows.cpp:657
+#: windows.cpp:708
 msgid "Display window &geometry when moving or resizing"
 msgstr "&Geometrîya penceran nîşanbide heger endazê wana hat guhertin."
 
-#: windows.cpp:659
+#: windows.cpp:710
 msgid ""
 "Enable this option if you want a window's geometry to be displayed while it "
 "is being moved or resized. The window position relative to the top-left "
@@ -665,11 +741,11 @@ msgstr ""
 "tu wê diculînî yan endaza wî diguhrînî. Pencere diçe ser jûr rexê "
 "çepê ji skrînê(screen) û tev mezinbuna xwe tê xuyakirin."
 
-#: windows.cpp:669
+#: windows.cpp:720
 msgid "Animate minimi&ze and restore"
 msgstr "Anîmekirina &biçûkkirinê û enbar kirinê"
 
-#: windows.cpp:671
+#: windows.cpp:722
 msgid ""
 "Enable this option if you want an animation shown when windows are minimized "
 "or restored."
@@ -677,15 +753,15 @@ msgstr ""
 "Vê dananê aktîv bike heger tu Anîmationê dixwaze bibîne dema pencere "
 "biçûk dibin yan ji dên enbar kirinê."
 
-#: windows.cpp:685
+#: windows.cpp:736
 msgid "Slow"
 msgstr "Hêdî"
 
-#: windows.cpp:689
+#: windows.cpp:740
 msgid "Fast"
 msgstr "Bilez"
 
-#: windows.cpp:693
+#: windows.cpp:744
 msgid ""
 "Here you can set the speed of the animation shown when windows are minimized "
 "and restored. "
@@ -693,13 +769,13 @@ msgstr ""
 "Livir tu kari saz bike, ku anîmation cendî divê bilez be, dema pencere "
 "biçûk dibin yan ji dên enbar kirinê."
 
-#: windows.cpp:699
+#: windows.cpp:750
 msgid "Allow moving and resizing o&f maximized windows"
 msgstr ""
 "Destûr dide ku pencere bên &cûlankirin yan na, dema tu wan biçûk û "
 "mezin dike"
 
-#: windows.cpp:701
+#: windows.cpp:752
 msgid ""
 "When enabled, this feature activates the border of maximized windows and "
 "allows you to move or resize them, just like for normal windows"
@@ -707,31 +783,31 @@ msgstr ""
 "Ev Funktion destûr dide ku ew pencerên mezin bune gellekî normal bêne "
 "cûlankirin yan mezinbuna wan bê guhertin."
 
-#: windows.cpp:707
+#: windows.cpp:758
 msgid "&Placement:"
 msgstr "&bicîhkirin:"
 
-#: windows.cpp:710
+#: windows.cpp:761
 msgid "Smart"
 msgstr "Smart"
 
-#: windows.cpp:711
+#: windows.cpp:762
 msgid "Cascade"
 msgstr "Cascade"
 
-#: windows.cpp:712
+#: windows.cpp:763
 msgid "Random"
 msgstr "Helkewt"
 
-#: windows.cpp:713
+#: windows.cpp:764
 msgid "Centered"
 msgstr "Navendbuyî"
 
-#: windows.cpp:714
+#: windows.cpp:765
 msgid "Zero-Cornered"
 msgstr "Di kûjîya 0,0 de"
 
-#: windows.cpp:721
+#: windows.cpp:772
 msgid ""
 "The placement policy determines where a new window will appear on the "
 "desktop. For now, there are three different policies: "
@@ -748,23 +824,23 @@ msgstr ""
 "<li><em>Cascade</em>Evaya liser û bin hev wan datîne</li> "
 "<li><em>Random</em> Evaya bicîhkirinekê nenas bikartîne</li></ul>"
 
-#: windows.cpp:753
+#: windows.cpp:804
 msgid "Snap Zones"
 msgstr "Zone ya Snap"
 
-#: windows.cpp:757 windows.cpp:767
+#: windows.cpp:808 windows.cpp:818
 msgid "none"
 msgstr "Nîne"
 
-#: windows.cpp:759
+#: windows.cpp:810
 msgid "&Border snap zone:"
 msgstr "&Zone ya Boarder Snap:"
 
-#: windows.cpp:760 windows.cpp:770
+#: windows.cpp:811 windows.cpp:821
 msgid " pixels"
 msgstr " pîksil"
 
-#: windows.cpp:762
+#: windows.cpp:813
 msgid ""
 "Here you can set the snap zone for screen borders, i.e. the 'strength' of "
 "the magnetic field which will make windows snap to the border when moved "
@@ -774,11 +850,11 @@ msgstr ""
 "\"Xurtîya xana pola\", evaya pencerê di Border de digre û diwestîne, "
 "heger evana nêzîkî wê bun."
 
-#: windows.cpp:769
+#: windows.cpp:820
 msgid "&Window snap zone:"
 msgstr "&Zone ya Snap ya penceran:"
 
-#: windows.cpp:772
+#: windows.cpp:823
 msgid ""
 "Here you can set the snap zone for windows, i.e. the 'strength' of the "
 "magnetic field which will make windows snap to each other when they're moved "
@@ -788,11 +864,11 @@ msgstr ""
 "xana pola\", evaya pencerê digre û nahêle here ser pencerê din, heger "
 "nêzîkî hinek din bu."
 
-#: windows.cpp:776
+#: windows.cpp:827
 msgid "Snap windows onl&y when overlapping"
 msgstr "Penceran snap dike &heger ew hatin ser hev"
 
-#: windows.cpp:777
+#: windows.cpp:828
 msgid ""
 "Here you can set that windows will be only snapped if you try to overlap "
 "them, i.e. they won't be snapped if the windows comes only near another "
