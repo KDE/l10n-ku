@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kmenuedit\n"
-"POT-Creation-Date: 2003-03-08 01:55+0100\n"
+"POT-Creation-Date: 2003-12-22 01:34+0100\n"
 "PO-Revision-Date: 2003-03-04 23:09+0100\n"
 "Last-Translator: Omezkar Ahmad/Zeidler <mizgar@lycos.de>\n"
 "Language-Team: Kurdish <ku@i18n.kde.org>\n"
@@ -26,81 +26,77 @@ msgid ""
 "Your emails"
 msgstr "mizgar@lycos.de abu@gerdi.net"
 
-#: basictab.cpp:69
+#: basictab.cpp:73
 msgid "Enable &launch feedback"
 msgstr ""
 
-#: basictab.cpp:72
+#: basictab.cpp:76
 msgid "&Name:"
 msgstr "&Nav:"
 
-#: basictab.cpp:73
+#: basictab.cpp:77
 msgid "&Comment:"
 msgstr "&Kommentar:"
 
-#: basictab.cpp:74
+#: basictab.cpp:78
 msgid "Co&mmand:"
 msgstr "Fer&man:"
 
-#: basictab.cpp:75
-msgid "&Type:"
-msgstr "&Cor:"
-
-#: basictab.cpp:100
-msgid "Application"
-msgstr "Program"
-
-#: basictab.cpp:101
-msgid "Link"
-msgstr "Link"
-
-#: basictab.cpp:120
+#: basictab.cpp:115
 msgid "&Work path:"
 msgstr "&Rêka kar:"
 
-#: basictab.cpp:138
+#: basictab.cpp:133
 msgid "Run in term&inal"
 msgstr "Di &Terminal de bajo"
 
-#: basictab.cpp:144
+#: basictab.cpp:139
 msgid "Terminal &options:"
 msgstr "Dananên &Terminal:"
 
-#: basictab.cpp:161
+#: basictab.cpp:156
 msgid "Run as a &different user"
 msgstr "Binavê bikarhênerekî din &fermanê bajo"
 
-#: basictab.cpp:167
+#: basictab.cpp:162
 msgid "&Username:"
 msgstr "Navê&bikarhêner:"
 
-#: basictab.cpp:198
+#: basictab.cpp:193
 msgid "Current shortcut &key:"
 msgstr "Current shortcut &key:"
 
-#: desktopfileeditor.cpp:46
-msgid "&Reset"
-msgstr "&Vegerîn"
+#: basictab.cpp:391
+msgid ""
+"<qt>The key <b>%1</b> can not be used here because it is already used to "
+"activate <b>%2</b>."
+msgstr ""
 
-#: kmenuedit.cpp:37
+#: basictab.cpp:396
+msgid "<qt>The key <b>%1</b> can not be used here because it is already in use."
+msgstr ""
+
+#: kmenuedit.cpp:43
 msgid "Edit K Menu"
 msgstr "K-Menu biguhrîne"
 
-#: kmenuedit.cpp:65
+#: kmenuedit.cpp:77
 msgid "&New Submenu..."
 msgstr "&Binmenu-eke nûh..."
 
-#: kmenuedit.cpp:66
+#: kmenuedit.cpp:78
 msgid "New &Item..."
 msgstr "&Elementek nûh..."
 
-#: kmenuedit.cpp:71
-msgid "Show &Hidden Items"
-msgstr "&Elementên veşartî pêşbike"
+#: kmenuedit.cpp:162
+msgid ""
+"You have made changes to the menu.\n"
+"Do you want to save the changes or discard them?"
+msgstr ""
 
-#: kmenuedit.cpp:108
-msgid "&Re-add"
-msgstr "&Dîsa lêpirkirin"
+#: kmenuedit.cpp:164
+msgid "Save Menu Changes?"
+msgstr ""
 
 #: main.cpp:30
 msgid "KDE Menu editor"
@@ -115,41 +111,60 @@ msgid "Maintainer"
 msgstr "Maintainer"
 
 #: main.cpp:39
+#, fuzzy
+msgid "Previous Maintainer"
+msgstr "Maintainer"
+
+#: main.cpp:40
 msgid "Original Author"
 msgstr "Nivîskarê yekemîn"
 
-#: treeview.cpp:90
+#: treeview.cpp:85
 msgid " [Hidden]"
 msgstr " [Veşartî]"
 
-#: treeview.cpp:353
-msgid "Settings"
-msgstr "Danan"
-
-#: treeview.cpp:762
-msgid "Submenu name:"
-msgstr "Navê binmenu:"
-
-#: treeview.cpp:763
+#: treeview.cpp:718
 msgid "New Submenu"
 msgstr "Binmenu-ke nûh"
 
-#: treeview.cpp:820
-msgid "A file exists with that name. Please provide another name."
-msgstr "Faîleke din bi vî navî heye. Bifermîne û navekî din bikarbîne."
+#: treeview.cpp:719
+msgid "Submenu name:"
+msgstr "Navê binmenu:"
 
-#: treeview.cpp:820 treeview.cpp:889
-msgid "File Exists"
-msgstr "Faîl heye"
-
-#: treeview.cpp:846
-msgid "Item name:"
-msgstr "Navê Element:"
-
-#: treeview.cpp:847
+#: treeview.cpp:787
 msgid "New Item"
 msgstr "Elementek nûh"
 
-#: treeview.cpp:889
-msgid "A file already exists with that name. Please provide another name."
-msgstr "Faîleke din bi vî navî heye. Bifermîne û navekî din bikarbîne."
+#: treeview.cpp:788
+msgid "Item name:"
+msgstr "Navê Element:"
+
+#~ msgid "&Type:"
+#~ msgstr "&Cor:"
+
+#~ msgid "Application"
+#~ msgstr "Program"
+
+#~ msgid "Link"
+#~ msgstr "Link"
+
+#~ msgid "&Reset"
+#~ msgstr "&Vegerîn"
+
+#~ msgid "Show &Hidden Items"
+#~ msgstr "&Elementên veşartî pêşbike"
+
+#~ msgid "&Re-add"
+#~ msgstr "&Dîsa lêpirkirin"
+
+#~ msgid "Settings"
+#~ msgstr "Danan"
+
+#~ msgid "A file already exists with that name. Please provide another name."
+#~ msgstr "Faîleke din bi vî navî heye. Bifermîne û navekî din bikarbîne."
+
+#~ msgid "File Exists"
+#~ msgstr "Faîl heye"
+
+#~ msgid "A file exists with that name. Please provide another name."
+#~ msgstr "Faîleke din bi vî navî heye. Bifermîne û navekî din bikarbîne."
