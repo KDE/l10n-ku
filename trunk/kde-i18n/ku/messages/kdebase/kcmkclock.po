@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmkclock\n"
-"POT-Creation-Date: 2003-01-09 03:09+0100\n"
+"POT-Creation-Date: 2003-03-16 01:27+0100\n"
 "PO-Revision-Date: 2003-03-03 09:33+0100\n"
 "Last-Translator: Omezkar Ahmad/Zeidler <mizgar@lycos.de>\n"
 "Language-Team: Kurdish <ku@i18n.kde.org>\n"
@@ -14,19 +14,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 0.9.6\n"
 
-#: dtime.cpp:58
-msgid "Here you can change the system date's month."
-msgstr "Livir tu kari meh (mang) ya rêkkewt(Datum)a sîstemê biguhere."
-
-#: dtime.cpp:64
-msgid "Here you can change the system date's year."
-msgstr "Livir tu kari sala rêkkewta (date) sîtemê biguhere."
-
-#: dtime.cpp:68
-msgid "Here you can change the system date's day of the month."
+#: dtime.cpp:55
+#, fuzzy
+msgid "Here you can change the system date's day of the month, month and year."
 msgstr "Livir tu kari roja rêkkewta (date) sîtemê biguhere."
 
-#: dtime.cpp:141
+#: dtime.cpp:128
 msgid ""
 "Here you can change the system time. Click into the hours, minutes or "
 "seconds field to change the relevant value, either using the up and down "
@@ -36,11 +29,11 @@ msgstr ""
 "hurdemanyan çirkan jibo ku tu nirxên wane biguherîne, herweha tu kari "
 "nirxan bi dûgma jêr û jor biguherîne yanjî nirxên nuh binivîsîne."
 
-#: dtime.cpp:271
+#: dtime.cpp:235
 msgid "Can not set date."
 msgstr "Rêkkewt (date) nayête sazkirin."
 
-#: dtime.cpp:339 main.cpp:91
+#: dtime.cpp:303 main.cpp:88
 msgid ""
 "<h1>Date & Time</h1> This control module can be used to set the system date "
 "and time. As these settings do not only affect you as a user, but rather the "
@@ -55,45 +48,45 @@ msgstr ""
 "te de Dem û Rêkkewta systemê şaşe fermo ji birêvebirê systemê (root) "
 "re bêje hew ew bitenê kari vî tiştî bike."
 
-#: tzone.cpp:64
+#: tzone.cpp:62
 msgid "Current time zone: "
 msgstr "Zone ya Demî ya aktuel: "
 
-#: tzone.cpp:72
+#: tzone.cpp:70
 msgid "To change the time zone, select your area from the list below:"
 msgstr ""
 "Jibo gohrîna Zone ya demê, Cihê runiştina xwe hilbijêre ji vê Lista "
 "jêr:"
 
-#: tzone.cpp:95 tzone.cpp:203
+#: tzone.cpp:93 tzone.cpp:201
 msgid "[No selection]"
 msgstr "[Hilbijartin nîne]"
 
-#: tzone.cpp:154
+#: tzone.cpp:152
 msgid "Unknown"
 msgstr "Nenas"
 
-#: tzone.cpp:291
+#: tzone.cpp:289
 msgid "Error setting new Time Zone!"
 msgstr "Şaştî çêbu çaxha Zone ya demî hate sazkirin."
 
-#: tzone.cpp:292
+#: tzone.cpp:290
 msgid "Timezone Error"
 msgstr "Şaştîya Zone ya demî"
 
-#: main.cpp:101
+#: main.cpp:98
 msgid "kcmclock"
 msgstr "kcmclock"
 
-#: main.cpp:101
+#: main.cpp:98
 msgid "KDE Clock Control Module"
 msgstr "Kontrolmodul jibo dema sîstemî"
 
-#: main.cpp:105
+#: main.cpp:102
 msgid "Original author"
 msgstr "Nivîskarê yekemîn"
 
-#: main.cpp:106
+#: main.cpp:103
 msgid "Current Maintainer"
 msgstr "Maintrainerê aktuel"
 
@@ -108,3 +101,9 @@ msgid ""
 "_: EMAIL OF TRANSLATORS\n"
 "Your emails"
 msgstr "mizgar@lycos.de abu@gerdi.net"
+
+#~ msgid "Here you can change the system date's month."
+#~ msgstr "Livir tu kari meh (mang) ya rêkkewt(Datum)a sîstemê biguhere."
+
+#~ msgid "Here you can change the system date's year."
+#~ msgstr "Livir tu kari sala rêkkewta (date) sîtemê biguhere."
