@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kio_smtp\n"
-"POT-Creation-Date: 2003-01-31 02:46+0100\n"
+"POT-Creation-Date: 2003-03-11 01:39+0100\n"
 "PO-Revision-Date: 2003-03-04 01:28+0100\n"
 "Last-Translator: Omezkar Ahmad/Zeidler <mizgar@lycos.de>\n"
 "Language-Team: Kurdish <ku@i18n.kde.org>\n"
@@ -61,48 +61,50 @@ msgstr "Bersîva SMTP ya şaş hate gehîştin."
 msgid "Invalid SMTP response received: \"%1\""
 msgstr "Bersîva SMTP ya şaş hate gehîştin: %1"
 
-#: smtp.cc:569
+#: smtp.cc:570
 msgid "The server did not accept the connection: \"%1\""
 msgstr "Server naxwaze peywendî çêke: %1"
 
-#: smtp.cc:607 smtp.cc:655
+#: smtp.cc:608 smtp.cc:656
 msgid "The server responded: \"%1\""
 msgstr "Bersîva Server: %1"
 
-#: smtp.cc:631
+#: smtp.cc:632
 msgid ""
 "Your SMTP server claims to support TLS, but negotiation was unsuccessful.\n"
 "You can disable TLS in KDE using the crypto settings module."
 msgstr ""
-"Xûyaye SMTP-Server alîkarîya TLS-Protokol dike, lê hevpeyîvîn ligor wê jî çênebû.\n"
+"Xûyaye SMTP-Server alîkarîya TLS-Protokol dike, lê hevpeyîvîn ligor "
+"wê jî çênebû.\n"
 "Tu kari bikarînana TLS di Sentera kontrolê ya KDE neaktîvbike."
 
-#: smtp.cc:636
+#: smtp.cc:637
 msgid "Connection Failed"
 msgstr "Peywendî hate şikandin"
 
-#: smtp.cc:676
+#: smtp.cc:677
 msgid ""
 "Your SMTP server does not support TLS. Disable TLS, if you want to connect "
 "without encryption."
 msgstr ""
-"Xûyaye SMTP-Server alîkarîya TLS-Protokol dike, lê hevpeyîvîn ligor wê jî çênebû.\n"
-"Heger tu dixwazî TLS nakara (neaktîv) bike jibo ku peywendî bê klîldan \"encryption\" "
-"çêbibe."
+"Xûyaye SMTP-Server alîkarîya TLS-Protokol dike, lê hevpeyîvîn ligor "
+"wê jî çênebû.\n"
+"Heger tu dixwazî TLS nakara (neaktîv) bike jibo ku peywendî bê klîldan "
+"\"encryption\" çêbibe."
 
-#: smtp.cc:688
+#: smtp.cc:689
 msgid "Username and password for your SMTP account:"
 msgstr "Navê bikarhêner û password jibo SMTP account:"
 
-#: smtp.cc:690
+#: smtp.cc:691
 msgid "When prompted, you ran away."
 msgstr "Heger prompt hat, ête hema biajo."
 
-#: smtp.cc:737
+#: smtp.cc:738
 msgid "No compatible authentication methods found."
 msgstr "Methodeke Authentifikationê ligor wê ne hate dîtin."
 
-#: smtp.cc:758
+#: smtp.cc:759
 msgid ""
 "Your SMTP server doesn't support %1.\n"
 "Choose a different authentication method."
@@ -110,7 +112,7 @@ msgstr ""
 "SMTP-Server alîkarîyê %1 nake.\n"
 "Bifermîne û methodeke authentifikationeke din hilbijêre."
 
-#: smtp.cc:788
+#: smtp.cc:789
 msgid ""
 "Authentication failed.\n"
 "Most likely the password is wrong.\n"
@@ -119,4 +121,3 @@ msgstr ""
 "Authentifikation hate şikandin.\n"
 "Lewaneye ku password ne rast bu.\n"
 "Bersîva Server: %1"
-
