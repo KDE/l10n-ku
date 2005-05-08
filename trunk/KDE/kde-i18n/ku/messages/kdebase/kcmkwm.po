@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmkwm\n"
-"POT-Creation-Date: 2005-03-07 01:41+0100\n"
+"POT-Creation-Date: 2005-05-08 01:17+0200\n"
 "PO-Revision-Date: 2003-02-13 00:30+0100\n"
 "Last-Translator: Omezkar Ahmad/Zeidler <mizgar@lycos.de>\n"
 "Language-Team: Kurdish <ku@i18n.kde.org>\n"
@@ -26,39 +26,45 @@ msgid ""
 "Your emails"
 msgstr "mizgar@lycos.de abu@gerdi.net"
 
-#: main.cpp:98
+#: main.cpp:97
 msgid "&Focus"
 msgstr "&Aktîv"
 
-#: main.cpp:103
-msgid "Actio&ns"
+#: main.cpp:102 main.cpp:215
+#, fuzzy
+msgid "&Titlebar Actions"
+msgstr "&Duqirte li lîsta serdêr"
+
+#: main.cpp:107 main.cpp:220
+#, fuzzy
+msgid "Window Actio&ns"
 msgstr "Çalekîa&n"
 
-#: main.cpp:108
+#: main.cpp:112
 msgid "&Moving"
 msgstr "&Cûlankirin"
 
-#: main.cpp:113
+#: main.cpp:117
 msgid "Ad&vanced"
 msgstr "Fireh&buyî"
 
-#: main.cpp:118
+#: main.cpp:122
 msgid "&Translucency"
 msgstr ""
 
-#: main.cpp:122
+#: main.cpp:126
 msgid "kcmkwinoptions"
 msgstr "Optionên kcmkwin"
 
-#: main.cpp:122
+#: main.cpp:126
 msgid "Window Behavior Configuration Module"
 msgstr "Modula danana reftara penceran"
 
-#: main.cpp:124
+#: main.cpp:128
 msgid "(c) 1997 - 2002 KWin and KControl Authors"
 msgstr "(c) 1997 - 2002, Nivîskarê KWin û KControl"
 
-#: main.cpp:183
+#: main.cpp:190
 #, fuzzy
 msgid ""
 "<h1>Window Behavior</h1> Here you can customize the way windows behave when "
@@ -101,16 +107,16 @@ msgstr "Mezin kirin (bitenê estûnî)"
 msgid "Maximize (horizontal only)"
 msgstr "Mezin kirin (bitenê asoyî)"
 
-#: mouse.cpp:161 mouse.cpp:476
+#: mouse.cpp:161 mouse.cpp:734
 #, fuzzy
 msgid "Minimize"
 msgstr "Mezin kirin"
 
-#: mouse.cpp:162 mouse.cpp:246 mouse.cpp:279
+#: mouse.cpp:162 mouse.cpp:270 mouse.cpp:303
 msgid "Shade"
 msgstr "Saye kirin"
 
-#: mouse.cpp:163 mouse.cpp:221 mouse.cpp:242 mouse.cpp:282 mouse.cpp:475
+#: mouse.cpp:163 mouse.cpp:245 mouse.cpp:266 mouse.cpp:306 mouse.cpp:733
 msgid "Lower"
 msgstr "Nizimtir"
 
@@ -118,7 +124,8 @@ msgstr "Nizimtir"
 msgid "On All Desktops"
 msgstr ""
 
-#: mouse.cpp:165 mouse.cpp:224 mouse.cpp:245 mouse.cpp:283 mouse.cpp:477
+#: mouse.cpp:165 mouse.cpp:190 mouse.cpp:248 mouse.cpp:269 mouse.cpp:307
+#: mouse.cpp:735 mouse.cpp:762
 msgid "Nothing"
 msgstr "Hîç"
 
@@ -127,10 +134,44 @@ msgid "Behavior on <em>double</em> click into the titlebar."
 msgstr "Reftar jibo <em>du</em> tikan li serdêra pencere."
 
 #: mouse.cpp:176
+msgid "Titlebar wheel event:"
+msgstr ""
+
+#: mouse.cpp:179
+msgid "Handle mouse wheel events"
+msgstr ""
+
+#: mouse.cpp:184 mouse.cpp:756
+#, fuzzy
+msgid "Raise/Lower"
+msgstr "Bi pêş/paş: pêxî/bikûj"
+
+#: mouse.cpp:185 mouse.cpp:757
+msgid "Shade/Unshade"
+msgstr ""
+
+#: mouse.cpp:186 mouse.cpp:758
+#, fuzzy
+msgid "Maximize/Restore"
+msgstr "Mezin kirin"
+
+#: mouse.cpp:187 mouse.cpp:759
+msgid "Keep Above/Below"
+msgstr ""
+
+#: mouse.cpp:188 mouse.cpp:760
+msgid "Move to Previous/Next Desktop"
+msgstr ""
+
+#: mouse.cpp:189 mouse.cpp:761
+msgid "Change Opacity"
+msgstr ""
+
+#: mouse.cpp:200
 msgid "Titlebar && Frame"
 msgstr "Lista Sedêr && û Frame"
 
-#: mouse.cpp:180
+#: mouse.cpp:204
 msgid ""
 "Here you can customize mouse click behavior when clicking on the titlebar or "
 "the frame of a window."
@@ -138,11 +179,11 @@ msgstr ""
 "Livir tu kari bi taybet reftara mişkokê sazbikî, wê çibibe dema "
 "kirtkirinê liser serdêr û frame ya pencerekî."
 
-#: mouse.cpp:188 mouse.cpp:313 mouse.cpp:358
+#: mouse.cpp:212 mouse.cpp:337 mouse.cpp:611
 msgid "Left button:"
 msgstr "Mişkoka çepê:"
 
-#: mouse.cpp:189 mouse.cpp:359 mouse.cpp:437
+#: mouse.cpp:213 mouse.cpp:612 mouse.cpp:690
 msgid ""
 "In this row you can customize left click behavior when clicking into the "
 "titlebar or the frame."
@@ -150,11 +191,11 @@ msgstr ""
 "Di vê xêzkê tu kari bi taybet reftara mişkok çepê sazbikî, wê çibe "
 "dema kirtandinê liser serdêr û frame bi çi awayî be."
 
-#: mouse.cpp:192 mouse.cpp:315 mouse.cpp:362
+#: mouse.cpp:216 mouse.cpp:339 mouse.cpp:615
 msgid "Right button:"
 msgstr "Mişkoka rastê:"
 
-#: mouse.cpp:193 mouse.cpp:363 mouse.cpp:441
+#: mouse.cpp:217 mouse.cpp:616 mouse.cpp:694
 msgid ""
 "In this row you can customize right click behavior when clicking into the "
 "titlebar or the frame."
@@ -162,11 +203,11 @@ msgstr ""
 "Di vê xêzkê tu kari bi taybet reftara rasta mişkokê sazbikî, wê çibe "
 "dema kirtandinê liser serdêr yan jî frame."
 
-#: mouse.cpp:205 mouse.cpp:314 mouse.cpp:384
+#: mouse.cpp:229 mouse.cpp:338 mouse.cpp:637
 msgid "Middle button:"
 msgstr "Mişkoka nêvî:"
 
-#: mouse.cpp:206
+#: mouse.cpp:230
 msgid ""
 "In this row you can customize middle click behavior when clicking into the "
 "titlebar or the frame."
@@ -174,11 +215,11 @@ msgstr ""
 "Di vê xêzkê tu kari bi taybet reftara nêvî ya mişkokê sazbikî, wê "
 "çibe dema kirtandinê liser serdêr yan jî frame."
 
-#: mouse.cpp:213
+#: mouse.cpp:237
 msgid "Active"
 msgstr "Aktîv"
 
-#: mouse.cpp:215
+#: mouse.cpp:239
 msgid ""
 "In this column you can customize mouse clicks into the titlebar or the frame "
 "of an active window."
@@ -186,19 +227,19 @@ msgstr ""
 "Di vê estûnê de tu kari bi taybet reftara klîka mişkokê jibo serdêr "
 "û frame ya pencereka aktîv sazbike."
 
-#: mouse.cpp:220 mouse.cpp:241 mouse.cpp:281 mouse.cpp:474
+#: mouse.cpp:244 mouse.cpp:265 mouse.cpp:305 mouse.cpp:732
 msgid "Raise"
 msgstr "Bi pêş"
 
-#: mouse.cpp:222 mouse.cpp:243 mouse.cpp:280
+#: mouse.cpp:246 mouse.cpp:267 mouse.cpp:304
 msgid "Operations Menu"
 msgstr "Menu ya operationan"
 
-#: mouse.cpp:223 mouse.cpp:244 mouse.cpp:472
+#: mouse.cpp:247 mouse.cpp:268 mouse.cpp:730
 msgid "Toggle Raise & Lower"
 msgstr "Bi pêş/paş: pêxî/bikûj"
 
-#: mouse.cpp:228
+#: mouse.cpp:252
 msgid ""
 "Behavior on <em>left</em> click into the titlebar or frame of an "
 "<em>active</em> window."
@@ -206,7 +247,7 @@ msgstr ""
 "Reftara kirtandina <em>çep</em> ê mişkokê liser lista serdêr yan ji "
 "liser farmeka <em>aktîv</em> ya pencerekê."
 
-#: mouse.cpp:231
+#: mouse.cpp:255
 msgid ""
 "Behavior on <em>right</em> click into the titlebar or frame of an "
 "<em>active</em> window."
@@ -214,7 +255,7 @@ msgstr ""
 "Reftara kirtandina <em>rast</em> ya mişkokê liser lista serdêr yan liser "
 "farmeka <em>aktîv</em> ya pencerekê."
 
-#: mouse.cpp:252
+#: mouse.cpp:276
 msgid ""
 "Behavior on <em>middle</em> click into the titlebar or frame of an "
 "<em>active</em> window."
@@ -222,7 +263,7 @@ msgstr ""
 "Reftara kirtandina <em>nêvîn</em> ya mişkokê liser lista serdêr yan "
 "liser farmeka <em>aktîv</em> ya pencerekê."
 
-#: mouse.cpp:261
+#: mouse.cpp:285
 msgid ""
 "Behavior on <em>left</em> click into the titlebar or frame of an "
 "<em>inactive</em> window."
@@ -230,7 +271,7 @@ msgstr ""
 "Reftara kirtandina <em>çep</em> ê mişkokê liser lista serdêr yan liser "
 "farmeka <em>neaktîv</em> ya pencerekê."
 
-#: mouse.cpp:264
+#: mouse.cpp:288
 msgid ""
 "Behavior on <em>right</em> click into the titlebar or frame of an "
 "<em>inactive</em> window."
@@ -238,11 +279,11 @@ msgstr ""
 "Reftara kirtandina <em>rast</em> ya mişkokê liser lista serdêr yan liser "
 "farmeka <em>neaktîv</em> ya pencerekê."
 
-#: mouse.cpp:270
+#: mouse.cpp:294
 msgid "Inactive"
 msgstr "Neaktiv"
 
-#: mouse.cpp:272
+#: mouse.cpp:296
 msgid ""
 "In this column you can customize mouse clicks into the titlebar or the frame "
 "of an inactive window."
@@ -250,19 +291,19 @@ msgstr ""
 "Divê estûnê de tu kari bi taybet kirtandinên mişkokê liser serdêr yan "
 "frame ya pencerek neaktîv sazbike."
 
-#: mouse.cpp:276 mouse.cpp:396
+#: mouse.cpp:300 mouse.cpp:649
 msgid "Activate & Raise"
 msgstr "Aktîvkirin û bi pêş ve çûn"
 
-#: mouse.cpp:277
+#: mouse.cpp:301
 msgid "Activate & Lower"
 msgstr "Aktîvkirin û bi paş ve çûn"
 
-#: mouse.cpp:278 mouse.cpp:395
+#: mouse.cpp:302 mouse.cpp:648
 msgid "Activate"
 msgstr "Aktîvkirin"
 
-#: mouse.cpp:295
+#: mouse.cpp:319
 msgid ""
 "Behavior on <em>middle</em> click into the titlebar or frame of an "
 "<em>inactive</em> window."
@@ -270,38 +311,38 @@ msgstr ""
 "Reftara kirtandina <em>nêvîn</em> ya mişkokê liser lista serdêr yan "
 "liser farmeka <em>neaktîv</em> ya pencerekê."
 
-#: mouse.cpp:305
+#: mouse.cpp:329
 #, fuzzy
 msgid "Maximize Button"
 msgstr "Mezin kirin"
 
-#: mouse.cpp:310
+#: mouse.cpp:334
 #, fuzzy
 msgid "Here you can customize behavior when clicking on the maximize button."
 msgstr ""
 "Livir tu kari reftara dukirtekirina mişkokê li ser lîsta lerdêr ya "
 "pencere sazbikî."
 
-#: mouse.cpp:318
+#: mouse.cpp:342
 #, fuzzy
 msgid "Behavior on <em>left</em> click onto the maximize button."
 msgstr "Reftar jibo <em>du</em> tikan li serdêra pencere."
 
-#: mouse.cpp:319
+#: mouse.cpp:343
 #, fuzzy
 msgid "Behavior on <em>middle</em> click onto the maximize button."
 msgstr "Reftar jibo <em>du</em> tikan li serdêra pencere."
 
-#: mouse.cpp:320
+#: mouse.cpp:344
 #, fuzzy
 msgid "Behavior on <em>right</em> click onto the maximize button."
 msgstr "Reftar jibo <em>du</em> tikan li serdêra pencere."
 
-#: mouse.cpp:349
+#: mouse.cpp:602
 msgid "Inactive Inner Window"
 msgstr "Neaktîv, Navpencer"
 
-#: mouse.cpp:353
+#: mouse.cpp:606
 msgid ""
 "Here you can customize mouse click behavior when clicking on an inactive "
 "inner window ('inner' means: not titlebar, not frame)."
@@ -310,7 +351,7 @@ msgstr ""
 "kirtandinê liser nav navpencereka neaktîv (\"Nav\" yanî ne lista serdêr "
 "û ne frame)."
 
-#: mouse.cpp:372
+#: mouse.cpp:625
 msgid ""
 "In this row you can customize left click behavior when clicking into an "
 "inactive inner window ('inner' means: not titlebar, not frame)."
@@ -319,7 +360,7 @@ msgstr ""
 "çibe dema kirtandinê liser navpencereka neaktîv (\"Nav\" yanî ne lista "
 "serdêr û ne frame)."
 
-#: mouse.cpp:375
+#: mouse.cpp:628
 msgid ""
 "In this row you can customize right click behavior when clicking into an "
 "inactive inner window ('inner' means: not titlebar, not frame)."
@@ -328,7 +369,7 @@ msgstr ""
 "çibe dema kirtandinê liser navpencereka neaktîv (\"Nav\" yanî ne lista "
 "serdêr û ne frame)."
 
-#: mouse.cpp:385
+#: mouse.cpp:638
 msgid ""
 "In this row you can customize middle click behavior when clicking into an "
 "inactive inner window ('inner' means: not titlebar, not frame)."
@@ -337,19 +378,19 @@ msgstr ""
 "çibe dema kirtandinê liser navpencereka neaktîv (\"Nav\" yanî ne lista "
 "serdêr û ne frame)."
 
-#: mouse.cpp:393
+#: mouse.cpp:646
 msgid "Activate, Raise & Pass Click"
 msgstr "Aktîvbike heger bi pêş de û kirtandin çêbu"
 
-#: mouse.cpp:394
+#: mouse.cpp:647
 msgid "Activate & Pass Click"
 msgstr "Aktîvbike heger kirtandin çêbu"
 
-#: mouse.cpp:419
+#: mouse.cpp:672
 msgid "Inner Window, Titlebar && Frame"
 msgstr "Navpencer, Lista serdêr && û Frame"
 
-#: mouse.cpp:423
+#: mouse.cpp:676
 msgid ""
 "Here you can customize KDE's behavior when clicking somewhere into a window "
 "while pressing a modifier key."
@@ -358,11 +399,11 @@ msgstr ""
 "li her cihekî di pencerekê û ligel wê de ji Modifiera keyboardê hatibe "
 "pêlkirin."
 
-#: mouse.cpp:429
+#: mouse.cpp:682
 msgid "Modifier key:"
 msgstr "Modifier key:"
 
-#: mouse.cpp:431
+#: mouse.cpp:684
 msgid ""
 "Here you select whether holding the Meta key or Alt key will allow you to "
 "perform the following actions."
@@ -370,19 +411,19 @@ msgstr ""
 "Livir tu kari helbijêrî, ku heger pêlkirin çê bu liser tasta Meta yan "
 "ALT yek ji van çalekîyan destûr bistîne yan na."
 
-#: mouse.cpp:436
+#: mouse.cpp:689
 msgid "Modifier key + left button:"
 msgstr "Modifier key + mişkoka çepê mişkokê:"
 
-#: mouse.cpp:440
+#: mouse.cpp:693
 msgid "Modifier key + right button:"
 msgstr "Modifier key + mişkoka rastê mişkokê:"
 
-#: mouse.cpp:453
+#: mouse.cpp:706
 msgid "Modifier key + middle button:"
 msgstr "Modifier key + mişkoka nêvî mişkokê:"
 
-#: mouse.cpp:454
+#: mouse.cpp:707
 msgid ""
 "Here you can customize KDE's behavior when middle clicking into a window "
 "while pressing the modifier key."
@@ -391,20 +432,35 @@ msgstr ""
 "nêvîn ya mişkokê li her cihekî di pencerekê û ligel wê de ji "
 "Modifiera keyboardê hatibe pêlkirin."
 
-#: mouse.cpp:463
+#: mouse.cpp:714
+#, fuzzy
+msgid "Modifier key + mouse wheel:"
+msgstr "Modifier key + mişkoka nêvî mişkokê:"
+
+#: mouse.cpp:715
+#, fuzzy
+msgid ""
+"Here you can customize KDE's behavior when scrolling with the mouse wheel  "
+"in a window while pressing the modifier key."
+msgstr ""
+"Livir tu kari reftara KDE sazbikî, wê çawa be dema kirtandina mişkokê "
+"li her cihekî di pencerekê û ligel wê de ji Modifiera keyboardê hatibe "
+"pêlkirin."
+
+#: mouse.cpp:721
 msgid "Meta"
 msgstr "Jûr"
 
-#: mouse.cpp:464
+#: mouse.cpp:722
 msgid "Alt"
 msgstr "Alt"
 
-#: mouse.cpp:471
+#: mouse.cpp:729
 #, fuzzy
 msgid "Activate, Raise and Move"
 msgstr "Aktîvkirin û bi pêş ve çûn"
 
-#: mouse.cpp:473
+#: mouse.cpp:731
 msgid "Resize"
 msgstr "Endaze guhirtin"
 
