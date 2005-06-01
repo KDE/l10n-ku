@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-05-11 15:41+0200\n"
+"POT-Creation-Date: 2005-05-22 12:35+0200\n"
 "PO-Revision-Date: 2001-08-31 17:30+GMT\n"
 "Last-Translator: Abou-Zeid Gerdi <kde-ku@pispor.com>\n"
 "Language-Team: kurdish <kde-ku@pispor.com>\n"
@@ -18,18 +18,18 @@ msgstr ""
 msgid "File '%1' is not readable"
 msgstr "Dosyey \"%1\" naxwêndirêtewe"
 
-#: kio/global.cpp:715 kio/job.cpp:1691 kio/job.cpp:3117 kio/job.cpp:3576
+#: kio/global.cpp:715 kio/job.cpp:1691 kio/job.cpp:3114 kio/job.cpp:3573
 #: kio/paste.cpp:60
 #, fuzzy
 msgid "File Already Exists"
 msgstr "Dosye bûnî heye"
 
-#: kio/global.cpp:725 kio/job.cpp:2834
+#: kio/global.cpp:725 kio/job.cpp:2831
 #, fuzzy
 msgid "Folder Already Exists"
 msgstr "Dosye bûnî heye"
 
-#: kio/job.cpp:3117 kio/job.cpp:3576
+#: kio/job.cpp:3114 kio/job.cpp:3573
 #, fuzzy
 msgid "Already Exists as Folder"
 msgstr "Wek raberêk bûnî heye"
@@ -127,7 +127,7 @@ msgstr "gor`êndirawe le %1"
 msgid "The source file is '%1'"
 msgstr "Serçawekey tir \"%1\"eye"
 
-#: kio/kdirlister.cpp:2177 kio/krun.cpp:777 kio/paste.cpp:97
+#: kio/kdirlister.cpp:2180 kio/krun.cpp:777 kio/paste.cpp:97
 #: kio/renamedlg.cpp:431
 #, c-format
 msgid ""
@@ -150,8 +150,7 @@ msgstr "Bir`shtge (clipboard) xaliye"
 msgid "The peer SSL certificate appears to be corrupt."
 msgstr ""
 
-#: kio/observer.cpp:338 kio/tcpslavebase.cpp:720 kio/tcpslavebase.cpp:737
-#: misc/uiserver.cpp:1217
+#: kio/observer.cpp:338 kio/tcpslavebase.cpp:702 misc/uiserver.cpp:1217
 msgid "SSL"
 msgstr "SSL"
 
@@ -311,7 +310,7 @@ msgstr ""
 "Emesh ewe degeyenê, ke kesî sêyem detwanê rastiyekantan le katîgwastineweda "
 "bixate jêr çawdêrî."
 
-#: kio/tcpslavebase.cpp:322 kio/tcpslavebase.cpp:1101
+#: kio/tcpslavebase.cpp:322 kio/tcpslavebase.cpp:1066
 #, fuzzy
 msgid "Security Information"
 msgstr "Zanyarî asayîsh"
@@ -321,25 +320,25 @@ msgstr "Zanyarî asayîsh"
 msgid "C&ontinue Loading"
 msgstr "Berdewambûn le barkirdin"
 
-#: kio/tcpslavebase.cpp:677
+#: kio/tcpslavebase.cpp:673
 msgid "Enter the certificate password:"
 msgstr "Pêdanî nihênî bo gewahîname:"
 
-#: kio/tcpslavebase.cpp:678
+#: kio/tcpslavebase.cpp:674
 msgid "SSL Certificate Password"
 msgstr "Nihênî gewagînamey SSL"
 
-#: kio/tcpslavebase.cpp:717
+#: kio/tcpslavebase.cpp:687
 #, fuzzy
 msgid "Unable to open the certificate. Try a new password?"
 msgstr "Gewahîname netwandra bikirêtewe. Be nihêniyekî nwê têdekoshy?"
 
-#: kio/tcpslavebase.cpp:735
+#: kio/tcpslavebase.cpp:700
 #, fuzzy
 msgid "The procedure to set the client certificate for the session failed."
 msgstr "Bibûre, diyarîkirdinî gewahînamey client bo em danîshtine ner`exsa."
 
-#: kio/tcpslavebase.cpp:889
+#: kio/tcpslavebase.cpp:854
 msgid ""
 "The IP address of the host %1 does not match the one the certificate was issued "
 "to."
@@ -347,56 +346,56 @@ msgstr ""
 "Naûnîshanî IP bo kompyuterî %1 le gel eweyan yekangîrnabêtewe ke gewahînamey bo "
 "terxankirawe."
 
-#: kio/tcpslavebase.cpp:894 kio/tcpslavebase.cpp:902 kio/tcpslavebase.cpp:937
-#: kio/tcpslavebase.cpp:1011 kio/tcpslavebase.cpp:1023
-#: kio/tcpslavebase.cpp:1032 kio/tcpslavebase.cpp:1063
+#: kio/tcpslavebase.cpp:859 kio/tcpslavebase.cpp:867 kio/tcpslavebase.cpp:902
+#: kio/tcpslavebase.cpp:976 kio/tcpslavebase.cpp:988 kio/tcpslavebase.cpp:997
+#: kio/tcpslavebase.cpp:1028
 msgid "Server Authentication"
 msgstr "Mafî kargêr` (server)"
 
-#: kio/tcpslavebase.cpp:895 kio/tcpslavebase.cpp:903 kio/tcpslavebase.cpp:1033
+#: kio/tcpslavebase.cpp:860 kio/tcpslavebase.cpp:868 kio/tcpslavebase.cpp:998
 msgid "&Details"
 msgstr "&Nawer`okekan"
 
-#: kio/tcpslavebase.cpp:896 kio/tcpslavebase.cpp:904
+#: kio/tcpslavebase.cpp:861 kio/tcpslavebase.cpp:869
 msgid "Co&ntinue"
 msgstr "Berdewa&m"
 
-#: kio/tcpslavebase.cpp:898 kio/tcpslavebase.cpp:1028
+#: kio/tcpslavebase.cpp:863 kio/tcpslavebase.cpp:993
 msgid "The server certificate failed the authenticity test (%1)."
 msgstr "Mafwergitinî bir`waname le kargêr` (server) ner`exsa (%1)."
 
-#: kio/tcpslavebase.cpp:934 kio/tcpslavebase.cpp:1060
+#: kio/tcpslavebase.cpp:899 kio/tcpslavebase.cpp:1025
 msgid ""
 "Would you like to accept this certificate forever without being prompted?"
 msgstr ""
 "Xwazyarî ke em gewahînameye bo hemîsheû bebê dûbare pirsînieweqebûlbikey?"
 
-#: kio/tcpslavebase.cpp:938 kio/tcpslavebase.cpp:1064
+#: kio/tcpslavebase.cpp:903 kio/tcpslavebase.cpp:1029
 msgid "&Forever"
 msgstr "&Bohemîshe"
 
-#: kio/tcpslavebase.cpp:939 kio/tcpslavebase.cpp:1065
+#: kio/tcpslavebase.cpp:904 kio/tcpslavebase.cpp:1030
 msgid "&Current Sessions Only"
 msgstr "Tenh&a em danîshtine"
 
-#: kio/tcpslavebase.cpp:1010
+#: kio/tcpslavebase.cpp:975
 msgid ""
 "You have indicated that you wish to accept this certificate, but it is not "
 "issued to the server who is presenting it. Do you wish to continue loading?"
 msgstr ""
 
-#: kio/tcpslavebase.cpp:1022
+#: kio/tcpslavebase.cpp:987
 msgid ""
 "SSL certificate is being rejected as requested. You can disable this in the KDE "
 "Control Center."
 msgstr ""
 
-#: kio/tcpslavebase.cpp:1034
+#: kio/tcpslavebase.cpp:999
 #, fuzzy
 msgid "Co&nnect"
 msgstr "Berdewa&m"
 
-#: kio/tcpslavebase.cpp:1090
+#: kio/tcpslavebase.cpp:1055
 #, fuzzy
 msgid ""
 "You are about to enter secure mode. All transmissions will be encrypted unless "
@@ -409,12 +408,12 @@ msgstr ""
 "Emesh ewe degeyenê, ke kesî sêyem natwanê rastiyekantan le katîgwastineweda "
 "bixate jêr çawdêrî."
 
-#: kio/tcpslavebase.cpp:1102
+#: kio/tcpslavebase.cpp:1067
 #, fuzzy
 msgid "Display SSL &Information"
 msgstr "Zaniyarî SSL pêshan bide"
 
-#: kio/tcpslavebase.cpp:1104
+#: kio/tcpslavebase.cpp:1069
 #, fuzzy
 msgid "C&onnect"
 msgstr "Berdiwam"
