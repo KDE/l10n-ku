@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-06-19 01:27+0200\n"
+"POT-Creation-Date: 2005-06-20 01:28+0200\n"
 "PO-Revision-Date: 2001-08-31 17:30+GMT\n"
 "Last-Translator: Abou-Zeid Gerdi <kde-ku@pispor.com>\n"
 "Language-Team: kurdish <kde-ku@pispor.com>\n"
@@ -404,7 +404,7 @@ msgstr "Înglîzî"
 msgid "Language Selection"
 msgstr "Laper` diyarkirdin"
 
-#. i18n: file ./khtml/khtml_popupmenu.rc line 10
+#. i18n: file ./khtml/khtml_popupmenu.rc line 11
 #: rc.cpp:229
 #, fuzzy, no-c-format
 msgid "Frame"
@@ -837,8 +837,8 @@ msgstr "Tomarkirdin"
 msgid "&Save"
 msgstr "&Tomarkirdin"
 
-#: common_texts.cpp:111 khtml/khtml_part.cpp:3860 khtml/khtml_part.cpp:4043
-#: khtml/khtml_part.cpp:4357 khtml/khtml_run.cpp:76 kparts/browserrun.cpp:411
+#: common_texts.cpp:111 khtml/khtml_part.cpp:3867 khtml/khtml_part.cpp:4050
+#: khtml/khtml_part.cpp:4364 khtml/khtml_run.cpp:76 kparts/browserrun.cpp:411
 msgid "Save As"
 msgstr "Tomarkirdin wek"
 
@@ -1055,7 +1055,7 @@ msgstr "Kirdinewey taze"
 msgid "Open &Recent"
 msgstr "Kirdinewey &taze"
 
-#: common_texts.cpp:179 kdeui/kstdaction_p.h:43 khtml/khtml_part.cpp:4160
+#: common_texts.cpp:179 kdeui/kstdaction_p.h:43 khtml/khtml_part.cpp:4167
 msgid "&Find..."
 msgstr "&Ger`an..."
 
@@ -4104,15 +4104,15 @@ msgstr "Pishkinîn"
 msgid "Front"
 msgstr "Pît"
 
-#: kdecore/kcharsets.cpp:43 khtml/khtml_part.cpp:276
+#: kdecore/kcharsets.cpp:43 khtml/khtml_part.cpp:277
 msgid "Arabic"
 msgstr "Arebî"
 
-#: kdecore/kcharsets.cpp:44 khtml/khtml_part.cpp:277
+#: kdecore/kcharsets.cpp:44 khtml/khtml_part.cpp:278
 msgid "Baltic"
 msgstr "Baltîkî"
 
-#: kdecore/kcharsets.cpp:45 khtml/khtml_part.cpp:278
+#: kdecore/kcharsets.cpp:45 khtml/khtml_part.cpp:279
 msgid "Central European"
 msgstr "Ewropay nawerast"
 
@@ -4128,16 +4128,16 @@ msgstr "Çînî asayî"
 msgid "Cyrillic"
 msgstr "Kirîlî"
 
-#: kdecore/kcharsets.cpp:49 khtml/khtml_part.cpp:280
+#: kdecore/kcharsets.cpp:49 khtml/khtml_part.cpp:281
 msgid "Greek"
 msgstr "Yonanî"
 
 #: kdecore/kcharsets.cpp:50 kdeui/ksconfig.cpp:233 kdeui/ksconfig.cpp:393
-#: kdeui/ksconfig.cpp:648 khtml/khtml_part.cpp:281
+#: kdeui/ksconfig.cpp:648 khtml/khtml_part.cpp:282
 msgid "Hebrew"
 msgstr "H`îbrî"
 
-#: kdecore/kcharsets.cpp:51 khtml/khtml_part.cpp:282
+#: kdecore/kcharsets.cpp:51 khtml/khtml_part.cpp:283
 msgid "Japanese"
 msgstr "Japonî"
 
@@ -4150,11 +4150,11 @@ msgid "Thai"
 msgstr "Tayî"
 
 #: kdecore/kcharsets.cpp:54 kdeui/ksconfig.cpp:238 kdeui/ksconfig.cpp:398
-#: kdeui/ksconfig.cpp:653 khtml/khtml_part.cpp:286
+#: kdeui/ksconfig.cpp:653 khtml/khtml_part.cpp:287
 msgid "Turkish"
 msgstr "Turkî"
 
-#: kdecore/kcharsets.cpp:55 khtml/khtml_part.cpp:289
+#: kdecore/kcharsets.cpp:55 khtml/khtml_part.cpp:290
 msgid "Western European"
 msgstr "Ewropay rojawa"
 
@@ -4588,7 +4588,7 @@ msgstr ""
 msgid "The file '%1' already exists. Do you want to override it?"
 msgstr "Dosyey \"%1\" bûnî heye. Ler`ûnusînewe?"
 
-#: khtml/khtml_ext.cpp:745 knewstuff/knewstuffgeneric.cpp:135
+#: khtml/khtml_ext.cpp:784 knewstuff/knewstuffgeneric.cpp:135
 #, fuzzy
 msgid "Overwrite"
 msgstr "Ler`ûnusînewe"
@@ -5185,7 +5185,7 @@ msgstr "Nerwîcî"
 msgid "Polish"
 msgstr "Polonî"
 
-#: kdeui/ksconfig.cpp:322 khtml/khtml_part.cpp:284
+#: kdeui/ksconfig.cpp:322 khtml/khtml_part.cpp:285
 msgid "Russian"
 msgstr "Rusî"
 
@@ -5210,7 +5210,7 @@ msgstr "Swêdî"
 msgid "Swiss German"
 msgstr "Elmanî Swîs"
 
-#: kdeui/ksconfig.cpp:340 khtml/khtml_part.cpp:287
+#: kdeui/ksconfig.cpp:340 khtml/khtml_part.cpp:288
 msgid "Ukrainian"
 msgstr "Ukraniyayî"
 
@@ -6821,145 +6821,150 @@ msgstr "Wêney - %2x%3 \"Pixel\"ekan"
 msgid "Done."
 msgstr "Tewaw."
 
-#: khtml/khtml_ext.cpp:418
+#: khtml/khtml_ext.cpp:421
 #, fuzzy
 msgid "&Copy Text"
 msgstr "&Kopî"
 
-#: khtml/khtml_ext.cpp:459
+#: khtml/khtml_ext.cpp:464
 #, fuzzy
 msgid "Search '%1' at %2"
 msgstr "Kirdinewey \"%1\" behoy \"%2\" ?"
 
-#: khtml/khtml_ext.cpp:463
+#: khtml/khtml_ext.cpp:473
+#, fuzzy
+msgid "Search '%1' At"
+msgstr "Kirdinewey \"%1\" behoy \"%2\" ?"
+
+#: khtml/khtml_ext.cpp:502
 #, fuzzy
 msgid "Open '%1'"
 msgstr "Kirdinewey \"%1\" ?"
 
-#: khtml/khtml_ext.cpp:470 khtml/khtml_ext.cpp:522
+#: khtml/khtml_ext.cpp:509 khtml/khtml_ext.cpp:561
 msgid "Stop Animations"
 msgstr "Westanî culawekan"
 
-#: khtml/khtml_ext.cpp:479
+#: khtml/khtml_ext.cpp:518
 #, fuzzy
 msgid "Copy Email Address"
 msgstr "Nawûnîshanî peyam:"
 
-#: khtml/khtml_ext.cpp:484
+#: khtml/khtml_ext.cpp:523
 msgid "&Save Link As..."
 msgstr "Para&stinî girêder wek..."
 
-#: khtml/khtml_ext.cpp:486
+#: khtml/khtml_ext.cpp:525
 #, fuzzy
 msgid "Copy &Link Address"
 msgstr "Nawûnîshanî peyam:"
 
-#: khtml/khtml_ext.cpp:496
+#: khtml/khtml_ext.cpp:535
 #, fuzzy
 msgid "Open in New &Window"
 msgstr "&Pencerey nu"
 
-#: khtml/khtml_ext.cpp:498
+#: khtml/khtml_ext.cpp:537
 #, fuzzy
 msgid "Open in &This Window"
 msgstr "&Pencerey nu"
 
-#: khtml/khtml_ext.cpp:500
+#: khtml/khtml_ext.cpp:539
 msgid "Open in &New Tab"
 msgstr ""
 
-#: khtml/khtml_ext.cpp:502
+#: khtml/khtml_ext.cpp:541
 msgid "Reload Frame"
 msgstr "Barkirdinewey çarçêwe"
 
-#: khtml/khtml_ext.cpp:504 khtml/khtml_part.cpp:252
+#: khtml/khtml_ext.cpp:543 khtml/khtml_part.cpp:253
 msgid "View Frame Source"
 msgstr "Pêshandanî çwarçêwey serçawekan"
 
-#: khtml/khtml_ext.cpp:506
+#: khtml/khtml_ext.cpp:545
 #, fuzzy
 msgid "View Frame Information"
 msgstr "Xistiner`ûy zaniyariyekanî çapger"
 
-#: khtml/khtml_ext.cpp:510 khtml/khtml_part.cpp:398
+#: khtml/khtml_ext.cpp:549 khtml/khtml_part.cpp:399
 msgid "Print Frame..."
 msgstr "Çapkirdinî çarçêwe..."
 
-#: khtml/khtml_ext.cpp:511 khtml/khtml_part.cpp:258
+#: khtml/khtml_ext.cpp:550 khtml/khtml_part.cpp:259
 msgid "Save &Frame As..."
 msgstr "Tomarkirdinî ç&arçêwe wek..."
 
-#: khtml/khtml_ext.cpp:541
+#: khtml/khtml_ext.cpp:580
 msgid "Save Image As..."
 msgstr "Wêne tomarkirdin wek..."
 
-#: khtml/khtml_ext.cpp:543
+#: khtml/khtml_ext.cpp:582
 #, fuzzy
 msgid "Send Image..."
 msgstr "Parastinî wêne wek"
 
-#: khtml/khtml_ext.cpp:548
+#: khtml/khtml_ext.cpp:587
 #, fuzzy
 msgid "Copy Image"
 msgstr "Wênegirtinî deq (OCR)"
 
-#: khtml/khtml_ext.cpp:553
+#: khtml/khtml_ext.cpp:592
 msgid "Copy Image Location"
 msgstr "Shwênkewtî wêne"
 
-#: khtml/khtml_ext.cpp:558
+#: khtml/khtml_ext.cpp:597
 msgid "View Image (%1)"
 msgstr "Wênedîdenî (%1)"
 
-#: khtml/khtml_ext.cpp:563
+#: khtml/khtml_ext.cpp:602
 #, fuzzy
 msgid "Block Image"
 msgstr "Wênegirtinî deq (OCR)"
 
-#: khtml/khtml_ext.cpp:569
+#: khtml/khtml_ext.cpp:608
 #, c-format
 msgid "Block Images From %1"
 msgstr ""
 
-#: khtml/khtml_ext.cpp:593
+#: khtml/khtml_ext.cpp:632
 msgid "Save Link As"
 msgstr "Parastinî girêder wek"
 
-#: khtml/khtml_ext.cpp:613
+#: khtml/khtml_ext.cpp:652
 msgid "Save Image As"
 msgstr "Parastinî wêne wek"
 
-#: khtml/khtml_ext.cpp:745
+#: khtml/khtml_ext.cpp:784
 #, fuzzy
 msgid ""
 "A file named \"%1\" already exists. Are you sure you want to overwrite it?"
 msgstr "Dosyey \"%1\" bûnî heye. Ler`ûnusînewe?"
 
-#: khtml/khtml_ext.cpp:745
+#: khtml/khtml_ext.cpp:784
 #, fuzzy
 msgid "Overwrite File?"
 msgstr "Ler`ûnusînewey gisht"
 
-#: khtml/khtml_ext.cpp:806 kparts/browserrun.cpp:385
+#: khtml/khtml_ext.cpp:845 kparts/browserrun.cpp:385
 #, fuzzy
 msgid "The Download Manager (%1) could not be found in your $PATH "
 msgstr ""
 "Dosyey beger`xerî <b>%1</b> le rabereket (path) da nadozrêtewe. Çaw be "
 "installation bixshênewe."
 
-#: khtml/khtml_ext.cpp:807 kparts/browserrun.cpp:386
+#: khtml/khtml_ext.cpp:846 kparts/browserrun.cpp:386
 msgid ""
 "Try to reinstall it  \n"
 "\n"
 "The integration with Konqueror will be disabled!"
 msgstr ""
 
-#: khtml/khtml_ext.cpp:900
+#: khtml/khtml_ext.cpp:939
 #, fuzzy, no-c-format
 msgid "Default Font Size (100%)"
 msgstr "Endazey asayî pît"
 
-#: khtml/khtml_ext.cpp:913
+#: khtml/khtml_ext.cpp:952
 #, fuzzy, no-c-format
 msgid "%1%"
 msgstr "F%1"
@@ -7019,25 +7024,25 @@ msgstr "Çapger"
 msgid "Print header"
 msgstr "Çapger"
 
-#: khtml/khtml_part.cpp:251
+#: khtml/khtml_part.cpp:252
 #, fuzzy
 msgid "View Do&cument Source"
 msgstr "Pêshandanî deqî serçawekan"
 
-#: khtml/khtml_part.cpp:253
+#: khtml/khtml_part.cpp:254
 #, fuzzy
 msgid "View Document Information"
 msgstr "Xistiner`ûy zaniyariyekanî çapger"
 
-#: khtml/khtml_part.cpp:254
+#: khtml/khtml_part.cpp:255
 msgid "Save &Background Image As..."
 msgstr "Tomarkirdinî wêney &zemîn wek..."
 
-#: khtml/khtml_part.cpp:259
+#: khtml/khtml_part.cpp:260
 msgid "Security..."
 msgstr "Asayîsh..."
 
-#: khtml/khtml_part.cpp:260
+#: khtml/khtml_part.cpp:261
 msgid ""
 "Security Settings"
 "<p>Shows the certificate of the displayed page. Only pages that have been "
@@ -7046,203 +7051,203 @@ msgid ""
 "a secure connection."
 msgstr ""
 
-#: khtml/khtml_part.cpp:266
+#: khtml/khtml_part.cpp:267
 msgid "Print Rendering Tree to STDOUT"
 msgstr ""
 
-#: khtml/khtml_part.cpp:267
+#: khtml/khtml_part.cpp:268
 msgid "Print DOM Tree to STDOUT"
 msgstr ""
 
-#: khtml/khtml_part.cpp:268
+#: khtml/khtml_part.cpp:269
 msgid "Stop Animated Images"
 msgstr "Westanî wêne culawekan"
 
-#: khtml/khtml_part.cpp:270
+#: khtml/khtml_part.cpp:271
 msgid "Set &Encoding"
 msgstr "Danan&ewey bekodkirdin"
 
-#: khtml/khtml_part.cpp:275
+#: khtml/khtml_part.cpp:276
 #, fuzzy
 msgid "Semi-Automatic"
 msgstr "Xobexo"
 
-#: khtml/khtml_part.cpp:293 khtml/khtml_part.cpp:2254
+#: khtml/khtml_part.cpp:294 khtml/khtml_part.cpp:2261
 #, fuzzy
 msgid "Automatic Detection"
 msgstr "&Xistiner`ûy xobexo"
 
-#: khtml/khtml_part.cpp:298
+#: khtml/khtml_part.cpp:299
 #, fuzzy
 msgid ""
 "_: short for Manual Detection\n"
 "Manual"
 msgstr "Helbijardinî rûbergû pashberg"
 
-#: khtml/khtml_part.cpp:353
+#: khtml/khtml_part.cpp:354
 msgid "Use S&tylesheet"
 msgstr ""
 
-#: khtml/khtml_part.cpp:357
+#: khtml/khtml_part.cpp:358
 #, fuzzy
 msgid "Enlarge Font"
 msgstr "Mezinkirdinî endazekanî pît"
 
-#: khtml/khtml_part.cpp:359
+#: khtml/khtml_part.cpp:360
 msgid ""
 "Enlarge Font"
 "<p>Make the font in this window bigger. Click and hold down the mouse button "
 "for a menu with all available font sizes."
 msgstr ""
 
-#: khtml/khtml_part.cpp:363
+#: khtml/khtml_part.cpp:364
 #, fuzzy
 msgid "Shrink Font"
 msgstr "Shêwazî çap"
 
-#: khtml/khtml_part.cpp:365
+#: khtml/khtml_part.cpp:366
 msgid ""
 "Shrink Font"
 "<p>Make the font in this window smaller. Click and hold down the mouse button "
 "for a menu with all available font sizes."
 msgstr ""
 
-#: khtml/khtml_part.cpp:371
+#: khtml/khtml_part.cpp:372
 msgid ""
 "Find text"
 "<p>Shows a dialog that allows you to find text on the displayed page."
 msgstr ""
 
-#: khtml/khtml_part.cpp:375
+#: khtml/khtml_part.cpp:376
 msgid ""
 "Find next"
 "<p>Find the next occurrence of the text that you have found using the <b>"
 "Find Text</b> function"
 msgstr ""
 
-#: khtml/khtml_part.cpp:380
+#: khtml/khtml_part.cpp:381
 msgid ""
 "Find previous"
 "<p>Find the previous occurrence of the text that you have found using the <b>"
 "Find Text</b> function"
 msgstr ""
 
-#: khtml/khtml_part.cpp:399
+#: khtml/khtml_part.cpp:400
 msgid ""
 "Print Frame"
 "<p>Some pages have several frames. To print only a single frame, click on it "
 "and then use this function."
 msgstr ""
 
-#: khtml/khtml_part.cpp:407
+#: khtml/khtml_part.cpp:408
 #, fuzzy
 msgid "Toggle Caret Mode"
 msgstr "Tewewkirdinî wushegel"
 
-#: khtml/khtml_part.cpp:612
+#: khtml/khtml_part.cpp:613
 msgid "The fake user-agent '%1' is in use."
 msgstr ""
 
-#: khtml/khtml_part.cpp:1075
+#: khtml/khtml_part.cpp:1076
 msgid "This web page contains coding errors."
 msgstr ""
 
-#: khtml/khtml_part.cpp:1117
+#: khtml/khtml_part.cpp:1118
 #, fuzzy
 msgid "&Hide Errors"
 msgstr "Heley dosye"
 
-#: khtml/khtml_part.cpp:1118
+#: khtml/khtml_part.cpp:1119
 msgid "&Disable Error Reporting"
 msgstr ""
 
-#: khtml/khtml_part.cpp:1152
+#: khtml/khtml_part.cpp:1159
 #, fuzzy
 msgid "<b>Error</b>: %1: %2"
 msgstr "<b>Modêl</b>: %1<br>"
 
-#: khtml/khtml_part.cpp:1196
+#: khtml/khtml_part.cpp:1203
 msgid "<b>Error</b>: node %1: %2"
 msgstr ""
 
-#: khtml/khtml_part.cpp:1339
+#: khtml/khtml_part.cpp:1346
 msgid "Display Images on Page"
 msgstr "Nîshandanî wênekan leser rûpel"
 
-#: khtml/khtml_part.cpp:1523 khtml/khtml_part.cpp:1614
+#: khtml/khtml_part.cpp:1530 khtml/khtml_part.cpp:1621
 #, fuzzy
 msgid "Session is secured with %1 bit %2."
 msgstr "Em peywendiykirdiney êsta lelayen SSL parêzrawe."
 
-#: khtml/khtml_part.cpp:1524 khtml/khtml_part.cpp:1616
+#: khtml/khtml_part.cpp:1531 khtml/khtml_part.cpp:1623
 #, fuzzy
 msgid "Session is not secured."
 msgstr "Em peywendiykirdiney êsta lelayen SSL neparêzrawe."
 
-#: khtml/khtml_part.cpp:1701
+#: khtml/khtml_part.cpp:1708
 #, fuzzy, c-format
 msgid "Error while loading %1"
 msgstr ""
 "Hele le barkirdinî \"%1\"\n"
 
-#: khtml/khtml_part.cpp:1703
+#: khtml/khtml_part.cpp:1710
 #, fuzzy
 msgid "An error occurred while loading <B>%1</B>:"
 msgstr ""
 "Hele le barkirdinî \"%1\"\n"
 
-#: khtml/khtml_part.cpp:1738
+#: khtml/khtml_part.cpp:1745
 #, fuzzy
 msgid "Error: "
 msgstr "Hele"
 
-#: khtml/khtml_part.cpp:1741
+#: khtml/khtml_part.cpp:1748
 #, fuzzy
 msgid "The requested operation could not be completed"
 msgstr "Ew kare leber destda niye."
 
-#: khtml/khtml_part.cpp:1747
+#: khtml/khtml_part.cpp:1754
 msgid "Technical Reason: "
 msgstr ""
 
-#: khtml/khtml_part.cpp:1752
+#: khtml/khtml_part.cpp:1759
 #, fuzzy
 msgid "Details of the Request:"
 msgstr "Biyalogî bir`wanamey KDE SSL"
 
-#: khtml/khtml_part.cpp:1754
+#: khtml/khtml_part.cpp:1761
 #, fuzzy, c-format
 msgid "URL: %1"
 msgstr "Naûnîshan:"
 
-#: khtml/khtml_part.cpp:1761
+#: khtml/khtml_part.cpp:1768
 #, fuzzy, c-format
 msgid "Date and Time: %1"
 msgstr " Kat: %1"
 
-#: khtml/khtml_part.cpp:1763
+#: khtml/khtml_part.cpp:1770
 #, fuzzy, c-format
 msgid "Additional Information: %1"
 msgstr "Helbijardekanî trî GhostScript"
 
-#: khtml/khtml_part.cpp:1765
+#: khtml/khtml_part.cpp:1772
 msgid "Description:"
 msgstr "Pênase:"
 
-#: khtml/khtml_part.cpp:1771
+#: khtml/khtml_part.cpp:1778
 msgid "Possible Causes:"
 msgstr ""
 
-#: khtml/khtml_part.cpp:1778
+#: khtml/khtml_part.cpp:1785
 msgid "Possible Solutions:"
 msgstr ""
 
-#: khtml/khtml_part.cpp:2091
+#: khtml/khtml_part.cpp:2098
 #, fuzzy
 msgid "Page loaded."
 msgstr "Dosye barkirayewe."
 
-#: khtml/khtml_part.cpp:2093
+#: khtml/khtml_part.cpp:2100
 #, fuzzy
 msgid ""
 "_n: %n Image of %1 loaded.\n"
@@ -7251,49 +7256,49 @@ msgstr ""
 "%1 wêne barkira le têkr`ay 1\n"
 "%1 wêne barkira le têkr`ay %n"
 
-#: khtml/khtml_part.cpp:3670 khtml/khtml_part.cpp:3757
-#: khtml/khtml_part.cpp:3768
+#: khtml/khtml_part.cpp:3677 khtml/khtml_part.cpp:3764
+#: khtml/khtml_part.cpp:3775
 msgid " (In new window)"
 msgstr " (le pencereyekî nwê)"
 
-#: khtml/khtml_part.cpp:3709
+#: khtml/khtml_part.cpp:3716
 msgid "Symbolic Link"
 msgstr "Girêderî hêmayî"
 
-#: khtml/khtml_part.cpp:3711
+#: khtml/khtml_part.cpp:3718
 msgid "%1 (Link)"
 msgstr "%1 (Girêder)"
 
-#: khtml/khtml_part.cpp:3731
+#: khtml/khtml_part.cpp:3738
 msgid "%2 (%1 bytes)"
 msgstr "%2 (%1 bayîtekan)"
 
-#: khtml/khtml_part.cpp:3735
+#: khtml/khtml_part.cpp:3742
 #, fuzzy
 msgid "%2 (%1 K)"
 msgstr "%1 (%2 Kîlo)"
 
-#: khtml/khtml_part.cpp:3770
+#: khtml/khtml_part.cpp:3777
 msgid " (In other frame)"
 msgstr " (le çwarçêweyekî tir)"
 
-#: khtml/khtml_part.cpp:3775
+#: khtml/khtml_part.cpp:3782
 msgid "Email to: "
 msgstr "Peyam bo: "
 
-#: khtml/khtml_part.cpp:3781
+#: khtml/khtml_part.cpp:3788
 msgid " - Subject: "
 msgstr "- Babet: "
 
-#: khtml/khtml_part.cpp:3783
+#: khtml/khtml_part.cpp:3790
 msgid " - CC: "
 msgstr " - Kopî: "
 
-#: khtml/khtml_part.cpp:3785
+#: khtml/khtml_part.cpp:3792
 msgid " - BCC: "
 msgstr " - Kopî nabîna (BCC): "
 
-#: khtml/khtml_part.cpp:3865
+#: khtml/khtml_part.cpp:3872
 #, fuzzy
 msgid ""
 "<qt>This untrusted page links to<BR><B>%1</B>.<BR>Do you want to follow the "
@@ -7302,35 +7307,35 @@ msgstr ""
 "<qt>Em malper`e <B>%1</B> <BR>naaramiyek lexowe degrê û dest dexate nêw sistêmî "
 "cêxoyî dosiyekant."
 
-#: khtml/khtml_part.cpp:3866
+#: khtml/khtml_part.cpp:3873
 msgid "Follow"
 msgstr "Shwênkewtin"
 
-#: khtml/khtml_part.cpp:3945
+#: khtml/khtml_part.cpp:3952
 #, fuzzy
 msgid "Frame Information"
 msgstr "Agadarî"
 
-#: khtml/khtml_part.cpp:3951
+#: khtml/khtml_part.cpp:3958
 msgid "   <a href=\"%1\">[Properties]</a>"
 msgstr ""
 
-#: khtml/khtml_part.cpp:4031
+#: khtml/khtml_part.cpp:4038
 #, fuzzy
 msgid "Save Background Image As"
 msgstr "Tomarkirdinî wêney &zemîn wek..."
 
-#: khtml/khtml_part.cpp:4118
+#: khtml/khtml_part.cpp:4125
 #, fuzzy
 msgid "Save Frame As"
 msgstr "Tomarkirdinî ç&arçêwe wek..."
 
-#: khtml/khtml_part.cpp:4158
+#: khtml/khtml_part.cpp:4165
 #, fuzzy
 msgid "&Find in Frame..."
 msgstr "&Ger`an le çwarçêweda"
 
-#: khtml/khtml_part.cpp:4658
+#: khtml/khtml_part.cpp:4665
 msgid ""
 "Warning:  This is a secure form but it is attempting to send your data back "
 "unencrypted.\n"
@@ -7338,23 +7343,23 @@ msgid ""
 "Are you sure you wish to continue?"
 msgstr ""
 
-#: khtml/khtml_part.cpp:4661 khtml/khtml_part.cpp:4670
-#: khtml/khtml_part.cpp:4694
+#: khtml/khtml_part.cpp:4668 khtml/khtml_part.cpp:4677
+#: khtml/khtml_part.cpp:4701
 #, fuzzy
 msgid "Network Transmission"
 msgstr "Çapgerî tor` (TCP)"
 
-#: khtml/khtml_part.cpp:4661 khtml/khtml_part.cpp:4671
+#: khtml/khtml_part.cpp:4668 khtml/khtml_part.cpp:4678
 msgid "&Send Unencrypted"
 msgstr ""
 
-#: khtml/khtml_part.cpp:4668
+#: khtml/khtml_part.cpp:4675
 msgid ""
 "Warning: Your data is about to be transmitted across the network unencrypted.\n"
 "Are you sure you wish to continue?"
 msgstr ""
 
-#: khtml/khtml_part.cpp:4692
+#: khtml/khtml_part.cpp:4699
 #, fuzzy
 msgid ""
 "This site is attempting to submit form data via email.\n"
@@ -7365,12 +7370,12 @@ msgstr ""
 "\n"
 "Rêga bem kare dedeyît?"
 
-#: khtml/khtml_part.cpp:4695
+#: khtml/khtml_part.cpp:4702
 #, fuzzy
 msgid "&Send Email"
 msgstr "Parastinî wêne wek"
 
-#: khtml/khtml_part.cpp:4716
+#: khtml/khtml_part.cpp:4723
 msgid ""
 "<qt>The form will be submitted to <BR><B>%1</B><BR>on your local filesystem.<BR>"
 "Do you want to submit the form?"
@@ -7378,58 +7383,81 @@ msgstr ""
 "<qt>For`meke denêrdirê bo<BR><B>%1</B><BR>leser sistêmî cêxoyî dosyekant. <BR>"
 "Dexwazî for`meke binêrî?"
 
-#: khtml/html/html_formimpl.cpp:1443 khtml/khtml_part.cpp:4717
+#: khtml/html/html_formimpl.cpp:1443 khtml/khtml_part.cpp:4724
 #: khtml/khtmlview.cpp:2403 khtml/khtmlview.cpp:2445
 #: khtml/rendering/render_form.cpp:275
 msgid "Submit"
 msgstr "Nardin"
 
-#: khtml/khtml_part.cpp:4765
+#: khtml/khtml_part.cpp:4772
 msgid ""
 "This site attempted to attach a file from your computer in the form submission. "
 "The attachment was removed for your protection."
 msgstr ""
 
-#: khtml/khtml_part.cpp:4765
+#: khtml/khtml_part.cpp:4772
 msgid "KDE"
 msgstr "KDE"
 
-#: khtml/khtml_part.cpp:5670
+#: khtml/khtml_part.cpp:5677
 #, fuzzy
 msgid "(%1/s)"
 msgstr "%1/s"
 
-#: khtml/khtml_part.cpp:6675
+#: khtml/khtml_part.cpp:6682
 msgid "Security Warning"
 msgstr "Agadarkirdinewey asayîsh"
 
-#: khtml/khtml_part.cpp:6681
+#: khtml/khtml_part.cpp:6688
 #, fuzzy
 msgid "<qt>Access by untrusted page to<BR><B>%1</B><BR> denied."
 msgstr ""
 "<qt>Em malper`e <B>%1</B> <BR>naaramiyek lexowe degrê û dest dexate nêw sistêmî "
 "cêxoyî dosiyekant."
 
-#: khtml/java/kjavaappletserver.cpp:784 khtml/khtml_part.cpp:6682
+#: khtml/java/kjavaappletserver.cpp:784 khtml/khtml_part.cpp:6689
 msgid "Security Alert"
 msgstr "Agadarkirdinewey asayîsh"
 
-#: khtml/khtml_part.cpp:7107
+#: khtml/khtml_part.cpp:7114
 msgid "The wallet '%1' is open and being used for form data and passwords."
 msgstr ""
 
-#: khtml/khtml_part.cpp:7161
+#: khtml/khtml_part.cpp:7168
 #, fuzzy
 msgid "&Close Wallet"
 msgstr "Da&xistin"
 
-#: khtml/khtml_part.cpp:7204
+#: khtml/khtml_part.cpp:7211
 #, fuzzy
 msgid "JavaScript &Debugger"
 msgstr "Helepishkinewrî java"
 
-#: khtml/khtml_part.cpp:7228
-msgid "This page was prevented from opening a popup window."
+#: khtml/khtml_part.cpp:7235
+#, fuzzy
+msgid "This page was prevented from opening a new window via JavaScript."
+msgstr ""
+"Em kargêr`e (sever) her êsta xerîke le rêgay \"JavaScript\"ewe pencereyekî\n"
+"pishkinerî nwê bikatewe.\n"
+"\n"
+"Rêga bem kare dedeyît?"
+
+#: khtml/khtml_part.cpp:7241
+msgid "Popup Window Blocked"
+msgstr ""
+
+#: khtml/khtml_part.cpp:7241
+msgid ""
+"This page has attempted to open a popup window but was blocked.\n"
+" You can click on this icon in the status bar to control this behavior."
+msgstr ""
+
+#: khtml/khtml_part.cpp:7254
+msgid "&Show Blocked Window Passive Popup Notification"
+msgstr ""
+
+#: khtml/khtml_part.cpp:7256
+msgid "&Configure JavaScript New Window Policies..."
 msgstr ""
 
 #: khtml/khtmlview.cpp:1563
@@ -9313,11 +9341,11 @@ msgstr ""
 msgid "KDE Certificate Part"
 msgstr "Biyalogî bir`wanamey KDE SSL"
 
-#: khtml/khtml_settings.cc:149
+#: khtml/khtml_settings.cc:150
 msgid "Accept"
 msgstr "Qebulkirdin"
 
-#: khtml/khtml_settings.cc:150
+#: khtml/khtml_settings.cc:151
 msgid "Reject"
 msgstr "Redkirdinewe"
 
