@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-06-23 01:29+0200\n"
+"POT-Creation-Date: 2005-06-24 01:28+0200\n"
 "PO-Revision-Date: 2001-08-31 17:30+GMT\n"
 "Last-Translator: Abou-Zeid Gerdi <kde-ku@pispor.com>\n"
 "Language-Team: kurdish <kde-ku@pispor.com>\n"
@@ -838,7 +838,7 @@ msgid "&Save"
 msgstr "&Tomarkirdin"
 
 #: common_texts.cpp:111 khtml/khtml_part.cpp:3880 khtml/khtml_part.cpp:4063
-#: khtml/khtml_part.cpp:4377 khtml/khtml_run.cpp:76 kparts/browserrun.cpp:411
+#: khtml/khtml_part.cpp:4377 khtml/khtml_run.cpp:83 kparts/browserrun.cpp:411
 msgid "Save As"
 msgstr "Tomarkirdin wek"
 
@@ -3045,7 +3045,8 @@ msgstr ""
 "%2"
 
 #: kdecore/kcmdlineargs.cpp:618
-msgid "%1 was written by somebody who wants to remain anonymous."
+#, fuzzy
+msgid "This application was written by somebody who wants to remain anonymous."
 msgstr "%1 le layen kesêkewe nûsirawe, ke nayewêt nawî xoy bênê."
 
 #: kdecore/kcmdlineargs.cpp:623
@@ -3054,20 +3055,25 @@ msgid ""
 "directly.\n"
 msgstr ""
 
-#: kdecore/kcmdlineargs.cpp:625
+#: kdecore/kcmdlineargs.cpp:626
+msgid ""
+"Please use %1 to report bugs.\n"
+msgstr ""
+
+#: kdecore/kcmdlineargs.cpp:628
 msgid ""
 "Please use %1 to report bugs, do not mail the authors directly.\n"
 msgstr ""
 
-#: kdecore/kcmdlineargs.cpp:645
+#: kdecore/kcmdlineargs.cpp:649
 msgid "Unexpected argument '%1'."
 msgstr "Nirxî çaweruwannekiraw \"%1\"."
 
-#: kdecore/kcmdlineargs.cpp:750
+#: kdecore/kcmdlineargs.cpp:754
 msgid "Use --help to get a list of available command line options."
 msgstr "\"help\" bekarbêne bo wergirtinî listeyek le helbijarde guncawekan."
 
-#: kdecore/kcmdlineargs.cpp:765
+#: kdecore/kcmdlineargs.cpp:769
 msgid ""
 "\n"
 "%1:\n"
@@ -3075,57 +3081,57 @@ msgstr ""
 "\n"
 "%1:\n"
 
-#: kdecore/kcmdlineargs.cpp:774
+#: kdecore/kcmdlineargs.cpp:778
 msgid "[options] "
 msgstr "[helbijardekan] "
 
-#: kdecore/kcmdlineargs.cpp:781
+#: kdecore/kcmdlineargs.cpp:785
 msgid "[%1-options]"
 msgstr "[%1-helbijardekan]"
 
-#: kdecore/kcmdlineargs.cpp:801
+#: kdecore/kcmdlineargs.cpp:805
 msgid ""
 "Usage: %1 %2\n"
 msgstr ""
 "Bekarhênan: %1 %2\n"
 
-#: kdecore/kcmdlineargs.cpp:804
+#: kdecore/kcmdlineargs.cpp:808
 msgid "Generic options"
 msgstr "Helbijarde biner`etiyekan"
 
-#: kdecore/kcmdlineargs.cpp:805
+#: kdecore/kcmdlineargs.cpp:809
 msgid "Show help about options"
 msgstr "Xistinerûy helbijardekanî \"Hawkarî bo\""
 
-#: kdecore/kcmdlineargs.cpp:813
+#: kdecore/kcmdlineargs.cpp:817
 msgid "Show %1 specific options"
 msgstr "Xistinerûy helbijarde taybetiyekanî %1"
 
-#: kdecore/kcmdlineargs.cpp:820
+#: kdecore/kcmdlineargs.cpp:824
 msgid "Show all options"
 msgstr "Xistinerûy gisht helbijardekan"
 
-#: kdecore/kcmdlineargs.cpp:821
+#: kdecore/kcmdlineargs.cpp:825
 msgid "Show author information"
 msgstr "Xistinerûy zaniyariyekanî nuser"
 
-#: kdecore/kcmdlineargs.cpp:822
+#: kdecore/kcmdlineargs.cpp:826
 msgid "Show version information"
 msgstr "Xistinerûy zaniyarî derçû (version)"
 
-#: kdecore/kcmdlineargs.cpp:823
+#: kdecore/kcmdlineargs.cpp:827
 msgid "Show license information"
 msgstr "Xistinerûy zaniyarî lisêns"
 
-#: kdecore/kcmdlineargs.cpp:824
+#: kdecore/kcmdlineargs.cpp:828
 msgid "End of options"
 msgstr "Kotayî helbijardekan"
 
-#: kdecore/kcmdlineargs.cpp:846
+#: kdecore/kcmdlineargs.cpp:850
 msgid "%1 options"
 msgstr "%1-helbijardekan"
 
-#: kdecore/kcmdlineargs.cpp:848
+#: kdecore/kcmdlineargs.cpp:852
 msgid ""
 "\n"
 "Options:\n"
@@ -3133,7 +3139,7 @@ msgstr ""
 "\n"
 "Helbijardekan:\n"
 
-#: kdecore/kcmdlineargs.cpp:905
+#: kdecore/kcmdlineargs.cpp:909
 msgid ""
 "\n"
 "Arguments:\n"
@@ -3141,7 +3147,7 @@ msgstr ""
 "\n"
 "Nirxekan:\n"
 
-#: kdecore/kcmdlineargs.cpp:1266
+#: kdecore/kcmdlineargs.cpp:1270
 msgid "The files/URLs opened by the application will be deleted after use"
 msgstr ""
 
@@ -5308,28 +5314,32 @@ msgstr "N&user"
 msgid "A&uthors"
 msgstr "Nus&eran"
 
-#: kdeui/kaboutapplication.cpp:110
+#: kdeui/kaboutapplication.cpp:111
 msgid ""
 "Please use <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a> "
-"to report bugs, do not mail the authors directly."
+"to report bugs, do not mail the authors directly.\n"
 msgstr ""
 
-#: kdeui/kaboutapplication.cpp:112
+#: kdeui/kaboutapplication.cpp:115
+msgid "Please use <a href=\"mailto:%1\">%2</a> to report bugs."
+msgstr ""
+
+#: kdeui/kaboutapplication.cpp:118
 msgid ""
-"Please use <a href=\"mailto:%1\">%1</a> to report bugs, do not mail the authors "
+"Please use <a href=\"mailto:%1\">%2</a> to report bugs, do not mail the authors "
 "directly.\n"
 msgstr ""
 
-#: kdeui/kaboutapplication.cpp:128
+#: kdeui/kaboutapplication.cpp:137
 #, fuzzy
 msgid "&Thanks To"
 msgstr "Supasgu&zarî"
 
-#: kdeui/kaboutapplication.cpp:155
+#: kdeui/kaboutapplication.cpp:164
 msgid "T&ranslation"
 msgstr "We&rger`andin"
 
-#: kdeui/kaboutapplication.cpp:160
+#: kdeui/kaboutapplication.cpp:169
 #, fuzzy
 msgid "&License Agreement"
 msgstr "Peymanî &lisens"
@@ -7705,7 +7715,7 @@ msgstr ""
 "\n"
 "Rêga bem kare dedeyît?"
 
-#: khtml/html/htmlparser.cpp:1582
+#: khtml/html/htmlparser.cpp:1585
 msgid "This is a searchable index. Enter search keywords: "
 msgstr "Eme îndêksêke bo bedwager`an. peyîvêk binuse: "
 
