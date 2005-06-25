@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-06-24 01:28+0200\n"
+"POT-Creation-Date: 2005-06-25 01:28+0200\n"
 "PO-Revision-Date: 2001-08-31 17:30+GMT\n"
 "Last-Translator: Abou-Zeid Gerdi <kde-ku@pispor.com>\n"
 "Language-Team: kurdish <kde-ku@pispor.com>\n"
@@ -3056,13 +3056,14 @@ msgid ""
 msgstr ""
 
 #: kdecore/kcmdlineargs.cpp:626
+#, fuzzy
 msgid ""
-"Please use %1 to report bugs.\n"
-msgstr ""
+"Please report bugs to %1.\n"
+msgstr "Reftarekan bo %1"
 
 #: kdecore/kcmdlineargs.cpp:628
 msgid ""
-"Please use %1 to report bugs, do not mail the authors directly.\n"
+"Please report bugs to %1, do not mail the authors directly.\n"
 msgstr ""
 
 #: kdecore/kcmdlineargs.cpp:649
@@ -4531,7 +4532,7 @@ msgstr ""
 msgid "Share Hot New Stuff"
 msgstr ""
 
-#: kdeui/kcolordialog.cpp:1110 knewstuff/uploaddialog.cpp:58
+#: kdeui/kcolordialog.cpp:1131 knewstuff/uploaddialog.cpp:58
 #: kresources/configdialog.cpp:53
 msgid "Name:"
 msgstr "Naw:"
@@ -5256,7 +5257,7 @@ msgstr "Ferhengî standard - %1 [%2]"
 msgid "ASpell Default"
 msgstr "ASpell î pênasekiraw"
 
-#: kdeui/ksconfig.cpp:567 kdeui/ksconfig.cpp:710
+#: kdeui/ksconfig.cpp:567 kdeui/ksconfig.cpp:723
 #, fuzzy, c-format
 msgid ""
 "_: default spelling dictionary\n"
@@ -5321,12 +5322,12 @@ msgid ""
 msgstr ""
 
 #: kdeui/kaboutapplication.cpp:115
-msgid "Please use <a href=\"mailto:%1\">%2</a> to report bugs."
+msgid "Please report bugs to <a href=\"mailto:%1\">%2</a>."
 msgstr ""
 
 #: kdeui/kaboutapplication.cpp:118
 msgid ""
-"Please use <a href=\"mailto:%1\">%2</a> to report bugs, do not mail the authors "
+"Please report bugs to <a href=\"mailto:%1\">%2</a>, do not mail the authors "
 "directly.\n"
 msgstr ""
 
@@ -5981,19 +5982,43 @@ msgstr ""
 msgid "ActionList: %1"
 msgstr "LîstîFermanekan: %1"
 
-#: kdeui/kcolordialog.cpp:548
-msgid "* Custom Colors *"
-msgstr "* Rengî tayibet be bekarhêner *"
-
-#: kdeui/kcolordialog.cpp:549
-msgid "* Recent Colors *"
+#: kdeui/kcolordialog.cpp:84
+#, fuzzy
+msgid ""
+"_: palette name\n"
+"* Recent Colors *"
 msgstr "* Renge tazekan *"
 
-#: kdeui/kcolordialog.cpp:550
+#: kdeui/kcolordialog.cpp:85
+#, fuzzy
+msgid ""
+"_: palette name\n"
+"* Custom Colors *"
+msgstr "* Rengî tayibet be bekarhêner *"
+
+#: kdeui/kcolordialog.cpp:86
+msgid ""
+"_: palette name\n"
+"Forty Colors"
+msgstr ""
+
+#: kdeui/kcolordialog.cpp:87
+msgid ""
+"_: palette name\n"
+"Royal Colors"
+msgstr ""
+
+#: kdeui/kcolordialog.cpp:88
+msgid ""
+"_: palette name\n"
+"Web Colors"
+msgstr ""
+
+#: kdeui/kcolordialog.cpp:561
 msgid "Named Colors"
 msgstr "Renge nawbirawekan"
 
-#: kdeui/kcolordialog.cpp:698
+#: kdeui/kcolordialog.cpp:714
 #, fuzzy
 msgid ""
 "Unable to read X11 RGB color strings. The following file location(s) were "
@@ -6003,55 +6028,55 @@ msgstr ""
 "Em dosiyeenbaraney jêrewe pishkinêrdiran:\n"
 "\n"
 
-#: kdeui/kcolordialog.cpp:916
+#: kdeui/kcolordialog.cpp:937
 msgid "Select Color"
 msgstr "Reng helbijardin"
 
-#: kdeui/kcolordialog.cpp:982
+#: kdeui/kcolordialog.cpp:1003
 msgid "H:"
-msgstr ""
-
-#: kdeui/kcolordialog.cpp:991
-#, fuzzy
-msgid "S:"
-msgstr "Sistêmî kar:"
-
-#: kdeui/kcolordialog.cpp:1000
-msgid "V:"
 msgstr ""
 
 #: kdeui/kcolordialog.cpp:1012
 #, fuzzy
+msgid "S:"
+msgstr "Sistêmî kar:"
+
+#: kdeui/kcolordialog.cpp:1021
+msgid "V:"
+msgstr ""
+
+#: kdeui/kcolordialog.cpp:1033
+#, fuzzy
 msgid "R:"
 msgstr "URI:"
 
-#: kdeui/kcolordialog.cpp:1021
+#: kdeui/kcolordialog.cpp:1042
 msgid "G:"
 msgstr ""
 
-#: kdeui/kcolordialog.cpp:1030
+#: kdeui/kcolordialog.cpp:1051
 msgid "B:"
 msgstr ""
 
-#: kdeui/kcolordialog.cpp:1085
+#: kdeui/kcolordialog.cpp:1106
 msgid "&Add to Custom Colors"
 msgstr "&Xistine ser rengekanî taybet be bekarhêner"
 
-#: kdeui/kcolordialog.cpp:1117
+#: kdeui/kcolordialog.cpp:1138
 msgid "HTML:"
 msgstr "HTML:"
 
-#: kdeui/kcolordialog.cpp:1196
+#: kdeui/kcolordialog.cpp:1217
 #, fuzzy
 msgid "Default color"
 msgstr "Rrenghelbijardin"
 
-#: kdeui/kcolordialog.cpp:1224
+#: kdeui/kcolordialog.cpp:1245
 #, fuzzy
 msgid "-default-"
 msgstr "Asayî"
 
-#: kdeui/kcolordialog.cpp:1444
+#: kdeui/kcolordialog.cpp:1465
 msgid "-unnamed-"
 msgstr "-bênaw-"
 
@@ -14719,10 +14744,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "&Printer IPP Report..."
 #~ msgstr "IP çapger"
-
-#, fuzzy
-#~ msgid "IPP report for %1"
-#~ msgstr "Reftarekan bo %1"
 
 #, fuzzy
 #~ msgid "Unable to retrieve printer information. Error received:"
