@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-07-08 01:30+0200\n"
+"POT-Creation-Date: 2005-07-09 01:30+0200\n"
 "PO-Revision-Date: 2001-08-31 17:30+GMT\n"
 "Last-Translator: Abou-Zeid Gerdi <kde-ku@pispor.com>\n"
 "Language-Team: kurdish <kde-ku@pispor.com>\n"
@@ -772,7 +772,7 @@ msgstr "Tewaw"
 msgid "&Quit"
 msgstr "&Tewaw"
 
-#: common_texts.cpp:88 kdecore/kstdaccel.cpp:84
+#: common_texts.cpp:88 kdecore/kstdaccel.cpp:84 kded/kbuildsycoca.cpp:781
 msgid "Reload"
 msgstr "Barkirdinewe"
 
@@ -911,8 +911,10 @@ msgstr "Peywendî cêxoyî"
 msgid "Browse..."
 msgstr "Pishkinîn..."
 
-#: common_texts.cpp:137 kdecore/kkeyserver_x11.cpp:127
-#: kdeui/kstdguiitem.cpp:257 khtml/ecma/kjs_debugwin.cpp:458
+#: common_texts.cpp:137 kdecore/kkeyserver_x11.cpp:127 kdeui/keditcl2.cpp:107
+#: kdeui/keditcl2.cpp:120 kdeui/keditcl2.cpp:377 kdeui/keditcl2.cpp:390
+#: kdeui/keditcl2.cpp:456 kdeui/keditcl2.cpp:469 kdeui/kstdguiitem.cpp:257
+#: khtml/ecma/kjs_debugwin.cpp:458 kutils/kreplace.cpp:319
 msgid "Stop"
 msgstr "Westan"
 
@@ -1032,8 +1034,9 @@ msgstr ""
 msgid "&Previous"
 msgstr "&Pêtir"
 
-#: common_texts.cpp:170 kdecore/kstdaccel.cpp:69 kdeui/keditcl2.cpp:456
-#: kdeui/keditcl2.cpp:469 kdeui/keditcl2.cpp:830 kutils/kreplace.cpp:45
+#: common_texts.cpp:170 kcert/kcertpart.cc:730 kcert/kcertpart.cc:746
+#: kdecore/kstdaccel.cpp:69 kdeui/keditcl2.cpp:456 kdeui/keditcl2.cpp:469
+#: kdeui/keditcl2.cpp:830 kutils/kreplace.cpp:45 kutils/kreplace.cpp:49
 msgid "Replace"
 msgstr "Le cêdanan"
 
@@ -2511,6 +2514,11 @@ msgstr "Dananewey têr`uwanîn"
 #, fuzzy
 msgid "Do you want to reload KDE configuration?"
 msgstr "Detewêt nawêkî tir bekarbênît?"
+
+#: kded/kbuildsycoca.cpp:781
+#, fuzzy
+msgid "Do Not Reload"
+msgstr "Tewaw."
 
 #: kded/kbuildsycoca.cpp:964
 #, fuzzy
@@ -4598,9 +4606,17 @@ msgstr "Nawî çapger:"
 msgid "Old upload information found, fill out fields?"
 msgstr ""
 
+#: knewstuff/uploaddialog.cpp:173
+msgid "Fill Out"
+msgstr ""
+
+#: knewstuff/uploaddialog.cpp:173
+msgid "Do Not Fill Out"
+msgstr ""
+
 #: knewstuff/knewstuffgeneric.cpp:133
 #, fuzzy
-msgid "The file '%1' already exists. Do you want to override it?"
+msgid "The file '%1' already exists. Do you want to overwrite it?"
 msgstr "Dosyey \"%1\" bûnî heye. Ler`ûnusînewe?"
 
 #: khtml/khtml_ext.cpp:798 knewstuff/knewstuffgeneric.cpp:135
@@ -5101,6 +5117,11 @@ msgstr ""
 "%2 terxankirawe.\n"
 "\n"
 "Tikaye dugmebendiyekî bêhawta helbijêre."
+
+#: kdeui/kkeydialog.cpp:975
+#, fuzzy
+msgid "Reassign"
+msgstr "Rusî"
 
 #: kdeui/kkeydialog.cpp:1089 kdeui/kkeydialog.cpp:1101
 #, fuzzy
@@ -6399,7 +6420,7 @@ msgstr ""
 "Be dagirtinî \"Binêre\" peyamêk denêrdirê bo serperishtîkarî embernameye.\n"
 "û listey kêshekanî KDE."
 
-#: kdeui/kbugreport.cpp:253
+#: kdeui/kbugreport.cpp:252
 #, fuzzy
 msgid ""
 "To submit a bug report, click on the button below.\n"
@@ -6412,17 +6433,17 @@ msgstr ""
 "pir`kirdinewe dedozîtewe.\n"
 "Ew zaniyariyey serewe berew kargêr` (server) denêrdirê."
 
-#: kdeui/kbugreport.cpp:261
+#: kdeui/kbugreport.cpp:260
 msgid "&Launch Bug Report Wizard"
 msgstr ""
 
-#: kdeui/kbugreport.cpp:299
+#: kdeui/kbugreport.cpp:298
 msgid ""
 "_: unknown program name\n"
 "unknown"
 msgstr "Nenasraw"
 
-#: kdeui/kbugreport.cpp:377
+#: kdeui/kbugreport.cpp:376
 #, fuzzy
 msgid ""
 "You must specify both a subject and a description before the report can be "
@@ -6431,7 +6452,7 @@ msgstr ""
 "Pêsh ewey bitwanirê raportêk ber`ê bikrê pêwîste hem\n"
 "babetû hemîsh pênaseyek diyarî kirabê."
 
-#: kdeui/kbugreport.cpp:387
+#: kdeui/kbugreport.cpp:386
 msgid ""
 "<p>You chose the severity <b>Critical</b>. Please note that this severity is "
 "intended only for bugs that</p>"
@@ -6453,7 +6474,7 @@ msgstr ""
 "<p>Aya ew kêsheyey êwe detanewê bîxenerû hîç yekê lew nalebariyaney serewe "
 "berceste dakat? Eger na, tikaye piley girifteke dabezêne. Zor supas.</p>"
 
-#: kdeui/kbugreport.cpp:398
+#: kdeui/kbugreport.cpp:397
 msgid ""
 "<p>You chose the severity <b>Grave</b>. Please note that this severity is "
 "intended only for bugs that</p>"
@@ -6475,7 +6496,7 @@ msgstr ""
 "<p>Aya ew kêsheyey êwe detanewê bîxenerû hîç yekê lew nalebariyaney serewe "
 "berceste dakat? Eger na, tikaye piley girifteke dabezêne. Zor supas.</p>"
 
-#: kdeui/kbugreport.cpp:410
+#: kdeui/kbugreport.cpp:409
 #, fuzzy
 msgid ""
 "Unable to send the bug report.\n"
@@ -6486,12 +6507,12 @@ msgstr ""
 "Tikaye raportî kêsheke be corêkî tir binêre...\n"
 "Bir`wane http://bugs.kde.org/."
 
-#: kdeui/kbugreport.cpp:419
+#: kdeui/kbugreport.cpp:417
 #, fuzzy
 msgid "Bug report sent, thank you for your input."
 msgstr "Raportî kêsheke rewane kira. Supas bo peyameket."
 
-#: kdeui/kbugreport.cpp:428
+#: kdeui/kbugreport.cpp:426
 msgid ""
 "Close and discard\n"
 "edited message?"
@@ -6499,7 +6520,7 @@ msgstr ""
 "Dexistinû fir`êdanî\n"
 "peyameke?"
 
-#: kdeui/kbugreport.cpp:429
+#: kdeui/kbugreport.cpp:427
 #, fuzzy
 msgid "Close Message"
 msgstr "Peyam daxistin"
@@ -7438,7 +7459,7 @@ msgstr ""
 "<qt>For`meke denêrdirê bo<BR><B>%1</B><BR>leser sistêmî cêxoyî dosyekant. <BR>"
 "Dexwazî for`meke binêrî?"
 
-#: khtml/html/html_formimpl.cpp:1470 khtml/khtml_part.cpp:4777
+#: khtml/html/html_formimpl.cpp:1469 khtml/khtml_part.cpp:4777
 #: khtml/khtmlview.cpp:2408 khtml/khtmlview.cpp:2450
 #: khtml/rendering/render_form.cpp:296
 msgid "Submit"
@@ -7688,6 +7709,16 @@ msgstr ""
 "\n"
 "Rêga bem kare dedeyît?"
 
+#: khtml/ecma/kjs_html.cpp:2166 khtml/ecma/kjs_window.cpp:1330
+#, fuzzy
+msgid "Allow"
+msgstr "Gisht"
+
+#: khtml/ecma/kjs_html.cpp:2166 khtml/ecma/kjs_window.cpp:1330
+#, fuzzy
+msgid "Do Not Allow"
+msgstr "Bo nawewe"
+
 #: khtml/ecma/kjs_window.cpp:1563
 #, fuzzy
 msgid "Close window?"
@@ -7697,6 +7728,11 @@ msgstr "Pencere daxistin?"
 #, fuzzy
 msgid "Confirmation Required"
 msgstr "Selmandin gereke"
+
+#: khtml/ecma/kjs_window.cpp:1563
+#, fuzzy
+msgid "Do Not Close"
+msgstr "Tewaw."
 
 #: khtml/ecma/kjs_window.cpp:2326
 msgid ""
@@ -7808,8 +7844,18 @@ msgid "Save Login Information"
 msgstr "Zaniyariyekanî çûnejûrewe denêrdrê"
 
 #: khtml/html/html_formimpl.cpp:610
+#, fuzzy
+msgid "Store"
+msgstr "&Sereta"
+
+#: khtml/html/html_formimpl.cpp:610
 msgid "Ne&ver for This Site"
 msgstr ""
+
+#: khtml/html/html_formimpl.cpp:610
+#, fuzzy
+msgid "Do Not Store"
+msgstr "Tewaw."
 
 #: khtml/html/html_formimpl.cpp:614
 msgid ""
@@ -7995,6 +8041,16 @@ msgstr ""
 #, fuzzy
 msgid "Missing Plugin"
 msgstr "MegaGradient plugin"
+
+#: khtml/rendering/render_frames.cpp:824
+#, fuzzy
+msgid "Download"
+msgstr "Berew jê&r"
+
+#: khtml/rendering/render_frames.cpp:824
+#, fuzzy
+msgid "Do Not Download"
+msgstr "Berew jê&r"
 
 #: kinit/kinit.cpp:440
 msgid ""
@@ -8571,6 +8627,11 @@ msgstr "Detewêt nawêkî tir bekarbênît?"
 msgid "Do you want to restart search at the beginning?"
 msgstr "Detewêt nawêkî tir bekarbênît?"
 
+#: kutils/kreplace.cpp:319
+#, fuzzy
+msgid "Restart"
+msgstr "Gêr`anewe"
+
 #: kutils/kpluginselector.cpp:111
 msgid ""
 "<qt>"
@@ -9007,6 +9068,11 @@ msgstr " nadozrêtewe. Yekêkî nwê dirust bikrê?"
 msgid "No Such File"
 msgstr "Dosyey lem çeshne leberdestda niye"
 
+#: kab/addressbook.cc:625
+#, fuzzy
+msgid "Create"
+msgstr "Aferîdekiraw:"
+
 #: kab/addressbook.cc:629
 msgid "New file."
 msgstr "Dosyey nwê."
@@ -9363,6 +9429,10 @@ msgstr "Nihênî gewagînamey SSL"
 
 #: kcert/kcertpart.cc:496
 msgid "The certificate file could not be loaded. Try a different password?"
+msgstr ""
+
+#: kcert/kcertpart.cc:496
+msgid "Try Different"
 msgstr ""
 
 #: kcert/kcertpart.cc:532 kcert/kcertpart.cc:566
@@ -13347,9 +13417,6 @@ msgstr ""
 #~ msgid "Points to:"
 #~ msgstr "Amajekan bo:"
 
-#~ msgid "Created:"
-#~ msgstr "Aferîdekiraw:"
-
 #~ msgid "Accessed:"
 #~ msgstr "Destlêdiraw:"
 
@@ -15607,10 +15674,6 @@ msgstr ""
 
 #~ msgid "Resume"
 #~ msgstr "Bedewembûn"
-
-#, fuzzy
-#~ msgid "Restart"
-#~ msgstr "Gêr`anewe"
 
 #~ msgid "Move to %1"
 #~ msgstr "Biguwazewe bo %1"
