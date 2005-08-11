@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-08-10 10:13+0200\n"
+"POT-Creation-Date: 2005-08-11 01:37+0200\n"
 "PO-Revision-Date: 2001-08-31 17:30+GMT\n"
 "Last-Translator: Abou-Zeid Gerdi <kde-ku@pispor.com>\n"
 "Language-Team: kurdish <kde-ku@pispor.com>\n"
@@ -5971,7 +5971,26 @@ msgstr ""
 msgid "No media in device for %1"
 msgstr "Bawl nwê drust debê"
 
-#: ../kioslave/file/file.cc:1534
+#: ../kioslave/file/file.cc:1205
+#, fuzzy
+msgid "No Media inserted or Media not recognized."
+msgstr "Corî çapgerî nenasraw"
+
+#: ../kioslave/file/file.cc:1215 ../kioslave/file/file.cc:1421
+msgid "\"vold\" is not running."
+msgstr ""
+
+#: ../kioslave/file/file.cc:1249
+#, fuzzy
+msgid "Could not find program \"mount\""
+msgstr "Bernamey \"%1\" nedozrayewe"
+
+#: ../kioslave/file/file.cc:1434
+#, fuzzy
+msgid "Could not find program \"umount\""
+msgstr "Bernamey \"%1\" nedozrayewe"
+
+#: ../kioslave/file/file.cc:1538
 #, c-format
 msgid "Could not read %1"
 msgstr "Naxwêndrêtewe %1"
@@ -10819,9 +10838,6 @@ msgstr "Bawl nwê drust debê"
 
 #~ msgid "No driver found (raw printer)"
 #~ msgstr "Hîç çapgerêk nedozrayewe (raw printer)"
-
-#~ msgid "Printer type not recognized."
-#~ msgstr "Corî çapgerî nenasraw"
 
 #~ msgid "The driver device <b>%1</b> is not compiled in your GhostScript distribution. Check your installation or use another driver."
 #~ msgstr "Weger`xerêk bo amêrî <b>%1</b> le bilawkerewey (distribution) GhostScript wernergêr`drawe (compiled). Tikaye çawbixshênewe be damezrandineket (installation) yan wegerxerêkî tir bekarbêne ."
