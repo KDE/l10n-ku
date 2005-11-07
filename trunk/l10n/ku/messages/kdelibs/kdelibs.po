@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-11-05 02:42+0100\n"
+"POT-Creation-Date: 2005-11-07 02:45+0100\n"
 "PO-Revision-Date: 2001-08-31 17:30+GMT\n"
 "Last-Translator: Abou-Zeid Gerdi <kde-ku@pispor.com>\n"
 "Language-Team: kurdish <kde-ku@pispor.com>\n"
@@ -5996,8 +5996,8 @@ msgstr ""
 msgid "Reset Toolbars"
 msgstr "Sekoy keres&tekan:"
 
-#: kdeui/kedittoolbar.cpp:447 khtml/khtmlview.cpp:2485
-#: khtml/khtmlview.cpp:2518 khtml/rendering/render_form.cpp:312
+#: kdeui/kedittoolbar.cpp:447 khtml/html/html_formimpl.cpp:1992
+#: khtml/khtmlview.cpp:2485 khtml/khtmlview.cpp:2518
 msgid "Reset"
 msgstr "Pashgezkirdinewe"
 
@@ -6273,7 +6273,7 @@ msgstr "Rênuspishkinînewe"
 msgid "&Finished"
 msgstr "Payan"
 
-#: kdeui/kcombobox.cpp:441 khtml/rendering/render_form.cpp:403
+#: kdeui/kcombobox.cpp:441 khtml/rendering/render_form.cpp:387
 #, fuzzy
 msgid "Clear &History"
 msgstr "Xaney tênus pakkirdinewe"
@@ -6878,7 +6878,7 @@ msgstr "Rênuspishkiner"
 msgid "Allow Tabulations"
 msgstr "Firm&anî shiyaw:"
 
-#: kdeui/ktextedit.cpp:347 khtml/rendering/render_form.cpp:346
+#: kdeui/ktextedit.cpp:347 khtml/rendering/render_form.cpp:330
 #, fuzzy
 msgid "Spell Checking"
 msgstr "Rênuspishkiner"
@@ -7516,9 +7516,8 @@ msgstr ""
 "<qt>For`meke denêrdirê bo<BR><B>%1</B><BR>leser sistêmî cêxoyî dosyekant. <BR>"
 "Dexwazî for`meke binêrî?"
 
-#: khtml/html/html_formimpl.cpp:1484 khtml/khtml_part.cpp:4788
-#: khtml/khtmlview.cpp:2471 khtml/khtmlview.cpp:2513
-#: khtml/rendering/render_form.cpp:296
+#: khtml/html/html_formimpl.cpp:1484 khtml/html/html_formimpl.cpp:2000
+#: khtml/khtml_part.cpp:4788 khtml/khtmlview.cpp:2471 khtml/khtmlview.cpp:2513
 msgid "Submit"
 msgstr "Nardin"
 
