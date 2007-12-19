@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdpf\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2007-10-14 20:19+0000\n"
+"POT-Creation-Date: 2007-11-28 01:15+0100\n"
 "PO-Revision-Date: 2007-12-19 00:00+0100\n"
 "Last-Translator: Erdal\n"
 "Language-Team: Kurdish <ku@li.org>\n"
@@ -18,6 +18,32 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Launchpad-Export-Date: 2007-11-26 10:56+0000\n"
 "X-Generator: KBabel 1.11.4\n"
+
+#: ui/presentationwidget.cpp:147
+#, c-format
+msgid "Title: %1"
+msgstr "Sernav: %1"
+
+#: ui/presentationwidget.cpp:149
+#, c-format
+msgid "Author: %1"
+msgstr "Nivîskar: %1"
+
+#: ui/presentationwidget.cpp:151
+#, c-format
+msgid "Pages: %1"
+msgstr "Rûpel: %1"
+
+#: ui/presentationwidget.cpp:152
+msgid "Click to begin"
+msgstr ""
+
+#: ui/presentationwidget.cpp:328
+msgid ""
+"There are two ways of exiting presentation mode, you can press either ESC key "
+"or click with the quit button that appears when placing the mouse in the "
+"top-right corner. Of course you can cycle windows (Alt+TAB by default)"
+msgstr ""
 
 #: ui/thumbnaillist.cpp:568
 msgid "Show bookmarked pages only"
@@ -51,55 +77,9 @@ msgstr ""
 msgid "Filter Options"
 msgstr ""
 
-#: ui/propertiesdialog.cpp:23
-msgid "Unknown File"
-msgstr "Pelê Nenas"
-
-#: ui/propertiesdialog.cpp:32
-msgid "No document opened."
-msgstr "Ti belge nehat vekirin."
-
-#: ui/propertiesdialog.cpp:38
-msgid "%1 Properties"
-msgstr "Taybetmendiyên %1"
-
-#: ui/propertiesdialog.cpp:53
-msgid "%1:"
-msgstr "%1:"
-
-#: ui/propertiesdialog.cpp:66
-msgid "Pages:"
-msgstr "Rûpel:"
-
 #: ui/toc.cpp:59
 msgid "Topic"
 msgstr "Mijar"
-
-#: ui/presentationwidget.cpp:147
-#, c-format
-msgid "Title: %1"
-msgstr "Sernav: %1"
-
-#: ui/presentationwidget.cpp:149
-#, c-format
-msgid "Author: %1"
-msgstr "Nivîskar: %1"
-
-#: ui/presentationwidget.cpp:151
-#, c-format
-msgid "Pages: %1"
-msgstr "Rûpel: %1"
-
-#: ui/presentationwidget.cpp:152
-msgid "Click to begin"
-msgstr ""
-
-#: ui/presentationwidget.cpp:328
-msgid ""
-"There are two ways of exiting presentation mode, you can press either ESC "
-"key or click with the quit button that appears when placing the mouse in the "
-"top-right corner. Of course you can cycle windows (Alt+TAB by default)"
-msgstr ""
 
 #: ui/pageview.cpp:257
 msgid "Fit to Page &Width"
@@ -200,7 +180,7 @@ msgstr ""
 msgid "Starting KTTSD Failed: %1"
 msgstr ""
 
-#: part.cpp:943 ui/pageview.cpp:1571
+#: part.cpp:948 ui/pageview.cpp:1571
 msgid "Fit Width"
 msgstr ""
 
@@ -223,6 +203,389 @@ msgstr ""
 #: ui/pageview.cpp:2085
 msgid "Draw a rectangle around the text/graphics to copy."
 msgstr ""
+
+#: ui/propertiesdialog.cpp:23
+msgid "Unknown File"
+msgstr "Pelê Nenas"
+
+#: ui/propertiesdialog.cpp:32
+msgid "No document opened."
+msgstr "Ti belge nehat vekirin."
+
+#: ui/propertiesdialog.cpp:38
+msgid "%1 Properties"
+msgstr "Taybetmendiyên %1"
+
+#: ui/propertiesdialog.cpp:53
+msgid "%1:"
+msgstr "%1:"
+
+#: ui/propertiesdialog.cpp:66
+msgid "Pages:"
+msgstr "Rûpel:"
+
+#: conf/dlgperformance.ui.h:25
+msgid ""
+"Keeps used memory as low as possible. Do not reuse anything. (For systems with "
+"low memory.)"
+msgstr ""
+
+#: conf/dlgperformance.ui.h:31
+msgid ""
+"A good compromise between memory usage and speed gain. Preload next page and "
+"boost searches. (For systems with 256MB of memory, typically.)"
+msgstr ""
+
+#: conf/dlgperformance.ui.h:37
+msgid ""
+"Keeps everything in memory. Preload next pages. Boost searches. (For systems "
+"with more than 512MB of memory.)"
+msgstr ""
+
+#: conf/preferencesdialog.cpp:29
+msgid "General"
+msgstr "Giştî"
+
+#: conf/preferencesdialog.cpp:29
+msgid "General Options"
+msgstr ""
+
+#: conf/preferencesdialog.cpp:30
+msgid "Accessibility"
+msgstr ""
+
+#: conf/preferencesdialog.cpp:30
+msgid "Reading Aids"
+msgstr ""
+
+#: conf/preferencesdialog.cpp:31
+msgid "Performance"
+msgstr "Performans"
+
+#: conf/preferencesdialog.cpp:31
+msgid "Performance Tuning"
+msgstr ""
+
+#: conf/preferencesdialog.cpp:32
+msgid "Presentation"
+msgstr "Pêşkêşî"
+
+#: conf/preferencesdialog.cpp:33
+msgid "Options for Presentation Mode"
+msgstr ""
+
+#: core/document.cpp:750
+msgid ""
+"End of document reached.\n"
+"Continue from the beginning?"
+msgstr ""
+
+#: core/document.cpp:796
+msgid "No matches found for '%1'."
+msgstr ""
+
+#: core/document.cpp:998 core/document.cpp:1006
+msgid ""
+"The pdf file is trying to execute an external application and for your safety "
+"kpdf does not allow that."
+msgstr ""
+
+#: core/document.cpp:1019
+#, c-format
+msgid "No application found for opening file of mimetype %1."
+msgstr ""
+
+#: core/generator_pdf/generator_pdf.cpp:144
+msgid "Please insert the password to read the document:"
+msgstr ""
+
+#: core/generator_pdf/generator_pdf.cpp:146
+msgid "Incorrect password. Try again:"
+msgstr ""
+
+#: core/generator_pdf/generator_pdf.cpp:200
+msgid "Title"
+msgstr "Sernav"
+
+#: core/generator_pdf/generator_pdf.cpp:201
+msgid "Subject"
+msgstr "Mijar"
+
+#: core/generator_pdf/generator_pdf.cpp:202
+msgid "Author"
+msgstr "Nivîskar"
+
+#: core/generator_pdf/generator_pdf.cpp:203
+msgid "Keywords"
+msgstr "Peyvên mifte"
+
+#: core/generator_pdf/generator_pdf.cpp:204
+msgid "Creator"
+msgstr "Afirînêr"
+
+#: core/generator_pdf/generator_pdf.cpp:205
+msgid "Producer"
+msgstr "Hilberîner"
+
+#: core/generator_pdf/generator_pdf.cpp:206
+msgid "Created"
+msgstr "Afirandî"
+
+#: core/generator_pdf/generator_pdf.cpp:207
+msgid "Modified"
+msgstr "Guhartî"
+
+#: core/generator_pdf/generator_pdf.cpp:211
+#, c-format
+msgid ""
+"_: PDF v. <version>\n"
+"PDF v. %1"
+msgstr ""
+
+#: core/generator_pdf/generator_pdf.cpp:212
+#: core/generator_pdf/generator_pdf.cpp:221
+msgid "Format"
+msgstr "Teşe"
+
+#: core/generator_pdf/generator_pdf.cpp:213
+msgid "Encrypted"
+msgstr ""
+
+#: core/generator_pdf/generator_pdf.cpp:213
+msgid "Unencrypted"
+msgstr ""
+
+#: core/generator_pdf/generator_pdf.cpp:214
+#: core/generator_pdf/generator_pdf.cpp:222
+msgid "Security"
+msgstr "Ewlehî"
+
+#: core/generator_pdf/generator_pdf.cpp:216
+#: core/generator_pdf/generator_pdf.cpp:223
+msgid "Optimized"
+msgstr ""
+
+#: core/generator_pdf/generator_pdf.cpp:217
+msgid "Pages"
+msgstr "Rûpel"
+
+#: core/generator_pdf/generator_pdf.cpp:222
+msgid "Unknown Encryption"
+msgstr ""
+
+#: core/generator_pdf/generator_pdf.cpp:223
+msgid "Unknown Optimization"
+msgstr ""
+
+#: core/generator_pdf/generator_pdf.cpp:374
+msgid "Name"
+msgstr "Nav"
+
+#: core/generator_pdf/generator_pdf.cpp:375
+msgid "Type"
+msgstr "Cure"
+
+#: core/generator_pdf/generator_pdf.cpp:376
+msgid "Embedded"
+msgstr ""
+
+#: core/generator_pdf/generator_pdf.cpp:485
+msgid ""
+"The margins you specified change the page aspect ratio. Do you want to print "
+"with the aspect ratio changed or do you want the margins to be adapted so that "
+"the aspect ratio is preserved?"
+msgstr ""
+
+#: core/generator_pdf/generator_pdf.cpp:486
+msgid "Aspect ratio change"
+msgstr ""
+
+#: core/generator_pdf/generator_pdf.cpp:487
+msgid "Print with specified margins"
+msgstr ""
+
+#: core/generator_pdf/generator_pdf.cpp:488
+msgid "Print adapting margins to keep aspect ratio"
+msgstr ""
+
+#: core/generator_pdf/generator_pdf.cpp:699
+msgid "unknown"
+msgstr "nenas"
+
+#: core/generator_pdf/generator_pdf.cpp:700
+msgid "Type 1"
+msgstr "Cureyê 1"
+
+#: core/generator_pdf/generator_pdf.cpp:701
+msgid "Type 1C"
+msgstr "Cureyê 1C"
+
+#: core/generator_pdf/generator_pdf.cpp:702
+msgid ""
+"_: OT means OpenType\n"
+"Type 1C (OT)"
+msgstr ""
+
+#: core/generator_pdf/generator_pdf.cpp:703
+msgid "Type 3"
+msgstr "Cureyê 3"
+
+#: core/generator_pdf/generator_pdf.cpp:704
+msgid "TrueType"
+msgstr "TrueType"
+
+#: core/generator_pdf/generator_pdf.cpp:705
+msgid ""
+"_: OT means OpenType\n"
+"TrueType (OT)"
+msgstr ""
+
+#: core/generator_pdf/generator_pdf.cpp:706
+msgid "CID Type 0"
+msgstr ""
+
+#: core/generator_pdf/generator_pdf.cpp:707
+msgid "CID Type 0C"
+msgstr ""
+
+#: core/generator_pdf/generator_pdf.cpp:708
+msgid ""
+"_: OT means OpenType\n"
+"CID Type 0C (OT)"
+msgstr ""
+
+#: core/generator_pdf/generator_pdf.cpp:709
+msgid "CID TrueType"
+msgstr ""
+
+#: core/generator_pdf/generator_pdf.cpp:710
+msgid ""
+"_: OT means OpenType\n"
+"CID TrueType (OT)"
+msgstr ""
+
+#: core/generator_pdf/generator_pdf.cpp:743
+#: core/generator_pdf/generator_pdf.cpp:745
+#: core/generator_pdf/generator_pdf.cpp:750
+msgid "-"
+msgstr "-"
+
+#: core/generator_pdf/generator_pdf.cpp:749
+msgid "[none]"
+msgstr "[tune]"
+
+#: core/generator_pdf/generator_pdf.cpp:770
+#: core/generator_pdf/generator_pdf.cpp:774
+#: core/generator_pdf/generator_pdf.cpp:788
+msgid "Unknown"
+msgstr "Nayê Zanîn"
+
+#: core/generator_pdf/generator_pdf.cpp:796
+#: core/generator_pdf/generator_pdf.cpp:801
+#: core/generator_pdf/generator_pdf.cpp:810
+#: core/generator_pdf/generator_pdf.cpp:831
+msgid "Unknown Date"
+msgstr "Roj nayê zanîn"
+
+#: core/link.cpp:21
+#, c-format
+msgid "Go to page %1"
+msgstr ""
+
+#: core/link.cpp:21
+msgid "Open external file"
+msgstr ""
+
+#: core/link.cpp:26
+msgid "Execute '%1'..."
+msgstr ""
+
+#: core/link.cpp:39
+msgid "First Page"
+msgstr ""
+
+#: core/link.cpp:41
+msgid "Previous Page"
+msgstr ""
+
+#: core/link.cpp:43
+msgid "Next Page"
+msgstr ""
+
+#: core/link.cpp:45
+msgid "Last Page"
+msgstr ""
+
+#: core/link.cpp:49
+msgid "Forward"
+msgstr ""
+
+#: core/link.cpp:53
+msgid "Start Presentation"
+msgstr ""
+
+#: core/link.cpp:55
+msgid "End Presentation"
+msgstr ""
+
+#: core/link.cpp:57
+msgid "Find..."
+msgstr ""
+
+#: core/link.cpp:59
+msgid "Go To Page..."
+msgstr ""
+
+#: shell/main.cpp:22
+msgid "kpdf, a kde pdf viewer based on xpdf"
+msgstr ""
+
+#: shell/main.cpp:28
+msgid "Document to open"
+msgstr "Belgeya were vekirin"
+
+#: shell/main.cpp:36
+msgid "KPDF"
+msgstr "KPDF"
+
+#: shell/main.cpp:45
+msgid "Current mantainer"
+msgstr ""
+
+#: shell/main.cpp:48
+msgid "Xpdf author"
+msgstr "Nivîsakrê Xpdfê"
+
+#: shell/main.cpp:49
+msgid "Icon"
+msgstr "Îkon"
+
+#: shell/shell.cpp:86
+msgid "Unable to find kpdf part."
+msgstr ""
+
+#: shell/shell.cpp:132
+msgid ""
+"Click to open a file\n"
+"Click and hold to open a recent file"
+msgstr ""
+
+#: shell/shell.cpp:152
+msgid ""
+"<b>Click</b> to open a file or <b>Click and hold</b> to select a recent file"
+msgstr ""
+
+#: _translatorinfo.cpp:1
+msgid ""
+"_: NAME OF TRANSLATORS\n"
+"Your names"
+msgstr ",Launchpad Contributions:,Erdal Ronahi"
+
+#: _translatorinfo.cpp:3
+msgid ""
+"_: EMAIL OF TRANSLATORS\n"
+"Your emails"
+msgstr ",,erdal.ronahi@gmail.com"
 
 #: part.cpp:82
 msgid "PDF Options"
@@ -320,14 +683,14 @@ msgstr ""
 
 #: part.cpp:641
 msgid ""
-"This link points to a close document action that does not work when using "
-"the embedded viewer."
+"This link points to a close document action that does not work when using the "
+"embedded viewer."
 msgstr ""
 
 #: part.cpp:689
 msgid ""
-"This link points to a quit application action that does not work when using "
-"the embedded viewer."
+"This link points to a quit application action that does not work when using the "
+"embedded viewer."
 msgstr ""
 
 #: part.cpp:702
@@ -339,743 +702,387 @@ msgid "&Page:"
 msgstr ""
 
 #: part.cpp:809
-msgid "A file named \"%1\" already exists. Are you sure you want to overwrite it?"
-msgstr ""
-
-#: part.cpp:809
-msgid "Overwrite"
+msgid ""
+"You are trying to overwrite \"%1\" with itself. This is not allowed. Please "
+"save it in another location."
 msgstr ""
 
 #: part.cpp:814
+msgid ""
+"A file named \"%1\" already exists. Are you sure you want to overwrite it?"
+msgstr ""
+
+#: part.cpp:814
+msgid "Overwrite"
+msgstr ""
+
+#: part.cpp:819
 msgid "File could not be saved in '%1'. Try to save it to another location."
 msgstr ""
 
-#: part.cpp:937
+#: part.cpp:942
 #, c-format
 msgid "Page %1"
 msgstr ""
 
-#: part.cpp:939
+#: part.cpp:944
 msgid "Remove Bookmark"
 msgstr ""
 
-#: part.cpp:941
+#: part.cpp:946
 msgid "Add Bookmark"
 msgstr ""
 
-#: part.cpp:958
+#: part.cpp:963
 msgid "Tools"
 msgstr ""
 
-#: part.cpp:1053
+#: part.cpp:1058
 msgid "Printing this document is not allowed."
 msgstr ""
 
-#: part.cpp:1059
+#: part.cpp:1064
 msgid "Could not print the document. Please report to bugs.kde.org"
 msgstr ""
 
-#: core/link.cpp:21
-#, c-format
-msgid "Go to page %1"
-msgstr ""
-
-#: core/link.cpp:21
-msgid "Open external file"
-msgstr ""
-
-#: core/link.cpp:26
-msgid "Execute '%1'..."
-msgstr ""
-
-#: core/link.cpp:39
-msgid "First Page"
-msgstr ""
-
-#: core/link.cpp:41
-msgid "Previous Page"
-msgstr ""
-
-#: core/link.cpp:43
-msgid "Next Page"
-msgstr ""
-
-#: core/link.cpp:45
-msgid "Last Page"
-msgstr ""
-
-#: core/link.cpp:49
-msgid "Forward"
-msgstr ""
-
-#: core/link.cpp:53
-msgid "Start Presentation"
-msgstr ""
-
-#: core/link.cpp:55
-msgid "End Presentation"
-msgstr ""
-
-#: core/link.cpp:57
-msgid "Find..."
-msgstr ""
-
-#: core/link.cpp:59
-msgid "Go To Page..."
-msgstr ""
-
-#: core/document.cpp:750
-msgid ""
-"End of document reached.\n"
-"Continue from the beginning?"
-msgstr ""
-
-#: core/document.cpp:796
-msgid "No matches found for '%1'."
-msgstr ""
-
-#: core/document.cpp:998 core/document.cpp:1006
-msgid ""
-"The pdf file is trying to execute an external application and for your "
-"safety kpdf does not allow that."
-msgstr ""
-
-#: core/document.cpp:1019
-#, c-format
-msgid "No application found for opening file of mimetype %1."
-msgstr ""
-
-#: core/generator_pdf/generator_pdf.cpp:151
-msgid "Please insert the password to read the document:"
-msgstr ""
-
-#: core/generator_pdf/generator_pdf.cpp:153
-msgid "Incorrect password. Try again:"
-msgstr ""
-
-#: core/generator_pdf/generator_pdf.cpp:207
-msgid "Title"
-msgstr "Sernav"
-
-#: core/generator_pdf/generator_pdf.cpp:208
-msgid "Subject"
-msgstr "Mijar"
-
-#: core/generator_pdf/generator_pdf.cpp:209
-msgid "Author"
-msgstr "Nivîskar"
-
-#: core/generator_pdf/generator_pdf.cpp:210
-msgid "Keywords"
-msgstr "Peyvên mifte"
-
-#: core/generator_pdf/generator_pdf.cpp:211
-msgid "Creator"
-msgstr "Afirînêr"
-
-#: core/generator_pdf/generator_pdf.cpp:212
-msgid "Producer"
-msgstr "Hilberîner"
-
-#: core/generator_pdf/generator_pdf.cpp:213
-msgid "Created"
-msgstr "Afirandî"
-
-#: core/generator_pdf/generator_pdf.cpp:214
-msgid "Modified"
-msgstr "Guhartî"
-
-#: core/generator_pdf/generator_pdf.cpp:218
-#, c-format
-msgid ""
-"_: PDF v. <version>\n"
-"PDF v. %1"
-msgstr ""
-
-#: core/generator_pdf/generator_pdf.cpp:219
-#: core/generator_pdf/generator_pdf.cpp:228
-msgid "Format"
-msgstr "Teşe"
-
-#: core/generator_pdf/generator_pdf.cpp:220
-msgid "Encrypted"
-msgstr ""
-
-#: core/generator_pdf/generator_pdf.cpp:220
-msgid "Unencrypted"
-msgstr ""
-
-#: core/generator_pdf/generator_pdf.cpp:221
-#: core/generator_pdf/generator_pdf.cpp:229
-msgid "Security"
-msgstr "Ewlehî"
-
-#: core/generator_pdf/generator_pdf.cpp:223
-#: core/generator_pdf/generator_pdf.cpp:230
-msgid "Optimized"
-msgstr ""
-
-#: core/generator_pdf/generator_pdf.cpp:224
-msgid "Pages"
-msgstr "Rûpel"
-
-#: core/generator_pdf/generator_pdf.cpp:229
-msgid "Unknown Encryption"
-msgstr ""
-
-#: core/generator_pdf/generator_pdf.cpp:230
-msgid "Unknown Optimization"
-msgstr ""
-
-#: core/generator_pdf/generator_pdf.cpp:381
-msgid "Name"
-msgstr "Nav"
-
-#: core/generator_pdf/generator_pdf.cpp:382
-msgid "Type"
-msgstr "Cure"
-
-#: core/generator_pdf/generator_pdf.cpp:383
-msgid "Embedded"
-msgstr ""
-
-#: core/generator_pdf/generator_pdf.cpp:483
-msgid ""
-"The margins you specified change the page aspect ratio. Do you want to print "
-"with the aspect ratio changed or do you want the margins to be adapted so "
-"that the aspect ratio is preserved?"
-msgstr ""
-
-#: core/generator_pdf/generator_pdf.cpp:484
-msgid "Aspect ratio change"
-msgstr ""
-
-#: core/generator_pdf/generator_pdf.cpp:485
-msgid "Print with specified margins"
-msgstr ""
-
-#: core/generator_pdf/generator_pdf.cpp:486
-msgid "Print adapting margins to keep aspect ratio"
-msgstr ""
-
-#: core/generator_pdf/generator_pdf.cpp:697
-msgid "unknown"
-msgstr "nenas"
-
-#: core/generator_pdf/generator_pdf.cpp:698
-msgid "Type 1"
-msgstr "Cureyê 1"
-
-#: core/generator_pdf/generator_pdf.cpp:699
-msgid "Type 1C"
-msgstr "Cureyê 1C"
-
-#: core/generator_pdf/generator_pdf.cpp:700
-msgid ""
-"_: OT means OpenType\n"
-"Type 1C (OT)"
-msgstr ""
-
-#: core/generator_pdf/generator_pdf.cpp:701
-msgid "Type 3"
-msgstr "Cureyê 3"
-
-#: core/generator_pdf/generator_pdf.cpp:702
-msgid "TrueType"
-msgstr "TrueType"
-
-#: core/generator_pdf/generator_pdf.cpp:703
-msgid ""
-"_: OT means OpenType\n"
-"TrueType (OT)"
-msgstr ""
-
-#: core/generator_pdf/generator_pdf.cpp:704
-msgid "CID Type 0"
-msgstr ""
-
-#: core/generator_pdf/generator_pdf.cpp:705
-msgid "CID Type 0C"
-msgstr ""
-
-#: core/generator_pdf/generator_pdf.cpp:706
-msgid ""
-"_: OT means OpenType\n"
-"CID Type 0C (OT)"
-msgstr ""
-
-#: core/generator_pdf/generator_pdf.cpp:707
-msgid "CID TrueType"
-msgstr ""
-
-#: core/generator_pdf/generator_pdf.cpp:708
-msgid ""
-"_: OT means OpenType\n"
-"CID TrueType (OT)"
-msgstr ""
-
-#: core/generator_pdf/generator_pdf.cpp:741
-#: core/generator_pdf/generator_pdf.cpp:743
-#: core/generator_pdf/generator_pdf.cpp:748
-msgid "-"
-msgstr "-"
-
-#: core/generator_pdf/generator_pdf.cpp:747
-msgid "[none]"
-msgstr "[tune]"
-
-#: core/generator_pdf/generator_pdf.cpp:768
-#: core/generator_pdf/generator_pdf.cpp:772
-#: core/generator_pdf/generator_pdf.cpp:786
-msgid "Unknown"
-msgstr "Nayê Zanîn"
-
-#: core/generator_pdf/generator_pdf.cpp:794
-#: core/generator_pdf/generator_pdf.cpp:799
-#: core/generator_pdf/generator_pdf.cpp:808
-#: core/generator_pdf/generator_pdf.cpp:829
-msgid "Unknown Date"
-msgstr "Roj nayê zanîn"
-
-#: shell/main.cpp:22
-msgid "kpdf, a kde pdf viewer based on xpdf"
-msgstr ""
-
-#: shell/main.cpp:28
-msgid "Document to open"
-msgstr "Belgeya were vekirin"
-
-#: shell/main.cpp:36
-msgid "KPDF"
-msgstr "KPDF"
-
-#: shell/main.cpp:45
-msgid "Current mantainer"
-msgstr ""
-
-#: shell/main.cpp:48
-msgid "Xpdf author"
-msgstr "Nivîsakrê Xpdfê"
-
-#: shell/main.cpp:49
-msgid "Icon"
-msgstr "Îkon"
-
-#: shell/shell.cpp:86
-msgid "Unable to find kpdf part."
-msgstr ""
-
-#: shell/shell.cpp:132
-msgid ""
-"Click to open a file\n"
-"Click and hold to open a recent file"
-msgstr ""
-
-#: shell/shell.cpp:152
-msgid "<b>Click</b> to open a file or <b>Click and hold</b> to select a recent file"
-msgstr ""
-
-#: conf/dlgperformance.ui.h:25
-msgid ""
-"Keeps used memory as low as possible. Do not reuse anything. (For systems "
-"with low memory.)"
-msgstr ""
-
-#: conf/dlgperformance.ui.h:31
-msgid ""
-"A good compromise between memory usage and speed gain. Preload next page and "
-"boost searches. (For systems with 256MB of memory, typically.)"
-msgstr ""
-
-#: conf/dlgperformance.ui.h:37
-msgid ""
-"Keeps everything in memory. Preload next pages. Boost searches. (For systems "
-"with more than 512MB of memory.)"
-msgstr ""
-
-#: conf/preferencesdialog.cpp:29
-msgid "General"
-msgstr "Giştî"
-
-#: conf/preferencesdialog.cpp:29
-msgid "General Options"
-msgstr ""
-
-#: conf/preferencesdialog.cpp:30
-msgid "Accessibility"
-msgstr ""
-
-#: conf/preferencesdialog.cpp:30
-msgid "Reading Aids"
-msgstr ""
-
-#: conf/preferencesdialog.cpp:31
-msgid "Performance"
-msgstr "Performans"
-
-#: conf/preferencesdialog.cpp:31
-msgid "Performance Tuning"
-msgstr ""
-
-#: conf/preferencesdialog.cpp:32
-msgid "Presentation"
-msgstr "Pêşkêşî"
-
-#: conf/preferencesdialog.cpp:33
-msgid "Options for Presentation Mode"
-msgstr ""
-
 #. i18n: file part.rc line 26
-#: rc.cpp:12 rc.cpp:33
+#: rc.cpp:12 rc.cpp:216
 #, no-c-format
 msgid "&Go"
 msgstr ""
 
-#. i18n: file ./conf/dlgaccessibility.ui line 27
-#: rc.cpp:48
-#, no-c-format
-msgid "Draw border around &Images"
-msgstr ""
-
-#. i18n: file ./conf/dlgaccessibility.ui line 35
-#: rc.cpp:51
-#, no-c-format
-msgid "Draw border around &Links"
-msgstr ""
-
-#. i18n: file ./conf/dlgaccessibility.ui line 51
-#: rc.cpp:54
-#, no-c-format
-msgid "Change &Colors"
-msgstr ""
-
-#. i18n: file ./conf/dlgaccessibility.ui line 83
-#: rc.cpp:57
-#, no-c-format
-msgid "Warning: these options can badly affect drawing speed."
-msgstr ""
-
-#. i18n: file ./conf/dlgaccessibility.ui line 125
-#: rc.cpp:61
-#, no-c-format
-msgid "&Invert colors"
-msgstr ""
-
-#. i18n: file ./conf/dlgaccessibility.ui line 136
-#: rc.cpp:64
-#, no-c-format
-msgid "Change &paper color"
-msgstr ""
-
-#. i18n: file ./conf/dlgaccessibility.ui line 172
-#: rc.cpp:67
-#, no-c-format
-msgid "Paper color:"
-msgstr ""
-
-#. i18n: file ./conf/dlgaccessibility.ui line 213
-#: rc.cpp:71
-#, no-c-format
-msgid "&Change dark and light colors"
-msgstr ""
-
-#. i18n: file ./conf/dlgaccessibility.ui line 308
-#: rc.cpp:76
-#, no-c-format
-msgid "Light color:"
-msgstr ""
-
-#. i18n: file ./conf/dlgaccessibility.ui line 336
-#: rc.cpp:79
-#, no-c-format
-msgid "Dark color:"
-msgstr ""
-
-#. i18n: file ./conf/dlgaccessibility.ui line 346
-#: rc.cpp:82
-#, no-c-format
-msgid "Convert to &black and white"
-msgstr ""
-
-#. i18n: file ./conf/dlgaccessibility.ui line 365
-#: rc.cpp:85
-#, no-c-format
-msgid "Contrast:"
-msgstr ""
-
-#. i18n: file ./conf/dlgaccessibility.ui line 488
-#: rc.cpp:88
-#, no-c-format
-msgid "Threshold:"
-msgstr ""
-
-#. i18n: file ./conf/dlgpresentation.ui line 27
-#: rc.cpp:91
-#, no-c-format
-msgid "Navigation"
-msgstr ""
-
-#. i18n: file ./conf/dlgpresentation.ui line 49
-#: rc.cpp:94
-#, no-c-format
-msgid " sec."
-msgstr ""
-
-#. i18n: file ./conf/dlgpresentation.ui line 60
-#: rc.cpp:97
-#, no-c-format
-msgid "Advance every:"
-msgstr ""
-
-#. i18n: file ./conf/dlgpresentation.ui line 68
-#: rc.cpp:100
-#, no-c-format
-msgid "Loop after last page"
-msgstr ""
-
-#. i18n: file ./conf/dlgpresentation.ui line 89
-#: rc.cpp:106
-#, no-c-format
-msgid "Blinds Vertical"
-msgstr ""
-
-#. i18n: file ./conf/dlgpresentation.ui line 94
-#: rc.cpp:109
-#, no-c-format
-msgid "Blinds Horizontal"
-msgstr ""
-
-#. i18n: file ./conf/dlgpresentation.ui line 99
-#: rc.cpp:112
-#, no-c-format
-msgid "Box In"
-msgstr ""
-
-#. i18n: file ./conf/dlgpresentation.ui line 104
-#: rc.cpp:115
-#, no-c-format
-msgid "Box Out"
-msgstr ""
-
-#. i18n: file ./conf/dlgpresentation.ui line 109
-#: rc.cpp:118
-#, no-c-format
-msgid "Dissolve"
-msgstr ""
-
-#. i18n: file ./conf/dlgpresentation.ui line 114
-#: rc.cpp:121
-#, no-c-format
-msgid "Glitter Down"
-msgstr ""
-
-#. i18n: file ./conf/dlgpresentation.ui line 119
-#: rc.cpp:124
-#, no-c-format
-msgid "Glitter Right"
-msgstr ""
-
-#. i18n: file ./conf/dlgpresentation.ui line 124
-#: rc.cpp:127
-#, no-c-format
-msgid "Glitter Right-Down"
-msgstr ""
-
-#. i18n: file ./conf/dlgpresentation.ui line 129
-#: rc.cpp:130
-#, no-c-format
-msgid "Random Transition"
-msgstr ""
-
-#. i18n: file ./conf/dlgpresentation.ui line 139
-#: rc.cpp:136
-#, no-c-format
-msgid "Split Horizontal In"
-msgstr ""
-
-#. i18n: file ./conf/dlgpresentation.ui line 144
-#: rc.cpp:139
-#, no-c-format
-msgid "Split Horizontal Out"
-msgstr ""
-
-#. i18n: file ./conf/dlgpresentation.ui line 149
-#: rc.cpp:142
-#, no-c-format
-msgid "Split Vertical In"
-msgstr ""
-
-#. i18n: file ./conf/dlgpresentation.ui line 154
-#: rc.cpp:145
-#, no-c-format
-msgid "Split Vertical Out"
-msgstr ""
-
-#. i18n: file ./conf/dlgpresentation.ui line 159
-#: rc.cpp:148
-#, no-c-format
-msgid "Wipe Down"
-msgstr ""
-
-#. i18n: file ./conf/dlgpresentation.ui line 164
-#: rc.cpp:151
-#, no-c-format
-msgid "Wipe Right"
-msgstr ""
-
-#. i18n: file ./conf/dlgpresentation.ui line 169
-#: rc.cpp:154
-#, no-c-format
-msgid "Wipe Left"
-msgstr ""
-
-#. i18n: file ./conf/dlgpresentation.ui line 174
-#: rc.cpp:157
-#, no-c-format
-msgid "Wipe Up"
-msgstr ""
-
-#. i18n: file ./conf/dlgpresentation.ui line 186
-#: rc.cpp:160
-#, no-c-format
-msgid "Default transition:"
-msgstr ""
-
-#. i18n: file ./conf/dlgpresentation.ui line 194
-#: rc.cpp:163
-#, no-c-format
-msgid "Mouse cursor:"
-msgstr ""
-
-#. i18n: file ./conf/dlgpresentation.ui line 200
-#: rc.cpp:166
-#, no-c-format
-msgid "Hidden After Delay"
-msgstr ""
-
-#. i18n: file ./conf/dlgpresentation.ui line 205
-#: rc.cpp:169
-#, no-c-format
-msgid "Always Visible"
-msgstr ""
-
-#. i18n: file ./conf/dlgpresentation.ui line 210
-#: rc.cpp:172
-#, no-c-format
-msgid "Always Hidden"
-msgstr ""
-
-#. i18n: file ./conf/dlgpresentation.ui line 222
-#: rc.cpp:175
-#, no-c-format
-msgid "Background color:"
-msgstr ""
-
-#. i18n: file ./conf/dlgpresentation.ui line 238
-#: rc.cpp:179
-#, no-c-format
-msgid "Show s&ummary page"
-msgstr ""
-
-#. i18n: file ./conf/dlgpresentation.ui line 246
-#: rc.cpp:182
-#, no-c-format
-msgid "Show &progress indicator"
-msgstr ""
-
 #. i18n: file ./conf/dlgperformance.ui line 35
-#: rc.cpp:185
+#: rc.cpp:24
 #, no-c-format
 msgid "CPU Usage"
 msgstr ""
 
 #. i18n: file ./conf/dlgperformance.ui line 54
-#: rc.cpp:188
+#: rc.cpp:27
 #, no-c-format
 msgid "Enable &transparency effects"
 msgstr ""
 
 #. i18n: file ./conf/dlgperformance.ui line 62
-#: rc.cpp:191
+#: rc.cpp:30
 #, no-c-format
 msgid "Enable &background generation"
 msgstr ""
 
 #. i18n: file ./conf/dlgperformance.ui line 125
-#: rc.cpp:194
+#: rc.cpp:33
 #, no-c-format
 msgid "Memory Usage"
 msgstr ""
 
 #. i18n: file ./conf/dlgperformance.ui line 158
-#: rc.cpp:198
+#: rc.cpp:37
 #, no-c-format
 msgid "&Low"
 msgstr ""
 
 #. i18n: file ./conf/dlgperformance.ui line 166
-#: rc.cpp:201
+#: rc.cpp:40
 #, no-c-format
 msgid "&Normal (default)"
 msgstr ""
 
 #. i18n: file ./conf/dlgperformance.ui line 174
-#: rc.cpp:204
+#: rc.cpp:43
 #, no-c-format
 msgid "&Aggressive"
 msgstr ""
 
 #. i18n: file ./conf/dlggeneral.ui line 27
-#: rc.cpp:207
+#: rc.cpp:46
 #, no-c-format
 msgid "Program Look"
 msgstr ""
 
 #. i18n: file ./conf/dlggeneral.ui line 49
-#: rc.cpp:210
+#: rc.cpp:49
 #, no-c-format
 msgid "Show &search bar in thumbnails list"
 msgstr ""
 
 #. i18n: file ./conf/dlggeneral.ui line 60
-#: rc.cpp:213
+#: rc.cpp:52
 #, no-c-format
 msgid "Link the &thumbnails with the page"
 msgstr ""
 
 #. i18n: file ./conf/dlggeneral.ui line 68
-#: rc.cpp:216
+#: rc.cpp:55
 #, no-c-format
 msgid "Show scroll&bars"
 msgstr ""
 
 #. i18n: file ./conf/dlggeneral.ui line 76
-#: rc.cpp:219
+#: rc.cpp:58
 #, no-c-format
 msgid "Show &hints and info messages"
 msgstr ""
 
 #. i18n: file ./conf/dlggeneral.ui line 84
-#: rc.cpp:222
+#: rc.cpp:61
 #, no-c-format
 msgid "&Obey DRM limitations"
 msgstr ""
 
 #. i18n: file ./conf/dlggeneral.ui line 92
-#: rc.cpp:225
+#: rc.cpp:64
 #, no-c-format
 msgid "&Watch file"
 msgstr ""
 
-#: _translatorinfo.cpp:1 _translatorinfo.cpp:1
-msgid ""
-"_: NAME OF TRANSLATORS\n"
-"Your names"
-msgstr ",Launchpad Contributions:,Erdal Ronahi"
+#. i18n: file ./conf/dlgpresentation.ui line 27
+#: rc.cpp:67
+#, no-c-format
+msgid "Navigation"
+msgstr ""
 
-#: _translatorinfo.cpp:3 _translatorinfo.cpp:3
-msgid ""
-"_: EMAIL OF TRANSLATORS\n"
-"Your emails"
-msgstr ",,erdal.ronahi@gmail.com"
+#. i18n: file ./conf/dlgpresentation.ui line 49
+#: rc.cpp:70
+#, no-c-format
+msgid " sec."
+msgstr ""
 
+#. i18n: file ./conf/dlgpresentation.ui line 60
+#: rc.cpp:73
+#, no-c-format
+msgid "Advance every:"
+msgstr ""
+
+#. i18n: file ./conf/dlgpresentation.ui line 68
+#: rc.cpp:76
+#, no-c-format
+msgid "Loop after last page"
+msgstr ""
+
+#. i18n: file ./conf/dlgpresentation.ui line 89
+#: rc.cpp:82
+#, no-c-format
+msgid "Blinds Vertical"
+msgstr ""
+
+#. i18n: file ./conf/dlgpresentation.ui line 94
+#: rc.cpp:85
+#, no-c-format
+msgid "Blinds Horizontal"
+msgstr ""
+
+#. i18n: file ./conf/dlgpresentation.ui line 99
+#: rc.cpp:88
+#, no-c-format
+msgid "Box In"
+msgstr ""
+
+#. i18n: file ./conf/dlgpresentation.ui line 104
+#: rc.cpp:91
+#, no-c-format
+msgid "Box Out"
+msgstr ""
+
+#. i18n: file ./conf/dlgpresentation.ui line 109
+#: rc.cpp:94
+#, no-c-format
+msgid "Dissolve"
+msgstr ""
+
+#. i18n: file ./conf/dlgpresentation.ui line 114
+#: rc.cpp:97
+#, no-c-format
+msgid "Glitter Down"
+msgstr ""
+
+#. i18n: file ./conf/dlgpresentation.ui line 119
+#: rc.cpp:100
+#, no-c-format
+msgid "Glitter Right"
+msgstr ""
+
+#. i18n: file ./conf/dlgpresentation.ui line 124
+#: rc.cpp:103
+#, no-c-format
+msgid "Glitter Right-Down"
+msgstr ""
+
+#. i18n: file ./conf/dlgpresentation.ui line 129
+#: rc.cpp:106
+#, no-c-format
+msgid "Random Transition"
+msgstr ""
+
+#. i18n: file ./conf/dlgpresentation.ui line 139
+#: rc.cpp:112
+#, no-c-format
+msgid "Split Horizontal In"
+msgstr ""
+
+#. i18n: file ./conf/dlgpresentation.ui line 144
+#: rc.cpp:115
+#, no-c-format
+msgid "Split Horizontal Out"
+msgstr ""
+
+#. i18n: file ./conf/dlgpresentation.ui line 149
+#: rc.cpp:118
+#, no-c-format
+msgid "Split Vertical In"
+msgstr ""
+
+#. i18n: file ./conf/dlgpresentation.ui line 154
+#: rc.cpp:121
+#, no-c-format
+msgid "Split Vertical Out"
+msgstr ""
+
+#. i18n: file ./conf/dlgpresentation.ui line 159
+#: rc.cpp:124
+#, no-c-format
+msgid "Wipe Down"
+msgstr ""
+
+#. i18n: file ./conf/dlgpresentation.ui line 164
+#: rc.cpp:127
+#, no-c-format
+msgid "Wipe Right"
+msgstr ""
+
+#. i18n: file ./conf/dlgpresentation.ui line 169
+#: rc.cpp:130
+#, no-c-format
+msgid "Wipe Left"
+msgstr ""
+
+#. i18n: file ./conf/dlgpresentation.ui line 174
+#: rc.cpp:133
+#, no-c-format
+msgid "Wipe Up"
+msgstr ""
+
+#. i18n: file ./conf/dlgpresentation.ui line 186
+#: rc.cpp:136
+#, no-c-format
+msgid "Default transition:"
+msgstr ""
+
+#. i18n: file ./conf/dlgpresentation.ui line 194
+#: rc.cpp:139
+#, no-c-format
+msgid "Mouse cursor:"
+msgstr ""
+
+#. i18n: file ./conf/dlgpresentation.ui line 200
+#: rc.cpp:142
+#, no-c-format
+msgid "Hidden After Delay"
+msgstr ""
+
+#. i18n: file ./conf/dlgpresentation.ui line 205
+#: rc.cpp:145
+#, no-c-format
+msgid "Always Visible"
+msgstr ""
+
+#. i18n: file ./conf/dlgpresentation.ui line 210
+#: rc.cpp:148
+#, no-c-format
+msgid "Always Hidden"
+msgstr ""
+
+#. i18n: file ./conf/dlgpresentation.ui line 222
+#: rc.cpp:151
+#, no-c-format
+msgid "Background color:"
+msgstr ""
+
+#. i18n: file ./conf/dlgpresentation.ui line 238
+#: rc.cpp:155
+#, no-c-format
+msgid "Show s&ummary page"
+msgstr ""
+
+#. i18n: file ./conf/dlgpresentation.ui line 246
+#: rc.cpp:158
+#, no-c-format
+msgid "Show &progress indicator"
+msgstr ""
+
+#. i18n: file ./conf/dlgaccessibility.ui line 27
+#: rc.cpp:161
+#, no-c-format
+msgid "Draw border around &Images"
+msgstr ""
+
+#. i18n: file ./conf/dlgaccessibility.ui line 35
+#: rc.cpp:164
+#, no-c-format
+msgid "Draw border around &Links"
+msgstr ""
+
+#. i18n: file ./conf/dlgaccessibility.ui line 51
+#: rc.cpp:167
+#, no-c-format
+msgid "Change &Colors"
+msgstr ""
+
+#. i18n: file ./conf/dlgaccessibility.ui line 83
+#: rc.cpp:170
+#, no-c-format
+msgid "Warning: these options can badly affect drawing speed."
+msgstr ""
+
+#. i18n: file ./conf/dlgaccessibility.ui line 125
+#: rc.cpp:174
+#, no-c-format
+msgid "&Invert colors"
+msgstr ""
+
+#. i18n: file ./conf/dlgaccessibility.ui line 136
+#: rc.cpp:177
+#, no-c-format
+msgid "Change &paper color"
+msgstr ""
+
+#. i18n: file ./conf/dlgaccessibility.ui line 172
+#: rc.cpp:180
+#, no-c-format
+msgid "Paper color:"
+msgstr ""
+
+#. i18n: file ./conf/dlgaccessibility.ui line 213
+#: rc.cpp:184
+#, no-c-format
+msgid "&Change dark and light colors"
+msgstr ""
+
+#. i18n: file ./conf/dlgaccessibility.ui line 308
+#: rc.cpp:189
+#, no-c-format
+msgid "Light color:"
+msgstr ""
+
+#. i18n: file ./conf/dlgaccessibility.ui line 336
+#: rc.cpp:192
+#, no-c-format
+msgid "Dark color:"
+msgstr ""
+
+#. i18n: file ./conf/dlgaccessibility.ui line 346
+#: rc.cpp:195
+#, no-c-format
+msgid "Convert to &black and white"
+msgstr ""
+
+#. i18n: file ./conf/dlgaccessibility.ui line 365
+#: rc.cpp:198
+#, no-c-format
+msgid "Contrast:"
+msgstr ""
+
+#. i18n: file ./conf/dlgaccessibility.ui line 488
+#: rc.cpp:201
+#, no-c-format
+msgid "Threshold:"
+msgstr ""
