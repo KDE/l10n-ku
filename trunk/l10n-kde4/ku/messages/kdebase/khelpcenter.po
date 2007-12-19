@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: khelpcenter\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-10-19 05:38+0200\n"
+"POT-Creation-Date: 2007-12-19 06:21+0100\n"
 "PO-Revision-Date: 2007-12-19 02:44+0100\n"
 "Last-Translator: Erdal\n"
 "Language-Team: Kurdish <ku@li.org>\n"
@@ -20,11 +20,11 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural= n != 1\n"
 
-#: application.cpp:57 navigator.cpp:459
+#: application.cpp:57 navigator.cpp:458
 msgid "KDE Help Center"
 msgstr "Navenda Alîkariya ya KDE"
 
-#: application.cpp:59 khc_indexbuilder.cpp:168
+#: application.cpp:59 khc_indexbuilder.cpp:156
 msgid "The KDE Help Center"
 msgstr "Navenda Alîkariya ya KDE"
 
@@ -32,7 +32,7 @@ msgstr "Navenda Alîkariya ya KDE"
 msgid "(c) 1999-2003, The KHelpCenter developers"
 msgstr "(c) 1999-2003, Pêşvebirên navênden alîkariyê ya KDE"
 
-#: application.cpp:63 khc_indexbuilder.cpp:172
+#: application.cpp:63 khc_indexbuilder.cpp:160
 msgid "Cornelius Schumacher"
 msgstr "Cornelius Schumacher"
 
@@ -65,6 +65,7 @@ msgid "Top-Level Documentation"
 msgstr "Pelgeyên asta bilind"
 
 #: docmetainfo.cpp:74
+#, kde-format
 msgctxt "doctitle (language)"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
@@ -134,37 +135,39 @@ msgstr "Kodkirina ziman bi kar bîne"
 msgid "&Font size adjustment:"
 msgstr "&Mîhengkirina mezinahiya curetîpê:"
 
-#: glossary.cpp:92
+#: glossary.cpp:94
 msgid "By Topic"
 msgstr "Li gor sernivîsê"
 
-#: glossary.cpp:95 infotree.cpp:93
+#: glossary.cpp:97 infotree.cpp:93
 msgid "Alphabetically"
 msgstr "Li gor rêza alfabeyê"
 
-#: glossary.cpp:151
-msgid "Rebuilding cache..."
+#: glossary.cpp:153
+#, fuzzy
+#| msgid "Rebuilding cache..."
+msgid "Rebuilding glossary cache..."
 msgstr "Pêşbîr ji nû ve tê amadekirin..."
 
-#: glossary.cpp:181
+#: glossary.cpp:205
 msgid "Rebuilding cache... done."
 msgstr "Pêybîr ji nû ve tê amadekirin... hate temamkirin!"
 
-#: glossary.cpp:275
+#: glossary.cpp:299
 msgid "Error"
 msgstr "Çewtî"
 
-#: glossary.cpp:276
+#: glossary.cpp:300
 msgid ""
 "Unable to show selected glossary entry: unable to open file 'glossary.html."
 "in'!"
 msgstr "Bêjeya hilbijartî nehate nîşandan: 'glossary.html.in' nehate dîtin."
 
-#: glossary.cpp:281
+#: glossary.cpp:305
 msgid "See also: "
 msgstr "Wekî din binihêre: "
 
-#: glossary.cpp:296
+#: glossary.cpp:320
 msgid "KDE Glossary"
 msgstr "Ferhenga KDE"
 
@@ -300,6 +303,7 @@ msgid "Change..."
 msgstr "Biguherîne..."
 
 #: kcmhelpcenter.cpp:319
+#, kde-format
 msgid "<qt>The folder <b>%1</b> does not exist; unable to create index.</qt>"
 msgstr "<qt>Lênûser <b>%1</b> ne li gore; nikare pêrist ava bike.</qt>"
 
@@ -314,6 +318,7 @@ msgid "Missing"
 msgstr "Kêm"
 
 #: kcmhelpcenter.cpp:403
+#, kde-format
 msgctxt ""
 " Generic prefix label for error messages when creating documentation index, "
 "first arg is the document's identifier, second is the document's name"
@@ -325,10 +330,12 @@ msgid "No document type."
 msgstr "Cureyê pelge tuneye."
 
 #: kcmhelpcenter.cpp:414
+#, kde-format
 msgid "No search handler available for document type '%1'."
 msgstr "ji bo cureyê pelgeyê desteka lêgerînê tuneye '%1'."
 
 #: kcmhelpcenter.cpp:421
+#, kde-format
 msgid "No indexing command specified for document type '%1'."
 msgstr "Ti pêristin nehatine destnîşankirin ji bo pelgeya cureya '%1'."
 
@@ -337,6 +344,7 @@ msgid "Failed to build index."
 msgstr "Avakirina pêristê biserneket."
 
 #: kcmhelpcenter.cpp:591
+#, kde-format
 msgid ""
 "Error executing indexing build command:\n"
 "%1"
@@ -344,23 +352,25 @@ msgstr ""
 "Çewtî di pêrista avakirina fermanê de:\n"
 "%1"
 
-#: khc_indexbuilder.cpp:101
+#: khc_indexbuilder.cpp:98
+#, fuzzy, kde-format
+#| msgid "Unable to start command '%1'."
 msgid "Unable to start command '%1'."
 msgstr "Fermana '%s' nehate destpêkirin."
 
-#: khc_indexbuilder.cpp:166
+#: khc_indexbuilder.cpp:154
 msgid "KHelpCenter Index Builder"
 msgstr "Navenda alîkariya avakirina pêristê"
 
-#: khc_indexbuilder.cpp:170
+#: khc_indexbuilder.cpp:158
 msgid "(c) 2003, The KHelpCenter developers"
 msgstr "(c) 2003, Pêşvebirên Navendên Alîkariyê ya KDE"
 
-#: khc_indexbuilder.cpp:177
+#: khc_indexbuilder.cpp:165
 msgid "Document to be indexed"
 msgstr "Pelgeyên ku divê werin pêristkirin"
 
-#: khc_indexbuilder.cpp:178
+#: khc_indexbuilder.cpp:166
 msgid "Index directory"
 msgstr "Lênûsa pêristê"
 
@@ -428,39 +438,39 @@ msgstr "Mezinahiya Curetîpan Mezin Bike"
 msgid "Decrease Font Sizes"
 msgstr "Mezinahiya Curetîpan Biçûk Bike"
 
-#: navigator.cpp:114
+#: navigator.cpp:113
 msgid "&Search"
 msgstr "&Lêbigere"
 
-#: navigator.cpp:171
+#: navigator.cpp:170
 msgid "&Contents"
 msgstr "&Naverok"
 
-#: navigator.cpp:184
+#: navigator.cpp:183
 msgid "Search Options"
 msgstr "Vebijêrkên Lêgerînê"
 
-#: navigator.cpp:192
+#: navigator.cpp:191
 msgid "G&lossary"
 msgstr "Ferhengok"
 
-#: navigator.cpp:458
+#: navigator.cpp:457
 msgid "Start Page"
 msgstr "Rûpelê Destpêkê"
 
-#: navigator.cpp:546
+#: navigator.cpp:545
 msgid "Unable to run search program."
 msgstr "Bernameya lêgerînê nehate xebitandin."
 
-#: navigator.cpp:586
+#: navigator.cpp:585
 msgid "A search index does not yet exist. Do you want to create the index now?"
 msgstr "Heta niha pêrist nehatiye avakirin, Tu dixwazî pêristeke nû ava bikî?"
 
-#: navigator.cpp:590
+#: navigator.cpp:589
 msgid "Create"
 msgstr "Pêk Bîne"
 
-#: navigator.cpp:591
+#: navigator.cpp:590
 msgid "Do Not Create"
 msgstr "Pêk Bîne"
 
@@ -533,10 +543,12 @@ msgid "Error: No document type specified."
 msgstr "Çewtî: Ti cureyê pelgeyê nehatiye destnîşankirin"
 
 #: searchengine.cpp:78
+#, kde-format
 msgid "Error: No search handler for document type '%1'."
 msgstr "Çewtî: Xebatkerê lêgerîna ji bo cureyê pelgeyê '%1' tuneye."
 
 #: searchengine.cpp:226
+#, kde-format
 msgid "Unable to initialize SearchHandler from file '%1'."
 msgstr "Dikare xebatkarê lêgerînê bike sifir ji dosya '%1'."
 
@@ -545,6 +557,7 @@ msgid "No valid search handler found."
 msgstr "Xebatkerê lêgerînê nayê dîtin."
 
 #: searchengine.cpp:305
+#, kde-format
 msgid "Search Results for '%1':"
 msgstr "Encamên Lêgerîna '%1':"
 
@@ -553,6 +566,7 @@ msgid "Search Results"
 msgstr "Encamên Lêgerînê"
 
 #: searchhandler.cpp:132
+#, kde-format
 msgid "Error executing search command '%1'."
 msgstr "Çewtî di fermana lêgerînê '%1' de."
 
@@ -561,6 +575,7 @@ msgid "No search command or URL specified."
 msgstr "Fermana lêgerînê an jî navnîşan nehate diyarkirin"
 
 #: searchhandler.cpp:233
+#, kde-format
 msgid "Error: %1"
 msgstr "Çewtî: %1"
 
@@ -595,9 +610,7 @@ msgstr "Lênûsa lêgerînê ava bike"
 #: searchwidget.cpp:367
 msgctxt "Label for searching documentation using custom (user defined) scope"
 msgid "Custom"
-msgstr ""
-"Taybet "
-" "
+msgstr "Taybet  "
 
 #: searchwidget.cpp:369
 msgctxt "Label for searching documentation using default search scope"
@@ -702,4 +715,3 @@ msgstr "Gerînendeyê dosya Konqueror û geroka înternetê"
 #: view.cpp:267
 msgid "Copy Link Address"
 msgstr "Navnîşana Girêdanê Ji Ber Bigire"
-
