@@ -1,4 +1,4 @@
-# translation of po_kopete-ku.po to Kurdish
+# translation of kopete.po to Kurdish
 # Kurdish translation for kdenetwork
 # Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
 # This file is distributed under the same license as the kdenetwork package.
@@ -7,12 +7,12 @@
 # Erdal Ronahi <erdal dot ronahi at gmail dot com>, 2007.
 msgid ""
 msgstr ""
-"Project-Id-Version: po_kopete-ku\n"
+"Project-Id-Version: kopete\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2007-12-18 06:18+0100\n"
-"PO-Revision-Date: 2007-12-17 03:57+0100\n"
+"PO-Revision-Date: 2007-12-21 23:18+0100\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
-"Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
+"Language-Team: Kurdish <gnu-ku-wergerandin at lists dot sourceforge dot net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -92,9 +92,8 @@ msgstr "Tekilî"
 #. i18n: file ./protocols/winpopup/ui/wpeditaccountbase.ui line 325
 #: libkopete/ui/kopeteinfodialog.cpp:50 libkopete/ui/kopeteinfodialog.cpp:64
 #: rc.cpp:2711 rc.cpp:5066 rc.cpp:5096
-#, fuzzy
 msgid "Information"
-msgstr "Agahiya Kar"
+msgstr "Agahî"
 
 #. i18n: tag string
 #. i18n: file ./libkopete/ui/addressbookselectorwidget_base.ui line 105
@@ -169,17 +168,15 @@ msgid "Addressbook Association"
 msgstr "Girêdana Defteta Navnîşanan"
 
 #: libkopete/ui/avatardialog.cpp:50
-#, fuzzy
 msgid "Select an avatar"
-msgstr "Hesabê Hilbijêre"
+msgstr "Avatarekî hilbijêre"
 
 #: libkopete/kopeteidentitymanager.cpp:146
-#, fuzzy
 msgctxt ""
 "Label for the default identity, used by users to group their instant "
 "messaging accounts"
 msgid "Default Identity"
-msgstr "Nasnameya Pêşsalixbûyî"
+msgstr "Nasnameya Standard"
 
 #: libkopete/kopeteonlinestatus.cpp:110 libkopete/kopetemetacontact.cpp:469
 #: plugins/statistics/statisticscontact.cpp:260
@@ -265,34 +262,32 @@ msgid "Copying"
 msgstr ""
 
 #: libkopete/kopetetransfermanager.cpp:136
-#, fuzzy
 msgid "Source"
-msgstr "Çavkaniya Fotograf"
+msgstr "Çavkanî"
 
 #: libkopete/kopetetransfermanager.cpp:137
-#, fuzzy
 msgid "Destination"
-msgstr "Danasîn"
+msgstr "Hedef"
 
 #: libkopete/kopetetransfermanager.cpp:147
-#, fuzzy, kde-format
+#, kde-format
 msgid "File transfer %1 completed. :)"
-msgstr "Veguheztina pelan hate betalkirin."
+msgstr "Veguheztina pelê %1 hate temamkirin. :)"
 
 #: libkopete/kopetetransfermanager.cpp:156
-#, fuzzy, kde-format
+#, kde-format
 msgid "File transfer %1 failed. :("
-msgstr "Veguheztina pelan hate betalkirin."
+msgstr ""
 
 #: libkopete/kopetetransfermanager.cpp:164
-#, fuzzy, kde-format
+#, kde-format
 msgid "You cancelled file transfer %1"
-msgstr "Şandina Dosyeyan a Kopete"
+msgstr ""
 
 #: libkopete/kopetetransfermanager.cpp:171
-#, fuzzy, kde-format
+#, kde-format
 msgid "File transfer %1 cancelled."
-msgstr "Veguheztina pelan hate betalkirin."
+msgstr "Veguheztina pelan %1 hate betalkirin."
 
 #: libkopete/kopetetransfermanager.cpp:228
 msgid "<unknown>"
@@ -364,8 +359,7 @@ msgid "Image to display in password dialog"
 msgstr "Di paceya nasnavê de wêne nîşan bide"
 
 #: libkopete/tests/kopetepasswordtest_program.cpp:117
-msgid ""
-"Hopefully this popped up because you set the password to the empty string."
+msgid "Hopefully this popped up because you set the password to the empty string."
 msgstr "Ji ber ku te nasnavê vala hişt te ev peyam stand."
 
 #: libkopete/kopetechatsession.cpp:253
@@ -701,10 +695,8 @@ msgstr "Rewş ne diyar e"
 
 #: libkopete/kopeteidentity.cpp:147
 #, kde-format
-msgctxt ""
-"Identity tooltip information: <nobr>ICON <b>NAME</b></nobr><br /><br />"
-msgid ""
-"<nobr><img src=\"kopete-identity-icon:%1\"> <b>%2</b></nobr><br /><br />"
+msgctxt "Identity tooltip information: <nobr>ICON <b>NAME</b></nobr><br /><br />"
+msgid "<nobr><img src=\"kopete-identity-icon:%1\"> <b>%2</b></nobr><br /><br />"
 msgstr ""
 
 #: libkopete/kopeteidentity.cpp:155
@@ -722,8 +714,7 @@ msgstr ""
 msgid ""
 "<qt><b>The password was wrong.</b> Please re-enter your password for %1 "
 "account <b>%2</b></qt>"
-msgstr ""
-"<b>Nasnav çewt e;</b> ji kerema xwe ji bo %1 'ê nasnavê careke din têkevê"
+msgstr "<b>Nasnav çewt e;</b> ji kerema xwe ji bo %1 'ê nasnavê careke din têkevê"
 
 #: libkopete/kopetepasswordedaccount.cpp:77
 #, fuzzy, kde-format
@@ -777,8 +768,7 @@ msgstr ""
 
 #: libkopete/kopetecommandhandler.cpp:150
 msgid "USAGE: /awayall [<reason>] - Marks you as away/back for all accounts."
-msgstr ""
-"USAGE: /awayall [<reason>] - Hemû hesab te wekî Li Derve/Vegeriya nîşan dike."
+msgstr "USAGE: /awayall [<reason>] - Hemû hesab te wekî Li Derve/Vegeriya nîşan dike."
 
 #: libkopete/kopetecommandhandler.cpp:153
 msgid ""
@@ -901,8 +891,7 @@ msgstr ""
 
 #: libkopete/kopetecontact.cpp:427
 #, kde-format
-msgid ""
-"Are you sure you want to remove the contact  '%1' from your contact list?"
+msgid "Are you sure you want to remove the contact  '%1' from your contact list?"
 msgstr "Ji dil dixwazî '%1' jê bibî?"
 
 #: libkopete/kopetecontact.cpp:428
@@ -965,8 +954,7 @@ msgstr ""
 
 #: libkopete/kopetecontact.cpp:574
 #, kde-format
-msgctxt ""
-"@label:textbox %4 is contact-display-name, %3 is contact-id, %1 is its status"
+msgctxt "@label:textbox %4 is contact-display-name, %3 is contact-id, %1 is its status"
 msgid "<nobr><b>%4</b> (%3)</nobr><br /><img src=\"%2\">&nbsp;%1"
 msgstr ""
 
@@ -1740,8 +1728,7 @@ msgstr ""
 
 #: kopete/main.cpp:85
 msgid "Do not load plugins. This option overrides all other options."
-msgstr ""
-"Pêvek nehatin barkirin. Ev hilbijartin dê hemû vebijêrkên din betal bike."
+msgstr "Pêvek nehatin barkirin. Ev hilbijartin dê hemû vebijêrkên din betal bike."
 
 #: kopete/main.cpp:86
 msgid "Disable auto-connection"
@@ -2495,8 +2482,7 @@ msgstr "Werzîş"
 
 #: kopete/contactlist/kopeteaddrbookexport.cpp:186
 msgid "Set address book fields using the selected data from Kopete"
-msgstr ""
-"Deftera navnîşanan, bi agahiyên ku ji Kopete hatine hilbijartin, tije bike"
+msgstr "Deftera navnîşanan, bi agahiyên ku ji Kopete hatine hilbijartin, tije bike"
 
 #: kopete/contactlist/kopetegroupviewitem.cpp:164
 #, fuzzy, kde-format
@@ -2722,8 +2708,7 @@ msgstr "Peyama Nehatiye Xwendin"
 msgid ""
 "You have a message send in progress, which will be aborted if this chat is "
 "closed. Are you sure you want to close this chat?"
-msgstr ""
-"Heke vê sohbetê bigirî dê peyam newe şandin. Dixwazî vê sohbetê bigirî?"
+msgstr "Heke vê sohbetê bigirî dê peyam newe şandin. Dixwazî vê sohbetê bigirî?"
 
 #: kopete/chatwindow/kopeteemailwindow.cpp:473
 #: kopete/chatwindow/chatview.cpp:363
@@ -3038,8 +3023,7 @@ msgstr ""
 #. i18n: tag string
 #. i18n: file ./libkopete/ui/contactaddednotifywidget.ui line 122
 #: rc.cpp:74 rc.cpp:84
-msgid ""
-"The display name of the contact.  Leave it empty to use the contact nickname"
+msgid "The display name of the contact.  Leave it empty to use the contact nickname"
 msgstr ""
 
 #. i18n: tag string
@@ -3687,8 +3671,7 @@ msgstr ""
 #. i18n: tag string
 #. i18n: file ./kopete/config/behavior/behaviorconfig_events.ui line 149
 #: rc.cpp:370
-msgid ""
-"The \"Ignore\" button of the bubble closes the chat window for the sender"
+msgid "The \"Ignore\" button of the bubble closes the chat window for the sender"
 msgstr ""
 
 #. i18n: tag string
@@ -3728,8 +3711,7 @@ msgstr ""
 #. i18n: tag string
 #. i18n: file ./kopete/config/behavior/behaviorconfig_events.ui line 177
 #: rc.cpp:388
-msgid ""
-"Do not display notification for messages in chat windows on current desktop"
+msgid "Do not display notification for messages in chat windows on current desktop"
 msgstr ""
 
 #. i18n: tag string
@@ -6112,8 +6094,7 @@ msgstr "Hejmara peyamên ku wê werine nîşandan:"
 #. i18n: tag string
 #. i18n: file ./plugins/history/historyprefsui.ui line 141
 #: rc.cpp:1515
-msgid ""
-"The number of message that are shown when borwsing history in the chat window"
+msgid "The number of message that are shown when borwsing history in the chat window"
 msgstr ""
 
 #. i18n: tag string
@@ -9503,8 +9484,7 @@ msgstr ""
 #. i18n: tag string
 #. i18n: file ./protocols/gadu/ui/gaduawayui.ui line 132
 #: rc.cpp:3044
-msgid ""
-"Set status to invisible, which will hide your presence from other users."
+msgid "Set status to invisible, which will hide your presence from other users."
 msgstr ""
 
 #. i18n: tag string
@@ -10109,8 +10089,7 @@ msgstr "Porta pêşkêşkera AIM ya tu dixwazî lê were girêdan."
 msgid ""
 "The port on the AIM server that you would like to connect to.  Normally this "
 "is 5190."
-msgstr ""
-"Porta pêşkêşkera AIM ya tu dixwazî lê were girêdan. Normaliya wê 5190 e."
+msgstr "Porta pêşkêşkera AIM ya tu dixwazî lê were girêdan. Normaliya wê 5190 e."
 
 #. i18n: tag string
 #. i18n: file ./protocols/oscar/aim/ui/aimeditaccountui.ui line 375
@@ -10211,8 +10190,7 @@ msgstr ""
 #: rc.cpp:3402 rc.cpp:3795
 #, fuzzy
 msgid "The start of the port range. Normally this is 5190."
-msgstr ""
-"Porta pêşkêşkera AIM ya tu dixwazî lê were girêdan. Normaliya wê 5190 e."
+msgstr "Porta pêşkêşkera AIM ya tu dixwazî lê were girêdan. Normaliya wê 5190 e."
 
 #. i18n: tag string
 #. i18n: file ./protocols/oscar/aim/ui/aimeditaccountui.ui line 485
@@ -11058,8 +11036,7 @@ msgstr ""
 #. i18n: tag string
 #. i18n: file ./protocols/oscar/icq/ui/icqeditaccountui.ui line 475
 #: rc.cpp:3762
-msgid ""
-"Check this to hide your IP address from people when they view your user info"
+msgid "Check this to hide your IP address from people when they view your user info"
 msgstr "Ji bo ku bikarhênerên navnîşana te ya IP'ê nebîne vê nîşan bike."
 
 #. i18n: tag string
@@ -11650,8 +11627,7 @@ msgstr "Nîşeyên Têkiliyê:"
 #. i18n: tag string
 #. i18n: file ./protocols/yahoo/ui/yahooverifyaccountbase.ui line 31
 #: rc.cpp:4240
-msgid ""
-"Your Account has to be verified due to too many failed login attempts.<br>"
+msgid "Your Account has to be verified due to too many failed login attempts.<br>"
 msgstr ""
 
 #. i18n: tag string
@@ -11941,8 +11917,7 @@ msgstr "Girêdan"
 #. i18n: tag string
 #. i18n: file ./protocols/meanwhile/ui/meanwhileeditaccountbase.ui line 175
 #: rc.cpp:4414 rc.cpp:4417 rc.cpp:4420 rc.cpp:4423
-msgid ""
-"The IP address or hostname of the Sametime server you wish to connect to."
+msgid "The IP address or hostname of the Sametime server you wish to connect to."
 msgstr ""
 
 #. i18n: tag string
@@ -12012,8 +11987,7 @@ msgstr ""
 #. i18n: file ./protocols/jabber/ui/dlgregister.ui line 59
 #: rc.cpp:4465
 msgid "Please wait while querying the server..."
-msgstr ""
-"Ji kerema xwe piçekî din jî rawestin bi pêşkêşker re dikeve têkiliyê..."
+msgstr "Ji kerema xwe piçekî din jî rawestin bi pêşkêşker re dikeve têkiliyê..."
 
 #. i18n: tag string
 #. i18n: file ./protocols/jabber/ui/dlgregister.ui line 112
@@ -12473,8 +12447,7 @@ msgstr ""
 #. i18n: tag string
 #. i18n: file ./protocols/groupwise/ui/gwaccountpreferences.ui line 261
 #: rc.cpp:4781 rc.cpp:4790 rc.cpp:5288 rc.cpp:5297
-msgid ""
-"The port on the server that you would like to connect to (default is 5222)."
+msgid "The port on the server that you would like to connect to (default is 5222)."
 msgstr ""
 
 #. i18n: tag string
@@ -12609,8 +12582,7 @@ msgstr ""
 #. i18n: tag string
 #. i18n: file ./protocols/jabber/ui/dlgjabbereditaccountwidget.ui line 942
 #: rc.cpp:4865
-msgid ""
-"Check this box if you always want to send notifications to your contacts."
+msgid "Check this box if you always want to send notifications to your contacts."
 msgstr ""
 
 #. i18n: tag string
@@ -13723,8 +13695,7 @@ msgstr ""
 #. i18n: tag string
 #. i18n: file ./protocols/groupwise/ui/gwaddui.ui line 125
 #: rc.cpp:5519
-msgid ""
-"Use this field to add a contact if you already know the user's exact User ID"
+msgid "Use this field to add a contact if you already know the user's exact User ID"
 msgstr ""
 
 #: plugins/nowlistening/nowlisteningguiclient.cpp:39
@@ -13736,8 +13707,7 @@ msgstr "Agahiyên Mediayê Bişeyne"
 msgid ""
 "None of the supported media players (Amarok, KsCD, JuK, Noatun, Kaffeine, or "
 "Quod Libet) are playing anything."
-msgstr ""
-"Tu bernameyeke bipiştgirî (KsCD, JuK, amaroK, Noatun an jî Kaffeine)naxebite."
+msgstr "Tu bernameyeke bipiştgirî (KsCD, JuK, amaroK, Noatun an jî Kaffeine)naxebite."
 
 #: plugins/nowlistening/nowlisteningguiclient.cpp:65
 msgid "Nothing to Send"
@@ -13847,8 +13817,7 @@ msgstr "Wergerîne"
 msgid ""
 "<qt>Could not add alias <b>%1</b>. An alias name cannot contain the "
 "characters \"_\" or \"=\".</qt>"
-msgstr ""
-"<qt><b>%1</b>Nickê nexistê. Nick nikare bi \"_\" an jî \"=\" yê de be.</qt>"
+msgstr "<qt><b>%1</b>Nickê nexistê. Nick nikare bi \"_\" an jî \"=\" yê de be.</qt>"
 
 #: plugins/alias/aliaspreferences.cpp:333
 #: plugins/alias/aliaspreferences.cpp:422
@@ -14079,8 +14048,7 @@ msgstr ""
 msgid ""
 "<b title=\"The total time I have been able to see %1 status\">Total visible "
 "time :</b> %2 hour(s)<br>"
-msgstr ""
-"<b title=\"Dema ku min rewşa %1 dîtiye\">Hemû dema dîtinê :</b> %2 saet<br>"
+msgstr "<b title=\"Dema ku min rewşa %1 dîtiye\">Hemû dema dîtinê :</b> %2 saet<br>"
 
 #: plugins/statistics/statisticsdialog.cpp:404
 #, kde-format
@@ -14223,14 +14191,12 @@ msgstr "Têxe Lîsteya Têkiliyan"
 
 #: plugins/privacy/privacyplugin.cpp:158
 #, kde-format
-msgid ""
-"A message from %1 was dropped, because this contact is not on your whitelist."
+msgid "A message from %1 was dropped, because this contact is not on your whitelist."
 msgstr ""
 
 #: plugins/privacy/privacyplugin.cpp:168
 #, kde-format
-msgid ""
-"A message from %1 was dropped, because this contact is on your blacklist."
+msgid "A message from %1 was dropped, because this contact is on your blacklist."
 msgstr ""
 
 #: plugins/privacy/privacyplugin.cpp:178
@@ -14401,8 +14367,7 @@ msgstr "Dema dixwest sohbetê bide destpêkirin çewtiyek çêbû: %1"
 msgid ""
 "Your message could not be sent. You cannot send messages while your status "
 "is Appear Offline. "
-msgstr ""
-"Peyama te nehate şandin. Dema tu Negirêdayî be tu nikarî peyaman bişîne. "
+msgstr "Peyama te nehate şandin. Dema tu Negirêdayî be tu nikarî peyaman bişîne. "
 
 #: protocols/qq/qqchatsession.cpp:298
 #: protocols/groupwise/gwmessagemanager.cpp:328
@@ -14428,8 +14393,7 @@ msgstr "Li Têkiliya ku Tu Yê Wî/ê Vexwîne Bigere"
 
 #: protocols/qq/qqchatsession.cpp:385
 #: protocols/groupwise/gwmessagemanager.cpp:411
-msgctxt ""
-"label attached to contacts who have been invited but are yet to join a chat"
+msgctxt "label attached to contacts who have been invited but are yet to join a chat"
 msgid "(pending)"
 msgstr ""
 
@@ -14506,8 +14470,7 @@ msgstr "Pêveka IRC"
 
 #: protocols/irc/ui/ircdialogs.cpp:35
 #, fuzzy, kde-format
-msgid ""
-"The nickname %1 is already in use. Please enter an alternative nickname:"
+msgid "The nickname %1 is already in use. Please enter an alternative nickname:"
 msgstr "Navê bikarhêner yê %1 tê bikaranîn. Ji kerema xwe re navekî binivîse:"
 
 #: protocols/irc/ui/ircdialogs.cpp:59
@@ -14585,8 +14548,7 @@ msgid ""
 msgstr ""
 
 #: protocols/irc/ui/channellist.cpp:214
-msgid ""
-"You may search for channels on the IRC server for a text string entered here."
+msgid "You may search for channels on the IRC server for a text string entered here."
 msgstr ""
 
 #: protocols/irc/ui/channellist.cpp:216 protocols/gadu/gadupubdir.cpp:117
@@ -14987,8 +14949,7 @@ msgid "user disconnected"
 msgstr "Bikarhêner ne girêdayî ye."
 
 #: protocols/msn/msnswitchboardsocket.cpp:155
-msgid ""
-"You are trying to invite too many contacts to this chat at the same time"
+msgid "You are trying to invite too many contacts to this chat at the same time"
 msgstr ""
 
 #: protocols/msn/msnswitchboardsocket.cpp:207
@@ -15017,8 +14978,7 @@ msgstr ""
 
 #: protocols/msn/msnnotifysocket.cpp:125
 #, kde-format
-msgid ""
-"<qt>The MSN user '%1' does not exist.<br />Please check the MSN ID.</qt>"
+msgid "<qt>The MSN user '%1' does not exist.<br />Please check the MSN ID.</qt>"
 msgstr ""
 
 #: protocols/msn/msnnotifysocket.cpp:134
@@ -15071,8 +15031,7 @@ msgid ""
 msgstr ""
 
 #: protocols/msn/msnnotifysocket.cpp:215
-msgid ""
-"The group name is too long, so it has not been changed on the MSN server."
+msgid "The group name is too long, so it has not been changed on the MSN server."
 msgstr ""
 
 #: protocols/msn/msnnotifysocket.cpp:222
@@ -15158,8 +15117,7 @@ msgstr "Ji bo ku tu karibî têkilî (şexsan) lê zêde bike divê tu girêday�
 
 #: protocols/msn/msncontact.cpp:267 protocols/gadu/gaducontact.cpp:251
 #, fuzzy
-msgid ""
-"<qt>You need to go online to remove a contact from your contact list.</qt>"
+msgid "<qt>You need to go online to remove a contact from your contact list.</qt>"
 msgstr ""
 "<qt>Ji bo ku tu karibî bikarhênerekî/ê ji lîsteya xwe ya têkiliyan derxe "
 "divê tu girêdayî be.</qt>"
@@ -15273,8 +15231,7 @@ msgid "Start Chat - MSN Plugin"
 msgstr ""
 
 #: protocols/msn/msnaccount.cpp:346
-msgid ""
-"Please enter the email address of the person with whom you want to chat:"
+msgid "Please enter the email address of the person with whom you want to chat:"
 msgstr ""
 
 #: protocols/msn/msnaccount.cpp:390 protocols/msn/msnaccount.cpp:401
@@ -15378,8 +15335,7 @@ msgid "No provider configured."
 msgstr "Veavakirin nehate dîtin."
 
 #: protocols/sms/services/smssend.cpp:65
-msgid ""
-"No prefix set for SMSSend, please change it in the configuration dialog."
+msgid "No prefix set for SMSSend, please change it in the configuration dialog."
 msgstr ""
 
 #: protocols/sms/services/smssend.cpp:65
@@ -15417,8 +15373,7 @@ msgstr "Biryar nayê wergirtin ku bê ka bila peyama kîjan mijarê were hundir�
 #: protocols/sms/services/smssendprovider.cpp:223
 #, fuzzy
 msgid "Could not determine which argument should contain the number."
-msgstr ""
-"Biryar nayê wergirtin ku bê ka bila nimreya kîjan mijarê were hundirîn."
+msgstr "Biryar nayê wergirtin ku bê ka bila nimreya kîjan mijarê were hundirîn."
 
 #: protocols/gadu/gadusession.cpp:219 protocols/gadu/gadusession.cpp:232
 #: protocols/gadu/gadusession.cpp:244 protocols/gadu/gadusession.cpp:277
@@ -17584,8 +17539,7 @@ msgstr ""
 
 #: protocols/oscar/oscaraccount.cpp:986
 #, kde-format
-msgid ""
-"Could not sign on to %1 with account %2 because the password was incorrect."
+msgid "Could not sign on to %1 with account %2 because the password was incorrect."
 msgstr ""
 
 #: protocols/oscar/oscaraccount.cpp:991
@@ -17605,8 +17559,7 @@ msgstr ""
 
 #: protocols/oscar/oscaraccount.cpp:1005
 #, kde-format
-msgid ""
-"Could not sign on to %1 as there are too many clients from the same computer."
+msgid "Could not sign on to %1 as there are too many clients from the same computer."
 msgstr ""
 
 #: protocols/oscar/oscaraccount.cpp:1011
@@ -17639,8 +17592,7 @@ msgstr ""
 
 #: protocols/oscar/oscaraccount.cpp:1045
 #, kde-format
-msgid ""
-"Account %1 was disabled on the %2 server because of your age (under than 13)."
+msgid "Account %1 was disabled on the %2 server because of your age (under than 13)."
 msgstr ""
 
 #: protocols/oscar/oscarprotocol.cpp:30
@@ -17991,8 +17943,7 @@ msgstr ""
 "Serî li %1 'ê bide."
 
 #: protocols/yahoo/yahooaccount.cpp:725
-msgid ""
-"Could not log into the Yahoo service: the username specified was invalid."
+msgid "Could not log into the Yahoo service: the username specified was invalid."
 msgstr "Bi servîsa Yahooyê re têkilî çênebû: navê bikarhêner nederbasdar e."
 
 #: protocols/yahoo/yahooaccount.cpp:734
@@ -18348,8 +18299,7 @@ msgid "Meanwhile Plugin"
 msgstr ""
 
 #: protocols/meanwhile/meanwhileeditaccountwidget.cpp:98
-msgid ""
-"<qt>You must deselect password remembering or enter a valid password.</qt>"
+msgid "<qt>You must deselect password remembering or enter a valid password.</qt>"
 msgstr ""
 
 #: protocols/meanwhile/meanwhileeditaccountwidget.cpp:105
@@ -18378,8 +18328,7 @@ msgstr "Tomarkirin"
 
 #: protocols/jabber/ui/jabberregisteraccount.cpp:135
 msgid "Please enter a server name, or click Choose."
-msgstr ""
-"Ji kerema xwe re yan navê pêşkêşker binîvîse yan jî bitikîne û Hilbijêrî."
+msgstr "Ji kerema xwe re yan navê pêşkêşker binîvîse yan jî bitikîne û Hilbijêrî."
 
 #: protocols/jabber/ui/jabberregisteraccount.cpp:146
 msgid "Please enter a valid Jabber ID."
@@ -18453,8 +18402,7 @@ msgid "Jabber Error"
 msgstr "Çewtiya Jabber"
 
 #: protocols/jabber/ui/jabbereditaccountwidget.cpp:150
-msgid ""
-"The changes you just made will take effect next time you log in with Jabber."
+msgid "The changes you just made will take effect next time you log in with Jabber."
 msgstr ""
 
 #: protocols/jabber/ui/jabbereditaccountwidget.cpp:151
@@ -18985,8 +18933,7 @@ msgid "Jabber Connection Certificate Problem"
 msgstr "Pirsgirêka Bawernameya Girêdana Jabber"
 
 #: protocols/jabber/jabberaccount.cpp:593
-msgid ""
-"An encrypted connection with the Jabber server could not be established."
+msgid "An encrypted connection with the Jabber server could not be established."
 msgstr ""
 
 #: protocols/jabber/jabberaccount.cpp:594
@@ -19993,8 +19940,7 @@ msgstr ""
 
 #: protocols/groupwise/gwaccount.cpp:1264
 #, kde-format
-msgid ""
-"The contact %1 could not be added to the contact list, with error message: %2"
+msgid "The contact %1 could not be added to the contact list, with error message: %2"
 msgstr ""
 
 #: protocols/groupwise/gwaccount.cpp:1266
@@ -20029,524 +19975,3 @@ msgid ""
 "you while Away or Busy"
 msgstr ""
 
-#~ msgid ""
-#~ "There are no latex in the message you are typing.  The latex formula must "
-#~ "be included between $$ and $$ "
-#~ msgstr ""
-#~ "i peyama ku te nivîsandiye de qet latex tune. Divê formulên latexan di "
-#~ "navbera $$ û $$ de bên nivîsandin. "
-
-#~ msgid "Invite to Use NetMeeting"
-#~ msgstr "Ji bo Bikaranîna NetMeetingê Vexwîne"
-
-#~ msgid "%1 wants to start a chat with NetMeeting; do you want to accept it? "
-#~ msgstr ""
-#~ "%1 dixwaze ku bo NetMeetingê chat bide destpêkirin; dixwazî bipejirînî? "
-
-#~ msgid "Searching for a SMPPPD on the local network..."
-#~ msgstr "Li SMPPD a li ser torê digere..."
-
-#~ msgid "connection status is managed by Kopete"
-#~ msgstr "rewşa girêdanê ji hêla Kopeteyê ve har rêvebirin"
-
-#~ msgid "Statistics"
-#~ msgstr "Statîk"
-
-#~ msgid "Encrypt Messages"
-#~ msgstr "Peyama bi şîfre"
-
-#~ msgid "Cryptography"
-#~ msgstr "Şîfrekirin"
-
-#~ msgid "&Select Cryptography Public Key..."
-#~ msgstr "Kilîta Bingehîn a &Nasnavbûyî..."
-
-#~ msgid "Outgoing Encrypted Message: "
-#~ msgstr "Peyama Nasnavbûyî ya Çûyî: "
-
-#~ msgid "Incoming Encrypted Message: "
-#~ msgstr "Peyama Nasnavbûyî ya hatî: "
-
-#~ msgid "Private Key List"
-#~ msgstr "Lîsteya Mifteyên Nepen"
-
-#~ msgid "Local signature (cannot be exported)"
-#~ msgstr "Îmzeya herêmî (nehate şandin)"
-
-#~ msgid "Unlimited"
-#~ msgstr "Bêsînor"
-
-#~ msgid "Invalid"
-#~ msgstr "Nederbasdar"
-
-#~ msgid "Disabled"
-#~ msgstr "Neçalak"
-
-#~ msgid "Revoked"
-#~ msgstr "Hat Betalkirin"
-
-#~ msgid "Undefined"
-#~ msgstr "Nehatiye Diyarkirin"
-
-#~ msgid "Full"
-#~ msgstr "Tijî"
-
-#~ msgid "Ultimate"
-#~ msgstr "Encam"
-
-#~ msgid "?"
-#~ msgstr "?"
-
-#~ msgid "ID: %1, trust: %2, expiration: %3"
-#~ msgstr "ID:%1, Pêbawerî: %2, biencambûm: %3"
-
-#~ msgid "Select Contact's Public Key"
-#~ msgstr "Kilîta Giştî ya Girêdanê Hilbijêre"
-
-#~ msgid "Select public key for %1"
-#~ msgstr "Ji bo %1 'yê kilîta giştî ya girêdanê hilbijêre"
-
-#~ msgid "Enter passphrase for <b>%1</b>:"
-#~ msgstr "Ji bo <b>%1</b> şîfreyekê binivîse:"
-
-#~ msgid "<b>Bad passphrase</b><br> You have %1 tries left.<br>"
-#~ msgstr "<b>Şîfreya şaş</b><br> Tenê  %1 mafê te ma.<br>"
-
-#~ msgid "Select Public Key"
-#~ msgstr "Kilîta Anonîm Hilbijêre"
-
-#~ msgid "Select Public Key for %1"
-#~ msgstr "Ji bo %1 'ê Kilîta Giştî Hilbijêre"
-
-#~ msgid "Clear Search"
-#~ msgstr "Gerînê Paqij Bike"
-
-#~ msgid "Search: "
-#~ msgstr "Bigere: "
-
-#~ msgid "ID"
-#~ msgstr "ID"
-
-#~ msgid "&Go to Default Key"
-#~ msgstr "&Here Kilîta Standard"
-
-#~ msgid "ASCII armored encryption"
-#~ msgstr "Nasnavkirina wekî ASCII"
-
-#~ msgid "Allow encryption with untrusted keys"
-#~ msgstr "Destûrê bide kilîtên nasnavkirinên ne ewle dikin"
-
-#~ msgid "Hide user id"
-#~ msgstr "ID'a bikarhêner veşêre"
-
-#~ msgid ""
-#~ "<b>Public keys list</b>: select the key that will be used for encryption."
-#~ msgstr ""
-#~ "<b>Lîsteya kilîtên anonîm</b>:<Kilîta ku dê ji bo nasnavkirinê bê "
-#~ "bikaranîn hilbijêre."
-
-#~ msgid ""
-#~ "<b>ASCII encryption</b>: makes it possible to open the encrypted file/"
-#~ "message in a text editor"
-#~ msgstr ""
-#~ "<b>Nasnavkirina ACII</b>: Destûrê dide ku pel/peyamên nasnavbûyî di "
-#~ "serastkara deqan de vebe"
-
-#~ msgid ""
-#~ "<b>Hide user ID</b>: Do not put the keyid into encrypted packets. This "
-#~ "option hides the receiver of the message and is a countermeasure against "
-#~ "traffic analysis. It may slow down the decryption process because all "
-#~ "available secret keys are tried."
-#~ msgstr ""
-#~ "<b>Nasnameya Bikarhêner Veşêre</b>: Nasnameya kilîtê nexwe paketên "
-#~ "nasnavbûyî. Ev vebijêrk stînerê vedişêre û rê li ber guhdarîkirina "
-#~ "trafîkê digire. Ji ber ku dê hemû kilîtên veşartî bên ceribandin, dibe ku "
-#~ "kiryara nenasnavkirinê hinek hêdî bibe."
-
-#~ msgid ""
-#~ "<b>Shred source file</b>: permanently remove source file. No recovery "
-#~ "will be possible"
-#~ msgstr ""
-#~ "<b>Pelê çavkanî jê bibe</b>: pelê çavkanî bi awayekî mayînde jê bibe. Tu "
-#~ "nikarî vî karî paş de vegerîne."
-
-#~ msgid "<a href=\"whatsthis:%1\">Read this before using shredding</a>"
-#~ msgstr "<a href=\"whatsthis:%1\">Berî ku tu perçe bike vê bixwîne</a"
-
-#~ msgid "Symmetrical encryption"
-#~ msgstr "Şîfrekirina sîmetrîk"
-
-#~ msgid "History Last"
-#~ msgstr "Dîrok Dawî"
-
-#~ msgid "Gadu contact"
-#~ msgstr "Têkiliya Gadu"
-
-#~ msgid "Trillian user"
-#~ msgstr "Bikarhênerê Trillian"
-
-#~ msgid "Set Visibility..."
-#~ msgstr "Rewşê Mîheng Bike..."
-
-#~ msgid "You must be online to set users visibility."
-#~ msgstr ""
-#~ "Ji bo ku tu karibî agahiya bikarhêner nîşan bide divê tu girêdayî be."
-
-#~ msgid "Australian Antarctic Territory"
-#~ msgstr "Herêma Avûstralya yaAntartîqa"
-
-#~ msgid "Guantanamo Bay"
-#~ msgstr "Guantanamo Bay"
-
-#~ msgid "INMARSAT (Atlantic-East)"
-#~ msgstr "INMARSAT (Atlantîka Rojhilat)"
-
-#~ msgid "INMARSAT (Atlantic-West)"
-#~ msgstr "INMARSAT (Atlantîka Rojava)"
-
-#~ msgid "INMARSAT (Indian)"
-#~ msgstr "INMARSAT (Hîndîstan)"
-
-#~ msgid "INMARSAT (Pacific)"
-#~ msgstr "INMARSAT (Pasîfîk)"
-
-#~ msgid "INMARSAT"
-#~ msgstr "INMARSAT"
-
-#~ msgid "Yahoo Buddy Icon"
-#~ msgstr "Nîşaneya Têkiliyê ji bo Yahooyê"
-
-#~ msgid "Home Page"
-#~ msgstr "Serûpel"
-
-#~ msgid "IRC User"
-#~ msgstr "Bikarhênerê IRC"
-
-#~ msgid "IRC Server"
-#~ msgstr "Pêşkêşkera IRC"
-
-#~ msgid "IRC Channels"
-#~ msgstr "Kanalên IRC"
-
-#~ msgid "User Is Authenticated"
-#~ msgstr "Bikarhêner Hate Piştrastkirin"
-
-#~ msgid "Deleting Network"
-#~ msgstr "Tor Jê Tê Birin"
-
-#~ msgid "&Delete Network"
-#~ msgstr "Torê &Jê Bibe"
-
-#~ msgid "Deleting Host"
-#~ msgstr "Makîne Jê Tê Birin"
-
-#~ msgid "New Host"
-#~ msgstr "Makînaya Nû"
-
-#~ msgid "Enter the hostname of the new server:"
-#~ msgstr "Navê makînaya pêşkêşkera nû binivîse:"
-
-#~ msgid "A host already exists with that name"
-#~ msgstr "Bi navî jixwe makîneyek heye"
-
-#~ msgid "Rename Network"
-#~ msgstr "Torê Ji Nû Ve Binavîne"
-
-#~ msgid "A network already exists with that name"
-#~ msgstr "Bi navî jixwe torek heye"
-
-#~ msgid "C&TCP"
-#~ msgstr "C&TCP"
-
-#~ msgid "&Version"
-#~ msgstr "&Guherto"
-
-#~ msgid "&Modes"
-#~ msgstr "&Mod"
-
-#~ msgid "&Encoding"
-#~ msgstr "&Kodkirin"
-
-#~ msgid "Only Operators Can Change &Topic"
-#~ msgstr "Tenê Rêveber Dikare &Mijarê Biguherîne"
-
-#~ msgid "&Invite Only"
-#~ msgstr "&Tenê Vexwîne"
-
-#~ msgid "New Topic"
-#~ msgstr "Mijara Nû"
-
-#~ msgid "Enter the new topic:"
-#~ msgstr "Mijareke nû binivîse:"
-
-#~ msgid "You must be a channel operator on %1 to do that."
-#~ msgstr "Ji bo ku tu karibî vê bike divê tu li ser %1 rêveberê kanalê be."
-
-#~ msgid "Plugin Unloaded"
-#~ msgstr "Pêvek Nehate Barkirin"
-
-#~ msgid "Problem Loading %1"
-#~ msgstr "Pirsgirêk Tê Barkirin %1"
-
-#~ msgid "Show Security Information"
-#~ msgstr "Agahiya Ewlekariyê Nîşan Bide"
-
-#~ msgid "Connecting to %1..."
-#~ msgstr "Li navnîşana %1 tê girêdan..."
-
-#~ msgid "Using SSL"
-#~ msgstr "SSL Tê Bikaranîn"
-
-#~ msgid "\"You are not allowed to add yourself to your contact list."
-#~ msgstr "\"Tu nikarî xwe têxî lîsteya xwe ya têkiliyan."
-
-#~ msgid "CTCP %1 REPLY: %2"
-#~ msgstr "CTCP %1 BERSIV: %2"
-
-#~ msgid "The channel \"%1\" does not exist"
-#~ msgstr "Kanala \"%1\" ne mevcûd e"
-
-#~ msgid "The nickname \"%1\" does not exist"
-#~ msgstr "Bernavê \"%1\" ne mevcûd e"
-
-#~ msgid "An unknown error occurred trying to validate the certificate."
-#~ msgstr "Dema bawername dihate erêkirin çewtiyeke nenas çebû."
-
-#~ msgid "Downloading of display image failed"
-#~ msgstr "Daxistina wêneyê dîmen bi ser neket"
-
-#~ msgid "Developer, Yahoo"
-#~ msgstr "Pêşdebir, Yahoo"
-
-#~ msgid "Lead Developer"
-#~ msgstr "Pêşdebir"
-
-#~ msgid ""
-#~ "_: NAME OF TRANSLATORS\n"
-#~ "Your names"
-#~ msgstr ""
-#~ ",Launchpad Contributions:,Amed Ç. Jiyan,Amed Çeko Jiyan,ElîxanLoran,Erdal "
-#~ "Ronahi"
-
-#~ msgid ""
-#~ "_: EMAIL OF TRANSLATORS\n"
-#~ "Your emails"
-#~ msgstr ",,,amedcj@gmail.com,elixanloran@hotmail.com,erdal.ronahi@gmail.com"
-
-#~ msgid ""
-#~ "An external application is attempting to add the  '%1' contact '%2' to "
-#~ "your contact list. Do you want to allow this?"
-#~ msgstr ""
-#~ "Sepaneke derveyî dike ku di lîsteya te ya têkiliyan de %1'ê têxe %2. "
-#~ "Destûrê didî?"
-
-#~ msgid "Allow Contact?"
-#~ msgstr "Destûrê Didî Têkiliyê?"
-
-#~ msgid "Allow"
-#~ msgstr "Desturê Bide"
-
-#~ msgid "Reject"
-#~ msgstr "Nepejirîne"
-
-#~ msgid ""
-#~ "An external application has attempted to add a contact using  the %1 "
-#~ "protocol, which either does not exist or is not loaded."
-#~ msgstr ""
-#~ "Sepaneke derveyî xwest ku têkiliyeke ku protokola %1 bi kar tîne têxê, "
-#~ "kontrol bike ka protokola têkiliyê barkiriye an na."
-
-#~ msgid "Remote photos are not allowed."
-#~ msgstr "Wêneyên bêdestûr bi dûr bixe."
-
-#~ msgid ""
-#~ "Another KDE application tried to use Kopete for instant messaging, but "
-#~ "Kopete could not find the specified contact in the KDE address book."
-#~ msgstr ""
-#~ "Sepaneke din a KDE'ê dike ku Kopeteyê bi kar bîne, lê KDE'yê navnîşana ku "
-#~ "hatiye diyarkirin di deftera navnîşanan de nedît."
-
-#~ msgid "No Instant Messaging Address"
-#~ msgstr "Navnîşan Tune"
-
-#~ msgid "Can't open archive"
-#~ msgstr "Arşîv nayê vekirin"
-
-#~ msgid "Can't find styles directory"
-#~ msgstr "Pelrêça cureyan nayê dîtin"
-
-#~ msgid "&Video"
-#~ msgstr "&Vîdeo"
-
-#~ msgid "Configure Plugins"
-#~ msgstr "Pêvekan Veavabike"
-
-#~ msgid "&Reset"
-#~ msgstr "&Vesazkirin"
-
-#~ msgid "An identity with the same name was found."
-#~ msgstr "Nasnameyekî bi heman navê hat dîtin"
-
-#~ msgid "Choose the person who is yourself."
-#~ msgstr "Bikarhênera/ê ku tu yî hilbijêre."
-
-#~ msgid ""
-#~ "An error occurred when trying to save the custom photo for %1 identity."
-#~ msgstr "Dema ku guharandina wêneyê dihat ceribandin çewtiyek derket holê."
-
-#~ msgid "Reset Quick Search"
-#~ msgstr "Gerîna Bilez Reset Bike"
-
-#~ msgid ""
-#~ "Reset Quick Search\n"
-#~ "Resets the quick search so that all contacts and groups are shown again."
-#~ msgstr ""
-#~ "Gerîna Bilez Reset Bike\n"
-#~ "Ji bo ku hemû têkilî bên nîşandan gerîna bilez reset bike."
-
-#~ msgid "Edit Global Identity Widget"
-#~ msgstr "Nasnameya Giştî Çalak Bike"
-
-#~ msgid "Sets away from keyboard or sets back"
-#~ msgstr "Ji klavyeyê wekî Li Dûr an jî Vegeriya Mîheng Dike"
-
-#~ msgid "Background Co&lor..."
-#~ msgstr "R&engê Rûerd..."
-
-#~ msgid "Place to Left of Chat Area"
-#~ msgstr "Di Nava Sohbetê de Têxe Çepê"
-
-#~ msgid "Place to Right of Chat Area"
-#~ msgstr "Di Nava Sohbetê de Têxe Rastê"
-
-#~ msgid "Plugin Actions"
-#~ msgstr "Çalakiyên Pêvekan"
-
-#~ msgid "Away Message"
-#~ msgstr "Peyama Li Derve"
-
-#~ msgid "Contact ID:"
-#~ msgstr "ID'a Têkiliyê:"
-
-#~ msgid "&Configure Kopete..."
-#~ msgstr "Kopeteyê &Mîheng Bike..."
-
-#~ msgid "The operation has not finished yet"
-#~ msgstr "Kar hê neqediya"
-
-#~ msgid "Fatal"
-#~ msgstr "Çewtî"
-
-#~ msgid "Global Away Message"
-#~ msgstr "Peyama Li Dûr ya Giştî"
-
-#~ msgid "Application to launch:"
-#~ msgstr "Sepana ku wê were xebitandin:"
-
-#~ msgid "localhost"
-#~ msgstr "localhost"
-
-#~ msgid "The password to authenticate with the smpppd"
-#~ msgstr "Şîfreya ku wê bi smpppd were piştrastkirin"
-
-#~ msgid "SMPPPDCS Preferences"
-#~ msgstr "Tercîhên SMPPDCS"
-
-#~ msgid "&Connection"
-#~ msgstr "&Girêdan"
-
-#~ msgid "Method of Connection Status Detection"
-#~ msgstr "Metoda Dîtina Rewşa Girêdanê"
-
-#~ msgid "Location of the SMPPPD"
-#~ msgstr "Cihê SMPPPD"
-
-#~ msgid "Video Settings"
-#~ msgstr "Mîhengên Vîdeo"
-
-#~ msgid "&Video4Linux device:"
-#~ msgstr "Cîhaza &Vîdeo4Linux:"
-
-#~ msgid "/dev/video0"
-#~ msgstr "/dev/video0"
-
-#~ msgid "Away Settings"
-#~ msgstr "Mîhengên Li Dûr"
-
-#~ msgid "Become available when &detecting activity again"
-#~ msgstr "&Dema dîsa çalak bû têkeve rewşa dixuye"
-
-#~ msgid "&Become away after this many minutes of inactivity:"
-#~ msgstr "&Piştî wextekê derbasî cihê dûr bibe:"
-
-#~ msgid "minutes"
-#~ msgstr "xulek"
-
-#~ msgid "PGP key:"
-#~ msgstr "Mifteya PGP:"
-
-#~ msgid "TextLabel2"
-#~ msgstr "EtîketaNivîsê2"
-
-#~ msgid "Until Kopete closes"
-#~ msgstr "Heta Kopete were girtin"
-
-#~ msgid "Play a sound:"
-#~ msgstr "Deng lê bide:"
-
-#~ msgid "City"
-#~ msgstr "Bajar"
-
-#~ msgid "999"
-#~ msgstr "999"
-
-#~ msgid "245324956234"
-#~ msgstr "245324956234"
-
-#~ msgid "Contacts:"
-#~ msgstr "Têkilî:"
-
-#~ msgid "&Userid:"
-#~ msgstr "ID'a Bikarhêner:"
-
-#~ msgid "CTCP"
-#~ msgstr "CTCP"
-
-#~ msgid "Expose my Jabber account to Jabber users"
-#~ msgstr "Tomarî hesabejî nû yê jabber bibe"
-
-#~ msgid "Block all users not in 'Allowed' &list"
-#~ msgstr "Hemû bikarhêner ne di &lîsteya 'Bi Destûr' de ne"
-
-#~ msgid "&Play a sound:"
-#~ msgstr "Dengekî &lê bide:"
-
-#~ msgid "Base font color:"
-#~ msgstr "Rengê curenivîsa bingehîn:"
-
-#~ msgid "Image options"
-#~ msgstr "Vebijêrkên Wêne"
-
-#~ msgid "&Nickname"
-#~ msgstr "&Bernav"
-
-#~ msgid "Cu&stom:"
-#~ msgstr "Ta&ybet:"
-
-#~ msgid "P&hoto"
-#~ msgstr "W&çne"
-
-#~ msgid "Address &Book Link"
-#~ msgstr "Girêdana &Lênûska Navnîşanê"
-
-#~ msgid "Use &custom color"
-#~ msgstr "Rengekî &taybet bikar bîne"
-
-#~ msgid "Use custom color for account"
-#~ msgstr "Ji bo vî hesabî rengekî taybet bikar bîne"
-
-#~ msgid "&Chat Members List"
-#~ msgstr "Lîsteya Endamên &Sohbetê"
-
-#~ msgid "&Browse..."
-#~ msgstr "&Bigere..."
