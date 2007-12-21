@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-12-20 06:11+0100\n"
+"POT-Creation-Date: 2007-12-21 06:13+0100\n"
 "PO-Revision-Date: 2007-12-17 04:16+0100\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
@@ -758,7 +758,7 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./khtml/test_regression_gui.ui line 265
-#: rc.cpp:306 khtml/test_regression.cpp:624
+#: rc.cpp:306 khtml/test_regression.cpp:623
 msgid "Do not use Xvfb"
 msgstr ""
 
@@ -1468,7 +1468,7 @@ msgstr ""
 #. i18n: file ./threadweaver/Examples/Jobs/JobsBase.ui line 90
 #: rc.cpp:656 rc.cpp:888 kdeui/util/kstandardguiitem.cpp:265
 #: kdeui/util/kkeyserver_x11.cpp:109 kdeui/findreplace/kreplace.cpp:353
-#: khtml/ecma/kjs_debugwin.cpp:482 khtml/ecma/debugger/debugwindow.cpp:175
+#: khtml/ecma/kjs_debugwin.cpp:482 khtml/ecma/debugger/debugwindow.cpp:176
 #: kross/ui/view.cpp:308
 msgid "Stop"
 msgstr "Rawestîne"
@@ -5892,64 +5892,64 @@ msgstr "Alîkariyê bistîne..."
 msgid "--- separator ---"
 msgstr "--- veqetînder ---"
 
-#: kdeui/dialogs/kedittoolbar.cpp:457
+#: kdeui/dialogs/kedittoolbar.cpp:478
 msgid "Configure Toolbars"
 msgstr "Darikê Amûran Veava Bike"
 
-#: kdeui/dialogs/kedittoolbar.cpp:506
+#: kdeui/dialogs/kedittoolbar.cpp:527
 msgid ""
 "Do you really want to reset all toolbars of this application to their "
 "default? The changes will be applied immediately."
 msgstr ""
 
-#: kdeui/dialogs/kedittoolbar.cpp:506
+#: kdeui/dialogs/kedittoolbar.cpp:527
 #, fuzzy
 msgid "Reset ToolBars"
 msgstr "Darikên Amûran Vegerîne Serî"
 
-#: kdeui/dialogs/kedittoolbar.cpp:506 khtml/khtmlview.cpp:2804
-#: khtml/khtmlview.cpp:2837 khtml/html/html_formimpl.cpp:2163
+#: kdeui/dialogs/kedittoolbar.cpp:527 khtml/khtmlview.cpp:2832
+#: khtml/khtmlview.cpp:2865 khtml/html/html_formimpl.cpp:2163
 msgid "Reset"
 msgstr "Vesazkirin"
 
-#: kdeui/dialogs/kedittoolbar.cpp:820
+#: kdeui/dialogs/kedittoolbar.cpp:828
 msgid "&Toolbar:"
 msgstr "&Darikê Amûran:"
 
-#: kdeui/dialogs/kedittoolbar.cpp:836
+#: kdeui/dialogs/kedittoolbar.cpp:843
 msgid "A&vailable actions:"
 msgstr "&Çalakiyên Xebatbar:"
 
-#: kdeui/dialogs/kedittoolbar.cpp:855
+#: kdeui/dialogs/kedittoolbar.cpp:862
 msgid "Curr&ent actions:"
 msgstr "Xebatên& heyî:"
 
-#: kdeui/dialogs/kedittoolbar.cpp:876
+#: kdeui/dialogs/kedittoolbar.cpp:883
 msgid "Change &Icon..."
 msgstr "&Sembolê Biguherîne..."
 
 #. i18n filtering message for action names
-#: kdeui/dialogs/kedittoolbar.cpp:1030
+#: kdeui/dialogs/kedittoolbar.cpp:1037
 #, fuzzy, kde-format
 msgctxt "@item:intable Action name in toolbar editor"
 msgid "%1"
 msgstr "%1%"
 
-#: kdeui/dialogs/kedittoolbar.cpp:1051
+#: kdeui/dialogs/kedittoolbar.cpp:1058
 msgid ""
 "This element will be replaced with all the elements of an embedded component."
 msgstr ""
 
-#: kdeui/dialogs/kedittoolbar.cpp:1053
+#: kdeui/dialogs/kedittoolbar.cpp:1060
 msgid "<Merge>"
 msgstr "<Tevî hev bike>"
 
-#: kdeui/dialogs/kedittoolbar.cpp:1055
+#: kdeui/dialogs/kedittoolbar.cpp:1062
 #, kde-format
 msgid "<Merge %1>"
 msgstr "<%1'ê tevî hev bike>"
 
-#: kdeui/dialogs/kedittoolbar.cpp:1061
+#: kdeui/dialogs/kedittoolbar.cpp:1068
 #, fuzzy
 msgid ""
 "This is a dynamic list of actions. You can move it, but if you remove it you "
@@ -5958,16 +5958,22 @@ msgstr ""
 "Ev; lîsteya dînamîk ya çalakiyan e. Tu dikarî cihê wê biguherînî lê heke tu "
 "jê bibî tu yê nikaribî ji nû ve lê zêde bike."
 
-#: kdeui/dialogs/kedittoolbar.cpp:1062
+#: kdeui/dialogs/kedittoolbar.cpp:1069
 #, kde-format
 msgid "ActionList: %1"
 msgstr "LîsteyaÇalakiyan: %1"
 
-#: kdeui/dialogs/kedittoolbar.cpp:1146 kdeui/dialogs/kedittoolbar.cpp:1173
+#: kdeui/dialogs/kedittoolbar.cpp:1160 kdeui/dialogs/kedittoolbar.cpp:1187
 #, fuzzy, kde-format
 msgctxt "@label Action tooltip in toolbar editor, below the action list"
 msgid "%1"
 msgstr "%1%"
+
+#: kdeui/dialogs/kedittoolbar.cpp:1425
+#, fuzzy
+#| msgid "Change &Icon..."
+msgid "Change Icon"
+msgstr "&Sembolê Biguherîne..."
 
 #: kdeui/dialogs/kaboutapplicationdialog.cpp:69
 #, fuzzy
@@ -9355,56 +9361,56 @@ msgstr "Wêne- %1x%2 Tipik"
 msgid "Done."
 msgstr "Qediya."
 
-#: khtml/test_regression.cpp:613
+#: khtml/test_regression.cpp:612
 msgid "Directory containing tests, basedir and output directories."
 msgstr ""
 
-#: khtml/test_regression.cpp:615
+#: khtml/test_regression.cpp:614
 msgid "Do not suppress debug output"
 msgstr ""
 
-#: khtml/test_regression.cpp:617
+#: khtml/test_regression.cpp:616
 msgid "Regenerate baseline (instead of checking)"
 msgstr ""
 
-#: khtml/test_regression.cpp:619
+#: khtml/test_regression.cpp:618
 msgid "Do not show the window while running tests"
 msgstr ""
 
-#: khtml/test_regression.cpp:621
+#: khtml/test_regression.cpp:620
 msgid "Only run a single test. Multiple options allowed."
 msgstr ""
 
-#: khtml/test_regression.cpp:622
+#: khtml/test_regression.cpp:621
 msgid "Only run .js tests"
 msgstr ""
 
-#: khtml/test_regression.cpp:623
+#: khtml/test_regression.cpp:622
 msgid "Only run .html tests"
 msgstr ""
 
-#: khtml/test_regression.cpp:626
+#: khtml/test_regression.cpp:625
 msgid "Put output in <directory> instead of <base_dir>/output"
 msgstr ""
 
-#: khtml/test_regression.cpp:627
+#: khtml/test_regression.cpp:626
 msgid ""
 "Directory containing tests,basedir and output directories. Only regarded if -"
 "b is not specified."
 msgstr ""
 
-#: khtml/test_regression.cpp:628
+#: khtml/test_regression.cpp:627
 msgid ""
 "Relative path to testcase, or directory of testcases to be run (equivalent "
 "to -t)."
 msgstr ""
 
-#: khtml/test_regression.cpp:630
+#: khtml/test_regression.cpp:629
 #, fuzzy
 msgid "TestRegression"
 msgstr "Îfadeya &Sererast"
 
-#: khtml/test_regression.cpp:631
+#: khtml/test_regression.cpp:630
 msgid "Regression tester for khtml"
 msgstr ""
 
@@ -9990,7 +9996,7 @@ msgstr ""
 "<qt>Wê ev form ji navnîşana <br><b>%1</b><br> ya di pergala pelan ya herêmî "
 "de ye were şandin.<br>Tu dixwazî vê formê lê zêde bike?"
 
-#: khtml/khtml_part.cpp:4727 khtml/khtmlview.cpp:2790 khtml/khtmlview.cpp:2832
+#: khtml/khtml_part.cpp:4727 khtml/khtmlview.cpp:2818 khtml/khtmlview.cpp:2860
 #: khtml/html/html_formimpl.cpp:1563 khtml/html/html_formimpl.cpp:2171
 msgid "Submit"
 msgstr "Şandin"
@@ -10089,7 +10095,7 @@ msgid "Available Tests: %1 (ignored: %2)"
 msgstr ""
 
 #: khtml/test_regression_gui_window.cpp:563 khtml/ecma/kjs_debugwin.cpp:481
-#: khtml/ecma/debugger/debugwindow.cpp:168
+#: khtml/ecma/debugger/debugwindow.cpp:169
 msgid "Continue"
 msgstr "Bidomîne"
 
@@ -10112,39 +10118,39 @@ msgstr "&Biçe Rêzikê..."
 msgid "Remove from ignores..."
 msgstr ""
 
-#: khtml/khtmlview.cpp:1760
+#: khtml/khtmlview.cpp:1788
 msgid "Find stopped."
 msgstr "Karê dîtinê hate rawestandin."
 
-#: khtml/khtmlview.cpp:1771
+#: khtml/khtmlview.cpp:1799
 msgid "Starting -- find links as you type"
 msgstr "Dest pê kir -- dema nivîsînê de girêdana ku tu lê digerî bibîne"
 
-#: khtml/khtmlview.cpp:1777
+#: khtml/khtmlview.cpp:1805
 msgid "Starting -- find text as you type"
 msgstr "Dest pê kir -- dema nivîsînê de nivîsa ku tu lê digerî bibîne"
 
-#: khtml/khtmlview.cpp:1800
+#: khtml/khtmlview.cpp:1828
 #, kde-format
 msgid "Link found: \"%1\"."
 msgstr "Girêdan hate dîtin: \"%1\"."
 
-#: khtml/khtmlview.cpp:1805
+#: khtml/khtmlview.cpp:1833
 #, kde-format
 msgid "Link not found: \"%1\"."
 msgstr "Girêdan nehate dîtin: \"%1\"."
 
-#: khtml/khtmlview.cpp:1813
+#: khtml/khtmlview.cpp:1841
 #, kde-format
 msgid "Text found: \"%1\"."
 msgstr "Nivîs hate dîtin: \"%1\"."
 
-#: khtml/khtmlview.cpp:1818
+#: khtml/khtmlview.cpp:1846
 #, kde-format
 msgid "Text not found: \"%1\"."
 msgstr "Nivîs nehate dîtin.: \"%1\"."
 
-#: khtml/khtmlview.cpp:1864
+#: khtml/khtmlview.cpp:1892
 msgid "Access Keys activated"
 msgstr "Bişkokên Gihiştînê Hatine Çalakkirin"
 
@@ -10237,7 +10243,7 @@ msgstr ""
 "\n"
 "%1"
 
-#: khtml/ecma/kjs_debugwin.cpp:870 khtml/ecma/debugger/debugwindow.cpp:566
+#: khtml/ecma/kjs_debugwin.cpp:870 khtml/ecma/debugger/debugwindow.cpp:572
 #, kde-format
 msgid ""
 "An error occurred while attempting to run a script on this page.\n"
@@ -10250,7 +10256,7 @@ msgstr ""
 "%1 rêzik %2:\n"
 "%3"
 
-#: khtml/ecma/kjs_binding.cpp:171
+#: khtml/ecma/kjs_binding.cpp:180
 msgid ""
 "A script on this page is causing KHTML to freeze. If it continues to run, "
 "other applications may become less responsive.\n"
@@ -10260,19 +10266,19 @@ msgstr ""
 "xebatê bidomîne jî dê bandorê li ser girankirina bernameyên din bike.\n"
 "tu dixwazî vê nivîsa sepanokî beravêtî bikî?"
 
-#: khtml/ecma/kjs_binding.cpp:171
+#: khtml/ecma/kjs_binding.cpp:180
 msgid "JavaScript"
 msgstr "JavaScript"
 
-#: khtml/ecma/kjs_binding.cpp:171
+#: khtml/ecma/kjs_binding.cpp:180
 msgid "&Abort"
 msgstr "&Dev jê berde"
 
-#: khtml/ecma/kjs_window.cpp:1567 khtml/ecma/kjs_html.cpp:2109
+#: khtml/ecma/kjs_window.cpp:1587 khtml/ecma/kjs_html.cpp:2109
 msgid "Confirmation: JavaScript Popup"
 msgstr "Erêkirin: Paceya Javascriptê"
 
-#: khtml/ecma/kjs_window.cpp:1570
+#: khtml/ecma/kjs_window.cpp:1590
 msgid ""
 "This site is requesting to open up a new browser window via JavaScript.\n"
 "Do you want to allow this?"
@@ -10280,7 +10286,7 @@ msgstr ""
 "Ev malper dixwaze Javascriptê bikar bîne û paceyeke nû veke.\n"
 "Tu dixwazî paceyeke nû vebe?"
 
-#: khtml/ecma/kjs_window.cpp:1573
+#: khtml/ecma/kjs_window.cpp:1593
 #, kde-format
 msgid ""
 "<qt>This site is requesting to open<p>%1</p>in a new browser window via "
@@ -10289,23 +10295,23 @@ msgstr ""
 "<qt>Ev malper, dixwazî bi Javaskrîptê di hundirê paceya gerokeke nû de <p>%"
 "1</p> veke.<br />Tu yê destûrê bide vî tiştî?</qt>"
 
-#: khtml/ecma/kjs_window.cpp:1575 khtml/ecma/kjs_html.cpp:2116
+#: khtml/ecma/kjs_window.cpp:1595 khtml/ecma/kjs_html.cpp:2116
 msgid "Allow"
 msgstr "Desturê Bide"
 
-#: khtml/ecma/kjs_window.cpp:1575 khtml/ecma/kjs_html.cpp:2116
+#: khtml/ecma/kjs_window.cpp:1595 khtml/ecma/kjs_html.cpp:2116
 msgid "Do Not Allow"
 msgstr "Destûrê Nede"
 
-#: khtml/ecma/kjs_window.cpp:1867
+#: khtml/ecma/kjs_window.cpp:1887
 msgid "Close window?"
 msgstr "Bila pace were girtin?"
 
-#: khtml/ecma/kjs_window.cpp:1867
+#: khtml/ecma/kjs_window.cpp:1887
 msgid "Confirmation Required"
 msgstr "Erêkirin Divê"
 
-#: khtml/ecma/kjs_window.cpp:2817
+#: khtml/ecma/kjs_window.cpp:2837
 #, kde-format
 msgid ""
 "Do you want a bookmark pointing to the location \"%1\" to be added to your "
@@ -10314,7 +10320,7 @@ msgstr ""
 "Tu dixwazî bijareya ku navnîşana \"%1\"ê nîşan dide li lodên we yên "
 "bijareyan zêde bide?"
 
-#: khtml/ecma/kjs_window.cpp:2820
+#: khtml/ecma/kjs_window.cpp:2840
 #, kde-format
 msgid ""
 "Do you want a bookmark pointing to the location \"%1\" titled \"%2\" to be "
@@ -10323,15 +10329,15 @@ msgstr ""
 "Tu dixwazî bijareya bi sernavê \"%2\"  ya navnîşana \"%1\"ê nîşan dide li "
 "lodên we yên bijareyan zêde bibe?"
 
-#: khtml/ecma/kjs_window.cpp:2828
+#: khtml/ecma/kjs_window.cpp:2848
 msgid "JavaScript Attempted Bookmark Insert"
 msgstr "Daxwaza Lêzêdekirina Bijareyan ya Javascriptê"
 
-#: khtml/ecma/kjs_window.cpp:2832
+#: khtml/ecma/kjs_window.cpp:2852
 msgid "Insert"
 msgstr "Têxe Nav"
 
-#: khtml/ecma/kjs_window.cpp:2832
+#: khtml/ecma/kjs_window.cpp:2852
 msgid "Disallow"
 msgstr "Destûrê nede"
 
@@ -10375,49 +10381,49 @@ msgid ""
 "please check your KDE installation."
 msgstr ""
 
-#: khtml/ecma/debugger/debugwindow.cpp:170
 #: khtml/ecma/debugger/debugwindow.cpp:171
+#: khtml/ecma/debugger/debugwindow.cpp:172
 #, fuzzy
 msgid "Continue script execution"
 msgstr "Kirarê bidomîme"
 
-#: khtml/ecma/debugger/debugwindow.cpp:177
 #: khtml/ecma/debugger/debugwindow.cpp:178
+#: khtml/ecma/debugger/debugwindow.cpp:179
 msgid "Stop script execution"
 msgstr ""
 
-#: khtml/ecma/debugger/debugwindow.cpp:183
-#: khtml/ecma/debugger/debugwindow.cpp:185
+#: khtml/ecma/debugger/debugwindow.cpp:184
 #: khtml/ecma/debugger/debugwindow.cpp:186
+#: khtml/ecma/debugger/debugwindow.cpp:187
 #, fuzzy
 msgid "Step Into"
 msgstr "Gav"
 
-#: khtml/ecma/debugger/debugwindow.cpp:190
-#: khtml/ecma/debugger/debugwindow.cpp:192
+#: khtml/ecma/debugger/debugwindow.cpp:191
 #: khtml/ecma/debugger/debugwindow.cpp:193
+#: khtml/ecma/debugger/debugwindow.cpp:194
 #, fuzzy
 msgid "Step Out"
 msgstr "Gav"
 
-#: khtml/ecma/debugger/debugwindow.cpp:197
-#: khtml/ecma/debugger/debugwindow.cpp:199
+#: khtml/ecma/debugger/debugwindow.cpp:198
 #: khtml/ecma/debugger/debugwindow.cpp:200
+#: khtml/ecma/debugger/debugwindow.cpp:201
 #, fuzzy
 msgid "Step Over"
 msgstr "Gav"
 
-#: khtml/ecma/debugger/debugwindow.cpp:240
+#: khtml/ecma/debugger/debugwindow.cpp:241
 #, fuzzy
 msgid "Close source"
 msgstr "çavkanî"
 
-#: khtml/ecma/debugger/debugwindow.cpp:246
+#: khtml/ecma/debugger/debugwindow.cpp:247
 #, fuzzy
 msgid "Ready"
 msgstr "Ji nû ve bar bike"
 
-#: khtml/ecma/debugger/debugwindow.cpp:733
+#: khtml/ecma/debugger/debugwindow.cpp:743
 msgid "Breakpoints"
 msgstr ""
 
@@ -11056,16 +11062,16 @@ msgstr "Zemîna referansan ya nederbasdar"
 msgid "Unknown error"
 msgstr "Çewtiya nenas"
 
-#: kparts/browserextension.cpp:648
+#: kparts/browserextension.cpp:647
 #, fuzzy, kde-format
 msgid "<qt>Do you want to search the Internet for <b>%1</b>?</qt>"
 msgstr "<qt>Ji bo rêzika <b>%1</b> tu dixwazî di înternetê de lê bigerî?"
 
-#: kparts/browserextension.cpp:649
+#: kparts/browserextension.cpp:648
 msgid "Internet Search"
 msgstr "Lêgerîna Înternetê"
 
-#: kparts/browserextension.cpp:649
+#: kparts/browserextension.cpp:648
 msgid "&Search"
 msgstr "&Bigere"
 
