@@ -7,134 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_launcher\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-12-11 06:00+0100\n"
+"POT-Creation-Date: 2007-12-22 06:18+0100\n"
 "PO-Revision-Date: 2007-12-21 20:15+0100\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
-"Language-Team: Kurdish <gnu-ku-wergerandin at lists dot sourceforge dot net>\n"
+"Language-Team: Kurdish <gnu-ku-wergerandin at lists dot sourceforge dot "
+"net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural= n != 1\n"
-
-#: main.cpp:32
-msgid "Kickoff"
-msgstr "Kîckoff"
-
-#: main.cpp:33
-msgid "Application Launcher"
-msgstr "Deskpêkerê Sepanan"
-
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Erdal Ronahi"
-
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "erdal dot ronahi at gmail dot com"
-
-#: core/applicationmodel.cpp:306
-msgid "Known Applications"
-msgstr "Sepanên Nasyar"
-
-#: core/favoritesmodel.cpp:25 ui/launcher.cpp:143
-msgid "Favorites"
-msgstr "Bijarte"
-
-#: core/leavemodel.cpp:42
-msgid "Session"
-msgstr "Danişîn"
-
-#: core/leavemodel.cpp:45
-msgid "Logout"
-msgstr "Derketin"
-
-#: core/leavemodel.cpp:47
-msgid "End session"
-msgstr "Danişînê bi dawî bîne"
-
-#: core/leavemodel.cpp:51
-msgid "Lock"
-msgstr "Quflkirin"
-
-#: core/leavemodel.cpp:53
-msgid "Lock the screen"
-msgstr "îmenderê biqufilîne"
-
-#: core/leavemodel.cpp:57
-msgid "Switch User"
-msgstr "Bikarhênerê/î biguherîne"
-
-#: core/leavemodel.cpp:59
-msgid "Start a parallel session as a different user."
-msgstr "Wekî bikarhênereke/î din dest bi danisîneke paralel bike."
-
-#: core/leavemodel.cpp:63
-msgid "System"
-msgstr "Pergal"
-
-#: core/leavemodel.cpp:70
-msgid "Sleep"
-msgstr "Bixe xewê"
-
-#: core/leavemodel.cpp:77
-msgid "Hibernate"
-msgstr "Xewa zivistanê"
-
-#: core/leavemodel.cpp:83
-msgid "Shutdown"
-msgstr "Dadan"
-
-#: core/leavemodel.cpp:85
-msgid "Turn off the computer"
-msgstr "Komputerê dade"
-
-#: core/leavemodel.cpp:89
-msgid "Restart"
-msgstr "Nûdestpêkirin"
-
-#: core/leavemodel.cpp:91
-msgid "Restart the computer"
-msgstr "Komputerê ji nû ve bide destpêkirin"
-
-#: core/models.cpp:104
-msgid "Home Folder"
-msgstr "Home Folder"
-
-#: core/models.cpp:107
-msgid "Network Folders"
-msgstr "Peldankên Torê"
-
-#: core/recentlyusedmodel.cpp:96 core/searchmodel.cpp:213
-msgid "Documents"
-msgstr "Belge"
-
-#: core/recentlyusedmodel.cpp:105 core/searchmodel.cpp:131 ui/launcher.cpp:159
-msgid "Applications"
-msgstr "Sepan"
-
-#: core/searchmodel.cpp:196
-msgid "Web Searches"
-msgstr "Lêgerînên Torê"
-
-#: core/searchmodel.cpp:203
-#, kde-format
-msgid "Search web for '%1'"
-msgstr "Di torê de li '%1' bigere"
-
-#: core/systemmodel.cpp:72
-msgid "Places"
-msgstr "Cih"
-
-#: core/systemmodel.cpp:73
-msgid "Removable Storage"
-msgstr "Cîhaza Tomarkirinê ya Nesabît"
-
-#: core/systemmodel.cpp:74
-msgid "Storage"
-msgstr "Cîhaza Tomarkirinê"
 
 #: ui/contextmenufactory.cpp:70
 msgid "Advanced"
@@ -156,27 +38,173 @@ msgstr "Li Sermasê zêde bike"
 msgid "Add to Panel"
 msgstr "Li Panelê zêde bike"
 
-#: ui/launcher.cpp:133
+#: ui/launcher.cpp:134
 msgid "Leave"
 msgstr "Biterikîne"
 
-#: ui/launcher.cpp:170
+#: ui/launcher.cpp:144 core/favoritesmodel.cpp:25
+#: simpleapplet/simpleapplet.cpp:131
+msgid "Favorites"
+msgstr "Bijarte"
+
+#: ui/launcher.cpp:160 core/recentlyusedmodel.cpp:105 core/systemmodel.cpp:91
+#: core/searchmodel.cpp:131
+msgid "Applications"
+msgstr "Sepan"
+
+#: ui/launcher.cpp:171
 msgid "Recently Used"
 msgstr "Berê bikaranî"
 
-#: ui/launcher.cpp:172
+#: ui/launcher.cpp:173
 msgid "Clear Recent Applications"
 msgstr "Sepanên Borî Pakuj bike"
 
-#: ui/launcher.cpp:173
+#: ui/launcher.cpp:174
 msgid "Clear Recent Documents"
 msgstr "Belgeyên Borî Pakuj bike"
 
-#: ui/launcher.cpp:189
-msgid "My Computer"
+#: ui/launcher.cpp:190
+#, fuzzy
+#| msgid "My Computer"
+msgid "Computer"
 msgstr "Komputera min"
 
 #: ui/searchbar.cpp:64
 msgid "Search:"
 msgstr "Lêgerîn:"
 
+#: core/leavemodel.cpp:46 core/leavemodel.cpp:56
+#: simpleapplet/simpleapplet.cpp:140 simpleapplet/simpleapplet.cpp:210
+msgid "Logout"
+msgstr "Derketin"
+
+#: core/leavemodel.cpp:48
+msgid "End session"
+msgstr "Danişînê bi dawî bîne"
+
+#: core/leavemodel.cpp:51 simpleapplet/simpleapplet.cpp:137
+#: simpleapplet/simpleapplet.cpp:206
+msgid "Lock"
+msgstr "Quflkirin"
+
+#: core/leavemodel.cpp:53
+msgid "Lock the screen"
+msgstr "îmenderê biqufilîne"
+
+#: core/leavemodel.cpp:58
+#, fuzzy
+#| msgid "Start a parallel session as a different user."
+msgid "Start a parallel session as a different user"
+msgstr "Wekî bikarhênereke/î din dest bi danisîneke paralel bike."
+
+#: core/leavemodel.cpp:61
+msgid "Sleep"
+msgstr "Bixe xewê"
+
+#: core/leavemodel.cpp:65
+msgid "Hibernate"
+msgstr "Xewa zivistanê"
+
+#: core/leavemodel.cpp:69
+msgid "Shutdown"
+msgstr "Dadan"
+
+#: core/leavemodel.cpp:70
+msgid "Turn off the computer"
+msgstr "Komputerê dade"
+
+#: core/leavemodel.cpp:73
+msgid "Restart"
+msgstr "Nûdestpêkirin"
+
+#: core/leavemodel.cpp:74
+msgid "Restart the computer"
+msgstr "Komputerê ji nû ve bide destpêkirin"
+
+#: core/leavemodel.cpp:89
+msgid "Session"
+msgstr "Danişîn"
+
+#: core/leavemodel.cpp:104
+msgid "System"
+msgstr "Pergal"
+
+#: core/applicationmodel.cpp:306
+msgid "Known Applications"
+msgstr "Sepanên Nasyar"
+
+#: core/models.cpp:120
+msgid "Home Folder"
+msgstr "Home Folder"
+
+#: core/models.cpp:123
+msgid "Network Folders"
+msgstr "Peldankên Torê"
+
+#: core/recentlyusedmodel.cpp:96 core/searchmodel.cpp:213
+msgid "Documents"
+msgstr "Belge"
+
+#: core/systemmodel.cpp:92
+msgid "Places"
+msgstr "Cih"
+
+#: core/systemmodel.cpp:93
+msgid "Removable Storage"
+msgstr "Cîhaza Tomarkirinê ya Nesabît"
+
+#: core/systemmodel.cpp:94
+msgid "Storage"
+msgstr "Cîhaza Tomarkirinê"
+
+#: core/searchmodel.cpp:196
+msgid "Web Searches"
+msgstr "Lêgerînên Torê"
+
+#: core/searchmodel.cpp:203
+#, kde-format
+msgid "Search web for '%1'"
+msgstr "Di torê de li '%1' bigere"
+
+#: main.cpp:32
+msgid "Kickoff"
+msgstr "Kîckoff"
+
+#: main.cpp:33
+msgid "Application Launcher"
+msgstr "Deskpêkerê Sepanan"
+
+#: applet/applet.cpp:105
+msgctxt "@title:window"
+msgid "Configure Launcher"
+msgstr ""
+
+#: applet/applet.cpp:115
+msgid "Number of visible items:"
+msgstr ""
+
+#: applet/applet.cpp:121
+#, fuzzy
+#| msgid "Switch User"
+msgid "Switch tabs on hover"
+msgstr "Bikarhênerê/î biguherîne"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Erdal Ronahi"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "erdal dot ronahi at gmail dot com"
+
+#: simpleapplet/simpleapplet.cpp:123
+msgctxt "@title:window"
+msgid "Configure Menu"
+msgstr ""
+
+#: simpleapplet/simpleapplet.cpp:134 simpleapplet/simpleapplet.cpp:202
+msgid "Switch User"
+msgstr "Bikarhênerê/î biguherîne"
