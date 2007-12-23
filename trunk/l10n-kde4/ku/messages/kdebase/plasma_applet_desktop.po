@@ -7,93 +7,92 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_desktop\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-12-14 06:11+0100\n"
+"POT-Creation-Date: 2007-12-20 06:12+0100\n"
 "PO-Revision-Date: 2007-12-22 11:10+0100\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
-"Language-Team: Kurdish <gnu-ku-wergerandin at lists dot sourceforge dot net>\n"
+"Language-Team: Kurdish <gnu-ku-wergerandin at lists dot sourceforge dot "
+"net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural= n != 1\n"
 
-#: backgrounddialog.cpp:299
+#: backgrounddialog.cpp:320
 msgid "Configure Desktop"
 msgstr "Sermaseyê Veava Bike"
 
-#. i18n: tag string
-#. i18n: file config.ui line 72
-#: backgrounddialog.cpp:309 rc.cpp:6
-msgid "Static Picture"
+#: backgrounddialog.cpp:330
+msgid "Wallpaper Image"
 msgstr ""
 
-#: backgrounddialog.cpp:310
+#: backgrounddialog.cpp:331
 msgid "Slideshow"
 msgstr ""
 
-#: backgrounddialog.cpp:343
-msgid "P&osition:"
+#: backgrounddialog.cpp:361
+msgid "Browse"
 msgstr ""
 
-#: backgrounddialog.cpp:345
+#: backgrounddialog.cpp:371
+msgid "P&ositioning:"
+msgstr ""
+
+#: backgrounddialog.cpp:373
 msgid "Scaled"
 msgstr "Pîvanbuyî"
 
-#: backgrounddialog.cpp:347
+#: backgrounddialog.cpp:375
 msgid "Centered"
 msgstr "Navîn"
 
-#: backgrounddialog.cpp:349
+#: backgrounddialog.cpp:377
 msgid "Scale and crop"
 msgstr ""
 
-#: backgrounddialog.cpp:351
+#: backgrounddialog.cpp:379
 msgid "Tiled"
 msgstr ""
 
-#: backgrounddialog.cpp:353
+#: backgrounddialog.cpp:381
 msgid "Center tiled"
 msgstr ""
 
-#: backgrounddialog.cpp:363
+#: backgrounddialog.cpp:390
 msgid "&Color:"
 msgstr "&Reng:"
 
-#: backgrounddialog.cpp:396
+#: backgrounddialog.cpp:415
 msgid "&Add directory..."
 msgstr "Pelrêçê Lê &Zêde Bike..."
 
-#: backgrounddialog.cpp:401
+#: backgrounddialog.cpp:420
 msgid "&Remove directory"
 msgstr "Pelrêçê &Rake"
 
-#: backgrounddialog.cpp:406
-msgid "Move &up"
-msgstr "Bikşîne &Jor"
-
-#: backgrounddialog.cpp:411
-msgid "Move &down"
-msgstr "Bikşîne &Jêr"
-
-#: backgrounddialog.cpp:417
+#: backgrounddialog.cpp:426
 msgid "&Change images every:"
 msgstr ""
 
-#: backgrounddialog.cpp:442
+#: backgrounddialog.cpp:457
 msgid ""
 "This picture of a monitor contains a preview of what the current settings "
 "will look like on your desktop."
 msgstr ""
 
-#: backgrounddialog.cpp:450
+#: backgrounddialog.cpp:465
 msgid "&New wallpaper..."
 msgstr ""
 
-#: backgrounddialog.cpp:568
+#: backgrounddialog.cpp:566
+msgid "Select a wallpaper image file"
+msgstr ""
+
+#: backgrounddialog.cpp:609
 msgid "Author"
 msgstr "Nivîskar"
 
-#: backgrounddialog.cpp:569
+#: backgrounddialog.cpp:610
 msgid "E-mail"
 msgstr "E-peyam"
 
@@ -109,27 +108,27 @@ msgstr ""
 msgid "Unlock Widgets"
 msgstr ""
 
-#: desktop.cpp:123 desktop.cpp:264
+#: desktop.cpp:123 desktop.cpp:277
 msgid "Lock Widgets"
 msgstr ""
 
-#: desktop.cpp:252
+#: desktop.cpp:265
 msgid "Add Widgets..."
 msgstr ""
 
-#: desktop.cpp:256
+#: desktop.cpp:269
 msgid "Run Command..."
 msgstr "Ferman Bixebitîne..."
 
-#: desktop.cpp:260
+#: desktop.cpp:273
 msgid "Configure Desktop..."
 msgstr "Sermaseyê Veava Bike..."
 
-#: desktop.cpp:267
+#: desktop.cpp:280
 msgid "Lock Screen"
 msgstr "Dîmenderê biqufilîne"
 
-#: desktop.cpp:271
+#: desktop.cpp:284
 msgid "Logout"
 msgstr "Derketin"
 
@@ -146,6 +145,12 @@ msgstr "Url"
 #: rc.cpp:3
 msgid "&Background Color"
 msgstr "Rengê &Zemînê"
+
+#. i18n: tag string
+#. i18n: file config.ui line 72
+#: rc.cpp:6
+msgid "Static Picture"
+msgstr ""
 
 #. i18n: tag string
 #. i18n: file config.ui line 77
@@ -213,3 +218,8 @@ msgstr ""
 msgid "New Wallpaper..."
 msgstr ""
 
+#~ msgid "Move &up"
+#~ msgstr "Bikşîne &Jor"
+
+#~ msgid "Move &down"
+#~ msgstr "Bikşîne &Jêr"
