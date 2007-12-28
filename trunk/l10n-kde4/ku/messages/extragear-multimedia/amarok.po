@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok-neu\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-12-27 06:13+0100\n"
+"POT-Creation-Date: 2007-12-28 06:15+0100\n"
 "PO-Revision-Date: 2007-12-16 23:28+0100\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
@@ -20,8 +20,14 @@ msgstr ""
 "X-Launchpad-Export-Date: 2007-11-26 10:44+0000\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: meta/PlaylistFileSupport.cpp:45 PlaylistHandler.cpp:339
-#: PlaylistHandler.cpp:451 PlaylistHandler.cpp:735
+#: meta/PLSPlaylist.cpp:57
+#, fuzzy
+#| msgid "Playlists"
+msgid "PLS Playlist"
+msgstr "lîsteya lêdanê"
+
+#: meta/PlaylistFileSupport.cpp:45 PlaylistHandler.cpp:214
+#: PlaylistHandler.cpp:288 PlaylistHandler.cpp:531
 #, kde-format
 msgid "Cannot write playlist (%1)."
 msgstr "lîsteya lêdanê nehate nivisandin (%1)."
@@ -1270,6 +1276,11 @@ msgstr "lîsteya lêdanê"
 msgid "User-defined Playlists"
 msgstr ""
 
+#: playlistmanager/PlaylistManager.cpp:137 PlaylistHandler.cpp:171
+#, fuzzy
+msgid "Downloading Playlist"
+msgstr "lîsteya lêdanê ya dînamîk"
+
 #: deletedialog.cpp:71
 #, kde-format
 msgid "<b>1</b> file selected."
@@ -1897,11 +1908,6 @@ msgstr ""
 msgid ""
 "All presets will be deleted and defaults will be restored. Are you sure?"
 msgstr ""
-
-#: PlaylistHandler.cpp:169
-#, fuzzy
-msgid "Downloading Playlist"
-msgstr "lîsteya lêdanê ya dînamîk"
 
 #: main.cpp:35
 msgid "Alexandre 'Ain't afraid of no bugs' Oliveira"
