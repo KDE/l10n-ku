@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2007-12-30 06:19+0100\n"
-"PO-Revision-Date: 2007-12-30 13:14+0100\n"
+"PO-Revision-Date: 2007-12-30 13:50+0100\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
 "MIME-Version: 1.0\n"
@@ -10267,9 +10267,9 @@ msgstr ""
 "klauncher: Ev bername ji aliyê kdeinit4 bixweber tê destpêkirin.\n"
 
 #: kinit/klauncher.cpp:490
-#, fuzzy, kde-format
+#, kde-format
 msgid "KDEInit could not launch '%1'."
-msgstr "KDEInitê bernameya '1' neda destpêkirin."
+msgstr "KDEInitê bernameya '%1' neda destpêkirin."
 
 #: kinit/klauncher.cpp:655 kinit/klauncher.cpp:680 kinit/klauncher.cpp:695
 #, kde-format
@@ -10305,24 +10305,20 @@ msgid "Comment:"
 msgstr "Şîrove:"
 
 #: kross/ui/view.cpp:172
-#, fuzzy
 msgid "Icon:"
-msgstr "Sembol"
+msgstr "Sembol:"
 
 #: kross/ui/view.cpp:193
-#, fuzzy
 msgid "Interpreter:"
-msgstr "Lêgerîna Înternetê"
+msgstr "Şirovekar:"
 
 #: kross/ui/view.cpp:303
-#, fuzzy
 msgid "Execute the selected script."
-msgstr "Pêşdîtina curetîpa ku hatiye hilbijartin"
+msgstr "Skrîpta hilbijartî bixebitîne."
 
 #: kross/ui/view.cpp:310
-#, fuzzy
 msgid "Stop execution of the selected script."
-msgstr "Pêşdîtina curetîpa ku hatiye hilbijartin"
+msgstr "Xebitandina skrîpta hilbijartî rawestîne."
 
 #: kross/ui/view.cpp:315
 msgid "Edit..."
@@ -10345,11 +10341,9 @@ msgid "Remove selected script."
 msgstr ""
 
 #: kross/core/interpreter.cpp:132
-#, fuzzy, kde-format
+#, kde-format
 msgid "Could not load interpreter library \"%1\""
-msgstr ""
-"Pirtûkxaneya '%1' venebû.\n"
-"%2"
+msgstr "Barkirina pirtûkxaneya şîrovekarê \"%1\" biserneket"
 
 #: kross/core/interpreter.cpp:144
 msgid "Incompatible interpreter library."
@@ -10374,9 +10368,9 @@ msgid "Failed to determinate interpreter for scriptfile \"%1\""
 msgstr ""
 
 #: kross/core/action.cpp:384
-#, fuzzy, kde-format
+#, kde-format
 msgid "Failed to open scriptfile \"%1\""
-msgstr "Skrîpta \"%1\" nehate dîtin."
+msgstr "Vekirina pelê skrîpta \"%1\" biserneket"
 
 #: kross/core/action.cpp:395
 #, kde-format
@@ -10389,14 +10383,13 @@ msgid "No such interpreter \"%1\""
 msgstr ""
 
 #: kross/core/action.cpp:403
-#, fuzzy, kde-format
+#, kde-format
 msgid "Failed to create script for interpreter \"%1\""
-msgstr "Ji bo cureya \"%1\" Xebatkerên Kscript nehate dîtin."
+msgstr ""
 
 #: kross/test/main.cpp:132
-#, fuzzy
 msgid "KrossTest"
-msgstr "KIOTest"
+msgstr ""
 
 #: kross/test/main.cpp:134
 msgid "KDE application to test the Kross framework."
@@ -10404,7 +10397,7 @@ msgstr ""
 
 #: kross/test/main.cpp:136
 msgid "(C) 2005-2007 Sebastian Sauer"
-msgstr ""
+msgstr "(C) 2005-2007 Sebastian Sauer"
 
 #: kross/test/main.cpp:137
 msgid "Test the Kross framework!"
@@ -10412,16 +10405,15 @@ msgstr ""
 
 #: kross/test/main.cpp:140 kross/console/main.cpp:102
 msgid "Sebastian Sauer"
-msgstr ""
+msgstr "Sebastian Sauer"
 
 #: kross/test/main.cpp:143 kross/console/main.cpp:108
 msgid "Scriptfile"
 msgstr "Pelê Skrîpt"
 
 #: kross/console/main.cpp:94
-#, fuzzy
 msgid "Kross"
-msgstr "Taybetmendî"
+msgstr "Kross"
 
 #: kross/console/main.cpp:96
 msgid "KDE application to run Kross scripts."
@@ -10429,35 +10421,31 @@ msgstr ""
 
 #: kross/console/main.cpp:98
 msgid "(C) 2006 Sebastian Sauer"
-msgstr ""
+msgstr "(C) 2006 Sebastian Sauer"
 
 #: kross/console/main.cpp:99
 msgid "Run Kross scripts."
 msgstr ""
 
 #: kross/modules/form.cpp:273
-#, fuzzy
 msgid "Abort?"
-msgstr "Betal bike"
+msgstr "Betalkirin?"
 
 #: knotify/config/knotifyconfigwidget.cpp:99
 msgid "Configure Notifications"
 msgstr "Hişyariyan Veava Bike"
 
 #: knotify/config/knotifyeventlist.cpp:88
-#, fuzzy
 msgctxt "Title of the notified event"
 msgid "Title"
-msgstr "Sernav:"
+msgstr "Sernav"
 
 #: knotify/config/knotifyeventlist.cpp:88
-#, fuzzy
 msgctxt "Description of the notified event"
 msgid "Description"
-msgstr "Danezanî"
+msgstr "Rave"
 
 #: knotify/config/knotifyeventlist.cpp:88
-#, fuzzy
 msgctxt "State of the notified event"
 msgid "State"
 msgstr "Rewş"
@@ -10488,7 +10476,7 @@ msgstr "Ji bo pelên veavakirina bikarhêneran amûra KDE"
 
 #: kconf_update/kconf_update.cpp:962
 msgid "(c) 2001, Waldo Bastian"
-msgstr ""
+msgstr "(c) 2001, Waldo Bastian"
 
 #: kdewidgets/makekdewidgets.cpp:84
 msgid "Builds Qt widget plugins from an ini style description file."
@@ -10516,43 +10504,40 @@ msgstr "makekdewidgets"
 
 #: kdewidgets/makekdewidgets.cpp:94
 msgid "(C) 2004-2005 Ian Reinhart Geiser"
-msgstr ""
+msgstr "(C) 2004-2005 Ian Reinhart Geiser"
 
 #: kdewidgets/makekdewidgets.cpp:95
 msgid "Ian Reinhart Geiser"
-msgstr ""
+msgstr "Ian Reinhart Geiser"
 
 #: kdewidgets/makekdewidgets.cpp:96
 msgid "Daniel Molkentin"
-msgstr ""
+msgstr "Daniel Molkentin"
 
 #: nepomuk/core/ui/kmetadatatagwidget.cpp:170
-#, fuzzy
 msgid "Tag resource..."
-msgstr "çavkanî"
+msgstr ""
 
 #: nepomuk/core/ui/kmetadatatagwidget.cpp:183
 msgid "Create new tag..."
-msgstr ""
+msgstr "Etîketeke nû biafirîne..."
 
 #: nepomuk/core/ui/kmetadatatagwidget.cpp:188
-#, fuzzy
 msgid "New Tag"
-msgstr "Lîstika Nû"
+msgstr "Etîketa Nû"
 
 #: nepomuk/core/ui/kmetadatatagwidget.cpp:188
-#, fuzzy
 msgid "Please insert the name of the new tag"
-msgstr "Cureyê çavkaniya nû hilbijêre:"
+msgstr "Ji kerema xwe re navê etîketa nû binivîse"
 
 #: nepomuk/core/ui/kmetadatatagwidget.cpp:197
 #, kde-format
 msgid "The tag %1 already exists"
-msgstr ""
+msgstr "Etîketa %1 jixwe heye"
 
 #: nepomuk/core/ui/kmetadatatagwidget.cpp:197
 msgid "Tag exists"
-msgstr ""
+msgstr "Etîket heye"
 
 #: nepomuk/core/test/tagcloudtest.cpp:30
 msgid "tagcloudtest"
@@ -10560,26 +10545,24 @@ msgstr ""
 
 #: nepomuk/core/generated/resource.cpp:297
 msgid "Success"
-msgstr ""
+msgstr "Serkeftin"
 
 #: nepomuk/core/generated/resource.cpp:299
-#, fuzzy
 msgid "Communication error"
-msgstr "çewtiya ragihandina DCOP  (%1)"
+msgstr "Çewtiya ragihandinê"
 
 #: nepomuk/core/generated/resource.cpp:301
-#, fuzzy
 msgid "Invalid type in Database"
-msgstr "Zemîna referansan ya nederbasdar"
+msgstr "Di Danegehê de cureyeke nederbasdar"
 
 #: nepomuk/core/generated/resource.cpp:303
 msgid "Unknown error"
 msgstr "Çewtiya nenas"
 
 #: kparts/browserextension.cpp:647
-#, fuzzy, kde-format
+#, kde-format
 msgid "<qt>Do you want to search the Internet for <b>%1</b>?</qt>"
-msgstr "<qt>Ji bo rêzika <b>%1</b> tu dixwazî di înternetê de lê bigerî?"
+msgstr "<qt>Tu dixwazî di înternetê de li <b>%1</b> bigerî?</qt>"
 
 #: kparts/browserextension.cpp:648
 msgid "Internet Search"
@@ -10587,7 +10570,7 @@ msgstr "Lêgerîna Înternetê"
 
 #: kparts/browserextension.cpp:648
 msgid "&Search"
-msgstr "&Bigere"
+msgstr "&Lêgerîn"
 
 #: kparts/part.cpp:753
 msgid "Untitled"
@@ -10607,9 +10590,9 @@ msgid "Close Document"
 msgstr "Belgeyê Bigire"
 
 #: kparts/browserrun.cpp:294
-#, fuzzy, kde-format
+#, kde-format
 msgid "Do you really want to execute '%1'?"
-msgstr "Bi rastî jî tu dixwazî pelê '%1' bixebitînî? "
+msgstr "Bi rastî jî tu dixwazî '%1' bixebitînî?"
 
 #: kparts/browserrun.cpp:295
 msgid "Execute File?"
@@ -10650,16 +10633,16 @@ msgid "The module %1 could not be found."
 msgstr "Modula %1 nehate dîtin."
 
 #: kutils/kcmoduleloader.cpp:77
-#, fuzzy, kde-format
+#, kde-format
 msgid ""
 "<qt><p>The diagnostics is:<br />The desktop file %1 could not be found.</p></"
 "qt>"
-msgstr "<qt><p>Teşhîs:<br>Pelê sermasê ya %1 pirtûkxaneyekê nade nasandin.</qt>"
+msgstr "<qt><p>Teşhîs:<br>Pelê sermasê ya %1 nehatiye dîtin.</p></qt>"
 
 #: kutils/kcmoduleloader.cpp:79
-#, fuzzy, kde-format
+#, kde-format
 msgid "The module %1 is disabled."
-msgstr "Modula %1 nehate barkirin."
+msgstr "Modula %1 neçalak e."
 
 #: kutils/kcmoduleloader.cpp:80
 msgid ""
@@ -10673,18 +10656,18 @@ msgid "The module %1 is not a valid configuration module."
 msgstr "%1 ne moduleke veavakirinê ya derbasdar e."
 
 #: kutils/kcmoduleloader.cpp:134
-#, fuzzy, kde-format
+#, kde-format
 msgid ""
 "<qt>The diagnostics is:<br />The desktop file %1 does not specify a library."
 "</qt>"
-msgstr "<qt><p>Teşhîs:<br>Pelê sermasê ya %1 pirtûkxaneyekê nade nasandin.</qt>"
+msgstr "<qt>Teşhîs:<br />Pelê sermasê ya %1 pirtûkxaneyekê nade nasandin.</qt>"
 
 #: kutils/kcmoduleloader.cpp:153
 msgid "There was an error loading the module."
 msgstr "Dema modul dihate barkirin çewtî çêbû."
 
 #: kutils/kcmoduleloader.cpp:153
-#, fuzzy, kde-format
+#, kde-format
 msgid ""
 "<qt>The diagnostics is:<br />%1<p>Possible reasons:</p><ul><li>An error "
 "occurred during your last KDE upgrade leaving an orphaned control module</"
@@ -10693,15 +10676,14 @@ msgid ""
 "message. If this fails, consider contacting your distributor or packager.</"
 "p></qt>"
 msgstr ""
-"<qt><p>Nasîn :<br>%1<p>Sedemên gengaz:</p><ul><li>Di dema rojanekirina dawî "
+"<qt><p>Nasîn :<br />%1<p>Sedemên gengaz:</p><ul><li>Di dema rojanekirina dawî "
 "ya KDE de çewtî çêbû. modulên kontrolkirinê yên nehatine girêdan tê "
-"terkkirin.<li>Modulên te yên partiyên sêyemîn yên kevn heye.</ul><p>Li van "
+"terkkirin.</li><li>Modulên te yên partiyên sêyemîn yên kevn heye.</li></ul><p>Li van "
 "mijaran baş bihizire û di peyamên çewtiyan de heta ji te hat modula ku tê "
 "bibîranîn jê bibe. Heke ev tişt, pirsê çareser neke hewl bide bi belavkar û "
 "pakêtkerê xwe re têkeve têkiliyê.</p></qt>"
 
 #: kutils/kcmoduleloader.cpp:168
-#, fuzzy
 msgid ""
 "<qt><p>Possible reasons:<ul><li>An error occurred during your last KDE "
 "upgrade leaving an orphaned control module</li><li>You have old third party "
@@ -10709,9 +10691,9 @@ msgid ""
 "to remove the module mentioned in the error message. If this fails, consider "
 "contacting your distributor or packager.</p></qt>"
 msgstr ""
-"<qt><p>Nasîn :<br>%1<p>Sedemên gengaz:</p><ul><li>Di dema rojanekirina dawî "
+"<qt><p>Sedemên gengaz:<ul><li>Di dema rojanekirina dawî "
 "ya KDE de çewtî çêbû. modulên kontrolkirinê yên nehatine girêdan tê "
-"terkkirin.<li>Modulên te yên partiyên sêyemîn yên kevn heye.</ul><p>Li van "
+"terkkirin.</li><li>Modulên te yên partiyên sêyemîn yên kevn heye.</li></ul></p><p>Li van "
 "mijaran baş bihizire û di peyamên çewtiyan de heta ji te hat modula ku tê "
 "bibîranîn jê bibe. Heke ev tişt, pirsê çareser neke hewl bide bi belavkar û "
 "pakêtkerê xwe re têkeve têkiliyê.</p></qt>"
@@ -10759,7 +10741,7 @@ msgstr[1] ""
 
 #: kutils/kpluginselector.cpp:254
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: kutils/kpluginselector.cpp:257
 #, kde-format
@@ -10773,39 +10755,33 @@ msgid " since the last time you asked for details"
 msgstr ""
 
 #: kutils/kpluginselector.cpp:1662
-#, fuzzy, kde-format
+#, kde-format
 msgid "About %1 plugin"
-msgstr "Der barê %1 de"
+msgstr "Der barê pêveka %1 de"
 
 #: kutils/kpluginselector.cpp:1696
-#, fuzzy
 msgid "E-Mail:"
-msgstr "Epeyam:"
+msgstr "E-peyam:"
 
 #: kutils/kpluginselector.cpp:1714
 msgid "Website:"
 msgstr ""
 
 #: kutils/kprintpreview.cpp:123
-#, fuzzy
 msgid "Could not load print preview part"
-msgstr "Pel nayê barkirin."
+msgstr "Barkirina pêşdîtina çapê biserneket"
 
 #: kutils/kprintpreview.cpp:138
 msgid "Print Preview"
 msgstr "Pêşdîtina berî Çapkirinê"
 
 #: kutils/kcmoduleproxy.cpp:134
-#, fuzzy
 msgid ""
 "<b>Changes in this section requires root access.</b><br />On applying your "
 "changes you will have to supply your root password."
-msgstr ""
-"<b>Bo guherînên vê beşê pêwist e gihiştina root hebe.</b><br />Bo tu destûrê "
-"bide sererastkirinan pêl bişkoka \"Moda Rêveberan\" bike."
+msgstr "<b>Bo guherînên vê beşê pêwist e gihiştina root hebe.</b><br />Dema guherandinên te werin bikaranîn pêwist e şîfreya xwe ya root binivîsî."
 
 #: kutils/kcmoduleproxy.cpp:141
-#, fuzzy
 msgid ""
 "This section requires special permissions, probably for system-wide changes; "
 "therefore, it is required that you provide the root password to be able to "
@@ -10814,7 +10790,7 @@ msgid ""
 msgstr ""
 "Ji ber ku ev beş wê guherînên bo pergalê yên girîng bike, destûrên taybet "
 "pêwist e. Ji bo ku tu karibî taybetmendiyên modulê biguherîne şîfreya root "
-"pêwist e. Heke tu şîfreya root nizanî wê çalakiya modulê rabe."
+"pêwist e. Heke tu şîfreya root nizanî wê guherandinên modulê neyên tomarkirin "
 
 #: kutils/kcmoduleproxy.cpp:162
 #, kde-format
@@ -10890,9 +10866,9 @@ msgid "Failure to cast to %1 value from Type %2 (%3)"
 msgstr ""
 
 #: kjsembed/kjsembed/qobject_binding.cpp:632
-#, fuzzy, kde-format
+#, kde-format
 msgid "No such method '%1'."
-msgstr "Di navê '%1' ê de êdî hêmana pêşekê tuneye."
+msgstr "Şewaza '%1' tune."
 
 #: kjsembed/kjsembed/qobject_binding.cpp:647
 #, kde-format
@@ -10900,20 +10876,19 @@ msgid "Call to method '%1' failed, unable to get argument %2: %3"
 msgstr ""
 
 #: kjsembed/kjsembed/qobject_binding.cpp:662
-#, fuzzy, kde-format
+#, kde-format
 msgid "Call to '%1' failed."
-msgstr "Sazkirin ne serkeftî bû."
+msgstr ""
 
 #: kjsembed/kjsembed/qobject_binding.cpp:747
 #: kjsembed/kjsembed/object_binding.h:219
-#, fuzzy, kde-format
+#, kde-format
 msgid "%1 is not an Object type"
-msgstr "Zemîn ne bireser e"
+msgstr ""
 
 #: kjsembed/kjsembed/qobject_binding.cpp:753
-#, fuzzy
 msgid "Could not construct value"
-msgstr "Pel nayê barkirin."
+msgstr ""
 
 #: kjsembed/kjsembed/eventproxy.cpp:108
 #, kde-format
@@ -10926,14 +10901,14 @@ msgid "Exception calling '%1' function from %2:%3:%4"
 msgstr ""
 
 #: kjsembed/kjsembed/qformbuilder_binding.cpp:59
-#, fuzzy, kde-format
+#, kde-format
 msgid "There was an error reading the file '%1'"
-msgstr "Dema modul dihate barkirin çewtî çêbû."
+msgstr "Dema pelê '%1' hat xwendin çewtiyek derket holê"
 
 #: kjsembed/kjsembed/qformbuilder_binding.cpp:67
-#, fuzzy, kde-format
+#, kde-format
 msgid "Could not read file '%1'"
-msgstr "Xizmeta '%1' nehate dîtin."
+msgstr "Xwendina pelê '%1' biserneket."
 
 #: kjsembed/kjsembed/qformbuilder_binding.cpp:70
 #: kjsembed/kjsembed/quiloader_binding.cpp:118
@@ -10964,56 +10939,47 @@ msgid "Not enough arguments."
 msgstr ""
 
 #: kjsembed/kjsembed/quiloader_binding.cpp:70
-#, fuzzy
 msgid "Failed to create Action."
-msgstr "Pelê ku wê agahiyên rojanekirinên werine xwendin"
+msgstr "Afirandina çalakiyê biserneket."
 
 #: kjsembed/kjsembed/quiloader_binding.cpp:81
-#, fuzzy
 msgid "Failed to create ActionGroup."
-msgstr "Pelê ku wê agahiyên rojanekirinên werine xwendin"
+msgstr "Afirandina koma çalakiyan biserneket."
 
 #: kjsembed/kjsembed/quiloader_binding.cpp:88
 msgid "No classname specified"
 msgstr ""
 
 #: kjsembed/kjsembed/quiloader_binding.cpp:95
-#, fuzzy
 msgid "Failed to create Layout."
-msgstr "Pelê ku wê were şandin pêk nehat."
+msgstr "Afirandina Mizanpajê biserneket."
 
 #: kjsembed/kjsembed/quiloader_binding.cpp:103
 msgid "No classname specified."
 msgstr ""
 
 #: kjsembed/kjsembed/quiloader_binding.cpp:110
-#, fuzzy
 msgid "Failed to create Widget."
-msgstr "Pelê ku wê were şandin pêk nehat."
+msgstr "Afirandina Widget biserneket."
 
 #: kjsembed/kjsembed/quiloader_binding.cpp:122
-#, fuzzy, kde-format
+#, kde-format
 msgid "Could not open file '%1': %2"
-msgstr ""
-"Pirtûkxaneya '%1' venebû.\n"
-"%2"
+msgstr "Vekirina pelê '%1' biserneket: %2"
 
 #: kjsembed/kjsembed/quiloader_binding.cpp:129
-#, fuzzy, kde-format
+#, kde-format
 msgid "Failed to load file '%1'"
-msgstr "Çavkaniya \"%1\" nehate barkirin"
+msgstr "Barkirina pelê '%1' biserneket"
 
 #: kjsembed/kjsembed/fileio.cpp:69
-#, fuzzy, kde-format
+#, kde-format
 msgid "Could not open file '%1'"
-msgstr ""
-"Pirtûkxaneya '%1' venebû.\n"
-"%2"
+msgstr "Vekirina pelê '%1' biserneket"
 
 #: kjsembed/kjsembed/fileio.cpp:104
-#, fuzzy
 msgid "Could not create temporary file."
-msgstr "Pelê nû nayê çêkirin."
+msgstr "Pelê demdemî nayê çêkirin."
 
 #: kjsembed/kjsembed/builtins.cpp:88 kjsembed/kjsembed/builtins.cpp:128
 #, kde-format
@@ -11026,9 +10992,9 @@ msgid "include only takes 1 argument, not %1."
 msgstr ""
 
 #: kjsembed/kjsembed/builtins.cpp:132
-#, fuzzy, kde-format
+#, kde-format
 msgid "File %1 not found."
-msgstr "Şêwaza %1 nehate dîtin.\n"
+msgstr "Pelê %1 nehate dîtin."
 
 #: kjsembed/kjsembed/builtins.cpp:138
 #, kde-format
@@ -11053,25 +11019,22 @@ msgid "Must supply a valid parent."
 msgstr ""
 
 #: kde3support/kio/kfile/k3fileview.cpp:123
-#, fuzzy
 msgid "Unknown View"
-msgstr "Qada Nenas"
+msgstr "Dîmena Nenas"
 
 #: kde3support/kdeui/k3spelldlg.cpp:49
-#, fuzzy
 msgid "Check Spelling"
-msgstr "Kontrola Rastnivîsê"
+msgstr "Rastnivîsê Kontrol Bike"
 
 #: kde3support/kdeui/k3spelldlg.cpp:54
-#, fuzzy
 msgid "&Finished"
-msgstr "&Bi Dawî Bîne"
+msgstr "&Bi Dawî Bû"
 
 #: kde3support/kdeui/k3listviewsearchline.cpp:307
 #, kde-format
 msgctxt "Column number %1"
 msgid "Column No. %1"
-msgstr ""
+msgstr "Sitûna %1"
 
 #: kde3support/kdeui/k3aboutapplication.cpp:50
 msgid "??"
@@ -11128,15 +11091,13 @@ msgstr "Şîfreyê &veşêre"
 #: kde3support/kdeui/k3passworddialog.cpp:564
 #: kde3support/kdeui/k3passworddialog.cpp:568
 #: kde3support/kdeui/k3passworddialog.cpp:589
-#, fuzzy
 msgid "Password Input"
-msgstr "Şîfre vala ye"
+msgstr ""
 
 #: kde3support/kdeui/k3sconfig.cpp:109
-#, fuzzy
 msgctxt "@option:check"
 msgid "Do SpellChecking"
-msgstr "Kontrola rastnivîsê"
+msgstr "Rastnivîsê kontrol bike"
 
 #: kde3support/kdeui/k3sconfig.cpp:113
 msgctxt "@option:check"
@@ -11144,222 +11105,188 @@ msgid "Create &root/affix combinations not in dictionary"
 msgstr ""
 
 #: kde3support/kdeui/k3sconfig.cpp:120
-#, fuzzy
 msgctxt "@option:check"
 msgid "Consider run-together &words as spelling errors"
 msgstr "&Peyvên hevedudanî hatine nivîsîn weke çewtiya nivîsînê binirxîne"
 
 #: kde3support/kdeui/k3sconfig.cpp:132
-#, fuzzy
 msgctxt "@label:listbox"
 msgid "&Dictionary:"
 msgstr "&Ferheng:"
 
 #: kde3support/kdeui/k3sconfig.cpp:159
-#, fuzzy
 msgctxt "@label:listbox"
 msgid "&Encoding:"
 msgstr "&Kodkirin:"
 
 #: kde3support/kdeui/k3sconfig.cpp:166
-#, fuzzy
 msgctxt "@item:inlistbox Spell checker"
 msgid "International <application>Ispell</application>"
-msgstr "<application>Aspell</application>"
+msgstr "<application>Ispell</application> a Navneteweyî"
 
 #: kde3support/kdeui/k3sconfig.cpp:167
-#, fuzzy
 msgctxt "@item:inlistbox Spell checker"
 msgid "<application>Aspell</application>"
 msgstr "<application>Aspell</application>"
 
 #: kde3support/kdeui/k3sconfig.cpp:168
-#, fuzzy
 msgctxt "@item:inlistbox Spell checker"
 msgid "<application>Hspell</application>"
 msgstr "<application>Hspell</application>"
 
 #: kde3support/kdeui/k3sconfig.cpp:169
-#, fuzzy
 msgctxt "@item:inlistbox Spell checker"
 msgid "<application>Zemberek</application>"
-msgstr "<application>Aspell</application>"
+msgstr "<application>Zemberek</application>"
 
 #: kde3support/kdeui/k3sconfig.cpp:174
-#, fuzzy
 msgctxt "@label:listbox"
 msgid "&Client:"
 msgstr "&Daxwazker:"
 
 #: kde3support/kdeui/k3sconfig.cpp:256 kde3support/kdeui/k3sconfig.cpp:416
 #: kde3support/kdeui/k3sconfig.cpp:680
-#, fuzzy
 msgctxt "@item Spelling dictionary"
 msgid "Hebrew"
 msgstr "Îbranî"
 
 #: kde3support/kdeui/k3sconfig.cpp:261 kde3support/kdeui/k3sconfig.cpp:421
 #: kde3support/kdeui/k3sconfig.cpp:685
-#, fuzzy
 msgctxt "@item Spelling dictionary"
 msgid "Turkish"
 msgstr "Tirkî"
 
 #: kde3support/kdeui/k3sconfig.cpp:314
-#, fuzzy
 msgctxt "@item Spelling dictionary"
 msgid "English"
 msgstr "Îngilîzî"
 
 #: kde3support/kdeui/k3sconfig.cpp:317
-#, fuzzy
 msgctxt "@item Spelling dictionary"
 msgid "Spanish"
 msgstr "Spanî"
 
 #: kde3support/kdeui/k3sconfig.cpp:320
-#, fuzzy
 msgctxt "@item Spelling dictionary"
 msgid "Danish"
 msgstr "Danîmarkî"
 
 #: kde3support/kdeui/k3sconfig.cpp:323
-#, fuzzy
 msgctxt "@item Spelling dictionary"
 msgid "German"
 msgstr "Almanî"
 
 #: kde3support/kdeui/k3sconfig.cpp:326
-#, fuzzy
 msgctxt "@item Spelling dictionary"
 msgid "German (new spelling)"
-msgstr "Almanî (bilêvkirina nû)"
+msgstr "Almanî (rastnivîsa nû)"
 
 #: kde3support/kdeui/k3sconfig.cpp:329
-#, fuzzy
 msgctxt "@item Spelling dictionary"
 msgid "Brazilian Portuguese"
-msgstr "Portekîziya Brezîliyan"
+msgstr "Portekîziya Brezîl"
 
 #: kde3support/kdeui/k3sconfig.cpp:332
-#, fuzzy
 msgctxt "@item Spelling dictionary"
 msgid "Portuguese"
-msgstr "Portekîzî"
+msgstr "Portekîz"
 
 #: kde3support/kdeui/k3sconfig.cpp:335
-#, fuzzy
 msgctxt "@item Spelling dictionary"
 msgid "Esperanto"
 msgstr "Esperanto"
 
 #: kde3support/kdeui/k3sconfig.cpp:338
-#, fuzzy
 msgctxt "@item Spelling dictionary"
 msgid "Norwegian"
 msgstr "Norwecî"
 
 #: kde3support/kdeui/k3sconfig.cpp:341
-#, fuzzy
 msgctxt "@item Spelling dictionary"
 msgid "Polish"
 msgstr "Polonî"
 
 #: kde3support/kdeui/k3sconfig.cpp:344
-#, fuzzy
 msgctxt "@item Spelling dictionary"
 msgid "Russian"
 msgstr "Rûsî"
 
 #: kde3support/kdeui/k3sconfig.cpp:347
-#, fuzzy
 msgctxt "@item Spelling dictionary"
 msgid "Slovenian"
 msgstr "Slovenî"
 
 #: kde3support/kdeui/k3sconfig.cpp:350
-#, fuzzy
 msgctxt "@item Spelling dictionary"
 msgid "Slovak"
 msgstr "Slovakî"
 
 #: kde3support/kdeui/k3sconfig.cpp:353
-#, fuzzy
 msgctxt "@item Spelling dictionary"
 msgid "Czech"
 msgstr "Çekî"
 
 #: kde3support/kdeui/k3sconfig.cpp:356
-#, fuzzy
 msgctxt "@item Spelling dictionary"
 msgid "Swedish"
 msgstr "Swêdî"
 
 #: kde3support/kdeui/k3sconfig.cpp:359
-#, fuzzy
 msgctxt "@item Spelling dictionary"
 msgid "Swiss German"
 msgstr "Almaniya siwêsrî"
 
 #: kde3support/kdeui/k3sconfig.cpp:362
-#, fuzzy
 msgctxt "@item Spelling dictionary"
 msgid "Ukrainian"
 msgstr "Ukraynî"
 
 #: kde3support/kdeui/k3sconfig.cpp:365
-#, fuzzy
 msgctxt "@item Spelling dictionary"
 msgid "Lithuanian"
 msgstr "Lîtwanî"
 
 #: kde3support/kdeui/k3sconfig.cpp:368
-#, fuzzy
 msgctxt "@item Spelling dictionary"
 msgid "French"
 msgstr "Frensî"
 
 #: kde3support/kdeui/k3sconfig.cpp:371
-#, fuzzy
 msgctxt "@item Spelling dictionary"
 msgid "Belarusian"
 msgstr "Belorusî"
 
 #: kde3support/kdeui/k3sconfig.cpp:374
-#, fuzzy
 msgctxt "@item Spelling dictionary"
 msgid "Hungarian"
 msgstr "Macarî"
 
 #: kde3support/kdeui/k3sconfig.cpp:378
-#, fuzzy
 msgctxt "@item Spelling dictionary"
 msgid "Unknown"
 msgstr "Nayê zanîn"
 
 #: kde3support/kdeui/k3sconfig.cpp:462 kde3support/kdeui/k3sconfig.cpp:618
-#, fuzzy
 msgctxt "@item Spelling dictionary"
 msgid "<application>ISpell</application> Default"
-msgstr "<application>Aspell</application>"
+msgstr "<application>Ispell</application> a Standard"
 
 #: kde3support/kdeui/k3sconfig.cpp:510 kde3support/kdeui/k3sconfig.cpp:666
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@item Spelling dictionary: %1 dictionary name, %2 file name"
 msgid "Default - %1 [%2]"
-msgstr "Standart"
+msgstr "Standard - %1 [%2]"
 
 #: kde3support/kdeui/k3sconfig.cpp:531 kde3support/kdeui/k3sconfig.cpp:693
-#, fuzzy
 msgctxt "@item Spelling dictionary"
 msgid "<application>ASpell</application> Default"
-msgstr "<application>Aspell</application>"
+msgstr "<application>Aspell</application> a Standard"
 
 #: kde3support/kdeui/k3sconfig.cpp:596 kde3support/kdeui/k3sconfig.cpp:758
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@item Spelling dictionary: %1 dictionary name"
 msgid "Default - %1"
-msgstr "Standart"
+msgstr "Standard - %1"
 
 #: kde3support/kdeui/k3aboutdialog.cpp:185
 msgid "Email"
@@ -11398,9 +11325,8 @@ msgid "Spell Checking"
 msgstr "Kontrola rastnivîsê"
 
 #: kde3support/kdeui/k3dockwidget.cpp:272
-#, fuzzy
 msgid "Close"
-msgstr "Bigire"
+msgstr "Girtin"
 
 #: kde3support/kdeui/k3dockwidget.cpp:280
 msgctxt "Freeze the window geometry"
@@ -11408,10 +11334,9 @@ msgid "Freeze"
 msgstr ""
 
 #: kde3support/kdeui/k3dockwidget.cpp:288
-#, fuzzy
 msgctxt "Dock this window"
 msgid "Dock"
-msgstr "Girê bide"
+msgstr "Girêdan"
 
 #: kde3support/kdeui/k3dockwidget.cpp:296
 msgid "Detach"
@@ -11432,7 +11357,6 @@ msgid "&Back"
 msgstr "&Paşve"
 
 #: kde3support/kdeui/k3wizard.cpp:49
-#, fuzzy
 msgctxt "Opposite to Back"
 msgid "&Next"
 msgstr "&Pêşde"
@@ -11472,7 +11396,6 @@ msgid "Disables debug capturing. You typically use this option when you use the 
 msgstr ""
 
 #: kde3support/kunittest/modrunner.cpp:50
-#, fuzzy
 msgid "KUnitTest ModRunner"
 msgstr "KUnitTest ModRunner"
 
@@ -11481,46 +11404,39 @@ msgid "(C) 2005 Jeroen Wijnhout"
 msgstr ""
 
 #: kdeui/colors/kcolordialog.cpp:97
-#, fuzzy
 msgctxt "palette name"
 msgid "* Recent Colors *"
-msgstr "Reng Hilbijêre"
+msgstr "* Rengên Dawî *"
 
 #: kdeui/colors/kcolordialog.cpp:98
-#, fuzzy
 msgctxt "palette name"
 msgid "* Custom Colors *"
 msgstr "* Rengên Taybet *"
 
 #: kdeui/colors/kcolordialog.cpp:99
-#, fuzzy
 msgctxt "palette name"
 msgid "Forty Colors"
 msgstr "Çil Reng"
 
 #: kdeui/colors/kcolordialog.cpp:100
-#, fuzzy
 msgctxt "palette name"
 msgid "Oxygen Colors"
-msgstr "Rengên ku Hatine Binavkirin"
+msgstr "Rengên Oxygen"
 
 #: kdeui/colors/kcolordialog.cpp:101
-#, fuzzy
 msgctxt "palette name"
 msgid "Rainbow Colors"
-msgstr "Rengên ku Hatine Binavkirin"
+msgstr "Rengên Keskesorê"
 
 #: kdeui/colors/kcolordialog.cpp:102
-#, fuzzy
 msgctxt "palette name"
 msgid "Royal Colors"
-msgstr "Rengên ku Hatine Binavkirin"
+msgstr "Rengên Royal"
 
 #: kdeui/colors/kcolordialog.cpp:103
-#, fuzzy
 msgctxt "palette name"
 msgid "Web Colors"
-msgstr "Rengên ku Hatine Binavkirin"
+msgstr "Rengên Torê"
 
 #: kdeui/colors/kcolordialog.cpp:503
 msgid "Named Colors"
@@ -11537,14 +11453,12 @@ msgid "Select Color"
 msgstr "Reng Hilbijêre"
 
 #: kdeui/colors/kcolordialog.cpp:1037
-#, fuzzy
 msgid "Hue:"
-msgstr "H:"
+msgstr ""
 
 #: kdeui/colors/kcolordialog.cpp:1047
-#, fuzzy
 msgid "Saturation:"
-msgstr "Şemî"
+msgstr ""
 
 #: kdeui/colors/kcolordialog.cpp:1057
 msgid "Value:"
@@ -11559,9 +11473,8 @@ msgid "Green:"
 msgstr "Kesk:"
 
 #: kdeui/colors/kcolordialog.cpp:1090
-#, fuzzy
 msgid "Blue:"
-msgstr "Nirx"
+msgstr "Heşîn:"
 
 #: kdeui/colors/kcolordialog.cpp:1147
 msgid "&Add to Custom Colors"
@@ -11584,15 +11497,13 @@ msgid "-unnamed-"
 msgstr "-bênav-"
 
 #: kdeui/colors/kcolorcombo.cpp:355
-#, fuzzy
 msgctxt "Custom color"
 msgid "Custom..."
 msgstr "Taybet..."
 
 #: interfaces/terminal/test/main.cc:34
-#, fuzzy
 msgid "TETest"
-msgstr "Ceribandin"
+msgstr ""
 
 #: khtml/khtml_settings.cc:152
 msgid "Accept"
@@ -11643,9 +11554,8 @@ msgid "Decryption error."
 msgstr "şîroveya çewtiyê."
 
 #: kdecore/util/qtest_kde.h:82 kdecore/util/qtest_kde.h:124
-#, fuzzy
 msgid "qttest"
-msgstr "Herî Dawî"
+msgstr ""
 
 #: kdecore/services/kservice.h:519
 #, kde-format
