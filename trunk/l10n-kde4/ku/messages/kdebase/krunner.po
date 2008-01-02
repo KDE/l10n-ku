@@ -2,24 +2,24 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Erdal Ronahi <erdal dot ronahi at gmail dot com>, 2007.
+# Erdal Ronahi <erdal dot ronahi at gmail dot com>, 2007, 2008.
 msgid ""
 msgstr ""
 "Project-Id-Version: krunner\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2007-12-30 06:20+0100\n"
-"PO-Revision-Date: 2007-12-31 15:18+0100\n"
+"PO-Revision-Date: 2008-01-02 01:31+0100\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
-"Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
+"Language-Team: Kurdish <ku@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural= n != 1\n"
+"Plural-Forms: nplurals=2; plural= n != 1;\n"
 "X-Generator: KBabel 1.11.4\n"
 
 #: lock/autologout.cc:44
 msgid "<qt><nobr><b>Automatic Log Out</b></nobr></qt>"
-msgstr ""
+msgstr "<qt><nobr><b>Derketina Jixweber</b></nobr></qt>"
 
 #: lock/autologout.cc:45
 msgid ""
@@ -29,23 +29,22 @@ msgstr ""
 
 #: lock/autologout.cc:50
 msgid "Time Remaining:"
-msgstr ""
+msgstr "Dema ma:"
 
 #: lock/autologout.cc:86
 #, kde-format
 msgid "<qt><nobr>You will be automatically logged out in 1 second</nobr></qt>"
-msgid_plural ""
-"<qt><nobr>You will be automatically logged out in %1 seconds</nobr></qt>"
-msgstr[0] ""
-msgstr[1] ""
+msgid_plural "<qt><nobr>You will be automatically logged out in %1 seconds</nobr></qt>"
+msgstr[0] "<qt><nobr>Piştî 1 çirkê tu dê derkevî</nobr></qt>"
+msgstr[1] "<qt><nobr>Piştî %1 çirkê tu dê derkevî</nobr></qt>"
 
 #: lock/main.cc:60
 msgid "KRunner Locker"
-msgstr ""
+msgstr "KRunner Locker"
 
 #: lock/main.cc:60
 msgid "Session Locker for KRunner"
-msgstr ""
+msgstr "Miftekara danişînê ji bo KDesktop"
 
 #: lock/main.cc:63
 msgid "Force session locking"
@@ -53,52 +52,52 @@ msgstr ""
 
 #: lock/main.cc:64
 msgid "Only start screensaver"
-msgstr ""
+msgstr "Tenê dîmenderparêzê veke"
 
 #: lock/main.cc:65
 msgid "Only use the blank screensaver"
-msgstr ""
+msgstr "Tenê dîmenderparêza vala bi kar bîne"
 
 #: lock/lockprocess.cc:739
 msgid "Will not lock the session, as unlocking would be impossible:\n"
-msgstr ""
+msgstr "Ji ber ku dê mifteya danişînê vene be, dê danişîn neyê miftekirin jî:\n"
 
 #: lock/lockprocess.cc:743
 msgid "Cannot start <i>kcheckpass</i>."
-msgstr ""
+msgstr "Bernameya <i>Kcheckpass</i> nehate xebitandin."
 
 #: lock/lockprocess.cc:744
 msgid "<i>kcheckpass</i> is unable to operate. Possibly it is not SetUID root."
-msgstr ""
+msgstr "<i>Kcheckpass</i> nikare bixebite. Dibe ku SetUID ne root be."
 
 #: lock/lockprocess.cc:787
 msgid "No appropriate greeter plugin configured."
-msgstr ""
+msgstr "Pêvekeke lihevkir a beramber nayê dîtin."
 
 #: lock/lockdlg.cc:95
 msgid "<nobr><b>The session is locked</b></nobr><br />"
-msgstr ""
+msgstr "<nobr><b>Danişîn miftekirî ye</b></nobr><br />"
 
 #: lock/lockdlg.cc:96
 #, kde-format
 msgid "<nobr><b>The session was locked by %1</b></nobr><br />"
-msgstr ""
+msgstr "<nobr><b>Danişîn ji aliyê %1 miftekirî ye</b></nobr><br />"
 
 #: lock/lockdlg.cc:107
 msgid "Unl&ock"
-msgstr ""
+msgstr "&Mifteyê veke"
 
 #: lock/lockdlg.cc:109
 msgid "Sw&itch User..."
-msgstr ""
+msgstr "&Bikarhêner Biguherîne..."
 
 #: lock/lockdlg.cc:177
 msgid "<b>Unlocking failed</b>"
-msgstr ""
+msgstr "<b>Vekirina mifteyê bi ser neket</b>"
 
 #: lock/lockdlg.cc:183
 msgid "<b>Warning: Caps Lock on</b>"
-msgstr ""
+msgstr "<b>Hişyarî: Caps Lock vekirî ye</b>"
 
 #: lock/lockdlg.cc:415
 #, kde-format
@@ -109,7 +108,7 @@ msgstr ""
 
 #: lock/lockdlg.cc:500 runners/sessions/sessionrunner.cpp:102
 msgid "&Start New Session"
-msgstr ""
+msgstr "&Dest Bi Danişîna Nû Bike"
 
 #: lock/lockdlg.cc:508
 #, kde-format
@@ -127,7 +126,7 @@ msgstr ""
 
 #: lock/lockdlg.cc:521
 msgid "&Do not ask again"
-msgstr ""
+msgstr "&Careke din nepirse"
 
 #: lock/lockdlg.cc:579
 msgid "Session"
@@ -144,7 +143,7 @@ msgstr "&Çalakkirin"
 
 #: lock/lockdlg.cc:615
 msgid "Start &New Session"
-msgstr ""
+msgstr "Dest Bi Danişîna &Nû Bike"
 
 #: runners/shell/shellrunner.cpp:36
 msgid "Command"
@@ -153,7 +152,7 @@ msgstr "Ferman"
 #: runners/shell/shellrunner.cpp:55
 #, kde-format
 msgid "Run %1"
-msgstr ""
+msgstr "%1 bixebitîne"
 
 #: runners/services/servicerunner.cpp:36 runners/services/servicerunner.cpp:38
 #, kde-format
@@ -166,11 +165,11 @@ msgstr "Sepan"
 
 #: runners/sessions/sessionrunner.cpp:38
 msgid "Sessions"
-msgstr "Daniştin"
+msgstr "Danişîn"
 
 #: runners/sessions/sessionrunner.cpp:59
 msgid "New Session"
-msgstr "Daniştina Nû"
+msgstr "Danişîna Nû"
 
 #: runners/sessions/sessionrunner.cpp:90
 #, kde-format
@@ -185,7 +184,7 @@ msgstr ""
 
 #: runners/sessions/sessionrunner.cpp:101
 msgid "Warning - New Session"
-msgstr ""
+msgstr "Hişyarî - Danişîna Nû"
 
 #: main.cpp:33
 msgid "KDE run command interface"
@@ -205,7 +204,7 @@ msgstr "Aaron J. Seigo"
 
 #: main.cpp:43
 msgid "Author and maintainer"
-msgstr ""
+msgstr "Nivîskar û kesê miqate"
 
 #: interface.cpp:95
 #, kde-format
@@ -218,15 +217,15 @@ msgstr "Standard: "
 
 #: interface.cpp:267 krunnerapp.cpp:132 krunnerapp.cpp:133
 msgid "Run Command"
-msgstr ""
+msgstr "Fermanê Bixebitîne"
 
 #: interface.cpp:313 interface.cpp:640 interface.cpp:680 interface.cpp:683
 msgid "Show Options"
-msgstr ""
+msgstr "Opsiyonên Nîşan bide"
 
 #: interface.cpp:320
 msgid "Show System Activity"
-msgstr ""
+msgstr "Çalakbûna Pergalê Nîşan Bide"
 
 #: interface.cpp:328
 msgid "Click to execute the selected item above"
@@ -238,7 +237,7 @@ msgstr ""
 
 #: interface.cpp:416
 msgid "Switch users"
-msgstr ""
+msgstr "Bikarhêneran biguherîne"
 
 #: interface.cpp:436
 msgid "No desktop sessions available"
@@ -250,31 +249,31 @@ msgstr ""
 
 #: interface.cpp:636 interface.cpp:678
 msgid "Hide Options"
-msgstr ""
+msgstr "Opsiyonan Veşêre"
 
 #. i18n: tag label
 #. i18n: file kscreensaversettings.kcfg line 11
 #: rc.cpp:11
 msgid "Enable screen saver"
-msgstr ""
+msgstr "Dîmendarparêzê çalak bike"
 
 #. i18n: tag whatsthis
 #. i18n: file kscreensaversettings.kcfg line 12
 #: rc.cpp:14
 msgid "Enables the screen saver."
-msgstr ""
+msgstr "Dîmenderparêzê çalak dike."
 
 #. i18n: tag label
 #. i18n: file kscreensaversettings.kcfg line 16
 #: rc.cpp:17
 msgid "Screen saver timeout"
-msgstr ""
+msgstr "Ji bo dîmenderparêzê dem bihurî"
 
 #. i18n: tag whatsthis
 #. i18n: file kscreensaversettings.kcfg line 17
 #: rc.cpp:20
 msgid "Sets the seconds after which the screen saver is started."
-msgstr ""
+msgstr "Dembuhiriya dîmenderparêzê belî dike."
 
 #. i18n: tag label
 #. i18n: file kscreensaversettings.kcfg line 21
@@ -296,24 +295,24 @@ msgstr ""
 #: rc.cpp:53
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "Erdal Ronahi"
 
 #: rc.cpp:54
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "erdal dot ronahi at gmail dot com"
 
 #: krunnerapp.cpp:138 krunnerapp.cpp:139
 msgid "Show Taskmanager"
-msgstr ""
+msgstr "Rêveberê Peywiran nîşan bide"
 
 #: krunnerapp.cpp:150 krunnerapp.cpp:151
 msgid "Switch User"
-msgstr ""
+msgstr "Bikarhêner Biguherîne"
 
 #: krunnerapp.cpp:156 krunnerapp.cpp:157
 msgid "Lock Session"
-msgstr ""
+msgstr "Danişînê Biqufilîne"
 
 #: krunnerapp.cpp:163 krunnerapp.cpp:164
 msgid "Log Out"
@@ -321,15 +320,15 @@ msgstr "Derketin"
 
 #: krunnerapp.cpp:168 krunnerapp.cpp:169
 msgid "Log Out Without Confirmation"
-msgstr ""
+msgstr "Bê Erêkirinê Derkeve"
 
 #: krunnerapp.cpp:173 krunnerapp.cpp:174
 msgid "Halt without Confirmation"
-msgstr ""
+msgstr "Bê Erêkirinê Rawestîne"
 
 #: krunnerapp.cpp:178 krunnerapp.cpp:179
 msgid "Reboot without Confirmation"
-msgstr ""
+msgstr "Bê Erêkirinê ji nû ve veke"
 
 #: krunnerapp.cpp:227
 msgid "System Activity"
@@ -342,3 +341,4 @@ msgid ""
 "pressing Ctrl+Alt+Backspace; note, however, that your current session will "
 "not be saved with a forced shutdown."
 msgstr ""
+
