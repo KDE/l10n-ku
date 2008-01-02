@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: useraccount\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2007-12-24 06:13+0100\n"
-"PO-Revision-Date: 2007-12-18 14:41+0100\n"
-"Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
+"PO-Revision-Date: 2008-01-02 18:12+0200\n"
+"Last-Translator: Amed Çeko Jiyan <amedcj@gmail.com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,30 +19,34 @@ msgstr ""
 
 #: chfacedlg.cpp:56
 msgid "Change your Face"
-msgstr ""
+msgstr "Rûyê xwe biguherîne"
 
 #: chfacedlg.cpp:74
 msgid "&Acquire Image..."
-msgstr ""
+msgstr "Wêneyê &Bîne..."
 
 #: chfacedlg.cpp:94
 msgid "(Custom)"
 msgstr "(Taybet)"
 
-#: chfacedlg.cpp:113 main.cpp:254
+#: chfacedlg.cpp:113
+#: main.cpp:254
 msgid "There was an error loading the image."
-msgstr ""
+msgstr "Di barkirina wêneyê de çewtiyek derket."
 
-#: chfacedlg.cpp:131 chfacedlg.cpp:167
+#: chfacedlg.cpp:131
+#: chfacedlg.cpp:167
 #, kde-format
 msgid ""
 "There was an error saving the image:\n"
 "%1"
 msgstr ""
+"Di tomarkirina wêneyê de çewtiyek derket:\n"
+"%1"
 
 #: chfacedlg.cpp:142
 msgid "&Save copy in custom faces folder for future use"
-msgstr ""
+msgstr "Ji bo bikaranîna di dahatuyê de, kopiyê di peldanka ûyên takekesî de &tomat bike"
 
 #: chfacedlg.cpp:148
 msgid "Choose Image"
@@ -50,15 +54,15 @@ msgstr "Wêne hilbijêre"
 
 #: main.cpp:69
 msgid "Change &Password..."
-msgstr "&Şîfreyê Biguherîne..."
+msgstr "&Nasnavê Biguherîne..."
 
 #: main.cpp:82
 msgid "kcm_useraccount"
-msgstr ""
+msgstr "kcm_useraccount"
 
 #: main.cpp:83
 msgid "Password & User Information"
-msgstr ""
+msgstr "Nasnav û Agahiyên Bikarhêner"
 
 #: main.cpp:85
 msgid "(C) 2002, Braden MacDonald, (C) 2004 Ravikiran Rajagopal"
@@ -70,7 +74,7 @@ msgstr "Frans Englich"
 
 #: main.cpp:88
 msgid "Maintainer"
-msgstr ""
+msgstr "Parastin"
 
 #: main.cpp:89
 msgid "Ravikiran Rajagopal"
@@ -90,7 +94,7 @@ msgstr "Braden MacDonald"
 
 #: main.cpp:92
 msgid "Face editor"
-msgstr ""
+msgstr "Edîtorê Rû"
 
 #: main.cpp:93
 msgid "Geert Jansen"
@@ -98,7 +102,7 @@ msgstr "Geert Jansen"
 
 #: main.cpp:93
 msgid "Password changer"
-msgstr ""
+msgstr "Guhertina nasnavan"
 
 #: main.cpp:95
 msgid "Daniel Molkentin"
@@ -112,55 +116,53 @@ msgstr "Alex Zepeda"
 msgid "Hans Karlsson"
 msgstr "Hans Karlsson"
 
-#: main.cpp:97 main.cpp:98
+#: main.cpp:97
+#: main.cpp:98
 msgid "Icons"
-msgstr ""
+msgstr "îkon"
 
 #: main.cpp:98
 msgid "Hermann Thomas"
 msgstr "Hermann Thomas"
 
 #: main.cpp:101
-msgid ""
-"<qt>Here you can change your personal information, which will be used in "
-"mail programs and word processors, for example. You can change your login "
-"password by clicking <em>Change Password</em>.</qt>"
-msgstr ""
+msgid "<qt>Here you can change your personal information, which will be used in mail programs and word processors, for example. You can change your login password by clicking <em>Change Password</em>.</qt>"
+msgstr "Li virê tu dikarî agahiyên xwe yên takekesî yên ku dê di bernameyên mail û nivîsandinê de bên bikaranîn, biguherînî. Dikarî nasnavê xwe yê têketinê bi tikandina  <em>Nasnavê Biguherîne</em> biguherînî.</qt>"
 
 #: main.cpp:114
-msgid ""
-"A program error occurred: the internal program 'kdepasswd' could not be "
-"found. You will not be able to change your password."
-msgstr ""
+msgid "A program error occurred: the internal program 'kdepasswd' could not be found. You will not be able to change your password."
+msgstr "Çewtiyeke bernameyê derket: bernameya hundirîn 'kdepasswd' nehat dîtin. Tu yê nikaribî nasnavê xwe biguherînî."
 
 #: main.cpp:213
 msgid "Please enter your password in order to save your settings:"
-msgstr ""
+msgstr "Ji kerema xwe re ji bo tomarkirina mîhengan, nasnavê xwe têkevê:"
 
 #: main.cpp:216
 msgid "You must enter your password in order to change your information."
-msgstr ""
+msgstr "Ji bo guherandina agahiyan divê nasnavê xwe binivîsî."
 
 #: main.cpp:226
 msgid "You must enter a correct password."
-msgstr ""
+msgstr "Divê nasnavekî rast binivîsî."
 
 #: main.cpp:230
 #, kde-format
 msgid ""
-"An error occurred and your password has probably not been changed. The error "
-"message was:\n"
+"An error occurred and your password has probably not been changed. The error message was:\n"
 "%1"
 msgstr ""
+"Çewtiyek derket û nasnav nehat guherandin. Peyama çewtiyê ev e:\n"
+"%1"
 
 #: main.cpp:243
 #, kde-format
 msgid "There was an error saving the image: %1"
-msgstr ""
+msgstr "Di tomarkirina pelê de çewtî derket: %1"
 
-#: main.cpp:268 main.cpp:302
+#: main.cpp:268
+#: main.cpp:302
 msgid "Your administrator has disallowed changing your image."
-msgstr ""
+msgstr "Gerînendeyê te destûrê nade te ku wêneyê biguherînî."
 
 #: main.cpp:335
 #, kde-format
@@ -169,66 +171,69 @@ msgid ""
 "Please use files with these extensions:\n"
 "%2"
 msgstr ""
+"%1 wekî wêneyê xuya nake.\n"
+"Ji kerema xwe re pelên bi van niçikan bi kar bîne:\n"
+"%2"
 
 #. i18n: tag string
 #. i18n: file faceDlg.ui line 24
 #: rc.cpp:3
 msgid "Select a new face:"
-msgstr ""
+msgstr "Rûyekî nû hilbijêre:"
 
 #. i18n: tag string
 #. i18n: file faceDlg.ui line 49
 #: rc.cpp:6
 msgid "Custom Image..."
-msgstr ""
+msgstr "Wêneyê Takekesî..."
 
 #. i18n: tag label
 #. i18n: file kcm_useraccount.kcfg line 24
 #: rc.cpp:9
 msgid "The size of login images"
-msgstr ""
+msgstr "Mezinahiya wêneyên têketinê"
 
 #. i18n: tag label
 #. i18n: file kcm_useraccount.kcfg line 28
 #: rc.cpp:12
 msgid "The default image file"
-msgstr ""
+msgstr "Pela standard a wêneyê"
 
 #. i18n: tag label
 #. i18n: file kcm_useraccount.kcfg line 32
 #: rc.cpp:15
 msgid "The filename of the user's custom image file"
-msgstr ""
+msgstr "Navê pela wêneyê takekesî yê bikarhêner"
 
 #. i18n: tag label
 #. i18n: file kcm_useraccount.kcfg line 36
 #: rc.cpp:18
 msgid "The user's login image"
-msgstr ""
+msgstr "Wêneyê têketinê yê bikarhêner"
 
 #. i18n: tag label
 #. i18n: file kcm_useraccount.kcfg line 40
 #: rc.cpp:21
 msgid "Sort key for K3IconViewItems"
-msgstr ""
+msgstr "Ji bo K3IconViewItems rêz bike"
 
 #. i18n: tag string
 #. i18n: file main_widget.ui line 14
 #: rc.cpp:24
 msgid "KCMUserAccount"
-msgstr ""
+msgstr "KCMUserAccount"
 
 #. i18n: tag string
 #. i18n: file main_widget.ui line 92
 #: rc.cpp:27
 msgid "<i>(Click the button to change your image)</i>"
-msgstr ""
+msgstr "<i>(Ji bo guherandina wêneyê li ser bişkojkê bitikîne)</i>"
 
 #. i18n: tag string
 #. i18n: file main_widget.ui line 109
 #: rc.cpp:30
 msgid "User Information"
-msgstr ""
+msgstr "Agahiyên Bikarhêner"
 
 #. i18n: tag string
 #. i18n: file main_widget.ui line 115
@@ -246,32 +251,31 @@ msgstr "&Rêxistin:"
 #. i18n: file main_widget.ui line 155
 #: rc.cpp:39
 msgid "&Email address:"
-msgstr ""
+msgstr "Navnîşana E-Peyamê:"
 
 #. i18n: tag string
 #. i18n: file main_widget.ui line 175
 #: rc.cpp:42
 msgid "&SMTP server:"
-msgstr ""
+msgstr "Pêşkêşkara &SMTP:"
 
 #. i18n: tag string
 #. i18n: file main_widget.ui line 195
 #: rc.cpp:45
 msgid "User ID:"
-msgstr ""
+msgstr "ID'a Bikarhêner:"
 
 #. i18n: tag string
 #. i18n: file main_widget.ui line 220
 #: rc.cpp:48
 msgid "Change Password..."
-msgstr ""
+msgstr "Nasnavê biguherîne"
 
 #: rc.cpp:49
-msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "Navên we"
 
 #: rc.cpp:50
-msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "Navnîşanên e-peyamên we"
+
