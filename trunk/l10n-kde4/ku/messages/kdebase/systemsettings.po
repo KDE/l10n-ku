@@ -33,8 +33,7 @@ msgstr ""
 msgid "Unsaved Changes"
 msgstr "Guhertinên Netomarkirî"
 
-#: main.cpp:37
-#: main.cpp:38
+#: main.cpp:37 main.cpp:38
 msgid "System Settings"
 msgstr "Mîhengên Pergalê"
 
@@ -54,9 +53,7 @@ msgstr "Nivîskar"
 msgid "Jonathan Riddell"
 msgstr "Jonathan Riddell"
 
-#: main.cpp:42
-#: main.cpp:44
-#: main.cpp:46
+#: main.cpp:42 main.cpp:44 main.cpp:46
 msgid "Contributor"
 msgstr "Alîkar"
 
@@ -92,8 +89,7 @@ msgstr "Pêşdîtin"
 msgid "Ctrl+O"
 msgstr "Ctrl+O"
 
-#: mainwindow.cpp:214
-#: mainwindow.cpp:410
+#: mainwindow.cpp:214 mainwindow.cpp:410
 msgid "About Current Module"
 msgstr "Di Derbarê Modula Derbasdar de"
 
@@ -106,20 +102,20 @@ msgid "Search Bar<p>Enter a search term.</p>"
 msgstr "Qutîka Lêgerînê<p>Peyveke lêgerînê binivîse.</p>"
 
 #: mainwindow.cpp:399
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "About %1"
+msgctxt "Help menu->about <modulename>"
 msgid "About %1"
 msgstr "Di der barê %1 de"
 
-#: mainwindow.cpp:453
-#: mainwindow.cpp:473
+#: mainwindow.cpp:453 mainwindow.cpp:473
 #, kde-format
 msgid "%1 hit in General"
 msgid_plural "%1 hits in General"
 msgstr[0] "%1 car bi Giştî"
 msgstr[1] "%1 car bi Giştî"
 
-#: mainwindow.cpp:456
-#: mainwindow.cpp:477
+#: mainwindow.cpp:456 mainwindow.cpp:477
 #, kde-format
 msgid "%1 hit in Advanced"
 msgid_plural "%1 hits in Advanced"
@@ -139,10 +135,16 @@ msgid "&View"
 msgstr "&Dîtin"
 
 #: rc.cpp:7
+#, fuzzy
+#| msgid "Your names"
+msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Erdal Ronahi, Amed Çeko Jiyan"
 
 #: rc.cpp:8
+#, fuzzy
+#| msgid "Your emails"
+msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 "erdal dot ronahi at gmail dot com\n"
@@ -150,4 +152,3 @@ msgstr ""
 
 #~ msgid "General"
 #~ msgstr "Giştî"
-
