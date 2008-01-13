@@ -3,15 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Erdal Ronahi <erdal dot ronahi at gmail dot com>, 2007.
+# Amed Çeko Jiyan <amedcj@gmail.com>, 2008.
 msgid ""
 msgstr ""
 "Project-Id-Version: drkonqi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2007-12-23 06:21+0100\n"
-"PO-Revision-Date: 2007-12-22 11:04+0100\n"
-"Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
-"Language-Team: Kurdish <gnu-ku-wergerandin at lists dot sourceforge dot "
-"net>\n"
+"PO-Revision-Date: 2008-01-12 18:29+0200\n"
+"Last-Translator: Amed Çeko Jiyan <amedcj@gmail.com>\n"
+"Language-Team: Kurdish <amedcj@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,9 +19,8 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural= n != 1\n"
 
 #: backtrace.cpp:80
-#, kde-format
 msgid "Could not generate a backtrace as the debugger '%1' was not found."
-msgstr ""
+msgstr "Ji ber pêknehatina niqandina çewtiyan %1 , dîtina paşde pêk nehat."
 
 #: debugger.cpp:75
 msgid "C&opy"
@@ -32,40 +31,37 @@ msgid "Done."
 msgstr "Qediya."
 
 #: debugger.cpp:121
-#, kde-format
 msgid "Backtrace saved to %1"
-msgstr ""
+msgstr "Dîtina paşde li pelê%1 hat tomarkirin"
 
 #: debugger.cpp:125
 msgid "Cannot create a file to save the backtrace in"
-msgstr ""
+msgstr "Pela tomarkirina dîtina paşde nehat afirandin"
 
 #: debugger.cpp:130
 msgid "Select Filename"
-msgstr ""
+msgstr "Navê Pelî Hilbijêre"
 
 #: debugger.cpp:138
-#, kde-format
 msgid ""
 "A file named \"%1\" already exists. Are you sure you want to overwrite it?"
-msgstr ""
+msgstr "Bi navê \"%1\" jixwe pelek heye. Ji dil dixwazî li serê binivîsî?"
 
 #: debugger.cpp:140
 msgid "Overwrite File?"
-msgstr ""
+msgstr "Li Ser Pelî Binivîse?"
 
 #: debugger.cpp:141
 msgid "&Overwrite"
-msgstr ""
+msgstr "&Sernivîsandin"
 
 #: debugger.cpp:153
-#, kde-format
 msgid "Cannot open file %1 for writing"
-msgstr ""
+msgstr "Pelê %1 ji bo nivîsandinê venabe"
 
 #: debugger.cpp:161
 msgid "Unable to create a valid backtrace."
-msgstr ""
+msgstr "Dîtineke paşde nayê afiradin"
 
 #: debugger.cpp:162
 msgid ""
@@ -75,16 +71,22 @@ msgid ""
 "the crash.\n"
 "\n"
 msgstr ""
+"Wisa xuya ye ku ev dîtina paşde bi kar nayne.\n"
+"Dibe ku ev ji ber astengiya dîtina paşde a pakêtan\\ be an jî çarçoveya "
+"sergoyê xerab bûbe.\n"
+"\n"
 
 #: debugger.cpp:171
 msgid "Loading backtrace..."
-msgstr ""
+msgstr "Dîtina paşde tê barkirin..."
 
 #: debugger.cpp:194
 msgid ""
 "The following options are enabled:\n"
 "\n"
 msgstr ""
+"Vehijêrkên li jêr hatin çalakirin:\n"
+"\n"
 
 #: debugger.cpp:196
 msgid ""
@@ -94,22 +96,26 @@ msgid ""
 "You need to turn these options off and reproduce the problem again in order "
 "to get a backtrace.\n"
 msgstr ""
+"\n"
+"Ji ber sedema ku di hin rewşan de ji KDE'ê re pirsgirêk derdixin, bikaranîna "
+"van vebijêrkan nayê pêşniyarkirin.\n"
+"Ji bo dîtina paşde divê van vebijêrkan bigirî û çewtiyê ji nû ve bistînî.\n"
 
 #: debugger.cpp:201
 msgid "Backtrace will not be created."
-msgstr ""
+msgstr "Dîtina paşde dê neyê afirandin."
 
 #: debugger.cpp:209
 msgid "Loading symbols..."
-msgstr ""
+msgstr "Sembol tên barkirin..."
 
 #: debugger.cpp:230
 msgid "System configuration startup check disabled.\n"
-msgstr ""
+msgstr "Kontrolkirina destpêkê a avakirina pergalê hat girtin.\n"
 
 #: drbugreport.cpp:53
 msgid "You have to edit the description before the report can be sent."
-msgstr ""
+msgstr "Beriya şandina raporê divê ravekirinê binivîsî."
 
 #: krashconf.cpp:78
 msgid "unknown"
@@ -118,22 +124,24 @@ msgstr "nenas"
 #: main.cpp:43
 msgid "KDE crash handler gives the user feedback if a program crashed"
 msgstr ""
+"Pergala agahiyên têkçûnê a KDE'ê, dema ku bernameyek têk çû, agahiyan dide "
+"bikarhêner"
 
 #: main.cpp:59
 msgid "The KDE Crash Handler"
-msgstr ""
+msgstr "Pergala Agahiyên Têkçûnê a KDE'ê"
 
 #: main.cpp:63
 msgid "(C) 2000-2003, Hans Petter Bieker"
-msgstr ""
+msgstr "(C) 2000-2003, Hans Petter Bieker"
 
 #: main.cpp:64
 msgid "Hans Petter Bieker"
-msgstr ""
+msgstr "Hans Petter Bieker"
 
 #: main.cpp:69
 msgid "The signal number that was caught"
-msgstr ""
+msgstr "Hejmara sinyala hatiye girtin"
 
 #: main.cpp:70
 msgid "Name of the program"
@@ -141,53 +149,53 @@ msgstr "Navê bernameyê"
 
 #: main.cpp:71
 msgid "Path to the executable"
-msgstr ""
+msgstr "Riya pelê xebatê"
 
 #: main.cpp:72
 msgid "The version of the program"
-msgstr ""
+msgstr "Guhertoya bernameyê"
 
 #: main.cpp:73
 msgid "The bug address to use"
-msgstr ""
+msgstr "Navnîşana bugê a ji bo bikaranînê"
 
 #: main.cpp:74
 msgid "Translated name of the program"
-msgstr ""
+msgstr "Navê bernameyê yê hatiye wergerandin"
 
 #: main.cpp:75
 msgid "The PID of the program"
-msgstr ""
+msgstr "PID'a bernameyê"
 
 #: main.cpp:76
 msgid "Startup ID of the program"
-msgstr ""
+msgstr "Nasnameya destpêkê a bernaeyê"
 
 #: main.cpp:77
 msgid "The program was started by kdeinit"
-msgstr ""
+msgstr "Bername ji hêla kdeinit'ê ve hatiye destpêkirin"
 
 #: main.cpp:78
 msgid "Disable arbitrary disk access"
-msgstr ""
+msgstr "Gihandina dîskê a eletexmînî bigire"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "Amed Çeko Jiyan"
 
 #: rc.cpp:2
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "amedcj@gmail.com"
 
 #: toplevel.cpp:64
 msgid "&Bug report"
-msgstr ""
+msgstr "Raporkirina &Bug'an"
 
 #: toplevel.cpp:65
 msgid "&Debugger"
-msgstr ""
+msgstr "&Niqandina çewtiyan"
 
 #: toplevel.cpp:71
 msgid "General"
@@ -195,27 +203,24 @@ msgstr "Giştî"
 
 #: toplevel.cpp:95
 msgid "Backtrace"
-msgstr ""
+msgstr "Dîtina paşde"
 
 #: toplevel.cpp:119
-#, kde-format
 msgid "<p><b>Short description</b></p><p>%1</p>"
-msgstr ""
+msgstr "<p><b>Raveya Kin</b></p><p>%1</p>"
 
 #: toplevel.cpp:123
-#, kde-format
 msgid "<p><b>What is this?</b></p><p>%1</p>"
-msgstr ""
+msgstr "<p><b>Ev çi ye?</b></p><p>%1</p>"
 
 #: toplevel.cpp:127
-#, kde-format
 msgid "<p><b>What can I do?</b></p><p>%1</p>"
-msgstr ""
+msgstr "<p><b>Ez dikarim çi bikim?</b></p><p>%1</p>"
 
 #: toplevel.cpp:132
 #, c-format
 msgid "<p><b>Application crashed</b></p><p>The program %appname crashed.</p>"
-msgstr ""
+msgstr "<p><b>Sepan têk çû</b></p><p>Bernameya %appname têk çû.</p>"
 
 #: toplevel.cpp:151
 msgid ""
@@ -226,23 +231,28 @@ msgid ""
 "information on how to reproduce it. It is not possible to fix the bug "
 "without a proper description.</b></p>"
 msgstr ""
+"<p>Dixwazî dîtina paşde biafirînî? Ev ji bo pêşdebiran dibe alîkar ku "
+"karibin bibînin ka çi çewt e</p>\n"
+"<p>Mixabin ev ê di makîneyên hêdî de dem bigire.</p><p><b>Nîşe:Dîtina paşde "
+"nîşan nade ka çewtî bi temamî çi ye û çawa derketiye. Rastkirina çewtiyan "
+"bêyî raveyeke giştî ya di derbarê têkçûnê de pêk nayê.</b></p>"
 
 #: toplevel.cpp:163
 msgid "Include Backtrace"
-msgstr ""
+msgstr "Dîtina Paşde Têxê"
 
 #: toplevel.cpp:163
 msgid "Generate"
-msgstr ""
+msgstr "Çêke"
 
 #: toplevel.cpp:163
 msgid "Do Not Generate"
-msgstr ""
+msgstr "Çêneke"
 
 #: toplevel.cpp:230
 msgid "It was not possible to generate a backtrace."
-msgstr ""
+msgstr "Çêkirina dîtina paşde çênebû."
 
 #: toplevel.cpp:231
 msgid "Backtrace Not Possible"
-msgstr ""
+msgstr "Dîtina Paşde Çênebû"
