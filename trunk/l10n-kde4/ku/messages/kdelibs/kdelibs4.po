@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-01-18 07:58+0100\n"
+"POT-Creation-Date: 2008-01-19 08:55+0100\n"
 "PO-Revision-Date: 2008-01-05 15:57+0200\n"
 "Last-Translator: Amed Çeko Jiyan <amedcj@gmail.com>\n"
 "Language-Team: Kurdish <amedcj@gmail.com>\n"
@@ -3864,7 +3864,7 @@ msgid_plural ""
 msgstr[0] "Cureyê mine yên nehate dîtin <resource>%2</resource>"
 msgstr[1] "Cureyên mine yên nehatin dîtin <resource>%2</resource>"
 
-#: kdecore/services/kmimetype.cpp:124
+#: kdecore/services/kmimetype.cpp:129
 msgid ""
 "No mime types installed. Check that shared-mime-info is installed, and that "
 "XDG_DATA_DIRS is not set, or includes /usr/share"
@@ -6795,7 +6795,7 @@ msgstr "Di Stûnan De Lê Bigere"
 msgid "All Visible Columns"
 msgstr "Hemû Stûnên ku Dixuye"
 
-#: kdeui/itemviews/ktreewidgetsearchline.cpp:604
+#: kdeui/itemviews/ktreewidgetsearchline.cpp:605
 #: kde3support/kdeui/k3listviewsearchline.cpp:557
 msgid "S&earch:"
 msgstr "Bi&gere:"
@@ -7215,20 +7215,20 @@ msgstr "&Bi Dawî Bû"
 msgid "Sonnet Configuration"
 msgstr "Veavakirina Sonnetê"
 
-#: kdeui/sonnet/highlighter.cpp:221 kdeui/sonnet/highlighter.cpp:242
+#: kdeui/sonnet/highlighter.cpp:222 kdeui/sonnet/highlighter.cpp:243
 #: kde3support/kdeui/k3syntaxhighlighter.cpp:470
 #: kde3support/kdeui/k3syntaxhighlighter.cpp:576
 msgid "As-you-type spell checking enabled."
 msgstr "Dema nivîsandinê de kontrolkirina pêyvrêziyê çalak e."
 
-#: kdeui/sonnet/highlighter.cpp:223
+#: kdeui/sonnet/highlighter.cpp:224
 #: kde3support/kdeui/k3syntaxhighlighter.cpp:578
 msgid "Too many misspelled words. As-you-type spell checking disabled."
 msgstr ""
 "Pir zêde peyvên şaş hate dîtin. Dema nivîsînê de kontrolkirina rastnivîsê wê "
 "were rawestandin."
 
-#: kdeui/sonnet/highlighter.cpp:244
+#: kdeui/sonnet/highlighter.cpp:245
 #: kde3support/kdeui/k3syntaxhighlighter.cpp:472
 msgid "As-you-type spell checking disabled."
 msgstr "Di dema nivisandinê de kontrolkirina nivîsê hate astengkirin."
@@ -7256,6 +7256,12 @@ msgstr "Darikê Amûran Nîşan Bide"
 #: kdeui/xmlgui/ktoolbarhandler.cpp:95
 msgid "Toolbars"
 msgstr "Darikên Amûran"
+
+#: kdeui/widgets/ktabbar.cpp:220
+#, fuzzy
+#| msgid "Close Script"
+msgid "Close this tab"
+msgstr "Skrîptê Dade"
 
 #: kdeui/widgets/klanguagebutton.cpp:175
 msgid "without name"
@@ -8323,19 +8329,19 @@ msgctxt "No shortcut defined"
 msgid "None"
 msgstr "Ti yek"
 
-#: kdeui/widgets/keditlistbox.cpp:236
+#: kdeui/widgets/keditlistbox.cpp:323
 msgid "&Add"
 msgstr "&Têxê"
 
-#: kdeui/widgets/keditlistbox.cpp:248
+#: kdeui/widgets/keditlistbox.cpp:335
 msgid "&Remove"
 msgstr "&Rake"
 
-#: kdeui/widgets/keditlistbox.cpp:260
+#: kdeui/widgets/keditlistbox.cpp:347
 msgid "Move &Up"
 msgstr "Bikşîne &Jor"
 
-#: kdeui/widgets/keditlistbox.cpp:265
+#: kdeui/widgets/keditlistbox.cpp:352
 msgid "Move &Down"
 msgstr "Bikşîne &Jêr"
 
@@ -8500,6 +8506,12 @@ msgstr "Kontrolkirina Rastnivîsê ya Bixweber"
 #: kdeui/widgets/ktextedit.cpp:330 kde3support/kdeui/k3textedit.cpp:242
 msgid "Allow Tabulations"
 msgstr "Destûrê Bide Hilfirînan"
+
+#: kdeui/widgets/ktextedit.cpp:436
+#, fuzzy
+#| msgid "Nothing to Delete"
+msgid "Nothing to spell check."
+msgstr "Tu tiştekî Jêbirinê tune"
 
 #: kfile/kfileplacesview.cpp:365
 #, kde-format
