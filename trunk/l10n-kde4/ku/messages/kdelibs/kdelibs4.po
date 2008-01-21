@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-01-20 08:55+0100\n"
+"POT-Creation-Date: 2008-01-21 07:41+0100\n"
 "PO-Revision-Date: 2008-01-05 15:57+0200\n"
 "Last-Translator: Amed Çeko Jiyan <amedcj@gmail.com>\n"
 "Language-Team: Kurdish <amedcj@gmail.com>\n"
@@ -622,7 +622,7 @@ msgstr "&Guhestin"
 #. i18n: file ./kdeui/xmlgui/ui_standards.rc line 100
 #. i18n: tag text
 #. i18n: file ./khtml/khtml_browser.rc line 20
-#: rc.cpp:237 rc.cpp:378 kfile/kdiroperator.cpp:1618
+#: rc.cpp:237 rc.cpp:378 kfile/kdiroperator.cpp:1648
 msgid "&View"
 msgstr "&Dîtin"
 
@@ -3082,13 +3082,13 @@ msgctxt "@item Calendar system"
 msgid "Invalid Calendar Type"
 msgstr "Cureyê Salnameyê Nederbasdar"
 
-#: kdecore/date/kdatetime.cpp:1467 kdecore/date/kdatetime.cpp:1477
-#: kdecore/date/kdatetime.cpp:2814 kdecore/localization/klocale.cpp:1713
+#: kdecore/date/kdatetime.cpp:1466 kdecore/date/kdatetime.cpp:1476
+#: kdecore/date/kdatetime.cpp:2813 kdecore/localization/klocale.cpp:1713
 #: kdecore/localization/klocale.cpp:1839
 msgid "am"
 msgstr "bn"
 
-#: kdecore/date/kdatetime.cpp:2822 kdecore/localization/klocale.cpp:1704
+#: kdecore/date/kdatetime.cpp:2821 kdecore/localization/klocale.cpp:1704
 #: kdecore/localization/klocale.cpp:1837
 msgid "pm"
 msgstr "pn"
@@ -5408,7 +5408,7 @@ msgstr "Rake"
 msgid "Test"
 msgstr "Ceribandin"
 
-#: kdeui/util/kstandardguiitem.cpp:285 kfile/kdiroperator.cpp:1611
+#: kdeui/util/kstandardguiitem.cpp:285 kfile/kdiroperator.cpp:1641
 msgid "Properties"
 msgstr "Taybetmendî"
 
@@ -7211,24 +7211,42 @@ msgctxt "@action:button"
 msgid "&Finished"
 msgstr "&Bi Dawî Bû"
 
+#: kdeui/sonnet/dialog.cpp:156
+#, fuzzy
+#| msgid "Spell Checker"
+msgid "Spell check stopped."
+msgstr "Kontrolkerê Rastnivîsê"
+
+#: kdeui/sonnet/dialog.cpp:164
+#, fuzzy
+#| msgid "Spell Checker"
+msgid "Spell check canceled."
+msgstr "Kontrolkerê Rastnivîsê"
+
+#: kdeui/sonnet/dialog.cpp:298
+#, fuzzy
+#| msgid "Spell Checker"
+msgid "Spell check complete."
+msgstr "Kontrolkerê Rastnivîsê"
+
 #: kdeui/sonnet/configdialog.cpp:42
 msgid "Sonnet Configuration"
 msgstr "Veavakirina Sonnetê"
 
-#: kdeui/sonnet/highlighter.cpp:222 kdeui/sonnet/highlighter.cpp:243
+#: kdeui/sonnet/highlighter.cpp:221 kdeui/sonnet/highlighter.cpp:242
 #: kde3support/kdeui/k3syntaxhighlighter.cpp:470
 #: kde3support/kdeui/k3syntaxhighlighter.cpp:576
 msgid "As-you-type spell checking enabled."
 msgstr "Dema nivîsandinê de kontrolkirina pêyvrêziyê çalak e."
 
-#: kdeui/sonnet/highlighter.cpp:224
+#: kdeui/sonnet/highlighter.cpp:223
 #: kde3support/kdeui/k3syntaxhighlighter.cpp:578
 msgid "Too many misspelled words. As-you-type spell checking disabled."
 msgstr ""
 "Pir zêde peyvên şaş hate dîtin. Dema nivîsînê de kontrolkirina rastnivîsê wê "
 "were rawestandin."
 
-#: kdeui/sonnet/highlighter.cpp:245
+#: kdeui/sonnet/highlighter.cpp:244
 #: kde3support/kdeui/k3syntaxhighlighter.cpp:472
 msgid "As-you-type spell checking disabled."
 msgstr "Di dema nivisandinê de kontrolkirina nivîsê hate astengkirin."
@@ -8495,19 +8513,19 @@ msgstr "Herêm"
 msgid "Comment"
 msgstr "Şirove"
 
-#: kdeui/widgets/ktextedit.cpp:320 kde3support/kdeui/k3textedit.cpp:232
+#: kdeui/widgets/ktextedit.cpp:326 kde3support/kdeui/k3textedit.cpp:232
 msgid "Check Spelling..."
 msgstr "Rastnivîsê Kontrol Bike..."
 
-#: kdeui/widgets/ktextedit.cpp:325 kde3support/kdeui/k3textedit.cpp:238
+#: kdeui/widgets/ktextedit.cpp:331 kde3support/kdeui/k3textedit.cpp:238
 msgid "Auto Spell Check"
 msgstr "Kontrolkirina Rastnivîsê ya Bixweber"
 
-#: kdeui/widgets/ktextedit.cpp:330 kde3support/kdeui/k3textedit.cpp:242
+#: kdeui/widgets/ktextedit.cpp:336 kde3support/kdeui/k3textedit.cpp:242
 msgid "Allow Tabulations"
 msgstr "Destûrê Bide Hilfirînan"
 
-#: kdeui/widgets/ktextedit.cpp:436
+#: kdeui/widgets/ktextedit.cpp:442
 #, fuzzy
 #| msgid "Nothing to Delete"
 msgid "Nothing to spell check."
@@ -8779,11 +8797,11 @@ msgid "Custom Path"
 msgstr "Rêça Taybet"
 
 #: kfile/kdirselectdialog.cpp:115 kfile/kdirselectdialog.cpp:119
-#: kfile/kdiroperator.cpp:640 kfile/kdiroperator.cpp:648
+#: kfile/kdiroperator.cpp:642 kfile/kdiroperator.cpp:650
 msgid "New Folder"
 msgstr "Peldanka nû"
 
-#: kfile/kdirselectdialog.cpp:120 kfile/kdiroperator.cpp:649
+#: kfile/kdirselectdialog.cpp:120 kfile/kdiroperator.cpp:651
 #, kde-format
 msgid ""
 "Create new folder in:\n"
@@ -8792,12 +8810,12 @@ msgstr ""
 "Peldanka nû li vir biafirîne:\n"
 "%1"
 
-#: kfile/kdirselectdialog.cpp:143 kfile/kdiroperator.cpp:675
+#: kfile/kdirselectdialog.cpp:143 kfile/kdiroperator.cpp:677
 #, kde-format
 msgid "A file or folder named %1 already exists."
 msgstr "Bi navê %1 jixwe pel an jî peldankek heye"
 
-#: kfile/kdirselectdialog.cpp:147 kfile/kdiroperator.cpp:678
+#: kfile/kdirselectdialog.cpp:147 kfile/kdiroperator.cpp:680
 msgid "You do not have permission to create that folder."
 msgstr "Ji bo afirandina vê peldankê destûra te tune."
 
@@ -8806,7 +8824,7 @@ msgid "Select Folder"
 msgstr "Peldankê Hilbijêre"
 
 #: kfile/kdirselectdialog.cpp:225 kfile/kdirselectdialog.cpp:261
-#: kfile/kdiroperator.cpp:1540
+#: kfile/kdiroperator.cpp:1570
 msgid "New Folder..."
 msgstr "Peldanka nû..."
 
@@ -8861,15 +8879,15 @@ msgid ""
 "entry will be available in all applications.</qt>"
 msgstr ""
 
-#: kfile/kdiroperator.cpp:693
+#: kfile/kdiroperator.cpp:695
 msgid "You did not select a file to delete."
 msgstr "Ji bo jêbirinê te pelek hilnebijart."
 
-#: kfile/kdiroperator.cpp:694
+#: kfile/kdiroperator.cpp:696
 msgid "Nothing to Delete"
 msgstr "Tu tiştekî Jêbirinê tune"
 
-#: kfile/kdiroperator.cpp:715
+#: kfile/kdiroperator.cpp:717
 #, kde-format
 msgid ""
 "<qt>Do you really want to delete\n"
@@ -8878,30 +8896,30 @@ msgstr ""
 "<qt>Tu mîsoger dixwazî vê jê bibî\n"
 " <b>'%1'</b>?</qt>"
 
-#: kfile/kdiroperator.cpp:717
+#: kfile/kdiroperator.cpp:719
 msgid "Delete File"
 msgstr "Pelî Jê Bibe"
 
-#: kfile/kdiroperator.cpp:722
+#: kfile/kdiroperator.cpp:724
 #, kde-format
 msgid "Do you really want to delete this item?"
 msgid_plural "Do you really want to delete these %1 items?"
 msgstr[0] "Bi rastî jî tu dixwazî vê hêmanê jê bibî?"
 msgstr[1] "Bi rastî jî tu dixwazî pelê '%1' bixebitînî? "
 
-#: kfile/kdiroperator.cpp:724
+#: kfile/kdiroperator.cpp:726
 msgid "Delete Files"
 msgstr "Pelan Jê Bibe"
 
-#: kfile/kdiroperator.cpp:755
+#: kfile/kdiroperator.cpp:757
 msgid "You did not select a file to trash."
 msgstr "Ji bo jêbirine te pelek hilnebijart."
 
-#: kfile/kdiroperator.cpp:756
+#: kfile/kdiroperator.cpp:758
 msgid "Nothing to Trash"
 msgstr "Tu tiştekî jêbirinê tune"
 
-#: kfile/kdiroperator.cpp:773
+#: kfile/kdiroperator.cpp:775
 #, kde-format
 msgid ""
 "<qt>Do you really want to trash\n"
@@ -8910,91 +8928,91 @@ msgstr ""
 "<qt>Ji dil dixwazî\n"
 "<b>%1</b>ê jê bibî?</qt>"
 
-#: kfile/kdiroperator.cpp:775
+#: kfile/kdiroperator.cpp:777
 msgid "Trash File"
 msgstr "Pelî Biavêje Çopê"
 
-#: kfile/kdiroperator.cpp:776 kfile/kdiroperator.cpp:783
+#: kfile/kdiroperator.cpp:778 kfile/kdiroperator.cpp:785
 msgctxt "to trash"
 msgid "&Trash"
 msgstr "&Çop"
 
-#: kfile/kdiroperator.cpp:780
+#: kfile/kdiroperator.cpp:782
 #, kde-format
 msgid "translators: not called for n == 1"
 msgid_plural "Do you really want to trash these %1 items?"
 msgstr[0] ""
 msgstr[1] ""
 
-#: kfile/kdiroperator.cpp:782
+#: kfile/kdiroperator.cpp:784
 msgid "Trash Files"
 msgstr "Pelan Biavêje Çopê"
 
-#: kfile/kdiroperator.cpp:905 kfile/kdiroperator.cpp:1018
+#: kfile/kdiroperator.cpp:907 kfile/kdiroperator.cpp:1020
 msgid "The specified folder does not exist or was not readable."
 msgstr ""
 
-#: kfile/kdiroperator.cpp:1523
+#: kfile/kdiroperator.cpp:1553
 msgid "Menu"
 msgstr "Pêşek"
 
-#: kfile/kdiroperator.cpp:1527
+#: kfile/kdiroperator.cpp:1557
 msgid "Parent Folder"
 msgstr "Peldanka Dayîk"
 
-#: kfile/kdiroperator.cpp:1534
+#: kfile/kdiroperator.cpp:1564
 msgid "Home Folder"
 msgstr "Peldanka Mal"
 
-#: kfile/kdiroperator.cpp:1537
+#: kfile/kdiroperator.cpp:1567
 msgid "Reload"
 msgstr "Nûbarkirin"
 
-#: kfile/kdiroperator.cpp:1545
+#: kfile/kdiroperator.cpp:1575
 msgid "Move to Trash"
 msgstr "Dake Qutîka Çopê"
 
-#: kfile/kdiroperator.cpp:1551
+#: kfile/kdiroperator.cpp:1581
 msgid "Delete"
 msgstr "Jê bibe"
 
-#: kfile/kdiroperator.cpp:1558
+#: kfile/kdiroperator.cpp:1588
 msgid "Sorting"
 msgstr "Rêzkirin"
 
-#: kfile/kdiroperator.cpp:1561
+#: kfile/kdiroperator.cpp:1591
 msgid "By Name"
 msgstr "Li Nav"
 
-#: kfile/kdiroperator.cpp:1565
+#: kfile/kdiroperator.cpp:1595
 msgid "By Size"
 msgstr "Li Mezinahî"
 
-#: kfile/kdiroperator.cpp:1569
+#: kfile/kdiroperator.cpp:1599
 msgid "By Date"
 msgstr "Li Roj"
 
-#: kfile/kdiroperator.cpp:1573
+#: kfile/kdiroperator.cpp:1603
 msgid "By Type"
 msgstr "Li Cure"
 
-#: kfile/kdiroperator.cpp:1577
+#: kfile/kdiroperator.cpp:1607
 msgid "Descending"
 msgstr "Ber bi jêr"
 
-#: kfile/kdiroperator.cpp:1587
+#: kfile/kdiroperator.cpp:1617
 msgid "Short View"
 msgstr "Kurte"
 
-#: kfile/kdiroperator.cpp:1592
+#: kfile/kdiroperator.cpp:1622
 msgid "Detailed View"
 msgstr "Kitekit"
 
-#: kfile/kdiroperator.cpp:1601
+#: kfile/kdiroperator.cpp:1631
 msgid "Show Hidden Files"
 msgstr "Pelên Veşartî Nîşan Bide"
 
-#: kfile/kdiroperator.cpp:1605
+#: kfile/kdiroperator.cpp:1635
 msgid "Show Preview"
 msgstr "Pêşdîtin"
 
