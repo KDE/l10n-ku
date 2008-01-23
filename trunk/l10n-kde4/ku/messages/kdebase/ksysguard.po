@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-01-09 07:17+0100\n"
+"POT-Creation-Date: 2008-01-23 08:58+0100\n"
 "PO-Revision-Date: 2008-01-23 00:01+0100\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <ku@li.org>\n"
@@ -125,7 +125,9 @@ msgstr ""
 msgid "User Load"
 msgstr ""
 
-#: ksgrd/SensorManager.cc:63
+#. i18n: tag WorkSheet attribute title
+#. i18n: file ./SystemLoad.sgrd line 3
+#: ksgrd/SensorManager.cc:63 rc.cpp:149
 msgid "System Load"
 msgstr "Bara Pergalê"
 
@@ -1287,14 +1289,6 @@ msgstr "&Guherandin"
 msgid "Process Table"
 msgstr ""
 
-#. i18n: tag WorkSheet attribute title
-#. i18n: file ./SystemLoad.sgrd line 3
-#: rc.cpp:149
-#, fuzzy
-#| msgid "System Load"
-msgid "Sensor Load"
-msgstr "Bara Pergalê"
-
 #: WorkSheetSettings.cc:40
 msgid "Worksheet Properties"
 msgstr ""
@@ -1488,3 +1482,7 @@ msgstr ""
 msgid "Optional worksheet files to load"
 msgstr ""
 
+#, fuzzy
+#~| msgid "System Load"
+#~ msgid "Sensor Load"
+#~ msgstr "Bara Pergalê"
