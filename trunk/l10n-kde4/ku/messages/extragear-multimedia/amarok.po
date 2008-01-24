@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok-neu\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-01-23 09:03+0100\n"
+"POT-Creation-Date: 2008-01-24 10:51+0100\n"
 "PO-Revision-Date: 2007-12-16 23:28+0100\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
@@ -106,7 +106,8 @@ msgid "Stream"
 msgstr ""
 
 #: collection/sqlcollection/SqlMeta.cpp:190 metabundle.cpp:1026
-#: CoverManager.cpp:337 CoverManager.cpp:994
+#: servicebrowser/lastfm/meta/LastFmMeta.cpp:160 CoverManager.cpp:337
+#: CoverManager.cpp:994
 #, kde-format
 msgid "%1 - %2"
 msgstr "%1 - %2"
@@ -10268,6 +10269,65 @@ msgstr ""
 msgid "Adding album cover to collection"
 msgstr ""
 
+#: servicebrowser/lastfm/meta/LastFmMeta.cpp:82
+#, kde-format
+msgid "Global Tag Radio: %1"
+msgstr ""
+
+#: servicebrowser/lastfm/meta/LastFmMeta.cpp:88
+#, kde-format
+msgid "User Tag Radio: %1"
+msgstr ""
+
+#: servicebrowser/lastfm/meta/LastFmMeta.cpp:96
+#, kde-format
+msgid "Similar Artists to %1"
+msgstr ""
+
+#: servicebrowser/lastfm/meta/LastFmMeta.cpp:99
+#, kde-format
+msgid "Artist Fan Radio: %1"
+msgstr ""
+
+#: servicebrowser/lastfm/meta/LastFmMeta.cpp:108
+#, fuzzy, kde-format
+#| msgid "Neighbor Radio"
+msgid "%1's Neighbor Radio"
+msgstr "Radyoyên Cîran"
+
+#: servicebrowser/lastfm/meta/LastFmMeta.cpp:111
+#, fuzzy, kde-format
+#| msgid "Personal Radio"
+msgid "%1's Personal Radio"
+msgstr "Radyoyên Şexsî"
+
+#: servicebrowser/lastfm/meta/LastFmMeta.cpp:114
+#, kde-format
+msgid "%1's Loved Radio"
+msgstr ""
+
+#: servicebrowser/lastfm/meta/LastFmMeta.cpp:117
+#, kde-format
+msgid "%1's Recommended Radio (Popularity %2)"
+msgstr ""
+
+#: servicebrowser/lastfm/meta/LastFmMeta.cpp:124
+#, kde-format
+msgid "Group Radio: %1"
+msgstr ""
+
+#: servicebrowser/lastfm/meta/LastFmMeta.cpp:132
+#, fuzzy
+#| msgid "Track #"
+msgid "Track Radio"
+msgstr "Stran  #"
+
+#: servicebrowser/lastfm/meta/LastFmMeta.cpp:135
+#, fuzzy
+#| msgid "Artist"
+msgid "Artist Radio"
+msgstr "Hunermend"
+
 #: servicebrowser/lastfm/AudioController.cpp:94
 msgid "Radio playlist has ended."
 msgstr ""
@@ -10290,7 +10350,7 @@ msgstr "û"
 msgid "Skip"
 msgstr ""
 
-#: servicebrowser/lastfm/LastFmServiceCollection.cpp:59
+#: servicebrowser/lastfm/LastFmServiceCollection.cpp:60
 msgid "last.fm"
 msgstr "last.fm"
 
