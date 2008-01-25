@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok-neu\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-01-24 10:51+0100\n"
+"POT-Creation-Date: 2008-01-25 09:42+0100\n"
 "PO-Revision-Date: 2007-12-16 23:28+0100\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
@@ -386,40 +386,28 @@ msgstr ""
 msgid "Remove this %1"
 msgstr ""
 
-#: context/applets/currenttrack/CurrentTrack.cpp:60
+#: context/applets/currenttrack/CurrentTrack.cpp:67
 #, fuzzy
 msgid "Track:"
 msgstr "Stran  #"
 
 #. i18n: tag string
 #. i18n: file ./servicebrowser/magnatunestore/magnatunepurchasedialogbase.ui line 110
-#: context/applets/currenttrack/CurrentTrack.cpp:61 rc.cpp:1697
+#: context/applets/currenttrack/CurrentTrack.cpp:68 rc.cpp:1697
 msgid "Artist:"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./servicebrowser/magnatunestore/magnatunepurchasedialogbase.ui line 90
-#: context/applets/currenttrack/CurrentTrack.cpp:62 rc.cpp:1694
+#: context/applets/currenttrack/CurrentTrack.cpp:69 rc.cpp:1694
 msgid "Album:"
 msgstr ""
 
-#: context/applets/currenttrack/CurrentTrack.cpp:63
-msgid "S"
-msgstr ""
-
-#: context/applets/currenttrack/CurrentTrack.cpp:64
-msgid "#"
-msgstr ""
-
-#: context/applets/currenttrack/CurrentTrack.cpp:65
-msgid "L"
-msgstr ""
-
-#: context/applets/currenttrack/CurrentTrack.cpp:235
+#: context/applets/currenttrack/CurrentTrack.cpp:262
 msgid "Configure Current Track Applet"
 msgstr ""
 
-#: context/applets/currenttrack/CurrentTrack.cpp:248
+#: context/applets/currenttrack/CurrentTrack.cpp:275
 #: context/applets/playlistinfo/PlaylistInfo.cpp:161
 msgid "Width"
 msgstr ""
@@ -1683,7 +1671,7 @@ msgstr "%1. %2"
 #: querybuilder.cpp:494 querybuilder.cpp:544 metabundle.cpp:606
 #: collectionbrowser/OrganizeCollectionDialog.ui.h:24
 #: collectionbrowser/CollectionTreeItem.cpp:118 collectiondb.cpp:2144
-#: collectiondb.cpp:2209 playlist/PlaylistGraphicsItem.cpp:306
+#: collectiondb.cpp:2209 playlist/PlaylistGraphicsItem.cpp:336
 #: CoverManager.cpp:994
 msgid "Various Artists"
 msgstr "Hunermendên cur bi cur"
@@ -2279,7 +2267,7 @@ msgid "Generic Audio Player"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./servicebrowser/ampache/AmpacheConfigWidget.ui line 100
+#. i18n: file ./servicebrowser/ampache/AmpacheConfigWidget.ui line 104
 #: MediaDevicePluginManager.cpp:561 rc.cpp:1874
 #, fuzzy
 msgid "Remove"
@@ -8220,26 +8208,26 @@ msgid "Password"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./servicebrowser/ampache/AmpacheConfigWidget.ui line 71
+#. i18n: file ./servicebrowser/ampache/AmpacheConfigWidget.ui line 75
 #: rc.cpp:1865
 msgid "Active"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./servicebrowser/ampache/AmpacheConfigWidget.ui line 87
+#. i18n: file ./servicebrowser/ampache/AmpacheConfigWidget.ui line 91
 #: rc.cpp:1868
 #, fuzzy
 msgid "Edit"
 msgstr "Sere&rast bike"
 
 #. i18n: tag string
-#. i18n: file ./servicebrowser/ampache/AmpacheConfigWidget.ui line 93
+#. i18n: file ./servicebrowser/ampache/AmpacheConfigWidget.ui line 97
 #: rc.cpp:1871
 msgid "Add"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./servicebrowser/ampache/AmpacheConfigWidget.ui line 107
+#. i18n: file ./servicebrowser/ampache/AmpacheConfigWidget.ui line 111
 #: rc.cpp:1877
 msgid "Modify"
 msgstr ""
@@ -11043,6 +11031,12 @@ msgstr ""
 #, kde-format
 msgid " - ( <b>%1</b> without cover )"
 msgstr ""
+
+#: CoverManager.cpp:1015
+#, fuzzy
+#| msgid "Artist"
+msgid "No Artist"
+msgstr "Hunermend"
 
 #: konquisidebar/universalamarok.cpp:269
 msgid "Amarok is not running!"
