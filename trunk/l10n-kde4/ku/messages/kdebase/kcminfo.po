@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: kcminfo\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2008-01-03 06:19+0100\n"
-"PO-Revision-Date: 2008-01-12 02:30+0100\n"
+"PO-Revision-Date: 2008-01-27 00:18+0100\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <ku@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -152,8 +152,8 @@ msgstr ""
 #, kde-format
 msgid "1 Bit"
 msgid_plural "%1 Bits"
-msgstr[0] ""
-msgstr[1] "1 Bit"
+msgstr[0] "1 Bit"
+msgstr[1] "%1 Bit"
 
 #: info.cpp:243
 msgid "1 Byte"
@@ -181,7 +181,7 @@ msgstr ""
 
 #: info.cpp:276 opengl.cpp:632
 msgid "Name of the Display"
-msgstr ""
+msgstr "Navê Dîmenderê"
 
 #: info.cpp:279
 msgid "Vendor String"
@@ -272,7 +272,7 @@ msgstr "(c) 1998 - 2002 Helge Deller"
 
 #: info.cpp:415 memory.cpp:108
 msgid "Helge Deller"
-msgstr ""
+msgstr "Helge Deller"
 
 #: info.cpp:431
 msgid "This list displays system information on the selected category."
@@ -318,12 +318,12 @@ msgstr ""
 #: info_aix.cpp:453 info_hpux.cpp:575 info_linux.cpp:473 info_netbsd.cpp:280
 #: info_solaris.cpp:188
 msgid "Total Size"
-msgstr ""
+msgstr "Mezinahiya Tevî"
 
 #: info_aix.cpp:454 info_hpux.cpp:576 info_linux.cpp:474 info_netbsd.cpp:281
 #: info_solaris.cpp:191
 msgid "Free Size"
-msgstr ""
+msgstr "Mezinahiya Azad"
 
 #: info_aix.cpp:472 info_aix.cpp:479 info_hpux.cpp:594 info_hpux.cpp:601
 msgid "n/a"
@@ -346,18 +346,15 @@ msgid ""
 msgstr ""
 
 #: info_fbsd.cpp:184
-msgid ""
-"SCSI subsystem could not be queried: /sbin/camcontrol could not be found"
+msgid "SCSI subsystem could not be queried: /sbin/camcontrol could not be found"
 msgstr ""
 
 #: info_fbsd.cpp:187
-msgid ""
-"SCSI subsystem could not be queried: /sbin/camcontrol could not be executed"
+msgid "SCSI subsystem could not be queried: /sbin/camcontrol could not be executed"
 msgstr ""
 
 #: info_fbsd.cpp:232
-msgid ""
-"Could not find any programs with which to query your system's PCI information"
+msgid "Could not find any programs with which to query your system's PCI information"
 msgstr ""
 
 #: info_fbsd.cpp:248
@@ -412,7 +409,7 @@ msgstr ""
 
 #: info_hpux.cpp:400
 msgid "CPU Clock"
-msgstr ""
+msgstr "Demjimêra CPU"
 
 #: info_hpux.cpp:401 info_solaris.cpp:82
 msgid "MHz"
@@ -424,7 +421,7 @@ msgstr "(nenas)"
 
 #: info_hpux.cpp:423
 msgid "CPU Architecture"
-msgstr ""
+msgstr "Mîmariya CPU"
 
 #: info_hpux.cpp:432
 msgid "enabled"
@@ -451,8 +448,7 @@ msgid "Size of One Page"
 msgstr ""
 
 #: info_hpux.cpp:625
-msgid ""
-"Audio-Support (Alib) was disabled during configuration and compile-time."
+msgid "Audio-Support (Alib) was disabled during configuration and compile-time."
 msgstr ""
 
 #: info_hpux.cpp:657
@@ -481,7 +477,7 @@ msgstr ""
 
 #: info_hpux.cpp:677
 msgid "Release"
-msgstr ""
+msgstr "Weşandin"
 
 #: info_hpux.cpp:680
 msgid "Byte Order"
@@ -561,11 +557,11 @@ msgstr ""
 
 #: info_hpux.cpp:723 info_hpux.cpp:747
 msgid "Left-Channel"
-msgstr ""
+msgstr "Kanala Çep"
 
 #: info_hpux.cpp:725 info_hpux.cpp:749
 msgid "Right-Channel"
-msgstr ""
+msgstr "Kanala Rast"
 
 #: info_hpux.cpp:728
 msgid "Output Destinations"
@@ -657,7 +653,7 @@ msgstr ""
 
 #: info_linux.cpp:213 main.cpp:79
 msgid "Devices"
-msgstr ""
+msgstr "Cîhaz"
 
 #: info_linux.cpp:214
 msgid "Major Number"
@@ -681,7 +677,7 @@ msgstr ""
 
 #: info_netbsd.cpp:179 info_openbsd.cpp:196
 msgid "IRQ"
-msgstr ""
+msgstr "IRQ"
 
 #: info_netbsd.cpp:195 info_openbsd.cpp:210
 msgid "No PCI devices found."
@@ -709,7 +705,7 @@ msgstr ""
 
 #: info_netbsd.cpp:284
 msgid "Flags"
-msgstr ""
+msgstr "Ala"
 
 #: info_openbsd.cpp:275
 msgid "Unable to run /sbin/mount."
@@ -723,17 +719,17 @@ msgstr ""
 #: info_osx.cpp:86
 #, kde-format
 msgid "CPU %1: %2"
-msgstr ""
+msgstr "CPU %1: %2"
 
 #: info_osx.cpp:140
 #, kde-format
 msgid "Device Name: %1"
-msgstr ""
+msgstr "Navê Cîhazê: %1"
 
 #: info_osx.cpp:148
 #, kde-format
 msgid "Manufacturer: %1"
-msgstr ""
+msgstr "Hilberîner: %1"
 
 #: info_solaris.cpp:79
 msgid "Instance"
@@ -741,19 +737,19 @@ msgstr ""
 
 #: info_solaris.cpp:80
 msgid "CPU Type"
-msgstr ""
+msgstr "Cureyê CPU"
 
 #: info_solaris.cpp:81
 msgid "FPU Type"
-msgstr ""
+msgstr "Cureyê FPU"
 
 #: info_solaris.cpp:83
 msgid "State"
-msgstr ""
+msgstr "Rewş"
 
 #: info_solaris.cpp:194
 msgid "Mount Time"
-msgstr ""
+msgstr "Dema Girêdanê"
 
 #: info_solaris.cpp:462
 msgid "Spectype:"
@@ -777,7 +773,7 @@ msgstr ""
 
 #: info_solaris.cpp:542
 msgid "(no value)"
-msgstr ""
+msgstr "(bê nirx)"
 
 #: info_solaris.cpp:611
 msgid "Driver Name:"
@@ -801,7 +797,7 @@ msgstr ""
 
 #: info_solaris.cpp:639
 msgid "Properties"
-msgstr ""
+msgstr "Taybetmendî"
 
 #: info_solaris.cpp:651
 msgid "Type:"
@@ -817,7 +813,7 @@ msgstr ""
 
 #: info_solaris.cpp:687
 msgid "Device Information"
-msgstr ""
+msgstr "Agahiya Cîhazan"
 
 #: main.cpp:58
 msgid "Processor(s)"
@@ -837,7 +833,7 @@ msgstr ""
 
 #: main.cpp:73
 msgid "Soundcard"
-msgstr ""
+msgstr "Karta Dengê"
 
 #: main.cpp:76
 msgid "SCSI"
@@ -845,7 +841,7 @@ msgstr "SCSI"
 
 #: main.cpp:82
 msgid "Partitions"
-msgstr ""
+msgstr "Partîsiyon"
 
 #: main.cpp:85
 msgid "X-Server"
@@ -1136,7 +1132,7 @@ msgstr ""
 
 #: opengl.cpp:488
 msgid "OpenGL version"
-msgstr ""
+msgstr "Guhartoya OpenGL"
 
 #: opengl.cpp:492
 msgid "Kernel module"
@@ -1144,7 +1140,7 @@ msgstr ""
 
 #: opengl.cpp:495
 msgid "OpenGL extensions"
-msgstr ""
+msgstr "Pêvekên OpenGL"
 
 #: opengl.cpp:498
 msgid "Implementation specific"
@@ -1180,7 +1176,7 @@ msgstr ""
 
 #: opengl.cpp:518
 msgid "GLX extensions"
-msgstr ""
+msgstr "Pêvekên GLX"
 
 #: opengl.cpp:522
 msgid "GLU"
@@ -1192,7 +1188,7 @@ msgstr ""
 
 #: opengl.cpp:524
 msgid "GLU extensions"
-msgstr ""
+msgstr "Pêvekên GLU"
 
 #: opengl.cpp:656
 msgid "Could not initialize OpenGL"
@@ -1207,3 +1203,4 @@ msgstr ""
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
+
