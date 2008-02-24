@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krunner\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-02-20 14:21+0100\n"
+"POT-Creation-Date: 2008-02-24 13:25+0100\n"
 "PO-Revision-Date: 2008-02-11 03:18+0100\n"
 "Last-Translator: \n"
 "Language-Team: ku <kde-i18n-doc@lists.kde.org>\n"
@@ -59,20 +59,20 @@ msgstr "Tenê dîmenderparêzê veke"
 msgid "Only use the blank screensaver"
 msgstr "Tenê dîmenderparêza vala bi kar bîne"
 
-#: lock/lockprocess.cc:739
+#: lock/lockprocess.cc:743
 msgid "Will not lock the session, as unlocking would be impossible:\n"
 msgstr ""
 "Ji ber ku dê mifteya danişînê vene be, dê danişîn neyê miftekirin jî:\n"
 
-#: lock/lockprocess.cc:743
+#: lock/lockprocess.cc:747
 msgid "Cannot start <i>kcheckpass</i>."
 msgstr "Bernameya <i>Kcheckpass</i> nehate xebitandin."
 
-#: lock/lockprocess.cc:744
+#: lock/lockprocess.cc:748
 msgid "<i>kcheckpass</i> is unable to operate. Possibly it is not SetUID root."
 msgstr "<i>Kcheckpass</i> nikare bixebite. Dibe ku SetUID ne root be."
 
-#: lock/lockprocess.cc:787
+#: lock/lockprocess.cc:791
 msgid "No appropriate greeter plugin configured."
 msgstr "Pêvekeke lihevkir a beramber nayê dîtin."
 
@@ -93,26 +93,26 @@ msgstr "&Mifteyê veke"
 msgid "Sw&itch User..."
 msgstr "&Bikarhêner Biguherîne..."
 
-#: lock/lockdlg.cc:178
+#: lock/lockdlg.cc:176
 msgid "<b>Unlocking failed</b>"
 msgstr "<b>Vekirina mifteyê bi ser neket</b>"
 
-#: lock/lockdlg.cc:186
+#: lock/lockdlg.cc:184
 msgid "<b>Warning: Caps Lock on</b>"
 msgstr "<b>Hişyarî: Caps Lock vekirî ye</b>"
 
-#: lock/lockdlg.cc:418
+#: lock/lockdlg.cc:416
 #, kde-format
 msgid ""
 "Cannot unlock the session because the authentication system failed to work;\n"
 "you must kill krunner_lock (pid %1) manually."
 msgstr ""
 
-#: lock/lockdlg.cc:503
+#: lock/lockdlg.cc:501
 msgid "&Start New Session"
 msgstr "&Dest Bi Danişîna Nû Bike"
 
-#: lock/lockdlg.cc:511
+#: lock/lockdlg.cc:509
 #, kde-format
 msgid ""
 "You have chosen to open another desktop session instead of resuming the "
@@ -126,24 +126,24 @@ msgid ""
 "between sessions."
 msgstr ""
 
-#: lock/lockdlg.cc:524
+#: lock/lockdlg.cc:522
 msgid "&Do not ask again"
 msgstr "&Careke din nepirse"
 
-#: lock/lockdlg.cc:582
+#: lock/lockdlg.cc:578
 msgid "Session"
 msgstr "Danişîn"
 
-#: lock/lockdlg.cc:583
+#: lock/lockdlg.cc:579
 msgid "Location"
 msgstr "Cih"
 
-#: lock/lockdlg.cc:609
+#: lock/lockdlg.cc:605
 msgctxt "session"
 msgid "&Activate"
 msgstr "&Çalakkirin"
 
-#: lock/lockdlg.cc:618
+#: lock/lockdlg.cc:614
 msgid "Start &New Session"
 msgstr "Dest Bi Danişîna &Nû Bike"
 
@@ -233,7 +233,7 @@ msgstr ""
 #. i18n: tag label
 #. i18n: file krunner.kcfg line 26
 #: rc.cpp:21
-msgid "Maximum number of query matching threads able run simultaneously."
+msgid "Maximum number of threads to use for searches."
 msgstr ""
 
 #. i18n: tag whatsthis
@@ -241,7 +241,7 @@ msgstr ""
 #: rc.cpp:24
 msgid ""
 "The number of threads used scales with the number of processors. This entry "
-"allows you to define a hard upper limit independant of the number of "
+"allows you to define a hard upper limit independent of the number of "
 "processors."
 msgstr ""
 

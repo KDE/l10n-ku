@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_launcher\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-02-23 11:41+0100\n"
+"POT-Creation-Date: 2008-02-24 13:25+0100\n"
 "PO-Revision-Date: 2007-12-21 20:15+0100\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <gnu-ku-wergerandin at lists dot sourceforge dot "
@@ -18,10 +18,10 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural= n != 1\n"
 
-#: ui/flipscrollview.cpp:165 ui/launcher.cpp:170
-#: core/recentlyusedmodel.cpp:105 core/systemmodel.cpp:90
-#: core/searchmodel.cpp:133 simpleapplet/simpleapplet.cpp:225
-msgid "Applications"
+#: ui/flipscrollview.cpp:138
+#, fuzzy
+#| msgid "Applications"
+msgid "All Applications"
 msgstr "Sepan"
 
 #: ui/contextmenufactory.cpp:78
@@ -59,6 +59,11 @@ msgstr "Biterikîne"
 msgid "Favorites"
 msgstr "Bijarte"
 
+#: ui/launcher.cpp:170 core/recentlyusedmodel.cpp:106 core/systemmodel.cpp:92
+#: core/searchmodel.cpp:133 simpleapplet/simpleapplet.cpp:225
+msgid "Applications"
+msgstr "Sepan"
+
 #: ui/launcher.cpp:181 simpleapplet/simpleapplet.cpp:227
 msgid "Recently Used"
 msgstr "Berê bikaranî"
@@ -77,12 +82,12 @@ msgstr "Belgeyên Borî Pakuj bike"
 msgid "Computer"
 msgstr "Komputera min"
 
-#: ui/launcher.cpp:293
+#: ui/launcher.cpp:290
 #, kde-format
 msgid "User&nbsp;<b>%1</b>&nbsp;on&nbsp;<b>%2</b>"
 msgstr ""
 
-#: ui/searchbar.cpp:66
+#: ui/searchbar.cpp:67
 msgid "Search:"
 msgstr "Lêgerîn:"
 
@@ -156,19 +161,19 @@ msgstr "Home Folder"
 msgid "Network Folders"
 msgstr "Peldankên Torê"
 
-#: core/recentlyusedmodel.cpp:96 core/searchmodel.cpp:216
+#: core/recentlyusedmodel.cpp:97 core/searchmodel.cpp:216
 msgid "Documents"
 msgstr "Belge"
 
-#: core/systemmodel.cpp:91
+#: core/systemmodel.cpp:93
 msgid "Places"
 msgstr "Cih"
 
-#: core/systemmodel.cpp:92
+#: core/systemmodel.cpp:94
 msgid "Removable Storage"
 msgstr "Cîhaza Tomarkirinê ya Nesabît"
 
-#: core/systemmodel.cpp:93
+#: core/systemmodel.cpp:95
 msgid "Storage"
 msgstr "Cîhaza Tomarkirinê"
 
