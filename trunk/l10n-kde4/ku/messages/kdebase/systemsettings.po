@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: systemsettings\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-02-03 08:52+0100\n"
+"POT-Creation-Date: 2008-02-25 13:30+0100\n"
 "PO-Revision-Date: 2008-01-02 18:23+0200\n"
 "Last-Translator: Amed Çeko Jiyan <amedcj@gmail.com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
@@ -21,7 +21,7 @@ msgstr ""
 msgid "Configure"
 msgstr "Veavakirin"
 
-#: kcmultiwidget.cpp:298
+#: kcmultiwidget.cpp:349
 msgid ""
 "There are unsaved changes in the active module.\n"
 "Do you want to apply the changes or discard them?"
@@ -29,7 +29,7 @@ msgstr ""
 "Di modulên çalak de guhertinên netomarkirî hene.\n"
 "Dixwazî guhertinan bisepînî an jî derbas bibî?"
 
-#: kcmultiwidget.cpp:300
+#: kcmultiwidget.cpp:351
 msgid "Unsaved Changes"
 msgstr "Guhertinên Netomarkirî"
 
@@ -73,75 +73,40 @@ msgstr "Ellen Reitmayr"
 msgid "Usability"
 msgstr "Bikêrhatin"
 
-#: mainwindow.cpp:197
-msgid "Undo Changes"
-msgstr "Guhertinan Şûnde Bîne"
-
-#: mainwindow.cpp:203
-msgid "Reset to Defaults"
-msgstr "Vegerîne Destoêkê"
-
-#: mainwindow.cpp:210
+#: mainwindow.cpp:200
 msgid "Overview"
 msgstr "Pêşdîtin"
 
-#: mainwindow.cpp:213
-msgid "Ctrl+O"
-msgstr "Ctrl+O"
-
-#: mainwindow.cpp:217 mainwindow.cpp:413
-msgid "About Current Module"
-msgstr "Di Derbarê Modula Derbasdar de"
-
-#: mainwindow.cpp:228
+#: mainwindow.cpp:210
 msgid "S&earch:"
 msgstr "&Lêgerîn:"
 
-#: mainwindow.cpp:281
+#: mainwindow.cpp:263
 msgid "Search Bar<p>Enter a search term.</p>"
 msgstr "Qutîka Lêgerînê<p>Peyveke lêgerînê binivîse.</p>"
 
-#: mainwindow.cpp:402
-#, fuzzy, kde-format
-#| msgid "About %1"
-msgctxt "Help menu->about <modulename>"
-msgid "About %1"
-msgstr "Di der barê %1 de"
-
-#: mainwindow.cpp:456 mainwindow.cpp:476
+#: mainwindow.cpp:371
 #, kde-format
 msgid "%1 hit in General"
 msgid_plural "%1 hits in General"
 msgstr[0] "%1 car bi Giştî"
 msgstr[1] "%1 car bi Giştî"
 
-#: mainwindow.cpp:459 mainwindow.cpp:480
+#: mainwindow.cpp:374
 #, kde-format
 msgid "%1 hit in Advanced"
 msgid_plural "%1 hits in Advanced"
 msgstr[0] "%1 car bi Pêşkeftî"
 msgstr[1] "%1 car bi Pêşkeftî"
 
-#. i18n: tag Text
-#. i18n: file systemsettingsui.rc line 5
-#: rc.cpp:3
-msgid "&File"
-msgstr "&Pel"
-
-#. i18n: tag Text
-#. i18n: file systemsettingsui.rc line 11
-#: rc.cpp:6
-msgid "&View"
-msgstr "&Dîtin"
-
-#: rc.cpp:7
+#: rc.cpp:1
 #, fuzzy
 #| msgid "Your names"
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Erdal Ronahi, Amed Çeko Jiyan"
 
-#: rc.cpp:8
+#: rc.cpp:2
 #, fuzzy
 #| msgid "Your emails"
 msgctxt "EMAIL OF TRANSLATORS"
@@ -149,6 +114,30 @@ msgid "Your emails"
 msgstr ""
 "erdal dot ronahi at gmail dot com\n"
 "amedcj at gmail dot com"
+
+#~ msgid "Undo Changes"
+#~ msgstr "Guhertinan Şûnde Bîne"
+
+#~ msgid "Reset to Defaults"
+#~ msgstr "Vegerîne Destoêkê"
+
+#~ msgid "Ctrl+O"
+#~ msgstr "Ctrl+O"
+
+#~ msgid "About Current Module"
+#~ msgstr "Di Derbarê Modula Derbasdar de"
+
+#, fuzzy
+#~| msgid "About %1"
+#~ msgctxt "Help menu->about <modulename>"
+#~ msgid "About %1"
+#~ msgstr "Di der barê %1 de"
+
+#~ msgid "&File"
+#~ msgstr "&Pel"
+
+#~ msgid "&View"
+#~ msgstr "&Dîtin"
 
 #~ msgid "General"
 #~ msgstr "Giştî"
