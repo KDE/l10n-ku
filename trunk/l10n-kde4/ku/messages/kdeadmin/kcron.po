@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcron\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-02-25 13:33+0100\n"
+"POT-Creation-Date: 2008-02-26 14:46+0100\n"
 "PO-Revision-Date: 2007-12-17 02:26+0100\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
@@ -17,30 +17,20 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural= n != 1\n"
 
-#: src/crontabWidget.cpp:127
+#: src/crontabWidget.cpp:128
 msgid "Show the following Cron:"
 msgstr ""
 
-#: src/crontabWidget.cpp:131
+#: src/crontabWidget.cpp:132
 msgid "Personal Cron"
 msgstr ""
 
-#: src/crontabWidget.cpp:136
+#: src/crontabWidget.cpp:137
 msgid "System Cron"
 msgstr ""
 
-#: src/crontabWidget.cpp:140
+#: src/crontabWidget.cpp:141
 msgid "Cron of User:"
-msgstr ""
-
-#: src/crontabWidget.cpp:303
-#, kde-format
-msgctxt "user on host"
-msgid "%1 <placeholder>%2</placeholder> on %3"
-msgstr ""
-
-#: src/crontabWidget.cpp:308
-msgid "Scheduled Tasks"
 msgstr ""
 
 #: src/crontablib/cthost.cpp:53
@@ -51,7 +41,7 @@ msgid ""
 "Check the crontab man page for further details."
 msgstr ""
 
-#: src/crontablib/cttask.cpp:232 src/taskWidget.cpp:69
+#: src/crontablib/cttask.cpp:232
 msgid "At system startup"
 msgstr ""
 
@@ -126,7 +116,7 @@ msgstr ""
 msgid "No password entry found for uid '%1'"
 msgstr ""
 
-#: src/crontablib/ctcron.cpp:332
+#: src/crontablib/ctcron.cpp:333
 msgid "An error occurred while updating crontab."
 msgstr ""
 
@@ -368,52 +358,36 @@ msgstr ""
 msgid "Sunday"
 msgstr ""
 
-#: src/tasksWidget.cpp:41
+#: src/tasksWidget.cpp:40
 msgid "<b>Tasks</b>"
 msgstr ""
 
-#: src/tasksWidget.cpp:51
+#: src/tasksWidget.cpp:50 src/crontabPrinter.cpp:135
 msgid "Scheduling"
 msgstr ""
 
-#: src/tasksWidget.cpp:52
+#: src/tasksWidget.cpp:51 src/crontabPrinter.cpp:135
 msgid "Command"
 msgstr ""
 
-#: src/tasksWidget.cpp:53 src/variablesWidget.cpp:47
+#: src/tasksWidget.cpp:52 src/variablesWidget.cpp:48
 msgid "Status"
 msgstr ""
 
-#: src/tasksWidget.cpp:54
+#: src/tasksWidget.cpp:53 src/crontabPrinter.cpp:135
 msgid "Description"
 msgstr ""
 
-#: src/tasksWidget.cpp:55
+#: src/tasksWidget.cpp:54
 msgid "Scheduling Details"
 msgstr ""
 
-#: src/tasksWidget.cpp:73
-msgid "Task name:"
-msgstr ""
-
-#: src/tasksWidget.cpp:74
-msgid "Program:"
-msgstr ""
-
-#: src/tasksWidget.cpp:75 src/variablesWidget.cpp:105
-msgid "Description:"
-msgstr ""
-
-#: src/tasksWidget.cpp:80
-msgid "No tasks..."
-msgstr ""
-
-#: src/tasksWidget.cpp:161
+#: src/tasksWidget.cpp:130
 msgctxt "Do not use any quote characters (') in this string"
 msgid "End of script execution. Type Enter or Ctrl+C to exit."
 msgstr ""
 
-#: src/tasksWidget.cpp:194
+#: src/tasksWidget.cpp:163
 msgid "New Task"
 msgstr ""
 
@@ -551,62 +525,39 @@ msgstr ""
 msgid "Alberto G. Hierro"
 msgstr ""
 
-#: src/variablesWidget.cpp:35
+#: src/variablesWidget.cpp:36
 msgid "<b>Environment Variables</b>"
 msgstr ""
 
-#: src/variablesWidget.cpp:45
+#: src/variablesWidget.cpp:46
 msgid "Variable"
 msgstr ""
 
-#: src/variablesWidget.cpp:46
+#: src/variablesWidget.cpp:47
 msgid "Value"
 msgstr ""
 
-#: src/variablesWidget.cpp:48
+#: src/variablesWidget.cpp:49
 msgid "Comment"
 msgstr ""
 
-#: src/variablesWidget.cpp:103
-msgctxt "The environmental variable name ie HOME, MAILTO etc"
-msgid "Variable:"
-msgstr ""
-
-#: src/variablesWidget.cpp:104
-msgid "Value:"
-msgstr ""
-
-#: src/variablesWidget.cpp:110
-msgid "No variables..."
-msgstr ""
-
-#: src/variablesWidget.cpp:142
+#: src/variablesWidget.cpp:112
 msgid "New Variable"
 msgstr ""
 
-#: src/taskWidget.cpp:36 src/variableWidget.cpp:36
+#: src/taskWidget.cpp:35 src/variableWidget.cpp:35
 msgid "Enabled"
 msgstr ""
 
-#: src/taskWidget.cpp:39 src/variableWidget.cpp:40
+#: src/taskWidget.cpp:38 src/variableWidget.cpp:39
 msgid "Disabled"
 msgstr ""
 
-#: src/taskWidget.cpp:73
-msgctxt "The cron task had been disabled"
-msgid "Disabled."
-msgstr ""
-
-#: src/taskWidget.cpp:77
+#: src/taskWidget.cpp:63
 msgid "Modify Task"
 msgstr ""
 
-#: src/variableWidget.cpp:67
-msgctxt "The cron variable has been disabled"
-msgid "Disabled."
-msgstr ""
-
-#: src/variableWidget.cpp:73
+#: src/variableWidget.cpp:61
 msgid "Modify Variable"
 msgstr ""
 
@@ -769,19 +720,33 @@ msgstr ""
 msgid "<i>Please enter the variable value ...</i>"
 msgstr ""
 
-#: src/crontabPrinter.cpp:78
-msgid "Print Cron Tab"
+#: src/crontabPrinter.cpp:120
+msgid "Scheduled Tasks"
 msgstr ""
 
-#: src/ktprintopt.cpp:25
+#: src/crontabPrinter.cpp:159
+msgid "Environment Variables"
+msgstr ""
+
+#: src/crontabPrinter.cpp:182
+msgid "System Crontab"
+msgstr ""
+
+#: src/crontabPrinter.cpp:184
+#, kde-format
+msgctxt "Crontab of user login"
+msgid "Crontab of user %1"
+msgstr ""
+
+#: src/crontabPrinterWidget.cpp:24
 msgid "Cron Options"
 msgstr ""
 
-#: src/ktprintopt.cpp:31
+#: src/crontabPrinterWidget.cpp:30
 msgid "Print cron&tab"
 msgstr ""
 
-#: src/ktprintopt.cpp:35
+#: src/crontabPrinterWidget.cpp:34
 msgid "Print &all users"
 msgstr ""
 
