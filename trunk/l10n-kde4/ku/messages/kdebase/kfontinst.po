@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: kfontinst\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2008-01-23 08:58+0100\n"
-"PO-Revision-Date: 2008-02-21 16:50+0100\n"
+"PO-Revision-Date: 2008-03-02 18:13+0100\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
-"Language-Team: Kurdish <ku@li.org>\n"
+"Language-Team: ku <kde-i18n-doc@lists.kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural= n != 1\n"
-"X-Generator: KBabel 1.11.4\n"
+"X-Generator: KAider 0.1\n"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -61,7 +61,7 @@ msgstr ""
 
 #: apps/Installer.cpp:192
 msgid "URL to install"
-msgstr ""
+msgstr "URL ji bo sazkirinê"
 
 #: apps/Printer.cpp:96
 msgid "Print"
@@ -69,11 +69,11 @@ msgstr "Çapkirin"
 
 #: apps/Printer.cpp:230
 msgid "Font Printer"
-msgstr ""
+msgstr "Capera Curenivîsan"
 
 #: apps/Printer.cpp:230
 msgid "Simple font printer"
-msgstr ""
+msgstr "Capera curenivîsan a hesan"
 
 #: apps/Printer.cpp:239
 msgid "Size index to print fonts"
@@ -115,20 +115,20 @@ msgstr "URL ya were vekirin"
 
 #: kcmfontinst/DuplicatesDialog.cpp:73
 msgid "Duplicate Fonts"
-msgstr ""
+msgstr "Curenivîsên Dubare"
 
 #: kcmfontinst/DuplicatesDialog.cpp:98
 msgid "Scanning for duplicate fonts. Please wait..."
-msgstr ""
+msgstr "Li curenivîsên dubare tê gerîn. Li bendê be..."
 
 #: kcmfontinst/DuplicatesDialog.cpp:119
 msgid "No duplicate fonts found."
-msgstr ""
+msgstr "Curenivîsên dubare nehatin dîtin."
 
 #: kcmfontinst/DuplicatesDialog.cpp:124
 #, kde-format
 msgid "%1 duplicate fonts found."
-msgstr ""
+msgstr "%1 curenivîsê dubare hate dîtin."
 
 #: kcmfontinst/DuplicatesDialog.cpp:214
 #, kde-format
@@ -136,10 +136,12 @@ msgid ""
 "Could not delete:\n"
 "%1"
 msgstr ""
+"Jêbirin biserneket:\n"
+"%1"
 
 #: kcmfontinst/DuplicatesDialog.cpp:216
 msgid "Could not delete the following files:"
-msgstr ""
+msgstr "Jêbirina vî pelî biserneket:"
 
 #: kcmfontinst/DuplicatesDialog.cpp:230
 msgid "Abort font scan?"
@@ -151,10 +153,12 @@ msgid ""
 "Are you sure you wish to delete:\n"
 "%1"
 msgstr ""
+"Tu bi rastî bixwazî jê bibî:\n"
+"%1"
 
 #: kcmfontinst/DuplicatesDialog.cpp:260
 msgid "Are you sure you wish to delete:"
-msgstr ""
+msgstr "Tu bi rastî bixwazî jê bibî:"
 
 #: kcmfontinst/DuplicatesDialog.cpp:509
 msgid "Font/File"
@@ -174,7 +178,7 @@ msgstr ""
 
 #: kcmfontinst/DuplicatesDialog.cpp:525 kcmfontinst/FontList.cpp:1623
 msgid "Open in Font Viewer"
-msgstr ""
+msgstr "Di Nîşandêrê Curenivîsan de Veke"
 
 #: kcmfontinst/DuplicatesDialog.cpp:527
 msgid "Properties"
@@ -182,11 +186,11 @@ msgstr "Taybetmendî"
 
 #: kcmfontinst/DuplicatesDialog.cpp:530
 msgid "Unmark for Deletion..."
-msgstr ""
+msgstr "Ji bo Jêbirinê Nîşan rake..."
 
 #: kcmfontinst/DuplicatesDialog.cpp:532
 msgid "Mark for Deletion..."
-msgstr ""
+msgstr "Ji bo Jêbirinê Nîşan bike..."
 
 #: kcmfontinst/DuplicatesDialog.cpp:609 kcmfontinst/FontList.cpp:2022
 #, kde-format
@@ -195,7 +199,7 @@ msgstr ""
 
 #: kcmfontinst/FontFilter.cpp:82
 msgid "Set Criteria"
-msgstr ""
+msgstr "Krîter Diyar bike"
 
 #: kcmfontinst/FontFilter.cpp:94
 msgid "Family"
@@ -259,7 +263,7 @@ msgstr ""
 #: kcmfontinst/FontList.cpp:1190 kcmfontinst/FontList.cpp:1214
 #, kde-format
 msgid "...plus %1 more"
-msgstr ""
+msgstr "...û %1 din"
 
 #: kcmfontinst/FontList.cpp:1242
 #, kde-format
@@ -335,6 +339,8 @@ msgid ""
 "<p>Do you really want to remove '<b>%1</b>'?</p><p><i>This will only remove "
 "the group, and not the actual fonts.</i></p>"
 msgstr ""
+"<p>Bi rastî dixwazî '<b>%1</b>' rakî?</p><p><i>Bi vî rengî tenê kom tê "
+"rakirin, curenivîs nayên rakirin.</i></p>"
 
 #: kcmfontinst/GroupList.cpp:588
 msgid "Remove Group"
@@ -429,7 +435,7 @@ msgstr ""
 
 #: kcmfontinst/JobRunner.cpp:77
 msgid "Information"
-msgstr ""
+msgstr "Agahî"
 
 #: kcmfontinst/JobRunner.cpp:79
 msgid "Skip"
@@ -507,7 +513,7 @@ msgstr "Tê neçalakkirin"
 
 #: kcmfontinst/JobRunner.cpp:327
 msgid "Updating font configuration. Please wait..."
-msgstr ""
+msgstr "Mîhengên curenivîsan tên rojanekirin. Li bendê be..."
 
 #: kcmfontinst/JobRunner.cpp:365
 #, kde-format
@@ -569,7 +575,7 @@ msgstr "Craig Drummond"
 
 #: kcmfontinst/KCmFontInst.cpp:224
 msgid "Developer and maintainer"
-msgstr ""
+msgstr "Pêşdebir û kesê miqate"
 
 #: kcmfontinst/KCmFontInst.cpp:280
 msgid "This displays a preview of the selected font."
@@ -581,11 +587,11 @@ msgstr "Mîheng"
 
 #: kcmfontinst/KCmFontInst.cpp:286
 msgid "Change Preview Text..."
-msgstr ""
+msgstr "Nivîsa Pêşdîtinê Biguherîne..."
 
 #: kcmfontinst/KCmFontInst.cpp:287
 msgid "Scan For Duplicate Fonts..."
-msgstr ""
+msgstr "Li Curenivîsên Dubare Bigere..."
 
 #: kcmfontinst/KCmFontInst.cpp:291
 msgid "Tools"
@@ -593,11 +599,11 @@ msgstr "Amûr"
 
 #: kcmfontinst/KCmFontInst.cpp:293
 msgid "Font Management Mode"
-msgstr ""
+msgstr "Moda Rêvebirina Curenivîsan"
 
 #: kcmfontinst/KCmFontInst.cpp:294
 msgid "Show Large Preview"
-msgstr ""
+msgstr "Pêşdîtina Mezin Nîşan Bide"
 
 #: kcmfontinst/KCmFontInst.cpp:328
 msgid "Create a new group"
@@ -605,11 +611,11 @@ msgstr "Komeke nû biafirîne"
 
 #: kcmfontinst/KCmFontInst.cpp:336
 msgid "Enable all disabled fonts in the current group"
-msgstr ""
+msgstr "Hemû curenivîsên neçalakkirî di vê komê de çalak bike"
 
 #: kcmfontinst/KCmFontInst.cpp:340
 msgid "Disable all enabled fonts in the current group"
-msgstr ""
+msgstr "Hemû curenivîsên çalakkirî di vê komê de neçalak bike"
 
 #: kcmfontinst/KCmFontInst.cpp:356
 msgid "Add..."
@@ -617,7 +623,7 @@ msgstr "Têxistin..."
 
 #: kcmfontinst/KCmFontInst.cpp:357
 msgid "Install fonts"
-msgstr ""
+msgstr "Curenivîsan saz bike"
 
 #: kcmfontinst/KCmFontInst.cpp:360
 msgid "Delete..."
@@ -625,7 +631,7 @@ msgstr "Jêbirin..."
 
 #: kcmfontinst/KCmFontInst.cpp:361
 msgid "Delete all selected fonts"
-msgstr ""
+msgstr "Hemû curenivîsên hilbijartî jê bibe"
 
 #: kcmfontinst/KCmFontInst.cpp:364 kcmfontinst/KCmFontInst.cpp:1369
 #: kcmfontinst/KCmFontInst.cpp:1393
@@ -688,7 +694,7 @@ msgstr ""
 
 #: kcmfontinst/KCmFontInst.cpp:794
 msgid "Cannot Print"
-msgstr ""
+msgstr "Çapkirin Çênabe"
 
 #: kcmfontinst/KCmFontInst.cpp:812
 msgid "You did not select anything to delete."
@@ -696,7 +702,7 @@ msgstr ""
 
 #: kcmfontinst/KCmFontInst.cpp:813
 msgid "Nothing to Delete"
-msgstr ""
+msgstr "Tiştekî ji bo Jêbirinê tune"
 
 #: kcmfontinst/KCmFontInst.cpp:829
 #, kde-format
@@ -705,22 +711,22 @@ msgstr ""
 
 #: kcmfontinst/KCmFontInst.cpp:831
 msgid "Delete Font"
-msgstr ""
+msgstr "Curenivîsî Jê Bibe"
 
 #: kcmfontinst/KCmFontInst.cpp:835
 #, kde-format
 msgid "Do you really want to delete this font?"
 msgid_plural "Do you really want to delete these %1 fonts?"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Bi rastî dixwazî vî curenivîsî jê bibî?"
+msgstr[1] "Bi rastî dixwazî van %1 curenivîsan jê bibî?"
 
 #: kcmfontinst/KCmFontInst.cpp:838
 msgid "Delete Fonts"
-msgstr ""
+msgstr "Curenivîsan Jê Bibe"
 
 #: kcmfontinst/KCmFontInst.cpp:843
 msgid "Deleting font(s)..."
-msgstr ""
+msgstr "Curenivîs tê(n) jêbirin..."
 
 #: kcmfontinst/KCmFontInst.cpp:862
 msgid "You did not select anything to copy."
@@ -737,22 +743,22 @@ msgstr ""
 
 #: kcmfontinst/KCmFontInst.cpp:876
 msgid "Copy Font"
-msgstr ""
+msgstr "Curenivîsî ji ber bigire"
 
 #: kcmfontinst/KCmFontInst.cpp:876 kcmfontinst/KCmFontInst.cpp:883
 msgid "Copy"
-msgstr ""
+msgstr "Jibergirtin"
 
 #: kcmfontinst/KCmFontInst.cpp:880
 #, kde-format
 msgid "Do you really want to copy this font?"
 msgid_plural "Do you really want to copy these %1 fonts?"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Bi rastî dixwazî vî curenivîsî ji ber bigirî?"
+msgstr[1] "Bi rastî dixwazî van %1 curenivîsan ji ber bigirî?"
 
 #: kcmfontinst/KCmFontInst.cpp:883
 msgid "Copy Fonts"
-msgstr ""
+msgstr "Curenivîsan Ji Ber Bigire"
 
 #: kcmfontinst/KCmFontInst.cpp:888
 msgid "Copying font(s)..."
@@ -777,7 +783,7 @@ msgstr ""
 
 #: kcmfontinst/KCmFontInst.cpp:920 kcmfontinst/KCmFontInst.cpp:927
 msgid "Move"
-msgstr ""
+msgstr "Guhestin"
 
 #: kcmfontinst/KCmFontInst.cpp:924
 #, kde-format
@@ -796,43 +802,43 @@ msgstr ""
 
 #: kcmfontinst/KCmFontInst.cpp:952
 msgid "Create New Group"
-msgstr ""
+msgstr "Komeke Nû Biafirîne"
 
 #: kcmfontinst/KCmFontInst.cpp:953
 msgid "Please enter the name of the new group:"
-msgstr ""
+msgstr "Ji kerema xwe re navê koma nû binivîse:"
 
 #: kcmfontinst/KCmFontInst.cpp:954
 msgid "New Group"
-msgstr ""
+msgstr "Koma Nû"
 
 #: kcmfontinst/KCmFontInst.cpp:983 viewpart/FontViewPart.cpp:407
 msgid "Preview String"
-msgstr ""
+msgstr "Hevoka Pêşdîtinê"
 
 #: kcmfontinst/KCmFontInst.cpp:984 viewpart/FontViewPart.cpp:408
 msgid "Please enter new string:"
-msgstr ""
+msgstr "Ji kerema xwe re hevoka nû binivîse:"
 
 #: kcmfontinst/KCmFontInst.cpp:1039
 msgid "Scanning font list..."
-msgstr ""
+msgstr "Lîsteya curenivîsan tê venihartin..."
 
 #: kcmfontinst/KCmFontInst.cpp:1110
 msgid "No fonts"
-msgstr ""
+msgstr "Curenivîs tune"
 
 #: kcmfontinst/KCmFontInst.cpp:1116
 #, kde-format
 msgid "1 Font"
 msgid_plural "%1 Fonts"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "1 Curenivîs"
+msgstr[1] "%1 Curenivîs"
 
 #: kcmfontinst/KCmFontInst.cpp:1119
 #, kde-format
 msgid " (%1 Enabled, %2 Disabled, %3 Partial)"
-msgstr ""
+msgstr " (%1 Çalakkirî, %2 Neçalakkirî, %3 Qismen)"
 
 #: kcmfontinst/KCmFontInst.cpp:1171 kcmfontinst/KCmFontInst.cpp:1189
 msgid "Would you like to install the font(s) for personal use?"
@@ -848,7 +854,7 @@ msgstr ""
 
 #: kcmfontinst/KCmFontInst.cpp:1210
 msgid "Scanning Files..."
-msgstr ""
+msgstr "Pel Tên Venihartin..."
 
 #: kcmfontinst/KCmFontInst.cpp:1211
 msgid "Looking for additional files to install..."
@@ -861,7 +867,7 @@ msgstr ""
 
 #: kcmfontinst/KCmFontInst.cpp:1255
 msgid "Installing font(s)..."
-msgstr ""
+msgstr "Curenivîs tê(n) sazkirin..."
 
 #: kcmfontinst/KCmFontInst.cpp:1336
 msgid "You did not select anything to enable."
@@ -905,19 +911,19 @@ msgstr ""
 
 #: kcmfontinst/KCmFontInst.cpp:1368
 msgid "Enable Font"
-msgstr ""
+msgstr "Curenivîsî Çalak Bike"
 
 #: kcmfontinst/KCmFontInst.cpp:1368
 msgid "Disable Font"
-msgstr ""
+msgstr "Curenivîsî Neçalak Bike"
 
 #: kcmfontinst/KCmFontInst.cpp:1369
 msgid "Enable font"
-msgstr ""
+msgstr "Curenivîsî çalak bike"
 
 #: kcmfontinst/KCmFontInst.cpp:1370
 msgid "Disable font"
-msgstr ""
+msgstr "Curenivîsî neçalak bike"
 
 #: kcmfontinst/KCmFontInst.cpp:1375
 #, kde-format
@@ -2237,3 +2243,4 @@ msgstr "Phags Pa"
 #: viewpart/UnicodeScripts.h:79
 msgid "Yi"
 msgstr "Yi"
+
