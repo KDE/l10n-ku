@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: khotkeys\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-03-04 12:28+0100\n"
+"POT-Creation-Date: 2008-03-05 10:16+0100\n"
 "PO-Revision-Date: 2008-03-02 17:41+0100\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <ku@li.org>\n"
@@ -547,6 +547,63 @@ msgstr ""
 msgid "KHotKeys daemon"
 msgstr ""
 
+#: shared/activate_window_action.cpp:61
+#, fuzzy
+#| msgid "Active window"
+msgid "Activate window : "
+msgstr "Pencereya çalak"
+
+#: shared/active_window_condition.cpp:73
+#, fuzzy
+#| msgid "Active window"
+msgid "Active window: "
+msgstr "Pencereya çalak"
+
+#: shared/and_condition.cpp:60 kcontrol/condition_list_widget.cpp:52
+msgctxt "And_condition"
+msgid "And"
+msgstr ""
+
+#: shared/command_url_action.cpp:114
+#, fuzzy
+#| msgid "Command/URL..."
+msgid "Command/URL : "
+msgstr "Ferman/URL..."
+
+#: shared/dbus_action.cpp:102
+msgid "D-Bus : "
+msgstr "D-Bus : "
+
+#: shared/existing_window_condition.cpp:76
+#, fuzzy
+#| msgid "Existing Window..."
+msgid "Existing window: "
+msgstr "Pencereya Heyî..."
+
+#: shared/gesture_trigger.cpp:61
+msgid "Gesture trigger: "
+msgstr ""
+
+#: shared/keyboard_input_action.cpp:106
+msgid "Keyboard input : "
+msgstr ""
+
+#: shared/menuentry_action.cpp:56
+#, fuzzy
+#| msgid "Menu entry to execute:"
+msgid "Menuentry : "
+msgstr "Ketana pêşekê ya were xebitandin:"
+
+#: shared/not_condition.cpp:53 kcontrol/condition_list_widget.cpp:50
+msgctxt "Not_condition"
+msgid "Not"
+msgstr ""
+
+#: shared/or_condition.cpp:62 kcontrol/condition_list_widget.cpp:54
+msgctxt "Or_condition"
+msgid "Or"
+msgstr ""
+
 #: shared/settings.cpp:66
 msgid ""
 "This \"actions\" file has already been imported before. Are you sure you "
@@ -562,6 +619,20 @@ msgstr ""
 
 #: shared/settings.cpp:246 kcontrol/menuedit.cpp:94
 msgid "These entries were created using Menu Editor."
+msgstr ""
+
+#: shared/shortcut_trigger.cpp:62
+#, fuzzy
+#| msgid "Shortcut:"
+msgid "Shortcut trigger: "
+msgstr "Kurterê:"
+
+#: shared/voice_trigger.cpp:67
+msgid "Voice trigger: "
+msgstr ""
+
+#: shared/window_trigger.cpp:167
+msgid "Window trigger: "
 msgstr ""
 
 #: shared/windows.cpp:363
@@ -612,21 +683,6 @@ msgstr "Pencereya Çalak..."
 #: kcontrol/condition_list_widget.cpp:48
 msgid "Existing Window..."
 msgstr "Pencereya Heyî..."
-
-#: kcontrol/condition_list_widget.cpp:50
-msgctxt "Not_condition"
-msgid "Not"
-msgstr ""
-
-#: kcontrol/condition_list_widget.cpp:52
-msgctxt "And_condition"
-msgid "And"
-msgstr ""
-
-#: kcontrol/condition_list_widget.cpp:54
-msgctxt "Or_condition"
-msgid "Or"
-msgstr ""
 
 #: kcontrol/condition_list_widget.cpp:167
 msgid ""
@@ -892,6 +948,3 @@ msgstr ""
 #: kcontrol/windowdef_list_widget.cpp:45
 msgid "Simple Window..."
 msgstr "Pencereya Basît..."
-
-#~ msgid "D-Bus : "
-#~ msgstr "D-Bus : "
