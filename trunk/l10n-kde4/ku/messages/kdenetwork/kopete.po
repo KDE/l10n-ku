@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kopete\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-03-12 14:35+0100\n"
+"POT-Creation-Date: 2008-03-13 16:02+0100\n"
 "PO-Revision-Date: 2007-12-21 23:18+0100\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <gnu-ku-wergerandin at lists dot sourceforge dot "
@@ -1002,7 +1002,7 @@ msgctxt "@label:textbox formatted status title"
 msgid "<br /><b>Status&nbsp;Title:</b>&nbsp;%1"
 msgstr ""
 
-#: libkopete/kopetecontact.cpp:635 kopete/kopetewindow.cpp:1025
+#: libkopete/kopetecontact.cpp:635 kopete/kopetewindow.cpp:1027
 #, kde-format
 msgctxt "@label:textbox formatted status message"
 msgid "<br /><b>Status&nbsp;Message:</b>&nbsp;%1"
@@ -1101,7 +1101,7 @@ msgstr "Dîroka Dema Dawî Hat Dîtin"
 msgid "Status Title"
 msgstr "Rewş"
 
-#: libkopete/kopeteglobal.cpp:159 kopete/kopetewindow.cpp:1035
+#: libkopete/kopeteglobal.cpp:159 kopete/kopetewindow.cpp:1037
 #: protocols/meanwhile/meanwhileprotocol.cpp:61
 msgid "Status Message"
 msgstr ""
@@ -1347,58 +1347,45 @@ msgstr "&Bikarhênerên Negirêdayî Nîşan Bide"
 msgid "Show Empty &Groups"
 msgstr "&Grupên Vala Nîşan Bide"
 
-#: kopete/kopetewindow.cpp:406
-#, fuzzy
-msgid "Hide O&ffline"
-msgstr "Ne&girêdayî"
-
-#: kopete/kopetewindow.cpp:407
-msgid "Hide Offline &Users"
-msgstr "&Bikarhênerên Negirêdayî Veşêre"
-
-#: kopete/kopetewindow.cpp:408
-msgid "Hide Empty &Groups"
-msgstr "&Grupên Vala Veşêre"
-
-#: kopete/kopetewindow.cpp:411
+#: kopete/kopetewindow.cpp:413
 msgid "Se&arch:"
 msgstr "Bi&gere:"
 
 #. i18n: tag Text
 #. i18n: file ./kopete/kopeteui.rc line 54
-#: kopete/kopetewindow.cpp:415 rc.cpp:930
+#: kopete/kopetewindow.cpp:417 rc.cpp:930
 msgid "Quick Search Bar"
 msgstr "Qutîka Gerîna Bilez"
 
 #. i18n: tag string
 #. i18n: file ./plugins/history/historyviewer.ui line 191
-#: kopete/kopetewindow.cpp:418 rc.cpp:1719
+#: kopete/kopetewindow.cpp:420 rc.cpp:1719
 msgid "Search:"
 msgstr "Bigere:"
 
 #. i18n: tag string
 #. i18n: file ./protocols/groupwise/ui/gwchatprops.ui line 330
-#: kopete/kopetewindow.cpp:427 rc.cpp:5600
+#: kopete/kopetewindow.cpp:429 rc.cpp:5600
 msgid "Read Message"
 msgstr "Peyamê Bixwîne"
 
-#: kopete/kopetewindow.cpp:431
+#: kopete/kopetewindow.cpp:433
 msgid "Read the next pending message"
 msgstr "Peyama din a veşartî bixwîne"
 
-#: kopete/kopetewindow.cpp:433
+#: kopete/kopetewindow.cpp:435
 msgid "Show/Hide Contact List"
 msgstr "Lîsteya Têkiliyan Nîşan Bide/Veşêre"
 
-#: kopete/kopetewindow.cpp:437
+#: kopete/kopetewindow.cpp:439
 msgid "Show or hide the contact list"
 msgstr "Lîsteya têkiliyan veşêre an jî nîşan bide"
 
-#: kopete/kopetewindow.cpp:439
+#: kopete/kopetewindow.cpp:441
 msgid "Set Away/Back"
 msgstr "Li Derve/Vegeriya Mîheng Bike"
 
-#: kopete/kopetewindow.cpp:681
+#: kopete/kopetewindow.cpp:683
 msgid ""
 "<qt>Closing the main window will keep Kopete running in the system tray. Use "
 "'Quit' from the 'File' menu to quit the application.</qt>"
@@ -1407,11 +1394,11 @@ msgstr ""
 "pergalê de bidome. Ji bo ku ji sepanê derkevî, ji pêşeka \"Pel\"ê \"Derkeve"
 "\" bitikîne.</qt>"
 
-#: kopete/kopetewindow.cpp:683
+#: kopete/kopetewindow.cpp:685
 msgid "Docking in System Tray"
 msgstr "Ji Bo Darikê Bergalê Biçûk Dike"
 
-#: kopete/kopetewindow.cpp:856
+#: kopete/kopetewindow.cpp:858
 #, kde-format
 msgctxt ""
 "Account tooltip information: <nobr>ICON <b>PROTOCOL:</b> NAME (<i>STATUS</i>)"
@@ -1421,13 +1408,13 @@ msgid ""
 "nobr><br />"
 msgstr ""
 
-#: kopete/kopetewindow.cpp:1022
+#: kopete/kopetewindow.cpp:1024
 #, kde-format
 msgctxt "@label:textbox formatted status title"
 msgid "<b>Status&nbsp;Title:</b>&nbsp;%1"
 msgstr ""
 
-#: kopete/kopetewindow.cpp:1070
+#: kopete/kopetewindow.cpp:1072
 #: kopete/contactlist/kopetecontactlistview.cpp:1792
 msgid "Add Contact"
 msgstr "Têkiliyekê Têxê"
@@ -21242,6 +21229,16 @@ msgid ""
 "Please enter an Auto-Reply message that will be shown to users who message "
 "you while Away or Busy"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Hide O&ffline"
+#~ msgstr "Ne&girêdayî"
+
+#~ msgid "Hide Offline &Users"
+#~ msgstr "&Bikarhênerên Negirêdayî Veşêre"
+
+#~ msgid "Hide Empty &Groups"
+#~ msgstr "&Grupên Vala Veşêre"
 
 #, fuzzy
 #~| msgid "F&ormat"
