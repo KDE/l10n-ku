@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: katepart4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-03-29 21:24+0100\n"
+"POT-Creation-Date: 2008-03-31 20:06+0200\n"
 "PO-Revision-Date: 2007-12-21 22:50+0100\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <gnu-ku-wergerandin at lists dot sourceforge dot "
@@ -183,8 +183,8 @@ msgstr ""
 #: view/kateview.cpp:320
 msgid ""
 "Use this to clean the indentation of a selected block of text (only tabs/"
-"only spaces)<br /><br />You can configure whether tabs should be honored and "
-"used or replaced with spaces, in the configuration dialog."
+"only spaces).<br /><br />You can configure whether tabs should be honored "
+"and used or replaced with spaces, in the configuration dialog."
 msgstr ""
 
 #: view/kateview.cpp:326
@@ -308,7 +308,7 @@ msgstr ""
 #: view/kateview.cpp:413
 msgid ""
 "Here you can choose which mode should be used for the current document. This "
-"will influence the used highlighting and folding for example."
+"will influence the highlighting and folding being used, for example."
 msgstr ""
 
 #: view/kateview.cpp:416
@@ -449,8 +449,8 @@ msgstr ""
 
 #: view/kateview.cpp:505
 msgid ""
-"Show/hide the marks on the vertical scrollbar.<br /><br />The marks, for "
-"instance, show bookmarks."
+"Show/hide the marks on the vertical scrollbar.<br /><br />The marks show "
+"bookmarks, for instance."
 msgstr ""
 
 #: view/kateview.cpp:508
@@ -1032,7 +1032,7 @@ msgid "Choose Editor..."
 msgstr ""
 
 #: tests/katetest.cpp:205
-msgid "Override the system wide setting for the default editing component"
+msgid "Override the system-wide setting for the default editing component"
 msgstr ""
 
 #: tests/katetest.cpp:208
@@ -3494,7 +3494,7 @@ msgstr ""
 #: rc.cpp:586
 msgid ""
 "<p>If this option is checked, every new view will show marks on the vertical "
-"scrollbar.</p><p>These marks will, for instance, show bookmarks.</p>"
+"scrollbar.</p><p>These marks will show bookmarks, for instance.</p>"
 msgstr ""
 
 #. i18n: tag string
@@ -5474,7 +5474,7 @@ msgstr ""
 msgid "Binary File Opened"
 msgstr ""
 
-#: document/katedocument.cpp:3497
+#: document/katedocument.cpp:3497 document/katedocument.cpp:3503
 #, kde-format
 msgid ""
 "The file %1 was opened with UTF-8 encoding but contained invalid characters. "
@@ -5485,15 +5485,6 @@ msgstr ""
 
 #: document/katedocument.cpp:3500
 msgid "Broken UTF-8 File Opened"
-msgstr ""
-
-#: document/katedocument.cpp:3503
-#, kde-format
-msgid ""
-"The file %1 was opened with UTF-8 encoding but contained invalid characters. "
-"It is set to read-only mode, as saving might destroy it's content. Either "
-"reopen the file with the correct encoding chosen or enable the read-write "
-"mode again in the menu to be able to edit it."
 msgstr ""
 
 #: document/katedocument.cpp:3523
