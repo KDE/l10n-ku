@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok-neu\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-03-31 20:27+0200\n"
+"POT-Creation-Date: 2008-04-02 16:37+0200\n"
 "PO-Revision-Date: 2007-12-16 23:28+0100\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
@@ -156,11 +156,11 @@ msgstr "Hemû Koleksiyon"
 msgid "Local Collection"
 msgstr "Hemû Koleksiyon"
 
-#: collection/sqlcollection/ScanManager.cpp:359
+#: collection/sqlcollection/ScanManager.cpp:343
 msgid "Scanning music"
 msgstr ""
 
-#: collection/sqlcollection/ScanManager.cpp:479
+#: collection/sqlcollection/ScanManager.cpp:463
 msgid "Processing scan results"
 msgstr ""
 
@@ -643,8 +643,8 @@ msgstr ""
 msgid "Show Your Future Events"
 msgstr ""
 
-#: context/applets/lyrics/LyricsApplet.cpp:82 editfilterdialog.cpp:162
-#: scriptmanager.cpp:162 tagdialog.cpp:530
+#: context/applets/lyrics/LyricsApplet.cpp:82 scriptmanager.cpp:162
+#: tagdialog.cpp:530
 msgid "Lyrics"
 msgstr "Gotinên Stranê"
 
@@ -658,11 +658,11 @@ msgstr ""
 #. i18n: tag string
 #. i18n: file ./trackpickerdialogbase.ui line 102
 #: context/applets/lyrics/LyricsApplet.cpp:90 editfilterdialog.cpp:136
-#: collectionbrowser/CollectionTreeItemModelBase.cpp:477
+#: collectionbrowser/CollectionTreeItemModelBase.cpp:514
 #: collectionbrowser/CollectionWidget.cpp:56 rc.cpp:473 rc.cpp:842
 #: transferdialog.cpp:90 playlist/PlaylistHeader.cpp:46
 #: playlist/PlaylistModel.cpp:413
-#: servicebrowser/magnatunestore/MagnatuneStore.cpp:182
+#: servicebrowser/magnatunestore/MagnatuneStore.cpp:183
 #: servicebrowser/jamendo/jamendoservice.cpp:130 SmartPlaylistEditor.cpp:182
 #: SmartPlaylistEditor.cpp:196
 msgid "Artist"
@@ -1243,102 +1243,35 @@ msgstr ""
 #. i18n: tag string
 #. i18n: file ./trackpickerdialogbase.ui line 113
 #: editfilterdialog.cpp:134 mediadevice/ifp/ifpmediadevice.cpp:402
-#: collectionbrowser/CollectionTreeItemModelBase.cpp:476
+#: collectionbrowser/CollectionTreeItemModelBase.cpp:513
 #: collectionbrowser/CollectionWidget.cpp:68 rc.cpp:476 rc.cpp:845
 #: transferdialog.cpp:91 playlist/PlaylistHeader.cpp:46
 #: playlist/PlaylistModel.cpp:417
-#: servicebrowser/magnatunestore/MagnatuneStore.cpp:190
+#: servicebrowser/magnatunestore/MagnatuneStore.cpp:191
 #: servicebrowser/jamendo/jamendoservice.cpp:138 SmartPlaylistEditor.cpp:182
 #: SmartPlaylistEditor.cpp:196
 msgid "Album"
 msgstr "Album"
 
-#: editfilterdialog.cpp:138 playlist/PlaylistModel.cpp:426
-#: SmartPlaylistEditor.cpp:186
-msgid "Bitrate"
-msgstr ""
-
-#: editfilterdialog.cpp:140 playlist/PlaylistModel.cpp:420
-#: SmartPlaylistEditor.cpp:186
-msgid "BPM"
-msgstr ""
-
-#: editfilterdialog.cpp:142 playlist/PlaylistModel.cpp:422
-#: SmartPlaylistEditor.cpp:183
-msgid "Comment"
-msgstr ""
-
-#: editfilterdialog.cpp:144
-#: collectionbrowser/CollectionTreeItemModelBase.cpp:478
+#: editfilterdialog.cpp:138
+#: collectionbrowser/CollectionTreeItemModelBase.cpp:515
 #: playlist/PlaylistModel.cpp:415 SmartPlaylistEditor.cpp:182
 #: SmartPlaylistEditor.cpp:196
 msgid "Composer"
 msgstr ""
 
-#: editfilterdialog.cpp:146
-msgid "Directory"
-msgstr "Pelrêç"
-
-#: editfilterdialog.cpp:148 playlist/PlaylistModel.cpp:418
-msgid "Disc Number"
-msgstr ""
-
-#: editfilterdialog.cpp:150
-msgid "Filename"
-msgstr ""
-
-#: editfilterdialog.cpp:152 SmartPlaylistEditor.cpp:186
-msgid "Mount Point"
-msgstr "Xala Girêdanê"
-
-#: editfilterdialog.cpp:154
-msgid "Filetype"
-msgstr ""
-
-#: editfilterdialog.cpp:156
-#: collectionbrowser/CollectionTreeItemModelBase.cpp:479 transferdialog.cpp:92
+#: editfilterdialog.cpp:140
+#: collectionbrowser/CollectionTreeItemModelBase.cpp:516 transferdialog.cpp:92
 #: playlist/PlaylistModel.cpp:421 SmartPlaylistEditor.cpp:182
 #: SmartPlaylistEditor.cpp:196
 msgid "Genre"
-msgstr ""
-
-#: editfilterdialog.cpp:158 playlist/PlaylistHeader.cpp:46
-#: playlist/PlaylistModel.cpp:425 SmartPlaylistEditor.cpp:182
-msgid "Length"
-msgstr ""
-
-#: editfilterdialog.cpp:160 SmartPlaylistEditor.cpp:186
-#: SmartPlaylistEditor.cpp:196
-msgid "Label"
-msgstr ""
-
-#: editfilterdialog.cpp:164 playlist/PlaylistModel.cpp:430
-msgid "Play Count"
-msgstr ""
-
-#: editfilterdialog.cpp:168 playlist/PlaylistModel.cpp:429
-#: SmartPlaylistEditor.cpp:184
-msgid "Rating"
-msgstr ""
-
-#: editfilterdialog.cpp:171 playlist/PlaylistModel.cpp:427
-msgid "Sample Rate"
-msgstr "Rêjeya Mînakkirinê"
-
-#: editfilterdialog.cpp:175 scriptmanager.cpp:163 scriptmanager.cpp:820
-#: playlist/PlaylistModel.cpp:428 SmartPlaylistEditor.cpp:184
-msgid "Score"
-msgstr "Skor"
-
-#: editfilterdialog.cpp:178 playlist/PlaylistModel.cpp:433
-msgid "File Size"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file trackpickerdialogbase.ui line 91
 #. i18n: tag string
 #. i18n: file ./trackpickerdialogbase.ui line 91
-#: editfilterdialog.cpp:180 rc.cpp:470 rc.cpp:839
+#: editfilterdialog.cpp:142 rc.cpp:470 rc.cpp:839
 #: playlist/PlaylistModel.cpp:412 SmartPlaylistEditor.cpp:182
 msgid "Title"
 msgstr ""
@@ -1347,7 +1280,7 @@ msgstr ""
 #. i18n: file trackpickerdialogbase.ui line 124
 #. i18n: tag string
 #. i18n: file ./trackpickerdialogbase.ui line 124
-#: editfilterdialog.cpp:182 rc.cpp:479 rc.cpp:848
+#: editfilterdialog.cpp:144 rc.cpp:479 rc.cpp:848
 msgid "Track"
 msgstr ""
 
@@ -1355,161 +1288,161 @@ msgstr ""
 #. i18n: file trackpickerdialogbase.ui line 135
 #. i18n: tag string
 #. i18n: file ./trackpickerdialogbase.ui line 135
-#: editfilterdialog.cpp:184
-#: collectionbrowser/CollectionTreeItemModelBase.cpp:480 rc.cpp:482 rc.cpp:851
+#: editfilterdialog.cpp:146
+#: collectionbrowser/CollectionTreeItemModelBase.cpp:517 rc.cpp:482 rc.cpp:851
 #: playlist/PlaylistModel.cpp:416 SmartPlaylistEditor.cpp:183
 #: SmartPlaylistEditor.cpp:196 SmartPlaylistEditor.cpp:920
 msgid "Year"
 msgstr "Sal"
 
-#: editfilterdialog.cpp:195
+#: editfilterdialog.cpp:205
 msgid "<p>Type the attribute value or the text to look for here.</p>"
 msgstr ""
 
-#: editfilterdialog.cpp:203
+#: editfilterdialog.cpp:213
 msgid "Attribute value is"
 msgstr ""
 
-#: editfilterdialog.cpp:217
+#: editfilterdialog.cpp:227
 msgid "smaller than"
 msgstr ""
 
-#: editfilterdialog.cpp:218
+#: editfilterdialog.cpp:228
 msgid "larger than"
 msgstr ""
 
-#: editfilterdialog.cpp:219
+#: editfilterdialog.cpp:229
 msgid "equal to"
 msgstr ""
 
-#: editfilterdialog.cpp:220
+#: editfilterdialog.cpp:230
 msgid "between"
 msgstr ""
 
-#: editfilterdialog.cpp:236 SmartPlaylistEditor.cpp:933
+#: editfilterdialog.cpp:246 SmartPlaylistEditor.cpp:933
 #: SmartPlaylistEditor.cpp:955 SmartPlaylistEditor.cpp:983
 #: SmartPlaylistEditor.cpp:1002
 msgid "and"
 msgstr "û"
 
-#: editfilterdialog.cpp:255
+#: editfilterdialog.cpp:265
 msgid "Unit:"
 msgstr ""
 
-#: editfilterdialog.cpp:262
+#: editfilterdialog.cpp:272
 msgid "B (1 Byte)"
 msgstr ""
 
-#: editfilterdialog.cpp:263
+#: editfilterdialog.cpp:273
 msgid "KB (1024 Bytes)"
 msgstr ""
 
-#: editfilterdialog.cpp:264
+#: editfilterdialog.cpp:274
 msgid "MB (1024 KB)"
 msgstr ""
 
-#: editfilterdialog.cpp:281
+#: editfilterdialog.cpp:291
 msgid "Filter action"
 msgstr ""
 
-#: editfilterdialog.cpp:288
+#: editfilterdialog.cpp:298
 msgid "Match all words"
 msgstr ""
 
-#: editfilterdialog.cpp:291
+#: editfilterdialog.cpp:301
 msgid ""
 "<p>Check this box to look for the tracks that contain all the words you "
 "typed in the related Simple Search edit box</p>"
 msgstr ""
 
-#: editfilterdialog.cpp:295
+#: editfilterdialog.cpp:305
 msgid "Match any word"
 msgstr ""
 
-#: editfilterdialog.cpp:298
+#: editfilterdialog.cpp:308
 msgid ""
 "<p>Check this box to look for the tracks that contain at least one of the "
 "words you typed in the related Simple Search edit box</p>"
 msgstr ""
 
-#: editfilterdialog.cpp:302
+#: editfilterdialog.cpp:312
 msgid "Exact match"
 msgstr ""
 
-#: editfilterdialog.cpp:305
+#: editfilterdialog.cpp:315
 msgid ""
 "<p>Check this box to look for all the tracks that contain exactly the words "
 "you typed in the related Simple Search edit box</p>"
 msgstr ""
 
-#: editfilterdialog.cpp:309
+#: editfilterdialog.cpp:319
 msgid "Exclude"
 msgstr ""
 
-#: editfilterdialog.cpp:312
+#: editfilterdialog.cpp:322
 msgid ""
 "<p>Check this box to look for all the tracks that do not contain the words "
 "you typed in the related Simple Search edit box</p>"
 msgstr ""
 
-#: editfilterdialog.cpp:338
+#: editfilterdialog.cpp:348
 msgid "Appending condition"
 msgstr ""
 
-#: editfilterdialog.cpp:346
+#: editfilterdialog.cpp:356
 msgctxt "AND logic condition"
 msgid "AND"
 msgstr ""
 
-#: editfilterdialog.cpp:349
+#: editfilterdialog.cpp:359
 msgid ""
 "<p>Check this box if you want to add another condition and you want that the "
 "filter to match both the previous conditions and this new one</p>"
 msgstr ""
 
-#: editfilterdialog.cpp:353
+#: editfilterdialog.cpp:363
 msgctxt "OR logic condition"
 msgid "OR"
 msgstr ""
 
-#: editfilterdialog.cpp:356
+#: editfilterdialog.cpp:366
 msgid ""
 "<p>Check this box if you want to add another condition and you want that the "
 "filter to match either the previous conditions or this new one</p>"
 msgstr ""
 
-#: editfilterdialog.cpp:362
+#: editfilterdialog.cpp:372
 msgid "Invert condition"
 msgstr ""
 
-#: editfilterdialog.cpp:365
+#: editfilterdialog.cpp:375
 msgid "Check this box to negate the defined filter condition"
 msgstr ""
 
-#: editfilterdialog.cpp:367
+#: editfilterdialog.cpp:377
 msgid ""
 "<p>If this option is checked the defined filter condition will be negated. "
 "This means that, for example, you can define a filter that looks for all "
 "tracks that are not of a specific album, artist, and so on.</p>"
 msgstr ""
 
-#: editfilterdialog.cpp:515 editfilterdialog.cpp:518
+#: editfilterdialog.cpp:525 editfilterdialog.cpp:528
 #: SmartPlaylistEditor.cpp:1010
 msgid "Seconds"
 msgstr ""
 
-#: editfilterdialog.cpp:561 editfilterdialog.cpp:562
+#: editfilterdialog.cpp:571 editfilterdialog.cpp:572
 #: SmartPlaylistEditor.cpp:1011
 msgid "Minutes"
 msgstr ""
 
-#: editfilterdialog.cpp:734
+#: editfilterdialog.cpp:744
 msgid ""
 "<p>Sorry but the filter rule cannot be set. The text field is empty. Please "
 "type something into it and retry.</p>"
 msgstr ""
 
-#: editfilterdialog.cpp:735
+#: editfilterdialog.cpp:745
 msgid "Empty Text Field"
 msgstr ""
 
@@ -1520,6 +1453,11 @@ msgstr "Rêveberê Skrîptê"
 #: scriptmanager.cpp:161
 msgid "General"
 msgstr "Giştî"
+
+#: scriptmanager.cpp:163 scriptmanager.cpp:820 playlist/PlaylistModel.cpp:428
+#: SmartPlaylistEditor.cpp:184
+msgid "Score"
+msgstr "Skor"
 
 #: scriptmanager.cpp:164
 msgid "Transcoding"
@@ -1923,7 +1861,7 @@ msgstr ""
 msgid "Collection Statistics"
 msgstr "Îstatîstîkên Koleksiyonan"
 
-#: Statistics.cpp:83 widgets/searchwidget.cpp:62 CoverManager.cpp:169
+#: Statistics.cpp:83 widgets/searchwidget.cpp:64 CoverManager.cpp:169
 msgid "Enter search terms here"
 msgstr ""
 
@@ -3914,26 +3852,26 @@ msgstr "&Agahiya Stranan Sererast Bike..."
 msgid "Organize Files"
 msgstr ""
 
-#: collectionbrowser/CollectionTreeItemModelBase.cpp:334
+#: collectionbrowser/CollectionTreeItemModelBase.cpp:359
 #, fuzzy
 msgid "album"
 msgstr "Album"
 
-#: collectionbrowser/CollectionTreeItemModelBase.cpp:338
+#: collectionbrowser/CollectionTreeItemModelBase.cpp:364
 #, fuzzy
 #| msgid "Artist"
 msgid "artist"
 msgstr "Hunermend"
 
-#: collectionbrowser/CollectionTreeItemModelBase.cpp:342
+#: collectionbrowser/CollectionTreeItemModelBase.cpp:369
 msgid "genre"
 msgstr ""
 
-#: collectionbrowser/CollectionTreeItemModelBase.cpp:346
+#: collectionbrowser/CollectionTreeItemModelBase.cpp:374
 msgid "composer"
 msgstr ""
 
-#: collectionbrowser/CollectionTreeItemModelBase.cpp:350
+#: collectionbrowser/CollectionTreeItemModelBase.cpp:379
 #, fuzzy
 #| msgid "Year"
 msgid "year"
@@ -3945,7 +3883,7 @@ msgid "Group By"
 msgstr ""
 
 #: collectionbrowser/CollectionWidget.cpp:60
-#: servicebrowser/magnatunestore/MagnatuneStore.cpp:186
+#: servicebrowser/magnatunestore/MagnatuneStore.cpp:187
 #: servicebrowser/jamendo/jamendoservice.cpp:134
 msgid "Artist / Album"
 msgstr "Hunermend / Album"
@@ -3956,13 +3894,13 @@ msgid "Artist / Year - Album"
 msgstr "Hunermend / Album"
 
 #: collectionbrowser/CollectionWidget.cpp:72
-#: servicebrowser/magnatunestore/MagnatuneStore.cpp:194
+#: servicebrowser/magnatunestore/MagnatuneStore.cpp:195
 #: servicebrowser/jamendo/jamendoservice.cpp:142
 msgid "Genre / Artist"
 msgstr ""
 
 #: collectionbrowser/CollectionWidget.cpp:76
-#: servicebrowser/magnatunestore/MagnatuneStore.cpp:198
+#: servicebrowser/magnatunestore/MagnatuneStore.cpp:199
 #: servicebrowser/jamendo/jamendoservice.cpp:146
 msgid "Genre / Artist / Album"
 msgstr ""
@@ -8072,6 +8010,11 @@ msgstr ""
 msgid "Track Number - Title"
 msgstr "Hejmara Stranê"
 
+#: playlist/PlaylistHeader.cpp:46 playlist/PlaylistModel.cpp:425
+#: SmartPlaylistEditor.cpp:182
+msgid "Length"
+msgstr ""
+
 #: playlist/PlaylistViewCommon.cpp:40
 msgid "&Play"
 msgstr "&Bilîze"
@@ -8142,11 +8085,23 @@ msgstr "Nav biguharîne"
 msgid "Album Artist"
 msgstr ""
 
+#: playlist/PlaylistModel.cpp:418
+msgid "Disc Number"
+msgstr ""
+
 #: playlist/PlaylistModel.cpp:419
 #, fuzzy
 msgctxt "The Track number for this item"
 msgid "Track"
 msgstr "Stran  #"
+
+#: playlist/PlaylistModel.cpp:420 SmartPlaylistEditor.cpp:186
+msgid "BPM"
+msgstr ""
+
+#: playlist/PlaylistModel.cpp:422 SmartPlaylistEditor.cpp:183
+msgid "Comment"
+msgstr ""
 
 #: playlist/PlaylistModel.cpp:423
 #, fuzzy
@@ -8159,6 +8114,22 @@ msgstr "Pelrêç"
 msgid "Type"
 msgstr "Cure"
 
+#: playlist/PlaylistModel.cpp:426 SmartPlaylistEditor.cpp:186
+msgid "Bitrate"
+msgstr ""
+
+#: playlist/PlaylistModel.cpp:427
+msgid "Sample Rate"
+msgstr "Rêjeya Mînakkirinê"
+
+#: playlist/PlaylistModel.cpp:429 SmartPlaylistEditor.cpp:184
+msgid "Rating"
+msgstr ""
+
+#: playlist/PlaylistModel.cpp:430
+msgid "Play Count"
+msgstr ""
+
 #: playlist/PlaylistModel.cpp:431
 #, fuzzy
 msgctxt "Column name"
@@ -8167,6 +8138,10 @@ msgstr "yê dawî hatine lêdan"
 
 #: playlist/PlaylistModel.cpp:432
 msgid "Mood"
+msgstr ""
+
+#: playlist/PlaylistModel.cpp:433
+msgid "File Size"
 msgstr ""
 
 #: playlist/PlaylistModel.cpp:568
@@ -8277,38 +8252,64 @@ msgstr ""
 msgid "There seems to be a problem with the selected redownload info file."
 msgstr ""
 
-#: servicebrowser/magnatunestore/MagnatuneStore.cpp:106
+#: servicebrowser/magnatunestore/MagnatuneStore.cpp:107
 msgid "The friendly record company with the motto \"We are not evil!\""
 msgstr ""
 
-#: servicebrowser/magnatunestore/MagnatuneStore.cpp:203
+#: servicebrowser/magnatunestore/MagnatuneStore.cpp:204
 #, fuzzy
 #| msgid "Artist"
 msgid "Actions"
 msgstr "Hunermend"
 
-#: servicebrowser/magnatunestore/MagnatuneStore.cpp:204
+#: servicebrowser/magnatunestore/MagnatuneStore.cpp:205
 msgid "Redownload"
 msgstr ""
 
-#: servicebrowser/magnatunestore/MagnatuneStore.cpp:208
+#: servicebrowser/magnatunestore/MagnatuneStore.cpp:209
 msgid "Update Database"
 msgstr ""
 
-#: servicebrowser/magnatunestore/MagnatuneStore.cpp:225
+#: servicebrowser/magnatunestore/MagnatuneStore.cpp:226
 msgid "Download Album"
 msgstr ""
 
-#: servicebrowser/magnatunestore/MagnatuneStore.cpp:227
+#: servicebrowser/magnatunestore/MagnatuneStore.cpp:228
 msgid "Purchase Album"
 msgstr ""
 
-#: servicebrowser/magnatunestore/MagnatuneStore.cpp:261
+#: servicebrowser/magnatunestore/MagnatuneStore.cpp:262
 msgid "Downloading Magnatune.com Database"
 msgstr ""
 
-#: servicebrowser/magnatunestore/MagnatuneStore.cpp:288
+#: servicebrowser/magnatunestore/MagnatuneStore.cpp:289
 msgid "Updating the local Magnatune database."
+msgstr ""
+
+#: servicebrowser/magnatunestore/MagnatuneStore.cpp:588
+#, c-format
+msgid ""
+"The Magnatune.com service accepts the following messages: \n"
+"\n"
+"\taddMoodyTracks mood count: Adds a number of ranom tracks with the "
+"specified mood to the playlist. the mood argument _must_ have spaces escaped "
+"with %%20"
+msgstr ""
+
+#: servicebrowser/magnatunestore/MagnatuneStore.cpp:598
+msgid "ERROR: No arguments supplied"
+msgstr ""
+
+#: servicebrowser/magnatunestore/MagnatuneStore.cpp:603
+msgid "ERROR: Wrong number of arguments for addMoodyTracks"
+msgstr ""
+
+#: servicebrowser/magnatunestore/MagnatuneStore.cpp:613
+msgid "ERROR: Parse error for argument 2 ( count )"
+msgstr ""
+
+#: servicebrowser/magnatunestore/MagnatuneStore.cpp:617
+msgid "ok"
 msgstr ""
 
 #: servicebrowser/magnatunestore/magnatunealbumdownloader.cpp:70
@@ -8880,8 +8881,12 @@ msgstr ""
 msgid "The amount of time remaining in current song"
 msgstr ""
 
-#: widgets/searchwidget.cpp:67
+#: widgets/searchwidget.cpp:69
 msgid "Enter space-separated terms to search in the playlist."
+msgstr ""
+
+#: widgets/searchwidget.cpp:79
+msgid "Click to edit playlist filter"
 msgstr ""
 
 #: widgets/sliderwidget.cpp:176
@@ -8951,6 +8956,14 @@ msgstr ""
 #: SmartPlaylistEditor.cpp:185
 msgid "File Path"
 msgstr "Riya Pel"
+
+#: SmartPlaylistEditor.cpp:186
+msgid "Mount Point"
+msgstr "Xala Girêdanê"
+
+#: SmartPlaylistEditor.cpp:186 SmartPlaylistEditor.cpp:196
+msgid "Label"
+msgstr ""
 
 #: SmartPlaylistEditor.cpp:203
 msgid "Playlist name:"
@@ -9294,6 +9307,9 @@ msgstr ""
 #: konquisidebar/universalamarok.cpp:317
 msgid "Build Collection..."
 msgstr ""
+
+#~ msgid "Directory"
+#~ msgstr "Pelrêç"
 
 #, fuzzy
 #~| msgid "Engine"

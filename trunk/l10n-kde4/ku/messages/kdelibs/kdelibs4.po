@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-03-31 20:05+0200\n"
+"POT-Creation-Date: 2008-04-02 16:21+0200\n"
 "PO-Revision-Date: 2008-01-05 15:57+0200\n"
 "Last-Translator: Amed Çeko Jiyan <amedcj@gmail.com>\n"
 "Language-Team: Kurdish <amedcj@gmail.com>\n"
@@ -638,7 +638,7 @@ msgstr "&Guhestin"
 #. i18n: file ./kdeui/xmlgui/ui_standards.rc line 100
 #. i18n: tag text
 #. i18n: file ./khtml/khtml_browser.rc line 20
-#: rc.cpp:240 rc.cpp:381 kfile/kdiroperator.cpp:1648
+#: rc.cpp:240 rc.cpp:381 kfile/kdiroperator.cpp:1649
 msgid "&View"
 msgstr "&Dîtin"
 
@@ -2183,7 +2183,7 @@ msgstr "Di pelrêça armanc de destûr têrê nake."
 msgid "Unable to open temporary file."
 msgstr "Pelê demdemî venebû."
 
-#: kdecore/io/ksavefile.cpp:208
+#: kdecore/io/ksavefile.cpp:212
 msgid "Error during rename."
 msgstr "Dema navê pelî hate guherandin çewtiyek çêbû."
 
@@ -3698,6 +3698,27 @@ msgstr ""
 msgid "Could not Launch Browser"
 msgstr "Geroka Webê Nehate Destpêkirin"
 
+#: kdecore/kernel/ktoolinvocation_x11.cpp:390
+#, fuzzy, kde-format
+#| msgid ""
+#| "Could not launch the mail client:\n"
+#| "\n"
+#| "%1"
+msgid ""
+"Could not launch the terminal client:\n"
+"\n"
+"%1"
+msgstr ""
+"Bernameya e-peyaman nehate xebitandin:\n"
+"\n"
+"%1"
+
+#: kdecore/kernel/ktoolinvocation_x11.cpp:391
+#, fuzzy
+#| msgid "Could not Launch Mail Client"
+msgid "Could not Launch Terminal Client"
+msgstr "Bernameya E-peyaman Nehate Destpêkirin"
+
 #: kdecore/kernel/kaboutdata.cpp:256
 msgid ""
 "No licensing terms for this program have been specified.\n"
@@ -4765,7 +4786,7 @@ msgid "Translate this entry"
 msgstr "Vê ketanê wergerîne"
 
 #: knewstuff/knewstuff2/ui/kdxstranslation.cpp:48
-#: knewstuff/knewstuff2/ui/providerdialog.cpp:70
+#: knewstuff/knewstuff2/ui/providerdialog.cpp:70 dnssd/servicemodel.cpp:101
 msgid "Name"
 msgstr "Nav"
 
@@ -4786,7 +4807,7 @@ msgstr "Tevlêkirina tiştên nû yên balkêş"
 msgid "Please give some information about yourself."
 msgstr "Ji kerema xwe di derbarê xwe de hinek agahî bide."
 
-#: knewstuff/knewstuff2/ui/uploaddialog.cpp:67 kutils/kpluginselector.cpp:1675
+#: knewstuff/knewstuff2/ui/uploaddialog.cpp:67 kutils/kpluginselector.cpp:1667
 msgid "Author:"
 msgstr "Nivîskarê Wê:"
 
@@ -4806,11 +4827,11 @@ msgid "Name:"
 msgstr "Nav:"
 
 #: knewstuff/knewstuff2/ui/uploaddialog.cpp:85
-#: kdeui/dialogs/kbugreport.cpp:205 kutils/kpluginselector.cpp:1719
+#: kdeui/dialogs/kbugreport.cpp:205 kutils/kpluginselector.cpp:1711
 msgid "Version:"
 msgstr "Guherto:"
 
-#: knewstuff/knewstuff2/ui/uploaddialog.cpp:90 kutils/kpluginselector.cpp:1728
+#: knewstuff/knewstuff2/ui/uploaddialog.cpp:90 kutils/kpluginselector.cpp:1720
 msgid "License:"
 msgstr "Lîsans:"
 
@@ -5157,6 +5178,16 @@ msgstr ""
 "<qt><i>gpg</i> nayê destpêkirin û mifteyên pêwist nayê daxistin. Baweriya "
 "xwe pê bîne ku <i>gpg</i> hatiye sazkirin, yan na ne gengaz e ku mirov "
 "karibe rastiya wan çavkaniyan kontrol bike.</qt>"
+
+#: dnssd/servicemodel.cpp:102
+msgid "Host"
+msgstr ""
+
+#: dnssd/servicemodel.cpp:103
+#, fuzzy
+#| msgid "Print"
+msgid "Port"
+msgstr "Bide nivîsandin"
 
 #: kdeui/jobs/kstatusbarjobtracker.cpp:237
 msgid " Stalled "
@@ -5535,7 +5566,7 @@ msgstr "Rake"
 msgid "Test"
 msgstr "Ceribandin"
 
-#: kdeui/util/kstandardguiitem.cpp:285 kfile/kdiroperator.cpp:1641
+#: kdeui/util/kstandardguiitem.cpp:285 kfile/kdiroperator.cpp:1642
 msgid "Properties"
 msgstr "Taybetmendî"
 
@@ -8492,12 +8523,12 @@ msgid ""
 "<br>Please select a different one.</qt>"
 msgstr ""
 
-#: kdeui/widgets/kkeysequencewidget.cpp:362
+#: kdeui/widgets/kkeysequencewidget.cpp:368
 msgctxt "What the user inputs now will be taken as the new shortcut"
 msgid "Input"
 msgstr "Ketan"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:369
+#: kdeui/widgets/kkeysequencewidget.cpp:375
 msgctxt "No shortcut defined"
 msgid "None"
 msgstr "Ti yek"
@@ -8944,8 +8975,8 @@ msgstr "Dema gihiştina '%1' de çewtî derket"
 msgid "Custom Path"
 msgstr "Rêça Taybet"
 
-#: kfile/kdirselectdialog.cpp:115 kfile/kdiroperator.cpp:642
-#: kfile/kdiroperator.cpp:650
+#: kfile/kdirselectdialog.cpp:115 kfile/kdiroperator.cpp:643
+#: kfile/kdiroperator.cpp:651
 msgid "New Folder"
 msgstr "Peldanka nû"
 
@@ -8969,12 +9000,12 @@ msgstr ""
 "Peldanka nû li vir biafirîne:\n"
 "%1"
 
-#: kfile/kdirselectdialog.cpp:143 kfile/kdiroperator.cpp:677
+#: kfile/kdirselectdialog.cpp:143 kfile/kdiroperator.cpp:678
 #, kde-format
 msgid "A file or folder named %1 already exists."
 msgstr "Bi navê %1 jixwe pel an jî peldankek heye"
 
-#: kfile/kdirselectdialog.cpp:147 kfile/kdiroperator.cpp:680
+#: kfile/kdirselectdialog.cpp:147 kfile/kdiroperator.cpp:681
 msgid "You do not have permission to create that folder."
 msgstr "Ji bo afirandina vê peldankê destûra te tune."
 
@@ -9053,7 +9084,7 @@ msgid ""
 "entry will be available in all applications.</qt>"
 msgstr ""
 
-#: kfile/kdiroperator.cpp:651
+#: kfile/kdiroperator.cpp:652
 #, kde-format
 msgid ""
 "Create new folder in:\n"
@@ -9062,15 +9093,15 @@ msgstr ""
 "Peldanka nû li vir biafirîne:\n"
 "%1"
 
-#: kfile/kdiroperator.cpp:695
+#: kfile/kdiroperator.cpp:696
 msgid "You did not select a file to delete."
 msgstr "Ji bo jêbirinê te pelek hilnebijart."
 
-#: kfile/kdiroperator.cpp:696
+#: kfile/kdiroperator.cpp:697
 msgid "Nothing to Delete"
 msgstr "Tu tiştekî Jêbirinê tune"
 
-#: kfile/kdiroperator.cpp:717
+#: kfile/kdiroperator.cpp:718
 #, kde-format
 msgid ""
 "<qt>Do you really want to delete\n"
@@ -9079,30 +9110,30 @@ msgstr ""
 "<qt>Tu mîsoger dixwazî vê jê bibî\n"
 " <b>'%1'</b>?</qt>"
 
-#: kfile/kdiroperator.cpp:719
+#: kfile/kdiroperator.cpp:720
 msgid "Delete File"
 msgstr "Pelî Jê Bibe"
 
-#: kfile/kdiroperator.cpp:724
+#: kfile/kdiroperator.cpp:725
 #, kde-format
 msgid "Do you really want to delete this item?"
 msgid_plural "Do you really want to delete these %1 items?"
 msgstr[0] "Bi rastî jî tu dixwazî vê hêmanê jê bibî?"
 msgstr[1] "Bi rastî jî tu dixwazî pelê '%1' bixebitînî? "
 
-#: kfile/kdiroperator.cpp:726
+#: kfile/kdiroperator.cpp:727
 msgid "Delete Files"
 msgstr "Pelan Jê Bibe"
 
-#: kfile/kdiroperator.cpp:757
+#: kfile/kdiroperator.cpp:758
 msgid "You did not select a file to trash."
 msgstr "Ji bo jêbirine te pelek hilnebijart."
 
-#: kfile/kdiroperator.cpp:758
+#: kfile/kdiroperator.cpp:759
 msgid "Nothing to Trash"
 msgstr "Tu tiştekî jêbirinê tune"
 
-#: kfile/kdiroperator.cpp:775
+#: kfile/kdiroperator.cpp:776
 #, kde-format
 msgid ""
 "<qt>Do you really want to trash\n"
@@ -9111,95 +9142,95 @@ msgstr ""
 "<qt>Ji dil dixwazî\n"
 "<b>%1</b>ê jê bibî?</qt>"
 
-#: kfile/kdiroperator.cpp:777
+#: kfile/kdiroperator.cpp:778
 msgid "Trash File"
 msgstr "Pelî Biavêje Çopê"
 
-#: kfile/kdiroperator.cpp:778 kfile/kdiroperator.cpp:785
+#: kfile/kdiroperator.cpp:779 kfile/kdiroperator.cpp:786
 msgctxt "to trash"
 msgid "&Trash"
 msgstr "&Çop"
 
-#: kfile/kdiroperator.cpp:782
+#: kfile/kdiroperator.cpp:783
 #, kde-format
 msgid "translators: not called for n == 1"
 msgid_plural "Do you really want to trash these %1 items?"
 msgstr[0] ""
 msgstr[1] ""
 
-#: kfile/kdiroperator.cpp:784
+#: kfile/kdiroperator.cpp:785
 msgid "Trash Files"
 msgstr "Pelan Biavêje Çopê"
 
-#: kfile/kdiroperator.cpp:907 kfile/kdiroperator.cpp:1020
+#: kfile/kdiroperator.cpp:908 kfile/kdiroperator.cpp:1021
 msgid "The specified folder does not exist or was not readable."
 msgstr ""
 
-#: kfile/kdiroperator.cpp:1553
+#: kfile/kdiroperator.cpp:1554
 msgid "Menu"
 msgstr "Pêşek"
 
-#: kfile/kdiroperator.cpp:1557
+#: kfile/kdiroperator.cpp:1558
 msgid "Parent Folder"
 msgstr "Peldanka Dayîk"
 
-#: kfile/kdiroperator.cpp:1564
+#: kfile/kdiroperator.cpp:1565
 msgid "Home Folder"
 msgstr "Peldanka Mal"
 
-#: kfile/kdiroperator.cpp:1567
+#: kfile/kdiroperator.cpp:1568
 msgid "Reload"
 msgstr "Nûbarkirin"
 
-#: kfile/kdiroperator.cpp:1570
+#: kfile/kdiroperator.cpp:1571
 msgid "New Folder..."
 msgstr "Peldanka nû..."
 
-#: kfile/kdiroperator.cpp:1575
+#: kfile/kdiroperator.cpp:1576
 msgid "Move to Trash"
 msgstr "Dake Qutîka Çopê"
 
-#: kfile/kdiroperator.cpp:1581
+#: kfile/kdiroperator.cpp:1582
 msgid "Delete"
 msgstr "Jê bibe"
 
-#: kfile/kdiroperator.cpp:1588
+#: kfile/kdiroperator.cpp:1589
 msgid "Sorting"
 msgstr "Rêzkirin"
 
-#: kfile/kdiroperator.cpp:1591
+#: kfile/kdiroperator.cpp:1592
 msgid "By Name"
 msgstr "Li Nav"
 
-#: kfile/kdiroperator.cpp:1595
+#: kfile/kdiroperator.cpp:1596
 msgid "By Size"
 msgstr "Li Mezinahî"
 
-#: kfile/kdiroperator.cpp:1599
+#: kfile/kdiroperator.cpp:1600
 msgid "By Date"
 msgstr "Li Roj"
 
-#: kfile/kdiroperator.cpp:1603
+#: kfile/kdiroperator.cpp:1604
 msgid "By Type"
 msgstr "Li Cure"
 
-#: kfile/kdiroperator.cpp:1607
+#: kfile/kdiroperator.cpp:1608
 msgid "Descending"
 msgstr "Ber bi jêr"
 
-#: kfile/kdiroperator.cpp:1617
+#: kfile/kdiroperator.cpp:1618
 msgid "Short View"
 msgstr "Kurte"
 
-#: kfile/kdiroperator.cpp:1622
+#: kfile/kdiroperator.cpp:1623
 msgid "Detailed View"
 msgstr "Kitekit"
 
-#: kfile/kdiroperator.cpp:1631
+#: kfile/kdiroperator.cpp:1632
 msgid "Show Hidden Files"
 msgstr "Pelên Veşartî Nîşan Bide"
 
-#: kfile/kdiroperator.cpp:1635
+#: kfile/kdiroperator.cpp:1636
 msgid "Show Preview"
 msgstr "Pêşdîtin"
 
@@ -9746,7 +9777,7 @@ msgstr "Dîrok û Saet: %1"
 msgid "Additional Information: %1"
 msgstr "Agahiyên Pêvek: %1"
 
-#: khtml/khtml_part.cpp:1748 kutils/kpluginselector.cpp:1665
+#: khtml/khtml_part.cpp:1748 kutils/kpluginselector.cpp:1657
 msgid "Description:"
 msgstr "Daxuyanî:"
 
@@ -10093,7 +10124,7 @@ msgstr "Çewtiyeke mezin di şîrovekirina:%1 di rêzika %2, stûna %3 de"
 msgid "XML parsing error"
 msgstr "Çewtî di şîrovekirina XML de"
 
-#: khtml/xml/dom_docimpl.cpp:2157
+#: khtml/xml/dom_docimpl.cpp:2162
 msgid "Basic Page Style"
 msgstr "Şêweyê Rûpelê Bingeh"
 
@@ -10587,7 +10618,7 @@ msgstr ""
 "Di hundirê '%1' de \"kdemain\" nehate dîtin.\n"
 "%2"
 
-#: kinit/klauncher_main.cpp:54
+#: kinit/klauncher_main.cpp:56
 msgid ""
 "klauncher: This program is not supposed to be started manually.\n"
 "klauncher: It is started automatically by kdeinit4.\n"
@@ -10595,32 +10626,32 @@ msgstr ""
 "klauncher: Divê ev bername bi destan neyê destpêkirin.\n"
 "klauncher: Ev bername ji aliyê kdeinit4 bixweber tê destpêkirin.\n"
 
-#: kinit/klauncher.cpp:490
+#: kinit/klauncher.cpp:488
 #, kde-format
 msgid "KDEInit could not launch '%1'."
 msgstr "KDEInitê bernameya '%1' neda destpêkirin."
 
-#: kinit/klauncher.cpp:656 kinit/klauncher.cpp:681 kinit/klauncher.cpp:696
+#: kinit/klauncher.cpp:653 kinit/klauncher.cpp:678 kinit/klauncher.cpp:693
 #, kde-format
 msgid "Could not find service '%1'."
 msgstr "Xizmeta '%1' nehate dîtin."
 
-#: kinit/klauncher.cpp:712 kinit/klauncher.cpp:748
+#: kinit/klauncher.cpp:709 kinit/klauncher.cpp:745
 #, kde-format
 msgid "Service '%1' is malformatted."
 msgstr "Servîsa '%1' şaş hatiye teşekirin."
 
-#: kinit/klauncher.cpp:820
+#: kinit/klauncher.cpp:817
 #, kde-format
 msgid "Launching %1"
 msgstr "%1 Tê Destpêkirin"
 
-#: kinit/klauncher.cpp:1024
+#: kinit/klauncher.cpp:1021
 #, kde-format
 msgid "Unknown protocol '%1'.\n"
 msgstr "Protokola ku nenas ya '%1'.\n"
 
-#: kinit/klauncher.cpp:1085
+#: kinit/klauncher.cpp:1082
 #, kde-format
 msgid "Error loading '%1'.\n"
 msgstr "Dema '%1' dihate barkirin çewtî çêbû.\n"
@@ -11083,18 +11114,18 @@ msgstr[1] "%1 pêvek hatin rakirin"
 msgid " since the last time you asked for details"
 msgstr "ji dema dawîn a ku te pirsa kîtekîtan kiribû"
 
-#: kutils/kpluginselector.cpp:1649
+#: kutils/kpluginselector.cpp:1641
 #, kde-format
 msgid "About %1 plugin"
 msgstr "Der barê pêveka %1 de"
 
-#: kutils/kpluginselector.cpp:1683
+#: kutils/kpluginselector.cpp:1675
 #, fuzzy
 #| msgid "Email"
 msgid "Email:"
 msgstr "E-peyam"
 
-#: kutils/kpluginselector.cpp:1701
+#: kutils/kpluginselector.cpp:1693
 msgid "Website:"
 msgstr "Malper:"
 
@@ -11181,51 +11212,51 @@ msgstr "'%1' ne QLayout'eke derbasdar e."
 msgid "Must supply a layout name."
 msgstr "Divê navê bicîbûnekê bê diyarkirin."
 
-#: kjsembed/kjsembed/qobject_binding.cpp:117
+#: kjsembed/kjsembed/qobject_binding.cpp:118
 msgid "Wrong object type."
 msgstr "Cureyê hêmanan çêewt e."
 
-#: kjsembed/kjsembed/qobject_binding.cpp:125
+#: kjsembed/kjsembed/qobject_binding.cpp:126
 msgid "First argument must be a QObject."
 msgstr "Divê argûmenta yekemîn QObject be."
 
-#: kjsembed/kjsembed/qobject_binding.cpp:162
+#: kjsembed/kjsembed/qobject_binding.cpp:163
 msgid "Incorrect number of arguments."
 msgstr "Hejmara çewt a argûmetan."
 
-#: kjsembed/kjsembed/qobject_binding.cpp:410
+#: kjsembed/kjsembed/qobject_binding.cpp:411
 #, kde-format
 msgid ""
 "The slot asked for %1 arguments but there are only %2 arguments available."
 msgstr ""
 
-#: kjsembed/kjsembed/qobject_binding.cpp:604
+#: kjsembed/kjsembed/qobject_binding.cpp:612
 #, kde-format
 msgid "Failure to cast to %1 value from Type %2 (%3)"
 msgstr ""
 
-#: kjsembed/kjsembed/qobject_binding.cpp:639
+#: kjsembed/kjsembed/qobject_binding.cpp:647
 #, kde-format
 msgid "No such method '%1'."
 msgstr "Şewaza '%1' tune."
 
-#: kjsembed/kjsembed/qobject_binding.cpp:654
+#: kjsembed/kjsembed/qobject_binding.cpp:662
 #, kde-format
 msgid "Call to method '%1' failed, unable to get argument %2: %3"
 msgstr ""
 
-#: kjsembed/kjsembed/qobject_binding.cpp:669
+#: kjsembed/kjsembed/qobject_binding.cpp:677
 #, kde-format
 msgid "Call to '%1' failed."
 msgstr "Gazîkirina '%1 'ê bi ser neket."
 
-#: kjsembed/kjsembed/qobject_binding.cpp:758
+#: kjsembed/kjsembed/qobject_binding.cpp:766
 #: kjsembed/kjsembed/object_binding.h:219
 #, kde-format
 msgid "%1 is not an Object type"
 msgstr "%1 ne cureyekî bireseran e"
 
-#: kjsembed/kjsembed/qobject_binding.cpp:764
+#: kjsembed/kjsembed/qobject_binding.cpp:772
 msgid "Could not construct value"
 msgstr "Nirx nehat serastkirin"
 
@@ -12101,7 +12132,7 @@ msgstr ""
 "<qt><font size=\"+4\" face=\"%1\">%2</font><br />%3<br />Koda Unicode: %"
 "4<br />(wekî dehanî: %5)</qt>"
 
-#: kross/qts/values_p.h:68
+#: kross/qts/values_p.h:69
 #, fuzzy, kde-format
 #| msgid "No such interpreter \"%1\""
 msgid "No such function \"%1\""
