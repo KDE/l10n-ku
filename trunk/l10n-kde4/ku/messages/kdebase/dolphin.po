@@ -9,13 +9,13 @@ msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2008-04-02 16:23+0200\n"
-"PO-Revision-Date: 2008-01-12 00:41+0100\n"
+"PO-Revision-Date: 2008-04-04 12:07+0200\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <ku@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural= n != 1\n"
+"Plural-Forms: nplurals=2; plural= n != 1;\n"
 "X-Generator: KBabel 1.11.4\n"
 
 #: additionalinfodialog.cpp:38
@@ -103,28 +103,25 @@ msgstr "Curetîp:"
 
 #: commenteditwidget.cpp:129
 msgid "Save"
-msgstr ""
+msgstr "Tomarkirin"
 
 #: commenteditwidget.cpp:130
-#, fuzzy
 #| msgctxt "@action:inmenu"
 #| msgid "Cancel"
 msgid "Cancel"
 msgstr "Betal"
 
 #: commentwidget.cpp:55
-#, fuzzy
 #| msgctxt "@info:tooltip"
 #| msgid "Click to add comment..."
 msgid "Add comment..."
-msgstr "Ji bo şîrove bikî, bitikîne"
+msgstr "Şirove lê zêde bike..."
 
 #: commentwidget.cpp:58
-#, fuzzy
 #| msgctxt "@info:tooltip"
 #| msgid "Click to add comment..."
 msgid "Change comment..."
-msgstr "Ji bo şîrove bikî, bitikîne"
+msgstr "Şîroveyê biguherîne..."
 
 #: detailsviewsettingspage.cpp:87
 msgctxt "@option:check"
@@ -142,7 +139,6 @@ msgid "Add to Places"
 msgstr "Têxe Ciyan"
 
 #: dolphincontextmenu.cpp:119
-#, fuzzy
 #| msgctxt "@info"
 #| msgid "Do you really want to empty the Trash? All items will get deleted."
 msgctxt "@info"
@@ -155,7 +151,6 @@ msgid "Empty Trash"
 msgstr "Çopê Vala Bike"
 
 #: dolphincontextmenu.cpp:132
-#, fuzzy
 #| msgid "Trash"
 msgctxt "@label"
 msgid "Trash"
@@ -201,13 +196,12 @@ msgid "Open With..."
 msgstr "Veke Bi..."
 
 #: dolphincontextmenu.cpp:421
-#, fuzzy
 #| msgctxt "@action:inmenu"
 #| msgid "Paste One File"
 #| msgid_plural "Paste %1 Files"
 msgctxt "@action:inmenu"
 msgid "Paste Into Folder"
-msgstr "Pelekî Pê Ve Bike"
+msgstr "Pelekî li Peldankê Pê Ve Bike"
 
 #: dolphindetailsview.cpp:441
 msgctxt "@title:menu"
@@ -227,12 +221,12 @@ msgid "&Copy Here\t<shortcut>%1</shortcut>"
 msgstr "Li virê &Kopî Bike\t<shortcut>%1</shortcut>"
 
 #: dolphindropcontroller.cpp:90
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "&Link Here\t<shortcut>%1</shortcut>"
 msgctxt "@action:inmenu"
 msgid "&Link Here\t<shortcut>%1</shortcut>"
-msgstr "&Girêdan"
+msgstr "&Lînk bi vê derê re çêke\t<shortcut>%1</shortcut>"
 
 #: dolphindropcontroller.cpp:93
 msgctxt "@action:inmenu"
@@ -418,38 +412,38 @@ msgstr "Mezin"
 #: dolphinmodel.cpp:219
 msgctxt "@title:group Date"
 msgid "Today"
-msgstr ""
+msgstr "Îro"
 
 #: dolphinmodel.cpp:220
 msgctxt "@title:group Date"
 msgid "Yesterday"
-msgstr ""
+msgstr "Do"
 
 #: dolphinmodel.cpp:221
 #, c-format
 msgctxt "@title:group The week day name: %A"
 msgid "%A"
-msgstr ""
+msgstr "%A"
 
 #: dolphinmodel.cpp:225
 msgctxt "@title:group Date"
 msgid "Last Week"
-msgstr ""
+msgstr "Hefteya Çûyî"
 
 #: dolphinmodel.cpp:228
 msgctxt "@title:group Date"
 msgid "Two Weeks Ago"
-msgstr ""
+msgstr "Du Hefte Berê"
 
 #: dolphinmodel.cpp:231
 msgctxt "@title:group Date"
 msgid "Three Weeks Ago"
-msgstr ""
+msgstr "Sê Hefte Berê"
 
 #: dolphinmodel.cpp:234
 msgctxt "@title:group Date"
 msgid "Earlier this Month"
-msgstr ""
+msgstr "Berê di vî mehî de"
 
 #: dolphinmodel.cpp:240
 #, fuzzy
@@ -1115,7 +1109,7 @@ msgstr "Malbata curenivîsê"
 #: rc.cpp:6 rc.cpp:27 rc.cpp:123 rc.cpp:230 rc.cpp:290 rc.cpp:326
 msgctxt "@label"
 msgid "Use system font"
-msgstr ""
+msgstr "Curenivîsê pergalê bi kar bîne"
 
 #. i18n: tag label
 #. i18n: file dolphin_columnmodesettings.kcfg line 17
@@ -1611,11 +1605,10 @@ msgstr ""
 #. i18n: tag string
 #. i18n: file ./tagcloud/newtagdialog.ui line 42
 #: rc.cpp:281
-#, fuzzy
 #| msgctxt "@action:inmenu Sort By"
 #| msgid "Name"
 msgid "Name:"
-msgstr "Nav"
+msgstr "Nav:"
 
 #. i18n: tag string
 #. i18n: file ./tagcloud/newtagdialog.ui line 85
@@ -1664,8 +1657,7 @@ msgstr "(Di ciyê nîşaneya # de dê hejmarên kêm dibin bên bikaranîn)"
 
 #: renamedialog.cpp:118
 msgctxt "@info:status"
-msgid ""
-"The new name is empty. A name with at least one character must be entered."
+msgid "The new name is empty. A name with at least one character must be entered."
 msgstr "Nav vala ye. Divê navekî ku herî kêm ji tîpekê pêk tê bê nivîsandin."
 
 #: renamedialog.cpp:121
@@ -1674,20 +1666,18 @@ msgid "The name must contain at least one # character."
 msgstr "Divê di navî de herî kêm tîpeke # hebe."
 
 #: selectiontoggle.cpp:107
-#, fuzzy
 #| msgctxt "@action:inmenu File"
 #| msgid "Delete"
 msgctxt "@info:tooltip"
 msgid "Deselect Item"
-msgstr "Jebirin"
+msgstr "Hêmanê Hilnejêre"
 
 #: selectiontoggle.cpp:108
-#, fuzzy
 #| msgctxt "@action:inmenu Edit"
 #| msgid "Select All"
 msgctxt "@info:tooltip"
 msgid "Select Item"
-msgstr "Hemûyan Hilbijêre"
+msgstr "Hêmanê Hilbijêre"
 
 #: startupsettingspage.cpp:57
 msgctxt "@title:group"
@@ -1735,7 +1725,7 @@ msgid "Close"
 msgstr "Girtin"
 
 #: statusbarspaceinfo.cpp:77
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@info:status"
 #| msgid "%1 free"
 msgctxt "@info:status Free disk space"
@@ -1743,12 +1733,11 @@ msgid "%1 free"
 msgstr "%1 vala"
 
 #: statusbarspaceinfo.cpp:90 statusbarspaceinfo.cpp:100
-#, fuzzy
 #| msgctxt "@label"
 #| msgid "Font size"
 msgctxt "@info:status"
 msgid "Unknown size"
-msgstr "Mezinahiya curenivîsê"
+msgstr "Mezinahiya nenas"
 
 #: statusbarspaceinfo.cpp:135
 msgctxt "@info:status"
@@ -1781,12 +1770,11 @@ msgid "Delete"
 msgstr "Jêbirin"
 
 #: treeviewcontextmenu.cpp:109
-#, fuzzy
 #| msgctxt "@action:inmenu View"
 #| msgid "Show Hidden Files"
 msgctxt "@action:inmenu"
 msgid "Show Hidden Files"
-msgstr "Pelên veşartî nîşan bide"
+msgstr "Pelên Veşartî Nîşan Bide"
 
 #: viewpropertiesdialog.cpp:76
 msgctxt "@title:window"
@@ -1824,7 +1812,6 @@ msgid "Sorting:"
 msgstr "Rêzkirin:"
 
 #: viewpropertiesdialog.cpp:104
-#, fuzzy
 #| msgctxt "@item:inlistbox"
 #| msgid "Ascending"
 msgctxt "@item:inlistbox Sort"
@@ -1832,7 +1819,6 @@ msgid "Ascending"
 msgstr "Ber bi jor"
 
 #: viewpropertiesdialog.cpp:105
-#, fuzzy
 #| msgctxt "@action:inmenu Sort"
 #| msgid "Descending"
 msgctxt "@item:inlistbox Sort"
@@ -1930,10 +1916,8 @@ msgstr ""
 
 #: viewpropertiesdialog.cpp:333
 msgctxt "@info"
-msgid ""
-"The view properties of all folders will be changed. Do you want to continue?"
-msgstr ""
-"Taybetmendiyên xuyakirina hemû peldankan dê bê guherandin. Dixwazî bidomînî?"
+msgid "The view properties of all folders will be changed. Do you want to continue?"
+msgstr "Taybetmendiyên xuyakirina hemû peldankan dê bê guherandin. Dixwazî bidomînî?"
 
 #: viewpropsprogressinfo.cpp:49
 msgctxt "@title:window"
@@ -1952,50 +1936,3 @@ msgctxt "@info:progress"
 msgid "Folders: %1"
 msgstr "Peldank: %1"
 
-#, fuzzy
-#~| msgctxt "@action:inmenu"
-#~| msgid "Paste"
-#~ msgctxt "@action:button"
-#~ msgid "Paste"
-#~ msgstr "Pê Ve Bike"
-
-#, fuzzy
-#~| msgctxt "@action:inmenu"
-#~| msgid "Cancel"
-#~ msgctxt "@action:button"
-#~ msgid "Cancel"
-#~ msgstr "Betal"
-
-#~ msgctxt "@label:slider"
-#~ msgid "Rating:"
-#~ msgstr "Nirxandin:"
-
-#~ msgctxt "@label:textbox"
-#~ msgid "Tags:"
-#~ msgstr "Etîket:"
-
-#, fuzzy
-#~| msgctxt "@title:group"
-#~| msgid "General"
-#~ msgctxt "@title:group General metadata"
-#~ msgid "General"
-#~ msgstr "Giştî"
-
-#, fuzzy
-#~| msgctxt "@action:inmenu"
-#~| msgid "Cancel"
-#~ msgctxt "@label"
-#~ msgid "Cancel"
-#~ msgstr "Betal"
-
-#~ msgctxt "@item:inlistbox"
-#~ msgid "Descending"
-#~ msgstr "Ber bi jêr"
-
-#~ msgctxt "@title:tab"
-#~ msgid "General"
-#~ msgstr "Giştî"
-
-#~ msgctxt "@label"
-#~ msgid "Bold"
-#~ msgstr "Qalind"
