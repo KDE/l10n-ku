@@ -1,0 +1,375 @@
+# translation of krunner.po to Kurdish
+# Copyright (C) 2008 This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Erdal Ronahi <erdal dot ronahi at gmail dot com>, 2007, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: krunner\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2008-04-04 16:35+0200\n"
+"PO-Revision-Date: 2008-02-11 03:18+0100\n"
+"Last-Translator: \n"
+"Language-Team: ku <kde-i18n-doc@lists.kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural= n != 1\n"
+"X-Generator: KAider 0.1\n"
+
+#: lock/autologout.cc:44
+msgid "<qt><nobr><b>Automatic Log Out</b></nobr></qt>"
+msgstr "<qt><nobr><b>Derketina Jixweber</b></nobr></qt>"
+
+#: lock/autologout.cc:45
+msgid ""
+"<qt>To prevent being logged out, resume using this session by moving the "
+"mouse or pressing a key.</qt>"
+msgstr ""
+
+#: lock/autologout.cc:50
+msgid "Time Remaining:"
+msgstr "Dema ma:"
+
+#: lock/autologout.cc:86
+#, kde-format
+msgid "<qt><nobr>You will be automatically logged out in 1 second</nobr></qt>"
+msgid_plural ""
+"<qt><nobr>You will be automatically logged out in %1 seconds</nobr></qt>"
+msgstr[0] "<qt><nobr>Piştî 1 çirkê tu dê derkevî</nobr></qt>"
+msgstr[1] "<qt><nobr>Piştî %1 çirkê tu dê derkevî</nobr></qt>"
+
+#: lock/main.cc:60
+msgid "KRunner Locker"
+msgstr "KRunner Locker"
+
+#: lock/main.cc:60
+msgid "Session Locker for KRunner"
+msgstr "Miftekara danişînê ji bo KDesktop"
+
+#: lock/main.cc:63
+msgid "Force session locking"
+msgstr ""
+
+#: lock/main.cc:64
+msgid "Only start screensaver"
+msgstr "Tenê dîmenderparêzê veke"
+
+#: lock/main.cc:65
+msgid "Only use the blank screensaver"
+msgstr "Tenê dîmenderparêza vala bi kar bîne"
+
+#: lock/lockprocess.cc:762
+msgid "Will not lock the session, as unlocking would be impossible:\n"
+msgstr ""
+"Ji ber ku dê mifteya danişînê vene be, dê danişîn neyê miftekirin jî:\n"
+
+#: lock/lockprocess.cc:766
+msgid "Cannot start <i>kcheckpass</i>."
+msgstr "Bernameya <i>Kcheckpass</i> nehate xebitandin."
+
+#: lock/lockprocess.cc:767
+msgid "<i>kcheckpass</i> is unable to operate. Possibly it is not SetUID root."
+msgstr "<i>Kcheckpass</i> nikare bixebite. Dibe ku SetUID ne root be."
+
+#: lock/lockprocess.cc:810
+msgid "No appropriate greeter plugin configured."
+msgstr "Pêvekeke lihevkir a beramber nayê dîtin."
+
+#: lock/lockdlg.cc:94
+msgid "<nobr><b>The session is locked</b></nobr><br />"
+msgstr "<nobr><b>Danişîn miftekirî ye</b></nobr><br />"
+
+#: lock/lockdlg.cc:95
+#, kde-format
+msgid "<nobr><b>The session was locked by %1</b></nobr><br />"
+msgstr "<nobr><b>Danişîn ji aliyê %1 miftekirî ye</b></nobr><br />"
+
+#: lock/lockdlg.cc:106
+msgid "Unl&ock"
+msgstr "&Mifteyê veke"
+
+#: lock/lockdlg.cc:108
+msgid "Sw&itch User..."
+msgstr "&Bikarhêner Biguherîne..."
+
+#: lock/lockdlg.cc:176
+msgid "<b>Unlocking failed</b>"
+msgstr "<b>Vekirina mifteyê bi ser neket</b>"
+
+#: lock/lockdlg.cc:184
+msgid "<b>Warning: Caps Lock on</b>"
+msgstr "<b>Hişyarî: Caps Lock vekirî ye</b>"
+
+#: lock/lockdlg.cc:416
+#, kde-format
+msgid ""
+"Cannot unlock the session because the authentication system failed to work;\n"
+"you must kill krunner_lock (pid %1) manually."
+msgstr ""
+
+#: lock/lockdlg.cc:501
+msgid "&Start New Session"
+msgstr "&Dest Bi Danişîna Nû Bike"
+
+#: lock/lockdlg.cc:509
+#, kde-format
+msgid ""
+"You have chosen to open another desktop session instead of resuming the "
+"current one.\n"
+"The current session will be hidden and a new login screen will be "
+"displayed.\n"
+"An F-key is assigned to each session; F%1 is usually assigned to the first "
+"session, F%2 to the second session and so on. You can switch between "
+"sessions by pressing Ctrl, Alt and the appropriate F-key at the same time. "
+"Additionally, the KDE Panel and Desktop menus have actions for switching "
+"between sessions."
+msgstr ""
+
+#: lock/lockdlg.cc:522
+msgid "&Do not ask again"
+msgstr "&Careke din nepirse"
+
+#: lock/lockdlg.cc:578
+msgid "Session"
+msgstr "Danişîn"
+
+#: lock/lockdlg.cc:579
+msgid "Location"
+msgstr "Cih"
+
+#: lock/lockdlg.cc:605
+msgctxt "session"
+msgid "&Activate"
+msgstr "&Çalakkirin"
+
+#: lock/lockdlg.cc:614
+msgid "Start &New Session"
+msgstr "Dest Bi Danişîna &Nû Bike"
+
+#: main.cpp:33
+msgid "KDE run command interface"
+msgstr ""
+
+#: main.cpp:39
+msgid "Run Command Interface"
+msgstr ""
+
+#: main.cpp:41
+msgid "(c) 2006, Aaron Seigo"
+msgstr "(c) 2006, Aaron Seigo"
+
+#: main.cpp:42
+msgid "Aaron J. Seigo"
+msgstr "Aaron J. Seigo"
+
+#: main.cpp:43
+msgid "Author and maintainer"
+msgstr "Nivîskar û kesê miqate"
+
+#: interface.cpp:79
+#, kde-format
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: interface.cpp:83
+#, fuzzy, kde-format
+#| msgid "%1 (%2)"
+msgid "%1 (%2, %3)"
+msgstr "%1 (%2)"
+
+#: interface.cpp:135
+msgid "Default: "
+msgstr "Standard: "
+
+#: interface.cpp:306 krunnerapp.cpp:133 krunnerapp.cpp:134
+msgid "Run Command"
+msgstr "Fermanê Bixebitîne"
+
+#: interface.cpp:358 interface.cpp:710 interface.cpp:750 interface.cpp:753
+msgid "Show Options"
+msgstr "Opsiyonên Nîşan bide"
+
+#: interface.cpp:365 krunnerapp.cpp:144 krunnerapp.cpp:145
+msgid "Show System Activity"
+msgstr "Çalakbûna Pergalê Nîşan Bide"
+
+#: interface.cpp:373
+msgid "Click to execute the selected item above"
+msgstr ""
+
+#: interface.cpp:374
+msgid "Launch"
+msgstr ""
+
+#: interface.cpp:469
+msgid "Switch users"
+msgstr "Bikarhêneran biguherîne"
+
+#: interface.cpp:489
+msgid "No desktop sessions available"
+msgstr "Tu danişîna sermasê amade nîn e"
+
+#: interface.cpp:511
+msgid "Enter the name of an application, location or search term below."
+msgstr ""
+
+#: interface.cpp:706 interface.cpp:748
+msgid "Hide Options"
+msgstr "Opsiyonan Veşêre"
+
+#. i18n: tag label
+#. i18n: file krunner.kcfg line 14
+#: rc.cpp:11
+msgid "Whitelist of allowed runners."
+msgstr ""
+
+#. i18n: tag whatsthis
+#. i18n: file krunner.kcfg line 15
+#: rc.cpp:14
+msgid "If set, this list defines which runners will be used at runtime."
+msgstr ""
+
+#. i18n: tag label
+#. i18n: file krunner.kcfg line 20
+#: rc.cpp:17
+msgid "History if past queries succesfully completed"
+msgstr ""
+
+#. i18n: tag label
+#. i18n: file krunner.kcfg line 26
+#: rc.cpp:21
+msgid "Maximum number of threads to use for searches."
+msgstr ""
+
+#. i18n: tag whatsthis
+#. i18n: file krunner.kcfg line 27
+#: rc.cpp:24
+msgid ""
+"The number of threads used scales with the number of processors. This entry "
+"allows you to define a hard upper limit independent of the number of "
+"processors."
+msgstr ""
+
+#. i18n: tag label
+#. i18n: file krunner.kcfg line 35
+#: rc.cpp:27
+msgid "Whether to keep the tasks dialog above other windows when shown."
+msgstr ""
+
+#. i18n: tag label
+#. i18n: file kscreensaversettings.kcfg line 11
+#: rc.cpp:31
+msgid "Enable screen saver"
+msgstr "Dîmendarparêzê çalak bike"
+
+#. i18n: tag whatsthis
+#. i18n: file kscreensaversettings.kcfg line 12
+#: rc.cpp:34
+msgid "Enables the screen saver."
+msgstr "Dîmenderparêzê çalak dike."
+
+#. i18n: tag label
+#. i18n: file kscreensaversettings.kcfg line 16
+#: rc.cpp:37
+msgid "Screen saver timeout"
+msgstr "Ji bo dîmenderparêzê dem bihurî"
+
+#. i18n: tag whatsthis
+#. i18n: file kscreensaversettings.kcfg line 17
+#: rc.cpp:40
+msgid "Sets the seconds after which the screen saver is started."
+msgstr "Dembuhiriya dîmenderparêzê belî dike."
+
+#. i18n: tag label
+#. i18n: file kscreensaversettings.kcfg line 21
+#: rc.cpp:43
+msgid "Suspend screen saver when DPMS kicks in"
+msgstr ""
+
+#. i18n: tag whatsthis
+#. i18n: file kscreensaversettings.kcfg line 24
+#: rc.cpp:46
+msgid ""
+"Usually the screen saver is suspended when display power saving kicks in,\n"
+"       as nothing can be seen on the screen anyway, obviously. However, some "
+"screen savers\n"
+"       actually perform useful computations, so it is not desirable to "
+"suspend them."
+msgstr ""
+
+#: rc.cpp:73
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Erdal Ronahi"
+
+#: rc.cpp:74
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "erdal dot ronahi at gmail dot com"
+
+#: krunnerapp.cpp:138 krunnerapp.cpp:139
+msgid "Run Command on clipboard contents"
+msgstr ""
+
+#: krunnerapp.cpp:156 krunnerapp.cpp:157
+msgid "Switch User"
+msgstr "Bikarhêner Biguherîne"
+
+#: krunnerapp.cpp:162 krunnerapp.cpp:163
+msgid "Lock Session"
+msgstr "Danişînê Biqufilîne"
+
+#: krunnerapp.cpp:169 krunnerapp.cpp:170
+msgid "Log Out"
+msgstr "Derketin"
+
+#: krunnerapp.cpp:174 krunnerapp.cpp:175
+msgid "Log Out Without Confirmation"
+msgstr "Bê Erêkirinê Derkeve"
+
+#: krunnerapp.cpp:179 krunnerapp.cpp:180
+#, fuzzy
+msgid "Halt Without Confirmation"
+msgstr "Bê Erêkirinê Rawestîne"
+
+#: krunnerapp.cpp:184 krunnerapp.cpp:185
+#, fuzzy
+msgid "Reboot Without Confirmation"
+msgstr "Bê Erêkirinê ji nû ve veke"
+
+#: krunnerapp.cpp:233
+msgid "System Activity"
+msgstr "Çalakiya Pergalê"
+
+#: krunnerapp.cpp:312
+msgid ""
+"Could not log out properly.\n"
+"The session manager cannot be contacted. You can try to force a shutdown by "
+"pressing Ctrl+Alt+Backspace; note, however, that your current session will "
+"not be saved with a forced shutdown."
+msgstr ""
+
+#~ msgid "Show Taskmanager"
+#~ msgstr "Rêveberê Peywiran nîşan bide"
+
+#~ msgid "Command"
+#~ msgstr "Ferman"
+
+#~ msgid "Run %1"
+#~ msgstr "%1 bixebitîne"
+
+#~ msgid "%1 - %2"
+#~ msgstr "%1 - %2"
+
+#~ msgid "Application"
+#~ msgstr "Sepan"
+
+#~ msgid "Sessions"
+#~ msgstr "Danişîn"
+
+#~ msgid "New Session"
+#~ msgstr "Danişîna Nû"
+
+#~ msgid "Warning - New Session"
+#~ msgstr "Hişyarî - Danişîna Nû"

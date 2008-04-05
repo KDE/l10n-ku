@@ -1,0 +1,161 @@
+# translation of solidshell.po to Kurdish
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Erdal Ronahi <erdal dot ronahi at gmail dot com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: solidshell\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2008-03-22 20:23+0100\n"
+"PO-Revision-Date: 2007-12-21 19:43+0100\n"
+"Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
+"Language-Team: Kurdish <gnu-ku-wergerandin at lists dot sourceforge dot "
+"net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural= n != 1\n"
+
+#: solid-network.cpp:53
+msgid "solid-network"
+msgstr ""
+
+#: solid-network.cpp:55
+msgid ""
+"KDE tool for querying and controlling your network interfaces from the "
+"command line"
+msgstr ""
+
+#: solid-network.cpp:274
+msgid "Syntax Error: Not enough arguments"
+msgstr ""
+
+#: solid-network.cpp:280
+msgid "Syntax Error: Too many arguments"
+msgstr ""
+
+#: solid-network.cpp:292
+msgid "Show available commands by domains"
+msgstr ""
+
+#: solid-network.cpp:294
+msgid "Command (see --commands)"
+msgstr ""
+
+#: solid-network.cpp:296
+msgid "Arguments for command"
+msgstr ""
+
+#: solid-network.cpp:308
+msgid "Syntax:"
+msgstr ""
+
+#: solid-network.cpp:311
+msgid "             # List the network devices present.\n"
+msgstr ""
+
+#: solid-network.cpp:314
+msgid ""
+"             # List the networks known to the device specified by 'uni'.\n"
+msgstr ""
+
+#: solid-network.cpp:317
+msgid ""
+"             # Query whether networking features are active or not.\n"
+"             # - If the 'status' option is given, return whether\n"
+"             # networking is enabled for the system\n"
+"             # - If the 'wireless' option is is given, return whether\n"
+"             # wireless is enabled for the system\n"
+"             # - If the 'interface' option is given, print the\n"
+"             # properties of the network interface that 'uni' refers to.\n"
+"             # - If the 'network' option is given, print the\n"
+"             # properties of the network on 'device-uni' that 'network-uni' "
+"refers to.\n"
+msgstr ""
+
+#: solid-network.cpp:328 solid-network.cpp:331
+msgid "             # Enable or disable networking on this system.\n"
+msgstr ""
+
+#: solid-network.cpp:334
+msgid ""
+"             # Activate the network 'network-uni' on 'device-uni'.\n"
+"             # Optionally, use WEP128, open-system encryption with hex key "
+"'key'. (Hardcoded)\n"
+"             # Where 'authentication' is one of:\n"
+"             # wep hex64|ascii64|hex128|ascii128|passphrase64|passphrase128 "
+"'key' [open|shared]\n"
+"             # wpapsk wpa|wpa2 tkip|ccmp-aes password\n"
+"             # wpaeap UNIMPLEMENTED IN SOLIDSHELL\n"
+msgstr ""
+
+#: solid-network.cpp:382 solid-network.cpp:402 solid-network.cpp:421
+#, kde-format
+msgid "Syntax Error: Unknown option '%1'"
+msgstr ""
+
+#: solid-network.cpp:481
+#, kde-format
+msgid "Unrecognised WEP type '%1'"
+msgstr ""
+
+#: solid-network.cpp:497
+#, kde-format
+msgid "Unrecognised WEP method '%1'"
+msgstr ""
+
+#: solid-network.cpp:514
+#, kde-format
+msgid "Unrecognised WPA version '%1'"
+msgstr ""
+
+#: solid-network.cpp:525
+#, kde-format
+msgid "Unrecognised WPA encryption protocol '%1'"
+msgstr ""
+
+#: solid-network.cpp:536
+#, kde-format
+msgid "Unimplemented auth scheme '%1'"
+msgstr ""
+
+#: solid-network.cpp:552
+#, kde-format
+msgid "Syntax Error: Unknown object '%1'"
+msgstr ""
+
+#: solid-network.cpp:568
+#, kde-format
+msgid "Syntax Error: Unknown command '%1'"
+msgstr ""
+
+#: solid-network.cpp:577
+msgid "networking: is enabled"
+msgstr ""
+
+#: solid-network.cpp:579
+msgid "networking: is not enabled"
+msgstr ""
+
+#: solid-network.cpp:586
+msgid "wireless: is enabled"
+msgstr ""
+
+#: solid-network.cpp:588
+msgid "wireless: is not enabled"
+msgstr ""
+
+#: solid-network.cpp:678
+#, kde-format
+msgid "Progress: %1%"
+msgstr "Pêşketin: %1%"
+
+#: solid-network.cpp:683
+#, kde-format
+msgid "Info: %1"
+msgstr "Agahî: %1"
+
+#~ msgid "Error: %1"
+#~ msgstr "Çewtî: %1"
