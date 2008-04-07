@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kopete\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-04-04 16:40+0200\n"
+"POT-Creation-Date: 2008-04-06 20:00+0200\n"
 "PO-Revision-Date: 2007-12-21 23:18+0100\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <gnu-ku-wergerandin at lists dot sourceforge dot "
@@ -306,7 +306,7 @@ msgstr "<nenas>"
 
 #: libkopete/kopetetransfermanager.cpp:275 protocols/qq/qqcontact.cpp:418
 #: protocols/msn/msncontact.cpp:607 protocols/gadu/gaducontact.cpp:100
-#: protocols/oscar/oscarcontact.cpp:319
+#: protocols/oscar/oscarcontact.cpp:318
 #: protocols/jabber/jabbercontact.cpp:1039
 #: protocols/jabber/jabbergroupmembercontact.cpp:158
 #: protocols/jabber/jabbergroupcontact.cpp:309
@@ -1471,7 +1471,7 @@ msgstr "Kopete, Messengera KDE'yê"
 #: kopete/contactlist/kopetecontactlistview.cpp:1570 rc.cpp:4931
 #: protocols/irc/ui/irceditaccountwidget.cpp:276
 #: protocols/msn/msncontact.cpp:337
-#: protocols/oscar/liboscar/userdetails.cpp:547
+#: protocols/oscar/liboscar/userdetails.cpp:560
 msgid "Kopete"
 msgstr "Kopete"
 
@@ -15509,8 +15509,6 @@ msgstr ""
 
 #: protocols/irc/libkirc/client/tasks/kirci18ntask.cpp:366
 #, c-format
-#| msgid "There is 1 operator online."
-#| msgid_plural "There are %1 operators online."
 msgid "There is 1 operator online."
 msgid_plural "There are %s operators online."
 msgstr[0] ""
@@ -16378,7 +16376,7 @@ msgid "Account created; your new UIN is %1."
 msgstr "Hesab hate afirandin: UIN'a te ya nû: %1"
 
 #: protocols/gadu/gaduregisteraccount.cpp:170
-#: protocols/gadu/gadupubdir.cpp:119 protocols/oscar/aim/aimuserinfo.cpp:114
+#: protocols/gadu/gadupubdir.cpp:119 protocols/oscar/aim/aimuserinfo.cpp:115
 #, fuzzy
 msgid "&Close"
 msgstr "Bigi&re"
@@ -16731,20 +16729,20 @@ msgid "&Warn User"
 msgstr "Bikarhêner &Hişyar Bike"
 
 #: protocols/oscar/aim/aimcontact.cpp:74
-#: protocols/oscar/aim/icqcontact.cpp:156
+#: protocols/oscar/aim/icqcontact.cpp:154
 #: protocols/oscar/icq/aimcontact.cpp:62
 #: protocols/oscar/icq/icqcontact.cpp:571
 msgid "Always &Visible To"
 msgstr ""
 
 #: protocols/oscar/aim/aimcontact.cpp:78
-#: protocols/oscar/aim/icqcontact.cpp:160
+#: protocols/oscar/aim/icqcontact.cpp:158
 #: protocols/oscar/icq/aimcontact.cpp:66
 #: protocols/oscar/icq/icqcontact.cpp:575
 msgid "Always &Invisible To"
 msgstr ""
 
-#: protocols/oscar/aim/aimcontact.cpp:220
+#: protocols/oscar/aim/aimcontact.cpp:218
 #, kde-format
 msgid ""
 "<qt>Would you like to warn %1 anonymously or with your name?<br>(Warning a "
@@ -16754,35 +16752,35 @@ msgid ""
 "practices.)</qt>"
 msgstr ""
 
-#: protocols/oscar/aim/aimcontact.cpp:228
+#: protocols/oscar/aim/aimcontact.cpp:226
 #, kde-format
 msgid "Warn User %1?"
 msgstr "Bikarhênerê %1 Hişyar Bike?"
 
-#: protocols/oscar/aim/aimcontact.cpp:229
+#: protocols/oscar/aim/aimcontact.cpp:227
 msgid "Warn Anonymously"
 msgstr "Hişyariya Gelêrî"
 
-#: protocols/oscar/aim/aimcontact.cpp:229
+#: protocols/oscar/aim/aimcontact.cpp:227
 msgid "Warn"
 msgstr "Hişyar bike"
 
 #: protocols/oscar/aim/aimuserinfo.cpp:42
-#: protocols/oscar/aim/aimuserinfo.cpp:142
-#: protocols/oscar/aim/aimuserinfo.cpp:159
+#: protocols/oscar/aim/aimuserinfo.cpp:143
+#: protocols/oscar/aim/aimuserinfo.cpp:160
 #, kde-format
 msgid "User Information on %1"
 msgstr "Agahiya Bikarhênerê %1"
 
-#: protocols/oscar/aim/aimuserinfo.cpp:94
+#: protocols/oscar/aim/aimuserinfo.cpp:95
 msgid "&Save Profile"
 msgstr "Profîlê &Tomar Bike"
 
-#: protocols/oscar/aim/aimuserinfo.cpp:121
+#: protocols/oscar/aim/aimuserinfo.cpp:122
 msgid "Requesting User Profile, please wait..."
 msgstr "Profîla Bikarhêner Tê Xwestin, ji kerema xwe re raweste..."
 
-#: protocols/oscar/aim/aimuserinfo.cpp:204
+#: protocols/oscar/aim/aimuserinfo.cpp:205
 msgid "<html><body><I>No user information provided</I></body></html>"
 msgstr "<html><body><I>Agahiya bikarhêner nayê dîtin</I></body></html>"
 
@@ -17790,7 +17788,7 @@ msgid "Fitness"
 msgstr ""
 
 #: protocols/oscar/icq/icqprotocol.cpp:613
-#: protocols/oscar/oscarcontact.cpp:247
+#: protocols/oscar/oscarcontact.cpp:246
 msgid "Games"
 msgstr "Lîstik"
 
@@ -18191,7 +18189,7 @@ msgstr ""
 msgid "Past Organization"
 msgstr "Piştrastkirin"
 
-#: protocols/oscar/icq/icqcontact.cpp:248 protocols/oscar/oscarcontact.cpp:362
+#: protocols/oscar/icq/icqcontact.cpp:248 protocols/oscar/oscarcontact.cpp:363
 msgid "Request Authorization"
 msgstr "Xwestina Destûrê"
 
@@ -18219,7 +18217,7 @@ msgctxt "Translators: client-name client-version"
 msgid "%1 %2"
 msgstr "%1 @ %2"
 
-#: protocols/oscar/icq/icqcontact.cpp:452 protocols/oscar/oscarcontact.cpp:233
+#: protocols/oscar/icq/icqcontact.cpp:452 protocols/oscar/oscarcontact.cpp:232
 msgid "UTF-8"
 msgstr "UTF-8"
 
@@ -18227,7 +18225,7 @@ msgstr "UTF-8"
 msgid "RTF-Messages"
 msgstr "Peyama RTF"
 
-#: protocols/oscar/icq/icqcontact.cpp:456 protocols/oscar/oscarcontact.cpp:241
+#: protocols/oscar/icq/icqcontact.cpp:456 protocols/oscar/oscarcontact.cpp:240
 msgid "DirectIM/IMImage"
 msgstr ""
 
@@ -18291,31 +18289,31 @@ msgstr ""
 msgid "Do &Not Add"
 msgstr ""
 
-#: protocols/oscar/oscarcontact.cpp:231
+#: protocols/oscar/oscarcontact.cpp:230
 msgid "Buddy icons"
 msgstr ""
 
-#: protocols/oscar/oscarcontact.cpp:235
+#: protocols/oscar/oscarcontact.cpp:234
 msgid "Rich text messages"
 msgstr ""
 
-#: protocols/oscar/oscarcontact.cpp:237
+#: protocols/oscar/oscarcontact.cpp:236
 msgid "Group chat"
 msgstr "Sohbeta Komî"
 
-#: protocols/oscar/oscarcontact.cpp:239
+#: protocols/oscar/oscarcontact.cpp:238
 msgid "Voice chat"
 msgstr "Sohbeta Bi Deng"
 
-#: protocols/oscar/oscarcontact.cpp:243
+#: protocols/oscar/oscarcontact.cpp:242
 msgid "Send buddy list"
 msgstr ""
 
-#: protocols/oscar/oscarcontact.cpp:245
+#: protocols/oscar/oscarcontact.cpp:244
 msgid "File transfers"
 msgstr "Veguheztina pelan"
 
-#: protocols/oscar/oscarcontact.cpp:358
+#: protocols/oscar/oscarcontact.cpp:359
 #, kde-format
 msgid ""
 "The user %1 requires authorization before being added to a contact list. Do "
@@ -18324,7 +18322,7 @@ msgid ""
 "Reason for requesting authorization:"
 msgstr ""
 
-#: protocols/oscar/oscarcontact.cpp:363
+#: protocols/oscar/oscarcontact.cpp:364
 #, fuzzy
 #| msgid ""
 #| "<b>%1</b> requested authorization to add you to his/her contact list."
