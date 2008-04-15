@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfontinst\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-04-08 21:27+0200\n"
+"POT-Creation-Date: 2008-04-14 18:46+0200\n"
 "PO-Revision-Date: 2008-03-02 18:13+0100\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: ku <kde-i18n-doc@lists.kde.org>\n"
@@ -812,12 +812,16 @@ msgstr "Ji kerema xwe re navê koma nû binivîse:"
 msgid "New Group"
 msgstr "Koma Nû"
 
-#: kcmfontinst/KCmFontInst.cpp:983 viewpart/FontViewPart.cpp:407
-msgid "Preview String"
-msgstr "Hevoka Pêşdîtinê"
+#: kcmfontinst/KCmFontInst.cpp:983
+#, fuzzy
+#| msgid "Preview"
+msgid "Preview Text"
+msgstr "Pêşdîtin"
 
-#: kcmfontinst/KCmFontInst.cpp:984 viewpart/FontViewPart.cpp:408
-msgid "Please enter new string:"
+#: kcmfontinst/KCmFontInst.cpp:984
+#, fuzzy
+#| msgid "Please enter new string:"
+msgid "Please enter new text:"
 msgstr "Ji kerema xwe re hevoka nû binivîse:"
 
 #: kcmfontinst/KCmFontInst.cpp:1039
@@ -1416,6 +1420,14 @@ msgstr ""
 #: viewpart/FontViewPart.cpp:372
 msgid "Could not read font."
 msgstr ""
+
+#: viewpart/FontViewPart.cpp:407
+msgid "Preview String"
+msgstr "Hevoka Pêşdîtinê"
+
+#: viewpart/FontViewPart.cpp:408
+msgid "Please enter new string:"
+msgstr "Ji kerema xwe re hevoka nû binivîse:"
 
 #: viewpart/FontViewPart.cpp:516
 msgid "<p>No information</p>"
