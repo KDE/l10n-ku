@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok-neu\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-04-19 22:03+0200\n"
+"POT-Creation-Date: 2008-04-21 20:22+0200\n"
 "PO-Revision-Date: 2007-12-16 23:28+0100\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
@@ -168,7 +168,7 @@ msgstr ""
 
 #: collection/sqlcollection/SqlMeta.cpp:237
 #: servicebrowser/lastfm/meta/LastFmMeta.cpp:137
-#: covermanager/CoverManager.cpp:343 covermanager/CoverManager.cpp:970
+#: covermanager/CoverManager.cpp:342 covermanager/CoverManager.cpp:895
 #, kde-format
 msgid "%1 - %2"
 msgstr "%1 - %2"
@@ -195,7 +195,7 @@ msgstr ""
 
 #: context/engines/lastfm/LastFmEngine.cpp:52
 #: context/engines/lastfm/LastFmEngine.cpp:70
-#: context/engines/lastfm/LastFmEngine.cpp:156
+#: context/engines/lastfm/LastFmEngine.cpp:153
 #: context/applets/lastfmevents/LastFmEvents.cpp:82
 #, fuzzy
 msgid "userevents"
@@ -203,14 +203,14 @@ msgstr "Dîmender Tije"
 
 #: context/engines/lastfm/LastFmEngine.cpp:52
 #: context/engines/lastfm/LastFmEngine.cpp:73
-#: context/engines/lastfm/LastFmEngine.cpp:154
+#: context/engines/lastfm/LastFmEngine.cpp:151
 #: context/applets/lastfmevents/LastFmEvents.cpp:81
 msgid "sysevents"
 msgstr ""
 
 #: context/engines/lastfm/LastFmEngine.cpp:52
 #: context/engines/lastfm/LastFmEngine.cpp:76
-#: context/engines/lastfm/LastFmEngine.cpp:155
+#: context/engines/lastfm/LastFmEngine.cpp:152
 #: context/applets/lastfmevents/LastFmEvents.cpp:83
 msgid "friendevents"
 msgstr ""
@@ -227,9 +227,9 @@ msgstr "Hunermendên Bijarte"
 msgid "suggestedsongs"
 msgstr "Stranên pêşniyazkirî"
 
-#: context/engines/lastfm/LastFmEngine.cpp:154
-#: context/engines/lastfm/LastFmEngine.cpp:155
-#: context/engines/lastfm/LastFmEngine.cpp:156
+#: context/engines/lastfm/LastFmEngine.cpp:151
+#: context/engines/lastfm/LastFmEngine.cpp:152
+#: context/engines/lastfm/LastFmEngine.cpp:153
 #, fuzzy
 msgid "username"
 msgstr "Nav biguharîne"
@@ -658,13 +658,19 @@ msgstr ""
 
 #: context/applets/currenttrack/CurrentTrack.cpp:129
 #: covermanager/CoverFetchingActions.cpp:41
+#| msgid "Fetch Cover"
 msgid "Fetch Cover"
-msgstr ""
+msgid_plural "Fetch Covers"
+msgstr[0] ""
+msgstr[1] ""
 
 #: context/applets/currenttrack/CurrentTrack.cpp:130
-#: covermanager/CoverFetchingActions.cpp:87
+#: covermanager/CoverFetchingActions.cpp:77
+#| msgid "Unset Cover"
 msgid "Unset Cover"
-msgstr ""
+msgid_plural "Unset Covers"
+msgstr[0] ""
+msgstr[1] ""
 
 #: context/applets/lastfmevents/LastFmEvents.cpp:274
 #, fuzzy
@@ -1900,7 +1906,7 @@ msgid "Collection Statistics"
 msgstr "Îstatîstîkên Koleksiyonan"
 
 #: Statistics.cpp:83 widgets/SearchWidget.cpp:64
-#: covermanager/CoverManager.cpp:173
+#: covermanager/CoverManager.cpp:172
 msgid "Enter search terms here"
 msgstr ""
 
@@ -2001,7 +2007,7 @@ msgstr "%1. %2"
 #: collectionbrowser/CollectionTreeItem.cpp:126
 #: playlist/PlaylistGraphicsItem.cpp:335
 #: collectionscanner/collectionscanner.cpp:450
-#: covermanager/CoverManager.cpp:970
+#: covermanager/CoverManager.cpp:895
 msgid "Various Artists"
 msgstr "Hunermendên cur bi cur"
 
@@ -2037,8 +2043,6 @@ msgstr ""
 #: mediadevice/generic/genericmediadevice.cpp:938 systray.cpp:113
 #: collectionbrowser/CollectionTreeView.cpp:135
 #: playlistbrowser/PodcastCategory.cpp:317
-#| msgid "&Append to Playlist"
-#| msgid_plural "&Append Selected Albums to Playlist"
 msgid "&Append to Playlist"
 msgstr ""
 
@@ -3409,7 +3413,7 @@ msgstr ""
 
 #: mediadevice/ipod/ipodmediadevice.cpp:1685
 #: mediadevice/ipod/ipodmediadevice.cpp:2030
-#: mediadevice/ipod/ipodmediadevice.cpp:2082 covermanager/CoverManager.cpp:820
+#: mediadevice/ipod/ipodmediadevice.cpp:2082 covermanager/CoverManager.cpp:745
 msgid " - "
 msgstr ""
 
@@ -3675,7 +3679,7 @@ msgstr ""
 msgid "Burn Current Playlist"
 msgstr "Listeyên Lêxistinê yên Zîrek"
 
-#: MainWindow.cpp:829 covermanager/CoverManager.cpp:118
+#: MainWindow.cpp:829 covermanager/CoverManager.cpp:117
 msgid "Cover Manager"
 msgstr ""
 
@@ -3987,7 +3991,7 @@ msgstr "Navneteweyî"
 #. i18n: file EditCoverSearchDialog.ui line 74
 #. i18n: tag string
 #. i18n: file ./EditCoverSearchDialog.ui line 74
-#: rc.cpp:12 rc.cpp:863 covermanager/CoverManager.cpp:211
+#: rc.cpp:12 rc.cpp:863 covermanager/CoverManager.cpp:210
 msgid "Canada"
 msgstr "Kanada"
 
@@ -3995,7 +3999,7 @@ msgstr "Kanada"
 #. i18n: file EditCoverSearchDialog.ui line 79
 #. i18n: tag string
 #. i18n: file ./EditCoverSearchDialog.ui line 79
-#: rc.cpp:15 rc.cpp:866 covermanager/CoverManager.cpp:215
+#: rc.cpp:15 rc.cpp:866 covermanager/CoverManager.cpp:214
 msgid "France"
 msgstr "Fransa"
 
@@ -4003,7 +4007,7 @@ msgstr "Fransa"
 #. i18n: file EditCoverSearchDialog.ui line 84
 #. i18n: tag string
 #. i18n: file ./EditCoverSearchDialog.ui line 84
-#: rc.cpp:18 rc.cpp:869 covermanager/CoverManager.cpp:219
+#: rc.cpp:18 rc.cpp:869 covermanager/CoverManager.cpp:218
 msgid "Germany"
 msgstr "Almanya"
 
@@ -4011,7 +4015,7 @@ msgstr "Almanya"
 #. i18n: file EditCoverSearchDialog.ui line 89
 #. i18n: tag string
 #. i18n: file ./EditCoverSearchDialog.ui line 89
-#: rc.cpp:21 rc.cpp:872 covermanager/CoverManager.cpp:223
+#: rc.cpp:21 rc.cpp:872 covermanager/CoverManager.cpp:222
 msgid "Japan"
 msgstr "Japonya"
 
@@ -4019,7 +4023,7 @@ msgstr "Japonya"
 #. i18n: file EditCoverSearchDialog.ui line 94
 #. i18n: tag string
 #. i18n: file ./EditCoverSearchDialog.ui line 94
-#: rc.cpp:24 rc.cpp:875 covermanager/CoverManager.cpp:227
+#: rc.cpp:24 rc.cpp:875 covermanager/CoverManager.cpp:226
 msgid "United Kingdom"
 msgstr ""
 
@@ -8280,7 +8284,7 @@ msgstr ""
 msgid "Updating the local OPML database."
 msgstr ""
 
-#: servicebrowser/opmldirectory/OpmlDirectoryInfoParser.cpp:64
+#: servicebrowser/opmldirectory/OpmlDirectoryInfoParser.cpp:65
 msgid "Fetching Podcast Info"
 msgstr ""
 
@@ -8641,7 +8645,7 @@ msgstr ""
 msgid "&nbsp;<br/>&nbsp;<i>Disabled</i>"
 msgstr ""
 
-#: statusbar/progressBar.cpp:45 covermanager/CoverManager.cpp:262
+#: statusbar/progressBar.cpp:45 covermanager/CoverManager.cpp:261
 msgid "Abort"
 msgstr "Betal"
 
@@ -8758,7 +8762,7 @@ msgstr ""
 msgid "Track: "
 msgstr "Stran  #"
 
-#: TrackTooltip.cpp:166 covermanager/CoverManager.cpp:858
+#: TrackTooltip.cpp:166 covermanager/CoverManager.cpp:783
 msgid " by "
 msgstr ""
 
@@ -8874,20 +8878,51 @@ msgstr ""
 msgid "Click for more analyzers"
 msgstr ""
 
-#: covermanager/CoverFetchingActions.cpp:44
+#: covermanager/CoverFetchingActions.cpp:43
+#, kde-format
+#| msgid "Fetch the artwork for this album"
 msgid "Fetch the artwork for this album"
-msgstr ""
+msgid_plural "Fetch artwork for %1 albums"
+msgstr[0] ""
+msgstr[1] ""
 
-#: covermanager/CoverFetchingActions.cpp:64
+#: covermanager/CoverFetchingActions.cpp:59
 msgid "Display Cover"
 msgstr ""
 
-#: covermanager/CoverFetchingActions.cpp:67
+#: covermanager/CoverFetchingActions.cpp:61
 msgid "Display artwork for this album"
 msgstr ""
 
-#: covermanager/CoverFetchingActions.cpp:90
+#: covermanager/CoverFetchingActions.cpp:79
+#, kde-format
+#| msgid "Remove artwork for this album"
 msgid "Remove artwork for this album"
+msgid_plural "Remove artwork for %1 albums"
+msgstr[0] ""
+msgstr[1] ""
+
+#: covermanager/CoverFetchingActions.cpp:87
+#, kde-format
+msgid "Are you sure you want to remove this cover from the Collection?"
+msgid_plural ""
+"Are you sure you want to delete these %1 covers from the Collection?"
+msgstr[0] ""
+msgstr[1] ""
+
+#: covermanager/CoverFetchingActions.cpp:110
+msgid "Set Custom Cover"
+msgstr ""
+
+#: covermanager/CoverFetchingActions.cpp:112
+#, kde-format
+msgid "Set custom artwork for this album"
+msgid_plural "Set custom artwork for these %1 albums"
+msgstr[0] ""
+msgstr[1] ""
+
+#: covermanager/CoverFetchingActions.cpp:120
+msgid "Select Cover Image File"
 msgstr ""
 
 #: covermanager/CoverFetcher.cpp:185
@@ -8972,138 +9007,126 @@ msgstr ""
 msgid "Cover Found"
 msgstr ""
 
-#: covermanager/CoverManager.cpp:124
+#: covermanager/CoverManager.cpp:123
 msgid "Albums By"
 msgstr "Çêkerê Albumê"
 
-#: covermanager/CoverManager.cpp:134 covermanager/CoverManager.cpp:381
+#: covermanager/CoverManager.cpp:133 covermanager/CoverManager.cpp:380
 #, fuzzy
 msgid "All Artists"
 msgstr "Hunermend"
 
-#: covermanager/CoverManager.cpp:179
+#: covermanager/CoverManager.cpp:178
 msgid "Enter space-separated terms to search in the albums"
 msgstr ""
 
-#: covermanager/CoverManager.cpp:186
+#: covermanager/CoverManager.cpp:185
 msgid "All Albums"
 msgstr "Hemû Album"
 
-#: covermanager/CoverManager.cpp:187
+#: covermanager/CoverManager.cpp:186
 msgid "Albums With Cover"
 msgstr ""
 
-#: covermanager/CoverManager.cpp:188
+#: covermanager/CoverManager.cpp:187
 msgid "Albums Without Cover"
 msgstr ""
 
-#: covermanager/CoverManager.cpp:207
+#: covermanager/CoverManager.cpp:206
 #, fuzzy
 #| msgid "International"
 msgctxt "The locale to use when fetching covers from amazon.com"
 msgid "International"
 msgstr "Navneteweyî"
 
-#: covermanager/CoverManager.cpp:234
+#: covermanager/CoverManager.cpp:233
 msgctxt "@title buttontext for popup-menu"
 msgid "View"
 msgstr ""
 
-#: covermanager/CoverManager.cpp:239
+#: covermanager/CoverManager.cpp:238
 msgid "Amazon Locale"
 msgstr ""
 
-#: covermanager/CoverManager.cpp:245
+#: covermanager/CoverManager.cpp:244
 msgid "Fetch Missing Covers"
 msgstr ""
 
-#: covermanager/CoverManager.cpp:451
+#: covermanager/CoverManager.cpp:450
 msgid "Loading Thumbnails..."
 msgstr "Wêneyên Biçûk Têne Barkirin..."
 
-#: covermanager/CoverManager.cpp:704
-msgid "Select Cover Image File"
-msgstr ""
-
-#: covermanager/CoverManager.cpp:736
-#, kde-format
-msgid "Are you sure you want to remove this cover from the Collection?"
-msgid_plural ""
-"Are you sure you want to delete these %1 covers from the Collection?"
-msgstr[0] ""
-msgstr[1] ""
-
-#: covermanager/CoverManager.cpp:794
+#: covermanager/CoverManager.cpp:719
 msgctxt "The fetching is done."
 msgid "Finished."
 msgstr ""
 
-#: covermanager/CoverManager.cpp:796
+#: covermanager/CoverManager.cpp:721
 #, kde-format
 msgid " Cover not found"
 msgid_plural " <b>%1</b> covers not found"
 msgstr[0] ""
 msgstr[1] ""
 
-#: covermanager/CoverManager.cpp:808
+#: covermanager/CoverManager.cpp:733
 #, kde-format
 msgid "Fetching cover for %1..."
 msgstr ""
 
-#: covermanager/CoverManager.cpp:810
+#: covermanager/CoverManager.cpp:735
 #, kde-format
 msgid "Fetching cover for %1 - %2..."
 msgstr ""
 
-#: covermanager/CoverManager.cpp:816
+#: covermanager/CoverManager.cpp:741
 #, kde-format
 msgid "Fetching 1 cover: "
 msgid_plural "Fetching <b>%1</b> covers... : "
 msgstr[0] ""
 msgstr[1] ""
 
-#: covermanager/CoverManager.cpp:818
+#: covermanager/CoverManager.cpp:743
 #, kde-format
 msgid "1 fetched"
 msgid_plural "%1 fetched"
 msgstr[0] ""
 msgstr[1] ""
 
-#: covermanager/CoverManager.cpp:821
+#: covermanager/CoverManager.cpp:746
 #, kde-format
 msgid "1 not found"
 msgid_plural "%1 not found"
 msgstr[0] ""
 msgstr[1] ""
 
-#: covermanager/CoverManager.cpp:824
+#: covermanager/CoverManager.cpp:749
 msgid "Connecting..."
 msgstr "Tê girêdan..."
 
-#: covermanager/CoverManager.cpp:850
+#: covermanager/CoverManager.cpp:775
 #, kde-format
 msgid "1 result for \"%2\""
 msgid_plural "%1 results for \"%2\""
 msgstr[0] ""
 msgstr[1] ""
 
-#: covermanager/CoverManager.cpp:852
+#: covermanager/CoverManager.cpp:777
 #, fuzzy, kde-format
 msgid "1 album"
 msgid_plural "%1 albums"
 msgstr[0] "Album"
 msgstr[1] "Album"
 
-#: covermanager/CoverManager.cpp:863
+#: covermanager/CoverManager.cpp:788
 #, kde-format
 msgid " - ( <b>%1</b> without cover )"
 msgstr ""
 
-#: covermanager/CoverManager.cpp:909
+#: covermanager/CoverManager.cpp:834
 msgid "Cover Image"
 msgstr ""
 
-#: covermanager/CoverManager.cpp:991
+#: covermanager/CoverManager.cpp:916
 #, fuzzy
 #| msgid "Artist"
 msgid "No Artist"
