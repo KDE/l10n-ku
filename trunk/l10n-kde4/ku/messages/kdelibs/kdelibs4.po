@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-05-18 07:28+0200\n"
+"POT-Creation-Date: 2008-05-19 07:50+0200\n"
 "PO-Revision-Date: 2008-04-06 03:37+0200\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <ku@li.org>\n"
@@ -22,15 +22,25 @@ msgstr ""
 "X-Launchpad-Export-Date: 2007-11-26 09:44+0000\n"
 "X-Generator: KBabel 1.11.4\n"
 
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Erdal Ronahi"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "erdal dot ronahi at gmail dot com"
+
 #. i18n: tag string
 #. i18n: file ./interfaces/ktexteditor/editorchooser_ui.ui line 16
-#: rc.cpp:3
+#: rc.cpp:5
 msgid "Editor Chooser"
 msgstr "Bijartoka Sererastkerê"
 
 #. i18n: tag string
 #. i18n: file ./interfaces/ktexteditor/editorchooser_ui.ui line 42
-#: rc.cpp:6
+#: rc.cpp:8
 msgid ""
 "Please choose the default text editing component that you wish to use in "
 "this application. If you choose <B>System Default</B>, the application will "
@@ -43,7 +53,7 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./knewstuff/knewstuff2/ui/DownloadDialog.ui line 32
-#: rc.cpp:9
+#: rc.cpp:11
 #, fuzzy
 #| msgid "Source:"
 msgid "&Source:"
@@ -51,7 +61,7 @@ msgstr "Çavkanî:"
 
 #. i18n: tag string
 #. i18n: file ./knewstuff/knewstuff2/ui/DownloadDialog.ui line 45
-#: rc.cpp:12
+#: rc.cpp:14
 #, fuzzy
 #| msgid "??"
 msgid "?"
@@ -59,7 +69,7 @@ msgstr "??"
 
 #. i18n: tag string
 #. i18n: file ./knewstuff/knewstuff2/ui/DownloadDialog.ui line 72
-#: rc.cpp:15
+#: rc.cpp:17
 #, fuzzy
 #| msgid "Order by:"
 msgid "&Order by:"
@@ -67,7 +77,7 @@ msgstr "Rêz bike li gorî:"
 
 #. i18n: tag string
 #. i18n: file ./knewstuff/knewstuff2/ui/DownloadDialog.ui line 101
-#: rc.cpp:18
+#: rc.cpp:20
 #, fuzzy
 #| msgid "Enter a search term here"
 msgid "Enter search phrase here"
@@ -75,7 +85,7 @@ msgstr "Gotineke lêgerînê têkeve virê"
 
 #. i18n: tag string
 #. i18n: file ./knewstuff/knewstuff2/ui/DownloadDialog.ui line 156
-#: rc.cpp:21
+#: rc.cpp:23
 #, fuzzy
 #| msgid "Collaboration"
 msgid "Colaborate"
@@ -83,20 +93,20 @@ msgstr "Hevkarî"
 
 #. i18n: tag label
 #. i18n: file ./dnssd/kcm_kdnssd.kcfg line 9
-#: rc.cpp:24
+#: rc.cpp:26
 msgid "Additional domains for browsing"
 msgstr "Qadên vebijêrk ji bo lêgerînê"
 
 #. i18n: tag whatsthis
 #. i18n: file ./dnssd/kcm_kdnssd.kcfg line 10
-#: rc.cpp:27
+#: rc.cpp:29
 msgid "List of 'wide-area' (non link-local) domains that should be browsed."
 msgstr ""
 "Lîsteya domainên 'qada-fireh' (girêdana neherêmî) a ku divê lê bê gerîn."
 
 #. i18n: tag string
 #. i18n: file ./kdeui/dialogs/knewpassworddialog.ui line 78
-#: rc.cpp:30 kdeui/dialogs/knewpassworddialog.cpp:114
+#: rc.cpp:32 kdeui/dialogs/knewpassworddialog.cpp:114
 #: kde3support/kdeui/k3passworddialog.cpp:432
 #: kde3support/kdeui/k3passworddialog.cpp:625
 msgid "Passwords do not match"
@@ -104,27 +114,207 @@ msgstr "Nasnav hev nagirin"
 
 #. i18n: tag string
 #. i18n: file ./kdeui/dialogs/knewpassworddialog.ui line 100
-#: rc.cpp:33 kde3support/kdeui/k3passworddialog.cpp:389
+#: rc.cpp:35 kde3support/kdeui/k3passworddialog.cpp:389
 msgid "&Verify:"
 msgstr "&Erêkirin:"
 
 #. i18n: tag string
 #. i18n: file ./kdeui/dialogs/knewpassworddialog.ui line 110
 #. i18n: tag string
-#. i18n: file ./kdeui/dialogs/kpassworddialog.ui line 121
-#: rc.cpp:36 rc.cpp:75
+#. i18n: file ./kdeui/dialogs/kpassworddialog.ui line 138
+#: rc.cpp:38 rc.cpp:152
 msgid "Password:"
 msgstr "Nasnav:"
 
 #. i18n: tag string
 #. i18n: file ./kdeui/dialogs/knewpassworddialog.ui line 137
-#: rc.cpp:39 kde3support/kdeui/k3passworddialog.cpp:410
+#: rc.cpp:41 kde3support/kdeui/k3passworddialog.cpp:410
 msgid "Password strength meter:"
 msgstr "Pîvana hêza şîfreyê:"
 
 #. i18n: tag string
+#. i18n: file ./kdeui/dialogs/kcupsoptionsjobwidget.ui line 13
+#: rc.cpp:44
+#, fuzzy
+#| msgctxt "Jumee short"
+#| msgid "Jom"
+msgid "Job"
+msgstr "Cum"
+
+#. i18n: tag string
+#. i18n: file ./kdeui/dialogs/kcupsoptionsjobwidget.ui line 19
+#: rc.cpp:47
+#, fuzzy
+#| msgctxt "keyboard-key-name"
+#| msgid "Control"
+msgid "Job Control"
+msgstr "Control"
+
+#. i18n: tag string
+#. i18n: file ./kdeui/dialogs/kcupsoptionsjobwidget.ui line 25
+#: rc.cpp:50
+#, fuzzy
+#| msgid "Key used for signing:"
+msgid "Scheduled Printing:"
+msgstr "Mifteya ji bo mohrkirinê tê bikaranîn:"
+
+#. i18n: tag string
+#. i18n: file ./kdeui/dialogs/kcupsoptionsjobwidget.ui line 38
+#: rc.cpp:53
+#, fuzzy
+#| msgid "Information"
+msgid "Billing Information:"
+msgstr "Agahî"
+
+#. i18n: tag string
+#. i18n: file ./kdeui/dialogs/kcupsoptionsjobwidget.ui line 48
+#: rc.cpp:56
+msgid "Job Priority:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./kdeui/dialogs/kcupsoptionsjobwidget.ui line 94
+#: rc.cpp:59
+#, fuzzy
+#| msgid "Options"
+msgid "Job Options"
+msgstr "Vebijêrk"
+
+#. i18n: tag string
+#. i18n: file ./kdeui/dialogs/kcupsoptionsjobwidget.ui line 122
+#: rc.cpp:62
+#, fuzzy
+#| msgid "Options"
+msgid "Option"
+msgstr "Vebijêrk"
+
+#. i18n: tag string
+#. i18n: file ./kdeui/dialogs/kcupsoptionsjobwidget.ui line 127
+#. i18n: tag string
+#. i18n: file ./khtml/htmlpageinfo.ui line 237
+#: rc.cpp:65 rc.cpp:438 khtml/ecma/debugger/localvariabledock.cpp:52
+#: khtml/java/kjavaappletviewer.cpp:140
+msgid "Value"
+msgstr "Nirx"
+
+#. i18n: tag string
+#. i18n: file ./kdeui/dialogs/kcupsoptionspageswidget.ui line 13
+#: rc.cpp:68
+#, fuzzy
+#| msgid "PageUp"
+msgid "Pages"
+msgstr "RûpelJor"
+
+#. i18n: tag string
+#. i18n: file ./kdeui/dialogs/kcupsoptionspageswidget.ui line 19
+#: rc.cpp:71
+msgid "Pages Per Sheet"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./kdeui/dialogs/kcupsoptionspageswidget.ui line 25
+#. i18n: tag string
+#. i18n: file ./kjsembed/examples/calc/calc.ui line 141
+#: rc.cpp:74 rc.cpp:734
+msgid "1"
+msgstr "1"
+
+#. i18n: tag string
+#. i18n: file ./kdeui/dialogs/kcupsoptionspageswidget.ui line 35
+#. i18n: tag string
+#. i18n: file ./kjsembed/examples/calc/calc.ui line 120
+#: rc.cpp:77 rc.cpp:725
+msgid "6"
+msgstr "6"
+
+#. i18n: tag string
+#. i18n: file ./kdeui/dialogs/kcupsoptionspageswidget.ui line 42
+#. i18n: tag string
+#. i18n: file ./kjsembed/examples/calc/calc.ui line 92
+#: rc.cpp:80 rc.cpp:713
+msgid "2"
+msgstr "2"
+
+#. i18n: tag string
+#. i18n: file ./kdeui/dialogs/kcupsoptionspageswidget.ui line 49
+#. i18n: tag string
+#. i18n: file ./kjsembed/examples/calc/calc.ui line 134
+#: rc.cpp:83 rc.cpp:731
+msgid "9"
+msgstr "9"
+
+#. i18n: tag string
+#. i18n: file ./kdeui/dialogs/kcupsoptionspageswidget.ui line 56
+#. i18n: tag string
+#. i18n: file ./kjsembed/examples/calc/calc.ui line 85
+#: rc.cpp:86 rc.cpp:710
+msgid "4"
+msgstr "4"
+
+#. i18n: tag string
+#. i18n: file ./kdeui/dialogs/kcupsoptionspageswidget.ui line 63
+#: rc.cpp:89
+#, fuzzy
+#| msgid "6"
+msgid "16"
+msgstr "6"
+
+#. i18n: tag string
+#. i18n: file ./kdeui/dialogs/kcupsoptionspageswidget.ui line 89
+#: rc.cpp:92
+msgid "Banner Pages"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./kdeui/dialogs/kcupsoptionspageswidget.ui line 95
+#. i18n: tag string
+#. i18n: file ./threadweaver/Examples/Jobs/JobsBase.ui line 80
+#: rc.cpp:95 rc.cpp:936
+msgid "Start"
+msgstr "Destpêk"
+
+#. i18n: tag string
+#. i18n: file ./kdeui/dialogs/kcupsoptionspageswidget.ui line 105
+#: rc.cpp:98
+#, fuzzy
+#| msgctxt "keyboard-key-name"
+#| msgid "End"
+msgid "End"
+msgstr "Dawî"
+
+#. i18n: tag string
+#. i18n: file ./kdeui/dialogs/kcupsoptionspageswidget.ui line 131
+#: rc.cpp:101
+#, fuzzy
+#| msgid "Page loaded."
+msgid "Page Label"
+msgstr "Rûpel hate barkirin."
+
+#. i18n: tag string
+#. i18n: file ./kdeui/dialogs/kcupsoptionspageswidget.ui line 156
+#: rc.cpp:104
+#, fuzzy
+#| msgid "Page loaded."
+msgid "Page Border"
+msgstr "Rûpel hate barkirin."
+
+#. i18n: tag string
+#. i18n: file ./kdeui/dialogs/kcupsoptionspageswidget.ui line 181
+#: rc.cpp:107
+#, fuzzy
+#| msgid "&First Page"
+msgid "Mirror Pages"
+msgstr "&Rûpelê Pêşîn"
+
+#. i18n: tag string
+#. i18n: file ./kdeui/dialogs/kcupsoptionspageswidget.ui line 187
+#: rc.cpp:110
+msgid "Mirror pages along vertical axis"
+msgstr ""
+
+#. i18n: tag string
 #. i18n: file ./kdeui/dialogs/kshortcutsdialog.ui line 16
-#: rc.cpp:42
+#: rc.cpp:113
 msgid ""
 "Search interactively for shortcut names (e.g. Copy) or combination of keys "
 "(e.g. Ctrl+C) by typing them here."
@@ -132,7 +322,7 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kdeui/dialogs/kshortcutsdialog.ui line 23
-#: rc.cpp:45
+#: rc.cpp:116
 msgid ""
 "Here you can see a list of key bindings, i.e. associations between actions "
 "(e.g. 'Copy') shown in the left column and keys or combination of keys (e.g. "
@@ -144,91 +334,105 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kdeui/dialogs/kshortcutsdialog.ui line 30
-#: rc.cpp:48
+#: rc.cpp:119
 msgid "Action"
 msgstr "Çalakî"
 
 #. i18n: tag string
 #. i18n: file ./kdeui/dialogs/kshortcutsdialog.ui line 35
-#: rc.cpp:51
+#: rc.cpp:122
 msgid "Shortcut"
 msgstr "Kurterê"
 
 #. i18n: tag string
 #. i18n: file ./kdeui/dialogs/kshortcutsdialog.ui line 40
-#: rc.cpp:54
+#: rc.cpp:125
 msgid "Alternate"
 msgstr "Alternatîf"
 
 #. i18n: tag string
 #. i18n: file ./kdeui/dialogs/kshortcutsdialog.ui line 45
-#: rc.cpp:57
+#: rc.cpp:128
 msgid "Global"
 msgstr "Gerdûnî"
 
 #. i18n: tag string
 #. i18n: file ./kdeui/dialogs/kshortcutsdialog.ui line 50
-#: rc.cpp:60
+#: rc.cpp:131
 msgid "Global Alternate"
 msgstr "Rêzbûna Giştî"
 
 #. i18n: tag string
 #. i18n: file ./kdeui/dialogs/kshortcutsdialog.ui line 55
-#: rc.cpp:63
+#: rc.cpp:134
 msgid "Mouse Button Gesture"
 msgstr "Çalakiya Bişkojka Mişkî"
 
 #. i18n: tag string
 #. i18n: file ./kdeui/dialogs/kshortcutsdialog.ui line 60
-#: rc.cpp:66
+#: rc.cpp:137
 msgid "Mouse Shape Gesture"
 msgstr "Çalakiya Şêwaza Mişkî"
 
 #. i18n: tag string
 #. i18n: file ./kdeui/dialogs/kpassworddialog.ui line 54
-#: rc.cpp:69
+#: rc.cpp:140
 msgid "Supply a username and password below."
 msgstr "Li jêr navekî bikarhêneriyê û nasnavekî binivîse."
 
 #. i18n: tag string
 #. i18n: file ./kdeui/dialogs/kpassworddialog.ui line 111
-#: rc.cpp:72
+#: rc.cpp:143
 msgid "Username:"
 msgstr "Navê Bikarhêner:"
 
 #. i18n: tag string
-#. i18n: file ./kdeui/dialogs/kpassworddialog.ui line 138
-#: rc.cpp:78
+#. i18n: file ./kdeui/dialogs/kpassworddialog.ui line 121
+#: rc.cpp:146
+msgid "Anonymous"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./kdeui/dialogs/kpassworddialog.ui line 128
+#: rc.cpp:149
+#, fuzzy
+#| msgid "Main:"
+msgid "Domain:"
+msgstr "Mak:"
+
+#. i18n: tag string
+#. i18n: file ./kdeui/dialogs/kpassworddialog.ui line 155
+#: rc.cpp:155
 msgid "Remember password"
 msgstr "Şîfreyê bi bîr bîne"
 
 #. i18n: tag string
 #. i18n: file ./kdeui/sonnet/configui.ui line 28
-#: rc.cpp:81 kdeui/findreplace/kfinddialog.cpp:126 kfile/kfilewidget.cpp:373
+#: rc.cpp:158 kdeui/findreplace/kfinddialog.cpp:126 kfile/kfilewidget.cpp:373
 msgid "Options"
 msgstr "Vebijêrk"
 
 #. i18n: tag string
 #. i18n: file ./kdeui/sonnet/configui.ui line 40
-#: rc.cpp:84
+#: rc.cpp:161
 msgid "Enable &background spellchecking"
 msgstr "&Li rûerd kontrola rastnivîsê çalak bike"
 
 #. i18n: tag string
 #. i18n: file ./kdeui/sonnet/configui.ui line 47
-#: rc.cpp:87
+#: rc.cpp:164
 msgid "Skip all &uppercase words"
 msgstr "Ji ser hemû peyvên ku bi &tîpen mezin e qevz bike"
 
 #. i18n: tag string
 #. i18n: file ./kdeui/sonnet/configui.ui line 54
-#: rc.cpp:90
+#: rc.cpp:167
 msgid "S&kip run-together words"
 msgstr "Ji ser peyvên hevedudanî &qevz bike"
 
 #. i18n: tag string
 #. i18n: file ./kdeui/sonnet/configui.ui line 64
-#: rc.cpp:93
+#: rc.cpp:170
 msgid "Default language:"
 msgstr "Zimanê asayî:"
 
@@ -236,7 +440,7 @@ msgstr "Zimanê asayî:"
 #. i18n: file ./kdeui/sonnet/sonnetui.ui line 42
 #. i18n: tag string
 #. i18n: file ./kdeui/sonnet/sonnetui.ui line 58
-#: rc.cpp:96 rc.cpp:108
+#: rc.cpp:173 rc.cpp:185
 msgid ""
 "<qt><p>This word was considered to be an \"unknown word\" because it does "
 "not match any entry in the dictionary currently in use. It may also be a "
@@ -267,7 +471,7 @@ msgstr ""
 #. i18n: file ./kdeui/sonnet/sonnetui.ui line 45
 #. i18n: tag string
 #. i18n: file ./kde3support/kdeui/k3spellui.ui line 39
-#: rc.cpp:102 rc.cpp:726
+#: rc.cpp:179 rc.cpp:803
 msgid "Unknown word:"
 msgstr "Peyva nenas:"
 
@@ -275,7 +479,7 @@ msgstr "Peyva nenas:"
 #. i18n: file ./kdeui/sonnet/sonnetui.ui line 52
 #. i18n: tag string
 #. i18n: file ./kde3support/kdeui/k3spellui.ui line 46
-#: rc.cpp:105 rc.cpp:729
+#: rc.cpp:182 rc.cpp:806
 msgid "Unknown word"
 msgstr "Peyva nenas"
 
@@ -283,7 +487,7 @@ msgstr "Peyva nenas"
 #. i18n: file ./kdeui/sonnet/sonnetui.ui line 61
 #. i18n: tag string
 #. i18n: file ./kde3support/kdeui/k3spellui.ui line 55
-#: rc.cpp:114 rc.cpp:738
+#: rc.cpp:191 rc.cpp:815
 msgid "<b>misspelled</b>"
 msgstr "<b>çewt hatiye nivîsandin</b>"
 
@@ -295,7 +499,7 @@ msgstr "<b>çewt hatiye nivîsandin</b>"
 #. i18n: file ./kde3support/kdeui/k3spellui.ui line 64
 #. i18n: tag string
 #. i18n: file ./kde3support/kdeui/k3spellui.ui line 236
-#: rc.cpp:117 rc.cpp:175 rc.cpp:741 rc.cpp:836
+#: rc.cpp:194 rc.cpp:252 rc.cpp:818 rc.cpp:913
 msgid ""
 "<qt>\n"
 "<p>Select the language of the document you are proofing here.</p>\n"
@@ -309,7 +513,7 @@ msgstr ""
 #. i18n: file ./kdeui/sonnet/sonnetui.ui line 73
 #. i18n: tag string
 #. i18n: file ./kde3support/kdeui/k3spellui.ui line 67
-#: rc.cpp:122 rc.cpp:746
+#: rc.cpp:199 rc.cpp:823
 msgid "&Language:"
 msgstr "&Ziman:"
 
@@ -317,7 +521,7 @@ msgstr "&Ziman:"
 #. i18n: file ./kdeui/sonnet/sonnetui.ui line 83
 #. i18n: tag string
 #. i18n: file ./kde3support/kdeui/k3spellui.ui line 77
-#: rc.cpp:125 rc.cpp:749
+#: rc.cpp:202 rc.cpp:826
 msgid "Text excerpt showing the unknown word in its context."
 msgstr "Nivîsa jêwergiranê ya peyva nenas ya li vê derê nîşan dide."
 
@@ -325,7 +529,7 @@ msgstr "Nivîsa jêwergiranê ya peyva nenas ya li vê derê nîşan dide."
 #. i18n: file ./kdeui/sonnet/sonnetui.ui line 88
 #. i18n: tag string
 #. i18n: file ./kde3support/kdeui/k3spellui.ui line 82
-#: rc.cpp:128 rc.cpp:752
+#: rc.cpp:205 rc.cpp:829
 msgid ""
 "<qt>\n"
 "<p>Here you can see a text excerpt showing the unknown word in its context. "
@@ -345,7 +549,7 @@ msgstr ""
 #. i18n: file ./kdeui/sonnet/sonnetui.ui line 94
 #. i18n: tag string
 #. i18n: file ./kde3support/kdeui/k3spellui.ui line 88
-#: rc.cpp:133 rc.cpp:757
+#: rc.cpp:210 rc.cpp:834
 msgid "... the <b>misspelled</b> word shown in context ..."
 msgstr "...peyva ku li vir <b>şaş hatiye nivîsandin</b> ..."
 
@@ -353,7 +557,7 @@ msgstr "...peyva ku li vir <b>şaş hatiye nivîsandin</b> ..."
 #. i18n: file ./kdeui/sonnet/sonnetui.ui line 107
 #. i18n: tag string
 #. i18n: file ./kde3support/kdeui/k3spellui.ui line 101
-#: rc.cpp:136 rc.cpp:760
+#: rc.cpp:213 rc.cpp:837
 msgid ""
 "<qt>\n"
 "<p>The unknown word was detected and considered unknown because it is not "
@@ -377,7 +581,7 @@ msgstr ""
 #. i18n: file ./kdeui/sonnet/sonnetui.ui line 110
 #. i18n: tag string
 #. i18n: file ./kde3support/kdeui/k3spellui.ui line 104
-#: rc.cpp:142 rc.cpp:766
+#: rc.cpp:219 rc.cpp:843
 msgid "<< Add to Dictionary"
 msgstr "<<Li Ferhengê Zêde Bike"
 
@@ -385,7 +589,7 @@ msgstr "<<Li Ferhengê Zêde Bike"
 #. i18n: file ./kdeui/sonnet/sonnetui.ui line 133
 #. i18n: tag string
 #. i18n: file ./kde3support/kdeui/k3spellui.ui line 139
-#: rc.cpp:145 rc.cpp:777
+#: rc.cpp:222 rc.cpp:854
 msgid "Suggestion List"
 msgstr "Lîsteya pêşniyaran"
 
@@ -393,7 +597,7 @@ msgstr "Lîsteya pêşniyaran"
 #. i18n: file ./kdeui/sonnet/sonnetui.ui line 139
 #. i18n: tag string
 #. i18n: file ./kde3support/kdeui/k3spellui.ui line 145
-#: rc.cpp:148 rc.cpp:780
+#: rc.cpp:225 rc.cpp:857
 msgid ""
 "<qt>\n"
 "<p>If the unknown word is misspelled, you should check if the correction for "
@@ -419,7 +623,7 @@ msgstr ""
 #. i18n: file ./kdeui/sonnet/sonnetui.ui line 146
 #. i18n: tag string
 #. i18n: file ./kde3support/kdeui/k3spellui.ui line 152
-#: rc.cpp:154 rc.cpp:786
+#: rc.cpp:231 rc.cpp:863
 msgid "Suggested Words"
 msgstr "Peyvên ku têne pêşniyarkirin"
 
@@ -431,7 +635,7 @@ msgstr "Peyvên ku têne pêşniyarkirin"
 #. i18n: file ./kde3support/kdeui/k3spellui.ui line 175
 #. i18n: tag string
 #. i18n: file ./kde3support/kdeui/k3spellui.ui line 217
-#: rc.cpp:157 rc.cpp:166 rc.cpp:797 rc.cpp:824
+#: rc.cpp:234 rc.cpp:243 rc.cpp:874 rc.cpp:901
 msgid ""
 "<qt>\n"
 "<p>If the unknown word is misspelled, you should type the correction for "
@@ -454,7 +658,7 @@ msgstr ""
 #. i18n: file ./kdeui/sonnet/sonnetui.ui line 160
 #. i18n: tag string
 #. i18n: file ./kde3support/kdeui/k3spellui.ui line 178
-#: rc.cpp:163 rc.cpp:803
+#: rc.cpp:240 rc.cpp:880
 msgid "Replace &with:"
 msgstr "&Biguherîne bi:"
 
@@ -462,7 +666,7 @@ msgstr "&Biguherîne bi:"
 #. i18n: file ./kdeui/sonnet/sonnetui.ui line 180
 #. i18n: tag string
 #. i18n: file ./kde3support/kdeui/k3spellui.ui line 231
-#: rc.cpp:172 rc.cpp:833
+#: rc.cpp:249 rc.cpp:910
 msgid "Language Selection"
 msgstr "Hilbijartina Zimên"
 
@@ -470,7 +674,7 @@ msgstr "Hilbijartina Zimên"
 #. i18n: file ./kdeui/sonnet/sonnetui.ui line 189
 #. i18n: tag string
 #. i18n: file ./kde3support/kdeui/k3spellui.ui line 240
-#: rc.cpp:180 rc.cpp:841
+#: rc.cpp:257 rc.cpp:918
 msgid "English"
 msgstr "Îngilîzî"
 
@@ -478,7 +682,7 @@ msgstr "Îngilîzî"
 #. i18n: file ./kdeui/sonnet/sonnetui.ui line 205
 #. i18n: tag string
 #. i18n: file ./kde3support/kdeui/k3spellui.ui line 224
-#: rc.cpp:183 rc.cpp:830
+#: rc.cpp:260 rc.cpp:907
 msgid "S&uggest"
 msgstr "Pêş&niyar bike"
 
@@ -486,7 +690,7 @@ msgstr "Pêş&niyar bike"
 #. i18n: file ./kdeui/sonnet/sonnetui.ui line 214
 #. i18n: tag string
 #. i18n: file ./kde3support/kdeui/k3spellui.ui line 162
-#: rc.cpp:186 rc.cpp:789
+#: rc.cpp:263 rc.cpp:866
 msgid ""
 "<qt>\n"
 "<p>Click here to replace this occurrence of the unknown text with the text "
@@ -502,7 +706,7 @@ msgstr ""
 #. i18n: file ./kdeui/sonnet/sonnetui.ui line 217
 #. i18n: tag string
 #. i18n: file ./kde3support/kdeui/k3spellui.ui line 165
-#: rc.cpp:191 rc.cpp:794 kdeui/findreplace/kfinddialog.cpp:202
+#: rc.cpp:268 rc.cpp:871 kdeui/findreplace/kfinddialog.cpp:202
 msgid "&Replace"
 msgstr "&Biguherîne"
 
@@ -510,7 +714,7 @@ msgstr "&Biguherîne"
 #. i18n: file ./kdeui/sonnet/sonnetui.ui line 226
 #. i18n: tag string
 #. i18n: file ./kde3support/kdeui/k3spellui.ui line 129
-#: rc.cpp:194 rc.cpp:769
+#: rc.cpp:271 rc.cpp:846
 msgid ""
 "<qt>\n"
 "<p>Click here to replace all occurrences of the unknown text with the text "
@@ -526,7 +730,7 @@ msgstr ""
 #. i18n: file ./kdeui/sonnet/sonnetui.ui line 229
 #. i18n: tag string
 #. i18n: file ./kde3support/kdeui/k3spellui.ui line 132
-#: rc.cpp:199 rc.cpp:774
+#: rc.cpp:276 rc.cpp:851
 msgid "R&eplace All"
 msgstr "&Hemûyan Biguherîne"
 
@@ -534,7 +738,7 @@ msgstr "&Hemûyan Biguherîne"
 #. i18n: file ./kdeui/sonnet/sonnetui.ui line 239
 #. i18n: tag string
 #. i18n: file ./kde3support/kdeui/k3spellui.ui line 191
-#: rc.cpp:202 rc.cpp:806
+#: rc.cpp:279 rc.cpp:883
 msgid ""
 "<qt>\n"
 "<p>Click here to let this occurrence of the unknown word remain as is.</p>\n"
@@ -553,7 +757,7 @@ msgstr ""
 #. i18n: file ./kdeui/sonnet/sonnetui.ui line 242
 #. i18n: tag string
 #. i18n: file ./kde3support/kdeui/k3spellui.ui line 194
-#: rc.cpp:208 rc.cpp:812
+#: rc.cpp:285 rc.cpp:889
 msgid "&Ignore"
 msgstr "&Guh nede"
 
@@ -563,7 +767,7 @@ msgstr "&Guh nede"
 #. i18n: file ./kdeui/sonnet/sonnetui.ui line 265
 #. i18n: tag string
 #. i18n: file ./kde3support/kdeui/k3spellui.ui line 204
-#: rc.cpp:211 rc.cpp:220 rc.cpp:815
+#: rc.cpp:288 rc.cpp:297 rc.cpp:892
 msgid ""
 "<qt>\n"
 "<p>Click here to let all occurrences of the unknown word remain as they are."
@@ -583,13 +787,13 @@ msgstr ""
 #. i18n: file ./kdeui/sonnet/sonnetui.ui line 255
 #. i18n: tag string
 #. i18n: file ./kde3support/kdeui/k3spellui.ui line 207
-#: rc.cpp:217 rc.cpp:821
+#: rc.cpp:294 rc.cpp:898
 msgid "I&gnore All"
 msgstr "Gişan t&une bihesibîne"
 
 #. i18n: tag string
 #. i18n: file ./kdeui/sonnet/sonnetui.ui line 268
-#: rc.cpp:226
+#: rc.cpp:303
 msgid "Autocorrect"
 msgstr "Sererastkirina Bixweber"
 
@@ -597,13 +801,13 @@ msgstr "Sererastkirina Bixweber"
 #. i18n: file ./kdeui/xmlgui/ui_standards.rc line 4
 #. i18n: tag text
 #. i18n: file ./khtml/khtml_browser.rc line 4
-#: rc.cpp:229 rc.cpp:376
+#: rc.cpp:306 rc.cpp:453
 msgid "&File"
 msgstr "&Pel"
 
 #. i18n: tag text
 #. i18n: file ./kdeui/xmlgui/ui_standards.rc line 33
-#: rc.cpp:232
+#: rc.cpp:309
 msgid "&Game"
 msgstr "&Lîstik"
 
@@ -613,13 +817,13 @@ msgstr "&Lîstik"
 #. i18n: file ./khtml/khtml.rc line 4
 #. i18n: tag text
 #. i18n: file ./khtml/khtml_browser.rc line 11
-#: rc.cpp:235 rc.cpp:334 rc.cpp:379
+#: rc.cpp:312 rc.cpp:411 rc.cpp:456
 msgid "&Edit"
 msgstr "Sere&rastkirin"
 
 #. i18n: tag text
 #. i18n: file ./kdeui/xmlgui/ui_standards.rc line 83
-#: rc.cpp:238
+#: rc.cpp:315
 msgctxt "@title:menu Game move"
 msgid "&Move"
 msgstr "&Guhestin"
@@ -628,61 +832,61 @@ msgstr "&Guhestin"
 #. i18n: file ./kdeui/xmlgui/ui_standards.rc line 100
 #. i18n: tag text
 #. i18n: file ./khtml/khtml_browser.rc line 20
-#: rc.cpp:241 rc.cpp:382 kfile/kdiroperator.cpp:1651
+#: rc.cpp:318 rc.cpp:459 kfile/kdiroperator.cpp:1651
 msgid "&View"
 msgstr "&Dîtin"
 
 #. i18n: tag text
 #. i18n: file ./kdeui/xmlgui/ui_standards.rc line 115
-#: rc.cpp:244
+#: rc.cpp:321
 msgid "&Go"
 msgstr "&Biçe"
 
 #. i18n: tag text
 #. i18n: file ./kdeui/xmlgui/ui_standards.rc line 136
-#: rc.cpp:247
+#: rc.cpp:324
 msgid "&Bookmarks"
 msgstr "&Bijare"
 
 #. i18n: tag text
 #. i18n: file ./kdeui/xmlgui/ui_standards.rc line 142
-#: rc.cpp:250
+#: rc.cpp:327
 msgid "&Tools"
 msgstr "&Amûr"
 
 #. i18n: tag text
 #. i18n: file ./kdeui/xmlgui/ui_standards.rc line 146
-#: rc.cpp:253
+#: rc.cpp:330
 msgid "&Settings"
 msgstr "&Mîheng"
 
 #. i18n: tag text
 #. i18n: file ./kdeui/xmlgui/ui_standards.rc line 174
-#: rc.cpp:256 kdeui/widgets/khelpmenu.cpp:148
+#: rc.cpp:333 kdeui/widgets/khelpmenu.cpp:148
 msgid "&Help"
 msgstr "&Alîkarî"
 
 #. i18n: tag text
 #. i18n: file ./kdeui/xmlgui/ui_standards.rc line 190
-#: rc.cpp:259
+#: rc.cpp:336
 msgid "Main Toolbar"
 msgstr "Darikê amûran ya mak"
 
 #. i18n: tag string
 #. i18n: file ./kdeui/widgets/kshortcutwidget.ui line 22
-#: rc.cpp:262 kdeui/dialogs/kshortcutseditor.cpp:608
+#: rc.cpp:339 kdeui/dialogs/kshortcutseditor.cpp:608
 msgid "Main:"
 msgstr "Mak:"
 
 #. i18n: tag string
 #. i18n: file ./kdeui/widgets/kshortcutwidget.ui line 52
-#: rc.cpp:265 kdeui/dialogs/kshortcutseditor.cpp:609
+#: rc.cpp:342 kdeui/dialogs/kshortcutseditor.cpp:609
 msgid "Alternate:"
 msgstr "Alternatîf:"
 
 #. i18n: tag string
 #. i18n: file ./khtml/test_regression_gui.ui line 16
-#: rc.cpp:268
+#: rc.cpp:345
 msgid "KHTML Regression Testing Utility"
 msgstr "Bernameya Alîkar ji bo Ceribandina problemên Paşketinê a KHTML"
 
@@ -690,13 +894,13 @@ msgstr "Bernameya Alîkar ji bo Ceribandina problemên Paşketinê a KHTML"
 #. i18n: file ./khtml/test_regression_gui.ui line 50
 #. i18n: tag string
 #. i18n: file ./kjsembed/examples/calc/calc.ui line 78
-#: rc.cpp:271 rc.cpp:630
+#: rc.cpp:348 rc.cpp:707
 msgid "0"
 msgstr "0"
 
 #. i18n: tag string
 #. i18n: file ./khtml/test_regression_gui.ui line 59
-#: rc.cpp:274
+#: rc.cpp:351
 msgid "Regression testing output"
 msgstr "Derana testkirina regresyonê"
 
@@ -704,13 +908,13 @@ msgstr "Derana testkirina regresyonê"
 #. i18n: file ./khtml/test_regression_gui.ui line 114
 #. i18n: tag string
 #. i18n: file ./khtml/test_regression_gui.ui line 117
-#: rc.cpp:277 rc.cpp:280
+#: rc.cpp:354 rc.cpp:357
 msgid "Pause/Continue regression testing process"
 msgstr "Rawestandin/Domandina pêvajoya testkirina regresyonê"
 
 #. i18n: tag string
 #. i18n: file ./khtml/test_regression_gui.ui line 123
-#: rc.cpp:283 kdeui/jobs/kwidgetjobtracker.cpp:390
+#: rc.cpp:360 kdeui/jobs/kwidgetjobtracker.cpp:390
 #: kdeui/jobs/kwidgetjobtracker.cpp:448
 #: khtml/test_regression_gui_window.cpp:571
 msgid "Pause"
@@ -720,7 +924,7 @@ msgstr "Navber"
 #. i18n: file ./khtml/test_regression_gui.ui line 147
 #. i18n: tag string
 #. i18n: file ./khtml/test_regression_gui.ui line 150
-#: rc.cpp:286 rc.cpp:289
+#: rc.cpp:363 rc.cpp:366
 msgid ""
 "You may select a file where the log content is stored, before the regression "
 "testing started."
@@ -730,152 +934,145 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./khtml/test_regression_gui.ui line 153
-#: rc.cpp:292
+#: rc.cpp:369
 msgid "Output to file..."
 msgstr "Pelê Derketanan..."
 
 #. i18n: tag string
 #. i18n: file ./khtml/test_regression_gui.ui line 165
-#: rc.cpp:295
+#: rc.cpp:372
 msgid "Regression testing status"
 msgstr "Rewşa testkirina regresyonê"
 
 #. i18n: tag string
 #. i18n: file ./khtml/test_regression_gui.ui line 185
-#: rc.cpp:298
+#: rc.cpp:375
 msgid "View HTML Output"
 msgstr "Derketanên HTML bibîne"
 
 #. i18n: tag string
 #. i18n: file ./khtml/test_regression_gui.ui line 206
-#: rc.cpp:301 kutils/kpluginselector.cpp:63
+#: rc.cpp:378
 msgid "Settings"
 msgstr "Mîheng"
 
 #. i18n: tag string
 #. i18n: file ./khtml/test_regression_gui.ui line 215
-#: rc.cpp:304
+#: rc.cpp:381
 msgid "Tests"
 msgstr "Test"
 
 #. i18n: tag string
 #. i18n: file ./khtml/test_regression_gui.ui line 241
-#: rc.cpp:307
+#: rc.cpp:384
 msgid "Only run JS tests"
 msgstr "Tenê testên JS bixebitîne"
 
 #. i18n: tag string
 #. i18n: file ./khtml/test_regression_gui.ui line 249
-#: rc.cpp:310
+#: rc.cpp:387
 msgid "Only run HTML tests"
 msgstr "Tenê testên HTML bixebitîne"
 
 #. i18n: tag string
 #. i18n: file ./khtml/test_regression_gui.ui line 257
-#: rc.cpp:313 khtml/test_regression.cpp:618
+#: rc.cpp:390 khtml/test_regression.cpp:618
 msgid "Do not suppress debug output"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./khtml/test_regression_gui.ui line 265
-#: rc.cpp:316 khtml/test_regression.cpp:627
+#: rc.cpp:393 khtml/test_regression.cpp:627
 msgid "Do not use Xvfb"
 msgstr "Xvfb bi kar neyîne"
 
 #. i18n: tag string
 #. i18n: file ./khtml/test_regression_gui.ui line 270
-#: rc.cpp:319
+#: rc.cpp:396
 msgid "Run tests..."
 msgstr "Testan bixebitîne..."
 
 #. i18n: tag string
 #. i18n: file ./khtml/test_regression_gui.ui line 275
-#: rc.cpp:322
+#: rc.cpp:399
 msgid "Run single test..."
 msgstr "Testekê tenê bixebitîne..."
 
 #. i18n: tag string
 #. i18n: file ./khtml/test_regression_gui.ui line 280
-#: rc.cpp:325
+#: rc.cpp:402
 msgid "Specify tests directory..."
 msgstr "Peldanka testan hilbijêre..."
 
 #. i18n: tag string
 #. i18n: file ./khtml/test_regression_gui.ui line 285
-#: rc.cpp:328
+#: rc.cpp:405
 msgid "Specify khtml directory..."
 msgstr "Peldanka khtml hilbijêre"
 
 #. i18n: tag string
 #. i18n: file ./khtml/test_regression_gui.ui line 290
-#: rc.cpp:331
+#: rc.cpp:408
 msgid "Specify output directory..."
 msgstr "Peldanka derketanan hilbijêre..."
 
 #. i18n: tag string
 #. i18n: file ./khtml/htmlpageinfo.ui line 21
-#: rc.cpp:337
+#: rc.cpp:414
 msgid "Document Information"
 msgstr "Agahiyên Belgeyê"
 
 #. i18n: tag string
 #. i18n: file ./khtml/htmlpageinfo.ui line 45
-#: rc.cpp:340 kross/ui/view.cpp:512
+#: rc.cpp:417 kross/ui/view.cpp:512
 msgid "General"
 msgstr "Giştî"
 
 #. i18n: tag string
 #. i18n: file ./khtml/htmlpageinfo.ui line 92
-#: rc.cpp:343
+#: rc.cpp:420
 msgid "URL:"
 msgstr "URL:"
 
 #. i18n: tag string
 #. i18n: file ./khtml/htmlpageinfo.ui line 138
-#: rc.cpp:346
+#: rc.cpp:423
 msgid "Title:"
 msgstr "Sernav:"
 
 #. i18n: tag string
 #. i18n: file ./khtml/htmlpageinfo.ui line 154
-#: rc.cpp:349
+#: rc.cpp:426
 msgid "Last modified:"
 msgstr "Guherandina dawî:"
 
 #. i18n: tag string
 #. i18n: file ./khtml/htmlpageinfo.ui line 170
-#: rc.cpp:352
+#: rc.cpp:429
 msgid "Document encoding:"
 msgstr "Kodkirina belgeyê:"
 
 #. i18n: tag string
 #. i18n: file ./khtml/htmlpageinfo.ui line 195
-#: rc.cpp:355
+#: rc.cpp:432
 msgid "HTTP Headers"
 msgstr "Sernavên HTTP"
 
 #. i18n: tag string
 #. i18n: file ./khtml/htmlpageinfo.ui line 232
-#: rc.cpp:358
+#: rc.cpp:435
 msgid "Property"
 msgstr "Taybetmendî"
 
 #. i18n: tag string
-#. i18n: file ./khtml/htmlpageinfo.ui line 237
-#: rc.cpp:361 khtml/ecma/debugger/localvariabledock.cpp:52
-#: khtml/java/kjavaappletviewer.cpp:140
-msgid "Value"
-msgstr "Nirx"
-
-#. i18n: tag string
 #. i18n: file ./khtml/kjserrordlgbase.ui line 16
-#: rc.cpp:364
+#: rc.cpp:441
 msgid "JavaScript Errors"
 msgstr "Çewtiyên JavaScript"
 
 #. i18n: tag string
 #. i18n: file ./khtml/kjserrordlgbase.ui line 19
-#: rc.cpp:367
+#: rc.cpp:444
 msgid ""
 "This dialog provides you with notification and details of scripting errors "
 "that occur on web pages.  In many cases it is due to an error in the web "
@@ -894,39 +1091,39 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./khtml/kjserrordlgbase.ui line 31
-#: rc.cpp:370 kdeui/util/kstandardguiitem.cpp:180
+#: rc.cpp:447 kdeui/util/kstandardguiitem.cpp:180
 #: kdeui/actions/kstandardaction_p.h:49
 msgid "&Close"
 msgstr "&Bigire"
 
 #. i18n: tag string
 #. i18n: file ./khtml/kjserrordlgbase.ui line 38
-#: rc.cpp:373 kdeui/util/kstandardguiitem.cpp:167
+#: rc.cpp:450 kdeui/util/kstandardguiitem.cpp:167
 #: kdeui/actions/kstandardaction_p.h:61
 msgid "C&lear"
 msgstr "&Paqij Bike"
 
 #. i18n: tag text
 #. i18n: file ./khtml/khtml_browser.rc line 35
-#: rc.cpp:385
+#: rc.cpp:462
 msgid "HTML Toolbar"
 msgstr "Darikê HTML"
 
 #. i18n: tag string
 #. i18n: file ./kross/test/testguiform.ui line 44
-#: rc.cpp:388 kross/ui/view.cpp:209
+#: rc.cpp:465 kross/ui/view.cpp:209
 msgid "File:"
 msgstr "Pel:"
 
 #. i18n: tag string
 #. i18n: file ./kross/test/testguiform.ui line 79
-#: rc.cpp:391
+#: rc.cpp:468
 msgid "..."
 msgstr "..."
 
 #. i18n: tag string
 #. i18n: file ./kross/test/testguiform.ui line 99
-#: rc.cpp:394
+#: rc.cpp:471
 msgid "GroupBox 1"
 msgstr "Qutîka Komê 1"
 
@@ -934,13 +1131,13 @@ msgstr "Qutîka Komê 1"
 #. i18n: file ./kross/test/testguiform.ui line 127
 #. i18n: tag string
 #. i18n: file ./kross/test/testguiform.ui line 142
-#: rc.cpp:397 rc.cpp:400
+#: rc.cpp:474 rc.cpp:477
 msgid "CheckBox"
 msgstr "Qutîka Nîşankirinê"
 
 #. i18n: tag string
 #. i18n: file ./kross/test/testguiform.ui line 162
-#: rc.cpp:403
+#: rc.cpp:480
 msgid "Other GroupBox"
 msgstr "Qutîka Din a Komê"
 
@@ -948,19 +1145,19 @@ msgstr "Qutîka Din a Komê"
 #. i18n: file ./kross/test/testguiform.ui line 190
 #. i18n: tag string
 #. i18n: file ./kross/test/testguiform.ui line 205
-#: rc.cpp:406 rc.cpp:409
+#: rc.cpp:483 rc.cpp:486
 msgid "RadioButton"
 msgstr "Bişkojka Radyoyê"
 
 #. i18n: tag string
 #. i18n: file ./kross/test/testguiform.ui line 232
-#: rc.cpp:412
+#: rc.cpp:489
 msgid "action1"
 msgstr "çalakî1"
 
 #. i18n: tag string
 #. i18n: file ./knotify/config/knotifyconfigactionswidgetbase.ui line 16
-#: rc.cpp:415
+#: rc.cpp:492
 msgid "Play a &sound"
 msgstr "Çalakirina &deng"
 
@@ -968,43 +1165,43 @@ msgstr "Çalakirina &deng"
 #. i18n: file ./knotify/config/knotifyconfigactionswidgetbase.ui line 42
 #. i18n: tag string
 #. i18n: file ./knotify/config/knotifyconfigactionswidgetbase.ui line 72
-#: rc.cpp:418 rc.cpp:427
+#: rc.cpp:495 rc.cpp:504
 msgid "Select the sound to play"
 msgstr "Dengê were leyîstin hilbijêre"
 
 #. i18n: tag string
 #. i18n: file ./knotify/config/knotifyconfigactionswidgetbase.ui line 49
-#: rc.cpp:421
+#: rc.cpp:498
 msgid "Show a message in a &popup"
 msgstr "Peyamê di paceyeke &pekane de bide xuyakirin"
 
 #. i18n: tag string
 #. i18n: file ./knotify/config/knotifyconfigactionswidgetbase.ui line 56
-#: rc.cpp:424
+#: rc.cpp:501
 msgid "Log to a file"
 msgstr "Di pelekî de tomar bike"
 
 #. i18n: tag string
 #. i18n: file ./knotify/config/knotifyconfigactionswidgetbase.ui line 79
-#: rc.cpp:430
+#: rc.cpp:507
 msgid "Mark &taskbar entry"
 msgstr "Ketana darikê peywiran nîşan bike"
 
 #. i18n: tag string
 #. i18n: file ./knotify/config/knotifyconfigactionswidgetbase.ui line 86
-#: rc.cpp:433
+#: rc.cpp:510
 msgid "Run &command"
 msgstr "&Fermanê bixebitîne"
 
 #. i18n: tag string
 #. i18n: file ./knotify/config/knotifyconfigactionswidgetbase.ui line 102
-#: rc.cpp:436
+#: rc.cpp:513
 msgid "Select the command to run"
 msgstr "Fermana were xebitandin hilbijêre"
 
 #. i18n: tag string
 #. i18n: file ./knotify/config/knotifyconfigactionswidgetbase.ui line 109
-#: rc.cpp:439
+#: rc.cpp:516
 msgid "Sp&eech"
 msgstr "A&xaftin"
 
@@ -1012,7 +1209,7 @@ msgstr "A&xaftin"
 #. i18n: file ./knotify/config/knotifyconfigactionswidgetbase.ui line 122
 #. i18n: tag string
 #. i18n: file ./knotify/config/knotifyconfigactionswidgetbase.ui line 144
-#: rc.cpp:443 rc.cpp:456
+#: rc.cpp:520 rc.cpp:533
 #, no-c-format
 msgid ""
 "<qt>Specifies how KTTS should speak the event when received.  If you select "
@@ -1029,43 +1226,43 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./knotify/config/knotifyconfigactionswidgetbase.ui line 126
-#: rc.cpp:446
+#: rc.cpp:523
 msgid "Speak event message"
 msgstr "Peyama buyerê bibêje"
 
 #. i18n: tag string
 #. i18n: file ./knotify/config/knotifyconfigactionswidgetbase.ui line 131
-#: rc.cpp:449
+#: rc.cpp:526
 msgid "Speak event name"
 msgstr "Navê buyerê bibêje"
 
 #. i18n: tag string
 #. i18n: file ./knotify/config/knotifyconfigactionswidgetbase.ui line 136
-#: rc.cpp:452
+#: rc.cpp:529
 msgid "Speak custom text"
 msgstr "Tekstekê taybet bibêje"
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 9
-#: rc.cpp:459
+#: rc.cpp:536
 msgid "Distance between desktop icons"
 msgstr "Navbera nav sembolên sermasê"
 
 #. i18n: tag whatsthis
 #. i18n: file ./kutils/kdeglobals.kcfg line 10
-#: rc.cpp:462
+#: rc.cpp:539
 msgid "The distance between icons specified in pixels."
 msgstr "Navbera nav sembolan bi pîksel."
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 23
-#: rc.cpp:465
+#: rc.cpp:542
 msgid "Widget style to use"
 msgstr "Teşeya Widgetan were bikaranîn"
 
 #. i18n: tag whatsthis
 #. i18n: file ./kutils/kdeglobals.kcfg line 24
-#: rc.cpp:468
+#: rc.cpp:545
 msgid ""
 "The name of the widget style, for example \"keramik\" or \"plastik\". "
 "Without quotes."
@@ -1074,13 +1271,13 @@ msgstr ""
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 30
-#: rc.cpp:471
+#: rc.cpp:548
 msgid "Use the PC speaker"
 msgstr "Hoparlorê Komputerê bi kar bîne"
 
 #. i18n: tag whatsthis
 #. i18n: file ./kutils/kdeglobals.kcfg line 31
-#: rc.cpp:474
+#: rc.cpp:551
 msgid ""
 "Whether the ordinary PC speaker should be used instead of KDE's own "
 "notifications system."
@@ -1088,13 +1285,13 @@ msgstr ""
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 35
-#: rc.cpp:477
+#: rc.cpp:554
 msgid "What terminal application to use"
 msgstr "Kîjan termînal were bikaranîn"
 
 #. i18n: tag whatsthis
 #. i18n: file ./kutils/kdeglobals.kcfg line 37
-#: rc.cpp:480
+#: rc.cpp:557
 msgid ""
 "Whenever a terminal application is launched this terminal emulator program "
 "will be used.\n"
@@ -1103,13 +1300,13 @@ msgstr ""
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 41
-#: rc.cpp:484
+#: rc.cpp:561
 msgid "Fixed width font"
 msgstr "Curenivîsê firehiya sabît"
 
 #. i18n: tag whatsthis
 #. i18n: file ./kutils/kdeglobals.kcfg line 43
-#: rc.cpp:487
+#: rc.cpp:564
 msgid ""
 "This font is used when a fixed font is needed. A fixed font has a constant "
 "width.\n"
@@ -1117,49 +1314,49 @@ msgstr ""
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 46
-#: rc.cpp:491
+#: rc.cpp:568
 msgid "System wide font"
 msgstr "Curenivîsa pergalê"
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 49
-#: rc.cpp:494
+#: rc.cpp:571
 msgid "Font for menus"
 msgstr "Curenivîsa ji bo pêşekan"
 
 #. i18n: tag whatsthis
 #. i18n: file ./kutils/kdeglobals.kcfg line 50
-#: rc.cpp:497
+#: rc.cpp:574
 msgid "What font to use for menus in applications."
 msgstr "Curenivîsa pêşekên sepanê."
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 53
-#: rc.cpp:500
+#: rc.cpp:577
 msgid "Color for links"
 msgstr "Renga lînkan"
 
 #. i18n: tag whatsthis
 #. i18n: file ./kutils/kdeglobals.kcfg line 54
-#: rc.cpp:503
+#: rc.cpp:580
 msgid "What color links should be that have not yet been clicked on"
 msgstr "Rengê girêdanên nehatine tikandin."
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 57
-#: rc.cpp:506
+#: rc.cpp:583
 msgid "Color for visited links"
 msgstr "Renga lînkên bikaranî"
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 60
-#: rc.cpp:509
+#: rc.cpp:586
 msgid "Font for the taskbar"
 msgstr "Curenivîsa darikê peywiran"
 
 #. i18n: tag whatsthis
 #. i18n: file ./kutils/kdeglobals.kcfg line 61
-#: rc.cpp:512
+#: rc.cpp:589
 msgid ""
 "What font to use for the panel at the bottom of the screen, where the "
 "currently running applications are."
@@ -1167,68 +1364,68 @@ msgstr "Curetîpa panela sepanên li bin dîmenderê dixebitin."
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 64
-#: rc.cpp:515
+#: rc.cpp:592
 msgid "Fonts for toolbars"
 msgstr "Curenivîsa ji bo darikên amûran"
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 73
-#: rc.cpp:518
+#: rc.cpp:595
 msgid "Shortcut for taking screenshot"
 msgstr "Kurteriya kişandina wêneyê dîmenderê"
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 78
-#: rc.cpp:521
+#: rc.cpp:598
 msgid "Shortcut for toggling Clipboard Actions on and off"
 msgstr "Kurteriya ji bo vekirin/girtina çalakiyên panoyê"
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 83
-#: rc.cpp:524
+#: rc.cpp:601
 msgid "Shortcut for shutting down the computer without confirmation"
 msgstr "Kurteriya ji bo bêyî erêkirinê girtina komputerê"
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 380
-#: rc.cpp:527
+#: rc.cpp:604
 msgid "Show directories first"
 msgstr "Berê peldankan nîşan bide"
 
 #. i18n: tag whatsthis
 #. i18n: file ./kutils/kdeglobals.kcfg line 381
-#: rc.cpp:530
+#: rc.cpp:607
 msgid "Whether directories should be placed at the top when displaying files"
 msgstr ""
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 389
-#: rc.cpp:533
+#: rc.cpp:610
 msgid "The URLs recently visited"
 msgstr "URL'ên nû bikaranî"
 
 #. i18n: tag whatsthis
 #. i18n: file ./kutils/kdeglobals.kcfg line 390
-#: rc.cpp:536
+#: rc.cpp:613
 msgid "Used for auto-completion in file dialogs, for example"
 msgstr ""
 "Wekî mînak; di diyalogên pelan de ji bo temamkirina xweber tê bikaranîn."
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 394
-#: rc.cpp:539
+#: rc.cpp:616
 msgid "Show file preview in file dialog"
 msgstr "Di diyaloga pelî de pêşdîtîna pelî nîşan bide"
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 399
-#: rc.cpp:542
+#: rc.cpp:619
 msgid "Show hidden files"
 msgstr "Pelên veşartî nîşan bide"
 
 #. i18n: tag whatsthis
 #. i18n: file ./kutils/kdeglobals.kcfg line 400
-#: rc.cpp:545
+#: rc.cpp:622
 msgid ""
 "Whether files starting with a dot (convention for hidden files) should be "
 "shown"
@@ -1238,26 +1435,26 @@ msgstr ""
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 405
-#: rc.cpp:548
+#: rc.cpp:625
 msgid "Show speedbar"
 msgstr "Darika Lezê nîşan bide"
 
 #. i18n: tag whatsthis
 #. i18n: file ./kutils/kdeglobals.kcfg line 406
-#: rc.cpp:551
+#: rc.cpp:628
 msgid ""
 "Whether the shortcut icons to the left in the file dialog should be shown"
 msgstr ""
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 425
-#: rc.cpp:554
+#: rc.cpp:631
 msgid "What country"
 msgstr "Kîjan welat"
 
 #. i18n: tag whatsthis
 #. i18n: file ./kutils/kdeglobals.kcfg line 426
-#: rc.cpp:557
+#: rc.cpp:634
 msgid ""
 "Used to determine how to display numbers, currency and time/date, for example"
 msgstr ""
@@ -1265,244 +1462,214 @@ msgstr ""
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 430
-#: rc.cpp:560
+#: rc.cpp:637
 msgid "What language to use to display text"
 msgstr "Zimanê ku dê nivîs pê bê nîşandan"
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 433
-#: rc.cpp:563
+#: rc.cpp:640
 msgid "Character used for indicating positive numbers"
 msgstr "Karaktera ji bo nîşandana hejmarên pozîtîf"
 
 #. i18n: tag whatsthis
 #. i18n: file ./kutils/kdeglobals.kcfg line 434
-#: rc.cpp:566
+#: rc.cpp:643
 msgid "Most countries have no character for this"
 msgstr "Li gelek welatan ji bo vê karakter tune"
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 439
-#: rc.cpp:569
+#: rc.cpp:646
 msgid "Path for the trash can"
 msgstr "Riya Qutîka Çopê"
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 443
-#: rc.cpp:572
+#: rc.cpp:649
 msgid "Path to the autostart directory"
 msgstr "Riya pelrêça destpêkirina xweber"
 
 #. i18n: tag whatsthis
 #. i18n: file ./kutils/kdeglobals.kcfg line 444
-#: rc.cpp:575
+#: rc.cpp:652
 msgid "Path to the directory containing executables to be run on session login"
 msgstr ""
 "Riya pelrêça ku pelên xebitandinê ên ji bo danişîna têketinê dihundirîne"
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 448
-#: rc.cpp:578
+#: rc.cpp:655
 msgid "Path to the desktop directory"
 msgstr "Riya pelrêça sermaseyê"
 
 #. i18n: tag whatsthis
 #. i18n: file ./kutils/kdeglobals.kcfg line 449
-#: rc.cpp:581
+#: rc.cpp:658
 msgid "Directory where the files on the desktop are stored"
 msgstr "Di vê pelrêçê de pelên li sermaseyê tên veşartin"
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 453
-#: rc.cpp:584
+#: rc.cpp:661
 msgid "Path to documents folder"
 msgstr "Riya peldankên belgeyan"
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 500
-#: rc.cpp:588
+#: rc.cpp:665
 msgid "Enable SOCKS support"
 msgstr "Desteka SOCKS çalak bike"
 
 #. i18n: tag whatsthis
 #. i18n: file ./kutils/kdeglobals.kcfg line 501
-#: rc.cpp:591
+#: rc.cpp:668
 msgid "Whether SOCKS version 4 and 5 should be enabled in KDE's sub systems"
 msgstr ""
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 505
-#: rc.cpp:594
+#: rc.cpp:671
 msgid "Path to custom SOCKS library"
 msgstr "Riya pirtûkxaneya SOCKS"
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 511
-#: rc.cpp:597
+#: rc.cpp:674
 msgid "Highlight toolbar buttons on mouse over"
 msgstr "Dema mişk hat serî, sembolên darikê amûran bikirpîne"
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 515
-#: rc.cpp:600
+#: rc.cpp:677
 msgid "Show text on toolbar icons "
 msgstr "Li ser îkonên darikê amûran nivîsê nîşan bide"
 
 #. i18n: tag whatsthis
 #. i18n: file ./kutils/kdeglobals.kcfg line 516
-#: rc.cpp:603
+#: rc.cpp:680
 msgid "Whether text should be shown in addition to icons on toolbar icons"
 msgstr ""
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 537
-#: rc.cpp:606
+#: rc.cpp:683
 msgid "Password echo type"
 msgstr "Cureyê nîşandana nasnavê"
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 547
-#: rc.cpp:609
+#: rc.cpp:686
 msgid "The size of the dialog"
 msgstr "Meznahiya paceyê"
 
 #. i18n: tag string
 #. i18n: file ./kjsembed/examples/calc/calc.ui line 16
-#: rc.cpp:612
+#: rc.cpp:689
 msgid "JS Calculator"
 msgstr "Makîneya Hesabkirinê ya JS"
 
 #. i18n: tag string
 #. i18n: file ./kjsembed/examples/calc/calc.ui line 43
-#: rc.cpp:615
+#: rc.cpp:692
 msgid "+"
 msgstr "+"
 
 #. i18n: tag string
 #. i18n: file ./kjsembed/examples/calc/calc.ui line 50
-#: rc.cpp:618
+#: rc.cpp:695
 msgid "AC"
 msgstr "AC"
 
 #. i18n: tag string
 #. i18n: file ./kjsembed/examples/calc/calc.ui line 57
-#: rc.cpp:621
+#: rc.cpp:698
 msgid "-"
 msgstr "-"
 
 #. i18n: tag string
 #. i18n: file ./kjsembed/examples/calc/calc.ui line 64
-#: rc.cpp:624
+#: rc.cpp:701
 msgid "="
 msgstr "="
 
 #. i18n: tag string
 #. i18n: file ./kjsembed/examples/calc/calc.ui line 71
-#: rc.cpp:627
+#: rc.cpp:704
 msgid "CL"
 msgstr "CL"
 
 #. i18n: tag string
-#. i18n: file ./kjsembed/examples/calc/calc.ui line 85
-#: rc.cpp:633
-msgid "4"
-msgstr "4"
-
-#. i18n: tag string
-#. i18n: file ./kjsembed/examples/calc/calc.ui line 92
-#: rc.cpp:636
-msgid "2"
-msgstr "2"
-
-#. i18n: tag string
 #. i18n: file ./kjsembed/examples/calc/calc.ui line 99
-#: rc.cpp:639
+#: rc.cpp:716
 msgid "5"
 msgstr "5"
 
 #. i18n: tag string
 #. i18n: file ./kjsembed/examples/calc/calc.ui line 106
-#: rc.cpp:642
+#: rc.cpp:719
 msgid "3"
 msgstr "3"
 
 #. i18n: tag string
 #. i18n: file ./kjsembed/examples/calc/calc.ui line 113
-#: rc.cpp:645
+#: rc.cpp:722
 msgid "7"
 msgstr "7"
 
 #. i18n: tag string
-#. i18n: file ./kjsembed/examples/calc/calc.ui line 120
-#: rc.cpp:648
-msgid "6"
-msgstr "6"
-
-#. i18n: tag string
 #. i18n: file ./kjsembed/examples/calc/calc.ui line 127
-#: rc.cpp:651
+#: rc.cpp:728
 msgid "8"
 msgstr "8"
-
-#. i18n: tag string
-#. i18n: file ./kjsembed/examples/calc/calc.ui line 134
-#: rc.cpp:654
-msgid "9"
-msgstr "9"
-
-#. i18n: tag string
-#. i18n: file ./kjsembed/examples/calc/calc.ui line 141
-#: rc.cpp:657
-msgid "1"
-msgstr "1"
 
 #. i18n: tag string
 #. i18n: file ./kjsembed/examples/console/console.ui line 16
 #. i18n: tag string
 #. i18n: file ./kjsembed/examples/kjsconsole/jsconsole.ui line 16
-#: rc.cpp:660 rc.cpp:663
+#: rc.cpp:737 rc.cpp:740
 msgid "MainWindow"
 msgstr "Paceya Bingehîn"
 
 #. i18n: tag string
 #. i18n: file ./kjsembed/examples/kjsconsole/jsconsole.ui line 109
-#: rc.cpp:666 kparts/browserrun.cpp:302
+#: rc.cpp:743 kparts/browserrun.cpp:302
 msgid "Execute"
 msgstr "Bixebitîne"
 
 #. i18n: tag string
 #. i18n: file ./kjsembed/examples/kjsconsole/jsconsole.ui line 128
-#: rc.cpp:669
+#: rc.cpp:746
 msgid "File"
 msgstr "Pel"
 
 #. i18n: tag string
 #. i18n: file ./kjsembed/examples/kjsconsole/jsconsole.ui line 167
-#: rc.cpp:672
+#: rc.cpp:749
 msgid "Open Script"
 msgstr "Skrîptê Veke"
 
 #. i18n: tag string
 #. i18n: file ./kjsembed/examples/kjsconsole/jsconsole.ui line 170
-#: rc.cpp:675
+#: rc.cpp:752
 msgid "Open a script..."
 msgstr "Skrîpteke veke..."
 
 #. i18n: tag string
 #. i18n: file ./kjsembed/examples/kjsconsole/jsconsole.ui line 173
-#: rc.cpp:678
+#: rc.cpp:755
 msgid "Ctrl+O"
 msgstr "Ctrl+O"
 
 #. i18n: tag string
 #. i18n: file ./kjsembed/examples/kjsconsole/jsconsole.ui line 178
-#: rc.cpp:681
+#: rc.cpp:758
 msgid "Close Script"
 msgstr "Skrîptê Dade"
 
 #. i18n: tag string
 #. i18n: file ./kjsembed/examples/kjsconsole/jsconsole.ui line 181
-#: rc.cpp:684
+#: rc.cpp:761
 msgid "Close script..."
 msgstr "Skrîptê dade..."
 
@@ -1514,49 +1681,49 @@ msgstr "Skrîptê dade..."
 #. i18n: file ./threadweaver/Examples/SMIV/SMIVBase.ui line 69
 #. i18n: tag string
 #. i18n: file ./threadweaver/Examples/QProcessJob/MainWindowUi.ui line 39
-#: rc.cpp:687 rc.cpp:865 rc.cpp:883 rc.cpp:886
+#: rc.cpp:764 rc.cpp:942 rc.cpp:960 rc.cpp:963
 msgid "Quit"
 msgstr "Derkeve"
 
 #. i18n: tag string
 #. i18n: file ./kjsembed/examples/kjsconsole/jsconsole.ui line 189
-#: rc.cpp:690
+#: rc.cpp:767
 msgid "Quit application..."
 msgstr "Ji sepanê derkeve..."
 
 #. i18n: tag string
 #. i18n: file ./kjsembed/examples/kjsconsole/jsconsole.ui line 197
-#: rc.cpp:693 kross/ui/view.cpp:302
+#: rc.cpp:770 kross/ui/view.cpp:302
 msgid "Run"
 msgstr "Xebitandin"
 
 #. i18n: tag string
 #. i18n: file ./kjsembed/examples/kjsconsole/jsconsole.ui line 200
-#: rc.cpp:696
+#: rc.cpp:773
 msgid "Run script..."
 msgstr "Skrîptê bixebitîne..."
 
 #. i18n: tag string
 #. i18n: file ./kjsembed/examples/kjsconsole/jsconsole.ui line 208
-#: rc.cpp:699
+#: rc.cpp:776
 msgid "Run To..."
 msgstr "Biçe..."
 
 #. i18n: tag string
 #. i18n: file ./kjsembed/examples/kjsconsole/jsconsole.ui line 211
-#: rc.cpp:702
+#: rc.cpp:779
 msgid "Run to breakpoint..."
 msgstr "Heya xala qutkirinê bixebitîne..."
 
 #. i18n: tag string
 #. i18n: file ./kjsembed/examples/kjsconsole/jsconsole.ui line 219
-#: rc.cpp:705 khtml/ecma/kjs_debugwin.cpp:480
+#: rc.cpp:782 khtml/ecma/kjs_debugwin.cpp:480
 msgid "Step"
 msgstr "Gav"
 
 #. i18n: tag string
 #. i18n: file ./kjsembed/examples/kjsconsole/jsconsole.ui line 222
-#: rc.cpp:708
+#: rc.cpp:785
 msgid "Step to next line..."
 msgstr "Derbasî rêzika din bibe..."
 
@@ -1564,7 +1731,7 @@ msgstr "Derbasî rêzika din bibe..."
 #. i18n: file ./kjsembed/examples/kjsconsole/jsconsole.ui line 230
 #. i18n: tag string
 #. i18n: file ./threadweaver/Examples/Jobs/JobsBase.ui line 90
-#: rc.cpp:711 rc.cpp:862 kdeui/util/kstandardguiitem.cpp:265
+#: rc.cpp:788 rc.cpp:939 kdeui/util/kstandardguiitem.cpp:265
 #: kdeui/util/kkeyserver_x11.cpp:109 kdeui/findreplace/kreplace.cpp:353
 #: khtml/ecma/kjs_debugwin.cpp:482 khtml/ecma/debugger/debugwindow.cpp:186
 #: kross/ui/view.cpp:309
@@ -1573,13 +1740,13 @@ msgstr "Rawestîne"
 
 #. i18n: tag string
 #. i18n: file ./kjsembed/examples/kjsconsole/jsconsole.ui line 233
-#: rc.cpp:714
+#: rc.cpp:791
 msgid "Step execution..."
 msgstr "Xebitandina gav bi gav"
 
 #. i18n: tag string
 #. i18n: file ./kjsembed/examples/docviewer/docviewer.ui line 33
-#: rc.cpp:717
+#: rc.cpp:794
 msgid "<h1>KJSEmbed Documentation Viewer</h1>"
 msgstr "<h1>Nîşandêra Belgekirina KJSEmbed</h1>"
 
@@ -1587,7 +1754,7 @@ msgstr "<h1>Nîşandêra Belgekirina KJSEmbed</h1>"
 #. i18n: file ./kde3support/kdeui/k3spellui.ui line 36
 #. i18n: tag string
 #. i18n: file ./kde3support/kdeui/k3spellui.ui line 52
-#: rc.cpp:720 rc.cpp:732
+#: rc.cpp:797 rc.cpp:809
 msgid ""
 "<qt><p>This word was considered to be an \"unknown word\" because it does "
 "not match any entry in the dictionary currently in use. It may also be a "
@@ -1616,13 +1783,13 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./threadweaver/Examples/Jobs/JobsBase.ui line 16
-#: rc.cpp:844
+#: rc.cpp:921
 msgid "ThreadWeaver Jobs Examples"
 msgstr "Mînakên Karên ThreadWeaver"
 
 #. i18n: tag string
 #. i18n: file ./threadweaver/Examples/Jobs/JobsBase.ui line 19
-#: rc.cpp:847
+#: rc.cpp:924
 msgid ""
 "The program executes 100 jobs in 4 threads. Each job waits for a random "
 "number of milliseconds between 1 and 1000."
@@ -1630,7 +1797,7 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./threadweaver/Examples/Jobs/JobsBase.ui line 39
-#: rc.cpp:850
+#: rc.cpp:927
 msgid ""
 "Check to see logging information about thread activity. Watch the console "
 "output to see the log information."
@@ -1638,61 +1805,55 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./threadweaver/Examples/Jobs/JobsBase.ui line 42
-#: rc.cpp:853
+#: rc.cpp:930
 msgid "Log Thread Activity"
 msgstr "Çalakiya Parçeya Tomarê"
 
 #. i18n: tag string
 #. i18n: file ./threadweaver/Examples/Jobs/JobsBase.ui line 62
-#: rc.cpp:856
+#: rc.cpp:933
 msgid "Displays Thread Activity"
 msgstr "Çalakiyên Parçeyan Nîşan Bide"
 
 #. i18n: tag string
-#. i18n: file ./threadweaver/Examples/Jobs/JobsBase.ui line 80
-#: rc.cpp:859
-msgid "Start"
-msgstr "Destpêk"
-
-#. i18n: tag string
 #. i18n: file ./threadweaver/Examples/Jobs/JobsBase.ui line 185
-#: rc.cpp:868
+#: rc.cpp:945
 msgid "GUI based example for the Weaver Thread Manager"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./threadweaver/Examples/Jobs/JobsBase.ui line 208
-#: rc.cpp:871
+#: rc.cpp:948
 msgid "Remaining number of jobs:"
 msgstr "Hejmara karên mayî:"
 
 #. i18n: tag string
 #. i18n: file ./threadweaver/Examples/SMIV/SMIVBase.ui line 32
-#: rc.cpp:874
+#: rc.cpp:951
 msgid "Select Files..."
 msgstr "Pelan Hilbijêre..."
 
 #. i18n: tag string
 #. i18n: file ./threadweaver/Examples/SMIV/SMIVBase.ui line 42
-#: rc.cpp:877
+#: rc.cpp:954
 msgid "Cancel"
 msgstr "Betalkirin"
 
 #. i18n: tag string
 #. i18n: file ./threadweaver/Examples/SMIV/SMIVBase.ui line 52
-#: rc.cpp:880
+#: rc.cpp:957
 msgid "Suspend"
 msgstr "Xew"
 
 #. i18n: tag string
 #. i18n: file ./threadweaver/Examples/QProcessJob/MainWindowUi.ui line 46
-#: rc.cpp:889
+#: rc.cpp:966
 msgid "What time is it? Click to update."
 msgstr "Saet çend e? Ji bo rojanekirinê bitikîne."
 
 #. i18n: tag string
 #. i18n: file ./threadweaver/Examples/QProcessJob/MainWindowUi.ui line 53
-#: rc.cpp:892
+#: rc.cpp:969
 msgid ""
 "<html><head><meta name=\"qrichtext\" content=\"1\" /></head><body style=\" "
 "white-space: pre-wrap; font-family:Sans Serif; font-weight:400; font-style:"
@@ -3461,7 +3622,7 @@ msgstr "Sepana KDE"
 msgid "Qt"
 msgstr "Qt"
 
-#: kdecore/kernel/kcmdlineargs.cpp:489 khtml/khtml_part.cpp:4800
+#: kdecore/kernel/kcmdlineargs.cpp:489 khtml/khtml_part.cpp:4923
 msgid "KDE"
 msgstr "KDE"
 
@@ -4778,7 +4939,7 @@ msgstr "Tevlêkirina tiştên nû yên balkêş"
 msgid "Please give some information about yourself."
 msgstr "Ji kerema xwe di derbarê xwe de hinek agahî bide."
 
-#: knewstuff/knewstuff2/ui/uploaddialog.cpp:67 kutils/kpluginselector.cpp:1667
+#: knewstuff/knewstuff2/ui/uploaddialog.cpp:67
 msgid "Author:"
 msgstr "Nivîskarê Wê:"
 
@@ -4796,11 +4957,11 @@ msgid "Name:"
 msgstr "Nav:"
 
 #: knewstuff/knewstuff2/ui/uploaddialog.cpp:85
-#: kdeui/dialogs/kbugreport.cpp:196 kutils/kpluginselector.cpp:1711
+#: kdeui/dialogs/kbugreport.cpp:196
 msgid "Version:"
 msgstr "Guherto:"
 
-#: knewstuff/knewstuff2/ui/uploaddialog.cpp:90 kutils/kpluginselector.cpp:1720
+#: knewstuff/knewstuff2/ui/uploaddialog.cpp:90
 msgid "License:"
 msgstr "Lîsans:"
 
@@ -5777,6 +5938,104 @@ msgstr ""
 msgid "Configure Shortcuts"
 msgstr "Rurteriyan Veava Bike"
 
+#: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:167
+msgid "Left to Right, Top to Bottom"
+msgstr ""
+
+#: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:168
+msgid "Left to Right, Bottom to Top"
+msgstr ""
+
+#: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:169
+msgid "Right to Left, Bottom to Top"
+msgstr ""
+
+#: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:170
+msgid "Right to Left, Top to Bottom"
+msgstr ""
+
+#: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:171
+msgid "Bottom to Top, Left to Right"
+msgstr ""
+
+#: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:172
+msgid "Bottom to Top, Right to Left"
+msgstr ""
+
+#: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:173
+msgid "Top to Bottom, Left to Right"
+msgstr ""
+
+#: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:174
+msgid "Top to Bottom, Right to Left"
+msgstr ""
+
+#: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:191
+#: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:212
+#: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:235
+#: kdeui/dialogs/kshortcuteditwidget.cpp:58
+msgid "None"
+msgstr "Ne yek jî"
+
+#: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:192
+#, fuzzy
+#| msgid "Save Link As"
+msgid "Single Line"
+msgstr "Girêdanê Cuda Tomar Bike"
+
+#: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:193
+msgid "Single Thick Line"
+msgstr ""
+
+#: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:194
+msgid "Double Line"
+msgstr ""
+
+#: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:195
+#, fuzzy
+#| msgctxt "@item license"
+#| msgid "Q Public License"
+msgid "Double Thick Line"
+msgstr "Lîsansa Gelempera Q"
+
+#: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:213
+#: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:236
+#, fuzzy
+#| msgid "Start"
+msgid "Standard"
+msgstr "Destpêk"
+
+#: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:214
+#: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:237
+msgid "Unclassified"
+msgstr ""
+
+#: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:215
+#: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:238
+#, fuzzy
+#| msgid "Critical"
+msgid "Confidential"
+msgstr "Krîtîk"
+
+#: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:216
+#: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:239
+#, fuzzy
+#| msgid "Class"
+msgid "Classified"
+msgstr "Pol"
+
+#: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:217
+#: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:240
+#, fuzzy
+#| msgid "Security Alert"
+msgid "Secret"
+msgstr "Alarma Ewlekariyê"
+
+#: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:218
+#: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:241
+msgid "Top Secret"
+msgstr ""
+
 #. i18n: Filter for the Yes-button text in standard message dialogs,
 #. after the message caption/text have been translated.
 #: kdeui/dialogs/kmessagebox.cpp:53
@@ -5906,8 +6165,8 @@ msgstr ""
 msgid "Reset Toolbars"
 msgstr "Darikên Amûran Vegerîne Serî"
 
-#: kdeui/dialogs/kedittoolbar.cpp:526 khtml/khtmlview.cpp:2947
-#: khtml/khtmlview.cpp:2980 khtml/html/html_formimpl.cpp:2187
+#: kdeui/dialogs/kedittoolbar.cpp:526 khtml/khtmlview.cpp:2866
+#: khtml/khtmlview.cpp:2899 khtml/html/html_formimpl.cpp:2187
 msgid "Reset"
 msgstr "Vesazkirin"
 
@@ -6106,6 +6365,40 @@ msgstr "W&erger"
 #: kdeui/dialogs/kaboutapplicationdialog.cpp:249
 msgid "License Agreement"
 msgstr "Peymana Lîsansê"
+
+#: kdeui/dialogs/kcupsoptionsjobwidget_p.cpp:82
+#, fuzzy
+#| msgid "Print images"
+msgid "Print Immediately"
+msgstr "Wêneyan çap bike"
+
+#: kdeui/dialogs/kcupsoptionsjobwidget_p.cpp:83
+msgid "Hold Indefinitely"
+msgstr ""
+
+#: kdeui/dialogs/kcupsoptionsjobwidget_p.cpp:84
+msgid "Day (06:00 to 17:59)"
+msgstr ""
+
+#: kdeui/dialogs/kcupsoptionsjobwidget_p.cpp:85
+msgid "Night (18:00 to 05:59)"
+msgstr ""
+
+#: kdeui/dialogs/kcupsoptionsjobwidget_p.cpp:86
+msgid "Second Shift (16:00 to 23:59)"
+msgstr ""
+
+#: kdeui/dialogs/kcupsoptionsjobwidget_p.cpp:87
+msgid "Third Shift (00:00 to 07:59)"
+msgstr ""
+
+#: kdeui/dialogs/kcupsoptionsjobwidget_p.cpp:88
+msgid "Weekend (Saturday to Sunday)"
+msgstr ""
+
+#: kdeui/dialogs/kcupsoptionsjobwidget_p.cpp:89
+msgid "Specific Time"
+msgstr ""
 
 #: kdeui/dialogs/klinkdialog.cpp:48
 #, fuzzy
@@ -6317,10 +6610,6 @@ msgstr "Peyamê Bigire"
 msgid "Default:"
 msgstr "Standart:"
 
-#: kdeui/dialogs/kshortcuteditwidget.cpp:58 kdeui/widgets/klineedit.cpp:1100
-msgid "None"
-msgstr "Ne yek jî"
-
 #: kdeui/dialogs/kshortcuteditwidget.cpp:61
 msgid "Custom:"
 msgstr "Taybet:"
@@ -6463,7 +6752,7 @@ msgid ""
 "contain a proper translation."
 msgstr ""
 
-#: kdeui/dialogs/kpassworddialog.cpp:68
+#: kdeui/dialogs/kpassworddialog.cpp:70
 msgid "Password"
 msgstr "Şîfre"
 
@@ -7410,8 +7699,10 @@ msgstr "Ji Moda Dîmender &Tije Derkeve"
 msgid "Exit Full Screen"
 msgstr "Ji Moda Dîmender Tije Derkeve"
 
-#: kdeui/actions/kcodecaction.cpp:91 kdeui/widgets/klineedit.cpp:1127
-#: kdeui/widgets/ktoolbar.cpp:278
+#: kdeui/actions/kcodecaction.cpp:91
+#, fuzzy
+#| msgid "Default"
+msgctxt "Encodings menu"
 msgid "Default"
 msgstr "Standart"
 
@@ -8350,32 +8641,67 @@ msgid "Specials"
 msgstr "Taybet"
 
 #: kdeui/widgets/klineedit.cpp:233
+#, fuzzy
+#| msgid "Clear text"
+msgctxt "@action:button Clear current text in the line edit"
 msgid "Clear text"
 msgstr "Nivîsê Paqij Bike"
 
 #: kdeui/widgets/klineedit.cpp:1093
+#, fuzzy
+#| msgid "Text Completion"
+msgctxt "@title:menu"
 msgid "Text Completion"
 msgstr "Temamkirina Nivîsê"
 
+#: kdeui/widgets/klineedit.cpp:1100
+#, fuzzy
+#| msgid "None"
+msgctxt "@item:inmenu Text Completion"
+msgid "None"
+msgstr "Ne yek jî"
+
 #: kdeui/widgets/klineedit.cpp:1101
+#, fuzzy
+#| msgid "Manual"
+msgctxt "@item:inmenu Text Completion"
 msgid "Manual"
 msgstr "Bi destan"
 
 #: kdeui/widgets/klineedit.cpp:1102
+#, fuzzy
+#| msgid "Automatic"
+msgctxt "@item:inmenu Text Completion"
 msgid "Automatic"
 msgstr "Jixweber"
 
 #: kdeui/widgets/klineedit.cpp:1103
+#, fuzzy
+#| msgid "Dropdown List"
+msgctxt "@item:inmenu Text Completion"
 msgid "Dropdown List"
 msgstr "Lîsteya Rêzkirî"
 
 #: kdeui/widgets/klineedit.cpp:1104
+#, fuzzy
+#| msgid "Short Automatic"
+msgctxt "@item:inmenu Text Completion"
 msgid "Short Automatic"
 msgstr "Bixwebera Kurt"
 
 #: kdeui/widgets/klineedit.cpp:1105
+#, fuzzy
+#| msgid "Dropdown List && Automatic"
+msgctxt "@item:inmenu Text Completion"
 msgid "Dropdown List && Automatic"
 msgstr "Lîsteya Rêzkirî && Bixweber"
+
+#: kdeui/widgets/klineedit.cpp:1127
+#, fuzzy
+#| msgid "Default"
+msgctxt "@item:inmenu Text Completion"
+msgid "Default"
+msgstr "Standart"
 
 #: kdeui/widgets/kdatepicker.cpp:210
 #, kde-format
@@ -8527,54 +8853,54 @@ msgid "Justify"
 msgstr ""
 
 #: kdeui/widgets/krichtextwidget.cpp:353
-msgctxt "@action"
+msgctxt "@title:menu"
 msgid "List Style"
 msgstr ""
 
 #: kdeui/widgets/krichtextwidget.cpp:355
 #, fuzzy
 #| msgid "None"
-msgctxt "@action no list style"
+msgctxt "@item:inmenu no list style"
 msgid "None"
 msgstr "Ne yek jî"
 
 #: kdeui/widgets/krichtextwidget.cpp:356
 #, fuzzy
 #| msgid "&Discard"
-msgctxt "@action disc list style"
+msgctxt "@item:inmenu disc list style"
 msgid "Disc"
 msgstr "&Bavêje"
 
 #: kdeui/widgets/krichtextwidget.cpp:357
 #, fuzzy
 #| msgid "File"
-msgctxt "@action circle list style"
+msgctxt "@item:inmenu circle list style"
 msgid "Circle"
 msgstr "Pel"
 
 #: kdeui/widgets/krichtextwidget.cpp:358
 #, fuzzy
 #| msgid "Source:"
-msgctxt "@action square list style"
+msgctxt "@item:inmenu square list style"
 msgid "Square"
 msgstr "Çavkanî:"
 
 #: kdeui/widgets/krichtextwidget.cpp:359
-msgctxt "@action numbered lists"
+msgctxt "@item:inmenu numbered lists"
 msgid "123"
 msgstr ""
 
 #: kdeui/widgets/krichtextwidget.cpp:360
 #, fuzzy
 #| msgid "Sab"
-msgctxt "@action lowercase abc lists"
+msgctxt "@item:inmenu lowercase abc lists"
 msgid "abc"
 msgstr "Şemî"
 
 #: kdeui/widgets/krichtextwidget.cpp:361
 #, fuzzy
 #| msgid "AC"
-msgctxt "@action lowercase abc lists"
+msgctxt "@item:inmenu uppercase abc lists"
 msgid "ABC"
 msgstr "AC"
 
@@ -8756,7 +9082,7 @@ msgstr "Veqetandek, Valahî"
 msgid "Unknown"
 msgstr "Nayê zanîn"
 
-#: kdeui/widgets/ksqueezedtextlabel.cpp:144
+#: kdeui/widgets/ksqueezedtextlabel.cpp:143
 #, fuzzy
 #| msgid "&Copy Text"
 msgid "&Copy Full Text"
@@ -8896,6 +9222,13 @@ msgstr "Li Bin Sembolan Nivîs"
 #: kdeui/widgets/ktoolbar.cpp:275
 msgid "Icon Size"
 msgstr "Mezinahiya Îkonê"
+
+#: kdeui/widgets/ktoolbar.cpp:278
+#, fuzzy
+#| msgid "Default"
+msgctxt "@item:inmenu Icon size"
+msgid "Default"
+msgstr "Standart"
 
 #: kdeui/widgets/ktoolbar.cpp:298 kdeui/widgets/ktoolbar.cpp:318
 #, kde-format
@@ -9524,8 +9857,8 @@ msgstr "Testkhtml"
 msgid "a basic web browser using the KHTML library"
 msgstr ""
 
-#: khtml/khtml_run.cpp:97 khtml/khtml_part.cpp:3796 khtml/khtml_part.cpp:4012
-#: khtml/khtml_part.cpp:4395 kparts/browserrun.cpp:443
+#: khtml/khtml_run.cpp:97 khtml/khtml_part.cpp:3919 khtml/khtml_part.cpp:4135
+#: khtml/khtml_part.cpp:4518 kparts/browserrun.cpp:443
 msgid "Save As"
 msgstr "Cuda tomar bike"
 
@@ -9693,15 +10026,15 @@ msgstr "Di &Hilpekîna Nû de Veke"
 msgid "Reload Frame"
 msgstr "Çarçoveyê Ji Nû Ve Bar Bike"
 
-#: khtml/khtml_ext.cpp:590 khtml/khtml_part.cpp:394
+#: khtml/khtml_ext.cpp:590 khtml/khtml_part.cpp:399
 msgid "Print Frame..."
 msgstr "Çarçoveyê Çap Bike..."
 
-#: khtml/khtml_ext.cpp:596 khtml/khtml_part.cpp:280
+#: khtml/khtml_ext.cpp:596 khtml/khtml_part.cpp:285
 msgid "Save &Frame As..."
 msgstr "&Çarçoveyê Cuda Tomar Bike..."
 
-#: khtml/khtml_ext.cpp:601 khtml/khtml_part.cpp:262
+#: khtml/khtml_ext.cpp:601 khtml/khtml_part.cpp:267
 msgid "View Frame Source"
 msgstr "Çavkaniya Çarçoveyê Nîşan Bide"
 
@@ -9867,43 +10200,43 @@ msgstr "Wêneyan çap bike"
 msgid "Print header"
 msgstr "Sernavê Danivîsînê"
 
-#: khtml/khtml_part.cpp:257
+#: khtml/khtml_part.cpp:262
 msgid "View Do&cument Source"
 msgstr "Çavkaniya &Belgeyê Nîşan Bide"
 
-#: khtml/khtml_part.cpp:266
+#: khtml/khtml_part.cpp:271
 msgid "View Document Information"
 msgstr "Agahiya Belgeyê Nîşan Bide"
 
-#: khtml/khtml_part.cpp:271
+#: khtml/khtml_part.cpp:276
 msgid "Save &Background Image As..."
 msgstr "Wêneyê &Rûerd Cuda Tomar Bike..."
 
-#: khtml/khtml_part.cpp:284
+#: khtml/khtml_part.cpp:289
 msgid "Print Rendering Tree to STDOUT"
 msgstr "Çapkirina dara pêşkêşkirinê ji bo STDOUT"
 
-#: khtml/khtml_part.cpp:288
+#: khtml/khtml_part.cpp:293
 msgid "Print DOM Tree to STDOUT"
 msgstr "Çapkirina dara DOM ji bo STDOUT"
 
-#: khtml/khtml_part.cpp:292
+#: khtml/khtml_part.cpp:297
 msgid "Stop Animated Images"
 msgstr "Wêneyên livbar rawestîne"
 
-#: khtml/khtml_part.cpp:296
+#: khtml/khtml_part.cpp:301
 msgid "Set &Encoding"
 msgstr "&Kodkirinan Sererast Bike"
 
-#: khtml/khtml_part.cpp:335
+#: khtml/khtml_part.cpp:340
 msgid "Use S&tylesheet"
 msgstr "Kaxiza T&eşeyê Bikar Bîne"
 
-#: khtml/khtml_part.cpp:340
+#: khtml/khtml_part.cpp:345
 msgid "Enlarge Font"
 msgstr "Curetîpan Mezin Bike"
 
-#: khtml/khtml_part.cpp:344
+#: khtml/khtml_part.cpp:349
 msgid ""
 "Enlarge Font<br /><br />Make the font in this window bigger. Click and hold "
 "down the mouse button for a menu with all available font sizes."
@@ -9912,11 +10245,11 @@ msgstr ""
 "Tu dikarî pêl bişkoka mişk bike û ber bi jêr bikşîne û hemû mezinahiyên "
 "curenivîsan nîşan bide."
 
-#: khtml/khtml_part.cpp:348
+#: khtml/khtml_part.cpp:353
 msgid "Shrink Font"
 msgstr "Curetîpan Biçûk Bike"
 
-#: khtml/khtml_part.cpp:352
+#: khtml/khtml_part.cpp:357
 msgid ""
 "Shrink Font<br /><br />Make the font in this window smaller. Click and hold "
 "down the mouse button for a menu with all available font sizes."
@@ -9925,34 +10258,34 @@ msgstr ""
 "bişkoka mişkê bike û pêlkirî bihêle bi derbaskirina di ser hemû lîsteyê re û "
 "hemû meznahiyên curetîpên heyî."
 
-#: khtml/khtml_part.cpp:358
+#: khtml/khtml_part.cpp:363
 msgid ""
 "Find text<br /><br />Shows a dialog that allows you to find text on the "
 "displayed page."
 msgstr ""
 "Nivîsê bibîne <br /><br />Li rûpelê ku hatiye nîşandan de nivîsekê dibîne."
 
-#: khtml/khtml_part.cpp:362
+#: khtml/khtml_part.cpp:367
 msgid ""
 "Find next<br /><br />Find the next occurrence of the text that you have "
 "found using the <b>Find Text</b> function"
 msgstr ""
 
-#: khtml/khtml_part.cpp:368
+#: khtml/khtml_part.cpp:373
 msgid ""
 "Find previous<br /><br />Find the previous occurrence of the text that you "
 "have found using the <b>Find Text</b> function"
 msgstr ""
 
-#: khtml/khtml_part.cpp:372
+#: khtml/khtml_part.cpp:377
 msgid "Find Text as You Type"
 msgstr "Dema te dinivîsand de nivîsa ku tu lê digeriya bibîne"
 
-#: khtml/khtml_part.cpp:377
+#: khtml/khtml_part.cpp:382
 msgid "Find Links as You Type"
 msgstr "Dema te dinivîsand de girêdana ku tu lê digeriya bibîne"
 
-#: khtml/khtml_part.cpp:398
+#: khtml/khtml_part.cpp:403
 msgid ""
 "Print Frame<br /><br />Some pages have several frames. To print only a "
 "single frame, click on it and then use this function."
@@ -9961,153 +10294,153 @@ msgstr ""
 "tu dixwazî tenê vê çarçoveyê çap bike pêl ser vê çarçoveyê bike û piştî wê "
 "jî vê fonksiyonê bikar bîne."
 
-#: khtml/khtml_part.cpp:408
+#: khtml/khtml_part.cpp:413
 msgid "Toggle Caret Mode"
 msgstr "Derbasî Moda Nîşankerê Sererastkirinan Bibe"
 
-#: khtml/khtml_part.cpp:623
+#: khtml/khtml_part.cpp:628
 #, kde-format
 msgid "The fake user-agent '%1' is in use."
 msgstr "Sîxur-bikarhênerê sixte yê '%1' niha dixebite."
 
-#: khtml/khtml_part.cpp:1107
+#: khtml/khtml_part.cpp:1112
 msgid "This web page contains coding errors."
 msgstr "Di vî rûpelê webê de çewtiyên kodkirinê heye."
 
-#: khtml/khtml_part.cpp:1149
+#: khtml/khtml_part.cpp:1154
 msgid "&Hide Errors"
 msgstr "Çewtiyan &Veşêre"
 
-#: khtml/khtml_part.cpp:1150
+#: khtml/khtml_part.cpp:1155
 msgid "&Disable Error Reporting"
 msgstr "Raporkirina Çewtiyan &Bigire"
 
-#: khtml/khtml_part.cpp:1194
+#: khtml/khtml_part.cpp:1199
 #, fuzzy, kde-format
 #| msgid "<b>Error</b>: %1: %2"
 msgid "<qt><b>Error</b>: %1: %2</qt>"
 msgstr "<b>Çewtî</b>: %1: %2"
 
-#: khtml/khtml_part.cpp:1243
+#: khtml/khtml_part.cpp:1248
 #, fuzzy, kde-format
 #| msgid "<b>Error</b>: node %1: %2"
 msgid "<qt><b>Error</b>: node %1: %2</qt>"
 msgstr "<b>Çewtî</b>: girêk %1: %2"
 
-#: khtml/khtml_part.cpp:1353
+#: khtml/khtml_part.cpp:1358
 msgid "Display Images on Page"
 msgstr "Di Rûpel de Wêneyan Nîşan Bide"
 
-#: khtml/khtml_part.cpp:1711
+#: khtml/khtml_part.cpp:1715
 #, fuzzy, kde-format
 #| msgid "<b>Error</b>: %1: %2"
 msgid "Error: %1 - %2"
 msgstr "<b>Çewtî</b>: %1: %2"
 
-#: khtml/khtml_part.cpp:1716
+#: khtml/khtml_part.cpp:1720
 msgid "The requested operation could not be completed"
 msgstr "Karê ku dihate xwestin temam nebû"
 
-#: khtml/khtml_part.cpp:1722
+#: khtml/khtml_part.cpp:1726
 msgid "Technical Reason: "
 msgstr "Sedema Teknîkî: "
 
-#: khtml/khtml_part.cpp:1727
+#: khtml/khtml_part.cpp:1731
 msgid "Details of the Request:"
 msgstr "Kîtekîtên Daxwazê:"
 
-#: khtml/khtml_part.cpp:1729
+#: khtml/khtml_part.cpp:1733
 #, kde-format
 msgid "URL: %1"
 msgstr "URL: %1"
 
-#: khtml/khtml_part.cpp:1732
+#: khtml/khtml_part.cpp:1736
 #, kde-format
 msgid "Protocol: %1"
 msgstr ""
 
-#: khtml/khtml_part.cpp:1735
+#: khtml/khtml_part.cpp:1739
 #, kde-format
 msgid "Date and Time: %1"
 msgstr "Dîrok û Saet: %1"
 
-#: khtml/khtml_part.cpp:1737
+#: khtml/khtml_part.cpp:1741
 #, kde-format
 msgid "Additional Information: %1"
 msgstr "Agahiyên Pêvek: %1"
 
-#: khtml/khtml_part.cpp:1739 kutils/kpluginselector.cpp:1657
+#: khtml/khtml_part.cpp:1743
 msgid "Description:"
 msgstr "Daxuyanî:"
 
-#: khtml/khtml_part.cpp:1745
+#: khtml/khtml_part.cpp:1749
 msgid "Possible Causes:"
 msgstr "Sedemên Gengaz:"
 
-#: khtml/khtml_part.cpp:1752
+#: khtml/khtml_part.cpp:1756
 msgid "Possible Solutions:"
 msgstr "Çareseriyên Gengaz:"
 
-#: khtml/khtml_part.cpp:2105
+#: khtml/khtml_part.cpp:2106
 msgid "Page loaded."
 msgstr "Rûpel hate barkirin."
 
-#: khtml/khtml_part.cpp:2107
+#: khtml/khtml_part.cpp:2108
 #, kde-format
 msgid "%1 Image of %2 loaded."
 msgid_plural "%1 Images of %2 loaded."
 msgstr[0] "%1 ji %2 Wêne barkirî."
 msgstr[1] "%1 ji %2 Wêne barkirî."
 
-#: khtml/khtml_part.cpp:2268
+#: khtml/khtml_part.cpp:2269
 msgid "Automatic Detection"
 msgstr "Dîtina Bixweber"
 
-#: khtml/khtml_part.cpp:3604 khtml/khtml_part.cpp:3691
-#: khtml/khtml_part.cpp:3702
+#: khtml/khtml_part.cpp:3727 khtml/khtml_part.cpp:3814
+#: khtml/khtml_part.cpp:3825
 msgid " (In new window)"
 msgstr " (Di paceya nû de)"
 
-#: khtml/khtml_part.cpp:3643
+#: khtml/khtml_part.cpp:3766
 msgid "Symbolic Link"
 msgstr "Girêdana Sembolîk"
 
-#: khtml/khtml_part.cpp:3645
+#: khtml/khtml_part.cpp:3768
 #, kde-format
 msgid "%1 (Link)"
 msgstr "%1 (Girêdan)"
 
-#: khtml/khtml_part.cpp:3665
+#: khtml/khtml_part.cpp:3788
 #, kde-format
 msgid "%2 (%1 bytes)"
 msgstr "%2 (%1 bayt)"
 
-#: khtml/khtml_part.cpp:3669
+#: khtml/khtml_part.cpp:3792
 #, kde-format
 msgid "%2 (%1 K)"
 msgstr "%2 (%1 bayt)"
 
-#: khtml/khtml_part.cpp:3704
+#: khtml/khtml_part.cpp:3827
 msgid " (In other frame)"
 msgstr " (Di paceyeke din )"
 
-#: khtml/khtml_part.cpp:3709
+#: khtml/khtml_part.cpp:3832
 msgid "Email to: "
 msgstr "Bişîne: "
 
-#: khtml/khtml_part.cpp:3715
+#: khtml/khtml_part.cpp:3838
 msgid " - Subject: "
 msgstr " - Mijar: "
 
-#: khtml/khtml_part.cpp:3717
+#: khtml/khtml_part.cpp:3840
 msgid " - CC: "
 msgstr " - CC: "
 
-#: khtml/khtml_part.cpp:3719
+#: khtml/khtml_part.cpp:3842
 msgid " - BCC: "
 msgstr " - BCC: "
 
-#: khtml/khtml_part.cpp:3801
+#: khtml/khtml_part.cpp:3924
 #, kde-format
 msgid ""
 "<qt>This untrusted page links to<br /><b>%1</b>.<br />Do you want to follow "
@@ -10116,44 +10449,44 @@ msgstr ""
 "<qt>Vî rûpelê ne ewle girêdanê bi rûpelê <br /><b>%1</b> dihundirîne.<br / "
 ">Tu dixwazî vê girêdanê bişopîne?</qt>"
 
-#: khtml/khtml_part.cpp:3802
+#: khtml/khtml_part.cpp:3925
 msgid "Follow"
 msgstr "Bişopîne"
 
-#: khtml/khtml_part.cpp:3909
+#: khtml/khtml_part.cpp:4032
 msgid "Frame Information"
 msgstr "Agahiya Çarçove"
 
-#: khtml/khtml_part.cpp:3915
+#: khtml/khtml_part.cpp:4038
 #, kde-format
 msgid "   <a href=\"%1\">[Properties]</a>"
 msgstr "   <a href=\"%1\">[Taybetmendî]</a>"
 
-#: khtml/khtml_part.cpp:4000
+#: khtml/khtml_part.cpp:4123
 msgid "Save Background Image As"
 msgstr "Wêneyê Rûerd Cuda Tomar Bike"
 
-#: khtml/khtml_part.cpp:4104
+#: khtml/khtml_part.cpp:4227
 msgid "The peer SSL certificate chain appears to be corrupt."
 msgstr "Dibe ku zencîreya sertîfîkaya SSL'ê xerabûyî be."
 
-#: khtml/khtml_part.cpp:4106
+#: khtml/khtml_part.cpp:4229
 msgid "SSL"
 msgstr "SSL"
 
-#: khtml/khtml_part.cpp:4123
+#: khtml/khtml_part.cpp:4246
 msgid "Save Frame As"
 msgstr "Çarçoveyê Cuda Tomar Bike"
 
-#: khtml/khtml_part.cpp:4165
+#: khtml/khtml_part.cpp:4288
 msgid "&Find in Frame..."
 msgstr "Di Çarçoveyê De &Bibîne..."
 
-#: khtml/khtml_part.cpp:4167 kdeui/actions/kstandardaction_p.h:64
+#: khtml/khtml_part.cpp:4290 kdeui/actions/kstandardaction_p.h:64
 msgid "&Find..."
 msgstr "&Bibîne..."
 
-#: khtml/khtml_part.cpp:4691
+#: khtml/khtml_part.cpp:4814
 msgid ""
 "Warning:  This is a secure form but it is attempting to send your data back "
 "unencrypted.\n"
@@ -10164,16 +10497,16 @@ msgstr ""
 "Dibe ku aliyek sêyemîn van agahiyan bibîne û şandinê asteng bike\n"
 "Tu bawerî ku dixwazî dewam bikî."
 
-#: khtml/khtml_part.cpp:4694 khtml/khtml_part.cpp:4703
-#: khtml/khtml_part.cpp:4727
+#: khtml/khtml_part.cpp:4817 khtml/khtml_part.cpp:4826
+#: khtml/khtml_part.cpp:4850
 msgid "Network Transmission"
 msgstr "Veguheztina Toreyê"
 
-#: khtml/khtml_part.cpp:4694 khtml/khtml_part.cpp:4704
+#: khtml/khtml_part.cpp:4817 khtml/khtml_part.cpp:4827
 msgid "&Send Unencrypted"
 msgstr "Bêşîfrê Bi&şîne"
 
-#: khtml/khtml_part.cpp:4701
+#: khtml/khtml_part.cpp:4824
 msgid ""
 "Warning: Your data is about to be transmitted across the network "
 "unencrypted.\n"
@@ -10182,7 +10515,7 @@ msgstr ""
 "Hişyarî: Daneya te dike ku bê şîfrekirin di rêya torê re were şandin\n"
 "Tu bawerî ku dixwazî bidomînî?"
 
-#: khtml/khtml_part.cpp:4725
+#: khtml/khtml_part.cpp:4848
 msgid ""
 "This site is attempting to submit form data via email.\n"
 "Do you want to continue?"
@@ -10190,11 +10523,11 @@ msgstr ""
 "Ev malper hewl dide ku bi rêya E-peyamê daxuyaniyan bişîne.\n"
 "Tu dixwazî bidomînî?"
 
-#: khtml/khtml_part.cpp:4728
+#: khtml/khtml_part.cpp:4851
 msgid "&Send Email"
 msgstr "&E-peyamekê Bişîne"
 
-#: khtml/khtml_part.cpp:4750
+#: khtml/khtml_part.cpp:4873
 #, kde-format
 msgid ""
 "<qt>The form will be submitted to <br /><b>%1</b><br />on your local "
@@ -10203,12 +10536,12 @@ msgstr ""
 "<qt>Wê ev form ji navnîşana <br /><b>%1</b><br /> ya di pergala pelan ya "
 "herêmî de ye were şandin.<br>Tu dixwazî vê formê bişînî?</qt>"
 
-#: khtml/khtml_part.cpp:4751 khtml/khtmlview.cpp:2933 khtml/khtmlview.cpp:2975
+#: khtml/khtml_part.cpp:4874 khtml/khtmlview.cpp:2852 khtml/khtmlview.cpp:2894
 #: khtml/html/html_formimpl.cpp:1587 khtml/html/html_formimpl.cpp:2195
 msgid "Submit"
 msgstr "Şandin"
 
-#: khtml/khtml_part.cpp:4800
+#: khtml/khtml_part.cpp:4923
 msgid ""
 "This site attempted to attach a file from your computer in the form "
 "submission. The attachment was removed for your protection."
@@ -10216,50 +10549,50 @@ msgstr ""
 "Vî rûpelî dixwest pelekî ji kompîtura te bistîne û bi formê re bişîne. Karê "
 "şandina pêvekan ji bo ewlekariya te hate betalkirin."
 
-#: khtml/khtml_part.cpp:5805
+#: khtml/khtml_part.cpp:5928
 #, kde-format
 msgid "(%1/s)"
 msgstr "(%1/ç)"
 
-#: khtml/khtml_part.cpp:6862
+#: khtml/khtml_part.cpp:6842
 msgid "Security Warning"
 msgstr "Hişyariya Ewlekariyê"
 
-#: khtml/khtml_part.cpp:6868
+#: khtml/khtml_part.cpp:6848
 #, kde-format
 msgid "<qt>Access by untrusted page to<br /><b>%1</b><br /> denied.</qt>"
 msgstr ""
 "<qt>Gihiştîna ji rûpelê ne ewle <br /><b>%1</b><br /> hate qedexekirin.<qt>"
 
-#: khtml/khtml_part.cpp:6869 khtml/java/kjavaappletserver.cpp:791
+#: khtml/khtml_part.cpp:6849 khtml/java/kjavaappletserver.cpp:791
 msgid "Security Alert"
 msgstr "Alarma Ewlekariyê"
 
-#: khtml/khtml_part.cpp:7216
+#: khtml/khtml_part.cpp:7199
 #, kde-format
 msgid "The wallet '%1' is open and being used for form data and passwords."
 msgstr ""
 "Cuzdanê bi navê '%1' vekirî ye û ji bo daneyan forman û şîfreyan tê "
 "bikaranîn."
 
-#: khtml/khtml_part.cpp:7273
+#: khtml/khtml_part.cpp:7256
 msgid "&Close Wallet"
 msgstr "Cuzdan &Bigire"
 
-#: khtml/khtml_part.cpp:7316
+#: khtml/khtml_part.cpp:7299
 msgid "JavaScript &Debugger"
 msgstr "&Neqanderê Çewtiyan ya/ê Javascriptê"
 
-#: khtml/khtml_part.cpp:7349
+#: khtml/khtml_part.cpp:7332
 msgid "This page was prevented from opening a new window via JavaScript."
 msgstr ""
 "Hate astengkirin ku ev rûpel Javascriptê bikar bîne û rûpelekî nû veke."
 
-#: khtml/khtml_part.cpp:7355
+#: khtml/khtml_part.cpp:7338
 msgid "Popup Window Blocked"
 msgstr "Paceya Vedibe Hate Blokkirin"
 
-#: khtml/khtml_part.cpp:7355
+#: khtml/khtml_part.cpp:7338
 msgid ""
 "This page has attempted to open a popup window but was blocked.\n"
 "You can click on this icon in the status bar to control this behavior\n"
@@ -10269,18 +10602,18 @@ msgstr ""
 "Tu dikarî pêl îkona ku li ser darikê rewşê ye bike û vê tevgerê kontrol bike "
 "yan jî tu dikarî rê li ber paceya ku vedibe veke."
 
-#: khtml/khtml_part.cpp:7368
+#: khtml/khtml_part.cpp:7351
 #, kde-format
 msgid "&Show Blocked Popup Window"
 msgid_plural "&Show %1 Blocked Popup Windows"
 msgstr[0] "Paceya Xweber Vedibe a Astengbûyî &Nîşan Bide"
 msgstr[1] "%1 Paceyên Xweber Vedibin ên Astengbûyî &Nîşan Bide"
 
-#: khtml/khtml_part.cpp:7369
+#: khtml/khtml_part.cpp:7352
 msgid "Show Blocked Window Passive Popup &Notification"
 msgstr "Danezana Neçalak ya Paceyên Vedibe yên Têne Astengkirin &Nîşan Bide"
 
-#: khtml/khtml_part.cpp:7371
+#: khtml/khtml_part.cpp:7354
 msgid "&Configure JavaScript New Window Policies..."
 msgstr "Polîtîkayên Paceyên Vedibin yên JacaSkrîptê &Veava Bike..."
 
@@ -10324,39 +10657,39 @@ msgstr "Têxe astengbûyiyan..."
 msgid "Remove from ignores..."
 msgstr "Ji yên astengbûyiyan rake..."
 
-#: khtml/khtmlview.cpp:1897
+#: khtml/khtmlview.cpp:1827
 msgid "Find stopped."
 msgstr "Karê dîtinê hate rawestandin."
 
-#: khtml/khtmlview.cpp:1908
+#: khtml/khtmlview.cpp:1838
 msgid "Starting -- find links as you type"
 msgstr "Dest pê kir -- dema nivîsînê de girêdana ku tu lê digerî bibîne"
 
-#: khtml/khtmlview.cpp:1914
+#: khtml/khtmlview.cpp:1844
 msgid "Starting -- find text as you type"
 msgstr "Dest pê kir -- dema nivîsînê de nivîsa ku tu lê digerî bibîne"
 
-#: khtml/khtmlview.cpp:1937
+#: khtml/khtmlview.cpp:1867
 #, kde-format
 msgid "Link found: \"%1\"."
 msgstr "Girêdan hate dîtin: \"%1\"."
 
-#: khtml/khtmlview.cpp:1942
+#: khtml/khtmlview.cpp:1872
 #, kde-format
 msgid "Link not found: \"%1\"."
 msgstr "Girêdan nehate dîtin: \"%1\"."
 
-#: khtml/khtmlview.cpp:1950
+#: khtml/khtmlview.cpp:1880
 #, kde-format
 msgid "Text found: \"%1\"."
 msgstr "Nivîs hate dîtin: \"%1\"."
 
-#: khtml/khtmlview.cpp:1955
+#: khtml/khtmlview.cpp:1885
 #, kde-format
 msgid "Text not found: \"%1\"."
 msgstr "Nivîs nehate dîtin.: \"%1\"."
 
-#: khtml/khtmlview.cpp:2002
+#: khtml/khtmlview.cpp:1932
 msgid "Access Keys activated"
 msgstr "Bişkokên Gihiştînê Hatine Çalakkirin"
 
@@ -10381,7 +10714,7 @@ msgstr "Çewtiyeke mezin di şîrovekirina:%1 di rêzika %2, stûna %3 de"
 msgid "XML parsing error"
 msgstr "Çewtî di şîrovekirina XML de"
 
-#: khtml/xml/dom_docimpl.cpp:2195
+#: khtml/xml/dom_docimpl.cpp:2221
 msgid "Basic Page Style"
 msgstr "Şêweyê Rûpelê Bingeh"
 
@@ -10478,7 +10811,7 @@ msgstr "JavaScript"
 msgid "&Abort"
 msgstr "&Dev jê berde"
 
-#: khtml/ecma/kjs_window.cpp:1596 khtml/ecma/kjs_html.cpp:2104
+#: khtml/ecma/kjs_window.cpp:1596 khtml/ecma/kjs_html.cpp:2110
 msgid "Confirmation: JavaScript Popup"
 msgstr "Erêkirin: Paceya Javascriptê"
 
@@ -10499,11 +10832,11 @@ msgstr ""
 "<qt>Ev malper, dixwazî bi Javaskrîptê di hundirê paceya gerokeke nû de <p>%"
 "1</p> veke.<br />Tu yê destûrê bide vî tiştî?</qt>"
 
-#: khtml/ecma/kjs_window.cpp:1604 khtml/ecma/kjs_html.cpp:2111
+#: khtml/ecma/kjs_window.cpp:1604 khtml/ecma/kjs_html.cpp:2117
 msgid "Allow"
 msgstr "Desturê Bide"
 
-#: khtml/ecma/kjs_window.cpp:1604 khtml/ecma/kjs_html.cpp:2111
+#: khtml/ecma/kjs_window.cpp:1604 khtml/ecma/kjs_html.cpp:2117
 msgid "Do Not Allow"
 msgstr "Destûrê Nede"
 
@@ -10545,7 +10878,7 @@ msgstr "Têxe Nav"
 msgid "Disallow"
 msgstr "Destûrê nede"
 
-#: khtml/ecma/kjs_html.cpp:2106
+#: khtml/ecma/kjs_html.cpp:2112
 msgid ""
 "This site is submitting a form which will open up a new browser window via "
 "JavaScript.\n"
@@ -10554,7 +10887,7 @@ msgstr ""
 "Ev malper dixwaze Javascriptê bikar bîne û di paceyeke nû de formekê veke.\n"
 "Tu destûrê didî şandina formê?"
 
-#: khtml/ecma/kjs_html.cpp:2109
+#: khtml/ecma/kjs_html.cpp:2115
 #, kde-format
 msgid ""
 "<qt>This site is submitting a form which will open <p>%1</p> in a new "
@@ -11302,21 +11635,19 @@ msgstr ""
 "bibîranîn jê bibe. Heke ev tişt, pirsê çareser neke hewl bide bi belavkar û "
 "pakêtkerê xwe re têkeve têkiliyê.</p></qt>"
 
-#: kutils/kpluginselector.cpp:64
-msgid "About"
-msgstr "Der barê de"
-
-#: kutils/kpluginselector.cpp:157
-msgid "Automatic changes have been performed due to plugin dependencies"
+#: kutils/kpluginselector.cpp:135
+msgid ""
+"Automatic changes have been performed due to plugin dependencies. Click here "
+"for further information"
 msgstr ""
 
-#: kutils/kpluginselector.cpp:224
+#: kutils/kpluginselector.cpp:202
 msgid ""
 "Automatic changes have been performed in order to satisfy plugin "
 "dependencies:\n"
 msgstr ""
 
-#: kutils/kpluginselector.cpp:228
+#: kutils/kpluginselector.cpp:206
 #, kde-format
 msgid ""
 "\n"
@@ -11324,7 +11655,7 @@ msgid ""
 "plugin"
 msgstr ""
 
-#: kutils/kpluginselector.cpp:230
+#: kutils/kpluginselector.cpp:208
 #, kde-format
 msgid ""
 "\n"
@@ -11332,44 +11663,106 @@ msgid ""
 "2 plugin"
 msgstr ""
 
-#: kutils/kpluginselector.cpp:232
+#: kutils/kpluginselector.cpp:210
 msgid "Dependency Check"
 msgstr "Kontrola Rajêrî"
 
-#: kutils/kpluginselector.cpp:250
+#: kutils/kpluginselector.cpp:228
 #, kde-format
-msgid "%1 plugin added"
-msgid_plural "%1 plugins added"
-msgstr[0] "%1 pêvek hat lêzêdekirin"
-msgstr[1] "%1 pêvek hatin lêzêdekirin"
+msgid "%1 plugin automatically added due to plugin dependencies"
+msgid_plural "%1 plugins automatically added due to plugin dependencies"
+msgstr[0] ""
+msgstr[1] ""
 
-#: kutils/kpluginselector.cpp:253
+#: kutils/kpluginselector.cpp:231
 msgid ", "
 msgstr ", "
 
-#: kutils/kpluginselector.cpp:256
+#: kutils/kpluginselector.cpp:234
 #, kde-format
-msgid "%1 plugin removed"
-msgid_plural "%1 plugins removed"
-msgstr[0] "%1 pêvek hat rakirin"
-msgstr[1] "%1 pêvek hatin rakirin"
+msgid "%1 plugin automatically removed due to plugin dependencies"
+msgid_plural "%1 plugins automatically removed due to plugin dependencies"
+msgstr[0] ""
+msgstr[1] ""
 
 #: kutils/kpluginselector.cpp:259
-msgid " since the last time you asked for details"
-msgstr "ji dema dawîn a ku te pirsa kîtekîtan kiribû"
+#, fuzzy
+#| msgid "Search Columns"
+msgid "Search Plugins"
+msgstr "Di Stûnan De Lê Bigere"
 
-#: kutils/kpluginselector.cpp:1641
+#: kutils/kpluginselector.cpp:723
+#, fuzzy, kde-format
+#| msgid "Name:"
+msgid ""
+"Name:\n"
+"%1"
+msgstr "Nav:"
+
+#: kutils/kpluginselector.cpp:726
+#, fuzzy, kde-format
+#| msgid "Comment:"
+msgid ""
+"\n"
+"\n"
+"Comment:\n"
+"%1"
+msgstr "Şîrove:"
+
+#: kutils/kpluginselector.cpp:730
+#, fuzzy, kde-format
+#| msgid "Author:"
+msgid ""
+"\n"
+"\n"
+"Author:\n"
+"%1"
+msgstr "Nivîskarê Wê:"
+
+#: kutils/kpluginselector.cpp:734
 #, kde-format
-msgid "About %1 plugin"
-msgstr "Der barê pêveka %1 de"
+msgid ""
+"\n"
+"\n"
+"E-Mail:\n"
+"%1"
+msgstr ""
 
-#: kutils/kpluginselector.cpp:1675
-msgid "Email:"
-msgstr "E-peyam:"
-
-#: kutils/kpluginselector.cpp:1693
-msgid "Website:"
+#: kutils/kpluginselector.cpp:738
+#, fuzzy, kde-format
+#| msgid "Website:"
+msgid ""
+"\n"
+"\n"
+"Website:\n"
+"%1"
 msgstr "Malper:"
+
+#: kutils/kpluginselector.cpp:742
+#, fuzzy, kde-format
+#| msgid "Version: %1"
+msgid ""
+"\n"
+"\n"
+"Version:\n"
+"%1"
+msgstr "Guherto: %1"
+
+#: kutils/kpluginselector.cpp:746
+#, fuzzy, kde-format
+#| msgid "License: %1"
+msgid ""
+"\n"
+"\n"
+"License:\n"
+"%1"
+msgstr "Lîsans: %1"
+
+#: kutils/kpluginselector.cpp:749
+#, fuzzy, kde-format
+#| msgid "About %1 plugin"
+msgid "About Plugin \"%1\""
+msgstr "Der barê pêveka %1 de"
 
 #: kutils/kprintpreview.cpp:123
 msgid "Could not load print preview part"
@@ -12370,6 +12763,31 @@ msgstr ""
 msgid "No such function \"%1\""
 msgstr "Foksiyona bi navê \"%1\" tune"
 
+#, fuzzy
+#~| msgid "None"
+#~ msgctxt "@action no list style"
+#~ msgid "None"
+#~ msgstr "Ne yek jî"
+
+#~ msgid "About"
+#~ msgstr "Der barê de"
+
+#~ msgid "%1 plugin added"
+#~ msgid_plural "%1 plugins added"
+#~ msgstr[0] "%1 pêvek hat lêzêdekirin"
+#~ msgstr[1] "%1 pêvek hatin lêzêdekirin"
+
+#~ msgid "%1 plugin removed"
+#~ msgid_plural "%1 plugins removed"
+#~ msgstr[0] "%1 pêvek hat rakirin"
+#~ msgstr[1] "%1 pêvek hatin rakirin"
+
+#~ msgid " since the last time you asked for details"
+#~ msgstr "ji dema dawîn a ku te pirsa kîtekîtan kiribû"
+
+#~ msgid "Email:"
+#~ msgstr "E-peyam:"
+
 #~ msgid "Show:"
 #~ msgstr "Nîşandan:"
 
@@ -12384,14 +12802,6 @@ msgstr "Foksiyona bi navê \"%1\" tune"
 
 #~ msgid "Close this tab"
 #~ msgstr "Vê hillfirînê dade"
-
-#~ msgctxt "NAME OF TRANSLATORS"
-#~ msgid "Your names"
-#~ msgstr "Erdal Ronahi"
-
-#~ msgctxt "EMAIL OF TRANSLATORS"
-#~ msgid "Your emails"
-#~ msgstr "erdal dot ronahi at gmail dot com"
 
 #~ msgid "Error while loading %1"
 #~ msgstr "Dema '%1' dihate barkirin çewtî derket"
