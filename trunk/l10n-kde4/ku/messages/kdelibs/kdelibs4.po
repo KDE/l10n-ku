@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-05-20 07:35+0200\n"
+"POT-Creation-Date: 2008-05-21 08:59+0200\n"
 "PO-Revision-Date: 2008-04-06 03:37+0200\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <ku@li.org>\n"
@@ -88,7 +88,7 @@ msgstr "Gotineke lêgerînê têkeve virê"
 #: rc.cpp:23
 #, fuzzy
 #| msgid "Collaboration"
-msgid "Colaborate"
+msgid "Collaborate"
 msgstr "Hevkarî"
 
 #. i18n: tag label
@@ -267,9 +267,10 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kdeui/dialogs/kcupsoptionspageswidget.ui line 95
-#. i18n: tag string
-#. i18n: file ./threadweaver/Examples/Jobs/JobsBase.ui line 80
-#: rc.cpp:95 rc.cpp:936
+#: rc.cpp:95
+#, fuzzy
+#| msgid "Start"
+msgctxt "Banner page at start"
 msgid "Start"
 msgstr "Destpêk"
 
@@ -279,6 +280,7 @@ msgstr "Destpêk"
 #, fuzzy
 #| msgctxt "keyboard-key-name"
 #| msgid "End"
+msgctxt "Banner page at end"
 msgid "End"
 msgstr "Dawî"
 
@@ -1733,8 +1735,7 @@ msgstr "Derbasî rêzika din bibe..."
 #. i18n: file ./threadweaver/Examples/Jobs/JobsBase.ui line 90
 #: rc.cpp:788 rc.cpp:939 kdeui/util/kstandardguiitem.cpp:265
 #: kdeui/util/kkeyserver_x11.cpp:109 kdeui/findreplace/kreplace.cpp:353
-#: khtml/ecma/kjs_debugwin.cpp:482 khtml/ecma/debugger/debugwindow.cpp:186
-#: kross/ui/view.cpp:309
+#: khtml/ecma/kjs_debugwin.cpp:482 kross/ui/view.cpp:309
 msgid "Stop"
 msgstr "Rawestîne"
 
@@ -1814,6 +1815,12 @@ msgstr "Çalakiya Parçeya Tomarê"
 #: rc.cpp:933
 msgid "Displays Thread Activity"
 msgstr "Çalakiyên Parçeyan Nîşan Bide"
+
+#. i18n: tag string
+#. i18n: file ./threadweaver/Examples/Jobs/JobsBase.ui line 80
+#: rc.cpp:936
+msgid "Start"
+msgstr "Destpêk"
 
 #. i18n: tag string
 #. i18n: file ./threadweaver/Examples/Jobs/JobsBase.ui line 185
@@ -5971,9 +5978,9 @@ msgid "Top to Bottom, Right to Left"
 msgstr ""
 
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:191
-#: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:212
-#: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:235
-#: kdeui/dialogs/kshortcuteditwidget.cpp:58
+#, fuzzy
+#| msgid "None"
+msgctxt "No border line"
 msgid "None"
 msgstr "Ne yek jî"
 
@@ -5998,22 +6005,35 @@ msgstr ""
 msgid "Double Thick Line"
 msgstr "Lîsansa Gelempera Q"
 
+#: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:212
+#: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:235
+#, fuzzy
+#| msgid "None"
+msgctxt "Banner page"
+msgid "None"
+msgstr "Ne yek jî"
+
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:213
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:236
 #, fuzzy
 #| msgid "Start"
+msgctxt "Banner page"
 msgid "Standard"
 msgstr "Destpêk"
 
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:214
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:237
+#, fuzzy
+#| msgid "Class"
+msgctxt "Banner page"
 msgid "Unclassified"
-msgstr ""
+msgstr "Pol"
 
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:215
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:238
 #, fuzzy
 #| msgid "Critical"
+msgctxt "Banner page"
 msgid "Confidential"
 msgstr "Krîtîk"
 
@@ -6021,6 +6041,7 @@ msgstr "Krîtîk"
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:239
 #, fuzzy
 #| msgid "Class"
+msgctxt "Banner page"
 msgid "Classified"
 msgstr "Pol"
 
@@ -6028,13 +6049,17 @@ msgstr "Pol"
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:240
 #, fuzzy
 #| msgid "Security Alert"
+msgctxt "Banner page"
 msgid "Secret"
 msgstr "Alarma Ewlekariyê"
 
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:218
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:241
+#, fuzzy
+#| msgid "Security Alert"
+msgctxt "Banner page"
 msgid "Top Secret"
-msgstr ""
+msgstr "Alarma Ewlekariyê"
 
 #. i18n: Filter for the Yes-button text in standard message dialogs,
 #. after the message caption/text have been translated.
@@ -6609,6 +6634,10 @@ msgstr "Peyamê Bigire"
 #: kdeui/dialogs/kshortcuteditwidget.cpp:55
 msgid "Default:"
 msgstr "Standart:"
+
+#: kdeui/dialogs/kshortcuteditwidget.cpp:58
+msgid "None"
+msgstr "Ne yek jî"
 
 #: kdeui/dialogs/kshortcuteditwidget.cpp:61
 msgid "Custom:"
@@ -10637,7 +10666,7 @@ msgid "Available Tests: %1 (ignored: %2)"
 msgstr "Testên bikêrhatî: %1 (astengbûyî: %2)"
 
 #: khtml/test_regression_gui_window.cpp:563 khtml/ecma/kjs_debugwin.cpp:481
-#: khtml/ecma/debugger/debugwindow.cpp:178
+#: khtml/ecma/debugger/debugwindow.cpp:176
 msgid "Continue"
 msgstr "Bidomîne"
 
@@ -10755,7 +10784,7 @@ msgstr "&Bidomîne"
 msgid "St&op"
 msgstr "&Ra_westîne"
 
-#: khtml/ecma/kjs_debugwin.cpp:476 khtml/ecma/debugger/debugwindow.cpp:185
+#: khtml/ecma/kjs_debugwin.cpp:476 khtml/ecma/debugger/debugwindow.cpp:170
 msgid "&Break at Next Statement"
 msgstr "&Di daxuyaniya piştre navber heye"
 
@@ -10764,7 +10793,7 @@ msgctxt "Next breakpoint"
 msgid "Next"
 msgstr "Pêşve"
 
-#: khtml/ecma/kjs_debugwin.cpp:848 khtml/ecma/debugger/debugwindow.cpp:594
+#: khtml/ecma/kjs_debugwin.cpp:848 khtml/ecma/debugger/debugwindow.cpp:580
 #, kde-format
 msgid "Parse error at %1 line %2"
 msgstr "Di rêzika %2 ya di hundirê %1ê de ye çewtî"
@@ -10780,7 +10809,7 @@ msgstr ""
 "\n"
 "%1"
 
-#: khtml/ecma/kjs_debugwin.cpp:870 khtml/ecma/debugger/debugwindow.cpp:631
+#: khtml/ecma/kjs_debugwin.cpp:870 khtml/ecma/debugger/debugwindow.cpp:617
 #, kde-format
 msgid ""
 "An error occurred while attempting to run a script on this page.\n"
@@ -10899,16 +10928,21 @@ msgstr ""
 "formê?<qt>"
 
 #: khtml/ecma/debugger/debugdocument.cpp:210
-#: khtml/ecma/debugger/debugwindow.cpp:128
+#, fuzzy
+#| msgid ""
+#| "A KDE text-editor component could not be found;\n"
+#| "please check your KDE installation."
 msgid ""
-"A KDE text-editor component could not be found;\n"
+"Unable to find the Kate editor component;\n"
 "please check your KDE installation."
 msgstr ""
 "Yekîneyeke serastkirina nivîsan ya KDE nehat dîtin;\n"
 "ji kerema xwe re sazkirina KDE'yê kontrol bike."
 
 #: khtml/ecma/debugger/debugdocument.cpp:327
-msgid "Breakpoints"
+#, fuzzy
+#| msgid "Breakpoints"
+msgid "Breakpoint"
 msgstr "Xalên qutkirinê"
 
 #: khtml/ecma/debugger/scriptsdock.cpp:39
@@ -10923,36 +10957,46 @@ msgstr "Guherbarên Herêmî"
 msgid "Reference"
 msgstr "Referans"
 
-#: khtml/ecma/debugger/debugwindow.cpp:180
-#: khtml/ecma/debugger/debugwindow.cpp:181
-msgid "Continue script execution"
-msgstr "Xebitandina skrîptê bidomîme"
+#: khtml/ecma/debugger/debugwindow.cpp:171
+#, fuzzy
+#| msgid "&Break at Next Statement"
+msgid "Break at Next"
+msgstr "&Di daxuyaniya piştre navber heye"
 
-#: khtml/ecma/debugger/debugwindow.cpp:192
-#: khtml/ecma/debugger/debugwindow.cpp:194
-#: khtml/ecma/debugger/debugwindow.cpp:195
+#: khtml/ecma/debugger/debugwindow.cpp:183
+msgid "Step Over"
+msgstr "Gava Ser"
+
+#: khtml/ecma/debugger/debugwindow.cpp:190
 msgid "Step Into"
 msgstr "Gava Hundir"
 
-#: khtml/ecma/debugger/debugwindow.cpp:199
-#: khtml/ecma/debugger/debugwindow.cpp:201
-#: khtml/ecma/debugger/debugwindow.cpp:202
+#: khtml/ecma/debugger/debugwindow.cpp:197
 msgid "Step Out"
 msgstr "Gava Der"
 
 #: khtml/ecma/debugger/debugwindow.cpp:206
-#: khtml/ecma/debugger/debugwindow.cpp:208
-#: khtml/ecma/debugger/debugwindow.cpp:209
-msgid "Step Over"
-msgstr "Gava Ser"
+msgid "&Debug"
+msgstr ""
 
-#: khtml/ecma/debugger/debugwindow.cpp:249
+#: khtml/ecma/debugger/debugwindow.cpp:235
 msgid "Close source"
 msgstr "Çavkaniyê bigire"
 
-#: khtml/ecma/debugger/debugwindow.cpp:255
+#: khtml/ecma/debugger/debugwindow.cpp:241
 msgid "Ready"
 msgstr "Amade"
+
+#: khtml/ecma/debugger/debugwindow.cpp:796
+msgid ""
+"Don't know where to evaluate the expression. Please pause a script or open a "
+"source file."
+msgstr ""
+
+#: khtml/ecma/debugger/debugwindow.cpp:832
+#, kde-format
+msgid "Evaluation threw an exception %1"
+msgstr ""
 
 #: khtml/ecma/debugger/consoledock.cpp:231
 msgid "Console"
@@ -11691,7 +11735,7 @@ msgstr[1] ""
 msgid "Search Plugins"
 msgstr "Di Stûnan De Lê Bigere"
 
-#: kutils/kpluginselector.cpp:723
+#: kutils/kpluginselector.cpp:728
 #, fuzzy, kde-format
 #| msgid "Name:"
 msgid ""
@@ -11699,7 +11743,7 @@ msgid ""
 "%1"
 msgstr "Nav:"
 
-#: kutils/kpluginselector.cpp:726
+#: kutils/kpluginselector.cpp:731
 #, fuzzy, kde-format
 #| msgid "Comment:"
 msgid ""
@@ -11709,7 +11753,7 @@ msgid ""
 "%1"
 msgstr "Şîrove:"
 
-#: kutils/kpluginselector.cpp:730
+#: kutils/kpluginselector.cpp:735
 #, fuzzy, kde-format
 #| msgid "Author:"
 msgid ""
@@ -11719,7 +11763,7 @@ msgid ""
 "%1"
 msgstr "Nivîskarê Wê:"
 
-#: kutils/kpluginselector.cpp:734
+#: kutils/kpluginselector.cpp:739
 #, kde-format
 msgid ""
 "\n"
@@ -11728,7 +11772,7 @@ msgid ""
 "%1"
 msgstr ""
 
-#: kutils/kpluginselector.cpp:738
+#: kutils/kpluginselector.cpp:743
 #, fuzzy, kde-format
 #| msgid "Website:"
 msgid ""
@@ -11738,7 +11782,7 @@ msgid ""
 "%1"
 msgstr "Malper:"
 
-#: kutils/kpluginselector.cpp:742
+#: kutils/kpluginselector.cpp:747
 #, fuzzy, kde-format
 #| msgid "Version: %1"
 msgid ""
@@ -11748,7 +11792,7 @@ msgid ""
 "%1"
 msgstr "Guherto: %1"
 
-#: kutils/kpluginselector.cpp:746
+#: kutils/kpluginselector.cpp:751
 #, fuzzy, kde-format
 #| msgid "License: %1"
 msgid ""
@@ -11758,7 +11802,7 @@ msgid ""
 "%1"
 msgstr "Lîsans: %1"
 
-#: kutils/kpluginselector.cpp:749
+#: kutils/kpluginselector.cpp:754
 #, fuzzy, kde-format
 #| msgid "About %1 plugin"
 msgid "About Plugin \"%1\""
@@ -12762,6 +12806,9 @@ msgstr ""
 #, kde-format
 msgid "No such function \"%1\""
 msgstr "Foksiyona bi navê \"%1\" tune"
+
+#~ msgid "Continue script execution"
+#~ msgstr "Xebitandina skrîptê bidomîme"
 
 #, fuzzy
 #~| msgid "None"
