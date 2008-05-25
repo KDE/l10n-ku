@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok-neu\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-05-23 10:59+0200\n"
+"POT-Creation-Date: 2008-05-25 11:11+0200\n"
 "PO-Revision-Date: 2007-12-16 23:28+0100\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
@@ -726,18 +726,18 @@ msgstr ""
 
 #: context/applets/currenttrack/CurrentTrack.cpp:84
 #: dialogs/scriptmanager.cpp:139 dialogs/scriptmanager.cpp:791
-#: playlist/PlaylistModel.cpp:417 widgets/TrackTooltip.cpp:103
+#: playlist/PlaylistModel.cpp:417 widgets/TrackTooltip.cpp:105
 #: SmartPlaylistEditor.cpp:189
 msgid "Score"
 msgstr "Skor"
 
 #: context/applets/currenttrack/CurrentTrack.cpp:87
-#: playlist/PlaylistModel.cpp:419 widgets/TrackTooltip.cpp:128
+#: playlist/PlaylistModel.cpp:419 widgets/TrackTooltip.cpp:130
 msgid "Play Count"
 msgstr ""
 
 #: context/applets/currenttrack/CurrentTrack.cpp:90
-#: widgets/TrackTooltip.cpp:133
+#: widgets/TrackTooltip.cpp:135
 #, fuzzy
 msgid "Last Played"
 msgstr "yê dawî hatine lêdan"
@@ -797,7 +797,7 @@ msgstr ""
 msgid "Width"
 msgstr ""
 
-#: context/containments/ColumnApplet.cpp:96
+#: context/containments/ColumnContainment.cpp:96
 msgid "Add applet"
 msgstr ""
 
@@ -1723,7 +1723,7 @@ msgstr ""
 #: collectionbrowser/CollectionWidget.cpp:69 rc.cpp:1116
 #: playlist/PlaylistHeader.cpp:45 playlist/PlaylistModel.cpp:406
 #: servicebrowser/magnatunestore/MagnatuneStore.cpp:174
-#: servicebrowser/jamendo/JamendoService.cpp:139 SmartPlaylistEditor.cpp:187
+#: servicebrowser/jamendo/JamendoService.cpp:133 SmartPlaylistEditor.cpp:187
 #: SmartPlaylistEditor.cpp:201
 msgid "Album"
 msgstr "Album"
@@ -1735,7 +1735,7 @@ msgstr "Album"
 #: collectionbrowser/CollectionWidget.cpp:57 rc.cpp:1113
 #: playlist/PlaylistHeader.cpp:45 playlist/PlaylistModel.cpp:402
 #: servicebrowser/magnatunestore/MagnatuneStore.cpp:166
-#: servicebrowser/jamendo/JamendoService.cpp:131 SmartPlaylistEditor.cpp:187
+#: servicebrowser/jamendo/JamendoService.cpp:125 SmartPlaylistEditor.cpp:187
 #: SmartPlaylistEditor.cpp:201
 msgid "Artist"
 msgstr "Hunermend"
@@ -1763,7 +1763,7 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./dialogs/trackpickerdialogbase.ui line 124
-#: dialogs/EditFilterDialog.cpp:133 rc.cpp:1119
+#: dialogs/EditFilterDialog.cpp:133 rc.cpp:1119 widgets/TrackTooltip.cpp:138
 msgid "Track"
 msgstr ""
 
@@ -2123,38 +2123,38 @@ msgid ""
 "modified, e.g. when a new file was added."
 msgstr ""
 
-#: Osd.cpp:126
+#: Osd.cpp:128
 msgid "Rating changed"
 msgstr ""
 
-#: Osd.cpp:140
+#: Osd.cpp:142
 #, kde-format
 msgid "Volume: %1%"
 msgstr ""
 
-#: Osd.cpp:140
+#: Osd.cpp:142
 msgctxt "State, as in, The playback is silent"
 msgid "Mute"
 msgstr ""
 
-#: Osd.cpp:198 Osd.cpp:199
+#: Osd.cpp:200 Osd.cpp:201
 msgid "Volume: 100%"
 msgstr ""
 
-#: Osd.cpp:198 Osd.cpp:199
+#: Osd.cpp:200 Osd.cpp:201
 msgctxt "State, as in, the playback is silent"
 msgid "Mute"
 msgstr ""
 
-#: Osd.cpp:493
+#: Osd.cpp:495
 msgid "OSD Preview - drag to reposition"
 msgstr ""
 
-#: Osd.cpp:601
+#: Osd.cpp:607
 msgid "No track playing"
 msgstr ""
 
-#: Osd.cpp:621
+#: Osd.cpp:627
 msgid "No information available for this track"
 msgstr ""
 
@@ -2994,7 +2994,7 @@ msgstr ""
 #. i18n: tag string
 #. i18n: file ./servicebrowser/magnatunestore/MagnatuneConfigWidget.ui line 96
 #: mediadevice/ifp/ifpmediadevice.cpp:654 rc.cpp:2232
-#: servicebrowser/jamendo/JamendoService.cpp:107
+#: servicebrowser/jamendo/JamendoService.cpp:104
 msgid "Download"
 msgstr ""
 
@@ -3949,13 +3949,13 @@ msgid "tracknumber"
 msgstr "Hejmara Stranê"
 
 #: collectionbrowser/CollectionWidget.cpp:43
-#: servicebrowser/ServiceBase.cpp:147
+#: servicebrowser/ServiceBase.cpp:148
 msgid "Group By"
 msgstr ""
 
 #: collectionbrowser/CollectionWidget.cpp:61
 #: servicebrowser/magnatunestore/MagnatuneStore.cpp:170
-#: servicebrowser/jamendo/JamendoService.cpp:135
+#: servicebrowser/jamendo/JamendoService.cpp:129
 msgid "Artist / Album"
 msgstr "Hunermend / Album"
 
@@ -3966,13 +3966,13 @@ msgstr "Hunermend / Album"
 
 #: collectionbrowser/CollectionWidget.cpp:73
 #: servicebrowser/magnatunestore/MagnatuneStore.cpp:178
-#: servicebrowser/jamendo/JamendoService.cpp:143
+#: servicebrowser/jamendo/JamendoService.cpp:137
 msgid "Genre / Artist"
 msgstr ""
 
 #: collectionbrowser/CollectionWidget.cpp:77
 #: servicebrowser/magnatunestore/MagnatuneStore.cpp:182
-#: servicebrowser/jamendo/JamendoService.cpp:147
+#: servicebrowser/jamendo/JamendoService.cpp:141
 msgid "Genre / Artist / Album"
 msgstr ""
 
@@ -7198,9 +7198,7 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./servicebrowser/magnatunestore/MagnatuneDownloadDialogBase.ui line 83
-#: rc.cpp:2091 servicebrowser/magnatunestore/MagnatuneMeta.cpp:228
-#: servicebrowser/magnatunestore/MagnatuneMeta.cpp:426
-#: servicebrowser/jamendo/JamendoMeta.cpp:129
+#: rc.cpp:2091 servicebrowser/jamendo/JamendoMeta.cpp:134
 #: playlistbrowser/PodcastCategory.cpp:330
 msgid "&Download"
 msgstr ""
@@ -7904,7 +7902,7 @@ msgid "Track Number - Title"
 msgstr "Hejmara Stranê"
 
 #: playlist/PlaylistHeader.cpp:45 playlist/PlaylistModel.cpp:414
-#: widgets/TrackTooltip.cpp:142 widgets/TrackTooltip.cpp:149
+#: widgets/TrackTooltip.cpp:144 widgets/TrackTooltip.cpp:151
 #: SmartPlaylistEditor.cpp:187
 msgid "Length"
 msgstr ""
@@ -8011,7 +8009,7 @@ msgstr ""
 msgid "Sample Rate"
 msgstr "Rêjeya Mînakkirinê"
 
-#: playlist/PlaylistModel.cpp:418 widgets/TrackTooltip.cpp:121
+#: playlist/PlaylistModel.cpp:418 widgets/TrackTooltip.cpp:123
 #: SmartPlaylistEditor.cpp:189
 msgid "Rating"
 msgstr ""
@@ -8087,15 +8085,20 @@ msgstr ""
 
 #: servicebrowser/magnatunestore/MagnatuneMeta.cpp:226
 #: servicebrowser/magnatunestore/MagnatuneMeta.cpp:424
-msgid "&Buy"
+msgid "&Purchase Album"
+msgstr ""
+
+#: servicebrowser/magnatunestore/MagnatuneMeta.cpp:228
+#: servicebrowser/magnatunestore/MagnatuneMeta.cpp:426
+msgid "&Download Album"
 msgstr ""
 
 #: servicebrowser/magnatunestore/MagnatuneMeta.cpp:246
-msgid "Magnatune.com: &Buy"
+msgid "Magnatune.com: &Purchase Album"
 msgstr ""
 
 #: servicebrowser/magnatunestore/MagnatuneMeta.cpp:248
-msgid "Magnatune.com: &Download"
+msgid "Magnatune.com: &Download Album"
 msgstr ""
 
 #: servicebrowser/magnatunestore/MagnatuneAlbumDownloader.cpp:70
@@ -8210,11 +8213,11 @@ msgstr ""
 msgid "check the credit card information"
 msgstr ""
 
-#: servicebrowser/ServiceBase.cpp:303
+#: servicebrowser/ServiceBase.cpp:327
 msgid "This service does not accept any messages"
 msgstr ""
 
-#: servicebrowser/ServiceBase.cpp:308
+#: servicebrowser/ServiceBase.cpp:333
 msgid "ERROR: unknown message"
 msgstr ""
 
@@ -8228,7 +8231,7 @@ msgid "A large listing of podcasts"
 msgstr ""
 
 #: servicebrowser/opmldirectory/OpmlDirectoryService.cpp:97
-#: servicebrowser/jamendo/JamendoService.cpp:100
+#: servicebrowser/jamendo/JamendoService.cpp:98
 msgctxt "Fetch new information from the website"
 msgid "Update"
 msgstr ""
@@ -8432,31 +8435,31 @@ msgstr ""
 msgid "Go to artist in %1 service"
 msgstr ""
 
-#: servicebrowser/ServiceInfoProxy.cpp:151
+#: servicebrowser/ServiceInfoProxy.cpp:160
 msgid "Home"
 msgstr ""
 
-#: servicebrowser/ServicePluginManager.cpp:185
-#: servicebrowser/ServicePluginManager.cpp:197
+#: servicebrowser/ServicePluginManager.cpp:195
 #: servicebrowser/ServicePluginManager.cpp:209
+#: servicebrowser/ServicePluginManager.cpp:222
 #, kde-format
 msgid "No service named %1 is curretly loaded"
 msgstr ""
 
-#: servicebrowser/ampache/AmpacheService.cpp:104
+#: servicebrowser/ampache/AmpacheService.cpp:101
 msgid "Use Amarok as a seamless frontend to your Ampache server!"
 msgstr ""
 
-#: servicebrowser/ampache/AmpacheService.cpp:165
+#: servicebrowser/ampache/AmpacheService.cpp:157
 msgid "Enter the server name and a password"
 msgstr ""
 
-#: servicebrowser/ampache/AmpacheService.cpp:253
+#: servicebrowser/ampache/AmpacheService.cpp:233
 #: servicebrowser/mp3tunes/Mp3tunesService.cpp:178
 msgid "Authentication Error!"
 msgstr ""
 
-#: servicebrowser/ampache/AmpacheServiceCollection.cpp:59
+#: servicebrowser/ampache/AmpacheServiceCollection.cpp:61
 #, kde-format
 msgid "Ampache Server %1"
 msgstr ""
@@ -8473,32 +8476,32 @@ msgstr ""
 msgid "Authenticating"
 msgstr ""
 
-#: servicebrowser/jamendo/JamendoMeta.cpp:144
+#: servicebrowser/jamendo/JamendoMeta.cpp:151
 msgid "Jamendo.com: &Download"
 msgstr ""
 
-#: servicebrowser/jamendo/JamendoMeta.cpp:342
+#: servicebrowser/jamendo/JamendoMeta.cpp:361
 msgid "&download"
 msgstr ""
 
-#: servicebrowser/jamendo/JamendoService.cpp:75
+#: servicebrowser/jamendo/JamendoService.cpp:74
 msgid "A site where artists can showcase their creations to the world"
 msgstr ""
 
-#: servicebrowser/jamendo/JamendoService.cpp:177
+#: servicebrowser/jamendo/JamendoService.cpp:165
 msgid "Downloading Jamendo.com Database"
 msgstr ""
 
-#: servicebrowser/jamendo/JamendoService.cpp:213
+#: servicebrowser/jamendo/JamendoService.cpp:193
 msgid "Updating the local Jamendo database."
 msgstr ""
 
-#: servicebrowser/jamendo/JamendoInfoParser.cpp:48
-#: servicebrowser/jamendo/JamendoInfoParser.cpp:78
+#: servicebrowser/jamendo/JamendoInfoParser.cpp:49
+#: servicebrowser/jamendo/JamendoInfoParser.cpp:80
 msgid "No description available..."
 msgstr ""
 
-#: servicebrowser/jamendo/JamendoXmlParser.cpp:63
+#: servicebrowser/jamendo/JamendoXmlParser.cpp:61
 #, kde-format
 msgid ""
 "Jamendo.com database update complete. Added %1 tracks on %2 albums from %3 "
@@ -8528,6 +8531,49 @@ msgstr "&Bar bike"
 
 #: playlistbrowser/PodcastCategory.cpp:324
 msgid "&Refresh"
+msgstr ""
+
+#: statusbar/StatusBar.cpp:71
+msgid "Amarok is paused"
+msgstr ""
+
+#: statusbar/StatusBar.cpp:101
+msgid ""
+"<p>One of Mike Oldfield's best pieces of work, Amarok, inspired the name "
+"behind the audio-player you are currently using. Thanks for choosing Amarok!"
+"</p><p align=right>Mark Kretschmann<br/>Max Howell<br/>Chris Muehlhaeuser<br/"
+">The many other people who have helped make Amarok what it is</p>"
+msgstr ""
+
+#: statusbar/StatusBar.cpp:109
+#, kde-format
+msgctxt "track by artist on album"
+msgid "<b>%1</b> by <b>%2</b> on <b>%3</b>"
+msgstr ""
+
+#: statusbar/StatusBar.cpp:112
+#, kde-format
+msgctxt "track by artist"
+msgid "<b>%1</b> by <b>%2</b>"
+msgstr ""
+
+#: statusbar/StatusBar.cpp:116
+#, kde-format
+msgctxt "track on album"
+msgid "<b>%1</b> on <b>%2</b>"
+msgstr ""
+
+#: statusbar/StatusBar.cpp:121
+msgid "Unknown track"
+msgstr ""
+
+#: statusbar/StatusBar.cpp:133
+msgid "from"
+msgstr ""
+
+#: statusbar/StatusBar.cpp:148
+#, kde-format
+msgid "Playing: %1"
 msgstr ""
 
 #: statusbar/StatusBarMessageLabel.cpp:56
@@ -8628,49 +8674,6 @@ msgstr ""
 
 #: statusbar/progressBar.cpp:118
 msgid "Aborting..."
-msgstr ""
-
-#: statusbar/ContextStatusBar.cpp:73
-msgid "Amarok is paused"
-msgstr ""
-
-#: statusbar/ContextStatusBar.cpp:103
-msgid ""
-"<p>One of Mike Oldfield's best pieces of work, Amarok, inspired the name "
-"behind the audio-player you are currently using. Thanks for choosing Amarok!"
-"</p><p align=right>Mark Kretschmann<br/>Max Howell<br/>Chris Muehlhaeuser<br/"
-">The many other people who have helped make Amarok what it is</p>"
-msgstr ""
-
-#: statusbar/ContextStatusBar.cpp:111
-#, kde-format
-msgctxt "track by artist on album"
-msgid "<b>%1</b> by <b>%2</b> on <b>%3</b>"
-msgstr ""
-
-#: statusbar/ContextStatusBar.cpp:114
-#, kde-format
-msgctxt "track by artist"
-msgid "<b>%1</b> by <b>%2</b>"
-msgstr ""
-
-#: statusbar/ContextStatusBar.cpp:118
-#, kde-format
-msgctxt "track on album"
-msgid "<b>%1</b> on <b>%2</b>"
-msgstr ""
-
-#: statusbar/ContextStatusBar.cpp:123
-msgid "Unknown track"
-msgstr ""
-
-#: statusbar/ContextStatusBar.cpp:135
-msgid "from"
-msgstr ""
-
-#: statusbar/ContextStatusBar.cpp:150
-#, kde-format
-msgid "Playing: %1"
 msgstr ""
 
 #: collectionscanner/main.cpp:33
@@ -8783,20 +8786,15 @@ msgstr ""
 msgid "Click for more analyzers"
 msgstr ""
 
-#: widgets/TrackTooltip.cpp:136
-#, fuzzy
-msgid "Track: "
-msgstr "Stran  #"
-
-#: widgets/TrackTooltip.cpp:166 covermanager/CoverManager.cpp:789
+#: widgets/TrackTooltip.cpp:168 covermanager/CoverManager.cpp:789
 msgid " by "
 msgstr ""
 
-#: widgets/TrackTooltip.cpp:168
+#: widgets/TrackTooltip.cpp:170
 msgid " on "
 msgstr ""
 
-#: widgets/TrackTooltip.cpp:196
+#: widgets/TrackTooltip.cpp:198
 msgid "Amarok - rediscover your music"
 msgstr "Amarok - muzîkê ji nû ve keşif bike"
 
@@ -9264,6 +9262,10 @@ msgstr ""
 #: konquisidebar/universalamarok.cpp:317
 msgid "Build Collection..."
 msgstr ""
+
+#, fuzzy
+#~ msgid "Track: "
+#~ msgstr "Stran  #"
 
 #, fuzzy
 #~ msgctxt "clear playlist"
