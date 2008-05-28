@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok-neu\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-05-26 16:44+0200\n"
+"POT-Creation-Date: 2008-05-28 14:19+0200\n"
 "PO-Revision-Date: 2007-12-16 23:28+0100\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
@@ -149,7 +149,7 @@ msgstr "Hemû Koleksiyon"
 #: mediadevice/generic/genericmediadeviceconfigdialog.ui.h:175
 #: mediadevice/generic/genericmediadevice.cpp:524
 #: collectionbrowser/CollectionTreeItem.cpp:136
-#: playlist/PlaylistGraphicsItem.cpp:330
+#: playlist/PlaylistGraphicsItem.cpp:328
 #: collectionscanner/collectionscanner.cpp:457
 #: covermanager/CoverManager.cpp:901
 msgid "Various Artists"
@@ -725,7 +725,7 @@ msgid "Album:"
 msgstr ""
 
 #: context/applets/currenttrack/CurrentTrack.cpp:84
-#: dialogs/scriptmanager.cpp:139 dialogs/scriptmanager.cpp:791
+#: dialogs/scriptmanager.cpp:139 dialogs/scriptmanager.cpp:802
 #: playlist/PlaylistModel.cpp:417 widgets/TrackTooltip.cpp:105
 #: SmartPlaylistEditor.cpp:189
 msgid "Score"
@@ -797,7 +797,7 @@ msgstr ""
 msgid "Width"
 msgstr ""
 
-#: context/containments/ColumnContainment.cpp:96
+#: context/containments/ColumnContainment.cpp:97
 msgid "Add applet"
 msgstr ""
 
@@ -2934,7 +2934,7 @@ msgid ""
 "\n"
 msgstr ""
 
-#: CrashHandler.cpp:236
+#: CrashHandler.cpp:238
 msgid ""
 "\n"
 "Amarok has crashed! We are terribly sorry about this :(\n"
@@ -2943,11 +2943,11 @@ msgid ""
 "the problem. Please check your distribution's software repository.\n"
 msgstr ""
 
-#: CrashHandler.cpp:295
+#: CrashHandler.cpp:297
 msgid "Send Email"
 msgstr ""
 
-#: CrashHandler.cpp:303
+#: CrashHandler.cpp:305
 msgid "Crash Handler"
 msgstr ""
 
@@ -7199,6 +7199,7 @@ msgstr ""
 #. i18n: tag string
 #. i18n: file ./servicebrowser/magnatunestore/MagnatuneDownloadDialogBase.ui line 83
 #: rc.cpp:2091 servicebrowser/jamendo/JamendoMeta.cpp:134
+#: servicebrowser/jamendo/JamendoMeta.cpp:361
 #: playlistbrowser/PodcastCategory.cpp:330
 msgid "&Download"
 msgstr ""
@@ -8035,16 +8036,16 @@ msgid_plural "%1 tracks were already in the playlist, so they were not added."
 msgstr[0] ""
 msgstr[1] ""
 
-#: filebrowser/FileBrowser.cpp:150
+#: filebrowser/FileBrowser.cpp:128
 msgid "Bookmarks"
 msgstr ""
 
-#: filebrowser/FileBrowser.cpp:172
+#: filebrowser/FileBrowser.cpp:148
 #, fuzzy
 msgid "Current Document Folder"
 msgstr "Peldanka Jêrîn Ava Bike"
 
-#: filebrowser/FileBrowser.cpp:201
+#: filebrowser/FileBrowser.cpp:172
 msgid ""
 "<p>Here you can enter a path for a folder to display.</p><p>To go to a "
 "folder previously entered, press the arrow on the right and choose one.</"
@@ -8052,25 +8053,25 @@ msgid ""
 "should behave.</p>"
 msgstr ""
 
-#: filebrowser/FileBrowser.cpp:205
+#: filebrowser/FileBrowser.cpp:176
 msgid ""
 "<p>Here you can enter a name filter to limit which files are displayed.</"
 "p><p>To clear the filter, toggle off the filter button to the left.</p><p>To "
 "reapply the last filter used, toggle on the filter button.</p>"
 msgstr ""
 
-#: filebrowser/FileBrowser.cpp:208
+#: filebrowser/FileBrowser.cpp:179
 msgid ""
 "<p>This button clears the name filter when toggled off, or reapplies the "
 "last filter used when toggled on.</p>"
 msgstr ""
 
-#: filebrowser/FileBrowser.cpp:349
+#: filebrowser/FileBrowser.cpp:313
 #, kde-format
 msgid "Apply last filter (\"%1\")"
 msgstr ""
 
-#: filebrowser/FileBrowser.cpp:355
+#: filebrowser/FileBrowser.cpp:319
 msgid "Clear filter"
 msgstr "Parzûnê Paqij Bike"
 
@@ -8480,10 +8481,6 @@ msgstr ""
 msgid "Jamendo.com: &Download"
 msgstr ""
 
-#: servicebrowser/jamendo/JamendoMeta.cpp:361
-msgid "&download"
-msgstr ""
-
 #: servicebrowser/jamendo/JamendoService.cpp:74
 msgid "A site where artists can showcase their creations to the world"
 msgstr ""
@@ -8593,15 +8590,15 @@ msgstr ""
 msgid "Show progress detail"
 msgstr ""
 
-#: statusbar/StatusBarBase.cpp:292
+#: statusbar/StatusBarBase.cpp:290
 msgid "..."
 msgstr "..."
 
-#: statusbar/StatusBarBase.cpp:294
+#: statusbar/StatusBarBase.cpp:292
 msgid "Multiple background-tasks running"
 msgstr ""
 
-#: statusbar/StatusBarBase.cpp:502
+#: statusbar/StatusBarBase.cpp:500
 msgid "Aborting all jobs..."
 msgstr ""
 
@@ -8750,35 +8747,35 @@ msgstr ""
 msgid "Click to edit playlist filter"
 msgstr ""
 
-#: widgets/SliderWidget.cpp:213
+#: widgets/SliderWidget.cpp:211
 msgid "Volume"
 msgstr ""
 
-#: widgets/SliderWidget.cpp:214
+#: widgets/SliderWidget.cpp:212
 msgid "100%"
 msgstr ""
 
-#: widgets/SliderWidget.cpp:215
+#: widgets/SliderWidget.cpp:213
 msgid "80%"
 msgstr ""
 
-#: widgets/SliderWidget.cpp:216
+#: widgets/SliderWidget.cpp:214
 msgid "60%"
 msgstr ""
 
-#: widgets/SliderWidget.cpp:217
+#: widgets/SliderWidget.cpp:215
 msgid "40%"
 msgstr ""
 
-#: widgets/SliderWidget.cpp:218
+#: widgets/SliderWidget.cpp:216
 msgid "20%"
 msgstr "20%"
 
-#: widgets/SliderWidget.cpp:219
+#: widgets/SliderWidget.cpp:217
 msgid "0%"
 msgstr "0%"
 
-#: widgets/SliderWidget.cpp:224
+#: widgets/SliderWidget.cpp:222
 msgid "&Equalizer"
 msgstr ""
 
