@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-06-03 10:35+0200\n"
+"POT-Creation-Date: 2008-06-06 16:36+0200\n"
 "PO-Revision-Date: 2008-01-26 21:22+0100\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <ku@li.org>\n"
@@ -1991,9 +1991,7 @@ msgstr "Profîlê Biguherîne"
 
 #. i18n: tag text
 #. i18n: file ../desktop/partui.rc line 8
-#. i18n: tag text
-#. i18n: file ../desktop/konsoleui.rc line 18
-#: rc.cpp:827 rc.cpp:839
+#: rc.cpp:827
 msgid "S&crollback"
 msgstr ""
 
@@ -2002,7 +2000,7 @@ msgstr ""
 #: rc.cpp:833
 #, fuzzy
 #| msgid "File"
-msgid "&File"
+msgid "File"
 msgstr "Pel"
 
 #. i18n: tag text
@@ -2010,15 +2008,21 @@ msgstr "Pel"
 #: rc.cpp:836
 #, fuzzy
 #| msgid "Edit"
-msgid "&Edit"
+msgid "Edit"
 msgstr "Sererastkirin"
+
+#. i18n: tag text
+#. i18n: file ../desktop/konsoleui.rc line 18
+#: rc.cpp:839
+msgid "Scrollback"
+msgstr ""
 
 #. i18n: tag text
 #. i18n: file ../desktop/konsoleui.rc line 21
 #: rc.cpp:842
 #, fuzzy
 #| msgid "View"
-msgid "&View"
+msgid "View"
 msgstr "Dîtin"
 
 #. i18n: tag text
@@ -2026,7 +2030,7 @@ msgstr "Dîtin"
 #: rc.cpp:845
 #, fuzzy
 #| msgid "Next View"
-msgid "Split &View"
+msgid "Split View"
 msgstr "Dîmena Dû Ve"
 
 #. i18n: tag text
@@ -2034,7 +2038,7 @@ msgstr "Dîmena Dû Ve"
 #: rc.cpp:848
 #, fuzzy
 #| msgid "Settings"
-msgid "&Settings"
+msgid "Settings"
 msgstr "Mîheng"
 
 #. i18n: tag text
@@ -2042,7 +2046,7 @@ msgstr "Mîheng"
 #: rc.cpp:851
 #, fuzzy
 #| msgid "Help"
-msgid "&Help"
+msgid "Help"
 msgstr "Alîkarî"
 
 #: schemas.cpp:1
