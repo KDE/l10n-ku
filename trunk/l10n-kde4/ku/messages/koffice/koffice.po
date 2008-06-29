@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-06-26 14:19+0200\n"
+"POT-Creation-Date: 2008-06-29 03:29+0200\n"
 "PO-Revision-Date: 2007-12-17 01:31+0100\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
@@ -924,6 +924,10 @@ msgstr ""
 msgid "Unknown"
 msgstr ""
 
+#: flake/KoTool.cpp:174
+msgid "Tool Option"
+msgstr ""
+
 #: flake/tools/KoCreatePathToolFactory.cpp:31
 #: flake/tools/KoCreatePathToolFactory.cpp:33
 msgid "Create Path"
@@ -1002,6 +1006,14 @@ msgstr ""
 msgid "Pan"
 msgstr ""
 
+#: flake/tools/KoGuidesToolFactory.cpp:25
+msgid "Edit Guidelines"
+msgstr ""
+
+#: flake/tools/KoGuidesToolFactory.cpp:27
+msgid "Edit guidelines"
+msgstr ""
+
 #: flake/tools/KoCreateShapesToolFactory.cpp:31
 msgid "Create Shapes"
 msgstr ""
@@ -1018,14 +1030,18 @@ msgstr ""
 msgid "Path editing tool"
 msgstr ""
 
-#: flake/KoToolManager.cpp:242
+#: flake/KoToolManager.cpp:248
 #, kde-format
 msgid "Activate %1"
 msgstr ""
 
-#: flake/KoToolManager.cpp:399
+#: flake/KoToolManager.cpp:406
 #, kde-format
 msgid "Active tool: %1"
+msgstr ""
+
+#: flake/KoToolManager.cpp:407 guiutils/KoToolDocker.cpp:34
+msgid "Tool Options"
 msgstr ""
 
 #: flake/KoShapeController.cpp:58 kotext/InsertVariableAction.cpp:48
@@ -2980,10 +2996,6 @@ msgstr ""
 msgid "Object"
 msgstr ""
 
-#: guiutils/KoToolDocker.cpp:34
-msgid "Tool Options"
-msgstr ""
-
 #: guiutils/KoColorSetWidget.cpp:166
 msgid "Recent:"
 msgstr ""
@@ -3082,15 +3094,15 @@ msgstr ""
 msgid "No picture available."
 msgstr ""
 
-#: guiutils/KoRuler.cpp:1119
+#: guiutils/KoRuler.cpp:1127
 msgid "First line indent"
 msgstr ""
 
-#: guiutils/KoRuler.cpp:1120
+#: guiutils/KoRuler.cpp:1128
 msgid "Left indent"
 msgstr ""
 
-#: guiutils/KoRuler.cpp:1121
+#: guiutils/KoRuler.cpp:1129
 msgid "Right indent"
 msgstr ""
 
@@ -3486,59 +3498,59 @@ msgstr ""
 msgid "Change master page"
 msgstr ""
 
-#: kopageapp/KoPAView.cpp:191
+#: kopageapp/KoPAView.cpp:192
 msgid "D&elete"
 msgstr ""
 
-#: kopageapp/KoPAView.cpp:197
+#: kopageapp/KoPAView.cpp:198
 msgid "Show &Grid"
 msgstr ""
 
-#: kopageapp/KoPAView.cpp:202
+#: kopageapp/KoPAView.cpp:203
 msgid "Snap to Grid"
 msgstr ""
 
-#: kopageapp/KoPAView.cpp:207
+#: kopageapp/KoPAView.cpp:208
 msgid "Show Master Pages"
 msgstr ""
 
-#: kopageapp/KoPAView.cpp:211
+#: kopageapp/KoPAView.cpp:212
 msgid "Show Rulers"
 msgstr ""
 
-#: kopageapp/KoPAView.cpp:213
+#: kopageapp/KoPAView.cpp:214
 msgid "Show/hide the view's rulers"
 msgstr ""
 
-#: kopageapp/KoPAView.cpp:217
+#: kopageapp/KoPAView.cpp:218
 msgid "Insert Page"
 msgstr ""
 
-#: kopageapp/KoPAView.cpp:219 kopageapp/KoPAView.cpp:220
+#: kopageapp/KoPAView.cpp:220 kopageapp/KoPAView.cpp:221
 msgid "Insert a new page after the current one"
 msgstr ""
 
-#: kopageapp/KoPAView.cpp:223
+#: kopageapp/KoPAView.cpp:224
 msgid "Copy Page"
 msgstr ""
 
-#: kopageapp/KoPAView.cpp:225 kopageapp/KoPAView.cpp:226
+#: kopageapp/KoPAView.cpp:226 kopageapp/KoPAView.cpp:227
 msgid "Copy the current page"
 msgstr ""
 
-#: kopageapp/KoPAView.cpp:229
+#: kopageapp/KoPAView.cpp:230
 msgid "Delete Page"
 msgstr ""
 
-#: kopageapp/KoPAView.cpp:232 kopageapp/KoPAView.cpp:233
+#: kopageapp/KoPAView.cpp:233 kopageapp/KoPAView.cpp:234
 msgid "Delete a new page after the current one"
 msgstr ""
 
-#: kopageapp/KoPAView.cpp:236
+#: kopageapp/KoPAView.cpp:237
 msgid "Master Page..."
 msgstr ""
 
-#: kopageapp/KoPAView.cpp:245
+#: kopageapp/KoPAView.cpp:246
 msgid "Variable"
 msgstr ""
 

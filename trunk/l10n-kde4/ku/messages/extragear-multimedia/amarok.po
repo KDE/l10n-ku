@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok-neu\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-06-26 14:24+0200\n"
+"POT-Creation-Date: 2008-06-29 03:32+0200\n"
 "PO-Revision-Date: 2007-12-16 23:28+0100\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
@@ -136,12 +136,12 @@ msgstr "Li navnîşana weşanê girêdan tê sazkirin..."
 msgid "MusicBrainz returned invalid content."
 msgstr ""
 
-#: collection/ipodcollection/handler/ipodhandler.cpp:454
+#: collection/ipodcollection/handler/ipodhandler.cpp:482
 #: mediadevice/ipod/ipodmediadevice.cpp:1175
 msgid "Media Device: No mounted iPod found"
 msgstr ""
 
-#: collection/ipodcollection/handler/ipodhandler.cpp:462
+#: collection/ipodcollection/handler/ipodhandler.cpp:490
 #: mediadevice/ipod/ipodmediadevice.cpp:1183
 #, kde-format
 msgid ""
@@ -149,32 +149,38 @@ msgid ""
 "to initialize your iPod?"
 msgstr ""
 
-#: collection/ipodcollection/handler/ipodhandler.cpp:466
+#: collection/ipodcollection/handler/ipodhandler.cpp:494
 #: mediadevice/ipod/ipodmediadevice.cpp:1187
 msgid "Initialize iPod?"
 msgstr ""
 
-#: collection/ipodcollection/handler/ipodhandler.cpp:467
+#: collection/ipodcollection/handler/ipodhandler.cpp:495
 #: mediadevice/ipod/ipodmediadevice.cpp:1188
 msgid "&Initialize"
 msgstr ""
 
-#: collection/ipodcollection/handler/ipodhandler.cpp:478
+#: collection/ipodcollection/handler/ipodhandler.cpp:506
 #: mediadevice/ipod/ipodmediadevice.cpp:1199
 #, kde-format
 msgid "Media Device: Failed to initialize iPod mounted at %1"
 msgstr ""
 
-#: collection/ipodcollection/handler/ipodhandler.cpp:514
+#: collection/ipodcollection/handler/ipodhandler.cpp:542
 #: mediadevice/ipod/ipodmediadevice.cpp:1235
 #, kde-format
 msgid "Media device: Failed to create directory %1"
 msgstr ""
 
-#: collection/nepomukcollection/NepomukCollection.cpp:93
+#: collection/nepomukcollection/NepomukCollection.cpp:117
 #, fuzzy
 #| msgid "Collection"
-msgid "Nepomuk Collection"
+msgid "Nepomuk Collection (fast)"
+msgstr "Koleksiyon"
+
+#: collection/nepomukcollection/NepomukCollection.cpp:119
+#, fuzzy
+#| msgid "Collection"
+msgid "Nepomuk Collection (slow, redland?)"
 msgstr "Koleksiyon"
 
 #: collection/sqlcollection/SqlCollection.cpp:62
@@ -183,7 +189,7 @@ msgstr "Koleksiyon"
 msgid "Local Collection"
 msgstr "Hemû Koleksiyon"
 
-#: collection/sqlcollection/OrganizeCollectionDialog.cpp:141
+#: collection/sqlcollection/OrganizeCollectionDialog.cpp:140
 #: dialogs/Statistics.cpp:467 mediadevice/ipod/ipodmediadevice.cpp:1654
 #: mediadevice/ipod/ipodmediadevice.cpp:1664
 #: mediadevice/ipod/ipodmediadevice.cpp:2027
@@ -197,40 +203,40 @@ msgstr "Hemû Koleksiyon"
 msgid "Various Artists"
 msgstr "Hunermendên cur bi cur"
 
-#: collection/sqlcollection/OrganizeCollectionDialog.cpp:206
-#: collection/sqlcollection/OrganizeCollectionDialog.cpp:209
+#: collection/sqlcollection/OrganizeCollectionDialog.cpp:205
+#: collection/sqlcollection/OrganizeCollectionDialog.cpp:208
 #: mediadevice/generic/genericmediadeviceconfigdialog.ui.h:266
 #: mediadevice/generic/genericmediadeviceconfigdialog.ui.h:269
 #, kde-format
 msgid "%1 or %2"
 msgstr "%1 an jî %2"
 
-#: collection/sqlcollection/OrganizeCollectionDialog.cpp:210
+#: collection/sqlcollection/OrganizeCollectionDialog.cpp:209
 #: mediadevice/generic/genericmediadeviceconfigdialog.ui.h:270
 msgid "Artist's Initial"
 msgstr "Tîpa Serî ya Hunermend"
 
-#: collection/sqlcollection/OrganizeCollectionDialog.cpp:211
+#: collection/sqlcollection/OrganizeCollectionDialog.cpp:210
 #: mediadevice/generic/genericmediadeviceconfigdialog.ui.h:271
 msgid "File Extension of Source"
 msgstr "Pêveka Dosiya Çavkaniyê"
 
-#: collection/sqlcollection/OrganizeCollectionDialog.cpp:212
+#: collection/sqlcollection/OrganizeCollectionDialog.cpp:211
 #: mediadevice/generic/genericmediadeviceconfigdialog.ui.h:272
 msgid "Track Number"
 msgstr "Hejmara Stranê"
 
-#: collection/sqlcollection/OrganizeCollectionDialog.cpp:214
+#: collection/sqlcollection/OrganizeCollectionDialog.cpp:213
 #: mediadevice/generic/genericmediadeviceconfigdialog.ui.h:274
 msgid "<h3>Custom Format String</h3>"
 msgstr ""
 
-#: collection/sqlcollection/OrganizeCollectionDialog.cpp:215
+#: collection/sqlcollection/OrganizeCollectionDialog.cpp:214
 #: mediadevice/generic/genericmediadeviceconfigdialog.ui.h:275
 msgid "You can use the following tokens:"
 msgstr "Tu dikarî van nîşanekan bikar bînî:"
 
-#: collection/sqlcollection/OrganizeCollectionDialog.cpp:222
+#: collection/sqlcollection/OrganizeCollectionDialog.cpp:221
 #: mediadevice/generic/genericmediadeviceconfigdialog.ui.h:285
 msgid ""
 "If you surround sections of text that contain a token with curly-braces, "
@@ -239,7 +245,7 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./collection/sqlcollection/OrganizeCollectionDialogBase.ui line 171
-#: collection/sqlcollection/OrganizeCollectionDialog.cpp:354
+#: collection/sqlcollection/OrganizeCollectionDialog.cpp:353
 #: mediadevice/generic/genericmediadeviceconfigdialog.ui.h:316 rc.cpp:716
 msgid "(Help)"
 msgstr "(Alîkarî)"
@@ -293,7 +299,7 @@ msgid ""
 "assistance join us at #amarok on irc.freenode.net.</p>"
 msgstr ""
 
-#: context/ContextView.cpp:429
+#: context/ContextView.cpp:528
 msgid "Add Applets"
 msgstr ""
 
@@ -760,14 +766,14 @@ msgid "Album:"
 msgstr ""
 
 #: context/applets/currenttrack/CurrentTrack.cpp:84
-#: dialogs/ScriptManager.cpp:142 dialogs/ScriptManager.cpp:823
-#: playlist/PlaylistModel.cpp:422 widgets/TrackTooltip.cpp:118
+#: dialogs/ScriptManager.cpp:150 dialogs/ScriptManager.cpp:841
+#: playlist/PlaylistModel.cpp:482 widgets/TrackTooltip.cpp:118
 #: SmartPlaylistEditor.cpp:189
 msgid "Score"
 msgstr "Skor"
 
 #: context/applets/currenttrack/CurrentTrack.cpp:87
-#: playlist/PlaylistModel.cpp:424 widgets/TrackTooltip.cpp:143
+#: playlist/PlaylistModel.cpp:484 widgets/TrackTooltip.cpp:143
 msgid "Play Count"
 msgstr ""
 
@@ -1333,7 +1339,7 @@ msgstr ""
 #: dialogs/Statistics.cpp:419 dialogs/Statistics.cpp:451
 #: dialogs/Statistics.cpp:466 dialogs/Statistics.cpp:468
 #: dialogs/Statistics.cpp:505 dialogs/Statistics.cpp:533
-#: dialogs/Statistics.cpp:546 dialogs/Statistics.cpp:547 App.cpp:662
+#: dialogs/Statistics.cpp:546 dialogs/Statistics.cpp:547 App.cpp:656
 #: MediaDevicePluginManager.cpp:535
 msgid "Unknown"
 msgstr "Nenas"
@@ -1430,7 +1436,7 @@ msgstr ""
 msgid "Tags"
 msgstr ""
 
-#: dialogs/TagDialog.cpp:506 dialogs/ScriptManager.cpp:141
+#: dialogs/TagDialog.cpp:506 dialogs/ScriptManager.cpp:149
 msgid "Lyrics"
 msgstr "Gotinên Stranê"
 
@@ -1454,9 +1460,9 @@ msgid "Unknown"
 msgstr "Nenas"
 
 #: dialogs/TagDialog.cpp:733
-#, kde-format
-msgid "Track Information: %1 by %2"
-msgstr ""
+#, fuzzy, kde-format
+msgid "Track Details: %1 by %2"
+msgstr "&Agahiya Stranan Sererast Bike..."
 
 #: dialogs/TagDialog.cpp:742 statusbar/queueLabel.cpp:307
 #, kde-format
@@ -1490,13 +1496,13 @@ msgid "Format:"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./dialogs/tagdialogbase.ui line 550
+#. i18n: file ./dialogs/tagdialogbase.ui line 537
 #: dialogs/TagDialog.cpp:783 rc.cpp:1313
 msgid "Score:"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./dialogs/tagdialogbase.ui line 579
+#. i18n: file ./dialogs/tagdialogbase.ui line 566
 #: dialogs/TagDialog.cpp:785 rc.cpp:1316
 msgid "Rating:"
 msgstr ""
@@ -1659,7 +1665,7 @@ msgstr ""
 #: mediadevice/ifp/ifpmediadevice.cpp:402
 #: collectionbrowser/CollectionTreeItemModelBase.cpp:536
 #: collectionbrowser/CollectionWidget.cpp:69 rc.cpp:1122
-#: playlist/PlaylistHeader.cpp:45 playlist/PlaylistModel.cpp:411
+#: playlist/PlaylistHeader.cpp:45 playlist/PlaylistModel.cpp:471
 #: servicebrowser/magnatunestore/MagnatuneStore.cpp:174
 #: servicebrowser/jamendo/JamendoService.cpp:133 SmartPlaylistEditor.cpp:187
 #: SmartPlaylistEditor.cpp:201
@@ -1671,7 +1677,7 @@ msgstr "Album"
 #: dialogs/EditFilterDialog.cpp:127 dialogs/transferdialog.cpp:93
 #: collectionbrowser/CollectionTreeItemModelBase.cpp:538
 #: collectionbrowser/CollectionWidget.cpp:57 rc.cpp:1119
-#: playlist/PlaylistHeader.cpp:45 playlist/PlaylistModel.cpp:407
+#: playlist/PlaylistHeader.cpp:45 playlist/PlaylistModel.cpp:467
 #: servicebrowser/magnatunestore/MagnatuneStore.cpp:166
 #: servicebrowser/jamendo/JamendoService.cpp:125 SmartPlaylistEditor.cpp:187
 #: SmartPlaylistEditor.cpp:201
@@ -1680,21 +1686,21 @@ msgstr "Hunermend"
 
 #: dialogs/EditFilterDialog.cpp:129
 #: collectionbrowser/CollectionTreeItemModelBase.cpp:539
-#: playlist/PlaylistModel.cpp:409 SmartPlaylistEditor.cpp:187
+#: playlist/PlaylistModel.cpp:469 SmartPlaylistEditor.cpp:187
 #: SmartPlaylistEditor.cpp:201
 msgid "Composer"
 msgstr ""
 
 #: dialogs/EditFilterDialog.cpp:131 dialogs/transferdialog.cpp:95
 #: collectionbrowser/CollectionTreeItemModelBase.cpp:540
-#: playlist/PlaylistModel.cpp:415 SmartPlaylistEditor.cpp:187
+#: playlist/PlaylistModel.cpp:475 SmartPlaylistEditor.cpp:187
 #: SmartPlaylistEditor.cpp:201
 msgid "Genre"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./dialogs/trackpickerdialogbase.ui line 91
-#: dialogs/EditFilterDialog.cpp:133 rc.cpp:1116 playlist/PlaylistModel.cpp:406
+#: dialogs/EditFilterDialog.cpp:133 rc.cpp:1116 playlist/PlaylistModel.cpp:466
 #: SmartPlaylistEditor.cpp:187
 msgid "Title"
 msgstr ""
@@ -1709,7 +1715,7 @@ msgstr ""
 #. i18n: file ./dialogs/trackpickerdialogbase.ui line 135
 #: dialogs/EditFilterDialog.cpp:137
 #: collectionbrowser/CollectionTreeItemModelBase.cpp:541 rc.cpp:1128
-#: playlist/PlaylistModel.cpp:410 SmartPlaylistEditor.cpp:188
+#: playlist/PlaylistModel.cpp:470 SmartPlaylistEditor.cpp:188
 #: SmartPlaylistEditor.cpp:201 SmartPlaylistEditor.cpp:925
 msgid "Year"
 msgstr "Sal"
@@ -1920,34 +1926,34 @@ msgstr ""
 msgid "Convert spaces to underscores"
 msgstr "Valahiyan veguherîne xêzikên jêrîn"
 
-#: dialogs/ScriptManager.cpp:119 MainWindow.cpp:666
+#: dialogs/ScriptManager.cpp:127 MainWindow.cpp:666
 msgid "Script Manager"
 msgstr "Rêveberê Skrîptê"
 
-#: dialogs/ScriptManager.cpp:140
+#: dialogs/ScriptManager.cpp:148
 msgid "General"
 msgstr "Giştî"
 
-#: dialogs/ScriptManager.cpp:143
+#: dialogs/ScriptManager.cpp:151
 msgid "Transcoding"
 msgstr "Wergera-kodê"
 
-#: dialogs/ScriptManager.cpp:144
+#: dialogs/ScriptManager.cpp:152
 msgid "Context Browser"
 msgstr ""
 
-#: dialogs/ScriptManager.cpp:145
+#: dialogs/ScriptManager.cpp:153
 #, fuzzy
 msgid "Scripted Services"
 msgstr "Cîhazê Çapemeniyê Ava Bike"
 
-#: dialogs/ScriptManager.cpp:327
+#: dialogs/ScriptManager.cpp:322
 msgid ""
 "No score scripts were found, or none of them worked. Automatic scoring will "
 "be disabled. Sorry."
 msgstr ""
 
-#: dialogs/ScriptManager.cpp:408
+#: dialogs/ScriptManager.cpp:407
 msgid ""
 "Script Packages (*.amarokscript.tar, *.amarokscript.tar.bz2, *.amarokscript."
 "tar.gz)"
@@ -1957,81 +1963,81 @@ msgstr ""
 msgid "Could not read this package."
 msgstr "Vê pakêtê nehate xwendin."
 
-#: dialogs/ScriptManager.cpp:425
+#: dialogs/ScriptManager.cpp:426
 #, kde-format
 msgid ""
 "A script with the name '%1' is already installed. Please uninstall it first."
 msgstr "Jixwe bi navê '%1' skrîptek sazkirî ye. Ji kerema xwe re wê rake."
 
-#: dialogs/ScriptManager.cpp:435
+#: dialogs/ScriptManager.cpp:437
 msgid "Script successfully installed."
 msgstr "Skrîpt bi serkeftin hate sazkirin."
 
-#: dialogs/ScriptManager.cpp:439
+#: dialogs/ScriptManager.cpp:442
 msgid ""
 "<p>Script installation failed.</p><p>The package did not contain an "
 "executable file. Please inform the package maintainer about this error.</p>"
 msgstr ""
 
-#: dialogs/ScriptManager.cpp:492
+#: dialogs/ScriptManager.cpp:499
 #, kde-format
 msgid "Are you sure you want to uninstall the script '%1'?"
 msgstr "Bi rastî bawer î skrîpta '%1' jê bibî?"
 
-#: dialogs/ScriptManager.cpp:492
+#: dialogs/ScriptManager.cpp:499
 msgid "Uninstall Script"
 msgstr "Skrîptê Rake"
 
-#: dialogs/ScriptManager.cpp:492
+#: dialogs/ScriptManager.cpp:499
 msgid "Uninstall"
 msgstr "Rake"
 
-#: dialogs/ScriptManager.cpp:503
+#: dialogs/ScriptManager.cpp:511
 msgid ""
 "<p>Could not uninstall this script.</p><p>The ScriptManager can only "
 "uninstall scripts which have been installed as packages.</p>"
 msgstr ""
 
-#: dialogs/ScriptManager.cpp:533
+#: dialogs/ScriptManager.cpp:544
 msgid ""
 "Another lyrics script is already running. You may only run one lyrics script "
 "at a time."
 msgstr ""
 
-#: dialogs/ScriptManager.cpp:540
+#: dialogs/ScriptManager.cpp:552
 msgid ""
 "Another transcode script is already running. You may only run one transcode "
 "script at a time."
 msgstr ""
 
-#: dialogs/ScriptManager.cpp:641
+#: dialogs/ScriptManager.cpp:657
 msgid "There is no information available for this script."
 msgstr "Ji bo vê skrîptê agahî tuneye."
 
-#: dialogs/ScriptManager.cpp:652
+#: dialogs/ScriptManager.cpp:668
 #, kde-format
 msgid "About %1"
 msgstr "Der barê %1 de"
 
-#: dialogs/ScriptManager.cpp:680
+#: dialogs/ScriptManager.cpp:697
 msgid "Debugging"
 msgstr "Neqandina çewtiyan"
 
-#: dialogs/ScriptManager.cpp:681
+#: dialogs/ScriptManager.cpp:698
 msgid "Show Output &Log"
 msgstr ""
 
-#: dialogs/ScriptManager.cpp:682
+#: dialogs/ScriptManager.cpp:699
 #, fuzzy
 msgid "&Edit"
 msgstr "Sere&rast bike"
 
-#: dialogs/ScriptManager.cpp:705
+#: dialogs/ScriptManager.cpp:722
 #, kde-format
 msgid "Output Log for %1"
 msgstr ""
 
-#: dialogs/ScriptManager.cpp:760
+#: dialogs/ScriptManager.cpp:778
 #, kde-format
 msgid "The script '%1' exited with error code: %2"
 msgstr ""
@@ -2041,21 +2047,21 @@ msgstr ""
 msgid "There was an error communicating with Amazon."
 msgstr ""
 
-#: App.cpp:88
+#: App.cpp:87
 msgid "Amarok"
 msgstr ""
 
-#: App.cpp:89
+#: App.cpp:88
 msgid "The audio player for KDE"
 msgstr ""
 
-#: App.cpp:90
+#: App.cpp:89
 msgid ""
 "(C) 2002-2003, Mark Kretschmann\n"
 "(C) 2003-2008, The Amarok Development Squad"
 msgstr ""
 
-#: App.cpp:91
+#: App.cpp:90
 msgid ""
 "IRC:\n"
 "irc.freenode.net - #amarok, #amarok.de, #amarok.es, #amarok.fr\n"
@@ -2066,92 +2072,92 @@ msgid ""
 "(Build Date: "
 msgstr ""
 
-#: App.cpp:415
+#: App.cpp:409
 msgid "Files/URLs to open"
 msgstr ""
 
-#: App.cpp:417
+#: App.cpp:411
 msgid "Skip backwards in playlist"
 msgstr ""
 
-#: App.cpp:419
+#: App.cpp:413
 msgid "Start playing current playlist"
 msgstr ""
 
-#: App.cpp:421
+#: App.cpp:415
 msgid "Play if stopped, pause if playing"
 msgstr ""
 
-#: App.cpp:422
+#: App.cpp:416
 msgid "Pause playback"
 msgstr ""
 
-#: App.cpp:424
+#: App.cpp:418
 msgid "Stop playback"
 msgstr ""
 
-#: App.cpp:426
+#: App.cpp:420
 msgid "Skip forwards in playlist"
 msgstr ""
 
-#: App.cpp:427
+#: App.cpp:421
 msgid "Additional options:"
 msgstr ""
 
-#: App.cpp:429
+#: App.cpp:423
 msgid "Append files/URLs to playlist"
 msgstr ""
 
-#: App.cpp:430
+#: App.cpp:424
 msgid "Queue URLs after the currently playing track"
 msgstr ""
 
-#: App.cpp:432
+#: App.cpp:426
 msgid "Load URLs, replacing current playlist"
 msgstr ""
 
-#: App.cpp:434
+#: App.cpp:428
 msgid "Print verbose debugging information"
 msgstr ""
 
-#: App.cpp:436
+#: App.cpp:430
 msgid "Toggle the Playlist-window"
 msgstr ""
 
-#: App.cpp:437
+#: App.cpp:431
 msgid "Run first-run wizard"
 msgstr ""
 
-#: App.cpp:438
+#: App.cpp:432
 msgid "Base for relative filenames/URLs"
 msgstr ""
 
-#: App.cpp:439
+#: App.cpp:433
 msgid "Play an AudioCD from <device> or system:/media/<device>"
 msgstr ""
 
-#: App.cpp:659
+#: App.cpp:653
 #, fuzzy
 msgctxt "state, as in playing"
 msgid "Play"
 msgstr "&Bilîze"
 
-#: App.cpp:662 App.cpp:688
+#: App.cpp:656 App.cpp:682
 #, fuzzy, kde-format
 #| msgid "%1. %2 - %3"
 msgid "%1 - %2 -  %3"
 msgstr "%1. %2 - %3"
 
-#: App.cpp:666
+#: App.cpp:660
 #, kde-format
 msgid "Paused  -  %1"
 msgstr ""
 
-#: App.cpp:667
+#: App.cpp:661
 msgid "Paused"
 msgstr ""
 
-#: App.cpp:781
+#: App.cpp:775
 msgid "Moving files to trash"
 msgstr ""
 
@@ -2288,10 +2294,6 @@ msgstr "Podcast"
 msgid "Queue Manager"
 msgstr ""
 
-#: popupdropper/PopupDropper.cpp:229
-msgid "Drop something here."
-msgstr ""
-
 #: equalizersetup.cpp:69
 msgid "Equalizer"
 msgstr ""
@@ -2335,7 +2337,7 @@ msgstr ""
 msgid "Enter preset name:"
 msgstr ""
 
-#: equalizersetup.cpp:398 playlist/PlaylistModel.h:215
+#: equalizersetup.cpp:398 playlist/PlaylistModel.h:219
 msgid "Untitled"
 msgstr ""
 
@@ -2369,7 +2371,7 @@ msgstr "Amarok nikare pelên MP3 lê bide."
 msgid "No MP3 Support"
 msgstr "Desteka MP3 Tune"
 
-#: EngineController.cpp:468
+#: EngineController.cpp:472
 msgid "Previous track finished"
 msgstr ""
 
@@ -3049,7 +3051,7 @@ msgstr "Nav biguharîne"
 
 #: mediadevice/ifp/ifpmediadevice.cpp:658
 #: mediadevice/generic/genericmediadevice.cpp:948
-#: playlistbrowser/DynamicCategory.cpp:50
+#: playlistbrowser/DynamicCategory.cpp:53
 #: playlistbrowser/PlaylistCategory.cpp:139
 #, fuzzy
 msgid "Delete"
@@ -3877,7 +3879,7 @@ msgid "Append && &Play"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./dialogs/tagdialogbase.ui line 793
+#. i18n: file ./dialogs/tagdialogbase.ui line 780
 #. i18n: tag string
 #. i18n: file ./servicebrowser/magnatunestore/MagnatuneRedownloadDialogBase.ui line 36
 #: systray.cpp:129 rc.cpp:1343 rc.cpp:2265
@@ -6916,128 +6918,128 @@ msgid "Track Information"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./dialogs/tagdialogbase.ui line 43
+#. i18n: file ./dialogs/tagdialogbase.ui line 36
 #: rc.cpp:1259
-msgid "S&ummary"
+msgid "S&&ummary"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./dialogs/tagdialogbase.ui line 76
+#. i18n: file ./dialogs/tagdialogbase.ui line 69
 #. i18n: tag string
-#. i18n: file ./dialogs/tagdialogbase.ui line 522
+#. i18n: file ./dialogs/tagdialogbase.ui line 509
 #: rc.cpp:1262 rc.cpp:1310
 msgid "Track by Artist on Album"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./dialogs/tagdialogbase.ui line 153
+#. i18n: file ./dialogs/tagdialogbase.ui line 146
 #: rc.cpp:1265
-msgid "Ta&gs"
+msgid "Ta&&gs"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./dialogs/tagdialogbase.ui line 168
+#. i18n: file ./dialogs/tagdialogbase.ui line 154
 #: rc.cpp:1268
 msgid "T&itle:"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./dialogs/tagdialogbase.ui line 184
+#. i18n: file ./dialogs/tagdialogbase.ui line 170
 #: rc.cpp:1271
 msgid "&Artist:"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./dialogs/tagdialogbase.ui line 213
+#. i18n: file ./dialogs/tagdialogbase.ui line 199
 #: rc.cpp:1274
 msgid "&Composer:"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./dialogs/tagdialogbase.ui line 239
+#. i18n: file ./dialogs/tagdialogbase.ui line 225
 #: rc.cpp:1277
 msgid "Al&bum:"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./dialogs/tagdialogbase.ui line 270
+#. i18n: file ./dialogs/tagdialogbase.ui line 256
 #: rc.cpp:1280
 msgid "&Disc Number:"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./dialogs/tagdialogbase.ui line 316
+#. i18n: file ./dialogs/tagdialogbase.ui line 302
 #: rc.cpp:1283
 msgid "&Genre:"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./dialogs/tagdialogbase.ui line 345
+#. i18n: file ./dialogs/tagdialogbase.ui line 331
 #: rc.cpp:1286
 msgid "Trac&k:"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./dialogs/tagdialogbase.ui line 382
+#. i18n: file ./dialogs/tagdialogbase.ui line 368
 #: rc.cpp:1289
 msgid "&Year:"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./dialogs/tagdialogbase.ui line 416
+#. i18n: file ./dialogs/tagdialogbase.ui line 402
 #: rc.cpp:1292
 msgid "Co&mment:"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./dialogs/tagdialogbase.ui line 442
+#. i18n: file ./dialogs/tagdialogbase.ui line 428
 #: rc.cpp:1295
 msgid "Fill-In Tags Using MusicBrain&z"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./dialogs/tagdialogbase.ui line 451
+#. i18n: file ./dialogs/tagdialogbase.ui line 437
 #: rc.cpp:1298
 msgid "Guess Tags From &Filename"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./dialogs/tagdialogbase.ui line 458
+#. i18n: file ./dialogs/tagdialogbase.ui line 444
 #: rc.cpp:1301
 msgid "Filename &Schemes"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./dialogs/tagdialogbase.ui line 480
+#. i18n: file ./dialogs/tagdialogbase.ui line 467
 #: rc.cpp:1304
 #, fuzzy
 #| msgid "Lyrics"
-msgid "L&yrics"
+msgid "L&&yrics"
 msgstr "Gotinên Stranê"
 
 #. i18n: tag string
-#. i18n: file ./dialogs/tagdialogbase.ui line 505
+#. i18n: file ./dialogs/tagdialogbase.ui line 492
 #: rc.cpp:1307
 #, fuzzy
 #| msgid "Collection Statistics"
-msgid "St&atistics"
+msgid "St&&atistics"
 msgstr "Îstatîstîkên Koleksiyonan"
 
 #. i18n: tag string
-#. i18n: file ./dialogs/tagdialogbase.ui line 648
+#. i18n: file ./dialogs/tagdialogbase.ui line 635
 #: rc.cpp:1319
 #, fuzzy
-msgid "La&bels"
+msgid "La&&bels"
 msgstr "Etîket:"
 
 #. i18n: tag string
-#. i18n: file ./dialogs/tagdialogbase.ui line 663
+#. i18n: file ./dialogs/tagdialogbase.ui line 650
 #: rc.cpp:1322
 msgid "Your favorite labels:"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./dialogs/tagdialogbase.ui line 686
+#. i18n: file ./dialogs/tagdialogbase.ui line 673
 #: rc.cpp:1325
 msgid ""
 "Edit the assigned labels below (multiple labels are separated by commas), or "
@@ -7045,31 +7047,31 @@ msgid ""
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./dialogs/tagdialogbase.ui line 706
+#. i18n: file ./dialogs/tagdialogbase.ui line 693
 #: rc.cpp:1328
 msgid "Location:"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./dialogs/tagdialogbase.ui line 743
+#. i18n: file ./dialogs/tagdialogbase.ui line 730
 #: rc.cpp:1331
 msgid "&Previous"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./dialogs/tagdialogbase.ui line 750
+#. i18n: file ./dialogs/tagdialogbase.ui line 737
 #: rc.cpp:1334
 msgid "&Next"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./dialogs/tagdialogbase.ui line 757
+#. i18n: file ./dialogs/tagdialogbase.ui line 744
 #: rc.cpp:1337
 msgid "Per Trac&k"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./dialogs/tagdialogbase.ui line 780
+#. i18n: file ./dialogs/tagdialogbase.ui line 767
 #: rc.cpp:1340
 msgid "Sa&ve && Close"
 msgstr ""
@@ -7960,7 +7962,7 @@ msgstr ""
 msgid "Track Number - Title"
 msgstr "Hejmara Stranê"
 
-#: playlist/PlaylistHeader.cpp:45 playlist/PlaylistModel.cpp:419
+#: playlist/PlaylistHeader.cpp:45 playlist/PlaylistModel.cpp:479
 #: widgets/TrackTooltip.cpp:157 widgets/TrackTooltip.cpp:164
 #: SmartPlaylistEditor.cpp:187
 msgid "Length"
@@ -7986,7 +7988,7 @@ msgstr "Lîsta lêdanê werbigire"
 
 #: playlist/PlaylistViewCommon.cpp:53
 #, fuzzy
-msgid "Edit Track Information"
+msgid "Edit Track Details"
 msgstr "&Agahiya Stranan Sererast Bike..."
 
 #: playlist/PlaylistWidget.cpp:93
@@ -8012,82 +8014,82 @@ msgstr "Hejmara Stranê"
 msgid "Playlists Added"
 msgstr "lîsteya lêdanê"
 
-#: playlist/PlaylistModel.cpp:98
+#: playlist/PlaylistModel.cpp:106
 msgid "Undo"
 msgstr ""
 
-#: playlist/PlaylistModel.cpp:101
+#: playlist/PlaylistModel.cpp:109
 msgid "Redo"
 msgstr ""
 
-#: playlist/PlaylistModel.cpp:405
+#: playlist/PlaylistModel.cpp:465
 #, fuzzy
 #| msgid "Rename"
 msgctxt "The name of the file this track is stored in"
 msgid "Filename"
 msgstr "Nav biguharîne"
 
-#: playlist/PlaylistModel.cpp:408
+#: playlist/PlaylistModel.cpp:468
 msgid "Album Artist"
 msgstr ""
 
-#: playlist/PlaylistModel.cpp:412
+#: playlist/PlaylistModel.cpp:472
 msgid "Disc Number"
 msgstr ""
 
-#: playlist/PlaylistModel.cpp:413
+#: playlist/PlaylistModel.cpp:473
 #, fuzzy
 msgctxt "The Track number for this item"
 msgid "Track"
 msgstr "Stran  #"
 
-#: playlist/PlaylistModel.cpp:414 SmartPlaylistEditor.cpp:191
+#: playlist/PlaylistModel.cpp:474 SmartPlaylistEditor.cpp:191
 msgid "BPM"
 msgstr ""
 
-#: playlist/PlaylistModel.cpp:416 SmartPlaylistEditor.cpp:188
+#: playlist/PlaylistModel.cpp:476 SmartPlaylistEditor.cpp:188
 msgid "Comment"
 msgstr ""
 
-#: playlist/PlaylistModel.cpp:417
+#: playlist/PlaylistModel.cpp:477
 #, fuzzy
 #| msgid "Directory"
 msgctxt "The location on disc of this track"
 msgid "Directory"
 msgstr "Pelrêç"
 
-#: playlist/PlaylistModel.cpp:418
+#: playlist/PlaylistModel.cpp:478
 msgid "Type"
 msgstr "Cure"
 
-#: playlist/PlaylistModel.cpp:420 SmartPlaylistEditor.cpp:191
+#: playlist/PlaylistModel.cpp:480 SmartPlaylistEditor.cpp:191
 msgid "Bitrate"
 msgstr ""
 
-#: playlist/PlaylistModel.cpp:421
+#: playlist/PlaylistModel.cpp:481
 msgid "Sample Rate"
 msgstr "Rêjeya Mînakkirinê"
 
-#: playlist/PlaylistModel.cpp:423 widgets/TrackTooltip.cpp:136
+#: playlist/PlaylistModel.cpp:483 widgets/TrackTooltip.cpp:136
 #: SmartPlaylistEditor.cpp:189
 msgid "Rating"
 msgstr ""
 
-#: playlist/PlaylistModel.cpp:425
+#: playlist/PlaylistModel.cpp:485
 #, fuzzy
 msgctxt "Column name"
 msgid "Last Played"
 msgstr "yê dawî hatine lêdan"
 
-#: playlist/PlaylistModel.cpp:426
+#: playlist/PlaylistModel.cpp:486
 msgid "Mood"
 msgstr ""
 
-#: playlist/PlaylistModel.cpp:427
+#: playlist/PlaylistModel.cpp:487
 msgid "File Size"
 msgstr ""
 
-#: playlist/PlaylistModel.cpp:614
+#: playlist/PlaylistModel.cpp:676
 #, kde-format
 msgid "One track was already in the playlist, so it was not added."
 msgid_plural "%1 tracks were already in the playlist, so they were not added."
@@ -8677,19 +8679,19 @@ msgstr "&Bar bike"
 msgid "&Refresh"
 msgstr ""
 
-#: playlistbrowser/DynamicCategory.cpp:43
+#: playlistbrowser/DynamicCategory.cpp:46
 msgid "Save"
 msgstr ""
 
-#: playlistbrowser/DynamicCategory.cpp:58
+#: playlistbrowser/DynamicCategory.cpp:61
 msgid "Off"
 msgstr ""
 
-#: playlistbrowser/DynamicCategory.cpp:58
+#: playlistbrowser/DynamicCategory.cpp:61
 msgid "On"
 msgstr ""
 
-#: playlistbrowser/DynamicCategory.cpp:64
+#: playlistbrowser/DynamicCategory.cpp:67
 #, fuzzy
 msgid "Repopulate"
 msgstr "Nav biguharîne"
@@ -9412,6 +9414,10 @@ msgstr "Sal"
 #: SmartPlaylistEditor.cpp:1017
 msgid "Hours"
 msgstr "Saet "
+
+#, fuzzy
+#~ msgid "Edit Track Information"
+#~ msgstr "&Agahiya Stranan Sererast Bike..."
 
 #, fuzzy
 #~ msgid "Local collection"
