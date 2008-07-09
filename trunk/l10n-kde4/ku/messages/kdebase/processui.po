@@ -3,24 +3,25 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Erdal Ronahi <erdal dot ronahi at gmail dot com>, 2007, 2008.
+# Amed Çeko Jiyan <amedcj@gmail.com>, 2008.
 msgid ""
 msgstr ""
 "Project-Id-Version: processui\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2008-06-18 10:29+0200\n"
-"PO-Revision-Date: 2008-03-02 18:22+0100\n"
-"Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
-"Language-Team: ku <kde-i18n-doc@lists.kde.org>\n"
+"PO-Revision-Date: 2008-07-08 14:57+0300\n"
+"Last-Translator: Amed Çeko Jiyan <amedcj@gmail.com>\n"
+"Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural= n != 1;\n"
-"X-Generator: KAider 0.1\n"
+"X-Generator: KBabel 1.11.4\n"
 
 #: DisplayProcessDlg.cpp:35
 #, kde-format
 msgid "Monitoring I/O for %1 (%2)"
-msgstr ""
+msgstr "Tê nîşandanMonitoring I/O ji bo %1 (%2)"
 
 #: DisplayProcessDlg.cpp:45
 #, kde-format
@@ -30,33 +31,39 @@ msgid ""
 "etc.).  Data being written by the process is shown in red and data being "
 "read by the process is shown in blue."
 msgstr ""
+"Bername '%1' (PID: %2) ji bo deran û ketanên hemû pelan tê nîşandan (stdin, "
+"stdout, stderr, pelan veke, girêdanên torê û hwd.). Daneyên ku tên "
+"nivîsandin  ji hêla pêvajoyê ve sor tên nîşandan, daneyên tên xwendin ji "
+"hêla pêvajoyê ve şîn tên nîşandan."
 
 #: DisplayProcessDlg.cpp:47 DisplayProcessDlg.cpp:82 DisplayProcessDlg.cpp:91
 msgid "&Attach"
-msgstr ""
+msgstr "&Pêvek"
 
 #. i18n: tag string
 #. i18n: file DisplayProcessUi.ui line 65
 #: DisplayProcessDlg.cpp:49 DisplayProcessDlg.cpp:77 DisplayProcessDlg.cpp:84
 #: DisplayProcessDlg.cpp:93 rc.cpp:27
 msgid "&Pause"
-msgstr ""
+msgstr "&Rawestîne"
 
 #: DisplayProcessDlg.cpp:74
 msgid "&Resume"
-msgstr ""
+msgstr "&Bidomîne"
 
 #. i18n: tag string
 #. i18n: file DisplayProcessUi.ui line 94
 #: DisplayProcessDlg.cpp:97 rc.cpp:36
 msgid "&Detach"
-msgstr ""
+msgstr "&Pêvekê Rake"
 
 #: KMonitorProcessIO.cpp:197
 #, kde-format
 msgid ""
 "<br/><i><font color=\"gray\">Failed to attach to process %1</font></i><br/>"
 msgstr ""
+"<br/><i><font color=\"gray\">Zêdekirina pêvekê bi ser neket: %1</font></"
+"i><br/>"
 
 #: ksysguardprocesslist.cpp:150 ksysguardprocesslist.cpp:338
 msgid "Renice Process..."
@@ -66,23 +73,23 @@ msgstr[1] ""
 
 #: ksysguardprocesslist.cpp:151 ksysguardprocesslist.cpp:412
 msgid "Jump to Parent Process"
-msgstr ""
+msgstr "Hilpeke Pêvajoya Jortir"
 
 #: ksysguardprocesslist.cpp:153
 msgid "Jump to Process Debugging This One"
-msgstr ""
+msgstr "Hilpeke Pêvajoya Serastkirina Vê"
 
 #: ksysguardprocesslist.cpp:154
 msgid "Show Application Window"
-msgstr ""
+msgstr "Paceya Sepanê Nîşan Bide"
 
 #: ksysguardprocesslist.cpp:155
 msgid "Monitor input and output"
-msgstr ""
+msgstr "Nîşandêra Ketan û Deranan"
 
 #: ksysguardprocesslist.cpp:156
 msgid "Resume Stopped Process"
-msgstr ""
+msgstr "Pêvajoya Sekinandî Bidomîne"
 
 #: ksysguardprocesslist.cpp:157 ksysguardprocesslist.cpp:339
 #: ksysguardprocesslist.cpp:986
@@ -93,7 +100,7 @@ msgstr[1] "Pêvajoyan bikuje"
 
 #: ksysguardprocesslist.cpp:160
 msgid "Suspend (STOP)"
-msgstr ""
+msgstr "Li Bendê (Bisekinîne)"
 
 #: ksysguardprocesslist.cpp:161
 msgid "Continue (CONT)"
@@ -101,11 +108,11 @@ msgstr "Bidomîne (CONT)"
 
 #: ksysguardprocesslist.cpp:162
 msgid "Hangup (HUP)"
-msgstr ""
+msgstr "Asteng Bike"
 
 #: ksysguardprocesslist.cpp:163
 msgid "Interrupt (INT)"
-msgstr ""
+msgstr "Qut Bike (NT)"
 
 #: ksysguardprocesslist.cpp:164
 msgid "Terminate (TERM)"
@@ -117,20 +124,20 @@ msgstr "Bikuje (KILL)"
 
 #: ksysguardprocesslist.cpp:166
 msgid "User 1 (USR1)"
-msgstr ""
+msgstr "Bikarhêner 1 (USR1)"
 
 #: ksysguardprocesslist.cpp:167
 msgid "User 2 (USR2)"
-msgstr ""
+msgstr "Bikarhêner 2 (USR2)"
 
 #: ksysguardprocesslist.cpp:364
 msgid "Send Signal"
-msgstr ""
+msgstr "Sînyal Bişîne"
 
 #: ksysguardprocesslist.cpp:381
 #, kde-format
 msgid "Jump to Parent Process (%1)"
-msgstr ""
+msgstr "Hilpeke Pêvajoya Jorê (%1)"
 
 #: ksysguardprocesslist.cpp:509
 #, fuzzy, kde-format
@@ -144,56 +151,58 @@ msgstr "Sitûna '%1' nîşan bide"
 
 #: ksysguardprocesslist.cpp:535
 msgid "Display Units"
-msgstr ""
+msgstr "Beşan Nîşan Bide"
 
 #: ksysguardprocesslist.cpp:538
 #, fuzzy
-#| msgid "KiloBytes"
 msgid "Kilobytes"
 msgstr "KîloBayt"
 
 #: ksysguardprocesslist.cpp:543
 #, fuzzy
-#| msgid "MegaBytes"
 msgid "Megabytes"
 msgstr "MegaBayt"
 
 #: ksysguardprocesslist.cpp:548
 #, fuzzy
-#| msgid "GigaBytes"
 msgid "Gigabytes"
 msgstr "GîgaBayt"
 
 #: ksysguardprocesslist.cpp:743 ksysguardprocesslist.cpp:976
 msgid "You must select a process first."
-msgstr ""
+msgstr "Divê berê pêvajoyekê hilbijêrî."
 
 #: ksysguardprocesslist.cpp:820
 msgid ""
 "You do not have sufficient privileges to change the CPU scheduler. Aborting."
 msgstr ""
+"Ji bo guherandina bernamekara CPU'yê têra xwe ne peywirdar î. Hate "
+"Betalkirin."
 
 #: ksysguardprocesslist.cpp:828
 msgid ""
 "You do not have sufficient privileges to change the CPU priority. Aborting"
 msgstr ""
+"Ji bo guherandina pêşîbûna CPU'yê têra xwe ne peywirdar î. Hate Betalkirin."
 
 #: ksysguardprocesslist.cpp:834
 msgid ""
 "You do not have sufficient privileges to change the IO scheduler and "
 "priority. Aborting"
 msgstr ""
+"Ji bo guherandina bernamekar û pêşîbûna IO'yê têra xwe ne peywirdar î. Hate "
+"Betalkirin."
 
 #: ksysguardprocesslist.cpp:981
 #, kde-format
 msgid "Do you want to kill the selected process?"
 msgid_plural "Do you want to kill the %1 selected processes?"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Dixwazî pêvajoya hilbijartî bikujî?"
+msgstr[1] "Dixwazî %1 pêvajoyên hilbijartî bikujî?"
 
 #: ksysguardprocesslist.cpp:987
 msgid "Kill"
-msgstr ""
+msgstr "Bikuje"
 
 #: ksysguardprocesslist.cpp:1007
 msgid ""
@@ -250,13 +259,13 @@ msgstr ""
 #. i18n: file DisplayProcessUi.ui line 47
 #: rc.cpp:18
 msgid "Monitor child processes"
-msgstr ""
+msgstr "Pêvajoya zaro nîşan bide"
 
 #. i18n: tag string
 #. i18n: file DisplayProcessUi.ui line 59
 #: rc.cpp:21
 msgid "Pause the process and its output"
-msgstr ""
+msgstr "Pêvajo û derana wê rawestîne"
 
 #. i18n: tag string
 #. i18n: file DisplayProcessUi.ui line 62
@@ -266,18 +275,20 @@ msgid ""
 "blocked, effectively pausing it. The process can be resumed by resuming, "
 "detaching or closing the dialog."
 msgstr ""
+"Xwendina derana ji pêvajoyê bisekinîne. Ev ê bibe sedem ku pêvajo blok bibe, "
+"ya baş rawestîne. pêvajo bi domandinê an jî girtina paceyê tê domandin."
 
 #. i18n: tag string
 #. i18n: file DisplayProcessUi.ui line 88
 #: rc.cpp:30
 msgid "Stop monitoring the process"
-msgstr ""
+msgstr "Nîşandana pêvajoyê bisekinîne"
 
 #. i18n: tag string
 #. i18n: file DisplayProcessUi.ui line 91
 #: rc.cpp:33
 msgid "Stop monitoring the process and allow the process to resume running."
-msgstr ""
+msgstr "Nîşandana pêvajoyê bisekinîne û destûrê bide ku domandin bixebite."
 
 #. i18n: tag string
 #. i18n: file ProcessWidgetUI.ui line 39
@@ -289,7 +300,6 @@ msgstr "Pevajoyê Bi&kûje"
 #. i18n: file ProcessWidgetUI.ui line 55
 #: rc.cpp:42
 #, fuzzy
-#| msgid " Quick search"
 msgid "Quick search"
 msgstr "Lêgerîna bilez"
 
@@ -333,13 +343,13 @@ msgstr "Tenê Bername"
 #. i18n: file ReniceDlgUi.ui line 22
 #: rc.cpp:63
 msgid "Change scheduling priority for:"
-msgstr ""
+msgstr "Pêşîbûna tarîfeyê biguherîne ji bo:"
 
 #. i18n: tag string
 #. i18n: file ReniceDlgUi.ui line 89
 #: rc.cpp:66
 msgid "CPU Scheduler"
-msgstr ""
+msgstr "Tarîfeya CPU"
 
 #. i18n: tag string
 #. i18n: file ReniceDlgUi.ui line 102
@@ -354,6 +364,14 @@ msgid ""
 "right:0px; -qt-block-indent:0; text-indent:0px;\">The standard time-sharing "
 "scheduler for processes without special requirements.</p></body></html>"
 msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Dema standard tarîfeyê ji "
+"bo pêvajoya bê daxwazên taybet dabeş dike.</p></body></html>"
 
 #. i18n: tag string
 #. i18n: file ReniceDlgUi.ui line 109
@@ -387,7 +405,7 @@ msgstr ""
 #. i18n: file ReniceDlgUi.ui line 256
 #: rc.cpp:82 rc.cpp:149
 msgid "Normal"
-msgstr ""
+msgstr "Normal"
 
 #. i18n: tag string
 #. i18n: file ReniceDlgUi.ui line 122
@@ -434,7 +452,7 @@ msgstr ""
 #. i18n: file ReniceDlgUi.ui line 132
 #: rc.cpp:98
 msgid "Batch"
-msgstr ""
+msgstr "Kom"
 
 #. i18n: tag string
 #. i18n: file ReniceDlgUi.ui line 142
@@ -476,7 +494,7 @@ msgstr ""
 #. i18n: file ReniceDlgUi.ui line 152
 #: rc.cpp:114
 msgid "Round Robin"
-msgstr ""
+msgstr "Round Robin"
 
 #. i18n: tag string
 #. i18n: file ReniceDlgUi.ui line 162
@@ -523,7 +541,7 @@ msgstr "FIFO"
 #. i18n: file ReniceDlgUi.ui line 233
 #: rc.cpp:133
 msgid "I/O Scheduler"
-msgstr ""
+msgstr "Bernamekera I/O"
 
 #. i18n: tag string
 #. i18n: file ReniceDlgUi.ui line 246
@@ -640,7 +658,7 @@ msgstr ""
 #. i18n: file ReniceDlgUi.ui line 296
 #: rc.cpp:181
 msgid "Best Effort"
-msgstr ""
+msgstr "Baştrîn Hewldan"
 
 #. i18n: tag string
 #. i18n: file ReniceDlgUi.ui line 306
@@ -684,7 +702,7 @@ msgstr ""
 #. i18n: file ReniceDlgUi.ui line 316
 #: rc.cpp:197
 msgid "Real Time"
-msgstr ""
+msgstr "Dema Ratsîn"
 
 #. i18n: tag string
 #. i18n: file ReniceDlgUi.ui line 352
@@ -704,22 +722,24 @@ msgstr "Pêşaniya Bilind"
 
 #: ProcessModel.cc:235
 msgid "- Process is doing some work"
-msgstr ""
+msgstr "- Pêvajo hin karan dike"
 
 #: ProcessModel.cc:237
 msgid "- Process is waiting for something to happen"
-msgstr ""
+msgstr "- Pêvajo li bendê ye ku hin tişt biqewimin"
 
 #: ProcessModel.cc:239
 msgid ""
 "- Process has been stopped. It will not respond to user input at the moment"
 msgstr ""
+"Pêvajo hate sekinandin. Dê ji bo çirkeyekê ketana bikarhêner nebersivîne"
 
 #: ProcessModel.cc:241
 msgid ""
 "- Process has finished and is now dead, but the parent process has not "
 "cleaned up"
 msgstr ""
+"- Pêvajo qediya û niha mirî ye, lê pêvajoya astbilind  nehatiye paqijkirin"
 
 #: ProcessModel.cc:537
 msgid "The process name"
@@ -1077,19 +1097,16 @@ msgstr "Sernavê Paceyê"
 
 #: ProcessModel.cc:1229
 #, fuzzy, kde-format
-#| msgid "%1 k"
 msgid "%1 K"
 msgstr "%1 k"
 
 #: ProcessModel.cc:1231
 #, fuzzy, kde-format
-#| msgid "%1 k"
 msgid "%1 M"
 msgstr "%1 k"
 
 #: ProcessModel.cc:1233
 #, fuzzy, kde-format
-#| msgid "%1 k"
 msgid "%1 G"
 msgstr "%1 k"
 
@@ -1097,16 +1114,18 @@ msgstr "%1 k"
 msgid "Renice Process"
 msgstr ""
 
-#~ msgctxt "process heading"
-#~ msgid "Pid"
-#~ msgstr "Pid"
+msgctxt "process heading"
+msgid "Pid"
+msgstr "Pid"
 
-#~ msgctxt "process heading"
-#~ msgid "Tty"
-#~ msgstr "Tty"
+msgctxt "process heading"
+msgid "Tty"
+msgstr "Tty"
 
+#, fuzzy
 #~ msgid "%1 m"
-#~ msgstr "%1 m"
+#~ msgstr "%1 k"
 
+#, fuzzy
 #~ msgid "%1 g"
-#~ msgstr "%1 g"
+#~ msgstr "%1 k"
