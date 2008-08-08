@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: khotkeys\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2008-07-29 08:29+0200\n"
-"PO-Revision-Date: 2008-03-02 17:41+0100\n"
+"PO-Revision-Date: 2008-08-08 04:22+0200\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
-"Language-Team: Kurdish <ku@li.org>\n"
+"Language-Team: en_US <>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
+"X-Generator: Lokalize 0.2\n"
 "Plural-Forms: nplurals=2; plural= n != 1;\n"
 
 #: rc.cpp:1
@@ -61,12 +61,11 @@ msgstr "Argûman:"
 #. i18n: file ./kcm_hotkeys/ui/dbus_action_widget.ui line 84
 #: rc.cpp:17
 msgid "Call"
-msgstr ""
+msgstr "Bang"
 
 #. i18n: tag string
 #. i18n: file ./kcm_hotkeys/ui/dbus_action_widget.ui line 91
 #: rc.cpp:20
-#, fuzzy
 #| msgid "Run &D-Bus browser"
 msgid "Launch  D-Bus Browser"
 msgstr "Geroka &D-Bus bixebitîne"
@@ -74,10 +73,9 @@ msgstr "Geroka &D-Bus bixebitîne"
 #. i18n: tag string
 #. i18n: file ./kcm_hotkeys/ui/shortcut_trigger_widget.ui line 18
 #: rc.cpp:23
-#, fuzzy
 #| msgid "Shortcut:"
 msgid "&Shortcut"
-msgstr "Kurterê:"
+msgstr "&Kurterê"
 
 #. i18n: tag string
 #. i18n: file ./kcm_hotkeys/ui/simple_action_data_widget.ui line 16
@@ -88,7 +86,6 @@ msgstr ""
 #. i18n: tag string
 #. i18n: file ./kcm_hotkeys/ui/simple_action_data_widget.ui line 24
 #: rc.cpp:29
-#, fuzzy
 #| msgid "Actions"
 msgid "Action"
 msgstr "Çalakî"
@@ -96,10 +93,9 @@ msgstr "Çalakî"
 #. i18n: tag string
 #. i18n: file ./kcm_hotkeys/ui/global_settings_widget.ui line 28
 #: rc.cpp:32
-#, fuzzy
 #| msgid "Disable KHotKeys daemon"
 msgid "KHotKeys Daemon"
-msgstr "Daemona KHotKeys neçalak bike"
+msgstr "Daemona KHotKeys"
 
 #. i18n: tag string
 #. i18n: file ./kcm_hotkeys/ui/global_settings_widget.ui line 36
@@ -116,23 +112,20 @@ msgstr ""
 #. i18n: tag string
 #. i18n: file ./kcm_hotkeys/ui/menuentry_action_widget.ui line 18
 #: rc.cpp:41
-#, fuzzy
 #| msgid "Actions"
 msgid "Application"
-msgstr "Çalakî"
+msgstr "Sepan"
 
 #. i18n: tag string
 #. i18n: file ./kcm_hotkeys/ui/menuentry_action_widget.ui line 28
 #: rc.cpp:44
-#, fuzzy
 #| msgid "Delete Action"
 msgid "Select Application ..."
-msgstr "Çalakiyê jê bibe"
+msgstr "Sepanê tayîn bike ..."
 
 #. i18n: tag string
 #. i18n: file ./kcm_hotkeys/ui/command_url_action_widget.ui line 16
 #: rc.cpp:47 kcm_hotkeys/hotkeys_tree_view.cpp:54
-#, fuzzy
 #| msgid "Command/URL..."
 msgid "Command/URL"
 msgstr "Ferman/URL..."
@@ -147,19 +140,18 @@ msgstr "Giştî"
 #. i18n: file ./kcm_hotkeys/ui/hotkeys_widget_base.ui line 32
 #: rc.cpp:53
 msgid "Add comment here"
-msgstr ""
+msgstr "Li vir şîrove binivîşe"
 
 #. i18n: tag string
 #. i18n: file ./kcm_hotkeys/ui/hotkeys_widget_base.ui line 39
 #: rc.cpp:56
-#, fuzzy
 #| msgid "&Disable"
 msgid "&Enabled"
-msgstr "&Neçalakkirin"
+msgstr "&Çalakkirî"
 
 #: kcm_hotkeys/hotkeys_tree_view.cpp:38
 msgid "Test"
-msgstr ""
+msgstr "Ceribandin"
 
 #: kcm_hotkeys/hotkeys_tree_view.cpp:45
 msgid "Delete"
@@ -171,26 +163,23 @@ msgstr ""
 
 #: kcm_hotkeys/hotkeys_tree_view.cpp:58
 msgid "Dbus Command"
-msgstr ""
+msgstr "Fermana Dbus"
 
 #: kcm_hotkeys/hotkeys_tree_view.cpp:62
-#, fuzzy
 #| msgid "K-Menu Entry..."
 msgid "K-Menu Entry"
-msgstr "Ketana K-Menu..."
+msgstr "Ketana K-Menu"
 
 #: kcm_hotkeys/hotkeys_tree_view.cpp:66 kcm_hotkeys/hotkeys_tree_view.cpp:94
 #: kcm_hotkeys/hotkeys_model.cpp:60
-#, fuzzy
 #| msgid "New &Group"
 msgid "New Group"
-msgstr "&Koma Nû"
+msgstr "Koma Nû"
 
 #: kcm_hotkeys/hotkeys_tree_view.cpp:94 kcm_hotkeys/hotkeys_model.cpp:60
-#, fuzzy
 #| msgid "Comment:"
 msgid "Comment"
-msgstr "Şîrove:"
+msgstr "Şîrove"
 
 #: kcm_hotkeys/hotkeys_widget_base.cpp:63
 msgid "Parent group is disabled"
@@ -202,7 +191,7 @@ msgstr ""
 
 #: kcm_hotkeys/dbus_action_widget.cpp:122
 msgid "Failed to run qdbusviewer"
-msgstr ""
+msgstr "Xebitandina qdbusviewer biserneket"
 
 #: kcm_hotkeys/kcm_gestures.cpp:102 kcm_hotkeys/kcm_hotkeys.cpp:112
 msgid "KDE Hotkeys Configuration Module"
@@ -210,15 +199,15 @@ msgstr ""
 
 #: kcm_hotkeys/kcm_gestures.cpp:106 kcm_hotkeys/kcm_hotkeys.cpp:116
 msgid "Copyright 2008 (c) Michael Jansen"
-msgstr ""
+msgstr "Copyright 2008 (c) Michael Jansen"
 
 #: kcm_hotkeys/kcm_gestures.cpp:109 kcm_hotkeys/kcm_hotkeys.cpp:119
 msgid "Michael Jansen"
-msgstr ""
+msgstr "Michael Jansen"
 
 #: kcm_hotkeys/kcm_gestures.cpp:110 kcm_hotkeys/kcm_hotkeys.cpp:120
 msgid "Maintainer"
-msgstr "Kesê miqate"
+msgstr "Kesê miqatê"
 
 #: kcm_hotkeys/kcm_gestures.cpp:302 kcm_hotkeys/kcm_hotkeys.cpp:312
 msgid ""
@@ -228,7 +217,7 @@ msgstr ""
 
 #: kcm_hotkeys/kcm_gestures.cpp:303 kcm_hotkeys/kcm_hotkeys.cpp:313
 msgid "Save changes"
-msgstr ""
+msgstr "Guhartinan tomar bike"
 
 #: kcm_hotkeys/kcm_gestures.cpp:347 kcm_hotkeys/kcm_hotkeys.cpp:356
 msgid "Started server <em>org.kde.khotkeys</em>."
@@ -247,17 +236,16 @@ msgstr ""
 
 #: kcm_hotkeys/hotkeys_model.cpp:223
 msgid "Name"
-msgstr ""
+msgstr "Nav"
 
 #: kcm_hotkeys/hotkeys_model.cpp:226
-#, fuzzy
 #| msgid "&Disable"
 msgid "Enabled"
-msgstr "&Neçalakkirin"
+msgstr "Çeçalakkirî"
 
 #: kcm_hotkeys/hotkeys_model.cpp:229
 msgid "Type"
-msgstr ""
+msgstr "Cure"
 
 #: update/update.cpp:31
 #, fuzzy
@@ -295,53 +283,47 @@ msgstr ""
 #: libkhotkeysprivate/conditions/or_condition.cpp:62
 msgctxt "Or_condition"
 msgid "Or"
-msgstr ""
+msgstr "An"
 
 #: libkhotkeysprivate/conditions/and_condition.cpp:60
 msgctxt "And_condition"
 msgid "And"
-msgstr ""
+msgstr "Û"
 
 #: libkhotkeysprivate/conditions/not_condition.cpp:53
 msgctxt "Not_condition"
 msgid "Not"
-msgstr ""
+msgstr "Ne"
 
 #: libkhotkeysprivate/conditions/active_window_condition.cpp:73
-#, fuzzy
 #| msgid "Active window"
 msgid "Active window: "
-msgstr "Pencereya çalak"
+msgstr "Paceya çalak:"
 
 #: libkhotkeysprivate/conditions/existing_window_condition.cpp:76
-#, fuzzy
 #| msgid "Existing Window..."
 msgid "Existing window: "
-msgstr "Pencereya Heyî..."
+msgstr "Pencereya heyî"
 
 #: libkhotkeysprivate/actions/menuentry_action.cpp:87
-#, fuzzy
 #| msgid "Menu entry to execute:"
 msgid "Menu entry: "
-msgstr "Ketana pêşekê ya were xebitandin:"
+msgstr "Ketana pêşekê:"
 
 #: libkhotkeysprivate/actions/dbus_action.cpp:136
-#, fuzzy
 #| msgid "D-Bus : "
 msgid "D-Bus: "
-msgstr "D-Bus : "
+msgstr "D-Bus: "
 
 #: libkhotkeysprivate/actions/command_url_action.cpp:68
-#, fuzzy
 #| msgid "Command/URL..."
 msgid "Command/URL : "
-msgstr "Ferman/URL..."
+msgstr "Ferman/URL :"
 
 #: libkhotkeysprivate/actions/activate_window_action.cpp:79
-#, fuzzy
 #| msgid "Active window"
 msgid "Activate window: "
-msgstr "Pencereya çalak"
+msgstr "Paceyê çalak bike:"
 
 #: libkhotkeysprivate/actions/keyboard_input_action.cpp:139
 msgid "Keyboard input: "
@@ -517,3 +499,4 @@ msgstr ""
 #~| msgid "&Copy"
 #~ msgid "Copy of "
 #~ msgstr "Ji&bergirtin"
+
