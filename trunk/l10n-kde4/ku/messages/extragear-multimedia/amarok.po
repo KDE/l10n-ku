@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok-neu\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-08-08 08:29+0200\n"
+"POT-Creation-Date: 2008-08-09 09:59+0200\n"
 "PO-Revision-Date: 2007-12-16 23:28+0100\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
@@ -273,7 +273,7 @@ msgstr "Hemû Koleksiyon"
 #: mediadevice/generic/genericmediadeviceconfigdialog.ui.h:175
 #: mediadevice/generic/genericmediadevice.cpp:523
 #: playlist/PlaylistGraphicsItem.cpp:350
-#: collectionscanner/CollectionScanner.cpp:544
+#: collectionscanner/CollectionScanner.cpp:580
 #: covermanager/CoverManager.cpp:345 covermanager/CoverManager.cpp:904
 msgid "Various Artists"
 msgstr "Hunermendên cur bi cur"
@@ -1517,7 +1517,7 @@ msgstr ""
 #: browsers/servicebrowser/magnatunestore/MagnatuneStore.cpp:175
 #: browsers/servicebrowser/jamendo/JamendoService.cpp:134
 #: mediadevice/ifp/ifpmediadevice.cpp:402 rc.cpp:905
-#: playlist/PlaylistHeader.cpp:45 playlist/PlaylistModel.cpp:518
+#: playlist/PlaylistHeader.cpp:45 playlist/PlaylistModel.cpp:519
 #: widgets/TokenListWidget.cpp:39 widgets/FilenameLayoutWidget.cpp:289
 #: SmartPlaylistEditor.cpp:187 SmartPlaylistEditor.cpp:201
 msgid "Album"
@@ -1530,7 +1530,7 @@ msgstr "Album"
 #: browsers/collectionbrowser/CollectionWidget.cpp:58
 #: browsers/servicebrowser/magnatunestore/MagnatuneStore.cpp:167
 #: browsers/servicebrowser/jamendo/JamendoService.cpp:126 rc.cpp:902
-#: playlist/PlaylistHeader.cpp:45 playlist/PlaylistModel.cpp:514
+#: playlist/PlaylistHeader.cpp:45 playlist/PlaylistModel.cpp:515
 #: widgets/TokenListWidget.cpp:36 widgets/FilenameLayoutWidget.cpp:277
 #: SmartPlaylistEditor.cpp:187 SmartPlaylistEditor.cpp:201
 msgid "Artist"
@@ -1538,7 +1538,7 @@ msgstr "Hunermend"
 
 #: dialogs/EditFilterDialog.cpp:129
 #: browsers/collectionbrowser/CollectionTreeItemModelBase.cpp:546
-#: playlist/PlaylistModel.cpp:516 widgets/TokenListWidget.cpp:37
+#: playlist/PlaylistModel.cpp:517 widgets/TokenListWidget.cpp:37
 #: widgets/FilenameLayoutWidget.cpp:281 SmartPlaylistEditor.cpp:187
 #: SmartPlaylistEditor.cpp:201
 msgid "Composer"
@@ -1546,7 +1546,7 @@ msgstr ""
 
 #: dialogs/EditFilterDialog.cpp:131 dialogs/transferdialog.cpp:95
 #: browsers/collectionbrowser/CollectionTreeItemModelBase.cpp:547
-#: playlist/PlaylistModel.cpp:522 widgets/TokenListWidget.cpp:41
+#: playlist/PlaylistModel.cpp:523 widgets/TokenListWidget.cpp:41
 #: widgets/FilenameLayoutWidget.cpp:297 SmartPlaylistEditor.cpp:187
 #: SmartPlaylistEditor.cpp:201
 msgid "Genre"
@@ -1554,7 +1554,7 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./dialogs/trackpickerdialogbase.ui line 91
-#: dialogs/EditFilterDialog.cpp:133 rc.cpp:899 playlist/PlaylistModel.cpp:513
+#: dialogs/EditFilterDialog.cpp:133 rc.cpp:899 playlist/PlaylistModel.cpp:514
 #: widgets/TokenListWidget.cpp:35 widgets/FilenameLayoutWidget.cpp:273
 #: SmartPlaylistEditor.cpp:187
 msgid "Title"
@@ -1571,7 +1571,7 @@ msgstr ""
 #. i18n: file ./dialogs/trackpickerdialogbase.ui line 135
 #: dialogs/EditFilterDialog.cpp:137
 #: browsers/collectionbrowser/CollectionTreeItemModelBase.cpp:548 rc.cpp:911
-#: playlist/PlaylistModel.cpp:517 widgets/TokenListWidget.cpp:38
+#: playlist/PlaylistModel.cpp:518 widgets/TokenListWidget.cpp:38
 #: widgets/FilenameLayoutWidget.cpp:285 SmartPlaylistEditor.cpp:188
 #: SmartPlaylistEditor.cpp:201 SmartPlaylistEditor.cpp:925
 msgid "Year"
@@ -1865,7 +1865,7 @@ msgid ""
 "(C) 2003-2008, The Amarok Development Squad"
 msgstr ""
 
-#: App.cpp:91
+#: App.cpp:91 afttagger/afttagger_main.cpp:65
 msgid ""
 "IRC:\n"
 "irc.freenode.net - #amarok, #amarok.de, #amarok.es, #amarok.fr\n"
@@ -2165,7 +2165,7 @@ msgstr "Podcast"
 msgid "Podcast"
 msgstr "Podcast"
 
-#: Systray.cpp:123 browsers/collectionbrowser/CollectionTreeView.cpp:694
+#: Systray.cpp:123 browsers/collectionbrowser/CollectionTreeView.cpp:698
 #: browsers/playlistbrowser/PodcastCategory.cpp:338
 #: browsers/playlistbrowser/UserPlaylistTreeView.cpp:141
 #: mediadevice/ipod/ipodmediadevice.cpp:2240
@@ -2738,12 +2738,12 @@ msgstr "Koleksiyon"
 msgid "Move to Collection"
 msgstr "Koleksiyon"
 
-#: browsers/collectionbrowser/CollectionTreeView.cpp:375
+#: browsers/collectionbrowser/CollectionTreeView.cpp:378
 #, fuzzy
 msgid "More..."
 msgstr "&Veava bike..."
 
-#: browsers/collectionbrowser/CollectionTreeView.cpp:702
+#: browsers/collectionbrowser/CollectionTreeView.cpp:706
 #: browsers/playlistbrowser/UserPlaylistTreeView.cpp:146
 #, fuzzy
 #| msgid "&Load"
@@ -2751,12 +2751,12 @@ msgctxt "Replace the currently loaded tracks with these"
 msgid "&Load"
 msgstr "&Bar bike"
 
-#: browsers/collectionbrowser/CollectionTreeView.cpp:724
+#: browsers/collectionbrowser/CollectionTreeView.cpp:728
 #, fuzzy
 msgid "&Edit Track Details"
 msgstr "&Agahiya Stranan Sererast Bike..."
 
-#: browsers/collectionbrowser/CollectionTreeView.cpp:756
+#: browsers/collectionbrowser/CollectionTreeView.cpp:760
 msgctxt "Organize Files"
 msgid "Organize Files"
 msgstr ""
@@ -3371,39 +3371,39 @@ msgstr ""
 msgid "MP3tunes Locker"
 msgstr ""
 
-#: browsers/servicebrowser/mp3tunes/Mp3tunesService.cpp:103
+#: browsers/servicebrowser/mp3tunes/Mp3tunesService.cpp:104
 msgid "The MP3tunes Locker: Your Music Everywhere!"
 msgstr ""
 
-#: browsers/servicebrowser/mp3tunes/Mp3tunesService.cpp:143
+#: browsers/servicebrowser/mp3tunes/Mp3tunesService.cpp:144
 msgid "AutoSync"
 msgstr ""
 
-#: browsers/servicebrowser/mp3tunes/Mp3tunesService.cpp:146
+#: browsers/servicebrowser/mp3tunes/Mp3tunesService.cpp:147
 msgid "Disable AutoSync"
 msgstr ""
 
-#: browsers/servicebrowser/mp3tunes/Mp3tunesService.cpp:150
+#: browsers/servicebrowser/mp3tunes/Mp3tunesService.cpp:151
 msgid "Enable AutoSync"
 msgstr ""
 
-#: browsers/servicebrowser/mp3tunes/Mp3tunesService.cpp:214
+#: browsers/servicebrowser/mp3tunes/Mp3tunesService.cpp:215
 msgid "MP3Tunes AutoSync Enabled"
 msgstr ""
 
-#: browsers/servicebrowser/mp3tunes/Mp3tunesService.cpp:230
+#: browsers/servicebrowser/mp3tunes/Mp3tunesService.cpp:231
 msgid "MP3Tunes AutoSync Disabled"
 msgstr ""
 
-#: browsers/servicebrowser/mp3tunes/Mp3tunesService.cpp:250
+#: browsers/servicebrowser/mp3tunes/Mp3tunesService.cpp:251
 msgid "Authenticating"
 msgstr ""
 
-#: browsers/servicebrowser/mp3tunes/Mp3tunesService.cpp:262
+#: browsers/servicebrowser/mp3tunes/Mp3tunesService.cpp:263
 msgid "Mp3tunes failed to Authenticate."
 msgstr ""
 
-#: browsers/servicebrowser/mp3tunes/Mp3tunesService.cpp:292
+#: browsers/servicebrowser/mp3tunes/Mp3tunesService.cpp:295
 msgid "MP3Tunes Harmony: Disconnected"
 msgstr ""
 
@@ -8076,7 +8076,7 @@ msgstr ""
 msgid "Track Number - Title"
 msgstr "Hejmara Stranê"
 
-#: playlist/PlaylistHeader.cpp:45 playlist/PlaylistModel.cpp:526
+#: playlist/PlaylistHeader.cpp:45 playlist/PlaylistModel.cpp:527
 #: widgets/TrackTooltip.cpp:206 widgets/TrackTooltip.cpp:213
 #: SmartPlaylistEditor.cpp:187
 msgid "Length"
@@ -8119,100 +8119,167 @@ msgstr "Hejmara Stranê"
 msgid "Playlists Added"
 msgstr "lîsteya lêdanê"
 
-#: playlist/PlaylistModel.cpp:103
+#: playlist/PlaylistModel.cpp:104
 msgid "Undo"
 msgstr ""
 
-#: playlist/PlaylistModel.cpp:106
+#: playlist/PlaylistModel.cpp:107
 msgid "Redo"
 msgstr ""
 
-#: playlist/PlaylistModel.cpp:512
+#: playlist/PlaylistModel.cpp:513
 #, fuzzy
 #| msgid "Rename"
 msgctxt "The name of the file this track is stored in"
 msgid "Filename"
 msgstr "Nav biguharîne"
 
-#: playlist/PlaylistModel.cpp:515
+#: playlist/PlaylistModel.cpp:516
 msgid "Album Artist"
 msgstr ""
 
-#: playlist/PlaylistModel.cpp:519
+#: playlist/PlaylistModel.cpp:520
 msgid "Disc Number"
 msgstr ""
 
-#: playlist/PlaylistModel.cpp:520
+#: playlist/PlaylistModel.cpp:521
 #, fuzzy
 msgctxt "The Track number for this item"
 msgid "Track"
 msgstr "Stran  #"
 
-#: playlist/PlaylistModel.cpp:521 SmartPlaylistEditor.cpp:191
+#: playlist/PlaylistModel.cpp:522 SmartPlaylistEditor.cpp:191
 msgid "BPM"
 msgstr ""
 
-#: playlist/PlaylistModel.cpp:523 widgets/TokenListWidget.cpp:40
+#: playlist/PlaylistModel.cpp:524 widgets/TokenListWidget.cpp:40
 #: widgets/FilenameLayoutWidget.cpp:293 SmartPlaylistEditor.cpp:188
 msgid "Comment"
 msgstr ""
 
-#: playlist/PlaylistModel.cpp:524
+#: playlist/PlaylistModel.cpp:525
 #, fuzzy
 #| msgid "Directory"
 msgctxt "The location on disc of this track"
 msgid "Directory"
 msgstr "Pelrêç"
 
-#: playlist/PlaylistModel.cpp:525
+#: playlist/PlaylistModel.cpp:526
 msgid "Type"
 msgstr "Cure"
 
-#: playlist/PlaylistModel.cpp:527 SmartPlaylistEditor.cpp:191
+#: playlist/PlaylistModel.cpp:528 SmartPlaylistEditor.cpp:191
 msgid "Bitrate"
 msgstr ""
 
-#: playlist/PlaylistModel.cpp:528
+#: playlist/PlaylistModel.cpp:529
 msgid "Sample Rate"
 msgstr "Rêjeya Mînakkirinê"
 
-#: playlist/PlaylistModel.cpp:529 widgets/TrackTooltip.cpp:167
+#: playlist/PlaylistModel.cpp:530 widgets/TrackTooltip.cpp:167
 #: SmartPlaylistEditor.cpp:189
 msgid "Score"
 msgstr "Skor"
 
-#: playlist/PlaylistModel.cpp:530 widgets/TrackTooltip.cpp:185
+#: playlist/PlaylistModel.cpp:531 widgets/TrackTooltip.cpp:185
 #: SmartPlaylistEditor.cpp:189
 msgid "Rating"
 msgstr ""
 
-#: playlist/PlaylistModel.cpp:531 widgets/TrackTooltip.cpp:192
+#: playlist/PlaylistModel.cpp:532 widgets/TrackTooltip.cpp:192
 msgid "Play Count"
 msgstr ""
 
-#: playlist/PlaylistModel.cpp:532
+#: playlist/PlaylistModel.cpp:533
 #, fuzzy
 msgctxt "Column name"
 msgid "Last Played"
 msgstr "yê dawî hatine lêdan"
 
-#: playlist/PlaylistModel.cpp:533
+#: playlist/PlaylistModel.cpp:534
 msgid "Mood"
 msgstr ""
 
-#: playlist/PlaylistModel.cpp:534
+#: playlist/PlaylistModel.cpp:535
 msgid "File Size"
 msgstr ""
 
-#: playlist/PlaylistModel.cpp:757
+#: playlist/PlaylistModel.cpp:758
 #, kde-format
 msgid "One track was already in the playlist, so it was not added."
 msgid_plural "%1 tracks were already in the playlist, so they were not added."
 msgstr[0] ""
 msgstr[1] ""
 
-#: playlist/PlaylistModel.cpp:909
+#: playlist/PlaylistModel.cpp:910
 msgid "Too many errors encountered in playlist. Playback stopped."
+msgstr ""
+
+#: afttagger/afttagger_main.cpp:62
+msgid "Amarok AFT Tagger"
+msgstr ""
+
+#: afttagger/afttagger_main.cpp:63
+msgid "AFT Tagging helper application for Amarok"
+msgstr ""
+
+#: afttagger/afttagger_main.cpp:64
+msgid "(C) 2008, Jeff Mitchell"
+msgstr ""
+
+#: afttagger/afttagger_main.cpp:68
+msgid "Jeff Mitchell"
+msgstr ""
+
+#: afttagger/afttagger_main.cpp:69
+msgid "Developer (jefferai)"
+msgstr ""
+
+#: afttagger/afttagger_main.cpp:75
+msgid "Files/Directories to tag"
+msgstr ""
+
+#: afttagger/afttagger_main.cpp:76
+msgid "Delete AFT IDs from the files"
+msgstr ""
+
+#: afttagger/afttagger_main.cpp:77
+msgid "Generate a new ID even if an up-to-date one exists"
+msgstr ""
+
+#: afttagger/afttagger_main.cpp:78
+msgid "No prompts -- Indicates you agree to the terms of use!"
+msgstr ""
+
+#: afttagger/afttagger_main.cpp:79
+msgid "Recursively process files and directories"
+msgstr ""
+
+#: afttagger/afttagger_main.cpp:80
+msgid "More verbose output"
+msgstr ""
+
+#: afttagger/afttagger_main.cpp:98
+msgid ""
+"TERMS OF USE:\n"
+"\n"
+"This program has been extensively tested and errs on the side of safety "
+"wherever possible.\n"
+"\n"
+"With that being said, since this program can modify thousands or hundreds of "
+"thousands of files\n"
+"at a time, here is the obligatory warning text:\n"
+"\n"
+"This program makes use of multiple libraries not written by the author, and "
+"as such neither the\n"
+"the author nor the Amarok project can or do take any responsibility for any "
+"damage that may\n"
+"occur to your files through the use of this program.\n"
+"\n"
+"If you want more information, please see http://amarok.kde.org/wiki/AFT\n"
+"\n"
+"If you agree to be bound by these terms of use, enter 'y' or 'Y', or "
+"anything else to exit:\n"
 msgstr ""
 
 #: statusbar/StatusBar.cpp:77
