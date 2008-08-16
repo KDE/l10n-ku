@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-08-11 08:34+0200\n"
+"POT-Creation-Date: 2008-08-16 09:59+0200\n"
 "PO-Revision-Date: 2007-12-17 01:31+0100\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
@@ -1308,13 +1308,12 @@ msgstr ""
 msgid "To Path"
 msgstr ""
 
-#: flake/tools/KoPathTool.cpp:165 kotext/styles/KoStyleManager.cpp:67
-#: kotext/styles/KoStyleManager.cpp:69
-msgid "Default"
+#: flake/tools/KoPathTool.cpp:166
+msgid "Line/Curve"
 msgstr ""
 
-#: flake/tools/KoPathTool.cpp:166
-msgid "Snap Guides"
+#: flake/tools/KoPathTool.cpp:167 flake/tools/KoCreatePathTool.cpp:334
+msgid "Snapping"
 msgstr ""
 
 #: flake/tools/KoZoomToolFactory.cpp:27
@@ -1778,6 +1777,10 @@ msgstr ""
 msgid "Select the index you want to reference"
 msgstr ""
 
+#: kotext/styles/KoStyleManager.cpp:67 kotext/styles/KoStyleManager.cpp:69
+msgid "Default"
+msgstr ""
+
 #: kotext/KoTextSelectionHandler.cpp:176
 msgid "Underline"
 msgstr ""
@@ -2149,51 +2152,51 @@ msgid "&Delete Personal Data"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./flake/SnapGuideConfigWidget.ui line 16
+#. i18n: file ./flake/SnapGuideConfigWidget.ui line 34
 #: rc.cpp:143
-msgid "Use snap guides"
+msgid "Proximity distance where snapping happens"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./flake/SnapGuideConfigWidget.ui line 26
+#. i18n: file ./flake/SnapGuideConfigWidget.ui line 37
 #: rc.cpp:146
-msgid "Enable Nodes Guide"
+msgid " px"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./flake/SnapGuideConfigWidget.ui line 33
+#. i18n: file ./flake/SnapGuideConfigWidget.ui line 70
 #: rc.cpp:149
-msgid "Enable Orthogonal Guide"
+msgid "Nodes"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./flake/SnapGuideConfigWidget.ui line 40
+#. i18n: file ./flake/SnapGuideConfigWidget.ui line 90
 #: rc.cpp:152
-msgid "Enable Extension Guide"
+msgid "Extension of lines"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./flake/SnapGuideConfigWidget.ui line 47
+#. i18n: file ./flake/SnapGuideConfigWidget.ui line 110
 #: rc.cpp:155
-msgid "Enable Intersection Guide"
+msgid "Bounding box of shape"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./flake/SnapGuideConfigWidget.ui line 54
+#. i18n: file ./flake/SnapGuideConfigWidget.ui line 130
 #: rc.cpp:158
-msgid "Enable Bounding Box Guide"
+msgid "Orthogonal"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./flake/SnapGuideConfigWidget.ui line 61
+#. i18n: file ./flake/SnapGuideConfigWidget.ui line 150
 #: rc.cpp:161
-msgid "Snap Distance (px)"
+msgid "Guide lines"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./flake/SnapGuideConfigWidget.ui line 97
+#. i18n: file ./flake/SnapGuideConfigWidget.ui line 170
 #: rc.cpp:164
-msgid "Enable Guide Lines Guide "
+msgid "Intersection of lines"
 msgstr ""
 
 #. i18n: tag string
