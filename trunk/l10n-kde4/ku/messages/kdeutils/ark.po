@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-09-07 09:38+0200\n"
+"POT-Creation-Date: 2008-09-11 09:43+0200\n"
 "PO-Revision-Date: 2007-12-22 09:56+0100\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <gnu-ku-wergerandin at lists dot sourceforge dot "
@@ -192,15 +192,15 @@ msgstr "Derxistin"
 msgid "Extract multiple archives"
 msgstr "Hemû pel tên derxistin"
 
-#: kerfuffle/jobs.cpp:44
+#: kerfuffle/jobs.cpp:83
 msgid "Listing entries"
 msgstr ""
 
-#: kerfuffle/jobs.cpp:110
+#: kerfuffle/jobs.cpp:128
 msgid "Extracting all files"
 msgstr "Hemû pel tên derxistin"
 
-#: kerfuffle/jobs.cpp:114
+#: kerfuffle/jobs.cpp:132
 #, kde-format
 msgid "Extracting one file"
 msgid_plural "Extracting %1 files"
@@ -214,7 +214,7 @@ msgid_plural "Adding %1 files"
 msgstr[0] ""
 msgstr[1] ""
 
-#: kerfuffle/jobs.cpp:203
+#: kerfuffle/jobs.cpp:182
 #, kde-format
 msgid "Deleting a file from the archive"
 msgid_plural "Deleting %1 files"
@@ -449,6 +449,11 @@ msgstr ""
 #: plugins/karchiveplugin/karchiveplugin.cpp:82
 #, kde-format
 msgid "Could not open the archive '%1' for reading"
+msgstr ""
+
+#: plugins/karchiveplugin/karchiveplugin.cpp:92
+#, kde-format
+msgid "File '%1' not found in the archive"
 msgstr ""
 
 #: plugins/karchiveplugin/karchiveplugin.cpp:170
