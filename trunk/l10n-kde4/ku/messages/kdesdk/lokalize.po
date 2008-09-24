@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaider\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-09-22 09:34+0200\n"
+"POT-Creation-Date: 2008-09-24 10:37+0200\n"
 "PO-Revision-Date: 2008-09-24 02:55+0300\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: American English <kde-i18n-doc@lists.kde.org>\n"
@@ -430,14 +430,10 @@ msgid "Project"
 msgstr "Proje"
 
 #: lokalizemainwindow.cpp:493
-#| msgctxt "@action:inmenu entry"
-#| msgid "&Next"
 msgid "Next tab"
 msgstr "Pêşve"
 
 #: lokalizemainwindow.cpp:496
-#| msgctxt "@action:inmenu entry"
-#| msgid "&Previous"
 msgid "Previous tab"
 msgstr "Paşve"
 
@@ -574,13 +570,13 @@ msgctxt "@title:window"
 msgid "Original Diff"
 msgstr ""
 
-#: msgiddiffview.cpp:58
+#: msgiddiffview.cpp:60
 msgctxt "@info:tooltip"
 msgid ""
-"Sometimes, if original is changed, its translation becomes <emphasis>fuzzy</"
-"emphasis>. This window shows the difference between new original string and "
-"the old one, so that you can see what changes should be applied to "
-"translation."
+"Sometimes, if original text is changed, its translation becomes "
+"<emphasis>fuzzy</emphasis> (i.e. looses approval status). This window shows "
+"the difference between new original string and the old one, so that you can "
+"easily see which changes should be applied to translation."
 msgstr ""
 
 #. i18n: file: editorui.rc:4
@@ -753,8 +749,6 @@ msgstr "Çavkanî"
 #. i18n: file: tm/queryoptions.ui:49
 #. i18n: ectx: property (text), widget (QLabel, queryTargetLabel)
 #: rc.cpp:76
-#| msgctxt "@title:column"
-#| msgid "Target"
 msgid "Target:"
 msgstr "Hedef"
 
@@ -1239,7 +1233,8 @@ msgstr ""
 #. i18n: file: prefs/prefs_identity.ui:146
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, kcfg_authorLocalizedName)
 #: rc.cpp:355
-msgid "Write your name and surname in your language with your language alphabet."
+msgid ""
+"Write your name and surname in your language with your language alphabet."
 msgstr ""
 
 #. i18n: file: prefs/prefs_identity.ui:153
@@ -1687,7 +1682,7 @@ msgctxt "@title:window"
 msgid "Select TMX file to export selected database to"
 msgstr ""
 
-#: tm/tmview.cpp:65 tm/tmview.cpp:70 tm/tmwindow.cpp:184
+#: tm/tmview.cpp:65 tm/tmview.cpp:70 tm/tmwindow.cpp:185
 msgctxt "@title:window"
 msgid "Translation Memory"
 msgstr ""
@@ -1742,15 +1737,15 @@ msgctxt "@title:column"
 msgid "File"
 msgstr "Pel"
 
-#: tm/tmwindow.cpp:208
+#: tm/tmwindow.cpp:209
 msgid "Copy source to clipboard"
 msgstr ""
 
-#: tm/tmwindow.cpp:214
+#: tm/tmwindow.cpp:215
 msgid "Copy target to clipboard"
 msgstr ""
 
-#: tm/tmwindow.cpp:220
+#: tm/tmwindow.cpp:221
 #, fuzzy
 #| msgctxt "@action:inmenu"
 #| msgid "Replace in files"
@@ -1797,4 +1792,3 @@ msgstr "Lêgerînên Torê"
 #~ msgctxt "@title:column"
 #~ msgid "English"
 #~ msgstr "Îngilîzî"
-
