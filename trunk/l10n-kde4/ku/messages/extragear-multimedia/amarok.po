@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok-neu\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-09-26 09:53+0200\n"
+"POT-Creation-Date: 2008-09-27 10:38+0200\n"
 "PO-Revision-Date: 2008-09-23 21:30+0300\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -829,8 +829,8 @@ msgstr ""
 msgid "Remove %1"
 msgstr "Nav biguharîne"
 
-#: context/applets/currenttrack/CurrentTrack.cpp:82
-#: context/applets/currenttrack/CurrentTrack.cpp:313
+#: context/applets/currenttrack/CurrentTrack.cpp:83
+#: context/applets/currenttrack/CurrentTrack.cpp:314
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:258
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:702
 #: playlist/PlaylistModel.cpp:574 widgets/TrackTooltip.cpp:166
@@ -838,24 +838,24 @@ msgstr "Nav biguharîne"
 msgid "Score"
 msgstr "Skor"
 
-#: context/applets/currenttrack/CurrentTrack.cpp:83
-#: context/applets/currenttrack/CurrentTrack.cpp:314
+#: context/applets/currenttrack/CurrentTrack.cpp:84
+#: context/applets/currenttrack/CurrentTrack.cpp:315
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:256
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:700
 #: playlist/PlaylistModel.cpp:576 widgets/TrackTooltip.cpp:191
 msgid "Play Count"
 msgstr ""
 
-#: context/applets/currenttrack/CurrentTrack.cpp:84
-#: context/applets/currenttrack/CurrentTrack.cpp:315
+#: context/applets/currenttrack/CurrentTrack.cpp:85
+#: context/applets/currenttrack/CurrentTrack.cpp:316
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:263
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:707
-#: widgets/TrackTooltip.cpp:202
+#: widgets/TrackTooltip.cpp:196
 #, fuzzy
 msgid "Last Played"
 msgstr "yê dawî hatine lêdan"
 
-#: context/applets/currenttrack/CurrentTrack.cpp:119 Osd.cpp:604
+#: context/applets/currenttrack/CurrentTrack.cpp:120 Osd.cpp:604
 msgid "No track playing"
 msgstr ""
 
@@ -875,20 +875,20 @@ msgstr[1] "stran"
 msgid "Lyrics"
 msgstr "Gotinên Stranê"
 
-#: context/applets/lyrics/LyricsApplet.cpp:173
+#: context/applets/lyrics/LyricsApplet.cpp:174
 msgid "No lyrics script is running!"
 msgstr ""
 
-#: context/applets/lyrics/LyricsApplet.cpp:178
+#: context/applets/lyrics/LyricsApplet.cpp:179
 msgid "Lyrics are being fetched."
 msgstr ""
 
-#: context/applets/lyrics/LyricsApplet.cpp:183
+#: context/applets/lyrics/LyricsApplet.cpp:184
 msgid ""
 "Lyrics were not able to be downloaded. Please check your internet connection."
 msgstr ""
 
-#: context/applets/lyrics/LyricsApplet.cpp:223
+#: context/applets/lyrics/LyricsApplet.cpp:224
 msgid "There were no lyrics found for this track"
 msgstr ""
 
@@ -3753,14 +3753,14 @@ msgstr ""
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:257
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:701
 #: playlist/PlaylistModel.cpp:575 widgets/TrackTooltip.cpp:184
-#: widgets/TrackTooltip.cpp:195 SmartPlaylistEditor.cpp:189
+#: SmartPlaylistEditor.cpp:189
 msgid "Rating"
 msgstr ""
 
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:259
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:703
 #: playlist/PlaylistHeader.cpp:45 playlist/PlaylistModel.cpp:571
-#: widgets/TrackTooltip.cpp:216 SmartPlaylistEditor.cpp:187
+#: widgets/TrackTooltip.cpp:204 SmartPlaylistEditor.cpp:187
 msgid "Length"
 msgstr ""
 
@@ -7819,8 +7819,7 @@ msgctxt "The location on disc of this track"
 msgid "Directory"
 msgstr "Pelrêç"
 
-#: playlist/PlaylistModel.cpp:572 widgets/TrackTooltip.cpp:205
-#: SmartPlaylistEditor.cpp:191
+#: playlist/PlaylistModel.cpp:572 SmartPlaylistEditor.cpp:191
 msgid "Bitrate"
 msgstr ""
 
@@ -8121,26 +8120,17 @@ msgstr ""
 msgid "Click for more analyzers"
 msgstr ""
 
-#: widgets/TrackTooltip.cpp:198
-#, fuzzy
-msgid "Playcount"
-msgstr "&Bilîze"
-
-#: widgets/TrackTooltip.cpp:208
-msgid "Format"
-msgstr ""
-
-#: widgets/TrackTooltip.cpp:238
+#: widgets/TrackTooltip.cpp:226
 #, kde-format
 msgid " by <b>%1</b>"
 msgstr ""
 
-#: widgets/TrackTooltip.cpp:243
+#: widgets/TrackTooltip.cpp:231
 #, kde-format
 msgid " on <b>%1</b></center>"
 msgstr ""
 
-#: widgets/TrackTooltip.cpp:258
+#: widgets/TrackTooltip.cpp:246
 msgid "Amarok - No track playing."
 msgstr ""
 
@@ -8598,6 +8588,10 @@ msgstr "Sal"
 #: SmartPlaylistEditor.cpp:1017
 msgid "Hours"
 msgstr "Saet "
+
+#, fuzzy
+#~ msgid "Playcount"
+#~ msgstr "&Bilîze"
 
 #, fuzzy
 #~ msgid "1 Queued Track (%2)"
