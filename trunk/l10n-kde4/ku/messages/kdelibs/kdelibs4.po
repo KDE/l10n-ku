@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-10-02 09:44+0200\n"
+"POT-Creation-Date: 2008-10-03 09:40+0200\n"
 "PO-Revision-Date: 2008-08-30 14:20+0300\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
@@ -3257,11 +3257,11 @@ msgstr "Pirtûkxaneya %1 hilberînereke ahengî KDE 4ê nahundirîne."
 msgid "The plugin '%1' uses an incompatible KDE library (%2)."
 msgstr "Pêveka '%1' pirtûkxaneyeke KDE ya neahengî (%2) bi kar tîne."
 
-#: kdecore/config/kconfig.cpp:670
+#: kdecore/config/kconfig.cpp:667
 msgid "Please contact your system administrator."
 msgstr "Ji kerema xwe re bi gerînendeyê pergalê têkeve têkiliyê."
 
-#: kdecore/config/kconfigini.cpp:495
+#: kdecore/config/kconfigini.cpp:511
 #, kde-format
 msgid "Configuration file \"%1\" not writable.\n"
 msgstr "Pelê mîhengê \"%1\" nayê nivîsîn.\n"
@@ -5972,6 +5972,12 @@ msgstr ""
 msgid "Configure Shortcuts"
 msgstr "Rurteriyan Veava Bike"
 
+#: kdeui/dialogs/kshortcutsdialog.cpp:113
+#, fuzzy
+#| msgid "&Defaults"
+msgid "Reset to Defaults"
+msgstr "&Pêşdanasînî"
+
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:42
 #, fuzzy
 #| msgid "Shortcuts"
@@ -6262,8 +6268,8 @@ msgstr ""
 msgid "Reset Toolbars"
 msgstr "Darikên Amûran Vegerîne Serî"
 
-#: kdeui/dialogs/kedittoolbar.cpp:526 khtml/khtmlview.cpp:2948
-#: khtml/khtmlview.cpp:2981 khtml/html/html_formimpl.cpp:2190
+#: kdeui/dialogs/kedittoolbar.cpp:526 khtml/khtmlview.cpp:2953
+#: khtml/khtmlview.cpp:2986 khtml/html/html_formimpl.cpp:2157
 msgid "Reset"
 msgstr "Vesazkirin"
 
@@ -9580,31 +9586,31 @@ msgstr "Herêm"
 msgid "Comment"
 msgstr "Şirove"
 
-#: kdeui/widgets/ktextedit.cpp:407 kde3support/kdeui/k3textedit.cpp:232
+#: kdeui/widgets/ktextedit.cpp:423 kde3support/kdeui/k3textedit.cpp:232
 msgid "Check Spelling..."
 msgstr "Rastnivîsê Kontrol Bike..."
 
-#: kdeui/widgets/ktextedit.cpp:410 kde3support/kdeui/k3textedit.cpp:238
+#: kdeui/widgets/ktextedit.cpp:426 kde3support/kdeui/k3textedit.cpp:238
 msgid "Auto Spell Check"
 msgstr "Kontrolkirina Rastnivîsê ya Bixweber"
 
-#: kdeui/widgets/ktextedit.cpp:414 kde3support/kdeui/k3textedit.cpp:242
+#: kdeui/widgets/ktextedit.cpp:430 kde3support/kdeui/k3textedit.cpp:242
 msgid "Allow Tabulations"
 msgstr "Destûrê Bide Hilfirînan"
 
-#: kdeui/widgets/ktextedit.cpp:509
+#: kdeui/widgets/ktextedit.cpp:525
 msgid "Suggestions"
 msgstr "Pêşniyaz"
 
-#: kdeui/widgets/ktextedit.cpp:511
+#: kdeui/widgets/ktextedit.cpp:527
 msgid "Ignore"
 msgstr "Guh nede"
 
-#: kdeui/widgets/ktextedit.cpp:512
+#: kdeui/widgets/ktextedit.cpp:528
 msgid "Add to Dictionary"
 msgstr "Li Ferhengê Zêde Bike"
 
-#: kdeui/widgets/ktextedit.cpp:658
+#: kdeui/widgets/ktextedit.cpp:674
 msgid "Nothing to spell check."
 msgstr "Tu tiştekî ji bo kontrola rastnivîsînê tune."
 
@@ -10303,8 +10309,8 @@ msgstr ""
 "<qt>Wê ev form ji navnîşana <br /><b>%1</b><br /> ya di pergala pelan ya "
 "herêmî de ye were şandin.<br />Tu dixwazî vê formê bişînî?</qt>"
 
-#: khtml/khtml_part.cpp:4941 khtml/khtmlview.cpp:2934 khtml/khtmlview.cpp:2976
-#: khtml/html/html_formimpl.cpp:1590 khtml/html/html_formimpl.cpp:2198
+#: khtml/khtml_part.cpp:4941 khtml/khtmlview.cpp:2939 khtml/khtmlview.cpp:2981
+#: khtml/html/html_formimpl.cpp:1579 khtml/html/html_formimpl.cpp:2165
 msgid "Submit"
 msgstr "Şandin"
 
@@ -10424,39 +10430,39 @@ msgstr "Têxe astengbûyiyan..."
 msgid "Remove from ignores..."
 msgstr "Ji yên astengbûyiyan rake..."
 
-#: khtml/khtmlview.cpp:1906
+#: khtml/khtmlview.cpp:1911
 msgid "Find stopped."
 msgstr "Karê dîtinê hate rawestandin."
 
-#: khtml/khtmlview.cpp:1917
+#: khtml/khtmlview.cpp:1922
 msgid "Starting -- find links as you type"
 msgstr "Dest pê kir -- dema nivîsînê de girêdana ku tu lê digerî bibîne"
 
-#: khtml/khtmlview.cpp:1923
+#: khtml/khtmlview.cpp:1928
 msgid "Starting -- find text as you type"
 msgstr "Dest pê kir -- dema nivîsînê de nivîsa ku tu lê digerî bibîne"
 
-#: khtml/khtmlview.cpp:1946
+#: khtml/khtmlview.cpp:1951
 #, kde-format
 msgid "Link found: \"%1\"."
 msgstr "Girêdan hate dîtin: \"%1\"."
 
-#: khtml/khtmlview.cpp:1951
+#: khtml/khtmlview.cpp:1956
 #, kde-format
 msgid "Link not found: \"%1\"."
 msgstr "Girêdan nehate dîtin: \"%1\"."
 
-#: khtml/khtmlview.cpp:1959
+#: khtml/khtmlview.cpp:1964
 #, kde-format
 msgid "Text found: \"%1\"."
 msgstr "Nivîs hate dîtin: \"%1\"."
 
-#: khtml/khtmlview.cpp:1964
+#: khtml/khtmlview.cpp:1969
 #, kde-format
 msgid "Text not found: \"%1\"."
 msgstr "Nivîs nehate dîtin.: \"%1\"."
 
-#: khtml/khtmlview.cpp:2012
+#: khtml/khtmlview.cpp:2017
 msgid "Access Keys activated"
 msgstr "Bişkokên Gihiştînê Hatine Çalakkirin"
 
@@ -10578,7 +10584,7 @@ msgstr "JavaScript"
 msgid "&Abort"
 msgstr "&Dev jê berde"
 
-#: khtml/ecma/kjs_window.cpp:1581 khtml/ecma/kjs_html.cpp:2121
+#: khtml/ecma/kjs_window.cpp:1581 khtml/ecma/kjs_html.cpp:2111
 msgid "Confirmation: JavaScript Popup"
 msgstr "Erêkirin: Paceya Javascriptê"
 
@@ -10599,11 +10605,11 @@ msgstr ""
 "<qt>Ev malper, dixwazî bi Javaskrîptê di hundirê paceya gerokeke nû de <p>%"
 "1</p> veke.<br />Tu yê destûrê bide vî tiştî?</qt>"
 
-#: khtml/ecma/kjs_window.cpp:1589 khtml/ecma/kjs_html.cpp:2128
+#: khtml/ecma/kjs_window.cpp:1589 khtml/ecma/kjs_html.cpp:2118
 msgid "Allow"
 msgstr "Desturê Bide"
 
-#: khtml/ecma/kjs_window.cpp:1589 khtml/ecma/kjs_html.cpp:2128
+#: khtml/ecma/kjs_window.cpp:1589 khtml/ecma/kjs_html.cpp:2118
 msgid "Do Not Allow"
 msgstr "Destûrê Nede"
 
@@ -10645,7 +10651,7 @@ msgstr "Têxe Nav"
 msgid "Disallow"
 msgstr "Destûrê nede"
 
-#: khtml/ecma/kjs_html.cpp:2123
+#: khtml/ecma/kjs_html.cpp:2113
 msgid ""
 "This site is submitting a form which will open up a new browser window via "
 "JavaScript.\n"
@@ -10654,7 +10660,7 @@ msgstr ""
 "Ev malper dixwaze Javascriptê bikar bîne û di paceyeke nû de formekê veke.\n"
 "Tu destûrê didî şandina formê?"
 
-#: khtml/ecma/kjs_html.cpp:2126
+#: khtml/ecma/kjs_html.cpp:2116
 #, kde-format
 msgid ""
 "<qt>This site is submitting a form which will open <p>%1</p> in a new "
@@ -10817,7 +10823,7 @@ msgid ""
 "information next time you visit %1. Do you want to store the information now?"
 msgstr ""
 
-#: khtml/html/html_formimpl.cpp:2579
+#: khtml/html/html_formimpl.cpp:2546
 msgid "Key Generator"
 msgstr "Afirandera Nifteyan"
 
