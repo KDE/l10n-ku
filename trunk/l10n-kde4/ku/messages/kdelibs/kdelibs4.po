@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-10-03 09:40+0200\n"
+"POT-Creation-Date: 2008-10-04 10:34+0200\n"
 "PO-Revision-Date: 2008-08-30 14:20+0300\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
@@ -1693,9 +1693,10 @@ msgstr "Derbasî rêzika din bibe..."
 #. i18n: ectx: property (text), widget (QStatusBar, statusBar)
 #. i18n: file: threadweaver/Examples/Jobs/JobsBase.ui:90
 #. i18n: ectx: property (text), widget (QPushButton, pbStop)
-#: rc.cpp:785 rc.cpp:933 kdeui/util/kstandardguiitem.cpp:265
-#: kdeui/util/kkeyserver_x11.cpp:109 kdeui/findreplace/kreplace.cpp:353
-#: khtml/ecma/kjs_debugwin.cpp:482 kross/ui/view.cpp:309
+#: rc.cpp:785 rc.cpp:933 kdeui/jobs/kstatusbarjobtracker.cpp:156
+#: kdeui/util/kstandardguiitem.cpp:265 kdeui/util/kkeyserver_x11.cpp:109
+#: kdeui/findreplace/kreplace.cpp:353 khtml/ecma/kjs_debugwin.cpp:482
+#: kross/ui/view.cpp:309
 msgid "Stop"
 msgstr "Rawestîne"
 
@@ -1843,7 +1844,7 @@ msgid "Form"
 msgstr "Ji kê hatiye:"
 
 #: kjs/object.cpp:625 kdeui/dialogs/kmessagebox.cpp:816
-#: kdeui/dialogs/kmessagebox.cpp:849 khtml/rendering/render_form.cpp:624
+#: kdeui/dialogs/kmessagebox.cpp:849 khtml/rendering/render_form.cpp:625
 msgid "Error"
 msgstr "Çewtî"
 
@@ -6268,8 +6269,8 @@ msgstr ""
 msgid "Reset Toolbars"
 msgstr "Darikên Amûran Vegerîne Serî"
 
-#: kdeui/dialogs/kedittoolbar.cpp:526 khtml/khtmlview.cpp:2953
-#: khtml/khtmlview.cpp:2986 khtml/html/html_formimpl.cpp:2157
+#: kdeui/dialogs/kedittoolbar.cpp:526 khtml/khtmlview.cpp:2951
+#: khtml/khtmlview.cpp:2984 khtml/html/html_formimpl.cpp:2157
 msgid "Reset"
 msgstr "Vesazkirin"
 
@@ -8073,20 +8074,20 @@ msgstr "Kontrola Rastnivîsê temam bu."
 msgid "Sonnet Configuration"
 msgstr "Veavakirina Sonnetê"
 
-#: kdeui/sonnet/highlighter.cpp:231 kdeui/sonnet/highlighter.cpp:253
+#: kdeui/sonnet/highlighter.cpp:232 kdeui/sonnet/highlighter.cpp:255
 #: kde3support/kdeui/k3syntaxhighlighter.cpp:470
 #: kde3support/kdeui/k3syntaxhighlighter.cpp:576
 msgid "As-you-type spell checking enabled."
 msgstr "Dema nivîsandinê de kontrolkirina pêyvrêziyê çalak e."
 
-#: kdeui/sonnet/highlighter.cpp:233
+#: kdeui/sonnet/highlighter.cpp:234
 #: kde3support/kdeui/k3syntaxhighlighter.cpp:578
 msgid "Too many misspelled words. As-you-type spell checking disabled."
 msgstr ""
 "Pir zêde peyvên şaş hate dîtin. Dema nivîsînê de kontrolkirina rastnivîsê wê "
 "were rawestandin."
 
-#: kdeui/sonnet/highlighter.cpp:255
+#: kdeui/sonnet/highlighter.cpp:257
 #: kde3support/kdeui/k3syntaxhighlighter.cpp:472
 msgid "As-you-type spell checking disabled."
 msgstr "Di dema nivisandinê de kontrolkirina nivîsê hate astengkirin."
@@ -9425,7 +9426,7 @@ msgstr "Bikşîne &Jor"
 msgid "Move &Down"
 msgstr "Bikşîne &Jêr"
 
-#: kdeui/widgets/khistorycombobox.cpp:177 khtml/rendering/render_form.cpp:747
+#: kdeui/widgets/khistorycombobox.cpp:177 khtml/rendering/render_form.cpp:748
 msgid "Clear &History"
 msgstr "&Rabirdûyê Jê Bibe"
 
@@ -10309,7 +10310,7 @@ msgstr ""
 "<qt>Wê ev form ji navnîşana <br /><b>%1</b><br /> ya di pergala pelan ya "
 "herêmî de ye were şandin.<br />Tu dixwazî vê formê bişînî?</qt>"
 
-#: khtml/khtml_part.cpp:4941 khtml/khtmlview.cpp:2939 khtml/khtmlview.cpp:2981
+#: khtml/khtml_part.cpp:4941 khtml/khtmlview.cpp:2937 khtml/khtmlview.cpp:2979
 #: khtml/html/html_formimpl.cpp:1579 khtml/html/html_formimpl.cpp:2165
 msgid "Submit"
 msgstr "Şandin"
@@ -10430,39 +10431,39 @@ msgstr "Têxe astengbûyiyan..."
 msgid "Remove from ignores..."
 msgstr "Ji yên astengbûyiyan rake..."
 
-#: khtml/khtmlview.cpp:1911
+#: khtml/khtmlview.cpp:1909
 msgid "Find stopped."
 msgstr "Karê dîtinê hate rawestandin."
 
-#: khtml/khtmlview.cpp:1922
+#: khtml/khtmlview.cpp:1920
 msgid "Starting -- find links as you type"
 msgstr "Dest pê kir -- dema nivîsînê de girêdana ku tu lê digerî bibîne"
 
-#: khtml/khtmlview.cpp:1928
+#: khtml/khtmlview.cpp:1926
 msgid "Starting -- find text as you type"
 msgstr "Dest pê kir -- dema nivîsînê de nivîsa ku tu lê digerî bibîne"
 
-#: khtml/khtmlview.cpp:1951
+#: khtml/khtmlview.cpp:1949
 #, kde-format
 msgid "Link found: \"%1\"."
 msgstr "Girêdan hate dîtin: \"%1\"."
 
-#: khtml/khtmlview.cpp:1956
+#: khtml/khtmlview.cpp:1954
 #, kde-format
 msgid "Link not found: \"%1\"."
 msgstr "Girêdan nehate dîtin: \"%1\"."
 
-#: khtml/khtmlview.cpp:1964
+#: khtml/khtmlview.cpp:1962
 #, kde-format
 msgid "Text found: \"%1\"."
 msgstr "Nivîs hate dîtin: \"%1\"."
 
-#: khtml/khtmlview.cpp:1969
+#: khtml/khtmlview.cpp:1967
 #, kde-format
 msgid "Text not found: \"%1\"."
 msgstr "Nivîs nehate dîtin.: \"%1\"."
 
-#: khtml/khtmlview.cpp:2017
+#: khtml/khtmlview.cpp:2015
 msgid "Access Keys activated"
 msgstr "Bişkokên Gihiştînê Hatine Çalakkirin"
 
@@ -10487,7 +10488,7 @@ msgstr "Çewtiyeke mezin di şîrovekirina:%1 di rêzika %2, stûna %3 de"
 msgid "XML parsing error"
 msgstr "Çewtî di şîrovekirina XML de"
 
-#: khtml/xml/dom_docimpl.cpp:2225
+#: khtml/xml/dom_docimpl.cpp:2076
 msgid "Basic Page Style"
 msgstr "Şêweyê Rûpelê Bingeh"
 
@@ -10584,11 +10585,11 @@ msgstr "JavaScript"
 msgid "&Abort"
 msgstr "&Dev jê berde"
 
-#: khtml/ecma/kjs_window.cpp:1581 khtml/ecma/kjs_html.cpp:2111
+#: khtml/ecma/kjs_window.cpp:1582 khtml/ecma/kjs_html.cpp:2113
 msgid "Confirmation: JavaScript Popup"
 msgstr "Erêkirin: Paceya Javascriptê"
 
-#: khtml/ecma/kjs_window.cpp:1584
+#: khtml/ecma/kjs_window.cpp:1585
 msgid ""
 "This site is requesting to open up a new browser window via JavaScript.\n"
 "Do you want to allow this?"
@@ -10596,7 +10597,7 @@ msgstr ""
 "Ev malper dixwaze Javascriptê bikar bîne û paceyeke nû veke.\n"
 "Tu dixwazî paceyeke nû vebe?"
 
-#: khtml/ecma/kjs_window.cpp:1587
+#: khtml/ecma/kjs_window.cpp:1588
 #, kde-format
 msgid ""
 "<qt>This site is requesting to open<p>%1</p>in a new browser window via "
@@ -10605,23 +10606,23 @@ msgstr ""
 "<qt>Ev malper, dixwazî bi Javaskrîptê di hundirê paceya gerokeke nû de <p>%"
 "1</p> veke.<br />Tu yê destûrê bide vî tiştî?</qt>"
 
-#: khtml/ecma/kjs_window.cpp:1589 khtml/ecma/kjs_html.cpp:2118
+#: khtml/ecma/kjs_window.cpp:1590 khtml/ecma/kjs_html.cpp:2120
 msgid "Allow"
 msgstr "Desturê Bide"
 
-#: khtml/ecma/kjs_window.cpp:1589 khtml/ecma/kjs_html.cpp:2118
+#: khtml/ecma/kjs_window.cpp:1590 khtml/ecma/kjs_html.cpp:2120
 msgid "Do Not Allow"
 msgstr "Destûrê Nede"
 
-#: khtml/ecma/kjs_window.cpp:1889
+#: khtml/ecma/kjs_window.cpp:1890
 msgid "Close window?"
 msgstr "Bila pace were girtin?"
 
-#: khtml/ecma/kjs_window.cpp:1889
+#: khtml/ecma/kjs_window.cpp:1890
 msgid "Confirmation Required"
 msgstr "Erêkirin Divê"
 
-#: khtml/ecma/kjs_window.cpp:2747
+#: khtml/ecma/kjs_window.cpp:2748
 #, kde-format
 msgid ""
 "Do you want a bookmark pointing to the location \"%1\" to be added to your "
@@ -10630,7 +10631,7 @@ msgstr ""
 "Tu dixwazî bijareya ku navnîşana \"%1\"ê nîşan dide li lodên we yên "
 "bijareyan zêde bide?"
 
-#: khtml/ecma/kjs_window.cpp:2750
+#: khtml/ecma/kjs_window.cpp:2751
 #, kde-format
 msgid ""
 "Do you want a bookmark pointing to the location \"%1\" titled \"%2\" to be "
@@ -10639,19 +10640,19 @@ msgstr ""
 "Tu dixwazî bijareya bi sernavê \"%2\"  ya navnîşana \"%1\"ê nîşan dide li "
 "lodên we yên bijareyan zêde bibe?"
 
-#: khtml/ecma/kjs_window.cpp:2758
+#: khtml/ecma/kjs_window.cpp:2759
 msgid "JavaScript Attempted Bookmark Insert"
 msgstr "Daxwaza Lêzêdekirina Bijareyan ya Javascriptê"
 
-#: khtml/ecma/kjs_window.cpp:2762
+#: khtml/ecma/kjs_window.cpp:2763
 msgid "Insert"
 msgstr "Têxe Nav"
 
-#: khtml/ecma/kjs_window.cpp:2762
+#: khtml/ecma/kjs_window.cpp:2763
 msgid "Disallow"
 msgstr "Destûrê nede"
 
-#: khtml/ecma/kjs_html.cpp:2113
+#: khtml/ecma/kjs_html.cpp:2115
 msgid ""
 "This site is submitting a form which will open up a new browser window via "
 "JavaScript.\n"
@@ -10660,7 +10661,7 @@ msgstr ""
 "Ev malper dixwaze Javascriptê bikar bîne û di paceyeke nû de formekê veke.\n"
 "Tu destûrê didî şandina formê?"
 
-#: khtml/ecma/kjs_html.cpp:2116
+#: khtml/ecma/kjs_html.cpp:2118
 #, kde-format
 msgid ""
 "<qt>This site is submitting a form which will open <p>%1</p> in a new "
@@ -10943,36 +10944,36 @@ msgstr "Ji bo multipart/mixed yekîneya tê veşartin"
 msgid "Copyright 2001, David Faure <email>david@mandrakesoft.com</email>"
 msgstr "Copyright 2001, David Faure <email>david@mandrakesoft.com</email>"
 
-#: khtml/rendering/render_form.cpp:603
+#: khtml/rendering/render_form.cpp:604
 #, fuzzy
 #| msgid "Shortcut"
 msgid "New Web Shortcut"
 msgstr "Kurterê"
 
-#: khtml/rendering/render_form.cpp:624
+#: khtml/rendering/render_form.cpp:625
 #, fuzzy, kde-format
 #| msgctxt "Socket error code AlreadyCreated"
 #| msgid "socket is already created"
 msgid "%1 is already assigned to %2"
 msgstr "soket jixwe hatiye afirandin"
 
-#: khtml/rendering/render_form.cpp:669
+#: khtml/rendering/render_form.cpp:670
 msgid "Search &provider name:"
 msgstr ""
 
-#: khtml/rendering/render_form.cpp:671
+#: khtml/rendering/render_form.cpp:672
 #, fuzzy
 #| msgid "Enter search phrase here"
 msgid "New search provider"
 msgstr "Gotineke lêgerînê têkeve virê"
 
-#: khtml/rendering/render_form.cpp:676
+#: khtml/rendering/render_form.cpp:677
 #, fuzzy
 #| msgid "Shortcuts"
 msgid "UR&I shortcuts:"
 msgstr "Kurterê"
 
-#: khtml/rendering/render_form.cpp:762
+#: khtml/rendering/render_form.cpp:763
 #, fuzzy
 #| msgid "Configure Shortcuts"
 msgid "Create Web Shortcut"
