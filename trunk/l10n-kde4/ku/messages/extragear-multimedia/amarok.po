@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok-neu\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-10-04 10:44+0200\n"
+"POT-Creation-Date: 2008-10-05 09:27+0200\n"
 "PO-Revision-Date: 2008-09-23 21:30+0300\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -2283,17 +2283,17 @@ msgstr "Podcast"
 msgid "Podcast"
 msgstr "Podcast"
 
-#: Systray.cpp:123 browsers/collectionbrowser/CollectionTreeView.cpp:598
+#: Systray.cpp:125 browsers/collectionbrowser/CollectionTreeView.cpp:598
 #: browsers/playlistbrowser/PodcastCategory.cpp:481
 #: browsers/playlistbrowser/UserPlaylistTreeView.cpp:142
 msgid "&Append to Playlist"
 msgstr ""
 
-#: Systray.cpp:124
+#: Systray.cpp:126
 msgid "Append && &Play"
 msgstr ""
 
-#: Systray.cpp:126
+#: Systray.cpp:128
 msgid "&Queue Track"
 msgstr ""
 
@@ -2301,7 +2301,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, pushButton_cancel)
 #. i18n: file: browsers/servicebrowser/magnatunestore/MagnatuneRedownloadDialogBase.ui:36
 #. i18n: ectx: property (text), widget (QPushButton, cancelButton)
-#: Systray.cpp:129 rc.cpp:912 rc.cpp:1156
+#: Systray.cpp:131 rc.cpp:912 rc.cpp:1156
 #, fuzzy
 msgid "&Cancel"
 msgstr "Fransa"
@@ -6904,12 +6904,16 @@ msgstr "Lîsta lêdanê werbigire"
 msgid "Edit Track Details"
 msgstr "&Agahiya Stranan Sererast Bike..."
 
-#: playlist/PlaylistWidget.cpp:89
+#: playlist/PlaylistWidget.cpp:116
 #, fuzzy
 #| msgid "Playlists"
 msgctxt "switch view"
 msgid "Switch Playlist &View"
 msgstr "lîsteya lêdanê"
+
+#: playlist/PlaylistWidget.cpp:170 SmartPlaylistEditor.cpp:257
+msgid "tracks"
+msgstr "stran"
 
 #: playlist/UndoCommands.cpp:32
 #, fuzzy
@@ -7617,10 +7621,6 @@ msgstr ""
 #: SmartPlaylistEditor.cpp:250
 msgid "Limit to"
 msgstr "Bi sînor bike"
-
-#: SmartPlaylistEditor.cpp:257
-msgid "tracks"
-msgstr "stran"
 
 #: SmartPlaylistEditor.cpp:262
 msgid "Expand by"
