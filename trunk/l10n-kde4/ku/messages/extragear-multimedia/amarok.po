@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok-neu\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-10-14 09:48+0200\n"
+"POT-Creation-Date: 2008-10-15 10:44+0200\n"
 "PO-Revision-Date: 2008-09-23 21:30+0300\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -308,12 +308,12 @@ msgstr ""
 msgid "%1 - %2"
 msgstr "%1 - %2"
 
-#: collection/sqlcollection/SqlMeta.cpp:919
+#: collection/sqlcollection/SqlMeta.cpp:913
 #, fuzzy
 msgid "Do not show under Various Artists"
 msgstr "Hunermendên cur bi cur"
 
-#: collection/sqlcollection/SqlMeta.cpp:923
+#: collection/sqlcollection/SqlMeta.cpp:917
 #, fuzzy
 msgid "Show under Various Artists"
 msgstr "Hunermendên cur bi cur"
@@ -918,6 +918,11 @@ msgctxt "Replace the currently loaded tracks with these"
 msgid "&Load"
 msgstr "&Bar bike"
 
+#: context/applets/albums/Albums.cpp:171
+#, kde-format
+msgid "Disc %1"
+msgstr ""
+
 #: context/applets/albums/AlbumItem.cpp:67 MediaDevicePluginManager.cpp:535
 #: MainWindow.cpp:1069 MainWindow.cpp:1088
 msgid "Unknown"
@@ -1384,7 +1389,7 @@ msgstr "Sal"
 #: dialogs/FilenameLayoutDialog.cpp:84 dialogs/EditFilterDialog.cpp:125
 #: dialogs/transferdialog.cpp:94
 #: browsers/collectionbrowser/CollectionTreeItemModelBase.cpp:683
-#: browsers/collectionbrowser/CollectionWidget.cpp:72
+#: browsers/collectionbrowser/CollectionWidget.cpp:71
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:252 rc.cpp:743
 #: services/magnatune/MagnatuneStore.cpp:175
 #: services/jamendo/JamendoService.cpp:134
@@ -2769,13 +2774,18 @@ msgstr ""
 msgid "Artist / Album"
 msgstr "Hunermend / Album"
 
-#: browsers/collectionbrowser/CollectionWidget.cpp:76
+#: browsers/collectionbrowser/CollectionWidget.cpp:67
+#, fuzzy
+msgid "Artist / Year - Album"
+msgstr "Hunermend / Album"
+
+#: browsers/collectionbrowser/CollectionWidget.cpp:75
 #: services/magnatune/MagnatuneStore.cpp:179
 #: services/jamendo/JamendoService.cpp:138
 msgid "Genre / Artist"
 msgstr ""
 
-#: browsers/collectionbrowser/CollectionWidget.cpp:80
+#: browsers/collectionbrowser/CollectionWidget.cpp:79
 #: services/magnatune/MagnatuneStore.cpp:183
 #: services/jamendo/JamendoService.cpp:142
 msgid "Genre / Artist / Album"
@@ -6128,6 +6138,14 @@ msgid_plural "%1 tracks (%2)"
 msgstr[0] "stran"
 msgstr[1] "stran"
 
+#: statusbar_ng/StatusBar.cpp:330
+#, fuzzy, kde-format
+msgctxt "%1 is number of tracks"
+msgid "%1 track"
+msgid_plural "%1 tracks"
+msgstr[0] "stran"
+msgstr[1] "stran"
+
 #: statusbar_ng/ProgressBar.cpp:45 statusbar_ng/CompoundProgressBar.cpp:82
 #: statusbar_ng/CompoundProgressBar.cpp:165
 #: statusbar_ng/CompoundProgressBar.cpp:200 statusbar/progressBar.cpp:45
@@ -6932,7 +6950,7 @@ msgstr "Hejmara Stranê"
 msgid "Track moved"
 msgstr "Hejmara Stranê"
 
-#: playlist/PlaylistActions.cpp:241
+#: playlist/PlaylistActions.cpp:236
 msgid "Too many errors encountered in playlist. Playback stopped."
 msgstr ""
 
@@ -7918,10 +7936,6 @@ msgstr "Hunermend"
 #~| msgid "Album"
 #~ msgid "Album Name"
 #~ msgstr "Album"
-
-#, fuzzy
-#~ msgid "Artist / Year - Album"
-#~ msgstr "Hunermend / Album"
 
 #, fuzzy
 #~ msgid "Queue Track"
