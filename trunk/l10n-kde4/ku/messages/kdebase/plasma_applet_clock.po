@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_clock\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-09-13 10:18+0200\n"
+"POT-Creation-Date: 2008-10-17 09:35+0200\n"
 "PO-Revision-Date: 2008-08-07 00:33+0300\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
@@ -37,7 +37,9 @@ msgstr "Heke bixwazî çirkeyan nîşan bidî, vê kontrol bike."
 #. i18n: file: clockConfig.ui:28
 #. i18n: ectx: property (text), widget (QCheckBox, showSecondHandCheckBox)
 #: rc.cpp:9
-msgid "Show &seconds"
+#, fuzzy
+#| msgid "Show &seconds"
+msgid "Show &seconds hand"
 msgstr "&Çirkeyan nîşan bide"
 
 #. i18n: file: clockConfig.ui:35
@@ -61,9 +63,14 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, showTimezoneStringCheckBox)
 #: rc.cpp:18
 #, fuzzy
-#| msgid "Also show the time as text"
-msgid "Also show the Timezone as text"
-msgstr "Demê jî wekî deq nîşan bide"
+#| msgid "Show the time in text"
+msgid "Show &time zone"
+msgstr "Di deqê de demê nîşan bide"
+
+#, fuzzy
+#~| msgid "Also show the time as text"
+#~ msgid "Also show the Timezone as text"
+#~ msgstr "Demê jî wekî deq nîşan bide"
 
 #~ msgid "Appearance"
 #~ msgstr "Xuyanî"
