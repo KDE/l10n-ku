@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-10-19 10:12+0200\n"
+"POT-Creation-Date: 2008-10-20 10:07+0200\n"
 "PO-Revision-Date: 2008-06-30 16:34+0300\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: American English <kde-i18n-doc@lists.kde.org>\n"
@@ -301,9 +301,9 @@ msgstr "Eduardo Robles Elvira"
 msgid ""
 "This bar contains the list of currently open tabs. Click on a tab to make it "
 "active. You can also use keyboard shortcuts to navigate through tabs. The "
-"text on the tab is the title of the website currently open in it; place your "
-"mouse over the tab to see the full title, in case it has been truncated to "
-"fit the tab width."
+"text on the tab shows the content currently open in it; place your mouse "
+"over the tab to see the full title, in case it has been shortened to fit the "
+"tab width."
 msgstr ""
 "Ev darik lîsteya hemû pekanên niha vekirî ne nîşan dide. Ji bo çalakirina "
 "pekanekê wê pekanê bitikîne. Tu dikarî di pekanê de li şûna logoya malperê "
@@ -525,6 +525,7 @@ msgstr "Pelên ku ji %1ê hatine hilbijartin veguhêze:"
 
 #: src/konqmainwindow.cpp:2845
 #, fuzzy
+msgctxt "This menu entry empties the closed items history"
 msgid "Empty Closed Items History"
 msgstr "Dîroka hilpekînên girtî vala bike"
 
@@ -577,6 +578,9 @@ msgid "Lock to Current Location"
 msgstr "Mifteyî cihê heyî bibe"
 
 #: src/konqmainwindow.cpp:3548
+#, fuzzy
+#| msgid "Lin&k View"
+msgctxt "This option links konqueror views"
 msgid "Lin&k View"
 msgstr "Di&tina girêdanê"
 
@@ -948,7 +952,7 @@ msgstr ""
 #: src/konqmainwindow.cpp:4466
 #, fuzzy
 #| msgid "Open Folder in Tabs"
-msgid "Open folder in new tabs"
+msgid "Open bookmarks folder in new tabs"
 msgstr "Di paceyekê nû de veke"
 
 #: src/konqmainwindow.cpp:4640
@@ -1476,7 +1480,7 @@ msgstr "Nû Têxe"
 msgid "Multiple Views"
 msgstr "Gelek Dîmen"
 
-#: sidebar/sidebar_widget.cpp:275 sidebar/sidebar_widget.cpp:401
+#: sidebar/sidebar_widget.cpp:275 sidebar/sidebar_widget.cpp:399
 msgid "Show Tabs Left"
 msgstr "Hilpekînên Aliyê Çepê Nîşan Bide"
 
@@ -1488,42 +1492,42 @@ msgstr "Bişkokê Mîhengan Nîşan Bide"
 msgid "Close Navigation Panel"
 msgstr "Panela Navîgasiyonê Bigire"
 
-#: sidebar/sidebar_widget.cpp:332
+#: sidebar/sidebar_widget.cpp:330
 msgid "This entry already exists."
 msgstr "Ev ketan jixwe heye."
 
-#: sidebar/sidebar_widget.cpp:346 sidebar/web_module/web_module.cpp:217
+#: sidebar/sidebar_widget.cpp:344 sidebar/web_module/web_module.cpp:217
 msgid "Web SideBar Plugin"
 msgstr "Pêveka Darikê Kêlekê yê Webê"
 
-#: sidebar/sidebar_widget.cpp:401
+#: sidebar/sidebar_widget.cpp:399
 #, fuzzy
 msgid "Show Tabs Right"
 msgstr "Pekanê Bibe Aliyê Rastê"
 
-#: sidebar/sidebar_widget.cpp:480
+#: sidebar/sidebar_widget.cpp:478
 msgid "Set Name"
 msgstr "Nav Hilbijêre"
 
-#: sidebar/sidebar_widget.cpp:480
+#: sidebar/sidebar_widget.cpp:478
 msgid "Enter the name:"
 msgstr "Navî binivîse:"
 
-#: sidebar/sidebar_widget.cpp:498
+#: sidebar/sidebar_widget.cpp:496
 msgid "Enter a URL:"
 msgstr "URL'ekê binivîse:"
 
-#: sidebar/sidebar_widget.cpp:506
+#: sidebar/sidebar_widget.cpp:504
 #, kde-format
 msgid "<qt><b>%1</b> does not exist</qt>"
 msgstr "<qt><b>%1</b> tune</qt>"
 
-#: sidebar/sidebar_widget.cpp:537
+#: sidebar/sidebar_widget.cpp:535
 #, kde-format
 msgid "<qt>Do you really want to remove the <b>%1</b> tab?</qt>"
 msgstr "<qt>Bi rastî jî tu dixwazî hilfirîna <b>%1</b> rakî?</qt>"
 
-#: sidebar/sidebar_widget.cpp:585
+#: sidebar/sidebar_widget.cpp:583
 msgid ""
 "You have hidden the navigation panel configuration button. To make it "
 "visible again, click the right mouse button on any of the navigation panel "
@@ -1533,23 +1537,23 @@ msgstr ""
 "mişkî li ciyeke ji rêzê a boşkojkên panela gerê rast bitikîne û \"Bişkojka "
 "Vevakirinê Nîşan Bide\" hilbijêre."
 
-#: sidebar/sidebar_widget.cpp:670
+#: sidebar/sidebar_widget.cpp:668
 msgid "Configure Sidebar"
 msgstr "Darikê Kêlekê Veava Bike"
 
-#: sidebar/sidebar_widget.cpp:795
+#: sidebar/sidebar_widget.cpp:791
 msgid "Set Name..."
 msgstr "Nav Hilbijêre..."
 
-#: sidebar/sidebar_widget.cpp:796
+#: sidebar/sidebar_widget.cpp:792
 msgid "Set URL..."
 msgstr "URL Hilbijêre..."
 
-#: sidebar/sidebar_widget.cpp:797
+#: sidebar/sidebar_widget.cpp:793
 msgid "Set Icon..."
 msgstr "Îkonê Hilbijêre..."
 
-#: sidebar/sidebar_widget.cpp:799
+#: sidebar/sidebar_widget.cpp:795
 msgid "Remove"
 msgstr "Rakirin"
 
