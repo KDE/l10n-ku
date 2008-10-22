@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok-neu\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-10-21 10:34+0200\n"
+"POT-Creation-Date: 2008-10-22 10:44+0200\n"
 "PO-Revision-Date: 2008-09-23 21:30+0300\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -254,7 +254,7 @@ msgstr "Hemû Koleksiyon"
 #: collection/sqlcollection/OrganizeCollectionDialog.cpp:170
 #: browsers/collectionbrowser/CollectionTreeItem.cpp:149
 #: playlist/view/graphic/PlaylistGraphicsItem.cpp:352
-#: collectionscanner/CollectionScanner.cpp:593
+#: collectionscanner/CollectionScanner.cpp:641
 #: covermanager/CoverManager.cpp:360 covermanager/CoverManager.cpp:938
 msgid "Various Artists"
 msgstr "Hunermendên cur bi cur"
@@ -912,7 +912,7 @@ msgstr ""
 #: context/applets/albums/AlbumsView.cpp:147 Systray.cpp:126
 #: browsers/collectionbrowser/CollectionTreeView.cpp:599
 #: browsers/filebrowser/MyDirOperator.cpp:240
-#: browsers/playlistbrowser/PodcastCategory.cpp:481
+#: browsers/playlistbrowser/PodcastCategory.cpp:482
 #: browsers/playlistbrowser/UserPlaylistTreeView.cpp:142
 msgid "&Append to Playlist"
 msgstr ""
@@ -920,7 +920,7 @@ msgstr ""
 #: context/applets/albums/AlbumsView.cpp:148
 #: browsers/collectionbrowser/CollectionTreeView.cpp:607
 #: browsers/filebrowser/MyDirOperator.cpp:246
-#: browsers/playlistbrowser/PodcastCategory.cpp:494
+#: browsers/playlistbrowser/PodcastCategory.cpp:495
 #: browsers/playlistbrowser/UserPlaylistTreeView.cpp:147
 #, fuzzy
 #| msgid "&Load"
@@ -940,7 +940,7 @@ msgid "Disc %1"
 msgstr ""
 
 #: context/applets/albums/AlbumItem.cpp:70 MediaDevicePluginManager.cpp:535
-#: MainWindow.cpp:1073 MainWindow.cpp:1092
+#: MainWindow.cpp:1089 MainWindow.cpp:1108
 msgid "Unknown"
 msgstr "Nenas"
 
@@ -1006,90 +1006,90 @@ msgstr ""
 msgid "Amarok Menu"
 msgstr ""
 
-#: ActionClasses.cpp:165
+#: ActionClasses.cpp:168
 msgid "Play/Pause"
 msgstr ""
 
-#: ActionClasses.cpp:296
+#: ActionClasses.cpp:299
 msgid "Click to change"
 msgstr ""
 
-#: ActionClasses.cpp:303
+#: ActionClasses.cpp:306
 msgid "Ra&ndom"
 msgstr ""
 
-#: ActionClasses.cpp:306
+#: ActionClasses.cpp:309
 msgctxt "State, as in disabled"
 msgid "&Off"
 msgstr ""
 
-#: ActionClasses.cpp:307
+#: ActionClasses.cpp:310
 #, fuzzy
 msgctxt "Items, as in music"
 msgid "&Tracks"
 msgstr "Stran  #"
 
-#: ActionClasses.cpp:308
+#: ActionClasses.cpp:311
 msgid "&Albums"
 msgstr ""
 
-#: ActionClasses.cpp:336
+#: ActionClasses.cpp:339
 msgid "&Favor"
 msgstr ""
 
-#: ActionClasses.cpp:338
+#: ActionClasses.cpp:341
 msgctxt "State, as in disabled"
 msgid "Off"
 msgstr ""
 
-#: ActionClasses.cpp:339
+#: ActionClasses.cpp:342
 msgid "Higher &Scores"
 msgstr ""
 
-#: ActionClasses.cpp:340
+#: ActionClasses.cpp:343
 msgid "Higher &Ratings"
 msgstr ""
 
-#: ActionClasses.cpp:341
+#: ActionClasses.cpp:344
 msgid "Not Recently &Played"
 msgstr ""
 
-#: ActionClasses.cpp:351
+#: ActionClasses.cpp:354
 msgid "&Repeat"
 msgstr ""
 
-#: ActionClasses.cpp:353
+#: ActionClasses.cpp:356
 msgctxt "State, as in, disabled"
 msgid "&Off"
 msgstr ""
 
-#: ActionClasses.cpp:353
+#: ActionClasses.cpp:356
 #, fuzzy
 msgctxt "Item, as in, music"
 msgid "&Track"
 msgstr "Stran  #"
 
-#: ActionClasses.cpp:354
+#: ActionClasses.cpp:357
 msgid "&Album"
 msgstr ""
 
-#: ActionClasses.cpp:354 MainWindow.cpp:940
+#: ActionClasses.cpp:357 MainWindow.cpp:957
 msgid "&Playlist"
 msgstr ""
 
-#: ActionClasses.cpp:367
+#: ActionClasses.cpp:370
 msgid "Burn"
 msgstr ""
 
-#: ActionClasses.cpp:406 playlistmanager/PlaylistManager.cpp:214
+#: ActionClasses.cpp:409 playlistmanager/PlaylistManager.cpp:214
 msgid "Current Playlist"
 msgstr ""
 
-#: ActionClasses.cpp:407
+#: ActionClasses.cpp:410
 msgid "Selected Tracks"
 msgstr ""
 
-#: ActionClasses.cpp:439
+#: ActionClasses.cpp:442
 msgid "Stop"
 msgstr ""
 
@@ -1177,7 +1177,7 @@ msgstr "Giştî"
 msgid "Configure General Options"
 msgstr ""
 
-#: configdialog/ConfigDialog.cpp:52 MainWindow.cpp:256
+#: configdialog/ConfigDialog.cpp:52 MainWindow.cpp:270
 msgid "Collection"
 msgstr "Koleksiyon"
 
@@ -1532,7 +1532,7 @@ msgstr "Kurte"
 msgid "Tags"
 msgstr ""
 
-#: dialogs/TagDialog.cpp:584 MainWindow.cpp:772
+#: dialogs/TagDialog.cpp:584 MainWindow.cpp:789
 msgid "Statistics"
 msgstr "Statistîk"
 
@@ -1566,78 +1566,83 @@ msgstr ""
 msgid "<b>%1</b> by <b>%2</b> on <b>%3</b>"
 msgstr ""
 
-#: dialogs/TagDialog.cpp:852
+#: dialogs/TagDialog.cpp:828
+#, kde-format
+msgid "<b>%1</b>"
+msgstr ""
+
+#: dialogs/TagDialog.cpp:859
 msgid "Length:"
 msgstr ""
 
-#: dialogs/TagDialog.cpp:853
+#: dialogs/TagDialog.cpp:860
 msgid "Bitrate:"
 msgstr ""
 
-#: dialogs/TagDialog.cpp:854
+#: dialogs/TagDialog.cpp:861
 #, fuzzy
 msgid "Samplerate:"
 msgstr "Rêjeya Mînakkirinê"
 
-#: dialogs/TagDialog.cpp:855
+#: dialogs/TagDialog.cpp:862
 msgid "Size:"
 msgstr "Mezinahî:"
 
-#: dialogs/TagDialog.cpp:856
+#: dialogs/TagDialog.cpp:863
 msgid "Format:"
 msgstr ""
 
 #. i18n: file: dialogs/tagdialogbase.ui:509
 #. i18n: ectx: property (text), widget (QLabel, scoreLabel)
-#: dialogs/TagDialog.cpp:859 rc.cpp:888
+#: dialogs/TagDialog.cpp:866 rc.cpp:888
 msgid "Score:"
 msgstr ""
 
 #. i18n: file: dialogs/tagdialogbase.ui:538
 #. i18n: ectx: property (text), widget (QLabel, ratingLabel)
-#: dialogs/TagDialog.cpp:861 rc.cpp:891
+#: dialogs/TagDialog.cpp:868 rc.cpp:891
 msgid "Rating:"
 msgstr ""
 
-#: dialogs/TagDialog.cpp:863
+#: dialogs/TagDialog.cpp:870
 msgid "Playcount:"
 msgstr ""
 
-#: dialogs/TagDialog.cpp:866
+#: dialogs/TagDialog.cpp:873
 #, fuzzy
 msgid "First Played:"
 msgstr "ya herî hatiye lêxistin"
 
-#: dialogs/TagDialog.cpp:867
+#: dialogs/TagDialog.cpp:874
 msgctxt "When this track was first played"
 msgid "Never"
 msgstr "Tu car"
 
-#: dialogs/TagDialog.cpp:868
+#: dialogs/TagDialog.cpp:875
 #, fuzzy
 msgctxt "a single item (singular)"
 msgid "Last Played:"
 msgstr "yê dawî hatine lêdan"
 
-#: dialogs/TagDialog.cpp:869
+#: dialogs/TagDialog.cpp:876
 msgctxt "When this track was last played"
 msgid "Never"
 msgstr "Tu car"
 
-#: dialogs/TagDialog.cpp:870
+#: dialogs/TagDialog.cpp:877
 #, fuzzy
 #| msgid "Collection"
 msgid "Collection:"
 msgstr "Koleksiyon"
 
-#: dialogs/TagDialog.cpp:871
+#: dialogs/TagDialog.cpp:878
 #, fuzzy
 #| msgid "(none)"
 msgctxt "The collection this track is part of"
 msgid "None"
 msgstr "(ne yek jî)"
 
-#: dialogs/TagDialog.cpp:1011
+#: dialogs/TagDialog.cpp:1022
 #, fuzzy, kde-format
 msgctxt "The amount of tracks being edited"
 msgid "1 Track"
@@ -1645,28 +1650,28 @@ msgid_plural "Information for %1 Tracks"
 msgstr[0] "Stran  #"
 msgstr[1] "Stran  #"
 
-#: dialogs/TagDialog.cpp:1121
+#: dialogs/TagDialog.cpp:1132
 #, fuzzy, kde-format
 msgid "Editing 1 file"
 msgid_plural "Editing %1 files"
 msgstr[0] "Pel jê têne birin"
 msgstr[1] "Pel jê têne birin"
 
-#: dialogs/TagDialog.cpp:1126
+#: dialogs/TagDialog.cpp:1137
 #, fuzzy
 msgid "Rated Songs:"
 msgstr "Stranên pêşniyazkirî"
 
-#: dialogs/TagDialog.cpp:1128
+#: dialogs/TagDialog.cpp:1139
 msgid "Average Rating:"
 msgstr ""
 
-#: dialogs/TagDialog.cpp:1130
+#: dialogs/TagDialog.cpp:1141
 #, fuzzy
 msgid "Scored Songs:"
 msgstr "Stranên pêşniyazkirî"
 
-#: dialogs/TagDialog.cpp:1132
+#: dialogs/TagDialog.cpp:1143
 msgid "Average Score:"
 msgstr ""
 
@@ -1968,7 +1973,7 @@ msgstr ""
 msgid "Convert spaces to underscores"
 msgstr "Valahiyan veguherîne xêzikên jêrîn"
 
-#: dialogs/ScriptManager.cpp:128 MainWindow.cpp:752
+#: dialogs/ScriptManager.cpp:128 MainWindow.cpp:769
 msgid "Script Manager"
 msgstr "Rêveberê Skrîptê"
 
@@ -2119,108 +2124,108 @@ msgstr ""
 msgid "Play an AudioCD from <device> or system:/media/<device>"
 msgstr ""
 
-#: App.cpp:620
+#: App.cpp:624
 #, fuzzy
 msgctxt "state, as in playing"
 msgid "Play"
 msgstr "&Bilîze"
 
-#: App.cpp:624
+#: App.cpp:628
 msgid "Paused"
 msgstr ""
 
-#: App.cpp:690
+#: App.cpp:694
 msgid "Moving files to trash"
 msgstr ""
 
-#: App.cpp:764
+#: App.cpp:768
 #, fuzzy, kde-format
 msgctxt "monthname year"
 msgid "%1 %2"
 msgstr "%1: %2"
 
-#: App.cpp:771
+#: App.cpp:775
 #, kde-format
 msgid "One week ago"
 msgid_plural "%1 weeks ago"
 msgstr[0] ""
 msgstr[1] ""
 
-#: App.cpp:774 App.cpp:825
+#: App.cpp:778 App.cpp:829
 msgctxt "When this track was last played"
 msgid "Tomorrow"
 msgstr ""
 
-#: App.cpp:780
+#: App.cpp:784
 msgid "Yesterday"
 msgstr ""
 
-#: App.cpp:781
+#: App.cpp:785
 #, kde-format
 msgid "One day ago"
 msgid_plural "%1 days ago"
 msgstr[0] ""
 msgstr[1] ""
 
-#: App.cpp:784
+#: App.cpp:788
 #, kde-format
 msgid "One hour ago"
 msgid_plural "%1 hours ago"
 msgstr[0] ""
 msgstr[1] ""
 
-#: App.cpp:790
+#: App.cpp:794
 #, kde-format
 msgid "One minute ago"
 msgid_plural "%1 minutes ago"
 msgstr[0] ""
 msgstr[1] ""
 
-#: App.cpp:791
+#: App.cpp:795
 msgid "Within the last minute"
 msgstr "Xulekek berê"
 
-#: App.cpp:793
+#: App.cpp:797
 msgid "The future"
 msgstr "Dahatû"
 
-#: App.cpp:799
+#: App.cpp:803
 msgctxt "The amount of time since last played"
 msgid "Never"
 msgstr ""
 
-#: App.cpp:809
+#: App.cpp:813
 #, fuzzy
 #| msgid "0%"
 msgctxt "The amount of time since last played"
 msgid "0"
 msgstr "0%"
 
-#: App.cpp:818
+#: App.cpp:822
 #, fuzzy, kde-format
 msgctxt "number of months ago"
 msgid "%1M"
 msgstr "%1"
 
-#: App.cpp:822
+#: App.cpp:826
 #, fuzzy, kde-format
 msgctxt "w for weeks"
 msgid "%1w"
 msgstr "%1"
 
-#: App.cpp:831
+#: App.cpp:835
 #, fuzzy, no-c-format, kde-format
 msgctxt "d for days"
 msgid "%1d"
 msgstr "%1"
 
-#: App.cpp:834
+#: App.cpp:838
 #, fuzzy, kde-format
 msgctxt "h for hours"
 msgid "%1h"
 msgstr "%1"
 
-#: App.cpp:843
+#: App.cpp:847
 #, fuzzy
 #| msgid "0%"
 msgid "0"
@@ -2265,17 +2270,22 @@ msgstr "lîsteya lêdanê"
 msgid "Smart Playlist"
 msgstr "lîsteya lêdanê"
 
-#: podcasts/sql/SqlPodcastProvider.cpp:212
+#: podcasts/sql/SqlPodcastProvider.cpp:123
+#, kde-format
+msgid "Already subscribed to %1."
+msgstr ""
+
+#: podcasts/sql/SqlPodcastProvider.cpp:214
 #, fuzzy
 msgid "Downloading Podcast Media"
 msgstr "lîsteya lêdanê ya dînamîk"
 
-#: podcasts/sql/SqlPodcastProvider.cpp:212
+#: podcasts/sql/SqlPodcastProvider.cpp:214
 #, fuzzy, kde-format
 msgid "Downloading Podcast \"%1\""
 msgstr "lîsteya lêdanê ya dînamîk"
 
-#: podcasts/sql/SqlPodcastProvider.cpp:302
+#: podcasts/sql/SqlPodcastProvider.cpp:304
 #, kde-format
 msgid "Unable to save podcast episode file to %1"
 msgstr ""
@@ -2301,6 +2311,23 @@ msgstr "Podcast"
 msgid "Podcast"
 msgstr "Podcast"
 
+#: podcasts/PodcastReader.cpp:73
+#, kde-format
+msgid "Importing podcast channel from %1"
+msgstr ""
+
+#: podcasts/PodcastReader.cpp:77
+#, fuzzy
+#| msgid "Updating Collection"
+msgid "Updating podcast channel"
+msgstr "Koleksiyon Têne Rojanekirin"
+
+#: podcasts/PodcastReader.cpp:78
+#, fuzzy, kde-format
+#| msgid "Rating: %1"
+msgid "Updating \"%1\""
+msgstr "Ecibandin: %1"
+
 #: Systray.cpp:127
 msgid "Append && &Play"
 msgstr ""
@@ -2318,7 +2345,7 @@ msgstr ""
 msgid "&Cancel"
 msgstr "Fransa"
 
-#: queuemanager/QueueManager.cpp:51 MainWindow.cpp:756
+#: queuemanager/QueueManager.cpp:51 MainWindow.cpp:773
 msgid "Queue Manager"
 msgstr ""
 
@@ -2409,7 +2436,7 @@ msgid "Presets"
 msgstr ""
 
 #: equalizerpresetmanager.cpp:61
-#: browsers/playlistbrowser/PodcastCategory.cpp:506
+#: browsers/playlistbrowser/PodcastCategory.cpp:507
 #: browsers/playlistbrowser/UserPlaylistTreeView.cpp:158
 msgid "&Rename"
 msgstr "&Nav biguhere"
@@ -2991,25 +3018,29 @@ msgstr "Podcast"
 msgid "&Update All"
 msgstr ""
 
-#: browsers/playlistbrowser/PodcastCategory.cpp:531
+#: browsers/playlistbrowser/PodcastCategory.cpp:532
 #, fuzzy
 #| msgid "Collection"
 msgid "&Remove Subscription"
 msgstr "Koleksiyon"
 
-#: browsers/playlistbrowser/PodcastCategory.cpp:543
+#: browsers/playlistbrowser/PodcastCategory.cpp:544
 #, fuzzy
 msgctxt "Label (or tag) the currently selected Channel(s)"
 msgid "&Label"
 msgstr "Etîket:"
 
-#: browsers/playlistbrowser/PodcastCategory.cpp:555
+#: browsers/playlistbrowser/PodcastCategory.cpp:556
 #, fuzzy
 msgid "&Configure"
 msgstr "&Veava bike..."
 
-#: browsers/playlistbrowser/PodcastCategory.cpp:580
+#: browsers/playlistbrowser/PodcastCategory.cpp:581
 msgid "&Delete Downloaded Episode"
+msgstr ""
+
+#: browsers/playlistbrowser/PodcastCategory.cpp:593
+msgid "&Download Episode"
 msgstr ""
 
 #: browsers/playlistbrowser/DynamicCategory.cpp:56
@@ -3068,7 +3099,7 @@ msgstr "lîsteya lêdanê nehate nivisandin (%1)."
 msgid "Add Folder"
 msgstr ""
 
-#: browsers/playlistbrowser/PlaylistCategory.cpp:96 MainWindow.cpp:508
+#: browsers/playlistbrowser/PlaylistCategory.cpp:96 MainWindow.cpp:522
 msgid "Add Stream"
 msgstr ""
 
@@ -3257,199 +3288,191 @@ msgid ""
 "to remove that file."
 msgstr ""
 
-#: MainWindow.cpp:263
+#: MainWindow.cpp:277
 #, fuzzy
 msgid "Internet"
 msgstr "Navneteweyî"
 
-#: MainWindow.cpp:271
+#: MainWindow.cpp:285
 msgid "Playlists"
 msgstr "lîsteya lêdanê"
 
-#: MainWindow.cpp:275
+#: MainWindow.cpp:289
 msgid "Files"
 msgstr ""
 
-#: MainWindow.cpp:408
+#: MainWindow.cpp:422
 msgid ""
 "<qt>Closing the main-window will keep Amarok running in the System Tray. Use "
 "<B>Quit</B> from the menu, or the Amarok tray-icon to exit the application.</"
 "qt>"
 msgstr ""
 
-#: MainWindow.cpp:410
+#: MainWindow.cpp:424
 msgid "Docking in System Tray"
 msgstr ""
 
-#: MainWindow.cpp:438
+#: MainWindow.cpp:452
 msgid "Use relative path for &saving"
 msgstr ""
 
-#: MainWindow.cpp:443
+#: MainWindow.cpp:457
 msgid "Save As"
 msgstr ""
 
-#: MainWindow.cpp:463
+#: MainWindow.cpp:477
 #, fuzzy
 #| msgid "Playlists"
 msgid "Playlist"
 msgstr "lîsteya lêdanê"
 
-#: MainWindow.cpp:493
+#: MainWindow.cpp:507
 msgid "Play Media (Files or URLs)"
 msgstr ""
 
-#: MainWindow.cpp:493
+#: MainWindow.cpp:507
 msgid "Add Media (Files or URLs)"
 msgstr ""
 
-#: MainWindow.cpp:508
+#: MainWindow.cpp:522
 #, fuzzy
 #| msgid "Enter Podcast URL:"
 msgid "Enter Stream URL:"
 msgstr "URL'ya Podcast binivîse:"
 
-#: MainWindow.cpp:697
+#: MainWindow.cpp:711
 msgid "&Add Media..."
 msgstr ""
 
-#: MainWindow.cpp:702
+#: MainWindow.cpp:716
 #, fuzzy
 #| msgid "Playlists"
 msgctxt "clear playlist"
 msgid "&Clear Playlist"
 msgstr "lîsteya lêdanê"
 
-#: MainWindow.cpp:706
+#: MainWindow.cpp:720
 msgid "&Add Stream..."
 msgstr ""
 
-#: MainWindow.cpp:710
+#: MainWindow.cpp:724
 #, fuzzy
 #| msgid "Playlists"
 msgid "&Export Playlist As..."
 msgstr "lîsteya lêdanê"
 
-#: MainWindow.cpp:714
+#: MainWindow.cpp:728
 #, fuzzy
 #| msgid "Playlists"
 msgid "&Save Playlist"
 msgstr "lîsteya lêdanê"
 
-#: MainWindow.cpp:725 covermanager/CoverManager.cpp:118
+#: MainWindow.cpp:739 covermanager/CoverManager.cpp:118
 msgid "Cover Manager"
 msgstr ""
 
-#: MainWindow.cpp:729 widgets/AnalyzerWidget.cpp:67
-msgid "&Visualizations"
-msgstr ""
-
-#: MainWindow.cpp:733
-msgid "E&qualizer"
-msgstr ""
-
-#: MainWindow.cpp:744
+#: MainWindow.cpp:758
 msgid "Play Media..."
 msgstr ""
 
-#: MainWindow.cpp:748
+#: MainWindow.cpp:764
 msgid "Play Audio CD"
 msgstr ""
 
-#: MainWindow.cpp:760
+#: MainWindow.cpp:777
 msgid "&Seek Forward"
 msgstr ""
 
-#: MainWindow.cpp:766
+#: MainWindow.cpp:783
 msgid "&Seek Backward"
 msgstr ""
 
-#: MainWindow.cpp:777
+#: MainWindow.cpp:794
 msgid "Update Collection"
 msgstr ""
 
-#: MainWindow.cpp:784
+#: MainWindow.cpp:801
 msgid "Previous Track"
 msgstr ""
 
-#: MainWindow.cpp:792
+#: MainWindow.cpp:809
 msgid "Next Track"
 msgstr ""
 
-#: MainWindow.cpp:795
+#: MainWindow.cpp:812
 msgid "Toggle Focus"
 msgstr ""
 
-#: MainWindow.cpp:799
+#: MainWindow.cpp:816
 msgid "Increase Volume"
 msgstr ""
 
-#: MainWindow.cpp:805
+#: MainWindow.cpp:822
 msgid "Decrease Volume"
 msgstr ""
 
-#: MainWindow.cpp:811
+#: MainWindow.cpp:828
 msgid "Toggle Main Window"
 msgstr ""
 
-#: MainWindow.cpp:816
+#: MainWindow.cpp:833
 #, fuzzy
 #| msgid "Configure On-Screen-Display"
 msgid "Show On Screen Display"
 msgstr "Dîmendera Agahdarkirinê Veava Bike"
 
-#: MainWindow.cpp:821
+#: MainWindow.cpp:838
 msgid "Mute Volume"
 msgstr ""
 
-#: MainWindow.cpp:826
+#: MainWindow.cpp:843
 #, fuzzy
 msgid "Love Current Track"
 msgstr "perçeyên herî nû"
 
-#: MainWindow.cpp:831
+#: MainWindow.cpp:848
 msgid "Rate Current Track: 1"
 msgstr ""
 
-#: MainWindow.cpp:836
+#: MainWindow.cpp:853
 msgid "Rate Current Track: 2"
 msgstr ""
 
-#: MainWindow.cpp:841
+#: MainWindow.cpp:858
 msgid "Rate Current Track: 3"
 msgstr ""
 
-#: MainWindow.cpp:846
+#: MainWindow.cpp:863
 msgid "Rate Current Track: 4"
 msgstr ""
 
-#: MainWindow.cpp:851
+#: MainWindow.cpp:868
 msgid "Rate Current Track: 5"
 msgstr ""
 
-#: MainWindow.cpp:917
+#: MainWindow.cpp:934
 msgid "&Music"
 msgstr ""
 
-#: MainWindow.cpp:921
+#: MainWindow.cpp:938
 msgid "&Amarok"
 msgstr ""
 
-#: MainWindow.cpp:971
+#: MainWindow.cpp:988
 msgid "&Tools"
 msgstr ""
 
-#: MainWindow.cpp:993
+#: MainWindow.cpp:1009
 msgid "&Settings"
 msgstr ""
 
-#: MainWindow.cpp:1073 MainWindow.cpp:1092
+#: MainWindow.cpp:1089 MainWindow.cpp:1108
 #, fuzzy, kde-format
 #| msgid "%1. %2 - %3"
 msgid "%1 - %2  ::  %3"
 msgstr "%1. %2 - %3"
 
-#: MainWindow.cpp:1078
+#: MainWindow.cpp:1094
 #, kde-format
 msgid "Paused  ::  %1"
 msgstr ""
@@ -7283,6 +7306,10 @@ msgstr ""
 msgid "Click for more analyzers"
 msgstr ""
 
+#: widgets/AnalyzerWidget.cpp:67
+msgid "&Visualizations"
+msgstr ""
+
 #: widgets/TrackTooltip.cpp:227
 #, kde-format
 msgid " by <b>%1</b>"
@@ -7879,9 +7906,6 @@ msgstr "Hunermend"
 #~ msgid "Score: %1"
 #~ msgstr "Skor: %1"
 
-#~ msgid "Rating: %1"
-#~ msgstr "Ecibandin: %1"
-
 #, fuzzy
 #~ msgctxt "[only-singular]"
 #~ msgid "Edit Track &Information..."
@@ -8059,9 +8083,6 @@ msgstr "Hunermend"
 
 #~ msgid "Engine"
 #~ msgstr "Motor"
-
-#~ msgid "Updating Collection"
-#~ msgstr "Koleksiyon Têne Rojanekirin"
 
 #~ msgid "Building Collection"
 #~ msgstr "Koleksiyon Tê Avakirin"
