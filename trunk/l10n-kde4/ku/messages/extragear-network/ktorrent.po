@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktorrent\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-10-26 09:15+0100\n"
+"POT-Creation-Date: 2008-10-28 09:54+0100\n"
 "PO-Revision-Date: 2008-09-23 17:28+0300\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -795,42 +795,54 @@ msgstr ""
 msgid "The data file is not present in the location you selected !"
 msgstr ""
 
-#: ktorrent/torrentcreatordlg.cpp:103 ktorrent/fileselectdlg.cpp:275
+#: ktorrent/torrentcreatordlg.cpp:38
+#, fuzzy
+#| msgid "Create Torrent"
+msgid "Create A Torrent"
+msgstr "Torrent biafirîne"
+
+#: ktorrent/torrentcreatordlg.cpp:104 ktorrent/fileselectdlg.cpp:275
 #: libktcore/groups/allgroup.cpp:26
 msgid "All Torrents"
 msgstr ""
 
-#: ktorrent/torrentcreatordlg.cpp:216
+#: ktorrent/torrentcreatordlg.cpp:217
 #, kde-format
 msgid "Invalid url %1"
 msgstr ""
 
-#: ktorrent/torrentcreatordlg.cpp:222
+#: ktorrent/torrentcreatordlg.cpp:223
 msgid "Only HTTP is supported for webseeding !"
 msgstr ""
 
-#: ktorrent/torrentcreatordlg.cpp:253
+#: ktorrent/torrentcreatordlg.cpp:254
 msgid "You must select a file or a folder."
 msgstr "Divê tu pel an jî peldankekê hilbijêrî."
 
-#: ktorrent/torrentcreatordlg.cpp:259
+#: ktorrent/torrentcreatordlg.cpp:260
 msgid ""
 "You have not added a tracker, are you sure you want to create this torrent ?"
 msgstr ""
 
-#: ktorrent/torrentcreatordlg.cpp:267
+#: ktorrent/torrentcreatordlg.cpp:268
 msgid "You must add at least one node."
 msgstr ""
 
-#: ktorrent/torrentcreatordlg.cpp:307
+#: ktorrent/torrentcreatordlg.cpp:308
 msgid "Torrent Files (*.torrent)"
 msgstr "Pelên Torrent (*.torrent)"
 
-#: ktorrent/torrentcreatordlg.cpp:308
+#: ktorrent/torrentcreatordlg.cpp:309
 msgid "Choose a file to save the torrent"
 msgstr ""
 
-#: ktorrent/torrentcreatordlg.cpp:317
+#: ktorrent/torrentcreatordlg.cpp:318
+#, fuzzy
+#| msgid "Create Torrent"
+msgid "Creating Torrent"
+msgstr "Torrent biafirîne"
+
+#: ktorrent/torrentcreatordlg.cpp:319
 #, kde-format
 msgid "Creating %1..."
 msgstr "%1 te afirandin..."
@@ -6508,7 +6520,7 @@ msgstr ""
 msgid "Remove Filter"
 msgstr ""
 
-#: plugins/syndication/feedlist.cpp:108
+#: plugins/syndication/feedlist.cpp:107
 #, kde-format
 msgid "<b>%1</b><br/><br/>%2"
 msgstr ""
@@ -7427,9 +7439,6 @@ msgstr ""
 
 #~ msgid "M&ove up"
 #~ msgstr "Ber bi j&or"
-
-#~ msgid "Create Torrent"
-#~ msgstr "Torrent biafirîne"
 
 #~ msgid "32"
 #~ msgstr "32"
