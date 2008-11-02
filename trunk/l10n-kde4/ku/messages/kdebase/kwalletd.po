@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwalletd\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-10-30 10:05+0100\n"
+"POT-Creation-Date: 2008-11-02 09:59+0100\n"
 "PO-Revision-Date: 2008-09-23 01:19+0300\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -16,15 +16,39 @@ msgstr ""
 "X-Generator: Lokalize 0.2\n"
 "Plural-Forms: nplurals=2; plural= n != 1;\n"
 
-#: main.cpp:38 main.cpp:39 kwalletd.cpp:304 kwalletd.cpp:392 kwalletd.cpp:428
-#: kwalletd.cpp:598 kwalletd.cpp:610 kwalletd.cpp:619 kwalletd.cpp:624
-#: kwalletd.cpp:1110
+#: main.cpp:38 main.cpp:39 kwalletd.cpp:304 kwalletd.cpp:392 kwalletd.cpp:429
+#: kwalletd.cpp:595 kwalletd.cpp:607 kwalletd.cpp:616 kwalletd.cpp:621
+#: kwalletd.cpp:1097
 msgid "KDE Wallet Service"
 msgstr ""
 
 #: main.cpp:40
 msgid "(C) 2002-2008 George Staikos, Michael Leupold, Thiago Maceira"
 msgstr "(C) 2002-2008 George Staikos, Michael Leupold, Thiago Maceira"
+
+#: main.cpp:41
+msgid "Michael Leupold"
+msgstr ""
+
+#: main.cpp:41
+msgid "Maintainer"
+msgstr ""
+
+#: main.cpp:42
+msgid "George Staikos"
+msgstr ""
+
+#: main.cpp:42
+msgid "Former maintainer"
+msgstr ""
+
+#: main.cpp:43
+msgid "Thiago Maceira"
+msgstr ""
+
+#: main.cpp:43
+msgid "DBus Interface"
+msgstr ""
 
 #: kwalletd.cpp:385
 #, kde-format
@@ -44,21 +68,21 @@ msgstr ""
 msgid "&Open"
 msgstr "&Vekirin"
 
-#: kwalletd.cpp:399 kwalletd.cpp:436
+#: kwalletd.cpp:400 kwalletd.cpp:438
 #, kde-format
 msgid ""
 "<qt>Error opening the wallet '<b>%1</b>'. Please try again.<br />(Error code "
 "%2: %3)</qt>"
 msgstr ""
 
-#: kwalletd.cpp:416
+#: kwalletd.cpp:417
 msgid ""
 "KDE has requested to open the wallet. This is used to store sensitive data "
 "in a secure fashion. Please enter a password to use with this wallet or "
 "click cancel to deny the application's request."
 msgstr ""
 
-#: kwalletd.cpp:418
+#: kwalletd.cpp:419
 #, kde-format
 msgid ""
 "<qt>The application '<b>%1</b>' has requested to open the KDE wallet. This "
@@ -67,7 +91,7 @@ msgid ""
 "qt>"
 msgstr ""
 
-#: kwalletd.cpp:422
+#: kwalletd.cpp:423
 #, kde-format
 msgid ""
 "<qt>KDE has requested to create a new wallet named '<b>%1</b>'. Please "
@@ -75,7 +99,7 @@ msgid ""
 "request.</qt>"
 msgstr ""
 
-#: kwalletd.cpp:424
+#: kwalletd.cpp:425
 #, kde-format
 msgid ""
 "<qt>The application '<b>%1</b>' has requested to create a new wallet named "
@@ -83,42 +107,42 @@ msgid ""
 "application's request.</qt>"
 msgstr ""
 
-#: kwalletd.cpp:429
+#: kwalletd.cpp:430
 msgid "C&reate"
 msgstr ""
 
-#: kwalletd.cpp:509
+#: kwalletd.cpp:506
 #, kde-format
 msgid "<qt>KDE has requested access to the open wallet '<b>%1</b>'.</qt>"
 msgstr ""
 
-#: kwalletd.cpp:511
+#: kwalletd.cpp:508
 #, kde-format
 msgid ""
 "<qt>The application '<b>%1</b>' has requested access to the open wallet '<b>%"
 "2</b>'.</qt>"
 msgstr ""
 
-#: kwalletd.cpp:598
+#: kwalletd.cpp:595
 msgid ""
 "Unable to open wallet. The wallet must be opened in order to change the "
 "password."
 msgstr ""
 
-#: kwalletd.cpp:609
+#: kwalletd.cpp:606
 #, kde-format
 msgid "<qt>Please choose a new password for the wallet '<b>%1</b>'.</qt>"
 msgstr ""
 
-#: kwalletd.cpp:619
+#: kwalletd.cpp:616
 msgid "Error re-encrypting the wallet. Password was not changed."
 msgstr ""
 
-#: kwalletd.cpp:624
+#: kwalletd.cpp:621
 msgid "Error reopening the wallet. Data may be lost."
 msgstr ""
 
-#: kwalletd.cpp:1110
+#: kwalletd.cpp:1097
 msgid ""
 "There have been repeated failed attempts to gain access to a wallet. An "
 "application may be misbehaving."
@@ -252,39 +276,39 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
-#: backend/kwalletbackend.cc:292
+#: backend/kwalletbackend.cc:279
 msgid "Already open."
 msgstr "Jixwe vekirî ye."
 
-#: backend/kwalletbackend.cc:294
+#: backend/kwalletbackend.cc:281
 msgid "Error opening file."
 msgstr "Di vekirina pelî de çewtî derket."
 
-#: backend/kwalletbackend.cc:296
+#: backend/kwalletbackend.cc:283
 msgid "Not a wallet file."
 msgstr ""
 
-#: backend/kwalletbackend.cc:298
+#: backend/kwalletbackend.cc:285
 msgid "Unsupported file format revision."
 msgstr ""
 
-#: backend/kwalletbackend.cc:300
+#: backend/kwalletbackend.cc:287
 msgid "Unknown encryption scheme."
 msgstr ""
 
-#: backend/kwalletbackend.cc:302
+#: backend/kwalletbackend.cc:289
 msgid "Corrupt file?"
 msgstr ""
 
-#: backend/kwalletbackend.cc:304
+#: backend/kwalletbackend.cc:291
 msgid "Error validating wallet integrity. Possibly corrupted."
 msgstr ""
 
-#: backend/kwalletbackend.cc:308
+#: backend/kwalletbackend.cc:295
 msgid "Read error - possibly incorrect password."
 msgstr ""
 
-#: backend/kwalletbackend.cc:310
+#: backend/kwalletbackend.cc:297
 msgid "Decryption error."
 msgstr ""
 
