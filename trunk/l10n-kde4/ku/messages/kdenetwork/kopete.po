@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kopete\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-01 10:39+0100\n"
+"POT-Creation-Date: 2008-11-04 10:14+0100\n"
 "PO-Revision-Date: 2008-06-22 23:57+0200\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <ku@li.org>\n"
@@ -19542,7 +19542,7 @@ msgid "Buzz Contact"
 msgstr ""
 
 #: protocols/yahoo/yahoochatsession.cpp:66
-#: protocols/jabber/jabberchatsession.cpp:108
+#: protocols/jabber/jabberchatsession.cpp:128
 msgid "Send File"
 msgstr "Pelekî Bişîne"
 
@@ -20044,12 +20044,10 @@ msgid "Test action"
 msgstr "Hedef"
 
 #: protocols/jabber/jabbercontact.cpp:256
-#: protocols/jabber/jabberchatsession.cpp:78
 msgid "Jingle Audio call"
 msgstr ""
 
 #: protocols/jabber/jabbercontact.cpp:259
-#: protocols/jabber/jabberchatsession.cpp:83
 msgid "Jingle Video call"
 msgstr ""
 
@@ -20533,7 +20531,7 @@ msgid "You have been invited to %1"
 msgstr ""
 
 #: protocols/jabber/jabbergroupchatmanager.cpp:102
-#: protocols/jabber/jabberchatsession.cpp:362
+#: protocols/jabber/jabberchatsession.cpp:382
 msgid "This message is encrypted."
 msgstr "Ev peyam hatiye şîfrekirin."
 
@@ -20982,10 +20980,16 @@ msgid "Jabber Account Unregistration"
 msgstr "Tomara Hesabê Jabber"
 
 #: protocols/jabber/jabberchatsession.cpp:73
+#, fuzzy
+#| msgid "Show Offline &Users"
+msgid "Show Jingle sessions"
+msgstr "&Bikarhênerên Negirêdayî Nîşan Bide"
+
+#: protocols/jabber/jabberchatsession.cpp:77
 msgid "Start Jingle session"
 msgstr ""
 
-#: protocols/jabber/jabberchatsession.cpp:141
+#: protocols/jabber/jabberchatsession.cpp:161
 #, kde-format
 msgctxt "a contact's online status in parenthesis."
 msgid " (%1)"
