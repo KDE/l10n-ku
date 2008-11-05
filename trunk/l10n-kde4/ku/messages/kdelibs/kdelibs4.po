@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-04 10:11+0100\n"
+"POT-Creation-Date: 2008-11-05 10:41+0100\n"
 "PO-Revision-Date: 2008-08-30 14:20+0300\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
@@ -3883,7 +3883,14 @@ msgstr ""
 msgid "Function must be called from the main thread."
 msgstr ""
 
-#: kdecore/kernel/ktoolinvocation.cpp:119
+#: kdecore/kernel/ktoolinvocation.cpp:120
+#, kde-format
+msgid ""
+"Error launching %1. Either KLauncher is not running anymore, or it failed to "
+"start the application."
+msgstr ""
+
+#: kdecore/kernel/ktoolinvocation.cpp:123
 #, kde-format
 msgid ""
 "KLauncher could not be reached via D-Bus. Error when calling %1:\n"
@@ -3892,7 +3899,7 @@ msgstr ""
 "Bi alîkariya D-Bus KLauncher nehat gihandin. Dema %1 hat banga kirin:.\n"
 "%2\n"
 
-#: kdecore/kernel/ktoolinvocation.cpp:275
+#: kdecore/kernel/ktoolinvocation.cpp:280
 #, kde-format
 msgid ""
 "Could not launch the KDE Help Center:\n"
@@ -3903,7 +3910,7 @@ msgstr ""
 "\n"
 "%1"
 
-#: kdecore/kernel/ktoolinvocation.cpp:276
+#: kdecore/kernel/ktoolinvocation.cpp:281
 msgid "Could not Launch Help Center"
 msgstr "Navenda Alîkariyan nehate destpêkirin"
 
@@ -6343,8 +6350,8 @@ msgid ""
 msgstr ""
 
 #: kdeui/dialogs/kshortcutseditor.cpp:513
-#: kdeui/dialogs/kshortcutseditor.cpp:529 kdeui/shortcuts/kglobalaccel.cpp:431
-#: kdeui/shortcuts/kglobalaccel.cpp:470
+#: kdeui/dialogs/kshortcutseditor.cpp:529 kdeui/shortcuts/kglobalaccel.cpp:420
+#: kdeui/shortcuts/kglobalaccel.cpp:459
 #: kdeui/widgets/kkeysequencewidget.cpp:174
 #: kdeui/widgets/kkeysequencewidget.cpp:256
 #: kdeui/widgets/kkeysequencewidget.cpp:633
@@ -7442,11 +7449,11 @@ msgstr "Di Stûnan De Lê Bigere"
 msgid "All Visible Columns"
 msgstr "Hemû Stûnên ku Dixuye"
 
-#: kdeui/shortcuts/kglobalaccel.cpp:424
+#: kdeui/shortcuts/kglobalaccel.cpp:413
 msgid "Conflict with Global Shortcut"
 msgstr "Lihevnekirina Kurteriyên Giştî"
 
-#: kdeui/shortcuts/kglobalaccel.cpp:425
+#: kdeui/shortcuts/kglobalaccel.cpp:414
 #, kde-format
 msgid ""
 "The '%1' key combination has already been allocated to the global action \"%2"
@@ -7454,24 +7461,24 @@ msgid ""
 "Do you want to reassign it from that action to the current one?"
 msgstr ""
 
-#: kdeui/shortcuts/kglobalaccel.cpp:451
+#: kdeui/shortcuts/kglobalaccel.cpp:440
 #, kde-format
 msgid "The '%1' key combination is registered by application %2 for action %3:"
 msgstr ""
 
-#: kdeui/shortcuts/kglobalaccel.cpp:458
+#: kdeui/shortcuts/kglobalaccel.cpp:447
 #, kde-format
 msgid "In context '%1' for action '%2'\n"
 msgstr ""
 
-#: kdeui/shortcuts/kglobalaccel.cpp:462
+#: kdeui/shortcuts/kglobalaccel.cpp:451
 #, kde-format
 msgid ""
 "The '%1' key combination is registered by application %2.\n"
 "%3"
 msgstr ""
 
-#: kdeui/shortcuts/kglobalaccel.cpp:468
+#: kdeui/shortcuts/kglobalaccel.cpp:457
 #, fuzzy
 #| msgid "Conflict with Global Shortcut"
 msgid "Conflict With Registered Global Shortcut"
@@ -11331,19 +11338,19 @@ msgstr "Ian Reinhart Geiser"
 msgid "Daniel Molkentin"
 msgstr "Daniel Molkentin"
 
-#: nepomuk/core/resource.cpp:415
+#: nepomuk/core/resource.cpp:416
 msgid "Success"
 msgstr "Serkeftin"
 
-#: nepomuk/core/resource.cpp:417
+#: nepomuk/core/resource.cpp:418
 msgid "Communication error"
 msgstr "Çewtiya ragihandinê"
 
-#: nepomuk/core/resource.cpp:419
+#: nepomuk/core/resource.cpp:420
 msgid "Invalid type in Database"
 msgstr "Di Danegehê de cureyeke nederbasdar"
 
-#: nepomuk/core/resource.cpp:421
+#: nepomuk/core/resource.cpp:422
 msgid "Unknown error"
 msgstr "Çewtiya nenas"
 
