@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok-neu\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-06 09:50+0100\n"
+"POT-Creation-Date: 2008-11-07 10:12+0100\n"
 "PO-Revision-Date: 2008-10-31 21:30+0100\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -399,12 +399,12 @@ msgstr "Stranên pêşniyazkirî"
 msgid "username"
 msgstr "Nav biguharîne"
 
-#: context/engines/wikipedia/WikipediaEngine.cpp:153
-#: context/engines/wikipedia/WikipediaEngine.cpp:381
+#: context/engines/wikipedia/WikipediaEngine.cpp:165
+#: context/engines/wikipedia/WikipediaEngine.cpp:393
 msgid "Fetching content.."
 msgstr ""
 
-#: context/engines/wikipedia/WikipediaEngine.cpp:286
+#: context/engines/wikipedia/WikipediaEngine.cpp:298
 msgid "Wikipedia Other Languages: <br/>"
 msgstr ""
 
@@ -756,9 +756,9 @@ msgid "Score:"
 msgstr ""
 
 #: context/applets/currenttrack/CurrentTrack.cpp:86
-#: context/applets/currenttrack/CurrentTrack.cpp:343 dialogs/TagDialog.cpp:770
-msgid "Playcount:"
-msgstr ""
+#, fuzzy
+msgid "Play Count:"
+msgstr "&Bilîze"
 
 #: context/applets/currenttrack/CurrentTrack.cpp:87
 #: context/applets/currenttrack/CurrentTrack.cpp:344 dialogs/TagDialog.cpp:775
@@ -774,6 +774,10 @@ msgstr "yê dawî hatine lêdan"
 #, fuzzy
 msgid "Last Played"
 msgstr "yê dawî hatine lêdan"
+
+#: context/applets/currenttrack/CurrentTrack.cpp:343 dialogs/TagDialog.cpp:770
+msgid "Playcount:"
+msgstr ""
 
 #: context/applets/albums/AlbumsView.cpp:147 Systray.cpp:126
 #: browsers/collectionbrowser/CollectionTreeView.cpp:599
@@ -2297,20 +2301,20 @@ msgstr ""
 msgid "A preset with the name %1 already exists. Overwrite?"
 msgstr ""
 
-#: EngineController.cpp:160
+#: EngineController.cpp:162
 msgid ""
 "<p>Phonon claims it <b>cannot</b> play MP3 files. You may want to examine "
 "the installation of the backend that phonon uses.</p><p>You may find useful "
 "information in the <i>FAQ</i> section of the <i>Amarok Handbook</i>.</p>"
 msgstr ""
 
-#: EngineController.cpp:179
+#: EngineController.cpp:181
 #, fuzzy
 #| msgid "No MP3 Support"
 msgid "Install MP3 Support"
 msgstr "Desteka MP3 Tune"
 
-#: EngineController.cpp:181
+#: EngineController.cpp:183
 #, fuzzy
 #| msgid "Amarok currently cannot play MP3 files."
 msgid ""
@@ -2318,7 +2322,7 @@ msgid ""
 "MP3?"
 msgstr "Amarok nikare pelên MP3 lê bide."
 
-#: EngineController.cpp:182
+#: EngineController.cpp:184
 msgid "No MP3 Support"
 msgstr "Desteka MP3 Tune"
 
@@ -7695,10 +7699,6 @@ msgstr "Hunermend"
 #, fuzzy
 #~ msgid "Copy To Media Device"
 #~ msgstr "Cîhazê Çapemeniyê Ava Bike"
-
-#, fuzzy
-#~ msgid "Playcount"
-#~ msgstr "&Bilîze"
 
 #, fuzzy
 #~ msgid "1 Queued Track (%2)"
