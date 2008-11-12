@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdmgreet\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-11 09:54+0100\n"
+"POT-Creation-Date: 2008-11-12 10:46+0100\n"
 "PO-Revision-Date: 2008-08-07 00:04+0300\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
@@ -75,7 +75,7 @@ msgctxt "@action:button"
 msgid "&Refresh"
 msgstr "&Tazekirin"
 
-#: kchooser.cpp:100 kgreeter.cpp:768
+#: kchooser.cpp:100 kgreeter.cpp:766
 msgctxt "@action:button"
 msgid "&Menu"
 msgstr "&Pêşek"
@@ -106,49 +106,52 @@ msgid "Failsafe"
 msgstr "Ewle"
 
 #: kgreeter.cpp:525
+#, fuzzy, kde-format
+#| msgctxt "appended to session type"
+#| msgid " (previous)"
 msgctxt "appended to session type"
-msgid " (previous)"
+msgid "%1 (previous)"
 msgstr " (paşve)"
 
-#: kgreeter.cpp:587
+#: kgreeter.cpp:585
 #, kde-format
 msgid ""
 "Your saved session type '%1' is not valid any more.\n"
 "Please select a new one, otherwise 'default' will be used."
 msgstr ""
 
-#: kgreeter.cpp:710
+#: kgreeter.cpp:708
 msgid "Warning: this is an unsecured session"
 msgstr ""
 
-#: kgreeter.cpp:712
+#: kgreeter.cpp:710
 msgid ""
 "This display requires no X authorization.\n"
 "This means that anybody can connect to it,\n"
 "open windows on it or intercept your input."
 msgstr ""
 
-#: kgreeter.cpp:765
+#: kgreeter.cpp:763
 msgctxt "@action:button"
 msgid "L&ogin"
 msgstr "&Têketin"
 
-#: kgreeter.cpp:799 kgreeter.cpp:932
+#: kgreeter.cpp:797 kgreeter.cpp:930
 msgctxt "@title:menu"
 msgid "Session &Type"
 msgstr "&Cureyê Danişînê"
 
-#: kgreeter.cpp:804 kgreeter.cpp:938
+#: kgreeter.cpp:802 kgreeter.cpp:936
 msgctxt "@title:menu"
 msgid "&Authentication Method"
 msgstr ""
 
-#: kgreeter.cpp:809 kgreeter.cpp:943
+#: kgreeter.cpp:807 kgreeter.cpp:941
 msgctxt "@action:inmenu"
 msgid "&Remote Login"
 msgstr "Têketina &Dûr"
 
-#: kgreeter.cpp:883 kgverify.cpp:1053
+#: kgreeter.cpp:881 kgverify.cpp:1053
 msgid "Login failed"
 msgstr "Têketin biserneket"
 
