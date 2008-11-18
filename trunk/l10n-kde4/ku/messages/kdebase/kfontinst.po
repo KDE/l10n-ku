@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfontinst\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-17 09:40+0100\n"
+"POT-Creation-Date: 2008-11-18 09:54+0100\n"
 "PO-Revision-Date: 2008-03-02 18:13+0100\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: ku <kde-i18n-doc@lists.kde.org>\n"
@@ -200,11 +200,15 @@ msgid "Properties"
 msgstr "Taybetmendî"
 
 #: kcmfontinst/DuplicatesDialog.cpp:555
-msgid "Unmark for Deletion..."
+#, fuzzy
+#| msgid "Unmark for Deletion..."
+msgid "Unmark for Deletion"
 msgstr "Ji bo Jêbirinê Nîşan rake..."
 
 #: kcmfontinst/DuplicatesDialog.cpp:557
-msgid "Mark for Deletion..."
+#, fuzzy
+#| msgid "Mark for Deletion..."
+msgid "Mark for Deletion"
 msgstr "Ji bo Jêbirinê Nîşan bike..."
 
 #: kcmfontinst/DuplicatesDialog.cpp:634 kcmfontinst/FontList.cpp:2016
@@ -285,7 +289,7 @@ msgstr "...û %1 din"
 msgid "%1 [%2]"
 msgstr "%1 [%2]"
 
-#: kcmfontinst/FontList.cpp:1613
+#: kcmfontinst/FontList.cpp:1613 kcmfontinst/KCmFontInst.cpp:368
 msgid "Delete"
 msgstr "Jêbirin"
 
@@ -298,12 +302,16 @@ msgid "Reload"
 msgstr "Nûbarkirin"
 
 #: kcmfontinst/FontList.cpp:1625 kcmfontinst/GroupList.cpp:773
-msgid "Enable..."
-msgstr "Çalakkirin..."
+#: kcmfontinst/KCmFontInst.cpp:372 kcmfontinst/KCmFontInst.cpp:1399
+#: kcmfontinst/KCmFontInst.cpp:1423
+msgid "Enable"
+msgstr "Çalakkirin"
 
 #: kcmfontinst/FontList.cpp:1627 kcmfontinst/GroupList.cpp:775
-msgid "Disable..."
-msgstr "Neçalakkirin..."
+#: kcmfontinst/KCmFontInst.cpp:376 kcmfontinst/KCmFontInst.cpp:1400
+#: kcmfontinst/KCmFontInst.cpp:1424
+msgid "Disable"
+msgstr "Neçalakkirin"
 
 #: kcmfontinst/GroupList.cpp:83
 msgid "All Fonts"
@@ -366,7 +374,7 @@ msgstr ""
 msgid "Remove Group"
 msgstr "Komê Rake"
 
-#: kcmfontinst/GroupList.cpp:588
+#: kcmfontinst/GroupList.cpp:588 kcmfontinst/GroupList.cpp:771
 msgid "Remove"
 msgstr "Rakirin"
 
@@ -407,10 +415,6 @@ msgstr ""
 #, kde-format
 msgid "<qt>A group named <b>'%1'</b> already exists.</qt>"
 msgstr ""
-
-#: kcmfontinst/GroupList.cpp:771
-msgid "Remove..."
-msgstr "Jêbirin..."
 
 #: kcmfontinst/GroupList.cpp:778
 msgid "Rename..."
@@ -614,7 +618,9 @@ msgid "Change Preview Text..."
 msgstr "Nivîsa Pêşdîtinê Biguherîne..."
 
 #: kcmfontinst/KCmFontInst.cpp:295
-msgid "Scan For Duplicate Fonts..."
+#, fuzzy
+#| msgid "Scan For Duplicate Fonts..."
+msgid "Scan for Duplicate Fonts..."
 msgstr "Li Curenivîsên Dubare Bigere..."
 
 #: kcmfontinst/KCmFontInst.cpp:299
@@ -649,27 +655,13 @@ msgstr "Têxistin..."
 msgid "Install fonts"
 msgstr "Curenivîsan saz bike"
 
-#: kcmfontinst/KCmFontInst.cpp:368
-msgid "Delete..."
-msgstr "Jêbirin..."
-
 #: kcmfontinst/KCmFontInst.cpp:369
 msgid "Delete all selected fonts"
 msgstr "Hemû curenivîsên hilbijartî jê bibe"
 
-#: kcmfontinst/KCmFontInst.cpp:372 kcmfontinst/KCmFontInst.cpp:1399
-#: kcmfontinst/KCmFontInst.cpp:1423
-msgid "Enable"
-msgstr "Çalakkirin"
-
 #: kcmfontinst/KCmFontInst.cpp:373
 msgid "Enable all selected fonts"
 msgstr "Hemû curenivîsên hilbijartî çalak bike"
-
-#: kcmfontinst/KCmFontInst.cpp:376 kcmfontinst/KCmFontInst.cpp:1400
-#: kcmfontinst/KCmFontInst.cpp:1424
-msgid "Disable"
-msgstr "Neçalakkirin"
 
 #: kcmfontinst/KCmFontInst.cpp:377
 msgid "Disable all selected fonts"
@@ -2264,6 +2256,18 @@ msgstr "Phags Pa"
 #: viewpart/UnicodeScripts.h:79
 msgid "Yi"
 msgstr "Yi"
+
+#~ msgid "Enable..."
+#~ msgstr "Çalakkirin..."
+
+#~ msgid "Disable..."
+#~ msgstr "Neçalakkirin..."
+
+#~ msgid "Remove..."
+#~ msgstr "Jêbirin..."
+
+#~ msgid "Delete..."
+#~ msgstr "Jêbirin..."
 
 #~ msgid "Enable font"
 #~ msgstr "Curenivîsî çalak bike"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krunner\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-10 10:10+0100\n"
+"POT-Creation-Date: 2008-11-18 09:55+0100\n"
 "PO-Revision-Date: 2008-02-11 03:18+0100\n"
 "Last-Translator: \n"
 "Language-Team: ku <kde-i18n-doc@lists.kde.org>\n"
@@ -25,7 +25,7 @@ msgid "Settings"
 msgstr "Danişîn"
 
 #: interfaces/default/interface.cpp:96 interfaces/default/interface.cpp:97
-#: krunnerapp.cpp:192 krunnerapp.cpp:193
+#: krunnerapp.cpp:200 krunnerapp.cpp:201
 msgid "Show System Activity"
 msgstr "Çalakbûna Pergalê Nîşan Bide"
 
@@ -204,7 +204,7 @@ msgstr "&Çalakkirin"
 msgid "Start &New Session"
 msgstr "Dest Bi Danişîna &Nû Bike"
 
-#: krunnerdialog.cpp:56 krunnerapp.cpp:181 krunnerapp.cpp:182
+#: krunnerdialog.cpp:56 krunnerapp.cpp:189 krunnerapp.cpp:190
 msgid "Run Command"
 msgstr "Fermanê Bixebitîne"
 
@@ -228,41 +228,37 @@ msgstr "Aaron J. Seigo"
 msgid "Author and maintainer"
 msgstr "Nivîskar û kesê miqate"
 
-#: configdialog.cpp:54
-msgid "Display"
+#: configdialog.cpp:53
+msgid "Plugins"
 msgstr ""
 
-#: configdialog.cpp:62
+#: configdialog.cpp:60
 #, fuzzy
 #| msgid "Command"
-msgid "Command Oriented"
+msgid "Command oriented"
 msgstr "Ferman"
 
-#: configdialog.cpp:63
-msgid "Task Oriented"
+#: configdialog.cpp:61
+#, fuzzy
+#| msgid "Command"
+msgid "Task oriented"
+msgstr "Ferman"
+
+#: configdialog.cpp:75
+msgid "Preview"
 msgstr ""
 
-#: configdialog.cpp:76
-msgid "Preview"
+#: configdialog.cpp:83
+msgid "User Interface"
 msgstr ""
 
 #: configdialog.cpp:86
 #, fuzzy
 #| msgid "KRunner Locker"
-msgid "General Settings"
-msgstr "KRunner Locker"
-
-#: configdialog.cpp:91
-msgid "Plugins"
-msgstr ""
-
-#: configdialog.cpp:94
-#, fuzzy
-#| msgid "KRunner Locker"
 msgid "KRunner Settings"
 msgstr "KRunner Locker"
 
-#: configdialog.cpp:101
+#: configdialog.cpp:93
 msgid "Available Features"
 msgstr ""
 
@@ -276,47 +272,52 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "erdal dot ronahi at gmail dot com"
 
-#: krunnerapp.cpp:186 krunnerapp.cpp:187
+#: krunnerapp.cpp:194 krunnerapp.cpp:195
 msgid "Run Command on clipboard contents"
 msgstr ""
 
-#: krunnerapp.cpp:204 krunnerapp.cpp:205
+#: krunnerapp.cpp:212 krunnerapp.cpp:213
 msgid "Switch User"
 msgstr "Bikarhêner Biguherîne"
 
-#: krunnerapp.cpp:211 krunnerapp.cpp:212
+#: krunnerapp.cpp:219 krunnerapp.cpp:220
 msgid "Lock Session"
 msgstr "Danişînê Biqufilîne"
 
-#: krunnerapp.cpp:219 krunnerapp.cpp:220
+#: krunnerapp.cpp:227 krunnerapp.cpp:228
 msgid "Log Out"
 msgstr "Derketin"
 
-#: krunnerapp.cpp:224 krunnerapp.cpp:225
+#: krunnerapp.cpp:232 krunnerapp.cpp:233
 msgid "Log Out Without Confirmation"
 msgstr "Bê Erêkirinê Derkeve"
 
-#: krunnerapp.cpp:229 krunnerapp.cpp:230
+#: krunnerapp.cpp:237 krunnerapp.cpp:238
 #, fuzzy
 msgid "Halt Without Confirmation"
 msgstr "Bê Erêkirinê Rawestîne"
 
-#: krunnerapp.cpp:234 krunnerapp.cpp:235
+#: krunnerapp.cpp:242 krunnerapp.cpp:243
 #, fuzzy
 msgid "Reboot Without Confirmation"
 msgstr "Bê Erêkirinê ji nû ve veke"
 
-#: krunnerapp.cpp:286
+#: krunnerapp.cpp:294
 msgid "System Activity"
 msgstr "Çalakiya Pergalê"
 
-#: krunnerapp.cpp:395
+#: krunnerapp.cpp:403
 msgid ""
 "Could not log out properly.\n"
 "The session manager cannot be contacted. You can try to force a shutdown by "
 "pressing Ctrl+Alt+Backspace; note, however, that your current session will "
 "not be saved with a forced shutdown."
 msgstr ""
+
+#, fuzzy
+#~| msgid "KRunner Locker"
+#~ msgid "General Settings"
+#~ msgstr "KRunner Locker"
 
 #~ msgid "Enable screen saver"
 #~ msgstr "Dîmendarparêzê çalak bike"

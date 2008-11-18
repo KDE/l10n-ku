@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-17 09:39+0100\n"
+"POT-Creation-Date: 2008-11-18 09:53+0100\n"
 "PO-Revision-Date: 2008-08-30 14:20+0300\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
@@ -809,7 +809,7 @@ msgstr "&Amûr"
 
 #. i18n: file: kdeui/xmlgui/ui_standards.rc:146
 #. i18n: ectx: Menu (settings)
-#: rc.cpp:327
+#: rc.cpp:327 khtml/ecma/debugger/debugwindow.cpp:240
 msgid "&Settings"
 msgstr "&Mîheng"
 
@@ -1710,7 +1710,7 @@ msgstr "Heya xala qutkirinê bixebitîne..."
 
 #. i18n: file: kjsembed/examples/kjsconsole/jsconsole.ui:219
 #. i18n: ectx: property (text), widget (QStatusBar, statusBar)
-#: rc.cpp:791 khtml/ecma/kjs_debugwin.cpp:480
+#: rc.cpp:791
 msgid "Step"
 msgstr "Gav"
 
@@ -1726,8 +1726,7 @@ msgstr "Derbasî rêzika din bibe..."
 #. i18n: ectx: property (text), widget (QPushButton, pbStop)
 #: rc.cpp:797 rc.cpp:945 kdeui/jobs/kstatusbarjobtracker.cpp:156
 #: kdeui/util/kstandardguiitem.cpp:265 kdeui/util/kkeyserver_x11.cpp:109
-#: kdeui/findreplace/kreplace.cpp:353 khtml/ecma/kjs_debugwin.cpp:482
-#: kross/ui/view.cpp:309
+#: kdeui/findreplace/kreplace.cpp:353 kross/ui/view.cpp:309
 msgid "Stop"
 msgstr "Rawestîne"
 
@@ -5395,6 +5394,7 @@ msgid "No provider selected."
 msgstr "Peydakera ku hatiye hilbijartin tuneye."
 
 #: knewstuff/knewstuff2/core/providerhandler.cpp:156
+#: knewstuff/knewstuff2/core/providerhandler.cpp:176
 msgctxt "describes the feed of the latest posted entries"
 msgid "Latest"
 msgstr "Herî Dawî"
@@ -5406,10 +5406,6 @@ msgstr "Yên herî zêde têne ecibandin"
 #: knewstuff/knewstuff2/core/providerhandler.cpp:168
 msgid "Most Downloads"
 msgstr "Yên Herî Zêde Hatine Daxistin"
-
-#: knewstuff/knewstuff2/core/providerhandler.cpp:174
-msgid "Unsorted"
-msgstr "Ne rêzkirî"
 
 #: knewstuff/knewstuff2/core/security.cpp:76
 msgid ""
@@ -6031,7 +6027,7 @@ msgstr "Kurterê"
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:61
 #, fuzzy
 #| msgid "Curr&ent actions:"
-msgid "Current Scheme:"
+msgid "Current scheme:"
 msgstr "Xebatên &heyî:"
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:71
@@ -6051,8 +6047,10 @@ msgid "More Actions"
 msgstr "Çalakî"
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:81
-msgid "Save As Scheme Defaults"
-msgstr ""
+#, fuzzy
+#| msgid "&Defaults"
+msgid "Save as Scheme Defaults"
+msgstr "&Pêşdanasînî"
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:83
 msgid "Export Scheme..."
@@ -6063,8 +6061,10 @@ msgid "Name for New Scheme"
 msgstr ""
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:101
-msgid "Name for New Scheme:"
-msgstr ""
+#, fuzzy
+#| msgid "Curr&ent actions:"
+msgid "Name for new scheme:"
+msgstr "Xebatên &heyî:"
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:101
 #, fuzzy
@@ -6075,7 +6075,7 @@ msgstr "Xebatên &heyî:"
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:107
 #, fuzzy
 #| msgid "The tag %1 already exists"
-msgid "The scheme with this name already exists"
+msgid "A scheme with this name already exists."
 msgstr "Etîketa %1 jixwe heye"
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:135
@@ -6086,8 +6086,10 @@ msgid ""
 msgstr ""
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:164
-msgid "Export To Location"
-msgstr ""
+#, fuzzy
+#| msgid "Click to Edit Location"
+msgid "Export to Location"
+msgstr "Ji bo Sererastkirina Cihî Bitikîne"
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:173
 msgid "Could not export shortcuts scheme because the location is invalid."
@@ -6313,7 +6315,7 @@ msgid "Reset Toolbars"
 msgstr "Darikên Amûran Vegerîne Serî"
 
 #: kdeui/dialogs/kedittoolbar.cpp:527 khtml/khtmlview.cpp:2971
-#: khtml/khtmlview.cpp:3004 khtml/html/html_formimpl.cpp:2166
+#: khtml/khtmlview.cpp:3004 khtml/html/html_formimpl.cpp:2167
 msgid "Reset"
 msgstr "Vesazkirin"
 
@@ -8207,21 +8209,21 @@ msgstr "Pêşve"
 msgid "Next Character"
 msgstr "Komên Karakteran"
 
-#: kdeui/widgets/kcharselect.cpp:370
-msgid "Set font"
-msgstr "Curenivîsê hilbijêre"
-
-#: kdeui/widgets/kcharselect.cpp:377
-msgid "Set font size"
-msgstr "Mezinahiya curenivîsan hilbijêre"
-
-#: kdeui/widgets/kcharselect.cpp:384
+#: kdeui/widgets/kcharselect.cpp:367
 msgid "Select a category"
 msgstr "Kategoriyekê hilbijêre"
 
-#: kdeui/widgets/kcharselect.cpp:387
+#: kdeui/widgets/kcharselect.cpp:370
 msgid "Select a block to be displayed"
 msgstr "Blokeke ku were nîşandan hilbijêre"
+
+#: kdeui/widgets/kcharselect.cpp:383
+msgid "Set font"
+msgstr "Curenivîsê hilbijêre"
+
+#: kdeui/widgets/kcharselect.cpp:390
+msgid "Set font size"
+msgstr "Mezinahiya curenivîsan hilbijêre"
 
 #: kdeui/widgets/kcharselect.cpp:629 kdeui/widgets/kcharselect.cpp:881
 #: kdeui/widgets/kcharselect-translation.cpp:43
@@ -10414,7 +10416,7 @@ msgstr ""
 "herêmî de ye were şandin.<br />Tu dixwazî vê formê bişînî?</qt>"
 
 #: khtml/khtml_part.cpp:4594 khtml/khtmlview.cpp:2957 khtml/khtmlview.cpp:2999
-#: khtml/html/html_formimpl.cpp:1580 khtml/html/html_formimpl.cpp:2174
+#: khtml/html/html_formimpl.cpp:1581 khtml/html/html_formimpl.cpp:2175
 msgid "Submit"
 msgstr "Şandin"
 
@@ -10513,8 +10515,8 @@ msgstr "Ji kerema xwe re pelrêçeke 'khtml/' a derbasdar a avakirinê hilbijêr
 msgid "Available Tests: %1 (ignored: %2)"
 msgstr "Testên bikêrhatî: %1 (astengbûyî: %2)"
 
-#: khtml/test_regression_gui_window.cpp:563 khtml/ecma/kjs_debugwin.cpp:481
-#: khtml/ecma/debugger/debugwindow.cpp:166
+#: khtml/test_regression_gui_window.cpp:563
+#: khtml/ecma/debugger/debugwindow.cpp:192
 msgid "Continue"
 msgstr "Bidomîne"
 
@@ -10594,81 +10596,6 @@ msgstr "Çewtî di şîrovekirina XML de"
 #: khtml/xml/dom_docimpl.cpp:2237
 msgid "Basic Page Style"
 msgstr "Şêweyê Rûpelê Bingeh"
-
-#: khtml/ecma/kjs_debugwin.cpp:298 khtml/ecma/debugger/errordlg.cpp:35
-msgid "JavaScript Error"
-msgstr "Çewtiya Javascriptê"
-
-#: khtml/ecma/kjs_debugwin.cpp:315 khtml/ecma/debugger/errordlg.cpp:50
-msgid "&Do not show this message again"
-msgstr "&Careke din vê nameyê nîşan nede"
-
-#: khtml/ecma/kjs_debugwin.cpp:385 khtml/ecma/debugger/debugwindow.cpp:111
-msgid "JavaScript Debugger"
-msgstr "Neqanderê Çewtiyan ya Javascriptê"
-
-#: khtml/ecma/kjs_debugwin.cpp:400
-msgid "Call stack"
-msgstr "Sergoya gazîkirinan"
-
-#: khtml/ecma/kjs_debugwin.cpp:435
-msgid "JavaScript console"
-msgstr "Konsola Javascriptê"
-
-#: khtml/ecma/kjs_debugwin.cpp:465
-msgctxt "Next breakpoint"
-msgid "&Next"
-msgstr "&Pêşde"
-
-#: khtml/ecma/kjs_debugwin.cpp:467
-msgid "&Step"
-msgstr "&Gav"
-
-#: khtml/ecma/kjs_debugwin.cpp:472
-msgid "&Continue"
-msgstr "&Bidomîne"
-
-#: khtml/ecma/kjs_debugwin.cpp:474
-msgid "St&op"
-msgstr "&Ra_westîne"
-
-#: khtml/ecma/kjs_debugwin.cpp:476 khtml/ecma/debugger/debugwindow.cpp:160
-msgid "&Break at Next Statement"
-msgstr "&Di daxuyaniya piştre navber heye"
-
-#: khtml/ecma/kjs_debugwin.cpp:479
-msgctxt "Next breakpoint"
-msgid "Next"
-msgstr "Pêşve"
-
-#: khtml/ecma/kjs_debugwin.cpp:848 khtml/ecma/debugger/debugwindow.cpp:572
-#, kde-format
-msgid "Parse error at %1 line %2"
-msgstr "Di rêzika %2 ya di hundirê %1ê de ye çewtî"
-
-#: khtml/ecma/kjs_debugwin.cpp:859
-#, kde-format
-msgid ""
-"An error occurred while attempting to run a script on this page.\n"
-"\n"
-"%1"
-msgstr ""
-"Dema di vî rûpelî de bernameyek dihate xebitandin çewtî derket.\n"
-"\n"
-"%1"
-
-#: khtml/ecma/kjs_debugwin.cpp:870 khtml/ecma/debugger/debugwindow.cpp:609
-#, kde-format
-msgid ""
-"An error occurred while attempting to run a script on this page.\n"
-"\n"
-"%1 line %2:\n"
-"%3"
-msgstr ""
-"Dema di vî rûpelî de bernameyek dihate xebitandin çewtiyek derket.\n"
-"\n"
-"%1 rêzik %2:\n"
-"%3"
 
 #: khtml/ecma/kjs_binding.cpp:184
 msgid ""
@@ -10775,7 +10702,7 @@ msgstr ""
 "<p>%1</p> veke û daxwaz dike ku formekê bişîne.<br />Tu destûrê didî şandina "
 "formê?</qt>"
 
-#: khtml/ecma/debugger/debugdocument.cpp:210
+#: khtml/ecma/debugger/debugdocument.cpp:187
 msgid ""
 "Unable to find the Kate editor component;\n"
 "please check your KDE installation."
@@ -10783,11 +10710,11 @@ msgstr ""
 "Komponenta edîtora Kate nehate dîtin;\n"
 "ji kerema xwe re sazkirina KDE'yê kontrol bike."
 
-#: khtml/ecma/debugger/debugdocument.cpp:327
+#: khtml/ecma/debugger/debugdocument.cpp:253
 msgid "Breakpoint"
 msgstr "Xala qutkirinê"
 
-#: khtml/ecma/debugger/scriptsdock.cpp:39
+#: khtml/ecma/debugger/scriptsdock.cpp:40
 msgid "Loaded Scripts"
 msgstr "Skrîptên Barkirî"
 
@@ -10799,52 +10726,96 @@ msgstr "Guherbarên Herêmî"
 msgid "Reference"
 msgstr "Referans"
 
-#: khtml/ecma/debugger/debugwindow.cpp:161
+#: khtml/ecma/debugger/debugwindow.cpp:111
+msgid "JavaScript Debugger"
+msgstr "Neqanderê Çewtiyan ya Javascriptê"
+
+#: khtml/ecma/debugger/debugwindow.cpp:186
+msgid "&Break at Next Statement"
+msgstr "&Di daxuyaniya piştre navber heye"
+
+#: khtml/ecma/debugger/debugwindow.cpp:187
 msgid "Break at Next"
 msgstr "&Di ya piştre de navber hebe"
 
-#: khtml/ecma/debugger/debugwindow.cpp:173
+#: khtml/ecma/debugger/debugwindow.cpp:199
 msgid "Step Over"
 msgstr "Gava Ser"
 
-#: khtml/ecma/debugger/debugwindow.cpp:180
+#: khtml/ecma/debugger/debugwindow.cpp:206
 msgid "Step Into"
 msgstr "Gava Hundir"
 
-#: khtml/ecma/debugger/debugwindow.cpp:187
+#: khtml/ecma/debugger/debugwindow.cpp:213
 msgid "Step Out"
 msgstr "Gava Der"
 
-#: khtml/ecma/debugger/debugwindow.cpp:196
+#: khtml/ecma/debugger/debugwindow.cpp:219
+msgid "Reindent Sources"
+msgstr ""
+
+#: khtml/ecma/debugger/debugwindow.cpp:224
+#, fuzzy
+#| msgid "Action"
+msgid "Report Exceptions"
+msgstr "Çalakî"
+
+#: khtml/ecma/debugger/debugwindow.cpp:232
 msgid "&Debug"
 msgstr ""
 
-#: khtml/ecma/debugger/debugwindow.cpp:225
+#: khtml/ecma/debugger/debugwindow.cpp:266
 msgid "Close source"
 msgstr "Çavkaniyê bigire"
 
-#: khtml/ecma/debugger/debugwindow.cpp:231
+#: khtml/ecma/debugger/debugwindow.cpp:272
 msgid "Ready"
 msgstr "Amade"
 
-#: khtml/ecma/debugger/debugwindow.cpp:789
+#: khtml/ecma/debugger/debugwindow.cpp:615
+#, kde-format
+msgid "Parse error at %1 line %2"
+msgstr "Di rêzika %2 ya di hundirê %1ê de ye çewtî"
+
+#: khtml/ecma/debugger/debugwindow.cpp:650
+#, kde-format
+msgid ""
+"An error occurred while attempting to run a script on this page.\n"
+"\n"
+"%1 line %2:\n"
+"%3"
+msgstr ""
+"Dema di vî rûpelî de bernameyek dihate xebitandin çewtiyek derket.\n"
+"\n"
+"%1 rêzik %2:\n"
+"%3"
+
+#: khtml/ecma/debugger/debugwindow.cpp:835
 msgid ""
 "Don't know where to evaluate the expression. Please pause a script or open a "
 "source file."
 msgstr ""
 
-#: khtml/ecma/debugger/debugwindow.cpp:825
+#: khtml/ecma/debugger/debugwindow.cpp:871
 #, kde-format
 msgid "Evaluation threw an exception %1"
 msgstr ""
 
-#: khtml/ecma/debugger/consoledock.cpp:231
+#: khtml/ecma/debugger/consoledock.cpp:220
 msgid "Console"
 msgstr "Konsole"
 
-#: khtml/ecma/debugger/consoledock.cpp:254
+#: khtml/ecma/debugger/consoledock.cpp:243
 msgid "Enter"
 msgstr "Enter"
+
+#: khtml/ecma/debugger/errordlg.cpp:35
+msgid "JavaScript Error"
+msgstr "Çewtiya Javascriptê"
+
+#: khtml/ecma/debugger/errordlg.cpp:50
+msgid "&Do not show this message again"
+msgstr "&Careke din vê nameyê nîşan nede"
 
 #: khtml/ecma/debugger/callstackdock.cpp:37
 msgid "Call Stack"
@@ -10935,7 +10906,7 @@ msgid ""
 "information next time you visit %1. Do you want to store the information now?"
 msgstr ""
 
-#: khtml/html/html_formimpl.cpp:2555
+#: khtml/html/html_formimpl.cpp:2557
 msgid "Key Generator"
 msgstr "Afirandera Nifteyan"
 
@@ -12612,6 +12583,41 @@ msgstr "Mijara &rojê"
 msgid "No such function \"%1\""
 msgstr "Foksiyona bi navê \"%1\" tune"
 
+#~ msgid "Unsorted"
+#~ msgstr "Ne rêzkirî"
+
+#~ msgid "Call stack"
+#~ msgstr "Sergoya gazîkirinan"
+
+#~ msgid "JavaScript console"
+#~ msgstr "Konsola Javascriptê"
+
+#~ msgctxt "Next breakpoint"
+#~ msgid "&Next"
+#~ msgstr "&Pêşde"
+
+#~ msgid "&Step"
+#~ msgstr "&Gav"
+
+#~ msgid "&Continue"
+#~ msgstr "&Bidomîne"
+
+#~ msgid "St&op"
+#~ msgstr "&Ra_westîne"
+
+#~ msgctxt "Next breakpoint"
+#~ msgid "Next"
+#~ msgstr "Pêşve"
+
+#~ msgid ""
+#~ "An error occurred while attempting to run a script on this page.\n"
+#~ "\n"
+#~ "%1"
+#~ msgstr ""
+#~ "Dema di vî rûpelî de bernameyek dihate xebitandin çewtî derket.\n"
+#~ "\n"
+#~ "%1"
+
 #, fuzzy
 #~| msgid "From:"
 #~ msgid "Form"
@@ -13001,9 +13007,6 @@ msgstr "Foksiyona bi navê \"%1\" tune"
 
 #~ msgid "Show Preview"
 #~ msgstr "Pêşdîtin"
-
-#~ msgid "Click to Edit Location"
-#~ msgstr "Ji bo Sererastkirina Cihî Bitikîne"
 
 #~ msgid "Navigate"
 #~ msgstr "Gerîn"
