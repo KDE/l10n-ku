@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_autostart\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-21 10:04+0100\n"
+"POT-Creation-Date: 2008-11-25 10:21+0100\n"
 "PO-Revision-Date: 2008-04-03 21:16+0200\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <ku@li.org>\n"
@@ -42,6 +42,11 @@ msgid "Status"
 msgstr "Rewş"
 
 #: autostart.cpp:61
+#, fuzzy
+#| msgid "Run On"
+msgctxt ""
+"@title:column The name of the column that decides if the program is run on "
+"kde startup, on kde shutdown, etc"
 msgid "Run On"
 msgstr "Bixebite Li"
 
@@ -70,10 +75,16 @@ msgid "Maintainer"
 msgstr "Kesê miqate"
 
 #: autostart.cpp:111 autostart.cpp:125
+#, fuzzy
+#| msgid "Disabled"
+msgctxt "The program won't be run"
 msgid "Disabled"
 msgstr "Neçalakkirî"
 
 #: autostart.cpp:113 autostart.cpp:125 autostartitem.cpp:72
+#, fuzzy
+#| msgid "Enabled"
+msgctxt "The program will be run"
 msgid "Enabled"
 msgstr "Çalakkirî"
 
