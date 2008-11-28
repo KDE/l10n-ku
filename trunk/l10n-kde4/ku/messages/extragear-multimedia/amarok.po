@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok-neu\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-27 09:50+0100\n"
+"POT-Creation-Date: 2008-11-28 10:23+0100\n"
 "PO-Revision-Date: 2008-11-07 16:53+0100\n"
 "Last-Translator: Erdal Ronahi <erdal.ronahi@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -1210,7 +1210,7 @@ msgstr ""
 #: browsers/collectionbrowser/CollectionTreeItemModelBase.cpp:684
 #: browsers/collectionbrowser/CollectionWidget.cpp:61
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:247
-#: services/magnatune/MagnatuneStore.cpp:167
+#: services/magnatune/MagnatuneStore.cpp:198
 #: services/jamendo/JamendoInfoParser.cpp:54 playlist/PlaylistHeader.cpp:43
 #: playlist/PlaylistModel.cpp:535 widgets/Token.cpp:72
 #: widgets/SmartPlaylistEditor.cpp:187 widgets/SmartPlaylistEditor.cpp:201
@@ -1242,7 +1242,7 @@ msgstr "Sal"
 #: browsers/collectionbrowser/CollectionTreeItemModelBase.cpp:683
 #: browsers/collectionbrowser/CollectionWidget.cpp:73
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:249
-#: services/magnatune/MagnatuneStore.cpp:175
+#: services/magnatune/MagnatuneStore.cpp:206
 #: services/jamendo/JamendoInfoParser.cpp:86 playlist/PlaylistHeader.cpp:43
 #: playlist/PlaylistModel.cpp:539 widgets/Token.cpp:84
 #: widgets/SmartPlaylistEditor.cpp:187 widgets/SmartPlaylistEditor.cpp:201
@@ -2699,7 +2699,7 @@ msgid "Group By"
 msgstr ""
 
 #: browsers/collectionbrowser/CollectionWidget.cpp:65
-#: services/magnatune/MagnatuneStore.cpp:171
+#: services/magnatune/MagnatuneStore.cpp:202
 msgid "Artist / Album"
 msgstr "Hunermend / Album"
 
@@ -2709,13 +2709,13 @@ msgid "Artist / Year - Album"
 msgstr "Hunermend / Album"
 
 #: browsers/collectionbrowser/CollectionWidget.cpp:77
-#: services/magnatune/MagnatuneStore.cpp:179
+#: services/magnatune/MagnatuneStore.cpp:210
 #: services/jamendo/JamendoService.cpp:143
 msgid "Genre / Artist"
 msgstr ""
 
 #: browsers/collectionbrowser/CollectionWidget.cpp:81
-#: services/magnatune/MagnatuneStore.cpp:183
+#: services/magnatune/MagnatuneStore.cpp:214
 #: services/jamendo/JamendoService.cpp:147
 msgid "Genre / Artist / Album"
 msgstr ""
@@ -4866,59 +4866,58 @@ msgstr ""
 msgid "Dialog"
 msgstr ""
 
-#. i18n: file: dialogs/EditCoverSearchDialog.ui:48
+#. i18n: file: dialogs/EditCoverSearchDialog.ui:41
 #. i18n: ectx: property (text), widget (QLabel, localeLabel)
 #: rc.cpp:719
 msgid "Amazon Locale: "
 msgstr ""
 
-#. i18n: file: dialogs/EditCoverSearchDialog.ui:69
+#. i18n: file: dialogs/EditCoverSearchDialog.ui:62
 #. i18n: ectx: property (text), item, widget (KComboBox, amazonLocale)
 #: rc.cpp:722
 #, fuzzy
 #| msgid "International"
-msgctxt "Search Amazon's main site for images: amazon.com"
 msgid "International"
 msgstr "Navneteweyî"
 
-#. i18n: file: dialogs/EditCoverSearchDialog.ui:74
+#. i18n: file: dialogs/EditCoverSearchDialog.ui:67
 #. i18n: ectx: property (text), item, widget (KComboBox, amazonLocale)
 #: rc.cpp:725 covermanager/CoverManager.cpp:227
 msgid "Canada"
 msgstr "Kanada"
 
-#. i18n: file: dialogs/EditCoverSearchDialog.ui:79
+#. i18n: file: dialogs/EditCoverSearchDialog.ui:72
 #. i18n: ectx: property (text), item, widget (KComboBox, amazonLocale)
 #: rc.cpp:728 covermanager/CoverManager.cpp:231
 msgid "France"
 msgstr "Fransa"
 
-#. i18n: file: dialogs/EditCoverSearchDialog.ui:84
+#. i18n: file: dialogs/EditCoverSearchDialog.ui:77
 #. i18n: ectx: property (text), item, widget (KComboBox, amazonLocale)
 #: rc.cpp:731 covermanager/CoverManager.cpp:235
 msgid "Germany"
 msgstr "Almanya"
 
-#. i18n: file: dialogs/EditCoverSearchDialog.ui:89
+#. i18n: file: dialogs/EditCoverSearchDialog.ui:82
 #. i18n: ectx: property (text), item, widget (KComboBox, amazonLocale)
 #: rc.cpp:734 covermanager/CoverManager.cpp:239
 msgid "Japan"
 msgstr "Japonya"
 
-#. i18n: file: dialogs/EditCoverSearchDialog.ui:94
+#. i18n: file: dialogs/EditCoverSearchDialog.ui:87
 #. i18n: ectx: property (text), item, widget (KComboBox, amazonLocale)
 #: rc.cpp:737 covermanager/CoverManager.cpp:243
 msgid "United Kingdom"
 msgstr ""
 
-#. i18n: file: dialogs/EditCoverSearchDialog.ui:115
+#. i18n: file: dialogs/EditCoverSearchDialog.ui:108
 #. i18n: ectx: property (text), widget (QLabel, textLabel)
 #: rc.cpp:740
 #, fuzzy
 msgid "TextLabel"
 msgstr "Etîket:"
 
-#. i18n: file: dialogs/EditCoverSearchDialog.ui:145
+#. i18n: file: dialogs/EditCoverSearchDialog.ui:138
 #. i18n: ectx: property (text), widget (KPushButton, SearchButton)
 #: rc.cpp:743
 msgid "&Search"
@@ -6301,33 +6300,33 @@ msgid ""
 "Amarok, you support the Amarok project with 10%."
 msgstr ""
 
-#: services/magnatune/MagnatuneMeta.cpp:218
-#: services/magnatune/MagnatuneMeta.cpp:409
+#: services/magnatune/MagnatuneMeta.cpp:221
+#: services/magnatune/MagnatuneMeta.cpp:432
 msgid "&Purchase Album"
 msgstr ""
 
-#: services/magnatune/MagnatuneMeta.cpp:220
-#: services/magnatune/MagnatuneMeta.cpp:411
+#: services/magnatune/MagnatuneMeta.cpp:223
+#: services/magnatune/MagnatuneMeta.cpp:434
 msgid "&Download Album"
 msgstr ""
 
-#: services/magnatune/MagnatuneMeta.cpp:238
+#: services/magnatune/MagnatuneMeta.cpp:246
 msgid "Magnatune.com: &Purchase Album"
 msgstr ""
 
-#: services/magnatune/MagnatuneMeta.cpp:240
+#: services/magnatune/MagnatuneMeta.cpp:248
 msgid "Magnatune.com: &Download Album"
 msgstr ""
 
-#: services/magnatune/MagnatuneMeta.cpp:270
+#: services/magnatune/MagnatuneMeta.cpp:279
 msgid "The non evil record label that is fair to artists and customers alike"
 msgstr ""
 
-#: services/magnatune/MagnatuneAlbumDownloader.cpp:69
+#: services/magnatune/MagnatuneAlbumDownloader.cpp:73
 msgid "Downloading album"
 msgstr ""
 
-#: services/magnatune/MagnatuneAlbumDownloader.cpp:115
+#: services/magnatune/MagnatuneAlbumDownloader.cpp:120
 msgid "Adding album cover to collection"
 msgstr ""
 
@@ -6358,35 +6357,35 @@ msgstr ""
 msgid "The friendly record company with the motto \"We are not evil!\""
 msgstr ""
 
-#: services/magnatune/MagnatuneStore.cpp:188
+#: services/magnatune/MagnatuneStore.cpp:219
 msgid "Actions"
 msgstr "Çalakî"
 
-#: services/magnatune/MagnatuneStore.cpp:189
+#: services/magnatune/MagnatuneStore.cpp:220
 msgid "Redownload"
 msgstr ""
 
-#: services/magnatune/MagnatuneStore.cpp:193
+#: services/magnatune/MagnatuneStore.cpp:224
 msgid "Update Database"
 msgstr ""
 
-#: services/magnatune/MagnatuneStore.cpp:210
+#: services/magnatune/MagnatuneStore.cpp:241
 msgid "Download Album"
 msgstr ""
 
-#: services/magnatune/MagnatuneStore.cpp:212
+#: services/magnatune/MagnatuneStore.cpp:243
 msgid "Purchase Album"
 msgstr ""
 
-#: services/magnatune/MagnatuneStore.cpp:247
+#: services/magnatune/MagnatuneStore.cpp:278
 msgid "Downloading Magnatune.com Database"
 msgstr ""
 
-#: services/magnatune/MagnatuneStore.cpp:274
+#: services/magnatune/MagnatuneStore.cpp:305
 msgid "Updating the local Magnatune database."
 msgstr ""
 
-#: services/magnatune/MagnatuneStore.cpp:559
+#: services/magnatune/MagnatuneStore.cpp:590
 #, c-format
 msgid ""
 "The Magnatune.com service accepts the following messages: \n"
@@ -6396,23 +6395,23 @@ msgid ""
 "with %%20"
 msgstr ""
 
-#: services/magnatune/MagnatuneStore.cpp:570
+#: services/magnatune/MagnatuneStore.cpp:601
 msgid "ERROR: No arguments supplied"
 msgstr ""
 
-#: services/magnatune/MagnatuneStore.cpp:575
+#: services/magnatune/MagnatuneStore.cpp:606
 msgid "ERROR: Wrong number of arguments for addMoodyTracks"
 msgstr ""
 
-#: services/magnatune/MagnatuneStore.cpp:585
+#: services/magnatune/MagnatuneStore.cpp:616
 msgid "ERROR: Parse error for argument 2 ( count )"
 msgstr ""
 
-#: services/magnatune/MagnatuneStore.cpp:589
+#: services/magnatune/MagnatuneStore.cpp:620
 msgid "ok"
 msgstr ""
 
-#: services/magnatune/MagnatuneStore.cpp:592
+#: services/magnatune/MagnatuneStore.cpp:623
 msgid "ERROR: Unknown argument."
 msgstr ""
 
@@ -6456,43 +6455,43 @@ msgstr ""
 msgid "Invalid email"
 msgstr ""
 
-#: services/magnatune/MagnatunePurchaseHandler.cpp:86
+#: services/magnatune/MagnatunePurchaseHandler.cpp:87
 msgid "Processing download"
 msgstr ""
 
-#: services/magnatune/MagnatunePurchaseHandler.cpp:134
-#: services/magnatune/MagnatunePurchaseHandler.cpp:156
+#: services/magnatune/MagnatunePurchaseHandler.cpp:135
+#: services/magnatune/MagnatunePurchaseHandler.cpp:157
 msgid "Processing Payment"
 msgstr ""
 
-#: services/magnatune/MagnatunePurchaseHandler.cpp:224
+#: services/magnatune/MagnatunePurchaseHandler.cpp:226
 msgid "check the gift card code"
 msgstr ""
 
-#: services/magnatune/MagnatunePurchaseHandler.cpp:226
+#: services/magnatune/MagnatunePurchaseHandler.cpp:228
 msgid "check the credit card information"
 msgstr ""
 
-#: services/magnatune/MagnatunePurchaseHandler.cpp:230
+#: services/magnatune/MagnatunePurchaseHandler.cpp:232
 #, kde-format
 msgid ""
 "There seems to be an error in the information entered (%1), please try "
 "again\n"
 msgstr ""
 
-#: services/magnatune/MagnatunePurchaseHandler.cpp:230
+#: services/magnatune/MagnatunePurchaseHandler.cpp:232
 #, fuzzy
 #| msgid "Could not read this package."
 msgid "Could not process payment"
 msgstr "Vê pakêtê nehate xwendin."
 
-#: services/magnatune/MagnatunePurchaseHandler.cpp:236
+#: services/magnatune/MagnatunePurchaseHandler.cpp:238
 msgid ""
 "There seems to be an error in the supplied membership information. Please "
 "correct this and try again."
 msgstr ""
 
-#: services/magnatune/MagnatunePurchaseHandler.cpp:236
+#: services/magnatune/MagnatunePurchaseHandler.cpp:238
 msgid "Could not process download"
 msgstr ""
 
