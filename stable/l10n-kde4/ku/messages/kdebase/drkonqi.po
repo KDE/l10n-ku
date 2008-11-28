@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drkonqi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-06-22 02:29+0200\n"
+"POT-Creation-Date: 2008-11-28 06:27+0100\n"
 "PO-Revision-Date: 2008-07-08 15:10+0300\n"
 "Last-Translator: Amed Çeko Jiyan <amedcj@gmail.com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural= n != 1;\n"
 
-#: backtrace.cpp:76
+#: backtrace.cpp:77
 #, kde-format
 msgid "Could not generate a backtrace as the debugger '%1' was not found."
 msgstr "Ji ber pêknehatina niqandina çewtiyan %1 , dîtina paşde pêk nehat."
@@ -113,15 +113,19 @@ msgstr ""
 "van vebijêrkan nayê pêşniyarkirin.\n"
 "Ji bo dîtina paşde divê van vebijêrkan bigirî û çewtiyê ji nû ve bistînî.\n"
 
-#: debugger.cpp:209
+#: debugger.cpp:209 debugger.cpp:218
 msgid "Backtrace will not be created."
 msgstr "Dîtina paşde dê neyê afirandin."
 
 #: debugger.cpp:217
+msgid "Unknown or no debugger found."
+msgstr ""
+
+#: debugger.cpp:227
 msgid "Loading symbols..."
 msgstr "Sembol tên barkirin..."
 
-#: debugger.cpp:238
+#: debugger.cpp:246
 msgid "System configuration startup check disabled.\n"
 msgstr "Kontrolkirina destpêkê a avakirina pergalê hat girtin.\n"
 
@@ -274,11 +278,11 @@ msgstr "Çêke"
 msgid "Do Not Generate"
 msgstr "Çêneke"
 
-#: toplevel.cpp:241
+#: toplevel.cpp:245
 msgid "It was not possible to generate a backtrace."
 msgstr "Çêkirina dîtina paşde çênebû."
 
-#: toplevel.cpp:242
+#: toplevel.cpp:246
 msgid "Backtrace Not Possible"
 msgstr "Dîtina Paşde Çênebû"
 
