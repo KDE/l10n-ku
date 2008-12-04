@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdmconfig\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-08-25 09:06+0200\n"
+"POT-Creation-Date: 2008-12-04 10:00+0100\n"
 "PO-Revision-Date: 2008-06-30 15:42+0300\n"
 "Last-Translator: Amed Çeko Jiyan <amedcj@gmail.com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
@@ -34,15 +34,15 @@ msgstr ""
 "bernameyên (belkî xsetroot) di skrîptê de hatine diyarkirin di "
 "Sazkar=vebijêrk di kdmrcê (bi piranî Xsetup) diqede."
 
-#: kdm-conv.cpp:49
+#: kdm-conv.cpp:86
 msgid "<big><b><center>Attention<br/>Read help</center></b></big>"
 msgstr "<big><b><center>Hişyarî<br/>Alîkariyê bixwîne</center></b></big>"
 
-#: kdm-conv.cpp:59
+#: kdm-conv.cpp:96
 msgid "Enable Au&to-Login"
 msgstr "Têketina Xwe&ber Çalak Bike"
 
-#: kdm-conv.cpp:65
+#: kdm-conv.cpp:102
 msgid ""
 "Turn on the auto-login feature. This applies only to KDM's graphical login. "
 "Think twice before enabling this!"
@@ -50,19 +50,19 @@ msgstr ""
 "Vegere têketina xweber. Ev tenê ji bo têketina KDM'ê derbasdar e. Beriya "
 "çalak bikî careke din bifikire!"
 
-#: kdm-conv.cpp:71
+#: kdm-conv.cpp:109
 msgid "Use&r:"
 msgstr "Bikar&hêner:"
 
-#: kdm-conv.cpp:80
+#: kdm-conv.cpp:118
 msgid "Select the user to be logged in automatically."
 msgstr "Ji bo têketina xweber bikarhêner hilbijêre."
 
-#: kdm-conv.cpp:83
+#: kdm-conv.cpp:121
 msgid "Loc&k session"
 msgstr "Danişînê ki&lît bike"
 
-#: kdm-conv.cpp:87
+#: kdm-conv.cpp:125
 msgid ""
 "The automatically started session will be locked immediately (provided it is "
 "a KDE session). This can be used to obtain a super-fast login restricted to "
@@ -71,25 +71,25 @@ msgstr ""
 "Danişîna xweber dest pê bike dê demildest bê kilîtkirin (heke danişîneke "
 "KDE'yê be). Bi vê tenê bikarhênerek dikare têketina-pir-lezgîn bi kar bîne."
 
-#: kdm-conv.cpp:91
+#: kdm-conv.cpp:129
 #, fuzzy
 msgctxt "@title:group"
 msgid "Preselect User"
 msgstr "Bikarhênerên Hilbijartî"
 
-#: kdm-conv.cpp:95
+#: kdm-conv.cpp:133
 #, fuzzy
 msgctxt "@option:radio preselected user"
 msgid "&None"
 msgstr "&Ne yek"
 
-#: kdm-conv.cpp:96
+#: kdm-conv.cpp:134
 #, fuzzy
 msgctxt "@option:radio preselected user"
 msgid "Prev&ious"
 msgstr "&Paş ve"
 
-#: kdm-conv.cpp:98
+#: kdm-conv.cpp:136
 msgid ""
 "Preselect the user that logged in previously. Use this if this computer is "
 "usually used several consecutive times by one user."
@@ -97,71 +97,71 @@ msgstr ""
 "Pirhilbijartina bikarhênerê dawî. Heke komputer li dû hev ji hêla "
 "bikarhênerekî ve tê bikaranîn."
 
-#: kdm-conv.cpp:100
+#: kdm-conv.cpp:138
 msgctxt "@option:radio preselected user"
 msgid "Specif&y"
 msgstr "Diyar&bûyî"
 
-#: kdm-conv.cpp:102
+#: kdm-conv.cpp:140
 msgid ""
 "Preselect the user specified in the combo box below. Use this if this "
 "computer is predominantly used by a certain user."
 msgstr ""
 
-#: kdm-conv.cpp:118
+#: kdm-conv.cpp:155
 msgid "Us&er:"
 msgstr "Bikar&hêner:"
 
-#: kdm-conv.cpp:122
+#: kdm-conv.cpp:159
 msgid ""
 "Select the user to be preselected for login. This box is editable, so you "
 "can specify an arbitrary non-existent user to mislead possible attackers."
 msgstr ""
 
-#: kdm-conv.cpp:134
+#: kdm-conv.cpp:172
 msgctxt "@option:check action"
 msgid "Focus pass&word"
 msgstr "Navenda nas&navê"
 
-#: kdm-conv.cpp:137
+#: kdm-conv.cpp:175
 msgid ""
 "When this option is on, KDM will place the cursor in the password field "
 "instead of the user field after preselecting a user. Use this to save one "
 "key press per login, if the preselection usually does not need to be changed."
 msgstr ""
 
-#: kdm-conv.cpp:143
+#: kdm-conv.cpp:181
 msgid "Enable Password-&Less Logins"
 msgstr "Di Hin Danişînan de nasnavê çalak Bike"
 
-#: kdm-conv.cpp:150
+#: kdm-conv.cpp:188
 msgid ""
 "When this option is checked, the checked users from the list below will be "
 "allowed to log in without entering their password. This applies only to "
 "KDM's graphical login. Think twice before enabling this!"
 msgstr ""
 
-#: kdm-conv.cpp:157
+#: kdm-conv.cpp:195
 msgid "No password re&quired for:"
 msgstr "Ji bo vê tu nasnav nehate xwe&stin:"
 
-#: kdm-conv.cpp:166
+#: kdm-conv.cpp:207
 msgid ""
 "Check all users you want to allow a password-less login for. Entries denoted "
 "with '@' are user groups. Checking a group is like checking all users in "
 "that group."
 msgstr ""
 
-#: kdm-conv.cpp:172 kdm-shut.cpp:93
+#: kdm-conv.cpp:211 kdm-shut.cpp:93
 msgctxt "@title:group"
 msgid "Miscellaneous"
 msgstr "Curbecur"
 
-#: kdm-conv.cpp:176
+#: kdm-conv.cpp:215
 msgid "Automatically log in again after &X server crash"
 msgstr "Piştî têkçûna &X serverê xweber têkevê"
 
-#: kdm-conv.cpp:178
+#: kdm-conv.cpp:217
 msgid ""
 "When this option is on, a user will be logged in again automatically when "
 "their session is interrupted by an X server crash; note that this can open a "
@@ -169,11 +169,11 @@ msgid ""
 "will make circumventing a password-secured screen lock possible."
 msgstr ""
 
-#: kdm-dlg.cpp:67
+#: kdm-dlg.cpp:66
 msgid "&Greeting:"
 msgstr "&Silav dan:"
 
-#: kdm-dlg.cpp:74
+#: kdm-dlg.cpp:73
 msgid ""
 "<p>This is the \"headline\" for KDM's login window. You may want to put some "
 "nice greeting or information about the operating system here.</p><p>KDM will "
@@ -185,24 +185,24 @@ msgid ""
 "single %</li></ul>"
 msgstr ""
 
-#: kdm-dlg.cpp:95
+#: kdm-dlg.cpp:94
 msgid "Logo area:"
 msgstr "Qada logoyê:"
 
-#: kdm-dlg.cpp:100
+#: kdm-dlg.cpp:99
 msgctxt "logo area"
 msgid "&None"
 msgstr "&Ne yek"
 
-#: kdm-dlg.cpp:101
+#: kdm-dlg.cpp:100
 msgid "Show cloc&k"
 msgstr "Dem&jimêrê nîşan bide"
 
-#: kdm-dlg.cpp:102
+#: kdm-dlg.cpp:101
 msgid "Sho&w logo"
 msgstr "Logoyê &nîşan bide"
 
-#: kdm-dlg.cpp:113
+#: kdm-dlg.cpp:112
 msgid ""
 "You can choose to display a custom logo (see below), a clock or no logo at "
 "all."
@@ -210,11 +210,11 @@ msgstr ""
 "Dikarî ji bo nîşandanê logoyeke takekesî hilbijêrî (li jêr binêre), di "
 "hemûyan de demjimêrek an jî hemû bê logo."
 
-#: kdm-dlg.cpp:119
+#: kdm-dlg.cpp:118
 msgid "&Logo:"
 msgstr "&Logo"
 
-#: kdm-dlg.cpp:130
+#: kdm-dlg.cpp:129
 msgid ""
 "Click here to choose an image that KDM will display. You can also drag and "
 "drop an image onto this button (e.g. from Konqueror)."
@@ -222,11 +222,11 @@ msgstr ""
 "Ji bo KDE nîşan bide ji virê wêneyekê hilbijêre. Her wiha dikarî li ser vê "
 "bişkojkê wêneyê kaş bikî (her wekî ji Konqueorê)"
 
-#: kdm-dlg.cpp:141
+#: kdm-dlg.cpp:140
 msgid "Dialog &position:"
 msgstr "&Ciyê diyalogê:"
 
-#: kdm-dlg.cpp:250
+#: kdm-dlg.cpp:249
 #, kde-format
 msgid ""
 "There was an error loading the image:\n"
@@ -237,61 +237,28 @@ msgstr ""
 "%1\n"
 "Dê neyê tomarkirin."
 
-#: kdm-dlg.cpp:285 kdm-dlg.cpp:313
+#: kdm-dlg.cpp:284 kdm-dlg.cpp:312
 #, c-format
 msgid "Welcome to %s at %n"
 msgstr "Bixêr hatî %s li %n"
 
-#: kdm-dlg.cpp:323
+#: kdm-dlg.cpp:322
 msgid ""
 "<h1>KDM - Dialog</h1> Here you can configure the basic appearance of the KDM "
 "login manager in dialog mode, i.e. a greeting string, an icon etc."
 msgstr ""
 
-#: kdm-gen.cpp:50
-msgctxt "@title:group"
-msgid "Appearance"
-msgstr "Xuyakirin"
-
-#: kdm-gen.cpp:57
-msgid "&Use themed greeter"
-msgstr "Pêşwazîkara dirban &bi kar bîne"
-
-#: kdm-gen.cpp:60
-msgid "Enable this if you would like to use a themed Login Manager."
-msgstr "Heke bixwazî Gerînendeyê Têketinê a bi dirb bi kar bînî vê çalak bike."
-
-#: kdm-gen.cpp:64 kdm-gen.cpp:78 kdm-users.cpp:99
-msgid "<placeholder>default</placeholder>"
-msgstr "<placeholder>standard</placeholder>"
-
-#: kdm-gen.cpp:67
-msgid "GUI s&tyle:"
-msgstr "S&tîla GUI"
-
-#: kdm-gen.cpp:73
-msgid "You can choose a basic GUI style here that will be used by KDM only."
-msgstr "Ji bo tenê bikaranîna KDm'ê dikarî stîleke basît a GUI hilbijêrî."
-
-#: kdm-gen.cpp:81
-msgid "Color sche&me:"
-msgstr "Şe&maya rengan:"
-
-#: kdm-gen.cpp:87
-msgid "You can choose a basic Color Scheme here that will be used by KDM only."
-msgstr "Ji bo tenê bikaranîna KDm'ê dikarî Şemayeke Rengan a basît bi kar bînî"
-
-#: kdm-gen.cpp:91
+#: kdm-gen.cpp:49
 #, fuzzy
 msgctxt "@title:group 'man locale' ..."
 msgid "Locale"
 msgstr "&Herêmî:"
 
-#: kdm-gen.cpp:103
+#: kdm-gen.cpp:60
 msgid "&Language:"
 msgstr "&Ziman:"
 
-#: kdm-gen.cpp:108
+#: kdm-gen.cpp:62
 msgid ""
 "Here you can choose the language used by KDM. This setting does not affect a "
 "user's personal settings; that will take effect after login."
@@ -299,18 +266,40 @@ msgstr ""
 "Dikarî li virê zimanê ji hêla KDM'ê ve bê biakranîn hilbijêrî. Ev bandorê li "
 "ser mîhengên takekesî ên bikarhêner nake, dê piştî têketinê bandor bike."
 
-#: kdm-gen.cpp:113
+#: kdm-gen.cpp:71
+msgid "&Use themed greeter"
+msgstr "Pêşwazîkara dirban &bi kar bîne"
+
+#: kdm-gen.cpp:74
+msgid "Enable this if you would like to use a themed Login Manager."
+msgstr "Heke bixwazî Gerînendeyê Têketinê a bi dirb bi kar bînî vê çalak bike."
+
+#: kdm-gen.cpp:84 kdm-gen.cpp:95 kdm-users.cpp:99
+msgid "<placeholder>default</placeholder>"
+msgstr "<placeholder>standard</placeholder>"
+
+#: kdm-gen.cpp:89
+msgid "GUI s&tyle:"
+msgstr "S&tîla GUI"
+
+#: kdm-gen.cpp:91
+msgid "You can choose a basic GUI style here that will be used by KDM only."
+msgstr "Ji bo tenê bikaranîna KDm'ê dikarî stîleke basît a GUI hilbijêrî."
+
+#: kdm-gen.cpp:99
+msgid "Color sche&me:"
+msgstr "Şe&maya rengan:"
+
+#: kdm-gen.cpp:101
+msgid "You can choose a basic Color Scheme here that will be used by KDM only."
+msgstr "Ji bo tenê bikaranîna KDm'ê dikarî Şemayeke Rengan a basît bi kar bînî"
+
+#: kdm-gen.cpp:104
 msgctxt "@title:group"
 msgid "Fonts"
 msgstr "Curenivîs"
 
-#: kdm-gen.cpp:119
-#, fuzzy
-msgctxt "... font"
-msgid "&General:"
-msgstr "&Giştî:"
-
-#: kdm-gen.cpp:123
+#: kdm-gen.cpp:112
 msgid ""
 "This changes the font which is used for all the text in the login manager "
 "except for the greeting and failure messages."
@@ -318,32 +307,38 @@ msgstr ""
 "Ev, peyama xêrhatinê û peyamên çewtiyan jî tê de, curenivîsa hemû deqên "
 "gerînendeya têketinê diguherîne."
 
-#: kdm-gen.cpp:129
-msgctxt "font for ..."
-msgid "&Failure:"
-msgstr "Çewtî:"
+#: kdm-gen.cpp:115
+#, fuzzy
+msgctxt "... font"
+msgid "&General:"
+msgstr "&Giştî:"
 
-#: kdm-gen.cpp:133
+#: kdm-gen.cpp:119
 msgid ""
 "This changes the font which is used for failure messages in the login "
 "manager."
 msgstr "Ev curenivîsa peyamên çewtiyê yên gerînendeya têketinê diguherîne."
 
-#: kdm-gen.cpp:138
+#: kdm-gen.cpp:121
+msgctxt "font for ..."
+msgid "&Failure:"
+msgstr "Çewtî:"
+
+#: kdm-gen.cpp:125
+msgid "This changes the font which is used for the login manager's greeting."
+msgstr "Ev curenivîsên peyama xêrhatinê a gerînendeyê têketinê diguherîne."
+
+#: kdm-gen.cpp:127
 #, fuzzy
 msgctxt "font for ..."
 msgid "Gree&ting:"
 msgstr "&Silav dan:"
 
-#: kdm-gen.cpp:142
-msgid "This changes the font which is used for the login manager's greeting."
-msgstr "Ev curenivîsên peyama xêrhatinê a gerînendeyê têketinê diguherîne."
-
-#: kdm-gen.cpp:147
+#: kdm-gen.cpp:129
 msgid "Use anti-aliasing for fonts"
 msgstr "Ji bo fontan antî-lihevsuwarbûnê bi kar bîne"
 
-#: kdm-gen.cpp:149
+#: kdm-gen.cpp:131
 msgid ""
 "If you check this box and your X-Server has the Xft extension, fonts will be "
 "antialiased (smoothed) in the login dialog."
@@ -753,7 +748,7 @@ msgstr ""
 "Di tomarkirina wêneyê de çewtiyek derket\n"
 "%1"
 
-#: main.cpp:78
+#: main.cpp:77
 #, kde-format
 msgid ""
 "%1 does not appear to be an image file.\n"
@@ -764,39 +759,39 @@ msgstr ""
 "Ji kerema xwe re pelên bi van niçikan bi kar bîne:\n"
 "%2"
 
-#: main.cpp:99
+#: main.cpp:98
 msgid "KDE Login Manager Config Module"
 msgstr "Modulê Veavakirina Gerînendeyê Têketinê a KDE'yê"
 
-#: main.cpp:101
+#: main.cpp:100
 msgid "(c) 1996-2008 The KDM Authors"
 msgstr "(c) 1996-2008 Nivîskarên KDE'yê"
 
-#: main.cpp:104
+#: main.cpp:103
 msgid "Thomas Tanghus"
 msgstr "Thomas Tanghus"
 
-#: main.cpp:104
+#: main.cpp:103
 msgid "Original author"
 msgstr "Nivîskarê/a resen"
 
-#: main.cpp:105
+#: main.cpp:104
 msgid "Steffen Hansen"
 msgstr "Steffen Hansen"
 
-#: main.cpp:106
+#: main.cpp:105
 msgid "Oswald Buddenhagen"
 msgstr "Oswald Buddenhagen"
 
-#: main.cpp:106
+#: main.cpp:105
 msgid "Current maintainer"
 msgstr "Kesê Miqate yê Niha"
 
-#: main.cpp:107
+#: main.cpp:106
 msgid "Stephen Leaf"
 msgstr "Stephen Leaf"
 
-#: main.cpp:110
+#: main.cpp:109
 msgid ""
 "<h1>Login Manager</h1> In this module you can configure the various aspects "
 "of the KDE Login Manager. This includes the look and feel as well as the "
@@ -821,43 +816,43 @@ msgid ""
 "their nature, so use them very carefully."
 msgstr ""
 
-#: main.cpp:198
+#: main.cpp:197
 msgid "General (&1)"
 msgstr "Giştî &1)"
 
-#: main.cpp:204
+#: main.cpp:203
 msgid "Dialog (&2)"
 msgstr "Diyalog (&2)"
 
-#: main.cpp:209
+#: main.cpp:208
 msgid "There is no login dialog window in themed mode."
 msgstr "Di moda dirbê de paceya diyaloga têketinê tune."
 
-#: main.cpp:215
+#: main.cpp:214
 msgid "Background (&3)"
 msgstr "Rûerd (&3)"
 
-#: main.cpp:220
+#: main.cpp:219
 msgid "The background cannot be configured separately in themed mode."
 msgstr "Rûerdê nikare di moda dirbê de cuda bê mîhenkirin."
 
-#: main.cpp:226
+#: main.cpp:225
 msgid "Theme (&4)"
 msgstr "Dirb (&4)"
 
-#: main.cpp:228
+#: main.cpp:227
 msgid "Themed mode is disabled. See \"General\" tab."
 msgstr "MOda dirbê neçalak e. Li hilpekîna  \"Giştî\" binêre."
 
-#: main.cpp:237
+#: main.cpp:236
 msgid "Shutdown (&5)"
 msgstr "Dadan (&5)"
 
-#: main.cpp:241
+#: main.cpp:240
 msgid "Users (&6)"
 msgstr "Bikarhêner (&6)"
 
-#: main.cpp:251
+#: main.cpp:250
 msgid "Convenience (&7)"
 msgstr "Hevgirtin (&7)"
 
@@ -877,3 +872,7 @@ msgstr "Amed Çeko Jiyan"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "amedcj at gmail dot com"
+
+#~ msgctxt "@title:group"
+#~ msgid "Appearance"
+#~ msgstr "Xuyakirin"
