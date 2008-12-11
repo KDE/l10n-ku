@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktorrent\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-12-10 11:05+0100\n"
+"POT-Creation-Date: 2008-12-11 10:44+0100\n"
 "PO-Revision-Date: 2008-09-23 17:28+0300\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -1596,56 +1596,106 @@ msgstr ""
 msgid "Plugins"
 msgstr "Pêvek"
 
-#: libktcore/groups/groupmanager.cpp:84
+#: libktcore/groups/groupmanager.cpp:110
 msgid "Uploads"
 msgstr "Şandin"
 
+#: libktcore/groups/groupmanager.cpp:112
+#, fuzzy
+#| msgid "Uploads"
+msgid "Running Uploads"
+msgstr "Şandin"
+
+#: libktcore/groups/groupmanager.cpp:114
+msgid "Not Running Uploads"
+msgstr ""
+
 #. i18n: file: ktorrent/ktorrentui.rc:16
 #. i18n: ectx: Menu (Downloads)
-#: libktcore/groups/groupmanager.cpp:85 rc.cpp:608
+#: libktcore/groups/groupmanager.cpp:118 rc.cpp:608
 msgid "Downloads"
 msgstr "Daxistin"
 
-#: libktcore/groups/groupmanager.cpp:87 libktcore/groups/groupmanager.cpp:89
-msgid "Queued downloads"
+#: libktcore/groups/groupmanager.cpp:120
+#, fuzzy
+#| msgid "Downloads"
+msgid "Running Downloads"
+msgstr "Daxistin"
+
+#: libktcore/groups/groupmanager.cpp:122
+#, fuzzy
+#| msgid "Downloads"
+msgid "Not Running Downloads"
+msgstr "Daxistin"
+
+#: libktcore/groups/groupmanager.cpp:126
+#, fuzzy
+#| msgid "Controlled by"
+msgid "User Controlled"
+msgstr "Tê kontrolkirin ji aliyê"
+
+#: libktcore/groups/groupmanager.cpp:128
+#, fuzzy
+#| msgid "Controlled by"
+msgid "User Controlled Uploads"
+msgstr "Tê kontrolkirin ji aliyê"
+
+#: libktcore/groups/groupmanager.cpp:130
+#, fuzzy
+#| msgid "Remove Download"
+msgid "User Controlled Downloads"
+msgstr "Daxistinê Rake"
+
+#: libktcore/groups/groupmanager.cpp:134
+#, fuzzy
+#| msgid "Queue Manager"
+msgid "Queue Manager Controlled"
+msgstr "Rêvebirê Rêzê"
+
+#: libktcore/groups/groupmanager.cpp:136
+msgid "Queue Manager Controlled Uploads"
+msgstr ""
+
+#: libktcore/groups/groupmanager.cpp:138
+#, fuzzy
+#| msgid "Queued downloads"
+msgid "Queue Manager Controlled Downloads"
 msgstr "Daxistinên di rêzê de"
 
-#: libktcore/groups/groupmanager.cpp:91
-msgid "User downloads"
-msgstr ""
-
-#: libktcore/groups/groupmanager.cpp:93
-msgid "User uploads"
-msgstr ""
-
-#: libktcore/groups/groupmanager.cpp:94
-msgid "Active torrents"
-msgstr "Torrentên çalak"
-
-#: libktcore/groups/groupmanager.cpp:96
-msgid "Active uploads"
-msgstr "Daxistinên çalak"
-
-#: libktcore/groups/groupmanager.cpp:98
-msgid "Active downloads"
-msgstr "Daxistinên çalak"
-
-#: libktcore/groups/groupmanager.cpp:99
+#: libktcore/groups/groupmanager.cpp:141
 #, fuzzy
 #| msgid "Active torrents"
-msgid "Passive torrents"
+msgid "Active Torrents"
 msgstr "Torrentên çalak"
 
-#: libktcore/groups/groupmanager.cpp:101
-#, fuzzy
-#| msgid "Active uploads"
-msgid "Passive uploads"
-msgstr "Daxistinên çalak"
-
-#: libktcore/groups/groupmanager.cpp:103
+#: libktcore/groups/groupmanager.cpp:143
 #, fuzzy
 #| msgid "Active downloads"
-msgid "Passive downloads"
+msgid "Active Downloads"
+msgstr "Daxistinên çalak"
+
+#: libktcore/groups/groupmanager.cpp:145
+#, fuzzy
+#| msgid "Active uploads"
+msgid "Active Uploads"
+msgstr "Daxistinên çalak"
+
+#: libktcore/groups/groupmanager.cpp:147
+#, fuzzy
+#| msgid "Active torrents"
+msgid "Passive Torrents"
+msgstr "Torrentên çalak"
+
+#: libktcore/groups/groupmanager.cpp:149
+#, fuzzy
+#| msgid "Active downloads"
+msgid "Passive Downloads"
+msgstr "Daxistinên çalak"
+
+#: libktcore/groups/groupmanager.cpp:151
+#, fuzzy
+#| msgid "Active uploads"
+msgid "Passive Uploads"
 msgstr "Daxistinên çalak"
 
 #: libktcore/groups/ungroupedgroup.cpp:27
@@ -7991,9 +8041,6 @@ msgstr ""
 
 #~ msgid "O&K"
 #~ msgstr "T&emam"
-
-#~ msgid "Controlled by"
-#~ msgstr "Tê kontrolkirin ji aliyê"
 
 #~ msgid "DHT:"
 #~ msgstr "DHT:"
