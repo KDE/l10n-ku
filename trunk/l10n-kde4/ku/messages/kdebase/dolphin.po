@@ -10,14 +10,16 @@ msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2008-12-22 10:17+0100\n"
-"PO-Revision-Date: 2008-11-01 00:39+0100\n"
-"Last-Translator: Erdal Ronahi <erdal.ronahi@gmail.com>\n"
+"PO-Revision-Date: 2008-12-22 22:21+0200\n"
+"Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural= n != 1;\n"
 "X-Generator: Lokalize 0.2\n"
+"X-Poedit-Language: Kurdish\n"
+"X-Poedit-SourceCharset: utf8\n"
 
 #: filterbar.cpp:41
 msgctxt "@info:tooltip"
@@ -37,7 +39,7 @@ msgstr "Mezinahiya Îkonê"
 #: iconsizegroupbox.cpp:39
 msgctxt "@label:listbox"
 msgid "Default:"
-msgstr ""
+msgstr "Standart:"
 
 #: iconsizegroupbox.cpp:46
 msgctxt "@label:listbox"
@@ -49,13 +51,13 @@ msgstr "Pêşdîtin:"
 msgctxt "@info:tooltip"
 msgid "Size: 1 pixel"
 msgid_plural "Size: %1 pixels"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Mezinahî: 1 pîksel"
+msgstr[1] "Mezinahî: %1 pîkselan "
 
 #: draganddrophelper.cpp:108
 msgctxt "@info:status"
 msgid "A folder cannot be dropped into itself"
-msgstr ""
+msgstr "Peldankek nayê kişandina nava xwe de"
 
 #: dolphinfontrequester.cpp:40
 msgctxt "@item:inlistbox Font"
@@ -78,21 +80,16 @@ msgid "Columns"
 msgstr "Sitûn"
 
 #: dolphinview.cpp:554
-#, fuzzy, kde-format
-#| msgctxt "@label:textbox"
-#| msgid "Rename the item <filename>%1</filename> to:"
+#, kde-format
 msgctxt "@info:status"
 msgid "<filename>%1</filename> selected"
-msgstr "Navê hêmana <filename>%1</filename>'ê bike:"
+msgstr "<filename>%1</filename> hate hilbijartin"
 
 #: dolphinview.cpp:555
-#, fuzzy, kde-format
-#| msgctxt "@info:status"
-#| msgid "1 File selected (%2)"
-#| msgid_plural "%1 Files selected (%2)"
+#, kde-format
 msgctxt "@info:status"
 msgid "<filename>%1</filename> selected (%2)"
-msgstr "Pelek Hatiye Hilbijartin (%2)"
+msgstr "<filename>%1</filename> hate hilbijartin (%2)"
 
 #: dolphinview.cpp:559
 #, kde-format
@@ -103,30 +100,24 @@ msgstr[0] "Peldankek Hatiye Hilbijartin"
 msgstr[1] "%1 Peldank Hatine Hilbijartin"
 
 #: dolphinview.cpp:560
-#, fuzzy, kde-format
-#| msgctxt "@info:status"
-#| msgid "1 Folder selected"
-#| msgid_plural "%1 Folders selected"
+#, kde-format
 msgctxt "@info:status"
 msgid "1 File selected"
 msgid_plural "%1 Files selected"
-msgstr[0] "Peldankek Hatiye Hilbijartin"
-msgstr[1] "%1 Peldank Hatine Hilbijartin"
+msgstr[0] "Pelek hate hilbijartin"
+msgstr[1] "%1 Pelên te hatin hilbijartin"
 
 #: dolphinview.cpp:562
 #, kde-format
 msgctxt "@info:status folders, files (size)"
 msgid "%1, %2 (%3)"
-msgstr ""
+msgstr "%1, %2 (%3)"
 
 #: dolphinview.cpp:565
-#, fuzzy, kde-format
-#| msgctxt "@info:status"
-#| msgid "1 File selected (%2)"
-#| msgid_plural "%1 Files selected (%2)"
+#, kde-format
 msgctxt "@info:status files (size)"
 msgid "%1 (%2)"
-msgstr "Pelek Hatiye Hilbijartin (%2)"
+msgstr "%1 (%2)"
 
 #: dolphinview.cpp:1029
 msgctxt "@action:inmenu"
@@ -185,7 +176,7 @@ msgstr "Pel an jî peldankan jê bibim"
 #: generalsettingspage.cpp:69
 msgctxt "@title:group"
 msgid "Context Menu"
-msgstr ""
+msgstr "Pêşeka Naverok"
 
 #: generalsettingspage.cpp:72
 msgctxt "@option:check"
@@ -200,20 +191,17 @@ msgstr "Fermanên 'Jibergirtin' û 'guhestin' nîşan bide"
 #: generalsettingspage.cpp:82
 msgctxt "@title:group"
 msgid "Status Bar"
-msgstr ""
+msgstr "Darika Rewşan"
 
 #: generalsettingspage.cpp:84
 msgctxt "@option:check"
 msgid "Show zoom slider"
-msgstr ""
+msgstr "Kaşkera nêzîktir kirinê nîşan bide"
 
 #: generalsettingspage.cpp:87
-#, fuzzy
-#| msgctxt "@label"
-#| msgid "Additional information"
 msgctxt "@option:check"
 msgid "Show space information"
-msgstr "Agahiyên pêvek"
+msgstr "Agahiya valahiyê nîşan bide"
 
 #: generalsettingspage.cpp:94
 msgctxt "@option:check"
@@ -221,17 +209,14 @@ msgid "Browse through archives"
 msgstr "Li arşîvan bigere"
 
 #: generalsettingspage.cpp:97
-#, fuzzy
-#| msgctxt "@title:window"
-#| msgid "Rename Item"
 msgctxt "@option:check"
 msgid "Rename inline"
-msgstr "Navê Hêmanê Biguherîne"
+msgstr "Bi rêzê de nav biguherîne"
 
 #: generalsettingspage.cpp:100
 msgctxt "option:check"
 msgid "Open folders during drag operations"
-msgstr ""
+msgstr "Peldankan veke demê kirinên kaş kirinê de"
 
 #: statusbarspaceinfo.cpp:78 statusbarspaceinfo.cpp:91
 msgctxt "@info:status"
@@ -262,12 +247,12 @@ msgstr "Nav biguherîne..."
 #: treeviewcontextmenu.cpp:92
 msgctxt "@action:inmenu"
 msgid "Move To Trash"
-msgstr "Bavêje Çopê"
+msgstr "Bavêje Sergo"
 
 #: treeviewcontextmenu.cpp:102
 msgctxt "@action:inmenu"
 msgid "Delete"
-msgstr "Jêbirin"
+msgstr "Jê bibe"
 
 #: treeviewcontextmenu.cpp:111 dolphincontextmenu.cpp:281
 msgctxt "@action:inmenu"
@@ -287,17 +272,17 @@ msgstr "Peldank tê barkirin..."
 #: dolphinviewcontainer.cpp:380
 msgctxt "@info:status"
 msgid "Dolphin does not support web pages, the web browser has been launched"
-msgstr ""
+msgstr "Dolphin piştgirî nade rûpelên torê, geroka torê tê vebe"
 
 #: dolphinviewcontainer.cpp:388
 msgctxt "@info:status"
 msgid "Protocol not supported by Dolphin, Konqueror has been launched"
-msgstr ""
+msgstr "Protokol nayê piştgirî dan alî yê Dolphin ve, Konqueror tê vebe"
 
 #: dolphinviewcontainer.cpp:393
 msgctxt "@info:status"
 msgid "Invalid protocol"
-msgstr ""
+msgstr "Protokola nenas"
 
 #: infosidebarpage.cpp:199
 #, kde-format
@@ -335,48 +320,42 @@ msgstr "Mezinahî:"
 #: infosidebarpage.cpp:428
 msgctxt "@label"
 msgid "Album:"
-msgstr ""
+msgstr "Album:"
 
 #: infosidebarpage.cpp:429
 msgctxt "@label"
 msgid "Artist:"
-msgstr ""
+msgstr "Hunermend:"
 
 #: infosidebarpage.cpp:430
-#, fuzzy
-#| msgctxt "@title:tab General settings"
-#| msgid "General"
 msgctxt "@label"
 msgid "Genre:"
-msgstr "Giştî"
+msgstr "Cure:"
 
 #: infosidebarpage.cpp:431
 msgctxt "@label"
 msgid "Height:"
-msgstr ""
+msgstr "Bilindahî:"
 
 #: infosidebarpage.cpp:432
 msgctxt "@label"
 msgid "Lines:"
-msgstr ""
+msgstr "Rêzên:"
 
 #: infosidebarpage.cpp:433
-#, fuzzy
-#| msgctxt "@label:textbox"
-#| msgid "Filter:"
 msgctxt "@label"
 msgid "Title:"
-msgstr "Parzûn:"
+msgstr "Sernav:"
 
 #: infosidebarpage.cpp:435
 msgctxt "@label"
 msgid "Track:"
-msgstr ""
+msgstr "Stran:"
 
 #: infosidebarpage.cpp:436
 msgctxt "@label"
 msgid "Width:"
-msgstr ""
+msgstr "Firehî:"
 
 #: viewpropsprogressinfo.cpp:49
 msgctxt "@title:window"
@@ -428,12 +407,12 @@ msgstr "Wêneyên biçûk ên di pelan de çal bûne, bi kar bîne"
 #: generalviewsettingspage.cpp:101
 msgctxt "@option:check"
 msgid "Show selection marker"
-msgstr ""
+msgstr "Nîşanderê hilbijartî nîşan bide"
 
 #: generalviewsettingspage.cpp:104
 msgctxt "@option:check"
 msgid "Show tooltips"
-msgstr ""
+msgstr "Qutî ya amûran nîşan bide"
 
 #: nepomukmassupdatejob.cpp:74
 msgctxt "@info:progress"
@@ -568,7 +547,7 @@ msgstr "Belgeya were vekirin"
 #: dolphincontextmenu.cpp:113
 msgctxt "@action:inmenu"
 msgid "Empty Trash"
-msgstr "Çopê Vala Bike"
+msgstr "Sergo Vala Bike"
 
 #: dolphincontextmenu.cpp:119 dolphincontextmenu.cpp:278
 msgctxt "@action:inmenu Add current folder to places"
@@ -588,7 +567,7 @@ msgstr "Çopê Vala Bike"
 #: dolphincontextmenu.cpp:139
 msgctxt "@label"
 msgid "Trash"
-msgstr "Çop"
+msgstr "Sergo"
 
 #: dolphincontextmenu.cpp:155
 msgctxt "@action:inmenu"
@@ -718,7 +697,7 @@ msgctxt ""
 "@title:group Date: %B is full month name in current locale, and %Y is full "
 "year number"
 msgid "Earlier on %B, %Y"
-msgstr ""
+msgstr "Zûtir ji %B, %Y"
 
 #: dolphinmodel.cpp:255
 msgctxt ""
@@ -818,7 +797,7 @@ msgstr "Hejmara rêzikan:"
 #: iconsviewsettingspage.cpp:94
 msgctxt "@item:inlistbox Text width"
 msgid "Huge"
-msgstr ""
+msgstr "Gelekî Mezin"
 
 #: iconsviewsettingspage.cpp:106
 msgctxt "@title:group"
@@ -831,17 +810,14 @@ msgid "Arrangement:"
 msgstr "Bicîbûn:"
 
 #: iconsviewsettingspage.cpp:111
-#, fuzzy
-#| msgctxt "@title:menu"
-#| msgid "Columns"
 msgctxt "@item:inlistbox Arrangement"
 msgid "Columns"
-msgstr "Sitûn"
+msgstr "Stûn"
 
 #: iconsviewsettingspage.cpp:112
 msgctxt "@item:inlistbox Arrangement"
 msgid "Rows"
-msgstr ""
+msgstr "Rêzik"
 
 #: iconsviewsettingspage.cpp:115
 msgctxt "@label:listbox"
@@ -851,7 +827,7 @@ msgstr "Navbera izxereyê"
 #: iconsviewsettingspage.cpp:117
 msgctxt "@item:inlistbox Grid spacing"
 msgid "None"
-msgstr ""
+msgstr "Ne Yek Jî"
 
 #: iconsviewsettingspage.cpp:118
 msgctxt "@item:inlistbox Grid spacing"
@@ -894,20 +870,14 @@ msgid "All settings will be reset to default values. Do you want to continue?"
 msgstr "Hemû mîheng dê vegerin nirxên pêşî. Dixwazî bidomînî?"
 
 #: commentwidget.cpp:55
-#, fuzzy
-#| msgctxt "@label"
-#| msgid "Add comment..."
 msgctxt "@label"
 msgid "Add Comment..."
-msgstr "Şirove lê zêde bike..."
+msgstr "Şirove Lê Zêde Bike..."
 
 #: commentwidget.cpp:58
-#, fuzzy
-#| msgctxt "@label"
-#| msgid "Change comment..."
 msgctxt "@label"
 msgid "Change Comment..."
-msgstr "Şîroveyê biguherîne..."
+msgstr "Şîroveyê Biguherîne..."
 
 #: startupsettingspage.cpp:58
 msgctxt "@title:group"
@@ -940,12 +910,9 @@ msgid "Editable location bar"
 msgstr "Darikê tê serastkirin"
 
 #: startupsettingspage.cpp:88
-#, fuzzy
-#| msgctxt "@action:inmenu Navigation Bar"
-#| msgid "Show Full Location"
 msgctxt "@option:check Startup Settings"
 msgid "Show full path inside location bar"
-msgstr "Tevahiya Cî Nîşan Bide"
+msgstr "Rê ya çûnê bitemamî di nav darikê de nîşan bide"
 
 #: startupsettingspage.cpp:89
 msgctxt "@option:check Startup Settings"
@@ -955,7 +922,7 @@ msgstr "Darikê fîltreyê nîşan bide"
 #: startupsettingspage.cpp:122
 msgctxt "@info"
 msgid "The location for the home folder is invalid and will not be applied."
-msgstr ""
+msgstr "Cihê peldanka mal ne derbasdar e û wê nayê pejirandin."
 
 #: tagcloud/newtagdialog.cpp:31 tagcloud/newtagdialog.cpp:68
 msgctxt "@title:window"
@@ -965,15 +932,12 @@ msgstr "Etîketekê Nû Biafirîne"
 #: tagcloud/newtagdialog.cpp:69
 msgctxt "@title:window subtitle to previous message"
 msgid "with optional icon and description"
-msgstr ""
+msgstr "bi îkonê bijare û daxuyanî re"
 
 #: tagcloud/resourcetaggingwidget.cpp:122
-#, fuzzy
-#| msgctxt "@label"
-#| msgid "Change tags..."
 msgctxt "@label"
 msgid "Change Tags..."
-msgstr "Etîketan biguherîne..."
+msgstr "Etîketan Biguherîne..."
 
 #: tagcloud/tagcloud.cpp:134
 msgctxt "@label"
@@ -1008,7 +972,7 @@ msgstr "&Mîheng"
 #: dolphinpart.cpp:171
 msgctxt "@action:inmenu Go"
 msgid "Trash"
-msgstr "Çop"
+msgstr "Sergo"
 
 #: dolphinpart.cpp:174
 msgctxt "@action:inmenu Go"
@@ -1294,7 +1258,7 @@ msgstr "Bila bikarhêner karibe URL'ê biguherîne"
 #: rc.cpp:99 rc.cpp:398
 msgctxt "@label"
 msgid "Should the full path be shown inside the location bar"
-msgstr ""
+msgstr "Ma rê ya çûnê bitemamî di nav darikê de bê nîşan dan"
 
 #. i18n: file: dolphin_generalsettings.kcfg:16
 #. i18n: ectx: label, entry (FirstRun), group (General)
@@ -1341,26 +1305,23 @@ msgstr "Li arşîvan bigere"
 #. i18n: file: dolphin_generalsettings.kcfg:40
 #. i18n: ectx: label, entry (RenameInline), group (General)
 #: rc.cpp:120 rc.cpp:419
-#, fuzzy
-#| msgctxt "@title:window"
-#| msgid "Rename Item"
 msgctxt "@label"
 msgid "Rename inline"
-msgstr "Navê Hêmanê Biguherîne"
+msgstr "Bi rêzê de nav biguherîne"
 
 #. i18n: file: dolphin_generalsettings.kcfg:44
 #. i18n: ectx: label, entry (ShowSelectionToggle), group (General)
 #: rc.cpp:123 rc.cpp:422
 msgctxt "@label"
 msgid "Show selection toggle"
-msgstr ""
+msgstr "Têbara hilbijartî nîşan bide"
 
 #. i18n: file: dolphin_generalsettings.kcfg:48
 #. i18n: ectx: label, entry (ShowToolTips), group (General)
 #: rc.cpp:126 rc.cpp:425
 msgctxt "@label"
 msgid "Show tooltips"
-msgstr ""
+msgstr "Qutî ya amûran nîşan bide"
 
 #. i18n: file: dolphin_generalsettings.kcfg:52
 #. i18n: ectx: label, entry (ShowCopyMoveMenu), group (General)
@@ -1374,28 +1335,28 @@ msgstr "Di pêşekê de fermanên 'Jibergirtin' û 'Guhestin' nîşan bide"
 #: rc.cpp:132 rc.cpp:431
 msgctxt "@label"
 msgid "Timestamp since when the view properties are valid"
-msgstr ""
+msgstr "Demê guherandinê ji wextê taybetiyên dîtinê derbasdar bûn ve heta niha"
 
 #. i18n: file: dolphin_generalsettings.kcfg:59
 #. i18n: ectx: label, entry (AutoExpandFolders), group (General)
 #: rc.cpp:135 rc.cpp:434
 msgctxt "@label"
 msgid "Use auto-expanding folders for all view types"
-msgstr ""
+msgstr "Bixweber-vekirina peldankan bi kar bîne ji bo hemû cureyên dîtinê"
 
 #. i18n: file: dolphin_generalsettings.kcfg:63
 #. i18n: ectx: label, entry (ShowZoomSlider), group (General)
 #: rc.cpp:138 rc.cpp:437
 msgctxt "@label"
 msgid "Show zoom slider in the statusbar"
-msgstr ""
+msgstr "Kaşkera nêzîktir kirinê di nav darikê rewşê de nîşan bide"
 
 #. i18n: file: dolphin_generalsettings.kcfg:67
 #. i18n: ectx: label, entry (ShowSpaceInfo), group (General)
 #: rc.cpp:141 rc.cpp:440
 msgctxt "@label"
 msgid "Show the space information in the statusbar"
-msgstr ""
+msgstr "Agahiya valahiyê di darikê rewşê de nîşan bide"
 
 #. i18n: file: dolphin_iconsmodesettings.kcfg:10
 #. i18n: ectx: label, entry (Arrangement), group (IconsMode)
@@ -1436,13 +1397,13 @@ msgstr "Hejmara rêzikên deqê"
 #. i18n: ectx: Menu (edit)
 #: rc.cpp:180 rc.cpp:287
 msgid "&Edit"
-msgstr ""
+msgstr "&Biguherhîne"
 
 #. i18n: file: dolphinpart.rc:16
 #. i18n: ectx: Menu (view)
 #: rc.cpp:183 rc.cpp:290
 msgid "&View"
-msgstr ""
+msgstr "&Bibîne"
 
 #. i18n: file: dolphinpart.rc:18
 #. i18n: ectx: Menu (sort)
@@ -1474,7 +1435,7 @@ msgstr "Agahiyên Pêvek"
 #. i18n: ectx: Menu (go)
 #: rc.cpp:192 rc.cpp:299
 msgid "&Go"
-msgstr ""
+msgstr "&Biçe"
 
 #. i18n: file: dolphinpart.rc:54
 #. i18n: ectx: Menu (tools)
@@ -1533,7 +1494,7 @@ msgstr "Nav:"
 #: rc.cpp:332
 msgctxt "@label"
 msgid "Detailed description (optional):"
-msgstr ""
+msgstr "Daxuyaniya bikitekit (bijare):"
 
 #: dolphinmainwindow.cpp:147
 msgctxt "@info:status"
@@ -1616,20 +1577,14 @@ msgid "Stop"
 msgstr "Sekinandin"
 
 #: dolphinmainwindow.cpp:1030
-#, fuzzy
-#| msgctxt "@action:inmenu Navigation Bar"
-#| msgid "Edit Location"
 msgctxt "@action:inmenu Navigation Bar"
 msgid "Editable Location"
-msgstr "Cî Serast Bike"
+msgstr "Cihê tê Serastkirin"
 
 #: dolphinmainwindow.cpp:1035
-#, fuzzy
-#| msgctxt "@label:textbox"
-#| msgid "Location:"
 msgctxt "@action:inmenu Navigation Bar"
 msgid "Replace Location"
-msgstr "Cih:"
+msgstr "Cih Biguhezîne "
 
 #: dolphinmainwindow.cpp:1051
 msgctxt "@action:inmenu Tools"
@@ -1644,33 +1599,27 @@ msgstr "Pelan Bide Ber Hev"
 #: dolphinmainwindow.cpp:1064
 msgctxt "@action:inmenu Tools"
 msgid "Quick View"
-msgstr ""
+msgstr "Dîtina Bilez"
 
 #: dolphinmainwindow.cpp:1077
 msgctxt "@action:inmenu"
 msgid "Activate Next Tab"
-msgstr ""
+msgstr "Hilfirîna Nû Çalak Bike"
 
 #: dolphinmainwindow.cpp:1083
 msgctxt "@action:inmenu"
 msgid "Activate Previous Tab"
-msgstr ""
+msgstr "Hilfirîna Berê Çalak Bike"
 
 #: dolphinmainwindow.cpp:1090
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "New Tab"
 msgctxt "@action:inmenu"
 msgid "Open in New Tab"
-msgstr "Hilpekîna Nû"
+msgstr "Hilpekîna Nû de Veke"
 
 #: dolphinmainwindow.cpp:1095
-#, fuzzy
-#| msgctxt "@action:inmenu File"
-#| msgid "New &Window"
 msgctxt "@action:inmenu"
 msgid "Open in New Window"
-msgstr "Paceyeke &Nû"
+msgstr "Paceya Nû de Veke"
 
 #: dolphinmainwindow.cpp:1103 dolphinmainwindow.cpp:1109
 msgctxt "@title:window"
@@ -1770,7 +1719,7 @@ msgstr "Ber bi jêr"
 #: viewpropertiesdialog.cpp:109
 msgctxt "@item:inlistbox Sort"
 msgid "By Name"
-msgstr "Li Navî"
+msgstr "Bi Navê"
 
 #: viewpropertiesdialog.cpp:110
 msgctxt "@item:inlistbox Sort"
@@ -1780,32 +1729,32 @@ msgstr "Li Mezinahiyê"
 #: viewpropertiesdialog.cpp:111
 msgctxt "@item:inlistbox Sort"
 msgid "By Date"
-msgstr "Li Rojê"
+msgstr "Bi Rojê"
 
 #: viewpropertiesdialog.cpp:112
 msgctxt "@item:inlistbox Sort"
 msgid "By Permissions"
-msgstr "Li Destûran"
+msgstr "Bi Destûran"
 
 #: viewpropertiesdialog.cpp:113
 msgctxt "@item:inlistbox Sort"
 msgid "By Owner"
-msgstr "Li Xwediyan"
+msgstr "Bi Xwediyê"
 
 #: viewpropertiesdialog.cpp:114
 msgctxt "@item:inlistbox Sort"
 msgid "By Group"
-msgstr "Li Koman"
+msgstr "Bi Komê"
 
 #: viewpropertiesdialog.cpp:115
 msgctxt "@item:inlistbox Sort"
 msgid "By Type"
-msgstr "Li Cureyî"
+msgstr "Bi Cureyê"
 
 #: viewpropertiesdialog.cpp:125
 msgctxt "@option:check"
 msgid "Show preview"
-msgstr "Pêşdîtin nîşan bide"
+msgstr "Pêşdîtinê nîşan bide"
 
 #: viewpropertiesdialog.cpp:126
 msgctxt "@option:check"
@@ -1886,7 +1835,7 @@ msgstr "Jebirin"
 #: dolphinviewactionhandler.cpp:107
 msgctxt "@action:inmenu File"
 msgid "Delete (using shortcut for Trash)"
-msgstr ""
+msgstr "Jê Bibe (bi kar anîna kurterê ji bo Sergo)"
 
 #: dolphinviewactionhandler.cpp:114
 msgctxt "@action:inmenu File"
@@ -2014,9 +1963,6 @@ msgid "Cancel"
 msgstr "Betalkirin"
 
 #: detailsviewsettingspage.cpp:80
-#, fuzzy
-#| msgctxt "@label"
-#| msgid "Expandable folders"
 msgctxt "@option:check"
 msgid "Expandable folders"
 msgstr "Peldankên Firehbar"
@@ -2056,6 +2002,46 @@ msgctxt "@option:check Additional Information"
 msgid "Type"
 msgstr "Cure"
 
+msgctxt "@action:inmenu"
+msgid "&Move Here\t<shortcut>%1</shortcut>"
+msgstr "&Bîne Virê\t<shortcut>%1</shortcut>"
+
+msgctxt "@action:inmenu"
+msgid "&Copy Here\t<shortcut>%1</shortcut>"
+msgstr "Li virê &Kopî Bike\t<shortcut>%1</shortcut>"
+
+msgctxt "@action:inmenu"
+msgid "&Link Here\t<shortcut>%1</shortcut>"
+msgstr "&Lînk bi vê derê re çêke\t<shortcut>%1</shortcut>"
+
+msgctxt "@item:inlistbox Arrangement"
+msgid "Left to Right"
+msgstr "Ji Çepê ber bi Rastê ve"
+
+msgctxt "@item:inlistbox Arrangement"
+msgid "Top to Bottom"
+msgstr "Ji Jorê ber bi Jêrê ve"
+
+msgctxt "@action:button"
+msgid "Change Icon && Preview Size..."
+msgstr "Change Icon && Preview Size..."
+
+msgctxt "@title:window"
+msgid "Change Icon & Preview Size"
+msgstr "Îkon & Mezinahiya Pêşdîtinê Biguherîne"
+
+msgctxt "@info:status"
+msgid "Getting size..."
+msgstr "Mezinahî tê standin..."
+
+msgctxt "@title:menu"
+msgid "Open With"
+msgstr "Veke Bi"
+
+msgctxt "@title:menu"
+msgid "Open With..."
+msgstr "Veke Bi..."
+
 #~ msgctxt "@title:window"
 #~ msgid "Create new Tag"
 #~ msgstr "Etîketekê nû biafirîne"
@@ -2065,110 +2051,83 @@ msgstr "Cure"
 #~ msgstr "Peldankên Firehbar"
 
 #, fuzzy
-#~| msgctxt "@label"
-#~| msgid "Folder"
 #~ msgctxt "@info:status"
 #~ msgid "1 Folder"
 #~ msgid_plural "%1 Folders"
 #~ msgstr[0] "Peldank"
 #~ msgstr[1] "Peldank"
 
+#, fuzzy
 #~ msgctxt "@action:inmenu Navigation Bar"
 #~ msgid "Show Full Location"
-#~ msgstr "Tevahiya Cî Nîşan Bide"
+#~ msgstr "Ciyê Standard Bi Kar Bîne"
 
-#~ msgctxt "@action:inmenu"
-#~ msgid "&Move Here\t<shortcut>%1</shortcut>"
-#~ msgstr "&Bîne Virê\t<shortcut>%1</shortcut>"
-
-#~ msgctxt "@action:inmenu"
-#~ msgid "&Copy Here\t<shortcut>%1</shortcut>"
-#~ msgstr "Li virê &Kopî Bike\t<shortcut>%1</shortcut>"
-
-#~ msgctxt "@action:inmenu"
-#~ msgid "&Link Here\t<shortcut>%1</shortcut>"
-#~ msgstr "&Lînk bi vê derê re çêke\t<shortcut>%1</shortcut>"
-
+#, fuzzy
 #~ msgctxt "@action:inmenu"
 #~ msgid "Cancel"
-#~ msgstr "Betal"
+#~ msgstr "Betalkirin"
 
-#~ msgctxt "@item:inlistbox Arrangement"
-#~ msgid "Left to Right"
-#~ msgstr "Ji Çepê ber bi Rastê ve"
-
-#~ msgctxt "@item:inlistbox Arrangement"
-#~ msgid "Top to Bottom"
-#~ msgstr "Ji Jorê ber bi Jêrê ve"
-
+#, fuzzy
 #~ msgctxt "@title:group"
 #~ msgid "Column Width"
 #~ msgstr "Firehiya Sitûnê"
 
+#, fuzzy
 #~ msgctxt "@item:inrange Column Width"
 #~ msgid "Small"
 #~ msgstr "Biçûk"
 
+#, fuzzy
 #~ msgctxt "@item:inrange Column Width"
 #~ msgid "Large"
 #~ msgstr "Mezin"
 
+#, fuzzy
 #~ msgctxt "@option:radio Icon Size"
 #~ msgid "Small"
 #~ msgstr "Biçûk"
 
+#, fuzzy
 #~ msgctxt "@option:radio Icon Size"
 #~ msgid "Medium"
 #~ msgstr "Orte"
 
+#, fuzzy
 #~ msgctxt "@option:radio Icon Size"
 #~ msgid "Large"
 #~ msgstr "Mezin"
 
-#~ msgctxt "@action:button"
-#~ msgid "Change Icon && Preview Size..."
-#~ msgstr "Change Icon && Preview Size..."
-
-#~ msgctxt "@title:window"
-#~ msgid "Change Icon & Preview Size"
-#~ msgstr "Îkon & Mezinahiya Pêşdîtinê Biguherîne"
-
+#, fuzzy
 #~ msgctxt "@item:inrange Icon Size"
 #~ msgid "Small"
 #~ msgstr "Biçûk"
 
+#, fuzzy
 #~ msgctxt "@item:inrange Icon Size"
 #~ msgid "Large"
 #~ msgstr "Mezin"
 
+#, fuzzy
 #~ msgctxt "@title:group"
 #~ msgid "Preview Size"
-#~ msgstr "Mezinahiya Pêşdîtinê"
+#~ msgstr "Mezinahiya pêşdîtinê"
 
+#, fuzzy
 #~ msgctxt "@item:inrange Preview Size"
 #~ msgid "Small"
 #~ msgstr "Biçûk"
 
+#, fuzzy
 #~ msgctxt "@item:inrange Preview Size"
 #~ msgid "Large"
 #~ msgstr "Mezin"
 
-#~ msgctxt "@info:status"
-#~ msgid "Getting size..."
-#~ msgstr "Mezinahî tê standin..."
-
+#, fuzzy
 #~ msgctxt "@action:inmenu Edit"
 #~ msgid "Properties"
 #~ msgstr "Taybetmendî"
 
-#~ msgctxt "@title:menu"
-#~ msgid "Open With"
-#~ msgstr "Veke Bi"
-
+#, fuzzy
 #~ msgctxt "@action:inmenu Open With"
 #~ msgid "&Other..."
-#~ msgstr "&Yên din..."
-
-#~ msgctxt "@title:menu"
-#~ msgid "Open With..."
-#~ msgstr "Veke Bi..."
+#~ msgstr "Yên din"
