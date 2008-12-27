@@ -9,16 +9,18 @@ msgstr ""
 "Project-Id-Version: plasmaengineexplorer\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2008-12-10 10:57+0100\n"
-"PO-Revision-Date: 2008-06-30 12:36+0300\n"
-"Last-Translator: Amed Çeko Jiyan <amedcj@gmail.com>\n"
+"PO-Revision-Date: 2008-12-26 03:29+0200\n"
+"Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural= n != 1;\n"
+"X-Poedit-Language: Kurdish\n"
 
-#: engineexplorer.cpp:57 main.cpp:32
+#: engineexplorer.cpp:57
+#: main.cpp:32
 msgid "Plasma Engine Explorer"
 msgstr "Kaşîfê Motora Plasmayê"
 
@@ -27,16 +29,14 @@ msgid "Search"
 msgstr "Bigere"
 
 #: engineexplorer.cpp:79
-#, fuzzy
 #| msgid "Collapse all"
 msgid "Collapse All"
-msgstr "Hemûyî teng bike"
+msgstr "Hemû yan Teng Bike"
 
 #: engineexplorer.cpp:80
-#, fuzzy
 #| msgid "Expand all"
 msgid "Expand All"
-msgstr "Hemûyî fireh bike"
+msgstr "Hemû yan Fireh Bike"
 
 #: engineexplorer.cpp:148
 msgid "DataSource"
@@ -44,13 +44,17 @@ msgstr "ÇavkaniyaDaneyan"
 
 #. i18n: file: serviceviewer.ui:67
 #. i18n: ectx: property (text), widget (QTableWidget, m_operationDescription)
-#: engineexplorer.cpp:148 rc.cpp:28 serviceviewer.cpp:140
+#: engineexplorer.cpp:148
+#: rc.cpp:28
+#: serviceviewer.cpp:140
 msgid "Key"
 msgstr "Mifte"
 
 #. i18n: file: serviceviewer.ui:72
 #. i18n: ectx: property (text), widget (QTableWidget, m_operationDescription)
-#: engineexplorer.cpp:148 rc.cpp:31 serviceviewer.cpp:140
+#: engineexplorer.cpp:148
+#: rc.cpp:31
+#: serviceviewer.cpp:140
 msgid "Value"
 msgstr "Nirx"
 
@@ -60,17 +64,16 @@ msgstr "Cure"
 
 #: engineexplorer.cpp:257
 msgid "Get associated service"
-msgstr ""
+msgstr "Servîsa têkildarî bîne "
 
 #: engineexplorer.cpp:258
-#, fuzzy
 #| msgid "Update on demand"
 msgid "Update source now"
-msgstr "Li gorî daxwazê rojane bike"
+msgstr "Çavkaniyê niha rojane bike"
 
 #: engineexplorer.cpp:259
 msgid "Remove source"
-msgstr ""
+msgstr "Çavkaniyê rake"
 
 #: engineexplorer.cpp:279
 #, kde-format
@@ -94,24 +97,21 @@ msgstr[0] "&lt;parçeyek&gt;"
 msgstr[1] "&lt;%1 parçe&gt;"
 
 #: engineexplorer.cpp:376
-#, fuzzy
 #| msgid "<empty>"
 msgctxt "The user did a query to a dataengine and it returned empty data"
 msgid "<empty>"
 msgstr "<vala>"
 
 #: engineexplorer.cpp:383
-#, fuzzy
 #| msgid "<not displayable>"
-msgctxt ""
-"A the dataengine returned something that the humble view on the "
-"engineexplorer can't display, like a picture"
+msgctxt "A the dataengine returned something that the humble view on the engineexplorer can't display, like a picture"
 msgid "<not displayable>"
-msgstr "<nexuya>"
+msgstr "<nayê nîşandan>"
 
 #. i18n: file: engineexplorer.ui:19
 #. i18n: ectx: property (text), widget (KTitleWidget, m_title)
-#: engineexplorer.cpp:420 rc.cpp:3
+#: engineexplorer.cpp:420
+#: rc.cpp:3
 msgid "Plasma DataEngine Explorer"
 msgstr "Kaşîfê Motora Daneyan a Plasmayê"
 
@@ -173,7 +173,7 @@ msgstr "Motora daneyan a bikaranînê"
 
 #: main.cpp:47
 msgid "The source to request"
-msgstr ""
+msgstr "Çavkanî ji bo xwestinê"
 
 #: main.cpp:48
 msgid "Update Interval in milliseconds."
@@ -214,19 +214,19 @@ msgstr "Daxwaz"
 #: rc.cpp:22
 #, no-c-format, kde-format
 msgid "%1 service for %2 DataEngine source %3"
-msgstr ""
+msgstr "%1 servîs ji bo %2 çavkaniya MotoraDane %3 ê"
 
 #. i18n: file: serviceviewer.ui:33
 #. i18n: ectx: property (text), widget (QLabel, m_operationsLabel)
 #: rc.cpp:25
 msgid "&Operation:"
-msgstr ""
+msgstr "&Kar:"
 
 #. i18n: file: serviceviewer.ui:80
 #. i18n: ectx: property (text), widget (QLabel, m_operationStatus)
 #: rc.cpp:34
 msgid "Operation count"
-msgstr ""
+msgstr "Hejmara karê"
 
 #: rc.cpp:35
 msgctxt "NAME OF TRANSLATORS"
@@ -240,52 +240,52 @@ msgstr "erdal dot ronahi at gmail dot com, amedcj at gmail dot com"
 
 #: serviceviewer.cpp:44
 msgid "Start Operation"
-msgstr ""
+msgstr "Karê Bide Destpêkirin"
 
 #: serviceviewer.cpp:51
 msgctxt "Plasma engine with unknown name"
 msgid "Unknown"
-msgstr ""
+msgstr "Nayê Zanîn"
 
 #: serviceviewer.cpp:52
 msgctxt "Plasma service with unknown name"
 msgid "Unknown"
-msgstr ""
+msgstr "Nayê Zanîn"
 
 #: serviceviewer.cpp:66
 #, kde-format
 msgctxt "%1 is a Plasma service name"
 msgid "%1 Service Explorer"
-msgstr ""
+msgstr "%1 Vebînerê Servîsê"
 
 #: serviceviewer.cpp:68
 #, kde-format
 msgid "DataEngine: <b>%1</b>; Source: <b>%2</b>; Service <b>%3</b>"
-msgstr ""
+msgstr "MotoraDane: <b>%1</b>; Çavkanî: <b>%2</b>; Servîs <b>%3</b>"
 
 #: serviceviewer.cpp:169
 #, kde-format
 msgid "%1 operation with destination %2 failed. The error was:<p><b>%3</b>"
-msgstr ""
+msgstr "%1 karê bi hedefa %2 re têk çû. Çewtî:<p><b>%3</b>"
 
-#: serviceviewer.cpp:172 serviceviewer.cpp:183
+#: serviceviewer.cpp:172
+#: serviceviewer.cpp:183
 msgid "Operation Result"
-msgstr ""
+msgstr "Encama Karê"
 
 #: serviceviewer.cpp:176
 msgid "No response from job!"
-msgstr ""
+msgstr "Karê tu bersîv neda!"
 
 #: serviceviewer.cpp:180
 #, kde-format
-msgid ""
-"%1 operation with destination %2 returned successfully. The result was:<p><b>"
-"%3</b>"
-msgstr ""
+msgid "%1 operation with destination %2 returned successfully. The result was:<p><b>%3</b>"
+msgstr "%1 kar bi hedefa %2 re serfiraz bû. Encam:<p><b>%3</b>"
 
 #: serviceviewer.cpp:205
 #, kde-format
 msgid "One active operation ..."
 msgid_plural "%1 operations active ..."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Yek karê çalak..."
+msgstr[1] "%1 karên çalak..."
+
