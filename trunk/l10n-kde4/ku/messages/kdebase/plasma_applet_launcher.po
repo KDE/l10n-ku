@@ -8,31 +8,29 @@ msgstr ""
 "Project-Id-Version: plasma_applet_launcher\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2008-12-12 10:00+0100\n"
-"PO-Revision-Date: 2007-12-21 20:15+0100\n"
-"Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
-"Language-Team: Kurdish <gnu-ku-wergerandin at lists dot sourceforge dot "
-"net>\n"
+"PO-Revision-Date: 2008-12-25 02:51+0200\n"
+"Last-Translator: Omer Ensari <oensari@gmail.com>\n"
+"Language-Team: Kurdish <gnu-ku-wergerandin at lists dot sourceforge dot net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural= n != 1;\n"
+"X-Poedit-Language: Kurdish\n"
 
 #: ui/flipscrollview.cpp:138
-#, fuzzy
 #| msgid "Applications"
 msgid "All Applications"
-msgstr "Sepan"
+msgstr "Hemû Sepan"
 
 #: ui/contextmenufactory.cpp:79
 msgid "Advanced"
 msgstr "Pêşketî"
 
 #: ui/contextmenufactory.cpp:122
-#, fuzzy
 #| msgid "Remove from Favorites"
 msgid "Remove From Favorites"
-msgstr "Ji Bijarteyan derxe"
+msgstr "Ji Bijarteyan Rake"
 
 #: ui/contextmenufactory.cpp:125
 msgid "Add to Favorites"
@@ -48,29 +46,32 @@ msgstr "Li Panelê zêde bike"
 
 #: ui/contextmenufactory.cpp:180
 msgid "Eject"
-msgstr ""
+msgstr "Bavêje"
 
 #: ui/contextmenufactory.cpp:182
 msgid "Safely Remove"
-msgstr ""
+msgstr "Bi ewle Rake"
 
 #: ui/launcher.cpp:159
 msgid "Leave"
 msgstr "Biterikîne"
 
-#: ui/launcher.cpp:170 core/favoritesmodel.cpp:44
+#: ui/launcher.cpp:170
+#: core/favoritesmodel.cpp:44
 msgid "Favorites"
 msgstr "Bijarte"
 
 #: ui/launcher.cpp:173
 msgid "Sort Alphabetically (A to Z)"
-msgstr ""
+msgstr "Bi tîpan (ji A heta Z) Rêz Bike"
 
 #: ui/launcher.cpp:176
 msgid "Sort Alphabetically (Z to A)"
-msgstr ""
+msgstr "Bi tîpan (ji Z heta A) Rêz Bike"
 
-#: ui/launcher.cpp:199 core/recentlyusedmodel.cpp:101 core/systemmodel.cpp:88
+#: ui/launcher.cpp:199
+#: core/recentlyusedmodel.cpp:101
+#: core/systemmodel.cpp:88
 #: core/searchmodel.cpp:135
 msgid "Applications"
 msgstr "Sepan"
@@ -88,22 +89,21 @@ msgid "Clear Recent Documents"
 msgstr "Belgeyên Borî Pakuj bike"
 
 #: ui/launcher.cpp:231
-#, fuzzy
 #| msgid "My Computer"
 msgid "Computer"
-msgstr "Komputera min"
+msgstr "Komputer"
 
 #: ui/launcher.cpp:488
 #, kde-format
 msgctxt "login name, hostname"
 msgid "User <b>%1</b> on <b>%2</b>"
-msgstr ""
+msgstr "Bikarhêner <b>%1</b> di <b>%2</b> de"
 
 #: ui/launcher.cpp:490
 #, kde-format
 msgctxt "full name, login name, hostname"
 msgid "<b>%1 (%2)</b> on <b>%3</b>"
-msgstr ""
+msgstr "<b>%1 (%2)</b> di <b>%3</b> de"
 
 #: ui/searchbar.cpp:71
 msgid "Search:"
@@ -117,7 +117,8 @@ msgstr "Derketin"
 msgid "End session"
 msgstr "Danişînê bi dawî bîne"
 
-#: core/leavemodel.cpp:53 simpleapplet/simpleapplet.cpp:393
+#: core/leavemodel.cpp:53
+#: simpleapplet/simpleapplet.cpp:393
 msgid "Lock"
 msgstr "Quflkirin"
 
@@ -125,15 +126,15 @@ msgstr "Quflkirin"
 msgid "Lock the screen"
 msgstr "îmenderê biqufilîne"
 
-#: core/leavemodel.cpp:57 simpleapplet/simpleapplet.cpp:391
+#: core/leavemodel.cpp:57
+#: simpleapplet/simpleapplet.cpp:391
 msgid "Switch User"
 msgstr "Bikarhênerê/î biguherîne"
 
 #: core/leavemodel.cpp:59
-#, fuzzy
 #| msgid "Start a parallel session as a different user."
 msgid "Start a parallel session as a different user"
-msgstr "Wekî bikarhênereke/î din dest bi danisîneke paralel bike."
+msgstr "Wekî bikarhênerekê din dest bi danişînekê paralel bike"
 
 #: core/leavemodel.cpp:61
 msgid "Shutdown"
@@ -141,45 +142,45 @@ msgstr "Dadan"
 
 #: core/leavemodel.cpp:63
 msgid "Turn off the computer"
-msgstr "Komputerê dade"
+msgstr "Komputerê bigire"
 
 #: core/leavemodel.cpp:65
-#, fuzzy
 #| msgid "Restart"
 msgctxt "Restart the computer"
 msgid "Restart"
-msgstr "Nûdestpêkirin"
+msgstr "Ji Nû ve Bide Destpêkirin"
 
 #: core/leavemodel.cpp:67
 msgid "Restart the computer"
 msgstr "Komputerê ji nû ve bide destpêkirin"
 
 #: core/leavemodel.cpp:69
-#, fuzzy
 #| msgid "Session"
 msgid "Save Session"
-msgstr "Danişîn"
+msgstr "Danişînê Tomar Bike"
 
 #: core/leavemodel.cpp:71
 msgid "Save current session for next login"
-msgstr ""
+msgstr "Danişîna heyî ji bo têketina pêş tomar bike"
 
 #: core/leavemodel.cpp:73
 msgctxt "Puts the system on standby"
 msgid "Standby"
-msgstr ""
+msgstr "Bendê Bimîne "
 
-#: core/leavemodel.cpp:75 core/leavemodel.cpp:79 core/leavemodel.cpp:83
+#: core/leavemodel.cpp:75
+#: core/leavemodel.cpp:79
+#: core/leavemodel.cpp:83
 msgid "Pause without logging out"
-msgstr ""
+msgstr "Bê derketin bi de sekinandin"
 
 #: core/leavemodel.cpp:77
 msgid "Suspend to Disk"
-msgstr ""
+msgstr "Ji Dîskê Bisekine"
 
 #: core/leavemodel.cpp:81
 msgid "Suspend to RAM"
-msgstr ""
+msgstr "Ji RAMê Bisekine"
 
 #: core/leavemodel.cpp:103
 msgid "Session"
@@ -201,7 +202,8 @@ msgstr "Home Folder"
 msgid "Network Folders"
 msgstr "Peldankên Torê"
 
-#: core/recentlyusedmodel.cpp:93 core/searchmodel.cpp:221
+#: core/recentlyusedmodel.cpp:93
+#: core/searchmodel.cpp:221
 msgid "Documents"
 msgstr "Belge"
 
@@ -235,34 +237,31 @@ msgid "Application Launcher"
 msgstr "Deskpêkerê Sepanan"
 
 #: applet/applet.cpp:84
-#, fuzzy
 #| msgid "Application Launcher"
 msgid "Kickoff Application Launcher"
-msgstr "Deskpêkerê Sepanan"
+msgstr "Deskpêkerê Sepana Kickoff"
 
 #: applet/applet.cpp:85
-msgid ""
-"Favorites, applications, computer places, recently used items and desktop "
-"sessions"
-msgstr ""
+msgid "Favorites, applications, computer places, recently used items and desktop sessions"
+msgstr "Bijarte, sepan, cihên komputerê, hêmanên dawî yê hatine karandin û danişînên sermase yê "
 
-#: applet/applet.cpp:108 simpleapplet/simpleapplet.cpp:245
+#: applet/applet.cpp:108
+#: simpleapplet/simpleapplet.cpp:245
 msgid "Menu Editor"
-msgstr ""
+msgstr "Edîtorê Pêşek"
 
 #: applet/applet.cpp:114
 msgid "Switch to Classic Menu Style"
-msgstr ""
+msgstr "Teşe ya Pêşeka Klasîk Bi Kar Bîne"
 
 #: applet/applet.cpp:148
-#, fuzzy
 #| msgid "Switch User"
 msgid "Switch tabs on hover"
-msgstr "Bikarhênerê/î biguherîne"
+msgstr "Hilpekînan bike bixwe vedibin "
 
 #: applet/applet.cpp:154
 msgid "General"
-msgstr ""
+msgstr "Giştî"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -276,20 +275,19 @@ msgstr "erdal dot ronahi at gmail dot com"
 
 #: simpleapplet/simpleapplet.cpp:251
 msgid "Switch to Kickoff Menu Style"
-msgstr ""
+msgstr "Teşe ya Pêşeka Kickoff Bi Kar Bîne"
 
 #: simpleapplet/simpleapplet.cpp:295
 msgctxt "@label:listbox Which category of items to view in a KMenu-like menu"
 msgid "View:"
-msgstr ""
+msgstr "Bibîne:"
 
 #: simpleapplet/simpleapplet.cpp:299
 msgctxt "@item:inlistbox View:"
 msgid "Standard"
-msgstr ""
+msgstr "Standard"
 
 #: simpleapplet/simpleapplet.cpp:300
-#, fuzzy
 #| msgid "Favorites"
 msgctxt "@item:inlistbox View:"
 msgid "Favorites"
@@ -298,79 +296,69 @@ msgstr "Bijarte"
 #: simpleapplet/simpleapplet.cpp:301
 msgctxt "@item:inlistbox View:"
 msgid "Bookmarks"
-msgstr ""
+msgstr "Bijare"
 
 #: simpleapplet/simpleapplet.cpp:302
-#, fuzzy
 #| msgid "Applications"
 msgctxt "@item:inlistbox View:"
 msgid "Applications"
 msgstr "Sepan"
 
 #: simpleapplet/simpleapplet.cpp:303
-#, fuzzy
 #| msgid "My Computer"
 msgctxt "@item:inlistbox View:"
 msgid "Computer"
-msgstr "Komputera min"
+msgstr "Komputer"
 
 #: simpleapplet/simpleapplet.cpp:304
-#, fuzzy
 #| msgid "Recently Used"
 msgctxt "@item:inlistbox View:"
 msgid "Recently Used"
-msgstr "Berê bikaranî"
+msgstr "Yên Dawiyê Hatine Karandin"
 
 #: simpleapplet/simpleapplet.cpp:305
-#, fuzzy
 #| msgid "Leave"
 msgctxt "@item:inlistbox View:"
 msgid "Leave"
-msgstr "Biterikîne"
+msgstr "Derkeve"
 
 #: simpleapplet/simpleapplet.cpp:308
 msgctxt "@label:listbox How to present applications in a KMenu-like menu"
 msgid "Format:"
-msgstr ""
+msgstr "Teşe:"
 
 #: simpleapplet/simpleapplet.cpp:312
 msgctxt "@item:inlistbox Format:"
 msgid "Name Only"
-msgstr ""
+msgstr "Tenê Nav"
 
 #: simpleapplet/simpleapplet.cpp:313
 msgctxt "@item:inlistbox Format:"
 msgid "Description Only"
-msgstr ""
+msgstr "Tenê Daxuyanî"
 
 #: simpleapplet/simpleapplet.cpp:314
 msgctxt "@item:inlistbox Format:"
 msgid "Name Description"
-msgstr ""
+msgstr "Daxuyanî ya Navê"
 
 #: simpleapplet/simpleapplet.cpp:315
 msgctxt "@item:inlistbox Format:"
 msgid "Description (Name)"
-msgstr ""
+msgstr "Daxuyanî (Nav)"
 
 #: simpleapplet/simpleapplet.cpp:316
 msgctxt "@item:inlistbox Format:"
 msgid "Name - Description"
-msgstr ""
+msgstr "Nav - Daxuyanî"
 
 #: simpleapplet/simpleapplet.cpp:395
-#, fuzzy
 #| msgid "Leave"
 msgid "Leave..."
-msgstr "Biterikîne"
+msgstr "Biterikîne..."
 
 #~ msgid "Sleep"
 #~ msgstr "Bixe xewê"
-
 #~ msgid "Hibernate"
 #~ msgstr "Xewa zivistanê"
 
-#, fuzzy
-#~| msgid "Switch User"
-#~ msgid "Switch user"
-#~ msgstr "Bikarhênerê/î biguherîne"
