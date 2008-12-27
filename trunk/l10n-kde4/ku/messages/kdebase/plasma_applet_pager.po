@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: plasma_applet_pager\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2008-12-24 10:49+0100\n"
-"PO-Revision-Date: 2007-12-21 20:05+0100\n"
-"Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
+"PO-Revision-Date: 2008-12-26 00:57+0200\n"
+"Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <gnu-ku-wergerandin at lists dot sourceforge dot "
 "net>\n"
 "MIME-Version: 1.0\n"
@@ -17,28 +17,29 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural= n != 1;\n"
+"X-Poedit-Language: Kurdish\n"
 
 #: pager.cpp:173
 msgid "&Configure Desktops..."
-msgstr "Sermaseyan &Veava bike"
+msgstr "Sermase yan &Veava bike..."
 
 #: pager.cpp:193
 msgid "General"
-msgstr ""
+msgstr "Giştî"
 
 #: pager.cpp:1168
 #, kde-format
 msgid "One window:"
 msgid_plural "%1 windows:"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Yek pace:"
+msgstr[1] "%1 pace:"
 
 #: pager.cpp:1172
 #, kde-format
 msgid "and 1 other"
 msgid_plural "and %1 others"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "û 1 din"
+msgstr[1] "û %1 yên din"
 
 #. i18n: file: pagerConfig.ui:13
 #. i18n: ectx: property (windowTitle), widget (QWidget, pagerConfig)
@@ -46,41 +47,37 @@ msgstr[1] ""
 #. i18n: ectx: property (accessibleName), widget (QWidget, pagerConfig)
 #: rc.cpp:3 rc.cpp:6
 msgid "Configure Pager"
-msgstr ""
+msgstr "Pager Veava Bike"
 
 #. i18n: file: pagerConfig.ui:43
 #. i18n: ectx: property (text), widget (QLabel, displayLabel)
 #: rc.cpp:9
 msgid "Display text:"
-msgstr ""
+msgstr "Nivîs nîşan bide:"
 
 #. i18n: file: pagerConfig.ui:53
 #. i18n: ectx: property (text), widget (QRadioButton, desktopNumberRadioButton)
 #: rc.cpp:12
-#, fuzzy
-#| msgid "Display the desktop &number"
 msgid "Desktop number"
-msgstr "Nu&mareya sermasê nîşan bide"
+msgstr "Hejmara sermasê"
 
 #. i18n: file: pagerConfig.ui:60
 #. i18n: ectx: property (text), widget (QRadioButton, desktopNameRadioButton)
 #: rc.cpp:15
-#, fuzzy
-#| msgid "Display the desktop &number"
 msgid "Desktop name"
-msgstr "Nu&mareya sermasê nîşan bide"
+msgstr "Navê sermasê"
 
 #. i18n: file: pagerConfig.ui:67
 #. i18n: ectx: property (text), widget (QRadioButton, displayNoneRadioButton)
 #: rc.cpp:18
 msgid "No text"
-msgstr ""
+msgstr "Nivîs tuneye"
 
 #. i18n: file: pagerConfig.ui:74
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:21
 msgid "Display icons:"
-msgstr ""
+msgstr "Îkonan nîşan bide:"
 
 #. i18n: file: pagerConfig.ui:94
 #. i18n: ectx: property (text), widget (QLabel, labelRows)
@@ -99,7 +96,5 @@ msgstr "Hejmara rêzikan biguherîne"
 #. i18n: file: pagerConfig.ui:170
 #. i18n: ectx: property (text), widget (QPushButton, configureDesktopsButton)
 #: rc.cpp:33
-#, fuzzy
-#| msgid "&Configure Desktops..."
 msgid "Configure Desktops..."
-msgstr "Sermaseyan &Veava bike"
+msgstr "Sermase yan Veava bike..."
