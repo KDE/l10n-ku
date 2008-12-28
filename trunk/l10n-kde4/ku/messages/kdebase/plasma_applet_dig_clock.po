@@ -7,10 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_dig_clock\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-12-03 10:51+0100\n"
+"POT-Creation-Date: 2008-12-27 11:10+0100\n"
 "PO-Revision-Date: 2008-12-26 00:53+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
-"Language-Team: Kurdish <gnu-ku-wergerandin at lists dot sourceforge dot net>\n"
+"Language-Team: Kurdish <gnu-ku-wergerandin at lists dot sourceforge dot "
+"net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -18,31 +19,33 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural= n != 1;\n"
 "X-Poedit-Language: Kurdish\n"
 
-#: clock.cpp:172
+#: clock.cpp:200
 msgid "General"
 msgstr "Giştî"
 
-#: clock.cpp:272
+#: clock.cpp:344
 #, kde-format
 msgctxt "@label Short date: %1 day in the month, %2 short month name, %3 year"
 msgid "%1 %2 %3"
 msgstr "%1 %2 %3"
 
-#: clock.cpp:276
+#: clock.cpp:348
 #, kde-format
 msgctxt "@label Short date: %1 day in the month, %2 short month name"
 msgid "%1 %2"
 msgstr "%1 %2"
 
-#: clock.cpp:284
+#: clock.cpp:356
 #, kde-format
 msgctxt "@label Day of the week with date: %1 short day name, %2 short date"
 msgid "%1, %2"
 msgstr "%1, %2"
 
-#: clock.cpp:291
+#: clock.cpp:363
 #, kde-format
-msgctxt "@label Date with currentTimezone: %1 day of the week with date, %2 currentTimezone"
+msgctxt ""
+"@label Date with currentTimezone: %1 day of the week with date, %2 "
+"currentTimezone"
 msgid "%1 %2"
 msgstr "%1 %2"
 
@@ -103,8 +106,12 @@ msgstr "Rengê dirba sermasê yê heyî bi kar bîne"
 #. i18n: file: clockConfig.ui:113
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, useThemeColor)
 #: rc.cpp:30
-msgid "This is default. The clock will get its font color from the current desktop theme."
-msgstr "Ev standard e. Demjimêr wê rengê cure-nivîsê jê dirba sermasê yê heyî bistîne."
+msgid ""
+"This is default. The clock will get its font color from the current desktop "
+"theme."
+msgstr ""
+"Ev standard e. Demjimêr wê rengê cure-nivîsê jê dirba sermasê yê heyî "
+"bistîne."
 
 #. i18n: file: clockConfig.ui:116
 #. i18n: ectx: property (text), widget (QRadioButton, useThemeColor)
@@ -121,8 +128,12 @@ msgstr "Rengê cure-nivîsê yê te bixwe hilbijêre"
 #. i18n: file: clockConfig.ui:137
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, useCustomColor)
 #: rc.cpp:39
-msgid "When checked you can choose a custom color for the clock font by clicking on the color widget on the right."
-msgstr "Piştî nîşan kirinê tu dikarî rengekî taybet ji bo cure-nivîsa demjimêrê hilbijêrî bi pêl kirina alava rengê re yê di milê rastê de ye. "
+msgid ""
+"When checked you can choose a custom color for the clock font by clicking on "
+"the color widget on the right."
+msgstr ""
+"Piştî nîşan kirinê tu dikarî rengekî taybet ji bo cure-nivîsa demjimêrê "
+"hilbijêrî bi pêl kirina alava rengê re yê di milê rastê de ye. "
 
 #. i18n: file: clockConfig.ui:140
 #. i18n: ectx: property (text), widget (QRadioButton, useCustomColor)
@@ -139,8 +150,12 @@ msgstr "Reng bijarker"
 #. i18n: file: clockConfig.ui:153
 #. i18n: ectx: property (whatsThis), widget (KColorButton, plainClockColor)
 #: rc.cpp:48
-msgid "Click on this button and the KDE standard color dialog will show. You can then choose the new color you want for your clock."
-msgstr "Pêl vê bişkojkê bike û KDE pace ya rengê standard ê vebe. Paşê tu dikarî rengê nû yê tu dixwazî ji bo demjimêra xwe hilbijêrî."
+msgid ""
+"Click on this button and the KDE standard color dialog will show. You can "
+"then choose the new color you want for your clock."
+msgstr ""
+"Pêl vê bişkojkê bike û KDE pace ya rengê standard ê vebe. Paşê tu dikarî "
+"rengê nû yê tu dixwazî ji bo demjimêra xwe hilbijêrî."
 
 #. i18n: file: clockConfig.ui:177
 #. i18n: ectx: property (toolTip), widget (QCheckBox, showDate)
@@ -151,7 +166,6 @@ msgstr "Dîroka rojê nîşan bide"
 #. i18n: file: clockConfig.ui:226
 #. i18n: ectx: property (toolTip), widget (QCheckBox, showDay)
 #: rc.cpp:54
-#| msgid "Show day of the &week"
 msgid "Display day of the week"
 msgstr "Roja hefte yê nîşan bide"
 
@@ -200,7 +214,6 @@ msgstr "Navê demê herêmî bin demê de nîşan bide."
 #. i18n: file: clockConfig.ui:321
 #. i18n: ectx: property (toolTip), widget (QCheckBox, secondsCheckbox)
 #: rc.cpp:78
-#| msgid "Show &date"
 msgid "Show the seconds"
 msgstr "Çirkeyan nîşan bide"
 
@@ -225,32 +238,32 @@ msgstr "Agahî"
 #. i18n: file: clockConfig.ui:404
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: rc.cpp:90
-#| msgid "Show &date"
 msgid "Show time zone:"
 msgstr "Demê herêmî nîşan bide:"
 
 #. i18n: file: clockConfig.ui:417
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: rc.cpp:93
-#| msgid "Show &date"
 msgid "Show seconds:"
 msgstr "Çirkeyan nîşan bide:"
 
 #. i18n: file: clockConfig.ui:430
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: rc.cpp:96
-#| msgid "Show &date"
 msgid "Show date:"
 msgstr "Dîrokê nîşan bide:"
 
 #~ msgid "Appearance"
 #~ msgstr "Xuyanî"
+
 #~ msgid "Area"
 #~ msgstr "Qad"
+
 #~ msgid "Region"
 #~ msgstr "Herêm"
+
 #~ msgid "Comment"
 #~ msgstr "Şirove"
+
 #~ msgid "Configure Clock"
 #~ msgstr "Demjimêrê Veava bike"
-
