@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcomponentchooser\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-18 09:54+0100\n"
+"POT-Creation-Date: 2008-12-31 11:06+0100\n"
 "PO-Revision-Date: 2008-08-08 04:07+0200\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: en_US <>\n"
@@ -137,45 +137,39 @@ msgid_plural "%1 seconds remaining:"
 msgstr[0] ""
 msgstr[1] ""
 
-#. i18n: file: browserconfig_ui.ui:48
+#. i18n: file: browserconfig_ui.ui:12
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:3
 msgid "<qt>Open <b>http</b> and <b>https</b> URLs</qt>"
 msgstr "<qt>URL'yên <b>http</b> û <b>https</b> veke</qt>"
 
-#. i18n: file: browserconfig_ui.ui:58
+#. i18n: file: browserconfig_ui.ui:19
 #. i18n: ectx: property (text), widget (QRadioButton, radioKIO)
 #: rc.cpp:6
 msgid "in an application based on the contents of the URL"
 msgstr "di sepanekî bingeha naveroka vî URL de"
 
-#. i18n: file: browserconfig_ui.ui:68
+#. i18n: file: browserconfig_ui.ui:29
 #. i18n: ectx: property (text), widget (QRadioButton, radioExec)
 #: rc.cpp:9
 msgid "in the following browser:"
 msgstr "di vî gerokî de:"
 
-#. i18n: file: browserconfig_ui.ui:121
+#. i18n: file: browserconfig_ui.ui:64
 #. i18n: ectx: property (text), widget (QToolButton, btnSelectBrowser)
-#. i18n: file: emailclientconfig_ui.ui:82
+#. i18n: file: emailclientconfig_ui.ui:69
 #. i18n: ectx: property (text), widget (QToolButton, btnSelectEmail)
-#. i18n: file: filemanagerconfig_ui.ui:93
+#. i18n: file: filemanagerconfig_ui.ui:41
 #. i18n: ectx: property (text), widget (QToolButton, btnSelectFileManager)
-#. i18n: file: terminalemulatorconfig_ui.ui:128
+#. i18n: file: terminalemulatorconfig_ui.ui:60
 #. i18n: ectx: property (text), widget (QToolButton, btnSelectTerminal)
-#: rc.cpp:12 rc.cpp:44 rc.cpp:71 rc.cpp:86
+#: rc.cpp:12 rc.cpp:56 rc.cpp:71 rc.cpp:86
 msgid "..."
 msgstr "..."
 
-#. i18n: file: componentchooser_ui.ui:38
-#. i18n: ectx: property (title), widget (QGroupBox, GroupBox1)
-#: rc.cpp:15
-msgid "Default Component"
-msgstr "Pêkhênanê Standard"
-
-#. i18n: file: componentchooser_ui.ui:41
+#. i18n: file: componentchooser_ui.ui:12
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, GroupBox1)
-#: rc.cpp:18
+#: rc.cpp:15
 msgid ""
 "Here you can change the component program. Components are programs that "
 "handle basic tasks, like the terminal emulator, the text editor and the "
@@ -191,15 +185,15 @@ msgstr ""
 "ev kar bi lehev bê kirin, divêt ev sepanan hercar heman pêkhênanan vexwîne. "
 "Livir tu dikare van programê pêkhênanan hibijêre. "
 
-#. i18n: file: componentchooser_ui.ui:64
-#. i18n: ectx: property (title), widget (QGroupBox, GroupBox2)
-#: rc.cpp:21
-msgid "Component Description"
-msgstr "Raveka Pêkhênan"
+#. i18n: file: componentchooser_ui.ui:15
+#. i18n: ectx: property (title), widget (QGroupBox, GroupBox1)
+#: rc.cpp:18
+msgid "Default Component"
+msgstr "Pêkhênanê Standard"
 
-#. i18n: file: componentchooser_ui.ui:67
+#. i18n: file: componentchooser_ui.ui:27
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, GroupBox2)
-#: rc.cpp:24
+#: rc.cpp:21
 msgid ""
 "Here you can read a small description of the currently selected component. "
 "To change the selected component, click on the list to the left. To change "
@@ -209,7 +203,13 @@ msgstr ""
 "bixwînî. Ji bo guhertina ev pêkhênanê hilbijartî, li ser lista çepê "
 "bitikîne. Ji bo guhertina programa pêkhênan,  tekaye li jêr hilbijêre."
 
-#. i18n: file: componentchooser_ui.ui:106
+#. i18n: file: componentchooser_ui.ui:30
+#. i18n: ectx: property (title), widget (QGroupBox, GroupBox2)
+#: rc.cpp:24
+msgid "Component Description"
+msgstr "Raveka Pêkhênan"
+
+#. i18n: file: componentchooser_ui.ui:52
 #. i18n: ectx: property (whatsThis), widget (KListWidget, ServiceChooser)
 #: rc.cpp:27
 msgid ""
@@ -235,9 +235,33 @@ msgstr ""
 "pêkhênanan vexwîne. Livir tu dikare van programê pêkhênanan hibijêrî.</p>\n"
 "</qt>"
 
-#. i18n: file: emailclientconfig_ui.ui:66
-#. i18n: ectx: property (toolTip), widget (QLineEdit, txtEMailClient)
-#: rc.cpp:34
+#. i18n: file: emailclientconfig_ui.ui:12
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, kmailCB)
+#: rc.cpp:33
+msgid "Kmail is the standard Mail program for the KDE desktop."
+msgstr "Kmail programa Mail ya standard e ji bo sermaseya KDE."
+
+#. i18n: file: emailclientconfig_ui.ui:15
+#. i18n: ectx: property (text), widget (QRadioButton, kmailCB)
+#: rc.cpp:36
+msgid "&Use KMail as preferred email client"
+msgstr "&KMail wekî daxwezkerê email yê xwestî bikar bîne."
+
+#. i18n: file: emailclientconfig_ui.ui:22
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, otherCB)
+#: rc.cpp:39
+msgid "Select this option if you want to use any other mail program."
+msgstr "Vê opsyonê hilbijêre heke tu bixwaze programekî emailê dî bi kar bînî."
+
+#. i18n: file: emailclientconfig_ui.ui:25
+#. i18n: ectx: property (text), widget (QRadioButton, otherCB)
+#: rc.cpp:42
+msgid "Use a different &email client:"
+msgstr "&Daxwazkerekî emailê din bikar bîne:"
+
+#. i18n: file: emailclientconfig_ui.ui:53
+#. i18n: ectx: property (toolTip), widget (KLineEdit, txtEMailClient)
+#: rc.cpp:46
 #, no-c-format
 msgid ""
 "<ul> <li>%t: Recipient's address</li> <li>%s: Subject</li> <li>%c: Carbon "
@@ -248,9 +272,9 @@ msgstr ""
 "<li>%b: Kopî ya kor (BCC)</li> <li>%B: Şablona nivîsê</li> <li>%A: Pêvek </"
 "li> <li>%u: mailto ya temam: URL </li> </ul>"
 
-#. i18n: file: emailclientconfig_ui.ui:69
-#. i18n: ectx: property (whatsThis), widget (QLineEdit, txtEMailClient)
-#: rc.cpp:38
+#. i18n: file: emailclientconfig_ui.ui:56
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, txtEMailClient)
+#: rc.cpp:50
 #, no-c-format
 msgid ""
 "Press this button to select your favorite email client. Please note that the "
@@ -268,15 +292,15 @@ msgstr ""
 "Kopî (CC)</li> <li>%b: Kopî ya kor (BCC)</li> <li>%B: Şablona nivîsê</li> "
 "<li>%A: Pêvek </li> </ul>"
 
-#. i18n: file: emailclientconfig_ui.ui:79
+#. i18n: file: emailclientconfig_ui.ui:66
 #. i18n: ectx: property (whatsThis), widget (QToolButton, btnSelectEmail)
-#: rc.cpp:41
+#: rc.cpp:53
 msgid "Click here to browse for the mail program file."
 msgstr "Jibo lêgerîna li pela programa Mailê livir bitekîne."
 
-#. i18n: file: emailclientconfig_ui.ui:94
+#. i18n: file: emailclientconfig_ui.ui:99
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkRunTerminal)
-#: rc.cpp:47
+#: rc.cpp:59
 msgid ""
 "Activate this option if you want the selected email client to be executed in "
 "a terminal (e.g. <em>Konsole</em>)."
@@ -284,62 +308,38 @@ msgstr ""
 "Heke tu bixwaze daxwezkerê emailê bi rîya termina bi kar bê (wekî "
 "<em>Konsole</em>), tekaye vê opsyonê çalak bike."
 
-#. i18n: file: emailclientconfig_ui.ui:97
+#. i18n: file: emailclientconfig_ui.ui:102
 #. i18n: ectx: property (text), widget (QCheckBox, chkRunTerminal)
-#: rc.cpp:50
+#: rc.cpp:62
 msgid "&Run in terminal"
 msgstr "Di terminalê de bi&xebitîne"
 
-#. i18n: file: emailclientconfig_ui.ui:120
-#. i18n: ectx: property (whatsThis), widget (QRadioButton, kmailCB)
-#: rc.cpp:53
-msgid "Kmail is the standard Mail program for the KDE desktop."
-msgstr "Kmail programa Mail ya standard e ji bo sermaseya KDE."
-
-#. i18n: file: emailclientconfig_ui.ui:123
-#. i18n: ectx: property (text), widget (QRadioButton, kmailCB)
-#: rc.cpp:56
-msgid "&Use KMail as preferred email client"
-msgstr "&KMail wekî daxwezkerê email yê xwestî bikar bîne."
-
-#. i18n: file: emailclientconfig_ui.ui:130
-#. i18n: ectx: property (whatsThis), widget (QRadioButton, otherCB)
-#: rc.cpp:59
-msgid "Select this option if you want to use any other mail program."
-msgstr "Vê opsyonê hilbijêre heke tu bixwaze programekî emailê dî bi kar bînî."
-
-#. i18n: file: emailclientconfig_ui.ui:133
-#. i18n: ectx: property (text), widget (QRadioButton, otherCB)
-#: rc.cpp:62
-msgid "Use a different &email client:"
-msgstr "&Daxwazkerekî emailê din bikar bîne:"
-
-#. i18n: file: filemanagerconfig_ui.ui:30
+#. i18n: file: filemanagerconfig_ui.ui:12
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:65
 msgid "Browse directories using the following file manager "
 msgstr ""
 
-#. i18n: file: filemanagerconfig_ui.ui:64
+#. i18n: file: filemanagerconfig_ui.ui:24
 #. i18n: ectx: property (text), widget (QRadioButton, radioExec)
 #: rc.cpp:68
 msgid "Other: click Add... in the dialog shown here:"
 msgstr ""
 
-#. i18n: file: terminalemulatorconfig_ui.ui:50
-#. i18n: ectx: property (text), widget (QRadioButton, otherCB)
-#: rc.cpp:74
-msgid "Use a different &terminal program:"
-msgstr "P&rogrameke termînalî cuda bikar bîne:"
-
-#. i18n: file: terminalemulatorconfig_ui.ui:73
+#. i18n: file: terminalemulatorconfig_ui.ui:12
 #. i18n: ectx: property (text), widget (QRadioButton, terminalCB)
-#: rc.cpp:77
+#: rc.cpp:74
 msgid "&Use Konsole as terminal application"
 msgstr "&Konsol wekî sepanê termînal bikar bîne"
 
-#. i18n: file: terminalemulatorconfig_ui.ui:109
-#. i18n: ectx: property (whatsThis), widget (QLineEdit, terminalLE)
+#. i18n: file: terminalemulatorconfig_ui.ui:19
+#. i18n: ectx: property (text), widget (QRadioButton, otherCB)
+#: rc.cpp:77
+msgid "Use a different &terminal program:"
+msgstr "P&rogrameke termînalî cuda bikar bîne:"
+
+#. i18n: file: terminalemulatorconfig_ui.ui:47
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, terminalLE)
 #: rc.cpp:80
 msgid ""
 "Press this button to select your favorite terminal client. Please note that "
@@ -352,33 +352,33 @@ msgstr ""
 "emûlatorê termînalê bikar tîinin, wê kar nekin dema ku tu argumentin "
 "fermanerêz bide (Nemûne: konsole -ls)."
 
-#. i18n: file: terminalemulatorconfig_ui.ui:125
+#. i18n: file: terminalemulatorconfig_ui.ui:57
 #. i18n: ectx: property (whatsThis), widget (QToolButton, btnSelectTerminal)
 #: rc.cpp:83
 msgid "Click here to browse for terminal program."
 msgstr "Ji bo lêgerina li programa terminal li vir bitikîne."
 
-#. i18n: file: wmconfig_ui.ui:41
-#. i18n: ectx: property (text), widget (QRadioButton, differentRB)
+#. i18n: file: wmconfig_ui.ui:12
+#. i18n: ectx: property (text), widget (QRadioButton, kwinRB)
 #: rc.cpp:89
+msgid "&Use the default KDE window manager (KWin)"
+msgstr ""
+
+#. i18n: file: wmconfig_ui.ui:19
+#. i18n: ectx: property (text), widget (QRadioButton, differentRB)
+#: rc.cpp:92
 #, fuzzy
 #| msgid "Use a different &terminal program:"
 msgid "Use a different &window manager:"
 msgstr "P&rogrameke termînalî cuda bikar bîne:"
 
-#. i18n: file: wmconfig_ui.ui:48
-#. i18n: ectx: property (text), widget (QRadioButton, kwinRB)
-#: rc.cpp:92
-msgid "&Use the default KDE window manager (KWin)"
-msgstr ""
-
-#. i18n: file: wmconfig_ui.ui:76
-#. i18n: ectx: property (text), widget (QPushButton, configureButton)
+#. i18n: file: wmconfig_ui.ui:60
+#. i18n: ectx: property (text), widget (KPushButton, configureButton)
 #: rc.cpp:95
 msgid "Configure"
 msgstr ""
 
-#. i18n: file: wmconfig_ui.ui:85
+#. i18n: file: wmconfig_ui.ui:87
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:98
 msgid ""
