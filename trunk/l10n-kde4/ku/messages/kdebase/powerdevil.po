@@ -6,23 +6,24 @@ msgid ""
 msgstr ""
 "Project-Id-Version: powerdevil\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-12-27 11:10+0100\n"
-"PO-Revision-Date: 2008-09-23 01:28+0300\n"
-"Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
+"POT-Creation-Date: 2008-12-15 10:37+0100\n"
+"PO-Revision-Date: 2008-12-31 04:01+0200\n"
+"Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Lokalize 0.2\n"
 "Plural-Forms: nplurals=2; plural= n != 1;\n"
+"X-Poedit-Language: Kurdish\n"
 
 #: daemon/XSyncBasedPoller.cpp:112
 msgid "XSync Based (recommended)"
-msgstr ""
+msgstr "Bi bingeha XSync (tê salixdan)"
 
 #: daemon/TimerBasedPoller.cpp:40
 msgid "Timer Based"
-msgstr ""
+msgstr "Bi Bingeha Timer"
 
 #: daemon/SuspensionLockHandler.cpp:72
 #, kde-format
@@ -30,389 +31,371 @@ msgid ""
 "The application %1 is inhibiting suspension for the following reason:\n"
 "%2"
 msgstr ""
+"Sekinandina sepana %1 qedexe ye ji bo sedema jêr:\n"
+"%2 "
 
 #: daemon/WidgetBasedPoller.cpp:40
 msgid "Grabber Widget Based"
-msgstr ""
+msgstr "Bi Bingeha Alava Grabber"
 
 #: daemon/PowerDevilDaemon.cpp:140
 msgid "PowerDevil"
-msgstr ""
+msgstr "PowerDevil"
 
 #: daemon/PowerDevilDaemon.cpp:141
 msgid "A Power Management tool for KDE4"
-msgstr ""
+msgstr "Amûra Rêveberê Hêzê ji bo KDE4"
 
 #: daemon/PowerDevilDaemon.cpp:142
-#, fuzzy
 #| msgid "(c), 2008 Dario Freddi"
 msgid "(c) 2008 Dario Freddi"
 msgstr "(c), 2008 Dario Freddi"
 
-#: daemon/PowerDevilDaemon.cpp:145 kcmodule/PowerDevilKCM.cpp:59
+#: daemon/PowerDevilDaemon.cpp:145
+#: kcmodule/PowerDevilKCM.cpp:59
 msgid "Dario Freddi"
 msgstr "Dario Freddi"
 
 #: daemon/PowerDevilDaemon.cpp:145
 msgid "Maintainer"
-msgstr ""
+msgstr "Kesê miqet"
 
 #: daemon/PowerDevilDaemon.cpp:281
 msgid ""
 "Could not connect to battery interface!\n"
 "Please check your system configuration"
 msgstr ""
+"Nikare girêbide navrû yê pîlê!\n"
+"Jê kerema xwe mîhengên pergala xwe kontrol bike"
 
 #: daemon/PowerDevilDaemon.cpp:396
 msgid "The power adaptor has been plugged in"
-msgstr ""
+msgstr "Adaptorê hêzê hate girêdan "
 
 #: daemon/PowerDevilDaemon.cpp:401
 msgid "The power adaptor has been unplugged"
-msgstr ""
+msgstr "Adaptorê hêzê hate qut kirin"
 
 #: daemon/PowerDevilDaemon.cpp:541
 #, kde-format
-msgid ""
-"Your battery has reached critical level, the PC will be halted in %1 "
-"seconds. Click here to block the process."
-msgstr ""
+msgid "Your battery has reached critical level, the PC will be halted in %1 seconds. Click here to block the process."
+msgstr "Pîla te gihîşt asta rexne, Komputer dê %1 çirkeyan de bê girtin. Pêl li vir bike ku pêvajo yê bidî rawestandin."
 
 #: daemon/PowerDevilDaemon.cpp:552
 #, kde-format
-msgid ""
-"Your battery has reached critical level, the PC will be suspended to disk in "
-"%1 seconds. Click here to block the process."
-msgstr ""
+msgid "Your battery has reached critical level, the PC will be suspended to disk in %1 seconds. Click here to block the process."
+msgstr "Pîla te gihîşt asta rexne, Komputer dê %1 çirkeyan de ji dîskê bê sekinandin. Pêl li vir bike ku pêvajo yê bidî rawestandin."
 
 #: daemon/PowerDevilDaemon.cpp:563
 #, kde-format
-msgid ""
-"Your battery has reached critical level, the PC will be suspended to RAM in %"
-"1 seconds. Click here to block the process"
-msgstr ""
+msgid "Your battery has reached critical level, the PC will be suspended to RAM in %1 seconds. Click here to block the process"
+msgstr "Pîla te gihîşt asta rexne, Komputer dê %1 çirkeyan de ji RAMê bê sekinandin. Pêl li vir bike ku pêvajo yê bidî rawestandin."
 
 #: daemon/PowerDevilDaemon.cpp:574
 #, kde-format
-msgid ""
-"Your battery has reached critical level, the PC is going Standby in %1 "
-"seconds. Click here to block the process."
-msgstr ""
+msgid "Your battery has reached critical level, the PC is going Standby in %1 seconds. Click here to block the process."
+msgstr "Pîla te gihîşt asta rexne, Komputer dê %1 çirkeyan de lê bendê bimîne. Pêl li vir bike ku pêvajo yê bidî rawestandin."
 
 #: daemon/PowerDevilDaemon.cpp:584
-msgid ""
-"Your battery has reached critical level, save your work as soon as possible!"
-msgstr ""
+msgid "Your battery has reached critical level, save your work as soon as possible!"
+msgstr "Pîla te gihîşt asta rexne, xebatên xwe di demê zûtirîn de tomar bike! "
 
 #: daemon/PowerDevilDaemon.cpp:589
 msgid "Your battery has reached warning level"
-msgstr ""
+msgstr "Pîla te gihîşt asta hişyarî yê"
 
 #: daemon/PowerDevilDaemon.cpp:592
 msgid "Your battery has reached low level"
-msgstr ""
+msgstr "Pîla te gihîşt asta kêmtir"
 
-#: daemon/PowerDevilDaemon.cpp:697
+#: daemon/PowerDevilDaemon.cpp:707
 #, kde-format
-msgid ""
-"The computer will be halted in %1 seconds. Click here to block the process."
-msgstr ""
+msgid "The computer will be halted in %1 seconds. Click here to block the process."
+msgstr "Komputer dê %1 çirkeyan de bê girtin. Pêl li vir bike ku pêvajo yê bidî rawestandin."
 
-#: daemon/PowerDevilDaemon.cpp:713
+#: daemon/PowerDevilDaemon.cpp:723
 #, kde-format
-msgid ""
-"The computer will be suspended to disk in %1 seconds. Click here to block "
-"the process."
-msgstr ""
+msgid "The computer will be suspended to disk in %1 seconds. Click here to block the process."
+msgstr "Komputer dê %1 çirkeyan de ji dîskê bê sekinandin. Pêl li vir bike ku pêvajo yê bidî rawestandin."
 
-#: daemon/PowerDevilDaemon.cpp:729
+#: daemon/PowerDevilDaemon.cpp:739
 #, kde-format
-msgid ""
-"The computer will be suspended to RAM in %1 seconds. Click here to block the "
-"process."
-msgstr ""
+msgid "The computer will be suspended to RAM in %1 seconds. Click here to block the process."
+msgstr "Komputer dê %1 çirkeyan de ji RAMê bê sekinandin. Pêl li vir bike ku pêvajo yê bidî rawestandin."
 
-#: daemon/PowerDevilDaemon.cpp:745
+#: daemon/PowerDevilDaemon.cpp:755
 #, kde-format
-msgid ""
-"The computer will be put into standby in %1 seconds. Click here to block the "
-"process."
-msgstr ""
+msgid "The computer will be put into standby in %1 seconds. Click here to block the process."
+msgstr "Komputer dê %1 çirkeyan de lê bendê bimîne. Pêl li vir bike ku pêvajo yê bidî rawestandin."
 
-#: daemon/PowerDevilDaemon.cpp:834
+#: daemon/PowerDevilDaemon.cpp:844
 msgid "There was an error while suspending:"
-msgstr ""
+msgstr "Di demê sekinandinê de çewtiyek çê bû: "
 
-#: daemon/PowerDevilDaemon.cpp:1008
+#: daemon/PowerDevilDaemon.cpp:1018
 msgid "The screen is being locked"
-msgstr ""
+msgstr "Dîmender tê qufl kirin"
 
-#: daemon/PowerDevilDaemon.cpp:1122
+#: daemon/PowerDevilDaemon.cpp:1132
 #, kde-format
 msgid ""
 "The profile \"%1\" has been selected, but it does not exist!\n"
 "Please check your PowerDevil configuration."
 msgstr ""
+"Profîla \"%1\" hate hilbijartin, lê ev profîl tune ye!\n"
+"Jê kerema xwe mîhengên PowerDevil kontrol bike."
 
-#: daemon/PowerDevilDaemon.cpp:1195
+#: daemon/PowerDevilDaemon.cpp:1205
 #, kde-format
 msgid "Profile changed to \"%1\""
-msgstr ""
+msgstr "Profîl ji \"%1\" re hat guherandin"
 
-#: daemon/PowerDevilDaemon.cpp:1223 kcmodule/CapabilitiesPage.cpp:152
-#: kcmodule/CapabilitiesPage.cpp:267 kcmodule/EditPage.cpp:146
+#: daemon/PowerDevilDaemon.cpp:1233
+#: kcmodule/CapabilitiesPage.cpp:152
+#: kcmodule/CapabilitiesPage.cpp:267
+#: kcmodule/EditPage.cpp:146
 msgid "Performance"
-msgstr ""
+msgstr "Performans"
 
-#: daemon/PowerDevilDaemon.cpp:1227 kcmodule/CapabilitiesPage.cpp:156
+#: daemon/PowerDevilDaemon.cpp:1237
+#: kcmodule/CapabilitiesPage.cpp:156
 #: kcmodule/EditPage.cpp:152
 msgid "Dynamic (ondemand)"
-msgstr ""
+msgstr "Zînde (wextê hewce be)"
 
-#: daemon/PowerDevilDaemon.cpp:1231 kcmodule/CapabilitiesPage.cpp:160
+#: daemon/PowerDevilDaemon.cpp:1241
+#: kcmodule/CapabilitiesPage.cpp:160
 #: kcmodule/EditPage.cpp:156
 msgid "Dynamic (conservative)"
-msgstr ""
+msgstr "Zînde (mayînî)"
 
-#: daemon/PowerDevilDaemon.cpp:1235 kcmodule/CapabilitiesPage.cpp:164
+#: daemon/PowerDevilDaemon.cpp:1245
+#: kcmodule/CapabilitiesPage.cpp:164
 #: kcmodule/EditPage.cpp:161
 msgid "Powersave"
-msgstr ""
+msgstr "Parastina Hêzê"
 
-#: daemon/PowerDevilDaemon.cpp:1239 kcmodule/CapabilitiesPage.cpp:168
+#: daemon/PowerDevilDaemon.cpp:1249
+#: kcmodule/CapabilitiesPage.cpp:168
 #: kcmodule/EditPage.cpp:166
 msgid "Userspace"
-msgstr ""
+msgstr "Cihê Bikarhêner"
 
-#: daemon/PowerDevilDaemon.cpp:1252 kcmodule/GeneralPage.cpp:66
-#: kcmodule/CapabilitiesPage.cpp:128 kcmodule/EditPage.cpp:123
-#: kcmodule/EditPage.cpp:124 kcmodule/EditPage.cpp:125
+#: daemon/PowerDevilDaemon.cpp:1262
+#: kcmodule/GeneralPage.cpp:66
+#: kcmodule/CapabilitiesPage.cpp:128
+#: kcmodule/EditPage.cpp:123
+#: kcmodule/EditPage.cpp:124
+#: kcmodule/EditPage.cpp:125
 #: kcmodule/EditPage.cpp:126
 msgid "Suspend to Disk"
-msgstr ""
+msgstr "Ji Dîskê Bisekine"
 
-#: daemon/PowerDevilDaemon.cpp:1256 kcmodule/GeneralPage.cpp:70
-#: kcmodule/EditPage.cpp:130 kcmodule/EditPage.cpp:131
-#: kcmodule/EditPage.cpp:132 kcmodule/EditPage.cpp:133
+#: daemon/PowerDevilDaemon.cpp:1266
+#: kcmodule/GeneralPage.cpp:70
+#: kcmodule/EditPage.cpp:130
+#: kcmodule/EditPage.cpp:131
+#: kcmodule/EditPage.cpp:132
+#: kcmodule/EditPage.cpp:133
 msgid "Suspend to Ram"
-msgstr ""
+msgstr "Ji Ram ê Bisekine"
 
-#: daemon/PowerDevilDaemon.cpp:1260 kcmodule/GeneralPage.cpp:74
-#: kcmodule/CapabilitiesPage.cpp:136 kcmodule/EditPage.cpp:137
-#: kcmodule/EditPage.cpp:138 kcmodule/EditPage.cpp:139
+#: daemon/PowerDevilDaemon.cpp:1270
+#: kcmodule/GeneralPage.cpp:74
+#: kcmodule/CapabilitiesPage.cpp:136
+#: kcmodule/EditPage.cpp:137
+#: kcmodule/EditPage.cpp:138
+#: kcmodule/EditPage.cpp:139
 #: kcmodule/EditPage.cpp:140
 msgid "Standby"
-msgstr ""
+msgstr "Bendê Bimîne "
 
 #. i18n: file: kcmodule/generalPage.ui:76
 #. i18n: ectx: property (title), widget (QGroupBox, GeneralSettingsBox)
-#: kcmodule/ConfigWidget.cpp:35 rc.cpp:141
+#: kcmodule/ConfigWidget.cpp:35
+#: rc.cpp:141
 msgid "General Settings"
 msgstr "Mîhengên Giştî"
 
 #: kcmodule/ConfigWidget.cpp:36
 msgid "Edit Profiles"
-msgstr ""
+msgstr "Profîlan Biguherîne"
 
 #: kcmodule/ConfigWidget.cpp:37
 msgid "Capabilities"
-msgstr ""
+msgstr "Taybetmendî"
 
-#: kcmodule/GeneralPage.cpp:60 kcmodule/EditPage.cpp:100
-#: kcmodule/EditPage.cpp:103 kcmodule/EditPage.cpp:106
+#: kcmodule/GeneralPage.cpp:60
+#: kcmodule/EditPage.cpp:100
+#: kcmodule/EditPage.cpp:103
+#: kcmodule/EditPage.cpp:106
 #: kcmodule/EditPage.cpp:110
 msgid "Do nothing"
 msgstr "Tiştek neke"
 
-#: kcmodule/GeneralPage.cpp:61 kcmodule/EditPage.cpp:101
-#: kcmodule/EditPage.cpp:104 kcmodule/EditPage.cpp:107
+#: kcmodule/GeneralPage.cpp:61
+#: kcmodule/EditPage.cpp:101
+#: kcmodule/EditPage.cpp:104
+#: kcmodule/EditPage.cpp:107
 #: kcmodule/EditPage.cpp:111
 msgid "Shutdown"
 msgstr "Dadan"
 
 #: kcmodule/PowerDevilKCM.cpp:52
 msgid "PowerDevil Configuration"
-msgstr ""
+msgstr "Mîhengên PowerDevil"
 
 #: kcmodule/PowerDevilKCM.cpp:53
 msgid "A configurator for PowerDevil"
-msgstr ""
+msgstr "Veavakerek ji bo PowerDevil"
 
 #: kcmodule/PowerDevilKCM.cpp:54
 msgid "(c), 2008 Dario Freddi"
 msgstr "(c), 2008 Dario Freddi"
 
 #: kcmodule/PowerDevilKCM.cpp:55
-msgid ""
-"From this module, you can configure the Daemon, create and edit powersaving "
-"profiles, and see your system's capabilities."
-msgstr ""
+msgid "From this module, you can configure the Daemon, create and edit powersaving profiles, and see your system's capabilities."
+msgstr "Bi vê modûlê ve, hûn dikarin Servîsê veava bikin, profîlên parastina hêzê çê bikin û biguherînin, û taybetiyên pergala xwe bibînin."
 
 #: kcmodule/PowerDevilKCM.cpp:59
 msgid "Main Developer"
-msgstr ""
+msgstr "Pêşvebirê Bingehîn"
 
 #: kcmodule/PowerDevilKCM.cpp:64
-msgid ""
-"<h1>PowerDevil configuration</h1> <p>This module lets you configure "
-"PowerDevil. PowerDevil is a daemon (so it runs in background) that is "
-"started upon KDE startup.</p> <p>PowerDevil has 2 levels of configuration: a "
-"general one, that is always applied, and a profile-based one, that lets you "
-"configure a specific behavior in every situation. You can also have a look "
-"at your system capabilities in the last tab. To get you started, first "
-"configure the options in the first 2 tabs. Then switch to the fourth one, "
-"and create/edit your profiles. Last but not least, assign your profiles in "
-"the third Tab. You do not have to restart PowerDevil, just click \"Apply\", "
-"and you are done.</p>"
-msgstr ""
+msgid "<h1>PowerDevil configuration</h1> <p>This module lets you configure PowerDevil. PowerDevil is a daemon (so it runs in background) that is started upon KDE startup.</p> <p>PowerDevil has 2 levels of configuration: a general one, that is always applied, and a profile-based one, that lets you configure a specific behavior in every situation. You can also have a look at your system capabilities in the last tab. To get you started, first configure the options in the first 2 tabs. Then switch to the fourth one, and create/edit your profiles. Last but not least, assign your profiles in the third Tab. You do not have to restart PowerDevil, just click \"Apply\", and you are done.</p>"
+msgstr "<h1>Veavakirina PowerDevil</h1> <p>Ev modûl dihêle ku hûn PowerDevil veava bikin. PowerDevil servîsek e (yê ku di rûerdê de ne-xuya dixebite) ku di destpêka KDE de destpê dike.</p> <p>Du astên veavakirina PowerDevil hene: yê giştî, ku her dem tê sepandin, û bingeh-profîl e, û dihêle ku di her rewşê de tevgera taybet veava bikî. Tu dikarî di hilpekîna dawî de taybetiyên pergalê jî bibînî. Ji bo destpêkirinê bijare yên pêşî di hilpekînên herdu yên pêşî de veava bikin. Paşê jî yê di hilpekîna çar de, û profîlan jî di hilpekîna sê yê de veava bikin. Hewce yê nû ve destpêkirina PowerDevil tune ye, tenê pêl \"Bisepîne\" bikin, û tê biqede.</p>"
 
 #: kcmodule/PowerDevilKCM.cpp:87
-msgid ""
-"Another power manager has been detected. PowerDevil will not start if other "
-"power managers are active. If you want to use PowerDevil as your primary "
-"power manager, please remove the existing one and restart PowerDevil service."
-msgstr ""
+msgid "Another power manager has been detected. PowerDevil will not start if other power managers are active. If you want to use PowerDevil as your primary power manager, please remove the existing one and restart PowerDevil service."
+msgstr "Rêveberê hêzê yekê din hat dîtin. PowerDevil dê destpê nake heke rêveberê din çalak bin. Heke tu dixwazî PowerDevil wekî rêveberê hêzê yê pêşîn bi kar bînî, rêveberê hêzê yê heyî rake û PowerDevil di serî de bide destpê kirin."
 
 #: kcmodule/PowerDevilKCM.cpp:92
-msgid ""
-"It seems powersaved is running on this system. PowerDevil will not start if "
-"other power managers are active. If you want to use PowerDevil as your "
-"primary power manager, please stop powersaved and restart PowerDevil service."
-msgstr ""
+msgid "It seems powersaved is running on this system. PowerDevil will not start if other power managers are active. If you want to use PowerDevil as your primary power manager, please stop powersaved and restart PowerDevil service."
+msgstr "Xuya ye ku powersaved di vê pergalê de dixebite. PowerDevil dê destpê nake heke rêveberên hêzê yên din çalak bin. Heke tu dixwazî PowerDevil wekî rêveberê pêşîn bi kar binî, jê kerema xwe powersaved bide rawestandin û sevîsa PowerDevil nû ve bide destpêkirin."
 
 #: kcmodule/PowerDevilKCM.cpp:101
-msgid ""
-"PowerDevil seems not to be started. Either you have its service turned off, "
-"or there is a problem in DBus."
-msgstr ""
+msgid "PowerDevil seems not to be started. Either you have its service turned off, or there is a problem in DBus."
+msgstr "PowerDevil xuya ye ku nayê destpêkirin. An te servîsa vê girtî ye, an jî di DBus de çewtiyek heye."
 
 #: kcmodule/CapabilitiesPage.cpp:132
 msgid "Suspend to RAM"
-msgstr ""
+msgstr "Ji RAMê Bisekine"
 
-#: kcmodule/CapabilitiesPage.cpp:142 kcmodule/CapabilitiesPage.cpp:175
+#: kcmodule/CapabilitiesPage.cpp:142
+#: kcmodule/CapabilitiesPage.cpp:175
 #: kcmodule/CapabilitiesPage.cpp:196
 msgctxt "None"
 msgid "No methods found"
-msgstr ""
+msgstr "Tu azîne nehat dîtin"
 
 #: kcmodule/CapabilitiesPage.cpp:263
-msgid ""
-"PowerDevil was compiled without Xss and Xext support, or the XSync extension "
-"is not available. Determining idle time will not be possible. Please "
-"consider recompiling PowerDevil with at least one of these two libraries."
-msgstr ""
+msgid "PowerDevil was compiled without Xss and Xext support, or the XSync extension is not available. Determining idle time will not be possible. Please consider recompiling PowerDevil with at least one of these two libraries."
+msgstr "PowerDevil bê piştgirî ya Xss û Xext hatiye berhev kirin, an jî dirêjî ya XSync tune ye. Dîyar kirina demê beredayî ne gengaz e. Jê kerema xwe PowerDevil bi Xss an jî Xext re nû ve berhev bikin."
 
 #: kcmodule/CapabilitiesPage.cpp:269
-msgid ""
-"No scaling methods were found. If your CPU is reasonably recent, this is "
-"probably because you have not loaded some kernel modules. Usually scaling "
-"modules have names similar to cpufreq_ondemand. Scaling is useful and can "
-"save a lot of battery. Click on \"Attempt Loading Modules\" to let "
-"PowerDevil try to load the required modules. If you are sure your PC does "
-"not support scaling, you can also disable this warning by clicking \"Do not "
-"display this warning again\"."
-msgstr ""
+msgid "No scaling methods were found. If your CPU is reasonably recent, this is probably because you have not loaded some kernel modules. Usually scaling modules have names similar to cpufreq_ondemand. Scaling is useful and can save a lot of battery. Click on \"Attempt Loading Modules\" to let PowerDevil try to load the required modules. If you are sure your PC does not support scaling, you can also disable this warning by clicking \"Do not display this warning again\"."
+msgstr "Tu azîne ya pîvanê nehat dîtin. Heke CPU pir nû be, sedema vê ev e ku te hinek modûlên kernelê bar nekirî ye. Navê modûlan wekî cpufreq_ondemand ye. Pîvan bikêrhatî ye û pîlê diparêze. Pêl \"Barkirina Modûlan Biceribîne\" bike ku modûlên hewce bar bikî. Heke tu baş dizanî Komputer piştgirî nade pîvanê, tu dikarî vê hişyarî yê bi tikandina \"Cardin vê hişyarî yê nîşan nede\" re neçalak bikî."
 
 #: kcmodule/CapabilitiesPage.cpp:276
 msgid "Attempt loading Modules"
-msgstr ""
+msgstr "Barkirina Modûlan Biceribîne"
 
 #: kcmodule/CapabilitiesPage.cpp:277
 msgid "Do not display this warning again"
-msgstr ""
+msgstr "Vê hişyarî yê cardin nîşan nede"
 
 #: kcmodule/CapabilitiesPage.cpp:280
-msgid ""
-"PowerDevil was compiled without Xext support, or the XSync extension is not "
-"available. XSync grants extra efficiency and performance, saving your "
-"battery and CPU. It is advised to use PowerDevil with XSync enabled."
-msgstr ""
+msgid "PowerDevil was compiled without Xext support, or the XSync extension is not available. XSync grants extra efficiency and performance, saving your battery and CPU. It is advised to use PowerDevil with XSync enabled."
+msgstr "PowerDevil bê piştgirî ya Xext hatiye berhev kirin, an jî dirêjî ya XSync tune ye. Xsync performansa çêtir dide û berhemdar e, pîla te û CPU ya te diparêze. Tê salixdan ku PowerDevil bi çalakiya XSync re bi kar bînin."
 
 #: kcmodule/CapabilitiesPage.cpp:285
-msgid ""
-"XSync does not seem your preferred query backend, though it is available on "
-"your system. Using it largely improves performance and efficiency, and it is "
-"strongly advised. Click on the button below to enable it now."
-msgstr ""
+msgid "XSync does not seem your preferred query backend, though it is available on your system. Using it largely improves performance and efficiency, and it is strongly advised. Click on the button below to enable it now."
+msgstr "XSync xuya ye ku lêpirsîna paş-dawî yê ya tê tercîh kirin nîn e, ev di pergalê de heye. Bi kar anîna vê performansê pêş dibe û berhemdar e, û pir tê salixdan. Pêl bişkojka jêr bike û vê niha çalak bike."
 
 #: kcmodule/CapabilitiesPage.cpp:288
 msgid "Enable XSync Backend"
-msgstr ""
+msgstr "Paş-dawî ya XSync çalak bike"
 
 #: kcmodule/CapabilitiesPage.cpp:290
 msgid "No issues found with your configuration."
-msgstr ""
+msgstr "Bi veavakirina te re tu pirsgirêk nehat dîtin. "
 
 #: kcmodule/CapabilitiesPage.cpp:388
-msgid ""
-"No kernel modules for CPU scaling were found. Either you do not have them "
-"installed, or PowerDevil could not detect them."
-msgstr ""
+msgid "No kernel modules for CPU scaling were found. Either you do not have them installed, or PowerDevil could not detect them."
+msgstr "Ji bo pîvana CPU tu modûlên kernelê tune ye. An te ew saz nekirî ye, an jî PowerDevil nikare wan bibîne."
 
 #: kcmodule/CapabilitiesPage.cpp:390
 msgid "Modules not found"
-msgstr ""
+msgstr "Modûl nehatin dîtin"
 
-#: kcmodule/EditPage.cpp:102 kcmodule/EditPage.cpp:105
-#: kcmodule/EditPage.cpp:108 kcmodule/EditPage.cpp:112
+#: kcmodule/EditPage.cpp:102
+#: kcmodule/EditPage.cpp:105
+#: kcmodule/EditPage.cpp:108
+#: kcmodule/EditPage.cpp:112
 msgid "Lock Screen"
-msgstr ""
+msgstr "Dîmenderê Qufl Bike"
 
-#: kcmodule/EditPage.cpp:109 kcmodule/EditPage.cpp:113
+#: kcmodule/EditPage.cpp:109
+#: kcmodule/EditPage.cpp:113
 msgid "Prompt Log out dialog"
-msgstr ""
+msgstr "Pace ya Derketinê Nîşan Bide"
 
 #: kcmodule/EditPage.cpp:176
 #, kde-format
 msgid "CPU <numid>%1</numid>"
-msgstr ""
+msgstr "CPU <numid>%1</numid>"
 
 #: kcmodule/EditPage.cpp:181
 #, kde-format
 msgid "Disable CPU <numid>%1</numid>"
-msgstr ""
+msgstr "CPU <numid>%1</numid> neçalak bike"
 
 #: kcmodule/EditPage.cpp:182
 #, kde-format
 msgid "If this box is checked, the CPU <numid>%1</numid> will be disabled"
-msgstr ""
+msgstr "Heke ev qutî bê nîşan kirin, dê CPU <numid>%1</numid> bê neçalak kirin"
 
 #: kcmodule/EditPage.cpp:200
 msgid "Learn more about the Energy Star program"
-msgstr ""
+msgstr "Der barê bername ya Energy Star zêdetir agahiyan bibîne"
 
 #: kcmodule/EditPage.cpp:494
 msgid "Please enter a name for the new profile"
-msgstr ""
+msgstr "Jê kerema xwe navekî ji bo profîla nû binivîse"
 
-#: kcmodule/EditPage.cpp:496 kcmodule/EditPage.cpp:499
-#: kcmodule/EditPage.cpp:550 kcmodule/EditPage.cpp:553
+#: kcmodule/EditPage.cpp:496
+#: kcmodule/EditPage.cpp:499
+#: kcmodule/EditPage.cpp:550
+#: kcmodule/EditPage.cpp:553
 msgid "The name for the new profile"
-msgstr ""
+msgstr "Nav ji bo profîla nû"
 
-#: kcmodule/EditPage.cpp:497 kcmodule/EditPage.cpp:500
-#: kcmodule/EditPage.cpp:551 kcmodule/EditPage.cpp:554
+#: kcmodule/EditPage.cpp:497
+#: kcmodule/EditPage.cpp:500
+#: kcmodule/EditPage.cpp:551
+#: kcmodule/EditPage.cpp:554
 msgid "Enter here the name for the profile you are creating"
-msgstr ""
+msgstr "Navê profîla tu çê dikî binivîse li vir"
 
 #: kcmodule/EditPage.cpp:548
 msgid "Please enter a name for this profile"
-msgstr ""
+msgstr "Jê kerema xwe navekî ji bo vê profîlê binivîse"
 
 #: kcmodule/EditPage.cpp:582
 msgid "Import PowerDevil profiles"
-msgstr ""
+msgstr "Profîlên PowerDevil bîne hundir"
 
 #: kcmodule/EditPage.cpp:607
 msgid "Export PowerDevil profiles"
-msgstr ""
+msgstr "Profîlên PowerDevil derxe derve"
 
 #: kcmodule/EditPage.cpp:629
 msgid ""
 "The current profile has not been saved.\n"
 "Do you want to save it?"
 msgstr ""
+"Profîla heyî nehatiye tomar kirin.\n"
+"Tu dixwazî vê tomar bikî?"
 
 #: kcmodule/EditPage.cpp:630
 msgid "Save Profile"
@@ -432,67 +415,65 @@ msgstr "erdal dot ronahi at gmail dot com"
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_6)
 #: rc.cpp:5
 msgid "Profile Management"
-msgstr ""
+msgstr "Rêveberê Profîlê"
 
 #. i18n: file: kcmodule/profileEditPage.ui:58
 #. i18n: ectx: attribute (label), widget (QWidget, page)
 #: rc.cpp:8
 msgid "Actions"
-msgstr ""
+msgstr "Çalakî"
 
 #. i18n: file: kcmodule/profileEditPage.ui:61
 #. i18n: ectx: attribute (toolTip), widget (QWidget, page)
 #: rc.cpp:11
 msgid "Configure actions"
-msgstr ""
+msgstr "Çalakiyên veavakirinê"
 
 #. i18n: file: kcmodule/profileEditPage.ui:70
 #. i18n: ectx: property (text), widget (QCheckBox, disableCompositing)
 #: rc.cpp:14
 msgid "Disable KWin compositing, if active"
-msgstr ""
+msgstr "Tevlihev bûna KWin neçalak bike, heke çalak e"
 
 #. i18n: file: kcmodule/profileEditPage.ui:77
 #. i18n: ectx: property (toolTip), widget (QCheckBox, dimDisplayOnIdle)
 #: rc.cpp:17
 msgid "Activate automatic dimming"
-msgstr ""
+msgstr "Girtina dîmenderê yê bixweber çalak bike"
 
 #. i18n: file: kcmodule/profileEditPage.ui:83
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, dimDisplayOnIdle)
 #: rc.cpp:20
 msgid "Automatically dims the display when the system is idle."
-msgstr ""
+msgstr "Wextê pergal beredayî be dîmenderê bixweber digire."
 
 #. i18n: file: kcmodule/profileEditPage.ui:86
 #. i18n: ectx: property (text), widget (QCheckBox, dimDisplayOnIdle)
 #: rc.cpp:23
 msgid "Dim display when idle for more than"
-msgstr ""
+msgstr "Dîmenê bigire wextê beredayî be zêdetir jê"
 
 #. i18n: file: kcmodule/profileEditPage.ui:111
 #. i18n: ectx: property (suffix), widget (KIntSpinBox, dimOnIdleTime)
 #: rc.cpp:26
 msgctxt "Minutes"
 msgid "min"
-msgstr ""
+msgstr " xul"
 
 #. i18n: file: kcmodule/profileEditPage.ui:127
 #. i18n: ectx: property (whatsThis), widget (QLabel, PoweredIdleLabel_2)
 #. i18n: file: kcmodule/profileEditPage.ui:173
 #. i18n: ectx: property (whatsThis), widget (KComboBox, idleCombo)
-#: rc.cpp:29 rc.cpp:38
-msgid ""
-"To prevent data loss or other damage, you can have the system suspend or "
-"hibernate, so you do not run accidentally out of battery power. Configure "
-"the number of minutes below which the machine will run the configured action."
-msgstr ""
+#: rc.cpp:29
+#: rc.cpp:38
+msgid "To prevent data loss or other damage, you can have the system suspend or hibernate, so you do not run accidentally out of battery power. Configure the number of minutes below which the machine will run the configured action."
+msgstr "Ji bo parastina winda bûna dane an jî ziyanê din, tu dikarî pergalê bidî sekinandin, û hêza pîlê biparêzî. Hejmara xulekan di jêr de ava bike yê ku makîne dê çalakiya veava kirî bixebitîne. "
 
 #. i18n: file: kcmodule/profileEditPage.ui:130
 #. i18n: ectx: property (text), widget (QLabel, PoweredIdleLabel_2)
 #: rc.cpp:32
 msgid "When the system is idle for more than"
-msgstr ""
+msgstr "Wextê pergal beredayî be zêdetir jê"
 
 #. i18n: file: kcmodule/profileEditPage.ui:148
 #. i18n: ectx: property (suffix), widget (KIntSpinBox, idleTime)
@@ -502,353 +483,340 @@ msgstr ""
 #. i18n: ectx: property (suffix), widget (KIntSpinBox, DPMSSuspendTime)
 #. i18n: file: kcmodule/profileEditPage.ui:451
 #. i18n: ectx: property (suffix), widget (KIntSpinBox, DPMSPowerOffTime)
-#: rc.cpp:35 rc.cpp:77 rc.cpp:83 rc.cpp:89
+#: rc.cpp:35
+#: rc.cpp:77
+#: rc.cpp:83
+#: rc.cpp:89
 msgid "min"
-msgstr ""
+msgstr " xul"
 
 #. i18n: file: kcmodule/profileEditPage.ui:185
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #: rc.cpp:41
 msgid "When Laptop Lid Closed"
-msgstr ""
+msgstr "Wextê Rûgira Laptopê Bê Girtin"
 
 #. i18n: file: kcmodule/profileEditPage.ui:204
 #. i18n: ectx: property (whatsThis), widget (KComboBox, laptopClosedCombo)
 #: rc.cpp:44
 msgid "This action will be performed when the laptop lid gets closed"
-msgstr ""
+msgstr "Ev çalakî dê bê karandin wextê rûgira laptopê bê girtin"
 
 #. i18n: file: kcmodule/profileEditPage.ui:211
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:47
 msgid "When Power Button pressed"
-msgstr ""
+msgstr "Wextê Bişkojka Hêzê bê pêlêkirin"
 
 #. i18n: file: kcmodule/profileEditPage.ui:234
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: rc.cpp:50
 msgid "When Sleep Button pressed"
-msgstr ""
+msgstr "Wextê Bişkojka Xewê bê pêlêkirin"
 
 #. i18n: file: kcmodule/profileEditPage.ui:277
 #. i18n: ectx: attribute (label), widget (QWidget, page_3)
 #: rc.cpp:53
 msgid "Screen"
-msgstr ""
+msgstr "Dîmender"
 
 #. i18n: file: kcmodule/profileEditPage.ui:280
 #. i18n: ectx: attribute (toolTip), widget (QWidget, page_3)
 #: rc.cpp:56
 msgid "Configure preferences for Screen Powersaving"
-msgstr ""
+msgstr "Mîhengên veavakirinê ji bo Parastina Hêzê jê Dîmenê"
 
 #. i18n: file: kcmodule/profileEditPage.ui:288
 #. i18n: ectx: property (toolTip), widget (QLabel, PoweredBrightnessLabel_2)
 #: rc.cpp:59
-msgid ""
-"With this slider you can set the brightness when the system is plugged into "
-"the socket outlet"
-msgstr ""
+msgid "With this slider you can set the brightness when the system is plugged into the socket outlet"
+msgstr "Bi vê re hûn dikarin ronahî yê ava bikin yê wextê pergal tê girêdan bi sokleta derveyî re"
 
 #. i18n: file: kcmodule/profileEditPage.ui:291
 #. i18n: ectx: property (text), widget (QLabel, PoweredBrightnessLabel_2)
 #: rc.cpp:62
 msgid "Brightness"
-msgstr ""
+msgstr "Biriqandin"
 
 #. i18n: file: kcmodule/profileEditPage.ui:340
 #. i18n: ectx: property (text), widget (QCheckBox, DPMSEnable)
 #: rc.cpp:65
 msgid "&Enable display power management"
-msgstr ""
+msgstr "Xuyakirina rêveberê hêzê &çalak bike"
 
 #. i18n: file: kcmodule/profileEditPage.ui:383
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, DPMSStandbyEnabled)
 #. i18n: file: kcmodule/profileEditPage.ui:399
 #. i18n: ectx: property (whatsThis), widget (KIntSpinBox, DPMSStandbyTime)
-#: rc.cpp:68 rc.cpp:74
-msgid ""
-"Choose the period of inactivity after which the display should enter "
-"\"standby\" mode. This is the first level of power saving."
-msgstr ""
+#: rc.cpp:68
+#: rc.cpp:74
+msgid "Choose the period of inactivity after which the display should enter \"standby\" mode. This is the first level of power saving."
+msgstr "Demê bê çalakiyê hilbijêre yê ku piştî moda têketina \"bendê bimîne\" tê nîşan dan. Ev asta yekemîn e yê parastina hêzê."
 
 #. i18n: file: kcmodule/profileEditPage.ui:386
 #. i18n: ectx: property (text), widget (QCheckBox, DPMSStandbyEnabled)
 #: rc.cpp:71
 msgid "&Standby after"
-msgstr ""
+msgstr "&Lê Bendê Bimîne piştî"
 
 #. i18n: file: kcmodule/profileEditPage.ui:415
 #. i18n: ectx: property (text), widget (QCheckBox, DPMSSuspendEnabled)
 #: rc.cpp:80
 msgid "S&uspend after"
-msgstr ""
+msgstr "B&isekine piştî "
 
 #. i18n: file: kcmodule/profileEditPage.ui:438
 #. i18n: ectx: property (text), widget (QCheckBox, DPMSPowerOffEnabled)
 #: rc.cpp:86
 msgid "&Power off after"
-msgstr ""
+msgstr "&Bigire piştî"
 
 #. i18n: file: kcmodule/profileEditPage.ui:485
 #. i18n: ectx: attribute (label), widget (QWidget, page_2)
 #: rc.cpp:92
 msgid "CPU and System"
-msgstr ""
+msgstr "CPU û Pergal"
 
 #. i18n: file: kcmodule/profileEditPage.ui:488
 #. i18n: ectx: attribute (toolTip), widget (QWidget, page_2)
 #: rc.cpp:95
 msgid "Configure System and CPU preferences"
-msgstr ""
+msgstr "Pergal û mîhengên CPU veava bike"
 
 #. i18n: file: kcmodule/profileEditPage.ui:497
 #. i18n: ectx: property (text), widget (QLabel, label_12)
 #: rc.cpp:98
 msgid "Turn off the following CPU(s)"
-msgstr ""
+msgstr "CPU(yên) jêr bigire"
 
 #. i18n: file: kcmodule/profileEditPage.ui:510
 #. i18n: ectx: property (whatsThis), widget (QLabel, PoweredFreqLabel_2)
 #. i18n: file: kcmodule/profileEditPage.ui:538
 #. i18n: ectx: property (whatsThis), widget (KComboBox, freqCombo)
-#: rc.cpp:101 rc.cpp:107
-msgid ""
-"CPU Behaviour strongly impacts on your system performance and on your "
-"battery's life. Here you can choose the policy best suitable for this profile"
-msgstr ""
+#: rc.cpp:101
+#: rc.cpp:107
+msgid "CPU Behaviour strongly impacts on your system performance and on your battery's life. Here you can choose the policy best suitable for this profile"
+msgstr " "
 
 #. i18n: file: kcmodule/profileEditPage.ui:513
 #. i18n: ectx: property (text), widget (QLabel, PoweredFreqLabel_2)
 #: rc.cpp:104
 msgid "CPU frequency scaling policy"
-msgstr ""
+msgstr "Pêşarî ya pîvana freqansa CPU"
 
 #. i18n: file: kcmodule/profileEditPage.ui:545
 #. i18n: ectx: property (text), widget (QLabel, label_19)
 #: rc.cpp:110
 msgid "System powersaving scheme"
-msgstr ""
+msgstr "Şemaya parastina hêza pergalê"
 
 #. i18n: file: kcmodule/profileEditPage.ui:568
 #. i18n: ectx: property (text), widget (QLabel, label_20)
 #: rc.cpp:113
 msgid "When Loading profile, execute"
-msgstr ""
+msgstr "Di demê Barkirina profîlê de, bixebitîne"
 
 #. i18n: file: kcmodule/profileEditPage.ui:609
 #. i18n: ectx: property (text), widget (Line, line_5)
 #: rc.cpp:116
-#, fuzzy
 #| msgid "Save Profile"
 msgid "New Profile"
-msgstr "Profîlê Tomar Bike"
+msgstr "Profîla Nû"
 
 #. i18n: file: kcmodule/profileEditPage.ui:614
 #. i18n: ectx: property (text), widget (Line, line_5)
 #: rc.cpp:119
-#, fuzzy
 #| msgid "Save Profile"
 msgid "Delete Profile"
-msgstr "Profîlê Tomar Bike"
+msgstr "Profîlê Jê Bibe"
 
 #. i18n: file: kcmodule/profileEditPage.ui:619
 #. i18n: ectx: property (text), widget (Line, line_5)
 #: rc.cpp:122
 msgid "Import Profiles"
-msgstr ""
+msgstr "Profîlan Bîne Hundir"
 
 #. i18n: file: kcmodule/profileEditPage.ui:624
 #. i18n: ectx: property (text), widget (Line, line_5)
 #: rc.cpp:125
 msgid "Export Profiles"
-msgstr ""
+msgstr "Profîlan Derxe Derve"
 
 #. i18n: file: kcmodule/error.ui:13
 #. i18n: ectx: property (windowTitle), widget (QWidget, errorWidget)
 #: rc.cpp:128
 msgid "PowerDevil error"
-msgstr ""
+msgstr "Çewtiya PowerDevil"
 
 #. i18n: file: kcmodule/error.ui:56
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: rc.cpp:131
-msgid ""
-"The configuration module can not be started, since there seems to be a "
-"problem with PowerDevil Daemon. Read below for more details"
-msgstr ""
+msgid "The configuration module can not be started, since there seems to be a problem with PowerDevil Daemon. Read below for more details"
+msgstr "Modûla veavakirinê nayê destpêkirin, lewre ku pirsgirêkek bi Servîsa PowerDevil re xuya dike. Ji bo zêdetir kitekitan yê jêr bixwînin"
 
 #. i18n: file: kcmodule/generalPage.ui:43
 #. i18n: ectx: property (text), widget (QLabel, issueText)
 #: rc.cpp:135
-msgid ""
-"<b>There are some issues in your configuration. Please check Capabilities "
-"page for more details.</b>"
-msgstr ""
+msgid "<b>There are some issues in your configuration. Please check Capabilities page for more details.</b>"
+msgstr "<b>Li vir di mîhengan de hinek pirsgirêk hene. Jê kerema xwe rûpela Taybetiyan ji bo zêdetir kitekitan kontrol bikin."
 
 #. i18n: file: kcmodule/generalPage.ui:70
 #. i18n: ectx: attribute (label), widget (QWidget, page)
 #: rc.cpp:138
-#, fuzzy
 #| msgid "Save Profile"
 msgid "Settings and Profiles"
-msgstr "Profîlê Tomar Bike"
+msgstr "Mîheng û Profîl"
 
 #. i18n: file: kcmodule/generalPage.ui:85
 #. i18n: ectx: property (toolTip), widget (QCheckBox, lockScreenOnResume)
 #: rc.cpp:144
 msgid "Locks screen when waking up from suspension"
-msgstr ""
+msgstr "Dema ji sekinandinê hişyar bû, dîmenê qufl bike"
 
 #. i18n: file: kcmodule/generalPage.ui:91
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, lockScreenOnResume)
 #: rc.cpp:147
 msgid "You will be asked for password when resuming from sleep state"
-msgstr ""
+msgstr "Dê nasnav bê pirsîn wextê ji rewşa xewê de derdikeve"
 
 #. i18n: file: kcmodule/generalPage.ui:94
 #. i18n: ectx: property (text), widget (QCheckBox, lockScreenOnResume)
 #: rc.cpp:150
 msgid "Lock screen on resume"
-msgstr ""
+msgstr "Demê dom kirinê dîmenê qufl bike"
 
 #. i18n: file: kcmodule/generalPage.ui:101
 #. i18n: ectx: property (text), widget (QCheckBox, enableDPMSBox)
 #: rc.cpp:153
 msgid "Let PowerDevil manage screen powersaving"
-msgstr ""
+msgstr "Bihêle ku PowerDevil parastina hêza dîmenê bi rê ve bibe"
 
 #. i18n: file: kcmodule/generalPage.ui:108
 #. i18n: ectx: property (toolTip), widget (QCheckBox, notificationsBox)
 #: rc.cpp:156
 msgid "Enables standard notifications"
-msgstr ""
+msgstr "Agahdariyên standard çalak bike "
 
 #. i18n: file: kcmodule/generalPage.ui:114
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, notificationsBox)
 #: rc.cpp:159
 msgid "Notifications such as standard events or profile change will be shown"
-msgstr ""
+msgstr "Agahdariyên wekî bûyerên standard û guherînên profîlê dê bên nîşan dan"
 
 #. i18n: file: kcmodule/generalPage.ui:117
 #. i18n: ectx: property (text), widget (QCheckBox, notificationsBox)
 #: rc.cpp:162
 msgid "Enable notifications"
-msgstr ""
+msgstr "Agahdariyên çalak bike"
 
 #. i18n: file: kcmodule/generalPage.ui:124
 #. i18n: ectx: property (toolTip), widget (QCheckBox, warningNotificationsBox)
 #: rc.cpp:165
 msgid "Enables warning notifications"
-msgstr ""
+msgstr "Agahdariyên hişyarî yê çalak bike "
 
 #. i18n: file: kcmodule/generalPage.ui:127
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, warningNotificationsBox)
 #: rc.cpp:168
-msgid ""
-"Notifications such as warnings or important events will be shown. It is "
-"recommended to leave this enabled."
-msgstr ""
+msgid "Notifications such as warnings or important events will be shown. It is recommended to leave this enabled."
+msgstr "Agahdariyên wekî hişyarî û bûyerên girîng dê bên nîşan dan. Tê salixdan ku wekî heyî bihêlin."
 
 #. i18n: file: kcmodule/generalPage.ui:130
 #. i18n: ectx: property (text), widget (QCheckBox, warningNotificationsBox)
 #: rc.cpp:171
 msgid "Enable warning notifications"
-msgstr ""
+msgstr "Agahdariyên hişyarî yê çalak bike"
 
 #. i18n: file: kcmodule/generalPage.ui:151
 #. i18n: ectx: property (text), widget (QPushButton, notificationsButton)
 #: rc.cpp:174
 msgid "Configure Notifications"
-msgstr ""
+msgstr "Hişyariyan Veava Bike"
 
 #. i18n: file: kcmodule/generalPage.ui:173
 #. i18n: ectx: property (toolTip), widget (QCheckBox, suspendWait)
 #: rc.cpp:177
 msgid "Interval for interactive confirm notifications"
-msgstr ""
+msgstr "Navber ji bo agahdariyên rast kirinên hevbandorî"
 
 #. i18n: file: kcmodule/generalPage.ui:176
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, suspendWait)
 #: rc.cpp:180
-msgid ""
-"If selected, before doing an automatic suspension PowerDevil will show an "
-"interactive notification for the specified time. If that notification will "
-"be clicked, the queued action will not be run."
-msgstr ""
+msgid "If selected, before doing an automatic suspension PowerDevil will show an interactive notification for the specified time. If that notification will be clicked, the queued action will not be run."
+msgstr "Heke bê hilbijartin, pêşî ya kirina sekinandina bixweber, PowerDevil ji bo demê hatiye dîyar kirin dê agahdariya hevbandorî nîşan bide. Heke ev agahdarî bê tikandin, çalakiya hatiye dîyarbûn dê naxebite."
 
 #. i18n: file: kcmodule/generalPage.ui:179
 #. i18n: ectx: property (text), widget (QCheckBox, suspendWait)
 #: rc.cpp:183
 msgid "Before doing a suspend action, wait"
-msgstr ""
+msgstr "Pêşî ya kirina çalakiya sekinandinê, bendê bimîne"
 
 #. i18n: file: kcmodule/generalPage.ui:192
 #. i18n: ectx: property (suffix), widget (KIntSpinBox, suspendWaitTime)
 #: rc.cpp:186
 msgctxt "As in \"seconds\""
 msgid "sec"
-msgstr ""
+msgstr "çirke"
 
 #. i18n: file: kcmodule/generalPage.ui:205
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
 #: rc.cpp:189
 msgid "Profiles assignment"
-msgstr ""
+msgstr "Pîşandina profîlan"
 
 #. i18n: file: kcmodule/generalPage.ui:211
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #: rc.cpp:192
 msgid "When AC Adaptor is plugged in"
-msgstr ""
+msgstr "Wextê Adaptora AC tê girêdan"
 
 #. i18n: file: kcmodule/generalPage.ui:228
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #: rc.cpp:195
 msgid "When on battery Power"
-msgstr ""
+msgstr "Wextê di Hêza pîlê de"
 
 #. i18n: file: kcmodule/generalPage.ui:245
 #. i18n: ectx: property (text), widget (QLabel, label_10)
 #: rc.cpp:198
 msgid "When battery is at low level"
-msgstr ""
+msgstr "Wextê pîl di asta kêm de"
 
 #. i18n: file: kcmodule/generalPage.ui:262
 #. i18n: ectx: property (text), widget (QLabel, label_11)
 #: rc.cpp:201
 msgid "When battery is at warning level"
-msgstr ""
+msgstr "Wextê pîl di asta hişyarî de"
 
 #. i18n: file: kcmodule/generalPage.ui:304
 #. i18n: ectx: attribute (label), widget (QWidget, page_2)
 #: rc.cpp:204
 msgid "Advanced Battery Settings"
-msgstr ""
+msgstr "Mîhengên Pêşketî yê Pîlê"
 
 #. i18n: file: kcmodule/generalPage.ui:310
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: rc.cpp:207
 msgid "Battery Levels"
-msgstr ""
+msgstr "Astên Pîlê"
 
 #. i18n: file: kcmodule/generalPage.ui:319
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: rc.cpp:210
 msgid "Battery is at low level at"
-msgstr ""
+msgstr "Pîl di asta kêm de ye di"
 
 #. i18n: file: kcmodule/generalPage.ui:332
 #. i18n: ectx: property (toolTip), widget (KIntSpinBox, lowSpin)
 #: rc.cpp:213
 msgid "Low battery level"
-msgstr ""
+msgstr "Asta kêm yê pîlê"
 
 #. i18n: file: kcmodule/generalPage.ui:335
 #. i18n: ectx: property (whatsThis), widget (KIntSpinBox, lowSpin)
 #: rc.cpp:216
 msgid "Battery will be considered low when it reaches this level"
-msgstr ""
+msgstr "Pîl dê kêm bê hesibandin wextê ev bigihîje vê astê"
 
 #. i18n: file: kcmodule/generalPage.ui:338
 #. i18n: ectx: property (suffix), widget (KIntSpinBox, lowSpin)
@@ -856,154 +824,150 @@ msgstr ""
 #. i18n: ectx: property (suffix), widget (KIntSpinBox, warningSpin)
 #. i18n: file: kcmodule/generalPage.ui:396
 #. i18n: ectx: property (suffix), widget (KIntSpinBox, criticalSpin)
-#: rc.cpp:220 rc.cpp:233 rc.cpp:246
+#: rc.cpp:220
+#: rc.cpp:233
+#: rc.cpp:246
 #, no-c-format
 msgid "%"
-msgstr ""
+msgstr "%"
 
 #. i18n: file: kcmodule/generalPage.ui:348
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: rc.cpp:223
 msgid "Battery is at warning level at"
-msgstr ""
+msgstr "Pîl di asta hişyarî de di"
 
 #. i18n: file: kcmodule/generalPage.ui:361
 #. i18n: ectx: property (toolTip), widget (KIntSpinBox, warningSpin)
 #: rc.cpp:226
 msgid "Warning battery level"
-msgstr ""
+msgstr "Asta hişyarî yê pîlê"
 
 #. i18n: file: kcmodule/generalPage.ui:364
 #. i18n: ectx: property (whatsThis), widget (KIntSpinBox, warningSpin)
 #: rc.cpp:229
 msgid "Battery will be considered at warning level when it reaches this level"
-msgstr ""
+msgstr "Pîl dê di asta hişyarî de bê hesibandin wextê ev bigihîje vê astê"
 
 #. i18n: file: kcmodule/generalPage.ui:377
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: rc.cpp:236
 msgid "Battery is at critical level at"
-msgstr ""
+msgstr "Pîl di asta rexne de di"
 
 #. i18n: file: kcmodule/generalPage.ui:390
 #. i18n: ectx: property (toolTip), widget (KIntSpinBox, criticalSpin)
 #: rc.cpp:239
 msgid "Critical battery level"
-msgstr ""
+msgstr "Asta rexne yê pîlê"
 
 #. i18n: file: kcmodule/generalPage.ui:393
 #. i18n: ectx: property (whatsThis), widget (KIntSpinBox, criticalSpin)
 #: rc.cpp:242
 msgid "Battery will be considered critical when it reaches this level"
-msgstr ""
+msgstr "Pîl dê rexne bê hesibandin wextê ev bigihîje vê astê"
 
 #. i18n: file: kcmodule/generalPage.ui:409
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
 #: rc.cpp:249
 msgid "Battery Actions"
-msgstr ""
+msgstr "Çalakiyên Pîlê"
 
 #. i18n: file: kcmodule/generalPage.ui:418
 #. i18n: ectx: property (text), widget (QLabel, BatteryCriticalLabel)
 #: rc.cpp:252
 msgid "When battery remaining is critical"
-msgstr ""
+msgstr "Wextê pîl rexne bimîne"
 
 #. i18n: file: kcmodule/capabilitiesPage.ui:22
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_5)
 #: rc.cpp:255
 msgid "System Capabilities"
-msgstr ""
+msgstr "Taybetiyên Pergalê"
 
 #. i18n: file: kcmodule/capabilitiesPage.ui:34
 #. i18n: ectx: property (text), widget (QLabel, label_10)
 #: rc.cpp:258
 msgid "Number of CPU"
-msgstr ""
+msgstr "Hejmara CPU"
 
 #. i18n: file: kcmodule/capabilitiesPage.ui:48
 #. i18n: ectx: property (text), widget (QLabel, label_11)
 #: rc.cpp:261
 msgid "Number of Batteries"
-msgstr ""
+msgstr "Hejmara Pîlan"
 
 #. i18n: file: kcmodule/capabilitiesPage.ui:69
 #. i18n: ectx: property (text), widget (QLabel, label_14)
 #: rc.cpp:264
 msgid "CPU can be turned Off"
-msgstr ""
+msgstr "CPU dikare bê girtin"
 
 #. i18n: file: kcmodule/capabilitiesPage.ui:83
 #. i18n: ectx: property (text), widget (QLabel, label_13)
 #: rc.cpp:267
 msgid "Scheme support"
-msgstr ""
+msgstr "Piştgiriya şema"
 
 #. i18n: file: kcmodule/capabilitiesPage.ui:97
 #. i18n: ectx: property (text), widget (QLabel, label_15)
 #: rc.cpp:270
 msgid "Scaling capability"
-msgstr ""
+msgstr "Taybeta pîvanê"
 
 #. i18n: file: kcmodule/capabilitiesPage.ui:118
 #. i18n: ectx: property (text), widget (QLabel, label_16)
 #: rc.cpp:273
 msgid "Supported CPU Policies"
-msgstr ""
+msgstr "Şertên CPU ya tê piştgirî dan"
 
 #. i18n: file: kcmodule/capabilitiesPage.ui:138
 #. i18n: ectx: property (text), widget (QLabel, label_17)
 #: rc.cpp:276
 msgid "Supported suspend methods"
-msgstr ""
+msgstr "Azîneyên sekinandinê yên tên piştgirî dan"
 
 #. i18n: file: kcmodule/capabilitiesPage.ui:158
 #. i18n: ectx: property (text), widget (QLabel, label_18)
 #: rc.cpp:279
 msgid "Supported schemes"
-msgstr ""
+msgstr "Şemayên tên piştgirî dan"
 
 #. i18n: file: kcmodule/capabilitiesPage.ui:179
 #. i18n: ectx: property (toolTip), widget (QLabel, label)
 #: rc.cpp:282
 msgid "Support for the XSync extension"
-msgstr ""
+msgstr "Piştgirî dide dirêjahî ya XSync"
 
 #. i18n: file: kcmodule/capabilitiesPage.ui:182
 #. i18n: ectx: property (whatsThis), widget (QLabel, label)
 #: rc.cpp:285
-msgid ""
-"XSync is an extension that allows high efficiency query of the system. If it "
-"is available, PowerDevil will be much more reliable and efficient"
-msgstr ""
+msgid "XSync is an extension that allows high efficiency query of the system. If it is available, PowerDevil will be much more reliable and efficient"
+msgstr "XSync dirêjahî yek e ji bo lêpirsîna pir berhemdar ya pergalê. Heke ev hebe, PowerDevil dê zêdetir ewle û berhemdar bibe."
 
 #. i18n: file: kcmodule/capabilitiesPage.ui:185
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:288
 msgid "XSync Support"
-msgstr ""
+msgstr "Piştgirî ya XSync"
 
 #. i18n: file: kcmodule/capabilitiesPage.ui:192
 #. i18n: ectx: property (toolTip), widget (QLabel, label_2)
 #: rc.cpp:291
 msgid "Support for XScreensaver"
-msgstr ""
+msgstr "Piştgirî ji bo XScreensaver"
 
 #. i18n: file: kcmodule/capabilitiesPage.ui:195
 #. i18n: ectx: property (whatsThis), widget (QLabel, label_2)
 #: rc.cpp:294
-msgid ""
-"Through XScreensaver, PowerDevil may query the system if XSync is not "
-"available. It is necessary only if your system does not support XSync. If "
-"both of them are unavailable, PowerDevil will not be able to query idle time "
-"of the system"
-msgstr ""
+msgid "Through XScreensaver, PowerDevil may query the system if XSync is not available. It is necessary only if your system does not support XSync. If both of them are unavailable, PowerDevil will not be able to query idle time of the system"
+msgstr "Di XScreensaver de, PowerDevil pergalê lêpirsîn bike heke XSync hebe. Ev tenê heke pergal piştgirî nade XSync hewce ye. Heke ew herdu jî hebin, PowerDevil dê nikare demê beredayî yê pergalê lêpirsîn bike."
 
 #. i18n: file: kcmodule/capabilitiesPage.ui:198
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: rc.cpp:297
 msgid "XScreenSaver Support"
-msgstr ""
+msgstr "Piştgirî ya XScreenSaver"
 
 #. i18n: file: kcmodule/capabilitiesPage.ui:205
 #. i18n: ectx: property (text), widget (QLabel, label_3)
@@ -1015,54 +979,47 @@ msgstr "Rewş"
 #. i18n: ectx: property (toolTip), widget (QLabel, label_4)
 #: rc.cpp:303
 msgid "Support for DPMS"
-msgstr ""
+msgstr "Piştgirî ji bo DPMS"
 
 #. i18n: file: kcmodule/capabilitiesPage.ui:239
 #. i18n: ectx: property (whatsThis), widget (QLabel, label_4)
 #: rc.cpp:306
-msgid ""
-"If this is enabled, PowerDevil will be able to configure power management "
-"for your monitor"
-msgstr ""
+msgid "If this is enabled, PowerDevil will be able to configure power management for your monitor"
+msgstr "Heke ev bê çalak kirin, PowerDevil dê bikare rêveberiya hêzê ji bo dîmendera we veava bike"
 
 #. i18n: file: kcmodule/capabilitiesPage.ui:242
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: rc.cpp:309
 msgid "DPMS Support"
-msgstr ""
+msgstr "Piştgirî ya DPMS"
 
 #. i18n: file: kcmodule/capabilitiesPage.ui:256
 #. i18n: ectx: property (toolTip), widget (QLabel, label_5)
 #: rc.cpp:312
 msgid "Support for XTest extension"
-msgstr ""
+msgstr "Piştgirî ji bo dirêjahî ya XTest"
 
 #. i18n: file: kcmodule/capabilitiesPage.ui:259
 #. i18n: ectx: property (whatsThis), widget (QLabel, label_5)
 #: rc.cpp:315
-msgid ""
-"Through XTest, PowerDevil is able to fake user activity, preventing "
-"suspension loops. If it is not available, loops might occur"
-msgstr ""
+msgid "Through XTest, PowerDevil is able to fake user activity, preventing suspension loops. If it is not available, loops might occur"
+msgstr "Di XTest de, PowerDevil dikare çalakiya bikarhêner bixapîne, bi parastina girêk bûna sekinandinê re. Heke ev tune be, girêk dê çêbin"
 
 #. i18n: file: kcmodule/capabilitiesPage.ui:262
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: rc.cpp:318
 msgid "XTest Support"
-msgstr ""
+msgstr "Piştgirî ya XTest"
 
 #~ msgid "Profiles"
 #~ msgstr "Profîl"
-
 #~ msgid "Screen and Actions"
 #~ msgstr "Ekran û Çalakî"
-
 #~ msgid "Delete"
 #~ msgstr "Jêbirin"
-
 #~ msgid "Edit"
 #~ msgstr "Sererastkirin"
-
 #~ msgctxt "Creates a new profile"
 #~ msgid "New"
 #~ msgstr "Nû"
+

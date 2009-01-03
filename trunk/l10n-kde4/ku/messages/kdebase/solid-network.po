@@ -9,26 +9,24 @@ msgstr ""
 "Project-Id-Version: solid-network\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2008-06-02 13:33+0200\n"
-"PO-Revision-Date: 2008-06-30 16:08+0300\n"
-"Last-Translator: Amed Çeko Jiyan <amedcj@gmail.com>\n"
+"PO-Revision-Date: 2008-12-30 22:21+0200\n"
+"Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural= n != 1;\n"
+"X-Poedit-Language: Kurdish\n"
+"X-Poedit-SourceCharset: utf8\n"
 
 #: solid-network.cpp:54
 msgid "solid-network"
 msgstr "solid-network"
 
 #: solid-network.cpp:56
-msgid ""
-"KDE tool for querying and controlling your network interfaces from the "
-"command line"
-msgstr ""
-"Amûra KDE ji bo lêpirsînkirin û kontrolkirina vebijêrka gerînendetiya hêzê a "
-"ji rêzika fermanê"
+msgid "KDE tool for querying and controlling your network interfaces from the command line"
+msgstr "Amûra KDE ji bo lêpirsînkirin û kontrolkirina vebijêrka gerînendetiya hêzê a ji rêzika fermanê"
 
 #: solid-network.cpp:366
 msgid "Syntax Error: Not enough arguments"
@@ -59,9 +57,8 @@ msgid "             # List the network devices present.\n"
 msgstr "             # Lîsteya pêşkêşkirina cîhazên torê.\n"
 
 #: solid-network.cpp:406
-msgid ""
-"             # List the networks known to the device specified by 'uni'.\n"
-msgstr ""
+msgid "             # List the networks known to the device specified by 'uni'.\n"
+msgstr "            # Torên nas yên ji cîhaz re alî yê 'uni' ve hatine dîyar kirin lîste bike.\n"
 
 #: solid-network.cpp:409
 msgid ""
@@ -75,30 +72,47 @@ msgid ""
 "             # - If the 'interface' option is given, print the\n"
 "             # properties of the network interface that 'uni' refers to.\n"
 "             # - If the 'network' option is given, print the\n"
-"             # properties of the network on 'device-uni' that 'network-uni' "
-"refers to.\n"
+"             # properties of the network on 'device-uni' that 'network-uni' refers to.\n"
 msgstr ""
+"             # Lê dipirse ka taybetiyên torê çalak in an na.\n"
+"             # - Heke bijare ya 'status' bê dayin, paş de vedigere ka\n"
+"             # tor ji bo pergalê çalak e an na\n"
+"             # - Heke bijare ya 'wireless' bê dayin, paş de vedigere ka\n"
+"             # tora bêkablo ji bo pergalê çalak e an na\n"
+"             # - Heke bijare ya 'wireless-hardware' bê dayin,\n"
+"             # paş de vedigere ka reqalava tora bêkablo çalak e an na\n"
+"             # - Heke bijare ya 'interface' bê dayin,\n"
+"             # taybetiyên navrû yê torê yê çavkaniya 'uni' dide nîşan.\n"
+"             # - Heke bijare ya 'network' bê dayin,\n"
+"             # taybetiyên torê yê di 'device-uni' de yên ku çavkaniya 'network-uni' dide nîşan.\n"
 
-#: solid-network.cpp:422 solid-network.cpp:425
+#: solid-network.cpp:422
+#: solid-network.cpp:425
 msgid "             # Enable or disable networking on this system.\n"
-msgstr ""
+msgstr "             # Torê di vê pergalê de çalak an jî neçalak dike.\n"
 
 #: solid-network.cpp:428
 msgid ""
 "             # Activate the network 'network-uni' on 'device-uni'.\n"
-"             # Optionally, use WEP128, open-system encryption with hex key "
-"'key'. (Hardcoded)\n"
+"             # Optionally, use WEP128, open-system encryption with hex key 'key'. (Hardcoded)\n"
 "             # Where 'authentication' is one of:\n"
-"             # wep hex64|ascii64|hex128|ascii128|passphrase64|passphrase128 "
-"'key' [open|shared]\n"
+"             # wep hex64|ascii64|hex128|ascii128|passphrase64|passphrase128 'key' [open|shared]\n"
 "             # wpapsk wpa|wpa2 tkip|ccmp-aes password\n"
 "             # wpaeap UNIMPLEMENTED IN SOLIDSHELL\n"
 msgstr ""
+"             # Tora 'network-uni' di 'device-uni' de çalak bike.\n"
+"             # Heke bixwazî, WEP128 bi kar bîne, bi mifte ya hex 'key' re pergala-vekirî şîfre bike. (Hardcoded)\n"
+"             # Desthilatdarî jê wan yek e.\n"
+"             # wep hex64|ascii64|hex128|ascii128|passphrase64|passphrase128 'key' [open|shared]\n"
+"             # wpapsk wpa|wpa2 tkip|ccmp-aes password\n"
+"             # wpaeap DI SOLIDSHELL DE NEHATIYE KOD KIRIN\n"
 
-#: solid-network.cpp:478 solid-network.cpp:498 solid-network.cpp:517
+#: solid-network.cpp:478
+#: solid-network.cpp:498
+#: solid-network.cpp:517
 #, kde-format
 msgid "Syntax Error: Unknown option '%1'"
-msgstr "Çewtiya Hevoksaziyê: Vebijêrka nayê zaîn '%1'"
+msgstr "Çewtiya Hevoksaziyê: Vebijêrka nayê zanîn '%1'"
 
 #: solid-network.cpp:528
 msgid "Not implemented"
@@ -127,7 +141,7 @@ msgstr "Protokola kilîtkirî a WPA a nenas '%1'"
 #: solid-network.cpp:634
 #, kde-format
 msgid "Unimplemented auth scheme '%1'"
-msgstr ""
+msgstr "Şema '%1' yê hêj rastiya vê nehatiye naskirin"
 
 #: solid-network.cpp:651
 #, kde-format
@@ -176,3 +190,4 @@ msgstr "Agahî: %1"
 #, fuzzy
 #~ msgid "Error: %1"
 #~ msgstr "Pêşketin: %1%"
+
