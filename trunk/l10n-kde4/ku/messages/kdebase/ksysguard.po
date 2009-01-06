@@ -7,15 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-12-27 11:10+0100\n"
-"PO-Revision-Date: 2008-01-23 00:01+0100\n"
-"Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
+"POT-Creation-Date: 2008-11-18 09:55+0100\n"
+"PO-Revision-Date: 2009-01-06 02:27+0200\n"
+"Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <ku@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural= n != 1;\n"
+"X-Poedit-Language: Kurdish\n"
 
 #: WorkSheet.cc:93
 #, kde-format
@@ -25,13 +26,11 @@ msgstr "Pelê %1 nayê vekirin."
 #: WorkSheet.cc:101
 #, kde-format
 msgid "The file %1 does not contain valid XML."
-msgstr ""
+msgstr "Di pela %1 de XML a derbasdar tune ye."
 
 #: WorkSheet.cc:108
 #, kde-format
-msgid ""
-"The file %1 does not contain a valid worksheet definition, which must have a "
-"document type 'KSysGuardWorkSheet'."
+msgid "The file %1 does not contain a valid worksheet definition, which must have a document type 'KSysGuardWorkSheet'."
 msgstr ""
 
 #: WorkSheet.cc:132
@@ -50,66 +49,72 @@ msgstr ""
 
 #: WorkSheet.cc:331
 msgid "Select Display Type"
-msgstr ""
+msgstr "Teşeyê Xuyakirinê Hilbijêre"
 
 #: WorkSheet.cc:332
 msgid "&Line graph"
-msgstr ""
+msgstr "Xanxanka &Rêzik"
 
 #: WorkSheet.cc:333
 msgid "&Digital display"
-msgstr ""
+msgstr "Xuyakirina &Dîjîtal"
 
 #: WorkSheet.cc:334
 msgid "&Bar graph"
-msgstr ""
+msgstr "Xanxanka &Giloverîk"
 
 #: WorkSheet.cc:335
 msgid "Log to a &file"
-msgstr ""
+msgstr "Di &pelê de tomar bike"
 
 #: WorkSheet.cc:505
 msgid "Do you really want to delete the display?"
-msgstr ""
+msgstr "Tu rastî dixwazî vê xuyakirinê jê bibî?"
 
 #: WorkSheet.cc:506
 msgid "Delete Display"
-msgstr ""
+msgstr "Xuyakirinê Jê Bibe"
 
-#: WorkSheet.cc:525 WorkSheet.cc:528 WorkSheet.cc:530 WorkSheet.cc:532
-#: WorkSheet.cc:534 WorkSheet.cc:536 WorkSheet.cc:540
+#: WorkSheet.cc:525
+#: WorkSheet.cc:528
+#: WorkSheet.cc:530
+#: WorkSheet.cc:532
+#: WorkSheet.cc:534
+#: WorkSheet.cc:536
+#: WorkSheet.cc:540
 msgid "Dummy"
-msgstr ""
+msgstr "Çêkirîtî "
 
 #: ksgrd/SensorAgent.cc:105
 #, kde-format
-msgctxt "%1 is a host name"
 msgid ""
 "Message from %1:\n"
 "%2"
 msgstr ""
+"Peyam ji %1:\n"
+"%2"
 
 #: ksgrd/SensorShellAgent.cc:127
 #, kde-format
 msgid "Could not run daemon program '%1'."
-msgstr ""
+msgstr "Nikare bernameya biçûk '%1' bixebitîne."
 
 #: ksgrd/SensorShellAgent.cc:134
 #, kde-format
 msgid "The daemon program '%1' failed."
-msgstr ""
+msgstr "Bernameya biçûk '%1' têk çû."
 
 #: ksgrd/SensorManager.cc:56
 msgid "Change"
-msgstr ""
+msgstr "Biguherîne"
 
 #: ksgrd/SensorManager.cc:57
 msgid "Rate"
-msgstr ""
+msgstr "Rêje"
 
 #: ksgrd/SensorManager.cc:59
 msgid "CPU Load"
-msgstr ""
+msgstr "Barkirinên CPU"
 
 #: ksgrd/SensorManager.cc:60
 msgid "Idling"
@@ -117,16 +122,16 @@ msgstr ""
 
 #: ksgrd/SensorManager.cc:61
 msgid "Nice Load"
-msgstr ""
+msgstr "Barkirina Xweşik"
 
 #: ksgrd/SensorManager.cc:62
 msgid "User Load"
-msgstr ""
+msgstr "Barkirina Bikarhêner"
 
+#. i18n: tag WorkSheet attribute title
+#. i18n: file: ./SystemLoad.sgrd:3
 #: ksgrd/SensorManager.cc:63
-#, fuzzy
-#| msgid "System Load"
-msgctxt "@item sensor description"
+#: rc.cpp:149
 msgid "System Load"
 msgstr "Bara Pergalê"
 
@@ -171,22 +176,19 @@ msgid "Free Memory"
 msgstr "Bîra Vala"
 
 #: ksgrd/SensorManager.cc:74
-#, fuzzy
 #| msgid "Used Memory"
 msgid "Active Memory"
-msgstr "Bîra Bikaranî"
+msgstr "Bîra Çalak"
 
 #: ksgrd/SensorManager.cc:75
-#, fuzzy
 #| msgid "Swap Memory"
 msgid "Inactive Memory"
-msgstr "Bîra Swap"
+msgstr "Bîra Neçalak"
 
 #: ksgrd/SensorManager.cc:76
-#, fuzzy
 #| msgid "Used Memory"
 msgid "Wired Memory"
-msgstr "Bîra Bikaranî"
+msgstr "Bîra Bi kar hatî"
 
 #: ksgrd/SensorManager.cc:77
 msgid "Exec Pages"
@@ -194,13 +196,14 @@ msgstr ""
 
 #: ksgrd/SensorManager.cc:78
 msgid "File Pages"
-msgstr ""
+msgstr "Rûpelên Pelê"
 
 #: ksgrd/SensorManager.cc:79
 msgid "Process Count"
-msgstr ""
+msgstr "Hejmara Xebatan"
 
-#: ksgrd/SensorManager.cc:80 ksgrd/SensorManager.cc:166
+#: ksgrd/SensorManager.cc:80
+#: ksgrd/SensorManager.cc:166
 msgid "Process Controller"
 msgstr ""
 
@@ -215,23 +218,23 @@ msgstr "Bar"
 
 #: ksgrd/SensorManager.cc:83
 msgid "Total Accesses"
-msgstr ""
+msgstr "Gihîştina Tev"
 
 #: ksgrd/SensorManager.cc:84
 msgid "Read Accesses"
-msgstr ""
+msgstr "Gihîştina Xwendinê"
 
 #: ksgrd/SensorManager.cc:85
 msgid "Write Accesses"
-msgstr ""
+msgstr "Gihîştina Nivîsînê"
 
 #: ksgrd/SensorManager.cc:86
 msgid "Read Data"
-msgstr ""
+msgstr "Dane yê tê Xwendin"
 
 #: ksgrd/SensorManager.cc:87
 msgid "Written Data"
-msgstr ""
+msgstr "Dane yê tê Nivîsîn"
 
 #: ksgrd/SensorManager.cc:88
 msgid "Milliseconds spent reading"
@@ -263,7 +266,7 @@ msgstr "Tor"
 
 #: ksgrd/SensorManager.cc:95
 msgid "Interfaces"
-msgstr ""
+msgstr "Navrû"
 
 #: ksgrd/SensorManager.cc:96
 msgid "Receiver"
@@ -299,20 +302,19 @@ msgstr ""
 
 #: ksgrd/SensorManager.cc:104
 msgid "Multicast"
-msgstr ""
+msgstr "Pirweşanî"
 
 #: ksgrd/SensorManager.cc:105
 msgid "Packets"
 msgstr ""
 
 #: ksgrd/SensorManager.cc:106
-msgctxt "@item sensor description ('carrier' is a type of network signal)"
 msgid "Carrier"
 msgstr ""
 
 #: ksgrd/SensorManager.cc:107
 msgid "Collisions"
-msgstr ""
+msgstr "Lihevnekirin"
 
 #: ksgrd/SensorManager.cc:108
 msgid "Sockets"
@@ -320,15 +322,16 @@ msgstr ""
 
 #: ksgrd/SensorManager.cc:109
 msgid "Total Number"
-msgstr ""
+msgstr "Hejmara Tev"
 
-#: ksgrd/SensorManager.cc:110 ksgrd/SensorManager.cc:167
+#: ksgrd/SensorManager.cc:110
+#: ksgrd/SensorManager.cc:167
 msgid "Table"
 msgstr "Tqblo"
 
 #: ksgrd/SensorManager.cc:111
 msgid "Advanced Power Management"
-msgstr ""
+msgstr "Rêveberiya Hêzê yê Pêşketî"
 
 #: ksgrd/SensorManager.cc:112
 msgid "ACPI"
@@ -340,7 +343,7 @@ msgstr ""
 
 #: ksgrd/SensorManager.cc:114
 msgid "Temperature"
-msgstr ""
+msgstr "Germahî"
 
 #: ksgrd/SensorManager.cc:115
 msgid "Fan"
@@ -364,11 +367,11 @@ msgstr "Bikaranîna Pîlê"
 
 #: ksgrd/SensorManager.cc:120
 msgid "Remaining Time"
-msgstr ""
+msgstr "Demê Mayî"
 
 #: ksgrd/SensorManager.cc:121
 msgid "Interrupts"
-msgstr ""
+msgstr "Qutkirin"
 
 #: ksgrd/SensorManager.cc:122
 msgid "Load Average (1 min)"
@@ -400,7 +403,7 @@ msgstr ""
 
 #: ksgrd/SensorManager.cc:129
 msgid "Free Space"
-msgstr ""
+msgstr "Cihê Vala"
 
 #: ksgrd/SensorManager.cc:130
 msgid "Fill Level"
@@ -429,7 +432,7 @@ msgstr ""
 #: ksgrd/SensorManager.cc:138
 #, kde-format
 msgid "CPU %1"
-msgstr ""
+msgstr "CPU ya %1"
 
 #: ksgrd/SensorManager.cc:139
 #, kde-format
@@ -444,11 +447,11 @@ msgstr ""
 #: ksgrd/SensorManager.cc:144
 #, kde-format
 msgid "Temperature %1"
-msgstr ""
+msgstr "Germahî ya %1"
 
 #: ksgrd/SensorManager.cc:147
 msgid "Total"
-msgstr ""
+msgstr "Hemû"
 
 #: ksgrd/SensorManager.cc:152
 #, kde-format
@@ -458,26 +461,26 @@ msgstr ""
 #: ksgrd/SensorManager.cc:157
 msgctxt "the unit 1 per second"
 msgid "1/s"
-msgstr ""
+msgstr "1/ç"
 
 #: ksgrd/SensorManager.cc:158
 msgid "kBytes"
-msgstr ""
+msgstr "kBayt"
 
 #: ksgrd/SensorManager.cc:159
 msgctxt "the unit minutes"
 msgid "min"
-msgstr ""
+msgstr "xul"
 
 #: ksgrd/SensorManager.cc:160
 msgctxt "the frequency unit"
 msgid "MHz"
-msgstr ""
+msgstr "MHz"
 
 #: ksgrd/SensorManager.cc:161
 msgctxt "a percentage"
 msgid "%"
-msgstr ""
+msgstr "%"
 
 #: ksgrd/SensorManager.cc:164
 msgid "Integer Value"
@@ -500,13 +503,11 @@ msgstr ""
 #: ksgrd/SensorSocketAgent.cc:107
 #, kde-format
 msgid "Host %1 not found"
-msgstr ""
+msgstr "Hosta %1 nehat dîtin"
 
 #: ksgrd/SensorSocketAgent.cc:111
 #, kde-format
-msgid ""
-"An error occurred with the network (e.g. the network cable was accidentally "
-"unplugged) for host %1."
+msgid "An error occurred with the network (e.g. the network cable was accidentally unplugged) for host %1."
 msgstr ""
 
 #: ksgrd/SensorSocketAgent.cc:115
@@ -522,18 +523,23 @@ msgstr ""
 msgid "Use update interval of worksheet"
 msgstr ""
 
-#: TimerSettings.cc:52 KSGAppletSettings.cc:67 WorkSheetSettings.cc:91
+#: TimerSettings.cc:52
+#: KSGAppletSettings.cc:67
+#: WorkSheetSettings.cc:91
 msgid "Update interval:"
-msgstr ""
+msgstr "Navbera rojane kirinê:"
 
 #. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:52
 #. i18n: ectx: property (suffix), widget (KIntNumInput, m_timerInterval)
-#: TimerSettings.cc:59 KSGAppletSettings.cc:74 rc.cpp:23
+#: TimerSettings.cc:59
+#: KSGAppletSettings.cc:74
+#: rc.cpp:23
 #: WorkSheetSettings.cc:95
 msgid " sec"
-msgstr ""
+msgstr " çirke"
 
-#: TimerSettings.cc:62 WorkSheetSettings.cc:101
+#: TimerSettings.cc:62
+#: WorkSheetSettings.cc:101
 msgid "All displays of the sheet are updated at the rate specified here."
 msgstr ""
 
@@ -543,7 +549,7 @@ msgstr ""
 
 #: HostConnector.cc:56
 msgid "Host:"
-msgstr ""
+msgstr "Mêvandar:"
 
 #: HostConnector.cc:66
 msgid "Enter the name of the host you want to connect to."
@@ -551,11 +557,11 @@ msgstr ""
 
 #: HostConnector.cc:72
 msgid "Connection Type"
-msgstr ""
+msgstr "Cureyê Girêdanê"
 
 #: HostConnector.cc:78
 msgid "ssh"
-msgstr ""
+msgstr "ssh"
 
 #: HostConnector.cc:81
 msgid "Select this to use the secure shell to login to the remote host."
@@ -563,7 +569,7 @@ msgstr ""
 
 #: HostConnector.cc:84
 msgid "rsh"
-msgstr ""
+msgstr "rsh"
 
 #: HostConnector.cc:85
 msgid "Select this to use the remote shell to login to the remote host."
@@ -571,37 +577,31 @@ msgstr ""
 
 #: HostConnector.cc:88
 msgid "Daemon"
-msgstr ""
+msgstr "Sevîs"
 
 #: HostConnector.cc:89
-msgid ""
-"Select this if you want to connect to a ksysguard daemon that is running on "
-"the machine you want to connect to, and is listening for client requests."
+msgid "Select this if you want to connect to a ksysguard daemon that is running on the machine you want to connect to, and is listening for client requests."
 msgstr ""
 
 #: HostConnector.cc:92
 msgid "Custom command"
-msgstr ""
+msgstr "Fermana bijare"
 
 #: HostConnector.cc:93
-msgid ""
-"Select this to use the command you entered below to start ksysguardd on the "
-"remote host."
+msgid "Select this to use the command you entered below to start ksysguardd on the remote host."
 msgstr ""
 
 #: HostConnector.cc:96
 msgid "Port:"
-msgstr ""
+msgstr "Dergeh:"
 
 #: HostConnector.cc:103
-msgid ""
-"Enter the port number on which the ksysguard daemon is listening for "
-"connections."
+msgid "Enter the port number on which the ksysguard daemon is listening for connections."
 msgstr ""
 
 #: HostConnector.cc:106
 msgid "e.g.  3112"
-msgstr ""
+msgstr "mînak,  3112"
 
 #: HostConnector.cc:109
 msgid "Command:"
@@ -616,9 +616,7 @@ msgid "e.g. ssh -l root remote.host.org ksysguardd"
 msgstr ""
 
 #: Workspace.cc:47
-msgid ""
-"This is your work space. It holds your tabs. You need to create a new tab "
-"(Menu File->New) before you can drag sensors here."
+msgid "This is your work space. It holds your tabs. You need to create a new tab (Menu File->New) before you can drag sensors here."
 msgstr ""
 
 #: Workspace.cc:107
@@ -635,13 +633,14 @@ msgstr ""
 
 #: Workspace.cc:177
 msgid "*.sgrd|Sensor Files (*.sgrd)"
-msgstr ""
+msgstr "*.sgrd|Pelên Sensor (*.sgrd)"
 
 #: Workspace.cc:177
 msgid "Select Tab File to Import"
 msgstr ""
 
-#: Workspace.cc:205 Workspace.cc:226
+#: Workspace.cc:205
+#: Workspace.cc:226
 msgid "You do not have a tab that could be saved."
 msgstr ""
 
@@ -666,9 +665,6 @@ msgid "Size ratio:"
 msgstr ""
 
 #: KSGAppletSettings.cc:63
-#, fuzzy
-#| msgid "%"
-msgctxt "Number suffix in spinbox"
 msgid "%"
 msgstr "%"
 
@@ -684,17 +680,20 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, titleFrame)
 #. i18n: file: SensorDisplayLib/SensorLoggerSettingsWidget.ui:16
 #. i18n: ectx: property (title), widget (QGroupBox, titleFrame)
-#: SensorDisplayLib/DancingBarsSettings.cc:58 rc.cpp:89 rc.cpp:104
+#: SensorDisplayLib/DancingBarsSettings.cc:58
+#: rc.cpp:89
+#: rc.cpp:104
 #: WorkSheetSettings.cc:51
 msgid "Title"
-msgstr ""
+msgstr "Sernav"
 
 #. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:35
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, m_title)
 #: SensorDisplayLib/DancingBarsSettings.cc:63
-#: SensorDisplayLib/FancyPlotterSettings.cc:72 rc.cpp:53
+#: SensorDisplayLib/FancyPlotterSettings.cc:72
+#: rc.cpp:53
 msgid "Enter the title of the display here."
-msgstr ""
+msgstr "Sernavê nîşanderê binivîse li vir."
 
 #: SensorDisplayLib/DancingBarsSettings.cc:68
 msgid "Display Range"
@@ -703,80 +702,83 @@ msgstr ""
 #: SensorDisplayLib/DancingBarsSettings.cc:73
 #: SensorDisplayLib/FancyPlotterSettings.cc:99
 msgid "Minimum value:"
-msgstr ""
+msgstr "Nirxê biçûktirîn: "
 
 #: SensorDisplayLib/DancingBarsSettings.cc:81
 #: SensorDisplayLib/FancyPlotterSettings.cc:106
-msgid ""
-"Enter the minimum value for the display here. If both values are 0, "
-"automatic range detection is enabled."
+msgid "Enter the minimum value for the display here. If both values are 0, automatic range detection is enabled."
 msgstr ""
 
 #: SensorDisplayLib/DancingBarsSettings.cc:85
 #: SensorDisplayLib/FancyPlotterSettings.cc:110
 msgid "Maximum value:"
-msgstr ""
+msgstr "Nirxê mezintirîn:"
 
 #: SensorDisplayLib/DancingBarsSettings.cc:93
 #: SensorDisplayLib/FancyPlotterSettings.cc:117
-msgid ""
-"Enter the maximum value for the display here. If both values are 0, "
-"automatic range detection is enabled."
+msgid "Enter the maximum value for the display here. If both values are 0, automatic range detection is enabled."
 msgstr ""
 
 #: SensorDisplayLib/DancingBarsSettings.cc:103
 msgid "Alarms"
-msgstr ""
+msgstr "Hişyarî"
 
 #. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:62
 #. i18n: ectx: property (title), widget (QGroupBox, GroupBox1)
-#: SensorDisplayLib/DancingBarsSettings.cc:108 rc.cpp:26
+#: SensorDisplayLib/DancingBarsSettings.cc:108
+#: rc.cpp:26
 msgid "Alarm for Minimum Value"
-msgstr ""
+msgstr "Hişyarî ji bo Nirxê Biçûktirîn"
 
 #: SensorDisplayLib/DancingBarsSettings.cc:113
 #: SensorDisplayLib/DancingBarsSettings.cc:136
 msgid "Enable alarm"
-msgstr ""
+msgstr "Hişyarî yê çalak bike"
 
 #. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:74
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_lowerLimitActive)
 #. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:56
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_lowerLimitActive)
-#: SensorDisplayLib/DancingBarsSettings.cc:114 rc.cpp:32 rc.cpp:62
+#: SensorDisplayLib/DancingBarsSettings.cc:114
+#: rc.cpp:32
+#: rc.cpp:62
 msgid "Enable the minimum value alarm."
-msgstr ""
+msgstr "Nirxê biçûktirîn yê hişyarî yê çalak dike."
 
 #. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:100
 #. i18n: ectx: property (text), widget (QLabel, m_lblLowerLimit)
-#: SensorDisplayLib/DancingBarsSettings.cc:117 rc.cpp:35
+#: SensorDisplayLib/DancingBarsSettings.cc:117
+#: rc.cpp:35
 msgid "Lower limit:"
-msgstr ""
+msgstr "Sînora Jêr:"
 
 #. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:126
 #. i18n: ectx: property (title), widget (QGroupBox, GroupBox1_2)
-#: SensorDisplayLib/DancingBarsSettings.cc:131 rc.cpp:38
+#: SensorDisplayLib/DancingBarsSettings.cc:131
+#: rc.cpp:38
 msgid "Alarm for Maximum Value"
-msgstr ""
+msgstr "Hişyarî ji bo Nirxê Mezintirîn"
 
 #. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:138
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_upperLimitActive)
 #. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:115
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_upperLimitActive)
-#: SensorDisplayLib/DancingBarsSettings.cc:137 rc.cpp:44 rc.cpp:71
+#: SensorDisplayLib/DancingBarsSettings.cc:137
+#: rc.cpp:44
+#: rc.cpp:71
 msgid "Enable the maximum value alarm."
-msgstr ""
+msgstr "Nirxê mezintirîn ya hişyarî yê çalak dike."
 
 #. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:164
 #. i18n: ectx: property (text), widget (QLabel, m_lblUpperLimit)
-#: SensorDisplayLib/DancingBarsSettings.cc:140 rc.cpp:47
+#: SensorDisplayLib/DancingBarsSettings.cc:140
+#: rc.cpp:47
 msgid "Upper limit:"
-msgstr ""
+msgstr "Sînora Jor:"
 
 #: SensorDisplayLib/DancingBarsSettings.cc:157
-msgctxt "@title:tab Appearance of the bar graph"
 msgid "Look"
-msgstr ""
+msgstr "Binihêre"
 
 #: SensorDisplayLib/DancingBarsSettings.cc:162
 msgid "Normal bar color:"
@@ -794,21 +796,22 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #. i18n: file: SensorDisplayLib/LogFileSettings.ui:74
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#: SensorDisplayLib/DancingBarsSettings.cc:176 SensorDisplayLib/LogFile.cc:100
-#: rc.cpp:86 rc.cpp:101 rc.cpp:113 rc.cpp:128
+#: SensorDisplayLib/DancingBarsSettings.cc:176
+#: SensorDisplayLib/LogFile.cc:100
+#: rc.cpp:86
+#: rc.cpp:101
+#: rc.cpp:113
+#: rc.cpp:128
 msgid "Background color:"
-msgstr ""
+msgstr "Rengê rûerdê:"
 
 #: SensorDisplayLib/DancingBarsSettings.cc:183
 #: SensorDisplayLib/FancyPlotterSettings.cc:185
 msgid "Font size:"
-msgstr ""
+msgstr "Mezinahiya nivîsê:"
 
 #: SensorDisplayLib/DancingBarsSettings.cc:187
-msgid ""
-"This determines the size of the font used to print a label underneath the "
-"bars. Bars are automatically suppressed if text becomes too large, so it is "
-"advisable to use a small font size here."
+msgid "This determines the size of the font used to print a label underneath the bars. Bars are automatically suppressed if text becomes too large, so it is advisable to use a small font size here."
 msgstr ""
 
 #: SensorDisplayLib/DancingBarsSettings.cc:195
@@ -867,10 +870,7 @@ msgid "Automatic range detection"
 msgstr ""
 
 #: SensorDisplayLib/FancyPlotterSettings.cc:96
-msgid ""
-"Check this box if you want the display range to adapt dynamically to the "
-"currently displayed values; if you do not check this, you have to specify "
-"the range you want in the fields below."
+msgid "Check this box if you want the display range to adapt dynamically to the currently displayed values; if you do not check this, you have to specify the range you want in the fields below."
 msgstr ""
 
 #: SensorDisplayLib/FancyPlotterSettings.cc:123
@@ -882,8 +882,9 @@ msgid "pixels per time period"
 msgstr ""
 
 #: SensorDisplayLib/FancyPlotterSettings.cc:141
+#, fuzzy
 msgid "Grid"
-msgstr ""
+msgstr "Izxere"
 
 #: SensorDisplayLib/FancyPlotterSettings.cc:146
 msgid "Lines"
@@ -919,23 +920,23 @@ msgstr ""
 
 #: SensorDisplayLib/FancyPlotterSettings.cc:175
 msgid "Text"
-msgstr ""
+msgstr "Nivîsar"
 
 #: SensorDisplayLib/FancyPlotterSettings.cc:181
 msgid "Show axis labels"
 msgstr ""
 
 #: SensorDisplayLib/FancyPlotterSettings.cc:182
-msgid ""
-"Check this box if horizontal lines should be decorated with the values they "
-"mark."
+msgid "Check this box if horizontal lines should be decorated with the values they mark."
 msgstr ""
 
 #. i18n: file: SensorDisplayLib/ListViewSettingsWidget.ui:37
 #. i18n: ectx: property (title), widget (QGroupBox, colorFrame)
 #. i18n: file: SensorDisplayLib/SensorLoggerSettingsWidget.ui:37
 #. i18n: ectx: property (title), widget (QGroupBox, colorFrame)
-#: SensorDisplayLib/FancyPlotterSettings.cc:202 rc.cpp:92 rc.cpp:107
+#: SensorDisplayLib/FancyPlotterSettings.cc:202
+#: rc.cpp:92
+#: rc.cpp:107
 msgid "Colors"
 msgstr "Reng"
 
@@ -949,11 +950,11 @@ msgstr ""
 
 #: SensorDisplayLib/FancyPlotterSettings.cc:220
 msgid "Background:"
-msgstr ""
+msgstr "Rûerd:"
 
 #: SensorDisplayLib/FancyPlotterSettings.cc:250
 msgid "Set Color..."
-msgstr ""
+msgstr "Rengê Ava bike..."
 
 #: SensorDisplayLib/FancyPlotterSettings.cc:251
 msgid "Push this button to configure the color of the sensor in the diagram."
@@ -961,22 +962,26 @@ msgstr ""
 
 #: SensorDisplayLib/FancyPlotterSettings.cc:263
 msgid "Move Up"
-msgstr ""
+msgstr "Bibe Jor"
 
 #: SensorDisplayLib/FancyPlotterSettings.cc:268
 msgid "Move Down"
-msgstr ""
+msgstr "Bibe Jêr"
 
-#: SensorDisplayLib/SensorLoggerDlg.cc:32 SensorDisplayLib/SensorLogger.cc:431
+#: SensorDisplayLib/SensorLoggerDlg.cc:32
+#: SensorDisplayLib/SensorLogger.cc:431
 msgid "Sensor Logger"
 msgstr ""
 
-#: SensorDisplayLib/DancingBars.cc:96 SensorDisplayLib/FancyPlotter.cc:182
+#: SensorDisplayLib/DancingBars.cc:96
+#: SensorDisplayLib/FancyPlotter.cc:182
 msgid "OK"
 msgstr "Temam"
 
-#: SensorDisplayLib/DancingBars.cc:96 SensorDisplayLib/FancyPlotter.cc:182
-#: SensorDisplayLib/FancyPlotter.cc:341 SensorDisplayLib/FancyPlotter.cc:388
+#: SensorDisplayLib/DancingBars.cc:96
+#: SensorDisplayLib/FancyPlotter.cc:182
+#: SensorDisplayLib/FancyPlotter.cc:341
+#: SensorDisplayLib/FancyPlotter.cc:388
 msgid "Error"
 msgstr "Çewtî"
 
@@ -984,47 +989,44 @@ msgstr "Çewtî"
 msgid "Launch &System Guard"
 msgstr ""
 
-#: SensorDisplayLib/SensorDisplay.cc:122 SensorDisplayLib/SensorLogger.cc:598
+#: SensorDisplayLib/SensorDisplay.cc:122
+#: SensorDisplayLib/SensorLogger.cc:598
 msgid "&Properties"
 msgstr "&Taybetmendî"
 
-#: SensorDisplayLib/SensorDisplay.cc:127 SensorDisplayLib/SensorLogger.cc:603
+#: SensorDisplayLib/SensorDisplay.cc:127
+#: SensorDisplayLib/SensorLogger.cc:603
 msgid "&Remove Display"
 msgstr ""
 
 #: SensorDisplayLib/SensorDisplay.cc:196
 #, kde-format
-msgid ""
-"<qt><p>This is a sensor display. To customize a sensor display click the "
-"right mouse button here and select the <i>Properties</i> entry from the "
-"popup menu. Select <i>Remove</i> to delete the display from the worksheet.</"
-"p>%1</qt>"
+msgid "<qt><p>This is a sensor display. To customize a sensor display click the right mouse button here and select the <i>Properties</i> entry from the popup menu. Select <i>Remove</i> to delete the display from the worksheet.</p>%1</qt>"
 msgstr ""
 
 #: SensorDisplayLib/FancyPlotter.cc:93
 msgctxt "Largest axis title"
 msgid "99999 XXXX"
-msgstr ""
+msgstr "99999 XXXX"
 
 #: SensorDisplayLib/FancyPlotter.cc:344
 #, kde-format
-msgctxt "%1 is what is being shown statistics for, like 'Memory', 'Swap', etc."
 msgid "<p><b>%1:</b><br>"
-msgstr ""
+msgstr "<p><b>%1:</b><br>"
 
 #: SensorDisplayLib/FancyPlotter.cc:391
 #, kde-format
-msgctxt "%1 and %2 are sensor's last and maximum value"
 msgid "%1 of %2"
-msgstr ""
+msgstr "%1 yê %2"
 
 #: SensorDisplayLib/SensorLogger.cc:138
 msgid "Logging"
-msgstr ""
+msgstr "Tomar"
 
 #. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:34
 #. i18n: ectx: property (title), widget (QGroupBox, timerFrame)
-#: SensorDisplayLib/SensorLogger.cc:141 rc.cpp:20
+#: SensorDisplayLib/SensorLogger.cc:141
+#: rc.cpp:20
 msgid "Timer Interval"
 msgstr ""
 
@@ -1034,7 +1036,7 @@ msgstr ""
 
 #: SensorDisplayLib/SensorLogger.cc:147
 msgid "Host Name"
-msgstr ""
+msgstr "Navê Hostê"
 
 #: SensorDisplayLib/SensorLogger.cc:150
 msgid "Log File"
@@ -1058,15 +1060,15 @@ msgstr ""
 
 #: SensorDisplayLib/SensorModel.cc:166
 msgid "Host"
-msgstr ""
+msgstr "Host"
 
 #: SensorDisplayLib/SensorModel.cc:169
 msgid "Sensor"
-msgstr ""
+msgstr "Têgihîştî"
 
 #: SensorDisplayLib/SensorModel.cc:172
 msgid "Unit"
-msgstr ""
+msgstr "Yekitî"
 
 #: SensorDisplayLib/SensorModel.cc:175
 msgid "Status"
@@ -1082,13 +1084,12 @@ msgstr ""
 
 #. i18n: file: SensorDisplayLib/LogFileSettings.ui:61
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: SensorDisplayLib/LogFile.cc:98 rc.cpp:125
+#: SensorDisplayLib/LogFile.cc:98
+#: rc.cpp:125
 msgid "Foreground color:"
-msgstr ""
+msgstr "Rengên pêş-erdê:"
 
 #: SensorDisplayLib/MultiMeterSettings.cc:31
-msgctxt ""
-"Multimeter is a sensor display that mimics 'digital multimeter' aparatus"
 msgid "Multimeter Settings"
 msgstr ""
 
@@ -1100,15 +1101,13 @@ msgstr ""
 msgid "Sensor Logger Settings"
 msgstr ""
 
-#: SensorDisplayLib/DummyDisplay.cc:30 SensorDisplayLib/DummyDisplay.cc:38
+#: SensorDisplayLib/DummyDisplay.cc:30
+#: SensorDisplayLib/DummyDisplay.cc:38
 msgid "Drop Sensor Here"
 msgstr ""
 
 #: SensorDisplayLib/DummyDisplay.cc:32
-msgid ""
-"This is an empty space in a worksheet. Drag a sensor from the Sensor Browser "
-"and drop it here. A sensor display will appear that allows you to monitor "
-"the values of the sensor over time."
+msgid "This is an empty space in a worksheet. Drag a sensor from the Sensor Browser and drop it here. A sensor display will appear that allows you to monitor the values of the sensor over time."
 msgstr ""
 
 #. i18n: file: ksysguardui.rc:4
@@ -1138,12 +1137,12 @@ msgstr "Darikê Amûran ya Mak"
 #: rc.cpp:13
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "Omer Ensari"
 
 #: rc.cpp:14
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "oensari@gmail.com"
 
 #. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:19
 #. i18n: ectx: property (title), widget (QGroupBox, fileFrame)
@@ -1155,15 +1154,17 @@ msgstr "Pel"
 #. i18n: ectx: property (text), widget (QCheckBox, m_lowerLimitActive)
 #. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:59
 #. i18n: ectx: property (text), widget (QCheckBox, m_lowerLimitActive)
-#: rc.cpp:29 rc.cpp:65
+#: rc.cpp:29
+#: rc.cpp:65
 msgid "&Enable alarm"
-msgstr ""
+msgstr "Hişyarî yê &çalak bike"
 
 #. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:135
 #. i18n: ectx: property (text), widget (QCheckBox, m_upperLimitActive)
 #. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:118
 #. i18n: ectx: property (text), widget (QCheckBox, m_upperLimitActive)
-#: rc.cpp:41 rc.cpp:74
+#: rc.cpp:41
+#: rc.cpp:74
 msgid "E&nable alarm"
 msgstr ""
 
@@ -1195,7 +1196,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, m_lblUpperLimit)
 #: rc.cpp:77
 msgid "&Upper limit:"
-msgstr ""
+msgstr "Sînora &Jor:"
 
 #. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:174
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
@@ -1213,9 +1214,10 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #. i18n: file: SensorDisplayLib/SensorLoggerSettingsWidget.ui:51
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: rc.cpp:95 rc.cpp:110
+#: rc.cpp:95
+#: rc.cpp:110
 msgid "Text color:"
-msgstr ""
+msgstr "Rengê nivîsê:"
 
 #. i18n: file: SensorDisplayLib/ListViewSettingsWidget.ui:64
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
@@ -1227,7 +1229,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
 #: rc.cpp:116
 msgid "Alarm color:"
-msgstr ""
+msgstr "Rengê alarmê:"
 
 #. i18n: file: SensorDisplayLib/LogFileSettings.ui:28
 #. i18n: ectx: attribute (title), widget (QWidget, textTab)
@@ -1239,13 +1241,13 @@ msgstr "&Nivîs"
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:122
 msgid "T&itle"
-msgstr ""
+msgstr "S&ernav"
 
 #. i18n: file: SensorDisplayLib/LogFileSettings.ui:154
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
 #: rc.cpp:131
 msgid "Fi&lter"
-msgstr ""
+msgstr "Pa%&rzûn"
 
 #. i18n: file: SensorDisplayLib/LogFileSettings.ui:175
 #. i18n: ectx: property (text), widget (QPushButton, addButton)
@@ -1269,41 +1271,34 @@ msgstr "&Guherandin"
 #. i18n: file: ./ProcessTable.sgrd:3
 #. i18n: tag display attribute title
 #. i18n: file: ./ProcessTable.sgrd:5
-#: rc.cpp:143 rc.cpp:146
+#: rc.cpp:143
+#: rc.cpp:146
 msgid "Process Table"
 msgstr ""
-
-#. i18n: tag WorkSheet attribute title
-#. i18n: file: ./SystemLoad.sgrd:3
-#: rc.cpp:149
-msgid "System Load"
-msgstr "Bara Pergalê"
 
 #. i18n: tag display attribute title
 #. i18n: file: ./SystemLoad.sgrd:5
 #: rc.cpp:152
 msgid "CPU History"
-msgstr ""
+msgstr "Dîroka CPU"
 
 #. i18n: tag display attribute title
 #. i18n: file: ./SystemLoad.sgrd:8
 #: rc.cpp:155
 msgid "Memory and Swap History"
-msgstr ""
+msgstr "Dîroka Bîr û Swap"
 
 #. i18n: tag display attribute title
 #. i18n: file: ./SystemLoad.sgrd:12
 #: rc.cpp:158
-#, fuzzy
 #| msgid "Network"
 msgid "Network History"
-msgstr "Tor"
+msgstr "Dîroka Torê"
 
 #: WorkSheetSettings.cc:40
-#, fuzzy
 #| msgid "Properties"
 msgid "Tab Properties"
-msgstr "Taybetmendî"
+msgstr "Taybetmendiyên Hilpekînê"
 
 #: WorkSheetSettings.cc:62
 msgid "Properties"
@@ -1338,25 +1333,21 @@ msgid "Drag sensors to empty cells of a worksheet or the panel applet."
 msgstr ""
 
 #: SensorBrowser.cc:439
-msgid ""
-"The sensor browser lists the connected hosts and the sensors that they "
-"provide. Click and drag sensors into drop zones of a worksheet or the panel "
-"applet. A display will appear that visualizes the values provided by the "
-"sensor. Some sensor displays can display values of multiple sensors. Simply "
-"drag other sensors on to the display to add more sensors."
+msgid "The sensor browser lists the connected hosts and the sensors that they provide. Click and drag sensors into drop zones of a worksheet or the panel applet. A display will appear that visualizes the values provided by the sensor. Some sensor displays can display values of multiple sensors. Simply drag other sensors on to the display to add more sensors."
 msgstr ""
 
 #: ksysguard.cc:73
 msgid "KDE System Monitor"
 msgstr "Temaşekerê Pergalê yê KDE"
 
-#: ksysguard.cc:150 ksysguard.cc:541
+#: ksysguard.cc:150
+#: ksysguard.cc:541
 msgid "System Monitor"
 msgstr "Temaşekerê Pergalê"
 
 #: ksysguard.cc:151
 msgid "&New Tab..."
-msgstr ""
+msgstr "Hilpekîna &Nû..."
 
 #: ksysguard.cc:152
 msgid "Import Tab Fr&om File..."
@@ -1364,11 +1355,11 @@ msgstr ""
 
 #: ksysguard.cc:153
 msgid "Save Tab &As..."
-msgstr ""
+msgstr "Hilpekînê &Cuda Tomarbike..."
 
 #: ksysguard.cc:154
 msgid "&Close Tab"
-msgstr ""
+msgstr "Hilpekînê &Bigire"
 
 #: ksysguard.cc:155
 msgid "Monitor &Remote Machine..."
@@ -1376,30 +1367,25 @@ msgstr ""
 
 #: ksysguard.cc:156
 msgid "&Download New Tabs..."
-msgstr ""
+msgstr "Hilpekînên Nû &Bidaxîne"
 
 #: ksysguard.cc:157
-#, fuzzy
 #| msgid "&Properties"
 msgid "Tab &Properties"
-msgstr "&Taybetmendî"
+msgstr "&Taybetmendyên Hilpekînê"
 
 #: ksysguard.cc:449
 #, kde-format
-msgid " 1 process "
-msgid_plural " %1 processes "
-msgstr[0] ""
-msgstr[1] ""
+msgid " %1 processes "
+msgstr "Pêvajoyên %1"
 
 #: ksysguard.cc:455
 #, kde-format
 msgid " CPU: %1% "
-msgstr ""
+msgstr " CPU: %1%"
 
 #: ksysguard.cc:469
-#, fuzzy, kde-format
-#| msgid " Memory: %1 / %2 "
-msgctxt "Arguments are formatted byte sizes (used/total)"
+#, kde-format
 msgid " Memory: %1 / %2 "
 msgstr "Bîr: %1 / %2 "
 
@@ -1408,15 +1394,13 @@ msgid " No swap space available "
 msgstr ""
 
 #: ksysguard.cc:498
-#, fuzzy, kde-format
-#| msgid " Memory: %1 / %2 "
-msgctxt "Arguments are formatted byte sizes (used/total)"
+#, kde-format
 msgid " Swap: %1 / %2 "
-msgstr "Bîr: %1 / %2 "
+msgstr " Swap: %1 / %2 "
 
 #: ksysguard.cc:543
 msgid "(c) 1996-2008 The KDE System Monitor Developers"
-msgstr ""
+msgstr "(c) 1996-2008 Pêşvebirên KDE Monîtora Pergalê"
 
 #: ksysguard.cc:544
 msgid "John Tapsell"
@@ -1424,7 +1408,7 @@ msgstr "John Tapsell"
 
 #: ksysguard.cc:544
 msgid "Current Maintainer"
-msgstr ""
+msgstr "Kesê miqete yê niha"
 
 #: ksysguard.cc:545
 msgid "Chris Schlaeger"
@@ -1432,7 +1416,7 @@ msgstr "Chris Schlaeger"
 
 #: ksysguard.cc:545
 msgid "Previous Maintainer"
-msgstr ""
+msgstr "Kesê Miqete yê Berê"
 
 #: ksysguard.cc:546
 msgid "Greg Martyn"
@@ -1480,7 +1464,3 @@ msgstr ""
 #~ msgid "Labels"
 #~ msgstr "Etîket"
 
-#, fuzzy
-#~| msgid "System Load"
-#~ msgid "Sensor Load"
-#~ msgstr "Bara Pergalê"

@@ -8,22 +8,21 @@ msgstr ""
 "Project-Id-Version: kmenuedit\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2008-11-18 09:55+0100\n"
-"PO-Revision-Date: 2008-01-01 16:42+0100\n"
-"Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
+"PO-Revision-Date: 2008-12-23 01:15+0200\n"
+"Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <ku@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural= n != 1;\n"
+"X-Poedit-Language: Kurdish\n"
 
 #: basictab.cpp:81
 msgid ""
-"Following the command, you can have several place holders which will be "
-"replaced with the actual values when the actual program is run:\n"
+"Following the command, you can have several place holders which will be replaced with the actual values when the actual program is run:\n"
 "%f - a single file name\n"
-"%F - a list of files; use for applications that can open several local files "
-"at once\n"
+"%F - a list of files; use for applications that can open several local files at once\n"
 "%u - a single URL\n"
 "%U - a list of URLs\n"
 "%d - the folder of the file to open\n"
@@ -34,8 +33,9 @@ msgid ""
 msgstr ""
 
 #: basictab.cpp:93
+#, fuzzy
 msgid "Enable &launch feedback"
-msgstr ""
+msgstr "Wergirtina bi&veger çalak bike"
 
 #: basictab.cpp:94
 msgid "&Place in system tray"
@@ -43,11 +43,11 @@ msgstr ""
 
 #: basictab.cpp:95
 msgid "Only show in KDE"
-msgstr ""
+msgstr "Tenê di KDE de nîşan bide"
 
 #: basictab.cpp:96
 msgid "Hidden entry"
-msgstr ""
+msgstr "Têketina veşartî"
 
 #: basictab.cpp:100
 msgid "&Name:"
@@ -65,9 +65,10 @@ msgstr "&Şîrove:"
 msgid "Co&mmand:"
 msgstr "Fer&man:"
 
-#: basictab.cpp:147 preferencesdlg.cpp:72
+#: basictab.cpp:147
+#: preferencesdlg.cpp:72
 msgid "General"
-msgstr ""
+msgstr "Giştî"
 
 #: basictab.cpp:158
 msgid "&Work path:"
@@ -91,16 +92,14 @@ msgstr "Navê &Bikarhêner:"
 
 #: basictab.cpp:235
 msgid "Current shortcut &key:"
-msgstr ""
+msgstr "&Bişkojka kurterê ya heyî:"
 
 #: basictab.cpp:245
 msgid "Advanced"
-msgstr ""
+msgstr "Pêşketî"
 
 #: khotkeys.cpp:55
-msgid ""
-"Unable to contact khotkeys. Your changes are saved but i failed to activate "
-"them"
+msgid "Unable to contact khotkeys. Your changes are saved but i failed to activate them"
 msgstr ""
 
 #: kmenuedit.cpp:71
@@ -183,26 +182,27 @@ msgstr ""
 msgid "Menu entry to pre-select"
 msgstr ""
 
-#: menufile.cpp:102 menufile.cpp:115
+#: menufile.cpp:102
+#: menufile.cpp:115
 #, kde-format
 msgid "Could not write to %1"
 msgstr "Nivîsîna li %1 biserneket"
 
 #: preferencesdlg.cpp:36
 msgid "Spell Checking"
-msgstr ""
+msgstr "Kontrola Rastnivîsê"
 
 #: preferencesdlg.cpp:37
 msgid "Spell checking Options"
-msgstr ""
+msgstr "Vebijêrkên kontrola rastnivîsê"
 
 #: preferencesdlg.cpp:42
 msgid "Misc"
-msgstr ""
+msgstr "Cûr bi cûr"
 
 #: preferencesdlg.cpp:75
 msgid "Show hidden entries"
-msgstr ""
+msgstr "Têketinên veşartî nîşan bide"
 
 #. i18n: file: kmenueditui.rc:6
 #. i18n: ectx: Menu (file)
@@ -262,26 +262,21 @@ msgid "Menu changes could not be saved because of the following problem:"
 msgstr "Tomarkirina guhartinên pêşekê biserneket, ev pirsgirêk derket:"
 
 #: treeview.cpp:1587
-msgid ""
-"Do you want to restore the system menu? Warning: This will remove all custom "
-"menus."
+msgid "Do you want to restore the system menu? Warning: This will remove all custom menus."
 msgstr ""
 
 #~ msgid "KDE control center editor"
 #~ msgstr "Edîtorê navenda kontrolê ya KDE"
-
 #~ msgid "KDE Control Center Editor"
 #~ msgstr "Edîtorê Navenda Kontrolê ya KDE"
-
 #~ msgid "(C) 2000-2004, Waldo Bastian, Raffaele Sandrini, Matthias Elter"
 #~ msgstr "(C) 2000-2004, Waldo Bastian, Raffaele Sandrini, Matthias Elter"
-
 #~ msgid ""
 #~ "You have made changes to the Control Center.\n"
 #~ "Do you want to save the changes or discard them?"
 #~ msgstr ""
 #~ "Te Navenda Kontrolê guherand.\n"
 #~ "Dixwazî guhartinan tomar bikî an biavêjî?"
-
 #~ msgid "Save Control Center Changes?"
 #~ msgstr "Guhartinên Navenda Kontrolê Werin Tomarkirin?"
+
