@@ -7,226 +7,237 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio_sftp\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-10 11:23+0100\n"
-"PO-Revision-Date: 2007-12-31 16:13+0100\n"
-"Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
+"POT-Creation-Date: 2008-12-21 10:23+0100\n"
+"PO-Revision-Date: 2009-01-08 22:58+0200\n"
+"Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural= n != 1;\n"
+"X-Poedit-Language: Kurdish\n"
 
-#: kio_sftp.cpp:431
+#: kio_sftp.cpp:428
 msgid "An internal error occurred. Please retry the request again."
-msgstr ""
+msgstr "Çewtiya hûndirîn çêbû. Jê kerema xwe daxwazê cardin biceribîne. "
 
-#: kio_sftp.cpp:514
+#: kio_sftp.cpp:511
 #, kde-format
 msgid "Opening SFTP connection to host %1:%2"
-msgstr ""
+msgstr "Girêdana SFTP bi mêvandara %1:%2 re tê vekirin"
 
-#: kio_sftp.cpp:518
+#: kio_sftp.cpp:515
 msgid "No hostname specified"
-msgstr ""
+msgstr "Tu nav ji bo pêşkêşkerê nehatiye dîyar kirin"
 
-#: kio_sftp.cpp:530
+#: kio_sftp.cpp:527
 msgid "SFTP Login"
 msgstr "Têketina SFTP"
 
-#: kio_sftp.cpp:532
+#: kio_sftp.cpp:529
 msgid "site:"
-msgstr ""
+msgstr "malper:"
 
-#: kio_sftp.cpp:636
+#: kio_sftp.cpp:633
 msgid "Please enter your username and key passphrase."
-msgstr ""
+msgstr "Jê kerema xwe navê bikarhêner û hevoka nasnavê têkevê."
 
-#: kio_sftp.cpp:638
+#: kio_sftp.cpp:635
 msgid "Please enter your username and password."
-msgstr ""
+msgstr "Jê kerema xwe navê bikarhêner û nasnavê têkevê."
 
-#: kio_sftp.cpp:646
+#: kio_sftp.cpp:643
 msgid "Incorrect username or password"
-msgstr ""
+msgstr "Navê bikarhêner an jî nasnav şaşî ye"
 
-#: kio_sftp.cpp:651
+#: kio_sftp.cpp:648
 msgid "Please enter a username and password"
-msgstr ""
+msgstr "Jê kerema xwe navê bikarhêner û nasnavê têkevê"
 
-#: kio_sftp.cpp:712
+#: kio_sftp.cpp:709
 msgid "Warning: Cannot verify host's identity."
-msgstr ""
+msgstr "Hişyarî: Nikare nasname ya pêşkêşkerê piştrast bike."
 
-#: kio_sftp.cpp:723
+#: kio_sftp.cpp:720
 msgid "Warning: Host's identity changed."
-msgstr ""
+msgstr "Hişyarî: Nasname ya pêşkêşkerê hat guherandin."
 
-#: kio_sftp.cpp:734 kio_sftp.cpp:735
+#: kio_sftp.cpp:731
+#: kio_sftp.cpp:732
 msgid "Authentication failed."
-msgstr ""
+msgstr "Erêkirin pêk nehat."
 
-#: kio_sftp.cpp:749 kio_sftp.cpp:767
+#: kio_sftp.cpp:746
+#: kio_sftp.cpp:761
 msgid "Connection failed."
-msgstr ""
+msgstr "Girêdan pêk nehat."
 
-#: kio_sftp.cpp:750 ksshprocess.cpp:868 ksshprocess.cpp:1015
+#: kio_sftp.cpp:747
+#: ksshprocess.cpp:868
+#: ksshprocess.cpp:1015
 msgid "Connection closed by remote host."
-msgstr ""
+msgstr "Girêdan alî yê mêvandara dûr ve hat girtin."
 
-#: kio_sftp.cpp:769
+#: kio_sftp.cpp:762
 #, kde-format
 msgid "Unexpected SFTP error: %1"
-msgstr ""
+msgstr "Çewtiya SFTP yê ne li bendê: %1"
 
-#: kio_sftp.cpp:816
+#: kio_sftp.cpp:806
 #, kde-format
 msgid "SFTP version %1"
-msgstr ""
+msgstr "SFTP guherto %1"
 
-#: kio_sftp.cpp:822
+#: kio_sftp.cpp:812
 msgid "Protocol error."
-msgstr ""
+msgstr "Çewtiya protokolê."
 
-#: kio_sftp.cpp:828
+#: kio_sftp.cpp:818
 #, kde-format
 msgid "Successfully connected to %1"
-msgstr ""
+msgstr "Bi serfiraz bi %1 re hat girêdan"
 
-#: kio_sftp.cpp:1188
+#: kio_sftp.cpp:1178
 msgid "An internal error occurred. Please try again."
-msgstr ""
+msgstr "Çewtiya hûndirîn çêbû. Jê kerema xwe cardin biceribîne."
 
-#: kio_sftp.cpp:1209
+#: kio_sftp.cpp:1199
 #, kde-format
-msgid ""
-"Unknown error was encountered while copying the file to '%1'. Please try "
-"again."
-msgstr ""
+msgid "Unknown error was encountered while copying the file to '%1'. Please try again."
+msgstr "Demê ji ber girtina pelê ji '%1' re çewtiya nenas çêbû. Jê kerema xwe cardin biceribîne."
 
-#: kio_sftp.cpp:1427
+#: kio_sftp.cpp:1436
 msgid "The remote host does not support renaming files."
-msgstr ""
+msgstr "Mêvandara dûr piştgirî nade nû ve nav-dana pelan."
 
-#: kio_sftp.cpp:1476
+#: kio_sftp.cpp:1485
 msgid "The remote host does not support creating symbolic links."
-msgstr ""
+msgstr "Mêvandara dûr piştgirî nade afirandina gehînekên sembolîk."
 
-#: kio_sftp.cpp:1611
+#: kio_sftp.cpp:1620
 msgid "Connection closed"
-msgstr ""
+msgstr "Girêdan hate girtin"
 
-#: kio_sftp.cpp:1613
+#: kio_sftp.cpp:1622
 msgid "Could not read SFTP packet"
-msgstr ""
-
-#: kio_sftp.cpp:1726
-msgid "End of file."
-msgstr ""
+msgstr "Nikare pakêta SFTP bixwîne"
 
 #: kio_sftp.cpp:1735
+msgid "End of file."
+msgstr "Dawiya pelê."
+
+#: kio_sftp.cpp:1744
 msgid "SFTP command failed for an unknown reason."
-msgstr ""
+msgstr "Fermana SFTP ji ber sedema nayê zanîn pêk nehat."
 
-#: kio_sftp.cpp:1739
+#: kio_sftp.cpp:1748
 msgid "The SFTP server received a bad message."
-msgstr ""
+msgstr "Pêşkêşkera SFTP peyama xêrab hilgirt."
 
-#: kio_sftp.cpp:1743
+#: kio_sftp.cpp:1752
 msgid "You attempted an operation unsupported by the SFTP server."
-msgstr ""
+msgstr "Te xebata yê alî yê pêşkêşkera SFTP nayê piştgirî dan ceriband."
 
-#: kio_sftp.cpp:1747
+#: kio_sftp.cpp:1756
 #, kde-format
 msgid "Error code: %1"
-msgstr ""
+msgstr "Koda Çewtiyê: %1"
 
 #: ksshprocess.cpp:460
 msgid "Cannot specify a subsystem and command at the same time."
-msgstr ""
+msgstr "Nikare bin-pergal û fermanê hemdemî dîyar bike."
 
 #: ksshprocess.cpp:801
 msgid "No options provided for ssh execution."
-msgstr ""
+msgstr "Tu bijare ji bo xebitandina ssh tune ye"
 
 #: ksshprocess.cpp:809
 msgid "Failed to execute ssh process."
-msgstr ""
+msgstr "Xebitandina pêvajoya ssh pêk nehat."
 
-#: ksshprocess.cpp:834 ksshprocess.cpp:863 ksshprocess.cpp:982
+#: ksshprocess.cpp:834
+#: ksshprocess.cpp:863
+#: ksshprocess.cpp:982
 #: ksshprocess.cpp:1054
 msgid "Error encountered while talking to ssh."
-msgstr ""
+msgstr "Di demê vekirina ssh de çewtî çêbû."
 
 #: ksshprocess.cpp:914
 msgid "Please supply a password."
-msgstr ""
+msgstr "Jê kerema xwe nasnav dîyar bike."
 
 #: ksshprocess.cpp:953
 msgid "Please supply the passphrase for your SSH private key."
-msgstr ""
+msgstr "Jê kerema xwe ji bo mifte ya SSH yê şexsî hevoka nasnavê dîyar bike."
 
 #: ksshprocess.cpp:967
 #, kde-format
 msgid "Authentication to %1 failed"
-msgstr ""
+msgstr "Erêkirina %1 pêk nehat"
 
 #: ksshprocess.cpp:990
 #, kde-format
-msgid ""
-"The identity of the remote host '%1' could not be verified because the "
-"host's key is not in the \"known hosts\" file."
-msgstr ""
+msgid "The identity of the remote host '%1' could not be verified because the host's key is not in the \"known hosts\" file."
+msgstr "Nasnameya mêvandara '%1' nayê rastandin lewre ku mifte ye mêvandarê di pela \"mêvandarên nas\" de nîn e."
 
 #: ksshprocess.cpp:996
-msgid ""
-" Manually, add the host's key to the \"known hosts\" file or contact your "
-"administrator."
-msgstr ""
+msgid " Manually, add the host's key to the \"known hosts\" file or contact your administrator."
+msgstr " Bi destan, mifte ya mêvandarê lê pela \"mêvandarên nas\" zêde bike an jî bi rêveberê xwe re bikeve têkilî yê."
 
 #: ksshprocess.cpp:1002
 #, kde-format
 msgid " Manually, add the host's key to %1 or contact your administrator."
-msgstr ""
+msgstr " Bi destan, mifte ya mêvandarê lê %1 zêde bike an jî bi rêveberê xwe re bikeve têkilî yê."
 
 #: ksshprocess.cpp:1034
 #, kde-format
 msgid ""
-"The identity of the remote host '%1' could not be verified. The host's key "
-"fingerprint is:\n"
+"The identity of the remote host '%1' could not be verified. The host's key fingerprint is:\n"
 "%2\n"
-"You should verify the fingerprint with the host's administrator before "
-"connecting.\n"
+"You should verify the fingerprint with the host's administrator before connecting.\n"
 "\n"
 "Would you like to accept the host's key and connect anyway? "
 msgstr ""
+"Nasname ya mêvandara dûr '%1' nayê rastandin. Mifte ya rêçtilî ya mêvandarê:\n"
+"%2\n"
+"Berî ya girêdanê tu divê rêçtilî yê bi rêveberê mêvandarê re bidî rastandin.\n"
+"\n"
+"Tu dîsa jî dixwazî rêçtilî ya mêvandarê bipejirînî û bidî girêdan? "
 
 #: ksshprocess.cpp:1062
 #, kde-format
 msgid ""
 "WARNING: The identity of the remote host '%1' has changed!\n"
 "\n"
-"Someone could be eavesdropping on your connection, or the administrator may "
-"have just changed the host's key. Either way, you should verify the host's "
-"key fingerprint with the host's administrator. The key fingerprint is:\n"
+"Someone could be eavesdropping on your connection, or the administrator may have just changed the host's key. Either way, you should verify the host's key fingerprint with the host's administrator. The key fingerprint is:\n"
 "%2\n"
 "Add the correct host key to \"%3\" to get rid of this message."
 msgstr ""
+"HIŞYARÎ: Nasnameya mêvandarê dûr '%1' hatiye guherandin!\n"
+"\n"
+"Di be ku kesekî veşartî di girêdanê de hebe, an jî rêveberê mêvandarê mifte ya mêvandarê hêj de guherandî be. Her çawa be jî, tu divê rêçtilî ya mifte ya mêvandarê bi rêveberê mêvandarê re bidî rastandin. Mifte ya rêçtilî:\n"
+"%2\n"
+"Mifte ya rast lê \"%3\" zêde bike ku cardin vê peyamê nestînî."
 
 #: ksshprocess.cpp:1097
 #, kde-format
 msgid ""
 "WARNING: The identity of the remote host '%1' has changed!\n"
 "\n"
-"Someone could be eavesdropping on your connection, or the administrator may "
-"have just changed the host's key. Either way, you should verify the host's "
-"key fingerprint with the host's administrator before connecting. The key "
-"fingerprint is:\n"
+"Someone could be eavesdropping on your connection, or the administrator may have just changed the host's key. Either way, you should verify the host's key fingerprint with the host's administrator before connecting. The key fingerprint is:\n"
 "%2\n"
 "\n"
 "Would you like to accept the host's new key and connect anyway?"
 msgstr ""
+"HIŞYARÎ: Nasnameya mêvandarê dûr '%1' hatiye guherandin!\n"
+"\n"
+"Di be ku kesekî veşartî di girêdanê de hebe, an jî rêveberê mêvandarê mifte ya mêvandarê hêj de guherandî be. Her çawa be jî, tu divê rêçtilî ya mifte ya mêvandarê bi rêveberê mêvandarê re bidî rastandin. Mifte ya rêçtilî:\n"
+"%2\n"
+"\n"
+"Tu dîsa jî dixwazî mifte ya mêvandarê yê nû bipejirînî û bidî girêdan?"
 
 #: ksshprocess.cpp:1121
 msgid "Host key was rejected."
-msgstr ""
+msgstr "Kurterê nehat pejirandin."
+
