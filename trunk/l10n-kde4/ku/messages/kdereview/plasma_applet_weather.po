@@ -1,0 +1,341 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_weather\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-01-04 10:33+0100\n"
+"PO-Revision-Date: 2009-01-12 03:03+0200\n"
+"Last-Translator: Omer Ensari <oensari@gmail.com>\n"
+"Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural= n != 1;\n"
+"X-Poedit-Language: Kurdish\n"
+"X-Poedit-SourceCharset: utf8\n"
+
+#. i18n: file: weatherAddPlace.ui:19
+#. i18n: ectx: property (windowTitle), widget (QWidget, weatherAddPlace)
+#: rc.cpp:3
+#: weatherapplet.cpp:545
+#: weatherapplet.cpp:558
+msgid "Found Places"
+msgstr "Cihên Hatin Dîtin"
+
+#. i18n: file: weatherAddPlace.ui:25
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:6
+msgid "Found places"
+msgstr "Cihên hatin dîtin"
+
+#. i18n: file: weatherLocations.ui:34
+#. i18n: ectx: property (windowTitle), widget (QWidget, weatherLocations)
+#: rc.cpp:9
+msgid "Locations"
+msgstr "Cih"
+
+#. i18n: file: weatherLocations.ui:56
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:12
+msgid "S&ource"
+msgstr "Ç&avkanî"
+
+#. i18n: file: weatherLocations.ui:95
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:15
+msgid "City"
+msgstr "Bajar"
+
+#. i18n: file: weatherLocations.ui:141
+#. i18n: ectx: property (text), widget (QPushButton, validateButton)
+#: rc.cpp:18
+msgid "&Search"
+msgstr "&Lêgere"
+
+#. i18n: file: weatherLocations.ui:150
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: rc.cpp:21
+msgid "Selected city"
+msgstr "Bajarê hilbijartî"
+
+#. i18n: file: weatherLocations.ui:194
+#. i18n: ectx: property (suffix), widget (QSpinBox, weatherUpdateSpin)
+#: rc.cpp:24
+msgid " minutes"
+msgstr " xulek"
+
+#. i18n: file: weatherLocations.ui:260
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:27
+msgid "Update every"
+msgstr "Rojane bike her"
+
+#. i18n: file: weatherUnits.ui:34
+#. i18n: ectx: property (windowTitle), widget (QWidget, weatherUnits)
+#: rc.cpp:30
+msgid "Weather Units"
+msgstr "Yeka yên Hewayê"
+
+#. i18n: file: weatherUnits.ui:56
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: rc.cpp:33
+msgid "&Temperature unit"
+msgstr "Yeke ya &Germahiyê"
+
+#. i18n: file: weatherUnits.ui:79
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: rc.cpp:36
+msgid "&Wind unit"
+msgstr "Yeke ya &Ba"
+
+#. i18n: file: weatherUnits.ui:102
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: rc.cpp:39
+msgid "&Pressure unit"
+msgstr "Yeke ya &Pestoyê"
+
+#. i18n: file: weatherUnits.ui:125
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: rc.cpp:42
+msgid "&Visibility unit"
+msgstr "Yeke ya &Xuyanî bûnê"
+
+#: weatherapplet.cpp:209
+msgctxt "Shown when you have not set a weather provider"
+msgid "Please Configure"
+msgstr "Veavakirina Ji Dil"
+
+#: weatherapplet.cpp:212
+#, kde-format
+msgctxt "%1 is the weather condition, %2 is the temperature, both come from the weather provider"
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: weatherapplet.cpp:450
+msgid "The applet was not able to contact the server, please try again later"
+msgstr "Sepanok nekarî bi pêşkêşker re bikeve têkilî yê, jê kerema xwe paşê cardin biceribînin "
+
+#: weatherapplet.cpp:454
+#, kde-format
+msgid "The place '%1' is not valid. The data source is not able to find this place."
+msgstr "Cihê '%1' ne derbasdar e. Çavkaniya dane nikare vê cihê bibîne."
+
+#: weatherapplet.cpp:454
+msgid "Invalid Place"
+msgstr "Cihê Ne-derbasdar"
+
+#: weatherapplet.cpp:467
+msgid "Location"
+msgstr "Cih"
+
+#: weatherapplet.cpp:468
+msgid "Units"
+msgstr "Yeke"
+
+#: weatherapplet.cpp:480
+msgid "Kilometers Per Hour (km/h)"
+msgstr "Kîlometre Ji Yek Saetê (km/s)"
+
+#: weatherapplet.cpp:481
+msgid "Metres Per Second (m/s)"
+msgstr "Metre Ji Yek Çirkeyê ( m/ç)"
+
+#: weatherapplet.cpp:482
+msgid "Miles Per Hour (mph)"
+msgstr "Mil Ji Yek Saetê (mph)"
+
+#: weatherapplet.cpp:483
+msgid "Knots (kt)"
+msgstr "Knots (kt)"
+
+#: weatherapplet.cpp:484
+msgid "Beaufort Scale"
+msgstr "Pîvanga Beaufort"
+
+#: weatherapplet.cpp:486
+msgid "Celsius"
+msgstr "Santîgrat"
+
+#: weatherapplet.cpp:487
+msgid "Fahrenheit"
+msgstr "Fahrenayt"
+
+#: weatherapplet.cpp:488
+msgid "Kelvin"
+msgstr "Kelvîn"
+
+#: weatherapplet.cpp:490
+msgid "Kilopascals (kPa)"
+msgstr "Kîlopaskal (kPa)"
+
+#: weatherapplet.cpp:491
+msgid "Inches of Mercury (inHg)"
+msgstr "Înçê Cîwa yê (inHg)"
+
+#: weatherapplet.cpp:492
+msgid "Millibars (mb)"
+msgstr "Mîlîbar (mb)"
+
+#: weatherapplet.cpp:493
+msgid "Hectopascals (hPa)"
+msgstr "Hektopaskal (hPa)"
+
+#: weatherapplet.cpp:496
+msgid "Kilometers"
+msgstr "Kîlometre"
+
+#: weatherapplet.cpp:497
+msgid "Miles"
+msgstr "Mîl"
+
+#: weatherapplet.cpp:547
+msgid "&Add"
+msgstr "&Lê zêde bike"
+
+#: weatherapplet.cpp:617
+#: weatherapplet.cpp:619
+#: weatherapplet.cpp:623
+#: weatherapplet.cpp:625
+#: weatherapplet.cpp:633
+#: weatherapplet.cpp:635
+#: weatherapplet.cpp:639
+#: weatherapplet.cpp:641
+#: weatherapplet.cpp:649
+#: weatherapplet.cpp:651
+#: weatherapplet.cpp:656
+#: weatherapplet.cpp:658
+#: weatherapplet.cpp:693
+#: weatherapplet.cpp:695
+#: weatherapplet.cpp:700
+#: weatherapplet.cpp:702
+#: weatherapplet.cpp:707
+#: weatherapplet.cpp:709
+#, kde-format
+msgid "%1%2"
+msgstr "%1%2"
+
+#: weatherapplet.cpp:668
+#: weatherapplet.cpp:687
+#: weatherapplet.cpp:840
+#: weatherapplet.cpp:852
+#, kde-format
+msgid "%1"
+msgstr "%1"
+
+#: weatherapplet.cpp:676
+#, kde-format
+msgid "Low: %1"
+msgstr "Kêm: %1"
+
+#: weatherapplet.cpp:678
+#, kde-format
+msgid "High: %1"
+msgstr "Zêde: %1"
+
+#: weatherapplet.cpp:680
+#, kde-format
+msgid "H: %1 L: %2"
+msgstr "B: %1 F: %2"
+
+#: weatherapplet.cpp:877
+msgid "5 Days"
+msgstr "5 Roj"
+
+#: weatherapplet.cpp:898
+#, kde-format
+msgid "Windchill: %1%2"
+msgstr "Germahiya tê bihîstin: %1%2"
+
+#: weatherapplet.cpp:904
+#, kde-format
+msgid "Humidex: %1%2"
+msgstr "Xenamî: %1%2"
+
+#: weatherapplet.cpp:910
+#, kde-format
+msgid "Dewpoint: %1"
+msgstr "Xala Xunavê: %1"
+
+#: weatherapplet.cpp:920
+#: weatherapplet.cpp:922
+#: weatherapplet.cpp:927
+#: weatherapplet.cpp:929
+#: weatherapplet.cpp:937
+#: weatherapplet.cpp:939
+#, kde-format
+msgid "Pressure: %1%2"
+msgstr "Pesto: %1%2"
+
+#: weatherapplet.cpp:948
+#, kde-format
+msgid "Pressure Tendency: %1"
+msgstr "Meyla Pestoyê: %1"
+
+#: weatherapplet.cpp:961
+#: weatherapplet.cpp:963
+#: weatherapplet.cpp:968
+#: weatherapplet.cpp:970
+#, kde-format
+msgid "Visibility: %1%2"
+msgstr "Xuyanî bûn: %1%2"
+
+#: weatherapplet.cpp:974
+#, kde-format
+msgid "Visibility: %1"
+msgstr "Xuyanî bûn: %1"
+
+#: weatherapplet.cpp:982
+#, kde-format
+msgid "Humidity: %1"
+msgstr "Xenam: %1"
+
+#: weatherapplet.cpp:989
+#: weatherapplet.cpp:993
+#: weatherapplet.cpp:997
+#: weatherapplet.cpp:1002
+#: weatherapplet.cpp:1005
+#: weatherapplet.cpp:1010
+#: weatherapplet.cpp:1013
+#, kde-format
+msgid "%1 %2%3"
+msgstr "%1 %2%3"
+
+#: weatherapplet.cpp:1018
+msgid "N/A"
+msgstr "Ne-Çalak"
+
+#: weatherapplet.cpp:1021
+msgid "Calm"
+msgstr "Aram"
+
+#: weatherapplet.cpp:1036
+#: weatherapplet.cpp:1039
+#: weatherapplet.cpp:1042
+#: weatherapplet.cpp:1046
+#: weatherapplet.cpp:1048
+#: weatherapplet.cpp:1053
+#: weatherapplet.cpp:1055
+#, kde-format
+msgid "Wind Gust: %1%2"
+msgstr "Bahoz: %1%2"
+
+#: weatherapplet.cpp:1066
+msgid "Details"
+msgstr "Kitekît"
+
+#: weatherapplet.cpp:1081
+msgid "Warnings Issued:"
+msgstr "Tiştên Hişyariyê:"
+
+#: weatherapplet.cpp:1118
+msgid "Watches Issued:"
+msgstr "Tiştên Nihêrînê:"
+
+#: weatherapplet.cpp:1144
+msgid "Notices"
+msgstr "Hişyarî"
+
