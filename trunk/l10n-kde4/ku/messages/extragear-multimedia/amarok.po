@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok-neu\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-14 11:20+0100\n"
+"POT-Creation-Date: 2009-01-15 10:50+0100\n"
 "PO-Revision-Date: 2008-11-07 16:53+0100\n"
 "Last-Translator: Erdal Ronahi <erdal.ronahi@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -768,6 +768,7 @@ msgstr ""
 #: browsers/filebrowser/MyDirOperator.cpp:261
 #: browsers/playlistbrowser/PodcastCategory.cpp:465
 #: browsers/playlistbrowser/UserPlaylistTreeView.cpp:167
+#: services/lastfm/LastFmTreeView.cpp:95
 msgid "&Append to Playlist"
 msgstr ""
 
@@ -776,6 +777,7 @@ msgstr ""
 #: browsers/filebrowser/MyDirOperator.cpp:262
 #: browsers/playlistbrowser/PodcastCategory.cpp:478
 #: browsers/playlistbrowser/UserPlaylistTreeView.cpp:173
+#: services/lastfm/LastFmTreeView.cpp:103
 #, fuzzy
 #| msgid "&Load"
 msgctxt "Replace the currently loaded tracks with these"
@@ -1284,6 +1286,7 @@ msgstr ""
 #: browsers/collectionbrowser/CollectionWidget.cpp:108
 #: browsers/collectionbrowser/CollectionWidget.cpp:140
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:245 rc.cpp:906
+#: services/lastfm/LastFmService.cpp:402
 #: services/magnatune/MagnatuneStore.cpp:190
 #: services/jamendo/JamendoInfoParser.cpp:54 playlist/PlaylistDefines.h:67
 #: playlist/PlaylistHeader.cpp:42 playlist/PlaylistModel.cpp:665
@@ -6253,15 +6256,15 @@ msgstr ""
 msgid "Peak acceleration: "
 msgstr ""
 
-#: services/ServiceBase.cpp:171
+#: services/ServiceBase.cpp:173
 msgid "Group By"
 msgstr ""
 
-#: services/ServiceBase.cpp:367
+#: services/ServiceBase.cpp:403
 msgid "This service does not accept any messages"
 msgstr ""
 
-#: services/ServiceBase.cpp:374
+#: services/ServiceBase.cpp:410
 msgid "ERROR: unknown message"
 msgstr ""
 
@@ -6405,37 +6408,117 @@ msgstr "Hunermend"
 msgid "Last.fm is cool..."
 msgstr ""
 
+#: services/lastfm/LastFmTreeModel.cpp:105
+msgid "Personal Radio"
+msgstr "Radyoyên Şexsî"
+
+#: services/lastfm/LastFmTreeModel.cpp:106
+#, fuzzy
+#| msgid "Favorite Tracks"
+msgid "Loved Tracks"
+msgstr "Stranên Bijarte"
+
+#: services/lastfm/LastFmTreeModel.cpp:107
+#, fuzzy
+#| msgid "Neighbor Radio"
+msgid "Neighborhood"
+msgstr "Radyoyên Cîran"
+
+#: services/lastfm/LastFmTreeModel.cpp:269
+#, fuzzy
+#| msgid "Personal Radio"
+msgid "My Recommendations"
+msgstr "Radyoyên Şexsî"
+
+#: services/lastfm/LastFmTreeModel.cpp:271
+msgid "My Radio Station"
+msgstr ""
+
+#: services/lastfm/LastFmTreeModel.cpp:273
+#, fuzzy
+msgid "My Loved Tracks"
+msgstr "Stranên Bijarte"
+
+#: services/lastfm/LastFmTreeModel.cpp:275
+#, fuzzy
+#| msgid "Neighbor Radio"
+msgid "My Neighborhood"
+msgstr "Radyoyên Cîran"
+
+#: services/lastfm/LastFmTreeModel.cpp:280
+msgid "My Tags"
+msgstr ""
+
+#: services/lastfm/LastFmTreeModel.cpp:282
+#, fuzzy
+#| msgid "Files"
+msgid "Friends"
+msgstr "Pel"
+
+#: services/lastfm/LastFmTreeModel.cpp:284
+#, fuzzy
+#| msgid "Neighbor Radio"
+msgid "Neighbors"
+msgstr "Radyoyên Cîran"
+
 #: services/lastfm/AudioController.cpp:93
 msgid "Radio playlist has ended."
 msgstr ""
 
-#: services/lastfm/LastFmService.cpp:132
+#: services/lastfm/LastFmService.cpp:143
 msgid "Last.fm: The social music revolution."
 msgstr ""
 
-#: services/lastfm/LastFmService.cpp:202
+#: services/lastfm/LastFmService.cpp:300
+#, fuzzy
+#| msgid "International"
+msgid "Enter an artist name"
+msgstr "Navneteweyî"
+
+#: services/lastfm/LastFmService.cpp:303
+#, fuzzy
+#| msgid "International"
+msgid "Enter a tag"
+msgstr "Navneteweyî"
+
+#: services/lastfm/LastFmService.cpp:306
+#, fuzzy
+#| msgid "International"
+msgid "Enter a last.fm user name"
+msgstr "Navneteweyî"
+
+#: services/lastfm/LastFmService.cpp:323
+#, fuzzy
+#| msgid "Days"
+msgid " plays"
+msgstr "Roj"
+
+#: services/lastfm/LastFmService.cpp:347
 msgid "Love"
 msgstr "Hezkirin"
 
-#: services/lastfm/LastFmService.cpp:209
+#: services/lastfm/LastFmService.cpp:354
 #, fuzzy
 #| msgid "and"
 msgid "Ban"
 msgstr "û"
 
-#: services/lastfm/LastFmService.cpp:216
+#: services/lastfm/LastFmService.cpp:361
 msgid "Skip"
 msgstr ""
 
-#: services/lastfm/LastFmService.cpp:225
-#, fuzzy
-#| msgid "International"
-msgid "Enter artist name"
-msgstr "Navneteweyî"
+#: services/lastfm/LastFmService.cpp:402
+msgid "Tag"
+msgstr ""
 
-#: services/lastfm/LastFmService.cpp:227
-msgid "Go"
-msgstr "Biçe"
+#: services/lastfm/LastFmService.cpp:402
+#, fuzzy
+msgid "User"
+msgstr "Nav biguharîne"
+
+#: services/lastfm/LastFmService.cpp:407
+msgid "Start New Station"
+msgstr ""
 
 #: services/lastfm/LastFmServiceSettings.cpp:84
 #, fuzzy
@@ -7972,6 +8055,9 @@ msgstr ""
 msgid "No Artist"
 msgstr "Hunermend"
 
+#~ msgid "Go"
+#~ msgstr "Biçe"
+
 #~ msgid "Page #1"
 #~ msgstr "Rûpela #1"
 
@@ -8138,18 +8224,6 @@ msgstr "Hunermend"
 
 #~ msgid "%1. %2"
 #~ msgstr "%1. %2"
-
-#, fuzzy
-#~ msgid "1 More Track"
-#~ msgid_plural "%1 More Tracks"
-#~ msgstr[0] "Stranên Bijarte"
-#~ msgstr[1] "Stranên Bijarte"
-
-#~ msgid "Personal Radio"
-#~ msgstr "Radyoyên Şexsî"
-
-#~ msgid "Neighbor Radio"
-#~ msgstr "Radyoyên Cîran"
 
 #~| msgid "Playlists"
 #~ msgid "Add to playlist"
