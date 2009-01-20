@@ -58,8 +58,7 @@ msgstr "Rapora Kesê Dipejirîne Bibîne "
 msgid "C&onfigure Validator..."
 msgstr "Kesê Dipejirîne V&eava Bike..."
 
-#: plugin_validators.cpp:318
-#: validatorsdialog.cpp:49
+#: plugin_validators.cpp:318 validatorsdialog.cpp:49
 msgid "Remote Validation"
 msgstr "Pejirandina Dûr"
 
@@ -67,10 +66,8 @@ msgstr "Pejirandina Dûr"
 msgid "Local Validation"
 msgstr "Pejirandina Herêmî"
 
-#: plugin_validators.cpp:364
-#: plugin_validators.cpp:385
-#: plugin_validators.cpp:391
-#: plugin_validators.cpp:402
+#: plugin_validators.cpp:364 plugin_validators.cpp:385
+#: plugin_validators.cpp:391 plugin_validators.cpp:402
 #: plugin_validators.cpp:410
 #, kde-format
 msgid "1 error"
@@ -78,10 +75,8 @@ msgid_plural "%1 errors"
 msgstr[0] "1 çewtî"
 msgstr[1] "%1 çewtî"
 
-#: plugin_validators.cpp:365
-#: plugin_validators.cpp:386
-#: plugin_validators.cpp:392
-#: plugin_validators.cpp:403
+#: plugin_validators.cpp:365 plugin_validators.cpp:386
+#: plugin_validators.cpp:392 plugin_validators.cpp:403
 #: plugin_validators.cpp:411
 #, kde-format
 msgid "1 warning"
@@ -89,8 +84,7 @@ msgid_plural "%1 warnings"
 msgstr[0] "1 hişyarî"
 msgstr[1] "%1 hişyarî"
 
-#: plugin_validators.cpp:366
-#: plugin_validators.cpp:387
+#: plugin_validators.cpp:366 plugin_validators.cpp:387
 #: plugin_validators.cpp:404
 #, kde-format
 msgid "1 accessibility warning"
@@ -110,7 +104,9 @@ msgstr "HTML encamên "
 
 #: plugin_validators.cpp:384
 #, kde-format
-msgctxt "%1 is the error count string, %2 the warning count string, %3 the accessibility warning string"
+msgctxt ""
+"%1 is the error count string, %2 the warning count string, %3 the "
+"accessibility warning string"
 msgid "Page: %1, %2, %3"
 msgstr "Rûpel: %1, %2, %3"
 
@@ -122,20 +118,30 @@ msgstr "Rûpel: %1, %2"
 
 #: plugin_validators.cpp:400
 #, kde-format
-msgctxt "%1 is the HTML frame name, %2 is the error count string, %3 the warning count string, %4 the accessibility warning string"
+msgctxt ""
+"%1 is the HTML frame name, %2 is the error count string, %3 the warning "
+"count string, %4 the accessibility warning string"
 msgid "Frame '%1': %2, %3, %4"
 msgstr "Çarçove '%1': %2, %3, %4"
 
 #: plugin_validators.cpp:408
 #, kde-format
-msgctxt "%1 is the HTML frame name, %2 is the error count string, %3 the warning count string"
+msgctxt ""
+"%1 is the HTML frame name, %2 is the error count string, %3 the warning "
+"count string"
 msgid "Frame '%1': %2, %3"
 msgstr "Çarçove '%1': %2, %3"
 
 #: plugin_validators.cpp:461
 #, kde-format
-msgid "<qt>The selected URL cannot be verified because it contains a password. Sending this URL to <b>%1</b> would put the security of <b>%2</b> at risk.</qt>"
-msgstr "<qt>URL ya hatiye hilbijartin nayê pejirandin ji ber ku jê re nasnav hewce ye. Şandina vê URL yê jê <b>%1</b> re di be ku ewlehiya <b>%2</b> bixe di bin xeterê de.</qt>"
+msgid ""
+"<qt>The selected URL cannot be verified because it contains a password. "
+"Sending this URL to <b>%1</b> would put the security of <b>%2</b> at risk.</"
+"qt>"
+msgstr ""
+"<qt>URL ya hatiye hilbijartin nayê pejirandin ji ber ku jê re nasnav hewce "
+"ye. Şandina vê URL yê jê <b>%1</b> re di be ku ewlehiya <b>%2</b> bixe di "
+"bin xeterê de.</qt>"
 
 #: plugin_validators.cpp:534
 msgid "Cannot Validate Source"
@@ -151,7 +157,9 @@ msgstr "URLya Xerabî"
 
 #: plugin_validators.cpp:547
 msgid "The URL you entered is not valid, please correct it and try again."
-msgstr "URL ya tu tê ketî nederbasdar e, jê kerema xwe vê serast bike û cardin biceribîne."
+msgstr ""
+"URL ya tu tê ketî nederbasdar e, jê kerema xwe vê serast bike û cardin "
+"biceribîne."
 
 #: plugin_validators.cpp:573
 msgid "Validation"
@@ -190,8 +198,12 @@ msgstr "3"
 #. i18n: file: internalvalidator.ui:49
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, runAfterLoading)
 #: rc.cpp:18
-msgid "If this option is enabled, the internal HTML validator is executed after a webpage has been loaded."
-msgstr "Heke ev bijare were çalak kirin, kesê HTML a hundirîn dipejirîne piştî malper bar bû tê xebitandin."
+msgid ""
+"If this option is enabled, the internal HTML validator is executed after a "
+"webpage has been loaded."
+msgstr ""
+"Heke ev bijare were çalak kirin, kesê HTML a hundirîn dipejirîne piştî "
+"malper bar bû tê xebitandin."
 
 #. i18n: file: internalvalidator.ui:52
 #. i18n: ectx: property (text), widget (QCheckBox, runAfterLoading)
@@ -223,9 +235,7 @@ msgstr "Kesê HTML/XML Dipejirîne"
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. i18n: file: remotevalidators.ui:120
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: rc.cpp:33
-#: rc.cpp:42
-#: rc.cpp:51
+#: rc.cpp:33 rc.cpp:42 rc.cpp:51
 msgid "URL:"
 msgstr "URL:"
 
@@ -233,8 +243,7 @@ msgstr "URL:"
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: file: remotevalidators.ui:91
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rc.cpp:36
-#: rc.cpp:45
+#: rc.cpp:36 rc.cpp:45
 msgid "Upload:"
 msgstr "Bar bike:"
 
@@ -310,4 +319,3 @@ msgstr "Pêveka Kesê Dipejirîne Veava Bike"
 #: validatorsdialog.cpp:42
 msgid "Internal Validation"
 msgstr "Pejirandina Hundirîn"
-
