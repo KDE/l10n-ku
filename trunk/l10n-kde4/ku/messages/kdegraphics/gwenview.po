@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gwenview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-20 10:17+0100\n"
+"POT-Creation-Date: 2009-01-23 10:14+0100\n"
 "PO-Revision-Date: 2009-01-22 22:46+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -53,10 +53,8 @@ msgstr "Peldank Biafirîne"
 msgid "Enter the name of the folder to create:"
 msgstr "Navê peldanka dê were afirandin têkevê:"
 
-#: app/documentpanel.cpp:321
-#: app/thumbnailviewpanel.cpp:100
-#: app/mainwindow.cpp:271
-#: lib/documentview/documentview.cpp:125
+#: app/documentpanel.cpp:321 app/thumbnailviewpanel.cpp:100
+#: app/mainwindow.cpp:271 lib/documentview/documentview.cpp:125
 msgctxt "@title actions category - means actions changing smth in interface"
 msgid "View"
 msgstr "Bibîne"
@@ -72,8 +70,10 @@ msgstr "Guherandin û Nû ve Barkirinê Jê Bavêje"
 
 #: app/documentpanel.cpp:478
 msgctxt "@info"
-msgid "This image has been modified. Reloading it will discard all your changes."
-msgstr "Ev wêne hatiye guherandin. Nû ve barkirina vê dê hemû guherandinan jê bavêje."
+msgid ""
+"This image has been modified. Reloading it will discard all your changes."
+msgstr ""
+"Ev wêne hatiye guherandin. Nû ve barkirina vê dê hemû guherandinan jê bavêje."
 
 #: app/fullscreencontent.cpp:108
 msgctxt "@info:tooltip"
@@ -138,8 +138,7 @@ msgctxt "@action:inmenu"
 msgid "Rating"
 msgstr "Nirxandin"
 
-#: app/thumbnailviewpanel.cpp:137
-#: app/fileopscontextmanageritem.cpp:123
+#: app/thumbnailviewpanel.cpp:137 app/fileopscontextmanageritem.cpp:123
 #: app/mainwindow.cpp:270
 msgctxt "@title actions category"
 msgid "File"
@@ -237,7 +236,9 @@ msgstr[1] "%1 belge nayên tomarkirin:"
 
 #: app/gvcore.cpp:175
 #, kde-format
-msgctxt "@info %1 is the name of the document which failed to save, %2 is the reason for the failure"
+msgctxt ""
+"@info %1 is the name of the document which failed to save, %2 is the reason "
+"for the failure"
 msgid "<filename>%1</filename>: %2"
 msgstr "<filename>%1</filename>: %2"
 
@@ -286,23 +287,19 @@ msgstr "Gwenview nikare wêneyên bi vê cure yê serast bike."
 msgid "Gwenview"
 msgstr "Gwenview"
 
-#: app/main.cpp:43
-#: part/gvpart.cpp:120
+#: app/main.cpp:43 part/gvpart.cpp:120
 msgid "An Image Viewer"
 msgstr "Nîşanderê Wêneyan"
 
-#: app/main.cpp:45
-#: part/gvpart.cpp:122
+#: app/main.cpp:45 part/gvpart.cpp:122
 msgid "Copyright 2000-2008 Aurélien Gâteau"
 msgstr "Copyright 2000-2008 Aurélien Gâteau"
 
-#: app/main.cpp:47
-#: part/gvpart.cpp:124
+#: app/main.cpp:47 part/gvpart.cpp:124
 msgid "Aurélien Gâteau"
 msgstr "Aurélien Gâteau"
 
-#: app/main.cpp:48
-#: part/gvpart.cpp:125
+#: app/main.cpp:48 part/gvpart.cpp:125
 msgid "Main developer"
 msgstr "Pêşvebirê Bingehîn"
 
@@ -320,7 +317,8 @@ msgstr "Pel an jî peldank tê destpêkirin"
 
 #: app/infocontextmanageritem.cpp:72
 #, kde-format
-msgctxt "@item:intext %1 is a key, we append a colon to it. A value is displayed after"
+msgctxt ""
+"@item:intext %1 is a key, we append a colon to it. A value is displayed after"
 msgid "%1:"
 msgstr "%1:"
 
@@ -383,8 +381,12 @@ msgid "No Plugin"
 msgstr "Pêvek Tune ye"
 
 #: app/startpage.cpp:83
-msgid "Sorry, browsing by tag is not available. Make sure Nepomuk is properly installed on your computer."
-msgstr "Lêborîne, nihêrîna bi etîket re tune ye. Baş bizane ku Nepomuk di komputera te de saz kirî ye."
+msgid ""
+"Sorry, browsing by tag is not available. Make sure Nepomuk is properly "
+"installed on your computer."
+msgstr ""
+"Lêborîne, nihêrîna bi etîket re tune ye. Baş bizane ku Nepomuk di komputera "
+"te de saz kirî ye."
 
 #: app/thumbnailviewhelper.cpp:146
 msgid "Move Here"
@@ -470,8 +472,12 @@ msgid "Semantic Information"
 msgstr "Agahiya Semantîk"
 
 #: app/savebar.cpp:84
-msgid "You have modified many images. To avoid memory problems, you should save your changes."
-msgstr "Te gelek wêne guherandî ye. Ji bo ku pirsgirêkên bîrê dernekevin, divê tu guherandinan tomar bikî."
+msgid ""
+"You have modified many images. To avoid memory problems, you should save "
+"your changes."
+msgstr ""
+"Te gelek wêne guherandî ye. Ji bo ku pirsgirêkên bîrê dernekevin, divê tu "
+"guherandinan tomar bikî."
 
 #: app/savebar.cpp:168
 msgid "Current image modified"
@@ -500,8 +506,7 @@ msgstr "Biçe wêneya serî ya hatiye guhertin"
 msgid "Go to it"
 msgstr "Biçe vê"
 
-#: app/savebar.cpp:292
-#: app/savebar.cpp:297
+#: app/savebar.cpp:292 app/savebar.cpp:297
 msgid "Save All"
 msgstr "Hemûyan Tomar Bike"
 
@@ -519,33 +524,27 @@ msgctxt "@title actions category - means actions changing image"
 msgid "Edit"
 msgstr "Serast Bike"
 
-#: app/imageopscontextmanageritem.cpp:79
-#: lib/transformimageoperation.cpp:49
+#: app/imageopscontextmanageritem.cpp:79 lib/transformimageoperation.cpp:49
 msgid "Rotate Left"
 msgstr "Bizivirîne Çepê"
 
-#: app/imageopscontextmanageritem.cpp:84
-#: lib/transformimageoperation.cpp:46
+#: app/imageopscontextmanageritem.cpp:84 lib/transformimageoperation.cpp:46
 msgid "Rotate Right"
 msgstr "Bizivirîne Rastê"
 
-#: app/imageopscontextmanageritem.cpp:89
-#: lib/transformimageoperation.cpp:52
+#: app/imageopscontextmanageritem.cpp:89 lib/transformimageoperation.cpp:52
 msgid "Mirror"
 msgstr "Neynûk"
 
-#: app/imageopscontextmanageritem.cpp:93
-#: lib/transformimageoperation.cpp:55
+#: app/imageopscontextmanageritem.cpp:93 lib/transformimageoperation.cpp:55
 msgid "Flip"
 msgstr "Serberjêr Bike"
 
-#: app/imageopscontextmanageritem.cpp:97
-#: lib/resizeimageoperation.cpp:47
+#: app/imageopscontextmanageritem.cpp:97 lib/resizeimageoperation.cpp:47
 msgid "Resize"
 msgstr "Mezinahiyê Biguherîne"
 
-#: app/imageopscontextmanageritem.cpp:101
-#: lib/cropimageoperation.cpp:48
+#: app/imageopscontextmanageritem.cpp:101 lib/cropimageoperation.cpp:48
 #: lib/cropsidebar.cpp:120
 msgid "Crop"
 msgstr "Jê Bike"
@@ -625,35 +624,35 @@ msgstr "Darika-kêlekê Veşêre"
 msgid "Show Sidebar"
 msgstr "Darika-kêlekê Nîşan Bide"
 
-#: app/mainwindow.cpp:1094
+#: app/mainwindow.cpp:1095
 msgctxt "@title:window"
 msgid "Open Image"
 msgstr "Wêneyê Veke"
 
-#: app/mainwindow.cpp:1137
+#: app/mainwindow.cpp:1138
 msgid "Stop Slideshow"
 msgstr "Nîşandana-slaytê Rawestîne"
 
-#: app/mainwindow.cpp:1140
+#: app/mainwindow.cpp:1141
 msgid "Start Slideshow"
 msgstr "Nîşandana-slaytê Bide Destpêkirin"
 
-#: app/mainwindow.cpp:1163
+#: app/mainwindow.cpp:1164
 msgid "Save All Changes"
 msgstr "Hemû Guherandinan Tomar Bike"
 
-#: app/mainwindow.cpp:1164
+#: app/mainwindow.cpp:1165
 msgid "Discard Changes"
 msgstr "Guhertinan Jê Bibe"
 
-#: app/mainwindow.cpp:1165
+#: app/mainwindow.cpp:1166
 #, kde-format
 msgid "One image has been modified."
 msgid_plural "%1 images have been modified."
 msgstr[0] "Yek wêne hatiye guhertin."
 msgstr[1] "%1 wêne hatine guhertin."
 
-#: app/mainwindow.cpp:1167
+#: app/mainwindow.cpp:1168
 msgid "If you quit now, your changes will be lost."
 msgstr "Heke tu niha derkevî, guherandinên te dê winda bin."
 
@@ -669,8 +668,7 @@ msgstr "RedEyeReduction"
 msgid "Print Image"
 msgstr "Wêneyê Çap Bike"
 
-#: lib/statusbartoolbutton.cpp:118
-#: lib/fullscreenbar.cpp:244
+#: lib/statusbartoolbutton.cpp:118 lib/fullscreenbar.cpp:244
 #, kde-format
 msgctxt "@info:tooltip of custom toolbar button"
 msgid "%1"
@@ -686,7 +684,9 @@ msgid "Fit"
 msgstr "Lihevkirin"
 
 #: lib/documentview/documentview.cpp:138
-msgctxt "@action:button Zoom to original size, shown in status bar, keep it short please"
+msgctxt ""
+"@action:button Zoom to original size, shown in status bar, keep it short "
+"please"
 msgid "100%"
 msgstr "100%"
 
@@ -754,14 +754,22 @@ msgstr "Barkirina wêneyê pêk nehat."
 #: lib/document/documentloadedimpl.cpp:120
 #, kde-format
 msgctxt "@info"
-msgid "Could not open file for writing, check that you have the necessary rights in <filename>%1</filename>."
-msgstr "Nikare pelê ji bo nivîsandinê veke, kontrol bike ku tu xwedî destûrên hewce yên di <filename>%1</filename> de yî."
+msgid ""
+"Could not open file for writing, check that you have the necessary rights in "
+"<filename>%1</filename>."
+msgstr ""
+"Nikare pelê ji bo nivîsandinê veke, kontrol bike ku tu xwedî destûrên hewce "
+"yên di <filename>%1</filename> de yî."
 
 #: lib/document/documentloadedimpl.cpp:130
 #, kde-format
 msgctxt "@info"
-msgid "Could not overwrite file, check that you have the necessary rights to write in <filename>%1</filename>."
-msgstr "Nikare ser pelê binivîse, kontrol bike ku tu xwedî destûrên hewce yên di <filename>%1</filename> de yî."
+msgid ""
+"Could not overwrite file, check that you have the necessary rights to write "
+"in <filename>%1</filename>."
+msgstr ""
+"Nikare ser pelê binivîse, kontrol bike ku tu xwedî destûrên hewce yên di "
+"<filename>%1</filename> de yî."
 
 #: lib/document/documentloadedimpl.cpp:136
 msgctxt "@info"
@@ -975,10 +983,14 @@ msgstr "Di derketinê de peldanka pêşbîra wêneyên biçûk jê bibe"
 #: rc.cpp:68
 msgid ""
 "Enable this option if you do not have a lot of disk space.\n"
-"Be careful: this will delete the folder named <filename>.thumbnails</filename> in your home folder, deleting all thumbnails previously generated by Gwenview and other applications."
+"Be careful: this will delete the folder named <filename>.thumbnails</"
+"filename> in your home folder, deleting all thumbnails previously generated "
+"by Gwenview and other applications."
 msgstr ""
 "Heke di dîskê de gelek valahî tune be vê bijare yê çalak bike.\n"
-"Lê hişyar be: ev dê peldanka bi navê <filename>.thumbnails</filename> ya di peldanka mal de jê bibe, hemû wêneyên biçûk yên berê hatine afirandin aliyê Gwenview û sepanên din ve dê bên jê birin."
+"Lê hişyar be: ev dê peldanka bi navê <filename>.thumbnails</filename> ya di "
+"peldanka mal de jê bibe, hemû wêneyên biçûk yên berê hatine afirandin aliyê "
+"Gwenview û sepanên din ve dê bên jê birin."
 
 #. i18n: file: app/startpage.ui:37
 #. i18n: ectx: property (text), widget (QLabel, label)
@@ -1062,8 +1074,7 @@ msgstr "&Mîheng"
 #. i18n: ectx: ToolBar (mainToolBar)
 #. i18n: file: part/gvpart.rc:15
 #. i18n: ectx: ToolBar (mainToolBar)
-#: rc.cpp:111
-#: rc.cpp:203
+#: rc.cpp:111 rc.cpp:203
 msgid "Main Toolbar"
 msgstr "Darikê Amûran ya Mak"
 
@@ -1109,8 +1120,7 @@ msgstr "Bigere"
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_EnlargeSmallerImages)
 #. i18n: file: lib/print/printoptionspage.ui:157
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_PrintEnlargeSmallerImages)
-#: rc.cpp:132
-#: rc.cpp:156
+#: rc.cpp:132 rc.cpp:156
 msgid "Enlarge smaller images"
 msgstr "Wêneyên biçûk mezin bike"
 
@@ -1240,4 +1250,3 @@ msgstr "&Pel"
 #: rc.cpp:200
 msgid "&View"
 msgstr "&Bibîne"
-
