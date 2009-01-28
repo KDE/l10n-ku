@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libtaskmanager\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-12-28 09:55+0100\n"
+"POT-Creation-Date: 2009-01-27 08:23+0100\n"
 "PO-Revision-Date: 2009-01-07 12:37+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
@@ -19,101 +19,102 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural= n != 1;\n"
 "X-Poedit-Language: Kurdish\n"
 
-#: task.cpp:282
-msgctxt "marks that a task has been modified"
+#: task.cpp:296
+#, fuzzy
+#| msgctxt "marks that a task has been modified"
+#| msgid "modified"
 msgid "modified"
 msgstr "hat guhertin"
 
-#: taskactions.cpp:112
-msgid "Mi&nimize"
-msgstr "Bi&çûk Bike"
-
-#: taskactions.cpp:123
-msgid "Ma&ximize"
-msgstr "Me&zin Bike"
-
-#: taskactions.cpp:133
-msgid "&Shade"
-msgstr "&Veşêre"
-
-#: taskactions.cpp:144
-msgid "Re&size"
-msgstr "&Mezinahî Biguherîne"
-
-#: taskactions.cpp:153
-msgid "&Move"
-msgstr "&Cî Biguherîne"
-
-#: taskactions.cpp:162
-msgid "&Close"
-msgstr "&Bigire"
-
-#: taskactions.cpp:173
+#: taskrmbmenu.cpp:84
 msgid "&To Current Desktop"
 msgstr "&Ji bo Sermaseya Heyî"
 
-#: taskactions.cpp:192
-msgid "&All Desktops"
-msgstr "&Tevahiya Sermaseyan"
+#: taskrmbmenu.cpp:95
+msgid "&Move"
+msgstr "&Cî Biguherîne"
 
-#: taskactions.cpp:212
-msgid "To &Desktop"
-msgstr "Ji bo &Sermaseyê"
+#: taskrmbmenu.cpp:98
+msgid "Re&size"
+msgstr "&Mezinahî Biguherîne"
 
-#: taskactions.cpp:225
-msgid "Keep &Above Others"
-msgstr "Li &ser yên Din Bigire"
+#: taskrmbmenu.cpp:101
+msgid "Mi&nimize"
+msgstr "Bi&çûk Bike"
 
-#: taskactions.cpp:235
-msgid "Keep &Below Others"
-msgstr "Li &bin yên Din Bigire"
+#: taskrmbmenu.cpp:106
+msgid "Ma&ximize"
+msgstr "Me&zin Bike"
 
-#: taskactions.cpp:245
-msgid "&Fullscreen"
-msgstr "&DîmenderTijî"
+#: taskrmbmenu.cpp:111
+msgid "&Shade"
+msgstr "&Veşêre"
 
-#: taskactions.cpp:255
+#: taskrmbmenu.cpp:118
+msgid "&Close"
+msgstr "&Bigire"
+
+#: taskrmbmenu.cpp:146
+msgid "All &to Current Desktop"
+msgstr "Hemû &ji bo Sermaseya Heyî"
+
+#: taskrmbmenu.cpp:161
+msgid "Mi&nimize All"
+msgstr "Hemûyan Bi&çûk Bike"
+
+#: taskrmbmenu.cpp:174
+msgid "Ma&ximize All"
+msgstr "Hemûyan Me&zin Bike"
+
+#: taskrmbmenu.cpp:187
+msgid "&Restore All"
+msgstr "Hemûsay &Şûnde Bîne"
+
+#: taskrmbmenu.cpp:202
+msgid "&Close All"
+msgstr "Hemûyan &Bigire"
+
+#: taskrmbmenu.cpp:209
 msgid "Ad&vanced"
 msgstr "&Pêşkeftî"
 
-#: taskactions.cpp:266
-msgid "&Leave Group"
-msgstr "Ji Komê &Veqete"
+#: taskrmbmenu.cpp:212
+msgid "Keep &Above Others"
+msgstr "Li &ser yên Din Bigire"
 
-#: taskactions.cpp:281
-msgid "&Edit Group"
-msgstr "Komê &Biguherîne"
+#: taskrmbmenu.cpp:218
+msgid "Keep &Below Others"
+msgstr "Li &bin yên Din Bigire"
 
-#: strategies/manualgroupingstrategy.cpp:86
-msgid "Leave Group"
-msgstr "Ji Komê Veqete"
+#: taskrmbmenu.cpp:224
+msgid "&Fullscreen"
+msgstr "&DîmenderTijî"
 
-#: strategies/manualgroupingstrategy.cpp:93
-msgid "Remove Group"
-msgstr "Komê Rake"
+#: taskrmbmenu.cpp:240
+msgid "To &Desktop"
+msgstr "Ji bo &Sermaseyê"
 
-#: strategies/programgroupingstrategy.cpp:69
-msgid "Allow This Program to Be Grouped"
-msgstr "Destûr Bide Vê Bernameyê Ku Bê Kom Kirin"
+#: taskrmbmenu.cpp:242 taskrmbmenu.cpp:267
+msgid "&All Desktops"
+msgstr "&Tevahiya Sermaseyan"
 
-#: strategies/programgroupingstrategy.cpp:71
-msgid "Do Not Allow This Program to Be Grouped"
-msgstr "Destûr Nede Vê Bernameyê Ku Bê Kom Kirin"
+#~ msgid "&Leave Group"
+#~ msgstr "Ji Komê &Veqete"
 
-#~ msgid "All &to Current Desktop"
-#~ msgstr "Hemû &ji bo Sermaseya Heyî"
+#~ msgid "&Edit Group"
+#~ msgstr "Komê &Biguherîne"
 
-#~ msgid "Mi&nimize All"
-#~ msgstr "Hemûyan Bi&çûk Bike"
+#~ msgid "Leave Group"
+#~ msgstr "Ji Komê Veqete"
 
-#~ msgid "Ma&ximize All"
-#~ msgstr "Hemûyan Me&zin Bike"
+#~ msgid "Remove Group"
+#~ msgstr "Komê Rake"
 
-#~ msgid "&Restore All"
-#~ msgstr "Hemûsay &Şûnde Bîne"
+#~ msgid "Allow This Program to Be Grouped"
+#~ msgstr "Destûr Bide Vê Bernameyê Ku Bê Kom Kirin"
 
-#~ msgid "&Close All"
-#~ msgstr "Hemûyan &Bigire"
+#~ msgid "Do Not Allow This Program to Be Grouped"
+#~ msgstr "Destûr Nede Vê Bernameyê Ku Bê Kom Kirin"
 
 #~| msgid "&All Desktops"
 #~ msgid "All to &Desktop"

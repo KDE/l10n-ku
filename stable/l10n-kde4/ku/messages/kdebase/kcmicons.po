@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmicons\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-26 10:45+0100\n"
+"POT-Creation-Date: 2009-01-27 08:23+0100\n"
 "PO-Revision-Date: 2008-12-28 14:57+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <ku@li.org>\n"
@@ -23,17 +23,23 @@ msgid "Use of Icon"
 msgstr "Bikaranîna Îkonê"
 
 #: icons.cpp:70
-msgctxt "@label The icon rendered by default"
+#, fuzzy
+#| msgctxt "@label The icon rendered by default"
+#| msgid "Default"
 msgid "Default"
 msgstr "Standard"
 
 #: icons.cpp:72
-msgctxt "@label The icon rendered as active"
+#, fuzzy
+#| msgctxt "@label The icon rendered as active"
+#| msgid "Active"
 msgid "Active"
 msgstr "Çalak"
 
 #: icons.cpp:74
-msgctxt "@label The icon rendered as disabled"
+#, fuzzy
+#| msgctxt "@label The icon rendered as disabled"
+#| msgid "Disabled"
 msgid "Disabled"
 msgstr "Neçalakkirî"
 
@@ -42,98 +48,102 @@ msgid "Size:"
 msgstr "Mezinahî:"
 
 #: icons.cpp:97
+msgid "Double-sized pixels"
+msgstr ""
+
+#: icons.cpp:101
 msgid "Animate icons"
 msgstr "Îkonan zindî bike"
 
-#: icons.cpp:123
+#: icons.cpp:126
 msgid "Set Effect..."
 msgstr "Efekt Ava Bike..."
 
-#: icons.cpp:138
-msgid "Desktop"
-msgstr "Sermasê"
+#: icons.cpp:141
+msgid "Desktop/File Manager"
+msgstr "Gerînendeyê Sermasê/Pelan"
 
-#: icons.cpp:139
+#: icons.cpp:142
 msgid "Toolbar"
 msgstr "Darikê Amûran"
 
-#: icons.cpp:140
+#: icons.cpp:143
 msgid "Main Toolbar"
 msgstr "Darikê Amûran yê Mak"
 
-#: icons.cpp:141
+#: icons.cpp:144
 msgid "Small Icons"
 msgstr "Îkonên Biçûk"
 
-#: icons.cpp:142
+#: icons.cpp:145
 msgid "Panel"
 msgstr "Panel"
 
-#: icons.cpp:143
+#: icons.cpp:146
 msgid "All Icons"
 msgstr "Hemû Îkon"
 
-#: icons.cpp:433
+#: icons.cpp:452
 msgid "Setup Default Icon Effect"
 msgstr "Efekta Îkona Standart Saz Bike"
 
-#: icons.cpp:434
+#: icons.cpp:453
 msgid "Setup Active Icon Effect"
 msgstr "Efekta Îkona Çalak Saz Bike"
 
-#: icons.cpp:435
+#: icons.cpp:454
 msgid "Setup Disabled Icon Effect"
 msgstr "Efekta Îkona Neçalak Saz Bike"
 
-#: icons.cpp:516
+#: icons.cpp:548
 msgid "&Effect:"
 msgstr "&Efekt:"
 
-#: icons.cpp:520
+#: icons.cpp:552
 msgid "No Effect"
 msgstr "Bê Efekt"
 
-#: icons.cpp:521
+#: icons.cpp:553
 msgid "To Gray"
 msgstr "Gewrikî"
 
-#: icons.cpp:522
+#: icons.cpp:554
 msgid "Colorize"
 msgstr "Rengîn bike"
 
-#: icons.cpp:523
+#: icons.cpp:555
 msgid "Gamma"
 msgstr "Gamma"
 
-#: icons.cpp:524
+#: icons.cpp:556
 msgid "Desaturate"
 msgstr "Rengavêtî"
 
-#: icons.cpp:525
+#: icons.cpp:557
 msgid "To Monochrome"
 msgstr "Yek Rengî"
 
-#: icons.cpp:531
+#: icons.cpp:563
 msgid "&Semi-transparent"
 msgstr "&Nîv-zelalî"
 
-#: icons.cpp:535
+#: icons.cpp:567
 msgid "Preview"
 msgstr "Pêşdîtin"
 
-#: icons.cpp:548
+#: icons.cpp:580
 msgid "Effect Parameters"
 msgstr "Parametre yên Efektê"
 
-#: icons.cpp:555
+#: icons.cpp:587
 msgid "&Amount:"
 msgstr "&Mêjer:"
 
-#: icons.cpp:565
+#: icons.cpp:597
 msgid "Co&lor:"
 msgstr "&Reng:"
 
-#: icons.cpp:573
+#: icons.cpp:605
 msgid "&Second color:"
 msgstr "&Rengê duyemîn:"
 
@@ -195,16 +205,16 @@ msgstr "Ev wê dirbên hatine hilbijartin jê dîska te bibe."
 msgid "Select the icon theme you want to use:"
 msgstr "Dirba îkonê yê tu dixwazî bi kar bînî hilbijêre:"
 
-#: iconthemes.cpp:189
+#: iconthemes.cpp:191
 msgid "Drag or Type Theme URL"
 msgstr "URL ya Dirbê Kaş bike an jî Binivîse"
 
-#: iconthemes.cpp:200
+#: iconthemes.cpp:202
 #, kde-format
 msgid "Unable to find the icon theme archive %1."
 msgstr "Nikare arşîva dirba îkonê %1 bibîne."
 
-#: iconthemes.cpp:203
+#: iconthemes.cpp:205
 #, kde-format
 msgid ""
 "Unable to download the icon theme archive;\n"
@@ -213,11 +223,11 @@ msgstr ""
 "Nikare arşîva dirba îkonê daxe;\n"
 "jê kerema xwe navnîşana %1 kontrol bike ku rast e an na."
 
-#: iconthemes.cpp:212
+#: iconthemes.cpp:214
 msgid "The file is not a valid icon theme archive."
 msgstr "Pel arşîvekê dirba îkonê yê derbasdar nîn e."
 
-#: iconthemes.cpp:223
+#: iconthemes.cpp:225
 msgid ""
 "A problem occurred during the installation process; however, most of the "
 "themes in the archive have been installed"
@@ -225,16 +235,16 @@ msgstr ""
 "Demê pêvajo ya saz kirinê de pirsgirêk derket;dîsa jî, zehfê dirbên di "
 "arşîvê de hatin saz kirin"
 
-#: iconthemes.cpp:245
+#: iconthemes.cpp:247
 msgid "Installing icon themes"
 msgstr "Saz kirina dirbên îkonê"
 
-#: iconthemes.cpp:264
+#: iconthemes.cpp:266
 #, kde-format
 msgid "<qt>Installing <strong>%1</strong> theme</qt>"
 msgstr "<qt>Dirbê <strong>%1</strong> tê sazkirin</qt>"
 
-#: iconthemes.cpp:356
+#: iconthemes.cpp:358
 #, kde-format
 msgid ""
 "<qt>Are you sure you want to remove the <strong>%1</strong> icon theme?<br /"
@@ -243,7 +253,7 @@ msgstr ""
 "<qt>Tu rastî dixwazî dirba îkonê <strong>%1</strong> rakî?<br /><br />Ev dê "
 "pelên bi vê dirbê re hatine sazkirin jê bibe.</qt>"
 
-#: iconthemes.cpp:364
+#: iconthemes.cpp:366
 msgid "Confirmation"
 msgstr "Erêkirin"
 
@@ -311,5 +321,5 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "erdal dot ronahi at gmail dot com"
 
-#~ msgid "Desktop/File Manager"
-#~ msgstr "Gerînendeyê Sermasê/Pelan"
+#~ msgid "Desktop"
+#~ msgstr "Sermasê"

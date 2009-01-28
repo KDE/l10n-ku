@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nepomukserver\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-20 10:16+0100\n"
+"POT-Creation-Date: 2009-01-27 08:23+0100\n"
 "PO-Revision-Date: 2008-12-30 21:52+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <ku@li.org>\n"
@@ -19,56 +19,29 @@ msgstr ""
 "X-Poedit-Language: Kurdish\n"
 "X-Poedit-SourceCharset: utf8\n"
 
-#: kcm/folderselectionmodel.cpp:99
-#, kde-format
-msgctxt "@info:tooltip %1 is the path of the folder in a listview"
-msgid "<filename>%1</filename><nl/>(will be indexed for desktop search)"
-msgstr ""
-"<filename>%1</filename><nl/>(ji bo lêgerîna sermasê dê bê pêrist kirin)"
-
-#: kcm/folderselectionmodel.cpp:103
-#, kde-format
-msgctxt "@info:tooltip %1 is the path of the folder in a listview"
-msgid ""
-"<filename>%1</filename><nl/> (will <emphasis>not</emphasis> be indexed for "
-"desktop search)"
-msgstr ""
-"<filename>%1</filename><nl/> ( <emphasis>nayê</emphasis> pêrist kirin ji bo "
-"lêgerîna sermasê)"
-
-#: kcm/nepomukserverkcm.cpp:63
+#: kcm/nepomukserverkcm.cpp:43
 msgid "Nepomuk Configuration Module"
 msgstr "Modula Veavakirina Nepomukê"
 
-#: kcm/nepomukserverkcm.cpp:65
+#: kcm/nepomukserverkcm.cpp:45
 msgid "Copyright 2007 Sebastian Trüg"
 msgstr "Mafê Kopîkirinê 2007 Sebastian Trüg"
 
-#: kcm/nepomukserverkcm.cpp:66 server/main.cpp:96 servicestub/main.cpp:74
+#: kcm/nepomukserverkcm.cpp:46 server/main.cpp:94 servicestub/main.cpp:86
 msgid "Sebastian Trüg"
 msgstr "Sebastian Trüg"
 
-#: kcm/nepomukserverkcm.cpp:111
-msgid "No Soprano Database backend available. Please check your installation."
-msgstr ""
-"Tu paş-dawî yê Bingeha Dane ya Soprano tune ye. Jê kerema xwe saz kirinê "
-"kontrol bike."
-
-#: kcm/nepomukserverkcm.cpp:112
-msgid "Nepomuk cannot be started"
-msgstr "Nepomuk nayê destpê kirin"
-
-#: kcm/nepomukserverkcm.cpp:120
+#: kcm/nepomukserverkcm.cpp:82
 msgid ""
 "The Nepomuk Server is not running. The settings will be used the next time "
 "the server is started."
 msgstr "Pêşkêşkera Nepomuk naxebite. Mîheng di destpêka pêş de bên bikaranîn."
 
-#: kcm/nepomukserverkcm.cpp:122 kcm/nepomukserverkcm.cpp:169
+#: kcm/nepomukserverkcm.cpp:84 kcm/nepomukserverkcm.cpp:146
 msgid "Nepomuk server not running"
 msgstr "Pêşkêşkara Nepomuk naxebite"
 
-#: kcm/nepomukserverkcm.cpp:167
+#: kcm/nepomukserverkcm.cpp:144
 msgid ""
 "The Nepomuk Server is not running. The settings have been saved and will be "
 "used the next time the server is started."
@@ -76,66 +49,21 @@ msgstr ""
 "Pêşkêşkera Nepomuk naxebite. Mîheng hatin tomar kirin û di destpêka pêş de "
 "bên bikaranîn."
 
-#: kcm/nepomukserverkcm.cpp:197
-#, kde-format
-msgctxt "@info:status %1 is an error message returned by a dbus interface."
-msgid "Failed to contact Strigi indexer (%1)"
-msgstr "Têkildarî bi pêristkera (%1) re têk çû"
-
-#: kcm/nepomukserverkcm.cpp:200
-msgctxt "@info_status"
-msgid "File indexer is suspended"
-msgstr "Pêristkera pelê hate sekinandin"
-
-#: kcm/nepomukserverkcm.cpp:202
-#, kde-format
-msgctxt "@info_status"
-msgid "Strigi is currently indexing files in folder %1"
-msgstr "Strigi niha pelên di peldanka %1 de pêrist dike"
-
-#: kcm/nepomukserverkcm.cpp:204
-msgctxt "@info_status"
-msgid "File indexer is idle"
-msgstr "Pêristkerê pelê beredayî ye"
-
-#: kcm/nepomukserverkcm.cpp:207
-msgctxt "@info_status"
-msgid "Strigi service not running."
+#: kcm/nepomukserverkcm.cpp:178
+#, fuzzy
+#| msgctxt "@info_status"
+#| msgid "Strigi service not running."
+msgid "Strigi is running"
 msgstr "Servîsa Strigi naxebite."
 
-#: libnepomukquery/queryparser.cpp:145
-msgctxt ""
-"Boolean AND keyword in desktop search strings. You can add several variants "
-"separated by spaces, e.g. retain the English one alongside the translation; "
-"keywords are not case sensitive. Make sure there is no conflict with the OR "
-"keyword."
-msgid "and"
-msgstr "û"
-
-#: libnepomukquery/queryparser.cpp:149
-msgctxt ""
-"Boolean OR keyword in desktop search strings. You can add several variants "
-"separated by spaces, e.g. retain the English one alongside the translation; "
-"keywords are not case sensitive. Make sure there is no conflict with the AND "
-"keyword."
-msgid "or"
-msgstr "an jî"
-
-#: kioslaves/search/kio_nepomuksearch.cpp:68
-msgid "All Music Files"
-msgstr "Hemû Pelên Muzîkê"
-
-#: kioslaves/search/kio_nepomuksearch.cpp:77
-msgid "Today's Files"
-msgstr "Pelên Îro"
-
-#: kioslaves/search/kio_nepomuksearch.cpp:87
-msgid "Yesterday's Files"
-msgstr "Pelê Do"
-
-#: kioslaves/search/kio_nepomuksearch.cpp:90
-msgid "Recent Files"
-msgstr "Pelên Borî"
+#. i18n: file: kcm/nepomukconfigwidget.ui:102
+#. i18n: ectx: property (text), widget (QLabel, m_strigiStatusLabel)
+#: kcm/nepomukserverkcm.cpp:182 rc.cpp:26
+#, fuzzy
+#| msgctxt "@info_status"
+#| msgid "Strigi service not running."
+msgid "Strigi not running"
+msgstr "Servîsa Strigi naxebite."
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -147,41 +75,47 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "erdal dot ronahi at gmail dot com"
 
-#. i18n: file: kcm/nepomukconfigwidget.ui:10
+#. i18n: file: kcm/nepomukconfigwidget.ui:21
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
 #: rc.cpp:5
 msgid "Basic Settings"
 msgstr "Mîhengên Bingehîn"
 
-#. i18n: file: kcm/nepomukconfigwidget.ui:16
+#. i18n: file: kcm/nepomukconfigwidget.ui:27
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: rc.cpp:8
 msgid "Nepomuk Semantic Desktop"
 msgstr "Sermaseya Semantîka Nepomuk"
 
-#. i18n: file: kcm/nepomukconfigwidget.ui:22
+#. i18n: file: kcm/nepomukconfigwidget.ui:33
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: rc.cpp:11
+#, fuzzy
+#| msgid ""
+#| "Nepomuk Semantic Desktop enables tagging and rating of files integrated "
+#| "with the Desktop Search."
 msgid ""
 "Nepomuk Semantic Desktop enables tagging and rating of files integrated with "
-"the Desktop Search."
+"the Strigi Desktop Search."
 msgstr ""
 "Sermase ya Nepomuk Semantik etîket kirin û nirxandina pelên tevlihev bi "
 "Lêgerîna Sermasê re çalak dike"
 
-#. i18n: file: kcm/nepomukconfigwidget.ui:32
+#. i18n: file: kcm/nepomukconfigwidget.ui:43
 #. i18n: ectx: property (text), widget (QCheckBox, m_checkEnableNepomuk)
 #: rc.cpp:14
 msgid "Enable Nepomuk Semantic Desktop"
 msgstr "Sermaseya Semantîka Nepomuk Çalak Bike"
 
-#. i18n: file: kcm/nepomukconfigwidget.ui:42
+#. i18n: file: kcm/nepomukconfigwidget.ui:53
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:17
-msgid "Strigi Desktop File Indexer"
+#: rc.cpp:17 services/strigi/strigicontroller.cpp:140
+#, fuzzy
+#| msgid "Strigi Desktop File Indexer"
+msgid "Strigi Desktop Search"
 msgstr "Strigi Pêristkerê Pelê Sermasê"
 
-#. i18n: file: kcm/nepomukconfigwidget.ui:48
+#. i18n: file: kcm/nepomukconfigwidget.ui:59
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: rc.cpp:20
 msgid ""
@@ -189,142 +123,74 @@ msgid ""
 "by name."
 msgstr "Strigi lêgerîna sermasê şûna navê lêgerîna naveroka pelan dike."
 
-#. i18n: file: kcm/nepomukconfigwidget.ui:58
+#. i18n: file: kcm/nepomukconfigwidget.ui:71
 #. i18n: ectx: property (text), widget (QCheckBox, m_checkEnableStrigi)
 #: rc.cpp:23
-msgid "Enable Strigi Desktop File Indexer"
+#, fuzzy
+#| msgid "Enable Strigi Desktop File Indexer"
+msgid "Enable Strigi Desktop Search"
 msgstr "Strigi Pêriskera Pelê Sermasê Çalak Bike"
 
-#. i18n: file: kcm/nepomukconfigwidget.ui:122
+#. i18n: file: kcm/nepomukconfigwidget.ui:130
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
-#: rc.cpp:27
+#: rc.cpp:29
 msgid "Advanced Settings"
 msgstr "Mîhengên Pêşketî"
 
-#. i18n: file: kcm/nepomukconfigwidget.ui:128
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
-#: rc.cpp:30
+#. i18n: file: kcm/nepomukconfigwidget.ui:136
+#. i18n: ectx: property (toolTip), widget (KEditListBox, m_editStrigiFolders)
+#: rc.cpp:32
+msgid "The folders Strigi scans for indexable files"
+msgstr ""
+
+#. i18n: file: kcm/nepomukconfigwidget.ui:142
+#. i18n: ectx: property (whatsThis), widget (KEditListBox, m_editStrigiFolders)
+#: rc.cpp:35
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Select the folders that "
+"Strigi should scan for files to index. The files in these folders will be "
+"searchable through Strigi Desktop Search.</p></body></html>"
+msgstr ""
+
+#. i18n: file: kcm/nepomukconfigwidget.ui:145
+#. i18n: ectx: property (title), widget (KEditListBox, m_editStrigiFolders)
+#: rc.cpp:41
 msgid "Strigi Index Folders"
 msgstr "Peldankên Endeksên Strigi"
 
-#. i18n: file: kcm/nepomukconfigwidget.ui:134
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:33
-msgid ""
-"Select the local folders that contain files to be indexed for fast desktop "
-"searches"
-msgstr ""
-"Peldankên herêmî hilbijêre yên ku di hundirê de pelên dê bên pêrist kirin ji "
-"bo lêgerîna sermasê yê lez"
-
-#. i18n: file: kcm/nepomukconfigwidget.ui:150
+#. i18n: file: kcm/nepomukconfigwidget.ui:152
 #. i18n: ectx: property (toolTip), widget (KEditListBox, m_editStrigiExcludeFilters)
-#: rc.cpp:36
+#: rc.cpp:44
 msgid "Filters which define the files that Strigi should ignore"
 msgstr "Parzûn yê ku pelên Strigi divê nebîne dide nasîn"
 
-#. i18n: file: kcm/nepomukconfigwidget.ui:156
+#. i18n: file: kcm/nepomukconfigwidget.ui:158
 #. i18n: ectx: property (title), widget (KEditListBox, m_editStrigiExcludeFilters)
-#: rc.cpp:39
+#: rc.cpp:47
 msgid "Strigi Index Exclude Filters"
 msgstr "Parzûnên Derve Kirina Pêrista Strigi"
 
-#. i18n: file: services/strigi/statuswidget.ui:9
-#. i18n: ectx: property (text), widget (KTitleWidget, m_title)
-#: rc.cpp:42
-msgid "Nepomuk Strigi File Indexing"
-msgstr "Nepomuk Strigi Pêrist kirina Pelê"
-
-#. i18n: file: services/strigi/statuswidget.ui:16
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:45
-msgid "Strigi Indexing State"
-msgstr "Strigi Rewşa Pêrist Kirinê "
-
-#. i18n: file: services/strigi/statuswidget.ui:28
-#. i18n: ectx: property (text), widget (KSqueezedTextLabel, m_labelStrigiState)
-#: rc.cpp:48
-msgid "KSqueezedTextLabel"
-msgstr "KSqueezedTextLabel"
-
-#. i18n: file: services/strigi/statuswidget.ui:38
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: rc.cpp:51
-msgid "Nepomuk Storage State"
-msgstr "Nepomuk Rewşa Hîser Kirinê"
-
-#. i18n: file: services/strigi/statuswidget.ui:44
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:54
-msgid "Indexed files:"
-msgstr "Pelên hatin pêrist kirin:"
-
-#. i18n: file: services/strigi/statuswidget.ui:57
-#. i18n: ectx: property (text), widget (QLabel, m_labelFileCount)
-#. i18n: file: services/strigi/statuswidget.ui:77
-#. i18n: ectx: property (text), widget (QLabel, m_labelStoreSize)
-#: rc.cpp:57 rc.cpp:63
-msgid "Calculating..."
-msgstr "Dihesibîne..."
-
-#. i18n: file: services/strigi/statuswidget.ui:64
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:60
-msgid "Nepomuk store size:"
-msgstr "Nepomuk mezinahiya depoyê:"
-
-#: server/main.cpp:89
+#: server/main.cpp:87
 msgid "Nepomuk Server"
 msgstr "Pêşkêşkerê Nepomuk"
 
-#: server/main.cpp:91
+#: server/main.cpp:89
 msgid "Nepomuk Server - Manages Nepomuk storage and services"
 msgstr "Pêşkêşkera Nepomuk - Hîser û servîsên Nepomuk bi rê ve dibe"
 
-#: server/main.cpp:93 servicestub/main.cpp:71
+#: server/main.cpp:91 servicestub/main.cpp:83
 msgid "(c) 2008, Sebastian Trüg"
 msgstr "(c) 2008, Sebastian Trüg"
 
-#: server/main.cpp:96 servicestub/main.cpp:74
+#: server/main.cpp:94 servicestub/main.cpp:86
 msgid "Maintainer"
 msgstr "Peydeker"
-
-#: services/storage/repository.cpp:275
-msgctxt "@info - notification message"
-msgid "Converting Nepomuk data to a new backend. This might take a while."
-msgstr ""
-"Dane yê Nepomuk vediguherîne jê paş-dawî ya nû. Ev di be ku hinek dem "
-"bikişîne."
-
-#: services/storage/repository.cpp:285
-msgctxt "@info - notification message"
-msgid "Rebuilding Nepomuk full text search index for new features done."
-msgstr ""
-"Nû ve çêkirina pêrista lêgerîna hemû nivîsê yê Nepomuk ji bo taybetiyên nû "
-"hat qedandin."
-
-#: services/storage/repository.cpp:303
-msgctxt "@info - notification message"
-msgid ""
-"Converting Nepomuk data to the new backend failed. Data may still be "
-"recovered manually though."
-msgstr ""
-"Veguherandina dane yên Nepomuk ji paş-dawî ya nû re têk çû. Dane di be ku "
-"hêj jî bi destan bê serast kirin."
-
-#: services/storage/repository.cpp:311
-msgctxt "@info - notification message"
-msgid "Successfully converted Nepomuk data to the new backend."
-msgstr "Bi serfiraz dane yên Nepomuk ji paş-dawî ya nû re veguherand."
-
-#: services/storage/repository.cpp:364
-msgctxt "@info - notification message"
-msgid ""
-"Rebuilding Nepomuk full text search index for new features. This will only "
-"be done once and might take a while."
-msgstr ""
-"Nû ve çêkirina pêrista lêgerîna hemû nivîsê yê Nepomuk ji bo taybetiyên nû. "
-"Ev tenê ji bo yek carê dê bê çêkirin û di be ku hinek dem bikişîne."
 
 #: services/storage/modelcopyjob.cpp:43
 msgid "Converting Nepomuk database"
@@ -334,102 +200,215 @@ msgstr "Veguherandina bingeha dane yê Nepomuk"
 msgid "Some data was lost in the conversion."
 msgstr "Di xebatê de hinek dane hat winda bûn."
 
-#: services/ontologyloader/ontologyloader.cpp:116
-#, kde-format
-msgid "Parsing of file %1 failed (%2)"
-msgstr "Cuda kirina pela %1 têk çû (%2)"
-
-#: services/strigi/systray.cpp:35
-msgid "Strigi File Indexing"
-msgstr "Strigi Pêrist Kirina Pelê"
-
-#: services/strigi/systray.cpp:37
-msgid "Suspend Strigi Indexing"
-msgstr "Pêrist kirina Strigi Bide Sekinandin"
-
-#: services/strigi/systray.cpp:38
-msgid "Resume Strigi Indexing"
-msgstr "Pêrist kirina Strigi Bide Dom Kirin"
-
-#: services/strigi/systray.cpp:39
-msgid "Suspend or resume the Strigi file indexer manually"
-msgstr "Strigi pêristkera pelê bi destan bide sekinandin an jî dom kirin"
-
-#: services/strigi/systray.cpp:44
-msgid "Configure Strigi"
-msgstr "Strigi Veava bike"
-
-#: services/strigi/systray.cpp:75 services/strigi/statuswidget.cpp:76
-msgid "File indexer is suspended"
-msgstr "Pêristkerê pelê hate sekinandin"
-
-#: services/strigi/systray.cpp:77 services/strigi/statuswidget.cpp:78
-#, kde-format
-msgid "Strigi is currently indexing files in folder %1"
-msgstr "Strigi niha pelên di peldanka %1 de pêrist dike"
-
-#: services/strigi/systray.cpp:79 services/strigi/statuswidget.cpp:80
-msgid "File indexer is idle"
-msgstr "Pêristkerê pelê beredayî ye"
-
-#: services/strigi/statuswidget.cpp:50
-msgid "Configure"
-msgstr "Veava Bike"
-
-#: services/strigi/statuswidget.cpp:149
-msgid "Calculation failed"
-msgstr "Hesibandin têk çû"
-
-#: services/strigi/statuswidget.cpp:161
-#, kde-format
-msgid "1 file in index"
-msgid_plural "%1 files in index"
-msgstr[0] "1 pel di pêrist de"
-msgstr[1] "%1 pel di pêrist de"
-
-#: services/strigi/eventmonitor.cpp:84
+#: services/strigi/strigicontroller.cpp:139
 msgid ""
-"Strigi file indexing started. Indexing all files for fast desktop searches "
-"may take a while."
+"Strigi (the desktop file indexer) crashed repeatedly. It will not be started "
+"again."
 msgstr ""
-"Strigi pêrist kirina pelê hat destpê kirin. Pêrist kirina hemû pelan ji bo "
-"lêgerîna sermasê yê lez di be ku hinek dem bikişîne."
 
-#: services/strigi/eventmonitor.cpp:133 services/strigi/eventmonitor.cpp:164
-msgid "Resuming Strigi file indexing."
-msgstr "Strigi pêrist kirina pelê dom dike."
-
-#: services/strigi/eventmonitor.cpp:140
-msgid "Suspending Strigi file indexing to preserve resources."
-msgstr "Ji bo parastina çavkaniyan, Strigi pêrist kirina pelê tê sekinandin."
-
-#: services/strigi/eventmonitor.cpp:155
-#, kde-format
-msgid ""
-"Local disk space is running low (%1 left). Suspending Strigi file indexing."
-msgstr ""
-"Valahiya dîska herêmî hindik ma (%1 ma). Strigi pêrist kirina pelê tê "
-"sekinandin."
-
-#: services/strigi/eventmonitor.cpp:181
-#, kde-format
-msgctxt "@info %1 is a duration formatted using KLocale::formatDuration"
-msgid "Initial Desktop Search file indexing finished in %1"
-msgstr "Pêrist kirina pelê ya Lêgerîna Sermasê yê Pêşîn di %1 de hat qedandin"
-
-#: servicestub/main.cpp:67 servicestub/main.cpp:69
+#: servicestub/main.cpp:79 servicestub/main.cpp:81
 msgid "Nepomuk Service Stub"
 msgstr "Pêşkêşkerê Nepomuk Naxebite"
 
-#: servicestub/main.cpp:77
+#: servicestub/main.cpp:89
 msgctxt "@info:shell"
 msgid "Service to start"
 msgstr "Servîsa dê bê destpêkirin"
 
-#: servicestub/main.cpp:91
+#: servicestub/main.cpp:103
 msgid "No service name specified"
 msgstr "Tu navê servîsê nehatiye dîyar kirin"
 
-#: servicestub/main.cpp:115
+#: servicestub/main.cpp:122
 msgid "Unknown service name:"
 msgstr "Navê servîsa nenas:"
+
+#~ msgctxt "@info:tooltip %1 is the path of the folder in a listview"
+#~ msgid "<filename>%1</filename><nl/>(will be indexed for desktop search)"
+#~ msgstr ""
+#~ "<filename>%1</filename><nl/>(ji bo lêgerîna sermasê dê bê pêrist kirin)"
+
+#~ msgctxt "@info:tooltip %1 is the path of the folder in a listview"
+#~ msgid ""
+#~ "<filename>%1</filename><nl/> (will <emphasis>not</emphasis> be indexed "
+#~ "for desktop search)"
+#~ msgstr ""
+#~ "<filename>%1</filename><nl/> ( <emphasis>nayê</emphasis> pêrist kirin ji "
+#~ "bo lêgerîna sermasê)"
+
+#~ msgid ""
+#~ "No Soprano Database backend available. Please check your installation."
+#~ msgstr ""
+#~ "Tu paş-dawî yê Bingeha Dane ya Soprano tune ye. Jê kerema xwe saz kirinê "
+#~ "kontrol bike."
+
+#~ msgid "Nepomuk cannot be started"
+#~ msgstr "Nepomuk nayê destpê kirin"
+
+#~ msgctxt "@info:status %1 is an error message returned by a dbus interface."
+#~ msgid "Failed to contact Strigi indexer (%1)"
+#~ msgstr "Têkildarî bi pêristkera (%1) re têk çû"
+
+#~ msgctxt "@info_status"
+#~ msgid "File indexer is suspended"
+#~ msgstr "Pêristkera pelê hate sekinandin"
+
+#~ msgctxt "@info_status"
+#~ msgid "Strigi is currently indexing files in folder %1"
+#~ msgstr "Strigi niha pelên di peldanka %1 de pêrist dike"
+
+#~ msgctxt "@info_status"
+#~ msgid "File indexer is idle"
+#~ msgstr "Pêristkerê pelê beredayî ye"
+
+#~ msgctxt ""
+#~ "Boolean AND keyword in desktop search strings. You can add several "
+#~ "variants separated by spaces, e.g. retain the English one alongside the "
+#~ "translation; keywords are not case sensitive. Make sure there is no "
+#~ "conflict with the OR keyword."
+#~ msgid "and"
+#~ msgstr "û"
+
+#~ msgctxt ""
+#~ "Boolean OR keyword in desktop search strings. You can add several "
+#~ "variants separated by spaces, e.g. retain the English one alongside the "
+#~ "translation; keywords are not case sensitive. Make sure there is no "
+#~ "conflict with the AND keyword."
+#~ msgid "or"
+#~ msgstr "an jî"
+
+#~ msgid "All Music Files"
+#~ msgstr "Hemû Pelên Muzîkê"
+
+#~ msgid "Today's Files"
+#~ msgstr "Pelên Îro"
+
+#~ msgid "Yesterday's Files"
+#~ msgstr "Pelê Do"
+
+#~ msgid "Recent Files"
+#~ msgstr "Pelên Borî"
+
+#~ msgid ""
+#~ "Select the local folders that contain files to be indexed for fast "
+#~ "desktop searches"
+#~ msgstr ""
+#~ "Peldankên herêmî hilbijêre yên ku di hundirê de pelên dê bên pêrist kirin "
+#~ "ji bo lêgerîna sermasê yê lez"
+
+#~ msgid "Nepomuk Strigi File Indexing"
+#~ msgstr "Nepomuk Strigi Pêrist kirina Pelê"
+
+#~ msgid "Strigi Indexing State"
+#~ msgstr "Strigi Rewşa Pêrist Kirinê "
+
+#~ msgid "KSqueezedTextLabel"
+#~ msgstr "KSqueezedTextLabel"
+
+#~ msgid "Nepomuk Storage State"
+#~ msgstr "Nepomuk Rewşa Hîser Kirinê"
+
+#~ msgid "Indexed files:"
+#~ msgstr "Pelên hatin pêrist kirin:"
+
+#~ msgid "Calculating..."
+#~ msgstr "Dihesibîne..."
+
+#~ msgid "Nepomuk store size:"
+#~ msgstr "Nepomuk mezinahiya depoyê:"
+
+#~ msgctxt "@info - notification message"
+#~ msgid "Converting Nepomuk data to a new backend. This might take a while."
+#~ msgstr ""
+#~ "Dane yê Nepomuk vediguherîne jê paş-dawî ya nû. Ev di be ku hinek dem "
+#~ "bikişîne."
+
+#~ msgctxt "@info - notification message"
+#~ msgid "Rebuilding Nepomuk full text search index for new features done."
+#~ msgstr ""
+#~ "Nû ve çêkirina pêrista lêgerîna hemû nivîsê yê Nepomuk ji bo taybetiyên "
+#~ "nû hat qedandin."
+
+#~ msgctxt "@info - notification message"
+#~ msgid ""
+#~ "Converting Nepomuk data to the new backend failed. Data may still be "
+#~ "recovered manually though."
+#~ msgstr ""
+#~ "Veguherandina dane yên Nepomuk ji paş-dawî ya nû re têk çû. Dane di be ku "
+#~ "hêj jî bi destan bê serast kirin."
+
+#~ msgctxt "@info - notification message"
+#~ msgid "Successfully converted Nepomuk data to the new backend."
+#~ msgstr "Bi serfiraz dane yên Nepomuk ji paş-dawî ya nû re veguherand."
+
+#~ msgctxt "@info - notification message"
+#~ msgid ""
+#~ "Rebuilding Nepomuk full text search index for new features. This will "
+#~ "only be done once and might take a while."
+#~ msgstr ""
+#~ "Nû ve çêkirina pêrista lêgerîna hemû nivîsê yê Nepomuk ji bo taybetiyên "
+#~ "nû. Ev tenê ji bo yek carê dê bê çêkirin û di be ku hinek dem bikişîne."
+
+#~ msgid "Parsing of file %1 failed (%2)"
+#~ msgstr "Cuda kirina pela %1 têk çû (%2)"
+
+#~ msgid "Strigi File Indexing"
+#~ msgstr "Strigi Pêrist Kirina Pelê"
+
+#~ msgid "Suspend Strigi Indexing"
+#~ msgstr "Pêrist kirina Strigi Bide Sekinandin"
+
+#~ msgid "Resume Strigi Indexing"
+#~ msgstr "Pêrist kirina Strigi Bide Dom Kirin"
+
+#~ msgid "Suspend or resume the Strigi file indexer manually"
+#~ msgstr "Strigi pêristkera pelê bi destan bide sekinandin an jî dom kirin"
+
+#~ msgid "Configure Strigi"
+#~ msgstr "Strigi Veava bike"
+
+#~ msgid "File indexer is suspended"
+#~ msgstr "Pêristkerê pelê hate sekinandin"
+
+#~ msgid "Strigi is currently indexing files in folder %1"
+#~ msgstr "Strigi niha pelên di peldanka %1 de pêrist dike"
+
+#~ msgid "File indexer is idle"
+#~ msgstr "Pêristkerê pelê beredayî ye"
+
+#~ msgid "Configure"
+#~ msgstr "Veava Bike"
+
+#~ msgid "Calculation failed"
+#~ msgstr "Hesibandin têk çû"
+
+#~ msgid "1 file in index"
+#~ msgid_plural "%1 files in index"
+#~ msgstr[0] "1 pel di pêrist de"
+#~ msgstr[1] "%1 pel di pêrist de"
+
+#~ msgid ""
+#~ "Strigi file indexing started. Indexing all files for fast desktop "
+#~ "searches may take a while."
+#~ msgstr ""
+#~ "Strigi pêrist kirina pelê hat destpê kirin. Pêrist kirina hemû pelan ji "
+#~ "bo lêgerîna sermasê yê lez di be ku hinek dem bikişîne."
+
+#~ msgid "Resuming Strigi file indexing."
+#~ msgstr "Strigi pêrist kirina pelê dom dike."
+
+#~ msgid "Suspending Strigi file indexing to preserve resources."
+#~ msgstr ""
+#~ "Ji bo parastina çavkaniyan, Strigi pêrist kirina pelê tê sekinandin."
+
+#~ msgid ""
+#~ "Local disk space is running low (%1 left). Suspending Strigi file "
+#~ "indexing."
+#~ msgstr ""
+#~ "Valahiya dîska herêmî hindik ma (%1 ma). Strigi pêrist kirina pelê tê "
+#~ "sekinandin."
+
+#~ msgctxt "@info %1 is a duration formatted using KLocale::formatDuration"
+#~ msgid "Initial Desktop Search file indexing finished in %1"
+#~ msgstr ""
+#~ "Pêrist kirina pelê ya Lêgerîna Sermasê yê Pêşîn di %1 de hat qedandin"

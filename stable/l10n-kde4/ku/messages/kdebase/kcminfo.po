@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcminfo\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-19 10:54+0100\n"
+"POT-Creation-Date: 2009-01-27 08:23+0100\n"
 "PO-Revision-Date: 2008-12-27 02:30+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <ku@li.org>\n"
@@ -17,6 +17,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural= n != 1;\n"
 "X-Generator: KBabel 1.11.4\n"
 "X-Poedit-Language: Kurdish\n"
+
+#: info.cpp:26
+msgid "kcminfo"
+msgstr "kcminfo"
 
 #: info.cpp:27
 msgid "KDE Panel System Information Control Module"
@@ -43,8 +47,10 @@ msgid "This list displays system information on the selected category."
 msgstr "Ev lîste ye agahiyên pergalê di beşa hilbijartî de dide nîşan. "
 
 #: info.cpp:69
-#, kde-format
-msgctxt "%1 is one of the modules of the kinfocenter, cpu info, os info, etc"
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "%1 is one of the modules of the kinfocenter, cpu info, os info, etc"
+#| msgid "No information available about %1."
 msgid "No information available about %1."
 msgstr "Tu agahî der barê %1 de tune ye."
 
@@ -97,9 +103,6 @@ msgstr "Omer Ensari"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "oensari at gmail dot com"
-
-#~ msgid "kcminfo"
-#~ msgstr "kcminfo"
 
 #~ msgid "Partitions"
 #~ msgstr "Partîsiyon"

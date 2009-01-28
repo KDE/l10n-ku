@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasmoidviewer\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-12-18 09:58+0100\n"
+"POT-Creation-Date: 2009-01-27 08:23+0100\n"
 "PO-Revision-Date: 2008-12-23 02:46+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
@@ -19,38 +19,45 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural= n != 1;\n"
 "X-Poedit-Language: Kurdish\n"
 
-#: main.cpp:44
-msgid "Run Plasma widgets in their own window"
+#: main.cpp:39
+#, fuzzy
+#| msgid "Run Plasma widgets in their own window"
+msgid "Run Plasma applets in their own window"
 msgstr "Alavên Plasmayê di paceya wê de nîşan bide"
 
-#: main.cpp:48
-msgid "Plasma Widget Viewer"
+#: main.cpp:43
+#, fuzzy
+#| msgid "Plasma Widget Viewer"
+msgid "Plasma Applet Viewer"
 msgstr "Nîşandêra Alavên Plasma"
 
-#: main.cpp:50
-msgid "2007-2008, Frerich Raabe"
-msgstr "2007-2008, Frerich Raabe"
+#: main.cpp:45
+msgid "(C) 2007, The KDE Team"
+msgstr "(C) 2007, Koma KDE'yê"
 
-#: main.cpp:52
+#: main.cpp:47
 msgid "Frerich Raabe"
 msgstr "Frerich Raabe"
 
-#: main.cpp:53
+#: main.cpp:48
 msgid "Original author"
 msgstr "Nivîskarê resen"
 
-#: main.cpp:59
-msgid "Displays a list of known applets"
-msgstr "Lîsteyekî sepanokên tên nas kirin nîşan bide"
-
-#: main.cpp:61
-msgctxt "Do not translate horizontal, vertical, mediacenter nor planar"
+#: main.cpp:55
+#, fuzzy
+#| msgctxt "Do not translate horizontal, vertical, mediacenter nor planar"
+#| msgid "The formfactor to use (horizontal, vertical, mediacenter or planar)"
 msgid "The formfactor to use (horizontal, vertical, mediacenter or planar)"
 msgstr "Formfactor ji bo bi kar anîna (dirêjkirî, çik, navendî an jî rast)"
 
-#: main.cpp:63
-msgctxt ""
-"Do not translate floating, desktop, fullscreen, top, bottom, left nor right"
+#: main.cpp:57
+#, fuzzy
+#| msgctxt ""
+#| "Do not translate floating, desktop, fullscreen, top, bottom, left nor "
+#| "right"
+#| msgid ""
+#| "The location constraint to start the Containment with (floating, desktop, "
+#| "fullscreen, top, bottom, left, right)"
 msgid ""
 "The location constraint to start the Containment with (floating, desktop, "
 "fullscreen, top, bottom, left, right)"
@@ -58,31 +65,19 @@ msgstr ""
 "Cih sînor kirî ye ji bo destpê kirina Parastinê digel (herikîn, sermase, "
 "dîmender tijî, jor, jêr, çep, rast)"
 
-#: main.cpp:65
-msgid "Name of the containment plugin"
-msgstr "Navê pêveka parastinê"
-
-#: main.cpp:67
-msgid "Name of the wallpaper plugin"
-msgstr "Navê pêveka wêneya rûerdê"
-
-#: main.cpp:69
+#: main.cpp:59
 msgid "The size in KB to set the pixmap cache to"
 msgstr "Mezinahiya KB'î ji bo berhevkirina piksmapê ji bo"
 
-#: main.cpp:70
+#: main.cpp:60
 msgid "Name of applet to add (required)"
 msgstr "Navê alavê têxistinê (gengaz)"
 
-#: main.cpp:71
+#: main.cpp:61
 msgid "Optional arguments of the applet to add"
 msgstr "Nîqaşên vebijêrkî yên alavê têxistinê"
 
-#: main.cpp:93
-msgid "No description available"
-msgstr "Tu rave tune ye"
-
-#: main.cpp:110
+#: main.cpp:68
 msgid "No applet name specified"
 msgstr "Tu navekî alavan nehate dîtin"
 
@@ -96,5 +91,17 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "amedcj at gmail dot com"
 
-#~ msgid "(C) 2007, The KDE Team"
-#~ msgstr "(C) 2007, Koma KDE'yê"
+#~ msgid "2007-2008, Frerich Raabe"
+#~ msgstr "2007-2008, Frerich Raabe"
+
+#~ msgid "Displays a list of known applets"
+#~ msgstr "Lîsteyekî sepanokên tên nas kirin nîşan bide"
+
+#~ msgid "Name of the containment plugin"
+#~ msgstr "Navê pêveka parastinê"
+
+#~ msgid "Name of the wallpaper plugin"
+#~ msgstr "Navê pêveka wêneya rûerdê"
+
+#~ msgid "No description available"
+#~ msgstr "Tu rave tune ye"

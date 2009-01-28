@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_desktop\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-12-22 10:18+0100\n"
+"POT-Creation-Date: 2009-01-27 08:23+0100\n"
 "PO-Revision-Date: 2008-06-30 14:38+0300\n"
 "Last-Translator: Amed Çeko Jiyan <amedcj@gmail.com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
@@ -18,135 +18,230 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural= n != 1;\n"
 
-#: desktop.cpp:179
+#: backgrounddialog.cpp:516
+#, kde-format
+msgctxt "Caption to wallpaper preview, %1 author name"
+msgid "by %1"
+msgstr "Ji hêla %1"
+
+#: backgrounddialog.cpp:550
+msgid "Desktop Settings"
+msgstr "Mîhengên Sermaseyê"
+
+#: backgrounddialog.cpp:571
+msgid "Scaled & Cropped"
+msgstr "Vezeliyayî & Qusandî"
+
+#: backgrounddialog.cpp:573
+msgid "Scaled"
+msgstr "Vezeliyayî"
+
+#: backgrounddialog.cpp:575
+msgid "Centered"
+msgstr "Navîn"
+
+#: backgrounddialog.cpp:577
+msgid "Tiled"
+msgstr "Raxistî"
+
+#: backgrounddialog.cpp:579
+msgid "Center Tiled"
+msgstr "Li Navîn Raxistî"
+
+#: backgrounddialog.cpp:609
+msgid ""
+"This picture of a monitor contains a preview of what the current settings "
+"will look like on your desktop."
+msgstr ""
+"Bi vê wêneyê dîmenderê tu dikarî bibî ka sermaseya te dê çawa xuya bike."
+
+#: backgrounddialog.cpp:743
+msgid "Select Wallpaper Image File"
+msgstr "Pelê Wêneyê Rûerdê Hilbijêre"
+
+#: backgrounddialog.cpp:816
+#, kde-format
+msgctxt "Wallpaper info, author name"
+msgid "%1"
+msgstr ""
+
+#: backgroundpackage.cpp:159
+msgid "Images"
+msgstr "Wêne"
+
+#: backgroundpackage.cpp:160
+msgid "Screenshot"
+msgstr "WêneyêSermasê"
+
+#: desktop.cpp:333
 msgid "Add Panel"
 msgstr "Têxe Panelê"
 
-#: desktop.cpp:183
+#: desktop.cpp:337
 msgid "Run Command..."
 msgstr "Ferman Bixebitîne..."
 
-#: desktop.cpp:190
+#: desktop.cpp:341
+msgid "Desktop Settings..."
+msgstr "Mîhengên Sermaseyê..."
+
+#: desktop.cpp:347
 msgid "Lock Screen"
 msgstr "Dîmenderê biqufilîne"
 
-#: desktop.cpp:194
+#: desktop.cpp:351
 msgid "Leave..."
 msgstr "&Rake..."
 
-#~ msgid "Desktop Settings..."
-#~ msgstr "Mîhengên Sermaseyê..."
+#. i18n: file: BackgroundDialog.ui:34
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:3
+msgid "Wallpaper"
+msgstr "RûerdêSermasê"
 
-#~ msgctxt "Caption to wallpaper preview, %1 author name"
-#~ msgid "by %1"
-#~ msgstr "Ji hêla %1"
-
-#~ msgid "Desktop Settings"
-#~ msgstr "Mîhengên Sermaseyê"
-
-#~ msgid "Scaled & Cropped"
-#~ msgstr "Vezeliyayî & Qusandî"
-
-#~ msgid "Scaled"
-#~ msgstr "Vezeliyayî"
-
-#~ msgid "Centered"
-#~ msgstr "Navîn"
-
-#~ msgid "Tiled"
-#~ msgstr "Raxistî"
-
-#~ msgid "Center Tiled"
-#~ msgstr "Li Navîn Raxistî"
-
-#~ msgid ""
-#~ "This picture of a monitor contains a preview of what the current settings "
-#~ "will look like on your desktop."
-#~ msgstr ""
-#~ "Bi vê wêneyê dîmenderê tu dikarî bibî ka sermaseya te dê çawa xuya bike."
-
-#~ msgid "Select Wallpaper Image File"
-#~ msgstr "Pelê Wêneyê Rûerdê Hilbijêre"
-
-#~ msgid "Images"
-#~ msgstr "Wêne"
-
-#~ msgid "Screenshot"
-#~ msgstr "WêneyêSermasê"
-
-#~ msgid "Wallpaper"
-#~ msgstr "RûerdêSermasê"
-
+#. i18n: file: BackgroundDialog.ui:52
+#. i18n: ectx: property (text), item, widget (QComboBox, m_mode)
+#: rc.cpp:6
 #, fuzzy
-#~ msgid "Image"
-#~ msgstr "Wêne"
+msgid "Image"
+msgstr "Wêne"
 
-#~ msgid "Slideshow"
-#~ msgstr "NîşandanaSlaydê"
+#. i18n: file: BackgroundDialog.ui:57
+#. i18n: ectx: property (text), item, widget (QComboBox, m_mode)
+#: rc.cpp:9
+msgid "Slideshow"
+msgstr "NîşandanaSlaydê"
 
-#~ msgid "None"
-#~ msgstr "Ne yek"
+#. i18n: file: BackgroundDialog.ui:62
+#. i18n: ectx: property (text), item, widget (QComboBox, m_mode)
+#: rc.cpp:12
+msgid "None"
+msgstr "Ne yek"
 
-#~ msgid "&Picture:"
-#~ msgstr "&Wêne:"
+#. i18n: file: BackgroundDialog.ui:115
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:15
+msgid "&Picture:"
+msgstr "&Wêne:"
 
-#~ msgid "Browse"
-#~ msgstr "Bigere"
+#. i18n: file: BackgroundDialog.ui:140
+#. i18n: ectx: property (toolTip), widget (QToolButton, m_pictureUrlButton)
+#: rc.cpp:18
+msgid "Browse"
+msgstr "Bigere"
 
-#~ msgid "..."
-#~ msgstr "..."
+#. i18n: file: BackgroundDialog.ui:143
+#. i18n: ectx: property (text), widget (QToolButton, m_pictureUrlButton)
+#: rc.cpp:21
+msgid "..."
+msgstr "..."
 
+#. i18n: file: BackgroundDialog.ui:152
+#. i18n: ectx: property (text), widget (QLabel, m_authorLabel)
+#: rc.cpp:24
 #, fuzzy
-#~ msgid "Author:"
-#~ msgstr "Nivîskar"
+msgid "Author:"
+msgstr "Nivîskar"
 
+#. i18n: file: BackgroundDialog.ui:175
+#. i18n: ectx: property (text), widget (QLabel, m_emailLabel)
+#: rc.cpp:27
 #, fuzzy
-#~ msgid "Email:"
-#~ msgstr "E-peyam"
+msgid "Email:"
+msgstr "E-peyam"
 
-#~ msgid "License:"
-#~ msgstr "Lîsans:"
+#. i18n: file: BackgroundDialog.ui:198
+#. i18n: ectx: property (text), widget (QLabel, m_licenseLabel)
+#: rc.cpp:30
+msgid "License:"
+msgstr "Lîsans:"
 
-#~ msgid "P&ositioning:"
-#~ msgstr "Bi&cîkirin:"
+#. i18n: file: BackgroundDialog.ui:230
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: rc.cpp:33
+msgid "P&ositioning:"
+msgstr "Bi&cîkirin:"
 
-#~ msgid "&Color:"
-#~ msgstr "&Reng:"
+#. i18n: file: BackgroundDialog.ui:253
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: rc.cpp:36
+msgid "&Color:"
+msgstr "&Reng:"
 
-#~ msgid "&Add Folder..."
-#~ msgstr "Peldankê Lê &Zêde Bike..."
+#. i18n: file: BackgroundDialog.ui:353
+#. i18n: ectx: property (text), widget (KPushButton, m_addDir)
+#: rc.cpp:39
+msgid "&Add Folder..."
+msgstr "Peldankê Lê &Zêde Bike..."
 
-#~ msgid "&Remove Folder"
-#~ msgstr "Peldankê &Rake"
+#. i18n: file: BackgroundDialog.ui:363
+#. i18n: ectx: property (text), widget (KPushButton, m_removeDir)
+#: rc.cpp:42
+msgid "&Remove Folder"
+msgstr "Peldankê &Rake"
 
-#~ msgid "&Change images every:"
-#~ msgstr "Demajoya &Guherandina Wêneyî:"
+#. i18n: file: BackgroundDialog.ui:392
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:45
+msgid "&Change images every:"
+msgstr "Demajoya &Guherandina Wêneyî:"
 
+#. i18n: file: BackgroundDialog.ui:415
+#. i18n: ectx: property (displayFormat), widget (QTimeEdit, m_slideshowDelay)
+#: rc.cpp:48
 #, fuzzy
-#~| msgid "hh 'Hours' mm 'Mins' ss 'Secs'"
-#~ msgctxt ""
-#~ "(qtdt-format) Please do not change the quotes (') and translate only the "
-#~ "content of the quotes."
-#~ msgid "hh 'Hours' mm 'Mins' ss 'Secs'"
-#~ msgstr "ss 'Saet' çç 'Çirke' xx 'Xulek'"
+#| msgid "hh 'Hours' mm 'Mins' ss 'Secs'"
+msgctxt ""
+"(qtdt-format) Please do not change the quotes (') and translate only the "
+"content of the quotes."
+msgid "hh 'Hours' mm 'Mins' ss 'Secs'"
+msgstr "ss 'Saet' çç 'Çirke' xx 'Xulek'"
 
-#~ msgid "Monitor"
-#~ msgstr "Dîmender"
+#. i18n: file: BackgroundDialog.ui:473
+#. i18n: ectx: property (text), widget (QLabel, m_monitor)
+#: rc.cpp:51
+msgid "Monitor"
+msgstr "Dîmender"
 
-#~ msgid "Download new wallpapers"
-#~ msgstr "Wêneyên Nû Daxe"
+#. i18n: file: BackgroundDialog.ui:498
+#. i18n: ectx: property (toolTip), widget (QPushButton, m_newStuff)
+#: rc.cpp:54
+msgid "Download new wallpapers"
+msgstr "Wêneyên Nû Daxe"
 
-#~ msgid "New Wallpaper..."
-#~ msgstr "Wêneyê Nû..."
+#. i18n: file: BackgroundDialog.ui:501
+#. i18n: ectx: property (text), widget (QPushButton, m_newStuff)
+#: rc.cpp:57
+msgid "New Wallpaper..."
+msgstr "Wêneyê Nû..."
 
-#~ msgid "Desktop Theme"
-#~ msgstr "Dirbê Sermaseyê"
+#. i18n: file: BackgroundDialog.ui:545
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: rc.cpp:60
+msgid "Desktop Theme"
+msgstr "Dirbê Sermaseyê"
 
-#~ msgid "Theme:"
-#~ msgstr "Dirb:"
+#. i18n: file: BackgroundDialog.ui:559
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:63
+msgid "Theme:"
+msgstr "Dirb:"
 
-#~ msgid "New Theme..."
-#~ msgstr "Dirbê Nû..."
+#. i18n: file: BackgroundDialog.ui:579
+#. i18n: ectx: property (text), widget (QPushButton, m_newThemeButton)
+#: rc.cpp:66
+msgid "New Theme..."
+msgstr "Dirbê Nû..."
+
+#: rc.cpp:67
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#: rc.cpp:68
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
 
 #~ msgid "Icon"
 #~ msgstr "Îkon"

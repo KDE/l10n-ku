@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dragonplayer\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-12-22 10:20+0100\n"
+"POT-Creation-Date: 2009-01-27 08:26+0100\n"
 "PO-Revision-Date: 2009-01-22 21:21+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -18,19 +18,19 @@ msgstr ""
 "X-Poedit-Language: Kurdish\n"
 "X-Poedit-SourceCharset: utf8\n"
 
-#: src/app/playDialog.cpp:47
+#: src/app/playDialog.cpp:46
 msgid "Play Media"
 msgstr "Medya Lê Bide"
 
-#: src/app/playDialog.cpp:57
+#: src/app/playDialog.cpp:56
 msgid "What media would you like to play?"
 msgstr "Tu çi medya dixwazî ku were lêdan?"
 
-#: src/app/playDialog.cpp:65
+#: src/app/playDialog.cpp:64
 msgid "Play File..."
 msgstr "Pelê Lê Bide..."
 
-#: src/app/playDialog.cpp:69
+#: src/app/playDialog.cpp:68
 msgid "Play Disc"
 msgstr "Dîskê Lê Bide"
 
@@ -169,7 +169,7 @@ msgstr "DVD ya Vîdeoyê Lê Bide"
 msgid "Show Additional Debug Output"
 msgstr "Zêdetir Derketanê Çewtiyan Nîşan Bide"
 
-#: src/app/part.cpp:66 src/app/mainWindow.cpp:308
+#: src/app/part.cpp:66 src/app/mainWindow.cpp:307
 msgid "Position Slider"
 msgstr "Cih Guhêrker"
 
@@ -178,8 +178,9 @@ msgid "The file is not a playlist"
 msgstr "Pel pela lîsteya lêdanê nîn e"
 
 #: src/app/playlistFile.cpp:57
-#, kde-format
-msgid "Dragon Player could not download the remote playlist: %1"
+#, fuzzy, kde-format
+#| msgid "Dragon Player could not download the remote playlist: %1"
+msgid "Codeine could not download the remote playlist: %1"
 msgstr "Lêdarê Dragon nikare lîsteya lêdanê ya dûr daxe: %1"
 
 #: src/app/playlistFile.cpp:72
@@ -191,8 +192,9 @@ msgstr ""
 "<qt>Lîsteya lêdanê, <i>'%1'</i>, nayê şîrove kirin. Di be ku ev vala be?</qt>"
 
 #: src/app/playlistFile.cpp:76
-#, kde-format
-msgid "Dragon Player could not open the file: %1"
+#, fuzzy, kde-format
+#| msgid "Dragon Player could not open the file: %1"
+msgid "Codeine could not open the file: %1"
 msgstr "Lêdarê Dragon nekarî pelê veke: %1"
 
 #: src/app/stateChange.cpp:182
@@ -221,35 +223,35 @@ msgstr "&Lê Bide"
 msgid "Volume"
 msgstr "Deng"
 
-#: src/app/mainWindow.cpp:134
+#: src/app/mainWindow.cpp:133
 msgid "Aspect &Ratio"
 msgstr "&Rêje ya Dîmenê"
 
-#: src/app/mainWindow.cpp:135
+#: src/app/mainWindow.cpp:134
 msgid "&Audio Channels"
 msgstr "Kanalên &Muzîkê"
 
-#: src/app/mainWindow.cpp:136
+#: src/app/mainWindow.cpp:135
 msgid "&Subtitles"
 msgstr "&Binnivîs"
 
-#: src/app/mainWindow.cpp:152
+#: src/app/mainWindow.cpp:151
 msgid "Determine &Automatically"
 msgstr "&Bixweber Diyar Bike"
 
-#: src/app/mainWindow.cpp:153
+#: src/app/mainWindow.cpp:152
 msgid "&4:3"
 msgstr "&4:3"
 
-#: src/app/mainWindow.cpp:154
+#: src/app/mainWindow.cpp:153
 msgid "Ana&morphic (16:9)"
 msgstr "Ana&morphic (16:9)"
 
-#: src/app/mainWindow.cpp:155
+#: src/app/mainWindow.cpp:154
 msgid "&Window Size"
 msgstr "Mezinahiyê &Paceyê"
 
-#: src/app/mainWindow.cpp:197
+#: src/app/mainWindow.cpp:196
 msgid ""
 "<qt>xine could not be successfully initialised. Dragon Player will now exit. "
 "You can try to identify what is wrong with your xine installation using the "
@@ -259,81 +261,75 @@ msgstr ""
 "dikarî biceribînî ku çê şaştî di sazkirina xine de heye bi bikaranîna "
 "fermana <b>xine-check</b> re.</qt>"
 
-#: src/app/mainWindow.cpp:261
+#: src/app/mainWindow.cpp:260
 msgid "Play &Media..."
 msgstr "&Medya Lê Bide..."
 
-#: src/app/mainWindow.cpp:269
+#: src/app/mainWindow.cpp:268
 msgid "Stop"
 msgstr "Rawestîne"
 
-#: src/app/mainWindow.cpp:275
+#: src/app/mainWindow.cpp:274
 msgid "Mute"
 msgstr "Bêdeng"
 
-#: src/app/mainWindow.cpp:281
+#: src/app/mainWindow.cpp:280
 msgid "Reset Video Scale"
 msgstr "Pîvanga Vîdeoyê Vegerîne Nirxên Asayî"
 
-#: src/app/mainWindow.cpp:287
+#: src/app/mainWindow.cpp:286
 msgid "Menu Toggle"
 msgstr "Pêşekê Veke/Bigire"
 
-#: src/app/mainWindow.cpp:313
+#: src/app/mainWindow.cpp:312
 msgid "Video Settings"
 msgstr "Vebijêrkên Vîdeoyê"
 
-#: src/app/mainWindow.cpp:319
+#: src/app/mainWindow.cpp:318
 msgid "Previous chapter"
 msgstr "Beşa paş"
 
-#: src/app/mainWindow.cpp:325
+#: src/app/mainWindow.cpp:324
 msgid "Next chapter"
 msgstr "Beşa pêş"
 
-#: src/app/mainWindow.cpp:332
+#: src/app/mainWindow.cpp:331
 #, no-c-format
 msgid "Return 10% back"
 msgstr "10% vegere paş"
 
-#: src/app/mainWindow.cpp:339
+#: src/app/mainWindow.cpp:338
 #, no-c-format
 msgid "Go 10% forward"
 msgstr "10% biçe pêş"
 
-#: src/app/mainWindow.cpp:345
-msgid "Return 10 seconds back"
-msgstr "10 xulekan vegere paş"
-
-#: src/app/mainWindow.cpp:351
-msgid "Go 10 seconds forward"
-msgstr "10 xulekan biçe pêş"
-
-#: src/app/mainWindow.cpp:397
+#: src/app/mainWindow.cpp:385
 msgid "Mute "
 msgstr "Bêdeng"
 
-#: src/app/mainWindow.cpp:470
-msgid "Dragon Player was asked to open an empty URL; it cannot."
+#: src/app/mainWindow.cpp:458
+#, fuzzy
+#| msgid "Dragon Player was asked to open an empty URL; it cannot."
+msgid "Codeine was asked to open an empty URL; it cannot."
 msgstr "Lêdarê Dragon ji bo vekirina URL yekê vala hat lê pirsîn; nikare veke."
 
-#: src/app/mainWindow.cpp:491
+#: src/app/mainWindow.cpp:479
 msgid "There was an internal error with the media slave..."
 msgstr "Çewtiyekê hundirîn çê bû bi pêgirê medyayê re..."
 
-#: src/app/mainWindow.cpp:550
+#: src/app/mainWindow.cpp:537
 msgid "Select A File To Play"
 msgstr "Ji bo Lêdanê Pelekî Hilbijêre"
 
-#: src/app/mainWindow.cpp:707
+#: src/app/mainWindow.cpp:694
 msgid "Sorry, no media was found in the drop"
 msgstr "Lêborîne, tu medya nehat dîtin"
 
-#: src/app/videoWindow.cpp:119
+#: src/app/videoWindow.cpp:111
 msgid "&DVD Subtitle Selection"
 msgstr "Hilbijartina Binnivîsê &DVD yê "
 
-#: src/app/videoWindow.cpp:129
+#: src/app/videoWindow.cpp:121
 msgid "&Auto"
 msgstr "&Bixweber"
 
@@ -388,3 +384,9 @@ msgstr "&Mîheng"
 #: rc.cpp:26
 msgid "Main Toolbar"
 msgstr "Darikê Amûran ya Mak"
+
+#~ msgid "Return 10 seconds back"
+#~ msgstr "10 xulekan vegere paş"
+
+#~ msgid "Go 10 seconds forward"
+#~ msgstr "10 xulekan biçe pêş"
