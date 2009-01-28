@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_systemtray\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-12-31 11:07+0100\n"
+"POT-Creation-Date: 2009-01-28 09:13+0100\n"
 "PO-Revision-Date: 2008-12-26 01:38+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -17,28 +17,52 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural= n != 1;\n"
 "X-Poedit-Language: Kurdish\n"
 
-#: ui/applet.cpp:142
+#: ui/applet.cpp:155
 msgid "No notifications and no jobs"
 msgstr "Tu hişyarî û xebat tune ye"
 
-#: ui/applet.cpp:318
+#: ui/applet.cpp:327
 msgid "Visible icons:"
 msgstr "Îkonên xuya:"
 
-#: ui/applet.cpp:319
+#: ui/applet.cpp:328
 msgid "Hidden icons:"
 msgstr "îkonên veşartî:"
 
-#: ui/applet.cpp:325
+#: ui/applet.cpp:334
+msgid ""
+"Select the types of application feedback that should be integrated with the "
+"system tray:"
+msgstr ""
+
+#: ui/applet.cpp:337
+msgid "Show Jobs"
+msgstr ""
+
+#: ui/applet.cpp:339
+#, fuzzy
+#| msgid "Show or hide notifications and jobs"
+msgid "Show Notifications"
+msgstr "Hişyarî û xebatan nîşan bide û veşêre"
+
+#: ui/applet.cpp:352
 msgid "Auto Hide"
 msgstr ""
+
+#: ui/applet.cpp:353
+#, fuzzy
+#| msgid "Notification from %1"
+msgid "Notifications"
+msgstr "Hişyarî jê %1 "
 
 #: ui/extendertask.cpp:82
 msgid "Show or hide notifications and jobs"
 msgstr "Hişyarî û xebatan nîşan bide û veşêre"
 
-#: ui/extendertask.cpp:110
-msgid "toggle visibility of notifications and jobs"
+#: ui/extendertask.cpp:109
+#, fuzzy
+#| msgid "toggle visibility of notifications and jobs"
+msgid "Toggle visibility of notifications and jobs"
 msgstr "xuya kirina geh yê hişyarî yan û xebatan"
 
 #: ui/jobwidget.cpp:92
