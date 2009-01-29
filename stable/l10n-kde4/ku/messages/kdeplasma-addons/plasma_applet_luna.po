@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_luna\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-27 08:28+0100\n"
+"POT-Creation-Date: 2009-01-29 07:22+0100\n"
 "PO-Revision-Date: 2009-01-11 21:58+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -18,48 +18,52 @@ msgstr ""
 "X-Poedit-Language: Kurdish\n"
 "X-Poedit-SourceCharset: utf8\n"
 
-#: luna.cpp:55
+#: luna.cpp:53
 msgid "The luna SVG file was not found"
 msgstr "Pela luna SVG nehat dîtin"
 
-#: luna.cpp:191
+#: luna.cpp:89
+msgid "General"
+msgstr "Giştî"
+
+#: luna.cpp:171
 msgid "Full Moon"
 msgstr "Heyva Tijî"
 
-#: luna.cpp:236
+#: luna.cpp:214
 msgid "New Moon"
 msgstr "Heyva Nû"
 
-#: luna.cpp:246
+#: luna.cpp:223
 #, kde-format
 msgid "Waxing Crescent (New Moon was yesterday)"
 msgid_plural "Waxing Crescent (%1 days since New Moon)"
 msgstr[0] "Heyvika Mezin dibe (Hêyva Nû do bû)"
 msgstr[1] "Heyvika Mezin dibe (%1 roj piştî Heyva Nû)"
 
-#: luna.cpp:251
+#: luna.cpp:227
 msgid "First Quarter"
 msgstr "Çarika Pêşîn"
 
-#: luna.cpp:261
+#: luna.cpp:236
 #, kde-format
 msgid "Waxing Gibbous (Tomorrow is Full Moon)"
 msgid_plural "Waxing Gibbous (%1 days to Full Moon)"
 msgstr[0] "Qopa Mezin dibe (Sibeyê Heyva Tijî heye)"
 msgstr[1] "Qopa Mezin dibe (%1 roj din paşê Heyva Tijî heye)"
 
-#: luna.cpp:274
+#: luna.cpp:249
 #, kde-format
 msgid "Waning Gibbous (Yesterday was Full Moon)"
 msgid_plural "Waning Gibbous (%1 days since Full Moon)"
 msgstr[0] "Qopa Biçûk dibe (Do Heyva Tijî bû)"
 msgstr[1] "Qopa Biçûk dibe (%1 roj piştî Heyva Tijî)"
 
-#: luna.cpp:279
+#: luna.cpp:253
 msgid "Last Quarter"
 msgstr "Çarika Dawî"
 
-#: luna.cpp:291
+#: luna.cpp:264
 #, kde-format
 msgid "Waning Crescent (Tomorrow is New Moon)"
 msgid_plural "Waning Crescent (%1 days to New Moon)"
@@ -67,31 +71,28 @@ msgstr[0] "Heyvika Biçûk dibe (Sibeyê Heyva Nû heye)"
 msgstr[1] "Heyvika Biçûk dibe (%1 roj paşê Heyva Nû heye)"
 
 #. i18n: file: lunaConfig.ui:16
-#. i18n: ectx: property (title), widget (QGroupBox, hemisphereGroup)
+#. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:3
-#, fuzzy
-#| msgid "Northern hemisphere"
-msgid "Hemisphere:"
-msgstr "Nîvkada bakur"
+msgid "Show moon as seen in:"
+msgstr "Heyvê wekî xuya dike nîşan bide:"
 
-#. i18n: file: lunaConfig.ui:22
+#. i18n: file: lunaConfig.ui:45
 #. i18n: ectx: property (text), widget (QRadioButton, northenRadio)
 #: rc.cpp:6
 #, fuzzy
 #| msgid "Northern hemisphere"
-msgid "Northen Hemisphere"
+msgid "Northern hemisphere"
 msgstr "Nîvkada bakur"
 
-#. i18n: file: lunaConfig.ui:29
+#. i18n: file: lunaConfig.ui:58
 #. i18n: ectx: property (text), widget (QRadioButton, southernRadio)
 #: rc.cpp:9
 #, fuzzy
 #| msgid "Southern hemisphere"
-msgid "Southern Hemisphere"
+msgid "Southern hemisphere"
 msgstr "Nîvkada başûr"
 
-#~ msgid "General"
-#~ msgstr "Giştî"
-
-#~ msgid "Show moon as seen in:"
-#~ msgstr "Heyvê wekî xuya dike nîşan bide:"
+#, fuzzy
+#~| msgid "Northern hemisphere"
+#~ msgid "Hemisphere:"
+#~ msgstr "Nîvkada bakur"

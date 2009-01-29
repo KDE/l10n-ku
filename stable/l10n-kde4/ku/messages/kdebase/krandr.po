@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krandr\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-27 08:23+0100\n"
+"POT-Creation-Date: 2009-01-29 07:19+0100\n"
 "PO-Revision-Date: 2009-01-06 02:33+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
@@ -76,7 +76,7 @@ msgid "Unify Outputs"
 msgstr "Deranan Tevî Hev Bike"
 
 #: krandrtray.cpp:375 legacyrandrconfig.cpp:269 legacyrandrscreen.cpp:246
-#: outputconfig.cpp:292
+#: outputconfig.cpp:325
 #, kde-format
 msgid "%1 Hz"
 msgstr "%1 Hz"
@@ -170,50 +170,50 @@ msgstr ""
 msgid "Application is being auto-started at KDE session start"
 msgstr ""
 
-#: outputconfig.cpp:145
+#: outputconfig.cpp:165
 msgid "Left of"
 msgstr "Çep ê"
 
-#: outputconfig.cpp:146
+#: outputconfig.cpp:166
 msgid "Right of"
 msgstr "Rast ê"
 
-#: outputconfig.cpp:147
+#: outputconfig.cpp:167
 msgctxt "Output is placed above another one"
 msgid "Above"
 msgstr "Jor"
 
-#: outputconfig.cpp:148
+#: outputconfig.cpp:168
 msgctxt "Output is placed below another one"
 msgid "Below"
 msgstr "Jêr"
 
-#: outputconfig.cpp:149
+#: outputconfig.cpp:169
 msgid "Clone of"
 msgstr ""
 
-#: outputconfig.cpp:150
+#: outputconfig.cpp:170
 msgctxt "Fixed, abitrary position"
 msgid "Absolute"
 msgstr ""
 
-#: outputconfig.cpp:153
+#: outputconfig.cpp:173
 msgid "No relative position"
 msgstr ""
 
-#: outputconfig.cpp:256
+#: outputconfig.cpp:288
 msgid "Disabled"
 msgstr "Neçalak Bike"
 
-#: outputconfig.cpp:261
-#, fuzzy
+#: outputconfig.cpp:294
+#, fuzzy, kde-format
 #| msgctxt "Automatic screen size (native resolution)"
 #| msgid "%1 (Auto)"
-msgctxt "Automatic (native resolution)"
-msgid " (Auto)"
+msgctxt "Automatic screen size (native resolution)"
+msgid "%1 (Auto)"
 msgstr "%1 (Bixweber)"
 
-#: outputconfig.cpp:286
+#: outputconfig.cpp:319
 msgctxt "Automatic configuration"
 msgid "Auto"
 msgstr "Bixweber"
@@ -227,7 +227,7 @@ msgid "Left (90 degrees)"
 msgstr ""
 
 #: randr.cpp:35
-msgid "Upside-down (180 degrees)"
+msgid "Upside-Down (180 degrees)"
 msgstr ""
 
 #: randr.cpp:37
@@ -235,39 +235,39 @@ msgid "Right (270 degrees)"
 msgstr ""
 
 #: randr.cpp:39
-msgid "Mirror horizontally"
+msgid "Mirror Horizontally"
 msgstr ""
 
 #: randr.cpp:41
-msgid "Mirror vertically"
+msgid "Mirror Vertically"
 msgstr ""
 
 #: randr.cpp:43 randr.cpp:74
 #, fuzzy
 #| msgid "Orientation"
-msgid "Unknown orientation"
+msgid "Unknown Orientation"
 msgstr "Hêl"
 
 #: randr.cpp:48
 #, fuzzy
 #| msgid "No Rotation"
-msgid "Not rotated"
+msgid "Not Rotated"
 msgstr "Zivirandin Tune ye"
 
 #: randr.cpp:50
-msgid "Rotated 90 degrees counterclockwise"
+msgid "Rotated 90 Degrees Counterclockwise"
 msgstr ""
 
 #: randr.cpp:52
-msgid "Rotated 180 degrees counterclockwise"
+msgid "Rotated 180 Degrees Counterclockwise"
 msgstr ""
 
 #: randr.cpp:54
-msgid "Rotated 270 degrees counterclockwise"
+msgid "Rotated 270 Degrees Counterclockwise"
 msgstr ""
 
 #: randr.cpp:59
-msgid "Mirrored horizontally and vertically"
+msgid "Mirrored Horizontally And Vertically"
 msgstr ""
 
 #: randr.cpp:61
@@ -275,7 +275,7 @@ msgid "mirrored horizontally and vertically"
 msgstr ""
 
 #: randr.cpp:64
-msgid "Mirrored horizontally"
+msgid "Mirrored Horizontally"
 msgstr ""
 
 #: randr.cpp:66
@@ -283,7 +283,7 @@ msgid "mirrored horizontally"
 msgstr ""
 
 #: randr.cpp:69
-msgid "Mirrored vertically"
+msgid "Mirrored Vertically"
 msgstr ""
 
 #: randr.cpp:71
@@ -312,6 +312,11 @@ msgid ""
 "indicate whether you wish to keep this configuration. In 15 seconds the "
 "display will revert to your previous settings."
 msgstr ""
+
+#: randrconfig.cpp:111
+#, kde-format
+msgid "%1 (Connected)"
+msgstr "%1 (Hat girêdan)"
 
 #: randrdisplay.cpp:49
 #, kde-format
@@ -443,15 +448,20 @@ msgstr "Cî:"
 msgid "Display Configuration (X11 Resize, Rotate and Reflect)"
 msgstr ""
 
-#: rc.cpp:58
+#. i18n: file: randrconfigbase.ui:42
+#. i18n: ectx: property (text), widget (QPushButton, identifyOutputsButton)
+#: rc.cpp:60
+#, fuzzy
+#| msgid "Unify Outputs"
+msgid "Identify Outputs"
+msgstr "Deranan Tevî Hev Bike"
+
+#: rc.cpp:61
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Omer Ensari"
 
-#: rc.cpp:59
+#: rc.cpp:62
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "oensari at gmail dot com"
-
-#~ msgid "%1 (Connected)"
-#~ msgstr "%1 (Hat girêdan)"

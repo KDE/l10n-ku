@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfindpart\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-27 08:23+0100\n"
+"POT-Creation-Date: 2009-01-29 07:19+0100\n"
 "PO-Revision-Date: 2009-01-06 14:31+0200\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -20,10 +20,6 @@ msgstr ""
 #: kfinddlg.cpp:37
 msgid "Find Files/Folders"
 msgstr "Pel/Peldankan Bibîne"
-
-#: kfinddlg.cpp:57
-msgid "AMiddleLengthText..."
-msgstr "Nivîsa bi dirêjahiya orte"
 
 #: kfinddlg.cpp:58 kfinddlg.cpp:179
 msgid "Ready."
@@ -60,6 +56,7 @@ msgstr "Nikare pelgeya bijarte bibîne"
 #, fuzzy
 #| msgctxt "Name of the component that finds things"
 #| msgid "Find Component"
+msgctxt "Name of the component that finds things"
 msgid "Find Component"
 msgstr "Parçeyê Dîtinê"
 
@@ -196,100 +193,100 @@ msgstr "GiB"
 msgid "File &type:"
 msgstr "Pel &cure:"
 
-#: kftabdlg.cpp:279
+#: kftabdlg.cpp:280
 msgid "C&ontaining text:"
 msgstr "Bi ni&vîsarê:"
 
-#: kftabdlg.cpp:285
+#: kftabdlg.cpp:286
 msgid ""
 "<qt>If specified, only files that contain this text are found. Note that not "
 "all file types from the list above are supported. Please refer to the "
 "documentation for a list of supported file types.</qt>"
 msgstr ""
 
-#: kftabdlg.cpp:293
+#: kftabdlg.cpp:294
 msgid "Case s&ensitive"
 msgstr ""
 
-#: kftabdlg.cpp:294
+#: kftabdlg.cpp:295
 msgid "Include &binary files"
 msgstr ""
 
-#: kftabdlg.cpp:295
+#: kftabdlg.cpp:296
 msgid "Regular e&xpression"
 msgstr ""
 
-#: kftabdlg.cpp:298
+#: kftabdlg.cpp:299
 msgid ""
 "<qt>This lets you search in any type of file, even those that usually do not "
 "contain text (for example program files and images).</qt>"
 msgstr ""
 
-#: kftabdlg.cpp:306
+#: kftabdlg.cpp:307
 msgid "&Edit..."
 msgstr "&Sererastkirin..."
 
-#: kftabdlg.cpp:312
+#: kftabdlg.cpp:313
 msgid "fo&r:"
 msgstr "Ji &bo:"
 
-#: kftabdlg.cpp:314
+#: kftabdlg.cpp:315
 msgid "Search &metainfo sections:"
 msgstr ""
 
-#: kftabdlg.cpp:318
+#: kftabdlg.cpp:319
 msgid "All Files & Folders"
 msgstr "Hemû Pel & Peldank"
 
-#: kftabdlg.cpp:319
+#: kftabdlg.cpp:320
 msgid "Files"
 msgstr "Pel"
 
-#: kftabdlg.cpp:320
+#: kftabdlg.cpp:321
 msgid "Folders"
 msgstr "Peldank"
 
-#: kftabdlg.cpp:321
+#: kftabdlg.cpp:322
 msgid "Symbolic Links"
 msgstr "Lînkên Sembolîk"
 
-#: kftabdlg.cpp:322
+#: kftabdlg.cpp:323
 msgid "Special Files (Sockets, Device Files, ...)"
 msgstr "Pelên Taybet (Pelên Cîhazê, Socket, ...)"
 
-#: kftabdlg.cpp:323
+#: kftabdlg.cpp:324
 msgid "Executable Files"
 msgstr ""
 
-#: kftabdlg.cpp:324
+#: kftabdlg.cpp:325
 msgid "SUID Executable Files"
 msgstr ""
 
-#: kftabdlg.cpp:325
+#: kftabdlg.cpp:326
 msgid "All Images"
 msgstr "Hemû Wêne"
 
-#: kftabdlg.cpp:326
+#: kftabdlg.cpp:327
 msgid "All Video"
 msgstr "Hemû Video"
 
-#: kftabdlg.cpp:327
+#: kftabdlg.cpp:328
 msgid "All Sounds"
 msgstr "Hemû Deng"
 
-#: kftabdlg.cpp:378
+#: kftabdlg.cpp:379
 msgid "Name/&Location"
 msgstr "Nav/&Cih"
 
-#: kftabdlg.cpp:379
+#: kftabdlg.cpp:380
 msgid "C&ontents"
 msgstr "Na&verok"
 
-#: kftabdlg.cpp:380
+#: kftabdlg.cpp:381
 msgid "&Properties"
 msgstr "&Taybetmendî"
 
-#: kftabdlg.cpp:385
+#: kftabdlg.cpp:386
 msgid ""
 "<qt>Search within files' specific comments/metainfo<br />These are some "
 "examples:<br /><ul><li><b>Audio files (mp3...)</b> Search in id3 tag for a "
@@ -297,42 +294,42 @@ msgid ""
 "resolution, comment...</li></ul></qt>"
 msgstr ""
 
-#: kftabdlg.cpp:393
+#: kftabdlg.cpp:394
 msgid ""
 "<qt>If specified, search only in this field<br /><ul><li><b>Audio files "
 "(mp3...)</b> This can be Title, Album...</li><li><b>Images (png...)</b> "
 "Search only in Resolution, Bitdepth...</li></ul></qt>"
 msgstr ""
 
-#: kftabdlg.cpp:586
+#: kftabdlg.cpp:587
 msgid "Unable to search within a period which is less than a minute."
 msgstr ""
 
-#: kftabdlg.cpp:597
+#: kftabdlg.cpp:598
 msgid "The date is not valid."
 msgstr ""
 
-#: kftabdlg.cpp:599
+#: kftabdlg.cpp:600
 msgid "Invalid date range."
 msgstr "R3ezkirina dema çewt"
 
-#: kftabdlg.cpp:601
+#: kftabdlg.cpp:602
 msgid "Unable to search dates in the future."
 msgstr "Di paşerojê de nikare li deman bigere"
 
-#: kftabdlg.cpp:663
+#: kftabdlg.cpp:664
 msgid "Size is too big. Set maximum size value?"
 msgstr "Pir mezine. mezinahiya herî zêde bikar bîne"
 
-#: kftabdlg.cpp:663
+#: kftabdlg.cpp:664
 msgid "Error"
 msgstr "Çewtî"
 
-#: kftabdlg.cpp:663
+#: kftabdlg.cpp:664
 msgid "Set"
 msgstr ""
 
-#: kftabdlg.cpp:663
+#: kftabdlg.cpp:664
 msgid "Do Not Set"
 msgstr ""
 
@@ -533,3 +530,6 @@ msgstr "Rizoyê Xerzî"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "Rizoxerzi@gmail.com"
+
+#~ msgid "AMiddleLengthText..."
+#~ msgstr "Nivîsa bi dirêjahiya orte"

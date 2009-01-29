@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_battery\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-27 08:23+0100\n"
+"POT-Creation-Date: 2009-01-29 07:19+0100\n"
 "PO-Revision-Date: 2008-12-26 00:33+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
@@ -19,29 +19,86 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural= n != 1;\n"
 "X-Poedit-Language: Kurdish\n"
 
-#: battery.cpp:95 battery.cpp:130 battery.cpp:547 battery.cpp:563
-msgid "Battery"
-msgstr "Pîl"
+#: battery.cpp:216
+msgid "General"
+msgstr "Giştî"
 
-#: battery.cpp:95 battery.cpp:547 battery.cpp:563
-msgid "sources"
-msgstr "çavkanî"
+#: battery.cpp:371
+msgid "Screen Brightness"
+msgstr "Ronahiya Dîmenê"
 
-#: battery.cpp:104 battery.cpp:132 battery.cpp:553 battery.cpp:569
-msgid "AC Adapter"
-msgstr "Adaptorê AC"
+#: battery.cpp:402
+msgid "Power Profile"
+msgstr "Profîla Hêzê"
 
-#: battery.cpp:133 battery.cpp:498 battery.cpp:503 battery.cpp:521
-msgid "Plugged in"
-msgstr "Tê de"
+#: battery.cpp:416
+msgid "Actions"
+msgstr "Çalakî"
 
-#: battery.cpp:482 battery.cpp:507 battery.cpp:539
-msgid "n/a"
-msgstr "n/a"
+#: battery.cpp:434
+msgid "Sleep"
+msgstr "Bide Razan"
 
-#: battery.cpp:498 battery.cpp:504 battery.cpp:522
-msgid "Percent"
-msgstr "Ji sedî"
+#: battery.cpp:444
+msgid "Hibernate"
+msgstr "Bide Sekinandin "
+
+#: battery.cpp:458
+msgid "More..."
+msgstr "Zêdetir..."
+
+#: battery.cpp:474
+msgid "Power Management"
+msgstr "Rêveberiya Hezê"
+
+#: battery.cpp:510
+#, kde-format
+msgid "Time remaining: <b>%1</b><br />"
+msgstr "Demê mayî: <b>%1</b><br />"
+
+#: battery.cpp:529
+#, kde-format
+msgid "<b>Battery:</b> %1% (fully charged)<br />"
+msgstr "<b>Pîl:</b> %1% (şarj tijî bû)<br />"
+
+#: battery.cpp:531
+#, kde-format
+msgctxt "Shown when a time estimate is not available"
+msgid "<b>Battery:</b> %1% (discharging)<br />"
+msgstr "<b>Pîl:</b> %1% (şarj tê vala kirin)<br />"
+
+#: battery.cpp:533
+#, kde-format
+msgid "<b>Battery:</b> %1% (charging)<br />"
+msgstr "<b>Pîl:</b> %1% (tê şarj kirin)<br /> "
+
+#: battery.cpp:536 battery.cpp:557
+msgctxt "Battery is not plugged in"
+msgid "<b>Battery:</b> not present<br />"
+msgstr "<b>Pîl:</b> tune ye<br />"
+
+#: battery.cpp:541
+#, kde-format
+msgid "<b>Battery %1:</b> %2% (fully charged)<br />"
+msgstr "<b>Pîl %1: </b> %2% (şarj tijî bû)<br />"
+
+#: battery.cpp:543
+#, kde-format
+msgid "<b>Battery %1:</b> %2% (discharging)<br />"
+msgstr "<b>Pîl %1:</b> %2% (şarj tê vala kirin)<br />"
+
+#: battery.cpp:545
+#, kde-format
+msgid "<b>Battery %1:</b> %2% (charging)<br />"
+msgstr "<b>Pîl %1:</b> %2% (tê şarj kirin)<br /> "
+
+#: battery.cpp:552
+msgid "<b>AC Adapter:</b> Plugged in"
+msgstr "<b>Adaptorê AC:</b> Girêdayî ye"
+
+#: battery.cpp:554
+msgid "<b>AC Adapter:</b> Not plugged in"
+msgstr "<b>Adaptorê AC:</b> Ne girêdayî ye"
 
 #. i18n: file: batteryConfig.ui:13
 #. i18n: ectx: property (windowTitle), widget (QWidget, batteryConfig)
@@ -63,73 +120,29 @@ msgstr "Li ser pîlê rêjeya ji sedî a &şarjê nîşan bide"
 msgid "Show the state for &each battery present"
 msgstr "Rewşa her pîlekê bi rêjeya ji sedî nîşan bide"
 
-#. i18n: file: batteryConfig.ui:45
-#. i18n: ectx: property (text), widget (QRadioButton, oxygenBattery)
-#: rc.cpp:15
-msgid "Oxygen theme"
-msgstr "Dirbê Oxygen"
+#~ msgid "Battery"
+#~ msgstr "Pîl"
 
-#. i18n: file: batteryConfig.ui:55
-#. i18n: ectx: property (text), widget (QRadioButton, classicBattery)
-#: rc.cpp:18
-msgid "Classic theme"
-msgstr "Dirbê klasîk"
+#~ msgid "sources"
+#~ msgstr "çavkanî"
 
-#~ msgid "General"
-#~ msgstr "Giştî"
+#~ msgid "AC Adapter"
+#~ msgstr "Adaptorê AC"
 
-#~ msgid "Screen Brightness"
-#~ msgstr "Ronahiya Dîmenê"
+#~ msgid "Plugged in"
+#~ msgstr "Tê de"
 
-#~ msgid "Power Profile"
-#~ msgstr "Profîla Hêzê"
+#~ msgid "n/a"
+#~ msgstr "n/a"
 
-#~ msgid "Actions"
-#~ msgstr "Çalakî"
+#~ msgid "Percent"
+#~ msgstr "Ji sedî"
 
-#~ msgid "Sleep"
-#~ msgstr "Bide Razan"
+#~ msgid "Oxygen theme"
+#~ msgstr "Dirbê Oxygen"
 
-#~ msgid "Hibernate"
-#~ msgstr "Bide Sekinandin "
-
-#~ msgid "More..."
-#~ msgstr "Zêdetir..."
-
-#~ msgid "Power Management"
-#~ msgstr "Rêveberiya Hezê"
-
-#~ msgid "Time remaining: <b>%1</b><br />"
-#~ msgstr "Demê mayî: <b>%1</b><br />"
-
-#~ msgid "<b>Battery:</b> %1% (fully charged)<br />"
-#~ msgstr "<b>Pîl:</b> %1% (şarj tijî bû)<br />"
-
-#~ msgctxt "Shown when a time estimate is not available"
-#~ msgid "<b>Battery:</b> %1% (discharging)<br />"
-#~ msgstr "<b>Pîl:</b> %1% (şarj tê vala kirin)<br />"
-
-#~ msgid "<b>Battery:</b> %1% (charging)<br />"
-#~ msgstr "<b>Pîl:</b> %1% (tê şarj kirin)<br /> "
-
-#~ msgctxt "Battery is not plugged in"
-#~ msgid "<b>Battery:</b> not present<br />"
-#~ msgstr "<b>Pîl:</b> tune ye<br />"
-
-#~ msgid "<b>Battery %1:</b> %2% (fully charged)<br />"
-#~ msgstr "<b>Pîl %1: </b> %2% (şarj tijî bû)<br />"
-
-#~ msgid "<b>Battery %1:</b> %2% (discharging)<br />"
-#~ msgstr "<b>Pîl %1:</b> %2% (şarj tê vala kirin)<br />"
-
-#~ msgid "<b>Battery %1:</b> %2% (charging)<br />"
-#~ msgstr "<b>Pîl %1:</b> %2% (tê şarj kirin)<br /> "
-
-#~ msgid "<b>AC Adapter:</b> Plugged in"
-#~ msgstr "<b>Adaptorê AC:</b> Girêdayî ye"
-
-#~ msgid "<b>AC Adapter:</b> Not plugged in"
-#~ msgstr "<b>Adaptorê AC:</b> Ne girêdayî ye"
+#~ msgid "Classic theme"
+#~ msgstr "Dirbê klasîk"
 
 #~ msgid ""
 #~ "Battery:\n"

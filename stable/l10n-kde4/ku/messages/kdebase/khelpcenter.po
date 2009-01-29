@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: khelpcenter\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-27 08:23+0100\n"
+"POT-Creation-Date: 2009-01-29 07:19+0100\n"
 "PO-Revision-Date: 2009-01-06 14:01+0200\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "X-Generator: Lokalize 0.2\n"
 "Plural-Forms: nplurals=2; plural= n != 1;\n"
 
-#: application.cpp:57 navigator.cpp:483
+#: application.cpp:57 navigator.cpp:470
 msgid "KDE Help Center"
 msgstr "Navenda Alîkariya ya KDE"
 
@@ -88,6 +88,7 @@ msgstr "Mezinahî"
 #, fuzzy
 #| msgctxt "The smallest size a will have"
 #| msgid "M&inimum font size:"
+msgctxt "The smallest size a will have"
 msgid "M&inimum font size:"
 msgstr "&Mezinahiya curetîpa herî biçûk:"
 
@@ -95,6 +96,7 @@ msgstr "&Mezinahiya curetîpa herî biçûk:"
 #, fuzzy
 #| msgctxt "The normal size a font will have"
 #| msgid "M&edium font size:"
+msgctxt "The normal size a font will have"
 msgid "M&edium font size:"
 msgstr "M&ezinahiya navincî ya curetîpê:"
 
@@ -134,7 +136,7 @@ msgstr "Kodkirin"
 msgid "&Default encoding:"
 msgstr "Kodkirina bi pêşdanasîn:"
 
-#: fontdialog.cpp:147 fontdialog.cpp:215
+#: fontdialog.cpp:147 fontdialog.cpp:217
 msgid "Use Language Encoding"
 msgstr "Kodkirina ziman bi kar bîne"
 
@@ -185,45 +187,44 @@ msgstr "ht://dig"
 #| msgid ""
 #| "The fulltext search feature makes use of the ht://dig HTML search engine."
 msgid ""
-"The fulltext search feature makes use of the ht://dig HTML search engine. "
-"You can get ht://dig at the"
+"The fulltext search feature makes use of the ht://dig HTML search engine."
 msgstr ""
 "Taybetiya lêgerîna deqa tevahî ji motora lêgerîna HTML'ê ht://dig sûdê "
 "werdigire."
 
-#: htmlsearchconfig.cpp:64
+#: htmlsearchconfig.cpp:63
 msgid "Information about where to get the ht://dig package."
 msgstr "Ji bo tu agahiyan der barê pakêtan de bistînî ht / / dig package"
 
-#: htmlsearchconfig.cpp:68
-msgid "ht://dig home page"
-msgstr "ht://dig serûpel"
+#: htmlsearchconfig.cpp:67
+msgid "You can get ht://dig at the ht://dig home page"
+msgstr "Tu dikarî ht://dig ji malpera ht://dig'ê bistînî"
 
-#: htmlsearchconfig.cpp:74
+#: htmlsearchconfig.cpp:73
 msgid "Program Locations"
 msgstr "Herêmên bernameyê"
 
-#: htmlsearchconfig.cpp:83
+#: htmlsearchconfig.cpp:82
 msgid "htsearch:"
 msgstr "htsearch:"
 
-#: htmlsearchconfig.cpp:89
+#: htmlsearchconfig.cpp:88
 msgid "Enter the URL of the htsearch CGI program."
 msgstr "Riya bernameya htsearch CGI binivîse."
 
-#: htmlsearchconfig.cpp:94
+#: htmlsearchconfig.cpp:93
 msgid "Indexer:"
 msgstr "Indekskar"
 
-#: htmlsearchconfig.cpp:100
+#: htmlsearchconfig.cpp:99
 msgid "Enter the path to your htdig indexer program here."
 msgstr "Rêya bernameya xwe ya pêristkerê Htdig yê li vir binvîse."
 
-#: htmlsearchconfig.cpp:106
+#: htmlsearchconfig.cpp:105
 msgid "htdig database:"
 msgstr "danegira htdig"
 
-#: htmlsearchconfig.cpp:112
+#: htmlsearchconfig.cpp:111
 msgid "Enter the path to the htdig database folder."
 msgstr "Ji bo pêrista danegira Htdig riyekê têkevê."
 
@@ -348,11 +349,11 @@ msgstr "ji bo cureyê pelgeyê desteka lêgerînê tuneye '%1'."
 msgid "No indexing command specified for document type '%1'."
 msgstr "Ti pêristin nehatine destnîşankirin ji bo pelgeya cureya '%1'."
 
-#: kcmhelpcenter.cpp:531
+#: kcmhelpcenter.cpp:541
 msgid "Failed to build index."
 msgstr "Avakirina pêristê biserneket."
 
-#: kcmhelpcenter.cpp:586
+#: kcmhelpcenter.cpp:596
 #, kde-format
 msgid ""
 "Error executing indexing build command:\n"
@@ -462,23 +463,23 @@ msgstr "Vebijêrkên Lêgerînê"
 msgid "G&lossary"
 msgstr "Ferhengok"
 
-#: navigator.cpp:482
+#: navigator.cpp:469
 msgid "Start Page"
 msgstr "Rûpelê Destpêkê"
 
-#: navigator.cpp:570
+#: navigator.cpp:557
 msgid "Unable to run search program."
 msgstr "Bernameya lêgerînê nehate xebitandin."
 
-#: navigator.cpp:610
+#: navigator.cpp:597
 msgid "A search index does not yet exist. Do you want to create the index now?"
 msgstr "Heta niha pêrist nehatiye avakirin, Tu dixwazî pêristeke nû ava bikî?"
 
-#: navigator.cpp:614
+#: navigator.cpp:601
 msgid "Create"
 msgstr "Pêk Bîne"
 
-#: navigator.cpp:615
+#: navigator.cpp:602
 msgid "Do Not Create"
 msgstr "Pêk Bîne"
 
@@ -634,89 +635,73 @@ msgctxt "Label for Unknown search scope, that should never appear"
 msgid "unknown"
 msgstr "nenas"
 
-#: view.cpp:119
-msgid "Conquer your Desktop!"
-msgstr "Sermaseyê Keşf Bike!"
-
-#: view.cpp:123
-msgid "Help Center"
-msgstr "Navenda Alîkariyê"
-
-#: view.cpp:125
-msgid "Welcome to the K Desktop Environment"
-msgstr "Tu bi xêr hatî nêvenga sermasê"
-
-#: view.cpp:126
-msgid "The KDE team welcomes you to user-friendly UNIX computing"
-msgstr "Koma KDE bixêrhatina te dike di bikaranîna UNIX a hesan de"
-
-#: view.cpp:127
-msgid ""
-"KDE is a powerful graphical desktop environment for UNIX workstations. A\n"
-"KDE desktop combines ease of use, contemporary functionality and "
-"outstanding\n"
-"graphical design with the technological superiority of the UNIX operating\n"
-"system."
-msgstr ""
-"KDE hawîrdora sermaseya grafîke ji bo derdorên rawestgehên UNIX. \n"
-"KDE li gel bikaranîna hesan xwedî pêwirên nûjen û siwirandinên bê hempaye\n"
-"tevî zanistiyeke serkeftî ya pergala UNIX."
-
-#: view.cpp:131
-msgid "What is the K Desktop Environment?"
-msgstr "Nêvenga sermaseya te çiye?"
-
-#: view.cpp:132
-msgid "Contacting the KDE Project"
-msgstr "Têkiliya Bi Projeya KDE re"
-
-#: view.cpp:133
-msgid "Supporting the KDE Project"
-msgstr "Desteka Projeya KDE"
-
-#: view.cpp:134
-msgid "Useful links"
-msgstr "Girêdanên bikêr"
-
-#: view.cpp:135
-msgid "Getting the most out of KDE"
-msgstr "Sûdwergirtina herî mezin ji KDE"
-
-#: view.cpp:136
-msgid "General Documentation"
-msgstr "Pelgeyên Giştî"
-
-#: view.cpp:137
-msgid "A Quick Start Guide to the Desktop"
-msgstr "Nîşanek bi lez ji bo çûna sermasê"
-
-#: view.cpp:138
-msgid "KDE Users' guide"
-msgstr "Lênûsa bikarhinerên KDE"
-
-#: view.cpp:139
-msgid "Frequently asked questions"
-msgstr "Pirsên ku Herî Zêde Têne Pirsîn"
-
-#: view.cpp:140
-msgid "Basic Applications"
-msgstr "Sepanên Bingehîn"
-
-#: view.cpp:141
-msgid "The Kicker Desktop Panel"
-msgstr "Panela Sermaseyê ya Kicker"
-
-#: view.cpp:142
-msgid "The KDE Control Center"
-msgstr "Navenda Kontrolkirinan ya KDE"
-
-#: view.cpp:143
-msgid "The Konqueror File manager and Web Browser"
-msgstr "Gerînendeyê dosya Konqueror û geroka înternetê"
-
-#: view.cpp:267
+#: view.cpp:209
 msgid "Copy Link Address"
 msgstr "Navnîşana Girêdanê Ji Ber Bigire"
 
-#~ msgid "You can get ht://dig at the ht://dig home page"
-#~ msgstr "Tu dikarî ht://dig ji malpera ht://dig'ê bistînî"
+#~ msgid "ht://dig home page"
+#~ msgstr "ht://dig serûpel"
+
+#~ msgid "Conquer your Desktop!"
+#~ msgstr "Sermaseyê Keşf Bike!"
+
+#~ msgid "Help Center"
+#~ msgstr "Navenda Alîkariyê"
+
+#~ msgid "Welcome to the K Desktop Environment"
+#~ msgstr "Tu bi xêr hatî nêvenga sermasê"
+
+#~ msgid "The KDE team welcomes you to user-friendly UNIX computing"
+#~ msgstr "Koma KDE bixêrhatina te dike di bikaranîna UNIX a hesan de"
+
+#~ msgid ""
+#~ "KDE is a powerful graphical desktop environment for UNIX workstations. A\n"
+#~ "KDE desktop combines ease of use, contemporary functionality and "
+#~ "outstanding\n"
+#~ "graphical design with the technological superiority of the UNIX "
+#~ "operating\n"
+#~ "system."
+#~ msgstr ""
+#~ "KDE hawîrdora sermaseya grafîke ji bo derdorên rawestgehên UNIX. \n"
+#~ "KDE li gel bikaranîna hesan xwedî pêwirên nûjen û siwirandinên bê "
+#~ "hempaye\n"
+#~ "tevî zanistiyeke serkeftî ya pergala UNIX."
+
+#~ msgid "What is the K Desktop Environment?"
+#~ msgstr "Nêvenga sermaseya te çiye?"
+
+#~ msgid "Contacting the KDE Project"
+#~ msgstr "Têkiliya Bi Projeya KDE re"
+
+#~ msgid "Supporting the KDE Project"
+#~ msgstr "Desteka Projeya KDE"
+
+#~ msgid "Useful links"
+#~ msgstr "Girêdanên bikêr"
+
+#~ msgid "Getting the most out of KDE"
+#~ msgstr "Sûdwergirtina herî mezin ji KDE"
+
+#~ msgid "General Documentation"
+#~ msgstr "Pelgeyên Giştî"
+
+#~ msgid "A Quick Start Guide to the Desktop"
+#~ msgstr "Nîşanek bi lez ji bo çûna sermasê"
+
+#~ msgid "KDE Users' guide"
+#~ msgstr "Lênûsa bikarhinerên KDE"
+
+#~ msgid "Frequently asked questions"
+#~ msgstr "Pirsên ku Herî Zêde Têne Pirsîn"
+
+#~ msgid "Basic Applications"
+#~ msgstr "Sepanên Bingehîn"
+
+#~ msgid "The Kicker Desktop Panel"
+#~ msgstr "Panela Sermaseyê ya Kicker"
+
+#~ msgid "The KDE Control Center"
+#~ msgstr "Navenda Kontrolkirinan ya KDE"
+
+#~ msgid "The Konqueror File manager and Web Browser"
+#~ msgstr "Gerînendeyê dosya Konqueror û geroka înternetê"

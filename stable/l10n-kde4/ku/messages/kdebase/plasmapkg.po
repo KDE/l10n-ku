@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasmapkg\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-27 08:23+0100\n"
+"POT-Creation-Date: 2009-01-29 07:20+0100\n"
 "PO-Revision-Date: 2009-01-06 13:55+0200\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -19,37 +19,33 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural= n != 1;\n"
 "X-Poedit-Language: Kurdish\n"
 
-#: main.cpp:36
+#: main.cpp:42
 msgid "Install, list, remove Plasma packages"
 msgstr "Pakêtên Plasmayê sazbike, lîste bike, rake"
 
-#: main.cpp:47
-msgid "Listing is not yet implemented."
-msgstr ""
-
-#: main.cpp:52
+#: main.cpp:77
 msgid "Plasma Package Manager"
 msgstr "Gerînendeyê Pakêtên Plasmayê"
 
-#: main.cpp:54
+#: main.cpp:79
 msgid "(C) 2008, Aaron Seigo"
 msgstr "(C) 2008, Aaron Seigo"
 
-#: main.cpp:55
+#: main.cpp:80
 msgid "Aaron Seigo"
 msgstr "Aaron Seigo"
 
-#: main.cpp:56
+#: main.cpp:81
 msgid "Original author"
 msgstr "Nivîskarê yekemîn"
 
-#: main.cpp:65
+#: main.cpp:90
 msgid "For install or remove, operates on packages installed for all users."
 msgstr ""
 "Ji bo sazkirin û rakirinê, ji bo hemû bikarhêneran li ser pakêtên sazbûyî "
 "dixebite."
 
-#: main.cpp:68
+#: main.cpp:96
 #, fuzzy
 #| msgctxt ""
 #| "theme, wallpaper, etc. are keywords, but they may be translated, as both "
@@ -58,31 +54,42 @@ msgstr ""
 #| msgid ""
 #| "The type of package, e.g. theme, wallpaper, plasmoid, dataengine, runner, "
 #| "etc."
+msgctxt ""
+"theme, wallpaper, etc. are keywords, but they may be translated, as both "
+"versions are recognized by the application (if translated, should be same as "
+"messages with 'package type' context below)"
 msgid ""
-"The type of package, e.g. theme, wallpaper, plasmoid, DataEngine, Runner, "
+"The type of package, e.g. theme, wallpaper, plasmoid, dataengine, runner, "
 "etc."
 msgstr ""
 "Cureyê pakêtê, her wekî, dirb, rûerd, plasmoid, MotoraDaneyan, ajoker, hwd."
 
-#: main.cpp:72
+#: main.cpp:100
 #, fuzzy
 #| msgctxt "Do not translate <path>"
 #| msgid "Install the package at <path>"
+msgctxt "Do not translate <path>"
 msgid "Install the package at <path>"
 msgstr "Pakêtê di <path> de saz bike"
 
-#: main.cpp:74
+#: main.cpp:102
+msgctxt "Do not translate <path>"
+msgid "Upgrade the package at <path>"
+msgstr "Pakêtê di <path> de bilind bike"
+
+#: main.cpp:104
 msgid "List installed packages"
 msgstr "Pakêtên sazbûyî lîste bike"
 
-#: main.cpp:76
+#: main.cpp:106
 #, fuzzy
 #| msgctxt "Do not translate <name>"
 #| msgid "Remove the package named <name>"
+msgctxt "Do not translate <name>"
 msgid "Remove the package named <name>"
 msgstr "Pakêta bi navê <name> rake"
 
-#: main.cpp:78
+#: main.cpp:108
 msgid ""
 "Absolute path to the package root. If not supplied, then the standard data "
 "directories for this KDE session will be searched instead."
@@ -90,78 +97,91 @@ msgstr ""
 "Riya roota a pakêtê a tam. Heke neyê zanîn, dê ji dêvla wê vepelrêçên "
 "agahiyên standard ên ji bo vê danişîna KDE'yê bê geriyan."
 
-#: main.cpp:97
+#: main.cpp:120
 #, fuzzy
 #| msgctxt "package type"
 #| msgid "plasmoid"
+msgctxt "package type"
 msgid "plasmoid"
 msgstr "plasmoid"
 
-#: main.cpp:100
+#: main.cpp:124
 #, fuzzy
 #| msgctxt "package type"
 #| msgid "theme"
+msgctxt "package type"
 msgid "theme"
 msgstr "dirb"
 
-#: main.cpp:102
+#: main.cpp:126
 #, fuzzy
 #| msgctxt "package type"
 #| msgid "wallpaper"
+msgctxt "package type"
 msgid "wallpaper"
 msgstr "rûerd"
 
-#: main.cpp:104
+#: main.cpp:128
 #, fuzzy
 #| msgctxt "package type"
 #| msgid "dataengine"
+msgctxt "package type"
 msgid "dataengine"
 msgstr "morotadaneyan"
 
-#: main.cpp:107
+#: main.cpp:132
 #, fuzzy
 #| msgctxt "package type"
 #| msgid "runner"
+msgctxt "package type"
 msgid "runner"
 msgstr "xebatkar"
 
-#: main.cpp:118
+#: main.cpp:140
 #, kde-format
 msgid "Could not find a suitable installer for package of type %1"
 msgstr "Nikare ji bo pakêta %1 sazkarekê lêhatî bibîne"
 
-#: main.cpp:127
+#: main.cpp:149
 #, kde-format
 msgid "Could not load installer for package of type %1. Error reported was: %2"
 msgstr "Ji bo cureyê %1 a pakêtê sazkar nehat barkirin. Rapora çewtiyê: %2"
 
-#: main.cpp:150
-#, kde-format
-msgid "Successfully installed %1"
-msgstr "Sazkirina %1 biserket"
-
-#: main.cpp:152
-#, kde-format
-msgid "Installation of %1 failed."
-msgstr "Sazkirina %1 têk çû."
-
-#: main.cpp:158
+#: main.cpp:205
 #, kde-format
 msgid "Successfully removed %1"
 msgstr "Rakirina %1 biserket"
 
-#: main.cpp:160
+#: main.cpp:207
 #, kde-format
 msgid "Removal of %1 failed."
 msgstr "Rakirina %1 têk çû."
 
-#: main.cpp:164
+#: main.cpp:211
+#, kde-format
+msgid "Plugin %1 is not installed."
+msgstr "Pêveka %1 nehat saz kirin."
+
+#: main.cpp:216
+#, kde-format
+msgid "Successfully installed %1"
+msgstr "Sazkirina %1 biserket"
+
+#: main.cpp:218
+#, kde-format
+msgid "Installation of %1 failed."
+msgstr "Sazkirina %1 têk çû."
+
+#: main.cpp:223
 #, fuzzy
 #| msgctxt ""
 #| "No option was given, this is the error message telling the user he needs "
 #| "at least one, do not translate install, remove, upgrade nor list"
 #| msgid "One of install, remove, upgrade or list is required."
-msgid "One of install, remove or list is required."
+msgctxt ""
+"No option was given, this is the error message telling the user he needs at "
+"least one, do not translate install, remove, upgrade nor list"
+msgid "One of install, remove, upgrade or list is required."
 msgstr "An sazkirin, an rakirin, an jî lîste kirin pêwist e."
 
 #: rc.cpp:1
@@ -173,10 +193,3 @@ msgstr "Erdal Ronahi, Amed Çeko Jiyan"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "erdal dot ronahi at gmail dot com, amedcj at gmail dot com"
-
-#~ msgctxt "Do not translate <path>"
-#~ msgid "Upgrade the package at <path>"
-#~ msgstr "Pakêtê di <path> de bilind bike"
-
-#~ msgid "Plugin %1 is not installed."
-#~ msgstr "Pêveka %1 nehat saz kirin."

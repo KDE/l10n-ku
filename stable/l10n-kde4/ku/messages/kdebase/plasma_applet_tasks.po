@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_tasks\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-27 08:23+0100\n"
+"POT-Creation-Date: 2009-01-29 07:19+0100\n"
 "PO-Revision-Date: 2008-12-26 01:50+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -20,84 +20,121 @@ msgstr ""
 "X-Poedit-Language: Kurdish\n"
 
 #. i18n: file: tasksConfig.ui:22
-#. i18n: ectx: property (text), widget (QCheckBox, showTooltip)
+#. i18n: ectx: property (text), widget (QLabel, label_5)
 #: rc.cpp:3
-#, fuzzy
-#| msgid "Show tooltips:"
-msgid "Show tooltips"
-msgstr "Qutî ya amûran nîşan bide:"
+msgid "Appearance"
+msgstr "Xuyanî"
 
 #. i18n: file: tasksConfig.ui:29
-#. i18n: ectx: property (text), widget (QCheckBox, showOnlyCurrentDesktop)
+#. i18n: ectx: property (text), widget (QLabel, label_7)
 #: rc.cpp:6
+#, fuzzy
+#| msgid "Show tooltips:"
+msgid "Show tooltips:"
+msgstr "Qutî ya amûran nîşan bide:"
+
+#. i18n: file: tasksConfig.ui:46
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: rc.cpp:9
+msgid "Force row settings:"
+msgstr "Zor bide mîhengên rêzê:"
+
+#. i18n: file: tasksConfig.ui:76
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:12
+msgid "Maximum rows:"
+msgstr "Rêzên piranî:"
+
+#. i18n: file: tasksConfig.ui:135
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: rc.cpp:15
+msgid "Grouping & Sorting"
+msgstr "Komkirin & Rêzkirin"
+
+#. i18n: file: tasksConfig.ui:142
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:18
+msgid "Grouping:"
+msgstr "Komkirin:"
+
+#. i18n: file: tasksConfig.ui:200
+#. i18n: ectx: property (text), widget (QCheckBox, groupWhenFull)
+#: rc.cpp:21
+msgid "Only when the taskbar is full"
+msgstr "Tenê wextê darika peywiran tijî be"
+
+#. i18n: file: tasksConfig.ui:212
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:24
+msgid "Sorting:"
+msgstr "Rêzkirin:"
+
+#. i18n: file: tasksConfig.ui:255
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: rc.cpp:27
+msgid "Filters"
+msgstr "Parzûn:"
+
+#. i18n: file: tasksConfig.ui:278
+#. i18n: ectx: property (text), widget (QCheckBox, showOnlyCurrentDesktop)
+#: rc.cpp:30
 msgid "Only show tasks from the current desktop"
 msgstr "Peywiran tenê di sermase ya heyî de nîşan bide"
 
-#. i18n: file: tasksConfig.ui:36
+#. i18n: file: tasksConfig.ui:285
 #. i18n: ectx: property (text), widget (QCheckBox, showOnlyCurrentScreen)
-#: rc.cpp:9
+#: rc.cpp:33
 msgid "Only show tasks from the current screen"
 msgstr "Peywiran tenê di dîmendêra heyî de nîşan bide"
 
-#: windowtaskitem.cpp:559
+#. i18n: file: tasksConfig.ui:292
+#. i18n: ectx: property (text), widget (QCheckBox, showOnlyMinimized)
+#: rc.cpp:36
+msgid "Only show tasks that are minimized"
+msgstr "Tenê peywirên hatine biçûk kirin nîşan bide  "
+
+#: taskgroupitem.cpp:244 windowtaskitem.cpp:183
 #, kde-format
 msgctxt "Which virtual desktop a window is currently on"
 msgid "On %1"
 msgstr "Di %1 de"
 
-#~ msgid "Appearance"
-#~ msgstr "Xuyanî"
+#: taskgroupitem.cpp:331
+msgid "Collapse Group"
+msgstr "Komê Veşêre"
 
-#~ msgid "Force row settings:"
-#~ msgstr "Zor bide mîhengên rêzê:"
+#: taskgroupitem.cpp:334
+msgid "Expand Group"
+msgstr "Komê Nîşan Bide"
 
-#~ msgid "Maximum rows:"
-#~ msgstr "Rêzên piranî:"
+#: tasks.cpp:253
+msgid "General"
+msgstr "Giştî"
 
-#~ msgid "Grouping & Sorting"
-#~ msgstr "Komkirin & Rêzkirin"
+#: tasks.cpp:261
+msgid "Do Not Group"
+msgstr "Kom Neke"
 
-#~ msgid "Grouping:"
-#~ msgstr "Komkirin:"
+#: tasks.cpp:262 tasks.cpp:286
+msgid "Manually"
+msgstr "Bi destan"
 
-#~ msgid "Only when the taskbar is full"
-#~ msgstr "Tenê wextê darika peywiran tijî be"
+#: tasks.cpp:263
+msgid "By Program Name"
+msgstr "Li gorî navê bernameyê"
 
-#~ msgid "Sorting:"
-#~ msgstr "Rêzkirin:"
+#: tasks.cpp:285
+msgid "Do Not Sort"
+msgstr "Bê rêzkirinê"
 
-#~ msgid "Filters"
-#~ msgstr "Parzûn:"
+#: tasks.cpp:287
+msgid "Alphabetically"
+msgstr "Li gorî alfabeyê"
 
-#~ msgid "Only show tasks that are minimized"
-#~ msgstr "Tenê peywirên hatine biçûk kirin nîşan bide  "
+#: tasks.cpp:288
+msgid "By Desktop"
+msgstr "Bi Sermasê"
 
-#~ msgid "Collapse Group"
-#~ msgstr "Komê Veşêre"
-
-#~ msgid "Expand Group"
-#~ msgstr "Komê Nîşan Bide"
-
-#~ msgid "General"
-#~ msgstr "Giştî"
-
-#~ msgid "Do Not Group"
-#~ msgstr "Kom Neke"
-
-#~ msgid "Manually"
-#~ msgstr "Bi destan"
-
-#~ msgid "By Program Name"
-#~ msgstr "Li gorî navê bernameyê"
-
-#~ msgid "Do Not Sort"
-#~ msgstr "Bê rêzkirinê"
-
-#~ msgid "Alphabetically"
-#~ msgstr "Li gorî alfabeyê"
-
-#~ msgid "By Desktop"
-#~ msgstr "Bi Sermasê"
-
-#~ msgid "Collapse Parent Group"
-#~ msgstr "Koma Bingeh Veşêre"
+#: windowtaskitem.cpp:267
+msgid "Collapse Parent Group"
+msgstr "Koma Bingeh Veşêre"

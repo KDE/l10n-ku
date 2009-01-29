@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_twitter\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-27 08:28+0100\n"
+"POT-Creation-Date: 2009-01-29 07:22+0100\n"
 "PO-Revision-Date: 2009-01-10 23:57+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -18,108 +18,124 @@ msgstr ""
 "X-Poedit-Language: Kurdish\n"
 "X-Poedit-SourceCharset: utf8\n"
 
-#: twitter.cpp:234
+#. i18n: file: configuration.ui:22
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: rc.cpp:3
+msgid "Login"
+msgstr "Têketin"
+
+#. i18n: file: configuration.ui:29
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:6
+#, fuzzy
+#| msgid "Username:"
+msgid "Username:"
+msgstr "Navê Bikarhêner:"
+
+#. i18n: file: configuration.ui:45
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:9
+msgid "Password:"
+msgstr "Nasnav:"
+
+#. i18n: file: configuration.ui:71
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: rc.cpp:12
+msgid "Appearance"
+msgstr "Xuyakirin"
+
+#. i18n: file: configuration.ui:78
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:15
+msgid "Timeline size:"
+msgstr "Mezinahiya rêzika-demê:"
+
+#. i18n: file: configuration.ui:93
+#. i18n: ectx: property (suffix), widget (QSpinBox, historySizeSpinBox)
+#: rc.cpp:18
+msgid " messages"
+msgstr " peyam"
+
+#. i18n: file: configuration.ui:121
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: rc.cpp:21
+msgid "Timeline refresh:"
+msgstr "Nûkirina rêzika-demê:"
+
+#. i18n: file: configuration.ui:136
+#. i18n: ectx: property (suffix), widget (QSpinBox, historyRefreshSpinBox)
+#: rc.cpp:24
+msgid " minutes"
+msgstr " xulek"
+
+#. i18n: file: configuration.ui:164
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: rc.cpp:27
+#, fuzzy
+#| msgid "Show friends:"
+msgid "Show friends:"
+msgstr "Hevalan nîşan bide:"
+
+#: twitter.cpp:171
+msgid "Failed to load twitter DataEngine"
+msgstr "Bar kirina Morora-Dane ya twitter pêk nehat"
+
+#: twitter.cpp:344
 msgid "Failed to access kwallet. Store password in config file instead?"
 msgstr ""
 "Gihîştina kwallet pêk nehat. Şûna vê nasnavê di pela config de tomar bike?"
 
-#: twitter.cpp:254 twitter.cpp:598
+#: twitter.cpp:363 twitter.cpp:703
 msgid "Refreshing timeline..."
 msgstr "Nûkirina rêzika-demê..."
 
-#: twitter.cpp:273
+#: twitter.cpp:383
 #, kde-format
 msgid "1 new tweet"
 msgid_plural "%1 new tweets"
 msgstr[0] "1 wîçînî ya nû"
 msgstr[1] "%1 wîçînî yên nû"
 
-#: twitter.cpp:384
+#: twitter.cpp:509
 #, kde-format
 msgid " from %1"
 msgstr " jê %1"
 
-#: twitter.cpp:387
+#: twitter.cpp:574
+msgid "General"
+msgstr "Giştî"
+
+#: twitter.cpp:650
 #, kde-format
-msgid ""
-"<tr><td align='left' width='1%'><font color='%2'>%1</font></td><td "
-"align='right' width='auto'><p align='right'><font color='%2'>%3%4</font></"
-"p></td></tr>"
-msgstr ""
+msgid "%1 character left"
+msgid_plural "%1 characters left"
+msgstr[0] "%1 tîp ma"
+msgstr[1] "%1 tîp man"
 
-#: twitter.cpp:425
-#, fuzzy
-#| msgid "1 new tweet"
-#| msgid_plural "%1 new tweets"
-msgid " tweets"
-msgstr "1 wîçînî ya nû"
-
-#: twitter.cpp:427
-msgid " minutes"
-msgstr " xulek"
-
-#: twitter.cpp:430
-#, fuzzy
-#| msgid "Username:"
-msgid "User name:"
-msgstr "Navê Bikarhêner:"
-
-#: twitter.cpp:431
-msgid "Password:"
-msgstr "Nasnav:"
-
-#: twitter.cpp:432
-msgid "Timeline size:"
-msgstr "Mezinahiya rêzika-demê:"
-
-#: twitter.cpp:433
-msgid "Timeline refresh:"
-msgstr "Nûkirina rêzika-demê:"
-
-#: twitter.cpp:434
-#, fuzzy
-#| msgid "Show friends:"
-msgid "Show messages of friends:"
-msgstr "Hevalan nîşan bide:"
-
-#: twitter.cpp:635
+#: twitter.cpp:767
 msgid "Less than a minute ago"
 msgstr "Yek xulekê kêmtir berê"
 
-#: twitter.cpp:637
+#: twitter.cpp:769
 #, kde-format
 msgid "1 minute ago"
 msgid_plural "%1 minutes ago"
 msgstr[0] "1 xulek berê"
 msgstr[1] "%1 xulekan berê"
 
-#: twitter.cpp:639
+#: twitter.cpp:771
 msgid "Over an hour ago"
 msgstr "Yek saetê zêdetir berê"
 
-#: twitter.cpp:641
+#: twitter.cpp:773
 #, kde-format
 msgid "1 hour ago"
 msgid_plural "%1 hours ago"
 msgstr[0] "1 saet berê"
 msgstr[1] "%1 saetan berê"
 
-#~ msgid "Login"
-#~ msgstr "Têketin"
-
-#~ msgid "Appearance"
-#~ msgstr "Xuyakirin"
-
-#~ msgid " messages"
-#~ msgstr " peyam"
-
-#~ msgid "Failed to load twitter DataEngine"
-#~ msgstr "Bar kirina Morora-Dane ya twitter pêk nehat"
-
-#~ msgid "General"
-#~ msgstr "Giştî"
-
-#~ msgid "%1 character left"
-#~ msgid_plural "%1 characters left"
-#~ msgstr[0] "%1 tîp ma"
-#~ msgstr[1] "%1 tîp man"
+#, fuzzy
+#~| msgid "1 new tweet"
+#~| msgid_plural "%1 new tweets"
+#~ msgid " tweets"
+#~ msgstr "1 wîçînî ya nû"

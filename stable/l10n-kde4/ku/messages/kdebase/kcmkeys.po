@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkeys\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-27 08:23+0100\n"
+"POT-Creation-Date: 2009-01-29 07:19+0100\n"
 "PO-Revision-Date: 2009-01-06 00:38+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <ku@li.org>\n"
@@ -18,19 +18,19 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural= n != 1;\n"
 "X-Poedit-Language: Kurdish\n"
 
-#: globalshortcuts.cpp:67
+#: globalshortcuts.cpp:56
 #, fuzzy
 #| msgid "Import Scheme..."
-msgid "Import scheme..."
+msgid "Import Scheme..."
 msgstr "Şema Bîne..."
 
-#: globalshortcuts.cpp:72
+#: globalshortcuts.cpp:61
 #, fuzzy
 #| msgid "Export Scheme..."
-msgid "Export scheme..."
+msgid "Export Scheme..."
 msgstr "Şema Jê Derxîne..."
 
-#: globalshortcuts.cpp:112
+#: globalshortcuts.cpp:103
 #, kde-format
 msgid ""
 "Message: %1\n"
@@ -39,11 +39,11 @@ msgstr ""
 "Peyam: %1\n"
 "Çewtî: %2"
 
-#: globalshortcuts.cpp:116
+#: globalshortcuts.cpp:108
 msgid "Failed to contact the KDE global shortcuts daemon\n"
 msgstr "Nikare bi bernameya kurterê yên giştî yên KDE re bikeve têkilî yê\n"
 
-#: globalshortcuts.cpp:182
+#: globalshortcuts.cpp:234
 msgid ""
 "Your current changes will be lost if you load another scheme before saving "
 "this one"
@@ -51,17 +51,17 @@ msgstr ""
 "Heke tu berî ya ne-tomarkirina vê şemayê şemayekî din bar bikî, dê "
 "guherandinên te bên winda kirin"
 
-#: globalshortcuts.cpp:183
+#: globalshortcuts.cpp:235
 #, fuzzy
 #| msgid "Load Shortcurt Scheme"
-msgid "Load shortcurt scheme"
+msgid "Load Shortcurt Scheme"
 msgstr "Şemaya Kurterê yan Bar Bike"
 
-#: globalshortcuts.cpp:184
+#: globalshortcuts.cpp:236
 msgid "Load"
 msgstr "Barkirin"
 
-#: globalshortcuts.cpp:197
+#: globalshortcuts.cpp:249
 #, kde-format
 msgid "This file (%1) does not exist. You can only select local files."
 msgstr "Ev pel (%1) tune. Tu dikarî tenê pelên herêmî hilbijêrî."
@@ -81,10 +81,8 @@ msgstr "Kurterê:"
 #. i18n: file: select_scheme_dialog.ui:20
 #. i18n: ectx: property (windowTitle), widget (KDialog, SelectSchemeDialog)
 #: rc.cpp:9
-#, fuzzy
-#| msgid "Select a shortcut scheme file"
-msgid "Select a shortcut scheme"
-msgstr "Pelekê şemaya kurterê hilbijêre"
+msgid "Select Shortcut Scheme"
+msgstr "Şemaya Kurterê Hilbijêre"
 
 #. i18n: file: select_scheme_dialog.ui:47
 #. i18n: ectx: property (whatsThis), widget (QLabel, label)
@@ -97,7 +95,7 @@ msgstr "Şemayekî kurterê yê KDE yê standard hilbijêre"
 #: rc.cpp:15
 #, fuzzy
 #| msgid "&Standard scheme:"
-msgid "&Standard Scheme"
+msgid "&Standard scheme:"
 msgstr "Şemaya &Standard"
 
 #. i18n: file: select_scheme_dialog.ui:100
@@ -111,8 +109,10 @@ msgstr "Pelekê şemaya kurterê hilbijêre"
 #: rc.cpp:21
 #, fuzzy
 #| msgid "&Path:"
-msgid "&Path"
+msgid "&Path:"
 msgstr "&Rê:"
 
-#~ msgid "Select Shortcut Scheme"
-#~ msgstr "Şemaya Kurterê Hilbijêre"
+#, fuzzy
+#~| msgid "Select a shortcut scheme file"
+#~ msgid "Select a shortcut scheme"
+#~ msgstr "Pelekê şemaya kurterê hilbijêre"
