@@ -55,9 +55,6 @@ msgstr "Navê peldanka dê were afirandin têkevê:"
 
 #: app/documentpanel.cpp:321 app/thumbnailviewpanel.cpp:100
 #: app/mainwindow.cpp:271 lib/documentview/documentview.cpp:125
-#, fuzzy
-#| msgctxt "@title actions category - means actions changing smth in interface"
-#| msgid "View"
 msgctxt "@title actions category - means actions changing smth in interface"
 msgid "View"
 msgstr "Bibîne"
@@ -201,9 +198,6 @@ msgid "Not Tagged"
 msgstr "Ne Etîketkirî"
 
 #: app/filtercontroller.cpp:533
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Filter by Name"
 msgctxt "@action:inmenu"
 msgid "Filter by Name"
 msgstr "Gorê Navê Parzûn Bike"
@@ -214,17 +208,11 @@ msgid "Filter by Date"
 msgstr "Gorê Dîrokê Parzûn Bike"
 
 #: app/filtercontroller.cpp:536
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Filter by Rating"
 msgctxt "@action:inmenu"
 msgid "Filter by Rating"
 msgstr "Gorê Nirxandinê Parzûn Bike"
 
 #: app/filtercontroller.cpp:537
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Filter by Tag"
 msgctxt "@action:inmenu"
 msgid "Filter by Tag"
 msgstr "Gorê Etîketê Parzûn Bike"
@@ -328,11 +316,7 @@ msgid "A starting file or folder"
 msgstr "Pel an jî peldank tê destpêkirin"
 
 #: app/infocontextmanageritem.cpp:72
-#, fuzzy, kde-format
-#| msgctxt ""
-#| "@item:intext %1 is a key, we append a colon to it. A value is displayed "
-#| "after"
-#| msgid "%1:"
+#, kde-format
 msgctxt ""
 "@item:intext %1 is a key, we append a colon to it. A value is displayed after"
 msgid "%1:"
@@ -344,8 +328,6 @@ msgid "More..."
 msgstr "Zêdetir..."
 
 #: app/infocontextmanageritem.cpp:154
-#, fuzzy
-#| msgid "Meta Information"
 msgctxt "@title:group"
 msgid "Meta Information"
 msgstr "Agahiya Meta"
@@ -433,9 +415,6 @@ msgid "Move To..."
 msgstr "Bibe Li..."
 
 #: app/fileopscontextmanageritem.cpp:132
-#, fuzzy
-#| msgctxt "Verb: create link to the file where user wants"
-#| msgid "Link To..."
 msgctxt "Verb: create link to the file where user wants"
 msgid "Link To..."
 msgstr "Girê Bide Li..."
@@ -458,8 +437,6 @@ msgid "Create Folder..."
 msgstr "Peldank Biafirîne..."
 
 #: app/fileopscontextmanageritem.cpp:153
-#, fuzzy
-#| msgid "Open With"
 msgid "Open With"
 msgstr "Veke Bi"
 
@@ -594,9 +571,6 @@ msgid "Reload"
 msgstr "Nû Ve Bar Bike"
 
 #: app/mainwindow.cpp:286
-#, fuzzy
-#| msgctxt "@action Switch to file list"
-#| msgid "Browse"
 msgctxt "@action Switch to file list"
 msgid "Browse"
 msgstr "Bigere"
@@ -721,11 +695,9 @@ msgid "Gwenview does not know how to display this kind of document"
 msgstr "Gwenview nizane ku belgeyên vê cureyê çawa nîşan bide"
 
 #: lib/documentview/documentview.cpp:417
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid "<b>Saving <filename>%1</filename> failed:</b><br>%2"
+#, kde-format
 msgid "Loading <filename>%1</filename> failed"
-msgstr "<b>Tomarkirina <filename>%1</filename> pêk nehat:</b><br>%2"
+msgstr "Barkirina <filename>%1</filename> pêk nehat"
 
 #: lib/documentview/messageviewadapter.cpp:46
 msgid "No document selected"
@@ -913,8 +885,6 @@ msgstr "Metadata"
 #. i18n: file: app/fullscreenconfigdialog.ui:98
 #. i18n: ectx: property (text), widget (QPushButton, mConfigureDisplayedInformationButton)
 #: rc.cpp:20
-#, fuzzy
-#| msgid "Configure Displayed Metadata..."
 msgid "Configure Displayed Metadata..."
 msgstr "Metadata yên Tê Nîşandan Veava Bike..."
 
@@ -1135,9 +1105,6 @@ msgstr "Tevgerên gulovera mişkê:"
 #. i18n: file: app/imageviewconfigpage.ui:127
 #. i18n: ectx: property (text), widget (QRadioButton, mouseWheelScrollRadioButton)
 #: rc.cpp:126
-#, fuzzy
-#| msgctxt "@option:radio action on mouse wheel"
-#| msgid "Scroll"
 msgctxt "@option:radio action on mouse wheel"
 msgid "Scroll"
 msgstr "Xişkirin"
@@ -1300,15 +1267,3 @@ msgstr "&Bibîne"
 #~ msgctxt "Verb"
 #~ msgid "&Trash"
 #~ msgstr "Bavêje Çopê"
-
-#, fuzzy
-#~| msgctxt "@title:group"
-#~| msgid "Meta Information"
-#~ msgctxt "@title:group"
-#~ msgid "Information"
-#~ msgstr "Agahiya Meta"
-
-#, fuzzy
-#~| msgid "Loading <filename>%1</filename> failed"
-#~ msgid "Could not load <filename>%1</filename>."
-#~ msgstr "Barkirina <filename>%1</filename> pêk nehat"
