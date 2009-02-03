@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_webbrowser\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-28 09:13+0100\n"
+"POT-Creation-Date: 2009-02-03 11:13+0100\n"
 "PO-Revision-Date: 2008-12-26 01:57+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -29,17 +29,11 @@ msgstr "Diyalog"
 msgid "Auto refresh:"
 msgstr "Nû kirina bixwe:"
 
-#. i18n: file: webbrowserconfig.ui:48
+#. i18n: file: webbrowserconfig.ui:29
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: rc.cpp:9
 msgid "Interval:"
 msgstr "Navber:"
-
-#. i18n: file: webbrowserconfig.ui:55
-#. i18n: ectx: property (suffix), widget (QSpinBox, autoRefreshInterval)
-#: rc.cpp:12
-msgid "minutes"
-msgstr "xulek"
 
 #: webbrowser.cpp:376
 #, kde-format
@@ -55,3 +49,11 @@ msgstr "Bijarte yê Jê Bibe"
 #: webbrowser.cpp:475
 msgid "General"
 msgstr "Giştî"
+
+#: webbrowser.cpp:487
+#, fuzzy
+#| msgid "minutes"
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "xulek"
+msgstr[1] "xulek"
