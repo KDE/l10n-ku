@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_weather\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-02-03 11:21+0100\n"
+"POT-Creation-Date: 2009-02-04 12:08+0100\n"
 "PO-Revision-Date: 2009-01-12 03:03+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #. i18n: file: weatherAddPlace.ui:19
 #. i18n: ectx: property (windowTitle), widget (QWidget, weatherAddPlace)
-#: rc.cpp:3 weatherapplet.cpp:579 weatherapplet.cpp:592
+#: rc.cpp:3 weatherapplet.cpp:585 weatherapplet.cpp:598
 msgid "Found Places"
 msgstr "Cihên Hatin Dîtin"
 
@@ -60,45 +60,39 @@ msgstr "&Lêgere"
 msgid "Selected city"
 msgstr "Bajarê hilbijartî"
 
-#. i18n: file: weatherLocations.ui:194
-#. i18n: ectx: property (suffix), widget (QSpinBox, weatherUpdateSpin)
-#: rc.cpp:24
-msgid " minutes"
-msgstr " xulek"
-
-#. i18n: file: weatherLocations.ui:260
+#. i18n: file: weatherLocations.ui:263
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:27
+#: rc.cpp:24
 msgid "Update every"
 msgstr "Rojane bike her"
 
 #. i18n: file: weatherUnits.ui:34
 #. i18n: ectx: property (windowTitle), widget (QWidget, weatherUnits)
-#: rc.cpp:30
+#: rc.cpp:27
 msgid "Weather Units"
 msgstr "Yeka yên Hewayê"
 
 #. i18n: file: weatherUnits.ui:56
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#: rc.cpp:33
+#: rc.cpp:30
 msgid "&Temperature unit"
 msgstr "Yeke ya &Germahiyê"
 
 #. i18n: file: weatherUnits.ui:79
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: rc.cpp:36
+#: rc.cpp:33
 msgid "&Wind unit"
 msgstr "Yeke ya &Ba"
 
 #. i18n: file: weatherUnits.ui:102
 #. i18n: ectx: property (text), widget (QLabel, label_8)
-#: rc.cpp:39
+#: rc.cpp:36
 msgid "&Pressure unit"
 msgstr "Yeke ya &Pestoyê"
 
 #. i18n: file: weatherUnits.ui:125
 #. i18n: ectx: property (text), widget (QLabel, label_7)
-#: rc.cpp:42
+#: rc.cpp:39
 msgid "&Visibility unit"
 msgstr "Yeke ya &Xuyanî bûnê"
 
@@ -201,198 +195,193 @@ msgstr "Kîlometre"
 msgid "Miles"
 msgstr "Mîl"
 
-#: weatherapplet.cpp:581
+#: weatherapplet.cpp:568
+#, fuzzy
+#| msgid " minutes"
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] " xulek"
+msgstr[1] " xulek"
+
+#: weatherapplet.cpp:587
 msgid "&Add"
 msgstr "&Lê zêde bike"
 
-#: weatherapplet.cpp:655 weatherapplet.cpp:657 weatherapplet.cpp:661
-#: weatherapplet.cpp:663 weatherapplet.cpp:671 weatherapplet.cpp:673
-#: weatherapplet.cpp:677 weatherapplet.cpp:679 weatherapplet.cpp:687
-#: weatherapplet.cpp:689 weatherapplet.cpp:694 weatherapplet.cpp:696
-#: weatherapplet.cpp:731 weatherapplet.cpp:733 weatherapplet.cpp:738
-#: weatherapplet.cpp:740 weatherapplet.cpp:745 weatherapplet.cpp:747
+#: weatherapplet.cpp:659 weatherapplet.cpp:661 weatherapplet.cpp:666
+#: weatherapplet.cpp:668 weatherapplet.cpp:701
 #, fuzzy, kde-format
 #| msgid "%1%2"
 msgctxt "temperature, unit"
 msgid "%1%2"
 msgstr "%1%2"
 
-#: weatherapplet.cpp:714
+#: weatherapplet.cpp:687
 #, kde-format
 msgid "Low: %1"
 msgstr "Kêm: %1"
 
-#: weatherapplet.cpp:716
+#: weatherapplet.cpp:689
 #, kde-format
 msgid "High: %1"
 msgstr "Zêde: %1"
 
-#: weatherapplet.cpp:718
+#: weatherapplet.cpp:691
 #, fuzzy, kde-format
 #| msgid "H: %1 L: %2"
 msgctxt "High & Low temperature"
 msgid "H: %1 L: %2"
 msgstr "B: %1 F: %2"
 
-#: weatherapplet.cpp:861
+#: weatherapplet.cpp:812
 #, fuzzy, kde-format
 #| msgid "%1 %2%3"
 msgctxt "certain weather condition, probability percentage"
 msgid "%1 (%2%)"
 msgstr "%1 %2%3"
 
-#: weatherapplet.cpp:875 weatherapplet.cpp:887
+#: weatherapplet.cpp:826 weatherapplet.cpp:838
 msgctxt "Short for no data available"
 msgid "-"
 msgstr ""
 
-#: weatherapplet.cpp:915
+#: weatherapplet.cpp:866
 msgid "5 Days"
 msgstr "5 Roj"
 
-#: weatherapplet.cpp:936
+#: weatherapplet.cpp:889
 #, fuzzy, kde-format
 #| msgid "Windchill: %1%2"
 msgctxt "windchill, unit"
-msgid "Windchill: %1%2"
+msgid "Windchill: %1"
 msgstr "Germahiya tê bihîstin: %1%2"
 
-#: weatherapplet.cpp:942
+#: weatherapplet.cpp:897
 #, fuzzy, kde-format
 #| msgid "Humidex: %1%2"
 msgctxt "humidex, unit"
-msgid "Humidex: %1%2"
+msgid "Humidex: %1"
 msgstr "Xenamî: %1%2"
 
-#: weatherapplet.cpp:948
+#: weatherapplet.cpp:904
 #, kde-format
 msgid "Dewpoint: %1"
 msgstr "Xala Xunavê: %1"
 
-#: weatherapplet.cpp:958 weatherapplet.cpp:960 weatherapplet.cpp:965
-#: weatherapplet.cpp:967 weatherapplet.cpp:975 weatherapplet.cpp:977
+#: weatherapplet.cpp:910
 #, fuzzy, kde-format
 #| msgid "Pressure: %1%2"
 msgctxt "pressure, unit"
 msgid "Pressure: %1%2"
 msgstr "Pesto: %1%2"
 
-#: weatherapplet.cpp:986
+#: weatherapplet.cpp:916
 #, kde-format
 msgid "Pressure Tendency: %1"
 msgstr "Meyla Pestoyê: %1"
 
-#: weatherapplet.cpp:999 weatherapplet.cpp:1001 weatherapplet.cpp:1006
-#: weatherapplet.cpp:1008
+#: weatherapplet.cpp:926
 #, fuzzy, kde-format
 #| msgid "Visibility: %1%2"
 msgctxt "distance, unit"
 msgid "Visibility: %1%2"
 msgstr "Xuyanî bûn: %1%2"
 
-#: weatherapplet.cpp:1012
+#: weatherapplet.cpp:928
 #, kde-format
 msgid "Visibility: %1"
 msgstr "Xuyanî bûn: %1"
 
-#: weatherapplet.cpp:1020
+#: weatherapplet.cpp:936
 #, kde-format
 msgid "Humidity: %1"
 msgstr "Xenam: %1"
 
-#: weatherapplet.cpp:1027
-#, fuzzy, kde-format
-#| msgctxt ""
-#| "%1 is the weather condition, %2 is the temperature, both come from the "
-#| "weather provider"
-#| msgid "%1 %2"
-msgctxt "wind direction, speed"
-msgid "%1 %2m/s"
-msgstr "%1 %2"
-
-#: weatherapplet.cpp:1031
-#, fuzzy, kde-format
-#| msgctxt ""
-#| "%1 is the weather condition, %2 is the temperature, both come from the "
-#| "weather provider"
-#| msgid "%1 %2"
-msgctxt "wind direction, speed"
-msgid "%1 %2kt"
-msgstr "%1 %2"
-
-#: weatherapplet.cpp:1035
-#, fuzzy, kde-format
-#| msgctxt ""
-#| "%1 is the weather condition, %2 is the temperature, both come from the "
-#| "weather provider"
-#| msgid "%1 %2"
-msgctxt "wind direction, speed"
-msgid "%1 %2bft"
-msgstr "%1 %2"
-
-#: weatherapplet.cpp:1040
-#, fuzzy, kde-format
-#| msgctxt ""
-#| "%1 is the weather condition, %2 is the temperature, both come from the "
-#| "weather provider"
-#| msgid "%1 %2"
-msgctxt "wind direction, speed"
-msgid "%1 %2mph"
-msgstr "%1 %2"
-
-#: weatherapplet.cpp:1043 weatherapplet.cpp:1051
+#: weatherapplet.cpp:941
 #, fuzzy, kde-format
 #| msgid "%1 %2%3"
-msgctxt "wind direction, speed, unit"
+msgctxt "wind direction, speed"
 msgid "%1 %2%3"
 msgstr "%1 %2%3"
 
-#: weatherapplet.cpp:1048
-#, fuzzy, kde-format
-#| msgctxt ""
-#| "%1 is the weather condition, %2 is the temperature, both come from the "
-#| "weather provider"
-#| msgid "%1 %2"
-msgctxt "wind direction, speed"
-msgid "%1 %2km/h"
-msgstr "%1 %2"
-
-#: weatherapplet.cpp:1056
+#: weatherapplet.cpp:945
 #, fuzzy
 #| msgid "N/A"
 msgctxt "Not available"
 msgid "N/A"
 msgstr "Ne-Çalak"
 
-#: weatherapplet.cpp:1059
+#: weatherapplet.cpp:948
 #, fuzzy
 #| msgid "Calm"
 msgctxt "Wind condition"
 msgid "Calm"
 msgstr "Aram"
 
-#: weatherapplet.cpp:1074 weatherapplet.cpp:1077 weatherapplet.cpp:1080
-#: weatherapplet.cpp:1084 weatherapplet.cpp:1086 weatherapplet.cpp:1091
-#: weatherapplet.cpp:1093
+#: weatherapplet.cpp:961
 #, kde-format
 msgid "Wind Gust: %1%2"
 msgstr "Bahoz: %1%2"
 
-#: weatherapplet.cpp:1104
+#: weatherapplet.cpp:969
 msgid "Details"
 msgstr "Kitekît"
 
-#: weatherapplet.cpp:1119
+#: weatherapplet.cpp:984
 msgid "Warnings Issued:"
 msgstr "Tiştên Hişyariyê:"
 
-#: weatherapplet.cpp:1156
+#: weatherapplet.cpp:1021
 msgid "Watches Issued:"
 msgstr "Tiştên Nihêrînê:"
 
-#: weatherapplet.cpp:1182
+#: weatherapplet.cpp:1047
 msgid "Notices"
 msgstr "Hişyarî"
+
+#, fuzzy
+#~| msgctxt ""
+#~| "%1 is the weather condition, %2 is the temperature, both come from the "
+#~| "weather provider"
+#~| msgid "%1 %2"
+#~ msgctxt "wind direction, speed"
+#~ msgid "%1 %2m/s"
+#~ msgstr "%1 %2"
+
+#, fuzzy
+#~| msgctxt ""
+#~| "%1 is the weather condition, %2 is the temperature, both come from the "
+#~| "weather provider"
+#~| msgid "%1 %2"
+#~ msgctxt "wind direction, speed"
+#~ msgid "%1 %2kt"
+#~ msgstr "%1 %2"
+
+#, fuzzy
+#~| msgctxt ""
+#~| "%1 is the weather condition, %2 is the temperature, both come from the "
+#~| "weather provider"
+#~| msgid "%1 %2"
+#~ msgctxt "wind direction, speed"
+#~ msgid "%1 %2bft"
+#~ msgstr "%1 %2"
+
+#, fuzzy
+#~| msgctxt ""
+#~| "%1 is the weather condition, %2 is the temperature, both come from the "
+#~| "weather provider"
+#~| msgid "%1 %2"
+#~ msgctxt "wind direction, speed"
+#~ msgid "%1 %2mph"
+#~ msgstr "%1 %2"
+
+#, fuzzy
+#~| msgctxt ""
+#~| "%1 is the weather condition, %2 is the temperature, both come from the "
+#~| "weather provider"
+#~| msgid "%1 %2"
+#~ msgctxt "wind direction, speed"
+#~ msgid "%1 %2km/h"
+#~ msgstr "%1 %2"
 
 #~ msgid "%1"
 #~ msgstr "%1"
