@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktorrent\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-02-04 12:11+0100\n"
+"POT-Creation-Date: 2009-02-06 11:07+0100\n"
 "PO-Revision-Date: 2008-09-23 17:28+0300\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -853,11 +853,11 @@ msgstr "%1 te afirandin..."
 msgid "%1 %"
 msgstr "% %1"
 
-#: ktorrent/viewmodel.cpp:422 ktorrent/queuemanagermodel.cpp:123
+#: ktorrent/viewmodel.cpp:422 ktorrent/queuemanagermodel.cpp:119
 msgid "Name"
 msgstr "Nav"
 
-#: ktorrent/viewmodel.cpp:423 ktorrent/queuemanagermodel.cpp:124
+#: ktorrent/viewmodel.cpp:423 ktorrent/queuemanagermodel.cpp:120
 #: plugins/infowidget/infowidgetplugin.cpp:80
 #: plugins/infowidget/webseedsmodel.cpp:127
 msgid "Status"
@@ -1486,39 +1486,39 @@ msgstr "Sînorên Lezê"
 msgid "Unlimited"
 msgstr "Bêsînor"
 
-#: ktorrent/queuemanagermodel.cpp:122
+#: ktorrent/queuemanagermodel.cpp:118
 msgid "Order"
 msgstr ""
 
-#: ktorrent/queuemanagermodel.cpp:125
+#: ktorrent/queuemanagermodel.cpp:121
 msgid "Time Stalled"
 msgstr ""
 
-#: ktorrent/queuemanagermodel.cpp:126
+#: ktorrent/queuemanagermodel.cpp:122
 #: plugins/infowidget/iwfilelistmodel.cpp:68
 #: plugins/infowidget/iwfiletreemodel.cpp:72
 msgid "Priority"
 msgstr ""
 
-#: ktorrent/queuemanagermodel.cpp:159
+#: ktorrent/queuemanagermodel.cpp:155
 msgid "Running"
 msgstr ""
 
-#: ktorrent/queuemanagermodel.cpp:161
-#: libbtcore/torrent/torrentcontrol.cpp:1458
+#: ktorrent/queuemanagermodel.cpp:157
+#: libbtcore/torrent/torrentcontrol.cpp:1460
 msgid "Queued"
 msgstr ""
 
-#: ktorrent/queuemanagermodel.cpp:163
+#: ktorrent/queuemanagermodel.cpp:159
 msgid "Not queued"
 msgstr ""
 
-#: ktorrent/queuemanagermodel.cpp:172
+#: ktorrent/queuemanagermodel.cpp:168
 #, kde-format
 msgid "%1"
 msgstr ""
 
-#: ktorrent/queuemanagermodel.cpp:184
+#: ktorrent/queuemanagermodel.cpp:180
 msgid ""
 "Order of a torrent in the queue.\n"
 "Use drag and drop or the move up and down buttons on the right to change the "
@@ -3400,7 +3400,7 @@ msgstr ""
 
 #. i18n: file: ktorrent/qmpref.ui:193
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: rc.cpp:707 libbtcore/torrent/torrentcontrol.cpp:1446
+#: rc.cpp:707 libbtcore/torrent/torrentcontrol.cpp:1448
 msgid "Seeding"
 msgstr ""
 
@@ -7545,42 +7545,42 @@ msgstr ""
 msgid "Parse Error"
 msgstr ""
 
-#: libbtcore/torrent/torrentcontrol.cpp:514
+#: libbtcore/torrent/torrentcontrol.cpp:516
 #, kde-format
 msgid ""
 "An error occurred while loading the torrent <b>%1</b>\n"
 "The torrent is probably corrupt or is not a torrent file."
 msgstr ""
 
-#: libbtcore/torrent/torrentcontrol.cpp:542
+#: libbtcore/torrent/torrentcontrol.cpp:544
 msgid ""
 "An error occurred while loading the torrent.\n"
 "The torrent is probably corrupt or is not a torrent file."
 msgstr ""
 
-#: libbtcore/torrent/torrentcontrol.cpp:551
+#: libbtcore/torrent/torrentcontrol.cpp:553
 #, kde-format
 msgid "Unable to create %1 : %2"
 msgstr ""
 
-#: libbtcore/torrent/torrentcontrol.cpp:566
+#: libbtcore/torrent/torrentcontrol.cpp:568
 #, kde-format
 msgid ""
 "You are already downloading this torrent %1, the list of trackers of both "
 "torrents has been merged."
 msgstr ""
 
-#: libbtcore/torrent/torrentcontrol.cpp:570
+#: libbtcore/torrent/torrentcontrol.cpp:572
 #, kde-format
 msgid "You are already downloading the torrent %1"
 msgstr ""
 
-#: libbtcore/torrent/torrentcontrol.cpp:669
+#: libbtcore/torrent/torrentcontrol.cpp:671
 #, kde-format
 msgid "Cannot migrate %1 : %2"
 msgstr ""
 
-#: libbtcore/torrent/torrentcontrol.cpp:1358
+#: libbtcore/torrent/torrentcontrol.cpp:1360
 #, kde-format
 msgid ""
 "The torrent %1 was started with a previous version of KTorrent. To make sure "
@@ -7589,48 +7589,48 @@ msgid ""
 "press cancel, we will select your home directory."
 msgstr ""
 
-#: libbtcore/torrent/torrentcontrol.cpp:1363
+#: libbtcore/torrent/torrentcontrol.cpp:1365
 msgid "Select Folder to Save To"
 msgstr "Peldanka ku Wê Li Ser Were Tomarkirin"
 
-#: libbtcore/torrent/torrentcontrol.cpp:1440
+#: libbtcore/torrent/torrentcontrol.cpp:1442
 msgid "Not started"
 msgstr "Dest pê nekir"
 
-#: libbtcore/torrent/torrentcontrol.cpp:1442
+#: libbtcore/torrent/torrentcontrol.cpp:1444
 msgid "Download completed"
 msgstr "Daxistin qediya"
 
-#: libbtcore/torrent/torrentcontrol.cpp:1444
+#: libbtcore/torrent/torrentcontrol.cpp:1446
 msgid "Seeding completed"
 msgstr ""
 
-#: libbtcore/torrent/torrentcontrol.cpp:1448
+#: libbtcore/torrent/torrentcontrol.cpp:1450
 msgid "Downloading"
 msgstr ""
 
-#: libbtcore/torrent/torrentcontrol.cpp:1450
+#: libbtcore/torrent/torrentcontrol.cpp:1452
 msgid "Stalled"
 msgstr ""
 
-#: libbtcore/torrent/torrentcontrol.cpp:1452
+#: libbtcore/torrent/torrentcontrol.cpp:1454
 #: libbtcore/torrent/peersourcemanager.cpp:162
 msgid "Stopped"
 msgstr "Hat rawestandin"
 
-#: libbtcore/torrent/torrentcontrol.cpp:1454
+#: libbtcore/torrent/torrentcontrol.cpp:1456
 msgid "Error: "
 msgstr "Çewtî: "
 
-#: libbtcore/torrent/torrentcontrol.cpp:1456
+#: libbtcore/torrent/torrentcontrol.cpp:1458
 msgid "Allocating diskspace"
 msgstr ""
 
-#: libbtcore/torrent/torrentcontrol.cpp:1460
+#: libbtcore/torrent/torrentcontrol.cpp:1462
 msgid "Checking data"
 msgstr "Dane tên kontrolkirin"
 
-#: libbtcore/torrent/torrentcontrol.cpp:1462
+#: libbtcore/torrent/torrentcontrol.cpp:1464
 msgid "Stopped. No space left on device."
 msgstr ""
 
