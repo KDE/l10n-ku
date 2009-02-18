@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: k3b\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-02-17 09:15+0100\n"
+"POT-Creation-Date: 2009-02-18 09:06+0100\n"
 "PO-Revision-Date: 2008-12-21 16:44+0200\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -2399,12 +2399,6 @@ msgstr ""
 
 #: main.cpp:131
 msgid ""
-"Set the audio output method (like arts or alsa depending on the installed "
-"plugins)"
-msgstr ""
-
-#: main.cpp:132
-msgid ""
 "Set the device to be used for new projects (This option has no effect. Its "
 "main purpose is to enable handling of empty media from the KDE Media "
 "Manager)."
@@ -3411,33 +3405,24 @@ msgstr ""
 msgid "Set writing speed manually"
 msgstr ""
 
-#: k3bapplication.cpp:126
+#: k3bapplication.cpp:129
 msgid "Creating GUI..."
 msgstr ""
 
-#: k3bapplication.cpp:138
+#: k3bapplication.cpp:141
 msgid "Ready."
 msgstr ""
 
-#: k3bapplication.cpp:145
+#: k3bapplication.cpp:148
 msgid "Checking System"
 msgstr ""
 
-#: k3bapplication.cpp:180
+#: k3bapplication.cpp:183
 msgid "K3b is currently busy and cannot start any other operations."
 msgstr ""
 
-#: k3bapplication.cpp:181
+#: k3bapplication.cpp:184
 msgid "K3b is busy"
-msgstr ""
-
-#: k3bapplication.cpp:283
-#, kde-format
-msgid "Could not find Audio Output plugin '%1'"
-msgstr ""
-
-#: k3bapplication.cpp:284
-msgid "Initialization Problem"
 msgstr ""
 
 #: k3blsofwrapperdialog.cpp:46
@@ -5296,7 +5281,7 @@ msgstr ""
 
 #. i18n: file: projects/base_k3bbootimageview.ui:85
 #. i18n: ectx: property (text), widget (K3ListView, m_viewImages)
-#: rc.cpp:744 projects/k3bdataprojectmodel.cpp:277
+#: rc.cpp:744 projects/k3bdataprojectmodel.cpp:281
 #: projects/k3bmovixlistview.cpp:177
 msgid "Local Path"
 msgstr ""
@@ -6316,7 +6301,7 @@ msgstr ""
 
 #. i18n: file: ../plugins/encoder/external/base_k3bexternalencoderconfigwidget.ui:99
 #. i18n: ectx: property (text), widget (QPushButton, m_buttonRemove)
-#: rc.cpp:1288 k3baudioplayer.cpp:229 projects/k3bmovixview.cpp:57
+#: rc.cpp:1288 k3baudioplayer.cpp:229 projects/k3bmovixview.cpp:59
 #: projects/k3bvcdlistview.cpp:101 projects/k3bdataview.cpp:200
 #: projects/k3baudiotrackview.cpp:190
 msgid "Remove"
@@ -6682,24 +6667,24 @@ msgstr ""
 msgid "Analysing file '%1'..."
 msgstr ""
 
-#: projects/k3bmovixview.cpp:54 projects/k3bvcdlistview.cpp:100
+#: projects/k3bmovixview.cpp:56 projects/k3bvcdlistview.cpp:100
 #: projects/k3bdataview.cpp:188 projects/k3baudiotrackview.cpp:184
 msgid "Properties"
 msgstr ""
 
-#: projects/k3bmovixview.cpp:60
+#: projects/k3bmovixview.cpp:62
 msgid "Remove Subtitle File"
 msgstr ""
 
-#: projects/k3bmovixview.cpp:63
+#: projects/k3bmovixview.cpp:65
 msgid "Add Subtitle File..."
 msgstr ""
 
-#: projects/k3bmovixview.cpp:80 projects/k3bdataview.cpp:99
+#: projects/k3bmovixview.cpp:82 projects/k3bdataview.cpp:99
 msgid "Volume Name:"
 msgstr ""
 
-#: projects/k3bmovixview.cpp:174
+#: projects/k3bmovixview.cpp:164
 msgid "K3b currently only supports local files."
 msgstr ""
 
@@ -7613,26 +7598,26 @@ msgstr ""
 msgid "Please select a session to import."
 msgstr ""
 
-#: projects/k3bdataprojectmodel.cpp:251 projects/k3bdataviewitem.cpp:257
+#: projects/k3bdataprojectmodel.cpp:255 projects/k3bdataviewitem.cpp:257
 msgid "outside of project"
 msgstr ""
 
-#: projects/k3bdataprojectmodel.cpp:271
+#: projects/k3bdataprojectmodel.cpp:275
 msgctxt "file name"
 msgid "Name"
 msgstr ""
 
-#: projects/k3bdataprojectmodel.cpp:273
+#: projects/k3bdataprojectmodel.cpp:277
 msgctxt "file type"
 msgid "Type"
 msgstr ""
 
-#: projects/k3bdataprojectmodel.cpp:275
+#: projects/k3bdataprojectmodel.cpp:279
 msgctxt "file size"
 msgid "Size"
 msgstr ""
 
-#: projects/k3bdataprojectmodel.cpp:279
+#: projects/k3bdataprojectmodel.cpp:283
 msgctxt "symbolic link target"
 msgid "Link"
 msgstr ""
@@ -7920,6 +7905,7 @@ msgstr ""
 
 #: projects/k3bdataviewitem.cpp:235 projects/k3bmovixlistview.cpp:87
 #: projects/k3bmovixlistview.cpp:142 projects/k3bdatapropertiesdialog.cpp:211
+#: projects/k3bmovixprojectmodel.cpp:159
 #, kde-format
 msgid "Link to %1"
 msgstr ""
@@ -8190,6 +8176,7 @@ msgid "Sequence-%1 - %2"
 msgstr ""
 
 #: projects/k3bmovixlistview.cpp:96 projects/k3bmovixlistview.cpp:153
+#: projects/k3bmovixprojectmodel.cpp:185
 msgid " (broken)"
 msgstr ""
 
@@ -8746,6 +8733,36 @@ msgstr ""
 
 #: projects/k3bprojectburndialog.cpp:432
 msgid "Use the 'Image' tab to optionally adjust the path of the image."
+msgstr ""
+
+#: projects/k3bmovixprojectmodel.cpp:202
+msgctxt "Movix File Position"
+msgid "No."
+msgstr ""
+
+#: projects/k3bmovixprojectmodel.cpp:204
+msgctxt "Movix File Title"
+msgid "Title"
+msgstr ""
+
+#: projects/k3bmovixprojectmodel.cpp:206
+msgctxt "Movix File Type(ie. MPEG)"
+msgid "Type"
+msgstr ""
+
+#: projects/k3bmovixprojectmodel.cpp:208
+msgctxt "Movix File Size"
+msgid "Size"
+msgstr ""
+
+#: projects/k3bmovixprojectmodel.cpp:210
+msgctxt "Movix File Path"
+msgid "Local Path"
+msgstr ""
+
+#: projects/k3bmovixprojectmodel.cpp:212
+msgctxt "Movix File Link"
+msgid "Link"
 msgstr ""
 
 #: k3bfiletreeview.cpp:302
