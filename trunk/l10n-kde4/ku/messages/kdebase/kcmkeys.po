@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkeys\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-02-19 09:33+0100\n"
+"POT-Creation-Date: 2009-02-22 09:47+0100\n"
 "PO-Revision-Date: 2009-01-06 00:38+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <ku@li.org>\n"
@@ -18,15 +18,25 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural= n != 1;\n"
 "X-Poedit-Language: Kurdish\n"
 
-#: globalshortcuts.cpp:47
-msgid "Import Scheme..."
+#: kglobalshortcutseditor.cpp:114
+#, fuzzy
+#| msgid "Import Scheme..."
+msgid "Import Scheme ..."
 msgstr "Şema Bîne..."
 
-#: globalshortcuts.cpp:52
-msgid "Export Scheme..."
+#: kglobalshortcutseditor.cpp:115
+#, fuzzy
+#| msgid "Export Scheme..."
+msgid "Export Scheme ..."
 msgstr "Şema Jê Derxîne..."
 
-#: globalshortcuts.cpp:99
+#: kglobalshortcutseditor.cpp:116
+#, fuzzy
+#| msgid "KDE component:"
+msgid "Revise Component"
+msgstr "Parçeya KDE'yê:"
+
+#: kglobalshortcutseditor.cpp:234
 msgid ""
 "Your current changes will be lost if you load another scheme before saving "
 "this one"
@@ -34,20 +44,20 @@ msgstr ""
 "Heke tu berî ya ne-tomarkirina vê şemayê şemayekî din bar bikî, dê "
 "guherandinên te bên winda kirin"
 
-#: globalshortcuts.cpp:100
+#: kglobalshortcutseditor.cpp:235
 msgid "Load Shortcurt Scheme"
 msgstr "Şemaya Kurterê yan Bar Bike"
 
-#: globalshortcuts.cpp:101
+#: kglobalshortcutseditor.cpp:236
 msgid "Load"
 msgstr "Barkirin"
 
-#: globalshortcuts.cpp:114
+#: kglobalshortcutseditor.cpp:249
 #, kde-format
 msgid "This file (%1) does not exist. You can only select local files."
 msgstr "Ev pel (%1) tune. Tu dikarî tenê pelên herêmî hilbijêrî."
 
-#: kglobalshortcutseditor.cpp:230 kglobalshortcutseditor.cpp:253
+#: kglobalshortcutseditor.cpp:278 kglobalshortcutseditor.cpp:301
 #, kde-format
 msgid ""
 "Message: %1\n"
@@ -56,11 +66,11 @@ msgstr ""
 "Peyam: %1\n"
 "Çewtî: %2"
 
-#: kglobalshortcutseditor.cpp:235 kglobalshortcutseditor.cpp:258
+#: kglobalshortcutseditor.cpp:283 kglobalshortcutseditor.cpp:306
 msgid "Failed to contact the KDE global shortcuts daemon\n"
 msgstr "Nikare bi bernameya kurterê yên giştî yên KDE re bikeve têkilî yê\n"
 
-#: kglobalshortcutseditor.cpp:337
+#: kglobalshortcutseditor.cpp:385
 #, kde-format
 msgid ""
 "This will remove all currently not active global shortcuts for %1 from this "
@@ -69,7 +79,7 @@ msgid ""
 "the next time!"
 msgstr ""
 
-#: kglobalshortcutseditor.cpp:339
+#: kglobalshortcutseditor.cpp:387
 #, fuzzy
 #| msgid "KDE component:"
 msgid "Clean component"
@@ -82,9 +92,9 @@ msgid "KDE component:"
 msgstr "Parçeya KDE'yê:"
 
 #. i18n: file: kglobalshortcutseditor.ui:36
-#. i18n: ectx: property (text), widget (QPushButton, clean_component)
+#. i18n: ectx: property (text), widget (QPushButton, menu_button)
 #: rc.cpp:6
-msgid "Clean"
+msgid "File"
 msgstr ""
 
 #. i18n: file: select_scheme_dialog.ui:15
