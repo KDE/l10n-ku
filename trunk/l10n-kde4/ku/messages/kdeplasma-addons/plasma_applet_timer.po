@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_timer\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-28 09:17+0100\n"
+"POT-Creation-Date: 2009-02-23 09:50+0100\n"
 "PO-Revision-Date: 2009-01-10 23:27+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -29,56 +29,60 @@ msgstr ":"
 msgid "Timer Configuration"
 msgstr "Veavakirina Katjimêr"
 
-#. i18n: file: timerConfig.ui:22
-#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: file: timerConfig.ui:17
+#. i18n: ectx: property (text), widget (QCheckBox, showTitleCheckBox)
 #: rc.cpp:6
+msgid "Show Title"
+msgstr ""
+
+#. i18n: file: timerConfig.ui:33
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:9
 msgid "Actions on Timeout"
 msgstr "Çalakiyên di Demborî de"
 
-#. i18n: file: timerConfig.ui:32
-#. i18n: ectx: property (text), widget (QCheckBox, runCommandCheckBox)
-#: rc.cpp:9
-msgid "Run a command"
-msgstr "Fermanê bixebitîne"
-
-#. i18n: file: timerConfig.ui:39
-#. i18n: ectx: property (text), widget (QLabel, commandLabel)
-#: rc.cpp:12
-msgid "Command:"
-msgstr "Ferman:"
-
-#. i18n: file: timerConfig.ui:52
-#. i18n: ectx: property (text), widget (QLabel, messageLabel)
-#: rc.cpp:15
-msgid "Message:"
-msgstr "Peyam:"
-
-#. i18n: file: timerConfig.ui:62
+#. i18n: file: timerConfig.ui:40
 #. i18n: ectx: property (text), widget (QCheckBox, showMessageCheckBox)
-#: rc.cpp:18
+#: rc.cpp:12
 msgid "Show a message"
 msgstr "Peyamekê nîşan bide"
 
-#: timer.cpp:70
+#. i18n: file: timerConfig.ui:50
+#. i18n: ectx: property (text), widget (QCheckBox, runCommandCheckBox)
+#: rc.cpp:15
+msgid "Run a command"
+msgstr "Fermanê bixebitîne"
+
+#: timer.cpp:71
+msgid "Timer"
+msgstr ""
+
+#: timer.cpp:73
 msgid "Timer Timeout"
 msgstr "Demborî ya Katjimêrê"
 
-#: timer.cpp:92
+#: timer.cpp:95
 msgid "Start"
 msgstr "Destpê bike"
 
-#: timer.cpp:96
+#: timer.cpp:99
 msgid "Stop"
 msgstr "Rawestîne"
 
-#: timer.cpp:100
+#: timer.cpp:103
 msgid "Reset"
 msgstr "Vegere Serî"
 
-#: timer.cpp:143
+#: timer.cpp:146
 msgid "General"
 msgstr "Giştî"
 
-#: timer.cpp:144
+#: timer.cpp:147
 msgid "Predefined Timers"
 msgstr "Katjimêrên Pêş-danasîn"
+
+#~ msgid "Command:"
+#~ msgstr "Ferman:"
+
+#~ msgid "Message:"
+#~ msgstr "Peyam:"
