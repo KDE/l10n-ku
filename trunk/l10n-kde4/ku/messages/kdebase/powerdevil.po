@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: powerdevil\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-02-27 10:51+0100\n"
+"POT-Creation-Date: 2009-03-02 09:56+0100\n"
 "PO-Revision-Date: 2008-12-31 04:01+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -78,131 +78,169 @@ msgstr "Adaptorê hêzê hate girêdan "
 msgid "The power adaptor has been unplugged"
 msgstr "Adaptorê hêzê hate qut kirin"
 
-#: daemon/PowerDevilDaemon.cpp:551
+#: daemon/PowerDevilDaemon.cpp:552
 #, fuzzy, kde-format
 #| msgid ""
 #| "Your battery has reached critical level, the PC will be halted in %1 "
 #| "seconds. Click here to block the process."
 msgid ""
-"Your battery has reached critical level, the PC will be halted in %1 seconds."
-msgstr ""
+"Your battery level is critical, the computer will be halted in 1 second."
+msgid_plural ""
+"Your battery level is critical, the computer will be halted in %1 seconds."
+msgstr[0] ""
+"Pîla te gihîşt asta rexne, Komputer dê %1 çirkeyan de bê girtin. Pêl li vir "
+"bike ku pêvajo yê bidî rawestandin."
+msgstr[1] ""
 "Pîla te gihîşt asta rexne, Komputer dê %1 çirkeyan de bê girtin. Pêl li vir "
 "bike ku pêvajo yê bidî rawestandin."
 
-#: daemon/PowerDevilDaemon.cpp:561
+#: daemon/PowerDevilDaemon.cpp:563
 #, fuzzy, kde-format
 #| msgid ""
 #| "Your battery has reached critical level, the PC will be suspended to disk "
 #| "in %1 seconds. Click here to block the process."
 msgid ""
-"Your battery has reached critical level, the PC will be suspended to disk in "
-"%1 seconds."
-msgstr ""
+"Your battery level is critical, the computer will be suspended to disk in 1 "
+"second."
+msgid_plural ""
+"Your battery level is critical, the computer will be suspended to disk in %1 "
+"seconds."
+msgstr[0] ""
+"Pîla te gihîşt asta rexne, Komputer dê %1 çirkeyan de ji dîskê bê "
+"sekinandin. Pêl li vir bike ku pêvajo yê bidî rawestandin."
+msgstr[1] ""
 "Pîla te gihîşt asta rexne, Komputer dê %1 çirkeyan de ji dîskê bê "
 "sekinandin. Pêl li vir bike ku pêvajo yê bidî rawestandin."
 
-#: daemon/PowerDevilDaemon.cpp:572
+#: daemon/PowerDevilDaemon.cpp:574
 #, fuzzy, kde-format
 #| msgid ""
 #| "Your battery has reached critical level, the PC will be suspended to RAM "
 #| "in %1 seconds. Click here to block the process"
 msgid ""
-"Your battery has reached critical level, the PC will be suspended to RAM in %"
-"1 seconds."
-msgstr ""
+"Your battery level is critical, the computer will be suspended to RAM in 1 "
+"second."
+msgid_plural ""
+"Your battery level is critical, the computer will be suspended to RAM in %1 "
+"seconds."
+msgstr[0] ""
+"Pîla te gihîşt asta rexne, Komputer dê %1 çirkeyan de ji RAMê bê sekinandin. "
+"Pêl li vir bike ku pêvajo yê bidî rawestandin."
+msgstr[1] ""
 "Pîla te gihîşt asta rexne, Komputer dê %1 çirkeyan de ji RAMê bê sekinandin. "
 "Pêl li vir bike ku pêvajo yê bidî rawestandin."
 
-#: daemon/PowerDevilDaemon.cpp:583
+#: daemon/PowerDevilDaemon.cpp:585
 #, fuzzy, kde-format
 #| msgid ""
 #| "Your battery has reached critical level, the PC is going Standby in %1 "
 #| "seconds. Click here to block the process."
 msgid ""
-"Your battery has reached critical level, the PC will be put into standby in %"
-"1 seconds."
-msgstr ""
+"Your battery level is critical, the computer will be put into standby in 1 "
+"second."
+msgid_plural ""
+"Your battery level is critical, the computer will be put into standby in %1 "
+"seconds."
+msgstr[0] ""
+"Pîla te gihîşt asta rexne, Komputer dê %1 çirkeyan de lê bendê bimîne. Pêl "
+"li vir bike ku pêvajo yê bidî rawestandin."
+msgstr[1] ""
 "Pîla te gihîşt asta rexne, Komputer dê %1 çirkeyan de lê bendê bimîne. Pêl "
 "li vir bike ku pêvajo yê bidî rawestandin."
 
-#: daemon/PowerDevilDaemon.cpp:592
+#: daemon/PowerDevilDaemon.cpp:594
 #, fuzzy
 #| msgid ""
 #| "Your battery has reached critical level, save your work as soon as "
 #| "possible!"
-msgid ""
-"Your battery has reached critical level: save your work as soon as possible."
+msgid "Your battery level is critical: save your work as soon as possible."
 msgstr "Pîla te gihîşt asta rexne, xebatên xwe di demê zûtirîn de tomar bike! "
 
-#: daemon/PowerDevilDaemon.cpp:597
+#: daemon/PowerDevilDaemon.cpp:598
 #, fuzzy
 #| msgid "Your battery has reached warning level"
 msgid "Your battery has reached the warning level."
 msgstr "Pîla te gihîşt asta hişyarî yê"
 
-#: daemon/PowerDevilDaemon.cpp:600
+#: daemon/PowerDevilDaemon.cpp:601
 #, fuzzy
 #| msgid "Your battery has reached low level"
 msgid "Your battery has reached a low level."
 msgstr "Pîla te gihîşt asta kêmtir"
 
-#: daemon/PowerDevilDaemon.cpp:714
+#: daemon/PowerDevilDaemon.cpp:715
 #, fuzzy, kde-format
 #| msgid ""
 #| "The computer will be halted in %1 seconds. Click here to block the "
 #| "process."
-msgid "The computer will be halted in %1 seconds."
-msgstr ""
+msgid "The computer will be halted in 1 second."
+msgid_plural "The computer will be halted in %1 seconds."
+msgstr[0] ""
+"Komputer dê %1 çirkeyan de bê girtin. Pêl li vir bike ku pêvajo yê bidî "
+"rawestandin."
+msgstr[1] ""
 "Komputer dê %1 çirkeyan de bê girtin. Pêl li vir bike ku pêvajo yê bidî "
 "rawestandin."
 
-#: daemon/PowerDevilDaemon.cpp:729
+#: daemon/PowerDevilDaemon.cpp:731
 #, fuzzy, kde-format
 #| msgid ""
 #| "The computer will be suspended to disk in %1 seconds. Click here to block "
 #| "the process."
-msgid "The computer will be suspended to disk in %1 seconds."
-msgstr ""
+msgid "The computer will be suspended to disk in 1 second."
+msgid_plural "The computer will be suspended to disk in %1 seconds."
+msgstr[0] ""
+"Komputer dê %1 çirkeyan de ji dîskê bê sekinandin. Pêl li vir bike ku pêvajo "
+"yê bidî rawestandin."
+msgstr[1] ""
 "Komputer dê %1 çirkeyan de ji dîskê bê sekinandin. Pêl li vir bike ku pêvajo "
 "yê bidî rawestandin."
 
-#: daemon/PowerDevilDaemon.cpp:745
+#: daemon/PowerDevilDaemon.cpp:747
 #, fuzzy, kde-format
 #| msgid ""
 #| "The computer will be suspended to RAM in %1 seconds. Click here to block "
 #| "the process."
-msgid "The computer will be suspended to RAM in %1 seconds."
-msgstr ""
+msgid "The computer will be suspended to RAM in 1 second."
+msgid_plural "The computer will be suspended to RAM in %1 seconds."
+msgstr[0] ""
+"Komputer dê %1 çirkeyan de ji RAMê bê sekinandin. Pêl li vir bike ku pêvajo "
+"yê bidî rawestandin."
+msgstr[1] ""
 "Komputer dê %1 çirkeyan de ji RAMê bê sekinandin. Pêl li vir bike ku pêvajo "
 "yê bidî rawestandin."
 
-#: daemon/PowerDevilDaemon.cpp:761
+#: daemon/PowerDevilDaemon.cpp:763
 #, fuzzy, kde-format
 #| msgid ""
 #| "The computer will be put into standby in %1 seconds. Click here to block "
 #| "the process."
-msgid "The computer will be put into standby in %1 seconds."
-msgstr ""
+msgid "The computer will be put into standby in 1 second."
+msgid_plural "The computer will be put into standby in %1 seconds."
+msgstr[0] ""
+"Komputer dê %1 çirkeyan de lê bendê bimîne. Pêl li vir bike ku pêvajo yê "
+"bidî rawestandin."
+msgstr[1] ""
 "Komputer dê %1 çirkeyan de lê bendê bimîne. Pêl li vir bike ku pêvajo yê "
 "bidî rawestandin."
 
-#: daemon/PowerDevilDaemon.cpp:850
+#: daemon/PowerDevilDaemon.cpp:852
 msgid "There was an error while suspending:"
 msgstr "Di demê sekinandinê de çewtiyek çê bû: "
 
-#: daemon/PowerDevilDaemon.cpp:1028
+#: daemon/PowerDevilDaemon.cpp:1030
 msgid "The screen is being locked"
 msgstr "Dîmender tê qufl kirin"
 
-#: daemon/PowerDevilDaemon.cpp:1042 daemon/PowerDevilDaemon.cpp:1070
-#: daemon/PowerDevilDaemon.cpp:1098
+#: daemon/PowerDevilDaemon.cpp:1044 daemon/PowerDevilDaemon.cpp:1072
+#: daemon/PowerDevilDaemon.cpp:1100
 #, fuzzy
 #| msgid "Actions"
 msgctxt "Interrupts the suspension/shutdown process"
 msgid "Abort Action"
 msgstr "Çalakî"
 
-#: daemon/PowerDevilDaemon.cpp:1145
+#: daemon/PowerDevilDaemon.cpp:1147
 #, fuzzy, kde-format
 #| msgid ""
 #| "The profile \"%1\" has been selected, but it does not exist!\n"
@@ -214,51 +252,51 @@ msgstr ""
 "Profîla \"%1\" hate hilbijartin, lê ev profîl tune ye!\n"
 "Jê kerema xwe mîhengên PowerDevil kontrol bike."
 
-#: daemon/PowerDevilDaemon.cpp:1218
+#: daemon/PowerDevilDaemon.cpp:1220
 #, kde-format
 msgid "Profile changed to \"%1\""
 msgstr "Profîl ji \"%1\" re hat guherandin"
 
-#: daemon/PowerDevilDaemon.cpp:1246 kcmodule/CapabilitiesPage.cpp:152
+#: daemon/PowerDevilDaemon.cpp:1248 kcmodule/CapabilitiesPage.cpp:152
 #: kcmodule/CapabilitiesPage.cpp:267 kcmodule/EditPage.cpp:150
 msgid "Performance"
 msgstr "Performans"
 
-#: daemon/PowerDevilDaemon.cpp:1250 kcmodule/CapabilitiesPage.cpp:156
+#: daemon/PowerDevilDaemon.cpp:1252 kcmodule/CapabilitiesPage.cpp:156
 #: kcmodule/EditPage.cpp:156
 msgid "Dynamic (ondemand)"
 msgstr "Zînde (wextê hewce be)"
 
-#: daemon/PowerDevilDaemon.cpp:1254 kcmodule/CapabilitiesPage.cpp:160
+#: daemon/PowerDevilDaemon.cpp:1256 kcmodule/CapabilitiesPage.cpp:160
 #: kcmodule/EditPage.cpp:160
 msgid "Dynamic (conservative)"
 msgstr "Zînde (mayînî)"
 
-#: daemon/PowerDevilDaemon.cpp:1258 kcmodule/CapabilitiesPage.cpp:164
+#: daemon/PowerDevilDaemon.cpp:1260 kcmodule/CapabilitiesPage.cpp:164
 #: kcmodule/EditPage.cpp:165
 msgid "Powersave"
 msgstr "Parastina Hêzê"
 
-#: daemon/PowerDevilDaemon.cpp:1262 kcmodule/CapabilitiesPage.cpp:168
+#: daemon/PowerDevilDaemon.cpp:1264 kcmodule/CapabilitiesPage.cpp:168
 #: kcmodule/EditPage.cpp:170
 msgid "Userspace"
 msgstr "Cihê Bikarhêner"
 
-#: daemon/PowerDevilDaemon.cpp:1275 kcmodule/GeneralPage.cpp:66
+#: daemon/PowerDevilDaemon.cpp:1277 kcmodule/GeneralPage.cpp:66
 #: kcmodule/CapabilitiesPage.cpp:128 kcmodule/EditPage.cpp:127
 #: kcmodule/EditPage.cpp:128 kcmodule/EditPage.cpp:129
 #: kcmodule/EditPage.cpp:130
 msgid "Suspend to Disk"
 msgstr "Ji Dîskê Bisekine"
 
-#: daemon/PowerDevilDaemon.cpp:1279 kcmodule/GeneralPage.cpp:70
+#: daemon/PowerDevilDaemon.cpp:1281 kcmodule/GeneralPage.cpp:70
 #: kcmodule/CapabilitiesPage.cpp:132 kcmodule/EditPage.cpp:134
 #: kcmodule/EditPage.cpp:135 kcmodule/EditPage.cpp:136
 #: kcmodule/EditPage.cpp:137
 msgid "Suspend to RAM"
 msgstr "Ji RAMê Bisekine"
 
-#: daemon/PowerDevilDaemon.cpp:1283 kcmodule/GeneralPage.cpp:74
+#: daemon/PowerDevilDaemon.cpp:1285 kcmodule/GeneralPage.cpp:74
 #: kcmodule/CapabilitiesPage.cpp:136 kcmodule/EditPage.cpp:141
 #: kcmodule/EditPage.cpp:142 kcmodule/EditPage.cpp:143
 #: kcmodule/EditPage.cpp:144
