@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: k3b\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-02-25 11:48+0100\n"
+"POT-Creation-Date: 2009-03-03 10:28+0100\n"
 "PO-Revision-Date: 2009-02-21 07:27+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -35,9 +35,8 @@ msgid "Filename (relative to base directory)"
 msgstr ""
 
 #: rip/k3baudioprojectconvertingdialog.cpp:130 rip/k3bvideocdview.cpp:173
-#: rip/k3baudiorippingdialog.cpp:294 rip/k3baudiotrackmodel.cpp:158
-#: rip/k3baudiocdlistview.cpp:37 k3bdiskinfoview.cpp:251
-#: k3baudioplayer.cpp:120
+#: rip/k3baudiorippingdialog.cpp:294 rip/k3baudiotrackmodel.cpp:160
+#: k3bdiskinfoview.cpp:251 k3baudioplayer.cpp:120
 msgid "Length"
 msgstr "Dirêjahî"
 
@@ -229,8 +228,7 @@ msgstr ""
 
 #. i18n: file: projects/base_k3bbootimageview.ui:74
 #. i18n: ectx: property (text), widget (K3ListView, m_viewImages)
-#: rip/k3bvideocdview.cpp:174 rip/k3baudiocdlistview.cpp:38 rc.cpp:741
-#: projects/k3bmovixlistview.cpp:176
+#: rip/k3bvideocdview.cpp:174 rc.cpp:741 projects/k3bmovixlistview.cpp:176
 msgid "Size"
 msgstr "Mezinahî"
 
@@ -605,7 +603,7 @@ msgstr ""
 
 #: rip/k3baudiorippingdialog.cpp:294
 #: rip/videodvd/k3bvideodvdrippingwidget.cpp:85 k3baudioplayer.cpp:119
-#: projects/k3bvcdlistview.cpp:93 projects/k3baudioprojectmodel.cpp:239
+#: projects/k3bvcdlistview.cpp:93 projects/k3baudioprojectmodel.cpp:241
 #: projects/k3bvcdtrackdialog.cpp:375
 msgid "Filename"
 msgstr "Navê Pelê"
@@ -808,7 +806,7 @@ msgstr "Bijare"
 #: rip/videodvd/k3bvideodvdrippingwidget.cpp:82
 #: rip/videodvd/k3bvideodvdrippingwidget.cpp:91
 #: rip/videodvd/k3bvideodvdrippingtitlelistview.cpp:341
-#: rip/k3baudiocdlistview.cpp:36 projects/k3bvcdlistview.cpp:85
+#: projects/k3bvcdlistview.cpp:85
 msgid "Title"
 msgstr "Sernivîs"
 
@@ -1106,16 +1104,16 @@ msgstr "Vîdeo"
 msgid "Subpicture"
 msgstr ""
 
-#: rip/k3baudiotrackmodel.cpp:152 projects/k3baudioprojectmodel.cpp:229
+#: rip/k3baudiotrackmodel.cpp:154 projects/k3baudioprojectmodel.cpp:231
 msgctxt "audio track number"
 msgid "No."
 msgstr "Na."
 
-#: rip/k3baudiotrackmodel.cpp:154 rip/k3baudiocdlistview.cpp:35
+#: rip/k3baudiotrackmodel.cpp:156
 msgid "Artist"
 msgstr "Hunermend"
 
-#: rip/k3baudiotrackmodel.cpp:156
+#: rip/k3baudiotrackmodel.cpp:158
 msgctxt "audio track title"
 msgid "Title"
 msgstr "Sernivîs"
@@ -1160,10 +1158,6 @@ msgstr "Rock"
 #: rip/categories.cpp:24
 msgid "Soundtrack"
 msgstr "Muzîka Fîlm"
-
-#: rip/k3baudiocdlistview.cpp:49
-msgid "Check the tracks that should be ripped"
-msgstr ""
 
 #: misc/k3bmediacopydialog.cpp:68
 msgid "Disk Copy"
@@ -6710,7 +6704,7 @@ msgstr "Pela Bin-nivîsê Lê Zêde Bike"
 msgid "Volume Name:"
 msgstr ""
 
-#: projects/k3bmovixview.cpp:164
+#: projects/k3bmovixview.cpp:165
 msgid "K3b currently only supports local files."
 msgstr ""
 
@@ -7931,7 +7925,7 @@ msgstr ""
 
 #: projects/k3bdataviewitem.cpp:235 projects/k3bmovixlistview.cpp:87
 #: projects/k3bmovixlistview.cpp:142 projects/k3bdatapropertiesdialog.cpp:211
-#: projects/k3bmovixprojectmodel.cpp:159
+#: projects/k3bmovixprojectmodel.cpp:182
 #, kde-format
 msgid "Link to %1"
 msgstr "Girêdan ji %1 re"
@@ -7944,20 +7938,20 @@ msgstr "root"
 msgid "From previous session"
 msgstr ""
 
-#: projects/k3baudioprojectmodel.cpp:231
+#: projects/k3baudioprojectmodel.cpp:233
 msgid "Artist (CD-Text)"
 msgstr "Hunermend (CD-Nivîs)"
 
-#: projects/k3baudioprojectmodel.cpp:233
+#: projects/k3baudioprojectmodel.cpp:235
 msgid "Title (CD-Text)"
 msgstr "Sernivîs (CD-Nivîs)"
 
-#: projects/k3baudioprojectmodel.cpp:235
+#: projects/k3baudioprojectmodel.cpp:237
 msgctxt "audio type like mp3 or whatever"
 msgid "Type"
 msgstr "Cure"
 
-#: projects/k3baudioprojectmodel.cpp:237
+#: projects/k3baudioprojectmodel.cpp:239
 msgctxt "audio track length"
 msgid "Length"
 msgstr "Dirêjahî"
@@ -8202,7 +8196,7 @@ msgid "Sequence-%1 - %2"
 msgstr "Dor-%1 - %2"
 
 #: projects/k3bmovixlistview.cpp:96 projects/k3bmovixlistview.cpp:153
-#: projects/k3bmovixprojectmodel.cpp:185
+#: projects/k3bmovixprojectmodel.cpp:208
 msgid " (broken)"
 msgstr " (şikestî)"
 
@@ -8761,32 +8755,32 @@ msgstr "Wêne"
 msgid "Use the 'Image' tab to optionally adjust the path of the image."
 msgstr ""
 
-#: projects/k3bmovixprojectmodel.cpp:202
+#: projects/k3bmovixprojectmodel.cpp:225
 msgctxt "Movix File Position"
 msgid "No."
 msgstr "Na."
 
-#: projects/k3bmovixprojectmodel.cpp:204
+#: projects/k3bmovixprojectmodel.cpp:227
 msgctxt "Movix File Title"
 msgid "Title"
 msgstr "Sernivîs"
 
-#: projects/k3bmovixprojectmodel.cpp:206
+#: projects/k3bmovixprojectmodel.cpp:229
 msgctxt "Movix File Type(ie. MPEG)"
 msgid "Type"
 msgstr "Cure"
 
-#: projects/k3bmovixprojectmodel.cpp:208
+#: projects/k3bmovixprojectmodel.cpp:231
 msgctxt "Movix File Size"
 msgid "Size"
 msgstr "Mezinahî"
 
-#: projects/k3bmovixprojectmodel.cpp:210
+#: projects/k3bmovixprojectmodel.cpp:233
 msgctxt "Movix File Path"
 msgid "Local Path"
 msgstr "Pelrêça Herêmî"
 
-#: projects/k3bmovixprojectmodel.cpp:212
+#: projects/k3bmovixprojectmodel.cpp:235
 msgctxt "Movix File Link"
 msgid "Link"
 msgstr "Girêdan"
@@ -9255,16 +9249,16 @@ msgstr ""
 msgid "No filename specified"
 msgstr ""
 
-#: ../plugins/encoder/external/k3bexternalencoder.cpp:198
+#: ../plugins/encoder/external/k3bexternalencoder.cpp:197
 msgid "Invalid command: the command is empty."
 msgstr ""
 
-#: ../plugins/encoder/external/k3bexternalencoder.cpp:222
+#: ../plugins/encoder/external/k3bexternalencoder.cpp:221
 #, kde-format
 msgid "Command failed: %1"
 msgstr "Fermana %1 bi ser neket"
 
-#: ../plugins/encoder/external/k3bexternalencoder.cpp:236
+#: ../plugins/encoder/external/k3bexternalencoder.cpp:244
 #, kde-format
 msgid "Could not find program '%1'"
 msgstr ""
