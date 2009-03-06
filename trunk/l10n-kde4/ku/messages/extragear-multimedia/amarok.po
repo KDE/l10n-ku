@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-05 10:41+0100\n"
+"POT-Creation-Date: 2009-03-06 10:25+0100\n"
 "PO-Revision-Date: 2009-02-21 06:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -24,7 +24,7 @@ msgstr ""
 "X-Poedit-SourceCharset: utf8\n"
 
 #: mac/GrowlInterface.cpp:34 context/engines/current/CurrentEngine.cpp:103
-#: context/applets/currenttrack/CurrentTrack.cpp:128 widgets/Osd.cpp:556
+#: context/applets/currenttrack/CurrentTrack.cpp:129 widgets/Osd.cpp:556
 msgid "No track playing"
 msgstr "Tu Stran Nayê Lêdan"
 
@@ -253,7 +253,7 @@ msgstr "Pelan Jê Bibe"
 #: collection/sqlcollection/OrganizeCollectionDialog.cpp:163
 #: browsers/collectionbrowser/CollectionTreeItem.cpp:153
 #: playlist/view/graphic/PlaylistGraphicsItem.cpp:343
-#: collectionscanner/CollectionScanner.cpp:733
+#: collectionscanner/CollectionScanner.cpp:739
 #: covermanager/CoverViewDialog.h:45 covermanager/CoverManager.cpp:852
 msgid "Various Artists"
 msgstr "Hunermendên cur bi cur"
@@ -409,40 +409,40 @@ msgstr "Daneya gotinê stranê nayê hev qetandin"
 
 #. i18n: file: dialogs/TagDialogBase.ui:502
 #. i18n: ectx: property (text), widget (QLabel, scoreLabel)
-#: context/applets/currenttrack/CurrentTrack.cpp:85
-#: context/applets/currenttrack/CurrentTrack.cpp:89
-#: context/applets/currenttrack/CurrentTrack.cpp:367
-#: context/applets/currenttrack/CurrentTrack.cpp:371 dialogs/TagDialog.cpp:883
+#: context/applets/currenttrack/CurrentTrack.cpp:86
+#: context/applets/currenttrack/CurrentTrack.cpp:90
+#: context/applets/currenttrack/CurrentTrack.cpp:389
+#: context/applets/currenttrack/CurrentTrack.cpp:393 dialogs/TagDialog.cpp:886
 #: rc.cpp:825
 msgid "Score:"
 msgstr "Rewş:"
 
-#: context/applets/currenttrack/CurrentTrack.cpp:86
-#: context/applets/currenttrack/CurrentTrack.cpp:90 dialogs/TagDialog.cpp:887
+#: context/applets/currenttrack/CurrentTrack.cpp:87
+#: context/applets/currenttrack/CurrentTrack.cpp:91 dialogs/TagDialog.cpp:890
 msgid "Play Count:"
 msgstr "Hejmara Lêdanan  :"
 
-#: context/applets/currenttrack/CurrentTrack.cpp:87
-#: context/applets/currenttrack/CurrentTrack.cpp:91
-#: context/applets/currenttrack/CurrentTrack.cpp:369
-#: context/applets/currenttrack/CurrentTrack.cpp:373 dialogs/TagDialog.cpp:892
+#: context/applets/currenttrack/CurrentTrack.cpp:88
+#: context/applets/currenttrack/CurrentTrack.cpp:92
+#: context/applets/currenttrack/CurrentTrack.cpp:391
+#: context/applets/currenttrack/CurrentTrack.cpp:395 dialogs/TagDialog.cpp:895
 msgctxt "a single item (singular)"
 msgid "Last Played:"
 msgstr "Lêdanên Dawî yê:"
 
-#: context/applets/currenttrack/CurrentTrack.cpp:138
+#: context/applets/currenttrack/CurrentTrack.cpp:139
 #: playlist/PlaylistDefines.h:85
 msgid "Last played"
 msgstr "Yê dawî hatiye lêdan"
 
-#: context/applets/currenttrack/CurrentTrack.cpp:139
+#: context/applets/currenttrack/CurrentTrack.cpp:140
 #, fuzzy
 #| msgid "Favourite tracks"
 msgid "Favorite tracks"
 msgstr "Stranên Bijarte"
 
-#: context/applets/currenttrack/CurrentTrack.cpp:368
-#: context/applets/currenttrack/CurrentTrack.cpp:372
+#: context/applets/currenttrack/CurrentTrack.cpp:390
+#: context/applets/currenttrack/CurrentTrack.cpp:394
 msgid "Playcount:"
 msgstr "Hejmara lêdanê:"
 
@@ -494,7 +494,7 @@ msgid_plural "%1 tracks"
 msgstr[0] "%1 stran"
 msgstr[1] "%1 stranan "
 
-#: context/applets/lyrics/LyricsApplet.cpp:52 dialogs/TagDialog.cpp:562
+#: context/applets/lyrics/LyricsApplet.cpp:52 dialogs/TagDialog.cpp:565
 msgid "Lyrics"
 msgstr "Gotin"
 
@@ -1113,7 +1113,7 @@ msgstr "Naverok"
 msgid "Single"
 msgstr "Yekane"
 
-#: dialogs/PlaylistLayoutEditDialog.cpp:120
+#: dialogs/PlaylistLayoutEditDialog.cpp:163
 #, kde-format
 msgid ""
 "The layout '%1' is one of the default layouts and cannot be overwritten. "
@@ -1122,7 +1122,7 @@ msgstr ""
 "Nişteciha '%1' niştecihekî standard e û ser nayê nivîsîn. Jê kerema xwe "
 "navekî cuda hilbijêre."
 
-#: dialogs/PlaylistLayoutEditDialog.cpp:122
+#: dialogs/PlaylistLayoutEditDialog.cpp:165
 msgid "Reserved Layout Name"
 msgstr "Navê Nişteciha Hatibû Hilbijartin"
 
@@ -1205,101 +1205,101 @@ msgctxt "Track has been imported, format: Artist - Track (Album)"
 msgid "Imported <b>%1 - %2 (%3)</b>"
 msgstr "Hat veguhastin <b>%1 - %2 (%3)</b>"
 
-#: dialogs/TagDialog.cpp:471
+#: dialogs/TagDialog.cpp:474
 msgid "Filename Layout Chooser"
 msgstr "Bijarkerê Bicihbûna Navê-pelê "
 
-#: dialogs/TagDialog.cpp:560 browsers/playlistbrowser/PodcastModel.cpp:283
+#: dialogs/TagDialog.cpp:563 browsers/playlistbrowser/PodcastModel.cpp:283
 msgid "Summary"
 msgstr "Kurte"
 
-#: dialogs/TagDialog.cpp:561
+#: dialogs/TagDialog.cpp:564
 msgid "Tags"
 msgstr "Etîket"
 
-#: dialogs/TagDialog.cpp:563
+#: dialogs/TagDialog.cpp:566
 msgid "Statistics"
 msgstr "Statistîk"
 
-#: dialogs/TagDialog.cpp:565
+#: dialogs/TagDialog.cpp:568
 msgid "Labels"
 msgstr "Etîket"
 
-#: dialogs/TagDialog.cpp:691
+#: dialogs/TagDialog.cpp:694
 msgctxt "The value for this tag is not known"
 msgid "Unknown"
 msgstr "Nenas"
 
-#: dialogs/TagDialog.cpp:811
+#: dialogs/TagDialog.cpp:814
 #, kde-format
 msgid "Track Details: %1 by %2"
 msgstr "Kitekitên Stranê: %1 alî yê %2"
 
-#: dialogs/TagDialog.cpp:835 dialogs/TagDialog.cpp:845
+#: dialogs/TagDialog.cpp:838 dialogs/TagDialog.cpp:848
 #, kde-format
 msgid "<b>%1</b> by <b>%2</b>"
 msgstr "<b>%1</b> alî yê <b>%2</b>"
 
-#: dialogs/TagDialog.cpp:843
+#: dialogs/TagDialog.cpp:846
 #, kde-format
 msgid "<b>%1</b> by <b>%2</b> on <b>%3</b>"
 msgstr "<b>%1</b> alî yê <b>%2</b> di <b>%3</b> de"
 
-#: dialogs/TagDialog.cpp:847
+#: dialogs/TagDialog.cpp:850
 #, kde-format
 msgid "<b>%1</b>"
 msgstr "<b>%1</b>"
 
-#: dialogs/TagDialog.cpp:876
+#: dialogs/TagDialog.cpp:879
 msgid "Length:"
 msgstr "Mawe:"
 
-#: dialogs/TagDialog.cpp:877
+#: dialogs/TagDialog.cpp:880
 msgid "Bitrate:"
 msgstr "Leza bit:"
 
-#: dialogs/TagDialog.cpp:878
+#: dialogs/TagDialog.cpp:881
 msgid "Samplerate:"
 msgstr "Leza Mînak:"
 
-#: dialogs/TagDialog.cpp:879
+#: dialogs/TagDialog.cpp:882
 msgid "Size:"
 msgstr "Mezinahî:"
 
-#: dialogs/TagDialog.cpp:880
+#: dialogs/TagDialog.cpp:883
 msgid "Format:"
 msgstr "Teşe:"
 
 #. i18n: file: dialogs/TagDialogBase.ui:531
 #. i18n: ectx: property (text), widget (QLabel, ratingLabel)
-#: dialogs/TagDialog.cpp:885 rc.cpp:828
+#: dialogs/TagDialog.cpp:888 rc.cpp:828
 msgid "Rating:"
 msgstr "Ecibandin:"
 
-#: dialogs/TagDialog.cpp:890
+#: dialogs/TagDialog.cpp:893
 msgid "First Played:"
 msgstr "Lêdana Pêşîn:"
 
-#: dialogs/TagDialog.cpp:891
+#: dialogs/TagDialog.cpp:894
 msgctxt "When this track was first played"
 msgid "Never"
 msgstr "Tu car"
 
-#: dialogs/TagDialog.cpp:893
+#: dialogs/TagDialog.cpp:896
 msgctxt "When this track was last played"
 msgid "Never"
 msgstr "Tu car"
 
-#: dialogs/TagDialog.cpp:894
+#: dialogs/TagDialog.cpp:897
 msgid "Collection:"
 msgstr "Berhevok:"
 
-#: dialogs/TagDialog.cpp:895
+#: dialogs/TagDialog.cpp:898
 msgctxt "The collection this track is part of"
 msgid "None"
 msgstr "Ne Yek Jî"
 
-#: dialogs/TagDialog.cpp:1015
+#: dialogs/TagDialog.cpp:1018
 #, kde-format
 msgctxt "The amount of tracks being edited"
 msgid "1 Track"
@@ -1307,26 +1307,26 @@ msgid_plural "Information for %1 Tracks"
 msgstr[0] "1 Track"
 msgstr[1] "Agahî ji bo %1 Stranan"
 
-#: dialogs/TagDialog.cpp:1130
+#: dialogs/TagDialog.cpp:1133
 #, kde-format
 msgid "Editing 1 file"
 msgid_plural "Editing %1 files"
 msgstr[0] "1 pel tê guherandin"
 msgstr[1] "%1 pel tên guherandin"
 
-#: dialogs/TagDialog.cpp:1135
+#: dialogs/TagDialog.cpp:1138
 msgid "Rated Songs:"
 msgstr "Stranên Ecibandî:"
 
-#: dialogs/TagDialog.cpp:1137
+#: dialogs/TagDialog.cpp:1140
 msgid "Average Rating:"
 msgstr "Ecibandina Kêm-zêde:"
 
-#: dialogs/TagDialog.cpp:1139
+#: dialogs/TagDialog.cpp:1142
 msgid "Scored Songs:"
 msgstr "Stranên Pêşniyazkirî:"
 
-#: dialogs/TagDialog.cpp:1141
+#: dialogs/TagDialog.cpp:1144
 msgid "Average Score:"
 msgstr "Skora Kêm-zêde:"
 
@@ -6770,6 +6770,19 @@ msgstr "Piştî Vê Stranê Lêdanê Raweste"
 #: playlist/view/PlaylistViewCommon.cpp:82
 msgid "Remove From Playlist"
 msgstr "Jê Lîsteya Lêdanê Rake"
+
+#: playlist/view/listview/SourceSelectionPopup.cpp:38
+#, fuzzy
+#| msgid "No information available for this track"
+msgid "The following sources are available for this track:"
+msgstr "Ji bo vê skrîptê agahî tune ye"
+
+#: playlist/view/listview/SourceSelectionPopup.cpp:43
+#, fuzzy
+#| msgctxt "The quality of music"
+#| msgid "Okay"
+msgid "Ok"
+msgstr "Temam"
 
 #: playlist/view/PlaylistViewCommon.cpp:79
 msgid "Stop Playing After Track"
