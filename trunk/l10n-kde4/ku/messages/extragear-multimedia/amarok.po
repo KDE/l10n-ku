@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-06 10:25+0100\n"
+"POT-Creation-Date: 2009-03-07 10:34+0100\n"
 "PO-Revision-Date: 2009-02-21 06:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -236,7 +236,7 @@ msgstr "Berhevoka Nepomuk (hêdî, Redland)"
 msgid "Local Collection"
 msgstr "Berhevoka Herêmî "
 
-#: collection/sqlcollection/SqlCollection.cpp:350
+#: collection/sqlcollection/SqlCollection.cpp:349
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -246,7 +246,7 @@ msgstr ""
 "Tu bi rastî dixwazî wan stranên %1 jê bibî? Ev wê ji dîska we û berhevoka we "
 "bên rakirin."
 
-#: collection/sqlcollection/SqlCollection.cpp:354
+#: collection/sqlcollection/SqlCollection.cpp:353
 msgid "Delete Files"
 msgstr "Pelan Jê Bibe"
 
@@ -1101,19 +1101,19 @@ msgstr "Peldank"
 
 #. i18n: file: dialogs/PlaylistLayoutEditDialog.ui:216
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: dialogs/PlaylistLayoutEditDialog.cpp:69 rc.cpp:740
+#: dialogs/PlaylistLayoutEditDialog.cpp:70 rc.cpp:740
 msgid "Head"
 msgstr "Sernav"
 
-#: dialogs/PlaylistLayoutEditDialog.cpp:70
+#: dialogs/PlaylistLayoutEditDialog.cpp:71
 msgid "Body"
 msgstr "Naverok"
 
-#: dialogs/PlaylistLayoutEditDialog.cpp:71
+#: dialogs/PlaylistLayoutEditDialog.cpp:72
 msgid "Single"
 msgstr "Yekane"
 
-#: dialogs/PlaylistLayoutEditDialog.cpp:163
+#: dialogs/PlaylistLayoutEditDialog.cpp:164
 #, kde-format
 msgid ""
 "The layout '%1' is one of the default layouts and cannot be overwritten. "
@@ -1122,7 +1122,7 @@ msgstr ""
 "Nişteciha '%1' niştecihekî standard e û ser nayê nivîsîn. Jê kerema xwe "
 "navekî cuda hilbijêre."
 
-#: dialogs/PlaylistLayoutEditDialog.cpp:165
+#: dialogs/PlaylistLayoutEditDialog.cpp:166
 msgid "Reserved Layout Name"
 msgstr "Navê Nişteciha Hatibû Hilbijartin"
 
@@ -2306,12 +2306,6 @@ msgstr "&Kitekitên Stranê Biguherîne"
 msgctxt "Organize Files"
 msgid "Organize Files"
 msgstr "Rêxistina Pelan"
-
-#: browsers/collectionbrowser/CollectionTreeView.cpp:965
-#, kde-format
-msgctxt "@info"
-msgid "Do you really want to delete these %1 tracks?"
-msgstr "Tu bi rastî dixwazî wan stranên %1 jê bibî?"
 
 #: browsers/collectionbrowser/CollectionTreeItemModelBase.cpp:526
 msgid "album"
@@ -6874,17 +6868,17 @@ msgstr ""
 msgid "Cannot Delete Default Layouts"
 msgstr ""
 
+#: playlist/layouts/LayoutConfigAction.cpp:67
+#, fuzzy
+#| msgid "Configure Applets..."
+msgid "Configure playlist layouts..."
+msgstr "Sepanokan Veava Bike..."
+
 #: playlist/PlaylistHeader.cpp:42
 msgid "Track Number - Title"
 msgstr "Hejmara Stranê - Sernav"
 
-#: playlist/PlaylistWidget.cpp:106
-#, fuzzy
-#| msgid "Playlist name:"
-msgid "Playlist layout:"
-msgstr "Navê Lîsteya Lêdanê:"
-
-#: playlist/PlaylistWidget.cpp:133
+#: playlist/PlaylistWidget.cpp:126
 msgid "Show active track"
 msgstr "Stranên çalak nîşan bide"
 
@@ -7234,18 +7228,6 @@ msgstr "Hunermend \"%1\""
 msgid "Volume Control"
 msgstr "Kontrola Dengê"
 
-#: widgets/ProgressSlider.cpp:46
-msgid "Track Progress"
-msgstr "Pêşveçûna Stranê"
-
-#: widgets/ProgressSlider.cpp:50
-msgid "The amount of time elapsed in current song"
-msgstr ""
-
-#: widgets/ProgressSlider.cpp:54
-msgid "The amount of time remaining in current song"
-msgstr ""
-
 #: widgets/Osd.cpp:118
 msgid "Rating changed"
 msgstr "Ecibandin guherî "
@@ -7396,6 +7378,18 @@ msgstr "Ji bo zêdetir analîzkeran bitikîne"
 #: widgets/AnalyzerWidget.cpp:67
 msgid "&Visualizations"
 msgstr "&Zindîkirin"
+
+#: widgets/ProgressWidget.cpp:46
+msgid "Track Progress"
+msgstr "Pêşveçûna Stranê"
+
+#: widgets/ProgressWidget.cpp:50
+msgid "The amount of time elapsed in current song"
+msgstr ""
+
+#: widgets/ProgressWidget.cpp:54
+msgid "The amount of time remaining in current song"
+msgstr ""
 
 #: widgets/BookmarkPopup.cpp:40 widgets/BookmarkPopup.cpp:83
 msgid "Bookmark"
@@ -7853,6 +7847,15 @@ msgstr "Wêneya Rûgirê"
 #: covermanager/CoverManager.cpp:873
 msgid "No Artist"
 msgstr "Hunermend Tune ye "
+
+#~ msgctxt "@info"
+#~ msgid "Do you really want to delete these %1 tracks?"
+#~ msgstr "Tu bi rastî dixwazî wan stranên %1 jê bibî?"
+
+#, fuzzy
+#~| msgid "Playlist name:"
+#~ msgid "Playlist layout:"
+#~ msgstr "Navê Lîsteya Lêdanê:"
 
 #, fuzzy
 #~| msgid "Amarok"
