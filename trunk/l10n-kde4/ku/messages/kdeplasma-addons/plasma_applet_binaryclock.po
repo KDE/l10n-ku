@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_binaryclock\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-02-14 11:45+0100\n"
+"POT-Creation-Date: 2009-03-09 11:01+0100\n"
 "PO-Revision-Date: 2009-01-11 17:09+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -37,8 +37,10 @@ msgstr "LEDên Çalak:"
 #. i18n: file: clockConfig.ui:47
 #. i18n: ectx: property (text), widget (QRadioButton, onLedsCustomColorRadioButton)
 #: rc.cpp:9
-msgid "Use custom on leds color:"
-msgstr "Di rengê ledan de taybe bi kar bîne:"
+#, fuzzy
+#| msgid "Use custom grid color:"
+msgid "Use custom color for active LEDs:"
+msgstr "Rengê taybet yê izxere yê bi kar bîne:"
 
 #. i18n: file: clockConfig.ui:88
 #. i18n: ectx: property (text), widget (QLabel, label_4)
@@ -49,13 +51,17 @@ msgstr "LEDên Neçalak:"
 #. i18n: file: clockConfig.ui:98
 #. i18n: ectx: property (toolTip), widget (QCheckBox, showOffLedsCheckBox)
 #: rc.cpp:15
-msgid "Show the off leds"
-msgstr "Ledên girtî nîşan bide"
+#, fuzzy
+#| msgid "Inactive LEDs:"
+msgid "Show the inactive LEDs"
+msgstr "LEDên Neçalak:"
 
 #. i18n: file: clockConfig.ui:101
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, showOffLedsCheckBox)
 #: rc.cpp:18
-msgid "Check this if you want to see off leds."
+#, fuzzy
+#| msgid "Check this if you want to see off leds."
+msgid "Check this if you want to see the inactive LEDs."
 msgstr "Heke tu dixwazî ledên girtî bibînî vê hilbijêre."
 
 #. i18n: file: clockConfig.ui:104
@@ -81,8 +87,8 @@ msgstr "Rengê dirbê bi kar bîne"
 #. i18n: file: clockConfig.ui:129
 #. i18n: ectx: property (text), widget (QRadioButton, offLedsCustomColorRadioButton)
 #: rc.cpp:27
-msgid "Use custom off leds color:"
-msgstr "Rengê taybet yê ledên girtî bi kar bîne:"
+msgid "Use custom color for inactive LEDs:"
+msgstr ""
 
 #. i18n: file: clockConfig.ui:170
 #. i18n: ectx: property (text), widget (QLabel, label_3)
@@ -123,13 +129,27 @@ msgstr "Çirkan:"
 #. i18n: file: clockConfig.ui:289
 #. i18n: ectx: property (toolTip), widget (QCheckBox, showSecondHandCheckBox)
 #: rc.cpp:57
-msgid "Show the second leds"
+#, fuzzy
+#| msgid "Show the second leds"
+msgid "Show the seconds LEDs"
 msgstr "Ledên duyemîn nîşan bide"
 
 #. i18n: file: clockConfig.ui:292
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, showSecondHandCheckBox)
 #: rc.cpp:60
+#, fuzzy
+#| msgid ""
+#| "Check this if you want to display second leds in order to see the seconds."
 msgid ""
-"Check this if you want to display second leds in order to see the seconds."
+"Check this if you want to display seconds LEDs in order to see the seconds."
 msgstr ""
 "Heke tu dixwazî ledên duyemîn nîşan bidî ku yên duyemîn bibînî vê hilbijêre."
+
+#~ msgid "Use custom on leds color:"
+#~ msgstr "Di rengê ledan de taybe bi kar bîne:"
+
+#~ msgid "Show the off leds"
+#~ msgstr "Ledên girtî nîşan bide"
+
+#~ msgid "Use custom off leds color:"
+#~ msgstr "Rengê taybet yê ledên girtî bi kar bîne:"
