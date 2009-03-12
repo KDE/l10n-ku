@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kopete\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-06 10:19+0100\n"
+"POT-Creation-Date: 2009-03-12 10:23+0100\n"
 "PO-Revision-Date: 2008-06-22 23:57+0200\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <ku@li.org>\n"
@@ -1088,13 +1088,9 @@ msgstr "%2 <%1>"
 #: libkopete/private/kopeteactivenotification.cpp:42
 #, fuzzy, kde-format
 msgid "+ %1 more message"
-msgstr "%1 peyam dinivîsîne"
-
-#: libkopete/private/kopeteactivenotification.cpp:42
-#, fuzzy, kde-format
-#| msgid "Error messages:"
-msgid "+ %1 more messages"
-msgstr "Peyamên çewtiyê:"
+msgid_plural "+ %1 more messages"
+msgstr[0] "%1 peyam dinivîsîne"
+msgstr[1] "%1 peyam dinivîsîne"
 
 #: libkopete/private/kopeteviewmanager.cpp:312
 #, fuzzy, kde-format
@@ -22204,6 +22200,11 @@ msgid ""
 "Unable to connect to the local mDNS server. Please ensure the Avahi daemon "
 "is running."
 msgstr ""
+
+#, fuzzy
+#~| msgid "Error messages:"
+#~ msgid "+ %1 more messages"
+#~ msgstr "Peyamên çewtiyê:"
 
 #, fuzzy
 #~ msgid "toolBar"
