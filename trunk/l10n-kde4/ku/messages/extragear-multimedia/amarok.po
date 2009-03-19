@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-18 11:01+0100\n"
+"POT-Creation-Date: 2009-03-19 10:33+0100\n"
 "PO-Revision-Date: 2009-02-21 06:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -23,7 +23,7 @@ msgstr ""
 "X-Poedit-Language: Kurdish\n"
 "X-Poedit-SourceCharset: utf8\n"
 
-#: mac/GrowlInterface.cpp:34 context/engines/current/CurrentEngine.cpp:103
+#: mac/GrowlInterface.cpp:34 context/engines/current/CurrentEngine.cpp:112
 #: context/applets/currenttrack/CurrentTrack.cpp:129 widgets/Osd.cpp:556
 msgid "No track playing"
 msgstr "Tu Stran Nayê Lêdan"
@@ -344,7 +344,7 @@ msgstr ""
 "<p>Tu dikarî MySQL veava bikî di beşa Berhevok de bin Mîheng->Amarok Veava "
 "Bike</p>"
 
-#: collection/CollectionManager.cpp:122
+#: collection/CollectionManager.cpp:123
 msgid ""
 "<p>Amarok could not find any collection plugins. Amarok is now updating the "
 "KDE configuration database. Please wait a couple of minutes, then restart "
@@ -357,12 +357,12 @@ msgid ""
 "freenode.net.</p>"
 msgstr ""
 
-#: context/engines/current/CurrentEngine.cpp:108
+#: context/engines/current/CurrentEngine.cpp:117
 #: context/applets/albums/Albums.cpp:57
 msgid "Recently added albums"
 msgstr "Albumên herî dawî lê hatine zêdekirin "
 
-#: context/engines/current/CurrentEngine.cpp:241
+#: context/engines/current/CurrentEngine.cpp:250
 #, kde-format
 msgid "Albums by %1"
 msgstr "Album alî yê %1"
@@ -448,7 +448,7 @@ msgstr "Hejmara lêdanê:"
 
 #: context/applets/albums/AlbumsView.cpp:109 Systray.cpp:219
 #: browsers/collectionbrowser/CollectionTreeView.cpp:596
-#: browsers/filebrowser/MyDirOperator.cpp:247
+#: browsers/filebrowser/MyDirOperator.cpp:259
 #: browsers/playlistbrowser/UserPlaylistModel.cpp:382
 #: browsers/playlistbrowser/PodcastModel.cpp:692
 #: services/lastfm/LastFmTreeView.cpp:116
@@ -457,7 +457,7 @@ msgstr "&Bixe ser Lîsteya Lêdanê"
 
 #: context/applets/albums/AlbumsView.cpp:110
 #: browsers/collectionbrowser/CollectionTreeView.cpp:604
-#: browsers/filebrowser/MyDirOperator.cpp:248
+#: browsers/filebrowser/MyDirOperator.cpp:260
 #: browsers/playlistbrowser/UserPlaylistModel.cpp:388
 #: browsers/playlistbrowser/PodcastModel.cpp:705
 #: services/lastfm/LastFmTreeView.cpp:124
@@ -471,8 +471,8 @@ msgid "&Queue"
 msgstr "&Rêz bike"
 
 #: context/applets/albums/AlbumsView.cpp:112
-#: browsers/filebrowser/MyDirOperator.cpp:249
-#: playlist/view/listview/PrettyListView.cpp:502
+#: browsers/filebrowser/MyDirOperator.cpp:261
+#: playlist/view/listview/PrettyListView.cpp:503
 #: playlist/view/PlaylistViewCommon.cpp:84
 msgid "Edit Track Details"
 msgstr "&Kitekitên Stranê Biguherîne"
@@ -1160,8 +1160,14 @@ msgstr "Navê niştecih"
 
 #: dialogs/PlaylistLayoutEditDialog.cpp:140
 #: dialogs/PlaylistLayoutEditDialog.cpp:178
-msgid "Can't create a layout with no name."
+#, fuzzy
+#| msgid ""
+#| "Sorry, you cannot define two devices\n"
+#| "with the same name and mountpoint!"
+msgid "Cannot create a layout with no name."
 msgstr ""
+"Lêborîne, tu nikarî du cîhazan bi eynî\n"
+"nav û xala girêdanê ve dîyar bikî!"
 
 #: dialogs/PlaylistLayoutEditDialog.cpp:142
 #: dialogs/PlaylistLayoutEditDialog.cpp:180
@@ -1169,7 +1175,7 @@ msgstr ""
 #| msgid ""
 #| "Sorry, you cannot define two devices\n"
 #| "with the same name and mountpoint!"
-msgid "Can't create a layout with the same name as an existing layout."
+msgid "Cannot create a layout with the same name as an existing layout."
 msgstr ""
 "Lêborîne, tu nikarî du cîhazan bi eynî\n"
 "nav û xala girêdanê ve dîyar bikî!"
@@ -1195,19 +1201,25 @@ msgstr ""
 #: dialogs/PlaylistLayoutEditDialog.cpp:223
 #, fuzzy
 #| msgid "Enter a name for the playlist:"
-msgid "Can't rename one of the default layouts."
+msgid "Cannot rename one of the default layouts."
 msgstr "Ji bo lîsteya lêdanê navekî binivîse:"
 
 #: dialogs/PlaylistLayoutEditDialog.cpp:227
-msgid "Can't rename a layout with no name."
+#, fuzzy
+#| msgid ""
+#| "Sorry, you cannot define two devices\n"
+#| "with the same name and mountpoint!"
+msgid "Cannot rename a layout to have no name."
 msgstr ""
+"Lêborîne, tu nikarî du cîhazan bi eynî\n"
+"nav û xala girêdanê ve dîyar bikî!"
 
 #: dialogs/PlaylistLayoutEditDialog.cpp:229
 #, fuzzy
 #| msgid ""
 #| "Sorry, you cannot define two devices\n"
 #| "with the same name and mountpoint!"
-msgid "Can't rename a layout with the same name as an existing layout."
+msgid "Cannot rename a layout to have the same name as an existing layout."
 msgstr ""
 "Lêborîne, tu nikarî du cîhazan bi eynî\n"
 "nav û xala girêdanê ve dîyar bikî!"
@@ -7046,38 +7058,38 @@ msgid_plural "%1 artists."
 msgstr[0] "hunermend"
 msgstr[1] "hunermend"
 
-#: playlist/view/listview/PrettyListView.cpp:462
+#: playlist/view/listview/PrettyListView.cpp:463
 #: playlist/view/PlaylistViewCommon.cpp:54
 #: playlist/view/PlaylistViewCommon.cpp:63
 msgid "&Play"
 msgstr "&Bilîze"
 
-#: playlist/view/listview/PrettyListView.cpp:465
+#: playlist/view/listview/PrettyListView.cpp:466
 #: playlist/view/PlaylistViewCommon.cpp:54
 msgid "&Pause"
 msgstr "&Bide Sekinandin "
 
-#: playlist/view/listview/PrettyListView.cpp:477
+#: playlist/view/listview/PrettyListView.cpp:478
 #, fuzzy
 #| msgid "Select Importer"
 msgid "Select Source"
 msgstr "Guhêzer Hilbijêre"
 
-#: playlist/view/listview/PrettyListView.cpp:482
+#: playlist/view/listview/PrettyListView.cpp:483
 #: playlist/view/PlaylistViewCommon.cpp:75
 msgid "Queue Track"
 msgstr "Stran Rêz Kirî"
 
-#: playlist/view/listview/PrettyListView.cpp:485
+#: playlist/view/listview/PrettyListView.cpp:486
 #: playlist/view/PlaylistViewCommon.cpp:77
 msgid "Dequeue Track"
 msgstr "Stran Ne-Rêz Kirî"
 
-#: playlist/view/listview/PrettyListView.cpp:494
+#: playlist/view/listview/PrettyListView.cpp:495
 msgid "Stop Playing After This Track"
 msgstr "Piştî Vê Stranê Lêdanê Raweste"
 
-#: playlist/view/listview/PrettyListView.cpp:498
+#: playlist/view/listview/PrettyListView.cpp:499
 #: playlist/view/PlaylistViewCommon.cpp:82
 msgid "Remove From Playlist"
 msgstr "Jê Lîsteya Lêdanê Rake"
