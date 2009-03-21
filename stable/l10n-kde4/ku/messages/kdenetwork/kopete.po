@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kopete\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-17 06:21+0100\n"
+"POT-Creation-Date: 2009-03-21 06:17+0100\n"
 "PO-Revision-Date: 2008-06-22 23:57+0200\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <ku@li.org>\n"
@@ -2113,6 +2113,7 @@ msgid ""
 msgstr "Dema ku cureyê paceya sohbetê dihat daxistin çewtiyek derket holê."
 
 #: kopete/config/chatwindow/chatwindowconfig.cpp:425
+#: protocols/yahoo/libkyahoo/sendfiletask.cpp:103
 #, fuzzy
 #| msgid "Unknown error."
 msgid "Unknown error"
@@ -2719,115 +2720,115 @@ msgstr "Amade."
 msgid "&Send Message"
 msgstr "Peyamê &Bişeyine"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:363
+#: kopete/chatwindow/kopetechatwindow.cpp:366
 msgid "Send File"
 msgstr "Pelekî Bişîne"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:371
+#: kopete/chatwindow/kopetechatwindow.cpp:374
 msgid "Close All Chats"
 msgstr "Hemû Chatan Bigire"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:376
+#: kopete/chatwindow/kopetechatwindow.cpp:379
 #, fuzzy
 #| msgid "&Activate Next Tab"
 msgid "&Activate Next Active Tab"
 msgstr "Hilpekîna di Rêxê de &Çalak Bike"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:382
+#: kopete/chatwindow/kopetechatwindow.cpp:385
 msgid "&Activate Next Tab"
 msgstr "Hilpekîna di Rêxê de &Çalak Bike"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:388
+#: kopete/chatwindow/kopetechatwindow.cpp:391
 msgid "&Activate Previous Tab"
 msgstr "Hilpekîna Berê ya &Çalak"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:396
+#: kopete/chatwindow/kopetechatwindow.cpp:399
 msgid "Nic&k Completion"
 msgstr "Temamkirina Nick"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:400
+#: kopete/chatwindow/kopetechatwindow.cpp:403
 msgid "&Detach Chat"
 msgstr "Sohbetê Biqedîne"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:405
+#: kopete/chatwindow/kopetechatwindow.cpp:408
 msgid "&Move Tab to Window"
 msgstr "Hilpekînê Bibe Paceyê"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:412
+#: kopete/chatwindow/kopetechatwindow.cpp:415
 msgid "&Tab Placement"
 msgstr "Bicihkirina &Hilpekînan"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:424
+#: kopete/chatwindow/kopetechatwindow.cpp:427
 #, fuzzy
 #| msgid "&Set Font..."
 msgid "Set &Font..."
 msgstr "Fontê &Mîheng Bike..."
 
-#: kopete/chatwindow/kopetechatwindow.cpp:428
+#: kopete/chatwindow/kopetechatwindow.cpp:431
 msgid "Reset Font And Color"
 msgstr ""
 
-#: kopete/chatwindow/kopetechatwindow.cpp:432
+#: kopete/chatwindow/kopetechatwindow.cpp:435
 #: kopete/chatwindow/kopeteemailwindow.cpp:236
 msgid "Set Text &Color..."
 msgstr "&Rengê Nivîsê Mîheng Bike..."
 
-#: kopete/chatwindow/kopetechatwindow.cpp:436
+#: kopete/chatwindow/kopetechatwindow.cpp:439
 #: kopete/chatwindow/kopeteemailwindow.cpp:240
 msgid "Set &Background Color..."
 msgstr "Rengê Rûerdê Mîheng Bike..."
 
-#: kopete/chatwindow/kopetechatwindow.cpp:440
+#: kopete/chatwindow/kopetechatwindow.cpp:443
 #: kopete/chatwindow/krichtexteditpart.cpp:259
 msgid "Enable &Rich Text"
 msgstr "Deqa &Zengîn Çalak Bike"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:444
+#: kopete/chatwindow/kopetechatwindow.cpp:447
 msgid "Previous History"
 msgstr "Dîrokê Nîşan Bide"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:449
+#: kopete/chatwindow/kopetechatwindow.cpp:452
 msgid "Next History"
 msgstr "Dîroka Din"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:461
+#: kopete/chatwindow/kopetechatwindow.cpp:464
 msgid "Automatic Spell Checking"
 msgstr "Kontrolkirina Bixweber a Rastnivîsandinê"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:467
+#: kopete/chatwindow/kopetechatwindow.cpp:470
 msgid "Show Participants"
 msgstr ""
 
-#: kopete/chatwindow/kopetechatwindow.cpp:468
+#: kopete/chatwindow/kopetechatwindow.cpp:471
 #, fuzzy
 msgid "Participants"
 msgstr "Beş"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:477
+#: kopete/chatwindow/kopetechatwindow.cpp:480
 msgid "Co&ntacts"
 msgstr "Têkilî"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:500
+#: kopete/chatwindow/kopetechatwindow.cpp:503
 #: kopete/chatwindow/kopeteemailwindow.cpp:272
 msgid "Toolbar Animation"
 msgstr "Anîmasyona Şiva Amûran"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:678
+#: kopete/chatwindow/kopetechatwindow.cpp:681
 #, fuzzy
 msgctxt "@info:tooltip"
 msgid "Close the current tab"
 msgstr "Hilpekîna derbasdar bigire"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:1111
+#: kopete/chatwindow/kopetechatwindow.cpp:1114
 msgid "More..."
 msgstr "Zêdetir..."
 
-#: kopete/chatwindow/kopetechatwindow.cpp:1127
+#: kopete/chatwindow/kopetechatwindow.cpp:1130
 #, fuzzy
 msgid "Top"
 msgstr "Mijar"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:1130
+#: kopete/chatwindow/kopetechatwindow.cpp:1133
 msgid "Bottom"
 msgstr ""
 
@@ -19487,7 +19488,13 @@ msgstr "ID'a bikarhêner ne derbasdar e."
 msgid "An unknown error occurred while joining the chat room."
 msgstr "Dema ku cureyê paceya sohbetê dihat daxistin çewtiyek derket holê."
 
-#: protocols/yahoo/libkyahoo/sendfiletask.cpp:94
+#: protocols/yahoo/libkyahoo/sendfiletask.cpp:145
+#, fuzzy
+#| msgid "Unable to connect to server."
+msgid "Unable to connect to file transfer server"
+msgstr "Bi pêşkêşkerê re girêdan pêk nehat."
+
+#: protocols/yahoo/libkyahoo/sendfiletask.cpp:210
 #, fuzzy
 msgid "An error occurred while sending the file."
 msgstr "Dema ku wêne dihat guhartin çewstiyek derket."
