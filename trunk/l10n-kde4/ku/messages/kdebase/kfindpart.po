@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfindpart\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-02 09:58+0100\n"
+"POT-Creation-Date: 2009-03-21 11:05+0100\n"
 "PO-Revision-Date: 2009-01-06 14:31+0200\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -25,7 +25,7 @@ msgstr "Pel/Peldankan Bibîne"
 msgid "Ready."
 msgstr "Amade."
 
-#: kfinddlg.cpp:114 kfinddlg.cpp:219
+#: kfinddlg.cpp:114 kfinddlg.cpp:218 kfinddlg.cpp:247
 #, kde-format
 msgid "one file found"
 msgid_plural "%1 files found"
@@ -330,97 +330,83 @@ msgstr ""
 msgid "Do Not Set"
 msgstr ""
 
-#: kfwin.cpp:49
+#: kfwin.cpp:31
 msgid "Read-write"
 msgstr "Xwendin-nivîsîn"
 
-#: kfwin.cpp:50
+#: kfwin.cpp:32
 msgid "Read-only"
 msgstr "Tenê-xwendin"
 
-#: kfwin.cpp:51
+#: kfwin.cpp:33
 msgid "Write-only"
 msgstr "Tenê-nivîsîn"
 
-#: kfwin.cpp:52
+#: kfwin.cpp:34
 msgid "Inaccessible"
 msgstr "Nayê gihaştin"
 
-#: kfwin.cpp:116
+#: kfwin.cpp:112
 msgid "Name"
 msgstr "Nav"
 
-#: kfwin.cpp:117
+#: kfwin.cpp:112
 msgid "In Subfolder"
 msgstr "Li binepeldankê"
 
-#: kfwin.cpp:118
+#: kfwin.cpp:112
 msgid "Size"
 msgstr "Mezinahî"
 
-#: kfwin.cpp:120
+#: kfwin.cpp:112
 msgid "Modified"
 msgstr "Guhertî"
 
-#: kfwin.cpp:122
+#: kfwin.cpp:112
 msgid "Permissions"
 msgstr "Destûr"
 
-#: kfwin.cpp:125
+#: kfwin.cpp:112
 msgid "First Matching Line"
 msgstr ""
 
-#: kfwin.cpp:194
+#: kfwin.cpp:216
+msgid "&Open containing folder(s)"
+msgstr ""
+
+#: kfwin.cpp:220
+#, fuzzy
+#| msgid "Delete"
+msgid "&Delete"
+msgstr "Jêbirin"
+
+#: kfwin.cpp:225
+msgid "&Move to Trash"
+msgstr ""
+
+#: kfwin.cpp:287
 msgid "Save Results As"
 msgstr "Encaman cuda tomar bike"
 
-#: kfwin.cpp:219
+#: kfwin.cpp:288
+msgid "HTML page"
+msgstr ""
+
+#: kfwin.cpp:288
+msgid "Text file"
+msgstr ""
+
+#: kfwin.cpp:308
 msgid "Unable to save results."
 msgstr "Nikare encaman tomar bike"
 
-#: kfwin.cpp:230 kfwin.cpp:231 kfwin.cpp:232
+#: kfwin.cpp:323
 msgid "KFind Results File"
 msgstr ""
 
-#: kfwin.cpp:259
+#: kfwin.cpp:346
 msgid "Results were saved to file\n"
 msgstr "encam di pel hatine tomar kirin\n"
-
-#: kfwin.cpp:288
-#, kde-format
-msgid "Do you really want to delete the selected file?"
-msgid_plural "Do you really want to delete the %1 selected files?"
-msgstr[0] "Tu bawerî ku dixwazî pelê hilbijartî bavêjî?"
-msgstr[1] "Tu bawerî ku dixwazî pelên %1 hilbijartî bavêjî"
-
-#: kfwin.cpp:410
-msgctxt "Menu item"
-msgid "Open"
-msgstr "Veke"
-
-#: kfwin.cpp:411
-msgid "Open Folder"
-msgstr "Peldankê Veke"
-
-#: kfwin.cpp:413 kfwin.cpp:423
-msgid "Copy"
-msgstr "Jibergirtin"
-
-#: kfwin.cpp:414 kfwin.cpp:424
-msgid "Delete"
-msgstr "Jêbirin"
-
-#: kfwin.cpp:416
-msgid "Open With..."
-msgstr "Veke Bi..."
-
-#: kfwin.cpp:418
-msgid "Properties"
-msgstr "Taybetmendî"
-
-#: kfwin.cpp:422
-msgid "Selected Files"
-msgstr "Pelên Hilbijartî"
 
 #: kquery.cpp:486
 msgid "Error while using locate"
@@ -527,6 +513,30 @@ msgstr "Rizoyê Xerzî"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "Rizoxerzi@gmail.com"
+
+#~ msgid "Do you really want to delete the selected file?"
+#~ msgid_plural "Do you really want to delete the %1 selected files?"
+#~ msgstr[0] "Tu bawerî ku dixwazî pelê hilbijartî bavêjî?"
+#~ msgstr[1] "Tu bawerî ku dixwazî pelên %1 hilbijartî bavêjî"
+
+#~ msgctxt "Menu item"
+#~ msgid "Open"
+#~ msgstr "Veke"
+
+#~ msgid "Open Folder"
+#~ msgstr "Peldankê Veke"
+
+#~ msgid "Copy"
+#~ msgstr "Jibergirtin"
+
+#~ msgid "Open With..."
+#~ msgstr "Veke Bi..."
+
+#~ msgid "Properties"
+#~ msgstr "Taybetmendî"
+
+#~ msgid "Selected Files"
+#~ msgstr "Pelên Hilbijartî"
 
 #~ msgid "AMiddleLengthText..."
 #~ msgstr "Nivîsa bi dirêjahiya orte"
