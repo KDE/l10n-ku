@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lmplayer\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-19 10:33+0100\n"
+"POT-Creation-Date: 2009-03-22 10:25+0100\n"
 "PO-Revision-Date: 2009-02-02 22:53+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -80,11 +80,15 @@ msgid "Reload"
 msgstr "Nû ve bar bike"
 
 #: kmplayerapp.cpp:624
-msgid "Enables/disables the statusbar"
+#, fuzzy
+#| msgid "Enables/disables the statusbar"
+msgid "Enables/disables the status bar"
 msgstr "Darika rewşan çalak/neçalak dike"
 
 #: kmplayerapp.cpp:625
-msgid "Enables/disables the menubar"
+#, fuzzy
+#| msgid "Enables/disables the menubar"
+msgid "Enables/disables the menu bar"
 msgstr "Darika pêşekê çalak/neçalak dike"
 
 #: kmplayerapp.cpp:626
@@ -219,8 +223,9 @@ msgid "Exiting..."
 msgstr "Tê derketin..."
 
 #: kmplayerapp.cpp:1588
-#, kde-format
-msgid "Show Menubar with %1"
+#, fuzzy, kde-format
+#| msgid "Show Menubar with %1"
+msgid "Show Menu Bar with %1"
 msgstr "Darika pêşekê bi %1 re nîşan bide"
 
 #: kmplayerapp.cpp:1659
@@ -1199,9 +1204,13 @@ msgid "Keep size ratio"
 msgstr "Mezinahiya rêjeyê biparêze"
 
 #: pref.cpp:214
+#, fuzzy
+#| msgid ""
+#| "When checked, movie will keep its aspect ratio\n"
+#| "when window is resized"
 msgid ""
-"When checked, movie will keep its aspect ratio\n"
-"when window is resized"
+"When checked, the movie will keep its aspect ratio\n"
+"when the window is resized."
 msgstr ""
 "Wextê were nîşan kirin, fîlim dê rêjeya xwe biparêze\n"
 "wextê mezinahiya paceyê were gyherandin"
@@ -1211,10 +1220,15 @@ msgid "Dock in system tray"
 msgstr "Di berkêşka pergalê de bi cih be "
 
 #: pref.cpp:216
+#, fuzzy
+#| msgid ""
+#| "When checked, an icon of KMPlayer will be added to the system tray.\n"
+#| "When clicked it will hide KMPlayer's main window and removing KMPlayer's "
+#| "taskbar button."
 msgid ""
-"When checked, an icon of KMPlayer will be added to the system tray.\n"
-"When clicked it will hide KMPlayer's main window and removing KMPlayer's "
-"taskbar button."
+"When checked, an icon for KMPlayer will be added to the system tray.\n"
+"When clicked, it will hide KMPlayer's main window and remove KMPlayer's task "
+"bar button."
 msgstr ""
 "Heke were nîşan kirin, îkona KMPlayer dê lê berkêşka pergalê were "
 "zêdekirin.\n"
@@ -1226,9 +1240,13 @@ msgid "Auto resize to video sizes"
 msgstr "Bixweber mezinahiyê biguherîne mezinahiya vîdeoyê"
 
 #: pref.cpp:218
+#, fuzzy
+#| msgid ""
+#| "When checked, KMPlayer will resize to movie sizes\n"
+#| "when video starts"
 msgid ""
 "When checked, KMPlayer will resize to movie sizes\n"
-"when video starts"
+"when video starts."
 msgstr ""
 "Wextê were nîşan kirin, mezinahiya KMPlayer diguhere mezinahiya fîliman\n"
 "demê destpêka vîdeoyê de"
@@ -1250,7 +1268,9 @@ msgid "Makes current movie loop"
 msgstr "Zivra (loop) fîlima heyî çêdike"
 
 #: pref.cpp:232
-msgid "Allow framedrops"
+#, fuzzy
+#| msgid "Allow framedrops"
+msgid "Allow frame drops"
 msgstr "Destûr bide jê birîna dîmenên fîlmê"
 
 #: pref.cpp:233
