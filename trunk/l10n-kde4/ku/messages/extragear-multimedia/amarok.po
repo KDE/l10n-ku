@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-22 10:25+0100\n"
+"POT-Creation-Date: 2009-03-23 10:28+0100\n"
 "PO-Revision-Date: 2009-02-21 06:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -24,11 +24,11 @@ msgstr ""
 "X-Poedit-SourceCharset: utf8\n"
 
 #: mac/GrowlInterface.cpp:34 context/engines/current/CurrentEngine.cpp:112
-#: context/applets/currenttrack/CurrentTrack.cpp:129 widgets/Osd.cpp:556
+#: context/applets/currenttrack/CurrentTrack.cpp:129 widgets/Osd.cpp:558
 msgid "No track playing"
 msgstr "Tu Stran Nayê Lêdan"
 
-#: mac/GrowlInterface.cpp:55 widgets/Osd.cpp:579
+#: mac/GrowlInterface.cpp:55 widgets/Osd.cpp:581
 msgid "No information available for this track"
 msgstr "Ji bo vê skrîptê agahî tune ye"
 
@@ -444,7 +444,7 @@ msgid "Playcount:"
 msgstr "Hejmara lêdanê:"
 
 #: context/applets/albums/AlbumsView.cpp:109 Systray.cpp:219
-#: browsers/collectionbrowser/CollectionTreeView.cpp:611
+#: browsers/collectionbrowser/CollectionTreeView.cpp:607
 #: browsers/filebrowser/MyDirOperator.cpp:273
 #: browsers/playlistbrowser/UserPlaylistModel.cpp:382
 #: browsers/playlistbrowser/PodcastModel.cpp:692
@@ -453,7 +453,7 @@ msgid "&Append to Playlist"
 msgstr "&Bixe ser Lîsteya Lêdanê"
 
 #: context/applets/albums/AlbumsView.cpp:110
-#: browsers/collectionbrowser/CollectionTreeView.cpp:619
+#: browsers/collectionbrowser/CollectionTreeView.cpp:615
 #: browsers/filebrowser/MyDirOperator.cpp:274
 #: browsers/playlistbrowser/UserPlaylistModel.cpp:388
 #: browsers/playlistbrowser/PodcastModel.cpp:705
@@ -463,7 +463,7 @@ msgid "&Load"
 msgstr "&Bar bike"
 
 #: context/applets/albums/AlbumsView.cpp:111
-#: browsers/collectionbrowser/CollectionTreeView.cpp:627
+#: browsers/collectionbrowser/CollectionTreeView.cpp:623
 msgid "&Queue"
 msgstr "&Rêz bike"
 
@@ -2468,16 +2468,16 @@ msgstr "Ji Ber Bigire Berhevokê"
 msgid "Move to Collection"
 msgstr "Bibe Berhevokê"
 
-#: browsers/collectionbrowser/CollectionTreeView.cpp:397
+#: browsers/collectionbrowser/CollectionTreeView.cpp:393
 #: services/lastfm/LastFmTreeView.cpp:204
 msgid "More..."
 msgstr "Zêdetir..."
 
-#: browsers/collectionbrowser/CollectionTreeView.cpp:645
+#: browsers/collectionbrowser/CollectionTreeView.cpp:641
 msgid "&Edit Track Details"
 msgstr "&Kitekitên Stranê Biguherîne"
 
-#: browsers/collectionbrowser/CollectionTreeView.cpp:678
+#: browsers/collectionbrowser/CollectionTreeView.cpp:674
 msgctxt "Organize Files"
 msgid "Organize Files"
 msgstr "Rêxistina Pelan"
@@ -2607,11 +2607,15 @@ msgctxt "The Name is not known"
 msgid "Unknown"
 msgstr "Nenas"
 
-#: browsers/collectionbrowser/CollectionTreeItem.cpp:181
+#: browsers/collectionbrowser/CollectionTreeItem.cpp:182
 #, fuzzy, kde-format
-#| msgid "%1 tracks"
-msgid "%1 Tracks"
-msgstr "%1 stran"
+#| msgctxt "The amount of tracks being edited"
+#| msgid "1 Track"
+#| msgid_plural "Information for %1 Tracks"
+msgid "1 Track"
+msgid_plural "%1 Tracks"
+msgstr[0] "1 Track"
+msgstr[1] "Agahî ji bo %1 Stranan"
 
 #: browsers/filebrowser/FileBrowser.cpp:88
 msgid "Bookmarks"
@@ -7511,34 +7515,27 @@ msgstr "Bêdeng"
 msgid "Volume Control"
 msgstr "Kontrola Dengê"
 
-#: widgets/Osd.cpp:118
+#: widgets/Osd.cpp:119
 msgid "Rating changed"
 msgstr "Ecibandin guherî "
 
-#: widgets/Osd.cpp:131
-#, kde-format
-msgid "Volume: %1%"
+#: widgets/Osd.cpp:134
+#, fuzzy, kde-format
+#| msgid "Volume: %1%"
+msgid "Volume: %1% %2"
 msgstr "Deng: %1%"
 
-#: widgets/Osd.cpp:131
-msgctxt "State, as in, The playback is silent"
-msgid "Mute"
-msgstr "Bêdeng"
-
-#: widgets/Osd.cpp:188 widgets/Osd.cpp:189
-msgid "Volume: 100%"
+#: widgets/Osd.cpp:191
+#, fuzzy
+#| msgid "Volume: 100%"
+msgid "Volume: 100% (muted)"
 msgstr "Deng: 100%"
 
-#: widgets/Osd.cpp:188 widgets/Osd.cpp:189
-msgctxt "State, as in, the playback is silent"
-msgid "Mute"
-msgstr "Bêdeng"
-
-#: widgets/Osd.cpp:419
+#: widgets/Osd.cpp:421
 msgid "OSD Preview - drag to reposition"
 msgstr "Pêşdîtina OSD - ji bo nû ve bicih kirinê bikişîne"
 
-#: widgets/Osd.cpp:646
+#: widgets/Osd.cpp:654
 msgid "Paused"
 msgstr "Hatiye Sekinandin"
 
@@ -8126,6 +8123,19 @@ msgstr "Wêneya Rûgirê"
 #: covermanager/CoverManager.cpp:873
 msgid "No Artist"
 msgstr "Hunermend Tune ye "
+
+#, fuzzy
+#~| msgid "%1 tracks"
+#~ msgid "%1 Tracks"
+#~ msgstr "%1 stran"
+
+#~ msgctxt "State, as in, The playback is silent"
+#~ msgid "Mute"
+#~ msgstr "Bêdeng"
+
+#~ msgctxt "State, as in, the playback is silent"
+#~ msgid "Mute"
+#~ msgstr "Bêdeng"
 
 #~ msgid "Queue Manager"
 #~ msgstr "Rêvebirê Rêzê"
