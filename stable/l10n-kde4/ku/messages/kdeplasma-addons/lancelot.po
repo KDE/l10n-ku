@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lancelot\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-29 07:22+0100\n"
+"POT-Creation-Date: 2009-03-24 06:26+0100\n"
 "PO-Revision-Date: 2009-01-11 21:29+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -17,6 +17,172 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural= n != 1;\n"
 "X-Poedit-Language: Kurdish\n"
 "X-Poedit-SourceCharset: utf8\n"
+
+#: parts/PartsMergedModel.cpp:44
+#, fuzzy
+#| msgid "Removable"
+msgid "Remove this"
+msgstr "Guhêzbar"
+
+#: parts/LancelotPart.cpp:316 LancelotWindow.cpp:586
+msgid "Places"
+msgstr "Cih"
+
+#: parts/LancelotPart.cpp:319 LancelotWindow.cpp:587
+msgid "System"
+msgstr "Pergal"
+
+#: parts/LancelotPart.cpp:322
+#, fuzzy
+#| msgid "Removable"
+msgid "Removable devices"
+msgstr "Guhêzbar"
+
+#: parts/LancelotPart.cpp:325
+msgid "Fixed devices"
+msgstr ""
+
+#: parts/LancelotPart.cpp:328
+#, fuzzy
+#| msgid "Documents"
+msgid "New Documents"
+msgstr "Belge"
+
+#: parts/LancelotPart.cpp:331
+#, fuzzy
+#| msgctxt "@title Title of a list of documents that are open"
+#| msgid "Open documents"
+msgid "Open Documents"
+msgstr "Belgeyan veke"
+
+#: parts/LancelotPart.cpp:334
+#, fuzzy
+#| msgid "Recent documents"
+msgid "Recent Documents"
+msgstr "Belgeyên hatine bikaranîn"
+
+#: parts/LancelotPart.cpp:337 LancelotWindow.cpp:597
+msgid "Unread messages"
+msgstr "Peyamên nexwendî"
+
+#: parts/LancelotPart.cpp:340 i18n_strings.cpp:39
+msgid "Online contacts"
+msgstr "Kesên girêdayî"
+
+#: parts/LancelotPart.cpp:344
+#, fuzzy
+#| msgid "Applications"
+msgid "Favorite Applications"
+msgstr "Sepan"
+
+#: models/Devices.cpp:112 models/Devices.cpp:138
+msgid "Unmounted"
+msgstr ""
+
+#: models/Devices.cpp:202
+msgid "Eject"
+msgstr ""
+
+#: models/Devices.cpp:205
+msgid "Unmount"
+msgstr ""
+
+#: models/Devices.cpp:241
+msgid "Failed to open"
+msgstr ""
+
+#: models/Devices.cpp:241
+msgid "The requested device can not be accessed."
+msgstr ""
+
+#: models/FavoriteApplications.cpp:123
+#, fuzzy
+#| msgid "Favorites"
+msgid "Remove From Favorites"
+msgstr "Bijarte"
+
+#: models/FavoriteApplications.cpp:141 LancelotWindow.cpp:243
+msgid "Favorites"
+msgstr "Bijarte"
+
+#: models/Places.cpp:42
+msgid "Home Folder"
+msgstr ""
+
+#: models/Places.cpp:49
+msgid "Root Folder"
+msgstr ""
+
+#: models/Places.cpp:56
+msgid "Network Folders"
+msgstr ""
+
+#: models/Applications.cpp:215 models/Runner.cpp:135
+#, fuzzy
+#| msgid "Favorites"
+msgid "Add to Favorites"
+msgstr "Bijarte"
+
+#: models/MessagesKmail.cpp:91
+#, fuzzy
+#| msgid "e-Mail contacts"
+msgid "Mail client"
+msgstr "têkiliyên e-Peyam"
+
+#: models/MessagesKmail.cpp:92
+#, fuzzy
+#| msgctxt "needed program is not running"
+#| msgid "%1 is not running"
+msgid "Mail client is not running"
+msgstr "%1 naxebite"
+
+#: models/MessagesKmail.cpp:94
+msgid "Unable to find KMail"
+msgstr ""
+
+#: models/MessagesKmail.cpp:143
+#, fuzzy
+#| msgctxt "EMAIL OF TRANSLATORS"
+#| msgid "Your emails"
+msgid "No unread mail"
+msgstr "oensari at gmail dot com"
+
+#: models/Runner.cpp:59
+msgid "Search string is empty"
+msgstr ""
+
+#: models/Runner.cpp:60
+msgid "Enter something to search for"
+msgstr ""
+
+#: models/Runner.cpp:78
+msgid "No matches found"
+msgstr ""
+
+#: models/Runner.cpp:79
+msgid "No matches found for current search"
+msgstr ""
+
+#: models/ContactsKopete.cpp:75
+msgid "Messaging client"
+msgstr ""
+
+#: models/ContactsKopete.cpp:76
+#, fuzzy
+#| msgctxt "needed program is not running"
+#| msgid "%1 is not running"
+msgid "Messaging client is not running"
+msgstr "%1 naxebite"
+
+#: models/ContactsKopete.cpp:78
+msgid "Unable to find Kopete"
+msgstr ""
+
+#: models/ContactsKopete.cpp:116
+#, fuzzy
+#| msgid "Online contacts"
+msgid "No online contacts"
+msgstr "Kesên girêdayî"
 
 #: AboutData.cpp:26 LancelotWindow.cpp:771
 msgid "Lancelot"
@@ -53,119 +219,6 @@ msgstr "Robert Knight"
 #: AboutData.cpp:48
 msgid "Kickoff data models"
 msgstr "Kickoff modelên dane"
-
-#: LancelotWindow.cpp:232 i18n_strings.cpp:31
-msgid "Search"
-msgstr "Lê Bigere"
-
-#: LancelotWindow.cpp:243
-msgid "Favorites"
-msgstr "Bijarte"
-
-#: LancelotWindow.cpp:245 i18n_strings.cpp:27
-msgid "Applications"
-msgstr "Sepan"
-
-#: LancelotWindow.cpp:586
-msgid "Places"
-msgstr "Cih"
-
-#: LancelotWindow.cpp:587
-msgid "System"
-msgstr "Pergal"
-
-#: LancelotWindow.cpp:589
-msgid "Removable"
-msgstr "Guhêzbar"
-
-#: LancelotWindow.cpp:590
-msgid "Fixed"
-msgstr "Sabît"
-
-#: LancelotWindow.cpp:592
-msgid "New:"
-msgstr "Nû:"
-
-#: LancelotWindow.cpp:594
-msgctxt "@title Title of a list of documents that are open"
-msgid "Open documents"
-msgstr "Belgeyan veke"
-
-#: LancelotWindow.cpp:595
-msgid "Recent documents"
-msgstr "Belgeyên hatine bikaranîn"
-
-#: LancelotWindow.cpp:597
-msgid "Unread messages"
-msgstr "Peyamên nexwendî"
-
-#: LancelotWindow.cpp:598 i18n_strings.cpp:25 i18n_strings.cpp:29
-msgid "Contacts"
-msgstr "Têkilî"
-
-#: LancelotWindow.cpp:772
-msgid "Open Lancelot menu"
-msgstr "Pêşeka Lancelot veke"
-
-#: LancelotWindow.cpp:902
-msgid "Menu Editor"
-msgstr "Edîtorê Pêşekê"
-
-#: LancelotWindow.cpp:907
-msgid "Configure &Shortcuts..."
-msgstr "&Kurterê yan Veava Bike..."
-
-#: LancelotWindow.cpp:912
-msgid "Configure &Lancelot menu..."
-msgstr "Pêşeka &Lancelot veava bike..."
-
-#: LancelotWindow.cpp:917
-msgid "&About Lancelot"
-msgstr "&Der barê Lancelot de"
-
-#: LancelotWindow.cpp:939 LancelotWindow.cpp:941
-msgid "Configure Lancelot menu"
-msgstr "Pêşeka Lancelot veava bike"
-
-#: i18n_strings.cpp:24 i18n_strings.cpp:30
-msgid "Documents"
-msgstr "Belge"
-
-#: i18n_strings.cpp:26 i18n_strings.cpp:28
-msgid "Computer"
-msgstr "Komputer"
-
-#: i18n_strings.cpp:32
-msgid "Lock Session"
-msgstr "Danişînê Qufl Bike"
-
-#: i18n_strings.cpp:33
-msgid "Log Out"
-msgstr "Derkeve"
-
-#: i18n_strings.cpp:34
-msgid "Switch User"
-msgstr "Bikarhêner Biguherîne"
-
-#: i18n_strings.cpp:37
-#, kde-format
-msgctxt "needed program is not running"
-msgid "%1 is not running"
-msgstr "%1 naxebite"
-
-#: i18n_strings.cpp:38
-#, kde-format
-msgctxt "start a program"
-msgid "start %1"
-msgstr "destpêkirina %1"
-
-#: i18n_strings.cpp:39
-msgid "Online contacts"
-msgstr "Kesên girêdayî"
-
-#: i18n_strings.cpp:40
-msgid "e-Mail contacts"
-msgstr "têkiliyên e-Peyam"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -399,3 +452,122 @@ msgstr ""
 #: rc.cpp:104
 msgid "Show menu on &click"
 msgstr "Pêşekê di tikandinê de nîşan bide"
+
+#: i18n_strings.cpp:24 i18n_strings.cpp:30
+msgid "Documents"
+msgstr "Belge"
+
+#: i18n_strings.cpp:25 i18n_strings.cpp:29 LancelotWindow.cpp:598
+msgid "Contacts"
+msgstr "Têkilî"
+
+#: i18n_strings.cpp:26 i18n_strings.cpp:28
+msgid "Computer"
+msgstr "Komputer"
+
+#: i18n_strings.cpp:27 LancelotWindow.cpp:245
+msgid "Applications"
+msgstr "Sepan"
+
+#: i18n_strings.cpp:31 LancelotWindow.cpp:232
+msgid "Search"
+msgstr "Lê Bigere"
+
+#: i18n_strings.cpp:32
+msgid "Lock Session"
+msgstr "Danişînê Qufl Bike"
+
+#: i18n_strings.cpp:33
+msgid "Log Out"
+msgstr "Derkeve"
+
+#: i18n_strings.cpp:34
+msgid "Switch User"
+msgstr "Bikarhêner Biguherîne"
+
+#: i18n_strings.cpp:37
+#, kde-format
+msgctxt "needed program is not running"
+msgid "%1 is not running"
+msgstr "%1 naxebite"
+
+#: i18n_strings.cpp:38
+#, kde-format
+msgctxt "start a program"
+msgid "start %1"
+msgstr "destpêkirina %1"
+
+#: i18n_strings.cpp:40
+msgid "e-Mail contacts"
+msgstr "têkiliyên e-Peyam"
+
+#: LancelotWindow.cpp:589
+msgid "Removable"
+msgstr "Guhêzbar"
+
+#: LancelotWindow.cpp:590
+msgid "Fixed"
+msgstr "Sabît"
+
+#: LancelotWindow.cpp:592
+msgid "New:"
+msgstr "Nû:"
+
+#: LancelotWindow.cpp:594
+msgctxt "@title Title of a list of documents that are open"
+msgid "Open documents"
+msgstr "Belgeyan veke"
+
+#: LancelotWindow.cpp:595
+msgid "Recent documents"
+msgstr "Belgeyên hatine bikaranîn"
+
+#: LancelotWindow.cpp:772
+msgid "Open Lancelot menu"
+msgstr "Pêşeka Lancelot veke"
+
+#: LancelotWindow.cpp:902 launcher/LancelotApplet.cpp:181
+msgid "Menu Editor"
+msgstr "Edîtorê Pêşekê"
+
+#: LancelotWindow.cpp:907
+msgid "Configure &Shortcuts..."
+msgstr "&Kurterê yan Veava Bike..."
+
+#: LancelotWindow.cpp:912
+msgid "Configure &Lancelot menu..."
+msgstr "Pêşeka &Lancelot veava bike..."
+
+#: LancelotWindow.cpp:917
+msgid "&About Lancelot"
+msgstr "&Der barê Lancelot de"
+
+#: LancelotWindow.cpp:939 LancelotWindow.cpp:941
+msgid "Configure Lancelot menu"
+msgstr "Pêşeka Lancelot veava bike"
+
+#: launcher/LancelotApplet.cpp:175
+#, fuzzy
+#| msgid "Configure &Shortcuts..."
+msgid "Configure Shortcuts..."
+msgstr "&Kurterê yan Veava Bike..."
+
+#: launcher/LancelotApplet.cpp:307
+#, fuzzy
+#| msgid "Applet Icon"
+msgid "Applet"
+msgstr "Îkona Sepanokê"
+
+#: launcher/LancelotApplet.cpp:308
+msgid "Lancelot Launcher Applet"
+msgstr ""
+
+#: launcher/LancelotApplet.cpp:313
+msgid "Menu"
+msgstr ""
+
+#: launcher/LancelotApplet.cpp:314
+#, fuzzy
+#| msgid "Open Lancelot menu"
+msgid "Lancelot Menu"
+msgstr "Pêşeka Lancelot veke"
