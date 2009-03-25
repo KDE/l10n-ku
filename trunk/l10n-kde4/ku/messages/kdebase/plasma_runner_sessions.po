@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krunner_sessions\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-20 10:16+0100\n"
+"POT-Creation-Date: 2009-03-25 11:23+0100\n"
 "PO-Revision-Date: 2008-06-11 14:45+0200\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: ku <ubuntu-l10n-kur@lists.ubuntu.com>\n"
@@ -17,70 +17,108 @@ msgstr ""
 "X-Generator: KAider 0.1\n"
 "Plural-Forms: nplurals=2; plural= n != 1;\n"
 
-#: sessionrunner.cpp:52
+#: sessionrunner.cpp:45 sessionrunner.cpp:72
 msgctxt "log out command"
 msgid "logout"
 msgstr "derketin"
 
-#: sessionrunner.cpp:53
-msgid "log out"
-msgstr "derkeve"
+#: sessionrunner.cpp:46
+msgid "Logs out, exiting the current desktop session"
+msgstr ""
 
-#: sessionrunner.cpp:55
-msgctxt "log out command"
-msgid "Logout"
-msgstr "Derketin"
-
-#: sessionrunner.cpp:61
-msgctxt "restart computer command"
-msgid "restart"
-msgstr "nûdestpêkirin"
-
-#: sessionrunner.cpp:62
-msgctxt "restart computer command"
-msgid "reboot"
-msgstr "nûdestpêkirin"
-
-#: sessionrunner.cpp:64
-msgid "Restart the computer"
-msgstr "Nûdestpêkirina komputerê"
-
-#: sessionrunner.cpp:70
+#: sessionrunner.cpp:47 sessionrunner.cpp:90
 msgctxt "shutdown computer command"
 msgid "shutdown"
 msgstr "girtin"
 
-#: sessionrunner.cpp:72
-msgid "Shutdown the computer"
+#: sessionrunner.cpp:48
+#, fuzzy
+#| msgid "Shutdown the computer"
+msgid "Turns off the computer"
 msgstr "Komputerê bigire"
 
-#: sessionrunner.cpp:78
+#: sessionrunner.cpp:49 sessionrunner.cpp:98
 msgctxt "lock screen command"
 msgid "lock"
 msgstr "qufilkirin"
 
-#: sessionrunner.cpp:80
+#: sessionrunner.cpp:50
+msgid "Locks the current sessions and starts the screen saver"
+msgstr ""
+
+#: sessionrunner.cpp:52 sessionrunner.cpp:81
+msgctxt "restart computer command"
+msgid "restart"
+msgstr "nûdestpêkirin"
+
+#: sessionrunner.cpp:52
+#, fuzzy
+#| msgid "Restart the computer"
+msgid "Reboots the computer"
+msgstr "Nûdestpêkirina komputerê"
+
+#: sessionrunner.cpp:53 sessionrunner.cpp:82
+msgctxt "restart computer command"
+msgid "reboot"
+msgstr "nûdestpêkirin"
+
+#: sessionrunner.cpp:56
+#, fuzzy
+#| msgctxt "switch user command"
+#| msgid "switch"
+msgctxt "switch user command"
+msgid "switch :q:"
+msgstr "guherandin"
+
+#: sessionrunner.cpp:57
+msgid ""
+"Switches to the active session for the user :q:, or lists all active "
+"sessions if :q: is not provided"
+msgstr ""
+
+#: sessionrunner.cpp:60 sessionrunner.cpp:151
+msgid "switch user"
+msgstr "guherandina bikarhênerê/î"
+
+#: sessionrunner.cpp:61
+msgid "Starts a new session as a different user"
+msgstr ""
+
+#: sessionrunner.cpp:62 sessionrunner.cpp:152
+msgid "new session"
+msgstr "danişîna nû"
+
+#: sessionrunner.cpp:73
+msgid "log out"
+msgstr "derkeve"
+
+#: sessionrunner.cpp:75
+msgctxt "log out command"
+msgid "Logout"
+msgstr "Derketin"
+
+#: sessionrunner.cpp:84
+msgid "Restart the computer"
+msgstr "Nûdestpêkirina komputerê"
+
+#: sessionrunner.cpp:92
+msgid "Shutdown the computer"
+msgstr "Komputerê bigire"
+
+#: sessionrunner.cpp:100
 msgid "Lock the screen"
 msgstr "Dîmenderê biqufilîne"
 
-#: sessionrunner.cpp:107
+#: sessionrunner.cpp:127
 msgctxt "switch user command"
 msgid "switch"
 msgstr "guherandin"
 
-#: sessionrunner.cpp:132
-msgid "switch user"
-msgstr "guherandina bikarhênerê/î"
-
-#: sessionrunner.cpp:133
-msgid "new session"
-msgstr "danişîna nû"
-
-#: sessionrunner.cpp:142
+#: sessionrunner.cpp:161
 msgid "New Session"
 msgstr "Danişîna Nû"
 
-#: sessionrunner.cpp:237
+#: sessionrunner.cpp:256
 #, kde-format
 msgid ""
 "<p>You have chosen to open another desktop session.<br />The current session "
@@ -91,11 +129,11 @@ msgid ""
 "Panel and Desktop menus have actions for switching between sessions.</p>"
 msgstr ""
 
-#: sessionrunner.cpp:248
+#: sessionrunner.cpp:267
 msgid "Warning - New Session"
 msgstr "Hişyarî - Danişîna Nû"
 
-#: sessionrunner.cpp:249
+#: sessionrunner.cpp:268
 msgid "&Start New Session"
 msgstr "&Dest bi danişîna nû bike"
 
