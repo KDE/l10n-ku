@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dragonplayer\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-14 10:49+0100\n"
+"POT-Creation-Date: 2009-03-29 11:39+0200\n"
 "PO-Revision-Date: 2009-01-22 21:21+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -30,7 +30,9 @@ msgstr "Tu çi medya dixwazî ku were lêdan?"
 msgid "Play File..."
 msgstr "Pelê Lê Bide..."
 
-#: src/app/playDialog.cpp:69
+#. i18n: file: src/app/loadView.ui:25
+#. i18n: ectx: property (text), widget (QPushButton, m_playDiskButton)
+#: src/app/playDialog.cpp:69 rc.cpp:26
 msgid "Play Disc"
 msgstr "Dîskê Lê Bide"
 
@@ -408,14 +410,6 @@ msgstr "Bigire"
 msgid "Play File"
 msgstr "Pelê Lê Bide..."
 
-#. i18n: file: src/app/loadView.ui:25
-#. i18n: ectx: property (text), widget (QPushButton, m_playDiskButton)
-#: rc.cpp:26
-#, fuzzy
-#| msgid "Play Disc"
-msgid "Play Disk"
-msgstr "Dîskê Lê Bide"
-
 #. i18n: file: misc/dragonplayerui.rc:12
 #. i18n: ectx: Menu (settings)
 #: rc.cpp:32
@@ -427,3 +421,8 @@ msgstr "&Mîheng"
 #: rc.cpp:35
 msgid "Main Toolbar"
 msgstr "Darikê Amûran ya Mak"
+
+#, fuzzy
+#~| msgid "Play Disc"
+#~ msgid "Play Disk"
+#~ msgstr "Dîskê Lê Bide"
