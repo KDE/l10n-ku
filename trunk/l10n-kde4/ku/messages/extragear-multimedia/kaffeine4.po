@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaffeine4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-01 11:24+0200\n"
+"POT-Creation-Date: 2009-04-06 11:11+0200\n"
 "PO-Revision-Date: 2008-12-20 16:02+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -186,7 +186,7 @@ msgstr "oensari@gmail.com"
 
 #. i18n: file: dvb/dvbscandialog.ui:8
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:5 dvb/dvbscandialog.cpp:128 dvb/dvbtab.cpp:45
+#: rc.cpp:5 dvb/dvbscandialog.cpp:163 dvb/dvbtab.cpp:45
 msgid "Channels"
 msgstr "Kanal"
 
@@ -286,26 +286,66 @@ msgstr "Encamên Lê nihêrîn ê"
 msgid "Add selected"
 msgstr "Yê hilbijartî lê zêde bike"
 
-#: dvb/dvbchannelview.cpp:71 dvb/dvbrecording.cpp:265
-#: dvb/dvbscandialog.cpp:116
+#: dvb/dvbchannelui.cpp:79 dvb/dvbrecording.cpp:265 dvb/dvbscandialog.cpp:151
 msgid "Name"
 msgstr "Nav"
 
-#: dvb/dvbchannelview.cpp:73
+#: dvb/dvbchannelui.cpp:81
 msgid "Number"
 msgstr "Hejmar"
 
-#: dvb/dvbchannelview.cpp:83
+#: dvb/dvbchannelui.cpp:187
 msgid "Edit channel"
 msgstr "Kanalê biguherîne"
 
-#: dvb/dvbchannelview.cpp:87
+#: dvb/dvbchannelui.cpp:191
 msgid "Change icon"
 msgstr "Sembolê Biguherîne"
 
-#: dvb/dvbchannelview.cpp:92
+#: dvb/dvbchannelui.cpp:202
 msgid "Delete channel"
 msgstr "Kanalê jê bibe"
+
+#: dvb/dvbchannelui.cpp:239
+#, fuzzy
+#| msgid "Channels"
+msgid "Channel Settings"
+msgstr "Kanal"
+
+#: dvb/dvbchannelui.cpp:245 dvb/dvbconfigdialog.cpp:489
+#: dvb/dvbrecording.cpp:426
+msgid "Name:"
+msgstr "Nav:"
+
+#: dvb/dvbchannelui.cpp:251
+#, fuzzy
+#| msgid "Number"
+msgid "Number:"
+msgstr "Hejmar"
+
+#: dvb/dvbchannelui.cpp:264
+msgid "Network id:"
+msgstr ""
+
+#: dvb/dvbchannelui.cpp:271
+msgid "Transport stream id:"
+msgstr ""
+
+#: dvb/dvbchannelui.cpp:278
+#, fuzzy
+#| msgid "Device %1"
+msgid "Service id:"
+msgstr "Cîhaza %1"
+
+#: dvb/dvbchannelui.cpp:285
+#, fuzzy
+#| msgid "Edit channel"
+msgid "Audio channel:"
+msgstr "Kanalê biguherîne"
+
+#: dvb/dvbchannelui.cpp:293
+msgid "Scrambled:"
+msgstr ""
 
 #: dvb/dvbconfigdialog.cpp:45
 msgid "DVB Settings"
@@ -418,10 +458,6 @@ msgstr "Çavkanî:"
 #: dvb/dvbconfigdialog.cpp:483 dvb/dvbconfigdialog.cpp:590
 msgid "No source"
 msgstr "Çavkanî tune ye"
-
-#: dvb/dvbconfigdialog.cpp:489 dvb/dvbrecording.cpp:426
-msgid "Name:"
-msgstr "Nav:"
 
 #: dvb/dvbconfigdialog.cpp:549
 msgid "DVB-S"
@@ -571,32 +607,32 @@ msgstr "0%"
 msgid "%1%"
 msgstr "%1%"
 
-#: dvb/dvbscandialog.cpp:118
+#: dvb/dvbscandialog.cpp:153
 msgid "Provider"
 msgstr "Peydaker"
 
-#: dvb/dvbscandialog.cpp:120
+#: dvb/dvbscandialog.cpp:155
 msgid "SNR"
 msgstr "SNR"
 
-#: dvb/dvbscandialog.cpp:136
+#: dvb/dvbscandialog.cpp:171
 #, kde-format
 msgid "Scan file last updated<br>on %1"
 msgstr "Pela lê nihêrîn ê dawî yê di <br> %1 de hate rojane kirin"
 
-#: dvb/dvbscandialog.cpp:137 dvb/dvbscandialog.cpp:195
+#: dvb/dvbscandialog.cpp:172 dvb/dvbscandialog.cpp:233
 msgid "Start scan"
 msgstr "Lê nihêrîn bide destpê kirin"
 
-#: dvb/dvbscandialog.cpp:157
+#: dvb/dvbscandialog.cpp:195
 msgid "Current transponder"
 msgstr "Bersîvdar(sînyalên radyo re) ê heyî"
 
-#: dvb/dvbscandialog.cpp:223 dvb/dvbtab.cpp:206
+#: dvb/dvbscandialog.cpp:261 dvb/dvbtab.cpp:206
 msgid "No suitable device found."
 msgstr "Tu cihazên lêhatî nedît."
 
-#: dvb/dvbscandialog.cpp:228
+#: dvb/dvbscandialog.cpp:266
 msgid "Stop scan"
 msgstr "Lê nihêrîn ê rawestîne "
 
