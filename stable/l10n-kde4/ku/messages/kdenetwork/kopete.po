@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kopete\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-02 07:00+0200\n"
+"POT-Creation-Date: 2009-04-07 06:25+0200\n"
 "PO-Revision-Date: 2008-06-22 23:57+0200\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <ku@li.org>\n"
@@ -216,7 +216,7 @@ msgstr "Veşartî"
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_initialStatus)
 #: libkopete/kopeteonlinestatus.cpp:169 libkopete/kopetemetacontact.cpp:473
 #: libkopete/kopetestatusmanager.cpp:294 libkopete/kopeteidentity.cpp:167
-#: kopete/kopetewindow.cpp:377
+#: kopete/kopetewindow.cpp:378
 #: kopete/config/status/statusconfig_manager.cpp:66 rc.cpp:304
 #: plugins/statistics/statisticscontact.cpp:262
 #: plugins/statistics/statisticsdialog.cpp:376
@@ -1037,7 +1037,7 @@ msgctxt "@label:textbox formatted status title"
 msgid "<br /><b>Status&nbsp;Title:</b>&nbsp;%1"
 msgstr ""
 
-#: libkopete/kopetecontact.cpp:627 kopete/kopetewindow.cpp:1209
+#: libkopete/kopetecontact.cpp:627 kopete/kopetewindow.cpp:1210
 #, kde-format
 msgctxt "@label:textbox formatted status message"
 msgid "<br /><b>Status&nbsp;Message:</b>&nbsp;%1"
@@ -1120,7 +1120,7 @@ msgstr "Dîroka Dema Dawî Hat Dîtin"
 msgid "Status Title"
 msgstr "Rewş"
 
-#: libkopete/kopeteglobal.cpp:159 kopete/kopetewindow.cpp:1219
+#: libkopete/kopeteglobal.cpp:159 kopete/kopetewindow.cpp:1220
 msgid "Status Message"
 msgstr ""
 
@@ -1200,7 +1200,7 @@ msgstr "Peyama rewşê ya giştî"
 
 #. i18n: file: protocols/irc/ui/ircadd.ui:34
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: kopete/kopetewindow.cpp:368
+#: kopete/kopetewindow.cpp:369
 #: kopete/contactlist/kopetecontactlistview.cpp:519 rc.cpp:2399
 msgid "&Add Contact"
 msgstr "Têkiliyekê &Têxê"
@@ -1257,7 +1257,7 @@ msgstr "Têkiliyekê &Têxê"
 #. i18n: ectx: property (text), widget (QPushButton, btnCustomAdd)
 #. i18n: file: protocols/jabber/ui/privacy.ui:242
 #. i18n: ectx: property (text), widget (KPushButton, pb_add)
-#: kopete/kopetewindow.cpp:369
+#: kopete/kopetewindow.cpp:370
 #: kopete/contactlist/kopetecontactlistview.cpp:1083
 #: kopete/contactlist/kopetecontactlistview.cpp:1099
 #: kopete/contactlist/kopetecontactlistview.cpp:1569 rc.cpp:707 rc.cpp:1517
@@ -1271,11 +1271,11 @@ msgstr "Têkiliyekê &Têxê"
 msgid "Add"
 msgstr "&Têxê"
 
-#: kopete/kopetewindow.cpp:382
+#: kopete/kopetewindow.cpp:383
 msgid "&Export Contacts..."
 msgstr "Têkiliyan &Bîne..."
 
-#: kopete/kopetewindow.cpp:387 protocols/qq/qqprotocol.cpp:37
+#: kopete/kopetewindow.cpp:388 protocols/qq/qqprotocol.cpp:37
 #: protocols/wlm/wlmprotocol.cpp:46
 #: protocols/oscar/aim/aimstatusmanager.cpp:75
 #: protocols/oscar/icq/icqstatusmanager.cpp:83
@@ -1285,25 +1285,25 @@ msgstr "Li &Dûr"
 
 #. i18n: file: protocols/gadu/ui/gaduawayui.ui:125
 #. i18n: ectx: property (text), widget (QRadioButton, awayButton_)
-#: kopete/kopetewindow.cpp:391 rc.cpp:2957 protocols/wlm/wlmprotocol.cpp:48
+#: kopete/kopetewindow.cpp:392 rc.cpp:2957 protocols/wlm/wlmprotocol.cpp:48
 #: protocols/groupwise/gwprotocol.cpp:56
 msgid "&Busy"
 msgstr "&Mijûl"
 
 #. i18n: file: protocols/gadu/ui/gaduawayui.ui:138
 #. i18n: ectx: property (text), widget (QRadioButton, invisibleButton_)
-#: kopete/kopetewindow.cpp:396 rc.cpp:2966 protocols/wlm/wlmprotocol.cpp:60
+#: kopete/kopetewindow.cpp:397 rc.cpp:2966 protocols/wlm/wlmprotocol.cpp:60
 msgid "&Invisible"
 msgstr "&Veşartî"
 
 #. i18n: file: protocols/yahoo/ui/yahoostealthsetting.ui:43
 #. i18n: ectx: property (text), widget (QRadioButton, radioOnline)
-#: kopete/kopetewindow.cpp:400 rc.cpp:4081 protocols/gadu/gaduprotocol.cpp:82
+#: kopete/kopetewindow.cpp:401 rc.cpp:4081 protocols/gadu/gaduprotocol.cpp:82
 #: protocols/gadu/gaduprotocol.cpp:86
 msgid "&Online"
 msgstr "&Girêdayî"
 
-#: kopete/kopetewindow.cpp:404
+#: kopete/kopetewindow.cpp:405
 msgid "&Set Status"
 msgstr "&Rewşa xwe mîheng bike"
 
@@ -1327,67 +1327,67 @@ msgstr "&Rewşa xwe mîheng bike"
 #. i18n: ectx: property (text), widget (QTableWidget, tbFingerprints)
 #. i18n: file: protocols/gadu/ui/gaduawayui.ui:62
 #. i18n: ectx: property (title), widget (Q3ButtonGroup, statusGroup_)
-#: kopete/kopetewindow.cpp:405 rc.cpp:500 rc.cpp:1091 rc.cpp:1112 rc.cpp:1181
+#: kopete/kopetewindow.cpp:406 rc.cpp:500 rc.cpp:1091 rc.cpp:1112 rc.cpp:1181
 #: rc.cpp:2939 protocols/groupwise/ui/gwsearch.cpp:96
 msgid "Status"
 msgstr "Rewş"
 
-#: kopete/kopetewindow.cpp:432
+#: kopete/kopetewindow.cpp:433
 msgid "Configure &Global Shortcuts..."
 msgstr "&Kurteriyên Giştî Mîheng Bike..."
 
-#: kopete/kopetewindow.cpp:441
+#: kopete/kopetewindow.cpp:442
 #, fuzzy
 msgid "Show &All"
 msgstr "Cuda Nîşan Bide"
 
-#: kopete/kopetewindow.cpp:446
+#: kopete/kopetewindow.cpp:447
 msgid "Show Offline &Users"
 msgstr "&Bikarhênerên Negirêdayî Nîşan Bide"
 
-#: kopete/kopetewindow.cpp:450
+#: kopete/kopetewindow.cpp:451
 msgid "Show Empty &Groups"
 msgstr "&Grupên Vala Nîşan Bide"
 
-#: kopete/kopetewindow.cpp:462
+#: kopete/kopetewindow.cpp:463
 msgid "Se&arch:"
 msgstr "Bi&gere:"
 
 #. i18n: file: kopete/kopeteui.rc:54
 #. i18n: ectx: ToolBar (quickSearchBar)
-#: kopete/kopetewindow.cpp:466 rc.cpp:908
+#: kopete/kopetewindow.cpp:467 rc.cpp:908
 msgid "Quick Search Bar"
 msgstr "Qutîka Gerîna Bilez"
 
 #. i18n: file: plugins/history/historyviewer.ui:149
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#: kopete/kopetewindow.cpp:469 rc.cpp:1682
+#: kopete/kopetewindow.cpp:470 rc.cpp:1682
 msgid "Search:"
 msgstr "Bigere:"
 
 #. i18n: file: protocols/groupwise/ui/gwchatprops.ui:330
 #. i18n: ectx: property (text), widget (QCheckBox, chkRead)
-#: kopete/kopetewindow.cpp:478 rc.cpp:5376
+#: kopete/kopetewindow.cpp:479 rc.cpp:5376
 msgid "Read Message"
 msgstr "Peyamê Bixwîne"
 
-#: kopete/kopetewindow.cpp:482
+#: kopete/kopetewindow.cpp:483
 msgid "Read the next pending message"
 msgstr "Peyama din a veşartî bixwîne"
 
-#: kopete/kopetewindow.cpp:484
+#: kopete/kopetewindow.cpp:485
 msgid "Show/Hide Contact List"
 msgstr "Lîsteya Têkiliyan Nîşan Bide/Veşêre"
 
-#: kopete/kopetewindow.cpp:488
+#: kopete/kopetewindow.cpp:489
 msgid "Show or hide the contact list"
 msgstr "Lîsteya têkiliyan veşêre an jî nîşan bide"
 
-#: kopete/kopetewindow.cpp:490
+#: kopete/kopetewindow.cpp:491
 msgid "Set Away/Back"
 msgstr "Li Derve/Vegeriya Mîheng Bike"
 
-#: kopete/kopetewindow.cpp:783
+#: kopete/kopetewindow.cpp:784
 msgid ""
 "<qt>Closing the main window will keep Kopete running in the system tray. Use "
 "'Quit' from the 'File' menu to quit the application.</qt>"
@@ -1396,11 +1396,11 @@ msgstr ""
 "pergalê de bidome. Ji bo ku ji sepanê derkevî, ji pêşeka \"Pel\"ê \"Derkeve"
 "\" bitikîne.</qt>"
 
-#: kopete/kopetewindow.cpp:785
+#: kopete/kopetewindow.cpp:786
 msgid "Docking in System Tray"
 msgstr "Ji Bo Darikê Bergalê Biçûk Dike"
 
-#: kopete/kopetewindow.cpp:991
+#: kopete/kopetewindow.cpp:992
 #, kde-format
 msgctxt ""
 "Account tooltip information: <nobr>ICON <b>PROTOCOL:</b> NAME (<i>STATUS</i>)"
@@ -1410,13 +1410,13 @@ msgid ""
 "nobr><br />"
 msgstr ""
 
-#: kopete/kopetewindow.cpp:1206
+#: kopete/kopetewindow.cpp:1207
 #, kde-format
 msgctxt "@label:textbox formatted status title"
 msgid "<b>Status&nbsp;Title:</b>&nbsp;%1"
 msgstr ""
 
-#: kopete/kopetewindow.cpp:1254
+#: kopete/kopetewindow.cpp:1255
 #: kopete/contactlist/kopetecontactlistview.cpp:1791
 msgid "Add Contact"
 msgstr "Têkiliyekê Têxê"
