@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_timer\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-07 11:12+0200\n"
+"POT-Creation-Date: 2009-04-08 12:02+0200\n"
 "PO-Revision-Date: 2009-01-10 23:27+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -29,27 +29,39 @@ msgstr ":"
 msgid "Timer Configuration"
 msgstr "Veavakirina Katjimêr"
 
-#. i18n: file: timerConfig.ui:17
-#. i18n: ectx: property (text), widget (QCheckBox, showTitleCheckBox)
+#. i18n: file: timerConfig.ui:23
+#. i18n: ectx: property (text), widget (QLabel, label_2)
 #: rc.cpp:6
+msgid "Appearance"
+msgstr ""
+
+#. i18n: file: timerConfig.ui:46
+#. i18n: ectx: property (text), widget (QCheckBox, showTitleCheckBox)
+#: rc.cpp:9
 msgid "Show Title"
 msgstr ""
 
-#. i18n: file: timerConfig.ui:33
+#. i18n: file: timerConfig.ui:56
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox)
+#: rc.cpp:12
+msgid "Hide seconds"
+msgstr ""
+
+#. i18n: file: timerConfig.ui:69
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:9
+#: rc.cpp:15
 msgid "Actions on Timeout"
 msgstr "Çalakiyên di Demborî de"
 
-#. i18n: file: timerConfig.ui:40
+#. i18n: file: timerConfig.ui:95
 #. i18n: ectx: property (text), widget (QCheckBox, showMessageCheckBox)
-#: rc.cpp:12
+#: rc.cpp:18
 msgid "Show a message"
 msgstr "Peyamekê nîşan bide"
 
-#. i18n: file: timerConfig.ui:50
+#. i18n: file: timerConfig.ui:102
 #. i18n: ectx: property (text), widget (QCheckBox, runCommandCheckBox)
-#: rc.cpp:15
+#: rc.cpp:21
 msgid "Run a command"
 msgstr "Fermanê bixebitîne"
 
@@ -73,11 +85,11 @@ msgstr "Rawestîne"
 msgid "Reset"
 msgstr "Vegere Serî"
 
-#: timer.cpp:159
+#: timer.cpp:166
 msgid "General"
 msgstr "Giştî"
 
-#: timer.cpp:160
+#: timer.cpp:167
 msgid "Predefined Timers"
 msgstr "Katjimêrên Pêş-danasîn"
 
