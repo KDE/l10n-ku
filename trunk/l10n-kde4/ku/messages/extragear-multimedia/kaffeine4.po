@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaffeine4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-06 11:11+0200\n"
+"POT-Creation-Date: 2009-04-10 11:18+0200\n"
 "PO-Revision-Date: 2008-12-20 16:02+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -286,64 +286,84 @@ msgstr "Encamên Lê nihêrîn ê"
 msgid "Add selected"
 msgstr "Yê hilbijartî lê zêde bike"
 
-#: dvb/dvbchannelui.cpp:79 dvb/dvbrecording.cpp:265 dvb/dvbscandialog.cpp:151
+#: dvb/dvbchannel.cpp:131
+#, fuzzy
+#| msgid "Horizontal LOF (MHz)"
+msgid "Horizontal"
+msgstr "LOF a berwarî (MHz)"
+
+#: dvb/dvbchannel.cpp:132
+#, fuzzy
+#| msgid "Terrestrial"
+msgid "Vertical"
+msgstr "Herêmî"
+
+#: dvb/dvbchannel.cpp:133
+msgid "Circular left"
+msgstr ""
+
+#: dvb/dvbchannel.cpp:134
+msgid "Circular right"
+msgstr ""
+
+#: dvb/dvbchannelui.cpp:80 dvb/dvbrecording.cpp:265 dvb/dvbscandialog.cpp:151
 msgid "Name"
 msgstr "Nav"
 
-#: dvb/dvbchannelui.cpp:81
+#: dvb/dvbchannelui.cpp:82
 msgid "Number"
 msgstr "Hejmar"
 
-#: dvb/dvbchannelui.cpp:187
+#: dvb/dvbchannelui.cpp:185
 msgid "Edit channel"
 msgstr "Kanalê biguherîne"
 
-#: dvb/dvbchannelui.cpp:191
+#: dvb/dvbchannelui.cpp:189
 msgid "Change icon"
 msgstr "Sembolê Biguherîne"
 
-#: dvb/dvbchannelui.cpp:202
+#: dvb/dvbchannelui.cpp:200
 msgid "Delete channel"
 msgstr "Kanalê jê bibe"
 
-#: dvb/dvbchannelui.cpp:239
+#: dvb/dvbchannelui.cpp:237
 #, fuzzy
 #| msgid "Channels"
 msgid "Channel Settings"
 msgstr "Kanal"
 
-#: dvb/dvbchannelui.cpp:245 dvb/dvbconfigdialog.cpp:489
+#: dvb/dvbchannelui.cpp:243 dvb/dvbconfigdialog.cpp:489
 #: dvb/dvbrecording.cpp:426
 msgid "Name:"
 msgstr "Nav:"
 
-#: dvb/dvbchannelui.cpp:251
+#: dvb/dvbchannelui.cpp:249
 #, fuzzy
 #| msgid "Number"
 msgid "Number:"
 msgstr "Hejmar"
 
-#: dvb/dvbchannelui.cpp:264
+#: dvb/dvbchannelui.cpp:262
 msgid "Network id:"
 msgstr ""
 
-#: dvb/dvbchannelui.cpp:271
+#: dvb/dvbchannelui.cpp:269
 msgid "Transport stream id:"
 msgstr ""
 
-#: dvb/dvbchannelui.cpp:278
+#: dvb/dvbchannelui.cpp:276
 #, fuzzy
 #| msgid "Device %1"
 msgid "Service id:"
 msgstr "Cîhaza %1"
 
-#: dvb/dvbchannelui.cpp:285
+#: dvb/dvbchannelui.cpp:283
 #, fuzzy
 #| msgid "Edit channel"
 msgid "Audio channel:"
 msgstr "Kanalê biguherîne"
 
-#: dvb/dvbchannelui.cpp:293
+#: dvb/dvbchannelui.cpp:291
 msgid "Scrambled:"
 msgstr ""
 
