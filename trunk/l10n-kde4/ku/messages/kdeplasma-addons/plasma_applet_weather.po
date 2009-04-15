@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_weather\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-01 11:21+0200\n"
+"POT-Creation-Date: 2009-04-15 12:05+0200\n"
 "PO-Revision-Date: 2009-01-12 03:03+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -18,108 +18,12 @@ msgstr ""
 "X-Poedit-Language: Kurdish\n"
 "X-Poedit-SourceCharset: utf8\n"
 
-#. i18n: file: weatherAddPlace.ui:19
-#. i18n: ectx: property (windowTitle), widget (QWidget, weatherAddPlace)
-#: rc.cpp:3 weatherapplet.cpp:454 weatherapplet.cpp:467
-msgid "Found Places"
-msgstr "Cihên Hatin Dîtin"
-
-#. i18n: file: weatherAddPlace.ui:25
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:6
-msgid "Found places"
-msgstr "Cihên hatin dîtin"
-
-#. i18n: file: weatherLocations.ui:35
-#. i18n: ectx: property (windowTitle), widget (QWidget, weatherLocations)
-#: rc.cpp:9
-msgid "Locations"
-msgstr "Cih"
-
-#. i18n: file: weatherLocations.ui:57
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:12
-#, fuzzy
-#| msgid "S&ource"
-msgid "S&ource:"
-msgstr "Ç&avkanî"
-
-#. i18n: file: weatherLocations.ui:96
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:15
-#, fuzzy
-#| msgid "City"
-msgid "City:"
-msgstr "Bajar"
-
-#. i18n: file: weatherLocations.ui:142
-#. i18n: ectx: property (text), widget (QPushButton, validateButton)
-#: rc.cpp:18
-#, fuzzy
-#| msgid "&Search"
-msgid "&Search"
-msgstr "&Lêgere"
-
-#. i18n: file: weatherLocations.ui:151
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rc.cpp:21
-#, fuzzy
-#| msgid "Selected city"
-msgid "Selected city:"
-msgstr "Bajarê hilbijartî"
-
-#. i18n: file: weatherLocations.ui:258
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:24
-#, fuzzy
-#| msgid "Update every"
-msgid "Update every:"
-msgstr "Rojane bike her"
-
-#. i18n: file: weatherUnits.ui:34
-#. i18n: ectx: property (windowTitle), widget (QWidget, weatherUnits)
-#: rc.cpp:27
-msgid "Weather Units"
-msgstr "Yeka yên Hewayê"
-
-#. i18n: file: weatherUnits.ui:56
-#. i18n: ectx: property (text), widget (QLabel, label_6)
-#: rc.cpp:30
-#, fuzzy
-#| msgid "&Temperature unit"
-msgid "&Temperature unit:"
-msgstr "Yeke ya &Germahiyê"
-
-#. i18n: file: weatherUnits.ui:79
-#. i18n: ectx: property (text), widget (QLabel, label_5)
-#: rc.cpp:33
-#, fuzzy
-#| msgid "&Wind unit"
-msgid "&Wind unit:"
-msgstr "Yeke ya &Ba"
-
-#. i18n: file: weatherUnits.ui:102
-#. i18n: ectx: property (text), widget (QLabel, label_8)
-#: rc.cpp:36
-#, fuzzy
-#| msgid "&Pressure unit"
-msgid "&Pressure unit:"
-msgstr "Yeke ya &Pestoyê"
-
-#. i18n: file: weatherUnits.ui:125
-#. i18n: ectx: property (text), widget (QLabel, label_7)
-#: rc.cpp:39
-#, fuzzy
-#| msgid "&Visibility unit"
-msgid "&Visibility unit:"
-msgstr "Yeke ya &Xuyanî bûnê"
-
-#: weatherapplet.cpp:212
+#: weatherapplet.cpp:172
 msgctxt "Shown when you have not set a weather provider"
 msgid "Please Configure"
 msgstr "Veavakirina Ji Dil"
 
-#: weatherapplet.cpp:215
+#: weatherapplet.cpp:175
 #, kde-format
 msgctxt ""
 "%1 is the weather condition, %2 is the temperature, both come from the "
@@ -127,235 +31,266 @@ msgctxt ""
 msgid "%1 %2"
 msgstr "%1 %2"
 
-#: weatherapplet.cpp:366
-msgid "The applet was not able to contact the server, please try again later"
-msgstr ""
-"Sepanok nekarî bi pêşkêşker re bikeve têkilî yê, jê kerema xwe paşê cardin "
-"biceribînin "
-
-#: weatherapplet.cpp:369
-msgid ""
-"The data source received a malformed string and was not able to process your "
-"request"
-msgstr ""
-
-#: weatherapplet.cpp:372
-#, kde-format
-msgid ""
-"The place '%1' is not valid. The data source is not able to find this place."
-msgstr "Cihê '%1' ne derbasdar e. Çavkaniya dane nikare vê cihê bibîne."
-
-#: weatherapplet.cpp:372
-msgid "Invalid Place"
-msgstr "Cihê Ne-derbasdar"
-
-#: weatherapplet.cpp:385
-msgid "Location"
-msgstr "Cih"
-
-#: weatherapplet.cpp:386
-msgid "Units"
-msgstr "Yeke"
-
-#: weatherapplet.cpp:398
-msgid "Kilometers Per Hour (km/h)"
-msgstr "Kîlometre Ji Yek Saetê (km/s)"
-
-#: weatherapplet.cpp:399
-msgid "Metres Per Second (m/s)"
-msgstr "Metre Ji Yek Çirkeyê ( m/ç)"
-
-#: weatherapplet.cpp:400
-msgid "Miles Per Hour (mph)"
-msgstr "Mil Ji Yek Saetê (mph)"
-
-#: weatherapplet.cpp:401
-msgid "Knots (kt)"
-msgstr "Knots (kt)"
-
-#: weatherapplet.cpp:402
-msgid "Beaufort Scale"
-msgstr "Pîvanga Beaufort"
-
-#: weatherapplet.cpp:404
-msgid "Celsius"
-msgstr "Santîgrat"
-
-#: weatherapplet.cpp:405
-msgid "Fahrenheit"
-msgstr "Fahrenayt"
-
-#: weatherapplet.cpp:406
-msgid "Kelvin"
-msgstr "Kelvîn"
-
-#: weatherapplet.cpp:408
-msgid "Kilopascals (kPa)"
-msgstr "Kîlopaskal (kPa)"
-
-#: weatherapplet.cpp:409
-msgid "Inches of Mercury (inHg)"
-msgstr "Înçê Cîwa yê (inHg)"
-
-#: weatherapplet.cpp:410
-msgid "Millibars (mb)"
-msgstr "Mîlîbar (mb)"
-
-#: weatherapplet.cpp:411
-msgid "Hectopascals (hPa)"
-msgstr "Hektopaskal (hPa)"
-
-#: weatherapplet.cpp:414
-msgid "Kilometers"
-msgstr "Kîlometre"
-
-#: weatherapplet.cpp:415
-msgid "Miles"
-msgstr "Mîl"
-
-#: weatherapplet.cpp:431
-#, fuzzy
-#| msgid " minutes"
-msgid " minute"
-msgid_plural " minutes"
-msgstr[0] " xulek"
-msgstr[1] " xulek"
-
-#: weatherapplet.cpp:456
-msgid "&Add"
-msgstr "&Lê zêde bike"
-
-#: weatherapplet.cpp:530 weatherapplet.cpp:532 weatherapplet.cpp:537
-#: weatherapplet.cpp:539
+#: weatherapplet.cpp:230 weatherapplet.cpp:232 weatherapplet.cpp:237
+#: weatherapplet.cpp:239
 #, fuzzy, kde-format
 #| msgid "%1%2"
 msgctxt "temperature, unit"
 msgid "%1%2"
 msgstr "%1%2"
 
-#: weatherapplet.cpp:559
+#: weatherapplet.cpp:259
 #, kde-format
 msgid "Low: %1"
 msgstr "Kêm: %1"
 
-#: weatherapplet.cpp:561
+#: weatherapplet.cpp:261
 #, kde-format
 msgid "High: %1"
 msgstr "Zêde: %1"
 
-#: weatherapplet.cpp:563
+#: weatherapplet.cpp:263
 #, fuzzy, kde-format
 #| msgid "H: %1 L: %2"
 msgctxt "High & Low temperature"
 msgid "H: %1 L: %2"
 msgstr "B: %1 F: %2"
 
-#: weatherapplet.cpp:690
+#: weatherapplet.cpp:390
 #, fuzzy, kde-format
 #| msgid "%1 %2%3"
 msgctxt "certain weather condition, probability percentage"
 msgid "%1 (%2%)"
 msgstr "%1 %2%3"
 
-#: weatherapplet.cpp:704 weatherapplet.cpp:716
+#: weatherapplet.cpp:404 weatherapplet.cpp:416
 msgctxt "Short for no data available"
 msgid "-"
 msgstr ""
 
-#: weatherapplet.cpp:745
+#: weatherapplet.cpp:445
 msgid "5 Days"
 msgstr "5 Roj"
 
-#: weatherapplet.cpp:768
+#: weatherapplet.cpp:468
 #, fuzzy, kde-format
 #| msgid "Windchill: %1%2"
 msgctxt "windchill, unit"
 msgid "Windchill: %1"
 msgstr "Germahiya tê bihîstin: %1%2"
 
-#: weatherapplet.cpp:776
+#: weatherapplet.cpp:476
 #, fuzzy, kde-format
 #| msgid "Humidex: %1%2"
 msgctxt "humidex, unit"
 msgid "Humidex: %1"
 msgstr "Xenamî: %1%2"
 
-#: weatherapplet.cpp:783
+#: weatherapplet.cpp:483
 #, kde-format
 msgid "Dewpoint: %1"
 msgstr "Xala Xunavê: %1"
 
-#: weatherapplet.cpp:789
+#: weatherapplet.cpp:489
 #, fuzzy, kde-format
 #| msgid "Pressure: %1%2"
 msgctxt "pressure, unit"
 msgid "Pressure: %1 %2"
 msgstr "Pesto: %1%2"
 
-#: weatherapplet.cpp:795
+#: weatherapplet.cpp:495
 #, kde-format
 msgid "Pressure Tendency: %1"
 msgstr "Meyla Pestoyê: %1"
 
-#: weatherapplet.cpp:805
+#: weatherapplet.cpp:505
 #, fuzzy, kde-format
 #| msgid "Visibility: %1%2"
 msgctxt "distance, unit"
 msgid "Visibility: %1 %2"
 msgstr "Xuyanî bûn: %1%2"
 
-#: weatherapplet.cpp:807
+#: weatherapplet.cpp:507
 #, kde-format
 msgid "Visibility: %1"
 msgstr "Xuyanî bûn: %1"
 
-#: weatherapplet.cpp:815
+#: weatherapplet.cpp:515
 #, kde-format
 msgid "Humidity: %1"
 msgstr "Xenam: %1"
 
-#: weatherapplet.cpp:820
+#: weatherapplet.cpp:520
 #, fuzzy, kde-format
 #| msgid "%1 %2%3"
 msgctxt "wind direction, speed"
 msgid "%1 %2 %3"
 msgstr "%1 %2%3"
 
-#: weatherapplet.cpp:824
+#: weatherapplet.cpp:524
 #, fuzzy
 #| msgid "N/A"
 msgctxt "Not available"
 msgid "N/A"
 msgstr "Ne-Çalak"
 
-#: weatherapplet.cpp:827
+#: weatherapplet.cpp:527
 #, fuzzy
 #| msgid "Calm"
 msgctxt "Wind condition"
 msgid "Calm"
 msgstr "Aram"
 
-#: weatherapplet.cpp:840
+#: weatherapplet.cpp:540
 #, fuzzy, kde-format
 #| msgid "Wind Gust: %1%2"
 msgid "Wind Gust: %1 %2"
 msgstr "Bahoz: %1%2"
 
-#: weatherapplet.cpp:848
+#: weatherapplet.cpp:548
 msgid "Details"
 msgstr "Kitekît"
 
-#: weatherapplet.cpp:863
+#: weatherapplet.cpp:563
 msgid "Warnings Issued:"
 msgstr "Tiştên Hişyariyê:"
 
-#: weatherapplet.cpp:900
+#: weatherapplet.cpp:600
 msgid "Watches Issued:"
 msgstr "Tiştên Nihêrînê:"
 
-#: weatherapplet.cpp:926
+#: weatherapplet.cpp:626
 msgid "Notices"
 msgstr "Hişyarî"
+
+#~ msgid "Found Places"
+#~ msgstr "Cihên Hatin Dîtin"
+
+#~ msgid "Found places"
+#~ msgstr "Cihên hatin dîtin"
+
+#~ msgid "Locations"
+#~ msgstr "Cih"
+
+#, fuzzy
+#~| msgid "S&ource"
+#~ msgid "S&ource:"
+#~ msgstr "Ç&avkanî"
+
+#, fuzzy
+#~| msgid "City"
+#~ msgid "City:"
+#~ msgstr "Bajar"
+
+#, fuzzy
+#~| msgid "&Search"
+#~ msgid "&Search"
+#~ msgstr "&Lêgere"
+
+#, fuzzy
+#~| msgid "Selected city"
+#~ msgid "Selected city:"
+#~ msgstr "Bajarê hilbijartî"
+
+#, fuzzy
+#~| msgid "Update every"
+#~ msgid "Update every:"
+#~ msgstr "Rojane bike her"
+
+#~ msgid "Weather Units"
+#~ msgstr "Yeka yên Hewayê"
+
+#, fuzzy
+#~| msgid "&Temperature unit"
+#~ msgid "&Temperature unit:"
+#~ msgstr "Yeke ya &Germahiyê"
+
+#, fuzzy
+#~| msgid "&Wind unit"
+#~ msgid "&Wind unit:"
+#~ msgstr "Yeke ya &Ba"
+
+#, fuzzy
+#~| msgid "&Pressure unit"
+#~ msgid "&Pressure unit:"
+#~ msgstr "Yeke ya &Pestoyê"
+
+#, fuzzy
+#~| msgid "&Visibility unit"
+#~ msgid "&Visibility unit:"
+#~ msgstr "Yeke ya &Xuyanî bûnê"
+
+#~ msgid ""
+#~ "The applet was not able to contact the server, please try again later"
+#~ msgstr ""
+#~ "Sepanok nekarî bi pêşkêşker re bikeve têkilî yê, jê kerema xwe paşê "
+#~ "cardin biceribînin "
+
+#~ msgid ""
+#~ "The place '%1' is not valid. The data source is not able to find this "
+#~ "place."
+#~ msgstr "Cihê '%1' ne derbasdar e. Çavkaniya dane nikare vê cihê bibîne."
+
+#~ msgid "Invalid Place"
+#~ msgstr "Cihê Ne-derbasdar"
+
+#~ msgid "Location"
+#~ msgstr "Cih"
+
+#~ msgid "Units"
+#~ msgstr "Yeke"
+
+#~ msgid "Kilometers Per Hour (km/h)"
+#~ msgstr "Kîlometre Ji Yek Saetê (km/s)"
+
+#~ msgid "Metres Per Second (m/s)"
+#~ msgstr "Metre Ji Yek Çirkeyê ( m/ç)"
+
+#~ msgid "Miles Per Hour (mph)"
+#~ msgstr "Mil Ji Yek Saetê (mph)"
+
+#~ msgid "Knots (kt)"
+#~ msgstr "Knots (kt)"
+
+#~ msgid "Beaufort Scale"
+#~ msgstr "Pîvanga Beaufort"
+
+#~ msgid "Celsius"
+#~ msgstr "Santîgrat"
+
+#~ msgid "Fahrenheit"
+#~ msgstr "Fahrenayt"
+
+#~ msgid "Kelvin"
+#~ msgstr "Kelvîn"
+
+#~ msgid "Kilopascals (kPa)"
+#~ msgstr "Kîlopaskal (kPa)"
+
+#~ msgid "Inches of Mercury (inHg)"
+#~ msgstr "Înçê Cîwa yê (inHg)"
+
+#~ msgid "Millibars (mb)"
+#~ msgstr "Mîlîbar (mb)"
+
+#~ msgid "Hectopascals (hPa)"
+#~ msgstr "Hektopaskal (hPa)"
+
+#~ msgid "Kilometers"
+#~ msgstr "Kîlometre"
+
+#~ msgid "Miles"
+#~ msgstr "Mîl"
+
+#, fuzzy
+#~| msgid " minutes"
+#~ msgid " minute"
+#~ msgid_plural " minutes"
+#~ msgstr[0] " xulek"
+#~ msgstr[1] " xulek"
+
+#~ msgid "&Add"
+#~ msgstr "&Lê zêde bike"
 
 #, fuzzy
 #~| msgid "Update every"
