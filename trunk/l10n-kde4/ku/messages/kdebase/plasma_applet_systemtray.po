@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_systemtray\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-13 11:05+0200\n"
+"POT-Creation-Date: 2009-04-16 11:17+0200\n"
 "PO-Revision-Date: 2008-12-26 01:38+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -37,7 +37,7 @@ msgstr ""
 
 #. i18n: file: ui/protocols.ui:36
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:8 ui/applet.cpp:386
+#: rc.cpp:8 ui/applet.cpp:385
 #, fuzzy
 #| msgid "Notification from %1"
 msgid "Notifications"
@@ -97,27 +97,21 @@ msgstr ""
 msgid "No notifications and no jobs"
 msgstr "Tu hişyarî û xebat tune ye"
 
-#: ui/applet.cpp:364
+#: ui/applet.cpp:363
 msgid "Visible icons:"
 msgstr "Îkonên xuya:"
 
-#: ui/applet.cpp:365
+#: ui/applet.cpp:364
 msgid "Hidden icons:"
 msgstr "îkonên veşartî:"
 
-#: ui/applet.cpp:385
+#: ui/applet.cpp:384
 msgid "Auto Hide"
 msgstr ""
 
-#: ui/extendertask.cpp:82
+#: ui/extendertask.cpp:134
 msgid "Show or hide notifications and jobs"
 msgstr "Hişyarî û xebatan nîşan bide û veşêre"
-
-#: ui/extendertask.cpp:109
-#, fuzzy
-#| msgid "toggle visibility of notifications and jobs"
-msgid "Toggle visibility of notifications and jobs"
-msgstr "xuya kirina geh yê hişyarî yan û xebatan"
 
 #: ui/jobwidget.cpp:95 ui/jobwidget.cpp:281
 msgid "more"
@@ -184,6 +178,11 @@ msgstr ""
 #, kde-format
 msgid "Notification from %1"
 msgstr "Hişyarî jê %1 "
+
+#, fuzzy
+#~| msgid "toggle visibility of notifications and jobs"
+#~ msgid "Toggle visibility of notifications and jobs"
+#~ msgstr "xuya kirina geh yê hişyarî yan û xebatan"
 
 #, fuzzy
 #~| msgid "Show or hide notifications and jobs"
