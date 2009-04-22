@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaffeine4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-19 11:13+0200\n"
+"POT-Creation-Date: 2009-04-22 11:37+0200\n"
 "PO-Revision-Date: 2008-12-20 16:02+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -128,7 +128,7 @@ msgstr "Medya lêdarek ji bo KDE bi piştgirî ya dîjîtal tv re"
 msgid "(C) 2007 The Kaffeine Authors"
 msgstr "(C) 2007 The Kaffeine Authors"
 
-#: mediawidget.cpp:91 mediawidget.cpp:244
+#: mediawidget.cpp:91 mediawidget.cpp:271
 #, fuzzy
 #| msgid "Position"
 msgid "Jump to Position"
@@ -160,7 +160,7 @@ msgstr "Rawestîne"
 msgid "Next"
 msgstr "Pêş"
 
-#: mediawidget.cpp:176 dvb/dvbtab.cpp:491
+#: mediawidget.cpp:176 dvb/dvbtab.cpp:511
 msgid "off"
 msgstr ""
 
@@ -183,46 +183,68 @@ msgid "Mute Volume"
 msgstr ""
 
 #: mediawidget.cpp:208
+msgid "Aspect Ratio"
+msgstr ""
+
+#: mediawidget.cpp:211
+#, fuzzy
+#| msgid "Radio"
+msgid "Auto"
+msgstr "Radyo"
+
+#: mediawidget.cpp:217
+msgid "4:3"
+msgstr ""
+
+#: mediawidget.cpp:222
+msgid "16:9"
+msgstr ""
+
+#: mediawidget.cpp:227
+msgid "Fit to Window"
+msgstr ""
+
+#: mediawidget.cpp:235
 msgid "Volume Slider"
 msgstr ""
 
-#: mediawidget.cpp:221
+#: mediawidget.cpp:248
 #, fuzzy
 #| msgid "Position"
 msgid "Navigation"
 msgstr "Derawa"
 
-#: mediawidget.cpp:223
+#: mediawidget.cpp:250
 msgid "Skip 1min Backward"
 msgstr ""
 
-#: mediawidget.cpp:228
+#: mediawidget.cpp:255
 msgid "Skip 10s Backward"
 msgstr ""
 
-#: mediawidget.cpp:233
+#: mediawidget.cpp:260
 msgid "Skip 10s Forward"
 msgstr ""
 
-#: mediawidget.cpp:238
+#: mediawidget.cpp:265
 msgid "Skip 1min Forward"
 msgstr ""
 
-#: mediawidget.cpp:257
+#: mediawidget.cpp:284 dvb/dvbepg.cpp:217
 #, fuzzy
 #| msgid "&File"
 msgid "Title"
 msgstr "&Pel"
 
-#: mediawidget.cpp:266
+#: mediawidget.cpp:293
 msgid "Chapter"
 msgstr ""
 
-#: mediawidget.cpp:275
+#: mediawidget.cpp:302
 msgid "Angle"
 msgstr ""
 
-#: mediawidget.cpp:284
+#: mediawidget.cpp:311
 msgid "Switch between elapsed and remaining time display"
 msgstr ""
 
@@ -238,7 +260,7 @@ msgstr "oensari@gmail.com"
 
 #. i18n: file: dvb/dvbscandialog.ui:8
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:5 dvb/dvbscandialog.cpp:163 dvb/dvbtab.cpp:181
+#: rc.cpp:5 dvb/dvbscandialog.cpp:163 dvb/dvbtab.cpp:183
 msgid "Channels"
 msgstr "Kanal"
 
@@ -268,7 +290,7 @@ msgstr "Lêgerîna kanalan"
 
 #. i18n: file: dvb/dvbscandialog.ui:53
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:20 dvb/dvbchannelui.cpp:285 dvb/dvbconfigdialog.cpp:481
+#: rc.cpp:20 dvb/dvbchannelui.cpp:388 dvb/dvbconfigdialog.cpp:481
 msgid "Source:"
 msgstr "Çavkanî:"
 
@@ -338,153 +360,153 @@ msgstr "Encamên Lê nihêrîn ê"
 msgid "Add selected"
 msgstr "Yê hilbijartî lê zêde bike"
 
-#: dvb/dvbchannel.cpp:131
+#: dvb/dvbchannelui.cpp:73
 #, fuzzy
 #| msgid "Horizontal LOF (MHz)"
 msgid "Horizontal"
 msgstr "LOF a berwarî (MHz)"
 
-#: dvb/dvbchannel.cpp:132
+#: dvb/dvbchannelui.cpp:74
 #, fuzzy
 #| msgid "Terrestrial"
 msgid "Vertical"
 msgstr "Herêmî"
 
-#: dvb/dvbchannel.cpp:133
+#: dvb/dvbchannelui.cpp:75
 msgid "Circular left"
 msgstr ""
 
-#: dvb/dvbchannel.cpp:134
+#: dvb/dvbchannelui.cpp:76
 msgid "Circular right"
 msgstr ""
 
-#: dvb/dvbchannelui.cpp:99 dvb/dvbrecording.cpp:305 dvb/dvbscandialog.cpp:151
+#: dvb/dvbchannelui.cpp:201 dvb/dvbrecording.cpp:305 dvb/dvbscandialog.cpp:151
 msgid "Name"
 msgstr "Nav"
 
-#: dvb/dvbchannelui.cpp:101
+#: dvb/dvbchannelui.cpp:203
 msgid "Number"
 msgstr "Hejmar"
 
-#: dvb/dvbchannelui.cpp:204
+#: dvb/dvbchannelui.cpp:306
 msgid "Edit channel"
 msgstr "Kanalê biguherîne"
 
-#: dvb/dvbchannelui.cpp:208
+#: dvb/dvbchannelui.cpp:310
 msgid "Change icon"
 msgstr "Sembolê Biguherîne"
 
-#: dvb/dvbchannelui.cpp:219
+#: dvb/dvbchannelui.cpp:321
 msgid "Delete channel"
 msgstr "Kanalê jê bibe"
 
-#: dvb/dvbchannelui.cpp:261
+#: dvb/dvbchannelui.cpp:364
 #, fuzzy
 #| msgid "Channels"
 msgid "Channel Settings"
 msgstr "Kanal"
 
-#: dvb/dvbchannelui.cpp:267 dvb/dvbconfigdialog.cpp:490
+#: dvb/dvbchannelui.cpp:370 dvb/dvbconfigdialog.cpp:490
 #: dvb/dvbrecording.cpp:507
 msgid "Name:"
 msgstr "Nav:"
 
-#: dvb/dvbchannelui.cpp:273
+#: dvb/dvbchannelui.cpp:376
 #, fuzzy
 #| msgid "Number"
 msgid "Number:"
 msgstr "Hejmar"
 
-#: dvb/dvbchannelui.cpp:291 dvb/dvbchannelui.cpp:305 dvb/dvbchannelui.cpp:315
-#: dvb/dvbchannelui.cpp:335
+#: dvb/dvbchannelui.cpp:394 dvb/dvbchannelui.cpp:408 dvb/dvbchannelui.cpp:418
+#: dvb/dvbchannelui.cpp:438
 #, fuzzy
 #| msgid "Switch frequency (MHz)"
 msgid "Frequency (MHz):"
 msgstr "Derbasbûna frekansê (MHz)"
 
-#: dvb/dvbchannelui.cpp:293 dvb/dvbchannelui.cpp:307
+#: dvb/dvbchannelui.cpp:396 dvb/dvbchannelui.cpp:410
 msgid "Symbol rate (kS/s):"
 msgstr ""
 
-#: dvb/dvbchannelui.cpp:295 dvb/dvbchannelui.cpp:319 dvb/dvbchannelui.cpp:337
+#: dvb/dvbchannelui.cpp:398 dvb/dvbchannelui.cpp:422 dvb/dvbchannelui.cpp:440
 #, fuzzy
 #| msgid "Configuration:"
 msgid "Modulation:"
 msgstr "Mîhengkirin:"
 
-#: dvb/dvbchannelui.cpp:297 dvb/dvbchannelui.cpp:309 dvb/dvbchannelui.cpp:321
+#: dvb/dvbchannelui.cpp:400 dvb/dvbchannelui.cpp:412 dvb/dvbchannelui.cpp:424
 msgid "FEC rate:"
 msgstr ""
 
-#: dvb/dvbchannelui.cpp:303
+#: dvb/dvbchannelui.cpp:406
 #, fuzzy
 #| msgid "Position"
 msgid "Polarization:"
 msgstr "Derawa"
 
-#: dvb/dvbchannelui.cpp:317
+#: dvb/dvbchannelui.cpp:420
 msgid "Bandwidth:"
 msgstr ""
 
-#: dvb/dvbchannelui.cpp:323
+#: dvb/dvbchannelui.cpp:426
 msgid "FEC rate LP:"
 msgstr ""
 
-#: dvb/dvbchannelui.cpp:325
+#: dvb/dvbchannelui.cpp:428
 msgid "Transmission mode:"
 msgstr ""
 
-#: dvb/dvbchannelui.cpp:327
+#: dvb/dvbchannelui.cpp:430
 msgid "Guard interval:"
 msgstr ""
 
-#: dvb/dvbchannelui.cpp:329
+#: dvb/dvbchannelui.cpp:432
 #, fuzzy
 #| msgid "Search:"
 msgid "Hierarchy:"
 msgstr "Lêgere:"
 
-#: dvb/dvbchannelui.cpp:345
+#: dvb/dvbchannelui.cpp:448
 msgid "PMT PID:"
 msgstr ""
 
-#: dvb/dvbchannelui.cpp:348
+#: dvb/dvbchannelui.cpp:451
 #, fuzzy
 #| msgid "Play Video CD"
 msgid "Video PID:"
 msgstr "CD ya Vîdeoyê Lê Bide"
 
-#: dvb/dvbchannelui.cpp:357
+#: dvb/dvbchannelui.cpp:460
 #, fuzzy
 #| msgid "Play Video CD"
 msgid "Subtitle PID:"
 msgstr "CD ya Vîdeoyê Lê Bide"
 
-#: dvb/dvbchannelui.cpp:365
+#: dvb/dvbchannelui.cpp:468
 msgid "Teletext PID:"
 msgstr ""
 
-#: dvb/dvbchannelui.cpp:375
+#: dvb/dvbchannelui.cpp:478
 msgid "Network ID:"
 msgstr ""
 
-#: dvb/dvbchannelui.cpp:382
+#: dvb/dvbchannelui.cpp:485
 msgid "Transport stream ID:"
 msgstr ""
 
-#: dvb/dvbchannelui.cpp:389
+#: dvb/dvbchannelui.cpp:492
 #, fuzzy
 #| msgid "Device %1"
 msgid "Service ID:"
 msgstr "Cîhaza %1"
 
-#: dvb/dvbchannelui.cpp:396
+#: dvb/dvbchannelui.cpp:499
 #, fuzzy
 #| msgid "Edit channel"
 msgid "Audio channel:"
 msgstr "Kanalê biguherîne"
 
-#: dvb/dvbchannelui.cpp:420
+#: dvb/dvbchannelui.cpp:523
 msgid "Scrambled:"
 msgstr ""
 
@@ -681,23 +703,42 @@ msgstr "LOF a tîkane (MHz)"
 msgid "LOF (MHz)"
 msgstr "LOF (MHz)"
 
+#: dvb/dvbepg.cpp:213 dvb/dvbrecording.cpp:309
+msgid "Begin"
+msgstr ""
+
+#: dvb/dvbepg.cpp:215 dvb/dvbrecording.cpp:311
+#, fuzzy
+#| msgid "Configuration:"
+msgid "Duration"
+msgstr "Mîhengkirin:"
+
+#: dvb/dvbepg.cpp:364
+msgid "Electronic Program Guide"
+msgstr ""
+
+#: dvb/dvbepg.cpp:442
+#, kde-format
+msgid "<font color=#008000 size=\"+1\">%1</font><br>"
+msgstr ""
+
+#: dvb/dvbepg.cpp:445
+#, kde-format
+msgid "<font color=#808000>%1</font><br>"
+msgstr ""
+
+#: dvb/dvbepg.cpp:448
+#, kde-format
+msgid "<font color=#800000>%1 - %2</font><br><br>"
+msgstr ""
+
 #: dvb/dvbrecording.cpp:307
 #, fuzzy
 #| msgid "Channels"
 msgid "Channel"
 msgstr "Kanal"
 
-#: dvb/dvbrecording.cpp:309
-msgid "Begin"
-msgstr ""
-
-#: dvb/dvbrecording.cpp:311
-#, fuzzy
-#| msgid "Configuration:"
-msgid "Duration"
-msgstr "Mîhengkirin:"
-
-#: dvb/dvbrecording.cpp:412 dvb/dvbtab.cpp:186
+#: dvb/dvbrecording.cpp:412 dvb/dvbtab.cpp:193
 msgid "Recordings"
 msgstr ""
 
@@ -765,7 +806,7 @@ msgstr "Lê nihêrîn bide destpê kirin"
 msgid "Current transponder"
 msgstr "Bersîvdar(sînyalên radyo re) ê heyî"
 
-#: dvb/dvbscandialog.cpp:261 dvb/dvbtab.cpp:450
+#: dvb/dvbscandialog.cpp:261 dvb/dvbtab.cpp:470
 msgid "No suitable device found."
 msgstr "Tu cihazên lêhatî nedît."
 
@@ -773,15 +814,19 @@ msgstr "Tu cihazên lêhatî nedît."
 msgid "Stop scan"
 msgstr "Lê nihêrîn ê rawestîne "
 
-#: dvb/dvbtab.cpp:194
-msgid "Instant Record"
+#: dvb/dvbtab.cpp:188
+msgid "EPG"
 msgstr ""
 
 #: dvb/dvbtab.cpp:201
+msgid "Instant Record"
+msgstr ""
+
+#: dvb/dvbtab.cpp:208
 msgid "Configure DVB"
 msgstr "DVB Mîheng Bike"
 
-#: dvb/dvbtab.cpp:229
+#: dvb/dvbtab.cpp:236
 msgid "Search:"
 msgstr "Lêgere:"
 
