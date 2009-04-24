@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gwenview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-23 11:09+0200\n"
+"POT-Creation-Date: 2009-04-24 11:14+0200\n"
 "PO-Revision-Date: 2009-01-22 22:46+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -414,26 +414,26 @@ msgstr ""
 "Lêborîne, nihêrîna bi etîket re tune ye. Baş bizane ku Nepomuk di komputera "
 "te de saz kirî ye."
 
-#: app/startpage.cpp:239
+#: app/startpage.cpp:241
 #, fuzzy
 #| msgctxt "@action:inmenu"
 #| msgid "Add Folder to Places"
 msgid "Add to Places"
 msgstr "Lê Qadan Peldank Zêde Bike"
 
-#: app/startpage.cpp:240
+#: app/startpage.cpp:242
 #, fuzzy
 #| msgid "Create Folder"
 msgid "Forget this Url"
 msgstr "Peldank Biafirîne"
 
-#: app/startpage.cpp:240
+#: app/startpage.cpp:242
 #, fuzzy
 #| msgid "Create Folder"
 msgid "Forget this Folder"
 msgstr "Peldank Biafirîne"
 
-#: app/startpage.cpp:242
+#: app/startpage.cpp:244
 msgid "Forget All"
 msgstr ""
 
@@ -633,97 +633,101 @@ msgctxt "@action Switch to image view"
 msgid "View"
 msgstr "Bibîne"
 
-#: app/mainwindow.cpp:311
+#: app/mainwindow.cpp:305
+msgctxt "@action Go back to a more general page (start page <- list <- image)"
+msgid "Back"
+msgstr ""
+
+#: app/mainwindow.cpp:310
 msgctxt "@action Go to previous image"
 msgid "Previous"
 msgstr "Paş"
 
-#: app/mainwindow.cpp:312
+#: app/mainwindow.cpp:311
 msgid "Go to Previous Image"
 msgstr "Biçe Wêneya Paş"
 
-#: app/mainwindow.cpp:317
+#: app/mainwindow.cpp:316
 msgctxt "@action Go to next image"
 msgid "Next"
 msgstr "Pêş"
 
-#: app/mainwindow.cpp:318
+#: app/mainwindow.cpp:317
 msgid "Go to Next Image"
 msgstr "Biçe Wêneya Pêş"
 
-#: app/mainwindow.cpp:326
+#: app/mainwindow.cpp:325
 msgctxt "@action"
 msgid "Start Page"
 msgstr "Rûpela Destpêkê"
 
-#: app/mainwindow.cpp:355
+#: app/mainwindow.cpp:332
+#, fuzzy
+#| msgid "Hide Sidebar"
+msgctxt "@action"
+msgid "Sidebar"
+msgstr "Darika-kêlekê Veşêre"
+
+#: app/mainwindow.cpp:357
 msgctxt "@title actions category - means actions changing smth in interface"
 msgid "Edit"
 msgstr "Serast Bike"
 
-#: app/mainwindow.cpp:360
+#: app/mainwindow.cpp:362
 msgid "Redo"
 msgstr "Dîsa Bike"
 
-#: app/mainwindow.cpp:367
+#: app/mainwindow.cpp:369
 msgid "Undo"
 msgstr "Şûnde Bîne"
 
-#: app/mainwindow.cpp:403
+#: app/mainwindow.cpp:405
 #, fuzzy
 #| msgid "Recent Folders"
 msgid "Folders"
 msgstr "Peldankên Borî"
 
-#: app/mainwindow.cpp:407
+#: app/mainwindow.cpp:409
 #, fuzzy
 #| msgid "Meta Information"
 msgid "Information"
 msgstr "Agahiya Meta"
 
-#: app/mainwindow.cpp:415
+#: app/mainwindow.cpp:417
 #, fuzzy
 #| msgid "File Operations"
 msgid "Operations"
 msgstr "Xebatên Pelê"
 
-#: app/mainwindow.cpp:451
-msgid "Hide Sidebar"
-msgstr "Darika-kêlekê Veşêre"
-
-#: app/mainwindow.cpp:453
-msgid "Show Sidebar"
-msgstr "Darika-kêlekê Nîşan Bide"
-
-#: app/mainwindow.cpp:1114
+#: app/mainwindow.cpp:1107
 msgctxt "@title:window"
 msgid "Open Image"
 msgstr "Wêneyê Veke"
 
-#: app/mainwindow.cpp:1157
+#: app/mainwindow.cpp:1150
 msgid "Stop Slideshow"
 msgstr "Nîşandana-slaytê Rawestîne"
 
-#: app/mainwindow.cpp:1160
+#: app/mainwindow.cpp:1153
 msgid "Start Slideshow"
 msgstr "Nîşandana-slaytê Bide Destpêkirin"
 
-#: app/mainwindow.cpp:1183
+#: app/mainwindow.cpp:1176
 msgid "Save All Changes"
 msgstr "Hemû Guherandinan Tomar Bike"
 
-#: app/mainwindow.cpp:1184
+#: app/mainwindow.cpp:1177
 msgid "Discard Changes"
 msgstr "Guhertinan Jê Bibe"
 
-#: app/mainwindow.cpp:1185
+#: app/mainwindow.cpp:1178
 #, kde-format
 msgid "One image has been modified."
 msgid_plural "%1 images have been modified."
 msgstr[0] "Yek wêne hatiye guhertin."
 msgstr[1] "%1 wêne hatine guhertin."
 
-#: app/mainwindow.cpp:1187
+#: app/mainwindow.cpp:1180
 msgid "If you quit now, your changes will be lost."
 msgstr "Heke tu niha derkevî, guherandinên te dê winda bin."
 
@@ -1113,8 +1117,10 @@ msgstr "Peldankên Borî"
 #. i18n: file: app/startpage.ui:158
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: rc.cpp:87
-msgid "URL Bag"
-msgstr ""
+#, fuzzy
+#| msgid "Recent Folders"
+msgid "Recent URLs"
+msgstr "Peldankên Borî"
 
 #. i18n: file: app/gwenviewui.rc:49
 #. i18n: ectx: Menu (rating)
@@ -1424,6 +1430,9 @@ msgstr "&Pel"
 #: rc.cpp:240
 msgid "&View"
 msgstr "&Bibîne"
+
+#~ msgid "Show Sidebar"
+#~ msgstr "Darika-kêlekê Nîşan Bide"
 
 #, fuzzy
 #~| msgid "Crop"
