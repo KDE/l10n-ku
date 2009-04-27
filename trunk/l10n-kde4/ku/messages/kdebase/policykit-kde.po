@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: policykit-kde\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-09 11:05+0100\n"
+"POT-Creation-Date: 2009-04-27 10:59+0200\n"
 "PO-Revision-Date: 2009-01-19 18:56+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -32,7 +32,9 @@ msgstr "Nasnav ji bo root:"
 msgid "Password for %1:"
 msgstr "Nasnav ji bo %1:"
 
-#: AuthDialog.cpp:134
+#. i18n: file: AuthDialog.ui:100
+#. i18n: ectx: property (text), widget (QLabel, lblPassword)
+#: AuthDialog.cpp:134 rc.cpp:12 rc.cpp:50
 msgid "Password:"
 msgstr "Nasnav:"
 
@@ -205,12 +207,6 @@ msgstr "<b>Sernivîs li vir e!</b>"
 msgid "<i>Content</i>"
 msgstr "<i>Naverok</i>"
 
-#. i18n: file: AuthDialog.ui:100
-#. i18n: ectx: property (text), widget (QLabel, lblPassword)
-#: rc.cpp:12 rc.cpp:50
-msgid "Password"
-msgstr "Nasnav"
-
 #. i18n: file: AuthDialog.ui:130
 #. i18n: ectx: property (text), widget (QCheckBox, cbSessionOnly)
 #: rc.cpp:18 rc.cpp:56
@@ -262,6 +258,9 @@ msgstr "Omer Ensari"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "oensari@gmail.com"
+
+#~ msgid "Password"
+#~ msgstr "Nasnav"
 
 #~ msgid "Author"
 #~ msgstr "Nivîskar"
