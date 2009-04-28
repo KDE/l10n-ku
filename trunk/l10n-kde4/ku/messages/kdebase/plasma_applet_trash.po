@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_trash\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-23 11:08+0200\n"
+"POT-Creation-Date: 2009-04-28 11:16+0200\n"
 "PO-Revision-Date: 2008-12-26 01:52+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <ku@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "X-Poedit-Language: Kurdish\n"
 
-#: trash.cpp:117 trash.cpp:133 trash.cpp:168 trash.cpp:237
+#: trash.cpp:117 trash.cpp:133 trash.cpp:168 trash.cpp:239
 msgid "Trash"
 msgstr "Çop"
 
@@ -26,7 +26,7 @@ msgstr "Çop"
 msgid "&Open"
 msgstr "&Vekirin"
 
-#: trash.cpp:129
+#: trash.cpp:129 trash.cpp:233
 msgid "&Empty Trashcan"
 msgstr "Copê &Vala Bike"
 
@@ -34,24 +34,30 @@ msgstr "Copê &Vala Bike"
 msgid "&Menu"
 msgstr "&Pêşek"
 
-#: trash.cpp:169 trash.cpp:242 trash.cpp:244
+#: trash.cpp:169 trash.cpp:244 trash.cpp:246
 #, kde-format
 msgid "One item"
 msgid_plural "%1 items"
 msgstr[0] "Hêmanek"
 msgstr[1] "%1 hêman"
 
-#: trash.cpp:204
+#: trash.cpp:202
 msgctxt "@info"
 msgid "Do you really want to empty the trash? All items will be deleted."
 msgstr "Tu ji dil dixwazî çopê vala bikî? Hemû hêman wê bên jê birin."
 
-#: trash.cpp:209
+#: trash.cpp:207
 msgctxt "@action:button"
 msgid "Empty Trash"
 msgstr "Copê Vala Bike"
 
-#: trash.cpp:249 trash.cpp:251
+#: trash.cpp:216
+#, fuzzy
+#| msgid "&Empty Trashcan"
+msgid "Emptying Trashcan..."
+msgstr "Copê &Vala Bike"
+
+#: trash.cpp:251 trash.cpp:253
 msgctxt "The trash is empty. This is not an action, but a state"
 msgid "Empty"
 msgstr "Vala"
