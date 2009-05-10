@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaffeine\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-05-09 11:57+0200\n"
+"POT-Creation-Date: 2009-05-10 11:16+0200\n"
 "PO-Revision-Date: 2008-12-20 16:02+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -274,7 +274,7 @@ msgctxt "submenu of skip"
 msgid "Skip 1min Forward"
 msgstr ""
 
-#: mediawidget.cpp:294 dvb/dvbepg.cpp:215 playlist/playlistmodel.cpp:113
+#: mediawidget.cpp:294 dvb/dvbepg.cpp:217 playlist/playlistmodel.cpp:113
 #, fuzzy
 #| msgid "&File"
 msgid "Title"
@@ -340,15 +340,18 @@ msgstr "Nav"
 msgid "Number"
 msgstr "Hejmar"
 
-#: dvb/dvbchannelui.cpp:369 dvb/dvbrecording.cpp:422 dvb/dvbrecording.cpp:442
+#: dvb/dvbchannelui.cpp:369 dvb/dvbrecording.cpp:423 dvb/dvbrecording.cpp:444
 #: dvb/dvbscandialog.cpp:205
 msgid "Edit"
 msgstr ""
 
-#: dvb/dvbchannelui.cpp:382 dvb/dvbrecording.cpp:426 dvb/dvbrecording.cpp:446
-#: dvb/dvbscandialog.cpp:209
+#: dvb/dvbchannelui.cpp:382 dvb/dvbrecording.cpp:428 dvb/dvbrecording.cpp:448
+#: dvb/dvbscandialog.cpp:210 playlist/playlisttab.cpp:233
+#, fuzzy
+#| msgid "Remove satellite"
+msgctxt "remove an item from a list"
 msgid "Remove"
-msgstr ""
+msgstr "Dûvelangê rake"
 
 #: dvb/dvbchannelui.cpp:422
 #, fuzzy
@@ -357,7 +360,7 @@ msgid "Channel Settings"
 msgstr "Kanal"
 
 #: dvb/dvbchannelui.cpp:428 dvb/dvbconfigdialog.cpp:505
-#: dvb/dvbrecording.cpp:514
+#: dvb/dvbrecording.cpp:516
 msgid "Name:"
 msgstr "Nav:"
 
@@ -368,7 +371,7 @@ msgid "Number:"
 msgstr "Hejmar"
 
 #: dvb/dvbchannelui.cpp:446 dvb/dvbconfigdialog.cpp:496
-#: dvb/dvbscandialog.cpp:232
+#: dvb/dvbscandialog.cpp:234
 msgid "Source:"
 msgstr "Çavkanî:"
 
@@ -705,31 +708,31 @@ msgstr "LOF a tîkane (MHz)"
 msgid "LOF (MHz)"
 msgstr "LOF (MHz)"
 
-#: dvb/dvbepg.cpp:211 dvb/dvbrecording.cpp:307
+#: dvb/dvbepg.cpp:213 dvb/dvbrecording.cpp:307
 msgid "Begin"
 msgstr ""
 
-#: dvb/dvbepg.cpp:213 dvb/dvbrecording.cpp:309
+#: dvb/dvbepg.cpp:215 dvb/dvbrecording.cpp:309
 #, fuzzy
 #| msgid "Configuration:"
 msgid "Duration"
 msgstr "Mîhengkirin:"
 
-#: dvb/dvbepg.cpp:363 dvb/dvbtab.cpp:221
+#: dvb/dvbepg.cpp:370 dvb/dvbtab.cpp:221
 msgid "Program Guide"
 msgstr ""
 
-#: dvb/dvbepg.cpp:443
+#: dvb/dvbepg.cpp:460
 #, kde-format
 msgid "<font color=#008000 size=\"+1\">%1</font><br>"
 msgstr ""
 
-#: dvb/dvbepg.cpp:446
+#: dvb/dvbepg.cpp:463
 #, kde-format
 msgid "<font color=#808000>%1</font><br>"
 msgstr ""
 
-#: dvb/dvbepg.cpp:452
+#: dvb/dvbepg.cpp:466
 #, kde-format
 msgid "<font color=#800000>%1 - %2</font><br><br>"
 msgstr ""
@@ -745,32 +748,35 @@ msgctxt "dialog"
 msgid "Recording Schedule"
 msgstr ""
 
-#: dvb/dvbrecording.cpp:418
+#: dvb/dvbrecording.cpp:419 playlist/playlisttab.cpp:228
+#, fuzzy
+#| msgid "New"
+msgctxt "add a new item to a list"
 msgid "New"
 msgstr "Nû"
 
-#: dvb/dvbrecording.cpp:509
+#: dvb/dvbrecording.cpp:511
 msgctxt "subdialog of recording schedule"
 msgid "Edit Schedule Entry"
 msgstr ""
 
-#: dvb/dvbrecording.cpp:521
+#: dvb/dvbrecording.cpp:523
 #, fuzzy
 #| msgid "Channels"
 msgid "Channel:"
 msgstr "Kanal"
 
-#: dvb/dvbrecording.cpp:537
+#: dvb/dvbrecording.cpp:539
 msgid "Begin:"
 msgstr ""
 
-#: dvb/dvbrecording.cpp:544
+#: dvb/dvbrecording.cpp:546
 #, fuzzy
 #| msgid "Configuration:"
 msgid "Duration:"
 msgstr "Mîhengkirin:"
 
-#: dvb/dvbrecording.cpp:550
+#: dvb/dvbrecording.cpp:552
 #, fuzzy
 #| msgid "Tuned:"
 msgid "End:"
@@ -797,91 +803,92 @@ msgstr "SNR"
 msgid "Channels"
 msgstr "Kanal"
 
-#: dvb/dvbscandialog.cpp:213
+#: dvb/dvbscandialog.cpp:215 playlist/playlisttab.cpp:221
 #, fuzzy
-#| msgid "Remove satellite"
-msgid "Remove All"
-msgstr "Dûvelangê rake"
+#| msgid "Cable"
+msgctxt "remove all items from a list"
+msgid "Clear"
+msgstr "Kablo"
 
-#: dvb/dvbscandialog.cpp:229
+#: dvb/dvbscandialog.cpp:231
 #, fuzzy
 #| msgid "Channels"
 msgid "Channel Scan"
 msgstr "Kanal"
 
-#: dvb/dvbscandialog.cpp:237 dvb/dvbscandialog.cpp:348
+#: dvb/dvbscandialog.cpp:239 dvb/dvbscandialog.cpp:350
 #, fuzzy
 #| msgid "Start scan"
 msgid "Start Scan"
 msgstr "Lê nihêrîn bide destpê kirin"
 
-#: dvb/dvbscandialog.cpp:243
+#: dvb/dvbscandialog.cpp:245
 #, fuzzy, kde-format
 #| msgid "Scan file last updated<br>on %1"
 msgid "Scan data last updated<br>on %1"
 msgstr "Pela lê nihêrîn ê dawî yê di <br> %1 de hate rojane kirin"
 
-#: dvb/dvbscandialog.cpp:247
+#: dvb/dvbscandialog.cpp:249
 msgid "Signal:"
 msgstr "Sinyal:"
 
-#: dvb/dvbscandialog.cpp:252
+#: dvb/dvbscandialog.cpp:254
 msgid "SNR:"
 msgstr "SNR:"
 
-#: dvb/dvbscandialog.cpp:257
+#: dvb/dvbscandialog.cpp:259
 msgid "Tuned:"
 msgstr "Eyarkirî:"
 
-#: dvb/dvbscandialog.cpp:270
+#: dvb/dvbscandialog.cpp:272
 msgid "Filter"
 msgstr "Parzûn"
 
-#: dvb/dvbscandialog.cpp:273
+#: dvb/dvbscandialog.cpp:275
 msgid "Free to air"
 msgstr "Azade ku bifire"
 
-#: dvb/dvbscandialog.cpp:276
+#: dvb/dvbscandialog.cpp:278
 msgid "Radio"
 msgstr "Radyo"
 
-#: dvb/dvbscandialog.cpp:279
+#: dvb/dvbscandialog.cpp:281
 msgid "TV"
 msgstr "TV"
 
-#: dvb/dvbscandialog.cpp:282
+#: dvb/dvbscandialog.cpp:284
 msgid "Provider:"
 msgstr "Peydaker:"
 
-#: dvb/dvbscandialog.cpp:290
+#: dvb/dvbscandialog.cpp:292
 #, fuzzy
 #| msgid "Add filtered"
 msgid "Add Filtered"
 msgstr "Yên hatine parzûn kirin lê zêde bike"
 
-#: dvb/dvbscandialog.cpp:294
+#: dvb/dvbscandialog.cpp:296
 #, fuzzy
 #| msgid "Add selected"
 msgid "Add Selected"
 msgstr "Yê hilbijartî lê zêde bike"
 
-#: dvb/dvbscandialog.cpp:300
+#: dvb/dvbscandialog.cpp:302
 #, fuzzy
 #| msgid "Scan results"
 msgid "Scan Results"
 msgstr "Encamên Lê nihêrîn ê"
 
-#: dvb/dvbscandialog.cpp:316
+#: dvb/dvbscandialog.cpp:318
 #, fuzzy
 #| msgid "Current transponder"
 msgid "Current Transponder"
 msgstr "Bersîvdar(sînyalên radyo re) ê heyî"
 
-#: dvb/dvbscandialog.cpp:383 dvb/dvbtab.cpp:543
+#: dvb/dvbscandialog.cpp:385 dvb/dvbtab.cpp:543
 msgid "No suitable device found."
 msgstr "Tu cihazên lêhatî nedît."
 
-#: dvb/dvbscandialog.cpp:388
+#: dvb/dvbscandialog.cpp:390
 #, fuzzy
 #| msgid "Stop scan"
 msgid "Stop Scan"
@@ -916,12 +923,6 @@ msgstr ""
 #~| msgid "Position"
 #~ msgid "Navigation"
 #~ msgstr "Derawa"
-
-#, fuzzy
-#~| msgid "Cable"
-#~ msgctxt "playlist menu"
-#~ msgid "Clear"
-#~ msgstr "Kablo"
 
 #, fuzzy
 #~| msgid "New"
