@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kopete\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-05-09 11:49+0200\n"
+"POT-Creation-Date: 2009-05-11 12:52+0200\n"
 "PO-Revision-Date: 2008-06-22 23:57+0200\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <ku@li.org>\n"
@@ -1066,7 +1066,7 @@ msgctxt "@label:textbox formatted status title"
 msgid "<br /><b>Status&nbsp;Title:</b>&nbsp;%1"
 msgstr ""
 
-#: libkopete/kopetecontact.cpp:637 kopete/kopetewindow.cpp:1236
+#: libkopete/kopetecontact.cpp:637 kopete/kopetewindow.cpp:1237
 #, kde-format
 msgctxt "@label:textbox formatted status message"
 msgid "<br /><b>Status&nbsp;Message:</b>&nbsp;%1"
@@ -1151,14 +1151,14 @@ msgid "Last Seen"
 msgstr "Dîroka Dema Dawî Hat Dîtin"
 
 #: libkopete/kopeteglobal.cpp:153
-#: kopete/contactlist/contactlistlayoutmanager.cpp:57
+#: kopete/contactlist/contactlistlayoutmanager.cpp:60
 #, fuzzy
 #| msgid "Status"
 msgid "Status Title"
 msgstr "Rewş"
 
-#: libkopete/kopeteglobal.cpp:159 kopete/kopetewindow.cpp:1246
-#: kopete/contactlist/contactlistlayoutmanager.cpp:58
+#: libkopete/kopeteglobal.cpp:159 kopete/kopetewindow.cpp:1247
+#: kopete/contactlist/contactlistlayoutmanager.cpp:61
 msgid "Status Message"
 msgstr ""
 
@@ -1426,13 +1426,13 @@ msgid ""
 "nobr><br />"
 msgstr ""
 
-#: kopete/kopetewindow.cpp:1233
+#: kopete/kopetewindow.cpp:1234
 #, kde-format
 msgctxt "@label:textbox formatted status title"
 msgid "<b>Status&nbsp;Title:</b>&nbsp;%1"
 msgstr ""
 
-#: kopete/kopetewindow.cpp:1281
+#: kopete/kopetewindow.cpp:1282
 #: kopete/contactlist/kopetecontactlistview.cpp:954
 msgid "Add Contact"
 msgstr "Têkiliyekê Têxê"
@@ -2044,20 +2044,20 @@ msgid "Width"
 msgstr ""
 
 #: kopete/config/appearance/layout/TokenWithLayout.cpp:170
-#: kopete/config/appearance/contactlistlayoutwidget.cpp:150
+#: kopete/config/appearance/contactlistlayoutwidget.cpp:152
 #: kopete/config/appearance/appearanceconfig.cpp:129
 msgid "Layout"
 msgstr ""
 
-#: kopete/config/appearance/contactlistlayoutwidget.cpp:150
+#: kopete/config/appearance/contactlistlayoutwidget.cpp:152
 msgid "Unsaved data?"
 msgstr ""
 
-#: kopete/config/appearance/contactlistlayoutwidget.cpp:161
+#: kopete/config/appearance/contactlistlayoutwidget.cpp:163
 msgid "Reserved Layout Name"
 msgstr ""
 
-#: kopete/config/appearance/contactlistlayoutwidget.cpp:162
+#: kopete/config/appearance/contactlistlayoutwidget.cpp:164
 #, kde-format
 msgid ""
 "The layout '%1' is one of the default layouts and cannot be overwritten. "
@@ -2721,7 +2721,7 @@ msgid "Set address book fields using the selected data from Kopete"
 msgstr ""
 "Deftera navnîşanan, bi agahiyên ku ji Kopete hatine hilbijartin, tije bike"
 
-#: kopete/contactlist/contactlistmodel.cpp:403
+#: kopete/contactlist/contactlistmodel.cpp:418
 #, kde-format
 msgid ""
 "<qt>This contact is already on your contact list. It is a child contact of "
@@ -2730,7 +2730,7 @@ msgstr ""
 "<qt>Jixwe ev têkilî di lîsteya te de heye. Endameke/î zarok a <b>%1</b> ye.</"
 "qt>"
 
-#: kopete/contactlist/contactlistmodel.cpp:459
+#: kopete/contactlist/contactlistmodel.cpp:474
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt>Are you sure you want to remove the contact <b>%1</b> from your "
@@ -2740,12 +2740,12 @@ msgid ""
 "<b>%1</b>"
 msgstr "<qt>Ji dil dixwazî<b>%1</b> ji lîsteya xwe ya têkiliyan derxî?</qt>"
 
-#: kopete/contactlist/contactlistmodel.cpp:460
+#: kopete/contactlist/contactlistmodel.cpp:475
 #, fuzzy
 msgid "Meta Contact Merge"
 msgstr "Têkiliya Pêşsalixbûyî Biguharîne..."
 
-#: kopete/contactlist/contactlistmodel.cpp:627
+#: kopete/contactlist/contactlistmodel.cpp:642
 #, kde-format
 msgctxt ""
 "<tr><td>STATUS ICON <b>PROTOCOL NAME</b> (ACCOUNT NAME)</td><td>STATUS "
@@ -2755,34 +2755,34 @@ msgid ""
 "b>&nbsp;(%3)</td><td align=\"right\">%4</td></tr>"
 msgstr ""
 
-#: kopete/contactlist/contactlistmodel.cpp:638
+#: kopete/contactlist/contactlistmodel.cpp:653
 #, kde-format
 msgctxt "<tr><td><small><i>STATUS MESSAGE</i></small></td></tr>"
 msgid "<tr><td>&nbsp;</td><td colspan='2'><small><i>%1</i></small></td></tr>"
 msgstr ""
 
-#: kopete/contactlist/contactlistlayoutmanager.cpp:55
+#: kopete/contactlist/contactlistlayoutmanager.cpp:58
 msgid "Placeholder"
 msgstr ""
 
 #. i18n: file: plugins/webpresence/webpresenceprefs.ui:187
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: kopete/contactlist/contactlistlayoutmanager.cpp:56 rc.cpp:1936
+#: kopete/contactlist/contactlistlayoutmanager.cpp:59 rc.cpp:1936
 msgid "Display Name"
 msgstr ""
 
-#: kopete/contactlist/contactlistlayoutmanager.cpp:59
+#: kopete/contactlist/contactlistlayoutmanager.cpp:62
 #, fuzzy
 #| msgid "Contact comments:"
 msgid "Contact Icons"
 msgstr "Nîşeyên Têkiliyê:"
 
-#: kopete/contactlist/contactlistlayoutmanager.cpp:344
+#: kopete/contactlist/contactlistlayoutmanager.cpp:367
 #, kde-format
 msgid "The layout '%1' is one of the default layouts and cannot be deleted."
 msgstr ""
 
-#: kopete/contactlist/contactlistlayoutmanager.cpp:345
+#: kopete/contactlist/contactlistlayoutmanager.cpp:368
 msgid "Cannot Delete Default Layouts"
 msgstr ""
 
