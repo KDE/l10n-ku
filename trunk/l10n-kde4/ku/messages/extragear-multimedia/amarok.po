@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-05-15 11:39+0200\n"
+"POT-Creation-Date: 2009-05-16 11:58+0200\n"
 "PO-Revision-Date: 2009-02-21 06:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -24,7 +24,7 @@ msgstr ""
 "X-Poedit-SourceCharset: utf8\n"
 
 #: mac/GrowlInterface.cpp:34 context/engines/current/CurrentEngine.cpp:129
-#: context/applets/currenttrack/CurrentTrack.cpp:94 widgets/Osd.cpp:566
+#: context/applets/currenttrack/CurrentTrack.cpp:98 widgets/Osd.cpp:566
 msgid "No track playing"
 msgstr "Tu Stran Nayê Lêdan"
 
@@ -430,42 +430,42 @@ msgstr "Navê pêş-avakirinê têkevê:"
 msgid "Lyrics data could not be parsed"
 msgstr "Daneya gotinê stranê nayê hev qetandin"
 
-#: context/applets/currenttrack/CurrentTrack.cpp:71
+#: context/applets/currenttrack/CurrentTrack.cpp:75
 #, fuzzy
 #| msgid "Body"
 msgctxt "What artist is this track by"
 msgid "By"
 msgstr "Naverok"
 
-#: context/applets/currenttrack/CurrentTrack.cpp:72
+#: context/applets/currenttrack/CurrentTrack.cpp:76
 #, fuzzy
 #| msgid "On"
 msgctxt "What album is this track on"
 msgid "On"
 msgstr "Vekirî"
 
-#: context/applets/currenttrack/CurrentTrack.cpp:100
+#: context/applets/currenttrack/CurrentTrack.cpp:104
 msgid "Play count"
 msgstr "Hejmara lêdanan"
 
-#: context/applets/currenttrack/CurrentTrack.cpp:101 Systray.cpp:171
+#: context/applets/currenttrack/CurrentTrack.cpp:105 Systray.cpp:171
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:253
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:696
 #: playlist/PlaylistModel.cpp:711 widgets/SmartPlaylistEditor.cpp:186
 msgid "Score"
 msgstr "Skor"
 
-#: context/applets/currenttrack/CurrentTrack.cpp:102 Systray.cpp:201
+#: context/applets/currenttrack/CurrentTrack.cpp:106 Systray.cpp:201
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:258
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:701
 msgid "Last Played"
 msgstr "Lêdanên Dawî yê"
 
-#: context/applets/currenttrack/CurrentTrack.cpp:107
+#: context/applets/currenttrack/CurrentTrack.cpp:111
 msgid "Last played"
 msgstr "Yê dawî hatiye lêdan"
 
-#: context/applets/currenttrack/CurrentTrack.cpp:108
+#: context/applets/currenttrack/CurrentTrack.cpp:112
 #, fuzzy
 #| msgid "Favourite tracks"
 msgid "Favorite tracks"
@@ -474,7 +474,7 @@ msgstr "Stranên Bijarte"
 #: context/applets/albums/AlbumsView.cpp:109 Systray.cpp:243
 #: browsers/CollectionTreeView.cpp:616
 #: browsers/filebrowser/MyDirOperator.cpp:271
-#: browsers/playlistbrowser/UserPlaylistModel.cpp:419
+#: browsers/playlistbrowser/UserPlaylistModel.cpp:446
 #: browsers/playlistbrowser/PodcastModel.cpp:692
 #: services/lastfm/LastFmTreeView.cpp:116
 msgid "&Append to Playlist"
@@ -482,7 +482,7 @@ msgstr "&Bixe ser Lîsteya Lêdanê"
 
 #: context/applets/albums/AlbumsView.cpp:110
 #: browsers/filebrowser/MyDirOperator.cpp:272
-#: browsers/playlistbrowser/UserPlaylistModel.cpp:425
+#: browsers/playlistbrowser/UserPlaylistModel.cpp:452
 #: browsers/playlistbrowser/PodcastModel.cpp:705
 #: services/lastfm/LastFmTreeView.cpp:124
 msgctxt "Replace the currently loaded tracks with these"
@@ -505,7 +505,7 @@ msgid "Disc %1"
 msgstr "Dîska %1"
 
 #: context/applets/albums/AlbumItem.cpp:70 MediaDevicePluginManager.cpp:531
-#: MainWindow.cpp:987
+#: MainWindow.cpp:971
 msgid "Unknown"
 msgstr "Nenas"
 
@@ -680,7 +680,7 @@ msgstr "&Stran"
 msgid "&Album"
 msgstr "&Album"
 
-#: ActionClasses.cpp:350 MainWindow.cpp:836
+#: ActionClasses.cpp:350 MainWindow.cpp:829
 msgid "&Playlist"
 msgstr "&Lîsteya lêdanê"
 
@@ -776,7 +776,7 @@ msgstr "Giştî"
 msgid "Configure General Options"
 msgstr "Bijare yên Giştî Veava Bike"
 
-#: configdialog/ConfigDialog.cpp:55 MainWindow.cpp:279
+#: configdialog/ConfigDialog.cpp:55 MainWindow.cpp:273
 msgid "Collection"
 msgstr "Berhevok"
 
@@ -1606,7 +1606,7 @@ msgstr "Vebijêrk"
 msgid "Convert spaces to underscores"
 msgstr "Valahiyan veguherîne xêzikên jêrîn"
 
-#: dialogs/ScriptManager.cpp:117 MainWindow.cpp:665
+#: dialogs/ScriptManager.cpp:117 MainWindow.cpp:659
 msgid "Script Manager"
 msgstr "Rêveberê Skrîptê"
 
@@ -2674,7 +2674,7 @@ msgstr "Parzûna (\"%1\") dawî bi sepîne"
 msgid "Clear filter"
 msgstr "Parzûnê Paqij Bike"
 
-#: browsers/playlistbrowser/UserPlaylistModel.cpp:252
+#: browsers/playlistbrowser/UserPlaylistModel.cpp:253
 #: amarokurls/BookmarkModel.cpp:228
 msgid "Name"
 msgstr "Nav"
@@ -2688,29 +2688,29 @@ msgstr "Rasthatî"
 msgid "modified"
 msgstr "hate guherîn"
 
-#: browsers/playlistbrowser/PlaylistsInGroupsProxy.cpp:467
-#: browsers/playlistbrowser/PlaylistsInGroupsProxy.cpp:487
+#: browsers/playlistbrowser/PlaylistsInGroupsProxy.cpp:472
+#: browsers/playlistbrowser/PlaylistsInGroupsProxy.cpp:492
 msgid "New name"
 msgstr "Navê nû"
 
-#: browsers/playlistbrowser/PlaylistsInGroupsProxy.cpp:468
+#: browsers/playlistbrowser/PlaylistsInGroupsProxy.cpp:473
 #, fuzzy
 #| msgid "Enter new group name:"
 msgctxt "Enter a new name for a group that already exists"
 msgid "Enter new group name:"
 msgstr "Navê koma nû têkevê:"
 
-#: browsers/playlistbrowser/PlaylistsInGroupsProxy.cpp:488
+#: browsers/playlistbrowser/PlaylistsInGroupsProxy.cpp:493
 #, fuzzy
 #| msgid "Enter new group name:"
 msgid "Enter new group name:"
 msgstr "Navê koma nû têkevê:"
 
-#: browsers/playlistbrowser/PlaylistsInGroupsProxy.cpp:507
+#: browsers/playlistbrowser/PlaylistsInGroupsProxy.cpp:512
 msgid "&Delete group"
 msgstr "Kom &jê bibe"
 
-#: browsers/playlistbrowser/PlaylistsInGroupsProxy.cpp:514
+#: browsers/playlistbrowser/PlaylistsInGroupsProxy.cpp:519
 msgid "&Rename group"
 msgstr "Navê komê &biguherîne"
 
@@ -3095,19 +3095,19 @@ msgstr ""
 msgid "Error Removing File"
 msgstr ""
 
-#: MainWindow.cpp:286
+#: MainWindow.cpp:280
 msgid "Internet"
 msgstr "Tor"
 
-#: MainWindow.cpp:294
+#: MainWindow.cpp:288
 msgid "Playlists"
 msgstr "lîsteya lêdanê"
 
-#: MainWindow.cpp:299
+#: MainWindow.cpp:293
 msgid "Files"
 msgstr "Pel"
 
-#: MainWindow.cpp:442
+#: MainWindow.cpp:436
 msgid ""
 "<qt>Closing the main window will keep Amarok running in the System Tray. Use "
 "<B>Quit</B> from the menu, or the Amarok tray icon to exit the application.</"
@@ -3117,153 +3117,153 @@ msgstr ""
 "pêşekê an jî ji îkona sepanê ya di berkêşk de ne <B>Derkeve</B> bi kar bîne."
 "</qt>"
 
-#: MainWindow.cpp:444
+#: MainWindow.cpp:438
 msgid "Docking in System Tray"
 msgstr "Di Berkêşka Pergalê de Bicih be"
 
-#: MainWindow.cpp:469
+#: MainWindow.cpp:463
 msgid "Use relative path for &saving"
 msgstr "Pelrêça têkîldar bi kar bîne ji bo &tomarkirinê"
 
-#: MainWindow.cpp:474
+#: MainWindow.cpp:468
 msgid "Save As"
 msgstr "Cuda Tomar Bike"
 
-#: MainWindow.cpp:512
+#: MainWindow.cpp:506
 msgid "Play Media (Files or URLs)"
 msgstr "(Pelên an jî URLyên) Medya Lê Bide"
 
-#: MainWindow.cpp:512
+#: MainWindow.cpp:506
 msgid "Add Media (Files or URLs)"
 msgstr "(Pelên an jî URLyên) Medya Lê Zêde Bike"
 
-#: MainWindow.cpp:527
+#: MainWindow.cpp:521
 msgid "Add Stream"
 msgstr "Darêj Lê Zêde Bike"
 
-#: MainWindow.cpp:527
+#: MainWindow.cpp:521
 msgid "Enter Stream URL:"
 msgstr "Darêja URL yê Bikeve:"
 
-#: MainWindow.cpp:621
+#: MainWindow.cpp:615
 msgid "&Add Media..."
 msgstr "Medya &Lê zêde bike..."
 
-#: MainWindow.cpp:626
+#: MainWindow.cpp:620
 msgctxt "clear playlist"
 msgid "&Clear Playlist"
 msgstr "Lîsteya Lêdanê &Paqij Bike"
 
-#: MainWindow.cpp:630
+#: MainWindow.cpp:624
 msgid "&Add Stream..."
 msgstr "Darêj &Lê zêde bike..."
 
-#: MainWindow.cpp:634
+#: MainWindow.cpp:628
 msgid "&Export Playlist As..."
 msgstr "Lîsteya lêdanê Cuda &Derxîne Derve"
 
-#: MainWindow.cpp:638
+#: MainWindow.cpp:632
 msgid "&Save Playlist"
 msgstr "Lîsteya Lêdanê &Tomar Bike"
 
-#: MainWindow.cpp:642 covermanager/CoverManager.cpp:98
+#: MainWindow.cpp:636 covermanager/CoverManager.cpp:98
 msgid "Cover Manager"
 msgstr "Rêvebirê Rûgira Albuman"
 
-#: MainWindow.cpp:654
+#: MainWindow.cpp:648
 msgid "Play Media..."
 msgstr "Medya Lê Bide..."
 
-#: MainWindow.cpp:660
+#: MainWindow.cpp:654
 msgid "Play Audio CD"
 msgstr "CD ya Muzîkê Lê Bide"
 
-#: MainWindow.cpp:669
+#: MainWindow.cpp:663
 msgid "&Seek Forward"
 msgstr "Pêşveçûna &Bilez"
 
-#: MainWindow.cpp:675
+#: MainWindow.cpp:669
 msgid "&Seek Backward"
 msgstr "Paşveçûna &Bilez"
 
-#: MainWindow.cpp:682
+#: MainWindow.cpp:676
 msgid "Update Collection"
 msgstr "Berhevokê Rojane Bike"
 
-#: MainWindow.cpp:689
+#: MainWindow.cpp:683
 msgid "Previous Track"
 msgstr "Strana Berê"
 
-#: MainWindow.cpp:697
+#: MainWindow.cpp:691
 msgid "Next Track"
 msgstr "Strana Pêş"
 
-#: MainWindow.cpp:700
+#: MainWindow.cpp:694
 msgid "Increase Volume"
 msgstr "Dengê Bilintir Bike"
 
-#: MainWindow.cpp:706
+#: MainWindow.cpp:700
 msgid "Decrease Volume"
 msgstr "Dengê Kêmtir Bike"
 
-#: MainWindow.cpp:712
+#: MainWindow.cpp:706
 msgid "Toggle Main Window"
 msgstr "Paceya Mak Veke/Bigire"
 
-#: MainWindow.cpp:717
+#: MainWindow.cpp:711
 msgid "Show On Screen Display"
 msgstr "Li Ser Nîşana Dîmenê Nîşan Bide"
 
-#: MainWindow.cpp:722
+#: MainWindow.cpp:716
 msgid "Mute Volume"
 msgstr "Bêdeng Bike"
 
-#: MainWindow.cpp:727
+#: MainWindow.cpp:721
 msgid "Love Current Track"
 msgstr "Ji ve perçeyê hez bike"
 
-#: MainWindow.cpp:732
+#: MainWindow.cpp:726
 msgid "Rate Current Track: 1"
 msgstr "Ray Bide Strana Lêdide: 1 "
 
-#: MainWindow.cpp:737
+#: MainWindow.cpp:731
 msgid "Rate Current Track: 2"
 msgstr "Ray Bide Strana Lêdide: 2"
 
-#: MainWindow.cpp:742
+#: MainWindow.cpp:736
 msgid "Rate Current Track: 3"
 msgstr "Ray Bide Strana Lêdide: 3"
 
-#: MainWindow.cpp:747
+#: MainWindow.cpp:741
 msgid "Rate Current Track: 4"
 msgstr "Ray Bide Strana Lêdide: 4"
 
-#: MainWindow.cpp:752
+#: MainWindow.cpp:746
 msgid "Rate Current Track: 5"
 msgstr "Ray Bide Strana Lêdide: 5"
 
-#: MainWindow.cpp:813
+#: MainWindow.cpp:807
 msgid "&Music"
 msgstr "&Muzîk"
 
-#: MainWindow.cpp:817
+#: MainWindow.cpp:811
 msgid "&Amarok"
 msgstr "&Amarok"
 
-#: MainWindow.cpp:867
+#: MainWindow.cpp:852
 msgid "&Tools"
 msgstr "&Amûr"
 
-#: MainWindow.cpp:878
+#: MainWindow.cpp:863
 msgid "&Settings"
 msgstr "&Mîheng"
 
-#: MainWindow.cpp:975
+#: MainWindow.cpp:959
 #, kde-format
 msgid "Paused  ::  %1"
 msgstr "Hate Sekinandin  ::  %1"
 
-#: MainWindow.cpp:987
+#: MainWindow.cpp:971
 #, kde-format
 msgid "%1 - %2  ::  %3"
 msgstr "%1 - %2  ::  %3"
