@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-06-19 11:38+0200\n"
+"POT-Creation-Date: 2009-06-20 12:23+0200\n"
 "PO-Revision-Date: 2009-02-21 06:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -24,7 +24,7 @@ msgstr ""
 "X-Poedit-SourceCharset: utf8\n"
 
 #: mac/GrowlInterface.cpp:34 context/engines/current/CurrentEngine.cpp:129
-#: context/applets/currenttrack/CurrentTrack.cpp:100 widgets/Osd.cpp:571
+#: context/applets/currenttrack/CurrentTrack.cpp:103 widgets/Osd.cpp:571
 msgid "No track playing"
 msgstr "Tu Stran Nayê Lêdan"
 
@@ -238,12 +238,18 @@ msgstr "Berhevoka Nepomuk"
 msgid "Nepomuk Collection (slow, Redland)"
 msgstr "Berhevoka Nepomuk (hêdî, Redland)"
 
-#: collection/sqlcollection/SqlCollection.cpp:70
+#: collection/sqlcollection/SqlCollection.cpp:72
+#, fuzzy, kde-format
+#| msgid "Local Collection"
+msgid "Local Collection (via database at %1)"
+msgstr "Berhevoka Herêmî "
+
+#: collection/sqlcollection/SqlCollection.cpp:75
 #: collection/sqlcollection/SqlCollectionLocation.cpp:62
 msgid "Local Collection"
 msgstr "Berhevoka Herêmî "
 
-#: collection/sqlcollection/SqlCollection.cpp:359
+#: collection/sqlcollection/SqlCollection.cpp:365
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -253,7 +259,7 @@ msgstr ""
 "Tu bi rastî dixwazî wan stranên %1 jê bibî? Ev wê ji dîska we û berhevoka we "
 "bên rakirin."
 
-#: collection/sqlcollection/SqlCollection.cpp:363
+#: collection/sqlcollection/SqlCollection.cpp:369
 msgid "Delete Files"
 msgstr "Pelan Jê Bibe"
 
@@ -337,18 +343,6 @@ msgstr "Di bin Hunermendên Cur bi Cur de nîşan nede"
 #: collection/sqlcollection/SqlMeta.cpp:1130
 msgid "Show under Various Artists"
 msgstr "Di bin Hunermendên Cur bi Cur de nîşan bide"
-
-#: collection/sqlcollection/MySqlCollection.cpp:168
-msgid "MySQL reported the following error:<br/>"
-msgstr "MySQL ev çewtî nûsaf kir:<br/> "
-
-#: collection/sqlcollection/MySqlCollection.cpp:169
-msgid ""
-"<p>You can configure MySQL in the Collection section under Settings-"
-">Configure Amarok</p>"
-msgstr ""
-"<p>Tu dikarî MySQL veava bikî di beşa Berhevok de bin Mîheng->Amarok Veava "
-"Bike</p>"
 
 #: collection/audiocd/AudioCdCollection.cpp:118
 msgid "&Eject"
@@ -707,45 +701,45 @@ msgstr "&Rêz bike"
 msgid "Append and &Play"
 msgstr "Lê zêde bike && &Lê bide"
 
-#: context/applets/currenttrack/CurrentTrack.cpp:77
+#: context/applets/currenttrack/CurrentTrack.cpp:78
 #, fuzzy
 #| msgid "Body"
 msgctxt "What artist is this track by"
 msgid "By"
 msgstr "Naverok"
 
-#: context/applets/currenttrack/CurrentTrack.cpp:78
+#: context/applets/currenttrack/CurrentTrack.cpp:79
 #, fuzzy
 #| msgid "On"
 msgctxt "What album is this track on"
 msgid "On"
 msgstr "Vekirî"
 
-#: context/applets/currenttrack/CurrentTrack.cpp:106
-#: context/applets/currenttrack/CurrentTrack.cpp:496
+#: context/applets/currenttrack/CurrentTrack.cpp:109
+#: context/applets/currenttrack/CurrentTrack.cpp:499
 msgid "Play count"
 msgstr "Hejmara lêdanan"
 
-#: context/applets/currenttrack/CurrentTrack.cpp:107
-#: context/applets/currenttrack/CurrentTrack.cpp:497 Systray.cpp:171
+#: context/applets/currenttrack/CurrentTrack.cpp:110
+#: context/applets/currenttrack/CurrentTrack.cpp:500 Systray.cpp:171
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:253
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:696
 #: playlist/PlaylistModel.cpp:711 widgets/SmartPlaylistEditor.cpp:186
 msgid "Score"
 msgstr "Skor"
 
-#: context/applets/currenttrack/CurrentTrack.cpp:108
-#: context/applets/currenttrack/CurrentTrack.cpp:498 Systray.cpp:201
+#: context/applets/currenttrack/CurrentTrack.cpp:111
+#: context/applets/currenttrack/CurrentTrack.cpp:501 Systray.cpp:201
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:258
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:701
 msgid "Last Played"
 msgstr "Lêdanên Dawî yê"
 
-#: context/applets/currenttrack/CurrentTrack.cpp:113
+#: context/applets/currenttrack/CurrentTrack.cpp:116
 msgid "Last played"
 msgstr "Yê dawî hatiye lêdan"
 
-#: context/applets/currenttrack/CurrentTrack.cpp:114
+#: context/applets/currenttrack/CurrentTrack.cpp:117
 #, fuzzy
 #| msgid "Favourite tracks"
 msgid "Favorite tracks"
@@ -2552,7 +2546,7 @@ msgstr "Hevgirtî:"
 #: dynamic/biases/EchoNest.cpp:49
 #, fuzzy
 #| msgid "Retrieve similar artists"
-msgid "EchoNest Similar Artists"
+msgid "Echo Nest Similar Artists"
 msgstr "Hunermendên wekî vê bîne"
 
 #: dynamic/biases/EchoNest.cpp:109
@@ -2574,7 +2568,7 @@ msgstr "Lîsteya Lêdanê"
 #: dynamic/biases/EchoNest.cpp:120
 #, fuzzy
 #| msgid "My Recommendations"
-msgid "Recommendations by EchoNest."
+msgid "Recommendations by Echo Nest."
 msgstr "Salixdayî yên Min"
 
 #: dynamic/BiasedPlaylist.cpp:133
@@ -3026,16 +3020,16 @@ msgid ""
 "audio players and cd's."
 msgstr ""
 
-#: browsers/filebrowser/FileBrowser.cpp:78 widgets/SearchWidget.cpp:63
+#: browsers/filebrowser/FileBrowser.cpp:79 widgets/SearchWidget.cpp:63
 #: covermanager/CoverManager.cpp:173
 msgid "Enter search terms here"
 msgstr "Gotinekê lêgerînê têkevê"
 
-#: browsers/filebrowser/FileBrowser.cpp:93
+#: browsers/filebrowser/FileBrowser.cpp:94
 msgid "Bookmarks"
 msgstr "Bijare"
 
-#: browsers/filebrowser/FileBrowser.cpp:109
+#: browsers/filebrowser/FileBrowser.cpp:110
 msgid ""
 "<p>Here you can enter a path for a folder to display.</p><p>To go to a "
 "folder previously entered, press the arrow on the right and choose one.</"
@@ -3047,7 +3041,7 @@ msgstr ""
 "hilbijêre.</p><p>Temamkirina têketinê heye. Ji bo dîtina ka çawa temamkirin "
 "heye rast-bitikîne.</p>"
 
-#: browsers/filebrowser/FileBrowser.cpp:113
+#: browsers/filebrowser/FileBrowser.cpp:114
 msgid ""
 "<p>Here you can enter a name filter to limit which files are displayed.</"
 "p><p>To clear the filter, toggle off the filter button to the left.</p><p>To "
@@ -3058,7 +3052,7 @@ msgstr ""
 "bigire.</p><p>Ji bo çalak kirina parzûna dawiyê hatiye bikaranîn bişkojka "
 "parzûnê veke.</p>"
 
-#: browsers/filebrowser/FileBrowser.cpp:116
+#: browsers/filebrowser/FileBrowser.cpp:117
 msgid ""
 "<p>This button clears the name filter when toggled off, or reapplies the "
 "last filter used when toggled on.</p>"
@@ -3066,19 +3060,19 @@ msgstr ""
 "<p>Ev bişkojk navê parzûnê paqij dike wextê were girtin, an jî parzûna "
 "dawiyê hatiye bikaranîn çalak dike.</p>"
 
-#: browsers/filebrowser/FileBrowser.cpp:126
+#: browsers/filebrowser/FileBrowser.cpp:127
 msgid ""
 "The file browser lets you browse files anywhere on your system, regardless "
 "of whether these files are part of your local collection. You can then add "
 "these files to the playlist as well as perform basic file operations."
 msgstr ""
 
-#: browsers/filebrowser/FileBrowser.cpp:219
+#: browsers/filebrowser/FileBrowser.cpp:224
 #, kde-format
 msgid "Apply last filter (\"%1\")"
 msgstr "Parzûna (\"%1\") dawî bi sepîne"
 
-#: browsers/filebrowser/FileBrowser.cpp:227
+#: browsers/filebrowser/FileBrowser.cpp:232
 msgid "Clear filter"
 msgstr "Parzûnê Paqij Bike"
 
@@ -3290,21 +3284,21 @@ msgstr "Pêş-avakirinê tomar dike."
 msgid "Delete the preset."
 msgstr "Pêş-avakirinê jê dibe."
 
-#: browsers/playlistbrowser/DynamicCategory.cpp:275
+#: browsers/playlistbrowser/DynamicCategory.cpp:274
 msgid "Playlist Name"
 msgstr "Navê Lîsteya Lêdanê"
 
-#: browsers/playlistbrowser/DynamicCategory.cpp:276
+#: browsers/playlistbrowser/DynamicCategory.cpp:275
 msgid "Enter a name for the playlist:"
 msgstr "Ji bo lîsteya lêdanê navekî binivîse:"
 
-#: browsers/playlistbrowser/DynamicCategory.cpp:286
+#: browsers/playlistbrowser/DynamicCategory.cpp:285
 #, fuzzy
 #| msgid "Warning!"
 msgid "Warning"
 msgstr "Hişyarî!"
 
-#: browsers/playlistbrowser/DynamicCategory.cpp:286
+#: browsers/playlistbrowser/DynamicCategory.cpp:285
 #, fuzzy
 #| msgid "Can not overwrite the random playlist."
 msgid "Cannot overwrite the random playlist."
@@ -8823,6 +8817,16 @@ msgstr "Wêneya Rûgirê"
 #: covermanager/CoverManager.cpp:876
 msgid "No Artist"
 msgstr "Hunermend Tune ye "
+
+#~ msgid "MySQL reported the following error:<br/>"
+#~ msgstr "MySQL ev çewtî nûsaf kir:<br/> "
+
+#~ msgid ""
+#~ "<p>You can configure MySQL in the Collection section under Settings-"
+#~ ">Configure Amarok</p>"
+#~ msgstr ""
+#~ "<p>Tu dikarî MySQL veava bikî di beşa Berhevok de bin Mîheng->Amarok "
+#~ "Veava Bike</p>"
 
 #~ msgid "Fetching content.."
 #~ msgstr "Naverokê tîne..."
