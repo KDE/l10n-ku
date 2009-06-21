@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-06-20 12:23+0200\n"
+"POT-Creation-Date: 2009-06-21 11:30+0200\n"
 "PO-Revision-Date: 2009-02-21 06:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -238,7 +238,7 @@ msgstr "Berhevoka Nepomuk"
 msgid "Nepomuk Collection (slow, Redland)"
 msgstr "Berhevoka Nepomuk (hêdî, Redland)"
 
-#: collection/sqlcollection/SqlCollection.cpp:72
+#: collection/sqlcollection/SqlCollection.cpp:59
 #, fuzzy, kde-format
 #| msgid "Local Collection"
 msgid "Local Collection (via database at %1)"
@@ -249,7 +249,7 @@ msgstr "Berhevoka Herêmî "
 msgid "Local Collection"
 msgstr "Berhevoka Herêmî "
 
-#: collection/sqlcollection/SqlCollection.cpp:365
+#: collection/sqlcollection/SqlCollection.cpp:371
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -259,12 +259,12 @@ msgstr ""
 "Tu bi rastî dixwazî wan stranên %1 jê bibî? Ev wê ji dîska we û berhevoka we "
 "bên rakirin."
 
-#: collection/sqlcollection/SqlCollection.cpp:369
+#: collection/sqlcollection/SqlCollection.cpp:375
 msgid "Delete Files"
 msgstr "Pelan Jê Bibe"
 
 #: collection/sqlcollection/OrganizeCollectionDialog.cpp:165
-#: collection/sqlcollection/ScanManager.cpp:679
+#: collection/sqlcollection/ScanManager.cpp:677
 #: browsers/CollectionTreeItem.cpp:159 covermanager/CoverViewDialog.h:45
 #: covermanager/CoverManager.cpp:855
 msgid "Various Artists"
@@ -307,7 +307,7 @@ msgstr ""
 msgid "Transferring: %1"
 msgstr "Diguhezîne: %1"
 
-#: collection/sqlcollection/ScanManager.cpp:500
+#: collection/sqlcollection/ScanManager.cpp:498
 msgid ""
 "<p>Sorry, the collection scan had to be aborted.</p><p>Too many errors were "
 "encountered during the scan.</p>"
@@ -315,11 +315,11 @@ msgstr ""
 "<p>Ji ber ku gelekî çewtî çêbû karê venihartina berhevokan hate bi dawî "
 "kirin.</p>"
 
-#: collection/sqlcollection/ScanManager.cpp:501
+#: collection/sqlcollection/ScanManager.cpp:499
 msgid "Collection Scan Error"
 msgstr "Çewtiya Venihartina Berhevokê"
 
-#: collection/sqlcollection/ScanManager.cpp:590
+#: collection/sqlcollection/ScanManager.cpp:588
 msgid "Scanning music"
 msgstr "Muzîkê dinihêre"
 
@@ -391,7 +391,7 @@ msgstr ""
 msgid "Audio CD settings - Amarok"
 msgstr ""
 
-#: collection/CollectionManager.cpp:124
+#: collection/CollectionManager.cpp:122
 msgid ""
 "<p>Amarok could not find any collection plugins. It is possible that Amarok "
 "is installed under the wrong prefix, please fix your installation using:<pre>"
@@ -1478,19 +1478,19 @@ msgstr "Navê Lîsteya Lêdanê:"
 msgid "Rename playlist layout"
 msgstr "Navê Lîsteya Lêdanê:"
 
-#: dialogs/PlaylistLayoutEditDialog.cpp:144
-#: dialogs/PlaylistLayoutEditDialog.cpp:188
+#: dialogs/PlaylistLayoutEditDialog.cpp:145
+#: dialogs/PlaylistLayoutEditDialog.cpp:192
 #, fuzzy
 #| msgid "Enter a name for the playlist:"
 msgid "Choose a name for the new playlist layout"
 msgstr "Ji bo lîsteya lêdanê navekî binivîse:"
 
-#: dialogs/PlaylistLayoutEditDialog.cpp:145
+#: dialogs/PlaylistLayoutEditDialog.cpp:146
 msgid "Please enter a name for the playlist layout you are about to define:"
 msgstr ""
 
-#: dialogs/PlaylistLayoutEditDialog.cpp:148
-#: dialogs/PlaylistLayoutEditDialog.cpp:193
+#: dialogs/PlaylistLayoutEditDialog.cpp:151
+#: dialogs/PlaylistLayoutEditDialog.cpp:199
 #, fuzzy
 #| msgid ""
 #| "Sorry, you cannot define two devices\n"
@@ -1500,21 +1500,21 @@ msgstr ""
 "Lêborîne, tu nikarî du cîhazan bi eynî\n"
 "nav û xala girêdanê ve dîyar bikî!"
 
-#: dialogs/PlaylistLayoutEditDialog.cpp:148
-#: dialogs/PlaylistLayoutEditDialog.cpp:153
-#: dialogs/PlaylistLayoutEditDialog.cpp:158
-#: dialogs/PlaylistLayoutEditDialog.cpp:193
-#: dialogs/PlaylistLayoutEditDialog.cpp:198
-#: dialogs/PlaylistLayoutEditDialog.cpp:249
-#: dialogs/PlaylistLayoutEditDialog.cpp:253
+#: dialogs/PlaylistLayoutEditDialog.cpp:151
+#: dialogs/PlaylistLayoutEditDialog.cpp:156
+#: dialogs/PlaylistLayoutEditDialog.cpp:161
+#: dialogs/PlaylistLayoutEditDialog.cpp:199
+#: dialogs/PlaylistLayoutEditDialog.cpp:204
 #: dialogs/PlaylistLayoutEditDialog.cpp:255
+#: dialogs/PlaylistLayoutEditDialog.cpp:259
+#: dialogs/PlaylistLayoutEditDialog.cpp:261
 #, fuzzy
 #| msgid "Layout name"
 msgid "Layout name error"
 msgstr "Navê niştecih"
 
-#: dialogs/PlaylistLayoutEditDialog.cpp:153
-#: dialogs/PlaylistLayoutEditDialog.cpp:198
+#: dialogs/PlaylistLayoutEditDialog.cpp:156
+#: dialogs/PlaylistLayoutEditDialog.cpp:204
 #, fuzzy
 #| msgid ""
 #| "Sorry, you cannot define two devices\n"
@@ -1524,7 +1524,7 @@ msgstr ""
 "Lêborîne, tu nikarî du cîhazan bi eynî\n"
 "nav û xala girêdanê ve dîyar bikî!"
 
-#: dialogs/PlaylistLayoutEditDialog.cpp:158
+#: dialogs/PlaylistLayoutEditDialog.cpp:161
 #, fuzzy
 #| msgid ""
 #| "Sorry, you cannot define two devices\n"
@@ -1534,31 +1534,31 @@ msgstr ""
 "Lêborîne, tu nikarî du cîhazan bi eynî\n"
 "nav û xala girêdanê ve dîyar bikî!"
 
-#: dialogs/PlaylistLayoutEditDialog.cpp:189
+#: dialogs/PlaylistLayoutEditDialog.cpp:193
 #, kde-format
 msgid ""
 "Please enter a name for the playlist layout you are about to define as copy "
 "of the layout '%1':"
 msgstr ""
 
-#: dialogs/PlaylistLayoutEditDialog.cpp:239
+#: dialogs/PlaylistLayoutEditDialog.cpp:245
 #, fuzzy
 #| msgid "Enter a name for the playlist:"
 msgid "Choose a new name for the playlist layout"
 msgstr "Ji bo lîsteya lêdanê navekî binivîse:"
 
-#: dialogs/PlaylistLayoutEditDialog.cpp:240
+#: dialogs/PlaylistLayoutEditDialog.cpp:246
 msgid ""
 "Please enter a new name for the playlist layout you are about to rename:"
 msgstr ""
 
-#: dialogs/PlaylistLayoutEditDialog.cpp:249
+#: dialogs/PlaylistLayoutEditDialog.cpp:255
 #, fuzzy
 #| msgid "Enter a name for the playlist:"
 msgid "Cannot rename one of the default layouts."
 msgstr "Ji bo lîsteya lêdanê navekî binivîse:"
 
-#: dialogs/PlaylistLayoutEditDialog.cpp:253
+#: dialogs/PlaylistLayoutEditDialog.cpp:259
 #, fuzzy
 #| msgid ""
 #| "Sorry, you cannot define two devices\n"
@@ -1568,7 +1568,7 @@ msgstr ""
 "Lêborîne, tu nikarî du cîhazan bi eynî\n"
 "nav û xala girêdanê ve dîyar bikî!"
 
-#: dialogs/PlaylistLayoutEditDialog.cpp:255
+#: dialogs/PlaylistLayoutEditDialog.cpp:261
 #, fuzzy
 #| msgid ""
 #| "Sorry, you cannot define two devices\n"
@@ -1578,7 +1578,7 @@ msgstr ""
 "Lêborîne, tu nikarî du cîhazan bi eynî\n"
 "nav û xala girêdanê ve dîyar bikî!"
 
-#: dialogs/PlaylistLayoutEditDialog.cpp:357
+#: dialogs/PlaylistLayoutEditDialog.cpp:363
 #, fuzzy, kde-format
 #| msgid ""
 #| "The layout '%1' is one of the default layouts and cannot be overwritten. "
@@ -1590,7 +1590,7 @@ msgstr ""
 "Nişteciha '%1' niştecihekî standard e û ser nayê nivîsîn. Jê kerema xwe "
 "navekî cuda hilbijêre."
 
-#: dialogs/PlaylistLayoutEditDialog.cpp:359
+#: dialogs/PlaylistLayoutEditDialog.cpp:365
 msgid "Reserved Layout Name"
 msgstr "Navê Nişteciha Hatibû Hilbijartin"
 
@@ -2272,43 +2272,43 @@ msgstr "Lîsteya Lêdanê ya Dînamîk"
 msgid "Smart Playlist"
 msgstr "Lîsteya Lêdanê ya Baqil"
 
-#: podcasts/sql/SqlPodcastProvider.cpp:202
+#: podcasts/sql/SqlPodcastProvider.cpp:201
 #, kde-format
 msgid "Already subscribed to %1."
 msgstr "Jixwe endamê %1 ê ye."
 
-#: podcasts/sql/SqlPodcastProvider.cpp:355
+#: podcasts/sql/SqlPodcastProvider.cpp:354
 msgid "&Delete Downloaded Episode"
 msgstr "Beşa (yê rêzefilmê) Daxistî &Jê Bibe"
 
-#: podcasts/sql/SqlPodcastProvider.cpp:386
+#: podcasts/sql/SqlPodcastProvider.cpp:385
 msgid "&Download Episode"
 msgstr "Beşa Rêzefilmê &Daxe"
 
-#: podcasts/sql/SqlPodcastProvider.cpp:409
+#: podcasts/sql/SqlPodcastProvider.cpp:408
 msgid "&Configure"
 msgstr "&Veava Bike"
 
-#: podcasts/sql/SqlPodcastProvider.cpp:422
+#: podcasts/sql/SqlPodcastProvider.cpp:421
 msgid "&Remove Subscription"
 msgstr "Endamiyê &Rake "
 
-#: podcasts/sql/SqlPodcastProvider.cpp:435
+#: podcasts/sql/SqlPodcastProvider.cpp:434
 #, fuzzy
 #| msgid "&Update All"
 msgid "&Update Channel"
 msgstr "Hemû yan &Rojane Bike"
 
-#: podcasts/sql/SqlPodcastProvider.cpp:593
+#: podcasts/sql/SqlPodcastProvider.cpp:592
 msgid "Downloading Podcast Media"
 msgstr "Medya ya Podcast Tê Daxistin"
 
-#: podcasts/sql/SqlPodcastProvider.cpp:593
+#: podcasts/sql/SqlPodcastProvider.cpp:592
 #, kde-format
 msgid "Downloading Podcast \"%1\""
 msgstr "Podcasta \"%1\" Tê Daxistin"
 
-#: podcasts/sql/SqlPodcastProvider.cpp:689
+#: podcasts/sql/SqlPodcastProvider.cpp:688
 #, kde-format
 msgid "Unable to save podcast episode file to %1"
 msgstr "Nekarî beşa ji torê tê anîn tomar bike di pela %1 de"
@@ -3580,7 +3580,7 @@ msgid "Internet"
 msgstr "Tor"
 
 #: MainWindow.cpp:300
-msgid "Sources  of online content"
+msgid "Sources of online content"
 msgstr ""
 
 #: MainWindow.cpp:309
@@ -8210,6 +8210,13 @@ msgid "Rating changed"
 msgstr "Ecibandin guherî "
 
 #: widgets/Osd.cpp:140
+#, fuzzy
+#| msgctxt "State, as in, The playback is silent"
+#| msgid "Mute"
+msgid "(muted)"
+msgstr "Bêdeng"
+
+#: widgets/Osd.cpp:140
 #, fuzzy, kde-format
 #| msgid "Volume: %1%"
 msgid "Volume: %1% %2"
@@ -8225,7 +8232,7 @@ msgstr "Deng: 100%"
 msgid "OSD Preview - drag to reposition"
 msgstr "Pêşdîtina OSD - ji bo nû ve bicih kirinê bikişîne"
 
-#: widgets/Osd.cpp:671
+#: widgets/Osd.cpp:669
 msgid "Paused"
 msgstr "Hatiye Sekinandin"
 
