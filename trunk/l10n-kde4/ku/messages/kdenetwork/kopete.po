@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kopete\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-06-20 12:15+0200\n"
+"POT-Creation-Date: 2009-06-22 11:30+0200\n"
 "PO-Revision-Date: 2008-06-22 23:57+0200\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <ku@li.org>\n"
@@ -742,7 +742,7 @@ msgstr ""
 "xwegirêdana bêkarhêner bimînî."
 
 #: libkopete/kopetemetacontact.cpp:322 libkopete/kopetemetacontact.cpp:340
-#: libkopete/kopetemetacontact.cpp:417 libkopete/kopetecontact.cpp:429
+#: libkopete/kopetemetacontact.cpp:417 libkopete/kopetecontact.cpp:420
 msgid "User is Not Reachable"
 msgstr "Nikare Xwe Bigihîne Bikarhêner"
 
@@ -808,20 +808,20 @@ msgstr ""
 msgid "<qt>Please enter your password for %1 account <b>%2</b></qt>"
 msgstr "Ji kerema xwe ji bo %1 'ê nasnav têkevê <b>%2</b>"
 
-#: libkopete/contactlist/xmlcontactstorage.cpp:130
+#: libkopete/contactlist/xmlcontactstorage.cpp:131
 msgid "Could not find contactlist.xml in Kopete application data."
 msgstr ""
 
-#: libkopete/contactlist/xmlcontactstorage.cpp:231
+#: libkopete/contactlist/xmlcontactstorage.cpp:238
 #, fuzzy
 msgid "Could not open contact list file."
 msgstr "Pel ji bo nivîsandinê nayê vekirin."
 
-#: libkopete/contactlist/xmlcontactstorage.cpp:266
+#: libkopete/contactlist/xmlcontactstorage.cpp:273
 msgid "Could not write contact list to a file."
 msgstr ""
 
-#: libkopete/contactlist/xmlcontactstorage.cpp:552
+#: libkopete/contactlist/xmlcontactstorage.cpp:561
 msgid "(Unnamed Group)"
 msgstr "(Koma Bênav)"
 
@@ -926,23 +926,23 @@ msgstr "Hilanîna Bê&parastin"
 msgid "Not in your contact list"
 msgstr "Di lîsteya têkiliyan de tuneye"
 
-#: libkopete/kopetecontact.cpp:244
+#: libkopete/kopetecontact.cpp:239
 msgid "&Add to Your Contact List"
 msgstr "&Têxe Lîsteya Girêdanan"
 
-#: libkopete/kopetecontact.cpp:307
+#: libkopete/kopetecontact.cpp:302
 msgid "Move Contact"
 msgstr "Girêdanê Bikşîne"
 
-#: libkopete/kopetecontact.cpp:315
+#: libkopete/kopetecontact.cpp:310
 msgid "Select the meta contact to which you want to move this contact:"
 msgstr "Girêdana jor ya tu dixwazî vê girêdanê bibe wê derê hilbijêere:"
 
-#: libkopete/kopetecontact.cpp:318
+#: libkopete/kopetecontact.cpp:313
 msgid "Create a new metacontact for this contact"
 msgstr "Ji bo girêdanê girêdana jor pêk bîne"
 
-#: libkopete/kopetecontact.cpp:319
+#: libkopete/kopetecontact.cpp:314
 msgid ""
 "If you select this option, a new metacontact will be created in the top-"
 "level group with the name of this contact and the contact will be moved to "
@@ -951,7 +951,7 @@ msgstr ""
 "Heke ev vebijêrk hatibe hilbijartin wê bi navê girêdana jorîn komeke asta "
 "jorîn were afirandin û wê girêdan biçe wê derê."
 
-#: libkopete/kopetecontact.cpp:428
+#: libkopete/kopetecontact.cpp:419
 msgid ""
 "This user is not reachable at the moment. Please try a protocol that "
 "supports offline sending, or wait until this user comes online."
@@ -959,13 +959,13 @@ msgstr ""
 "Niha nagihîje vê têkiliyê. Heke protokol peyamên guhêrbar destek dike vê "
 "biceribîne an jî li benda xwegirêdana bikarhêner bisekine."
 
-#: libkopete/kopetecontact.cpp:436
+#: libkopete/kopetecontact.cpp:427
 #, kde-format
 msgid ""
 "Are you sure you want to remove the contact  '%1' from your contact list?"
 msgstr "Ji dil dixwazî '%1' jê bibî?"
 
-#: libkopete/kopetecontact.cpp:437
+#: libkopete/kopetecontact.cpp:428
 #: kopete/contactlist/kopetecontactlistview.cpp:816
 msgid "Remove Contact"
 msgstr "Têkiliyê Rake"
@@ -1018,7 +1018,7 @@ msgstr "Têkiliyê Rake"
 #. i18n: ectx: property (text), widget (QPushButton, ignoreRemove)
 #. i18n: file: protocols/jabber/ui/privacy.ui:249
 #. i18n: ectx: property (text), widget (KPushButton, pb_remove)
-#: libkopete/kopetecontact.cpp:437
+#: libkopete/kopetecontact.cpp:428
 #: kopete/contactlist/kopetecontactlistview.cpp:397
 #: kopete/contactlist/kopetecontactlistview.cpp:412
 #: kopete/contactlist/kopetecontactlistview.cpp:837 rc.cpp:901 rc.cpp:1006
@@ -1029,74 +1029,74 @@ msgstr "Têkiliyê Rake"
 msgid "Remove"
 msgstr "Ra&ke"
 
-#: libkopete/kopetecontact.cpp:579
+#: libkopete/kopetecontact.cpp:570
 #, kde-format
 msgctxt "@label:textbox %3 is contact-display-name, %1 is its status"
 msgid "<b><nobr>%3</nobr></b><br /><img src=\"%2\">&nbsp;%1"
 msgstr ""
 
-#: libkopete/kopetecontact.cpp:586
+#: libkopete/kopetecontact.cpp:577
 #, kde-format
 msgctxt ""
 "@label:textbox %4 is contact-display-name, %3 is contact-id, %1 is its status"
 msgid "<nobr><b>%4</b> (%3)</nobr><br /><img src=\"%2\">&nbsp;%1"
 msgstr ""
 
-#: libkopete/kopetecontact.cpp:604
+#: libkopete/kopetecontact.cpp:595
 #, kde-format
 msgctxt "@label:textbox formatted name"
 msgid "<br /><b>Full Name:</b>&nbsp;<nobr>%1</nobr>"
 msgstr ""
 
-#: libkopete/kopetecontact.cpp:613
+#: libkopete/kopetecontact.cpp:604
 #, kde-format
 msgctxt "@label:textbox formatted idle time"
 msgid "<br /><b>Idle:</b>&nbsp;<nobr>%1</nobr>"
 msgstr ""
 
-#: libkopete/kopetecontact.cpp:622
+#: libkopete/kopetecontact.cpp:613
 #, fuzzy, kde-format
 msgctxt "@label:textbox formatted url"
 msgid "<br /><b>Home Page:</b>&nbsp;<a href=\"%1\"><nobr>%2</nobr></a>"
 msgstr "<qt><nobr><b>Peyama nû ji %1:</b></nobr><br><nobr>\"%2\"</nobr></qt>"
 
-#: libkopete/kopetecontact.cpp:632
+#: libkopete/kopetecontact.cpp:623
 #, kde-format
 msgctxt "@label:textbox formatted status title"
 msgid "<br /><b>Status&nbsp;Title:</b>&nbsp;%1"
 msgstr ""
 
-#: libkopete/kopetecontact.cpp:641 kopete/kopetewindow.cpp:1237
+#: libkopete/kopetecontact.cpp:632 kopete/kopetewindow.cpp:1237
 #, kde-format
 msgctxt "@label:textbox formatted status message"
 msgid "<br /><b>Status&nbsp;Message:</b>&nbsp;%1"
 msgstr ""
 
-#: libkopete/kopetecontact.cpp:678
+#: libkopete/kopetecontact.cpp:669
 #, kde-format
 msgctxt "@label:textbox property label %2 is name, %1 is value"
 msgid "<br /><nobr><b>%2:</b></nobr>&nbsp;%1"
 msgstr ""
 
-#: libkopete/kopetecontact.cpp:701
+#: libkopete/kopetecontact.cpp:692
 #, fuzzy, kde-format
 msgctxt "firstName lastName"
 msgid "%2 %1"
 msgstr "%2 <%1>"
 
-#: libkopete/kopetecontact.cpp:737
+#: libkopete/kopetecontact.cpp:728
 #, kde-format
 msgctxt "<days>d <hours>h <minutes>m <seconds>s"
 msgid "%4d %3h %2m %1s"
 msgstr ""
 
-#: libkopete/kopetecontact.cpp:745
+#: libkopete/kopetecontact.cpp:736
 #, kde-format
 msgctxt "<hours>h <minutes>m <seconds>s"
 msgid "%3h %2m %1s"
 msgstr ""
 
-#: libkopete/kopetecontact.cpp:753
+#: libkopete/kopetecontact.cpp:744
 #, fuzzy, no-c-format, kde-format
 msgctxt "<minutes>m <seconds>s"
 msgid "%2m %1s"
