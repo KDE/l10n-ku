@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaider\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-07-09 12:14+0200\n"
+"POT-Creation-Date: 2009-07-10 11:53+0200\n"
 "PO-Revision-Date: 2008-09-24 02:55+0300\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: American English <kde-i18n-doc@lists.kde.org>\n"
@@ -150,27 +150,27 @@ msgid "Wildcard"
 msgstr ""
 
 #. i18n: file: src/tm/queryoptions.ui:171
-#. i18n: ectx: property (toolTip), widget (QPushButton, doUpdateTM)
+#. i18n: ectx: property (text), widget (QPushButton, doFind)
 #: rc.cpp:64
+msgid "&Search"
+msgstr ""
+
+#. i18n: file: src/tm/queryoptions.ui:178
+#. i18n: ectx: property (toolTip), widget (QPushButton, doUpdateTM)
+#: rc.cpp:67
 msgid ""
 "Reads all project files into translation memory, updating old entries. The "
 "scanning will work in background."
 msgstr ""
 
-#. i18n: file: src/tm/queryoptions.ui:174
+#. i18n: file: src/tm/queryoptions.ui:181
 #. i18n: ectx: property (text), widget (QPushButton, doUpdateTM)
-#: rc.cpp:67
+#: rc.cpp:70
 #, fuzzy
 #| msgctxt "@action:inmenu"
 #| msgid "Open project"
 msgid "&Rescan Project Files"
 msgstr "Projeyê veke"
-
-#. i18n: file: src/tm/queryoptions.ui:181
-#. i18n: ectx: property (text), widget (QPushButton, doFind)
-#: rc.cpp:70
-msgid "&Search"
-msgstr ""
 
 #. i18n: file: src/tm/managedatabases.ui:18
 #. i18n: ectx: property (text), widget (QPushButton, create)
@@ -1245,7 +1245,7 @@ msgctxt "@info:status message entries"
 msgid "Untranslated: %1"
 msgstr "Newergerandî: %1"
 
-#: src/editortab.cpp:188 src/lokalizemainwindow.cpp:360
+#: src/editortab.cpp:188 src/lokalizemainwindow.cpp:361
 msgctxt "@title actions category"
 msgid "File"
 msgstr "Pel"
@@ -1278,7 +1278,7 @@ msgstr ""
 msgid "Translation Memory"
 msgstr "Werger"
 
-#: src/editortab.cpp:194 src/lokalizemainwindow.cpp:362
+#: src/editortab.cpp:194 src/lokalizemainwindow.cpp:363
 #, fuzzy
 #| msgctxt "@action:inmenu"
 #| msgid "Glossary"
@@ -1732,18 +1732,18 @@ msgid ""
 "of the currently displayed entry.</p></qt>"
 msgstr ""
 
-#: src/editorview.cpp:181
+#: src/editorview.cpp:185
 #, kde-format
 msgctxt "@title:tab"
 msgid "Plural Form %1"
 msgstr ""
 
-#: src/editorview.cpp:267
+#: src/editorview.cpp:271
 msgctxt "@item Undo action item"
 msgid "Unwrap"
 msgstr ""
 
-#: src/lokalizemainwindow.cpp:363
+#: src/lokalizemainwindow.cpp:364
 #, fuzzy
 #| msgctxt "@title:column"
 #| msgid "Translation"
@@ -1751,25 +1751,25 @@ msgctxt "@title actions category"
 msgid "Translation Memory"
 msgstr "Werger"
 
-#: src/lokalizemainwindow.cpp:364
+#: src/lokalizemainwindow.cpp:365
 msgctxt "@title actions category"
 msgid "Project"
 msgstr "Proje"
 
-#: src/lokalizemainwindow.cpp:403
+#: src/lokalizemainwindow.cpp:404
 msgid "Next tab"
 msgstr "Pêşve"
 
-#: src/lokalizemainwindow.cpp:406
+#: src/lokalizemainwindow.cpp:407
 msgid "Previous tab"
 msgstr "Paşve"
 
-#: src/lokalizemainwindow.cpp:412
+#: src/lokalizemainwindow.cpp:413
 msgctxt "@action:inmenu"
 msgid "Glossary"
 msgstr "Ferhengok"
 
-#: src/lokalizemainwindow.cpp:420
+#: src/lokalizemainwindow.cpp:421
 #, fuzzy
 #| msgctxt "@title:column"
 #| msgid "Translation"
@@ -1777,27 +1777,27 @@ msgctxt "@action:inmenu"
 msgid "Translation memory"
 msgstr "Werger"
 
-#: src/lokalizemainwindow.cpp:424
+#: src/lokalizemainwindow.cpp:425
 msgctxt "@action:inmenu"
 msgid "Manage translation memories"
 msgstr "Bîrên wergeran birêvebibe"
 
-#: src/lokalizemainwindow.cpp:428
+#: src/lokalizemainwindow.cpp:429
 msgctxt "@action:inmenu"
 msgid "Project overview"
 msgstr ""
 
-#: src/lokalizemainwindow.cpp:432 src/lokalizemainwindow.cpp:435
+#: src/lokalizemainwindow.cpp:433 src/lokalizemainwindow.cpp:436
 msgctxt "@action:inmenu"
 msgid "Configure project"
 msgstr ""
 
-#: src/lokalizemainwindow.cpp:438
+#: src/lokalizemainwindow.cpp:439
 msgctxt "@action:inmenu"
 msgid "Open project"
 msgstr "Projeyê veke"
 
-#: src/lokalizemainwindow.cpp:441
+#: src/lokalizemainwindow.cpp:442
 #, fuzzy
 #| msgctxt "@action:inmenu"
 #| msgid "Open project"
@@ -1805,72 +1805,79 @@ msgctxt "@action:inmenu"
 msgid "Open recent project"
 msgstr "Projeyê veke"
 
-#: src/main.cpp:54
+#: src/main.cpp:55
 msgid ""
 "Computer-aided translation system.\n"
 "Do not translate what had already been translated."
 msgstr ""
 
-#: src/main.cpp:58
+#: src/main.cpp:59
 msgctxt "@title"
 msgid "Lokalize"
 msgstr ""
 
-#: src/main.cpp:59
+#: src/main.cpp:60
 msgctxt "@info:credit"
 msgid ""
 "(c) 2007-2009 Nick Shaforostoff\n"
 "(c) 1999-2006 The KBabel developers"
 msgstr ""
 
-#: src/main.cpp:60
+#: src/main.cpp:61
 msgid "Nick Shaforostoff"
 msgstr ""
 
-#: src/main.cpp:61
+#: src/main.cpp:62
 msgid "Google Inc."
 msgstr ""
 
-#: src/main.cpp:61
+#: src/main.cpp:62
 msgid "sponsored development as part of Google Summer Of Code program"
 msgstr ""
 
-#: src/main.cpp:62
+#: src/main.cpp:63
 #, fuzzy
 #| msgctxt "@title:column"
 #| msgid "Translated"
 msgid "Translate-toolkit"
 msgstr "Wergerandî"
 
-#: src/main.cpp:62
+#: src/main.cpp:63
 msgid "provided excellent cross-format converting scripts"
 msgstr ""
 
-#: src/main.cpp:63
+#: src/main.cpp:64
 msgid "Viesturs Zarins"
 msgstr ""
 
-#: src/main.cpp:63
+#: src/main.cpp:64
 msgid "project tree merging translation+templates"
 msgstr ""
 
-#: src/main.cpp:64
+#: src/main.cpp:65
 msgid "Stephan Johach"
 msgstr ""
 
-#: src/main.cpp:64 src/main.cpp:65
+#: src/main.cpp:65 src/main.cpp:66
 msgid "bug fixing patches"
 msgstr ""
 
-#: src/main.cpp:65
+#: src/main.cpp:66
 msgid "Chusslove Illich"
 msgstr ""
 
-#: src/main.cpp:73
+#: src/main.cpp:74
+#, fuzzy
+#| msgctxt "@label:textbox"
+#| msgid "Language:"
+msgid "Don't scan files of the project."
+msgstr "Ziman:"
+
+#: src/main.cpp:75
 msgid "Load specified project."
 msgstr ""
 
-#: src/main.cpp:74
+#: src/main.cpp:76
 msgid "Document to open"
 msgstr ""
 
@@ -2001,7 +2008,15 @@ msgctxt "@action:inmenu"
 msgid "Go to the referenced entry"
 msgstr ""
 
-#: src/xlifftextedit.cpp:1026
+#: src/xlifftextedit.cpp:897
+#, fuzzy
+#| msgctxt "@title:column"
+#| msgid "Translation"
+msgctxt "@action:inmenu"
+msgid "Lookup selected text in translation memory"
+msgstr "Werger"
+
+#: src/xlifftextedit.cpp:1033
 msgctxt "@item Undo action item"
 msgid "Copy source to target"
 msgstr ""
@@ -2667,21 +2682,21 @@ msgctxt "@title:tab"
 msgid "Personal"
 msgstr ""
 
-#: src/project/projectmodel.cpp:508
+#: src/project/projectmodel.cpp:509
 #, fuzzy
 #| msgid "Name:"
 msgctxt "@title:column File name"
 msgid "Name"
 msgstr "Nav:"
 
-#: src/project/projectmodel.cpp:509
+#: src/project/projectmodel.cpp:510
 msgctxt ""
 "@title:column Graphical representation of Translated/Fuzzy/Untranslated "
 "counts"
 msgid "Graph"
 msgstr ""
 
-#: src/project/projectmodel.cpp:510
+#: src/project/projectmodel.cpp:511
 #, fuzzy
 #| msgctxt "@info:status message entries"
 #| msgid "Total: %1"
@@ -2689,7 +2704,7 @@ msgctxt "@title:column Number of entries"
 msgid "Total"
 msgstr "Hemî: %1"
 
-#: src/project/projectmodel.cpp:511
+#: src/project/projectmodel.cpp:512
 #, fuzzy
 #| msgctxt "@title:column"
 #| msgid "Translated"
@@ -2697,12 +2712,12 @@ msgctxt "@title:column Number of entries"
 msgid "Translated"
 msgstr "Wergerandî"
 
-#: src/project/projectmodel.cpp:512
+#: src/project/projectmodel.cpp:513
 msgctxt "@title:column Number of entries"
 msgid "Not ready"
 msgstr ""
 
-#: src/project/projectmodel.cpp:513
+#: src/project/projectmodel.cpp:514
 #, fuzzy
 #| msgctxt "@title:column"
 #| msgid "Untranslated"
@@ -2710,17 +2725,17 @@ msgctxt "@title:column Number of entries"
 msgid "Untranslated"
 msgstr "Newergerandî"
 
-#: src/project/projectmodel.cpp:514
+#: src/project/projectmodel.cpp:515
 msgctxt "@title:column"
 msgid "Last Translation"
 msgstr ""
 
-#: src/project/projectmodel.cpp:515
+#: src/project/projectmodel.cpp:516
 msgctxt "@title:column"
 msgid "Template Revision"
 msgstr ""
 
-#: src/project/projectmodel.cpp:516
+#: src/project/projectmodel.cpp:517
 msgctxt "@title:column"
 msgid "Last Translator"
 msgstr ""
