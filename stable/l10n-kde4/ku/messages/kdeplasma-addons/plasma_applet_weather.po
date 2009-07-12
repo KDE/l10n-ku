@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_weather\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-07-11 07:52+0200\n"
+"POT-Creation-Date: 2009-07-12 07:11+0200\n"
 "PO-Revision-Date: 2009-01-12 03:03+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -40,12 +40,16 @@ msgid "%1%2"
 msgstr "%1%2"
 
 #: weatherapplet.cpp:267
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Low: %1"
+msgctxt "Low temperature"
 msgid "Low: %1"
 msgstr "Kêm: %1"
 
 #: weatherapplet.cpp:269
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "High: %1"
+msgctxt "High temperature"
 msgid "High: %1"
 msgstr "Zêde: %1"
 
@@ -56,112 +60,136 @@ msgctxt "High & Low temperature"
 msgid "H: %1 L: %2"
 msgstr "B: %1 F: %2"
 
-#: weatherapplet.cpp:397
+#: weatherapplet.cpp:395
 #, fuzzy, kde-format
 #| msgid "%1 %2%3"
 msgctxt "certain weather condition, probability percentage"
 msgid "%1 (%2%)"
 msgstr "%1 %2%3"
 
-#: weatherapplet.cpp:412 weatherapplet.cpp:425
+#: weatherapplet.cpp:410 weatherapplet.cpp:423
 msgctxt "Short for no data available"
 msgid "-"
 msgstr ""
 
-#: weatherapplet.cpp:454
-#, fuzzy
+#: weatherapplet.cpp:452
+#, fuzzy, kde-format
 #| msgid "5 Days"
-msgid "5 Days"
-msgstr "5 Roj"
+msgctxt "Forecast period timeframe"
+msgid "1 Day"
+msgid_plural "%1 Days"
+msgstr[0] "5 Roj"
+msgstr[1] "5 Roj"
 
-#: weatherapplet.cpp:477
+#: weatherapplet.cpp:476
 #, fuzzy, kde-format
 #| msgid "Windchill: %1%2"
 msgctxt "windchill, unit"
 msgid "Windchill: %1"
 msgstr "Germahiya tê bihîstin: %1%2"
 
-#: weatherapplet.cpp:485
+#: weatherapplet.cpp:484
 #, fuzzy, kde-format
 #| msgid "Humidex: %1%2"
 msgctxt "humidex, unit"
 msgid "Humidex: %1"
 msgstr "Xenamî: %1%2"
 
-#: weatherapplet.cpp:492
-#, kde-format
+#: weatherapplet.cpp:491
+#, fuzzy, kde-format
+#| msgid "Dewpoint: %1"
+msgctxt "ground temperature, unit"
 msgid "Dewpoint: %1"
 msgstr "Xala Xunavê: %1"
 
-#: weatherapplet.cpp:498
+#: weatherapplet.cpp:497
 #, fuzzy, kde-format
 #| msgid "Pressure: %1%2"
 msgctxt "pressure, unit"
 msgid "Pressure: %1 %2"
 msgstr "Pesto: %1%2"
 
-#: weatherapplet.cpp:504
-#, kde-format
+#: weatherapplet.cpp:503
+#, fuzzy, kde-format
+#| msgid "Pressure Tendency: %1"
+msgctxt "pressure tendency, rising/falling/steady"
 msgid "Pressure Tendency: %1"
 msgstr "Meyla Pestoyê: %1"
 
-#: weatherapplet.cpp:514
+#: weatherapplet.cpp:513
 #, fuzzy, kde-format
 #| msgid "Visibility: %1%2"
 msgctxt "distance, unit"
 msgid "Visibility: %1 %2"
 msgstr "Xuyanî bûn: %1%2"
 
-#: weatherapplet.cpp:516
-#, kde-format
+#: weatherapplet.cpp:515
+#, fuzzy, kde-format
+#| msgid "Visibility: %1"
+msgctxt "visibility from distance"
 msgid "Visibility: %1"
 msgstr "Xuyanî bûn: %1"
 
-#: weatherapplet.cpp:524
-#, kde-format
+#: weatherapplet.cpp:523
+#, fuzzy, kde-format
+#| msgid "Humidity: %1"
+msgctxt "content of water in air"
 msgid "Humidity: %1"
 msgstr "Xenam: %1"
 
-#: weatherapplet.cpp:529
+#: weatherapplet.cpp:528
 #, fuzzy, kde-format
 #| msgid "%1 %2%3"
 msgctxt "wind direction, speed"
 msgid "%1 %2 %3"
 msgstr "%1 %2%3"
 
-#: weatherapplet.cpp:533
+#: weatherapplet.cpp:532
 #, fuzzy
 #| msgid "N/A"
 msgctxt "Not available"
 msgid "N/A"
 msgstr "Ne-Çalak"
 
-#: weatherapplet.cpp:536
+#: weatherapplet.cpp:535
 #, fuzzy
 #| msgid "Calm"
 msgctxt "Wind condition"
 msgid "Calm"
 msgstr "Aram"
 
-#: weatherapplet.cpp:549
+#: weatherapplet.cpp:547
 #, fuzzy, kde-format
 #| msgid "Wind Gust: %1%2"
+msgctxt "winds exceeding wind speed briefly"
 msgid "Wind Gust: %1 %2"
 msgstr "Bahoz: %1%2"
 
-#: weatherapplet.cpp:557
+#: weatherapplet.cpp:555
+#, fuzzy
+#| msgid "Details"
+msgctxt "current weather information"
 msgid "Details"
 msgstr "Kitekît"
 
-#: weatherapplet.cpp:572
+#: weatherapplet.cpp:570
+#, fuzzy
+#| msgid "Warnings Issued:"
+msgctxt "weather warnings"
 msgid "Warnings Issued:"
 msgstr "Tiştên Hişyariyê:"
 
-#: weatherapplet.cpp:609
+#: weatherapplet.cpp:607
+#, fuzzy
+#| msgid "Watches Issued:"
+msgctxt "weather watches"
 msgid "Watches Issued:"
 msgstr "Tiştên Nihêrînê:"
 
-#: weatherapplet.cpp:635
+#: weatherapplet.cpp:633
+#, fuzzy
+#| msgid "Notices"
+msgctxt "weather notices"
 msgid "Notices"
 msgstr "Hişyarî"
 
