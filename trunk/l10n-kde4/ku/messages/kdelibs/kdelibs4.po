@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-07-22 12:56+0200\n"
+"POT-Creation-Date: 2009-07-23 07:06+0200\n"
 "PO-Revision-Date: 2009-01-05 14:53+0200\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -5791,14 +5791,6 @@ msgstr "Piştgiriyên KNewStuff"
 msgid "This operation requires authentication."
 msgstr "Erêkirina çalakiyê divê."
 
-#: knewstuff/knewstuff2/ui/knewstuffaction.cpp:35
-msgctxt ""
-"Hot new stuff offers to Download New Data. Apps can fill in an individual "
-"string here, but Data is the default. This is in an action that gets "
-"displayed in the menu or toolbar for example."
-msgid "Download New Data..."
-msgstr "Daneyên Nû Daxe..."
-
 #: knewstuff/knewstuff2/ui/kdxscomments.cpp:32
 msgid "User comments"
 msgstr "Şiroveyên bikarhêneran"
@@ -8572,7 +8564,7 @@ msgstr ""
 #: kdeui/windowmanagement/kwindowsystem_qws.cpp:177
 #: kdeui/windowmanagement/kwindowsystem_x11.cpp:854
 #: kdeui/windowmanagement/kwindowsystem_mac.cpp:564
-#: kdeui/windowmanagement/kwindowsystem_win.cpp:580
+#: kdeui/windowmanagement/kwindowsystem_win.cpp:604
 #, kde-format
 msgid "Desktop %1"
 msgstr "%1. Sermase"
@@ -11149,7 +11141,7 @@ msgstr "JavaScript"
 msgid "&Abort"
 msgstr "&Dev jê berde"
 
-#: khtml/ecma/kjs_window.cpp:1590 khtml/ecma/kjs_html.cpp:2115
+#: khtml/ecma/kjs_window.cpp:1590 khtml/ecma/kjs_html.cpp:2118
 msgid "Confirmation: JavaScript Popup"
 msgstr "Erêkirin: Paceya Javascriptê"
 
@@ -11170,11 +11162,11 @@ msgstr ""
 "<qt>Ev malper, dixwazî bi Javaskrîptê di hundirê paceya gerokeke nû de <p>%"
 "1</p> veke.<br />Tu yê destûrê bide vî tiştî?</qt>"
 
-#: khtml/ecma/kjs_window.cpp:1598 khtml/ecma/kjs_html.cpp:2122
+#: khtml/ecma/kjs_window.cpp:1598 khtml/ecma/kjs_html.cpp:2125
 msgid "Allow"
 msgstr "Desturê Bide"
 
-#: khtml/ecma/kjs_window.cpp:1598 khtml/ecma/kjs_html.cpp:2122
+#: khtml/ecma/kjs_window.cpp:1598 khtml/ecma/kjs_html.cpp:2125
 msgid "Do Not Allow"
 msgstr "Destûrê Nede"
 
@@ -11216,7 +11208,7 @@ msgstr "Têxe Nav"
 msgid "Disallow"
 msgstr "Destûrê nede"
 
-#: khtml/ecma/kjs_html.cpp:2117
+#: khtml/ecma/kjs_html.cpp:2120
 msgid ""
 "This site is submitting a form which will open up a new browser window via "
 "JavaScript.\n"
@@ -11225,7 +11217,7 @@ msgstr ""
 "Ev malper dixwaze Javascriptê bikar bîne û di paceyeke nû de formekê veke.\n"
 "Tu destûrê didî şandina formê?"
 
-#: khtml/ecma/kjs_html.cpp:2120
+#: khtml/ecma/kjs_html.cpp:2123
 #, kde-format
 msgid ""
 "<qt>This site is submitting a form which will open <p>%1</p> in a new "
@@ -11920,7 +11912,7 @@ msgstr "(C) 2005-2007 Sebastian Sauer"
 msgid "Sebastian Trüg"
 msgstr "Sebastian Sauer"
 
-#: nepomuk/rcgen/rcgen.cpp:52
+#: nepomuk/rcgen/rcgen.cpp:52 kutils/kidletime/example/main.cpp:30
 #, fuzzy
 #| msgid "MainWindow"
 msgid "Maintainer"
@@ -12245,6 +12237,26 @@ msgstr "Pêkhênanan Hilbijêre"
 #: kutils/ksettings/dialog.cpp:232
 msgid "Enable component"
 msgstr "Pêkhênanan Çalak Bike"
+
+#: kutils/kidletime/example/main.cpp:27
+#, fuzzy
+#| msgid "Test"
+msgid "KIdleTest"
+msgstr "Ceribandin"
+
+#: kutils/kidletime/example/main.cpp:28
+msgid "A small application to test KIdleTime functionality"
+msgstr ""
+
+#: kutils/kidletime/example/main.cpp:29
+msgid "2009 Dario Freddi"
+msgstr ""
+
+#: kutils/kidletime/example/main.cpp:30
+#, fuzzy
+#| msgid "David Faure"
+msgid "Dario Freddi"
+msgstr "David Faure"
 
 #: kjsembed/kjscmd/kjscmd.cpp:152
 msgid "KJSCmd"
@@ -13153,6 +13165,13 @@ msgstr "Mijara &rojê"
 #, kde-format
 msgid "No such function \"%1\""
 msgstr "Foksiyona bi navê \"%1\" tune"
+
+#~ msgctxt ""
+#~ "Hot new stuff offers to Download New Data. Apps can fill in an individual "
+#~ "string here, but Data is the default. This is in an action that gets "
+#~ "displayed in the menu or toolbar for example."
+#~ msgid "Download New Data..."
+#~ msgstr "Daneyên Nû Daxe..."
 
 #~ msgid "0 B"
 #~ msgstr "0 B"
