@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-07-31 01:30+0200\n"
+"POT-Creation-Date: 2009-08-01 01:23+0200\n"
 "PO-Revision-Date: 2007-12-22 09:56+0100\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <gnu-ku-wergerandin at lists dot sourceforge dot "
@@ -18,7 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural= n != 1;\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: app/extractHereDndPlugin.cpp:69 kerfuffle/extractiondialog.cpp:120
+#: app/extractHereDndPlugin.cpp:69 kerfuffle/extractiondialog.cpp:122
 #, fuzzy
 #| msgid "Extract"
 msgid "Extract here"
@@ -250,59 +250,68 @@ msgstr ""
 
 #. i18n: file: kerfuffle/extractiondialog.ui:161
 #. i18n: ectx: property (title), widget (QGroupBox, filesToExtractGroupBox)
-#: kerfuffle/extractiondialog.cpp:56 rc.cpp:63
+#: kerfuffle/extractiondialog.cpp:57 rc.cpp:63
 msgid "Extract"
 msgstr "Derxistin"
 
-#: kerfuffle/extractiondialog.cpp:92
+#: kerfuffle/extractiondialog.cpp:93
 #, fuzzy
 #| msgid "Extracting all files"
 msgid "Extract multiple archives"
 msgstr "Hemû pel tên derxistin"
 
-#: kerfuffle/extractiondialog.cpp:98
+#: kerfuffle/extractiondialog.cpp:99
 msgid "The subfolder name may not contain the character '/'."
 msgstr ""
 
-#: kerfuffle/extractiondialog.cpp:104
+#: kerfuffle/extractiondialog.cpp:105
 #, kde-format
 msgid "Create folder %1?"
 msgstr ""
 
-#: kerfuffle/extractiondialog.cpp:105
+#: kerfuffle/extractiondialog.cpp:106
 msgid "Missing Folder"
 msgstr ""
 
-#: kerfuffle/extractiondialog.cpp:105
+#: kerfuffle/extractiondialog.cpp:106
 #, fuzzy
 #| msgid "Add Folder"
 msgid "Create Folder"
 msgstr "Peldank Lê Zêde Bike"
 
-#: kerfuffle/extractiondialog.cpp:105
+#: kerfuffle/extractiondialog.cpp:106
 msgid "Do Not Create"
 msgstr ""
 
-#: kerfuffle/extractiondialog.cpp:111
+#: kerfuffle/extractiondialog.cpp:112
 msgid "The folder could not be created. Please check permissions."
 msgstr ""
 
-#: kerfuffle/extractiondialog.cpp:120
+#: kerfuffle/extractiondialog.cpp:122
 #, kde-format
 msgid "The folder '%1' already exists. Are you sure you want to extract here?"
 msgstr ""
 
-#: kerfuffle/extractiondialog.cpp:120
+#: kerfuffle/extractiondialog.cpp:122
 msgid "Folder exists"
 msgstr ""
 
-#: kerfuffle/extractiondialog.cpp:120 part/part.cpp:317 part/part.cpp:687
+#: kerfuffle/extractiondialog.cpp:122 part/part.cpp:317 part/part.cpp:687
 msgid "Cancel"
 msgstr ""
 
-#: kerfuffle/extractiondialog.cpp:128
+#: kerfuffle/extractiondialog.cpp:131 kerfuffle/extractiondialog.cpp:137
 #, kde-format
-msgid "The folder '%1' could not be created. Please check permissions."
+msgid "The folder <b>%1</b> could not be created."
+msgstr ""
+
+#: kerfuffle/extractiondialog.cpp:132
+#, kde-format
+msgid "<b>%1</b> already exists, but is not a folder."
+msgstr ""
+
+#: kerfuffle/extractiondialog.cpp:138
+msgid "Please check your permissions to create it."
 msgstr ""
 
 #: kerfuffle/jobs.cpp:111
