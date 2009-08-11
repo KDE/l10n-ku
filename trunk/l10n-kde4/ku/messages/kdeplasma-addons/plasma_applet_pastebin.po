@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_pastebin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-07-28 06:53+0200\n"
+"POT-Creation-Date: 2009-08-11 06:45+0200\n"
 "PO-Revision-Date: 2009-01-11 00:22+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -18,20 +18,20 @@ msgstr ""
 "X-Poedit-Language: Kurdish\n"
 "X-Poedit-SourceCharset: utf8\n"
 
-#: pastebin.cpp:214
+#: pastebin.cpp:212
 msgctxt "The status of the applet has not been set - i.e. it is unset."
 msgid "Unset"
 msgstr ""
 
-#: pastebin.cpp:219
+#: pastebin.cpp:217
 msgid "Drop text or an image onto me to upload it to Pastebin."
 msgstr ""
 
-#: pastebin.cpp:224
+#: pastebin.cpp:222
 msgid "Error during upload. Try again."
 msgstr ""
 
-#: pastebin.cpp:232
+#: pastebin.cpp:230
 #, fuzzy, kde-format
 #| msgid ""
 #| "Successfully posted to: <a href=\"%1\">%2</a><p>Drag text/image here to "
@@ -41,34 +41,34 @@ msgstr ""
 "Serfiraz hat şandin jê: <a href=\"%1\">%2</a><p>Nivîs/wêne bikişîne li vir "
 "ji bo şandina jê pêşkêşkerê re"
 
-#: pastebin.cpp:240
+#: pastebin.cpp:238
 msgid "Sending...."
 msgstr ""
 
-#: pastebin.cpp:368
+#: pastebin.cpp:366
 msgid "Drop!"
 msgstr ""
 
-#: pastebin.cpp:387
+#: pastebin.cpp:385
 msgid "Error: Try Again"
 msgstr ""
 
-#: pastebin.cpp:445
+#: pastebin.cpp:443
 msgid "General"
 msgstr "Giştî"
 
-#: pastebin.cpp:453
+#: pastebin.cpp:451
 msgid "Servers"
 msgstr ""
 
-#: pastebin.cpp:514
+#: pastebin.cpp:522
 #, kde-format
 msgctxt ""
 "Notification when the pastebin applet has copied the URL to the clipboard"
 msgid "%1 has been copied to your clipboard"
 msgstr ""
 
-#: pastebin.cpp:516
+#: pastebin.cpp:524
 msgid "Open browser"
 msgstr ""
 
@@ -120,9 +120,29 @@ msgstr ""
 msgid "History size:"
 msgstr ""
 
+#. i18n: file: pastebinConfig.ui:76
+#. i18n: ectx: property (text), widget (QLabel, imagebinPrivacyLabel)
+#: rc.cpp:27
+#, fuzzy
+#| msgid "Imagebin.ca"
+msgid "Make Imagebin images:"
+msgstr "Imagebin.ca"
+
+#. i18n: file: pastebinConfig.ui:84
+#. i18n: ectx: property (text), item, widget (KComboBox, imagebinPrivacy)
+#: rc.cpp:30
+msgid "Public"
+msgstr ""
+
+#. i18n: file: pastebinConfig.ui:89
+#. i18n: ectx: property (text), item, widget (KComboBox, imagebinPrivacy)
+#: rc.cpp:33
+msgid "Private"
+msgstr ""
+
 #. i18n: file: pastebinServersConfig.ui:6
 #. i18n: ectx: property (windowTitle), widget (QWidget, pastebinServersConfig)
-#: rc.cpp:27
+#: rc.cpp:36
 #, fuzzy
 #| msgid "Pastebin Config Dialog"
 msgid "Pastebin Server Config Dialog"
@@ -130,7 +150,7 @@ msgstr "Paceya Veavakirina Pastebin"
 
 #. i18n: file: pastebinServersConfig.ui:12
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:30
+#: rc.cpp:39
 #, fuzzy
 #| msgid "Pastebin.ca"
 msgid "Pastebin.ca:"
@@ -138,7 +158,7 @@ msgstr "Pastebin.ca"
 
 #. i18n: file: pastebinServersConfig.ui:22
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:33
+#: rc.cpp:42
 #, fuzzy
 #| msgid "Pastebin.com"
 msgid "Pastebin.com:"
@@ -146,7 +166,7 @@ msgstr "Pastebin.com"
 
 #. i18n: file: pastebinServersConfig.ui:32
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#: rc.cpp:36
+#: rc.cpp:45
 #, fuzzy
 #| msgid "Imagebin.ca"
 msgid "Imagebin.ca:"
@@ -154,7 +174,7 @@ msgstr "Imagebin.ca"
 
 #. i18n: file: pastebinServersConfig.ui:42
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:39
+#: rc.cpp:48
 msgid "ImageShack.us:"
 msgstr ""
 
