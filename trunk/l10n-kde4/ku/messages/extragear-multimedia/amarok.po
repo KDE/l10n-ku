@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-08-19 07:34+0200\n"
+"POT-Creation-Date: 2009-08-20 06:40+0200\n"
 "PO-Revision-Date: 2009-02-21 06:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -548,7 +548,7 @@ msgstr "Muzîkê dinihêre"
 #: collection/sqlcollection/ScanManager.cpp:676
 #: dialogs/OrganizeCollectionDialog.cpp:143
 #: browsers/CollectionTreeItem.cpp:163 covermanager/CoverViewDialog.h:45
-#: covermanager/CoverManager.cpp:854
+#: covermanager/CoverManager.cpp:784
 msgid "Various Artists"
 msgstr "Hunermendên cur bi cur"
 
@@ -560,7 +560,7 @@ msgstr "Darijîne "
 
 #: collection/sqlcollection/SqlMeta.cpp:403
 #: services/lastfm/meta/LastFmMeta.cpp:137 covermanager/CoverViewDialog.h:44
-#: covermanager/CoverManager.cpp:854
+#: covermanager/CoverManager.cpp:784
 #, kde-format
 msgid "%1 - %2"
 msgstr "%1 - %2"
@@ -5435,31 +5435,31 @@ msgstr "Navneteweyî"
 
 #. i18n: file: dialogs/EditCoverSearchDialog.ui:67
 #. i18n: ectx: property (text), item, widget (KComboBox, amazonLocale)
-#: rc.cpp:751 covermanager/CoverManager.cpp:211
+#: rc.cpp:751
 msgid "Canada"
 msgstr "Kanada"
 
 #. i18n: file: dialogs/EditCoverSearchDialog.ui:72
 #. i18n: ectx: property (text), item, widget (KComboBox, amazonLocale)
-#: rc.cpp:754 covermanager/CoverManager.cpp:215
+#: rc.cpp:754
 msgid "France"
 msgstr "Fransa"
 
 #. i18n: file: dialogs/EditCoverSearchDialog.ui:77
 #. i18n: ectx: property (text), item, widget (KComboBox, amazonLocale)
-#: rc.cpp:757 covermanager/CoverManager.cpp:219
+#: rc.cpp:757
 msgid "Germany"
 msgstr "Almanya"
 
 #. i18n: file: dialogs/EditCoverSearchDialog.ui:82
 #. i18n: ectx: property (text), item, widget (KComboBox, amazonLocale)
-#: rc.cpp:760 covermanager/CoverManager.cpp:223
+#: rc.cpp:760
 msgid "Japan"
 msgstr "Japonya"
 
 #. i18n: file: dialogs/EditCoverSearchDialog.ui:87
 #. i18n: ectx: property (text), item, widget (KComboBox, amazonLocale)
-#: rc.cpp:763 covermanager/CoverManager.cpp:227
+#: rc.cpp:763
 msgid "United Kingdom"
 msgstr "Şahitiya Yekbûyî"
 
@@ -8607,7 +8607,7 @@ msgstr[1] "%1 stran"
 
 #: statusbar/ProgressBar.cpp:47 statusbar/CompoundProgressBar.cpp:67
 #: statusbar/CompoundProgressBar.cpp:139 statusbar/CompoundProgressBar.cpp:174
-#: covermanager/CoverManager.cpp:261
+#: covermanager/CoverManager.cpp:214
 msgid "Abort"
 msgstr "Betal"
 
@@ -9073,89 +9073,33 @@ msgstr[1] ""
 msgid "Select Cover Image File"
 msgstr "Pela Wêneya Rûgirê Albumê Hilbijêre"
 
-#: covermanager/CoverFetcher.cpp:180
-msgid "disc"
-msgstr "dîsk"
-
-#: covermanager/CoverFetcher.cpp:180
-msgid "disk"
-msgstr "dîsk"
-
-#: covermanager/CoverFetcher.cpp:180
-msgid "remaster"
-msgstr ""
-
-#: covermanager/CoverFetcher.cpp:180
-msgid "cd"
-msgstr "cd"
-
-#: covermanager/CoverFetcher.cpp:180
-msgid "single"
-msgstr "tekane"
-
-#: covermanager/CoverFetcher.cpp:180
-msgid "soundtrack"
-msgstr "strana-fîlimê"
-
-#: covermanager/CoverFetcher.cpp:180
-msgid "part"
-msgstr "perçe"
-
-#: covermanager/CoverFetcher.cpp:246 covermanager/CoverFetcher.cpp:504
-msgid "No cover found"
-msgstr "Tu rûgirê albumê nehat dîtin."
-
-#: covermanager/CoverFetcher.cpp:279 covermanager/CoverFetcher.cpp:463
+#: covermanager/CoverFetcher.cpp:197
 msgid "Fetching Cover"
 msgstr "Rûgirê Albumê Tê Anîn"
 
-#: covermanager/CoverFetcher.cpp:289
-msgid "There was an error communicating with Amazon."
+#: covermanager/CoverFetcher.cpp:206
+#, fuzzy
+#| msgid "There was an error communicating with Amazon."
+msgid "There was an error communicating with last.fm."
 msgstr "Di têkiliya bi Amazon re de çewtî çê bû."
 
-#: covermanager/CoverFetcher.cpp:311
-msgid "The XML obtained from Amazon is invalid."
+#: covermanager/CoverFetcher.cpp:219
+msgid "The XML obtained from Last.fm is invalid."
 msgstr ""
 
-#: covermanager/CoverFetcher.cpp:424
+#: covermanager/CoverFetcher.cpp:264
 msgid "The cover could not be retrieved."
 msgstr "Rûgirê albumê cardin nayê anîn."
 
-#: covermanager/CoverFetcher.cpp:433
-msgid "The cover-data produced an invalid image."
-msgstr ""
-
-#: covermanager/CoverFetcher.cpp:495
-msgid ""
-"You have seen all the covers Amazon returned using the query below. Perhaps "
-"you can refine it:"
-msgstr ""
-
-#: covermanager/CoverFetcher.cpp:518
-msgid "Amazon Query Editor"
-msgstr "Edîtorê Rêza Amazon"
-
-#: covermanager/CoverFetcher.cpp:585
-msgid "Ask Amazon for covers using this query:"
-msgstr ""
-
-#: covermanager/CoverFetcher.cpp:606 covermanager/CoverFetcher.cpp:683
-msgid "Aborted."
-msgstr "Betal bû."
-
-#: covermanager/CoverFetcher.cpp:626
-msgid "Ne&w Search..."
-msgstr "Lê&gerîna Nû..."
-
-#: covermanager/CoverFetcher.cpp:628
-msgid "&Next Cover"
-msgstr "Rûgira &Pêş"
-
-#: covermanager/CoverFetcher.cpp:639
+#: covermanager/CoverFetcher.cpp:305
 msgid "Cover Found"
 msgstr "Rûgir Hat Dîtin"
 
-#: covermanager/CoverFetcher.cpp:692
+#: covermanager/CoverFetcher.cpp:337
+msgid "Aborted."
+msgstr "Betal bû."
+
+#: covermanager/CoverFetcher.cpp:346
 msgid "Retrieved cover successfully"
 msgstr "Cardin anîna rûgirê serfiraz bû"
 
@@ -9163,7 +9107,7 @@ msgstr "Cardin anîna rûgirê serfiraz bû"
 msgid "Albums By"
 msgstr "Çêkerê Albumê"
 
-#: covermanager/CoverManager.cpp:112 covermanager/CoverManager.cpp:358
+#: covermanager/CoverManager.cpp:112 covermanager/CoverManager.cpp:296
 msgid "All Artists"
 msgstr "Hemû Hunermend"
 
@@ -9183,109 +9127,136 @@ msgstr "Albumên Bi Rûgir"
 msgid "Albums Without Cover"
 msgstr "Albumên Bê Rûgir"
 
-#: covermanager/CoverManager.cpp:207
-msgctxt "The locale to use when fetching covers from amazon.com"
-msgid "International"
-msgstr "navneteweyî"
-
-#: covermanager/CoverManager.cpp:234
-msgctxt "@title buttontext for popup-menu"
-msgid "View"
-msgstr "Bergeh"
-
-#: covermanager/CoverManager.cpp:239
-msgid "Amazon Locale"
-msgstr "Herêma Amazon"
-
-#: covermanager/CoverManager.cpp:245
+#: covermanager/CoverManager.cpp:198
 msgid "Fetch Missing Covers"
 msgstr "Rûgirên Kêm Bîne"
 
-#: covermanager/CoverManager.cpp:434
+#: covermanager/CoverManager.cpp:372
 msgid "Loading Thumbnails..."
 msgstr "Wêneyên Biçûk Têne Barkirin..."
 
-#: covermanager/CoverManager.cpp:698
+#: covermanager/CoverManager.cpp:628
 msgctxt "The fetching is done."
 msgid "Finished."
 msgstr "Bi dawî bû."
 
-#: covermanager/CoverManager.cpp:700
+#: covermanager/CoverManager.cpp:630
 #, kde-format
 msgid " Cover not found"
 msgid_plural " <b>%1</b> covers not found"
 msgstr[0] "Rûgir nehat dîtin"
 msgstr[1] "<b>%1</b> rûgir nehatin dîtin"
 
-#: covermanager/CoverManager.cpp:713
+#: covermanager/CoverManager.cpp:643
 #, kde-format
 msgid "Fetching cover for %1..."
 msgstr "Rûgir tê anîn ji bo %1..."
 
-#: covermanager/CoverManager.cpp:715
+#: covermanager/CoverManager.cpp:645
 #, kde-format
 msgid "Fetching cover for %1 - %2..."
 msgstr "Rûgir tê anîn ji bo %1 - %2..."
 
-#: covermanager/CoverManager.cpp:722
+#: covermanager/CoverManager.cpp:652
 #, kde-format
 msgid "Fetching 1 cover: "
 msgid_plural "Fetching <b>%1</b> covers... : "
 msgstr[0] "1 rûgir tê anîn:"
 msgstr[1] "<b>%1</b> rûgir tên anîn... :"
 
-#: covermanager/CoverManager.cpp:724
+#: covermanager/CoverManager.cpp:654
 #, kde-format
 msgid "1 fetched"
 msgid_plural "%1 fetched"
 msgstr[0] "1 hat anîn"
 msgstr[1] "%1 hatin anîn"
 
-#: covermanager/CoverManager.cpp:728
+#: covermanager/CoverManager.cpp:658
 msgid " - "
 msgstr " - "
 
-#: covermanager/CoverManager.cpp:729
+#: covermanager/CoverManager.cpp:659
 #, kde-format
 msgid "1 not found"
 msgid_plural "%1 not found"
 msgstr[0] "1 nehat dîtin"
 msgstr[1] "%1 nehatin dîtin"
 
-#: covermanager/CoverManager.cpp:732
+#: covermanager/CoverManager.cpp:662
 msgid "Connecting..."
 msgstr "Tê girêdan..."
 
-#: covermanager/CoverManager.cpp:757
+#: covermanager/CoverManager.cpp:687
 #, kde-format
 msgid "1 result for \"%2\""
 msgid_plural "%1 results for \"%2\""
 msgstr[0] "1 encam ji bo \"%2\""
 msgstr[1] "%1 encam ji bo \"%2\""
 
-#: covermanager/CoverManager.cpp:760
+#: covermanager/CoverManager.cpp:690
 #, kde-format
 msgid "1 album"
 msgid_plural "%1 albums"
 msgstr[0] "1 album"
 msgstr[1] "%1 album"
 
-#: covermanager/CoverManager.cpp:766
+#: covermanager/CoverManager.cpp:696
 msgid " by "
 msgstr "a"
 
-#: covermanager/CoverManager.cpp:771
+#: covermanager/CoverManager.cpp:701
 #, kde-format
 msgid " - ( <b>%1</b> without cover )"
 msgstr " - ( <b>%1</b> bê rûgir )"
 
-#: covermanager/CoverManager.cpp:817
+#: covermanager/CoverManager.cpp:747
 msgid "Cover Image"
 msgstr "Wêneya Rûgirê"
 
-#: covermanager/CoverManager.cpp:875
+#: covermanager/CoverManager.cpp:805
 msgid "No Artist"
 msgstr "Hunermend Tune ye "
+
+#~ msgid "disc"
+#~ msgstr "dîsk"
+
+#~ msgid "disk"
+#~ msgstr "dîsk"
+
+#~ msgid "cd"
+#~ msgstr "cd"
+
+#~ msgid "single"
+#~ msgstr "tekane"
+
+#~ msgid "soundtrack"
+#~ msgstr "strana-fîlimê"
+
+#~ msgid "part"
+#~ msgstr "perçe"
+
+#~ msgid "No cover found"
+#~ msgstr "Tu rûgirê albumê nehat dîtin."
+
+#~ msgid "Amazon Query Editor"
+#~ msgstr "Edîtorê Rêza Amazon"
+
+#~ msgid "Ne&w Search..."
+#~ msgstr "Lê&gerîna Nû..."
+
+#~ msgid "&Next Cover"
+#~ msgstr "Rûgira &Pêş"
+
+#~ msgctxt "The locale to use when fetching covers from amazon.com"
+#~ msgid "International"
+#~ msgstr "navneteweyî"
+
+#~ msgctxt "@title buttontext for popup-menu"
+#~ msgid "View"
+#~ msgstr "Bergeh"
+
+#~ msgid "Amazon Locale"
+#~ msgstr "Herêma Amazon"
 
 #, fuzzy
 #~| msgid "Collection"
