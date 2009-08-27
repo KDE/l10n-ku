@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gwenview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-08-20 06:12+0200\n"
+"POT-Creation-Date: 2009-08-27 07:12+0200\n"
 "PO-Revision-Date: 2009-01-22 22:46+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -154,7 +154,7 @@ msgctxt "@action:inmenu"
 msgid "Rating"
 msgstr "Nirxandin"
 
-#: app/thumbnailviewpanel.cpp:139 app/fileopscontextmanageritem.cpp:124
+#: app/thumbnailviewpanel.cpp:139 app/fileopscontextmanageritem.cpp:196
 #: app/mainwindow.cpp:288
 msgctxt "@title actions category"
 msgid "File"
@@ -396,7 +396,7 @@ msgctxt "@label. The two parameters are strings like '2 folders' and '1 file'."
 msgid "%1 and %2 selected"
 msgstr "%1 peldank û %2 pel hatine hilbijartin"
 
-#: app/imagemetainfodialog.cpp:118
+#: app/imagemetainfodialog.cpp:120
 msgid "Meta Information"
 msgstr "Agahiya Meta"
 
@@ -457,47 +457,86 @@ msgstr "Peldank Biafirîne"
 msgid "Forget All"
 msgstr ""
 
-#: app/fileopscontextmanageritem.cpp:115
+#: app/fileopscontextmanageritem.cpp:81
+#, fuzzy
+#| msgid "Create Folder"
+msgctxt "@action:inmenu"
+msgid "Paste One Folder"
+msgstr "Peldank Biafirîne"
+
+#: app/fileopscontextmanageritem.cpp:82
+msgctxt "@action:inmenu"
+msgid "Paste One File"
+msgstr ""
+
+#: app/fileopscontextmanageritem.cpp:85
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Paste One Item"
+msgid_plural "Paste %1 Items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: app/fileopscontextmanageritem.cpp:87
+msgctxt "@action:inmenu"
+msgid "Paste Clipboard Contents..."
+msgstr ""
+
+#: app/fileopscontextmanageritem.cpp:91
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Date"
+msgctxt "@action:inmenu"
+msgid "Paste"
+msgstr "Dîrok"
+
+#: app/fileopscontextmanageritem.cpp:187
 msgid "File Operations"
 msgstr "Xebatên Pelê"
 
-#: app/fileopscontextmanageritem.cpp:127
+#: app/fileopscontextmanageritem.cpp:197
+#: app/semanticinfocontextmanageritem.cpp:161
+msgctxt "@title actions category"
+msgid "Edit"
+msgstr "Serast Bike"
+
+#: app/fileopscontextmanageritem.cpp:204
 msgctxt "Verb"
 msgid "Copy To..."
 msgstr "Ji Ber Bigire Li..."
 
-#: app/fileopscontextmanageritem.cpp:131
+#: app/fileopscontextmanageritem.cpp:208
 msgctxt "Verb"
 msgid "Move To..."
 msgstr "Bibe Li..."
 
-#: app/fileopscontextmanageritem.cpp:135
+#: app/fileopscontextmanageritem.cpp:212
 msgctxt "Verb: create link to the file where user wants"
 msgid "Link To..."
 msgstr "Girê Bide Li..."
 
-#: app/fileopscontextmanageritem.cpp:139
+#: app/fileopscontextmanageritem.cpp:216
 msgctxt "Verb"
 msgid "Trash"
 msgstr "Bavêje Çopê"
 
-#: app/fileopscontextmanageritem.cpp:144
+#: app/fileopscontextmanageritem.cpp:221
 msgid "Delete"
 msgstr "Jê Bibe"
 
-#: app/fileopscontextmanageritem.cpp:149
+#: app/fileopscontextmanageritem.cpp:226
 msgid "Properties"
 msgstr "Taybetmendî"
 
-#: app/fileopscontextmanageritem.cpp:153
+#: app/fileopscontextmanageritem.cpp:230
 msgid "Create Folder..."
 msgstr "Peldank Biafirîne..."
 
-#: app/fileopscontextmanageritem.cpp:157
+#: app/fileopscontextmanageritem.cpp:234
 msgid "Open With"
 msgstr "Veke Bi"
 
-#: app/fileopscontextmanageritem.cpp:272
+#: app/fileopscontextmanageritem.cpp:381
 msgid "Other Application..."
 msgstr "Sepanê Din..."
 
@@ -510,11 +549,6 @@ msgstr "Agahiya Semantîk"
 #| msgid "Description:"
 msgid "Description"
 msgstr "Daxuyanî:"
-
-#: app/semanticinfocontextmanageritem.cpp:161
-msgctxt "@title actions category"
-msgid "Edit"
-msgstr "Serast Bike"
 
 #: app/semanticinfocontextmanageritem.cpp:164
 msgctxt "@action"
@@ -1102,67 +1136,67 @@ msgstr "Peldankên Borî"
 msgid "Recent URLs"
 msgstr "Peldankên Borî"
 
-#. i18n: file: app/gwenviewui.rc:49
+#. i18n: file: app/gwenviewui.rc:53
 #. i18n: ectx: Menu (rating)
 #: rc.cpp:80
 msgid "&Rating"
 msgstr "Tê &Nirxandin"
 
-#. i18n: file: app/gwenviewui.rc:76
+#. i18n: file: app/gwenviewui.rc:80
 #. i18n: ectx: Menu (plugins)
 #: rc.cpp:83
 msgid "&Plugins"
 msgstr "&Plugin"
 
-#. i18n: file: app/gwenviewui.rc:78
+#. i18n: file: app/gwenviewui.rc:82
 #. i18n: ectx: Menu (kipi_images)
 #: rc.cpp:86
 msgid "Images"
 msgstr "Wêne"
 
-#. i18n: file: app/gwenviewui.rc:82
+#. i18n: file: app/gwenviewui.rc:86
 #. i18n: ectx: Menu (kipi_effects)
 #: rc.cpp:89
 msgid "Effects"
 msgstr "Efekt"
 
-#. i18n: file: app/gwenviewui.rc:86
+#. i18n: file: app/gwenviewui.rc:90
 #. i18n: ectx: Menu (kipi_tools)
 #: rc.cpp:92
 msgid "Tools"
 msgstr "Amûr"
 
-#. i18n: file: app/gwenviewui.rc:90
+#. i18n: file: app/gwenviewui.rc:94
 #. i18n: ectx: Menu (kipi_batch)
 #: rc.cpp:95
 msgid "Batch Processing"
 msgstr "Pêvajoyên Bitevayî"
 
-#. i18n: file: app/gwenviewui.rc:94
+#. i18n: file: app/gwenviewui.rc:98
 #. i18n: ectx: Menu (kipi_import)
 #: rc.cpp:98
 msgid "Import"
 msgstr "Veguhezîne Hundir"
 
-#. i18n: file: app/gwenviewui.rc:98
+#. i18n: file: app/gwenviewui.rc:102
 #. i18n: ectx: Menu (kipi_export)
 #: rc.cpp:101
 msgid "Export"
 msgstr "Veguhezîne Derve"
 
-#. i18n: file: app/gwenviewui.rc:102
+#. i18n: file: app/gwenviewui.rc:106
 #. i18n: ectx: Menu (kipi_collections)
 #: rc.cpp:104
 msgid "Collections"
 msgstr "Berhevok"
 
-#. i18n: file: app/gwenviewui.rc:107
+#. i18n: file: app/gwenviewui.rc:111
 #. i18n: ectx: Menu (settings)
 #: rc.cpp:107
 msgid "&Settings"
 msgstr "&Mîheng"
 
-#. i18n: file: app/gwenviewui.rc:120
+#. i18n: file: app/gwenviewui.rc:124
 #. i18n: ectx: ToolBar (mainToolBar)
 #. i18n: file: part/gvpart.rc:15
 #. i18n: ectx: ToolBar (mainToolBar)
