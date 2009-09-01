@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-08-31 06:06+0200\n"
+"POT-Creation-Date: 2009-09-01 06:21+0200\n"
 "PO-Revision-Date: 2009-01-05 14:53+0200\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -6790,7 +6790,7 @@ msgstr "Vê peyamê careke din nîşan nede"
 msgid "About %1"
 msgstr "Der barê %1 de"
 
-#: kdeui/dialogs/kconfigdialog.cpp:69 kutils/kcmultidialog.cpp:123
+#: kdeui/dialogs/kconfigdialog.cpp:69 kutils/kcmultidialog.cpp:125
 msgid "Configure"
 msgstr "Veavakirin"
 
@@ -8702,6 +8702,16 @@ msgstr "Darikên Amûran"
 #: kdeui/widgets/klanguagebutton.cpp:177
 msgid "without name"
 msgstr "bênav"
+
+#: kdeui/widgets/kcmodule.cpp:170
+msgid "You will be asked to authenticate before saving"
+msgstr ""
+
+#: kdeui/widgets/kcmodule.cpp:174
+#, fuzzy
+#| msgid "Do you want to reload KDE configuration?"
+msgid "You are not allowed to save the configuration"
+msgstr "Tu dixwazî mîhengên KDE ji nû ve bar bike?"
 
 #: kdeui/widgets/kactionselector.cpp:94
 msgid "&Available:"
@@ -11470,8 +11480,12 @@ msgid "Send Confirmation"
 msgstr "Erêkirinê Bişîne"
 
 #: khtml/html/html_formimpl.cpp:440
-msgid "&Send Files"
-msgstr "Pelan &Bişîne"
+#, fuzzy
+#| msgid "&Send Files"
+msgid "&Send File"
+msgid_plural "&Send Files"
+msgstr[0] "Pelan &Bişîne"
+msgstr[1] "Pelan &Bişîne"
 
 #: khtml/html/html_formimpl.cpp:2619
 msgid "Key Generator"
@@ -12288,27 +12302,7 @@ msgstr "Barkirina pêşdîtina çapê biserneket"
 msgid "Print Preview"
 msgstr "Pêşdîtina berî Çapkirinê"
 
-#: kutils/kcmoduleproxy.cpp:131
-msgid ""
-"<b>Changes in this section require root access.</b><br />On applying your "
-"changes you will have to supply your root password."
-msgstr ""
-"<b>Bo guherînên vê beşê pêwist e gihiştina root hebe.</b><br />Dema "
-"guherandinên te werin bikaranîn pêwist e şîfreya xwe ya root binivîsî."
-
-#: kutils/kcmoduleproxy.cpp:138
-msgid ""
-"This section requires special permissions, probably for system-wide changes; "
-"therefore, it is required that you provide the root password to be able to "
-"change the module's properties. If you cannot provide the password, the "
-"changes of the module cannot be saved "
-msgstr ""
-"Ji ber ku ev beş wê guherînên bo pergalê yên girîng bike, destûrên taybet "
-"pêwist e. Ji bo ku tu karibî taybetmendiyên modulê biguherîne şîfreya root "
-"pêwist e. Heke tu şîfreya root nizanî wê guherandinên modulê neyên "
-"tomarkirin "
-
-#: kutils/kcmoduleproxy.cpp:159
+#: kutils/kcmoduleproxy.cpp:165
 #, kde-format
 msgctxt "Argument is application name"
 msgid "This configuration section is already opened in %1"
@@ -13249,6 +13243,24 @@ msgstr "Mijara &rojê"
 #, kde-format
 msgid "No such function \"%1\""
 msgstr "Foksiyona bi navê \"%1\" tune"
+
+#~ msgid ""
+#~ "<b>Changes in this section require root access.</b><br />On applying your "
+#~ "changes you will have to supply your root password."
+#~ msgstr ""
+#~ "<b>Bo guherînên vê beşê pêwist e gihiştina root hebe.</b><br />Dema "
+#~ "guherandinên te werin bikaranîn pêwist e şîfreya xwe ya root binivîsî."
+
+#~ msgid ""
+#~ "This section requires special permissions, probably for system-wide "
+#~ "changes; therefore, it is required that you provide the root password to "
+#~ "be able to change the module's properties. If you cannot provide the "
+#~ "password, the changes of the module cannot be saved "
+#~ msgstr ""
+#~ "Ji ber ku ev beş wê guherînên bo pergalê yên girîng bike, destûrên taybet "
+#~ "pêwist e. Ji bo ku tu karibî taybetmendiyên modulê biguherîne şîfreya "
+#~ "root pêwist e. Heke tu şîfreya root nizanî wê guherandinên modulê neyên "
+#~ "tomarkirin "
 
 #~ msgid "&Abort"
 #~ msgstr "&Dev jê berde"
