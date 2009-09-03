@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_launcher\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-09-02 07:22+0200\n"
+"POT-Creation-Date: 2009-09-03 07:29+0200\n"
 "PO-Revision-Date: 2008-12-25 02:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <gnu-ku-wergerandin at lists dot sourceforge dot "
@@ -171,15 +171,25 @@ msgctxt "Puts the system on standby"
 msgid "Standby"
 msgstr "Bendê Bimîne "
 
-#: core/leavemodel.cpp:74 core/leavemodel.cpp:78 core/leavemodel.cpp:82
+#: core/leavemodel.cpp:74
 msgid "Pause without logging out"
 msgstr "Bê derketin bi de sekinandin"
 
 #: core/leavemodel.cpp:76 simpleapplet/simpleapplet.cpp:186
-msgid "Suspend to Disk"
+msgid "Hibernate"
+msgstr "Xewa zivistanê"
+
+#: core/leavemodel.cpp:78
+#, fuzzy
+#| msgid "Suspend to Disk"
+msgid "Suspend to disk"
 msgstr "Ji Dîskê Bisekine"
 
 #: core/leavemodel.cpp:80 simpleapplet/simpleapplet.cpp:187
+msgid "Sleep"
+msgstr "Bixe xewê"
+
+#: core/leavemodel.cpp:82
 msgid "Suspend to RAM"
 msgstr "Ji RAMê Bisekine"
 
@@ -431,9 +441,3 @@ msgstr "Sepan"
 #~ msgctxt "@item:inlistbox View:"
 #~ msgid "Leave"
 #~ msgstr "Derkeve"
-
-#~ msgid "Sleep"
-#~ msgstr "Bixe xewê"
-
-#~ msgid "Hibernate"
-#~ msgstr "Xewa zivistanê"
