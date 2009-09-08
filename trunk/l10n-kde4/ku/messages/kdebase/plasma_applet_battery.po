@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_battery\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-09-04 06:49+0200\n"
+"POT-Creation-Date: 2009-09-08 05:59+0200\n"
 "PO-Revision-Date: 2008-12-26 00:33+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
@@ -57,7 +57,7 @@ msgstr "Rêveberiya Hezê"
 msgid "<b>Battery:</b>"
 msgstr "Pîl"
 
-#: battery.cpp:595
+#: battery.cpp:595 battery.cpp:613
 #, fuzzy, kde-format
 #| msgid "<b>Battery:</b> %1% (fully charged)<br />"
 msgid "%1% (fully charged)"
@@ -87,12 +87,6 @@ msgstr ""
 msgctxt ""
 msgid "<b>Battery %1:</b> "
 msgstr "<b>Pîl %1:</b> %2% (tê şarj kirin)<br /> "
-
-#: battery.cpp:613
-#, fuzzy
-#| msgid "<b>Battery:</b> %1% (fully charged)<br />"
-msgid "1% (fully charged)"
-msgstr "<b>Pîl:</b> %1% (şarj tijî bû)<br />"
 
 #: battery.cpp:615
 #, kde-format
@@ -146,6 +140,11 @@ msgstr ""
 #: rc.cpp:9 rc.cpp:18
 msgid "Show the state for &each battery present"
 msgstr "Rewşa her pîlekê bi rêjeya ji sedî nîşan bide"
+
+#, fuzzy
+#~| msgid "<b>Battery:</b> %1% (fully charged)<br />"
+#~ msgid "1% (fully charged)"
+#~ msgstr "<b>Pîl:</b> %1% (şarj tijî bû)<br />"
 
 #~ msgid "Time remaining: <b>%1</b><br />"
 #~ msgstr "Demê mayî: <b>%1</b><br />"
