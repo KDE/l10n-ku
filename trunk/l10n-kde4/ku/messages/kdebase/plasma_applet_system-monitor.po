@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_system-monitor\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-09-09 07:28+0200\n"
+"POT-Creation-Date: 2009-09-10 06:21+0200\n"
 "PO-Revision-Date: 2008-12-26 01:09+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -25,7 +25,7 @@ msgstr "CPU"
 msgid "total"
 msgstr ""
 
-#: cpu.cpp:180 net.cpp:191 ram.cpp:179 temperature.cpp:102
+#: cpu.cpp:180 net.cpp:190 ram.cpp:179 temperature.cpp:109
 #, fuzzy
 #| msgid "seconds"
 msgid " second"
@@ -37,19 +37,19 @@ msgstr[1] "çirk"
 msgid "CPUs"
 msgstr "CPUyan"
 
-#: hdd.cpp:52
+#: hdd.cpp:55
 msgid "Disk Space"
 msgstr "Cihê Dîskê"
 
-#: hdd.cpp:61
+#: hdd.cpp:81
 msgid "Mount Point"
 msgstr "Xala Girêdanê"
 
-#: hdd.cpp:62 temperature.cpp:82
+#: hdd.cpp:82 temperature.cpp:91
 msgid "Name"
 msgstr "Nav"
 
-#: hdd.cpp:85
+#: hdd.cpp:106
 #, fuzzy
 #| msgid "minutes"
 msgid " minute"
@@ -57,30 +57,30 @@ msgid_plural " minutes"
 msgstr[0] "deqîqe"
 msgstr[1] "deqîqe"
 
-#: hdd.cpp:87
+#: hdd.cpp:108
 msgid "Partitions"
 msgstr "Partîsiyon"
 
-#: hdd.cpp:130
+#: hdd.cpp:160
 msgctxt "the root filesystem"
 msgid "root"
 msgstr "root"
 
-#: hdd.cpp:137
+#: hdd.cpp:166
 msgid "Unknown filesystem"
 msgstr "Pergala pelan a nenas"
 
-#: hdd.cpp:153
+#: hdd.cpp:181
 #, kde-format
 msgctxt "hard disk label (not mounted or accessible)"
 msgid "%1 (not accessible)"
 msgstr "%1 (nayê gihîştin)"
 
-#: hdd.cpp:275
+#: hdd.cpp:303
 msgid "File System"
 msgstr ""
 
-#: hdd.cpp:276
+#: hdd.cpp:304
 msgid "Raid"
 msgstr ""
 
@@ -104,13 +104,13 @@ msgstr "Deng"
 msgid "Network"
 msgstr "Tor"
 
-#: net.cpp:174
+#: net.cpp:173
 #, fuzzy
 #| msgid "Network interface"
 msgid "Network Interface"
 msgstr "Navruya torê"
 
-#: net.cpp:192
+#: net.cpp:191
 msgid "Interfaces"
 msgstr "Navrû"
 
@@ -175,20 +175,24 @@ msgstr ""
 msgid "&Available temperatures:"
 msgstr "Germahiyên &heyî:"
 
-#: temperature.cpp:50 temperature.cpp:104
+#: temperature.cpp:58 temperature.cpp:111
 msgid "Temperature"
 msgstr "Germahî"
 
-#: temperature.cpp:81
+#: temperature.cpp:90
 msgid "Sensor"
 msgstr "Têgihîştî"
 
-#: temperature.cpp:238
+#: temperature.cpp:235
+msgid "\\u00b0"
+msgstr ""
+
+#: temperature.cpp:248
 #, kde-format
 msgid "%1 °C"
 msgstr "%1 °C"
 
-#: temperature.cpp:240
+#: temperature.cpp:250
 #, kde-format
 msgid "%1 °F"
 msgstr "%1 °F"
