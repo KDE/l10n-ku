@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lancelot\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-08-03 06:14+0200\n"
+"POT-Creation-Date: 2009-09-14 06:19+0200\n"
 "PO-Revision-Date: 2009-01-11 21:29+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -208,7 +208,7 @@ msgid "&Start New Session"
 msgstr "&Li vir Destpê Bike"
 
 #: models/FavoriteApplications.cpp:37 models/FavoriteApplications.cpp:143
-#: LancelotWindow.cpp:132
+#: LancelotWindow.cpp:133
 msgid "Favorites"
 msgstr "Bijarte"
 
@@ -230,7 +230,7 @@ msgstr ""
 msgid "Clear documents history"
 msgstr ""
 
-#: models/Applications.cpp:238 models/Runner.cpp:174
+#: models/Applications.cpp:238 models/Runner.cpp:189
 #, fuzzy
 #| msgid "Favorites"
 msgid "Add to Favorites"
@@ -260,23 +260,33 @@ msgstr ""
 msgid "No unread mail"
 msgstr "oensari at gmail dot com"
 
-#: models/Runner.cpp:81
+#: models/Runner.cpp:71
 msgid "Search string is empty"
 msgstr ""
 
-#: models/Runner.cpp:82
+#: models/Runner.cpp:72
 msgid "Enter something to search for"
 msgstr ""
 
-#: models/Runner.cpp:104
+#: models/Runner.cpp:79
+#, fuzzy
+#| msgid "Search"
+msgid "Searching..."
+msgstr "Lê Bigere"
+
+#: models/Runner.cpp:80
+msgid "Some searches can take longer to complete"
+msgstr ""
+
+#: models/Runner.cpp:119
 msgid "No matches found"
 msgstr ""
 
-#: models/Runner.cpp:105
+#: models/Runner.cpp:120
 msgid "No matches found for current search"
 msgstr ""
 
-#: models/ContactsKopete.cpp:35 i18n_strings.cpp:30 LancelotWindow.cpp:345
+#: models/ContactsKopete.cpp:35 i18n_strings.cpp:30 LancelotWindow.cpp:358
 msgid "Contacts"
 msgstr "Têkilî"
 
@@ -301,7 +311,7 @@ msgstr ""
 msgid "No online contacts"
 msgstr "Kesên girêdayî"
 
-#: AboutData.cpp:26 LancelotWindow.cpp:695
+#: AboutData.cpp:26 LancelotWindow.cpp:713
 #: launcher/LancelotAppletConfig.cpp:56
 msgid "Lancelot"
 msgstr "Lancelot"
@@ -490,7 +500,7 @@ msgstr "Bi du stûnan ve sînor bike"
 
 #. i18n: file: ui/LancelotConfigBase.ui:202
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:59 i18n_strings.cpp:32 LancelotWindow.cpp:134 LancelotWindow.cpp:345
+#: rc.cpp:59 i18n_strings.cpp:32 LancelotWindow.cpp:135 LancelotWindow.cpp:358
 msgid "Applications"
 msgstr "Sepan"
 
@@ -693,11 +703,11 @@ msgstr "Têkilî"
 msgid "Co&mputer"
 msgstr "Komputer"
 
-#: i18n_strings.cpp:29 LancelotWindow.cpp:345
+#: i18n_strings.cpp:29 LancelotWindow.cpp:358
 msgid "Documents"
 msgstr "Belge"
 
-#: i18n_strings.cpp:31 LancelotWindow.cpp:345
+#: i18n_strings.cpp:31 LancelotWindow.cpp:358
 msgid "Computer"
 msgstr "Komputer"
 
@@ -717,31 +727,31 @@ msgstr "destpêkirina %1"
 msgid "e-Mail contacts"
 msgstr "têkiliyên e-Peyam"
 
-#: LancelotWindow.cpp:122
+#: LancelotWindow.cpp:123
 msgid "Search"
 msgstr "Lê Bigere"
 
-#: LancelotWindow.cpp:696
+#: LancelotWindow.cpp:714
 msgid "Open Lancelot menu"
 msgstr "Pêşeka Lancelot veke"
 
-#: LancelotWindow.cpp:857 launcher/LancelotApplet.cpp:176
+#: LancelotWindow.cpp:894 launcher/LancelotApplet.cpp:176
 msgid "Menu Editor"
 msgstr "Edîtorê Pêşekê"
 
-#: LancelotWindow.cpp:862
+#: LancelotWindow.cpp:899
 msgid "Configure &Shortcuts..."
 msgstr "&Kurterê yan Veava Bike..."
 
-#: LancelotWindow.cpp:867
+#: LancelotWindow.cpp:904
 msgid "Configure &Lancelot menu..."
 msgstr "Pêşeka &Lancelot veava bike..."
 
-#: LancelotWindow.cpp:872
+#: LancelotWindow.cpp:909
 msgid "&About Lancelot"
 msgstr "&Der barê Lancelot de"
 
-#: LancelotWindow.cpp:896 LancelotWindow.cpp:898
+#: LancelotWindow.cpp:933 LancelotWindow.cpp:935
 msgid "Configure Lancelot menu"
 msgstr "Pêşeka Lancelot veava bike"
 
