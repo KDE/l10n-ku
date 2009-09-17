@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-09-16 07:25+0200\n"
+"POT-Creation-Date: 2009-09-17 06:56+0200\n"
 "PO-Revision-Date: 2009-02-21 06:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -109,13 +109,13 @@ msgstr "Ne hatiye ecibandin"
 msgid "Stream (%1)"
 msgstr "Darêj (%1)"
 
-#: meta/capabilities/TimecodeWriteCapability.cpp:116
+#: meta/capabilities/TimecodeWriteCapability.cpp:112
 #, fuzzy, kde-format
 #| msgid "%1  -  %2"
 msgid "%1 - Stopped %2"
 msgstr "%1 - %2"
 
-#: meta/capabilities/TimecodeWriteCapability.cpp:121
+#: meta/capabilities/TimecodeWriteCapability.cpp:117
 msgid "Playback Ended Markers"
 msgstr ""
 
@@ -1154,8 +1154,8 @@ msgstr[1] "%1 stranan "
 
 #: context/applets/lyrics/LyricsApplet.cpp:45
 #: context/applets/lyrics/LyricsApplet.cpp:77
-#: context/applets/lyrics/LyricsApplet.cpp:213
-#: context/applets/lyrics/LyricsApplet.cpp:271 dialogs/TagDialog.cpp:584
+#: context/applets/lyrics/LyricsApplet.cpp:203
+#: context/applets/lyrics/LyricsApplet.cpp:261 dialogs/TagDialog.cpp:584
 msgid "Lyrics"
 msgstr "Gotin"
 
@@ -1175,17 +1175,17 @@ msgstr "Gotin"
 msgid "Reload Lyrics"
 msgstr "Gotinên Stranan Nû ve Bar Bike"
 
-#: context/applets/lyrics/LyricsApplet.cpp:208
+#: context/applets/lyrics/LyricsApplet.cpp:198
 #, fuzzy
 #| msgid "No lyrics script is running!"
 msgid "No lyrics script is running."
 msgstr "Tu skrîptê gotinên stranê naxebite!"
 
-#: context/applets/lyrics/LyricsApplet.cpp:221
+#: context/applets/lyrics/LyricsApplet.cpp:211
 msgid "Lyrics are being fetched."
 msgstr "Gotinên stranan tên vexwendin."
 
-#: context/applets/lyrics/LyricsApplet.cpp:230
+#: context/applets/lyrics/LyricsApplet.cpp:220
 #, fuzzy, kde-format
 #| msgid ""
 #| "Lyrics were not able to be downloaded. Please check your internet "
@@ -1198,7 +1198,7 @@ msgid ""
 msgstr ""
 "Gotinên stranê nayên daxistin. Jê kerema xwe girêdana torê kontrol bike: %1"
 
-#: context/applets/lyrics/LyricsApplet.cpp:283
+#: context/applets/lyrics/LyricsApplet.cpp:273
 msgid "There were no lyrics found for this track"
 msgstr "Ji bo vê stranê tu gotin nehat dîtin"
 
@@ -1270,7 +1270,7 @@ msgstr "&Pêşve"
 #. i18n: ectx: property (text), item, widget (KComboBox, keywordCombo)
 #: context/applets/wikipedia/WikipediaApplet.cpp:121
 #: dialogs/FilenameLayoutDialog.cpp:125 dialogs/FilenameLayoutDialog.cpp:340
-#: dialogs/transferdialog.cpp:88 browsers/CollectionTreeItemModelBase.cpp:904
+#: dialogs/transferdialog.cpp:88 browsers/CollectionTreeItemModelBase.cpp:902
 #: browsers/collectionbrowser/CollectionWidget.cpp:122
 #: browsers/collectionbrowser/CollectionWidget.cpp:151
 #: browsers/collectionbrowser/CollectionWidget.cpp:183
@@ -1287,7 +1287,7 @@ msgstr "Hunermend"
 #. i18n: ectx: property (text), item, widget (KComboBox, keywordCombo)
 #: context/applets/wikipedia/WikipediaApplet.cpp:128
 #: dialogs/FilenameLayoutDialog.cpp:128 dialogs/FilenameLayoutDialog.cpp:355
-#: dialogs/transferdialog.cpp:89 browsers/CollectionTreeItemModelBase.cpp:903
+#: dialogs/transferdialog.cpp:89 browsers/CollectionTreeItemModelBase.cpp:901
 #: browsers/collectionbrowser/CollectionWidget.cpp:125
 #: browsers/collectionbrowser/CollectionWidget.cpp:154
 #: browsers/collectionbrowser/CollectionWidget.cpp:186
@@ -1903,7 +1903,7 @@ msgstr "Sernav"
 #. i18n: file: dialogs/EditFilterDialog.ui:90
 #. i18n: ectx: property (text), item, widget (KComboBox, keywordCombo)
 #: dialogs/FilenameLayoutDialog.cpp:126 dialogs/FilenameLayoutDialog.cpp:345
-#: browsers/CollectionTreeItemModelBase.cpp:905
+#: browsers/CollectionTreeItemModelBase.cpp:903
 #: browsers/collectionbrowser/CollectionWidget.cpp:131
 #: browsers/collectionbrowser/CollectionWidget.cpp:160
 #: browsers/collectionbrowser/CollectionWidget.cpp:192
@@ -1916,7 +1916,7 @@ msgstr "Bestekar"
 #. i18n: file: dialogs/EditFilterDialog.ui:120
 #. i18n: ectx: property (text), item, widget (KComboBox, keywordCombo)
 #: dialogs/FilenameLayoutDialog.cpp:127 dialogs/FilenameLayoutDialog.cpp:350
-#: browsers/CollectionTreeItemModelBase.cpp:907
+#: browsers/CollectionTreeItemModelBase.cpp:905
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:248
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:691 rc.cpp:1166
 #: playlist/PlaylistModel.cpp:653 widgets/SmartPlaylistEditor.cpp:184
@@ -1933,7 +1933,7 @@ msgstr "Şîrove"
 #. i18n: file: dialogs/EditFilterDialog.ui:95
 #. i18n: ectx: property (text), item, widget (KComboBox, keywordCombo)
 #: dialogs/FilenameLayoutDialog.cpp:130 dialogs/FilenameLayoutDialog.cpp:365
-#: dialogs/transferdialog.cpp:90 browsers/CollectionTreeItemModelBase.cpp:906
+#: dialogs/transferdialog.cpp:90 browsers/CollectionTreeItemModelBase.cpp:904
 #: browsers/collectionbrowser/CollectionWidget.cpp:128
 #: browsers/collectionbrowser/CollectionWidget.cpp:157
 #: browsers/collectionbrowser/CollectionWidget.cpp:189
@@ -2230,7 +2230,7 @@ msgctxt "The collection this track is part of"
 msgid "None"
 msgstr "Ne Yek Jî"
 
-#: dialogs/TagDialog.cpp:1053
+#: dialogs/TagDialog.cpp:1054
 #, kde-format
 msgctxt "The amount of tracks being edited"
 msgid "1 Track"
@@ -2238,30 +2238,30 @@ msgid_plural "Information for %1 Tracks"
 msgstr[0] "1 Track"
 msgstr[1] "Agahî ji bo %1 Stranan"
 
-#: dialogs/TagDialog.cpp:1168
+#: dialogs/TagDialog.cpp:1169
 #, kde-format
 msgid "Editing 1 file"
 msgid_plural "Editing %1 files"
 msgstr[0] "1 pel tê guherandin"
 msgstr[1] "%1 pel tên guherandin"
 
-#: dialogs/TagDialog.cpp:1173
+#: dialogs/TagDialog.cpp:1174
 msgid "Rated Songs:"
 msgstr "Stranên Ecibandî:"
 
-#: dialogs/TagDialog.cpp:1175
+#: dialogs/TagDialog.cpp:1176
 msgid "Average Rating:"
 msgstr "Ecibandina Kêm-zêde:"
 
-#: dialogs/TagDialog.cpp:1177
+#: dialogs/TagDialog.cpp:1178
 msgid "Scored Songs:"
 msgstr "Stranên Pêşniyazkirî:"
 
-#: dialogs/TagDialog.cpp:1179
+#: dialogs/TagDialog.cpp:1180
 msgid "Average Score:"
 msgstr "Skora Kêm-zêde:"
 
-#: dialogs/TagDialog.cpp:1477
+#: dialogs/TagDialog.cpp:1482
 msgid ""
 "Writing to file failed. Please check permissions and available disc space."
 msgstr ""
@@ -3168,7 +3168,7 @@ msgstr ""
 msgid "No MP3 Support"
 msgstr "Desteka MP3 Tune"
 
-#: EngineController.cpp:711
+#: EngineController.cpp:710
 #, fuzzy
 #| msgid "Pre-amp"
 msgid "Preamp"
@@ -3920,79 +3920,79 @@ msgstr "Pêveka Dosiya Çavkaniyê"
 msgid "Previous Browser"
 msgstr "Koma Paş"
 
-#: browsers/CollectionTreeItemModelBase.cpp:535
+#: browsers/CollectionTreeItemModelBase.cpp:533
 msgid "album"
 msgstr "album"
 
-#: browsers/CollectionTreeItemModelBase.cpp:540
+#: browsers/CollectionTreeItemModelBase.cpp:538
 msgid "artist"
 msgstr "hunermend"
 
-#: browsers/CollectionTreeItemModelBase.cpp:545
+#: browsers/CollectionTreeItemModelBase.cpp:543
 msgid "genre"
 msgstr "cure"
 
-#: browsers/CollectionTreeItemModelBase.cpp:550
+#: browsers/CollectionTreeItemModelBase.cpp:548
 msgid "composer"
 msgstr "bestekar"
 
-#: browsers/CollectionTreeItemModelBase.cpp:555
+#: browsers/CollectionTreeItemModelBase.cpp:553
 msgid "year"
 msgstr "sal"
 
-#: browsers/CollectionTreeItemModelBase.cpp:560
+#: browsers/CollectionTreeItemModelBase.cpp:558
 msgid "comment"
 msgstr "şîrove"
 
-#: browsers/CollectionTreeItemModelBase.cpp:564
+#: browsers/CollectionTreeItemModelBase.cpp:562
 msgid "rating"
 msgstr "ecibandin"
 
-#: browsers/CollectionTreeItemModelBase.cpp:568
+#: browsers/CollectionTreeItemModelBase.cpp:566
 msgid "score"
 msgstr "skor"
 
-#: browsers/CollectionTreeItemModelBase.cpp:572
+#: browsers/CollectionTreeItemModelBase.cpp:570
 msgid "playcount"
 msgstr "hejmara lêdanê"
 
-#: browsers/CollectionTreeItemModelBase.cpp:576
+#: browsers/CollectionTreeItemModelBase.cpp:574
 msgid "length"
 msgstr "dirêjî"
 
-#: browsers/CollectionTreeItemModelBase.cpp:580
+#: browsers/CollectionTreeItemModelBase.cpp:578
 msgid "discnumber"
 msgstr "hejmara-dîskê"
 
-#: browsers/CollectionTreeItemModelBase.cpp:584
+#: browsers/CollectionTreeItemModelBase.cpp:582
 msgid "tracknumber"
 msgstr "hejmara stranê"
 
-#: browsers/CollectionTreeItemModelBase.cpp:588
+#: browsers/CollectionTreeItemModelBase.cpp:586
 msgid "added"
 msgstr "lê hate zêdekirin"
 
-#: browsers/CollectionTreeItemModelBase.cpp:594
+#: browsers/CollectionTreeItemModelBase.cpp:592
 msgid "today"
 msgstr "îro"
 
-#: browsers/CollectionTreeItemModelBase.cpp:596
+#: browsers/CollectionTreeItemModelBase.cpp:594
 msgid "last week"
 msgstr "hefte ya borî"
 
-#: browsers/CollectionTreeItemModelBase.cpp:598
+#: browsers/CollectionTreeItemModelBase.cpp:596
 msgid "last month"
 msgstr "meha borî"
 
-#: browsers/CollectionTreeItemModelBase.cpp:600
+#: browsers/CollectionTreeItemModelBase.cpp:598
 msgid "two months ago"
 msgstr "du meh berê"
 
-#: browsers/CollectionTreeItemModelBase.cpp:602
+#: browsers/CollectionTreeItemModelBase.cpp:600
 msgid "three months ago"
 msgstr "sê meh berê"
 
-#: browsers/CollectionTreeItemModelBase.cpp:903
+#: browsers/CollectionTreeItemModelBase.cpp:901
 msgid "Year - Album"
 msgstr "Sal - Album "
 
@@ -4683,7 +4683,22 @@ msgstr "Moda Stranan"
 msgid "Data Mode"
 msgstr "Moda Daneyan"
 
-#: toolbar/MainToolbarNG.cpp:33
+#: toolbar/VolumePopupButton.cpp:97 toolbar/VolumePopupButton.cpp:108
+#: widgets/Osd.cpp:145
+#, fuzzy
+#| msgctxt "State, as in, The playback is silent"
+#| msgid "Mute"
+msgid "(muted)"
+msgstr "Bêdeng"
+
+#: toolbar/VolumePopupButton.cpp:97 toolbar/VolumePopupButton.cpp:108
+#: widgets/Osd.cpp:145
+#, fuzzy, kde-format
+#| msgid "Volume: %1%"
+msgid "Volume: %1% %2"
+msgstr "Deng: %1%"
+
+#: toolbar/MainToolbarNG.cpp:36
 msgid "Main Toolbar NG"
 msgstr ""
 
@@ -8108,8 +8123,8 @@ msgstr "Last.fm xweşik e..."
 
 #: services/lastfm/meta/MultiPlayableCapabilityImpl_p.h:107
 msgid ""
-"Unfortunately, Last.Fm radio streams are only functional for Last.Fm "
-"subscribers. All the other Last.Fm features are unaffected."
+"To listen to this stream you need to be a paying Last.Fm subscriber. All the "
+"other Last.Fm features are unaffected."
 msgstr ""
 
 #: services/lastfm/meta/MultiPlayableCapabilityImpl_p.h:109
@@ -9649,15 +9664,15 @@ msgstr "Kom Alî yê"
 msgid "Url"
 msgstr "Url:"
 
-#: amarokurls/BookmarkModel.cpp:510
+#: amarokurls/BookmarkModel.cpp:514
 msgid "New Group"
 msgstr "Koma Nû"
 
-#: amarokurls/BookmarkModel.cpp:535 amarokurls/BookmarkManagerWidget.cpp:47
+#: amarokurls/BookmarkModel.cpp:539 amarokurls/BookmarkManagerWidget.cpp:47
 msgid "New Bookmark"
 msgstr "Bijareya Nû"
 
-#: amarokurls/BookmarkModel.cpp:536
+#: amarokurls/BookmarkModel.cpp:540
 #, fuzzy
 #| msgid "None"
 msgid "none"
@@ -9734,19 +9749,6 @@ msgstr "Kontrola Dengê"
 #: widgets/Osd.cpp:129
 msgid "Rating changed"
 msgstr "Ecibandin guherî "
-
-#: widgets/Osd.cpp:145
-#, fuzzy
-#| msgctxt "State, as in, The playback is silent"
-#| msgid "Mute"
-msgid "(muted)"
-msgstr "Bêdeng"
-
-#: widgets/Osd.cpp:145
-#, fuzzy, kde-format
-#| msgid "Volume: %1%"
-msgid "Volume: %1% %2"
-msgstr "Deng: %1%"
 
 #: widgets/Osd.cpp:207
 #, fuzzy
