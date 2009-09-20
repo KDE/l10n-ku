@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaffeine\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-09-07 06:42+0200\n"
+"POT-Creation-Date: 2009-09-20 06:28+0200\n"
 "PO-Revision-Date: 2008-12-20 16:02+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -18,122 +18,129 @@ msgstr ""
 "X-Poedit-SourceCharset: utf8\n"
 "Plural-Forms: nplurals=2; plural= n != 1;\n"
 
-#: kaffeine.cpp:64
+#: kaffeine.cpp:66
 #, fuzzy
 #| msgid "Play File"
 msgid "&1 Play File"
 msgstr "Pelê Lê Bide"
 
-#: kaffeine.cpp:69
+#: kaffeine.cpp:71
 #, fuzzy
 #| msgid "Play Audio CD"
 msgid "&2 Play Audio CD"
 msgstr "CD ya Muzîkê Lê Bide"
 
-#: kaffeine.cpp:74
+#: kaffeine.cpp:76
 #, fuzzy
 #| msgid "Play Video CD"
 msgid "&3 Play Video CD"
 msgstr "CD ya Vîdeoyê Lê Bide"
 
-#: kaffeine.cpp:79
+#: kaffeine.cpp:81
 #, fuzzy
 #| msgid "Play DVD"
 msgid "&4 Play DVD"
 msgstr "DVD Lê bide"
 
-#: kaffeine.cpp:84
+#: kaffeine.cpp:86
 #, fuzzy
 #| msgid "Digital TV"
 msgid "&5 Digital TV"
 msgstr "TV ya Dîjîtal"
 
-#: kaffeine.cpp:128
+#: kaffeine.cpp:140 kaffeine.cpp:234
+#, fuzzy
+#| msgid "Configure channels"
+msgctxt "dialog"
+msgid "Configure Kaffeine"
+msgstr "Kanalan veava bike"
+
+#: kaffeine.cpp:181
 msgid "&File"
 msgstr "&Pel"
 
-#: kaffeine.cpp:134 kaffeine.cpp:363
+#: kaffeine.cpp:187 kaffeine.cpp:420
 msgid "Open URL"
 msgstr "URL Veke"
 
-#: kaffeine.cpp:145 kaffeine.cpp:277
+#: kaffeine.cpp:198 kaffeine.cpp:334
 msgid "Play Audio CD"
 msgstr "CD ya Muzîkê Lê Bide"
 
-#: kaffeine.cpp:149 kaffeine.cpp:278
+#: kaffeine.cpp:202 kaffeine.cpp:335
 msgid "Play Video CD"
 msgstr "CD ya Vîdeoyê Lê Bide"
 
-#: kaffeine.cpp:153 kaffeine.cpp:279
+#: kaffeine.cpp:206 kaffeine.cpp:336
 msgid "Play DVD"
 msgstr "DVD Lê bide"
 
-#: kaffeine.cpp:162
+#: kaffeine.cpp:215
 #, fuzzy
 #| msgid "Play"
 msgid "&Playback"
 msgstr "Lê Bide"
 
-#: kaffeine.cpp:165 kaffeine.cpp:424
+#: kaffeine.cpp:218 kaffeine.cpp:481
 msgid "Full Screen Mode"
 msgstr "Moda Dîmender Tijî"
 
-#: kaffeine.cpp:169
+#: kaffeine.cpp:222
 #, fuzzy
 #| msgid "Play"
 msgctxt "menu bar"
 msgid "Play&list"
 msgstr "Lê Bide"
 
-#: kaffeine.cpp:172
+#: kaffeine.cpp:225
 msgid "&Television"
 msgstr ""
 
-#: kaffeine.cpp:175
+#: kaffeine.cpp:228
 msgid "&Settings"
 msgstr "&Mîheng"
 
-#: kaffeine.cpp:190
+#: kaffeine.cpp:247
 msgid "Start"
 msgstr "Destpê bide "
 
-#: kaffeine.cpp:191
+#: kaffeine.cpp:248
 #, fuzzy
 #| msgid "Play"
 msgid "Playback"
 msgstr "Lê Bide"
 
-#: kaffeine.cpp:192
+#: kaffeine.cpp:249
 #, fuzzy
 #| msgid "Play"
 msgid "Playlist"
 msgstr "Lê Bide"
 
-#: kaffeine.cpp:193
+#: kaffeine.cpp:250
 msgid "Television"
 msgstr ""
 
-#: kaffeine.cpp:276
+#: kaffeine.cpp:333
 #, fuzzy
 #| msgid "Full Screen Mode"
 msgid "Start in full screen mode"
 msgstr "Moda Dîmender Tijî"
 
-#: kaffeine.cpp:280
+#: kaffeine.cpp:337
 #, fuzzy
 #| msgid "Delete channel"
 msgid "Play TV channel"
 msgstr "Kanalê jê bibe"
 
-#: kaffeine.cpp:281
+#: kaffeine.cpp:338
 msgid "Files or URLs to play"
 msgstr ""
 
-#: kaffeine.cpp:363
+#: kaffeine.cpp:420
 msgid "Enter a URL:"
 msgstr "URL'ekê binivîse:"
 
-#: kaffeine.cpp:415
+#: kaffeine.cpp:472
 #, fuzzy
 #| msgid "Full Screen Mode"
 msgid "Exit Full Screen Mode"
@@ -165,7 +172,7 @@ msgstr ""
 msgid "Maintainer"
 msgstr ""
 
-#: mediawidget.cpp:93 mediawidget.cpp:314
+#: mediawidget.cpp:93 mediawidget.cpp:319
 #, fuzzy
 #| msgid "Position"
 msgid "Jump to Position"
@@ -275,86 +282,80 @@ msgctxt "playback menu"
 msgid "Skip"
 msgstr ""
 
-#: mediawidget.cpp:290
-msgctxt "submenu of skip"
-msgid "Skip 1min Backward"
+#: mediawidget.cpp:295 mediawidget.cpp:301 mediawidget.cpp:485
+#: mediawidget.cpp:492
+#, c-format, kde-format
+msgctxt "submenu of 'Skip'"
+msgid "Skip %1s Backward"
 msgstr ""
 
-#: mediawidget.cpp:296
-msgctxt "submenu of skip"
-msgid "Skip 10s Backward"
+#: mediawidget.cpp:307 mediawidget.cpp:313 mediawidget.cpp:486
+#: mediawidget.cpp:493
+#, c-format, kde-format
+msgctxt "submenu of 'Skip'"
+msgid "Skip %1s Forward"
 msgstr ""
 
-#: mediawidget.cpp:302
-msgctxt "submenu of skip"
-msgid "Skip 10s Forward"
-msgstr ""
-
-#: mediawidget.cpp:308
-msgctxt "submenu of skip"
-msgid "Skip 1min Forward"
-msgstr ""
-
-#: mediawidget.cpp:327 dvb/dvbepg.cpp:211 playlist/playlistmodel.cpp:116
+#: mediawidget.cpp:332 dvb/dvbepg.cpp:211 playlist/playlistmodel.cpp:116
 #, fuzzy
 #| msgid "&File"
 msgid "Title"
 msgstr "&Pel"
 
-#: mediawidget.cpp:336
+#: mediawidget.cpp:341
 msgid "Chapter"
 msgstr ""
 
-#: mediawidget.cpp:345
+#: mediawidget.cpp:350
 msgid "Angle"
 msgstr ""
 
-#: mediawidget.cpp:354
+#: mediawidget.cpp:359
 msgid "Switch between elapsed and remaining time display"
 msgstr ""
 
-#: mediawidget.cpp:390
+#: mediawidget.cpp:397
 msgctxt "file filter description"
 msgid "Supported media files"
 msgstr ""
 
-#: mediawidget.cpp:391
+#: mediawidget.cpp:398
 msgctxt "file filter description"
 msgid "All files"
 msgstr ""
 
-#: mediawidget.cpp:562
+#: mediawidget.cpp:593
 #, fuzzy
 #| msgid "Pause"
 msgctxt "osd"
 msgid "Paused"
 msgstr "Bide Sekinandin"
 
-#: mediawidget.cpp:572
+#: mediawidget.cpp:603
 #, fuzzy
 #| msgid "Play"
 msgctxt "osd"
 msgid "Playing"
 msgstr "Lê Bide"
 
-#: mediawidget.cpp:592
+#: mediawidget.cpp:623
 #, fuzzy
 #| msgid "Stop"
 msgctxt "osd"
 msgid "Stopped"
 msgstr "Rawestîne"
 
-#: mediawidget.cpp:652
+#: mediawidget.cpp:683
 msgctxt "osd"
 msgid "Mute On"
 msgstr ""
 
-#: mediawidget.cpp:655
+#: mediawidget.cpp:686
 msgctxt "osd"
 msgid "Mute Off"
 msgstr ""
 
-#: mediawidget.cpp:668
+#: mediawidget.cpp:699
 #, fuzzy, kde-format
 #| msgid "Name: %1"
 msgctxt "osd"
@@ -1128,9 +1129,6 @@ msgstr ""
 
 #~ msgid "Configure DVB"
 #~ msgstr "DVB Mîheng Bike"
-
-#~ msgid "Configure channels"
-#~ msgstr "Kanalan veava bike"
 
 #~ msgid "Player"
 #~ msgstr "Lêdar"
