@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kopete\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-09-24 06:18+0200\n"
+"POT-Creation-Date: 2009-09-29 06:10+0200\n"
 "PO-Revision-Date: 2008-06-22 23:57+0200\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <ku@li.org>\n"
@@ -16101,7 +16101,7 @@ msgstr ""
 msgid "<b>Authentication error.</b>"
 msgstr "Tomarkirin serkeftî ye."
 
-#: plugins/otr/otrlchatinterface.cpp:545 plugins/otr/otrlchatinterface.cpp:560
+#: plugins/otr/otrlchatinterface.cpp:560
 #, fuzzy
 #| msgid "Connection Error"
 msgid "Encryption error"
@@ -16410,18 +16410,23 @@ msgctxt "@item:inmenu Never encrypt messages"
 msgid "Ne&ver"
 msgstr "Qet"
 
-#: plugins/otr/otrplugin.cpp:181
+#: plugins/otr/otrplugin.cpp:164
+#, fuzzy
+msgid "An error occured while encrypting the message."
+msgstr "Dema ku wêne dihat guhartin çewstiyek derket."
+
+#: plugins/otr/otrplugin.cpp:191
 msgctxt "@info:status"
 msgid "Your policy settings do not allow encrypted sessions to this contact."
 msgstr ""
 
-#: plugins/otr/otrplugin.cpp:190
+#: plugins/otr/otrplugin.cpp:200
 #, kde-format
 msgctxt "@info:status"
 msgid "Attempting to refresh the OTR session with <b>%1</b>..."
 msgstr ""
 
-#: plugins/otr/otrplugin.cpp:192
+#: plugins/otr/otrplugin.cpp:202
 #, kde-format
 msgctxt "@info:status"
 msgid "Attempting to start a private OTR session with <b>%1</b>..."
@@ -16902,7 +16907,7 @@ msgid "History Converter"
 msgstr "Veguhêrê Raboriyê"
 
 #: plugins/history/converter.cpp:42 protocols/jabber/jabbercontact.cpp:979
-#: protocols/jabber/jabberaccount.cpp:1166
+#: protocols/jabber/jabberaccount.cpp:1168
 msgid "Keep"
 msgstr "Hilîne"
 
@@ -20314,7 +20319,7 @@ msgstr ""
 #: protocols/oscar/oscaraccount.cpp:1006 protocols/oscar/oscaraccount.cpp:1023
 #, fuzzy, kde-format
 msgctxt "account has been disconnected"
-msgid "%1 disconnected"
+msgid "Kopete: %1 disconnected"
 msgstr "Bikarhêner ne girêdayî ye."
 
 #: protocols/oscar/oscaraccount.cpp:1047
@@ -20330,7 +20335,9 @@ msgid ""
 msgstr ""
 
 #: protocols/oscar/oscaraccount.cpp:1051
-msgid "OSCAR Protocol error"
+#, fuzzy
+#| msgid "OSCAR Protocol error"
+msgid "Kopete: OSCAR Protocol error"
 msgstr "Çewtiya Protokol ya OSCAR'ê"
 
 #: protocols/oscar/oscaraccount.cpp:1192
@@ -22086,7 +22093,7 @@ msgid "Do you also want to remove user %1's authorization to see your status?"
 msgstr "Dixwazî van ji lîsteya xwe ya têkiliyan bibî?"
 
 #: protocols/jabber/jabbercontact.cpp:978
-#: protocols/jabber/jabberaccount.cpp:1166
+#: protocols/jabber/jabberaccount.cpp:1168
 msgid "Notification"
 msgstr "Danezanî"
 
@@ -22508,7 +22515,7 @@ msgid "Please enter your nickname for the room %1"
 msgstr "Ji kerema xwe ji bo grupa nû navekî têkevê:"
 
 #: protocols/jabber/jabberprotocol.cpp:486
-#: protocols/jabber/jabberaccount.cpp:1560
+#: protocols/jabber/jabberaccount.cpp:1562
 msgid "Provide your nickname"
 msgstr ""
 
@@ -22875,12 +22882,13 @@ msgid "Could not bind a resource: %1"
 msgstr "Li çavkaniyê nehate girêdan: %1"
 
 #: protocols/jabber/jabberaccount.cpp:994
-#: protocols/jabber/jabberaccount.cpp:998
-#, kde-format
-msgid "Connection problem with Jabber server %1"
+#: protocols/jabber/jabberaccount.cpp:999
+#, fuzzy, kde-format
+#| msgid "Connection problem with Jabber server %1"
+msgid "Kopete: Connection problem with Jabber server %1"
 msgstr "Pirsgirêka girêdana pêşkêşkera Jabber ya %1"
 
-#: protocols/jabber/jabberaccount.cpp:1163
+#: protocols/jabber/jabberaccount.cpp:1165
 #, kde-format
 msgid ""
 "The Jabber user %1 removed %2's subscription to him/her. This account will "
@@ -22888,50 +22896,50 @@ msgid ""
 "delete the contact?"
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:1337
+#: protocols/jabber/jabberaccount.cpp:1339
 msgid "Waiting for authorization"
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:1550
+#: protocols/jabber/jabberaccount.cpp:1552
 #, kde-format
 msgid "A password is required to join the room %1."
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:1559
+#: protocols/jabber/jabberaccount.cpp:1561
 #, kde-format
 msgid "Error trying to join %1 : nickname %2 is already in use"
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:1573
+#: protocols/jabber/jabberaccount.cpp:1575
 #, fuzzy, kde-format
 msgid "You cannot join the room %1 because you have been banned"
 msgstr "Nekete kanala %1 ji ber ku tu jê hatiye avêtin"
 
-#: protocols/jabber/jabberaccount.cpp:1574
-#: protocols/jabber/jabberaccount.cpp:1581
-#: protocols/jabber/jabberaccount.cpp:1591
+#: protocols/jabber/jabberaccount.cpp:1576
+#: protocols/jabber/jabberaccount.cpp:1583
+#: protocols/jabber/jabberaccount.cpp:1593
 msgid "Jabber Group Chat"
 msgstr "Sohbeta Koma Jabber"
 
-#: protocols/jabber/jabberaccount.cpp:1580
+#: protocols/jabber/jabberaccount.cpp:1582
 #, fuzzy, kde-format
 msgid ""
 "You cannot join the room %1 because the maximum number of users has been "
 "reached"
 msgstr "Nekete kanala %1 ji ber ku tu jê hatiye avêtin"
 
-#: protocols/jabber/jabberaccount.cpp:1586
+#: protocols/jabber/jabberaccount.cpp:1588
 msgid "No reason given by the server"
 msgstr "Pêşkêşker tu sedem diyar nekir"
 
-#: protocols/jabber/jabberaccount.cpp:1590
+#: protocols/jabber/jabberaccount.cpp:1592
 #, kde-format
 msgid ""
 "There was an error processing your request for groupchat %1. (Reason: %2, "
 "Code %3)"
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:1663
+#: protocols/jabber/jabberaccount.cpp:1665
 #, kde-format
 msgid ""
 "Do you want to also unregister \"%1\" from the Jabber server ?\n"
@@ -22939,26 +22947,26 @@ msgid ""
 "and you will never be able to connect to this account with any client"
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:1666
+#: protocols/jabber/jabberaccount.cpp:1668
 msgid "Unregister"
 msgstr "Tomar bibe"
 
-#: protocols/jabber/jabberaccount.cpp:1667
+#: protocols/jabber/jabberaccount.cpp:1669
 msgid "Remove and Unregister"
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:1668
+#: protocols/jabber/jabberaccount.cpp:1670
 msgid "Remove only from Kopete"
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:1712
+#: protocols/jabber/jabberaccount.cpp:1714
 #, fuzzy, kde-format
 msgid ""
 "An error occurred while trying to remove the account:\n"
 "%1"
 msgstr "Dema dixwest sohbetê bide destpêkirin çewtiyek çêbû: %1"
 
-#: protocols/jabber/jabberaccount.cpp:1713
+#: protocols/jabber/jabberaccount.cpp:1715
 msgid "Jabber Account Unregistration"
 msgstr "Tomara Hesabê Jabber"
 
@@ -23460,7 +23468,7 @@ msgid "Unable to Send Message on Account '%1'"
 msgstr "Li navnîşana \"%1\" girêdan pêk nehat"
 
 #: protocols/groupwise/gwaccount.cpp:586
-msgid "Conflicting Changes Made Offline"
+msgid "Kopete: Conflicting Changes Made Offline"
 msgstr ""
 
 #: protocols/groupwise/gwaccount.cpp:586
@@ -23520,8 +23528,9 @@ msgid "Error Adding Contact"
 msgstr "Dema Girêdan Lê Dihate Zêdekirin Çewtî Çebû"
 
 #: protocols/groupwise/gwaccount.cpp:1318
-#, kde-format
-msgid "Signed in as %1 Elsewhere"
+#, fuzzy, kde-format
+#| msgid "Signed in as %1 Elsewhere"
+msgid "Kopete: Signed in as %1 Elsewhere"
 msgstr "Ji dereke din wekî %1 girêdayî ye"
 
 #: protocols/groupwise/gwaccount.cpp:1318
