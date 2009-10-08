@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nepomukserver\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-06 05:59+0200\n"
+"POT-Creation-Date: 2009-10-08 06:08+0200\n"
 "PO-Revision-Date: 2008-12-30 21:52+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <ku@li.org>\n"
@@ -44,7 +44,7 @@ msgstr "Modula Veavakirina Nepomukê"
 msgid "Copyright 2007 Sebastian Trüg"
 msgstr "Mafê Kopîkirinê 2007 Sebastian Trüg"
 
-#: kcm/nepomukserverkcm.cpp:91 server/main.cpp:96 servicestub/main.cpp:74
+#: kcm/nepomukserverkcm.cpp:91 server/main.cpp:96 servicestub/main.cpp:75
 msgid "Sebastian Trüg"
 msgstr "Sebastian Trüg"
 
@@ -294,25 +294,25 @@ msgstr "Pêşkêşkera Nepomuk - Hîser û servîsên Nepomuk bi rê ve dibe"
 msgid "(c) 2008, Sebastian Trüg"
 msgstr "(c) 2008, Sebastian Trüg"
 
-#: server/main.cpp:96 servicestub/main.cpp:74
+#: server/main.cpp:96 servicestub/main.cpp:75
 msgid "Maintainer"
 msgstr "Peydeker"
 
-#: services/storage/repository.cpp:274
+#: services/storage/repository.cpp:282
 msgctxt "@info - notification message"
 msgid "Converting Nepomuk data to a new backend. This might take a while."
 msgstr ""
 "Dane yê Nepomuk vediguherîne jê paş-dawî ya nû. Ev di be ku hinek dem "
 "bikişîne."
 
-#: services/storage/repository.cpp:285
+#: services/storage/repository.cpp:293
 msgctxt "@info - notification message"
 msgid "Rebuilding Nepomuk full text search index for new features done."
 msgstr ""
 "Nû ve çêkirina pêrista lêgerîna hemû nivîsê yê Nepomuk ji bo taybetiyên nû "
 "hat qedandin."
 
-#: services/storage/repository.cpp:304
+#: services/storage/repository.cpp:314
 msgctxt "@info - notification message"
 msgid ""
 "Converting Nepomuk data to the new backend failed. Data may still be "
@@ -321,12 +321,12 @@ msgstr ""
 "Veguherandina dane yên Nepomuk ji paş-dawî ya nû re têk çû. Dane di be ku "
 "hêj jî bi destan bê serast kirin."
 
-#: services/storage/repository.cpp:312
+#: services/storage/repository.cpp:322
 msgctxt "@info - notification message"
 msgid "Successfully converted Nepomuk data to the new backend."
 msgstr "Bi serfiraz dane yên Nepomuk ji paş-dawî ya nû re veguherand."
 
-#: services/storage/repository.cpp:375
+#: services/storage/repository.cpp:385
 msgctxt "@info - notification message"
 msgid ""
 "Rebuilding Nepomuk full text search index for new features. This will only "
@@ -335,13 +335,20 @@ msgstr ""
 "Nû ve çêkirina pêrista lêgerîna hemû nivîsê yê Nepomuk ji bo taybetiyên nû. "
 "Ev tenê ji bo yek carê dê bê çêkirin û di be ku hinek dem bikişîne."
 
-#: services/storage/modelcopyjob.cpp:43
+#: services/storage/modelcopyjob.cpp:124
+#, fuzzy
+#| msgid "Converting Nepomuk database"
+msgctxt "@title job"
 msgid "Converting Nepomuk database"
 msgstr "Veguherandina bingeha dane yê Nepomuk"
 
-#: services/storage/modelcopyjob.cpp:78
-msgid "Some data was lost in the conversion."
-msgstr "Di xebatê de hinek dane hat winda bûn."
+#: services/storage/modelcopyjob.cpp:125
+msgid "Old backend"
+msgstr ""
+
+#: services/storage/modelcopyjob.cpp:126
+msgid "New backend"
+msgstr ""
 
 #: services/ontologyloader/ontologyloader.cpp:116
 #, kde-format
@@ -454,18 +461,21 @@ msgstr "Pêrist kirina pelê ya Lêgerîna Sermasê yê Pêşîn di %1 de hat qe
 msgid "Nepomuk Service Stub"
 msgstr "Pêşkêşkerê Nepomuk Naxebite"
 
-#: servicestub/main.cpp:77
+#: servicestub/main.cpp:78
 msgctxt "@info:shell"
 msgid "Service to start"
 msgstr "Servîsa dê bê destpêkirin"
 
-#: servicestub/main.cpp:93
+#: servicestub/main.cpp:94
 msgid "No service name specified"
 msgstr "Tu navê servîsê nehatiye dîyar kirin"
 
-#: servicestub/main.cpp:117
+#: servicestub/main.cpp:118
 msgid "Unknown service name:"
 msgstr "Navê servîsa nenas:"
+
+#~ msgid "Some data was lost in the conversion."
+#~ msgstr "Di xebatê de hinek dane hat winda bûn."
 
 #~ msgid "Resuming Strigi file indexing."
 #~ msgstr "Strigi pêrist kirina pelê dom dike."
