@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-09 06:14+0200\n"
+"POT-Creation-Date: 2009-10-16 06:15+0200\n"
 "PO-Revision-Date: 2009-01-06 14:18+0200\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: American English <kde-i18n-doc@lists.kde.org>\n"
@@ -51,7 +51,7 @@ msgstr "(c) 1999-2008, Pêşvebirên Konqueror"
 msgid "http://konqueror.kde.org"
 msgstr "http://konqueror.kde.org"
 
-#: src/konqfactory.cpp:236
+#: src/konqfactory.cpp:236 sidebar/konqsidebar.cpp:30
 msgid "David Faure"
 msgstr "David Faure"
 
@@ -269,7 +269,7 @@ msgstr "Torben Weis"
 msgid "KFM author"
 msgstr "Nivîskarê KFM"
 
-#: src/konqfactory.cpp:268 sidebar/konqsidebar.cpp:117
+#: src/konqfactory.cpp:268 sidebar/konqsidebar.cpp:29
 msgid "Joseph Wenninger"
 msgstr "Joseph Wenninger"
 
@@ -702,7 +702,7 @@ msgstr "Profîlên Dîtinê &Ava Bike..."
 msgid "Load &View Profile"
 msgstr "Profîlên Dîtinê &Bar Bike"
 
-#: src/konqmainwindow.cpp:3754 sidebar/web_module/web_module.h:61
+#: src/konqmainwindow.cpp:3754 sidebar/web_module/web_module.h:57
 msgid "&Reload"
 msgstr "Ji &Nû Ve Bar Bike"
 
@@ -961,7 +961,6 @@ msgid "Open the document in current window"
 msgstr "Pelgeyê di hilfirîna hatiye hilbijartin de veke"
 
 #: src/konqmainwindow.cpp:4638 sidebar/web_module/web_module.h:54
-#: sidebar/web_module/web_module.h:57
 msgid "Open in New &Window"
 msgstr "Di &Paceyeke Nû de Veke"
 
@@ -1350,7 +1349,7 @@ msgstr ""
 "<h1>Darikê Kêlekê yê Dîrokê</h1> Tu dikarî darikê kêlekê yê dîrokê li vir "
 "veava bike."
 
-#: sidebar/trees/dirtree_module/dirtree_module.cpp:424
+#: sidebar/trees/dirtree_module/dirtree_module.cpp:423
 #, kde-format
 msgid "Cannot find parent item %1 in the tree. Internal error."
 msgstr "Hêmana mak %1, li ser darê nayê dîtin. Çewtiya hundurîn."
@@ -1360,7 +1359,7 @@ msgid "&Create New Folder"
 msgstr "&Peldaneke nû biafirîne"
 
 #: sidebar/trees/bookmark_module/bookmark_module.cpp:77
-#: sidebar/trees/konq_sidebartree.cpp:938
+#: sidebar/trees/konq_sidebartree.cpp:932
 msgid "Delete Folder"
 msgstr "Peldankê jê bibe"
 
@@ -1369,17 +1368,17 @@ msgid "Delete Bookmark"
 msgstr "Bijareyê Jê Bibe"
 
 #: sidebar/trees/bookmark_module/bookmark_module.cpp:85
-#: sidebar/trees/konq_sidebartree.cpp:947
+#: sidebar/trees/konq_sidebartree.cpp:941
 msgid "Properties"
 msgstr "Taybetmendî"
 
 #: sidebar/trees/bookmark_module/bookmark_module.cpp:89
-#: sidebar/trees/konq_sidebartree.cpp:950
+#: sidebar/trees/konq_sidebartree.cpp:944
 msgid "Open in New Window"
 msgstr "Di Paceyeke nû de Veke"
 
 #: sidebar/trees/bookmark_module/bookmark_module.cpp:93
-#: sidebar/trees/konq_sidebartree.cpp:953
+#: sidebar/trees/konq_sidebartree.cpp:947
 msgid "Open in New Tab"
 msgstr "Di Hilfirîna Nû de Veke"
 
@@ -1388,7 +1387,7 @@ msgid "Open Folder in Tabs"
 msgstr "Di paceyekê nû de veke"
 
 #: sidebar/trees/bookmark_module/bookmark_module.cpp:101
-#: sidebar/trees/konq_sidebartree.cpp:956
+#: sidebar/trees/konq_sidebartree.cpp:950
 msgid "Copy Link Address"
 msgstr "Girêdana Navnîşanê Ji Ber Bigire"
 
@@ -1438,35 +1437,35 @@ msgstr "Herêm:"
 msgid "Add Bookmark"
 msgstr "Bijareyekê lê zêde bike"
 
-#: sidebar/trees/konq_sidebartree.cpp:935
+#: sidebar/trees/konq_sidebartree.cpp:929
 msgid "&Create New Folder..."
 msgstr "&Peldaneke nû biafirîne..."
 
-#: sidebar/trees/konq_sidebartree.cpp:941
+#: sidebar/trees/konq_sidebartree.cpp:935
 msgid "Rename"
 msgstr "Nav biguherîne"
 
-#: sidebar/trees/konq_sidebartree.cpp:944
+#: sidebar/trees/konq_sidebartree.cpp:938
 msgid "Delete Link"
 msgstr "Girêdanê Jê Bibe"
 
-#: sidebar/trees/konq_sidebartree.cpp:995
+#: sidebar/trees/konq_sidebartree.cpp:989
 msgid "New Folder"
 msgstr "Peldanka Nû"
 
-#: sidebar/trees/konq_sidebartree.cpp:999
+#: sidebar/trees/konq_sidebartree.cpp:993
 msgid "Create New Folder"
 msgstr "Afirandina Peldanka Nû"
 
-#: sidebar/trees/konq_sidebartree.cpp:1000
+#: sidebar/trees/konq_sidebartree.cpp:994
 msgid "Enter folder name:"
 msgstr "Navê peldankê binivîse:"
 
-#: sidebar/sidebar_widget.cpp:111
+#: sidebar/sidebar_widget.cpp:104
 msgid "Rollback to System Default"
 msgstr "Vegerînê Mîhengên Standard ên Pergalê"
 
-#: sidebar/sidebar_widget.cpp:117
+#: sidebar/sidebar_widget.cpp:110
 msgid ""
 "<qt>This removes all your entries from the sidebar and adds the system "
 "default ones.<br /><b>This procedure is irreversible</b><br />Do you want to "
@@ -1476,65 +1475,65 @@ msgstr ""
 "dikevin şûna wan.<br /><b>Jê nayê vegerandin</b><br />Tu dixwazî bidomînî?></"
 "qt>"
 
-#: sidebar/sidebar_widget.cpp:270
+#: sidebar/sidebar_widget.cpp:240
 msgid "Configure Navigation Panel"
 msgstr "Panela Navîgasiyonê Veava bike"
 
-#: sidebar/sidebar_widget.cpp:272
+#: sidebar/sidebar_widget.cpp:242
 msgid "Add New"
 msgstr "Nû Têxe"
 
-#: sidebar/sidebar_widget.cpp:274
+#: sidebar/sidebar_widget.cpp:244
 msgid "Multiple Views"
 msgstr "Gelek Dîmen"
 
-#: sidebar/sidebar_widget.cpp:276 sidebar/sidebar_widget.cpp:400
+#: sidebar/sidebar_widget.cpp:246 sidebar/sidebar_widget.cpp:362
 msgid "Show Tabs Left"
 msgstr "Hilpekînên Aliyê Çepê Nîşan Bide"
 
-#: sidebar/sidebar_widget.cpp:277
+#: sidebar/sidebar_widget.cpp:247
 msgid "Show Configuration Button"
 msgstr "Bişkokê Mîhengan Nîşan Bide"
 
-#: sidebar/sidebar_widget.cpp:281
+#: sidebar/sidebar_widget.cpp:250
 msgid "Close Navigation Panel"
 msgstr "Panela Navîgasiyonê Bigire"
 
-#: sidebar/sidebar_widget.cpp:331
+#: sidebar/sidebar_widget.cpp:293
 msgid "This entry already exists."
 msgstr "Ev ketan jixwe heye."
 
-#: sidebar/sidebar_widget.cpp:345 sidebar/web_module/web_module.cpp:217
+#: sidebar/sidebar_widget.cpp:307 sidebar/web_module/web_module.cpp:217
 msgid "Web SideBar Plugin"
 msgstr "Pêveka Darikê Kêlekê yê Webê"
 
-#: sidebar/sidebar_widget.cpp:400
+#: sidebar/sidebar_widget.cpp:362
 msgid "Show Tabs Right"
 msgstr "Hilpekînên Aliyê Rastê Nîşan Bide"
 
-#: sidebar/sidebar_widget.cpp:479
+#: sidebar/sidebar_widget.cpp:437
 msgid "Set Name"
 msgstr "Nav Hilbijêre"
 
-#: sidebar/sidebar_widget.cpp:479
+#: sidebar/sidebar_widget.cpp:437
 msgid "Enter the name:"
 msgstr "Navî binivîse:"
 
-#: sidebar/sidebar_widget.cpp:497
+#: sidebar/sidebar_widget.cpp:455
 msgid "Enter a URL:"
 msgstr "URL'ekê binivîse:"
 
-#: sidebar/sidebar_widget.cpp:505
+#: sidebar/sidebar_widget.cpp:463
 #, kde-format
 msgid "<qt><b>%1</b> does not exist</qt>"
 msgstr "<qt><b>%1</b> tune</qt>"
 
-#: sidebar/sidebar_widget.cpp:536
+#: sidebar/sidebar_widget.cpp:494
 #, kde-format
 msgid "<qt>Do you really want to remove the <b>%1</b> tab?</qt>"
 msgstr "<qt>Bi rastî jî tu dixwazî hilfirîna <b>%1</b> rakî?</qt>"
 
-#: sidebar/sidebar_widget.cpp:584
+#: sidebar/sidebar_widget.cpp:542
 msgid ""
 "You have hidden the navigation panel configuration button. To make it "
 "visible again, click the right mouse button on any of the navigation panel "
@@ -1544,23 +1543,23 @@ msgstr ""
 "mişkî li ciyeke ji rêzê a boşkojkên panela gerê rast bitikîne û \"Bişkojka "
 "Vevakirinê Nîşan Bide\" hilbijêre."
 
-#: sidebar/sidebar_widget.cpp:670
+#: sidebar/sidebar_widget.cpp:627
 msgid "Configure Sidebar"
 msgstr "Darikê Kêlekê Veava Bike"
 
-#: sidebar/sidebar_widget.cpp:787
+#: sidebar/sidebar_widget.cpp:744
 msgid "Set Name..."
 msgstr "Nav Hilbijêre..."
 
-#: sidebar/sidebar_widget.cpp:788
+#: sidebar/sidebar_widget.cpp:745
 msgid "Set URL..."
 msgstr "URL Hilbijêre..."
 
-#: sidebar/sidebar_widget.cpp:789
+#: sidebar/sidebar_widget.cpp:746
 msgid "Set Icon..."
 msgstr "Îkonê Hilbijêre..."
 
-#: sidebar/sidebar_widget.cpp:791
+#: sidebar/sidebar_widget.cpp:748
 msgid "Remove"
 msgstr "Rakirin"
 
@@ -1580,11 +1579,11 @@ msgstr " çirke"
 msgid "&Open Link"
 msgstr "Lînk &Veke"
 
-#: sidebar/web_module/web_module.h:63
+#: sidebar/web_module/web_module.h:59
 msgid "Set &Automatic Reload"
 msgstr "Barkirina &Bixweber Mîheng Bike"
 
-#: sidebar/konqsidebar.cpp:116
+#: sidebar/konqsidebar.cpp:28
 msgid "Extended Sidebar"
 msgstr "Darikê Kêlekê Veava Bike"
 
