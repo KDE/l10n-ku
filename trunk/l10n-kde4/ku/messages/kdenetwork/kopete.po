@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kopete\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-30 06:19+0100\n"
+"POT-Creation-Date: 2009-10-31 06:23+0100\n"
 "PO-Revision-Date: 2008-06-22 23:57+0200\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <ku@li.org>\n"
@@ -108,7 +108,7 @@ msgstr "&Dîrokê Nîşan Bide..."
 msgid "&Create Group..."
 msgstr "Grupê &Biafirîne..."
 
-#: libkopete/ui/kopetestdaction.cpp:113
+#: libkopete/ui/kopetestdaction.cpp:113 libkopete/kopetecontact.cpp:284
 #, fuzzy
 #| msgid "User Profile"
 msgid "Visible when offline"
@@ -608,7 +608,7 @@ msgstr "Ji bo xebitandina fermana %1 destûra te tune."
 msgid "Command Error"
 msgstr "Çewtiya Fermanê"
 
-#: libkopete/kopetecontactlist.cpp:200 libkopete/kopetegroup.cpp:37
+#: libkopete/kopetecontactlist.cpp:202 libkopete/kopetegroup.cpp:37
 msgid "Top Level"
 msgstr "Asta Bilind"
 
@@ -757,7 +757,7 @@ msgstr ""
 "xwegirêdana bêkarhêner bimînî."
 
 #: libkopete/kopetemetacontact.cpp:325 libkopete/kopetemetacontact.cpp:343
-#: libkopete/kopetemetacontact.cpp:420 libkopete/kopetecontact.cpp:429
+#: libkopete/kopetemetacontact.cpp:420 libkopete/kopetecontact.cpp:433
 msgid "User is Not Reachable"
 msgstr "Nikare Xwe Bigihîne Bikarhêner"
 
@@ -777,14 +777,14 @@ msgstr "Mijûl"
 msgid "Status not available"
 msgstr "Rewş ne diyar e"
 
-#: libkopete/kopetemetacontact.cpp:1320 libkopete/kopetemetacontact.cpp:1324
+#: libkopete/kopetemetacontact.cpp:1325 libkopete/kopetemetacontact.cpp:1329
 #, fuzzy
 #| msgid "Chat"
 msgctxt "@action"
 msgid "Chat"
 msgstr "Sohbet"
 
-#: libkopete/kopetemetacontact.cpp:1333
+#: libkopete/kopetemetacontact.cpp:1338
 #, kde-format
 msgid "<qt><i>%1</i> is now %2.</qt>"
 msgstr "<qt><i>%1</i> niha %2.</qt>"
@@ -958,23 +958,23 @@ msgstr "Hilanîna Bê&parastin"
 msgid "Not in your contact list"
 msgstr "Di lîsteya têkiliyan de tuneye"
 
-#: libkopete/kopetecontact.cpp:239
+#: libkopete/kopetecontact.cpp:240
 msgid "&Add to Your Contact List"
 msgstr "&Têxe Lîsteya Girêdanan"
 
-#: libkopete/kopetecontact.cpp:311
+#: libkopete/kopetecontact.cpp:315
 msgid "Move Contact"
 msgstr "Girêdanê Bikşîne"
 
-#: libkopete/kopetecontact.cpp:319
+#: libkopete/kopetecontact.cpp:323
 msgid "Select the meta contact to which you want to move this contact:"
 msgstr "Girêdana jor ya tu dixwazî vê girêdanê bibe wê derê hilbijêere:"
 
-#: libkopete/kopetecontact.cpp:322
+#: libkopete/kopetecontact.cpp:326
 msgid "Create a new metacontact for this contact"
 msgstr "Ji bo girêdanê girêdana jor pêk bîne"
 
-#: libkopete/kopetecontact.cpp:323
+#: libkopete/kopetecontact.cpp:327
 msgid ""
 "If you select this option, a new metacontact will be created in the top-"
 "level group with the name of this contact and the contact will be moved to "
@@ -983,7 +983,7 @@ msgstr ""
 "Heke ev vebijêrk hatibe hilbijartin wê bi navê girêdana jorîn komeke asta "
 "jorîn were afirandin û wê girêdan biçe wê derê."
 
-#: libkopete/kopetecontact.cpp:428
+#: libkopete/kopetecontact.cpp:432
 msgid ""
 "This user is not reachable at the moment. Please try a protocol that "
 "supports offline sending, or wait until this user comes online."
@@ -991,13 +991,13 @@ msgstr ""
 "Niha nagihîje vê têkiliyê. Heke protokol peyamên guhêrbar destek dike vê "
 "biceribîne an jî li benda xwegirêdana bikarhêner bisekine."
 
-#: libkopete/kopetecontact.cpp:436
+#: libkopete/kopetecontact.cpp:440
 #, kde-format
 msgid ""
 "Are you sure you want to remove the contact  '%1' from your contact list?"
 msgstr "Ji dil dixwazî '%1' jê bibî?"
 
-#: libkopete/kopetecontact.cpp:437
+#: libkopete/kopetecontact.cpp:441
 #: kopete/contactlist/kopetecontactlistview.cpp:816
 msgid "Remove Contact"
 msgstr "Têkiliyê Rake"
@@ -1050,7 +1050,7 @@ msgstr "Têkiliyê Rake"
 #. i18n: ectx: property (text), widget (QPushButton, ignoreRemove)
 #. i18n: file: protocols/jabber/ui/privacy.ui:249
 #. i18n: ectx: property (text), widget (KPushButton, pb_remove)
-#: libkopete/kopetecontact.cpp:437
+#: libkopete/kopetecontact.cpp:441
 #: kopete/contactlist/kopetecontactlistview.cpp:397
 #: kopete/contactlist/kopetecontactlistview.cpp:412
 #: kopete/contactlist/kopetecontactlistview.cpp:837 rc.cpp:904 rc.cpp:1009
@@ -1061,74 +1061,74 @@ msgstr "Têkiliyê Rake"
 msgid "Remove"
 msgstr "Ra&ke"
 
-#: libkopete/kopetecontact.cpp:578
+#: libkopete/kopetecontact.cpp:582
 #, kde-format
 msgctxt "@label:textbox %3 is contact-display-name, %1 is its status"
 msgid "<b><nobr>%3</nobr></b><br /><img src=\"%2\">&nbsp;%1"
 msgstr ""
 
-#: libkopete/kopetecontact.cpp:585
+#: libkopete/kopetecontact.cpp:589
 #, kde-format
 msgctxt ""
 "@label:textbox %4 is contact-display-name, %3 is contact-id, %1 is its status"
 msgid "<nobr><b>%4</b> (%3)</nobr><br /><img src=\"%2\">&nbsp;%1"
 msgstr ""
 
-#: libkopete/kopetecontact.cpp:603
+#: libkopete/kopetecontact.cpp:607
 #, kde-format
 msgctxt "@label:textbox formatted name"
 msgid "<br /><b>Full Name:</b>&nbsp;<nobr>%1</nobr>"
 msgstr ""
 
-#: libkopete/kopetecontact.cpp:612
+#: libkopete/kopetecontact.cpp:616
 #, kde-format
 msgctxt "@label:textbox formatted idle time"
 msgid "<br /><b>Idle:</b>&nbsp;<nobr>%1</nobr>"
 msgstr ""
 
-#: libkopete/kopetecontact.cpp:621
+#: libkopete/kopetecontact.cpp:625
 #, fuzzy, kde-format
 msgctxt "@label:textbox formatted url"
 msgid "<br /><b>Home Page:</b>&nbsp;<a href=\"%1\"><nobr>%2</nobr></a>"
 msgstr "<qt><nobr><b>Peyama nû ji %1:</b></nobr><br><nobr>\"%2\"</nobr></qt>"
 
-#: libkopete/kopetecontact.cpp:631
+#: libkopete/kopetecontact.cpp:635
 #, kde-format
 msgctxt "@label:textbox formatted status title"
 msgid "<br /><b>Status&nbsp;Title:</b>&nbsp;%1"
 msgstr ""
 
-#: libkopete/kopetecontact.cpp:640 kopete/kopetewindow.cpp:1241
+#: libkopete/kopetecontact.cpp:644 kopete/kopetewindow.cpp:1241
 #, kde-format
 msgctxt "@label:textbox formatted status message"
 msgid "<br /><b>Status&nbsp;Message:</b>&nbsp;%1"
 msgstr ""
 
-#: libkopete/kopetecontact.cpp:677
+#: libkopete/kopetecontact.cpp:681
 #, kde-format
 msgctxt "@label:textbox property label %2 is name, %1 is value"
 msgid "<br /><nobr><b>%2:</b></nobr>&nbsp;%1"
 msgstr ""
 
-#: libkopete/kopetecontact.cpp:700
+#: libkopete/kopetecontact.cpp:704
 #, fuzzy, kde-format
 msgctxt "firstName lastName"
 msgid "%2 %1"
 msgstr "%2 <%1>"
 
-#: libkopete/kopetecontact.cpp:736
+#: libkopete/kopetecontact.cpp:740
 #, kde-format
 msgctxt "<days>d <hours>h <minutes>m <seconds>s"
 msgid "%4d %3h %2m %1s"
 msgstr ""
 
-#: libkopete/kopetecontact.cpp:744
+#: libkopete/kopetecontact.cpp:748
 #, kde-format
 msgctxt "<hours>h <minutes>m <seconds>s"
 msgid "%3h %2m %1s"
 msgstr ""
 
-#: libkopete/kopetecontact.cpp:752
+#: libkopete/kopetecontact.cpp:756
 #, fuzzy, no-c-format, kde-format
 msgctxt "<minutes>m <seconds>s"
 msgid "%2m %1s"
@@ -2069,7 +2069,7 @@ msgid "Italic"
 msgstr "&Paldayî"
 
 #: kopete/config/appearance/layout/TokenWithLayout.cpp:75
-#: kopete/chatwindow/kopetechatwindow.cpp:1132
+#: kopete/chatwindow/kopetechatwindow.cpp:1135
 msgid "Left"
 msgstr ""
 
@@ -2080,7 +2080,7 @@ msgid "Center"
 msgstr "Daxwazker"
 
 #: kopete/config/appearance/layout/TokenWithLayout.cpp:77
-#: kopete/chatwindow/kopetechatwindow.cpp:1135
+#: kopete/chatwindow/kopetechatwindow.cpp:1138
 msgid "Right"
 msgstr ""
 
@@ -2296,14 +2296,14 @@ msgid ""
 "Window Style. Your account might not have permission to remove it."
 msgstr ""
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:504
+#: kopete/config/chatwindow/chatwindowconfig.cpp:505
 #, fuzzy, kde-format
 #| msgid "The Chat Window style was successfully installed."
 msgctxt "@title:window"
 msgid "Chat Window Style <resource>%1</resource> installation"
 msgstr "Ji înternetê cureyên paceyên sohbetê daxe."
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:509
+#: kopete/config/chatwindow/chatwindowconfig.cpp:510
 #, fuzzy, kde-format
 #| msgid ""
 #| "The specified archive cannot be opened.\n"
@@ -2316,7 +2316,7 @@ msgstr ""
 "Arşîva mîsoger nayê vekirin.\n"
 "Binêre ka arşîv ji bo ZIP an jî TAR'ê derbasdar e an na."
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:514
+#: kopete/config/chatwindow/chatwindowconfig.cpp:515
 #, fuzzy, kde-format
 #| msgid ""
 #| "Could not find a suitable place to install the Chat Window style in user "
@@ -2327,7 +2327,7 @@ msgid ""
 "1</resource>."
 msgstr "Ji bo sazkirina dirbên îkonên hestan cihekî guncav nehate dîtin."
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:518
+#: kopete/config/chatwindow/chatwindowconfig.cpp:519
 #, fuzzy, kde-format
 #| msgid "The specified archive does not contain a valid Chat Window style."
 msgctxt "@info"
@@ -2336,7 +2336,7 @@ msgid ""
 "Window Style."
 msgstr "Arşîva mîsoger cureyê Paceya Sohbeteke derbasdar nahundirîne."
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:528
+#: kopete/config/chatwindow/chatwindowconfig.cpp:529
 #, fuzzy, kde-format
 #| msgid ""
 #| "An unknow error occurred while trying to install the Chat Window style."
@@ -2346,7 +2346,7 @@ msgid ""
 "<resource>%1</resource>."
 msgstr "Dema ku cureyê paceya sohbetê dihat daxistin çewtiyek derket holê."
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:537
+#: kopete/config/chatwindow/chatwindowconfig.cpp:538
 #, fuzzy, kde-format
 #| msgid "The Chat Window style was successfully installed."
 msgid "One Chat Window Style package has been installed."
@@ -2354,115 +2354,115 @@ msgid_plural "%1 Chat Window Style packages have been installed."
 msgstr[0] "Ji înternetê cureyên paceyên sohbetê daxe."
 msgstr[1] "Ji înternetê cureyên paceyên sohbetê daxe."
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:549
+#: kopete/config/chatwindow/chatwindowconfig.cpp:550
 msgctxt "This is the myself preview contact id"
 msgid "myself@preview"
 msgstr ""
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:550
+#: kopete/config/chatwindow/chatwindowconfig.cpp:551
 #, fuzzy
 msgctxt "This is the myself preview contact nickname"
 msgid "Myself"
 msgstr "Ez"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:554
+#: kopete/config/chatwindow/chatwindowconfig.cpp:555
 msgid "Jack"
 msgstr "Jack"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:557
+#: kopete/config/chatwindow/chatwindowconfig.cpp:558
 #, fuzzy
 msgctxt "This is the other preview contact id"
 msgid "jack@preview"
 msgstr "Pêşdîtin:"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:558
+#: kopete/config/chatwindow/chatwindowconfig.cpp:559
 #, fuzzy
 msgctxt "This is the other preview contact nickname"
 msgid "Jack"
 msgstr "Jack"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:566
+#: kopete/config/chatwindow/chatwindowconfig.cpp:567
 #, fuzzy
 msgctxt "preview of a chat session"
 msgid "Preview Session"
 msgstr "Pêşdîtin:"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:572
+#: kopete/config/chatwindow/chatwindowconfig.cpp:573
 msgid "Hello, this is an incoming message :-)"
 msgstr "Silav, ev peyama min a têketinê ye"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:576
+#: kopete/config/chatwindow/chatwindowconfig.cpp:577
 msgid "Hello, this is an incoming consecutive message."
 msgstr "Silav, ev peyama min a têketinê ye"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:580
+#: kopete/config/chatwindow/chatwindowconfig.cpp:581
 msgid "Ok, this is an outgoing message"
 msgstr "Temam, ev peyama min a derketinê ye"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:584
+#: kopete/config/chatwindow/chatwindowconfig.cpp:585
 #, fuzzy
 msgid "Ok, an outgoing consecutive message."
 msgstr "Temam, ev peyama min a derketinê ye"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:588
+#: kopete/config/chatwindow/chatwindowconfig.cpp:589
 #, fuzzy
 #| msgid "Message has been displayed"
 msgid "Message that is being sent."
 msgstr "Peyam hate nîşandan"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:593
+#: kopete/config/chatwindow/chatwindowconfig.cpp:594
 #, fuzzy
 #| msgid "Server messages:"
 msgid "Delivered message."
 msgstr "Peyamên ji pêşkêşker hatiye:"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:598
+#: kopete/config/chatwindow/chatwindowconfig.cpp:599
 #, fuzzy
 #| msgid "Message has been delivered"
 msgid "Message that cannot be delivered."
 msgstr "Peyam hate veguheztin"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:603
+#: kopete/config/chatwindow/chatwindowconfig.cpp:604
 #, fuzzy
 msgid "Here is an incoming colored message."
 msgstr "Dikarî peyamên ji vir birengînî"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:609
+#: kopete/config/chatwindow/chatwindowconfig.cpp:610
 msgid "This is an internal message"
 msgstr "Ev peyameke hundirîn e"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:613
+#: kopete/config/chatwindow/chatwindowconfig.cpp:614
 msgid "performed an action"
 msgstr "çalakiyê zindî bike"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:618
+#: kopete/config/chatwindow/chatwindowconfig.cpp:619
 msgid "This is a highlighted message"
 msgstr "Ev peyameke hatiye kirpandin e"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:623
+#: kopete/config/chatwindow/chatwindowconfig.cpp:624
 #, fuzzy
 #| msgid "Hello, this is an incoming message :-)"
 msgid "Hello, this is an incoming file transfer request"
 msgstr "Silav, ev peyama min a têketinê ye"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:630
+#: kopete/config/chatwindow/chatwindowconfig.cpp:631
 #, fuzzy
 #| msgid "Hello, this is an incoming message :-)"
 msgid "Hello, this is a disabled incoming file transfer request"
 msgstr "Silav, ev peyama min a têketinê ye"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:639
+#: kopete/config/chatwindow/chatwindowconfig.cpp:640
 msgctxt ""
 "This special UTF-8 string is to test if the style supports Right-to-Left "
 "language display."
 msgid "הודעות טקסט"
 msgstr ""
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:643
+#: kopete/config/chatwindow/chatwindowconfig.cpp:644
 msgid "Bye"
 msgstr "Bi xatirê te"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:722
+#: kopete/config/chatwindow/chatwindowconfig.cpp:723
 #, fuzzy
 #| msgid "Installing Emoticon Themes..."
 msgid "Configure Emoticon Themes"
@@ -2588,11 +2588,11 @@ msgstr "Senkronîzasyona digel KABC..."
 msgid "No Contacts with Photo Support"
 msgstr "Tu girêdaneke bi desteka wêneyan tune"
 
-#: kopete/contactlist/kopetelviprops.cpp:550
+#: kopete/contactlist/kopetelviprops.cpp:546
 msgid "No contacts were imported from the address book."
 msgstr "Tu têkilî ji deftera navnîşanan nehat standin."
 
-#: kopete/contactlist/kopetelviprops.cpp:551
+#: kopete/contactlist/kopetelviprops.cpp:547
 msgid "No Change"
 msgstr "Guhartin Tune"
 
@@ -2847,7 +2847,7 @@ msgstr ""
 #. i18n: file: protocols/skype/ui/skypecalldialogbase.ui:33
 #. i18n: ectx: property (toolTip), widget (QLabel, textLabel1)
 #: kopete/chatwindow/kopetechatwindow.cpp:207
-#: kopete/chatwindow/kopetechatwindow.cpp:466 rc.cpp:4502
+#: kopete/chatwindow/kopetechatwindow.cpp:471 rc.cpp:4502
 #, fuzzy
 msgid "Participants"
 msgstr "Beş"
@@ -2864,99 +2864,99 @@ msgctxt "@info:status"
 msgid "Ready."
 msgstr "Amade."
 
-#: kopete/chatwindow/kopetechatwindow.cpp:363
+#: kopete/chatwindow/kopetechatwindow.cpp:366
 #: kopete/chatwindow/kopeteemailwindow.cpp:219
 msgid "&Send Message"
 msgstr "Peyamê &Bişeyine"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:375
+#: kopete/chatwindow/kopetechatwindow.cpp:380
 #, fuzzy
 #| msgid "Send &File..."
 msgid "Send File..."
 msgstr "&Pel Bişeyne..."
 
-#: kopete/chatwindow/kopetechatwindow.cpp:383
+#: kopete/chatwindow/kopetechatwindow.cpp:388
 msgid "Close All Chats"
 msgstr "Hemû Chatan Bigire"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:388
+#: kopete/chatwindow/kopetechatwindow.cpp:393
 #, fuzzy
 #| msgid "&Activate Next Tab"
 msgid "&Activate Next Active Tab"
 msgstr "Hilpekîna di Rêxê de &Çalak Bike"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:394
+#: kopete/chatwindow/kopetechatwindow.cpp:399
 msgid "&Activate Next Tab"
 msgstr "Hilpekîna di Rêxê de &Çalak Bike"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:400
+#: kopete/chatwindow/kopetechatwindow.cpp:405
 msgid "&Activate Previous Tab"
 msgstr "Hilpekîna Berê ya &Çalak"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:408
+#: kopete/chatwindow/kopetechatwindow.cpp:413
 msgid "Nic&k Completion"
 msgstr "Temamkirina Nick"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:412
+#: kopete/chatwindow/kopetechatwindow.cpp:417
 msgid "&Detach Chat"
 msgstr "Sohbetê Biqedîne"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:417
+#: kopete/chatwindow/kopetechatwindow.cpp:422
 #, fuzzy
 #| msgid "Close All Chats"
 msgid "Close &All But This Tab"
 msgstr "Hemû Chatan Bigire"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:422
+#: kopete/chatwindow/kopetechatwindow.cpp:427
 msgid "&Move Tab to Window"
 msgstr "Hilpekînê Bibe Paceyê"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:429
+#: kopete/chatwindow/kopetechatwindow.cpp:434
 msgid "&Tab Placement"
 msgstr "Bicihkirina &Hilpekînan"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:442
+#: kopete/chatwindow/kopetechatwindow.cpp:447
 msgid "Previous History"
 msgstr "Dîrokê Nîşan Bide"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:447
+#: kopete/chatwindow/kopetechatwindow.cpp:452
 msgid "Next History"
 msgstr "Dîroka Din"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:459
+#: kopete/chatwindow/kopetechatwindow.cpp:464
 #: kopete/chatwindow/kopeterichtextwidget.cpp:142
 msgid "Automatic Spell Checking"
 msgstr "Kontrolkirina Bixweber a Rastnivîsandinê"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:465
+#: kopete/chatwindow/kopetechatwindow.cpp:470
 msgid "Show Participants"
 msgstr ""
 
-#: kopete/chatwindow/kopetechatwindow.cpp:475
+#: kopete/chatwindow/kopetechatwindow.cpp:480
 msgid "Co&ntacts"
 msgstr "Têkilî"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:498
+#: kopete/chatwindow/kopetechatwindow.cpp:503
 #: kopete/chatwindow/kopeteemailwindow.cpp:272
 msgid "Toolbar Animation"
 msgstr "Anîmasyona Şiva Amûran"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:660
+#: kopete/chatwindow/kopetechatwindow.cpp:665
 #, fuzzy
 msgctxt "@info:tooltip"
 msgid "Close the current tab"
 msgstr "Hilpekîna derbasdar bigire"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:1110
+#: kopete/chatwindow/kopetechatwindow.cpp:1113
 msgid "More..."
 msgstr "Zêdetir..."
 
-#: kopete/chatwindow/kopetechatwindow.cpp:1126
+#: kopete/chatwindow/kopetechatwindow.cpp:1129
 #, fuzzy
 msgid "Top"
 msgstr "Mijar"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:1129
+#: kopete/chatwindow/kopetechatwindow.cpp:1132
 msgid "Bottom"
 msgstr ""
 
@@ -2978,23 +2978,23 @@ msgstr "<qt><b>%1</b> ji bo nivîsandinê nayê vekirin.</qt>"
 msgid "Error While Saving"
 msgstr "Di Tomatkirinê de Çewtî Derket"
 
-#: kopete/chatwindow/chatmessagepart.cpp:789
+#: kopete/chatwindow/chatmessagepart.cpp:795
 msgid "User Has Left"
 msgstr "Bikarhêner Derket"
 
-#: kopete/chatwindow/chatmessagepart.cpp:1371
+#: kopete/chatwindow/chatmessagepart.cpp:1377
 #, fuzzy
 #| msgid "The signature is invalid."
 msgid "Chat style could not be found, or is invalid."
 msgstr "Îmze ne derbasdar e."
 
-#: kopete/chatwindow/chatmessagepart.cpp:1427
+#: kopete/chatwindow/chatmessagepart.cpp:1433
 #, fuzzy
 #| msgid "Send File"
 msgid "Save File as"
 msgstr "Pelekî Bişîne"
 
-#: kopete/chatwindow/chatmessagepart.cpp:1427
+#: kopete/chatwindow/chatmessagepart.cpp:1433
 msgid "Wav file (*.wav)"
 msgstr ""
 
