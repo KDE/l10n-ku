@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaider\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-11-10 06:10+0100\n"
+"POT-Creation-Date: 2009-11-12 06:13+0100\n"
 "PO-Revision-Date: 2008-09-24 02:55+0300\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: American English <kde-i18n-doc@lists.kde.org>\n"
@@ -1204,11 +1204,11 @@ msgctxt "@item Undo action"
 msgid "Use alternate translation"
 msgstr "Bîrên wergeran birêvebibe"
 
-#: src/binunitsview.cpp:131 src/cataloglistview/catalogmodel.cpp:148
+#: src/binunitsview.cpp:131
 msgid "no"
 msgstr ""
 
-#: src/binunitsview.cpp:131 src/cataloglistview/catalogmodel.cpp:148
+#: src/binunitsview.cpp:131
 msgid "yes"
 msgstr ""
 
@@ -1228,7 +1228,7 @@ msgctxt "@title:column"
 msgid "Target"
 msgstr "Hedef"
 
-#: src/binunitsview.cpp:151 src/cataloglistview/catalogmodel.cpp:97
+#: src/binunitsview.cpp:151
 msgctxt "@title:column"
 msgid "Approved"
 msgstr ""
@@ -1255,7 +1255,7 @@ msgid "Current: %1"
 msgstr "Niha: %1"
 
 #: src/editortab.cpp:157 src/editortab.cpp:821 src/project/projecttab.cpp:239
-#: src/tm/tmtab.cpp:417
+#: src/tm/tmtab.cpp:471
 #, kde-format
 msgctxt "@info:status message entries"
 msgid "Total: %1"
@@ -1668,17 +1668,20 @@ msgctxt "@info:status"
 msgid "Current: %1"
 msgstr ""
 
-#: src/editortab.cpp:1029
+#: src/editortab.cpp:1029 src/cataloglistview/catalogmodel.cpp:150
+#: src/tm/tmtab.cpp:238
 msgctxt "@info:status"
 msgid "Untranslated"
 msgstr "Newergerandî"
 
-#: src/editortab.cpp:1030
+#: src/editortab.cpp:1030 src/cataloglistview/catalogmodel.cpp:148
+#: src/tm/tmtab.cpp:236
 msgctxt "@info:status 'non-fuzzy' in gettext terminology"
 msgid "Ready"
 msgstr ""
 
-#: src/editortab.cpp:1031
+#: src/editortab.cpp:1031 src/cataloglistview/catalogmodel.cpp:149
+#: src/tm/tmtab.cpp:237
 #, fuzzy
 #| msgctxt "@action:inmenu"
 #| msgid "Manage translation memories"
@@ -2609,7 +2612,7 @@ msgid "Entry"
 msgstr "Ketan"
 
 #: src/cataloglistview/catalogmodel.cpp:94 src/glossary/glossary.cpp:431
-#: src/tm/tmtab.cpp:77
+#: src/tm/tmtab.cpp:79
 #, fuzzy
 #| msgctxt "@title:column"
 #| msgid "Source"
@@ -2618,7 +2621,7 @@ msgid "Source"
 msgstr "Çavkanî"
 
 #: src/cataloglistview/catalogmodel.cpp:95 src/glossary/glossary.cpp:432
-#: src/tm/tmtab.cpp:78
+#: src/tm/tmtab.cpp:80
 #, fuzzy
 #| msgctxt "@title:column"
 #| msgid "Target"
@@ -2630,6 +2633,14 @@ msgstr "Hedef"
 msgctxt "@title:column"
 msgid "Notes"
 msgstr ""
+
+#: src/cataloglistview/catalogmodel.cpp:97 src/tm/tmtab.cpp:83
+#, fuzzy
+#| msgctxt "@title:column"
+#| msgid "Translated"
+msgctxt "@title:column"
+msgid "Translation Status"
+msgstr "Wergerandî"
 
 #: src/common/termlabel.cpp:99
 msgctxt "@action:inmenu Edit term"
@@ -2944,30 +2955,30 @@ msgstr ""
 msgid "TM"
 msgstr ""
 
-#: src/tm/tmtab.cpp:79
+#: src/tm/tmtab.cpp:81
 msgctxt "@title:column"
 msgid "Context"
 msgstr ""
 
-#: src/tm/tmtab.cpp:80
+#: src/tm/tmtab.cpp:82
 msgctxt "@title:column"
 msgid "File"
 msgstr "Pel"
 
-#: src/tm/tmtab.cpp:233 src/tm/tmview.cpp:146 src/tm/tmview.cpp:151
+#: src/tm/tmtab.cpp:277 src/tm/tmview.cpp:146 src/tm/tmview.cpp:151
 msgctxt "@title:window"
 msgid "Translation Memory"
 msgstr ""
 
-#: src/tm/tmtab.cpp:258
+#: src/tm/tmtab.cpp:302
 msgid "Copy source to clipboard"
 msgstr ""
 
-#: src/tm/tmtab.cpp:264
+#: src/tm/tmtab.cpp:308
 msgid "Copy target to clipboard"
 msgstr ""
 
-#: src/tm/tmtab.cpp:270
+#: src/tm/tmtab.cpp:314
 #, fuzzy
 #| msgctxt "@action:inmenu"
 #| msgid "Replace in files"
