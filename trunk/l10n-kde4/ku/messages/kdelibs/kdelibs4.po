@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-11-13 06:07+0100\n"
+"POT-Creation-Date: 2009-11-14 06:11+0100\n"
 "PO-Revision-Date: 2009-01-05 14:53+0200\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -389,43 +389,43 @@ msgstr ""
 "(mînak: 'Ji ber Bigire') çalakiyan de \n"
 "(mînak: Ctrl+V) bibînî."
 
-#. i18n: file: kdeui/dialogs/kshortcutsdialog.ui:30
+#. i18n: file: kdeui/dialogs/kshortcutsdialog.ui:33
 #. i18n: ectx: property (text), widget (QTreeWidget, list)
 #: rc.cpp:164
 msgid "Action"
 msgstr "Çalakî"
 
-#. i18n: file: kdeui/dialogs/kshortcutsdialog.ui:35
+#. i18n: file: kdeui/dialogs/kshortcutsdialog.ui:38
 #. i18n: ectx: property (text), widget (QTreeWidget, list)
 #: rc.cpp:167
 msgid "Shortcut"
 msgstr "Kurterê"
 
-#. i18n: file: kdeui/dialogs/kshortcutsdialog.ui:40
+#. i18n: file: kdeui/dialogs/kshortcutsdialog.ui:43
 #. i18n: ectx: property (text), widget (QTreeWidget, list)
 #: rc.cpp:170
 msgid "Alternate"
 msgstr "Alternatîf"
 
-#. i18n: file: kdeui/dialogs/kshortcutsdialog.ui:45
+#. i18n: file: kdeui/dialogs/kshortcutsdialog.ui:48
 #. i18n: ectx: property (text), widget (QTreeWidget, list)
 #: rc.cpp:173
 msgid "Global"
 msgstr "Gerdûnî"
 
-#. i18n: file: kdeui/dialogs/kshortcutsdialog.ui:50
+#. i18n: file: kdeui/dialogs/kshortcutsdialog.ui:53
 #. i18n: ectx: property (text), widget (QTreeWidget, list)
 #: rc.cpp:176
 msgid "Global Alternate"
 msgstr "Rêzbûna Giştî"
 
-#. i18n: file: kdeui/dialogs/kshortcutsdialog.ui:55
+#. i18n: file: kdeui/dialogs/kshortcutsdialog.ui:58
 #. i18n: ectx: property (text), widget (QTreeWidget, list)
 #: rc.cpp:179
 msgid "Mouse Button Gesture"
 msgstr "Çalakiya Bişkojka Mişkî"
 
-#. i18n: file: kdeui/dialogs/kshortcutsdialog.ui:60
+#. i18n: file: kdeui/dialogs/kshortcutsdialog.ui:63
 #. i18n: ectx: property (text), widget (QTreeWidget, list)
 #: rc.cpp:182
 msgid "Mouse Shape Gesture"
@@ -2436,6 +2436,23 @@ msgstr ""
 #: kdecore/io/ksavefile.cpp:235
 msgid "Error during rename."
 msgstr "Dema navê pelî hate guherandin çewtiyek çêbû."
+
+#: kdecore/auth/backends/dbus/DBusHelperProxy.cpp:101
+#, kde-format
+msgid "DBus Backend error: connection to helper failed. %1"
+msgstr ""
+
+#: kdecore/auth/backends/dbus/DBusHelperProxy.cpp:125
+#, kde-format
+msgid ""
+"DBus Backend error: could not contact the helper. Connection error: %1. "
+"Message error: %2"
+msgstr ""
+
+#: kdecore/auth/backends/dbus/DBusHelperProxy.cpp:135
+#, kde-format
+msgid "DBus Backend error: received corrupt data from helper %1 %2"
+msgstr ""
 
 #: kdecore/date/kcalendarsystemjulian.cpp:206
 #: kdecore/date/kcalendarsystemgregorian.cpp:198
