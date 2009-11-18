@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-11-17 05:55+0100\n"
+"POT-Creation-Date: 2009-11-18 06:33+0100\n"
 "PO-Revision-Date: 2009-01-06 14:18+0200\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: American English <kde-i18n-doc@lists.kde.org>\n"
@@ -1106,14 +1106,14 @@ msgstr ""
 msgid "Miscellaneous"
 msgstr "Cur be Cur"
 
-#: src/konqhistorydialog.cpp:43
+#: src/konqhistorydialog.cpp:44
 #, fuzzy
 #| msgid "Clear History"
 msgctxt "@title:window"
 msgid "History"
 msgstr "Dîrokê jê bibe"
 
-#: src/konqhistorydialog.cpp:58 src/konqhistoryview.cpp:127
+#: src/konqhistorydialog.cpp:60 src/konqhistoryview.cpp:136
 msgctxt "@action:inmenu Parent of 'By Name' and 'By Date'"
 msgid "Sort"
 msgstr "Rêz bike"
@@ -1205,37 +1205,43 @@ msgstr "%1/s"
 msgid "Stalled"
 msgstr "Tê rawestandin"
 
-#: src/konqhistoryview.cpp:64
+#: src/konqhistoryview.cpp:65
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:94
+#: sidebar/trees/konq_sidebartree.cpp:235
+msgid "Open in New Tab"
+msgstr "Di Hilfirîna Nû de Veke"
+
+#: src/konqhistoryview.cpp:70
 msgid "&Remove Entry"
 msgstr "Ketanê %Jê Bibî"
 
-#: src/konqhistoryview.cpp:70
+#: src/konqhistoryview.cpp:77
 msgid "C&lear History"
 msgstr "Rabirdûyê P&aqij Bike"
 
-#: src/konqhistoryview.cpp:74
+#: src/konqhistoryview.cpp:82
 msgid "&Preferences..."
 msgstr "&Vebijêrk..."
 
-#: src/konqhistoryview.cpp:81
+#: src/konqhistoryview.cpp:89
 msgid "By &Name"
 msgstr "Bi &Nav"
 
-#: src/konqhistoryview.cpp:87
+#: src/konqhistoryview.cpp:95
 msgid "By &Date"
 msgstr "Bi &Dîrokê"
 
-#: src/konqhistoryview.cpp:97
+#: src/konqhistoryview.cpp:105
 #, fuzzy
 #| msgid "Clear History"
 msgid "Search in history"
 msgstr "Dîrokê jê bibe"
 
-#: src/konqhistoryview.cpp:155 sidebar/history_module/kcmhistory.cpp:251
+#: src/konqhistoryview.cpp:164 sidebar/history_module/kcmhistory.cpp:251
 msgid "Do you really want to clear the entire history?"
 msgstr "Bi rastî jî tu dixwazî hemû rabirdûyê jê bibî?"
 
-#: src/konqhistoryview.cpp:156 sidebar/history_module/kcmhistory.cpp:253
+#: src/konqhistoryview.cpp:165 sidebar/history_module/kcmhistory.cpp:253
 msgid "Clear History?"
 msgstr "Rabirdûyê Jê Bibî?"
 
@@ -1315,14 +1321,14 @@ msgstr "Cihê ku dê lê vebe"
 msgid "SideBar Test Plugin"
 msgstr "Pêveka Darikê Kêlekê yê Webê"
 
-#: sidebar/history_module/history_module.cpp:106
+#: sidebar/history_module/history_module.cpp:126
 #, fuzzy
 #| msgid "Web Sidebar"
 msgctxt "@action:inmenu Add"
 msgid "History Sidebar Module"
 msgstr "Darikê Kêlekê yê Webê"
 
-#: sidebar/history_module/history_module.cpp:129
+#: sidebar/history_module/history_module.cpp:149
 #, fuzzy
 #| msgid "Clear History"
 msgctxt "@title:tab"
@@ -1406,11 +1412,6 @@ msgstr "Taybetmendî"
 msgid "Open in New Window"
 msgstr "Di Paceyeke nû de Veke"
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:94
-#: sidebar/trees/konq_sidebartree.cpp:235
-msgid "Open in New Tab"
-msgstr "Di Hilfirîna Nû de Veke"
-
 #: sidebar/trees/bookmark_module/bookmark_module.cpp:98
 msgid "Open Folder in Tabs"
 msgstr "Di paceyekê nû de veke"
@@ -1450,15 +1451,15 @@ msgstr "Jêbirina Bijareyan"
 msgid "Bookmark Properties"
 msgstr "Taybetmendiyên Bijareyan"
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:559
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:565
 msgid "&Update"
 msgstr "&Rojanekirin"
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:567
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:573
 msgid "Name:"
 msgstr "Nav:"
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:575
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:581
 msgid "Location:"
 msgstr "Herêm:"
 
