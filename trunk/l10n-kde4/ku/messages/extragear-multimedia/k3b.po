@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: k3b\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-11-16 06:22+0100\n"
+"POT-Creation-Date: 2009-11-26 06:22+0100\n"
 "PO-Revision-Date: 2009-02-21 07:27+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -6247,7 +6247,7 @@ msgstr "Ferman"
 
 #. i18n: file: ../plugins/encoder/external/base_k3bexternalencoderconfigwidget.ui:87
 #. i18n: ectx: property (text), widget (QPushButton, m_buttonRemove)
-#: rc.cpp:1293 k3baudioplayer.cpp:229 projects/k3bmovixview.cpp:60
+#: rc.cpp:1293 k3baudioplayer.cpp:229 projects/k3bmovixview.cpp:56
 #: projects/k3bvcdlistview.cpp:101 projects/k3baudioviewimpl.cpp:63
 #: projects/k3bdataviewimpl.cpp:42 projects/k3bvcdview.cpp:55
 #: projects/k3baudiotrackview.cpp:187
@@ -6610,25 +6610,21 @@ msgstr ""
 msgid "Analysing file '%1'..."
 msgstr "Pela '%1' tê analîz kirin..."
 
-#: projects/k3bmovixview.cpp:57 projects/k3bvcdlistview.cpp:100
+#: projects/k3bmovixview.cpp:53 projects/k3bvcdlistview.cpp:100
 #: projects/k3baudioviewimpl.cpp:61 projects/k3bdataviewimpl.cpp:48
 #: projects/k3bvcdview.cpp:51 projects/k3baudiotrackview.cpp:181
 msgid "Properties"
 msgstr "Taybetmendî"
 
-#: projects/k3bmovixview.cpp:63
+#: projects/k3bmovixview.cpp:59
 msgid "Remove Subtitle File"
 msgstr "Pela Bin-nivîsê Rake"
 
-#: projects/k3bmovixview.cpp:66
+#: projects/k3bmovixview.cpp:62
 msgid "Add Subtitle File..."
 msgstr "Pela Bin-nivîsê Lê Zêde Bike"
 
-#: projects/k3bmovixview.cpp:84 projects/k3bdataview.cpp:76
-msgid "Volume Name:"
-msgstr ""
-
-#: projects/k3bmovixview.cpp:161
+#: projects/k3bmovixview.cpp:144
 msgid "K3b currently only supports local files."
 msgstr ""
 
@@ -6669,12 +6665,12 @@ msgstr "&Taybetî"
 msgid "Open the properties dialog"
 msgstr ""
 
-#: projects/k3bview.cpp:91 projects/k3bdataview.cpp:144
+#: projects/k3bview.cpp:91 projects/k3bdataview.cpp:128
 msgid "Please add files to your project first."
 msgstr ""
 
-#: projects/k3bview.cpp:92 projects/k3bdataview.cpp:145
-#: projects/k3bmixedview.cpp:123
+#: projects/k3bview.cpp:92 projects/k3bdataview.cpp:129
+#: projects/k3bmixedview.cpp:125
 msgid "No Data to Burn"
 msgstr ""
 
@@ -7412,7 +7408,7 @@ msgstr ""
 msgid "Used part of the audio source"
 msgstr ""
 
-#: projects/k3bmixedview.cpp:122
+#: projects/k3bmixedview.cpp:124
 msgid "Please add files and audio titles to your project first."
 msgstr ""
 
@@ -8267,6 +8263,10 @@ msgstr ""
 
 #: projects/k3bdataviewimpl.cpp:237
 msgid "Edit Boot Images"
+msgstr ""
+
+#: projects/k3bvolumenamewidget.cpp:56
+msgid "Volume Name:"
 msgstr ""
 
 #: projects/k3bdatapropertiesdialog.cpp:47
