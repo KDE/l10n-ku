@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaffeine\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-11-28 06:23+0100\n"
+"POT-Creation-Date: 2009-11-29 06:22+0100\n"
 "PO-Revision-Date: 2008-12-20 16:02+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -71,19 +71,19 @@ msgstr "Mîhengkirin:"
 msgid "&File"
 msgstr "&Pel"
 
-#: kaffeine.cpp:193 kaffeine.cpp:436
+#: kaffeine.cpp:193 kaffeine.cpp:447
 msgid "Open URL"
 msgstr "URL Veke"
 
-#: kaffeine.cpp:204 kaffeine.cpp:345
+#: kaffeine.cpp:204 kaffeine.cpp:347
 msgid "Play Audio CD"
 msgstr "CD ya Muzîkê Lê Bide"
 
-#: kaffeine.cpp:208 kaffeine.cpp:346
+#: kaffeine.cpp:208 kaffeine.cpp:348
 msgid "Play Video CD"
 msgstr "CD ya Vîdeoyê Lê Bide"
 
-#: kaffeine.cpp:212 kaffeine.cpp:347
+#: kaffeine.cpp:212 kaffeine.cpp:349
 msgid "Play DVD"
 msgstr "DVD Lê bide"
 
@@ -93,7 +93,7 @@ msgstr "DVD Lê bide"
 msgid "&Playback"
 msgstr "Lê Bide"
 
-#: kaffeine.cpp:224 kaffeine.cpp:497
+#: kaffeine.cpp:224 kaffeine.cpp:508
 msgid "Full Screen Mode"
 msgstr "Moda Dîmender Tijî"
 
@@ -132,32 +132,39 @@ msgstr "Lê Bide"
 msgid "Television"
 msgstr ""
 
-#: kaffeine.cpp:344
+#: kaffeine.cpp:346
 #, fuzzy
 #| msgid "Full Screen Mode"
 msgid "Start in full screen mode"
 msgstr "Moda Dîmender Tijî"
 
-#: kaffeine.cpp:348
+#: kaffeine.cpp:350
 #, fuzzy
 #| msgid "Delete channel"
 msgid "Play TV channel"
 msgstr "Kanalê jê bibe"
 
-#: kaffeine.cpp:349
+#: kaffeine.cpp:351
+#, fuzzy
+#| msgid "Delete channel"
+msgctxt "command line option"
+msgid "Play last tuned TV channel"
+msgstr "Kanalê jê bibe"
+
+#: kaffeine.cpp:352
 msgctxt "command line option"
 msgid "Dump dvb data (debug option)"
 msgstr ""
 
-#: kaffeine.cpp:350
+#: kaffeine.cpp:353
 msgid "Files or URLs to play"
 msgstr ""
 
-#: kaffeine.cpp:436
+#: kaffeine.cpp:447
 msgid "Enter a URL:"
 msgstr "URL'ekê binivîse:"
 
-#: kaffeine.cpp:488
+#: kaffeine.cpp:499
 #, fuzzy
 #| msgid "Full Screen Mode"
 msgid "Exit Full Screen Mode"
@@ -342,38 +349,38 @@ msgctxt "file filter description"
 msgid "All files"
 msgstr ""
 
-#: mediawidget.cpp:632
-#, fuzzy
-#| msgid "Pause"
-msgctxt "osd"
-msgid "Paused"
-msgstr "Bide Sekinandin"
-
-#: mediawidget.cpp:642
-#, fuzzy
-#| msgid "Play"
-msgctxt "osd"
-msgid "Playing"
-msgstr "Lê Bide"
-
-#: mediawidget.cpp:662
+#: mediawidget.cpp:606
 #, fuzzy
 #| msgid "Stop"
 msgctxt "osd"
 msgid "Stopped"
 msgstr "Rawestîne"
 
-#: mediawidget.cpp:722
+#: mediawidget.cpp:695
+#, fuzzy
+#| msgid "Pause"
+msgctxt "osd"
+msgid "Paused"
+msgstr "Bide Sekinandin"
+
+#: mediawidget.cpp:705
+#, fuzzy
+#| msgid "Play"
+msgctxt "osd"
+msgid "Playing"
+msgstr "Lê Bide"
+
+#: mediawidget.cpp:767
 msgctxt "osd"
 msgid "Mute On"
 msgstr ""
 
-#: mediawidget.cpp:725
+#: mediawidget.cpp:770
 msgctxt "osd"
 msgid "Mute Off"
 msgstr ""
 
-#: mediawidget.cpp:738
+#: mediawidget.cpp:783
 #, fuzzy, kde-format
 #| msgid "Name: %1"
 msgctxt "osd"
@@ -434,8 +441,8 @@ msgid "Edit"
 msgstr ""
 
 #: dvb/dvbchannelui.cpp:614 dvb/dvbrecording.cpp:399 dvb/dvbrecording.cpp:417
-#: dvb/dvbscandialog.cpp:215 playlist/playlisttab.cpp:568
-#: playlist/playlisttab.cpp:589
+#: dvb/dvbscandialog.cpp:215 playlist/playlisttab.cpp:569
+#: playlist/playlisttab.cpp:590
 #, fuzzy
 #| msgid "Remove satellite"
 msgctxt "remove an item from a list"
@@ -895,7 +902,7 @@ msgctxt "dialog"
 msgid "Recording Schedule"
 msgstr ""
 
-#: dvb/dvbrecording.cpp:390 playlist/playlisttab.cpp:579
+#: dvb/dvbrecording.cpp:390 playlist/playlisttab.cpp:580
 #, fuzzy
 #| msgid "New"
 msgctxt "add a new item to a list"
@@ -970,7 +977,7 @@ msgstr "SNR"
 msgid "Channels"
 msgstr "Kanal"
 
-#: dvb/dvbscandialog.cpp:220 playlist/playlisttab.cpp:572
+#: dvb/dvbscandialog.cpp:220 playlist/playlisttab.cpp:573
 #, fuzzy
 #| msgid "Cable"
 msgctxt "remove all items from a list"
@@ -1085,30 +1092,32 @@ msgid "Repeat"
 msgstr ""
 
 #: playlist/playlisttab.cpp:563
+#, fuzzy
+#| msgid "Radio"
 msgctxt "playlist menu"
-msgid "Shuffle"
-msgstr ""
+msgid "Random"
+msgstr "Radyo"
 
-#: playlist/playlisttab.cpp:584
+#: playlist/playlisttab.cpp:585
 #, fuzzy
 #| msgid "Remove satellite"
 msgctxt "rename an entry in a list"
 msgid "Rename"
 msgstr "Dûvelangê rake"
 
-#: playlist/playlisttab.cpp:840
+#: playlist/playlisttab.cpp:851
 msgid ""
 "*.m3u|M3U Playlist\n"
 "*.pls|PLS Playlist\n"
 "*.xspf|XSPF Playlist"
 msgstr ""
 
-#: playlist/playlisttab.cpp:852
+#: playlist/playlisttab.cpp:863
 #, kde-format
 msgid "Cannot open %1."
 msgstr ""
 
-#: playlist/playlisttab.cpp:865
+#: playlist/playlisttab.cpp:876
 msgid "Unknown playlist format."
 msgstr ""
 
