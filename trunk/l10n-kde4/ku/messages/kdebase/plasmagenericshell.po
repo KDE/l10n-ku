@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-shells-common\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-12-05 06:16+0100\n"
+"POT-Creation-Date: 2009-12-09 07:53+0100\n"
 "PO-Revision-Date: 2009-01-06 13:53+0200\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -164,39 +164,117 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "oensari at gmail dot com"
 
+#: widgetsExplorer/appletsfiltering.cpp:185
+#, fuzzy
+#| msgid "Enter search phrase here"
+msgid "Enter Search Term"
+msgstr "Gotineke lêgerînê binivîse li vir"
+
+#: widgetsExplorer/appletsfiltering.cpp:192
+#: widgetsExplorer/appletsfiltering.cpp:193
+msgid "Get New Widgets"
+msgstr "Alavên Nû Bîne"
+
+#: widgetsExplorer/appletsfiltering.cpp:309
+msgid "Download New Plasma Widgets"
+msgstr "Alavên Plasma yên Nû Bidaxîne"
+
+#: widgetsExplorer/appletsfiltering.cpp:321
+#, kde-format
+msgctxt ""
+"%1 is a type of widgets, as defined by e.g. some plasma-packagestructure-*."
+"desktop files"
+msgid "Download New %1"
+msgstr "%1 ya Nû Hat Daxistin"
+
+#: widgetsExplorer/appletsfiltering.cpp:331
+msgid "Install Widget From Local File..."
+msgstr "Alavê Saz Bike Jê Pela Heyî..."
+
+#: widgetsExplorer/applettooltip.cpp:120
+#, fuzzy
+#| msgid "Install New Widgets"
+msgid "Uninstall Widget"
+msgstr "Alavên Nû Saz Bike"
+
+#: widgetsExplorer/applettooltip.cpp:176
+#, kde-format
+msgid "Version %1"
+msgstr ""
+
+#: widgetsExplorer/applettooltip.cpp:182
+msgid "Author:"
+msgstr ""
+
+#: widgetsExplorer/applettooltip.cpp:191
+msgid "Website:"
+msgstr ""
+
+#: widgetsExplorer/applettooltip.cpp:195
+msgid "License:"
+msgstr ""
+
+#: widgetsExplorer/applettooltip.cpp:202
+msgid "Unknown Applet"
+msgstr ""
+
+#: widgetsExplorer/kcategorizeditemsviewmodels.cpp:72
+msgid "Filters"
+msgstr "Parzûn"
+
+#: widgetsExplorer/openwidgetassistant.cpp:46
+msgid "Select the type of widget to install from the list below."
+msgstr "Jê lîsteya jêr teşeyê alavê hilbijêre ji bo saz kirinê."
+
+#: widgetsExplorer/openwidgetassistant.cpp:56
+msgid "Plasmoid: Native plasma widget"
+msgstr "Plasmoid: Alava plasma yê binkî"
+
+#: widgetsExplorer/openwidgetassistant.cpp:77
+msgid "Install New Widget From File"
+msgstr "Jê Pelê Alava Nû Saz Bike"
+
+#: widgetsExplorer/openwidgetassistant.cpp:82
+msgid "Select File"
+msgstr "Pelî Hilbijêre"
+
+#: widgetsExplorer/openwidgetassistant.cpp:176
+#, kde-format
+msgid "Could not load the required installer %1. The error given was: %2"
+msgstr "Nikare sazkera %1 bar bike. Çewtiya derketî: %2"
+
+#: widgetsExplorer/openwidgetassistant.cpp:179
+#: widgetsExplorer/openwidgetassistant.cpp:191
+msgid "Installation Failure"
+msgstr "Têk çûna Sazkirinê"
+
+#: widgetsExplorer/openwidgetassistant.cpp:190
+#, kde-format
+msgid "Installing the package %1 failed."
+msgstr "Sazkirina pakêta %1 têk çû."
+
+#: widgetsExplorer/plasmaappletitemmodel.cpp:183
+msgid "Containments"
+msgstr "Bergeh"
+
+#: widgetsExplorer/widgetexplorer.cpp:120
+msgid "All Widgets"
+msgstr "Hemû Alav"
+
+#: widgetsExplorer/widgetexplorer.cpp:124
+msgid "Running"
+msgstr ""
+
+#: widgetsExplorer/widgetexplorer.cpp:128
+#, fuzzy
+#| msgid "Categories:"
+msgid "Categories:"
+msgstr "Kategorî:"
+
 #, fuzzy
 #~| msgid "Add Widget"
 #~ msgid "Add Trigger"
 #~ msgstr "Alav Têxe"
-
-#~ msgid "Select the type of widget to install from the list below."
-#~ msgstr "Jê lîsteya jêr teşeyê alavê hilbijêre ji bo saz kirinê."
-
-#~ msgid "Plasmoid: Native plasma widget"
-#~ msgstr "Plasmoid: Alava plasma yê binkî"
-
-#~ msgid "Install New Widget From File"
-#~ msgstr "Jê Pelê Alava Nû Saz Bike"
-
-#~ msgid "Select File"
-#~ msgstr "Pelî Hilbijêre"
-
-#~ msgid "Could not load the required installer %1. The error given was: %2"
-#~ msgstr "Nikare sazkera %1 bar bike. Çewtiya derketî: %2"
-
-#~ msgid "Installation Failure"
-#~ msgstr "Têk çûna Sazkirinê"
-
-#~ msgid "Installing the package %1 failed."
-#~ msgstr "Sazkirina pakêta %1 têk çû."
-
-#, fuzzy
-#~| msgid "Categories:"
-#~ msgid "Category:"
-#~ msgstr "Kategorî:"
-
-#~ msgid "All Widgets"
-#~ msgstr "Hemû Alav"
 
 #~ msgctxt ""
 #~ "%1 is the entity (person, staff, organization...) which recommends the "
@@ -213,26 +291,8 @@ msgstr "oensari at gmail dot com"
 #~ msgid "Currently Running Widgets"
 #~ msgstr "Alavên Niha Dixebitin"
 
-#~ msgid "Download New Plasma Widgets"
-#~ msgstr "Alavên Plasma yên Nû Bidaxîne"
-
-#~ msgctxt ""
-#~ "%1 is a type of widgets, as defined by e.g. some plasma-packagestructure-"
-#~ "*.desktop files"
-#~ msgid "Download New %1"
-#~ msgstr "%1 ya Nû Hat Daxistin"
-
-#~ msgid "Install Widget From Local File..."
-#~ msgstr "Alavê Saz Bike Jê Pela Heyî..."
-
 #~ msgid "Widgets"
 #~ msgstr "Alav"
-
-#~ msgid "Install New Widgets"
-#~ msgstr "Alavên Nû Saz Bike"
-
-#~ msgid "Get New Widgets"
-#~ msgstr "Alavên Nû Bîne"
 
 #~ msgid "Close the dialog"
 #~ msgstr "Pace yê bigire"
@@ -265,12 +325,3 @@ msgstr "oensari at gmail dot com"
 #~ "<qt>Hilbijartina <b>Alavên Nû Bîne</b> wê paceyekê veke yê dihêleku raste "
 #~ "rast jê înternetê alavên nû bên daxistin, Jê Pelê Saz Bike jî dihêle ku "
 #~ "tu alavên nû jê pelên  di dîska te de hene saz bikî.</qt> "
-
-#~ msgid "Enter search phrase here"
-#~ msgstr "Gotineke lêgerînê binivîse li vir"
-
-#~ msgid "Filters"
-#~ msgstr "Parzûn"
-
-#~ msgid "Containments"
-#~ msgstr "Bergeh"
