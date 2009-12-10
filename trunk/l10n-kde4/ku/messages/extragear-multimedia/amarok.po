@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-12-09 08:06+0100\n"
+"POT-Creation-Date: 2009-12-10 06:47+0100\n"
 "PO-Revision-Date: 2009-02-21 06:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -1154,11 +1154,11 @@ msgstr "Lîsteya Lêdanê Dubare Bike"
 
 #: context/applets/albums/AlbumsView.cpp:115
 #: browsers/filebrowser/MyDirOperator.cpp:274
-#: playlist/view/PlaylistViewCommon.cpp:198
+#: playlist/view/PlaylistViewCommon.cpp:203
 msgid "Edit Track Details"
 msgstr "&Kitekitên Stranê Biguherîne"
 
-#: context/applets/albums/Albums.cpp:178
+#: context/applets/albums/Albums.cpp:182
 #, kde-format
 msgid "Disc %1"
 msgstr "Dîska %1"
@@ -1344,7 +1344,8 @@ msgstr "Hunermend"
 #: browsers/collectionbrowser/CollectionWidget.cpp:186
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:250 rc.cpp:1225
 #: services/magnatune/MagnatuneStore.cpp:211
-#: services/jamendo/JamendoInfoParser.cpp:83 playlist/PlaylistHeader.cpp:40
+#: services/jamendo/JamendoInfoParser.cpp:83
+#: playlist/view/PlaylistViewCommon.cpp:52 playlist/PlaylistHeader.cpp:40
 #: playlist/PlaylistModel.cpp:704 widgets/SmartPlaylistEditor.cpp:183
 #: widgets/SmartPlaylistEditor.cpp:197
 msgid "Album"
@@ -4858,17 +4859,23 @@ msgstr "Darêj &Lê zêde bike..."
 msgid "&Export Playlist As..."
 msgstr "Lîsteya lêdanê Cuda &Derxîne Derve"
 
-#: MainWindow.cpp:747 MainWindow.cpp:755
+#: MainWindow.cpp:747 amarokurls/NavigationUrlGenerator.cpp:216
 #, fuzzy
-#| msgid "Bookmark Position"
-msgid "Bookmark This Location"
-msgstr "Cihê Bijare"
+#| msgid "Bookmark"
+msgid "Bookmark Media Sources View"
+msgstr "Bijare"
 
 #: MainWindow.cpp:751 amarokurls/BookmarkManager.cpp:42
 #, fuzzy
 #| msgid "Cover Manager"
 msgid "Bookmark Manager"
 msgstr "Rêvebirê Rûgira Albuman"
+
+#: MainWindow.cpp:755 playlist/PlaylistViewUrlGenerator.cpp:101
+#, fuzzy
+#| msgid "Smart Playlist"
+msgid "Bookmark Playlist Setup"
+msgstr "Lîsteya Lêdanê ya Baqil"
 
 #: MainWindow.cpp:759
 #, fuzzy
@@ -4958,7 +4965,7 @@ msgstr "Ji ve perçeyê hez bike"
 msgid "Last.fm: Skip Current Track"
 msgstr "Ji ve perçeyê hez bike"
 
-#: MainWindow.cpp:864 playlist/view/PlaylistViewCommon.cpp:106
+#: MainWindow.cpp:864 playlist/view/PlaylistViewCommon.cpp:111
 msgid "Queue Track"
 msgstr "Stran Rêz Kirî"
 
@@ -9500,25 +9507,19 @@ msgstr "Ji bo vê skrîptê agahî tune ye"
 msgid "Ok"
 msgstr "Temam"
 
-#: playlist/view/PlaylistViewCommon.cpp:48
-#, fuzzy
-#| msgid "Album"
-msgid " Album"
-msgstr "Album"
-
-#: playlist/view/PlaylistViewCommon.cpp:99
+#: playlist/view/PlaylistViewCommon.cpp:104
 msgid "Stop Playing After This Track"
 msgstr "Piştî Vê Stranê Lêdanê Raweste"
 
-#: playlist/view/PlaylistViewCommon.cpp:106
+#: playlist/view/PlaylistViewCommon.cpp:111
 msgid "Dequeue Track"
 msgstr "Stran Ne-Rêz Kirî"
 
-#: playlist/view/PlaylistViewCommon.cpp:117
+#: playlist/view/PlaylistViewCommon.cpp:122
 msgid "Remove From Playlist"
 msgstr "Jê Lîsteya Lêdanê Rake"
 
-#: playlist/view/PlaylistViewCommon.cpp:181
+#: playlist/view/PlaylistViewCommon.cpp:186
 #, fuzzy
 #| msgid "Select Importer"
 msgid "Select Source"
@@ -9541,12 +9542,6 @@ msgstr "&Lêgere"
 #| msgid " plays"
 msgid "%1 layout"
 msgstr " lêdan"
-
-#: playlist/PlaylistViewUrlGenerator.cpp:101
-#, fuzzy
-#| msgid "Smart Playlist"
-msgid "Bookmark Playlist Setup"
-msgstr "Lîsteya Lêdanê ya Baqil"
 
 #: playlist/PlaylistDefines.h:86
 #, fuzzy
@@ -10407,12 +10402,6 @@ msgstr "Hunermend \"%1\" jê %2"
 msgid "Artist \"%1\""
 msgstr "Hunermend \"%1\""
 
-#: amarokurls/NavigationUrlGenerator.cpp:216
-#, fuzzy
-#| msgid "Bookmark"
-msgid "Bookmark Media Sources View"
-msgstr "Bijare"
-
 #: widgets/VolumeWidget.cpp:48
 #, fuzzy
 #| msgctxt "State, as in, The playback is silent"
@@ -10947,6 +10936,16 @@ msgstr "Lê zêde bike && &Lê bide"
 #: TrayIcon.cpp:224
 msgid "&Queue Track"
 msgstr "&Rêza Stranan"
+
+#, fuzzy
+#~| msgid "Bookmark Position"
+#~ msgid "Bookmark This Location"
+#~ msgstr "Cihê Bijare"
+
+#, fuzzy
+#~| msgid "Album"
+#~ msgid " Album"
+#~ msgstr "Album"
 
 #, fuzzy
 #~| msgid "No purchases found!"
