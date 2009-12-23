@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gwenview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-12-07 06:08+0100\n"
+"POT-Creation-Date: 2009-12-23 06:51+0100\n"
 "PO-Revision-Date: 2009-01-22 22:46+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -86,7 +86,7 @@ msgid "Rename <filename>%1</filename> to:"
 msgstr "<filename>%1</filename>: %2"
 
 #: app/documentpanel.cpp:291 app/thumbnailviewpanel.cpp:105
-#: app/mainwindow.cpp:292 lib/documentview/documentview.cpp:123
+#: app/mainwindow.cpp:295 lib/documentview/documentview.cpp:123
 msgctxt "@title actions category - means actions changing smth in interface"
 msgid "View"
 msgstr "Bibîne"
@@ -171,7 +171,7 @@ msgid "Rating"
 msgstr "Nirxandin"
 
 #: app/thumbnailviewpanel.cpp:142 app/fileopscontextmanageritem.cpp:197
-#: app/mainwindow.cpp:291
+#: app/mainwindow.cpp:294
 msgctxt "@title actions category"
 msgid "File"
 msgstr "Pel"
@@ -323,37 +323,37 @@ msgctxt "@info"
 msgid "Gwenview cannot edit this kind of image."
 msgstr "Gwenview nikare wêneyên bi vê cure yê serast bike."
 
-#: app/main.cpp:41
+#: app/main.cpp:76
 msgid "Gwenview"
 msgstr "Gwenview"
 
-#: app/main.cpp:43 part/gvpart.cpp:120
+#: app/main.cpp:78 part/gvpart.cpp:120
 msgid "An Image Viewer"
 msgstr "Nîşanderê Wêneyan"
 
-#: app/main.cpp:45
+#: app/main.cpp:80 part/gvpart.cpp:122
 #, fuzzy
 #| msgid "Copyright 2000-2008 Aurélien Gâteau"
 msgid "Copyright 2000-2009 Aurélien Gâteau"
 msgstr "Copyright 2000-2008 Aurélien Gâteau"
 
-#: app/main.cpp:47 part/gvpart.cpp:124 importer/main.cpp:44
+#: app/main.cpp:82 part/gvpart.cpp:124 importer/main.cpp:44
 msgid "Aurélien Gâteau"
 msgstr "Aurélien Gâteau"
 
-#: app/main.cpp:48 part/gvpart.cpp:125 importer/main.cpp:45
+#: app/main.cpp:83 part/gvpart.cpp:125 importer/main.cpp:45
 msgid "Main developer"
 msgstr "Pêşvebirê Bingehîn"
 
-#: app/main.cpp:54
+#: app/main.cpp:89
 msgid "Start in fullscreen mode"
 msgstr "Di moda dîmender tijî de bide destpêkirin"
 
-#: app/main.cpp:55
+#: app/main.cpp:90
 msgid "Start in slideshow mode"
 msgstr "Di moda nîşandana slaytê de bide destpêkirin"
 
-#: app/main.cpp:56
+#: app/main.cpp:91
 msgid "A starting file or folder"
 msgstr "Pel an jî peldank tê destpêkirin"
 
@@ -683,116 +683,116 @@ msgstr "Guherandina Mezinahiya Wêne"
 msgid "Enter the new size of the image:"
 msgstr "Mezinahiya wêneyê ya nû têkevê:"
 
-#: app/mainwindow.cpp:301
+#: app/mainwindow.cpp:304
 msgctxt "@action reload the currently viewed image"
 msgid "Reload"
 msgstr "Nû Ve Bar Bike"
 
-#: app/mainwindow.cpp:307
+#: app/mainwindow.cpp:310
 msgctxt "@action Switch to file list"
 msgid "Browse"
 msgstr "Bigere"
 
-#: app/mainwindow.cpp:312
+#: app/mainwindow.cpp:315
 msgctxt "@action Switch to image view"
 msgid "View"
 msgstr "Bibîne"
 
-#: app/mainwindow.cpp:329
+#: app/mainwindow.cpp:332
 msgctxt "@action Go back to a more general page (start page <- list <- image)"
 msgid "Back"
 msgstr ""
 
-#: app/mainwindow.cpp:334
+#: app/mainwindow.cpp:337
 msgctxt "@action Go to previous image"
 msgid "Previous"
 msgstr "Paş"
 
-#: app/mainwindow.cpp:335
+#: app/mainwindow.cpp:338
 msgid "Go to Previous Image"
 msgstr "Biçe Wêneya Paş"
 
-#: app/mainwindow.cpp:340
+#: app/mainwindow.cpp:343
 msgctxt "@action Go to next image"
 msgid "Next"
 msgstr "Pêş"
 
-#: app/mainwindow.cpp:341
+#: app/mainwindow.cpp:344
 msgid "Go to Next Image"
 msgstr "Biçe Wêneya Pêş"
 
-#: app/mainwindow.cpp:349
+#: app/mainwindow.cpp:352
 msgctxt "@action"
 msgid "Start Page"
 msgstr "Rûpela Destpêkê"
 
-#: app/mainwindow.cpp:356
+#: app/mainwindow.cpp:359
 #, fuzzy
 #| msgid "Hide Sidebar"
 msgctxt "@action"
 msgid "Sidebar"
 msgstr "Darika-kêlekê Veşêre"
 
-#: app/mainwindow.cpp:381
+#: app/mainwindow.cpp:384
 msgctxt "@title actions category - means actions changing smth in interface"
 msgid "Edit"
 msgstr "Serast Bike"
 
-#: app/mainwindow.cpp:386
+#: app/mainwindow.cpp:389
 msgid "Redo"
 msgstr "Dîsa Bike"
 
-#: app/mainwindow.cpp:393
+#: app/mainwindow.cpp:396
 msgid "Undo"
 msgstr "Şûnde Bîne"
 
-#: app/mainwindow.cpp:429
+#: app/mainwindow.cpp:432
 #, fuzzy
 #| msgid "Recent Folders"
 msgid "Folders"
 msgstr "Peldankên Borî"
 
-#: app/mainwindow.cpp:435
+#: app/mainwindow.cpp:438
 #, fuzzy
 #| msgid "Meta Information"
 msgid "Information"
 msgstr "Agahiya Meta"
 
-#: app/mainwindow.cpp:444
+#: app/mainwindow.cpp:447
 #, fuzzy
 #| msgid "File Operations"
 msgid "Operations"
 msgstr "Xebatên Pelê"
 
-#: app/mainwindow.cpp:1222
+#: app/mainwindow.cpp:1225
 msgctxt "@title:window"
 msgid "Open Image"
 msgstr "Wêneyê Veke"
 
-#: app/mainwindow.cpp:1271
+#: app/mainwindow.cpp:1274
 msgid "Stop Slideshow"
 msgstr "Nîşandana-slaytê Rawestîne"
 
-#: app/mainwindow.cpp:1274
+#: app/mainwindow.cpp:1277
 msgid "Start Slideshow"
 msgstr "Nîşandana-slaytê Bide Destpêkirin"
 
-#: app/mainwindow.cpp:1298
+#: app/mainwindow.cpp:1301
 msgid "Save All Changes"
 msgstr "Hemû Guherandinan Tomar Bike"
 
-#: app/mainwindow.cpp:1299
+#: app/mainwindow.cpp:1302
 msgid "Discard Changes"
 msgstr "Guhertinan Jê Bibe"
 
-#: app/mainwindow.cpp:1300
+#: app/mainwindow.cpp:1303
 #, kde-format
 msgid "One image has been modified."
 msgid_plural "%1 images have been modified."
 msgstr[0] "Yek wêne hatiye guhertin."
 msgstr[1] "%1 wêne hatine guhertin."
 
-#: app/mainwindow.cpp:1302
+#: app/mainwindow.cpp:1305
 msgid "If you quit now, your changes will be lost."
 msgstr "Heke tu niha derkevî, guherandinên te dê winda bin."
 
@@ -992,10 +992,6 @@ msgstr "Taybetmendî"
 #: part/gvpart.cpp:118
 msgid "Gwenview KPart"
 msgstr "Gwenview KPart"
-
-#: part/gvpart.cpp:122
-msgid "Copyright 2000-2008 Aurélien Gâteau"
-msgstr "Copyright 2000-2008 Aurélien Gâteau"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -1759,6 +1755,9 @@ msgstr ""
 #: importer/filenameformater.cpp:107
 msgid "Original filename, in lower case"
 msgstr ""
+
+#~ msgid "Copyright 2000-2008 Aurélien Gâteau"
+#~ msgstr "Copyright 2000-2008 Aurélien Gâteau"
 
 #, fuzzy
 #~| msgid "Loading <filename>%1</filename> failed"
