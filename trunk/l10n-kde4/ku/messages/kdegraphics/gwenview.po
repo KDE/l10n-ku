@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gwenview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-12-27 06:06+0100\n"
+"POT-Creation-Date: 2010-01-08 06:12+0100\n"
 "PO-Revision-Date: 2009-01-22 22:46+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -86,7 +86,7 @@ msgid "Rename <filename>%1</filename> to:"
 msgstr "<filename>%1</filename>: %2"
 
 #: app/documentpanel.cpp:291 app/thumbnailviewpanel.cpp:105
-#: app/mainwindow.cpp:297 lib/documentview/documentview.cpp:123
+#: app/mainwindow.cpp:300 lib/documentview/documentview.cpp:123
 msgctxt "@title actions category - means actions changing smth in interface"
 msgid "View"
 msgstr "Bibîne"
@@ -171,7 +171,7 @@ msgid "Rating"
 msgstr "Nirxandin"
 
 #: app/thumbnailviewpanel.cpp:142 app/fileopscontextmanageritem.cpp:197
-#: app/mainwindow.cpp:296
+#: app/mainwindow.cpp:299
 msgctxt "@title actions category"
 msgid "File"
 msgstr "Pel"
@@ -189,62 +189,62 @@ msgid_plural "%1 documents"
 msgstr[0] "%1 belge"
 msgstr[1] "%1 belge"
 
-#: app/filtercontroller.cpp:121
+#: app/filtercontroller.cpp:124
 msgid "Name contains"
 msgstr "Nav dihundirîne"
 
-#: app/filtercontroller.cpp:122
+#: app/filtercontroller.cpp:125
 msgid "Name does not contain"
 msgstr "Nav nahundirîne"
 
-#: app/filtercontroller.cpp:220
+#: app/filtercontroller.cpp:223
 msgid "Date >="
 msgstr "Dîrok >="
 
-#: app/filtercontroller.cpp:221
+#: app/filtercontroller.cpp:224
 msgid "Date ="
 msgstr "Dîrok ="
 
-#: app/filtercontroller.cpp:222
+#: app/filtercontroller.cpp:225
 msgid "Date <="
 msgstr "Dîrok <="
 
-#: app/filtercontroller.cpp:308
+#: app/filtercontroller.cpp:311
 msgid "Rating >="
 msgstr "Nirxandin >="
 
-#: app/filtercontroller.cpp:309
+#: app/filtercontroller.cpp:312
 msgid "Rating ="
 msgstr "Nirxandin ="
 
-#: app/filtercontroller.cpp:310
+#: app/filtercontroller.cpp:313
 msgid "Rating <="
 msgstr "Nirxandin <="
 
-#: app/filtercontroller.cpp:402
+#: app/filtercontroller.cpp:405
 msgid "Tagged"
 msgstr "Etîketkirî"
 
-#: app/filtercontroller.cpp:403
+#: app/filtercontroller.cpp:406
 msgid "Not Tagged"
 msgstr "Ne Etîketkirî"
 
-#: app/filtercontroller.cpp:533
+#: app/filtercontroller.cpp:536
 msgctxt "@action:inmenu"
 msgid "Filter by Name"
 msgstr "Gorê Navê Parzûn Bike"
 
-#: app/filtercontroller.cpp:534
+#: app/filtercontroller.cpp:537
 msgctxt "@action:inmenu"
 msgid "Filter by Date"
 msgstr "Gorê Dîrokê Parzûn Bike"
 
-#: app/filtercontroller.cpp:536
+#: app/filtercontroller.cpp:543
 msgctxt "@action:inmenu"
 msgid "Filter by Rating"
 msgstr "Gorê Nirxandinê Parzûn Bike"
 
-#: app/filtercontroller.cpp:537
+#: app/filtercontroller.cpp:544
 msgctxt "@action:inmenu"
 msgid "Filter by Tag"
 msgstr "Gorê Etîketê Parzûn Bike"
@@ -683,116 +683,116 @@ msgstr "Guherandina Mezinahiya Wêne"
 msgid "Enter the new size of the image:"
 msgstr "Mezinahiya wêneyê ya nû têkevê:"
 
-#: app/mainwindow.cpp:306
+#: app/mainwindow.cpp:309
 msgctxt "@action reload the currently viewed image"
 msgid "Reload"
 msgstr "Nû Ve Bar Bike"
 
-#: app/mainwindow.cpp:312
+#: app/mainwindow.cpp:315
 msgctxt "@action Switch to file list"
 msgid "Browse"
 msgstr "Bigere"
 
-#: app/mainwindow.cpp:317
+#: app/mainwindow.cpp:320
 msgctxt "@action Switch to image view"
 msgid "View"
 msgstr "Bibîne"
 
-#: app/mainwindow.cpp:334
+#: app/mainwindow.cpp:337
 msgctxt "@action Go back to a more general page (start page <- list <- image)"
 msgid "Back"
 msgstr ""
 
-#: app/mainwindow.cpp:339
+#: app/mainwindow.cpp:342
 msgctxt "@action Go to previous image"
 msgid "Previous"
 msgstr "Paş"
 
-#: app/mainwindow.cpp:340
+#: app/mainwindow.cpp:343
 msgid "Go to Previous Image"
 msgstr "Biçe Wêneya Paş"
 
-#: app/mainwindow.cpp:345
+#: app/mainwindow.cpp:348
 msgctxt "@action Go to next image"
 msgid "Next"
 msgstr "Pêş"
 
-#: app/mainwindow.cpp:346
+#: app/mainwindow.cpp:349
 msgid "Go to Next Image"
 msgstr "Biçe Wêneya Pêş"
 
-#: app/mainwindow.cpp:354
+#: app/mainwindow.cpp:357
 msgctxt "@action"
 msgid "Start Page"
 msgstr "Rûpela Destpêkê"
 
-#: app/mainwindow.cpp:361
+#: app/mainwindow.cpp:364
 #, fuzzy
 #| msgid "Hide Sidebar"
 msgctxt "@action"
 msgid "Sidebar"
 msgstr "Darika-kêlekê Veşêre"
 
-#: app/mainwindow.cpp:386
+#: app/mainwindow.cpp:389
 msgctxt "@title actions category - means actions changing smth in interface"
 msgid "Edit"
 msgstr "Serast Bike"
 
-#: app/mainwindow.cpp:391
+#: app/mainwindow.cpp:394
 msgid "Redo"
 msgstr "Dîsa Bike"
 
-#: app/mainwindow.cpp:398
+#: app/mainwindow.cpp:401
 msgid "Undo"
 msgstr "Şûnde Bîne"
 
-#: app/mainwindow.cpp:434
+#: app/mainwindow.cpp:448
 #, fuzzy
 #| msgid "Recent Folders"
 msgid "Folders"
 msgstr "Peldankên Borî"
 
-#: app/mainwindow.cpp:440
+#: app/mainwindow.cpp:454
 #, fuzzy
 #| msgid "Meta Information"
 msgid "Information"
 msgstr "Agahiya Meta"
 
-#: app/mainwindow.cpp:449
+#: app/mainwindow.cpp:463
 #, fuzzy
 #| msgid "File Operations"
 msgid "Operations"
 msgstr "Xebatên Pelê"
 
-#: app/mainwindow.cpp:1253
+#: app/mainwindow.cpp:1267
 msgctxt "@title:window"
 msgid "Open Image"
 msgstr "Wêneyê Veke"
 
-#: app/mainwindow.cpp:1302
+#: app/mainwindow.cpp:1316
 msgid "Stop Slideshow"
 msgstr "Nîşandana-slaytê Rawestîne"
 
-#: app/mainwindow.cpp:1305
+#: app/mainwindow.cpp:1319
 msgid "Start Slideshow"
 msgstr "Nîşandana-slaytê Bide Destpêkirin"
 
-#: app/mainwindow.cpp:1329
+#: app/mainwindow.cpp:1343
 msgid "Save All Changes"
 msgstr "Hemû Guherandinan Tomar Bike"
 
-#: app/mainwindow.cpp:1330
+#: app/mainwindow.cpp:1344
 msgid "Discard Changes"
 msgstr "Guhertinan Jê Bibe"
 
-#: app/mainwindow.cpp:1331
+#: app/mainwindow.cpp:1345
 #, kde-format
 msgid "One image has been modified."
 msgid_plural "%1 images have been modified."
 msgstr[0] "Yek wêne hatiye guhertin."
 msgstr[1] "%1 wêne hatine guhertin."
 
-#: app/mainwindow.cpp:1333
+#: app/mainwindow.cpp:1347
 msgid "If you quit now, your changes will be lost."
 msgstr "Heke tu niha derkevî, guherandinên te dê winda bin."
 
