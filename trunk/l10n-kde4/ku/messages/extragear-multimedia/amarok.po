@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-01-23 07:11+0100\n"
+"POT-Creation-Date: 2010-01-26 06:24+0100\n"
 "PO-Revision-Date: 2009-02-21 06:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -25,7 +25,7 @@ msgstr ""
 
 #: mac/GrowlInterface.cpp:37 context/engines/current/CurrentEngine.cpp:150
 #: context/applets/currenttrack/CurrentTrack.cpp:127
-#: context/applets/photos/PhotosApplet.cpp:132 App.cpp:1099
+#: context/applets/photos/PhotosApplet.cpp:132 App.cpp:1103
 #: widgets/Osd.cpp:578
 msgid "No track playing"
 msgstr "Tu Stran Nayê Lêdan"
@@ -583,13 +583,6 @@ msgctxt "(Large front) Cover of an album"
 msgid "large"
 msgstr ""
 
-#: collection/sqlcollection/ScanResultProcessor.cpp:224
-#, fuzzy
-#| msgid "Folder"
-msgctxt "(Front) Cover of an album"
-msgid "folder"
-msgstr "Peldank"
-
 #. i18n: file: dialogs/OrganizeCollectionDialogBase.ui:20
 #. i18n: ectx: property (windowTitle), widget (QWidget, OrganizeCollectionDialogBase)
 #: collection/sqlcollection/SqlCollectionLocation.cpp:155 rc.cpp:842
@@ -607,7 +600,7 @@ msgstr "nekarî %1 bixebitîne"
 msgid "Transferring: %1"
 msgstr "Diguhezîne: %1"
 
-#: collection/sqlcollection/ScanManager.cpp:527
+#: collection/sqlcollection/ScanManager.cpp:523
 msgid ""
 "<p>Sorry, the collection scan had to be aborted.</p><p>Too many errors were "
 "encountered during the scan.</p>"
@@ -615,18 +608,18 @@ msgstr ""
 "<p>Ji ber ku gelekî çewtî çêbû karê venihartina berhevokan hate bi dawî "
 "kirin.</p>"
 
-#: collection/sqlcollection/ScanManager.cpp:528
+#: collection/sqlcollection/ScanManager.cpp:524
 msgid "Collection Scan Error"
 msgstr "Çewtiya Venihartina Berhevokê"
 
-#: collection/sqlcollection/ScanManager.cpp:647
+#: collection/sqlcollection/ScanManager.cpp:644
 msgid "Scanning music"
 msgstr "Muzîkê dinihêre"
 
-#: collection/sqlcollection/ScanManager.cpp:742
+#: collection/sqlcollection/ScanManager.cpp:739
 #: dialogs/OrganizeCollectionDialog.cpp:144
 #: browsers/CollectionTreeItem.cpp:198 covermanager/CoverFoundDialog.cpp:209
-#: covermanager/CoverViewDialog.h:45 covermanager/CoverManager.cpp:853
+#: covermanager/CoverViewDialog.h:45 covermanager/CoverManager.cpp:847
 msgid "Various Artists"
 msgstr "Hunermendên cur bi cur"
 
@@ -638,7 +631,7 @@ msgstr "Darijîne "
 
 #: collection/sqlcollection/SqlMeta.cpp:241
 #: services/lastfm/meta/LastFmMeta.cpp:137 covermanager/CoverViewDialog.h:44
-#: covermanager/CoverManager.cpp:853
+#: covermanager/CoverManager.cpp:847
 #, kde-format
 msgid "%1 - %2"
 msgstr "%1 - %2"
@@ -651,7 +644,7 @@ msgstr ""
 #: collection/audiocd/AudioCdCollection.cpp:414
 #: collection/audiocd/AudioCdCollection.cpp:415
 #: collection/audiocd/AudioCdCollection.cpp:416
-#: context/applets/albums/AlbumItem.cpp:73 MainWindow.cpp:1167
+#: context/applets/albums/AlbumItem.cpp:73 MainWindow.cpp:1191
 #: amarokurls/BookmarkTreeView.cpp:378 amarokurls/BookmarkTreeView.cpp:379
 #: amarokurls/BookmarkTreeView.cpp:380
 msgid "Unknown"
@@ -1143,6 +1136,7 @@ msgstr "Ji ve perçeyê hez bike"
 
 #: context/applets/albums/AlbumsView.cpp:112
 #: browsers/CollectionTreeView.cpp:832
+#: browsers/filebrowser/FileTreeView.cpp:89
 #: browsers/filebrowser/MyDirOperator.cpp:315
 #: browsers/playlistbrowser/UserPlaylistModel.cpp:585
 #: browsers/playlistbrowser/PodcastModel.cpp:976
@@ -1154,6 +1148,7 @@ msgstr "lîsteya lêdanê"
 
 #: context/applets/albums/AlbumsView.cpp:113
 #: browsers/CollectionTreeView.cpp:841
+#: browsers/filebrowser/FileTreeView.cpp:98
 #: browsers/filebrowser/MyDirOperator.cpp:316
 #: browsers/playlistbrowser/UserPlaylistModel.cpp:592
 #: browsers/playlistbrowser/PodcastModel.cpp:988
@@ -2500,7 +2495,7 @@ msgstr ""
 msgid "Error saving preset"
 msgstr "Pêş-avakirinan bi rê ve bibe"
 
-#: dialogs/ScriptManager.cpp:106 MainWindow.cpp:787
+#: dialogs/ScriptManager.cpp:106 MainWindow.cpp:811
 msgid "Script Manager"
 msgstr "Rêveberê Skrîptê"
 
@@ -2711,130 +2706,130 @@ msgstr ""
 msgid "Verbosity from 0-3 (highest)"
 msgstr ""
 
-#: App.cpp:775
+#: App.cpp:774
 msgid ""
 "The embedded database was not found; you must set up a database server "
 "connection.\n"
 "You must restart Amarok after doing this."
 msgstr ""
 
-#: App.cpp:776
+#: App.cpp:775
 msgid ""
 "The connection details for the database server were invalid.\n"
 "You must enter correct settings and restart Amarok after doing this."
 msgstr ""
 
-#: App.cpp:777
+#: App.cpp:776
 #, fuzzy
 #| msgid "Database Name"
 msgid "Database Error"
 msgstr "Navê Bingeha Dana"
 
-#: App.cpp:794
+#: App.cpp:793
 #, kde-format
 msgid ""
 "A music path, %1, is set in System Settings.\n"
 "Would you like to use that as a collection folder?"
 msgstr ""
 
-#: App.cpp:843
+#: App.cpp:836
 msgid ""
 "<p>The version of the 'amarokcollectionscanner' tool\n"
 "does not match your Amarok version.</p><p>Please note that Collection "
 "Scanning may not work correctly.</p>"
 msgstr ""
 
-#: App.cpp:873
+#: App.cpp:877
 msgid "Moving files to trash"
 msgstr "Pelan bavêje sergo"
 
-#: App.cpp:971
+#: App.cpp:975
 #, fuzzy
 #| msgid "Unknown"
 msgctxt "When this track was last played"
 msgid "Unknown"
 msgstr "Nenas"
 
-#: App.cpp:976
+#: App.cpp:980
 #, kde-format
 msgctxt "monthname year"
 msgid "%1 %2"
 msgstr "%1 %2"
 
-#: App.cpp:983
+#: App.cpp:987
 #, kde-format
 msgid "One week ago"
 msgid_plural "%1 weeks ago"
 msgstr[0] "Yek Hefte Berê"
 msgstr[1] "%1 hefte berê"
 
-#: App.cpp:989
+#: App.cpp:993
 msgid "Yesterday"
 msgstr "Do"
 
-#: App.cpp:990
+#: App.cpp:994
 #, kde-format
 msgid "One day ago"
 msgid_plural "%1 days ago"
 msgstr[0] "Rojek berê"
 msgstr[1] "%1 rojan berê"
 
-#: App.cpp:993
+#: App.cpp:997
 #, kde-format
 msgid "One hour ago"
 msgid_plural "%1 hours ago"
 msgstr[0] "Saetek berê"
 msgstr[1] "%1 saetan berê"
 
-#: App.cpp:999
+#: App.cpp:1003
 #, kde-format
 msgid "One minute ago"
 msgid_plural "%1 minutes ago"
 msgstr[0] "Yek xulek berê"
 msgstr[1] "%1 xulekan berê"
 
-#: App.cpp:1000
+#: App.cpp:1004
 msgid "Within the last minute"
 msgstr "Xulekek berê"
 
-#: App.cpp:1002
+#: App.cpp:1006
 msgid "The future"
 msgstr "Dahatû"
 
-#: App.cpp:1008
+#: App.cpp:1012
 msgctxt "The amount of time since last played"
 msgid "Never"
 msgstr "Tu car"
 
-#: App.cpp:1018
+#: App.cpp:1022
 msgctxt "The amount of time since last played"
 msgid "0"
 msgstr "0"
 
-#: App.cpp:1027
+#: App.cpp:1031
 #, kde-format
 msgctxt "number of months ago"
 msgid "%1M"
 msgstr "%1M"
 
-#: App.cpp:1031
+#: App.cpp:1035
 #, kde-format
 msgctxt "w for weeks"
 msgid "%1w"
 msgstr "%1h"
 
-#: App.cpp:1034
+#: App.cpp:1038
 msgctxt "When this track was last played"
 msgid "Tomorrow"
 msgstr "Sibeyê"
 
-#: App.cpp:1040
+#: App.cpp:1044
 #, no-c-format, kde-format
 msgctxt "d for days"
 msgid "%1d"
 msgstr "%1r"
 
-#: App.cpp:1043
+#: App.cpp:1047
 #, kde-format
 msgctxt "h for hours"
 msgid "%1h"
@@ -2862,34 +2857,34 @@ msgstr "%1s"
 #. i18n: ectx: property (text), widget (QLabel, eqBand8Value)
 #. i18n: file: dialogs/EqualizerDialog.ui:1226
 #. i18n: ectx: property (text), widget (QLabel, eqBand9Value)
-#: App.cpp:1052 rc.cpp:1276 rc.cpp:1282 rc.cpp:1288 rc.cpp:1294 rc.cpp:1300
+#: App.cpp:1056 rc.cpp:1276 rc.cpp:1282 rc.cpp:1288 rc.cpp:1294 rc.cpp:1300
 #: rc.cpp:1306 rc.cpp:1312 rc.cpp:1318 rc.cpp:1324 rc.cpp:1330 rc.cpp:1336
 msgid "0"
 msgstr "0"
 
-#: App.cpp:1069
+#: App.cpp:1073
 #, kde-format
 msgctxt "track by artist on album"
 msgid "<b>%1</b> by <b>%2</b> on <b>%3</b>"
 msgstr "<b>%1</b> alî yê <b>%2</b> di <b>%3</b> de"
 
-#: App.cpp:1072
+#: App.cpp:1076
 #, kde-format
 msgctxt "track by artist"
 msgid "<b>%1</b> by <b>%2</b>"
 msgstr "<b>%1</b> alî yê <b>%2</b>"
 
-#: App.cpp:1076
+#: App.cpp:1080
 #, kde-format
 msgctxt "track on album"
 msgid "<b>%1</b> on <b>%2</b>"
 msgstr "<b>%1</b> di <b>%2</b> de"
 
-#: App.cpp:1081
+#: App.cpp:1085
 msgid "Unknown track"
 msgstr "Strana nenas"
 
-#: App.cpp:1088
+#: App.cpp:1092
 #, fuzzy, kde-format
 #| msgid " on <b>%1</b>"
 msgctxt "track from source"
@@ -3367,7 +3362,7 @@ msgstr ""
 msgid "unknown type"
 msgstr "Sernavê Nenas"
 
-#: equalizersetup.cpp:61 MainWindow.cpp:766
+#: equalizersetup.cpp:61 MainWindow.cpp:790
 msgid "Equalizer"
 msgstr "Yeksanker "
 
@@ -3557,7 +3552,7 @@ msgstr "Hevgirtî:"
 msgid "Current Track"
 msgstr "Ji ve perçeyê hez bike"
 
-#: dynamic/biases/EchoNest.cpp:116 MainWindow.cpp:274
+#: dynamic/biases/EchoNest.cpp:116 MainWindow.cpp:276
 msgid "Playlist"
 msgstr "Lîsteya Lêdanê"
 
@@ -4406,8 +4401,14 @@ msgid ""
 "audio players and cd's."
 msgstr ""
 
+#: browsers/filebrowser/FileBrowserMkII.cpp:38
+#, fuzzy
+#| msgid "Delete Files"
+msgid "Filter Files"
+msgstr "Pelan Jê Bibe"
+
 #: browsers/filebrowser/FileBrowser.cpp:78 widgets/SearchWidget.cpp:66
-#: covermanager/CoverManager.cpp:176
+#: covermanager/CoverManager.cpp:166
 msgid "Enter search terms here"
 msgstr "Gotinekê lêgerînê têkevê"
 
@@ -4628,7 +4629,7 @@ msgstr "Podcast &Lê Zêde Bike"
 #: browsers/playlistbrowser/PodcastModel.cpp:604
 #, fuzzy
 #| msgid "Enter Stream URL:"
-msgid "Enter RSS 2.0 feed URL:"
+msgid "Enter RSS 1.0/2.0 or Atom feed URL:"
 msgstr "Darêja URL yê Bikeve:"
 
 #: browsers/playlistbrowser/PodcastModel.cpp:1008
@@ -4839,53 +4840,59 @@ msgid_plural "%1 tracks"
 msgstr[0] "%1 stran"
 msgstr[1] "%1 stranan "
 
-#: MainWindow.cpp:262
+#: MainWindow.cpp:264
 #, fuzzy
 #| msgid "File Extension of Source"
 msgid "Media Sources"
 msgstr "Pêveka Dosiya Çavkaniyê"
 
-#: MainWindow.cpp:295
+#: MainWindow.cpp:297
 #, fuzzy
 #| msgid "Center"
 msgid "Context"
 msgstr "Navîn"
 
-#: MainWindow.cpp:323
+#: MainWindow.cpp:325
 msgid "Local Music"
 msgstr ""
 
-#: MainWindow.cpp:325
+#: MainWindow.cpp:327
 msgid "Local sources of content"
 msgstr ""
 
-#: MainWindow.cpp:333
+#: MainWindow.cpp:335
 msgid "Internet"
 msgstr "Tor"
 
-#: MainWindow.cpp:335
+#: MainWindow.cpp:337
 msgid "Online sources of content"
 msgstr ""
 
-#: MainWindow.cpp:341
+#: MainWindow.cpp:343
 msgid "Playlists"
 msgstr "lîsteya lêdanê"
 
-#: MainWindow.cpp:343
+#: MainWindow.cpp:345
 #, fuzzy
 #| msgid "Various Artists"
 msgid "Various types of playlists"
 msgstr "Hunermendên cur bi cur"
 
-#: MainWindow.cpp:350
+#: MainWindow.cpp:352
 msgid "Files"
 msgstr "Pel"
 
-#: MainWindow.cpp:352
+#: MainWindow.cpp:354 MainWindow.cpp:363
 msgid "Browse local hard drive for content"
 msgstr ""
 
-#: MainWindow.cpp:421
+#: MainWindow.cpp:361
+#, fuzzy
+#| msgid "Files"
+msgid "Files MkII"
+msgstr "Pel"
+
+#: MainWindow.cpp:435
 #, fuzzy
 #| msgctxt "@title buttontext for popup-menu"
 #| msgid "View"
@@ -4893,13 +4900,13 @@ msgctxt "@item:inmenu"
 msgid "&View"
 msgstr "Bergeh"
 
-#: MainWindow.cpp:424
+#: MainWindow.cpp:438
 #, fuzzy
 #| msgid "Layout"
 msgid "Lock layout"
 msgstr "Niştecih"
 
-#: MainWindow.cpp:535
+#: MainWindow.cpp:549
 msgid ""
 "<qt>Closing the main window will keep Amarok running in the System Tray. Use "
 "<B>Quit</B> from the menu, or the Amarok tray icon to exit the application.</"
@@ -4909,214 +4916,216 @@ msgstr ""
 "pêşekê an jî ji îkona sepanê ya di berkêşk de ne <B>Derkeve</B> bi kar bîne."
 "</qt>"
 
-#: MainWindow.cpp:537
+#: MainWindow.cpp:551
 msgid "Docking in System Tray"
 msgstr "Di Berkêşka Pergalê de Bicih be"
 
-#: MainWindow.cpp:555
+#: MainWindow.cpp:569
 msgid "Use relative path for &saving"
 msgstr "Pelrêça têkîldar bi kar bîne ji bo &tomarkirinê"
 
-#: MainWindow.cpp:566
+#: MainWindow.cpp:580
 msgid "Save As"
 msgstr "Cuda Tomar Bike"
 
-#: MainWindow.cpp:608
+#: MainWindow.cpp:622
 msgid "Play Media (Files or URLs)"
 msgstr "(Pelên an jî URLyên) Medya Lê Bide"
 
-#: MainWindow.cpp:608
+#: MainWindow.cpp:622
 msgid "Add Media (Files or URLs)"
 msgstr "(Pelên an jî URLyên) Medya Lê Zêde Bike"
 
-#: MainWindow.cpp:623
+#: MainWindow.cpp:637
 msgid "Add Stream"
 msgstr "Darêj Lê Zêde Bike"
 
-#: MainWindow.cpp:623
+#: MainWindow.cpp:637
 msgid "Enter Stream URL:"
 msgstr "Darêja URL yê Bikeve:"
 
-#: MainWindow.cpp:734
+#: MainWindow.cpp:758
 msgid "&Add Media..."
 msgstr "Medya &Lê zêde bike..."
 
-#: MainWindow.cpp:739
+#: MainWindow.cpp:763
 msgctxt "clear playlist"
 msgid "&Clear Playlist"
 msgstr "Lîsteya Lêdanê &Paqij Bike"
 
-#: MainWindow.cpp:743
+#: MainWindow.cpp:767
 #, fuzzy
 #| msgid "Remove Applet"
 msgctxt "Remove duplicate and dead (unplayable) tracks from the playlist"
 msgid "Re&move Duplicates"
 msgstr "Sepanok Rake"
 
-#: MainWindow.cpp:750
+#: MainWindow.cpp:774
 msgid "&Add Stream..."
 msgstr "Darêj &Lê zêde bike..."
 
-#: MainWindow.cpp:754
+#: MainWindow.cpp:778
 msgid "&Export Playlist As..."
 msgstr "Lîsteya lêdanê Cuda &Derxîne Derve"
 
-#: MainWindow.cpp:758 amarokurls/NavigationUrlGenerator.cpp:216
+#: MainWindow.cpp:782 amarokurls/NavigationUrlGenerator.cpp:216
 #, fuzzy
 #| msgid "Bookmark"
 msgid "Bookmark Media Sources View"
 msgstr "Bijare"
 
-#: MainWindow.cpp:762 amarokurls/BookmarkManager.cpp:43
+#: MainWindow.cpp:786 amarokurls/BookmarkManager.cpp:43
 #, fuzzy
 #| msgid "Cover Manager"
 msgid "Bookmark Manager"
 msgstr "Rêvebirê Rûgira Albuman"
 
-#: MainWindow.cpp:770 playlist/PlaylistViewUrlGenerator.cpp:101
+#: MainWindow.cpp:794 playlist/PlaylistViewUrlGenerator.cpp:101
 #, fuzzy
 #| msgid "Smart Playlist"
 msgid "Bookmark Playlist Setup"
 msgstr "Lîsteya Lêdanê ya Baqil"
 
-#: MainWindow.cpp:774
+#: MainWindow.cpp:798
 #, fuzzy
 #| msgid "Bookmark this Artist"
 msgid "Bookmark Context Applets"
 msgstr "Vê Hunermendê Bike Bijare"
 
-#: MainWindow.cpp:778 covermanager/CoverManager.cpp:100
+#: MainWindow.cpp:802 covermanager/CoverManager.cpp:102
 msgid "Cover Manager"
 msgstr "Rêvebirê Rûgira Albuman"
 
-#: MainWindow.cpp:782
+#: MainWindow.cpp:806
 msgid "Play Media..."
 msgstr "Medya Lê Bide..."
 
-#: MainWindow.cpp:791
+#: MainWindow.cpp:815
 msgid "&Seek Forward"
 msgstr "Pêşveçûna &Bilez"
 
-#: MainWindow.cpp:797
+#: MainWindow.cpp:821
 msgid "&Seek Backward"
 msgstr "Paşveçûna &Bilez"
 
-#: MainWindow.cpp:804
+#: MainWindow.cpp:828
 msgid "Update Collection"
 msgstr "Berhevokê Rojane Bike"
 
-#: MainWindow.cpp:811 widgets/MainControlsWidget.cpp:62
+#: MainWindow.cpp:835 widgets/MainControlsWidget.cpp:62
 msgid "Previous Track"
 msgstr "Strana Berê"
 
-#: MainWindow.cpp:817
+#: MainWindow.cpp:841
 #, fuzzy
 #| msgid "Repeat Playlist"
 msgid "Repopulate Playlist"
 msgstr "Lîsteya Lêdanê Dubare Bike"
 
-#: MainWindow.cpp:831 widgets/MainControlsWidget.cpp:86
+#: MainWindow.cpp:855 widgets/MainControlsWidget.cpp:86
 msgid "Next Track"
 msgstr "Strana Pêş"
 
-#: MainWindow.cpp:834
+#: MainWindow.cpp:858
 msgid "Increase Volume"
 msgstr "Dengê Bilintir Bike"
 
-#: MainWindow.cpp:840
+#: MainWindow.cpp:864
 msgid "Decrease Volume"
 msgstr "Dengê Kêmtir Bike"
 
-#: MainWindow.cpp:846
+#: MainWindow.cpp:870
 msgid "Toggle Main Window"
 msgstr "Paceya Mak Veke/Bigire"
 
-#: MainWindow.cpp:851
+#: MainWindow.cpp:875
 #, fuzzy
 #| msgid "Toggle Focus"
 msgid "Toggle Full Screen"
 msgstr "Nîvend Bike"
 
-#: MainWindow.cpp:856
+#: MainWindow.cpp:880
 msgid "Jump to"
 msgstr ""
 
-#: MainWindow.cpp:861
-msgid "Show On Screen Display"
-msgstr "Li Ser Nîşana Dîmenê Nîşan Bide"
+#: MainWindow.cpp:885
+#, fuzzy
+#| msgid "Location:"
+msgid "Show Notification Popup"
+msgstr "Cih:"
 
-#: MainWindow.cpp:866
+#: MainWindow.cpp:890
 msgid "Mute Volume"
 msgstr "Bêdeng Bike"
 
-#: MainWindow.cpp:871
+#: MainWindow.cpp:895
 #, fuzzy
 #| msgid "Love Current Track"
 msgid "Last.fm: Love Current Track"
 msgstr "Ji ve perçeyê hez bike"
 
-#: MainWindow.cpp:876
+#: MainWindow.cpp:900
 #, fuzzy
 #| msgid "Love Current Track"
 msgid "Last.fm: Ban Current Track"
 msgstr "Ji ve perçeyê hez bike"
 
-#: MainWindow.cpp:881
+#: MainWindow.cpp:905
 #, fuzzy
 #| msgid "Love Current Track"
 msgid "Last.fm: Skip Current Track"
 msgstr "Ji ve perçeyê hez bike"
 
-#: MainWindow.cpp:886 playlist/view/PlaylistViewCommon.cpp:128
+#: MainWindow.cpp:910 playlist/view/PlaylistViewCommon.cpp:128
 msgid "Queue Track"
 msgstr "Stran Rêz Kirî"
 
-#: MainWindow.cpp:891
+#: MainWindow.cpp:915
 msgid "Rate Current Track: 1"
 msgstr "Ray Bide Strana Lêdide: 1 "
 
-#: MainWindow.cpp:896
+#: MainWindow.cpp:920
 msgid "Rate Current Track: 2"
 msgstr "Ray Bide Strana Lêdide: 2"
 
-#: MainWindow.cpp:901
+#: MainWindow.cpp:925
 msgid "Rate Current Track: 3"
 msgstr "Ray Bide Strana Lêdide: 3"
 
-#: MainWindow.cpp:906
+#: MainWindow.cpp:930
 msgid "Rate Current Track: 4"
 msgstr "Ray Bide Strana Lêdide: 4"
 
-#: MainWindow.cpp:911
+#: MainWindow.cpp:935
 msgid "Rate Current Track: 5"
 msgstr "Ray Bide Strana Lêdide: 5"
 
-#: MainWindow.cpp:971
+#: MainWindow.cpp:995
 msgid "&Music"
 msgstr "&Muzîk"
 
-#: MainWindow.cpp:975
+#: MainWindow.cpp:999
 msgid "&Amarok"
 msgstr "&Amarok"
 
-#: MainWindow.cpp:994
+#: MainWindow.cpp:1018
 msgid "&Playlist"
 msgstr "&Lîsteya lêdanê"
 
-#: MainWindow.cpp:1010
+#: MainWindow.cpp:1034
 msgid "&Tools"
 msgstr "&Amûr"
 
-#: MainWindow.cpp:1022
+#: MainWindow.cpp:1046
 msgid "&Settings"
 msgstr "&Mîheng"
 
-#: MainWindow.cpp:1148
+#: MainWindow.cpp:1172
 #, kde-format
 msgid "Paused  ::  %1"
 msgstr "Hate Sekinandin  ::  %1"
 
-#: MainWindow.cpp:1167
+#: MainWindow.cpp:1191
 #, kde-format
 msgid "%1 - %2  ::  %3"
 msgstr "%1 - %2  ::  %3"
@@ -8239,8 +8248,8 @@ msgid ""
 "p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\"><a href=\"https://"
-"magnatune.com/buy/gc_buy_pp.php\"><span style=\" text-decoration: underline; "
-"color:#0000ff;\">Click here to buy gift cards</span></a></p></body></html>"
+"magnatune.com/buy/gc_buy\"><span style=\" text-decoration: underline; color:"
+"#0000ff;\">Click here to buy gift cards</span></a></p></body></html>"
 msgstr ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
 "REC-html40/strict.dtd\">\n"
@@ -8663,7 +8672,7 @@ msgstr ""
 msgid "Peak acceleration: "
 msgstr ""
 
-#: KNotificationBackend.cpp:100
+#: KNotificationBackend.cpp:110
 #, fuzzy
 #| msgid "No track playing"
 msgid "Now playing"
@@ -10410,18 +10419,15 @@ msgstr[0] "%1 stran"
 msgstr[1] "%1 stran"
 
 #: statusbar/ProgressBar.cpp:47 statusbar/CompoundProgressBar.cpp:68
-#: statusbar/CompoundProgressBar.cpp:139 statusbar/CompoundProgressBar.cpp:175
-#: covermanager/CoverManager.cpp:227
+#: statusbar/CompoundProgressBar.cpp:149
 msgid "Abort"
 msgstr "Betal"
 
-#: statusbar/CompoundProgressBar.cpp:72 statusbar/CompoundProgressBar.cpp:143
-#: statusbar/CompoundProgressBar.cpp:179
+#: statusbar/CompoundProgressBar.cpp:72 statusbar/CompoundProgressBar.cpp:162
 msgid "Multiple background tasks running"
 msgstr ""
 
-#: statusbar/CompoundProgressBar.cpp:73 statusbar/CompoundProgressBar.cpp:144
-#: statusbar/CompoundProgressBar.cpp:180
+#: statusbar/CompoundProgressBar.cpp:73 statusbar/CompoundProgressBar.cpp:163
 #, fuzzy
 #| msgid "Abort all background operations"
 msgid "Abort all background tasks"
@@ -10619,13 +10625,14 @@ msgid "0%"
 msgstr "%0"
 
 #: widgets/SliderWidget.cpp:472
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Group Radio: %1"
 msgctxt ""
 "Tooltip shown when the mouse is over the progress slider, representing the "
-"position in the currently playing track that amarok will seek to if you "
-"click the mouse. Keep it short and consice."
-msgid "Track position under cursor: %1"
-msgstr ""
+"position in the currently playing track that Amarok will seek to if you "
+"click the mouse. Keep it concise."
+msgid "Jump to: %1"
+msgstr "Koma Radyo: %1"
 
 #: widgets/TokenWithLayout.cpp:242
 msgid "[prefix]"
@@ -10920,153 +10927,161 @@ msgstr[1] ""
 msgid "Select Cover Image File"
 msgstr "Pela Wêneya Rûgirê Albumê Hilbijêre"
 
-#: covermanager/CoverFetcher.cpp:120
+#: covermanager/CoverFetcher.cpp:119
 #, fuzzy
 #| msgid "No cover found"
 msgid "No covers found."
 msgstr "Tu rûgirê albumê nehat dîtin."
 
-#: covermanager/CoverFetcher.cpp:138
+#: covermanager/CoverFetcher.cpp:137
 msgid "Fetching Cover"
 msgstr "Rûgirê Albumê Tê Anîn"
 
-#: covermanager/CoverFetcher.cpp:156
+#: covermanager/CoverFetcher.cpp:155
 #, fuzzy
 #| msgid "There was an error communicating with Amazon."
 msgid "There was an error communicating with last.fm."
 msgstr "Di têkiliya bi Amazon re de çewtî çê bû."
 
-#: covermanager/CoverFetcher.cpp:261
+#: covermanager/CoverFetcher.cpp:251
 #, fuzzy, kde-format
 #| msgid "Retrieved cover successfully"
 msgid "Retrieved cover successfully for '%1'."
 msgstr "Cardin anîna rûgirê serfiraz bû"
 
-#: covermanager/CoverFetcher.cpp:269
+#: covermanager/CoverFetcher.cpp:259
 #, fuzzy, kde-format
 #| msgid "Fetching cover for %1..."
 msgid "Fetching cover for '%1' failed."
 msgstr "Rûgir tê anîn ji bo %1..."
 
-#: covermanager/CoverFetcher.cpp:277
+#: covermanager/CoverFetcher.cpp:267
 #, fuzzy, kde-format
 #| msgid "Fetching cover for %1..."
 msgid "Canceled fetching cover for '%1'."
 msgstr "Rûgir tê anîn ji bo %1..."
 
-#: covermanager/CoverFetcher.cpp:284
+#: covermanager/CoverFetcher.cpp:274
 #, fuzzy, kde-format
 #| msgid "Fetching cover for %1..."
 msgid "Unable to find a cover for '%1'."
 msgstr "Rûgir tê anîn ji bo %1..."
 
-#: covermanager/CoverManager.cpp:106
+#: covermanager/CoverManager.cpp:108
 msgid "Albums By"
 msgstr "Çêkerê Albumê"
 
-#: covermanager/CoverManager.cpp:116
+#: covermanager/CoverManager.cpp:118
 msgid "All Artists"
 msgstr "Hemû Hunermend"
 
-#: covermanager/CoverManager.cpp:189
+#: covermanager/CoverManager.cpp:179
 msgid "All Albums"
 msgstr "Hemû Album"
 
-#: covermanager/CoverManager.cpp:190
+#: covermanager/CoverManager.cpp:180
 msgid "Albums With Cover"
 msgstr "Albumên Bi Rûgir"
 
-#: covermanager/CoverManager.cpp:191
+#: covermanager/CoverManager.cpp:181
 msgid "Albums Without Cover"
 msgstr "Albumên Bê Rûgir"
 
-#: covermanager/CoverManager.cpp:204
+#: covermanager/CoverManager.cpp:194
 msgid "Fetch Missing Covers"
 msgstr "Rûgirên Kêm Bîne"
 
-#: covermanager/CoverManager.cpp:374
-msgid "Loading Thumbnails..."
-msgstr "Wêneyên Biçûk Têne Barkirin..."
+#: covermanager/CoverManager.cpp:318
+#, fuzzy
+#| msgid "Fetching content.."
+msgid "Fetching"
+msgstr "Naverokê tîne..."
 
-#: covermanager/CoverManager.cpp:659
+#: covermanager/CoverManager.cpp:419
+#, fuzzy
+#| msgid "Rating"
+msgid "Loading"
+msgstr "Nirxandin"
+
+#: covermanager/CoverManager.cpp:651
 msgctxt "The fetching is done."
 msgid "Finished."
 msgstr "Bi dawî bû."
 
-#: covermanager/CoverManager.cpp:661
+#: covermanager/CoverManager.cpp:653
 #, kde-format
 msgid " Cover not found"
 msgid_plural " <b>%1</b> covers not found"
 msgstr[0] "Rûgir nehat dîtin"
 msgstr[1] "<b>%1</b> rûgir nehatin dîtin"
 
-#: covermanager/CoverManager.cpp:678
+#: covermanager/CoverManager.cpp:671
 #, kde-format
 msgid "Fetching cover for %1 - %2..."
 msgstr "Rûgir tê anîn ji bo %1 - %2..."
 
-#: covermanager/CoverManager.cpp:684
+#: covermanager/CoverManager.cpp:677
 #, kde-format
 msgid "Fetching cover for %1..."
 msgstr "Rûgir tê anîn ji bo %1..."
 
-#: covermanager/CoverManager.cpp:690
+#: covermanager/CoverManager.cpp:683
 #, kde-format
 msgid "Fetching 1 cover: "
 msgid_plural "Fetching <b>%1</b> covers... : "
 msgstr[0] "1 rûgir tê anîn:"
 msgstr[1] "<b>%1</b> rûgir tên anîn... :"
 
-#: covermanager/CoverManager.cpp:692
+#: covermanager/CoverManager.cpp:685
 #, kde-format
 msgid "1 fetched"
 msgid_plural "%1 fetched"
 msgstr[0] "1 hat anîn"
 msgstr[1] "%1 hatin anîn"
 
-#: covermanager/CoverManager.cpp:696
+#: covermanager/CoverManager.cpp:689
 msgid " - "
 msgstr " - "
 
-#: covermanager/CoverManager.cpp:697
+#: covermanager/CoverManager.cpp:690
 #, kde-format
 msgid "1 not found"
 msgid_plural "%1 not found"
 msgstr[0] "1 nehat dîtin"
 msgstr[1] "%1 nehatin dîtin"
 
-#: covermanager/CoverManager.cpp:700
+#: covermanager/CoverManager.cpp:693
 msgid "Connecting..."
 msgstr "Tê girêdan..."
 
-#: covermanager/CoverManager.cpp:726
+#: covermanager/CoverManager.cpp:716
 #, kde-format
 msgid "1 result for \"%2\""
 msgid_plural "%1 results for \"%2\""
 msgstr[0] "1 encam ji bo \"%2\""
 msgstr[1] "%1 encam ji bo \"%2\""
 
-#: covermanager/CoverManager.cpp:730
+#: covermanager/CoverManager.cpp:720
 #, kde-format
 msgid "1 album"
 msgid_plural "%1 albums"
 msgstr[0] "1 album"
 msgstr[1] "%1 album"
 
-#: covermanager/CoverManager.cpp:742
+#: covermanager/CoverManager.cpp:732
 msgid " by "
 msgstr "a"
 
-#: covermanager/CoverManager.cpp:747
+#: covermanager/CoverManager.cpp:737
 #, kde-format
 msgid " - ( <b>%1</b> without cover )"
 msgstr " - ( <b>%1</b> bê rûgir )"
 
-#: covermanager/CoverManager.cpp:795
+#: covermanager/CoverManager.cpp:788
 msgid "Cover Image"
 msgstr "Wêneya Rûgirê"
 
-#: covermanager/CoverManager.cpp:873
+#: covermanager/CoverManager.cpp:867
 msgid "No Artist"
 msgstr "Hunermend Tune ye "
 
@@ -11087,6 +11102,18 @@ msgstr "Lê zêde bike && &Lê bide"
 msgid "&Queue Track"
 msgstr "&Rêza Stranan"
 
+#, fuzzy
+#~| msgid "Folder"
+#~ msgctxt "(Front) Cover of an album"
+#~ msgid "folder"
+#~ msgstr "Peldank"
+
+#~ msgid "Show On Screen Display"
+#~ msgstr "Li Ser Nîşana Dîmenê Nîşan Bide"
+
+#~ msgid "Loading Thumbnails..."
+#~ msgstr "Wêneyên Biçûk Têne Barkirin..."
+
 #~ msgid "Go to artist in %1 service"
 #~ msgstr "Biçe hunermenda di servîsa %1 de"
 
@@ -11098,11 +11125,6 @@ msgstr "&Rêza Stranan"
 #~ msgctxt "From one date to another, this text is in between"
 #~ msgid "to"
 #~ msgstr "Rawestîne"
-
-#, fuzzy
-#~| msgid "Fetching content.."
-#~ msgid "Fetching"
-#~ msgstr "Naverokê tîne..."
 
 #, fuzzy
 #~ msgid "Configure"
