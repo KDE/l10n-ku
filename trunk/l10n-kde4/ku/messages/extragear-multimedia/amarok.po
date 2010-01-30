@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-01-29 06:18+0100\n"
+"POT-Creation-Date: 2010-01-30 06:23+0100\n"
 "PO-Revision-Date: 2009-02-21 06:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -129,22 +129,22 @@ msgstr "Lîsteya Lêdanê ya Dînamîk a Wekî Heyî"
 msgid "Cannot write playlist (%1)."
 msgstr "lîsteya lêdanê nehate nivisandin (%1)."
 
-#: meta/PlaylistFileSupport.cpp:89
+#: meta/PlaylistFileSupport.cpp:91
 #, kde-format
 msgid "Cannot read playlist (%1)."
 msgstr "Nikare lîsteya lêdanê (%1) bixwîne."
 
-#: meta/PlaylistFileSupport.cpp:106
+#: meta/PlaylistFileSupport.cpp:109
 msgid "Could not create a temporary file to download playlist."
 msgstr ""
 
-#: meta/PlaylistFileSupport.cpp:119
+#: meta/PlaylistFileSupport.cpp:124
 #, fuzzy
 #| msgid "Downloading Playlist"
 msgid "Downloading remote playlist"
 msgstr "Lîsteya Lêdanê Daxistin"
 
-#: meta/PlaylistFileSupport.cpp:202
+#: meta/PlaylistFileSupport.cpp:207
 #, kde-format
 msgid "Playlist_%1"
 msgstr "Lîsteya Lêdanê_%1"
@@ -582,6 +582,13 @@ msgstr "Herdem"
 msgctxt "(Large front) Cover of an album"
 msgid "large"
 msgstr ""
+
+#: collection/sqlcollection/ScanResultProcessor.cpp:224
+#, fuzzy
+#| msgid "Folder"
+msgctxt "(Front) Cover of an album"
+msgid "folder"
+msgstr "Peldank"
 
 #. i18n: file: dialogs/OrganizeCollectionDialogBase.ui:20
 #. i18n: ectx: property (windowTitle), widget (QWidget, OrganizeCollectionDialogBase)
@@ -1181,7 +1188,7 @@ msgstr[1] "%1 stranan "
 #: context/applets/lyrics/LyricsApplet.cpp:83
 #: context/applets/lyrics/LyricsApplet.cpp:229
 #: context/applets/lyrics/LyricsApplet.cpp:283
-#: context/applets/lyrics/LyricsApplet.cpp:294 dialogs/TagDialog.cpp:685
+#: context/applets/lyrics/LyricsApplet.cpp:294 dialogs/TagDialog.cpp:681
 msgid "Lyrics"
 msgstr "Gotin"
 
@@ -2147,132 +2154,132 @@ msgid ""
 "been discarded."
 msgstr "<b><font color='red'>Çewtî:</font></b> %1"
 
-#: dialogs/TagDialog.cpp:575
+#: dialogs/TagDialog.cpp:573
 msgid "Filename Layout Chooser"
 msgstr "Bijarkerê Bicihbûna Navê-pelê "
 
-#: dialogs/TagDialog.cpp:683 browsers/playlistbrowser/PodcastModel.cpp:452
+#: dialogs/TagDialog.cpp:679 browsers/playlistbrowser/PodcastModel.cpp:452
 msgid "Summary"
 msgstr "Kurte"
 
-#: dialogs/TagDialog.cpp:684
+#: dialogs/TagDialog.cpp:680
 msgid "Tags"
 msgstr "Etîket"
 
-#: dialogs/TagDialog.cpp:686
+#: dialogs/TagDialog.cpp:682
 msgid "Statistics"
 msgstr "Statistîk"
 
-#: dialogs/TagDialog.cpp:687
+#: dialogs/TagDialog.cpp:683
 msgid "Labels"
 msgstr "Etîket"
 
-#: dialogs/TagDialog.cpp:822
+#: dialogs/TagDialog.cpp:818
 msgctxt "The value for this tag is not known"
 msgid "Unknown"
 msgstr "Nenas"
 
-#: dialogs/TagDialog.cpp:878
+#: dialogs/TagDialog.cpp:874
 #, fuzzy
 #| msgid "Bookmark this Artist"
 msgid "Tracks by this Artist"
 msgstr "Vê Hunermendê Bike Bijare"
 
-#: dialogs/TagDialog.cpp:886
+#: dialogs/TagDialog.cpp:882
 #, fuzzy
 #| msgid "Album Artist"
 msgid "Albums by this Artist"
 msgstr "Hunermendê Albumê "
 
-#: dialogs/TagDialog.cpp:945
+#: dialogs/TagDialog.cpp:941
 #, kde-format
 msgid "Track Details: %1 by %2"
 msgstr "Kitekitên Stranê: %1 alî yê %2"
 
-#: dialogs/TagDialog.cpp:969 dialogs/TagDialog.cpp:979
+#: dialogs/TagDialog.cpp:965 dialogs/TagDialog.cpp:975
 #, kde-format
 msgid "<b>%1</b> by <b>%2</b>"
 msgstr "<b>%1</b> alî yê <b>%2</b>"
 
-#: dialogs/TagDialog.cpp:977
+#: dialogs/TagDialog.cpp:973
 #, kde-format
 msgid "<b>%1</b> by <b>%2</b> on <b>%3</b>"
 msgstr "<b>%1</b> alî yê <b>%2</b> di <b>%3</b> de"
 
-#: dialogs/TagDialog.cpp:981
+#: dialogs/TagDialog.cpp:977
 #, kde-format
 msgid "<b>%1</b>"
 msgstr "<b>%1</b>"
 
-#: dialogs/TagDialog.cpp:1024
+#: dialogs/TagDialog.cpp:1020
 msgid "Length:"
 msgstr "Mawe:"
 
-#: dialogs/TagDialog.cpp:1025
+#: dialogs/TagDialog.cpp:1021
 #, fuzzy
 #| msgid "Bitrate:"
 msgid "Bit rate:"
 msgstr "Leza bit:"
 
-#: dialogs/TagDialog.cpp:1026
+#: dialogs/TagDialog.cpp:1022
 #, fuzzy
 #| msgid "Samplerate:"
 msgid "Sample rate:"
 msgstr "Leza Mînak:"
 
-#: dialogs/TagDialog.cpp:1027
+#: dialogs/TagDialog.cpp:1023
 msgid "Size:"
 msgstr "Mezinahî:"
 
-#: dialogs/TagDialog.cpp:1028
+#: dialogs/TagDialog.cpp:1024
 msgid "Format:"
 msgstr "Teşe:"
 
 #. i18n: file: dialogs/TagDialogBase.ui:619
 #. i18n: ectx: property (text), widget (QLabel, scoreLabel)
-#: dialogs/TagDialog.cpp:1031 rc.cpp:977
+#: dialogs/TagDialog.cpp:1027 rc.cpp:977
 msgid "Score:"
 msgstr "Rewş:"
 
 #. i18n: file: dialogs/TagDialogBase.ui:648
 #. i18n: ectx: property (text), widget (QLabel, ratingLabel)
-#: dialogs/TagDialog.cpp:1033 rc.cpp:980
+#: dialogs/TagDialog.cpp:1029 rc.cpp:980
 msgid "Rating:"
 msgstr "Ecibandin:"
 
-#: dialogs/TagDialog.cpp:1035
+#: dialogs/TagDialog.cpp:1031
 msgid "Play Count:"
 msgstr "Hejmara Lêdanan  :"
 
-#: dialogs/TagDialog.cpp:1038
+#: dialogs/TagDialog.cpp:1034
 msgid "First Played:"
 msgstr "Lêdana Pêşîn:"
 
-#: dialogs/TagDialog.cpp:1039
+#: dialogs/TagDialog.cpp:1035
 msgctxt "When this track was first played"
 msgid "Never"
 msgstr "Tu car"
 
-#: dialogs/TagDialog.cpp:1040
+#: dialogs/TagDialog.cpp:1036
 msgctxt "a single item (singular)"
 msgid "Last Played:"
 msgstr "Lêdanên Dawî yê:"
 
-#: dialogs/TagDialog.cpp:1041
+#: dialogs/TagDialog.cpp:1037
 msgctxt "When this track was last played"
 msgid "Never"
 msgstr "Tu car"
 
-#: dialogs/TagDialog.cpp:1045
+#: dialogs/TagDialog.cpp:1041
 msgid "Collection:"
 msgstr "Berhevok:"
 
-#: dialogs/TagDialog.cpp:1047
+#: dialogs/TagDialog.cpp:1043
 msgctxt "The collection this track is part of"
 msgid "None"
 msgstr "Ne Yek Jî"
 
-#: dialogs/TagDialog.cpp:1170
+#: dialogs/TagDialog.cpp:1166
 #, kde-format
 msgctxt "The amount of tracks being edited"
 msgid "1 Track"
@@ -2280,30 +2287,30 @@ msgid_plural "Information for %1 Tracks"
 msgstr[0] "1 Track"
 msgstr[1] "Agahî ji bo %1 Stranan"
 
-#: dialogs/TagDialog.cpp:1300
+#: dialogs/TagDialog.cpp:1296
 #, kde-format
 msgid "Editing 1 file"
 msgid_plural "Editing %1 files"
 msgstr[0] "1 pel tê guherandin"
 msgstr[1] "%1 pel tên guherandin"
 
-#: dialogs/TagDialog.cpp:1305
+#: dialogs/TagDialog.cpp:1301
 msgid "Rated Songs:"
 msgstr "Stranên Ecibandî:"
 
-#: dialogs/TagDialog.cpp:1307
+#: dialogs/TagDialog.cpp:1303
 msgid "Average Rating:"
 msgstr "Ecibandina Kêm-zêde:"
 
-#: dialogs/TagDialog.cpp:1309
+#: dialogs/TagDialog.cpp:1305
 msgid "Scored Songs:"
 msgstr "Stranên Pêşniyazkirî:"
 
-#: dialogs/TagDialog.cpp:1311
+#: dialogs/TagDialog.cpp:1307
 msgid "Average Score:"
 msgstr "Skora Kêm-zêde:"
 
-#: dialogs/TagDialog.cpp:1653
+#: dialogs/TagDialog.cpp:1649
 msgid ""
 "Writing to file failed. Please check permissions and available disc space."
 msgstr ""
@@ -3095,13 +3102,11 @@ msgid "Local playlists stored in the database"
 msgstr "Lîsteyên lêdanê yên herêmî yên di bingeha dana de tomarkirî"
 
 #: playlistmanager/sql/SqlUserPlaylistProvider.cpp:124
-#: equalizerpresetmanager.cpp:55
 #: browsers/playlistbrowser/UserPlaylistModel.cpp:615
 msgid "&Rename"
 msgstr "&Nav biguhere"
 
 #: playlistmanager/sql/SqlUserPlaylistProvider.cpp:132
-#: equalizerpresetmanager.cpp:56
 #: browsers/playlistbrowser/UserPlaylistModel.cpp:622
 #: amarokurls/BookmarkTreeView.cpp:119
 msgid "&Delete"
@@ -3362,60 +3367,6 @@ msgstr ""
 msgid "unknown type"
 msgstr "Sernavê Nenas"
 
-#: equalizersetup.cpp:61 MainWindow.cpp:790
-msgid "Equalizer"
-msgstr "Yeksanker "
-
-#. i18n: file: dialogs/EqualizerDialog.ui:105
-#. i18n: ectx: property (text), widget (QLabel, eqPresetslabel)
-#: equalizersetup.cpp:82 rc.cpp:1261
-msgid "Presets:"
-msgstr "Pêş-avakirin:"
-
-#: equalizersetup.cpp:91
-msgid "Add new preset"
-msgstr "Pêş-avakirina nû lê zêde bike"
-
-#: equalizersetup.cpp:97
-msgid "Manage presets"
-msgstr "Pêş-avakirinan bi rê ve bibe"
-
-#: equalizersetup.cpp:107
-msgid "Enable Equalizer"
-msgstr "Wekhevîkerê Çalak Bike"
-
-#: equalizersetup.cpp:129
-msgid "Pre-amp"
-msgstr "Hêzdêr"
-
-#: equalizersetup.cpp:256 equalizersetup.cpp:439 equalizersetup.cpp:514
-#: equalizerpresetmanager.cpp:89 equalizerpresetmanager.cpp:131
-#: equalizerpresetmanager.cpp:140
-msgid "Manual"
-msgstr "Bi destan"
-
-#: equalizersetup.cpp:257 equalizersetup.cpp:324 equalizerpresetmanager.cpp:89
-#: equalizerpresetmanager.cpp:139
-msgid "Zero"
-msgstr "Sifir"
-
-#: equalizersetup.cpp:389
-msgid "Add Equalizer Preset"
-msgstr "Pêş-avakirina Wekhevîker Lê Zêde Bike"
-
-#: equalizersetup.cpp:390
-msgid "Enter preset name:"
-msgstr "Navê pêş-avakirinê têkevê:"
-
-#: equalizersetup.cpp:390
-msgid "Untitled"
-msgstr "Bênav"
-
-#: equalizersetup.cpp:395 equalizerpresetmanager.cpp:110
-#, kde-format
-msgid "A preset with the name %1 already exists. Overwrite?"
-msgstr "Pêş-avakirina bi navê %1 jixwe heye. Bila binivîse ser?"
-
 #: EngineController.cpp:237
 msgid ""
 "<p>Phonon claims it <b>cannot</b> play MP3 files. You may want to examine "
@@ -3565,25 +3516,6 @@ msgstr "Salixdayî yên Min"
 #: dynamic/BiasedPlaylist.cpp:144
 msgid "Generating playlist..."
 msgstr "Lîsteya Lêdanê tê afirandin..."
-
-#: equalizerpresetmanager.cpp:35 equalizerpresetmanager.cpp:47
-msgid "Presets"
-msgstr "Pêş-avakirin"
-
-#: equalizerpresetmanager.cpp:104
-msgid "Rename Equalizer Preset"
-msgstr "Navê Pêş-avakirina Wekhevîkerê Biguherîne"
-
-#: equalizerpresetmanager.cpp:105
-msgid "Enter new preset name:"
-msgstr "Navê pêş-avakirinê yê nû têkevê:"
-
-#: equalizerpresetmanager.cpp:125
-msgid ""
-"All presets will be deleted and defaults will be restored. Are you sure?"
-msgstr ""
-"Hemû pêş-avakirin wê werin jê birî û vegere nirxên standard. Tu rastî "
-"dixwazî? "
 
 #: main.cpp:35
 msgid "Alejandro Wainzinger"
@@ -4700,7 +4632,7 @@ msgstr "Naverok"
 #: browsers/playlistbrowser/PodcastCategory.cpp:243
 #, fuzzy
 #| msgid "On"
-msgctxt "Podcast published on"
+msgctxt "Podcast published on date"
 msgid "On"
 msgstr "Vekirî"
 
@@ -4795,21 +4727,21 @@ msgstr "Pêş-avakirinê tomar dike."
 msgid "Delete the preset."
 msgstr "Pêş-avakirinê jê dibe."
 
-#: browsers/playlistbrowser/DynamicCategory.cpp:316
+#: browsers/playlistbrowser/DynamicCategory.cpp:319
 msgid "Playlist Name"
 msgstr "Navê Lîsteya Lêdanê"
 
-#: browsers/playlistbrowser/DynamicCategory.cpp:317
+#: browsers/playlistbrowser/DynamicCategory.cpp:320
 msgid "Enter a name for the playlist:"
 msgstr "Ji bo lîsteya lêdanê navekî binivîse:"
 
-#: browsers/playlistbrowser/DynamicCategory.cpp:327
+#: browsers/playlistbrowser/DynamicCategory.cpp:330
 #, fuzzy
 #| msgid "Warning!"
 msgid "Warning"
 msgstr "Hişyarî!"
 
-#: browsers/playlistbrowser/DynamicCategory.cpp:327
+#: browsers/playlistbrowser/DynamicCategory.cpp:330
 #, fuzzy
 #| msgid "Can not overwrite the random playlist."
 msgid "Cannot overwrite the random playlist."
@@ -4980,6 +4912,10 @@ msgstr "Bijare"
 #| msgid "Cover Manager"
 msgid "Bookmark Manager"
 msgstr "Rêvebirê Rûgira Albuman"
+
+#: MainWindow.cpp:790
+msgid "Equalizer"
+msgstr "Yeksanker "
 
 #: MainWindow.cpp:794 playlist/PlaylistViewUrlGenerator.cpp:101
 #, fuzzy
@@ -7728,6 +7664,12 @@ msgstr ""
 msgid "Reset to default"
 msgstr ""
 
+#. i18n: file: dialogs/EqualizerDialog.ui:105
+#. i18n: ectx: property (text), widget (QLabel, eqPresetslabel)
+#: rc.cpp:1261
+msgid "Presets:"
+msgstr "Pêş-avakirin:"
+
 #. i18n: file: dialogs/EqualizerDialog.ui:127
 #. i18n: ectx: property (title), widget (QGroupBox, eqBandsGroupBox)
 #: rc.cpp:1264
@@ -8673,7 +8615,7 @@ msgstr ""
 msgid "Peak acceleration: "
 msgstr ""
 
-#: KNotificationBackend.cpp:110
+#: KNotificationBackend.cpp:112
 #, fuzzy
 #| msgid "No track playing"
 msgid "Now playing"
@@ -11103,11 +11045,56 @@ msgstr "Lê zêde bike && &Lê bide"
 msgid "&Queue Track"
 msgstr "&Rêza Stranan"
 
+#~ msgid "Add new preset"
+#~ msgstr "Pêş-avakirina nû lê zêde bike"
+
+#~ msgid "Manage presets"
+#~ msgstr "Pêş-avakirinan bi rê ve bibe"
+
+#~ msgid "Enable Equalizer"
+#~ msgstr "Wekhevîkerê Çalak Bike"
+
+#~ msgid "Pre-amp"
+#~ msgstr "Hêzdêr"
+
+#~ msgid "Manual"
+#~ msgstr "Bi destan"
+
+#~ msgid "Zero"
+#~ msgstr "Sifir"
+
+#~ msgid "Add Equalizer Preset"
+#~ msgstr "Pêş-avakirina Wekhevîker Lê Zêde Bike"
+
+#~ msgid "Enter preset name:"
+#~ msgstr "Navê pêş-avakirinê têkevê:"
+
+#~ msgid "Untitled"
+#~ msgstr "Bênav"
+
+#~ msgid "A preset with the name %1 already exists. Overwrite?"
+#~ msgstr "Pêş-avakirina bi navê %1 jixwe heye. Bila binivîse ser?"
+
+#~ msgid "Presets"
+#~ msgstr "Pêş-avakirin"
+
+#~ msgid "Rename Equalizer Preset"
+#~ msgstr "Navê Pêş-avakirina Wekhevîkerê Biguherîne"
+
+#~ msgid "Enter new preset name:"
+#~ msgstr "Navê pêş-avakirinê yê nû têkevê:"
+
+#~ msgid ""
+#~ "All presets will be deleted and defaults will be restored. Are you sure?"
+#~ msgstr ""
+#~ "Hemû pêş-avakirin wê werin jê birî û vegere nirxên standard. Tu rastî "
+#~ "dixwazî? "
+
 #, fuzzy
-#~| msgid "Folder"
-#~ msgctxt "(Front) Cover of an album"
-#~ msgid "folder"
-#~ msgstr "Peldank"
+#~| msgid "On"
+#~ msgctxt "Podcast published on"
+#~ msgid "On"
+#~ msgstr "Vekirî"
 
 #~ msgid "Show On Screen Display"
 #~ msgstr "Li Ser Nîşana Dîmenê Nîşan Bide"

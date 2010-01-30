@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_battery\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-01-24 06:12+0100\n"
+"POT-Creation-Date: 2010-01-30 06:11+0100\n"
 "PO-Revision-Date: 2008-12-26 00:33+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
@@ -19,50 +19,50 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural= n != 1;\n"
 "X-Poedit-Language: Kurdish\n"
 
-#: battery.cpp:264
+#: battery.cpp:265
 msgid "General"
 msgstr "Giştî"
 
-#: battery.cpp:420
+#: battery.cpp:421
 msgid "Screen Brightness"
 msgstr "Ronahiya Dîmenê"
 
-#: battery.cpp:444
+#: battery.cpp:445
 msgid "Power Profile"
 msgstr "Profîla Hêzê"
 
-#: battery.cpp:477
+#: battery.cpp:478
 msgid "Sleep"
 msgstr "Bide Razan"
 
-#: battery.cpp:491
+#: battery.cpp:492
 msgid "Hibernate"
 msgstr "Bide Sekinandin "
 
-#: battery.cpp:505
+#: battery.cpp:506
 #, fuzzy
 #| msgid "Power Management"
 msgctxt "tooltip on the config button in the popup"
 msgid "Configure Power Management..."
 msgstr "Rêveberiya Hezê"
 
-#: battery.cpp:527
+#: battery.cpp:528
 msgid "Power Management"
 msgstr "Rêveberiya Hezê"
 
-#: battery.cpp:581
+#: battery.cpp:582
 #, fuzzy
 #| msgid "On Battery"
 msgid "Battery:"
 msgstr "Pîl"
 
-#: battery.cpp:584
+#: battery.cpp:585 battery.cpp:602
 #, fuzzy, kde-format
 #| msgid "<b>Battery:</b> %1% (fully charged)<br />"
 msgid "%1% (charged)"
 msgstr "<b>Pîl:</b> %1% (şarj tijî bû)<br />"
 
-#: battery.cpp:586
+#: battery.cpp:587
 #, fuzzy, kde-format
 #| msgctxt "Shown when a time estimate is not available"
 #| msgid "<b>Battery:</b> %1% (discharging)<br />"
@@ -70,65 +70,49 @@ msgctxt "Shown when a time estimate is not available"
 msgid "%1% (discharging)"
 msgstr "<b>Pîl:</b> %1% (şarj tê vala kirin)<br />"
 
-#: battery.cpp:588
+#: battery.cpp:589 battery.cpp:606
 #, kde-format
 msgid "%1% (charging)"
 msgstr ""
 
-#: battery.cpp:591 battery.cpp:629
+#: battery.cpp:592 battery.cpp:628
 msgctxt "Battery is not plugged in"
 msgid "Not present"
 msgstr ""
 
-#: battery.cpp:599
+#: battery.cpp:600
 #, fuzzy, kde-format
-#| msgid "<b>Battery %1:</b> %2% (charging)<br />"
+#| msgid "On Battery"
 msgctxt "Placeholder is the battery ID"
-msgid "<b>Battery %1:</b>"
-msgstr "<b>Pîl %1:</b> %2% (tê şarj kirin)<br /> "
+msgid "Battery %1:"
+msgstr "Pîl"
 
-#: battery.cpp:601
-#, fuzzy, kde-format
-#| msgid "<b>Battery:</b> %1% (fully charged)<br />"
-msgctxt "state of battery"
-msgid "%1% (charged)"
-msgstr "<b>Pîl:</b> %1% (şarj tijî bû)<br />"
-
-#: battery.cpp:603
+#: battery.cpp:604
 #, fuzzy, kde-format
 #| msgctxt "Shown when a time estimate is not available"
 #| msgid "<b>Battery:</b> %1% (discharging)<br />"
-msgctxt "state of battery"
 msgid "%1% (discharging)"
 msgstr "<b>Pîl:</b> %1% (şarj tê vala kirin)<br />"
 
-#: battery.cpp:605
-#, fuzzy, kde-format
-#| msgctxt "Shown when a time estimate is not available"
-#| msgid "<b>Battery:</b> %1% (discharging)<br />"
-msgctxt "state of battery"
-msgid "%1% (charging)"
-msgstr "<b>Pîl:</b> %1% (şarj tê vala kirin)<br />"
-
-#: battery.cpp:609
+#: battery.cpp:610
 #, fuzzy
 #| msgid "AC Adapter"
 msgid "AC Adapter:"
 msgstr "Adaptorê AC"
 
-#: battery.cpp:611
+#: battery.cpp:612
 #, fuzzy
 #| msgid "Plugged in"
 msgid "Plugged in "
 msgstr "Tê de"
 
-#: battery.cpp:613
+#: battery.cpp:614
 #, fuzzy
 #| msgid "Plugged in"
 msgid "Not plugged in"
 msgstr "Tê de"
 
-#: battery.cpp:628
+#: battery.cpp:627
 #, fuzzy
 #| msgctxt "Battery is not plugged in"
 #| msgid "<b>Battery:</b> not present<br />"
@@ -152,6 +136,32 @@ msgstr ""
 #: rc.cpp:9 rc.cpp:18
 msgid "Show the state for &each battery present"
 msgstr "Rewşa her pîlekê bi rêjeya ji sedî nîşan bide"
+
+#, fuzzy
+#~| msgid "<b>Battery %1:</b> %2% (charging)<br />"
+#~ msgctxt "Placeholder is the battery ID"
+#~ msgid "<b>Battery %1:</b>"
+#~ msgstr "<b>Pîl %1:</b> %2% (tê şarj kirin)<br /> "
+
+#, fuzzy
+#~| msgid "<b>Battery:</b> %1% (fully charged)<br />"
+#~ msgctxt "state of battery"
+#~ msgid "%1% (charged)"
+#~ msgstr "<b>Pîl:</b> %1% (şarj tijî bû)<br />"
+
+#, fuzzy
+#~| msgctxt "Shown when a time estimate is not available"
+#~| msgid "<b>Battery:</b> %1% (discharging)<br />"
+#~ msgctxt "state of battery"
+#~ msgid "%1% (discharging)"
+#~ msgstr "<b>Pîl:</b> %1% (şarj tê vala kirin)<br />"
+
+#, fuzzy
+#~| msgctxt "Shown when a time estimate is not available"
+#~| msgid "<b>Battery:</b> %1% (discharging)<br />"
+#~ msgctxt "state of battery"
+#~ msgid "%1% (charging)"
+#~ msgstr "<b>Pîl:</b> %1% (şarj tê vala kirin)<br />"
 
 #, fuzzy
 #~| msgid "More..."
