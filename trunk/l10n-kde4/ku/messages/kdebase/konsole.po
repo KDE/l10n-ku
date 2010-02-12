@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-02-08 07:01+0100\n"
+"POT-Creation-Date: 2010-02-12 06:37+0100\n"
 "PO-Revision-Date: 2009-01-06 02:14+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <ku@li.org>\n"
@@ -120,11 +120,17 @@ msgstr "Şemaya Rengan yê Bênav"
 msgid "Accessible Color Scheme"
 msgstr "Şemaya Rengan yê Tê Gihîştin"
 
-#: ColorSchemeEditor.cpp:83 ManageProfilesDialog.cpp:222
+#: ColorSchemeEditor.cpp:83
+#, fuzzy
+#| msgid "Name"
+msgctxt "@label:listbox Column header text for color names"
 msgid "Name"
 msgstr "Nav"
 
 #: ColorSchemeEditor.cpp:83
+#, fuzzy
+#| msgid "Color"
+msgctxt "@label:listbox Column header text for the actual colors"
 msgid "Color"
 msgstr "Reng"
 
@@ -578,6 +584,10 @@ msgstr "Vê Hilpekînê Bigire"
 #: ManageProfilesDialog.cpp:48
 msgid "Manage Profiles"
 msgstr "Profîlan Bi Rê Ve Bibe"
+
+#: ManageProfilesDialog.cpp:222
+msgid "Name"
+msgstr "Nav"
 
 #: ManageProfilesDialog.cpp:223
 msgid "Show in Menu"
