@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: k3b\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-02-06 02:01+0100\n"
+"POT-Creation-Date: 2010-02-13 07:07+0100\n"
 "PO-Revision-Date: 2009-02-21 07:27+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -1327,7 +1327,7 @@ msgid ""
 msgstr ""
 
 #: misc/k3bmediacopydialog.cpp:302 misc/k3bmediacopydialog.cpp:311
-#: k3b.cpp:1033 k3bdebuggingoutputdialog.cpp:81
+#: k3b.cpp:1076 k3bdebuggingoutputdialog.cpp:81
 #: projects/k3bmovixburndialog.cpp:216 projects/k3bvideodvdburndialog.cpp:171
 #: projects/k3bdataburndialog.cpp:184 projects/k3bvcdburndialog.cpp:552
 #, kde-format
@@ -1335,7 +1335,7 @@ msgid "Do you want to overwrite %1?"
 msgstr ""
 
 #: misc/k3bmediacopydialog.cpp:303 misc/k3bmediacopydialog.cpp:312
-#: k3b.cpp:1034 k3bdebuggingoutputdialog.cpp:82
+#: k3b.cpp:1077 k3bdebuggingoutputdialog.cpp:82
 #: projects/k3bmovixburndialog.cpp:217 projects/k3bvideodvdburndialog.cpp:172
 #: projects/k3bdataburndialog.cpp:185 projects/k3bvcdburndialog.cpp:553
 msgid "File Exists"
@@ -1377,7 +1377,7 @@ msgstr "*.cue *.CUE|Pelên Cue"
 msgid "*.toc *.TOC|Cdrdao TOC Files and Cdrecord Clone Images"
 msgstr ""
 
-#: misc/k3bimagewritingdialog.cpp:228 k3b.cpp:1331 k3bfileview.cpp:82
+#: misc/k3bimagewritingdialog.cpp:228 k3b.cpp:1374 k3bfileview.cpp:82
 msgid "*|All Files"
 msgstr "*|Hemû Pel"
 
@@ -1736,31 +1736,31 @@ msgstr "Leza Xwendinê Ava Bike"
 msgid "Display generic medium information"
 msgstr ""
 
-#: k3bappdevicemanager.cpp:72
+#: k3bappdevicemanager.cpp:73
 msgid "Unmount the medium"
 msgstr ""
 
-#: k3bappdevicemanager.cpp:73
+#: k3bappdevicemanager.cpp:75
 msgid "Mount the medium"
 msgstr ""
 
-#: k3bappdevicemanager.cpp:74
+#: k3bappdevicemanager.cpp:77
 msgid "Eject the medium"
 msgstr ""
 
-#: k3bappdevicemanager.cpp:75
+#: k3bappdevicemanager.cpp:79
 msgid "(Re)Load the medium"
 msgstr ""
 
-#: k3bappdevicemanager.cpp:76
+#: k3bappdevicemanager.cpp:81
 msgid "Force the drive's read speed"
 msgstr ""
 
-#: k3bappdevicemanager.cpp:279
+#: k3bappdevicemanager.cpp:285
 msgid "CD Read Speed"
 msgstr "Leza Xwendina CD yê"
 
-#: k3bappdevicemanager.cpp:280
+#: k3bappdevicemanager.cpp:286
 #, kde-format
 msgid ""
 "<p>Please enter the preferred read speed for <b>%1</b>. This speed will be "
@@ -1770,7 +1770,7 @@ msgid ""
 "on K3b since it will change the reading speed again when copying CDs or DVDs."
 msgstr ""
 
-#: k3bappdevicemanager.cpp:298
+#: k3bappdevicemanager.cpp:304
 msgid "Setting the read speed failed."
 msgstr "Avakirina leza xwendinê têk çû."
 
@@ -1823,18 +1823,6 @@ msgid ""
 "<em>Mode 2</em>.</p><p><b>Be aware:</b> Do not mix different modes on one "
 "CD. Some older drives may have problems reading mode 1 multisession CDs."
 msgstr ""
-
-#: k3bsidepanel.cpp:36 k3b.cpp:507
-msgid "Folders"
-msgstr "Peldank"
-
-#: k3bsidepanel.cpp:40
-msgid "CD Tasks"
-msgstr "Karên CD yê"
-
-#: k3bsidepanel.cpp:55
-msgid "DVD Tasks"
-msgstr "Karên DVD yê"
 
 #: k3bdiskinfoview.cpp:80
 msgid "No medium present"
@@ -2069,35 +2057,35 @@ msgstr ""
 msgid "Please select a medium:"
 msgstr ""
 
-#: k3bdevicemenu.cpp:76 k3b.cpp:306
+#: k3bdevicemenu.cpp:76 k3b.cpp:331
 msgid "Continue Multisession Project"
 msgstr ""
 
-#: k3bdevicemenu.cpp:77 k3b.cpp:360
+#: k3bdevicemenu.cpp:77 k3b.cpp:385
 msgid "Copy &Medium..."
 msgstr ""
 
-#: k3bdevicemenu.cpp:78 k3b.cpp:341
+#: k3bdevicemenu.cpp:78 k3b.cpp:366
 msgid "&Format/Erase rewritable disk..."
 msgstr ""
 
-#: k3bdevicemenu.cpp:79 k3b.cpp:370
+#: k3bdevicemenu.cpp:79 k3b.cpp:395
 msgid "Rip Audio CD..."
 msgstr ""
 
-#: k3bdevicemenu.cpp:80 k3b.cpp:378
+#: k3bdevicemenu.cpp:80 k3b.cpp:403
 msgid "Rip Video DVD..."
 msgstr ""
 
-#: k3bdevicemenu.cpp:81 k3b.cpp:386
+#: k3bdevicemenu.cpp:81 k3b.cpp:411
 msgid "Rip Video CD..."
 msgstr ""
 
-#: k3bdevicemenu.cpp:83 k3b.cpp:421
+#: k3bdevicemenu.cpp:83 k3b.cpp:453
 msgid "Open the media copy dialog"
 msgstr ""
 
-#: k3bdevicemenu.cpp:84 k3b.cpp:419
+#: k3bdevicemenu.cpp:85 k3b.cpp:449
 msgid "Open the rewritable disk formatting/erasing dialog"
 msgstr ""
 
@@ -2448,309 +2436,313 @@ msgstr "Bigire"
 msgid "Keep Open"
 msgstr "Vekirî Bihêle"
 
-#: k3b.cpp:211
+#: k3b.cpp:236
 msgid "K3b - The CD and DVD Kreator"
 msgstr "K3b - Afirandêrê CD û DVD yan"
 
-#: k3b.cpp:273
+#: k3b.cpp:298
 msgid "Save All"
 msgstr "Hemûyan Tomar Bike"
 
-#: k3b.cpp:276
+#: k3b.cpp:301
 msgid "Close All"
 msgstr "Hemûyan Bigire"
 
-#: k3b.cpp:291
+#: k3b.cpp:316
 msgid "&New Project"
 msgstr "Projeya &Nû"
 
-#: k3b.cpp:294
+#: k3b.cpp:319
 msgid "New &Audio CD Project"
 msgstr "Projeya Nû ya CD ya &Muzîkê "
 
-#: k3b.cpp:296
+#: k3b.cpp:321
 msgid "New &Data Project"
 msgstr "Projeya Nû ya CD &Dane"
 
-#: k3b.cpp:298
+#: k3b.cpp:323
 msgid "New &Mixed Mode CD Project"
 msgstr "Projeya Nû ya CD ya Moda &Tevlihev"
 
-#: k3b.cpp:300
+#: k3b.cpp:325
 msgid "New &Video CD Project"
 msgstr "Projeya Nû ya CD ya &Vîdeoyê"
 
-#: k3b.cpp:302
+#: k3b.cpp:327
 msgid "New &eMovix Project"
 msgstr "Projeya Nû ya &eMovix"
 
-#: k3b.cpp:304
+#: k3b.cpp:329
 msgid "New V&ideo DVD Project"
 msgstr "Projeya Nû ya DVD ya V&îdeoyê"
 
-#: k3b.cpp:325
+#: k3b.cpp:350
 msgid "&Add Files..."
 msgstr "Pelan Lê Zêde Bike..."
 
-#: k3b.cpp:328
+#: k3b.cpp:353
 msgid "&Clear Project"
 msgstr "Projeyê &Paqij Bike"
 
-#: k3b.cpp:332
+#: k3b.cpp:357
 #, fuzzy
 #| msgid "Local"
 msgid "Lock Panels"
 msgstr "Herêmî"
 
-#: k3b.cpp:337
+#: k3b.cpp:362
 msgid "Show Projects Header"
 msgstr ""
 
-#: k3b.cpp:348
+#: k3b.cpp:373
 msgid "Format"
 msgstr "Teşe"
 
-#: k3b.cpp:351
+#: k3b.cpp:376
 msgid "&Burn Image..."
 msgstr "Wêne &Binivîse..."
 
-#: k3b.cpp:367 k3bdebuggingoutputdialog.cpp:46
+#: k3b.cpp:392 k3bdebuggingoutputdialog.cpp:46
 msgid "Copy"
 msgstr "Ji ber bigire"
 
-#: k3b.cpp:395
+#: k3b.cpp:420
 msgid "System Check"
 msgstr "Kontrola Pergalê"
 
-#: k3b.cpp:405
+#: k3b.cpp:430
 msgid "&Setup System Permissions..."
 msgstr ""
 
-#: k3b.cpp:414
+#: k3b.cpp:439
 msgid "Creates a new project"
 msgstr "Projeya nû diafirîne"
 
-#: k3b.cpp:415
+#: k3b.cpp:441
 msgid "Creates a new data project"
 msgstr "Projeya nû ya dana diafirîne"
 
-#: k3b.cpp:416
+#: k3b.cpp:443
 msgid "Creates a new audio CD project"
 msgstr "Projeya nû ya CD ya stranan diafirîne"
 
-#: k3b.cpp:417
+#: k3b.cpp:445
 msgid "Creates a new eMovix project"
 msgstr "Projeya nû ya eMovix diafirîne"
 
-#: k3b.cpp:418
+#: k3b.cpp:447
 msgid "Creates a new Video CD project"
 msgstr "Projeya nû ya CD ya Vîdeoyê diafirîne"
 
-#: k3b.cpp:420
+#: k3b.cpp:451
 msgid "Write an Iso9660, cue/bin, or cdrecord clone image to an optical disc"
 msgstr ""
 
-#: k3b.cpp:422
+#: k3b.cpp:455
 msgid "Opens an existing project"
 msgstr "Projeyekê heyî vedike"
 
-#: k3b.cpp:423
+#: k3b.cpp:457
 msgid "Opens a recently used file"
 msgstr "Pelekê yê hatiye bikaranîn vedike"
 
-#: k3b.cpp:424
+#: k3b.cpp:459
 msgid "Saves the current project"
 msgstr "Projeya vekirî tomar dike"
 
-#: k3b.cpp:425
+#: k3b.cpp:461
 msgid "Saves the current project to a new url"
 msgstr "Projeya vekirî tomar dike url yekî nû"
 
-#: k3b.cpp:426
+#: k3b.cpp:463
 msgid "Saves all open projects"
 msgstr "Hemû projeyên vekirî tomar dike"
 
-#: k3b.cpp:427
+#: k3b.cpp:465
 msgid "Closes the current project"
 msgstr "Projeya vekirî digire"
 
-#: k3b.cpp:428
+#: k3b.cpp:467
 msgid "Closes all open projects"
 msgstr "Hemû projeyên vekirî digire"
 
-#: k3b.cpp:429
+#: k3b.cpp:469
 msgid "Quits the application"
 msgstr "Ji sepanê derdikeve"
 
-#: k3b.cpp:430
+#: k3b.cpp:471
 msgid "Configure K3b settings"
 msgstr "Vebijarkên K3b veava bike"
 
-#: k3b.cpp:432
+#: k3b.cpp:474
 msgid "Setup the system permissions"
 msgstr ""
 
-#: k3b.cpp:434
+#: k3b.cpp:477
 msgid "Digitally extract tracks from an audio CD"
 msgstr ""
 
-#: k3b.cpp:435
+#: k3b.cpp:479
 msgid "Transcode Video DVD titles"
 msgstr ""
 
-#: k3b.cpp:436
+#: k3b.cpp:481
 msgid "Extract tracks from a Video CD"
 msgstr ""
 
-#: k3b.cpp:437
+#: k3b.cpp:483
 msgid "Add files to the current project"
 msgstr ""
 
-#: k3b.cpp:438
+#: k3b.cpp:485
 msgid "Clear the current project"
 msgstr ""
 
-#: k3b.cpp:471
+#: k3b.cpp:515
 #, fuzzy
 #| msgid "Project"
 msgid "Projects"
 msgstr "Proje"
 
-#: k3b.cpp:484
+#: k3b.cpp:528
 msgid "Current Projects"
 msgstr ""
 
-#: k3b.cpp:520
+#: k3b.cpp:551
+msgid "Folders"
+msgstr "Peldank"
+
+#: k3b.cpp:563
 #, fuzzy
 #| msgid "Comment"
 msgid "Contents"
 msgstr "Şîrove"
 
-#: k3b.cpp:548
+#: k3b.cpp:591
 #, fuzzy
 #| msgid "Location:"
 msgid "&Location Bar"
 msgstr "Cih:"
 
-#: k3b.cpp:627 k3b.cpp:949 k3b.cpp:963
+#: k3b.cpp:670 k3b.cpp:992 k3b.cpp:1006
 msgid "Opening file..."
 msgstr "Pel tê vekirin..."
 
-#: k3b.cpp:655
+#: k3b.cpp:698
 #, fuzzy
 #| msgid "Could not open document!"
 msgid "Could not open document."
 msgstr "Nekarî belgeyê veke!"
 
-#: k3b.cpp:655 ../plugins/encoder/sox/k3bsoxencoder.cpp:326
+#: k3b.cpp:698 ../plugins/encoder/sox/k3bsoxencoder.cpp:326
 msgid "Error"
 msgstr "Çewtî"
 
-#: k3b.cpp:919
+#: k3b.cpp:962
 #, kde-format
 msgid "%1 has unsaved data."
 msgstr "Di %1 de dane yê ne-tomarkirî heye."
 
-#: k3b.cpp:920
+#: k3b.cpp:963
 msgid "Closing Project"
 msgstr "Proje Tê Girtin"
 
-#: k3b.cpp:952 k3b.cpp:1021
+#: k3b.cpp:995 k3b.cpp:1064
 msgid "*.k3b|K3b Projects"
 msgstr "Projeyên *.k3b|K3b "
 
-#: k3b.cpp:954
+#: k3b.cpp:997
 msgid "Open Files"
 msgstr "Pelan Veke"
 
-#: k3b.cpp:986
+#: k3b.cpp:1029
 msgid "Saving file..."
 msgstr "Pelê tomar dike..."
 
-#: k3b.cpp:996 k3b.cpp:1042
+#: k3b.cpp:1039 k3b.cpp:1085
 #, fuzzy
 #| msgid "Could not save the current document!"
 msgid "Could not save the current document."
 msgstr "Nekarî belgeya heyî tomar bike!"
 
-#: k3b.cpp:996 k3b.cpp:1042
+#: k3b.cpp:1039 k3b.cpp:1085
 msgid "I/O Error"
 msgstr "Çewtiya I/O"
 
-#: k3b.cpp:1013
+#: k3b.cpp:1056
 msgid "Saving file with a new filename..."
 msgstr "Pel bi navekî nû ve tê tomar kirin..."
 
-#: k3b.cpp:1022
+#: k3b.cpp:1065
 msgid "Save As"
 msgstr "Cuda tomar bike"
 
-#: k3b.cpp:1062
+#: k3b.cpp:1105
 msgid "Closing file..."
 msgstr "Pel tê girtin..."
 
-#: k3b.cpp:1164
+#: k3b.cpp:1207
 msgid "Creating new Audio CD Project."
 msgstr "Projeya nû ya CD ya Muzîkê tê afirandin."
 
-#: k3b.cpp:1173
+#: k3b.cpp:1216
 msgid "Creating new Data CD Project."
 msgstr "Projeya nû ya CD ya Dane tê afirandin."
 
-#: k3b.cpp:1189
+#: k3b.cpp:1232
 #, fuzzy
 #| msgid "Creating new VideoDVD Project."
 msgid "Creating new Video DVD Project."
 msgstr "Projeya nû ya VîdeoDVD tê afirandin."
 
-#: k3b.cpp:1199
+#: k3b.cpp:1242
 msgid "Creating new Mixed Mode CD Project."
 msgstr "Projeya nû ya CD ya Moda Tevlihev tê afirandin."
 
-#: k3b.cpp:1208
+#: k3b.cpp:1251
 msgid "Creating new Video CD Project."
 msgstr "Projeya nû ya CD ya Vîdeoyê tê afirandin."
 
-#: k3b.cpp:1218
+#: k3b.cpp:1261
 msgid "Creating new eMovix Project."
 msgstr "Projeya nû ya eMovix tê afirandin."
 
-#: k3b.cpp:1333
+#: k3b.cpp:1376
 msgid "Select Files to Add to Project"
 msgstr "Pelan Hilbijêre ji bo Lê Zêdekirina Projeyê"
 
-#: k3b.cpp:1347
+#: k3b.cpp:1390
 msgid "Please create a project before adding files"
 msgstr "Jê kerema xwe berî lê zêdekirina pelan projeyekê biafirîne"
 
-#: k3b.cpp:1347
+#: k3b.cpp:1390
 msgid "No Active Project"
 msgstr "Tu Projeyên Çalak Tune ye"
 
-#: k3b.cpp:1356 k3bsystemproblemdialog.cpp:593
+#: k3b.cpp:1399 k3bsystemproblemdialog.cpp:593
 #: option/k3bdeviceoptiontab.cpp:85
 #, fuzzy
 #| msgid "Start K3bSetup2"
 msgid "Unable to start K3b::Setup."
 msgstr "K3bSetup2 Bide Destpêkirin"
 
-#: k3b.cpp:1516
+#: k3b.cpp:1559
 msgid "Do you really want to clear the current project?"
 msgstr "Tu bi rastî dixwazî vê projeyê paqij bikî?"
 
-#: k3b.cpp:1517
+#: k3b.cpp:1560
 msgid "Clear Project"
 msgstr "Projeyê Paqij Bike"
 
-#: k3b.cpp:1542
+#: k3b.cpp:1585
 msgid "Audio CD Rip"
 msgstr ""
 
-#: k3b.cpp:1557
+#: k3b.cpp:1600
 msgid "Video DVD Rip"
 msgstr ""
 
-#: k3b.cpp:1578
+#: k3b.cpp:1621
 msgid "Video CD Rip"
 msgstr ""
 
@@ -9203,6 +9195,12 @@ msgstr "Cddb Rêz Bike"
 #: ../plugins/project/audioprojectcddb/k3baudioprojectcddbplugin.cpp:119
 msgid "Cddb error"
 msgstr "Çewtiya Cddb"
+
+#~ msgid "CD Tasks"
+#~ msgstr "Karên CD yê"
+
+#~ msgid "DVD Tasks"
+#~ msgstr "Karên DVD yê"
 
 #~ msgid "Dese&lect All"
 #~ msgstr "Hemû Hilbijartinan R&ake"
