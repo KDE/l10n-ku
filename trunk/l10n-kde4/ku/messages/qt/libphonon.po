@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libphonon\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-01-31 07:16+0100\n"
+"POT-Creation-Date: 2010-02-16 07:19+0100\n"
 "PO-Revision-Date: 2009-01-11 01:12+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <gnu-ku-wergerandin at lists dot sourceforge dot "
@@ -20,7 +20,7 @@ msgstr ""
 "X-Poedit-Language: Kurdish\n"
 "X-Poedit-SourceCharset: utf8\n"
 
-#: pulsesupport.cpp:165 pulsesupport.cpp:176
+#: pulsesupport.cpp:163 pulsesupport.cpp:174
 msgid "PulseAudio Sound Server"
 msgstr ""
 
@@ -43,7 +43,7 @@ msgstr ""
 msgid "Muted"
 msgstr "Bêdeng"
 
-#: audiooutput.cpp:389
+#: audiooutput.cpp:434 audiooutput.cpp:468
 #, qt-format
 msgid ""
 "<html>The audio playback device <b>%1</b> does not work.<br/>Falling back to "
@@ -52,7 +52,7 @@ msgstr ""
 "<html>Cîhaza lêdana stranan <b>%1</b> naxebite.<br/>Paşve vegerî <b>%2</b> "
 "yê.</html>"
 
-#: audiooutput.cpp:402
+#: audiooutput.cpp:447
 #, qt-format
 msgid ""
 "<html>Switching to the audio playback device <b>%1</b><br/>which just became "
@@ -61,10 +61,22 @@ msgstr ""
 "<html>Bi cîhaza lêdana stranan <b>%1</b></br> re tê girêdan yê ku hema niha "
 "amade bû û xwedî zêdetir taybetiyan e.</html>"
 
-#: audiooutput.cpp:405
+#: audiooutput.cpp:450 audiooutput.cpp:464
 #, qt-format
 msgid "Revert back to device '%1'"
 msgstr "Paşve bizivirîne cîhaza '%1'"
+
+#: audiooutput.cpp:461
+#, fuzzy, qt-format
+#| msgid ""
+#| "<html>Switching to the audio playback device <b>%1</b><br/>which just "
+#| "became available and has higher preference.</html>"
+msgid ""
+"<html>Switching to the audio playback device <b>%1</b><br/>which has higher "
+"preference or is specifically configured for this stream.</html>"
+msgstr ""
+"<html>Bi cîhaza lêdana stranan <b>%1</b></br> re tê girêdan yê ku hema niha "
+"amade bû û xwedî zêdetir taybetiyan e.</html>"
 
 #: phononnamespace.cpp:55
 msgctxt "Phonon::"
