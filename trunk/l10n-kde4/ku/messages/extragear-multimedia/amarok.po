@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-02-22 07:16+0100\n"
+"POT-Creation-Date: 2010-02-23 07:22+0100\n"
 "PO-Revision-Date: 2009-02-21 06:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -443,7 +443,7 @@ msgstr "Pelan Jê Bibe"
 #: collection/umscollection/podcasts/UmsPodcastProvider.cpp:243
 #: playlistmanager/sql/SqlUserPlaylistProvider.cpp:180
 #: playlistmanager/file/PlaylistFileProvider.cpp:269
-#: browsers/filebrowser/FileView.cpp:446
+#: browsers/filebrowser/FileView.cpp:445
 #, fuzzy
 #| msgid "Configure Playback"
 msgid "Confirm Delete"
@@ -1221,14 +1221,14 @@ msgid "On"
 msgstr "Vekirî"
 
 #: context/applets/currenttrack/CurrentTrack.cpp:132
-#: context/applets/currenttrack/CurrentTrack.cpp:572
+#: context/applets/currenttrack/CurrentTrack.cpp:577
 msgid "Play count"
 msgstr "Hejmara lêdanan"
 
 #. i18n: file: dialogs/EditFilterDialog.ui:120
 #. i18n: ectx: property (text), item, widget (KComboBox, keywordCombo)
 #: context/applets/currenttrack/CurrentTrack.cpp:133
-#: context/applets/currenttrack/CurrentTrack.cpp:573
+#: context/applets/currenttrack/CurrentTrack.cpp:578
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:256
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:695 rc.cpp:1195
 #: playlist/PlaylistModel.cpp:717 widgets/SmartPlaylistEditor.cpp:185
@@ -1237,7 +1237,7 @@ msgid "Score"
 msgstr "Skor"
 
 #: context/applets/currenttrack/CurrentTrack.cpp:134
-#: context/applets/currenttrack/CurrentTrack.cpp:574
+#: context/applets/currenttrack/CurrentTrack.cpp:579
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:261
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:700 TrayIcon.cpp:182
 msgid "Last Played"
@@ -1255,16 +1255,16 @@ msgstr "Stranên Bijarte"
 
 #. i18n: file: context/applets/currenttrack/currentTrackSettings.ui:26
 #. i18n: ectx: property (windowTitle), widget (QWidget, currentTrackSettings)
-#: context/applets/currenttrack/CurrentTrack.cpp:716 rc.cpp:605
+#: context/applets/currenttrack/CurrentTrack.cpp:721 rc.cpp:605
 #, fuzzy
 #| msgid "Love Current Track"
 msgid "Current Track Settings"
 msgstr "Ji ve perçeyê hez bike"
 
 #: context/applets/albums/AlbumsView.cpp:112
-#: browsers/CollectionTreeView.cpp:833 browsers/filebrowser/FileView.cpp:279
+#: browsers/CollectionTreeView.cpp:833 browsers/filebrowser/FileView.cpp:278
 #: browsers/playlistbrowser/UserPlaylistModel.cpp:658
-#: browsers/playlistbrowser/PodcastModel.cpp:1112
+#: browsers/playlistbrowser/PodcastModel.cpp:1110
 #: services/lastfm/LastFmTreeView.cpp:112 TrayIcon.cpp:216
 #, fuzzy
 #| msgid "Add to playlist"
@@ -1272,9 +1272,9 @@ msgid "&Add to Playlist"
 msgstr "lîsteya lêdanê"
 
 #: context/applets/albums/AlbumsView.cpp:113
-#: browsers/CollectionTreeView.cpp:842 browsers/filebrowser/FileView.cpp:288
+#: browsers/CollectionTreeView.cpp:842 browsers/filebrowser/FileView.cpp:287
 #: browsers/playlistbrowser/UserPlaylistModel.cpp:665
-#: browsers/playlistbrowser/PodcastModel.cpp:1124
+#: browsers/playlistbrowser/PodcastModel.cpp:1122
 #: services/lastfm/LastFmTreeView.cpp:121
 #, fuzzy
 #| msgid "Repeat Playlist"
@@ -2028,7 +2028,7 @@ msgstr "Cureyê pelê"
 #. i18n: ectx: property (text), item, widget (KComboBox, keywordCombo)
 #: dialogs/FilenameLayoutDialog.cpp:215 dialogs/FilenameLayoutDialog.cpp:542
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:251
-#: browsers/playlistbrowser/PodcastModel.cpp:543 rc.cpp:1198
+#: browsers/playlistbrowser/PodcastModel.cpp:546 rc.cpp:1198
 #: tooltips/ToolTipManager.cpp:153 playlist/PlaylistModel.cpp:701
 #: widgets/SmartPlaylistEditor.cpp:183
 msgid "Title"
@@ -2291,7 +2291,7 @@ msgstr "<b><font color='red'>Çewtî:</font></b> %1"
 msgid "Filename Layout Chooser"
 msgstr "Bijarkerê Bicihbûna Navê-pelê "
 
-#: dialogs/TagDialog.cpp:679 browsers/playlistbrowser/PodcastModel.cpp:544
+#: dialogs/TagDialog.cpp:679 browsers/playlistbrowser/PodcastModel.cpp:547
 msgid "Summary"
 msgstr "Kurte"
 
@@ -3110,7 +3110,7 @@ msgid "&Rename"
 msgstr "&Nav biguhere"
 
 #: playlistmanager/sql/SqlUserPlaylistProvider.cpp:132
-#: browsers/filebrowser/FileView.cpp:314
+#: browsers/filebrowser/FileView.cpp:313
 #: browsers/playlistbrowser/UserPlaylistModel.cpp:695
 #: amarokurls/BookmarkTreeView.cpp:119
 msgid "&Delete"
@@ -3154,7 +3154,7 @@ msgid "Remove"
 msgstr "Rake"
 
 #: playlistmanager/file/PlaylistFileProvider.cpp:276
-#: browsers/filebrowser/FileView.cpp:453
+#: browsers/filebrowser/FileView.cpp:452
 msgid "Yes, delete from disk."
 msgstr ""
 
@@ -3285,11 +3285,11 @@ msgid "Unable to save podcast episode file to %1"
 msgstr "Nekarî beşa ji torê tê anîn tomar bike di pela %1 de"
 
 #: podcasts/sql/SqlPodcastProvider.h:47
-#: browsers/playlistbrowser/PodcastModel.cpp:931
+#: browsers/playlistbrowser/PodcastModel.cpp:946
 msgid "Local Podcasts"
 msgstr "Podcast ên Herêmî"
 
-#: podcasts/sql/SqlPodcastMeta.cpp:387 podcasts/PodcastMeta.h:417
+#: podcasts/sql/SqlPodcastMeta.cpp:387 podcasts/PodcastMeta.h:414
 msgid "Podcast"
 msgstr "Podcast"
 
@@ -4116,7 +4116,7 @@ msgstr "Stefan Bogner"
 msgid "Loads of stuff"
 msgstr ""
 
-#: browsers/InfoProxy.cpp:164 browsers/filebrowser/FileBrowser.cpp:225
+#: browsers/InfoProxy.cpp:164 browsers/filebrowser/FileBrowser.cpp:252
 msgid "Home"
 msgstr "Mal"
 
@@ -4126,11 +4126,11 @@ msgstr "Mal"
 msgid "Media Sources Home"
 msgstr "Pêveka Dosiya Çavkaniyê"
 
-#: browsers/CollectionTreeView.cpp:242 browsers/filebrowser/FileView.cpp:121
+#: browsers/CollectionTreeView.cpp:242 browsers/filebrowser/FileView.cpp:120
 msgid "Copy to Collection"
 msgstr "Ji Ber Bigire Berhevokê"
 
-#: browsers/CollectionTreeView.cpp:253 browsers/filebrowser/FileView.cpp:112
+#: browsers/CollectionTreeView.cpp:253 browsers/filebrowser/FileView.cpp:111
 msgid "Move to Collection"
 msgstr "Bibe Berhevokê"
 
@@ -4138,7 +4138,7 @@ msgstr "Bibe Berhevokê"
 msgid "More..."
 msgstr "Zêdetir..."
 
-#: browsers/CollectionTreeView.cpp:861 browsers/filebrowser/FileView.cpp:297
+#: browsers/CollectionTreeView.cpp:861 browsers/filebrowser/FileView.cpp:296
 msgid "&Edit Track Details"
 msgstr "&Kitekitên Stranê Biguherîne"
 
@@ -4332,7 +4332,7 @@ msgid ""
 "audio players and cd's."
 msgstr ""
 
-#: browsers/filebrowser/FileView.cpp:448
+#: browsers/filebrowser/FileView.cpp:447
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid "Do you really want to delete these %1 tracks?"
@@ -4341,7 +4341,7 @@ msgid_plural "Are you sure you want to delete these %1 items?"
 msgstr[0] "Tu bi rastî dixwazî wan stranên %1 jê bibî?"
 msgstr[1] "Tu bi rastî dixwazî wan stranên %1 jê bibî?"
 
-#: browsers/filebrowser/FileBrowser.cpp:42
+#: browsers/filebrowser/FileBrowser.cpp:43
 #, fuzzy
 #| msgid "Delete Files"
 msgid "Filter Files"
@@ -4520,24 +4520,24 @@ msgid_plural "%1 channels"
 msgstr[0] "Hemû yan &Rojane Bike"
 msgstr[1] "Hemû yan &Rojane Bike"
 
-#: browsers/playlistbrowser/PodcastModel.cpp:542
+#: browsers/playlistbrowser/PodcastModel.cpp:545
 #: playlist/PlaylistModel.cpp:713 amarokurls/BookmarkModel.cpp:266
 msgid "Type"
 msgstr "Cure"
 
-#: browsers/playlistbrowser/PodcastModel.cpp:695
+#: browsers/playlistbrowser/PodcastModel.cpp:710
 #, fuzzy
 #| msgid "&Add Podcast"
 msgid "Add Podcast"
 msgstr "Podcast &Lê Zêde Bike"
 
-#: browsers/playlistbrowser/PodcastModel.cpp:696
+#: browsers/playlistbrowser/PodcastModel.cpp:711
 #, fuzzy
 #| msgid "Enter Stream URL:"
 msgid "Enter RSS 1.0/2.0 or Atom feed URL:"
 msgstr "Darêja URL yê Bikeve:"
 
-#: browsers/playlistbrowser/PodcastModel.cpp:1144
+#: browsers/playlistbrowser/PodcastModel.cpp:1142
 #, fuzzy
 #| msgid "&Next"
 msgctxt "toggle the \"new\" status of this podcast episode"
@@ -4762,7 +4762,7 @@ msgid "Counting"
 msgstr "Girêdan"
 
 #: browsers/CollectionTreeItem.cpp:223
-#: playlist/proxymodels/GroupingProxy.cpp:100
+#: playlist/proxymodels/GroupingProxy.cpp:193
 #, fuzzy, kde-format
 #| msgid "%1 track"
 #| msgid_plural "%1 tracks"
@@ -5115,29 +5115,17 @@ msgstr "Bêdeng"
 msgid "Volume: %1% %2"
 msgstr "Deng: %1%"
 
-#: toolbar/MainToolbar.cpp:59
+#: toolbar/MainToolbar.cpp:58
 #, fuzzy
 #| msgid "Amarok - rediscover your music"
 msgid "Rediscover Your Music"
 msgstr "Amarok - muzîkê ji nû ve keşif bike"
 
-#: toolbar/MainToolbar.cpp:69
+#: toolbar/MainToolbar.cpp:77
 #, fuzzy
 #| msgid "Mood"
 msgid "Main Toolbar"
 msgstr "Rewş"
-
-#: toolbar/MainToolbar.cpp:488
-#, fuzzy
-#| msgid "&Previous"
-msgid "Previous"
-msgstr "&Paşde"
-
-#: toolbar/MainToolbar.cpp:493
-#, fuzzy
-#| msgid "&Next"
-msgid "Next"
-msgstr "&Pêşve"
 
 #. i18n: file: amarokconfig.kcfg:13
 #. i18n: ectx: label, entry, group (General Options)
@@ -10839,8 +10827,8 @@ msgid "Mute"
 msgstr "Bêdeng"
 
 #: widgets/VolumeWidget.cpp:53 widgets/VolumeWidget.cpp:79
-#: widgets/VolumeWidget.cpp:91 widgets/VolumeDial.cpp:267
-#: widgets/VolumeDial.cpp:305
+#: widgets/VolumeWidget.cpp:91 widgets/VolumeDial.cpp:299
+#: widgets/VolumeDial.cpp:337
 #, fuzzy, kde-format
 #| msgid "Volume: %1%"
 msgid "Volume: %1%"
@@ -10878,7 +10866,7 @@ msgstr "Hatiye Sekinandin"
 msgid "Drag in and out items from above."
 msgstr ""
 
-#: widgets/VolumeDial.cpp:261 TrayIcon.cpp:142
+#: widgets/VolumeDial.cpp:293 TrayIcon.cpp:142
 #, fuzzy
 #| msgctxt "State, as in, The playback is silent"
 #| msgid "Mute"
@@ -10961,12 +10949,12 @@ msgstr "Ji bo zêdetir analîzkeran bitikîne"
 msgid "&Visualizations"
 msgstr "&Zindîkirin"
 
-#: widgets/PlayPauseButton.cpp:39 widgets/PlayPauseButton.cpp:109
+#: widgets/PlayPauseButton.cpp:31 widgets/PlayPauseButton.cpp:82
 #, fuzzy
 msgid "Play"
 msgstr "&Bilîze"
 
-#: widgets/PlayPauseButton.cpp:109
+#: widgets/PlayPauseButton.cpp:82
 #, fuzzy
 #| msgid "Paused"
 msgid "Pause"
@@ -11416,6 +11404,16 @@ msgstr "Lê zêde bike && &Lê bide"
 #: TrayIcon.cpp:219
 msgid "&Queue Track"
 msgstr "&Rêza Stranan"
+
+#, fuzzy
+#~| msgid "&Previous"
+#~ msgid "Previous"
+#~ msgstr "&Paşde"
+
+#, fuzzy
+#~| msgid "&Next"
+#~ msgid "Next"
+#~ msgstr "&Pêşve"
 
 #, fuzzy
 #~| msgid "Enter a name for the playlist:"
