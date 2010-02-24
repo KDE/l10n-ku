@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-02-23 07:03+0100\n"
+"POT-Creation-Date: 2010-02-24 07:09+0100\n"
 "PO-Revision-Date: 2009-01-05 14:53+0200\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -2295,12 +2295,12 @@ msgstr "Guherîna di navê makîneyê de KDEyê agahdar bike"
 msgid "(c) 2001 Waldo Bastian"
 msgstr "(c) 2001 Waldo Bastian"
 
-#: kded/khostname.cpp:220 kded/kbuildsycoca.cpp:639 khtml/khtml_global.cpp:212
+#: kded/khostname.cpp:220 kded/kbuildsycoca.cpp:622 khtml/khtml_global.cpp:212
 #: kconf_update/kconf_update.cpp:963
 msgid "Waldo Bastian"
 msgstr "Waldo Bastian"
 
-#: kded/khostname.cpp:220 kded/kbuildsycoca.cpp:638 kded/kbuildsycoca.cpp:639
+#: kded/khostname.cpp:220 kded/kbuildsycoca.cpp:621 kded/kbuildsycoca.cpp:622
 #: kross/qts/main.cpp:63 kross/test/main.cpp:149 kross/console/main.cpp:102
 #: kde3support/kdeui/k3aboutdialog.cpp:184
 msgid "Author"
@@ -2326,107 +2326,51 @@ msgstr "KDE Daemon - heke hewce bike dest bi rojanekirina danegira Sycoca dike"
 msgid "Check Sycoca database only once"
 msgstr "Danegira Sycoca tenê carekê kontrol bike"
 
-#: kded/kbuildsycoca.cpp:406
-#, kde-format
-msgid ""
-"Error creating database '%1'.\n"
-"Check that the permissions are correct on the directory and the disk is not "
-"full.\n"
-msgstr ""
-"Di dema çêkirina danegira '%1' de çewtî derket.\n"
-"Kontrol bike bê ka destûrên di pêristê de rast in û bê ka dîska te tije yan "
-"na.\n"
-
-#: kded/kbuildsycoca.cpp:406 kded/kbuildsycoca.cpp:437
-#: kded/kbuildsycoca.cpp:635
+#: kded/kbuildsycoca.cpp:618
 msgid "KBuildSycoca"
 msgstr "KBuildSycoca"
 
-#: kded/kbuildsycoca.cpp:437
-#, kde-format
-msgid ""
-"Error writing database '%1'.\n"
-"Check that the permissions are correct on the directory and the disk is not "
-"full.\n"
-msgstr ""
-"Di dema nivîsandina li ser danegira '%1' de çewtî derket.\n"
-"Kontrol bike bê ka destûrên di pêristê de rast in û bê ka dîska te tije yan "
-"na.\n"
-
-#: kded/kbuildsycoca.cpp:636
+#: kded/kbuildsycoca.cpp:619
 msgid "Rebuilds the system configuration cache."
 msgstr "Pêşbîra veavakirina pergalê ji nû ve saz dike."
 
-#: kded/kbuildsycoca.cpp:637
+#: kded/kbuildsycoca.cpp:620
 msgid "(c) 1999-2002 KDE Developers"
 msgstr "(c) 1999-2002 Pêşdebirên KDE"
 
-#: kded/kbuildsycoca.cpp:638
+#: kded/kbuildsycoca.cpp:621
 msgid "David Faure"
 msgstr "David Faure"
 
-#: kded/kbuildsycoca.cpp:642
+#: kded/kbuildsycoca.cpp:625
 msgid "Do not signal applications to update"
 msgstr "Ji bo rojanekirina bernameyan sînyalan nede"
 
-#: kded/kbuildsycoca.cpp:643
+#: kded/kbuildsycoca.cpp:626
 msgid "Disable incremental update, re-read everything"
 msgstr ""
 "Rojanekirina her diçe zêde dibe bigire û dêvila vêya her tiştî ji nû ve "
 "bixwîne"
 
-#: kded/kbuildsycoca.cpp:644
+#: kded/kbuildsycoca.cpp:627
 msgid "Check file timestamps"
 msgstr "Agahiyên dîrokê yên pelî kontrol bike"
 
-#: kded/kbuildsycoca.cpp:645
+#: kded/kbuildsycoca.cpp:628
 msgid "Disable checking files (dangerous)"
 msgstr "Nikare kontrola pelan bike (talûke)"
 
-#: kded/kbuildsycoca.cpp:646
+#: kded/kbuildsycoca.cpp:629
 msgid "Create global database"
 msgstr "Danegireke giştî çêbike"
 
-#: kded/kbuildsycoca.cpp:647
+#: kded/kbuildsycoca.cpp:630
 msgid "Perform menu generation test run only"
 msgstr "Tenê ceribandina çêkirina pêşekan bike"
 
-#: kded/kbuildsycoca.cpp:648
+#: kded/kbuildsycoca.cpp:631
 msgid "Track menu id for debug purposes"
 msgstr "Ji bo neqandina çewtiyan nasnameya pêşekê bişopîne"
-
-#: kded/kbuildsycoca.cpp:650
-msgid "Silent - work without windows and stderr"
-msgstr "Bêdeng - pace û deranên standard bikar nîne û bixebite"
-
-#: kded/kbuildsycoca.cpp:651
-msgid "Show progress information (even if 'silent' mode is on)"
-msgstr "Agahiya pêvajoyê nîşan bide (moda 'bêdeng' vekirî be jî)"
-
-#: kded/kbuildsycoca.cpp:677
-msgid "Reloading KDE configuration, please wait..."
-msgstr "Mîhengên KDE ji nû ve tê barkirin, ji kerema xwe re bisekine..."
-
-#: kded/kbuildsycoca.cpp:678
-msgid "KDE Configuration Manager"
-msgstr "Gerînendeyê Veavakirinên KDE"
-
-#: kded/kbuildsycoca.cpp:680
-msgid "Do you want to reload KDE configuration?"
-msgstr "Tu dixwazî mîhengên KDE ji nû ve bar bike?"
-
-#: kded/kbuildsycoca.cpp:680
-msgctxt "Reload KDE configuration messagebox"
-msgid "Reload"
-msgstr "Nûbarkirin"
-
-#: kded/kbuildsycoca.cpp:680
-msgid "Do Not Reload"
-msgstr "Ji Nû Ve Bar Neke"
-
-#: kded/kbuildsycoca.cpp:858
-msgid "Configuration information reloaded successfully."
-msgstr "Hemû mîheng bi awayekî serkeftî hatine barkirin."
 
 #: kpty/kptydevice.cpp:306
 msgid "Error reading from PTY"
@@ -8271,20 +8215,20 @@ msgstr "Kontrola Rastnivîsê temam bu."
 msgid "Sonnet Configuration"
 msgstr "Veavakirina Sonnetê"
 
-#: kdeui/sonnet/highlighter.cpp:241 kdeui/sonnet/highlighter.cpp:264
+#: kdeui/sonnet/highlighter.cpp:292 kdeui/sonnet/highlighter.cpp:315
 #: kde3support/kdeui/k3syntaxhighlighter.cpp:470
 #: kde3support/kdeui/k3syntaxhighlighter.cpp:576
 msgid "As-you-type spell checking enabled."
 msgstr "Dema nivîsandinê de kontrolkirina pêyvrêziyê çalak e."
 
-#: kdeui/sonnet/highlighter.cpp:243
+#: kdeui/sonnet/highlighter.cpp:294
 #: kde3support/kdeui/k3syntaxhighlighter.cpp:578
 msgid "Too many misspelled words. As-you-type spell checking disabled."
 msgstr ""
 "Pir zêde peyvên şaş hate dîtin. Dema nivîsînê de kontrolkirina rastnivîsê wê "
 "were rawestandin."
 
-#: kdeui/sonnet/highlighter.cpp:266
+#: kdeui/sonnet/highlighter.cpp:317
 #: kde3support/kdeui/k3syntaxhighlighter.cpp:472
 msgid "As-you-type spell checking disabled."
 msgstr "Di dema nivisandinê de kontrolkirina nivîsê hate astengkirin."
@@ -13165,6 +13109,49 @@ msgstr "Mijara &rojê"
 #, kde-format
 msgid "No such function \"%1\""
 msgstr "Foksiyona bi navê \"%1\" tune"
+
+#~ msgid ""
+#~ "Error creating database '%1'.\n"
+#~ "Check that the permissions are correct on the directory and the disk is "
+#~ "not full.\n"
+#~ msgstr ""
+#~ "Di dema çêkirina danegira '%1' de çewtî derket.\n"
+#~ "Kontrol bike bê ka destûrên di pêristê de rast in û bê ka dîska te tije "
+#~ "yan na.\n"
+
+#~ msgid ""
+#~ "Error writing database '%1'.\n"
+#~ "Check that the permissions are correct on the directory and the disk is "
+#~ "not full.\n"
+#~ msgstr ""
+#~ "Di dema nivîsandina li ser danegira '%1' de çewtî derket.\n"
+#~ "Kontrol bike bê ka destûrên di pêristê de rast in û bê ka dîska te tije "
+#~ "yan na.\n"
+
+#~ msgid "Silent - work without windows and stderr"
+#~ msgstr "Bêdeng - pace û deranên standard bikar nîne û bixebite"
+
+#~ msgid "Show progress information (even if 'silent' mode is on)"
+#~ msgstr "Agahiya pêvajoyê nîşan bide (moda 'bêdeng' vekirî be jî)"
+
+#~ msgid "Reloading KDE configuration, please wait..."
+#~ msgstr "Mîhengên KDE ji nû ve tê barkirin, ji kerema xwe re bisekine..."
+
+#~ msgid "KDE Configuration Manager"
+#~ msgstr "Gerînendeyê Veavakirinên KDE"
+
+#~ msgid "Do you want to reload KDE configuration?"
+#~ msgstr "Tu dixwazî mîhengên KDE ji nû ve bar bike?"
+
+#~ msgctxt "Reload KDE configuration messagebox"
+#~ msgid "Reload"
+#~ msgstr "Nûbarkirin"
+
+#~ msgid "Do Not Reload"
+#~ msgstr "Ji Nû Ve Bar Neke"
+
+#~ msgid "Configuration information reloaded successfully."
+#~ msgstr "Hemû mîheng bi awayekî serkeftî hatine barkirin."
 
 #, fuzzy
 #~ msgid "Form"
