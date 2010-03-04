@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_systemtray\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-02-14 06:35+0100\n"
+"POT-Creation-Date: 2010-03-02 04:19+0100\n"
 "PO-Revision-Date: 2008-12-26 01:38+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -17,15 +17,11 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural= n != 1;\n"
 "X-Poedit-Language: Kurdish\n"
 
-#: ui/taskarea.cpp:398
+#: statusnotifierwatcher/statusnotifierwatcher.cpp:36
 #, fuzzy
-#| msgid "Visible icons:"
-msgid "Hide icons"
-msgstr "Îkonên xuya:"
-
-#: ui/taskarea.cpp:400
-msgid "Show hidden icons"
-msgstr ""
+#| msgid "Notification from %1"
+msgid "statusnotifierwatcher"
+msgstr "Hişyarî jê %1 "
 
 #: ui/applet.cpp:99
 msgid "add default applets"
@@ -64,11 +60,15 @@ msgctxt "Item is always visible in the systray"
 msgid "Always Visible"
 msgstr ""
 
-#: statusnotifierwatcher/statusnotifierwatcher.cpp:36
+#: ui/taskarea.cpp:398
 #, fuzzy
-#| msgid "Notification from %1"
-msgid "statusnotifierwatcher"
-msgstr "Hişyarî jê %1 "
+#| msgid "Visible icons:"
+msgid "Hide icons"
+msgstr "Îkonên xuya:"
+
+#: ui/taskarea.cpp:400
+msgid "Show hidden icons"
+msgstr ""
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"

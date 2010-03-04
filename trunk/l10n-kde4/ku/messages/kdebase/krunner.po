@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krunner\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-02-14 06:34+0100\n"
+"POT-Creation-Date: 2010-03-04 04:11+0100\n"
 "PO-Revision-Date: 2009-01-03 04:40+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: ku <kde-i18n-doc@lists.kde.org>\n"
@@ -18,30 +18,10 @@ msgstr ""
 "X-Generator: KAider 0.1\n"
 "X-Poedit-Language: Kurdish\n"
 
-#: interfaces/default/interface.cpp:80 interfaces/default/interface.cpp:81
 #: interfaces/quicksand/qs_dialog.cpp:53 interfaces/quicksand/qs_dialog.cpp:54
+#: interfaces/default/interface.cpp:80 interfaces/default/interface.cpp:81
 msgid "Settings"
 msgstr "Veavakirin"
-
-#: interfaces/default/interface.cpp:115
-msgid "Help"
-msgstr ""
-
-#: interfaces/default/interface.cpp:116
-msgid "Information on using this application"
-msgstr ""
-
-#: interfaces/default/interface.cpp:255
-#, fuzzy, kde-format
-#| msgid "%1: %2"
-msgctxt "tooltip, shortcut"
-msgid "%1 (%2)"
-msgstr "%1: %2"
-
-#: interfaces/default/interface.cpp:440
-#, kde-format
-msgid "(From %1, %2)"
-msgstr ""
 
 #: interfaces/quicksand/qs_dialog.cpp:86
 msgid "Actions"
@@ -81,6 +61,110 @@ msgstr "Tu encam nedît."
 msgctxt "%1 current item number, %2 total number of items"
 msgid "%1 of %2"
 msgstr "%1 %2"
+
+#: interfaces/default/interface.cpp:114
+msgid "Help"
+msgstr ""
+
+#: interfaces/default/interface.cpp:115
+msgid "Information on using this application"
+msgstr ""
+
+#: interfaces/default/interface.cpp:263
+#, fuzzy, kde-format
+#| msgid "%1: %2"
+msgctxt "tooltip, shortcut"
+msgid "%1 (%2)"
+msgstr "%1: %2"
+
+#: interfaces/default/interface.cpp:440
+#, kde-format
+msgid "(From %1, %2)"
+msgstr ""
+
+#: lock/lockdlg.cc:100
+msgid "<nobr><b>The session is locked</b></nobr><br />"
+msgstr "<nobr><b>Danişîn miftekirî ye</b></nobr><br />"
+
+#: lock/lockdlg.cc:101
+#, kde-format
+msgid "<nobr><b>The session was locked by %1</b></nobr><br />"
+msgstr "<nobr><b>Danişîn ji aliyê %1 miftekirî ye</b></nobr><br />"
+
+#: lock/lockdlg.cc:114
+msgid "Unl&ock"
+msgstr "&Mifteyê veke"
+
+#: lock/lockdlg.cc:116
+msgid "Sw&itch User..."
+msgstr "&Bikarhêner Biguherîne..."
+
+#: lock/lockdlg.cc:184
+msgid "<b>Unlocking failed</b>"
+msgstr "<b>Vekirina mifteyê bi ser neket</b>"
+
+#: lock/lockdlg.cc:192
+msgid "<b>Warning: Caps Lock on</b>"
+msgstr "<b>Hişyarî: Caps Lock vekirî ye</b>"
+
+#: lock/lockdlg.cc:429
+#, fuzzy, kde-format
+#| msgid ""
+#| "Cannot unlock the session because the authentication system failed to "
+#| "work;\n"
+#| "you must kill krunner_lock (pid %1) manually."
+msgid ""
+"Cannot unlock the session because the authentication system failed to work;\n"
+"you must kill kscreenlocker (pid %1) manually."
+msgstr ""
+"Nikare qufla danişînê veke ji ber ku xebata desthilatdariya pergalê têk çû;\n"
+"pêwist e tu krunner_lock (pid %1) bi destan bidî rawestandin."
+
+#: lock/lockdlg.cc:518
+msgid "&Start New Session"
+msgstr "&Dest Bi Danişîna Nû Bike"
+
+#: lock/lockdlg.cc:526
+#, kde-format
+msgid ""
+"You have chosen to open another desktop session instead of resuming the "
+"current one.\n"
+"The current session will be hidden and a new login screen will be "
+"displayed.\n"
+"An F-key is assigned to each session; F%1 is usually assigned to the first "
+"session, F%2 to the second session and so on. You can switch between "
+"sessions by pressing Ctrl, Alt and the appropriate F-key at the same time. "
+"Additionally, the KDE Panel and Desktop menus have actions for switching "
+"between sessions."
+msgstr ""
+"Te danişîna sermasê yekê din vekir şûna dom kirina danişîna heyî.\n"
+"Danişîna heyî dê bê veşartin û dîmena têketina nû dê bê nîşandan.\n"
+"Bişkojkên-F bi danişînan re girêdayî ne; F%1 bi giştî bi danişîna pêşîn re "
+"girêdayî ye, F%2 bi danişîna du re û wisa dom dike. Tu dikarî danişînan bi "
+"pêl kirina bişkojkên Ctrl, Alt û bişkojka-F yê lêhatî bi hevre biguherînî. "
+"Him jî, çalakiyên guherandina danişînan di Panela KDE û pêşeka Sermasê de "
+"heye."
+
+#: lock/lockdlg.cc:539
+msgid "&Do not ask again"
+msgstr "&Careke din nepirse"
+
+#: lock/lockdlg.cc:595
+msgid "Session"
+msgstr "Danişîn"
+
+#: lock/lockdlg.cc:595
+msgid "Location"
+msgstr "Cih"
+
+#: lock/lockdlg.cc:623
+msgctxt "session"
+msgid "&Activate"
+msgstr "&Çalakkirin"
+
+#: lock/lockdlg.cc:632
+msgid "Start &New Session"
+msgstr "Dest Bi Danişîna &Nû Bike"
 
 #: lock/autologout.cc:38
 msgid "<qt><nobr><b>Automatic Log Out</b></nobr></qt>"
@@ -149,94 +233,6 @@ msgstr "<i>Kcheckpass</i> nikare bixebite. Dibe ku setuid ne root be."
 msgid "No appropriate greeter plugin configured."
 msgstr "Pêvekeke lihevkir a beramber nayê dîtin."
 
-#: lock/lockdlg.cc:100
-msgid "<nobr><b>The session is locked</b></nobr><br />"
-msgstr "<nobr><b>Danişîn miftekirî ye</b></nobr><br />"
-
-#: lock/lockdlg.cc:101
-#, kde-format
-msgid "<nobr><b>The session was locked by %1</b></nobr><br />"
-msgstr "<nobr><b>Danişîn ji aliyê %1 miftekirî ye</b></nobr><br />"
-
-#: lock/lockdlg.cc:114
-msgid "Unl&ock"
-msgstr "&Mifteyê veke"
-
-#: lock/lockdlg.cc:116
-msgid "Sw&itch User..."
-msgstr "&Bikarhêner Biguherîne..."
-
-#: lock/lockdlg.cc:184
-msgid "<b>Unlocking failed</b>"
-msgstr "<b>Vekirina mifteyê bi ser neket</b>"
-
-#: lock/lockdlg.cc:192
-msgid "<b>Warning: Caps Lock on</b>"
-msgstr "<b>Hişyarî: Caps Lock vekirî ye</b>"
-
-#: lock/lockdlg.cc:429
-#, fuzzy, kde-format
-#| msgid ""
-#| "Cannot unlock the session because the authentication system failed to "
-#| "work;\n"
-#| "you must kill krunner_lock (pid %1) manually."
-msgid ""
-"Cannot unlock the session because the authentication system failed to work;\n"
-"you must kill kscreenlocker (pid %1) manually."
-msgstr ""
-"Nikare qufla danişînê veke ji ber ku xebata desthilatdariya pergalê têk çû;\n"
-"pêwist e tu krunner_lock (pid %1) bi destan bidî rawestandin."
-
-#: lock/lockdlg.cc:521
-msgid "&Start New Session"
-msgstr "&Dest Bi Danişîna Nû Bike"
-
-#: lock/lockdlg.cc:529
-#, kde-format
-msgid ""
-"You have chosen to open another desktop session instead of resuming the "
-"current one.\n"
-"The current session will be hidden and a new login screen will be "
-"displayed.\n"
-"An F-key is assigned to each session; F%1 is usually assigned to the first "
-"session, F%2 to the second session and so on. You can switch between "
-"sessions by pressing Ctrl, Alt and the appropriate F-key at the same time. "
-"Additionally, the KDE Panel and Desktop menus have actions for switching "
-"between sessions."
-msgstr ""
-"Te danişîna sermasê yekê din vekir şûna dom kirina danişîna heyî.\n"
-"Danişîna heyî dê bê veşartin û dîmena têketina nû dê bê nîşandan.\n"
-"Bişkojkên-F bi danişînan re girêdayî ne; F%1 bi giştî bi danişîna pêşîn re "
-"girêdayî ye, F%2 bi danişîna du re û wisa dom dike. Tu dikarî danişînan bi "
-"pêl kirina bişkojkên Ctrl, Alt û bişkojka-F yê lêhatî bi hevre biguherînî. "
-"Him jî, çalakiyên guherandina danişînan di Panela KDE û pêşeka Sermasê de "
-"heye."
-
-#: lock/lockdlg.cc:542
-msgid "&Do not ask again"
-msgstr "&Careke din nepirse"
-
-#: lock/lockdlg.cc:598
-msgid "Session"
-msgstr "Danişîn"
-
-#: lock/lockdlg.cc:598
-msgid "Location"
-msgstr "Cih"
-
-#: lock/lockdlg.cc:626
-msgctxt "session"
-msgid "&Activate"
-msgstr "&Çalakkirin"
-
-#: lock/lockdlg.cc:635
-msgid "Start &New Session"
-msgstr "Dest Bi Danişîna &Nû Bike"
-
-#: ksystemactivitydialog.cpp:39
-msgid "System Activity"
-msgstr "Çalakiya Pergalê"
-
 #: krunnerdialog.cpp:67 krunnerapp.cpp:124
 msgid "Run Command"
 msgstr "Fermanê Bixebitîne"
@@ -261,17 +257,71 @@ msgstr "Aaron J. Seigo"
 msgid "Author and maintainer"
 msgstr "Nivîskar û kesê miqate"
 
-#: configdialog.cpp:50
+#: krunnerapp.cpp:129
+msgid "Run Command on clipboard contents"
+msgstr "Fermanê di naveroka panoyê de bixebitîne"
+
+#: krunnerapp.cpp:135
+msgid "Show System Activity"
+msgstr "Çalakbûna Pergalê Nîşan Bide"
+
+#: krunnerapp.cpp:148
+msgid "Switch User"
+msgstr "Bikarhêner Biguherîne"
+
+#: krunnerapp.cpp:158
+msgid "Lock Session"
+msgstr "Danişînê Biqufilîne"
+
+#: krunnerapp.cpp:166
+msgid "Log Out"
+msgstr "Derketin"
+
+#: krunnerapp.cpp:171
+msgid "Log Out Without Confirmation"
+msgstr "Bê Erêkirinê Derkeve"
+
+#: krunnerapp.cpp:176
+msgid "Halt Without Confirmation"
+msgstr "Bê Erêkirinê Rawestîne"
+
+#: krunnerapp.cpp:181
+msgid "Reboot Without Confirmation"
+msgstr "Bê Erêkirinê ji Nû ve Veke"
+
+#: krunnerapp.cpp:219
+#, kde-format
+msgctxt "Run krunner restricting the search only to runner %1"
+msgid "Run Command (runner \"%1\" only)"
+msgstr ""
+
+#: krunnerapp.cpp:397
+msgid ""
+"Could not log out properly.\n"
+"The session manager cannot be contacted. You can try to force a shutdown by "
+"pressing Ctrl+Alt+Backspace; note, however, that your current session will "
+"not be saved with a forced shutdown."
+msgstr ""
+"Danişîn bi awayekî rast nayê girtin.\n"
+"Bi rêveberê danişînê re têkilî pêk nayê. Tu dikarî bi hev re pêl li "
+"bişkojkên CTRL, ALT û BACKSPACE bikî û girtinê araste bikî; nîşe, bi girtina "
+"arastekî dê danişîna te nayê tomarkirin."
+
+#: configdialog.cpp:52
 msgid "Plugins"
 msgstr "Pêvek"
 
-#: configdialog.cpp:74
+#: configdialog.cpp:76
 msgid "User Interface"
 msgstr "Navrû ya Bikarhêner"
 
-#: configdialog.cpp:80
+#: configdialog.cpp:82
 msgid "Available Features"
 msgstr "Taybetiyên Heyî"
+
+#: ksystemactivitydialog.cpp:39
+msgid "System Activity"
+msgstr "Çalakiya Pergalê"
 
 #. i18n: file: interfaceOptions.ui:17
 #. i18n: ectx: property (text), widget (QLabel, label_2)
@@ -401,56 +451,6 @@ msgid ""
 "       actually perform useful computations, so it is not desirable to "
 "suspend them."
 msgstr ""
-
-#: krunnerapp.cpp:129
-msgid "Run Command on clipboard contents"
-msgstr "Fermanê di naveroka panoyê de bixebitîne"
-
-#: krunnerapp.cpp:135
-msgid "Show System Activity"
-msgstr "Çalakbûna Pergalê Nîşan Bide"
-
-#: krunnerapp.cpp:148
-msgid "Switch User"
-msgstr "Bikarhêner Biguherîne"
-
-#: krunnerapp.cpp:158
-msgid "Lock Session"
-msgstr "Danişînê Biqufilîne"
-
-#: krunnerapp.cpp:166
-msgid "Log Out"
-msgstr "Derketin"
-
-#: krunnerapp.cpp:171
-msgid "Log Out Without Confirmation"
-msgstr "Bê Erêkirinê Derkeve"
-
-#: krunnerapp.cpp:176
-msgid "Halt Without Confirmation"
-msgstr "Bê Erêkirinê Rawestîne"
-
-#: krunnerapp.cpp:181
-msgid "Reboot Without Confirmation"
-msgstr "Bê Erêkirinê ji Nû ve Veke"
-
-#: krunnerapp.cpp:219
-#, kde-format
-msgctxt "Run krunner restricting the search only to runner %1"
-msgid "Run Command (runner \"%1\" only)"
-msgstr ""
-
-#: krunnerapp.cpp:397
-msgid ""
-"Could not log out properly.\n"
-"The session manager cannot be contacted. You can try to force a shutdown by "
-"pressing Ctrl+Alt+Backspace; note, however, that your current session will "
-"not be saved with a forced shutdown."
-msgstr ""
-"Danişîn bi awayekî rast nayê girtin.\n"
-"Bi rêveberê danişînê re têkilî pêk nayê. Tu dikarî bi hev re pêl li "
-"bişkojkên CTRL, ALT û BACKSPACE bikî û girtinê araste bikî; nîşe, bi girtina "
-"arastekî dê danişîna te nayê tomarkirin."
 
 #~ msgid "KRunner Settings"
 #~ msgstr "Veavakirina KRunner "

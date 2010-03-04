@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lancelot\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-02-08 07:09+0100\n"
+"POT-Creation-Date: 2010-02-28 14:15+0100\n"
 "PO-Revision-Date: 2009-01-11 21:29+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -17,14 +17,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural= n != 1;\n"
 "X-Poedit-Language: Kurdish\n"
 "X-Poedit-SourceCharset: utf8\n"
-
-#: LancelotConfig.cpp:50
-msgid "Available Features"
-msgstr ""
-
-#: LancelotConfig.cpp:54
-msgid "Search"
-msgstr "Lê Bigere"
 
 #: AboutData.cpp:26 LancelotWindow.cpp:802
 msgid "Lancelot"
@@ -67,6 +59,121 @@ msgstr "Robert Knight"
 #: AboutData.cpp:48
 msgid "Kickoff data models"
 msgstr "Kickoff modelên dane"
+
+#: LancelotConfig.cpp:50
+msgid "Available Features"
+msgstr ""
+
+#: LancelotConfig.cpp:54
+msgid "Search"
+msgstr "Lê Bigere"
+
+#: i18n_strings.cpp:24 LancelotWindow.cpp:146
+#, fuzzy
+#| msgid "Documents"
+msgid "&Documents"
+msgstr "Belge"
+
+#: i18n_strings.cpp:25 LancelotWindow.cpp:147
+#, fuzzy
+#| msgid "Contacts"
+msgid "&Contacts"
+msgstr "Têkilî"
+
+#: i18n_strings.cpp:26 LancelotWindow.cpp:148
+#, fuzzy
+#| msgid "Computer"
+msgid "Co&mputer"
+msgstr "Komputer"
+
+#. i18n: file: ui/LancelotConfigBase.ui:143
+#. i18n: ectx: attribute (title), widget (QWidget, tabApplications)
+#: i18n_strings.cpp:27 LancelotWindow.cpp:149 rc.cpp:41
+#, fuzzy
+#| msgid "Applications"
+msgid "&Applications"
+msgstr "Sepan"
+
+#: i18n_strings.cpp:29 LancelotWindow.cpp:403
+msgid "Documents"
+msgstr "Belge"
+
+#: i18n_strings.cpp:30 LancelotWindow.cpp:403
+msgid "Contacts"
+msgstr "Têkilî"
+
+#: i18n_strings.cpp:31 LancelotWindow.cpp:403
+msgid "Computer"
+msgstr "Komputer"
+
+#. i18n: file: ui/LancelotConfigBase.ui:202
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: i18n_strings.cpp:32 LancelotWindow.cpp:141 LancelotWindow.cpp:403 rc.cpp:59
+msgid "Applications"
+msgstr "Sepan"
+
+#: i18n_strings.cpp:35
+#, kde-format
+msgctxt "needed program is not running"
+msgid "%1 is not running"
+msgstr "%1 naxebite"
+
+#: i18n_strings.cpp:36
+#, kde-format
+msgctxt "start a program"
+msgid "start %1"
+msgstr "destpêkirina %1"
+
+#: i18n_strings.cpp:37
+msgid "Online contacts"
+msgstr "Kesên girêdayî"
+
+#: i18n_strings.cpp:38
+msgid "e-Mail contacts"
+msgstr "têkiliyên e-Peyam"
+
+#: LancelotWindow.cpp:122
+#, fuzzy
+#| msgid "Search"
+msgctxt "Enter the text to search for"
+msgid "Search..."
+msgstr "Lê Bigere"
+
+#: LancelotWindow.cpp:139
+msgid "Favorites"
+msgstr "Bijarte"
+
+#: LancelotWindow.cpp:711
+msgid "Make buttons wider"
+msgstr ""
+
+#: LancelotWindow.cpp:713
+msgid "Make buttons narrower"
+msgstr ""
+
+#: LancelotWindow.cpp:803
+msgid "Open Lancelot menu"
+msgstr "Pêşeka Lancelot veke"
+
+#: LancelotWindow.cpp:985
+msgid "Menu Editor"
+msgstr "Edîtorê Pêşekê"
+
+#: LancelotWindow.cpp:990
+msgid "Configure &Shortcuts..."
+msgstr "&Kurterê yan Veava Bike..."
+
+#: LancelotWindow.cpp:995
+msgid "Configure &Lancelot menu..."
+msgstr "Pêşeka &Lancelot veava bike..."
+
+#: LancelotWindow.cpp:1000
+msgid "&About Lancelot"
+msgstr "&Der barê Lancelot de"
+
+#: LancelotWindow.cpp:1024 LancelotWindow.cpp:1026
+msgid "Configure Lancelot menu"
+msgstr "Pêşeka Lancelot veava bike"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -174,14 +281,6 @@ msgstr "Pergal"
 msgid "Choose which actions you want to be assigned to the system buttons:"
 msgstr ""
 
-#. i18n: file: ui/LancelotConfigBase.ui:143
-#. i18n: ectx: attribute (title), widget (QWidget, tabApplications)
-#: rc.cpp:41 i18n_strings.cpp:27 LancelotWindow.cpp:149
-#, fuzzy
-#| msgid "Applications"
-msgid "&Applications"
-msgstr "Sepan"
-
 #. i18n: file: ui/LancelotConfigBase.ui:149
 #. i18n: ectx: property (title), widget (QGroupBox, groupAppBrowser)
 #: rc.cpp:44
@@ -211,12 +310,6 @@ msgstr "Sînora hejmara stûnan tune ye"
 #: rc.cpp:56
 msgid "Limit to two columns"
 msgstr "Bi du stûnan ve sînor bike"
-
-#. i18n: file: ui/LancelotConfigBase.ui:202
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:59 i18n_strings.cpp:32 LancelotWindow.cpp:141 LancelotWindow.cpp:403
-msgid "Applications"
-msgstr "Sepan"
 
 #. i18n: file: ui/LancelotConfigBase.ui:208
 #. i18n: ectx: property (text), widget (QLabel, labelNewDocuments)
@@ -298,99 +391,6 @@ msgstr ""
 #: rc.cpp:93
 msgid "Clear gathered data"
 msgstr ""
-
-#: i18n_strings.cpp:24 LancelotWindow.cpp:146
-#, fuzzy
-#| msgid "Documents"
-msgid "&Documents"
-msgstr "Belge"
-
-#: i18n_strings.cpp:25 LancelotWindow.cpp:147
-#, fuzzy
-#| msgid "Contacts"
-msgid "&Contacts"
-msgstr "Têkilî"
-
-#: i18n_strings.cpp:26 LancelotWindow.cpp:148
-#, fuzzy
-#| msgid "Computer"
-msgid "Co&mputer"
-msgstr "Komputer"
-
-#: i18n_strings.cpp:29 LancelotWindow.cpp:403
-msgid "Documents"
-msgstr "Belge"
-
-#: i18n_strings.cpp:30 LancelotWindow.cpp:403
-msgid "Contacts"
-msgstr "Têkilî"
-
-#: i18n_strings.cpp:31 LancelotWindow.cpp:403
-msgid "Computer"
-msgstr "Komputer"
-
-#: i18n_strings.cpp:35
-#, kde-format
-msgctxt "needed program is not running"
-msgid "%1 is not running"
-msgstr "%1 naxebite"
-
-#: i18n_strings.cpp:36
-#, kde-format
-msgctxt "start a program"
-msgid "start %1"
-msgstr "destpêkirina %1"
-
-#: i18n_strings.cpp:37
-msgid "Online contacts"
-msgstr "Kesên girêdayî"
-
-#: i18n_strings.cpp:38
-msgid "e-Mail contacts"
-msgstr "têkiliyên e-Peyam"
-
-#: LancelotWindow.cpp:122
-#, fuzzy
-#| msgid "Search"
-msgctxt "Enter the text to search for"
-msgid "Search..."
-msgstr "Lê Bigere"
-
-#: LancelotWindow.cpp:139
-msgid "Favorites"
-msgstr "Bijarte"
-
-#: LancelotWindow.cpp:711
-msgid "Make buttons wider"
-msgstr ""
-
-#: LancelotWindow.cpp:713
-msgid "Make buttons narrower"
-msgstr ""
-
-#: LancelotWindow.cpp:803
-msgid "Open Lancelot menu"
-msgstr "Pêşeka Lancelot veke"
-
-#: LancelotWindow.cpp:985
-msgid "Menu Editor"
-msgstr "Edîtorê Pêşekê"
-
-#: LancelotWindow.cpp:990
-msgid "Configure &Shortcuts..."
-msgstr "&Kurterê yan Veava Bike..."
-
-#: LancelotWindow.cpp:995
-msgid "Configure &Lancelot menu..."
-msgstr "Pêşeka &Lancelot veava bike..."
-
-#: LancelotWindow.cpp:1000
-msgid "&About Lancelot"
-msgstr "&Der barê Lancelot de"
-
-#: LancelotWindow.cpp:1024 LancelotWindow.cpp:1026
-msgid "Configure Lancelot menu"
-msgstr "Pêşeka Lancelot veava bike"
 
 #, fuzzy
 #~| msgid "Removable"
