@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_devicenotifier\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-02-11 07:03+0100\n"
+"POT-Creation-Date: 2010-03-09 04:12+0100\n"
 "PO-Revision-Date: 2008-12-25 02:34+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -18,26 +18,34 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural= n != 1;\n"
 "X-Poedit-Language: Kurdish\n"
 
-#: deviceitem.cpp:271
+#: deviceitem.cpp:272
 msgid "Click to safely remove this device from the computer."
 msgstr ""
 
-#: deviceitem.cpp:272
+#: deviceitem.cpp:273
 msgid "Device is plugged in and can be accessed by applications."
 msgstr ""
 
-#: deviceitem.cpp:274
+#: deviceitem.cpp:275
 msgid "Click to access this device from other applications."
 msgstr ""
 
-#: deviceitem.cpp:275
+#: deviceitem.cpp:276
 msgid "Device is plugged in, but not mounted for access yet."
 msgstr ""
 
-#: deviceitem.cpp:366
+#: deviceitem.cpp:367
 #, kde-format
 msgctxt "@info:status Free disk space"
 msgid "%1 free"
+msgstr ""
+
+#: deviceitem.cpp:421
+msgid "Mounting..."
+msgstr ""
+
+#: deviceitem.cpp:424
+msgid "Unmounting..."
 msgstr ""
 
 #: devicenotifier.cpp:202
@@ -61,11 +69,11 @@ msgctxt "General options page"
 msgid "General"
 msgstr ""
 
-#: notifierdialog.cpp:65
+#: notifierdialog.cpp:66
 msgid "Show hidden devices"
 msgstr ""
 
-#: notifierdialog.cpp:513
+#: notifierdialog.cpp:518
 #, fuzzy
 #| msgid ""
 #| "Cannot unmount the device.\n"
@@ -77,7 +85,7 @@ msgstr ""
 "Nikare girêdana cîhazê qut bike.\n"
 "Yek an jî zêdetir pelên di vê cîhazê de bi sepanekê re vekirî ne."
 
-#: notifierdialog.cpp:532
+#: notifierdialog.cpp:537
 msgid ""
 "Cannot eject the disc.\n"
 "One or more files on this disc are open within an application."
@@ -85,27 +93,23 @@ msgstr ""
 "Nikare dîskê jê bavêje.\n"
 "Yek an jî zêdetir pelên di vê dîskê de bi sepanekê re vekirî ne."
 
-#: notifierdialog.cpp:547
+#: notifierdialog.cpp:552
 msgid "Cannot mount the disc."
 msgstr ""
 
-#: notifierdialog.cpp:756
+#: notifierdialog.cpp:761
 #, kde-format
 msgctxt "Hide a device"
 msgid "Hide %1"
 msgstr ""
 
-#: notifierdialog.cpp:820
-#, fuzzy
-#| msgid "No devices plugged in"
-msgid "No devices plugged in."
-msgstr "Tu cîhaz nehatiye girêdan"
+#: notifierdialog.cpp:825
+msgid "Available Devices"
+msgstr ""
 
-#: notifierdialog.cpp:822
-#, fuzzy
-#| msgid "<font color=\"%1\">Devices recently plugged in:</font>"
-msgid "Devices recently plugged in:"
-msgstr "<font color=\"%1\">Cîhazên pir hatine girêdan:</font>"
+#: notifierdialog.cpp:827
+msgid "No Devices Available"
+msgstr ""
 
 #. i18n: file: configurationpage.ui:23
 #. i18n: ectx: property (text), widget (QLabel, label_2)
@@ -130,6 +134,16 @@ msgstr ""
 #: rc.cpp:12 rc.cpp:24
 msgid "All devices"
 msgstr ""
+
+#, fuzzy
+#~| msgid "No devices plugged in"
+#~ msgid "No devices plugged in."
+#~ msgstr "Tu cîhaz nehatiye girêdan"
+
+#, fuzzy
+#~| msgid "<font color=\"%1\">Devices recently plugged in:</font>"
+#~ msgid "Devices recently plugged in:"
+#~ msgstr "<font color=\"%1\">Cîhazên pir hatine girêdan:</font>"
 
 #~ msgid "&Time to stay on top:"
 #~ msgstr "&Dema li ser bimîne:"
