@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-03-12 04:34+0100\n"
+"POT-Creation-Date: 2010-03-13 04:31+0100\n"
 "PO-Revision-Date: 2009-02-21 06:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -577,7 +577,7 @@ msgstr "Nekarî agahiyan ji Wikipedia bîne: %1"
 msgid "New Bookmark"
 msgstr "Bijareya Nû"
 
-#: amarokurls/BookmarkManager.cpp:43 MainWindow.cpp:778
+#: amarokurls/BookmarkManager.cpp:43 MainWindow.cpp:779
 #, fuzzy
 #| msgid "Cover Manager"
 msgid "Bookmark Manager"
@@ -678,7 +678,7 @@ msgstr "Stranên Hilbijartî"
 #: collection/audiocd/AudioCdCollection.cpp:418
 #: collection/audiocd/AudioCdCollection.cpp:419
 #: collection/audiocd/AudioCdCollection.cpp:420
-#: context/applets/albums/AlbumItem.cpp:73 MainWindow.cpp:1209
+#: context/applets/albums/AlbumItem.cpp:73 MainWindow.cpp:1224
 msgid "Unknown"
 msgstr "Nenas"
 
@@ -714,7 +714,7 @@ msgstr "Hunermend \"%1\" jê %2"
 msgid "Artist \"%1\""
 msgstr "Hunermend \"%1\""
 
-#: amarokurls/NavigationUrlGenerator.cpp:216 MainWindow.cpp:774
+#: amarokurls/NavigationUrlGenerator.cpp:216 MainWindow.cpp:775
 #, fuzzy
 #| msgid "Bookmark"
 msgid "Bookmark Media Sources View"
@@ -3093,7 +3093,7 @@ msgstr "Rûgir Hat Dîtin"
 msgid "Cover Found"
 msgstr "Rûgir Hat Dîtin"
 
-#: covermanager/CoverManager.cpp:102 MainWindow.cpp:794
+#: covermanager/CoverManager.cpp:102 MainWindow.cpp:795
 msgid "Cover Manager"
 msgstr "Rêvebirê Rûgira Albuman"
 
@@ -3754,7 +3754,7 @@ msgstr "&Pêşketî..."
 msgid "Folder"
 msgstr "Peldank"
 
-#: dialogs/ScriptManager.cpp:100 MainWindow.cpp:803
+#: dialogs/ScriptManager.cpp:100 MainWindow.cpp:804
 msgid "Script Manager"
 msgstr "Rêveberê Skrîptê"
 
@@ -4233,7 +4233,7 @@ msgstr "Hunermendên wekî vê bîne"
 msgid "Current Track"
 msgstr "Ji ve perçeyê hez bike"
 
-#: dynamic/biases/EchoNest.cpp:116 MainWindow.cpp:273
+#: dynamic/biases/EchoNest.cpp:116 MainWindow.cpp:274
 msgid "Playlist"
 msgstr "Lîsteya Lêdanê"
 
@@ -5283,7 +5283,7 @@ msgstr "&Lêgere"
 msgid "%1 layout"
 msgstr " lêdan"
 
-#: playlist/PlaylistViewUrlGenerator.cpp:101 MainWindow.cpp:786
+#: playlist/PlaylistViewUrlGenerator.cpp:101 MainWindow.cpp:787
 #, fuzzy
 #| msgid "Smart Playlist"
 msgid "Bookmark Playlist Setup"
@@ -5701,7 +5701,7 @@ msgstr "Yên Dawiyê Nehatine &Lêdan"
 msgid "Stop Playing After This Track"
 msgstr "Piştî Vê Stranê Lêdanê Raweste"
 
-#: playlist/view/PlaylistViewCommon.cpp:128 MainWindow.cpp:904
+#: playlist/view/PlaylistViewCommon.cpp:128 MainWindow.cpp:905
 msgid "Queue Track"
 msgstr "Stran Rêz Kirî"
 
@@ -7128,19 +7128,19 @@ msgstr ""
 msgid "Amarok Bookmarks"
 msgstr "Bijare"
 
-#: widgets/MainControlsWidget.cpp:62 MainWindow.cpp:827
+#: widgets/MainControlsWidget.cpp:62 MainWindow.cpp:828
 msgid "Previous Track"
 msgstr "Strana Berê"
 
-#: widgets/MainControlsWidget.cpp:70 ActionClasses.cpp:176
+#: widgets/MainControlsWidget.cpp:70 ActionClasses.cpp:179
 msgid "Play/Pause"
 msgstr "Lêde/Sekinîne"
 
-#: widgets/MainControlsWidget.cpp:78 ActionClasses.cpp:488
+#: widgets/MainControlsWidget.cpp:78 ActionClasses.cpp:491
 msgid "Stop"
 msgstr "Rawestîne"
 
-#: widgets/MainControlsWidget.cpp:86 MainWindow.cpp:843
+#: widgets/MainControlsWidget.cpp:86 MainWindow.cpp:844
 msgid "Next Track"
 msgstr "Strana Pêş"
 
@@ -7514,347 +7514,6 @@ msgstr "Desteka MP3 Tune"
 msgid "Preamp"
 msgstr "Hêzdêr"
 
-#: ActionClasses.cpp:86
-msgid "Amarok Menu"
-msgstr "Pêşeka Amarok"
-
-#: ActionClasses.cpp:303
-msgid "Click to change"
-msgstr "Bitikîne û biguherîne"
-
-#: ActionClasses.cpp:320
-msgid "&Replay Gain Mode"
-msgstr ""
-
-#: ActionClasses.cpp:322
-#, fuzzy
-#| msgctxt "State, as in, disabled"
-#| msgid "&Off"
-msgctxt "Replay Gain state, as in, disabled"
-msgid "&Off"
-msgstr "&Girtî"
-
-#: ActionClasses.cpp:322
-msgctxt "Item, as in, music"
-msgid "&Track"
-msgstr "&Stran"
-
-#: ActionClasses.cpp:323
-msgid "&Album"
-msgstr "&Album"
-
-#: ActionClasses.cpp:332
-msgid "&Equalizer"
-msgstr "&Yeksanker "
-
-#: ActionClasses.cpp:360
-#, fuzzy
-#| msgid "Your machine does not support OpenGL widgets."
-msgid "Your current setup does not support the equalizer feature"
-msgstr "Makîneya te piştgirî nade alavên OpenGL."
-
-#: ActionClasses.cpp:365
-#, fuzzy
-#| msgctxt "State, as in, disabled"
-#| msgid "&Off"
-msgctxt "Equalizer state, as in, disabled"
-msgid "&Off"
-msgstr "&Girtî"
-
-#: ActionClasses.cpp:416
-msgid "Burn"
-msgstr "Nivîsandina CD yê"
-
-#: ActionClasses.cpp:455
-msgid "Current Playlist"
-msgstr "Lîsteya Lêdanê yê Niha"
-
-#: ActionClasses.cpp:456
-msgid "Selected Tracks"
-msgstr "Stranên Hilbijartî"
-
-#: ActionClasses.cpp:523
-#, fuzzy
-#| msgid "Love Current Track"
-msgid "Stop after current Track"
-msgstr "Ji ve perçeyê hez bike"
-
-#: ActionClasses.cpp:538
-#, fuzzy
-#| msgid "Love Current Track"
-msgid "Stop after current track: On"
-msgstr "Ji ve perçeyê hez bike"
-
-#: ActionClasses.cpp:543
-#, fuzzy
-#| msgid "Love Current Track"
-msgid "Stop after current track: Off"
-msgstr "Ji ve perçeyê hez bike"
-
-#: MainWindow.cpp:261
-#, fuzzy
-#| msgid "File Extension of Source"
-msgid "Media Sources"
-msgstr "Pêveka Dosiya Çavkaniyê"
-
-#: MainWindow.cpp:294
-#, fuzzy
-#| msgid "Center"
-msgid "Context"
-msgstr "Navîn"
-
-#: MainWindow.cpp:322
-msgid "Local Music"
-msgstr ""
-
-#: MainWindow.cpp:324
-msgid "Local sources of content"
-msgstr ""
-
-#: MainWindow.cpp:332
-msgid "Internet"
-msgstr "Tor"
-
-#: MainWindow.cpp:334
-msgid "Online sources of content"
-msgstr ""
-
-#: MainWindow.cpp:340
-msgid "Playlists"
-msgstr "lîsteya lêdanê"
-
-#: MainWindow.cpp:342
-#, fuzzy
-#| msgid "Various Artists"
-msgid "Various types of playlists"
-msgstr "Hunermendên cur bi cur"
-
-#: MainWindow.cpp:349
-msgid "Files"
-msgstr "Pel"
-
-#: MainWindow.cpp:351
-msgid "Browse local hard drive for content"
-msgstr ""
-
-#: MainWindow.cpp:421
-#, fuzzy
-#| msgctxt "@title buttontext for popup-menu"
-#| msgid "View"
-msgctxt "@item:inmenu"
-msgid "&View"
-msgstr "Bergeh"
-
-#: MainWindow.cpp:424
-#, fuzzy
-#| msgid "Layout"
-msgid "Lock layout"
-msgstr "Niştecih"
-
-#: MainWindow.cpp:535
-msgid ""
-"<qt>Closing the main window will keep Amarok running in the System Tray. Use "
-"<B>Quit</B> from the menu, or the Amarok tray icon to exit the application.</"
-"qt>"
-msgstr ""
-"<qt>Girtina paceya mak dê xebata Amarok di Berkêşka Pergal de bidomîne. Ji "
-"pêşekê an jî ji îkona sepanê ya di berkêşk de ne <B>Derkeve</B> bi kar bîne."
-"</qt>"
-
-#: MainWindow.cpp:537
-msgid "Docking in System Tray"
-msgstr "Di Berkêşka Pergalê de Bicih be"
-
-#: MainWindow.cpp:555
-msgid "Use relative path for &saving"
-msgstr "Pelrêça têkîldar bi kar bîne ji bo &tomarkirinê"
-
-#: MainWindow.cpp:566
-msgid "Save As"
-msgstr "Cuda Tomar Bike"
-
-#: MainWindow.cpp:614
-msgid "Play Media (Files or URLs)"
-msgstr "(Pelên an jî URLyên) Medya Lê Bide"
-
-#: MainWindow.cpp:614
-msgid "Add Media (Files or URLs)"
-msgstr "(Pelên an jî URLyên) Medya Lê Zêde Bike"
-
-#: MainWindow.cpp:629
-msgid "Add Stream"
-msgstr "Darêj Lê Zêde Bike"
-
-#: MainWindow.cpp:629
-msgid "Enter Stream URL:"
-msgstr "Darêja URL yê Bikeve:"
-
-#: MainWindow.cpp:750
-msgid "&Add Media..."
-msgstr "Medya &Lê zêde bike..."
-
-#: MainWindow.cpp:755
-msgctxt "clear playlist"
-msgid "&Clear Playlist"
-msgstr "Lîsteya Lêdanê &Paqij Bike"
-
-#: MainWindow.cpp:759
-#, fuzzy
-#| msgid "Remove Applet"
-msgctxt "Remove duplicate and dead (unplayable) tracks from the playlist"
-msgid "Re&move Duplicates"
-msgstr "Sepanok Rake"
-
-#: MainWindow.cpp:766
-msgid "&Add Stream..."
-msgstr "Darêj &Lê zêde bike..."
-
-#: MainWindow.cpp:770
-msgid "&Export Playlist As..."
-msgstr "Lîsteya lêdanê Cuda &Derxîne Derve"
-
-#: MainWindow.cpp:782
-msgid "Equalizer"
-msgstr "Yeksanker "
-
-#: MainWindow.cpp:790
-#, fuzzy
-#| msgid "Bookmark this Artist"
-msgid "Bookmark Context Applets"
-msgstr "Vê Hunermendê Bike Bijare"
-
-#: MainWindow.cpp:798
-msgid "Play Media..."
-msgstr "Medya Lê Bide..."
-
-#: MainWindow.cpp:807
-msgid "&Seek Forward"
-msgstr "Pêşveçûna &Bilez"
-
-#: MainWindow.cpp:813
-msgid "&Seek Backward"
-msgstr "Paşveçûna &Bilez"
-
-#: MainWindow.cpp:820
-msgid "Update Collection"
-msgstr "Berhevokê Rojane Bike"
-
-#: MainWindow.cpp:833
-#, fuzzy
-#| msgid "Repeat Playlist"
-msgid "Repopulate Playlist"
-msgstr "Lîsteya Lêdanê Dubare Bike"
-
-#: MainWindow.cpp:848
-msgid "Increase Volume"
-msgstr "Dengê Bilintir Bike"
-
-#: MainWindow.cpp:854
-msgid "Decrease Volume"
-msgstr "Dengê Kêmtir Bike"
-
-#: MainWindow.cpp:860
-msgid "Toggle Main Window"
-msgstr "Paceya Mak Veke/Bigire"
-
-#: MainWindow.cpp:865
-#, fuzzy
-#| msgid "Toggle Focus"
-msgid "Toggle Full Screen"
-msgstr "Nîvend Bike"
-
-#: MainWindow.cpp:870
-msgid "Jump to"
-msgstr ""
-
-#: MainWindow.cpp:875
-msgid "Show active track"
-msgstr "Stranên çalak nîşan bide"
-
-#: MainWindow.cpp:879
-#, fuzzy
-#| msgid "Location:"
-msgid "Show Notification Popup"
-msgstr "Cih:"
-
-#: MainWindow.cpp:884
-msgid "Mute Volume"
-msgstr "Bêdeng Bike"
-
-#: MainWindow.cpp:889
-#, fuzzy
-#| msgid "Love Current Track"
-msgid "Last.fm: Love Current Track"
-msgstr "Ji ve perçeyê hez bike"
-
-#: MainWindow.cpp:894
-#, fuzzy
-#| msgid "Love Current Track"
-msgid "Last.fm: Ban Current Track"
-msgstr "Ji ve perçeyê hez bike"
-
-#: MainWindow.cpp:899
-#, fuzzy
-#| msgid "Love Current Track"
-msgid "Last.fm: Skip Current Track"
-msgstr "Ji ve perçeyê hez bike"
-
-#: MainWindow.cpp:909
-msgid "Rate Current Track: 1"
-msgstr "Ray Bide Strana Lêdide: 1 "
-
-#: MainWindow.cpp:914
-msgid "Rate Current Track: 2"
-msgstr "Ray Bide Strana Lêdide: 2"
-
-#: MainWindow.cpp:919
-msgid "Rate Current Track: 3"
-msgstr "Ray Bide Strana Lêdide: 3"
-
-#: MainWindow.cpp:924
-msgid "Rate Current Track: 4"
-msgstr "Ray Bide Strana Lêdide: 4"
-
-#: MainWindow.cpp:929
-msgid "Rate Current Track: 5"
-msgstr "Ray Bide Strana Lêdide: 5"
-
-#: MainWindow.cpp:946
-#, fuzzy
-#| msgid "&Amarok"
-msgid "&About Amarok"
-msgstr "&Amarok"
-
-#: MainWindow.cpp:1005
-msgid "&Music"
-msgstr "&Muzîk"
-
-#: MainWindow.cpp:1009
-msgid "&Amarok"
-msgstr "&Amarok"
-
-#: MainWindow.cpp:1028
-msgid "&Playlist"
-msgstr "&Lîsteya lêdanê"
-
-#: MainWindow.cpp:1044
-msgid "&Tools"
-msgstr "&Amûr"
-
-#: MainWindow.cpp:1056
-msgid "&Settings"
-msgstr "&Mîheng"
-
-#: MainWindow.cpp:1190
-#, kde-format
-msgid "Paused  ::  %1"
-msgstr "Hate Sekinandin  ::  %1"
-
-#: MainWindow.cpp:1209
-#, kde-format
-msgid "%1 - %2  ::  %3"
-msgstr "%1 - %2  ::  %3"
-
 #: likeback/likeback.cpp:239
 msgid "&Send a Comment to the Developers"
 msgstr ""
@@ -8032,6 +7691,351 @@ msgstr ""
 msgctxt "Dialog box title"
 msgid "Comment Sending Error"
 msgstr "Çewtiya Venihartina Berhevokê"
+
+#: ActionClasses.cpp:86
+msgid "Amarok Menu"
+msgstr "Pêşeka Amarok"
+
+#: ActionClasses.cpp:306
+msgid "Click to change"
+msgstr "Bitikîne û biguherîne"
+
+#: ActionClasses.cpp:323
+msgid "&Replay Gain Mode"
+msgstr ""
+
+#: ActionClasses.cpp:325
+#, fuzzy
+#| msgctxt "State, as in, disabled"
+#| msgid "&Off"
+msgctxt "Replay Gain state, as in, disabled"
+msgid "&Off"
+msgstr "&Girtî"
+
+#: ActionClasses.cpp:325
+msgctxt "Item, as in, music"
+msgid "&Track"
+msgstr "&Stran"
+
+#: ActionClasses.cpp:326
+msgid "&Album"
+msgstr "&Album"
+
+#: ActionClasses.cpp:335
+msgid "&Equalizer"
+msgstr "&Yeksanker "
+
+#: ActionClasses.cpp:363
+#, fuzzy
+#| msgid "Your machine does not support OpenGL widgets."
+msgid "Your current setup does not support the equalizer feature"
+msgstr "Makîneya te piştgirî nade alavên OpenGL."
+
+#: ActionClasses.cpp:368
+#, fuzzy
+#| msgctxt "State, as in, disabled"
+#| msgid "&Off"
+msgctxt "Equalizer state, as in, disabled"
+msgid "&Off"
+msgstr "&Girtî"
+
+#: ActionClasses.cpp:419
+msgid "Burn"
+msgstr "Nivîsandina CD yê"
+
+#: ActionClasses.cpp:458
+msgid "Current Playlist"
+msgstr "Lîsteya Lêdanê yê Niha"
+
+#: ActionClasses.cpp:459
+msgid "Selected Tracks"
+msgstr "Stranên Hilbijartî"
+
+#: ActionClasses.cpp:526
+#, fuzzy
+#| msgid "Love Current Track"
+msgid "Stop after current Track"
+msgstr "Ji ve perçeyê hez bike"
+
+#: ActionClasses.cpp:541
+#, fuzzy
+#| msgid "Love Current Track"
+msgid "Stop after current track: On"
+msgstr "Ji ve perçeyê hez bike"
+
+#: ActionClasses.cpp:546
+#, fuzzy
+#| msgid "Love Current Track"
+msgid "Stop after current track: Off"
+msgstr "Ji ve perçeyê hez bike"
+
+#: MainWindow.cpp:262
+#, fuzzy
+#| msgid "File Extension of Source"
+msgid "Media Sources"
+msgstr "Pêveka Dosiya Çavkaniyê"
+
+#: MainWindow.cpp:295
+#, fuzzy
+#| msgid "Center"
+msgid "Context"
+msgstr "Navîn"
+
+#: MainWindow.cpp:323
+msgid "Local Music"
+msgstr ""
+
+#: MainWindow.cpp:325
+msgid "Local sources of content"
+msgstr ""
+
+#: MainWindow.cpp:333
+msgid "Internet"
+msgstr "Tor"
+
+#: MainWindow.cpp:335
+msgid "Online sources of content"
+msgstr ""
+
+#: MainWindow.cpp:341
+msgid "Playlists"
+msgstr "lîsteya lêdanê"
+
+#: MainWindow.cpp:343
+#, fuzzy
+#| msgid "Various Artists"
+msgid "Various types of playlists"
+msgstr "Hunermendên cur bi cur"
+
+#: MainWindow.cpp:350
+msgid "Files"
+msgstr "Pel"
+
+#: MainWindow.cpp:352
+msgid "Browse local hard drive for content"
+msgstr ""
+
+#: MainWindow.cpp:422
+#, fuzzy
+#| msgctxt "@title buttontext for popup-menu"
+#| msgid "View"
+msgctxt "@item:inmenu"
+msgid "&View"
+msgstr "Bergeh"
+
+#: MainWindow.cpp:425
+#, fuzzy
+#| msgid "Layout"
+msgid "Lock layout"
+msgstr "Niştecih"
+
+#: MainWindow.cpp:536
+msgid ""
+"<qt>Closing the main window will keep Amarok running in the System Tray. Use "
+"<B>Quit</B> from the menu, or the Amarok tray icon to exit the application.</"
+"qt>"
+msgstr ""
+"<qt>Girtina paceya mak dê xebata Amarok di Berkêşka Pergal de bidomîne. Ji "
+"pêşekê an jî ji îkona sepanê ya di berkêşk de ne <B>Derkeve</B> bi kar bîne."
+"</qt>"
+
+#: MainWindow.cpp:538
+msgid "Docking in System Tray"
+msgstr "Di Berkêşka Pergalê de Bicih be"
+
+#: MainWindow.cpp:556
+msgid "Use relative path for &saving"
+msgstr "Pelrêça têkîldar bi kar bîne ji bo &tomarkirinê"
+
+#: MainWindow.cpp:567
+msgid "Save As"
+msgstr "Cuda Tomar Bike"
+
+#: MainWindow.cpp:615
+msgid "Play Media (Files or URLs)"
+msgstr "(Pelên an jî URLyên) Medya Lê Bide"
+
+#: MainWindow.cpp:615
+msgid "Add Media (Files or URLs)"
+msgstr "(Pelên an jî URLyên) Medya Lê Zêde Bike"
+
+#: MainWindow.cpp:630
+msgid "Add Stream"
+msgstr "Darêj Lê Zêde Bike"
+
+#: MainWindow.cpp:630
+msgid "Enter Stream URL:"
+msgstr "Darêja URL yê Bikeve:"
+
+#: MainWindow.cpp:751
+msgid "&Add Media..."
+msgstr "Medya &Lê zêde bike..."
+
+#: MainWindow.cpp:756
+msgctxt "clear playlist"
+msgid "&Clear Playlist"
+msgstr "Lîsteya Lêdanê &Paqij Bike"
+
+#: MainWindow.cpp:760
+#, fuzzy
+#| msgid "Remove Applet"
+msgctxt "Remove duplicate and dead (unplayable) tracks from the playlist"
+msgid "Re&move Duplicates"
+msgstr "Sepanok Rake"
+
+#: MainWindow.cpp:767
+msgid "&Add Stream..."
+msgstr "Darêj &Lê zêde bike..."
+
+#: MainWindow.cpp:771
+msgid "&Export Playlist As..."
+msgstr "Lîsteya lêdanê Cuda &Derxîne Derve"
+
+#: MainWindow.cpp:783
+msgid "Equalizer"
+msgstr "Yeksanker "
+
+#: MainWindow.cpp:791
+#, fuzzy
+#| msgid "Bookmark this Artist"
+msgid "Bookmark Context Applets"
+msgstr "Vê Hunermendê Bike Bijare"
+
+#: MainWindow.cpp:799
+msgid "Play Media..."
+msgstr "Medya Lê Bide..."
+
+#: MainWindow.cpp:808
+msgid "&Seek Forward"
+msgstr "Pêşveçûna &Bilez"
+
+#: MainWindow.cpp:814
+msgid "&Seek Backward"
+msgstr "Paşveçûna &Bilez"
+
+#: MainWindow.cpp:821
+msgid "Update Collection"
+msgstr "Berhevokê Rojane Bike"
+
+#: MainWindow.cpp:834
+#, fuzzy
+#| msgid "Repeat Playlist"
+msgid "Repopulate Playlist"
+msgstr "Lîsteya Lêdanê Dubare Bike"
+
+#: MainWindow.cpp:849
+msgid "Increase Volume"
+msgstr "Dengê Bilintir Bike"
+
+#: MainWindow.cpp:855
+msgid "Decrease Volume"
+msgstr "Dengê Kêmtir Bike"
+
+#: MainWindow.cpp:861
+msgid "Toggle Main Window"
+msgstr "Paceya Mak Veke/Bigire"
+
+#: MainWindow.cpp:866
+#, fuzzy
+#| msgid "Toggle Focus"
+msgid "Toggle Full Screen"
+msgstr "Nîvend Bike"
+
+#: MainWindow.cpp:871
+msgid "Jump to"
+msgstr ""
+
+#: MainWindow.cpp:876
+msgid "Show active track"
+msgstr "Stranên çalak nîşan bide"
+
+#: MainWindow.cpp:880
+#, fuzzy
+#| msgid "Location:"
+msgid "Show Notification Popup"
+msgstr "Cih:"
+
+#: MainWindow.cpp:885
+msgid "Mute Volume"
+msgstr "Bêdeng Bike"
+
+#: MainWindow.cpp:890
+#, fuzzy
+#| msgid "Love Current Track"
+msgid "Last.fm: Love Current Track"
+msgstr "Ji ve perçeyê hez bike"
+
+#: MainWindow.cpp:895
+#, fuzzy
+#| msgid "Love Current Track"
+msgid "Last.fm: Ban Current Track"
+msgstr "Ji ve perçeyê hez bike"
+
+#: MainWindow.cpp:900
+#, fuzzy
+#| msgid "Love Current Track"
+msgid "Last.fm: Skip Current Track"
+msgstr "Ji ve perçeyê hez bike"
+
+#: MainWindow.cpp:910
+msgid "Rate Current Track: 1"
+msgstr "Ray Bide Strana Lêdide: 1 "
+
+#: MainWindow.cpp:915
+msgid "Rate Current Track: 2"
+msgstr "Ray Bide Strana Lêdide: 2"
+
+#: MainWindow.cpp:920
+msgid "Rate Current Track: 3"
+msgstr "Ray Bide Strana Lêdide: 3"
+
+#: MainWindow.cpp:925
+msgid "Rate Current Track: 4"
+msgstr "Ray Bide Strana Lêdide: 4"
+
+#: MainWindow.cpp:930
+msgid "Rate Current Track: 5"
+msgstr "Ray Bide Strana Lêdide: 5"
+
+#: MainWindow.cpp:947
+#, fuzzy
+#| msgid "&Amarok"
+msgid "&About Amarok"
+msgstr "&Amarok"
+
+#: MainWindow.cpp:951
+msgid "&Report Bug..."
+msgstr ""
+
+#: MainWindow.cpp:1010
+msgid "&Music"
+msgstr "&Muzîk"
+
+#: MainWindow.cpp:1014
+msgid "&Amarok"
+msgstr "&Amarok"
+
+#: MainWindow.cpp:1033
+msgid "&Playlist"
+msgstr "&Lîsteya lêdanê"
+
+#: MainWindow.cpp:1049
+msgid "&Tools"
+msgstr "&Amûr"
+
+#: MainWindow.cpp:1061
+msgid "&Settings"
+msgstr "&Mîheng"
+
+#: MainWindow.cpp:1205
+#, kde-format
+msgid "Paused  ::  %1"
+msgstr "Hate Sekinandin  ::  %1"
+
+#: MainWindow.cpp:1224
+#, kde-format
+msgid "%1 - %2  ::  %3"
+msgstr "%1 - %2  ::  %3"
 
 #. i18n: file: amarokconfig.kcfg:13
 #. i18n: ectx: label, entry, group (General Options)
@@ -11580,10 +11584,65 @@ msgstr ""
 "underline; color:#0057ae;\">Depo ya Mp3tunes bîne</span></a></p></body></"
 "html>"
 
+#. i18n: file: likeback/likebackdialog.ui:48
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:2372
+#, fuzzy
+#| msgid "comment"
+msgid "Your comment:"
+msgstr "şîrove"
+
+#. i18n: file: likeback/likebackdialog.ui:74
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:2375
+msgid "Your comment is about:"
+msgstr ""
+
+#. i18n: file: likeback/likebackdialog.ui:86
+#. i18n: ectx: property (text), widget (QRadioButton, likeRadio_)
+#: rc.cpp:2378
+msgid "Something you like"
+msgstr ""
+
+#. i18n: file: likeback/likebackdialog.ui:99
+#. i18n: ectx: property (text), widget (QRadioButton, dislikeRadio_)
+#: rc.cpp:2381
+msgid "Something you dislike"
+msgstr ""
+
+#. i18n: file: likeback/likebackdialog.ui:112
+#. i18n: ectx: property (text), widget (QRadioButton, bugRadio_)
+#: rc.cpp:2384
+msgid "An improper behavior of the application"
+msgstr ""
+
+#. i18n: file: likeback/likebackdialog.ui:125
+#. i18n: ectx: property (text), widget (QRadioButton, featureRadio_)
+#: rc.cpp:2387
+msgid "A new feature you desire"
+msgstr ""
+
+#. i18n: file: likeback/likebackdialog.ui:141
+#. i18n: ectx: property (text), widget (QCheckBox, specifyEmailCheckBox_)
+#: rc.cpp:2390
+msgid "Specify an email address to be contacted back:"
+msgstr ""
+
+#. i18n: file: likeback/likebackdialog.ui:188
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:2393
+msgid ""
+"<html>Specifying an email address will allow the developers to ask you for "
+"more information on your report, or to tell you when your feature will be "
+"implemented.<br/>\n"
+"<b>Your email address will not be used for anything else but this report.</"
+"b></html>"
+msgstr ""
+
 #. i18n: file: likeback/likebackbar.ui:32
 #. i18n: ectx: property (toolTip), widget (QToolButton, m_likeButton)
-#: rc.cpp:2372
-msgid "Click here to tell the developers about something you liked"
+#: rc.cpp:2397
+msgid "Tell the developers about something you liked"
 msgstr ""
 
 #. i18n: file: likeback/likebackbar.ui:36
@@ -11594,7 +11653,7 @@ msgstr ""
 #. i18n: ectx: property (whatsThis), widget (QToolButton, m_bugButton)
 #. i18n: file: likeback/likebackbar.ui:87
 #. i18n: ectx: property (whatsThis), widget (QToolButton, m_featureButton)
-#: rc.cpp:2375 rc.cpp:2382 rc.cpp:2389 rc.cpp:2396
+#: rc.cpp:2400 rc.cpp:2407 rc.cpp:2414 rc.cpp:2421
 msgid ""
 "<html>Click on one of these icons to send your feedback to the developers of "
 "this application. You can disable the icons with the \"Show Feedback Icons\" "
@@ -11604,77 +11663,22 @@ msgstr ""
 
 #. i18n: file: likeback/likebackbar.ui:49
 #. i18n: ectx: property (toolTip), widget (QToolButton, m_dislikeButton)
-#: rc.cpp:2379
-msgid "Click here to tell the developers about something you did not like"
+#: rc.cpp:2404
+msgid "Tell the developers about something you did not like"
 msgstr ""
 
 #. i18n: file: likeback/likebackbar.ui:66
 #. i18n: ectx: property (toolTip), widget (QToolButton, m_bugButton)
-#: rc.cpp:2386
-msgid "Click here to tell the developers about a problem in the application"
+#: rc.cpp:2411
+msgid "Tell the developers about a problem in the application"
 msgstr ""
 
 #. i18n: file: likeback/likebackbar.ui:83
 #. i18n: ectx: property (toolTip), widget (QToolButton, m_featureButton)
-#: rc.cpp:2393
-msgid ""
-"Click here to tell the developers about new features you would like to have "
-"in this application"
-msgstr ""
-
-#. i18n: file: likeback/likebackdialog.ui:48
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:2400
-#, fuzzy
-#| msgid "comment"
-msgid "Your comment:"
-msgstr "şîrove"
-
-#. i18n: file: likeback/likebackdialog.ui:74
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:2403
-msgid "Your comment is about:"
-msgstr ""
-
-#. i18n: file: likeback/likebackdialog.ui:86
-#. i18n: ectx: property (text), widget (QRadioButton, likeRadio_)
-#: rc.cpp:2406
-msgid "Something you like"
-msgstr ""
-
-#. i18n: file: likeback/likebackdialog.ui:99
-#. i18n: ectx: property (text), widget (QRadioButton, dislikeRadio_)
-#: rc.cpp:2409
-msgid "Something you dislike"
-msgstr ""
-
-#. i18n: file: likeback/likebackdialog.ui:112
-#. i18n: ectx: property (text), widget (QRadioButton, bugRadio_)
-#: rc.cpp:2412
-msgid "An improper behavior of the application"
-msgstr ""
-
-#. i18n: file: likeback/likebackdialog.ui:125
-#. i18n: ectx: property (text), widget (QRadioButton, featureRadio_)
-#: rc.cpp:2415
-msgid "A new feature you desire"
-msgstr ""
-
-#. i18n: file: likeback/likebackdialog.ui:141
-#. i18n: ectx: property (text), widget (QCheckBox, specifyEmailCheckBox_)
 #: rc.cpp:2418
-msgid "Specify an email address to be contacted back:"
-msgstr ""
-
-#. i18n: file: likeback/likebackdialog.ui:188
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:2421
 msgid ""
-"<html>Specifying an email address will allow the developers to ask you for "
-"more information on your report, or to tell you when your feature will be "
-"implemented.<br/>\n"
-"<b>Your email address will not be used for anything else but this report.</"
-"b></html>"
+"Tell the developers about new features you would like to have in this "
+"application"
 msgstr ""
 
 #. i18n: tag layout attribute name
