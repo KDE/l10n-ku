@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nepomukserver\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-03-15 04:24+0100\n"
+"POT-Creation-Date: 2010-03-19 04:54+0100\n"
 "PO-Revision-Date: 2008-12-30 21:52+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <ku@li.org>\n"
@@ -128,33 +128,28 @@ msgstr "Strigi pêristkera pelê bi destan bide sekinandin an jî dom kirin"
 msgid "Configure File Indexer"
 msgstr "Strigi Pêristkerê Pelê Sermasê"
 
-#: services/strigi/strigiservice.cpp:178
+#: services/strigi/strigiservice.cpp:150
 #, fuzzy
 #| msgid "File indexer is suspended"
 msgctxt "@info:status"
 msgid "File indexer is suspended"
 msgstr "Pêristkerê pelê hate sekinandin"
 
-#: services/strigi/strigiservice.cpp:182
+#: services/strigi/strigiservice.cpp:154
 #, fuzzy
 #| msgid "Strigi is currently indexing files in folder %1"
 msgctxt "@info:status"
 msgid "Strigi is currently indexing files"
 msgstr "Strigi niha pelên di peldanka %1 de pêrist dike"
 
-#: services/strigi/strigiservice.cpp:184
+#: services/strigi/strigiservice.cpp:156
 #, fuzzy, kde-format
 #| msgid "Strigi is currently indexing files in folder %1"
 msgctxt "@info:status"
 msgid "Strigi is currently indexing files in folder %1"
 msgstr "Strigi niha pelên di peldanka %1 de pêrist dike"
 
-#: services/strigi/strigiservice.cpp:187
-msgctxt "@info:status"
-msgid "Checking file system for new files"
-msgstr ""
-
-#: services/strigi/strigiservice.cpp:190
+#: services/strigi/strigiservice.cpp:159
 #, fuzzy
 #| msgid "File indexer is idle"
 msgctxt "@info:status"
@@ -176,7 +171,7 @@ msgid_plural "%1 files in index"
 msgstr[0] "1 pel di pêrist de"
 msgstr[1] "%1 pel di pêrist de"
 
-#: services/strigi/eventmonitor.cpp:70
+#: services/strigi/eventmonitor.cpp:64
 #, fuzzy
 #| msgid ""
 #| "Strigi file indexing started. Indexing all files for fast desktop "
@@ -186,17 +181,17 @@ msgstr ""
 "Strigi pêrist kirina pelê hat destpê kirin. Pêrist kirina hemû pelan ji bo "
 "lêgerîna sermasê yê lez di be ku hinek dem bikişîne."
 
-#: services/strigi/eventmonitor.cpp:99 services/strigi/eventmonitor.cpp:131
+#: services/strigi/eventmonitor.cpp:90 services/strigi/eventmonitor.cpp:122
 msgid "Resuming indexing of files for fast searching."
 msgstr ""
 
-#: services/strigi/eventmonitor.cpp:107
+#: services/strigi/eventmonitor.cpp:98
 #, fuzzy
 #| msgid "Suspending Strigi file indexing to preserve resources."
 msgid "Suspending the indexing of files to preserve resources."
 msgstr "Ji bo parastina çavkaniyan, Strigi pêrist kirina pelê tê sekinandin."
 
-#: services/strigi/eventmonitor.cpp:122
+#: services/strigi/eventmonitor.cpp:113
 #, fuzzy, kde-format
 #| msgid ""
 #| "Local disk space is running low (%1 left). Suspending Strigi file "
@@ -206,7 +201,7 @@ msgstr ""
 "Valahiya dîska herêmî hindik ma (%1 ma). Strigi pêrist kirina pelê tê "
 "sekinandin."
 
-#: services/strigi/eventmonitor.cpp:148
+#: services/strigi/eventmonitor.cpp:139
 #, fuzzy, kde-format
 #| msgctxt "@info %1 is a duration formatted using KLocale::formatDuration"
 #| msgid "Initial Desktop Search file indexing finished in %1"
@@ -291,7 +286,7 @@ msgstr "Pêşkêşkera Nepomuk - Hîser û servîsên Nepomuk bi rê ve dibe"
 msgid "(c) 2008, Sebastian Trüg"
 msgstr "(c) 2008, Sebastian Trüg"
 
-#: server/main.cpp:96 kcm/nepomukserverkcm.cpp:91 servicestub/main.cpp:75
+#: server/main.cpp:96 kcm/nepomukserverkcm.cpp:88 servicestub/main.cpp:75
 msgid "Sebastian Trüg"
 msgstr "Sebastian Trüg"
 
@@ -299,35 +294,35 @@ msgstr "Sebastian Trüg"
 msgid "Maintainer"
 msgstr "Peydeker"
 
-#: kcm/nepomukserverkcm.cpp:88
+#: kcm/nepomukserverkcm.cpp:85
 msgid "Nepomuk Configuration Module"
 msgstr "Modula Veavakirina Nepomukê"
 
-#: kcm/nepomukserverkcm.cpp:90
+#: kcm/nepomukserverkcm.cpp:87
 msgid "Copyright 2007 Sebastian Trüg"
 msgstr "Mafê Kopîkirinê 2007 Sebastian Trüg"
 
-#: kcm/nepomukserverkcm.cpp:146
+#: kcm/nepomukserverkcm.cpp:143
 msgid "No Soprano Database backend available. Please check your installation."
 msgstr ""
 "Tu paş-dawî yê Bingeha Dane ya Soprano tune ye. Jê kerema xwe saz kirinê "
 "kontrol bike."
 
-#: kcm/nepomukserverkcm.cpp:147
+#: kcm/nepomukserverkcm.cpp:144
 msgid "Nepomuk cannot be started"
 msgstr "Nepomuk nayê destpê kirin"
 
-#: kcm/nepomukserverkcm.cpp:155
+#: kcm/nepomukserverkcm.cpp:152
 msgid ""
 "The Nepomuk Server is not running. The settings will be used the next time "
 "the server is started."
 msgstr "Pêşkêşkera Nepomuk naxebite. Mîheng di destpêka pêş de bên bikaranîn."
 
-#: kcm/nepomukserverkcm.cpp:157 kcm/nepomukserverkcm.cpp:234
+#: kcm/nepomukserverkcm.cpp:154 kcm/nepomukserverkcm.cpp:231
 msgid "Nepomuk server not running"
 msgstr "Pêşkêşkara Nepomuk naxebite"
 
-#: kcm/nepomukserverkcm.cpp:232
+#: kcm/nepomukserverkcm.cpp:229
 msgid ""
 "The Nepomuk Server is not running. The settings have been saved and will be "
 "used the next time the server is started."
@@ -335,20 +330,20 @@ msgstr ""
 "Pêşkêşkera Nepomuk naxebite. Mîheng hatin tomar kirin û di destpêka pêş de "
 "bên bikaranîn."
 
-#: kcm/nepomukserverkcm.cpp:261
+#: kcm/nepomukserverkcm.cpp:258
 #, kde-format
 msgctxt "@info:status %1 is an error message returned by a dbus interface."
 msgid "Failed to contact Strigi indexer (%1)"
 msgstr "Têkildarî bi pêristkera (%1) re têk çû"
 
-#: kcm/nepomukserverkcm.cpp:271
+#: kcm/nepomukserverkcm.cpp:268
 msgctxt "@info:status"
 msgid ""
 "Strigi service failed to initialize, most likely due to an installation "
 "problem."
 msgstr ""
 
-#: kcm/nepomukserverkcm.cpp:275
+#: kcm/nepomukserverkcm.cpp:272
 #, fuzzy
 #| msgctxt "@info_status"
 #| msgid "Strigi service not running."
