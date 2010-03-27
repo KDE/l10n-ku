@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_devicenotifier\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-03-12 04:25+0100\n"
+"POT-Creation-Date: 2010-03-27 04:22+0100\n"
 "PO-Revision-Date: 2008-12-25 02:34+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -56,12 +56,15 @@ msgstr[0] "1 çalakiya ji bo vê cîhazê"
 msgstr[1] "%1 çalakiyên ji bo vê cîhazê"
 
 #: devicenotifier.cpp:271
-msgid "No devices plugged in"
+#, fuzzy
+#| msgid "No devices plugged in"
+msgid "No devices available."
 msgstr "Tu cîhaz nehatiye girêdan"
 
 #: devicenotifier.cpp:275
-#, kde-format
-msgid "Last plugged in device: %1"
+#, fuzzy, kde-format
+#| msgid "Last plugged in device: %1"
+msgid "Most recent device: %1"
 msgstr "Demê dawî hatiye girêdan bi cîhaza: %1"
 
 #: devicenotifier.cpp:377
@@ -132,9 +135,7 @@ msgstr ""
 msgid "All devices"
 msgstr ""
 
-#, fuzzy
-#~| msgid "No devices plugged in"
-#~ msgid "No devices plugged in."
+#~ msgid "No devices plugged in"
 #~ msgstr "Tu cîhaz nehatiye girêdan"
 
 #, fuzzy
