@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-03-29 04:25+0200\n"
+"POT-Creation-Date: 2010-03-31 04:27+0200\n"
 "PO-Revision-Date: 2007-12-21 21:45+0100\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <gnu-ku-wergerandin at lists dot sourceforge dot "
@@ -866,8 +866,8 @@ msgstr ""
 msgid "The specified file or folder <strong>%1</strong> does not exist."
 msgstr ""
 
-#: kio/global.cpp:664 kio/job.cpp:2093 kio/paste.cpp:64 kio/copyjob.cpp:1325
-#: kio/copyjob.cpp:1890
+#: kio/global.cpp:664 kio/job.cpp:2093 kio/paste.cpp:64 kio/copyjob.cpp:1326
+#: kio/copyjob.cpp:1897
 msgid "File Already Exists"
 msgstr "Pel Berê Heye"
 
@@ -889,7 +889,7 @@ msgstr ""
 msgid "Choose an alternate filename for the new file."
 msgstr ""
 
-#: kio/global.cpp:674 kio/copyjob.cpp:1013
+#: kio/global.cpp:674 kio/copyjob.cpp:1014
 msgid "Folder Already Exists"
 msgstr ""
 
@@ -1726,7 +1726,7 @@ msgstr "di %1 de guherandî"
 msgid "The source file is '%1'"
 msgstr "Pelê çavkanî '%1' e"
 
-#: kio/renamedialog.cpp:396 kio/paste.cpp:228 kio/krun.cpp:1093
+#: kio/renamedialog.cpp:396 kio/paste.cpp:228 kio/krun.cpp:1095
 #: kio/kdirlister.cpp:329
 #, kde-format
 msgid ""
@@ -2060,18 +2060,33 @@ msgstr ""
 msgid "Data format:"
 msgstr "Formata daneyan:"
 
-#: kio/jobuidelegate.cpp:137 ../kfile/kdiroperator.cpp:808
+#: kio/jobuidelegate.cpp:149 ../kfile/kdiroperator.cpp:808
 #, kde-format
 msgid "Do you really want to delete this item?"
 msgid_plural "Do you really want to delete these %1 items?"
 msgstr[0] "Misoger dixwazî vê hêmanê jê bibî?"
 msgstr[1] "Mîsoger dixwazî van %1 hêmanan jê bibî?"
 
-#: kio/jobuidelegate.cpp:139 ../kfile/kdiroperator.cpp:810
+#: kio/jobuidelegate.cpp:151 ../kfile/kdiroperator.cpp:810
 msgid "Delete Files"
 msgstr "Pelan Jê Bibe"
 
-#: kio/jobuidelegate.cpp:149
+#: kio/jobuidelegate.cpp:159
+#, fuzzy
+#| msgid "Do you really want to delete this item?"
+#| msgid_plural "Do you really want to delete these %1 items?"
+msgctxt "@info"
+msgid "Do you really want to empty the trash? All items will be deleted."
+msgstr "Misoger dixwazî vê hêmanê jê bibî?"
+
+#: kio/jobuidelegate.cpp:161 ../kfile/kfileplacesview.cpp:624
+#, fuzzy
+#| msgid "Trash"
+msgctxt "@action:button"
+msgid "Empty Trash"
+msgstr "Çop"
+
+#: kio/jobuidelegate.cpp:170
 #, fuzzy, kde-format
 #| msgid "Do you really want to delete this item?"
 #| msgid_plural "Do you really want to delete these %1 items?"
@@ -2080,12 +2095,12 @@ msgid_plural "Do you really want to move these %1 items to the trash?"
 msgstr[0] "Misoger dixwazî vê hêmanê jê bibî?"
 msgstr[1] "Mîsoger dixwazî van %1 hêmanan jê bibî?"
 
-#: kio/jobuidelegate.cpp:151 ../kfile/kdiroperator.cpp:1874
+#: kio/jobuidelegate.cpp:172 ../kfile/kdiroperator.cpp:1874
 msgid "Move to Trash"
 msgstr "Bavêje Çopê"
 
 # msgctxt "to trash"
-#: kio/jobuidelegate.cpp:152
+#: kio/jobuidelegate.cpp:173
 #, fuzzy
 #| msgid "&Trash"
 msgctxt "Verb"
@@ -2246,42 +2261,42 @@ msgstr ""
 msgid "Launching %1"
 msgstr ""
 
-#: kio/krun.cpp:659
+#: kio/krun.cpp:661
 #, kde-format
 msgid "Error processing Exec field in %1"
 msgstr ""
 
-#: kio/krun.cpp:853
+#: kio/krun.cpp:855
 msgid "You are not authorized to execute this service."
 msgstr ""
 
-#: kio/krun.cpp:865
+#: kio/krun.cpp:867
 msgctxt "Warning about executing unknown .desktop file"
 msgid "Warning"
 msgstr ""
 
-#: kio/krun.cpp:879
+#: kio/krun.cpp:881
 msgctxt "program name follows in a line edit below"
 msgid "This will start the program:"
 msgstr ""
 
-#: kio/krun.cpp:893
+#: kio/krun.cpp:895
 msgid "If you do not trust this program, click Cancel"
 msgstr ""
 
-#: kio/krun.cpp:926
+#: kio/krun.cpp:928
 #, kde-format
 msgid "Unable to make the service %1 executable, aborting execution"
 msgstr ""
 
-#: kio/krun.cpp:1126
+#: kio/krun.cpp:1128
 #, kde-format
 msgid ""
 "<qt>Unable to run the command specified. The file or folder <b>%1</b> does "
 "not exist.</qt>"
 msgstr ""
 
-#: kio/krun.cpp:1704
+#: kio/krun.cpp:1706
 #, kde-format
 msgid "Could not find the program '%1'"
 msgstr ""
@@ -2302,7 +2317,7 @@ msgid ""
 "%1"
 msgstr ""
 
-#: kio/copyjob.cpp:1325 kio/copyjob.cpp:1890
+#: kio/copyjob.cpp:1326 kio/copyjob.cpp:1897
 msgid "Already Exists as Folder"
 msgstr ""
 
@@ -5846,13 +5861,6 @@ msgstr "'%1' bi &ewlehî derxe"
 msgctxt "@info"
 msgid "Do you really want to empty the Trash? All items will be deleted."
 msgstr "Misoger dixwazî vê hêmanê jê bibî?"
-
-#: ../kfile/kfileplacesview.cpp:624
-#, fuzzy
-#| msgid "Trash"
-msgctxt "@action:button"
-msgid "Empty Trash"
-msgstr "Çop"
 
 #: ../kfile/kfileplaceeditdialog.cpp:85
 msgid "Edit Places Entry"
