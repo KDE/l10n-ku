@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: powerdevil\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-03-24 04:21+0100\n"
+"POT-Creation-Date: 2010-04-02 04:57+0200\n"
 "PO-Revision-Date: 2008-12-31 04:01+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -228,7 +228,7 @@ msgctxt "Interrupts the suspension/shutdown process"
 msgid "Cancel"
 msgstr ""
 
-#: daemon/PowerDevilDaemon.cpp:1034 daemon/PowerDevilDaemon.cpp:1333
+#: daemon/PowerDevilDaemon.cpp:1034 daemon/PowerDevilDaemon.cpp:1328
 #, fuzzy, kde-format
 #| msgid ""
 #| "The profile \"%1\" has been selected, but it does not exist!\n"
@@ -410,45 +410,45 @@ msgstr ""
 msgid "Prompt Log Out dialog"
 msgstr "Pace ya Derketinê Nîşan Bide"
 
-#: kcmodule/EditPage.cpp:157
+#: kcmodule/EditPage.cpp:155
 msgid "Learn more about the Energy Star program"
 msgstr "Der barê bername ya Energy Star zêdetir agahiyan bibîne"
 
-#: kcmodule/EditPage.cpp:425
+#: kcmodule/EditPage.cpp:424
 #, fuzzy
 #| msgid "Please enter a name for the new profile"
 msgid "Please enter a name for the new profile:"
 msgstr "Jê kerema xwe navekî ji bo profîla nû binivîse"
 
-#: kcmodule/EditPage.cpp:427 kcmodule/EditPage.cpp:430
-#: kcmodule/EditPage.cpp:481 kcmodule/EditPage.cpp:484
+#: kcmodule/EditPage.cpp:426 kcmodule/EditPage.cpp:429
+#: kcmodule/EditPage.cpp:480 kcmodule/EditPage.cpp:483
 msgid "The name for the new profile"
 msgstr "Nav ji bo profîla nû"
 
-#: kcmodule/EditPage.cpp:428 kcmodule/EditPage.cpp:431
-#: kcmodule/EditPage.cpp:482 kcmodule/EditPage.cpp:485
+#: kcmodule/EditPage.cpp:427 kcmodule/EditPage.cpp:430
+#: kcmodule/EditPage.cpp:481 kcmodule/EditPage.cpp:484
 msgid "Enter here the name for the profile you are creating"
 msgstr "Navê profîla tu çê dikî binivîse li vir"
 
-#: kcmodule/EditPage.cpp:479
+#: kcmodule/EditPage.cpp:478
 #, fuzzy
 #| msgid "Please enter a name for this profile"
 msgid "Please enter a name for this profile:"
 msgstr "Jê kerema xwe navekî ji bo vê profîlê binivîse"
 
-#: kcmodule/EditPage.cpp:513
+#: kcmodule/EditPage.cpp:512
 #, fuzzy
 #| msgid "Import PowerDevil profiles"
 msgid "Import PowerDevil Profiles"
 msgstr "Profîlên PowerDevil bîne hundir"
 
-#: kcmodule/EditPage.cpp:538
+#: kcmodule/EditPage.cpp:537
 #, fuzzy
 #| msgid "Export PowerDevil profiles"
 msgid "Export PowerDevil Profiles"
 msgstr "Profîlên PowerDevil derxe derve"
 
-#: kcmodule/EditPage.cpp:570
+#: kcmodule/EditPage.cpp:569
 msgid ""
 "The current profile has not been saved.\n"
 "Do you want to save it?"
@@ -456,16 +456,16 @@ msgstr ""
 "Profîla heyî nehatiye tomar kirin.\n"
 "Tu dixwazî vê tomar bikî?"
 
-#: kcmodule/EditPage.cpp:571
+#: kcmodule/EditPage.cpp:570
 msgid "Save Profile"
 msgstr "Profîlê Tomar Bike"
 
-#: kcmodule/CapabilitiesPage.cpp:135 kcmodule/CapabilitiesPage.cpp:155
+#: kcmodule/CapabilitiesPage.cpp:135
 msgctxt "None"
 msgid "No methods found"
 msgstr "Tu azîne nehat dîtin"
 
-#: kcmodule/CapabilitiesPage.cpp:217
+#: kcmodule/CapabilitiesPage.cpp:197
 msgid ""
 "ConsoleKit was not found active on your PC, or PowerDevil cannot contact it. "
 "ConsoleKit lets PowerDevil detect whether the current session is active, "
@@ -473,7 +473,7 @@ msgid ""
 "any one time."
 msgstr ""
 
-#: kcmodule/CapabilitiesPage.cpp:222
+#: kcmodule/CapabilitiesPage.cpp:202
 msgid "No issues found with your configuration."
 msgstr "Bi veavakirina te re tu pirsgirêk nehat dîtin. "
 
@@ -667,15 +667,15 @@ msgstr "&Bigire piştî"
 msgid "CPU and System"
 msgstr "CPU û Pergal"
 
-#. i18n: file: kcmodule/profileEditPage.ui:477
-#. i18n: ectx: property (text), widget (QLabel, label_19)
+#. i18n: file: kcmodule/profileEditPage.ui:483
+#. i18n: ectx: property (text), widget (QCheckBox, SetPowerSaveCheckBox)
 #: rc.cpp:89
 #, fuzzy
-#| msgid "System powersaving scheme"
-msgid "System powersaving scheme:"
-msgstr "Şemaya parastina hêza pergalê"
+#| msgid "&Enable display power management"
+msgid "Enable system power saving"
+msgstr "Xuyakirina rêveberê hêzê &çalak bike"
 
-#. i18n: file: kcmodule/profileEditPage.ui:503
+#. i18n: file: kcmodule/profileEditPage.ui:512
 #. i18n: ectx: property (text), widget (QLabel, label_20)
 #: rc.cpp:92
 #, fuzzy
@@ -683,26 +683,26 @@ msgstr "Şemaya parastina hêza pergalê"
 msgid "When loading profile execute:"
 msgstr "Di demê Barkirina profîlê de, bixebitîne"
 
-#. i18n: file: kcmodule/profileEditPage.ui:541
-#. i18n: ectx: property (text), widget (KUrlRequester, scriptRequester)
+#. i18n: file: kcmodule/profileEditPage.ui:530
+#. i18n: ectx: property (text), widget (QLabel, label_20)
 #: rc.cpp:95
 msgid "New Profile"
 msgstr "Profîla Nû"
 
-#. i18n: file: kcmodule/profileEditPage.ui:546
-#. i18n: ectx: property (text), widget (KUrlRequester, scriptRequester)
+#. i18n: file: kcmodule/profileEditPage.ui:535
+#. i18n: ectx: property (text), widget (QLabel, label_20)
 #: rc.cpp:98
 msgid "Delete Profile"
 msgstr "Profîlê Jê Bibe"
 
-#. i18n: file: kcmodule/profileEditPage.ui:551
-#. i18n: ectx: property (text), widget (KUrlRequester, scriptRequester)
+#. i18n: file: kcmodule/profileEditPage.ui:540
+#. i18n: ectx: property (text), widget (QLabel, label_20)
 #: rc.cpp:101
 msgid "Import Profiles"
 msgstr "Profîlan Bîne Hundir"
 
-#. i18n: file: kcmodule/profileEditPage.ui:556
-#. i18n: ectx: property (text), widget (KUrlRequester, scriptRequester)
+#. i18n: file: kcmodule/profileEditPage.ui:545
+#. i18n: ectx: property (text), widget (QLabel, label_20)
 #: rc.cpp:104
 msgid "Export Profiles"
 msgstr "Profîlan Derxe Derve"
@@ -914,33 +914,21 @@ msgstr "Hejmara CPU"
 msgid "Number of Batteries"
 msgstr "Hejmara Pîlan"
 
-#. i18n: file: kcmodule/capabilitiesPage.ui:70
-#. i18n: ectx: property (text), widget (QLabel, label_13)
-#: rc.cpp:209
-msgid "Scheme support"
-msgstr "Piştgiriya şema"
-
-#. i18n: file: kcmodule/capabilitiesPage.ui:91
+#. i18n: file: kcmodule/capabilitiesPage.ui:77
 #. i18n: ectx: property (text), widget (QLabel, label_17)
-#: rc.cpp:212
+#: rc.cpp:209
 msgid "Supported suspend methods"
 msgstr "Azîneyên sekinandinê yên tên piştgirî dan"
 
-#. i18n: file: kcmodule/capabilitiesPage.ui:111
-#. i18n: ectx: property (text), widget (QLabel, label_18)
-#: rc.cpp:215
-msgid "Supported schemes"
-msgstr "Şemayên tên piştgirî dan"
-
-#. i18n: file: kcmodule/capabilitiesPage.ui:132
+#. i18n: file: kcmodule/capabilitiesPage.ui:104
 #. i18n: ectx: property (toolTip), widget (QLabel, label_4)
-#: rc.cpp:218
+#: rc.cpp:212
 msgid "Support for DPMS"
 msgstr "Piştgirî ji bo DPMS"
 
-#. i18n: file: kcmodule/capabilitiesPage.ui:135
+#. i18n: file: kcmodule/capabilitiesPage.ui:107
 #. i18n: ectx: property (whatsThis), widget (QLabel, label_4)
-#: rc.cpp:221
+#: rc.cpp:215
 msgid ""
 "If this is enabled, PowerDevil will be able to configure power management "
 "for your monitor"
@@ -948,48 +936,48 @@ msgstr ""
 "Heke ev bê çalak kirin, PowerDevil dê bikare rêveberiya hêzê ji bo dîmendera "
 "we veava bike"
 
-#. i18n: file: kcmodule/capabilitiesPage.ui:138
+#. i18n: file: kcmodule/capabilitiesPage.ui:110
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rc.cpp:224
+#: rc.cpp:218
 msgid "DPMS Support"
 msgstr "Piştgirî ya DPMS"
 
-#. i18n: file: kcmodule/capabilitiesPage.ui:152
+#. i18n: file: kcmodule/capabilitiesPage.ui:124
 #. i18n: ectx: property (toolTip), widget (QLabel, label_6)
-#: rc.cpp:227
+#: rc.cpp:221
 msgid "Checks if ConsoleKit is active on your system"
 msgstr ""
 
-#. i18n: file: kcmodule/capabilitiesPage.ui:155
+#. i18n: file: kcmodule/capabilitiesPage.ui:127
 #. i18n: ectx: property (whatsThis), widget (QLabel, label_6)
-#: rc.cpp:230
+#: rc.cpp:224
 msgid ""
 "ConsoleKit lets PowerDevil detect whether the current session is active, "
 "which is useful if you have more than one user logged into your system at "
 "any one time."
 msgstr ""
 
-#. i18n: file: kcmodule/capabilitiesPage.ui:158
+#. i18n: file: kcmodule/capabilitiesPage.ui:130
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#: rc.cpp:233
+#: rc.cpp:227
 msgid "ConsoleKit Runtime Support"
 msgstr ""
 
-#. i18n: file: kcmodule/capabilitiesPage.ui:179
+#. i18n: file: kcmodule/capabilitiesPage.ui:151
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:236
+#: rc.cpp:230
 msgid "Status"
 msgstr "Rewş"
 
 #. i18n: file: kcmodule/error.ui:13
 #. i18n: ectx: property (windowTitle), widget (QWidget, errorWidget)
-#: rc.cpp:239
+#: rc.cpp:233
 msgid "PowerDevil error"
 msgstr "Çewtiya PowerDevil"
 
 #. i18n: file: kcmodule/error.ui:56
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:242
+#: rc.cpp:236
 #, fuzzy
 #| msgid ""
 #| "The configuration module can not be started, since there seems to be a "
@@ -1000,6 +988,17 @@ msgid ""
 msgstr ""
 "Modûla veavakirinê nayê destpêkirin, lewre ku pirsgirêkek bi Servîsa "
 "PowerDevil re xuya dike. Ji bo zêdetir kitekitan yê jêr bixwînin"
+
+#, fuzzy
+#~| msgid "System powersaving scheme"
+#~ msgid "System powersaving scheme:"
+#~ msgstr "Şemaya parastina hêza pergalê"
+
+#~ msgid "Scheme support"
+#~ msgstr "Piştgiriya şema"
+
+#~ msgid "Supported schemes"
+#~ msgstr "Şemayên tên piştgirî dan"
 
 #~ msgid "Performance"
 #~ msgstr "Performans"
