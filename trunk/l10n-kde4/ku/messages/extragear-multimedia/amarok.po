@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-04-13 05:35+0200\n"
+"POT-Creation-Date: 2010-04-14 04:58+0200\n"
 "PO-Revision-Date: 2009-02-21 06:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -6960,8 +6960,8 @@ msgid "bitrate"
 msgstr "Leza bit"
 
 #: browsers/CollectionTreeItemModelBase.cpp:634
-#: playlistgenerator/constraints/TagMatch.cpp:677
 #: playlistgenerator/constraints/TagMatchFieldsModel.cpp:95
+#: playlistgenerator/constraints/TagMatch.cpp:677
 msgid "rating"
 msgstr "ecibandin"
 
@@ -6981,10 +6981,10 @@ msgid "samplerate"
 msgstr "Rêjeya mînak"
 
 #: browsers/CollectionTreeItemModelBase.cpp:650
+#: playlistgenerator/constraints/TagMatchFieldsModel.cpp:92
 #: playlistgenerator/constraints/TagMatch.cpp:176
 #: playlistgenerator/constraints/TagMatch.cpp:191
 #: playlistgenerator/constraints/TagMatch.cpp:681
-#: playlistgenerator/constraints/TagMatchFieldsModel.cpp:92
 msgid "length"
 msgstr "dirêjî"
 
@@ -7889,11 +7889,18 @@ msgid "There were no lyrics found for this track"
 msgstr "Ji bo vê stranê tu gotin nehat dîtin"
 
 #: context/applets/lyrics/LyricsApplet.cpp:391
+#, fuzzy
+#| msgctxt "@info"
+#| msgid ""
+#| "Do you really want to delete these %1 tracks? They will be removed from "
+#| "disk as well as your collection."
 msgctxt "@info"
 msgid ""
-"Do you really want to refetch lyrics for this track ? All changes you may "
+"Do you really want to refetch lyrics for this track? All changes you may "
 "have made will be lost."
 msgstr ""
+"Tu bi rastî dixwazî wan stranên %1 jê bibî? Ev wê ji dîska we û berhevoka we "
+"bên rakirin."
 
 #: context/applets/lyrics/LyricsApplet.cpp:392
 #, fuzzy
@@ -9892,49 +9899,6 @@ msgstr "Lîsteya Lêdanê_%1"
 msgid "unknown comparison"
 msgstr "Cureyê Nenas"
 
-#: playlistgenerator/constraints/PreventDuplicates.cpp:52
-#, fuzzy
-#| msgid "Remove Applet"
-msgid "PreventDuplicates"
-msgstr "Sepanok Rake"
-
-#: playlistgenerator/constraints/PreventDuplicates.cpp:53
-msgid ""
-"Prevents duplicate tracks, albums, or artists from appearing in the playlist"
-msgstr ""
-
-#: playlistgenerator/constraints/PreventDuplicates.cpp:97
-#, fuzzy, kde-format
-#| msgid "Remove Applet"
-msgid "Prevent duplicate %1"
-msgstr "Sepanok Rake"
-
-#: playlistgenerator/constraints/TagMatch.cpp:54
-#, fuzzy
-#| msgid "Match:"
-msgid "TagMatch"
-msgstr "Hevgirtî:"
-
-#: playlistgenerator/constraints/TagMatch.cpp:55
-msgid "Make all tracks in the playlist match the specified characteristic"
-msgstr ""
-
-#: playlistgenerator/constraints/TagMatch.cpp:172
-#, fuzzy
-#| msgid "is not"
-msgid " not"
-msgstr "nîn e"
-
-#: playlistgenerator/constraints/TagMatch.cpp:485
-#, fuzzy
-#| msgid "with"
-msgid "within"
-msgstr "bi"
-
-#: playlistgenerator/constraints/TagMatch.cpp:497
-msgid "regexp"
-msgstr ""
-
 #: playlistgenerator/constraints/TagMatchFieldsModel.cpp:82
 #, fuzzy
 #| msgid "Url:"
@@ -9988,6 +9952,49 @@ msgstr "Yê dawî hatiye lêdan"
 #| msgid "playcount"
 msgid "play count"
 msgstr "hejmara lêdanê"
+
+#: playlistgenerator/constraints/PreventDuplicates.cpp:52
+#, fuzzy
+#| msgid "Remove Applet"
+msgid "PreventDuplicates"
+msgstr "Sepanok Rake"
+
+#: playlistgenerator/constraints/PreventDuplicates.cpp:53
+msgid ""
+"Prevents duplicate tracks, albums, or artists from appearing in the playlist"
+msgstr ""
+
+#: playlistgenerator/constraints/PreventDuplicates.cpp:97
+#, fuzzy, kde-format
+#| msgid "Remove Applet"
+msgid "Prevent duplicate %1"
+msgstr "Sepanok Rake"
+
+#: playlistgenerator/constraints/TagMatch.cpp:54
+#, fuzzy
+#| msgid "Match:"
+msgid "TagMatch"
+msgstr "Hevgirtî:"
+
+#: playlistgenerator/constraints/TagMatch.cpp:55
+msgid "Make all tracks in the playlist match the specified characteristic"
+msgstr ""
+
+#: playlistgenerator/constraints/TagMatch.cpp:172
+#, fuzzy
+#| msgid "is not"
+msgid " not"
+msgstr "nîn e"
+
+#: playlistgenerator/constraints/TagMatch.cpp:485
+#, fuzzy
+#| msgid "with"
+msgid "within"
+msgstr "bi"
+
+#: playlistgenerator/constraints/TagMatch.cpp:497
+msgid "regexp"
+msgstr ""
 
 #: playlistgenerator/PresetModel.cpp:150
 #, fuzzy
