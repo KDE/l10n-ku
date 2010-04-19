@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-04-18 03:05+0000\n"
+"POT-Creation-Date: 2010-04-19 02:58+0000\n"
 "PO-Revision-Date: 2009-01-06 01:24+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -1538,7 +1538,7 @@ msgctxt "Name"
 msgid "Manage Notifications"
 msgstr "Agahdarî"
 
-#: runtime/kcontrol/knotify/kcmnotify.desktop:15
+#: runtime/kcontrol/knotify/kcmnotify.desktop:16
 msgctxt "Comment"
 msgid "System Notification Configuration"
 msgstr "Mîhengên Hişyarkirinên Pergalê"
@@ -6261,7 +6261,6 @@ msgid "More Applications"
 msgstr "Zêdetin Sepan"
 
 #: runtime/menu/desktop/kde-multimedia.directory:4
-#: runtime/phonon/kcm/kcm_phonon.desktop:13
 #: workspace/plasma/netbook/containments/sal/services/plasma-sal-multimedia.desktop:2
 msgctxt "Name"
 msgid "Multimedia"
@@ -6280,7 +6279,6 @@ msgstr "Zanîn & Matematîk"
 
 #: runtime/menu/desktop/kde-system.directory:4
 #: workspace/plasma/netbook/containments/sal/services/plasma-sal-system.desktop:2
-#: workspace/systemsettings/categories/settings-system.desktop:8
 msgctxt "Name"
 msgid "System"
 msgstr "Pergal"
@@ -6309,7 +6307,6 @@ msgid "Accessibility"
 msgstr "Gihîştin"
 
 #: runtime/menu/desktop/kde-utilities-desktop.directory:4
-#: workspace/systemsettings/categories/settings-desktop.desktop:8
 msgctxt "Name"
 msgid "Desktop"
 msgstr "Sermasê"
@@ -6613,6 +6610,14 @@ msgctxt "Comment"
 msgid "File indexing has been resumed by the search service."
 msgstr "Strigi pêrist kirina pelan hate dom kirin"
 
+#: runtime/phonon/kcm/kcm_phonon.desktop:13
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Phonon Xine"
+msgctxt "Name"
+msgid "Phonon"
+msgstr "Phonon Xine"
+
 #: runtime/phonon/kcm/kcm_phonon.desktop:103
 msgctxt "Comment"
 msgid "Sound and Video Configuration"
@@ -6755,6 +6760,7 @@ msgid "Automatically releases drives when their eject button is pushed"
 msgstr ""
 
 #: runtime/solid-device-automounter/kcm/device_automounter_kcm.desktop:11
+#: workspace/systemsettings/categories/settings-removable-devices.desktop:8
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "USB Devices"
@@ -6937,12 +6943,12 @@ msgctxt "Comment"
 msgid "Color settings"
 msgstr "Mîhengên rengan"
 
-#: workspace/kcontrol/dateandtime/clock.desktop:14
+#: workspace/kcontrol/dateandtime/clock.desktop:15
 msgctxt "Name"
 msgid "Date & Time"
 msgstr "Roj & Dem"
 
-#: workspace/kcontrol/dateandtime/clock.desktop:104
+#: workspace/kcontrol/dateandtime/clock.desktop:105
 msgctxt "Comment"
 msgid "Date and time settings"
 msgstr "Mîhengên Dem û Demjimêrê"
@@ -6989,13 +6995,12 @@ msgctxt "Comment"
 msgid "Font settings"
 msgstr "Mîhengên curenivîsan"
 
-#: workspace/kcontrol/hardware/display/display.desktop:11
-#: workspace/systemsettings/categories/settings-display.desktop:8
+#: workspace/kcontrol/hardware/display/display.desktop:12
 msgctxt "Name"
 msgid "Display"
 msgstr "Dîmender"
 
-#: workspace/kcontrol/hardware/display/display.desktop:99
+#: workspace/kcontrol/hardware/display/display.desktop:100
 #: workspace/systemsettings/categories/settings-display.desktop:96
 msgctxt "Comment"
 msgid "Display Settings"
@@ -7072,9 +7077,12 @@ msgid "XPlanet by Hari Nair"
 msgstr "XPlanet ji Hari Nair"
 
 #: workspace/kcontrol/kdm/kdm.desktop:16
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "PrintScreen"
 msgctxt "Name"
-msgid "Login Manager"
-msgstr "Gerînendeyê Têketinê"
+msgid "Login Screen"
+msgstr "DîmenderaÇapkirinê"
 
 #: workspace/kcontrol/kdm/kdm.desktop:105
 msgctxt "Comment"
@@ -8296,7 +8304,7 @@ msgctxt "Name"
 msgid "Custom Shortcuts"
 msgstr "Kurteriyên Webê"
 
-#: workspace/khotkeys/kcm_hotkeys/khotkeys.desktop:95
+#: workspace/khotkeys/kcm_hotkeys/khotkeys.desktop:15
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure trash settings"
@@ -8699,8 +8707,11 @@ msgid "ScreenSaver"
 msgstr "Dîmenderparêz"
 
 #: workspace/ksmserver/kcm/kcmsmserver.desktop:13
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Session Manager"
 msgctxt "Name"
-msgid "Session Manager"
+msgid "Session Management"
 msgstr "Gerînendeyê Danişînê"
 
 #: workspace/ksmserver/kcm/kcmsmserver.desktop:100
@@ -9639,9 +9650,12 @@ msgid "Configure desktop effects"
 msgstr ""
 
 #: workspace/kwin/kcmkwin/kwindecoration/kwindecoration.desktop:14
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Window Information"
 msgctxt "Name"
-msgid "Windows"
-msgstr "Pace"
+msgid "Window Decorations"
+msgstr "Agahiya Paceyê"
 
 #: workspace/kwin/kcmkwin/kwindecoration/kwindecoration.desktop:94
 msgctxt "Comment"
@@ -9649,9 +9663,12 @@ msgid "Configure the look and feel of window titles"
 msgstr ""
 
 #: workspace/kwin/kcmkwin/kwindesktop/desktop.desktop:14
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Desktop"
 msgctxt "Name"
-msgid "Multiple Desktops"
-msgstr ""
+msgid "Virtual Desktops"
+msgstr "Sermasê"
 
 #: workspace/kwin/kcmkwin/kwindesktop/desktop.desktop:99
 msgctxt "Comment"
@@ -9669,7 +9686,6 @@ msgid "Configure keyboard and mouse settings"
 msgstr ""
 
 #: workspace/kwin/kcmkwin/kwinoptions/kwinadvanced.desktop:11
-#: workspace/systemsettings/categories/settings-advanced.desktop:8
 msgctxt "Name"
 msgid "Advanced"
 msgstr "Pêşketî"
@@ -9711,9 +9727,12 @@ msgid "Configure the window behavior"
 msgstr "Helwesta paceyan veava bike"
 
 #: workspace/kwin/kcmkwin/kwinrules/kwinrules.desktop:14
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Window Close"
 msgctxt "Name"
-msgid "Window-Specific"
-msgstr ""
+msgid "Window Rules"
+msgstr "Paceyê Bigire"
 
 #: workspace/kwin/kcmkwin/kwinrules/kwinrules.desktop:90
 msgctxt "Comment"
@@ -9737,12 +9756,9 @@ msgid "Configure active screen edges"
 msgstr "Mîhengên pêşbîra webê ava bike"
 
 #: workspace/kwin/kcmkwin/kwintabbox/kwintabbox.desktop:13
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Duplicate Window"
 msgctxt "Name"
-msgid "Navigate Through Windows"
-msgstr "Paceyê bike cot"
+msgid "Task Switcher"
+msgstr ""
 
 #: workspace/kwin/kcmkwin/kwintabbox/kwintabbox.desktop:66
 #, fuzzy
@@ -11790,7 +11806,7 @@ msgctxt "Name"
 msgid "Solid Backend"
 msgstr "Xîş Bike"
 
-#: workspace/solid/kcm/kcm_solid.desktop:94
+#: workspace/solid/kcm/kcm_solid.desktop:14
 msgctxt "Comment"
 msgid "Hardware Integration Configuration with Solid"
 msgstr "Veavakirina Tevîhevkirina Reqalavê bi Solid re"
@@ -12303,11 +12319,6 @@ msgctxt "Name"
 msgid "System Settings"
 msgstr "Mîhengên Pergalê"
 
-#: workspace/systemsettings/categories/settings-about-me.desktop:8
-msgctxt "Name"
-msgid "About Me"
-msgstr "Der barê min de"
-
 #: workspace/systemsettings/categories/settings-account-details.desktop:8
 #, fuzzy
 #| msgctxt "Name"
@@ -12315,11 +12326,6 @@ msgstr "Der barê min de"
 msgctxt "Name"
 msgid "Account Details"
 msgstr "Kitekit"
-
-#: workspace/systemsettings/categories/settings-advanced-user-settings.desktop:8
-msgctxt "Name"
-msgid "Advanced User Settings"
-msgstr "Mîhengên Pêşketî ên Bikarhêner"
 
 #: workspace/systemsettings/categories/settings-application-and-system-notifications.desktop:8
 #, fuzzy
@@ -12345,15 +12351,34 @@ msgctxt "Name"
 msgid "Application Appearance"
 msgstr "Deskpêkerê Sepanan"
 
+#: workspace/systemsettings/categories/settings-audio-and-video.desktop:9
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Audio and Video IDE"
+msgctxt "Name"
+msgid "Audio and Video"
+msgstr "IDE'ya (Dorhêla Pêşdebirina Hevedûdanî) ya Deng û Vîdeo"
+
 #: workspace/systemsettings/categories/settings-bluetooth.desktop:8
 msgctxt "Name"
 msgid "Bluetooth"
 msgstr "Bluetooth"
 
-#: workspace/systemsettings/categories/settings-computer-administration.desktop:9
+#: workspace/systemsettings/categories/settings-desktop-appearance.desktop:9
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Desktop Search"
 msgctxt "Name"
-msgid "Computer Administration"
-msgstr "Gerînendetiya Komputerê"
+msgid "Desktop Appearance"
+msgstr "Lêgerîna Sermasê"
+
+#: workspace/systemsettings/categories/settings-display.desktop:8
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "File Management"
+msgctxt "Name"
+msgid "Display and Monitor"
+msgstr "Rêveberiya Pelan"
 
 #: workspace/systemsettings/categories/settings-general.desktop:9
 #, fuzzy
@@ -12368,11 +12393,6 @@ msgctxt "Name"
 msgid "Hardware"
 msgstr "Reqalav"
 
-#: workspace/systemsettings/categories/settings-keyboard-and-mouse.desktop:8
-msgctxt "Name"
-msgid "Keyboard & Mouse"
-msgstr "Klavye & Mişk"
-
 #: workspace/systemsettings/categories/settings-locale.desktop:8
 #, fuzzy
 #| msgctxt "GenericName"
@@ -12380,11 +12400,6 @@ msgstr "Klavye & Mişk"
 msgctxt "Name"
 msgid "Locale"
 msgstr "Lîstika Jîrîtiyê"
-
-#: workspace/systemsettings/categories/settings-look-and-feel.desktop:9
-msgctxt "Name"
-msgid "Look & Feel"
-msgstr "Binêre & Hîs Bike"
 
 #: workspace/systemsettings/categories/settings-lost-and-found.desktop:9
 #, fuzzy
@@ -12394,9 +12409,20 @@ msgctxt "Name"
 msgid "Lost and Found"
 msgstr "Winda & Dîtî"
 
-#: workspace/systemsettings/categories/settings-network-and-connectivity.desktop:9
+#: workspace/systemsettings/categories/settings-main-input-devices.desktop:8
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Devices"
 msgctxt "Name"
-msgid "Network & Connectivity"
+msgid "Main Input Devices"
+msgstr "Cîhaz"
+
+#: workspace/systemsettings/categories/settings-network-and-connectivity.desktop:8
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Network & Connectivity"
+msgctxt "Name"
+msgid "Network and Connectivity"
 msgstr "Tor & Girêdan"
 
 #: workspace/systemsettings/categories/settings-network-settings.desktop:8
@@ -12404,10 +12430,21 @@ msgctxt "Name"
 msgid "Network Settings"
 msgstr "Mîhengên Torê"
 
-#: workspace/systemsettings/categories/settings-personal.desktop:8
+#: workspace/systemsettings/categories/settings-other-input-devices.desktop:8
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Devices"
 msgctxt "Name"
-msgid "Personal"
-msgstr "Şexsî"
+msgid "Other Input Devices"
+msgstr "Cîhaz"
+
+#: workspace/systemsettings/categories/settings-permissions.desktop:8
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Partitions"
+msgctxt "Name"
+msgid "Permissions"
+msgstr "Partîsiyon"
 
 #: workspace/systemsettings/categories/settings-personal-information.desktop:8
 #, fuzzy
@@ -12417,10 +12454,13 @@ msgctxt "Name"
 msgid "Personal Information"
 msgstr "Agahiyên Kirarê"
 
-#: workspace/systemsettings/categories/settings-regional-and-language.desktop:8
+#: workspace/systemsettings/categories/settings-security.desktop:8
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Metacity"
 msgctxt "Name"
-msgid "Regional & Language"
-msgstr "Herêmî & Ziman"
+msgid "Security"
+msgstr "Metacity"
 
 #: workspace/systemsettings/categories/settings-sharing.desktop:8
 msgctxt "Name"
@@ -12434,6 +12474,27 @@ msgstr "Parvekirin"
 msgctxt "Name"
 msgid "Shortcuts and Gestures"
 msgstr "Tevgerên Mişkê"
+
+#: workspace/systemsettings/categories/settings-startup-and-shutdown.desktop:8
+msgctxt "Name"
+msgid "Startup and Shutdown"
+msgstr ""
+
+#: workspace/systemsettings/categories/settings-system-administration.desktop:9
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "SAM System-Administration"
+msgctxt "Name"
+msgid "System Administration"
+msgstr "Gerînendetiya Pergala SAM"
+
+#: workspace/systemsettings/categories/settings-workspace-appearance-and-behavior.desktop:9
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Application Launcher"
+msgctxt "Name"
+msgid "Workspace Appearance and Behavior"
+msgstr "Deskpêkerê Sepanan"
 
 #: workspace/systemsettings/categories/systemsettingscategory.desktop:4
 msgctxt "Name"
@@ -12552,6 +12613,49 @@ msgstr ""
 msgctxt "Name"
 msgid "The Rings of Saturn"
 msgstr ""
+
+#~ msgctxt "Name"
+#~ msgid "Login Manager"
+#~ msgstr "Gerînendeyê Têketinê"
+
+#~ msgctxt "Name"
+#~ msgid "Windows"
+#~ msgstr "Pace"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Duplicate Window"
+#~ msgctxt "Name"
+#~ msgid "Navigate Through Windows"
+#~ msgstr "Paceyê bike cot"
+
+#~ msgctxt "Name"
+#~ msgid "About Me"
+#~ msgstr "Der barê min de"
+
+#~ msgctxt "Name"
+#~ msgid "Advanced User Settings"
+#~ msgstr "Mîhengên Pêşketî ên Bikarhêner"
+
+#~ msgctxt "Name"
+#~ msgid "Computer Administration"
+#~ msgstr "Gerînendetiya Komputerê"
+
+#~ msgctxt "Name"
+#~ msgid "Keyboard & Mouse"
+#~ msgstr "Klavye & Mişk"
+
+#~ msgctxt "Name"
+#~ msgid "Look & Feel"
+#~ msgstr "Binêre & Hîs Bike"
+
+#~ msgctxt "Name"
+#~ msgid "Personal"
+#~ msgstr "Şexsî"
+
+#~ msgctxt "Name"
+#~ msgid "Regional & Language"
+#~ msgstr "Herêmî & Ziman"
 
 #~ msgctxt "Name"
 #~ msgid "System Notifications"
@@ -13496,10 +13600,6 @@ msgstr ""
 #~ msgid "Broadcast 2000"
 #~ msgstr "Broadcast 2000"
 
-#~ msgctxt "GenericName"
-#~ msgid "Audio and Video IDE"
-#~ msgstr "IDE'ya (Dorhêla Pêşdebirina Hevedûdanî) ya Deng û Vîdeo"
-
 #~ msgctxt "Name"
 #~ msgid "DJPlay"
 #~ msgstr "DJPlay"
@@ -13896,10 +13996,6 @@ msgstr ""
 #~ msgstr "Serastkera çavkaniyên X"
 
 #~ msgctxt "Name"
-#~ msgid "SAM System-Administration"
-#~ msgstr "Gerînendetiya Pergala SAM"
-
-#~ msgctxt "Name"
 #~ msgid "Terminal"
 #~ msgstr "Termînal"
 
@@ -14225,10 +14321,6 @@ msgstr ""
 #~ msgctxt "Comment"
 #~ msgid "Attached devices information"
 #~ msgstr "Agahiyên cîhazên pêvek"
-
-#~ msgctxt "Name"
-#~ msgid "Partitions"
-#~ msgstr "Partîsiyon"
 
 #~ msgctxt "Comment"
 #~ msgid "Partition information"
