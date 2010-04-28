@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasmapkg\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-02-24 07:11+0100\n"
+"POT-Creation-Date: 2010-04-28 04:48+0200\n"
 "PO-Revision-Date: 2009-01-06 13:55+0200\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -46,13 +46,21 @@ msgstr ""
 "dixebite."
 
 #: main.cpp:94
+#, fuzzy
+#| msgctxt ""
+#| "theme, wallpaper, etc. are keywords, but they may be translated, as both "
+#| "versions are recognized by the application (if translated, should be same "
+#| "as messages with 'package type' context below)"
+#| msgid ""
+#| "The type of package, e.g. theme, wallpaper, plasmoid, dataengine, runner, "
+#| "etc."
 msgctxt ""
 "theme, wallpaper, etc. are keywords, but they may be translated, as both "
 "versions are recognized by the application (if translated, should be same as "
 "messages with 'package type' context below)"
 msgid ""
 "The type of package, e.g. theme, wallpaper, plasmoid, dataengine, runner, "
-"etc."
+"layout-template, etc."
 msgstr ""
 "Cureyê pakêtê, her wekî, dirb, rûerd, plasmoid, MotoraDaneyan, ajoker, hwd."
 
@@ -116,17 +124,22 @@ msgctxt "package type"
 msgid "wallpaperplugin"
 msgstr "rûerd"
 
-#: main.cpp:184
+#: main.cpp:180
+msgctxt "package type"
+msgid "layout-template"
+msgstr ""
+
+#: main.cpp:188
 #, kde-format
 msgid "Could not find a suitable installer for package of type %1"
 msgstr "Nikare ji bo pakêta %1 sazkarekê lêhatî bibîne"
 
-#: main.cpp:193
+#: main.cpp:197
 #, kde-format
 msgid "Could not load installer for package of type %1. Error reported was: %2"
 msgstr "Ji bo cureyê %1 a pakêtê sazkar nehat barkirin. Rapora çewtiyê: %2"
 
-#: main.cpp:211
+#: main.cpp:215
 msgctxt ""
 "The user entered conflicting options packageroot and global, this is the "
 "error message telling the user he can use only one"
@@ -135,32 +148,32 @@ msgid ""
 "one."
 msgstr ""
 
-#: main.cpp:236
+#: main.cpp:240
 #, kde-format
 msgid "Successfully removed %1"
 msgstr "Rakirina %1 biserket"
 
-#: main.cpp:238
+#: main.cpp:242
 #, kde-format
 msgid "Removal of %1 failed."
 msgstr "Rakirina %1 têk çû."
 
-#: main.cpp:243
+#: main.cpp:247
 #, kde-format
 msgid "Plugin %1 is not installed."
 msgstr "Pêveka %1 nehat saz kirin."
 
-#: main.cpp:248
+#: main.cpp:252
 #, kde-format
 msgid "Successfully installed %1"
 msgstr "Sazkirina %1 biserket"
 
-#: main.cpp:250
+#: main.cpp:254
 #, kde-format
 msgid "Installation of %1 failed."
 msgstr "Sazkirina %1 têk çû."
 
-#: main.cpp:256
+#: main.cpp:260
 msgctxt ""
 "No option was given, this is the error message telling the user he needs at "
 "least one, do not translate install, remove, upgrade nor list"

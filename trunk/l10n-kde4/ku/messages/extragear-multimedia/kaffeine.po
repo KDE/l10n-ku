@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaffeine\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-03-22 04:40+0100\n"
+"POT-Creation-Date: 2010-04-28 04:54+0200\n"
 "PO-Revision-Date: 2008-12-20 16:02+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -495,7 +495,7 @@ msgstr ""
 msgid "Circular right"
 msgstr ""
 
-#: dvb/dvbchannelui.cpp:238 dvb/dvbrecording.cpp:732 dvb/dvbscandialog.cpp:182
+#: dvb/dvbchannelui.cpp:238 dvb/dvbrecording.cpp:437 dvb/dvbscandialog.cpp:182
 msgid "Name"
 msgstr "Nav"
 
@@ -503,12 +503,12 @@ msgstr "Nav"
 msgid "Number"
 msgstr "Hejmar"
 
-#: dvb/dvbchannelui.cpp:575 dvb/dvbrecording.cpp:398 dvb/dvbrecording.cpp:417
+#: dvb/dvbchannelui.cpp:575 dvb/dvbrecording.cpp:380 dvb/dvbrecording.cpp:399
 #: dvb/dvbscandialog.cpp:210
 msgid "Edit"
 msgstr ""
 
-#: dvb/dvbchannelui.cpp:588 dvb/dvbrecording.cpp:403 dvb/dvbrecording.cpp:421
+#: dvb/dvbchannelui.cpp:588 dvb/dvbrecording.cpp:385 dvb/dvbrecording.cpp:403
 #: dvb/dvbscandialog.cpp:215 playlist/playlisttab.cpp:377
 #: playlist/playlisttab.cpp:398
 #, fuzzy
@@ -524,7 +524,7 @@ msgid "Channel Settings"
 msgstr "Kanal"
 
 #: dvb/dvbchannelui.cpp:632 dvb/dvbconfigdialog.cpp:649
-#: dvb/dvbrecording.cpp:549
+#: dvb/dvbrecording.cpp:613
 msgid "Name:"
 msgstr "Nav:"
 
@@ -637,7 +637,7 @@ msgstr "Kanalê biguherîne"
 msgid "Scrambled:"
 msgstr ""
 
-#: dvb/dvbconfigdialog.cpp:45 dvb/dvbtab.cpp:114
+#: dvb/dvbconfigdialog.cpp:45 dvb/dvbtab.cpp:113
 #, fuzzy
 #| msgid "Configure Channels"
 msgid "Configure Television"
@@ -905,11 +905,11 @@ msgstr "LOF a tîkane (MHz)"
 msgid "LOF (MHz)"
 msgstr "LOF (MHz)"
 
-#: dvb/dvbepg.cpp:207 dvb/dvbrecording.cpp:732
+#: dvb/dvbepg.cpp:207 dvb/dvbrecording.cpp:441
 msgid "Begin"
 msgstr ""
 
-#: dvb/dvbepg.cpp:209 dvb/dvbrecording.cpp:733
+#: dvb/dvbepg.cpp:209 dvb/dvbrecording.cpp:443
 #, fuzzy
 #| msgid "Configuration:"
 msgid "Duration"
@@ -921,7 +921,7 @@ msgstr "Mîhengkirin:"
 msgid "Title"
 msgstr "&Pel"
 
-#: dvb/dvbepg.cpp:402 dvb/dvbtab.cpp:89
+#: dvb/dvbepg.cpp:402 dvb/dvbtab.cpp:88
 msgid "Program Guide"
 msgstr ""
 
@@ -964,64 +964,64 @@ msgctxt "message box"
 msgid "No available device found."
 msgstr "Tu cihazên lêhatî nedît."
 
-#: dvb/dvbrecording.cpp:387 dvb/dvbtab.cpp:100
+#: dvb/dvbrecording.cpp:369 dvb/dvbtab.cpp:99
 msgctxt "dialog"
 msgid "Recording Schedule"
 msgstr ""
 
-#: dvb/dvbrecording.cpp:394 playlist/playlisttab.cpp:388
+#: dvb/dvbrecording.cpp:376 playlist/playlisttab.cpp:388
 #, fuzzy
 #| msgid "New"
 msgctxt "add a new item to a list"
 msgid "New"
 msgstr "Nû"
 
-#: dvb/dvbrecording.cpp:540
+#: dvb/dvbrecording.cpp:439
+#, fuzzy
+#| msgid "Channels"
+msgid "Channel"
+msgstr "Kanal"
+
+#: dvb/dvbrecording.cpp:604
 msgctxt "subdialog of 'Recording Schedule'"
 msgid "Edit Schedule Entry"
 msgstr ""
 
-#: dvb/dvbrecording.cpp:567
+#: dvb/dvbrecording.cpp:631
 #, fuzzy
 #| msgid "Channels"
 msgid "Channel:"
 msgstr "Kanal"
 
-#: dvb/dvbrecording.cpp:577
+#: dvb/dvbrecording.cpp:641
 msgid "Begin:"
 msgstr ""
 
-#: dvb/dvbrecording.cpp:585
+#: dvb/dvbrecording.cpp:649
 #, fuzzy
 #| msgid "Configuration:"
 msgid "Duration:"
 msgstr "Mîhengkirin:"
 
-#: dvb/dvbrecording.cpp:594
+#: dvb/dvbrecording.cpp:658
 #, fuzzy
 #| msgid "Tuned:"
 msgid "End:"
 msgstr "Eyarkirî:"
 
-#: dvb/dvbrecording.cpp:598
+#: dvb/dvbrecording.cpp:662
 msgid "Repeat:"
 msgstr ""
 
-#: dvb/dvbrecording.cpp:602
+#: dvb/dvbrecording.cpp:666
 msgctxt "button next to the 'Repeat:' label"
 msgid "Never"
 msgstr ""
 
-#: dvb/dvbrecording.cpp:606
+#: dvb/dvbrecording.cpp:670
 msgctxt "button next to the 'Repeat:' label"
 msgid "Daily"
 msgstr ""
-
-#: dvb/dvbrecording.cpp:732
-#, fuzzy
-#| msgid "Channels"
-msgid "Channel"
-msgstr "Kanal"
 
 #: dvb/dvbscandialog.cpp:43
 msgid "0%"
@@ -1040,7 +1040,7 @@ msgstr "Peydaker"
 msgid "SNR"
 msgstr "SNR"
 
-#: dvb/dvbscandialog.cpp:195 dvb/dvbscandialog.cpp:200 dvb/dvbtab.cpp:84
+#: dvb/dvbscandialog.cpp:195 dvb/dvbscandialog.cpp:200 dvb/dvbtab.cpp:83
 msgid "Channels"
 msgstr "Kanal"
 
@@ -1125,19 +1125,19 @@ msgstr "Bersîvdar(sînyalên radyo re) ê heyî"
 msgid "Stop Scan"
 msgstr "Lê nihêrîn ê rawestîne "
 
-#: dvb/dvbtab.cpp:94
+#: dvb/dvbtab.cpp:93
 msgid "OSD"
 msgstr ""
 
-#: dvb/dvbtab.cpp:107
+#: dvb/dvbtab.cpp:106
 msgid "Instant Record"
 msgstr ""
 
-#: dvb/dvbtab.cpp:134
+#: dvb/dvbtab.cpp:133
 msgid "Search:"
 msgstr "Lêgere:"
 
-#: dvb/dvbtab.cpp:259
+#: dvb/dvbtab.cpp:258
 #, fuzzy, kde-format
 #| msgid "Channels"
 msgctxt "osd"
@@ -1149,7 +1149,7 @@ msgctxt "osd"
 msgid "Instant Record Started"
 msgstr ""
 
-#: dvb/dvbtab.cpp:308 dvb/dvbtab.cpp:315
+#: dvb/dvbtab.cpp:308 dvb/dvbtab.cpp:317
 msgctxt "osd"
 msgid "Instant Record Stopped"
 msgstr ""
