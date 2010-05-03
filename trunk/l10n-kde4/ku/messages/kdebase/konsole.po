@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-02 04:37+0200\n"
+"POT-Creation-Date: 2010-05-03 04:52+0200\n"
 "PO-Revision-Date: 2009-01-06 02:14+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <ku@li.org>\n"
@@ -236,7 +236,7 @@ msgstr "E-peyam Bişîne jê...."
 msgid "Copy Email Address"
 msgstr "Navnîşana E-peyamê Ji Ber Bigire"
 
-#: HistorySizeDialog.cpp:51 SessionController.cpp:527
+#: HistorySizeDialog.cpp:51 SessionController.cpp:501
 msgid "Scrollback Options"
 msgstr "Bijareyên Paşveçûnê"
 
@@ -548,40 +548,50 @@ msgstr "Lars Knoll"
 msgid "Thanks to many others.\n"
 msgstr "Ji gelek kesên din re spas.\n"
 
-#: MainWindow.cpp:235
+#. i18n: file: ../desktop/konsoleui.rc:45
+#. i18n: ectx: Menu (new-tab)
+#: MainWindow.cpp:233 rc.cpp:882
 msgid "New &Tab"
 msgstr "Hi&pekîna Nû"
 
-#: MainWindow.cpp:241
+#: MainWindow.cpp:238
+#, fuzzy
+#| msgid "Delete Profile"
+msgid "&Default Profile"
+msgstr "Profîlê jê bibe"
+
+#: MainWindow.cpp:244
 msgid "New &Window"
 msgstr "&Paceya Nû"
 
-#: MainWindow.cpp:246
+#: MainWindow.cpp:249
 msgid "Remote Connection..."
 msgstr "Girêdana Dûr re..."
 
-#: MainWindow.cpp:257
+#: MainWindow.cpp:260
 msgid "&Bookmarks"
 msgstr "&Bijare"
 
-#: MainWindow.cpp:268
+#: MainWindow.cpp:271
 msgid "Show Menu Bar"
 msgstr "Darikê Pêşekê Nîşan Bide"
 
-#: MainWindow.cpp:290 Part.cpp:116
-msgid "Manage Profiles..."
+#: MainWindow.cpp:293 Part.cpp:116
+#, fuzzy
+#| msgid "Manage Profiles..."
+msgid "Configure Profiles..."
 msgstr "Profîlan Bi Rê Ve Bibe..."
 
-#: MainWindow.cpp:363
+#: MainWindow.cpp:376
 msgid "You have multiple tabs in this window, are you sure you want to quit?"
 msgstr ""
 "Di vê pace yê de yekê zêdetir hilpekîn hene, tu dîsa jî dixwazî derkevî?"
 
-#: MainWindow.cpp:365 SessionController.cpp:633
+#: MainWindow.cpp:378 SessionController.cpp:608
 msgid "Confirm Close"
 msgstr "Girtinê Bipejirîne"
 
-#: MainWindow.cpp:367
+#: MainWindow.cpp:380
 msgid "Close Current Tab"
 msgstr "Vê Hilpekînê Bigire"
 
@@ -1472,7 +1482,7 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "oensari@gmail.com"
 
-#. i18n: file: ../desktop/sessionui.rc:14
+#. i18n: file: ../desktop/sessionui.rc:15
 #. i18n: ectx: Menu (edit-copy-input-to)
 #: rc.cpp:849
 #, fuzzy
@@ -1480,13 +1490,13 @@ msgstr "oensari@gmail.com"
 msgid "Copy Input To"
 msgstr "Ketanê Ji Ber Bigire Jê..."
 
-#. i18n: file: ../desktop/sessionui.rc:47
+#. i18n: file: ../desktop/sessionui.rc:43
 #. i18n: ectx: Menu (debug)
 #: rc.cpp:852
 msgid "Debug"
 msgstr "Serast kirina Çewtiyan"
 
-#. i18n: file: ../desktop/sessionui.rc:65
+#. i18n: file: ../desktop/sessionui.rc:62
 #. i18n: ectx: Menu (change-profile)
 #. i18n: file: ../desktop/partui.rc:25
 #. i18n: ectx: Menu (change-profile)
@@ -1506,39 +1516,33 @@ msgstr ""
 msgid "File"
 msgstr "Pel"
 
-#. i18n: file: ../desktop/konsoleui.rc:15
+#. i18n: file: ../desktop/konsoleui.rc:14
 #. i18n: ectx: Menu (edit)
 #: rc.cpp:867
 msgid "Edit"
 msgstr "Guherîne"
 
-#. i18n: file: ../desktop/konsoleui.rc:18
-#. i18n: ectx: Menu (history)
-#: rc.cpp:870
-msgid "Scrollback"
-msgstr ""
-
-#. i18n: file: ../desktop/konsoleui.rc:21
+#. i18n: file: ../desktop/konsoleui.rc:17
 #. i18n: ectx: Menu (view)
-#: rc.cpp:873
+#: rc.cpp:870
 msgid "View"
 msgstr "Bibîne"
 
-#. i18n: file: ../desktop/konsoleui.rc:22
+#. i18n: file: ../desktop/konsoleui.rc:18
 #. i18n: ectx: Menu (view-split)
-#: rc.cpp:876
+#: rc.cpp:873
 msgid "Split View"
 msgstr "Dîmena Par Kirî"
 
-#. i18n: file: ../desktop/konsoleui.rc:40
+#. i18n: file: ../desktop/konsoleui.rc:33
 #. i18n: ectx: Menu (settings)
-#: rc.cpp:879
+#: rc.cpp:876
 msgid "Settings"
 msgstr "Mîheng"
 
-#. i18n: file: ../desktop/konsoleui.rc:47
+#. i18n: file: ../desktop/konsoleui.rc:42
 #. i18n: ectx: Menu (help)
-#: rc.cpp:882
+#: rc.cpp:879
 msgid "Help"
 msgstr "Alîkarî"
 
@@ -1606,154 +1610,136 @@ msgstr "Hilpekînê &Bigire"
 msgid "Open File Manager"
 msgstr ""
 
-#: SessionController.cpp:408
-msgid "&Copy"
-msgstr "Ji&bergirtin"
-
-#: SessionController.cpp:412
-msgid "&Paste"
-msgstr "&Pêvekirin"
-
-#: SessionController.cpp:425
+#: SessionController.cpp:416
 msgid "Paste Selection"
 msgstr "Hilbijartinê Pê Ve Bike"
 
-#: SessionController.cpp:431
+#: SessionController.cpp:422
 msgid "&Rename Tab..."
 msgstr "&Navê Hilpekînê Biguherîne..."
 
-#: SessionController.cpp:438
+#: SessionController.cpp:429
 msgid "&All Tabs in Current Window"
 msgstr ""
 
-#: SessionController.cpp:445
+#: SessionController.cpp:436
 #, fuzzy
 #| msgid "&Rename Tab..."
 msgid "&Select Tabs..."
 msgstr "&Navê Hilpekînê Biguherîne..."
 
-#: SessionController.cpp:452
+#: SessionController.cpp:443
 msgid "&None"
 msgstr ""
 
-#: SessionController.cpp:459
+#: SessionController.cpp:450
 #, fuzzy
 #| msgid "Clear && Reset"
 msgid "Clear and Reset"
 msgstr "Paqij Bike && Vegere Nirxên Destpêkê"
 
-#: SessionController.cpp:464
+#: SessionController.cpp:455
 msgid "&ZModem Upload..."
 msgstr ""
 
-#: SessionController.cpp:470
+#: SessionController.cpp:461
 msgid "Monitor for &Activity"
 msgstr "Monîtor ji bo &Çalakiyan"
 
-#: SessionController.cpp:475
+#: SessionController.cpp:466
 msgid "Monitor for &Silence"
 msgstr "Monîtor ji bo &Bêdengî yê"
 
-#: SessionController.cpp:481
+#: SessionController.cpp:472
 msgid "Character Encoding"
 msgstr "Kodkirina Tîpan"
 
-#: SessionController.cpp:488
-msgid "Increase Text Size"
-msgstr "Mezinahiya Nivîsê Zêdetir Bike"
+#: SessionController.cpp:479
+msgid "Enlarge Font"
+msgstr ""
 
-#: SessionController.cpp:494
-msgid "Decrease Text Size"
-msgstr "Mezinahiya Nivîsê Kêmtir Bike"
+#: SessionController.cpp:482
+msgid "Shrink Font"
+msgstr ""
 
-#: SessionController.cpp:500
-msgid "Search Output..."
-msgstr "Lê Deranê Bigere..."
-
-#: SessionController.cpp:509
-msgid "Find Next"
-msgstr "Ya Dû Re Bibîne"
-
-#: SessionController.cpp:516
-msgid "Find Previous"
-msgstr "Ya Berê Bibîne"
-
-#: SessionController.cpp:522
-msgid "Save Output..."
+#: SessionController.cpp:498
+#, fuzzy
+#| msgid "Save Output..."
+msgid "Save Output As..."
 msgstr "Deranê Tomar Bike..."
 
-#: SessionController.cpp:532
+#: SessionController.cpp:506
 #, fuzzy
 #| msgid "Clear && Reset"
 msgid "Clear Scrollback and Reset"
 msgstr "Paqij Bike && Vegere Nirxên Destpêkê"
 
-#: SessionController.cpp:538
+#: SessionController.cpp:513
 msgid "Edit Current Profile..."
 msgstr "Profîla Heyî Biguherîne..."
 
-#: SessionController.cpp:542
+#: SessionController.cpp:517
 msgid "Change Profile"
 msgstr "Profîlê Biguherîne"
 
-#: SessionController.cpp:583
+#: SessionController.cpp:558
 msgid "Rename Tab"
 msgstr "Navê Hilpekînê Biguherîne"
 
-#: SessionController.cpp:584
+#: SessionController.cpp:559
 msgid "Enter new tab text:"
 msgstr "Nivîsara hilpekîna nû binivîse:"
 
-#: SessionController.cpp:627
+#: SessionController.cpp:602
 msgid ""
 "A program is currently running in this session.  Are you sure you want to "
 "close it?"
 msgstr ""
 
-#: SessionController.cpp:630
+#: SessionController.cpp:605
 #, kde-format
 msgid ""
 "The program '%1' is currently running in this session.  Are you sure you "
 "want to close it?"
 msgstr ""
 
-#: SessionController.cpp:1188
+#: SessionController.cpp:1163
 msgid "Save ZModem Download to..."
 msgstr ""
 
-#: SessionController.cpp:1197
+#: SessionController.cpp:1172
 msgid ""
 "<p>A ZModem file transfer attempt has been detected, but no suitable ZModem "
 "software was found on this system.</p><p>You may wish to install the 'rzsz' "
 "or 'lrzsz' package.</p>"
 msgstr ""
 
-#: SessionController.cpp:1209
+#: SessionController.cpp:1184
 msgid ""
 "<p>The current session already has a ZModem file transfer in progress.</p>"
 msgstr ""
 
-#: SessionController.cpp:1218
+#: SessionController.cpp:1193
 msgid ""
 "<p>No suitable ZModem software was found on this system.</p><p>You may wish "
 "to install the 'rzsz' or 'lrzsz' package.</p>"
 msgstr ""
 
-#: SessionController.cpp:1224
+#: SessionController.cpp:1199
 msgid "Select Files for ZModem Upload"
 msgstr ""
 
-#: SessionController.cpp:1296
+#: SessionController.cpp:1271
 #, kde-format
 msgid "Save Output From %1"
 msgstr ""
 
-#: SessionController.cpp:1307
+#: SessionController.cpp:1282
 #, kde-format
 msgid "%1 is an invalid URL, the output could not be saved."
 msgstr "%1 URL ya ne-derbasdar e, deran nayê tomar kirin."
 
-#: SessionController.cpp:1396
+#: SessionController.cpp:1371
 #, kde-format
 msgid ""
 "A problem occurred when saving the output.\n"
@@ -1969,6 +1955,27 @@ msgstr ""
 #: ZModemDialog.cpp:35
 msgid "&Stop"
 msgstr "&Rawestîn"
+
+#~ msgid "&Copy"
+#~ msgstr "Ji&bergirtin"
+
+#~ msgid "&Paste"
+#~ msgstr "&Pêvekirin"
+
+#~ msgid "Increase Text Size"
+#~ msgstr "Mezinahiya Nivîsê Zêdetir Bike"
+
+#~ msgid "Decrease Text Size"
+#~ msgstr "Mezinahiya Nivîsê Kêmtir Bike"
+
+#~ msgid "Search Output..."
+#~ msgstr "Lê Deranê Bigere..."
+
+#~ msgid "Find Next"
+#~ msgstr "Ya Dû Re Bibîne"
+
+#~ msgid "Find Previous"
+#~ msgstr "Ya Berê Bibîne"
 
 #~ msgid "Open Browser Here"
 #~ msgstr "Gerokê Li Vir Veke"
