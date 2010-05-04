@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-03 04:50+0200\n"
+"POT-Creation-Date: 2010-05-04 06:23+0200\n"
 "PO-Revision-Date: 2009-01-05 14:53+0200\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -1024,7 +1024,7 @@ msgstr "Navnîşana E-Peyamê:"
 
 #. i18n: file: knewstuff/knewstuff2/ui/UploadDialog.ui:46
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rc.cpp:444 kross/ui/view.cpp:151 kdeui/colors/kcolordialog.cpp:1230
+#: rc.cpp:444 kross/ui/view.cpp:151 kdeui/colors/kcolordialog.cpp:1254
 msgid "Name:"
 msgstr "Nav:"
 
@@ -10735,7 +10735,7 @@ msgstr "Hemû Nivîsê &Ji Ber Bigire"
 #. (e.g. "Enter search pattern").
 #. By default the text is set in italic, which may not be appropriate
 #. for some languages and scripts (e.g. for CJK ideographs).
-#: kdeui/widgets/ktextedit.cpp:77 kdeui/widgets/klineedit.cpp:89
+#: kdeui/widgets/ktextedit.cpp:77 kdeui/widgets/klineedit.cpp:87
 msgctxt "Italic placeholder text in line edits: 0 no, 1 yes"
 msgid "1"
 msgstr "1"
@@ -11958,47 +11958,47 @@ msgstr "Salekê hilbijêre"
 msgid "Select the current day"
 msgstr "Roja îro hilbijêre"
 
-#: kdeui/widgets/klineedit.cpp:276
+#: kdeui/widgets/klineedit.cpp:261
 msgctxt "@action:button Clear current text in the line edit"
 msgid "Clear text"
 msgstr "Nivîsê Paqij Bike"
 
-#: kdeui/widgets/klineedit.cpp:1144
+#: kdeui/widgets/klineedit.cpp:1132
 msgctxt "@title:menu"
 msgid "Text Completion"
 msgstr "Temamkirina Nivîsê"
 
-#: kdeui/widgets/klineedit.cpp:1151
+#: kdeui/widgets/klineedit.cpp:1139
 msgctxt "@item:inmenu Text Completion"
 msgid "None"
 msgstr "Ne yek jî"
 
-#: kdeui/widgets/klineedit.cpp:1152
+#: kdeui/widgets/klineedit.cpp:1140
 msgctxt "@item:inmenu Text Completion"
 msgid "Manual"
 msgstr "Bi destan"
 
-#: kdeui/widgets/klineedit.cpp:1153
+#: kdeui/widgets/klineedit.cpp:1141
 msgctxt "@item:inmenu Text Completion"
 msgid "Automatic"
 msgstr "Bixweber"
 
-#: kdeui/widgets/klineedit.cpp:1154
+#: kdeui/widgets/klineedit.cpp:1142
 msgctxt "@item:inmenu Text Completion"
 msgid "Dropdown List"
 msgstr "Lîsteya Rêzkirî"
 
-#: kdeui/widgets/klineedit.cpp:1155
+#: kdeui/widgets/klineedit.cpp:1143
 msgctxt "@item:inmenu Text Completion"
 msgid "Short Automatic"
 msgstr "Bixweber û Kurt"
 
-#: kdeui/widgets/klineedit.cpp:1156
+#: kdeui/widgets/klineedit.cpp:1144
 msgctxt "@item:inmenu Text Completion"
 msgid "Dropdown List && Automatic"
 msgstr "Lîsteya Rêzkirî && Bixweber"
 
-#: kdeui/widgets/klineedit.cpp:1187
+#: kdeui/widgets/klineedit.cpp:1175
 msgctxt "@item:inmenu Text Completion"
 msgid "Default"
 msgstr "Standard"
@@ -13141,46 +13141,46 @@ msgstr "Host"
 msgid "Port"
 msgstr "Port"
 
-#: kdeui/colors/kcolordialog.cpp:99
+#: kdeui/colors/kcolordialog.cpp:100
 msgctxt "palette name"
 msgid "* Recent Colors *"
 msgstr "* Rengên Dawî *"
 
-#: kdeui/colors/kcolordialog.cpp:100
+#: kdeui/colors/kcolordialog.cpp:101
 msgctxt "palette name"
 msgid "* Custom Colors *"
 msgstr "* Rengên Taybet *"
 
-#: kdeui/colors/kcolordialog.cpp:101
+#: kdeui/colors/kcolordialog.cpp:102
 msgctxt "palette name"
 msgid "Forty Colors"
 msgstr "Çil Reng"
 
-#: kdeui/colors/kcolordialog.cpp:102
+#: kdeui/colors/kcolordialog.cpp:103
 msgctxt "palette name"
 msgid "Oxygen Colors"
 msgstr "Rengên Oxygen"
 
-#: kdeui/colors/kcolordialog.cpp:103
+#: kdeui/colors/kcolordialog.cpp:104
 msgctxt "palette name"
 msgid "Rainbow Colors"
 msgstr "Rengên Keskesorê"
 
-#: kdeui/colors/kcolordialog.cpp:104
+#: kdeui/colors/kcolordialog.cpp:105
 msgctxt "palette name"
 msgid "Royal Colors"
 msgstr "Rengên Royal"
 
-#: kdeui/colors/kcolordialog.cpp:105
+#: kdeui/colors/kcolordialog.cpp:106
 msgctxt "palette name"
 msgid "Web Colors"
 msgstr "Rengên Torê"
 
-#: kdeui/colors/kcolordialog.cpp:566
+#: kdeui/colors/kcolordialog.cpp:560
 msgid "Named Colors"
 msgstr "Rengên ku Hatine Binavkirin"
 
-#: kdeui/colors/kcolordialog.cpp:753
+#: kdeui/colors/kcolordialog.cpp:747
 #, fuzzy, kde-format
 #| msgid ""
 #| "Unable to read X11 RGB color strings. The following file location(s) were "
@@ -13201,52 +13201,56 @@ msgstr[0] ""
 msgstr[1] ""
 "Şablona rengan ya X11 nehate dîtin. Pêristên ku li jêr in hatin lêgerîn:\n"
 
-#: kdeui/colors/kcolordialog.cpp:1035
+#: kdeui/colors/kcolordialog.cpp:1022
 msgid "Select Color"
 msgstr "Reng Hilbijêre"
 
-#: kdeui/colors/kcolordialog.cpp:1104
+#: kdeui/colors/kcolordialog.cpp:1106
 msgid "Hue:"
 msgstr "Kirpandina rengan:"
 
-#: kdeui/colors/kcolordialog.cpp:1114
+#: kdeui/colors/kcolordialog.cpp:1116
 msgid "Saturation:"
 msgstr "Têrbûn:"
 
-#: kdeui/colors/kcolordialog.cpp:1124
+#: kdeui/colors/kcolordialog.cpp:1126
 msgctxt "This is the V of HSV"
 msgid "Value:"
 msgstr "Nirx:"
 
-#: kdeui/colors/kcolordialog.cpp:1138
+#: kdeui/colors/kcolordialog.cpp:1140
 msgid "Red:"
 msgstr "Sor:"
 
-#: kdeui/colors/kcolordialog.cpp:1147
+#: kdeui/colors/kcolordialog.cpp:1150
 msgid "Green:"
 msgstr "Kesk:"
 
-#: kdeui/colors/kcolordialog.cpp:1157
+#: kdeui/colors/kcolordialog.cpp:1160
 msgid "Blue:"
 msgstr "Heşîn:"
 
-#: kdeui/colors/kcolordialog.cpp:1202
+#: kdeui/colors/kcolordialog.cpp:1172
+msgid "Alpha:"
+msgstr ""
+
+#: kdeui/colors/kcolordialog.cpp:1226
 msgid "&Add to Custom Colors"
 msgstr "&Têxe Nav Rengên Taybet"
 
-#: kdeui/colors/kcolordialog.cpp:1237
+#: kdeui/colors/kcolordialog.cpp:1261
 msgid "HTML:"
 msgstr "HTML:"
 
-#: kdeui/colors/kcolordialog.cpp:1327
+#: kdeui/colors/kcolordialog.cpp:1352
 msgid "Default color"
 msgstr "Rengê pêşdanasînî"
 
-#: kdeui/colors/kcolordialog.cpp:1408
+#: kdeui/colors/kcolordialog.cpp:1419
 msgid "-default-"
 msgstr "-pêşdanasînî-"
 
-#: kdeui/colors/kcolordialog.cpp:1726
+#: kdeui/colors/kcolordialog.cpp:1727
 msgid "-unnamed-"
 msgstr "-bênav-"
 
