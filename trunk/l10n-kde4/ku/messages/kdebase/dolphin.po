@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-04 06:25+0200\n"
+"POT-Creation-Date: 2010-05-05 04:49+0200\n"
 "PO-Revision-Date: 2008-12-22 22:21+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -227,23 +227,34 @@ msgid_plural "Size: %1 pixels"
 msgstr[0] "Mezinahî: 1 pîksel"
 msgstr[1] "Mezinahî: %1 pîkselan "
 
-#: settings/previewssettingspage.cpp:61
+#: settings/previewssettingspage.cpp:62
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Show preview"
-msgctxt "@label"
-msgid "Show previews for:"
+msgctxt "@title:group"
+msgid "Show previews for"
 msgstr "Pêşdîtinê nîşan bide"
 
-#: settings/previewssettingspage.cpp:69
-msgctxt "@label"
-msgid "Local file size maximum:"
+#: settings/previewssettingspage.cpp:74
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Show preview"
+msgctxt "@title:group"
+msgid "Don't create previews for"
+msgstr "Pêşdîtinê nîşan bide"
+
+#: settings/previewssettingspage.cpp:77
+msgctxt "@label Don't create previews for: <Local files above:> XX MByte"
+msgid "Local files above:"
 msgstr ""
 
-#: settings/previewssettingspage.cpp:78
-msgctxt "@label"
-msgid "Remote file size maximum:"
-msgstr ""
+#: settings/previewssettingspage.cpp:87
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Sort files by"
+msgctxt "@label Don't create previews for: <Remote files above:> XX MByte"
+msgid "Remote files above:"
+msgstr "Pelan li gorî vê rêz bike"
 
 #: settings/contextmenusettingspage.cpp:42
 msgctxt "@option:check"
@@ -1729,7 +1740,7 @@ msgstr "Gerînendeyê Pelan"
 #| msgctxt "@info:credit"
 #| msgid "(C) 2006-2008 Peter Penz"
 msgctxt "@info:credit"
-msgid "(C) 2006-2009 Peter Penz"
+msgid "(C) 2006-2010 Peter Penz"
 msgstr "(C) 2006, 2008 Peter Penz"
 
 #: main.cpp:41
@@ -1787,7 +1798,12 @@ msgctxt "@info:credit"
 msgid "Documentation"
 msgstr "Belgekirin"
 
-#: main.cpp:77
+#: main.cpp:73
+msgctxt "@info:shell"
+msgid "The files and directories passed as arguments will be selected."
+msgstr ""
+
+#: main.cpp:75
 msgctxt "@info:shell"
 msgid "Document to open"
 msgstr "Belgeya were vekirin"
