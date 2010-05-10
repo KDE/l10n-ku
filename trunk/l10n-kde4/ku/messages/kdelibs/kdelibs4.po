@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-09 04:28+0200\n"
+"POT-Creation-Date: 2010-05-10 04:40+0200\n"
 "PO-Revision-Date: 2009-01-05 14:53+0200\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -911,8 +911,10 @@ msgstr "Nirxandin:"
 
 #. i18n: file: knewstuff/knewstuff3/downloadwidget.ui:110
 #. i18n: ectx: property (text), widget (QRadioButton, mostDownloadsRadio)
-#: rc.cpp:393 knewstuff/knewstuff2/core/providerhandler.cpp:166
-msgid "Most Downloads"
+#: rc.cpp:393
+#, fuzzy
+#| msgid "Most Downloads"
+msgid "Most downloads"
 msgstr "Yên Herî Zêde Hatine Daxistin"
 
 #. i18n: file: knewstuff/knewstuff3/downloadwidget.ui:117
@@ -952,7 +954,7 @@ msgstr "Gotineke lêgerînê têkeve virê"
 #: rc.cpp:408
 #, fuzzy
 #| msgid "Download"
-msgid "Upload your own files..."
+msgid "Upload Your Own Files..."
 msgstr "Daxîne"
 
 #. i18n: file: knewstuff/knewstuff3/downloadwidget.ui:366
@@ -1191,7 +1193,7 @@ msgstr "Taybetmendî"
 #. i18n: file: kdeui/dialogs/kcupsoptionsjobwidget.ui:122
 #. i18n: ectx: property (text), widget (QTableWidget, jobOptionsTable)
 #: rc.cpp:537 rc.cpp:904 khtml/ecma/debugger/localvariabledock.cpp:52
-#: khtml/java/kjavaappletviewer.cpp:139
+#: khtml/java/kjavaappletviewer.cpp:140
 msgid "Value"
 msgstr "Nirx"
 
@@ -3540,9 +3542,8 @@ msgstr "Saz Bike"
 
 #: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:174
 #: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:282
-#, fuzzy
-#| msgid "Details"
-msgid "Details..."
+#: kdeui/dialogs/kmessagebox.cpp:266
+msgid "Details"
 msgstr "Kitekit"
 
 #: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:223
@@ -3603,6 +3604,10 @@ msgstr "Herî Dawî"
 #: knewstuff/knewstuff2/core/providerhandler.cpp:160
 msgid "Highest Rated"
 msgstr "Yên herî zêde têne ecibandin"
+
+#: knewstuff/knewstuff2/core/providerhandler.cpp:166
+msgid "Most Downloads"
+msgstr "Yên Herî Zêde Hatine Daxistin"
 
 #: knewstuff/knewstuff2/ui/kdxschanges.cpp:31
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:70
@@ -7677,23 +7682,23 @@ msgstr "Sepanoka \"%1\" hate destpêkirin"
 msgid "Applet \"%1\" stopped"
 msgstr "Sepanoka \"%1\" hate rawestandin"
 
-#: khtml/java/kjavaappletviewer.cpp:127
+#: khtml/java/kjavaappletviewer.cpp:128
 msgid "Applet Parameters"
 msgstr "Parametreyên Sepanokan"
 
-#: khtml/java/kjavaappletviewer.cpp:138
+#: khtml/java/kjavaappletviewer.cpp:139
 msgid "Parameter"
 msgstr "Parametre"
 
-#: khtml/java/kjavaappletviewer.cpp:142
+#: khtml/java/kjavaappletviewer.cpp:143
 msgid "Class"
 msgstr "Pol"
 
-#: khtml/java/kjavaappletviewer.cpp:148
+#: khtml/java/kjavaappletviewer.cpp:149
 msgid "Base URL"
 msgstr "URLya Mak"
 
-#: khtml/java/kjavaappletviewer.cpp:154
+#: khtml/java/kjavaappletviewer.cpp:155
 msgid "Archives"
 msgstr "Arşîv"
 
@@ -8264,12 +8269,12 @@ msgstr "Bi&gere:"
 
 #: kde3support/kdeui/k3syntaxhighlighter.cpp:470
 #: kde3support/kdeui/k3syntaxhighlighter.cpp:576
-#: kdeui/sonnet/highlighter.cpp:292 kdeui/sonnet/highlighter.cpp:315
+#: kdeui/sonnet/highlighter.cpp:241 kdeui/sonnet/highlighter.cpp:264
 msgid "As-you-type spell checking enabled."
 msgstr "Dema nivîsandinê de kontrolkirina pêyvrêziyê çalak e."
 
 #: kde3support/kdeui/k3syntaxhighlighter.cpp:472
-#: kdeui/sonnet/highlighter.cpp:317
+#: kdeui/sonnet/highlighter.cpp:266
 msgid "As-you-type spell checking disabled."
 msgstr "Di dema nivisandinê de kontrolkirina nivîsê hate astengkirin."
 
@@ -8278,7 +8283,7 @@ msgid "Incremental Spellcheck"
 msgstr "Kontrola rastnivîsê ya gav bi gav"
 
 #: kde3support/kdeui/k3syntaxhighlighter.cpp:578
-#: kdeui/sonnet/highlighter.cpp:294
+#: kdeui/sonnet/highlighter.cpp:243
 msgid "Too many misspelled words. As-you-type spell checking disabled."
 msgstr ""
 "Pir zêde peyvên şaş hate dîtin. Dema nivîsînê de kontrolkirina rastnivîsê wê "
@@ -9319,10 +9324,6 @@ msgstr "%1"
 msgctxt "@action:button post-filter"
 msgid "."
 msgstr "."
-
-#: kdeui/dialogs/kmessagebox.cpp:266
-msgid "Details"
-msgstr "Kitekit"
 
 #: kdeui/dialogs/kmessagebox.cpp:457 kdeui/dialogs/kmessagebox.cpp:518
 msgid "Question"
@@ -13543,6 +13544,11 @@ msgstr "&Ev Çi Ye?"
 #: kdeui/actions/kstandardaction_p.h:113
 msgid "Tip of the &Day"
 msgstr "Mijara &rojê"
+
+#, fuzzy
+#~| msgid "Details"
+#~ msgid "Details..."
+#~ msgstr "Kitekit"
 
 #~ msgid "New Tag"
 #~ msgstr "Etîketa Nû"
