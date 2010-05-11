@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_devicenotifier\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-09 04:30+0200\n"
+"POT-Creation-Date: 2010-05-11 05:50+0200\n"
 "PO-Revision-Date: 2008-12-25 02:34+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -48,30 +48,30 @@ msgstr ""
 msgid "Unmounting..."
 msgstr ""
 
-#: devicenotifier.cpp:203
+#: devicenotifier.cpp:214
 #, kde-format
 msgid "1 action for this device"
 msgid_plural "%1 actions for this device"
 msgstr[0] "1 çalakiya ji bo vê cîhazê"
 msgstr[1] "%1 çalakiyên ji bo vê cîhazê"
 
-#: devicenotifier.cpp:272
+#: devicenotifier.cpp:283
 #, fuzzy
 #| msgid "No devices plugged in"
 msgid "No devices available."
 msgstr "Tu cîhaz nehatiye girêdan"
 
-#: devicenotifier.cpp:276
+#: devicenotifier.cpp:287
 #, fuzzy, kde-format
 #| msgid "Last plugged in device: %1"
 msgid "Most recent device: %1"
 msgstr "Demê dawî hatiye girêdan bi cîhaza: %1"
 
-#: devicenotifier.cpp:378
+#: devicenotifier.cpp:389
 msgid "Display"
 msgstr ""
 
-#: devicenotifier.cpp:381
+#: devicenotifier.cpp:392
 msgid "Automounting"
 msgstr ""
 
@@ -79,43 +79,17 @@ msgstr ""
 msgid "Show hidden devices"
 msgstr ""
 
-#: notifierdialog.cpp:638
-#, fuzzy, kde-format
-#| msgid ""
-#| "Cannot unmount the device.\n"
-#| "One or more files on this device are open within an application."
-msgid ""
-"Could not unmount device %1.\n"
-"One or more files on this device are open within an application."
-msgstr ""
-"Nikare girêdana cîhazê qut bike.\n"
-"Yek an jî zêdetir pelên di vê cîhazê de bi sepanekê re vekirî ne."
-
-#: notifierdialog.cpp:653
-msgid ""
-"Cannot eject the disc.\n"
-"One or more files on this disc are open within an application."
-msgstr ""
-"Nikare dîskê jê bavêje.\n"
-"Yek an jî zêdetir pelên di vê dîskê de bi sepanekê re vekirî ne."
-
-#: notifierdialog.cpp:669
-#, fuzzy, kde-format
-#| msgid "Last plugged in device: %1"
-msgid "Could not mount device %1."
-msgstr "Demê dawî hatiye girêdan bi cîhaza: %1"
-
-#: notifierdialog.cpp:914
+#: notifierdialog.cpp:902
 #, kde-format
 msgctxt "Hide a device"
 msgid "Hide %1"
 msgstr ""
 
-#: notifierdialog.cpp:978
+#: notifierdialog.cpp:966
 msgid "Available Devices"
 msgstr ""
 
-#: notifierdialog.cpp:980
+#: notifierdialog.cpp:968
 msgid "No Devices Available"
 msgstr ""
 
@@ -136,6 +110,29 @@ msgstr ""
 #: rc.cpp:9 rc.cpp:18
 msgid "All devices"
 msgstr ""
+
+#, fuzzy
+#~| msgid ""
+#~| "Cannot unmount the device.\n"
+#~| "One or more files on this device are open within an application."
+#~ msgid ""
+#~ "Could not unmount device %1.\n"
+#~ "One or more files on this device are open within an application."
+#~ msgstr ""
+#~ "Nikare girêdana cîhazê qut bike.\n"
+#~ "Yek an jî zêdetir pelên di vê cîhazê de bi sepanekê re vekirî ne."
+
+#~ msgid ""
+#~ "Cannot eject the disc.\n"
+#~ "One or more files on this disc are open within an application."
+#~ msgstr ""
+#~ "Nikare dîskê jê bavêje.\n"
+#~ "Yek an jî zêdetir pelên di vê dîskê de bi sepanekê re vekirî ne."
+
+#, fuzzy
+#~| msgid "Last plugged in device: %1"
+#~ msgid "Could not mount device %1."
+#~ msgstr "Demê dawî hatiye girêdan bi cîhaza: %1"
 
 #~ msgid "No devices plugged in"
 #~ msgstr "Tu cîhaz nehatiye girêdan"
