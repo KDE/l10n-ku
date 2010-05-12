@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-11 06:00+0200\n"
+"POT-Creation-Date: 2010-05-12 05:01+0200\n"
 "PO-Revision-Date: 2009-02-21 06:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -6236,7 +6236,7 @@ msgstr "Muzîkê dinihêre"
 
 #: core-impl/collections/sqlcollection/ScanManager.cpp:739
 #: browsers/CollectionTreeItem.cpp:193 covermanager/CoverViewDialog.h:45
-#: covermanager/CoverManager.cpp:841 dialogs/OrganizeCollectionDialog.cpp:147
+#: covermanager/CoverManager.cpp:859 dialogs/OrganizeCollectionDialog.cpp:147
 #: widgets/AlbumBreadcrumbWidget.cpp:60
 msgid "Various Artists"
 msgstr "Hunermendên cur bi cur"
@@ -6280,7 +6280,7 @@ msgid "Local Collection"
 msgstr "Berhevoka Herêmî "
 
 #: core-impl/collections/sqlcollection/SqlMeta.cpp:244
-#: covermanager/CoverViewDialog.h:44 covermanager/CoverManager.cpp:842
+#: covermanager/CoverViewDialog.h:44 covermanager/CoverManager.cpp:860
 #: services/lastfm/meta/LastFmMeta.cpp:138
 #, kde-format
 msgid "%1 - %2"
@@ -8677,12 +8677,6 @@ msgstr "%1 - %2 ( %3 )"
 msgid "Lyrics data could not be parsed"
 msgstr "Daneya gotinê stranê nayê hev qetandin"
 
-#: covermanager/CoverViewDialog.h:66
-#, fuzzy
-#| msgid "Cover image"
-msgid "Cover View"
-msgstr "Wêneya rûgirê albumê"
-
 #: covermanager/CoverFetchingActions.cpp:44
 msgid "Fetch Cover"
 msgid_plural "Fetch Covers"
@@ -8741,131 +8735,11 @@ msgstr[1] ""
 msgid "Select Cover Image File"
 msgstr "Pela Wêneya Rûgirê Albumê Hilbijêre"
 
-#: covermanager/CoverManager.cpp:102 MainWindow.cpp:805
-msgid "Cover Manager"
-msgstr "Rêvebirê Rûgira Albuman"
-
-#: covermanager/CoverManager.cpp:108
-msgid "Albums By"
-msgstr "Çêkerê Albumê"
-
-#: covermanager/CoverManager.cpp:118
-msgid "All Artists"
-msgstr "Hemû Hunermend"
-
-#: covermanager/CoverManager.cpp:166 widgets/SearchWidget.cpp:66
-msgid "Enter search terms here"
-msgstr "Gotinekê lêgerînê têkevê"
-
-#: covermanager/CoverManager.cpp:179
-msgid "All Albums"
-msgstr "Hemû Album"
-
-#: covermanager/CoverManager.cpp:180
-msgid "Albums With Cover"
-msgstr "Albumên Bi Rûgir"
-
-#: covermanager/CoverManager.cpp:181
-msgid "Albums Without Cover"
-msgstr "Albumên Bê Rûgir"
-
-#: covermanager/CoverManager.cpp:194
-msgid "Fetch Missing Covers"
-msgstr "Rûgirên Kêm Bîne"
-
-#: covermanager/CoverManager.cpp:318
+#: covermanager/CoverViewDialog.h:66
 #, fuzzy
-#| msgid "Fetching content.."
-msgid "Fetching"
-msgstr "Naverokê tîne..."
-
-#: covermanager/CoverManager.cpp:419
-#, fuzzy
-#| msgid "Rating"
-msgid "Loading"
-msgstr "Nirxandin"
-
-#: covermanager/CoverManager.cpp:651
-msgctxt "The fetching is done."
-msgid "Finished."
-msgstr "Bi dawî bû."
-
-#: covermanager/CoverManager.cpp:653
-#, kde-format
-msgid " Cover not found"
-msgid_plural " <b>%1</b> covers not found"
-msgstr[0] "Rûgir nehat dîtin"
-msgstr[1] "<b>%1</b> rûgir nehatin dîtin"
-
-#: covermanager/CoverManager.cpp:671
-#, kde-format
-msgid "Fetching cover for %1 - %2..."
-msgstr "Rûgir tê anîn ji bo %1 - %2..."
-
-#: covermanager/CoverManager.cpp:677
-#, kde-format
-msgid "Fetching cover for %1..."
-msgstr "Rûgir tê anîn ji bo %1..."
-
-#: covermanager/CoverManager.cpp:683
-#, kde-format
-msgid "Fetching 1 cover: "
-msgid_plural "Fetching <b>%1</b> covers... : "
-msgstr[0] "1 rûgir tê anîn:"
-msgstr[1] "<b>%1</b> rûgir tên anîn... :"
-
-#: covermanager/CoverManager.cpp:685
-#, kde-format
-msgid "1 fetched"
-msgid_plural "%1 fetched"
-msgstr[0] "1 hat anîn"
-msgstr[1] "%1 hatin anîn"
-
-#: covermanager/CoverManager.cpp:689
-msgid " - "
-msgstr " - "
-
-#: covermanager/CoverManager.cpp:690
-#, kde-format
-msgid "1 not found"
-msgid_plural "%1 not found"
-msgstr[0] "1 nehat dîtin"
-msgstr[1] "%1 nehatin dîtin"
-
-#: covermanager/CoverManager.cpp:693
-msgid "Connecting..."
-msgstr "Tê girêdan..."
-
-#: covermanager/CoverManager.cpp:716
-#, kde-format
-msgid "1 result for \"%2\""
-msgid_plural "%1 results for \"%2\""
-msgstr[0] "1 encam ji bo \"%2\""
-msgstr[1] "%1 encam ji bo \"%2\""
-
-#: covermanager/CoverManager.cpp:720
-#, kde-format
-msgid "1 album"
-msgid_plural "%1 albums"
-msgstr[0] "1 album"
-msgstr[1] "%1 album"
-
-#: covermanager/CoverManager.cpp:732
-msgid " by "
-msgstr "a"
-
-#: covermanager/CoverManager.cpp:737
-#, kde-format
-msgid " - ( <b>%1</b> without cover )"
-msgstr " - ( <b>%1</b> bê rûgir )"
-
-#: covermanager/CoverManager.cpp:788
-msgid "Cover Image"
-msgstr "Wêneya Rûgirê"
-
-#: covermanager/CoverManager.cpp:860
-msgid "No Artist"
-msgstr "Hunermend Tune ye "
+#| msgid "Cover image"
+msgid "Cover View"
+msgstr "Wêneya rûgirê albumê"
 
 #: covermanager/CoverFetcher.cpp:121
 #, fuzzy
@@ -9055,6 +8929,132 @@ msgstr "Rûgirê albumê cardin nayê anîn."
 #| msgid "The cover could not be retrieved."
 msgid "Sorry, the cover image could not be retrieved."
 msgstr "Rûgirê albumê cardin nayê anîn."
+
+#: covermanager/CoverManager.cpp:103 MainWindow.cpp:805
+msgid "Cover Manager"
+msgstr "Rêvebirê Rûgira Albuman"
+
+#: covermanager/CoverManager.cpp:109
+msgid "Albums By"
+msgstr "Çêkerê Albumê"
+
+#: covermanager/CoverManager.cpp:119
+msgid "All Artists"
+msgstr "Hemû Hunermend"
+
+#: covermanager/CoverManager.cpp:167 widgets/SearchWidget.cpp:66
+msgid "Enter search terms here"
+msgstr "Gotinekê lêgerînê têkevê"
+
+#: covermanager/CoverManager.cpp:180
+msgid "All Albums"
+msgstr "Hemû Album"
+
+#: covermanager/CoverManager.cpp:181
+msgid "Albums With Cover"
+msgstr "Albumên Bi Rûgir"
+
+#: covermanager/CoverManager.cpp:182
+msgid "Albums Without Cover"
+msgstr "Albumên Bê Rûgir"
+
+#: covermanager/CoverManager.cpp:195
+msgid "Fetch Missing Covers"
+msgstr "Rûgirên Kêm Bîne"
+
+#: covermanager/CoverManager.cpp:317
+#, fuzzy
+#| msgid "Fetching content.."
+msgid "Fetching"
+msgstr "Naverokê tîne..."
+
+#: covermanager/CoverManager.cpp:418
+#, fuzzy
+#| msgid "Rating"
+msgid "Loading"
+msgstr "Nirxandin"
+
+#: covermanager/CoverManager.cpp:650
+msgctxt "The fetching is done."
+msgid "Finished."
+msgstr "Bi dawî bû."
+
+#: covermanager/CoverManager.cpp:652
+#, kde-format
+msgid " Cover not found"
+msgid_plural " <b>%1</b> covers not found"
+msgstr[0] "Rûgir nehat dîtin"
+msgstr[1] "<b>%1</b> rûgir nehatin dîtin"
+
+#: covermanager/CoverManager.cpp:670
+#, kde-format
+msgid "Fetching cover for %1 - %2..."
+msgstr "Rûgir tê anîn ji bo %1 - %2..."
+
+#: covermanager/CoverManager.cpp:676
+#, kde-format
+msgid "Fetching cover for %1..."
+msgstr "Rûgir tê anîn ji bo %1..."
+
+#: covermanager/CoverManager.cpp:682
+#, kde-format
+msgid "Fetching 1 cover: "
+msgid_plural "Fetching <b>%1</b> covers... : "
+msgstr[0] "1 rûgir tê anîn:"
+msgstr[1] "<b>%1</b> rûgir tên anîn... :"
+
+#: covermanager/CoverManager.cpp:684
+#, kde-format
+msgid "1 fetched"
+msgid_plural "%1 fetched"
+msgstr[0] "1 hat anîn"
+msgstr[1] "%1 hatin anîn"
+
+#: covermanager/CoverManager.cpp:688
+msgid " - "
+msgstr " - "
+
+#: covermanager/CoverManager.cpp:689
+#, kde-format
+msgid "1 not found"
+msgid_plural "%1 not found"
+msgstr[0] "1 nehat dîtin"
+msgstr[1] "%1 nehatin dîtin"
+
+#: covermanager/CoverManager.cpp:692
+msgid "Connecting..."
+msgstr "Tê girêdan..."
+
+#: covermanager/CoverManager.cpp:715
+#, kde-format
+msgid "1 result for \"%2\""
+msgid_plural "%1 results for \"%2\""
+msgstr[0] "1 encam ji bo \"%2\""
+msgstr[1] "%1 encam ji bo \"%2\""
+
+#: covermanager/CoverManager.cpp:719
+#, kde-format
+msgid "1 album"
+msgid_plural "%1 albums"
+msgstr[0] "1 album"
+msgstr[1] "%1 album"
+
+#: covermanager/CoverManager.cpp:731
+msgid " by "
+msgstr "a"
+
+#: covermanager/CoverManager.cpp:736
+#, kde-format
+msgid " - ( <b>%1</b> without cover )"
+msgstr " - ( <b>%1</b> bê rûgir )"
+
+#: covermanager/CoverManager.cpp:785
+msgid "Cover Image"
+msgstr "Wêneya Rûgirê"
+
+#: covermanager/CoverManager.cpp:878
+msgid "No Artist"
+msgstr "Hunermend Tune ye "
 
 #: databaseimporter/amarok14/FastForwardImporterConfig.cpp:36
 msgid "Connection"
