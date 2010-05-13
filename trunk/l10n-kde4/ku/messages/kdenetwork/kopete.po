@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kopete\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-12 04:57+0200\n"
+"POT-Creation-Date: 2010-05-13 04:50+0200\n"
 "PO-Revision-Date: 2008-06-22 23:57+0200\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <ku@li.org>\n"
@@ -97,11 +97,11 @@ msgctxt "adjective decribing an instant message"
 msgid "Outbound"
 msgstr "Nan Dixum"
 
-#: plugins/nowlistening/nowlisteningplugin.cpp:134
+#: plugins/nowlistening/nowlisteningplugin.cpp:136
 msgid "USAGE: /media - Displays information on current song"
 msgstr "BIKARANÎN: /media - li ser strana mevcûd agahiyan nîşan dide"
 
-#: plugins/nowlistening/nowlisteningplugin.cpp:173
+#: plugins/nowlistening/nowlisteningplugin.cpp:175
 msgctxt ""
 "Message from Kopete user to another user; used when sending media "
 "information even though there are no songs playing or no media players "
@@ -111,22 +111,22 @@ msgid ""
 "was listening to something on a supported media player."
 msgstr ""
 
-#: plugins/nowlistening/nowlisteningplugin.cpp:447
+#: plugins/nowlistening/nowlisteningplugin.cpp:449
 #: plugins/nowlistening/nlquodlibet.cpp:69
 msgid "Unknown track"
 msgstr "Tracka nenas"
 
-#: plugins/nowlistening/nowlisteningplugin.cpp:456
+#: plugins/nowlistening/nowlisteningplugin.cpp:458
 #: plugins/nowlistening/nlquodlibet.cpp:67
 msgid "Unknown artist"
 msgstr "Hunermenda/ê nenas"
 
-#: plugins/nowlistening/nowlisteningplugin.cpp:463
+#: plugins/nowlistening/nowlisteningplugin.cpp:465
 #: plugins/nowlistening/nlquodlibet.cpp:68
 msgid "Unknown album"
 msgstr "Albuma nenas"
 
-#: plugins/nowlistening/nowlisteningplugin.cpp:470
+#: plugins/nowlistening/nowlisteningplugin.cpp:472
 msgid "Unknown player"
 msgstr "Bernameya muzîkê ya nenas"
 
@@ -11100,15 +11100,29 @@ msgstr ""
 "<qt>Pela ku tê xwestin nehat daxistin;<br>ji kerema xwe navnîşana %1 kontrol "
 "bike. </qt>"
 
-#: libkopete/kopetechatsession.cpp:287
+#: libkopete/kopetechatsession.cpp:289
 msgid "Outgoing Message Sent"
 msgstr "Peyama Derketinê Hat Şandin"
 
-#: libkopete/kopetechatsession.cpp:303
+#: libkopete/kopetechatsession.cpp:305
 msgid "A contact sent you a buzz/nudge."
 msgstr "Têkiliyekê buzz/nudgeyekê ji te re şand"
 
-#: libkopete/kopetechatsession.cpp:597
+#: libkopete/kopetechatsession.cpp:549
+#, fuzzy, kde-format
+#| msgid "%1 is typing a message"
+msgid "User <i>%1</i> is typing a message"
+msgstr "%1 peyam dinivîsîne"
+
+#: libkopete/kopetechatsession.cpp:551 libkopete/kopetemetacontact.cpp:1339
+#: libkopete/kopetemetacontact.cpp:1343
+#, fuzzy
+#| msgid "Chat"
+msgctxt "@action"
+msgid "Chat"
+msgstr "Sohbet"
+
+#: libkopete/kopetechatsession.cpp:628
 msgid ""
 "<qt>An error has occurred while creating a new chat window. The chat window "
 "has not been created.</qt>"
@@ -11116,7 +11130,7 @@ msgstr ""
 "<qt>Di afirandina paceyeke nû ya sohbetê de çewtî derket. Paceya sohbetê "
 "nehat afirandin.</qt>"
 
-#: libkopete/kopetechatsession.cpp:598
+#: libkopete/kopetechatsession.cpp:629
 msgid "Error While Creating Chat Window"
 msgstr "Çewtiya Afirandina Paceya Sohbetê"
 
@@ -11612,13 +11626,6 @@ msgstr ""
 "Niha nikare xwe bigihîne vê têkiliyê. Ji kerema xwe hîn bibe ka tu girêdayî "
 "û protokola te şandina negirêdayî destek dike an na. Wekî din divê li bende "
 "xwegirêdana bêkarhêner bimînî."
-
-#: libkopete/kopetemetacontact.cpp:1339 libkopete/kopetemetacontact.cpp:1343
-#, fuzzy
-#| msgid "Chat"
-msgctxt "@action"
-msgid "Chat"
-msgstr "Sohbet"
 
 #: libkopete/kopetemetacontact.cpp:1352
 #, kde-format
