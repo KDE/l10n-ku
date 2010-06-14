@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-06-13 04:51+0200\n"
+"POT-Creation-Date: 2010-06-14 05:29+0200\n"
 "PO-Revision-Date: 2009-02-21 06:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -1975,7 +1975,7 @@ msgid "&Delete Episode"
 msgstr "Pelan Jê Bibe"
 
 #: core-impl/collections/umscollection/podcasts/UmsPodcastProvider.cpp:251
-#: browsers/filebrowser/FileView.cpp:470
+#: browsers/filebrowser/FileView.cpp:513
 #: playlistmanager/file/PlaylistFileProvider.cpp:326
 #: playlistmanager/sql/SqlUserPlaylistProvider.cpp:239
 #, fuzzy
@@ -2568,7 +2568,7 @@ msgctxt "Load the view represented by this bookmark"
 msgid "&Load"
 msgstr "&Bar Bike"
 
-#: amarokurls/BookmarkTreeView.cpp:118 browsers/filebrowser/FileView.cpp:335
+#: amarokurls/BookmarkTreeView.cpp:118 browsers/filebrowser/FileView.cpp:380
 msgid "&Delete"
 msgstr "&Jê bibe"
 
@@ -2651,10 +2651,10 @@ msgstr " di <b>%1</b> de"
 msgid "No track playing"
 msgstr "Tu Stran Nayê Lêdan"
 
-#: browsers/BrowserCategoryList.cpp:46
+#: browsers/BrowserBreadcrumbItem.cpp:64
 #, fuzzy
 #| msgid "File Extension of Source"
-msgid "Filter Music Sources"
+msgid "Media Sources Home"
 msgstr "Pêveka Dosiya Çavkaniyê"
 
 #: browsers/collectionbrowser/CollectionTreeItemDelegate.cpp:177
@@ -2719,7 +2719,7 @@ msgstr "Asta Pêşîn"
 #: browsers/collectionbrowser/CollectionWidget.cpp:166
 #: browsers/collectionbrowser/CollectionWidget.cpp:203
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:248
-#: browsers/CollectionTreeItemModelBase.cpp:1052
+#: browsers/CollectionTreeItemModelBase.cpp:1054
 #: context/applets/wikipedia/WikipediaApplet.cpp:121
 #: dialogs/transferdialog.cpp:88 dialogs/FilenameLayoutDialog.cpp:220
 #: dialogs/FilenameLayoutDialog.cpp:564 dialogs/EditFilterDialog.cpp:276
@@ -2738,8 +2738,8 @@ msgstr "Hunermend"
 #: browsers/collectionbrowser/CollectionWidget.cpp:169
 #: browsers/collectionbrowser/CollectionWidget.cpp:206
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:250
-#: browsers/CollectionTreeView.cpp:214
-#: browsers/CollectionTreeItemModelBase.cpp:1051
+#: browsers/CollectionTreeView.cpp:224
+#: browsers/CollectionTreeItemModelBase.cpp:1053
 #: context/applets/albums/AlbumsView.cpp:125
 #: context/applets/wikipedia/WikipediaApplet.cpp:128
 #: dialogs/transferdialog.cpp:89 dialogs/FilenameLayoutDialog.cpp:232
@@ -2758,7 +2758,7 @@ msgstr "Album"
 #: browsers/collectionbrowser/CollectionWidget.cpp:172
 #: browsers/collectionbrowser/CollectionWidget.cpp:209
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:252
-#: browsers/CollectionTreeItemModelBase.cpp:1054 dialogs/transferdialog.cpp:90
+#: browsers/CollectionTreeItemModelBase.cpp:1056 dialogs/transferdialog.cpp:90
 #: dialogs/FilenameLayoutDialog.cpp:240 dialogs/FilenameLayoutDialog.cpp:599
 #: dialogs/EditFilterDialog.cpp:284 dialogs/EditFilterDialog.cpp:447
 #: playlist/PlaylistModel.cpp:656 playlist/ProgressiveSearchWidget.cpp:98
@@ -2773,7 +2773,7 @@ msgstr "Cûre"
 #: browsers/collectionbrowser/CollectionWidget.cpp:175
 #: browsers/collectionbrowser/CollectionWidget.cpp:212
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:249
-#: browsers/CollectionTreeItemModelBase.cpp:1053
+#: browsers/CollectionTreeItemModelBase.cpp:1055
 #: dialogs/FilenameLayoutDialog.cpp:224 dialogs/FilenameLayoutDialog.cpp:571
 #: dialogs/EditFilterDialog.cpp:280 dialogs/EditFilterDialog.cpp:442
 #: playlist/PlaylistModel.cpp:650 widgets/SmartPlaylistEditor.cpp:183
@@ -2786,7 +2786,7 @@ msgstr "Bestekar"
 #: browsers/collectionbrowser/CollectionWidget.cpp:144
 #: browsers/collectionbrowser/CollectionWidget.cpp:178
 #: browsers/collectionbrowser/CollectionWidget.cpp:215
-#: browsers/CollectionTreeItemModelBase.cpp:1056
+#: browsers/CollectionTreeItemModelBase.cpp:1058
 #: dialogs/EditFilterDialog.cpp:288 dialogs/EditFilterDialog.cpp:467
 #: widgets/SmartPlaylistEditor.cpp:187 widgets/SmartPlaylistEditor.cpp:197
 #: rc.cpp:1375
@@ -2843,19 +2843,26 @@ msgid ""
 "audio players and CDs."
 msgstr ""
 
-#: browsers/filebrowser/FileBrowser.cpp:52
+#: browsers/filebrowser/FileBrowser.cpp:45
+msgid ""
+"The file browser lets you browse files anywhere on your system, regardless "
+"of whether these files are part of your local collection. You can then add "
+"these files to the playlist as well as perform basic file operations."
+msgstr ""
+
+#: browsers/filebrowser/FileBrowser.cpp:55
 msgctxt "Go one level up in the directory hierarchy"
 msgid "Up one level"
 msgstr ""
 
-#: browsers/filebrowser/FileBrowser.cpp:57
+#: browsers/filebrowser/FileBrowser.cpp:60
 #, fuzzy
 #| msgid "Home"
 msgctxt "Go to the home directory"
 msgid "Home"
 msgstr "Mal"
 
-#: browsers/filebrowser/FileBrowser.cpp:61
+#: browsers/filebrowser/FileBrowser.cpp:64
 #, fuzzy
 #| msgctxt "Fetch new information from the website"
 #| msgid "Update"
@@ -2863,41 +2870,34 @@ msgctxt "Show Dolphin Places the user configured"
 msgid "Places"
 msgstr "Rojane Bike"
 
-#: browsers/filebrowser/FileBrowser.cpp:66
+#: browsers/filebrowser/FileBrowser.cpp:69
 #, fuzzy
 #| msgid "Delete Files"
 msgid "Filter Files"
 msgstr "Pelan Jê Bibe"
 
-#: browsers/filebrowser/FileBrowser.cpp:113
-msgid ""
-"The file browser lets you browse files anywhere on your system, regardless "
-"of whether these files are part of your local collection. You can then add "
-"these files to the playlist as well as perform basic file operations."
-msgstr ""
-
-#: browsers/filebrowser/FileBrowser.cpp:321 browsers/InfoProxy.cpp:164
+#: browsers/filebrowser/FileBrowser.cpp:327 browsers/InfoProxy.cpp:164
 msgid "Home"
 msgstr "Mal"
 
-#: browsers/filebrowser/FileBrowser.cpp:439
+#: browsers/filebrowser/FileBrowser.cpp:445
 #, fuzzy
 #| msgctxt "Fetch new information from the website"
 #| msgid "Update"
 msgid "Places"
 msgstr "Rojane Bike"
 
-#: browsers/filebrowser/FileView.cpp:127 browsers/CollectionTreeView.cpp:253
+#: browsers/filebrowser/FileView.cpp:119 browsers/CollectionTreeView.cpp:263
 msgid "Move to Collection"
 msgstr "Bibe Berhevokê"
 
-#: browsers/filebrowser/FileView.cpp:136 browsers/CollectionTreeView.cpp:245
+#: browsers/filebrowser/FileView.cpp:128 browsers/CollectionTreeView.cpp:255
 msgid "Copy to Collection"
 msgstr "Ji Ber Bigire Berhevokê"
 
-#: browsers/filebrowser/FileView.cpp:300
+#: browsers/filebrowser/FileView.cpp:345
 #: browsers/playlistbrowser/MetaPlaylistModel.cpp:41
-#: browsers/CollectionTreeView.cpp:799
+#: browsers/CollectionTreeView.cpp:813
 #: context/applets/albums/AlbumsView.cpp:110
 #: services/lastfm/LastFmTreeView.cpp:112 TrayIconLegacy.cpp:218
 #, fuzzy
@@ -2905,9 +2905,9 @@ msgstr "Ji Ber Bigire Berhevokê"
 msgid "&Add to Playlist"
 msgstr "lîsteya lêdanê"
 
-#: browsers/filebrowser/FileView.cpp:309
+#: browsers/filebrowser/FileView.cpp:354
 #: browsers/playlistbrowser/MetaPlaylistModel.cpp:48
-#: browsers/CollectionTreeView.cpp:808
+#: browsers/CollectionTreeView.cpp:822
 #: context/applets/albums/AlbumsView.cpp:111
 #: services/lastfm/LastFmTreeView.cpp:121
 #, fuzzy
@@ -2916,11 +2916,11 @@ msgctxt "Replace the currently loaded tracks with these"
 msgid "&Replace Playlist"
 msgstr "Lîsteya Lêdanê Dubare Bike"
 
-#: browsers/filebrowser/FileView.cpp:318 browsers/CollectionTreeView.cpp:827
+#: browsers/filebrowser/FileView.cpp:363 browsers/CollectionTreeView.cpp:841
 msgid "&Edit Track Details"
 msgstr "&Kitekitên Stranê Biguherîne"
 
-#: browsers/filebrowser/FileView.cpp:472
+#: browsers/filebrowser/FileView.cpp:515
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid "Do you really want to delete these %1 tracks?"
@@ -2929,7 +2929,7 @@ msgid_plural "Are you sure you want to delete these %1 items?"
 msgstr[0] "Tu bi rastî dixwazî wan stranên %1 jê bibî?"
 msgstr[1] "Tu bi rastî dixwazî wan stranên %1 jê bibî?"
 
-#: browsers/filebrowser/FileView.cpp:477
+#: browsers/filebrowser/FileView.cpp:520
 #: playlistmanager/file/PlaylistFileProvider.cpp:333
 msgid "Yes, delete from disk."
 msgstr ""
@@ -3051,7 +3051,7 @@ msgstr "Hevgirtî:"
 #. i18n: ectx: property (text), item, widget (KComboBox, keywordCombo)
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:253
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:693
-#: browsers/CollectionTreeItemModelBase.cpp:1055
+#: browsers/CollectionTreeItemModelBase.cpp:1057
 #: dialogs/FilenameLayoutDialog.cpp:228 dialogs/FilenameLayoutDialog.cpp:578
 #: dialogs/EditFilterDialog.cpp:220 playlist/PlaylistModel.cpp:651
 #: widgets/SmartPlaylistEditor.cpp:184 widgets/SmartPlaylistEditor.cpp:197
@@ -3458,9 +3458,11 @@ msgid ""
 "sources, but many more can be added using scripts."
 msgstr ""
 
-#: browsers/BrowserBreadcrumbWidget.cpp:57
-msgid "Click For Location Navigation"
-msgstr ""
+#: browsers/BrowserCategoryList.cpp:46
+#, fuzzy
+#| msgid "File Extension of Source"
+msgid "Filter Music Sources"
+msgstr "Pêveka Dosiya Çavkaniyê"
 
 #: browsers/CollectionTreeItem.cpp:170
 msgctxt "The Name is not known"
@@ -3490,20 +3492,24 @@ msgid_plural "%1 tracks"
 msgstr[0] "%1 stran"
 msgstr[1] "%1 stranan "
 
-#: browsers/CollectionTreeView.cpp:228 configdialog/ConfigDialog.cpp:56
+#: browsers/BrowserBreadcrumbWidget.cpp:59
+msgid "Click For Location Navigation"
+msgstr ""
+
+#: browsers/CollectionTreeView.cpp:238 configdialog/ConfigDialog.cpp:56
 msgid "Collection"
 msgstr "Berhevok"
 
-#: browsers/CollectionTreeView.cpp:512 services/lastfm/LastFmTreeView.cpp:202
+#: browsers/CollectionTreeView.cpp:522 services/lastfm/LastFmTreeView.cpp:202
 msgid "More..."
 msgstr "Zêdetir..."
 
-#: browsers/CollectionTreeView.cpp:862
+#: browsers/CollectionTreeView.cpp:876
 msgctxt "Organize Files"
 msgid "Organize Files"
 msgstr "Rêxistina Pelan"
 
-#: browsers/CollectionTreeView.cpp:1045
+#: browsers/CollectionTreeView.cpp:1059
 #, fuzzy
 #| msgid "&Delete Tracks"
 msgid "Delete Tracks"
@@ -3514,12 +3520,6 @@ msgstr "Stranan &Jê Bibe"
 #| msgid "Previous Group"
 msgid "Previous Browser"
 msgstr "Koma Paş"
-
-#: browsers/BrowserBreadcrumbItem.cpp:64
-#, fuzzy
-#| msgid "File Extension of Source"
-msgid "Media Sources Home"
-msgstr "Pêveka Dosiya Çavkaniyê"
 
 #: browsers/CollectionTreeItemModelBase.cpp:588
 #: dialogs/EditFilterDialog.cpp:435
@@ -3640,27 +3640,27 @@ msgctxt "last played time / access date"
 msgid "played"
 msgstr "yê dawî hatine lêdan"
 
-#: browsers/CollectionTreeItemModelBase.cpp:1051
+#: browsers/CollectionTreeItemModelBase.cpp:1053
 msgid "Year - Album"
 msgstr "Sal - Album "
 
-#: browsers/CollectionTreeItemModelBase.cpp:1125
+#: browsers/CollectionTreeItemModelBase.cpp:1127
 msgid "today"
 msgstr "îro"
 
-#: browsers/CollectionTreeItemModelBase.cpp:1127
+#: browsers/CollectionTreeItemModelBase.cpp:1129
 msgid "last week"
 msgstr "hefte ya borî"
 
-#: browsers/CollectionTreeItemModelBase.cpp:1129
+#: browsers/CollectionTreeItemModelBase.cpp:1131
 msgid "last month"
 msgstr "meha borî"
 
-#: browsers/CollectionTreeItemModelBase.cpp:1131
+#: browsers/CollectionTreeItemModelBase.cpp:1133
 msgid "two months ago"
 msgstr "du meh berê"
 
-#: browsers/CollectionTreeItemModelBase.cpp:1133
+#: browsers/CollectionTreeItemModelBase.cpp:1135
 msgid "three months ago"
 msgstr "sê meh berê"
 
@@ -3755,26 +3755,6 @@ msgid_plural "%1 tracks"
 msgstr[0] "%1 stran"
 msgstr[1] "%1 stranan "
 
-#: context/applets/albums/Albums.cpp:67
-#: context/engines/current/CurrentEngine.cpp:139
-msgid "Recently added albums"
-msgstr "Albumên herî dawî lê hatine zêdekirin "
-
-#: context/applets/albums/Albums.cpp:173
-#, kde-format
-msgid "Disc %1"
-msgstr "Dîska %1"
-
-#: context/applets/albums/Albums.cpp:235
-#, fuzzy
-#| msgid "Recently added albums"
-msgid "Number of recently added albums:"
-msgstr "Albumên herî dawî lê hatine zêdekirin "
-
-#: context/applets/albums/Albums.cpp:240
-msgid "Albums Applet Settings"
-msgstr ""
-
 #: context/applets/albums/AlbumsView.cpp:112
 #: context/applets/videoclip/VideoItemButton.cpp:97
 msgid "&Queue"
@@ -3784,6 +3764,26 @@ msgstr "&Rêz bike"
 #: playlist/view/PlaylistViewCommon.cpp:244
 msgid "Edit Track Details"
 msgstr "&Kitekitên Stranê Biguherîne"
+
+#: context/applets/albums/Albums.cpp:67
+#: context/engines/current/CurrentEngine.cpp:139
+msgid "Recently added albums"
+msgstr "Albumên herî dawî lê hatine zêdekirin "
+
+#: context/applets/albums/Albums.cpp:184
+#, kde-format
+msgid "Disc %1"
+msgstr "Dîska %1"
+
+#: context/applets/albums/Albums.cpp:246
+#, fuzzy
+#| msgid "Recently added albums"
+msgid "Number of recently added albums:"
+msgstr "Albumên herî dawî lê hatine zêdekirin "
+
+#: context/applets/albums/Albums.cpp:251
+msgid "Albums Applet Settings"
+msgstr ""
 
 #: context/applets/currenttrack/CurrentTrack.cpp:86
 #, fuzzy
