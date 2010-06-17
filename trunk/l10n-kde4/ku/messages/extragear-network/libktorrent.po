@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktorrent\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-06-15 05:59+0200\n"
+"POT-Creation-Date: 2010-06-17 04:51+0200\n"
 "PO-Revision-Date: 2008-09-23 17:28+0300\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -527,6 +527,34 @@ msgstr ""
 #| msgid "Cannot read from %1"
 msgid "Error when reading from disk"
 msgstr "Ji %1 nayê xwedin"
+
+#: src/upnp/upnprouter.cpp:164
+#, fuzzy, kde-format
+#| msgid "Cannot open %1 : %2"
+msgid "Failed to download %1 : %2"
+msgstr "%1 nayê vekirin: %2"
+
+#: src/upnp/upnprouter.cpp:175
+msgid "Error parsing router description."
+msgstr ""
+
+#: src/upnp/upnprouter.cpp:212
+msgid ""
+"Forwarding failed: \n"
+"Device does not have a WANIPConnection or WANPPPConnection."
+msgstr ""
+
+#: src/upnp/upnprouter.cpp:283 src/upnp/upnprouter.cpp:296
+msgid "Cannot find port forwarding service in the device's description."
+msgstr ""
+
+#: src/upnp/httprequest.cpp:79
+msgid "Connection closed unexpectedly."
+msgstr ""
+
+#: src/upnp/httprequest.cpp:121
+msgid "Timeout occurred"
+msgstr ""
 
 #, fuzzy
 #~| msgid "Folders"
