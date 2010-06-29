@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-06-27 04:48+0200\n"
+"POT-Creation-Date: 2010-06-29 02:42+0200\n"
 "PO-Revision-Date: 2009-01-05 14:53+0200\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -113,8 +113,8 @@ msgstr "Destpêk"
 #. i18n: file: kjsembed/examples/kjsconsole/jsconsole.ui:227
 #. i18n: ectx: property (text), widget (QStatusBar, statusBar)
 #: rc.cpp:32 rc.cpp:859 kross/ui/view.cpp:308
-#: kdeui/jobs/kstatusbarjobtracker.cpp:160 kdeui/util/kstandardguiitem.cpp:281
-#: kdeui/util/kkeyserver_x11.cpp:103
+#: kdeui/jobs/kstatusbarjobtracker.cpp:160 kdeui/util/kkeyserver_x11.cpp:103
+#: kdeui/util/kstandardguiitem.cpp:281
 msgid "Stop"
 msgstr "Rawestîne"
 
@@ -148,51 +148,76 @@ msgstr "Betalkirin"
 msgid "Suspend"
 msgstr "Xew"
 
+#. i18n: file: interfaces/ktexteditor/editorchooser_ui.ui:5
+#. i18n: ectx: property (windowTitle), widget (QWidget, EditorChooser)
+#: rc.cpp:56
+msgid "Editor Chooser"
+msgstr "Bijartoka Sererastkerê"
+
+#. i18n: file: interfaces/ktexteditor/editorchooser_ui.ui:19
+#. i18n: ectx: property (text), widget (QLabel, TextLabel1)
+#: rc.cpp:59
+#, fuzzy
+#| msgid ""
+#| "Please choose the default text editing component that you wish to use in "
+#| "this application. If you choose <B>System Default</B>, the application "
+#| "will honor your changes in the Control Center. All other choices will "
+#| "override that setting."
+msgid ""
+"Please choose the default text editing component that you wish to use in "
+"this application. If you choose <B>System Default</B>, the application will "
+"honor your changes in the System Settings. All other choices will override "
+"that setting."
+msgstr ""
+"Ji kerema xwe bo vê sepanê sererastkereke ku tu dikarî bikar bîne diyar "
+"bike. Heke tu pêl vebijarka <B>Pergal Standard e</B> bike, dê ev sepan "
+"guherînan li Navenda Kontrolê bisepîne."
+
 #. i18n: file: knotify/config/knotifyconfigactionswidgetbase.ui:16
 #. i18n: ectx: property (text), widget (QCheckBox, Sound_check)
-#: rc.cpp:56
+#: rc.cpp:62
 msgid "Play a &sound"
 msgstr "Çalakirina &deng"
 
 #. i18n: file: knotify/config/knotifyconfigactionswidgetbase.ui:42
 #. i18n: ectx: property (toolTip), widget (KUrlRequester, Sound_select)
-#: rc.cpp:59
+#: rc.cpp:65
 msgid "Select the sound to play"
 msgstr "Dengê were leyîstin hilbijêre"
 
 #. i18n: file: knotify/config/knotifyconfigactionswidgetbase.ui:49
 #. i18n: ectx: property (text), widget (QCheckBox, Popup_check)
-#: rc.cpp:62
+#: rc.cpp:68
 msgid "Show a message in a &popup"
 msgstr "Peyamê di paceyeke &pekane de bide xuyakirin"
 
 #. i18n: file: knotify/config/knotifyconfigactionswidgetbase.ui:56
 #. i18n: ectx: property (text), widget (QCheckBox, Logfile_check)
-#: rc.cpp:65
+#: rc.cpp:71
 msgid "Log to a file"
 msgstr "Di pelekî de tomar bike"
 
 #. i18n: file: knotify/config/knotifyconfigactionswidgetbase.ui:76
 #. i18n: ectx: property (text), widget (QCheckBox, Taskbar_check)
-#: rc.cpp:68
+#: rc.cpp:74
 msgid "Mark &taskbar entry"
 msgstr "Ketana darikê peywiran nîşan bike"
 
 #. i18n: file: knotify/config/knotifyconfigactionswidgetbase.ui:83
 #. i18n: ectx: property (text), widget (QCheckBox, Execute_check)
-#: rc.cpp:71
+#: rc.cpp:77
 msgid "Run &command"
 msgstr "&Fermanê bixebitîne"
 
 #. i18n: file: knotify/config/knotifyconfigactionswidgetbase.ui:99
 #. i18n: ectx: property (toolTip), widget (KUrlRequester, Execute_select)
-#: rc.cpp:74
+#: rc.cpp:80
 msgid "Select the command to run"
 msgstr "Fermana were xebitandin hilbijêre"
 
 #. i18n: file: knotify/config/knotifyconfigactionswidgetbase.ui:106
 #. i18n: ectx: property (text), widget (QCheckBox, KTTS_check)
-#: rc.cpp:77
+#: rc.cpp:83
 msgid "Sp&eech"
 msgstr "A&xaftin"
 
@@ -200,7 +225,7 @@ msgstr "A&xaftin"
 #. i18n: ectx: property (whatsThis), widget (KComboBox, KTTS_combo)
 #. i18n: file: knotify/config/knotifyconfigactionswidgetbase.ui:141
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, KTTS_select)
-#: rc.cpp:81 rc.cpp:94
+#: rc.cpp:87 rc.cpp:100
 #, no-c-format
 msgid ""
 "<qt>Specifies how KTTS should speak the event when received.  If you select "
@@ -217,7 +242,7 @@ msgstr ""
 
 #. i18n: file: knotify/config/knotifyconfigactionswidgetbase.ui:123
 #. i18n: ectx: property (text), item, widget (KComboBox, KTTS_combo)
-#: rc.cpp:84
+#: rc.cpp:90
 #, fuzzy
 #| msgid "Speak event message"
 msgid "Speak Event Message"
@@ -225,7 +250,7 @@ msgstr "Peyama buyerê bibêje"
 
 #. i18n: file: knotify/config/knotifyconfigactionswidgetbase.ui:128
 #. i18n: ectx: property (text), item, widget (KComboBox, KTTS_combo)
-#: rc.cpp:87
+#: rc.cpp:93
 #, fuzzy
 #| msgid "Speak event name"
 msgid "Speak Event Name"
@@ -233,36 +258,11 @@ msgstr "Navê buyerê bibêje"
 
 #. i18n: file: knotify/config/knotifyconfigactionswidgetbase.ui:133
 #. i18n: ectx: property (text), item, widget (KComboBox, KTTS_combo)
-#: rc.cpp:90
+#: rc.cpp:96
 #, fuzzy
 #| msgid "Speak custom text"
 msgid "Speak Custom Text"
 msgstr "Tekstekê taybet bibêje"
-
-#. i18n: file: interfaces/ktexteditor/editorchooser_ui.ui:5
-#. i18n: ectx: property (windowTitle), widget (QWidget, EditorChooser)
-#: rc.cpp:97
-msgid "Editor Chooser"
-msgstr "Bijartoka Sererastkerê"
-
-#. i18n: file: interfaces/ktexteditor/editorchooser_ui.ui:19
-#. i18n: ectx: property (text), widget (QLabel, TextLabel1)
-#: rc.cpp:100
-#, fuzzy
-#| msgid ""
-#| "Please choose the default text editing component that you wish to use in "
-#| "this application. If you choose <B>System Default</B>, the application "
-#| "will honor your changes in the Control Center. All other choices will "
-#| "override that setting."
-msgid ""
-"Please choose the default text editing component that you wish to use in "
-"this application. If you choose <B>System Default</B>, the application will "
-"honor your changes in the System Settings. All other choices will override "
-"that setting."
-msgstr ""
-"Ji kerema xwe bo vê sepanê sererastkereke ku tu dikarî bikar bîne diyar "
-"bike. Heke tu pêl vebijarka <B>Pergal Standard e</B> bike, dê ev sepan "
-"guherînan li Navenda Kontrolê bisepîne."
 
 #. i18n: file: kross/test/testguiform.ui:44
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
@@ -697,7 +697,7 @@ msgstr "BSD"
 
 #. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:207
 #. i18n: ectx: property (text), widget (QLabel, label_8)
-#: rc.cpp:300 khtml/khtml_part.cpp:1842
+#: rc.cpp:300 khtml/khtml_part.cpp:1847
 msgid "Description:"
 msgstr "Daxuyanî:"
 
@@ -737,7 +737,7 @@ msgstr "Ji kerema xwe di derbarê xwe de hinek agahî bide."
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #. i18n: file: khtml/htmlpageinfo.ui:112
 #. i18n: ectx: property (text), widget (QLabel, titleLabel)
-#: rc.cpp:315 rc.cpp:513
+#: rc.cpp:315 rc.cpp:525
 msgid "Title:"
 msgstr "Sernav:"
 
@@ -1080,19 +1080,41 @@ msgstr "Hevkarî"
 #. i18n: ectx: Menu (edit)
 #. i18n: file: kdeui/xmlgui/ui_standards.rc:61
 #. i18n: ectx: Menu (edit)
-#: rc.cpp:489 rc.cpp:603 rc.cpp:997
+#: rc.cpp:489 rc.cpp:495 rc.cpp:997
 msgid "&Edit"
 msgstr "Sere&rastkirin"
 
+#. i18n: file: khtml/khtml_browser.rc:4
+#. i18n: ectx: Menu (file)
+#. i18n: file: kdeui/xmlgui/ui_standards.rc:5
+#. i18n: ectx: Menu (file)
+#: rc.cpp:492 rc.cpp:991
+msgid "&File"
+msgstr "&Pel"
+
+#. i18n: file: khtml/khtml_browser.rc:20
+#. i18n: ectx: Menu (view)
+#. i18n: file: kdeui/xmlgui/ui_standards.rc:101
+#. i18n: ectx: Menu (view)
+#: rc.cpp:498 rc.cpp:1003
+msgid "&View"
+msgstr "&Dîtin"
+
+#. i18n: file: khtml/khtml_browser.rc:35
+#. i18n: ectx: ToolBar (htmlToolBar)
+#: rc.cpp:501
+msgid "HTML Toolbar"
+msgstr "Darikê HTML"
+
 #. i18n: file: khtml/kjserrordlgbase.ui:14
 #. i18n: ectx: property (windowTitle), widget (QDialog, KJSErrorDlgBase)
-#: rc.cpp:492
+#: rc.cpp:504
 msgid "JavaScript Errors"
 msgstr "Çewtiyên JavaScript"
 
 #. i18n: file: khtml/kjserrordlgbase.ui:17
 #. i18n: ectx: property (whatsThis), widget (QDialog, KJSErrorDlgBase)
-#: rc.cpp:495
+#: rc.cpp:507
 msgid ""
 "This dialog provides you with notification and details of scripting errors "
 "that occur on web pages.  In many cases it is due to an error in the web "
@@ -1111,64 +1133,64 @@ msgstr ""
 
 #. i18n: file: khtml/kjserrordlgbase.ui:29
 #. i18n: ectx: property (text), widget (QPushButton, _close)
-#: rc.cpp:498 kdeui/util/kstandardguiitem.cpp:184
+#: rc.cpp:510 kdeui/util/kstandardguiitem.cpp:184
 #: kdeui/actions/kstandardaction_p.h:49
 msgid "&Close"
 msgstr "&Bigire"
 
 #. i18n: file: khtml/kjserrordlgbase.ui:36
 #. i18n: ectx: property (text), widget (QPushButton, _clear)
-#: rc.cpp:501 kdeui/util/kstandardguiitem.cpp:171
+#: rc.cpp:513 kdeui/util/kstandardguiitem.cpp:171
 #: kdeui/actions/kstandardaction_p.h:61
 msgid "C&lear"
 msgstr "&Paqij Bike"
 
 #. i18n: file: khtml/htmlpageinfo.ui:22
 #. i18n: ectx: property (windowTitle), widget (QDialog, KHTMLInfoDlg)
-#: rc.cpp:504
+#: rc.cpp:516
 msgid "Document Information"
 msgstr "Agahiyên Belgeyê"
 
 #. i18n: file: khtml/htmlpageinfo.ui:34
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
-#: rc.cpp:507
+#: rc.cpp:519
 msgctxt "@title:group Document information"
 msgid "General"
 msgstr "Giştî"
 
 #. i18n: file: khtml/htmlpageinfo.ui:60
 #. i18n: ectx: property (text), widget (QLabel, urlLabel)
-#: rc.cpp:510
+#: rc.cpp:522
 msgid "URL:"
 msgstr "URL:"
 
 #. i18n: file: khtml/htmlpageinfo.ui:128
 #. i18n: ectx: property (text), widget (QLabel, _lmLabel)
-#: rc.cpp:516
+#: rc.cpp:528
 msgid "Last modified:"
 msgstr "Guherandina dawî:"
 
 #. i18n: file: khtml/htmlpageinfo.ui:144
 #. i18n: ectx: property (text), widget (QLabel, _eLabel)
-#: rc.cpp:519
+#: rc.cpp:531
 msgid "Document encoding:"
 msgstr "Kodkirina belgeyê:"
 
 #. i18n: file: khtml/htmlpageinfo.ui:167
 #. i18n: ectx: property (text), widget (QLabel, _modeLabel)
-#: rc.cpp:522
+#: rc.cpp:534
 msgid "Rendering mode:"
 msgstr ""
 
 #. i18n: file: khtml/htmlpageinfo.ui:186
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
-#: rc.cpp:525
+#: rc.cpp:537
 msgid "HTTP Headers"
 msgstr "Sernavên HTTP"
 
 #. i18n: file: khtml/htmlpageinfo.ui:214
 #. i18n: ectx: property (text), widget (QTreeWidget, _headers)
-#: rc.cpp:528
+#: rc.cpp:540
 msgid "Property"
 msgstr "Taybetmendî"
 
@@ -1176,14 +1198,14 @@ msgstr "Taybetmendî"
 #. i18n: ectx: property (text), widget (QTreeWidget, _headers)
 #. i18n: file: kdeui/dialogs/kcupsoptionsjobwidget.ui:122
 #. i18n: ectx: property (text), widget (QTableWidget, jobOptionsTable)
-#: rc.cpp:531 rc.cpp:898 khtml/ecma/debugger/localvariabledock.cpp:52
+#: rc.cpp:543 rc.cpp:898 khtml/ecma/debugger/localvariabledock.cpp:52
 #: khtml/java/kjavaappletviewer.cpp:139
 msgid "Value"
 msgstr "Nirx"
 
 #. i18n: file: khtml/test_regression_gui.ui:13
 #. i18n: ectx: property (windowTitle), widget (QMainWindow, MainWindow)
-#: rc.cpp:534
+#: rc.cpp:546
 msgid "KHTML Regression Testing Utility"
 msgstr "Bernameya Alîkar ji bo Ceribandina problemên Paşketinê a KHTML"
 
@@ -1191,13 +1213,13 @@ msgstr "Bernameya Alîkar ji bo Ceribandina problemên Paşketinê a KHTML"
 #. i18n: ectx: property (text), widget (QTreeWidget, treeWidget)
 #. i18n: file: kjsembed/examples/calc/calc.ui:75
 #. i18n: ectx: property (text), widget (QPushButton, zero)
-#: rc.cpp:537 rc.cpp:775
+#: rc.cpp:549 rc.cpp:775
 msgid "0"
 msgstr "0"
 
 #. i18n: file: khtml/test_regression_gui.ui:56
 #. i18n: ectx: attribute (title), widget (QWidget, firstTab)
-#: rc.cpp:540
+#: rc.cpp:552
 msgid "Regression testing output"
 msgstr "Derana testkirina regresyonê"
 
@@ -1205,13 +1227,13 @@ msgstr "Derana testkirina regresyonê"
 #. i18n: ectx: property (toolTip), widget (QPushButton, pauseContinueButton)
 #. i18n: file: khtml/test_regression_gui.ui:114
 #. i18n: ectx: property (whatsThis), widget (QPushButton, pauseContinueButton)
-#: rc.cpp:543 rc.cpp:546
+#: rc.cpp:555 rc.cpp:558
 msgid "Pause/Continue regression testing process"
 msgstr "Rawestandin/Domandina pêvajoya testkirina regresyonê"
 
 #. i18n: file: khtml/test_regression_gui.ui:120
 #. i18n: ectx: property (text), widget (QPushButton, pauseContinueButton)
-#: rc.cpp:549 khtml/test_regression_gui_window.cpp:571
+#: rc.cpp:561 khtml/test_regression_gui_window.cpp:571
 #: khtml/rendering/media_controls.cpp:50
 msgid "Pause"
 msgstr "Navber"
@@ -1220,7 +1242,7 @@ msgstr "Navber"
 #. i18n: ectx: property (toolTip), widget (QPushButton, saveLogButton)
 #. i18n: file: khtml/test_regression_gui.ui:147
 #. i18n: ectx: property (whatsThis), widget (QPushButton, saveLogButton)
-#: rc.cpp:552 rc.cpp:555
+#: rc.cpp:564 rc.cpp:567
 #, fuzzy
 #| msgid ""
 #| "You may select a file where the log content is stored, before the "
@@ -1234,7 +1256,7 @@ msgstr ""
 
 #. i18n: file: khtml/test_regression_gui.ui:150
 #. i18n: ectx: property (text), widget (QPushButton, saveLogButton)
-#: rc.cpp:558
+#: rc.cpp:570
 #, fuzzy
 #| msgid "Output to file..."
 msgid "Output to File..."
@@ -1242,7 +1264,7 @@ msgstr "Pelê Derketanan..."
 
 #. i18n: file: khtml/test_regression_gui.ui:162
 #. i18n: ectx: property (text), widget (QLabel, statusLabel)
-#: rc.cpp:561
+#: rc.cpp:573
 #, fuzzy
 #| msgid "Regression testing status"
 msgid "Regression Testing Status"
@@ -1250,25 +1272,25 @@ msgstr "Rewşa testkirina regresyonê"
 
 #. i18n: file: khtml/test_regression_gui.ui:182
 #. i18n: ectx: attribute (title), widget (QWidget, secondTab)
-#: rc.cpp:564
+#: rc.cpp:576
 msgid "View HTML Output"
 msgstr "Derketanên HTML bibîne"
 
 #. i18n: file: khtml/test_regression_gui.ui:203
 #. i18n: ectx: property (title), widget (QMenu, menuSettings)
-#: rc.cpp:567
+#: rc.cpp:579
 msgid "Settings"
 msgstr "Mîheng"
 
 #. i18n: file: khtml/test_regression_gui.ui:212
 #. i18n: ectx: property (title), widget (QMenu, menuMain)
-#: rc.cpp:570
+#: rc.cpp:582
 msgid "Tests"
 msgstr "Test"
 
 #. i18n: file: khtml/test_regression_gui.ui:238
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
-#: rc.cpp:573
+#: rc.cpp:585
 #, fuzzy
 #| msgid "Only run JS tests"
 msgid "Only Run JS Tests"
@@ -1276,7 +1298,7 @@ msgstr "Tenê testên JS bixebitîne"
 
 #. i18n: file: khtml/test_regression_gui.ui:246
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
-#: rc.cpp:576
+#: rc.cpp:588
 #, fuzzy
 #| msgid "Only run HTML tests"
 msgid "Only Run HTML Tests"
@@ -1284,19 +1306,19 @@ msgstr "Tenê testên HTML bixebitîne"
 
 #. i18n: file: khtml/test_regression_gui.ui:254
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
-#: rc.cpp:579
+#: rc.cpp:591
 msgid "Do Not Suppress Debug Output"
 msgstr ""
 
 #. i18n: file: khtml/test_regression_gui.ui:262
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
-#: rc.cpp:582 khtml/test_regression.cpp:630
+#: rc.cpp:594 khtml/test_regression.cpp:630
 msgid "Do not use Xvfb"
 msgstr "Xvfb bi kar neyîne"
 
 #. i18n: file: khtml/test_regression_gui.ui:267
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
-#: rc.cpp:585
+#: rc.cpp:597
 #, fuzzy
 #| msgid "Run tests..."
 msgid "Run Tests..."
@@ -1304,7 +1326,7 @@ msgstr "Testan bixebitîne..."
 
 #. i18n: file: khtml/test_regression_gui.ui:272
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
-#: rc.cpp:588
+#: rc.cpp:600
 #, fuzzy
 #| msgid "Run single test..."
 msgid "Run Single Test..."
@@ -1312,7 +1334,7 @@ msgstr "Testekê tenê bixebitîne..."
 
 #. i18n: file: khtml/test_regression_gui.ui:277
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
-#: rc.cpp:591
+#: rc.cpp:603
 #, fuzzy
 #| msgid "Specify tests directory..."
 msgid "Specify tests Directory..."
@@ -1320,7 +1342,7 @@ msgstr "Peldanka testan hilbijêre..."
 
 #. i18n: file: khtml/test_regression_gui.ui:282
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
-#: rc.cpp:594
+#: rc.cpp:606
 #, fuzzy
 #| msgid "Specify khtml directory..."
 msgid "Specify khtml Directory..."
@@ -1328,33 +1350,11 @@ msgstr "Peldanka khtml hilbijêre"
 
 #. i18n: file: khtml/test_regression_gui.ui:287
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
-#: rc.cpp:597
+#: rc.cpp:609
 #, fuzzy
 #| msgid "Specify output directory..."
 msgid "Specify Output Directory..."
 msgstr "Peldanka derketanan hilbijêre..."
-
-#. i18n: file: khtml/khtml_browser.rc:4
-#. i18n: ectx: Menu (file)
-#. i18n: file: kdeui/xmlgui/ui_standards.rc:5
-#. i18n: ectx: Menu (file)
-#: rc.cpp:600 rc.cpp:991
-msgid "&File"
-msgstr "&Pel"
-
-#. i18n: file: khtml/khtml_browser.rc:20
-#. i18n: ectx: Menu (view)
-#. i18n: file: kdeui/xmlgui/ui_standards.rc:101
-#. i18n: ectx: Menu (view)
-#: rc.cpp:606 rc.cpp:1003
-msgid "&View"
-msgstr "&Dîtin"
-
-#. i18n: file: khtml/khtml_browser.rc:35
-#. i18n: ectx: ToolBar (htmlToolBar)
-#: rc.cpp:609
-msgid "HTML Toolbar"
-msgstr "Darikê HTML"
 
 #. i18n: file: khtml/ui/findbar/khtmlfindbar_base.ui:43
 #. i18n: ectx: property (text), widget (QLabel, label)
@@ -2313,25 +2313,6 @@ msgid "List of 'wide-area' (non link-local) domains that should be browsed."
 msgstr ""
 "Lîsteya domainên 'qada-fireh' (girêdana neherêmî) a ku divê lê bê gerîn."
 
-#: knotify/config/knotifyeventlist.cpp:92
-msgctxt "State of the notified event"
-msgid "State"
-msgstr "Rewş"
-
-#: knotify/config/knotifyeventlist.cpp:92
-msgctxt "Title of the notified event"
-msgid "Title"
-msgstr "Sernav"
-
-#: knotify/config/knotifyeventlist.cpp:92
-msgctxt "Description of the notified event"
-msgid "Description"
-msgstr "Rave"
-
-#: knotify/config/knotifyconfigwidget.cpp:107
-msgid "Configure Notifications"
-msgstr "Hişyariyan Veava Bike"
-
 #: interfaces/ktexteditor/templateinterface.cpp:66
 msgid ""
 "The template needs information about you, which is stored in your address "
@@ -2350,6 +2331,25 @@ msgstr ""
 #, kde-format
 msgid "System Default (currently: %1)"
 msgstr "Standarda Pergalê (niha: %1)"
+
+#: knotify/config/knotifyeventlist.cpp:92
+msgctxt "State of the notified event"
+msgid "State"
+msgstr "Rewş"
+
+#: knotify/config/knotifyeventlist.cpp:92
+msgctxt "Title of the notified event"
+msgid "Title"
+msgstr "Sernav"
+
+#: knotify/config/knotifyeventlist.cpp:92
+msgctxt "Description of the notified event"
+msgid "Description"
+msgstr "Rave"
+
+#: knotify/config/knotifyconfigwidget.cpp:107
+msgid "Configure Notifications"
+msgstr "Hişyariyan Veava Bike"
 
 #: kross/test/main.cpp:141
 msgid "KrossTest"
@@ -2583,6 +2583,91 @@ msgstr "Di Danegehê de cureyeke nederbasdar"
 msgid "Unknown error"
 msgstr "Çewtiya nenas"
 
+#: nepomuk/ui/kedittagsdialog.cpp:48
+#, fuzzy
+#| msgid "Change Icon"
+msgctxt "@title:window"
+msgid "Change Tags"
+msgstr "Sembolê Biguherîne"
+
+#: nepomuk/ui/kedittagsdialog.cpp:49
+#, fuzzy
+#| msgid "Pages"
+msgctxt "@title:window"
+msgid "Add Tags"
+msgstr "Rûpel"
+
+#: nepomuk/ui/kedittagsdialog.cpp:58
+msgctxt "@label:textbox"
+msgid "Configure which tags should be applied."
+msgstr ""
+
+#: nepomuk/ui/kedittagsdialog.cpp:71
+#, fuzzy
+#| msgid "Create New Tag..."
+msgctxt "@label"
+msgid "Create new tag:"
+msgstr "Etîketeke Nû Biafirîne..."
+
+#: nepomuk/ui/kedittagsdialog.cpp:93
+#, fuzzy
+#| msgid "Delete"
+msgctxt "@info"
+msgid "Delete tag"
+msgstr "Jê bibe"
+
+#: nepomuk/ui/kedittagsdialog.cpp:205
+#, kde-format
+msgctxt "@info"
+msgid "Should the tag <resource>%1</resource> really be deleted for all files?"
+msgstr ""
+
+#: nepomuk/ui/kedittagsdialog.cpp:207
+#, fuzzy
+#| msgid "Delete"
+msgctxt "@title"
+msgid "Delete tag"
+msgstr "Jê bibe"
+
+#: nepomuk/ui/kedittagsdialog.cpp:208
+#, fuzzy
+#| msgid "Delete"
+msgctxt "@action:button"
+msgid "Delete"
+msgstr "Jê bibe"
+
+#: nepomuk/ui/kedittagsdialog.cpp:209
+#, fuzzy
+#| msgid "Cancel"
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr "Betalkirin"
+
+#: nepomuk/ui/nepomukmassupdatejob.cpp:76
+msgid "Changing annotations"
+msgstr "Hişyarî tên guherandin"
+
+#: nepomuk/ui/tagwidget.cpp:61
+#, fuzzy
+#| msgid "Show all options"
+msgctxt "@label"
+msgid "Show all tags..."
+msgstr "Hemû vebijarkan nîşan bide"
+
+#: nepomuk/ui/tagwidget.cpp:104
+#, fuzzy
+#| msgid "Add..."
+msgctxt "@label"
+msgid "Add Tags..."
+msgstr "Lê zêde bike..."
+
+#: nepomuk/ui/tagwidget.cpp:104
+#, fuzzy
+#| msgid "Change &Icon..."
+msgctxt "@label"
+msgid "Change..."
+msgstr "&Sembolê Biguherîne..."
+
 #: nepomuk/rcgen/rcgen.cpp:49 nepomuk/rcgen/rcgen.cpp:51
 msgid "Nepomuk Resource Class Generator"
 msgstr ""
@@ -2683,91 +2768,6 @@ msgstr ""
 #: nepomuk/rcgen/rcgen.cpp:80
 msgid "The ontology files containing the ontologies to be generated."
 msgstr ""
-
-#: nepomuk/ui/kedittagsdialog.cpp:48
-#, fuzzy
-#| msgid "Change Icon"
-msgctxt "@title:window"
-msgid "Change Tags"
-msgstr "Sembolê Biguherîne"
-
-#: nepomuk/ui/kedittagsdialog.cpp:49
-#, fuzzy
-#| msgid "Pages"
-msgctxt "@title:window"
-msgid "Add Tags"
-msgstr "Rûpel"
-
-#: nepomuk/ui/kedittagsdialog.cpp:58
-msgctxt "@label:textbox"
-msgid "Configure which tags should be applied."
-msgstr ""
-
-#: nepomuk/ui/kedittagsdialog.cpp:71
-#, fuzzy
-#| msgid "Create New Tag..."
-msgctxt "@label"
-msgid "Create new tag:"
-msgstr "Etîketeke Nû Biafirîne..."
-
-#: nepomuk/ui/kedittagsdialog.cpp:93
-#, fuzzy
-#| msgid "Delete"
-msgctxt "@info"
-msgid "Delete tag"
-msgstr "Jê bibe"
-
-#: nepomuk/ui/kedittagsdialog.cpp:205
-#, kde-format
-msgctxt "@info"
-msgid "Should the tag <resource>%1</resource> really be deleted for all files?"
-msgstr ""
-
-#: nepomuk/ui/kedittagsdialog.cpp:207
-#, fuzzy
-#| msgid "Delete"
-msgctxt "@title"
-msgid "Delete tag"
-msgstr "Jê bibe"
-
-#: nepomuk/ui/kedittagsdialog.cpp:208
-#, fuzzy
-#| msgid "Delete"
-msgctxt "@action:button"
-msgid "Delete"
-msgstr "Jê bibe"
-
-#: nepomuk/ui/kedittagsdialog.cpp:209
-#, fuzzy
-#| msgid "Cancel"
-msgctxt "@action:button"
-msgid "Cancel"
-msgstr "Betalkirin"
-
-#: nepomuk/ui/nepomukmassupdatejob.cpp:76
-msgid "Changing annotations"
-msgstr "Hişyarî tên guherandin"
-
-#: nepomuk/ui/tagwidget.cpp:61
-#, fuzzy
-#| msgid "Show all options"
-msgctxt "@label"
-msgid "Show all tags..."
-msgstr "Hemû vebijarkan nîşan bide"
-
-#: nepomuk/ui/tagwidget.cpp:104
-#, fuzzy
-#| msgid "Add..."
-msgctxt "@label"
-msgid "Add Tags..."
-msgstr "Lê zêde bike..."
-
-#: nepomuk/ui/tagwidget.cpp:104
-#, fuzzy
-#| msgid "Change &Icon..."
-msgctxt "@label"
-msgid "Change..."
-msgstr "&Sembolê Biguherîne..."
 
 #: kinit/klauncher.cpp:563
 #, kde-format
@@ -2905,6 +2905,10 @@ msgstr "Barkirina pêşdîtina çapê biserneket"
 msgid "Print Preview"
 msgstr "Pêşdîtina berî Çapkirinê"
 
+#: kutils/kcmultidialog.cpp:163 kdeui/dialogs/kconfigdialog.cpp:69
+msgid "Configure"
+msgstr "Veavakirin"
+
 #: kutils/kpluginselector.cpp:136
 msgid ""
 "Automatic changes have been performed due to plugin dependencies. Click here "
@@ -2958,10 +2962,6 @@ msgstr[1] ""
 #: kutils/kpluginselector.cpp:257
 msgid "Search Plugins"
 msgstr "Pêvekên Lêgerînê"
-
-#: kutils/kcmultidialog.cpp:163 kdeui/dialogs/kconfigdialog.cpp:69
-msgid "Configure"
-msgstr "Veavakirin"
 
 #: kutils/kcmoduleloader.cpp:75
 #, kde-format
@@ -3054,800 +3054,6 @@ msgstr "Pêkhênanan Çalak Bike"
 #: kutils/ksettings/componentsdialog.cpp:53
 msgid "Select Components"
 msgstr "Pêkhênanan Hilbijêre"
-
-#: knewstuff/knewstuff3/uploaddialog.cpp:108
-msgid "Fetching license data from server..."
-msgstr ""
-
-#: knewstuff/knewstuff3/uploaddialog.cpp:115
-msgid "Fetching content data from server..."
-msgstr ""
-
-#: knewstuff/knewstuff3/uploaddialog.cpp:231
-#, fuzzy
-#| msgid "Check Spelling..."
-msgid "Checking login..."
-msgstr "Rastnivîsê Kontrol Bike..."
-
-#: knewstuff/knewstuff3/uploaddialog.cpp:253
-#, fuzzy
-#| msgid "Loading Preview"
-msgid "Fetching your previously updated content..."
-msgstr "Pêşdîtin Tê Barkirin"
-
-#: knewstuff/knewstuff3/uploaddialog.cpp:256
-#, fuzzy
-#| msgid "Save Login Information"
-msgid "Could not verify login, please try again."
-msgstr "Agahiya Têketinê Tomar Bike"
-
-#: knewstuff/knewstuff3/uploaddialog.cpp:275
-msgid "Fetching your previously updated content finished."
-msgstr ""
-
-#: knewstuff/knewstuff3/uploaddialog.cpp:293
-msgid "Fetching content data from server finished."
-msgstr ""
-
-#: knewstuff/knewstuff3/uploaddialog.cpp:316
-#: knewstuff/knewstuff3/uploaddialog.cpp:748
-msgctxt "A link to the website where the get hot new stuff upload can be seen"
-msgid "Visit website"
-msgstr ""
-
-#: knewstuff/knewstuff3/uploaddialog.cpp:368
-#: kdeui/dialogs/kassistantdialog.cpp:94
-msgctxt "Opposite to Back"
-msgid "Next"
-msgstr "Pêşve"
-
-#: knewstuff/knewstuff3/uploaddialog.cpp:370
-#: kdeui/dialogs/kassistantdialog.cpp:95
-msgid "Finish"
-msgstr "Dawî"
-
-#: knewstuff/knewstuff3/uploaddialog.cpp:389
-#: knewstuff/knewstuff2/ui/uploaddialog.cpp:64
-#, fuzzy, kde-format
-#| msgctxt "Program name followed by 'Add On Installer'"
-#| msgid "%1 Add-On Installer"
-msgctxt "Program name followed by 'Add On Uploader'"
-msgid "%1 Add-On Uploader"
-msgstr "Sazkara Pêveka %1"
-
-#: knewstuff/knewstuff3/uploaddialog.cpp:445
-#: knewstuff/knewstuff3/uploaddialog.cpp:674
-#, fuzzy, kde-format
-#| msgid "File %1 not found."
-msgid "File not found: %1"
-msgstr "Pelê %1 nehate dîtin."
-
-#: knewstuff/knewstuff3/uploaddialog.cpp:445
-#: knewstuff/knewstuff3/uploaddialog.cpp:549
-#: knewstuff/knewstuff3/uploaddialog.cpp:674
-#, fuzzy
-#| msgid "Download"
-msgid "Upload Failed"
-msgstr "Daxîne"
-
-#: knewstuff/knewstuff3/uploaddialog.cpp:503
-#, kde-format
-msgid ""
-"The server does not recognize the category %2 to which you are trying to "
-"upload."
-msgid_plural ""
-"The server does not recognize any of the categories to which you are trying "
-"to upload: %2"
-msgstr[0] ""
-msgstr[1] ""
-
-#: knewstuff/knewstuff3/uploaddialog.cpp:506
-#: khtml/rendering/render_form.cpp:811 kjs/object.cpp:548
-#: kdeui/dialogs/kmessagebox.cpp:834 kdeui/dialogs/kmessagebox.cpp:864
-msgid "Error"
-msgstr "Çewtî"
-
-#: knewstuff/knewstuff3/uploaddialog.cpp:549
-#, kde-format
-msgid "The selected category \"%1\" is invalid."
-msgstr ""
-
-#: knewstuff/knewstuff3/uploaddialog.cpp:597
-#: knewstuff/knewstuff3/uploaddialog.cpp:606
-#: knewstuff/knewstuff3/uploaddialog.cpp:614
-#, fuzzy
-#| msgid "Select Region of Image"
-msgid "Select preview image"
-msgstr "Qadeke Wêne Hilbijêre"
-
-#: knewstuff/knewstuff3/uploaddialog.cpp:624
-msgid "There was a network error."
-msgstr ""
-
-#: knewstuff/knewstuff3/uploaddialog.cpp:624
-#: knewstuff/knewstuff3/uploaddialog.cpp:629
-#, fuzzy
-#| msgid "Download"
-msgid "Uploading Failed"
-msgstr "Daxîne"
-
-#: knewstuff/knewstuff3/uploaddialog.cpp:629
-#, fuzzy
-#| msgid "Communication error"
-msgid "Authentication error."
-msgstr "Çewtiya ragihandinê"
-
-#: knewstuff/knewstuff3/uploaddialog.cpp:638
-#, fuzzy, kde-format
-#| msgid "Download"
-msgid "Upload failed: %1"
-msgstr "Daxîne"
-
-#: knewstuff/knewstuff3/knewstuffbutton.cpp:48
-#: knewstuff/knewstuff2/ui/knewstuffbutton.cpp:49
-#, fuzzy
-#| msgid "Download New Stuff"
-msgid "Download New Stuff..."
-msgstr "Taybetiyên Nû Daxe"
-
-#: knewstuff/knewstuff3/downloaddialog.cpp:81
-#: knewstuff/knewstuff3/downloadwidget.cpp:199
-#: knewstuff/knewstuff2/ui/downloaddialog.cpp:127
-#: knewstuff/knewstuff2/ui/downloaddialog.cpp:555
-msgid "Get Hot New Stuff"
-msgstr "Tiştên Nûtirîn Bîne"
-
-#: knewstuff/knewstuff3/downloaddialog.cpp:88
-#: knewstuff/knewstuff2/ui/downloaddialog.cpp:129
-#, kde-format
-msgctxt "Program name followed by 'Add On Installer'"
-msgid "%1 Add-On Installer"
-msgstr "Sazkara Pêveka %1"
-
-#: knewstuff/knewstuff3/downloadwidget.cpp:113
-#: knewstuff/knewstuff2/ui/downloaddialog.cpp:312
-#, fuzzy
-#| msgid "Timeout. Check Internet connection!"
-msgid "Timeout. Check Internet connection."
-msgstr "Dem têrê nekir. Girêdana înternetê kontrol bike!"
-
-#: knewstuff/knewstuff3/downloadwidget.cpp:171
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:252
-#: knewstuff/knewstuff2/ui/downloaddialog.cpp:503
-#, kde-format
-msgid "Server: %1"
-msgstr "Pêşkêşker: %1"
-
-#: knewstuff/knewstuff3/downloadwidget.cpp:172
-#: knewstuff/knewstuff2/ui/downloaddialog.cpp:504
-#, kde-format
-msgid "<br />Provider: %1"
-msgstr "<br />Belavkar: %1"
-
-#: knewstuff/knewstuff3/downloadwidget.cpp:173
-#: knewstuff/knewstuff2/ui/downloaddialog.cpp:505
-#, kde-format
-msgid "<br />Version: %1"
-msgstr "<br />Guherto: %1"
-
-#: knewstuff/knewstuff3/downloadwidget.cpp:177
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:82
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:258
-#: knewstuff/knewstuff2/ui/downloaddialog.cpp:509
-msgid "Provider information"
-msgstr "Agahiya Belavkarê"
-
-#: knewstuff/knewstuff3/downloadwidget.cpp:188
-#: knewstuff/knewstuff2/ui/downloaddialog.cpp:535
-#, kde-format
-msgid "Could not install %1"
-msgstr "Sazkirina '%1' biserneket"
-
-#: knewstuff/knewstuff3/downloadwidget.cpp:189
-#: knewstuff/knewstuff2/ui/downloaddialog.cpp:536
-msgid "Get Hot New Stuff!"
-msgstr "Tiştên Nûtirîn Bîne!"
-
-#: knewstuff/knewstuff3/downloadwidget.cpp:241
-msgid "Icons view mode"
-msgstr ""
-
-#: knewstuff/knewstuff3/downloadwidget.cpp:243
-#, fuzzy
-#| msgid "Detailed View"
-msgid "Details view mode"
-msgstr "Kitekit"
-
-#: knewstuff/knewstuff3/downloadwidget.cpp:258
-#, fuzzy
-#| msgid "*|All Folders"
-msgid "All Providers"
-msgstr "*|Hemû Peldank"
-
-#: knewstuff/knewstuff3/downloadwidget.cpp:265
-#, fuzzy
-#| msgid "Pages"
-msgid "All Categories"
-msgstr "Rûpel"
-
-#: knewstuff/knewstuff3/core/installation.cpp:157
-#, fuzzy
-#| msgid "Invalid Filenames"
-msgid "Invalid item."
-msgstr "Navên Pelan ên nederbasdar"
-
-#: knewstuff/knewstuff3/core/installation.cpp:164
-#, kde-format
-msgid "Download of item failed: no download URL for \"%1\"."
-msgstr ""
-
-#: knewstuff/knewstuff3/core/installation.cpp:200
-#, kde-format
-msgid "Download of \"%1\" failed, error: %2"
-msgstr ""
-
-#: knewstuff/knewstuff3/core/installation.cpp:208
-msgid ""
-"The downloaded file is a html file. This indicates a link to a website "
-"instead of the actual download. Would you like to open the site with a "
-"browser instead?"
-msgstr ""
-
-#: knewstuff/knewstuff3/core/installation.cpp:208
-#, fuzzy
-#| msgid "Could not create temporary file."
-msgid "Possibly bad download link"
-msgstr "Pelê demdemî nayê çêkirin."
-
-#: knewstuff/knewstuff3/core/installation.cpp:211
-msgid "Downloaded file was a HTML file. Opened in browser."
-msgstr ""
-
-#: knewstuff/knewstuff3/core/installation.cpp:276
-#, fuzzy, kde-format
-#| msgid "Could not install %1"
-msgid "Could not install \"%1\": file not found."
-msgstr "Sazkirina '%1' biserneket"
-
-#: knewstuff/knewstuff3/core/installation.cpp:474
-#, fuzzy
-#| msgid "Overwrite File?"
-msgid "Overwrite existing file?"
-msgstr "Bila Li Ser Pelî Were Nivîsandin?"
-
-#: knewstuff/knewstuff3/core/installation.cpp:474
-#, fuzzy
-#| msgid "Download"
-msgid "Download File:"
-msgstr "Daxîne"
-
-#: knewstuff/knewstuff3/core/engine.cpp:99
-#, fuzzy
-#| msgid "Install"
-msgid "Initializing"
-msgstr "Saz Bike"
-
-#: knewstuff/knewstuff3/core/engine.cpp:103
-#: knewstuff/knewstuff3/core/engine.cpp:112
-#, fuzzy, kde-format
-#| msgid "Configuration files"
-msgid "Configuration file not found: \"%1\""
-msgstr "Pelên Veavakirinan"
-
-#: knewstuff/knewstuff3/core/engine.cpp:125
-#, fuzzy, kde-format
-#| msgid "Configuration files"
-msgid "Configuration file is invalid: \"%1\""
-msgstr "Pelên Veavakirinan"
-
-#: knewstuff/knewstuff3/core/engine.cpp:174
-#, fuzzy
-#| msgid "View Frame Information"
-msgid "Loading provider information"
-msgstr "Agahiya Çarçoveyê Nîşan Bide"
-
-#: knewstuff/knewstuff3/core/engine.cpp:197
-#, kde-format
-msgid "Could not load get hot new stuff providers from file: %1"
-msgstr ""
-
-#: knewstuff/knewstuff3/core/engine.cpp:215
-msgid "Error initializing provider."
-msgstr ""
-
-#: knewstuff/knewstuff3/core/engine.cpp:219
-#: knewstuff/knewstuff3/core/engine.cpp:499
-#, fuzzy
-#| msgid "Loading Applet"
-msgid "Loading data"
-msgstr "Daxistina sepanokê"
-
-#: knewstuff/knewstuff3/core/engine.cpp:247
-msgid "Loading data from provider"
-msgstr ""
-
-#: knewstuff/knewstuff3/core/engine.cpp:252
-#, kde-format
-msgid "Loading of providers from file: %1 failed"
-msgstr ""
-
-#: knewstuff/knewstuff3/core/engine.cpp:461
-#: knewstuff/knewstuff2/ui/downloaddialog.cpp:195
-#, kde-format
-msgid "Re: %1"
-msgstr "Bersiv:%1"
-
-#: knewstuff/knewstuff3/core/engine.cpp:501
-#, fuzzy, kde-format
-#| msgid "Loading Preview"
-msgid "Loading one preview"
-msgid_plural "Loading %1 previews"
-msgstr[0] "Pêşdîtin Tê Barkirin"
-msgstr[1] "Pêşdîtin Tê Barkirin"
-
-#: knewstuff/knewstuff3/core/engine.cpp:503
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:133
-#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:342
-#, fuzzy
-#| msgid "Install"
-msgid "Installing"
-msgstr "Saz Bike"
-
-#: knewstuff/knewstuff3/core/security.cpp:75
-#: knewstuff/knewstuff2/core/security.cpp:75
-msgid ""
-"<qt>Cannot start <i>gpg</i> and retrieve the available keys. Make sure that "
-"<i>gpg</i> is installed, otherwise verification of downloaded resources will "
-"not be possible.</qt>"
-msgstr ""
-"<qt>Bi destpêkirina <i>gpg</i> mifteyên pêwist nayên daxistin. Bawer bî ku "
-"<i>gpg</i> hatiye sazkirin û ne gengaz e ku çavkaniyên ku hatine daxistin "
-"werine piştrastkirin.</qt>"
-
-#: knewstuff/knewstuff3/core/security.cpp:197
-#: knewstuff/knewstuff2/core/security.cpp:197
-#, kde-format
-msgid ""
-"<qt>Enter passphrase for key <b>0x%1</b>, belonging to<br /><i>%2&lt;%3&gt;</"
-"i><br />:</qt>"
-msgstr ""
-"<qt>Şîfreya mifteya <b>0x%1</b> û ya şexsê <br /><i>%2&lt;%3&gt;</i><br />:</"
-"qt>"
-
-#: knewstuff/knewstuff3/core/security.cpp:276
-#: knewstuff/knewstuff2/core/security.cpp:276
-msgid ""
-"<qt>Cannot start <i>gpg</i> and check the validity of the file. Make sure "
-"that <i>gpg</i> is installed, otherwise verification of downloaded resources "
-"will not be possible.</qt>"
-msgstr ""
-"<qt>Bi destpêkirina <i>gpg</i> rastiya pelî nayê kontrolkirin. Bawer bî ku "
-"<i>gpg</i> hatiye sazkirin û ne gengaz e ku çavkaniyên ku hatine daxistin "
-"werine piştrastkirin.</qt>"
-
-#: knewstuff/knewstuff3/core/security.cpp:331
-#: knewstuff/knewstuff2/core/security.cpp:331
-msgid "Select Signing Key"
-msgstr "Mifteyekê hilbijêre"
-
-#: knewstuff/knewstuff3/core/security.cpp:331
-#: knewstuff/knewstuff2/core/security.cpp:331
-msgid "Key used for signing:"
-msgstr "Mifteya ji bo mohrkirinê tê bikaranîn:"
-
-#: knewstuff/knewstuff3/core/security.cpp:363
-#: knewstuff/knewstuff2/core/security.cpp:363
-msgid ""
-"<qt>Cannot start <i>gpg</i> and sign the file. Make sure that <i>gpg</i> is "
-"installed, otherwise signing of the resources will not be possible.</qt>"
-msgstr ""
-"<qt><i>gpg</i> nayê destpêkirin û mifteyên pêwist nayê daxistin. Baweriya "
-"xwe pê bîne ku <i>gpg</i> hatiye sazkirin, yan na ne gengaz e ku mirov "
-"karibe rastiya wan çavkaniyan kontrol bike.</qt>"
-
-#: knewstuff/knewstuff3/attica/atticaprovider.cpp:288
-#, kde-format
-msgctxt ""
-"the price of a download item, parameter 1 is the currency, 2 is the price"
-msgid ""
-"This items costs %1 %2.\n"
-"Do you want to buy it?"
-msgstr ""
-
-#: knewstuff/knewstuff3/attica/atticaprovider.cpp:302
-#, kde-format
-msgid ""
-"Your account balance is too low:\n"
-"Your balance: %1\n"
-"Price: %2"
-msgstr ""
-
-#: knewstuff/knewstuff3/attica/atticaprovider.cpp:341
-#, fuzzy
-#| msgid "No text was replaced."
-msgctxt "voting for an item (good/bad)"
-msgid "Your vote was recorded."
-msgstr "Qet karê guherandinê nehate kirin."
-
-#: knewstuff/knewstuff3/attica/atticaprovider.cpp:355
-msgid "You are now a fan."
-msgstr ""
-
-#: knewstuff/knewstuff3/attica/atticaprovider.cpp:366
-#, kde-format
-msgid "Network error. (%1)"
-msgstr ""
-
-#: knewstuff/knewstuff3/attica/atticaprovider.cpp:370
-msgid "Too many requests to server. Please try again in a few minutes."
-msgstr ""
-
-#: knewstuff/knewstuff3/attica/atticaprovider.cpp:372
-#, kde-format
-msgid "Unknown Open Collaboration Service API error. (%1)"
-msgstr ""
-
-#: knewstuff/knewstuff3/ui/entrydetailsdialog.cpp:94
-#, fuzzy, kde-format
-#| msgid "Suggestions"
-msgid "Details for %1"
-msgstr "Pêşniyaz"
-
-#: knewstuff/knewstuff3/ui/entrydetailsdialog.cpp:114
-#, fuzzy
-#| msgid "Homepage"
-msgctxt "A link to the description of this Get Hot New Stuff item"
-msgid "Homepage"
-msgstr "Serûpel"
-
-#: knewstuff/knewstuff3/ui/entrydetailsdialog.cpp:117
-#, fuzzy
-#| msgid "HTML documentation"
-msgctxt ""
-"A link to make a donation for a Get Hot New Stuff item (opens a web browser)"
-msgid "Make a donation"
-msgstr "Belgekirina HTML"
-
-#: knewstuff/knewstuff3/ui/entrydetailsdialog.cpp:121
-#, kde-format
-msgctxt "A link to the knowledgebase (like a forum) (opens a web browser)"
-msgid "Knowledgebase (no entries)"
-msgid_plural "Knowledgebase (%1 entries)"
-msgstr[0] ""
-msgstr[1] ""
-
-#: knewstuff/knewstuff3/ui/entrydetailsdialog.cpp:124
-#, fuzzy
-#| msgid "Open in New &Window"
-msgctxt "Tooltip for a link in a dialog"
-msgid "Opens in a browser window"
-msgstr "Di &Paceyeke Nû de Veke"
-
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:138
-#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:347
-#, fuzzy
-#| msgid "Update"
-msgid "Updating"
-msgstr "Rojanekirin"
-
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:148
-#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:357
-#, fuzzy
-#| msgid "Install"
-msgid "Install Again"
-msgstr "Saz Bike"
-
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:174
-#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:282
-#: kdeui/dialogs/kmessagebox.cpp:271
-msgid "Details"
-msgstr "Kitekit"
-
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:223
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:225
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:227
-#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:158
-#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:160
-#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:162
-#, fuzzy, kde-format
-#| msgctxt "@interface/rich"
-#| msgid "<i>%1</i>"
-msgctxt "Show the author of this item in a list"
-msgid "By <i>%1</i>"
-msgstr "<i>%1</i>"
-
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:241
-#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:185
-#, kde-format
-msgid "1 fan"
-msgid_plural "%1 fans"
-msgstr[0] ""
-msgstr[1] ""
-
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:244
-#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:188
-#, fuzzy, kde-format
-#| msgid "Download"
-msgid "1 download"
-msgid_plural "%1 downloads"
-msgstr[0] "Daxîne"
-msgstr[1] "Daxîne"
-
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:263
-#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:107
-#, fuzzy, kde-format
-#| msgid "Rating: "
-msgid "Rating: %1%"
-msgstr "Nirxandin:"
-
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:314
-#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:255
-#: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:264
-msgid "Loading Preview"
-msgstr "Pêşdîtin Tê Barkirin"
-
-#: knewstuff/knewstuff2/core/coreengine.cpp:428
-#, fuzzy, kde-format
-#| msgid "Rating: "
-msgid "loading %1"
-msgstr "Nirxandin:"
-
-#: knewstuff/knewstuff2/core/providerhandler.cpp:154
-#: knewstuff/knewstuff2/core/providerhandler.cpp:174
-msgctxt "describes the feed of the latest posted entries"
-msgid "Latest"
-msgstr "Herî Dawî"
-
-#: knewstuff/knewstuff2/core/providerhandler.cpp:160
-msgid "Highest Rated"
-msgstr "Yên herî zêde têne ecibandin"
-
-#: knewstuff/knewstuff2/core/providerhandler.cpp:166
-msgid "Most Downloads"
-msgstr "Yên Herî Zêde Hatine Daxistin"
-
-#: knewstuff/knewstuff2/ui/kdxschanges.cpp:31
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:70
-msgid "Changelog"
-msgstr "Girteya Guhartinan"
-
-#: knewstuff/knewstuff2/ui/kdxschanges.cpp:53
-#, kde-format
-msgid "Version %1"
-msgstr "Guhertoya %1"
-
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:68
-msgid "Comments"
-msgstr "Şirove"
-
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:73
-msgid "Switch version"
-msgstr "Guhertoyê biguherîne"
-
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:86
-msgid "Contact author"
-msgstr "Ji nivîskarê re binivîse"
-
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:89
-msgid "Collaboration"
-msgstr "Hevkarî"
-
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:91
-#: knewstuff/knewstuff2/ui/downloaddialog.cpp:136
-msgid "Add Rating"
-msgstr "Nirxandin lê zêde bike"
-
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:92
-#: knewstuff/knewstuff2/ui/downloaddialog.cpp:139
-msgid "Add Comment"
-msgstr "Şirove lê zêde bike"
-
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:93
-msgid "Translate"
-msgstr "Wergerandin"
-
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:94
-msgid "Subscribe"
-msgstr "Abonebûn"
-
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:95
-msgid "Report bad entry"
-msgstr "Ser Ketaneke xerab agahî bide"
-
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:158
-msgid "Send Mail"
-msgstr "Epeyamekê Bişîne"
-
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:162
-msgid "Contact on Jabber"
-msgstr "Di Jabber de binivîse"
-
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:253
-#, kde-format
-msgid "Provider: %1"
-msgstr "Belavkar: %1"
-
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:254
-#, kde-format
-msgid "Version: %1"
-msgstr "Guherto: %1"
-
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:328
-msgid "The removal request was successfully registered."
-msgstr "Tomarkirina daxwaza rakirinê bi ser ket."
-
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:329
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:333
-msgid "Removal of entry"
-msgstr "Rakirina Ketanê"
-
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:332
-msgid "The removal request failed."
-msgstr "Daxwaza rakirinê bi ser neket."
-
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:341
-msgid "The subscription was successfully completed."
-msgstr "Tevlêbûn bi serkeftî qediya."
-
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:342
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:346
-msgid "Subscription to entry"
-msgstr "Tevlêbûna ji bo ketanê"
-
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:345
-msgid "The subscription request failed."
-msgstr "Daxwaza tevlêbûnê bi ser neket."
-
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:354
-msgid "The rating was submitted successfully."
-msgstr "Şandina dengdanê bi ser ket."
-
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:355
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:359
-msgid "Rating for entry"
-msgstr "Dengana ketanê"
-
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:358
-msgid "The rating could not be submitted."
-msgstr "Dengdan nehat şandin."
-
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:367
-msgid "The comment was submitted successfully."
-msgstr "Şandina şîroveyê bi ser ket."
-
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:368
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:372
-msgid "Comment on entry"
-msgstr "Şirove der barê ketanê de"
-
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:371
-msgid "The comment could not be submitted."
-msgstr "Şîrove nehat şandin."
-
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:379
-#: knewstuff/knewstuff2/ui/downloaddialog.cpp:585
-msgid "A protocol fault has occurred. The request has failed."
-msgstr "Çewtiyeke protokolê derket. Daxwaz bi ser neket."
-
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:380
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:387
-#: knewstuff/knewstuff2/ui/downloaddialog.cpp:586
-#: knewstuff/knewstuff2/ui/downloaddialog.cpp:593
-msgid "Desktop Exchange Service"
-msgstr "Servîsa Guherandina Sermaseyê"
-
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:386
-#: knewstuff/knewstuff2/ui/downloaddialog.cpp:592
-msgid "A network error has occurred. The request has failed."
-msgstr "Çewtiyeke torê derket. Daxwaz bi ser neket."
-
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:420
-msgid "KNewStuff contributions"
-msgstr "Piştgiriyên KNewStuff"
-
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:516
-msgid "This operation requires authentication."
-msgstr "Erêkirina çalakiyê divê."
-
-#: knewstuff/knewstuff2/ui/itemsview.cpp:306
-msgid "Rating: "
-msgstr "Nirxandin:"
-
-#: knewstuff/knewstuff2/ui/itemsview.cpp:311
-msgid "Downloads: "
-msgstr "Daxîstin:"
-
-#: knewstuff/knewstuff2/ui/kdxsrating.cpp:33
-msgid "Rate this entry"
-msgstr "Vê ketanê binirxîne"
-
-#: knewstuff/knewstuff2/ui/kdxscomments.cpp:32
-msgid "User comments"
-msgstr "Şiroveyên bikarhêneran"
-
-#: knewstuff/knewstuff2/ui/kdxstranslation.cpp:33
-msgid "Translate this entry"
-msgstr "Vê ketanê wergerîne"
-
-#: knewstuff/knewstuff2/ui/kdxstranslation.cpp:46
-#: knewstuff/knewstuff2/ui/providerdialog.cpp:68 dnssd/servicemodel.cpp:101
-msgid "Name"
-msgstr "Nav"
-
-#: knewstuff/knewstuff2/ui/kdxstranslation.cpp:47
-#: kdeui/dialogs/kshortcutseditor.cpp:667
-msgid "Description"
-msgstr "Danezanî"
-
-#: knewstuff/knewstuff2/ui/kdxstranslation.cpp:48
-msgid "Payload"
-msgstr "Kapasîte"
-
-#: knewstuff/knewstuff2/ui/uploaddialog.cpp:91
-msgid "Please put in a name."
-msgstr "Ji kerema xwe re navekî têkevinê."
-
-#: knewstuff/knewstuff2/ui/uploaddialog.cpp:159
-msgid "Old upload information found, fill out fields?"
-msgstr "Agahiyên şandinê yên kevn hate dîtin, tu dixwazî qadan tije bike?"
-
-#: knewstuff/knewstuff2/ui/uploaddialog.cpp:161
-msgid "Fill Out"
-msgstr "Tije Bike"
-
-#: knewstuff/knewstuff2/ui/uploaddialog.cpp:162
-msgid "Do Not Fill Out"
-msgstr "Tije Neke"
-
-#: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:150
-#, fuzzy
-#| msgid "No Downloads"
-msgid "<p>No Downloads</p>"
-msgstr "Daxistin Tune"
-
-#: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:150
-#, fuzzy, kde-format
-#| msgid "Downloads: %1"
-msgid "<p>Downloads: %1</p>\n"
-msgstr "Daxîstin: %1"
-
-#: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:219
-#, fuzzy, kde-format
-#| msgid "Rating: "
-msgid "Rating: %1"
-msgstr "Nirxandin:"
-
-#: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:254
-msgid "No Preview"
-msgstr "Pêşdîtin Tune"
-
-#: knewstuff/knewstuff2/ui/providerdialog.cpp:54
-msgid "Hot New Stuff Providers"
-msgstr "Belavkarên Tişten Nûtirîn"
-
-#: knewstuff/knewstuff2/ui/providerdialog.cpp:64
-msgid "Please select one of the providers listed below:"
-msgstr "Ji kerema xwe re temînkerên ku li jêr hatine rêzkirin yekê hilbijêrin:"
-
-#: knewstuff/knewstuff2/ui/providerdialog.cpp:95
-msgid "No provider selected."
-msgstr "Peydakera ku hatiye hilbijartin tuneye."
-
-#: knewstuff/knewstuff2/ui/downloaddialog.cpp:142
-msgid "View Comments"
-msgstr "Şiroveyan Temaşe Bike"
-
-#: knewstuff/knewstuff2/ui/downloaddialog.cpp:405
-msgid "Entries failed to load"
-msgstr ""
-
-#: knewstuff/knewstuff2/ui/downloaddialog.cpp:554
-msgid "There was an error loading data providers."
-msgstr "Dema belavkarên daneyan hatine barkirin çewtî çêbû."
-
-#: knewstuff/knewstuff2/ui/kdxscomment.cpp:29
-msgid "Leave a comment"
-msgstr "Şîroveyekê binivîse"
 
 #: kdecore/kde-config.cpp:68
 msgid "kde4-config"
@@ -4218,7 +3424,7 @@ msgstr "Sepana KDE"
 msgid "Qt"
 msgstr "Qt"
 
-#: kdecore/kernel/kcmdlineargs.cpp:498 khtml/khtml_part.cpp:4806
+#: kdecore/kernel/kcmdlineargs.cpp:498 khtml/khtml_part.cpp:4811
 msgid "KDE"
 msgstr "KDE"
 
@@ -4604,160 +3810,6 @@ msgid ""
 "No mime types installed. Check that shared-mime-info is installed, and that "
 "XDG_DATA_DIRS is not set, or includes /usr/share."
 msgstr ""
-
-#: kdecore/localization/kcharsets.cpp:155
-#: kdecore/localization/kencodingprober.cpp:242
-#: kdecore/localization/kencodingprober.cpp:301
-#: kdecore/localization/kencodingdetector.cpp:1149
-#: kdecore/localization/kencodingdetector.cpp:1232
-msgctxt "@item Text character set"
-msgid "Western European"
-msgstr "Ewropayî Rojava"
-
-#: kdecore/localization/kcharsets.cpp:161
-#: kdecore/localization/kencodingprober.cpp:244
-#: kdecore/localization/kencodingprober.cpp:283
-#: kdecore/localization/kencodingdetector.cpp:1151
-#: kdecore/localization/kencodingdetector.cpp:1214
-msgctxt "@item Text character set"
-msgid "Central European"
-msgstr "Ewropayî Navîn"
-
-#: kdecore/localization/kcharsets.cpp:164
-#: kdecore/localization/kencodingprober.cpp:254
-#: kdecore/localization/kencodingprober.cpp:280
-#: kdecore/localization/kencodingdetector.cpp:1161
-#: kdecore/localization/kencodingdetector.cpp:1211
-msgctxt "@item Text character set"
-msgid "Baltic"
-msgstr "Baltîkî"
-
-#: kdecore/localization/kcharsets.cpp:167
-msgctxt "@item Text character set"
-msgid "South-Eastern Europe"
-msgstr "Ewrûpaya Başûrê Rojhilat"
-
-#: kdecore/localization/kcharsets.cpp:170
-#: kdecore/localization/kencodingprober.cpp:250
-#: kdecore/localization/kencodingprober.cpp:298
-#: kdecore/localization/kencodingdetector.cpp:1157
-#: kdecore/localization/kencodingdetector.cpp:1229
-msgctxt "@item Text character set"
-msgid "Turkish"
-msgstr "Tirkî"
-
-#: kdecore/localization/kcharsets.cpp:173
-#: kdecore/localization/kencodingprober.cpp:240
-#: kdecore/localization/kencodingprober.cpp:286
-#: kdecore/localization/kencodingdetector.cpp:1147
-#: kdecore/localization/kencodingdetector.cpp:1217
-msgctxt "@item Text character set"
-msgid "Cyrillic"
-msgstr "Kîrîlî"
-
-#: kdecore/localization/kcharsets.cpp:179
-#: kdecore/localization/kencodingprober.cpp:256
-#: kdecore/localization/kencodingprober.cpp:304
-#: kdecore/localization/kencodingdetector.cpp:1235
-msgctxt "@item Text character set"
-msgid "Chinese Traditional"
-msgstr "Çîniya Kevneşopî"
-
-#: kdecore/localization/kcharsets.cpp:182
-#: kdecore/localization/kencodingprober.cpp:258
-#: kdecore/localization/kencodingprober.cpp:307
-#: kdecore/localization/kencodingdetector.cpp:1238
-msgctxt "@item Text character set"
-msgid "Chinese Simplified"
-msgstr "Çîniya Hêsankirî"
-
-#: kdecore/localization/kcharsets.cpp:186
-#: kdecore/localization/kencodingprober.cpp:310
-#: kdecore/localization/kencodingdetector.cpp:1241
-msgctxt "@item Text character set"
-msgid "Korean"
-msgstr "Koreyî"
-
-#: kdecore/localization/kcharsets.cpp:188
-#: kdecore/localization/kencodingprober.cpp:252
-#: kdecore/localization/kencodingprober.cpp:295
-#: kdecore/localization/kencodingdetector.cpp:1159
-#: kdecore/localization/kencodingdetector.cpp:1226
-msgctxt "@item Text character set"
-msgid "Japanese"
-msgstr "Japonî"
-
-#: kdecore/localization/kcharsets.cpp:192
-#: kdecore/localization/kencodingprober.cpp:246
-#: kdecore/localization/kencodingprober.cpp:289
-#: kdecore/localization/kencodingdetector.cpp:1153
-#: kdecore/localization/kencodingdetector.cpp:1220
-msgctxt "@item Text character set"
-msgid "Greek"
-msgstr "Yewnanî"
-
-#: kdecore/localization/kcharsets.cpp:195
-#: kdecore/localization/kencodingprober.cpp:260
-#: kdecore/localization/kencodingprober.cpp:277
-#: kdecore/localization/kencodingdetector.cpp:1163
-#: kdecore/localization/kencodingdetector.cpp:1208
-msgctxt "@item Text character set"
-msgid "Arabic"
-msgstr "Erebî"
-
-#: kdecore/localization/kcharsets.cpp:198
-#: kdecore/localization/kencodingprober.cpp:248
-#: kdecore/localization/kencodingprober.cpp:292
-#: kdecore/localization/kencodingdetector.cpp:1155
-#: kdecore/localization/kencodingdetector.cpp:1223
-msgctxt "@item Text character set"
-msgid "Hebrew"
-msgstr "Îbranî"
-
-#: kdecore/localization/kcharsets.cpp:203
-#: kdecore/localization/kencodingprober.cpp:313
-#: kdecore/localization/kencodingdetector.cpp:1244
-msgctxt "@item Text character set"
-msgid "Thai"
-msgstr "Tayî"
-
-#: kdecore/localization/kcharsets.cpp:206
-#: kdecore/localization/kencodingprober.cpp:238
-#: kdecore/localization/kencodingprober.cpp:316
-#: kdecore/localization/kencodingdetector.cpp:1145
-#: kdecore/localization/kencodingdetector.cpp:1247
-msgctxt "@item Text character set"
-msgid "Unicode"
-msgstr "Unîcode"
-
-#: kdecore/localization/kcharsets.cpp:212
-msgctxt "@item Text character set"
-msgid "Northern Saami"
-msgstr "Samiya Bakur"
-
-#: kdecore/localization/kcharsets.cpp:214
-#: kdecore/localization/kcharsets.cpp:651
-msgctxt "@item Text character set"
-msgid "Other"
-msgstr "Yên Din"
-
-#: kdecore/localization/kcharsets.cpp:660
-#, kde-format
-msgctxt "@item %1 character set, %2 encoding"
-msgid "%1 ( %2 )"
-msgstr "%1 ( %2 )"
-
-#: kdecore/localization/kcharsets.cpp:663
-#, kde-format
-msgctxt "@item"
-msgid "Other encoding (%1)"
-msgstr "Kodkirineke din (%1)"
-
-#: kdecore/localization/kcharsets.cpp:689
-#, kde-format
-msgctxt "@item Text encoding: %1 character set, %2 encoding"
-msgid "%1 ( %2 )"
-msgstr "%1 ( %2 )"
 
 #: kdecore/localization/klocale.cpp:1083
 #, fuzzy
@@ -5214,6 +4266,126 @@ msgstr "Bêbandorkirî"
 msgctxt "@item Text character set"
 msgid "Universal"
 msgstr "Gerdûnî"
+
+#: kdecore/localization/kencodingprober.cpp:238
+#: kdecore/localization/kencodingprober.cpp:316
+#: kdecore/localization/kcharsets.cpp:206
+#: kdecore/localization/kencodingdetector.cpp:1145
+#: kdecore/localization/kencodingdetector.cpp:1247
+msgctxt "@item Text character set"
+msgid "Unicode"
+msgstr "Unîcode"
+
+#: kdecore/localization/kencodingprober.cpp:240
+#: kdecore/localization/kencodingprober.cpp:286
+#: kdecore/localization/kcharsets.cpp:173
+#: kdecore/localization/kencodingdetector.cpp:1147
+#: kdecore/localization/kencodingdetector.cpp:1217
+msgctxt "@item Text character set"
+msgid "Cyrillic"
+msgstr "Kîrîlî"
+
+#: kdecore/localization/kencodingprober.cpp:242
+#: kdecore/localization/kencodingprober.cpp:301
+#: kdecore/localization/kcharsets.cpp:155
+#: kdecore/localization/kencodingdetector.cpp:1149
+#: kdecore/localization/kencodingdetector.cpp:1232
+msgctxt "@item Text character set"
+msgid "Western European"
+msgstr "Ewropayî Rojava"
+
+#: kdecore/localization/kencodingprober.cpp:244
+#: kdecore/localization/kencodingprober.cpp:283
+#: kdecore/localization/kcharsets.cpp:161
+#: kdecore/localization/kencodingdetector.cpp:1151
+#: kdecore/localization/kencodingdetector.cpp:1214
+msgctxt "@item Text character set"
+msgid "Central European"
+msgstr "Ewropayî Navîn"
+
+#: kdecore/localization/kencodingprober.cpp:246
+#: kdecore/localization/kencodingprober.cpp:289
+#: kdecore/localization/kcharsets.cpp:192
+#: kdecore/localization/kencodingdetector.cpp:1153
+#: kdecore/localization/kencodingdetector.cpp:1220
+msgctxt "@item Text character set"
+msgid "Greek"
+msgstr "Yewnanî"
+
+#: kdecore/localization/kencodingprober.cpp:248
+#: kdecore/localization/kencodingprober.cpp:292
+#: kdecore/localization/kcharsets.cpp:198
+#: kdecore/localization/kencodingdetector.cpp:1155
+#: kdecore/localization/kencodingdetector.cpp:1223
+msgctxt "@item Text character set"
+msgid "Hebrew"
+msgstr "Îbranî"
+
+#: kdecore/localization/kencodingprober.cpp:250
+#: kdecore/localization/kencodingprober.cpp:298
+#: kdecore/localization/kcharsets.cpp:170
+#: kdecore/localization/kencodingdetector.cpp:1157
+#: kdecore/localization/kencodingdetector.cpp:1229
+msgctxt "@item Text character set"
+msgid "Turkish"
+msgstr "Tirkî"
+
+#: kdecore/localization/kencodingprober.cpp:252
+#: kdecore/localization/kencodingprober.cpp:295
+#: kdecore/localization/kcharsets.cpp:188
+#: kdecore/localization/kencodingdetector.cpp:1159
+#: kdecore/localization/kencodingdetector.cpp:1226
+msgctxt "@item Text character set"
+msgid "Japanese"
+msgstr "Japonî"
+
+#: kdecore/localization/kencodingprober.cpp:254
+#: kdecore/localization/kencodingprober.cpp:280
+#: kdecore/localization/kcharsets.cpp:164
+#: kdecore/localization/kencodingdetector.cpp:1161
+#: kdecore/localization/kencodingdetector.cpp:1211
+msgctxt "@item Text character set"
+msgid "Baltic"
+msgstr "Baltîkî"
+
+#: kdecore/localization/kencodingprober.cpp:256
+#: kdecore/localization/kencodingprober.cpp:304
+#: kdecore/localization/kcharsets.cpp:179
+#: kdecore/localization/kencodingdetector.cpp:1235
+msgctxt "@item Text character set"
+msgid "Chinese Traditional"
+msgstr "Çîniya Kevneşopî"
+
+#: kdecore/localization/kencodingprober.cpp:258
+#: kdecore/localization/kencodingprober.cpp:307
+#: kdecore/localization/kcharsets.cpp:182
+#: kdecore/localization/kencodingdetector.cpp:1238
+msgctxt "@item Text character set"
+msgid "Chinese Simplified"
+msgstr "Çîniya Hêsankirî"
+
+#: kdecore/localization/kencodingprober.cpp:260
+#: kdecore/localization/kencodingprober.cpp:277
+#: kdecore/localization/kcharsets.cpp:195
+#: kdecore/localization/kencodingdetector.cpp:1163
+#: kdecore/localization/kencodingdetector.cpp:1208
+msgctxt "@item Text character set"
+msgid "Arabic"
+msgstr "Erebî"
+
+#: kdecore/localization/kencodingprober.cpp:310
+#: kdecore/localization/kcharsets.cpp:186
+#: kdecore/localization/kencodingdetector.cpp:1241
+msgctxt "@item Text character set"
+msgid "Korean"
+msgstr "Koreyî"
+
+#: kdecore/localization/kencodingprober.cpp:313
+#: kdecore/localization/kcharsets.cpp:203
+#: kdecore/localization/kencodingdetector.cpp:1244
+msgctxt "@item Text character set"
+msgid "Thai"
+msgstr "Tayî"
 
 #. i18n: The following messages, with msgctxt "@tag/modifier",
 #. are KUIT patterns for formatting the text found inside semantic tags.
@@ -5795,6 +4967,40 @@ msgctxt "keyboard-key-name"
 msgid "F%1"
 msgstr "F%1"
 
+#: kdecore/localization/kcharsets.cpp:167
+msgctxt "@item Text character set"
+msgid "South-Eastern Europe"
+msgstr "Ewrûpaya Başûrê Rojhilat"
+
+#: kdecore/localization/kcharsets.cpp:212
+msgctxt "@item Text character set"
+msgid "Northern Saami"
+msgstr "Samiya Bakur"
+
+#: kdecore/localization/kcharsets.cpp:214
+#: kdecore/localization/kcharsets.cpp:651
+msgctxt "@item Text character set"
+msgid "Other"
+msgstr "Yên Din"
+
+#: kdecore/localization/kcharsets.cpp:660
+#, kde-format
+msgctxt "@item %1 character set, %2 encoding"
+msgid "%1 ( %2 )"
+msgstr "%1 ( %2 )"
+
+#: kdecore/localization/kcharsets.cpp:663
+#, kde-format
+msgctxt "@item"
+msgid "Other encoding (%1)"
+msgstr "Kodkirineke din (%1)"
+
+#: kdecore/localization/kcharsets.cpp:689
+#, kde-format
+msgctxt "@item Text encoding: %1 character set, %2 encoding"
+msgid "%1 ( %2 )"
+msgstr "%1 ( %2 )"
+
 #: kdecore/network/netsupp.cpp:891 kdecore/network/k3resolver.cpp:545
 msgid "no error"
 msgstr "bê çewtî"
@@ -6010,6 +5216,11 @@ msgctxt "Socket error code RemotelyDisconnected"
 msgid "remote host closed connection"
 msgstr "makîneya dûr girêdan qut kir"
 
+#: kdecore/network/ksocketfactory.cpp:90
+#: kdecore/network/ksocketfactory.cpp:104
+msgid "Timed out trying to connect to remote host"
+msgstr "demê têra girêdana makîneya dûr nekir"
+
 #: kdecore/network/klocalsocket_win.cpp:31
 #: kdecore/network/klocalsocket_win.cpp:36
 #, fuzzy
@@ -6017,11 +5228,6 @@ msgstr "makîneya dûr girêdan qut kir"
 #| msgid "operation is not supported"
 msgid "Operation not supported"
 msgstr "kar nayê destekirin"
-
-#: kdecore/network/ksocketfactory.cpp:90
-#: kdecore/network/ksocketfactory.cpp:104
-msgid "Timed out trying to connect to remote host"
-msgstr "demê têra girêdana makîneya dûr nekir"
 
 #: kdecore/network/k3socketaddress.cpp:623
 #, kde-format
@@ -6152,14 +5358,14 @@ msgstr ""
 msgid "DBus Backend error: received corrupt data from helper %1 %2"
 msgstr ""
 
-#: kdecore/config/kconfig.cpp:688
-msgid "Please contact your system administrator."
-msgstr "Ji kerema xwe re bi gerînendeyê pergalê têkeve têkiliyê."
-
 #: kdecore/config/kconfigini.cpp:518
 #, kde-format
 msgid "Configuration file \"%1\" not writable.\n"
 msgstr "Pelê mîhengê \"%1\" nayê nivîsîn.\n"
+
+#: kdecore/config/kconfig.cpp:688
+msgid "Please contact your system administrator."
+msgstr "Ji kerema xwe re bi gerînendeyê pergalê têkeve têkiliyê."
 
 #: kdecore/sonnet/loader.cpp:154
 msgctxt "dictionary variant"
@@ -6364,6 +5570,800 @@ msgstr "Pirtûkxaneya %1 hilberînereke ahengî KDE 4ê nahundirîne."
 msgid "The plugin '%1' uses an incompatible KDE library (%2)."
 msgstr "Pêveka '%1' pirtûkxaneyeke KDE ya neahengî (%2) bi kar tîne."
 
+#: knewstuff/knewstuff3/uploaddialog.cpp:108
+msgid "Fetching license data from server..."
+msgstr ""
+
+#: knewstuff/knewstuff3/uploaddialog.cpp:115
+msgid "Fetching content data from server..."
+msgstr ""
+
+#: knewstuff/knewstuff3/uploaddialog.cpp:231
+#, fuzzy
+#| msgid "Check Spelling..."
+msgid "Checking login..."
+msgstr "Rastnivîsê Kontrol Bike..."
+
+#: knewstuff/knewstuff3/uploaddialog.cpp:253
+#, fuzzy
+#| msgid "Loading Preview"
+msgid "Fetching your previously updated content..."
+msgstr "Pêşdîtin Tê Barkirin"
+
+#: knewstuff/knewstuff3/uploaddialog.cpp:256
+#, fuzzy
+#| msgid "Save Login Information"
+msgid "Could not verify login, please try again."
+msgstr "Agahiya Têketinê Tomar Bike"
+
+#: knewstuff/knewstuff3/uploaddialog.cpp:275
+msgid "Fetching your previously updated content finished."
+msgstr ""
+
+#: knewstuff/knewstuff3/uploaddialog.cpp:293
+msgid "Fetching content data from server finished."
+msgstr ""
+
+#: knewstuff/knewstuff3/uploaddialog.cpp:316
+#: knewstuff/knewstuff3/uploaddialog.cpp:748
+msgctxt "A link to the website where the get hot new stuff upload can be seen"
+msgid "Visit website"
+msgstr ""
+
+#: knewstuff/knewstuff3/uploaddialog.cpp:368
+#: kdeui/dialogs/kassistantdialog.cpp:94
+msgctxt "Opposite to Back"
+msgid "Next"
+msgstr "Pêşve"
+
+#: knewstuff/knewstuff3/uploaddialog.cpp:370
+#: kdeui/dialogs/kassistantdialog.cpp:95
+msgid "Finish"
+msgstr "Dawî"
+
+#: knewstuff/knewstuff3/uploaddialog.cpp:389
+#: knewstuff/knewstuff2/ui/uploaddialog.cpp:64
+#, fuzzy, kde-format
+#| msgctxt "Program name followed by 'Add On Installer'"
+#| msgid "%1 Add-On Installer"
+msgctxt "Program name followed by 'Add On Uploader'"
+msgid "%1 Add-On Uploader"
+msgstr "Sazkara Pêveka %1"
+
+#: knewstuff/knewstuff3/uploaddialog.cpp:445
+#: knewstuff/knewstuff3/uploaddialog.cpp:674
+#, fuzzy, kde-format
+#| msgid "File %1 not found."
+msgid "File not found: %1"
+msgstr "Pelê %1 nehate dîtin."
+
+#: knewstuff/knewstuff3/uploaddialog.cpp:445
+#: knewstuff/knewstuff3/uploaddialog.cpp:549
+#: knewstuff/knewstuff3/uploaddialog.cpp:674
+#, fuzzy
+#| msgid "Download"
+msgid "Upload Failed"
+msgstr "Daxîne"
+
+#: knewstuff/knewstuff3/uploaddialog.cpp:503
+#, kde-format
+msgid ""
+"The server does not recognize the category %2 to which you are trying to "
+"upload."
+msgid_plural ""
+"The server does not recognize any of the categories to which you are trying "
+"to upload: %2"
+msgstr[0] ""
+msgstr[1] ""
+
+#: knewstuff/knewstuff3/uploaddialog.cpp:506
+#: khtml/rendering/render_form.cpp:811 kjs/object.cpp:548
+#: kdeui/dialogs/kmessagebox.cpp:834 kdeui/dialogs/kmessagebox.cpp:864
+msgid "Error"
+msgstr "Çewtî"
+
+#: knewstuff/knewstuff3/uploaddialog.cpp:549
+#, kde-format
+msgid "The selected category \"%1\" is invalid."
+msgstr ""
+
+#: knewstuff/knewstuff3/uploaddialog.cpp:597
+#: knewstuff/knewstuff3/uploaddialog.cpp:606
+#: knewstuff/knewstuff3/uploaddialog.cpp:614
+#, fuzzy
+#| msgid "Select Region of Image"
+msgid "Select preview image"
+msgstr "Qadeke Wêne Hilbijêre"
+
+#: knewstuff/knewstuff3/uploaddialog.cpp:624
+msgid "There was a network error."
+msgstr ""
+
+#: knewstuff/knewstuff3/uploaddialog.cpp:624
+#: knewstuff/knewstuff3/uploaddialog.cpp:629
+#, fuzzy
+#| msgid "Download"
+msgid "Uploading Failed"
+msgstr "Daxîne"
+
+#: knewstuff/knewstuff3/uploaddialog.cpp:629
+#, fuzzy
+#| msgid "Communication error"
+msgid "Authentication error."
+msgstr "Çewtiya ragihandinê"
+
+#: knewstuff/knewstuff3/uploaddialog.cpp:638
+#, fuzzy, kde-format
+#| msgid "Download"
+msgid "Upload failed: %1"
+msgstr "Daxîne"
+
+#: knewstuff/knewstuff3/knewstuffbutton.cpp:48
+#: knewstuff/knewstuff2/ui/knewstuffbutton.cpp:49
+#, fuzzy
+#| msgid "Download New Stuff"
+msgid "Download New Stuff..."
+msgstr "Taybetiyên Nû Daxe"
+
+#: knewstuff/knewstuff3/downloadwidget.cpp:113
+#: knewstuff/knewstuff2/ui/downloaddialog.cpp:312
+#, fuzzy
+#| msgid "Timeout. Check Internet connection!"
+msgid "Timeout. Check Internet connection."
+msgstr "Dem têrê nekir. Girêdana înternetê kontrol bike!"
+
+#: knewstuff/knewstuff3/downloadwidget.cpp:171
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:252
+#: knewstuff/knewstuff2/ui/downloaddialog.cpp:503
+#, kde-format
+msgid "Server: %1"
+msgstr "Pêşkêşker: %1"
+
+#: knewstuff/knewstuff3/downloadwidget.cpp:172
+#: knewstuff/knewstuff2/ui/downloaddialog.cpp:504
+#, kde-format
+msgid "<br />Provider: %1"
+msgstr "<br />Belavkar: %1"
+
+#: knewstuff/knewstuff3/downloadwidget.cpp:173
+#: knewstuff/knewstuff2/ui/downloaddialog.cpp:505
+#, kde-format
+msgid "<br />Version: %1"
+msgstr "<br />Guherto: %1"
+
+#: knewstuff/knewstuff3/downloadwidget.cpp:177
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:82
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:258
+#: knewstuff/knewstuff2/ui/downloaddialog.cpp:509
+msgid "Provider information"
+msgstr "Agahiya Belavkarê"
+
+#: knewstuff/knewstuff3/downloadwidget.cpp:188
+#: knewstuff/knewstuff2/ui/downloaddialog.cpp:535
+#, kde-format
+msgid "Could not install %1"
+msgstr "Sazkirina '%1' biserneket"
+
+#: knewstuff/knewstuff3/downloadwidget.cpp:189
+#: knewstuff/knewstuff2/ui/downloaddialog.cpp:536
+msgid "Get Hot New Stuff!"
+msgstr "Tiştên Nûtirîn Bîne!"
+
+#: knewstuff/knewstuff3/downloadwidget.cpp:199
+#: knewstuff/knewstuff3/downloaddialog.cpp:81
+#: knewstuff/knewstuff2/ui/downloaddialog.cpp:127
+#: knewstuff/knewstuff2/ui/downloaddialog.cpp:555
+msgid "Get Hot New Stuff"
+msgstr "Tiştên Nûtirîn Bîne"
+
+#: knewstuff/knewstuff3/downloadwidget.cpp:241
+msgid "Icons view mode"
+msgstr ""
+
+#: knewstuff/knewstuff3/downloadwidget.cpp:243
+#, fuzzy
+#| msgid "Detailed View"
+msgid "Details view mode"
+msgstr "Kitekit"
+
+#: knewstuff/knewstuff3/downloadwidget.cpp:258
+#, fuzzy
+#| msgid "*|All Folders"
+msgid "All Providers"
+msgstr "*|Hemû Peldank"
+
+#: knewstuff/knewstuff3/downloadwidget.cpp:265
+#, fuzzy
+#| msgid "Pages"
+msgid "All Categories"
+msgstr "Rûpel"
+
+#: knewstuff/knewstuff3/downloaddialog.cpp:88
+#: knewstuff/knewstuff2/ui/downloaddialog.cpp:129
+#, kde-format
+msgctxt "Program name followed by 'Add On Installer'"
+msgid "%1 Add-On Installer"
+msgstr "Sazkara Pêveka %1"
+
+#: knewstuff/knewstuff3/core/installation.cpp:157
+#, fuzzy
+#| msgid "Invalid Filenames"
+msgid "Invalid item."
+msgstr "Navên Pelan ên nederbasdar"
+
+#: knewstuff/knewstuff3/core/installation.cpp:164
+#, kde-format
+msgid "Download of item failed: no download URL for \"%1\"."
+msgstr ""
+
+#: knewstuff/knewstuff3/core/installation.cpp:200
+#, kde-format
+msgid "Download of \"%1\" failed, error: %2"
+msgstr ""
+
+#: knewstuff/knewstuff3/core/installation.cpp:208
+msgid ""
+"The downloaded file is a html file. This indicates a link to a website "
+"instead of the actual download. Would you like to open the site with a "
+"browser instead?"
+msgstr ""
+
+#: knewstuff/knewstuff3/core/installation.cpp:208
+#, fuzzy
+#| msgid "Could not create temporary file."
+msgid "Possibly bad download link"
+msgstr "Pelê demdemî nayê çêkirin."
+
+#: knewstuff/knewstuff3/core/installation.cpp:211
+msgid "Downloaded file was a HTML file. Opened in browser."
+msgstr ""
+
+#: knewstuff/knewstuff3/core/installation.cpp:276
+#, fuzzy, kde-format
+#| msgid "Could not install %1"
+msgid "Could not install \"%1\": file not found."
+msgstr "Sazkirina '%1' biserneket"
+
+#: knewstuff/knewstuff3/core/installation.cpp:474
+#, fuzzy
+#| msgid "Overwrite File?"
+msgid "Overwrite existing file?"
+msgstr "Bila Li Ser Pelî Were Nivîsandin?"
+
+#: knewstuff/knewstuff3/core/installation.cpp:474
+#, fuzzy
+#| msgid "Download"
+msgid "Download File:"
+msgstr "Daxîne"
+
+#: knewstuff/knewstuff3/core/engine.cpp:99
+#, fuzzy
+#| msgid "Install"
+msgid "Initializing"
+msgstr "Saz Bike"
+
+#: knewstuff/knewstuff3/core/engine.cpp:103
+#: knewstuff/knewstuff3/core/engine.cpp:112
+#, fuzzy, kde-format
+#| msgid "Configuration files"
+msgid "Configuration file not found: \"%1\""
+msgstr "Pelên Veavakirinan"
+
+#: knewstuff/knewstuff3/core/engine.cpp:125
+#, fuzzy, kde-format
+#| msgid "Configuration files"
+msgid "Configuration file is invalid: \"%1\""
+msgstr "Pelên Veavakirinan"
+
+#: knewstuff/knewstuff3/core/engine.cpp:174
+#, fuzzy
+#| msgid "View Frame Information"
+msgid "Loading provider information"
+msgstr "Agahiya Çarçoveyê Nîşan Bide"
+
+#: knewstuff/knewstuff3/core/engine.cpp:197
+#, kde-format
+msgid "Could not load get hot new stuff providers from file: %1"
+msgstr ""
+
+#: knewstuff/knewstuff3/core/engine.cpp:215
+msgid "Error initializing provider."
+msgstr ""
+
+#: knewstuff/knewstuff3/core/engine.cpp:219
+#: knewstuff/knewstuff3/core/engine.cpp:499
+#, fuzzy
+#| msgid "Loading Applet"
+msgid "Loading data"
+msgstr "Daxistina sepanokê"
+
+#: knewstuff/knewstuff3/core/engine.cpp:247
+msgid "Loading data from provider"
+msgstr ""
+
+#: knewstuff/knewstuff3/core/engine.cpp:252
+#, kde-format
+msgid "Loading of providers from file: %1 failed"
+msgstr ""
+
+#: knewstuff/knewstuff3/core/engine.cpp:461
+#: knewstuff/knewstuff2/ui/downloaddialog.cpp:195
+#, kde-format
+msgid "Re: %1"
+msgstr "Bersiv:%1"
+
+#: knewstuff/knewstuff3/core/engine.cpp:501
+#, fuzzy, kde-format
+#| msgid "Loading Preview"
+msgid "Loading one preview"
+msgid_plural "Loading %1 previews"
+msgstr[0] "Pêşdîtin Tê Barkirin"
+msgstr[1] "Pêşdîtin Tê Barkirin"
+
+#: knewstuff/knewstuff3/core/engine.cpp:503
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:133
+#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:342
+#, fuzzy
+#| msgid "Install"
+msgid "Installing"
+msgstr "Saz Bike"
+
+#: knewstuff/knewstuff3/core/security.cpp:75
+#: knewstuff/knewstuff2/core/security.cpp:75
+msgid ""
+"<qt>Cannot start <i>gpg</i> and retrieve the available keys. Make sure that "
+"<i>gpg</i> is installed, otherwise verification of downloaded resources will "
+"not be possible.</qt>"
+msgstr ""
+"<qt>Bi destpêkirina <i>gpg</i> mifteyên pêwist nayên daxistin. Bawer bî ku "
+"<i>gpg</i> hatiye sazkirin û ne gengaz e ku çavkaniyên ku hatine daxistin "
+"werine piştrastkirin.</qt>"
+
+#: knewstuff/knewstuff3/core/security.cpp:197
+#: knewstuff/knewstuff2/core/security.cpp:197
+#, kde-format
+msgid ""
+"<qt>Enter passphrase for key <b>0x%1</b>, belonging to<br /><i>%2&lt;%3&gt;</"
+"i><br />:</qt>"
+msgstr ""
+"<qt>Şîfreya mifteya <b>0x%1</b> û ya şexsê <br /><i>%2&lt;%3&gt;</i><br />:</"
+"qt>"
+
+#: knewstuff/knewstuff3/core/security.cpp:276
+#: knewstuff/knewstuff2/core/security.cpp:276
+msgid ""
+"<qt>Cannot start <i>gpg</i> and check the validity of the file. Make sure "
+"that <i>gpg</i> is installed, otherwise verification of downloaded resources "
+"will not be possible.</qt>"
+msgstr ""
+"<qt>Bi destpêkirina <i>gpg</i> rastiya pelî nayê kontrolkirin. Bawer bî ku "
+"<i>gpg</i> hatiye sazkirin û ne gengaz e ku çavkaniyên ku hatine daxistin "
+"werine piştrastkirin.</qt>"
+
+#: knewstuff/knewstuff3/core/security.cpp:331
+#: knewstuff/knewstuff2/core/security.cpp:331
+msgid "Select Signing Key"
+msgstr "Mifteyekê hilbijêre"
+
+#: knewstuff/knewstuff3/core/security.cpp:331
+#: knewstuff/knewstuff2/core/security.cpp:331
+msgid "Key used for signing:"
+msgstr "Mifteya ji bo mohrkirinê tê bikaranîn:"
+
+#: knewstuff/knewstuff3/core/security.cpp:363
+#: knewstuff/knewstuff2/core/security.cpp:363
+msgid ""
+"<qt>Cannot start <i>gpg</i> and sign the file. Make sure that <i>gpg</i> is "
+"installed, otherwise signing of the resources will not be possible.</qt>"
+msgstr ""
+"<qt><i>gpg</i> nayê destpêkirin û mifteyên pêwist nayê daxistin. Baweriya "
+"xwe pê bîne ku <i>gpg</i> hatiye sazkirin, yan na ne gengaz e ku mirov "
+"karibe rastiya wan çavkaniyan kontrol bike.</qt>"
+
+#: knewstuff/knewstuff3/attica/atticaprovider.cpp:288
+#, kde-format
+msgctxt ""
+"the price of a download item, parameter 1 is the currency, 2 is the price"
+msgid ""
+"This items costs %1 %2.\n"
+"Do you want to buy it?"
+msgstr ""
+
+#: knewstuff/knewstuff3/attica/atticaprovider.cpp:302
+#, kde-format
+msgid ""
+"Your account balance is too low:\n"
+"Your balance: %1\n"
+"Price: %2"
+msgstr ""
+
+#: knewstuff/knewstuff3/attica/atticaprovider.cpp:341
+#, fuzzy
+#| msgid "No text was replaced."
+msgctxt "voting for an item (good/bad)"
+msgid "Your vote was recorded."
+msgstr "Qet karê guherandinê nehate kirin."
+
+#: knewstuff/knewstuff3/attica/atticaprovider.cpp:355
+msgid "You are now a fan."
+msgstr ""
+
+#: knewstuff/knewstuff3/attica/atticaprovider.cpp:366
+#, kde-format
+msgid "Network error. (%1)"
+msgstr ""
+
+#: knewstuff/knewstuff3/attica/atticaprovider.cpp:370
+msgid "Too many requests to server. Please try again in a few minutes."
+msgstr ""
+
+#: knewstuff/knewstuff3/attica/atticaprovider.cpp:372
+#, kde-format
+msgid "Unknown Open Collaboration Service API error. (%1)"
+msgstr ""
+
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:138
+#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:347
+#, fuzzy
+#| msgid "Update"
+msgid "Updating"
+msgstr "Rojanekirin"
+
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:148
+#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:357
+#, fuzzy
+#| msgid "Install"
+msgid "Install Again"
+msgstr "Saz Bike"
+
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:174
+#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:282
+#: kdeui/dialogs/kmessagebox.cpp:271
+msgid "Details"
+msgstr "Kitekit"
+
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:223
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:225
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:227
+#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:158
+#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:160
+#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:162
+#, fuzzy, kde-format
+#| msgctxt "@interface/rich"
+#| msgid "<i>%1</i>"
+msgctxt "Show the author of this item in a list"
+msgid "By <i>%1</i>"
+msgstr "<i>%1</i>"
+
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:241
+#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:185
+#, kde-format
+msgid "1 fan"
+msgid_plural "%1 fans"
+msgstr[0] ""
+msgstr[1] ""
+
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:244
+#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:188
+#, fuzzy, kde-format
+#| msgid "Download"
+msgid "1 download"
+msgid_plural "%1 downloads"
+msgstr[0] "Daxîne"
+msgstr[1] "Daxîne"
+
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:263
+#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:107
+#, fuzzy, kde-format
+#| msgid "Rating: "
+msgid "Rating: %1%"
+msgstr "Nirxandin:"
+
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:314
+#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:255
+#: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:264
+msgid "Loading Preview"
+msgstr "Pêşdîtin Tê Barkirin"
+
+#: knewstuff/knewstuff3/ui/entrydetailsdialog.cpp:94
+#, fuzzy, kde-format
+#| msgid "Suggestions"
+msgid "Details for %1"
+msgstr "Pêşniyaz"
+
+#: knewstuff/knewstuff3/ui/entrydetailsdialog.cpp:114
+#, fuzzy
+#| msgid "Homepage"
+msgctxt "A link to the description of this Get Hot New Stuff item"
+msgid "Homepage"
+msgstr "Serûpel"
+
+#: knewstuff/knewstuff3/ui/entrydetailsdialog.cpp:117
+#, fuzzy
+#| msgid "HTML documentation"
+msgctxt ""
+"A link to make a donation for a Get Hot New Stuff item (opens a web browser)"
+msgid "Make a donation"
+msgstr "Belgekirina HTML"
+
+#: knewstuff/knewstuff3/ui/entrydetailsdialog.cpp:121
+#, kde-format
+msgctxt "A link to the knowledgebase (like a forum) (opens a web browser)"
+msgid "Knowledgebase (no entries)"
+msgid_plural "Knowledgebase (%1 entries)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: knewstuff/knewstuff3/ui/entrydetailsdialog.cpp:124
+#, fuzzy
+#| msgid "Open in New &Window"
+msgctxt "Tooltip for a link in a dialog"
+msgid "Opens in a browser window"
+msgstr "Di &Paceyeke Nû de Veke"
+
+#: knewstuff/knewstuff2/core/coreengine.cpp:428
+#, fuzzy, kde-format
+#| msgid "Rating: "
+msgid "loading %1"
+msgstr "Nirxandin:"
+
+#: knewstuff/knewstuff2/core/providerhandler.cpp:154
+#: knewstuff/knewstuff2/core/providerhandler.cpp:174
+msgctxt "describes the feed of the latest posted entries"
+msgid "Latest"
+msgstr "Herî Dawî"
+
+#: knewstuff/knewstuff2/core/providerhandler.cpp:160
+msgid "Highest Rated"
+msgstr "Yên herî zêde têne ecibandin"
+
+#: knewstuff/knewstuff2/core/providerhandler.cpp:166
+msgid "Most Downloads"
+msgstr "Yên Herî Zêde Hatine Daxistin"
+
+#: knewstuff/knewstuff2/ui/kdxschanges.cpp:31
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:70
+msgid "Changelog"
+msgstr "Girteya Guhartinan"
+
+#: knewstuff/knewstuff2/ui/kdxschanges.cpp:53
+#, kde-format
+msgid "Version %1"
+msgstr "Guhertoya %1"
+
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:68
+msgid "Comments"
+msgstr "Şirove"
+
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:73
+msgid "Switch version"
+msgstr "Guhertoyê biguherîne"
+
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:86
+msgid "Contact author"
+msgstr "Ji nivîskarê re binivîse"
+
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:89
+msgid "Collaboration"
+msgstr "Hevkarî"
+
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:91
+#: knewstuff/knewstuff2/ui/downloaddialog.cpp:136
+msgid "Add Rating"
+msgstr "Nirxandin lê zêde bike"
+
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:92
+#: knewstuff/knewstuff2/ui/downloaddialog.cpp:139
+msgid "Add Comment"
+msgstr "Şirove lê zêde bike"
+
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:93
+msgid "Translate"
+msgstr "Wergerandin"
+
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:94
+msgid "Subscribe"
+msgstr "Abonebûn"
+
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:95
+msgid "Report bad entry"
+msgstr "Ser Ketaneke xerab agahî bide"
+
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:158
+msgid "Send Mail"
+msgstr "Epeyamekê Bişîne"
+
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:162
+msgid "Contact on Jabber"
+msgstr "Di Jabber de binivîse"
+
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:253
+#, kde-format
+msgid "Provider: %1"
+msgstr "Belavkar: %1"
+
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:254
+#, kde-format
+msgid "Version: %1"
+msgstr "Guherto: %1"
+
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:328
+msgid "The removal request was successfully registered."
+msgstr "Tomarkirina daxwaza rakirinê bi ser ket."
+
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:329
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:333
+msgid "Removal of entry"
+msgstr "Rakirina Ketanê"
+
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:332
+msgid "The removal request failed."
+msgstr "Daxwaza rakirinê bi ser neket."
+
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:341
+msgid "The subscription was successfully completed."
+msgstr "Tevlêbûn bi serkeftî qediya."
+
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:342
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:346
+msgid "Subscription to entry"
+msgstr "Tevlêbûna ji bo ketanê"
+
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:345
+msgid "The subscription request failed."
+msgstr "Daxwaza tevlêbûnê bi ser neket."
+
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:354
+msgid "The rating was submitted successfully."
+msgstr "Şandina dengdanê bi ser ket."
+
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:355
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:359
+msgid "Rating for entry"
+msgstr "Dengana ketanê"
+
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:358
+msgid "The rating could not be submitted."
+msgstr "Dengdan nehat şandin."
+
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:367
+msgid "The comment was submitted successfully."
+msgstr "Şandina şîroveyê bi ser ket."
+
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:368
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:372
+msgid "Comment on entry"
+msgstr "Şirove der barê ketanê de"
+
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:371
+msgid "The comment could not be submitted."
+msgstr "Şîrove nehat şandin."
+
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:379
+#: knewstuff/knewstuff2/ui/downloaddialog.cpp:585
+msgid "A protocol fault has occurred. The request has failed."
+msgstr "Çewtiyeke protokolê derket. Daxwaz bi ser neket."
+
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:380
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:387
+#: knewstuff/knewstuff2/ui/downloaddialog.cpp:586
+#: knewstuff/knewstuff2/ui/downloaddialog.cpp:593
+msgid "Desktop Exchange Service"
+msgstr "Servîsa Guherandina Sermaseyê"
+
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:386
+#: knewstuff/knewstuff2/ui/downloaddialog.cpp:592
+msgid "A network error has occurred. The request has failed."
+msgstr "Çewtiyeke torê derket. Daxwaz bi ser neket."
+
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:420
+msgid "KNewStuff contributions"
+msgstr "Piştgiriyên KNewStuff"
+
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:516
+msgid "This operation requires authentication."
+msgstr "Erêkirina çalakiyê divê."
+
+#: knewstuff/knewstuff2/ui/itemsview.cpp:306
+msgid "Rating: "
+msgstr "Nirxandin:"
+
+#: knewstuff/knewstuff2/ui/itemsview.cpp:311
+msgid "Downloads: "
+msgstr "Daxîstin:"
+
+#: knewstuff/knewstuff2/ui/kdxsrating.cpp:33
+msgid "Rate this entry"
+msgstr "Vê ketanê binirxîne"
+
+#: knewstuff/knewstuff2/ui/kdxscomments.cpp:32
+msgid "User comments"
+msgstr "Şiroveyên bikarhêneran"
+
+#: knewstuff/knewstuff2/ui/kdxstranslation.cpp:33
+msgid "Translate this entry"
+msgstr "Vê ketanê wergerîne"
+
+#: knewstuff/knewstuff2/ui/kdxstranslation.cpp:46
+#: knewstuff/knewstuff2/ui/providerdialog.cpp:68 dnssd/servicemodel.cpp:101
+msgid "Name"
+msgstr "Nav"
+
+#: knewstuff/knewstuff2/ui/kdxstranslation.cpp:47
+#: kdeui/dialogs/kshortcutseditor.cpp:667
+msgid "Description"
+msgstr "Danezanî"
+
+#: knewstuff/knewstuff2/ui/kdxstranslation.cpp:48
+msgid "Payload"
+msgstr "Kapasîte"
+
+#: knewstuff/knewstuff2/ui/uploaddialog.cpp:91
+msgid "Please put in a name."
+msgstr "Ji kerema xwe re navekî têkevinê."
+
+#: knewstuff/knewstuff2/ui/uploaddialog.cpp:159
+msgid "Old upload information found, fill out fields?"
+msgstr "Agahiyên şandinê yên kevn hate dîtin, tu dixwazî qadan tije bike?"
+
+#: knewstuff/knewstuff2/ui/uploaddialog.cpp:161
+msgid "Fill Out"
+msgstr "Tije Bike"
+
+#: knewstuff/knewstuff2/ui/uploaddialog.cpp:162
+msgid "Do Not Fill Out"
+msgstr "Tije Neke"
+
+#: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:150
+#, fuzzy
+#| msgid "No Downloads"
+msgid "<p>No Downloads</p>"
+msgstr "Daxistin Tune"
+
+#: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:150
+#, fuzzy, kde-format
+#| msgid "Downloads: %1"
+msgid "<p>Downloads: %1</p>\n"
+msgstr "Daxîstin: %1"
+
+#: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:219
+#, fuzzy, kde-format
+#| msgid "Rating: "
+msgid "Rating: %1"
+msgstr "Nirxandin:"
+
+#: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:254
+msgid "No Preview"
+msgstr "Pêşdîtin Tune"
+
+#: knewstuff/knewstuff2/ui/providerdialog.cpp:54
+msgid "Hot New Stuff Providers"
+msgstr "Belavkarên Tişten Nûtirîn"
+
+#: knewstuff/knewstuff2/ui/providerdialog.cpp:64
+msgid "Please select one of the providers listed below:"
+msgstr "Ji kerema xwe re temînkerên ku li jêr hatine rêzkirin yekê hilbijêrin:"
+
+#: knewstuff/knewstuff2/ui/providerdialog.cpp:95
+msgid "No provider selected."
+msgstr "Peydakera ku hatiye hilbijartin tuneye."
+
+#: knewstuff/knewstuff2/ui/downloaddialog.cpp:142
+msgid "View Comments"
+msgstr "Şiroveyan Temaşe Bike"
+
+#: knewstuff/knewstuff2/ui/downloaddialog.cpp:405
+msgid "Entries failed to load"
+msgstr ""
+
+#: knewstuff/knewstuff2/ui/downloaddialog.cpp:554
+msgid "There was an error loading data providers."
+msgstr "Dema belavkarên daneyan hatine barkirin çewtî çêbû."
+
+#: knewstuff/knewstuff2/ui/kdxscomment.cpp:29
+msgid "Leave a comment"
+msgstr "Şîroveyekê binivîse"
+
 #: khtml/khtmlview.cpp:1886
 msgid "Find stopped."
 msgstr "Karê dîtinê hate rawestandin."
@@ -6400,7 +6400,7 @@ msgstr "Nivîs nehate dîtin.: \"%1\"."
 msgid "Access Keys activated"
 msgstr "Bişkokên Gihiştînê Hatine Çalakkirin"
 
-#: khtml/khtmlview.cpp:2953 khtml/khtmlview.cpp:2995 khtml/khtml_part.cpp:4753
+#: khtml/khtmlview.cpp:2953 khtml/khtmlview.cpp:2995 khtml/khtml_part.cpp:4758
 #: khtml/html/html_formimpl.cpp:1606 khtml/html/html_formimpl.cpp:1818
 msgid "Submit"
 msgstr "Şandin"
@@ -6434,8 +6434,8 @@ msgstr "Nepejirîne"
 msgid "Filter error"
 msgstr "Çewtiya parzûnê"
 
-#: khtml/khtml_run.cpp:104 khtml/khtml_part.cpp:3701 khtml/khtml_part.cpp:3930
-#: khtml/khtml_part.cpp:4348 kparts/browserrun.cpp:415
+#: khtml/khtml_run.cpp:104 khtml/khtml_part.cpp:3706 khtml/khtml_part.cpp:3935
+#: khtml/khtml_part.cpp:4353 kparts/browserrun.cpp:415
 msgid "Save As"
 msgstr "Cuda tomar bike"
 
@@ -6515,6 +6515,30 @@ msgstr "Wêneyan çap bike"
 msgid "Print header"
 msgstr "Sernavê Danivîsînê"
 
+#: khtml/khtmlimage.cpp:197
+#, kde-format
+msgid "%1 (%2 - %3x%4 Pixels)"
+msgstr "%1 (%2 - %3x%4 Tipik)"
+
+#: khtml/khtmlimage.cpp:199
+#, kde-format
+msgid "%1 - %2x%3 Pixels"
+msgstr "%1 - %2x%3 Tipik"
+
+#: khtml/khtmlimage.cpp:204
+#, kde-format
+msgid "%1 (%2x%3 Pixels)"
+msgstr "%1 (%2x%3 Tipik)"
+
+#: khtml/khtmlimage.cpp:206
+#, kde-format
+msgid "Image - %1x%2 Pixels"
+msgstr "Wêne- %1x%2 Tipik"
+
+#: khtml/khtmlimage.cpp:212
+msgid "Done."
+msgstr "Qediya."
+
 #: khtml/test_regression.cpp:619
 msgid "Directory containing tests, basedir and output directories."
 msgstr ""
@@ -6570,30 +6594,6 @@ msgstr ""
 #: khtml/test_regression.cpp:639
 msgid "Regression tester for khtml"
 msgstr ""
-
-#: khtml/khtmlimage.cpp:197
-#, kde-format
-msgid "%1 (%2 - %3x%4 Pixels)"
-msgstr "%1 (%2 - %3x%4 Tipik)"
-
-#: khtml/khtmlimage.cpp:199
-#, kde-format
-msgid "%1 - %2x%3 Pixels"
-msgstr "%1 - %2x%3 Tipik"
-
-#: khtml/khtmlimage.cpp:204
-#, kde-format
-msgid "%1 (%2x%3 Pixels)"
-msgstr "%1 (%2x%3 Tipik)"
-
-#: khtml/khtmlimage.cpp:206
-#, kde-format
-msgid "Image - %1x%2 Pixels"
-msgstr "Wêne- %1x%2 Tipik"
-
-#: khtml/khtmlimage.cpp:212
-msgid "Done."
-msgstr "Qediya."
 
 #: khtml/khtml_ext.cpp:417
 msgid "&Copy Text"
@@ -6756,13 +6756,6 @@ msgstr "Mezinahiya Curetîpê Pêşdanasînî (% 100)"
 msgid "%1%"
 msgstr "%1%"
 
-#: khtml/khtmladaptorpart.cpp:29
-#, fuzzy
-#| msgctxt "@item font size"
-#| msgid "Relative"
-msgid "Inactive"
-msgstr "Rêjeyî"
-
 #: khtml/khtml_part.cpp:261
 msgid "View Do&cument Source"
 msgstr "Çavkaniya &Belgeyê Nîşan Bide"
@@ -6775,7 +6768,7 @@ msgstr "Agahiya Belgeyê Nîşan Bide"
 msgid "Save &Background Image As..."
 msgstr "Wêneyê &Rûerd Cuda Tomar Bike..."
 
-#: khtml/khtml_part.cpp:306 khtml/khtml_part.cpp:4012
+#: khtml/khtml_part.cpp:306 khtml/khtml_part.cpp:4017
 msgid "SSL"
 msgstr "SSL"
 
@@ -6881,112 +6874,112 @@ msgstr ""
 msgid "Toggle Caret Mode"
 msgstr "Derbasî Moda Nîşankerê Sererastkirinan Bibe"
 
-#: khtml/khtml_part.cpp:703
+#: khtml/khtml_part.cpp:708
 #, kde-format
 msgid "The fake user-agent '%1' is in use."
 msgstr "Sîxur-bikarhênerê sixte yê '%1' niha dixebite."
 
-#: khtml/khtml_part.cpp:1200
+#: khtml/khtml_part.cpp:1205
 msgid "This web page contains coding errors."
 msgstr "Di vî rûpelê webê de çewtiyên kodkirinê heye."
 
-#: khtml/khtml_part.cpp:1242
+#: khtml/khtml_part.cpp:1247
 msgid "&Hide Errors"
 msgstr "Çewtiyan &Veşêre"
 
-#: khtml/khtml_part.cpp:1243
+#: khtml/khtml_part.cpp:1248
 msgid "&Disable Error Reporting"
 msgstr "Raporkirina Çewtiyan &Bigire"
 
-#: khtml/khtml_part.cpp:1287
+#: khtml/khtml_part.cpp:1292
 #, kde-format
 msgid "<qt><b>Error</b>: %1: %2</qt>"
 msgstr "<qt><b>Çewtî</b>: %1: %2</qt>"
 
-#: khtml/khtml_part.cpp:1336
+#: khtml/khtml_part.cpp:1341
 #, kde-format
 msgid "<qt><b>Error</b>: node %1: %2</qt>"
 msgstr "<qt><b>Çewtî</b>: girêk %1: %2</qt>"
 
-#: khtml/khtml_part.cpp:1447
+#: khtml/khtml_part.cpp:1452
 msgid "Display Images on Page"
 msgstr "Di Rûpel de Wêneyan Nîşan Bide"
 
-#: khtml/khtml_part.cpp:1814
+#: khtml/khtml_part.cpp:1819
 #, kde-format
 msgid "Error: %1 - %2"
 msgstr "Çewtî: %1: %2"
 
-#: khtml/khtml_part.cpp:1819
+#: khtml/khtml_part.cpp:1824
 msgid "The requested operation could not be completed"
 msgstr "Karê ku dihate xwestin temam nebû"
 
-#: khtml/khtml_part.cpp:1825
+#: khtml/khtml_part.cpp:1830
 msgid "Technical Reason: "
 msgstr "Sedema Teknîkî: "
 
-#: khtml/khtml_part.cpp:1830
+#: khtml/khtml_part.cpp:1835
 msgid "Details of the Request:"
 msgstr "Kîtekîtên Daxwazê:"
 
-#: khtml/khtml_part.cpp:1832
+#: khtml/khtml_part.cpp:1837
 #, kde-format
 msgid "URL: %1"
 msgstr "URL: %1"
 
-#: khtml/khtml_part.cpp:1835
+#: khtml/khtml_part.cpp:1840
 #, kde-format
 msgid "Protocol: %1"
 msgstr "Protokol: %1"
 
-#: khtml/khtml_part.cpp:1838
+#: khtml/khtml_part.cpp:1843
 #, kde-format
 msgid "Date and Time: %1"
 msgstr "Dîrok û Saet: %1"
 
-#: khtml/khtml_part.cpp:1840
+#: khtml/khtml_part.cpp:1845
 #, kde-format
 msgid "Additional Information: %1"
 msgstr "Agahiyên Pêvek: %1"
 
-#: khtml/khtml_part.cpp:1848
+#: khtml/khtml_part.cpp:1853
 msgid "Possible Causes:"
 msgstr "Sedemên Gengaz:"
 
-#: khtml/khtml_part.cpp:1855
+#: khtml/khtml_part.cpp:1860
 msgid "Possible Solutions:"
 msgstr "Çareseriyên Gengaz:"
 
-#: khtml/khtml_part.cpp:2266
+#: khtml/khtml_part.cpp:2271
 msgid "Page loaded."
 msgstr "Rûpel hate barkirin."
 
-#: khtml/khtml_part.cpp:2268
+#: khtml/khtml_part.cpp:2273
 #, kde-format
 msgid "%1 Image of %2 loaded."
 msgid_plural "%1 Images of %2 loaded."
 msgstr[0] "%1 ji %2 Wêne barkirî."
 msgstr[1] "%1 ji %2 Wêne barkirî."
 
-#: khtml/khtml_part.cpp:2443
+#: khtml/khtml_part.cpp:2448
 msgid "Automatic Detection"
 msgstr "Dîtina Bixweber"
 
-#: khtml/khtml_part.cpp:3510 khtml/khtml_part.cpp:3597
-#: khtml/khtml_part.cpp:3608
+#: khtml/khtml_part.cpp:3515 khtml/khtml_part.cpp:3602
+#: khtml/khtml_part.cpp:3613
 msgid " (In new window)"
 msgstr " (Di paceya nû de)"
 
-#: khtml/khtml_part.cpp:3549
+#: khtml/khtml_part.cpp:3554
 msgid "Symbolic Link"
 msgstr "Girêdana Sembolîk"
 
-#: khtml/khtml_part.cpp:3551
+#: khtml/khtml_part.cpp:3556
 #, kde-format
 msgid "%1 (Link)"
 msgstr "%1 (Girêdan)"
 
-#: khtml/khtml_part.cpp:3571
+#: khtml/khtml_part.cpp:3576
 #, fuzzy, kde-format
 #| msgid "%2 (%1 bytes)"
 msgid "%2 (%1 byte)"
@@ -6994,32 +6987,32 @@ msgid_plural "%2 (%1 bytes)"
 msgstr[0] "%2 (%1 bayt)"
 msgstr[1] "%2 (%1 bayt)"
 
-#: khtml/khtml_part.cpp:3575
+#: khtml/khtml_part.cpp:3580
 #, kde-format
 msgid "%2 (%1 K)"
 msgstr "%2 (%1 bayt)"
 
-#: khtml/khtml_part.cpp:3610
+#: khtml/khtml_part.cpp:3615
 msgid " (In other frame)"
 msgstr " (Di paceyeke din )"
 
-#: khtml/khtml_part.cpp:3615
+#: khtml/khtml_part.cpp:3620
 msgid "Email to: "
 msgstr "Bişîne: "
 
-#: khtml/khtml_part.cpp:3621
+#: khtml/khtml_part.cpp:3626
 msgid " - Subject: "
 msgstr " - Mijar: "
 
-#: khtml/khtml_part.cpp:3623
+#: khtml/khtml_part.cpp:3628
 msgid " - CC: "
 msgstr " - CC: "
 
-#: khtml/khtml_part.cpp:3625
+#: khtml/khtml_part.cpp:3630
 msgid " - BCC: "
 msgstr " - BCC: "
 
-#: khtml/khtml_part.cpp:3706
+#: khtml/khtml_part.cpp:3711
 #, kde-format
 msgid ""
 "<qt>This untrusted page links to<br /><b>%1</b>.<br />Do you want to follow "
@@ -7028,20 +7021,20 @@ msgstr ""
 "<qt>Vî rûpelê ne ewle girêdanê bi rûpelê <br /><b>%1</b> dihundirîne.<br /"
 ">Tu dixwazî vê girêdanê bişopîne?</qt>"
 
-#: khtml/khtml_part.cpp:3707
+#: khtml/khtml_part.cpp:3712
 msgid "Follow"
 msgstr "Bişopîne"
 
-#: khtml/khtml_part.cpp:3808
+#: khtml/khtml_part.cpp:3813
 msgid "Frame Information"
 msgstr "Agahiya Çarçove"
 
-#: khtml/khtml_part.cpp:3814
+#: khtml/khtml_part.cpp:3819
 #, kde-format
 msgid "   <a href=\"%1\">[Properties]</a>"
 msgstr "   <a href=\"%1\">[Taybetmendî]</a>"
 
-#: khtml/khtml_part.cpp:3840
+#: khtml/khtml_part.cpp:3845
 #, fuzzy
 #| msgctxt "@item Text character set"
 #| msgid "Turkish"
@@ -7049,39 +7042,39 @@ msgctxt "HTML rendering mode (see http://en.wikipedia.org/wiki/Quirks_mode)"
 msgid "Quirks"
 msgstr "Tirkî"
 
-#: khtml/khtml_part.cpp:3843
+#: khtml/khtml_part.cpp:3848
 msgctxt "HTML rendering mode (see http://en.wikipedia.org/wiki/Quirks_mode)"
 msgid "Almost standards"
 msgstr ""
 
-#: khtml/khtml_part.cpp:3847
+#: khtml/khtml_part.cpp:3852
 #, fuzzy
 #| msgid "Start"
 msgctxt "HTML rendering mode (see http://en.wikipedia.org/wiki/Quirks_mode)"
 msgid "Strict"
 msgstr "Destpêk"
 
-#: khtml/khtml_part.cpp:3918
+#: khtml/khtml_part.cpp:3923
 msgid "Save Background Image As"
 msgstr "Wêneyê Rûerd Cuda Tomar Bike"
 
-#: khtml/khtml_part.cpp:4010
+#: khtml/khtml_part.cpp:4015
 msgid "The peer SSL certificate chain appears to be corrupt."
 msgstr "Dibe ku zencîreya sertîfîkaya SSL'ê xerabûyî be."
 
-#: khtml/khtml_part.cpp:4029
+#: khtml/khtml_part.cpp:4034
 msgid "Save Frame As"
 msgstr "Çarçoveyê Cuda Tomar Bike"
 
-#: khtml/khtml_part.cpp:4073
+#: khtml/khtml_part.cpp:4078
 msgid "&Find in Frame..."
 msgstr "Di Çarçoveyê De &Bibîne..."
 
-#: khtml/khtml_part.cpp:4075 kdeui/actions/kstandardaction_p.h:64
+#: khtml/khtml_part.cpp:4080 kdeui/actions/kstandardaction_p.h:64
 msgid "&Find..."
 msgstr "&Bibîne..."
 
-#: khtml/khtml_part.cpp:4694
+#: khtml/khtml_part.cpp:4699
 msgid ""
 "Warning:  This is a secure form but it is attempting to send your data back "
 "unencrypted.\n"
@@ -7092,16 +7085,16 @@ msgstr ""
 "Dibe ku aliyek sêyemîn van agahiyan bibîne û şandinê asteng bike\n"
 "Tu bawerî ku dixwazî dewam bikî."
 
-#: khtml/khtml_part.cpp:4697 khtml/khtml_part.cpp:4706
-#: khtml/khtml_part.cpp:4730
+#: khtml/khtml_part.cpp:4702 khtml/khtml_part.cpp:4711
+#: khtml/khtml_part.cpp:4735
 msgid "Network Transmission"
 msgstr "Veguheztina Toreyê"
 
-#: khtml/khtml_part.cpp:4697 khtml/khtml_part.cpp:4707
+#: khtml/khtml_part.cpp:4702 khtml/khtml_part.cpp:4712
 msgid "&Send Unencrypted"
 msgstr "Bêşîfrê Bi&şîne"
 
-#: khtml/khtml_part.cpp:4704
+#: khtml/khtml_part.cpp:4709
 msgid ""
 "Warning: Your data is about to be transmitted across the network "
 "unencrypted.\n"
@@ -7110,7 +7103,7 @@ msgstr ""
 "Hişyarî: Daneya te dike ku bê şîfrekirin di rêya torê re were şandin\n"
 "Tu bawerî ku dixwazî bidomînî?"
 
-#: khtml/khtml_part.cpp:4728
+#: khtml/khtml_part.cpp:4733
 msgid ""
 "This site is attempting to submit form data via email.\n"
 "Do you want to continue?"
@@ -7118,11 +7111,11 @@ msgstr ""
 "Ev malper hewl dide ku bi rêya E-peyamê daxuyaniyan bişîne.\n"
 "Tu dixwazî bidomînî?"
 
-#: khtml/khtml_part.cpp:4731
+#: khtml/khtml_part.cpp:4736
 msgid "&Send Email"
 msgstr "&E-peyamekê Bişîne"
 
-#: khtml/khtml_part.cpp:4752
+#: khtml/khtml_part.cpp:4757
 #, kde-format
 msgid ""
 "<qt>The form will be submitted to <br /><b>%1</b><br />on your local "
@@ -7131,7 +7124,7 @@ msgstr ""
 "<qt>Wê ev form ji navnîşana <br /><b>%1</b><br /> ya di pergala pelan ya "
 "herêmî de ye were şandin.<br />Tu dixwazî vê formê bişînî?</qt>"
 
-#: khtml/khtml_part.cpp:4806
+#: khtml/khtml_part.cpp:4811
 msgid ""
 "This site attempted to attach a file from your computer in the form "
 "submission. The attachment was removed for your protection."
@@ -7139,59 +7132,59 @@ msgstr ""
 "Vî rûpelî dixwest pelekî ji kompîtura te bistîne û bi formê re bişîne. Karê "
 "şandina pêvekan ji bo ewlekariya te hate betalkirin."
 
-#: khtml/khtml_part.cpp:5836
+#: khtml/khtml_part.cpp:5841
 #, kde-format
 msgid "(%1/s)"
 msgstr "(%1/ç)"
 
-#: khtml/khtml_part.cpp:6749
+#: khtml/khtml_part.cpp:6754
 msgid "Security Warning"
 msgstr "Hişyariya Ewlekariyê"
 
-#: khtml/khtml_part.cpp:6758
+#: khtml/khtml_part.cpp:6763
 #, kde-format
 msgid "<qt>Access by untrusted page to<br /><b>%1</b><br /> denied.</qt>"
 msgstr ""
 "<qt>Gihiştîna ji rûpelê ne ewle <br /><b>%1</b><br /> hate qedexekirin.</qt>"
 
-#: khtml/khtml_part.cpp:6759 khtml/java/kjavaappletserver.cpp:792
+#: khtml/khtml_part.cpp:6764 khtml/java/kjavaappletserver.cpp:792
 msgid "Security Alert"
 msgstr "Alarma Ewlekariyê"
 
-#: khtml/khtml_part.cpp:7107
+#: khtml/khtml_part.cpp:7112
 #, kde-format
 msgid "The wallet '%1' is open and being used for form data and passwords."
 msgstr ""
 "Cuzdanê bi navê '%1' vekirî ye û ji bo daneyan forman û şîfreyan tê "
 "bikaranîn."
 
-#: khtml/khtml_part.cpp:7167
+#: khtml/khtml_part.cpp:7172
 msgid "&Close Wallet"
 msgstr "Cuzdan &Bigire"
 
-#: khtml/khtml_part.cpp:7170
+#: khtml/khtml_part.cpp:7175
 msgid "&Allow storing passwords for this site"
 msgstr ""
 
-#: khtml/khtml_part.cpp:7175
+#: khtml/khtml_part.cpp:7180
 #, kde-format
 msgid "Remove password for form %1"
 msgstr ""
 
-#: khtml/khtml_part.cpp:7280
+#: khtml/khtml_part.cpp:7285
 msgid "JavaScript &Debugger"
 msgstr "&Neqanderê Çewtiyan ya/ê Javascriptê"
 
-#: khtml/khtml_part.cpp:7312
+#: khtml/khtml_part.cpp:7317
 msgid "This page was prevented from opening a new window via JavaScript."
 msgstr ""
 "Hate astengkirin ku ev rûpel Javascriptê bikar bîne û rûpelekî nû veke."
 
-#: khtml/khtml_part.cpp:7318
+#: khtml/khtml_part.cpp:7323
 msgid "Popup Window Blocked"
 msgstr "Paceya Vedibe Hate Blokkirin"
 
-#: khtml/khtml_part.cpp:7318
+#: khtml/khtml_part.cpp:7323
 msgid ""
 "This page has attempted to open a popup window but was blocked.\n"
 "You can click on this icon in the status bar to control this behavior\n"
@@ -7201,20 +7194,27 @@ msgstr ""
 "Tu dikarî pêl îkona ku li ser darikê rewşê ye bike û vê tevgerê kontrol bike "
 "yan jî tu dikarî rê li ber paceya ku vedibe veke."
 
-#: khtml/khtml_part.cpp:7331
+#: khtml/khtml_part.cpp:7336
 #, kde-format
 msgid "&Show Blocked Popup Window"
 msgid_plural "&Show %1 Blocked Popup Windows"
 msgstr[0] "Paceya Xweber Vedibe a Astengbûyî &Nîşan Bide"
 msgstr[1] "%1 Paceyên Xweber Vedibin ên Astengbûyî &Nîşan Bide"
 
-#: khtml/khtml_part.cpp:7332
+#: khtml/khtml_part.cpp:7337
 msgid "Show Blocked Window Passive Popup &Notification"
 msgstr "Danezana Neçalak ya Paceyên Vedibe yên Têne Astengkirin &Nîşan Bide"
 
-#: khtml/khtml_part.cpp:7334
+#: khtml/khtml_part.cpp:7339
 msgid "&Configure JavaScript New Window Policies..."
 msgstr "Polîtîkayên Paceyên Vedibin yên JacaSkrîptê &Veava Bike..."
+
+#: khtml/khtmladaptorpart.cpp:29
+#, fuzzy
+#| msgctxt "@item font size"
+#| msgid "Relative"
+msgid "Inactive"
+msgstr "Rêjeyî"
 
 #: khtml/test_regression_gui_window.cpp:76
 msgid "Available Tests: 0"
@@ -8117,6 +8117,22 @@ msgctxt "@item Spelling dictionary"
 msgid "<application>Hunspell</application> Default"
 msgstr "<application>Ispell</application> a Standard"
 
+#: kde3support/kdeui/k3textedit.cpp:232 kdeui/widgets/ktextedit.cpp:495
+msgid "Check Spelling..."
+msgstr "Rastnivîsê Kontrol Bike..."
+
+#: kde3support/kdeui/k3textedit.cpp:238 kdeui/widgets/ktextedit.cpp:498
+msgid "Auto Spell Check"
+msgstr "Kontrolkirina Rastnivîsê ya Bixweber"
+
+#: kde3support/kdeui/k3textedit.cpp:242 kdeui/widgets/ktextedit.cpp:502
+msgid "Allow Tabulations"
+msgstr "Destûrê Bide Hilfirînan"
+
+#: kde3support/kdeui/k3textedit.cpp:348
+msgid "Spell Checking"
+msgstr "Kontrola rastnivîsê"
+
 #: kde3support/kdeui/k3aboutdialog.cpp:185
 msgid "Email"
 msgstr "E-peyam"
@@ -8157,22 +8173,6 @@ msgstr "(Logo tuneye)"
 #, kde-format
 msgid "About %1"
 msgstr "Der barê %1 de"
-
-#: kde3support/kdeui/k3textedit.cpp:232 kdeui/widgets/ktextedit.cpp:495
-msgid "Check Spelling..."
-msgstr "Rastnivîsê Kontrol Bike..."
-
-#: kde3support/kdeui/k3textedit.cpp:238 kdeui/widgets/ktextedit.cpp:498
-msgid "Auto Spell Check"
-msgstr "Kontrolkirina Rastnivîsê ya Bixweber"
-
-#: kde3support/kdeui/k3textedit.cpp:242 kdeui/widgets/ktextedit.cpp:502
-msgid "Allow Tabulations"
-msgstr "Destûrê Bide Hilfirînan"
-
-#: kde3support/kdeui/k3textedit.cpp:348
-msgid "Spell Checking"
-msgstr "Kontrola rastnivîsê"
 
 #: kde3support/kdeui/k3aboutapplication.cpp:50
 msgid "??"
@@ -8357,6 +8357,15 @@ msgstr "Vekirina pelê '%1' biserneket"
 msgid "Could not create temporary file."
 msgstr "Pelê demdemî nayê çêkirin."
 
+#: kjsembed/kjsembed/qwidget_binding.cpp:161
+#, kde-format
+msgid "'%1' is not a valid QWidget."
+msgstr "'%1' ne QWidget'eke derbasdar e."
+
+#: kjsembed/kjsembed/qwidget_binding.cpp:170
+msgid "Must supply a widget name."
+msgstr "Divê navê parçeyekê bê diyarkirin."
+
 #: kjsembed/kjsembed/slotproxy.cpp:115
 #, kde-format
 msgid "Bad slot handler: Object %1 Identifier %2 Method %3 Signature: %4."
@@ -8513,15 +8522,6 @@ msgstr "KomaÇalakiyan 2 argûmanan distîne."
 #: kjsembed/kjsembed/qaction_binding.cpp:91
 msgid "Must supply a valid parent."
 msgstr "Divê çavkanî bê diyarkirin."
-
-#: kjsembed/kjsembed/qwidget_binding.cpp:161
-#, kde-format
-msgid "'%1' is not a valid QWidget."
-msgstr "'%1' ne QWidget'eke derbasdar e."
-
-#: kjsembed/kjsembed/qwidget_binding.cpp:170
-msgid "Must supply a widget name."
-msgstr "Divê navê parçeyekê bê diyarkirin."
 
 #: kjsembed/kjsembed/qlayout_binding.cpp:90
 #, kde-format
@@ -10802,16 +10802,6 @@ msgstr ""
 msgid "You are not allowed to save the configuration"
 msgstr "Tu dixwazî mîhengên KDE ji nû ve bar bike?"
 
-#: kdeui/widgets/khistorycombobox.cpp:317
-#, fuzzy
-#| msgid "No further item in the history."
-msgid "No further items in the history."
-msgstr "Di rabirdûyê de tu xal tuneye."
-
-#: kdeui/widgets/ksqueezedtextlabel.cpp:167
-msgid "&Copy Full Text"
-msgstr "Hemû Nivîsê &Ji Ber Bigire"
-
 #. i18n: Placeholder text in text edit widgets is the text appearing
 #. before any user input, briefly explaining to the user what to type
 #. (e.g. "Enter message").
@@ -10854,6 +10844,166 @@ msgstr "Li Ferhengê Zêde Bike"
 #: kdeui/widgets/ktextedit.cpp:787
 msgid "Nothing to spell check."
 msgstr "Tu tiştekî ji bo kontrola rastnivîsînê tune."
+
+#: kdeui/widgets/ksqueezedtextlabel.cpp:167
+msgid "&Copy Full Text"
+msgstr "Hemû Nivîsê &Ji Ber Bigire"
+
+#: kdeui/widgets/khistorycombobox.cpp:317
+#, fuzzy
+#| msgid "No further item in the history."
+msgid "No further items in the history."
+msgstr "Di rabirdûyê de tu xal tuneye."
+
+#: kdeui/widgets/kcharselectdata.cpp:241
+msgid "<Non Private Use High Surrogate>"
+msgstr ""
+
+#: kdeui/widgets/kcharselectdata.cpp:243
+msgid "<Private Use High Surrogate>"
+msgstr ""
+
+#: kdeui/widgets/kcharselectdata.cpp:245
+msgid "<Low Surrogate>"
+msgstr ""
+
+#: kdeui/widgets/kcharselectdata.cpp:247
+msgid "<Private Use>"
+msgstr "<Bikaranîna Taybet>"
+
+#: kdeui/widgets/kcharselectdata.cpp:277
+msgid "<not assigned>"
+msgstr "<nayê bikaranîn>"
+
+#: kdeui/widgets/kcharselectdata.cpp:572
+#: kdeui/widgets/kcharselect-translation.cpp:35
+msgctxt "KCharSelect section name"
+msgid "Combining Diacritical Marks"
+msgstr ""
+
+#: kdeui/widgets/kcharselectdata.cpp:581
+msgid "Non-printable"
+msgstr "Naye çapkirin"
+
+#: kdeui/widgets/kcharselectdata.cpp:614
+msgid "Other, Control"
+msgstr "Wekî din, Kontrol"
+
+#: kdeui/widgets/kcharselectdata.cpp:615
+msgid "Other, Format"
+msgstr "Wekî din, Teşe"
+
+#: kdeui/widgets/kcharselectdata.cpp:616
+msgid "Other, Not Assigned"
+msgstr "Wekî Din, Nediyarkirî"
+
+#: kdeui/widgets/kcharselectdata.cpp:617
+msgid "Other, Private Use"
+msgstr "Wekî Din, Bikaranîna Takekesî"
+
+#: kdeui/widgets/kcharselectdata.cpp:618
+msgid "Other, Surrogate"
+msgstr ""
+
+#: kdeui/widgets/kcharselectdata.cpp:619
+msgid "Letter, Lowercase"
+msgstr "Tîp, Hûrdek"
+
+#: kdeui/widgets/kcharselectdata.cpp:620
+msgid "Letter, Modifier"
+msgstr "Tîp, Guherkar"
+
+#: kdeui/widgets/kcharselectdata.cpp:621
+msgid "Letter, Other"
+msgstr "Tîp, Wekî din"
+
+#: kdeui/widgets/kcharselectdata.cpp:622
+msgid "Letter, Titlecase"
+msgstr ""
+
+#: kdeui/widgets/kcharselectdata.cpp:623
+msgid "Letter, Uppercase"
+msgstr "Tîp, Girdek"
+
+#: kdeui/widgets/kcharselectdata.cpp:624
+msgid "Mark, Spacing Combining"
+msgstr ""
+
+#: kdeui/widgets/kcharselectdata.cpp:625
+msgid "Mark, Enclosing"
+msgstr ""
+
+#: kdeui/widgets/kcharselectdata.cpp:626
+msgid "Mark, Non-Spacing"
+msgstr ""
+
+#: kdeui/widgets/kcharselectdata.cpp:627
+msgid "Number, Decimal Digit"
+msgstr "Hejmar, Reqema Dehanî"
+
+#: kdeui/widgets/kcharselectdata.cpp:628
+msgid "Number, Letter"
+msgstr "Hejmar, Tîp"
+
+#: kdeui/widgets/kcharselectdata.cpp:629
+msgid "Number, Other"
+msgstr "Hejmar, Wekî Din"
+
+#: kdeui/widgets/kcharselectdata.cpp:630
+msgid "Punctuation, Connector"
+msgstr "Xalbendî, Girêker"
+
+#: kdeui/widgets/kcharselectdata.cpp:631
+msgid "Punctuation, Dash"
+msgstr "Xalbendî, Xêz"
+
+#: kdeui/widgets/kcharselectdata.cpp:632
+msgid "Punctuation, Close"
+msgstr "Xalbendî, Bigire"
+
+#: kdeui/widgets/kcharselectdata.cpp:633
+msgid "Punctuation, Final Quote"
+msgstr "Xalbendî, Neynûka Dawiyê"
+
+#: kdeui/widgets/kcharselectdata.cpp:634
+msgid "Punctuation, Initial Quote"
+msgstr "Xalbendî, Neynûka Destpêkê"
+
+#: kdeui/widgets/kcharselectdata.cpp:635
+msgid "Punctuation, Other"
+msgstr "Xalbendî, Wekî Din"
+
+#: kdeui/widgets/kcharselectdata.cpp:636
+msgid "Punctuation, Open"
+msgstr "Xalbendî, Veke"
+
+#: kdeui/widgets/kcharselectdata.cpp:637
+msgid "Symbol, Currency"
+msgstr "Sembol, Pere"
+
+#: kdeui/widgets/kcharselectdata.cpp:638
+msgid "Symbol, Modifier"
+msgstr "Sembol, Lezker"
+
+#: kdeui/widgets/kcharselectdata.cpp:639
+msgid "Symbol, Math"
+msgstr "Sembol, Matematîk"
+
+#: kdeui/widgets/kcharselectdata.cpp:640
+msgid "Symbol, Other"
+msgstr "Sembol, Wekî Din"
+
+#: kdeui/widgets/kcharselectdata.cpp:641
+msgid "Separator, Line"
+msgstr "Veqetandek, Rêzik"
+
+#: kdeui/widgets/kcharselectdata.cpp:642
+msgid "Separator, Paragraph"
+msgstr "Veqetandek, Paragraf"
+
+#: kdeui/widgets/kcharselectdata.cpp:643
+msgid "Separator, Space"
+msgstr "Veqetandek, Valahî"
 
 #: kdeui/widgets/kcharselect-translation.cpp:23
 msgctxt "KCharSelect section name"
@@ -10917,12 +11067,6 @@ msgstr "Sembolên Matematîkî"
 msgctxt "KCharSelect section name"
 msgid "Phonetic Symbols"
 msgstr "Sembolên Fonetîk"
-
-#: kdeui/widgets/kcharselect-translation.cpp:35
-#: kdeui/widgets/kcharselectdata.cpp:572
-msgctxt "KCharSelect section name"
-msgid "Combining Diacritical Marks"
-msgstr ""
 
 #: kdeui/widgets/kcharselect-translation.cpp:36
 msgctxt "KCharSelect section name"
@@ -11729,150 +11873,6 @@ msgctxt "KCharselect unicode block name"
 msgid "Specials"
 msgstr "Taybet"
 
-#: kdeui/widgets/kcharselectdata.cpp:241
-msgid "<Non Private Use High Surrogate>"
-msgstr ""
-
-#: kdeui/widgets/kcharselectdata.cpp:243
-msgid "<Private Use High Surrogate>"
-msgstr ""
-
-#: kdeui/widgets/kcharselectdata.cpp:245
-msgid "<Low Surrogate>"
-msgstr ""
-
-#: kdeui/widgets/kcharselectdata.cpp:247
-msgid "<Private Use>"
-msgstr "<Bikaranîna Taybet>"
-
-#: kdeui/widgets/kcharselectdata.cpp:277
-msgid "<not assigned>"
-msgstr "<nayê bikaranîn>"
-
-#: kdeui/widgets/kcharselectdata.cpp:581
-msgid "Non-printable"
-msgstr "Naye çapkirin"
-
-#: kdeui/widgets/kcharselectdata.cpp:614
-msgid "Other, Control"
-msgstr "Wekî din, Kontrol"
-
-#: kdeui/widgets/kcharselectdata.cpp:615
-msgid "Other, Format"
-msgstr "Wekî din, Teşe"
-
-#: kdeui/widgets/kcharselectdata.cpp:616
-msgid "Other, Not Assigned"
-msgstr "Wekî Din, Nediyarkirî"
-
-#: kdeui/widgets/kcharselectdata.cpp:617
-msgid "Other, Private Use"
-msgstr "Wekî Din, Bikaranîna Takekesî"
-
-#: kdeui/widgets/kcharselectdata.cpp:618
-msgid "Other, Surrogate"
-msgstr ""
-
-#: kdeui/widgets/kcharselectdata.cpp:619
-msgid "Letter, Lowercase"
-msgstr "Tîp, Hûrdek"
-
-#: kdeui/widgets/kcharselectdata.cpp:620
-msgid "Letter, Modifier"
-msgstr "Tîp, Guherkar"
-
-#: kdeui/widgets/kcharselectdata.cpp:621
-msgid "Letter, Other"
-msgstr "Tîp, Wekî din"
-
-#: kdeui/widgets/kcharselectdata.cpp:622
-msgid "Letter, Titlecase"
-msgstr ""
-
-#: kdeui/widgets/kcharselectdata.cpp:623
-msgid "Letter, Uppercase"
-msgstr "Tîp, Girdek"
-
-#: kdeui/widgets/kcharselectdata.cpp:624
-msgid "Mark, Spacing Combining"
-msgstr ""
-
-#: kdeui/widgets/kcharselectdata.cpp:625
-msgid "Mark, Enclosing"
-msgstr ""
-
-#: kdeui/widgets/kcharselectdata.cpp:626
-msgid "Mark, Non-Spacing"
-msgstr ""
-
-#: kdeui/widgets/kcharselectdata.cpp:627
-msgid "Number, Decimal Digit"
-msgstr "Hejmar, Reqema Dehanî"
-
-#: kdeui/widgets/kcharselectdata.cpp:628
-msgid "Number, Letter"
-msgstr "Hejmar, Tîp"
-
-#: kdeui/widgets/kcharselectdata.cpp:629
-msgid "Number, Other"
-msgstr "Hejmar, Wekî Din"
-
-#: kdeui/widgets/kcharselectdata.cpp:630
-msgid "Punctuation, Connector"
-msgstr "Xalbendî, Girêker"
-
-#: kdeui/widgets/kcharselectdata.cpp:631
-msgid "Punctuation, Dash"
-msgstr "Xalbendî, Xêz"
-
-#: kdeui/widgets/kcharselectdata.cpp:632
-msgid "Punctuation, Close"
-msgstr "Xalbendî, Bigire"
-
-#: kdeui/widgets/kcharselectdata.cpp:633
-msgid "Punctuation, Final Quote"
-msgstr "Xalbendî, Neynûka Dawiyê"
-
-#: kdeui/widgets/kcharselectdata.cpp:634
-msgid "Punctuation, Initial Quote"
-msgstr "Xalbendî, Neynûka Destpêkê"
-
-#: kdeui/widgets/kcharselectdata.cpp:635
-msgid "Punctuation, Other"
-msgstr "Xalbendî, Wekî Din"
-
-#: kdeui/widgets/kcharselectdata.cpp:636
-msgid "Punctuation, Open"
-msgstr "Xalbendî, Veke"
-
-#: kdeui/widgets/kcharselectdata.cpp:637
-msgid "Symbol, Currency"
-msgstr "Sembol, Pere"
-
-#: kdeui/widgets/kcharselectdata.cpp:638
-msgid "Symbol, Modifier"
-msgstr "Sembol, Lezker"
-
-#: kdeui/widgets/kcharselectdata.cpp:639
-msgid "Symbol, Math"
-msgstr "Sembol, Matematîk"
-
-#: kdeui/widgets/kcharselectdata.cpp:640
-msgid "Symbol, Other"
-msgstr "Sembol, Wekî Din"
-
-#: kdeui/widgets/kcharselectdata.cpp:641
-msgid "Separator, Line"
-msgstr "Veqetandek, Rêzik"
-
-#: kdeui/widgets/kcharselectdata.cpp:642
-msgid "Separator, Paragraph"
-msgstr "Veqetandek, Paragraf"
-
-#: kdeui/widgets/kcharselectdata.cpp:643
-msgid "Separator, Space"
-msgstr "Veqetandek, Valahî"
-
 #: kdeui/widgets/kactionselector.cpp:94
 msgid "&Available:"
 msgstr "&Heye:"
@@ -12008,43 +12008,6 @@ msgstr "&Der barê %1 de"
 msgid "About &KDE"
 msgstr "Der barê &KDE de"
 
-#: kdeui/widgets/kdatepicker.cpp:210
-#, kde-format
-msgid "Week %1"
-msgstr "Hefteya %1"
-
-#: kdeui/widgets/kdatepicker.cpp:317
-msgid "Next year"
-msgstr "Sala Pişt re"
-
-#: kdeui/widgets/kdatepicker.cpp:318
-msgid "Previous year"
-msgstr "Sala Par"
-
-#: kdeui/widgets/kdatepicker.cpp:319
-msgid "Next month"
-msgstr "Meha pişt re"
-
-#: kdeui/widgets/kdatepicker.cpp:320
-msgid "Previous month"
-msgstr "Meha berê"
-
-#: kdeui/widgets/kdatepicker.cpp:321
-msgid "Select a week"
-msgstr "Hefteyekê hilbijêre"
-
-#: kdeui/widgets/kdatepicker.cpp:322
-msgid "Select a month"
-msgstr "Mehekê hilbijêre"
-
-#: kdeui/widgets/kdatepicker.cpp:323
-msgid "Select a year"
-msgstr "Salekê hilbijêre"
-
-#: kdeui/widgets/kdatepicker.cpp:324
-msgid "Select the current day"
-msgstr "Roja îro hilbijêre"
-
 #: kdeui/widgets/klineedit.cpp:279
 msgctxt "@action:button Clear current text in the line edit"
 msgid "Clear text"
@@ -12089,6 +12052,20 @@ msgstr "Lîsteya Rêzkirî && Bixweber"
 msgctxt "@item:inmenu Text Completion"
 msgid "Default"
 msgstr "Standard"
+
+#: kdeui/widgets/ktimezonewidget.cpp:66
+msgctxt "Define an area in the time zone, like a town area"
+msgid "Area"
+msgstr "Saha"
+
+#: kdeui/widgets/ktimezonewidget.cpp:66
+msgctxt "Time zone"
+msgid "Region"
+msgstr "Herêm"
+
+#: kdeui/widgets/ktimezonewidget.cpp:66
+msgid "Comment"
+msgstr "Şirove"
 
 #: kdeui/widgets/krichtextwidget.cpp:227
 msgctxt "@action"
@@ -12256,19 +12233,42 @@ msgctxt "@action"
 msgid "Superscript"
 msgstr "Skrîptê Veke"
 
-#: kdeui/widgets/ktimezonewidget.cpp:66
-msgctxt "Define an area in the time zone, like a town area"
-msgid "Area"
-msgstr "Saha"
+#: kdeui/widgets/kdatepicker.cpp:210
+#, kde-format
+msgid "Week %1"
+msgstr "Hefteya %1"
 
-#: kdeui/widgets/ktimezonewidget.cpp:66
-msgctxt "Time zone"
-msgid "Region"
-msgstr "Herêm"
+#: kdeui/widgets/kdatepicker.cpp:317
+msgid "Next year"
+msgstr "Sala Pişt re"
 
-#: kdeui/widgets/ktimezonewidget.cpp:66
-msgid "Comment"
-msgstr "Şirove"
+#: kdeui/widgets/kdatepicker.cpp:318
+msgid "Previous year"
+msgstr "Sala Par"
+
+#: kdeui/widgets/kdatepicker.cpp:319
+msgid "Next month"
+msgstr "Meha pişt re"
+
+#: kdeui/widgets/kdatepicker.cpp:320
+msgid "Previous month"
+msgstr "Meha berê"
+
+#: kdeui/widgets/kdatepicker.cpp:321
+msgid "Select a week"
+msgstr "Hefteyekê hilbijêre"
+
+#: kdeui/widgets/kdatepicker.cpp:322
+msgid "Select a month"
+msgstr "Mehekê hilbijêre"
+
+#: kdeui/widgets/kdatepicker.cpp:323
+msgid "Select a year"
+msgstr "Salekê hilbijêre"
+
+#: kdeui/widgets/kdatepicker.cpp:324
+msgid "Select the current day"
+msgstr "Roja îro hilbijêre"
 
 #: kdeui/widgets/kcharselect.cpp:334 kdeui/widgets/kcharselect.cpp:336
 msgid "Enter a search term or character here"
@@ -12894,6 +12894,70 @@ msgstr "Pêwiste tu hin nivîsan derbasbikî an jî lê bigerî."
 msgid "Invalid regular expression."
 msgstr "îfadeyeke sererast ya ne derbasdar."
 
+#: kdeui/util/kkeyserver_x11.cpp:95
+msgid "Backspace"
+msgstr "Backspace"
+
+#: kdeui/util/kkeyserver_x11.cpp:96
+msgid "SysReq"
+msgstr "SysReq"
+
+#: kdeui/util/kkeyserver_x11.cpp:97
+msgid "CapsLock"
+msgstr "CapsLock"
+
+#: kdeui/util/kkeyserver_x11.cpp:98
+msgid "NumLock"
+msgstr "NumLock"
+
+#: kdeui/util/kkeyserver_x11.cpp:99
+msgid "ScrollLock"
+msgstr "ScrollLock"
+
+#: kdeui/util/kkeyserver_x11.cpp:100
+msgid "PageUp"
+msgstr "RûpelJor"
+
+#: kdeui/util/kkeyserver_x11.cpp:101
+msgid "PageDown"
+msgstr "RûpelJêr"
+
+#: kdeui/util/kkeyserver_x11.cpp:104
+msgid "Again"
+msgstr "Dîsa"
+
+#: kdeui/util/kkeyserver_x11.cpp:105
+msgid "Props"
+msgstr "Taybetmendî"
+
+#: kdeui/util/kkeyserver_x11.cpp:106 kdeui/util/kundostack.cpp:67
+msgid "Undo"
+msgstr "Vegerîne"
+
+#: kdeui/util/kkeyserver_x11.cpp:107
+msgid "Front"
+msgstr "Pêş"
+
+#: kdeui/util/kkeyserver_x11.cpp:108
+msgid "Copy"
+msgstr "Jiber bigire"
+
+#: kdeui/util/kkeyserver_x11.cpp:109
+msgid "Open"
+msgstr "Veke"
+
+#: kdeui/util/kkeyserver_x11.cpp:110
+msgid "Paste"
+msgstr "Pê ve bike"
+
+#: kdeui/util/kkeyserver_x11.cpp:111
+msgid "Find"
+msgstr "Bibîne"
+
+#: kdeui/util/kkeyserver_x11.cpp:112
+msgid "Cut"
+msgstr "Jê bike"
+
 #: kdeui/util/kcompletion.cpp:693
 msgid ""
 "You reached the end of the list\n"
@@ -13148,70 +13212,6 @@ msgstr "&Diserde nivisandin"
 #: kdeui/util/kundostack.cpp:48
 msgid "Redo"
 msgstr "Dîsa bike"
-
-#: kdeui/util/kundostack.cpp:67 kdeui/util/kkeyserver_x11.cpp:106
-msgid "Undo"
-msgstr "Vegerîne"
-
-#: kdeui/util/kkeyserver_x11.cpp:95
-msgid "Backspace"
-msgstr "Backspace"
-
-#: kdeui/util/kkeyserver_x11.cpp:96
-msgid "SysReq"
-msgstr "SysReq"
-
-#: kdeui/util/kkeyserver_x11.cpp:97
-msgid "CapsLock"
-msgstr "CapsLock"
-
-#: kdeui/util/kkeyserver_x11.cpp:98
-msgid "NumLock"
-msgstr "NumLock"
-
-#: kdeui/util/kkeyserver_x11.cpp:99
-msgid "ScrollLock"
-msgstr "ScrollLock"
-
-#: kdeui/util/kkeyserver_x11.cpp:100
-msgid "PageUp"
-msgstr "RûpelJor"
-
-#: kdeui/util/kkeyserver_x11.cpp:101
-msgid "PageDown"
-msgstr "RûpelJêr"
-
-#: kdeui/util/kkeyserver_x11.cpp:104
-msgid "Again"
-msgstr "Dîsa"
-
-#: kdeui/util/kkeyserver_x11.cpp:105
-msgid "Props"
-msgstr "Taybetmendî"
-
-#: kdeui/util/kkeyserver_x11.cpp:107
-msgid "Front"
-msgstr "Pêş"
-
-#: kdeui/util/kkeyserver_x11.cpp:108
-msgid "Copy"
-msgstr "Jiber bigire"
-
-#: kdeui/util/kkeyserver_x11.cpp:109
-msgid "Open"
-msgstr "Veke"
-
-#: kdeui/util/kkeyserver_x11.cpp:110
-msgid "Paste"
-msgstr "Pê ve bike"
-
-#: kdeui/util/kkeyserver_x11.cpp:111
-msgid "Find"
-msgstr "Bibîne"
-
-#: kdeui/util/kkeyserver_x11.cpp:112
-msgid "Cut"
-msgstr "Jê bike"
 
 #: dnssd/servicemodel.cpp:102
 msgid "Host"
