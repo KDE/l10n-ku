@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: k3b\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-06-25 05:16+0200\n"
+"POT-Creation-Date: 2010-06-29 08:20+0200\n"
 "PO-Revision-Date: 2009-02-21 07:27+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -90,10 +90,12 @@ msgid "Audio Cue Image"
 msgstr ""
 
 #: misc/k3bimagewritingdialog.cpp:314
-#, kde-format
-msgid "%1 track"
+#, fuzzy, kde-format
+#| msgid "1 track"
+#| msgid_plural "%1 tracks"
+msgid "One track"
 msgid_plural "%1 tracks"
-msgstr[0] "%1 stran"
+msgstr[0] "1 Stran"
 msgstr[1] "%1 stranan"
 
 #: misc/k3bimagewritingdialog.cpp:328
@@ -1891,7 +1893,9 @@ msgid "Local link target:"
 msgstr "Navê herêmê:"
 
 #: projects/k3bdatapropertiesdialog.cpp:130
-msgid "Hide on Rockridge"
+#, fuzzy
+#| msgid "Hide on Rockridge"
+msgid "Hide on RockRidge"
 msgstr "Di Rockridge de Veşêre"
 
 #: projects/k3bdatapropertiesdialog.cpp:131
@@ -1977,25 +1981,30 @@ msgid "Special file"
 msgstr "Pela taybet"
 
 #: projects/k3bdatapropertiesdialog.cpp:300
-#, kde-format
-msgid "1 Item"
+#, fuzzy, kde-format
+#| msgid "1 Item"
+#| msgid_plural "%1 Items"
+msgid "One Item"
 msgid_plural "%1 Items"
 msgstr[0] "1 Hêman"
 msgstr[1] "%1 Hêman"
 
 #: projects/k3bdatapropertiesdialog.cpp:303
-#, kde-format
-msgid "1 File"
+#, fuzzy, kde-format
+#| msgid "Open Files"
+msgid "One File"
 msgid_plural "%1 Files"
-msgstr[0] "1 Pel"
-msgstr[1] "%1 Pel"
+msgstr[0] "Pelan Veke"
+msgstr[1] "Pelan Veke"
 
 #: projects/k3bdatapropertiesdialog.cpp:308
-#, kde-format
-msgid "1 Folder"
+#, fuzzy, kde-format
+#| msgid "1 folder"
+#| msgid_plural "%1 folders"
+msgid "One Folder"
 msgid_plural "%1 Folders"
-msgstr[0] "1 Peldank"
-msgstr[1] "%1 Peldank"
+msgstr[0] "%1 peldank"
+msgstr[1] "%1 peldank"
 
 #: projects/k3baudioprojectmodel.cpp:317 rip/k3baudiotrackmodel.cpp:157
 msgctxt "audio track number"
@@ -5140,7 +5149,7 @@ msgstr "Agahî tune ye"
 #, fuzzy, kde-format
 #| msgid "1 folder"
 #| msgid_plural "%1 folders"
-msgid "One folder"
+msgid "one folder"
 msgid_plural "%1 folders"
 msgstr[0] "%1 peldank"
 msgstr[1] "%1 peldank"
@@ -9212,6 +9221,21 @@ msgstr "Qediya."
 #: ../plugins/project/audiometainforenamer/k3baudiometainforenamerplugin.cpp:384
 msgid "Rename audio files based on their meta info."
 msgstr "Navên pelên muzîkê gorê agahiyên di navan de biguherîne."
+
+#~ msgid "%1 track"
+#~ msgid_plural "%1 tracks"
+#~ msgstr[0] "%1 stran"
+#~ msgstr[1] "%1 stranan"
+
+#~ msgid "1 File"
+#~ msgid_plural "%1 Files"
+#~ msgstr[0] "1 Pel"
+#~ msgstr[1] "%1 Pel"
+
+#~ msgid "1 Folder"
+#~ msgid_plural "%1 Folders"
+#~ msgstr[0] "1 Peldank"
+#~ msgstr[1] "%1 Peldank"
 
 #~ msgctxt "symbolic link target"
 #~ msgid "Link"
