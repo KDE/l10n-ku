@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: k3b\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-07-01 05:12+0200\n"
+"POT-Creation-Date: 2010-07-04 05:07+0200\n"
 "PO-Revision-Date: 2009-02-21 07:27+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -798,7 +798,7 @@ msgstr ""
 msgid "File Info"
 msgstr "Agahiyên Pelê"
 
-#: projects/k3bvcdtrackdialog.cpp:399 projects/k3baudioprojectmodel.cpp:327
+#: projects/k3bvcdtrackdialog.cpp:399 projects/k3baudioprojectmodel.cpp:319
 #: rip/videodvd/k3bvideodvdaudiomodel.cpp:260
 #: rip/k3baudiorippingdialog.cpp:142
 msgid "Filename"
@@ -944,24 +944,24 @@ msgstr "Hilbijartina Deng"
 msgid "Data Section"
 msgstr "Hilbijartina Dane"
 
-#: projects/k3bmixedview.cpp:129
+#: projects/k3bmixedview.cpp:124
 msgid "Please add files and audio titles to your project first."
 msgstr ""
 
-#: projects/k3bmixedview.cpp:130 projects/k3bdataview.cpp:125
+#: projects/k3bmixedview.cpp:125 projects/k3bdataview.cpp:125
 #: projects/k3bview.cpp:92
 msgid "No Data to Burn"
 msgstr ""
 
 #: projects/k3bvcdview.cpp:62 projects/k3bmovixview.cpp:64
-#: projects/k3bdataviewimpl.cpp:104 projects/k3baudioviewimpl.cpp:89
+#: projects/k3bdataviewimpl.cpp:104 projects/k3baudioviewimpl.cpp:94
 msgid "Properties"
 msgstr "Taybetmendî"
 
 #. i18n: file: ../plugins/encoder/external/base_k3bexternalencoderconfigwidget.ui:81
 #. i18n: ectx: property (text), widget (QPushButton, m_buttonRemove)
 #: projects/k3bvcdview.cpp:66 projects/k3bmovixview.cpp:67
-#: projects/k3bdataviewimpl.cpp:87 projects/k3baudioviewimpl.cpp:91
+#: projects/k3bdataviewimpl.cpp:87 projects/k3baudioviewimpl.cpp:96
 #: rc.cpp:1092
 msgid "Remove"
 msgstr "Rake"
@@ -1648,7 +1648,7 @@ msgid "&Publisher:"
 msgstr "&Weşanger:"
 
 #: projects/k3bdataview.cpp:124 projects/k3bview.cpp:91
-#: projects/k3baudioviewimpl.cpp:419
+#: projects/k3baudioviewimpl.cpp:427
 msgid "Please add files to your project first."
 msgstr ""
 
@@ -1793,31 +1793,29 @@ msgstr "Pelek bi vê navê jixwe heye. Jê kerema xwe navekî nû têkevê:"
 msgid "Edit Boot Images"
 msgstr ""
 
-#: projects/k3baudiotrackplayer.cpp:117 projects/k3baudiotrackplayer.cpp:176
+#: projects/k3baudiotrackplayer.cpp:86
+#, fuzzy, kde-format
+#| msgid "Playing track"
+msgid "Playing track %1: %2 - %3"
+msgstr "Stran lêdide"
+
+#: projects/k3baudiotrackplayer.cpp:145 projects/k3baudiotrackplayer.cpp:146
 msgid "Play"
 msgstr "Lê Bide"
 
-#: projects/k3baudiotrackplayer.cpp:123 projects/k3baudiotrackplayer.cpp:178
+#: projects/k3baudiotrackplayer.cpp:147 projects/k3baudiotrackplayer.cpp:149
 msgid "Pause"
 msgstr "Bide Sekinandin"
 
-#: projects/k3baudiotrackplayer.cpp:129
-msgid "Play/Pause"
-msgstr "Lêdan/Sekinandin"
-
-#: projects/k3baudiotrackplayer.cpp:136 projects/k3baudiotrackplayer.cpp:177
+#: projects/k3baudiotrackplayer.cpp:150 projects/k3baudiotrackplayer.cpp:152
 msgid "Stop"
 msgstr "Rawestîne"
 
-#: projects/k3baudiotrackplayer.cpp:142 projects/k3baudiotrackplayer.cpp:179
+#: projects/k3baudiotrackplayer.cpp:153 projects/k3baudiotrackplayer.cpp:155
 msgid "Next"
 msgstr "Pêş"
 
-#: projects/k3baudiotrackplayer.cpp:148
-msgid "Prev"
-msgstr "Paş"
-
-#: projects/k3baudiotrackplayer.cpp:180
+#: projects/k3baudiotrackplayer.cpp:156 projects/k3baudiotrackplayer.cpp:158
 msgid "Previous"
 msgstr "Paş"
 
@@ -2006,25 +2004,25 @@ msgid_plural "%1 Folders"
 msgstr[0] "%1 peldank"
 msgstr[1] "%1 peldank"
 
-#: projects/k3baudioprojectmodel.cpp:317 rip/k3baudiotrackmodel.cpp:157
+#: projects/k3baudioprojectmodel.cpp:309 rip/k3baudiotrackmodel.cpp:157
 msgctxt "audio track number"
 msgid "No."
 msgstr "Na."
 
-#: projects/k3baudioprojectmodel.cpp:319
+#: projects/k3baudioprojectmodel.cpp:311
 msgid "Artist (CD-Text)"
 msgstr "Hunermend (CD-Nivîs)"
 
-#: projects/k3baudioprojectmodel.cpp:321
+#: projects/k3baudioprojectmodel.cpp:313
 msgid "Title (CD-Text)"
 msgstr "Sernivîs (CD-Nivîs)"
 
-#: projects/k3baudioprojectmodel.cpp:323
+#: projects/k3baudioprojectmodel.cpp:315
 msgctxt "audio type like mp3 or whatever"
 msgid "Type"
 msgstr "Cure"
 
-#: projects/k3baudioprojectmodel.cpp:325
+#: projects/k3baudioprojectmodel.cpp:317
 msgctxt "audio track length"
 msgid "Length"
 msgstr "Dirêjahî"
@@ -2345,68 +2343,68 @@ msgid ""
 "track."
 msgstr ""
 
-#: projects/k3baudioviewimpl.cpp:71
+#: projects/k3baudioviewimpl.cpp:76
 msgid "Add Silence..."
 msgstr ""
 
-#: projects/k3baudioviewimpl.cpp:73
+#: projects/k3baudioviewimpl.cpp:78
 msgid "Merge Tracks"
 msgstr ""
 
-#: projects/k3baudioviewimpl.cpp:75
+#: projects/k3baudioviewimpl.cpp:80
 msgid "Source to Track"
 msgstr ""
 
-#: projects/k3baudioviewimpl.cpp:77
+#: projects/k3baudioviewimpl.cpp:82
 msgid "Split Track..."
 msgstr ""
 
-#: projects/k3baudioviewimpl.cpp:79
+#: projects/k3baudioviewimpl.cpp:84
 msgid "Edit Source..."
 msgstr "Çavkaniyê Serast Bike..."
 
-#: projects/k3baudioviewimpl.cpp:81
+#: projects/k3baudioviewimpl.cpp:86
 #, fuzzy
 #| msgid "Playing track"
 msgid "Play Track"
 msgstr "Stran lêdide"
 
-#: projects/k3baudioviewimpl.cpp:83 projects/k3baudioviewimpl.cpp:86
+#: projects/k3baudioviewimpl.cpp:88 projects/k3baudioviewimpl.cpp:91
 msgid "Musicbrainz Lookup"
 msgstr "Lêgerîna Musicbrainz"
 
-#: projects/k3baudioviewimpl.cpp:85 projects/k3baudioviewimpl.cpp:88
+#: projects/k3baudioviewimpl.cpp:90 projects/k3baudioviewimpl.cpp:93
 msgid "Try to determine meta information over the Internet"
 msgstr ""
 
-#: projects/k3baudioviewimpl.cpp:93
+#: projects/k3baudioviewimpl.cpp:98
 msgid "Convert Tracks"
 msgstr ""
 
-#: projects/k3baudioviewimpl.cpp:189
+#: projects/k3baudioviewimpl.cpp:192
 msgid "Add Silence"
 msgstr ""
 
-#: projects/k3baudioviewimpl.cpp:193
+#: projects/k3baudioviewimpl.cpp:196
 msgid "Length of silence:"
 msgstr ""
 
-#: projects/k3baudioviewimpl.cpp:284
+#: projects/k3baudioviewimpl.cpp:287
 msgid "Edit Audio Track Source"
 msgstr ""
 
-#: projects/k3baudioviewimpl.cpp:325
+#: projects/k3baudioviewimpl.cpp:339
 #, fuzzy
 #| msgid "1 audio track"
 #| msgid_plural "%1 audio tracks"
 msgid "Please add an audio track."
 msgstr "1 strana muzîkê"
 
-#: projects/k3baudioviewimpl.cpp:349
+#: projects/k3baudioviewimpl.cpp:363
 msgid "Please select an audio track."
 msgstr ""
 
-#: projects/k3baudioviewimpl.cpp:420
+#: projects/k3baudioviewimpl.cpp:428
 msgid "No tracks to convert"
 msgstr ""
 
@@ -9221,6 +9219,12 @@ msgstr "Qediya."
 #: ../plugins/project/audiometainforenamer/k3baudiometainforenamerplugin.cpp:384
 msgid "Rename audio files based on their meta info."
 msgstr "Navên pelên muzîkê gorê agahiyên di navan de biguherîne."
+
+#~ msgid "Play/Pause"
+#~ msgstr "Lêdan/Sekinandin"
+
+#~ msgid "Prev"
+#~ msgstr "Paş"
 
 #~ msgid "%1 track"
 #~ msgid_plural "%1 tracks"
