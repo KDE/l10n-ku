@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: khelpcenter\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-07-26 05:17+0200\n"
+"POT-Creation-Date: 2010-07-28 05:08+0200\n"
 "PO-Revision-Date: 2009-01-06 14:01+0200\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "X-Generator: Lokalize 0.2\n"
 "Plural-Forms: nplurals=2; plural= n != 1;\n"
 
-#: application.cpp:59 navigator.cpp:448
+#: application.cpp:59 navigator.cpp:440
 msgid "KDE Help Center"
 msgstr "Navenda Alîkariya ya KDE"
 
@@ -418,14 +418,6 @@ msgstr "Biçe beşa naverokan"
 msgid "&Last Search Result"
 msgstr "Encamên Lêgerîna &Dawîn"
 
-#: mainwindow.cpp:261
-msgid "Build Search Index..."
-msgstr "Pêrista lêgerînê ava bike..."
-
-#: mainwindow.cpp:267
-msgid "Show Search Error Log"
-msgstr "Rojnivîska Çewtiya Lêgerînê Nîşan Bide"
-
 #: mainwindow.cpp:274
 msgid "Configure Fonts..."
 msgstr "Curetîpan Veava Bike..."
@@ -438,39 +430,39 @@ msgstr "Mezinahiya Curetîpan Mezin Bike"
 msgid "Decrease Font Sizes"
 msgstr "Mezinahiya Curetîpan Biçûk Bike"
 
-#: navigator.cpp:117
+#: navigator.cpp:114
 msgid "&Search"
 msgstr "&Lêbigere"
 
-#: navigator.cpp:174
+#: navigator.cpp:170
 msgid "&Contents"
 msgstr "&Naverok"
 
-#: navigator.cpp:187
+#: navigator.cpp:184
 msgid "Search Options"
 msgstr "Vebijêrkên Lêgerînê"
 
-#: navigator.cpp:195
+#: navigator.cpp:193
 msgid "G&lossary"
 msgstr "Ferhengok"
 
-#: navigator.cpp:447
+#: navigator.cpp:439
 msgid "Start Page"
 msgstr "Rûpelê Destpêkê"
 
-#: navigator.cpp:535
+#: navigator.cpp:529
 msgid "Unable to run search program."
 msgstr "Bernameya lêgerînê nehate xebitandin."
 
-#: navigator.cpp:575
+#: navigator.cpp:571
 msgid "A search index does not yet exist. Do you want to create the index now?"
 msgstr "Heta niha pêrist nehatiye avakirin, Tu dixwazî pêristeke nû ava bikî?"
 
-#: navigator.cpp:579
+#: navigator.cpp:575
 msgid "Create"
 msgstr "Pêk Bîne"
 
-#: navigator.cpp:580
+#: navigator.cpp:576
 msgid "Do Not Create"
 msgstr "Pêk Bîne"
 
@@ -498,25 +490,25 @@ msgstr "Tabloya bişkmokên heyî"
 msgid "&File"
 msgstr "&Pel"
 
-#. i18n: file: khelpcenterui.rc:12
+#. i18n: file: khelpcenterui.rc:10
 #. i18n: ectx: Menu (edit)
 #: rc.cpp:15
 msgid "&Edit"
 msgstr "&Sererastkirin"
 
-#. i18n: file: khelpcenterui.rc:20
+#. i18n: file: khelpcenterui.rc:18
 #. i18n: ectx: Menu (view)
 #: rc.cpp:18
 msgid "&View"
 msgstr "&Dîmen"
 
-#. i18n: file: khelpcenterui.rc:25
+#. i18n: file: khelpcenterui.rc:23
 #. i18n: ectx: Menu (go)
 #: rc.cpp:21
 msgid "&Go"
 msgstr "&Biçe"
 
-#. i18n: file: khelpcenterui.rc:40
+#. i18n: file: khelpcenterui.rc:37
 #. i18n: ectx: ToolBar (mainToolBar)
 #: rc.cpp:24
 msgid "Main Toolbar"
@@ -603,42 +595,48 @@ msgstr "Bilintirîn &armanc"
 msgid "&Scope selection:"
 msgstr "Hilbijartina &Qadê:"
 
-#: searchwidget.cpp:110
+#: searchwidget.cpp:109
 msgid "Scope"
 msgstr "Qad"
 
-#: searchwidget.cpp:113
+#: searchwidget.cpp:112
 msgid "Build Search &Index..."
 msgstr "Lênûsa lêgerînê ava bike"
 
-#: searchwidget.cpp:368
+#: searchwidget.cpp:367
 msgctxt "Label for searching documentation using custom (user defined) scope"
 msgid "Custom"
 msgstr "Taybet  "
 
-#: searchwidget.cpp:370
+#: searchwidget.cpp:369
 msgctxt "Label for searching documentation using default search scope"
 msgid "Default"
 msgstr "Standard"
 
-#: searchwidget.cpp:372
+#: searchwidget.cpp:371
 msgctxt "Label for searching documentation in all subsections"
 msgid "All"
 msgstr "Hemû"
 
-#: searchwidget.cpp:374
+#: searchwidget.cpp:373
 msgctxt "Label for scope that deselects all search subsections"
 msgid "None"
 msgstr "Ti yek"
 
-#: searchwidget.cpp:376
+#: searchwidget.cpp:375
 msgctxt "Label for Unknown search scope, that should never appear"
 msgid "unknown"
 msgstr "nenas"
 
-#: view.cpp:211
+#: view.cpp:212
 msgid "Copy Link Address"
 msgstr "Navnîşana Girêdanê Ji Ber Bigire"
+
+#~ msgid "Build Search Index..."
+#~ msgstr "Pêrista lêgerînê ava bike..."
+
+#~ msgid "Show Search Error Log"
+#~ msgstr "Rojnivîska Çewtiya Lêgerînê Nîşan Bide"
 
 #~ msgid "ht://dig home page"
 #~ msgstr "ht://dig serûpel"
