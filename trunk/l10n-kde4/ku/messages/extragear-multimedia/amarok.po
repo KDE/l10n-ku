@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-07-29 05:41+0200\n"
+"POT-Creation-Date: 2010-07-30 05:25+0200\n"
 "PO-Revision-Date: 2009-02-21 06:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -603,7 +603,7 @@ msgid "Add Position Marker"
 msgstr ""
 
 #: amarokurls/BookmarkModel.cpp:86
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:366
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:376
 #, fuzzy
 #| msgid "Group By"
 msgid "Group"
@@ -616,7 +616,7 @@ msgstr "Kom Alî yê"
 #. i18n: file: aboutdialog/OcsPersonItem.ui:137
 #. i18n: ectx: property (text), widget (QLabel, m_textLabel)
 #: amarokurls/BookmarkModel.cpp:265
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:365
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:375
 #: playlistgenerator/TreeModel.cpp:67 rc.cpp:1178 rc.cpp:1184 rc.cpp:1190
 msgid "Name"
 msgstr "Nav"
@@ -1263,7 +1263,7 @@ msgstr "Rêje kirin:"
 #. i18n: ectx: property (text), widget (QLabel, label_StrictnessRating)
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:280
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:918
-#: dynamic/biases/EchoNest.cpp:112 rc.cpp:2388 rc.cpp:2453 rc.cpp:2516
+#: dynamic/biases/EchoNest.cpp:110 rc.cpp:2388 rc.cpp:2453 rc.cpp:2516
 #: rc.cpp:2552 rc.cpp:2603 rc.cpp:2633
 msgid "Match:"
 msgstr "Hevgirtî:"
@@ -1408,66 +1408,6 @@ msgstr "hate guherîn"
 msgid "Random (modified)"
 msgstr "hate guherîn"
 
-#: browsers/playlistbrowser/PlaylistBrowserCategory.cpp:88
-#, fuzzy
-#| msgid "File Extension of Source"
-msgid "Visible Sources"
-msgstr "Pêveka Dosiya Çavkaniyê"
-
-#: browsers/playlistbrowser/PlaylistBrowserCategory.cpp:231
-#, fuzzy
-#| msgid "Folder"
-msgctxt "default name for new folder"
-msgid "New Folder"
-msgstr "Peldank"
-
-#: browsers/playlistbrowser/PlaylistBrowserCategory.cpp:233
-#, fuzzy, kde-format
-#| msgid "Folder"
-msgctxt "default name for new folder"
-msgid "New Folder (%1)"
-msgstr "Peldank"
-
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:90
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:171
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:216
-#, fuzzy, kde-format
-#| msgid "Playlist"
-msgctxt "number of playlists from one source"
-msgid "One Playlist"
-msgid_plural "%1 playlists"
-msgstr[0] "Lîsteya Lêdanê"
-msgstr[1] "Lîsteya Lêdanê"
-
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:367
-#, fuzzy
-#| msgid "Source"
-msgid "Source"
-msgstr "Çavkanî"
-
-#: browsers/playlistbrowser/PlaylistsInFoldersProxy.cpp:33
-#, fuzzy
-#| msgid "&Rename group"
-msgid "&Rename Folder..."
-msgstr "Navê komê &biguherîne"
-
-#: browsers/playlistbrowser/PlaylistsInFoldersProxy.cpp:39
-#, fuzzy
-#| msgid "Delete Files"
-msgid "&Delete Folder"
-msgstr "Pelan Jê Bibe"
-
-#: browsers/playlistbrowser/PlaylistsInFoldersProxy.cpp:295
-msgid "New name"
-msgstr "Navê nû"
-
-#: browsers/playlistbrowser/PlaylistsInFoldersProxy.cpp:297
-#, fuzzy
-#| msgid "Enter new group name:"
-msgctxt "Enter a new name for a folder that already exists"
-msgid "Enter new folder name:"
-msgstr "Navê koma nû têkevê:"
-
 #: browsers/playlistbrowser/PodcastCategory.cpp:99
 msgid "Podcasts"
 msgstr "Podcast"
@@ -1531,6 +1471,83 @@ msgstr ""
 msgid "Select OPML file to import"
 msgstr ""
 
+#: browsers/playlistbrowser/UserPlaylistCategory.cpp:58
+#, fuzzy
+#| msgid "&Save Playlist"
+msgid "Saved Playlists"
+msgstr "Lîsteya Lêdanê &Tomar Bike"
+
+#: browsers/playlistbrowser/UserPlaylistCategory.cpp:59
+msgid "User generated and imported playlists"
+msgstr ""
+
+#: browsers/playlistbrowser/UserPlaylistCategory.cpp:62
+msgid ""
+"Create, edit, organize and load playlists. Amarok automatically adds any "
+"playlists found when scanning your collection, and any playlists that you "
+"save are also shown here."
+msgstr ""
+
+#: browsers/playlistbrowser/PlaylistBrowserCategory.cpp:88
+#, fuzzy
+#| msgid "File Extension of Source"
+msgid "Visible Sources"
+msgstr "Pêveka Dosiya Çavkaniyê"
+
+#: browsers/playlistbrowser/PlaylistBrowserCategory.cpp:231
+#, fuzzy
+#| msgid "Folder"
+msgctxt "default name for new folder"
+msgid "New Folder"
+msgstr "Peldank"
+
+#: browsers/playlistbrowser/PlaylistBrowserCategory.cpp:233
+#, fuzzy, kde-format
+#| msgid "Folder"
+msgctxt "default name for new folder"
+msgid "New Folder (%1)"
+msgstr "Peldank"
+
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:90
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:171
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:216
+#, fuzzy, kde-format
+#| msgid "Playlist"
+msgctxt "number of playlists from one source"
+msgid "One Playlist"
+msgid_plural "%1 playlists"
+msgstr[0] "Lîsteya Lêdanê"
+msgstr[1] "Lîsteya Lêdanê"
+
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:377
+#, fuzzy
+#| msgid "Source"
+msgid "Source"
+msgstr "Çavkanî"
+
+#: browsers/playlistbrowser/PlaylistsInFoldersProxy.cpp:33
+#, fuzzy
+#| msgid "&Rename group"
+msgid "&Rename Folder..."
+msgstr "Navê komê &biguherîne"
+
+#: browsers/playlistbrowser/PlaylistsInFoldersProxy.cpp:39
+#, fuzzy
+#| msgid "Delete Files"
+msgid "&Delete Folder"
+msgstr "Pelan Jê Bibe"
+
+#: browsers/playlistbrowser/PlaylistsInFoldersProxy.cpp:295
+msgid "New name"
+msgstr "Navê nû"
+
+#: browsers/playlistbrowser/PlaylistsInFoldersProxy.cpp:297
+#, fuzzy
+#| msgid "Enter new group name:"
+msgctxt "Enter a new name for a folder that already exists"
+msgid "Enter new folder name:"
+msgstr "Navê koma nû têkevê:"
+
 #: browsers/playlistbrowser/PodcastModel.cpp:73
 #, fuzzy
 #| msgid "&Next"
@@ -1562,23 +1579,6 @@ msgstr "Podcast &Lê Zêde Bike"
 #| msgid "Enter Stream URL:"
 msgid "Enter RSS 1.0/2.0 or Atom feed URL:"
 msgstr "Darêja URL yê Bikeve:"
-
-#: browsers/playlistbrowser/UserPlaylistCategory.cpp:58
-#, fuzzy
-#| msgid "&Save Playlist"
-msgid "Saved Playlists"
-msgstr "Lîsteya Lêdanê &Tomar Bike"
-
-#: browsers/playlistbrowser/UserPlaylistCategory.cpp:59
-msgid "User generated and imported playlists"
-msgstr ""
-
-#: browsers/playlistbrowser/UserPlaylistCategory.cpp:62
-msgid ""
-"Create, edit, organize and load playlists. Amarok automatically adds any "
-"playlists found when scanning your collection, and any playlists that you "
-"save are also shown here."
-msgstr ""
 
 #: browsers/servicebrowser/ServiceBrowser.cpp:44
 msgid ""
@@ -3594,11 +3594,6 @@ msgid_plural " Items"
 msgstr[0] "Hêman"
 msgstr[1] "Hêman"
 
-#: core-impl/podcasts/sql/SqlPodcastMeta.cpp:389
-#: core/podcasts/PodcastMeta.h:412
-msgid "Podcast"
-msgstr "Podcast"
-
 #: core-impl/podcasts/sql/SqlPodcastProvider.h:50
 msgid "Local Podcasts"
 msgstr "Podcast ên Herêmî"
@@ -3722,6 +3717,11 @@ msgstr "Podcasta \"%1\" Tê Daxistin"
 #, kde-format
 msgid "Unable to save podcast episode file to %1"
 msgstr "Nekarî beşa ji torê tê anîn tomar bike di pela %1 de"
+
+#: core-impl/podcasts/sql/SqlPodcastMeta.cpp:389
+#: core/podcasts/PodcastMeta.h:412
+msgid "Podcast"
+msgstr "Podcast"
 
 #: core/meta/support/MetaUtility.cpp:355
 msgctxt "The quality of music"
@@ -5531,23 +5531,23 @@ msgstr "Lîsteya Lêdanê tê afirandin..."
 msgid "Match Type:"
 msgstr "Hevgirtî:"
 
-#: dynamic/biases/EchoNest.cpp:52
+#: dynamic/biases/EchoNest.cpp:50
 #, fuzzy
 #| msgid "Retrieve similar artists"
 msgid "Echo Nest Similar Artists"
 msgstr "Hunermendên wekî vê bîne"
 
-#: dynamic/biases/EchoNest.cpp:115
+#: dynamic/biases/EchoNest.cpp:113
 #, fuzzy
 #| msgid "Love Current Track"
 msgid "Current Track"
 msgstr "Ji ve perçeyê hez bike"
 
-#: dynamic/biases/EchoNest.cpp:116 playlist/PlaylistDock.cpp:45
+#: dynamic/biases/EchoNest.cpp:114 playlist/PlaylistDock.cpp:45
 msgid "Playlist"
 msgstr "Lîsteya Lêdanê"
 
-#: dynamic/biases/EchoNest.cpp:122
+#: dynamic/biases/EchoNest.cpp:120
 #, fuzzy
 #| msgid "My Recommendations"
 msgid "Recommendations by Echo Nest."
@@ -7113,22 +7113,6 @@ msgstr "Lêdana Dawî"
 msgid "Mood"
 msgstr "Rewş"
 
-#: playlist/PlaylistDock.cpp:73
-msgid "Dynamic Mode Enabled"
-msgstr ""
-
-#: playlist/PlaylistDock.cpp:136
-#, fuzzy
-#| msgid "Current Playlist"
-msgid "&Save Current Playlist"
-msgstr "Lîsteya Lêdanê yê Niha"
-
-#: playlist/PlaylistDock.cpp:206
-#, fuzzy, kde-format
-#| msgid "&Save Playlist"
-msgid "&Save playlist to \"%1\""
-msgstr "Lîsteya Lêdanê &Tomar Bike"
-
 #: playlist/PlaylistViewUrlGenerator.cpp:82
 #, fuzzy, kde-format
 #| msgid "Filters"
@@ -7165,6 +7149,22 @@ msgstr "Lîsteya Lêdanê"
 #: playlist/PlaylistActions.cpp:408
 msgid "Too many errors encountered in playlist. Playback stopped."
 msgstr ""
+
+#: playlist/PlaylistDock.cpp:72
+msgid "Dynamic Mode Enabled"
+msgstr ""
+
+#: playlist/PlaylistDock.cpp:135
+#, fuzzy
+#| msgid "Current Playlist"
+msgid "&Save Current Playlist"
+msgstr "Lîsteya Lêdanê yê Niha"
+
+#: playlist/PlaylistDock.cpp:205
+#, fuzzy, kde-format
+#| msgid "&Save Playlist"
+msgid "&Save playlist to \"%1\""
+msgstr "Lîsteya Lêdanê &Tomar Bike"
 
 #: playlistgenerator/ConstraintGroup.cpp:84
 #, fuzzy
