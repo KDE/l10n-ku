@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-08-07 05:11+0200\n"
+"POT-Creation-Date: 2010-08-08 05:17+0200\n"
 "PO-Revision-Date: 2009-02-21 06:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -1391,10 +1391,7 @@ msgstr ""
 #: browsers/playlistbrowser/DynamicModel.cpp:99
 #: browsers/playlistbrowser/DynamicModel.cpp:179
 #: browsers/playlistbrowser/DynamicModel.cpp:559
-#: playlist/PlaylistBreadcrumbItem.cpp:122
-#: playlist/PlaylistBreadcrumbLevel.cpp:30
-#: playlist/PlaylistBreadcrumbLevel.cpp:48
-#: playlist/proxymodels/SortScheme.cpp:91 widgets/SmartPlaylistEditor.cpp:238
+#: widgets/SmartPlaylistEditor.cpp:238
 msgid "Random"
 msgstr "Rasthatî"
 
@@ -6368,12 +6365,6 @@ msgstr "Stefan Bogner"
 msgid "Loads of stuff"
 msgstr ""
 
-#: playlist/PlaylistBreadcrumbItem.cpp:110
-#, fuzzy
-#| msgid "The number of undo levels in the playlist."
-msgid "Add a sorting level to the playlist."
-msgstr "Hejmara astên paş-de anînê di lîsteya lêdanê de."
-
 #: playlist/PlaylistDefines.h:86
 #, fuzzy
 #| msgid "placeholder"
@@ -6620,14 +6611,6 @@ msgstr "Cure"
 msgctxt "'Year' playlist column name and token for playlist layouts"
 msgid "Year"
 msgstr "Sal"
-
-#: playlist/PlaylistSortWidget.cpp:43
-msgid "Clear the playlist sorting configuration."
-msgstr ""
-
-#: playlist/PlaylistSortWidget.cpp:53
-msgid "Add a playlist sorting level."
-msgstr ""
 
 #: playlist/ProgressiveSearchWidget.cpp:44
 msgid "Warning: tracks have been hidden in the playlist"
@@ -7036,6 +7019,13 @@ msgstr "&Ecibandinên Bêhtir"
 msgid "Not Recently Played"
 msgstr "Yên Dawiyê Nehatine &Lêdan"
 
+#: playlist/proxymodels/SortScheme.cpp:91
+#: playlist/PlaylistBreadcrumbItem.cpp:122
+#: playlist/PlaylistBreadcrumbLevel.cpp:30
+#: playlist/PlaylistBreadcrumbLevel.cpp:48
+msgid "Shuffle"
+msgstr ""
+
 #: playlist/view/PlaylistViewCommon.cpp:118 MainWindow.cpp:917
 msgid "Queue Track"
 msgstr "Stran Rêz Kirî"
@@ -7132,15 +7122,6 @@ msgstr " lêdan"
 msgid "Bookmark Playlist Setup"
 msgstr "Lîsteya Lêdanê ya Baqil"
 
-#: playlist/PlaylistViewUrlRunner.cpp:107
-#, fuzzy
-#| msgid "Playlist"
-msgctxt ""
-"A type of command that affects the sorting, layout and filtering int he "
-"Playlist"
-msgid "Playlist"
-msgstr "Lîsteya Lêdanê"
-
 #: playlist/PlaylistDock.cpp:72
 msgid "Dynamic Mode Enabled"
 msgstr ""
@@ -7160,6 +7141,29 @@ msgstr "Lîsteya Lêdanê &Tomar Bike"
 #: playlist/PlaylistActions.cpp:408
 msgid "Too many errors encountered in playlist. Playback stopped."
 msgstr ""
+
+#: playlist/PlaylistBreadcrumbItem.cpp:110
+#, fuzzy
+#| msgid "The number of undo levels in the playlist."
+msgid "Add a sorting level to the playlist."
+msgstr "Hejmara astên paş-de anînê di lîsteya lêdanê de."
+
+#: playlist/PlaylistSortWidget.cpp:43
+msgid "Clear the playlist sorting configuration."
+msgstr ""
+
+#: playlist/PlaylistSortWidget.cpp:53
+msgid "Add a playlist sorting level."
+msgstr ""
+
+#: playlist/PlaylistViewUrlRunner.cpp:107
+#, fuzzy
+#| msgid "Playlist"
+msgctxt ""
+"A type of command that affects the sorting, layout and filtering int he "
+"Playlist"
+msgid "Playlist"
+msgstr "Lîsteya Lêdanê"
 
 #: playlistgenerator/ConstraintGroup.cpp:84
 #, fuzzy
