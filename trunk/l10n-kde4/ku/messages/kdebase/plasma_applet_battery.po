@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_battery\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-08-04 05:03+0200\n"
+"POT-Creation-Date: 2010-08-11 05:06+0200\n"
 "PO-Revision-Date: 2008-12-26 00:33+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
@@ -19,32 +19,32 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural= n != 1;\n"
 "X-Poedit-Language: Kurdish\n"
 
-#: battery.cpp:198 battery.cpp:661
+#: battery.cpp:198 battery.cpp:653
 #, fuzzy
 #| msgid "On Battery"
 msgid "Battery:"
 msgstr "Pîl"
 
-#: battery.cpp:205 battery.cpp:668
+#: battery.cpp:205 battery.cpp:660
 #, fuzzy, kde-format
 #| msgid "On Battery"
 msgctxt "Placeholder is the battery ID"
 msgid "Battery %1:"
 msgstr "Pîl"
 
-#: battery.cpp:216 battery.cpp:675
+#: battery.cpp:216 battery.cpp:667
 #, fuzzy
 #| msgid "AC Adapter"
 msgid "AC Adapter:"
 msgstr "Adaptorê AC"
 
-#: battery.cpp:217 battery.cpp:677
+#: battery.cpp:217 battery.cpp:669
 #, fuzzy
 #| msgid "Plugged in"
 msgid "Plugged in"
 msgstr "Tê de"
 
-#: battery.cpp:217 battery.cpp:679
+#: battery.cpp:217 battery.cpp:671
 #, fuzzy
 #| msgid "Plugged in"
 msgid "Not plugged in"
@@ -61,78 +61,74 @@ msgctxt "Label for remaining time"
 msgid "Time Remaining:"
 msgstr "Demê mayî: <b>%1</b><br />"
 
-#: battery.cpp:510
-#, fuzzy
-#| msgid "Screen Brightness"
-msgid "Screen Brightness:"
-msgstr "Ronahiya Dîmenê"
-
-#: battery.cpp:512
-msgid "Screen Brightness"
-msgstr "Ronahiya Dîmenê"
-
-#: battery.cpp:529
+#: battery.cpp:509
 #, fuzzy
 #| msgid "Power Profile"
 msgid "Power Profile:"
 msgstr "Profîla Hêzê"
 
-#: battery.cpp:557
+#: battery.cpp:522
+#, fuzzy
+#| msgid "Screen Brightness"
+msgid "Screen Brightness:"
+msgstr "Ronahiya Dîmenê"
+
+#: battery.cpp:549
 #, fuzzy
 #| msgid "Sleep"
 msgctxt "Suspend the computer to RAM; translation should be short"
 msgid "Sleep"
 msgstr "Bide Razan"
 
-#: battery.cpp:564
+#: battery.cpp:556
 #, fuzzy
 #| msgid "Hibernate"
 msgctxt "Suspend the computer to disk; translation should be short"
 msgid "Hibernate"
 msgstr "Bide Sekinandin "
 
-#: battery.cpp:571
+#: battery.cpp:563
 #, fuzzy
 #| msgid "Power Management"
 msgctxt "tooltip on the config button in the popup"
 msgid "Configure Power Management..."
 msgstr "Rêveberiya Hezê"
 
-#: battery.cpp:585
+#: battery.cpp:577
 msgid "Power Management"
 msgstr "Rêveberiya Hezê"
 
-#: battery.cpp:631
+#: battery.cpp:623
 #, fuzzy, kde-format
 #| msgid "<b>Battery:</b> %1% (fully charged)<br />"
 msgid "%1% (charged)"
 msgstr "<b>Pîl:</b> %1% (şarj tijî bû)<br />"
 
-#: battery.cpp:636
+#: battery.cpp:628
 #, fuzzy, kde-format
 #| msgctxt "Shown when a time estimate is not available"
 #| msgid "<b>Battery:</b> %1% (discharging)<br />"
 msgid "%1% (discharging)"
 msgstr "<b>Pîl:</b> %1% (şarj tê vala kirin)<br />"
 
-#: battery.cpp:642
+#: battery.cpp:634
 #, kde-format
 msgid "%1% (charging)"
 msgstr ""
 
-#: battery.cpp:645 battery.cpp:694
+#: battery.cpp:637 battery.cpp:686
 msgctxt "Battery is not plugged in"
 msgid "Not present"
 msgstr ""
 
-#: battery.cpp:693
+#: battery.cpp:685
 #, fuzzy
 #| msgctxt "Battery is not plugged in"
 #| msgid "<b>Battery:</b> not present<br />"
 msgid "<b>Battery:</b> "
 msgstr "<b>Pîl:</b> tune ye<br />"
 
-#: battery.cpp:945 battery.cpp:976 battery.cpp:988
+#: battery.cpp:937 battery.cpp:968 battery.cpp:980
 #, kde-format
 msgctxt "overlay on the battery, needs to be really tiny"
 msgid "%1%"
@@ -155,6 +151,9 @@ msgstr ""
 #: rc.cpp:9 rc.cpp:18
 msgid "Show the state for &each battery present"
 msgstr "Rewşa her pîlekê bi rêjeya ji sedî nîşan bide"
+
+#~ msgid "Screen Brightness"
+#~ msgstr "Ronahiya Dîmenê"
 
 #, fuzzy
 #~| msgctxt "Shown when a time estimate is not available"
