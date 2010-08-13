@@ -2,25 +2,29 @@
 # Kurdish translation for kdelibs
 # Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
 # This file is distributed under the same license as the kdelibs package.
-#
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2006.
 # Erdal Ronahi <erdal.ronahi@gmail.com>, 2006, 2008.
 # Erdal Ronahi <erdal dot ronahi at gmail dot com>, 2007, 2008, 2009.
 # Amed Çeko Jiyan <amedcj@gmail.com>, 2008.
+# Erdal Ronahî <erdal.ronahi@gmail.com>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2010-08-13 05:42+0200\n"
-"PO-Revision-Date: 2009-01-05 14:53+0200\n"
-"Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
-"Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
+"PO-Revision-Date: 2010-08-13 15:45+0200\n"
+"Last-Translator: Erdal Ronahî <erdal.ronahi@gmail.com>\n"
+"Language-Team: Kurdish Team http://pckurd.net\n"
+"Language: ku\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural= n != 1;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.6.1\n"
 "X-Launchpad-Export-Date: 2007-11-26 09:44+0000\n"
-"X-Generator: Lokalize 0.2\n"
+"X-Poedit-Language: Kurdish\n"
+"X-Poedit-Country: Kurdistan\n"
+"X-Poedit-SourceCharset: utf-8\n"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -79,6 +83,8 @@ msgid ""
 "The program executes 100 jobs in 4 threads. Each job waits for a random "
 "number of milliseconds between 1 and 1000."
 msgstr ""
+"Bername di 4 parçeyan de 100 karan dixebitîne. Her kar di navbera 1 û 1000 "
+"mîlîçirkeyan de li bendê dimîne."
 
 #. i18n: file: threadweaver/Examples/Jobs/JobsBase.ui:36
 #. i18n: ectx: property (toolTip), widget (QCheckBox, cbLog)
@@ -87,14 +93,14 @@ msgid ""
 "Check to see logging information about thread activity. Watch the console "
 "output to see the log information."
 msgstr ""
+"Agahiyên rojnivîska derbarê çalakiyên parçeyê kontrol bike. Derananîna "
+"konsolê binihêre ku agahiyên rojnivîskê bibînî."
 
 #. i18n: file: threadweaver/Examples/Jobs/JobsBase.ui:39
 #. i18n: ectx: property (text), widget (QCheckBox, cbLog)
 #: rc.cpp:23
-#, fuzzy
-#| msgid "Log Thread Activity"
 msgid "Log thread activity"
-msgstr "Çalakiya Parçeya Tomarê"
+msgstr "Rojnivîska çalakiyên parçeyan"
 
 #. i18n: file: threadweaver/Examples/Jobs/JobsBase.ui:59
 #. i18n: ectx: property (toolTip), widget (ThreadWeaver::WeaverThreadGrid, threadGrid)
@@ -122,7 +128,7 @@ msgstr "Rawestîne"
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:38
 msgid "GUI based example for the Weaver Thread Manager"
-msgstr ""
+msgstr "Mînakên grafîkî ji bo Gerînendeyê Tevnkerê Perçeyan"
 
 #. i18n: file: threadweaver/Examples/Jobs/JobsBase.ui:205
 #. i18n: ectx: property (text), widget (QLabel, label_2)
@@ -218,26 +224,20 @@ msgstr ""
 #. i18n: file: knotify/config/knotifyconfigactionswidgetbase.ui:123
 #. i18n: ectx: property (text), item, widget (KComboBox, KTTS_combo)
 #: rc.cpp:84
-#, fuzzy
-#| msgid "Speak event message"
 msgid "Speak Event Message"
-msgstr "Peyama buyerê bibêje"
+msgstr "Peyama Buyerê Bibêje"
 
 #. i18n: file: knotify/config/knotifyconfigactionswidgetbase.ui:128
 #. i18n: ectx: property (text), item, widget (KComboBox, KTTS_combo)
 #: rc.cpp:87
-#, fuzzy
-#| msgid "Speak event name"
 msgid "Speak Event Name"
-msgstr "Navê buyerê bibêje"
+msgstr "Navê Buyerê Bibêje"
 
 #. i18n: file: knotify/config/knotifyconfigactionswidgetbase.ui:133
 #. i18n: ectx: property (text), item, widget (KComboBox, KTTS_combo)
 #: rc.cpp:90
-#, fuzzy
-#| msgid "Speak custom text"
 msgid "Speak Custom Text"
-msgstr "Tekstekê taybet bibêje"
+msgstr "Tekstekê Taybet Bibêje"
 
 #. i18n: file: interfaces/ktexteditor/editorchooser_ui.ui:5
 #. i18n: ectx: property (windowTitle), widget (QWidget, EditorChooser)
@@ -248,21 +248,16 @@ msgstr "Bijartoka Sererastkerê"
 #. i18n: file: interfaces/ktexteditor/editorchooser_ui.ui:19
 #. i18n: ectx: property (text), widget (QLabel, TextLabel1)
 #: rc.cpp:100
-#, fuzzy
-#| msgid ""
-#| "Please choose the default text editing component that you wish to use in "
-#| "this application. If you choose <B>System Default</B>, the application "
-#| "will honor your changes in the Control Center. All other choices will "
-#| "override that setting."
 msgid ""
 "Please choose the default text editing component that you wish to use in "
 "this application. If you choose <B>System Default</B>, the application will "
 "honor your changes in the System Settings. All other choices will override "
 "that setting."
 msgstr ""
-"Ji kerema xwe bo vê sepanê sererastkereke ku tu dikarî bikar bîne diyar "
-"bike. Heke tu pêl vebijarka <B>Pergal Standard e</B> bike, dê ev sepan "
-"guherînan li Navenda Kontrolê bisepîne."
+"Ji kerema xwe bo vê sepanê sererastkereke ku tu dikarî bikar bînî diyar "
+"bike. Heke tu pêl vebijarka <B>Pergal Standard e</B> bikî, dê ev sepan "
+"guherînan li Mîhengên Pergalê bisepîne. Hemû bijareyên din dê vê mîhengê "
+"betal bikin."
 
 #. i18n: file: kross/test/testguiform.ui:44
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
@@ -379,6 +374,8 @@ msgid ""
 "This font is used when a fixed font is needed. A fixed font has a constant "
 "width.\n"
 msgstr ""
+"Ev curenivîs, wextê curenivîsekî sabît hewce be tê bikaranîn. Curenivîsa "
+"sabît xwedî firehiyekî sabît e. \n"
 
 #. i18n: file: kutils/kdeglobals.kcfg:46
 #. i18n: ectx: label, entry, group (General)
@@ -639,26 +636,20 @@ msgstr "Navê Bikarhêner:"
 #. i18n: file: knewstuff/knewstuff3/downloadwidget.ui:54
 #. i18n: ectx: property (text), widget (QLabel, m_providerLabel)
 #: rc.cpp:279 rc.cpp:378
-#, fuzzy
-#| msgid "Provider: %1"
 msgid "Provider:"
-msgstr "Belavkar: %1"
+msgstr "Peydeker:"
 
 #. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:141
 #. i18n: ectx: property (text), widget (QLabel, uploadFileLabel)
 #: rc.cpp:282
-#, fuzzy
-#| msgid "Page loaded."
 msgid "File to upload:"
-msgstr "Rûpel hate barkirin."
+msgstr "Pela dê were barkirin:"
 
 #. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:151
 #. i18n: ectx: property (text), widget (QRadioButton, radioNewUpload)
 #: rc.cpp:285
-#, fuzzy
-#| msgid "Reload"
 msgid "New Upload"
-msgstr "Nûbarkirin"
+msgstr "Barkirina Nû"
 
 #. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:164
 #. i18n: ectx: property (text), widget (QRadioButton, radioUpdate)
@@ -704,10 +695,8 @@ msgstr "Daxuyanî:"
 #. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:223
 #. i18n: ectx: property (text), widget (QLabel, priceLabel_2)
 #: rc.cpp:303 knewstuff/knewstuff3/ui/entrydetailsdialog.cpp:108
-#, fuzzy
-#| msgid "Changelog"
 msgid "Changelog:"
-msgstr "Girteya Guhartinan"
+msgstr "Rojnivîska Guhartinan"
 
 #. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:233
 #. i18n: ectx: property (text), widget (QLabel, label_5)
@@ -728,10 +717,9 @@ msgstr "Lîsans:"
 #. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:259
 #. i18n: ectx: property (text), widget (QLabel, label_12)
 #: rc.cpp:312
-#, fuzzy
-#| msgid "Please give some information about yourself."
 msgid "Please fill out the information about your upload in English."
-msgstr "Ji kerema xwe di derbarê xwe de hinek agahî bide."
+msgstr ""
+"Ji kerema xwe derbarê barkirina xwe ya bi İngilîzî de hinek agahî bide."
 
 #. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:275
 #. i18n: ectx: property (text), widget (QLabel, label_4)
@@ -746,16 +734,14 @@ msgstr "Sernav:"
 #. i18n: file: knewstuff/knewstuff3/downloadwidget.ui:71
 #. i18n: ectx: property (text), widget (QLabel, m_categoryLabel)
 #: rc.cpp:318 rc.cpp:381
-#, fuzzy
-#| msgid "Character:"
 msgid "Category:"
-msgstr "Karakter:"
+msgstr "Kategorî:"
 
 #. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:310
 #. i18n: ectx: property (toolTip), widget (KLineEdit, mNameEdit)
 #: rc.cpp:321
 msgid "Name of the file as it will appear on the website"
-msgstr ""
+msgstr "Navê pelê wekî yê ku di malperê de diyar dibe"
 
 #. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:313
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, mNameEdit)
@@ -764,14 +750,14 @@ msgid ""
 "This should clearly describe the file content. It can be the same text as "
 "the title of the kvtml file."
 msgstr ""
+"Ev bi hêsanî naveroka pelê dide nasîn. Ev nivîs dikare bibe wekî sernavê "
+"pela kvtml."
 
 #. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:327
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: rc.cpp:327
-#, fuzzy
-#| msgid "Preview URL:"
 msgid "Preview Images"
-msgstr "Navnîşana Pêşdîtinê:"
+msgstr "Pêşdîtina Wêneyan"
 
 #. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:336
 #. i18n: ectx: property (text), widget (QPushButton, changePreview1Button)
@@ -780,92 +766,75 @@ msgstr "Navnîşana Pêşdîtinê:"
 #. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:350
 #. i18n: ectx: property (text), widget (QPushButton, changePreview2Button)
 #: rc.cpp:330 rc.cpp:333 rc.cpp:336
-#, fuzzy
-#| msgid "Select Files..."
 msgid "Select Preview..."
-msgstr "Pelan Hilbijêre..."
+msgstr "Pêşdîtinê Hilbijêre..."
 
 #. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:426
 #. i18n: ectx: property (text), widget (QCheckBox, priceCheckBox)
 #: rc.cpp:339
-#, fuzzy
-#| msgid "Ne&ver for This Site"
 msgid "Set a price for this item"
-msgstr "Ji Bo Vî Rûpelî &Tu Carî"
+msgstr "Ji bo vê hêmanê nirxa bihayî ava bike"
 
 #. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:436
 #. i18n: ectx: property (title), widget (QGroupBox, priceGroupBox)
 #: rc.cpp:342
-#, fuzzy
-#| msgctxt "The source url of a job"
-#| msgid "Source:"
 msgid "Price"
-msgstr "Çavkanî:"
+msgstr "Biha"
 
 #. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:445
 #. i18n: ectx: property (text), widget (QLabel, priceLabel)
 #: rc.cpp:345
-#, fuzzy
-#| msgctxt "The source url of a job"
-#| msgid "Source:"
 msgid "Price:"
-msgstr "Çavkanî:"
+msgstr "Biha:"
 
 #. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:472
 #. i18n: ectx: property (text), widget (QLabel, priceReasonLabel)
 #: rc.cpp:348
 msgid "Reason for price:"
-msgstr ""
+msgstr "Sedema biha:"
 
 #. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:589
 #. i18n: ectx: property (text), widget (QLabel, contentWebsiteLinkLabel)
 #: rc.cpp:351
 msgid "Fetch content link from server"
-msgstr ""
+msgstr "Naveroka girêdanê ji pêşkêşkerê bîne"
 
 #. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:602
 #. i18n: ectx: property (text), widget (QLabel, creatingContentLabel)
 #: rc.cpp:354
 msgid "Create content on server"
-msgstr ""
+msgstr "Naverokê li pêşkêşkerê biafirîne"
 
 #. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:615
 #. i18n: ectx: property (text), widget (QLabel, creatingContentLabel_2)
 #: rc.cpp:357
-#, fuzzy
-#| msgid "Loading Preview"
 msgid "Upload content"
-msgstr "Pêşdîtin Tê Barkirin"
+msgstr "Naverokê bar bike"
 
 #. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:628
 #. i18n: ectx: property (text), widget (QLabel, uploadPreview1Label)
 #: rc.cpp:360
-#, fuzzy
-#| msgid "Loading Preview"
 msgid "Upload first preview"
-msgstr "Pêşdîtin Tê Barkirin"
+msgstr "Pêşdîtin pêşî bar bike"
 
 #. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:658
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: rc.cpp:363
 msgid "Note: You can edit, update and delete your content on the website."
 msgstr ""
+"Nîşe: Tu dikarî naverokê li malperê de serast bikî, rojane bikî û jê bibî."
 
 #. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:674
 #. i18n: ectx: property (text), widget (QLabel, uploadPreview2Label)
 #: rc.cpp:366
-#, fuzzy
-#| msgid "Loading Preview"
 msgid "Upload second preview"
-msgstr "Pêşdîtin Tê Barkirin"
+msgstr "Pêşdîtina duyemîn barbike"
 
 #. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:687
 #. i18n: ectx: property (text), widget (QLabel, uploadPreview3Label)
 #: rc.cpp:369
-#, fuzzy
-#| msgid "Loading Preview"
 msgid "Upload third preview"
-msgstr "Pêşdîtin Tê Barkirin"
+msgstr "Pêşdîtina sêyemîn barbike"
 
 #. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:732
 #. i18n: ectx: property (text), widget (QLabel, label)
@@ -879,59 +848,44 @@ msgstr ""
 #. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:757
 #. i18n: ectx: property (text), widget (QPushButton, uploadButton)
 #: rc.cpp:375
-#, fuzzy
-#| msgid "Start replace"
 msgid "Start Upload"
-msgstr "Guherandinê bide destpêkirin"
+msgstr "Destpê Barkirinê Bike"
 
 #. i18n: file: knewstuff/knewstuff3/downloadwidget.ui:90
 #. i18n: ectx: property (text), widget (QRadioButton, newestRadio)
 #: rc.cpp:384
-#, fuzzy
-#| msgctxt "@action"
-#| msgid "New"
 msgid "Newest"
 msgstr "Nû"
 
 #. i18n: file: knewstuff/knewstuff3/downloadwidget.ui:103
 #. i18n: ectx: property (text), widget (QRadioButton, ratingRadio)
 #: rc.cpp:387
-#, fuzzy
-#| msgid "Rating: "
 msgid "Rating"
-msgstr "Nirxandin:"
+msgstr "Nirxandin"
 
 #. i18n: file: knewstuff/knewstuff3/downloadwidget.ui:110
 #. i18n: ectx: property (text), widget (QRadioButton, mostDownloadsRadio)
 #: rc.cpp:390
-#, fuzzy
-#| msgid "Most Downloads"
 msgid "Most downloads"
 msgstr "Yên Herî Zêde Hatine Daxistin"
 
 #. i18n: file: knewstuff/knewstuff3/downloadwidget.ui:117
 #. i18n: ectx: property (text), widget (QRadioButton, installedRadio)
 #: rc.cpp:393
-#, fuzzy
-#| msgid "Install"
 msgid "Installed"
-msgstr "Saz Bike"
+msgstr "Hate Sazkirin"
 
 #. i18n: file: knewstuff/knewstuff3/downloadwidget.ui:175
 #. i18n: ectx: property (text), widget (QLabel, orderLabel)
 #: rc.cpp:396
-#, fuzzy
-#| msgid "&Order by:"
 msgid "Order by:"
-msgstr "&Rêz bike li gorî:"
+msgstr "Rêz bike li gorî:"
 
 #. i18n: file: knewstuff/knewstuff3/downloadwidget.ui:185
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: rc.cpp:399
-#, fuzzy
-#| msgid "S&earch:"
 msgid "Search:"
-msgstr "Bi&gere:"
+msgstr "Lê Bigere:"
 
 #. i18n: file: knewstuff/knewstuff3/downloadwidget.ui:211
 #. i18n: ectx: property (clickMessage), widget (KLineEdit, m_searchEdit)
@@ -953,19 +907,19 @@ msgstr "Nivîskarê Wê:"
 #. i18n: ectx: property (text), widget (QLabel, homepageLabel)
 #: rc.cpp:408
 msgid "<a href=\"http://opendesktop.org\">Homepage</a>"
-msgstr ""
+msgstr "<a href=\"http://opendesktop.org\">Malper</a>"
 
 #. i18n: file: knewstuff/knewstuff3/downloadwidget.ui:416
 #. i18n: ectx: property (text), widget (KPushButton, voteGoodButton)
 #: rc.cpp:411
 msgid "I like this"
-msgstr ""
+msgstr "Min vî eciband"
 
 #. i18n: file: knewstuff/knewstuff3/downloadwidget.ui:423
 #. i18n: ectx: property (text), widget (KPushButton, voteBadButton)
 #: rc.cpp:414
 msgid "I do not like this"
-msgstr ""
+msgstr "Min vî ne eciband"
 
 #. i18n: file: knewstuff/knewstuff3/downloadwidget.ui:591
 #. i18n: ectx: property (text), widget (KPushButton, uninstallButton)
@@ -983,7 +937,7 @@ msgstr "Rake"
 #. i18n: ectx: property (text), widget (KPushButton, becomeFanButton)
 #: rc.cpp:423
 msgid "Become a Fan"
-msgstr ""
+msgstr "Bibe Heyran"
 
 #. i18n: file: knewstuff/knewstuff3/downloadwidget.ui:605
 #. i18n: ectx: property (text), widget (KPushButton, installButton)
@@ -1158,7 +1112,7 @@ msgstr "Kodkirina belgeyê:"
 #. i18n: ectx: property (text), widget (QLabel, _modeLabel)
 #: rc.cpp:522
 msgid "Rendering mode:"
-msgstr ""
+msgstr "Moda ceribandinê:"
 
 #. i18n: file: khtml/htmlpageinfo.ui:186
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
@@ -1221,32 +1175,24 @@ msgstr "Navber"
 #. i18n: file: khtml/test_regression_gui.ui:147
 #. i18n: ectx: property (whatsThis), widget (QPushButton, saveLogButton)
 #: rc.cpp:552 rc.cpp:555
-#, fuzzy
-#| msgid ""
-#| "You may select a file where the log content is stored, before the "
-#| "regression testing started."
 msgid ""
 "You may select a file where the log content is stored, before the regression "
 "testing is started."
 msgstr ""
 "Beriya ku testkirina regresyonê dest pê bike, tu dikarî pelekî ku naveroka "
-"tomarê lê tomarbûye hilbijêrî!"
+"tomarê lê tomarbûye hilbijêrî."
 
 #. i18n: file: khtml/test_regression_gui.ui:150
 #. i18n: ectx: property (text), widget (QPushButton, saveLogButton)
 #: rc.cpp:558
-#, fuzzy
-#| msgid "Output to file..."
 msgid "Output to File..."
-msgstr "Pelê Derketanan..."
+msgstr "Derana ji Pelê re..."
 
 #. i18n: file: khtml/test_regression_gui.ui:162
 #. i18n: ectx: property (text), widget (QLabel, statusLabel)
 #: rc.cpp:561
-#, fuzzy
-#| msgid "Regression testing status"
 msgid "Regression Testing Status"
-msgstr "Rewşa testkirina regresyonê"
+msgstr "Rewşa Testkirina Regresyonê"
 
 #. i18n: file: khtml/test_regression_gui.ui:182
 #. i18n: ectx: attribute (title), widget (QWidget, secondTab)
@@ -1269,24 +1215,20 @@ msgstr "Test"
 #. i18n: file: khtml/test_regression_gui.ui:238
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
 #: rc.cpp:573
-#, fuzzy
-#| msgid "Only run JS tests"
 msgid "Only Run JS Tests"
-msgstr "Tenê testên JS bixebitîne"
+msgstr "Tenê Testên JS Bixebitîne"
 
 #. i18n: file: khtml/test_regression_gui.ui:246
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
 #: rc.cpp:576
-#, fuzzy
-#| msgid "Only run HTML tests"
 msgid "Only Run HTML Tests"
-msgstr "Tenê testên HTML bixebitîne"
+msgstr "Tenê Testên HTML Bixebitîne"
 
 #. i18n: file: khtml/test_regression_gui.ui:254
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
 #: rc.cpp:579
 msgid "Do Not Suppress Debug Output"
-msgstr ""
+msgstr "Deranîna Çewtiyan Asteng Neke"
 
 #. i18n: file: khtml/test_regression_gui.ui:262
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
@@ -1297,42 +1239,32 @@ msgstr "Xvfb bi kar neyîne"
 #. i18n: file: khtml/test_regression_gui.ui:267
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
 #: rc.cpp:585
-#, fuzzy
-#| msgid "Run tests..."
 msgid "Run Tests..."
-msgstr "Testan bixebitîne..."
+msgstr "Testan Bixebitîne..."
 
 #. i18n: file: khtml/test_regression_gui.ui:272
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
 #: rc.cpp:588
-#, fuzzy
-#| msgid "Run single test..."
 msgid "Run Single Test..."
-msgstr "Testekê tenê bixebitîne..."
+msgstr "Testekê Tenê Bixebitîne..."
 
 #. i18n: file: khtml/test_regression_gui.ui:277
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
 #: rc.cpp:591
-#, fuzzy
-#| msgid "Specify tests directory..."
 msgid "Specify tests Directory..."
-msgstr "Peldanka testan hilbijêre..."
+msgstr "Peldanka testan Hilbijêre..."
 
 #. i18n: file: khtml/test_regression_gui.ui:282
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
 #: rc.cpp:594
-#, fuzzy
-#| msgid "Specify khtml directory..."
 msgid "Specify khtml Directory..."
-msgstr "Peldanka khtml hilbijêre"
+msgstr "Peldanka khtml Hilbijêre..."
 
 #. i18n: file: khtml/test_regression_gui.ui:287
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
 #: rc.cpp:597
-#, fuzzy
-#| msgid "Specify output directory..."
 msgid "Specify Output Directory..."
-msgstr "Peldanka derketanan hilbijêre..."
+msgstr "Peldanka Deranan Hilbijêre..."
 
 #. i18n: file: khtml/khtml_browser.rc:4
 #. i18n: ectx: Menu (file)
@@ -1383,35 +1315,26 @@ msgstr "&Vebijêrk"
 #. i18n: file: khtml/ui/passwordbar/storepassbar_base.ui:39
 #. i18n: ectx: property (text), widget (QLabel, m_label)
 #: rc.cpp:624 khtml/ui/passwordbar/storepassbar.cpp:59
-#, fuzzy
-#| msgid "Do you really want to delete this item?"
-#| msgid_plural "Do you really want to delete these %1 items?"
 msgid "Do you want to store this password?"
-msgstr "Bi rastî jî tu dixwazî vê hêmanê jê bibî?"
+msgstr "Tu dixwazî vê nasnavê tomar bikî?"
 
 #. i18n: file: khtml/ui/passwordbar/storepassbar_base.ui:62
 #. i18n: ectx: property (text), widget (QToolButton, m_store)
 #: rc.cpp:627
-#, fuzzy
-#| msgid "Store"
 msgid "&Store"
-msgstr "Tomar Bike"
+msgstr "&Tomar Bike"
 
 #. i18n: file: khtml/ui/passwordbar/storepassbar_base.ui:72
 #. i18n: ectx: property (text), widget (QToolButton, m_neverForThisSite)
 #: rc.cpp:630
-#, fuzzy
-#| msgid "Ne&ver for This Site"
 msgid "Ne&ver store for this site"
-msgstr "Ji Bo Vî Rûpelî &Tu Carî"
+msgstr "Ji bo vî rûpelî t&u carî tomar neke"
 
 #. i18n: file: khtml/ui/passwordbar/storepassbar_base.ui:82
 #. i18n: ectx: property (text), widget (QToolButton, m_doNotStore)
 #: rc.cpp:633
-#, fuzzy
-#| msgid "Do not show this message again"
 msgid "Do &not store this time"
-msgstr "Vê peyamê careke din nîşan nede"
+msgstr "Vê carê tomar &neke"
 
 #. i18n: file: kde3support/kdeui/k3spellui.ui:33
 #. i18n: ectx: property (whatsThis), widget (QLabel, textLabel2)
@@ -1539,16 +1462,6 @@ msgstr "...peyva ku li vir <b>şaş hatiye nivîsandin</b> ..."
 #. i18n: file: kdeui/sonnet/sonnetui.ui:98
 #. i18n: ectx: property (whatsThis), widget (QPushButton, m_addBtn)
 #: rc.cpp:676 rc.cpp:1082
-#, fuzzy
-#| msgid ""
-#| "<qt>\n"
-#| "<p>The unknown word was detected and considered unknown because it is not "
-#| "included in the dictionary.<br>\n"
-#| "Click here if you consider that the unknown word is not misspelled and "
-#| "you want to avoid wrongly detecting it again in the future. If you want "
-#| "to let it remain as is, but not add it to the dictionary, then click "
-#| "<b>Ignore</b> or <b>Ignore All</b> instead.</p>\n"
-#| "</qt>"
 msgid ""
 "<qt>\n"
 "<p>The unknown word was detected and considered unknown because it is not "
@@ -1562,10 +1475,10 @@ msgstr ""
 "<qt>\n"
 "<p>Ji ber ku peyva nenas di ferhengê de nehate dîtin wekî nenas hate "
 "îşaretkirin.<br>\n"
-"Heke tu pê bawer î ku peyv şaş nehatiye nivîsîn û di kontrolkirinên pêş de "
-"tu naxwazî şaş were danasîn pêl vir bike. Heke tu dixwazî pevê wekî xwe "
-"bihêle, û naxwazî li ferhengê zêde bike, pêl bişkoka b>Piştguhkirin</b> an "
-"jî b>Hemûyan Piştguh Bike</b> bike.</p>\n"
+"Heke tu pê bawerî ku peyv şaş nehatiye nivîsîn û di kontrolkirinên pêş de tu "
+"naxwazî şaş were danasîn pêl li vir bike. Heke tu dixwazî peyvê wekî xwe "
+"bihêlî, û naxwazî li ferhengê zêde bikî, pêl bişkoka <b>Piştguhkirin</b> an "
+"jî <b>Hemûyan Piştguh Bike</b> bike.</p>\n"
 "</qt>"
 
 #. i18n: file: kde3support/kdeui/k3spellui.ui:101
@@ -2016,16 +1929,12 @@ msgstr "Kontrola Karî"
 #. i18n: file: kdeui/dialogs/kcupsoptionsjobwidget.ui:25
 #. i18n: ectx: property (text), widget (QLabel, jobHoldLabel)
 #: rc.cpp:883
-#, fuzzy
-#| msgid "Key used for signing:"
 msgid "Scheduled printing:"
-msgstr "Mifteya ji bo mohrkirinê tê bikaranîn:"
+msgstr "Organîzeya çapkirinê:"
 
 #. i18n: file: kdeui/dialogs/kcupsoptionsjobwidget.ui:38
 #. i18n: ectx: property (text), widget (QLabel, jobBillingLabel)
 #: rc.cpp:886
-#, fuzzy
-#| msgid "Billing Information:"
 msgid "Billing information:"
 msgstr "Agahiya hesabkirinê:"
 
@@ -2033,7 +1942,7 @@ msgstr "Agahiya hesabkirinê:"
 #. i18n: ectx: property (text), widget (QLabel, jobPriorityLabel)
 #: rc.cpp:889
 msgid "Job priority:"
-msgstr ""
+msgstr "Pêşîniya karan:"
 
 #. i18n: file: kdeui/dialogs/kcupsoptionsjobwidget.ui:94
 #. i18n: ectx: property (title), widget (QGroupBox, jobOptionsGroupBox)
@@ -2069,7 +1978,7 @@ msgstr "16"
 #. i18n: ectx: property (title), widget (QGroupBox, bannerPagesGroupBox)
 #: rc.cpp:925
 msgid "Banner Pages"
-msgstr ""
+msgstr "Rûpelên Sernûçe"
 
 #. i18n: file: kdeui/dialogs/kcupsoptionspageswidget.ui:95
 #. i18n: ectx: property (text), widget (QLabel, startBannerLabel)
@@ -2101,13 +2010,13 @@ msgstr "Keleka Rûpelê"
 #. i18n: ectx: property (title), widget (QGroupBox, mirrorPagesGroupBox)
 #: rc.cpp:940
 msgid "Mirror Pages"
-msgstr ""
+msgstr "Rûpelên Neynik"
 
 #. i18n: file: kdeui/dialogs/kcupsoptionspageswidget.ui:187
 #. i18n: ectx: property (text), widget (QCheckBox, mirrorPagesCheckBox)
 #: rc.cpp:943
 msgid "Mirror pages along vertical axis"
-msgstr ""
+msgstr "Rûpelên neynik ber bi tewereyên tîkane"
 
 #. i18n: file: kdeui/dialogs/kshortcutsdialog.ui:16
 #. i18n: ectx: property (whatsThis), widget (KTreeWidgetSearchLineWidget, searchFilter)
@@ -2259,10 +2168,8 @@ msgstr "&Li rûerd kontrola rastnivîsê çalak bike"
 #. i18n: file: kdeui/sonnet/configui.ui:45
 #. i18n: ectx: property (text), widget (QCheckBox, m_checkerEnabledByDefaultCB)
 #: rc.cpp:1030
-#, fuzzy
-#| msgid "As-you-type spell checking enabled."
 msgid "&Automatic spell checking enabled by default"
-msgstr "Dema nivîsandinê de kontrolkirina pêyvrêziyê çalak e."
+msgstr "Kontrola ratnivîsê ya &Bixweber bi standard çalak e"
 
 #. i18n: file: kdeui/sonnet/configui.ui:52
 #. i18n: ectx: property (text), widget (QCheckBox, m_skipUpperCB)
@@ -2432,10 +2339,8 @@ msgid "Failed to create script for interpreter \"%1\""
 msgstr "Ji bo ravekara \"%1\" skrîpt nehat afirandin"
 
 #: kross/modules/form.cpp:302
-#, fuzzy
-#| msgid "Cancel"
 msgid "Cancel?"
-msgstr "Betalkirin"
+msgstr "Betal bîke?"
 
 #: kross/ui/view.cpp:159
 msgid "Text:"
@@ -2536,35 +2441,30 @@ msgctxt ""
 "@title UDS_DISPLAY_NAME for a KIO directory listing. %1 is the query the "
 "user entered."
 msgid "Query Results from '%1'"
-msgstr ""
+msgstr "Encamên Lêpirsînê ji  '%1'"
 
 #: nepomuk/query/query.cpp:704
 msgctxt "@title UDS_DISPLAY_NAME for a KIO directory listing."
 msgid "Query Results"
-msgstr ""
+msgstr "Encamên Lêpirsînê"
 
 #: nepomuk/query/queryparser.cpp:360
-#, fuzzy
-#| msgid "Esfand"
 msgctxt ""
 "Boolean AND keyword in desktop search strings. You can add several variants "
 "separated by spaces, e.g. retain the English one alongside the translation; "
 "keywords are not case sensitive. Make sure there is no conflict with the OR "
 "keyword."
 msgid "and"
-msgstr "Esfand"
+msgstr "û"
 
 #: nepomuk/query/queryparser.cpp:369
-#, fuzzy
-#| msgctxt "Mordad short"
-#| msgid "Mor"
 msgctxt ""
 "Boolean OR keyword in desktop search strings. You can add several variants "
 "separated by spaces, e.g. retain the English one alongside the translation; "
 "keywords are not case sensitive. Make sure there is no conflict with the AND "
 "keyword."
 msgid "or"
-msgstr "Mor"
+msgstr "an"
 
 #: nepomuk/core/resource.cpp:499
 msgid "Success"
@@ -2585,35 +2485,27 @@ msgstr "Çewtiya nenas"
 
 #: nepomuk/rcgen/rcgen.cpp:49 nepomuk/rcgen/rcgen.cpp:51
 msgid "Nepomuk Resource Class Generator"
-msgstr ""
+msgstr "Nepomuk Avakerê Pola Çavkaniyê"
 
 #: nepomuk/rcgen/rcgen.cpp:53
-#, fuzzy
-#| msgid "(C) 2005-2007 Sebastian Sauer"
 msgid "(c) 2006-2009, Sebastian Trüg"
-msgstr "(C) 2005-2007 Sebastian Sauer"
+msgstr "(c) 2006-2009, Sebastian Trüg"
 
 #: nepomuk/rcgen/rcgen.cpp:56
-#, fuzzy
-#| msgid "Sebastian Sauer"
 msgid "Sebastian Trüg"
-msgstr "Sebastian Sauer"
+msgstr "Sebastian Trüg"
 
 #: nepomuk/rcgen/rcgen.cpp:56
-#, fuzzy
-#| msgid "MainWindow"
 msgid "Maintainer"
-msgstr "Paceya Bingehîn"
+msgstr "Parêzvan"
 
 #: nepomuk/rcgen/rcgen.cpp:57
-#, fuzzy
-#| msgid "Tobias Anton"
 msgid "Tobias Koenig"
-msgstr "Tobias Anton"
+msgstr "Tobias Koenig"
 
 #: nepomuk/rcgen/rcgen.cpp:57
 msgid "Major cleanup - Personal hero of maintainer"
-msgstr ""
+msgstr "Paqijkirina mezin - Egîtê kesatî yê peydeker"
 
 #: nepomuk/rcgen/rcgen.cpp:64
 msgid "Verbose output debugging mode."
@@ -2631,17 +2523,19 @@ msgstr ""
 
 #: nepomuk/rcgen/rcgen.cpp:67
 msgid "List all includes (deprecated)."
-msgstr ""
+msgstr "Yên heyî lîste bike (êdî nayê bikaranîn)."
 
 #: nepomuk/rcgen/rcgen.cpp:68
 msgid ""
 "List all header files that will be generated via the --writeall command."
 msgstr ""
+"Hemû pelên serek yên ku bi fermana --writeall tê bên avakirin lîste bike."
 
 #: nepomuk/rcgen/rcgen.cpp:69
 msgid ""
 "List all source files that will be generated via the --writeall command."
 msgstr ""
+"Hemû pelên çavkanî yên ku bi fermana --writeall tê bên avakirin lîste bike."
 
 #: nepomuk/rcgen/rcgen.cpp:70
 msgid ""
@@ -2659,7 +2553,7 @@ msgstr ""
 
 #: nepomuk/rcgen/rcgen.cpp:76
 msgid "Templates to be used (deprecated)."
-msgstr ""
+msgstr "Şablonên tê bên bikaranîn (nayê bikaranîn)"
 
 #: nepomuk/rcgen/rcgen.cpp:77
 msgid ""
@@ -2685,89 +2579,69 @@ msgid "The ontology files containing the ontologies to be generated."
 msgstr ""
 
 #: nepomuk/ui/kedittagsdialog.cpp:48
-#, fuzzy
-#| msgid "Change Icon"
 msgctxt "@title:window"
 msgid "Change Tags"
-msgstr "Sembolê Biguherîne"
+msgstr "Etîketan Biguherîne"
 
 #: nepomuk/ui/kedittagsdialog.cpp:49
-#, fuzzy
-#| msgid "Pages"
 msgctxt "@title:window"
 msgid "Add Tags"
-msgstr "Rûpel"
+msgstr "Etîketan Lê Zêde Bike"
 
 #: nepomuk/ui/kedittagsdialog.cpp:58
 msgctxt "@label:textbox"
 msgid "Configure which tags should be applied."
-msgstr ""
+msgstr "Etîketên tê bên sepandin veava bike."
 
 #: nepomuk/ui/kedittagsdialog.cpp:71
-#, fuzzy
-#| msgid "Create New Tag..."
 msgctxt "@label"
 msgid "Create new tag:"
-msgstr "Etîketeke Nû Biafirîne..."
+msgstr "Etîketekî nû biafirîne:"
 
 #: nepomuk/ui/kedittagsdialog.cpp:93
-#, fuzzy
-#| msgid "Delete"
 msgctxt "@info"
 msgid "Delete tag"
-msgstr "Jê bibe"
+msgstr "Etîket jê bibe"
 
 #: nepomuk/ui/kedittagsdialog.cpp:223
 #, kde-format
 msgctxt "@info"
 msgid "Should the tag <resource>%1</resource> really be deleted for all files?"
-msgstr ""
+msgstr "Bila etîketa <resource>%1</resource> ji bo hemû pelan were jêbirin?"
 
 #: nepomuk/ui/kedittagsdialog.cpp:225
-#, fuzzy
-#| msgid "Delete"
 msgctxt "@title"
 msgid "Delete tag"
-msgstr "Jê bibe"
+msgstr "Etîket jê bibe"
 
 #: nepomuk/ui/kedittagsdialog.cpp:226
-#, fuzzy
-#| msgid "Delete"
 msgctxt "@action:button"
 msgid "Delete"
 msgstr "Jê bibe"
 
 #: nepomuk/ui/kedittagsdialog.cpp:227
-#, fuzzy
-#| msgid "Cancel"
 msgctxt "@action:button"
 msgid "Cancel"
-msgstr "Betalkirin"
+msgstr "Betal"
 
 #: nepomuk/ui/nepomukmassupdatejob.cpp:76
 msgid "Changing annotations"
 msgstr "Hişyarî tên guherandin"
 
 #: nepomuk/ui/tagwidget.cpp:61
-#, fuzzy
-#| msgid "Show all options"
 msgctxt "@label"
 msgid "Show all tags..."
-msgstr "Hemû vebijarkan nîşan bide"
+msgstr "Hemû etîketan nîşan bide..."
 
 #: nepomuk/ui/tagwidget.cpp:112
-#, fuzzy
-#| msgid "Add..."
 msgctxt "@label"
 msgid "Add Tags..."
-msgstr "Lê zêde bike..."
+msgstr "Etîketan Lê zêde bike..."
 
 #: nepomuk/ui/tagwidget.cpp:112
-#, fuzzy
-#| msgid "Change &Icon..."
 msgctxt "@label"
 msgid "Change..."
-msgstr "&Sembolê Biguherîne..."
+msgstr "Biguherîne..."
 
 #: kinit/klauncher.cpp:563
 #, kde-format
@@ -2782,7 +2656,7 @@ msgstr "Xizmeta '%1' nehate dîtin."
 #: kinit/klauncher.cpp:798
 #, kde-format
 msgid "Service '%1' must be executable to run."
-msgstr ""
+msgstr "Ji bo meşînê, divê servîsa '%1' bikare were xebitandin."
 
 #: kinit/klauncher.cpp:800 kinit/klauncher.cpp:836
 #, kde-format
@@ -2910,12 +2784,14 @@ msgid ""
 "Automatic changes have been performed due to plugin dependencies. Click here "
 "for further information"
 msgstr ""
+"Guherînên bixweber gorê girêdayinên pêvekê diqedin. Ji bo bêhtir agahî pêl "
+"li vir bikin"
 
 #: kutils/kpluginselector.cpp:203
 msgid ""
 "Automatic changes have been performed in order to satisfy plugin "
 "dependencies:\n"
-msgstr ""
+msgstr "Guherînên bixweber gorê besbûniya girêdayiyên pêvekê diqedin:\n"
 
 #: kutils/kpluginselector.cpp:207
 #, kde-format
@@ -2924,6 +2800,8 @@ msgid ""
 "    %1 plugin has been automatically checked because of the dependency of %2 "
 "plugin"
 msgstr ""
+"\n"
+"    pêveka %1 bixweber hilbijartî ye ji gorê girêdayiya pêveka %2"
 
 #: kutils/kpluginselector.cpp:209
 #, kde-format
@@ -2932,6 +2810,8 @@ msgid ""
 "    %1 plugin has been automatically unchecked because of its dependency on %"
 "2 plugin"
 msgstr ""
+"\n"
+"    pêveka %1 bixweber ne-hilbijartiye ji gorê girêdayina vê bi pêveka %2 re"
 
 #: kutils/kpluginselector.cpp:211
 msgid "Dependency Check"
@@ -2941,8 +2821,8 @@ msgstr "Kontrola Rajêrî"
 #, kde-format
 msgid "%1 plugin automatically added due to plugin dependencies"
 msgid_plural "%1 plugins automatically added due to plugin dependencies"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 pêvek bixweber lê hat zêdekirin gorê girêdayiyên pêvekê"
+msgstr[1] "%1 pêvek bixweber lê hatin zêdekirin gorê girêdayiyên pêvekê"
 
 #: kutils/kpluginselector.cpp:232
 msgid ", "
@@ -2952,8 +2832,8 @@ msgstr ", "
 #, kde-format
 msgid "%1 plugin automatically removed due to plugin dependencies"
 msgid_plural "%1 plugins automatically removed due to plugin dependencies"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 pêvek bixweber hat rakirin gorê girêdayiyên pêvekê"
+msgstr[1] "%1 pêvek bixweber hatin rakirin gorê girêdayiyên pêvekê"
 
 #: kutils/kpluginselector.cpp:257
 msgid "Search Plugins"
@@ -2969,10 +2849,7 @@ msgid "The module %1 could not be found."
 msgstr "Modula %1 nehate dîtin."
 
 #: kutils/kcmoduleloader.cpp:76
-#, fuzzy, kde-format
-#| msgid ""
-#| "<qt><p>The diagnostics is:<br />The desktop file %1 could not be found.</"
-#| "p></qt>"
+#, kde-format
 msgid ""
 "<qt><p>The diagnosis is:<br />The desktop file %1 could not be found.</p></"
 "qt>"
@@ -2995,10 +2872,7 @@ msgid "The module %1 is not a valid configuration module."
 msgstr "%1 ne moduleke veavakirinê ya derbasdar e."
 
 #: kutils/kcmoduleloader.cpp:133
-#, fuzzy, kde-format
-#| msgid ""
-#| "<qt>The diagnostics is:<br />The desktop file %1 does not specify a "
-#| "library.</qt>"
+#, kde-format
 msgid ""
 "<qt>The diagnosis is:<br />The desktop file %1 does not specify a library.</"
 "qt>"
@@ -3009,14 +2883,7 @@ msgid "There was an error loading the module."
 msgstr "Dema modul dihate barkirin çewtî çêbû."
 
 #: kutils/kcmoduleloader.cpp:152
-#, fuzzy, kde-format
-#| msgid ""
-#| "<qt>The diagnostics is:<br />%1<p>Possible reasons:</p><ul><li>An error "
-#| "occurred during your last KDE upgrade leaving an orphaned control module</"
-#| "li><li>You have old third party modules lying around.</li></ul><p>Check "
-#| "these points carefully and try to remove the module mentioned in the "
-#| "error message. If this fails, consider contacting your distributor or "
-#| "packager.</p></qt>"
+#, kde-format
 msgid ""
 "<qt>The diagnosis is:<br />%1<p>Possible reasons:</p><ul><li>An error "
 "occurred during your last KDE upgrade leaving an orphaned control module</"
@@ -3057,43 +2924,37 @@ msgstr "Pêkhênanan Hilbijêre"
 
 #: knewstuff/knewstuff3/uploaddialog.cpp:108
 msgid "Fetching license data from server..."
-msgstr ""
+msgstr "Danaya lîsansê ji pêşkêşkerê tê anîn..."
 
 #: knewstuff/knewstuff3/uploaddialog.cpp:115
 msgid "Fetching content data from server..."
-msgstr ""
+msgstr "Danaya naverokê ji pêşkêşkerê tê anîn..."
 
 #: knewstuff/knewstuff3/uploaddialog.cpp:231
-#, fuzzy
-#| msgid "Check Spelling..."
 msgid "Checking login..."
-msgstr "Rastnivîsê Kontrol Bike..."
+msgstr "Têketin tê kontrolkirin..."
 
 #: knewstuff/knewstuff3/uploaddialog.cpp:253
-#, fuzzy
-#| msgid "Loading Preview"
 msgid "Fetching your previously updated content..."
-msgstr "Pêşdîtin Tê Barkirin"
+msgstr "Naveroka rojanekirinên we yên pêşî tê anîn..."
 
 #: knewstuff/knewstuff3/uploaddialog.cpp:256
-#, fuzzy
-#| msgid "Save Login Information"
 msgid "Could not verify login, please try again."
-msgstr "Agahiya Têketinê Tomar Bike"
+msgstr "Têketin nehate rastandin, ji kerema xwe cardin biceribînin."
 
 #: knewstuff/knewstuff3/uploaddialog.cpp:275
 msgid "Fetching your previously updated content finished."
-msgstr ""
+msgstr "Anîna naveroka rojenekirinên we yên pêşî qeda."
 
 #: knewstuff/knewstuff3/uploaddialog.cpp:293
 msgid "Fetching content data from server finished."
-msgstr ""
+msgstr "Anîna naveroka dana ji pêşkêşkerê qeda."
 
 #: knewstuff/knewstuff3/uploaddialog.cpp:316
 #: knewstuff/knewstuff3/uploaddialog.cpp:770
 msgctxt "A link to the website where the get hot new stuff upload can be seen"
 msgid "Visit website"
-msgstr ""
+msgstr "Serî li malperê bide"
 
 #: knewstuff/knewstuff3/uploaddialog.cpp:368
 #: kdeui/dialogs/kassistantdialog.cpp:94
@@ -3108,27 +2969,22 @@ msgstr "Dawî"
 
 #: knewstuff/knewstuff3/uploaddialog.cpp:389
 #: knewstuff/knewstuff2/ui/uploaddialog.cpp:64
-#, fuzzy, kde-format
-#| msgctxt "Program name followed by 'Add On Installer'"
-#| msgid "%1 Add-On Installer"
+#, kde-format
 msgctxt "Program name followed by 'Add On Uploader'"
 msgid "%1 Add-On Uploader"
-msgstr "Sazkara Pêveka %1"
+msgstr "Barkera Pêveka %1"
 
 #: knewstuff/knewstuff3/uploaddialog.cpp:445
 #: knewstuff/knewstuff3/uploaddialog.cpp:696
-#, fuzzy, kde-format
-#| msgid "File %1 not found."
+#, kde-format
 msgid "File not found: %1"
-msgstr "Pelê %1 nehate dîtin."
+msgstr "Pel nehate dîtin: %1"
 
 #: knewstuff/knewstuff3/uploaddialog.cpp:445
 #: knewstuff/knewstuff3/uploaddialog.cpp:571
 #: knewstuff/knewstuff3/uploaddialog.cpp:696
-#, fuzzy
-#| msgid "Download"
 msgid "Upload Failed"
-msgstr "Daxîne"
+msgstr "Barkirin Têkçû"
 
 #: knewstuff/knewstuff3/uploaddialog.cpp:525
 #, kde-format
@@ -3138,8 +2994,8 @@ msgid ""
 msgid_plural ""
 "The server does not recognize any of the categories to which you are trying "
 "to upload: %2"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Pêşkêşker, kategoriya %2 ya tu diceribînî ku barbikî nasnake."
+msgstr[1] "Pêşkêşker, kategoriyên tu diceribînî ku barbikî nasnake: %2"
 
 #: knewstuff/knewstuff3/uploaddialog.cpp:528
 #: khtml/rendering/render_form.cpp:811 kjs/object.cpp:548
@@ -3150,45 +3006,36 @@ msgstr "Çewtî"
 #: knewstuff/knewstuff3/uploaddialog.cpp:571
 #, kde-format
 msgid "The selected category \"%1\" is invalid."
-msgstr ""
+msgstr "Kategoriya hilbijartî \"%1\" nederbasdare."
 
 #: knewstuff/knewstuff3/uploaddialog.cpp:619
 #: knewstuff/knewstuff3/uploaddialog.cpp:628
 #: knewstuff/knewstuff3/uploaddialog.cpp:636
-#, fuzzy
-#| msgid "Select Region of Image"
 msgid "Select preview image"
-msgstr "Qadeke Wêne Hilbijêre"
+msgstr " Wêne Hilbijêre"
 
 #: knewstuff/knewstuff3/uploaddialog.cpp:646
 msgid "There was a network error."
-msgstr ""
+msgstr "Çewtiyekî torê çêbû."
 
 #: knewstuff/knewstuff3/uploaddialog.cpp:646
 #: knewstuff/knewstuff3/uploaddialog.cpp:651
-#, fuzzy
-#| msgid "Download"
 msgid "Uploading Failed"
-msgstr "Daxîne"
+msgstr "Barkirin Têlçû"
 
 #: knewstuff/knewstuff3/uploaddialog.cpp:651
-#, fuzzy
-#| msgid "Communication error"
 msgid "Authentication error."
-msgstr "Çewtiya ragihandinê"
+msgstr "Erêkirin pêk nehat."
 
 #: knewstuff/knewstuff3/uploaddialog.cpp:660
-#, fuzzy, kde-format
-#| msgid "Download"
+#, kde-format
 msgid "Upload failed: %1"
-msgstr "Daxîne"
+msgstr "Barkirin têkçû: %1"
 
 #: knewstuff/knewstuff3/knewstuffbutton.cpp:48
 #: knewstuff/knewstuff2/ui/knewstuffbutton.cpp:49
-#, fuzzy
-#| msgid "Download New Stuff"
 msgid "Download New Stuff..."
-msgstr "Taybetiyên Nû Daxe"
+msgstr "Taybetiyên Nû Daxe..."
 
 #: knewstuff/knewstuff3/downloaddialog.cpp:81
 #: knewstuff/knewstuff3/downloadwidget.cpp:199
@@ -3206,10 +3053,8 @@ msgstr "Sazkara Pêveka %1"
 
 #: knewstuff/knewstuff3/downloadwidget.cpp:113
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:312
-#, fuzzy
-#| msgid "Timeout. Check Internet connection!"
 msgid "Timeout. Check Internet connection."
-msgstr "Dem têrê nekir. Girêdana înternetê kontrol bike!"
+msgstr "Dem têrê nekir. Girêdana înternetê kontrol bike."
 
 #: knewstuff/knewstuff3/downloadwidget.cpp:171
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:252
@@ -3250,41 +3095,33 @@ msgstr "Tiştên Nûtirîn Bîne!"
 
 #: knewstuff/knewstuff3/downloadwidget.cpp:241
 msgid "Icons view mode"
-msgstr ""
+msgstr "Moda dîtina îkonan"
 
 #: knewstuff/knewstuff3/downloadwidget.cpp:243
-#, fuzzy
-#| msgid "Detailed View"
 msgid "Details view mode"
-msgstr "Kitekit"
+msgstr "Moda dîtina bi kitekit"
 
 #: knewstuff/knewstuff3/downloadwidget.cpp:258
-#, fuzzy
-#| msgid "*|All Folders"
 msgid "All Providers"
-msgstr "*|Hemû Peldank"
+msgstr "Hemû Peydeker"
 
 #: knewstuff/knewstuff3/downloadwidget.cpp:265
-#, fuzzy
-#| msgid "Pages"
 msgid "All Categories"
-msgstr "Rûpel"
+msgstr "Hemû Kategorî"
 
 #: knewstuff/knewstuff3/core/installation.cpp:157
-#, fuzzy
-#| msgid "Invalid Filenames"
 msgid "Invalid item."
-msgstr "Navên Pelan ên nederbasdar"
+msgstr "Hêmana nederbasdar."
 
 #: knewstuff/knewstuff3/core/installation.cpp:164
 #, kde-format
 msgid "Download of item failed: no download URL for \"%1\"."
-msgstr ""
+msgstr "Daxistina hêmanê pêk nehat: URL a daxistinê ji bo \"%1\" tuneye."
 
 #: knewstuff/knewstuff3/core/installation.cpp:200
 #, kde-format
 msgid "Download of \"%1\" failed, error: %2"
-msgstr ""
+msgstr "Daxistina \"%1\" têk çû, çewtî: %2"
 
 #: knewstuff/knewstuff3/core/installation.cpp:208
 msgid ""
@@ -3292,59 +3129,48 @@ msgid ""
 "instead of the actual download. Would you like to open the site with a "
 "browser instead?"
 msgstr ""
+"Pela daxistî pela html ye. Ev şûna daxistina rastîn, tenê girêdanê bi "
+"malperê re çêdike. Tu dixwazî ku malperê bi geroka torê vekî?"
 
 #: knewstuff/knewstuff3/core/installation.cpp:208
-#, fuzzy
-#| msgid "Could not create temporary file."
 msgid "Possibly bad download link"
-msgstr "Pelê demdemî nayê çêkirin."
+msgstr "Di be ku girêdana daxistinê xerab be"
 
 #: knewstuff/knewstuff3/core/installation.cpp:211
 msgid "Downloaded file was a HTML file. Opened in browser."
-msgstr ""
+msgstr "Pela daxistî pelekî HTML bû. Bi geroka torê hat vebûn."
 
 #: knewstuff/knewstuff3/core/installation.cpp:275
-#, fuzzy, kde-format
-#| msgid "Could not install %1"
+#, kde-format
 msgid "Could not install \"%1\": file not found."
-msgstr "Sazkirina '%1' biserneket"
+msgstr "Nekarî \"%1\" saz bike: pel nayê dîtin."
 
 #: knewstuff/knewstuff3/core/installation.cpp:477
-#, fuzzy
-#| msgid "Overwrite File?"
 msgid "Overwrite existing file?"
-msgstr "Bila Li Ser Pelî Were Nivîsandin?"
+msgstr "Bila li ser pela heyî were nivîsandin?"
 
 #: knewstuff/knewstuff3/core/installation.cpp:477
-#, fuzzy
-#| msgid "Download"
 msgid "Download File:"
-msgstr "Daxîne"
+msgstr "Pela Daxistinê:"
 
 #: knewstuff/knewstuff3/core/engine.cpp:99
-#, fuzzy
-#| msgid "Install"
 msgid "Initializing"
-msgstr "Saz Bike"
+msgstr "Destpê dike"
 
 #: knewstuff/knewstuff3/core/engine.cpp:103
 #: knewstuff/knewstuff3/core/engine.cpp:112
-#, fuzzy, kde-format
-#| msgid "Configuration files"
+#, kde-format
 msgid "Configuration file not found: \"%1\""
-msgstr "Pelên Veavakirinan"
+msgstr "Pela veavakirinê nayê dîtin: \"%1\""
 
 #: knewstuff/knewstuff3/core/engine.cpp:125
-#, fuzzy, kde-format
-#| msgid "Configuration files"
+#, kde-format
 msgid "Configuration file is invalid: \"%1\""
-msgstr "Pelên Veavakirinan"
+msgstr "Pela veavakirinê nederbasdar e: \"%1\""
 
 #: knewstuff/knewstuff3/core/engine.cpp:174
-#, fuzzy
-#| msgid "View Frame Information"
 msgid "Loading provider information"
-msgstr "Agahiya Çarçoveyê Nîşan Bide"
+msgstr "Agahiya peydekerê barkirinê"
 
 #: knewstuff/knewstuff3/core/engine.cpp:197
 #, kde-format
@@ -3353,23 +3179,21 @@ msgstr ""
 
 #: knewstuff/knewstuff3/core/engine.cpp:215
 msgid "Error initializing provider."
-msgstr ""
+msgstr "Destpêkirina peydekerê de çewtî."
 
 #: knewstuff/knewstuff3/core/engine.cpp:219
 #: knewstuff/knewstuff3/core/engine.cpp:499
-#, fuzzy
-#| msgid "Loading Applet"
 msgid "Loading data"
-msgstr "Daxistina sepanokê"
+msgstr "Daneyên barkirinê"
 
 #: knewstuff/knewstuff3/core/engine.cpp:247
 msgid "Loading data from provider"
-msgstr ""
+msgstr "Ji peydekerê dana tê barkirin"
 
 #: knewstuff/knewstuff3/core/engine.cpp:252
 #, kde-format
 msgid "Loading of providers from file: %1 failed"
-msgstr ""
+msgstr "Barkirina peydekeran ji pelê: %1 pêk nehat"
 
 #: knewstuff/knewstuff3/core/engine.cpp:461
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:195
@@ -3378,20 +3202,17 @@ msgid "Re: %1"
 msgstr "Bersiv:%1"
 
 #: knewstuff/knewstuff3/core/engine.cpp:501
-#, fuzzy, kde-format
-#| msgid "Loading Preview"
+#, kde-format
 msgid "Loading one preview"
 msgid_plural "Loading %1 previews"
-msgstr[0] "Pêşdîtin Tê Barkirin"
-msgstr[1] "Pêşdîtin Tê Barkirin"
+msgstr[0] "Pêşdîtinek tê barkirin"
+msgstr[1] "%1 pêşdîtin tên barkirin"
 
 #: knewstuff/knewstuff3/core/engine.cpp:503
 #: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:133
 #: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:342
-#, fuzzy
-#| msgid "Install"
 msgid "Installing"
-msgstr "Saz Bike"
+msgstr "Saz dike"
 
 #: knewstuff/knewstuff3/core/security.cpp:75
 #: knewstuff/knewstuff2/core/security.cpp:75
@@ -3453,6 +3274,8 @@ msgid ""
 "This items costs %1 %2.\n"
 "Do you want to buy it?"
 msgstr ""
+"Bihaya vê %1 %2 ye.\n"
+"Tu dixwazî bikirî?"
 
 #: knewstuff/knewstuff3/attica/atticaprovider.cpp:300
 #, kde-format
@@ -3461,26 +3284,27 @@ msgid ""
 "Your balance: %1\n"
 "Price: %2"
 msgstr ""
+"Perê te kêm e:\n"
+"Perê te: %1\n"
+"Biha: %2"
 
 #: knewstuff/knewstuff3/attica/atticaprovider.cpp:339
-#, fuzzy
-#| msgid "No text was replaced."
 msgctxt "voting for an item (good/bad)"
 msgid "Your vote was recorded."
-msgstr "Qet karê guherandinê nehate kirin."
+msgstr "Dengdana te hate tomar bûn."
 
 #: knewstuff/knewstuff3/attica/atticaprovider.cpp:353
 msgid "You are now a fan."
-msgstr ""
+msgstr "Tu niha hezkerî."
 
 #: knewstuff/knewstuff3/attica/atticaprovider.cpp:364
 #, kde-format
 msgid "Network error. (%1)"
-msgstr ""
+msgstr "Çewtiya torê. (%1)"
 
 #: knewstuff/knewstuff3/attica/atticaprovider.cpp:368
 msgid "Too many requests to server. Please try again in a few minutes."
-msgstr ""
+msgstr "Dazwazên ji pêşkêşkerê pirin. Ji kerema xwe paşê dîsa biceribînin."
 
 #: knewstuff/knewstuff3/attica/atticaprovider.cpp:370
 #, kde-format
@@ -3488,54 +3312,43 @@ msgid "Unknown Open Collaboration Service API error. (%1)"
 msgstr ""
 
 #: knewstuff/knewstuff3/ui/entrydetailsdialog.cpp:94
-#, fuzzy, kde-format
-#| msgid "Suggestions"
+#, kde-format
 msgid "Details for %1"
-msgstr "Pêşniyaz"
+msgstr "Kitekit ji bo %1"
 
 #: knewstuff/knewstuff3/ui/entrydetailsdialog.cpp:114
-#, fuzzy
-#| msgid "Homepage"
 msgctxt "A link to the description of this Get Hot New Stuff item"
 msgid "Homepage"
 msgstr "Serûpel"
 
 #: knewstuff/knewstuff3/ui/entrydetailsdialog.cpp:117
-#, fuzzy
-#| msgid "HTML documentation"
 msgctxt ""
 "A link to make a donation for a Get Hot New Stuff item (opens a web browser)"
 msgid "Make a donation"
-msgstr "Belgekirina HTML"
+msgstr "Şabaş bide"
 
 #: knewstuff/knewstuff3/ui/entrydetailsdialog.cpp:121
 #, kde-format
 msgctxt "A link to the knowledgebase (like a forum) (opens a web browser)"
 msgid "Knowledgebase (no entries)"
 msgid_plural "Knowledgebase (%1 entries)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Bingeha Agahî (têketin tuneye)"
+msgstr[1] "Bingeha Agahî (%1 têketin)"
 
 #: knewstuff/knewstuff3/ui/entrydetailsdialog.cpp:124
-#, fuzzy
-#| msgid "Open in New &Window"
 msgctxt "Tooltip for a link in a dialog"
 msgid "Opens in a browser window"
-msgstr "Di &Paceyeke Nû de Veke"
+msgstr "Di paceyekê gerokê de vedike"
 
 #: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:138
 #: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:347
-#, fuzzy
-#| msgid "Update"
 msgid "Updating"
-msgstr "Rojanekirin"
+msgstr "Tê Rojanekirin"
 
 #: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:148
 #: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:357
-#, fuzzy
-#| msgid "Install"
 msgid "Install Again"
-msgstr "Saz Bike"
+msgstr "Cardin Saz Bike"
 
 #: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:174
 #: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:282
@@ -3549,12 +3362,10 @@ msgstr "Kitekit"
 #: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:158
 #: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:160
 #: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:162
-#, fuzzy, kde-format
-#| msgctxt "@interface/rich"
-#| msgid "<i>%1</i>"
+#, kde-format
 msgctxt "Show the author of this item in a list"
 msgid "By <i>%1</i>"
-msgstr "<i>%1</i>"
+msgstr "Bi <i>%1</i>"
 
 #: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:241
 #: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:185
@@ -3562,24 +3373,22 @@ msgstr "<i>%1</i>"
 msgctxt "fan as in supporter"
 msgid "1 fan"
 msgid_plural "%1 fans"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "1 heyran"
+msgstr[1] "%1 heyran"
 
 #: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:244
 #: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:188
-#, fuzzy, kde-format
-#| msgid "Download"
+#, kde-format
 msgid "1 download"
 msgid_plural "%1 downloads"
-msgstr[0] "Daxîne"
-msgstr[1] "Daxîne"
+msgstr[0] "1 Daxisti"
+msgstr[1] "%1 Daxistin"
 
 #: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:263
 #: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:107
-#, fuzzy, kde-format
-#| msgid "Rating: "
+#, kde-format
 msgid "Rating: %1%"
-msgstr "Nirxandin:"
+msgstr "Nirxandin: %1%"
 
 #: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:314
 #: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:255
@@ -3588,10 +3397,9 @@ msgid "Loading Preview"
 msgstr "Pêşdîtin Tê Barkirin"
 
 #: knewstuff/knewstuff2/core/coreengine.cpp:428
-#, fuzzy, kde-format
-#| msgid "Rating: "
+#, kde-format
 msgid "loading %1"
-msgstr "Nirxandin:"
+msgstr "tê barkirin %1"
 
 #: knewstuff/knewstuff2/core/providerhandler.cpp:154
 #: knewstuff/knewstuff2/core/providerhandler.cpp:174
@@ -3801,22 +3609,18 @@ msgid "Do Not Fill Out"
 msgstr "Tije Neke"
 
 #: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:150
-#, fuzzy
-#| msgid "No Downloads"
 msgid "<p>No Downloads</p>"
-msgstr "Daxistin Tune"
+msgstr "<p>Daxistin Tuneye</p>"
 
 #: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:150
-#, fuzzy, kde-format
-#| msgid "Downloads: %1"
+#, kde-format
 msgid "<p>Downloads: %1</p>\n"
-msgstr "Daxîstin: %1"
+msgstr "<p>Daxîstin: %1</p>\n"
 
 #: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:219
-#, fuzzy, kde-format
-#| msgid "Rating: "
+#, kde-format
 msgid "Rating: %1"
-msgstr "Nirxandin:"
+msgstr "Nirxandin: %1"
 
 #: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:254
 msgid "No Preview"
@@ -3840,7 +3644,7 @@ msgstr "Şiroveyan Temaşe Bike"
 
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:405
 msgid "Entries failed to load"
-msgstr ""
+msgstr "Barbûna têketinan pêk nehat"
 
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:554
 msgid "There was an error loading data providers."
@@ -3868,23 +3672,23 @@ msgstr "Ji bo desteka mîrateyan dev jê berde"
 
 #: kdecore/kde-config.cpp:76
 msgid "Compiled in prefix for KDE libraries"
-msgstr ""
+msgstr "Ji bo pirtûkxaneyên KDE di prefix de hatin berhev kirin"
 
 #: kdecore/kde-config.cpp:77
 msgid "Compiled in exec_prefix for KDE libraries"
-msgstr ""
+msgstr "Ji bo pirtûkxaneyên KDE di exec_prefix de hatin berhev kirin"
 
 #: kdecore/kde-config.cpp:78
 msgid "Compiled in library path suffix"
-msgstr ""
+msgstr "Di paşgira rêça pirtûkxanê de hat berhev kirin"
 
 #: kdecore/kde-config.cpp:79
 msgid "Prefix in $HOME used to write files"
-msgstr ""
+msgstr "Paşgira di $MAL de ji bo nivîsandina pelan hat bikaranîn"
 
 #: kdecore/kde-config.cpp:80
 msgid "Compiled in version string for KDE libraries"
-msgstr ""
+msgstr "Ji bo pirtûkxaneyên KDE di hevoka guherto de hat berhev kirin"
 
 #: kdecore/kde-config.cpp:81
 msgid "Available KDE resource types"
@@ -3908,11 +3712,11 @@ msgstr "Pêşgira ji bo daxistina pelên çavkaniyê"
 
 #: kdecore/kde-config.cpp:86
 msgid "Installation prefix for Qt"
-msgstr ""
+msgstr "Ji bo Qt pêşgira sazkirinê"
 
 #: kdecore/kde-config.cpp:87
 msgid "Location of installed Qt binaries"
-msgstr ""
+msgstr "Cihê pelên cotik yên Qt yên sazkirî"
 
 #: kdecore/kde-config.cpp:88
 msgid "Location of installed Qt libraries"
@@ -3920,21 +3724,19 @@ msgstr "Cihê pirtûkxaneyên Qt yên sazkirî"
 
 #: kdecore/kde-config.cpp:89
 msgid "Location of installed Qt plugins"
-msgstr ""
+msgstr "Cihê pêvekên sazkirî yên Qt"
 
 #: kdecore/kde-config.cpp:136
 msgid "Applications menu (.desktop files)"
 msgstr "Pêşeka sepanan (pelên .desktop)"
 
 #: kdecore/kde-config.cpp:137
-#, fuzzy
-#| msgid "Path to the autostart directory"
 msgid "Autostart directories"
-msgstr "Riya pelrêça destpêkirina xweber"
+msgstr "Riya pelrêça destpêkirina bixweber"
 
 #: kdecore/kde-config.cpp:138
 msgid "Cached information (e.g. favicons, web-pages)"
-msgstr ""
+msgstr "Agahiya pêşbîr (mînak nîşan û rûpelên malperan)"
 
 #: kdecore/kde-config.cpp:139
 msgid "CGIs to run from kdehelp"
@@ -4037,10 +3839,8 @@ msgid "XDG Menu layout (.menu files)"
 msgstr "Raxistina pêşeka XDG (pelên .menu)"
 
 #: kdecore/kde-config.cpp:165
-#, fuzzy
-#| msgid "Path to the autostart directory"
 msgid "XDG autostart directory"
-msgstr "Riya pelrêça destpêkirina xweber"
+msgstr "Riya pelrêça destpêkirina bixweber ya XDG"
 
 #: kdecore/kde-config.cpp:166
 msgid "Temporary files (specific for both current host and current user)"
@@ -4202,14 +4002,12 @@ msgid "sets the application GUI style"
 msgstr "şêwaza grafîka sepanê mîheng dike"
 
 #: kdecore/kernel/kcmdlineargs.cpp:318
-#, fuzzy
-#| msgid ""
-#| "sets the client geometry of the main widget - see man X for the argument "
-#| "format"
 msgid ""
 "sets the client geometry of the main widget - see man X for the argument "
 "format (usually WidthxHeight+XPos+YPos)"
-msgstr "geometriya parçeya daxwazkar a parçeya navendî mîheng dike"
+msgstr ""
+"geometriya parçeya daxwazkar a parçeya navendî mîheng dike - ji bo teşeya "
+"argumanê rêberê X binihêre (piranî FirehîxBilindahî+XCih+YCih)"
 
 #: kdecore/kernel/kcmdlineargs.cpp:436
 msgid "KDE Application"
@@ -4244,6 +4042,9 @@ msgid ""
 "KDE Development Platform: %2\n"
 "%3: %4\n"
 msgstr ""
+"Qt: %1\n"
+"Platforma Pêşdebirîna KDE: %2\n"
+"%3: %4\n"
 
 #: kdecore/kernel/kcmdlineargs.cpp:916
 #, kde-format
@@ -4381,10 +4182,8 @@ msgstr ""
 "%1"
 
 #: kdecore/kernel/ktoolinvocation_x11.cpp:282
-#, fuzzy
-#| msgid "Could not Launch Mail Client"
 msgid "Could not launch Mail Client"
-msgstr "Bernameya E-peyaman Nehate Destpêkirin"
+msgstr "Bernameya e-peyaman nehate destpêkirin"
 
 #: kdecore/kernel/ktoolinvocation_x11.cpp:334
 #: kdecore/kernel/ktoolinvocation_x11.cpp:360
@@ -4400,10 +4199,8 @@ msgstr ""
 
 #: kdecore/kernel/ktoolinvocation_x11.cpp:335
 #: kdecore/kernel/ktoolinvocation_x11.cpp:361
-#, fuzzy
-#| msgid "Could not Launch Browser"
 msgid "Could not launch Browser"
-msgstr "Geroka Webê Nehate Destpêkirin"
+msgstr "Geroka webê nehate destpêkirin"
 
 #: kdecore/kernel/ktoolinvocation_x11.cpp:400
 #, kde-format
@@ -4417,10 +4214,8 @@ msgstr ""
 "%1"
 
 #: kdecore/kernel/ktoolinvocation_x11.cpp:401
-#, fuzzy
-#| msgid "Could not Launch Terminal Client"
 msgid "Could not launch Terminal Client"
-msgstr "Destpêkirina Bernameya Termînalê Biserneket."
+msgstr "Destpêkirina Bernameya Termînalê biserneket"
 
 #: kdecore/kernel/kaboutdata.cpp:257
 msgid ""
@@ -4530,7 +4325,7 @@ msgstr ""
 
 #: kdecore/kernel/ktoolinvocation.cpp:80
 msgid "Function must be called from the main thread."
-msgstr ""
+msgstr "Fonksiyon divê ji perçeya mak were betalkirin."
 
 #: kdecore/kernel/ktoolinvocation.cpp:121
 #, kde-format
@@ -4538,6 +4333,8 @@ msgid ""
 "Error launching %1. Either KLauncher is not running anymore, or it failed to "
 "start the application."
 msgstr ""
+"Çewtiya destpêkirina %1. An KLauncher êdî naxebite, an jî destpêkirina "
+"sepanê têk çû."
 
 #: kdecore/kernel/ktoolinvocation.cpp:124
 #, kde-format
@@ -4585,11 +4382,11 @@ msgstr "Xwendina daneyan ji pelê '%1' li shm biserneket"
 
 #: kdecore/sycoca/kmemfile.cpp:151
 msgid "Only 'ReadOnly' allowed"
-msgstr ""
+msgstr "Tenê ji bo 'TenêXwendin' destûr heye"
 
 #: kdecore/sycoca/kmemfile.cpp:207
 msgid "Cannot seek past eof"
-msgstr ""
+msgstr "Nikare eof ên derbasbûyî lêkolîn bike"
 
 #: kdecore/services/kmimetyperepository.cpp:595
 #, kde-format
@@ -4605,6 +4402,8 @@ msgid ""
 "No mime types installed. Check that shared-mime-info is installed, and that "
 "XDG_DATA_DIRS is not set, or includes /usr/share."
 msgstr ""
+"Tu cureyên mime sazkirî nîne. Kontrol bike ku shared-mime-info sazkirî ye, û "
+"XDG_DATA_DIRS ne-avakirî ye, an jî xwedî /usr/share e."
 
 #: kdecore/localization/kcharsets.cpp:155
 #: kdecore/localization/kencodingprober.cpp:242
@@ -5037,18 +4836,14 @@ msgstr "<i>%1</i>"
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
 #: kdecore/localization/kuitsemantics.cpp:708
-#, fuzzy, kde-format
-#| msgctxt "@emphasis/plain"
-#| msgid "*%1*"
+#, kde-format
 msgctxt "@emphasis-strong/plain"
 msgid "**%1**"
-msgstr "*%1*"
+msgstr "**%1**"
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
 #: kdecore/localization/kuitsemantics.cpp:712
-#, fuzzy, kde-format
-#| msgctxt "@shortcut/rich"
-#| msgid "<b>%1</b>"
+#, kde-format
 msgctxt "@emphasis-strong/rich"
 msgid "<b>%1</b>"
 msgstr "<b>%1</b>"
@@ -5353,25 +5148,16 @@ msgid "F%1"
 msgstr "F%1"
 
 #: kdecore/localization/klocale_kde.cpp:895
-#, fuzzy
-#| msgctxt "@item Text character set"
-#| msgid "Arabic"
 msgctxt "digit set"
 msgid "Arabic-Indic"
-msgstr "Erebî"
+msgstr "Erebî - Hîndîk"
 
 #: kdecore/localization/klocale_kde.cpp:898
-#, fuzzy
-#| msgctxt "KCharselect unicode block name"
-#| msgid "Bengali"
 msgctxt "digit set"
 msgid "Bengali"
 msgstr "Bengalî"
 
 #: kdecore/localization/klocale_kde.cpp:901
-#, fuzzy
-#| msgctxt "KCharselect unicode block name"
-#| msgid "Devanagari"
 msgctxt "digit set"
 msgid "Devanagari"
 msgstr "Devanagarî"
@@ -5379,327 +5165,265 @@ msgstr "Devanagarî"
 #: kdecore/localization/klocale_kde.cpp:904
 msgctxt "digit set"
 msgid "Eastern Arabic-Indic"
-msgstr ""
+msgstr "Erebî-Hindî ya Rojhilatî"
 
 #: kdecore/localization/klocale_kde.cpp:907
-#, fuzzy
-#| msgctxt "KCharselect unicode block name"
-#| msgid "Gujarati"
 msgctxt "digit set"
 msgid "Gujarati"
 msgstr "Gucaratî"
 
 #: kdecore/localization/klocale_kde.cpp:910
-#, fuzzy
-#| msgctxt "KCharselect unicode block name"
-#| msgid "Gurmukhi"
 msgctxt "digit set"
 msgid "Gurmukhi"
 msgstr "Gurmuxî"
 
 #: kdecore/localization/klocale_kde.cpp:913
-#, fuzzy
-#| msgctxt "KCharselect unicode block name"
-#| msgid "Kannada"
 msgctxt "digit set"
 msgid "Kannada"
 msgstr "Kannada"
 
 #: kdecore/localization/klocale_kde.cpp:916
-#, fuzzy
-#| msgctxt "KCharselect unicode block name"
-#| msgid "Khmer"
 msgctxt "digit set"
 msgid "Khmer"
 msgstr "Khmer"
 
 #: kdecore/localization/klocale_kde.cpp:919
-#, fuzzy
-#| msgctxt "KCharselect unicode block name"
-#| msgid "Malayalam"
 msgctxt "digit set"
 msgid "Malayalam"
 msgstr "Malayalam"
 
 #: kdecore/localization/klocale_kde.cpp:922
-#, fuzzy
-#| msgctxt "KCharselect unicode block name"
-#| msgid "Oriya"
 msgctxt "digit set"
 msgid "Oriya"
 msgstr "Oriya"
 
 #: kdecore/localization/klocale_kde.cpp:925
-#, fuzzy
-#| msgctxt "KCharselect unicode block name"
-#| msgid "Tamil"
 msgctxt "digit set"
 msgid "Tamil"
 msgstr "Tamîl"
 
 #: kdecore/localization/klocale_kde.cpp:928
-#, fuzzy
-#| msgctxt "KCharselect unicode block name"
-#| msgid "Telugu"
 msgctxt "digit set"
 msgid "Telugu"
 msgstr "Telugu"
 
 #: kdecore/localization/klocale_kde.cpp:931
-#, fuzzy
-#| msgctxt "@item Text character set"
-#| msgid "Thai"
 msgctxt "digit set"
 msgid "Thai"
 msgstr "Tayî"
 
 #: kdecore/localization/klocale_kde.cpp:934
-#, fuzzy
-#| msgctxt "@item Text character set"
-#| msgid "Arabic"
 msgctxt "digit set"
 msgid "Arabic"
 msgstr "Erebî"
 
 #: kdecore/localization/klocale_kde.cpp:939
-#, fuzzy, kde-format
-#| msgctxt "dictionary name. %1-language and %2-country name"
-#| msgid "%1 (%2)"
+#, kde-format
 msgctxt "name of digit set with digit string, e.g. 'Arabic (0123456789)'"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
 #. i18n: Dumb message, avoid any markup or scripting.
 #: kdecore/localization/klocale_kde.cpp:1352
-#, fuzzy, kde-format
-#| msgid "%1 B"
+#, kde-format
 msgctxt "size in bytes"
 msgid "%1 B"
 msgstr "%1 B"
 
 #. i18n: Dumb message, avoid any markup or scripting.
 #: kdecore/localization/klocale_kde.cpp:1357
-#, fuzzy, kde-format
-#| msgid "%1 B"
+#, kde-format
 msgctxt "size in 1000 bytes"
 msgid "%1 kB"
-msgstr "%1 B"
+msgstr "%1 kB"
 
 #. i18n: Dumb message, avoid any markup or scripting.
 #: kdecore/localization/klocale_kde.cpp:1359
-#, fuzzy, kde-format
-#| msgid "%1 MiB"
+#, kde-format
 msgctxt "size in 10^6 bytes"
 msgid "%1 MB"
-msgstr "%1 MiB"
+msgstr "%1 MB"
 
 #. i18n: Dumb message, avoid any markup or scripting.
 #: kdecore/localization/klocale_kde.cpp:1361
-#, fuzzy, kde-format
-#| msgid "%1 GiB"
+#, kde-format
 msgctxt "size in 10^9 bytes"
 msgid "%1 GB"
-msgstr "%1 GiB"
+msgstr "%1 GB"
 
 #. i18n: Dumb message, avoid any markup or scripting.
 #: kdecore/localization/klocale_kde.cpp:1363
-#, fuzzy, kde-format
-#| msgid "%1 TiB"
+#, kde-format
 msgctxt "size in 10^12 bytes"
 msgid "%1 TB"
-msgstr "%1 TiB"
+msgstr "%1 TB"
 
 #. i18n: Dumb message, avoid any markup or scripting.
 #: kdecore/localization/klocale_kde.cpp:1365
-#, fuzzy, kde-format
-#| msgid "%1 B"
+#, kde-format
 msgctxt "size in 10^15 bytes"
 msgid "%1 PB"
-msgstr "%1 B"
+msgstr "%1 PB"
 
 #. i18n: Dumb message, avoid any markup or scripting.
 #: kdecore/localization/klocale_kde.cpp:1367
-#, fuzzy, kde-format
-#| msgid "%1 B"
+#, kde-format
 msgctxt "size in 10^18 bytes"
 msgid "%1 EB"
-msgstr "%1 B"
+msgstr "%1 EB"
 
 #. i18n: Dumb message, avoid any markup or scripting.
 #: kdecore/localization/klocale_kde.cpp:1369
-#, fuzzy, kde-format
-#| msgid "%1 B"
+#, kde-format
 msgctxt "size in 10^21 bytes"
 msgid "%1 ZB"
-msgstr "%1 B"
+msgstr "%1 ZB"
 
 #. i18n: Dumb message, avoid any markup or scripting.
 #: kdecore/localization/klocale_kde.cpp:1371
-#, fuzzy, kde-format
-#| msgid "%1 B"
+#, kde-format
 msgctxt "size in 10^24 bytes"
 msgid "%1 YB"
-msgstr "%1 B"
+msgstr "%1 YB"
 
 #. i18n: Dumb message, avoid any markup or scripting.
 #: kdecore/localization/klocale_kde.cpp:1376
-#, fuzzy, kde-format
-#| msgid "%1 KiB"
+#, kde-format
 msgctxt "memory size in 1024 bytes"
 msgid "%1 KB"
-msgstr "%1 KiB"
+msgstr "%1 KB"
 
 #. i18n: Dumb message, avoid any markup or scripting.
 #: kdecore/localization/klocale_kde.cpp:1378
-#, fuzzy, kde-format
-#| msgid "%1 MiB"
+#, kde-format
 msgctxt "memory size in 2^20 bytes"
 msgid "%1 MB"
-msgstr "%1 MiB"
+msgstr "%1 MB"
 
 #. i18n: Dumb message, avoid any markup or scripting.
 #: kdecore/localization/klocale_kde.cpp:1380
-#, fuzzy, kde-format
-#| msgid "%1 GiB"
+#, kde-format
 msgctxt "memory size in 2^30 bytes"
 msgid "%1 GB"
-msgstr "%1 GiB"
+msgstr "%1 GB"
 
 #. i18n: Dumb message, avoid any markup or scripting.
 #: kdecore/localization/klocale_kde.cpp:1382
-#, fuzzy, kde-format
-#| msgid "%1 TiB"
+#, kde-format
 msgctxt "memory size in 2^40 bytes"
 msgid "%1 TB"
-msgstr "%1 TiB"
+msgstr "%1 TB"
 
 #. i18n: Dumb message, avoid any markup or scripting.
 #: kdecore/localization/klocale_kde.cpp:1384
-#, fuzzy, kde-format
-#| msgid "%1 B"
+#, kde-format
 msgctxt "memory size in 2^50 bytes"
 msgid "%1 PB"
-msgstr "%1 B"
+msgstr "%1 PB"
 
 #. i18n: Dumb message, avoid any markup or scripting.
 #: kdecore/localization/klocale_kde.cpp:1386
-#, fuzzy, kde-format
-#| msgid "%1 B"
+#, kde-format
 msgctxt "memory size in 2^60 bytes"
 msgid "%1 EB"
-msgstr "%1 B"
+msgstr "%1 EB"
 
 #. i18n: Dumb message, avoid any markup or scripting.
 #: kdecore/localization/klocale_kde.cpp:1388
-#, fuzzy, kde-format
-#| msgid "%1 B"
+#, kde-format
 msgctxt "memory size in 2^70 bytes"
 msgid "%1 ZB"
-msgstr "%1 B"
+msgstr "%1 ZB"
 
 #. i18n: Dumb message, avoid any markup or scripting.
 #: kdecore/localization/klocale_kde.cpp:1390
-#, fuzzy, kde-format
-#| msgid "%1 B"
+#, kde-format
 msgctxt "memory size in 2^80 bytes"
 msgid "%1 YB"
-msgstr "%1 B"
+msgstr "%1 YB"
 
 #. i18n: Dumb message, avoid any markup or scripting.
 #: kdecore/localization/klocale_kde.cpp:1396
-#, fuzzy, kde-format
-#| msgid "%1 KiB"
+#, kde-format
 msgctxt "size in 1024 bytes"
 msgid "%1 KiB"
 msgstr "%1 KiB"
 
 #. i18n: Dumb message, avoid any markup or scripting.
 #: kdecore/localization/klocale_kde.cpp:1398
-#, fuzzy, kde-format
-#| msgid "%1 MiB"
+#, kde-format
 msgctxt "size in 2^20 bytes"
 msgid "%1 MiB"
 msgstr "%1 MiB"
 
 #. i18n: Dumb message, avoid any markup or scripting.
 #: kdecore/localization/klocale_kde.cpp:1400
-#, fuzzy, kde-format
-#| msgid "%1 GiB"
+#, kde-format
 msgctxt "size in 2^30 bytes"
 msgid "%1 GiB"
 msgstr "%1 GiB"
 
 #. i18n: Dumb message, avoid any markup or scripting.
 #: kdecore/localization/klocale_kde.cpp:1402
-#, fuzzy, kde-format
-#| msgid "%1 TiB"
+#, kde-format
 msgctxt "size in 2^40 bytes"
 msgid "%1 TiB"
 msgstr "%1 TiB"
 
 #. i18n: Dumb message, avoid any markup or scripting.
 #: kdecore/localization/klocale_kde.cpp:1404
-#, fuzzy, kde-format
-#| msgid "%1 TiB"
+#, kde-format
 msgctxt "size in 2^50 bytes"
 msgid "%1 PiB"
-msgstr "%1 TiB"
+msgstr "%1 PiB"
 
 #. i18n: Dumb message, avoid any markup or scripting.
 #: kdecore/localization/klocale_kde.cpp:1406
-#, fuzzy, kde-format
-#| msgid "%1 TiB"
+#, kde-format
 msgctxt "size in 2^60 bytes"
 msgid "%1 EiB"
-msgstr "%1 TiB"
+msgstr "%1 EiB"
 
 #. i18n: Dumb message, avoid any markup or scripting.
 #: kdecore/localization/klocale_kde.cpp:1408
-#, fuzzy, kde-format
-#| msgid "%1 TiB"
+#, kde-format
 msgctxt "size in 2^70 bytes"
 msgid "%1 ZiB"
-msgstr "%1 TiB"
+msgstr "%1 ZiB"
 
 #. i18n: Dumb message, avoid any markup or scripting.
 #: kdecore/localization/klocale_kde.cpp:1410
-#, fuzzy, kde-format
-#| msgid "%1 TiB"
+#, kde-format
 msgctxt "size in 2^80 bytes"
 msgid "%1 YiB"
-msgstr "%1 TiB"
+msgstr "%1 YiB"
 
 #: kdecore/localization/klocale_kde.cpp:1495
-#, fuzzy, kde-format
-#| msgid "%1 days"
+#, kde-format
 msgctxt "@item:intext %1 is a real number, e.g. 1.23 days"
 msgid "%1 days"
 msgstr "%1 roj"
 
 #: kdecore/localization/klocale_kde.cpp:1498
-#, fuzzy, kde-format
-#| msgid "%1 hours"
+#, kde-format
 msgctxt "@item:intext %1 is a real number, e.g. 1.23 hours"
 msgid "%1 hours"
 msgstr "%1 demjimêr"
 
 #: kdecore/localization/klocale_kde.cpp:1501
-#, fuzzy, kde-format
-#| msgid "%1 minutes"
+#, kde-format
 msgctxt "@item:intext %1 is a real number, e.g. 1.23 minutes"
 msgid "%1 minutes"
 msgstr "%1 xulek"
 
 #: kdecore/localization/klocale_kde.cpp:1504
-#, fuzzy, kde-format
-#| msgid "%1 seconds"
+#, kde-format
 msgctxt "@item:intext %1 is a real number, e.g. 1.23 seconds"
 msgid "%1 seconds"
 msgstr "%1 çirke"
 
 #: kdecore/localization/klocale_kde.cpp:1507
-#, fuzzy, kde-format
-#| msgid "%1 milliseconds"
+#, kde-format
 msgctxt "@item:intext"
 msgid "%1 millisecond"
 msgid_plural "%1 milliseconds"
@@ -5845,47 +5569,46 @@ msgid "system error"
 msgstr "çewtiya pergalê"
 
 #: kdecore/network/ktcpsocket.cpp:153
-#, fuzzy
-#| msgid "no error"
 msgctxt "SSL error"
 msgid "No error"
-msgstr "bê çewtî"
+msgstr "Bê çewtî"
 
 #: kdecore/network/ktcpsocket.cpp:155
 msgctxt "SSL error"
 msgid "The certificate authority's certificate is invalid"
-msgstr ""
+msgstr "Bawernameya rayeya bawernameyê nederbasdar e"
 
 #: kdecore/network/ktcpsocket.cpp:157
 msgctxt "SSL error"
 msgid "The certificate has expired"
-msgstr ""
+msgstr "Bawername demborî bûye"
 
 #: kdecore/network/ktcpsocket.cpp:159
 msgctxt "SSL error"
 msgid "The certificate is invalid"
-msgstr ""
+msgstr "Bawername nederbasdar e"
 
 #: kdecore/network/ktcpsocket.cpp:161
 msgctxt "SSL error"
 msgid "The certificate is not signed by any trusted certificate authority"
-msgstr ""
+msgstr "Bawername aliyê tu rayeya bawername yê ewle nehatiye îmze kirin"
 
 #: kdecore/network/ktcpsocket.cpp:163
 msgctxt "SSL error"
 msgid "The certificate has been revoked"
-msgstr ""
+msgstr "Bawername hatiye betal kirin"
 
 #: kdecore/network/ktcpsocket.cpp:165
 msgctxt "SSL error"
 msgid "The certificate is unsuitable for this purpose"
-msgstr ""
+msgstr "Bawername ji bo vê armancê ne lêhatî ye"
 
 #: kdecore/network/ktcpsocket.cpp:167
 msgctxt "SSL error"
 msgid ""
 "The root certificate authority's certificate is not trusted for this purpose"
 msgstr ""
+"Bawernameya root ya rayeya bawernameyê ji bo vê armancê ne ewlemendî ye"
 
 #: kdecore/network/ktcpsocket.cpp:169
 msgctxt "SSL error"
@@ -5893,32 +5616,30 @@ msgid ""
 "The certificate authority's certificate is marked to reject this "
 "certificate's purpose"
 msgstr ""
+"Bawernameya rayeya bawernameyê ku vê armanca bawernameyê red bike tê "
+"nîşankirin"
 
 #: kdecore/network/ktcpsocket.cpp:171
 msgctxt "SSL error"
 msgid "The peer did not present any certificate"
-msgstr ""
+msgstr "Heval tu bawername pêşkêş nekir"
 
 #: kdecore/network/ktcpsocket.cpp:173
 msgctxt "SSL error"
 msgid "The certificate does not apply to the given host"
-msgstr ""
+msgstr "Bawername ji bo hosta hatiye dayin nayê sepandin"
 
 #: kdecore/network/ktcpsocket.cpp:175
 msgctxt "SSL error"
 msgid "The certificate cannot be verified for internal reasons"
-msgstr ""
+msgstr "Bawername ji bo sedemên hundirîn nayê rastandin"
 
 #: kdecore/network/ktcpsocket.cpp:177
-#, fuzzy
-#| msgid "The peer SSL certificate chain appears to be corrupt."
 msgctxt "SSL error"
 msgid "The certificate chain is too long"
-msgstr "Dibe ku zencîreya sertîfîkaya SSL'ê xerabûyî be."
+msgstr "Zincîra bawernameyê pir dirêj e"
 
 #: kdecore/network/ktcpsocket.cpp:180
-#, fuzzy
-#| msgid "Unknown error"
 msgctxt "SSL error"
 msgid "Unknown error"
 msgstr "Çewtiya nenas"
@@ -6013,11 +5734,8 @@ msgstr "makîneya dûr girêdan qut kir"
 
 #: kdecore/network/klocalsocket_win.cpp:31
 #: kdecore/network/klocalsocket_win.cpp:36
-#, fuzzy
-#| msgctxt "Socket error code NotSupported"
-#| msgid "operation is not supported"
 msgid "Operation not supported"
-msgstr "kar nayê destekirin"
+msgstr "Kar bêdestek e"
 
 #: kdecore/network/ksocketfactory.cpp:92
 #: kdecore/network/ksocketfactory.cpp:106
@@ -6072,30 +5790,21 @@ msgstr ""
 #: kdecore/network/klocalsocket_unix.cpp:187
 #: kdecore/network/klocalsocket_unix.cpp:234
 #: kdecore/network/klocalsocket_unix.cpp:255
-#, fuzzy
-#| msgctxt "Socket error code NotSupported"
-#| msgid "operation is not supported"
 msgid "The socket operation is not supported"
-msgstr "kar nayê destekirin"
+msgstr "Karê soketê nayê destekirin"
 
 #: kdecore/network/klocalsocket_unix.cpp:200
-#, fuzzy
-#| msgctxt "Socket error code ConnectionRefused"
-#| msgid "connection actively refused"
 msgid "Connection refused"
-msgstr "ji bo girêdanê destûr nehat dayîn"
+msgstr "Girêdan hat redkirin"
 
 #: kdecore/network/klocalsocket_unix.cpp:205
 #: kdecore/network/klocalsocket_unix.cpp:268
 msgid "Permission denied"
-msgstr ""
+msgstr "Destûr nehat dayin"
 
 #: kdecore/network/klocalsocket_unix.cpp:209
-#, fuzzy
-#| msgctxt "Socket error code ConnectionTimedOut"
-#| msgid "connection timed out"
 msgid "Connection timed out"
-msgstr "dem têra girêdanê nekir"
+msgstr "Dem têra girêdanê nekir"
 
 #: kdecore/network/klocalsocket_unix.cpp:221
 #: kdecore/network/klocalsocket_unix.cpp:301
@@ -6103,43 +5812,34 @@ msgid "Could not set non-blocking mode"
 msgstr ""
 
 #: kdecore/network/klocalsocket_unix.cpp:272
-#, fuzzy
-#| msgctxt "Socket error code AddressInUse"
-#| msgid "address already in use"
 msgid "Address is already in use"
-msgstr "navnîşan jixwe tê bikaranîn"
+msgstr "Navnîşan jixwe tê bikaranîn"
 
 #: kdecore/network/klocalsocket_unix.cpp:277
 msgid "Path cannot be used"
-msgstr ""
+msgstr "Rêç nayê bikaranîn"
 
 #: kdecore/network/klocalsocket_unix.cpp:281
-#, fuzzy
-#| msgid "No such interpreter \"%1\""
 msgid "No such file or directory"
-msgstr "Ravekareke bi navê \"%1\" tune"
+msgstr "Pel an jî peldankekî wisa tuneye"
 
 #: kdecore/network/klocalsocket_unix.cpp:285
-#, fuzzy
-#| msgid "Path to the autostart directory"
 msgid "Not a directory"
-msgstr "Riya pelrêça destpêkirina xweber"
+msgstr "Ne peldank e"
 
 #: kdecore/network/klocalsocket_unix.cpp:289
 msgid "Read-only filesystem"
-msgstr ""
+msgstr "Pergala pelan ya Tenê-xwendin"
 
 #: kdecore/network/klocalsocket_unix.cpp:354
 #: kdecore/network/klocalsocket_unix.cpp:386
-#, fuzzy
-#| msgid "Unknown error"
 msgid "Unknown socket error"
-msgstr "Çewtiya nenas"
+msgstr "Çewtiya soketê ya nenas"
 
 #: kdecore/auth/backends/dbus/DBusHelperProxy.cpp:102
 #, kde-format
 msgid "DBus Backend error: connection to helper failed. %1"
-msgstr ""
+msgstr "Çewtiya DBus Backend: girêdana bi alîkar re têkçû. %1"
 
 #: kdecore/auth/backends/dbus/DBusHelperProxy.cpp:126
 #, kde-format
@@ -6147,11 +5847,13 @@ msgid ""
 "DBus Backend error: could not contact the helper. Connection error: %1. "
 "Message error: %2"
 msgstr ""
+"Çewtiya DBus Backend: nikare bi alîkar re bikeve têkiliyê. Çewtiya girêdanê: "
+"%1. Çewtiya peyamê: %2"
 
 #: kdecore/auth/backends/dbus/DBusHelperProxy.cpp:139
 #, kde-format
 msgid "DBus Backend error: received corrupt data from helper %1 %2"
-msgstr ""
+msgstr "Çewtiya DBus Backend: danayê xirab ji alîkarê %1 %2 hat stendin"
 
 #: kdecore/config/kconfig.cpp:688
 msgid "Please contact your system administrator."
@@ -6303,7 +6005,7 @@ msgstr "Pelê demdemî venebû."
 
 #: kdecore/io/ksavefile.cpp:215
 msgid "Synchronization to disk failed"
-msgstr ""
+msgstr "Hevdemkirina dîskê pêk nehat"
 
 #: kdecore/io/ksavefile.cpp:239
 msgid "Error during rename."
@@ -6316,44 +6018,41 @@ msgstr "Pirtûkxana \"%1\" nehat dîtin"
 
 #: kdecore/util/klibloader.cpp:146
 msgid "No service matching the requirements was found."
-msgstr ""
+msgstr "Tu servîsên bi pêwistiyan re hev digirin nehat dîtin."
 
 #: kdecore/util/klibloader.cpp:148
 msgid ""
 "The service provides no library, the Library key is missing in the .desktop "
 "file."
 msgstr ""
+"Servîs tu pirtûkxaneyan peyde nake, mifteya Pirtûkxanê ya di pela .desktop "
+"de winda ye."
 
 #: kdecore/util/klibloader.cpp:152
 msgid "The library does not export a factory for creating components."
-msgstr ""
+msgstr "Pirtûkxane ji bo afirandina perçeyan hilberînerekî naşîne derve."
 
 #: kdecore/util/klibloader.cpp:154
 msgid "The factory does not support creating components of the specified type."
-msgstr ""
+msgstr "Hilberîner piştgirî nade afirandina perçeyên cureyên taybet."
 
 #: kdecore/util/klibloader.cpp:156
 msgid "KLibLoader: Unknown error"
 msgstr "KLibLoader: Çewtiya nenas"
 
 #: kdecore/util/kpluginloader.cpp:141 kdecore/util/kpluginloader.cpp:174
-#, fuzzy, kde-format
-#| msgid ""
-#| "Could not find 'kdemain' in '%1'.\n"
-#| "%2"
+#, kde-format
 msgid "Could not find plugin '%1' for application '%2'"
-msgstr ""
-"Di hundirê '%1' de \"kdemain\" nehate dîtin.\n"
-"%2"
+msgstr "Ji bo sepana '%2' pêveka '%1' nehate dîtin"
 
 #: kdecore/util/kpluginloader.cpp:160
 msgid "The provided service is not valid"
-msgstr ""
+msgstr "Servîsa peydekirî nederbasdar e"
 
 #: kdecore/util/kpluginloader.cpp:166
 #, kde-format
 msgid "The service '%1' provides no library or the Library key is missing in "
-msgstr ""
+msgstr "Servîsa '%1' tu pitûkxane peyde nake an jî mifteya Pirtûkxanê winda ye"
 
 #: kdecore/util/kpluginloader.cpp:213
 #, kde-format
@@ -6421,7 +6120,7 @@ msgstr "Testkhtml"
 
 #: khtml/testkhtml.cpp:42
 msgid "a basic web browser using the KHTML library"
-msgstr ""
+msgstr "geroka torê yekî bingeh ku pirtûkxaneya KHTML bi kar tîne"
 
 #: khtml/khtml_settings.cpp:238
 msgid "Accept"
@@ -6470,17 +6169,6 @@ msgstr ""
 "be.</p> </qt>"
 
 #: khtml/khtml_printsettings.cpp:56
-#, fuzzy
-#| msgid ""
-#| "<qt><p><strong>'Printerfriendly mode'</strong></p><p>If this checkbox is "
-#| "enabled, the printout of the HTML document will be black and white only, "
-#| "and all colored background will be converted into white. Printout will be "
-#| "faster and use less ink or toner.</p><p>If this checkbox is disabled, the "
-#| "printout of the HTML document will happen in the original color settings "
-#| "as you see in your application. This may result in areas of full-page "
-#| "color (or grayscale, if you use a black+white printer). Printout will "
-#| "possibly happen slower and will certainly use much more toner or ink.</p> "
-#| "</qt>"
 msgid ""
 "<qt><p><strong>'Printerfriendly mode'</strong></p><p>If this checkbox is "
 "enabled, the printout of the HTML document will be black and white only, and "
@@ -6518,19 +6206,19 @@ msgstr "Sernavê Danivîsînê"
 
 #: khtml/test_regression.cpp:619
 msgid "Directory containing tests, basedir and output directories."
-msgstr ""
+msgstr "Di peldankê de peldankên tests, basdir û output henin."
 
 #: khtml/test_regression.cpp:621
 msgid "Do not suppress debug output"
-msgstr ""
+msgstr "Derana debug neşidîne"
 
 #: khtml/test_regression.cpp:623
 msgid "Regenerate baseline (instead of checking)"
-msgstr ""
+msgstr "Xetabingeh nû ve biafirîne (şûna kontrol kirinê)"
 
 #: khtml/test_regression.cpp:625
 msgid "Do not show the window while running tests"
-msgstr ""
+msgstr "Demê xebitandina testan de paceyê nede nîşan"
 
 #: khtml/test_regression.cpp:627
 msgid "Only run a single test. Multiple options allowed."
@@ -6546,17 +6234,20 @@ msgstr "Tenê testên html bixebitîne"
 
 #: khtml/test_regression.cpp:632
 msgid "Put output in &lt;directory&gt; instead of &lt;base_dir&gt;/output"
-msgstr ""
+msgstr "Deranan bike di &lt;directory&gt de; şûna &lt;base_dir&gt;/output"
 
 #: khtml/test_regression.cpp:634
 msgid "Use &lt;directory&gt; as reference instead of &lt;base_dir&gt;/baseline"
 msgstr ""
+"&lt;directory&gt bi kar bîne; şûna &lt;base_dir&gt;/baseline, wekî jêder"
 
 #: khtml/test_regression.cpp:635
 msgid ""
 "Directory containing tests, basedir and output directories. Only regarded if "
 "-b is not specified."
 msgstr ""
+"Di peldankê de peldankên tests, basedir û output henin. Tenê heke -b "
+"diyarkirî nebe tê pejirandin."
 
 #: khtml/test_regression.cpp:636
 msgid ""
@@ -6566,11 +6257,11 @@ msgstr ""
 
 #: khtml/test_regression.cpp:638
 msgid "TestRegression"
-msgstr ""
+msgstr "TestRegression"
 
 #: khtml/test_regression.cpp:639
 msgid "Regression tester for khtml"
-msgstr ""
+msgstr "Ceribandina paşketinê jibo khtml"
 
 #: khtml/khtmlimage.cpp:197
 #, kde-format
@@ -6758,11 +6449,8 @@ msgid "%1%"
 msgstr "%1%"
 
 #: khtml/khtmladaptorpart.cpp:29
-#, fuzzy
-#| msgctxt "@item font size"
-#| msgid "Relative"
 msgid "Inactive"
-msgstr "Rêjeyî"
+msgstr "Neçalak"
 
 #: khtml/khtml_part.cpp:261
 msgid "View Do&cument Source"
@@ -6805,45 +6493,34 @@ msgid "Enlarge Font"
 msgstr "Curetîpan Mezin Bike"
 
 #: khtml/khtml_part.cpp:369
-#, fuzzy
-#| msgid ""
-#| "Enlarge Font<br /><br />Make the font in this window bigger. Click and "
-#| "hold down the mouse button for a menu with all available font sizes."
 msgid ""
 "<qt>Enlarge Font<br /><br />Make the font in this window bigger. Click and "
 "hold down the mouse button for a menu with all available font sizes.</qt>"
 msgstr ""
-"Curenivîsê Mezin Bike<br /><br />Curenivîsa ku di vê paceyê de ye mezin bike."
-"Tu dikarî pêl bişkoka mişk bike û ber bi jêr bikşîne û hemû mezinahiyên "
-"curenivîsan nîşan bide."
+"<qt>Curenivîsê Mezin Bike<br /><br />Curenivîsa ku di vê paceyê de ye mezin "
+"bike.Tu dikarî pêl bişkoka mişkê bikî û ber bi jêr bikşînî û hemû "
+"mezinahiyên curenivîsan nîşan bidî.</qt>"
 
 #: khtml/khtml_part.cpp:373
 msgid "Shrink Font"
 msgstr "Curetîpan Biçûk Bike"
 
 #: khtml/khtml_part.cpp:376
-#, fuzzy
-#| msgid ""
-#| "Shrink Font<br /><br />Make the font in this window smaller. Click and "
-#| "hold down the mouse button for a menu with all available font sizes."
 msgid ""
 "<qt>Shrink Font<br /><br />Make the font in this window smaller. Click and "
 "hold down the mouse button for a menu with all available font sizes.</qt>"
 msgstr ""
-"Biçûkirina curetîp<br /><br />Curetîpan di vê nivîsê de biçûk bike. pêl "
-"bişkoka mişkê bike û pêlkirî bihêle bi derbaskirina di ser hemû lîsteyê re û "
-"hemû meznahiyên curetîpên heyî."
+"<qt>Biçûkirina Curetîp<br /><br />Curetîpan di vê nivîsê de biçûk bike. Tu "
+"dikarî pêl bişkoka mişkê bikî û ber bi jêr bikşînî û hemû mezinahiyên "
+"curenivîsan nîşan bidî.</qt>"
 
 #: khtml/khtml_part.cpp:394
-#, fuzzy
-#| msgid ""
-#| "Find text<br /><br />Shows a dialog that allows you to find text on the "
-#| "displayed page."
 msgid ""
 "<qt>Find text<br /><br />Shows a dialog that allows you to find text on the "
 "displayed page.</qt>"
 msgstr ""
-"Nivîsê bibîne <br /><br />Li rûpelê ku hatiye nîşandan de nivîsekê dibîne."
+"<qt>Nivîsê bibîne<br /><br />Li rûpelê ku hatiye nîşandan de tu dikarî "
+"nivîsekê bibînî.</qt>"
 
 #: khtml/khtml_part.cpp:399
 msgid ""
@@ -6866,17 +6543,13 @@ msgid "Find Links as You Type"
 msgstr "Dema te dinivîsand de girêdana ku tu lê digeriya bibîne"
 
 #: khtml/khtml_part.cpp:435
-#, fuzzy
-#| msgid ""
-#| "Print Frame<br /><br />Some pages have several frames. To print only a "
-#| "single frame, click on it and then use this function."
 msgid ""
 "<qt>Print Frame<br /><br />Some pages have several frames. To print only a "
 "single frame, click on it and then use this function.</qt>"
 msgstr ""
-"Çarçoveyê çap bike <br /><br />Dibe ku gelek çarçoveyên rûpelan hebe. Heke "
-"tu dixwazî tenê vê çarçoveyê çap bike pêl ser vê çarçoveyê bike û piştî wê "
-"jî vê fonksiyonê bikar bîne."
+"<qt>Çarçoveyê çap bike <br /><br />Dibe ku gelek çarçoveyên rûpelan hebe. "
+"Heke tu dixwazî tenê yek çarçoveyê çap bikî, pêl ser vê çarçoveyê bike û "
+"piştî wê jî vê fonksiyonê bikar bîne.</qt>"
 
 #: khtml/khtml_part.cpp:450
 msgid "Toggle Caret Mode"
@@ -6988,8 +6661,7 @@ msgid "%1 (Link)"
 msgstr "%1 (Girêdan)"
 
 #: khtml/khtml_part.cpp:3584
-#, fuzzy, kde-format
-#| msgid "%2 (%1 bytes)"
+#, kde-format
 msgid "%2 (%1 byte)"
 msgid_plural "%2 (%1 bytes)"
 msgstr[0] "%2 (%1 bayt)"
@@ -7043,12 +6715,9 @@ msgid "   <a href=\"%1\">[Properties]</a>"
 msgstr "   <a href=\"%1\">[Taybetmendî]</a>"
 
 #: khtml/khtml_part.cpp:3853
-#, fuzzy
-#| msgctxt "@item Text character set"
-#| msgid "Turkish"
 msgctxt "HTML rendering mode (see http://en.wikipedia.org/wiki/Quirks_mode)"
 msgid "Quirks"
-msgstr "Tirkî"
+msgstr "Qerfok"
 
 #: khtml/khtml_part.cpp:3856
 msgctxt "HTML rendering mode (see http://en.wikipedia.org/wiki/Quirks_mode)"
@@ -7056,11 +6725,9 @@ msgid "Almost standards"
 msgstr ""
 
 #: khtml/khtml_part.cpp:3860
-#, fuzzy
-#| msgid "Start"
 msgctxt "HTML rendering mode (see http://en.wikipedia.org/wiki/Quirks_mode)"
 msgid "Strict"
-msgstr "Destpêk"
+msgstr "Desthilat"
 
 #: khtml/khtml_part.cpp:3931
 msgid "Save Background Image As"
@@ -7172,12 +6839,12 @@ msgstr "Cuzdan &Bigire"
 
 #: khtml/khtml_part.cpp:7183
 msgid "&Allow storing passwords for this site"
-msgstr ""
+msgstr "&Bihêle bila nasnavan ji bo malperê tomar bike"
 
 #: khtml/khtml_part.cpp:7188
 #, kde-format
 msgid "Remove password for form %1"
-msgstr ""
+msgstr "Nasnavê ji %1 jê bibe"
 
 #: khtml/khtml_part.cpp:7293
 msgid "JavaScript &Debugger"
@@ -7243,7 +6910,7 @@ msgstr "Bidomîne"
 
 #: khtml/test_regression_gui_window.cpp:632
 msgid "Cannot find testregression executable."
-msgstr ""
+msgstr "Ceribandina paşketinê naxebite."
 
 #: khtml/test_regression_gui_window.cpp:1102
 msgid "Run test..."
@@ -7263,7 +6930,7 @@ msgstr "TestRegressionGui"
 
 #: khtml/test_regression_gui_main.cpp:35
 msgid "GUI for the khtml regression tester"
-msgstr ""
+msgstr "GUI ji bo ceribandkerê paşketinê ya khtml"
 
 #: khtml/khtml_global.cpp:208
 msgid "KHTML"
@@ -7271,7 +6938,7 @@ msgstr "KHTML"
 
 #: khtml/khtml_global.cpp:209
 msgid "Embeddable HTML component"
-msgstr ""
+msgstr "Perçeyên HTML yên bixwe heyî"
 
 #: khtml/khtml_global.cpp:211
 msgid "Lars Knoll"
@@ -7352,11 +7019,9 @@ msgid "Send Confirmation"
 msgstr "Erêkirinê Bişîne"
 
 #: khtml/html/html_formimpl.cpp:441
-#, fuzzy
-#| msgid "&Send Files"
 msgid "&Send File"
 msgid_plural "&Send Files"
-msgstr[0] "Pelan &Bişîne"
+msgstr[0] "Pel &Bişîne"
 msgstr[1] "Pelan &Bişîne"
 
 #: khtml/html/html_formimpl.cpp:2662
@@ -7476,29 +7141,22 @@ msgid "Disallow"
 msgstr "Destûrê nede"
 
 #: khtml/ecma/kjs_binding.cpp:185
-#, fuzzy
-#| msgid ""
-#| "A script on this page is causing KHTML to freeze. If it continues to run, "
-#| "other applications may become less responsive.\n"
-#| "Do you want to abort the script?"
 msgid ""
 "A script on this page is causing KHTML to freeze. If it continues to run, "
 "other applications may become less responsive.\n"
 "Do you want to stop the script?"
 msgstr ""
-"Nivîseke sepanokî di vê rûpelê de heye dibe sedema rawestandina KHTM. heke "
+"Nivîseke sepanokî di vê rûpelê de heye dibe sedema rawestandina KHTM. Heke "
 "xebatê bidomîne jî dê bandorê li ser girankirina bernameyên din bike.\n"
-"tu dixwazî vê nivîsa sepanokî beravêtî bikî?"
+"Tu dixwazî vê nivîsa sepanokî rawstînîî?"
 
 #: khtml/ecma/kjs_binding.cpp:185
 msgid "JavaScript"
 msgstr "JavaScript"
 
 #: khtml/ecma/kjs_binding.cpp:185
-#, fuzzy
-#| msgid "Open Script"
 msgid "&Stop Script"
-msgstr "Skrîptê Veke"
+msgstr "&Skrîptê Rawestîne"
 
 #: khtml/ecma/debugger/localvariabledock.cpp:43
 msgid "Local Variables"
@@ -7554,16 +7212,15 @@ msgstr "Gava Der"
 
 #: khtml/ecma/debugger/debugwindow.cpp:219
 msgid "Reindent Sources"
-msgstr ""
+msgstr "Çavkaniyên Reindent"
 
 #: khtml/ecma/debugger/debugwindow.cpp:224
-#, fuzzy
 msgid "Report Exceptions"
-msgstr "Çalakî"
+msgstr "Rewşên Taybet yên Raporê"
 
 #: khtml/ecma/debugger/debugwindow.cpp:232
 msgid "&Debug"
-msgstr ""
+msgstr "&Debug"
 
 #: khtml/ecma/debugger/debugwindow.cpp:266
 msgid "Close source"
@@ -7628,25 +7285,24 @@ msgstr "Skrîptên Barkirî"
 
 #: khtml/rendering/media_controls.cpp:47
 msgid "Play"
-msgstr ""
+msgstr "Lê Bide"
 
 #: khtml/rendering/render_form.cpp:790
 msgid "New Web Shortcut"
 msgstr "Kurteriya Torê ya Nû"
 
 #: khtml/rendering/render_form.cpp:811
-#, fuzzy, kde-format
+#, kde-format
 msgid "%1 is already assigned to %2"
-msgstr "soket jixwe hatiye afirandin"
+msgstr "%1 jixwe bi %2 re hatiye tayînkirin"
 
 #: khtml/rendering/render_form.cpp:856
 msgid "Search &provider name:"
-msgstr ""
+msgstr "Lê &navê peydekerê bigere:"
 
 #: khtml/rendering/render_form.cpp:858
-#, fuzzy
 msgid "New search provider"
-msgstr "Gotineke lêgerînê têkeve virê"
+msgstr "Peydekerê lêgerînê ya nû"
 
 #: khtml/rendering/render_form.cpp:863
 msgid "UR&I shortcuts:"
@@ -7715,7 +7371,7 @@ msgstr "Çewtî: bernameya javayê nehate dîtin"
 #: khtml/java/kjavaappletserver.cpp:664
 #, kde-format
 msgid "Signed by (validation: %1)"
-msgstr ""
+msgstr "Hate îmzekirin aliyê (derbasdarbûn: %1)"
 
 #: khtml/java/kjavaappletserver.cpp:666
 #, kde-format
@@ -7785,17 +7441,16 @@ msgstr "Îfadeya &Sererast"
 
 #: khtml/ui/findbar/khtmlfindbar.cpp:205
 msgid "Not found"
-msgstr ""
+msgstr "Nehate dîtin"
 
 #: khtml/ui/findbar/khtmlfindbar.cpp:219
 msgid "No more matches for this search direction."
 msgstr ""
 
 #: khtml/ui/passwordbar/storepassbar.cpp:61
-#, fuzzy, kde-format
-#| msgid "Do you want to restart search from the end?"
+#, kde-format
 msgid "Do you want to store this password for %1?"
-msgstr "Bila lêgerîn ji destpêkê û pê ve were kirin?"
+msgstr "Tu dixwazî vê nasnavê ji bo %1 tomar bikî?"
 
 #: kde3support/kdeui/k3spelldlg.cpp:49
 msgid "Check Spelling"
@@ -7953,12 +7608,9 @@ msgid "<application>Zemberek</application>"
 msgstr "<application>Zemberek</application>"
 
 #: kde3support/kdeui/k3sconfig.cpp:171
-#, fuzzy
-#| msgctxt "@item:inlistbox Spell checker"
-#| msgid "<application>Hspell</application>"
 msgctxt "@item:inlistbox Spell checker"
 msgid "<application>Hunspell</application>"
-msgstr "<application>Hspell</application>"
+msgstr "<application>Hunspell</application>"
 
 #: kde3support/kdeui/k3sconfig.cpp:176
 msgctxt "@label:listbox"
@@ -8111,12 +7763,9 @@ msgid "Default - %1"
 msgstr "Standard - %1"
 
 #: kde3support/kdeui/k3sconfig.cpp:621 kde3support/kdeui/k3sconfig.cpp:835
-#, fuzzy
-#| msgctxt "@item Spelling dictionary"
-#| msgid "<application>ISpell</application> Default"
 msgctxt "@item Spelling dictionary"
 msgid "<application>Hunspell</application> Default"
-msgstr "<application>Ispell</application> a Standard"
+msgstr "<application>Hunspell</application> Standard"
 
 #: kde3support/kdeui/k3aboutdialog.cpp:185
 msgid "Email"
@@ -8436,22 +8085,19 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: kjsembed/kjsembed/qobject_binding.cpp:413
-#, fuzzy, kde-format
-#| msgid "There is no matching item available.\n"
+#, kde-format
 msgid "but there is only %1 available"
 msgid_plural "but there are only %1 available"
-msgstr[0] "Hêmanên derbasbar yên li gorê tunene.\n"
-msgstr[1] "Hêmanên derbasbar yên li gorê tunene.\n"
+msgstr[0] "lê li vir tenê %1 heye"
+msgstr[1] "lê li vir tenê %1 henin"
 
 #: kjsembed/kjsembed/qobject_binding.cpp:414
-#, fuzzy, kde-format
-#| msgctxt "concatenation of dates and time"
-#| msgid "%1 %2"
+#, kde-format
 msgctxt ""
 "%1 is 'the slot asked for foo arguments', %2 is 'but there are only bar "
 "available'"
 msgid "%1, %2."
-msgstr "%1 %2"
+msgstr "%1, %2."
 
 #: kjsembed/kjsembed/qobject_binding.cpp:613
 #, kde-format
@@ -8466,7 +8112,7 @@ msgstr "Şewaza '%1' tune."
 #: kjsembed/kjsembed/qobject_binding.cpp:677
 #, kde-format
 msgid "Call to method '%1' failed, unable to get argument %2: %3"
-msgstr ""
+msgstr "Gazîkirina metoda '%1' têkçû, nekarî hevoksaziya %2 bîne: %3"
 
 #: kjsembed/kjsembed/qobject_binding.cpp:720
 #, kde-format
@@ -8486,7 +8132,7 @@ msgstr "Nirx nehat serastkirin"
 #: kjsembed/kjsembed/eventproxy.cpp:108
 #, kde-format
 msgid "Bad event handler: Object %1 Identifier %2 Method %3 Type: %4."
-msgstr ""
+msgstr "Xebatkera bûyerên nebaş: Hêman %1 Nasker %2 Metod %3 Cure: %4"
 
 #: kjsembed/kjsembed/eventproxy.cpp:135
 #, kde-format
@@ -8614,74 +8260,61 @@ msgid "URI error"
 msgstr "Çewtiya URI"
 
 #: kparts/browseropenorsavequestion.cpp:100
-#, fuzzy, kde-format
-#| msgid "Re: %1"
+#, kde-format
 msgctxt "@label Type of file"
 msgid "Type: %1"
-msgstr "Bersiv:%1"
+msgstr "Cure: %1"
 
 #: kparts/browseropenorsavequestion.cpp:107
-#, fuzzy
-#| msgid "Do not show this message again"
 msgctxt "@label:checkbox"
 msgid "Remember action for files of this type"
-msgstr "Vê peyamê careke din nîşan nede"
+msgstr "Çalakiyê ji bo pelên bi vê cureyê bi bîr bîne"
 
 #: kparts/browseropenorsavequestion.cpp:138
 #: kparts/browseropenorsavequestion.cpp:212
-#, fuzzy, kde-format
-#| msgid "&Open with '%1'"
+#, kde-format
 msgctxt "@label:button"
 msgid "&Open with %1"
-msgstr "Bi '%1' &veke"
+msgstr "Bi %1 &veke"
 
 #: kparts/browseropenorsavequestion.cpp:187
-#, fuzzy, kde-format
-#| msgid "&Open with '%1'"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Open &with %1"
-msgstr "Bi '%1' &veke"
+msgstr "&Bi %1 veke"
 
 #: kparts/browseropenorsavequestion.cpp:198
 #: kparts/browseropenorsavequestion.cpp:291
-#, fuzzy, kde-format
-#| msgid "Open '%1'"
+#, kde-format
 msgctxt "@info"
 msgid "Open '%1'?"
-msgstr "'%1' veke"
+msgstr "Bila '%1' veke?"
 
 #: kparts/browseropenorsavequestion.cpp:201
-#, fuzzy
-#| msgid "&Open With..."
 msgctxt "@label:button"
 msgid "&Open with..."
-msgstr "&Veke Bi..."
+msgstr "&Veke bi..."
 
 #: kparts/browseropenorsavequestion.cpp:221
-#, fuzzy
-#| msgid "&Open With..."
 msgctxt "@label:button"
 msgid "&Open with"
-msgstr "&Veke Bi..."
+msgstr "&Veke bi"
 
 #: kparts/browseropenorsavequestion.cpp:288
-#, fuzzy
-#| msgid "&Open"
 msgctxt "@label:button"
 msgid "&Open"
 msgstr "&Veke"
 
 #: kparts/browseropenorsavequestion.cpp:309
-#, fuzzy, kde-format
-#| msgid "Name: "
+#, kde-format
 msgctxt "@label File name"
 msgid "Name: %1"
-msgstr "Nav: "
+msgstr "Nav: %1"
 
 #: kparts/browseropenorsavequestion.cpp:310
 msgctxt "@info:whatsthis"
 msgid "This is the file name suggested by the server"
-msgstr ""
+msgstr "Ev, navê pelê yê aliyê pêşkêşkerê ve tê pêşniyarkirin e"
 
 #: kparts/part.cpp:806
 msgid "Untitled"
@@ -8922,8 +8555,6 @@ msgstr ""
 "biguherîne"
 
 #: kdeui/dialogs/kbugreport.cpp:129
-#, fuzzy
-#| msgid "From:"
 msgctxt "Email sender address"
 msgid "From:"
 msgstr "Ji kê hatiye:"
@@ -8937,8 +8568,6 @@ msgid "The email address this bug report is sent to."
 msgstr "Navnîşana e-peyama ku wê ev rapor jê were şandin."
 
 #: kdeui/dialogs/kbugreport.cpp:146
-#, fuzzy
-#| msgid "To:"
 msgctxt "Email receiver address"
 msgid "To:"
 msgstr "Ji kê re dişîne:"
@@ -8977,8 +8606,6 @@ msgstr ""
 "nû derketiye yan na"
 
 #: kdeui/dialogs/kbugreport.cpp:201
-#, fuzzy
-#| msgid "no version set (programmer error!)"
 msgid "no version set (programmer error)"
 msgstr "agahiya guhertoyê tuneye (çewtiya bernamenûs)"
 
@@ -9081,11 +8708,6 @@ msgid ""
 msgstr ""
 
 #: kdeui/dialogs/kbugreport.cpp:452
-#, fuzzy
-#| msgid ""
-#| "Unable to send the bug report.\n"
-#| "Please submit a bug report manually...\n"
-#| "See http://bugs.kde.org/ for instructions."
 msgid ""
 "Unable to send the bug report.\n"
 "Please submit a bug report manually....\n"
@@ -9093,7 +8715,7 @@ msgid ""
 msgstr ""
 "Rapora çewtiyan nehate şandin.\n"
 "Rapora çewtiyan bi destan bişîne...\n"
-"Di vê mijarê de bnr. http://bugs.kde.org/."
+"Di vê mijarê de binihêre http://bugs.kde.org/."
 
 #: kdeui/dialogs/kbugreport.cpp:460
 msgid "Bug report sent, thank you for your input."
@@ -9116,16 +8738,12 @@ msgid "About KDE"
 msgstr "Der barê KDE de"
 
 #: kdeui/dialogs/kaboutkdedialog_p.cpp:46
-#, fuzzy, kde-format
-#| msgid ""
-#| "<html><font size=\"5\">K Desktop Environment</font><br /><b>Version %1</"
-#| "b></html>"
+#, kde-format
 msgid ""
 "<html><font size=\"5\">KDE - Be Free!</font><br /><b>Platform Version %1</"
 "b></html>"
 msgstr ""
-"<html><font size=\"5\">Derdora Sermaseya K </font><br /><b>Guhartoya %1</b></"
-"html>"
+"<html><font size=\"5\">KDE - Azad Be </font><br /><b>Guhartoya %1</b></html>"
 
 #: kdeui/dialogs/kaboutkdedialog_p.cpp:56
 #, kde-format
@@ -9154,16 +8772,7 @@ msgid ""
 msgstr ""
 
 #: kdeui/dialogs/kaboutkdedialog_p.cpp:93
-#, fuzzy, kde-format
-#| msgid ""
-#| "<html>You do not have to be a software developer to be a member of the "
-#| "KDE team. You can join the national teams that translate program "
-#| "interfaces. You can provide graphics, themes, sounds, and improved "
-#| "documentation. You decide!<br /><br />Visit <a href=\"http://www.kde.org/"
-#| "jobs/\">http://www.kde.org/jobs/</a> for information on some projects in "
-#| "which you can participate.<br /><br />If you need more information or "
-#| "documentation, then a visit to <a href=\"http://techbase.kde.org/"
-#| "\">http://techbase.kde.org</a> will provide you with what you need.</html>"
+#, kde-format
 msgid ""
 "<html>You do not have to be a software developer to be a member of the KDE "
 "team. You can join the national teams that translate program interfaces. You "
@@ -9176,11 +8785,9 @@ msgstr ""
 "<html>Ji bo ku tu bibî endamê koma KDE ne pêwiste ku tu pêşdebirê "
 "nivîsbariyê bî. Tu dikarî tevî komên navnetewî yên wergera rûyê bernameyan "
 "dikin. Tu dikarî şêwekariyê bikî, mijaran an jî belgekirinan bişînî . Tu "
-"biryara didî! <br /><br />Serî lê bide <a href=\"http://www.kde.org/jobs/"
-"\">http://www.kde.org/jobs/</a> ji bo agahiyên li ser bernameyên ku tu "
-"dikarî alîkariyê bikî.<br /><br />Heke tu agahiyên berfirehtir bixwazî <a "
-"href=\"http://techbase.kde.org/\">http://techbase.kde.org</a> dê pêwistiyên "
-"te bicih bîne.</html>"
+"biryara didî! <br /><br />Serî lê bide <a href=\"%1\">%1</a> ji bo agahiyên "
+"li ser bernameyên ku tu dikarî alîkariyê bikî.<br /><br />Heke tu agahiyên "
+"berfirehtir bixwazî <a href=\"%2\">%2</a> dê pêwistiyên te bicih bîne.</html>"
 
 #: kdeui/dialogs/kaboutkdedialog_p.cpp:115
 #, kde-format
@@ -9209,10 +8816,8 @@ msgid "&Report Bugs or Wishes"
 msgstr "&Raporkirina çewtî û daxwazan"
 
 #: kdeui/dialogs/kaboutkdedialog_p.cpp:136
-#, fuzzy
-#| msgid "&Join the KDE Team"
 msgid "&Join KDE"
-msgstr "&Beşdarî Koma KDE Bibe"
+msgstr "&Beşdarî KDE Bibe"
 
 #: kdeui/dialogs/kaboutkdedialog_p.cpp:137
 msgid "&Support KDE"
@@ -9237,21 +8842,14 @@ msgid ""
 msgstr "<qt>Agahî tuneye.<br />Biresera KAboutData nehate dîtin.</qt>"
 
 #: kdeui/dialogs/kaboutapplicationdialog.cpp:107
-#, fuzzy, kde-format
-#| msgid ""
-#| "<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />Using KDE %"
-#| "3</html>"
+#, kde-format
 msgid ""
 "<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />&nbsp;</html>"
 msgstr ""
-"<html><font size=\"5\">%1</font><br /><b>Guhartoya %2</b><br />KDE %3 tê "
-"bikaranîn</html>"
+"<html><font size=\"5\">%1</font><br /><b>Guhertoya %2</b><br />&nbsp;</html>"
 
 #: kdeui/dialogs/kaboutapplicationdialog.cpp:111
-#, fuzzy, kde-format
-#| msgid ""
-#| "<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />Using KDE %"
-#| "3</html>"
+#, kde-format
 msgctxt ""
 "Program name, version and KDE platform version; do not translate "
 "'Development Platform'"
@@ -9259,8 +8857,8 @@ msgid ""
 "<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />Using KDE "
 "Development Platform %3</html>"
 msgstr ""
-"<html><font size=\"5\">%1</font><br /><b>Guhartoya %2</b><br />KDE %3 tê "
-"bikaranîn</html>"
+"<html><font size=\"5\">%1</font><br /><b>Guhartoya %2</b><br />KDE Platforma "
+"Pêşdebirinê %3 tê bikaranîn</html>"
 
 #: kdeui/dialogs/kaboutapplicationdialog.cpp:145
 #, kde-format
@@ -9268,17 +8866,13 @@ msgid "License: %1"
 msgstr "Lîsans: %1"
 
 #: kdeui/dialogs/kaboutapplicationdialog.cpp:194
-#, fuzzy, kde-format
-#| msgctxt "@application/plain"
-#| msgid "%1"
+#, kde-format
 msgctxt "@item Author name in about dialog"
 msgid "%1"
 msgstr "%1"
 
 #: kdeui/dialogs/kaboutapplicationdialog.cpp:219
-#, fuzzy, kde-format
-#| msgctxt "@application/plain"
-#| msgid "%1"
+#, kde-format
 msgctxt "@item Contributor name in about dialog."
 msgid "%1"
 msgstr "%1"
@@ -9377,11 +8971,11 @@ msgstr "Şev (18:00 heta 05:59)"
 
 #: kdeui/dialogs/kcupsoptionsjobwidget_p.cpp:94
 msgid "Second Shift (16:00 to 23:59)"
-msgstr ""
+msgstr "Berdêla Duyemîn (ji 16:00 heta 23:59)"
 
 #: kdeui/dialogs/kcupsoptionsjobwidget_p.cpp:95
 msgid "Third Shift (00:00 to 07:59)"
-msgstr ""
+msgstr "Berdêla Sêyemîn (ji 00:00 heta 07:59)"
 
 #: kdeui/dialogs/kcupsoptionsjobwidget_p.cpp:96
 msgid "Weekend (Saturday to Sunday)"
@@ -9414,28 +9008,20 @@ msgid "Password"
 msgstr "Şîfre"
 
 #: kdeui/dialogs/kcupsoptionssettingswidget_p.cpp:66
-#, fuzzy
-#| msgid "Pages"
 msgid "All Pages"
-msgstr "Rûpel"
+msgstr "Hemû Rûpel"
 
 #: kdeui/dialogs/kcupsoptionssettingswidget_p.cpp:67
-#, fuzzy
-#| msgid "Pages"
 msgid "Odd Pages"
-msgstr "Rûpel"
+msgstr "Rûpelên Fer"
 
 #: kdeui/dialogs/kcupsoptionssettingswidget_p.cpp:68
-#, fuzzy
-#| msgid "Pages"
 msgid "Even Pages"
-msgstr "Rûpel"
+msgstr "Rûpelên Cot"
 
 #: kdeui/dialogs/kcupsoptionssettingswidget_p.cpp:79
-#, fuzzy
-#| msgid "Pages Per Sheet"
 msgid "Page Set"
-msgstr "Rûpelên Di Pelî De"
+msgstr "Mîhengên Rûpelê"
 
 #: kdeui/dialogs/kpixmapregionselectordialog.cpp:64
 msgid "Select Region of Image"
@@ -9476,11 +9062,11 @@ msgstr "Wekî Standardên Şemayê Tomar Bike"
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:81
 msgid "Export Scheme..."
-msgstr ""
+msgstr "Dirb Bişîne Derve..."
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:98
 msgid "Name for New Scheme"
-msgstr ""
+msgstr "Nav ji bo Dirba Nû"
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:99
 msgid "Name for new scheme:"
@@ -9500,15 +9086,16 @@ msgid ""
 "Do you really want to delete the scheme %1?\n"
 "Note that this will not remove any system wide shortcut schemes."
 msgstr ""
+"Tu ji dil dixwazî ku vê dirba %1 jê bibî?\n"
+"Ev tu dirbên kurteriyên pergalê ranake."
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:162
-#, fuzzy
 msgid "Export to Location"
-msgstr "Ji bo Sererastkirina Cihî Bitikîne"
+msgstr "Bişîne vê Cihê"
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:171
 msgid "Could not export shortcuts scheme because the location is invalid."
-msgstr ""
+msgstr "Nikare dirba kurteriyan bişîne, ji ber ku ev cih tuneye."
 
 #: kdeui/dialogs/kdialog.cpp:241
 msgid "&Try"
@@ -9521,7 +9108,7 @@ msgstr "guherî"
 #: kdeui/dialogs/kdialog.cpp:450
 msgctxt "Document/application separator in titlebar"
 msgid " – "
-msgstr ""
+msgstr " – "
 
 #: kdeui/dialogs/kdialog.cpp:821
 msgid "&Details"
@@ -9536,16 +9123,12 @@ msgid "--- separator ---"
 msgstr "--- veqetînder ---"
 
 #: kdeui/dialogs/kedittoolbar.cpp:287
-#, fuzzy
-#| msgid "Change Icon"
 msgid "Change Text"
-msgstr "Sembolê Biguherîne"
+msgstr "Nivîsê Biguherîne"
 
 #: kdeui/dialogs/kedittoolbar.cpp:298
-#, fuzzy
-#| msgid "Link Text:"
 msgid "Icon te&xt:"
-msgstr "Teksta Lînkê:"
+msgstr "Ni&vîsa îkonê:"
 
 #: kdeui/dialogs/kedittoolbar.cpp:303
 msgid "&Hide text when toolbar shows text alongside icons"
@@ -9576,10 +9159,8 @@ msgid "A&vailable actions:"
 msgstr "&Çalakiyên Xebatbar:"
 
 #: kdeui/dialogs/kedittoolbar.cpp:928 kdeui/dialogs/kedittoolbar.cpp:947
-#, fuzzy
-#| msgid "&Filter:"
 msgid "Filter"
-msgstr "&Parzûn:"
+msgstr "Parzûn"
 
 #: kdeui/dialogs/kedittoolbar.cpp:931
 msgid "Curr&ent actions:"
@@ -9590,10 +9171,8 @@ msgid "Change &Icon..."
 msgstr "&Sembolê Biguherîne..."
 
 #: kdeui/dialogs/kedittoolbar.cpp:960
-#, fuzzy
-#| msgid "Change &Icon..."
 msgid "Change Te&xt..."
-msgstr "&Sembolê Biguherîne..."
+msgstr "Ni&vîsê Biguherîne..."
 
 #: kdeui/dialogs/kedittoolbar.cpp:1111
 #, kde-format
@@ -9655,7 +9234,7 @@ msgstr "Taybet:"
 
 #: kdeui/dialogs/ktip.cpp:230
 msgid "Tip of the Day"
-msgstr ""
+msgstr "Mijara Rojê"
 
 #: kdeui/dialogs/ktip.cpp:249
 msgid "Did you know...?\n"
@@ -9672,35 +9251,35 @@ msgstr "&Pêşde"
 
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:167
 msgid "Left to Right, Top to Bottom"
-msgstr ""
+msgstr "Ji Cepê bi Rastê ve, ji Jor de bi Jêrê ve"
 
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:168
 msgid "Left to Right, Bottom to Top"
-msgstr ""
+msgstr "Ji Cepê bi Rastê ve, ji Jêr de bi Jorê ve"
 
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:169
 msgid "Right to Left, Bottom to Top"
-msgstr ""
+msgstr "Ji Rastê bi Cepê ve, ji Jêr de bi Jorê ve"
 
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:170
 msgid "Right to Left, Top to Bottom"
-msgstr ""
+msgstr "Ji Rastê bi Cepê ve, ji Jor de bi Jêrê ve"
 
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:171
 msgid "Bottom to Top, Left to Right"
-msgstr ""
+msgstr "Ji Jêr de bi Jorê ve, Ji Cepê bi Rastê ve"
 
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:172
 msgid "Bottom to Top, Right to Left"
-msgstr ""
+msgstr "Ji Jêr de bi Jorê ve, ji Rastê bi Cepê ve"
 
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:173
 msgid "Top to Bottom, Left to Right"
-msgstr ""
+msgstr "Ji Jor de bi Jêrê ve, ji Cepê bi Rastê ve"
 
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:174
 msgid "Top to Bottom, Right to Left"
-msgstr ""
+msgstr "Ji Jor de bi Jêrê ve, ji Rastê bi Cepê ve"
 
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:191
 msgctxt "No border line"
@@ -9915,6 +9494,8 @@ msgstr "Rêjeyî"
 #: kdeui/fonts/kfontchooser.cpp:322
 msgid "Font size<br /><i>fixed</i> or <i>relative</i><br />to environment"
 msgstr ""
+"Mezinahiya curenivîsê<br /><i>sabît</i> an <i>rêjeyî</i><br /> li gorê "
+"derdorê"
 
 #: kdeui/fonts/kfontchooser.cpp:324
 msgid ""
@@ -9975,7 +9556,7 @@ msgstr "Serîf"
 #: kdeui/fonts/fonthelpers.cpp:38
 msgctxt "@item Font name"
 msgid "Monospace"
-msgstr ""
+msgstr "Monospace"
 
 #. i18n: Filter by which the translators can translate, or otherwise
 #. operate on the font names not put up for regular translation.
@@ -10013,12 +9594,10 @@ msgid "1"
 msgstr "1"
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:274 kdeui/jobs/kwidgetjobtracker.cpp:282
-#, fuzzy, kde-format
-#| msgctxt "@application/plain"
-#| msgid "%1"
+#, kde-format
 msgctxt "%1 is the label, we add a ':' to it"
 msgid "%1:"
-msgstr "%1"
+msgstr "%1:"
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:329
 #, kde-format
@@ -10076,16 +9655,12 @@ msgid "%1/s (done)"
 msgstr "%1/ç (temam)"
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:423
-#, fuzzy
-#| msgid "Resume"
 msgid "&Resume"
-msgstr "Domandin"
+msgstr "&Bidomîne"
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:429 kdeui/jobs/kwidgetjobtracker.cpp:502
-#, fuzzy
-#| msgid "Pause"
 msgid "&Pause"
-msgstr "Navber"
+msgstr "&Bisekinîne"
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:455
 msgctxt "The source url of a job"
@@ -10099,7 +9674,7 @@ msgstr "Hedef:"
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:487 kdeui/jobs/kwidgetjobtracker.cpp:660
 msgid "Click this to expand the dialog, to show details"
-msgstr ""
+msgstr "Ji bo mezinkirin û dîtina kitekitan pêl li vir bikin"
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:521
 msgid "&Keep this window open after transfer is complete"
@@ -10133,7 +9708,7 @@ msgstr[1] "%1 pel"
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:653
 msgid "Click this to collapse the dialog, to hide details"
-msgstr ""
+msgstr "Ji bo biçûkkirin û veşartina kitekitan pêl li vir bikin"
 
 #: kdeui/jobs/kstatusbarjobtracker.cpp:244
 msgid " Stalled "
@@ -10172,9 +9747,10 @@ msgid ""
 "The '%1' key combination is registered by application %2.\n"
 "%3"
 msgstr ""
+"Pevgihana '%1' aliyê sepana %2 ve tê tomarkirin.\n"
+"%3"
 
 #: kdeui/shortcuts/kglobalaccel.cpp:568
-#, fuzzy
 msgid "Conflict With Registered Global Shortcut"
 msgstr "Lihevnekirina Kurteriyên Giştî"
 
@@ -10622,19 +10198,15 @@ msgctxt ""
 "a kind of mouse gesture: hold down one mouse button, then press another "
 "button"
 msgid "Hold %1, then push %2"
-msgstr ""
+msgstr "%1 pêlêkirî bigire, paşê jî pêl %2 bike"
 
 #: kdeui/actions/krecentfilesaction.cpp:80
-#, fuzzy
-#| msgid "No entries"
 msgid "No Entries"
-msgstr "Ketan tune"
+msgstr "Ketan Tune"
 
 #: kdeui/actions/krecentfilesaction.cpp:84
-#, fuzzy
-#| msgid "Clear input"
 msgid "Clear List"
-msgstr "Têketinê Paqij Bike"
+msgstr "Lîstê Paqij Bike"
 
 #: kdeui/actions/kaction.cpp:122
 #, kde-format
@@ -10726,10 +10298,8 @@ msgid "Desktop %1"
 msgstr "%1. Sermase"
 
 #: kdeui/xmlgui/ktoolbarhandler.cpp:97
-#, fuzzy
-#| msgid "Toolbars"
 msgid "Toolbars Shown"
-msgstr "Darikên Amûran"
+msgstr "Darikên Amûran tê Nîşandan"
 
 #: kdeui/xmlgui/kmenumenuhandler_p.cpp:48
 msgid "Add to Toolbar"
@@ -10747,7 +10317,7 @@ msgstr "Nivîs tuneye"
 #: kdeui/sonnet/dialog.cpp:443
 msgctxt "@title:window"
 msgid "Check Spelling"
-msgstr "Kontrola Rastnivîsê"
+msgstr "Kontrola rastnivîsê"
 
 #: kdeui/sonnet/dialog.cpp:105
 msgctxt "@action:button"
@@ -10755,15 +10325,13 @@ msgid "&Finished"
 msgstr "&Bi Dawî Bû"
 
 #: kdeui/sonnet/dialog.cpp:225
-#, fuzzy
-#| msgid "Spell check stopped."
 msgctxt "progress label"
 msgid "Spell checking in progress..."
-msgstr "Kontrolkerê Rastnivîsê sekinî."
+msgstr "Kontrolkerê rastnivîsê dixebite"
 
 #: kdeui/sonnet/dialog.cpp:246
 msgid "Spell check stopped."
-msgstr "Kontrolkerê Rastnivîsê sekinî."
+msgstr "Kontrolkerê rastnivîsê sekinî."
 
 #: kdeui/sonnet/dialog.cpp:257
 msgid "Spell check canceled."
@@ -10771,13 +10339,11 @@ msgstr "Kontrola rastnivîsê hat betalkirin."
 
 #: kdeui/sonnet/dialog.cpp:439 kdeui/sonnet/dialog.cpp:443
 msgid "Spell check complete."
-msgstr "Kontrola Rastnivîsê temam bu."
+msgstr "Kontrola rastnivîsê temam bu."
 
 #: kdeui/sonnet/configdialog.cpp:51
-#, fuzzy
-#| msgid "Send Confirmation"
 msgid "Spellchecking Configuration"
-msgstr "Erêkirinê Bişîne"
+msgstr "Mîhengên kontrola rastnivîsê"
 
 #: kdeui/widgets/keditlistbox.cpp:326 kdeui/widgets/keditlistwidget.cpp:305
 msgid "&Add"
@@ -10800,16 +10366,12 @@ msgid "You will be asked to authenticate before saving"
 msgstr ""
 
 #: kdeui/widgets/kcmodule.cpp:176
-#, fuzzy
-#| msgid "Do you want to reload KDE configuration?"
 msgid "You are not allowed to save the configuration"
-msgstr "Tu dixwazî mîhengên KDE ji nû ve bar bike?"
+msgstr "Tu nikarî veavakirinan tomar bikî"
 
 #: kdeui/widgets/khistorycombobox.cpp:317
-#, fuzzy
-#| msgid "No further item in the history."
 msgid "No further items in the history."
-msgstr "Di rabirdûyê de tu xal tuneye."
+msgstr "Di dîrokê de zêdetir hêman tuneye."
 
 #: kdeui/widgets/ksqueezedtextlabel.cpp:167
 msgid "&Copy Full Text"
@@ -10831,20 +10393,17 @@ msgid "1"
 msgstr "1"
 
 #: kdeui/widgets/ktextedit.cpp:526
-#, fuzzy
-#| msgid "Speak custom text"
 msgid "Speak Text"
-msgstr "Tekstekê taybet bibêje"
+msgstr "Nivîsa Axaftinê"
 
 #: kdeui/widgets/ktextedit.cpp:541
 msgid "Starting KTTSD Failed"
-msgstr ""
+msgstr "Destpêkirina KTTSD Têkçû"
 
 #: kdeui/widgets/ktextedit.cpp:630
-#, fuzzy, kde-format
-#| msgid "Suggestions"
+#, kde-format
 msgid "No suggestions for %1"
-msgstr "Pêşniyaz"
+msgstr "Ji bo %1 tu pêşniyaz tuneye"
 
 #: kdeui/widgets/ktextedit.cpp:641
 msgid "Ignore"
@@ -10874,9 +10433,6 @@ msgid "Middle Eastern Scripts"
 msgstr "Skrîptên Rojhilata Navîn"
 
 #: kdeui/widgets/kcharselect-translation.cpp:26
-#, fuzzy
-#| msgctxt "KCharSelect section name"
-#| msgid "South East Asian Scripts"
 msgctxt "KCharSelect section name"
 msgid "South Asian Scripts"
 msgstr "Skrîptên Rojhilata Başûrê Asyayê"
@@ -11018,11 +10574,9 @@ msgid "NKo"
 msgstr "NKo"
 
 #: kdeui/widgets/kcharselect-translation.cpp:54
-#, fuzzy
-#| msgid "Ramadan"
 msgctxt "KCharselect unicode block name"
 msgid "Samaritan"
-msgstr "Ramazan"
+msgstr "Samaritanî"
 
 #: kdeui/widgets/kcharselect-translation.cpp:55
 msgctxt "KCharselect unicode block name"
@@ -11197,7 +10751,7 @@ msgstr "Bugînî"
 #: kdeui/widgets/kcharselect-translation.cpp:89
 msgctxt "KCharselect unicode block name"
 msgid "Tai Tham"
-msgstr ""
+msgstr "Tai Tham"
 
 #: kdeui/widgets/kcharselect-translation.cpp:90
 msgctxt "KCharselect unicode block name"
@@ -11205,29 +10759,24 @@ msgid "Balinese"
 msgstr "Baliyî"
 
 #: kdeui/widgets/kcharselect-translation.cpp:91
-#, fuzzy
-#| msgid "Sunday"
 msgctxt "KCharselect unicode block name"
 msgid "Sundanese"
-msgstr "Yekşem"
+msgstr "Sundanese"
 
 #: kdeui/widgets/kcharselect-translation.cpp:92
 msgctxt "KCharselect unicode block name"
 msgid "Lepcha"
-msgstr ""
+msgstr "Lepcha"
 
 #: kdeui/widgets/kcharselect-translation.cpp:93
 msgctxt "KCharselect unicode block name"
 msgid "Ol Chiki"
-msgstr ""
+msgstr "Ol Chiki"
 
 #: kdeui/widgets/kcharselect-translation.cpp:94
-#, fuzzy
-#| msgctxt "KCharselect unicode block name"
-#| msgid "Phonetic Extensions"
 msgctxt "KCharselect unicode block name"
 msgid "Vedic Extensions"
-msgstr "Pêvekên Fonetîk"
+msgstr "Pêvekên Vedîk"
 
 #: kdeui/widgets/kcharselect-translation.cpp:95
 msgctxt "KCharselect unicode block name"
@@ -11275,9 +10824,6 @@ msgid "Combining Diacritical Marks for Symbols"
 msgstr ""
 
 #: kdeui/widgets/kcharselect-translation.cpp:104
-#, fuzzy
-#| msgctxt "KCharselect unicode block name"
-#| msgid "Letter-Like Symbols"
 msgctxt "KCharselect unicode block name"
 msgid "Letterlike Symbols"
 msgstr "Sembolên Wekî-Herf"
@@ -11295,7 +10841,7 @@ msgstr "Tîr"
 #: kdeui/widgets/kcharselect-translation.cpp:107
 msgctxt "KCharselect unicode block name"
 msgid "Mathematical Operators"
-msgstr ""
+msgstr "Operatorên Matematîkî"
 
 #: kdeui/widgets/kcharselect-translation.cpp:108
 msgctxt "KCharselect unicode block name"
@@ -11408,12 +10954,9 @@ msgid "Ethiopic Extended"
 msgstr "Habeşiya Berfirehkirî"
 
 #: kdeui/widgets/kcharselect-translation.cpp:130
-#, fuzzy
-#| msgctxt "KCharselect unicode block name"
-#| msgid "Latin Extended-A"
 msgctxt "KCharselect unicode block name"
 msgid "Cyrillic Extended-A"
-msgstr "Latîniya Berfirehkirî-A"
+msgstr "Kirîliya Berfirehkirî-A"
 
 #: kdeui/widgets/kcharselect-translation.cpp:131
 msgctxt "KCharselect unicode block name"
@@ -11498,7 +11041,7 @@ msgstr ""
 #: kdeui/widgets/kcharselect-translation.cpp:147
 msgctxt "KCharselect unicode block name"
 msgid "Yijing Hexagram Symbols"
-msgstr ""
+msgstr "Sembolên Yijing Hexagram"
 
 #: kdeui/widgets/kcharselect-translation.cpp:148
 msgctxt "KCharselect unicode block name"
@@ -11516,35 +11059,24 @@ msgid "Yi Radicals"
 msgstr "Radîkalên Yî"
 
 #: kdeui/widgets/kcharselect-translation.cpp:151
-#, fuzzy
-#| msgctxt "KCharselect unicode block name"
-#| msgid "Limbu"
 msgctxt "KCharselect unicode block name"
 msgid "Lisu"
-msgstr "Limbû"
+msgstr "Lisu"
 
 #: kdeui/widgets/kcharselect-translation.cpp:152
-#, fuzzy
-#| msgctxt "of Farvardin short"
-#| msgid "of Far"
 msgctxt "KCharselect unicode block name"
 msgid "Vai"
-msgstr "Far"
+msgstr "Vai"
 
 #: kdeui/widgets/kcharselect-translation.cpp:153
-#, fuzzy
-#| msgctxt "KCharselect unicode block name"
-#| msgid "Latin Extended-B"
 msgctxt "KCharselect unicode block name"
 msgid "Cyrillic Extended-B"
-msgstr "Latîniya Berfirehkirî-B"
+msgstr "Kirîliya Berfirehkirî-B"
 
 #: kdeui/widgets/kcharselect-translation.cpp:154
-#, fuzzy
-#| msgid "Tamuz"
 msgctxt "KCharselect unicode block name"
 msgid "Bamum"
-msgstr "Tamuz"
+msgstr "Bamum"
 
 #: kdeui/widgets/kcharselect-translation.cpp:155
 msgctxt "KCharselect unicode block name"
@@ -11562,12 +11094,9 @@ msgid "Syloti Nagri"
 msgstr "Sylotî Nagrî"
 
 #: kdeui/widgets/kcharselect-translation.cpp:158
-#, fuzzy
-#| msgctxt "KCharselect unicode block name"
-#| msgid "Number Forms"
 msgctxt "KCharselect unicode block name"
 msgid "Common Indic Number Forms"
-msgstr "Formen Hejmaran"
+msgstr "Formen Hejmaranên Hindîk yên Giştî"
 
 #: kdeui/widgets/kcharselect-translation.cpp:159
 msgctxt "KCharselect unicode block name"
@@ -11577,69 +11106,52 @@ msgstr "Phags-pa"
 #: kdeui/widgets/kcharselect-translation.cpp:160
 msgctxt "KCharselect unicode block name"
 msgid "Saurashtra"
-msgstr ""
+msgstr "Saurashtra"
 
 #: kdeui/widgets/kcharselect-translation.cpp:161
-#, fuzzy
-#| msgctxt "KCharselect unicode block name"
-#| msgid "Devanagari"
 msgctxt "KCharselect unicode block name"
 msgid "Devanagari Extended"
-msgstr "Devanagarî"
+msgstr "Berfirehiya Devanagarî"
 
 #: kdeui/widgets/kcharselect-translation.cpp:162
 msgctxt "KCharselect unicode block name"
 msgid "Kayah Li"
-msgstr ""
+msgstr "Kayah Li"
 
 #: kdeui/widgets/kcharselect-translation.cpp:163
 msgctxt "KCharselect unicode block name"
 msgid "Rejang"
-msgstr ""
+msgstr "Rejang"
 
 #: kdeui/widgets/kcharselect-translation.cpp:164
-#, fuzzy
-#| msgctxt "KCharselect unicode block name"
-#| msgid "Latin Extended-A"
 msgctxt "KCharselect unicode block name"
 msgid "Hangul Jamo Extended-A"
-msgstr "Latîniya Berfirehkirî-A"
+msgstr "Hangul Jamo Berfirehkirî-A"
 
 #: kdeui/widgets/kcharselect-translation.cpp:165
-#, fuzzy
-#| msgctxt "@item Text character set"
-#| msgid "Japanese"
 msgctxt "KCharselect unicode block name"
 msgid "Javanese"
 msgstr "Japonî"
 
 #: kdeui/widgets/kcharselect-translation.cpp:166
-#, fuzzy
-#| msgid "Kha"
 msgctxt "KCharselect unicode block name"
 msgid "Cham"
-msgstr "Kha"
+msgstr "Xan"
 
 #: kdeui/widgets/kcharselect-translation.cpp:167
-#, fuzzy
-#| msgctxt "KCharselect unicode block name"
-#| msgid "Latin Extended-A"
 msgctxt "KCharselect unicode block name"
 msgid "Myanmar Extended-A"
-msgstr "Latîniya Berfirehkirî-A"
+msgstr "Myanmar Berfirehkirî-A"
 
 #: kdeui/widgets/kcharselect-translation.cpp:168
-#, fuzzy
-#| msgctxt "KCharselect unicode block name"
-#| msgid "Tai Le"
 msgctxt "KCharselect unicode block name"
 msgid "Tai Viet"
-msgstr "Tay Le"
+msgstr "Tai Viet"
 
 #: kdeui/widgets/kcharselect-translation.cpp:169
 msgctxt "KCharselect unicode block name"
 msgid "Meetei Mayek"
-msgstr ""
+msgstr "Meetei Mayek"
 
 #: kdeui/widgets/kcharselect-translation.cpp:170
 msgctxt "KCharselect unicode block name"
@@ -11647,12 +11159,9 @@ msgid "Hangul Syllables"
 msgstr "Kîteyên hangul"
 
 #: kdeui/widgets/kcharselect-translation.cpp:171
-#, fuzzy
-#| msgctxt "KCharselect unicode block name"
-#| msgid "Latin Extended-B"
 msgctxt "KCharselect unicode block name"
 msgid "Hangul Jamo Extended-B"
-msgstr "Latîniya Berfirehkirî-B"
+msgstr "Hangul Jamo Berfirehkirî-B"
 
 #: kdeui/widgets/kcharselect-translation.cpp:172
 msgctxt "KCharselect unicode block name"
@@ -11720,9 +11229,6 @@ msgid "Arabic Presentation Forms-B"
 msgstr ""
 
 #: kdeui/widgets/kcharselect-translation.cpp:185
-#, fuzzy
-#| msgctxt "KCharselect unicode block name"
-#| msgid "Half-Width and Full-Width Forms"
 msgctxt "KCharselect unicode block name"
 msgid "Halfwidth and Fullwidth Forms"
 msgstr "Şêweyên Nîv-fireh û Tam-fireh"
@@ -11774,7 +11280,7 @@ msgstr "Wekî Din, Bikaranîna Takekesî"
 
 #: kdeui/widgets/kcharselectdata.cpp:618
 msgid "Other, Surrogate"
-msgstr ""
+msgstr "Ya din, Cîgir"
 
 #: kdeui/widgets/kcharselectdata.cpp:619
 msgid "Letter, Lowercase"
@@ -11790,7 +11296,7 @@ msgstr "Tîp, Wekî din"
 
 #: kdeui/widgets/kcharselectdata.cpp:622
 msgid "Letter, Titlecase"
-msgstr ""
+msgstr "Tîp, Wekî Sernav"
 
 #: kdeui/widgets/kcharselectdata.cpp:623
 msgid "Letter, Uppercase"
@@ -11889,10 +11395,8 @@ msgid "without name"
 msgstr "bênav"
 
 #: kdeui/widgets/ktoolbar.cpp:268
-#, fuzzy
-#| msgid "Toolbar Menu"
 msgid "Toolbar Settings"
-msgstr "Pêşeka Darikê Amûran"
+msgstr "Mihengên Darikê Amûran"
 
 #: kdeui/widgets/ktoolbar.cpp:270
 msgid "Orientation"
@@ -11968,10 +11472,8 @@ msgid "Huge (%1x%2)"
 msgstr "Gelekî Mezin (%1x%2)"
 
 #: kdeui/widgets/ktoolbar.cpp:362
-#, fuzzy
-#| msgid "Lock Toolbars"
 msgid "Lock Toolbar Positions"
-msgstr "Darikên Amûran Biqufilîne"
+msgstr "Cihê Darikên Amûran Biqufilîne"
 
 #: kdeui/widgets/ktoolbar.cpp:1222
 #, kde-format
@@ -12181,22 +11683,22 @@ msgstr "Tam paldayî"
 #: kdeui/widgets/krichtextwidget.cpp:380
 msgctxt "@action"
 msgid "Left-to-Right"
-msgstr ""
+msgstr "Ji Cepê bi Rastê ve"
 
 #: kdeui/widgets/krichtextwidget.cpp:381
 msgctxt "@label left-to-right"
 msgid "Left-to-Right"
-msgstr ""
+msgstr "Ji Cepê bi Rastê ve"
 
 #: kdeui/widgets/krichtextwidget.cpp:387
 msgctxt "@action"
 msgid "Right-to-Left"
-msgstr ""
+msgstr "Ji Rastê bi Cepê ve"
 
 #: kdeui/widgets/krichtextwidget.cpp:388
 msgctxt "@label right-to-left"
 msgid "Right-to-Left"
-msgstr ""
+msgstr "Ji Rastê bi Cepê ve"
 
 #: kdeui/widgets/krichtextwidget.cpp:406
 msgctxt "@title:menu"
@@ -12261,7 +11763,7 @@ msgstr "Lînk"
 #: kdeui/widgets/krichtextwidget.cpp:478
 msgctxt "@action"
 msgid "Format Painter"
-msgstr ""
+msgstr "Nexşevanê Teşe"
 
 #: kdeui/widgets/krichtextwidget.cpp:489
 msgctxt "@action"
@@ -12274,10 +11776,9 @@ msgid "Subscript"
 msgstr "Abonebûn"
 
 #: kdeui/widgets/krichtextwidget.cpp:507
-#, fuzzy
 msgctxt "@action"
 msgid "Superscript"
-msgstr "Skrîptê Veke"
+msgstr "Skrîptê Super"
 
 #: kdeui/widgets/ktimezonewidget.cpp:66
 msgctxt "Define an area in the time zone, like a town area"
@@ -12298,32 +11799,22 @@ msgid "Enter a search term or character here"
 msgstr "Gotinek an tîpa e lêgerînê têkeve virê"
 
 #: kdeui/widgets/kcharselect.cpp:354
-#, fuzzy
-#| msgctxt "@action"
-#| msgid "Previous Item in List"
 msgctxt "Goes to previous character"
 msgid "Previous in History"
-msgstr "Di Lîsteyê de Hêmana Berî Wê"
+msgstr "Di Dîrokê de yên Berê"
 
 #: kdeui/widgets/kcharselect.cpp:356
-#, fuzzy
-#| msgid "Previous Character"
 msgid "Previous Character in History"
-msgstr "Karaktera Paşîn"
+msgstr "Di Dîrokê de Karaktera Berê"
 
 #: kdeui/widgets/kcharselect.cpp:361
-#, fuzzy
-#| msgctxt "@action"
-#| msgid "Next Item in List"
 msgctxt "Goes to next character"
 msgid "Next in History"
-msgstr "Di Lîsteyê de Hêmana Dû Re"
+msgstr "Di Dîrokê de yê Pêş"
 
 #: kdeui/widgets/kcharselect.cpp:363
-#, fuzzy
-#| msgid "Next Character"
 msgid "Next Character in History"
-msgstr "Karaktera Paşîn"
+msgstr "Di Dîrokê de Karaktera Pêş"
 
 #: kdeui/widgets/kcharselect.cpp:371
 msgid "Select a category"
@@ -12371,43 +11862,43 @@ msgstr "Yên Wekhev:"
 
 #: kdeui/widgets/kcharselect.cpp:679
 msgid "Approximate equivalents:"
-msgstr ""
+msgstr "Wekhevên kêmzêde:"
 
 #: kdeui/widgets/kcharselect.cpp:688
 msgid "CJK Ideograph Information"
-msgstr ""
+msgstr "Agahiya CJK Ideograph"
 
 #: kdeui/widgets/kcharselect.cpp:691
 msgid "Definition in English: "
-msgstr ""
+msgstr "Danasîna bi Îngilîzî:"
 
 #: kdeui/widgets/kcharselect.cpp:696
 msgid "Mandarin Pronunciation: "
-msgstr ""
+msgstr "Bilêvkirina Mandarî:"
 
 #: kdeui/widgets/kcharselect.cpp:701
 msgid "Cantonese Pronunciation: "
-msgstr ""
+msgstr "Bilêvkirina Kantonezî:"
 
 #: kdeui/widgets/kcharselect.cpp:706
 msgid "Japanese On Pronunciation: "
-msgstr ""
+msgstr "Bilêvkirina Japoniya On:"
 
 #: kdeui/widgets/kcharselect.cpp:711
 msgid "Japanese Kun Pronunciation: "
-msgstr ""
+msgstr "Bilêvkirina Japoniya Kun:"
 
 #: kdeui/widgets/kcharselect.cpp:716
 msgid "Tang Pronunciation: "
-msgstr ""
+msgstr "Bilêvkirina  Tangî:"
 
 #: kdeui/widgets/kcharselect.cpp:721
 msgid "Korean Pronunciation: "
-msgstr ""
+msgstr "Bilêvkirina Koreyî:"
 
 #: kdeui/widgets/kcharselect.cpp:727
 msgid "General Character Properties"
-msgstr ""
+msgstr "Taybetiyên Giştî yên Karakterê"
 
 #: kdeui/widgets/kcharselect.cpp:728
 msgid "Block: "
@@ -12435,23 +11926,21 @@ msgstr ""
 
 #: kdeui/widgets/kcharselect.cpp:741
 msgid "XML decimal entity:"
-msgstr ""
+msgstr "XML yekeya dehanî:"
 
 #: kdeui/widgets/kcharselect.cpp:870
-#, fuzzy
-#| msgid "Unicode category: "
 msgid "Unicode code point:"
-msgstr "Kategoriya Unicode: "
+msgstr "Xala koda Unicode: "
 
 #: kdeui/widgets/kcharselect.cpp:871
 msgctxt "Character"
 msgid "In decimal:"
-msgstr ""
+msgstr "Bi dehanî:"
 
 #: kdeui/widgets/kkeysequencewidget.cpp:166
 #, kde-format
 msgid "Shortcut '%1' in Application %2 for action %3\n"
-msgstr ""
+msgstr "Kurteriya '%1' di Sepana %2 de ji bo çalakiya %3\n"
 
 #: kdeui/widgets/kkeysequencewidget.cpp:176
 #, kde-format
@@ -12461,29 +11950,25 @@ msgctxt ""
 msgid "The shortcut '%2' conflicts with the following key combination:\n"
 msgid_plural ""
 "The shortcut '%2' conflicts with the following key combinations:\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Kurteriya '%2' bi pevgihandina jêr re li hev dikevin:\n"
+msgstr[1] "Kurteriya '%2' bi pevgihandinên jêr re li hev dikevin:\n"
 
 #: kdeui/widgets/kkeysequencewidget.cpp:182
-#, fuzzy
 msgctxt "%1 is the number of shortcuts with which there is a conflict"
 msgid "Conflict with Registered Global Shortcut"
 msgid_plural "Conflict with Registered Global Shortcuts"
-msgstr[0] "Lihevnekirina Kurteriyên Giştî"
+msgstr[0] "Lihevnekirina Kurteriya Giştî"
 msgstr[1] "Lihevnekirina Kurteriyên Giştî"
 
 #: kdeui/widgets/kkeysequencewidget.cpp:254
-#, fuzzy
-#| msgid "Shortcut conflict"
 msgctxt "%1 is the number of conflicts"
 msgid "Shortcut Conflict"
 msgid_plural "Shortcut Conflicts"
-msgstr[0] "Levketina kurteriyan"
-msgstr[1] "Levketina kurteriyan"
+msgstr[0] "Lihevketina Kurteriyê"
+msgstr[1] "Lihevketina Kurteriyan"
 
 #: kdeui/widgets/kkeysequencewidget.cpp:258
-#, fuzzy, kde-format
-#| msgid "Shortcut(s) '%1' for action '%2'\n"
+#, kde-format
 msgid "Shortcut '%1' for action '%2'\n"
 msgstr "Kurteriyê '%1' ji bo çalakiya '%2'\n"
 
@@ -12499,7 +11984,13 @@ msgid_plural ""
 "Do you want to assign an empty shortcut to these actions?\n"
 "%3"
 msgstr[0] ""
+"Kurteriya \"%2\" bi kurteriya jêr re nediyarî derdixe holê.\n"
+"Tu dixwazî ji bo vê çalakiyê kurteriyekî vala tayîn bikî?\n"
+"%3"
 msgstr[1] ""
+"Kurteriya \"%2\" bi kurteriyên jêr re nediyarî derdixe holê.\n"
+"Tu dixwazî ji bo van çalakiyan kurteriyekî vala tayîn bikî?\n"
+"%3"
 
 #: kdeui/widgets/kkeysequencewidget.cpp:281
 msgid "Shortcut conflict"
@@ -12511,18 +12002,20 @@ msgid ""
 "<qt>The '%1' key combination is already used by the <b>%2</b> action."
 "<br>Please select a different one.</qt>"
 msgstr ""
+"<qt>Pevgihana '%1' jixwe aliyê çalakiya <b>%2</b> ve tê bikaranîn.<br>Ji "
+"kerema xwe yekî cuda hilbijêrin.</qt>"
 
 #: kdeui/widgets/kkeysequencewidget.cpp:313
 msgid ""
 "Click on the button, then enter the shortcut like you would in the program.\n"
 "Example for Ctrl+a: hold the Ctrl key and press a."
 msgstr ""
+"Pêl bişkojkê bikin, paşê jî kurterê têkevnê wek we di bernamê de dikin.\n"
+"Mînak ji bo Ctrl+a: Ctrl pêlêkirî bigirin û pêl a bikin."
 
 #: kdeui/widgets/kkeysequencewidget.cpp:520
-#, fuzzy
-#| msgid "New Web Shortcut"
 msgid "Reserved Shortcut"
-msgstr "Kurteriya Torê ya Nû"
+msgstr "Kurteriya Veqetandî"
 
 #: kdeui/widgets/kkeysequencewidget.cpp:521
 msgid ""
@@ -12530,6 +12023,8 @@ msgid ""
 "shortcut.\n"
 "Please choose another one."
 msgstr ""
+"F12 di Windowsê de heye, ji ber vê ji bo kurteriyên giştî nayê bikaranîn.\n"
+"Ji kerema xwe yekî din hilbijêrin."
 
 #: kdeui/widgets/kkeysequencewidget.cpp:661
 msgid "Conflict with Standard Application Shortcut"
@@ -12550,12 +12045,11 @@ msgstr "Ketan"
 
 #: kdeui/widgets/kkeysequencewidget.cpp:744
 msgid "The key you just pressed is not supported by Qt."
-msgstr ""
+msgstr "Bişkojka te pêlêkirî ji aliyê Qt ve nayê naskirin."
 
 #: kdeui/widgets/kkeysequencewidget.cpp:745
-#, fuzzy
 msgid "Unsupported Key"
-msgstr "Ne rêzkirî"
+msgstr "Mifteya Bêpiştgir"
 
 #: kdeui/widgets/kpixmapregionselectorwidget.cpp:195
 msgid "Image Operations"
@@ -12667,12 +12161,12 @@ msgstr ""
 #, kde-format
 msgid "but your pattern only defines 1 capture."
 msgid_plural "but your pattern only defines %1 captures."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "lê nîgara we tenê 1 wêne dide diyar"
+msgstr[1] "lê nîgara we tenê %1 wêneyan dide diyar"
 
 #: kdeui/findreplace/kreplacedialog.cpp:158
 msgid "but your pattern defines no captures."
-msgstr ""
+msgstr "lê nîgara we tu wêne nade diyar"
 
 #: kdeui/findreplace/kreplacedialog.cpp:159
 msgid ""
@@ -12695,8 +12189,8 @@ msgstr "<qt>Rûdana piştre ya '<b>%1</b>'? bibîne</qt>"
 #, kde-format
 msgid "1 match found."
 msgid_plural "%1 matches found."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "1 hevgirtiyek hat dîtin."
+msgstr[1] "%1 hevgitî hatin dîtin."
 
 #: kdeui/findreplace/kfind.cpp:605
 #, kde-format
@@ -12961,12 +12455,9 @@ msgid "Discard changes"
 msgstr "Guhertinan jê bibe"
 
 #: kdeui/util/kstandardguiitem.cpp:131
-#, fuzzy
-#| msgid ""
-#| "Pressing this button will discard all recent changes made in this dialog"
 msgid ""
 "Pressing this button will discard all recent changes made in this dialog."
-msgstr "Heke tu pêl vê bişkokê bike wê hemû guhertin jê herin"
+msgstr "Heke tu pêl vê bişkokê bikî wê hemû guhertinên di vê pacê de jê biçin."
 
 #: kdeui/util/kstandardguiitem.cpp:137 kdeui/actions/kstandardaction_p.h:46
 msgid "&Save"
@@ -13001,20 +12492,14 @@ msgid "Apply changes"
 msgstr "Guhertinan bisepîne"
 
 #: kdeui/util/kstandardguiitem.cpp:155
-#, fuzzy
-#| msgid ""
-#| "When clicking <b>Apply</b>, the settings will be handed over to the "
-#| "program, but the dialog will not be closed.\n"
-#| "Use this to try different settings."
 msgid ""
 "When you click <b>Apply</b>, the settings will be handed over to the "
 "program, but the dialog will not be closed.\n"
 "Use this to try different settings."
 msgstr ""
-"Dema pêl li bişkojka <b>Bisepîne</b> bikî mîheng dê ji bo bernameyê bên "
-"şandin,\n"
-"lê qutîka têkiliyê dê neyê girtin. Dikarî van mîhengên cuda\n"
-"ji bo ceribandinê bi kar bînî."
+"Dema pêl li bişkojka <b>Bisepîne</b> bikî, mîheng dê ji bo bernameyê bên "
+"şandin, lê qutîka têkiliyê neyê girtin.\n"
+"Tu dikarî van mîhengên ji bo mîhengên cuda biceribînî."
 
 #: kdeui/util/kstandardguiitem.cpp:163
 msgid "Administrator &Mode..."
@@ -13025,18 +12510,13 @@ msgid "Enter Administrator Mode"
 msgstr "Wekî Rêvebir Têkevê"
 
 #: kdeui/util/kstandardguiitem.cpp:164
-#, fuzzy
-#| msgid ""
-#| "When clicking <b>Administrator Mode</b> you will be prompted for the "
-#| "administrator (root) password in order to make changes which require root "
-#| "privileges."
 msgid ""
 "When you click <b>Administrator Mode</b> you will be prompted for the "
 "administrator (root) password in order to make changes which require root "
 "privileges."
 msgstr ""
-"Heke pêl bişkojka <b>Moda Gerînende</b> bikî dê nasnava gerînende (root)ji "
-"te bê xwestin û dû re tu yê karibî guherandinên ku destûra gerînendetiyê "
+"Heke pêl bişkojka <b>Moda Gerînende</b> bikî dê nasnava gerînende (root) ji "
+"te bê xwestin û dû re tu dê karibî guherandinên ku destûra gerînendetiyê "
 "dixwazin pêk bînî."
 
 #: kdeui/util/kstandardguiitem.cpp:172
@@ -13056,28 +12536,20 @@ msgid "Close the current window or document"
 msgstr "Paceya rojane an jî belgeyê bigire"
 
 #: kdeui/util/kstandardguiitem.cpp:190
-#, fuzzy
-#| msgid "Close window?"
 msgid "&Close Window"
-msgstr "Bila pace were girtin?"
+msgstr "Paceyê &Bigire"
 
 #: kdeui/util/kstandardguiitem.cpp:191
-#, fuzzy
-#| msgid "Close the current window or document"
 msgid "Close the current window."
-msgstr "Paceya rojane an jî belgeyê bigire"
+msgstr "Paceya vekirî digire."
 
 #: kdeui/util/kstandardguiitem.cpp:196
-#, fuzzy
-#| msgid "Close Document"
 msgid "&Close Document"
-msgstr "Belgeyê Bigire"
+msgstr "Belgeyê &Bigire"
 
 #: kdeui/util/kstandardguiitem.cpp:197
-#, fuzzy
-#| msgid "Close the current window or document"
 msgid "Close the current document."
-msgstr "Paceya rojane an jî belgeyê bigire"
+msgstr "Belgeya vekirî digire."
 
 #: kdeui/util/kstandardguiitem.cpp:202
 msgid "&Defaults"
@@ -13284,10 +12756,7 @@ msgid "Named Colors"
 msgstr "Rengên ku Hatine Binavkirin"
 
 #: kdeui/colors/kcolordialog.cpp:739
-#, fuzzy, kde-format
-#| msgid ""
-#| "Unable to read X11 RGB color strings. The following file location(s) were "
-#| "examined:\n"
+#, kde-format
 msgctxt ""
 "%1 is the number of paths, %2 is the list of paths (with newlines between "
 "them)"
@@ -13300,9 +12769,11 @@ msgid_plural ""
 "examined:\n"
 "%2"
 msgstr[0] ""
-"Şablona rengan ya X11 nehate dîtin. Pêristên ku li jêr in hatin lêgerîn:\n"
+"Şablona rengan ya X11 nehate xwendin. Pêrista ku li jêr in hate lêgerîn:\n"
+"%2"
 msgstr[1] ""
 "Şablona rengan ya X11 nehate dîtin. Pêristên ku li jêr in hatin lêgerîn:\n"
+"%2"
 
 #: kdeui/colors/kcolordialog.cpp:1014
 msgid "Select Color"
@@ -13315,7 +12786,7 @@ msgstr "Kirpandina rengan:"
 #: kdeui/colors/kcolordialog.cpp:1103
 msgctxt "The angular degree unit (for hue)"
 msgid "°"
-msgstr ""
+msgstr "°"
 
 #: kdeui/colors/kcolordialog.cpp:1108
 msgid "Saturation:"
@@ -13340,7 +12811,7 @@ msgstr "Heşîn:"
 
 #: kdeui/colors/kcolordialog.cpp:1164
 msgid "Alpha:"
-msgstr ""
+msgstr "Alpha:"
 
 #: kdeui/colors/kcolordialog.cpp:1218
 msgid "&Add to Custom Colors"
@@ -13386,7 +12857,7 @@ msgstr ""
 #: kdecore/services/kmimetypetrader.h:136
 #: kdecore/services/kmimetypetrader.h:169
 msgid "No service matching the requirements was found"
-msgstr ""
+msgstr "Tu servîsê gorê pêwistiyan nehate dîtin"
 
 #: kdecore/util/qtest_kde.h:79 kdecore/util/qtest_kde.h:130
 msgid "KDE Test Program"
@@ -13525,10 +12996,8 @@ msgid "&Add Bookmark"
 msgstr "&Bijareyekê Lê Zêde Bike"
 
 #: kdeui/actions/kstandardaction_p.h:94
-#, fuzzy
-#| msgid "&Edit Bookmarks"
 msgid "&Edit Bookmarks..."
-msgstr "Bijareyan &Sererast Bike"
+msgstr "Bijareyan &Sererast Bike..."
 
 #: kdeui/actions/kstandardaction_p.h:96
 msgid "&Spelling..."
@@ -13570,25 +13039,16 @@ msgstr "Mijara &rojê"
 #~ msgid "Sonnet Configuration"
 #~ msgstr "Veavakirina Sonnetê"
 
-#, fuzzy
-#~| msgid "Ignore"
 #~ msgid "I agree"
 #~ msgstr "Guh nede"
 
-#, fuzzy
-#~| msgid "Download"
 #~ msgid "Upload Your Own Files..."
 #~ msgstr "Daxîne"
 
-#, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Devanagari"
 #~ msgctxt "digit set"
 #~ msgid "Devenagari"
 #~ msgstr "Devanagarî"
 
-#, fuzzy
-#~| msgid "Details"
 #~ msgid "Details..."
 #~ msgstr "Kitekit"
 
@@ -13604,14 +13064,10 @@ msgstr "Mijara &rojê"
 #~ msgid "Tag Exists"
 #~ msgstr "Etîket Heye"
 
-#, fuzzy
-#~| msgid "Homepage"
 #~ msgctxt "A link to the description of this Get Hot New Stuff item"
 #~ msgid "Visit homepage..."
 #~ msgstr "Serûpel"
 
-#, fuzzy
-#~| msgid "Loading Preview"
 #~ msgid "Loading preview..."
 #~ msgstr "Pêşdîtin Tê Barkirin"
 
@@ -13636,101 +13092,63 @@ msgstr "Mijara &rojê"
 #~ msgid "New hostname"
 #~ msgstr "Navê makîneya nû"
 
-#, fuzzy
-#~| msgid "Description"
 #~ msgid "description"
 #~ msgstr "Danezanî"
 
-#, fuzzy
-#~| msgid "Action Name"
 #~ msgid "Autor Name"
 #~ msgstr "Navê Çalakiyê"
 
-#, fuzzy
-#~| msgid "Could not construct value"
 #~ msgid "Could not get account balance."
 #~ msgstr "Nirx nehat serastkirin"
 
-#, fuzzy
-#~| msgid "Download"
 #~ msgid "Voting failed."
 #~ msgstr "Daxîne"
 
-#, fuzzy
-#~| msgid "Could not create temporary file."
 #~ msgid "Could not make you a fan."
 #~ msgstr "Pelê demdemî nayê çêkirin."
 
-#, fuzzy
-#~| msgid "No Preview"
 #~ msgid "Previews"
 #~ msgstr "Pêşdîtin Tune"
 
-#, fuzzy
-#~| msgid "Comment"
 #~ msgid "Community"
 #~ msgstr "Şirove"
 
-#, fuzzy
-#~| msgid "No Preview"
 #~ msgid "Preview"
 #~ msgstr "Pêşdîtin Tune"
 
-#, fuzzy
-#~| msgid "BSD"
 #~ msgid "USD"
 #~ msgstr "BSD"
 
-#, fuzzy
-#~| msgid "Loading Preview"
 #~ msgid "Uploading preview image and content..."
 #~ msgstr "Pêşdîtin Tê Barkirin"
 
-#, fuzzy
-#~| msgid "Server: %1"
 #~ msgid "Server:"
 #~ msgstr "Pêşkêşker: %1"
 
-#, fuzzy
-#~| msgid "&Replace..."
 #~ msgid "Upload..."
 #~ msgstr "&Biguherîne..."
 
-#, fuzzy
-#~| msgid "Provider information"
 #~ msgid "Fetching provider information..."
 #~ msgstr "Agahiya Belavkarê"
 
-#, fuzzy
-#~| msgid "The rating could not be submitted."
 #~ msgid "Provider could not be initialized."
 #~ msgstr "Dengdan nehat şandin."
 
-#, fuzzy
-#~| msgid "Clear the input in the edit field"
 #~ msgid "Please fill out the name field."
 #~ msgstr "Qada sererastkirinê paqij bike"
 
-#, fuzzy
-#~| msgid "%1 B"
 #~ msgctxt "memory size in 2^40 bytes"
 #~ msgid "%1 PB"
 #~ msgstr "%1 B"
 
-#, fuzzy
-#~| msgid "%1 B"
 #~ msgctxt "memory size in 2^50 bytes"
 #~ msgid "%1 EB"
 #~ msgstr "%1 B"
 
-#, fuzzy
-#~| msgid "%1 B"
 #~ msgctxt "memory size in 2^60 bytes"
 #~ msgid "%1 ZB"
 #~ msgstr "%1 B"
 
-#, fuzzy
-#~| msgid "%1 B"
 #~ msgctxt "memory size in 2^70 bytes"
 #~ msgid "%1 YB"
 #~ msgstr "%1 B"
@@ -14003,207 +13421,126 @@ msgstr "Mijara &rojê"
 #~ msgid "Sunday"
 #~ msgstr "Yekşem"
 
-#, fuzzy
-#~| msgctxt "of Shahrivar short"
-#~| msgid "of Sha"
 #~ msgctxt "Indian National month 1 - ShortNamePossessive"
 #~ msgid "of Cha"
 #~ msgstr "Şar"
 
-#, fuzzy
-#~| msgctxt "of Farvardin short"
-#~| msgid "of Far"
 #~ msgctxt "Indian National month 2 - ShortNamePossessive"
 #~ msgid "of Vai"
 #~ msgstr "Far"
 
-#, fuzzy
-#~| msgctxt "of January"
-#~| msgid "of Jan"
 #~ msgctxt "Indian National month 3 - ShortNamePossessive"
 #~ msgid "of Jya"
 #~ msgstr "pûşperê"
 
-#, fuzzy
-#~| msgctxt "of Khordad short"
-#~| msgid "of Kho"
 #~ msgctxt "Indian National month 4 - ShortNamePossessive"
 #~ msgid "of Āsh"
 #~ msgstr "Kho"
 
-#, fuzzy
-#~| msgctxt "of Shahrivar short"
-#~| msgid "of Sha"
 #~ msgctxt "Indian National month 5 - ShortNamePossessive"
 #~ msgid "of Shr"
 #~ msgstr "Şar"
 
-#, fuzzy
-#~| msgctxt "of Bahman short"
-#~| msgid "of Bah"
 #~ msgctxt "Indian National month 6 - ShortNamePossessive"
 #~ msgid "of Bhā"
 #~ msgstr "Bah"
 
-#, fuzzy
-#~| msgctxt "of Esfand short"
-#~| msgid "of Esf"
 #~ msgctxt "Indian National month 7 - ShortNamePossessive"
 #~ msgid "of Āsw"
 #~ msgstr "Esf"
 
-#, fuzzy
-#~| msgctxt "of Farvardin short"
-#~| msgid "of Far"
 #~ msgctxt "Indian National month 8 - ShortNamePossessive"
 #~ msgid "of Kār"
 #~ msgstr "Far"
 
-#, fuzzy
-#~| msgctxt "of April"
-#~| msgid "of Apr"
 #~ msgctxt "Indian National month 9 - ShortNamePossessive"
 #~ msgid "of Agr"
 #~ msgstr "avr"
 
-#, fuzzy
-#~| msgid "of Tamuz"
 #~ msgctxt "Indian National month 10 - ShortNamePossessive"
 #~ msgid "of Pau"
 #~ msgstr "Tamuz"
 
-#, fuzzy
-#~| msgctxt "of Mordad short"
-#~| msgid "of Mor"
 #~ msgctxt "Indian National month 11 - ShortNamePossessive"
 #~ msgid "of Māg"
 #~ msgstr "Mor"
 
-#, fuzzy
-#~| msgctxt "of Khordad short"
-#~| msgid "of Kho"
 #~ msgctxt "Indian National month 12 - ShortNamePossessive"
 #~ msgid "of Phā"
 #~ msgstr "Kho"
 
-#, fuzzy
-#~| msgid "of Muharram"
 #~ msgctxt "Indian National month 1 - LongNamePossessive"
 #~ msgid "of Chaitra"
 #~ msgstr "a Muharram"
 
-#, fuzzy
-#~| msgid "of Nisan"
 #~ msgctxt "Indian National month 3 - LongNamePossessive"
 #~ msgid "of Jyaishtha"
 #~ msgstr "Nîsan"
 
-#, fuzzy
-#~| msgid "of Shvat"
 #~ msgctxt "Indian National month 5 - LongNamePossessive"
 #~ msgid "of Shrāvana"
 #~ msgstr "Şivat"
 
-#, fuzzy
-#~| msgid "of Khordad"
 #~ msgctxt "Indian National month 6 - LongNamePossessive"
 #~ msgid "of Bhādrapad"
 #~ msgstr "Xordadê"
 
-#, fuzzy
-#~| msgid "of Heshvan"
 #~ msgctxt "Indian National month 7 - LongNamePossessive"
 #~ msgid "of Āshwin"
 #~ msgstr "Heşvan"
 
-#, fuzzy
-#~| msgid "of Bahman"
 #~ msgctxt "Indian National month 9 - LongNamePossessive"
 #~ msgid "of Agrahayana"
 #~ msgstr "Bahmanê"
 
-#, fuzzy
-#~| msgctxt "of Bahman short"
-#~| msgid "of Bah"
 #~ msgctxt "Indian National month 10 - LongNamePossessive"
 #~ msgid "of Paush"
 #~ msgstr "Bah"
 
-#, fuzzy
-#~| msgctxt "of Mehr short"
-#~| msgid "of Meh"
 #~ msgctxt "Indian National month 11 - LongNamePossessive"
 #~ msgid "of Māgh"
 #~ msgstr "Meh"
 
-#, fuzzy
-#~| msgid "Kha"
 #~ msgctxt "Indian National month 1 - ShortName"
 #~ msgid "Cha"
 #~ msgstr "Kha"
 
-#, fuzzy
-#~| msgctxt "January"
-#~| msgid "Jan"
 #~ msgctxt "Indian National month 3 - ShortName"
 #~ msgid "Jya"
 #~ msgstr "Rêb"
 
-#, fuzzy
-#~| msgctxt "Shahrivar short"
-#~| msgid "Sha"
 #~ msgctxt "Indian National month 5 - ShortName"
 #~ msgid "Shr"
 #~ msgstr "Şa"
 
-#, fuzzy
-#~| msgid "Arb"
 #~ msgctxt "Indian National month 9 - ShortName"
 #~ msgid "Agr"
 #~ msgstr "Arb"
 
-#, fuzzy
-#~| msgid "Pause"
 #~ msgctxt "Indian National month 10 - ShortName"
 #~ msgid "Pau"
 #~ msgstr "Navber"
 
-#, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Thaana"
 #~ msgctxt "Indian National month 9 - LongName"
 #~ msgid "Agrahayana"
 #~ msgstr "Thaana"
 
-#, fuzzy
-#~| msgid "Pause"
 #~ msgctxt "Indian National month 10 - LongName"
 #~ msgid "Paush"
 #~ msgstr "Navber"
 
-#, fuzzy
-#~| msgctxt "Jumee short"
-#~| msgid "Jom"
 #~ msgctxt "Indian National weekday 1 - ShortDayName"
 #~ msgid "Som"
 #~ msgstr "Cum"
 
-#, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Buhid"
 #~ msgctxt "Indian National weekday 3 - ShortDayName"
 #~ msgid "Bud"
 #~ msgstr "Buhîd"
 
-#, fuzzy
-#~| msgctxt "Sunday"
-#~| msgid "Sun"
 #~ msgctxt "Indian National weekday 5 - ShortDayName"
 #~ msgid "Suk"
 #~ msgstr "1şm"
 
-#, fuzzy
-#~| msgid "Sivan"
 #~ msgctxt "Indian National weekday 6 - ShortDayName"
 #~ msgid "San"
 #~ msgstr "Sivan"
@@ -14663,16 +14000,10 @@ msgstr "Mijara &rojê"
 #~ msgid "Adar II"
 #~ msgstr "Adar II"
 
-#, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Coptic"
 #~ msgctxt "@item Calendar system"
 #~ msgid "Coptic"
 #~ msgstr "Kiptî"
 
-#, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Ethiopic"
 #~ msgctxt "@item Calendar system"
 #~ msgid "Ethiopian"
 #~ msgstr "Habeşî"
@@ -14681,9 +14012,6 @@ msgstr "Mijara &rojê"
 #~ msgid "Gregorian"
 #~ msgstr "Mîladî"
 
-#, fuzzy
-#~| msgctxt "@item Calendar system"
-#~| msgid "Gregorian"
 #~ msgctxt "@item Calendar system"
 #~ msgid "Gregorian (Proleptic)"
 #~ msgstr "Mîladî"
@@ -14700,9 +14028,6 @@ msgstr "Mijara &rojê"
 #~ msgid "Jalali"
 #~ msgstr "Celalî"
 
-#, fuzzy
-#~| msgctxt "January"
-#~| msgid "Jan"
 #~ msgctxt "@item Calendar system"
 #~ msgid "Julian"
 #~ msgstr "Rêb"
@@ -14711,728 +14036,454 @@ msgstr "Mijara &rojê"
 #~ msgid "Invalid Calendar Type"
 #~ msgstr "Cureyê Salnameyê Nederbasdar"
 
-#, fuzzy
-#~| msgctxt "of Khordad short"
-#~| msgid "of Kho"
 #~ msgctxt "Coptic month 1 - ShortNamePossessive"
 #~ msgid "of Tho"
 #~ msgstr "Kho"
 
-#, fuzzy
-#~| msgid "of Tamuz"
 #~ msgctxt "Coptic month 2 - ShortNamePossessive"
 #~ msgid "of Pao"
 #~ msgstr "Tamuz"
 
-#, fuzzy
-#~| msgid "of Shvat"
 #~ msgctxt "Coptic month 3 - ShortNamePossessive"
 #~ msgid "of Hat"
 #~ msgstr "Şivat"
 
-#, fuzzy
-#~| msgid "of Nisan"
 #~ msgctxt "Coptic month 4 - ShortNamePossessive"
 #~ msgid "of Kia"
 #~ msgstr "Nîsan"
 
-#, fuzzy
-#~| msgctxt "of February"
-#~| msgid "of Feb"
 #~ msgctxt "Coptic month 5 - ShortNamePossessive"
 #~ msgid "of Tob"
 #~ msgstr "reş"
 
-#, fuzzy
-#~| msgctxt "of Mehr short"
-#~| msgid "of Meh"
 #~ msgctxt "Coptic month 6 - ShortNamePossessive"
 #~ msgid "of Mes"
 #~ msgstr "Meh"
 
-#, fuzzy
-#~| msgctxt "of March"
-#~| msgid "of Mar"
 #~ msgctxt "Coptic month 7 - ShortNamePossessive"
 #~ msgid "of Par"
 #~ msgstr "adr"
 
-#, fuzzy
-#~| msgid "of Tamuz"
 #~ msgctxt "Coptic month 8 - ShortNamePossessive"
 #~ msgid "of Pam"
 #~ msgstr "Tamuz"
 
-#, fuzzy
-#~| msgctxt "of Bahman short"
-#~| msgid "of Bah"
 #~ msgctxt "Coptic month 9 - ShortNamePossessive"
 #~ msgid "of Pas"
 #~ msgstr "Bah"
 
-#, fuzzy
-#~| msgctxt "of January"
-#~| msgid "of Jan"
 #~ msgctxt "Coptic month 10 - ShortNamePossessive"
 #~ msgid "of Pan"
 #~ msgstr "pûşperê"
 
-#, fuzzy
-#~| msgctxt "of February"
-#~| msgid "of Feb"
 #~ msgctxt "Coptic month 11 - ShortNamePossessive"
 #~ msgid "of Epe"
 #~ msgstr "reş"
 
-#, fuzzy
-#~| msgctxt "of Mordad short"
-#~| msgid "of Mor"
 #~ msgctxt "Coptic month 12 - ShortNamePossessive"
 #~ msgid "of Meo"
 #~ msgstr "Mor"
 
-#, fuzzy
-#~| msgctxt "of Khordad short"
-#~| msgid "of Kho"
 #~ msgctxt "Coptic month 13 - ShortNamePossessive"
 #~ msgid "of Kou"
 #~ msgstr "Kho"
 
-#, fuzzy
-#~| msgctxt "of Khordad short"
-#~| msgid "of Kho"
 #~ msgctxt "Coptic month 1 - LongNamePossessive"
 #~ msgid "of Thoout"
 #~ msgstr "Kho"
 
-#, fuzzy
-#~| msgid "of Tamuz"
 #~ msgctxt "Coptic month 2 - LongNamePossessive"
 #~ msgid "of Paope"
 #~ msgstr "Tamuz"
 
-#, fuzzy
-#~| msgid "of Hijjah"
 #~ msgctxt "Coptic month 3 - LongNamePossessive"
 #~ msgid "of Hathor"
 #~ msgstr "a Hijjah"
 
-#, fuzzy
-#~| msgctxt "of Khordad short"
-#~| msgid "of Kho"
 #~ msgctxt "Coptic month 4 - LongNamePossessive"
 #~ msgid "of Kiahk"
 #~ msgstr "Kho"
 
-#, fuzzy
-#~| msgid "of October"
 #~ msgctxt "Coptic month 5 - LongNamePossessive"
 #~ msgid "of Tobe"
 #~ msgstr "kewçêrê"
 
-#, fuzzy
-#~| msgid "of Mehr"
 #~ msgctxt "Coptic month 6 - LongNamePossessive"
 #~ msgid "of Meshir"
 #~ msgstr "Mehrê"
 
-#, fuzzy
-#~| msgid "of Tamuz"
 #~ msgctxt "Coptic month 8 - LongNamePossessive"
 #~ msgid "of Parmoute"
 #~ msgstr "Tamuz"
 
-#, fuzzy
-#~| msgctxt "of Bahman short"
-#~| msgid "of Bah"
 #~ msgctxt "Coptic month 9 - LongNamePossessive"
 #~ msgid "of Pashons"
 #~ msgstr "Bah"
 
-#, fuzzy
-#~| msgctxt "of January"
-#~| msgid "of Jan"
 #~ msgctxt "Coptic month 10 - LongNamePossessive"
 #~ msgid "of Paone"
 #~ msgstr "pûşperê"
 
-#, fuzzy
-#~| msgctxt "of September"
-#~| msgid "of Sep"
 #~ msgctxt "Coptic month 11 - LongNamePossessive"
 #~ msgid "of Epep"
 #~ msgstr "rez"
 
-#, fuzzy
-#~| msgctxt "of Mordad short"
-#~| msgid "of Mor"
 #~ msgctxt "Coptic month 12 - LongNamePossessive"
 #~ msgid "of Mesore"
 #~ msgstr "Mor"
 
-#, fuzzy
-#~| msgid "Thl"
 #~ msgctxt "Coptic month 1 - ShortName"
 #~ msgid "Tho"
 #~ msgstr "Thl"
 
-#, fuzzy
-#~| msgid "Pause"
 #~ msgctxt "Coptic month 2 - ShortName"
 #~ msgid "Pao"
 #~ msgstr "Navber"
 
-#, fuzzy
-#~| msgctxt "Saturday"
-#~| msgid "Sat"
 #~ msgctxt "Coptic month 3 - ShortName"
 #~ msgid "Hat"
 #~ msgstr "Şmî"
 
-#, fuzzy
-#~| msgid "Kha"
 #~ msgctxt "Coptic month 4 - ShortName"
 #~ msgid "Kia"
 #~ msgstr "Kha"
 
-#, fuzzy
-#~| msgid "Job"
 #~ msgctxt "Coptic month 5 - ShortName"
 #~ msgid "Tob"
 #~ msgstr "Kar"
 
-#, fuzzy
-#~| msgid "Yes"
 #~ msgctxt "Coptic month 6 - ShortName"
 #~ msgid "Mes"
 #~ msgstr "Erê"
 
-#, fuzzy
-#~| msgctxt "March"
-#~| msgid "Mar"
 #~ msgctxt "Coptic month 7 - ShortName"
 #~ msgid "Par"
 #~ msgstr "Adr"
 
-#, fuzzy
-#~| msgid "am"
 #~ msgctxt "Coptic month 8 - ShortName"
 #~ msgid "Pam"
 #~ msgstr "bn"
 
-#, fuzzy
-#~| msgid "Pages"
 #~ msgctxt "Coptic month 9 - ShortName"
 #~ msgid "Pas"
 #~ msgstr "Rûpel"
 
-#, fuzzy
-#~| msgctxt "January"
-#~| msgid "Jan"
 #~ msgctxt "Coptic month 10 - ShortName"
 #~ msgid "Pan"
 #~ msgstr "Rêb"
 
-#, fuzzy
-#~| msgid "Escape"
 #~ msgctxt "Coptic month 11 - ShortName"
 #~ msgid "Epe"
 #~ msgstr "Derketin"
 
-#, fuzzy
-#~| msgctxt "Monday"
-#~| msgid "Mon"
 #~ msgctxt "Coptic month 12 - ShortName"
 #~ msgid "Meo"
 #~ msgstr "2şm"
 
-#, fuzzy
-#~| msgctxt "Khordad short"
-#~| msgid "Kho"
 #~ msgctxt "Coptic month 13 - ShortName"
 #~ msgid "Kou"
 #~ msgstr "Kho"
 
-#, fuzzy
-#~| msgctxt "Thursday"
-#~| msgid "Thu"
 #~ msgctxt "Coptic month 1 - LongName"
 #~ msgid "Thoout"
 #~ msgstr "5şm"
 
-#, fuzzy
-#~| msgid "Property"
 #~ msgctxt "Coptic month 2 - LongName"
 #~ msgid "Paope"
 #~ msgstr "Taybetmendî"
 
-#, fuzzy
-#~| msgid "Author"
 #~ msgctxt "Coptic month 3 - LongName"
 #~ msgid "Hathor"
 #~ msgstr "Nivîskar"
 
-#, fuzzy
-#~| msgid "Mehr"
 #~ msgctxt "Coptic month 6 - LongName"
 #~ msgid "Meshir"
 #~ msgstr "Mehr"
 
-#, fuzzy
-#~| msgid "Parameter"
 #~ msgctxt "Coptic month 7 - LongName"
 #~ msgid "Paremhotep"
 #~ msgstr "Parametre"
 
-#, fuzzy
-#~| msgid "Parameter"
 #~ msgctxt "Coptic month 8 - LongName"
 #~ msgid "Parmoute"
 #~ msgstr "Parametre"
 
-#, fuzzy
-#~| msgid "Pause"
 #~ msgctxt "Coptic month 9 - LongName"
 #~ msgid "Pashons"
 #~ msgstr "Navber"
 
-#, fuzzy
-#~| msgid "None"
 #~ msgctxt "Coptic month 10 - LongName"
 #~ msgid "Paone"
 #~ msgstr "Ne yek jî"
 
-#, fuzzy
-#~| msgid "Escape"
 #~ msgctxt "Coptic month 11 - LongName"
 #~ msgid "Epep"
 #~ msgstr "Derketin"
 
-#, fuzzy
-#~| msgid "&Restore"
 #~ msgctxt "Coptic month 12 - LongName"
 #~ msgid "Mesore"
 #~ msgstr "&Paşde bîne"
 
-#, fuzzy
-#~| msgid "Pages"
 #~ msgctxt "Coptic weekday 1 - ShortDayName"
 #~ msgid "Pes"
 #~ msgstr "Rûpel"
 
-#, fuzzy
-#~| msgid "Pause"
 #~ msgctxt "Coptic weekday 2 - ShortDayName"
 #~ msgid "Psh"
 #~ msgstr "Navber"
 
-#, fuzzy
-#~| msgid "Pause"
 #~ msgctxt "Coptic weekday 6 - ShortDayName"
 #~ msgid "Psa"
 #~ msgstr "Navber"
 
-#, fuzzy
-#~| msgid "Pause"
 #~ msgctxt "Coptic weekday 1 - LongDayName"
 #~ msgid "Pesnau"
 #~ msgstr "Navber"
 
-#, fuzzy
-#~| msgid "Comment"
 #~ msgctxt "Coptic weekday 2 - LongDayName"
 #~ msgid "Pshoment"
 #~ msgstr "Şirove"
 
-#, fuzzy
-#~| msgctxt "of Mehr short"
-#~| msgid "of Meh"
 #~ msgctxt "Ethiopian month 1 - ShortNamePossessive"
 #~ msgid "of Mes"
 #~ msgstr "Meh"
 
-#, fuzzy
-#~| msgid "of Tevet"
 #~ msgctxt "Ethiopian month 2 - ShortNamePossessive"
 #~ msgid "of Teq"
 #~ msgstr "Tevet"
 
-#, fuzzy
-#~| msgctxt "of February"
-#~| msgid "of Feb"
 #~ msgctxt "Ethiopian month 3 - ShortNamePossessive"
 #~ msgid "of Hed"
 #~ msgstr "reş"
 
-#, fuzzy
-#~| msgctxt "of Bahman short"
-#~| msgid "of Bah"
 #~ msgctxt "Ethiopian month 4 - ShortNamePossessive"
 #~ msgid "of Tah"
 #~ msgstr "Bah"
 
-#, fuzzy
-#~| msgctxt "of Tir short"
-#~| msgid "of Tir"
 #~ msgctxt "Ethiopian month 5 - ShortNamePossessive"
 #~ msgid "of Ter"
 #~ msgstr "Tîrê"
 
-#, fuzzy
-#~| msgctxt "of January"
-#~| msgid "of Jan"
 #~ msgctxt "Ethiopian month 6 - ShortNamePossessive"
 #~ msgid "of Yak"
 #~ msgstr "pûşperê"
 
-#, fuzzy
-#~| msgctxt "of March"
-#~| msgid "of Mar"
 #~ msgctxt "Ethiopian month 7 - ShortNamePossessive"
 #~ msgid "of Mag"
 #~ msgstr "adr"
 
-#, fuzzy
-#~| msgctxt "of May short"
-#~| msgid "of May"
 #~ msgctxt "Ethiopian month 8 - ShortNamePossessive"
 #~ msgid "of Miy"
 #~ msgstr "gul"
 
-#, fuzzy
-#~| msgctxt "of January"
-#~| msgid "of Jan"
 #~ msgctxt "Ethiopian month 9 - ShortNamePossessive"
 #~ msgid "of Gen"
 #~ msgstr "pûşperê"
 
-#, fuzzy
-#~| msgctxt "of September"
-#~| msgid "of Sep"
 #~ msgctxt "Ethiopian month 10 - ShortNamePossessive"
 #~ msgid "of Sen"
 #~ msgstr "rez"
 
-#, fuzzy
-#~| msgid "of Tamuz"
 #~ msgctxt "Ethiopian month 11 - ShortNamePossessive"
 #~ msgid "of Ham"
 #~ msgstr "Tamuz"
 
-#, fuzzy
-#~| msgctxt "of Mehr short"
-#~| msgid "of Meh"
 #~ msgctxt "Ethiopian month 12 - ShortNamePossessive"
 #~ msgid "of Neh"
 #~ msgstr "Meh"
 
-#, fuzzy
-#~| msgid "of Tamuz"
 #~ msgctxt "Ethiopian month 13 - ShortNamePossessive"
 #~ msgid "of Pag"
 #~ msgstr "Tamuz"
 
-#, fuzzy
-#~| msgid "of Mehr"
 #~ msgctxt "Ethiopian month 1 - LongNamePossessive"
 #~ msgid "of Meskerem"
 #~ msgstr "Mehrê"
 
-#, fuzzy
-#~| msgid "of Tevet"
 #~ msgctxt "Ethiopian month 2 - LongNamePossessive"
 #~ msgid "of Tequemt"
 #~ msgstr "Tevet"
 
-#, fuzzy
-#~| msgid "of Adar"
 #~ msgctxt "Ethiopian month 3 - LongNamePossessive"
 #~ msgid "of Hedar"
 #~ msgstr "Adar"
 
-#, fuzzy
-#~| msgid "of Bahman"
 #~ msgctxt "Ethiopian month 4 - LongNamePossessive"
 #~ msgid "of Tahsas"
 #~ msgstr "Bahmanê"
 
-#, fuzzy
-#~| msgctxt "of Tir short"
-#~| msgid "of Tir"
 #~ msgctxt "Ethiopian month 5 - LongNamePossessive"
 #~ msgid "of Ter"
 #~ msgstr "Tîrê"
 
-#, fuzzy
-#~| msgctxt "of Farvardin short"
-#~| msgid "of Far"
 #~ msgctxt "Ethiopian month 6 - LongNamePossessive"
 #~ msgid "of Yakatit"
 #~ msgstr "Far"
 
-#, fuzzy
-#~| msgid "of Rajab"
 #~ msgctxt "Ethiopian month 7 - LongNamePossessive"
 #~ msgid "of Magabit"
 #~ msgstr "a Rajab"
 
-#, fuzzy
-#~| msgctxt "of May short"
-#~| msgid "of May"
 #~ msgctxt "Ethiopian month 8 - LongNamePossessive"
 #~ msgid "of Miyazya"
 #~ msgstr "gul"
 
-#, fuzzy
-#~| msgctxt "of February"
-#~| msgid "of Feb"
 #~ msgctxt "Ethiopian month 9 - LongNamePossessive"
 #~ msgid "of Genbot"
 #~ msgstr "reş"
 
-#, fuzzy
-#~| msgctxt "of September"
-#~| msgid "of Sep"
 #~ msgctxt "Ethiopian month 10 - LongNamePossessive"
 #~ msgid "of Sene"
 #~ msgstr "rez"
 
-#, fuzzy
-#~| msgid "of Tamuz"
 #~ msgctxt "Ethiopian month 11 - LongNamePossessive"
 #~ msgid "of Hamle"
 #~ msgstr "Tamuz"
 
-#, fuzzy
-#~| msgctxt "of Shahrivar short"
-#~| msgid "of Sha"
 #~ msgctxt "Ethiopian month 12 - LongNamePossessive"
 #~ msgid "of Nehase"
 #~ msgstr "Şar"
 
-#, fuzzy
-#~| msgid "of Tamuz"
 #~ msgctxt "Ethiopian month 13 - LongNamePossessive"
 #~ msgid "of Pagumen"
 #~ msgstr "Tamuz"
 
-#, fuzzy
-#~| msgid "Yes"
 #~ msgctxt "Ethiopian month 1 - ShortName"
 #~ msgid "Mes"
 #~ msgstr "Erê"
 
-#, fuzzy
-#~| msgctxt "Tuesday"
-#~| msgid "Tue"
 #~ msgctxt "Ethiopian month 2 - ShortName"
 #~ msgid "Teq"
 #~ msgstr "3şm"
 
-#, fuzzy
-#~| msgctxt "Wednesday"
-#~| msgid "Wed"
 #~ msgctxt "Ethiopian month 3 - ShortName"
 #~ msgid "Hed"
 #~ msgstr "4şm"
 
-#, fuzzy
-#~| msgid "Trash"
 #~ msgctxt "Ethiopian month 4 - ShortName"
 #~ msgid "Tah"
 #~ msgstr "Çop"
 
-#, fuzzy
-#~| msgctxt "Tuesday"
-#~| msgid "Tue"
 #~ msgctxt "Ethiopian month 5 - ShortName"
 #~ msgid "Ter"
 #~ msgstr "3şm"
 
-#, fuzzy
-#~| msgctxt "March"
-#~| msgid "Mar"
 #~ msgctxt "Ethiopian month 7 - ShortName"
 #~ msgid "Mag"
 #~ msgstr "Adr"
 
-#, fuzzy
-#~| msgctxt "May short"
-#~| msgid "May"
 #~ msgctxt "Ethiopian month 8 - ShortName"
 #~ msgid "Miy"
 #~ msgstr "Gul"
 
-#, fuzzy
-#~| msgid "Green:"
 #~ msgctxt "Ethiopian month 9 - ShortName"
 #~ msgid "Gen"
 #~ msgstr "Kesk:"
 
-#, fuzzy
-#~| msgid "&Send"
 #~ msgctxt "Ethiopian month 10 - ShortName"
 #~ msgid "Sen"
 #~ msgstr "&Bişîne"
 
-#, fuzzy
-#~| msgid "am"
 #~ msgctxt "Ethiopian month 11 - ShortName"
 #~ msgid "Ham"
 #~ msgstr "bn"
 
-#, fuzzy
-#~| msgctxt "Mehr short"
-#~| msgid "Meh"
 #~ msgctxt "Ethiopian month 12 - ShortName"
 #~ msgid "Neh"
 #~ msgstr "Meh"
 
-#, fuzzy
-#~| msgid "Pages"
 #~ msgctxt "Ethiopian month 13 - ShortName"
 #~ msgid "Pag"
 #~ msgstr "Rûpel"
 
-#, fuzzy
-#~| msgid "Tevet"
 #~ msgctxt "Ethiopian month 2 - LongName"
 #~ msgid "Tequemt"
 #~ msgstr "Tevet"
 
-#, fuzzy
-#~| msgid "Adar"
 #~ msgctxt "Ethiopian month 3 - LongName"
 #~ msgid "Hedar"
 #~ msgstr "Adar"
 
-#, fuzzy
-#~| msgid "Task"
 #~ msgctxt "Ethiopian month 4 - LongName"
 #~ msgid "Tahsas"
 #~ msgstr "Peywir"
 
-#, fuzzy
-#~| msgctxt "Tuesday"
-#~| msgid "Tue"
 #~ msgctxt "Ethiopian month 5 - LongName"
 #~ msgid "Ter"
 #~ msgstr "3şm"
 
-#, fuzzy
-#~| msgid "&Send"
 #~ msgctxt "Ethiopian month 10 - LongName"
 #~ msgid "Sene"
 #~ msgstr "&Bişîne"
 
-#, fuzzy
-#~| msgid "Name"
 #~ msgctxt "Ethiopian month 11 - LongName"
 #~ msgid "Hamle"
 #~ msgstr "Nav"
 
-#, fuzzy
-#~| msgid "Name"
 #~ msgctxt "Ethiopian month 12 - LongName"
 #~ msgid "Nehase"
 #~ msgstr "Nav"
 
-#, fuzzy
-#~| msgid "Pages"
 #~ msgctxt "Ethiopian month 13 - LongName"
 #~ msgid "Pagumen"
 #~ msgstr "Rûpel"
 
-#, fuzzy
-#~| msgctxt "September"
-#~| msgid "Sep"
 #~ msgctxt "Ethiopian weekday 1 - ShortDayName"
 #~ msgid "Seg"
 #~ msgstr "Îlo"
 
-#, fuzzy
-#~| msgctxt "March"
-#~| msgid "Mar"
 #~ msgctxt "Ethiopian weekday 2 - ShortDayName"
 #~ msgid "Mak"
 #~ msgstr "Adr"
 
-#, fuzzy
-#~| msgid "Job"
 #~ msgctxt "Ethiopian weekday 3 - ShortDayName"
 #~ msgid "Rob"
 #~ msgstr "Kar"
 
-#, fuzzy
-#~| msgid "am"
 #~ msgctxt "Ethiopian weekday 4 - ShortDayName"
 #~ msgid "Ham"
 #~ msgstr "bn"
 
-#, fuzzy
-#~| msgid "Arb"
 #~ msgctxt "Ethiopian weekday 5 - ShortDayName"
 #~ msgid "Arb"
 #~ msgstr "Arb"
 
-#, fuzzy
-#~| msgctxt "Wednesday"
-#~| msgid "Wed"
 #~ msgctxt "Ethiopian weekday 6 - ShortDayName"
 #~ msgid "Qed"
 #~ msgstr "4şm"
 
-#, fuzzy
-#~| msgctxt "Thursday"
-#~| msgid "Thu"
 #~ msgctxt "Ethiopian weekday 7 - ShortDayName"
 #~ msgid "Ehu"
 #~ msgstr "5şm"
 
-#, fuzzy
-#~| msgid "&Send"
 #~ msgctxt "Ethiopian weekday 1 - LongDayName"
 #~ msgid "Segno"
 #~ msgstr "&Bişîne"
 
-#, fuzzy
-#~| msgid "Job"
 #~ msgctxt "Ethiopian weekday 3 - LongDayName"
 #~ msgid "Rob"
 #~ msgstr "Kar"
 
-#, fuzzy
-#~| msgid "Pause"
 #~ msgctxt "Ethiopian weekday 4 - LongDayName"
 #~ msgid "Hamus"
 #~ msgstr "Navber"
 
-#, fuzzy
-#~| msgid "Arb"
 #~ msgctxt "Ethiopian weekday 5 - LongDayName"
 #~ msgid "Arb"
 #~ msgstr "Arb"
 
-#, fuzzy
-#~| msgid "Name"
 #~ msgctxt "Ethiopian weekday 6 - LongDayName"
 #~ msgid "Qedame"
 #~ msgstr "Nav"
 
-#, fuzzy
-#~| msgid "Most Downloads"
 #~ msgctxt "Sorting order of the list of items in get hot new stuff"
 #~ msgid "Most Downloads"
 #~ msgstr "Yên Herî Zêde Hatine Daxistin"
 
-#, fuzzy
-#~| msgid "Install"
 #~ msgctxt "Sorting order of the list of items in get hot new stuff"
 #~ msgid "Installed only"
 #~ msgstr "Saz Bike"
 
-#, fuzzy
-#~| msgid "Download New Stuff"
 #~ msgid "Download New Stuff"
 #~ msgstr "Taybetiyên Nû Daxe"
 
@@ -15475,8 +14526,6 @@ msgstr "Mijara &rojê"
 #~ msgid "tagcloudtest"
 #~ msgstr "tagcloudtest"
 
-#, fuzzy
-#~| msgid "Unlock Toolbars"
 #~ msgid "Unlock Toolbar Positions"
 #~ msgstr "Darikên Amûran Serbest Berde"
 
@@ -15484,30 +14533,19 @@ msgstr "Mijara &rojê"
 #~ msgid "Indic Scripts"
 #~ msgstr "Skrîptên Indîk"
 
-#, fuzzy
-#~| msgctxt "@action"
-#~| msgid "Save"
 #~ msgid "Save"
 #~ msgstr "Tomarkirin"
 
-#, fuzzy
-#~| msgid "Action"
 #~ msgid "Long Action"
 #~ msgstr "Çalakî"
 
-#, fuzzy
-#~| msgid "Open"
 #~ msgctxt "The open file menu entry"
 #~ msgid "Open"
 #~ msgstr "Veke"
 
-#, fuzzy
-#~| msgid "Test"
 #~ msgid "KIdleTest"
 #~ msgstr "Ceribandin"
 
-#, fuzzy
-#~| msgid "David Faure"
 #~ msgid "Dario Freddi"
 #~ msgstr "David Faure"
 
@@ -15562,475 +14600,3 @@ msgstr "Mijara &rojê"
 
 #~ msgid "Abort?"
 #~ msgstr "Betalkirin?"
-
-#~ msgctxt ""
-#~ "Hot new stuff offers to Download New Data. Apps can fill in an individual "
-#~ "string here, but Data is the default. This is in an action that gets "
-#~ "displayed in the menu or toolbar for example."
-#~ msgid "Download New Data..."
-#~ msgstr "Daneyên Nû Daxe..."
-
-#~ msgid "0 B"
-#~ msgstr "0 B"
-
-#~ msgctxt ""
-#~ "Dear Translator! Translate this string to the string 'LTR' in left-to-"
-#~ "right languages (as English) or to 'RTL' in right-to-left languages (such "
-#~ "as Hebrew and Arabic) to get proper widget layout."
-#~ msgid "LTR"
-#~ msgstr "LTR"
-
-#~ msgctxt "number-format:integer"
-#~ msgid "us"
-#~ msgstr "us"
-
-#~ msgctxt "number-format:real"
-#~ msgid "us"
-#~ msgstr "us"
-
-#, fuzzy
-#~| msgid "Do Not Store"
-#~ msgid "Do &Not Store"
-#~ msgstr "Tomar Neke"
-
-#, fuzzy
-#~| msgid "Back"
-#~ msgctxt "Goes to previous character"
-#~ msgid "Back"
-#~ msgstr "Paşve"
-
-#, fuzzy
-#~| msgid "Forward"
-#~ msgctxt "Goes to next character"
-#~ msgid "Forward"
-#~ msgstr "Pêşve"
-
-#~ msgctxt "Character"
-#~ msgid ""
-#~ "<qt><font size=\"+4\" face=\"%1\">%2</font><br />%3<br />Unicode code "
-#~ "point: %4<br />(In decimal: %5)</qt>"
-#~ msgstr ""
-#~ "<qt><font size=\"+4\" face=\"%1\">%2</font><br />%3<br />Koda Unicode: %"
-#~ "4<br />(wekî dehanî: %5)</qt>"
-
-#~ msgid "Add Elements"
-#~ msgstr "Hêmanan lê zêde bike"
-
-#~ msgid "Remove Elements"
-#~ msgstr "Hemanan rake"
-
-#~ msgid "Replace Element"
-#~ msgstr "Hêmanê Biguherîne"
-
-#, fuzzy
-#~ msgid "Sample KFormula application"
-#~ msgstr "Ji sepanê derkeve"
-
-#, fuzzy
-#~ msgid "&Options"
-#~ msgstr "Vebijêrk"
-
-#~ msgid "Unsorted"
-#~ msgstr "Ne rêzkirî"
-
-#~ msgid "Call stack"
-#~ msgstr "Sergoya gazîkirinan"
-
-#~ msgid "JavaScript console"
-#~ msgstr "Konsola Javascriptê"
-
-#~ msgctxt "Next breakpoint"
-#~ msgid "&Next"
-#~ msgstr "&Pêşde"
-
-#~ msgid "&Step"
-#~ msgstr "&Gav"
-
-#~ msgid "&Continue"
-#~ msgstr "&Bidomîne"
-
-#~ msgid "St&op"
-#~ msgstr "&Ra_westîne"
-
-#~ msgctxt "Next breakpoint"
-#~ msgid "Next"
-#~ msgstr "Pêşve"
-
-#~ msgid ""
-#~ "An error occurred while attempting to run a script on this page.\n"
-#~ "\n"
-#~ "%1"
-#~ msgstr ""
-#~ "Dema di vî rûpelî de bernameyek dihate xebitandin çewtî derket.\n"
-#~ "\n"
-#~ "%1"
-
-#~ msgid "%1 %"
-#~ msgstr "%1 %"
-
-#~ msgid "Already open."
-#~ msgstr "Jixwe vekirî ye."
-
-#~ msgid "Error opening file."
-#~ msgstr "Dema pel dihate vekirin çewtiyek çêbû."
-
-#~ msgid "Not a wallet file."
-#~ msgstr "Ne pelekî cuzdan e."
-
-#~ msgid "Unsupported file format revision."
-#~ msgstr "Revizyona cureyê pelê nayê destekkirin."
-
-#~ msgid "Unknown encryption scheme."
-#~ msgstr "Vebijêkek nenas."
-
-#~ msgid "Corrupt file?"
-#~ msgstr "Dibe ku pel xerabe be?"
-
-#~ msgid "Error validating wallet integrity. Possibly corrupted."
-#~ msgstr "Temamiya cuzdanê nehat rastandin. Dibe ku xerab bûbe."
-
-#~ msgid "Read error - possibly incorrect password."
-#~ msgstr "Çewtiya xwendinê - dibe ku sedem şîfreya şaş be."
-
-#~ msgid "Decryption error."
-#~ msgstr "şîroveya çewtiyê."
-
-#, fuzzy
-#~ msgctxt "@action"
-#~ msgid "OpenRecent"
-#~ msgstr "&Ya herî dawî hatiye bikaranîn veke"
-
-#~ msgctxt "@action"
-#~ msgid "SaveAs"
-#~ msgstr "CudaTomarkirin"
-
-#, fuzzy
-#~ msgctxt "@action"
-#~ msgid "PrintPreview"
-#~ msgstr "Pêşdîtina berî Çapkirinê"
-
-#, fuzzy
-#~ msgctxt "@action"
-#~ msgid "ActualSize"
-#~ msgstr "&Mezinahiya rastî"
-
-#, fuzzy
-#~ msgctxt "@action"
-#~ msgid "EditBookmarks"
-#~ msgstr "Bijareyan &Sererast Bike"
-
-#, fuzzy
-#~ msgctxt "@action"
-#~ msgid "ShowToolbar"
-#~ msgstr "Darikê &Amûran Nîşan Bide"
-
-#, fuzzy
-#~ msgctxt "@action"
-#~ msgid "ShowStatusbar"
-#~ msgstr "&Darikê Rewşê Nîşan Bide"
-
-#, fuzzy
-#~ msgctxt "@action"
-#~ msgid "ConfigureToolbars"
-#~ msgstr "Darikê Amûran Veava Bike"
-
-#, fuzzy
-#~ msgctxt "@action"
-#~ msgid "ConfigureNotifications"
-#~ msgstr "Hişyariyan Veava Bike"
-
-#, fuzzy
-#~ msgctxt "@action"
-#~ msgid "SwitchApplicationLanguage"
-#~ msgstr "Zimanê Sepanê Biguherîne"
-
-#, fuzzy
-#~ msgctxt "@action"
-#~ msgid "AboutApp"
-#~ msgstr "&Derbarê"
-
-#, fuzzy
-#~ msgctxt "@action"
-#~ msgid "AboutKDE"
-#~ msgstr "Der barê KDE de"
-
-#~ msgid "English"
-#~ msgstr "Îngilîzî"
-
-#~ msgctxt "@action:inmenu"
-#~ msgid "Empty Trash"
-#~ msgstr "Çopê Vala Bike"
-
-#~ msgid "&Edit '%1'..."
-#~ msgstr "'%1' &Sererast bike..."
-
-#~ msgid "&Hide '%1'"
-#~ msgstr "'%1' &veşêre"
-
-#~ msgid "&Show All Entries"
-#~ msgstr "Hemû Ketanan &Nîşan bide"
-
-#~ msgid "&Remove '%1'"
-#~ msgstr "'%1' &Rake"
-
-#~ msgctxt "@info"
-#~ msgid "Do you really want to empty the Trash? All items will be deleted."
-#~ msgstr ""
-#~ "Bi rastî jî tu dixwazî çopê vala bikî? Hemû hêmanê dê werin jêbirin."
-
-#~ msgctxt "@action:button"
-#~ msgid "Empty Trash"
-#~ msgstr "Çopê Vala Bike"
-
-#~ msgid "*|All Files"
-#~ msgstr "Hemû Pel"
-
-#~ msgid "All Supported Files"
-#~ msgstr "Hemû Pelên Bidestek"
-
-#~ msgid "Drive: %1"
-#~ msgstr "Ajoger: %1"
-
-#~ msgid "Click this button to create a new folder."
-#~ msgstr "Ji bo afirandika peldankeke nû li ser vê bişkojkê bitikîne."
-
-#~ msgid "Show Bookmarks"
-#~ msgstr "Bijareyan Nîşan bide"
-
-#~ msgid "&Location:"
-#~ msgstr "&Cih:"
-
-#~ msgid "You can only select local files."
-#~ msgstr "Dikarî tenê pelên herêmî hilbijêrî."
-
-#~ msgid ""
-#~ "%1\n"
-#~ "does not appear to be a valid URL.\n"
-#~ msgstr ""
-#~ "%1\n"
-#~ "wekî URL'yeke derbasdar xuya nake.\n"
-
-#~ msgid "Invalid URL"
-#~ msgstr "URL a nederbasdar"
-
-#~ msgid "The file \"%1\" already exists. Do you wish to overwrite it?"
-#~ msgstr "Pelê bi navê \"%1\" jixwe heye. Tu dixwazî li ser wê binivîse?"
-
-#~ msgid "Filename Error"
-#~ msgstr "Çewtiya Navê Pelî"
-
-#~ msgid "the extension <b>%1</b>"
-#~ msgstr "pêveka <b>%1</b>"
-
-#~ msgid "Bookmarks"
-#~ msgstr "Bijare"
-
-#~ msgctxt "Home Directory"
-#~ msgid "Home"
-#~ msgstr "Mal"
-
-#~ msgid "Network"
-#~ msgstr "Tor"
-
-#~ msgid "Root"
-#~ msgstr "Kok (Root)"
-
-#, fuzzy
-#~ msgid "&Release '%1'"
-#~ msgstr "'%1' &Rake"
-
-#~ msgid "&Safely Remove '%1'"
-#~ msgstr "'%1' Bi Ewlehiyê &Rake "
-
-#~ msgid "&Unmount '%1'"
-#~ msgstr "'%1' Ve&qetîne"
-
-#~ msgid "&Eject '%1'"
-#~ msgstr "'%1' Bi&avêje"
-
-#, fuzzy
-#~ msgid "The device '%1' is not a disc and can't be ejected."
-#~ msgstr "%1 ne fonksiyonek e û nayê gazîkirin."
-
-#~ msgid "An error occurred while accessing '%1', the system responded: %2"
-#~ msgstr "Dema gihiştina '%1' de çewtî derket, pergal bersiv da: %2"
-
-#~ msgid "An error occurred while accessing '%1'"
-#~ msgstr "Dema gihiştina '%1' de çewtî derket"
-
-#~ msgid "Custom Path"
-#~ msgstr "Rêça Taybet"
-
-#~ msgid "New Folder"
-#~ msgstr "Peldanka nû"
-
-#~ msgctxt "@title:window"
-#~ msgid "New Folder"
-#~ msgstr "Peldanka Nû"
-
-#~ msgctxt "@label:textbox"
-#~ msgid ""
-#~ "Create new folder in:\n"
-#~ "%1"
-#~ msgstr ""
-#~ "Peldanka nû li vir biafirîne:\n"
-#~ "%1"
-
-#~ msgid "A file or folder named %1 already exists."
-#~ msgstr "Bi navê %1 jixwe pel an jî peldankek heye"
-
-#~ msgid "You do not have permission to create that folder."
-#~ msgstr "Ji bo afirandina vê peldankê destûra te tune."
-
-#~ msgctxt "@title:window"
-#~ msgid "Select Folder"
-#~ msgstr "Peldankê Hilbijêre"
-
-#~ msgctxt "@action:button"
-#~ msgid "New Folder..."
-#~ msgstr "Peldanka nû..."
-
-#~ msgctxt "@action:inmenu"
-#~ msgid "New Folder..."
-#~ msgstr "Peldanka Nû..."
-
-#~ msgctxt "@option:check"
-#~ msgid "Show Hidden Folders"
-#~ msgstr "Peldankên Veşartî Nîşan Bide"
-
-#~ msgid "&Description:"
-#~ msgstr "&Daxuyanî:"
-
-#~ msgid "Choose an &icon:"
-#~ msgstr "Îkonekê &hilbijêre:"
-
-#~ msgid "&Only show when using this application (%1)"
-#~ msgstr "&Tenê dema ku ev sepan (%1) bê bikaranîn nîşan bide"
-
-#~ msgid "Show Hidden Folders"
-#~ msgstr "Peldankên Veşartî Nîşan Bide"
-
-#~ msgid ""
-#~ "Create new folder in:\n"
-#~ "%1"
-#~ msgstr ""
-#~ "Peldanka nû li vir biafirîne:\n"
-#~ "%1"
-
-#~ msgid "You did not select a file to delete."
-#~ msgstr "Ji bo jêbirinê te pelek hilnebijart."
-
-#~ msgid "Nothing to Delete"
-#~ msgstr "Tu tiştekî Jêbirinê tune"
-
-#~ msgid ""
-#~ "<qt>Do you really want to delete\n"
-#~ " <b>'%1'</b>?</qt>"
-#~ msgstr ""
-#~ "<qt>Tu mîsoger dixwazî vê jê bibî\n"
-#~ " <b>'%1'</b>?</qt>"
-
-#~ msgid "Delete File"
-#~ msgstr "Pelî Jê Bibe"
-
-#~ msgid "Delete Files"
-#~ msgstr "Pelan Jê Bibe"
-
-#~ msgid "You did not select a file to trash."
-#~ msgstr "Ji bo jêbirine te pelek hilnebijart."
-
-#~ msgid "Nothing to Trash"
-#~ msgstr "Tu tiştekî jêbirinê tune"
-
-#~ msgid ""
-#~ "<qt>Do you really want to trash\n"
-#~ " <b>'%1'</b>?</qt>"
-#~ msgstr ""
-#~ "<qt>Ji dil dixwazî\n"
-#~ "<b>%1</b>ê jê bibî?</qt>"
-
-#~ msgid "Trash File"
-#~ msgstr "Pelî Biavêje Çopê"
-
-#~ msgctxt "to trash"
-#~ msgid "&Trash"
-#~ msgstr "&Çop"
-
-#~ msgid "Trash Files"
-#~ msgstr "Pelan Biavêje Çopê"
-
-#~ msgid "Menu"
-#~ msgstr "Pêşek"
-
-#~ msgid "Parent Folder"
-#~ msgstr "Peldanka Dayîk"
-
-#~ msgid "Home Folder"
-#~ msgstr "Peldanka Mal"
-
-#~ msgid "New Folder..."
-#~ msgstr "Peldanka nû..."
-
-#~ msgid "Move to Trash"
-#~ msgstr "Dake Qutîka Çopê"
-
-#~ msgid "Sorting"
-#~ msgstr "Rêzkirin"
-
-#~ msgid "By Name"
-#~ msgstr "Li Nav"
-
-#~ msgid "By Size"
-#~ msgstr "Li Mezinahî"
-
-#~ msgid "By Date"
-#~ msgstr "Li Roj"
-
-#~ msgid "By Type"
-#~ msgstr "Li Cure"
-
-#~ msgid "Descending"
-#~ msgstr "Ber bi jêr"
-
-#~ msgid "Short View"
-#~ msgstr "Kurte"
-
-#, fuzzy
-#~ msgid "Tree View"
-#~ msgstr "Kitekit"
-
-#, fuzzy
-#~ msgid "Detailed Tree View"
-#~ msgstr "Kitekit"
-
-#~ msgid "Show Hidden Files"
-#~ msgstr "Pelên Veşartî Nîşan Bide"
-
-#~ msgid "Show Preview"
-#~ msgstr "Pêşdîtin"
-
-#~ msgid "Navigate"
-#~ msgstr "Gerîn"
-
-#, fuzzy
-#~ msgid "Show Full Path"
-#~ msgstr "Hemû vebijarkan nîşan bide"
-
-#, fuzzy
-#~ msgctxt "@item Text character set"
-#~ msgid "Chinese"
-#~ msgstr "Bugînî"
-
-#, fuzzy
-#~ msgctxt "@info:tooltip"
-#~ msgid "Parent Folder"
-#~ msgstr "Peldanka Dayîk"
-
-#~ msgid "Shift"
-#~ msgstr "Shift"
-
-#~ msgid "Ctrl"
-#~ msgstr "Ctrl"
-
-#~ msgid "Meta"
-#~ msgstr "Meta"
