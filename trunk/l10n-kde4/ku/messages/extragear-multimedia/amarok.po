@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-08-18 05:25+0200\n"
+"POT-Creation-Date: 2010-08-19 05:37+0200\n"
 "PO-Revision-Date: 2009-02-21 06:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -491,7 +491,7 @@ msgid "Bookmark Manager"
 msgstr "Rêvebirê Rûgira Albuman"
 
 #: amarokurls/BookmarkManagerWidget.cpp:44
-#: browsers/playlistbrowser/PlaylistBrowserCategory.cpp:78
+#: browsers/playlistbrowser/PlaylistBrowserCategory.cpp:80
 msgid "Add Folder"
 msgstr "Lê Peldankê  Zêde Bike"
 
@@ -857,7 +857,7 @@ msgid "Show Cover Art"
 msgstr "Rûgirê Nîşan Bide"
 
 #: browsers/collectionbrowser/CollectionWidget.cpp:403
-#: browsers/playlistbrowser/PlaylistBrowserCategory.cpp:93
+#: browsers/playlistbrowser/PlaylistBrowserCategory.cpp:95
 msgid "Merged View"
 msgstr ""
 
@@ -1400,26 +1400,6 @@ msgid ""
 "save are also shown here."
 msgstr ""
 
-#: browsers/playlistbrowser/PlaylistBrowserCategory.cpp:88
-#, fuzzy
-#| msgid "File Extension of Source"
-msgid "Visible Sources"
-msgstr "Pêveka Dosiya Çavkaniyê"
-
-#: browsers/playlistbrowser/PlaylistBrowserCategory.cpp:231
-#, fuzzy
-#| msgid "Folder"
-msgctxt "default name for new folder"
-msgid "New Folder"
-msgstr "Peldank"
-
-#: browsers/playlistbrowser/PlaylistBrowserCategory.cpp:233
-#, fuzzy, kde-format
-#| msgid "Folder"
-msgctxt "default name for new folder"
-msgid "New Folder (%1)"
-msgstr "Peldank"
-
 #: browsers/playlistbrowser/PlaylistsInFoldersProxy.cpp:33
 #, fuzzy
 #| msgid "&Rename group"
@@ -1491,6 +1471,19 @@ msgstr[1] "Lîsteya Lêdanê"
 #| msgid "Source"
 msgid "Source"
 msgstr "Çavkanî"
+
+#: browsers/playlistbrowser/PlaylistBrowserCategory.cpp:90
+#, fuzzy
+#| msgid "File Extension of Source"
+msgid "Visible Sources"
+msgstr "Pêveka Dosiya Çavkaniyê"
+
+#: browsers/playlistbrowser/PlaylistBrowserCategory.cpp:231
+#, fuzzy
+#| msgid "Folder"
+msgctxt "default name for new folder"
+msgid "New Folder"
+msgstr "Peldank"
 
 #: browsers/servicebrowser/ServiceBrowser.cpp:44
 msgid ""
@@ -7080,27 +7073,6 @@ msgstr "Lêdana Dawî"
 msgid "Mood"
 msgstr "Rewş"
 
-#: playlistgenerator/ConstraintGroup.cpp:84
-#, fuzzy
-#| msgid "Match Any Word"
-msgctxt "name of a type of constraint group"
-msgid "\"Match Any\" group"
-msgstr "Çi Peyvê Hevgirtî"
-
-#: playlistgenerator/ConstraintGroup.cpp:86
-#, fuzzy
-#| msgid "Match All Words"
-msgctxt "name of a type of constraint group"
-msgid "\"Match All\" group"
-msgstr "Hemû Peyvên Hevgirtî"
-
-#: playlistgenerator/ConstraintGroup.cpp:88
-#, fuzzy
-#| msgid "Unknown track"
-msgctxt "name of a type of constraint group"
-msgid "Unknown match group"
-msgstr "Strana nenas"
-
 #: playlistgenerator/ConstraintSolver.cpp:230
 msgid "The playlist generator failed to load any tracks from the collection."
 msgstr ""
@@ -7584,6 +7556,27 @@ msgstr "Mîhengên %1"
 #| msgid "Remove Applet"
 msgid "Remove selected"
 msgstr "Sepanok Rake"
+
+#: playlistgenerator/ConstraintGroup.cpp:84
+#, fuzzy
+#| msgid "Match Any Word"
+msgctxt "name of a type of constraint group"
+msgid "\"Match Any\" group"
+msgstr "Çi Peyvê Hevgirtî"
+
+#: playlistgenerator/ConstraintGroup.cpp:86
+#, fuzzy
+#| msgid "Match All Words"
+msgctxt "name of a type of constraint group"
+msgid "\"Match All\" group"
+msgstr "Hemû Peyvên Hevgirtî"
+
+#: playlistgenerator/ConstraintGroup.cpp:88
+#, fuzzy
+#| msgid "Unknown track"
+msgctxt "name of a type of constraint group"
+msgid "Unknown match group"
+msgstr "Strana nenas"
 
 #: playlistmanager/SyncedPlaylist.cpp:40 playlistmanager/SyncedPlaylist.cpp:48
 #: playlistmanager/SyncedPlaylist.cpp:56
@@ -13741,6 +13734,12 @@ msgstr "Dabeşkirin"
 #: rc.cpp:2849
 msgid "Verbose"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Folder"
+#~ msgctxt "default name for new folder"
+#~ msgid "New Folder (%1)"
+#~ msgstr "Peldank"
 
 #, fuzzy
 #~| msgid "Show active track"
