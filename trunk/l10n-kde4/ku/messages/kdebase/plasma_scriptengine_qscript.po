@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_scriptengine_qscript\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-08-10 06:03+0200\n"
+"POT-Creation-Date: 2010-08-23 05:29+0200\n"
 "PO-Revision-Date: 2008-12-26 03:20+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -16,6 +16,52 @@ msgstr ""
 "X-Generator: Lokalize 0.2\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-Language: Kurdish\n"
+
+#: common/javascriptaddonpackagestructure.cpp:30
+#: common/javascriptaddonpackagestructure.cpp:40
+msgid "Main Script File"
+msgstr ""
+
+#: common/scriptenv.cpp:119
+#, fuzzy, kde-format
+#| msgid "Unable to open '%1'"
+msgid "Unable to load script file: %1"
+msgstr "Vekirina '%1' biserneket"
+
+#: common/scriptenv.cpp:353
+#, fuzzy
+#| msgid "print takes one argument"
+msgid "debug takes one argument"
+msgstr "çapkirin yek sedem hildigire"
+
+#: common/scriptenv.cpp:363
+#, fuzzy
+#| msgid "print takes one argument"
+msgid "print() takes one argument"
+msgstr "çapkirin yek sedem hildigire"
+
+#: common/scriptenv.cpp:373
+#, fuzzy
+#| msgid "print takes one argument"
+msgid "listAddons takes one argument: addon type"
+msgstr "çapkirin yek sedem hildigire"
+
+#: common/scriptenv.cpp:401 common/scriptenv.cpp:408
+#, fuzzy
+#| msgid "print takes one argument"
+msgid "loadAddon takes two arguments: addon type and addon name to load"
+msgstr "çapkirin yek sedem hildigire"
+
+#: common/scriptenv.cpp:416
+#, kde-format
+msgid "Failed to find Addon %1 of type %1"
+msgstr ""
+
+#: common/scriptenv.cpp:427
+#, fuzzy, kde-format
+#| msgid "Unable to open '%1'"
+msgid "Failed to open script file for Addon %1: %2"
+msgstr "Vekirina '%1' biserneket"
 
 #: dataengine/javascriptdataengine.cpp:110
 #, fuzzy
@@ -110,52 +156,6 @@ msgstr "Vekirina '%1' biserneket"
 #: plasmoid/simplejavascriptapplet.cpp:742
 msgid "Constructor takes at least 1 argument"
 msgstr "Avakirin bi hindikî 1 sedem hildigire"
-
-#: common/javascriptaddonpackagestructure.cpp:30
-#: common/javascriptaddonpackagestructure.cpp:40
-msgid "Main Script File"
-msgstr ""
-
-#: common/scriptenv.cpp:119
-#, fuzzy, kde-format
-#| msgid "Unable to open '%1'"
-msgid "Unable to load script file: %1"
-msgstr "Vekirina '%1' biserneket"
-
-#: common/scriptenv.cpp:353
-#, fuzzy
-#| msgid "print takes one argument"
-msgid "debug takes one argument"
-msgstr "çapkirin yek sedem hildigire"
-
-#: common/scriptenv.cpp:363
-#, fuzzy
-#| msgid "print takes one argument"
-msgid "print() takes one argument"
-msgstr "çapkirin yek sedem hildigire"
-
-#: common/scriptenv.cpp:373
-#, fuzzy
-#| msgid "print takes one argument"
-msgid "listAddons takes one argument: addon type"
-msgstr "çapkirin yek sedem hildigire"
-
-#: common/scriptenv.cpp:401 common/scriptenv.cpp:408
-#, fuzzy
-#| msgid "print takes one argument"
-msgid "loadAddon takes two arguments: addon type and addon name to load"
-msgstr "çapkirin yek sedem hildigire"
-
-#: common/scriptenv.cpp:416
-#, kde-format
-msgid "Failed to find Addon %1 of type %1"
-msgstr ""
-
-#: common/scriptenv.cpp:427
-#, fuzzy, kde-format
-#| msgid "Unable to open '%1'"
-msgid "Failed to open script file for Addon %1: %2"
-msgstr "Vekirina '%1' biserneket"
 
 #, fuzzy
 #~| msgid "The parent must be a QGraphicsWidget"
