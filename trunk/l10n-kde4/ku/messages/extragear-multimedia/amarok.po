@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-08-24 06:12+0200\n"
+"POT-Creation-Date: 2010-08-25 05:14+0200\n"
 "PO-Revision-Date: 2009-02-21 06:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -323,7 +323,7 @@ msgid "Bookmark Manager"
 msgstr "Rêvebirê Rûgira Albuman"
 
 #: amarokurls/BookmarkManagerWidget.cpp:44
-#: browsers/playlistbrowser/PlaylistBrowserCategory.cpp:80
+#: browsers/playlistbrowser/PlaylistBrowserCategory.cpp:81
 msgid "Add Folder"
 msgstr "Lê Peldankê  Zêde Bike"
 
@@ -688,7 +688,7 @@ msgid "Show Cover Art"
 msgstr "Rûgirê Nîşan Bide"
 
 #: browsers/collectionbrowser/CollectionWidget.cpp:403
-#: browsers/playlistbrowser/PlaylistBrowserCategory.cpp:98
+#: browsers/playlistbrowser/PlaylistBrowserCategory.cpp:99
 msgid "Merged View"
 msgstr ""
 
@@ -927,6 +927,69 @@ msgstr ""
 msgid "Accuracy"
 msgstr ""
 
+#: browsers/playlistbrowser/PodcastCategory.cpp:77
+msgid "Podcasts"
+msgstr "Podcast"
+
+#: browsers/playlistbrowser/PodcastCategory.cpp:78
+msgid "List of podcast subscriptions and episodes"
+msgstr ""
+
+#: browsers/playlistbrowser/PodcastCategory.cpp:81
+msgid ""
+"Manage your podcast subscriptions and browse individual episodes. "
+"Downloading episodes to the disk is also done here, or you can tell Amarok "
+"to do this automatically."
+msgstr ""
+
+#: browsers/playlistbrowser/PodcastCategory.cpp:87
+msgid "&Add Podcast"
+msgstr "Podcast &Lê Zêde Bike"
+
+#: browsers/playlistbrowser/PodcastCategory.cpp:93
+msgid "&Update All"
+msgstr "Hemû yan &Rojane Bike"
+
+#: browsers/playlistbrowser/PodcastCategory.cpp:100
+#: browsers/playlistbrowser/PodcastCategory.cpp:103
+#, fuzzy
+#| msgid "Import playlist"
+msgid "Import OPML File"
+msgstr "Lîsteya lêdanê bîne"
+
+#: browsers/playlistbrowser/PodcastCategory.cpp:156
+#, fuzzy
+#| msgid "Body"
+msgid "By"
+msgstr "Naverok"
+
+#: browsers/playlistbrowser/PodcastCategory.cpp:195
+#, fuzzy
+#| msgid "On"
+msgctxt "Podcast published on date"
+msgid "On"
+msgstr "Vekirî"
+
+#: browsers/playlistbrowser/PodcastCategory.cpp:213
+#, fuzzy
+#| msgid "File Size"
+msgid "File Size:"
+msgstr "Mezinahiya Pelî"
+
+#: browsers/playlistbrowser/PodcastCategory.cpp:225
+#, fuzzy
+#| msgid "Description:"
+msgid "Subscription Date:"
+msgstr "Rave:"
+
+#: browsers/playlistbrowser/PodcastCategory.cpp:233
+msgid "Keywords:"
+msgstr ""
+
+#: browsers/playlistbrowser/PodcastCategory.cpp:271
+msgid "Select OPML file to import"
+msgstr ""
+
 #: browsers/playlistbrowser/DynamicBiasModel.cpp:83
 msgid "Proportional Bias"
 msgstr ""
@@ -1065,82 +1128,6 @@ msgstr[1] "Lîsteya Lêdanê"
 #| msgid "Source"
 msgid "Source"
 msgstr "Çavkanî"
-
-#: browsers/playlistbrowser/PlaylistBrowserCategory.cpp:93
-#, fuzzy
-#| msgid "File Extension of Source"
-msgid "Visible Sources"
-msgstr "Pêveka Dosiya Çavkaniyê"
-
-#: browsers/playlistbrowser/PlaylistBrowserCategory.cpp:234
-#, fuzzy
-#| msgid "Folder"
-msgctxt "default name for new folder"
-msgid "New Folder"
-msgstr "Peldank"
-
-#: browsers/playlistbrowser/PodcastCategory.cpp:99
-msgid "Podcasts"
-msgstr "Podcast"
-
-#: browsers/playlistbrowser/PodcastCategory.cpp:100
-msgid "List of podcast subscriptions and episodes"
-msgstr ""
-
-#: browsers/playlistbrowser/PodcastCategory.cpp:103
-msgid ""
-"Manage your podcast subscriptions and browse individual episodes. "
-"Downloading episodes to the disk is also done here, or you can tell Amarok "
-"to do this automatically."
-msgstr ""
-
-#: browsers/playlistbrowser/PodcastCategory.cpp:109
-msgid "&Add Podcast"
-msgstr "Podcast &Lê Zêde Bike"
-
-#: browsers/playlistbrowser/PodcastCategory.cpp:115
-msgid "&Update All"
-msgstr "Hemû yan &Rojane Bike"
-
-#: browsers/playlistbrowser/PodcastCategory.cpp:122
-#: browsers/playlistbrowser/PodcastCategory.cpp:125
-#, fuzzy
-#| msgid "Import playlist"
-msgid "Import OPML File"
-msgstr "Lîsteya lêdanê bîne"
-
-#: browsers/playlistbrowser/PodcastCategory.cpp:175
-#, fuzzy
-#| msgid "Body"
-msgid "By"
-msgstr "Naverok"
-
-#: browsers/playlistbrowser/PodcastCategory.cpp:214
-#, fuzzy
-#| msgid "On"
-msgctxt "Podcast published on date"
-msgid "On"
-msgstr "Vekirî"
-
-#: browsers/playlistbrowser/PodcastCategory.cpp:232
-#, fuzzy
-#| msgid "File Size"
-msgid "File Size:"
-msgstr "Mezinahiya Pelî"
-
-#: browsers/playlistbrowser/PodcastCategory.cpp:244
-#, fuzzy
-#| msgid "Description:"
-msgid "Subscription Date:"
-msgstr "Rave:"
-
-#: browsers/playlistbrowser/PodcastCategory.cpp:252
-msgid "Keywords:"
-msgstr ""
-
-#: browsers/playlistbrowser/PodcastCategory.cpp:289
-msgid "Select OPML file to import"
-msgstr ""
 
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:71
 #, fuzzy
@@ -1316,6 +1303,19 @@ msgstr ""
 msgid "Strictness:"
 msgstr ""
 
+#: browsers/playlistbrowser/PlaylistBrowserCategory.cpp:94
+#, fuzzy
+#| msgid "File Extension of Source"
+msgid "Visible Sources"
+msgstr "Pêveka Dosiya Çavkaniyê"
+
+#: browsers/playlistbrowser/PlaylistBrowserCategory.cpp:241
+#, fuzzy
+#| msgid "Folder"
+msgctxt "default name for new folder"
+msgid "New Folder"
+msgstr "Peldank"
+
 #: browsers/servicebrowser/ServiceBrowser.cpp:44
 msgid ""
 "The Internet browser lets you browse online sources of content that "
@@ -1351,7 +1351,7 @@ msgid "Unknown"
 msgstr "Nenas"
 
 #: browsers/CollectionTreeItem.cpp:188
-#: core-impl/collections/sqlcollection/ScanManager.cpp:764
+#: core-impl/collections/sqlcollection/ScanManager.cpp:749
 #: covermanager/CoverManager.cpp:844 covermanager/CoverViewDialog.h:39
 #: dialogs/TrackOrganizer.cpp:46 widgets/AlbumBreadcrumbWidget.cpp:60
 msgid "Various Artists"
@@ -1656,7 +1656,7 @@ msgid "Edit Track Details"
 msgstr "&Kitekitên Stranê Biguherîne"
 
 #: context/applets/albums/Albums.cpp:68
-#: context/engines/current/CurrentEngine.cpp:139
+#: context/engines/current/CurrentEngine.cpp:142
 msgid "Recently added albums"
 msgstr "Albumên herî dawî lê hatine zêdekirin "
 
@@ -1693,7 +1693,7 @@ msgstr "Vekirî"
 #: context/applets/photos/PhotosApplet.cpp:133
 #: context/applets/similarartists/SimilarArtistsApplet.cpp:264
 #: context/applets/labels/LabelsApplet.cpp:237
-#: context/engines/current/CurrentEngine.cpp:131 mac/GrowlInterface.cpp:39
+#: context/engines/current/CurrentEngine.cpp:134 mac/GrowlInterface.cpp:39
 #: widgets/Osd.cpp:581 EngineController.cpp:1327
 msgid "No track playing"
 msgstr "Tu Stran Nayê Lêdan"
@@ -2292,7 +2292,7 @@ msgid ""
 "Please add some applets from the toolbar at the bottom of the context view."
 msgstr ""
 
-#: context/engines/current/CurrentEngine.cpp:290
+#: context/engines/current/CurrentEngine.cpp:283
 #, kde-format
 msgid "Albums by %1"
 msgstr "Album alî yê %1"
@@ -3078,42 +3078,12 @@ msgstr "Vê %1 ê rake"
 msgid "Imported Playlist Files"
 msgstr "Lîsteya lêdanê bîne"
 
-#: core-impl/collections/sqlcollection/ScanManager.cpp:547
-msgid ""
-"<p>Sorry, the collection scan had to be aborted.</p><p>Too many errors were "
-"encountered during the scan.</p>"
-msgstr ""
-"<p>Ji ber ku gelekî çewtî çêbû karê venihartina berhevokan hate bi dawî "
-"kirin.</p>"
-
-#: core-impl/collections/sqlcollection/ScanManager.cpp:548
-msgid "Collection Scan Error"
-msgstr "Çewtiya Venihartina Berhevokê"
-
-#: core-impl/collections/sqlcollection/ScanManager.cpp:669
-msgid "Scanning music"
-msgstr "Muzîkê dinihêre"
-
 #. i18n: file: dialogs/OrganizeCollectionDialogBase.ui:21
 #. i18n: ectx: property (windowTitle), widget (QWidget, OrganizeCollectionDialogBase)
 #: core-impl/collections/sqlcollection/SqlCollectionFactory.cpp:107
 #: rc.cpp:1163
 msgid "Organize Files"
 msgstr "Rêxistina Pelan"
-
-#: core-impl/collections/sqlcollection/ScanResultProcessor.cpp:211
-#, fuzzy
-#| msgid "from"
-msgctxt "Front cover of an album"
-msgid "front"
-msgstr "ji"
-
-#: core-impl/collections/sqlcollection/ScanResultProcessor.cpp:219
-#, fuzzy
-#| msgid "Forever"
-msgctxt "(Front) Cover of an album"
-msgid "cover"
-msgstr "Herdem"
 
 #: core-impl/collections/sqlcollection/CapabilityDelegateImpl.cpp:55
 msgid "Do not show under Various Artists"
@@ -3135,6 +3105,36 @@ msgstr "Darijîne "
 #, kde-format
 msgid "%1 - %2"
 msgstr "%1 - %2"
+
+#: core-impl/collections/sqlcollection/ScanManager.cpp:546
+msgid ""
+"<p>Sorry, the collection scan had to be aborted.</p><p>Too many errors were "
+"encountered during the scan.</p>"
+msgstr ""
+"<p>Ji ber ku gelekî çewtî çêbû karê venihartina berhevokan hate bi dawî "
+"kirin.</p>"
+
+#: core-impl/collections/sqlcollection/ScanManager.cpp:547
+msgid "Collection Scan Error"
+msgstr "Çewtiya Venihartina Berhevokê"
+
+#: core-impl/collections/sqlcollection/ScanManager.cpp:654
+msgid "Scanning music"
+msgstr "Muzîkê dinihêre"
+
+#: core-impl/collections/sqlcollection/ScanResultProcessor.cpp:211
+#, fuzzy
+#| msgid "from"
+msgctxt "Front cover of an album"
+msgid "front"
+msgstr "ji"
+
+#: core-impl/collections/sqlcollection/ScanResultProcessor.cpp:219
+#, fuzzy
+#| msgid "Forever"
+msgctxt "(Front) Cover of an album"
+msgid "cover"
+msgstr "Herdem"
 
 #: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:40
 #, fuzzy, kde-format
@@ -6957,380 +6957,6 @@ msgid ""
 "removing some constraints and then generating a new playlist."
 msgstr ""
 
-#: playlistgenerator/PresetModel.cpp:154 playlistgenerator/PresetModel.cpp:280
-msgid "Preset files (*.xml)"
-msgstr ""
-
-#: playlistgenerator/PresetModel.cpp:156
-#, fuzzy
-#| msgid "Import Collection"
-msgid "Import preset"
-msgstr "Berhevokê Bîne Nava Xwe"
-
-#: playlistgenerator/PresetModel.cpp:207
-#, kde-format
-msgid "Preset exported to %1"
-msgstr ""
-
-#: playlistgenerator/PresetModel.cpp:210
-#, fuzzy, kde-format
-#| msgid "Lyrics data could not be parsed"
-msgid "Preset could not be exported to %1"
-msgstr "Daneya gotinê stranê nayê hev qetandin"
-
-#: playlistgenerator/PresetModel.cpp:226
-#, fuzzy, kde-format
-#| msgid "could not execute %1"
-msgid "Presets could not be imported from %1"
-msgstr "nekarî %1 bixebitîne"
-
-#: playlistgenerator/PresetModel.cpp:231
-#, kde-format
-msgid "%1 could not be opened for preset import"
-msgstr ""
-
-#: playlistgenerator/PresetModel.cpp:235
-msgid "Example 1: new tracks added this week"
-msgstr ""
-
-#: playlistgenerator/PresetModel.cpp:236
-msgid "Example 2: rock or pop music"
-msgstr ""
-
-#: playlistgenerator/PresetModel.cpp:237
-msgid "Example 3: about one hour of tracks from different artists"
-msgstr ""
-
-#: playlistgenerator/PresetModel.cpp:238
-msgid "Example 4: like my favorite radio station"
-msgstr ""
-
-#: playlistgenerator/PresetModel.cpp:239
-msgid "Example 5: an 80-minute CD of rock, metal, and industrial"
-msgstr ""
-
-#: playlistgenerator/PresetModel.cpp:289
-#, kde-format
-msgid "Export `%1' preset"
-msgstr ""
-
-#: playlistgenerator/constraints/PreventDuplicates.cpp:53
-#, fuzzy
-#| msgid "Remove Applet"
-msgid "Prevent Duplicates"
-msgstr "Sepanok Rake"
-
-#: playlistgenerator/constraints/PreventDuplicates.cpp:54
-msgid ""
-"Prevents duplicate tracks, albums, or artists from appearing in the playlist"
-msgstr ""
-
-#: playlistgenerator/constraints/PreventDuplicates.cpp:96
-#, fuzzy, kde-format
-#| msgid "Remove Applet"
-msgid "Prevent duplicate %1"
-msgstr "Sepanok Rake"
-
-#. i18n: file: playlistgenerator/constraints/PreventDuplicatesEditWidget.ui:54
-#. i18n: ectx: property (text), item, widget (QComboBox, comboBox_Field)
-#: playlistgenerator/constraints/PreventDuplicates.cpp:99
-#: widgets/SmartPlaylistEditor.cpp:253 rc.cpp:1849
-msgid "tracks"
-msgstr "stran"
-
-#. i18n: file: playlistgenerator/constraints/PreventDuplicatesEditWidget.ui:64
-#. i18n: ectx: property (text), item, widget (QComboBox, comboBox_Field)
-#: playlistgenerator/constraints/PreventDuplicates.cpp:101 rc.cpp:1855
-#, fuzzy
-#| msgid "artist"
-msgid "artists"
-msgstr "hunermend"
-
-#. i18n: file: playlistgenerator/constraints/PreventDuplicatesEditWidget.ui:59
-#. i18n: ectx: property (text), item, widget (QComboBox, comboBox_Field)
-#: playlistgenerator/constraints/PreventDuplicates.cpp:103 rc.cpp:1852
-#, fuzzy
-#| msgid "album"
-msgid "albums"
-msgstr "album"
-
-#: playlistgenerator/constraints/Checkpoint.cpp:61
-msgid "Checkpoint"
-msgstr ""
-
-#: playlistgenerator/constraints/Checkpoint.cpp:62
-#, fuzzy
-#| msgid "The number of undo levels in the playlist."
-msgid "Fixes a track, album, or artist to a certain position in the playlist"
-msgstr "Hejmara astên paş-de anînê di lîsteya lêdanê de."
-
-#: playlistgenerator/constraints/Checkpoint.cpp:171
-#, fuzzy, kde-format
-#| msgid " on <b>%1</b>"
-msgid "Checkpoint: %1"
-msgstr " di <b>%1</b> de"
-
-#: playlistgenerator/constraints/Checkpoint.cpp:179
-#: playlistgenerator/constraints/Checkpoint.cpp:187
-#: playlistgenerator/constraints/Checkpoint.cpp:199
-msgid "unassigned"
-msgstr ""
-
-#: playlistgenerator/constraints/Checkpoint.cpp:181
-#, fuzzy, kde-format
-#| msgctxt "%1 is number of tracks, %2 is time"
-#| msgid "%1 track (%2)"
-#| msgid_plural "%1 tracks (%2)"
-msgid "\"%1\" (track) by %2"
-msgstr "%1 stran (%2)"
-
-#: playlistgenerator/constraints/Checkpoint.cpp:190
-#, fuzzy, kde-format
-msgid "\"%1\" (album) by %2"
-msgstr "Album"
-
-#: playlistgenerator/constraints/Checkpoint.cpp:192
-#, fuzzy, kde-format
-msgid "\"%1\" (album)"
-msgstr "Album"
-
-#: playlistgenerator/constraints/Checkpoint.cpp:201
-#, fuzzy, kde-format
-#| msgid "artist"
-msgid "\"%1\" (artist)"
-msgstr "hunermend"
-
-#: playlistgenerator/constraints/PlaylistLength.cpp:58
-#, fuzzy
-#| msgid "Playlist Options"
-msgid "Playlist Duration"
-msgstr "lîsteya lêdanê"
-
-#: playlistgenerator/constraints/PlaylistLength.cpp:59
-#, fuzzy
-#| msgid "Add this filter condition to the list"
-msgid "Sets the preferred duration of the playlist"
-msgstr "Vê merca parzûnê ji lîsteyê zêde bike"
-
-#: playlistgenerator/constraints/PlaylistLength.cpp:113
-#, fuzzy, kde-format
-#| msgid "Playlist_%1"
-msgid "Playlist duration %1 %2"
-msgstr "Lîsteya Lêdanê_%1"
-
-#: playlistgenerator/constraints/PlaylistLength.cpp:255
-#, fuzzy
-#| msgid "equal to"
-msgctxt "duration of playlist equals some time"
-msgid "equals"
-msgstr "wekhevî yê "
-
-#. i18n: file: playlistgenerator/constraints/PlaylistLengthEditWidget.ui:52
-#. i18n: ectx: property (text), item, widget (QComboBox, comboBox_Comparison)
-#: playlistgenerator/constraints/PlaylistLength.cpp:257 rc.cpp:1874
-#, fuzzy
-#| msgid "less than"
-msgid "longer than"
-msgstr "hindiktir ji"
-
-#. i18n: file: playlistgenerator/constraints/PlaylistLengthEditWidget.ui:42
-#. i18n: ectx: property (text), item, widget (QComboBox, comboBox_Comparison)
-#: playlistgenerator/constraints/PlaylistLength.cpp:259 rc.cpp:1868
-#, fuzzy
-#| msgid "greater than"
-msgid "shorter than"
-msgstr "mezintir ji"
-
-#: playlistgenerator/constraints/PlaylistLength.cpp:261
-#: playlistgenerator/constraints/TagMatch.cpp:481
-#, fuzzy
-#| msgid "Unknown Genre"
-msgid "unknown comparison"
-msgstr "Cureyê Nenas"
-
-#: playlistgenerator/constraints/TagMatch.cpp:56
-#, fuzzy
-#| msgid "My Tags"
-msgid "Match Tags"
-msgstr "Etîketên Min"
-
-#: playlistgenerator/constraints/TagMatch.cpp:57
-msgid "Make all tracks in the playlist match the specified characteristic"
-msgstr ""
-
-#: playlistgenerator/constraints/TagMatch.cpp:174
-#, kde-format
-msgid "Match tag:%1 %2 %3 %4"
-msgstr ""
-
-#: playlistgenerator/constraints/TagMatch.cpp:175
-#, fuzzy
-#| msgid "is not"
-msgid " not"
-msgstr "nîn e"
-
-#: playlistgenerator/constraints/TagMatch.cpp:178
-#, fuzzy, kde-format
-#| msgid "%1 track"
-#| msgid_plural "%1 tracks"
-msgctxt "number of stars in the rating of a track"
-msgid "%1 stars"
-msgstr "%1 stran"
-
-#: playlistgenerator/constraints/TagMatch.cpp:184
-#, kde-format
-msgctxt "an arbitrary string surrounded by quotes"
-msgid "\"%1\""
-msgstr ""
-
-#: playlistgenerator/constraints/TagMatch.cpp:438
-#, fuzzy
-#| msgid "equal to"
-msgctxt "a numerical tag (like year or track number) equals a value"
-msgid "equals"
-msgstr "wekhevî yê "
-
-#. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:126
-#. i18n: ectx: property (text), item, widget (QComboBox, comboBox_ComparisonInt)
-#. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:480
-#. i18n: ectx: property (text), item, widget (QComboBox, comboBox_ComparisonTime)
-#. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:617
-#. i18n: ectx: property (text), item, widget (QComboBox, comboBox_ComparisonRating)
-#: playlistgenerator/constraints/TagMatch.cpp:440 rc.cpp:1940 rc.cpp:2024
-#: rc.cpp:2057
-msgid "greater than"
-msgstr "mezintir ji"
-
-#. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:116
-#. i18n: ectx: property (text), item, widget (QComboBox, comboBox_ComparisonInt)
-#. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:470
-#. i18n: ectx: property (text), item, widget (QComboBox, comboBox_ComparisonTime)
-#. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:607
-#. i18n: ectx: property (text), item, widget (QComboBox, comboBox_ComparisonRating)
-#: playlistgenerator/constraints/TagMatch.cpp:442 rc.cpp:1934 rc.cpp:2018
-#: rc.cpp:2051
-msgid "less than"
-msgstr "hindiktir ji"
-
-#. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:236
-#. i18n: ectx: property (text), item, widget (QComboBox, comboBox_ComparisonDate)
-#: playlistgenerator/constraints/TagMatch.cpp:446 rc.cpp:1964
-#, fuzzy
-#| msgid "is before"
-msgid "before"
-msgstr "pêşî ya"
-
-#. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:241
-#. i18n: ectx: property (text), item, widget (QComboBox, comboBox_ComparisonDate)
-#: playlistgenerator/constraints/TagMatch.cpp:448 rc.cpp:1967
-#, fuzzy
-#| msgid "None"
-msgid "on"
-msgstr "Ne yek jî"
-
-#. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:246
-#. i18n: ectx: property (text), item, widget (QComboBox, comboBox_ComparisonDate)
-#: playlistgenerator/constraints/TagMatch.cpp:450 rc.cpp:1970
-#, fuzzy
-#| msgid "is after"
-msgid "after"
-msgstr "piştî"
-
-#: playlistgenerator/constraints/TagMatch.cpp:452
-#, fuzzy
-#| msgid "with"
-msgid "within"
-msgstr "bi"
-
-#: playlistgenerator/constraints/TagMatch.cpp:458
-#: playlistgenerator/constraints/TagMatch.cpp:470
-#, fuzzy
-#| msgid "equal to"
-msgctxt "an alphabetical tag (like title or artist name) equals some string"
-msgid "equals"
-msgstr "wekhevî yê "
-
-#: playlistgenerator/constraints/TagMatch.cpp:460
-#, fuzzy
-#| msgid "starts with"
-msgctxt ""
-"an alphabetical tag (like title or artist name) starts with some string"
-msgid "starts with"
-msgstr "dest pê dike bi"
-
-#: playlistgenerator/constraints/TagMatch.cpp:462
-#, fuzzy
-#| msgid "ends with"
-msgctxt "an alphabetical tag (like title or artist name) ends with some string"
-msgid "ends with"
-msgstr "bi dawî dibe bi"
-
-#: playlistgenerator/constraints/TagMatch.cpp:464
-#, fuzzy
-#| msgid "contains"
-msgctxt "an alphabetical tag (like title or artist name) contains some string"
-msgid "contains"
-msgstr "werdigire  "
-
-#: playlistgenerator/constraints/TagMatch.cpp:466
-#: playlistgenerator/constraints/TagMatch.cpp:478
-msgid "regexp"
-msgstr ""
-
-#. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:417
-#. i18n: ectx: property (text), item, widget (QComboBox, comboBox_ComparisonString)
-#: playlistgenerator/constraints/TagMatch.cpp:472
-#: widgets/SmartPlaylistEditor.cpp:737 widgets/SmartPlaylistEditor.cpp:1034
-#: rc.cpp:2003
-msgid "starts with"
-msgstr "dest pê dike bi"
-
-#. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:422
-#. i18n: ectx: property (text), item, widget (QComboBox, comboBox_ComparisonString)
-#: playlistgenerator/constraints/TagMatch.cpp:474
-#: widgets/SmartPlaylistEditor.cpp:759 widgets/SmartPlaylistEditor.cpp:1035
-#: rc.cpp:2006
-msgid "ends with"
-msgstr "bi dawî dibe bi"
-
-#. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:427
-#. i18n: ectx: property (text), item, widget (QComboBox, comboBox_ComparisonString)
-#: playlistgenerator/constraints/TagMatch.cpp:476
-#: widgets/SmartPlaylistEditor.cpp:715 widgets/SmartPlaylistEditor.cpp:1033
-#: rc.cpp:2009
-msgid "contains"
-msgstr "werdigire  "
-
-#: playlistgenerator/constraints/TagMatch.cpp:651
-#: playlistgenerator/constraints/TagMatch.cpp:868
-#, fuzzy
-#| msgid "Days"
-msgctxt "within the last %1 days"
-msgid "day"
-msgid_plural "days"
-msgstr[0] "Roj"
-msgstr[1] "Roj"
-
-#: playlistgenerator/constraints/TagMatch.cpp:652
-#: playlistgenerator/constraints/TagMatch.cpp:869
-#, fuzzy
-#| msgid "Months"
-msgctxt "within the last %1 months"
-msgid "month"
-msgid_plural "months"
-msgstr[0] "Meh"
-msgstr[1] "Meh"
-
-#: playlistgenerator/constraints/TagMatch.cpp:653
-#: playlistgenerator/constraints/TagMatch.cpp:870
-#, fuzzy
-#| msgid "year"
-msgctxt "within the last %1 years"
-msgid "year"
-msgid_plural "years"
-msgstr[0] "sal"
-msgstr[1] "sal"
-
 #: playlistgenerator/constraints/TagMatchSupport.cpp:86
 #, fuzzy
 #| msgid "Url:"
@@ -7385,6 +7011,323 @@ msgstr "Yê dawî hatiye lêdan"
 msgid "play count"
 msgstr "hejmara lêdanê"
 
+#: playlistgenerator/constraints/Checkpoint.cpp:61
+msgid "Checkpoint"
+msgstr ""
+
+#: playlistgenerator/constraints/Checkpoint.cpp:62
+#, fuzzy
+#| msgid "The number of undo levels in the playlist."
+msgid "Fixes a track, album, or artist to a certain position in the playlist"
+msgstr "Hejmara astên paş-de anînê di lîsteya lêdanê de."
+
+#: playlistgenerator/constraints/Checkpoint.cpp:175
+#, fuzzy, kde-format
+#| msgid " on <b>%1</b>"
+msgid "Checkpoint: %1"
+msgstr " di <b>%1</b> de"
+
+#: playlistgenerator/constraints/Checkpoint.cpp:183
+#: playlistgenerator/constraints/Checkpoint.cpp:191
+#: playlistgenerator/constraints/Checkpoint.cpp:203
+msgid "unassigned"
+msgstr ""
+
+#: playlistgenerator/constraints/Checkpoint.cpp:185
+#, fuzzy, kde-format
+#| msgctxt "%1 is number of tracks, %2 is time"
+#| msgid "%1 track (%2)"
+#| msgid_plural "%1 tracks (%2)"
+msgid "\"%1\" (track) by %2"
+msgstr "%1 stran (%2)"
+
+#: playlistgenerator/constraints/Checkpoint.cpp:194
+#, fuzzy, kde-format
+msgid "\"%1\" (album) by %2"
+msgstr "Album"
+
+#: playlistgenerator/constraints/Checkpoint.cpp:196
+#, fuzzy, kde-format
+msgid "\"%1\" (album)"
+msgstr "Album"
+
+#: playlistgenerator/constraints/Checkpoint.cpp:205
+#, fuzzy, kde-format
+#| msgid "artist"
+msgid "\"%1\" (artist)"
+msgstr "hunermend"
+
+#: playlistgenerator/constraints/PlaylistLength.cpp:58
+#, fuzzy
+#| msgid "Playlist Options"
+msgid "Playlist Duration"
+msgstr "lîsteya lêdanê"
+
+#: playlistgenerator/constraints/PlaylistLength.cpp:59
+#, fuzzy
+#| msgid "Add this filter condition to the list"
+msgid "Sets the preferred duration of the playlist"
+msgstr "Vê merca parzûnê ji lîsteyê zêde bike"
+
+#: playlistgenerator/constraints/PlaylistLength.cpp:118
+#, fuzzy, kde-format
+#| msgid "Playlist_%1"
+msgid "Playlist duration %1 %2"
+msgstr "Lîsteya Lêdanê_%1"
+
+#: playlistgenerator/constraints/PlaylistLength.cpp:260
+#, fuzzy
+#| msgid "equal to"
+msgctxt "duration of playlist equals some time"
+msgid "equals"
+msgstr "wekhevî yê "
+
+#. i18n: file: playlistgenerator/constraints/PlaylistLengthEditWidget.ui:52
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBox_Comparison)
+#: playlistgenerator/constraints/PlaylistLength.cpp:262 rc.cpp:1874
+#, fuzzy
+#| msgid "less than"
+msgid "longer than"
+msgstr "hindiktir ji"
+
+#. i18n: file: playlistgenerator/constraints/PlaylistLengthEditWidget.ui:42
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBox_Comparison)
+#: playlistgenerator/constraints/PlaylistLength.cpp:264 rc.cpp:1868
+#, fuzzy
+#| msgid "greater than"
+msgid "shorter than"
+msgstr "mezintir ji"
+
+#: playlistgenerator/constraints/PlaylistLength.cpp:266
+#: playlistgenerator/constraints/TagMatch.cpp:486
+#, fuzzy
+#| msgid "Unknown Genre"
+msgid "unknown comparison"
+msgstr "Cureyê Nenas"
+
+#: playlistgenerator/constraints/PreventDuplicates.cpp:53
+#, fuzzy
+#| msgid "Remove Applet"
+msgid "Prevent Duplicates"
+msgstr "Sepanok Rake"
+
+#: playlistgenerator/constraints/PreventDuplicates.cpp:54
+msgid ""
+"Prevents duplicate tracks, albums, or artists from appearing in the playlist"
+msgstr ""
+
+#: playlistgenerator/constraints/PreventDuplicates.cpp:101
+#, fuzzy, kde-format
+#| msgid "Remove Applet"
+msgid "Prevent duplicate %1"
+msgstr "Sepanok Rake"
+
+#. i18n: file: playlistgenerator/constraints/PreventDuplicatesEditWidget.ui:54
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBox_Field)
+#: playlistgenerator/constraints/PreventDuplicates.cpp:104
+#: widgets/SmartPlaylistEditor.cpp:253 rc.cpp:1849
+msgid "tracks"
+msgstr "stran"
+
+#. i18n: file: playlistgenerator/constraints/PreventDuplicatesEditWidget.ui:64
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBox_Field)
+#: playlistgenerator/constraints/PreventDuplicates.cpp:106 rc.cpp:1855
+#, fuzzy
+#| msgid "artist"
+msgid "artists"
+msgstr "hunermend"
+
+#. i18n: file: playlistgenerator/constraints/PreventDuplicatesEditWidget.ui:59
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBox_Field)
+#: playlistgenerator/constraints/PreventDuplicates.cpp:108 rc.cpp:1852
+#, fuzzy
+#| msgid "album"
+msgid "albums"
+msgstr "album"
+
+#: playlistgenerator/constraints/TagMatch.cpp:56
+#, fuzzy
+#| msgid "My Tags"
+msgid "Match Tags"
+msgstr "Etîketên Min"
+
+#: playlistgenerator/constraints/TagMatch.cpp:57
+msgid "Make all tracks in the playlist match the specified characteristic"
+msgstr ""
+
+#: playlistgenerator/constraints/TagMatch.cpp:179
+#, kde-format
+msgid "Match tag:%1 %2 %3 %4"
+msgstr ""
+
+#: playlistgenerator/constraints/TagMatch.cpp:180
+#, fuzzy
+#| msgid "is not"
+msgid " not"
+msgstr "nîn e"
+
+#: playlistgenerator/constraints/TagMatch.cpp:183
+#, fuzzy, kde-format
+#| msgid "%1 track"
+#| msgid_plural "%1 tracks"
+msgctxt "number of stars in the rating of a track"
+msgid "%1 stars"
+msgstr "%1 stran"
+
+#: playlistgenerator/constraints/TagMatch.cpp:189
+#, kde-format
+msgctxt "an arbitrary string surrounded by quotes"
+msgid "\"%1\""
+msgstr ""
+
+#: playlistgenerator/constraints/TagMatch.cpp:443
+#, fuzzy
+#| msgid "equal to"
+msgctxt "a numerical tag (like year or track number) equals a value"
+msgid "equals"
+msgstr "wekhevî yê "
+
+#. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:126
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBox_ComparisonInt)
+#. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:480
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBox_ComparisonTime)
+#. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:617
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBox_ComparisonRating)
+#: playlistgenerator/constraints/TagMatch.cpp:445 rc.cpp:1940 rc.cpp:2024
+#: rc.cpp:2057
+msgid "greater than"
+msgstr "mezintir ji"
+
+#. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:116
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBox_ComparisonInt)
+#. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:470
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBox_ComparisonTime)
+#. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:607
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBox_ComparisonRating)
+#: playlistgenerator/constraints/TagMatch.cpp:447 rc.cpp:1934 rc.cpp:2018
+#: rc.cpp:2051
+msgid "less than"
+msgstr "hindiktir ji"
+
+#. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:236
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBox_ComparisonDate)
+#: playlistgenerator/constraints/TagMatch.cpp:451 rc.cpp:1964
+#, fuzzy
+#| msgid "is before"
+msgid "before"
+msgstr "pêşî ya"
+
+#. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:241
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBox_ComparisonDate)
+#: playlistgenerator/constraints/TagMatch.cpp:453 rc.cpp:1967
+#, fuzzy
+#| msgid "None"
+msgid "on"
+msgstr "Ne yek jî"
+
+#. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:246
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBox_ComparisonDate)
+#: playlistgenerator/constraints/TagMatch.cpp:455 rc.cpp:1970
+#, fuzzy
+#| msgid "is after"
+msgid "after"
+msgstr "piştî"
+
+#: playlistgenerator/constraints/TagMatch.cpp:457
+#, fuzzy
+#| msgid "with"
+msgid "within"
+msgstr "bi"
+
+#: playlistgenerator/constraints/TagMatch.cpp:463
+#: playlistgenerator/constraints/TagMatch.cpp:475
+#, fuzzy
+#| msgid "equal to"
+msgctxt "an alphabetical tag (like title or artist name) equals some string"
+msgid "equals"
+msgstr "wekhevî yê "
+
+#: playlistgenerator/constraints/TagMatch.cpp:465
+#, fuzzy
+#| msgid "starts with"
+msgctxt ""
+"an alphabetical tag (like title or artist name) starts with some string"
+msgid "starts with"
+msgstr "dest pê dike bi"
+
+#: playlistgenerator/constraints/TagMatch.cpp:467
+#, fuzzy
+#| msgid "ends with"
+msgctxt "an alphabetical tag (like title or artist name) ends with some string"
+msgid "ends with"
+msgstr "bi dawî dibe bi"
+
+#: playlistgenerator/constraints/TagMatch.cpp:469
+#, fuzzy
+#| msgid "contains"
+msgctxt "an alphabetical tag (like title or artist name) contains some string"
+msgid "contains"
+msgstr "werdigire  "
+
+#: playlistgenerator/constraints/TagMatch.cpp:471
+#: playlistgenerator/constraints/TagMatch.cpp:483
+msgid "regexp"
+msgstr ""
+
+#. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:417
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBox_ComparisonString)
+#: playlistgenerator/constraints/TagMatch.cpp:477
+#: widgets/SmartPlaylistEditor.cpp:737 widgets/SmartPlaylistEditor.cpp:1034
+#: rc.cpp:2003
+msgid "starts with"
+msgstr "dest pê dike bi"
+
+#. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:422
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBox_ComparisonString)
+#: playlistgenerator/constraints/TagMatch.cpp:479
+#: widgets/SmartPlaylistEditor.cpp:759 widgets/SmartPlaylistEditor.cpp:1035
+#: rc.cpp:2006
+msgid "ends with"
+msgstr "bi dawî dibe bi"
+
+#. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:427
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBox_ComparisonString)
+#: playlistgenerator/constraints/TagMatch.cpp:481
+#: widgets/SmartPlaylistEditor.cpp:715 widgets/SmartPlaylistEditor.cpp:1033
+#: rc.cpp:2009
+msgid "contains"
+msgstr "werdigire  "
+
+#: playlistgenerator/constraints/TagMatch.cpp:656
+#: playlistgenerator/constraints/TagMatch.cpp:873
+#, fuzzy
+#| msgid "Days"
+msgctxt "within the last %1 days"
+msgid "day"
+msgid_plural "days"
+msgstr[0] "Roj"
+msgstr[1] "Roj"
+
+#: playlistgenerator/constraints/TagMatch.cpp:657
+#: playlistgenerator/constraints/TagMatch.cpp:874
+#, fuzzy
+#| msgid "Months"
+msgctxt "within the last %1 months"
+msgid "month"
+msgid_plural "months"
+msgstr[0] "Meh"
+msgstr[1] "Meh"
+
+#: playlistgenerator/constraints/TagMatch.cpp:658
+#: playlistgenerator/constraints/TagMatch.cpp:875
+#, fuzzy
+#| msgid "year"
+msgctxt "within the last %1 years"
+msgid "year"
+msgid_plural "years"
+msgstr[0] "sal"
+msgstr[1] "sal"
+
 #: playlistgenerator/PresetEditDialog.cpp:63
 #, fuzzy
 #| msgid "Add new preset"
@@ -7405,26 +7348,83 @@ msgstr "Mîhengên %1"
 msgid "Remove selected"
 msgstr "Sepanok Rake"
 
-#: playlistgenerator/ConstraintGroup.cpp:84
+#: playlistgenerator/ConstraintGroup.cpp:87
 #, fuzzy
 #| msgid "Match Any Word"
 msgctxt "name of a type of constraint group"
 msgid "\"Match Any\" group"
 msgstr "Çi Peyvê Hevgirtî"
 
-#: playlistgenerator/ConstraintGroup.cpp:86
+#: playlistgenerator/ConstraintGroup.cpp:89
 #, fuzzy
 #| msgid "Match All Words"
 msgctxt "name of a type of constraint group"
 msgid "\"Match All\" group"
 msgstr "Hemû Peyvên Hevgirtî"
 
-#: playlistgenerator/ConstraintGroup.cpp:88
+#: playlistgenerator/ConstraintGroup.cpp:91
 #, fuzzy
 #| msgid "Unknown track"
 msgctxt "name of a type of constraint group"
 msgid "Unknown match group"
 msgstr "Strana nenas"
+
+#: playlistgenerator/PresetModel.cpp:157 playlistgenerator/PresetModel.cpp:283
+msgid "Preset files (*.xml)"
+msgstr ""
+
+#: playlistgenerator/PresetModel.cpp:159
+#, fuzzy
+#| msgid "Import Collection"
+msgid "Import preset"
+msgstr "Berhevokê Bîne Nava Xwe"
+
+#: playlistgenerator/PresetModel.cpp:210
+#, kde-format
+msgid "Preset exported to %1"
+msgstr ""
+
+#: playlistgenerator/PresetModel.cpp:213
+#, fuzzy, kde-format
+#| msgid "Lyrics data could not be parsed"
+msgid "Preset could not be exported to %1"
+msgstr "Daneya gotinê stranê nayê hev qetandin"
+
+#: playlistgenerator/PresetModel.cpp:229
+#, fuzzy, kde-format
+#| msgid "could not execute %1"
+msgid "Presets could not be imported from %1"
+msgstr "nekarî %1 bixebitîne"
+
+#: playlistgenerator/PresetModel.cpp:234
+#, kde-format
+msgid "%1 could not be opened for preset import"
+msgstr ""
+
+#: playlistgenerator/PresetModel.cpp:238
+msgid "Example 1: new tracks added this week"
+msgstr ""
+
+#: playlistgenerator/PresetModel.cpp:239
+msgid "Example 2: rock or pop music"
+msgstr ""
+
+#: playlistgenerator/PresetModel.cpp:240
+msgid "Example 3: about one hour of tracks from different artists"
+msgstr ""
+
+#: playlistgenerator/PresetModel.cpp:241
+msgid "Example 4: like my favorite radio station"
+msgstr ""
+
+#: playlistgenerator/PresetModel.cpp:242
+msgid "Example 5: an 80-minute CD of rock, metal, and industrial"
+msgstr ""
+
+#: playlistgenerator/PresetModel.cpp:292
+#, kde-format
+msgid "Export `%1' preset"
+msgstr ""
 
 #: playlistmanager/SyncedPlaylist.cpp:40 playlistmanager/SyncedPlaylist.cpp:48
 #: playlistmanager/SyncedPlaylist.cpp:56
