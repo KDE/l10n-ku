@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-08-29 05:30+0200\n"
+"POT-Creation-Date: 2010-08-30 05:28+0200\n"
 "PO-Revision-Date: 2009-02-21 06:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -512,11 +512,6 @@ msgstr "Pêveka Dosiya Çavkaniyê"
 msgid "Home"
 msgstr "Mal"
 
-#: browsers/collectionbrowser/CollectionTreeItemDelegate.cpp:177
-#, kde-format
-msgid "%1% used"
-msgstr ""
-
 #: browsers/collectionbrowser/CollectionWidget.cpp:140
 msgid ""
 "This is where you will find your local music, as well as music from mobile "
@@ -698,6 +693,11 @@ msgstr ""
 msgid "Sort Options"
 msgstr "Vebijêrkan Rêz Bike"
 
+#: browsers/collectionbrowser/CollectionTreeItemDelegate.cpp:178
+#, kde-format
+msgid "%1% used"
+msgstr ""
+
 #: browsers/filebrowser/FileBrowser.cpp:62
 #, fuzzy
 #| msgctxt "Fetch new information from the website"
@@ -865,6 +865,23 @@ msgid ""
 "is also where you can specify powerful dynamic playlists and manage your "
 "podcast subscriptions and episodes."
 msgstr ""
+
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:92
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:173
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:218
+#, fuzzy, kde-format
+#| msgid "Playlist"
+msgctxt "number of playlists from one source"
+msgid "One Playlist"
+msgid_plural "%1 playlists"
+msgstr[0] "Lîsteya Lêdanê"
+msgstr[1] "Lîsteya Lêdanê"
+
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:379
+#, fuzzy
+#| msgid "Source"
+msgid "Source"
+msgstr "Çavkanî"
 
 #: browsers/playlistbrowser/APGCategory.cpp:43
 msgid "Automated Playlist Generator"
@@ -1111,23 +1128,6 @@ msgstr "Podcast &Lê Zêde Bike"
 #| msgid "Enter Stream URL:"
 msgid "Enter RSS 1.0/2.0 or Atom feed URL:"
 msgstr "Darêja URL yê Bikeve:"
-
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:92
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:173
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:218
-#, fuzzy, kde-format
-#| msgid "Playlist"
-msgctxt "number of playlists from one source"
-msgid "One Playlist"
-msgid_plural "%1 playlists"
-msgstr[0] "Lîsteya Lêdanê"
-msgstr[1] "Lîsteya Lêdanê"
-
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:379
-#, fuzzy
-#| msgid "Source"
-msgid "Source"
-msgstr "Çavkanî"
 
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:71
 #, fuzzy
@@ -3457,7 +3457,7 @@ msgstr "Podcasta \"%1\" Tê Daxistin"
 msgid "Unable to save podcast episode file to %1"
 msgstr "Nekarî beşa ji torê tê anîn tomar bike di pela %1 de"
 
-#: core-impl/podcasts/sql/SqlPodcastMeta.cpp:389
+#: core-impl/podcasts/sql/SqlPodcastMeta.cpp:380
 #: core/podcasts/PodcastMeta.h:412
 msgid "Podcast"
 msgstr "Podcast"
