@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_battery\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-09-02 06:59+0200\n"
+"POT-Creation-Date: 2010-09-08 06:54+0200\n"
 "PO-Revision-Date: 2008-12-26 00:33+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
@@ -19,34 +19,37 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-Language: Kurdish\n"
 
-#: battery.cpp:199 battery.cpp:661
+#: battery.cpp:199
 #, fuzzy
-#| msgid "On Battery"
-msgid "Battery:"
+#| msgid "Battery"
+msgid "<b>Battery:</b>"
 msgstr "Pîl"
 
-#: battery.cpp:206 battery.cpp:668
+#: battery.cpp:206
 #, fuzzy, kde-format
-#| msgid "On Battery"
-msgctxt "Placeholder is the battery ID"
-msgid "Battery %1:"
-msgstr "Pîl"
+#| msgid "<b>Battery %1:</b> %2% (charging)<br />"
+msgctxt "tooltip: placeholder is the battery ID"
+msgid "<b>Battery %1:</b>"
+msgstr "<b>Pîl %1:</b> %2% (tê şarj kirin)<br /> "
 
-#: battery.cpp:217 battery.cpp:675
+#: battery.cpp:217
 #, fuzzy
-#| msgid "AC Adapter"
-msgid "AC Adapter:"
-msgstr "Adaptorê AC"
+#| msgid "<b>AC Adapter:</b> Plugged in"
+msgctxt "tooltip"
+msgid "<b>AC Adapter:</b>"
+msgstr "<b>Adaptorê AC:</b> Girêdayî ye"
 
-#: battery.cpp:218 battery.cpp:677
+#: battery.cpp:218
 #, fuzzy
 #| msgid "Plugged in"
+msgctxt "tooltip"
 msgid "Plugged in"
 msgstr "Tê de"
 
-#: battery.cpp:218 battery.cpp:679
+#: battery.cpp:218
 #, fuzzy
 #| msgid "Plugged in"
+msgctxt "tooltip"
 msgid "Not plugged in"
 msgstr "Tê de"
 
@@ -121,6 +124,37 @@ msgctxt "Battery is not plugged in"
 msgid "Not present"
 msgstr ""
 
+#: battery.cpp:661
+#, fuzzy
+#| msgid "On Battery"
+msgid "Battery:"
+msgstr "Pîl"
+
+#: battery.cpp:668
+#, fuzzy, kde-format
+#| msgid "On Battery"
+msgctxt "Placeholder is the battery ID"
+msgid "Battery %1:"
+msgstr "Pîl"
+
+#: battery.cpp:675
+#, fuzzy
+#| msgid "AC Adapter"
+msgid "AC Adapter:"
+msgstr "Adaptorê AC"
+
+#: battery.cpp:677
+#, fuzzy
+#| msgid "Plugged in"
+msgid "Plugged in"
+msgstr "Tê de"
+
+#: battery.cpp:679
+#, fuzzy
+#| msgid "Plugged in"
+msgid "Not plugged in"
+msgstr "Tê de"
+
 #: battery.cpp:693
 #, fuzzy
 #| msgctxt "Battery is not plugged in"
@@ -163,12 +197,6 @@ msgstr "Rewşa her pîlekê bi rêjeya ji sedî nîşan bide"
 #~ msgstr "<b>Pîl:</b> %1% (şarj tê vala kirin)<br />"
 
 #, fuzzy
-#~| msgid "<b>Battery %1:</b> %2% (charging)<br />"
-#~ msgctxt "Placeholder is the battery ID"
-#~ msgid "<b>Battery %1:</b>"
-#~ msgstr "<b>Pîl %1:</b> %2% (tê şarj kirin)<br /> "
-
-#, fuzzy
 #~| msgid "<b>Battery:</b> %1% (fully charged)<br />"
 #~ msgctxt "state of battery"
 #~ msgid "%1% (charged)"
@@ -195,16 +223,6 @@ msgstr "Rewşa her pîlekê bi rêjeya ji sedî nîşan bide"
 
 #~ msgid "Actions"
 #~ msgstr "Çalakî"
-
-#, fuzzy
-#~| msgid "Battery"
-#~ msgid "<b>Battery:</b>"
-#~ msgstr "Pîl"
-
-#, fuzzy
-#~| msgid "<b>AC Adapter:</b> Plugged in"
-#~ msgid "<b>AC Adapter:</b>"
-#~ msgstr "<b>Adaptorê AC:</b> Girêdayî ye"
 
 #, fuzzy
 #~| msgid "<b>Battery:</b> %1% (fully charged)<br />"
