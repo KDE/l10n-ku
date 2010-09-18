@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-09-14 06:33+0200\n"
+"POT-Creation-Date: 2010-09-18 06:02+0200\n"
 "PO-Revision-Date: 2007-12-21 21:45+0100\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <gnu-ku-wergerandin at lists dot sourceforge dot "
@@ -3135,7 +3135,7 @@ msgid "Track"
 msgstr ""
 
 # msgctxt "@title:column"
-#: kfile/knfotranslator.cpp:78 kfile/kfilemetadatawidget.cpp:626
+#: kfile/knfotranslator.cpp:78
 #, fuzzy
 #| msgid "Type"
 msgctxt "@label file type"
@@ -3677,42 +3677,47 @@ msgstr ""
 msgid "Advanced Options for %1"
 msgstr ""
 
-# msgctxt "@title:column"
-#: kfile/kfilemetadatawidget.cpp:525
-#, fuzzy
-#| msgid "Size"
-msgctxt "@label"
-msgid "Size"
-msgstr "Mezinahî"
-
-#: kfile/kfilemetadatawidget.cpp:542
+#: kfile/kfilemetadatawidget.cpp:519
 #, fuzzy
 #| msgid "Size:"
 msgctxt "@label"
-msgid "Total Size"
+msgid "Size:"
 msgstr "Mezinahî:"
 
-#: kfile/kfilemetadatawidget.cpp:628
+#: kfile/kfilemetadatawidget.cpp:536
+#, fuzzy
+#| msgid "Size:"
+msgctxt "@label"
+msgid "Total Size:"
+msgstr "Mezinahî:"
+
+#: kfile/kfilemetadatawidget.cpp:620
+#, fuzzy
+#| msgid "Type:"
+msgctxt "@label file type"
+msgid "Type:"
+msgstr "Cure:"
+
+#: kfile/kfilemetadatawidget.cpp:622
 #, fuzzy
 #| msgid "Modified:"
 msgctxt "@label"
-msgid "Modified"
+msgid "Modified:"
 msgstr "Guhartî:"
 
-# msgctxt "@title:column"
-#: kfile/kfilemetadatawidget.cpp:629
+#: kfile/kfilemetadatawidget.cpp:623
 #, fuzzy
-#| msgid "Owner"
+#| msgid "Owner:"
 msgctxt "@label"
-msgid "Owner"
-msgstr "Xwedî"
+msgid "Owner:"
+msgstr "Xwedî:"
 
 # msgctxt "@title:column"
-#: kfile/kfilemetadatawidget.cpp:630
+#: kfile/kfilemetadatawidget.cpp:624
 #, fuzzy
 #| msgid "Permissions"
 msgctxt "@label"
-msgid "Permissions"
+msgid "Permissions:"
 msgstr "Destûr"
 
 #: kfile/kfilemetadataprovider.cpp:304
@@ -6235,6 +6240,26 @@ msgstr ""
 #| msgid "Show Hidden Folders"
 msgid "Show Hidden Folders"
 msgstr "Peldankên Veşartî Nîşan Bide"
+
+# msgctxt "@title:column"
+#, fuzzy
+#~| msgid "Size"
+#~ msgctxt "@label"
+#~ msgid "Size"
+#~ msgstr "Mezinahî"
+
+#, fuzzy
+#~| msgid "Modified:"
+#~ msgctxt "@label"
+#~ msgid "Modified"
+#~ msgstr "Guhartî:"
+
+# msgctxt "@title:column"
+#, fuzzy
+#~| msgid "Owner"
+#~ msgctxt "@label"
+#~ msgid "Owner"
+#~ msgstr "Xwedî"
 
 #, fuzzy
 #~| msgid "No Folders"
