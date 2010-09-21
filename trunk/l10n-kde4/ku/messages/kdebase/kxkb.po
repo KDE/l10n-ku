@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kxkb\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-09-02 06:58+0200\n"
+"POT-Creation-Date: 2010-09-21 07:09+0200\n"
 "PO-Revision-Date: 2009-01-06 14:31+0200\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -101,11 +101,21 @@ msgstr "Cudatir"
 msgid "Label"
 msgstr "Etîket"
 
-#: keyboard_applet.cpp:48
+#: keyboard_applet.cpp:49
 msgid "XKB extension failed to initialize"
 msgstr ""
 
-#: layout_widget.cpp:131 layout_widget.cpp:132
+#: keyboard_applet.cpp:209 layout_widget.cpp:239
+#, kde-format
+msgctxt "short layout label - full layout name"
+msgid "%1 - %2"
+msgstr ""
+
+#: keyboard_applet.cpp:218 layout_widget.cpp:248
+msgid "Configure..."
+msgstr "Mîheng..."
+
+#: layout_widget.cpp:133 layout_widget.cpp:134
 #, fuzzy
 #| msgid "KDE Keyboard Layout Switcher"
 msgctxt "tooltip title"
@@ -138,9 +148,6 @@ msgstr ""
 
 #~ msgid "Error changing keyboard layout to '%1'"
 #~ msgstr "Di guherandina klavyeyê ji bo '%1' de çewtî derket"
-
-#~ msgid "Configure..."
-#~ msgstr "Mîheng..."
 
 #~ msgid "KDE will configure layouts and start layout indicator"
 #~ msgstr "KDE dê planan mîheng bike û nîşandêra planê bide destpêkirin"
