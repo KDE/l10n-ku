@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kgraphviewer\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-08-22 05:50+0200\n"
+"POT-Creation-Date: 2010-10-01 06:18+0200\n"
 "PO-Revision-Date: 2009-01-20 00:12+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -18,19 +18,19 @@ msgstr ""
 "X-Poedit-Language: Kurdish\n"
 "X-Poedit-SourceCharset: utf8\n"
 
-#: kgrapheditorConfigDialog.cpp:65 kgraphviewerConfigDialog.cpp:65
+#: kgrapheditorConfigDialog.cpp:65 kgraphviewerConfigDialog.cpp:70
 msgid "Parsing"
 msgstr ""
 
-#: kgrapheditorConfigDialog.cpp:66 kgraphviewerConfigDialog.cpp:66
+#: kgrapheditorConfigDialog.cpp:66 kgraphviewerConfigDialog.cpp:71
 msgid "Reloading"
 msgstr "Nû ve tê barkirin"
 
-#: kgrapheditorConfigDialog.cpp:67 kgraphviewerConfigDialog.cpp:67
+#: kgrapheditorConfigDialog.cpp:67 kgraphviewerConfigDialog.cpp:72
 msgid "Opening"
 msgstr "Tê vekirin"
 
-#: kgrapheditorConfigDialog.cpp:68 kgraphviewerConfigDialog.cpp:68
+#: kgrapheditorConfigDialog.cpp:68 kgraphviewerConfigDialog.cpp:73
 msgid "Session Management"
 msgstr "Rêveberiya Danişînê"
 
@@ -111,29 +111,33 @@ msgstr ""
 msgid "Remove this node"
 msgstr "Vê girêkê rake"
 
+#: kgraphviewerConfigDialog.cpp:69
+msgid "Appearance"
+msgstr ""
+
 #: kgraphviewer.cpp:121
 #, fuzzy
 #| msgid "Do you want to reload files from previous session ?"
 msgid "Do you want to reload files from the previous session?"
 msgstr "Tu dixwazî jê danişîna berê pelan ji nû ve bar bikî?"
 
-#: kgraphviewer.cpp:179
+#: kgraphviewer.cpp:180
 #, fuzzy
 #| msgid "Could not find our part."
 msgid "Could not find the KGraphViewer part."
 msgstr "Nekarî beşa me bibîne."
 
-#: kgraphviewer.cpp:214
+#: kgraphviewer.cpp:215
 #, fuzzy
 #| msgid "Open in existing window"
 msgid "Opens a new empty KGraphViewer window."
 msgstr "Di paceya heyî de veke"
 
-#: kgraphviewer.cpp:217
+#: kgraphviewer.cpp:218
 msgid "Shows the file open dialog to choose a GraphViz dot file to open."
 msgstr ""
 
-#: kgraphviewer.cpp:221
+#: kgraphviewer.cpp:222
 msgid ""
 "This lists files which you have opened recently, and allows you to easily "
 "open them again."
@@ -141,27 +145,27 @@ msgstr ""
 "Ev lîsteya pelên ku te di dawiyê de vekirine ye û dikarî xwe bi hêsanî "
 "bigihînî van pelan."
 
-#: kgraphviewer.cpp:227
+#: kgraphviewer.cpp:228
 #, fuzzy
 #| msgid "KGraphViewer"
 msgid "Quits KGraphViewer."
 msgstr "KGraphViewer"
 
-#: kgraphviewer.cpp:230
+#: kgraphviewer.cpp:231
 msgid "Shows or hides the status bar."
 msgstr ""
 
-#: kgraphviewer.cpp:233
+#: kgraphviewer.cpp:234
 msgid "Configure the bindings between keys and actions."
 msgstr ""
 
-#: kgraphviewer.cpp:236
+#: kgraphviewer.cpp:237
 #, fuzzy
 #| msgid "Reload Confirmation"
 msgid "Toolbar configuration."
 msgstr "Erêkirina Nû ve Barkirinê"
 
-#: kgraphviewer.cpp:239
+#: kgraphviewer.cpp:240
 msgid "Main KGraphViewer configuration options."
 msgstr ""
 
@@ -450,7 +454,7 @@ msgstr "Di paceya heyî de veke"
 #. i18n: ectx: property (text), widget (QRadioButton, yes)
 #. i18n: file: preferencesReopenPreviouslyOpenedFiles.ui:78
 #. i18n: ectx: property (text), widget (QRadioButton, yes)
-#: rc.cpp:113 rc.cpp:188 rc.cpp:203
+#: rc.cpp:113 rc.cpp:191 rc.cpp:206
 msgid "&Yes"
 msgstr "&Erê"
 
@@ -460,7 +464,7 @@ msgstr "&Erê"
 #. i18n: ectx: property (text), widget (QRadioButton, no)
 #. i18n: file: preferencesReopenPreviouslyOpenedFiles.ui:62
 #. i18n: ectx: property (text), widget (QRadioButton, no)
-#: rc.cpp:116 rc.cpp:191 rc.cpp:200
+#: rc.cpp:116 rc.cpp:194 rc.cpp:203
 msgid "No"
 msgstr "Na"
 
@@ -468,7 +472,7 @@ msgstr "Na"
 #. i18n: ectx: property (text), widget (QRadioButton, ask)
 #. i18n: file: preferencesReopenPreviouslyOpenedFiles.ui:91
 #. i18n: ectx: property (text), widget (QRadioButton, ask)
-#: rc.cpp:119 rc.cpp:206
+#: rc.cpp:119 rc.cpp:209
 msgid "As&k"
 msgstr "Bi&pirse"
 
@@ -535,39 +539,45 @@ msgstr ""
 "Bersîva pirsa 'Pelên ku di danişîna berê de vebûne divê di destpêkê de ji nû "
 "ve bên vekirin ?'"
 
+#. i18n: file: kgraphviewersettings.kcfg:32
+#. i18n: ectx: label, entry (backgroundColor), group (Appearance)
+#: rc.cpp:176
+msgid "Background color of the graph view."
+msgstr ""
+
 #. i18n: file: preferencesParsing.ui:35
 #. i18n: ectx: property (title), widget (QGroupBox, parsingMode)
-#: rc.cpp:176
+#: rc.cpp:179
 msgid "Parse using:"
 msgstr ""
 
 #. i18n: file: preferencesParsing.ui:50
 #. i18n: ectx: property (text), widget (QRadioButton, external)
-#: rc.cpp:179
+#: rc.cpp:182
 msgid "&External command"
 msgstr ""
 
 #. i18n: file: preferencesParsing.ui:63
 #. i18n: ectx: property (text), widget (QRadioButton, internal)
-#: rc.cpp:182
+#: rc.cpp:185
 msgid "Internal library"
 msgstr ""
 
 #. i18n: file: preferencesReload.ui:41
 #. i18n: ectx: property (title), widget (QGroupBox, reloadOnChangeMode)
-#: rc.cpp:185
+#: rc.cpp:188
 msgid "Reload files modified on disk"
 msgstr "Pelên di dîskê de hatine guherandin nû ve bar bike"
 
 #. i18n: file: preferencesReload.ui:85
 #. i18n: ectx: property (text), widget (QRadioButton, ask)
-#: rc.cpp:194
+#: rc.cpp:197
 msgid "Ask"
 msgstr "Bipirse"
 
 #. i18n: file: preferencesReopenPreviouslyOpenedFiles.ui:41
 #. i18n: ectx: property (title), widget (QGroupBox, reopenPreviouslyOpenedFilesMode)
-#: rc.cpp:197
+#: rc.cpp:200
 msgid "Reopen previously opened files"
 msgstr "Pelên pêşî de hatine vekirin nû ve veke"
 
@@ -628,7 +638,7 @@ msgstr ""
 msgid "Unknown error running %1."
 msgstr ""
 
-#: part/dotgraphview.cpp:139
+#: part/dotgraphview.cpp:140
 msgid ""
 "<h1>GraphViz dot format graph visualization</h1><p>If the graph is larger "
 "than the widget area, an overview panner is shown in one edge. Choose "
@@ -646,23 +656,23 @@ msgid ""
 "printing options.</li></ul>"
 msgstr ""
 
-#: part/dotgraphview.cpp:224
+#: part/dotgraphview.cpp:225
 #, fuzzy
 #| msgid "Dot graph to open"
 msgid "no graph loaded"
 msgstr "Xêza bi xal ji bo vekirinê"
 
-#: part/dotgraphview.cpp:344 part/dotgraphview.cpp:364
+#: part/dotgraphview.cpp:345 part/dotgraphview.cpp:366
 #, kde-format
 msgid "graph %1 is getting loaded..."
 msgstr ""
 
-#: part/dotgraphview.cpp:353
+#: part/dotgraphview.cpp:354
 #, kde-format
 msgid "error parsing file %1"
 msgstr ""
 
-#: part/dotgraphview.cpp:1260
+#: part/dotgraphview.cpp:1268
 #, fuzzy, kde-format
 #| msgid "The answer to the question 'File modified, do you want to reload it'"
 msgid ""
@@ -670,69 +680,69 @@ msgid ""
 "Do you want to reload it ?"
 msgstr "Bersîva pirsa 'Pel hatiye guherandin, tu dixwazî vê nû ve bar bikî'"
 
-#: part/dotgraphview.cpp:1261
+#: part/dotgraphview.cpp:1269
 msgid "Reload Confirmation"
 msgstr "Erêkirina Nû ve Barkirinê"
 
-#: part/dotgraphview.cpp:1347
+#: part/dotgraphview.cpp:1355
 msgid "Select Layout Algo"
 msgstr ""
 
-#: part/dotgraphview.cpp:1351
+#: part/dotgraphview.cpp:1359
 msgid " "
 msgstr ""
 
-#: part/dotgraphview.cpp:1352 part/dotgraphview.cpp:1403
+#: part/dotgraphview.cpp:1360 part/dotgraphview.cpp:1411
 msgid ""
 "Specify yourself the layout command to use. Given a dot file, it should "
 "produce an xdot file on its standard output."
 msgstr ""
 
-#: part/dotgraphview.cpp:1356
+#: part/dotgraphview.cpp:1364
 msgid "Dot"
 msgstr ""
 
-#: part/dotgraphview.cpp:1357
+#: part/dotgraphview.cpp:1365
 msgid "Layout the graph using the dot program."
 msgstr ""
 
-#: part/dotgraphview.cpp:1361
+#: part/dotgraphview.cpp:1369
 msgid "Neato"
 msgstr ""
 
-#: part/dotgraphview.cpp:1362
+#: part/dotgraphview.cpp:1370
 msgid "Layout the graph using the neato program."
 msgstr ""
 
-#: part/dotgraphview.cpp:1366
+#: part/dotgraphview.cpp:1374
 msgid "Twopi"
 msgstr ""
 
-#: part/dotgraphview.cpp:1367
+#: part/dotgraphview.cpp:1375
 msgid "Layout the graph using the twopi program."
 msgstr ""
 
-#: part/dotgraphview.cpp:1371
+#: part/dotgraphview.cpp:1379
 msgid "Fdp"
 msgstr ""
 
-#: part/dotgraphview.cpp:1372
+#: part/dotgraphview.cpp:1380
 msgid "Layout the graph using the fdp program."
 msgstr ""
 
-#: part/dotgraphview.cpp:1376
+#: part/dotgraphview.cpp:1384
 msgid "Circo"
 msgstr ""
 
-#: part/dotgraphview.cpp:1377
+#: part/dotgraphview.cpp:1385
 msgid "Layout the graph using the circo program."
 msgstr ""
 
-#: part/dotgraphview.cpp:1390
+#: part/dotgraphview.cpp:1398
 msgid "Choose a GraphViz layout algorithm or edit your own one."
 msgstr ""
 
-#: part/dotgraphview.cpp:1392
+#: part/dotgraphview.cpp:1400
 msgid ""
 "Choose a GraphViz layout algorithm or type in your own command that will "
 "generate a graph in the xdot format on its standard output. For example, to "
@@ -740,120 +750,120 @@ msgid ""
 "Gname=MyGraphName -Txdot </tt>"
 msgstr ""
 
-#: part/dotgraphview.cpp:1400
+#: part/dotgraphview.cpp:1408
 msgid "Layout"
 msgstr ""
 
-#: part/dotgraphview.cpp:1402
+#: part/dotgraphview.cpp:1410
 msgid "Specify layout command"
 msgstr ""
 
-#: part/dotgraphview.cpp:1404
+#: part/dotgraphview.cpp:1412
 msgid "Reset layout command to default"
 msgstr ""
 
-#: part/dotgraphview.cpp:1405
+#: part/dotgraphview.cpp:1413
 msgid ""
 "Resets the layout command to use to the default depending on the graph type "
 "(directed or not)."
 msgstr ""
 
-#: part/dotgraphview.cpp:1407
+#: part/dotgraphview.cpp:1415
 msgid "Zoom In"
 msgstr ""
 
-#: part/dotgraphview.cpp:1408
+#: part/dotgraphview.cpp:1416
 msgid "Zoom Out"
 msgstr ""
 
-#: part/dotgraphview.cpp:1412
+#: part/dotgraphview.cpp:1420
 msgid "Export Graph"
 msgstr ""
 
-#: part/dotgraphview.cpp:1414
+#: part/dotgraphview.cpp:1422
 msgid "Allows the graph to be exported in another format."
 msgstr ""
 
-#: part/dotgraphview.cpp:1416
+#: part/dotgraphview.cpp:1424
 msgid ""
 "Use the Export Graph menu to export the graph in another format. There is "
 "currently only one export format supported: as a PNG image."
 msgstr ""
 
-#: part/dotgraphview.cpp:1421
+#: part/dotgraphview.cpp:1429
 msgid "As Image..."
 msgstr ""
 
-#: part/dotgraphview.cpp:1422
+#: part/dotgraphview.cpp:1430
 msgid "Export the graph to an image file (currently PNG only.)"
 msgstr ""
 
-#: part/dotgraphview.cpp:1433
+#: part/dotgraphview.cpp:1441
 msgid "Enable Bird's-eye View"
 msgstr ""
 
-#: part/dotgraphview.cpp:1436
+#: part/dotgraphview.cpp:1444
 msgid "Enables or disables the Bird's-eye View"
 msgstr ""
 
-#: part/dotgraphview.cpp:1444
+#: part/dotgraphview.cpp:1452
 msgid "Birds-eye View"
 msgstr ""
 
-#: part/dotgraphview.cpp:1445
+#: part/dotgraphview.cpp:1453
 msgid "Allows the Bird's-eye View to be setup."
 msgstr ""
 
-#: part/dotgraphview.cpp:1449
+#: part/dotgraphview.cpp:1457
 msgid "Top Left"
 msgstr ""
 
-#: part/dotgraphview.cpp:1450
+#: part/dotgraphview.cpp:1458
 msgid "Puts the Bird's-eye View in the top-left corner."
 msgstr ""
 
-#: part/dotgraphview.cpp:1455
+#: part/dotgraphview.cpp:1463
 msgid "Top Right"
 msgstr ""
 
-#: part/dotgraphview.cpp:1456
+#: part/dotgraphview.cpp:1464
 msgid "Puts the Bird's-eye View in the top-right corner."
 msgstr ""
 
-#: part/dotgraphview.cpp:1461
+#: part/dotgraphview.cpp:1469
 msgid "Bottom Left"
 msgstr ""
 
-#: part/dotgraphview.cpp:1462
+#: part/dotgraphview.cpp:1470
 msgid "Puts the Bird's-eye View in the bottom-left corner."
 msgstr ""
 
-#: part/dotgraphview.cpp:1467
+#: part/dotgraphview.cpp:1475
 msgid "Bottom Right"
 msgstr ""
 
-#: part/dotgraphview.cpp:1468
+#: part/dotgraphview.cpp:1476
 msgid "Puts the Bird's-eye View in the bottom-right corner."
 msgstr ""
 
-#: part/dotgraphview.cpp:1473
+#: part/dotgraphview.cpp:1481
 msgid "Automatic"
 msgstr ""
 
-#: part/dotgraphview.cpp:1474
+#: part/dotgraphview.cpp:1482
 msgid ""
 "Let KGraphViewer automatically choose the position of the Bird's-eye View."
 msgstr ""
 
-#: part/dotgraphview.cpp:1537
+#: part/dotgraphview.cpp:1545
 msgid "Layout Command"
 msgstr ""
 
-#: part/dotgraphview.cpp:1538
+#: part/dotgraphview.cpp:1546
 msgid "Type in a layout command for the current graph:"
 msgstr ""
 
-#: part/dotgraphview.cpp:1544
+#: part/dotgraphview.cpp:1552
 msgid ""
 "Specify here the command that will be used to layout the graph.\n"
 "The command MUST write its results on stdout in xdot format."
@@ -897,19 +907,19 @@ msgstr ""
 msgid "Zoom out by 10% from the currently viewed graph"
 msgstr ""
 
-#: part/kgraphviewer_part.cpp:440
+#: part/kgraphviewer_part.cpp:445
 #, fuzzy
 #| msgid "KGraphViewer"
 msgid "KGraphViewerPart"
 msgstr "KGraphViewer"
 
-#: part/kgraphviewer_part.cpp:441
+#: part/kgraphviewer_part.cpp:446
 #, fuzzy
 #| msgid "A Graphviz dot graph viewer for KDE"
 msgid "GraphViz dot files viewer"
 msgstr "Nîşanderê Graphviz xêza bi xal ji bo KDE"
 
-#: part/kgraphviewer_part.cpp:443
+#: part/kgraphviewer_part.cpp:448
 #, fuzzy
 #| msgid "(C) 2005-2006 Gael de Chalendar"
 msgid "(c) 2005-2006, Gaël de Chalendar &lt;kleag@free.fr&gt;"
