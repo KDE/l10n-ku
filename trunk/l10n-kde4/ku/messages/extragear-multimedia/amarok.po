@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-10-13 06:20+0200\n"
+"POT-Creation-Date: 2010-10-15 06:24+0200\n"
 "PO-Revision-Date: 2009-02-21 06:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -3662,11 +3662,11 @@ msgstr "Muzîkê dinihêre"
 
 #. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:90
 #. i18n: ectx: property (text), item, widget (QComboBox, typeComboBox)
-#: core-impl/collections/sqlcollection/SqlMeta.cpp:233 rc.cpp:1642
+#: core-impl/collections/sqlcollection/SqlMeta.cpp:231 rc.cpp:1642
 msgid "Stream"
 msgstr "Darijîne "
 
-#: core-impl/collections/sqlcollection/SqlMeta.cpp:246
+#: core-impl/collections/sqlcollection/SqlMeta.cpp:244
 #: covermanager/CoverManager.cpp:845 covermanager/CoverViewDialog.h:38
 #: services/lastfm/meta/LastFmMeta.cpp:138
 #, kde-format
@@ -7533,26 +7533,6 @@ msgid ""
 "removing some constraints and then generating a new playlist."
 msgstr ""
 
-#: playlistgenerator/PresetEditDialog.cpp:63
-#, fuzzy
-#| msgid "Add new preset"
-msgid "Add new"
-msgstr "Pêş-avakirina nû lê zêde bike"
-
-#: playlistgenerator/PresetEditDialog.cpp:64
-#: playlistgenerator/PresetEditDialog.cpp:66
-#: playlistgenerator/PresetEditDialog.cpp:94
-#, fuzzy
-#| msgid "%1 Settings"
-msgid "Constraint Group"
-msgstr "Mîhengên %1"
-
-#: playlistgenerator/PresetEditDialog.cpp:74
-#, fuzzy
-#| msgid "Remove Applet"
-msgid "Remove selected"
-msgstr "Sepanok Rake"
-
 #: playlistgenerator/PresetModel.cpp:157 playlistgenerator/PresetModel.cpp:283
 msgid "Preset files (*.xml)"
 msgstr ""
@@ -7995,6 +7975,26 @@ msgstr "Yê dawî hatiye lêdan"
 msgid "play count"
 msgstr "hejmara lêdanê"
 
+#: playlistgenerator/PresetEditDialog.cpp:61
+#, fuzzy
+#| msgid "Add new preset"
+msgid "Add new"
+msgstr "Pêş-avakirina nû lê zêde bike"
+
+#: playlistgenerator/PresetEditDialog.cpp:62
+#: playlistgenerator/PresetEditDialog.cpp:64
+#: playlistgenerator/PresetEditDialog.cpp:92
+#, fuzzy
+#| msgid "%1 Settings"
+msgid "Constraint Group"
+msgstr "Mîhengên %1"
+
+#: playlistgenerator/PresetEditDialog.cpp:72
+#, fuzzy
+#| msgid "Remove Applet"
+msgid "Remove selected"
+msgstr "Sepanok Rake"
+
 #: playlistmanager/PlaylistManager.cpp:269
 msgid "Downloading Playlist"
 msgstr "Lîsteya Lêdanê Daxistin"
@@ -8283,91 +8283,6 @@ msgid_plural "%1 artists."
 msgstr[0] "hunermend"
 msgstr[1] "hunermend"
 
-#: services/lastfm/LastFmService.cpp:200
-msgid "Last.fm: The social music revolution"
-msgstr ""
-
-#: services/lastfm/LastFmService.cpp:202
-msgid ""
-"Last.fm is a popular online service that provides personal radio stations "
-"and music recommendations. A personal listening station is tailored based on "
-"your listening habits and provides you with recommendations for new music. "
-"It is also possible to play stations with music that is similar to a "
-"particular artist as well as listen to streams from people you have added as "
-"friends or that last.fm considers your musical \"neighbors\""
-msgstr ""
-
-#: services/lastfm/LastFmService.cpp:304
-#: services/lastfm/LoveTrackAction.cpp:25
-msgid "Last.fm: Love"
-msgstr "Last.fm: Love"
-
-#: services/lastfm/LastFmService.cpp:306
-msgid "Ctrl+L"
-msgstr "Ctrl+L"
-
-#: services/lastfm/LastFmService.cpp:359
-msgctxt "Last.fm: errorMessage"
-msgid "Either the username was not recognized, or the password was incorrect."
-msgstr ""
-
-#: services/lastfm/LastFmService.cpp:363
-msgctxt "Last.fm: errorMessage"
-msgid ""
-"There was a problem communicating with the Last.fm services. Please try "
-"again later."
-msgstr ""
-
-#: services/lastfm/LastFmService.cpp:451
-msgid "Enter an artist name"
-msgstr "Navê hunermendê binivîse"
-
-#: services/lastfm/LastFmService.cpp:454
-msgid "Enter a tag"
-msgstr "Navê etîketê binivîse"
-
-#: services/lastfm/LastFmService.cpp:457
-msgid "Enter a last.fm user name"
-msgstr "Navê bikarhênerê last.fm binivîse"
-
-#: services/lastfm/LastFmService.cpp:470
-#, fuzzy
-#| msgctxt "Username for logins to Magnatune"
-#| msgid "Username:"
-msgid "Username: "
-msgstr "Navê Bikarhêner:"
-
-#: services/lastfm/LastFmService.cpp:475
-#, fuzzy, kde-format
-#| msgid "Play Count:"
-msgid "Play Count: %1 play"
-msgid_plural "Play Count: %1 plays"
-msgstr[0] "Hejmara Lêdanan  :"
-msgstr[1] "Hejmara Lêdanan  :"
-
-#: services/lastfm/LastFmService.cpp:485
-msgid "Enter login information for Last.fm"
-msgstr "Agahiyên têketina Last.fm binivîsin"
-
-#: services/lastfm/LastFmService.cpp:541
-msgid "Create a Custom Last.fm Station"
-msgstr ""
-
-#: services/lastfm/LastFmService.cpp:544
-msgid "Tag"
-msgstr "Etîket"
-
-#: services/lastfm/LastFmService.cpp:544
-msgid "User"
-msgstr "Bikarhêner"
-
-#: services/lastfm/LastFmService.cpp:580
-#: services/lastfm/ScrobblerAdapter.cpp:219
-#, kde-format
-msgctxt "As in, lastfm"
-msgid "Loved Track: %1"
-msgstr "Strana Tê Hez Kirin: %1"
-
 #: services/lastfm/LastFmServiceCollection.cpp:42
 #, kde-format
 msgid "%1's Streams"
@@ -8408,42 +8323,6 @@ msgid ""
 "No running KWallet found. Would you like Amarok to save your Last.fm "
 "credentials in plaintext?"
 msgstr ""
-
-#: services/lastfm/LastFmServiceSettings.cpp:96
-msgid "Testing..."
-msgstr "Tê ceribandin..."
-
-#: services/lastfm/LastFmServiceSettings.cpp:142
-#, fuzzy
-#| msgid "Failed"
-msgctxt "The operation was rejected by the server"
-msgid "Failed"
-msgstr "Têk Çû"
-
-#: services/lastfm/LastFmServiceSettings.cpp:147
-msgctxt "The operation completed as expected"
-msgid "Success"
-msgstr "Serketî "
-
-#: services/lastfm/LastFmServiceSettings.cpp:155
-msgid ""
-"Either the username or the password is incorrect, please correct and try "
-"again"
-msgstr ""
-
-#: services/lastfm/LastFmServiceSettings.cpp:155
-msgid "Failed"
-msgstr "Têk Çû"
-
-#: services/lastfm/LastFmServiceSettings.cpp:156
-msgid "Test Login"
-msgstr "Têketina Ceribandinê"
-
-#. i18n: file: services/lastfm/LastFmConfigWidget.ui:96
-#. i18n: ectx: property (text), widget (QPushButton, testLogin)
-#: services/lastfm/LastFmServiceSettings.cpp:197 rc.cpp:1609
-msgid "&Test Login"
-msgstr "Têketina &Ceribandinê"
 
 #: services/lastfm/LastFmTreeModel.cpp:182
 msgid "Personal Radio"
@@ -8488,6 +8367,18 @@ msgstr "Hevalên Min"
 #: services/lastfm/LastFmTreeModel.cpp:387
 msgid "Neighbors"
 msgstr "Cîran"
+
+#: services/lastfm/LoveTrackAction.cpp:25
+#: services/lastfm/LastFmService.cpp:304
+msgid "Last.fm: Love"
+msgstr "Last.fm: Love"
+
+#: services/lastfm/ScrobblerAdapter.cpp:219
+#: services/lastfm/LastFmService.cpp:580
+#, kde-format
+msgctxt "As in, lastfm"
+msgid "Loved Track: %1"
+msgstr "Strana Tê Hez Kirin: %1"
 
 #: services/lastfm/SimilarArtistsAction.cpp:26
 msgid "Play Similar Artists from Last.fm"
@@ -8623,6 +8514,115 @@ msgstr ""
 #: services/lastfm/meta/MultiPlayableCapabilityImpl_p.h:109
 msgid "Error starting track from Last.Fm radio"
 msgstr ""
+
+#: services/lastfm/LastFmService.cpp:200
+msgid "Last.fm: The social music revolution"
+msgstr ""
+
+#: services/lastfm/LastFmService.cpp:202
+msgid ""
+"Last.fm is a popular online service that provides personal radio stations "
+"and music recommendations. A personal listening station is tailored based on "
+"your listening habits and provides you with recommendations for new music. "
+"It is also possible to play stations with music that is similar to a "
+"particular artist as well as listen to streams from people you have added as "
+"friends or that last.fm considers your musical \"neighbors\""
+msgstr ""
+
+#: services/lastfm/LastFmService.cpp:306
+msgid "Ctrl+L"
+msgstr "Ctrl+L"
+
+#: services/lastfm/LastFmService.cpp:359
+msgctxt "Last.fm: errorMessage"
+msgid "Either the username was not recognized, or the password was incorrect."
+msgstr ""
+
+#: services/lastfm/LastFmService.cpp:363
+msgctxt "Last.fm: errorMessage"
+msgid ""
+"There was a problem communicating with the Last.fm services. Please try "
+"again later."
+msgstr ""
+
+#: services/lastfm/LastFmService.cpp:451
+msgid "Enter an artist name"
+msgstr "Navê hunermendê binivîse"
+
+#: services/lastfm/LastFmService.cpp:454
+msgid "Enter a tag"
+msgstr "Navê etîketê binivîse"
+
+#: services/lastfm/LastFmService.cpp:457
+msgid "Enter a last.fm user name"
+msgstr "Navê bikarhênerê last.fm binivîse"
+
+#: services/lastfm/LastFmService.cpp:470
+#, fuzzy
+#| msgctxt "Username for logins to Magnatune"
+#| msgid "Username:"
+msgid "Username: "
+msgstr "Navê Bikarhêner:"
+
+#: services/lastfm/LastFmService.cpp:475
+#, fuzzy, kde-format
+#| msgid "Play Count:"
+msgid "Play Count: %1 play"
+msgid_plural "Play Count: %1 plays"
+msgstr[0] "Hejmara Lêdanan  :"
+msgstr[1] "Hejmara Lêdanan  :"
+
+#: services/lastfm/LastFmService.cpp:485
+msgid "Enter login information for Last.fm"
+msgstr "Agahiyên têketina Last.fm binivîsin"
+
+#: services/lastfm/LastFmService.cpp:541
+msgid "Create a Custom Last.fm Station"
+msgstr ""
+
+#: services/lastfm/LastFmService.cpp:544
+msgid "Tag"
+msgstr "Etîket"
+
+#: services/lastfm/LastFmService.cpp:544
+msgid "User"
+msgstr "Bikarhêner"
+
+#: services/lastfm/LastFmServiceSettings.cpp:98
+msgid "Testing..."
+msgstr "Tê ceribandin..."
+
+#: services/lastfm/LastFmServiceSettings.cpp:140
+#, fuzzy
+#| msgid "Failed"
+msgctxt "The operation was rejected by the server"
+msgid "Failed"
+msgstr "Têk Çû"
+
+#: services/lastfm/LastFmServiceSettings.cpp:145
+msgctxt "The operation completed as expected"
+msgid "Success"
+msgstr "Serketî "
+
+#: services/lastfm/LastFmServiceSettings.cpp:153
+msgid ""
+"Either the username or the password is incorrect, please correct and try "
+"again"
+msgstr ""
+
+#: services/lastfm/LastFmServiceSettings.cpp:153
+msgid "Failed"
+msgstr "Têk Çû"
+
+#: services/lastfm/LastFmServiceSettings.cpp:154
+msgid "Test Login"
+msgstr "Têketina Ceribandinê"
+
+#. i18n: file: services/lastfm/LastFmConfigWidget.ui:96
+#. i18n: ectx: property (text), widget (QPushButton, testLogin)
+#: services/lastfm/LastFmServiceSettings.cpp:195 rc.cpp:1609
+msgid "&Test Login"
+msgstr "Têketina &Ceribandinê"
 
 #: services/magnatune/MagnatuneAlbumDownloader.cpp:68
 #, fuzzy, kde-format
