@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-10-18 06:18+0200\n"
+"POT-Creation-Date: 2010-10-19 07:07+0200\n"
 "PO-Revision-Date: 2009-02-21 06:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -113,72 +113,6 @@ msgstr "Ji ve perçeyê hez bike"
 #| msgid "No track playing"
 msgid "Now playing"
 msgstr "Tu Stran Nayê Lêdan"
-
-#: TrayIconLegacy.cpp:144 widgets/VolumeDial.cpp:301
-#: widgets/VolumeDial.cpp:340 TrayIcon.cpp:107
-#, fuzzy
-#| msgctxt "State, as in, The playback is silent"
-#| msgid "Mute"
-msgid "Muted"
-msgstr "Bêdeng"
-
-#: TrayIconLegacy.cpp:148 widgets/SliderWidget.cpp:243 TrayIcon.cpp:113
-msgid "Volume"
-msgstr "Deng"
-
-#: TrayIconLegacy.cpp:154 context/applets/currenttrack/CurrentTrack.cpp:124
-#: context/applets/currenttrack/CurrentTrack.cpp:557
-#: playlist/PlaylistModel.cpp:666 widgets/SmartPlaylistEditor.cpp:185
-#: widgets/MetaQueryWidget.cpp:231 TrayIcon.cpp:118
-msgid "Score"
-msgstr "Skor"
-
-#: TrayIconLegacy.cpp:172 playlist/ProgressiveSearchWidget.cpp:112
-#: playlist/PlaylistModel.cpp:667 widgets/SmartPlaylistEditor.cpp:185
-#: widgets/MetaQueryWidget.cpp:232 TrayIcon.cpp:136
-msgid "Rating"
-msgstr "Nirxandin"
-
-#: TrayIconLegacy.cpp:179 playlist/PlaylistModel.cpp:668
-#: widgets/MetaQueryWidget.cpp:235 TrayIcon.cpp:142
-msgid "Play Count"
-msgstr "Hejmara Lêdanan"
-
-#: TrayIconLegacy.cpp:184 context/applets/currenttrack/CurrentTrack.cpp:125
-#: context/applets/currenttrack/CurrentTrack.cpp:558
-#: widgets/MetaQueryWidget.cpp:234
-msgid "Last Played"
-msgstr "Lêdanên Dawî yê"
-
-#: TrayIconLegacy.cpp:218 browsers/CollectionTreeView.cpp:813
-#: browsers/filebrowser/FileView.cpp:350
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:43
-#: context/applets/albums/AlbumsView.cpp:117
-#: services/lastfm/LastFmTreeView.cpp:112
-#, fuzzy
-#| msgid "Add to playlist"
-msgid "&Add to Playlist"
-msgstr "lîsteya lêdanê"
-
-#: TrayIconLegacy.cpp:219
-#, fuzzy
-#| msgid "Append && &Play"
-msgid "Add && &Play"
-msgstr "Lê zêde bike && &Lê bide"
-
-#: TrayIconLegacy.cpp:221
-msgid "&Queue Track"
-msgstr "&Rêza Stranan"
-
-#. i18n: file: dialogs/MusicBrainzTagger.ui:181
-#. i18n: ectx: property (text), widget (QPushButton, pushButton_cancel)
-#. i18n: file: dialogs/TagDialogBase.ui:983
-#. i18n: ectx: property (text), widget (QPushButton, pushButton_cancel)
-#. i18n: file: services/magnatune/MagnatuneRedownloadDialogBase.ui:36
-#. i18n: ectx: property (text), widget (QPushButton, cancelButton)
-#: TrayIconLegacy.cpp:224 rc.cpp:819 rc.cpp:1066 rc.cpp:1706
-msgid "&Cancel"
-msgstr "&Betal"
 
 #: aboutdialog/ExtendedAboutDialog.cpp:73
 msgid ""
@@ -873,6 +807,15 @@ msgstr "Bibe Berhevokê"
 #: browsers/CollectionTreeView.cpp:519 services/lastfm/LastFmTreeView.cpp:202
 msgid "More..."
 msgstr "Zêdetir..."
+
+#: browsers/CollectionTreeView.cpp:813 browsers/filebrowser/FileView.cpp:350
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:43
+#: context/applets/albums/AlbumsView.cpp:117
+#: services/lastfm/LastFmTreeView.cpp:112
+#, fuzzy
+#| msgid "Add to playlist"
+msgid "&Add to Playlist"
+msgstr "lîsteya lêdanê"
 
 #: browsers/CollectionTreeView.cpp:822 browsers/filebrowser/FileView.cpp:359
 #: browsers/playlistbrowser/PlaylistBrowserModel.cpp:50
@@ -1679,6 +1622,19 @@ msgstr "Tu Stran Nayê Lêdan"
 #: context/applets/currenttrack/CurrentTrack.cpp:556
 msgid "Play count"
 msgstr "Hejmara lêdanan"
+
+#: context/applets/currenttrack/CurrentTrack.cpp:124
+#: context/applets/currenttrack/CurrentTrack.cpp:557
+#: playlist/PlaylistModel.cpp:666 widgets/SmartPlaylistEditor.cpp:185
+#: widgets/MetaQueryWidget.cpp:231 TrayIcon.cpp:118
+msgid "Score"
+msgstr "Skor"
+
+#: context/applets/currenttrack/CurrentTrack.cpp:125
+#: context/applets/currenttrack/CurrentTrack.cpp:558
+#: widgets/MetaQueryWidget.cpp:234
+msgid "Last Played"
+msgstr "Lêdanên Dawî yê"
 
 #. i18n: file: context/applets/currenttrack/currentTrackSettings.ui:26
 #. i18n: ectx: property (windowTitle), widget (QWidget, currentTrackSettings)
@@ -6177,6 +6133,12 @@ msgstr "Hunermend"
 msgid "Composers"
 msgstr "Awazsaz "
 
+#: playlist/ProgressiveSearchWidget.cpp:112 playlist/PlaylistModel.cpp:667
+#: widgets/SmartPlaylistEditor.cpp:185 widgets/MetaQueryWidget.cpp:232
+#: TrayIcon.cpp:136
+msgid "Rating"
+msgstr "Nirxandin"
+
 #: playlist/ProgressiveSearchWidget.cpp:119
 #: widgets/SmartPlaylistEditor.cpp:976
 msgid "Years"
@@ -6908,6 +6870,11 @@ msgstr "Leza bit"
 #: playlist/PlaylistModel.cpp:665 widgets/MetaQueryWidget.cpp:226
 msgid "Sample Rate"
 msgstr "Rêjeya Mînakkirinê"
+
+#: playlist/PlaylistModel.cpp:668 widgets/MetaQueryWidget.cpp:235
+#: TrayIcon.cpp:142
+msgid "Play Count"
+msgstr "Hejmara Lêdanan"
 
 #: playlist/PlaylistModel.cpp:669
 msgctxt "Column name"
@@ -8689,6 +8656,10 @@ msgstr "Gotinekê lêgerînê têkevê."
 msgid "Edit filter"
 msgstr "Parzûnê serast bike"
 
+#: widgets/SliderWidget.cpp:243 TrayIcon.cpp:113
+msgid "Volume"
+msgstr "Deng"
+
 #: widgets/SliderWidget.cpp:244
 msgid "100%"
 msgstr "%100"
@@ -8947,6 +8918,13 @@ msgstr "Hunermend \"%1\""
 msgid "empty"
 msgstr ""
 
+#: widgets/VolumeDial.cpp:301 widgets/VolumeDial.cpp:340 TrayIcon.cpp:107
+#, fuzzy
+#| msgctxt "State, as in, The playback is silent"
+#| msgid "Mute"
+msgid "Muted"
+msgstr "Bêdeng"
+
 #: widgets/VolumeDial.cpp:301 widgets/VolumeDial.cpp:340
 #: widgets/VolumeWidget.cpp:53 widgets/VolumeWidget.cpp:79
 #: widgets/VolumeWidget.cpp:91
@@ -9108,174 +9086,6 @@ msgstr "Bêdeng"
 #| msgid "Volume: 100%"
 msgid "Volume: <i>Muted</i>"
 msgstr "Deng: 100%"
-
-#. i18n: file: core-impl/collections/audiocd/FormatSelectionDialog.ui:14
-#. i18n: ectx: property (windowTitle), widget (QDialog, FormatSelectionDialog)
-#: App.cpp:114 rc.cpp:415
-msgid "Amarok"
-msgstr "Amarok"
-
-#: App.cpp:115
-msgid "The audio player for KDE"
-msgstr "Lêdarê muzîkê ji bo KDE"
-
-#: App.cpp:116
-#, fuzzy
-#| msgid ""
-#| "(C) 2002-2003, Mark Kretschmann\n"
-#| "(C) 2003-2009, The Amarok Development Squad"
-msgid ""
-"(C) 2002-2003, Mark Kretschmann\n"
-"(C) 2003-2010, The Amarok Development Squad"
-msgstr ""
-"(C) 2002-2003, Mark Kretschmann\n"
-"(C) 2003-2008, The Amarok Development Squad"
-
-#: App.cpp:117
-#, fuzzy, kde-format
-#| msgid ""
-#| "IRC:\n"
-#| "irc.freenode.net - #amarok, #amarok.de, #amarok.es, #amarok.fr\n"
-#| "\n"
-#| "Feedback:\n"
-#| "amarok@kde.org\n"
-#| "\n"
-#| "(Build Date: "
-msgid ""
-"IRC:\n"
-"irc.freenode.net - #amarok, #amarok.de, #amarok.es, #amarok.fr\n"
-"\n"
-"Feedback:\n"
-"amarok@kde.org\n"
-"\n"
-"(Build Date: %1)"
-msgstr ""
-"IRC:\n"
-"irc.freenode.net - #amarok, #amarok.de, #amarok.es, #amarok.fr\n"
-"\n"
-"Têkilî:\n"
-"amarok@kde.org\n"
-"\n"
-"(Dîroka Afirandinê: "
-
-#: App.cpp:455
-msgid "Files/URLs to open"
-msgstr "Pelên/URLyên ku vebin"
-
-#: App.cpp:456
-msgid "Immediately start playing an audio cd"
-msgstr ""
-
-#: App.cpp:458
-msgid "Skip backwards in playlist"
-msgstr "Di lîsteya lêdanê de paş ve derbas be"
-
-#: App.cpp:460
-msgid "Start playing current playlist"
-msgstr "Destpê lêdana lîsteya lêdanê ya heyî bike"
-
-#: App.cpp:462
-msgid "Play if stopped, pause if playing"
-msgstr "Heke girtî be lê bide, heke lê dide bide sekinandin"
-
-#: App.cpp:463
-msgid "Pause playback"
-msgstr "Lêdanê bide sekinandin"
-
-#: App.cpp:465
-msgid "Stop playback"
-msgstr "Lêdanê rawestîne"
-
-#: App.cpp:467
-msgid "Skip forwards in playlist"
-msgstr "Di lîsteya lêdanê de pêş ve derbas be"
-
-#: App.cpp:468
-msgid "Additional options:"
-msgstr "Vebijêrkên zêdetir:"
-
-#: App.cpp:470
-msgid "Append files/URLs to playlist"
-msgstr "Pelan/URLyan lê lîsteya lêdanê zêde bike"
-
-#: App.cpp:471
-msgid "Queue URLs after the currently playing track"
-msgstr "URLyan paş strana lêdide rêz bike"
-
-#: App.cpp:473
-msgid "Load URLs, replacing current playlist"
-msgstr "URLyan bar dike, bi lîsteya lêdanê ya heyî ve diguherîne"
-
-#: App.cpp:475
-msgid "Print verbose debugging information"
-msgstr "Agahiyên serast kirina çewtiyan bi kitekit çap bike"
-
-#: App.cpp:477
-msgid "Allow running multiple Amarok instances"
-msgstr "Destûr bide ku yekî zêdetir sepanên Amarok bixebitin"
-
-#: App.cpp:478
-msgid "Base for relative filenames/URLs"
-msgstr "Bingeh ji bo navên-pelan/URLyan yên nêzî hev"
-
-#: App.cpp:480
-#, fuzzy
-#| msgid "Stream options"
-msgid "Unit test options:"
-msgstr "Vebijêrkên Darêjê"
-
-#: App.cpp:481
-msgid "Run integrated unit tests"
-msgstr ""
-
-#: App.cpp:482
-msgid "Destination of test output: 'stdout', 'log'"
-msgstr ""
-
-#: App.cpp:483
-msgid "Format of test output: 'xml', 'lightxml', 'plaintext'"
-msgstr ""
-
-#: App.cpp:484
-msgid "Verbosity from 0-3 (highest)"
-msgstr ""
-
-#: App.cpp:735
-msgid ""
-"The embedded database was not found; you must set up a database server "
-"connection.\n"
-"You must restart Amarok after doing this."
-msgstr ""
-
-#: App.cpp:736
-msgid ""
-"The connection details for the database server were invalid.\n"
-"You must enter correct settings and restart Amarok after doing this."
-msgstr ""
-
-#: App.cpp:737
-#, fuzzy
-#| msgid "Database Name"
-msgid "Database Error"
-msgstr "Navê Bingeha Dana"
-
-#: App.cpp:754
-#, kde-format
-msgid ""
-"A music path, %1, is set in System Settings.\n"
-"Would you like to use that as a collection folder?"
-msgstr ""
-
-#: App.cpp:809
-msgid ""
-"<p>The version of the 'amarokcollectionscanner' tool\n"
-"does not match your Amarok version.</p><p>Please note that Collection "
-"Scanning may not work correctly.</p>"
-msgstr ""
-
-#: App.cpp:850
-msgid "Moving files to trash"
-msgstr "Pelan bavêje sergo"
 
 #: EngineController.cpp:257
 msgid ""
@@ -9619,6 +9429,174 @@ msgstr "Hate Sekinandin  ::  %1"
 #, kde-format
 msgid "%1 - %2  ::  %3"
 msgstr "%1 - %2  ::  %3"
+
+#. i18n: file: core-impl/collections/audiocd/FormatSelectionDialog.ui:14
+#. i18n: ectx: property (windowTitle), widget (QDialog, FormatSelectionDialog)
+#: App.cpp:111 rc.cpp:415
+msgid "Amarok"
+msgstr "Amarok"
+
+#: App.cpp:112
+msgid "The audio player for KDE"
+msgstr "Lêdarê muzîkê ji bo KDE"
+
+#: App.cpp:113
+#, fuzzy
+#| msgid ""
+#| "(C) 2002-2003, Mark Kretschmann\n"
+#| "(C) 2003-2009, The Amarok Development Squad"
+msgid ""
+"(C) 2002-2003, Mark Kretschmann\n"
+"(C) 2003-2010, The Amarok Development Squad"
+msgstr ""
+"(C) 2002-2003, Mark Kretschmann\n"
+"(C) 2003-2008, The Amarok Development Squad"
+
+#: App.cpp:114
+#, fuzzy, kde-format
+#| msgid ""
+#| "IRC:\n"
+#| "irc.freenode.net - #amarok, #amarok.de, #amarok.es, #amarok.fr\n"
+#| "\n"
+#| "Feedback:\n"
+#| "amarok@kde.org\n"
+#| "\n"
+#| "(Build Date: "
+msgid ""
+"IRC:\n"
+"irc.freenode.net - #amarok, #amarok.de, #amarok.es, #amarok.fr\n"
+"\n"
+"Feedback:\n"
+"amarok@kde.org\n"
+"\n"
+"(Build Date: %1)"
+msgstr ""
+"IRC:\n"
+"irc.freenode.net - #amarok, #amarok.de, #amarok.es, #amarok.fr\n"
+"\n"
+"Têkilî:\n"
+"amarok@kde.org\n"
+"\n"
+"(Dîroka Afirandinê: "
+
+#: App.cpp:452
+msgid "Files/URLs to open"
+msgstr "Pelên/URLyên ku vebin"
+
+#: App.cpp:453
+msgid "Immediately start playing an audio cd"
+msgstr ""
+
+#: App.cpp:455
+msgid "Skip backwards in playlist"
+msgstr "Di lîsteya lêdanê de paş ve derbas be"
+
+#: App.cpp:457
+msgid "Start playing current playlist"
+msgstr "Destpê lêdana lîsteya lêdanê ya heyî bike"
+
+#: App.cpp:459
+msgid "Play if stopped, pause if playing"
+msgstr "Heke girtî be lê bide, heke lê dide bide sekinandin"
+
+#: App.cpp:460
+msgid "Pause playback"
+msgstr "Lêdanê bide sekinandin"
+
+#: App.cpp:462
+msgid "Stop playback"
+msgstr "Lêdanê rawestîne"
+
+#: App.cpp:464
+msgid "Skip forwards in playlist"
+msgstr "Di lîsteya lêdanê de pêş ve derbas be"
+
+#: App.cpp:465
+msgid "Additional options:"
+msgstr "Vebijêrkên zêdetir:"
+
+#: App.cpp:467
+msgid "Append files/URLs to playlist"
+msgstr "Pelan/URLyan lê lîsteya lêdanê zêde bike"
+
+#: App.cpp:468
+msgid "Queue URLs after the currently playing track"
+msgstr "URLyan paş strana lêdide rêz bike"
+
+#: App.cpp:470
+msgid "Load URLs, replacing current playlist"
+msgstr "URLyan bar dike, bi lîsteya lêdanê ya heyî ve diguherîne"
+
+#: App.cpp:472
+msgid "Print verbose debugging information"
+msgstr "Agahiyên serast kirina çewtiyan bi kitekit çap bike"
+
+#: App.cpp:474
+msgid "Allow running multiple Amarok instances"
+msgstr "Destûr bide ku yekî zêdetir sepanên Amarok bixebitin"
+
+#: App.cpp:475
+msgid "Base for relative filenames/URLs"
+msgstr "Bingeh ji bo navên-pelan/URLyan yên nêzî hev"
+
+#: App.cpp:477
+#, fuzzy
+#| msgid "Stream options"
+msgid "Unit test options:"
+msgstr "Vebijêrkên Darêjê"
+
+#: App.cpp:478
+msgid "Run integrated unit tests"
+msgstr ""
+
+#: App.cpp:479
+msgid "Destination of test output: 'stdout', 'log'"
+msgstr ""
+
+#: App.cpp:480
+msgid "Format of test output: 'xml', 'lightxml', 'plaintext'"
+msgstr ""
+
+#: App.cpp:481
+msgid "Verbosity from 0-3 (highest)"
+msgstr ""
+
+#: App.cpp:732
+msgid ""
+"The embedded database was not found; you must set up a database server "
+"connection.\n"
+"You must restart Amarok after doing this."
+msgstr ""
+
+#: App.cpp:733
+msgid ""
+"The connection details for the database server were invalid.\n"
+"You must enter correct settings and restart Amarok after doing this."
+msgstr ""
+
+#: App.cpp:734
+#, fuzzy
+#| msgid "Database Name"
+msgid "Database Error"
+msgstr "Navê Bingeha Dana"
+
+#: App.cpp:751
+#, kde-format
+msgid ""
+"A music path, %1, is set in System Settings.\n"
+"Would you like to use that as a collection folder?"
+msgstr ""
+
+#: App.cpp:806
+msgid ""
+"<p>The version of the 'amarokcollectionscanner' tool\n"
+"does not match your Amarok version.</p><p>Please note that Collection "
+"Scanning may not work correctly.</p>"
+msgstr ""
+
+#: App.cpp:847
+msgid "Moving files to trash"
+msgstr "Pelan bavêje sergo"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -11094,6 +11072,16 @@ msgstr "Hemû yan &Rojane Bike"
 #: rc.cpp:816
 msgid "Exit without saving"
 msgstr ""
+
+#. i18n: file: dialogs/MusicBrainzTagger.ui:181
+#. i18n: ectx: property (text), widget (QPushButton, pushButton_cancel)
+#. i18n: file: dialogs/TagDialogBase.ui:983
+#. i18n: ectx: property (text), widget (QPushButton, pushButton_cancel)
+#. i18n: file: services/magnatune/MagnatuneRedownloadDialogBase.ui:36
+#. i18n: ectx: property (text), widget (QPushButton, cancelButton)
+#: rc.cpp:819 rc.cpp:1066 rc.cpp:1706
+msgid "&Cancel"
+msgstr "&Betal"
 
 #. i18n: file: dialogs/OrganizeCollectionDialogBase.ui:38
 #. i18n: ectx: property (toolTip), widget (QLabel, folderLabel)
@@ -14133,6 +14121,14 @@ msgstr "Dabeşkirin"
 #: rc.cpp:2350
 msgid "Verbose"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Append && &Play"
+#~ msgid "Add && &Play"
+#~ msgstr "Lê zêde bike && &Lê bide"
+
+#~ msgid "&Queue Track"
+#~ msgstr "&Rêza Stranan"
 
 #, fuzzy
 #~| msgid "added"
