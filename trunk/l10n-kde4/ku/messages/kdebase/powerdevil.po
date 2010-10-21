@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: powerdevil\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-10-16 06:04+0200\n"
+"POT-Creation-Date: 2010-10-21 06:14+0200\n"
 "PO-Revision-Date: 2008-12-31 04:01+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -43,17 +43,17 @@ msgstr "Dario Freddi"
 msgid "Maintainer"
 msgstr "Kesê miqet"
 
-#: daemon/PowerDevilDaemon.cpp:224 daemon/powerdevilcore.cpp:144
+#: daemon/PowerDevilDaemon.cpp:224 daemon/powerdevilcore.cpp:151
 msgctxt "Global shortcut"
 msgid "Increase Screen Brightness"
 msgstr ""
 
-#: daemon/PowerDevilDaemon.cpp:229 daemon/powerdevilcore.cpp:151
+#: daemon/PowerDevilDaemon.cpp:229 daemon/powerdevilcore.cpp:158
 msgctxt "Global shortcut"
 msgid "Decrease Screen Brightness"
 msgstr ""
 
-#: daemon/PowerDevilDaemon.cpp:290 daemon/powerdevilcore.cpp:269
+#: daemon/PowerDevilDaemon.cpp:290 daemon/powerdevilcore.cpp:276
 #, fuzzy
 #| msgid ""
 #| "Could not connect to battery interface!\n"
@@ -73,13 +73,13 @@ msgid ""
 "canceled."
 msgstr "Adaptorê hêzê hate girêdan "
 
-#: daemon/PowerDevilDaemon.cpp:348 daemon/powerdevilcore.cpp:322
+#: daemon/PowerDevilDaemon.cpp:348 daemon/powerdevilcore.cpp:334
 #, fuzzy
 #| msgid "The power adaptor has been plugged in"
 msgid "The power adaptor has been plugged in."
 msgstr "Adaptorê hêzê hate girêdan "
 
-#: daemon/PowerDevilDaemon.cpp:354 daemon/powerdevilcore.cpp:324
+#: daemon/PowerDevilDaemon.cpp:354 daemon/powerdevilcore.cpp:337
 #, fuzzy
 #| msgid "The power adaptor has been unplugged"
 msgid "The power adaptor has been unplugged."
@@ -155,7 +155,7 @@ msgstr[1] ""
 "Pîla te gihîşt asta rexne, Komputer dê %1 çirkeyan de lê bendê bimîne. Pêl "
 "li vir bike ku pêvajo yê bidî rawestandin."
 
-#: daemon/PowerDevilDaemon.cpp:559
+#: daemon/PowerDevilDaemon.cpp:559 daemon/powerdevilcore.cpp:383
 #, fuzzy
 #| msgid ""
 #| "Your battery has reached critical level, save your work as soon as "
@@ -163,13 +163,13 @@ msgstr[1] ""
 msgid "Your battery level is critical: save your work as soon as possible."
 msgstr "Pîla te gihîşt asta rexne, xebatên xwe di demê zûtirîn de tomar bike! "
 
-#: daemon/PowerDevilDaemon.cpp:565 daemon/powerdevilcore.cpp:412
+#: daemon/PowerDevilDaemon.cpp:565 daemon/powerdevilcore.cpp:389
 #, fuzzy
 #| msgid "Your battery has reached warning level"
 msgid "Your battery has reached the warning level."
 msgstr "Pîla te gihîşt asta hişyarî yê"
 
-#: daemon/PowerDevilDaemon.cpp:569 daemon/powerdevilcore.cpp:417
+#: daemon/PowerDevilDaemon.cpp:569 daemon/powerdevilcore.cpp:394
 #, fuzzy
 #| msgid "Your battery has reached low level"
 msgid "Your battery has reached a low level."
@@ -245,7 +245,7 @@ msgid "Cancel"
 msgstr ""
 
 #: daemon/PowerDevilDaemon.cpp:1047 daemon/PowerDevilDaemon.cpp:1341
-#: daemon/powerdevilcore.cpp:227
+#: daemon/powerdevilcore.cpp:234
 #, fuzzy, kde-format
 #| msgid ""
 #| "The profile \"%1\" has been selected, but it does not exist!\n"
@@ -262,18 +262,15 @@ msgstr ""
 msgid "Profile changed to \"%1\""
 msgstr "Profîl ji \"%1\" re hat guherandin"
 
-#: daemon/PowerDevilDaemon.cpp:1181 kcmodule/GeneralPage.cpp:82
-#: kcmodule/CapabilitiesPage.cpp:121
+#: daemon/PowerDevilDaemon.cpp:1181 kcmodule/CapabilitiesPage.cpp:121
 msgid "Suspend to Disk"
 msgstr "Ji Dîskê Bisekine"
 
-#: daemon/PowerDevilDaemon.cpp:1185 kcmodule/GeneralPage.cpp:86
-#: kcmodule/CapabilitiesPage.cpp:125
+#: daemon/PowerDevilDaemon.cpp:1185 kcmodule/CapabilitiesPage.cpp:125
 msgid "Suspend to RAM"
 msgstr "Ji RAMê Bisekine"
 
-#: daemon/PowerDevilDaemon.cpp:1189 kcmodule/GeneralPage.cpp:90
-#: kcmodule/CapabilitiesPage.cpp:129
+#: daemon/PowerDevilDaemon.cpp:1189 kcmodule/CapabilitiesPage.cpp:129
 msgid "Standby"
 msgstr "Bendê Bimîne "
 
@@ -287,7 +284,7 @@ msgstr ""
 "%2 "
 
 #: daemon/actions/dpms/powerdevildpmsactionconfig.cpp:57
-#: daemon/actions/bundled/suspendsessionconfig.cpp:85
+#: daemon/actions/bundled/suspendsessionconfig.cpp:71
 #: daemon/actions/bundled/runscriptconfig.cpp:76
 #: daemon/actions/bundled/disabledesktopeffectsconfig.cpp:65
 #: daemon/actions/bundled/dimdisplayconfig.cpp:60
@@ -306,20 +303,38 @@ msgstr "&Bigire piştî"
 msgid "Level"
 msgstr ""
 
-#: daemon/actions/bundled/suspendsessionconfig.cpp:86
+#: daemon/actions/bundled/suspendsessionconfig.cpp:75
+#: daemon/actions/bundled/handlebuttoneventsconfig.cpp:77
+#: kcmodule/GeneralPage.cpp:74
+msgid "Do nothing"
+msgstr "Tiştek neke"
+
+#: daemon/actions/bundled/suspendsessionconfig.cpp:77
+#: daemon/actions/bundled/handlebuttoneventsconfig.cpp:79
+#: kcmodule/GeneralPage.cpp:76
 msgid "Sleep"
 msgstr ""
 
-#: daemon/actions/bundled/suspendsessionconfig.cpp:87
+#: daemon/actions/bundled/suspendsessionconfig.cpp:80
+#: daemon/actions/bundled/handlebuttoneventsconfig.cpp:82
+#: kcmodule/GeneralPage.cpp:79
 msgid "Hibernate"
 msgstr ""
 
-#: daemon/actions/bundled/suspendsessionconfig.cpp:88
-#: kcmodule/GeneralPage.cpp:77
+#: daemon/actions/bundled/suspendsessionconfig.cpp:82
+#: daemon/actions/bundled/handlebuttoneventsconfig.cpp:84
+#: kcmodule/GeneralPage.cpp:81
 msgid "Shutdown"
 msgstr "Dadan"
 
-#: daemon/actions/bundled/suspendsessionconfig.cpp:97
+#: daemon/actions/bundled/suspendsessionconfig.cpp:83
+#: daemon/actions/bundled/handlebuttoneventsconfig.cpp:85
+#, fuzzy
+#| msgid "Lock Screen"
+msgid "Lock screen"
+msgstr "Dîmenderê Qufl Bike"
+
+#: daemon/actions/bundled/suspendsessionconfig.cpp:92
 #: daemon/actions/bundled/runscriptconfig.cpp:79
 #: daemon/actions/bundled/runscriptconfig.cpp:100
 #: daemon/actions/bundled/disabledesktopeffectsconfig.cpp:68
@@ -353,6 +368,34 @@ msgstr ""
 msgid "Disable effects"
 msgstr "Tevlihev bûna KWin neçalak bike, heke çalak e"
 
+#: daemon/actions/bundled/handlebuttoneventsconfig.cpp:87
+#, fuzzy
+#| msgid "Prompt Log out dialog"
+msgid "Prompt log out dialog"
+msgstr "Pace ya Derketinê Nîşan Bide"
+
+#: daemon/actions/bundled/handlebuttoneventsconfig.cpp:89
+msgid "Turn off screen"
+msgstr ""
+
+#: daemon/actions/bundled/handlebuttoneventsconfig.cpp:98
+#, fuzzy
+#| msgid "When Laptop Lid Closed"
+msgid "When laptop lid closed"
+msgstr "Wextê Rûgira Laptopê Bê Girtin"
+
+#: daemon/actions/bundled/handlebuttoneventsconfig.cpp:99
+#, fuzzy
+#| msgid "When Power Button pressed"
+msgid "When power button pressed"
+msgstr "Wextê Bişkojka Hêzê bê pêlêkirin"
+
+#: daemon/actions/bundled/handlebuttoneventsconfig.cpp:100
+#, fuzzy
+#| msgid "When Sleep Button pressed"
+msgid "When sleep button pressed"
+msgstr "Wextê Bişkojka Xewê bê pêlêkirin"
+
 #: daemon/backends/upower/upowersuspendjob.cpp:70
 #, fuzzy
 #| msgid "Supported suspend methods"
@@ -381,12 +424,54 @@ msgstr ""
 msgid "Developer"
 msgstr "Pêşvebirê Bingehîn"
 
-#: daemon/powerdevilcore.cpp:240
+#: daemon/powerdevilcore.cpp:247
 #, kde-format
 msgid ""
 "The profile \"%1\" tried to activate %2, a non existent action. This is "
 "usually due to an installation problem or to a configuration problem."
 msgstr ""
+
+#: daemon/powerdevilcore.cpp:332
+#, fuzzy
+#| msgid "The power adaptor has been plugged in"
+msgid ""
+"The power adaptor has been plugged in - all pending suspend actions have "
+"been cancelled"
+msgstr "Adaptorê hêzê hate girêdan "
+
+#: daemon/powerdevilcore.cpp:368
+#, fuzzy
+#| msgid ""
+#| "Your battery has reached critical level, the PC will be halted in %1 "
+#| "seconds. Click here to block the process."
+msgid ""
+"Your battery level is critical, the computer will be halted in 30 seconds."
+msgstr ""
+"Pîla te gihîşt asta rexne, Komputer dê %1 çirkeyan de bê girtin. Pêl li vir "
+"bike ku pêvajo yê bidî rawestandin."
+
+#: daemon/powerdevilcore.cpp:373
+#, fuzzy
+#| msgid ""
+#| "Your battery has reached critical level, the PC will be halted in %1 "
+#| "seconds. Click here to block the process."
+msgid ""
+"Your battery level is critical, the computer will be hibernated in 30 "
+"seconds."
+msgstr ""
+"Pîla te gihîşt asta rexne, Komputer dê %1 çirkeyan de bê girtin. Pêl li vir "
+"bike ku pêvajo yê bidî rawestandin."
+
+#: daemon/powerdevilcore.cpp:378
+#, fuzzy
+#| msgid ""
+#| "Your battery has reached critical level, the PC will be suspended to RAM "
+#| "in %1 seconds. Click here to block the process"
+msgid ""
+"Your battery level is critical, the computer will be suspended in 30 seconds."
+msgstr ""
+"Pîla te gihîşt asta rexne, Komputer dê %1 çirkeyan de ji RAMê bê sekinandin. "
+"Pêl li vir bike ku pêvajo yê bidî rawestandin."
 
 #: kcmodule/ConfigWidget.cpp:35
 msgid "General Settings"
@@ -399,10 +484,6 @@ msgstr "Profîlan Biguherîne"
 #: kcmodule/ConfigWidget.cpp:37
 msgid "Capabilities"
 msgstr "Taybetmendî"
-
-#: kcmodule/GeneralPage.cpp:76
-msgid "Do nothing"
-msgstr "Tiştek neke"
 
 #: kcmodule/PowerDevilKCM.cpp:52
 msgid "PowerDevil Configuration"
@@ -633,51 +714,43 @@ msgstr "Profîlan Derxe Derve"
 msgid "Settings and Profile"
 msgstr "Mîheng û Profîl"
 
-#. i18n: file: kcmodule/generalPage.ui:33
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
-#: rc.cpp:20
-#, fuzzy
-#| msgid "Profiles assignment"
-msgid "Profile Assignment"
-msgstr "Pîşandina profîlan"
-
-#. i18n: file: kcmodule/generalPage.ui:69
-#. i18n: ectx: property (text), widget (QPushButton, notificationsButton)
-#: rc.cpp:23
-#, fuzzy
-#| msgid "Configure Notifications"
-msgid "Configure Notifications..."
-msgstr "Hişyariyan Veava Bike"
-
-#. i18n: file: kcmodule/generalPage.ui:98
+#. i18n: file: kcmodule/generalPage.ui:27
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:26
+#: rc.cpp:20
 msgid "<b>Events</b>"
 msgstr ""
 
-#. i18n: file: kcmodule/generalPage.ui:111
+#. i18n: file: kcmodule/generalPage.ui:39
 #. i18n: ectx: property (text), widget (QLabel, label_8)
-#: rc.cpp:29
+#: rc.cpp:23
 msgid "Lock screen on resume"
 msgstr "Demê dom kirinê dîmenê qufl bike"
 
-#. i18n: file: kcmodule/generalPage.ui:130
+#. i18n: file: kcmodule/generalPage.ui:52
 #. i18n: ectx: property (toolTip), widget (QCheckBox, lockScreenOnResume)
-#: rc.cpp:32
+#: rc.cpp:26
 msgid "Locks screen when waking up from suspension"
 msgstr "Dema ji sekinandinê hişyar bû, dîmenê qufl bike"
 
-#. i18n: file: kcmodule/generalPage.ui:136
+#. i18n: file: kcmodule/generalPage.ui:58
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, lockScreenOnResume)
-#: rc.cpp:35
+#: rc.cpp:29
 #, fuzzy
 #| msgid "You will be asked for password when resuming from sleep state"
 msgid "You will be asked for a password when resuming from sleep state"
 msgstr "Dê nasnav bê pirsîn wextê ji rewşa xewê de derdikeve"
 
-#. i18n: file: kcmodule/generalPage.ui:156
+#. i18n: file: kcmodule/generalPage.ui:82
+#. i18n: ectx: property (text), widget (QPushButton, notificationsButton)
+#: rc.cpp:32
+#, fuzzy
+#| msgid "Configure Notifications"
+msgid "Configure Notifications..."
+msgstr "Hişyariyan Veava Bike"
+
+#. i18n: file: kcmodule/generalPage.ui:110
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:38
+#: rc.cpp:35
 msgid ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
 "REC-html40/strict.dtd\">\n"
@@ -691,124 +764,124 @@ msgid ""
 "weight:600;\">Profile Assignment</span></p></body></html>"
 msgstr ""
 
-#. i18n: file: kcmodule/generalPage.ui:169
+#. i18n: file: kcmodule/generalPage.ui:122
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#: rc.cpp:45
+#: rc.cpp:42
 msgid "When AC Adaptor is plugged in"
 msgstr "Wextê Adaptora AC tê girêdan"
 
-#. i18n: file: kcmodule/generalPage.ui:201
+#. i18n: file: kcmodule/generalPage.ui:142
 #. i18n: ectx: property (text), widget (QLabel, label_7)
-#: rc.cpp:48
+#: rc.cpp:45
 #, fuzzy
 #| msgid "When AC Adaptor is plugged in"
 msgid "When AC Adaptor is unplugged"
 msgstr "Wextê Adaptora AC tê girêdan"
 
-#. i18n: file: kcmodule/generalPage.ui:249
+#. i18n: file: kcmodule/generalPage.ui:162
 #. i18n: ectx: property (text), widget (QLabel, label_10)
-#: rc.cpp:51
+#: rc.cpp:48
 msgid "When battery is at low level"
 msgstr "Wextê pîl di asta kêm de"
 
-#. i18n: file: kcmodule/generalPage.ui:265
+#. i18n: file: kcmodule/generalPage.ui:182
 #. i18n: ectx: property (text), widget (QLabel, label_11)
-#: rc.cpp:54
+#: rc.cpp:51
 msgid "When battery is at warning level"
 msgstr "Wextê pîl di asta hişyarî de"
 
-#. i18n: file: kcmodule/generalPage.ui:290
+#. i18n: file: kcmodule/generalPage.ui:218
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
-#: rc.cpp:57
+#: rc.cpp:54
 msgid "Advanced Battery Settings"
 msgstr "Mîhengên Pêşketî yê Pîlê"
 
-#. i18n: file: kcmodule/generalPage.ui:298
+#. i18n: file: kcmodule/generalPage.ui:226
 #. i18n: ectx: property (text), widget (QLabel, BatteryCriticalLabel)
-#: rc.cpp:60
+#: rc.cpp:57
 msgid "When battery remaining is critical"
 msgstr "Wextê pîl rexne bimîne"
 
-#. i18n: file: kcmodule/generalPage.ui:355
+#. i18n: file: kcmodule/generalPage.ui:283
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:63
+#: rc.cpp:60
 msgid "Battery Levels"
 msgstr "Astên Pîlê"
 
-#. i18n: file: kcmodule/generalPage.ui:364
+#. i18n: file: kcmodule/generalPage.ui:292
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:66
+#: rc.cpp:63
 msgid "Battery is at low level at"
 msgstr "Pîl di asta kêm de ye di"
 
-#. i18n: file: kcmodule/generalPage.ui:380
+#. i18n: file: kcmodule/generalPage.ui:308
 #. i18n: ectx: property (toolTip), widget (KIntSpinBox, lowSpin)
-#: rc.cpp:69
+#: rc.cpp:66
 msgid "Low battery level"
 msgstr "Asta kêm yê pîlê"
 
-#. i18n: file: kcmodule/generalPage.ui:383
+#. i18n: file: kcmodule/generalPage.ui:311
 #. i18n: ectx: property (whatsThis), widget (KIntSpinBox, lowSpin)
-#: rc.cpp:72
+#: rc.cpp:69
 msgid "Battery will be considered low when it reaches this level"
 msgstr "Pîl dê kêm bê hesibandin wextê ev bigihîje vê astê"
 
-#. i18n: file: kcmodule/generalPage.ui:386
+#. i18n: file: kcmodule/generalPage.ui:314
 #. i18n: ectx: property (suffix), widget (KIntSpinBox, lowSpin)
-#. i18n: file: kcmodule/generalPage.ui:418
+#. i18n: file: kcmodule/generalPage.ui:346
 #. i18n: ectx: property (suffix), widget (KIntSpinBox, warningSpin)
-#. i18n: file: kcmodule/generalPage.ui:450
+#. i18n: file: kcmodule/generalPage.ui:378
 #. i18n: ectx: property (suffix), widget (KIntSpinBox, criticalSpin)
-#: rc.cpp:76 rc.cpp:89 rc.cpp:102
+#: rc.cpp:73 rc.cpp:86 rc.cpp:99
 #, no-c-format
 msgid "%"
 msgstr "%"
 
-#. i18n: file: kcmodule/generalPage.ui:396
+#. i18n: file: kcmodule/generalPage.ui:324
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rc.cpp:79
+#: rc.cpp:76
 msgid "Battery is at warning level at"
 msgstr "Pîl di asta hişyarî de di"
 
-#. i18n: file: kcmodule/generalPage.ui:412
+#. i18n: file: kcmodule/generalPage.ui:340
 #. i18n: ectx: property (toolTip), widget (KIntSpinBox, warningSpin)
-#: rc.cpp:82
+#: rc.cpp:79
 msgid "Warning battery level"
 msgstr "Asta hişyarî yê pîlê"
 
-#. i18n: file: kcmodule/generalPage.ui:415
+#. i18n: file: kcmodule/generalPage.ui:343
 #. i18n: ectx: property (whatsThis), widget (KIntSpinBox, warningSpin)
-#: rc.cpp:85
+#: rc.cpp:82
 msgid "Battery will be considered at warning level when it reaches this level"
 msgstr "Pîl dê di asta hişyarî de bê hesibandin wextê ev bigihîje vê astê"
 
-#. i18n: file: kcmodule/generalPage.ui:428
+#. i18n: file: kcmodule/generalPage.ui:356
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: rc.cpp:92
+#: rc.cpp:89
 msgid "Battery is at critical level at"
 msgstr "Pîl di asta rexne de di"
 
-#. i18n: file: kcmodule/generalPage.ui:444
+#. i18n: file: kcmodule/generalPage.ui:372
 #. i18n: ectx: property (toolTip), widget (KIntSpinBox, criticalSpin)
-#: rc.cpp:95
+#: rc.cpp:92
 msgid "Critical battery level"
 msgstr "Asta rexne yê pîlê"
 
-#. i18n: file: kcmodule/generalPage.ui:447
+#. i18n: file: kcmodule/generalPage.ui:375
 #. i18n: ectx: property (whatsThis), widget (KIntSpinBox, criticalSpin)
-#: rc.cpp:98
+#: rc.cpp:95
 msgid "Battery will be considered critical when it reaches this level"
 msgstr "Pîl dê rexne bê hesibandin wextê ev bigihîje vê astê"
 
 #. i18n: file: kcmodule/capabilitiesPage.ui:23
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_5)
-#: rc.cpp:105
+#: rc.cpp:102
 msgid "System Capabilities"
 msgstr "Taybetiyên Pergalê"
 
 #. i18n: file: kcmodule/capabilitiesPage.ui:35
 #. i18n: ectx: property (text), widget (QLabel, label_10)
-#: rc.cpp:108
+#: rc.cpp:105
 #, fuzzy
 #| msgid "Number of CPU"
 msgid "Number of CPUs"
@@ -816,25 +889,25 @@ msgstr "Hejmara CPU"
 
 #. i18n: file: kcmodule/capabilitiesPage.ui:49
 #. i18n: ectx: property (text), widget (QLabel, label_11)
-#: rc.cpp:111
+#: rc.cpp:108
 msgid "Number of Batteries"
 msgstr "Hejmara Pîlan"
 
 #. i18n: file: kcmodule/capabilitiesPage.ui:77
 #. i18n: ectx: property (text), widget (QLabel, label_17)
-#: rc.cpp:114
+#: rc.cpp:111
 msgid "Supported suspend methods"
 msgstr "Azîneyên sekinandinê yên tên piştgirî dan"
 
 #. i18n: file: kcmodule/capabilitiesPage.ui:104
 #. i18n: ectx: property (toolTip), widget (QLabel, label_4)
-#: rc.cpp:117
+#: rc.cpp:114
 msgid "Support for DPMS"
 msgstr "Piştgirî ji bo DPMS"
 
 #. i18n: file: kcmodule/capabilitiesPage.ui:107
 #. i18n: ectx: property (whatsThis), widget (QLabel, label_4)
-#: rc.cpp:120
+#: rc.cpp:117
 msgid ""
 "If this is enabled, PowerDevil will be able to configure power management "
 "for your monitor"
@@ -844,19 +917,19 @@ msgstr ""
 
 #. i18n: file: kcmodule/capabilitiesPage.ui:110
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rc.cpp:123
+#: rc.cpp:120
 msgid "DPMS Support"
 msgstr "Piştgirî ya DPMS"
 
 #. i18n: file: kcmodule/capabilitiesPage.ui:124
 #. i18n: ectx: property (toolTip), widget (QLabel, label_6)
-#: rc.cpp:126
+#: rc.cpp:123
 msgid "Checks if ConsoleKit is active on your system"
 msgstr ""
 
 #. i18n: file: kcmodule/capabilitiesPage.ui:127
 #. i18n: ectx: property (whatsThis), widget (QLabel, label_6)
-#: rc.cpp:129
+#: rc.cpp:126
 msgid ""
 "ConsoleKit lets PowerDevil detect whether the current session is active, "
 "which is useful if you have more than one user logged into your system at "
@@ -865,25 +938,25 @@ msgstr ""
 
 #. i18n: file: kcmodule/capabilitiesPage.ui:130
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#: rc.cpp:132
+#: rc.cpp:129
 msgid "ConsoleKit Runtime Support"
 msgstr ""
 
 #. i18n: file: kcmodule/capabilitiesPage.ui:151
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:135
+#: rc.cpp:132
 msgid "Status"
 msgstr "Rewş"
 
 #. i18n: file: kcmodule/error.ui:13
 #. i18n: ectx: property (windowTitle), widget (QWidget, errorWidget)
-#: rc.cpp:138
+#: rc.cpp:135
 msgid "PowerDevil error"
 msgstr "Çewtiya PowerDevil"
 
 #. i18n: file: kcmodule/error.ui:56
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:141
+#: rc.cpp:138
 #, fuzzy
 #| msgid ""
 #| "The configuration module can not be started, since there seems to be a "
@@ -897,7 +970,7 @@ msgstr ""
 
 #. i18n: file: kcmodule/profileEditWidget.ui:19
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:144
+#: rc.cpp:141
 #, fuzzy
 #| msgid "Edit Profiles"
 msgid "Editing Profile"
@@ -905,21 +978,26 @@ msgstr "Profîlan Biguherîne"
 
 #. i18n: file: kcmodule/profileEditWidget.ui:29
 #. i18n: ectx: property (text), widget (KPushButton, kpushbutton)
-#: rc.cpp:147
+#: rc.cpp:144
 msgid "Remove"
 msgstr ""
 
 #. i18n: file: kcmodule/profileEditWidget.ui:36
 #. i18n: ectx: property (text), widget (KPushButton, kpushbutton_2)
-#: rc.cpp:150
+#: rc.cpp:147
 msgid "Rename"
 msgstr ""
 
 #. i18n: file: kcmodule/profileEditWidget.ui:43
 #. i18n: ectx: property (text), widget (KPushButton, addProfileButton)
-#: rc.cpp:153
+#: rc.cpp:150
 msgid "Add"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Profiles assignment"
+#~ msgid "Profile Assignment"
+#~ msgstr "Pîşandina profîlan"
 
 #, fuzzy
 #~| msgid ""
@@ -959,14 +1037,6 @@ msgstr ""
 #~ msgid "Do Nothing"
 #~ msgstr "Tiştek neke"
 
-#~ msgid "Lock Screen"
-#~ msgstr "Dîmenderê Qufl Bike"
-
-#, fuzzy
-#~| msgid "Prompt Log out dialog"
-#~ msgid "Prompt Log Out dialog"
-#~ msgstr "Pace ya Derketinê Nîşan Bide"
-
 #~ msgid "Learn more about the Energy Star program"
 #~ msgstr "Der barê bername ya Energy Star zêdetir agahiyan bibîne"
 
@@ -989,23 +1059,8 @@ msgstr ""
 #~ msgid "When the system is idle for more than"
 #~ msgstr "Wextê pergal beredayî be zêdetir jê"
 
-#, fuzzy
-#~| msgid "When Laptop Lid Closed"
-#~ msgid "When laptop lid closed"
-#~ msgstr "Wextê Rûgira Laptopê Bê Girtin"
-
 #~ msgid "This action will be performed when the laptop lid gets closed"
 #~ msgstr "Ev çalakî dê bê karandin wextê rûgira laptopê bê girtin"
-
-#, fuzzy
-#~| msgid "When Power Button pressed"
-#~ msgid "When power button pressed"
-#~ msgstr "Wextê Bişkojka Hêzê bê pêlêkirin"
-
-#, fuzzy
-#~| msgid "When Sleep Button pressed"
-#~ msgid "When sleep button pressed"
-#~ msgstr "Wextê Bişkojka Xewê bê pêlêkirin"
 
 #~ msgid "Screen"
 #~ msgstr "Dîmender"
