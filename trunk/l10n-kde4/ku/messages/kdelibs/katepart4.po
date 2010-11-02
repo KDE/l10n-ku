@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-11-01 06:13+0100\n"
+"POT-Creation-Date: 2010-11-02 07:17+0100\n"
 "PO-Revision-Date: 2008-09-22 02:29+0300\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
@@ -52,12 +52,6 @@ msgstr ""
 #: mode/katemodeconfigpage.cpp:290
 msgid "Select Mime Types"
 msgstr ""
-
-#: tests/testutils.cpp:195 script/katescript.cpp:93
-#, fuzzy, kde-format
-#| msgid "Unable to open %1"
-msgid "Unable to find '%1'"
-msgstr "Nikarî %1 veke"
 
 #: search/katesearchbar.cpp:76
 msgid "Add..."
@@ -1138,6 +1132,30 @@ msgstr ""
 msgid "Disable Annotation Bar"
 msgstr ""
 
+#: view/kateviewaccessible.h:65
+msgid "Move To..."
+msgstr ""
+
+#: view/kateviewaccessible.h:66
+#, fuzzy
+#| msgid "Join Lines"
+msgid "Move Left"
+msgstr "Rêzikan Bike Yek"
+
+#: view/kateviewaccessible.h:67
+msgid "Move Right"
+msgstr ""
+
+#: view/kateviewaccessible.h:68
+#, fuzzy
+#| msgid "Join Lines"
+msgid "Move Up"
+msgstr "Rêzikan Bike Yek"
+
+#: view/kateviewaccessible.h:69
+msgid "Move Down"
+msgstr ""
+
 #: document/katedocument.cpp:124
 #, kde-format
 msgid ""
@@ -2020,46 +2038,46 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
-#: utils/kateglobal.cpp:281
+#: utils/kateglobal.cpp:282
 #, fuzzy
 msgid "Configure"
 msgstr "Veavakirin..."
 
-#: utils/kateglobal.cpp:365 utils/kateglobal.cpp:391
+#: utils/kateglobal.cpp:366 utils/kateglobal.cpp:392
 #, fuzzy
 msgid "Appearance"
 msgstr "Tîpên Mezin"
 
-#: utils/kateglobal.cpp:368
+#: utils/kateglobal.cpp:369
 msgid "Fonts & Colors"
 msgstr "Curenivîs & Reng"
 
-#: utils/kateglobal.cpp:371
+#: utils/kateglobal.cpp:372
 msgid "Editing"
 msgstr "Sererastkirin"
 
-#: utils/kateglobal.cpp:374
+#: utils/kateglobal.cpp:375
 msgid "Open/Save"
 msgstr ""
 
-#: utils/kateglobal.cpp:377
+#: utils/kateglobal.cpp:378
 #, fuzzy
 msgid "Extensions"
 msgstr "Dûçikên pelan:"
 
-#: utils/kateglobal.cpp:394
+#: utils/kateglobal.cpp:395
 msgid "Font & Color Schemas"
 msgstr ""
 
-#: utils/kateglobal.cpp:397
+#: utils/kateglobal.cpp:398
 msgid "Editing Options"
 msgstr ""
 
-#: utils/kateglobal.cpp:400
+#: utils/kateglobal.cpp:401
 msgid "File Opening & Saving"
 msgstr ""
 
-#: utils/kateglobal.cpp:403
+#: utils/kateglobal.cpp:404
 msgid "Extensions Manager"
 msgstr ""
 
@@ -2511,11 +2529,15 @@ msgstr ""
 msgid "Missing argument(s). Usage: %1 <from> [<to>]"
 msgstr ""
 
-#: utils/katecmds.cpp:658
+#: utils/katecmds.cpp:491
+msgid "Document written to disk"
+msgstr ""
+
+#: utils/katecmds.cpp:827
 msgid "Sorry, but Kate is not able to replace newlines, yet"
 msgstr ""
 
-#: utils/katecmds.cpp:697
+#: utils/katecmds.cpp:866
 #, fuzzy, kde-format
 msgctxt "substituted into the previous message"
 msgid "1 line"
@@ -2523,7 +2545,7 @@ msgid_plural "%1 lines"
 msgstr[0] "&Binîxêzkirî"
 msgstr[1] "&Binîxêzkirî"
 
-#: utils/katecmds.cpp:695
+#: utils/katecmds.cpp:864
 #, kde-format
 msgctxt "%2 is the translation of the next message"
 msgid "1 replacement done on %2"
@@ -2710,6 +2732,12 @@ msgstr "Ferman nehate dîtin"
 #: script/katescriptmanager.cpp:349
 msgid "Reload all JavaScript files (indenters, command line scripts, etc)."
 msgstr ""
+
+#: script/katescript.cpp:93
+#, fuzzy, kde-format
+#| msgid "Unable to open %1"
+msgid "Unable to find '%1'"
+msgstr "Nikarî %1 veke"
 
 #: script/katescript.cpp:275
 #, fuzzy, kde-format

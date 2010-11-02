@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-10-30 06:15+0200\n"
+"POT-Creation-Date: 2010-11-02 07:17+0100\n"
 "PO-Revision-Date: 2007-12-21 21:45+0100\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <gnu-ku-wergerandin at lists dot sourceforge dot "
@@ -2910,7 +2910,7 @@ msgstr ""
 msgid "P&review"
 msgstr "P&êşdîtin"
 
-#: kfile/knfotranslator.cpp:40 kfile/kfilemetadataprovider.cpp:308
+#: kfile/knfotranslator.cpp:40 kfile/kfilemetadataprovider.cpp:406
 #, fuzzy
 #| msgid "Comment"
 msgctxt "@label"
@@ -3750,62 +3750,65 @@ msgstr ""
 msgid "Advanced Options for %1"
 msgstr ""
 
-#: kfile/kfilemetadatawidget.cpp:541
-#, fuzzy
-#| msgid "Size:"
-msgctxt "@label"
-msgid "Size:"
-msgstr "Mezinahî:"
-
-#: kfile/kfilemetadatawidget.cpp:558
-#, fuzzy
-#| msgid "Size:"
-msgctxt "@label"
-msgid "Total Size:"
-msgstr "Mezinahî:"
-
-#: kfile/kfilemetadatawidget.cpp:642
-#, fuzzy
-#| msgid "Type:"
-msgctxt "@label file type"
-msgid "Type:"
-msgstr "Cure:"
-
-#: kfile/kfilemetadatawidget.cpp:644
+#: kfile/kfilemetadataprovider.cpp:407
 #, fuzzy
 #| msgid "Modified:"
 msgctxt "@label"
-msgid "Modified:"
+msgid "Modified"
 msgstr "Guhartî:"
 
-#: kfile/kfilemetadatawidget.cpp:645
+# msgctxt "@title:column"
+#: kfile/kfilemetadataprovider.cpp:408
 #, fuzzy
-#| msgid "Owner:"
+#| msgid "Owner"
 msgctxt "@label"
-msgid "Owner:"
-msgstr "Xwedî:"
+msgid "Owner"
+msgstr "Xwedî"
 
 # msgctxt "@title:column"
-#: kfile/kfilemetadatawidget.cpp:646
+#: kfile/kfilemetadataprovider.cpp:409
 #, fuzzy
 #| msgid "Permissions"
 msgctxt "@label"
-msgid "Permissions:"
+msgid "Permissions"
 msgstr "Destûr"
 
-#: kfile/kfilemetadataprovider.cpp:304
+#: kfile/kfilemetadataprovider.cpp:410
 #, fuzzy
 #| msgid "Sorting"
 msgctxt "@label"
 msgid "Rating"
 msgstr "Tê Rêzkirin"
 
-#: kfile/kfilemetadataprovider.cpp:306
+# msgctxt "@title:column"
+#: kfile/kfilemetadataprovider.cpp:411
+#, fuzzy
+#| msgid "Size"
+msgctxt "@label"
+msgid "Size"
+msgstr "Mezinahî"
+
+#: kfile/kfilemetadataprovider.cpp:412
 #, fuzzy
 #| msgid "Trash"
 msgctxt "@label"
 msgid "Tags"
 msgstr "Çop"
+
+#: kfile/kfilemetadataprovider.cpp:413
+#, fuzzy
+#| msgid "Size:"
+msgctxt "@label"
+msgid "Total Size"
+msgstr "Mezinahî:"
+
+# msgctxt "@title:column"
+#: kfile/kfilemetadataprovider.cpp:414
+#, fuzzy
+#| msgid "Type"
+msgctxt "@label"
+msgid "Type"
+msgstr "Cure"
 
 #: kfile/kfilemetainfowidget.cpp:163
 msgid "<Error>"
@@ -3919,45 +3922,6 @@ msgstr "Şirove"
 msgctxt "@title:window"
 msgid "Add Comment"
 msgstr "Şirove"
-
-# msgctxt "@title:column"
-#: kfile/kfilemetadataconfigurationwidget.cpp:171
-#, fuzzy
-#| msgid "Type"
-msgctxt "@item::inlistbox"
-msgid "Type"
-msgstr "Cure"
-
-# msgctxt "@title:column"
-#: kfile/kfilemetadataconfigurationwidget.cpp:172
-#, fuzzy
-#| msgid "Size"
-msgctxt "@item::inlistbox"
-msgid "Size"
-msgstr "Mezinahî"
-
-#: kfile/kfilemetadataconfigurationwidget.cpp:173
-#, fuzzy
-#| msgid "Modified:"
-msgctxt "@item::inlistbox"
-msgid "Modified"
-msgstr "Guhartî:"
-
-# msgctxt "@title:column"
-#: kfile/kfilemetadataconfigurationwidget.cpp:174
-#, fuzzy
-#| msgid "Owner"
-msgctxt "@item::inlistbox"
-msgid "Owner"
-msgstr "Xwedî"
-
-# msgctxt "@title:column"
-#: kfile/kfilemetadataconfigurationwidget.cpp:175
-#, fuzzy
-#| msgid "Permissions"
-msgctxt "@item::inlistbox"
-msgid "Permissions"
-msgstr "Destûr"
 
 #: misc/ksendbugmail/main.cpp:43
 msgid "Error connecting to server."
@@ -6440,23 +6404,61 @@ msgstr ""
 msgid "Show Hidden Folders"
 msgstr "Peldankên Veşartî Nîşan Bide"
 
+#, fuzzy
+#~| msgid "Size:"
+#~ msgctxt "@label"
+#~ msgid "Size:"
+#~ msgstr "Mezinahî:"
+
+#, fuzzy
+#~| msgid "Type:"
+#~ msgctxt "@label file type"
+#~ msgid "Type:"
+#~ msgstr "Cure:"
+
+#, fuzzy
+#~| msgid "Modified:"
+#~ msgctxt "@label"
+#~ msgid "Modified:"
+#~ msgstr "Guhartî:"
+
+#, fuzzy
+#~| msgid "Owner:"
+#~ msgctxt "@label"
+#~ msgid "Owner:"
+#~ msgstr "Xwedî:"
+
+# msgctxt "@title:column"
+#, fuzzy
+#~| msgid "Permissions"
+#~ msgctxt "@label"
+#~ msgid "Permissions:"
+#~ msgstr "Destûr"
+
+# msgctxt "@title:column"
+#, fuzzy
+#~| msgid "Type"
+#~ msgctxt "@item::inlistbox"
+#~ msgid "Type"
+#~ msgstr "Cure"
+
 # msgctxt "@title:column"
 #, fuzzy
 #~| msgid "Size"
-#~ msgctxt "@label"
+#~ msgctxt "@item::inlistbox"
 #~ msgid "Size"
 #~ msgstr "Mezinahî"
 
 #, fuzzy
 #~| msgid "Modified:"
-#~ msgctxt "@label"
+#~ msgctxt "@item::inlistbox"
 #~ msgid "Modified"
 #~ msgstr "Guhartî:"
 
 # msgctxt "@title:column"
 #, fuzzy
 #~| msgid "Owner"
-#~ msgctxt "@label"
+#~ msgctxt "@item::inlistbox"
 #~ msgid "Owner"
 #~ msgstr "Xwedî"
 
