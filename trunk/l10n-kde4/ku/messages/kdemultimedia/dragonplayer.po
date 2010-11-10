@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dragonplayer\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-07-30 05:21+0200\n"
+"POT-Creation-Date: 2010-11-10 06:14+0100\n"
 "PO-Revision-Date: 2009-01-22 21:21+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -293,21 +293,17 @@ msgstr "Pelê Lê Bide..."
 msgid "Play Disc"
 msgstr "Dîskê Lê Bide"
 
-#: src/app/actions.cpp:31
+#: src/app/actions.cpp:35
 msgid "Play"
 msgstr "Lê Bide"
 
-#: src/app/actions.cpp:46
-msgid "&Pause"
-msgstr "&Sekinîne"
+#: src/app/actions.cpp:36
+#, fuzzy
+#| msgid "Paused"
+msgid "Pause"
+msgstr "Hatiye Sekinandin"
 
-#. i18n: file: misc/dragonplayerui.rc:4
-#. i18n: ectx: Menu (file)
-#: src/app/actions.cpp:51 rc.cpp:29
-msgid "&Play"
-msgstr "&Lê Bide"
-
-#: src/app/actions.cpp:71
+#: src/app/actions.cpp:53
 #, fuzzy
 #| msgid "Volume"
 msgctxt "Volume of sound output"
@@ -431,6 +427,12 @@ msgstr ""
 msgid "Close"
 msgstr "Bigire"
 
+#. i18n: file: misc/dragonplayerui.rc:4
+#. i18n: ectx: Menu (file)
+#: rc.cpp:29
+msgid "&Play"
+msgstr "&Lê Bide"
+
 #. i18n: file: misc/dragonplayerui.rc:15
 #. i18n: ectx: Menu (settings)
 #: rc.cpp:32
@@ -442,6 +444,9 @@ msgstr "&Mîheng"
 #: rc.cpp:35
 msgid "Main Toolbar"
 msgstr "Darikê Amûran ya Mak"
+
+#~ msgid "&Pause"
+#~ msgstr "&Sekinîne"
 
 #~ msgid "There was an internal error with the media slave..."
 #~ msgstr "Çewtiyekê hundirîn çê bû bi pêgirê medyayê re..."
