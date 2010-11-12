@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_tasks\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-11-11 06:13+0100\n"
+"POT-Creation-Date: 2010-11-12 06:33+0100\n"
 "PO-Revision-Date: 2008-12-26 01:50+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -98,60 +98,68 @@ msgid "Only show tasks from the current desktop"
 msgstr "Peywiran tenê di sermase ya heyî de nîşan bide"
 
 #. i18n: file: tasksConfig.ui:320
-#. i18n: ectx: property (text), widget (QLabel, label_13)
+#. i18n: ectx: property (text), widget (QLabel, label_14)
 #: rc.cpp:39
+#, fuzzy
+#| msgid "Only show tasks from the current screen"
+msgid "Only show tasks from the current activity"
+msgstr "Peywiran tenê di dîmendêra heyî de nîşan bide"
+
+#. i18n: file: tasksConfig.ui:340
+#. i18n: ectx: property (text), widget (QLabel, label_13)
+#: rc.cpp:42
 msgid "Only show tasks that are minimized"
 msgstr "Tenê peywirên hatine biçûk kirin nîşan bide  "
 
-#: taskgroupitem.cpp:291 windowtaskitem.cpp:224
+#: taskgroupitem.cpp:292 windowtaskitem.cpp:224
 #, kde-format
 msgctxt "Which virtual desktop a window is currently on"
 msgid "On %1"
 msgstr "Di %1 de"
 
-#: taskgroupitem.cpp:412
+#: taskgroupitem.cpp:413
 msgid "Collapse Group"
 msgstr "Komê Veşêre"
 
-#: taskgroupitem.cpp:415
+#: taskgroupitem.cpp:416
 msgid "Expand Group"
 msgstr "Komê Nîşan Bide"
 
-#: taskgroupitem.cpp:998
+#: taskgroupitem.cpp:1002
 #, fuzzy
 #| msgid "Expand Group"
 msgid "Edit Group"
 msgstr "Komê Nîşan Bide"
 
-#: taskgroupitem.cpp:999
+#: taskgroupitem.cpp:1003
 msgid "New Group Name: "
 msgstr ""
 
-#: tasks.cpp:326
+#: tasks.cpp:370
 msgid "General"
 msgstr "Giştî"
 
-#: tasks.cpp:335
+#: tasks.cpp:380
 msgid "Do Not Group"
 msgstr "Kom Neke"
 
-#: tasks.cpp:336 tasks.cpp:360
+#: tasks.cpp:381 tasks.cpp:405
 msgid "Manually"
 msgstr "Bi destan"
 
-#: tasks.cpp:337
+#: tasks.cpp:382
 msgid "By Program Name"
 msgstr "Li gorî navê bernameyê"
 
-#: tasks.cpp:359
+#: tasks.cpp:404
 msgid "Do Not Sort"
 msgstr "Bê rêzkirinê"
 
-#: tasks.cpp:361
+#: tasks.cpp:406
 msgid "Alphabetically"
 msgstr "Li gorî alfabeyê"
 
-#: tasks.cpp:362
+#: tasks.cpp:407
 msgid "By Desktop"
 msgstr "Bi Sermasê"
 
