@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-11-12 06:36+0100\n"
+"POT-Creation-Date: 2010-11-13 12:16+0100\n"
 "PO-Revision-Date: 2007-12-21 21:45+0100\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <gnu-ku-wergerandin at lists dot sourceforge dot "
@@ -2057,10 +2057,6 @@ msgstr ""
 msgid "Undo File Copy Confirmation"
 msgstr "Mîhengên Pergalê tên Rojanekirin"
 
-#: kio/accessmanagerreply_p.cpp:69
-msgid "Blocked request."
-msgstr ""
-
 #: kio/pastedialog.cpp:55
 msgid "Data format:"
 msgstr "Formata daneyan:"
@@ -2448,6 +2444,16 @@ msgstr ""
 msgctxt "@title:column"
 msgid "Type"
 msgstr ""
+
+#: kio/accessmanager.cpp:154
+msgid "Blocked request."
+msgstr ""
+
+#: kio/accessmanager.cpp:192
+#, fuzzy
+#| msgid "Unknown Error"
+msgid "Unknown HTTP verb."
+msgstr "Çewtiya Nenas"
 
 #: httpfilter/httpfilter.cc:179
 msgid "Receiving corrupt data."
@@ -6529,11 +6535,6 @@ msgstr "Peldankên Veşartî Nîşan Bide"
 
 #~ msgid "size %1"
 #~ msgstr "mezinahî %1"
-
-#, fuzzy
-#~| msgid "Unknown Error"
-#~ msgid "Unknown Error."
-#~ msgstr "Çewtiya Nenas"
 
 #, fuzzy
 #~| msgid "No Items"
