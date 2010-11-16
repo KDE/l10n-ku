@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-11-15 06:37+0100\n"
+"POT-Creation-Date: 2010-11-16 07:50+0100\n"
 "PO-Revision-Date: 2009-02-21 06:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -120,8 +120,8 @@ msgctxt "track from source"
 msgid "from <b>%1</b>"
 msgstr " di <b>%1</b> de"
 
-#: EngineController.cpp:1398 context/applets/labels/LabelsApplet.cpp:180
-#: context/applets/photos/PhotosApplet.cpp:147
+#: EngineController.cpp:1398 context/applets/labels/LabelsApplet.cpp:179
+#: context/applets/photos/PhotosApplet.cpp:146
 #: context/engines/current/CurrentEngine.cpp:131 mac/GrowlInterface.cpp:43
 #: widgets/Osd.cpp:604
 msgid "No track playing"
@@ -601,8 +601,8 @@ msgstr "Asta Pêşîn"
 #: browsers/collectionbrowser/CollectionWidget.cpp:235
 #: browsers/collectionbrowser/CollectionWidget.cpp:272
 #: browsers/CollectionTreeItemModelBase.cpp:1166
-#: context/applets/lyrics/LyricsApplet.cpp:222
-#: context/applets/wikipedia/WikipediaApplet.cpp:536
+#: context/applets/lyrics/LyricsApplet.cpp:235
+#: context/applets/wikipedia/WikipediaApplet.cpp:535
 #: dialogs/transferdialog.cpp:88 dialogs/FilenameLayoutDialog.cpp:220
 #: dialogs/FilenameLayoutDialog.cpp:564 musicbrainz/MusicBrainzTags.cpp:352
 #: playlist/PlaylistModel.cpp:826 services/jamendo/JamendoInfoParser.cpp:51
@@ -619,7 +619,7 @@ msgstr "Hunermend"
 #: browsers/CollectionTreeView.cpp:229
 #: browsers/CollectionTreeItemModelBase.cpp:1165
 #: context/applets/albums/AlbumsView.cpp:226
-#: context/applets/wikipedia/WikipediaApplet.cpp:543
+#: context/applets/wikipedia/WikipediaApplet.cpp:542
 #: dialogs/transferdialog.cpp:89 dialogs/FilenameLayoutDialog.cpp:232
 #: dialogs/FilenameLayoutDialog.cpp:585 musicbrainz/MusicBrainzTags.cpp:353
 #: playlist/view/PlaylistViewCommon.cpp:66 playlist/PlaylistModel.cpp:830
@@ -1066,7 +1066,7 @@ msgstr[1] "Hemû yan &Rojane Bike"
 #. i18n: file: context/applets/tabs/ReloadEditDialog.ui:86
 #. i18n: ectx: property (text), widget (QLabel, titleLabel)
 #: browsers/playlistbrowser/PodcastModel.cpp:335
-#: context/applets/lyrics/LyricsApplet.cpp:222
+#: context/applets/lyrics/LyricsApplet.cpp:235
 #: dialogs/FilenameLayoutDialog.cpp:216 dialogs/FilenameLayoutDialog.cpp:550
 #: musicbrainz/MusicBrainzTags.cpp:351 playlist/PlaylistModel.cpp:825
 #: widgets/MetaQueryWidget.cpp:211 widgets/SmartPlaylistEditor.cpp:183
@@ -1589,54 +1589,6 @@ msgid_plural "%1 tracks"
 msgstr[0] "%1 stran"
 msgstr[1] "%1 stranan "
 
-#: context/applets/albums/Albums.cpp:75
-#: context/engines/current/CurrentEngine.cpp:139
-msgid "Recently added albums"
-msgstr "Albumên herî dawî lê hatine zêdekirin "
-
-#: context/applets/albums/Albums.cpp:82
-#: context/applets/labels/LabelsApplet.cpp:112
-#: context/applets/lyrics/LyricsApplet.cpp:422
-#: context/applets/photos/PhotosApplet.cpp:85
-#: context/applets/similarartists/SimilarArtistsApplet.cpp:88
-#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:80
-#: context/applets/videoclip/VideoclipApplet.cpp:118
-#: context/applets/wikipedia/WikipediaApplet.cpp:557
-#: context/applets/tabs/TabsApplet.cpp:134
-#, fuzzy
-#| msgid "&Settings"
-msgid "Settings"
-msgstr "&Mîheng"
-
-#: context/applets/albums/Albums.cpp:181
-#, kde-format
-msgid "Disc %1"
-msgstr "Dîska %1"
-
-#. i18n: file: context/applets/upcomingevents/upcomingEventsGeneralSettings.ui:58
-#. i18n: ectx: property (text), widget (QCheckBox, groupVenueCheckBox)
-#. i18n: file: core-impl/collections/umscollection/UmsConfiguration.ui:46
-#. i18n: ectx: property (text), widget (QCheckBox, m_autoConnect)
-#: context/applets/albums/Albums.cpp:218 rc.cpp:436 rc.cpp:535
-#, fuzzy
-#| msgid "Failed"
-msgid "Enabled"
-msgstr "Têk Çû"
-
-#: context/applets/albums/Albums.cpp:223
-#, fuzzy
-#| msgid "Recently added albums"
-msgid "Number of recently added albums:"
-msgstr "Albumên herî dawî lê hatine zêdekirin "
-
-#: context/applets/albums/Albums.cpp:224
-msgid "Right align track lengths:"
-msgstr ""
-
-#: context/applets/albums/Albums.cpp:229
-msgid "Albums Applet Settings"
-msgstr ""
-
 #: context/applets/albums/AlbumsView.cpp:213
 #: context/applets/videoclip/VideoItemButton.cpp:97
 msgid "&Queue"
@@ -1649,6 +1601,54 @@ msgstr "&Rêz bike"
 #: playlist/view/PlaylistViewCommon.cpp:244 rc.cpp:289
 msgid "Edit Track Details"
 msgstr "&Kitekitên Stranê Biguherîne"
+
+#: context/applets/albums/Albums.cpp:74
+#: context/engines/current/CurrentEngine.cpp:139
+msgid "Recently added albums"
+msgstr "Albumên herî dawî lê hatine zêdekirin "
+
+#: context/applets/albums/Albums.cpp:81
+#: context/applets/labels/LabelsApplet.cpp:111
+#: context/applets/lyrics/LyricsApplet.cpp:528
+#: context/applets/photos/PhotosApplet.cpp:84
+#: context/applets/similarartists/SimilarArtistsApplet.cpp:87
+#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:80
+#: context/applets/videoclip/VideoclipApplet.cpp:118
+#: context/applets/wikipedia/WikipediaApplet.cpp:556
+#: context/applets/tabs/TabsApplet.cpp:133
+#, fuzzy
+#| msgid "&Settings"
+msgid "Settings"
+msgstr "&Mîheng"
+
+#: context/applets/albums/Albums.cpp:180
+#, kde-format
+msgid "Disc %1"
+msgstr "Dîska %1"
+
+#. i18n: file: context/applets/upcomingevents/upcomingEventsGeneralSettings.ui:58
+#. i18n: ectx: property (text), widget (QCheckBox, groupVenueCheckBox)
+#. i18n: file: core-impl/collections/umscollection/UmsConfiguration.ui:46
+#. i18n: ectx: property (text), widget (QCheckBox, m_autoConnect)
+#: context/applets/albums/Albums.cpp:217 rc.cpp:436 rc.cpp:535
+#, fuzzy
+#| msgid "Failed"
+msgid "Enabled"
+msgstr "Têk Çû"
+
+#: context/applets/albums/Albums.cpp:222
+#, fuzzy
+#| msgid "Recently added albums"
+msgid "Number of recently added albums:"
+msgstr "Albumên herî dawî lê hatine zêdekirin "
+
+#: context/applets/albums/Albums.cpp:223
+msgid "Right align track lengths:"
+msgstr ""
+
+#: context/applets/albums/Albums.cpp:228
+msgid "Albums Applet Settings"
+msgstr ""
 
 #: context/applets/currenttrack/CurrentTrack.h:38
 #: core-impl/collections/mtpcollection/handler/MtpHandler.cpp:417
@@ -1775,7 +1775,7 @@ msgstr "Sepanok Rake"
 
 #: context/applets/labels/LabelGraphicsItem.cpp:54
 #: context/applets/similarartists/ArtistWidget.cpp:117
-#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:159
+#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:158
 #: playlist/view/PlaylistViewCommon.cpp:184
 #, fuzzy
 #| msgid "File Extension of Source"
@@ -1788,27 +1788,27 @@ msgstr "Pêveka Dosiya Çavkaniyê"
 msgid "Add to blacklist"
 msgstr "lîsteya lêdanê"
 
-#: context/applets/labels/LabelsApplet.cpp:92
-#: context/applets/labels/LabelsApplet.cpp:173
-#: context/applets/labels/LabelsApplet.cpp:180
-#: context/applets/labels/LabelsApplet.cpp:477
-#: context/applets/labels/LabelsApplet.cpp:488 dialogs/TagDialog.cpp:698
+#: context/applets/labels/LabelsApplet.cpp:91
+#: context/applets/labels/LabelsApplet.cpp:172
+#: context/applets/labels/LabelsApplet.cpp:179
+#: context/applets/labels/LabelsApplet.cpp:476
+#: context/applets/labels/LabelsApplet.cpp:487 dialogs/TagDialog.cpp:698
 msgid "Labels"
 msgstr "Etîket"
 
-#: context/applets/labels/LabelsApplet.cpp:102
-#: context/applets/wikipedia/WikipediaApplet.cpp:564
+#: context/applets/labels/LabelsApplet.cpp:101
+#: context/applets/wikipedia/WikipediaApplet.cpp:563
 msgid "Reload"
 msgstr "Nû ve bar bike"
 
-#: context/applets/labels/LabelsApplet.cpp:477
-#: context/applets/photos/PhotosApplet.cpp:193
+#: context/applets/labels/LabelsApplet.cpp:476
+#: context/applets/photos/PhotosApplet.cpp:192
 #, fuzzy
 #| msgid "Fetching content.."
 msgid "Fetching ..."
 msgstr "Naverokê tîne..."
 
-#: context/applets/labels/LabelsApplet.cpp:537
+#: context/applets/labels/LabelsApplet.cpp:536
 #, fuzzy, kde-format
 #| msgid "Results for: %1"
 msgid "Labels for %1 by %2"
@@ -1816,22 +1816,43 @@ msgstr "Encam ji bo: %1"
 
 #. i18n: file: context/applets/labels/labelsSettings.ui:20
 #. i18n: ectx: property (windowTitle), widget (QWidget, labelsSettings)
-#: context/applets/labels/LabelsApplet.cpp:667 rc.cpp:298
+#: context/applets/labels/LabelsApplet.cpp:666 rc.cpp:298
 #, fuzzy
 #| msgid "&Settings"
 msgid "Labels Settings"
 msgstr "&Mîheng"
 
-#: context/applets/lyrics/LyricsApplet.cpp:53
-#: context/applets/lyrics/LyricsApplet.cpp:378
-#: context/applets/lyrics/LyricsApplet.cpp:535
-#: context/applets/lyrics/LyricsApplet.cpp:569
-#: context/applets/lyrics/LyricsApplet.cpp:581 dialogs/TagDialog.cpp:696
-#: dialogs/ScriptManager.cpp:698
+#: context/applets/lyrics/LyricsApplet.cpp:54
+#: context/applets/lyrics/LyricsApplet.cpp:484
+#: context/applets/lyrics/LyricsApplet.cpp:641
+#: context/applets/lyrics/LyricsApplet.cpp:675
+#: context/applets/lyrics/LyricsApplet.cpp:687 dialogs/ScriptManager.cpp:698
+#: dialogs/TagDialog.cpp:696
 msgid "Lyrics"
 msgstr "Gotin"
 
-#: context/applets/lyrics/LyricsApplet.cpp:386
+#: context/applets/lyrics/LyricsApplet.cpp:282
+#, fuzzy
+#| msgid "Unknown"
+msgctxt "Used if the current track has no artist."
+msgid "Unknown"
+msgstr "Nenas"
+
+#: context/applets/lyrics/LyricsApplet.cpp:289
+#, kde-format
+msgid ""
+"While you were editing the lyrics of <b>%1 - %2</b> the track has changed. "
+"Do you want to save your changes?"
+msgstr ""
+
+#: context/applets/lyrics/LyricsApplet.cpp:296
+#, kde-format
+msgid ""
+"The lyrics of <b>%1 - %2</b> changed while you were editing them. Do you "
+"want to save your changes?"
+msgstr ""
+
+#: context/applets/lyrics/LyricsApplet.cpp:492
 #, fuzzy
 #| msgid "Lyrics"
 msgid "Edit Lyrics"
@@ -1839,52 +1860,52 @@ msgstr "Gotin"
 
 #. i18n: file: services/magnatune/MagnatuneSignupDialogBase.ui:45
 #. i18n: ectx: property (text), widget (QPushButton, closeButton)
-#: context/applets/lyrics/LyricsApplet.cpp:395
+#: context/applets/lyrics/LyricsApplet.cpp:501
 #: firstruntutorial/FirstRunTutorialPage.cpp:56 rc.cpp:1797
 msgid "Close"
 msgstr "Girtin"
 
-#: context/applets/lyrics/LyricsApplet.cpp:404
+#: context/applets/lyrics/LyricsApplet.cpp:510
 #, fuzzy
 #| msgid "Lyrics"
 msgid "Save Lyrics"
 msgstr "Gotin"
 
-#: context/applets/lyrics/LyricsApplet.cpp:413
+#: context/applets/lyrics/LyricsApplet.cpp:519
 msgid "Reload Lyrics"
 msgstr "Gotinên Stranan Nû ve Bar Bike"
 
-#: context/applets/lyrics/LyricsApplet.cpp:528
+#: context/applets/lyrics/LyricsApplet.cpp:634
 #, fuzzy
 #| msgid "No lyrics script is running!"
 msgid "Lyrics: No script is running"
 msgstr "Tu skrîptê gotinên stranê naxebite!"
 
-#: context/applets/lyrics/LyricsApplet.cpp:529
+#: context/applets/lyrics/LyricsApplet.cpp:635
 #, fuzzy
 #| msgid "No lyrics script is running!"
 msgid "Lyrics can not be fetched as no script is running"
 msgstr "Tu skrîptê gotinên stranê naxebite!"
 
-#: context/applets/lyrics/LyricsApplet.cpp:542
+#: context/applets/lyrics/LyricsApplet.cpp:648
 #, fuzzy
 #| msgid "Fetching content.."
 msgid "Lyrics: Fetching ..."
 msgstr "Naverokê tîne..."
 
-#: context/applets/lyrics/LyricsApplet.cpp:543
+#: context/applets/lyrics/LyricsApplet.cpp:649
 #, fuzzy
 #| msgid "Lyrics are being fetched."
 msgid "Lyrics are being fetched"
 msgstr "Gotinên stranan tên vexwendin."
 
-#: context/applets/lyrics/LyricsApplet.cpp:549
+#: context/applets/lyrics/LyricsApplet.cpp:655
 #, fuzzy
 #| msgid "Fetching content.."
 msgid "Lyrics: Fetch error"
 msgstr "Naverokê tîne..."
 
-#: context/applets/lyrics/LyricsApplet.cpp:550
+#: context/applets/lyrics/LyricsApplet.cpp:656
 #, fuzzy, kde-format
 #| msgid ""
 #| "Lyrics were not able to be downloaded. Please check your internet "
@@ -1897,23 +1918,23 @@ msgid ""
 msgstr ""
 "Gotinên stranê nayên daxistin. Jê kerema xwe girêdana torê kontrol bike: %1"
 
-#: context/applets/lyrics/LyricsApplet.cpp:560
+#: context/applets/lyrics/LyricsApplet.cpp:666
 #, fuzzy
 msgid "Lyrics: Suggested URLs"
 msgstr "Stranên pêşniyazkirî"
 
-#: context/applets/lyrics/LyricsApplet.cpp:591
+#: context/applets/lyrics/LyricsApplet.cpp:697
 #, fuzzy
 #| msgid "1 not found"
 #| msgid_plural "%1 not found"
 msgid "Lyrics: Not found"
 msgstr "1 nehat dîtin"
 
-#: context/applets/lyrics/LyricsApplet.cpp:592
+#: context/applets/lyrics/LyricsApplet.cpp:698
 msgid "There were no lyrics found for this track"
 msgstr "Ji bo vê stranê tu gotin nehat dîtin"
 
-#: context/applets/lyrics/LyricsApplet.cpp:639
+#: context/applets/lyrics/LyricsApplet.cpp:743
 #, fuzzy
 #| msgctxt "@info"
 #| msgid ""
@@ -1927,27 +1948,21 @@ msgstr ""
 "Tu bi rastî dixwazî wan stranên %1 jê bibî? Ev wê ji dîska we û berhevoka we "
 "bên rakirin."
 
-#: context/applets/lyrics/LyricsApplet.cpp:640
-#, fuzzy
-#| msgid "Repeat Playlist"
-msgid "Refetch lyrics"
-msgstr "Lîsteya Lêdanê Dubare Bike"
-
 #. i18n: file: context/applets/lyrics/lyricsSettings.ui:26
 #. i18n: ectx: property (windowTitle), widget (QWidget, lyricsSettings)
-#: context/applets/lyrics/LyricsApplet.cpp:657 rc.cpp:350
+#: context/applets/lyrics/LyricsApplet.cpp:764 rc.cpp:350
 #, fuzzy
 #| msgid "&Settings"
 msgid "Lyrics Settings"
 msgstr "&Mîheng"
 
-#: context/applets/photos/PhotosApplet.cpp:74
-#: context/applets/photos/PhotosApplet.cpp:147
-#: context/applets/photos/PhotosApplet.cpp:159
-#: context/applets/photos/PhotosApplet.cpp:180
-#: context/applets/photos/PhotosApplet.cpp:193
-#: context/applets/photos/PhotosApplet.cpp:214
-#: context/applets/photos/PhotosApplet.cpp:229
+#: context/applets/photos/PhotosApplet.cpp:73
+#: context/applets/photos/PhotosApplet.cpp:146
+#: context/applets/photos/PhotosApplet.cpp:158
+#: context/applets/photos/PhotosApplet.cpp:179
+#: context/applets/photos/PhotosApplet.cpp:192
+#: context/applets/photos/PhotosApplet.cpp:213
+#: context/applets/photos/PhotosApplet.cpp:228
 #, fuzzy
 #| msgid "Goto"
 msgid "Photos"
@@ -1955,14 +1970,14 @@ msgstr "Biçe"
 
 #. i18n: file: context/applets/photos/photosSettings.ui:31
 #. i18n: ectx: property (text), item, widget (KComboBox, animationComboBox)
-#: context/applets/photos/PhotosApplet.cpp:108 rc.cpp:356
+#: context/applets/photos/PhotosApplet.cpp:107 rc.cpp:356
 msgctxt "animation type"
 msgid "Automatic"
 msgstr ""
 
 #. i18n: file: context/applets/photos/photosSettings.ui:36
 #. i18n: ectx: property (text), item, widget (KComboBox, animationComboBox)
-#: context/applets/photos/PhotosApplet.cpp:111 rc.cpp:359
+#: context/applets/photos/PhotosApplet.cpp:110 rc.cpp:359
 #, fuzzy
 #| msgid "International"
 msgid "Interactive"
@@ -1970,13 +1985,13 @@ msgstr "Navneteweyî"
 
 #. i18n: file: context/applets/photos/photosSettings.ui:41
 #. i18n: ectx: property (text), item, widget (KComboBox, animationComboBox)
-#: context/applets/photos/PhotosApplet.cpp:114 rc.cpp:362
+#: context/applets/photos/PhotosApplet.cpp:113 rc.cpp:362
 #, fuzzy
 #| msgid "Rating"
 msgid "Fading"
 msgstr "Nirxandin"
 
-#: context/applets/photos/PhotosApplet.cpp:255
+#: context/applets/photos/PhotosApplet.cpp:254
 #, fuzzy
 #| msgid "%1 Settings"
 msgid "Photos Settings"
@@ -1989,76 +2004,6 @@ msgstr "Sepanoka Agahiyên Lîsteya Lêdanê Veava Bike"
 #: context/applets/playlistinfo/PlaylistInfo.cpp:163
 msgid "Width"
 msgstr "Firehî"
-
-#: context/applets/similarartists/SimilarArtistsApplet.cpp:81
-#: context/applets/similarartists/SimilarArtistsApplet.cpp:132
-#: context/applets/similarartists/SimilarArtistsApplet.cpp:158
-#, fuzzy
-#| msgid "Similar Artists to \"%1\""
-msgid "Similar Artists"
-msgstr "Hunermendên wekî \"%1\""
-
-#: context/applets/similarartists/SimilarArtistsApplet.cpp:141
-#, fuzzy
-#| msgid "Amarok - No track playing"
-msgid "Similar Artist: No track playing"
-msgstr "Amarok - Tu stran nayê lêdan"
-
-#. i18n: file: context/applets/similarartists/similarArtistsSettings.ui:53
-#. i18n: ectx: property (text), item, widget (QComboBox, comboBox)
-#: context/applets/similarartists/SimilarArtistsApplet.cpp:181 rc.cpp:388
-#, fuzzy
-#| msgid "Engine"
-msgid "English"
-msgstr "Motor"
-
-#. i18n: file: context/applets/similarartists/similarArtistsSettings.ui:58
-#. i18n: ectx: property (text), item, widget (QComboBox, comboBox)
-#: context/applets/similarartists/SimilarArtistsApplet.cpp:183 rc.cpp:391
-#, fuzzy
-#| msgid "France"
-msgid "French"
-msgstr "Fransa"
-
-#. i18n: file: context/applets/similarartists/similarArtistsSettings.ui:63
-#. i18n: ectx: property (text), item, widget (QComboBox, comboBox)
-#: context/applets/similarartists/SimilarArtistsApplet.cpp:185 rc.cpp:394
-#, fuzzy
-#| msgid "Germany"
-msgid "German"
-msgstr "Almanya"
-
-#. i18n: file: context/applets/similarartists/similarArtistsSettings.ui:68
-#. i18n: ectx: property (text), item, widget (QComboBox, comboBox)
-#: context/applets/similarartists/SimilarArtistsApplet.cpp:187 rc.cpp:397
-#, fuzzy
-#| msgid "Italic"
-msgid "Italian"
-msgstr "Xahr"
-
-#. i18n: file: context/applets/similarartists/similarArtistsSettings.ui:73
-#. i18n: ectx: property (text), item, widget (QComboBox, comboBox)
-#: context/applets/similarartists/SimilarArtistsApplet.cpp:189 rc.cpp:400
-msgid "Spanish"
-msgstr ""
-
-#: context/applets/similarartists/SimilarArtistsApplet.cpp:221
-#, fuzzy
-#| msgid "Similar Artists to \"%1\""
-msgid "Similar Artists Settings"
-msgstr "Hunermendên wekî \"%1\""
-
-#: context/applets/similarartists/SimilarArtistsApplet.cpp:242
-#, fuzzy, kde-format
-#| msgid "Similar Artists to \"%1\""
-msgid "Similar Artists of %1"
-msgstr "Hunermendên wekî \"%1\""
-
-#: context/applets/similarartists/SimilarArtistsApplet.cpp:247
-#, fuzzy
-#| msgid "Similar Artists to \"%1\""
-msgid "Similar Artists: Not Found"
-msgstr "Hunermendên wekî \"%1\""
 
 #: context/applets/similarartists/ArtistWidget.cpp:124
 #, fuzzy
@@ -2107,6 +2052,76 @@ msgstr "Rûgir nehat dîtin"
 msgid "Top track: %1"
 msgstr "Stranan kom bike"
 
+#: context/applets/similarartists/SimilarArtistsApplet.cpp:80
+#: context/applets/similarartists/SimilarArtistsApplet.cpp:131
+#: context/applets/similarartists/SimilarArtistsApplet.cpp:157
+#, fuzzy
+#| msgid "Similar Artists to \"%1\""
+msgid "Similar Artists"
+msgstr "Hunermendên wekî \"%1\""
+
+#: context/applets/similarartists/SimilarArtistsApplet.cpp:140
+#, fuzzy
+#| msgid "Amarok - No track playing"
+msgid "Similar Artist: No track playing"
+msgstr "Amarok - Tu stran nayê lêdan"
+
+#. i18n: file: context/applets/similarartists/similarArtistsSettings.ui:53
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBox)
+#: context/applets/similarartists/SimilarArtistsApplet.cpp:180 rc.cpp:388
+#, fuzzy
+#| msgid "Engine"
+msgid "English"
+msgstr "Motor"
+
+#. i18n: file: context/applets/similarartists/similarArtistsSettings.ui:58
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBox)
+#: context/applets/similarartists/SimilarArtistsApplet.cpp:182 rc.cpp:391
+#, fuzzy
+#| msgid "France"
+msgid "French"
+msgstr "Fransa"
+
+#. i18n: file: context/applets/similarartists/similarArtistsSettings.ui:63
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBox)
+#: context/applets/similarartists/SimilarArtistsApplet.cpp:184 rc.cpp:394
+#, fuzzy
+#| msgid "Germany"
+msgid "German"
+msgstr "Almanya"
+
+#. i18n: file: context/applets/similarartists/similarArtistsSettings.ui:68
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBox)
+#: context/applets/similarartists/SimilarArtistsApplet.cpp:186 rc.cpp:397
+#, fuzzy
+#| msgid "Italic"
+msgid "Italian"
+msgstr "Xahr"
+
+#. i18n: file: context/applets/similarartists/similarArtistsSettings.ui:73
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBox)
+#: context/applets/similarartists/SimilarArtistsApplet.cpp:188 rc.cpp:400
+msgid "Spanish"
+msgstr ""
+
+#: context/applets/similarartists/SimilarArtistsApplet.cpp:220
+#, fuzzy
+#| msgid "Similar Artists to \"%1\""
+msgid "Similar Artists Settings"
+msgstr "Hunermendên wekî \"%1\""
+
+#: context/applets/similarartists/SimilarArtistsApplet.cpp:241
+#, fuzzy, kde-format
+#| msgid "Similar Artists to \"%1\""
+msgid "Similar Artists of %1"
+msgstr "Hunermendên wekî \"%1\""
+
+#: context/applets/similarartists/SimilarArtistsApplet.cpp:246
+#, fuzzy
+#| msgid "Similar Artists to \"%1\""
+msgid "Similar Artists: Not Found"
+msgstr "Hunermendên wekî \"%1\""
+
 #: context/applets/songkick/SongkickApplet.cpp:41
 #, fuzzy
 #| msgid "Plugin Information"
@@ -2152,18 +2167,6 @@ msgstr "Ji bo vê stranê tu gotin nehat dîtin"
 msgctxt "@info:tooltip Calendar action"
 msgid "Jump to Today"
 msgstr "Koma Radyo: %1"
-
-#: context/applets/upcomingevents/UpcomingEventsStackItem.cpp:289
-msgid "Maximize"
-msgstr ""
-
-#: context/applets/upcomingevents/UpcomingEventsStackItem.cpp:446
-msgid "Expand this widget"
-msgstr "Vê alavê firehtir bike"
-
-#: context/applets/upcomingevents/UpcomingEventsStackItem.cpp:446
-msgid "Collapse this widget"
-msgstr "Vê alavê tengtir bike"
 
 #: context/applets/upcomingevents/UpcomingEventsMapWidget.cpp:122
 #: context/applets/upcomingevents/UpcomingEventsWidget.cpp:122
@@ -2263,38 +2266,38 @@ msgstr ""
 msgid "View Events Calendar"
 msgstr ""
 
-#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:91
-#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:143
+#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:90
+#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:142
 msgid "Upcoming Events"
 msgstr ""
 
-#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:103
+#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:102
 #, fuzzy
 #| msgid "No track playing"
 msgctxt "@title:group"
 msgid "No track is currently playing"
 msgstr "Tu Stran Nayê Lêdan"
 
-#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:172
-#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:317
+#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:171
+#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:316
 #, fuzzy
 #| msgid "Favorite Albums"
 msgid "Favorite Venues"
 msgstr "Albumên Bijarte"
 
-#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:238
+#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:237
 #, fuzzy
 #| msgid "Fetching cover for %1..."
 msgid "No upcoming events"
 msgstr "Rûgir tê anîn ji bo %1..."
 
-#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:238
+#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:237
 #, fuzzy, kde-format
 #| msgid "Fetching cover for %1..."
 msgid "%1: No upcoming events"
 msgstr "Rûgir tê anîn ji bo %1..."
 
-#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:243
+#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:242
 #, fuzzy, kde-format
 msgctxt "@title:group Number of upcoming events"
 msgid "1 event"
@@ -2302,8 +2305,8 @@ msgid_plural "%1 events"
 msgstr[0] "Dîmender Tije"
 msgstr[1] "Dîmender Tije"
 
-#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:244
-#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:648
+#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:243
+#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:647
 #, kde-format
 msgctxt "@title:group Number of upcoming events"
 msgid "%1: 1 event"
@@ -2311,27 +2314,27 @@ msgid_plural "%1: %2 events"
 msgstr[0] ""
 msgstr[1] ""
 
-#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:316
+#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:315
 #, fuzzy
 #| msgid "%1 Settings"
 msgid "Upcoming Events Settings"
 msgstr "Mîhengên %1"
 
-#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:367
-#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:376
+#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:366
+#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:375
 #, fuzzy
 msgctxt "@label:textbox Url label"
 msgid "link"
 msgstr "&Bilîze"
 
-#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:508
+#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:507
 #, fuzzy
 #| msgctxt "@title buttontext for popup-menu"
 #| msgid "View"
 msgid "Map View"
 msgstr "Bergeh"
 
-#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:540
+#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:539
 msgid "Events Calender"
 msgstr ""
 
@@ -2339,7 +2342,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox)
 #. i18n: file: context/applets/upcomingevents/upcomingEventsGeneralSettings.ui:33
 #. i18n: ectx: property (text), item, widget (QComboBox, filterComboBox)
-#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:559 rc.cpp:406
+#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:558 rc.cpp:406
 #: rc.cpp:424
 #, fuzzy
 #| msgid "last week"
@@ -2350,7 +2353,7 @@ msgstr "hefte ya borî"
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox)
 #. i18n: file: context/applets/upcomingevents/upcomingEventsGeneralSettings.ui:38
 #. i18n: ectx: property (text), item, widget (QComboBox, filterComboBox)
-#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:561 rc.cpp:409
+#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:560 rc.cpp:409
 #: rc.cpp:427
 #, fuzzy
 #| msgid "last month"
@@ -2361,19 +2364,31 @@ msgstr "meha borî"
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox)
 #. i18n: file: context/applets/upcomingevents/upcomingEventsGeneralSettings.ui:43
 #. i18n: ectx: property (text), item, widget (QComboBox, filterComboBox)
-#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:563 rc.cpp:412
+#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:562 rc.cpp:412
 #: rc.cpp:430
 #, fuzzy
 #| msgid "year"
 msgid "This year"
 msgstr "sal"
 
-#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:646
+#: context/applets/upcomingevents/UpcomingEventsApplet.cpp:645
 #, fuzzy
 #| msgid "Favorite Albums"
 msgctxt "@title:group"
 msgid "Favorite Venues"
 msgstr "Albumên Bijarte"
+
+#: context/applets/upcomingevents/UpcomingEventsStackItem.cpp:290
+msgid "Maximize"
+msgstr ""
+
+#: context/applets/upcomingevents/UpcomingEventsStackItem.cpp:446
+msgid "Expand this widget"
+msgstr "Vê alavê firehtir bike"
+
+#: context/applets/upcomingevents/UpcomingEventsStackItem.cpp:446
+msgid "Collapse this widget"
+msgstr "Vê alavê tengtir bike"
 
 #: context/applets/videoclip/CustomVideoWidget.cpp:83
 #, fuzzy
@@ -2399,26 +2414,26 @@ msgstr "lîsteya lêdanê"
 msgid "Append and &Play"
 msgstr "Lê zêde bike && &Lê bide"
 
-#: context/applets/videoclip/VideoclipApplet.cpp:129
-#: context/applets/videoclip/VideoclipApplet.cpp:290
-#: context/applets/videoclip/VideoclipApplet.cpp:332
-#: context/applets/videoclip/VideoclipApplet.cpp:352
+#: context/applets/videoclip/VideoclipApplet.cpp:128
+#: context/applets/videoclip/VideoclipApplet.cpp:289
+#: context/applets/videoclip/VideoclipApplet.cpp:331
+#: context/applets/videoclip/VideoclipApplet.cpp:351
 msgid "Video Clip"
 msgstr ""
 
-#: context/applets/videoclip/VideoclipApplet.cpp:343
+#: context/applets/videoclip/VideoclipApplet.cpp:342
 #, fuzzy
 #| msgid "Wikipedia"
 msgid "Video Clip "
 msgstr "Wîkîpediya"
 
-#: context/applets/videoclip/VideoclipApplet.cpp:343
+#: context/applets/videoclip/VideoclipApplet.cpp:342
 #, fuzzy
 #| msgid "No information found..."
 msgid " No information found..."
 msgstr "Tu agahî nehat dîtin..."
 
-#: context/applets/videoclip/VideoclipApplet.cpp:525
+#: context/applets/videoclip/VideoclipApplet.cpp:524
 #, fuzzy
 #| msgid "Wikipedia"
 msgid "Video Clip Settings"
@@ -2434,108 +2449,108 @@ msgstr ""
 msgid "Get Supported Languages"
 msgstr ""
 
-#: context/applets/wikipedia/WikipediaApplet.cpp:516
-#: context/applets/wikipedia/WikipediaApplet.cpp:649
-#: context/applets/wikipedia/WikipediaApplet.cpp:675
+#: context/applets/wikipedia/WikipediaApplet.cpp:515
+#: context/applets/wikipedia/WikipediaApplet.cpp:648
+#: context/applets/wikipedia/WikipediaApplet.cpp:674
 msgid "Wikipedia"
 msgstr "Wîkîpediya"
 
-#: context/applets/wikipedia/WikipediaApplet.cpp:522
+#: context/applets/wikipedia/WikipediaApplet.cpp:521
 #, fuzzy
 #| msgid "Track"
 msgid "Back"
 msgstr "Stran"
 
-#: context/applets/wikipedia/WikipediaApplet.cpp:529
+#: context/applets/wikipedia/WikipediaApplet.cpp:528
 #, fuzzy
 #| msgid "&Seek Forward"
 msgid "Forward"
 msgstr "Pêşveçûna &Bilez"
 
-#: context/applets/wikipedia/WikipediaApplet.cpp:550
+#: context/applets/wikipedia/WikipediaApplet.cpp:549
 #: dialogs/FilenameLayoutDialog.cpp:212 dialogs/FilenameLayoutDialog.cpp:557
 #: services/jamendo/JamendoInfoParser.cpp:109
 msgid "Track"
 msgstr "Stran"
 
-#: context/applets/wikipedia/WikipediaApplet.cpp:716
+#: context/applets/wikipedia/WikipediaApplet.cpp:715
 #, fuzzy
 #| msgid "Wikipedia"
 msgid "Wikipedia Language Settings"
 msgstr "Wîkîpediya"
 
-#: context/applets/tabs/TabsApplet.cpp:103
-#: context/applets/tabs/TabsApplet.cpp:215
-#: context/applets/tabs/TabsApplet.cpp:243
-#: context/applets/tabs/TabsApplet.cpp:259
+#: context/applets/tabs/TabsView.cpp:155
+msgid "tab provided from: "
+msgstr ""
+
+#: context/applets/tabs/TabsApplet.cpp:102
+#: context/applets/tabs/TabsApplet.cpp:214
+#: context/applets/tabs/TabsApplet.cpp:242
+#: context/applets/tabs/TabsApplet.cpp:258
 #, fuzzy
 #| msgid "Tags"
 msgctxt "Guitar tablature"
 msgid "Tabs"
 msgstr "Etîket"
 
-#: context/applets/tabs/TabsApplet.cpp:125
+#: context/applets/tabs/TabsApplet.cpp:124
 #, fuzzy
 #| msgid "Reload"
 msgctxt "Guitar tablature"
 msgid "Reload tabs"
 msgstr "Nû ve bar bike"
 
-#: context/applets/tabs/TabsApplet.cpp:198
+#: context/applets/tabs/TabsApplet.cpp:197
 #, fuzzy
 #| msgid "No track playing"
 msgctxt "Guitar tablature"
 msgid "Tabs: No track playing"
 msgstr "Tu Stran Nayê Lêdan"
 
-#: context/applets/tabs/TabsApplet.cpp:228
+#: context/applets/tabs/TabsApplet.cpp:227
 #, fuzzy
 #| msgid "Fetching content.."
 msgid "Tabs: Fetching ..."
 msgstr "Naverokê tîne..."
 
-#: context/applets/tabs/TabsApplet.cpp:229
+#: context/applets/tabs/TabsApplet.cpp:228
 #, fuzzy
 #| msgid "Lyrics are being fetched."
 msgid "Tabs are being fetched"
 msgstr "Gotinên stranan tên vexwendin."
 
-#: context/applets/tabs/TabsApplet.cpp:250
+#: context/applets/tabs/TabsApplet.cpp:249
 #, fuzzy, kde-format
 #| msgid "Results for: %1"
 msgctxt "Guitar tablature"
 msgid "No tabs for %1 by %2"
 msgstr "Encam ji bo: %1"
 
-#: context/applets/tabs/TabsApplet.cpp:251
+#: context/applets/tabs/TabsApplet.cpp:250
 #, fuzzy
 #| msgid "There were no lyrics found for this track"
 msgid "There were no tabs found for this track"
 msgstr "Ji bo vê stranê tu gotin nehat dîtin"
 
-#: context/applets/tabs/TabsApplet.cpp:285
+#: context/applets/tabs/TabsApplet.cpp:284
 #, fuzzy, kde-format
 #| msgid "Results for: %1"
 msgctxt "Guitar tablature"
 msgid "Tabs : %1 - %2"
 msgstr "Encam ji bo: %1"
 
-#: context/applets/tabs/TabsApplet.cpp:366
+#: context/applets/tabs/TabsApplet.cpp:365
 #, fuzzy
 #| msgid "&Settings"
 msgctxt "Guitar tablature settings"
 msgid "Tabs Settings"
 msgstr "&Mîheng"
 
-#: context/applets/tabs/TabsApplet.cpp:396
+#: context/applets/tabs/TabsApplet.cpp:395
 #, fuzzy
 #| msgid "Reload"
 msgid "Reload Tabs"
 msgstr "Nû ve bar bike"
-
-#: context/applets/tabs/TabsView.cpp:155
-msgid "tab provided from: "
-msgstr ""
 
 #: context/containments/oldcontainment/ColumnContainment.cpp:98
 #: context/toolbar/AppletToolbarAddItem.cpp:71
@@ -2930,7 +2945,7 @@ msgstr "%1 - %2 ( %3 )"
 msgid "&Context"
 msgstr "Navîn"
 
-#: context/LyricsManager.cpp:113
+#: context/LyricsManager.cpp:115
 msgid "Lyrics data could not be parsed"
 msgstr "Daneya gotinê stranê nayê hev qetandin"
 
@@ -5312,167 +5327,6 @@ msgid ""
 "automatically guess the character sets used in ID3 tags."
 msgstr ""
 
-#: dialogs/TagDialog.cpp:588
-msgid "Filename Layout Chooser"
-msgstr "Bijarkerê Bicihbûna Navê-pelê "
-
-#: dialogs/TagDialog.cpp:695
-msgid "Tags"
-msgstr "Etîket"
-
-#: dialogs/TagDialog.cpp:697
-msgid "Statistics"
-msgstr "Statistîk"
-
-#: dialogs/TagDialog.cpp:838
-msgctxt "The value for this tag is not known"
-msgid "Unknown"
-msgstr "Nenas"
-
-#: dialogs/TagDialog.cpp:894
-#, fuzzy
-#| msgid "Bookmark this Artist"
-msgid "Tracks by this Artist"
-msgstr "Vê Hunermendê Bike Bijare"
-
-#: dialogs/TagDialog.cpp:902
-#, fuzzy
-#| msgid "Album Artist"
-msgid "Albums by this Artist"
-msgstr "Hunermendê Albumê "
-
-#: dialogs/TagDialog.cpp:961
-#, kde-format
-msgid "Track Details: %1 by %2"
-msgstr "Kitekitên Stranê: %1 alî yê %2"
-
-#: dialogs/TagDialog.cpp:985 dialogs/TagDialog.cpp:995
-#, kde-format
-msgid "<b>%1</b> by <b>%2</b>"
-msgstr "<b>%1</b> alî yê <b>%2</b>"
-
-#: dialogs/TagDialog.cpp:993
-#, kde-format
-msgid "<b>%1</b> by <b>%2</b> on <b>%3</b>"
-msgstr "<b>%1</b> alî yê <b>%2</b> di <b>%3</b> de"
-
-#: dialogs/TagDialog.cpp:997
-#, kde-format
-msgid "<b>%1</b>"
-msgstr "<b>%1</b>"
-
-#: dialogs/TagDialog.cpp:1040
-msgid "Length:"
-msgstr "Mawe:"
-
-#: dialogs/TagDialog.cpp:1041
-#, fuzzy
-#| msgid "Bitrate:"
-msgid "Bit rate:"
-msgstr "Leza bit:"
-
-#: dialogs/TagDialog.cpp:1042
-#, fuzzy
-#| msgid "Samplerate:"
-msgid "Sample rate:"
-msgstr "Leza Mînak:"
-
-#: dialogs/TagDialog.cpp:1043
-msgid "Size:"
-msgstr "Mezinahî:"
-
-#: dialogs/TagDialog.cpp:1044
-msgid "Format:"
-msgstr "Teşe:"
-
-#. i18n: file: dialogs/TagDialogBase.ui:640
-#. i18n: ectx: property (text), widget (QLabel, scoreLabel)
-#: dialogs/TagDialog.cpp:1047 rc.cpp:873
-msgid "Score:"
-msgstr "Rewş:"
-
-#. i18n: file: dialogs/TagDialogBase.ui:672
-#. i18n: ectx: property (text), widget (QLabel, ratingLabel)
-#: dialogs/TagDialog.cpp:1049 rc.cpp:876
-msgid "Rating:"
-msgstr "Ecibandin:"
-
-#: dialogs/TagDialog.cpp:1051
-msgid "Play Count:"
-msgstr "Hejmara Lêdanan  :"
-
-#: dialogs/TagDialog.cpp:1054
-msgid "First Played:"
-msgstr "Lêdana Pêşîn:"
-
-#: dialogs/TagDialog.cpp:1055
-msgctxt "When this track was first played"
-msgid "Never"
-msgstr "Tu car"
-
-#: dialogs/TagDialog.cpp:1056
-msgctxt "a single item (singular)"
-msgid "Last Played:"
-msgstr "Lêdanên Dawî yê:"
-
-#: dialogs/TagDialog.cpp:1057
-msgctxt "When this track was last played"
-msgid "Never"
-msgstr "Tu car"
-
-#: dialogs/TagDialog.cpp:1061
-msgid "Collection:"
-msgstr "Berhevok:"
-
-#: dialogs/TagDialog.cpp:1063
-msgctxt "The collection this track is part of"
-msgid "None"
-msgstr "Ne Yek Jî"
-
-#: dialogs/TagDialog.cpp:1193
-#, kde-format
-msgctxt "The amount of tracks being edited"
-msgid "1 Track"
-msgid_plural "Information for %1 Tracks"
-msgstr[0] "1 Track"
-msgstr[1] "Agahî ji bo %1 Stranan"
-
-#: dialogs/TagDialog.cpp:1326
-#, kde-format
-msgid "Editing 1 file"
-msgid_plural "Editing %1 files"
-msgstr[0] "1 pel tê guherandin"
-msgstr[1] "%1 pel tên guherandin"
-
-#: dialogs/TagDialog.cpp:1331
-msgid "Rated Songs:"
-msgstr "Stranên Ecibandî:"
-
-#: dialogs/TagDialog.cpp:1333
-msgid "Average Rating:"
-msgstr "Ecibandina Kêm-zêde:"
-
-#: dialogs/TagDialog.cpp:1335
-msgid "Scored Songs:"
-msgstr "Stranên Pêşniyazkirî:"
-
-#: dialogs/TagDialog.cpp:1337
-msgid "Average Score:"
-msgstr "Skora Kêm-zêde:"
-
-#: dialogs/TagDialog.cpp:1666
-msgid ""
-"Writing to file failed. Please check permissions and available disc space."
-msgstr ""
-
-#. i18n: file: dialogs/MusicBrainzTagger.ui:20
-#. i18n: ectx: property (windowTitle), widget (QWidget, MusicBrainzTagger)
-#: dialogs/TagDialog.cpp:1848 rc.cpp:1031
-#, fuzzy
-#| msgid "MusicBrainz Lookup"
-msgid "MusicBrainz Tagger"
-msgstr "Lêgerîna Music Brainz"
-
 #: dialogs/ScriptManager.cpp:99 MainWindow.cpp:784
 msgid "Script Manager"
 msgstr "Rêveberê Skrîptê"
@@ -5582,6 +5436,167 @@ msgstr "Giştî"
 #| msgid "Simple Search"
 msgid "Scriptable Service"
 msgstr "Lêgerîna Hêsan"
+
+#: dialogs/TagDialog.cpp:588
+msgid "Filename Layout Chooser"
+msgstr "Bijarkerê Bicihbûna Navê-pelê "
+
+#: dialogs/TagDialog.cpp:695
+msgid "Tags"
+msgstr "Etîket"
+
+#: dialogs/TagDialog.cpp:697
+msgid "Statistics"
+msgstr "Statistîk"
+
+#: dialogs/TagDialog.cpp:838
+msgctxt "The value for this tag is not known"
+msgid "Unknown"
+msgstr "Nenas"
+
+#: dialogs/TagDialog.cpp:897
+#, fuzzy
+#| msgid "Bookmark this Artist"
+msgid "Tracks by this Artist"
+msgstr "Vê Hunermendê Bike Bijare"
+
+#: dialogs/TagDialog.cpp:905
+#, fuzzy
+#| msgid "Album Artist"
+msgid "Albums by this Artist"
+msgstr "Hunermendê Albumê "
+
+#: dialogs/TagDialog.cpp:964
+#, kde-format
+msgid "Track Details: %1 by %2"
+msgstr "Kitekitên Stranê: %1 alî yê %2"
+
+#: dialogs/TagDialog.cpp:988 dialogs/TagDialog.cpp:998
+#, kde-format
+msgid "<b>%1</b> by <b>%2</b>"
+msgstr "<b>%1</b> alî yê <b>%2</b>"
+
+#: dialogs/TagDialog.cpp:996
+#, kde-format
+msgid "<b>%1</b> by <b>%2</b> on <b>%3</b>"
+msgstr "<b>%1</b> alî yê <b>%2</b> di <b>%3</b> de"
+
+#: dialogs/TagDialog.cpp:1000
+#, kde-format
+msgid "<b>%1</b>"
+msgstr "<b>%1</b>"
+
+#: dialogs/TagDialog.cpp:1043
+msgid "Length:"
+msgstr "Mawe:"
+
+#: dialogs/TagDialog.cpp:1044
+#, fuzzy
+#| msgid "Bitrate:"
+msgid "Bit rate:"
+msgstr "Leza bit:"
+
+#: dialogs/TagDialog.cpp:1045
+#, fuzzy
+#| msgid "Samplerate:"
+msgid "Sample rate:"
+msgstr "Leza Mînak:"
+
+#: dialogs/TagDialog.cpp:1046
+msgid "Size:"
+msgstr "Mezinahî:"
+
+#: dialogs/TagDialog.cpp:1047
+msgid "Format:"
+msgstr "Teşe:"
+
+#. i18n: file: dialogs/TagDialogBase.ui:640
+#. i18n: ectx: property (text), widget (QLabel, scoreLabel)
+#: dialogs/TagDialog.cpp:1050 rc.cpp:873
+msgid "Score:"
+msgstr "Rewş:"
+
+#. i18n: file: dialogs/TagDialogBase.ui:672
+#. i18n: ectx: property (text), widget (QLabel, ratingLabel)
+#: dialogs/TagDialog.cpp:1052 rc.cpp:876
+msgid "Rating:"
+msgstr "Ecibandin:"
+
+#: dialogs/TagDialog.cpp:1054
+msgid "Play Count:"
+msgstr "Hejmara Lêdanan  :"
+
+#: dialogs/TagDialog.cpp:1057
+msgid "First Played:"
+msgstr "Lêdana Pêşîn:"
+
+#: dialogs/TagDialog.cpp:1058
+msgctxt "When this track was first played"
+msgid "Never"
+msgstr "Tu car"
+
+#: dialogs/TagDialog.cpp:1059
+msgctxt "a single item (singular)"
+msgid "Last Played:"
+msgstr "Lêdanên Dawî yê:"
+
+#: dialogs/TagDialog.cpp:1060
+msgctxt "When this track was last played"
+msgid "Never"
+msgstr "Tu car"
+
+#: dialogs/TagDialog.cpp:1064
+msgid "Collection:"
+msgstr "Berhevok:"
+
+#: dialogs/TagDialog.cpp:1066
+msgctxt "The collection this track is part of"
+msgid "None"
+msgstr "Ne Yek Jî"
+
+#: dialogs/TagDialog.cpp:1196
+#, kde-format
+msgctxt "The amount of tracks being edited"
+msgid "1 Track"
+msgid_plural "Information for %1 Tracks"
+msgstr[0] "1 Track"
+msgstr[1] "Agahî ji bo %1 Stranan"
+
+#: dialogs/TagDialog.cpp:1329
+#, kde-format
+msgid "Editing 1 file"
+msgid_plural "Editing %1 files"
+msgstr[0] "1 pel tê guherandin"
+msgstr[1] "%1 pel tên guherandin"
+
+#: dialogs/TagDialog.cpp:1334
+msgid "Rated Songs:"
+msgstr "Stranên Ecibandî:"
+
+#: dialogs/TagDialog.cpp:1336
+msgid "Average Rating:"
+msgstr "Ecibandina Kêm-zêde:"
+
+#: dialogs/TagDialog.cpp:1338
+msgid "Scored Songs:"
+msgstr "Stranên Pêşniyazkirî:"
+
+#: dialogs/TagDialog.cpp:1340
+msgid "Average Score:"
+msgstr "Skora Kêm-zêde:"
+
+#: dialogs/TagDialog.cpp:1669
+msgid ""
+"Writing to file failed. Please check permissions and available disc space."
+msgstr ""
+
+#. i18n: file: dialogs/MusicBrainzTagger.ui:20
+#. i18n: ectx: property (windowTitle), widget (QWidget, MusicBrainzTagger)
+#: dialogs/TagDialog.cpp:1851 rc.cpp:1031
+#, fuzzy
+#| msgid "MusicBrainz Lookup"
+msgid "MusicBrainz Tagger"
+msgstr "Lêgerîna Music Brainz"
 
 #: dynamic/biases/EchoNest.cpp:50
 #, fuzzy
@@ -14650,6 +14665,11 @@ msgstr ""
 #: App.cpp:798
 msgid "Moving files to trash"
 msgstr "Pelan bavêje sergo"
+
+#, fuzzy
+#~| msgid "Repeat Playlist"
+#~ msgid "Refetch lyrics"
+#~ msgstr "Lîsteya Lêdanê Dubare Bike"
 
 #~ msgid "Form"
 #~ msgstr "Teşe"
