@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lancelot\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-11-15 06:31+0100\n"
+"POT-Creation-Date: 2010-11-22 06:31+0100\n"
 "PO-Revision-Date: 2009-01-11 21:29+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -18,205 +18,319 @@ msgstr ""
 "X-Poedit-Language: Kurdish\n"
 "X-Poedit-SourceCharset: utf8\n"
 
-#: AboutData.cpp:26 LancelotWindow.cpp:888
+#: launcher/LancelotApplet.cpp:361
+#, fuzzy
+#| msgid "Applet Icon"
+msgid "Applet"
+msgstr "Îkona Sepanokê"
+
+#: launcher/LancelotApplet.cpp:362
+msgid "Lancelot Launcher Applet"
+msgstr ""
+
+#: launcher/LancelotApplet.cpp:367
+msgid "Menu"
+msgstr ""
+
+#: launcher/LancelotApplet.cpp:368
+#, fuzzy
+#| msgid "Open Lancelot menu"
+msgid "Lancelot Menu"
+msgstr "Pêşeka Lancelot veke"
+
+#: launcher/LancelotApplet.cpp:409
+#, fuzzy
+#| msgid "Configure &Shortcuts..."
+msgid "Configure Shortcuts..."
+msgstr "&Kurterê yan Veava Bike..."
+
+#: launcher/LancelotApplet.cpp:415 application/LancelotWindow.cpp:1074
+msgid "Menu Editor"
+msgstr "Edîtorê Pêşekê"
+
+#: launcher/LancelotAppletConfig.cpp:56 application/AboutData.cpp:26
+#: application/LancelotWindow.cpp:888
 msgid "Lancelot"
 msgstr "Lancelot"
 
-#: AboutData.cpp:28
+#: launcher/LancelotAppletConfig.cpp:59
+#, fuzzy
+#| msgid "&KDE Logo"
+msgid "KDE Logo"
+msgstr "Logo ya &KDE "
+
+#: launcher/LancelotAppletConfig.cpp:62
+#, fuzzy
+#| msgid "&Start Here"
+msgid "Start here"
+msgstr "&Li vir Destpê Bike"
+
+#: launcher/LancelotAppletConfig.cpp:65
+#, fuzzy
+#| msgid "Custo&m"
+msgctxt "Choose a custom icon"
+msgid "Custom"
+msgstr "Taybe&t"
+
+#: application/AboutData.cpp:28
 #, fuzzy
 #| msgid "Next generation application launcher"
 msgid "Next-generation application launcher."
 msgstr "Destpêkera sepana dahatî ya pêş"
 
-#: AboutData.cpp:30
+#: application/AboutData.cpp:30
 #, fuzzy
 #| msgid "(C) 2007 Ivan Čukić"
 msgid "(C) 2007, 2008, 2009, 2010 Ivan Čukić"
 msgstr "(C) 2007 Ivan Čukić"
 
-#: AboutData.cpp:37
+#: application/AboutData.cpp:37
 msgid "Ivan Čukić"
 msgstr "Ivan Čukić"
 
-#: AboutData.cpp:38
+#: application/AboutData.cpp:38
 #, fuzzy
 #| msgid "Maintainer and main developer"
 msgid "Maintainer and lead developer"
 msgstr "Kesê miqat û pêşdebirê mak"
 
-#: AboutData.cpp:45
+#: application/AboutData.cpp:45
 msgid "Siraj Razick"
 msgstr "Siraj Razick"
 
-#: AboutData.cpp:46
+#: application/AboutData.cpp:46
 msgid "Raptor compositing code"
 msgstr "Raptor koda yekbûnê"
 
-#: AboutData.cpp:48
+#: application/AboutData.cpp:48
 msgid "Robert Knight"
 msgstr "Robert Knight"
 
-#: AboutData.cpp:49
+#: application/AboutData.cpp:49
 msgid "Kickoff data models"
 msgstr "Kickoff modelên dane"
 
-#: LancelotConfig.cpp:50
+#: application/LancelotConfig.cpp:50
 msgid "Available Features"
 msgstr ""
 
-#: LancelotConfig.cpp:54
+#: application/LancelotConfig.cpp:54
 msgid "Search"
 msgstr "Lê Bigere"
 
-#: i18n_strings.cpp:24 LancelotWindow.cpp:152
+#: application/i18n_strings.cpp:24 application/LancelotWindow.cpp:152
 #, fuzzy
 #| msgid "Documents"
 msgid "&Documents"
 msgstr "Belge"
 
-#: i18n_strings.cpp:25 LancelotWindow.cpp:154
+#: application/i18n_strings.cpp:25 application/LancelotWindow.cpp:154
 #, fuzzy
 #| msgid "Contacts"
 msgid "&Contacts"
 msgstr "Têkilî"
 
-#: i18n_strings.cpp:26 LancelotWindow.cpp:156
+#: application/i18n_strings.cpp:26 application/LancelotWindow.cpp:156
 #, fuzzy
 #| msgid "Computer"
 msgid "Co&mputer"
 msgstr "Komputer"
 
-#. i18n: file: ui/LancelotConfigBase.ui:143
+#. i18n: file: application/ui/LancelotConfigBase.ui:143
 #. i18n: ectx: attribute (title), widget (QWidget, tabApplications)
-#: i18n_strings.cpp:27 LancelotWindow.cpp:158 rc.cpp:41
+#: application/i18n_strings.cpp:27 application/LancelotWindow.cpp:158
+#: rc.cpp:65
 #, fuzzy
 #| msgid "Applications"
 msgid "&Applications"
 msgstr "Sepan"
 
-#: i18n_strings.cpp:29 LancelotWindow.cpp:468
+#: application/i18n_strings.cpp:29 application/LancelotWindow.cpp:468
 msgid "Documents"
 msgstr "Belge"
 
-#: i18n_strings.cpp:30 LancelotWindow.cpp:468
+#: application/i18n_strings.cpp:30 application/LancelotWindow.cpp:468
 msgid "Contacts"
 msgstr "Têkilî"
 
-#: i18n_strings.cpp:31 LancelotWindow.cpp:468
+#: application/i18n_strings.cpp:31 application/LancelotWindow.cpp:468
 msgid "Computer"
 msgstr "Komputer"
 
-#. i18n: file: ui/LancelotConfigBase.ui:226
+#. i18n: file: application/ui/LancelotConfigBase.ui:226
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: i18n_strings.cpp:32 LancelotWindow.cpp:147 LancelotWindow.cpp:468 rc.cpp:65
+#: application/i18n_strings.cpp:32 application/LancelotWindow.cpp:147
+#: application/LancelotWindow.cpp:468 rc.cpp:89
 msgid "Applications"
 msgstr "Sepan"
 
-#: i18n_strings.cpp:35
+#: application/i18n_strings.cpp:35
 #, kde-format
 msgctxt "needed program is not running"
 msgid "%1 is not running"
 msgstr "%1 naxebite"
 
-#: i18n_strings.cpp:36
+#: application/i18n_strings.cpp:36
 #, kde-format
 msgctxt "start a program"
 msgid "start %1"
 msgstr "destpêkirina %1"
 
-#: i18n_strings.cpp:37 LancelotWindow.cpp:644 LancelotWindow.cpp:649
+#: application/i18n_strings.cpp:37 application/LancelotWindow.cpp:644
+#: application/LancelotWindow.cpp:649 parts/PartsMergedModel.cpp:300
 msgid "Online contacts"
 msgstr "Kesên girêdayî"
 
-#: i18n_strings.cpp:38
+#: application/i18n_strings.cpp:38
 msgid "e-Mail contacts"
 msgstr "têkiliyên e-Peyam"
 
-#: LancelotWindow.cpp:128
+#: application/LancelotWindow.cpp:128 parts/LancelotPart.cpp:149
 #, fuzzy
 #| msgid "Search"
 msgctxt "Enter the text to search for"
 msgid "Search..."
 msgstr "Lê Bigere"
 
-#: LancelotWindow.cpp:145
+#: application/LancelotWindow.cpp:145
 msgid "Favorites"
 msgstr "Bijarte"
 
-#: LancelotWindow.cpp:612
+#: application/LancelotWindow.cpp:612 parts/PartsMergedModel.cpp:260
 msgid "Places"
 msgstr "Cih"
 
-#: LancelotWindow.cpp:613
+#: application/LancelotWindow.cpp:613 parts/PartsMergedModel.cpp:265
+#: parts/PartsMergedModel.cpp:312 parts/PartsMergedModel.cpp:317
 msgid "System"
 msgstr "Pergal"
 
-#: LancelotWindow.cpp:617
+#: application/LancelotWindow.cpp:617
 #, fuzzy
 #| msgid "Removable"
 msgctxt "@title Removable devices"
 msgid "Removable"
 msgstr "Guhêzbar"
 
-#: LancelotWindow.cpp:618
+#: application/LancelotWindow.cpp:618
 #, fuzzy
 #| msgid "Fixed"
 msgctxt "@title Fixed devices"
 msgid "Fixed"
 msgstr "Sabît"
 
-#: LancelotWindow.cpp:620
+#: application/LancelotWindow.cpp:620
 #, fuzzy
 #| msgid "New:"
 msgctxt "@title New documents"
 msgid "New"
 msgstr "Nû:"
 
-#: LancelotWindow.cpp:622
-msgctxt "@title Open documents"
+#: application/LancelotWindow.cpp:622
+msgctxt "@title List of open documents"
 msgid "Open"
 msgstr ""
 
-#: LancelotWindow.cpp:623
+#: application/LancelotWindow.cpp:623
 msgctxt "@title Recent documents"
 msgid "Recent"
 msgstr ""
 
-#: LancelotWindow.cpp:631 LancelotWindow.cpp:636
+#: application/LancelotWindow.cpp:631 application/LancelotWindow.cpp:636
+#: parts/PartsMergedModel.cpp:295
 msgid "Unread messages"
 msgstr "Peyamên nexwendî"
 
-#: LancelotWindow.cpp:773
+#: application/LancelotWindow.cpp:773
 msgid "Make buttons wider"
 msgstr ""
 
-#: LancelotWindow.cpp:775
+#: application/LancelotWindow.cpp:775
 msgid "Make buttons narrower"
 msgstr ""
 
-#: LancelotWindow.cpp:889
+#: application/LancelotWindow.cpp:889
 msgid "Open Lancelot menu"
 msgstr "Pêşeka Lancelot veke"
 
-#: LancelotWindow.cpp:1074
-msgid "Menu Editor"
-msgstr "Edîtorê Pêşekê"
-
-#: LancelotWindow.cpp:1079
+#: application/LancelotWindow.cpp:1079
 msgid "Configure &Shortcuts..."
 msgstr "&Kurterê yan Veava Bike..."
 
-#: LancelotWindow.cpp:1084
+#: application/LancelotWindow.cpp:1084
 msgid "Configure &Lancelot menu..."
 msgstr "Pêşeka &Lancelot veava bike..."
 
-#: LancelotWindow.cpp:1089
+#: application/LancelotWindow.cpp:1089
 msgid "&About Lancelot"
 msgstr "&Der barê Lancelot de"
 
-#: LancelotWindow.cpp:1127 LancelotWindow.cpp:1129
+#: application/LancelotWindow.cpp:1127 application/LancelotWindow.cpp:1129
 msgid "Configure Lancelot menu"
 msgstr "Pêşeka Lancelot veava bike"
+
+#: parts/LancelotPartConfig.cpp:52
+#, fuzzy
+#| msgid "Removable"
+msgid "Remove"
+msgstr "Guhêzbar"
+
+#: parts/PartsMergedModel.cpp:68
+#, fuzzy
+#| msgid "Removable"
+msgid "Remove this"
+msgstr "Guhêzbar"
+
+#: parts/PartsMergedModel.cpp:270
+#, fuzzy
+#| msgid "Removable"
+msgid "Removable devices"
+msgstr "Guhêzbar"
+
+#: parts/PartsMergedModel.cpp:275
+#, fuzzy
+#| msgid "Removable"
+msgid "Fixed devices"
+msgstr "Guhêzbar"
+
+#: parts/PartsMergedModel.cpp:280
+#, fuzzy
+#| msgid "Documents"
+msgid "New Documents"
+msgstr "Belge"
+
+#: parts/PartsMergedModel.cpp:285
+#, fuzzy
+#| msgctxt "@title Title of a list of documents that are open"
+#| msgid "Open documents"
+msgid "Open Documents"
+msgstr "Belgeyan veke"
+
+#: parts/PartsMergedModel.cpp:290
+#, fuzzy
+#| msgid "Recent documents"
+msgid "Recent Documents"
+msgstr "Belgeyên hatine bikaranîn"
+
+#: parts/PartsMergedModel.cpp:306
+#, fuzzy
+#| msgid "Applications"
+msgid "Favorite Applications"
+msgstr "Sepan"
+
+#: parts/LancelotPart.cpp:251
+msgid "Shelf"
+msgstr ""
+
+#: parts/LancelotPart.cpp:508
+#, fuzzy
+#| msgid "Contacts"
+msgid "Contents"
+msgstr "Têkilî"
+
+#: parts/LancelotPart.cpp:509
+msgid "Advanced"
+msgstr ""
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -228,21 +342,70 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "oensari at gmail dot com"
 
-#. i18n: file: ui/LancelotConfigBase.ui:24
-#. i18n: ectx: attribute (title), widget (QWidget, tabGeneral)
+#. i18n: file: launcher/LancelotAppletConfigBase.ui:20
+#. i18n: ectx: property (title), widget (QGroupBox, groupAppletIcons)
 #: rc.cpp:5
+msgid "Applet Icons"
+msgstr "Îkonên Sepanokê"
+
+#. i18n: file: launcher/LancelotAppletConfigBase.ui:26
+#. i18n: ectx: property (text), widget (QRadioButton, radioShowCategories)
+#: rc.cpp:8
+msgid "Show cate&gories inside the applet"
+msgstr "Kate&gorî yan di nav sepanok de nîşan bide"
+
+#. i18n: file: launcher/LancelotAppletConfigBase.ui:33
+#. i18n: ectx: property (text), widget (QRadioButton, radioShowMenuIconOnly)
+#: rc.cpp:11
+msgid "Show only &menu launcher icon"
+msgstr "Tenê îkona destpêkera &pêşekê nîşan bide"
+
+#. i18n: file: launcher/LancelotAppletConfigBase.ui:65
+#. i18n: ectx: property (title), widget (QGroupBox, groupAppletIconsChoose)
+#: rc.cpp:14
+msgid "Choose Icon"
+msgstr "Îkonê Hilbijêre"
+
+#. i18n: file: launcher/LancelotAppletConfigBase.ui:127
+#. i18n: ectx: property (title), widget (QGroupBox, groupCategoriesChoose)
+#: rc.cpp:17
+msgid "Choose categories to show"
+msgstr ""
+
+#. i18n: file: launcher/LancelotAppletConfigBase.ui:186
+#. i18n: ectx: property (title), widget (QGroupBox, groupActivation)
+#: rc.cpp:20
+msgid "Menu Activation"
+msgstr "Çalakiya Pêşekê"
+
+#. i18n: file: launcher/LancelotAppletConfigBase.ui:192
+#. i18n: ectx: property (text), widget (QRadioButton, radioActivationHover)
+#: rc.cpp:23
+msgid "Show menu on icon &hover (after a predefined interval of time)"
+msgstr ""
+"Pêşekê wextê mişk &were ser de nîşan bide (piştî pêş-danasîna navbera demê)"
+
+#. i18n: file: launcher/LancelotAppletConfigBase.ui:202
+#. i18n: ectx: property (text), widget (QRadioButton, radioActivationClick)
+#: rc.cpp:26
+msgid "Show menu on &click"
+msgstr "Pêşekê di tikandinê de nîşan bide"
+
+#. i18n: file: application/ui/LancelotConfigBase.ui:24
+#. i18n: ectx: attribute (title), widget (QWidget, tabGeneral)
+#: rc.cpp:29
 msgid "&General"
 msgstr ""
 
-#. i18n: file: ui/LancelotConfigBase.ui:30
+#. i18n: file: application/ui/LancelotConfigBase.ui:30
 #. i18n: ectx: property (title), widget (QGroupBox, groupActivation)
-#: rc.cpp:8
+#: rc.cpp:32
 msgid "Activation Method"
 msgstr "Metoda Çalak-kirinê "
 
-#. i18n: file: ui/LancelotConfigBase.ui:36
+#. i18n: file: application/ui/LancelotConfigBase.ui:36
 #. i18n: ectx: property (toolTip), widget (QRadioButton, radioActivationClick)
-#: rc.cpp:11
+#: rc.cpp:35
 msgid ""
 "Choose this option if you like to click. Every interface item will be "
 "activated only by clicking it."
@@ -250,17 +413,17 @@ msgstr ""
 "Heke tu jê tikandinê hez dikî vê bijare yê nîşan bike. Her hêmana navrû yê "
 "bi tikandina vê ve dê bê çalak kirin."
 
-#. i18n: file: ui/LancelotConfigBase.ui:39
+#. i18n: file: application/ui/LancelotConfigBase.ui:39
 #. i18n: ectx: property (text), widget (QRadioButton, radioActivationClick)
-#: rc.cpp:14
+#: rc.cpp:38
 #, fuzzy
 #| msgid "Click on everything"
 msgid "&Click on everything"
 msgstr "Tikandin di hemû tiştan de"
 
-#. i18n: file: ui/LancelotConfigBase.ui:46
+#. i18n: file: application/ui/LancelotConfigBase.ui:46
 #. i18n: ectx: property (toolTip), widget (QRadioButton, radioActivationClassic)
-#: rc.cpp:17
+#: rc.cpp:41
 msgid ""
 "Choose this option if you want the menu to behave like the standard "
 "application launchers. In order to launch applications, you should click on "
@@ -270,17 +433,17 @@ msgstr ""
 "bijareyê hilbijêre. Ji bo destpêkirina sepanan tu divê ser wan bitikînî. "
 "Bişkojkên beşan di demê mişk tê ser de tên çalak kirin."
 
-#. i18n: file: ui/LancelotConfigBase.ui:49
+#. i18n: file: application/ui/LancelotConfigBase.ui:49
 #. i18n: ectx: property (text), widget (QRadioButton, radioActivationClassic)
-#: rc.cpp:20
+#: rc.cpp:44
 #, fuzzy
 #| msgid "Classical menu"
 msgid "Cla&ssic menu"
 msgstr "Pêşeka Klasîk"
 
-#. i18n: file: ui/LancelotConfigBase.ui:56
+#. i18n: file: application/ui/LancelotConfigBase.ui:56
 #. i18n: ectx: property (toolTip), widget (QRadioButton, radioActivationNoClick)
-#: rc.cpp:23
+#: rc.cpp:47
 msgid ""
 "Choose this option if you want to avoid clicking. Section buttons are "
 "activated by hovering. Applications are launched by hovering the button "
@@ -290,117 +453,117 @@ msgstr ""
 "Bişkojkên beşan di demê mişk tê ser de tên çalak kirin. Sepan bi vekirina "
 "bişkojkên di demê mişk tê ser de tên destpêkirin. "
 
-#. i18n: file: ui/LancelotConfigBase.ui:59
+#. i18n: file: application/ui/LancelotConfigBase.ui:59
 #. i18n: ectx: property (text), widget (QRadioButton, radioActivationNoClick)
-#: rc.cpp:26
+#: rc.cpp:50
 #, fuzzy
 #| msgid "No-click activation"
 msgid "&No-click activation"
 msgstr "Çalakiyên bê-tikandin"
 
-#. i18n: file: ui/LancelotConfigBase.ui:76
+#. i18n: file: application/ui/LancelotConfigBase.ui:76
 #. i18n: ectx: property (toolTip), widget (QCheckBox, checkKeepOpen)
-#: rc.cpp:29
+#: rc.cpp:53
 msgid "Do not close the menu until it loses focus."
 msgstr ""
 
-#. i18n: file: ui/LancelotConfigBase.ui:79
+#. i18n: file: application/ui/LancelotConfigBase.ui:79
 #. i18n: ectx: property (text), widget (QCheckBox, checkKeepOpen)
-#: rc.cpp:32
+#: rc.cpp:56
 msgid "&Keep menu open"
 msgstr ""
 
-#. i18n: file: ui/LancelotConfigBase.ui:89
+#. i18n: file: application/ui/LancelotConfigBase.ui:89
 #. i18n: ectx: property (title), widget (QGroupBox, groupSystemActions)
-#: rc.cpp:35
+#: rc.cpp:59
 #, fuzzy
 #| msgid "System"
 msgid "System Actions"
 msgstr "Pergal"
 
-#. i18n: file: ui/LancelotConfigBase.ui:116
+#. i18n: file: application/ui/LancelotConfigBase.ui:116
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:38
+#: rc.cpp:62
 msgid "Choose which actions you want to be assigned to the system buttons:"
 msgstr ""
 
-#. i18n: file: ui/LancelotConfigBase.ui:149
+#. i18n: file: application/ui/LancelotConfigBase.ui:149
 #. i18n: ectx: property (title), widget (QGroupBox, groupAppBrowser)
-#: rc.cpp:44
+#: rc.cpp:68
 msgid "Application Browser"
 msgstr "Geroka Sepanan"
 
-#. i18n: file: ui/LancelotConfigBase.ui:155
+#. i18n: file: application/ui/LancelotConfigBase.ui:155
 #. i18n: ectx: property (text), widget (QCheckBox, checkAppBrowserReset)
-#: rc.cpp:47
+#: rc.cpp:71
 msgid "Reset the browser to show Favorites on menu open"
 msgstr "Gerokê nû ve ava bike ku Bijarte yan di vebûna pêşekê de nîşan bidî"
 
-#. i18n: file: ui/LancelotConfigBase.ui:169
+#. i18n: file: application/ui/LancelotConfigBase.ui:169
 #. i18n: ectx: property (text), widget (QLabel, labelAppBrowserColumnNumber)
-#: rc.cpp:50
+#: rc.cpp:74
 #, fuzzy
 #| msgid "Contents Behavior"
 msgid "Columns behavior:"
 msgstr "Tevgera Naverokê"
 
-#. i18n: file: ui/LancelotConfigBase.ui:176
+#. i18n: file: application/ui/LancelotConfigBase.ui:176
 #. i18n: ectx: property (text), widget (QRadioButton, radioAppBrowserNoColumnLimit)
-#: rc.cpp:53
+#: rc.cpp:77
 msgid "No column number limit"
 msgstr "Sînora hejmara stûnan tune ye"
 
-#. i18n: file: ui/LancelotConfigBase.ui:186
+#. i18n: file: application/ui/LancelotConfigBase.ui:186
 #. i18n: ectx: property (text), widget (QRadioButton, radioAppBrowserTwoColumnLimit)
-#: rc.cpp:56
+#: rc.cpp:80
 msgid "Limit to two columns"
 msgstr "Bi du stûnan ve sînor bike"
 
-#. i18n: file: ui/LancelotConfigBase.ui:201
+#. i18n: file: application/ui/LancelotConfigBase.ui:201
 #. i18n: ectx: property (text), widget (QRadioButton, radioAppBrowserCascade)
-#: rc.cpp:59
+#: rc.cpp:83
 msgid "Open popups for subcategories"
 msgstr ""
 
-#. i18n: file: ui/LancelotConfigBase.ui:208
+#. i18n: file: application/ui/LancelotConfigBase.ui:208
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:62
+#: rc.cpp:86
 msgid "EXPERIMENTAL FEATURE"
 msgstr ""
 
-#. i18n: file: ui/LancelotConfigBase.ui:232
+#. i18n: file: application/ui/LancelotConfigBase.ui:232
 #. i18n: ectx: property (text), widget (QLabel, labelNewDocuments)
-#: rc.cpp:68
+#: rc.cpp:92
 #, fuzzy
 #| msgid "Documents"
 msgid "New documents applications:"
 msgstr "Belge"
 
-#. i18n: file: ui/LancelotConfigBase.ui:239
+#. i18n: file: application/ui/LancelotConfigBase.ui:239
 #. i18n: ectx: property (text), widget (QPushButton, buttonNewDocumentsEdit)
-#. i18n: file: ui/LancelotConfigBase.ui:266
+#. i18n: file: application/ui/LancelotConfigBase.ui:266
 #. i18n: ectx: property (text), widget (QPushButton, buttonSystemApplicationsEdit)
-#: rc.cpp:71 rc.cpp:77
+#: rc.cpp:95 rc.cpp:101
 msgid "Edit..."
 msgstr ""
 
-#. i18n: file: ui/LancelotConfigBase.ui:259
+#. i18n: file: application/ui/LancelotConfigBase.ui:259
 #. i18n: ectx: property (text), widget (QLabel, labelSystemApplications)
-#: rc.cpp:74
+#: rc.cpp:98
 #, fuzzy
 #| msgid "System"
 msgid "System applications:"
 msgstr "Pergal"
 
-#. i18n: file: ui/LancelotConfigBase.ui:290
+#. i18n: file: application/ui/LancelotConfigBase.ui:290
 #. i18n: ectx: attribute (title), widget (QWidget, tabUsageStatistics)
-#: rc.cpp:80
+#: rc.cpp:104
 msgid "&Usage Statistics"
 msgstr ""
 
-#. i18n: file: ui/LancelotConfigBase.ui:323
+#. i18n: file: application/ui/LancelotConfigBase.ui:323
 #. i18n: ectx: property (html), widget (KTextBrowser, textUsageStatistics)
-#: rc.cpp:83
+#: rc.cpp:107
 msgid ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
 "REC-html40/strict.dtd\">\n"
@@ -429,16 +592,89 @@ msgid ""
 "family:'Bitstream Vera Sans'; font-size:10pt;\"></p></body></html>"
 msgstr ""
 
-#. i18n: file: ui/LancelotConfigBase.ui:336
+#. i18n: file: application/ui/LancelotConfigBase.ui:336
 #. i18n: ectx: property (text), widget (QCheckBox, checkUsageStatisticsEnable)
-#: rc.cpp:93
+#: rc.cpp:117
 msgid "Enable usage statistics"
 msgstr ""
 
-#. i18n: file: ui/LancelotConfigBase.ui:346
+#. i18n: file: application/ui/LancelotConfigBase.ui:346
 #. i18n: ectx: property (text), widget (QPushButton, buttonUsageStatisticsClear)
-#: rc.cpp:96
+#: rc.cpp:120
 msgid "Clear Gathered Data"
+msgstr ""
+
+#. i18n: file: parts/LancelotPartConfigBase.ui:23
+#. i18n: ectx: property (title), widget (QGroupBox, panelContents)
+#: rc.cpp:123
+#, fuzzy
+#| msgid "Menu Activation"
+msgctxt "Contents of the applet"
+msgid "Activation:"
+msgstr "Çalakiya Pêşekê"
+
+#. i18n: file: parts/LancelotPartConfigBase.ui:29
+#. i18n: ectx: property (text), widget (QRadioButton, radioContentsActivationClick)
+#: rc.cpp:126
+msgid "Click to activate items"
+msgstr "Ji bo çalak kirina hêmanan bitikîne"
+
+#. i18n: file: parts/LancelotPartConfigBase.ui:39
+#. i18n: ectx: property (text), widget (QRadioButton, radioContentsActivationExtender)
+#: rc.cpp:129
+msgid "Use no-click interface"
+msgstr "Navrû ya bê-tikandin bi kar bîne"
+
+#. i18n: file: parts/LancelotPartConfigBase.ui:49
+#. i18n: ectx: property (title), widget (QGroupBox, panelContentsExtenderPosition)
+#: rc.cpp:132
+msgid "Extender Position"
+msgstr "Bicihbûna Dirêjkerê"
+
+#. i18n: file: parts/LancelotPartConfigBase.ui:55
+#. i18n: ectx: property (text), widget (QRadioButton, radioContentsExtenderPositionLeft)
+#: rc.cpp:135
+#, fuzzy
+#| msgid "Left"
+msgctxt "Position the extender left"
+msgid "Left"
+msgstr "Çep"
+
+#. i18n: file: parts/LancelotPartConfigBase.ui:62
+#. i18n: ectx: property (text), widget (QRadioButton, radioContentsExtenderPositionRight)
+#: rc.cpp:138
+#, fuzzy
+#| msgid "Right"
+msgctxt "Position the extender right"
+msgid "Right"
+msgstr "Rast"
+
+#. i18n: file: parts/LancelotPartConfigBase.ui:84
+#. i18n: ectx: property (title), widget (QGroupBox, panelIcon)
+#: rc.cpp:141
+#, fuzzy
+#| msgid "Applet Icon"
+msgid "Applet Icon:"
+msgstr "Îkona Sepanokê"
+
+#. i18n: file: parts/LancelotPartConfigBase.ui:114
+#. i18n: ectx: property (text), widget (QRadioButton, radioIconActivationClick)
+#: rc.cpp:144
+msgid "Show contents on &click"
+msgstr "Naverokê di &tikandinê de nîşan bide"
+
+#. i18n: file: parts/LancelotPartConfigBase.ui:121
+#. i18n: ectx: property (text), widget (QRadioButton, radioIconActivationHover)
+#: rc.cpp:147
+msgid "Show contents on icon &hover (after a predefined interval of time)"
+msgstr ""
+"Naverokê di demê &mişk tê ser de nîşan bide (piştî pêş-danasîna navbera "
+"demê) "
+
+#. i18n: file: parts/LancelotPartConfigBase.ui:155
+#. i18n: ectx: property (text), widget (QCheckBox, checkShowSearchBox)
+#: rc.cpp:150
+msgid "Show the search box"
 msgstr ""
 
 #~ msgid "Column Number Limit"
@@ -448,37 +684,6 @@ msgstr ""
 #~| msgid "Search"
 #~ msgid "&Search"
 #~ msgstr "Lê Bigere"
-
-#, fuzzy
-#~| msgid "Removable"
-#~ msgid "Remove this"
-#~ msgstr "Guhêzbar"
-
-#, fuzzy
-#~| msgid "Removable"
-#~ msgid "Removable devices"
-#~ msgstr "Guhêzbar"
-
-#, fuzzy
-#~| msgid "Documents"
-#~ msgid "New Documents"
-#~ msgstr "Belge"
-
-#, fuzzy
-#~| msgctxt "@title Title of a list of documents that are open"
-#~| msgid "Open documents"
-#~ msgid "Open Documents"
-#~ msgstr "Belgeyan veke"
-
-#, fuzzy
-#~| msgid "Recent documents"
-#~ msgid "Recent Documents"
-#~ msgstr "Belgeyên hatine bikaranîn"
-
-#, fuzzy
-#~| msgid "Applications"
-#~ msgid "Favorite Applications"
-#~ msgstr "Sepan"
 
 #~ msgctxt "@title Title of a list of documents that are open"
 #~ msgid "Open documents"
@@ -547,97 +752,8 @@ msgstr ""
 #~ msgid "No online contacts"
 #~ msgstr "Kesên girêdayî"
 
-#, fuzzy
-#~| msgid "Contacts"
-#~ msgid "Contents"
-#~ msgstr "Têkilî"
-
-#, fuzzy
-#~| msgid "Menu Activation"
-#~ msgid "Activation:"
-#~ msgstr "Çalakiya Pêşekê"
-
-#~ msgid "Click to activate items"
-#~ msgstr "Ji bo çalak kirina hêmanan bitikîne"
-
-#~ msgid "Use no-click interface"
-#~ msgstr "Navrû ya bê-tikandin bi kar bîne"
-
-#~ msgid "Extender Position"
-#~ msgstr "Bicihbûna Dirêjkerê"
-
-#~ msgid "Left"
-#~ msgstr "Çep"
-
-#~ msgid "Right"
-#~ msgstr "Rast"
-
-#~ msgid "Applet Icon"
-#~ msgstr "Îkona Sepanokê"
-
 #~ msgid "lancelot-part"
 #~ msgstr "lancelot-part"
-
-#~ msgid "Show contents on &click"
-#~ msgstr "Naverokê di &tikandinê de nîşan bide"
-
-#~ msgid "Show contents on icon &hover (after a predefined interval of time)"
-#~ msgstr ""
-#~ "Naverokê di demê &mişk tê ser de nîşan bide (piştî pêş-danasîna navbera "
-#~ "demê) "
-
-#~ msgid "Applet Icons"
-#~ msgstr "Îkonên Sepanokê"
-
-#~ msgid "Show cate&gories inside the applet"
-#~ msgstr "Kate&gorî yan di nav sepanok de nîşan bide"
-
-#~ msgid "Show only &menu launcher icon"
-#~ msgstr "Tenê îkona destpêkera &pêşekê nîşan bide"
-
-#~ msgid "Choose Icon"
-#~ msgstr "Îkonê Hilbijêre"
-
-#~ msgid "Menu Activation"
-#~ msgstr "Çalakiya Pêşekê"
-
-#~ msgid "Show menu on icon &hover (after a predefined interval of time)"
-#~ msgstr ""
-#~ "Pêşekê wextê mişk &were ser de nîşan bide (piştî pêş-danasîna navbera "
-#~ "demê)"
-
-#~ msgid "Show menu on &click"
-#~ msgstr "Pêşekê di tikandinê de nîşan bide"
-
-#, fuzzy
-#~| msgid "&KDE Logo"
-#~ msgid "KDE Logo"
-#~ msgstr "Logo ya &KDE "
-
-#, fuzzy
-#~| msgid "&Start Here"
-#~ msgid "Start here"
-#~ msgstr "&Li vir Destpê Bike"
-
-#, fuzzy
-#~| msgid "Custo&m"
-#~ msgid "Custom"
-#~ msgstr "Taybe&t"
-
-#, fuzzy
-#~| msgid "Configure &Shortcuts..."
-#~ msgid "Configure Shortcuts..."
-#~ msgstr "&Kurterê yan Veava Bike..."
-
-#, fuzzy
-#~| msgid "Applet Icon"
-#~ msgid "Applet"
-#~ msgstr "Îkona Sepanokê"
-
-#, fuzzy
-#~| msgid "Open Lancelot menu"
-#~ msgid "Lancelot Menu"
-#~ msgstr "Pêşeka Lancelot veke"
 
 #~ msgid "Recent documents"
 #~ msgstr "Belgeyên hatine bikaranîn"
