@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktorrent\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-12-05 02:26+0100\n"
+"POT-Creation-Date: 2010-12-09 02:27+0100\n"
 "PO-Revision-Date: 2008-09-23 17:28+0300\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -70,13 +70,6 @@ msgstr "%1 nayê vekirin: %2"
 msgid "Torrent is incomplete."
 msgstr "Pelên Torrent"
 
-#: src/datachecker/datacheckerjob.cpp:68
-#: src/datachecker/datacheckerjob.cpp:120
-#, fuzzy
-#| msgid "Checking data"
-msgid "Checking Data"
-msgstr "Dane tên kontrolkirin"
-
 #: src/datachecker/singledatachecker.cpp:49
 #: src/datachecker/multidatachecker.cpp:201 src/diskio/multifilecache.cpp:722
 #: src/diskio/multifilecache.cpp:761 src/torrent/torrentcreator.cpp:124
@@ -84,6 +77,20 @@ msgstr "Dane tên kontrolkirin"
 #, kde-format
 msgid "Cannot open file %1: %2"
 msgstr ""
+
+#: src/datachecker/datacheckerjob.cpp:76
+msgid "Waiting for other data checks to finish"
+msgstr ""
+
+#: src/datachecker/datacheckerjob.cpp:82 src/torrent/torrentstats.cpp:92
+msgid "Checking data"
+msgstr "Dane tên kontrolkirin"
+
+#: src/datachecker/datacheckerjob.cpp:135
+#, fuzzy
+#| msgid "Checking data"
+msgid "Checking Data"
+msgstr "Dane tên kontrolkirin"
 
 #: src/diskio/cachefile.cpp:94 src/util/fileops.cpp:354
 #: src/util/fileops.cpp:396
@@ -376,10 +383,6 @@ msgstr "Îkona daxistinê"
 #| msgid "The downloads icon"
 msgid "Queued for downloading"
 msgstr "Îkona daxistinê"
-
-#: src/torrent/torrentstats.cpp:92
-msgid "Checking data"
-msgstr "Dane tên kontrolkirin"
 
 #: src/torrent/torrentstats.cpp:94
 msgid "Stopped. No space left on device."
