@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-12-09 02:25+0100\n"
+"POT-Creation-Date: 2010-12-10 02:33+0100\n"
 "PO-Revision-Date: 2009-02-21 06:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -76,7 +76,7 @@ msgstr "Bêdeng"
 msgid "Volume"
 msgstr "Deng"
 
-#: TrayIcon.cpp:155 context/applets/currenttrack/CurrentTrack.cpp:447
+#: TrayIcon.cpp:155 context/applets/currenttrack/CurrentTrack.cpp:448
 #: playlist/PlaylistModel.cpp:892 widgets/SmartPlaylistEditor.cpp:185
 msgid "Score"
 msgstr "Skor"
@@ -732,7 +732,7 @@ msgstr ""
 #. i18n: ectx: property (windowTitle), widget (QWidget, currentTrackSettings)
 #. i18n: file: context/applets/tabs/TabsSettings.ui:26
 #. i18n: ectx: property (windowTitle), widget (QWidget, TabsSettings)
-#: rc.cpp:309 rc.cpp:492 context/applets/currenttrack/CurrentTrack.cpp:677
+#: rc.cpp:309 rc.cpp:492 context/applets/currenttrack/CurrentTrack.cpp:678
 #, fuzzy
 #| msgid "Love Current Track"
 msgid "Current Track Settings"
@@ -749,7 +749,7 @@ msgstr "Çalakî"
 #. i18n: file: context/applets/currenttrack/currentTrackSettings.ui:38
 #. i18n: ectx: property (text), widget (QCheckBox, editTrackDetailsCheckBox)
 #: rc.cpp:315 context/applets/albums/AlbumsView.cpp:230
-#: context/applets/currenttrack/CurrentTrack.cpp:782
+#: context/applets/currenttrack/CurrentTrack.cpp:783
 #: playlist/view/PlaylistViewCommon.cpp:230
 msgid "Edit Track Details"
 msgstr "&Kitekitên Stranê Biguherîne"
@@ -771,7 +771,7 @@ msgstr "Meh"
 
 #. i18n: file: context/applets/labels/labelsSettings.ui:20
 #. i18n: ectx: property (windowTitle), widget (QWidget, labelsSettings)
-#: rc.cpp:324 context/applets/labels/LabelsApplet.cpp:664
+#: rc.cpp:324 context/applets/labels/LabelsApplet.cpp:661
 #, fuzzy
 #| msgid "&Settings"
 msgid "Labels Settings"
@@ -5229,7 +5229,7 @@ msgstr "Paşveçûna &Bilez"
 msgid "Update Collection"
 msgstr "Berhevokê Rojane Bike"
 
-#: MainWindow.cpp:810 widgets/MainControlsWidget.cpp:62
+#: MainWindow.cpp:810
 msgid "Previous Track"
 msgstr "Strana Berê"
 
@@ -5251,7 +5251,7 @@ msgstr "Lîsteya Lêdanê Dubare Bike"
 msgid "Disable Dynamic Playlist"
 msgstr "Lîsteya Lêdanê ya Dînamîk a Wekî Heyî"
 
-#: MainWindow.cpp:833 widgets/MainControlsWidget.cpp:86
+#: MainWindow.cpp:833
 msgid "Next Track"
 msgstr "Strana Pêş"
 
@@ -6652,7 +6652,7 @@ msgid "Settings"
 msgstr "&Mîheng"
 
 #: context/applets/albums/Albums.cpp:101
-#: context/applets/currenttrack/CurrentTrack.cpp:447
+#: context/applets/currenttrack/CurrentTrack.cpp:448
 #: playlist/ProgressiveSearchWidget.cpp:81
 msgid "Albums"
 msgstr "Album"
@@ -6676,89 +6676,6 @@ msgstr ""
 msgid "Albums Applet Settings"
 msgstr ""
 
-#: context/applets/currenttrack/CurrentTrack.cpp:103
-#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:71
-#: core-impl/collections/db/sql/mysqlecollection/MySqlEmbeddedCollection.cpp:35
-#: core-impl/collections/db/sql/mysqlservercollection/MySqlServerCollection.cpp:41
-msgid "Local Collection"
-msgstr "Berhevoka Herêmî "
-
-#: context/applets/currenttrack/CurrentTrack.cpp:112
-#, fuzzy
-#| msgid "Body"
-msgctxt "What artist is this track by"
-msgid "By"
-msgstr "Naverok"
-
-#: context/applets/currenttrack/CurrentTrack.cpp:113
-#, fuzzy
-#| msgid "On"
-msgctxt "What album is this track on"
-msgid "On"
-msgstr "Vekirî"
-
-#: context/applets/currenttrack/CurrentTrack.cpp:283
-#, fuzzy
-#| msgid "Not Recently &Played"
-msgid "Recently Played Tracks"
-msgstr "Yên Dawiyê Nehatine &Lêdan"
-
-#: context/applets/currenttrack/CurrentTrack.cpp:446
-#: playlist/ProgressiveSearchWidget.cpp:74
-#: services/lastfm/biases/LastFmBias.cpp:128
-msgid "Tracks"
-msgstr "Stran"
-
-#: context/applets/currenttrack/CurrentTrack.cpp:446
-msgid "Play count"
-msgstr "Hejmara lêdanan"
-
-#: context/applets/currenttrack/CurrentTrack.cpp:448
-#, fuzzy
-#| msgid "Genre"
-msgid "Genres"
-msgstr "Cûre"
-
-#: context/applets/currenttrack/CurrentTrack.cpp:448
-msgid "Last Played"
-msgstr "Lêdanên Dawî yê"
-
-#: context/applets/currenttrack/CurrentTrack.cpp:805
-#, fuzzy
-#| msgid "File Extension of Source"
-msgid "Show Album In Media Sources"
-msgstr "Pêveka Dosiya Çavkaniyê"
-
-#: context/applets/currenttrack/CurrentTrack.cpp:812
-#, fuzzy
-#| msgid "File Extension of Source"
-msgid "Show Artist In Media Sources"
-msgstr "Pêveka Dosiya Çavkaniyê"
-
-#: context/applets/currenttrack/CurrentTrack.cpp:817 core/meta/Meta.cpp:527
-#, fuzzy
-#| msgid "Unknown Genre"
-msgid "Unknown Composer"
-msgstr "Cureyê Nenas"
-
-#: context/applets/currenttrack/CurrentTrack.cpp:819
-#, fuzzy
-#| msgid "File Extension of Source"
-msgid "Show Composer In Media Sources"
-msgstr "Pêveka Dosiya Çavkaniyê"
-
-#: context/applets/currenttrack/CurrentTrack.cpp:826
-#, fuzzy
-#| msgid "File Extension of Source"
-msgid "Show Genre In Media Sources"
-msgstr "Pêveka Dosiya Çavkaniyê"
-
-#: context/applets/currenttrack/CurrentTrack.cpp:833
-#, fuzzy
-#| msgid "File Extension of Source"
-msgid "Show Year In Media Sources"
-msgstr "Pêveka Dosiya Çavkaniyê"
-
 #: context/applets/currenttrack/CurrentTrack.h:38
 #: core-impl/collections/mtpcollection/handler/MtpHandler.cpp:417
 #: core/meta/Meta.cpp:397
@@ -6770,6 +6687,89 @@ msgstr "Hunermendê Nenas"
 #: core/meta/Meta.cpp:442
 msgid "Unknown Album"
 msgstr "Albuma Nenas"
+
+#: context/applets/currenttrack/CurrentTrack.cpp:104
+#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:71
+#: core-impl/collections/db/sql/mysqlecollection/MySqlEmbeddedCollection.cpp:35
+#: core-impl/collections/db/sql/mysqlservercollection/MySqlServerCollection.cpp:41
+msgid "Local Collection"
+msgstr "Berhevoka Herêmî "
+
+#: context/applets/currenttrack/CurrentTrack.cpp:113
+#, fuzzy
+#| msgid "Body"
+msgctxt "What artist is this track by"
+msgid "By"
+msgstr "Naverok"
+
+#: context/applets/currenttrack/CurrentTrack.cpp:114
+#, fuzzy
+#| msgid "On"
+msgctxt "What album is this track on"
+msgid "On"
+msgstr "Vekirî"
+
+#: context/applets/currenttrack/CurrentTrack.cpp:284
+#, fuzzy
+#| msgid "Not Recently &Played"
+msgid "Recently Played Tracks"
+msgstr "Yên Dawiyê Nehatine &Lêdan"
+
+#: context/applets/currenttrack/CurrentTrack.cpp:447
+#: playlist/ProgressiveSearchWidget.cpp:74
+#: services/lastfm/biases/LastFmBias.cpp:128
+msgid "Tracks"
+msgstr "Stran"
+
+#: context/applets/currenttrack/CurrentTrack.cpp:447
+msgid "Play count"
+msgstr "Hejmara lêdanan"
+
+#: context/applets/currenttrack/CurrentTrack.cpp:449
+#, fuzzy
+#| msgid "Genre"
+msgid "Genres"
+msgstr "Cûre"
+
+#: context/applets/currenttrack/CurrentTrack.cpp:449
+msgid "Last Played"
+msgstr "Lêdanên Dawî yê"
+
+#: context/applets/currenttrack/CurrentTrack.cpp:806
+#, fuzzy
+#| msgid "File Extension of Source"
+msgid "Show Album In Media Sources"
+msgstr "Pêveka Dosiya Çavkaniyê"
+
+#: context/applets/currenttrack/CurrentTrack.cpp:813
+#, fuzzy
+#| msgid "File Extension of Source"
+msgid "Show Artist In Media Sources"
+msgstr "Pêveka Dosiya Çavkaniyê"
+
+#: context/applets/currenttrack/CurrentTrack.cpp:818 core/meta/Meta.cpp:527
+#, fuzzy
+#| msgid "Unknown Genre"
+msgid "Unknown Composer"
+msgstr "Cureyê Nenas"
+
+#: context/applets/currenttrack/CurrentTrack.cpp:820
+#, fuzzy
+#| msgid "File Extension of Source"
+msgid "Show Composer In Media Sources"
+msgstr "Pêveka Dosiya Çavkaniyê"
+
+#: context/applets/currenttrack/CurrentTrack.cpp:827
+#, fuzzy
+#| msgid "File Extension of Source"
+msgid "Show Genre In Media Sources"
+msgstr "Pêveka Dosiya Çavkaniyê"
+
+#: context/applets/currenttrack/CurrentTrack.cpp:834
+#, fuzzy
+#| msgid "File Extension of Source"
+msgid "Show Year In Media Sources"
+msgstr "Pêveka Dosiya Çavkaniyê"
 
 #: context/applets/labels/LabelGraphicsItem.cpp:63
 #, fuzzy
@@ -6799,8 +6799,8 @@ msgid "Add to blacklist"
 msgstr "lîsteya lêdanê"
 
 #: context/applets/labels/LabelsApplet.cpp:87
-#: context/applets/labels/LabelsApplet.cpp:164
-#: context/applets/labels/LabelsApplet.cpp:171
+#: context/applets/labels/LabelsApplet.cpp:165
+#: context/applets/labels/LabelsApplet.cpp:176
 #: context/applets/labels/LabelsApplet.cpp:480
 #: context/applets/labels/LabelsApplet.cpp:490 dialogs/TagDialog.cpp:721
 msgid "Labels"
@@ -6811,7 +6811,7 @@ msgstr "Etîket"
 msgid "Reload"
 msgstr "Nû ve bar bike"
 
-#: context/applets/labels/LabelsApplet.cpp:171
+#: context/applets/labels/LabelsApplet.cpp:176
 #: context/engines/current/CurrentEngine.cpp:125 mac/GrowlInterface.cpp:43
 #: widgets/Osd.cpp:604 EngineController.cpp:1407
 msgid "No track playing"
@@ -6824,7 +6824,6 @@ msgid "Fetching ..."
 msgstr "Naverokê tîne..."
 
 #: context/applets/labels/LabelsApplet.cpp:538
-#: context/applets/labels/LabelsApplet.cpp:628
 #, fuzzy, kde-format
 #| msgid "Results for: %1"
 msgid "Labels for %1 by %2"
@@ -7452,36 +7451,6 @@ msgstr "&Mîheng"
 msgid "Reload Tabs"
 msgstr "Nû ve bar bike"
 
-#: context/containments/oldcontainment/ColumnContainment.cpp:98
-#: context/toolbar/AppletToolbarAddItem.cpp:71
-msgid "Add Applet..."
-msgstr "Sepanok Lê Zêde Bike.."
-
-#: context/containments/oldcontainment/ColumnContainment.cpp:180
-msgid "Remove Widgets..."
-msgstr "Alavan Rake..."
-
-#: context/containments/oldcontainment/ColumnContainment.cpp:200
-#: context/widgets/ContainmentSelectionLayer.cpp:37
-msgid "Zoom In"
-msgstr "Nêzîktir bike"
-
-#: context/containments/oldcontainment/ColumnContainment.cpp:205
-msgid "Zoom Out"
-msgstr "Dûrtir bike"
-
-#: context/containments/oldcontainment/ColumnContainment.cpp:210
-msgid "Add Widgets..."
-msgstr "Alavan Zêde Bike..."
-
-#: context/containments/oldcontainment/ColumnContainment.cpp:215
-msgid "Next Group"
-msgstr "Koma Pêş"
-
-#: context/containments/oldcontainment/ColumnContainment.cpp:220
-msgid "Previous Group"
-msgstr "Koma Paş"
-
 #: context/containments/verticallayout/VerticalToolbarContainment.cpp:180
 msgid ""
 "Please add some applets from the toolbar at the bottom of the context view."
@@ -7492,22 +7461,22 @@ msgstr ""
 msgid "Albums by %1"
 msgstr "Album alî yê %1"
 
-#: context/engines/labels/LabelsEngine.cpp:135
-#: context/engines/labels/LabelsEngine.cpp:202
-#: context/engines/labels/LabelsEngine.cpp:263
-#: context/engines/labels/LabelsEngine.cpp:273
-#: context/engines/labels/LabelsEngine.cpp:307
-#: context/engines/labels/LabelsEngine.cpp:358
+#: context/engines/labels/LabelsEngine.cpp:134
+#: context/engines/labels/LabelsEngine.cpp:197
+#: context/engines/labels/LabelsEngine.cpp:258
+#: context/engines/labels/LabelsEngine.cpp:268
+#: context/engines/labels/LabelsEngine.cpp:302
+#: context/engines/labels/LabelsEngine.cpp:353
 msgid "No labels found on last.fm"
 msgstr ""
 
-#: context/engines/labels/LabelsEngine.cpp:326
+#: context/engines/labels/LabelsEngine.cpp:321
 #, fuzzy
 #| msgid "Unable to retrieve Wikipedia information: %1"
 msgid "Unable to retrieve from last.fm"
 msgstr "Nekarî agahiyan ji Wikipedia bîne: %1"
 
-#: context/engines/labels/LabelsEngine.cpp:376
+#: context/engines/labels/LabelsEngine.cpp:371
 msgid "No connection to last.fm"
 msgstr ""
 
@@ -7665,6 +7634,10 @@ msgstr ""
 msgid "Add Applets..."
 msgstr "Sepanokan Lê Zêde Bike.."
 
+#: context/toolbar/AppletToolbarAddItem.cpp:71
+msgid "Add Applet..."
+msgstr "Sepanok Lê Zêde Bike.."
+
 #: context/toolbar/AppletToolbarConfigItem.cpp:36
 msgid "Configure Applets..."
 msgstr "Sepanokan Veava Bike..."
@@ -7786,6 +7759,10 @@ msgctxt ""
 "least one, do not translate install, remove, upgrade nor list"
 msgid "One of install, remove, upgrade or list is required."
 msgstr ""
+
+#: context/widgets/ContainmentSelectionLayer.cpp:37
+msgid "Zoom In"
+msgstr "Nêzîktir bike"
 
 #: context/widgets/ToolBoxMenu.cpp:109
 #: context/widgets/appletexplorer/AppletExplorer.cpp:105
@@ -8653,34 +8630,34 @@ msgid "&Export to subscriptions to OPML file"
 msgstr ""
 
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:323
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:861
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:851
 msgid "&Configure"
 msgstr "&Veava Bike"
 
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:341
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:879
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:869
 msgid "&Remove Subscription"
 msgstr "Endamiyê &Rake "
 
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:363
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:900
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:890
 #, fuzzy
 #| msgid "&Update All"
 msgid "&Update Channel"
 msgstr "Hemû yan &Rojane Bike"
 
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:402
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:781
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:771
 msgid "&Delete Downloaded Episode"
 msgstr "Beşa (yê rêzefilmê) Daxistî &Jê Bibe"
 
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:414
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:794
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:784
 msgid "&Write Feed Information to File"
 msgstr ""
 
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:438
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:831
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:821
 msgid "&Download Episode"
 msgstr "Beşa Rêzefilmê &Daxe"
 
@@ -8689,14 +8666,14 @@ msgstr "Beşa Rêzefilmê &Daxe"
 msgid "Already subscribed to %1."
 msgstr "Jixwe endamê %1 ê ye."
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:601
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:603
 #, fuzzy
 #| msgid "Never"
 msgctxt "prefix to 'x minutes'"
 msgid "every "
 msgstr "Ti car"
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:602
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:604
 #, fuzzy
 #| msgid "Minutes"
 msgid " minute"
@@ -8704,60 +8681,60 @@ msgid_plural " minutes"
 msgstr[0] "Xulekan"
 msgstr[1] "Xulekan"
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:611
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:613
 #, fuzzy
 #| msgid "Configure Podcasts..."
 msgid "Configure Local Podcasts"
 msgstr "Postcast an Veava Bike..."
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:662
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:664
 msgid "Select file for OPML export"
 msgstr ""
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:952
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:942
 #, fuzzy
 #| msgid "Subscribe"
 msgid "Unsubscribe"
 msgstr "Bibe Abone"
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:956
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:946
 #, fuzzy
 #| msgid "Do you really want to remove this %1?"
 msgid "Do you really want to unsubscribe from "
 msgstr "Ji dil dixwazî vê %1 jê bibî?"
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:963
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:953
 #, fuzzy
 #| msgid "&Delete Downloaded Episode"
 msgid "Delete downloaded episodes"
 msgstr "Beşa (yê rêzefilmê) Daxistî &Jê Bibe"
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1092
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1077
 msgid "Waiting for Podcast Downloads to Finish"
 msgstr ""
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1093
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1078
 #, kde-format
 msgid "There is still a podcast download in progress"
 msgid_plural "There are still %1 podcast downloads in progress"
 msgstr[0] ""
 msgstr[1] ""
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1097
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1082
 msgid "Cancel Download and Quit."
 msgstr ""
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1258
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1241
 msgid "Downloading Podcast Media"
 msgstr "Medya ya Podcast Tê Daxistin"
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1259
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1242
 #, kde-format
 msgid "Downloading Podcast \"%1\""
 msgstr "Podcasta \"%1\" Tê Daxistin"
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1329
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1478
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1312
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1461
 #, kde-format
 msgid "Unable to save podcast episode file to %1"
 msgstr "Nekarî beşa ji torê tê anîn tomar bike di pela %1 de"
@@ -12073,6 +12050,22 @@ msgstr "Tenê hevgirtî yan nîşan bide"
 msgid "Search Preferences"
 msgstr ""
 
+#: playlist/PlaylistDock.cpp:96
+msgid "Dynamic Mode Enabled"
+msgstr ""
+
+#: playlist/PlaylistDock.cpp:160
+#, fuzzy
+#| msgid "Current Playlist"
+msgid "&Save Current Playlist"
+msgstr "Lîsteya Lêdanê yê Niha"
+
+#: playlist/PlaylistDock.cpp:236
+#, fuzzy, kde-format
+#| msgid "&Save Playlist"
+msgid "&Save playlist to \"%1\""
+msgstr "Lîsteya Lêdanê &Tomar Bike"
+
 #: playlist/PlaylistModel.cpp:237
 #, fuzzy
 #| msgid "No information available for this track"
@@ -12165,22 +12158,6 @@ msgstr "Rewş"
 #: playlist/PlaylistModel.cpp:897
 msgid "File Size"
 msgstr "Mezinahiya Pelî"
-
-#: playlist/PlaylistDock.cpp:96
-msgid "Dynamic Mode Enabled"
-msgstr ""
-
-#: playlist/PlaylistDock.cpp:160
-#, fuzzy
-#| msgid "Current Playlist"
-msgid "&Save Current Playlist"
-msgstr "Lîsteya Lêdanê yê Niha"
-
-#: playlist/PlaylistDock.cpp:236
-#, fuzzy, kde-format
-#| msgid "&Save Playlist"
-msgid "&Save playlist to \"%1\""
-msgstr "Lîsteya Lêdanê &Tomar Bike"
 
 #: playlistgenerator/ConstraintGroup.cpp:87
 #, fuzzy
@@ -13644,14 +13621,6 @@ msgstr "Bijare"
 msgid "Copy Current View Bookmark to Clipboard"
 msgstr ""
 
-#: widgets/MainControlsWidget.cpp:70 ActionClasses.cpp:176
-msgid "Play/Pause"
-msgstr "Lêde/Sekinîne"
-
-#: widgets/MainControlsWidget.cpp:78 ActionClasses.cpp:497
-msgid "Stop"
-msgstr "Rawestîne"
-
 #: widgets/MetaQueryWidget.cpp:58 widgets/MetaQueryWidget.cpp:125
 #, fuzzy
 #| msgid "Seconds"
@@ -14372,6 +14341,10 @@ msgstr "Tu Stran Nayê Lêdan"
 msgid "Amarok Menu"
 msgstr "Pêşeka Amarok"
 
+#: ActionClasses.cpp:176
+msgid "Play/Pause"
+msgstr "Lêde/Sekinîne"
+
 #: ActionClasses.cpp:313
 msgid "Click to change"
 msgstr "Bitikîne û biguherîne"
@@ -14426,6 +14399,10 @@ msgstr "Lîsteya Lêdanê yê Niha"
 #: ActionClasses.cpp:466
 msgid "Selected Tracks"
 msgstr "Stranên Hilbijartî"
+
+#: ActionClasses.cpp:497
+msgid "Stop"
+msgstr "Rawestîne"
 
 #: ActionClasses.cpp:549
 #, fuzzy
@@ -15116,6 +15093,21 @@ msgstr ""
 #: main.cpp:223
 msgid "Thomas Kahle"
 msgstr ""
+
+#~ msgid "Remove Widgets..."
+#~ msgstr "Alavan Rake..."
+
+#~ msgid "Zoom Out"
+#~ msgstr "Dûrtir bike"
+
+#~ msgid "Add Widgets..."
+#~ msgstr "Alavan Zêde Bike..."
+
+#~ msgid "Next Group"
+#~ msgstr "Koma Pêş"
+
+#~ msgid "Previous Group"
+#~ msgstr "Koma Paş"
 
 #~ msgid "Form"
 #~ msgstr "Teşe"
