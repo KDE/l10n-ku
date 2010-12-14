@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-12-13 02:21+0100\n"
+"POT-Creation-Date: 2010-12-14 02:43+0100\n"
 "PO-Revision-Date: 2009-02-21 06:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -8144,7 +8144,7 @@ msgstr[0] "Stranan Jê iPod Dibe"
 msgstr[1] "Stranan Jê iPod Dibe"
 
 #: core-impl/collections/mediadevicecollection/playlist/MediaDeviceUserPlaylistProvider.cpp:115
-#: playlistmanager/file/PlaylistFileProvider.cpp:442
+#: playlistmanager/file/PlaylistFileProvider.cpp:457
 #: playlistmanager/sql/SqlUserPlaylistProvider.cpp:129
 #: playlistmanager/PlaylistManager.cpp:354
 #, fuzzy
@@ -8153,7 +8153,7 @@ msgid "Change playlist"
 msgstr "Lîsteya Lêdanê &Tomar Bike"
 
 #: core-impl/collections/mediadevicecollection/playlist/MediaDeviceUserPlaylistProvider.cpp:116
-#: playlistmanager/file/PlaylistFileProvider.cpp:443
+#: playlistmanager/file/PlaylistFileProvider.cpp:458
 #: playlistmanager/sql/SqlUserPlaylistProvider.cpp:130
 #: playlistmanager/PlaylistManager.cpp:355
 #, fuzzy
@@ -8387,7 +8387,7 @@ msgid "&Delete Episode"
 msgstr "Pelan Jê Bibe"
 
 #: core-impl/collections/umscollection/podcasts/UmsPodcastProvider.cpp:251
-#: playlistmanager/file/PlaylistFileProvider.cpp:328
+#: playlistmanager/file/PlaylistFileProvider.cpp:343
 #: playlistmanager/sql/SqlUserPlaylistProvider.cpp:252
 #, fuzzy
 #| msgid "Configure Playback"
@@ -8724,20 +8724,20 @@ msgstr[1] ""
 msgid "Cancel Download and Quit."
 msgstr ""
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1241
-msgid "Downloading Podcast Media"
-msgstr "Medya ya Podcast Tê Daxistin"
-
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1242
-#, kde-format
-msgid "Downloading Podcast \"%1\""
-msgstr "Podcasta \"%1\" Tê Daxistin"
-
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1312
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1461
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1257
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1465
 #, kde-format
 msgid "Unable to save podcast episode file to %1"
 msgstr "Nekarî beşa ji torê tê anîn tomar bike di pela %1 de"
+
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1267
+msgid "Downloading Podcast Media"
+msgstr "Medya ya Podcast Tê Daxistin"
+
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1268
+#, kde-format
+msgid "Downloading Podcast \"%1\""
+msgstr "Podcasta \"%1\" Tê Daxistin"
 
 #: core-impl/podcasts/sql/SqlPodcastProvider.h:54
 msgid "Local Podcasts"
@@ -12510,7 +12510,7 @@ msgctxt "Remove a track from a saved playlist"
 msgid "Remove From \"%1\""
 msgstr "%1 Rake"
 
-#: playlistmanager/file/PlaylistFileProvider.cpp:330
+#: playlistmanager/file/PlaylistFileProvider.cpp:345
 #: playlistmanager/sql/SqlUserPlaylistProvider.cpp:254
 #, fuzzy, kde-format
 #| msgctxt "@info"
@@ -12520,12 +12520,12 @@ msgid_plural "Are you sure you want to delete these %1 playlist files?"
 msgstr[0] "Tu bi rastî dixwazî wan stranên %1 jê bibî?"
 msgstr[1] "Tu bi rastî dixwazî wan stranên %1 jê bibî?"
 
-#: playlistmanager/file/PlaylistFileProvider.cpp:335
+#: playlistmanager/file/PlaylistFileProvider.cpp:350
 msgid "Yes, delete from disk."
 msgstr ""
 
-#: playlistmanager/file/PlaylistFileProvider.cpp:373
-#: playlistmanager/file/PlaylistFileProvider.cpp:401
+#: playlistmanager/file/PlaylistFileProvider.cpp:388
+#: playlistmanager/file/PlaylistFileProvider.cpp:416
 #, fuzzy, kde-format
 #| msgid "This object could not be created."
 msgid "The playlist file \"%1\" could not be loaded."
@@ -13371,17 +13371,6 @@ msgstr ""
 "Çewtiya Mp3tunes Harmony\n"
 "%1"
 
-#: services/mp3tunes/Mp3tunesServiceCollectionLocation.cpp:42
-#: services/mp3tunes/Mp3tunesServiceCollection.cpp:53
-msgid "MP3tunes Locker"
-msgstr "Quflkerê MP3tunes"
-
-#: services/mp3tunes/Mp3tunesServiceCollectionLocation.cpp:78
-msgid ""
-"Only the following types of tracks can be uploaded to MP3tunes: mp3, mp4, "
-"m4a, m4p, aac, wma, and ogg. "
-msgstr ""
-
 #: services/mp3tunes/harmonydaemon/main.cpp:31
 msgid "Amarok's MP3tunes Harmony Daemon"
 msgstr ""
@@ -13434,6 +13423,17 @@ msgstr ""
 #, kde-format
 msgid "Uploading Track %1/%2"
 msgstr "Strana %1/%2 tê Rojane Kirin"
+
+#: services/mp3tunes/Mp3tunesServiceCollection.cpp:53
+#: services/mp3tunes/Mp3tunesServiceCollectionLocation.cpp:42
+msgid "MP3tunes Locker"
+msgstr "Quflkerê MP3tunes"
+
+#: services/mp3tunes/Mp3tunesServiceCollectionLocation.cpp:81
+msgid ""
+"Only the following types of tracks can be uploaded to MP3tunes: mp3, mp4, "
+"m4a, m4p, aac, wma, and ogg. "
+msgstr ""
 
 #: services/opmldirectory/OpmlDirectoryInfoParser.cpp:56
 msgid "Loading Podcast Info..."
