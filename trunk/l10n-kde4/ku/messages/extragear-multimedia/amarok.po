@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-12-18 02:28+0100\n"
+"POT-Creation-Date: 2010-12-19 02:25+0100\n"
 "PO-Revision-Date: 2009-02-21 06:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -6341,22 +6341,6 @@ msgctxt "Enter a new name for a folder that already exists"
 msgid "Enter new folder name:"
 msgstr "Navê koma nû têkevê:"
 
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:175
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:224
-#, fuzzy, kde-format
-#| msgid "Playlist"
-msgctxt "number of playlists from one source"
-msgid "One Playlist"
-msgid_plural "%1 playlists"
-msgstr[0] "Lîsteya Lêdanê"
-msgstr[1] "Lîsteya Lêdanê"
-
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:385
-#, fuzzy
-#| msgid "Source"
-msgid "Source"
-msgstr "Çavkanî"
-
 #: browsers/playlistbrowser/PodcastCategory.cpp:77
 msgid "Podcasts"
 msgstr "Podcast"
@@ -6419,6 +6403,22 @@ msgstr ""
 #: browsers/playlistbrowser/PodcastCategory.cpp:274
 msgid "Select OPML file to import"
 msgstr ""
+
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:175
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:224
+#, fuzzy, kde-format
+#| msgid "Playlist"
+msgctxt "number of playlists from one source"
+msgid "One Playlist"
+msgid_plural "%1 playlists"
+msgstr[0] "Lîsteya Lêdanê"
+msgstr[1] "Lîsteya Lêdanê"
+
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:385
+#, fuzzy
+#| msgid "Source"
+msgid "Source"
+msgstr "Çavkanî"
 
 #: browsers/servicebrowser/ServiceBrowser.cpp:44
 msgid ""
@@ -8634,34 +8634,34 @@ msgid "&Export to subscriptions to OPML file"
 msgstr ""
 
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:323
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:850
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:851
 msgid "&Configure"
 msgstr "&Veava Bike"
 
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:341
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:868
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:869
 msgid "&Remove Subscription"
 msgstr "Endamiyê &Rake "
 
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:363
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:889
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:890
 #, fuzzy
 #| msgid "&Update All"
 msgid "&Update Channel"
 msgstr "Hemû yan &Rojane Bike"
 
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:402
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:770
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:771
 msgid "&Delete Downloaded Episode"
 msgstr "Beşa (yê rêzefilmê) Daxistî &Jê Bibe"
 
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:414
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:783
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:784
 msgid "&Write Feed Information to File"
 msgstr ""
 
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:438
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:820
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:821
 msgid "&Download Episode"
 msgstr "Beşa Rêzefilmê &Daxe"
 
@@ -8695,50 +8695,50 @@ msgstr "Postcast an Veava Bike..."
 msgid "Select file for OPML export"
 msgstr ""
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:941
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:942
 #, fuzzy
 #| msgid "Subscribe"
 msgid "Unsubscribe"
 msgstr "Bibe Abone"
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:945
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:946
 #, fuzzy
 #| msgid "Do you really want to remove this %1?"
 msgid "Do you really want to unsubscribe from "
 msgstr "Ji dil dixwazî vê %1 jê bibî?"
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:952
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:953
 #, fuzzy
 #| msgid "&Delete Downloaded Episode"
 msgid "Delete downloaded episodes"
 msgstr "Beşa (yê rêzefilmê) Daxistî &Jê Bibe"
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1076
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1077
 msgid "Waiting for Podcast Downloads to Finish"
 msgstr ""
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1077
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1078
 #, kde-format
 msgid "There is still a podcast download in progress"
 msgid_plural "There are still %1 podcast downloads in progress"
 msgstr[0] ""
 msgstr[1] ""
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1081
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1082
 msgid "Cancel Download and Quit."
 msgstr ""
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1256
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1461
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1257
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1465
 #, kde-format
 msgid "Unable to save podcast episode file to %1"
 msgstr "Nekarî beşa ji torê tê anîn tomar bike di pela %1 de"
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1266
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1267
 msgid "Downloading Podcast Media"
 msgstr "Medya ya Podcast Tê Daxistin"
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1267
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1268
 #, kde-format
 msgid "Downloading Podcast \"%1\""
 msgstr "Podcasta \"%1\" Tê Daxistin"
