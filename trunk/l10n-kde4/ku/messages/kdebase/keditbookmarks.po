@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: keditbookmarks\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-10-19 06:54+0200\n"
+"POT-Creation-Date: 2010-12-26 02:55+0100\n"
 "PO-Revision-Date: 2008-03-02 01:54+0100\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <ku@li.org>\n"
@@ -16,6 +16,95 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: kbookmarkmodel/model.cpp:118
+#, fuzzy
+#| msgid "&Bookmark"
+msgctxt "name of the container of all browser bookmarks"
+msgid "Bookmarks"
+msgstr "&Bijare"
+
+#: kbookmarkmodel/model.cpp:222
+#, fuzzy
+#| msgid "Rename"
+msgctxt "@title:column name of a bookmark"
+msgid "Name"
+msgstr "Nav guherandin"
+
+#: kbookmarkmodel/model.cpp:226
+msgctxt "@title:column name of a bookmark"
+msgid "Location"
+msgstr ""
+
+#: kbookmarkmodel/model.cpp:230
+#, fuzzy
+#| msgid "Comment"
+msgctxt "@title:column comment for a bookmark"
+msgid "Comment"
+msgstr "Şîrove"
+
+#: kbookmarkmodel/model.cpp:234
+msgctxt "@title:column status of a bookmark"
+msgid "Status"
+msgstr ""
+
+#: kbookmarkmodel/commands.cpp:68
+msgid "Insert Separator"
+msgstr "Veqetandêr lê zêde bike"
+
+#: kbookmarkmodel/commands.cpp:77
+msgid "Create Bookmark"
+msgstr "Bijareyan Çêbike"
+
+#: kbookmarkmodel/commands.cpp:86
+msgid "Create Folder"
+msgstr "Peldankê Biafirîne"
+
+#: kbookmarkmodel/commands.cpp:95
+#, kde-format
+msgid "Copy %1"
+msgstr "%1 ji ber bigire"
+
+#: kbookmarkmodel/commands.cpp:183
+#, fuzzy
+#| msgid "%1 Change"
+msgid "Icon Change"
+msgstr "%1 Biguherîne"
+
+#: kbookmarkmodel/commands.cpp:185
+#, fuzzy
+#| msgid "%1 Change"
+msgid "Title Change"
+msgstr "%1 Biguherîne"
+
+#: kbookmarkmodel/commands.cpp:187
+#, fuzzy
+#| msgid "%1 Change"
+msgid "URL Change"
+msgstr "%1 Biguherîne"
+
+#: kbookmarkmodel/commands.cpp:189
+#, fuzzy
+#| msgid "Comment"
+msgid "Comment Change"
+msgstr "Şîrove"
+
+#: kbookmarkmodel/commands.cpp:359
+#, kde-format
+msgid "Move %1"
+msgstr "%1 biguhêze"
+
+#: kbookmarkmodel/commands.cpp:476
+msgid "Set as Bookmark Toolbar"
+msgstr ""
+
+#: kbookmarkmodel/commands.cpp:512
+msgid "Copy Items"
+msgstr "Copy Items"
+
+#: kbookmarkmodel/commands.cpp:513
+msgid "Move Items"
+msgstr "Hêmanan Bikşîne"
 
 #: kebsearchline.cpp:273
 msgid "Search Columns"
@@ -195,6 +284,30 @@ msgstr ""
 msgid "*.xml|KDE Bookmark Files (*.xml)"
 msgstr ""
 
+#: bookmarkinfowidget.cpp:246
+msgid "Name:"
+msgstr ""
+
+#: bookmarkinfowidget.cpp:254
+msgid "Location:"
+msgstr ""
+
+#: bookmarkinfowidget.cpp:262
+msgid "Comment:"
+msgstr ""
+
+#: bookmarkinfowidget.cpp:269
+msgid "First viewed:"
+msgstr ""
+
+#: bookmarkinfowidget.cpp:272
+msgid "Viewed last:"
+msgstr ""
+
+#: bookmarkinfowidget.cpp:275
+msgid "Times visited:"
+msgstr ""
+
 #: favicons.cpp:56 testlink.cpp:97
 msgid "OK"
 msgstr "Temam"
@@ -203,28 +316,9 @@ msgstr "Temam"
 msgid "Updating favicon..."
 msgstr "Favicon tê rojanekirin..."
 
-#: kbookmarkmerger.cpp:39
-msgid "KBookmarkMerger"
-msgstr ""
-
-#: kbookmarkmerger.cpp:40
-msgid "Merges bookmarks installed by 3rd parties into the user's bookmarks"
-msgstr ""
-
-#: kbookmarkmerger.cpp:42
-msgid "Copyright © 2005 Frerich Raabe"
-msgstr ""
-
-#: kbookmarkmerger.cpp:43
-msgid "Frerich Raabe"
-msgstr ""
-
-#: kbookmarkmerger.cpp:43
-msgid "Original author"
-msgstr ""
-
-#: kbookmarkmerger.cpp:49
-msgid "Directory to scan for extra bookmarks"
+#: faviconupdater.cpp:87
+#, kde-format
+msgid "%1; no HTML component found (%2)"
 msgstr ""
 
 #: actionsimpl.cpp:97
@@ -379,6 +473,30 @@ msgstr ""
 msgid "Delete Items"
 msgstr ""
 
+#: kbookmarkmerger.cpp:39
+msgid "KBookmarkMerger"
+msgstr ""
+
+#: kbookmarkmerger.cpp:40
+msgid "Merges bookmarks installed by 3rd parties into the user's bookmarks"
+msgstr ""
+
+#: kbookmarkmerger.cpp:42
+msgid "Copyright © 2005 Frerich Raabe"
+msgstr ""
+
+#: kbookmarkmerger.cpp:43
+msgid "Frerich Raabe"
+msgstr ""
+
+#: kbookmarkmerger.cpp:43
+msgid "Original author"
+msgstr ""
+
+#: kbookmarkmerger.cpp:49
+msgid "Directory to scan for extra bookmarks"
+msgstr ""
+
 #: importers.h:102
 msgid "Galeon"
 msgstr "Galeon"
@@ -410,124 +528,6 @@ msgstr ""
 #: testlink.cpp:76
 msgid "Checking..."
 msgstr "Tê kontrolkirin..."
-
-#: bookmarkinfowidget.cpp:246
-msgid "Name:"
-msgstr ""
-
-#: bookmarkinfowidget.cpp:254
-msgid "Location:"
-msgstr ""
-
-#: bookmarkinfowidget.cpp:262
-msgid "Comment:"
-msgstr ""
-
-#: bookmarkinfowidget.cpp:269
-msgid "First viewed:"
-msgstr ""
-
-#: bookmarkinfowidget.cpp:272
-msgid "Viewed last:"
-msgstr ""
-
-#: bookmarkinfowidget.cpp:275
-msgid "Times visited:"
-msgstr ""
-
-#: kbookmarkmodel/model.cpp:118
-#, fuzzy
-#| msgid "&Bookmark"
-msgctxt "name of the container of all browser bookmarks"
-msgid "Bookmarks"
-msgstr "&Bijare"
-
-#: kbookmarkmodel/model.cpp:222
-#, fuzzy
-#| msgid "Rename"
-msgctxt "@title:column name of a bookmark"
-msgid "Name"
-msgstr "Nav guherandin"
-
-#: kbookmarkmodel/model.cpp:226
-msgctxt "@title:column name of a bookmark"
-msgid "Location"
-msgstr ""
-
-#: kbookmarkmodel/model.cpp:230
-#, fuzzy
-#| msgid "Comment"
-msgctxt "@title:column comment for a bookmark"
-msgid "Comment"
-msgstr "Şîrove"
-
-#: kbookmarkmodel/model.cpp:234
-msgctxt "@title:column status of a bookmark"
-msgid "Status"
-msgstr ""
-
-#: kbookmarkmodel/commands.cpp:68
-msgid "Insert Separator"
-msgstr "Veqetandêr lê zêde bike"
-
-#: kbookmarkmodel/commands.cpp:77
-msgid "Create Bookmark"
-msgstr "Bijareyan Çêbike"
-
-#: kbookmarkmodel/commands.cpp:86
-msgid "Create Folder"
-msgstr "Peldankê Biafirîne"
-
-#: kbookmarkmodel/commands.cpp:95
-#, kde-format
-msgid "Copy %1"
-msgstr "%1 ji ber bigire"
-
-#: kbookmarkmodel/commands.cpp:183
-#, fuzzy
-#| msgid "%1 Change"
-msgid "Icon Change"
-msgstr "%1 Biguherîne"
-
-#: kbookmarkmodel/commands.cpp:185
-#, fuzzy
-#| msgid "%1 Change"
-msgid "Title Change"
-msgstr "%1 Biguherîne"
-
-#: kbookmarkmodel/commands.cpp:187
-#, fuzzy
-#| msgid "%1 Change"
-msgid "URL Change"
-msgstr "%1 Biguherîne"
-
-#: kbookmarkmodel/commands.cpp:189
-#, fuzzy
-#| msgid "Comment"
-msgid "Comment Change"
-msgstr "Şîrove"
-
-#: kbookmarkmodel/commands.cpp:359
-#, kde-format
-msgid "Move %1"
-msgstr "%1 biguhêze"
-
-#: kbookmarkmodel/commands.cpp:476
-msgid "Set as Bookmark Toolbar"
-msgstr ""
-
-#: kbookmarkmodel/commands.cpp:512
-msgid "Copy Items"
-msgstr "Copy Items"
-
-#: kbookmarkmodel/commands.cpp:513
-msgid "Move Items"
-msgstr "Hêmanan Bikşîne"
-
-#: faviconupdater.cpp:87
-#, kde-format
-msgid "%1; no HTML component found (%2)"
-msgstr ""
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"

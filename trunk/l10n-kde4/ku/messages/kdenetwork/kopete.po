@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kopete\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-11-02 07:18+0100\n"
+"POT-Creation-Date: 2010-12-26 03:00+0100\n"
 "PO-Revision-Date: 2008-06-22 23:57+0200\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <ku@li.org>\n"
@@ -19,6 +19,55 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Launchpad-Export-Date: 2007-11-26 10:52+0000\n"
 "X-Generator: KBabel 1.11.4\n"
+
+#: plugins/nowlistening/nowlisteningguiclient.cpp:39
+msgid "Send Media Info"
+msgstr "Agahiyên Mediayê Bişeyne"
+
+#: plugins/nowlistening/nowlisteningguiclient.cpp:64
+#, fuzzy
+msgid ""
+"None of the supported media players (Amarok, KsCD, JuK, Kaffeine, Quod "
+"Libet, or Qmmp) are playing anything."
+msgstr ""
+"Tu bernameyeke bipiştgirî (KsCD, JuK, amaroK, Noatun an jî Kaffeine)naxebite."
+
+#: plugins/nowlistening/nowlisteningguiclient.cpp:65
+msgid "Nothing to Send"
+msgstr "Tu Tiştekî Şandinê Tune"
+
+#: plugins/nowlistening/nowlisteningplugin.cpp:133
+msgid "USAGE: /media - Displays information on current song"
+msgstr "BIKARANÎN: /media - li ser strana mevcûd agahiyan nîşan dide"
+
+#: plugins/nowlistening/nowlisteningplugin.cpp:172
+msgctxt ""
+"Message from Kopete user to another user; used when sending media "
+"information even though there are no songs playing or no media players "
+"running"
+msgid ""
+"Now Listening for Kopete - it would tell you what I am listening to, if I "
+"was listening to something on a supported media player."
+msgstr ""
+
+#: plugins/nowlistening/nowlisteningplugin.cpp:440
+#: plugins/nowlistening/nlquodlibet.cpp:69
+msgid "Unknown track"
+msgstr "Tracka nenas"
+
+#: plugins/nowlistening/nowlisteningplugin.cpp:449
+#: plugins/nowlistening/nlquodlibet.cpp:67
+msgid "Unknown artist"
+msgstr "Hunermenda/ê nenas"
+
+#: plugins/nowlistening/nowlisteningplugin.cpp:456
+#: plugins/nowlistening/nlquodlibet.cpp:68
+msgid "Unknown album"
+msgstr "Albuma nenas"
+
+#: plugins/nowlistening/nowlisteningplugin.cpp:463
+msgid "Unknown player"
+msgstr "Bernameya muzîkê ya nenas"
 
 #: plugins/pipes/pipesplugin.cpp:303
 #, kde-format
@@ -97,54 +146,93 @@ msgctxt "adjective decribing an instant message"
 msgid "Outbound"
 msgstr "Nan Dixum"
 
-#: plugins/nowlistening/nowlisteningplugin.cpp:133
-msgid "USAGE: /media - Displays information on current song"
-msgstr "BIKARANÎN: /media - li ser strana mevcûd agahiyan nîşan dide"
+#. i18n: file: plugins/autoreplace/autoreplaceprefs.ui:127
+#. i18n: ectx: property (text), widget (QPushButton, m_add)
+#. i18n: file: protocols/groupwise/ui/gwcustomstatus.ui:37
+#. i18n: ectx: property (text), widget (QPushButton, m_btnAdd)
+#. i18n: file: plugins/autoreplace/autoreplaceprefs.ui:127
+#. i18n: ectx: property (text), widget (QPushButton, m_add)
+#. i18n: file: protocols/groupwise/ui/gwcustomstatus.ui:37
+#. i18n: ectx: property (text), widget (QPushButton, m_btnAdd)
+#: plugins/alias/aliaspreferences.cpp:316
+#: protocols/oscar/oscarlistnonservercontacts.cpp:38 rc.cpp:577 rc.cpp:2558
+msgid "&Add"
+msgstr "&Têxê"
 
-#: plugins/nowlistening/nowlisteningplugin.cpp:172
-msgctxt ""
-"Message from Kopete user to another user; used when sending media "
-"information even though there are no songs playing or no media players "
-"running"
+#: plugins/alias/aliaspreferences.cpp:326
+#: plugins/alias/aliaspreferences.cpp:415
+#, kde-format
 msgid ""
-"Now Listening for Kopete - it would tell you what I am listening to, if I "
-"was listening to something on a supported media player."
+"<qt>Could not add alias <b>%1</b>. An alias name cannot contain the "
+"characters \"_\" or \"=\".</qt>"
 msgstr ""
+"<qt><b>%1</b>Nickê nexistê. Nick nikare bi \"_\" an jî \"=\" yê de be.</qt>"
 
-#: plugins/nowlistening/nowlisteningplugin.cpp:440
-#: plugins/nowlistening/nlquodlibet.cpp:69
-msgid "Unknown track"
-msgstr "Tracka nenas"
+#: plugins/alias/aliaspreferences.cpp:328
+#: plugins/alias/aliaspreferences.cpp:417
+msgid "Invalid Alias Name"
+msgstr "Navê Çewt"
 
-#: plugins/nowlistening/nowlisteningplugin.cpp:449
-#: plugins/nowlistening/nlquodlibet.cpp:67
-msgid "Unknown artist"
-msgstr "Hunermenda/ê nenas"
+#: plugins/alias/aliaspreferences.cpp:344
+#, fuzzy, kde-format
+msgid ""
+"<qt>Could not add alias <b>%1</b>. This command is already being handled "
+"either by another alias or Kopete itself.</qt>"
+msgstr ""
+"<qt>Bernavkê <b>%1</b> lê nehate zêdekirin. Ev ferman yan ji aliyê "
+"bernavkekî din yan jî ji aliyê Kopete tê bikaranîn.</qt>"
 
-#: plugins/nowlistening/nowlisteningplugin.cpp:456
-#: plugins/nowlistening/nlquodlibet.cpp:68
-msgid "Unknown album"
-msgstr "Albuma nenas"
+#: plugins/alias/aliaspreferences.cpp:346
+#: plugins/alias/aliaspreferences.cpp:442
+msgid "Could Not Add Alias"
+msgstr "Nav Lê Zêde Nekir"
 
-#: plugins/nowlistening/nowlisteningplugin.cpp:463
-msgid "Unknown player"
-msgstr "Bernameya muzîkê ya nenas"
+#: plugins/alias/aliaspreferences.cpp:440
+#, kde-format
+msgid ""
+"<qt>Could not add alias <b>%1</b>. This command is already being handled by "
+"either another alias or Kopete itself.</qt>"
+msgstr ""
+"<qt>Bernavkê <b>%1</b> lê nehate zêdekirin. Ev ferman yan ji aliyê "
+"bernavkekî din yan jî ji aliyê Kopete tê bikaranîn.</qt>"
 
-#: plugins/nowlistening/nowlisteningguiclient.cpp:39
-msgid "Send Media Info"
-msgstr "Agahiyên Mediayê Bişeyne"
+#: plugins/alias/aliaspreferences.cpp:462
+msgid "Are you sure you want to delete the selected aliases?"
+msgstr "Ji dil dixwazî ku navên hatine hilbijartin jê bibî?"
 
-#: plugins/nowlistening/nowlisteningguiclient.cpp:64
+#: plugins/alias/aliaspreferences.cpp:462
+msgid "Delete Aliases"
+msgstr "Navan Jê Bibe"
+
+#. i18n: file: protocols/oscar/icq/ui/xtrazicqstatuseditorui.ui:29
+#. i18n: ectx: property (text), widget (QPushButton, buttonDelete)
+#: plugins/alias/aliaspreferences.cpp:462
+#: protocols/wlm/ui/wlmeditaccountwidget.cpp:110
+#: protocols/wlm/ui/wlmeditaccountwidget.cpp:113 rc.cpp:3729
 #, fuzzy
-msgid ""
-"None of the supported media players (Amarok, KsCD, JuK, Kaffeine, Quod "
-"Libet, or Qmmp) are playing anything."
-msgstr ""
-"Tu bernameyeke bipiştgirî (KsCD, JuK, amaroK, Noatun an jî Kaffeine)naxebite."
+msgid "Delete"
+msgstr "Makîneyê &Jê Bibe"
 
-#: plugins/nowlistening/nowlisteningguiclient.cpp:65
-msgid "Nothing to Send"
-msgstr "Tu Tiştekî Şandinê Tune"
+#: plugins/translator/translatorplugin.cpp:73
+msgid "Set &Language"
+msgstr "&Zimên Mîheng Bike"
+
+#: plugins/translator/translatorplugin.cpp:365
+#, kde-format
+msgid ""
+"%2 \n"
+"Auto Translated: \n"
+"%1"
+msgstr ""
+
+#: plugins/translator/translatorplugin.cpp:367
+#, kde-format
+msgid "%2 <br/>Auto Translated: <br/>%1"
+msgstr ""
+
+#: plugins/translator/translatordialog.cpp:27
+msgid "Translator Plugin"
+msgstr "Pêvekên Wergêr"
 
 #: plugins/translator/translatorlanguages.cpp:33
 #: plugins/translator/translatorlanguages.cpp:96
@@ -451,97 +539,9 @@ msgstr "Mêr"
 msgid "Yiddish"
 msgstr "Îngilîzî"
 
-#: plugins/translator/translatorplugin.cpp:73
-msgid "Set &Language"
-msgstr "&Zimên Mîheng Bike"
-
-#: plugins/translator/translatorplugin.cpp:365
-#, kde-format
-msgid ""
-"%2 \n"
-"Auto Translated: \n"
-"%1"
-msgstr ""
-
-#: plugins/translator/translatorplugin.cpp:367
-#, kde-format
-msgid "%2 <br/>Auto Translated: <br/>%1"
-msgstr ""
-
-#: plugins/translator/translatordialog.cpp:27
-msgid "Translator Plugin"
-msgstr "Pêvekên Wergêr"
-
 #: plugins/translator/translatorguiclient.cpp:47
 msgid "Translate"
 msgstr "Wergerîne"
-
-#. i18n: file: plugins/autoreplace/autoreplaceprefs.ui:127
-#. i18n: ectx: property (text), widget (QPushButton, m_add)
-#. i18n: file: protocols/groupwise/ui/gwcustomstatus.ui:37
-#. i18n: ectx: property (text), widget (QPushButton, m_btnAdd)
-#. i18n: file: plugins/autoreplace/autoreplaceprefs.ui:127
-#. i18n: ectx: property (text), widget (QPushButton, m_add)
-#. i18n: file: protocols/groupwise/ui/gwcustomstatus.ui:37
-#. i18n: ectx: property (text), widget (QPushButton, m_btnAdd)
-#: plugins/alias/aliaspreferences.cpp:316
-#: protocols/oscar/oscarlistnonservercontacts.cpp:38 rc.cpp:679 rc.cpp:2492
-msgid "&Add"
-msgstr "&Têxê"
-
-#: plugins/alias/aliaspreferences.cpp:326
-#: plugins/alias/aliaspreferences.cpp:415
-#, kde-format
-msgid ""
-"<qt>Could not add alias <b>%1</b>. An alias name cannot contain the "
-"characters \"_\" or \"=\".</qt>"
-msgstr ""
-"<qt><b>%1</b>Nickê nexistê. Nick nikare bi \"_\" an jî \"=\" yê de be.</qt>"
-
-#: plugins/alias/aliaspreferences.cpp:328
-#: plugins/alias/aliaspreferences.cpp:417
-msgid "Invalid Alias Name"
-msgstr "Navê Çewt"
-
-#: plugins/alias/aliaspreferences.cpp:344
-#, fuzzy, kde-format
-msgid ""
-"<qt>Could not add alias <b>%1</b>. This command is already being handled "
-"either by another alias or Kopete itself.</qt>"
-msgstr ""
-"<qt>Bernavkê <b>%1</b> lê nehate zêdekirin. Ev ferman yan ji aliyê "
-"bernavkekî din yan jî ji aliyê Kopete tê bikaranîn.</qt>"
-
-#: plugins/alias/aliaspreferences.cpp:346
-#: plugins/alias/aliaspreferences.cpp:442
-msgid "Could Not Add Alias"
-msgstr "Nav Lê Zêde Nekir"
-
-#: plugins/alias/aliaspreferences.cpp:440
-#, kde-format
-msgid ""
-"<qt>Could not add alias <b>%1</b>. This command is already being handled by "
-"either another alias or Kopete itself.</qt>"
-msgstr ""
-"<qt>Bernavkê <b>%1</b> lê nehate zêdekirin. Ev ferman yan ji aliyê "
-"bernavkekî din yan jî ji aliyê Kopete tê bikaranîn.</qt>"
-
-#: plugins/alias/aliaspreferences.cpp:462
-msgid "Are you sure you want to delete the selected aliases?"
-msgstr "Ji dil dixwazî ku navên hatine hilbijartin jê bibî?"
-
-#: plugins/alias/aliaspreferences.cpp:462
-msgid "Delete Aliases"
-msgstr "Navan Jê Bibe"
-
-#. i18n: file: protocols/oscar/icq/ui/xtrazicqstatuseditorui.ui:29
-#. i18n: ectx: property (text), widget (QPushButton, buttonDelete)
-#: plugins/alias/aliaspreferences.cpp:462
-#: protocols/wlm/ui/wlmeditaccountwidget.cpp:110
-#: protocols/wlm/ui/wlmeditaccountwidget.cpp:113 rc.cpp:3729
-#, fuzzy
-msgid "Delete"
-msgstr "Makîneyê &Jê Bibe"
 
 #. i18n: file: kopete/config/behavior/behaviorconfig_general.ui:127
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_initialStatus)
@@ -952,7 +952,7 @@ msgstr "Digere..."
 #. i18n: file: protocols/irc/ui/networkconfig.ui:228
 #. i18n: ectx: property (text), widget (QPushButton, m_cancelButton)
 #: plugins/history/historydialog.cpp:468
-#: protocols/gadu/gaduregisteraccount.cpp:55 rc.cpp:223 rc.cpp:3424
+#: protocols/gadu/gaduregisteraccount.cpp:55 rc.cpp:157 rc.cpp:3424
 #: rc.cpp:4779
 msgid "&Cancel"
 msgstr ""
@@ -973,7 +973,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (KPushButton, searchButton)
 #. i18n: file: protocols/oscar/icq/ui/icqsearchbase.ui:242
 #. i18n: ectx: property (text), widget (KPushButton, searchButton)
-#: plugins/history/historydialog.cpp:560 rc.cpp:373 rc.cpp:2660 rc.cpp:3750
+#: plugins/history/historydialog.cpp:560 rc.cpp:349 rc.cpp:2660 rc.cpp:3750
 #: rc.cpp:3855
 msgid "&Search"
 msgstr "&Bigere"
@@ -984,7 +984,7 @@ msgstr "Dîrok ji bo Hemû Têkiliyan"
 
 #. i18n: file: plugins/history/historyviewer.ui:186
 #. i18n: ectx: property (text), widget (QLabel, statusLabel)
-#: plugins/history/historydialog.cpp:596 rc.cpp:376
+#: plugins/history/historydialog.cpp:596 rc.cpp:352
 msgid "Ready"
 msgstr "Amade"
 
@@ -1116,6 +1116,34 @@ msgstr ""
 #: plugins/webpresence/webpresenceplugin.cpp:215
 msgid "Not yet known"
 msgstr "Hê nayê zanîn"
+
+#: plugins/autoreplace/autoreplacepreferences.cpp:48
+msgid "Text"
+msgstr "Deq"
+
+#: plugins/autoreplace/autoreplacepreferences.cpp:49
+msgid "Replacement"
+msgstr "Cih biguharîne"
+
+#: plugins/autoreplace/autoreplaceconfig.cpp:68
+msgctxt "list_of_words_to_replace"
+msgid "ur,your,r,are,u,you,theres,there is,arent,are not,dont,do not"
+msgstr ""
+
+#: plugins/contactnotes/contactnotesplugin.cpp:42
+msgid "&Notes"
+msgstr "&Nîşe"
+
+#. i18n: file: protocols/oscar/icq/ui/icqotherinfowidget.ui:132
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: plugins/contactnotes/contactnotesedit.cpp:33 rc.cpp:3897
+msgid "Contact Notes"
+msgstr "Nêşeyên Têkiliyan"
+
+#: plugins/contactnotes/contactnotesedit.cpp:42
+#, kde-format
+msgid "Notes about %1:"
+msgstr "Têbiniyên derbarê %1 'ê de:"
 
 #: plugins/otr/authenticationwizard.cpp:52
 #, fuzzy, kde-format
@@ -1570,34 +1598,6 @@ msgstr "Ji dil dixwazî \"%1\" jê bibî?"
 msgid "Verify fingerprint"
 msgstr ""
 
-#: plugins/contactnotes/contactnotesplugin.cpp:42
-msgid "&Notes"
-msgstr "&Nîşe"
-
-#. i18n: file: protocols/oscar/icq/ui/icqotherinfowidget.ui:132
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: plugins/contactnotes/contactnotesedit.cpp:33 rc.cpp:3897
-msgid "Contact Notes"
-msgstr "Nêşeyên Têkiliyan"
-
-#: plugins/contactnotes/contactnotesedit.cpp:42
-#, kde-format
-msgid "Notes about %1:"
-msgstr "Têbiniyên derbarê %1 'ê de:"
-
-#: plugins/autoreplace/autoreplacepreferences.cpp:48
-msgid "Text"
-msgstr "Deq"
-
-#: plugins/autoreplace/autoreplacepreferences.cpp:49
-msgid "Replacement"
-msgstr "Cih biguharîne"
-
-#: plugins/autoreplace/autoreplaceconfig.cpp:68
-msgctxt "list_of_words_to_replace"
-msgid "ur,your,r,are,u,you,theres,there is,arent,are not,dont,do not"
-msgstr ""
-
 #: plugins/highlight/highlightpreferences.cpp:198
 msgid "Rename Filter"
 msgstr "Fîltreyê Ji Nû Ve Binav Bike"
@@ -1609,6 +1609,39 @@ msgstr "Ji lerema xwe, ji bo fîltreyê navekî nû têkevê:"
 #: plugins/highlight/highlightconfig.cpp:71
 msgid "-New filter-"
 msgstr "-Fîltreya nû-"
+
+#: plugins/latex/latexguiclient.cpp:43
+msgid "Preview Latex Images"
+msgstr "Pêşdîtina Wêneyên Latex"
+
+#: plugins/latex/latexguiclient.cpp:64
+msgid ""
+"The message you are typing does not contain any LaTeX.  A LaTeX formula must "
+"be enclosed within two pairs of dollar signs: $$formula$$ "
+msgstr ""
+
+#: plugins/latex/latexguiclient.cpp:64
+#, fuzzy
+msgid "No LaTeX Formula"
+msgstr "Tu Formulên Latex tunin"
+
+#: plugins/latex/latexguiclient.cpp:70
+#, fuzzy, kde-format
+msgid "<b>Preview of the LaTeX message :</b> <br />%1"
+msgstr "<b>Pêşdîtina peyama latex: </b> %1"
+
+#: plugins/latex/latexplugin.cpp:96
+#, fuzzy
+msgid ""
+"Cannot find the Magick 'convert' program.\n"
+"convert is required to render the LaTeX formulae.\n"
+"Please get the software from www.imagemagick.org or from your distribution's "
+"package manager."
+msgstr ""
+"Nikarim bernameya Magick convert bibînim.\n"
+"convert ji bo nîşandana formulên latex divê.\n"
+"Ji kerema ji malpera www.imagemagick.org an jî malpera belavkirina xwe "
+"paketa rast bistîne."
 
 #: plugins/privacy/privacypreferences.cpp:164
 #, fuzzy
@@ -1661,39 +1694,6 @@ msgstr ""
 msgid "A message from %1 was dropped, because it contained blacklisted words."
 msgstr ""
 
-#: plugins/latex/latexguiclient.cpp:43
-msgid "Preview Latex Images"
-msgstr "Pêşdîtina Wêneyên Latex"
-
-#: plugins/latex/latexguiclient.cpp:64
-msgid ""
-"The message you are typing does not contain any LaTeX.  A LaTeX formula must "
-"be enclosed within two pairs of dollar signs: $$formula$$ "
-msgstr ""
-
-#: plugins/latex/latexguiclient.cpp:64
-#, fuzzy
-msgid "No LaTeX Formula"
-msgstr "Tu Formulên Latex tunin"
-
-#: plugins/latex/latexguiclient.cpp:70
-#, fuzzy, kde-format
-msgid "<b>Preview of the LaTeX message :</b> <br />%1"
-msgstr "<b>Pêşdîtina peyama latex: </b> %1"
-
-#: plugins/latex/latexplugin.cpp:96
-#, fuzzy
-msgid ""
-"Cannot find the Magick 'convert' program.\n"
-"convert is required to render the LaTeX formulae.\n"
-"Please get the software from www.imagemagick.org or from your distribution's "
-"package manager."
-msgstr ""
-"Nikarim bernameya Magick convert bibînim.\n"
-"convert ji bo nîşandana formulên latex divê.\n"
-"Ji kerema ji malpera www.imagemagick.org an jî malpera belavkirina xwe "
-"paketa rast bistîne."
-
 #: protocols/wlm/ui/wlmaddcontactpage.cpp:57
 #: protocols/groupwise/ui/gwaddcontactpage.cpp:67
 #: protocols/jabber/ui/jabberaddcontactpage.cpp:67
@@ -1734,12 +1734,6 @@ msgstr "Pêveka MSN'ê"
 #, fuzzy
 msgid "File transfer cancelled."
 msgstr "Veguheztina pelan hate betalkirin."
-
-#: protocols/wlm/wlmchatsessioninkaction.cpp:62
-#, fuzzy
-#| msgid "Send"
-msgid "Send Ink"
-msgstr "Bişeyine"
 
 #: protocols/wlm/wlmchatsession.cpp:112
 msgid "Send Nudge"
@@ -1793,6 +1787,12 @@ msgstr ""
 #: protocols/wlm/wlmchatsession.cpp:1080
 msgid "has sent you a nudge"
 msgstr ""
+
+#: protocols/wlm/wlmchatsessioninkaction.cpp:62
+#, fuzzy
+#| msgid "Send"
+msgid "Send Ink"
+msgstr "Bişeyine"
 
 #: protocols/wlm/wlmcontact.cpp:59
 #, fuzzy
@@ -2060,21 +2060,6 @@ msgstr "ID'a bikarhêner ne derbasdar e."
 msgid "An unknown error occurred while joining the chat room."
 msgstr "Dema ku cureyê paceya sohbetê dihat daxistin çewtiyek derket holê."
 
-#: protocols/yahoo/libkyahoo/statusnotifiertask.cpp:103
-#, fuzzy
-msgid "An unknown error has occurred."
-msgstr "Çewtiyeke nenas çêbû"
-
-#: protocols/yahoo/libkyahoo/sendpicturetask.cpp:79
-#: protocols/yahoo/libkyahoo/picturenotifiertask.cpp:151
-msgid "The picture was not successfully uploaded"
-msgstr "Barkirina wêneyê bi ser neket"
-
-#: protocols/yahoo/libkyahoo/sendpicturetask.cpp:108
-#, kde-format
-msgid "Error opening file: %1"
-msgstr "Çewtiya vekirina pelê: %1"
-
 #: protocols/yahoo/libkyahoo/modifyyabtask.cpp:93
 #: protocols/yahoo/libkyahoo/modifyyabtask.cpp:121
 #, fuzzy
@@ -2101,6 +2086,21 @@ msgid ""
 "The Yahoo Address Book entry could not be deleted:\n"
 "%1 - %2"
 msgstr ""
+
+#: protocols/yahoo/libkyahoo/sendpicturetask.cpp:79
+#: protocols/yahoo/libkyahoo/picturenotifiertask.cpp:151
+msgid "The picture was not successfully uploaded"
+msgstr "Barkirina wêneyê bi ser neket"
+
+#: protocols/yahoo/libkyahoo/sendpicturetask.cpp:108
+#, kde-format
+msgid "Error opening file: %1"
+msgstr "Çewtiya vekirina pelê: %1"
+
+#: protocols/yahoo/libkyahoo/statusnotifiertask.cpp:103
+#, fuzzy
+msgid "An unknown error has occurred."
+msgstr "Çewtiyeke nenas çêbû"
 
 #: protocols/yahoo/libkyahoo/yabtask.cpp:119
 #, fuzzy
@@ -2829,62 +2829,6 @@ msgstr "Di pelê ku di torê de dihate veguheztin çewtî heye."
 msgid "Unknown File-Transfer error."
 msgstr "Çewtiya Nenas ya Veguheztina Pelan."
 
-#: protocols/gadu/gaduregisteraccount.cpp:43
-msgid "Register New Account"
-msgstr "Tomarî Hesabê Nû Bibe"
-
-#: protocols/gadu/gaduregisteraccount.cpp:54
-msgid "&Register"
-msgstr "&Tomarkirin"
-
-#: protocols/gadu/gaduregisteraccount.cpp:76
-msgid "Retrieving token"
-msgstr ""
-
-#: protocols/gadu/gaduregisteraccount.cpp:98
-msgid "Please enter a valid E-Mail Address."
-msgstr "Ji kerema xwe re navnîşaneke derbasdar ya e-peyaman binivîse."
-
-#: protocols/gadu/gaduregisteraccount.cpp:108
-#: protocols/jabber/ui/jabberregisteraccount.cpp:158
-msgid "Please enter the same password twice."
-msgstr "Ji kerema xwe re heman şîfreyê dîsa binivîse."
-
-#: protocols/gadu/gaduregisteraccount.cpp:115
-#: protocols/jabber/ui/jabberregisteraccount.cpp:165
-msgid "Password entries do not match."
-msgstr "Şîfre li hev nakin."
-
-#: protocols/gadu/gaduregisteraccount.cpp:122
-msgid "Please enter the verification sequence."
-msgstr ""
-
-#: protocols/gadu/gaduregisteraccount.cpp:168
-#, kde-format
-msgid "Account created; your new UIN is %1."
-msgstr "Hesab hate afirandin: UIN'a te ya nû: %1"
-
-#: protocols/gadu/gaduregisteraccount.cpp:176
-#, kde-format
-msgid "Registration failed: %1"
-msgstr "Tomarkirin bi ser neket: %1"
-
-#: protocols/gadu/gaduregisteraccount.cpp:177
-#, fuzzy
-#| msgid "Registration sent successfully."
-msgid "Registration was unsucessful, please try again."
-msgstr "Karê şandina tomarkirinê qediya."
-
-#: protocols/gadu/gadueditcontact.cpp:51 protocols/gadu/gadueditcontact.cpp:72
-msgid "Edit Contact's Properties"
-msgstr "Taybetmendiyên Têkiliyê Serast Bike"
-
-#. i18n: file: protocols/gadu/ui/gaduawayui.ui:17
-#. i18n: ectx: property (windowTitle), widget (QWidget, GaduAwayUI)
-#: protocols/gadu/gaduaway.cpp:38 rc.cpp:1502
-msgid "Away Dialog"
-msgstr "Diyaloga Li Dûr"
-
 #: protocols/gadu/gaducommands.cpp:148 protocols/gadu/gaducommands.cpp:185
 #: protocols/gadu/gaducommands.cpp:201 protocols/gadu/gaducommands.cpp:236
 #: protocols/gadu/gaducommands.cpp:252 protocols/gadu/gadueditaccount.cpp:198
@@ -2995,6 +2939,62 @@ msgstr "Nasnav Hat Guhartin"
 #: protocols/gadu/gaducommands.cpp:402
 msgid "Your password has been changed."
 msgstr "Nasnavê te hat guhartin."
+
+#. i18n: file: protocols/gadu/ui/gaduawayui.ui:17
+#. i18n: ectx: property (windowTitle), widget (QWidget, GaduAwayUI)
+#: protocols/gadu/gaduaway.cpp:38 rc.cpp:1502
+msgid "Away Dialog"
+msgstr "Diyaloga Li Dûr"
+
+#: protocols/gadu/gadueditcontact.cpp:51 protocols/gadu/gadueditcontact.cpp:72
+msgid "Edit Contact's Properties"
+msgstr "Taybetmendiyên Têkiliyê Serast Bike"
+
+#: protocols/gadu/gaduregisteraccount.cpp:43
+msgid "Register New Account"
+msgstr "Tomarî Hesabê Nû Bibe"
+
+#: protocols/gadu/gaduregisteraccount.cpp:54
+msgid "&Register"
+msgstr "&Tomarkirin"
+
+#: protocols/gadu/gaduregisteraccount.cpp:76
+msgid "Retrieving token"
+msgstr ""
+
+#: protocols/gadu/gaduregisteraccount.cpp:98
+msgid "Please enter a valid E-Mail Address."
+msgstr "Ji kerema xwe re navnîşaneke derbasdar ya e-peyaman binivîse."
+
+#: protocols/gadu/gaduregisteraccount.cpp:108
+#: protocols/jabber/ui/jabberregisteraccount.cpp:158
+msgid "Please enter the same password twice."
+msgstr "Ji kerema xwe re heman şîfreyê dîsa binivîse."
+
+#: protocols/gadu/gaduregisteraccount.cpp:115
+#: protocols/jabber/ui/jabberregisteraccount.cpp:165
+msgid "Password entries do not match."
+msgstr "Şîfre li hev nakin."
+
+#: protocols/gadu/gaduregisteraccount.cpp:122
+msgid "Please enter the verification sequence."
+msgstr ""
+
+#: protocols/gadu/gaduregisteraccount.cpp:168
+#, kde-format
+msgid "Account created; your new UIN is %1."
+msgstr "Hesab hate afirandin: UIN'a te ya nû: %1"
+
+#: protocols/gadu/gaduregisteraccount.cpp:176
+#, kde-format
+msgid "Registration failed: %1"
+msgstr "Tomarkirin bi ser neket: %1"
+
+#: protocols/gadu/gaduregisteraccount.cpp:177
+#, fuzzy
+#| msgid "Registration sent successfully."
+msgid "Registration was unsucessful, please try again."
+msgstr "Karê şandina tomarkirinê qediya."
 
 #: protocols/gadu/gadueditaccount.cpp:91
 msgctxt "personal information being fetched from server"
@@ -3932,7 +3932,7 @@ msgstr ""
 #. i18n: file: kopete/chatwindow/kopeteemailwindow.rc:42
 #. i18n: ectx: ToolBar (statusToolBar)
 #: protocols/groupwise/ui/gwsearch.cpp:95 kopete/kopetewindow.cpp:424
-#: rc.cpp:619 rc.cpp:1510 rc.cpp:5319 rc.cpp:5537 rc.cpp:6033 rc.cpp:6063
+#: rc.cpp:658 rc.cpp:1510 rc.cpp:5319 rc.cpp:5537 rc.cpp:6033 rc.cpp:6063
 msgid "Status"
 msgstr "Rewş"
 
@@ -4897,6 +4897,40 @@ msgstr "Têkevê"
 msgid "Unable to retrieve the list of chat rooms."
 msgstr ""
 
+#: protocols/jabber/ui/dlgxmppconsole.cpp:28
+#: protocols/jabber/jabberaccount.cpp:241
+msgid "XML Console"
+msgstr ""
+
+#. i18n: file: plugins/privacy/privacydialog.ui:85
+#. i18n: ectx: property (text), widget (QPushButton, btnClearBlackList)
+#. i18n: file: plugins/privacy/privacydialog.ui:190
+#. i18n: ectx: property (text), widget (QPushButton, btnClearWhiteList)
+#. i18n: file: protocols/wlm/ui/wlmchatsessioninkpopup.ui:50
+#. i18n: ectx: property (text), widget (QPushButton, clear_btn)
+#. i18n: file: libkopete/ui/addressbooklinkwidget_base.ui:43
+#. i18n: ectx: property (toolTip), widget (KPushButton, btnClear)
+#. i18n: file: plugins/privacy/privacydialog.ui:85
+#. i18n: ectx: property (text), widget (QPushButton, btnClearBlackList)
+#. i18n: file: plugins/privacy/privacydialog.ui:190
+#. i18n: ectx: property (text), widget (QPushButton, btnClearWhiteList)
+#. i18n: file: protocols/wlm/ui/wlmchatsessioninkpopup.ui:50
+#. i18n: ectx: property (text), widget (QPushButton, clear_btn)
+#. i18n: file: libkopete/ui/addressbooklinkwidget_base.ui:43
+#. i18n: ectx: property (toolTip), widget (KPushButton, btnClear)
+#: protocols/jabber/ui/dlgxmppconsole.cpp:31 rc.cpp:800 rc.cpp:830 rc.cpp:902
+#: rc.cpp:6170
+msgid "Clear"
+msgstr ""
+
+#. i18n: file: protocols/wlm/ui/wlmchatsessioninkpopup.ui:43
+#. i18n: ectx: property (text), widget (QPushButton, send_btn)
+#: protocols/jabber/ui/dlgxmppconsole.cpp:32
+#: kopete/chatwindow/kopeteemailwindow.cpp:499
+#: kopete/chatwindow/kopeteemailwindow.cpp:517 rc.cpp:899
+msgid "Send"
+msgstr "Bişeyine"
+
 #: protocols/jabber/ui/dlgjabbervcard.cpp:66
 msgid "Jabber vCard"
 msgstr "Jabber vCard"
@@ -4932,40 +4966,6 @@ msgid ""
 "<qt>An error occurred when trying to change the photo.<br />Make sure that "
 "you have selected a valid image file</qt>"
 msgstr ""
-
-#: protocols/jabber/ui/dlgxmppconsole.cpp:28
-#: protocols/jabber/jabberaccount.cpp:241
-msgid "XML Console"
-msgstr ""
-
-#. i18n: file: plugins/privacy/privacydialog.ui:85
-#. i18n: ectx: property (text), widget (QPushButton, btnClearBlackList)
-#. i18n: file: plugins/privacy/privacydialog.ui:190
-#. i18n: ectx: property (text), widget (QPushButton, btnClearWhiteList)
-#. i18n: file: protocols/wlm/ui/wlmchatsessioninkpopup.ui:50
-#. i18n: ectx: property (text), widget (QPushButton, clear_btn)
-#. i18n: file: libkopete/ui/addressbooklinkwidget_base.ui:43
-#. i18n: ectx: property (toolTip), widget (KPushButton, btnClear)
-#. i18n: file: plugins/privacy/privacydialog.ui:85
-#. i18n: ectx: property (text), widget (QPushButton, btnClearBlackList)
-#. i18n: file: plugins/privacy/privacydialog.ui:190
-#. i18n: ectx: property (text), widget (QPushButton, btnClearWhiteList)
-#. i18n: file: protocols/wlm/ui/wlmchatsessioninkpopup.ui:50
-#. i18n: ectx: property (text), widget (QPushButton, clear_btn)
-#. i18n: file: libkopete/ui/addressbooklinkwidget_base.ui:43
-#. i18n: ectx: property (toolTip), widget (KPushButton, btnClear)
-#: protocols/jabber/ui/dlgxmppconsole.cpp:31 rc.cpp:772 rc.cpp:802 rc.cpp:902
-#: rc.cpp:6170
-msgid "Clear"
-msgstr ""
-
-#. i18n: file: protocols/wlm/ui/wlmchatsessioninkpopup.ui:43
-#. i18n: ectx: property (text), widget (QPushButton, send_btn)
-#: protocols/jabber/ui/dlgxmppconsole.cpp:32
-#: kopete/chatwindow/kopeteemailwindow.cpp:499
-#: kopete/chatwindow/kopeteemailwindow.cpp:517 rc.cpp:899
-msgid "Send"
-msgstr "Bişeyine"
 
 #: protocols/jabber/ui/privacyruledlg.cpp:31
 msgid "Edit Privacy List Rule"
@@ -5400,7 +5400,7 @@ msgstr "Tu dixwazî bikarhênerê %1 têxe lîsteya xwe ya girêdanan?"
 #: protocols/oscar/aim/aimprotocol.cpp:187
 #: protocols/oscar/icq/ui/icqsearchdialog.cpp:50
 #: protocols/oscar/icq/icqprotocol.cpp:131 kopete/kopetewindow.cpp:388
-#: rc.cpp:706 rc.cpp:781 rc.cpp:799 rc.cpp:1097 rc.cpp:3640 rc.cpp:3658
+#: rc.cpp:706 rc.cpp:809 rc.cpp:827 rc.cpp:1097 rc.cpp:3640 rc.cpp:3658
 #: rc.cpp:3726 rc.cpp:3879 rc.cpp:4184 rc.cpp:4193 rc.cpp:4208 rc.cpp:5832
 #, fuzzy
 msgid "Add"
@@ -5469,7 +5469,7 @@ msgstr "Tu dixwazî bikarhênerê %1 têxe lîsteya xwe ya girêdanan?"
 #: kopete/contactlist/kopetecontactlistview.cpp:397
 #: kopete/contactlist/kopetecontactlistview.cpp:412
 #: kopete/contactlist/kopetecontactlistview.cpp:837
-#: libkopete/kopetecontact.cpp:454 rc.cpp:709 rc.cpp:775 rc.cpp:796
+#: libkopete/kopetecontact.cpp:454 rc.cpp:709 rc.cpp:803 rc.cpp:824
 #: rc.cpp:2990 rc.cpp:3643 rc.cpp:3655 rc.cpp:3882 rc.cpp:4181 rc.cpp:4190
 #: rc.cpp:4205 rc.cpp:5510 rc.cpp:5835
 #, fuzzy
@@ -5635,6 +5635,11 @@ msgstr ""
 #: protocols/jabber/jabbercontact.cpp:1169
 msgid "Jabber Resource Selector"
 msgstr "Vebijêrê Çavkaniya Jabber"
+
+#: protocols/jabber/jabbertransport.cpp:136 libkopete/kopeteaccount.cpp:440
+#, kde-format
+msgid "%2 <%1>"
+msgstr "%2 <%1>"
 
 #: protocols/jabber/jabberaccount.cpp:203
 msgid ""
@@ -5991,11 +5996,6 @@ msgstr "Dema dixwest sohbetê bide destpêkirin çewtiyek çêbû: %1"
 #: protocols/jabber/jabberaccount.cpp:1732
 msgid "Jabber Account Unregistration"
 msgstr "Tomara Hesabê Jabber"
-
-#: protocols/jabber/jabbertransport.cpp:136 libkopete/kopeteaccount.cpp:440
-#, kde-format
-msgid "%2 <%1>"
-msgstr "%2 <%1>"
 
 #: protocols/jabber/jabberchatsession.cpp:74
 msgid "Show audio calls"
@@ -8191,18 +8191,6 @@ msgstr ""
 msgid "Details for User %1"
 msgstr "Bikarhênerê %1 Hişyar Bike?"
 
-#: protocols/skype/skypecontact.cpp:101
-#, fuzzy
-#| msgid "Contacts"
-msgid "Call contact"
-msgstr "Tekilî"
-
-#: protocols/skype/skypecontact.cpp:116
-#, fuzzy
-#| msgid "&Block Contact"
-msgid "Block contact"
-msgstr "Têkiliyê &Asteng Bike"
-
 #: protocols/skype/skypecalldialog.cpp:105
 #, kde-format
 msgid "Call with %1"
@@ -8304,6 +8292,18 @@ msgstr ""
 #: protocols/skype/skypecalldialog.cpp:308
 msgid "Skypeout inactive"
 msgstr ""
+
+#: protocols/skype/skypecontact.cpp:101
+#, fuzzy
+#| msgid "Contacts"
+msgid "Call contact"
+msgstr "Tekilî"
+
+#: protocols/skype/skypecontact.cpp:116
+#, fuzzy
+#| msgid "&Block Contact"
+msgid "Block contact"
+msgstr "Têkiliyê &Asteng Bike"
 
 #: protocols/skype/skypeaccount.cpp:922
 #, fuzzy, kde-format
@@ -8488,10 +8488,6 @@ msgstr ""
 msgid "You Must Specify a Channel"
 msgstr ""
 
-#: protocols/irc/ui/irceditaccountwidget.cpp:280
-msgid "<qt>You must enter a nickname.</qt>"
-msgstr ""
-
 #: protocols/irc/ui/channellist.cpp:190
 msgid " members"
 msgstr " endam"
@@ -8558,6 +8554,10 @@ msgstr ""
 
 #: protocols/irc/ui/channellist.cpp:337
 msgid "Disconnected"
+msgstr ""
+
+#: protocols/irc/ui/irceditaccountwidget.cpp:280
+msgid "<qt>You must enter a nickname.</qt>"
 msgstr ""
 
 #: protocols/irc/ui/ircdialogs.cpp:25
@@ -8871,7 +8871,7 @@ msgstr "Têxe Deftera Navnîşanan"
 #. i18n: ectx: property (windowTitle), widget (QWidget, AddressBookSelectorWidget_Base)
 #. i18n: file: libkopete/ui/metacontactselectorwidget_base.ui:21
 #. i18n: ectx: property (windowTitle), widget (QWidget, MetaContactSelectorWidget_Base)
-#: kopete/contactlist/kabcexport.cpp:64 rc.cpp:757 rc.cpp:6191 rc.cpp:6215
+#: kopete/contactlist/kabcexport.cpp:64 rc.cpp:785 rc.cpp:6191 rc.cpp:6215
 msgid "Select Contact"
 msgstr ""
 
@@ -10589,11 +10589,6 @@ msgstr ""
 "<qt><img src=\"kopete-account-icon:%1\" /> Hesabê <b>%2</b> tu xistî lîsteya "
 "xwe ya têkiliyan (Hesap %3)</qt>"
 
-#: libkopete/ui/avatarselectorwidget.cpp:71
-#: libkopete/ui/avatarselectorwidget.cpp:142
-msgid "No Avatar"
-msgstr ""
-
 #. i18n: file: protocols/winpopup/ui/wpeditaccountbase.ui:118
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #. i18n: file: protocols/winpopup/ui/wpeditaccountbase.ui:325
@@ -10614,6 +10609,11 @@ msgstr ""
 #: rc.cpp:2153 rc.cpp:2183 rc.cpp:2354 rc.cpp:5055
 msgid "Information"
 msgstr "Agahî"
+
+#: libkopete/ui/avatarselectorwidget.cpp:71
+#: libkopete/ui/avatarselectorwidget.cpp:142
+msgid "No Avatar"
+msgstr ""
 
 #: libkopete/ui/kopetestdaction.cpp:83
 msgid "Start &Chat..."
@@ -10684,194 +10684,6 @@ msgstr "Di deftera navnîşanan de ketaneke nû biafirîne"
 #| msgid "Addressbook Association"
 msgid "Address Book Association"
 msgstr "Girêdana Defteta Navnîşanan"
-
-#: libkopete/avdevice/videodevice.cpp:128
-#: libkopete/avdevice/videodevice.cpp:3014
-#, fuzzy
-#| msgid "Brightness:"
-msgid "Brightness"
-msgstr "Biriqandin:"
-
-#: libkopete/avdevice/videodevice.cpp:131
-#: libkopete/avdevice/videodevice.cpp:3017
-msgid "Hue"
-msgstr ""
-
-#. i18n: file: protocols/wlm/ui/wlmchatsessioninkpopup.ui:57
-#. i18n: ectx: property (text), widget (QPushButton, color_btn)
-#: libkopete/avdevice/videodevice.cpp:134 rc.cpp:905
-#, fuzzy
-#| msgid "Colors"
-msgid "Color"
-msgstr "Reng"
-
-#: libkopete/avdevice/videodevice.cpp:137
-#: libkopete/avdevice/videodevice.cpp:3015
-#, fuzzy
-#| msgid "Contacts"
-msgid "Contrast"
-msgstr "Tekilî"
-
-#: libkopete/avdevice/videodevice.cpp:140
-#, fuzzy
-#| msgid "Whiteness:"
-msgid "Whiteness"
-msgstr "Parzûn:"
-
-#: libkopete/avdevice/videodevice.cpp:155
-msgid "Automatic Brightness/Contrast Correction"
-msgstr ""
-
-#: libkopete/avdevice/videodevice.cpp:158
-#, fuzzy
-msgid "Automatic Color Correction"
-msgstr "Girêdana bixweber bigire"
-
-#: libkopete/avdevice/videodevice.cpp:163
-#: libkopete/avdevice/videodevice.cpp:3034
-msgid "Vertical Flip"
-msgstr ""
-
-#: libkopete/avdevice/videodevice.cpp:169
-#: libkopete/avdevice/videodevice.cpp:3033
-msgid "Horizontal Flip"
-msgstr ""
-
-#: libkopete/avdevice/videodevice.cpp:3016
-#, fuzzy
-#| msgid "Registration"
-msgid "Saturation"
-msgstr "Tomarkirin"
-
-#: libkopete/avdevice/videodevice.cpp:3018
-#, fuzzy
-msgid "Volume"
-msgstr "&Mal:"
-
-#: libkopete/avdevice/videodevice.cpp:3019
-msgid "Balance"
-msgstr ""
-
-#: libkopete/avdevice/videodevice.cpp:3020
-msgid "Bass"
-msgstr ""
-
-#: libkopete/avdevice/videodevice.cpp:3021
-#, fuzzy
-#| msgid "Travel"
-msgid "Treble"
-msgstr "Ger"
-
-#. i18n: file: protocols/jabber/googletalk/googletalkcalldialog.ui:63
-#. i18n: ectx: property (text), widget (QPushButton, muteButton)
-#: libkopete/avdevice/videodevice.cpp:3022 rc.cpp:2882
-msgid "Mute"
-msgstr ""
-
-#: libkopete/avdevice/videodevice.cpp:3023
-#, fuzzy
-#| msgid "Business"
-msgid "Loudness"
-msgstr "Pîşe"
-
-#: libkopete/avdevice/videodevice.cpp:3024
-#, fuzzy
-#| msgid "Top Level"
-msgid "Black Level"
-msgstr "Asta Bilind"
-
-#: libkopete/avdevice/videodevice.cpp:3025
-msgid "Automatic White Balance"
-msgstr ""
-
-#: libkopete/avdevice/videodevice.cpp:3026
-msgid "Do White Balance"
-msgstr ""
-
-#: libkopete/avdevice/videodevice.cpp:3027
-msgid "Red Balance"
-msgstr ""
-
-#: libkopete/avdevice/videodevice.cpp:3028
-msgid "Blue Balance"
-msgstr ""
-
-#: libkopete/avdevice/videodevice.cpp:3029
-#, fuzzy
-#| msgid "Games"
-msgid "Gamma"
-msgstr "Lîstik"
-
-#: libkopete/avdevice/videodevice.cpp:3030
-#, fuzzy
-msgid "Exposure"
-msgstr "Werzîş"
-
-#: libkopete/avdevice/videodevice.cpp:3031
-#, fuzzy
-#| msgid "Automatic Spell Checking"
-msgid "Automatic Gain"
-msgstr "Kontrolkirina Bixweber a Rastnivîsandinê"
-
-#: libkopete/avdevice/videodevice.cpp:3032
-#, fuzzy
-#| msgid "German"
-msgid "Gain"
-msgstr "Almanî"
-
-#: libkopete/avdevice/videodevice.cpp:3035
-msgid "Horizontal Center"
-msgstr ""
-
-#: libkopete/avdevice/videodevice.cpp:3036
-msgid "Vertical Center"
-msgstr ""
-
-#: libkopete/avdevice/videodevice.cpp:3038
-msgid "Power Line Frequency"
-msgstr ""
-
-#: libkopete/avdevice/videodevice.cpp:3039
-msgid "Automatic Hue"
-msgstr ""
-
-#: libkopete/avdevice/videodevice.cpp:3040
-msgid "White Balance Temperature"
-msgstr ""
-
-#: libkopete/avdevice/videodevice.cpp:3041
-msgid "Sharpness"
-msgstr ""
-
-#: libkopete/avdevice/videodevice.cpp:3042
-#, fuzzy
-#| msgid "Nic&k Completion"
-msgid "Backlight Compensation"
-msgstr "Temamkirina Nick"
-
-#: libkopete/avdevice/videodevice.cpp:3045
-msgid "Chroma AGC"
-msgstr ""
-
-#: libkopete/avdevice/videodevice.cpp:3046
-msgid "Color Killer"
-msgstr ""
-
-#: libkopete/avdevice/videodevice.cpp:3049
-#, fuzzy
-#| msgid "Effects"
-msgid "Color Effects"
-msgstr "Efekt"
-
-#: libkopete/avdevice/videodevice.cpp:3052
-#, fuzzy
-msgid "Rotate"
-msgstr "Rewş:"
-
-#: libkopete/avdevice/videodevice.cpp:3053
-#, fuzzy
-msgid "Background color"
-msgstr "Rengê rûerd:"
 
 #. i18n: Target Size (KB) (=> KB = kilobyte)
 #: libkopete/avdevice/dummy-V4L2apiCustomStrings.cpp:34
@@ -11192,6 +11004,194 @@ msgstr "Kontrolkirina Bixweber a Rastnivîsandinê"
 msgid "Off"
 msgstr "Negirêdayî"
 
+#: libkopete/avdevice/videodevice.cpp:128
+#: libkopete/avdevice/videodevice.cpp:3014
+#, fuzzy
+#| msgid "Brightness:"
+msgid "Brightness"
+msgstr "Biriqandin:"
+
+#: libkopete/avdevice/videodevice.cpp:131
+#: libkopete/avdevice/videodevice.cpp:3017
+msgid "Hue"
+msgstr ""
+
+#. i18n: file: protocols/wlm/ui/wlmchatsessioninkpopup.ui:57
+#. i18n: ectx: property (text), widget (QPushButton, color_btn)
+#: libkopete/avdevice/videodevice.cpp:134 rc.cpp:905
+#, fuzzy
+#| msgid "Colors"
+msgid "Color"
+msgstr "Reng"
+
+#: libkopete/avdevice/videodevice.cpp:137
+#: libkopete/avdevice/videodevice.cpp:3015
+#, fuzzy
+#| msgid "Contacts"
+msgid "Contrast"
+msgstr "Tekilî"
+
+#: libkopete/avdevice/videodevice.cpp:140
+#, fuzzy
+#| msgid "Whiteness:"
+msgid "Whiteness"
+msgstr "Parzûn:"
+
+#: libkopete/avdevice/videodevice.cpp:155
+msgid "Automatic Brightness/Contrast Correction"
+msgstr ""
+
+#: libkopete/avdevice/videodevice.cpp:158
+#, fuzzy
+msgid "Automatic Color Correction"
+msgstr "Girêdana bixweber bigire"
+
+#: libkopete/avdevice/videodevice.cpp:163
+#: libkopete/avdevice/videodevice.cpp:3034
+msgid "Vertical Flip"
+msgstr ""
+
+#: libkopete/avdevice/videodevice.cpp:169
+#: libkopete/avdevice/videodevice.cpp:3033
+msgid "Horizontal Flip"
+msgstr ""
+
+#: libkopete/avdevice/videodevice.cpp:3016
+#, fuzzy
+#| msgid "Registration"
+msgid "Saturation"
+msgstr "Tomarkirin"
+
+#: libkopete/avdevice/videodevice.cpp:3018
+#, fuzzy
+msgid "Volume"
+msgstr "&Mal:"
+
+#: libkopete/avdevice/videodevice.cpp:3019
+msgid "Balance"
+msgstr ""
+
+#: libkopete/avdevice/videodevice.cpp:3020
+msgid "Bass"
+msgstr ""
+
+#: libkopete/avdevice/videodevice.cpp:3021
+#, fuzzy
+#| msgid "Travel"
+msgid "Treble"
+msgstr "Ger"
+
+#. i18n: file: protocols/jabber/googletalk/googletalkcalldialog.ui:63
+#. i18n: ectx: property (text), widget (QPushButton, muteButton)
+#: libkopete/avdevice/videodevice.cpp:3022 rc.cpp:2882
+msgid "Mute"
+msgstr ""
+
+#: libkopete/avdevice/videodevice.cpp:3023
+#, fuzzy
+#| msgid "Business"
+msgid "Loudness"
+msgstr "Pîşe"
+
+#: libkopete/avdevice/videodevice.cpp:3024
+#, fuzzy
+#| msgid "Top Level"
+msgid "Black Level"
+msgstr "Asta Bilind"
+
+#: libkopete/avdevice/videodevice.cpp:3025
+msgid "Automatic White Balance"
+msgstr ""
+
+#: libkopete/avdevice/videodevice.cpp:3026
+msgid "Do White Balance"
+msgstr ""
+
+#: libkopete/avdevice/videodevice.cpp:3027
+msgid "Red Balance"
+msgstr ""
+
+#: libkopete/avdevice/videodevice.cpp:3028
+msgid "Blue Balance"
+msgstr ""
+
+#: libkopete/avdevice/videodevice.cpp:3029
+#, fuzzy
+#| msgid "Games"
+msgid "Gamma"
+msgstr "Lîstik"
+
+#: libkopete/avdevice/videodevice.cpp:3030
+#, fuzzy
+msgid "Exposure"
+msgstr "Werzîş"
+
+#: libkopete/avdevice/videodevice.cpp:3031
+#, fuzzy
+#| msgid "Automatic Spell Checking"
+msgid "Automatic Gain"
+msgstr "Kontrolkirina Bixweber a Rastnivîsandinê"
+
+#: libkopete/avdevice/videodevice.cpp:3032
+#, fuzzy
+#| msgid "German"
+msgid "Gain"
+msgstr "Almanî"
+
+#: libkopete/avdevice/videodevice.cpp:3035
+msgid "Horizontal Center"
+msgstr ""
+
+#: libkopete/avdevice/videodevice.cpp:3036
+msgid "Vertical Center"
+msgstr ""
+
+#: libkopete/avdevice/videodevice.cpp:3038
+msgid "Power Line Frequency"
+msgstr ""
+
+#: libkopete/avdevice/videodevice.cpp:3039
+msgid "Automatic Hue"
+msgstr ""
+
+#: libkopete/avdevice/videodevice.cpp:3040
+msgid "White Balance Temperature"
+msgstr ""
+
+#: libkopete/avdevice/videodevice.cpp:3041
+msgid "Sharpness"
+msgstr ""
+
+#: libkopete/avdevice/videodevice.cpp:3042
+#, fuzzy
+#| msgid "Nic&k Completion"
+msgid "Backlight Compensation"
+msgstr "Temamkirina Nick"
+
+#: libkopete/avdevice/videodevice.cpp:3045
+msgid "Chroma AGC"
+msgstr ""
+
+#: libkopete/avdevice/videodevice.cpp:3046
+msgid "Color Killer"
+msgstr ""
+
+#: libkopete/avdevice/videodevice.cpp:3049
+#, fuzzy
+#| msgid "Effects"
+msgid "Color Effects"
+msgstr "Efekt"
+
+#: libkopete/avdevice/videodevice.cpp:3052
+#, fuzzy
+msgid "Rotate"
+msgstr "Rewş:"
+
+#: libkopete/avdevice/videodevice.cpp:3053
+#, fuzzy
+msgid "Background color"
+msgstr "Rengê rûerd:"
+
 #: libkopete/contactlist/xmlcontactstorage.cpp:131
 msgid "Could not find contactlist.xml in Kopete application data."
 msgstr ""
@@ -11279,6 +11279,20 @@ msgstr ""
 msgid "More Information..."
 msgstr "Zêdetir Agahî..."
 
+#: libkopete/kopetemimetypehandler.cpp:152
+#, kde-format
+msgid "Unable to find the file %1."
+msgstr "Pelê %1 nehate dîtin."
+
+#: libkopete/kopetemimetypehandler.cpp:156
+#, fuzzy, kde-format
+msgid ""
+"<qt>Unable to download the requested file;<br />please check that address %1 "
+"is correct.</qt>"
+msgstr ""
+"<qt>Pela ku tê xwestin nehat daxistin;<br>ji kerema xwe navnîşana %1 kontrol "
+"bike. </qt>"
+
 #: libkopete/kopeteidentity.cpp:161
 #, kde-format
 msgctxt ""
@@ -11296,20 +11310,6 @@ msgid ""
 "<nobr><img src=\"kopete-account-icon:%3:%4\"> <b>%1:</b> %2 (<i>%5</i>)</"
 "nobr><br />"
 msgstr ""
-
-#: libkopete/kopetemimetypehandler.cpp:152
-#, kde-format
-msgid "Unable to find the file %1."
-msgstr "Pelê %1 nehate dîtin."
-
-#: libkopete/kopetemimetypehandler.cpp:156
-#, fuzzy, kde-format
-msgid ""
-"<qt>Unable to download the requested file;<br />please check that address %1 "
-"is correct.</qt>"
-msgstr ""
-"<qt>Pela ku tê xwestin nehat daxistin;<br>ji kerema xwe navnîşana %1 kontrol "
-"bike. </qt>"
 
 #: libkopete/kopetechatsession.cpp:289
 msgid "Outgoing Message Sent"
@@ -11473,6 +11473,19 @@ msgstr ""
 msgid "Do You Want to Change Status to Available?"
 msgstr ""
 
+#: libkopete/kopetepasswordedaccount.cpp:75
+#, fuzzy, kde-format
+msgid ""
+"<qt><b>The password was wrong.</b> Please re-enter your password for %1 "
+"account <b>%2</b></qt>"
+msgstr ""
+"<b>Nasnav çewt e;</b> ji kerema xwe ji bo %1 'ê nasnavê careke din têkevê"
+
+#: libkopete/kopetepasswordedaccount.cpp:77
+#, fuzzy, kde-format
+msgid "<qt>Please enter your password for %1 account <b>%2</b></qt>"
+msgstr "Ji kerema xwe ji bo %1 'ê nasnav têkevê <b>%2</b>"
+
 #: libkopete/kopeteaddedinfoevent.cpp:122
 #, fuzzy
 #| msgid "You have been disconnected"
@@ -11507,19 +11520,6 @@ msgstr ""
 #, fuzzy, kde-format
 msgid "The contact <b>%1</b> has added you to his/her contact list."
 msgstr "<b>%1</b> xwest ku te têxe nav lîsteya xwe ya girêdanan."
-
-#: libkopete/kopetepasswordedaccount.cpp:75
-#, fuzzy, kde-format
-msgid ""
-"<qt><b>The password was wrong.</b> Please re-enter your password for %1 "
-"account <b>%2</b></qt>"
-msgstr ""
-"<b>Nasnav çewt e;</b> ji kerema xwe ji bo %1 'ê nasnavê careke din têkevê"
-
-#: libkopete/kopetepasswordedaccount.cpp:77
-#, fuzzy, kde-format
-msgid "<qt>Please enter your password for %1 account <b>%2</b></qt>"
-msgstr "Ji kerema xwe ji bo %1 'ê nasnav têkevê <b>%2</b>"
 
 #: libkopete/kopetegroup.cpp:37 libkopete/kopetecontactlist.cpp:202
 msgid "Top Level"
@@ -11664,6 +11664,64 @@ msgstr "Dema Têkilî Dihate Danîn Çewtî"
 msgid "Edit Account"
 msgstr "Hesabê Serast Bike"
 
+#: libkopete/kopeteglobal.cpp:129
+msgid "Full Name"
+msgstr "Nav"
+
+#: libkopete/kopeteglobal.cpp:135
+msgid "Idle Time"
+msgstr "Dema Vala"
+
+#: libkopete/kopeteglobal.cpp:141
+msgid "Online Since"
+msgstr "Ji dema xwegirêdanê ve"
+
+#: libkopete/kopeteglobal.cpp:147
+msgid "Last Seen"
+msgstr "Dîroka Dema Dawî Hat Dîtin"
+
+#: libkopete/kopeteglobal.cpp:177
+msgid "Private Phone"
+msgstr "Telefona Taybet"
+
+#: libkopete/kopeteglobal.cpp:183
+msgid "Private Mobile Phone"
+msgstr "Telefona Destan a Taybet"
+
+#: libkopete/kopeteglobal.cpp:189
+msgid "Work Phone"
+msgstr "Telefona Kargehê"
+
+#: libkopete/kopeteglobal.cpp:195
+msgid "Work Mobile Phone"
+msgstr "Telefona Mobîl a Kargehê"
+
+#: libkopete/kopeteglobal.cpp:207
+msgid "Nick Name"
+msgstr "Bernav (Nîck)"
+
+#: libkopete/kopeteglobal.cpp:213
+#, fuzzy
+#| msgid "User Profile"
+msgid "Shown even if offline"
+msgstr "Profîla Bikarhêner"
+
+#. i18n: file: protocols/jabber/ui/dlgvcard.ui:146
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
+#. i18n: file: kopete/contactlist/kopetemetalvipropswidget.ui:250
+#. i18n: ectx: property (text), widget (QLabel, photoLabel)
+#. i18n: file: libkopete/ui/addressbookselectorwidget_base.ui:95
+#. i18n: ectx: property (text), widget (K3ListView, addresseeListView)
+#. i18n: file: protocols/jabber/ui/dlgvcard.ui:146
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
+#. i18n: file: kopete/contactlist/kopetemetalvipropswidget.ui:250
+#. i18n: ectx: property (text), widget (QLabel, photoLabel)
+#. i18n: file: libkopete/ui/addressbookselectorwidget_base.ui:95
+#. i18n: ectx: property (text), widget (K3ListView, addresseeListView)
+#: libkopete/kopeteglobal.cpp:219 rc.cpp:3038 rc.cpp:5169 rc.cpp:6203
+msgid "Photo"
+msgstr "Wêne"
+
 #: libkopete/kabcpersistence.cpp:297
 #, kde-format
 msgid "<qt>\"%1\" is not supported by Kopete.</qt>"
@@ -11733,64 +11791,6 @@ msgstr "<qt>Girêdan nayê zêdekirin</qt>"
 msgid "Could Not Add Contact"
 msgstr "Girêdan Lê Nehate Zêdekirin"
 
-#: libkopete/kopeteglobal.cpp:129
-msgid "Full Name"
-msgstr "Nav"
-
-#: libkopete/kopeteglobal.cpp:135
-msgid "Idle Time"
-msgstr "Dema Vala"
-
-#: libkopete/kopeteglobal.cpp:141
-msgid "Online Since"
-msgstr "Ji dema xwegirêdanê ve"
-
-#: libkopete/kopeteglobal.cpp:147
-msgid "Last Seen"
-msgstr "Dîroka Dema Dawî Hat Dîtin"
-
-#: libkopete/kopeteglobal.cpp:177
-msgid "Private Phone"
-msgstr "Telefona Taybet"
-
-#: libkopete/kopeteglobal.cpp:183
-msgid "Private Mobile Phone"
-msgstr "Telefona Destan a Taybet"
-
-#: libkopete/kopeteglobal.cpp:189
-msgid "Work Phone"
-msgstr "Telefona Kargehê"
-
-#: libkopete/kopeteglobal.cpp:195
-msgid "Work Mobile Phone"
-msgstr "Telefona Mobîl a Kargehê"
-
-#: libkopete/kopeteglobal.cpp:207
-msgid "Nick Name"
-msgstr "Bernav (Nîck)"
-
-#: libkopete/kopeteglobal.cpp:213
-#, fuzzy
-#| msgid "User Profile"
-msgid "Shown even if offline"
-msgstr "Profîla Bikarhêner"
-
-#. i18n: file: protocols/jabber/ui/dlgvcard.ui:146
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
-#. i18n: file: kopete/contactlist/kopetemetalvipropswidget.ui:250
-#. i18n: ectx: property (text), widget (QLabel, photoLabel)
-#. i18n: file: libkopete/ui/addressbookselectorwidget_base.ui:95
-#. i18n: ectx: property (text), widget (K3ListView, addresseeListView)
-#. i18n: file: protocols/jabber/ui/dlgvcard.ui:146
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
-#. i18n: file: kopete/contactlist/kopetemetalvipropswidget.ui:250
-#. i18n: ectx: property (text), widget (QLabel, photoLabel)
-#. i18n: file: libkopete/ui/addressbookselectorwidget_base.ui:95
-#. i18n: ectx: property (text), widget (K3ListView, addresseeListView)
-#: libkopete/kopeteglobal.cpp:219 rc.cpp:3038 rc.cpp:5169 rc.cpp:6203
-msgid "Photo"
-msgstr "Wêne"
-
 #: libkopete/kopetecommand.cpp:91
 msgid "Enter Arguments"
 msgstr "Argumenan Têkevê"
@@ -11828,22 +11828,6 @@ msgstr "Ji bo xebitandina fermana %1 destûra te tune."
 msgid "Command Error"
 msgstr "Çewtiya Fermanê"
 
-#: libkopete/kopetemetacontact.cpp:331 libkopete/kopetemetacontact.cpp:349
-#: libkopete/kopetemetacontact.cpp:426
-msgid ""
-"This user is not reachable at the moment. Please make sure you are connected "
-"and using a protocol that supports offline sending, or wait until this user "
-"comes online."
-msgstr ""
-"Niha nikare xwe bigihîne vê têkiliyê. Ji kerema xwe hîn bibe ka tu girêdayî "
-"û protokola te şandina negirêdayî destek dike an na. Wekî din divê li bende "
-"xwegirêdana bêkarhêner bimînî."
-
-#: libkopete/kopetemetacontact.cpp:1352
-#, kde-format
-msgid "<qt><i>%1</i> is now %2.</qt>"
-msgstr "<qt><i>%1</i> niha %2.</qt>"
-
 #: libkopete/connectionmanager.cpp:157
 msgid ""
 "A network connection was disconnected.  The application is now in offline "
@@ -11869,6 +11853,22 @@ msgstr ""
 #: libkopete/connectionmanager.cpp:161
 msgid "Leave Offline Mode?"
 msgstr "Ji Rewşa Negirêdayî Derkeve?"
+
+#: libkopete/kopetemetacontact.cpp:331 libkopete/kopetemetacontact.cpp:349
+#: libkopete/kopetemetacontact.cpp:426
+msgid ""
+"This user is not reachable at the moment. Please make sure you are connected "
+"and using a protocol that supports offline sending, or wait until this user "
+"comes online."
+msgstr ""
+"Niha nikare xwe bigihîne vê têkiliyê. Ji kerema xwe hîn bibe ka tu girêdayî "
+"û protokola te şandina negirêdayî destek dike an na. Wekî din divê li bende "
+"xwegirêdana bêkarhêner bimînî."
+
+#: libkopete/kopetemetacontact.cpp:1352
+#, kde-format
+msgid "<qt><i>%1</i> is now %2.</qt>"
+msgstr "<qt><i>%1</i> niha %2.</qt>"
 
 #: libkopete/kopetetransfermanager.cpp:182
 #: libkopete/kopetetransfermanager.cpp:207
@@ -11962,26 +11962,9 @@ msgctxt ""
 msgid "Default Identity"
 msgstr "Nasnameya Standard"
 
-#. i18n: file: plugins/pipes/pipesprefsbase.ui:38
-#. i18n: ectx: property (text), widget (KPushButton, addButton)
-#: rc.cpp:5
-#, fuzzy
-#| msgid "&Add..."
-msgctxt "verb"
-msgid "&Add..."
-msgstr "&Têxê..."
-
-#. i18n: file: plugins/pipes/pipesprefsbase.ui:45
-#. i18n: ectx: property (text), widget (KPushButton, removeButton)
-#: rc.cpp:8
-#, fuzzy
-msgctxt "verb"
-msgid "&Remove"
-msgstr "Ra&ke"
-
 #. i18n: file: plugins/nowlistening/nowlisteningconfig.kcfg:11
 #. i18n: ectx: label, entry (Header), group (Now Listening Plugin)
-#: rc.cpp:11
+#: rc.cpp:5
 #, fuzzy
 #| msgid "Use this message when advertising:"
 msgid "Header of the message advertised."
@@ -11989,7 +11972,7 @@ msgstr "Ji bo şandina danasînan vê peyamê bikar bîne:"
 
 #. i18n: file: plugins/nowlistening/nowlisteningconfig.kcfg:16
 #. i18n: ectx: label, entry (PerTrack), group (Now Listening Plugin)
-#: rc.cpp:14
+#: rc.cpp:8
 #, fuzzy
 #| msgid "Use this message when advertising:"
 msgid "Core of the message advertised."
@@ -11997,57 +11980,57 @@ msgstr "Ji bo şandina danasînan vê peyamê bikar bîne:"
 
 #. i18n: file: plugins/nowlistening/nowlisteningconfig.kcfg:21
 #. i18n: ectx: label, entry (Conjunction), group (Now Listening Plugin)
-#: rc.cpp:17
+#: rc.cpp:11
 msgid "Conjunction when multiple track are playing."
 msgstr ""
 
 #. i18n: file: plugins/nowlistening/nowlisteningconfig.kcfg:26
 #. i18n: ectx: label, entry (ExplicitAdvertising), group (Now Listening Plugin)
-#: rc.cpp:20
+#: rc.cpp:14
 msgid ""
 "Show explicitly the current music listened via a menu or /media command."
 msgstr ""
 
 #. i18n: file: plugins/nowlistening/nowlisteningconfig.kcfg:31
 #. i18n: ectx: label, entry (ChatAdvertising), group (Now Listening Plugin)
-#: rc.cpp:23
+#: rc.cpp:17
 #, fuzzy
 msgid "Show the current music listened in chat window."
 msgstr "Paceya Pêşkêşker Nîşan Bude"
 
 #. i18n: file: plugins/nowlistening/nowlisteningconfig.kcfg:36
 #. i18n: ectx: label, entry (StatusAdvertising), group (Now Listening Plugin)
-#: rc.cpp:26
+#: rc.cpp:20
 msgid "Show the current music listened in place of your status message."
 msgstr ""
 
 #. i18n: file: plugins/nowlistening/nowlisteningconfig.kcfg:41
 #. i18n: ectx: label, entry (AppendStatusAdvertising), group (Now Listening Plugin)
-#: rc.cpp:29
+#: rc.cpp:23
 msgid "Show the current music listened appended to your status message."
 msgstr ""
 
 #. i18n: file: plugins/nowlistening/nowlisteningconfig.kcfg:46
 #. i18n: ectx: label, entry (UseSpecifiedMediaPlayer), group (Now Listening Plugin)
-#: rc.cpp:32
+#: rc.cpp:26
 msgid "Use the specified media player."
 msgstr ""
 
 #. i18n: file: plugins/nowlistening/nowlisteningconfig.kcfg:51
 #. i18n: ectx: label, entry (SelectedMediaPlayer), group (Now Listening Plugin)
-#: rc.cpp:35
+#: rc.cpp:29
 msgid "Selected Media Player for source of listening advertising."
 msgstr ""
 
 #. i18n: file: plugins/nowlistening/nowlisteningconfig.kcfg:12
-#: rc.cpp:37
+#: rc.cpp:31
 #, fuzzy
 #| msgid "Now Listening To: "
 msgid "Now listening to: "
 msgstr "Strana ku Ez Lê Guhdarî Dikim: "
 
 #. i18n: file: plugins/nowlistening/nowlisteningconfig.kcfg:17
-#: rc.cpp:39
+#: rc.cpp:33
 msgid "%track( by %artist)( on %album)"
 msgstr ""
 
@@ -12057,7 +12040,7 @@ msgstr ""
 #. i18n: file: plugins/nowlistening/nowlisteningconfig.kcfg:22
 #. i18n: file: plugins/nowlistening/nowlisteningprefs.ui:156
 #. i18n: ectx: property (text), widget (QLineEdit, kcfg_Conjunction)
-#: rc.cpp:41 rc.cpp:80
+#: rc.cpp:35 rc.cpp:74
 msgid ", and "
 msgstr ", û "
 
@@ -12085,38 +12068,38 @@ msgstr ", û "
 #. i18n: ectx: Menu (tools)
 #. i18n: file: protocols/skype/skypechatui.rc:5
 #. i18n: ectx: Menu (tools)
-#: rc.cpp:44 rc.cpp:140 rc.cpp:394 rc.cpp:655 rc.cpp:878 rc.cpp:4725
+#: rc.cpp:38 rc.cpp:202 rc.cpp:373 rc.cpp:694 rc.cpp:782 rc.cpp:4725
 #, fuzzy
 msgid "&Tools"
 msgstr "&Reng"
 
 #. i18n: file: plugins/nowlistening/nowlisteningprefs.ui:13
 #. i18n: ectx: property (windowTitle), widget (QWidget, NowListeningPrefsUI)
-#: rc.cpp:47
+#: rc.cpp:41
 msgid "Now Listening"
 msgstr "Niha Tê Guhdarîkirin"
 
 #. i18n: file: plugins/nowlistening/nowlisteningprefs.ui:25
 #. i18n: ectx: property (text), widget (QLabel, advertiseNewMediaToBuddiesLabel)
-#: rc.cpp:50
+#: rc.cpp:44
 msgid "<b>Share Your Musical Taste</b>"
 msgstr ""
 
 #. i18n: file: plugins/nowlistening/nowlisteningprefs.ui:57
 #. i18n: ectx: attribute (title), widget (QWidget, TabPage)
-#: rc.cpp:53
+#: rc.cpp:47
 msgid "Messa&ge"
 msgstr "Peya&m"
 
 #. i18n: file: plugins/nowlistening/nowlisteningprefs.ui:77
 #. i18n: ectx: property (text), widget (QLabel, useThisMessageLabel)
-#: rc.cpp:56
+#: rc.cpp:50
 msgid "Use this message when advertising:"
 msgstr "Ji bo şandina danasînan vê peyamê bikar bîne:"
 
 #. i18n: file: plugins/nowlistening/nowlisteningprefs.ui:85
 #. i18n: ectx: property (text), widget (QLabel, helperLabel)
-#: rc.cpp:60
+#: rc.cpp:54
 #, no-c-format
 msgid ""
 "%track, %artist, %album, %player will be substituted if known.\n"
@@ -12125,44 +12108,44 @@ msgstr ""
 
 #. i18n: file: plugins/nowlistening/nowlisteningprefs.ui:103
 #. i18n: ectx: property (text), widget (QLabel, m_headerLabel)
-#: rc.cpp:64
+#: rc.cpp:58
 msgid "Start with:"
 msgstr ""
 
 #. i18n: file: plugins/nowlistening/nowlisteningprefs.ui:116
 #. i18n: ectx: property (text), widget (QLineEdit, kcfg_Header)
-#: rc.cpp:67
+#: rc.cpp:61
 msgid "Now Listening To: "
 msgstr "Strana ku Ez Lê Guhdarî Dikim: "
 
 #. i18n: file: plugins/nowlistening/nowlisteningprefs.ui:123
 #. i18n: ectx: property (text), widget (QLabel, m_perTrackLabel)
-#: rc.cpp:70
+#: rc.cpp:64
 msgid "For each track:"
 msgstr ""
 
 #. i18n: file: plugins/nowlistening/nowlisteningprefs.ui:136
 #. i18n: ectx: property (text), widget (QLineEdit, kcfg_PerTrack)
-#: rc.cpp:74
+#: rc.cpp:68
 #, no-c-format
 msgid "%track (by %artist)(on %album)"
 msgstr ""
 
 #. i18n: file: plugins/nowlistening/nowlisteningprefs.ui:143
 #. i18n: ectx: property (text), widget (QLabel, m_conjunctionLabel)
-#: rc.cpp:77
+#: rc.cpp:71
 msgid "Conjunction (if >1 track):"
 msgstr ""
 
 #. i18n: file: plugins/nowlistening/nowlisteningprefs.ui:192
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: rc.cpp:83
+#: rc.cpp:77
 msgid "A&dvertising Mode"
 msgstr ""
 
 #. i18n: file: plugins/nowlistening/nowlisteningprefs.ui:206
 #. i18n: ectx: property (text), widget (QRadioButton, kcfg_ExplicitAdvertising)
-#: rc.cpp:86
+#: rc.cpp:80
 msgid ""
 "Explicit &via \"Tools->Send Media Info\",\n"
 "or by typing \"/media\" in the chat\n"
@@ -12171,13 +12154,13 @@ msgstr ""
 
 #. i18n: file: plugins/nowlistening/nowlisteningprefs.ui:213
 #. i18n: ectx: property (text), widget (QRadioButton, kcfg_ChatAdvertising)
-#: rc.cpp:91
+#: rc.cpp:85
 msgid "&Show in chat window (automatic)"
 msgstr ""
 
 #. i18n: file: plugins/nowlistening/nowlisteningprefs.ui:221
 #. i18n: ectx: property (text), widget (QRadioButton, kcfg_StatusAdvertising)
-#: rc.cpp:94
+#: rc.cpp:88
 msgid ""
 "Show &the music you are listening to \n"
 "in place of your status message."
@@ -12185,203 +12168,42 @@ msgstr ""
 
 #. i18n: file: plugins/nowlistening/nowlisteningprefs.ui:228
 #. i18n: ectx: property (text), widget (QRadioButton, kcfg_AppendStatusAdvertising)
-#: rc.cpp:98
+#: rc.cpp:92
 msgid "Appe&nd to your status message"
 msgstr ""
 
 #. i18n: file: plugins/nowlistening/nowlisteningprefs.ui:260
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: rc.cpp:101
+#: rc.cpp:95
 msgid "Media Pla&yer"
 msgstr ""
 
 #. i18n: file: plugins/nowlistening/nowlisteningprefs.ui:280
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_UseSpecifiedMediaPlayer)
-#: rc.cpp:104
+#: rc.cpp:98
 msgid "Use &specified media player"
 msgstr ""
 
-#. i18n: file: plugins/translator/translatorprefsbase.ui:71
-#. i18n: ectx: property (text), widget (QLabel, TextLabel2_2)
-#: rc.cpp:107
-msgid "Translation service:"
-msgstr "Servîsa wergerandinê:"
-
-#. i18n: file: plugins/translator/translatorprefsbase.ui:78
-#. i18n: ectx: property (text), widget (QLabel, TextLabel2)
-#: rc.cpp:110
-msgid "Default native language:"
-msgstr "Zimanê herêmî ya standard:"
-
-#. i18n: file: plugins/translator/translatorprefsbase.ui:100
-#. i18n: ectx: property (title), widget (QGroupBox, IncomingMessages)
-#: rc.cpp:113
-msgid "Incoming Messages"
-msgstr ""
-
-#. i18n: file: plugins/translator/translatorprefsbase.ui:121
-#. i18n: ectx: property (text), widget (QRadioButton, kcfg_IncomingDontTranslate)
-#. i18n: file: plugins/translator/translatorprefsbase.ui:172
-#. i18n: ectx: property (text), widget (QRadioButton, kcfg_OutgoingDontTranslate)
-#. i18n: file: plugins/translator/translatorprefsbase.ui:121
-#. i18n: ectx: property (text), widget (QRadioButton, kcfg_IncomingDontTranslate)
-#. i18n: file: plugins/translator/translatorprefsbase.ui:172
-#. i18n: ectx: property (text), widget (QRadioButton, kcfg_OutgoingDontTranslate)
-#: rc.cpp:116 rc.cpp:128
-msgid "Do not translate"
-msgstr "Wernegerîne"
-
-#. i18n: file: plugins/translator/translatorprefsbase.ui:131
-#. i18n: ectx: property (text), widget (QRadioButton, kcfg_IncomingShowOriginal)
-#. i18n: file: plugins/translator/translatorprefsbase.ui:182
-#. i18n: ectx: property (text), widget (QRadioButton, kcfg_OutgoingShowOriginal)
-#. i18n: file: plugins/translator/translatorprefsbase.ui:131
-#. i18n: ectx: property (text), widget (QRadioButton, kcfg_IncomingShowOriginal)
-#. i18n: file: plugins/translator/translatorprefsbase.ui:182
-#. i18n: ectx: property (text), widget (QRadioButton, kcfg_OutgoingShowOriginal)
-#: rc.cpp:119 rc.cpp:131
-msgid "Show the original message"
-msgstr "Peyama orjînal nîşan bide"
-
-#. i18n: file: plugins/translator/translatorprefsbase.ui:141
-#. i18n: ectx: property (text), widget (QRadioButton, kcfg_IncomingTranslate)
-#. i18n: file: plugins/translator/translatorprefsbase.ui:192
-#. i18n: ectx: property (text), widget (QRadioButton, kcfg_OutgoingTranslate)
-#. i18n: file: plugins/translator/translatorprefsbase.ui:141
-#. i18n: ectx: property (text), widget (QRadioButton, kcfg_IncomingTranslate)
-#. i18n: file: plugins/translator/translatorprefsbase.ui:192
-#. i18n: ectx: property (text), widget (QRadioButton, kcfg_OutgoingTranslate)
-#: rc.cpp:122 rc.cpp:134
-msgid "Translate directly"
-msgstr "Rasterast wergerîne"
-
-#. i18n: file: plugins/translator/translatorprefsbase.ui:151
-#. i18n: ectx: property (title), widget (QGroupBox, OutgoingTranslate)
-#: rc.cpp:125
-msgid "Outgoing Messages"
-msgstr ""
-
-#. i18n: file: plugins/translator/translatorprefsbase.ui:199
-#. i18n: ectx: property (text), widget (QRadioButton, kcfg_OutgoingAsk)
-#: rc.cpp:137
-msgid "Show dialog before sending"
-msgstr ""
-
-#. i18n: file: plugins/translator/translatorui.rc:5
-#. i18n: ectx: Menu (edit)
-#. i18n: file: plugins/statistics/statisticsui.rc:5
-#. i18n: ectx: Menu (edit)
-#. i18n: file: plugins/history/historyui.rc:5
-#. i18n: ectx: Menu (edit)
-#. i18n: file: plugins/otr/otrui.rc:5
-#. i18n: ectx: Menu (edit)
-#. i18n: file: plugins/contactnotes/contactnotesui.rc:5
-#. i18n: ectx: Menu (edit)
-#. i18n: file: plugins/autoreplace/autoreplaceprefs.ui:137
-#. i18n: ectx: property (text), widget (QPushButton, m_edit)
-#. i18n: file: protocols/groupwise/ui/gwcustomstatus.ui:44
-#. i18n: ectx: property (text), widget (QPushButton, m_btnEdit)
-#. i18n: file: protocols/skype/skypeui.rc:5
-#. i18n: ectx: Menu (edit)
-#. i18n: file: kopete/kopeteui.rc:17
-#. i18n: ectx: Menu (edit)
-#. i18n: file: plugins/translator/translatorui.rc:5
-#. i18n: ectx: Menu (edit)
-#. i18n: file: plugins/statistics/statisticsui.rc:5
-#. i18n: ectx: Menu (edit)
-#. i18n: file: plugins/history/historyui.rc:5
-#. i18n: ectx: Menu (edit)
-#. i18n: file: plugins/otr/otrui.rc:5
-#. i18n: ectx: Menu (edit)
-#. i18n: file: plugins/contactnotes/contactnotesui.rc:5
-#. i18n: ectx: Menu (edit)
-#. i18n: file: plugins/autoreplace/autoreplaceprefs.ui:137
-#. i18n: ectx: property (text), widget (QPushButton, m_edit)
-#. i18n: file: protocols/groupwise/ui/gwcustomstatus.ui:44
-#. i18n: ectx: property (text), widget (QPushButton, m_btnEdit)
-#. i18n: file: protocols/skype/skypeui.rc:5
-#. i18n: ectx: Menu (edit)
-#. i18n: file: kopete/kopeteui.rc:17
-#. i18n: ectx: Menu (edit)
-#: rc.cpp:143 rc.cpp:241 rc.cpp:397 rc.cpp:661 rc.cpp:664 rc.cpp:682
-#: rc.cpp:2495 rc.cpp:4719 rc.cpp:6131
+#. i18n: file: plugins/pipes/pipesprefsbase.ui:38
+#. i18n: ectx: property (text), widget (KPushButton, addButton)
+#: rc.cpp:101
 #, fuzzy
-msgid "&Edit"
-msgstr "&Sererast Bike..."
+#| msgid "&Add..."
+msgctxt "verb"
+msgid "&Add..."
+msgstr "&Têxê..."
 
-#. i18n: file: plugins/translator/translatorconfig.kcfg:10
-#. i18n: ectx: label, entry (DefaultLanguage), group (Translator plugin)
-#: rc.cpp:146
+#. i18n: file: plugins/pipes/pipesprefsbase.ui:45
+#. i18n: ectx: property (text), widget (KPushButton, removeButton)
+#: rc.cpp:104
 #, fuzzy
-#| msgid "Default native language:"
-msgid "Default native language"
-msgstr "Zimanê herêmî ya standard:"
-
-#. i18n: file: plugins/translator/translatorconfig.kcfg:15
-#. i18n: ectx: label, entry (Service), group (Translator plugin)
-#: rc.cpp:149
-#, fuzzy
-#| msgid "Translation service:"
-msgid "Translation service"
-msgstr "Servîsa wergerandinê:"
-
-#. i18n: file: plugins/translator/translatorconfig.kcfg:20
-#. i18n: ectx: label, entry (IncomingDontTranslate), group (Translator plugin)
-#: rc.cpp:152
-#, fuzzy
-msgid "Do not translate incoming messages"
-msgstr "Peyama Li Derve:"
-
-#. i18n: file: plugins/translator/translatorconfig.kcfg:25
-#. i18n: ectx: label, entry (IncomingShowOriginal), group (Translator plugin)
-#: rc.cpp:155
-#, fuzzy
-#| msgid "Show the original message"
-msgid "Show the original incoming message"
-msgstr "Peyama orjînal nîşan bide"
-
-#. i18n: file: plugins/translator/translatorconfig.kcfg:30
-#. i18n: ectx: label, entry (IncomingTranslate), group (Translator plugin)
-#: rc.cpp:158
-#, fuzzy
-#| msgid "Translate directly"
-msgid "Translate incoming message directly"
-msgstr "Rasterast wergerîne"
-
-#. i18n: file: plugins/translator/translatorconfig.kcfg:35
-#. i18n: ectx: label, entry (OutgoingDontTranslate), group (Translator plugin)
-#: rc.cpp:161
-#, fuzzy
-#| msgid "Ok, this is an outgoing message"
-msgid "Do not translate outgoing messages"
-msgstr "Temam, ev peyama min a derketinê ye"
-
-#. i18n: file: plugins/translator/translatorconfig.kcfg:40
-#. i18n: ectx: label, entry (OutgoingShowOriginal), group (Translator plugin)
-#: rc.cpp:164
-#, fuzzy
-#| msgid "Show the original message"
-msgid "Show the original outgoing message"
-msgstr "Peyama orjînal nîşan bide"
-
-#. i18n: file: plugins/translator/translatorconfig.kcfg:45
-#. i18n: ectx: label, entry (OutgoingTranslate), group (Translator plugin)
-#: rc.cpp:167
-#, fuzzy
-#| msgid "Translate directly"
-msgid "Translate outgoing message directly"
-msgstr "Rasterast wergerîne"
-
-#. i18n: file: plugins/translator/translatorconfig.kcfg:50
-#. i18n: ectx: label, entry (OutgoingAsk), group (Translator plugin)
-#: rc.cpp:170
-#, fuzzy
-msgid "Show dialog before sending message"
-msgstr "Peyama Li Derve:"
+msgctxt "verb"
+msgid "&Remove"
+msgstr "Ra&ke"
 
 #. i18n: file: plugins/alias/aliasdialogbase.ui:34
 #. i18n: ectx: property (whatsThis), widget (K3ListView, aliasList)
-#: rc.cpp:173
+#: rc.cpp:107
 msgid ""
 "This is the list of custom aliases and the commands that you have already "
 "added"
@@ -12389,13 +12211,13 @@ msgstr ""
 
 #. i18n: file: plugins/alias/aliasdialogbase.ui:50
 #. i18n: ectx: property (text), widget (K3ListView, aliasList)
-#: rc.cpp:176
+#: rc.cpp:110
 msgid "Alias"
 msgstr ""
 
 #. i18n: file: plugins/alias/aliasdialogbase.ui:55
 #. i18n: ectx: property (text), widget (K3ListView, aliasList)
-#: rc.cpp:179
+#: rc.cpp:113
 msgid "Command"
 msgstr "Ferman"
 
@@ -12407,49 +12229,49 @@ msgstr "Ferman"
 #. i18n: ectx: property (text), widget (K3ListView, aliasList)
 #. i18n: file: plugins/alias/aliasdialog.ui:123
 #. i18n: ectx: property (text), widget (K3ListView, protocolList)
-#: rc.cpp:182 rc.cpp:232
+#: rc.cpp:116 rc.cpp:166
 msgid "Protocols"
 msgstr "Protokol"
 
 #. i18n: file: plugins/alias/aliasdialogbase.ui:68
 #. i18n: ectx: property (text), widget (KPushButton, addButton)
-#: rc.cpp:185
+#: rc.cpp:119
 msgid "&Add New Alias..."
 msgstr ""
 
 #. i18n: file: plugins/alias/aliasdialogbase.ui:75
 #. i18n: ectx: property (text), widget (KPushButton, deleteButton)
-#: rc.cpp:188
+#: rc.cpp:122
 msgid "&Delete Selected"
 msgstr "Ya/ê Hilbijartî &Jê Bibe"
 
 #. i18n: file: plugins/alias/aliasdialogbase.ui:82
 #. i18n: ectx: property (text), widget (KPushButton, editButton)
-#: rc.cpp:191
+#: rc.cpp:125
 msgid "Edit Alias..."
 msgstr ""
 
 #. i18n: file: plugins/alias/aliasdialog.ui:13
 #. i18n: ectx: property (windowTitle), widget (QDialog, AliasDialog)
-#: rc.cpp:194
+#: rc.cpp:128
 msgid "Add New Alias"
 msgstr ""
 
 #. i18n: file: plugins/alias/aliasdialog.ui:37
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#: rc.cpp:197
+#: rc.cpp:131
 msgid "Command:"
 msgstr "Ferman:"
 
 #. i18n: file: plugins/alias/aliasdialog.ui:47
 #. i18n: ectx: property (toolTip), widget (KLineEdit, command)
-#: rc.cpp:200
+#: rc.cpp:134
 msgid "This is the command that you want to run when you execute this alias. "
 msgstr "Ji bo bikaranîn vî bernavî tu dikarî vê fermanê bixebitîne "
 
 #. i18n: file: plugins/alias/aliasdialog.ui:54
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, command)
-#: rc.cpp:204
+#: rc.cpp:138
 #, no-c-format
 msgid ""
 "<qt>This is the command that you want to run when you execute this alias.\n"
@@ -12470,13 +12292,13 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #. i18n: file: protocols/oscar/icq/ui/icqgeneralinfo.ui:88
 #. i18n: ectx: property (text), widget (QLabel, aliasLabel)
-#: rc.cpp:211 rc.cpp:3768
+#: rc.cpp:145 rc.cpp:3768
 msgid "Alias:"
 msgstr ""
 
 #. i18n: file: plugins/alias/aliasdialog.ui:71
 #. i18n: ectx: property (toolTip), widget (KLineEdit, alias)
-#: rc.cpp:214
+#: rc.cpp:148
 msgid ""
 "This is the alias you are adding (what you will type after the command "
 "identifier, '/')."
@@ -12484,7 +12306,7 @@ msgstr ""
 
 #. i18n: file: plugins/alias/aliasdialog.ui:74
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, alias)
-#: rc.cpp:217
+#: rc.cpp:151
 msgid ""
 "This is the alias you are adding (what you will type after the command "
 "identifier, '/'). Do not include the '/' (it will be stripped off if you do "
@@ -12499,7 +12321,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (KPushButton, addButton)
 #. i18n: file: protocols/irc/ui/networkconfig.ui:235
 #. i18n: ectx: property (text), widget (QPushButton, m_saveButton)
-#: rc.cpp:220 rc.cpp:4782
+#: rc.cpp:154 rc.cpp:4782
 #, fuzzy
 msgid "&Save"
 msgstr "Ciyê tomarkirinê:"
@@ -12512,7 +12334,7 @@ msgstr "Ciyê tomarkirinê:"
 #. i18n: ectx: property (toolTip), widget (K3ListView, protocolList)
 #. i18n: file: plugins/alias/aliasdialog.ui:104
 #. i18n: ectx: property (whatsThis), widget (K3ListView, protocolList)
-#: rc.cpp:226 rc.cpp:229
+#: rc.cpp:160 rc.cpp:163
 msgid ""
 "If you want this alias to only be active for certain protocols, select those "
 "protocols here."
@@ -12520,9 +12342,187 @@ msgstr ""
 
 #. i18n: file: plugins/alias/aliasdialog.ui:134
 #. i18n: ectx: property (text), widget (QLabel, textLabel4)
-#: rc.cpp:235
+#: rc.cpp:169
 msgid "For protocols:"
 msgstr "Ji bo van protokolan:"
+
+#. i18n: file: plugins/translator/translatorconfig.kcfg:10
+#. i18n: ectx: label, entry (DefaultLanguage), group (Translator plugin)
+#: rc.cpp:172
+#, fuzzy
+#| msgid "Default native language:"
+msgid "Default native language"
+msgstr "Zimanê herêmî ya standard:"
+
+#. i18n: file: plugins/translator/translatorconfig.kcfg:15
+#. i18n: ectx: label, entry (Service), group (Translator plugin)
+#: rc.cpp:175
+#, fuzzy
+#| msgid "Translation service:"
+msgid "Translation service"
+msgstr "Servîsa wergerandinê:"
+
+#. i18n: file: plugins/translator/translatorconfig.kcfg:20
+#. i18n: ectx: label, entry (IncomingDontTranslate), group (Translator plugin)
+#: rc.cpp:178
+#, fuzzy
+msgid "Do not translate incoming messages"
+msgstr "Peyama Li Derve:"
+
+#. i18n: file: plugins/translator/translatorconfig.kcfg:25
+#. i18n: ectx: label, entry (IncomingShowOriginal), group (Translator plugin)
+#: rc.cpp:181
+#, fuzzy
+#| msgid "Show the original message"
+msgid "Show the original incoming message"
+msgstr "Peyama orjînal nîşan bide"
+
+#. i18n: file: plugins/translator/translatorconfig.kcfg:30
+#. i18n: ectx: label, entry (IncomingTranslate), group (Translator plugin)
+#: rc.cpp:184
+#, fuzzy
+#| msgid "Translate directly"
+msgid "Translate incoming message directly"
+msgstr "Rasterast wergerîne"
+
+#. i18n: file: plugins/translator/translatorconfig.kcfg:35
+#. i18n: ectx: label, entry (OutgoingDontTranslate), group (Translator plugin)
+#: rc.cpp:187
+#, fuzzy
+#| msgid "Ok, this is an outgoing message"
+msgid "Do not translate outgoing messages"
+msgstr "Temam, ev peyama min a derketinê ye"
+
+#. i18n: file: plugins/translator/translatorconfig.kcfg:40
+#. i18n: ectx: label, entry (OutgoingShowOriginal), group (Translator plugin)
+#: rc.cpp:190
+#, fuzzy
+#| msgid "Show the original message"
+msgid "Show the original outgoing message"
+msgstr "Peyama orjînal nîşan bide"
+
+#. i18n: file: plugins/translator/translatorconfig.kcfg:45
+#. i18n: ectx: label, entry (OutgoingTranslate), group (Translator plugin)
+#: rc.cpp:193
+#, fuzzy
+#| msgid "Translate directly"
+msgid "Translate outgoing message directly"
+msgstr "Rasterast wergerîne"
+
+#. i18n: file: plugins/translator/translatorconfig.kcfg:50
+#. i18n: ectx: label, entry (OutgoingAsk), group (Translator plugin)
+#: rc.cpp:196
+#, fuzzy
+msgid "Show dialog before sending message"
+msgstr "Peyama Li Derve:"
+
+#. i18n: file: plugins/translator/translatorui.rc:5
+#. i18n: ectx: Menu (edit)
+#. i18n: file: plugins/statistics/statisticsui.rc:5
+#. i18n: ectx: Menu (edit)
+#. i18n: file: plugins/history/historyui.rc:5
+#. i18n: ectx: Menu (edit)
+#. i18n: file: plugins/autoreplace/autoreplaceprefs.ui:137
+#. i18n: ectx: property (text), widget (QPushButton, m_edit)
+#. i18n: file: plugins/contactnotes/contactnotesui.rc:5
+#. i18n: ectx: Menu (edit)
+#. i18n: file: plugins/otr/otrui.rc:5
+#. i18n: ectx: Menu (edit)
+#. i18n: file: protocols/groupwise/ui/gwcustomstatus.ui:44
+#. i18n: ectx: property (text), widget (QPushButton, m_btnEdit)
+#. i18n: file: protocols/skype/skypeui.rc:5
+#. i18n: ectx: Menu (edit)
+#. i18n: file: kopete/kopeteui.rc:17
+#. i18n: ectx: Menu (edit)
+#. i18n: file: plugins/translator/translatorui.rc:5
+#. i18n: ectx: Menu (edit)
+#. i18n: file: plugins/statistics/statisticsui.rc:5
+#. i18n: ectx: Menu (edit)
+#. i18n: file: plugins/history/historyui.rc:5
+#. i18n: ectx: Menu (edit)
+#. i18n: file: plugins/autoreplace/autoreplaceprefs.ui:137
+#. i18n: ectx: property (text), widget (QPushButton, m_edit)
+#. i18n: file: plugins/contactnotes/contactnotesui.rc:5
+#. i18n: ectx: Menu (edit)
+#. i18n: file: plugins/otr/otrui.rc:5
+#. i18n: ectx: Menu (edit)
+#. i18n: file: protocols/groupwise/ui/gwcustomstatus.ui:44
+#. i18n: ectx: property (text), widget (QPushButton, m_btnEdit)
+#. i18n: file: protocols/skype/skypeui.rc:5
+#. i18n: ectx: Menu (edit)
+#. i18n: file: kopete/kopeteui.rc:17
+#. i18n: ectx: Menu (edit)
+#: rc.cpp:199 rc.cpp:241 rc.cpp:370 rc.cpp:580 rc.cpp:601 rc.cpp:700
+#: rc.cpp:2561 rc.cpp:4719 rc.cpp:6131
+#, fuzzy
+msgid "&Edit"
+msgstr "&Sererast Bike..."
+
+#. i18n: file: plugins/translator/translatorprefsbase.ui:71
+#. i18n: ectx: property (text), widget (QLabel, TextLabel2_2)
+#: rc.cpp:205
+msgid "Translation service:"
+msgstr "Servîsa wergerandinê:"
+
+#. i18n: file: plugins/translator/translatorprefsbase.ui:78
+#. i18n: ectx: property (text), widget (QLabel, TextLabel2)
+#: rc.cpp:208
+msgid "Default native language:"
+msgstr "Zimanê herêmî ya standard:"
+
+#. i18n: file: plugins/translator/translatorprefsbase.ui:100
+#. i18n: ectx: property (title), widget (QGroupBox, IncomingMessages)
+#: rc.cpp:211
+msgid "Incoming Messages"
+msgstr ""
+
+#. i18n: file: plugins/translator/translatorprefsbase.ui:121
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_IncomingDontTranslate)
+#. i18n: file: plugins/translator/translatorprefsbase.ui:172
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_OutgoingDontTranslate)
+#. i18n: file: plugins/translator/translatorprefsbase.ui:121
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_IncomingDontTranslate)
+#. i18n: file: plugins/translator/translatorprefsbase.ui:172
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_OutgoingDontTranslate)
+#: rc.cpp:214 rc.cpp:226
+msgid "Do not translate"
+msgstr "Wernegerîne"
+
+#. i18n: file: plugins/translator/translatorprefsbase.ui:131
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_IncomingShowOriginal)
+#. i18n: file: plugins/translator/translatorprefsbase.ui:182
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_OutgoingShowOriginal)
+#. i18n: file: plugins/translator/translatorprefsbase.ui:131
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_IncomingShowOriginal)
+#. i18n: file: plugins/translator/translatorprefsbase.ui:182
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_OutgoingShowOriginal)
+#: rc.cpp:217 rc.cpp:229
+msgid "Show the original message"
+msgstr "Peyama orjînal nîşan bide"
+
+#. i18n: file: plugins/translator/translatorprefsbase.ui:141
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_IncomingTranslate)
+#. i18n: file: plugins/translator/translatorprefsbase.ui:192
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_OutgoingTranslate)
+#. i18n: file: plugins/translator/translatorprefsbase.ui:141
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_IncomingTranslate)
+#. i18n: file: plugins/translator/translatorprefsbase.ui:192
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_OutgoingTranslate)
+#: rc.cpp:220 rc.cpp:232
+msgid "Translate directly"
+msgstr "Rasterast wergerîne"
+
+#. i18n: file: plugins/translator/translatorprefsbase.ui:151
+#. i18n: ectx: property (title), widget (QGroupBox, OutgoingTranslate)
+#: rc.cpp:223
+msgid "Outgoing Messages"
+msgstr ""
+
+#. i18n: file: plugins/translator/translatorprefsbase.ui:199
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_OutgoingAsk)
+#: rc.cpp:235
+msgid "Show dialog before sending"
+msgstr ""
 
 #. i18n: file: plugins/statistics/statisticswidgetbase.ui:38
 #. i18n: ectx: attribute (title), widget (QWidget, TabPage)
@@ -12674,9 +12674,223 @@ msgstr ""
 msgid "Scale images to the width"
 msgstr ""
 
+#. i18n: file: plugins/addbookmarks/addbookmarksprefsui.ui:31
+#. i18n: ectx: property (title), widget (QGroupBox, buttonGroup1)
+#: rc.cpp:307
+msgid "Use Subfolder for Each Contact"
+msgstr ""
+
+#. i18n: file: plugins/addbookmarks/addbookmarksprefsui.ui:55
+#. i18n: ectx: property (text), widget (QRadioButton, yesButton)
+#: rc.cpp:310
+msgid "Always"
+msgstr "Her Dem"
+
+#. i18n: file: plugins/addbookmarks/addbookmarksprefsui.ui:68
+#. i18n: ectx: property (text), widget (QRadioButton, noButton)
+#: rc.cpp:313
+msgid "Never"
+msgstr "Qet"
+
+#. i18n: file: plugins/addbookmarks/addbookmarksprefsui.ui:78
+#. i18n: ectx: property (text), widget (QRadioButton, onlySelectedButton)
+#: rc.cpp:316
+#, fuzzy
+msgid "Only the selected contacts"
+msgstr "Hesabê ku hate hilbijartin sererast bike"
+
+#. i18n: file: plugins/addbookmarks/addbookmarksprefsui.ui:91
+#. i18n: ectx: property (text), widget (QRadioButton, onlyNotSelectedButton)
+#: rc.cpp:319
+msgid "Not the selected contacts"
+msgstr ""
+
+#. i18n: file: plugins/history/historyviewer.ui:39
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:322
+msgid "Contact:"
+msgstr "Têkilî:"
+
+#. i18n: file: plugins/history/historyviewer.ui:56
+#. i18n: ectx: property (text), widget (QPushButton, importHistory)
+#: rc.cpp:325
+#, fuzzy
+#| msgid "Next History"
+msgid "Import History..."
+msgstr "Dîroka Din"
+
+#. i18n: file: plugins/history/historyviewer.ui:63
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: rc.cpp:328
+#, fuzzy
+#| msgid "Message Filter:"
+msgid "Message filter:"
+msgstr "Parzûna Peyaman:"
+
+#. i18n: file: plugins/history/historyviewer.ui:83
+#. i18n: ectx: property (text), item, widget (QComboBox, messageFilterBox)
+#: rc.cpp:331
+#, fuzzy
+#| msgid "Message"
+msgid "All Messages"
+msgstr "Peyam"
+
+#. i18n: file: plugins/history/historyviewer.ui:88
+#. i18n: ectx: property (text), item, widget (QComboBox, messageFilterBox)
+#: rc.cpp:334
+msgid "Only Incoming"
+msgstr ""
+
+#. i18n: file: plugins/history/historyviewer.ui:93
+#. i18n: ectx: property (text), item, widget (QComboBox, messageFilterBox)
+#: rc.cpp:337
+msgid "Only Outgoing"
+msgstr ""
+
+#. i18n: file: plugins/history/historyviewer.ui:129
+#. i18n: ectx: property (text), widget (QTreeWidget, dateTreeWidget)
+#: rc.cpp:340
+msgid "Date"
+msgstr "Dîrok"
+
+#. i18n: file: plugins/history/historyviewer.ui:134
+#. i18n: ectx: property (text), widget (QTreeWidget, dateTreeWidget)
+#. i18n: file: protocols/qq/ui/qqvcard.ui:304
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#. i18n: file: plugins/history/historyviewer.ui:134
+#. i18n: ectx: property (text), widget (QTreeWidget, dateTreeWidget)
+#. i18n: file: protocols/qq/ui/qqvcard.ui:304
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: rc.cpp:343 rc.cpp:1866
+msgid "Contact"
+msgstr ""
+
+#. i18n: file: plugins/history/historyviewer.ui:156
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: rc.cpp:346
+msgid "Search:"
+msgstr "Bigere:"
+
+#. i18n: file: plugins/history/historyconfig.kcfg:11
+#. i18n: ectx: label, entry (Auto_chatwindow), group (History Plugin)
+#: rc.cpp:355
+#, fuzzy
+#| msgid "Show chat history in new chats"
+msgid "Show previous messages in new chats."
+msgstr "Ji bo sohbetên ku nû hatine destpêkirin raboriya sohbetê nîşan bide"
+
+#. i18n: file: plugins/history/historyconfig.kcfg:16
+#. i18n: ectx: label, entry (Number_Auto_chatwindow), group (History Plugin)
+#: rc.cpp:358
+#, fuzzy
+#| msgid "Number of messages to show:"
+msgid "Number of messages to show."
+msgstr "Hejmara peyamên ku wê werine nîşandan:"
+
+#. i18n: file: plugins/history/historyconfig.kcfg:21
+#. i18n: ectx: label, entry (Number_ChatWindow), group (History Plugin)
+#: rc.cpp:361
+#, fuzzy
+#| msgid "Number of messages to show:"
+msgid "Number of messages per page"
+msgstr "Hejmara peyamên ku wê werine nîşandan:"
+
+#. i18n: file: plugins/history/historyconfig.kcfg:26
+#. i18n: ectx: label, entry (History_color), group (History Plugin)
+#: rc.cpp:364
+#, fuzzy
+#| msgid "Color of messages:"
+msgid "Color of messages"
+msgstr "Rengê peyaman:"
+
+#. i18n: file: plugins/history/historyconfig.kcfg:31
+#. i18n: ectx: label, entry (BrowserStyle), group (History Plugin)
+#: rc.cpp:367
+msgid "Style to use in history-browser."
+msgstr ""
+
+#. i18n: file: plugins/history/historyprefsui.ui:32
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:376
+msgid "Chat History"
+msgstr "Raboriya Sohbetê"
+
+#. i18n: file: plugins/history/historyprefsui.ui:72
+#. i18n: ectx: property (whatsThis), widget (QLabel, lblNoLinesPerPage)
+#: rc.cpp:379
+msgid ""
+"The number of messages that are shown when browsing history in the chat "
+"window"
+msgstr ""
+
+#. i18n: file: plugins/history/historyprefsui.ui:75
+#. i18n: ectx: property (text), widget (QLabel, lblNoLinesPerPage)
+#: rc.cpp:382
+msgid "Number of messages per page:"
+msgstr ""
+
+#. i18n: file: plugins/history/historyprefsui.ui:82
+#. i18n: ectx: property (whatsThis), widget (QLabel, colorLabel)
+#. i18n: file: plugins/history/historyprefsui.ui:108
+#. i18n: ectx: property (whatsThis), widget (KColorButton, History_color)
+#. i18n: file: plugins/history/historyprefsui.ui:82
+#. i18n: ectx: property (whatsThis), widget (QLabel, colorLabel)
+#. i18n: file: plugins/history/historyprefsui.ui:108
+#. i18n: ectx: property (whatsThis), widget (KColorButton, History_color)
+#: rc.cpp:385 rc.cpp:397
+msgid "Color of history messages in the chat window"
+msgstr "Di paceya heman sohbetê de hemû peyaman dabeş bike"
+
+#. i18n: file: plugins/history/historyprefsui.ui:85
+#. i18n: ectx: property (text), widget (QLabel, colorLabel)
+#: rc.cpp:388
+msgid "Color of messages:"
+msgstr "Rengê peyaman:"
+
+#. i18n: file: plugins/history/historyprefsui.ui:95
+#. i18n: ectx: property (whatsThis), widget (QLabel, numberLabel)
+#. i18n: file: plugins/history/historyprefsui.ui:125
+#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, Number_Auto_chatwindow)
+#. i18n: file: plugins/history/historyprefsui.ui:95
+#. i18n: ectx: property (whatsThis), widget (QLabel, numberLabel)
+#. i18n: file: plugins/history/historyprefsui.ui:125
+#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, Number_Auto_chatwindow)
+#: rc.cpp:391 rc.cpp:400
+msgid ""
+"This is the number of messages that will be added automatically in the chat "
+"window when opening a new chat."
+msgstr ""
+
+#. i18n: file: plugins/history/historyprefsui.ui:98
+#. i18n: ectx: property (text), widget (QLabel, numberLabel)
+#: rc.cpp:394
+msgid "Number of messages to show:"
+msgstr "Hejmara peyamên ku wê werine nîşandan:"
+
+#. i18n: file: plugins/history/historyprefsui.ui:141
+#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, Number_ChatWindow)
+#: rc.cpp:403
+msgid ""
+"The number of message that are shown when borwsing history in the chat window"
+msgstr ""
+
+#. i18n: file: plugins/history/historyprefsui.ui:157
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, chkShowPrevious)
+#: rc.cpp:406
+msgid ""
+"When a new chat is opened, automatically add the last few messages between "
+"you and that contact."
+msgstr ""
+
+#. i18n: file: plugins/history/historyprefsui.ui:160
+#. i18n: ectx: property (text), widget (QCheckBox, chkShowPrevious)
+#: rc.cpp:409
+msgid "Show chat history in new chats"
+msgstr "Ji bo sohbetên ku nû hatine destpêkirin raboriya sohbetê nîşan bide"
+
 #. i18n: file: plugins/texteffect/texteffectprefs.ui:39
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: rc.cpp:307
+#: rc.cpp:412
 msgid "&Colors"
 msgstr "&Reng"
 
@@ -12692,13 +12906,13 @@ msgstr "&Reng"
 #. i18n: ectx: property (title), widget (KButtonGroup, kbuttongroup)
 #. i18n: file: kopete/config/chatwindow/chatwindowconfig_colors.ui:89
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:310 rc.cpp:5452 rc.cpp:5963
+#: rc.cpp:415 rc.cpp:5452 rc.cpp:5963
 msgid "Colors"
 msgstr "Reng"
 
 #. i18n: file: plugins/texteffect/texteffectprefs.ui:90
 #. i18n: ectx: property (text), widget (QPushButton, mColorsAdd)
-#: rc.cpp:313
+#: rc.cpp:418
 msgid "&Add..."
 msgstr "&Têxê..."
 
@@ -12722,277 +12936,63 @@ msgstr "&Têxê..."
 #. i18n: ectx: property (text), widget (QPushButton, m_btnRemove)
 #. i18n: file: protocols/irc/ui/networkconfig.ui:62
 #. i18n: ectx: property (text), widget (QPushButton, m_removeHost)
-#: rc.cpp:316 rc.cpp:685 rc.cpp:2486 rc.cpp:2498 rc.cpp:4737
+#: rc.cpp:421 rc.cpp:583 rc.cpp:2486 rc.cpp:2564 rc.cpp:4737
 #, fuzzy
 msgid "&Remove"
 msgstr "Ra&ke"
 
 #. i18n: file: plugins/texteffect/texteffectprefs.ui:104
 #. i18n: ectx: property (text), widget (QPushButton, mColorsUp)
-#: rc.cpp:319
+#: rc.cpp:424
 msgid "Move &Up"
 msgstr "Bikşîne &Jor"
 
 #. i18n: file: plugins/texteffect/texteffectprefs.ui:111
 #. i18n: ectx: property (text), widget (QPushButton, mColorsDown)
-#: rc.cpp:322
+#: rc.cpp:427
 msgid "Move &Down"
 msgstr "Bikşîne &Jêr"
 
 #. i18n: file: plugins/texteffect/texteffectprefs.ui:137
 #. i18n: ectx: property (text), widget (QCheckBox, m_colorRandom)
-#: rc.cpp:325
+#: rc.cpp:430
 msgid "Random order"
 msgstr ""
 
 #. i18n: file: plugins/texteffect/texteffectprefs.ui:154
 #. i18n: ectx: property (text), widget (QCheckBox, m_fg)
-#: rc.cpp:328
+#: rc.cpp:433
 msgid "Change global text foreground color"
 msgstr ""
 
 #. i18n: file: plugins/texteffect/texteffectprefs.ui:161
 #. i18n: ectx: property (text), widget (QCheckBox, m_char)
-#: rc.cpp:331
+#: rc.cpp:436
 msgid "Change color every letter"
 msgstr "Rengê her nameyê biguherîne"
 
 #. i18n: file: plugins/texteffect/texteffectprefs.ui:168
 #. i18n: ectx: property (text), widget (QCheckBox, m_words)
-#: rc.cpp:334
+#: rc.cpp:439
 msgid "Change color every word"
 msgstr "Rengê her peyvê biguherîne"
 
 #. i18n: file: plugins/texteffect/texteffectprefs.ui:176
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: rc.cpp:337
+#: rc.cpp:442
 msgid "Effects"
 msgstr "Efekt"
 
 #. i18n: file: plugins/texteffect/texteffectprefs.ui:203
 #. i18n: ectx: property (text), widget (QCheckBox, m_lamer)
-#: rc.cpp:340
+#: rc.cpp:445
 msgid "L4m3r t4lk"
 msgstr ""
 
 #. i18n: file: plugins/texteffect/texteffectprefs.ui:216
 #. i18n: ectx: property (text), widget (QCheckBox, m_casewaves)
-#: rc.cpp:343
-msgid "CasE wAVes"
-msgstr ""
-
-#. i18n: file: plugins/history/historyviewer.ui:39
-#. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: rc.cpp:346
-msgid "Contact:"
-msgstr "Têkilî:"
-
-#. i18n: file: plugins/history/historyviewer.ui:56
-#. i18n: ectx: property (text), widget (QPushButton, importHistory)
-#: rc.cpp:349
-#, fuzzy
-#| msgid "Next History"
-msgid "Import History..."
-msgstr "Dîroka Din"
-
-#. i18n: file: plugins/history/historyviewer.ui:63
-#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
-#: rc.cpp:352
-#, fuzzy
-#| msgid "Message Filter:"
-msgid "Message filter:"
-msgstr "Parzûna Peyaman:"
-
-#. i18n: file: plugins/history/historyviewer.ui:83
-#. i18n: ectx: property (text), item, widget (QComboBox, messageFilterBox)
-#: rc.cpp:355
-#, fuzzy
-#| msgid "Message"
-msgid "All Messages"
-msgstr "Peyam"
-
-#. i18n: file: plugins/history/historyviewer.ui:88
-#. i18n: ectx: property (text), item, widget (QComboBox, messageFilterBox)
-#: rc.cpp:358
-msgid "Only Incoming"
-msgstr ""
-
-#. i18n: file: plugins/history/historyviewer.ui:93
-#. i18n: ectx: property (text), item, widget (QComboBox, messageFilterBox)
-#: rc.cpp:361
-msgid "Only Outgoing"
-msgstr ""
-
-#. i18n: file: plugins/history/historyviewer.ui:129
-#. i18n: ectx: property (text), widget (QTreeWidget, dateTreeWidget)
-#: rc.cpp:364
-msgid "Date"
-msgstr "Dîrok"
-
-#. i18n: file: plugins/history/historyviewer.ui:134
-#. i18n: ectx: property (text), widget (QTreeWidget, dateTreeWidget)
-#. i18n: file: protocols/qq/ui/qqvcard.ui:304
-#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
-#. i18n: file: plugins/history/historyviewer.ui:134
-#. i18n: ectx: property (text), widget (QTreeWidget, dateTreeWidget)
-#. i18n: file: protocols/qq/ui/qqvcard.ui:304
-#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
-#: rc.cpp:367 rc.cpp:1866
-msgid "Contact"
-msgstr ""
-
-#. i18n: file: plugins/history/historyviewer.ui:156
-#. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#: rc.cpp:370
-msgid "Search:"
-msgstr "Bigere:"
-
-#. i18n: file: plugins/history/historyconfig.kcfg:11
-#. i18n: ectx: label, entry (Auto_chatwindow), group (History Plugin)
-#: rc.cpp:379
-#, fuzzy
-#| msgid "Show chat history in new chats"
-msgid "Show previous messages in new chats."
-msgstr "Ji bo sohbetên ku nû hatine destpêkirin raboriya sohbetê nîşan bide"
-
-#. i18n: file: plugins/history/historyconfig.kcfg:16
-#. i18n: ectx: label, entry (Number_Auto_chatwindow), group (History Plugin)
-#: rc.cpp:382
-#, fuzzy
-#| msgid "Number of messages to show:"
-msgid "Number of messages to show."
-msgstr "Hejmara peyamên ku wê werine nîşandan:"
-
-#. i18n: file: plugins/history/historyconfig.kcfg:21
-#. i18n: ectx: label, entry (Number_ChatWindow), group (History Plugin)
-#: rc.cpp:385
-#, fuzzy
-#| msgid "Number of messages to show:"
-msgid "Number of messages per page"
-msgstr "Hejmara peyamên ku wê werine nîşandan:"
-
-#. i18n: file: plugins/history/historyconfig.kcfg:26
-#. i18n: ectx: label, entry (History_color), group (History Plugin)
-#: rc.cpp:388
-#, fuzzy
-#| msgid "Color of messages:"
-msgid "Color of messages"
-msgstr "Rengê peyaman:"
-
-#. i18n: file: plugins/history/historyconfig.kcfg:31
-#. i18n: ectx: label, entry (BrowserStyle), group (History Plugin)
-#: rc.cpp:391
-msgid "Style to use in history-browser."
-msgstr ""
-
-#. i18n: file: plugins/history/historyprefsui.ui:32
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:400
-msgid "Chat History"
-msgstr "Raboriya Sohbetê"
-
-#. i18n: file: plugins/history/historyprefsui.ui:72
-#. i18n: ectx: property (whatsThis), widget (QLabel, lblNoLinesPerPage)
-#: rc.cpp:403
-msgid ""
-"The number of messages that are shown when browsing history in the chat "
-"window"
-msgstr ""
-
-#. i18n: file: plugins/history/historyprefsui.ui:75
-#. i18n: ectx: property (text), widget (QLabel, lblNoLinesPerPage)
-#: rc.cpp:406
-msgid "Number of messages per page:"
-msgstr ""
-
-#. i18n: file: plugins/history/historyprefsui.ui:82
-#. i18n: ectx: property (whatsThis), widget (QLabel, colorLabel)
-#. i18n: file: plugins/history/historyprefsui.ui:108
-#. i18n: ectx: property (whatsThis), widget (KColorButton, History_color)
-#. i18n: file: plugins/history/historyprefsui.ui:82
-#. i18n: ectx: property (whatsThis), widget (QLabel, colorLabel)
-#. i18n: file: plugins/history/historyprefsui.ui:108
-#. i18n: ectx: property (whatsThis), widget (KColorButton, History_color)
-#: rc.cpp:409 rc.cpp:421
-msgid "Color of history messages in the chat window"
-msgstr "Di paceya heman sohbetê de hemû peyaman dabeş bike"
-
-#. i18n: file: plugins/history/historyprefsui.ui:85
-#. i18n: ectx: property (text), widget (QLabel, colorLabel)
-#: rc.cpp:412
-msgid "Color of messages:"
-msgstr "Rengê peyaman:"
-
-#. i18n: file: plugins/history/historyprefsui.ui:95
-#. i18n: ectx: property (whatsThis), widget (QLabel, numberLabel)
-#. i18n: file: plugins/history/historyprefsui.ui:125
-#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, Number_Auto_chatwindow)
-#. i18n: file: plugins/history/historyprefsui.ui:95
-#. i18n: ectx: property (whatsThis), widget (QLabel, numberLabel)
-#. i18n: file: plugins/history/historyprefsui.ui:125
-#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, Number_Auto_chatwindow)
-#: rc.cpp:415 rc.cpp:424
-msgid ""
-"This is the number of messages that will be added automatically in the chat "
-"window when opening a new chat."
-msgstr ""
-
-#. i18n: file: plugins/history/historyprefsui.ui:98
-#. i18n: ectx: property (text), widget (QLabel, numberLabel)
-#: rc.cpp:418
-msgid "Number of messages to show:"
-msgstr "Hejmara peyamên ku wê werine nîşandan:"
-
-#. i18n: file: plugins/history/historyprefsui.ui:141
-#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, Number_ChatWindow)
-#: rc.cpp:427
-msgid ""
-"The number of message that are shown when borwsing history in the chat window"
-msgstr ""
-
-#. i18n: file: plugins/history/historyprefsui.ui:157
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, chkShowPrevious)
-#: rc.cpp:430
-msgid ""
-"When a new chat is opened, automatically add the last few messages between "
-"you and that contact."
-msgstr ""
-
-#. i18n: file: plugins/history/historyprefsui.ui:160
-#. i18n: ectx: property (text), widget (QCheckBox, chkShowPrevious)
-#: rc.cpp:433
-msgid "Show chat history in new chats"
-msgstr "Ji bo sohbetên ku nû hatine destpêkirin raboriya sohbetê nîşan bide"
-
-#. i18n: file: plugins/addbookmarks/addbookmarksprefsui.ui:31
-#. i18n: ectx: property (title), widget (QGroupBox, buttonGroup1)
-#: rc.cpp:436
-msgid "Use Subfolder for Each Contact"
-msgstr ""
-
-#. i18n: file: plugins/addbookmarks/addbookmarksprefsui.ui:55
-#. i18n: ectx: property (text), widget (QRadioButton, yesButton)
-#: rc.cpp:439
-msgid "Always"
-msgstr "Her Dem"
-
-#. i18n: file: plugins/addbookmarks/addbookmarksprefsui.ui:68
-#. i18n: ectx: property (text), widget (QRadioButton, noButton)
-#: rc.cpp:442
-msgid "Never"
-msgstr "Qet"
-
-#. i18n: file: plugins/addbookmarks/addbookmarksprefsui.ui:78
-#. i18n: ectx: property (text), widget (QRadioButton, onlySelectedButton)
-#: rc.cpp:445
-#, fuzzy
-msgid "Only the selected contacts"
-msgstr "Hesabê ku hate hilbijartin sererast bike"
-
-#. i18n: file: plugins/addbookmarks/addbookmarksprefsui.ui:91
-#. i18n: ectx: property (text), widget (QRadioButton, onlyNotSelectedButton)
 #: rc.cpp:448
-msgid "Not the selected contacts"
+msgid "CasE wAVes"
 msgstr ""
 
 #. i18n: file: plugins/webpresence/webpresenceconfig.kcfg:10
@@ -13217,9 +13217,64 @@ msgstr ""
 msgid "Use another &name:"
 msgstr ""
 
+#. i18n: file: plugins/autoreplace/autoreplaceprefs.ui:32
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:565
+msgid "Sentence Options"
+msgstr ""
+
+#. i18n: file: plugins/autoreplace/autoreplaceprefs.ui:53
+#. i18n: ectx: property (text), widget (QCheckBox, DotEndSentence)
+#: rc.cpp:568
+msgid "Add a dot at the end of each sent line"
+msgstr ""
+
+#. i18n: file: plugins/autoreplace/autoreplaceprefs.ui:60
+#. i18n: ectx: property (text), widget (QCheckBox, CapitalizeBeginningSentence)
+#: rc.cpp:571
+msgid "Start each sent line with a capital letter"
+msgstr ""
+
+#. i18n: file: plugins/autoreplace/autoreplaceprefs.ui:70
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: rc.cpp:574
+msgid "Replacements List"
+msgstr ""
+
+#. i18n: file: plugins/autoreplace/autoreplaceprefs.ui:189
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:586
+#, fuzzy
+msgid "&Text:"
+msgstr "Deq"
+
+#. i18n: file: plugins/autoreplace/autoreplaceprefs.ui:202
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: rc.cpp:589
+msgid "Re&placement:"
+msgstr ""
+
+#. i18n: file: plugins/autoreplace/autoreplaceprefs.ui:220
+#. i18n: ectx: property (title), widget (QGroupBox, gb_options)
+#: rc.cpp:592
+msgid "Replacement Options"
+msgstr ""
+
+#. i18n: file: plugins/autoreplace/autoreplaceprefs.ui:241
+#. i18n: ectx: property (text), widget (QCheckBox, AutoReplaceIncoming)
+#: rc.cpp:595
+msgid "Auto replace on incoming messages"
+msgstr ""
+
+#. i18n: file: plugins/autoreplace/autoreplaceprefs.ui:248
+#. i18n: ectx: property (text), widget (QCheckBox, AutoReplaceOutgoing)
+#: rc.cpp:598
+msgid "Auto replace on outgoing messages"
+msgstr ""
+
 #. i18n: file: plugins/otr/otrprefs.ui:13
 #. i18n: ectx: property (windowTitle), widget (QWidget, OTRPrefsUI)
-#: rc.cpp:565
+#: rc.cpp:604
 #, fuzzy
 #| msgid "Accou&nt Preferences"
 msgid "OTR Plugin Preferences"
@@ -13241,14 +13296,14 @@ msgstr "Tercîhên &Hesêb"
 #. i18n: ectx: Menu (settings)
 #. i18n: file: kopete/kopeteui.rc:32
 #. i18n: ectx: Menu (settings)
-#: rc.cpp:568 rc.cpp:6024 rc.cpp:6057 rc.cpp:6134
+#: rc.cpp:607 rc.cpp:6024 rc.cpp:6057 rc.cpp:6134
 #, fuzzy
 msgid "&Settings"
 msgstr "&Mîhengên MSN"
 
 #. i18n: file: plugins/otr/otrprefs.ui:35
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
-#: rc.cpp:571
+#: rc.cpp:610
 #, fuzzy
 #| msgid "Private Phone"
 msgid "Private Keys"
@@ -13256,14 +13311,14 @@ msgstr "Telefona Taybet"
 
 #. i18n: file: plugins/otr/otrprefs.ui:41
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#: rc.cpp:574
+#: rc.cpp:613
 #, fuzzy
 msgid "Account:"
 msgstr "He&sab"
 
 #. i18n: file: plugins/otr/otrprefs.ui:61
 #. i18n: ectx: property (text), widget (QPushButton, btGenFingerprint)
-#: rc.cpp:577
+#: rc.cpp:616
 #, fuzzy
 #| msgid "&General"
 msgid "&Generate"
@@ -13271,25 +13326,25 @@ msgstr "&Giştî"
 
 #. i18n: file: plugins/otr/otrprefs.ui:68
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:580
+#: rc.cpp:619
 msgid "Fingerprint:"
 msgstr ""
 
 #. i18n: file: plugins/otr/otrprefs.ui:78
 #. i18n: ectx: property (text), widget (QLabel, tlFingerprint)
-#: rc.cpp:583
+#: rc.cpp:622
 msgid "No Fingerprint"
 msgstr ""
 
 #. i18n: file: plugins/otr/otrprefs.ui:110
 #. i18n: ectx: property (title), widget (QGroupBox, gbPolicy)
-#: rc.cpp:586
+#: rc.cpp:625
 msgid "Default OTR Policy"
 msgstr ""
 
 #. i18n: file: plugins/otr/otrprefs.ui:116
 #. i18n: ectx: property (toolTip), widget (QRadioButton, kcfg_rbAlways)
-#: rc.cpp:589
+#: rc.cpp:628
 #, fuzzy
 #| msgid "Away Messages"
 msgid "Always encrypt messages"
@@ -13297,7 +13352,7 @@ msgstr "Peyama Li Derve"
 
 #. i18n: file: plugins/otr/otrprefs.ui:119
 #. i18n: ectx: property (text), widget (QRadioButton, kcfg_rbAlways)
-#: rc.cpp:592
+#: rc.cpp:631
 #, fuzzy
 #| msgid "Always"
 msgid "Al&ways"
@@ -13311,32 +13366,32 @@ msgstr "Her Dem"
 #. i18n: ectx: property (toolTip), widget (QRadioButton, kcfg_rbManual)
 #. i18n: file: plugins/otr/kopete_otr.kcfg:15
 #. i18n: ectx: label, entry (rbManual), group (Policy)
-#: rc.cpp:595 rc.cpp:643
+#: rc.cpp:634 rc.cpp:682
 msgid "Encrypt messages if the other side requests an OTR connection"
 msgstr ""
 
 #. i18n: file: plugins/otr/otrprefs.ui:132
 #. i18n: ectx: property (text), widget (QRadioButton, kcfg_rbManual)
-#: rc.cpp:598
+#: rc.cpp:637
 #, fuzzy
 msgid "&Manual"
 msgstr "Li Derve"
 
 #. i18n: file: plugins/otr/otrprefs.ui:142
 #. i18n: ectx: property (toolTip), widget (QRadioButton, kcfg_rbOpportunistic)
-#: rc.cpp:601
+#: rc.cpp:640
 msgid "Encrypt messages automatically if the other side supports OTR"
 msgstr ""
 
 #. i18n: file: plugins/otr/otrprefs.ui:145
 #. i18n: ectx: property (text), widget (QRadioButton, kcfg_rbOpportunistic)
-#: rc.cpp:604
+#: rc.cpp:643
 msgid "&Opportunistic"
 msgstr ""
 
 #. i18n: file: plugins/otr/otrprefs.ui:152
 #. i18n: ectx: property (toolTip), widget (QRadioButton, kcfg_rbNever)
-#: rc.cpp:607
+#: rc.cpp:646
 #, fuzzy
 #| msgid "Server messages:"
 msgid "Never encrypt messages"
@@ -13344,7 +13399,7 @@ msgstr "Peyamên ji pêşkêşker hatiye:"
 
 #. i18n: file: plugins/otr/otrprefs.ui:155
 #. i18n: ectx: property (text), widget (QRadioButton, kcfg_rbNever)
-#: rc.cpp:610
+#: rc.cpp:649
 #, fuzzy
 #| msgid "Never"
 msgid "Ne&ver"
@@ -13352,13 +13407,13 @@ msgstr "Qet"
 
 #. i18n: file: plugins/otr/otrprefs.ui:179
 #. i18n: ectx: attribute (title), widget (QWidget, fingerprints)
-#: rc.cpp:613
+#: rc.cpp:652
 msgid "K&nown Fingerprints"
 msgstr ""
 
 #. i18n: file: plugins/otr/otrprefs.ui:201
 #. i18n: ectx: property (text), widget (QTableWidget, tbFingerprints)
-#: rc.cpp:616
+#: rc.cpp:655
 #, fuzzy
 #| msgid "Contacts"
 msgid "Contact ID"
@@ -13366,7 +13421,7 @@ msgstr "Tekilî"
 
 #. i18n: file: plugins/otr/otrprefs.ui:211
 #. i18n: ectx: property (text), widget (QTableWidget, tbFingerprints)
-#: rc.cpp:622
+#: rc.cpp:661
 #, fuzzy
 #| msgid "&Underline"
 msgid "Verified"
@@ -13374,31 +13429,31 @@ msgstr "&Binîxêzkirî"
 
 #. i18n: file: plugins/otr/otrprefs.ui:216
 #. i18n: ectx: property (text), widget (QTableWidget, tbFingerprints)
-#: rc.cpp:625
+#: rc.cpp:664
 msgid "Fingerprint"
 msgstr ""
 
 #. i18n: file: plugins/otr/otrprefs.ui:221
 #. i18n: ectx: property (text), widget (QTableWidget, tbFingerprints)
-#: rc.cpp:628
+#: rc.cpp:667
 msgid "Protocol"
 msgstr "Protokol"
 
 #. i18n: file: plugins/otr/otrprefs.ui:232
 #. i18n: ectx: property (text), widget (QPushButton, btVerify)
-#: rc.cpp:631
+#: rc.cpp:670
 msgid "&Verify Fingerprint"
 msgstr ""
 
 #. i18n: file: plugins/otr/otrprefs.ui:242
 #. i18n: ectx: property (text), widget (QPushButton, btForget)
-#: rc.cpp:634
+#: rc.cpp:673
 msgid "F&orget Fingerprint"
 msgstr ""
 
 #. i18n: file: plugins/otr/kopete_otr.kcfg:7
 #. i18n: ectx: label, entry (rbAlways), group (Policy)
-#: rc.cpp:637
+#: rc.cpp:676
 #, fuzzy
 #| msgid "Away Messages"
 msgid "Always encrypt outgoing messages"
@@ -13406,13 +13461,13 @@ msgstr "Peyama Li Derve"
 
 #. i18n: file: plugins/otr/kopete_otr.kcfg:11
 #. i18n: ectx: label, entry (rbOpportunistic), group (Policy)
-#: rc.cpp:640
+#: rc.cpp:679
 msgid "Automatically encrypt messages if the other side supports OTR"
 msgstr ""
 
 #. i18n: file: plugins/otr/kopete_otr.kcfg:19
 #. i18n: ectx: label, entry (rbNever), group (Policy)
-#: rc.cpp:646
+#: rc.cpp:685
 #, fuzzy
 #| msgid "Server messages:"
 msgid "Never encrypt outgoing messages"
@@ -13420,13 +13475,13 @@ msgstr "Peyamên ji pêşkêşker hatiye:"
 
 #. i18n: file: plugins/otr/privkeypopup.ui:13
 #. i18n: ectx: property (windowTitle), widget (QWidget, PrivKeyPopup)
-#: rc.cpp:649
+#: rc.cpp:688
 msgid "Please Wait"
 msgstr ""
 
 #. i18n: file: plugins/otr/privkeypopup.ui:32
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:652
+#: rc.cpp:691
 #, fuzzy
 #| msgid "Please wait while querying the server..."
 msgid "Please wait while generating the private key"
@@ -13435,65 +13490,10 @@ msgstr ""
 
 #. i18n: file: plugins/otr/otrchatui.rc:5
 #. i18n: ectx: Menu (otr_menu)
-#: rc.cpp:658
+#: rc.cpp:697
 #, fuzzy
 msgid "OTR Settings"
 msgstr "&Mîhengên MSN"
-
-#. i18n: file: plugins/autoreplace/autoreplaceprefs.ui:32
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:667
-msgid "Sentence Options"
-msgstr ""
-
-#. i18n: file: plugins/autoreplace/autoreplaceprefs.ui:53
-#. i18n: ectx: property (text), widget (QCheckBox, DotEndSentence)
-#: rc.cpp:670
-msgid "Add a dot at the end of each sent line"
-msgstr ""
-
-#. i18n: file: plugins/autoreplace/autoreplaceprefs.ui:60
-#. i18n: ectx: property (text), widget (QCheckBox, CapitalizeBeginningSentence)
-#: rc.cpp:673
-msgid "Start each sent line with a capital letter"
-msgstr ""
-
-#. i18n: file: plugins/autoreplace/autoreplaceprefs.ui:70
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: rc.cpp:676
-msgid "Replacements List"
-msgstr ""
-
-#. i18n: file: plugins/autoreplace/autoreplaceprefs.ui:189
-#. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: rc.cpp:688
-#, fuzzy
-msgid "&Text:"
-msgstr "Deq"
-
-#. i18n: file: plugins/autoreplace/autoreplaceprefs.ui:202
-#. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#: rc.cpp:691
-msgid "Re&placement:"
-msgstr ""
-
-#. i18n: file: plugins/autoreplace/autoreplaceprefs.ui:220
-#. i18n: ectx: property (title), widget (QGroupBox, gb_options)
-#: rc.cpp:694
-msgid "Replacement Options"
-msgstr ""
-
-#. i18n: file: plugins/autoreplace/autoreplaceprefs.ui:241
-#. i18n: ectx: property (text), widget (QCheckBox, AutoReplaceIncoming)
-#: rc.cpp:697
-msgid "Auto replace on incoming messages"
-msgstr ""
-
-#. i18n: file: plugins/autoreplace/autoreplaceprefs.ui:248
-#. i18n: ectx: property (text), widget (QCheckBox, AutoReplaceOutgoing)
-#: rc.cpp:700
-msgid "Auto replace on outgoing messages"
-msgstr ""
 
 #. i18n: file: plugins/highlight/highlightprefsbase.ui:32
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
@@ -13586,9 +13586,63 @@ msgstr "Paceyê nêzîk bîne"
 msgid "Configure Notifications..."
 msgstr "Mîhenkirina Pêvekan..."
 
+#. i18n: file: plugins/latex/latexprefsbase.ui:21
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:757
+msgid ""
+"The KopeteTeX plugin allows Kopete to render LaTeX formulas in the chat "
+"window. The sender must enclose the formula between two pairs of $ signs. "
+"ie: $$formula$$\n"
+"This plugin requires that the ImageMagick convert program be installed in "
+"order to work."
+msgstr ""
+
+#. i18n: file: plugins/latex/latexprefsbase.ui:31
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:761
+#, fuzzy
+msgid "Options"
+msgstr "Vebi&jêrk"
+
+#. i18n: file: plugins/latex/latexprefsbase.ui:41
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#: rc.cpp:764
+msgid "LaTeX include file:"
+msgstr ""
+
+#. i18n: file: plugins/latex/latexprefsbase.ui:55
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: rc.cpp:767
+msgid "Rendering resolution (DPI):"
+msgstr ""
+
+#. i18n: file: plugins/latex/latexprefsbase.ui:65
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: rc.cpp:770
+msgid "x"
+msgstr "x"
+
+#. i18n: file: plugins/latex/latexconfig.kcfg:11
+#. i18n: ectx: label, entry (HorizontalDPI), group (Latex Plugin)
+#: rc.cpp:773
+msgid "Horizontal Rendering Resolution (DPI)."
+msgstr ""
+
+#. i18n: file: plugins/latex/latexconfig.kcfg:15
+#. i18n: ectx: label, entry (VerticalDPI), group (Latex Plugin)
+#: rc.cpp:776
+msgid "Vertical Rendering Resolution (DPI)."
+msgstr ""
+
+#. i18n: file: plugins/latex/latexconfig.kcfg:19
+#. i18n: ectx: label, entry (LatexIncludeFile), group (Latex Plugin)
+#: rc.cpp:779
+msgid "Latex Include File."
+msgstr ""
+
 #. i18n: file: plugins/privacy/contactselectorwidget_base.ui:33
 #. i18n: ectx: property (text), widget (QRadioButton, radioAddExistingMetaContact)
-#: rc.cpp:760
+#: rc.cpp:788
 #, fuzzy
 #| msgid "Add Contact"
 msgid "Add an existing metacontact:"
@@ -13596,84 +13650,84 @@ msgstr "Têkiliyekê Têxê"
 
 #. i18n: file: plugins/privacy/contactselectorwidget_base.ui:46
 #. i18n: ectx: property (text), widget (QRadioButton, radioAnotherContact)
-#: rc.cpp:763
+#: rc.cpp:791
 #, fuzzy
 msgid "Specify another contact:"
 msgstr "Têkiliya Pêşsalixbûyî Biguharîne..."
 
 #. i18n: file: plugins/privacy/privacydialog.ui:34
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:766
+#: rc.cpp:794
 #, fuzzy
 msgid "Filter by Sender"
 msgstr "Parzûn"
 
 #. i18n: file: plugins/privacy/privacydialog.ui:58
 #. i18n: ectx: property (text), widget (QRadioButton, radioOnlyWhiteList)
-#: rc.cpp:769
+#: rc.cpp:797
 msgid "Allow messages only from contacts on the whitelist"
 msgstr ""
 
 #. i18n: file: plugins/privacy/privacydialog.ui:99
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:778
+#: rc.cpp:806
 msgid "Blacklist:"
 msgstr ""
 
 #. i18n: file: plugins/privacy/privacydialog.ui:125
 #. i18n: ectx: property (text), widget (QRadioButton, radioAllowAll)
-#: rc.cpp:784
+#: rc.cpp:812
 #, fuzzy
 msgid "Allow all messages"
 msgstr "Peyama Li Derve:"
 
 #. i18n: file: plugins/privacy/privacydialog.ui:135
 #. i18n: ectx: property (text), widget (QRadioButton, radioOnlyContactList)
-#: rc.cpp:787
+#: rc.cpp:815
 #, fuzzy
 msgid "Allow messages only from contacts on my contact list"
 msgstr "Dixwazî van ji lîsteya xwe ya têkiliyan bibî?"
 
 #. i18n: file: plugins/privacy/privacydialog.ui:142
 #. i18n: ectx: property (text), widget (QRadioButton, radioAllButBlackList)
-#: rc.cpp:790
+#: rc.cpp:818
 msgid "Allow all messages but messages from contacts on the blacklist"
 msgstr ""
 
 #. i18n: file: plugins/privacy/privacydialog.ui:169
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:793
+#: rc.cpp:821
 #, fuzzy
 msgid "Whitelist:"
 msgstr "Parzûn:"
 
 #. i18n: file: plugins/privacy/privacydialog.ui:212
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: rc.cpp:805
+#: rc.cpp:833
 msgid "Filter by Content (separate multiple words by commas)"
 msgstr ""
 
 #. i18n: file: plugins/privacy/privacydialog.ui:242
 #. i18n: ectx: property (text), widget (QCheckBox, chkDropAll)
-#: rc.cpp:808
+#: rc.cpp:836
 msgid "Drop messages that contain all of the following words:"
 msgstr ""
 
 #. i18n: file: plugins/privacy/privacydialog.ui:249
 #. i18n: ectx: property (text), widget (QCheckBox, chkDropAtLeastOne)
-#: rc.cpp:811
+#: rc.cpp:839
 msgid "Drop messages that contain at least one of the following words:"
 msgstr ""
 
 #. i18n: file: plugins/privacy/privacyconfig.kcfg:11
 #. i18n: ectx: label, entry (Sender_AllowAll), group (Privacy Plugin)
-#: rc.cpp:814
+#: rc.cpp:842
 msgid "Allow everyone to send you messages."
 msgstr ""
 
 #. i18n: file: plugins/privacy/privacyconfig.kcfg:15
 #. i18n: ectx: label, entry (Sender_AllowNoneButWhiteList), group (Privacy Plugin)
-#: rc.cpp:817
+#: rc.cpp:845
 msgid ""
 "Allow nobody to send you messages, except the contacts on the whitelist."
 msgstr ""
@@ -13686,28 +13740,28 @@ msgstr ""
 #. i18n: ectx: label, entry (Sender_AllowAllButBlackList), group (Privacy Plugin)
 #. i18n: file: plugins/privacy/privacyconfig.kcfg:23
 #. i18n: ectx: label, entry (Sender_AllowNoneButContactList), group (Privacy Plugin)
-#: rc.cpp:820 rc.cpp:823
+#: rc.cpp:848 rc.cpp:851
 msgid ""
 "Allow everyone to send you messages, except the contacts on the blacklist."
 msgstr ""
 
 #. i18n: file: plugins/privacy/privacyconfig.kcfg:27
 #. i18n: ectx: label, entry (WhiteList), group (Privacy Plugin)
-#: rc.cpp:826
+#: rc.cpp:854
 #, fuzzy
 msgid "Contacts on the whitelist."
 msgstr "Têkiliyê T&êxe Grupê"
 
 #. i18n: file: plugins/privacy/privacyconfig.kcfg:31
 #. i18n: ectx: label, entry (BlackList), group (Privacy Plugin)
-#: rc.cpp:829
+#: rc.cpp:857
 #, fuzzy
 msgid "Contacts on the blacklist."
 msgstr "Têkiliyê T&êxe Grupê"
 
 #. i18n: file: plugins/privacy/privacyconfig.kcfg:35
 #. i18n: ectx: label, entry (Content_DropIfAny), group (Privacy Plugin)
-#: rc.cpp:832
+#: rc.cpp:860
 msgid "Drop messages that contain at least one of the following words."
 msgstr ""
 
@@ -13719,13 +13773,13 @@ msgstr ""
 #. i18n: ectx: label, entry (DropIfAny), group (Privacy Plugin)
 #. i18n: file: plugins/privacy/privacyconfig.kcfg:47
 #. i18n: ectx: label, entry (DropIfAll), group (Privacy Plugin)
-#: rc.cpp:835 rc.cpp:841
+#: rc.cpp:863 rc.cpp:869
 msgid "Words to look for."
 msgstr ""
 
 #. i18n: file: plugins/privacy/privacyconfig.kcfg:43
 #. i18n: ectx: label, entry (Content_DropIfAll), group (Privacy Plugin)
-#: rc.cpp:838
+#: rc.cpp:866
 msgid "Drop messages that contain all of the following words."
 msgstr ""
 
@@ -13745,63 +13799,9 @@ msgstr ""
 #. i18n: ectx: Menu (privacyMenu)
 #. i18n: file: protocols/wlm/ui/wlmaccountpreferences.ui:152
 #. i18n: ectx: attribute (title), widget (QWidget, tab_3)
-#: rc.cpp:844 rc.cpp:847 rc.cpp:850 rc.cpp:978
+#: rc.cpp:872 rc.cpp:875 rc.cpp:878 rc.cpp:978
 msgid "Privacy"
 msgstr "Veşartî"
-
-#. i18n: file: plugins/latex/latexprefsbase.ui:21
-#. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: rc.cpp:853
-msgid ""
-"The KopeteTeX plugin allows Kopete to render LaTeX formulas in the chat "
-"window. The sender must enclose the formula between two pairs of $ signs. "
-"ie: $$formula$$\n"
-"This plugin requires that the ImageMagick convert program be installed in "
-"order to work."
-msgstr ""
-
-#. i18n: file: plugins/latex/latexprefsbase.ui:31
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:857
-#, fuzzy
-msgid "Options"
-msgstr "Vebi&jêrk"
-
-#. i18n: file: plugins/latex/latexprefsbase.ui:41
-#. i18n: ectx: property (text), widget (QLabel, textLabel4)
-#: rc.cpp:860
-msgid "LaTeX include file:"
-msgstr ""
-
-#. i18n: file: plugins/latex/latexprefsbase.ui:55
-#. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#: rc.cpp:863
-msgid "Rendering resolution (DPI):"
-msgstr ""
-
-#. i18n: file: plugins/latex/latexprefsbase.ui:65
-#. i18n: ectx: property (text), widget (QLabel, textLabel3)
-#: rc.cpp:866
-msgid "x"
-msgstr "x"
-
-#. i18n: file: plugins/latex/latexconfig.kcfg:11
-#. i18n: ectx: label, entry (HorizontalDPI), group (Latex Plugin)
-#: rc.cpp:869
-msgid "Horizontal Rendering Resolution (DPI)."
-msgstr ""
-
-#. i18n: file: plugins/latex/latexconfig.kcfg:15
-#. i18n: ectx: label, entry (VerticalDPI), group (Latex Plugin)
-#: rc.cpp:872
-msgid "Vertical Rendering Resolution (DPI)."
-msgstr ""
-
-#. i18n: file: plugins/latex/latexconfig.kcfg:19
-#. i18n: ectx: label, entry (LatexIncludeFile), group (Latex Plugin)
-#: rc.cpp:875
-msgid "Latex Include File."
-msgstr ""
 
 #. i18n: file: protocols/wlm/ui/wlmaddui.ui:17
 #. i18n: ectx: property (toolTip), widget (QLabel, textLabel1)
@@ -13995,7 +13995,7 @@ msgstr "Tercîhên Hesêb -AIM"
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
 #. i18n: file: protocols/bonjour/bonjouraccountpreferences.ui:35
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: rc.cpp:942 rc.cpp:1643 rc.cpp:2312 rc.cpp:2504 rc.cpp:4271 rc.cpp:4818
+#: rc.cpp:942 rc.cpp:1643 rc.cpp:2312 rc.cpp:2495 rc.cpp:4271 rc.cpp:4818
 #: rc.cpp:5025
 msgid "B&asic Setup"
 msgstr ""
@@ -14052,8 +14052,8 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox59)
 #. i18n: file: protocols/bonjour/bonjouraccountpreferences.ui:56
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:945 rc.cpp:1208 rc.cpp:1646 rc.cpp:2001 rc.cpp:2126 rc.cpp:2315
-#: rc.cpp:2507 rc.cpp:3165 rc.cpp:3493 rc.cpp:4274 rc.cpp:4391 rc.cpp:4821
+#: rc.cpp:945 rc.cpp:1133 rc.cpp:1646 rc.cpp:2001 rc.cpp:2126 rc.cpp:2315
+#: rc.cpp:2498 rc.cpp:3165 rc.cpp:3493 rc.cpp:4274 rc.cpp:4391 rc.cpp:4821
 #: rc.cpp:5028
 msgid "Account Information"
 msgstr "Agahiya Hesêb"
@@ -14090,8 +14090,8 @@ msgstr "Agahiya Hesêb"
 #. i18n: ectx: property (toolTip), widget (QLineEdit, userId)
 #. i18n: file: protocols/groupwise/ui/gwaccountpreferences.ui:119
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, userId)
-#: rc.cpp:948 rc.cpp:951 rc.cpp:957 rc.cpp:960 rc.cpp:2510 rc.cpp:2513
-#: rc.cpp:2519 rc.cpp:2522
+#: rc.cpp:948 rc.cpp:951 rc.cpp:957 rc.cpp:960 rc.cpp:2501 rc.cpp:2504
+#: rc.cpp:2510 rc.cpp:2513
 msgid "The account name of your account."
 msgstr ""
 
@@ -14158,7 +14158,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, mAutoConnect)
 #. i18n: file: protocols/irc/ui/irceditaccount.ui:342
 #. i18n: ectx: property (text), widget (QCheckBox, autoConnect)
-#: rc.cpp:966 rc.cpp:1229 rc.cpp:1667 rc.cpp:2022 rc.cpp:2528 rc.cpp:3186
+#: rc.cpp:966 rc.cpp:1154 rc.cpp:1667 rc.cpp:2022 rc.cpp:2519 rc.cpp:3186
 #: rc.cpp:3514 rc.cpp:3994 rc.cpp:4295 rc.cpp:4878
 msgid "E&xclude from connect all"
 msgstr ""
@@ -14191,7 +14191,7 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, registrationGroupBox)
 #. i18n: file: protocols/oscar/icq/ui/icqeditaccountui.ui:109
 #. i18n: ectx: property (title), widget (QGroupBox, registrationGroupBox)
-#: rc.cpp:969 rc.cpp:1232 rc.cpp:1670 rc.cpp:2028 rc.cpp:3189 rc.cpp:3484
+#: rc.cpp:969 rc.cpp:1157 rc.cpp:1670 rc.cpp:2028 rc.cpp:3189 rc.cpp:3484
 #: rc.cpp:3997
 msgid "Registration"
 msgstr "Tomarkirin"
@@ -14648,7 +14648,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #. i18n: file: protocols/yahoo/ui/yahooeditaccountbase.ui:109
 #. i18n: ectx: property (text), widget (QLabel, label1)
-#: rc.cpp:1115 rc.cpp:1217
+#: rc.cpp:1115 rc.cpp:1142
 msgid "&Yahoo username:"
 msgstr "Navê Bikarhênerê &Yahoo:"
 
@@ -14658,284 +14658,9 @@ msgstr "Navê Bikarhênerê &Yahoo:"
 msgid "<i>(for example: joe8752)</i>"
 msgstr "<i>(wekî mînak: kurdistana-azad)</i>"
 
-#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:38
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
-#: rc.cpp:1127
-msgid "Contact Information"
-msgstr ""
-
-#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:50
-#. i18n: ectx: property (text), widget (QLabel, textLabel9_3)
-#: rc.cpp:1130
-msgid "Email &3:"
-msgstr ""
-
-#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:67
-#. i18n: ectx: property (text), widget (QLabel, textLabel9)
-#. i18n: file: protocols/oscar/icq/ui/icqsearchbase.ui:67
-#. i18n: ectx: property (text), widget (QLabel, textLabel6)
-#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:67
-#. i18n: ectx: property (text), widget (QLabel, textLabel9)
-#. i18n: file: protocols/oscar/icq/ui/icqsearchbase.ui:67
-#. i18n: ectx: property (text), widget (QLabel, textLabel6)
-#: rc.cpp:1133 rc.cpp:3822
-msgid "&Email:"
-msgstr ""
-
-#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:90
-#. i18n: ectx: property (text), widget (QLabel, textLabel6_2_2)
-#: rc.cpp:1136
-msgid "Pager:"
-msgstr ""
-
-#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:123
-#. i18n: ectx: property (text), widget (QLabel, textLabel9_2)
-#: rc.cpp:1139
-msgid "Email &2:"
-msgstr ""
-
-#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:133
-#. i18n: ectx: property (text), widget (QLabel, textLabel7_2)
-#. i18n: file: protocols/oscar/icq/ui/icqhomeinfowidget.ui:206
-#. i18n: ectx: property (text), widget (QLabel, textLabel7_2)
-#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:133
-#. i18n: ectx: property (text), widget (QLabel, textLabel7_2)
-#. i18n: file: protocols/oscar/icq/ui/icqhomeinfowidget.ui:206
-#. i18n: ectx: property (text), widget (QLabel, textLabel7_2)
-#: rc.cpp:1142 rc.cpp:3924
-msgid "Fa&x:"
-msgstr "&Faks:"
-
-#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:156
-#. i18n: ectx: property (text), widget (QLabel, textLabel5)
-#. i18n: file: protocols/oscar/icq/ui/icqhomeinfowidget.ui:163
-#. i18n: ectx: property (text), widget (QLabel, textLabel5)
-#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:156
-#. i18n: ectx: property (text), widget (QLabel, textLabel5)
-#. i18n: file: protocols/oscar/icq/ui/icqhomeinfowidget.ui:163
-#. i18n: ectx: property (text), widget (QLabel, textLabel5)
-#: rc.cpp:1145 rc.cpp:3918
-msgid "&Phone:"
-msgstr "&Telefon"
-
-#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:166
-#. i18n: ectx: property (text), widget (QLabel, textLabel6_2_2_2)
-#: rc.cpp:1148
-msgid "Additional:"
-msgstr ""
-
-#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:202
-#. i18n: ectx: property (text), widget (QLabel, textLabel10_2)
-#. i18n: file: protocols/oscar/icq/ui/icqhomeinfowidget.ui:223
-#. i18n: ectx: property (text), widget (QLabel, textLabel10_2)
-#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:202
-#. i18n: ectx: property (text), widget (QLabel, textLabel10_2)
-#. i18n: file: protocols/oscar/icq/ui/icqhomeinfowidget.ui:223
-#. i18n: ectx: property (text), widget (QLabel, textLabel10_2)
-#: rc.cpp:1151 rc.cpp:3927
-msgid "&Homepage:"
-msgstr ""
-
-#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:212
-#. i18n: ectx: property (text), widget (QLabel, textLabel6_2)
-#. i18n: file: protocols/oscar/icq/ui/icqhomeinfowidget.ui:183
-#. i18n: ectx: property (text), widget (QLabel, textLabel6_2)
-#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:212
-#. i18n: ectx: property (text), widget (QLabel, textLabel6_2)
-#. i18n: file: protocols/oscar/icq/ui/icqhomeinfowidget.ui:183
-#. i18n: ectx: property (text), widget (QLabel, textLabel6_2)
-#: rc.cpp:1154 rc.cpp:3921
-msgid "Ce&ll:"
-msgstr ""
-
-#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:251
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: rc.cpp:1157
-msgid "Location Information"
-msgstr ""
-
-#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:279
-#. i18n: ectx: property (text), widget (QLabel, textLabel4)
-#. i18n: file: protocols/oscar/icq/ui/icqhomeinfowidget.ui:101
-#. i18n: ectx: property (text), widget (QLabel, textLabel4)
-#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:279
-#. i18n: ectx: property (text), widget (QLabel, textLabel4)
-#. i18n: file: protocols/oscar/icq/ui/icqhomeinfowidget.ui:101
-#. i18n: ectx: property (text), widget (QLabel, textLabel4)
-#: rc.cpp:1160 rc.cpp:3909
-msgid "&State:"
-msgstr ""
-
-#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:289
-#. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#. i18n: file: protocols/oscar/icq/ui/icqhomeinfowidget.ui:55
-#. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:289
-#. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#. i18n: file: protocols/oscar/icq/ui/icqhomeinfowidget.ui:55
-#. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: rc.cpp:1163 rc.cpp:3903
-msgid "&Address:"
-msgstr "&Navnîşan:"
-
-#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:299
-#. i18n: ectx: property (text), widget (QLabel, textLabel8)
-#. i18n: file: protocols/oscar/icq/ui/icqhomeinfowidget.ui:150
-#. i18n: ectx: property (text), widget (QLabel, textLabel8)
-#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:299
-#. i18n: ectx: property (text), widget (QLabel, textLabel8)
-#. i18n: file: protocols/oscar/icq/ui/icqhomeinfowidget.ui:150
-#. i18n: ectx: property (text), widget (QLabel, textLabel8)
-#: rc.cpp:1166 rc.cpp:3915
-msgid "Countr&y:"
-msgstr "Wel&at:"
-
-#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:338
-#. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#. i18n: file: protocols/oscar/icq/ui/icqsearchbase.ui:106
-#. i18n: ectx: property (text), widget (QLabel, textLabel10)
-#. i18n: file: protocols/oscar/icq/ui/icqhomeinfowidget.ui:78
-#. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:338
-#. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#. i18n: file: protocols/oscar/icq/ui/icqsearchbase.ui:106
-#. i18n: ectx: property (text), widget (QLabel, textLabel10)
-#. i18n: file: protocols/oscar/icq/ui/icqhomeinfowidget.ui:78
-#. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#: rc.cpp:1169 rc.cpp:3831 rc.cpp:3906
-msgid "&City:"
-msgstr ""
-
-#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:348
-#. i18n: ectx: property (text), widget (QLabel, textLabel3)
-#. i18n: file: protocols/oscar/icq/ui/icqhomeinfowidget.ui:124
-#. i18n: ectx: property (text), widget (QLabel, textLabel3)
-#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:348
-#. i18n: ectx: property (text), widget (QLabel, textLabel3)
-#. i18n: file: protocols/oscar/icq/ui/icqhomeinfowidget.ui:124
-#. i18n: ectx: property (text), widget (QLabel, textLabel3)
-#: rc.cpp:1172 rc.cpp:3912
-msgid "&Zip:"
-msgstr ""
-
-#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:384
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#. i18n: file: protocols/oscar/icq/ui/icqgeneralinfo.ui:28
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:384
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#. i18n: file: protocols/oscar/icq/ui/icqgeneralinfo.ui:28
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:1175 rc.cpp:3756
-msgid "Personal Information"
-msgstr "Agahiya Şexsî"
-
-#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:417
-#. i18n: ectx: property (text), widget (QLabel, LastNameLabel)
-#. i18n: file: protocols/groupwise/ui/gwcontactprops.ui:147
-#. i18n: ectx: property (text), widget (QLabel, textLabel11)
-#. i18n: file: protocols/bonjour/bonjouraccountpreferences.ui:119
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#. i18n: file: kopete/contactlist/kopeteaddrbookexportui.ui:117
-#. i18n: ectx: property (text), widget (QLabel, mLblLastName)
-#. i18n: file: kopete/identity/identitygeneral.ui:184
-#. i18n: ectx: property (text), widget (QLabel, lastNameLabel)
-#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:417
-#. i18n: ectx: property (text), widget (QLabel, LastNameLabel)
-#. i18n: file: protocols/groupwise/ui/gwcontactprops.ui:147
-#. i18n: ectx: property (text), widget (QLabel, textLabel11)
-#. i18n: file: protocols/bonjour/bonjouraccountpreferences.ui:119
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#. i18n: file: kopete/contactlist/kopeteaddrbookexportui.ui:117
-#. i18n: ectx: property (text), widget (QLabel, mLblLastName)
-#. i18n: file: kopete/identity/identitygeneral.ui:184
-#. i18n: ectx: property (text), widget (QLabel, lastNameLabel)
-#: rc.cpp:1178 rc.cpp:2591 rc.cpp:5049 rc.cpp:5118 rc.cpp:5289
-msgid "Last name:"
-msgstr "Paşnav:"
-
-#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:457
-#. i18n: ectx: property (text), widget (QLabel, birthdayLabel_2)
-#: rc.cpp:1181
-msgid "Anniversary:"
-msgstr "Salvegerî:"
-
-#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:480
-#. i18n: ectx: property (text), widget (QLabel, fullNameLabel_2)
-#. i18n: file: protocols/groupwise/ui/gwcontactprops.ui:111
-#. i18n: ectx: property (text), widget (QLabel, textLabel10)
-#. i18n: file: protocols/bonjour/bonjouraccountpreferences.ui:91
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#. i18n: file: kopete/contactlist/kopeteaddrbookexportui.ui:37
-#. i18n: ectx: property (text), widget (QLabel, mLblFirstName)
-#. i18n: file: kopete/identity/identitygeneral.ui:165
-#. i18n: ectx: property (text), widget (QLabel, firstNameLabel)
-#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:480
-#. i18n: ectx: property (text), widget (QLabel, fullNameLabel_2)
-#. i18n: file: protocols/groupwise/ui/gwcontactprops.ui:111
-#. i18n: ectx: property (text), widget (QLabel, textLabel10)
-#. i18n: file: protocols/bonjour/bonjouraccountpreferences.ui:91
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#. i18n: file: kopete/contactlist/kopeteaddrbookexportui.ui:37
-#. i18n: ectx: property (text), widget (QLabel, mLblFirstName)
-#. i18n: file: kopete/identity/identitygeneral.ui:165
-#. i18n: ectx: property (text), widget (QLabel, firstNameLabel)
-#: rc.cpp:1184 rc.cpp:2582 rc.cpp:5037 rc.cpp:5103 rc.cpp:5286
-msgid "First name:"
-msgstr ""
-
-#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:490
-#. i18n: ectx: property (text), widget (QLabel, birthdayLabel)
-#. i18n: file: protocols/jabber/ui/dlgvcard.ui:110
-#. i18n: ectx: property (text), widget (QLabel, lblBirthday)
-#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:490
-#. i18n: ectx: property (text), widget (QLabel, birthdayLabel)
-#. i18n: file: protocols/jabber/ui/dlgvcard.ui:110
-#. i18n: ectx: property (text), widget (QLabel, lblBirthday)
-#: rc.cpp:1187 rc.cpp:3032
-msgid "Birthday:"
-msgstr "Rojbûn:"
-
-#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:513
-#. i18n: ectx: property (text), widget (QLabel, yahooIdLabel)
-#: rc.cpp:1190
-msgid "Yahoo ID:"
-msgstr "ID'a Yahoo:"
-
-#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:523
-#. i18n: ectx: property (text), widget (QLabel, fullNameLabel_2_2)
-#: rc.cpp:1193
-msgid "Second name:"
-msgstr ""
-
-#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:533
-#. i18n: ectx: property (text), widget (QLabel, nickNameLabel)
-#. i18n: file: protocols/oscar/icq/ui/icqgeneralinfo.ui:71
-#. i18n: ectx: property (text), widget (QLabel, nickNameLabel)
-#. i18n: file: protocols/oscar/icq/ui/icqsearchbase.ui:41
-#. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:533
-#. i18n: ectx: property (text), widget (QLabel, nickNameLabel)
-#. i18n: file: protocols/oscar/icq/ui/icqgeneralinfo.ui:71
-#. i18n: ectx: property (text), widget (QLabel, nickNameLabel)
-#. i18n: file: protocols/oscar/icq/ui/icqsearchbase.ui:41
-#. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#: rc.cpp:1196 rc.cpp:3765 rc.cpp:3816
-msgid "&Nickname:"
-msgstr "&Bernav:"
-
-#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:543
-#. i18n: ectx: property (text), widget (QLabel, yahooIdLabel_2)
-#: rc.cpp:1199
-#, fuzzy
-#| msgid "Title:"
-msgctxt "Person's name suffix or prefix"
-msgid "Title:"
-msgstr "Sernav:"
-
 #. i18n: file: protocols/yahoo/ui/yahooeditaccountbase.ui:13
 #. i18n: ectx: property (windowTitle), widget (QWidget, YahooEditAccountBase)
-#: rc.cpp:1202
+#: rc.cpp:1127
 msgid "Account Preferences - Yahoo"
 msgstr "Tercîhên Hesêb - Yahoo"
 
@@ -14959,7 +14684,7 @@ msgstr "Tercîhên Hesêb - Yahoo"
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
 #. i18n: file: protocols/skype/ui/skypeeditaccountbase.ui:21
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: rc.cpp:1205 rc.cpp:1998 rc.cpp:3162 rc.cpp:3481 rc.cpp:4388
+#: rc.cpp:1130 rc.cpp:1998 rc.cpp:3162 rc.cpp:3481 rc.cpp:4388
 msgid "&Basic Setup"
 msgstr "Sazkirina &Bingehîn"
 
@@ -14971,7 +14696,7 @@ msgstr "Sazkirina &Bingehîn"
 #. i18n: ectx: property (toolTip), widget (QLabel, label1)
 #. i18n: file: protocols/yahoo/ui/yahooeditaccountbase.ui:119
 #. i18n: ectx: property (toolTip), widget (QLineEdit, mScreenName)
-#: rc.cpp:1211 rc.cpp:1220
+#: rc.cpp:1136 rc.cpp:1145
 msgid "The account name of your Yahoo account."
 msgstr ""
 
@@ -14983,7 +14708,7 @@ msgstr ""
 #. i18n: ectx: property (whatsThis), widget (QLabel, label1)
 #. i18n: file: protocols/yahoo/ui/yahooeditaccountbase.ui:122
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, mScreenName)
-#: rc.cpp:1214 rc.cpp:1223
+#: rc.cpp:1139 rc.cpp:1148
 msgid ""
 "The account name of your Yahoo account.  This should be in the form of an "
 "alphanumeric string (no spaces)."
@@ -15001,7 +14726,7 @@ msgstr ""
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, cbAutoConnect)
 #. i18n: file: protocols/meanwhile/ui/meanwhileeditaccount.ui:83
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, mAutoConnect)
-#: rc.cpp:1226 rc.cpp:3183 rc.cpp:4292
+#: rc.cpp:1151 rc.cpp:3183 rc.cpp:4292
 msgid ""
 "Check to disable automatic connection.  If checked, you can connect manually "
 "to this account, using the icon at the bottom of the main Kopete window"
@@ -15009,7 +14734,7 @@ msgstr ""
 
 #. i18n: file: protocols/yahoo/ui/yahooeditaccountbase.ui:183
 #. i18n: ectx: property (text), widget (QLabel, textLabel6)
-#: rc.cpp:1235
+#: rc.cpp:1160
 msgid ""
 "To connect to the Yahoo network, you will need a Yahoo account.<br><br>If "
 "you do not currently have a Yahoo account, please click the button to create "
@@ -15040,19 +14765,19 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QPushButton, btnRegister)
 #. i18n: file: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:160
 #. i18n: ectx: property (whatsThis), widget (QPushButton, btnRegister)
-#: rc.cpp:1238 rc.cpp:1241 rc.cpp:1677 rc.cpp:1680 rc.cpp:3192 rc.cpp:3195
+#: rc.cpp:1163 rc.cpp:1166 rc.cpp:1677 rc.cpp:1680 rc.cpp:3192 rc.cpp:3195
 msgid "Register a new account on this network."
 msgstr "Li ser vê pêşkêşkerê tomarî hesabekî nû bibe."
 
 #. i18n: file: protocols/yahoo/ui/yahooeditaccountbase.ui:218
 #. i18n: ectx: property (text), widget (QPushButton, buttonRegister)
-#: rc.cpp:1244
+#: rc.cpp:1169
 msgid "Register &New Account"
 msgstr "Tomarî Hesabê &Nû Bibe"
 
 #. i18n: file: protocols/yahoo/ui/yahooeditaccountbase.ui:258
 #. i18n: ectx: attribute (title), widget (QWidget, TabPage)
-#: rc.cpp:1247
+#: rc.cpp:1172
 msgid "Accoun&t Preferences"
 msgstr "Tercî&hên Hesêb"
 
@@ -15088,14 +14813,14 @@ msgstr "Tercî&hên Hesêb"
 #. i18n: ectx: property (title), widget (Q3GroupBox, groupBox54)
 #. i18n: file: protocols/irc/ui/irceditaccount.ui:288
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
-#: rc.cpp:1250 rc.cpp:1689 rc.cpp:2042 rc.cpp:3216 rc.cpp:3520 rc.cpp:4049
+#: rc.cpp:1175 rc.cpp:1689 rc.cpp:2042 rc.cpp:3216 rc.cpp:3520 rc.cpp:4049
 #: rc.cpp:4301 rc.cpp:4869
 msgid "Connection Preferences"
 msgstr "Tercîhên Girêdanê"
 
 #. i18n: file: protocols/yahoo/ui/yahooeditaccountbase.ui:300
 #. i18n: ectx: property (text), widget (QCheckBox, optionOverrideServer)
-#: rc.cpp:1253
+#: rc.cpp:1178
 msgid "O&verride default server information"
 msgstr ""
 
@@ -15107,7 +14832,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QLabel, lblServer)
 #. i18n: file: protocols/yahoo/ui/yahooeditaccountbase.ui:365
 #. i18n: ectx: property (toolTip), widget (QLineEdit, editServerAddress)
-#: rc.cpp:1256 rc.cpp:1265
+#: rc.cpp:1181 rc.cpp:1190
 msgid "The IP address or hostmask of the Yahoo server you wish to connect to."
 msgstr ""
 
@@ -15119,7 +14844,7 @@ msgstr ""
 #. i18n: ectx: property (whatsThis), widget (QLabel, lblServer)
 #. i18n: file: protocols/yahoo/ui/yahooeditaccountbase.ui:368
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, editServerAddress)
-#: rc.cpp:1259 rc.cpp:1268
+#: rc.cpp:1184 rc.cpp:1193
 msgid ""
 "The IP address or hostmask of the Yahoo server you wish to connect to.  "
 "Normally you will want the default (scs.msg.yahoo.com)."
@@ -15145,19 +14870,19 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, lblServer)
 #. i18n: file: protocols/meanwhile/ui/meanwhileeditaccount.ui:125
 #. i18n: ectx: property (text), widget (QLabel, lblServer)
-#: rc.cpp:1262 rc.cpp:2537 rc.cpp:3240 rc.cpp:3532 rc.cpp:4310
+#: rc.cpp:1187 rc.cpp:2528 rc.cpp:3240 rc.cpp:3532 rc.cpp:4310
 msgid "Ser&ver:"
 msgstr "Pêş&kêşker:"
 
 #. i18n: file: protocols/yahoo/ui/yahooeditaccountbase.ui:371
 #. i18n: ectx: property (text), widget (QLineEdit, editServerAddress)
-#: rc.cpp:1271
+#: rc.cpp:1196
 msgid "scs.msg.yahoo.com"
 msgstr "scs.msg.yahoo.com"
 
 #. i18n: file: protocols/yahoo/ui/yahooeditaccountbase.ui:381
 #. i18n: ectx: property (toolTip), widget (QLabel, lblPort)
-#: rc.cpp:1274
+#: rc.cpp:1199
 msgid "The port on the Yahoo server that you would like to connect to."
 msgstr ""
 
@@ -15169,7 +14894,7 @@ msgstr ""
 #. i18n: ectx: property (whatsThis), widget (QLabel, lblPort)
 #. i18n: file: protocols/yahoo/ui/yahooeditaccountbase.ui:403
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, sbxServerPort)
-#: rc.cpp:1277 rc.cpp:1286
+#: rc.cpp:1202 rc.cpp:1211
 msgid ""
 "The port on the Yahoo server that you would like to connect to.  Normally "
 "this is 5050, but Yahoo also allows port 80 in case you are behind a "
@@ -15178,33 +14903,308 @@ msgstr ""
 
 #. i18n: file: protocols/yahoo/ui/yahooeditaccountbase.ui:387
 #. i18n: ectx: property (text), widget (QLabel, lblPort)
-#: rc.cpp:1280
+#: rc.cpp:1205
 msgid "P&ort:"
 msgstr "P&ort:"
 
 #. i18n: file: protocols/yahoo/ui/yahooeditaccountbase.ui:400
 #. i18n: ectx: property (toolTip), widget (QSpinBox, sbxServerPort)
-#: rc.cpp:1283
+#: rc.cpp:1208
 msgid "The port on the Yahoo server that you would like to connect  to."
 msgstr ""
 
 #. i18n: file: protocols/yahoo/ui/yahooeditaccountbase.ui:424
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
-#: rc.cpp:1289
+#: rc.cpp:1214
 msgid "Buddy Icon"
 msgstr ""
 
 #. i18n: file: protocols/yahoo/ui/yahooeditaccountbase.ui:465
 #. i18n: ectx: property (text), widget (QCheckBox, optionSendBuddyIcon)
-#: rc.cpp:1292
+#: rc.cpp:1217
 msgid "Se&nd buddy icon to other users"
 msgstr ""
 
 #. i18n: file: protocols/yahoo/ui/yahooeditaccountbase.ui:508
 #. i18n: ectx: property (text), widget (QPushButton, buttonSelectPicture)
-#: rc.cpp:1295
+#: rc.cpp:1220
 msgid "Select Picture..."
 msgstr "Wêne Hilbijêre..."
+
+#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:38
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: rc.cpp:1223
+msgid "Contact Information"
+msgstr ""
+
+#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:50
+#. i18n: ectx: property (text), widget (QLabel, textLabel9_3)
+#: rc.cpp:1226
+msgid "Email &3:"
+msgstr ""
+
+#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:67
+#. i18n: ectx: property (text), widget (QLabel, textLabel9)
+#. i18n: file: protocols/oscar/icq/ui/icqsearchbase.ui:67
+#. i18n: ectx: property (text), widget (QLabel, textLabel6)
+#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:67
+#. i18n: ectx: property (text), widget (QLabel, textLabel9)
+#. i18n: file: protocols/oscar/icq/ui/icqsearchbase.ui:67
+#. i18n: ectx: property (text), widget (QLabel, textLabel6)
+#: rc.cpp:1229 rc.cpp:3822
+msgid "&Email:"
+msgstr ""
+
+#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:90
+#. i18n: ectx: property (text), widget (QLabel, textLabel6_2_2)
+#: rc.cpp:1232
+msgid "Pager:"
+msgstr ""
+
+#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:123
+#. i18n: ectx: property (text), widget (QLabel, textLabel9_2)
+#: rc.cpp:1235
+msgid "Email &2:"
+msgstr ""
+
+#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:133
+#. i18n: ectx: property (text), widget (QLabel, textLabel7_2)
+#. i18n: file: protocols/oscar/icq/ui/icqhomeinfowidget.ui:206
+#. i18n: ectx: property (text), widget (QLabel, textLabel7_2)
+#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:133
+#. i18n: ectx: property (text), widget (QLabel, textLabel7_2)
+#. i18n: file: protocols/oscar/icq/ui/icqhomeinfowidget.ui:206
+#. i18n: ectx: property (text), widget (QLabel, textLabel7_2)
+#: rc.cpp:1238 rc.cpp:3924
+msgid "Fa&x:"
+msgstr "&Faks:"
+
+#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:156
+#. i18n: ectx: property (text), widget (QLabel, textLabel5)
+#. i18n: file: protocols/oscar/icq/ui/icqhomeinfowidget.ui:163
+#. i18n: ectx: property (text), widget (QLabel, textLabel5)
+#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:156
+#. i18n: ectx: property (text), widget (QLabel, textLabel5)
+#. i18n: file: protocols/oscar/icq/ui/icqhomeinfowidget.ui:163
+#. i18n: ectx: property (text), widget (QLabel, textLabel5)
+#: rc.cpp:1241 rc.cpp:3918
+msgid "&Phone:"
+msgstr "&Telefon"
+
+#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:166
+#. i18n: ectx: property (text), widget (QLabel, textLabel6_2_2_2)
+#: rc.cpp:1244
+msgid "Additional:"
+msgstr ""
+
+#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:202
+#. i18n: ectx: property (text), widget (QLabel, textLabel10_2)
+#. i18n: file: protocols/oscar/icq/ui/icqhomeinfowidget.ui:223
+#. i18n: ectx: property (text), widget (QLabel, textLabel10_2)
+#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:202
+#. i18n: ectx: property (text), widget (QLabel, textLabel10_2)
+#. i18n: file: protocols/oscar/icq/ui/icqhomeinfowidget.ui:223
+#. i18n: ectx: property (text), widget (QLabel, textLabel10_2)
+#: rc.cpp:1247 rc.cpp:3927
+msgid "&Homepage:"
+msgstr ""
+
+#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:212
+#. i18n: ectx: property (text), widget (QLabel, textLabel6_2)
+#. i18n: file: protocols/oscar/icq/ui/icqhomeinfowidget.ui:183
+#. i18n: ectx: property (text), widget (QLabel, textLabel6_2)
+#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:212
+#. i18n: ectx: property (text), widget (QLabel, textLabel6_2)
+#. i18n: file: protocols/oscar/icq/ui/icqhomeinfowidget.ui:183
+#. i18n: ectx: property (text), widget (QLabel, textLabel6_2)
+#: rc.cpp:1250 rc.cpp:3921
+msgid "Ce&ll:"
+msgstr ""
+
+#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:251
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: rc.cpp:1253
+msgid "Location Information"
+msgstr ""
+
+#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:279
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#. i18n: file: protocols/oscar/icq/ui/icqhomeinfowidget.ui:101
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:279
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#. i18n: file: protocols/oscar/icq/ui/icqhomeinfowidget.ui:101
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#: rc.cpp:1256 rc.cpp:3909
+msgid "&State:"
+msgstr ""
+
+#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:289
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#. i18n: file: protocols/oscar/icq/ui/icqhomeinfowidget.ui:55
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:289
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#. i18n: file: protocols/oscar/icq/ui/icqhomeinfowidget.ui:55
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:1259 rc.cpp:3903
+msgid "&Address:"
+msgstr "&Navnîşan:"
+
+#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:299
+#. i18n: ectx: property (text), widget (QLabel, textLabel8)
+#. i18n: file: protocols/oscar/icq/ui/icqhomeinfowidget.ui:150
+#. i18n: ectx: property (text), widget (QLabel, textLabel8)
+#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:299
+#. i18n: ectx: property (text), widget (QLabel, textLabel8)
+#. i18n: file: protocols/oscar/icq/ui/icqhomeinfowidget.ui:150
+#. i18n: ectx: property (text), widget (QLabel, textLabel8)
+#: rc.cpp:1262 rc.cpp:3915
+msgid "Countr&y:"
+msgstr "Wel&at:"
+
+#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:338
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#. i18n: file: protocols/oscar/icq/ui/icqsearchbase.ui:106
+#. i18n: ectx: property (text), widget (QLabel, textLabel10)
+#. i18n: file: protocols/oscar/icq/ui/icqhomeinfowidget.ui:78
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:338
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#. i18n: file: protocols/oscar/icq/ui/icqsearchbase.ui:106
+#. i18n: ectx: property (text), widget (QLabel, textLabel10)
+#. i18n: file: protocols/oscar/icq/ui/icqhomeinfowidget.ui:78
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: rc.cpp:1265 rc.cpp:3831 rc.cpp:3906
+msgid "&City:"
+msgstr ""
+
+#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:348
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#. i18n: file: protocols/oscar/icq/ui/icqhomeinfowidget.ui:124
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:348
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#. i18n: file: protocols/oscar/icq/ui/icqhomeinfowidget.ui:124
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: rc.cpp:1268 rc.cpp:3912
+msgid "&Zip:"
+msgstr ""
+
+#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:384
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#. i18n: file: protocols/oscar/icq/ui/icqgeneralinfo.ui:28
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:384
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#. i18n: file: protocols/oscar/icq/ui/icqgeneralinfo.ui:28
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:1271 rc.cpp:3756
+msgid "Personal Information"
+msgstr "Agahiya Şexsî"
+
+#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:417
+#. i18n: ectx: property (text), widget (QLabel, LastNameLabel)
+#. i18n: file: protocols/groupwise/ui/gwcontactprops.ui:147
+#. i18n: ectx: property (text), widget (QLabel, textLabel11)
+#. i18n: file: protocols/bonjour/bonjouraccountpreferences.ui:119
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: file: kopete/contactlist/kopeteaddrbookexportui.ui:117
+#. i18n: ectx: property (text), widget (QLabel, mLblLastName)
+#. i18n: file: kopete/identity/identitygeneral.ui:184
+#. i18n: ectx: property (text), widget (QLabel, lastNameLabel)
+#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:417
+#. i18n: ectx: property (text), widget (QLabel, LastNameLabel)
+#. i18n: file: protocols/groupwise/ui/gwcontactprops.ui:147
+#. i18n: ectx: property (text), widget (QLabel, textLabel11)
+#. i18n: file: protocols/bonjour/bonjouraccountpreferences.ui:119
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: file: kopete/contactlist/kopeteaddrbookexportui.ui:117
+#. i18n: ectx: property (text), widget (QLabel, mLblLastName)
+#. i18n: file: kopete/identity/identitygeneral.ui:184
+#. i18n: ectx: property (text), widget (QLabel, lastNameLabel)
+#: rc.cpp:1274 rc.cpp:2591 rc.cpp:5049 rc.cpp:5118 rc.cpp:5289
+msgid "Last name:"
+msgstr "Paşnav:"
+
+#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:457
+#. i18n: ectx: property (text), widget (QLabel, birthdayLabel_2)
+#: rc.cpp:1277
+msgid "Anniversary:"
+msgstr "Salvegerî:"
+
+#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:480
+#. i18n: ectx: property (text), widget (QLabel, fullNameLabel_2)
+#. i18n: file: protocols/groupwise/ui/gwcontactprops.ui:111
+#. i18n: ectx: property (text), widget (QLabel, textLabel10)
+#. i18n: file: protocols/bonjour/bonjouraccountpreferences.ui:91
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: file: kopete/contactlist/kopeteaddrbookexportui.ui:37
+#. i18n: ectx: property (text), widget (QLabel, mLblFirstName)
+#. i18n: file: kopete/identity/identitygeneral.ui:165
+#. i18n: ectx: property (text), widget (QLabel, firstNameLabel)
+#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:480
+#. i18n: ectx: property (text), widget (QLabel, fullNameLabel_2)
+#. i18n: file: protocols/groupwise/ui/gwcontactprops.ui:111
+#. i18n: ectx: property (text), widget (QLabel, textLabel10)
+#. i18n: file: protocols/bonjour/bonjouraccountpreferences.ui:91
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: file: kopete/contactlist/kopeteaddrbookexportui.ui:37
+#. i18n: ectx: property (text), widget (QLabel, mLblFirstName)
+#. i18n: file: kopete/identity/identitygeneral.ui:165
+#. i18n: ectx: property (text), widget (QLabel, firstNameLabel)
+#: rc.cpp:1280 rc.cpp:2582 rc.cpp:5037 rc.cpp:5103 rc.cpp:5286
+msgid "First name:"
+msgstr ""
+
+#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:490
+#. i18n: ectx: property (text), widget (QLabel, birthdayLabel)
+#. i18n: file: protocols/jabber/ui/dlgvcard.ui:110
+#. i18n: ectx: property (text), widget (QLabel, lblBirthday)
+#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:490
+#. i18n: ectx: property (text), widget (QLabel, birthdayLabel)
+#. i18n: file: protocols/jabber/ui/dlgvcard.ui:110
+#. i18n: ectx: property (text), widget (QLabel, lblBirthday)
+#: rc.cpp:1283 rc.cpp:3032
+msgid "Birthday:"
+msgstr "Rojbûn:"
+
+#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:513
+#. i18n: ectx: property (text), widget (QLabel, yahooIdLabel)
+#: rc.cpp:1286
+msgid "Yahoo ID:"
+msgstr "ID'a Yahoo:"
+
+#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:523
+#. i18n: ectx: property (text), widget (QLabel, fullNameLabel_2_2)
+#: rc.cpp:1289
+msgid "Second name:"
+msgstr ""
+
+#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:533
+#. i18n: ectx: property (text), widget (QLabel, nickNameLabel)
+#. i18n: file: protocols/oscar/icq/ui/icqgeneralinfo.ui:71
+#. i18n: ectx: property (text), widget (QLabel, nickNameLabel)
+#. i18n: file: protocols/oscar/icq/ui/icqsearchbase.ui:41
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:533
+#. i18n: ectx: property (text), widget (QLabel, nickNameLabel)
+#. i18n: file: protocols/oscar/icq/ui/icqgeneralinfo.ui:71
+#. i18n: ectx: property (text), widget (QLabel, nickNameLabel)
+#. i18n: file: protocols/oscar/icq/ui/icqsearchbase.ui:41
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: rc.cpp:1292 rc.cpp:3765 rc.cpp:3816
+msgid "&Nickname:"
+msgstr "&Bernav:"
+
+#. i18n: file: protocols/yahoo/ui/yahoogeneralinfowidget.ui:543
+#. i18n: ectx: property (text), widget (QLabel, yahooIdLabel_2)
+#: rc.cpp:1295
+#, fuzzy
+#| msgid "Title:"
+msgctxt "Person's name suffix or prefix"
+msgid "Title:"
+msgstr "Sernav:"
 
 #. i18n: file: protocols/yahoo/ui/yahoootherinfowidget.ui:60
 #. i18n: ectx: property (text), widget (QLabel, textLabel5)
@@ -17533,7 +17533,7 @@ msgstr ""
 
 #. i18n: file: protocols/groupwise/ui/gwaccountpreferences.ui:13
 #. i18n: ectx: property (windowTitle), widget (QWidget, GroupWiseAccountPreferences)
-#: rc.cpp:2501
+#: rc.cpp:2492
 msgid "Account Preferences - Groupwise"
 msgstr ""
 
@@ -17545,13 +17545,13 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #. i18n: file: protocols/meanwhile/ui/meanwhileaddcontact.ui:33
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: rc.cpp:2516 rc.cpp:4367
+#: rc.cpp:2507 rc.cpp:4367
 msgid "&User ID:"
 msgstr ""
 
 #. i18n: file: protocols/groupwise/ui/gwaccountpreferences.ui:131
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, autoConnect)
-#: rc.cpp:2525
+#: rc.cpp:2516
 msgid ""
 "Check to disable automatic connection.  If checked, you may connect to this "
 "account manually using the icon in the bottom of the main Kopete window"
@@ -17573,7 +17573,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QLabel, labelServer)
 #. i18n: file: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:394
 #. i18n: ectx: property (toolTip), widget (QLineEdit, mServer)
-#: rc.cpp:2531 rc.cpp:2540 rc.cpp:3234 rc.cpp:3243
+#: rc.cpp:2522 rc.cpp:2531 rc.cpp:3234 rc.cpp:3243
 msgid "The IP address or hostname of the server you would like to connect to."
 msgstr ""
 
@@ -17585,7 +17585,7 @@ msgstr ""
 #. i18n: ectx: property (whatsThis), widget (QLabel, labelServer)
 #. i18n: file: protocols/groupwise/ui/gwaccountpreferences.ui:211
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, server)
-#: rc.cpp:2534 rc.cpp:2543
+#: rc.cpp:2525 rc.cpp:2534
 msgid ""
 "The IP address or hostname of the server you would like to connect to (for "
 "example im.yourcorp.com)."
@@ -17607,7 +17607,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QLabel, labelPort)
 #. i18n: file: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:441
 #. i18n: ectx: property (toolTip), widget (QSpinBox, mPort)
-#: rc.cpp:2546 rc.cpp:2555 rc.cpp:3249 rc.cpp:3258
+#: rc.cpp:2537 rc.cpp:2546 rc.cpp:3249 rc.cpp:3258
 msgid "The port on the server that you would like to connect to."
 msgstr ""
 
@@ -17627,7 +17627,7 @@ msgstr ""
 #. i18n: ectx: property (whatsThis), widget (QLabel, labelPort)
 #. i18n: file: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:444
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, mPort)
-#: rc.cpp:2549 rc.cpp:2558 rc.cpp:3252 rc.cpp:3261
+#: rc.cpp:2540 rc.cpp:2549 rc.cpp:3252 rc.cpp:3261
 msgid ""
 "The port on the server that you would like to connect to (default is 5222)."
 msgstr ""
@@ -17656,13 +17656,13 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, lblProxyServerPort)
 #. i18n: file: protocols/meanwhile/ui/meanwhileeditaccount.ui:158
 #. i18n: ectx: property (text), widget (QLabel, lblPort)
-#: rc.cpp:2552 rc.cpp:3255 rc.cpp:3550 rc.cpp:4070 rc.cpp:4106 rc.cpp:4325
+#: rc.cpp:2543 rc.cpp:3255 rc.cpp:3550 rc.cpp:4070 rc.cpp:4106 rc.cpp:4325
 msgid "Po&rt:"
 msgstr ""
 
 #. i18n: file: protocols/groupwise/ui/gwaccountpreferences.ui:286
 #. i18n: ectx: attribute (title), widget (QWidget, TabPage)
-#: rc.cpp:2561
+#: rc.cpp:2552
 msgid "Advanced &Options"
 msgstr ""
 
@@ -17674,7 +17674,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, alwaysAccept)
 #. i18n: file: protocols/groupwise/ui/gwshowinvitation.ui:163
 #. i18n: ectx: property (text), widget (QCheckBox, cbDontShowAgain)
-#: rc.cpp:2564 rc.cpp:2708
+#: rc.cpp:2555 rc.cpp:2708
 msgid "A&lways accept invitations"
 msgstr ""
 
