@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: k3b\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-01-04 02:37+0100\n"
+"POT-Creation-Date: 2011-01-07 02:35+0100\n"
 "PO-Revision-Date: 2009-02-21 07:27+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -699,8 +699,8 @@ msgid "First-Last Sector"
 msgstr ""
 
 #: k3bdiskinfoview.cpp:256 rip/k3baudiorippingdialog.cpp:143
-#: rip/k3baudiotrackmodel.cpp:163 rip/k3bvideocdview.cpp:210
-#: rip/k3baudioprojectconvertingdialog.cpp:126
+#: rip/k3bvideocdview.cpp:210 rip/k3baudioprojectconvertingdialog.cpp:126
+#: rip/k3baudiotrackmodel.cpp:164
 msgid "Length"
 msgstr "Dirêjahî"
 
@@ -2916,7 +2916,7 @@ msgstr "Dirb"
 msgid "K3b GUI Themes"
 msgstr ""
 
-#: option/k3boptiondialog.cpp:192 rip/k3baudiocdview.cpp:450
+#: option/k3boptiondialog.cpp:192 rip/k3baudiocdview.cpp:470
 msgid "CDDB"
 msgstr "CDDB"
 
@@ -3089,7 +3089,7 @@ msgstr ""
 msgid "Used part of the audio source"
 msgstr ""
 
-#: projects/k3baudioprojectmodel.cpp:300 rip/k3baudiotrackmodel.cpp:157
+#: projects/k3baudioprojectmodel.cpp:300 rip/k3baudiotrackmodel.cpp:158
 msgctxt "audio track number"
 msgid "No."
 msgstr "Na."
@@ -5204,148 +5204,6 @@ msgstr "Rock"
 msgid "Soundtrack"
 msgstr "Muzîka Fîlm"
 
-#: rip/k3baudiocdview.cpp:154
-msgid "Searching for Artist information..."
-msgstr ""
-
-#: rip/k3baudiocdview.cpp:185
-#, kde-format
-msgid ""
-"Found Cd-Text (%1 - %2). Do you want to use it instead of CDDB (%3 - %4)?"
-msgstr ""
-
-#: rip/k3baudiocdview.cpp:190
-msgid "Found Cd-Text"
-msgstr "Nivîsa-Cd yê Hat Dîtin"
-
-#: rip/k3baudiocdview.cpp:191
-msgid "Use CD-Text"
-msgstr "Nivîsa-CD yê Bi Kar Bîne"
-
-#: rip/k3baudiocdview.cpp:192
-msgid "Use CDDB"
-msgstr "CDDB Bi Kar Bîne"
-
-#: rip/k3baudiocdview.cpp:217 rip/k3baudiorippingdialog.cpp:124
-#: rip/k3bvideocdview.cpp:366 rip/k3baudioprojectconvertingdialog.cpp:105
-#, kde-format
-msgid "1 track (%2)"
-msgid_plural "%1 tracks (%2)"
-msgstr[0] "1 stran (%2)"
-msgstr[1] "%1 stran (%2)"
-
-#: rip/k3baudiocdview.cpp:239
-msgid "Audio CD"
-msgstr "CD ya Deng"
-
-#: rip/k3baudiocdview.cpp:248 rip/k3bvideocdview.cpp:374
-#: rip/videodvd/k3bvideodvdrippingview.cpp:285
-msgid "Check All"
-msgstr "Hemûyan Hilbijêre"
-
-#: rip/k3baudiocdview.cpp:250 rip/k3bvideocdview.cpp:377
-#: rip/videodvd/k3bvideodvdrippingview.cpp:290
-msgid "Uncheck All"
-msgstr "Hemûyan Nehilbijartî Bike"
-
-#: rip/k3baudiocdview.cpp:252 rip/k3bvideocdview.cpp:380
-#: rip/videodvd/k3bvideodvdrippingview.cpp:295
-msgid "Check Track"
-msgstr "Stranan Nîşan Bike"
-
-#: rip/k3baudiocdview.cpp:254 rip/k3bvideocdview.cpp:383
-#: rip/videodvd/k3bvideodvdrippingview.cpp:300
-msgid "Uncheck Track"
-msgstr "Stranan Ne-Nîşankirî Bike"
-
-#: rip/k3baudiocdview.cpp:256
-#, fuzzy
-#| msgid "Edit Track cddb Info"
-msgid "Edit Track CDDB Info"
-msgstr "Agahiyên Strana cddb Serast Bike"
-
-#: rip/k3baudiocdview.cpp:258
-#, fuzzy
-#| msgid "Edit Album cddb Info"
-msgid "Edit Album CDDB Info"
-msgstr "Agahiyên Albûma cddb Serast Bike"
-
-#: rip/k3baudiocdview.cpp:260 rip/k3baudiorippingdialog.cpp:200
-#: rip/k3bvideocdrippingdialog.cpp:118 rip/k3bvideocdview.cpp:386
-#: rip/videodvd/k3bvideodvdrippingview.cpp:305
-msgid "Start Ripping"
-msgstr ""
-
-#: rip/k3baudiocdview.cpp:262
-#: ../plugins/project/audioprojectcddb/k3baudioprojectcddbplugin.cpp:49
-#, fuzzy
-#| msgid "Query Cddb"
-msgid "Query CDDB"
-msgstr "Cddb Rêz Bike"
-
-#: rip/k3baudiocdview.cpp:264
-#, fuzzy
-#| msgid "Save Cddb Entry Locally"
-msgid "Save CDDB Entry Locally"
-msgstr "Têketina Cddb Herêmî Tomar Bike"
-
-#: rip/k3baudiocdview.cpp:266
-#, fuzzy
-#| msgid "New &Data Project"
-msgid "Show Data Part"
-msgstr "Projeya Nû ya CD &Dane"
-
-#: rip/k3baudiocdview.cpp:268
-msgid "Mounts the data part of CD"
-msgstr ""
-
-#: rip/k3baudiocdview.cpp:305 rip/k3bvideocdview.cpp:452
-msgid "Please select the tracks to rip."
-msgstr ""
-
-#: rip/k3baudiocdview.cpp:306 rip/k3bvideocdview.cpp:452
-msgid "No Tracks Selected"
-msgstr ""
-
-#: rip/k3baudiocdview.cpp:326
-#, fuzzy, kde-format
-#| msgid "Cddb Track %1"
-msgid "CDDB Track %1"
-msgstr "Strana Cddb %1"
-
-#: rip/k3baudiocdview.cpp:341 rip/k3baudiocdview.cpp:403
-msgid "Title:"
-msgstr "Sernivîs:"
-
-#: rip/k3baudiocdview.cpp:344 rip/k3baudiocdview.cpp:405
-msgid "Artist:"
-msgstr "Hunermend:"
-
-#: rip/k3baudiocdview.cpp:346 rip/k3baudiocdview.cpp:407
-msgid "Extra info:"
-msgstr "Zêdetir Agahî"
-
-#: rip/k3baudiocdview.cpp:365
-msgid "Album Cddb"
-msgstr "Albûma Cddb"
-
-#: rip/k3baudiocdview.cpp:409
-msgid "Genre:"
-msgstr "Cure:"
-
-#: rip/k3baudiocdview.cpp:411
-msgid "Year:"
-msgstr "Sal:"
-
-#: rip/k3baudiocdview.cpp:414
-msgid "Category:"
-msgstr "Beş:"
-
-#: rip/k3baudiocdview.cpp:448
-#, kde-format
-msgid "Saved entry in category %1."
-msgstr "Têketinê di kategoriya %1 de hat tomar kirin. "
-
 #: rip/k3baudioconvertingoptionwidget.cpp:173
 msgid "Wave"
 msgstr "Bizava"
@@ -5353,6 +5211,14 @@ msgstr "Bizava"
 #: rip/k3baudiorippingdialog.cpp:123
 msgid "CD Ripping"
 msgstr ""
+
+#: rip/k3baudiorippingdialog.cpp:124 rip/k3bvideocdview.cpp:366
+#: rip/k3baudioprojectconvertingdialog.cpp:105 rip/k3baudiocdview.cpp:219
+#, kde-format
+msgid "1 track (%2)"
+msgid_plural "%1 tracks (%2)"
+msgstr[0] "1 stran (%2)"
+msgstr[1] "%1 stran (%2)"
 
 #: rip/k3baudiorippingdialog.cpp:144
 #: rip/videodvd/k3bvideodvdaudiomodel.cpp:259
@@ -5367,6 +5233,12 @@ msgstr "Nav-dana Pelê"
 
 #: rip/k3baudiorippingdialog.cpp:182
 msgid "Do not read pregaps"
+msgstr ""
+
+#: rip/k3baudiorippingdialog.cpp:200 rip/k3bvideocdrippingdialog.cpp:118
+#: rip/k3bvideocdview.cpp:386 rip/videodvd/k3bvideodvdrippingview.cpp:305
+#: rip/k3baudiocdview.cpp:262
+msgid "Start Ripping"
 msgstr ""
 
 #: rip/k3baudiorippingdialog.cpp:200
@@ -5431,15 +5303,6 @@ msgstr "Stran %1"
 #: rip/k3baudiorippingdialog.cpp:427 rip/k3bcddbpatternwidget.cpp:59
 msgid "Playlist"
 msgstr "Lîsteya lêdanê"
-
-#: rip/k3baudiotrackmodel.cpp:159
-msgid "Artist"
-msgstr "Hunermend"
-
-#: rip/k3baudiotrackmodel.cpp:161
-msgctxt "audio track title"
-msgid "Title"
-msgstr "Sernivîs"
 
 #: rip/k3bcddbpatternwidget.cpp:53
 #, fuzzy
@@ -5726,6 +5589,26 @@ msgstr "Pel"
 msgid "Segments"
 msgstr ""
 
+#: rip/k3bvideocdview.cpp:374 rip/videodvd/k3bvideodvdrippingview.cpp:285
+#: rip/k3baudiocdview.cpp:250
+msgid "Check All"
+msgstr "Hemûyan Hilbijêre"
+
+#: rip/k3bvideocdview.cpp:377 rip/videodvd/k3bvideodvdrippingview.cpp:290
+#: rip/k3baudiocdview.cpp:252
+msgid "Uncheck All"
+msgstr "Hemûyan Nehilbijartî Bike"
+
+#: rip/k3bvideocdview.cpp:380 rip/videodvd/k3bvideodvdrippingview.cpp:295
+#: rip/k3baudiocdview.cpp:254
+msgid "Check Track"
+msgstr "Stranan Nîşan Bike"
+
+#: rip/k3bvideocdview.cpp:383 rip/videodvd/k3bvideodvdrippingview.cpp:300
+#: rip/k3baudiocdview.cpp:256
+msgid "Uncheck Track"
+msgstr "Stranan Ne-Nîşankirî Bike"
+
 #: rip/k3bvideocdview.cpp:389
 #, fuzzy
 #| msgid "Hidden Files"
@@ -5734,6 +5617,14 @@ msgstr "Pelên Veşartî"
 
 #: rip/k3bvideocdview.cpp:391
 msgid "View plain data files"
+msgstr ""
+
+#: rip/k3bvideocdview.cpp:452 rip/k3baudiocdview.cpp:307
+msgid "Please select the tracks to rip."
+msgstr ""
+
+#: rip/k3bvideocdview.cpp:452 rip/k3baudiocdview.cpp:308
+msgid "No Tracks Selected"
 msgstr ""
 
 #: rip/videodvd/k3bvideodvdaudiomodel.cpp:155
@@ -6204,6 +6095,115 @@ msgstr ""
 #: rip/k3baudioprojectconvertingdialog.cpp:125
 msgid "Filename (relative to base folder)"
 msgstr ""
+
+#: rip/k3baudiocdview.cpp:156
+msgid "Searching for Artist information..."
+msgstr ""
+
+#: rip/k3baudiocdview.cpp:187
+#, kde-format
+msgid ""
+"Found Cd-Text (%1 - %2). Do you want to use it instead of CDDB (%3 - %4)?"
+msgstr ""
+
+#: rip/k3baudiocdview.cpp:192
+msgid "Found Cd-Text"
+msgstr "Nivîsa-Cd yê Hat Dîtin"
+
+#: rip/k3baudiocdview.cpp:193
+msgid "Use CD-Text"
+msgstr "Nivîsa-CD yê Bi Kar Bîne"
+
+#: rip/k3baudiocdview.cpp:194
+msgid "Use CDDB"
+msgstr "CDDB Bi Kar Bîne"
+
+#: rip/k3baudiocdview.cpp:241
+msgid "Audio CD"
+msgstr "CD ya Deng"
+
+#: rip/k3baudiocdview.cpp:258
+#, fuzzy
+#| msgid "Edit Track cddb Info"
+msgid "Edit Track CDDB Info"
+msgstr "Agahiyên Strana cddb Serast Bike"
+
+#: rip/k3baudiocdview.cpp:260
+#, fuzzy
+#| msgid "Edit Album cddb Info"
+msgid "Edit Album CDDB Info"
+msgstr "Agahiyên Albûma cddb Serast Bike"
+
+#: rip/k3baudiocdview.cpp:264
+#: ../plugins/project/audioprojectcddb/k3baudioprojectcddbplugin.cpp:49
+#, fuzzy
+#| msgid "Query Cddb"
+msgid "Query CDDB"
+msgstr "Cddb Rêz Bike"
+
+#: rip/k3baudiocdview.cpp:266
+#, fuzzy
+#| msgid "Save Cddb Entry Locally"
+msgid "Save CDDB Entry Locally"
+msgstr "Têketina Cddb Herêmî Tomar Bike"
+
+#: rip/k3baudiocdview.cpp:268
+#, fuzzy
+#| msgid "New &Data Project"
+msgid "Show Data Part"
+msgstr "Projeya Nû ya CD &Dane"
+
+#: rip/k3baudiocdview.cpp:270
+msgid "Mounts the data part of CD"
+msgstr ""
+
+#: rip/k3baudiocdview.cpp:328
+#, fuzzy, kde-format
+#| msgid "Cddb Track %1"
+msgid "CDDB Track %1"
+msgstr "Strana Cddb %1"
+
+#: rip/k3baudiocdview.cpp:343 rip/k3baudiocdview.cpp:405
+msgid "Title:"
+msgstr "Sernivîs:"
+
+#: rip/k3baudiocdview.cpp:346 rip/k3baudiocdview.cpp:407
+msgid "Artist:"
+msgstr "Hunermend:"
+
+#: rip/k3baudiocdview.cpp:348 rip/k3baudiocdview.cpp:409
+msgid "Extra info:"
+msgstr "Zêdetir Agahî"
+
+#: rip/k3baudiocdview.cpp:367
+msgid "Album Cddb"
+msgstr "Albûma Cddb"
+
+#: rip/k3baudiocdview.cpp:411
+msgid "Genre:"
+msgstr "Cure:"
+
+#: rip/k3baudiocdview.cpp:413
+msgid "Year:"
+msgstr "Sal:"
+
+#: rip/k3baudiocdview.cpp:416
+msgid "Category:"
+msgstr "Beş:"
+
+#: rip/k3baudiocdview.cpp:468
+#, kde-format
+msgid "Saved entry in category %1."
+msgstr "Têketinê di kategoriya %1 de hat tomar kirin. "
+
+#: rip/k3baudiotrackmodel.cpp:160
+msgid "Artist"
+msgstr "Hunermend"
+
+#: rip/k3baudiotrackmodel.cpp:162
+msgctxt "audio track title"
+msgid "Title"
+msgstr "Sernivîs"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
