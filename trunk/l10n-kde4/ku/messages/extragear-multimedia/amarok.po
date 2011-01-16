@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-01-15 02:27+0100\n"
+"POT-Creation-Date: 2011-01-16 02:29+0100\n"
 "PO-Revision-Date: 2009-02-21 06:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -1981,7 +1981,7 @@ msgstr "Nû ve bar bike"
 
 #: context/applets/labels/LabelsApplet.cpp:176
 #: context/engines/current/CurrentEngine.cpp:126 mac/GrowlInterface.cpp:43
-#: widgets/Osd.cpp:604 EngineController.cpp:1407
+#: widgets/Osd.cpp:603 EngineController.cpp:1407
 msgid "No track playing"
 msgstr "Tu Stran Nayê Lêdan"
 
@@ -6680,7 +6680,7 @@ msgctxt "Dialog box title"
 msgid "Comment Sending Error"
 msgstr "Çewtiya Venihartina Berhevokê"
 
-#: mac/GrowlInterface.cpp:64 widgets/Osd.cpp:628
+#: mac/GrowlInterface.cpp:64 widgets/Osd.cpp:627
 msgid "No information available for this track"
 msgstr "Ji bo vê skrîptê agahî tune ye"
 
@@ -9171,7 +9171,7 @@ msgid "Slim Toolbar"
 msgstr ""
 
 #: toolbar/VolumePopupButton.cpp:107 toolbar/VolumePopupButton.cpp:118
-#: widgets/Osd.cpp:154
+#: widgets/Osd.cpp:152
 #, fuzzy
 #| msgctxt "State, as in, The playback is silent"
 #| msgid "Mute"
@@ -9179,7 +9179,7 @@ msgid "(muted)"
 msgstr "Bêdeng"
 
 #: toolbar/VolumePopupButton.cpp:107 toolbar/VolumePopupButton.cpp:118
-#: widgets/Osd.cpp:154
+#: widgets/Osd.cpp:152
 #, fuzzy, kde-format
 #| msgid "Volume: %1%"
 msgid "Volume: %1% %2"
@@ -9364,6 +9364,34 @@ msgstr "Navbera"
 msgctxt "an alphabetical tag (like title or artist name) equals some string"
 msgid "matches"
 msgstr "Rojane Bike"
+
+#: widgets/Osd.cpp:136
+msgid "Rating changed"
+msgstr "Ecibandin guherî "
+
+#: widgets/Osd.cpp:214
+#, fuzzy
+#| msgid "Volume: 100%"
+msgid "Volume: 100% (muted)"
+msgstr "Deng: 100%"
+
+#: widgets/Osd.cpp:444
+#, fuzzy
+#| msgid "OSD Preview - drag to reposition"
+msgid ""
+"On-Screen-Display preview\n"
+"Drag to reposition"
+msgstr "Pêşdîtina OSD - ji bo nû ve bicih kirinê bikişîne"
+
+#: widgets/Osd.cpp:692
+#, fuzzy
+#| msgid "Stop"
+msgid "Stopped"
+msgstr "Rawestîne"
+
+#: widgets/Osd.cpp:701
+msgid "Paused"
+msgstr "Hatiye Sekinandin"
 
 #: widgets/PlayPauseButton.cpp:31 widgets/PlayPauseButton.cpp:81
 #, fuzzy
@@ -9609,34 +9637,6 @@ msgstr "Hunermend \"%1\""
 #: widgets/TrackSelectWidget.cpp:94
 msgid "empty"
 msgstr ""
-
-#: widgets/Osd.cpp:138
-msgid "Rating changed"
-msgstr "Ecibandin guherî "
-
-#: widgets/Osd.cpp:216
-#, fuzzy
-#| msgid "Volume: 100%"
-msgid "Volume: 100% (muted)"
-msgstr "Deng: 100%"
-
-#: widgets/Osd.cpp:445
-#, fuzzy
-#| msgid "OSD Preview - drag to reposition"
-msgid ""
-"On-Screen-Display preview\n"
-"Drag to reposition"
-msgstr "Pêşdîtina OSD - ji bo nû ve bicih kirinê bikişîne"
-
-#: widgets/Osd.cpp:693
-#, fuzzy
-#| msgid "Stop"
-msgid "Stopped"
-msgstr "Rawestîne"
-
-#: widgets/Osd.cpp:702
-msgid "Paused"
-msgstr "Hatiye Sekinandin"
 
 #: widgets/VolumeWidget.cpp:47
 #, fuzzy
