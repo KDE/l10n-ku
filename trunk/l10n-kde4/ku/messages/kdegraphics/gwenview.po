@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gwenview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-01-27 02:44+0100\n"
+"POT-Creation-Date: 2011-01-28 02:48+0100\n"
 "PO-Revision-Date: 2009-01-22 22:46+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -304,21 +304,21 @@ msgstr ""
 "Navê pelê <filename>%1</filename> jixwe heye.\n"
 "Tu bi rastî dixwazî ser vê binivîsî?"
 
-#: app/gvcore.cpp:238
+#: app/gvcore.cpp:222 app/gvcore.cpp:245
 #, kde-format
 msgctxt "@info"
 msgid "<b>Saving <filename>%1</filename> failed:</b><br>%2"
 msgstr "<b>Tomarkirina <filename>%1</filename> pêk nehat:</b><br>%2"
 
-#: app/gvcore.cpp:256
+#: app/gvcore.cpp:263
 msgid "You are now viewing the new document."
 msgstr ""
 
-#: app/gvcore.cpp:258
+#: app/gvcore.cpp:265
 msgid "Go back to the original"
 msgstr ""
 
-#: app/gvcore.cpp:303 lib/document/documentjob.cpp:78
+#: app/gvcore.cpp:310 lib/document/documentjob.cpp:78
 msgctxt "@info"
 msgid "Gwenview cannot edit this kind of image."
 msgstr "Gwenview nikare wêneyên bi vê cure yê serast bike."
@@ -1163,6 +1163,14 @@ msgstr "Barkirina agahiyên meta pêk nehat."
 msgctxt "@info"
 msgid "Loading image failed."
 msgstr "Barkirina wêneyê pêk nehat."
+
+#: lib/document/document.cpp:230
+#, fuzzy
+#| msgctxt "@info"
+#| msgid "Gwenview cannot edit this kind of image."
+msgctxt "@info"
+msgid "Gwenview cannot save this kind of documents."
+msgstr "Gwenview nikare wêneyên bi vê cure yê serast bike."
 
 #: lib/document/savejob.cpp:104
 #, kde-format
