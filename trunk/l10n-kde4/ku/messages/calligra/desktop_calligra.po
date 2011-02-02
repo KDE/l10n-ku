@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-01-29 02:47+0000\n"
+"POT-Creation-Date: 2011-02-02 02:50+0000\n"
 "PO-Revision-Date: 2007-12-17 01:37+0100\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
@@ -208,11 +208,6 @@ msgstr ""
 #: filters/kformula/svg/kformula_svg_export.desktop:8
 msgctxt "Name"
 msgid "KFormula SVG Export Filter"
-msgstr ""
-
-#: filters/kplato/icalendar/export/kplato_icalendar_export.desktop:8
-msgctxt "Name"
-msgid "KPlato iCalendar Export Filter"
 msgstr ""
 
 #: filters/kpresenter/genericimageexport/kpresenter_bmp_export.desktop:3
@@ -965,18 +960,6 @@ msgctxt "Name"
 msgid "Unavailable KOffice Document"
 msgstr ""
 
-#: kplato/kplato.desktop:2
-msgctxt "Name"
-msgid "KPlato"
-msgstr ""
-
-#: kplato/kplato.desktop:57 kplato/planpart.desktop:57
-#: kplato/workpackage/kplatowork.desktop:35
-#: kplato/workpackage/planworkpart.desktop:57
-msgctxt "GenericName"
-msgid "Project Management"
-msgstr ""
-
 #: kplato/libs/kernel/kplato_schedulerplugin.desktop:2
 msgctxt "Name"
 msgid "KPlato Scheduler Plugin"
@@ -987,9 +970,31 @@ msgctxt "Comment"
 msgid "A plugin that calculates a project schedule"
 msgstr ""
 
+#: kplato/plan.desktop:2
+msgctxt "Name"
+msgid "Plan"
+msgstr ""
+
+#: kplato/plan.desktop:52 kplato/planpart.desktop:57
+#: kplato/workpackage/planwork.desktop:24
+#: kplato/workpackage/planworkpart.desktop:58
+msgctxt "GenericName"
+msgid "Project Management"
+msgstr ""
+
 #: kplato/planpart.desktop:2 kplato/workpackage/planworkpart.desktop:2
 msgctxt "Name"
-msgid "KOffice Project Management Component"
+msgid "Calligra Project Management Component"
+msgstr ""
+
+#: kplato/plugins/filters/icalendar/export/plan_icalendar_export.desktop:8
+msgctxt "Name"
+msgid "Plan iCalendar Export Filter"
+msgstr ""
+
+#: kplato/plugins/filters/kplato/import/plan_kplato_import.desktop:3
+msgctxt "Name"
+msgid "Plan KPlato Import Filter"
 msgstr ""
 
 #: kplato/plugins/schedulers/rcps/kplatorcpsscheduler.desktop:6
@@ -1039,9 +1044,9 @@ msgctxt "Name"
 msgid "Plain"
 msgstr ""
 
-#: kplato/workpackage/kplatowork.desktop:2
+#: kplato/workpackage/planwork.desktop:2
 msgctxt "Name"
-msgid "KPlato WorkPackage Handler"
+msgid "Plan WorkPackage Handler"
 msgstr ""
 
 #: kpresenter/data/kpr_pageeffect.desktop:4
