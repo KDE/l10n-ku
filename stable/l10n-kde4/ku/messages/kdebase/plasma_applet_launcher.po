@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_launcher\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-12-26 02:55+0100\n"
+"POT-Creation-Date: 2011-02-02 12:18+0100\n"
 "PO-Revision-Date: 2008-12-25 02:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <gnu-ku-wergerandin at lists dot sourceforge dot "
@@ -19,10 +19,216 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-Language: Kurdish\n"
 
-#: simpleapplet/simpleapplet.cpp:193 core/favoritesmodel.cpp:49
-#: core/favoritesmodel.cpp:322 ui/launcher.cpp:116 ui/launcher.cpp:175
+#: applet/applet.cpp:84
+msgid "Kickoff Application Launcher"
+msgstr "Deskpêkerê Sepana Kickoff"
+
+#: applet/applet.cpp:85
+msgid ""
+"Favorites, applications, computer places, recently used items and desktop "
+"sessions"
+msgstr ""
+"Bijarte, sepan, cihên komputerê, hêmanên dawî yê hatine karandin û danişînên "
+"sermase yê "
+
+#: applet/applet.cpp:108 simpleapplet/simpleapplet.cpp:345
+#, fuzzy
+#| msgid "Applications"
+msgid "Edit Applications..."
+msgstr "Sepan"
+
+#: applet/applet.cpp:114
+msgid "Switch to Classic Menu Style"
+msgstr "Teşe ya Pêşeka Klasîk Bi Kar Bîne"
+
+#: applet/applet.cpp:159
+#, fuzzy
+#| msgid "General"
+msgctxt "General configuration page"
+msgid "General"
+msgstr "Giştî"
+
+#: core/applicationmodel.cpp:335
+msgid "Games"
+msgstr ""
+
+#: core/applicationmodel.cpp:425 ui/flipscrollview.cpp:138
+msgid "All Applications"
+msgstr "Hemû Sepan"
+
+#: core/favoritesmodel.cpp:49 core/favoritesmodel.cpp:322
+#: simpleapplet/simpleapplet.cpp:193 ui/launcher.cpp:116 ui/launcher.cpp:175
 msgid "Favorites"
 msgstr "Bijarte"
+
+#: core/leavemodel.cpp:48 simpleapplet/simpleapplet.cpp:210
+#, fuzzy
+#| msgid "Logout"
+msgid "Log out"
+msgstr "Derketin"
+
+#: core/leavemodel.cpp:50
+msgid "End session"
+msgstr "Danişînê bi dawî bîne"
+
+#: core/leavemodel.cpp:52
+msgid "Lock"
+msgstr "Quflkirin"
+
+#: core/leavemodel.cpp:54 simpleapplet/simpleapplet.cpp:204
+#, fuzzy
+#| msgid "Lock the screen"
+msgid "Lock Screen"
+msgstr "îmenderê biqufilîne"
+
+#: core/leavemodel.cpp:56 simpleapplet/simpleapplet.cpp:202
+msgid "Switch User"
+msgstr "Bikarhênerê/î biguherîne"
+
+#: core/leavemodel.cpp:58
+msgid "Start a parallel session as a different user"
+msgstr "Wekî bikarhênerekê din dest bi danişînekê paralel bike"
+
+#: core/leavemodel.cpp:60 simpleapplet/simpleapplet.cpp:209
+#, fuzzy
+#| msgid "Shutdown"
+msgid "Shut down"
+msgstr "Dadan"
+
+#: core/leavemodel.cpp:62
+#, fuzzy
+#| msgid "Turn off the computer"
+msgid "Turn off computer"
+msgstr "Komputerê bigire"
+
+#: core/leavemodel.cpp:64
+#, fuzzy
+#| msgctxt "Restart the computer"
+#| msgid "Restart"
+msgctxt "Restart computer"
+msgid "Restart"
+msgstr "Ji Nû ve Bide Destpêkirin"
+
+#: core/leavemodel.cpp:66
+#, fuzzy
+#| msgid "Restart the computer"
+msgid "Restart Computer"
+msgstr "Komputerê ji nû ve bide destpêkirin"
+
+#: core/leavemodel.cpp:68 simpleapplet/simpleapplet.cpp:203
+msgid "Save Session"
+msgstr "Danişînê Tomar Bike"
+
+#: core/leavemodel.cpp:70
+msgid "Save current session for next login"
+msgstr "Danişîna heyî ji bo têketina pêş tomar bike"
+
+#: core/leavemodel.cpp:72 simpleapplet/simpleapplet.cpp:205
+msgctxt "Puts the system on standby"
+msgid "Standby"
+msgstr "Bendê Bimîne "
+
+#: core/leavemodel.cpp:74
+msgid "Pause without logging out"
+msgstr "Bê derketin bi de sekinandin"
+
+#: core/leavemodel.cpp:76 simpleapplet/simpleapplet.cpp:206
+msgid "Hibernate"
+msgstr "Xewa zivistanê"
+
+#: core/leavemodel.cpp:78
+#, fuzzy
+#| msgid "Suspend to Disk"
+msgid "Suspend to disk"
+msgstr "Ji Dîskê Bisekine"
+
+#: core/leavemodel.cpp:80 simpleapplet/simpleapplet.cpp:207
+msgid "Sleep"
+msgstr "Bixe xewê"
+
+#: core/leavemodel.cpp:82
+msgid "Suspend to RAM"
+msgstr "Ji RAMê Bisekine"
+
+#: core/leavemodel.cpp:105 simpleapplet/simpleapplet.cpp:211
+#: ui/launcher.cpp:163
+msgid "Leave"
+msgstr "Biterikîne"
+
+#: core/leavemodel.cpp:117
+msgid "Session"
+msgstr "Danişîn"
+
+#: core/leavemodel.cpp:139
+msgid "System"
+msgstr "Pergal"
+
+#: core/models.cpp:121
+msgid "Home Folder"
+msgstr "Home Folder"
+
+#: core/models.cpp:124
+msgid "Network Folders"
+msgstr "Peldankên Torê"
+
+#: core/recentlyusedmodel.cpp:109
+msgid "Documents"
+msgstr "Belge"
+
+#: core/recentlyusedmodel.cpp:120 core/systemmodel.cpp:84
+#: simpleapplet/simpleapplet.cpp:195 ui/launcher.cpp:118 ui/launcher.cpp:205
+msgid "Applications"
+msgstr "Sepan"
+
+#: core/recentlyusedmodel.cpp:186 simpleapplet/simpleapplet.cpp:197
+#: ui/launcher.cpp:119 ui/launcher.cpp:218
+msgid "Recently Used"
+msgstr "Berê bikaranî"
+
+#: core/recentlyusedmodel.cpp:188 simpleapplet/simpleapplet.cpp:199
+#, fuzzy
+#| msgid "Recently Used"
+msgid "Recently Used Documents"
+msgstr "Berê bikaranî"
+
+#: core/recentlyusedmodel.cpp:190 simpleapplet/simpleapplet.cpp:198
+#, fuzzy
+#| msgid "Clear Recent Applications"
+msgid "Recently Used Applications"
+msgstr "Sepanên Borî Pakuj bike"
+
+#: core/systemmodel.cpp:85
+msgid "Places"
+msgstr "Cih"
+
+#: core/systemmodel.cpp:86
+msgid "Removable Storage"
+msgstr "Cîhaza Tomarkirinê ya Nesabît"
+
+#: core/systemmodel.cpp:87
+msgid "Storage"
+msgstr "Cîhaza Tomarkirinê"
+
+#: core/systemmodel.cpp:215 simpleapplet/simpleapplet.cpp:201
+msgid "Run Command..."
+msgstr ""
+
+#: core/systemmodel.cpp:219
+msgid "Run a command or a search query"
+msgstr ""
+
+#: core/systemmodel.cpp:327 simpleapplet/simpleapplet.cpp:196
+#: ui/launcher.cpp:118 ui/launcher.cpp:239
+msgid "Computer"
+msgstr "Komputer"
+
+#: main.cpp:32
+msgid "Kickoff"
+msgstr "Kîckoff"
+
+#: main.cpp:33
+msgid "Application Launcher"
+msgstr "Deskpêkerê Sepanan"
 
 #: simpleapplet/simpleapplet.cpp:194
 #, fuzzy
@@ -31,67 +237,9 @@ msgstr "Bijarte"
 msgid "Bookmarks"
 msgstr "Bijare"
 
-#: simpleapplet/simpleapplet.cpp:195 core/systemmodel.cpp:84
-#: core/recentlyusedmodel.cpp:120 ui/launcher.cpp:118 ui/launcher.cpp:205
-msgid "Applications"
-msgstr "Sepan"
-
-#: simpleapplet/simpleapplet.cpp:196 core/systemmodel.cpp:327
-#: ui/launcher.cpp:118 ui/launcher.cpp:239
-msgid "Computer"
-msgstr "Komputer"
-
-#: simpleapplet/simpleapplet.cpp:197 core/recentlyusedmodel.cpp:186
-#: ui/launcher.cpp:119 ui/launcher.cpp:218
-msgid "Recently Used"
-msgstr "Berê bikaranî"
-
-#: simpleapplet/simpleapplet.cpp:198 core/recentlyusedmodel.cpp:190
-#, fuzzy
-#| msgid "Clear Recent Applications"
-msgid "Recently Used Applications"
-msgstr "Sepanên Borî Pakuj bike"
-
-#: simpleapplet/simpleapplet.cpp:199 core/recentlyusedmodel.cpp:188
-#, fuzzy
-#| msgid "Recently Used"
-msgid "Recently Used Documents"
-msgstr "Berê bikaranî"
-
 #: simpleapplet/simpleapplet.cpp:200
 msgid "System Settings"
 msgstr ""
-
-#: simpleapplet/simpleapplet.cpp:201 core/systemmodel.cpp:215
-msgid "Run Command..."
-msgstr ""
-
-#: simpleapplet/simpleapplet.cpp:202 core/leavemodel.cpp:56
-msgid "Switch User"
-msgstr "Bikarhênerê/î biguherîne"
-
-#: simpleapplet/simpleapplet.cpp:203 core/leavemodel.cpp:68
-msgid "Save Session"
-msgstr "Danişînê Tomar Bike"
-
-#: simpleapplet/simpleapplet.cpp:204 core/leavemodel.cpp:54
-#, fuzzy
-#| msgid "Lock the screen"
-msgid "Lock Screen"
-msgstr "îmenderê biqufilîne"
-
-#: simpleapplet/simpleapplet.cpp:205 core/leavemodel.cpp:72
-msgctxt "Puts the system on standby"
-msgid "Standby"
-msgstr "Bendê Bimîne "
-
-#: simpleapplet/simpleapplet.cpp:206 core/leavemodel.cpp:76
-msgid "Hibernate"
-msgstr "Xewa zivistanê"
-
-#: simpleapplet/simpleapplet.cpp:207 core/leavemodel.cpp:80
-msgid "Sleep"
-msgstr "Bixe xewê"
 
 #: simpleapplet/simpleapplet.cpp:208
 #, fuzzy
@@ -100,23 +248,6 @@ msgstr "Bixe xewê"
 msgctxt "Restart Computer"
 msgid "Restart"
 msgstr "Ji Nû ve Bide Destpêkirin"
-
-#: simpleapplet/simpleapplet.cpp:209 core/leavemodel.cpp:60
-#, fuzzy
-#| msgid "Shutdown"
-msgid "Shut down"
-msgstr "Dadan"
-
-#: simpleapplet/simpleapplet.cpp:210 core/leavemodel.cpp:48
-#, fuzzy
-#| msgid "Logout"
-msgid "Log out"
-msgstr "Derketin"
-
-#: simpleapplet/simpleapplet.cpp:211 core/leavemodel.cpp:105
-#: ui/launcher.cpp:163
-msgid "Leave"
-msgstr "Biterikîne"
 
 #: simpleapplet/simpleapplet.cpp:267
 #, fuzzy
@@ -129,12 +260,6 @@ msgstr "Deskpêkerê Sepanan"
 #| msgid "Kickoff Application Launcher"
 msgid "Switch to Application Launcher Style"
 msgstr "Deskpêkerê Sepana Kickoff"
-
-#: simpleapplet/simpleapplet.cpp:345 applet/applet.cpp:108
-#, fuzzy
-#| msgid "Applications"
-msgid "Edit Applications..."
-msgstr "Sepan"
 
 #: simpleapplet/simpleapplet.cpp:445
 #, fuzzy
@@ -200,123 +325,6 @@ msgstr "Sepan"
 msgid "Actions"
 msgstr "Sepan"
 
-#: applet/applet.cpp:84
-msgid "Kickoff Application Launcher"
-msgstr "Deskpêkerê Sepana Kickoff"
-
-#: applet/applet.cpp:85
-msgid ""
-"Favorites, applications, computer places, recently used items and desktop "
-"sessions"
-msgstr ""
-"Bijarte, sepan, cihên komputerê, hêmanên dawî yê hatine karandin û danişînên "
-"sermase yê "
-
-#: applet/applet.cpp:114
-msgid "Switch to Classic Menu Style"
-msgstr "Teşe ya Pêşeka Klasîk Bi Kar Bîne"
-
-#: applet/applet.cpp:159
-#, fuzzy
-#| msgid "General"
-msgctxt "General configuration page"
-msgid "General"
-msgstr "Giştî"
-
-#: core/systemmodel.cpp:85
-msgid "Places"
-msgstr "Cih"
-
-#: core/systemmodel.cpp:86
-msgid "Removable Storage"
-msgstr "Cîhaza Tomarkirinê ya Nesabît"
-
-#: core/systemmodel.cpp:87
-msgid "Storage"
-msgstr "Cîhaza Tomarkirinê"
-
-#: core/systemmodel.cpp:219
-msgid "Run a command or a search query"
-msgstr ""
-
-#: core/leavemodel.cpp:50
-msgid "End session"
-msgstr "Danişînê bi dawî bîne"
-
-#: core/leavemodel.cpp:52
-msgid "Lock"
-msgstr "Quflkirin"
-
-#: core/leavemodel.cpp:58
-msgid "Start a parallel session as a different user"
-msgstr "Wekî bikarhênerekê din dest bi danişînekê paralel bike"
-
-#: core/leavemodel.cpp:62
-#, fuzzy
-#| msgid "Turn off the computer"
-msgid "Turn off computer"
-msgstr "Komputerê bigire"
-
-#: core/leavemodel.cpp:64
-#, fuzzy
-#| msgctxt "Restart the computer"
-#| msgid "Restart"
-msgctxt "Restart computer"
-msgid "Restart"
-msgstr "Ji Nû ve Bide Destpêkirin"
-
-#: core/leavemodel.cpp:66
-#, fuzzy
-#| msgid "Restart the computer"
-msgid "Restart Computer"
-msgstr "Komputerê ji nû ve bide destpêkirin"
-
-#: core/leavemodel.cpp:70
-msgid "Save current session for next login"
-msgstr "Danişîna heyî ji bo têketina pêş tomar bike"
-
-#: core/leavemodel.cpp:74
-msgid "Pause without logging out"
-msgstr "Bê derketin bi de sekinandin"
-
-#: core/leavemodel.cpp:78
-#, fuzzy
-#| msgid "Suspend to Disk"
-msgid "Suspend to disk"
-msgstr "Ji Dîskê Bisekine"
-
-#: core/leavemodel.cpp:82
-msgid "Suspend to RAM"
-msgstr "Ji RAMê Bisekine"
-
-#: core/leavemodel.cpp:117
-msgid "Session"
-msgstr "Danişîn"
-
-#: core/leavemodel.cpp:139
-msgid "System"
-msgstr "Pergal"
-
-#: core/models.cpp:121
-msgid "Home Folder"
-msgstr "Home Folder"
-
-#: core/models.cpp:124
-msgid "Network Folders"
-msgstr "Peldankên Torê"
-
-#: core/applicationmodel.cpp:335
-msgid "Games"
-msgstr ""
-
-#: core/applicationmodel.cpp:425 ui/flipscrollview.cpp:138
-msgid "All Applications"
-msgstr "Hemû Sepan"
-
-#: core/recentlyusedmodel.cpp:109
-msgid "Documents"
-msgstr "Belge"
-
 #: ui/contextmenufactory.cpp:83
 msgid "Advanced"
 msgstr "Pêşketî"
@@ -379,14 +387,6 @@ msgstr "<b>%1 (%2)</b> di <b>%3</b> de"
 msgctxt "Label of the search bar textedit"
 msgid "Search:"
 msgstr "Lêgerîn:"
-
-#: main.cpp:32
-msgid "Kickoff"
-msgstr "Kîckoff"
-
-#: main.cpp:33
-msgid "Application Launcher"
-msgstr "Deskpêkerê Sepanan"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"

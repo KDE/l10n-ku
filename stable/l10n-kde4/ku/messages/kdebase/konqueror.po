@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-12-26 02:55+0100\n"
+"POT-Creation-Date: 2011-02-02 12:17+0100\n"
 "PO-Revision-Date: 2009-01-06 14:18+0200\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: American English <kde-i18n-doc@lists.kde.org>\n"
@@ -21,6 +21,20 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Launchpad-Export-Date: 2007-11-26 10:24+0000\n"
 "X-Generator: Lokalize 0.2\n"
+
+#: src/konqclosedwindowsmanager.cpp:418 src/konqmainwindow.cpp:4972
+#: src/konqmainwindow.cpp:5032
+msgid "no name"
+msgstr "bênav"
+
+#: src/konqextensionmanager.cpp:54
+msgid "Configure"
+msgstr "Veavakirin"
+
+#: src/konqextensionmanager.cpp:74 src/konqextensionmanager.cpp:77
+#: src/konqextensionmanager.cpp:78
+msgid "Extensions"
+msgstr "Pêvek"
 
 #: src/konqfactory.cpp:90
 #, kde-format
@@ -300,6 +314,168 @@ msgstr "Pêşvebir (Parzûnê AdBlock)"
 #: src/konqfactory.cpp:272
 msgid "Eduardo Robles Elvira"
 msgstr "Eduardo Robles Elvira"
+
+#: src/konqframestatusbar.cpp:109
+msgid ""
+"Checking this box on at least two views sets those views as 'linked'. Then, "
+"when you change directories in one view, the other views linked with it will "
+"automatically update to show the current directory. This is especially "
+"useful with different types of views, such as a directory tree with an icon "
+"view or detailed view, and possibly a terminal emulator window."
+msgstr ""
+"Bi kêmanî heke tu didu awayan de vê qutiyê nîşan bikî, dê dîtinên navborî bi "
+"hev re bên girêdan. Bi vî rengî dema te di dîtinekê de pêrist guhart dê "
+"dîtinên din ên têkildar jî bixweber bêne rojanekirin ji bo pêristê nîşan "
+"bidin. Ev vebijêrk, bi taybetî di bikaranîna cureyên cuda yên dîtinê, mînak "
+"dara pêristeke bi dîtina dawêrî an jî dîtina bi kîtekît, bikêr tê."
+
+#: src/konqframestatusbar.cpp:156
+msgid "Close View"
+msgstr "Dîtinê Bigire"
+
+#: src/konqframestatusbar.cpp:236
+#, kde-format
+msgid "%1/s"
+msgstr "%1/s"
+
+#: src/konqframestatusbar.cpp:238
+msgid "Stalled"
+msgstr "Tê rawestandin"
+
+#: src/konqguiclients.cpp:66
+#, kde-format
+msgid "Preview &in %1"
+msgstr "Pêşdîtina &li %1"
+
+#: src/konqguiclients.cpp:135
+#, kde-format
+msgid "Show %1"
+msgstr "%1 nîşan bide"
+
+#: src/konqhistorydialog.cpp:45
+#, fuzzy
+#| msgid "Clear History"
+msgctxt "@title:window"
+msgid "History"
+msgstr "Dîrokê jê bibe"
+
+#: src/konqhistorydialog.cpp:61 src/konqhistoryview.cpp:143
+msgctxt "@action:inmenu Parent of 'By Name' and 'By Date'"
+msgid "Sort"
+msgstr "Rêz bike"
+
+#: src/konqhistorymodel.cpp:137
+#, kde-format
+msgid ""
+"<qt><center><b>%1</b></center><hr />Last visited: %2<br />First visited: %"
+"3<br />Number of times visited: %4</qt>"
+msgstr ""
+"<qt><center><b>%1</b></center><hr />Serdana dawîn: %2<br />Serdana pêşîn: %"
+"3<br />Hejmara serdanan: %4</qt>"
+
+#: src/konqhistorymodel.cpp:233
+msgid "Local"
+msgstr ""
+
+#: src/konqhistorymodel.cpp:236
+msgid "Miscellaneous"
+msgstr "Cur be Cur"
+
+#: src/konqhistoryview.cpp:62 src/konqmainwindow.cpp:4499
+#: sidebar/web_module/web_module.cpp:61
+msgid "Open in New &Window"
+msgstr "Di &Paceyeke Nû de Veke"
+
+#: src/konqhistoryview.cpp:67
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:94
+#: sidebar/trees/konq_sidebartree.cpp:232
+msgid "Open in New Tab"
+msgstr "Di Hilfirîna Nû de Veke"
+
+#: src/konqhistoryview.cpp:71
+#, fuzzy
+#| msgid "Copy Link Address"
+msgid "&Copy Link Address"
+msgstr "Girêdana Navnîşanê Ji Ber Bigire"
+
+#: src/konqhistoryview.cpp:76
+msgid "&Remove Entry"
+msgstr "Ketanê %Jê Bibî"
+
+#: src/konqhistoryview.cpp:83
+msgid "C&lear History"
+msgstr "Rabirdûyê P&aqij Bike"
+
+#: src/konqhistoryview.cpp:88
+msgid "&Preferences..."
+msgstr "&Vebijêrk..."
+
+#: src/konqhistoryview.cpp:95
+msgid "By &Name"
+msgstr "Bi &Nav"
+
+#: src/konqhistoryview.cpp:101
+msgid "By &Date"
+msgstr "Bi &Dîrokê"
+
+#: src/konqhistoryview.cpp:111
+#, fuzzy
+#| msgid "Clear History"
+msgid "Search in history"
+msgstr "Dîrokê jê bibe"
+
+#: src/konqhistoryview.cpp:171 sidebar/history_module/kcmhistory.cpp:254
+msgid "Do you really want to clear the entire history?"
+msgstr "Bi rastî jî tu dixwazî hemû rabirdûyê jê bibî?"
+
+#: src/konqhistoryview.cpp:172 sidebar/history_module/kcmhistory.cpp:256
+msgid "Clear History?"
+msgstr "Rabirdûyê Jê Bibî?"
+
+#: src/konqmain.cpp:96
+#, fuzzy
+#| msgid "Start without a default window"
+msgid "Start without a default window, when called without URLs"
+msgstr "Destpêka bi paceya belîkirî"
+
+#: src/konqmain.cpp:98
+msgid ""
+"Preload for later use. This mode does not support URLs on the command line"
+msgstr ""
+
+#: src/konqmain.cpp:100
+msgid "Profile to open"
+msgstr "Profîla ku dê vebe"
+
+#: src/konqmain.cpp:102
+msgid "List available profiles"
+msgstr "Profîlên ku dikarin bên xebitandin rêz bike"
+
+#: src/konqmain.cpp:104
+msgid "List available sessions"
+msgstr "Danişînên heyî rêz bike"
+
+#: src/konqmain.cpp:106
+msgid "Session to open"
+msgstr "Danişîna ku dê vebe"
+
+#: src/konqmain.cpp:108
+msgid "Mimetype to use for this URL (e.g. text/html or inode/directory)"
+msgstr ""
+"Cureyên Mime yên dê ji bo vê URL'yê bên bikaranîn (mînak. text/html an jî "
+"inode/directory)"
+
+#: src/konqmain.cpp:110
+msgid ""
+"For URLs that point to files, opens the directory and selects the file, "
+"instead of opening the actual file"
+msgstr ""
+"Di URL'yên ku pelan diyar dike de, li şûna ku pelê veke pêristê vedike û "
+"pelê hildibijêre."
+
+#: src/konqmain.cpp:112
+msgid "Location to open"
+msgstr "Cihê ku dê lê vebe"
 
 #: src/konqmainwindow.cpp:557
 msgctxt "@title:tab"
@@ -868,11 +1044,6 @@ msgstr "Di &Vê Paceyê de Veke"
 msgid "Open the document in current window"
 msgstr "Pelgeyê di hilfirîna hatiye hilbijartin de veke"
 
-#: src/konqmainwindow.cpp:4499 src/konqhistoryview.cpp:62
-#: sidebar/web_module/web_module.cpp:61
-msgid "Open in New &Window"
-msgstr "Di &Paceyeke Nû de Veke"
-
 #: src/konqmainwindow.cpp:4500
 msgid "Open the document in a new window"
 msgstr "Pelgeyê di paceyeke nû de veke"
@@ -928,11 +1099,6 @@ msgstr ""
 "Di vê rûpelê de guherînên ku nehatine şandin heye.\n"
 "Heke tu paceyê bigire wê hemû guherînan winda bike."
 
-#: src/konqmainwindow.cpp:4972 src/konqmainwindow.cpp:5032
-#: src/konqclosedwindowsmanager.cpp:418
-msgid "no name"
-msgstr "bênav"
-
 #: src/konqmainwindow.cpp:5099
 msgid ""
 "Your sidebar is not functional or unavailable. A new entry cannot be added."
@@ -966,44 +1132,17 @@ msgstr ""
 "Çewtiyeke avakirinê dixuye. Te Konqueror bi peleke cureyê %1 re têkildar "
 "kiriye, lê Konqueror nikare van pelan veke."
 
-#: src/konqundomanager.cpp:110 src/konqundomanager.cpp:266
-msgid "Und&o: Closed Tab"
-msgstr "&Vegerîne: Hilfirînê Girtî"
+#: src/konqprofiledlg.cpp:111
+msgid "Profile Management"
+msgstr "Gerînendetiya Profîlan"
 
-#: src/konqundomanager.cpp:112 src/konqundomanager.cpp:120
-#: src/konqundomanager.cpp:162
-msgid "Und&o: Closed Window"
-msgstr "&Vegerîne: Paceya Girtî"
+#: src/konqprofiledlg.cpp:114
+msgid "&Rename Profile"
+msgstr "Profîlê Ji Nû Ve &Binavîne"
 
-#: src/konqundomanager.cpp:122
-msgid "Und&o"
-msgstr ""
-
-#: src/konqhistorymodel.cpp:137
-#, kde-format
-msgid ""
-"<qt><center><b>%1</b></center><hr />Last visited: %2<br />First visited: %"
-"3<br />Number of times visited: %4</qt>"
-msgstr ""
-"<qt><center><b>%1</b></center><hr />Serdana dawîn: %2<br />Serdana pêşîn: %"
-"3<br />Hejmara serdanan: %4</qt>"
-
-#: src/konqhistorymodel.cpp:233
-msgid "Local"
-msgstr ""
-
-#: src/konqhistorymodel.cpp:236
-msgid "Miscellaneous"
-msgstr "Cur be Cur"
-
-#: src/konqextensionmanager.cpp:54
-msgid "Configure"
-msgstr "Veavakirin"
-
-#: src/konqextensionmanager.cpp:74 src/konqextensionmanager.cpp:77
-#: src/konqextensionmanager.cpp:78
-msgid "Extensions"
-msgstr "Pêvek"
+#: src/konqprofiledlg.cpp:115
+msgid "&Delete Profile"
+msgstr "Profîlê &Jê Bibe"
 
 #: src/konqsessiondlg.cpp:77
 msgid "Manage Sessions"
@@ -1033,54 +1172,6 @@ msgstr "Danişîneke bi navê '%1' jixwe heye, dixwazî li serê binivîsî?"
 msgid "Session exists. Overwrite?"
 msgstr "Danişîn heye. Li serê binivîsî?"
 
-#: src/konqviewmanager.cpp:1404
-msgid ""
-"You have multiple tabs open in this window.\n"
-"Loading a view profile will close them."
-msgstr ""
-"Di vê paceyê de gelek hilfirîn vekirî ye.\n"
-"Heke tu profîleke nû ya bergehan bar bike wê van hilfirînan bigire."
-
-#: src/konqviewmanager.cpp:1407
-msgid "Load View Profile"
-msgstr "Profîla Xuyanekê Bar Bike"
-
-#: src/konqviewmanager.cpp:1419
-msgid ""
-"This tab contains changes that have not been submitted.\n"
-"Loading a profile will discard these changes."
-msgstr ""
-"Di vê hilfirînê de guherînên ku nehatine şandin heye.\n"
-"Heke tu profîleke nû bar bike wê hemû guherînan pişt guh re biavêjî."
-
-#: src/konqguiclients.cpp:66
-#, kde-format
-msgid "Preview &in %1"
-msgstr "Pêşdîtina &li %1"
-
-#: src/konqguiclients.cpp:135
-#, kde-format
-msgid "Show %1"
-msgstr "%1 nîşan bide"
-
-#: src/konqview.cpp:1199
-msgid ""
-"The page you are trying to view is the result of posted form data. If you "
-"resend the data, any action the form carried out (such as search or online "
-"purchase) will be repeated. "
-msgstr ""
-"Rûpelê ku tu ber çav derbas dikî encama daneya ku bi formê re hatiye şandin "
-"e. Daneya ku dîsa were şandin, wê agahiyên di formê de dîsa bibîne. (Wekî "
-"encamên lêgerînê yan jî wekî encamê danûstendinên girêdayînê) "
-
-#: src/konqview.cpp:1201
-msgid "Warning"
-msgstr "Hişyarî"
-
-#: src/konqview.cpp:1201
-msgid "Resend"
-msgstr "Ji nû ve bişîne"
-
 #: src/konqsessionmanager.cpp:330
 #, fuzzy
 #| msgid "Konqueror didn't close correctly. Would you like to restore session?"
@@ -1104,129 +1195,6 @@ msgstr "Şûnde neyne"
 #: src/konqsessionmanager.cpp:335
 msgid "Ask Me Later"
 msgstr "Paşê bipirse"
-
-#: src/konqframestatusbar.cpp:109
-msgid ""
-"Checking this box on at least two views sets those views as 'linked'. Then, "
-"when you change directories in one view, the other views linked with it will "
-"automatically update to show the current directory. This is especially "
-"useful with different types of views, such as a directory tree with an icon "
-"view or detailed view, and possibly a terminal emulator window."
-msgstr ""
-"Bi kêmanî heke tu didu awayan de vê qutiyê nîşan bikî, dê dîtinên navborî bi "
-"hev re bên girêdan. Bi vî rengî dema te di dîtinekê de pêrist guhart dê "
-"dîtinên din ên têkildar jî bixweber bêne rojanekirin ji bo pêristê nîşan "
-"bidin. Ev vebijêrk, bi taybetî di bikaranîna cureyên cuda yên dîtinê, mînak "
-"dara pêristeke bi dîtina dawêrî an jî dîtina bi kîtekît, bikêr tê."
-
-#: src/konqframestatusbar.cpp:156
-msgid "Close View"
-msgstr "Dîtinê Bigire"
-
-#: src/konqframestatusbar.cpp:236
-#, kde-format
-msgid "%1/s"
-msgstr "%1/s"
-
-#: src/konqframestatusbar.cpp:238
-msgid "Stalled"
-msgstr "Tê rawestandin"
-
-#: src/konqmain.cpp:96
-#, fuzzy
-#| msgid "Start without a default window"
-msgid "Start without a default window, when called without URLs"
-msgstr "Destpêka bi paceya belîkirî"
-
-#: src/konqmain.cpp:98
-msgid ""
-"Preload for later use. This mode does not support URLs on the command line"
-msgstr ""
-
-#: src/konqmain.cpp:100
-msgid "Profile to open"
-msgstr "Profîla ku dê vebe"
-
-#: src/konqmain.cpp:102
-msgid "List available profiles"
-msgstr "Profîlên ku dikarin bên xebitandin rêz bike"
-
-#: src/konqmain.cpp:104
-msgid "List available sessions"
-msgstr "Danişînên heyî rêz bike"
-
-#: src/konqmain.cpp:106
-msgid "Session to open"
-msgstr "Danişîna ku dê vebe"
-
-#: src/konqmain.cpp:108
-msgid "Mimetype to use for this URL (e.g. text/html or inode/directory)"
-msgstr ""
-"Cureyên Mime yên dê ji bo vê URL'yê bên bikaranîn (mînak. text/html an jî "
-"inode/directory)"
-
-#: src/konqmain.cpp:110
-msgid ""
-"For URLs that point to files, opens the directory and selects the file, "
-"instead of opening the actual file"
-msgstr ""
-"Di URL'yên ku pelan diyar dike de, li şûna ku pelê veke pêristê vedike û "
-"pelê hildibijêre."
-
-#: src/konqmain.cpp:112
-msgid "Location to open"
-msgstr "Cihê ku dê lê vebe"
-
-#: src/konqhistoryview.cpp:67
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:94
-#: sidebar/trees/konq_sidebartree.cpp:232
-msgid "Open in New Tab"
-msgstr "Di Hilfirîna Nû de Veke"
-
-#: src/konqhistoryview.cpp:71
-#, fuzzy
-#| msgid "Copy Link Address"
-msgid "&Copy Link Address"
-msgstr "Girêdana Navnîşanê Ji Ber Bigire"
-
-#: src/konqhistoryview.cpp:76
-msgid "&Remove Entry"
-msgstr "Ketanê %Jê Bibî"
-
-#: src/konqhistoryview.cpp:83
-msgid "C&lear History"
-msgstr "Rabirdûyê P&aqij Bike"
-
-#: src/konqhistoryview.cpp:88
-msgid "&Preferences..."
-msgstr "&Vebijêrk..."
-
-#: src/konqhistoryview.cpp:95
-msgid "By &Name"
-msgstr "Bi &Nav"
-
-#: src/konqhistoryview.cpp:101
-msgid "By &Date"
-msgstr "Bi &Dîrokê"
-
-#: src/konqhistoryview.cpp:111
-#, fuzzy
-#| msgid "Clear History"
-msgid "Search in history"
-msgstr "Dîrokê jê bibe"
-
-#: src/konqhistoryview.cpp:143 src/konqhistorydialog.cpp:61
-msgctxt "@action:inmenu Parent of 'By Name' and 'By Date'"
-msgid "Sort"
-msgstr "Rêz bike"
-
-#: src/konqhistoryview.cpp:171 sidebar/history_module/kcmhistory.cpp:254
-msgid "Do you really want to clear the entire history?"
-msgstr "Bi rastî jî tu dixwazî hemû rabirdûyê jê bibî?"
-
-#: src/konqhistoryview.cpp:172 sidebar/history_module/kcmhistory.cpp:256
-msgid "Clear History?"
-msgstr "Rabirdûyê Jê Bibî?"
 
 #: src/konqtabs.cpp:66
 #, fuzzy
@@ -1272,186 +1240,56 @@ msgstr "Hilfirînê Ji Hev V&eçirîne"
 msgid "&Close Tab"
 msgstr "Hilfirînê &Bigire"
 
-#: src/konqhistorydialog.cpp:45
-#, fuzzy
-#| msgid "Clear History"
-msgctxt "@title:window"
-msgid "History"
-msgstr "Dîrokê jê bibe"
+#: src/konqundomanager.cpp:110 src/konqundomanager.cpp:266
+msgid "Und&o: Closed Tab"
+msgstr "&Vegerîne: Hilfirînê Girtî"
 
-#: src/konqprofiledlg.cpp:111
-msgid "Profile Management"
-msgstr "Gerînendetiya Profîlan"
+#: src/konqundomanager.cpp:112 src/konqundomanager.cpp:120
+#: src/konqundomanager.cpp:162
+msgid "Und&o: Closed Window"
+msgstr "&Vegerîne: Paceya Girtî"
 
-#: src/konqprofiledlg.cpp:114
-msgid "&Rename Profile"
-msgstr "Profîlê Ji Nû Ve &Binavîne"
-
-#: src/konqprofiledlg.cpp:115
-msgid "&Delete Profile"
-msgstr "Profîlê &Jê Bibe"
-
-#: sidebar/web_module/web_module.cpp:57
-msgid "&Open Link"
-msgstr "Lînk &Veke"
-
-#: sidebar/web_module/web_module.cpp:73
-msgid "Set &Automatic Reload"
-msgstr "Barkirina &Bixweber Mîheng Bike"
-
-#: sidebar/web_module/web_module.cpp:137
-msgid "Set Refresh Timeout (0 disables)"
-msgstr "Maweya Nûkirinê Mîheng Bide (0 digire)"
-
-#: sidebar/web_module/web_module.cpp:145
-msgid " min"
-msgstr " xulek"
-
-#: sidebar/web_module/web_module.cpp:148
-msgid " sec"
-msgstr " çirke"
-
-#: sidebar/web_module/web_module.cpp:280
-#, fuzzy
-#| msgid "Web Sidebar"
-msgctxt "@action:inmenu Add"
-msgid "Web Sidebar Module"
-msgstr "Darikê Kêlekê yê Webê"
-
-#: sidebar/web_module/web_module.cpp:300
-#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
-#, fuzzy
-#| msgid "Name:"
-msgctxt "@label"
-msgid "Name:"
-msgstr "Nav:"
-
-#: sidebar/web_module/web_module.cpp:300
-#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
-msgctxt "@label"
-msgid "Path or URL:"
+#: src/konqundomanager.cpp:122
+msgid "Und&o"
 msgstr ""
 
-#: sidebar/web_module/web_module.cpp:301
-msgctxt "@title:window"
-msgid "Add web sidebar module"
-msgstr ""
-
-#: sidebar/trees/dirtree_module/dirtree_module.cpp:417
-#, kde-format
-msgid "Cannot find parent item %1 in the tree. Internal error."
-msgstr "Hêmana mak %1, li ser darê nayê dîtin. Çewtiya hundurîn."
-
-#: sidebar/trees/bookmark_module/bookmark_module.h:88
-msgid "Add Bookmark"
-msgstr "Bijareyekê lê zêde bike"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:74
-msgid "&Create New Folder"
-msgstr "&Peldaneke nû biafirîne"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:78
-#: sidebar/trees/konq_sidebartree.cpp:207
-msgid "Delete Folder"
-msgstr "Peldankê jê bibe"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:82
-msgid "Delete Bookmark"
-msgstr "Bijareyê Jê Bibe"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:86
-#: sidebar/trees/konq_sidebartree.cpp:224
-msgid "Properties"
-msgstr "Taybetmendî"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:90
-#: sidebar/trees/konq_sidebartree.cpp:228
-msgid "Open in New Window"
-msgstr "Di Paceyeke nû de Veke"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:98
-msgid "Open Folder in Tabs"
-msgstr "Di paceyekê nû de veke"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:102
-#: sidebar/trees/konq_sidebartree.cpp:236
-msgid "Copy Link Address"
-msgstr "Girêdana Navnîşanê Ji Ber Bigire"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:335
-#, kde-format
+#: src/konqview.cpp:1199
 msgid ""
-"Are you sure you wish to remove the bookmark folder\n"
-"\"%1\"?"
+"The page you are trying to view is the result of posted form data. If you "
+"resend the data, any action the form carried out (such as search or online "
+"purchase) will be repeated. "
 msgstr ""
-"Bi rastî jî tu dixwazî vê peldanka bijareyê jê bibî\n"
-"\"%1\""
+"Rûpelê ku tu ber çav derbas dikî encama daneya ku bi formê re hatiye şandin "
+"e. Daneya ku dîsa were şandin, wê agahiyên di formê de dîsa bibîne. (Wekî "
+"encamên lêgerînê yan jî wekî encamê danûstendinên girêdayînê) "
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:336
-#, kde-format
+#: src/konqview.cpp:1201
+msgid "Warning"
+msgstr "Hişyarî"
+
+#: src/konqview.cpp:1201
+msgid "Resend"
+msgstr "Ji nû ve bişîne"
+
+#: src/konqviewmanager.cpp:1404
 msgid ""
-"Are you sure you wish to remove the bookmark\n"
-"\"%1\"?"
+"You have multiple tabs open in this window.\n"
+"Loading a view profile will close them."
 msgstr ""
-"Bi rastî jî tu dixwazî vê bijareyê jê bibî\n"
-"\"%1\""
+"Di vê paceyê de gelek hilfirîn vekirî ye.\n"
+"Heke tu profîleke nû ya bergehan bar bike wê van hilfirînan bigire."
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:337
-msgid "Bookmark Folder Deletion"
-msgstr "Jêbirina Peldankên Bijareyan"
+#: src/konqviewmanager.cpp:1407
+msgid "Load View Profile"
+msgstr "Profîla Xuyanekê Bar Bike"
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:338
-msgid "Bookmark Deletion"
-msgstr "Jêbirina Bijareyan"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:380
-msgid "Bookmark Properties"
-msgstr "Taybetmendiyên Bijareyan"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:565
-msgid "&Update"
-msgstr "&Rojanekirin"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:573
-msgid "Name:"
-msgstr "Nav:"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:581
-msgid "Location:"
-msgstr "Herêm:"
-
-#: sidebar/trees/konq_sidebartree.cpp:203
-msgid "&Create New Folder..."
-msgstr "&Peldaneke nû biafirîne..."
-
-#: sidebar/trees/konq_sidebartree.cpp:211
-msgid "Move to Trash"
+#: src/konqviewmanager.cpp:1419
+msgid ""
+"This tab contains changes that have not been submitted.\n"
+"Loading a profile will discard these changes."
 msgstr ""
-
-#: sidebar/trees/konq_sidebartree.cpp:215
-msgid "Rename"
-msgstr "Nav biguherîne"
-
-#: sidebar/trees/konq_sidebartree.cpp:220
-msgid "Delete Link"
-msgstr "Girêdanê Jê Bibe"
-
-#: sidebar/trees/konq_sidebartree.cpp:951
-msgid "New Folder"
-msgstr "Peldanka Nû"
-
-#: sidebar/trees/konq_sidebartree.cpp:955
-msgid "Create New Folder"
-msgstr "Afirandina Peldanka Nû"
-
-#: sidebar/trees/konq_sidebartree.cpp:956
-msgid "Enter folder name:"
-msgstr "Navê peldankê binivîse:"
-
-#: sidebar/trees/konqsidebar_oldtreemodule.cpp:180
-msgctxt "@title:window"
-msgid "Add folder sidebar module"
-msgstr ""
+"Di vê hilfirînê de guherînên ku nehatine şandin heye.\n"
+"Heke tu profîleke nû bar bike wê hemû guherînan pişt guh re biavêjî."
 
 #: sidebar/history_module/history_module.cpp:126
 #, fuzzy
@@ -1614,6 +1452,168 @@ msgstr "Rakirin"
 #| msgid "Web Sidebar"
 msgid "Web module"
 msgstr "Darikê Kêlekê yê Webê"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:74
+msgid "&Create New Folder"
+msgstr "&Peldaneke nû biafirîne"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:78
+#: sidebar/trees/konq_sidebartree.cpp:207
+msgid "Delete Folder"
+msgstr "Peldankê jê bibe"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:82
+msgid "Delete Bookmark"
+msgstr "Bijareyê Jê Bibe"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:86
+#: sidebar/trees/konq_sidebartree.cpp:224
+msgid "Properties"
+msgstr "Taybetmendî"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:90
+#: sidebar/trees/konq_sidebartree.cpp:228
+msgid "Open in New Window"
+msgstr "Di Paceyeke nû de Veke"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:98
+msgid "Open Folder in Tabs"
+msgstr "Di paceyekê nû de veke"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:102
+#: sidebar/trees/konq_sidebartree.cpp:236
+msgid "Copy Link Address"
+msgstr "Girêdana Navnîşanê Ji Ber Bigire"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:335
+#, kde-format
+msgid ""
+"Are you sure you wish to remove the bookmark folder\n"
+"\"%1\"?"
+msgstr ""
+"Bi rastî jî tu dixwazî vê peldanka bijareyê jê bibî\n"
+"\"%1\""
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:336
+#, kde-format
+msgid ""
+"Are you sure you wish to remove the bookmark\n"
+"\"%1\"?"
+msgstr ""
+"Bi rastî jî tu dixwazî vê bijareyê jê bibî\n"
+"\"%1\""
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:337
+msgid "Bookmark Folder Deletion"
+msgstr "Jêbirina Peldankên Bijareyan"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:338
+msgid "Bookmark Deletion"
+msgstr "Jêbirina Bijareyan"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:380
+msgid "Bookmark Properties"
+msgstr "Taybetmendiyên Bijareyan"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:565
+msgid "&Update"
+msgstr "&Rojanekirin"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:573
+msgid "Name:"
+msgstr "Nav:"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:581
+msgid "Location:"
+msgstr "Herêm:"
+
+#: sidebar/trees/bookmark_module/bookmark_module.h:88
+msgid "Add Bookmark"
+msgstr "Bijareyekê lê zêde bike"
+
+#: sidebar/trees/dirtree_module/dirtree_module.cpp:417
+#, kde-format
+msgid "Cannot find parent item %1 in the tree. Internal error."
+msgstr "Hêmana mak %1, li ser darê nayê dîtin. Çewtiya hundurîn."
+
+#: sidebar/trees/konq_sidebartree.cpp:203
+msgid "&Create New Folder..."
+msgstr "&Peldaneke nû biafirîne..."
+
+#: sidebar/trees/konq_sidebartree.cpp:211
+msgid "Move to Trash"
+msgstr ""
+
+#: sidebar/trees/konq_sidebartree.cpp:215
+msgid "Rename"
+msgstr "Nav biguherîne"
+
+#: sidebar/trees/konq_sidebartree.cpp:220
+msgid "Delete Link"
+msgstr "Girêdanê Jê Bibe"
+
+#: sidebar/trees/konq_sidebartree.cpp:951
+msgid "New Folder"
+msgstr "Peldanka Nû"
+
+#: sidebar/trees/konq_sidebartree.cpp:955
+msgid "Create New Folder"
+msgstr "Afirandina Peldanka Nû"
+
+#: sidebar/trees/konq_sidebartree.cpp:956
+msgid "Enter folder name:"
+msgstr "Navê peldankê binivîse:"
+
+#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
+#: sidebar/web_module/web_module.cpp:300
+#, fuzzy
+#| msgid "Name:"
+msgctxt "@label"
+msgid "Name:"
+msgstr "Nav:"
+
+#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
+#: sidebar/web_module/web_module.cpp:300
+msgctxt "@label"
+msgid "Path or URL:"
+msgstr ""
+
+#: sidebar/trees/konqsidebar_oldtreemodule.cpp:180
+msgctxt "@title:window"
+msgid "Add folder sidebar module"
+msgstr ""
+
+#: sidebar/web_module/web_module.cpp:57
+msgid "&Open Link"
+msgstr "Lînk &Veke"
+
+#: sidebar/web_module/web_module.cpp:73
+msgid "Set &Automatic Reload"
+msgstr "Barkirina &Bixweber Mîheng Bike"
+
+#: sidebar/web_module/web_module.cpp:137
+msgid "Set Refresh Timeout (0 disables)"
+msgstr "Maweya Nûkirinê Mîheng Bide (0 digire)"
+
+#: sidebar/web_module/web_module.cpp:145
+msgid " min"
+msgstr " xulek"
+
+#: sidebar/web_module/web_module.cpp:148
+msgid " sec"
+msgstr " çirke"
+
+#: sidebar/web_module/web_module.cpp:280
+#, fuzzy
+#| msgid "Web Sidebar"
+msgctxt "@action:inmenu Add"
+msgid "Web Sidebar Module"
+msgstr "Darikê Kêlekê yê Webê"
+
+#: sidebar/web_module/web_module.cpp:301
+msgctxt "@title:window"
+msgid "Add web sidebar module"
+msgstr ""
 
 #: about/konq_aboutpage.cc:79 about/konq_aboutpage.cc:81
 #: about/konq_aboutpage.cc:135 about/konq_aboutpage.cc:137
