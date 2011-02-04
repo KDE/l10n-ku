@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-02 03:38+0100\n"
+"POT-Creation-Date: 2011-02-04 02:57+0100\n"
 "PO-Revision-Date: 2007-12-17 01:31+0100\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
@@ -83,10 +83,6 @@ msgstr ""
 msgid "Convert to Path"
 msgstr ""
 
-#: flake/commands/KoPathBreakAtPointCommand.cpp:38
-msgid "Break Subpath at Points"
-msgstr ""
-
 #: flake/commands/KoPathCombineCommand.cpp:58
 msgid "Combine paths"
 msgstr ""
@@ -97,6 +93,14 @@ msgstr ""
 
 #: flake/commands/KoPathFillRuleCommand.cpp:44
 msgid "Set Fill Rule"
+msgstr ""
+
+#: flake/commands/KoShapeGroupCommand.cpp:93
+msgid "Group Shapes"
+msgstr ""
+
+#: flake/commands/KoShapeGroupCommand.cpp:95
+msgid "Add Shapes to Group"
 msgstr ""
 
 #: flake/commands/KoPathPointMergeCommand.cpp:152
@@ -169,14 +173,6 @@ msgstr ""
 msgid "Distribute Shapes"
 msgstr ""
 
-#: flake/commands/KoShapeGroupCommand.cpp:93
-msgid "Group Shapes"
-msgstr ""
-
-#: flake/commands/KoShapeGroupCommand.cpp:95
-msgid "Add Shapes to Group"
-msgstr ""
-
 #: flake/commands/KoShapeKeepAspectRatioCommand.cpp:40
 msgid "Keep Aspect Ratio"
 msgstr ""
@@ -229,6 +225,10 @@ msgstr ""
 msgid "Remove Subpath"
 msgstr ""
 
+#: flake/commands/KoPathBreakAtPointCommand.cpp:38
+msgid "Break Subpath at Points"
+msgstr ""
+
 #: flake/tools/KoCreatePathTool.cpp:369 flake/tools/KoPathTool.cpp:181
 msgid "Snapping"
 msgstr ""
@@ -251,10 +251,6 @@ msgstr ""
 
 #: flake/tools/KoPanToolFactory.cpp:29
 msgid "Pan"
-msgstr ""
-
-#: flake/tools/KoPathSegmentChangeStrategy.cpp:145
-msgid "Change Segment"
 msgstr ""
 
 #: flake/tools/KoPathTool.cpp:87
@@ -344,6 +340,10 @@ msgstr ""
 #: flake/tools/KoZoomToolFactory.cpp:29 widgets/KoZoomAction.cpp:248
 #: widgets/KoZoomController.cpp:38 widgets/KoZoomInput.cpp:52
 msgid "Zoom"
+msgstr ""
+
+#: flake/tools/KoPathSegmentChangeStrategy.cpp:145
+msgid "Change Segment"
 msgstr ""
 
 #: kokross/KoScriptManager.cpp:177
@@ -599,11 +599,6 @@ msgstr ""
 msgid "Paste"
 msgstr ""
 
-#: kopageapp/KoPAPageThumbnailModel.cpp:69
-#, kde-format
-msgid "Page %1"
-msgstr ""
-
 #: kopageapp/KoPAPastePage.cpp:132
 msgid "Paste Slide"
 msgid_plural "Paste Slides"
@@ -830,6 +825,11 @@ msgstr ""
 msgid "Change background image"
 msgstr ""
 
+#: kopageapp/KoPAPageThumbnailModel.cpp:69
+#, kde-format
+msgid "Page %1"
+msgstr ""
+
 #: kotext/InsertTextLocator.cpp:29
 msgid "Index Reference"
 msgstr ""
@@ -875,21 +875,6 @@ msgstr[1] ""
 #: kotext/KoReplaceStrategy.cpp:74
 #, kde-format
 msgid "Replace %1 with %2?"
-msgstr ""
-
-#: kotext/KoText.cpp:29
-msgctxt "Underline Style"
-msgid "None"
-msgstr ""
-
-#: kotext/KoText.cpp:30
-msgctxt "Underline Style"
-msgid "Single"
-msgstr ""
-
-#: kotext/KoText.cpp:31
-msgctxt "Underline Style"
-msgid "Double"
 msgstr ""
 
 #: kotext/KoTextEditor.cpp:105 kotext/KoTextEditor.cpp:161
@@ -1003,6 +988,21 @@ msgstr ""
 #. i18n: ectx: attribute (title), widget (QWidget, m_formatTab)
 #: kotext/KoTextEditor_p.h:83 kotext/KoTextEditor_p.h:120 rc.cpp:348
 msgid "Format"
+msgstr ""
+
+#: kotext/KoText.cpp:47
+msgctxt "Underline Style"
+msgid "None"
+msgstr ""
+
+#: kotext/KoText.cpp:48
+msgctxt "Underline Style"
+msgid "Single"
+msgstr ""
+
+#: kotext/KoText.cpp:49
+msgctxt "Underline Style"
+msgid "Double"
 msgstr ""
 
 #: main/KoApplication.cpp:77
@@ -1310,7 +1310,7 @@ msgstr ""
 msgid "a drawing"
 msgstr ""
 
-#: main/KoDocument.cpp:2504
+#: main/KoDocument.cpp:2499
 msgid "Embedding Object"
 msgstr ""
 
@@ -2390,10 +2390,6 @@ msgstr ""
 msgid "b*"
 msgstr ""
 
-#: pigment/KoBasicHistogramProducers.h:231
-msgid "Generic L*a*b* Histogram"
-msgstr ""
-
 #: pigment/KoColorModelStandardIds.cpp:25
 #: pigment/colorspaces/KoAlphaColorSpace.cpp:261
 #: pigment/colorspaces/KoLabColorSpace.cpp:44
@@ -2545,10 +2541,6 @@ msgstr ""
 msgid "Simple Color Conversion Engine"
 msgstr ""
 
-#: pigment/compositeops/KoCompositeOpAlphaDarken.h:42
-msgid "Alpha darken"
-msgstr ""
-
 #: pigment/compositeops/KoCompositeOpBurn.h:36
 msgid "Burn"
 msgstr ""
@@ -2589,8 +2581,16 @@ msgstr ""
 msgid "Soft light"
 msgstr ""
 
+#: pigment/compositeops/KoCompositeOpAlphaDarken.h:42
+msgid "Alpha darken"
+msgstr ""
+
 #: pigment/resources/KoStopGradient.cpp:421
 msgid "SVG Gradient"
+msgstr ""
+
+#: pigment/KoBasicHistogramProducers.h:231
+msgid "Generic L*a*b* Histogram"
 msgstr ""
 
 #: widgets/KoColorPopupAction.cpp:85 widgets/KoUniColorChooser.cpp:418
