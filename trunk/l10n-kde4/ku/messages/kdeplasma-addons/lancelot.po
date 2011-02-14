@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lancelot\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-08 02:43+0100\n"
+"POT-Creation-Date: 2011-02-14 11:51+0100\n"
 "PO-Revision-Date: 2009-01-11 21:29+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -60,14 +60,6 @@ msgstr "Robert Knight"
 #: application/AboutData.cpp:49
 msgid "Kickoff data models"
 msgstr "Kickoff modelên dane"
-
-#: application/LancelotConfig.cpp:50
-msgid "Available Features"
-msgstr ""
-
-#: application/LancelotConfig.cpp:54 application/ui_LancelotWindowBase.h:149
-msgid "Search"
-msgstr "Lê Bigere"
 
 #: application/LancelotWindow.cpp:128 parts/LancelotPart.cpp:149
 #, fuzzy
@@ -191,7 +183,7 @@ msgstr ""
 msgid "Open Lancelot menu"
 msgstr "Pêşeka Lancelot veke"
 
-#: application/LancelotWindow.cpp:1074 launcher/LancelotApplet.cpp:442
+#: application/LancelotWindow.cpp:1074 launcher/LancelotApplet.cpp:455
 msgid "Menu Editor"
 msgstr "Edîtorê Pêşekê"
 
@@ -227,6 +219,10 @@ msgstr "destpêkirina %1"
 msgid "e-Mail contacts"
 msgstr "têkiliyên e-Peyam"
 
+#: application/ui_LancelotWindowBase.h:149 application/LancelotConfig.cpp:54
+msgid "Search"
+msgstr "Lê Bigere"
+
 #: application/ui_LancelotWindowBase.h:174
 msgid "Lock Session"
 msgstr "Danişînê Qufl Bike"
@@ -238,6 +234,10 @@ msgstr "Derkeve"
 #: application/ui_LancelotWindowBase.h:176
 msgid "Switch User"
 msgstr "Bikarhêner Biguherîne"
+
+#: application/LancelotConfig.cpp:50
+msgid "Available Features"
+msgstr ""
 
 #: launcher/LancelotApplet.cpp:388
 #, fuzzy
@@ -259,7 +259,7 @@ msgstr ""
 msgid "Lancelot Menu"
 msgstr "Pêşeka Lancelot veke"
 
-#: launcher/LancelotApplet.cpp:436
+#: launcher/LancelotApplet.cpp:449
 #, fuzzy
 #| msgid "Configure &Shortcuts..."
 msgid "Configure Shortcuts..."
@@ -283,26 +283,6 @@ msgstr "&Li vir Destpê Bike"
 msgctxt "Choose a custom icon"
 msgid "Custom"
 msgstr "Taybe&t"
-
-#: parts/LancelotPart.cpp:251
-msgid "Shelf"
-msgstr ""
-
-#: parts/LancelotPart.cpp:508
-#, fuzzy
-#| msgid "Contacts"
-msgid "Contents"
-msgstr "Têkilî"
-
-#: parts/LancelotPart.cpp:509
-msgid "Advanced"
-msgstr ""
-
-#: parts/LancelotPartConfig.cpp:52
-#, fuzzy
-#| msgid "Removable"
-msgid "Remove"
-msgstr "Guhêzbar"
 
 #: parts/PartsMergedModel.cpp:68
 #, fuzzy
@@ -346,6 +326,26 @@ msgstr "Belgeyên hatine bikaranîn"
 #| msgid "Applications"
 msgid "Favorite Applications"
 msgstr "Sepan"
+
+#: parts/LancelotPart.cpp:251
+msgid "Shelf"
+msgstr ""
+
+#: parts/LancelotPart.cpp:508
+#, fuzzy
+#| msgid "Contacts"
+msgid "Contents"
+msgstr "Têkilî"
+
+#: parts/LancelotPart.cpp:509
+msgid "Advanced"
+msgstr ""
+
+#: parts/LancelotPartConfig.cpp:52
+#, fuzzy
+#| msgid "Removable"
+msgid "Remove"
+msgstr "Guhêzbar"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
