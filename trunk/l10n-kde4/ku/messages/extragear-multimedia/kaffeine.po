@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaffeine\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-15 03:20+0100\n"
+"POT-Creation-Date: 2011-02-16 03:10+0100\n"
 "PO-Revision-Date: 2008-12-20 16:02+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -767,6 +767,10 @@ msgstr ""
 msgid "Device %1"
 msgstr "Cîhaza %1"
 
+#: dvb/dvbconfigdialog.cpp:382
+msgid "Update Scan Data"
+msgstr ""
+
 #: dvb/dvbconfigdialog.cpp:389
 msgid "Downloading scan data"
 msgstr ""
@@ -980,63 +984,62 @@ msgid "Program Guide"
 msgstr ""
 
 #: dvb/dvbepgdialog.cpp:59
-msgctxt "program guide"
-msgid "Schedule Program"
+msgctxt "@action:inmenu tv show"
+msgid "Record Show"
 msgstr ""
 
-#: dvb/dvbepgdialog.cpp:68 dvb/dvbtab.cpp:136
+#: dvb/dvbepgdialog.cpp:68
+#, fuzzy
+#| msgid "Search:"
+msgctxt "@label:textbox"
 msgid "Search:"
 msgstr "Lêgere:"
 
-#: dvb/dvbepgdialog.cpp:148
+#: dvb/dvbepgdialog.cpp:149
 #, kde-format
+msgctxt "@info tv show title"
 msgid "<font color=#008000 size=\"+1\">%1</font><br>"
 msgstr ""
 
-#: dvb/dvbepgdialog.cpp:151
+#: dvb/dvbepgdialog.cpp:152
 #, kde-format
+msgctxt "@info tv show subheading"
 msgid "<font color=#808000>%1</font><br>"
 msgstr ""
 
-#: dvb/dvbepgdialog.cpp:157
+#: dvb/dvbepgdialog.cpp:159
 #, kde-format
+msgctxt "@info tv show start, end"
 msgid "<font color=#800000>%1 - %2</font><br><br>"
 msgstr ""
 
-#: dvb/dvbepgdialog.cpp:249
+#: dvb/dvbepgdialog.cpp:251 dvb/dvbepgdialog.cpp:421
 #, fuzzy
-#| msgid "Name"
-msgctxt "@title:column tv channel name"
-msgid "Name"
-msgstr "Nav"
+#| msgid "Channels"
+msgctxt "@title:column tv show"
+msgid "Channel"
+msgstr "Kanal"
 
-#: dvb/dvbepgdialog.cpp:413
+#: dvb/dvbepgdialog.cpp:415
 #, fuzzy
 #| msgid "Start"
 msgctxt "@title:column tv show"
 msgid "Start"
 msgstr "Destpê bide "
 
-#: dvb/dvbepgdialog.cpp:415
+#: dvb/dvbepgdialog.cpp:417
 #, fuzzy
 #| msgid "Configuration:"
 msgctxt "@title:column tv show"
 msgid "Duration"
 msgstr "Mîhengkirin:"
 
-#: dvb/dvbepgdialog.cpp:417
+#: dvb/dvbepgdialog.cpp:419
 #, fuzzy
 #| msgid "&File"
 msgctxt "@title:column tv show"
 msgid "Title"
 msgstr "&Pel"
-
-#: dvb/dvbepgdialog.cpp:419
-#, fuzzy
-#| msgid "Channels"
-msgctxt "@title:column tv show"
-msgid "Channel"
-msgstr "Kanal"
 
 #: dvb/dvbliveview.cpp:207 dvb/dvbliveview.cpp:352 dvb/dvbscandialog.cpp:426
 #, fuzzy
@@ -1249,6 +1252,10 @@ msgctxt "@action:inmenu"
 msgid "Configure Television..."
 msgstr "Kanal Mîhang Bike"
 
+#: dvb/dvbtab.cpp:136
+msgid "Search:"
+msgstr "Lêgere:"
+
 #: dvb/dvbtab.cpp:296
 #, fuzzy, kde-format
 #| msgid "Channels"
@@ -1350,6 +1357,12 @@ msgid ""
 "*.m3u|M3U Playlist\n"
 "*.pls|PLS Playlist"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Name"
+#~ msgctxt "@title:column tv channel name"
+#~ msgid "Name"
+#~ msgstr "Nav"
 
 #, fuzzy
 #~| msgid "Scan file last updated<br>on %1"
