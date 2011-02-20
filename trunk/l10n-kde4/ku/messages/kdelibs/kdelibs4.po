@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-15 03:32+0100\n"
+"POT-Creation-Date: 2011-02-20 03:34+0100\n"
 "PO-Revision-Date: 2010-08-13 15:45+0200\n"
 "Last-Translator: Erdal Ronahî <erdal.ronahi@gmail.com>\n"
 "Language-Team: Kurdish Team http://pckurd.net\n"
@@ -6013,7 +6013,7 @@ msgid "Reset Toolbars"
 msgstr "Darikên Amûran Vegerîne Serî"
 
 #: kdeui/dialogs/kedittoolbar.cpp:602 khtml/khtmlview.cpp:2811
-#: khtml/khtmlview.cpp:2844 khtml/html/html_formimpl.cpp:1836
+#: khtml/khtmlview.cpp:2844 khtml/html/html_formimpl.cpp:1839
 msgid "Reset"
 msgstr "Vesazkirin"
 
@@ -10079,7 +10079,7 @@ msgid "Access Keys activated"
 msgstr "Bişkokên Gihiştînê Hatine Çalakkirin"
 
 #: khtml/khtmlview.cpp:2797 khtml/khtmlview.cpp:2839 khtml/khtml_part.cpp:4761
-#: khtml/html/html_formimpl.cpp:1632 khtml/html/html_formimpl.cpp:1844
+#: khtml/html/html_formimpl.cpp:1635 khtml/html/html_formimpl.cpp:1847
 msgid "Submit"
 msgstr "Şandin"
 
@@ -10682,37 +10682,9 @@ msgstr "JavaScript"
 msgid "&Stop Script"
 msgstr "&Skrîptê Rawestîne"
 
-#: khtml/ecma/kjs_html.cpp:2168 khtml/ecma/kjs_window.cpp:1650
+#: khtml/ecma/kjs_window.cpp:1650 khtml/ecma/kjs_html.cpp:2174
 msgid "Confirmation: JavaScript Popup"
 msgstr "Erêkirin: Paceya Javascriptê"
-
-#: khtml/ecma/kjs_html.cpp:2170
-msgid ""
-"This site is submitting a form which will open up a new browser window via "
-"JavaScript.\n"
-"Do you want to allow the form to be submitted?"
-msgstr ""
-"Ev malper dixwaze Javascriptê bikar bîne û di paceyeke nû de formekê veke.\n"
-"Tu destûrê didî şandina formê?"
-
-#: khtml/ecma/kjs_html.cpp:2173
-#, kde-format
-msgid ""
-"<qt>This site is submitting a form which will open <p>%1</p> in a new "
-"browser window via JavaScript.<br />Do you want to allow the form to be "
-"submitted?</qt>"
-msgstr ""
-"<qt>Ev malper dixwazî bi alîkariya JavaSkrîptê di paceyeke nû ya gerokê de, "
-"<p>%1</p> veke û daxwaz dike ku formekê bişîne.<br />Tu destûrê didî şandina "
-"formê?</qt>"
-
-#: khtml/ecma/kjs_html.cpp:2175 khtml/ecma/kjs_window.cpp:1658
-msgid "Allow"
-msgstr "Desturê Bide"
-
-#: khtml/ecma/kjs_html.cpp:2175 khtml/ecma/kjs_window.cpp:1658
-msgid "Do Not Allow"
-msgstr "Destûrê Nede"
 
 #: khtml/ecma/kjs_window.cpp:1653
 msgid ""
@@ -10730,6 +10702,14 @@ msgid ""
 msgstr ""
 "<qt>Ev malper, dixwazî bi Javaskrîptê di hundirê paceya gerokeke nû de <p>%"
 "1</p> veke.<br />Tu yê destûrê bide vî tiştî?</qt>"
+
+#: khtml/ecma/kjs_window.cpp:1658 khtml/ecma/kjs_html.cpp:2181
+msgid "Allow"
+msgstr "Desturê Bide"
+
+#: khtml/ecma/kjs_window.cpp:1658 khtml/ecma/kjs_html.cpp:2181
+msgid "Do Not Allow"
+msgstr "Destûrê Nede"
 
 #: khtml/ecma/kjs_window.cpp:1971
 msgid "Close window?"
@@ -10768,6 +10748,26 @@ msgstr "Têxe Nav"
 #: khtml/ecma/kjs_window.cpp:2883
 msgid "Disallow"
 msgstr "Destûrê nede"
+
+#: khtml/ecma/kjs_html.cpp:2176
+msgid ""
+"This site is submitting a form which will open up a new browser window via "
+"JavaScript.\n"
+"Do you want to allow the form to be submitted?"
+msgstr ""
+"Ev malper dixwaze Javascriptê bikar bîne û di paceyeke nû de formekê veke.\n"
+"Tu destûrê didî şandina formê?"
+
+#: khtml/ecma/kjs_html.cpp:2179
+#, kde-format
+msgid ""
+"<qt>This site is submitting a form which will open <p>%1</p> in a new "
+"browser window via JavaScript.<br />Do you want to allow the form to be "
+"submitted?</qt>"
+msgstr ""
+"<qt>Ev malper dixwazî bi alîkariya JavaSkrîptê di paceyeke nû ya gerokê de, "
+"<p>%1</p> veke û daxwaz dike ku formekê bişîne.<br />Tu destûrê didî şandina "
+"formê?</qt>"
 
 #: khtml/ecma/debugger/consoledock.cpp:220
 msgid "Console"
@@ -10894,6 +10894,31 @@ msgstr "Bang"
 msgid "Line"
 msgstr "Rêz"
 
+#: khtml/html/html_objectimpl.cpp:610
+#, kde-format
+msgid ""
+"No plugin found for '%1'.\n"
+"Do you want to download one from %2?"
+msgstr ""
+"Ji bo '%1'  pêvek nehate dîtin.\n"
+"Tu dixwazî vê pêvekê ji malpera %2 daxe?"
+
+#: khtml/html/html_objectimpl.cpp:611
+msgid "Missing Plugin"
+msgstr "Pêvek Nehate Dîtin"
+
+#: khtml/html/html_objectimpl.cpp:611
+msgid "Download"
+msgstr "Daxîne"
+
+#: khtml/html/html_objectimpl.cpp:611
+msgid "Do Not Download"
+msgstr "Danexe"
+
+#: khtml/html/htmlparser.cpp:1938
+msgid "This is a searchable index. Enter search keywords: "
+msgstr "Ev pêristeke lêgerînê ya derbasbare. şîfreya lêgerînê derbaske: "
+
 #: khtml/html/html_formimpl.cpp:422
 msgid ""
 "The following files will not be uploaded because they could not be found.\n"
@@ -10929,34 +10954,9 @@ msgid_plural "&Send Files"
 msgstr[0] "Pel &Bişîne"
 msgstr[1] "Pelan &Bişîne"
 
-#: khtml/html/html_formimpl.cpp:2688
+#: khtml/html/html_formimpl.cpp:2701
 msgid "Key Generator"
 msgstr "Afirandera Nifteyan"
-
-#: khtml/html/html_objectimpl.cpp:610
-#, kde-format
-msgid ""
-"No plugin found for '%1'.\n"
-"Do you want to download one from %2?"
-msgstr ""
-"Ji bo '%1'  pêvek nehate dîtin.\n"
-"Tu dixwazî vê pêvekê ji malpera %2 daxe?"
-
-#: khtml/html/html_objectimpl.cpp:611
-msgid "Missing Plugin"
-msgstr "Pêvek Nehate Dîtin"
-
-#: khtml/html/html_objectimpl.cpp:611
-msgid "Download"
-msgstr "Daxîne"
-
-#: khtml/html/html_objectimpl.cpp:611
-msgid "Do Not Download"
-msgstr "Danexe"
-
-#: khtml/html/htmlparser.cpp:1938
-msgid "This is a searchable index. Enter search keywords: "
-msgstr "Ev pêristeke lêgerînê ya derbasbare. şîfreya lêgerînê derbaske: "
 
 #: khtml/java/kjavaapplet.cpp:224
 #, kde-format
