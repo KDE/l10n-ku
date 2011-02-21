@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-18 03:30+0100\n"
+"POT-Creation-Date: 2011-02-21 03:38+0100\n"
 "PO-Revision-Date: 2009-01-06 03:15+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <gnu-ku-wergerandin at lists dot sourceforge dot "
@@ -784,13 +784,13 @@ msgctxt "Special entry in alt+tab list for minimizing all windows"
 msgid "Show Desktop"
 msgstr "Izxere ya Sermasê Nîşan Bide"
 
-#: tiling.cpp:74
+#: tiling.cpp:73
 #, fuzzy
 #| msgid "Disabled"
 msgid "Tiling Disabled"
 msgstr "Neçalak"
 
-#: tiling.cpp:78
+#: tiling.cpp:77
 msgid "Tiling Enabled"
 msgstr ""
 
@@ -1023,86 +1023,65 @@ msgstr ""
 msgid "&Terminate Application %1"
 msgstr ""
 
-#: lib/kcommondecoration.cpp:291
-#, fuzzy, kde-format
-#| msgid "<center><b>%1 preview</b></center>"
-msgid "<center><b>%1</b></center>"
-msgstr "<center><b>Pêşdîtina %1</b></center>"
-
-#: lib/kcommondecoration.cpp:381
-msgid "Menu"
-msgstr "Pêşek"
-
-#: lib/kcommondecoration.cpp:397 lib/kcommondecoration.cpp:607
-msgid "Not on all desktops"
-msgstr "Ne di hemû sermase yan de"
-
-#: lib/kcommondecoration.cpp:397 lib/kcommondecoration.cpp:608
-msgid "On all desktops"
-msgstr "Di Hemû Sermase yan de"
-
-#: lib/kcommondecoration.cpp:412
-msgid "Help"
-msgstr "Alîkarî"
-
-#: lib/kcommondecoration.cpp:425
-msgid "Minimize"
-msgstr "Biçûktirîn"
-
-#: lib/kcommondecoration.cpp:440 lib/kcommondecoration.cpp:595
-msgid "Restore"
-msgstr "Asayî"
-
-#: lib/kcommondecoration.cpp:440 lib/kcommondecoration.cpp:594
-msgid "Maximize"
-msgstr "Mezintirîn"
-
-#: lib/kcommondecoration.cpp:455
-msgid "Close"
-msgstr "Dadan"
-
-#: lib/kcommondecoration.cpp:469 lib/kcommondecoration.cpp:648
-msgid "Do not keep above others"
-msgstr "Li ser yên din negire"
-
-#: lib/kcommondecoration.cpp:469 lib/kcommondecoration.cpp:648
-#: lib/kcommondecoration.cpp:669
-msgid "Keep above others"
-msgstr "Li ser yên din bigire"
-
-#: lib/kcommondecoration.cpp:485 lib/kcommondecoration.cpp:663
-msgid "Do not keep below others"
-msgstr "Li bin yên din negire"
-
-#: lib/kcommondecoration.cpp:485 lib/kcommondecoration.cpp:654
-#: lib/kcommondecoration.cpp:663
-msgid "Keep below others"
-msgstr "Li bin yên din bigire"
-
-#: lib/kcommondecoration.cpp:501 lib/kcommondecoration.cpp:619
-msgid "Unshade"
-msgstr "Bê Sî"
-
-#: lib/kcommondecoration.cpp:501 lib/kcommondecoration.cpp:620
-msgid "Shade"
-msgstr "Sî"
-
-#: lib/kdecoration_plugins_p.cpp:128
-msgid "No window decoration plugin library was found."
-msgstr "Tu pirtûkxane ya pêvekên xemilandina paceyê nehat dîtin."
-
-#: lib/kdecoration_plugins_p.cpp:153
-msgid "The default decoration plugin is corrupt and could not be loaded."
-msgstr "Pêveka xemilandinê yê standard xêrab bûye û nayê bar kirin."
-
-#: lib/kdecoration_plugins_p.cpp:165 lib/kdecoration_plugins_p.cpp:170
-#, kde-format
-msgid "The library %1 is not a KWin plugin."
-msgstr "Pirtûkxane ya %1 pêveka KWin nîn e."
-
 #: tabbox/clientmodel.cpp:56
 msgid "*** No Windows ***"
 msgstr "***Pace Tuneye***"
+
+#, fuzzy
+#~| msgid "<center><b>%1 preview</b></center>"
+#~ msgid "<center><b>%1</b></center>"
+#~ msgstr "<center><b>Pêşdîtina %1</b></center>"
+
+#~ msgid "Menu"
+#~ msgstr "Pêşek"
+
+#~ msgid "Not on all desktops"
+#~ msgstr "Ne di hemû sermase yan de"
+
+#~ msgid "On all desktops"
+#~ msgstr "Di Hemû Sermase yan de"
+
+#~ msgid "Help"
+#~ msgstr "Alîkarî"
+
+#~ msgid "Minimize"
+#~ msgstr "Biçûktirîn"
+
+#~ msgid "Restore"
+#~ msgstr "Asayî"
+
+#~ msgid "Maximize"
+#~ msgstr "Mezintirîn"
+
+#~ msgid "Close"
+#~ msgstr "Dadan"
+
+#~ msgid "Do not keep above others"
+#~ msgstr "Li ser yên din negire"
+
+#~ msgid "Keep above others"
+#~ msgstr "Li ser yên din bigire"
+
+#~ msgid "Do not keep below others"
+#~ msgstr "Li bin yên din negire"
+
+#~ msgid "Keep below others"
+#~ msgstr "Li bin yên din bigire"
+
+#~ msgid "Unshade"
+#~ msgstr "Bê Sî"
+
+#~ msgid "Shade"
+#~ msgstr "Sî"
+
+#~ msgid "No window decoration plugin library was found."
+#~ msgstr "Tu pirtûkxane ya pêvekên xemilandina paceyê nehat dîtin."
+
+#~ msgid "The default decoration plugin is corrupt and could not be loaded."
+#~ msgstr "Pêveka xemilandinê yê standard xêrab bûye û nayê bar kirin."
+
+#~ msgid "The library %1 is not a KWin plugin."
+#~ msgstr "Pirtûkxane ya %1 pêveka KWin nîn e."
 
 #, fuzzy
 #~| msgid "Toggle Video Recording"
