@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-21 03:29+0100\n"
+"POT-Creation-Date: 2011-02-23 03:16+0100\n"
 "PO-Revision-Date: 2009-02-21 06:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -328,6 +328,7 @@ msgid "<b>%1</b> on <b>%2</b>"
 msgstr "<b>%1</b> di <b>%2</b> de"
 
 #: EngineController.cpp:1386
+#: core-impl/collections/mediadevicecollection/MediaDeviceMeta.cpp:152
 msgid "Unknown track"
 msgstr "Strana nenas"
 
@@ -2210,6 +2211,7 @@ msgid "Show Year In Media Sources"
 msgstr "Pêveka Dosiya Çavkaniyê"
 
 #: context/applets/currenttrack/CurrentTrack.h:38
+#: core-impl/collections/mediadevicecollection/MediaDeviceMeta.cpp:150
 #: core-impl/collections/mtpcollection/handler/MtpHandler.cpp:417
 #: core/meta/Meta.cpp:394 covermanager/CoverFetchUnit.cpp:595
 #: covermanager/CoverFetchUnit.cpp:605
@@ -5180,64 +5182,6 @@ msgstr "Rûgir tê anîn ji bo %1..."
 msgid "Unable to find a cover for '%1'."
 msgstr "Rûgir tê anîn ji bo %1..."
 
-#: covermanager/CoverFetchingActions.cpp:47
-msgid "Fetch Cover"
-msgid_plural "Fetch Covers"
-msgstr[0] "Rûgirê Albumê Bîne"
-msgstr[1] "Rûgirên Albumê Bîne"
-
-#: covermanager/CoverFetchingActions.cpp:49
-#, kde-format
-msgid "Fetch the artwork for this album"
-msgid_plural "Fetch artwork for %1 albums"
-msgstr[0] ""
-msgstr[1] ""
-
-#: covermanager/CoverFetchingActions.cpp:69
-#: covermanager/CoverFoundDialog.cpp:358
-msgid "Display Cover"
-msgstr "Rûgirê Albumê Nîşan Bide"
-
-#: covermanager/CoverFetchingActions.cpp:71
-msgid "Display artwork for this album"
-msgstr ""
-
-#: covermanager/CoverFetchingActions.cpp:89
-msgid "Unset Cover"
-msgid_plural "Unset Covers"
-msgstr[0] "Rûgirê Albumê Ne-ava Bike"
-msgstr[1] "Rûgirên Albumê Ne-ava Bike"
-
-#: covermanager/CoverFetchingActions.cpp:91
-#, kde-format
-msgid "Remove artwork for this album"
-msgid_plural "Remove artwork for %1 albums"
-msgstr[0] ""
-msgstr[1] ""
-
-#: covermanager/CoverFetchingActions.cpp:104
-#, kde-format
-msgid "Are you sure you want to remove this cover from the Collection?"
-msgid_plural ""
-"Are you sure you want to delete these %1 covers from the Collection?"
-msgstr[0] ""
-msgstr[1] ""
-
-#: covermanager/CoverFetchingActions.cpp:127
-msgid "Set Custom Cover"
-msgstr "Rûgirê Albumê yê Taybet Ava Bike"
-
-#: covermanager/CoverFetchingActions.cpp:129
-#, kde-format
-msgid "Set custom artwork for this album"
-msgid_plural "Set custom artwork for these %1 albums"
-msgstr[0] ""
-msgstr[1] ""
-
-#: covermanager/CoverFetchingActions.cpp:155
-msgid "Select Cover Image File"
-msgstr "Pela Wêneya Rûgirê Albumê Hilbijêre"
-
 #: covermanager/CoverFoundDialog.cpp:81
 #, fuzzy
 #| msgid "Fetching cover for %1..."
@@ -5275,6 +5219,11 @@ msgstr "Dîsk #"
 #: covermanager/CoverFoundDialog.cpp:141
 msgid "Sort by size"
 msgstr ""
+
+#: covermanager/CoverFoundDialog.cpp:358
+#: covermanager/CoverFetchingActions.cpp:69
+msgid "Display Cover"
+msgstr "Rûgirê Albumê Nîşan Bide"
 
 #: covermanager/CoverFoundDialog.cpp:376
 #, fuzzy
@@ -5558,6 +5507,59 @@ msgstr "Hunermend Tune ye "
 #| msgid "Cover image"
 msgid "Cover View"
 msgstr "Wêneya rûgirê albumê"
+
+#: covermanager/CoverFetchingActions.cpp:47
+msgid "Fetch Cover"
+msgid_plural "Fetch Covers"
+msgstr[0] "Rûgirê Albumê Bîne"
+msgstr[1] "Rûgirên Albumê Bîne"
+
+#: covermanager/CoverFetchingActions.cpp:49
+#, kde-format
+msgid "Fetch the artwork for this album"
+msgid_plural "Fetch artwork for %1 albums"
+msgstr[0] ""
+msgstr[1] ""
+
+#: covermanager/CoverFetchingActions.cpp:71
+msgid "Display artwork for this album"
+msgstr ""
+
+#: covermanager/CoverFetchingActions.cpp:89
+msgid "Unset Cover"
+msgid_plural "Unset Covers"
+msgstr[0] "Rûgirê Albumê Ne-ava Bike"
+msgstr[1] "Rûgirên Albumê Ne-ava Bike"
+
+#: covermanager/CoverFetchingActions.cpp:91
+#, kde-format
+msgid "Remove artwork for this album"
+msgid_plural "Remove artwork for %1 albums"
+msgstr[0] ""
+msgstr[1] ""
+
+#: covermanager/CoverFetchingActions.cpp:104
+#, kde-format
+msgid "Are you sure you want to remove this cover from the Collection?"
+msgid_plural ""
+"Are you sure you want to delete these %1 covers from the Collection?"
+msgstr[0] ""
+msgstr[1] ""
+
+#: covermanager/CoverFetchingActions.cpp:127
+msgid "Set Custom Cover"
+msgstr "Rûgirê Albumê yê Taybet Ava Bike"
+
+#: covermanager/CoverFetchingActions.cpp:129
+#, kde-format
+msgid "Set custom artwork for this album"
+msgid_plural "Set custom artwork for these %1 albums"
+msgstr[0] ""
+msgstr[1] ""
+
+#: covermanager/CoverFetchingActions.cpp:155
+msgid "Select Cover Image File"
+msgstr "Pela Wêneya Rûgirê Albumê Hilbijêre"
 
 #: databaseimporter/amarok14/FastForwardImporterConfig.cpp:39
 msgid "Connection"
@@ -5950,28 +5952,6 @@ msgid ""
 "Multiple ambiguous matches found for <b><font color='red'>%1</font></b>, has "
 "been discarded."
 msgstr "<b><font color='red'>Çewtî:</font></b> %1"
-
-#. i18n: file: dialogs/EditFilterDialog.ui:172
-#. i18n: ectx: property (text), item, widget (QComboBox, cbAndOr)
-#: dialogs/EditFilterDialog.cpp:37 rc.cpp:1231
-msgid "AND"
-msgstr "Û"
-
-#. i18n: file: dialogs/EditFilterDialog.ui:177
-#. i18n: ectx: property (text), item, widget (QComboBox, cbAndOr)
-#: dialogs/EditFilterDialog.cpp:38 rc.cpp:1234
-msgid "OR"
-msgstr "AN"
-
-#: dialogs/EditFilterDialog.cpp:39
-#, fuzzy
-#| msgid "Sample Rate"
-msgid "Simple text"
-msgstr "Rêjeya Mînakkirinê"
-
-#: dialogs/EditFilterDialog.cpp:46
-msgid "Edit Filter"
-msgstr "Parzûnê Biguherîne"
 
 #: dialogs/EqualizerDialog.cpp:45
 #, fuzzy
@@ -6632,6 +6612,28 @@ msgstr "Navê pêş-avakirinê têkevê:"
 #| msgid "Delete the preset."
 msgid "New Preset"
 msgstr "Pêş-avakirinê jê dibe."
+
+#. i18n: file: dialogs/EditFilterDialog.ui:172
+#. i18n: ectx: property (text), item, widget (QComboBox, cbAndOr)
+#: dialogs/EditFilterDialog.cpp:37 rc.cpp:1231
+msgid "AND"
+msgstr "Û"
+
+#. i18n: file: dialogs/EditFilterDialog.ui:177
+#. i18n: ectx: property (text), item, widget (QComboBox, cbAndOr)
+#: dialogs/EditFilterDialog.cpp:38 rc.cpp:1234
+msgid "OR"
+msgstr "AN"
+
+#: dialogs/EditFilterDialog.cpp:39
+#, fuzzy
+#| msgid "Sample Rate"
+msgid "Simple text"
+msgstr "Rêjeya Mînakkirinê"
+
+#: dialogs/EditFilterDialog.cpp:46
+msgid "Edit Filter"
+msgstr "Parzûnê Biguherîne"
 
 #: dynamic/BiasedPlaylist.cpp:142
 msgid "Generating playlist..."
@@ -8642,7 +8644,7 @@ msgstr "mezintir ji"
 #: playlistgenerator/constraints/PlaylistDuration.cpp:273
 #: playlistgenerator/constraints/PlaylistLength.cpp:210
 #: playlistgenerator/constraints/TagMatch.cpp:473
-#: widgets/MetaQueryWidget.cpp:922
+#: widgets/MetaQueryWidget.cpp:918
 #, fuzzy
 #| msgid "Unknown Genre"
 msgid "unknown comparison"
@@ -8692,7 +8694,7 @@ msgstr "mezintir ji"
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox_ComparisonRating)
 #: playlistgenerator/constraints/PlaylistLength.cpp:208
 #: playlistgenerator/constraints/TagMatch.cpp:448
-#: widgets/MetaQueryWidget.cpp:903 rc.cpp:2075 rc.cpp:2159 rc.cpp:2192
+#: widgets/MetaQueryWidget.cpp:899 rc.cpp:2075 rc.cpp:2159 rc.cpp:2192
 msgid "less than"
 msgstr "hindiktir ji"
 
@@ -8774,7 +8776,7 @@ msgid "\"%1\""
 msgstr ""
 
 #: playlistgenerator/constraints/TagMatch.cpp:444
-#: widgets/MetaQueryWidget.cpp:905
+#: widgets/MetaQueryWidget.cpp:901
 #, fuzzy
 #| msgid "equal to"
 msgctxt "a numerical tag (like year or track number) equals a value"
@@ -8788,7 +8790,7 @@ msgstr "wekhevî yê "
 #. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:614
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox_ComparisonRating)
 #: playlistgenerator/constraints/TagMatch.cpp:446
-#: widgets/MetaQueryWidget.cpp:907 rc.cpp:2081 rc.cpp:2165 rc.cpp:2198
+#: widgets/MetaQueryWidget.cpp:903 rc.cpp:2081 rc.cpp:2165 rc.cpp:2198
 msgid "greater than"
 msgstr "mezintir ji"
 
@@ -8830,7 +8832,7 @@ msgid "equals"
 msgstr "wekhevî yê "
 
 #: playlistgenerator/constraints/TagMatch.cpp:464
-#: widgets/MetaQueryWidget.cpp:915
+#: widgets/MetaQueryWidget.cpp:911
 #, fuzzy
 #| msgid "starts with"
 msgctxt ""
@@ -8839,7 +8841,7 @@ msgid "starts with"
 msgstr "dest pê dike bi"
 
 #: playlistgenerator/constraints/TagMatch.cpp:466
-#: widgets/MetaQueryWidget.cpp:917
+#: widgets/MetaQueryWidget.cpp:913
 #, fuzzy
 #| msgid "ends with"
 msgctxt "an alphabetical tag (like title or artist name) ends with some string"
@@ -8847,7 +8849,7 @@ msgid "ends with"
 msgstr "bi dawî dibe bi"
 
 #: playlistgenerator/constraints/TagMatch.cpp:468
-#: widgets/MetaQueryWidget.cpp:911
+#: widgets/MetaQueryWidget.cpp:907
 #, fuzzy
 #| msgid "contains"
 msgctxt "an alphabetical tag (like title or artist name) contains some string"
@@ -10235,128 +10237,6 @@ msgstr "Bijare"
 msgid "Copy Current View Bookmark to Clipboard"
 msgstr ""
 
-#: widgets/MetaQueryWidget.cpp:124
-#, fuzzy
-#| msgid "Seconds"
-msgid "second"
-msgid_plural "seconds"
-msgstr[0] "Çirkan"
-msgstr[1] "Çirkan"
-
-#: widgets/MetaQueryWidget.cpp:125
-#, fuzzy
-#| msgid "Minutes"
-msgid "minute"
-msgid_plural "minutes"
-msgstr[0] "Xulekan"
-msgstr[1] "Xulekan"
-
-#: widgets/MetaQueryWidget.cpp:126
-#, fuzzy
-#| msgid "Hours"
-msgid "hour"
-msgid_plural "hours"
-msgstr[0] "Saet "
-msgstr[1] "Saet "
-
-#: widgets/MetaQueryWidget.cpp:127
-#, fuzzy
-#| msgid "Days"
-msgid "day"
-msgid_plural "days"
-msgstr[0] "Roj"
-msgstr[1] "Roj"
-
-#: widgets/MetaQueryWidget.cpp:128
-#, fuzzy
-#| msgid "Months"
-msgid "month"
-msgid_plural "months"
-msgstr[0] "Meh"
-msgstr[1] "Meh"
-
-#: widgets/MetaQueryWidget.cpp:229
-msgid "Simple Search"
-msgstr "Lêgerîna Hêsan"
-
-#: widgets/MetaQueryWidget.cpp:445 widgets/SmartPlaylistEditor.cpp:934
-#: widgets/SmartPlaylistEditor.cpp:956 widgets/SmartPlaylistEditor.cpp:984
-#: widgets/SmartPlaylistEditor.cpp:1003
-msgid "and"
-msgstr "û"
-
-#: widgets/MetaQueryWidget.cpp:555
-msgctxt "Unit for data rate kilo bit per seconds"
-msgid "kbps"
-msgstr ""
-
-#: widgets/MetaQueryWidget.cpp:557
-msgctxt "Unit for sample rate"
-msgid "Hz"
-msgstr ""
-
-#: widgets/MetaQueryWidget.cpp:559
-msgctxt "Unit for file size in mega byte"
-msgid "MiB"
-msgstr ""
-
-#: widgets/MetaQueryWidget.cpp:883
-#, fuzzy
-#| msgid "is before"
-msgctxt "The date lies before the given fixed date"
-msgid "before"
-msgstr "pêşî ya"
-
-#: widgets/MetaQueryWidget.cpp:885
-#, fuzzy
-#| msgid "None"
-msgctxt "The date is the same as the given fixed date"
-msgid "on"
-msgstr "Ne yek jî"
-
-#: widgets/MetaQueryWidget.cpp:887
-#, fuzzy
-#| msgid "is after"
-msgctxt "The date is after the given fixed date"
-msgid "after"
-msgstr "piştî"
-
-#: widgets/MetaQueryWidget.cpp:889
-#, fuzzy
-#| msgid "Between"
-msgctxt "The date is between the given fixed dates"
-msgid "between"
-msgstr "Navbera"
-
-#: widgets/MetaQueryWidget.cpp:891
-#, fuzzy
-#| msgid "Smaller Than"
-msgctxt "The date lies before the given time interval"
-msgid "older than"
-msgstr "Biçûktir Ji"
-
-#: widgets/MetaQueryWidget.cpp:893
-#, fuzzy
-#| msgid "with"
-msgctxt "The date lies after the given time interval"
-msgid "within"
-msgstr "bi"
-
-#: widgets/MetaQueryWidget.cpp:909
-#, fuzzy
-#| msgid "Between"
-msgctxt "a numerical tag (like year or track number) is between two values"
-msgid "between"
-msgstr "Navbera"
-
-#: widgets/MetaQueryWidget.cpp:913
-#, fuzzy
-#| msgctxt "Fetch new information from the website"
-#| msgid "Update"
-msgctxt "an alphabetical tag (like title or artist name) equals some string"
-msgid "matches"
-msgstr "Rojane Bike"
-
 #: widgets/Osd.cpp:134
 msgid "Rating changed"
 msgstr "Ecibandin guherî "
@@ -10605,6 +10485,12 @@ msgstr "biçûktir e ji"
 msgid "is before"
 msgstr "pêşî ya"
 
+#: widgets/SmartPlaylistEditor.cpp:934 widgets/SmartPlaylistEditor.cpp:956
+#: widgets/SmartPlaylistEditor.cpp:984 widgets/SmartPlaylistEditor.cpp:1003
+#: widgets/MetaQueryWidget.cpp:441
+msgid "and"
+msgstr "û"
+
 #: widgets/SmartPlaylistEditor.cpp:974
 msgid "Days"
 msgstr "Roj"
@@ -10696,6 +10582,122 @@ msgstr ""
 #: widgets/ProgressWidget.cpp:121
 msgid "The amount of time remaining in current song"
 msgstr ""
+
+#: widgets/MetaQueryWidget.cpp:124
+#, fuzzy
+#| msgid "Seconds"
+msgid "second"
+msgid_plural "seconds"
+msgstr[0] "Çirkan"
+msgstr[1] "Çirkan"
+
+#: widgets/MetaQueryWidget.cpp:125
+#, fuzzy
+#| msgid "Minutes"
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "Xulekan"
+msgstr[1] "Xulekan"
+
+#: widgets/MetaQueryWidget.cpp:126
+#, fuzzy
+#| msgid "Hours"
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] "Saet "
+msgstr[1] "Saet "
+
+#: widgets/MetaQueryWidget.cpp:127
+#, fuzzy
+#| msgid "Days"
+msgid "day"
+msgid_plural "days"
+msgstr[0] "Roj"
+msgstr[1] "Roj"
+
+#: widgets/MetaQueryWidget.cpp:128
+#, fuzzy
+#| msgid "Months"
+msgid "month"
+msgid_plural "months"
+msgstr[0] "Meh"
+msgstr[1] "Meh"
+
+#: widgets/MetaQueryWidget.cpp:229
+msgid "Simple Search"
+msgstr "Lêgerîna Hêsan"
+
+#: widgets/MetaQueryWidget.cpp:551
+msgctxt "Unit for data rate kilo bit per seconds"
+msgid "kbps"
+msgstr ""
+
+#: widgets/MetaQueryWidget.cpp:553
+msgctxt "Unit for sample rate"
+msgid "Hz"
+msgstr ""
+
+#: widgets/MetaQueryWidget.cpp:555
+msgctxt "Unit for file size in mega byte"
+msgid "MiB"
+msgstr ""
+
+#: widgets/MetaQueryWidget.cpp:879
+#, fuzzy
+#| msgid "is before"
+msgctxt "The date lies before the given fixed date"
+msgid "before"
+msgstr "pêşî ya"
+
+#: widgets/MetaQueryWidget.cpp:881
+#, fuzzy
+#| msgid "None"
+msgctxt "The date is the same as the given fixed date"
+msgid "on"
+msgstr "Ne yek jî"
+
+#: widgets/MetaQueryWidget.cpp:883
+#, fuzzy
+#| msgid "is after"
+msgctxt "The date is after the given fixed date"
+msgid "after"
+msgstr "piştî"
+
+#: widgets/MetaQueryWidget.cpp:885
+#, fuzzy
+#| msgid "Between"
+msgctxt "The date is between the given fixed dates"
+msgid "between"
+msgstr "Navbera"
+
+#: widgets/MetaQueryWidget.cpp:887
+#, fuzzy
+#| msgid "Smaller Than"
+msgctxt "The date lies before the given time interval"
+msgid "older than"
+msgstr "Biçûktir Ji"
+
+#: widgets/MetaQueryWidget.cpp:889
+#, fuzzy
+#| msgid "with"
+msgctxt "The date lies after the given time interval"
+msgid "within"
+msgstr "bi"
+
+#: widgets/MetaQueryWidget.cpp:905
+#, fuzzy
+#| msgid "Between"
+msgctxt "a numerical tag (like year or track number) is between two values"
+msgid "between"
+msgstr "Navbera"
+
+#: widgets/MetaQueryWidget.cpp:909
+#, fuzzy
+#| msgctxt "Fetch new information from the website"
+#| msgid "Update"
+msgctxt "an alphabetical tag (like title or artist name) equals some string"
+msgid "matches"
+msgstr "Rojane Bike"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
