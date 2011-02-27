@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-26 03:20+0100\n"
+"POT-Creation-Date: 2011-02-27 03:22+0100\n"
 "PO-Revision-Date: 2009-02-21 06:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -1015,8 +1015,8 @@ msgid "Unknown"
 msgstr "Nenas"
 
 #: browsers/CollectionTreeItemModelBase.cpp:316
-#: core-impl/collections/db/ScanResultProcessor.cpp:258
 #: core-impl/collections/db/sql/SqlMeta.cpp:420
+#: core-impl/collections/db/ScanResultProcessor.cpp:270
 #: covermanager/CoverManager.cpp:845 dialogs/TrackOrganizer.cpp:47
 #: playlist/PlaylistModel.cpp:866 widgets/AlbumBreadcrumbWidget.cpp:60
 msgid "Various Artists"
@@ -1960,7 +1960,7 @@ msgstr "&Kitekitên Stranê Biguherîne"
 #: context/applets/currenttrack/CurrentTrack.cpp:104
 #: core-impl/collections/db/sql/mysqlecollection/MySqlEmbeddedCollection.cpp:35
 #: core-impl/collections/db/sql/mysqlservercollection/MySqlServerCollection.cpp:41
-#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:71
+#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:72
 msgid "Local Collection"
 msgstr "Berhevoka Herêmî "
 
@@ -3249,33 +3249,117 @@ msgstr ""
 msgid "Music share at %1"
 msgstr ""
 
-#: core-impl/collections/db/ScanManager.cpp:132
+#: core-impl/collections/db/sql/CapabilityDelegateImpl.cpp:59
+msgid "Do not show under Various Artists"
+msgstr "Di bin Hunermendên Cur bi Cur de nîşan nede"
+
+#: core-impl/collections/db/sql/CapabilityDelegateImpl.cpp:64
+msgid "Show under Various Artists"
+msgstr "Di bin Hunermendên Cur bi Cur de nîşan bide"
+
+#: core-impl/collections/db/sql/SqlMeta.cpp:272
+#: covermanager/CoverManager.cpp:846 services/lastfm/meta/LastFmMeta.cpp:133
+#, kde-format
+msgid "%1 - %2"
+msgstr "%1 - %2"
+
+#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:483
+msgid "Organizing tracks"
+msgstr ""
+
+#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:485
+#, fuzzy
+#| msgid "Moving files to trash"
+msgid "Moving tracks"
+msgstr "Pelan bavêje sergo"
+
+#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:489
+#, fuzzy
+#| msgid "Group tracks"
+msgid "Copying tracks"
+msgstr "Stranan kom bike"
+
+#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:491
+#, fuzzy
+#| msgid "Transcoding"
+msgid "Transcoding tracks"
+msgstr "Wergera-kodê"
+
+#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:548
+#, fuzzy, kde-format
+#| msgid "could not execute %1"
+msgid "Could not create directory: %1"
+msgstr "nekarî %1 bixebitîne"
+
+#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:625
+#, kde-format
+msgid "Transferring: %1"
+msgstr "Diguhezîne: %1"
+
+#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:627
+#, fuzzy, kde-format
+#| msgid "Transcoding"
+msgid "Transcoding: %1"
+msgstr "Wergera-kodê"
+
+#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:671
+#: core-impl/collections/support/FileCollectionLocation.cpp:99
+#, fuzzy, kde-format
+#| msgid "Remove this %1"
+msgid "Removing: %1"
+msgstr "Vê %1 ê rake"
+
+#. i18n: file: dialogs/OrganizeCollectionDialogBase.ui:21
+#. i18n: ectx: property (windowTitle), widget (QWidget, OrganizeCollectionDialogBase)
+#: core-impl/collections/db/sql/SqlCollection.cpp:81 rc.cpp:1611
+msgid "Organize Files"
+msgstr "Rêxistina Pelan"
+
+#: core-impl/collections/db/sql/SqlCollection.cpp:172
+#, kde-format
+msgid ""
+"The amarok database reported the following errors:\n"
+"%1\n"
+"In most cases you will need to resolve these errors before Amarok will run "
+"properly."
+msgstr ""
+
+#: core-impl/collections/db/ScanManager.cpp:134
 msgid "Database import requested"
 msgstr ""
 
-#: core-impl/collections/db/ScanManager.cpp:239
+#: core-impl/collections/db/ScanManager.cpp:240
 msgid "Scanning music"
 msgstr "Muzîkê dinihêre"
 
-#: core-impl/collections/db/ScanManager.cpp:273
+#: core-impl/collections/db/ScanManager.cpp:276
 msgid ""
 "<p>The version of the 'amarokcollectionscanner' tool\n"
 "does not match your Amarok version.</p><p>Please note that Collection "
 "Scanning may not work correctly.</p>"
 msgstr ""
 
-#: core-impl/collections/db/ScanManager.cpp:433
+#: core-impl/collections/db/ScanManager.cpp:341
+#, kde-format
+msgid ""
+"The collection scanner reported the following errors:\n"
+"%1\n"
+"In most cases this means that not all of your tracks were imported.\n"
+"Further errors will only be reported on the console."
+msgstr ""
+
+#: core-impl/collections/db/ScanManager.cpp:486
 #, kde-format
 msgid "Failed to write scanner batch file \"%1\""
 msgstr ""
 
-#: core-impl/collections/db/ScanManager.cpp:441
+#: core-impl/collections/db/ScanManager.cpp:494
 #, fuzzy
 #| msgid "Amarok AFT Tagger"
 msgid "Unable to start Amarok collection scanner."
 msgstr "Etîketvanê Amarok AFT"
 
-#: core-impl/collections/db/ScanManager.cpp:490
+#: core-impl/collections/db/ScanManager.cpp:543
 #, fuzzy, kde-format
 #| msgid "could not execute %1"
 msgid "Found one directory"
@@ -3283,21 +3367,21 @@ msgid_plural "Found %1 directories"
 msgstr[0] "nekarî %1 bixebitîne"
 msgstr[1] "nekarî %1 bixebitîne"
 
-#: core-impl/collections/db/ScanManager.cpp:502
+#: core-impl/collections/db/ScanManager.cpp:555
 #, kde-format
 msgid "Got directory \"%1\" from scanner."
 msgstr ""
 
-#: core-impl/collections/db/ScanManager.cpp:543
+#: core-impl/collections/db/ScanManager.cpp:596
 #, kde-format
 msgid "Aborting scanner with error: %1"
 msgstr ""
 
-#: core-impl/collections/db/ScanManager.cpp:561
+#: core-impl/collections/db/ScanManager.cpp:615
 msgid "Scanner aborted."
 msgstr ""
 
-#: core-impl/collections/db/ScanManager.cpp:658
+#: core-impl/collections/db/ScanManager.cpp:712
 #, fuzzy
 #| msgid ""
 #| "<p>Sorry, the collection scan had to be aborted.</p><p>Too many errors "
@@ -3309,76 +3393,10 @@ msgstr ""
 "<p>Ji ber ku gelekî çewtî çêbû karê venihartina berhevokan hate bi dawî "
 "kirin.</p>"
 
-#: core-impl/collections/db/ScanResultProcessor.cpp:249
+#: core-impl/collections/db/ScanResultProcessor.cpp:261
 msgctxt "The genre name for classical music"
 msgid "Classical"
 msgstr ""
-
-#: core-impl/collections/db/sql/CapabilityDelegateImpl.cpp:59
-msgid "Do not show under Various Artists"
-msgstr "Di bin Hunermendên Cur bi Cur de nîşan nede"
-
-#: core-impl/collections/db/sql/CapabilityDelegateImpl.cpp:64
-msgid "Show under Various Artists"
-msgstr "Di bin Hunermendên Cur bi Cur de nîşan bide"
-
-#. i18n: file: dialogs/OrganizeCollectionDialogBase.ui:21
-#. i18n: ectx: property (windowTitle), widget (QWidget, OrganizeCollectionDialogBase)
-#: core-impl/collections/db/sql/SqlCollection.cpp:82 rc.cpp:1611
-msgid "Organize Files"
-msgstr "Rêxistina Pelan"
-
-#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:472
-msgid "Organizing tracks"
-msgstr ""
-
-#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:474
-#, fuzzy
-#| msgid "Moving files to trash"
-msgid "Moving tracks"
-msgstr "Pelan bavêje sergo"
-
-#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:478
-#, fuzzy
-#| msgid "Group tracks"
-msgid "Copying tracks"
-msgstr "Stranan kom bike"
-
-#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:480
-#, fuzzy
-#| msgid "Transcoding"
-msgid "Transcoding tracks"
-msgstr "Wergera-kodê"
-
-#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:537
-#, fuzzy, kde-format
-#| msgid "could not execute %1"
-msgid "Could not create directory: %1"
-msgstr "nekarî %1 bixebitîne"
-
-#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:614
-#, kde-format
-msgid "Transferring: %1"
-msgstr "Diguhezîne: %1"
-
-#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:616
-#, fuzzy, kde-format
-#| msgid "Transcoding"
-msgid "Transcoding: %1"
-msgstr "Wergera-kodê"
-
-#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:660
-#: core-impl/collections/support/FileCollectionLocation.cpp:99
-#, fuzzy, kde-format
-#| msgid "Remove this %1"
-msgid "Removing: %1"
-msgstr "Vê %1 ê rake"
-
-#: core-impl/collections/db/sql/SqlMeta.cpp:272
-#: covermanager/CoverManager.cpp:846 services/lastfm/meta/LastFmMeta.cpp:133
-#, kde-format
-msgid "%1 - %2"
-msgstr "%1 - %2"
 
 #: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:290
 #, fuzzy
@@ -3837,17 +3855,6 @@ msgstr ""
 msgid "Remove empty folders?"
 msgstr ""
 
-#: core-impl/collections/support/CollectionManager.cpp:162
-msgid ""
-"<p>Amarok could not find any collection plugins. It is possible that Amarok "
-"is installed under the wrong prefix, please fix your installation using:<pre>"
-"$ cd /path/to/amarok/source-code/<br>$ su -c \"make uninstall\"<br>$ cmake -"
-"DCMAKE_INSTALL_PREFIX=`kde4-config --prefix` && su -c \"make install\"<br>$ "
-"kbuildsycoca4 --noincremental<br>$ amarok</pre>More information can be found "
-"in the README file. For further assistance join us at #amarok on irc."
-"freenode.net.</p>"
-msgstr ""
-
 #: core-impl/collections/support/TrashCollectionLocation.cpp:46
 #, fuzzy
 #| msgid "Tracks"
@@ -3859,6 +3866,17 @@ msgstr "Stran"
 #| msgid "Moving files to trash"
 msgid "Moving to trash: %1"
 msgstr "Pelan bavêje sergo"
+
+#: core-impl/collections/support/CollectionManager.cpp:169
+msgid ""
+"<p>Amarok could not find any collection plugins. It is possible that Amarok "
+"is installed under the wrong prefix, please fix your installation using:<pre>"
+"$ cd /path/to/amarok/source-code/<br>$ su -c \"make uninstall\"<br>$ cmake -"
+"DCMAKE_INSTALL_PREFIX=`kde4-config --prefix` && su -c \"make install\"<br>$ "
+"kbuildsycoca4 --noincremental<br>$ amarok</pre>More information can be found "
+"in the README file. For further assistance join us at #amarok on irc."
+"freenode.net.</p>"
+msgstr ""
 
 #: core-impl/collections/umscollection/handler/UmsHandler.cpp:474
 #, fuzzy
@@ -8395,52 +8413,6 @@ msgstr ""
 msgid "Export `%1' preset"
 msgstr ""
 
-#: playlistgenerator/constraints/Checkpoint.cpp:61
-msgid "Checkpoint"
-msgstr ""
-
-#: playlistgenerator/constraints/Checkpoint.cpp:62
-#, fuzzy
-#| msgid "The number of undo levels in the playlist."
-msgid "Fixes a track, album, or artist to a certain position in the playlist"
-msgstr "Hejmara astên paş-de anînê di lîsteya lêdanê de."
-
-#: playlistgenerator/constraints/Checkpoint.cpp:175
-#, fuzzy, kde-format
-#| msgid " on <b>%1</b>"
-msgid "Checkpoint: %1"
-msgstr " di <b>%1</b> de"
-
-#: playlistgenerator/constraints/Checkpoint.cpp:183
-#: playlistgenerator/constraints/Checkpoint.cpp:191
-#: playlistgenerator/constraints/Checkpoint.cpp:203
-msgid "unassigned"
-msgstr ""
-
-#: playlistgenerator/constraints/Checkpoint.cpp:185
-#, fuzzy, kde-format
-#| msgctxt "%1 is number of tracks, %2 is time"
-#| msgid "%1 track (%2)"
-#| msgid_plural "%1 tracks (%2)"
-msgid "\"%1\" (track) by %2"
-msgstr "%1 stran (%2)"
-
-#: playlistgenerator/constraints/Checkpoint.cpp:194
-#, fuzzy, kde-format
-msgid "\"%1\" (album) by %2"
-msgstr "Album"
-
-#: playlistgenerator/constraints/Checkpoint.cpp:196
-#, fuzzy, kde-format
-msgid "\"%1\" (album)"
-msgstr "Album"
-
-#: playlistgenerator/constraints/Checkpoint.cpp:205
-#, fuzzy, kde-format
-#| msgid "artist"
-msgid "\"%1\" (artist)"
-msgstr "hunermend"
-
 #: playlistgenerator/constraints/PlaylistDuration.cpp:58
 #, fuzzy
 #| msgid "Playlist Options"
@@ -8848,6 +8820,52 @@ msgstr "hejmara lêdanê"
 #| msgid "Label"
 msgid "label"
 msgstr "Etîket"
+
+#: playlistgenerator/constraints/Checkpoint.cpp:61
+msgid "Checkpoint"
+msgstr ""
+
+#: playlistgenerator/constraints/Checkpoint.cpp:62
+#, fuzzy
+#| msgid "The number of undo levels in the playlist."
+msgid "Fixes a track, album, or artist to a certain position in the playlist"
+msgstr "Hejmara astên paş-de anînê di lîsteya lêdanê de."
+
+#: playlistgenerator/constraints/Checkpoint.cpp:178
+#, fuzzy, kde-format
+#| msgid " on <b>%1</b>"
+msgid "Checkpoint: %1"
+msgstr " di <b>%1</b> de"
+
+#: playlistgenerator/constraints/Checkpoint.cpp:186
+#: playlistgenerator/constraints/Checkpoint.cpp:194
+#: playlistgenerator/constraints/Checkpoint.cpp:206
+msgid "unassigned"
+msgstr ""
+
+#: playlistgenerator/constraints/Checkpoint.cpp:188
+#, fuzzy, kde-format
+#| msgctxt "%1 is number of tracks, %2 is time"
+#| msgid "%1 track (%2)"
+#| msgid_plural "%1 tracks (%2)"
+msgid "\"%1\" (track) by %2"
+msgstr "%1 stran (%2)"
+
+#: playlistgenerator/constraints/Checkpoint.cpp:197
+#, fuzzy, kde-format
+msgid "\"%1\" (album) by %2"
+msgstr "Album"
+
+#: playlistgenerator/constraints/Checkpoint.cpp:199
+#, fuzzy, kde-format
+msgid "\"%1\" (album)"
+msgstr "Album"
+
+#: playlistgenerator/constraints/Checkpoint.cpp:208
+#, fuzzy, kde-format
+#| msgid "artist"
+msgid "\"%1\" (artist)"
+msgstr "hunermend"
 
 #: playlistmanager/PlaylistManager.cpp:278
 msgid "Downloading Playlist"
