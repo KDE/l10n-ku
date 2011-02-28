@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-24 04:02+0100\n"
+"POT-Creation-Date: 2011-02-28 03:46+0100\n"
 "PO-Revision-Date: 2007-12-21 21:45+0100\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <gnu-ku-wergerandin at lists dot sourceforge dot "
@@ -408,73 +408,6 @@ msgstr "Tevî Wêne"
 msgid "All Supported Files"
 msgstr ""
 
-#: kfile/kfilemetadataprovider.cpp:413 kfile/knfotranslator.cpp:40
-#, fuzzy
-#| msgid "Comment"
-msgctxt "@label"
-msgid "Comment"
-msgstr "Şirove"
-
-#: kfile/kfilemetadataprovider.cpp:414
-#, fuzzy
-#| msgid "Modified:"
-msgctxt "@label"
-msgid "Modified"
-msgstr "Guhartî:"
-
-# msgctxt "@title:column"
-#: kfile/kfilemetadataprovider.cpp:415
-#, fuzzy
-#| msgid "Owner"
-msgctxt "@label"
-msgid "Owner"
-msgstr "Xwedî"
-
-# msgctxt "@title:column"
-#: kfile/kfilemetadataprovider.cpp:416
-#, fuzzy
-#| msgid "Permissions"
-msgctxt "@label"
-msgid "Permissions"
-msgstr "Destûr"
-
-#: kfile/kfilemetadataprovider.cpp:417
-#, fuzzy
-#| msgid "Sorting"
-msgctxt "@label"
-msgid "Rating"
-msgstr "Tê Rêzkirin"
-
-# msgctxt "@title:column"
-#: kfile/kfilemetadataprovider.cpp:418
-#, fuzzy
-#| msgid "Size"
-msgctxt "@label"
-msgid "Size"
-msgstr "Mezinahî"
-
-#: kfile/kfilemetadataprovider.cpp:419
-#, fuzzy
-#| msgid "Trash"
-msgctxt "@label"
-msgid "Tags"
-msgstr "Çop"
-
-#: kfile/kfilemetadataprovider.cpp:420
-#, fuzzy
-#| msgid "Size:"
-msgctxt "@label"
-msgid "Total Size"
-msgstr "Mezinahî:"
-
-# msgctxt "@title:column"
-#: kfile/kfilemetadataprovider.cpp:421
-#, fuzzy
-#| msgid "Type"
-msgctxt "@label"
-msgid "Type"
-msgstr "Cure"
-
 #: kfile/kfilemetainfowidget.cpp:163
 msgid "<Error>"
 msgstr ""
@@ -651,6 +584,13 @@ msgstr "Tê Hesibandin..."
 msgctxt "@title:tab"
 msgid "Information"
 msgstr "Agahî"
+
+#: kfile/knfotranslator.cpp:40 kfile/kfilemetadataprovider.cpp:443
+#, fuzzy
+#| msgid "Comment"
+msgctxt "@label"
+msgid "Comment"
+msgstr "Şirove"
 
 # msgctxt "@title job"
 #: kfile/knfotranslator.cpp:41
@@ -1502,6 +1442,90 @@ msgstr ""
 #: kfile/kpropertiesdialog.cpp:3295
 #, kde-format
 msgid "Advanced Options for %1"
+msgstr ""
+
+#: kfile/kfilemetadataprovider.cpp:444
+#, fuzzy
+#| msgid "Modified:"
+msgctxt "@label"
+msgid "Modified"
+msgstr "Guhartî:"
+
+# msgctxt "@title:column"
+#: kfile/kfilemetadataprovider.cpp:445
+#, fuzzy
+#| msgid "Owner"
+msgctxt "@label"
+msgid "Owner"
+msgstr "Xwedî"
+
+# msgctxt "@title:column"
+#: kfile/kfilemetadataprovider.cpp:446
+#, fuzzy
+#| msgid "Permissions"
+msgctxt "@label"
+msgid "Permissions"
+msgstr "Destûr"
+
+#: kfile/kfilemetadataprovider.cpp:447
+#, fuzzy
+#| msgid "Sorting"
+msgctxt "@label"
+msgid "Rating"
+msgstr "Tê Rêzkirin"
+
+# msgctxt "@title:column"
+#: kfile/kfilemetadataprovider.cpp:448
+#, fuzzy
+#| msgid "Size"
+msgctxt "@label"
+msgid "Size"
+msgstr "Mezinahî"
+
+#: kfile/kfilemetadataprovider.cpp:449
+#, fuzzy
+#| msgid "Trash"
+msgctxt "@label"
+msgid "Tags"
+msgstr "Çop"
+
+#: kfile/kfilemetadataprovider.cpp:450
+#, fuzzy
+#| msgid "Size:"
+msgctxt "@label"
+msgid "Total Size"
+msgstr "Mezinahî:"
+
+# msgctxt "@title:column"
+#: kfile/kfilemetadataprovider.cpp:451
+#, fuzzy
+#| msgid "Type"
+msgctxt "@label"
+msgid "Type"
+msgstr "Cure"
+
+#: kfile/kfilemetadatareader.cpp:157
+msgid "KFileMetaDataReader"
+msgstr ""
+
+#: kfile/kfilemetadatareader.cpp:159
+msgid "KFileMetaDataReader can be used to read metadata from a file"
+msgstr ""
+
+#: kfile/kfilemetadatareader.cpp:161
+msgid "(C) 2011, Peter Penz"
+msgstr ""
+
+#: kfile/kfilemetadatareader.cpp:162
+msgid "Peter Penz"
+msgstr ""
+
+#: kfile/kfilemetadatareader.cpp:162
+msgid "Current maintainer"
+msgstr ""
+
+#: kfile/kfilemetadatareader.cpp:167
+msgid "List of URLs where the meta-data should be read from"
 msgstr ""
 
 #: kio/accessmanager.cpp:170
