@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gwenview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-21 03:40+0100\n"
+"POT-Creation-Date: 2011-03-04 03:32+0100\n"
 "PO-Revision-Date: 2009-01-22 22:46+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -1115,22 +1115,6 @@ msgctxt "@info"
 msgid "Gwenview cannot save this kind of documents."
 msgstr "Gwenview nikare wêneyên bi vê cure yê serast bike."
 
-#: lib/document/loadingdocumentimpl.cpp:126
-#, kde-format
-msgctxt "@info"
-msgid "Gwenview cannot display documents of type %1."
-msgstr "Gwenview nikare belgeyên bi cureyê %1 nîşan bide"
-
-#: lib/document/loadingdocumentimpl.cpp:387
-msgctxt "@info"
-msgid "Loading meta information failed."
-msgstr "Barkirina agahiyên meta pêk nehat."
-
-#: lib/document/loadingdocumentimpl.cpp:414
-msgctxt "@info"
-msgid "Loading image failed."
-msgstr "Barkirina wêneyê pêk nehat."
-
 #: lib/document/loadingjob.cpp:56
 #, fuzzy, kde-format
 #| msgctxt "@info"
@@ -1157,6 +1141,30 @@ msgid ""
 msgstr ""
 "Nikare ser pelê binivîse, kontrol bike ku tu xwedî destûrên hewce yên di "
 "<filename>%1</filename> de yî."
+
+#: lib/document/loadingdocumentimpl.cpp:126
+#, kde-format
+msgctxt "@info"
+msgid "Gwenview cannot display documents of type %1."
+msgstr "Gwenview nikare belgeyên bi cureyê %1 nîşan bide"
+
+#: lib/document/loadingdocumentimpl.cpp:299
+#, fuzzy, kde-format
+#| msgctxt "@info"
+#| msgid "Could not open file for writing."
+msgctxt "@info"
+msgid "Could not open file %1"
+msgstr "Pel ji bo nivîsandinê nayê vekirin."
+
+#: lib/document/loadingdocumentimpl.cpp:387
+msgctxt "@info"
+msgid "Loading meta information failed."
+msgstr "Barkirina agahiyên meta pêk nehat."
+
+#: lib/document/loadingdocumentimpl.cpp:414
+msgctxt "@info"
+msgid "Loading image failed."
+msgstr "Barkirina wêneyê pêk nehat."
 
 #: lib/documentview/documentview.cpp:152
 msgid "Zoom to Fit"
