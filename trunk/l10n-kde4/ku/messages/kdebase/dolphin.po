@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-03-09 03:31+0100\n"
+"POT-Creation-Date: 2011-03-10 03:29+0100\n"
 "PO-Revision-Date: 2008-12-22 22:21+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -30,30 +30,6 @@ msgstr "Darikê Fîltrekirinê Veşêre"
 msgctxt "@label:textbox"
 msgid "Filter:"
 msgstr "Parzûn:"
-
-#: panels/filter/filterpanel.cpp:110
-#, fuzzy
-#| msgctxt "@item:inlistbox Text width"
-#| msgid "Small"
-msgctxt "option:check Refers to a filter on image size"
-msgid "Small"
-msgstr "Biçûk"
-
-#: panels/filter/filterpanel.cpp:112
-#, fuzzy
-#| msgctxt "@item:inlistbox Text width"
-#| msgid "Medium"
-msgctxt "option:check Refers to a filter on image size"
-msgid "Medium"
-msgstr "Navîn"
-
-#: panels/filter/filterpanel.cpp:115
-#, fuzzy
-#| msgctxt "@item:inlistbox Text width"
-#| msgid "Large"
-msgctxt "option:check Refers to a filter on image size"
-msgid "Large"
-msgstr "Mezin"
 
 #: panels/folders/treeviewcontextmenu.cpp:59
 msgctxt "@action:inmenu"
@@ -152,6 +128,30 @@ msgstr "Etîketan Biguherîne..."
 msgctxt "@label::textbox"
 msgid "Select which data should be shown in the information panel:"
 msgstr ""
+
+#: panels/search/searchpanel.cpp:110
+#, fuzzy
+#| msgctxt "@item:inlistbox Text width"
+#| msgid "Small"
+msgctxt "option:check Refers to a filter on image size"
+msgid "Small"
+msgstr "Biçûk"
+
+#: panels/search/searchpanel.cpp:112
+#, fuzzy
+#| msgctxt "@item:inlistbox Text width"
+#| msgid "Medium"
+msgctxt "option:check Refers to a filter on image size"
+msgid "Medium"
+msgstr "Navîn"
+
+#: panels/search/searchpanel.cpp:115
+#, fuzzy
+#| msgctxt "@item:inlistbox Text width"
+#| msgid "Large"
+msgctxt "option:check Refers to a filter on image size"
+msgid "Large"
+msgstr "Mezin"
 
 #: search/dolphinsearchbox.cpp:105
 #, kde-format
@@ -1956,12 +1956,9 @@ msgid "Terminal"
 msgstr "Termînal"
 
 #: dolphinmainwindow.cpp:1667
-#, fuzzy
-#| msgctxt "@label:textbox"
-#| msgid "Filter:"
 msgctxt "@title:window"
-msgid "Filter"
-msgstr "Parzûn:"
+msgid "Search"
+msgstr ""
 
 #: dolphinmainwindow.cpp:1698
 msgctxt "@title:window"
@@ -2603,6 +2600,13 @@ msgstr "Hejmara rêzikên deqê"
 #: rc.cpp:267
 msgid "Enabled plugins"
 msgstr ""
+
+#, fuzzy
+#~| msgctxt "@label:textbox"
+#~| msgid "Filter:"
+#~ msgctxt "@title:window"
+#~ msgid "Filter"
+#~ msgstr "Parzûn:"
 
 #, fuzzy
 #~| msgctxt "@label"
