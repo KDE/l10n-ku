@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-03-10 03:21+0100\n"
+"POT-Creation-Date: 2011-03-11 03:26+0100\n"
 "PO-Revision-Date: 2009-02-21 06:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -6519,28 +6519,50 @@ msgstr "Podcast &Lê Zêde Bike"
 msgid "Enter RSS 1.0/2.0 or Atom feed URL:"
 msgstr "Darêja URL yê Bikeve:"
 
-#: browsers/playlistbrowser/PlaylistsInFoldersProxy.cpp:33
+#: browsers/playlistbrowser/PlaylistsInFoldersProxy.cpp:36
 #, fuzzy
 #| msgid "&Rename group"
 msgid "&Rename Folder..."
 msgstr "Navê komê &biguherîne"
 
-#: browsers/playlistbrowser/PlaylistsInFoldersProxy.cpp:39
+#: browsers/playlistbrowser/PlaylistsInFoldersProxy.cpp:42
 #, fuzzy
 #| msgid "Delete Files"
 msgid "&Delete Folder"
 msgstr "Pelan Jê Bibe"
 
-#: browsers/playlistbrowser/PlaylistsInFoldersProxy.cpp:313
+#: browsers/playlistbrowser/PlaylistsInFoldersProxy.cpp:315
 msgid "New name"
 msgstr "Navê nû"
 
-#: browsers/playlistbrowser/PlaylistsInFoldersProxy.cpp:315
+#: browsers/playlistbrowser/PlaylistsInFoldersProxy.cpp:317
 #, fuzzy
 #| msgid "Enter new group name:"
 msgctxt "Enter a new name for a folder that already exists"
 msgid "Enter new folder name:"
 msgstr "Navê koma nû têkevê:"
+
+#: browsers/playlistbrowser/PlaylistsInFoldersProxy.cpp:333
+#: core-impl/collections/umscollection/podcasts/UmsPodcastProvider.cpp:251
+#: playlistmanager/file/PlaylistFileProvider.cpp:418
+#: playlistmanager/sql/SqlUserPlaylistProvider.cpp:117
+#, fuzzy
+#| msgid "Configure Playback"
+msgid "Confirm Delete"
+msgstr "Lêdanê Veava Bike"
+
+#: browsers/playlistbrowser/PlaylistsInFoldersProxy.cpp:335
+#, fuzzy
+#| msgctxt "@info"
+#| msgid "Do you really want to delete these %1 tracks?"
+msgid "Are you sure you want to delete this folder and it's contents?"
+msgstr "Tu bi rastî dixwazî wan stranên %1 jê bibî?"
+
+#: browsers/playlistbrowser/PlaylistsInFoldersProxy.cpp:339
+#, fuzzy
+#| msgid "Delete Files"
+msgid "Yes, delete folder."
+msgstr "Pelan Jê Bibe"
 
 #: browsers/servicebrowser/ServiceBrowser.cpp:44
 msgid ""
@@ -8427,7 +8449,7 @@ msgstr[1] "Stranan Jê iPod Dibe"
 #: core-impl/collections/mediadevicecollection/playlist/MediaDeviceUserPlaylistProvider.cpp:115
 #: playlistmanager/PlaylistManager.cpp:342
 #: playlistmanager/file/PlaylistFileProvider.cpp:446
-#: playlistmanager/sql/SqlUserPlaylistProvider.cpp:129
+#: playlistmanager/sql/SqlUserPlaylistProvider.cpp:148
 #, fuzzy
 #| msgid "&Save Playlist"
 msgid "Change playlist"
@@ -8436,7 +8458,7 @@ msgstr "Lîsteya Lêdanê &Tomar Bike"
 #: core-impl/collections/mediadevicecollection/playlist/MediaDeviceUserPlaylistProvider.cpp:116
 #: playlistmanager/PlaylistManager.cpp:343
 #: playlistmanager/file/PlaylistFileProvider.cpp:447
-#: playlistmanager/sql/SqlUserPlaylistProvider.cpp:130
+#: playlistmanager/sql/SqlUserPlaylistProvider.cpp:149
 #, fuzzy
 #| msgid "Enter a name for the playlist:"
 msgid "Enter new name for playlist:"
@@ -8653,14 +8675,6 @@ msgstr "Cîhazê Çapemeniyê Ava Bike"
 #| msgid "Delete Files"
 msgid "&Delete Episode"
 msgstr "Pelan Jê Bibe"
-
-#: core-impl/collections/umscollection/podcasts/UmsPodcastProvider.cpp:251
-#: playlistmanager/file/PlaylistFileProvider.cpp:332
-#: playlistmanager/sql/SqlUserPlaylistProvider.cpp:252
-#, fuzzy
-#| msgid "Configure Playback"
-msgid "Confirm Delete"
-msgstr "Lêdanê Veava Bike"
 
 #: core-impl/collections/umscollection/podcasts/UmsPodcastProvider.cpp:253
 #, fuzzy, kde-format
@@ -12539,36 +12553,43 @@ msgid "Playlist Files on Disk"
 msgstr "Pelên Lîsteya Lêdanê"
 
 #: playlistmanager/file/PlaylistFileProvider.cpp:124
-#: playlistmanager/sql/SqlUserPlaylistProvider.cpp:171
+#: playlistmanager/sql/SqlUserPlaylistProvider.cpp:190
 #, fuzzy
 #| msgid "&Rename"
 msgid "&Rename..."
 msgstr "&Nav biguhere"
 
 #: playlistmanager/file/PlaylistFileProvider.cpp:136
-#: playlistmanager/sql/SqlUserPlaylistProvider.cpp:183
+#: playlistmanager/sql/SqlUserPlaylistProvider.cpp:202
 #, fuzzy
 #| msgid "&Delete"
 msgid "&Delete..."
 msgstr "&Jê bibe"
 
 #: playlistmanager/file/PlaylistFileProvider.cpp:192
-#: playlistmanager/sql/SqlUserPlaylistProvider.cpp:228
+#: playlistmanager/sql/SqlUserPlaylistProvider.cpp:247
 #, fuzzy
 #| msgid "Repeat Track"
 msgid "Remove tracks"
 msgstr "Stranê Dubare Bike"
 
 #: playlistmanager/file/PlaylistFileProvider.cpp:195
-#: playlistmanager/sql/SqlUserPlaylistProvider.cpp:231
+#: playlistmanager/sql/SqlUserPlaylistProvider.cpp:250
 #, fuzzy, kde-format
 #| msgid "Remove %1"
 msgctxt "Remove a track from a saved playlist"
 msgid "Remove From \"%1\""
 msgstr "%1 Rake"
 
-#: playlistmanager/file/PlaylistFileProvider.cpp:334
-#: playlistmanager/sql/SqlUserPlaylistProvider.cpp:254
+#: playlistmanager/file/PlaylistFileProvider.cpp:363
+#: playlistmanager/file/PlaylistFileProvider.cpp:391
+#, fuzzy, kde-format
+#| msgid "This object could not be created."
+msgid "The playlist file \"%1\" could not be loaded."
+msgstr "Ev hêman nayê çê kirin."
+
+#: playlistmanager/file/PlaylistFileProvider.cpp:420
+#: playlistmanager/sql/SqlUserPlaylistProvider.cpp:119
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid "Do you really want to delete these %1 tracks?"
@@ -12577,16 +12598,27 @@ msgid_plural "Are you sure you want to delete these %1 playlist files?"
 msgstr[0] "Tu bi rastî dixwazî wan stranên %1 jê bibî?"
 msgstr[1] "Tu bi rastî dixwazî wan stranên %1 jê bibî?"
 
-#: playlistmanager/file/PlaylistFileProvider.cpp:339
+#: playlistmanager/file/PlaylistFileProvider.cpp:426
 msgid "Yes, delete from disk."
 msgstr ""
 
-#: playlistmanager/file/PlaylistFileProvider.cpp:377
-#: playlistmanager/file/PlaylistFileProvider.cpp:405
-#, fuzzy, kde-format
-#| msgid "This object could not be created."
-msgid "The playlist file \"%1\" could not be loaded."
-msgstr "Ev hêman nayê çê kirin."
+#: playlistmanager/sql/SqlUserPlaylistProvider.h:44
+#, fuzzy
+#| msgid "Database Name"
+msgid "Amarok Database"
+msgstr "Navê Bingeha Dana"
+
+#: playlistmanager/sql/SqlUserPlaylistProvider.h:45
+#, fuzzy
+#| msgid "Local Playlists stored in the database"
+msgid "Local playlists stored in the database"
+msgstr "Lîsteyên lêdanê yên herêmî yên di bingeha dana de tomarkirî"
+
+#: playlistmanager/sql/SqlPlaylist.cpp:40
+#, fuzzy
+#| msgid "Playlist name:"
+msgid "Playlist in database"
+msgstr "Navê Lîsteya Lêdanê:"
 
 #: playlistmanager/sql/SqlUserPlaylistProvider.cpp:90
 #, fuzzy
@@ -12607,27 +12639,9 @@ msgstr "Tu bi rastî dixwazî wan stranên %1 jê bibî?"
 msgid "Yes, rename this playlist."
 msgstr "Ji bo lîsteya lêdanê navekî binivîse:"
 
-#: playlistmanager/sql/SqlUserPlaylistProvider.cpp:259
+#: playlistmanager/sql/SqlUserPlaylistProvider.cpp:125
 msgid "Yes, delete from database."
 msgstr ""
-
-#: playlistmanager/sql/SqlUserPlaylistProvider.h:44
-#, fuzzy
-#| msgid "Database Name"
-msgid "Amarok Database"
-msgstr "Navê Bingeha Dana"
-
-#: playlistmanager/sql/SqlUserPlaylistProvider.h:45
-#, fuzzy
-#| msgid "Local Playlists stored in the database"
-msgid "Local playlists stored in the database"
-msgstr "Lîsteyên lêdanê yên herêmî yên di bingeha dana de tomarkirî"
-
-#: playlistmanager/sql/SqlPlaylist.cpp:40
-#, fuzzy
-#| msgid "Playlist name:"
-msgid "Playlist in database"
-msgstr "Navê Lîsteya Lêdanê:"
 
 #: scriptengine/AmarokNetworkScript.cpp:70
 msgctxt "do not translate 'DataDownloader' or 'qt.core'"
