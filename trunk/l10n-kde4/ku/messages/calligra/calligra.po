@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-03-04 03:11+0100\n"
+"POT-Creation-Date: 2011-03-14 03:17+0100\n"
 "PO-Revision-Date: 2007-12-17 01:31+0100\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
@@ -229,6 +229,19 @@ msgstr ""
 
 #: flake/commands/KoSubpathRemoveCommand.cpp:30
 msgid "Remove subpath"
+msgstr ""
+
+#: flake/commands/KoShapeClipCommand.cpp:70
+#: flake/commands/KoShapeClipCommand.cpp:86
+msgid "Clip Shape"
+msgstr ""
+
+#: flake/commands/KoShapeUnclipCommand.cpp:123
+msgid "Unclip Shape"
+msgstr ""
+
+#: flake/commands/KoShapeUnclipCommand.cpp:132
+msgid "Unclip Shapes"
 msgstr ""
 
 #: flake/tools/KoCreatePathTool.cpp:369 flake/tools/KoPathTool.cpp:183
@@ -501,105 +514,6 @@ msgstr ""
 msgid "Reparent shapes"
 msgstr ""
 
-#: kopageapp/KoPADocumentStructureDocker.cpp:95 main/KoMainWindow.cpp:1707
-msgid "Document"
-msgstr ""
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:104
-msgid "Add a new slide or layer"
-msgstr ""
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:106
-msgid "Add a new page or layer"
-msgstr ""
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:114
-msgid "Slide"
-msgstr ""
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:116
-#: widgets/KoPageLayoutDialog.cpp:53
-msgid "Page"
-msgstr ""
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:125
-#: kopageapp/KoPADocumentStructureDocker.cpp:638
-msgid "Delete selected objects"
-msgstr ""
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:131
-msgid "Raise selected objects"
-msgstr ""
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:137
-msgid "Lower selected objects"
-msgstr ""
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:146
-msgid "Minimal View"
-msgstr ""
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:148
-msgid "Detailed View"
-msgstr ""
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:150
-msgid "Thumbnail View"
-msgstr ""
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:160
-msgid "View mode"
-msgstr ""
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:327
-msgid "New Layer"
-msgstr ""
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:327
-msgid "Enter the name of the new layer:"
-msgstr ""
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:328
-msgid "New layer"
-msgstr ""
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:342
-msgid "Create Layer"
-msgstr ""
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:371
-msgid "Delete Layer"
-msgstr ""
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:375
-msgid "Could not delete all layers. At least one layer is required."
-msgstr ""
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:375
-msgid "Error deleting layers"
-msgstr ""
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:637
-msgid "Add a new slide"
-msgstr ""
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:640
-#: koreport/wrtembed/KoReportDesigner.cpp:832
-msgid "Cut"
-msgstr ""
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:641
-#: koreport/wrtembed/KoReportDesigner.cpp:833
-#: pigment/compositeops/KoCompositeOpCopy.h:37
-#: pigment/compositeops/KoCompositeOpCopy2.h:42
-msgid "Copy"
-msgstr ""
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:642
-#: koreport/wrtembed/KoReportDesigner.cpp:836
-msgid "Paste"
-msgstr ""
-
 #: kopageapp/KoPAPageThumbnailModel.cpp:69
 #, kde-format
 msgid "Page %1"
@@ -829,6 +743,105 @@ msgstr ""
 
 #: kopageapp/KoPAView.cpp:541
 msgid "Change page layout"
+msgstr ""
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:95 main/KoMainWindow.cpp:1707
+msgid "Document"
+msgstr ""
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:104
+msgid "Add a new slide or layer"
+msgstr ""
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:106
+msgid "Add a new page or layer"
+msgstr ""
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:114
+msgid "Slide"
+msgstr ""
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:116
+#: widgets/KoPageLayoutDialog.cpp:53
+msgid "Page"
+msgstr ""
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:125
+#: kopageapp/KoPADocumentStructureDocker.cpp:638
+msgid "Delete selected objects"
+msgstr ""
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:131
+msgid "Raise selected objects"
+msgstr ""
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:137
+msgid "Lower selected objects"
+msgstr ""
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:146
+msgid "Minimal View"
+msgstr ""
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:148
+msgid "Detailed View"
+msgstr ""
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:150
+msgid "Thumbnail View"
+msgstr ""
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:160
+msgid "View mode"
+msgstr ""
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:327
+msgid "New Layer"
+msgstr ""
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:327
+msgid "Enter the name of the new layer:"
+msgstr ""
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:328
+msgid "New layer"
+msgstr ""
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:342
+msgid "Create Layer"
+msgstr ""
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:371
+msgid "Delete Layer"
+msgstr ""
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:375
+msgid "Could not delete all layers. At least one layer is required."
+msgstr ""
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:375
+msgid "Error deleting layers"
+msgstr ""
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:637
+msgid "Add a new slide"
+msgstr ""
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:640
+#: koreport/wrtembed/KoReportDesigner.cpp:832
+msgid "Cut"
+msgstr ""
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:641
+#: koreport/wrtembed/KoReportDesigner.cpp:833
+#: pigment/compositeops/KoCompositeOpCopy.h:37
+#: pigment/compositeops/KoCompositeOpCopy2.h:42
+msgid "Copy"
+msgstr ""
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:642
+#: koreport/wrtembed/KoReportDesigner.cpp:836
+msgid "Paste"
 msgstr ""
 
 #. i18n: file: main/rdf/KoRdfFoaFEditWidget.ui:26
