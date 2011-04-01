@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gwenview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-03-20 03:35+0100\n"
+"POT-Creation-Date: 2011-04-01 03:47+0200\n"
 "PO-Revision-Date: 2009-01-22 22:46+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -31,28 +31,6 @@ msgstr "Nîşandana Wêneyan"
 #| msgid "Image Settings"
 msgid "Advanced"
 msgstr "Mîhengên Wêneyan"
-
-#: app/documentpanel.cpp:291 app/mainwindow.cpp:314
-#: app/thumbnailviewpanel.cpp:108 lib/documentview/documentview.cpp:148
-msgctxt "@title actions category - means actions changing smth in interface"
-msgid "View"
-msgstr "Bibîne"
-
-#: app/documentpanel.cpp:294
-msgid "Thumbnail Bar"
-msgstr "Darika Wêneyên Biçûk"
-
-#: app/documentpanel.cpp:482
-msgctxt "@action:button"
-msgid "Discard Changes and Reload"
-msgstr "Guherandin û Nû ve Barkirinê Jê Bavêje"
-
-#: app/documentpanel.cpp:484
-msgctxt "@info"
-msgid ""
-"This image has been modified. Reloading it will discard all your changes."
-msgstr ""
-"Ev wêne hatiye guherandin. Nû ve barkirina vê dê hemû guherandinan jê bavêje."
 
 #: app/fileoperations.cpp:72
 msgid "Copy To"
@@ -158,14 +136,14 @@ msgstr "Dîrok"
 msgid "File Operations"
 msgstr "Xebatên Pelê"
 
-#: app/fileopscontextmanageritem.cpp:200 app/mainwindow.cpp:313
-#: app/thumbnailviewpanel.cpp:147
+#: app/fileopscontextmanageritem.cpp:200 app/thumbnailviewpanel.cpp:147
+#: app/mainwindow.cpp:312
 msgctxt "@title actions category"
 msgid "File"
 msgstr "Pel"
 
 #: app/fileopscontextmanageritem.cpp:201
-#: app/semanticinfocontextmanageritem.cpp:165
+#: app/semanticinfocontextmanageritem.cpp:167
 msgctxt "@title actions category"
 msgid "Edit"
 msgstr "Serast Bike"
@@ -274,73 +252,6 @@ msgstr "Gorê Nirxandinê Parzûn Bike"
 msgctxt "@action:inmenu"
 msgid "Filter by Tag"
 msgstr "Gorê Etîketê Parzûn Bike"
-
-#: app/fullscreencontent.cpp:108
-msgctxt "@info:tooltip"
-msgid "Configure Full Screen Mode"
-msgstr "Moda Dîmender Tijî Veava Bike"
-
-#: app/fullscreencontent.cpp:270
-msgctxt "@item:intext fullscreen meta info separator"
-msgid ", "
-msgstr ","
-
-#: app/fullscreencontent.cpp:330
-#, kde-format
-msgctxt "Slideshow interval in seconds"
-msgid "%1 sec"
-msgid_plural "%1 secs"
-msgstr[0] "%1 çirke"
-msgstr[1] "%1 çirke"
-
-#: app/gvcore.cpp:83
-msgctxt "@info"
-msgid "No image format selected."
-msgstr "Tu teşeya wêneyê hilbijartî nîn e."
-
-#: app/gvcore.cpp:96
-#, kde-format
-msgctxt "@info"
-msgid "Gwenview cannot save images as %1."
-msgstr "Gwenview nikare wêneyan wekî %1 tomar bike."
-
-#: app/gvcore.cpp:181
-msgid "Save using another format"
-msgstr "Bi bikaranîna teşeyekî din re tomar bike"
-
-#: app/gvcore.cpp:184
-#, kde-format
-msgid "Gwenview cannot save images in '%1' format."
-msgstr "Gwenview nikare wêneyan di teşeya '%1' de tomar bike."
-
-#: app/gvcore.cpp:207
-#, kde-format
-msgctxt "@info"
-msgid ""
-"A file named <filename>%1</filename> already exists.\n"
-"Are you sure you want to overwrite it?"
-msgstr ""
-"Navê pelê <filename>%1</filename> jixwe heye.\n"
-"Tu bi rastî dixwazî ser vê binivîsî?"
-
-#: app/gvcore.cpp:222 app/gvcore.cpp:245
-#, kde-format
-msgctxt "@info"
-msgid "<b>Saving <filename>%1</filename> failed:</b><br>%2"
-msgstr "<b>Tomarkirina <filename>%1</filename> pêk nehat:</b><br>%2"
-
-#: app/gvcore.cpp:263
-msgid "You are now viewing the new document."
-msgstr ""
-
-#: app/gvcore.cpp:265
-msgid "Go back to the original"
-msgstr ""
-
-#: app/gvcore.cpp:310 lib/document/documentjob.cpp:78
-msgctxt "@info"
-msgid "Gwenview cannot edit this kind of image."
-msgstr "Gwenview nikare wêneyên bi vê cure yê serast bike."
 
 #: app/imagemetainfodialog.cpp:120
 msgid "Meta Information"
@@ -548,21 +459,21 @@ msgstr ""
 msgid "Gwenview"
 msgstr "Gwenview"
 
-#: app/main.cpp:113 part/gvpart.cpp:122
+#: app/main.cpp:113 part/gvpart.cpp:121
 msgid "An Image Viewer"
 msgstr "Nîşanderê Wêneyan"
 
-#: app/main.cpp:115 part/gvpart.cpp:124
+#: app/main.cpp:115 part/gvpart.cpp:123
 #, fuzzy
 #| msgid "Copyright 2000-2008 Aurélien Gâteau"
 msgid "Copyright 2000-2010 Aurélien Gâteau"
 msgstr "Copyright 2000-2008 Aurélien Gâteau"
 
-#: app/main.cpp:117 importer/main.cpp:45 part/gvpart.cpp:126
+#: app/main.cpp:117 importer/main.cpp:45 part/gvpart.cpp:125
 msgid "Aurélien Gâteau"
 msgstr "Aurélien Gâteau"
 
-#: app/main.cpp:118 importer/main.cpp:46 part/gvpart.cpp:127
+#: app/main.cpp:118 importer/main.cpp:46 part/gvpart.cpp:126
 msgid "Main developer"
 msgstr "Pêşvebirê Bingehîn"
 
@@ -577,148 +488,6 @@ msgstr "Di moda nîşandana slaytê de bide destpêkirin"
 #: app/main.cpp:126
 msgid "A starting file or folder"
 msgstr "Pel an jî peldank tê destpêkirin"
-
-#: app/mainwindow.cpp:323
-msgctxt "@action reload the currently viewed image"
-msgid "Reload"
-msgstr "Nû Ve Bar Bike"
-
-#: app/mainwindow.cpp:329
-msgctxt "@action Switch to file list"
-msgid "Browse"
-msgstr "Bigere"
-
-#: app/mainwindow.cpp:334
-msgctxt "@action Switch to image view"
-msgid "View"
-msgstr "Bibîne"
-
-#: app/mainwindow.cpp:351
-msgctxt "@action Go back to a more general page (start page <- list <- image)"
-msgid "Back"
-msgstr ""
-
-#: app/mainwindow.cpp:356
-msgctxt "@action Go to previous image"
-msgid "Previous"
-msgstr "Paş"
-
-#: app/mainwindow.cpp:357
-msgid "Go to Previous Image"
-msgstr "Biçe Wêneya Paş"
-
-#: app/mainwindow.cpp:362
-msgctxt "@action Go to next image"
-msgid "Next"
-msgstr "Pêş"
-
-#: app/mainwindow.cpp:363
-msgid "Go to Next Image"
-msgstr "Biçe Wêneya Pêş"
-
-#: app/mainwindow.cpp:367
-#, fuzzy
-#| msgctxt ""
-#| "@action:button Zoom to fit, shown in status bar, keep it short please"
-#| msgid "Fit"
-msgctxt "@action Go to first image"
-msgid "First"
-msgstr "Lihevkirin"
-
-#: app/mainwindow.cpp:368
-#, fuzzy
-#| msgid "Go to Next Image"
-msgid "Go to First Image"
-msgstr "Biçe Wêneya Pêş"
-
-#: app/mainwindow.cpp:372
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Date"
-msgctxt "@action Go to last image"
-msgid "Last"
-msgstr "Dîrok"
-
-#: app/mainwindow.cpp:373
-#, fuzzy
-#| msgid "Go to Next Image"
-msgid "Go to Last Image"
-msgstr "Biçe Wêneya Pêş"
-
-#: app/mainwindow.cpp:380
-msgctxt "@action"
-msgid "Start Page"
-msgstr "Rûpela Destpêkê"
-
-#: app/mainwindow.cpp:387
-#, fuzzy
-#| msgid "Hide Sidebar"
-msgctxt "@action"
-msgid "Sidebar"
-msgstr "Darika-kêlekê Veşêre"
-
-#: app/mainwindow.cpp:417
-msgctxt "@title actions category - means actions changing smth in interface"
-msgid "Edit"
-msgstr "Serast Bike"
-
-#: app/mainwindow.cpp:422
-msgid "Redo"
-msgstr "Dîsa Bike"
-
-#: app/mainwindow.cpp:429
-msgid "Undo"
-msgstr "Şûnde Bîne"
-
-#: app/mainwindow.cpp:475
-#, fuzzy
-#| msgid "Recent Folders"
-msgid "Folders"
-msgstr "Peldankên Borî"
-
-#: app/mainwindow.cpp:481
-#, fuzzy
-#| msgid "Meta Information"
-msgid "Information"
-msgstr "Agahiya Meta"
-
-#: app/mainwindow.cpp:492
-#, fuzzy
-#| msgid "File Operations"
-msgid "Operations"
-msgstr "Xebatên Pelê"
-
-#: app/mainwindow.cpp:1278
-msgctxt "@title:window"
-msgid "Open Image"
-msgstr "Wêneyê Veke"
-
-#: app/mainwindow.cpp:1330
-msgid "Stop Slideshow"
-msgstr "Nîşandana-slaytê Rawestîne"
-
-#: app/mainwindow.cpp:1333
-msgid "Start Slideshow"
-msgstr "Nîşandana-slaytê Bide Destpêkirin"
-
-#: app/mainwindow.cpp:1347
-msgid "Save All Changes"
-msgstr "Hemû Guherandinan Tomar Bike"
-
-#: app/mainwindow.cpp:1348
-msgid "Discard Changes"
-msgstr "Guhertinan Jê Bibe"
-
-#: app/mainwindow.cpp:1349
-#, kde-format
-msgid "One image has been modified."
-msgid_plural "%1 images have been modified."
-msgstr[0] "Yek wêne hatiye guhertin."
-msgstr[1] "%1 wêne hatine guhertin."
-
-#: app/mainwindow.cpp:1351
-msgid "If you quit now, your changes will be lost."
-msgstr "Heke tu niha derkevî, guherandinên te dê winda bin."
 
 #: app/saveallhelper.cpp:57
 msgctxt "@info:progress saving all image changes"
@@ -784,30 +553,6 @@ msgstr "Biçe vê"
 msgid "Save All"
 msgstr "Hemûyan Tomar Bike"
 
-#: app/semanticinfocontextmanageritem.cpp:137
-msgid "Semantic Information"
-msgstr "Agahiya Semantîk"
-
-#: app/semanticinfocontextmanageritem.cpp:154
-#, fuzzy
-#| msgid "Description:"
-msgid "Description"
-msgstr "Daxuyanî:"
-
-#: app/semanticinfocontextmanageritem.cpp:168
-msgctxt "@action"
-msgid "Edit Tags"
-msgstr "Etîketan Serast Bike"
-
-#: app/semanticinfocontextmanageritem.cpp:178
-msgctxt "@action Rating value of zero"
-msgid "Zero"
-msgstr "Sifir"
-
-#: app/semanticinfocontextmanageritem.cpp:214
-msgid "Edit"
-msgstr "Serast Bike"
-
 #: app/startpage.cpp:278
 #, fuzzy
 #| msgctxt "@action:inmenu"
@@ -830,6 +575,12 @@ msgstr "Peldank Biafirîne"
 #: app/startpage.cpp:281
 msgid "Forget All"
 msgstr ""
+
+#: app/thumbnailviewpanel.cpp:108 app/documentpanel.cpp:411
+#: app/mainwindow.cpp:313 lib/documentview/documentviewcontroller.cpp:56
+msgctxt "@title actions category - means actions changing smth in interface"
+msgid "View"
+msgstr "Bibîne"
 
 #: app/thumbnailviewpanel.cpp:110
 msgctxt "@action:inmenu Navigation Bar"
@@ -904,6 +655,272 @@ msgid "%1 document"
 msgid_plural "%1 documents"
 msgstr[0] "%1 belge"
 msgstr[1] "%1 belge"
+
+#: app/documentpanel.cpp:272
+#, fuzzy
+#| msgctxt "Verb"
+#| msgid "Trash"
+msgid "Trash"
+msgstr "Bavêje Çopê"
+
+#: app/documentpanel.cpp:273
+#, fuzzy
+#| msgid "Delete"
+msgid "Deselect"
+msgstr "Jê Bibe"
+
+#: app/documentpanel.cpp:303
+msgid "Synchronize"
+msgstr ""
+
+#: app/documentpanel.cpp:414
+msgid "Thumbnail Bar"
+msgstr "Darika Wêneyên Biçûk"
+
+#: app/documentpanel.cpp:674
+msgctxt "@action:button"
+msgid "Discard Changes and Reload"
+msgstr "Guherandin û Nû ve Barkirinê Jê Bavêje"
+
+#: app/documentpanel.cpp:676
+msgctxt "@info"
+msgid ""
+"This image has been modified. Reloading it will discard all your changes."
+msgstr ""
+"Ev wêne hatiye guherandin. Nû ve barkirina vê dê hemû guherandinan jê bavêje."
+
+#: app/fullscreencontent.cpp:108
+msgctxt "@info:tooltip"
+msgid "Configure Full Screen Mode"
+msgstr "Moda Dîmender Tijî Veava Bike"
+
+#: app/fullscreencontent.cpp:271
+msgctxt "@item:intext fullscreen meta info separator"
+msgid ", "
+msgstr ","
+
+#: app/fullscreencontent.cpp:331
+#, kde-format
+msgctxt "Slideshow interval in seconds"
+msgid "%1 sec"
+msgid_plural "%1 secs"
+msgstr[0] "%1 çirke"
+msgstr[1] "%1 çirke"
+
+#: app/gvcore.cpp:83
+msgctxt "@info"
+msgid "No image format selected."
+msgstr "Tu teşeya wêneyê hilbijartî nîn e."
+
+#: app/gvcore.cpp:96
+#, kde-format
+msgctxt "@info"
+msgid "Gwenview cannot save images as %1."
+msgstr "Gwenview nikare wêneyan wekî %1 tomar bike."
+
+#: app/gvcore.cpp:181
+msgid "Save using another format"
+msgstr "Bi bikaranîna teşeyekî din re tomar bike"
+
+#: app/gvcore.cpp:184
+#, kde-format
+msgid "Gwenview cannot save images in '%1' format."
+msgstr "Gwenview nikare wêneyan di teşeya '%1' de tomar bike."
+
+#: app/gvcore.cpp:207
+#, kde-format
+msgctxt "@info"
+msgid ""
+"A file named <filename>%1</filename> already exists.\n"
+"Are you sure you want to overwrite it?"
+msgstr ""
+"Navê pelê <filename>%1</filename> jixwe heye.\n"
+"Tu bi rastî dixwazî ser vê binivîsî?"
+
+#: app/gvcore.cpp:222 app/gvcore.cpp:245
+#, kde-format
+msgctxt "@info"
+msgid "<b>Saving <filename>%1</filename> failed:</b><br>%2"
+msgstr "<b>Tomarkirina <filename>%1</filename> pêk nehat:</b><br>%2"
+
+#: app/gvcore.cpp:263
+msgid "You are now viewing the new document."
+msgstr ""
+
+#: app/gvcore.cpp:265
+msgid "Go back to the original"
+msgstr ""
+
+#: app/gvcore.cpp:309 lib/document/documentjob.cpp:78
+msgctxt "@info"
+msgid "Gwenview cannot edit this kind of image."
+msgstr "Gwenview nikare wêneyên bi vê cure yê serast bike."
+
+#: app/mainwindow.cpp:322
+msgctxt "@action reload the currently viewed image"
+msgid "Reload"
+msgstr "Nû Ve Bar Bike"
+
+#: app/mainwindow.cpp:328
+msgctxt "@action Switch to file list"
+msgid "Browse"
+msgstr "Bigere"
+
+#: app/mainwindow.cpp:333
+msgctxt "@action Switch to image view"
+msgid "View"
+msgstr "Bibîne"
+
+#: app/mainwindow.cpp:350
+msgctxt "@action Go back to a more general page (start page <- list <- image)"
+msgid "Back"
+msgstr ""
+
+#: app/mainwindow.cpp:355
+msgctxt "@action Go to previous image"
+msgid "Previous"
+msgstr "Paş"
+
+#: app/mainwindow.cpp:356
+msgid "Go to Previous Image"
+msgstr "Biçe Wêneya Paş"
+
+#: app/mainwindow.cpp:361
+msgctxt "@action Go to next image"
+msgid "Next"
+msgstr "Pêş"
+
+#: app/mainwindow.cpp:362
+msgid "Go to Next Image"
+msgstr "Biçe Wêneya Pêş"
+
+#: app/mainwindow.cpp:366
+#, fuzzy
+#| msgctxt ""
+#| "@action:button Zoom to fit, shown in status bar, keep it short please"
+#| msgid "Fit"
+msgctxt "@action Go to first image"
+msgid "First"
+msgstr "Lihevkirin"
+
+#: app/mainwindow.cpp:367
+#, fuzzy
+#| msgid "Go to Next Image"
+msgid "Go to First Image"
+msgstr "Biçe Wêneya Pêş"
+
+#: app/mainwindow.cpp:371
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Date"
+msgctxt "@action Go to last image"
+msgid "Last"
+msgstr "Dîrok"
+
+#: app/mainwindow.cpp:372
+#, fuzzy
+#| msgid "Go to Next Image"
+msgid "Go to Last Image"
+msgstr "Biçe Wêneya Pêş"
+
+#: app/mainwindow.cpp:379
+msgctxt "@action"
+msgid "Start Page"
+msgstr "Rûpela Destpêkê"
+
+#: app/mainwindow.cpp:386
+#, fuzzy
+#| msgid "Hide Sidebar"
+msgctxt "@action"
+msgid "Sidebar"
+msgstr "Darika-kêlekê Veşêre"
+
+#: app/mainwindow.cpp:416
+msgctxt "@title actions category - means actions changing smth in interface"
+msgid "Edit"
+msgstr "Serast Bike"
+
+#: app/mainwindow.cpp:421
+msgid "Redo"
+msgstr "Dîsa Bike"
+
+#: app/mainwindow.cpp:428
+msgid "Undo"
+msgstr "Şûnde Bîne"
+
+#: app/mainwindow.cpp:474
+#, fuzzy
+#| msgid "Recent Folders"
+msgid "Folders"
+msgstr "Peldankên Borî"
+
+#: app/mainwindow.cpp:480
+#, fuzzy
+#| msgid "Meta Information"
+msgid "Information"
+msgstr "Agahiya Meta"
+
+#: app/mainwindow.cpp:491
+#, fuzzy
+#| msgid "File Operations"
+msgid "Operations"
+msgstr "Xebatên Pelê"
+
+#: app/mainwindow.cpp:1284
+msgctxt "@title:window"
+msgid "Open Image"
+msgstr "Wêneyê Veke"
+
+#: app/mainwindow.cpp:1338
+msgid "Stop Slideshow"
+msgstr "Nîşandana-slaytê Rawestîne"
+
+#: app/mainwindow.cpp:1341
+msgid "Start Slideshow"
+msgstr "Nîşandana-slaytê Bide Destpêkirin"
+
+#: app/mainwindow.cpp:1355
+msgid "Save All Changes"
+msgstr "Hemû Guherandinan Tomar Bike"
+
+#: app/mainwindow.cpp:1356
+msgid "Discard Changes"
+msgstr "Guhertinan Jê Bibe"
+
+#: app/mainwindow.cpp:1357
+#, kde-format
+msgid "One image has been modified."
+msgid_plural "%1 images have been modified."
+msgstr[0] "Yek wêne hatiye guhertin."
+msgstr[1] "%1 wêne hatine guhertin."
+
+#: app/mainwindow.cpp:1359
+msgid "If you quit now, your changes will be lost."
+msgstr "Heke tu niha derkevî, guherandinên te dê winda bin."
+
+#: app/semanticinfocontextmanageritem.cpp:139
+msgid "Semantic Information"
+msgstr "Agahiya Semantîk"
+
+#: app/semanticinfocontextmanageritem.cpp:156
+#, fuzzy
+#| msgid "Description:"
+msgid "Description"
+msgstr "Daxuyanî:"
+
+#: app/semanticinfocontextmanageritem.cpp:170
+msgctxt "@action"
+msgid "Edit Tags"
+msgstr "Etîketan Serast Bike"
+
+#: app/semanticinfocontextmanageritem.cpp:180
+msgctxt "@action Rating value of zero"
+msgid "Zero"
+msgstr "Sifir"
+
+#: app/semanticinfocontextmanageritem.cpp:216
+msgid "Edit"
+msgstr "Serast Bike"
 
 #: importer/filenameformater.cpp:102
 msgid "Shooting date"
@@ -1170,30 +1187,30 @@ msgstr "Barkirina wêneyê pêk nehat."
 msgid "No document selected"
 msgstr "Tu belge nehatiye hilbijartin"
 
-#: lib/documentview/documentview.cpp:153
+#: lib/documentview/documentview.cpp:360
+msgid "Gwenview does not know how to display this kind of document"
+msgstr "Gwenview nizane ku belgeyên vê cureyê çawa nîşan bide"
+
+#: lib/documentview/documentview.cpp:449
+#, kde-format
+msgid "Loading <filename>%1</filename> failed"
+msgstr "Barkirina <filename>%1</filename> pêk nehat"
+
+#: lib/documentview/documentviewcontroller.cpp:61
 msgid "Zoom to Fit"
 msgstr "Bicihbûna Tam"
 
-#: lib/documentview/documentview.cpp:155
+#: lib/documentview/documentviewcontroller.cpp:63
 msgctxt "@action:button Zoom to fit, shown in status bar, keep it short please"
 msgid "Fit"
 msgstr "Lihevkirin"
 
-#: lib/documentview/documentview.cpp:161
+#: lib/documentview/documentviewcontroller.cpp:67
 msgctxt ""
 "@action:button Zoom to original size, shown in status bar, keep it short "
 "please"
 msgid "100%"
 msgstr "100%"
-
-#: lib/documentview/documentview.cpp:436
-msgid "Gwenview does not know how to display this kind of document"
-msgstr "Gwenview nizane ku belgeyên vê cureyê çawa nîşan bide"
-
-#: lib/documentview/documentview.cpp:525
-#, kde-format
-msgid "Loading <filename>%1</filename> failed"
-msgstr "Barkirina <filename>%1</filename> pêk nehat"
 
 #: lib/fullscreenbar.cpp:254 lib/statusbartoolbutton.cpp:118
 #, kde-format
@@ -1293,12 +1310,12 @@ msgstr "Lêrasthatî"
 msgid "Transform"
 msgstr "Veguhezîne"
 
-#: part/gvpart.cpp:74
+#: part/gvpart.cpp:73
 msgctxt "@action"
 msgid "Properties"
 msgstr "Taybetmendî"
 
-#: part/gvpart.cpp:120
+#: part/gvpart.cpp:119
 msgid "Gwenview KPart"
 msgstr "Gwenview KPart"
 
