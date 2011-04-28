@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-04-26 03:47+0200\n"
+"POT-Creation-Date: 2011-04-28 03:44+0200\n"
 "PO-Revision-Date: 2009-02-21 06:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -897,110 +897,6 @@ msgstr "Pêveka Dosiya Çavkaniyê"
 msgid "Previous Browser"
 msgstr "Koma Paş"
 
-#: browsers/CollectionTreeItemModelBase.cpp:238
-#: browsers/CollectionTreeItemModelBase.cpp:291
-msgctxt "The Name is not known"
-msgid "Unknown"
-msgstr "Nenas"
-
-#: browsers/CollectionTreeItemModelBase.cpp:316
-#: core-impl/collections/db/sql/SqlMeta.cpp:420
-#: core-impl/collections/db/ScanResultProcessor.cpp:270
-#: covermanager/CoverManager.cpp:845 dialogs/TrackOrganizer.cpp:47
-#: playlist/PlaylistModel.cpp:866 widgets/AlbumBreadcrumbWidget.cpp:60
-msgid "Various Artists"
-msgstr "Hunermendên cur bi cur"
-
-#: browsers/CollectionTreeItemModelBase.cpp:1160
-msgid "Year - Album"
-msgstr "Sal - Album "
-
-#: browsers/CollectionTreeItemModelBase.cpp:1160
-#: browsers/CollectionTreeView.cpp:230
-#: context/applets/albums/AlbumsView.cpp:255
-#: context/applets/wikipedia/WikipediaApplet.cpp:600
-#: dialogs/transferdialog.cpp:89 dialogs/FilenameLayoutDialog.cpp:242
-#: dialogs/FilenameLayoutDialog.cpp:619 musicbrainz/MusicBrainzTags.cpp:360
-#: playlist/view/PlaylistViewCommon.cpp:64 playlist/PlaylistModel.cpp:894
-#: services/jamendo/JamendoInfoParser.cpp:83
-#: services/magnatune/MagnatuneStore.cpp:223
-#: widgets/SmartPlaylistEditor.cpp:183 widgets/SmartPlaylistEditor.cpp:197
-msgid "Album"
-msgstr "Album"
-
-#. i18n: file: context/applets/tabs/ReloadEditDialog.ui:73
-#. i18n: ectx: property (text), widget (QLabel, artistLabel)
-#: browsers/CollectionTreeItemModelBase.cpp:1161
-#: context/applets/wikipedia/WikipediaApplet.cpp:594
-#: dialogs/transferdialog.cpp:88 dialogs/FilenameLayoutDialog.cpp:230
-#: dialogs/FilenameLayoutDialog.cpp:591 musicbrainz/MusicBrainzTags.cpp:359
-#: playlist/PlaylistModel.cpp:890 services/jamendo/JamendoInfoParser.cpp:51
-#: services/lastfm/LastFmService.cpp:534
-#: services/magnatune/MagnatuneStore.cpp:217
-#: widgets/SmartPlaylistEditor.cpp:183 widgets/SmartPlaylistEditor.cpp:197
-#: rc.cpp:1028
-msgid "Artist"
-msgstr "Hunermend"
-
-#. i18n: file: dialogs/FilenameLayoutDialog.ui:746
-#. i18n: ectx: property (text), widget (QLabel, label_13)
-#: browsers/CollectionTreeItemModelBase.cpp:1162
-#: dialogs/FilenameLayoutDialog.cpp:246 dialogs/FilenameLayoutDialog.cpp:612
-#: musicbrainz/MusicBrainzTags.cpp:361 playlist/PlaylistModel.cpp:891
-#: rc.cpp:1466
-msgid "Album Artist"
-msgstr "Hunermendê Albumê "
-
-#: browsers/CollectionTreeItemModelBase.cpp:1163
-#: core/meta/support/MetaConstants.cpp:110
-#: dialogs/FilenameLayoutDialog.cpp:234 dialogs/FilenameLayoutDialog.cpp:598
-#: playlist/PlaylistModel.cpp:892 widgets/SmartPlaylistEditor.cpp:183
-#: widgets/SmartPlaylistEditor.cpp:197
-msgid "Composer"
-msgstr "Bestekar"
-
-#: browsers/CollectionTreeItemModelBase.cpp:1164
-#: core/meta/support/MetaConstants.cpp:109 dialogs/transferdialog.cpp:90
-#: dialogs/FilenameLayoutDialog.cpp:254 dialogs/FilenameLayoutDialog.cpp:633
-#: playlist/ProgressiveSearchWidget.cpp:95 playlist/PlaylistModel.cpp:898
-#: widgets/SmartPlaylistEditor.cpp:183 widgets/SmartPlaylistEditor.cpp:197
-msgid "Genre"
-msgstr "Cûre"
-
-#: browsers/CollectionTreeItemModelBase.cpp:1165
-#: core/meta/support/MetaConstants.cpp:111
-#: dialogs/FilenameLayoutDialog.cpp:238 dialogs/FilenameLayoutDialog.cpp:605
-#: playlist/PlaylistModel.cpp:893 widgets/SmartPlaylistEditor.cpp:184
-#: widgets/SmartPlaylistEditor.cpp:197 widgets/SmartPlaylistEditor.cpp:921
-msgid "Year"
-msgstr "Sal"
-
-#: browsers/CollectionTreeItemModelBase.cpp:1166
-#: core/meta/support/MetaConstants.cpp:135 widgets/SmartPlaylistEditor.cpp:187
-#: widgets/SmartPlaylistEditor.cpp:197
-msgid "Label"
-msgstr "Etîket"
-
-#: browsers/CollectionTreeItemModelBase.cpp:1225
-msgid "today"
-msgstr "îro"
-
-#: browsers/CollectionTreeItemModelBase.cpp:1227
-msgid "last week"
-msgstr "hefte ya borî"
-
-#: browsers/CollectionTreeItemModelBase.cpp:1229
-msgid "last month"
-msgstr "meha borî"
-
-#: browsers/CollectionTreeItemModelBase.cpp:1231
-msgid "two months ago"
-msgstr "du meh berê"
-
-#: browsers/CollectionTreeItemModelBase.cpp:1233
-msgid "three months ago"
-msgstr "sê meh berê"
-
 #: browsers/InfoProxy.cpp:164 browsers/filebrowser/FileBrowser.cpp:395
 msgid "Home"
 msgstr "Mal"
@@ -1607,22 +1503,6 @@ msgstr "Podcast &Lê Zêde Bike"
 msgid "Enter RSS 1.0/2.0 or Atom feed URL:"
 msgstr "Darêja URL yê Bikeve:"
 
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:173
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:222
-#, fuzzy, kde-format
-#| msgid "Playlist"
-msgctxt "number of playlists from one source"
-msgid "One Playlist"
-msgid_plural "%1 playlists"
-msgstr[0] "Lîsteya Lêdanê"
-msgstr[1] "Lîsteya Lêdanê"
-
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:439
-#, fuzzy
-#| msgid "Source"
-msgid "Source"
-msgstr "Çavkanî"
-
 #: browsers/playlistbrowser/PlaylistsInFoldersProxy.cpp:36
 #, fuzzy
 #| msgid "&Rename group"
@@ -1668,6 +1548,22 @@ msgstr "Tu bi rastî dixwazî wan stranên %1 jê bibî?"
 msgid "Yes, delete folder."
 msgstr "Pelan Jê Bibe"
 
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:173
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:222
+#, fuzzy, kde-format
+#| msgid "Playlist"
+msgctxt "number of playlists from one source"
+msgid "One Playlist"
+msgid_plural "%1 playlists"
+msgstr[0] "Lîsteya Lêdanê"
+msgstr[1] "Lîsteya Lêdanê"
+
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:439
+#, fuzzy
+#| msgid "Source"
+msgid "Source"
+msgstr "Çavkanî"
+
 #: browsers/servicebrowser/ServiceBrowser.cpp:44
 msgid ""
 "The Internet browser lets you browse online sources of content that "
@@ -1698,6 +1594,19 @@ msgid_plural "%1 tracks"
 msgstr[0] "%1 stran"
 msgstr[1] "%1 stranan "
 
+#: browsers/CollectionTreeView.cpp:230
+#: browsers/CollectionTreeItemModelBase.cpp:1160
+#: context/applets/albums/AlbumsView.cpp:255
+#: context/applets/wikipedia/WikipediaApplet.cpp:600
+#: dialogs/transferdialog.cpp:89 dialogs/FilenameLayoutDialog.cpp:242
+#: dialogs/FilenameLayoutDialog.cpp:619 musicbrainz/MusicBrainzTags.cpp:360
+#: playlist/view/PlaylistViewCommon.cpp:64 playlist/PlaylistModel.cpp:894
+#: services/jamendo/JamendoInfoParser.cpp:83
+#: services/magnatune/MagnatuneStore.cpp:223
+#: widgets/SmartPlaylistEditor.cpp:183 widgets/SmartPlaylistEditor.cpp:197
+msgid "Album"
+msgstr "Album"
+
 #: browsers/CollectionTreeView.cpp:250 configdialog/ConfigDialog.cpp:59
 msgid "Collection"
 msgstr "Berhevok"
@@ -1716,6 +1625,97 @@ msgstr "Rêxistina Pelan"
 #| msgid "&Delete Tracks"
 msgid "Delete Tracks"
 msgstr "Stranan &Jê Bibe"
+
+#: browsers/CollectionTreeItemModelBase.cpp:238
+#: browsers/CollectionTreeItemModelBase.cpp:291
+msgctxt "The Name is not known"
+msgid "Unknown"
+msgstr "Nenas"
+
+#: browsers/CollectionTreeItemModelBase.cpp:316
+#: core-impl/collections/db/sql/SqlMeta.cpp:420
+#: core-impl/collections/db/ScanResultProcessor.cpp:270
+#: covermanager/CoverManager.cpp:845 dialogs/TrackOrganizer.cpp:47
+#: playlist/PlaylistModel.cpp:866 widgets/AlbumBreadcrumbWidget.cpp:60
+msgid "Various Artists"
+msgstr "Hunermendên cur bi cur"
+
+#: browsers/CollectionTreeItemModelBase.cpp:1160
+msgid "Year - Album"
+msgstr "Sal - Album "
+
+#. i18n: file: context/applets/tabs/ReloadEditDialog.ui:73
+#. i18n: ectx: property (text), widget (QLabel, artistLabel)
+#: browsers/CollectionTreeItemModelBase.cpp:1161
+#: context/applets/wikipedia/WikipediaApplet.cpp:594
+#: dialogs/transferdialog.cpp:88 dialogs/FilenameLayoutDialog.cpp:230
+#: dialogs/FilenameLayoutDialog.cpp:591 musicbrainz/MusicBrainzTags.cpp:359
+#: playlist/PlaylistModel.cpp:890 services/jamendo/JamendoInfoParser.cpp:51
+#: services/lastfm/LastFmService.cpp:534
+#: services/magnatune/MagnatuneStore.cpp:217
+#: widgets/SmartPlaylistEditor.cpp:183 widgets/SmartPlaylistEditor.cpp:197
+#: rc.cpp:1028
+msgid "Artist"
+msgstr "Hunermend"
+
+#. i18n: file: dialogs/FilenameLayoutDialog.ui:746
+#. i18n: ectx: property (text), widget (QLabel, label_13)
+#: browsers/CollectionTreeItemModelBase.cpp:1162
+#: dialogs/FilenameLayoutDialog.cpp:246 dialogs/FilenameLayoutDialog.cpp:612
+#: musicbrainz/MusicBrainzTags.cpp:361 playlist/PlaylistModel.cpp:891
+#: rc.cpp:1466
+msgid "Album Artist"
+msgstr "Hunermendê Albumê "
+
+#: browsers/CollectionTreeItemModelBase.cpp:1163
+#: core/meta/support/MetaConstants.cpp:110
+#: dialogs/FilenameLayoutDialog.cpp:234 dialogs/FilenameLayoutDialog.cpp:598
+#: playlist/PlaylistModel.cpp:892 widgets/SmartPlaylistEditor.cpp:183
+#: widgets/SmartPlaylistEditor.cpp:197
+msgid "Composer"
+msgstr "Bestekar"
+
+#: browsers/CollectionTreeItemModelBase.cpp:1164
+#: core/meta/support/MetaConstants.cpp:109 dialogs/transferdialog.cpp:90
+#: dialogs/FilenameLayoutDialog.cpp:254 dialogs/FilenameLayoutDialog.cpp:633
+#: playlist/ProgressiveSearchWidget.cpp:95 playlist/PlaylistModel.cpp:898
+#: widgets/SmartPlaylistEditor.cpp:183 widgets/SmartPlaylistEditor.cpp:197
+msgid "Genre"
+msgstr "Cûre"
+
+#: browsers/CollectionTreeItemModelBase.cpp:1165
+#: core/meta/support/MetaConstants.cpp:111
+#: dialogs/FilenameLayoutDialog.cpp:238 dialogs/FilenameLayoutDialog.cpp:605
+#: playlist/PlaylistModel.cpp:893 widgets/SmartPlaylistEditor.cpp:184
+#: widgets/SmartPlaylistEditor.cpp:197 widgets/SmartPlaylistEditor.cpp:921
+msgid "Year"
+msgstr "Sal"
+
+#: browsers/CollectionTreeItemModelBase.cpp:1166
+#: core/meta/support/MetaConstants.cpp:135 widgets/SmartPlaylistEditor.cpp:187
+#: widgets/SmartPlaylistEditor.cpp:197
+msgid "Label"
+msgstr "Etîket"
+
+#: browsers/CollectionTreeItemModelBase.cpp:1225
+msgid "today"
+msgstr "îro"
+
+#: browsers/CollectionTreeItemModelBase.cpp:1227
+msgid "last week"
+msgstr "hefte ya borî"
+
+#: browsers/CollectionTreeItemModelBase.cpp:1229
+msgid "last month"
+msgstr "meha borî"
+
+#: browsers/CollectionTreeItemModelBase.cpp:1231
+msgid "two months ago"
+msgstr "du meh berê"
+
+#: browsers/CollectionTreeItemModelBase.cpp:1233
+msgid "three months ago"
+msgstr "sê meh berê"
 
 #: configdialog/dialogs/DatabaseConfig.cpp:93
 #, fuzzy
@@ -3580,23 +3580,23 @@ msgid ""
 "your device. Please enter your sudo password"
 msgstr ""
 
-#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:2211
+#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:2214
 #, fuzzy
 #| msgid "Selected Tracks"
 msgid "Select Stale Tracks To Delete"
 msgstr "Stranên Hilbijartî"
 
-#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:2211
+#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:2214
 #, fuzzy
 #| msgid "Selected Tracks"
 msgid "Stale Tracks"
 msgstr "Stranên Hilbijartî"
 
-#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:2264
+#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:2267
 msgid "Adding Orphaned Tracks to iPod Database"
 msgstr ""
 
-#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:2302
+#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:2305
 #, kde-format
 msgctxt "@info"
 msgid "One orphaned track added to the database."
@@ -3604,7 +3604,7 @@ msgid_plural "%1 tracks added to the database."
 msgstr[0] ""
 msgstr[1] ""
 
-#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:2307
+#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:2310
 #, fuzzy
 #| msgid "Tracks Added"
 msgid "Orphaned Tracks Added"
@@ -8123,16 +8123,6 @@ msgstr "Cîhaz serfiraz hate girêdan"
 msgid "Connection failure"
 msgstr "Girêdan"
 
-#: services/ampache/AmpacheAccountLogin.cpp:133
-msgid "Enter the server name and a password"
-msgstr "Navê pêşkêşkerê û nasnavê têkevê"
-
-#: services/ampache/AmpacheAccountLogin.cpp:223
-#, fuzzy
-#| msgid "Authentication Error!"
-msgid "Authentication Error"
-msgstr "Çewtiya Erêkirinê!"
-
 #: services/ampache/AmpacheServiceCollection.cpp:56
 #, kde-format
 msgid "Ampache Server %1"
@@ -8165,6 +8155,16 @@ msgid ""
 "Use Amarok as a seamless frontend to your Ampache server. This lets you "
 "browse and play all the Ampache contents from within Amarok."
 msgstr ""
+
+#: services/ampache/AmpacheAccountLogin.cpp:133
+msgid "Enter the server name and a password"
+msgstr "Navê pêşkêşkerê û nasnavê têkevê"
+
+#: services/ampache/AmpacheAccountLogin.cpp:223
+#, fuzzy
+#| msgid "Authentication Error!"
+msgid "Authentication Error"
+msgstr "Çewtiya Erêkirinê!"
 
 #: services/jamendo/JamendoInfoParser.cpp:46
 #: services/jamendo/JamendoInfoParser.cpp:77
