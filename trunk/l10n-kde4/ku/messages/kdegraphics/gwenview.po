@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gwenview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-04-01 03:47+0200\n"
+"POT-Creation-Date: 2011-04-30 03:55+0200\n"
 "PO-Revision-Date: 2009-01-22 22:46+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -299,69 +299,6 @@ msgstr "Kêm-kirina Çavê Sor"
 #: app/imageopscontextmanageritem.cpp:135
 msgid "Image Operations"
 msgstr "Xebatên Wêne"
-
-#: app/infocontextmanageritem.cpp:85
-#, kde-format
-msgctxt ""
-"@item:intext %1 is a key, we append a colon to it. A value is displayed after"
-msgid "%1:"
-msgstr "%1:"
-
-#: app/infocontextmanageritem.cpp:196
-msgctxt "@action show more image meta info"
-msgid "More..."
-msgstr "Zêdetir..."
-
-#: app/infocontextmanageritem.cpp:207
-msgctxt "@title:group"
-msgid "Meta Information"
-msgstr "Agahiya Meta"
-
-#: app/infocontextmanageritem.cpp:296
-#, fuzzy, kde-format
-#| msgctxt "@label"
-#| msgid "%1 files selected"
-msgctxt "@label"
-msgid "%1 file selected"
-msgid_plural "%1 files selected"
-msgstr[0] "%1 pel hatin hilbijartin"
-msgstr[1] "%1 pel hatin hilbijartin"
-
-#: app/infocontextmanageritem.cpp:298
-#, fuzzy, kde-format
-#| msgctxt "@label"
-#| msgid "One folder selected"
-#| msgid_plural "%1 folders selected"
-msgctxt "@label"
-msgid "%1 folder selected"
-msgid_plural "%1 folders selected"
-msgstr[0] "Yek peldank hatiye hilbijartin"
-msgstr[1] "%1 peldank hatine hilbijartin"
-
-#: app/infocontextmanageritem.cpp:301
-#, kde-format
-msgid "%1 folder"
-msgid_plural "%1 folders"
-msgstr[0] ""
-msgstr[1] ""
-
-#: app/infocontextmanageritem.cpp:301
-#, fuzzy, kde-format
-#| msgctxt "Slideshow interval in seconds"
-#| msgid "%1 sec"
-#| msgid_plural "%1 secs"
-msgid "%1 file"
-msgid_plural "%1 files"
-msgstr[0] "%1 çirke"
-msgstr[1] "%1 çirke"
-
-#: app/infocontextmanageritem.cpp:301
-#, fuzzy, kde-format
-#| msgctxt "@label"
-#| msgid "%1 folders and %2 files selected"
-msgctxt "@label. The two parameters are strings like '2 folders' and '1 file'."
-msgid "%1 and %2 selected"
-msgstr "%1 peldank û %2 pel hatine hilbijartin"
 
 #: app/kipiexportaction.cpp:50
 msgid "Last Used Plugin"
@@ -922,6 +859,69 @@ msgstr "Sifir"
 msgid "Edit"
 msgstr "Serast Bike"
 
+#: app/infocontextmanageritem.cpp:164
+#, kde-format
+msgctxt ""
+"@item:intext %1 is a key, we append a colon to it. A value is displayed after"
+msgid "%1:"
+msgstr "%1:"
+
+#: app/infocontextmanageritem.cpp:236
+msgctxt "@action show more image meta info"
+msgid "More..."
+msgstr "Zêdetir..."
+
+#: app/infocontextmanageritem.cpp:247
+msgctxt "@title:group"
+msgid "Meta Information"
+msgstr "Agahiya Meta"
+
+#: app/infocontextmanageritem.cpp:336
+#, fuzzy, kde-format
+#| msgctxt "@label"
+#| msgid "%1 files selected"
+msgctxt "@label"
+msgid "%1 file selected"
+msgid_plural "%1 files selected"
+msgstr[0] "%1 pel hatin hilbijartin"
+msgstr[1] "%1 pel hatin hilbijartin"
+
+#: app/infocontextmanageritem.cpp:338
+#, fuzzy, kde-format
+#| msgctxt "@label"
+#| msgid "One folder selected"
+#| msgid_plural "%1 folders selected"
+msgctxt "@label"
+msgid "%1 folder selected"
+msgid_plural "%1 folders selected"
+msgstr[0] "Yek peldank hatiye hilbijartin"
+msgstr[1] "%1 peldank hatine hilbijartin"
+
+#: app/infocontextmanageritem.cpp:341
+#, kde-format
+msgid "%1 folder"
+msgid_plural "%1 folders"
+msgstr[0] ""
+msgstr[1] ""
+
+#: app/infocontextmanageritem.cpp:341
+#, fuzzy, kde-format
+#| msgctxt "Slideshow interval in seconds"
+#| msgid "%1 sec"
+#| msgid_plural "%1 secs"
+msgid "%1 file"
+msgid_plural "%1 files"
+msgstr[0] "%1 çirke"
+msgstr[1] "%1 çirke"
+
+#: app/infocontextmanageritem.cpp:341
+#, fuzzy, kde-format
+#| msgctxt "@label"
+#| msgid "%1 folders and %2 files selected"
+msgctxt "@label. The two parameters are strings like '2 folders' and '1 file'."
+msgid "%1 and %2 selected"
+msgstr "%1 peldank û %2 pel hatine hilbijartin"
+
 #: importer/filenameformater.cpp:102
 msgid "Shooting date"
 msgstr ""
@@ -1223,6 +1223,46 @@ msgstr "%1"
 msgid "Last visited: %1"
 msgstr ""
 
+#: lib/jpegcontent.cpp:561
+msgctxt "@info"
+msgid "Could not open file for writing."
+msgstr "Pel ji bo nivîsandinê nayê vekirin."
+
+#: lib/jpegcontent.cpp:577
+msgctxt "@info"
+msgid "No data to store."
+msgstr "Ji bo nijandinê tu dane tune ye."
+
+#: lib/print/printhelper.cpp:129
+msgid "Print Image"
+msgstr "Wêneyê Çap Bike"
+
+#: lib/redeyereduction/redeyereductionimageoperation.cpp:75
+msgid "RedEyeReduction"
+msgstr "RedEyeReduction"
+
+#: lib/redeyereduction/redeyereductiontool.cpp:69
+msgid "Click on the red eye you want to fix."
+msgstr "Çavê sor yê tu dixwazî serast bikî bitikîne."
+
+#: lib/semanticinfo/tagitemdelegate.cpp:65
+msgid "Assign this tag to all selected images"
+msgstr "Vê etîketê lê hemû wêneyên hilbijartî zêde bike"
+
+#: lib/slideshow.cpp:158
+msgctxt "@item:inmenu toggle loop in slideshow"
+msgid "Loop"
+msgstr "Zivr (Loop)"
+
+#: lib/slideshow.cpp:163
+msgctxt "@item:inmenu toggle random order in slideshow"
+msgid "Random"
+msgstr "Lêrasthatî"
+
+#: lib/transformimageoperation.cpp:80
+msgid "Transform"
+msgstr "Veguhezîne"
+
 #: lib/imagemetainfomodel.cpp:229
 msgctxt "@item:intable Image file name"
 msgid "Name"
@@ -1269,46 +1309,6 @@ msgstr "Taybetmendî"
 msgctxt "@title:column"
 msgid "Value"
 msgstr "Nirx"
-
-#: lib/jpegcontent.cpp:561
-msgctxt "@info"
-msgid "Could not open file for writing."
-msgstr "Pel ji bo nivîsandinê nayê vekirin."
-
-#: lib/jpegcontent.cpp:577
-msgctxt "@info"
-msgid "No data to store."
-msgstr "Ji bo nijandinê tu dane tune ye."
-
-#: lib/print/printhelper.cpp:129
-msgid "Print Image"
-msgstr "Wêneyê Çap Bike"
-
-#: lib/redeyereduction/redeyereductionimageoperation.cpp:75
-msgid "RedEyeReduction"
-msgstr "RedEyeReduction"
-
-#: lib/redeyereduction/redeyereductiontool.cpp:69
-msgid "Click on the red eye you want to fix."
-msgstr "Çavê sor yê tu dixwazî serast bikî bitikîne."
-
-#: lib/semanticinfo/tagitemdelegate.cpp:65
-msgid "Assign this tag to all selected images"
-msgstr "Vê etîketê lê hemû wêneyên hilbijartî zêde bike"
-
-#: lib/slideshow.cpp:158
-msgctxt "@item:inmenu toggle loop in slideshow"
-msgid "Loop"
-msgstr "Zivr (Loop)"
-
-#: lib/slideshow.cpp:163
-msgctxt "@item:inmenu toggle random order in slideshow"
-msgid "Random"
-msgstr "Lêrasthatî"
-
-#: lib/transformimageoperation.cpp:80
-msgid "Transform"
-msgstr "Veguhezîne"
 
 #: part/gvpart.cpp:73
 msgctxt "@action"

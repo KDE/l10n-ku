@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-04-29 04:08+0200\n"
+"POT-Creation-Date: 2011-04-30 04:00+0200\n"
 "PO-Revision-Date: 2007-12-21 21:45+0100\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <gnu-ku-wergerandin at lists dot sourceforge dot "
@@ -6122,6 +6122,106 @@ msgctxt "@action:inmenu"
 msgid "More"
 msgstr ""
 
+#: ../kfile/kfilefiltercombo.cpp:36 ../kfile/kfilewidget.cpp:1802
+msgid "*|All Files"
+msgstr ""
+
+#: ../kfile/kfilefiltercombo.cpp:194
+#, fuzzy
+#| msgid "All Pictures"
+msgid "All Files"
+msgstr "Tevî Wêne"
+
+#: ../kfile/knewfilemenu.cpp:368 ../kfile/knewfilemenu.cpp:872
+msgid "Sorry"
+msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:377
+#, kde-format
+msgid "<qt>The template file <b>%1</b> does not exist.</qt>"
+msgstr ""
+
+# msgctxt "@title job"
+#: ../kfile/knewfilemenu.cpp:396
+#, fuzzy
+#| msgid "Creating directory"
+msgctxt "@action:button"
+msgid "Create directory"
+msgstr "Pelrêç tê afirandin"
+
+#: ../kfile/knewfilemenu.cpp:398
+msgctxt "@action:button"
+msgid "Enter a different name"
+msgstr ""
+
+# msgctxt "@title job"
+#: ../kfile/knewfilemenu.cpp:401
+#, fuzzy
+#| msgid "Creating directory"
+msgid "Create hidden directory?"
+msgstr "Pelrêç tê afirandin"
+
+#: ../kfile/knewfilemenu.cpp:405
+#, kde-format
+msgid ""
+"The name \"%1\" starts with a dot, so the directory will be hidden by "
+"default."
+msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:407
+msgid "Do not ask again"
+msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:500 ../kfile/knewfilemenu.cpp:558
+#, fuzzy
+#| msgid "File system:"
+msgid "File name:"
+msgstr "Pergala pelan:"
+
+#: ../kfile/knewfilemenu.cpp:503
+msgid "Create Symlink"
+msgstr ""
+
+# msgctxt "@title job"
+#: ../kfile/knewfilemenu.cpp:562
+#, fuzzy
+#| msgid "Creating directory"
+msgid "Create link to URL"
+msgstr "Pelrêç tê afirandin"
+
+#: ../kfile/knewfilemenu.cpp:882
+msgid ""
+"Basic links can only point to local files or directories.\n"
+"Please use \"Link to Location\" for remote URLs."
+msgstr ""
+
+# msgctxt "@title job"
+#: ../kfile/knewfilemenu.cpp:947
+#, fuzzy
+#| msgid "Creating directory"
+msgid "Create New"
+msgstr "Pelrêç tê afirandin"
+
+#: ../kfile/knewfilemenu.cpp:960
+#, fuzzy
+#| msgid "Device"
+msgid "Link to Device"
+msgstr "Cîhaz"
+
+#: ../kfile/knewfilemenu.cpp:1005
+#, fuzzy
+#| msgid "New Folder"
+msgctxt "Default name for a new folder"
+msgid "New Folder"
+msgstr "Peldanka Nû"
+
+#: ../kfile/knewfilemenu.cpp:1019
+#, kde-format
+msgid ""
+"Create new folder in:\n"
+"%1"
+msgstr ""
+
 #: ../kfile/kfilewidget.cpp:286
 msgid ""
 "<qt>While typing in the text area, you may be presented with possible "
@@ -6298,10 +6398,6 @@ msgstr ""
 msgid "*|All Folders"
 msgstr ""
 
-#: ../kfile/kfilewidget.cpp:1802 ../kfile/kfilefiltercombo.cpp:36
-msgid "*|All Files"
-msgstr ""
-
 #: ../kfile/kfilewidget.cpp:2051
 #, kde-format
 msgid "Icon size: %1 pixels (standard size)"
@@ -6352,102 +6448,6 @@ msgid ""
 "button to open the bookmark menu where you may add, edit or select a "
 "bookmark.<br /><br />These bookmarks are specific to the file dialog, but "
 "otherwise operate like bookmarks elsewhere in KDE.</qt>"
-msgstr ""
-
-#: ../kfile/kfilefiltercombo.cpp:194
-#, fuzzy
-#| msgid "All Pictures"
-msgid "All Files"
-msgstr "Tevî Wêne"
-
-#: ../kfile/knewfilemenu.cpp:368 ../kfile/knewfilemenu.cpp:872
-msgid "Sorry"
-msgstr ""
-
-#: ../kfile/knewfilemenu.cpp:377
-#, kde-format
-msgid "<qt>The template file <b>%1</b> does not exist.</qt>"
-msgstr ""
-
-# msgctxt "@title job"
-#: ../kfile/knewfilemenu.cpp:396
-#, fuzzy
-#| msgid "Creating directory"
-msgctxt "@action:button"
-msgid "Create directory"
-msgstr "Pelrêç tê afirandin"
-
-#: ../kfile/knewfilemenu.cpp:398
-msgctxt "@action:button"
-msgid "Enter a different name"
-msgstr ""
-
-# msgctxt "@title job"
-#: ../kfile/knewfilemenu.cpp:401
-#, fuzzy
-#| msgid "Creating directory"
-msgid "Create hidden directory?"
-msgstr "Pelrêç tê afirandin"
-
-#: ../kfile/knewfilemenu.cpp:405
-#, kde-format
-msgid ""
-"The name \"%1\" starts with a dot, so the directory will be hidden by "
-"default."
-msgstr ""
-
-#: ../kfile/knewfilemenu.cpp:407
-msgid "Do not ask again"
-msgstr ""
-
-#: ../kfile/knewfilemenu.cpp:500 ../kfile/knewfilemenu.cpp:558
-#, fuzzy
-#| msgid "File system:"
-msgid "File name:"
-msgstr "Pergala pelan:"
-
-#: ../kfile/knewfilemenu.cpp:503
-msgid "Create Symlink"
-msgstr ""
-
-# msgctxt "@title job"
-#: ../kfile/knewfilemenu.cpp:562
-#, fuzzy
-#| msgid "Creating directory"
-msgid "Create link to URL"
-msgstr "Pelrêç tê afirandin"
-
-#: ../kfile/knewfilemenu.cpp:882
-msgid ""
-"Basic links can only point to local files or directories.\n"
-"Please use \"Link to Location\" for remote URLs."
-msgstr ""
-
-# msgctxt "@title job"
-#: ../kfile/knewfilemenu.cpp:947
-#, fuzzy
-#| msgid "Creating directory"
-msgid "Create New"
-msgstr "Pelrêç tê afirandin"
-
-#: ../kfile/knewfilemenu.cpp:960
-#, fuzzy
-#| msgid "Device"
-msgid "Link to Device"
-msgstr "Cîhaz"
-
-#: ../kfile/knewfilemenu.cpp:1005
-#, fuzzy
-#| msgid "New Folder"
-msgctxt "Default name for a new folder"
-msgid "New Folder"
-msgstr "Peldanka Nû"
-
-#: ../kfile/knewfilemenu.cpp:1019
-#, kde-format
-msgid ""
-"Create new folder in:\n"
-"%1"
 msgstr ""
 
 #, fuzzy
