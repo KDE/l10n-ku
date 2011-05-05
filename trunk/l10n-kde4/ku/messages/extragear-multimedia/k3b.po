@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: k3b\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-04 03:40+0200\n"
+"POT-Creation-Date: 2011-05-05 03:41+0200\n"
 "PO-Revision-Date: 2009-02-21 07:27+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -1049,70 +1049,6 @@ msgstr ""
 msgctxt "@info %1 is a duration formatted using KLocale::formatLocaleTime"
 msgid "Remaining time: %1"
 msgstr "Mayî:"
-
-#: k3blsofwrapperdialog.cpp:45
-msgid "Device in use"
-msgstr "Cîhaza tê bikaranîn"
-
-#: k3blsofwrapperdialog.cpp:49
-msgid "Quit the other applications"
-msgstr "Ji sepanên din derkeve"
-
-#: k3blsofwrapperdialog.cpp:50 k3blsofwrapperdialog.cpp:82
-msgid "Check again"
-msgstr "Cardin kontrol bike"
-
-#: k3blsofwrapperdialog.cpp:51
-msgid "Continue"
-msgstr "Bidomîne"
-
-#: k3blsofwrapperdialog.cpp:73
-#, kde-format
-msgid ""
-"<p>Device <b>'%1'</b> is already in use by other applications (<em>%2</em>)."
-"<p>It is highly recommended to quit those before continuing. Otherwise K3b "
-"might not be able to fully access the device.<p><em>Hint: Sometimes shutting "
-"down an application does not happen instantly. In that case you might have "
-"to use the '%3' button."
-msgstr ""
-
-#: k3blsofwrapperdialog.cpp:101
-msgid "<p>Do you really want K3b to kill the following processes: <em>"
-msgstr ""
-
-#: k3bmediaselectiondialog.cpp:34
-msgid "Medium Selection"
-msgstr ""
-
-#: k3bmediaselectiondialog.cpp:40
-msgid "Please select a medium:"
-msgstr ""
-
-#: k3bmediumdelegate.cpp:141
-#, fuzzy, kde-format
-#| msgid "%1 track"
-#| msgid_plural "%1 tracks"
-msgid "%1 in 1 track"
-msgid_plural "%1 in %2 tracks"
-msgstr[0] "%1 stran"
-msgstr[1] "%1 stranan"
-
-#: k3bmediumdelegate.cpp:145
-#, kde-format
-msgid " and %1 session"
-msgid_plural " and %1 sessions"
-msgstr[0] ""
-msgstr[1] ""
-
-#: k3bmediumdelegate.cpp:158
-#, kde-format
-msgid "Free space: %1"
-msgstr ""
-
-#: k3bmediumdelegate.cpp:170
-#, kde-format
-msgid "Capacity: %1"
-msgstr ""
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -3727,6 +3663,70 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, m_comboSize)
 #: rc.cpp:1355
 msgid "32-bit Words"
+msgstr ""
+
+#: k3blsofwrapperdialog.cpp:45
+msgid "Device in use"
+msgstr "Cîhaza tê bikaranîn"
+
+#: k3blsofwrapperdialog.cpp:49
+msgid "Quit the other applications"
+msgstr "Ji sepanên din derkeve"
+
+#: k3blsofwrapperdialog.cpp:50 k3blsofwrapperdialog.cpp:82
+msgid "Check again"
+msgstr "Cardin kontrol bike"
+
+#: k3blsofwrapperdialog.cpp:51
+msgid "Continue"
+msgstr "Bidomîne"
+
+#: k3blsofwrapperdialog.cpp:73
+#, kde-format
+msgid ""
+"<p>Device <b>'%1'</b> is already in use by other applications (<em>%2</em>)."
+"<p>It is highly recommended to quit those before continuing. Otherwise K3b "
+"might not be able to fully access the device.<p><em>Hint: Sometimes shutting "
+"down an application does not happen instantly. In that case you might have "
+"to use the '%3' button."
+msgstr ""
+
+#: k3blsofwrapperdialog.cpp:101
+msgid "<p>Do you really want K3b to kill the following processes: <em>"
+msgstr ""
+
+#: k3bmediaselectiondialog.cpp:34
+msgid "Medium Selection"
+msgstr ""
+
+#: k3bmediaselectiondialog.cpp:40
+msgid "Please select a medium:"
+msgstr ""
+
+#: k3bmediumdelegate.cpp:141
+#, fuzzy, kde-format
+#| msgid "%1 track"
+#| msgid_plural "%1 tracks"
+msgid "%1 in 1 track"
+msgid_plural "%1 in %2 tracks"
+msgstr[0] "%1 stran"
+msgstr[1] "%1 stranan"
+
+#: k3bmediumdelegate.cpp:145
+#, kde-format
+msgid " and %1 session"
+msgid_plural " and %1 sessions"
+msgstr[0] ""
+msgstr[1] ""
+
+#: k3bmediumdelegate.cpp:158
+#, kde-format
+msgid "Free space: %1"
+msgstr ""
+
+#: k3bmediumdelegate.cpp:170
+#, kde-format
+msgid "Capacity: %1"
 msgstr ""
 
 #: k3bapplication.cpp:161
