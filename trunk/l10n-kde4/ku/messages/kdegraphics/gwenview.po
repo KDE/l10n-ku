@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gwenview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-04 03:59+0200\n"
+"POT-Creation-Date: 2011-05-08 04:11+0200\n"
 "PO-Revision-Date: 2009-01-22 22:46+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -31,73 +31,6 @@ msgstr "Nîşandana Wêneyan"
 #| msgid "Image Settings"
 msgid "Advanced"
 msgstr "Mîhengên Wêneyan"
-
-#: app/fileoperations.cpp:72
-msgid "Copy To"
-msgstr "Ji Ber Bigire Li"
-
-#: app/fileoperations.cpp:73
-msgctxt "@action:button"
-msgid "Copy"
-msgstr "Ji Ber Bigire"
-
-#: app/fileoperations.cpp:76
-msgid "Move To"
-msgstr "Bibe Li"
-
-#: app/fileoperations.cpp:77
-msgctxt "@action:button"
-msgid "Move"
-msgstr "Bibe"
-
-#: app/fileoperations.cpp:80
-msgid "Link To"
-msgstr "Girê Bide Li"
-
-#: app/fileoperations.cpp:81
-msgctxt "@action:button"
-msgid "Link"
-msgstr "Girêdan"
-
-#: app/fileoperations.cpp:170
-msgid "Create Folder"
-msgstr "Peldank Biafirîne"
-
-#: app/fileoperations.cpp:171
-msgid "Enter the name of the folder to create:"
-msgstr "Navê peldanka dê were afirandin têkevê:"
-
-#: app/fileoperations.cpp:201
-msgid "Move Here"
-msgstr "Bîne Li Vir"
-
-#: app/fileoperations.cpp:204
-msgid "Copy Here"
-msgstr "Ji Ber Bigire Li Vir"
-
-#: app/fileoperations.cpp:207
-msgid "Link Here"
-msgstr "Girê Bide Li Vir"
-
-#: app/fileoperations.cpp:211
-msgid "Cancel"
-msgstr "Betal Bike"
-
-#: app/fileoperations.cpp:227
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Filename"
-msgid "Rename"
-msgstr "Navê Pelê"
-
-#: app/fileoperations.cpp:228
-#, fuzzy, kde-format
-#| msgctxt ""
-#| "@info %1 is the name of the document which failed to save, %2 is the "
-#| "reason for the failure"
-#| msgid "<filename>%1</filename>: %2"
-msgid "Rename <filename>%1</filename> to:"
-msgstr "<filename>%1</filename>: %2"
 
 #: app/fileopscontextmanageritem.cpp:82
 #, fuzzy
@@ -252,10 +185,6 @@ msgstr "Gorê Nirxandinê Parzûn Bike"
 msgctxt "@action:inmenu"
 msgid "Filter by Tag"
 msgstr "Gorê Etîketê Parzûn Bike"
-
-#: app/imagemetainfodialog.cpp:120
-msgid "Meta Information"
-msgstr "Agahiya Meta"
 
 #: app/imageopscontextmanageritem.cpp:78
 msgctxt "@title actions category - means actions changing image"
@@ -916,6 +845,93 @@ msgstr "Sifir"
 msgid "Edit"
 msgstr "Serast Bike"
 
+#: app/fileoperations.cpp:72
+#, fuzzy
+#| msgid "Copy To"
+msgctxt "@title:window"
+msgid "Copy To"
+msgstr "Ji Ber Bigire Li"
+
+#: app/fileoperations.cpp:73
+msgctxt "@action:button"
+msgid "Copy"
+msgstr "Ji Ber Bigire"
+
+#: app/fileoperations.cpp:76
+#, fuzzy
+#| msgid "Move To"
+msgctxt "@title:window"
+msgid "Move To"
+msgstr "Bibe Li"
+
+#: app/fileoperations.cpp:77
+msgctxt "@action:button"
+msgid "Move"
+msgstr "Bibe"
+
+#: app/fileoperations.cpp:80
+#, fuzzy
+#| msgid "Link To"
+msgctxt "@title:window"
+msgid "Link To"
+msgstr "Girê Bide Li"
+
+#: app/fileoperations.cpp:81
+msgctxt "@action:button"
+msgid "Link"
+msgstr "Girêdan"
+
+#: app/fileoperations.cpp:170
+#, fuzzy
+#| msgid "Create Folder"
+msgctxt "@title:window"
+msgid "Create Folder"
+msgstr "Peldank Biafirîne"
+
+#: app/fileoperations.cpp:171
+msgid "Enter the name of the folder to create:"
+msgstr "Navê peldanka dê were afirandin têkevê:"
+
+#: app/fileoperations.cpp:201
+msgid "Move Here"
+msgstr "Bîne Li Vir"
+
+#: app/fileoperations.cpp:204
+msgid "Copy Here"
+msgstr "Ji Ber Bigire Li Vir"
+
+#: app/fileoperations.cpp:207
+msgid "Link Here"
+msgstr "Girê Bide Li Vir"
+
+#: app/fileoperations.cpp:211
+msgid "Cancel"
+msgstr "Betal Bike"
+
+#: app/fileoperations.cpp:227
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Filename"
+msgctxt "@title:window"
+msgid "Rename"
+msgstr "Navê Pelê"
+
+#: app/fileoperations.cpp:228
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "@info %1 is the name of the document which failed to save, %2 is the "
+#| "reason for the failure"
+#| msgid "<filename>%1</filename>: %2"
+msgid "Rename <filename>%1</filename> to:"
+msgstr "<filename>%1</filename>: %2"
+
+#: app/imagemetainfodialog.cpp:120
+#, fuzzy
+#| msgid "Meta Information"
+msgctxt "@title:window"
+msgid "Meta Information"
+msgstr "Agahiya Meta"
+
 #: importer/filenameformater.cpp:102
 msgid "Shooting date"
 msgstr ""
@@ -940,103 +956,6 @@ msgstr ""
 
 #: importer/filenameformater.cpp:107
 msgid "Original filename, in lower case"
-msgstr ""
-
-#: importer/importdialog.cpp:71
-#, fuzzy, kde-format
-#| msgid "One image has been modified."
-#| msgid_plural "%1 images have been modified."
-msgid "One document has been imported."
-msgid_plural "%1 documents have been imported."
-msgstr[0] "Yek wêne hatiye guhertin."
-msgstr[1] "%1 wêne hatine guhertin."
-
-#: importer/importdialog.cpp:76
-#, kde-format
-msgid "One document has been skipped because it had already been imported."
-msgid_plural ""
-"%1 documents have been skipped because they had already been imported."
-msgstr[0] ""
-msgstr[1] ""
-
-#: importer/importdialog.cpp:84
-#, kde-format
-msgid ""
-"One of them has been renamed because another document with the same name had "
-"already been imported."
-msgid_plural ""
-"%1 of them have been renamed because other documents with the same name had "
-"already been imported."
-msgstr[0] ""
-msgstr[1] ""
-
-#: importer/importdialog.cpp:93
-#, kde-format
-msgid "Delete the imported document from the device?"
-msgid_plural "Delete the %1 imported documents from the device?"
-msgstr[0] ""
-msgstr[1] ""
-
-#: importer/importdialog.cpp:98
-#, kde-format
-msgid "Delete the skipped document from the device?"
-msgid_plural "Delete the %1 skipped documents from the device?"
-msgstr[0] ""
-msgstr[1] ""
-
-#: importer/importdialog.cpp:104
-#, kde-format
-msgctxt "Singular sentence is actually never used."
-msgid "Delete the imported or skipped document from the device?"
-msgid_plural "Delete the %1 imported and skipped documents from the device?"
-msgstr[0] ""
-msgstr[1] ""
-
-#: importer/importdialog.cpp:111
-#, fuzzy
-#| msgctxt "@label"
-#| msgid "One folder selected"
-#| msgid_plural "%1 folders selected"
-msgid "Import Finished"
-msgstr "Yek peldank hatiye hilbijartin"
-
-#: importer/importdialog.cpp:113
-msgid "Keep"
-msgstr ""
-
-#: importer/importdialog.cpp:126
-#, kde-format
-msgid ""
-"Failed to delete the document:\n"
-"%2"
-msgid_plural ""
-"Failed to delete documents:\n"
-"%2"
-msgstr[0] ""
-msgstr[1] ""
-
-#: importer/importdialog.cpp:130
-msgid "Retry"
-msgstr ""
-
-#: importer/importdialog.cpp:131
-msgid "Ignore"
-msgstr ""
-
-#: importer/importdialog.cpp:151
-msgid "What do you want to do now?"
-msgstr ""
-
-#: importer/importdialog.cpp:153
-msgid "View Imported Documents with Gwenview"
-msgstr ""
-
-#: importer/importdialog.cpp:154
-msgid "Import more Documents"
-msgstr ""
-
-#: importer/importdialog.cpp:155
-msgid "Quit"
 msgstr ""
 
 #: importer/importer.cpp:76
@@ -1097,6 +1016,104 @@ msgstr "Yek peldank hatiye hilbijartin"
 #| msgid "Import"
 msgid "Import All"
 msgstr "Veguhezîne Hundir"
+
+#: importer/importdialog.cpp:71
+#, fuzzy, kde-format
+#| msgid "One image has been modified."
+#| msgid_plural "%1 images have been modified."
+msgid "One document has been imported."
+msgid_plural "%1 documents have been imported."
+msgstr[0] "Yek wêne hatiye guhertin."
+msgstr[1] "%1 wêne hatine guhertin."
+
+#: importer/importdialog.cpp:76
+#, kde-format
+msgid "One document has been skipped because it had already been imported."
+msgid_plural ""
+"%1 documents have been skipped because they had already been imported."
+msgstr[0] ""
+msgstr[1] ""
+
+#: importer/importdialog.cpp:84
+#, kde-format
+msgid ""
+"One of them has been renamed because another document with the same name had "
+"already been imported."
+msgid_plural ""
+"%1 of them have been renamed because other documents with the same name had "
+"already been imported."
+msgstr[0] ""
+msgstr[1] ""
+
+#: importer/importdialog.cpp:93
+#, kde-format
+msgid "Delete the imported document from the device?"
+msgid_plural "Delete the %1 imported documents from the device?"
+msgstr[0] ""
+msgstr[1] ""
+
+#: importer/importdialog.cpp:98
+#, kde-format
+msgid "Delete the skipped document from the device?"
+msgid_plural "Delete the %1 skipped documents from the device?"
+msgstr[0] ""
+msgstr[1] ""
+
+#: importer/importdialog.cpp:104
+#, kde-format
+msgctxt "Singular sentence is actually never used."
+msgid "Delete the imported or skipped document from the device?"
+msgid_plural "Delete the %1 imported and skipped documents from the device?"
+msgstr[0] ""
+msgstr[1] ""
+
+#: importer/importdialog.cpp:111
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "One folder selected"
+#| msgid_plural "%1 folders selected"
+msgctxt "@title:window"
+msgid "Import Finished"
+msgstr "Yek peldank hatiye hilbijartin"
+
+#: importer/importdialog.cpp:113
+msgid "Keep"
+msgstr ""
+
+#: importer/importdialog.cpp:126
+#, kde-format
+msgid ""
+"Failed to delete the document:\n"
+"%2"
+msgid_plural ""
+"Failed to delete documents:\n"
+"%2"
+msgstr[0] ""
+msgstr[1] ""
+
+#: importer/importdialog.cpp:130
+msgid "Retry"
+msgstr ""
+
+#: importer/importdialog.cpp:131
+msgid "Ignore"
+msgstr ""
+
+#: importer/importdialog.cpp:151
+msgid "What do you want to do now?"
+msgstr ""
+
+#: importer/importdialog.cpp:153
+msgid "View Imported Documents with Gwenview"
+msgstr ""
+
+#: importer/importdialog.cpp:154
+msgid "Import more Documents"
+msgstr ""
+
+#: importer/importdialog.cpp:155
+msgid "Quit"
+msgstr ""
 
 #: lib/crop/cropwidget.cpp:119
 msgid "Square"
@@ -1177,10 +1194,6 @@ msgctxt "@info"
 msgid "Loading image failed."
 msgstr "Barkirina wêneyê pêk nehat."
 
-#: lib/documentview/messageviewadapter.cpp:47
-msgid "No document selected"
-msgstr "Tu belge nehatiye hilbijartin"
-
 #: lib/documentview/documentview.cpp:360
 msgid "Gwenview does not know how to display this kind of document"
 msgstr "Gwenview nizane ku belgeyên vê cureyê çawa nîşan bide"
@@ -1205,6 +1218,10 @@ msgctxt ""
 "please"
 msgid "100%"
 msgstr "100%"
+
+#: lib/documentview/messageviewadapter.cpp:49
+msgid "No document selected"
+msgstr "Tu belge nehatiye hilbijartin"
 
 #: lib/fullscreenbar.cpp:254 lib/statusbartoolbutton.cpp:118
 #, kde-format
