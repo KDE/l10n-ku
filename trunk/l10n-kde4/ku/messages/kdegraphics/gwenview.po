@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gwenview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-08 04:11+0200\n"
+"POT-Creation-Date: 2011-05-10 04:19+0200\n"
 "PO-Revision-Date: 2009-01-22 22:46+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -31,100 +31,6 @@ msgstr "Nîşandana Wêneyan"
 #| msgid "Image Settings"
 msgid "Advanced"
 msgstr "Mîhengên Wêneyan"
-
-#: app/fileopscontextmanageritem.cpp:82
-#, fuzzy
-#| msgid "Create Folder"
-msgctxt "@action:inmenu"
-msgid "Paste One Folder"
-msgstr "Peldank Biafirîne"
-
-#: app/fileopscontextmanageritem.cpp:83
-msgctxt "@action:inmenu"
-msgid "Paste One File"
-msgstr ""
-
-#: app/fileopscontextmanageritem.cpp:86
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Paste One Item"
-msgid_plural "Paste %1 Items"
-msgstr[0] ""
-msgstr[1] ""
-
-#: app/fileopscontextmanageritem.cpp:88
-msgctxt "@action:inmenu"
-msgid "Paste Clipboard Contents..."
-msgstr ""
-
-#: app/fileopscontextmanageritem.cpp:92
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Date"
-msgctxt "@action:inmenu"
-msgid "Paste"
-msgstr "Dîrok"
-
-#: app/fileopscontextmanageritem.cpp:191
-msgid "File Operations"
-msgstr "Xebatên Pelê"
-
-#: app/fileopscontextmanageritem.cpp:200 app/thumbnailviewpanel.cpp:147
-#: app/mainwindow.cpp:312
-msgctxt "@title actions category"
-msgid "File"
-msgstr "Pel"
-
-#: app/fileopscontextmanageritem.cpp:201
-#: app/semanticinfocontextmanageritem.cpp:161
-msgctxt "@title actions category"
-msgid "Edit"
-msgstr "Serast Bike"
-
-#: app/fileopscontextmanageritem.cpp:216
-msgctxt "Verb"
-msgid "Copy To..."
-msgstr "Ji Ber Bigire Li..."
-
-#: app/fileopscontextmanageritem.cpp:220
-msgctxt "Verb"
-msgid "Move To..."
-msgstr "Bibe Li..."
-
-#: app/fileopscontextmanageritem.cpp:224
-msgctxt "Verb: create link to the file where user wants"
-msgid "Link To..."
-msgstr "Girê Bide Li..."
-
-#: app/fileopscontextmanageritem.cpp:228
-msgctxt "Verb"
-msgid "Rename..."
-msgstr ""
-
-#: app/fileopscontextmanageritem.cpp:232
-msgctxt "Verb"
-msgid "Trash"
-msgstr "Bavêje Çopê"
-
-#: app/fileopscontextmanageritem.cpp:237
-msgid "Delete"
-msgstr "Jê Bibe"
-
-#: app/fileopscontextmanageritem.cpp:242
-msgid "Properties"
-msgstr "Taybetmendî"
-
-#: app/fileopscontextmanageritem.cpp:246
-msgid "Create Folder..."
-msgstr "Peldank Biafirîne..."
-
-#: app/fileopscontextmanageritem.cpp:250
-msgid "Open With"
-msgstr "Veke Bi"
-
-#: app/fileopscontextmanageritem.cpp:410
-msgid "Other Application..."
-msgstr "Sepanê Din..."
 
 #: app/filtercontroller.cpp:124
 msgid "Name contains"
@@ -509,6 +415,12 @@ msgctxt "@action:inmenu"
 msgid "Rating"
 msgstr "Nirxandin"
 
+#: app/thumbnailviewpanel.cpp:147 app/mainwindow.cpp:312
+#: app/fileopscontextmanageritem.cpp:204
+msgctxt "@title actions category"
+msgid "File"
+msgstr "Pel"
+
 #: app/thumbnailviewpanel.cpp:149
 msgctxt "@action:inmenu"
 msgid "Add Folder to Places"
@@ -831,6 +743,12 @@ msgstr "%1 peldank û %2 pel hatine hilbijartin"
 msgid "Semantic Information"
 msgstr "Agahiya Semantîk"
 
+#: app/semanticinfocontextmanageritem.cpp:161
+#: app/fileopscontextmanageritem.cpp:205
+msgctxt "@title actions category"
+msgid "Edit"
+msgstr "Serast Bike"
+
 #: app/semanticinfocontextmanageritem.cpp:164
 msgctxt "@action"
 msgid "Edit Tags"
@@ -931,6 +849,94 @@ msgstr "<filename>%1</filename>: %2"
 msgctxt "@title:window"
 msgid "Meta Information"
 msgstr "Agahiya Meta"
+
+#: app/fileopscontextmanageritem.cpp:85
+#, fuzzy
+#| msgid "Create Folder"
+msgctxt "@action:inmenu"
+msgid "Paste One Folder"
+msgstr "Peldank Biafirîne"
+
+#: app/fileopscontextmanageritem.cpp:86
+msgctxt "@action:inmenu"
+msgid "Paste One File"
+msgstr ""
+
+#: app/fileopscontextmanageritem.cpp:89
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Paste One Item"
+msgid_plural "Paste %1 Items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: app/fileopscontextmanageritem.cpp:91
+msgctxt "@action:inmenu"
+msgid "Paste Clipboard Contents..."
+msgstr ""
+
+#: app/fileopscontextmanageritem.cpp:95
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Date"
+msgctxt "@action:inmenu"
+msgid "Paste"
+msgstr "Dîrok"
+
+#: app/fileopscontextmanageritem.cpp:195
+msgid "File Operations"
+msgstr "Xebatên Pelê"
+
+#: app/fileopscontextmanageritem.cpp:220
+msgctxt "Verb"
+msgid "Copy To..."
+msgstr "Ji Ber Bigire Li..."
+
+#: app/fileopscontextmanageritem.cpp:224
+msgctxt "Verb"
+msgid "Move To..."
+msgstr "Bibe Li..."
+
+#: app/fileopscontextmanageritem.cpp:228
+msgctxt "Verb: create link to the file where user wants"
+msgid "Link To..."
+msgstr "Girê Bide Li..."
+
+#: app/fileopscontextmanageritem.cpp:232
+msgctxt "Verb"
+msgid "Rename..."
+msgstr ""
+
+#: app/fileopscontextmanageritem.cpp:236
+msgctxt "Verb"
+msgid "Trash"
+msgstr "Bavêje Çopê"
+
+#: app/fileopscontextmanageritem.cpp:241
+msgid "Delete"
+msgstr "Jê Bibe"
+
+#: app/fileopscontextmanageritem.cpp:246
+#, fuzzy
+#| msgid "Resize"
+msgid "Restore"
+msgstr "Mezinahiyê Biguherîne"
+
+#: app/fileopscontextmanageritem.cpp:249
+msgid "Properties"
+msgstr "Taybetmendî"
+
+#: app/fileopscontextmanageritem.cpp:253
+msgid "Create Folder..."
+msgstr "Peldank Biafirîne..."
+
+#: app/fileopscontextmanageritem.cpp:257
+msgid "Open With"
+msgstr "Veke Bi"
+
+#: app/fileopscontextmanageritem.cpp:422
+msgid "Other Application..."
+msgstr "Sepanê Din..."
 
 #: importer/filenameformater.cpp:102
 msgid "Shooting date"
