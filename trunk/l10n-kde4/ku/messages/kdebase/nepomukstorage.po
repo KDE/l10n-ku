@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nepomukserver\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-04-10 03:44+0200\n"
+"POT-Creation-Date: 2011-05-12 04:10+0200\n"
 "PO-Revision-Date: 2008-12-30 21:52+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <ku@li.org>\n"
@@ -34,19 +34,38 @@ msgstr ""
 msgid "New backend"
 msgstr ""
 
+#: test/fakedatamanagementservice.cpp:123
+#: test/fakedatamanagementservice.cpp:125
+msgid "Fake Data Management Service"
+msgstr ""
+
+#: test/fakedatamanagementservice.cpp:127
+#, fuzzy
+#| msgid "(c) 2008, Sebastian Trüg"
+msgid "(c) 2011, Sebastian Trüg"
+msgstr "(c) 2008, Sebastian Trüg"
+
+#: test/fakedatamanagementservice.cpp:131
+msgid "Sebastian Trüg"
+msgstr "Sebastian Trüg"
+
+#: test/fakedatamanagementservice.cpp:131
+msgid "Maintainer"
+msgstr "Peydeker"
+
 #: ontologyloader.cpp:135
 #, kde-format
 msgid "Parsing of file %1 failed (%2)"
 msgstr "Cuda kirina pela %1 têk çû (%2)"
 
-#: repository.cpp:104
+#: repository.cpp:110
 msgctxt "@info - notification message"
 msgid ""
 "Nepomuk Semantic Desktop needs the Virtuoso RDF server to store its data. "
 "Installing the Virtuoso Soprano plugin is mandatory for using Nepomuk."
 msgstr ""
 
-#: repository.cpp:116
+#: repository.cpp:122
 msgctxt "@info - notification message"
 msgid ""
 "Nepomuk Semantic Desktop needs the Virtuoso RDF server to store its data. "
@@ -54,7 +73,7 @@ msgid ""
 "Nepomuk."
 msgstr ""
 
-#: repository.cpp:239
+#: repository.cpp:257
 #, kde-format
 msgctxt "@info - notification message"
 msgid ""
@@ -63,14 +82,14 @@ msgid ""
 "disabled until the situation has been resolved manually."
 msgstr ""
 
-#: repository.cpp:273
+#: repository.cpp:291
 msgctxt "@info - notification message"
 msgid "Converting Nepomuk data to a new backend. This might take a while."
 msgstr ""
 "Dane yê Nepomuk vediguherîne jê paş-dawî ya nû. Ev di be ku hinek dem "
 "bikişîne."
 
-#: repository.cpp:286
+#: repository.cpp:304
 #, fuzzy
 #| msgctxt "@info - notification message"
 #| msgid ""
@@ -84,10 +103,20 @@ msgstr ""
 "Veguherandina dane yên Nepomuk ji paş-dawî ya nû re têk çû. Dane di be ku "
 "hêj jî bi destan bê serast kirin."
 
-#: repository.cpp:300
+#: repository.cpp:318
 msgctxt "@info - notification message"
 msgid "Successfully converted Nepomuk data to the new backend."
 msgstr "Bi serfiraz dane yên Nepomuk ji paş-dawî ya nû re veguherand."
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Erdal Ronahi"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "erdal dot ronahi at gmail dot com"
 
 #, fuzzy
 #~| msgid "File indexer is suspended"
@@ -156,20 +185,11 @@ msgstr "Bi serfiraz dane yên Nepomuk ji paş-dawî ya nû re veguherand."
 #~ msgid "NepomukBackup"
 #~ msgstr "Pêşkêşkerê Nepomuk"
 
-#~ msgid "Maintainer"
-#~ msgstr "Peydeker"
-
-#~ msgid "Sebastian Trüg"
-#~ msgstr "Sebastian Trüg"
-
 #~ msgid "Nepomuk Server"
 #~ msgstr "Pêşkêşkerê Nepomuk"
 
 #~ msgid "Nepomuk Server - Manages Nepomuk storage and services"
 #~ msgstr "Pêşkêşkera Nepomuk - Hîser û servîsên Nepomuk bi rê ve dibe"
-
-#~ msgid "(c) 2008, Sebastian Trüg"
-#~ msgstr "(c) 2008, Sebastian Trüg"
 
 #~ msgid "Nepomuk Configuration Module"
 #~ msgstr "Modula Veavakirina Nepomukê"
@@ -257,14 +277,6 @@ msgstr "Bi serfiraz dane yên Nepomuk ji paş-dawî ya nû re veguherand."
 
 #~ msgid "Unknown service name:"
 #~ msgstr "Navê servîsa nenas:"
-
-#~ msgctxt "NAME OF TRANSLATORS"
-#~ msgid "Your names"
-#~ msgstr "Erdal Ronahi"
-
-#~ msgctxt "EMAIL OF TRANSLATORS"
-#~ msgid "Your emails"
-#~ msgstr "erdal dot ronahi at gmail dot com"
 
 #, fuzzy
 #~| msgctxt ""
