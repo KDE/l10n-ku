@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gwenview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-12 04:21+0200\n"
+"POT-Creation-Date: 2011-05-13 04:08+0200\n"
 "PO-Revision-Date: 2009-01-22 22:46+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -97,24 +97,23 @@ msgctxt "@title actions category - means actions changing image"
 msgid "Edit"
 msgstr "Serast Bike"
 
-#: app/imageopscontextmanageritem.cpp:80 lib/transformimageoperation.cpp:69
+#: app/imageopscontextmanageritem.cpp:80
 msgid "Rotate Left"
 msgstr "Bizivirîne Çepê"
 
-#: app/imageopscontextmanageritem.cpp:85 lib/transformimageoperation.cpp:66
+#: app/imageopscontextmanageritem.cpp:85
 msgid "Rotate Right"
 msgstr "Bizivirîne Rastê"
 
-#: app/imageopscontextmanageritem.cpp:90 lib/transformimageoperation.cpp:72
+#: app/imageopscontextmanageritem.cpp:90
 msgid "Mirror"
 msgstr "Neynûk"
 
-#: app/imageopscontextmanageritem.cpp:94 lib/transformimageoperation.cpp:75
+#: app/imageopscontextmanageritem.cpp:94
 msgid "Flip"
 msgstr "Serberjêr Bike"
 
 #: app/imageopscontextmanageritem.cpp:98 lib/resize/resizeimagedialog.cpp:50
-#: lib/resize/resizeimageoperation.cpp:69
 msgid "Resize"
 msgstr "Mezinahiyê Biguherîne"
 
@@ -1262,6 +1261,13 @@ msgstr "RedEyeReduction"
 msgid "Click on the red eye you want to fix."
 msgstr "Çavê sor yê tu dixwazî serast bikî bitikîne."
 
+#: lib/resize/resizeimageoperation.cpp:69
+#, fuzzy
+#| msgid "Resize"
+msgctxt "(qtundo-format)"
+msgid "Resize"
+msgstr "Mezinahiyê Biguherîne"
+
 #: lib/semanticinfo/tagitemdelegate.cpp:65
 msgid "Assign this tag to all selected images"
 msgstr "Vê etîketê lê hemû wêneyên hilbijartî zêde bike"
@@ -1275,10 +1281,6 @@ msgstr "Zivr (Loop)"
 msgctxt "@item:inmenu toggle random order in slideshow"
 msgid "Random"
 msgstr "Lêrasthatî"
-
-#: lib/transformimageoperation.cpp:80
-msgid "Transform"
-msgstr "Veguhezîne"
 
 #: lib/imagemetainfomodel.cpp:229
 msgctxt "@item:intable Image file name"
@@ -1326,6 +1328,41 @@ msgstr "Taybetmendî"
 msgctxt "@title:column"
 msgid "Value"
 msgstr "Nirx"
+
+#: lib/transformimageoperation.cpp:66
+#, fuzzy
+#| msgid "Rotate Right"
+msgctxt "(qtundo-format)"
+msgid "Rotate Right"
+msgstr "Bizivirîne Rastê"
+
+#: lib/transformimageoperation.cpp:69
+#, fuzzy
+#| msgid "Rotate Left"
+msgctxt "(qtundo-format)"
+msgid "Rotate Left"
+msgstr "Bizivirîne Çepê"
+
+#: lib/transformimageoperation.cpp:72
+#, fuzzy
+#| msgid "Mirror"
+msgctxt "(qtundo-format)"
+msgid "Mirror"
+msgstr "Neynûk"
+
+#: lib/transformimageoperation.cpp:75
+#, fuzzy
+#| msgid "Flip"
+msgctxt "(qtundo-format)"
+msgid "Flip"
+msgstr "Serberjêr Bike"
+
+#: lib/transformimageoperation.cpp:80
+#, fuzzy
+#| msgid "Transform"
+msgctxt "(qtundo-format)"
+msgid "Transform"
+msgstr "Veguhezîne"
 
 #: part/gvpart.cpp:73
 msgctxt "@action"

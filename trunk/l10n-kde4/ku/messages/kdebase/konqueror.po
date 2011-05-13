@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-12 04:09+0200\n"
+"POT-Creation-Date: 2011-05-13 03:56+0200\n"
 "PO-Revision-Date: 2009-01-06 14:18+0200\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: American English <kde-i18n-doc@lists.kde.org>\n"
@@ -1559,12 +1559,21 @@ msgid "Set Refresh Timeout (0 disables)"
 msgstr "Maweya Nûkirinê Mîheng Bide (0 digire)"
 
 #: sidebar/web_module/web_module.cpp:145
-msgid " min"
-msgstr " xulek"
+#, fuzzy
+#| msgid "Minute"
+#| msgid_plural "Minutes"
+msgid " minute"
+msgid_plural " minutes"
+msgstr[0] "Xulek"
+msgstr[1] "Xulek"
 
 #: sidebar/web_module/web_module.cpp:148
-msgid " sec"
-msgstr " çirke"
+#, fuzzy
+#| msgid " sec"
+msgid " second"
+msgid_plural " seconds"
+msgstr[0] " çirke"
+msgstr[1] " çirke"
 
 #: sidebar/web_module/web_module.cpp:280
 #, fuzzy
@@ -2551,6 +2560,9 @@ msgid ""
 "If true, when opening a session from within the sessions dialog the tabs "
 "will be opened inside current window."
 msgstr ""
+
+#~ msgid " min"
+#~ msgstr " xulek"
 
 #~ msgid "Input Required:"
 #~ msgstr "Têketin divê:"
