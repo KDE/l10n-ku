@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-19 03:44+0200\n"
+"POT-Creation-Date: 2011-05-21 03:43+0200\n"
 "PO-Revision-Date: 2009-02-21 06:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -1710,6 +1710,38 @@ msgid_plural "%1 tracks"
 msgstr[0] "%1 stran"
 msgstr[1] "%1 stranan "
 
+#: browsers/CollectionTreeView.cpp:230
+#: browsers/CollectionTreeItemModelBase.cpp:1160
+#: context/applets/albums/AlbumsView.cpp:255
+#: context/applets/wikipedia/WikipediaApplet.cpp:600
+#: dialogs/transferdialog.cpp:89 dialogs/FilenameLayoutDialog.cpp:242
+#: dialogs/FilenameLayoutDialog.cpp:619 musicbrainz/MusicBrainzTags.cpp:360
+#: playlist/view/PlaylistViewCommon.cpp:64 playlist/PlaylistModel.cpp:894
+#: services/jamendo/JamendoInfoParser.cpp:83
+#: services/magnatune/MagnatuneStore.cpp:223
+#: widgets/SmartPlaylistEditor.cpp:183 widgets/SmartPlaylistEditor.cpp:197
+msgid "Album"
+msgstr "Album"
+
+#: browsers/CollectionTreeView.cpp:250 configdialog/ConfigDialog.cpp:59
+msgid "Collection"
+msgstr "Berhevok"
+
+#: browsers/CollectionTreeView.cpp:542 services/lastfm/LastFmTreeView.cpp:201
+msgid "More..."
+msgstr "Zêdetir..."
+
+#: browsers/CollectionTreeView.cpp:909
+msgctxt "Organize Files"
+msgid "Organize Files"
+msgstr "Rêxistina Pelan"
+
+#: browsers/CollectionTreeView.cpp:1079
+#, fuzzy
+#| msgid "&Delete Tracks"
+msgid "Delete Tracks"
+msgstr "Stranan &Jê Bibe"
+
 #: browsers/CollectionTreeItemModelBase.cpp:238
 #: browsers/CollectionTreeItemModelBase.cpp:291
 msgctxt "The Name is not known"
@@ -1727,19 +1759,6 @@ msgstr "Hunermendên cur bi cur"
 #: browsers/CollectionTreeItemModelBase.cpp:1160
 msgid "Year - Album"
 msgstr "Sal - Album "
-
-#: browsers/CollectionTreeItemModelBase.cpp:1160
-#: browsers/CollectionTreeView.cpp:230
-#: context/applets/albums/AlbumsView.cpp:255
-#: context/applets/wikipedia/WikipediaApplet.cpp:600
-#: dialogs/transferdialog.cpp:89 dialogs/FilenameLayoutDialog.cpp:242
-#: dialogs/FilenameLayoutDialog.cpp:619 musicbrainz/MusicBrainzTags.cpp:360
-#: playlist/view/PlaylistViewCommon.cpp:64 playlist/PlaylistModel.cpp:894
-#: services/jamendo/JamendoInfoParser.cpp:83
-#: services/magnatune/MagnatuneStore.cpp:223
-#: widgets/SmartPlaylistEditor.cpp:183 widgets/SmartPlaylistEditor.cpp:197
-msgid "Album"
-msgstr "Album"
 
 #. i18n: file: context/applets/tabs/ReloadEditDialog.ui:73
 #. i18n: ectx: property (text), widget (QLabel, artistLabel)
@@ -1813,25 +1832,6 @@ msgstr "du meh berê"
 #: browsers/CollectionTreeItemModelBase.cpp:1233
 msgid "three months ago"
 msgstr "sê meh berê"
-
-#: browsers/CollectionTreeView.cpp:250 configdialog/ConfigDialog.cpp:59
-msgid "Collection"
-msgstr "Berhevok"
-
-#: browsers/CollectionTreeView.cpp:542 services/lastfm/LastFmTreeView.cpp:201
-msgid "More..."
-msgstr "Zêdetir..."
-
-#: browsers/CollectionTreeView.cpp:909
-msgctxt "Organize Files"
-msgid "Organize Files"
-msgstr "Rêxistina Pelan"
-
-#: browsers/CollectionTreeView.cpp:1079
-#, fuzzy
-#| msgid "&Delete Tracks"
-msgid "Delete Tracks"
-msgstr "Stranan &Jê Bibe"
 
 #: configdialog/dialogs/DatabaseConfig.cpp:93
 #, fuzzy
