@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-26 03:43+0200\n"
+"POT-Creation-Date: 2011-05-27 03:46+0200\n"
 "PO-Revision-Date: 2009-02-21 06:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -6802,32 +6802,6 @@ msgstr "Tu bi rastî dixwazî wan stranên %1 jê bibî?"
 msgid "Yes, delete folder."
 msgstr "Pelan Jê Bibe"
 
-#: browsers/playlistbrowser/DynamicBiasWidgets.cpp:43
-#, fuzzy
-#| msgid "Edit &case"
-msgctxt "Bias dialog window title"
-msgid "Edit bias"
-msgstr "&Bihîstyariyan Serast Bike"
-
-#: browsers/playlistbrowser/DynamicBiasWidgets.cpp:47
-#, fuzzy
-#| msgid "Match:"
-msgctxt "Bias selection label in bias view."
-msgid "Match Type:"
-msgstr "Hevgirtî:"
-
-#: browsers/playlistbrowser/DynamicBiasWidgets.cpp:111
-#, kde-format
-msgid ""
-"This bias is a replacement for another bias\n"
-"which is currently not loaded or deactivated.\n"
-"The original bias name was %1."
-msgstr ""
-
-#: browsers/playlistbrowser/DynamicBiasWidgets.cpp:178
-msgid "This bias has no settings"
-msgstr ""
-
 #: browsers/playlistbrowser/DynamicCategory.cpp:52
 msgid "Dynamic Playlists"
 msgstr "Lîsteya Lêdanê ya Dînamîk"
@@ -6989,6 +6963,32 @@ msgstr[1] "Lîsteya Lêdanê"
 #| msgid "Source"
 msgid "Source"
 msgstr "Çavkanî"
+
+#: browsers/playlistbrowser/DynamicBiasWidgets.cpp:43
+#, fuzzy
+#| msgid "Edit &case"
+msgctxt "Bias dialog window title"
+msgid "Edit bias"
+msgstr "&Bihîstyariyan Serast Bike"
+
+#: browsers/playlistbrowser/DynamicBiasWidgets.cpp:47
+#, fuzzy
+#| msgid "Match:"
+msgctxt "Bias selection label in bias view."
+msgid "Match Type:"
+msgstr "Hevgirtî:"
+
+#: browsers/playlistbrowser/DynamicBiasWidgets.cpp:111
+#, kde-format
+msgid ""
+"This bias is a replacement for another bias\n"
+"which is currently not loaded or deactivated.\n"
+"The original bias name was %1."
+msgstr ""
+
+#: browsers/playlistbrowser/DynamicBiasWidgets.cpp:178
+msgid "This bias has no settings."
+msgstr ""
 
 #: browsers/servicebrowser/ServiceBrowser.cpp:44
 msgid ""
@@ -11658,56 +11658,6 @@ msgstr "Strana Berê"
 msgid "one of the tracks in the current playlist"
 msgstr "Hejmara astên paş-de anînê di lîsteya lêdanê de."
 
-#: dynamic/biases/IfElseBias.cpp:36
-msgctxt "Name of the \"IfElse\" bias"
-msgid "If Else"
-msgstr ""
-
-#: dynamic/biases/IfElseBias.cpp:45
-msgctxt "Description of the \"IfElse\" bias"
-msgid ""
-"The \"IfElse\" bias adds tracks they match at least one of the sub biases. "
-"It will only check the second sub-bias if the first doesn't return any "
-"results."
-msgstr ""
-
-#: dynamic/biases/IfElseBias.cpp:73
-msgctxt "IfElse bias representation"
-msgid "Match all sequentially"
-msgstr ""
-
-#: dynamic/biases/IfElseBias.cpp:82
-#, fuzzy
-#| msgid "Close"
-msgctxt ""
-"Prefix for IfElseBias. Shown in front of a bias in the dynamic playlist view"
-msgid "else"
-msgstr "Girtin"
-
-#: dynamic/biases/PartBias.cpp:44
-#, fuzzy
-#| msgid "Proportion:"
-msgctxt "Name of the \"Part\" bias"
-msgid "Partition"
-msgstr "Rêje kirin:"
-
-#: dynamic/biases/PartBias.cpp:53
-msgctxt "Description of the \"Part\" bias"
-msgid ""
-"The \"Part\" bias adds tracks they match at least one of the sub biases."
-msgstr ""
-
-#: dynamic/biases/PartBias.cpp:260
-msgid "This controls what portion of the playlist should match the criteria"
-msgstr ""
-
-#: dynamic/biases/PartBias.cpp:397
-#, fuzzy
-#| msgid "Proportion:"
-msgctxt "Part bias representation"
-msgid "Partition"
-msgstr "Rêje kirin:"
-
 #: dynamic/biases/QuizPlayBias.cpp:44
 msgctxt "Name of the \"QuizPlay\" bias"
 msgid "Quiz play"
@@ -11801,6 +11751,56 @@ msgstr ""
 msgctxt "Inverted condition in tag match bias"
 msgid "Not %1"
 msgstr "Der barê %1 de"
+
+#: dynamic/biases/IfElseBias.cpp:36
+msgctxt "Name of the \"IfElse\" bias"
+msgid "If Else"
+msgstr ""
+
+#: dynamic/biases/IfElseBias.cpp:45
+msgctxt "Description of the \"IfElse\" bias"
+msgid ""
+"The \"IfElse\" bias adds tracks that match at least one of the sub biases. "
+"It will only check the second sub-bias if the first doesn't return any "
+"results."
+msgstr ""
+
+#: dynamic/biases/IfElseBias.cpp:73
+msgctxt "IfElse bias representation"
+msgid "Match all sequentially"
+msgstr ""
+
+#: dynamic/biases/IfElseBias.cpp:82
+#, fuzzy
+#| msgid "Close"
+msgctxt ""
+"Prefix for IfElseBias. Shown in front of a bias in the dynamic playlist view"
+msgid "else"
+msgstr "Girtin"
+
+#: dynamic/biases/PartBias.cpp:44
+#, fuzzy
+#| msgid "Proportion:"
+msgctxt "Name of the \"Part\" bias"
+msgid "Partition"
+msgstr "Rêje kirin:"
+
+#: dynamic/biases/PartBias.cpp:53
+msgctxt "Description of the \"Part\" bias"
+msgid ""
+"The \"Part\" bias adds tracks that match at least one of the sub biases."
+msgstr ""
+
+#: dynamic/biases/PartBias.cpp:260
+msgid "This controls what portion of the playlist should match the criteria"
+msgstr ""
+
+#: dynamic/biases/PartBias.cpp:397
+#, fuzzy
+#| msgid "Proportion:"
+msgctxt "Part bias representation"
+msgid "Partition"
+msgstr "Rêje kirin:"
 
 #: k3bexporter.cpp:182
 msgid "Unable to start K3b."
