@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gwenview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-28 04:07+0200\n"
+"POT-Creation-Date: 2011-05-31 04:24+0200\n"
 "PO-Revision-Date: 2009-01-22 22:46+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -56,6 +56,75 @@ msgid ""
 "This image has been modified. Reloading it will discard all your changes."
 msgstr ""
 "Ev wêne hatiye guherandin. Nû ve barkirina vê dê hemû guherandinan jê bavêje."
+
+#: app/fileoperations.cpp:57
+#, fuzzy
+#| msgid "Copy To"
+msgctxt "@title:window"
+msgid "Copy To"
+msgstr "Ji Ber Bigire Li"
+
+#: app/fileoperations.cpp:58
+msgctxt "@action:button"
+msgid "Copy"
+msgstr "Ji Ber Bigire"
+
+#: app/fileoperations.cpp:61
+#, fuzzy
+#| msgid "Move To"
+msgctxt "@title:window"
+msgid "Move To"
+msgstr "Bibe Li"
+
+#: app/fileoperations.cpp:62
+msgctxt "@action:button"
+msgid "Move"
+msgstr "Bibe"
+
+#: app/fileoperations.cpp:65
+#, fuzzy
+#| msgid "Link To"
+msgctxt "@title:window"
+msgid "Link To"
+msgstr "Girê Bide Li"
+
+#: app/fileoperations.cpp:66
+msgctxt "@action:button"
+msgid "Link"
+msgstr "Girêdan"
+
+#: app/fileoperations.cpp:159
+msgid "Move Here"
+msgstr "Bîne Li Vir"
+
+#: app/fileoperations.cpp:162
+msgid "Copy Here"
+msgstr "Ji Ber Bigire Li Vir"
+
+#: app/fileoperations.cpp:165
+msgid "Link Here"
+msgstr "Girê Bide Li Vir"
+
+#: app/fileoperations.cpp:169
+msgid "Cancel"
+msgstr "Betal Bike"
+
+#: app/fileoperations.cpp:190
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Filename"
+msgctxt "@title:window"
+msgid "Rename"
+msgstr "Navê Pelê"
+
+#: app/fileoperations.cpp:191
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "@info %1 is the name of the document which failed to save, %2 is the "
+#| "reason for the failure"
+#| msgid "<filename>%1</filename>: %2"
+msgid "Rename <filename>%1</filename> to:"
+msgstr "<filename>%1</filename>: %2"
 
 #: app/fileopscontextmanageritem.cpp:165
 msgid "File Operations"
@@ -826,75 +895,6 @@ msgstr[1] "%1 wêne hatine guhertin."
 #: app/mainwindow.cpp:1353
 msgid "If you quit now, your changes will be lost."
 msgstr "Heke tu niha derkevî, guherandinên te dê winda bin."
-
-#: app/fileoperations.cpp:57
-#, fuzzy
-#| msgid "Copy To"
-msgctxt "@title:window"
-msgid "Copy To"
-msgstr "Ji Ber Bigire Li"
-
-#: app/fileoperations.cpp:58
-msgctxt "@action:button"
-msgid "Copy"
-msgstr "Ji Ber Bigire"
-
-#: app/fileoperations.cpp:61
-#, fuzzy
-#| msgid "Move To"
-msgctxt "@title:window"
-msgid "Move To"
-msgstr "Bibe Li"
-
-#: app/fileoperations.cpp:62
-msgctxt "@action:button"
-msgid "Move"
-msgstr "Bibe"
-
-#: app/fileoperations.cpp:65
-#, fuzzy
-#| msgid "Link To"
-msgctxt "@title:window"
-msgid "Link To"
-msgstr "Girê Bide Li"
-
-#: app/fileoperations.cpp:66
-msgctxt "@action:button"
-msgid "Link"
-msgstr "Girêdan"
-
-#: app/fileoperations.cpp:159
-msgid "Move Here"
-msgstr "Bîne Li Vir"
-
-#: app/fileoperations.cpp:162
-msgid "Copy Here"
-msgstr "Ji Ber Bigire Li Vir"
-
-#: app/fileoperations.cpp:165
-msgid "Link Here"
-msgstr "Girê Bide Li Vir"
-
-#: app/fileoperations.cpp:169
-msgid "Cancel"
-msgstr "Betal Bike"
-
-#: app/fileoperations.cpp:188
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Filename"
-msgctxt "@title:window"
-msgid "Rename"
-msgstr "Navê Pelê"
-
-#: app/fileoperations.cpp:189
-#, fuzzy, kde-format
-#| msgctxt ""
-#| "@info %1 is the name of the document which failed to save, %2 is the "
-#| "reason for the failure"
-#| msgid "<filename>%1</filename>: %2"
-msgid "Rename <filename>%1</filename> to:"
-msgstr "<filename>%1</filename>: %2"
 
 #: importer/filenameformater.cpp:102
 msgid "Shooting date"
