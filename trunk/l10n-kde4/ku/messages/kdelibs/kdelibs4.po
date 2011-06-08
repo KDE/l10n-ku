@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-06-06 04:17+0200\n"
+"POT-Creation-Date: 2011-06-08 04:16+0200\n"
 "PO-Revision-Date: 2010-08-13 15:45+0200\n"
 "Last-Translator: Erdal Ronahî <erdal.ronahi@gmail.com>\n"
 "Language-Team: Kurdish Team http://pckurd.net\n"
@@ -3193,43 +3193,6 @@ msgstr ""
 "<p>Wergerandina KDE'yê ji hêla Koma PCKurdê ve hatiye kirin. Malpera Koma "
 "PCKurdê: <a href=\"http:www.pckurd.net\">http://www.pckurd.net</a></p>"
 
-#: kdecore/kernel/ktoolinvocation.cpp:79
-msgid "Function must be called from the main thread."
-msgstr "Fonksiyon divê ji perçeya mak were betalkirin."
-
-#: kdecore/kernel/ktoolinvocation.cpp:120
-#, kde-format
-msgid ""
-"Error launching %1. Either KLauncher is not running anymore, or it failed to "
-"start the application."
-msgstr ""
-"Çewtiya destpêkirina %1. An KLauncher êdî naxebite, an jî destpêkirina "
-"sepanê têk çû."
-
-#: kdecore/kernel/ktoolinvocation.cpp:123
-#, kde-format
-msgid ""
-"KLauncher could not be reached via D-Bus. Error when calling %1:\n"
-"%2\n"
-msgstr ""
-"Bi alîkariya D-Bus KLauncher nehat gihandin. Dema %1 hat banga kirin:.\n"
-"%2\n"
-
-#: kdecore/kernel/ktoolinvocation.cpp:302
-#, kde-format
-msgid ""
-"Could not launch the KDE Help Center:\n"
-"\n"
-"%1"
-msgstr ""
-"Navenda Alîkariyan ya KDE nehate destpêkirin:\n"
-"\n"
-"%1"
-
-#: kdecore/kernel/ktoolinvocation.cpp:303
-msgid "Could not Launch Help Center"
-msgstr "Navenda Alîkariyan nehate destpêkirin"
-
 #: kdecore/kernel/ktoolinvocation_x11.cpp:281
 #, kde-format
 msgid ""
@@ -3588,6 +3551,43 @@ msgstr ""
 #: kdecore/kernel/kcmdlineargs.cpp:1597
 msgid "KDE-tempfile"
 msgstr "KDE-tempfile"
+
+#: kdecore/kernel/ktoolinvocation.cpp:79
+msgid "Function must be called from the main thread."
+msgstr "Fonksiyon divê ji perçeya mak were betalkirin."
+
+#: kdecore/kernel/ktoolinvocation.cpp:120
+#, kde-format
+msgid ""
+"Error launching %1. Either KLauncher is not running anymore, or it failed to "
+"start the application."
+msgstr ""
+"Çewtiya destpêkirina %1. An KLauncher êdî naxebite, an jî destpêkirina "
+"sepanê têk çû."
+
+#: kdecore/kernel/ktoolinvocation.cpp:123
+#, kde-format
+msgid ""
+"KLauncher could not be reached via D-Bus. Error when calling %1:\n"
+"%2\n"
+msgstr ""
+"Bi alîkariya D-Bus KLauncher nehat gihandin. Dema %1 hat banga kirin:.\n"
+"%2\n"
+
+#: kdecore/kernel/ktoolinvocation.cpp:302
+#, kde-format
+msgid ""
+"Could not launch the KDE Help Center:\n"
+"\n"
+"%1"
+msgstr ""
+"Navenda Alîkariyan ya KDE nehate destpêkirin:\n"
+"\n"
+"%1"
+
+#: kdecore/kernel/ktoolinvocation.cpp:303
+msgid "Could not Launch Help Center"
+msgstr "Navenda Alîkariyan nehate destpêkirin"
 
 #: kdecore/localization/kcharsets.cpp:155
 #: kdecore/localization/kencodingdetector.cpp:1149
@@ -10863,9 +10863,37 @@ msgstr "JavaScript"
 msgid "&Stop Script"
 msgstr "&Skrîptê Rawestîne"
 
-#: khtml/ecma/kjs_window.cpp:1650 khtml/ecma/kjs_html.cpp:2161
+#: khtml/ecma/kjs_html.cpp:2161 khtml/ecma/kjs_window.cpp:1650
 msgid "Confirmation: JavaScript Popup"
 msgstr "Erêkirin: Paceya Javascriptê"
+
+#: khtml/ecma/kjs_html.cpp:2163
+msgid ""
+"This site is submitting a form which will open up a new browser window via "
+"JavaScript.\n"
+"Do you want to allow the form to be submitted?"
+msgstr ""
+"Ev malper dixwaze Javascriptê bikar bîne û di paceyeke nû de formekê veke.\n"
+"Tu destûrê didî şandina formê?"
+
+#: khtml/ecma/kjs_html.cpp:2166
+#, kde-format
+msgid ""
+"<qt>This site is submitting a form which will open <p>%1</p> in a new "
+"browser window via JavaScript.<br />Do you want to allow the form to be "
+"submitted?</qt>"
+msgstr ""
+"<qt>Ev malper dixwazî bi alîkariya JavaSkrîptê di paceyeke nû ya gerokê de, "
+"<p>%1</p> veke û daxwaz dike ku formekê bişîne.<br />Tu destûrê didî şandina "
+"formê?</qt>"
+
+#: khtml/ecma/kjs_html.cpp:2168 khtml/ecma/kjs_window.cpp:1658
+msgid "Allow"
+msgstr "Desturê Bide"
+
+#: khtml/ecma/kjs_html.cpp:2168 khtml/ecma/kjs_window.cpp:1658
+msgid "Do Not Allow"
+msgstr "Destûrê Nede"
 
 #: khtml/ecma/kjs_window.cpp:1653
 msgid ""
@@ -10883,14 +10911,6 @@ msgid ""
 msgstr ""
 "<qt>Ev malper, dixwazî bi Javaskrîptê di hundirê paceya gerokeke nû de <p>%"
 "1</p> veke.<br />Tu yê destûrê bide vî tiştî?</qt>"
-
-#: khtml/ecma/kjs_window.cpp:1658 khtml/ecma/kjs_html.cpp:2168
-msgid "Allow"
-msgstr "Desturê Bide"
-
-#: khtml/ecma/kjs_window.cpp:1658 khtml/ecma/kjs_html.cpp:2168
-msgid "Do Not Allow"
-msgstr "Destûrê Nede"
 
 #: khtml/ecma/kjs_window.cpp:1971
 msgid "Close window?"
@@ -10929,26 +10949,6 @@ msgstr "Têxe Nav"
 #: khtml/ecma/kjs_window.cpp:2883
 msgid "Disallow"
 msgstr "Destûrê nede"
-
-#: khtml/ecma/kjs_html.cpp:2163
-msgid ""
-"This site is submitting a form which will open up a new browser window via "
-"JavaScript.\n"
-"Do you want to allow the form to be submitted?"
-msgstr ""
-"Ev malper dixwaze Javascriptê bikar bîne û di paceyeke nû de formekê veke.\n"
-"Tu destûrê didî şandina formê?"
-
-#: khtml/ecma/kjs_html.cpp:2166
-#, kde-format
-msgid ""
-"<qt>This site is submitting a form which will open <p>%1</p> in a new "
-"browser window via JavaScript.<br />Do you want to allow the form to be "
-"submitted?</qt>"
-msgstr ""
-"<qt>Ev malper dixwazî bi alîkariya JavaSkrîptê di paceyeke nû ya gerokê de, "
-"<p>%1</p> veke û daxwaz dike ku formekê bişîne.<br />Tu destûrê didî şandina "
-"formê?</qt>"
 
 #: khtml/ecma/debugger/consoledock.cpp:220
 msgid "Console"
@@ -12692,6 +12692,14 @@ msgstr ""
 msgid "Apply Settings"
 msgstr "Mîheng"
 
+#: kutils/kprintpreview.cpp:123
+msgid "Could not load print preview part"
+msgstr "Barkirina pêşdîtina çapê biserneket"
+
+#: kutils/kprintpreview.cpp:140
+msgid "Print Preview"
+msgstr "Pêşdîtina berî Çapkirinê"
+
 #: kutils/kpluginselector.cpp:136
 msgid ""
 "Automatic changes have been performed due to plugin dependencies. Click here "
@@ -12752,20 +12760,12 @@ msgstr[1] "%1 pêvek bixweber hatin rakirin gorê girêdayiyên pêvekê"
 msgid "Search Plugins"
 msgstr "Pêvekên Lêgerînê"
 
-#: kutils/kpluginselector.cpp:767 kutils/kpluginselector.cpp:796
+#: kutils/kpluginselector.cpp:768 kutils/kpluginselector.cpp:797
 #, fuzzy, kde-format
 #| msgid "About %1"
 msgctxt "Used only for plugins"
 msgid "About %1"
 msgstr "Der barê %1 de"
-
-#: kutils/kprintpreview.cpp:123
-msgid "Could not load print preview part"
-msgstr "Barkirina pêşdîtina çapê biserneket"
-
-#: kutils/kprintpreview.cpp:140
-msgid "Print Preview"
-msgstr "Pêşdîtina berî Çapkirinê"
 
 #: kutils/ksettings/componentsdialog.cpp:53
 msgid "Select Components"
