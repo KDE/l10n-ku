@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kword\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-06-07 03:53+0200\n"
+"POT-Creation-Date: 2011-06-09 03:40+0200\n"
 "PO-Revision-Date: 2007-12-17 01:28+0100\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
@@ -325,7 +325,7 @@ msgstr ""
 
 #. i18n: file: part/dialogs/KWStartupWidget.ui:51
 #. i18n: ectx: attribute (title), widget (QWidget, columnsTab)
-#: rc.cpp:151 part/dialogs/KWPageSettingsDialog.cpp:47
+#: rc.cpp:151 part/dialogs/KWPageSettingsDialog.cpp:48
 msgid "Columns"
 msgstr ""
 
@@ -755,10 +755,6 @@ msgstr ""
 msgid "Zoom Controller"
 msgstr ""
 
-#: part/commands/KWChangePageStyleCommand.cpp:25
-msgid "Set Page Style"
-msgstr ""
-
 #: part/commands/KWClipFrameCommand.cpp:41
 msgid "Clip Frame"
 msgstr ""
@@ -775,12 +771,16 @@ msgstr ""
 msgid "Insert Page Style"
 msgstr ""
 
-#: part/commands/KWPageStylePropertiesCommand.cpp:36
-msgid "Page Properties"
-msgstr ""
-
 #: part/commands/KWPageRemoveCommand.cpp:35
 msgid "Remove Page"
+msgstr ""
+
+#: part/commands/KWChangePageStyleCommand.cpp:27
+msgid "Set Page Style"
+msgstr ""
+
+#: part/commands/KWPageStylePropertiesCommand.cpp:36
+msgid "Page Properties"
 msgstr ""
 
 #: part/dialogs/KWFrameDialog.cpp:38 part/dialogs/KWShapeConfigFactory.cpp:94
@@ -833,33 +833,33 @@ msgstr ""
 msgid "No framesets in document"
 msgstr ""
 
-#: part/dialogs/KWPageSettingsDialog.cpp:52
-msgid "Style"
-msgstr ""
-
-#: part/dialogs/KWPageSettingsDialog.cpp:58
-msgid "Clone"
-msgstr ""
-
-#: part/dialogs/KWPageSettingsDialog.cpp:61 part/KWView.cpp:474
-msgid "Delete"
-msgstr ""
-
-#: part/dialogs/KWPageSettingsDialog.cpp:146
-msgid "Change Page Style"
-msgstr ""
-
-#: part/dialogs/KWPageSettingsDialog.cpp:211
-msgid "Clone Page Style"
-msgstr ""
-
-#: part/dialogs/KWPageSettingsDialog.cpp:211
-msgid "Add a new page style with the name:"
-msgstr ""
-
 #: part/dialogs/KWStatistics.cpp:246
 #, kde-format
 msgid "approximately %1"
+msgstr ""
+
+#: part/dialogs/KWPageSettingsDialog.cpp:53
+msgid "Style"
+msgstr ""
+
+#: part/dialogs/KWPageSettingsDialog.cpp:59
+msgid "Clone"
+msgstr ""
+
+#: part/dialogs/KWPageSettingsDialog.cpp:62 part/KWView.cpp:474
+msgid "Delete"
+msgstr ""
+
+#: part/dialogs/KWPageSettingsDialog.cpp:147
+msgid "Change Page Style"
+msgstr ""
+
+#: part/dialogs/KWPageSettingsDialog.cpp:212
+msgid "Clone Page Style"
+msgstr ""
+
+#: part/dialogs/KWPageSettingsDialog.cpp:212
+msgid "Add a new page style with the name:"
 msgstr ""
 
 #: part/dockers/KWRdfDocker.cpp:52
