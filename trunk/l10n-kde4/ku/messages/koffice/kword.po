@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kword\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-06-18 04:34+0200\n"
+"POT-Creation-Date: 2011-06-19 04:29+0200\n"
 "PO-Revision-Date: 2007-12-17 01:28+0100\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
@@ -822,34 +822,6 @@ msgstr ""
 msgid "Michael Johnson"
 msgstr ""
 
-#: part/KWDocument.cpp:452
-msgid "Copy"
-msgstr ""
-
-#: part/KWDocument.cpp:541
-msgid "Head 1"
-msgstr ""
-
-#: part/KWDocument.cpp:548
-msgid "Head 2"
-msgstr ""
-
-#: part/KWDocument.cpp:555
-msgid "Head 3"
-msgstr ""
-
-#: part/KWDocument.cpp:562
-msgid "Bullet List"
-msgstr ""
-
-#: part/KWDocument.cpp:896
-msgid "Can not find needed text component, KWord will quit now"
-msgstr ""
-
-#: part/KWDocument.cpp:897
-msgid "Installation Error"
-msgstr ""
-
 #: part/KWDLoader.cpp:75
 msgid "Invalid document. No mimetype specified."
 msgstr ""
@@ -874,31 +846,12 @@ msgstr ""
 msgid "Unable to locate note-text"
 msgstr ""
 
-#: part/KWOdfLoader.cpp:86
-msgid "Invalid OpenDocument file. No office:body tag found."
-msgstr ""
-
-#: part/KWOdfLoader.cpp:98
-msgid "Invalid OpenDocument file. No tag found inside office:body."
-msgstr ""
-
-#: part/KWOdfLoader.cpp:100
-#, kde-format
-msgid ""
-"This is not a word processing document, but %1. Please try opening it with "
-"the appropriate application."
-msgstr ""
-
 #: part/commands/KWNewPageStyleCommand.cpp:27
 msgid "Insert Page Style"
 msgstr ""
 
 #: part/commands/KWChangePageStyleCommand.cpp:27
 msgid "Set Page Style"
-msgstr ""
-
-#: part/commands/KWClipFrameCommand.cpp:40
-msgid "Clip Frame"
 msgstr ""
 
 #: part/commands/KWCreateOutlineCommand.cpp:30
@@ -913,12 +866,16 @@ msgstr ""
 msgid "Delete Frame"
 msgstr ""
 
-#: part/commands/KWPageRemoveCommand.cpp:32
-msgid "Remove Page"
-msgstr ""
-
 #: part/commands/KWPageStylePropertiesCommand.cpp:36
 msgid "Page Properties"
+msgstr ""
+
+#: part/commands/KWClipFrameCommand.cpp:40
+msgid "Clip Frame"
+msgstr ""
+
+#: part/commands/KWPageRemoveCommand.cpp:32
+msgid "Remove Page"
 msgstr ""
 
 #: part/dialogs/KWStatisticsDialog.cpp:29
@@ -1230,33 +1187,19 @@ msgstr ""
 msgid "File to open"
 msgstr ""
 
-#: part/KWStatusBar.cpp:38
-msgid "Modified"
+#: part/KWOdfLoader.cpp:86
+msgid "Invalid OpenDocument file. No office:body tag found."
 msgstr ""
 
-#: part/KWStatusBar.cpp:39
-msgid "Saved"
+#: part/KWOdfLoader.cpp:98
+msgid "Invalid OpenDocument file. No tag found inside office:body."
 msgstr ""
 
-#: part/KWStatusBar.cpp:40
+#: part/KWOdfLoader.cpp:100
 #, kde-format
-msgid "Page: %1/%2"
-msgstr ""
-
-#: part/KWStatusBar.cpp:62
-msgid "Page: current/total"
-msgstr ""
-
-#: part/KWStatusBar.cpp:79
-msgid "State: saved/modified"
-msgstr ""
-
-#: part/KWStatusBar.cpp:93
-msgid "Mouseposition: X:Y"
-msgstr ""
-
-#: part/KWStatusBar.cpp:106
-msgid "Zoom Controller"
+msgid ""
+"This is not a word processing document, but %1. Please try opening it with "
+"the appropriate application."
 msgstr ""
 
 #: part/KWView.cpp:251
@@ -1561,6 +1504,63 @@ msgstr ""
 
 #: part/KWView.cpp:1224
 msgid "Create outlines"
+msgstr ""
+
+#: part/KWDocument.cpp:452
+msgid "Copy"
+msgstr ""
+
+#: part/KWDocument.cpp:541
+msgid "Head 1"
+msgstr ""
+
+#: part/KWDocument.cpp:548
+msgid "Head 2"
+msgstr ""
+
+#: part/KWDocument.cpp:555
+msgid "Head 3"
+msgstr ""
+
+#: part/KWDocument.cpp:562
+msgid "Bullet List"
+msgstr ""
+
+#: part/KWDocument.cpp:896
+msgid "Can not find needed text component, KWord will quit now"
+msgstr ""
+
+#: part/KWDocument.cpp:897
+msgid "Installation Error"
+msgstr ""
+
+#: part/KWStatusBar.cpp:38
+msgid "Modified"
+msgstr ""
+
+#: part/KWStatusBar.cpp:39
+msgid "Saved"
+msgstr ""
+
+#: part/KWStatusBar.cpp:40
+#, kde-format
+msgid "Page: %1/%2"
+msgstr ""
+
+#: part/KWStatusBar.cpp:62
+msgid "Page: current/total"
+msgstr ""
+
+#: part/KWStatusBar.cpp:79
+msgid "State: saved/modified"
+msgstr ""
+
+#: part/KWStatusBar.cpp:93
+msgid "Mouseposition: X:Y"
+msgstr ""
+
+#: part/KWStatusBar.cpp:106
+msgid "Zoom Controller"
 msgstr ""
 
 #~ msgid "&Table:"
