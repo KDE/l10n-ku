@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-06-20 04:05+0200\n"
+"POT-Creation-Date: 2011-07-05 04:21+0200\n"
 "PO-Revision-Date: 2009-01-06 14:18+0200\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: American English <kde-i18n-doc@lists.kde.org>\n"
@@ -21,6 +21,18 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Launchpad-Export-Date: 2007-11-26 10:24+0000\n"
 "X-Generator: Lokalize 0.2\n"
+
+#: src/konqextensionmanager.cpp:54
+#, fuzzy
+#| msgid "Configure"
+msgctxt "@title:window"
+msgid "Configure"
+msgstr "Veavakirin"
+
+#: src/konqextensionmanager.cpp:74 src/konqextensionmanager.cpp:77
+#: src/konqextensionmanager.cpp:78
+msgid "Extensions"
+msgstr "Pêvek"
 
 #: src/konqclosedwindowsmanager.cpp:418 src/konqmainwindow.cpp:5010
 #: src/konqmainwindow.cpp:5070
@@ -333,28 +345,6 @@ msgstr "%1/s"
 msgid "Stalled"
 msgstr "Tê rawestandin"
 
-#: src/konqguiclients.cpp:66
-#, kde-format
-msgid "Preview &in %1"
-msgstr "Pêşdîtina &li %1"
-
-#: src/konqguiclients.cpp:135
-#, kde-format
-msgid "Show %1"
-msgstr "%1 nîşan bide"
-
-#: src/konqhistorydialog.cpp:45
-#, fuzzy
-#| msgid "Clear History"
-msgctxt "@title:window"
-msgid "History"
-msgstr "Dîrokê jê bibe"
-
-#: src/konqhistorydialog.cpp:61 src/konqhistoryview.cpp:143
-msgctxt "@action:inmenu Parent of 'By Name' and 'By Date'"
-msgid "Sort"
-msgstr "Rêz bike"
-
 #: src/konqhistorymodel.cpp:137
 #, kde-format
 msgid ""
@@ -372,54 +362,64 @@ msgstr ""
 msgid "Miscellaneous"
 msgstr "Cur be Cur"
 
-#: src/konqmain.cpp:96
+#: src/konqhistoryview.cpp:62 src/konqmainwindow.cpp:4537
+#: sidebar/web_module/web_module.cpp:61
+msgid "Open in New &Window"
+msgstr "Di &Paceyeke Nû de Veke"
+
+#: src/konqhistoryview.cpp:67
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:94
+#: sidebar/trees/konq_sidebartree.cpp:232
+msgid "Open in New Tab"
+msgstr "Di Hilfirîna Nû de Veke"
+
+#: src/konqhistoryview.cpp:71
 #, fuzzy
-#| msgid "Start without a default window"
-msgid "Start without a default window, when called without URLs"
-msgstr "Destpêka bi paceya belîkirî"
+#| msgid "Copy Link Address"
+msgid "&Copy Link Address"
+msgstr "Girêdana Navnîşanê Ji Ber Bigire"
 
-#: src/konqmain.cpp:98
-msgid ""
-"Preload for later use. This mode does not support URLs on the command line"
-msgstr ""
+#: src/konqhistoryview.cpp:76
+msgid "&Remove Entry"
+msgstr "Ketanê %Jê Bibî"
 
-#: src/konqmain.cpp:100
-msgid "Profile to open"
-msgstr "Profîla ku dê vebe"
+#: src/konqhistoryview.cpp:83
+msgid "C&lear History"
+msgstr "Rabirdûyê P&aqij Bike"
 
-#: src/konqmain.cpp:102
-msgid "List available profiles"
-msgstr "Profîlên ku dikarin bên xebitandin rêz bike"
+#: src/konqhistoryview.cpp:88
+msgid "&Preferences..."
+msgstr "&Vebijêrk..."
 
-#: src/konqmain.cpp:104
-msgid "List available sessions"
-msgstr "Danişînên heyî rêz bike"
+#: src/konqhistoryview.cpp:95
+msgid "By &Name"
+msgstr "Bi &Nav"
 
-#: src/konqmain.cpp:106
-msgid "Session to open"
-msgstr "Danişîna ku dê vebe"
+#: src/konqhistoryview.cpp:101
+msgid "By &Date"
+msgstr "Bi &Dîrokê"
 
-#: src/konqmain.cpp:108
-msgid "Mimetype to use for this URL (e.g. text/html or inode/directory)"
-msgstr ""
-"Cureyên Mime yên dê ji bo vê URL'yê bên bikaranîn (mînak. text/html an jî "
-"inode/directory)"
+#: src/konqhistoryview.cpp:111
+#, fuzzy
+#| msgid "Clear History"
+msgid "Search in history"
+msgstr "Dîrokê jê bibe"
 
-#: src/konqmain.cpp:109
-msgid "Part to use (e.g. khtml or kwebkitpart)"
-msgstr ""
+#: src/konqhistoryview.cpp:143 src/konqhistorydialog.cpp:61
+msgctxt "@action:inmenu Parent of 'By Name' and 'By Date'"
+msgid "Sort"
+msgstr "Rêz bike"
 
-#: src/konqmain.cpp:111
-msgid ""
-"For URLs that point to files, opens the directory and selects the file, "
-"instead of opening the actual file"
-msgstr ""
-"Di URL'yên ku pelan diyar dike de, li şûna ku pelê veke pêristê vedike û "
-"pelê hildibijêre."
+#: src/konqhistoryview.cpp:171 sidebar/history_module/kcmhistory.cpp:254
+msgid "Do you really want to clear the entire history?"
+msgstr "Bi rastî jî tu dixwazî hemû rabirdûyê jê bibî?"
 
-#: src/konqmain.cpp:113
-msgid "Location to open"
-msgstr "Cihê ku dê lê vebe"
+#: src/konqhistoryview.cpp:172 sidebar/history_module/kcmhistory.cpp:256
+#, fuzzy
+#| msgid "Clear History?"
+msgctxt "@title:window"
+msgid "Clear History?"
+msgstr "Rabirdûyê Jê Bibî?"
 
 #: src/konqtabs.cpp:66
 #, fuzzy
@@ -491,87 +491,6 @@ msgstr "&Vegerîne: Paceya Girtî"
 msgid "Und&o"
 msgstr ""
 
-#: src/konqextensionmanager.cpp:54
-#, fuzzy
-#| msgid "Configure"
-msgctxt "@title:window"
-msgid "Configure"
-msgstr "Veavakirin"
-
-#: src/konqextensionmanager.cpp:74 src/konqextensionmanager.cpp:77
-#: src/konqextensionmanager.cpp:78
-msgid "Extensions"
-msgstr "Pêvek"
-
-#: src/konqhistoryview.cpp:62 src/konqmainwindow.cpp:4537
-#: sidebar/web_module/web_module.cpp:61
-msgid "Open in New &Window"
-msgstr "Di &Paceyeke Nû de Veke"
-
-#: src/konqhistoryview.cpp:67
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:94
-#: sidebar/trees/konq_sidebartree.cpp:232
-msgid "Open in New Tab"
-msgstr "Di Hilfirîna Nû de Veke"
-
-#: src/konqhistoryview.cpp:71
-#, fuzzy
-#| msgid "Copy Link Address"
-msgid "&Copy Link Address"
-msgstr "Girêdana Navnîşanê Ji Ber Bigire"
-
-#: src/konqhistoryview.cpp:76
-msgid "&Remove Entry"
-msgstr "Ketanê %Jê Bibî"
-
-#: src/konqhistoryview.cpp:83
-msgid "C&lear History"
-msgstr "Rabirdûyê P&aqij Bike"
-
-#: src/konqhistoryview.cpp:88
-msgid "&Preferences..."
-msgstr "&Vebijêrk..."
-
-#: src/konqhistoryview.cpp:95
-msgid "By &Name"
-msgstr "Bi &Nav"
-
-#: src/konqhistoryview.cpp:101
-msgid "By &Date"
-msgstr "Bi &Dîrokê"
-
-#: src/konqhistoryview.cpp:111
-#, fuzzy
-#| msgid "Clear History"
-msgid "Search in history"
-msgstr "Dîrokê jê bibe"
-
-#: src/konqhistoryview.cpp:171 sidebar/history_module/kcmhistory.cpp:254
-msgid "Do you really want to clear the entire history?"
-msgstr "Bi rastî jî tu dixwazî hemû rabirdûyê jê bibî?"
-
-#: src/konqhistoryview.cpp:172 sidebar/history_module/kcmhistory.cpp:256
-#, fuzzy
-#| msgid "Clear History?"
-msgctxt "@title:window"
-msgid "Clear History?"
-msgstr "Rabirdûyê Jê Bibî?"
-
-#: src/konqprofiledlg.cpp:111
-#, fuzzy
-#| msgid "Profile Management"
-msgctxt "@title:window"
-msgid "Profile Management"
-msgstr "Gerînendetiya Profîlan"
-
-#: src/konqprofiledlg.cpp:114
-msgid "&Rename Profile"
-msgstr "Profîlê Ji Nû Ve &Binavîne"
-
-#: src/konqprofiledlg.cpp:115
-msgid "&Delete Profile"
-msgstr "Profîlê &Jê Bibe"
-
 #: src/konqsessiondlg.cpp:77
 #, fuzzy
 #| msgid "Manage Sessions"
@@ -610,97 +529,71 @@ msgctxt "@title:window"
 msgid "Session exists. Overwrite?"
 msgstr "Danişîn heye. Li serê binivîsî?"
 
-#: src/konqsessionmanager.cpp:330
-#, fuzzy
-#| msgid "Konqueror didn't close correctly. Would you like to restore session?"
-msgid ""
-"Konqueror did not close correctly. Would you like to restore the previous "
-"session?"
-msgstr "Konqueror başebaş nehate girtin. Dixwazî danişînê şûnde bînî?"
+#: src/konqguiclients.cpp:66
+#, kde-format
+msgid "Preview &in %1"
+msgstr "Pêşdîtina &li %1"
 
-#: src/konqsessionmanager.cpp:332
+#: src/konqguiclients.cpp:135
+#, kde-format
+msgid "Show %1"
+msgstr "%1 nîşan bide"
+
+#: src/konqhistorydialog.cpp:45
 #, fuzzy
-#| msgid "Restore Session?"
+#| msgid "Clear History"
 msgctxt "@title:window"
-msgid "Restore Session?"
-msgstr "Danişînê şûnde bînî?"
+msgid "History"
+msgstr "Dîrokê jê bibe"
 
-#: src/konqsessionmanager.cpp:333
-msgid "Restore Session"
-msgstr "Danişînê şûnde bîne"
+#: src/konqmain.cpp:96
+#, fuzzy
+#| msgid "Start without a default window"
+msgid "Start without a default window, when called without URLs"
+msgstr "Destpêka bi paceya belîkirî"
 
-#: src/konqsessionmanager.cpp:334
-msgid "Do Not Restore"
-msgstr "Şûnde neyne"
-
-#: src/konqsessionmanager.cpp:335
-msgid "Ask Me Later"
-msgstr "Paşê bipirse"
-
-#: src/konqviewmanager.cpp:1411
+#: src/konqmain.cpp:98
 msgid ""
-"You have multiple tabs open in this window.\n"
-"Loading a view profile will close them."
+"Preload for later use. This mode does not support URLs on the command line"
 msgstr ""
-"Di vê paceyê de gelek hilfirîn vekirî ye.\n"
-"Heke tu profîleke nû ya bergehan bar bike wê van hilfirînan bigire."
 
-#: src/konqviewmanager.cpp:1413 src/konqmainwindow.cpp:4937
-#, fuzzy
-#| msgid "Confirmation"
-msgctxt "@title:window"
-msgid "Confirmation"
-msgstr "Erêkirin"
+#: src/konqmain.cpp:100
+msgid "Profile to open"
+msgstr "Profîla ku dê vebe"
 
-#: src/konqviewmanager.cpp:1414
-msgid "Load View Profile"
-msgstr "Profîla Xuyanekê Bar Bike"
+#: src/konqmain.cpp:102
+msgid "List available profiles"
+msgstr "Profîlên ku dikarin bên xebitandin rêz bike"
 
-#: src/konqviewmanager.cpp:1426
-msgid ""
-"This tab contains changes that have not been submitted.\n"
-"Loading a profile will discard these changes."
+#: src/konqmain.cpp:104
+msgid "List available sessions"
+msgstr "Danişînên heyî rêz bike"
+
+#: src/konqmain.cpp:106
+msgid "Session to open"
+msgstr "Danişîna ku dê vebe"
+
+#: src/konqmain.cpp:108
+msgid "Mimetype to use for this URL (e.g. text/html or inode/directory)"
 msgstr ""
-"Di vê hilfirînê de guherînên ku nehatine şandin heye.\n"
-"Heke tu profîleke nû bar bike wê hemû guherînan pişt guh re biavêjî."
+"Cureyên Mime yên dê ji bo vê URL'yê bên bikaranîn (mînak. text/html an jî "
+"inode/directory)"
 
-#: src/konqviewmanager.cpp:1427 src/konqmainwindow.cpp:1615
-#: src/konqmainwindow.cpp:2342 src/konqmainwindow.cpp:2420
-#: src/konqmainwindow.cpp:2450 src/konqmainwindow.cpp:2492
-#: src/konqmainwindow.cpp:2514 src/konqmainwindow.cpp:4972
-#, fuzzy
-#| msgid "Discard Changes?"
-msgctxt "@title:window"
-msgid "Discard Changes?"
-msgstr "Bila Guhartin Jê Bên Birin?"
-
-#: src/konqviewmanager.cpp:1427 src/konqmainwindow.cpp:1615
-#: src/konqmainwindow.cpp:2342 src/konqmainwindow.cpp:2420
-#: src/konqmainwindow.cpp:2450 src/konqmainwindow.cpp:2492
-#: src/konqmainwindow.cpp:2515 src/konqmainwindow.cpp:4972
-msgid "&Discard Changes"
-msgstr "Guhartinan &Jê Bibe"
-
-#: src/konqview.cpp:1203
-msgid ""
-"The page you are trying to view is the result of posted form data. If you "
-"resend the data, any action the form carried out (such as search or online "
-"purchase) will be repeated. "
+#: src/konqmain.cpp:109
+msgid "Part to use (e.g. khtml or kwebkitpart)"
 msgstr ""
-"Rûpelê ku tu ber çav derbas dikî encama daneya ku bi formê re hatiye şandin "
-"e. Daneya ku dîsa were şandin, wê agahiyên di formê de dîsa bibîne. (Wekî "
-"encamên lêgerînê yan jî wekî encamê danûstendinên girêdayînê) "
 
-#: src/konqview.cpp:1205
-#, fuzzy
-#| msgid "Warning"
-msgctxt "@title:window"
-msgid "Warning"
-msgstr "Hişyarî"
+#: src/konqmain.cpp:111
+msgid ""
+"For URLs that point to files, opens the directory and selects the file, "
+"instead of opening the actual file"
+msgstr ""
+"Di URL'yên ku pelan diyar dike de, li şûna ku pelê veke pêristê vedike û "
+"pelê hildibijêre."
 
-#: src/konqview.cpp:1205
-msgid "Resend"
-msgstr "Ji nû ve bişîne"
+#: src/konqmain.cpp:113
+msgid "Location to open"
+msgstr "Cihê ku dê lê vebe"
 
 #: src/konqmainwindow.cpp:574
 msgctxt "@title:tab"
@@ -718,6 +611,23 @@ msgid ""
 msgstr ""
 "Di vê rûpelê de guherînên ku nehatine şandin hene.\n"
 "Girtina rûpelê dê hemû guhartinan piştguh bike."
+
+#: src/konqmainwindow.cpp:1615 src/konqmainwindow.cpp:2342
+#: src/konqmainwindow.cpp:2420 src/konqmainwindow.cpp:2450
+#: src/konqmainwindow.cpp:2492 src/konqmainwindow.cpp:2514
+#: src/konqmainwindow.cpp:4972 src/konqviewmanager.cpp:1427
+#, fuzzy
+#| msgid "Discard Changes?"
+msgctxt "@title:window"
+msgid "Discard Changes?"
+msgstr "Bila Guhartin Jê Bên Birin?"
+
+#: src/konqmainwindow.cpp:1615 src/konqmainwindow.cpp:2342
+#: src/konqmainwindow.cpp:2420 src/konqmainwindow.cpp:2450
+#: src/konqmainwindow.cpp:2492 src/konqmainwindow.cpp:2515
+#: src/konqmainwindow.cpp:4972 src/konqviewmanager.cpp:1427
+msgid "&Discard Changes"
+msgstr "Guhartinan &Jê Bibe"
 
 #: src/konqmainwindow.cpp:1725
 msgid "File Management"
@@ -1282,6 +1192,13 @@ msgid ""
 "You have multiple tabs open in this window, are you sure you want to quit?"
 msgstr "Bêtir ji paceyekê vekiriye, Tu bawerî ku dixwazî derkevî?"
 
+#: src/konqmainwindow.cpp:4937 src/konqviewmanager.cpp:1413
+#, fuzzy
+#| msgid "Confirmation"
+msgctxt "@title:window"
+msgid "Confirmation"
+msgstr "Erêkirin"
+
 #: src/konqmainwindow.cpp:4939
 msgid "C&lose Current Tab"
 msgstr "&Paceya heyî bigire"
@@ -1337,6 +1254,89 @@ msgid ""
 msgstr ""
 "Çewtiyeke avakirinê dixuye. Te Konqueror bi peleke cureyê %1 re têkildar "
 "kiriye, lê Konqueror nikare van pelan veke."
+
+#: src/konqprofiledlg.cpp:111
+#, fuzzy
+#| msgid "Profile Management"
+msgctxt "@title:window"
+msgid "Profile Management"
+msgstr "Gerînendetiya Profîlan"
+
+#: src/konqprofiledlg.cpp:114
+msgid "&Rename Profile"
+msgstr "Profîlê Ji Nû Ve &Binavîne"
+
+#: src/konqprofiledlg.cpp:115
+msgid "&Delete Profile"
+msgstr "Profîlê &Jê Bibe"
+
+#: src/konqsessionmanager.cpp:330
+#, fuzzy
+#| msgid "Konqueror didn't close correctly. Would you like to restore session?"
+msgid ""
+"Konqueror did not close correctly. Would you like to restore the previous "
+"session?"
+msgstr "Konqueror başebaş nehate girtin. Dixwazî danişînê şûnde bînî?"
+
+#: src/konqsessionmanager.cpp:332
+#, fuzzy
+#| msgid "Restore Session?"
+msgctxt "@title:window"
+msgid "Restore Session?"
+msgstr "Danişînê şûnde bînî?"
+
+#: src/konqsessionmanager.cpp:333
+msgid "Restore Session"
+msgstr "Danişînê şûnde bîne"
+
+#: src/konqsessionmanager.cpp:334
+msgid "Do Not Restore"
+msgstr "Şûnde neyne"
+
+#: src/konqsessionmanager.cpp:335
+msgid "Ask Me Later"
+msgstr "Paşê bipirse"
+
+#: src/konqviewmanager.cpp:1411
+msgid ""
+"You have multiple tabs open in this window.\n"
+"Loading a view profile will close them."
+msgstr ""
+"Di vê paceyê de gelek hilfirîn vekirî ye.\n"
+"Heke tu profîleke nû ya bergehan bar bike wê van hilfirînan bigire."
+
+#: src/konqviewmanager.cpp:1414
+msgid "Load View Profile"
+msgstr "Profîla Xuyanekê Bar Bike"
+
+#: src/konqviewmanager.cpp:1426
+msgid ""
+"This tab contains changes that have not been submitted.\n"
+"Loading a profile will discard these changes."
+msgstr ""
+"Di vê hilfirînê de guherînên ku nehatine şandin heye.\n"
+"Heke tu profîleke nû bar bike wê hemû guherînan pişt guh re biavêjî."
+
+#: src/konqview.cpp:1203
+msgid ""
+"The page you are trying to view is the result of posted form data. If you "
+"resend the data, any action the form carried out (such as search or online "
+"purchase) will be repeated. "
+msgstr ""
+"Rûpelê ku tu ber çav derbas dikî encama daneya ku bi formê re hatiye şandin "
+"e. Daneya ku dîsa were şandin, wê agahiyên di formê de dîsa bibîne. (Wekî "
+"encamên lêgerînê yan jî wekî encamê danûstendinên girêdayînê) "
+
+#: src/konqview.cpp:1205
+#, fuzzy
+#| msgid "Warning"
+msgctxt "@title:window"
+msgid "Warning"
+msgstr "Hişyarî"
+
+#: src/konqview.cpp:1205
+msgid "Resend"
+msgstr "Ji nû ve bişîne"
 
 #: sidebar/history_module/history_module.cpp:126
 #, fuzzy
