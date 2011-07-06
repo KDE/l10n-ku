@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kopete\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-26 04:08+0200\n"
+"POT-Creation-Date: 2011-07-06 04:33+0200\n"
 "PO-Revision-Date: 2008-06-22 23:57+0200\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <ku@li.org>\n"
@@ -587,7 +587,7 @@ msgstr "Girêdayî"
 #: protocols/skype/skypeprotocol.cpp:83 protocols/skype/skypeaccount.cpp:934
 #: kopete/config/status/statusconfig_manager.cpp:58
 #: libkopete/kopetestatusmanager.cpp:282 libkopete/kopeteonlinestatus.cpp:161
-#: libkopete/kopetemetacontact.cpp:498 rc.cpp:5765 rc.cpp:6507
+#: libkopete/kopetemetacontact.cpp:498 rc.cpp:5765 rc.cpp:6522
 msgid "Away"
 msgstr "Li Derve"
 
@@ -3933,7 +3933,7 @@ msgstr ""
 #. i18n: file: kopete/chatwindow/kopeteemailwindow.rc:42
 #. i18n: ectx: ToolBar (statusToolBar)
 #: protocols/groupwise/ui/gwsearch.cpp:95 kopete/kopetewindow.cpp:415
-#: rc.cpp:619 rc.cpp:1510 rc.cpp:5315 rc.cpp:5533 rc.cpp:6029 rc.cpp:6059
+#: rc.cpp:619 rc.cpp:1510 rc.cpp:5315 rc.cpp:5533 rc.cpp:6038 rc.cpp:6068
 msgid "Status"
 msgstr "Rewş"
 
@@ -4956,7 +4956,7 @@ msgstr ""
 #. i18n: file: libkopete/ui/addressbooklinkwidget_base.ui:43
 #. i18n: ectx: property (toolTip), widget (KPushButton, btnClear)
 #: protocols/jabber/ui/dlgxmppconsole.cpp:31 rc.cpp:772 rc.cpp:802 rc.cpp:902
-#: rc.cpp:6166
+#: rc.cpp:6175
 msgid "Clear"
 msgstr ""
 
@@ -6307,7 +6307,7 @@ msgstr "UIN"
 #. i18n: file: libkopete/ui/addressbookselectorwidget_base.ui:105
 #. i18n: ectx: property (text), widget (K3ListView, addresseeListView)
 #: protocols/oscar/icq/ui/icqsearchdialog.cpp:65
-#: libkopete/ui/addressbookselectorwidget.cpp:78 rc.cpp:6205
+#: libkopete/ui/addressbookselectorwidget.cpp:78 rc.cpp:6214
 msgid "Email"
 msgstr "E-peyam"
 
@@ -8867,7 +8867,7 @@ msgstr "Têxe Deftera Navnîşanan"
 #. i18n: ectx: property (windowTitle), widget (QWidget, AddressBookSelectorWidget_Base)
 #. i18n: file: libkopete/ui/metacontactselectorwidget_base.ui:21
 #. i18n: ectx: property (windowTitle), widget (QWidget, MetaContactSelectorWidget_Base)
-#: kopete/contactlist/kabcexport.cpp:64 rc.cpp:757 rc.cpp:6187 rc.cpp:6211
+#: kopete/contactlist/kabcexport.cpp:64 rc.cpp:757 rc.cpp:6196 rc.cpp:6220
 msgid "Select Contact"
 msgstr ""
 
@@ -9103,7 +9103,7 @@ msgstr "Mîhenkirina Pêvekan..."
 #. i18n: file: libkopete/ui/addressbookselectorwidget_base.ui:100
 #. i18n: ectx: property (text), widget (K3ListView, addresseeListView)
 #: kopete/addaccountwizard/addaccountwizard.cpp:74 rc.cpp:2893 rc.cpp:2947
-#: rc.cpp:4637 rc.cpp:5521 rc.cpp:5530 rc.cpp:6202
+#: rc.cpp:4637 rc.cpp:5521 rc.cpp:5530 rc.cpp:6211
 msgid "Name"
 msgstr "Nav"
 
@@ -9299,7 +9299,7 @@ msgid "Italic"
 msgstr "&Paldayî"
 
 #: kopete/config/appearance/layout/TokenWithLayout.cpp:75
-#: kopete/chatwindow/kopetechatwindow.cpp:1133
+#: kopete/chatwindow/kopetechatwindow.cpp:1141
 msgid "Left"
 msgstr ""
 
@@ -9310,7 +9310,7 @@ msgid "Center"
 msgstr "Daxwazker"
 
 #: kopete/config/appearance/layout/TokenWithLayout.cpp:77
-#: kopete/chatwindow/kopetechatwindow.cpp:1136
+#: kopete/chatwindow/kopetechatwindow.cpp:1144
 msgid "Right"
 msgstr ""
 
@@ -9345,7 +9345,7 @@ msgid "Contact List"
 msgstr "Lîsteya Têkiliyan"
 
 #: kopete/config/appearance/appearanceconfig.cpp:116
-#: kopete/config/chatwindow/chatwindowconfig.cpp:220
+#: kopete/config/chatwindow/chatwindowconfig.cpp:221
 msgid "Colors && Fonts"
 msgstr "Rng û Curenivîs"
 
@@ -9439,26 +9439,32 @@ msgstr "Li Derve"
 msgid "Reset sliders & options to default values"
 msgstr ""
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:161
+#: kopete/config/chatwindow/chatwindowconfig.cpp:162
 #, fuzzy
 msgid "&Style"
 msgstr "Şêwaza Lîstekirinê"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:206
+#: kopete/config/chatwindow/chatwindowconfig.cpp:207
 msgid "&Emoticons"
 msgstr "&Emoticon"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:345
+#. i18n: file: kopete/chatwindow/kopetechatwindow.rc:25
+#. i18n: ectx: Menu (tabs)
+#: kopete/config/chatwindow/chatwindowconfig.cpp:227 rc.cpp:6026
+msgid "&Tabs"
+msgstr "&Hilpekîn"
+
+#: kopete/config/chatwindow/chatwindowconfig.cpp:352
 msgid "(No Variant)"
 msgstr "(Cudahî tune)"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:402
+#: kopete/config/chatwindow/chatwindowconfig.cpp:409
 #, fuzzy
 #| msgid "Choose Chat Window style to install."
 msgid "Choose Chat Window Style to Install"
 msgstr "Cureyê paceya sohbetê ya ku dixwazî saz bikî, hilbijêre."
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:413
+#: kopete/config/chatwindow/chatwindowconfig.cpp:420
 #, fuzzy
 #| msgid ""
 #| "The specified archive cannot be opened.\n"
@@ -9470,13 +9476,13 @@ msgstr ""
 "Arşîva mîsoger nayê vekirin.\n"
 "Binêre ka arşîv ji bo ZIP an jî TAR'ê derbasdar e an na."
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:413
+#: kopete/config/chatwindow/chatwindowconfig.cpp:420
 #, fuzzy
 #| msgid "Cannot open archive"
 msgid "Cannot Open Archive"
 msgstr "Arşîv nayê vekirin"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:418
+#: kopete/config/chatwindow/chatwindowconfig.cpp:425
 #, fuzzy
 #| msgid ""
 #| "Could not find a suitable place to install the Chat Window style in user "
@@ -9484,35 +9490,35 @@ msgstr "Arşîv nayê vekirin"
 msgid "Could not find a suitable place to install the chat window style."
 msgstr "Ji bo sazkirina dirbên îkonên hestan cihekî guncav nehate dîtin."
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:418
+#: kopete/config/chatwindow/chatwindowconfig.cpp:425
 #, fuzzy
 #| msgid "Cannot find styles directory"
 msgid "Cannot Find Styles Directory"
 msgstr "Pelrêka cureyan nehat dîtin"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:422
+#: kopete/config/chatwindow/chatwindowconfig.cpp:429
 #, fuzzy
 #| msgid "The specified archive does not contain a valid Chat Window style."
 msgid "The specified archive does not contain a valid chat window style."
 msgstr "Arşîva mîsoger cureyê Paceya Sohbeteke derbasdar nahundirîne."
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:422
+#: kopete/config/chatwindow/chatwindowconfig.cpp:429
 msgid "Invalid Style"
 msgstr "Cureyê nederbasdar"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:426
+#: kopete/config/chatwindow/chatwindowconfig.cpp:433
 #, fuzzy
 #| msgid "The Chat Window style was successfully installed."
 msgid "The chat window style was successfully installed."
 msgstr "Ji înternetê cureyên paceyên sohbetê daxe."
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:426
+#: kopete/config/chatwindow/chatwindowconfig.cpp:433
 #, fuzzy
 #| msgid "Install successful"
 msgid "Install Successful"
 msgstr "Sazkirin bi ser ket"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:432
+#: kopete/config/chatwindow/chatwindowconfig.cpp:439
 #, fuzzy
 #| msgid ""
 #| "An unknow error occurred while trying to install the Chat Window style."
@@ -9520,19 +9526,19 @@ msgid ""
 "An unknown error occurred while trying to install the chat window style."
 msgstr "Dema ku cureyê paceya sohbetê dihat daxistin çewtiyek derket holê."
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:432
+#: kopete/config/chatwindow/chatwindowconfig.cpp:439
 #, fuzzy
 msgid "Unknown Error"
 msgstr "Çewtiya nenas."
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:467
+#: kopete/config/chatwindow/chatwindowconfig.cpp:474
 #, fuzzy, kde-format
 #| msgid "The Chat Window style was successfully installed."
 msgctxt "@info"
 msgid "The Chat Window Style <resource>%1</resource> was successfully deleted."
 msgstr "Ji înternetê cureyên paceyên sohbetê daxe."
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:472
+#: kopete/config/chatwindow/chatwindowconfig.cpp:479
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -9540,14 +9546,14 @@ msgid ""
 "Window Style. Your account might not have permission to remove it."
 msgstr ""
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:505
+#: kopete/config/chatwindow/chatwindowconfig.cpp:512
 #, fuzzy, kde-format
 #| msgid "The Chat Window style was successfully installed."
 msgctxt "@title:window"
 msgid "Chat Window Style <resource>%1</resource> installation"
 msgstr "Ji înternetê cureyên paceyên sohbetê daxe."
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:510
+#: kopete/config/chatwindow/chatwindowconfig.cpp:517
 #, fuzzy, kde-format
 #| msgid ""
 #| "The specified archive cannot be opened.\n"
@@ -9560,7 +9566,7 @@ msgstr ""
 "Arşîva mîsoger nayê vekirin.\n"
 "Binêre ka arşîv ji bo ZIP an jî TAR'ê derbasdar e an na."
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:515
+#: kopete/config/chatwindow/chatwindowconfig.cpp:522
 #, fuzzy, kde-format
 #| msgid ""
 #| "Could not find a suitable place to install the Chat Window style in user "
@@ -9571,7 +9577,7 @@ msgid ""
 "1</resource>."
 msgstr "Ji bo sazkirina dirbên îkonên hestan cihekî guncav nehate dîtin."
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:519
+#: kopete/config/chatwindow/chatwindowconfig.cpp:526
 #, fuzzy, kde-format
 #| msgid "The specified archive does not contain a valid Chat Window style."
 msgctxt "@info"
@@ -9580,7 +9586,7 @@ msgid ""
 "Window Style."
 msgstr "Arşîva mîsoger cureyê Paceya Sohbeteke derbasdar nahundirîne."
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:529
+#: kopete/config/chatwindow/chatwindowconfig.cpp:536
 #, fuzzy, kde-format
 #| msgid ""
 #| "An unknow error occurred while trying to install the Chat Window style."
@@ -9590,7 +9596,7 @@ msgid ""
 "<resource>%1</resource>."
 msgstr "Dema ku cureyê paceya sohbetê dihat daxistin çewtiyek derket holê."
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:538
+#: kopete/config/chatwindow/chatwindowconfig.cpp:545
 #, fuzzy, kde-format
 #| msgid "The Chat Window style was successfully installed."
 msgid "One Chat Window Style package has been installed."
@@ -9598,115 +9604,115 @@ msgid_plural "%1 Chat Window Style packages have been installed."
 msgstr[0] "Ji înternetê cureyên paceyên sohbetê daxe."
 msgstr[1] "Ji înternetê cureyên paceyên sohbetê daxe."
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:550
+#: kopete/config/chatwindow/chatwindowconfig.cpp:557
 msgctxt "This is the myself preview contact id"
 msgid "myself@preview"
 msgstr ""
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:551
+#: kopete/config/chatwindow/chatwindowconfig.cpp:558
 #, fuzzy
 msgctxt "This is the myself preview contact nickname"
 msgid "Myself"
 msgstr "Ez"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:555
+#: kopete/config/chatwindow/chatwindowconfig.cpp:562
 msgid "Jack"
 msgstr "Jack"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:558
+#: kopete/config/chatwindow/chatwindowconfig.cpp:565
 #, fuzzy
 msgctxt "This is the other preview contact id"
 msgid "jack@preview"
 msgstr "Pêşdîtin:"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:559
+#: kopete/config/chatwindow/chatwindowconfig.cpp:566
 #, fuzzy
 msgctxt "This is the other preview contact nickname"
 msgid "Jack"
 msgstr "Jack"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:567
+#: kopete/config/chatwindow/chatwindowconfig.cpp:574
 #, fuzzy
 msgctxt "preview of a chat session"
 msgid "Preview Session"
 msgstr "Pêşdîtin:"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:573
+#: kopete/config/chatwindow/chatwindowconfig.cpp:580
 msgid "Hello, this is an incoming message :-)"
 msgstr "Silav, ev peyama min a têketinê ye"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:577
+#: kopete/config/chatwindow/chatwindowconfig.cpp:584
 msgid "Hello, this is an incoming consecutive message."
 msgstr "Silav, ev peyama min a têketinê ye"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:581
+#: kopete/config/chatwindow/chatwindowconfig.cpp:588
 msgid "Ok, this is an outgoing message"
 msgstr "Temam, ev peyama min a derketinê ye"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:585
+#: kopete/config/chatwindow/chatwindowconfig.cpp:592
 #, fuzzy
 msgid "Ok, an outgoing consecutive message."
 msgstr "Temam, ev peyama min a derketinê ye"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:589
+#: kopete/config/chatwindow/chatwindowconfig.cpp:596
 #, fuzzy
 #| msgid "Message has been displayed"
 msgid "Message that is being sent."
 msgstr "Peyam hate nîşandan"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:594
+#: kopete/config/chatwindow/chatwindowconfig.cpp:601
 #, fuzzy
 #| msgid "Server messages:"
 msgid "Delivered message."
 msgstr "Peyamên ji pêşkêşker hatiye:"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:599
+#: kopete/config/chatwindow/chatwindowconfig.cpp:606
 #, fuzzy
 #| msgid "Message has been delivered"
 msgid "Message that cannot be delivered."
 msgstr "Peyam hate veguheztin"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:604
+#: kopete/config/chatwindow/chatwindowconfig.cpp:611
 #, fuzzy
 msgid "Here is an incoming colored message."
 msgstr "Dikarî peyamên ji vir birengînî"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:610
+#: kopete/config/chatwindow/chatwindowconfig.cpp:617
 msgid "This is an internal message"
 msgstr "Ev peyameke hundirîn e"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:614
+#: kopete/config/chatwindow/chatwindowconfig.cpp:621
 msgid "performed an action"
 msgstr "çalakiyê zindî bike"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:619
+#: kopete/config/chatwindow/chatwindowconfig.cpp:626
 msgid "This is a highlighted message"
 msgstr "Ev peyameke hatiye kirpandin e"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:624
+#: kopete/config/chatwindow/chatwindowconfig.cpp:631
 #, fuzzy
 #| msgid "Hello, this is an incoming message :-)"
 msgid "Hello, this is an incoming file transfer request"
 msgstr "Silav, ev peyama min a têketinê ye"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:631
+#: kopete/config/chatwindow/chatwindowconfig.cpp:638
 #, fuzzy
 #| msgid "Hello, this is an incoming message :-)"
 msgid "Hello, this is a disabled incoming file transfer request"
 msgstr "Silav, ev peyama min a têketinê ye"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:640
+#: kopete/config/chatwindow/chatwindowconfig.cpp:647
 msgctxt ""
 "This special UTF-8 string is to test if the style supports Right-to-Left "
 "language display."
 msgid "הודעות טקסט"
 msgstr ""
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:644
+#: kopete/config/chatwindow/chatwindowconfig.cpp:651
 msgid "Bye"
 msgstr "Bi xatirê te"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:723
+#: kopete/config/chatwindow/chatwindowconfig.cpp:730
 #, fuzzy
 #| msgid "Installing Emoticon Themes..."
 msgid "Configure Emoticon Themes"
@@ -9985,23 +9991,23 @@ msgstr "Têkilî"
 msgid "Toolbar Animation"
 msgstr "Anîmasyona Şiva Amûran"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:666
+#: kopete/chatwindow/kopetechatwindow.cpp:667
 #, fuzzy
 msgctxt "@info:tooltip"
 msgid "Close the current tab"
 msgstr "Hilpekîna derbasdar bigire"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:1111
+#: kopete/chatwindow/kopetechatwindow.cpp:1119
 msgid "More..."
 msgstr "Zêdetir..."
 
-#: kopete/chatwindow/kopetechatwindow.cpp:1127
+#: kopete/chatwindow/kopetechatwindow.cpp:1135
 #: libkopete/avdevice/dummy-V4L2apiCustomStrings.cpp:158
 #, fuzzy
 msgid "Top"
 msgstr "Mijar"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:1130
+#: kopete/chatwindow/kopetechatwindow.cpp:1138
 #: libkopete/avdevice/dummy-V4L2apiCustomStrings.cpp:159
 msgid "Bottom"
 msgstr ""
@@ -10499,7 +10505,7 @@ msgstr "&Grupên Vala Nîşan Bide"
 
 #. i18n: file: kopete/kopeteui.rc:54
 #. i18n: ectx: ToolBar (quickSearchBar)
-#: kopete/kopetewindow.cpp:473 rc.cpp:6136
+#: kopete/kopetewindow.cpp:473 rc.cpp:6145
 msgid "Quick Search Bar"
 msgstr "Qutîka Gerîna Bilez"
 
@@ -11518,7 +11524,7 @@ msgid "%2m %1s"
 msgstr "%2 <%1>"
 
 #. i18n: file: libkopete/kopetebehaviorsettings.kcfg:173
-#: libkopete/kopetestatusmanager.cpp:283 rc.cpp:6509
+#: libkopete/kopetestatusmanager.cpp:283 rc.cpp:6524
 msgid "I am gone right now, but I will be back later"
 msgstr "Niha Li Dûr im, lê ez ê vegerim"
 
@@ -11848,7 +11854,7 @@ msgstr "Profîla Bikarhêner"
 #. i18n: ectx: property (text), widget (QLabel, photoLabel)
 #. i18n: file: libkopete/ui/addressbookselectorwidget_base.ui:95
 #. i18n: ectx: property (text), widget (K3ListView, addresseeListView)
-#: libkopete/kopeteglobal.cpp:219 rc.cpp:3034 rc.cpp:5165 rc.cpp:6199
+#: libkopete/kopeteglobal.cpp:219 rc.cpp:3034 rc.cpp:5165 rc.cpp:6208
 msgid "Photo"
 msgstr "Wêne"
 
@@ -12365,7 +12371,7 @@ msgstr ""
 #. i18n: file: kopete/kopeteui.rc:17
 #. i18n: ectx: Menu (edit)
 #: rc.cpp:143 rc.cpp:241 rc.cpp:397 rc.cpp:661 rc.cpp:664 rc.cpp:682
-#: rc.cpp:2491 rc.cpp:4715 rc.cpp:6127
+#: rc.cpp:2491 rc.cpp:4715 rc.cpp:6136
 #, fuzzy
 msgid "&Edit"
 msgstr "&Sererast Bike..."
@@ -13302,7 +13308,7 @@ msgstr "Tercîhên &Hesêb"
 #. i18n: ectx: Menu (settings)
 #. i18n: file: kopete/kopeteui.rc:32
 #. i18n: ectx: Menu (settings)
-#: rc.cpp:568 rc.cpp:6020 rc.cpp:6053 rc.cpp:6130
+#: rc.cpp:568 rc.cpp:6029 rc.cpp:6062 rc.cpp:6139
 #, fuzzy
 msgid "&Settings"
 msgstr "&Mîhengên MSN"
@@ -13951,7 +13957,7 @@ msgstr "Navnîşana Epeyamê:"
 #. i18n: ectx: property (text), widget (QLabel, TextLabel2_2_2)
 #. i18n: file: libkopete/ui/contactaddednotifywidget.ui:113
 #. i18n: ectx: property (text), widget (QLabel, textLabel7)
-#: rc.cpp:911 rc.cpp:6236
+#: rc.cpp:911 rc.cpp:6245
 msgid "Display name:"
 msgstr ""
 
@@ -14509,7 +14515,7 @@ msgstr "&Navê Bikarhêner:"
 #. i18n: ectx: property (text), widget (QLabel, m_labelProxyPassword)
 #. i18n: file: libkopete/ui/kopetepasswordwidgetbase.ui:60
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: rc.cpp:1043 rc.cpp:6154
+#: rc.cpp:1043 rc.cpp:6163
 msgid "Password:"
 msgstr "Şîfre:"
 
@@ -14565,8 +14571,8 @@ msgstr "Îkonên hestên taybet &daxe û nîşan bide"
 #. i18n: ectx: Menu (file)
 #. i18n: file: kopete/chatwindow/kopeteemailwindow.rc:5
 #. i18n: ectx: Menu (file)
-#: rc.cpp:1058 rc.cpp:1355 rc.cpp:2113 rc.cpp:2857 rc.cpp:3471 rc.cpp:6011
-#: rc.cpp:6047
+#: rc.cpp:1058 rc.cpp:1355 rc.cpp:2113 rc.cpp:2857 rc.cpp:3471 rc.cpp:6020
+#: rc.cpp:6056
 msgid "&Chat"
 msgstr "&Sohbet"
 
@@ -21428,7 +21434,7 @@ msgstr ""
 #. i18n: ectx: ToolBar (mainToolBar)
 #. i18n: file: kopete/kopeteui.rc:47
 #. i18n: ectx: ToolBar (mainToolBar)
-#: rc.cpp:4718 rc.cpp:6023 rc.cpp:6041 rc.cpp:6056 rc.cpp:6133
+#: rc.cpp:4718 rc.cpp:6032 rc.cpp:6050 rc.cpp:6065 rc.cpp:6142
 #, fuzzy
 msgid "Main Toolbar"
 msgstr "Darikê Amûran Bi Teşe Bike"
@@ -23296,7 +23302,7 @@ msgstr "Peyama Nehatiye Xwendin"
 #. i18n: ectx: property (title), widget (QGroupBox, initialStatusGroup)
 #. i18n: file: libkopete/kopetebehaviorsettings.kcfg:36
 #. i18n: ectx: label, entry, group (Behavior)
-#: rc.cpp:5750 rc.cpp:6412
+#: rc.cpp:5750 rc.cpp:6421
 #, fuzzy
 #| msgid "Invalid Status"
 msgid "Initial Status"
@@ -23758,6 +23764,27 @@ msgstr ""
 msgid "Do not show user specified &rich text"
 msgstr ""
 
+#. i18n: file: kopete/config/chatwindow/chatwindowconfig_tab.ui:17
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: rc.cpp:6011
+msgid "For each tab"
+msgstr ""
+
+#. i18n: file: kopete/config/chatwindow/chatwindowconfig_tab.ui:23
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowContactName)
+#: rc.cpp:6014
+#, fuzzy
+msgid "Show contact name"
+msgstr "Nîşeya girêdanê:"
+
+#. i18n: file: kopete/config/chatwindow/chatwindowconfig_tab.ui:33
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_HoverClose)
+#: rc.cpp:6017
+#, fuzzy
+#| msgid "Show User Info"
+msgid "Show close button"
+msgstr "Agahiyên Bikarhêner Nîşan Bide"
+
 #. i18n: file: kopete/chatwindow/kopetechatwindow.rc:20
 #. i18n: ectx: Menu (format)
 #. i18n: file: kopete/chatwindow/kopeteemailwindow.rc:14
@@ -23766,19 +23793,13 @@ msgstr ""
 #. i18n: ectx: Menu (format)
 #. i18n: file: kopete/chatwindow/kopeteemailwindow.rc:14
 #. i18n: ectx: Menu (format)
-#: rc.cpp:6014 rc.cpp:6050
+#: rc.cpp:6023 rc.cpp:6059
 msgid "&Format"
 msgstr "&Teşe"
 
-#. i18n: file: kopete/chatwindow/kopetechatwindow.rc:25
-#. i18n: ectx: Menu (tabs)
-#: rc.cpp:6017
-msgid "&Tabs"
-msgstr "&Hilpekîn"
-
 #. i18n: file: kopete/chatwindow/kopetechatwindow.rc:51
 #. i18n: ectx: ToolBar (chatToolBar)
-#: rc.cpp:6026
+#: rc.cpp:6035
 #, fuzzy
 msgid "Chat Toolbar"
 msgstr "Darikê Amûran Bi Teşe Bike"
@@ -23791,19 +23812,19 @@ msgstr "Darikê Amûran Bi Teşe Bike"
 #. i18n: ectx: ToolBar (formatToolBar)
 #. i18n: file: kopete/chatwindow/kopeterichtexteditpartfull.rc:32
 #. i18n: ectx: ToolBar (formatToolBar)
-#: rc.cpp:6032 rc.cpp:6044
+#: rc.cpp:6041 rc.cpp:6053
 msgid "Format Toolbar"
 msgstr "Darikê Amûran Bi Teşe Bike"
 
 #. i18n: file: kopete/chatwindow/kopeterichtexteditpartfull.rc:4
 #. i18n: ectx: Menu (format)
-#: rc.cpp:6035
+#: rc.cpp:6044
 msgid "F&ormat"
 msgstr "T&eşe"
 
 #. i18n: file: kopete/chatwindow/kopeterichtexteditpartfull.rc:10
 #. i18n: ectx: Menu (alignment)
-#: rc.cpp:6038
+#: rc.cpp:6047
 msgid "&Alignment"
 msgstr ""
 
@@ -23815,7 +23836,7 @@ msgstr ""
 #. i18n: ectx: label
 #. i18n: file: libkopete/kopeteappearancesettings.kcfg:14
 #. i18n: ectx: label
-#: rc.cpp:6062 rc.cpp:6258
+#: rc.cpp:6071 rc.cpp:6267
 msgid "Emitted when the font and colors settings have changed."
 msgstr ""
 
@@ -23827,43 +23848,43 @@ msgstr ""
 #. i18n: ectx: label
 #. i18n: file: libkopete/kopeteappearancesettings.kcfg:17
 #. i18n: ectx: label
-#: rc.cpp:6065 rc.cpp:6261
+#: rc.cpp:6074 rc.cpp:6270
 msgid "Emitted when the message overrides settings have changed."
 msgstr ""
 
 #. i18n: file: kopete/chatwindow/kopetechatwindowsettings.kcfg:20
 #. i18n: ectx: label
-#: rc.cpp:6068
+#: rc.cpp:6077
 msgid "Emitted when the chat window style has changed."
 msgstr ""
 
 #. i18n: file: kopete/chatwindow/kopetechatwindowsettings.kcfg:24
 #. i18n: ectx: label
-#: rc.cpp:6071
+#: rc.cpp:6080
 msgid "Emitted when ChatWindowStyle variant has changed."
 msgstr ""
 
 #. i18n: file: kopete/chatwindow/kopetechatwindowsettings.kcfg:31
 #. i18n: ectx: label, entry, group (Appearance)
-#: rc.cpp:6074
+#: rc.cpp:6083
 msgid "Name of a Adium/Kopete chat window style."
 msgstr ""
 
 #. i18n: file: kopete/chatwindow/kopetechatwindowsettings.kcfg:36
 #. i18n: ectx: label, entry, group (Appearance)
-#: rc.cpp:6077
+#: rc.cpp:6086
 msgid "Relative path to a CSS variant for the current style."
 msgstr ""
 
 #. i18n: file: kopete/chatwindow/kopetechatwindowsettings.kcfg:39
 #. i18n: ectx: label, entry, group (Appearance)
-#: rc.cpp:6080
+#: rc.cpp:6089
 msgid "Group consecutive messages from the same user as one block."
 msgstr ""
 
 #. i18n: file: kopete/chatwindow/kopetechatwindowsettings.kcfg:43
 #. i18n: ectx: label, entry, group (Appearance)
-#: rc.cpp:6083
+#: rc.cpp:6092
 msgid "Use a compact variant of the chat style for chatrooms."
 msgstr ""
 
@@ -23875,7 +23896,7 @@ msgstr ""
 #. i18n: ectx: label, entry, group (Appearance)
 #. i18n: file: libkopete/kopeteappearancesettings.kcfg:35
 #. i18n: ectx: label, entry, group (Appearance)
-#: rc.cpp:6086 rc.cpp:6270
+#: rc.cpp:6095 rc.cpp:6279
 #, fuzzy
 msgid "Text color used when highlighting."
 msgstr "Ev peyameke hatiye kirpandin e"
@@ -23888,7 +23909,7 @@ msgstr "Ev peyameke hatiye kirpandin e"
 #. i18n: ectx: label, entry, group (Appearance)
 #. i18n: file: libkopete/kopeteappearancesettings.kcfg:40
 #. i18n: ectx: label, entry, group (Appearance)
-#: rc.cpp:6089 rc.cpp:6273
+#: rc.cpp:6098 rc.cpp:6282
 #, fuzzy
 msgid "Background color used when highlighting."
 msgstr "Ev peyameke hatiye kirpandin e"
@@ -23901,7 +23922,7 @@ msgstr "Ev peyameke hatiye kirpandin e"
 #. i18n: ectx: label, entry, group (Appearance)
 #. i18n: file: libkopete/kopeteappearancesettings.kcfg:47
 #. i18n: ectx: label, entry, group (Appearance)
-#: rc.cpp:6092 rc.cpp:6276
+#: rc.cpp:6101 rc.cpp:6285
 msgid "Disable custom text color set by users."
 msgstr ""
 
@@ -23913,7 +23934,7 @@ msgstr ""
 #. i18n: ectx: label, entry, group (Appearance)
 #. i18n: file: libkopete/kopeteappearancesettings.kcfg:52
 #. i18n: ectx: label, entry, group (Appearance)
-#: rc.cpp:6095 rc.cpp:6279
+#: rc.cpp:6104 rc.cpp:6288
 #, fuzzy
 #| msgid "Change the background color to:"
 msgid "Disable custom background color set by users."
@@ -23927,7 +23948,7 @@ msgstr "Rengê rûerd biguherîne:"
 #. i18n: ectx: label, entry, group (Appearance)
 #. i18n: file: libkopete/kopeteappearancesettings.kcfg:57
 #. i18n: ectx: label, entry, group (Appearance)
-#: rc.cpp:6098 rc.cpp:6282
+#: rc.cpp:6107 rc.cpp:6291
 #, fuzzy
 #| msgid "Disable &Rich Text"
 msgid "Disable rich text set by users."
@@ -23941,7 +23962,7 @@ msgstr "Deqa &Zengîn Bigire"
 #. i18n: ectx: label, entry, group (Appearance)
 #. i18n: file: libkopete/kopeteappearancesettings.kcfg:64
 #. i18n: ectx: label, entry, group (Appearance)
-#: rc.cpp:6101 rc.cpp:6285
+#: rc.cpp:6110 rc.cpp:6294
 #, fuzzy
 #| msgid "Set Text &Color..."
 msgid "Chat text color."
@@ -23955,7 +23976,7 @@ msgstr "&Rengê Nivîsê Mîheng Bike..."
 #. i18n: ectx: label, entry, group (Appearance)
 #. i18n: file: libkopete/kopeteappearancesettings.kcfg:69
 #. i18n: ectx: label, entry, group (Appearance)
-#: rc.cpp:6104 rc.cpp:6288
+#: rc.cpp:6113 rc.cpp:6297
 #, fuzzy
 #| msgid "Change the background color to:"
 msgid "Chat background color."
@@ -23969,7 +23990,7 @@ msgstr "Rengê rûerd biguherîne:"
 #. i18n: ectx: label, entry, group (Appearance)
 #. i18n: file: libkopete/kopeteappearancesettings.kcfg:74
 #. i18n: ectx: label, entry, group (Appearance)
-#: rc.cpp:6107 rc.cpp:6291
+#: rc.cpp:6116 rc.cpp:6300
 #, fuzzy
 msgid "Chat link color."
 msgstr "Rengê girêdanê:"
@@ -23982,14 +24003,14 @@ msgstr "Rengê girêdanê:"
 #. i18n: ectx: label, entry, group (Appearance)
 #. i18n: file: libkopete/kopeteappearancesettings.kcfg:84
 #. i18n: ectx: label, entry, group (Appearance)
-#: rc.cpp:6110 rc.cpp:6297
+#: rc.cpp:6119 rc.cpp:6306
 #, fuzzy
 msgid "Chat font."
 msgstr "Girêdan çênabe."
 
 #. i18n: file: kopete/groupkabcselectorwidget.ui:31
 #. i18n: ectx: property (text), widget (QLabel, groupLabel)
-#: rc.cpp:6118
+#: rc.cpp:6127
 #, fuzzy
 #| msgid "&Group"
 msgid "&Group:"
@@ -23997,7 +24018,7 @@ msgstr "&Kom"
 
 #. i18n: file: kopete/groupkabcselectorwidget.ui:44
 #. i18n: ectx: property (text), widget (QLabel, kabcLabel)
-#: rc.cpp:6121
+#: rc.cpp:6130
 #, fuzzy
 #| msgid "New Address Book Entry"
 msgid "Address book entry:"
@@ -24005,32 +24026,32 @@ msgstr "Têketina Ji Bo Deftera Navnîşanan a Nû"
 
 #. i18n: file: kopete/kopeteui.rc:5
 #. i18n: ectx: Menu (file)
-#: rc.cpp:6124
+#: rc.cpp:6133
 #, fuzzy
 msgid "&File"
 msgstr "vala"
 
 #. i18n: file: kopete/kopeteui.rc:65
 #. i18n: ectx: Menu (contact_popup_actions)
-#: rc.cpp:6139
+#: rc.cpp:6148
 msgid "&Other Actions"
 msgstr "Çalakiyên &Din"
 
 #. i18n: file: kopete/kopeteui.rc:72
 #. i18n: ectx: Menu (contact_popup_groups)
-#: rc.cpp:6142
+#: rc.cpp:6151
 msgid "&Groups"
 msgstr "&Kom"
 
 #. i18n: file: doc/t3/tutorialprefs.ui:16
 #. i18n: ectx: property (text), widget (QCheckBox, fastLearner)
-#: rc.cpp:6145
+#: rc.cpp:6154
 msgid "I am a fast learner"
 msgstr ""
 
 #. i18n: file: libkopete/ui/kopetepasswordwidgetbase.ui:31
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, mRemembered)
-#: rc.cpp:6148
+#: rc.cpp:6157
 msgid ""
 "Check this and enter your password below if you would like your password to "
 "be stored in your wallet, so Kopete does not have to ask you for it each "
@@ -24039,19 +24060,19 @@ msgstr ""
 
 #. i18n: file: libkopete/ui/kopetepasswordwidgetbase.ui:34
 #. i18n: ectx: property (text), widget (QCheckBox, mRemembered)
-#: rc.cpp:6151
+#: rc.cpp:6160
 msgid "Remember password"
 msgstr "Şîfreyê bi bîr bîne"
 
 #. i18n: file: libkopete/ui/kopetepasswordwidgetbase.ui:78
 #. i18n: ectx: property (toolTip), widget (KLineEdit, mPassword)
-#: rc.cpp:6157
+#: rc.cpp:6166
 msgid "Enter your password here."
 msgstr "Şîfreya xwe li vir binivîse."
 
 #. i18n: file: libkopete/ui/kopetepasswordwidgetbase.ui:81
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, mPassword)
-#: rc.cpp:6160
+#: rc.cpp:6169
 msgid ""
 "Enter your password here. If you would rather not save your password, "
 "uncheck the Remember password checkbox above; you will then be prompted for "
@@ -24060,39 +24081,39 @@ msgstr ""
 
 #. i18n: file: libkopete/ui/addressbooklinkwidget_base.ui:30
 #. i18n: ectx: property (toolTip), widget (KLineEdit, edtAddressee)
-#: rc.cpp:6163
+#: rc.cpp:6172
 msgid "The KDE Address Book entry associated with this Kopete Contact"
 msgstr ""
 
 #. i18n: file: libkopete/ui/addressbooklinkwidget_base.ui:56
 #. i18n: ectx: property (toolTip), widget (QPushButton, btnSelectAddressee)
-#: rc.cpp:6169
+#: rc.cpp:6178
 msgid "Select an address book entry"
 msgstr ""
 
 #. i18n: file: libkopete/ui/addressbooklinkwidget_base.ui:59
 #. i18n: ectx: property (text), widget (QPushButton, btnSelectAddressee)
-#: rc.cpp:6172
+#: rc.cpp:6181
 msgid "C&hange..."
 msgstr "B&iguherîne..."
 
 #. i18n: file: libkopete/ui/avatarselectorwidget.ui:76
 #. i18n: ectx: property (text), widget (QPushButton, buttonAddAvatar)
-#: rc.cpp:6175
+#: rc.cpp:6184
 #, fuzzy
 msgid "Add Avatar..."
 msgstr "Bikarhênerkî/ê &Lê Zêde Bike..."
 
 #. i18n: file: libkopete/ui/avatarselectorwidget.ui:83
 #. i18n: ectx: property (text), widget (QPushButton, buttonRemoveAvatar)
-#: rc.cpp:6178
+#: rc.cpp:6187
 #, fuzzy
 msgid "Remove Avatar"
 msgstr "Têkiliyê Rake"
 
 #. i18n: file: libkopete/ui/avatarselectorwidget.ui:90
 #. i18n: ectx: property (text), widget (QPushButton, buttonFromWebcam)
-#: rc.cpp:6181
+#: rc.cpp:6190
 #, fuzzy
 #| msgid "View &Webcam"
 msgid "From Webcam"
@@ -24100,25 +24121,25 @@ msgstr "&Kamerayê nîşan bide"
 
 #. i18n: file: libkopete/ui/kopeteawaydialogbase.ui:22
 #. i18n: ectx: property (text), widget (QLabel, TextLabel1)
-#: rc.cpp:6184
+#: rc.cpp:6193
 msgid "Please specify an away message, or choose a predefined one."
 msgstr ""
 
 #. i18n: file: libkopete/ui/addressbookselectorwidget_base.ui:59
 #. i18n: ectx: property (toolTip), widget (QPushButton, addAddresseeButton)
-#: rc.cpp:6190
+#: rc.cpp:6199
 msgid "Create a new entry in your address book"
 msgstr ""
 
 #. i18n: file: libkopete/ui/addressbookselectorwidget_base.ui:62
 #. i18n: ectx: property (text), widget (QPushButton, addAddresseeButton)
-#: rc.cpp:6193
+#: rc.cpp:6202
 msgid "Create New Entr&y..."
 msgstr ""
 
 #. i18n: file: libkopete/ui/addressbookselectorwidget_base.ui:85
 #. i18n: ectx: property (toolTip), widget (K3ListView, addresseeListView)
-#: rc.cpp:6196
+#: rc.cpp:6205
 msgid "Select the contact you want to communicate with via Instant Messaging"
 msgstr ""
 
@@ -24130,32 +24151,32 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, lblSearch)
 #. i18n: file: libkopete/ui/metacontactselectorwidget_base.ui:61
 #. i18n: ectx: property (text), widget (QLabel, lblSearch)
-#: rc.cpp:6208 rc.cpp:6214
+#: rc.cpp:6217 rc.cpp:6223
 msgid "S&earch:"
 msgstr ""
 
 #. i18n: file: libkopete/ui/contactaddednotifywidget.ui:23
 #. i18n: ectx: property (text), widget (QLabel, m_label)
-#: rc.cpp:6217
+#: rc.cpp:6226
 #, fuzzy
 msgid "The contact XXX has added you to his/her contactlist"
 msgstr "<b>%1</b> xwest ku te têxe nav lîsteya xwe ya girêdanan."
 
 #. i18n: file: libkopete/ui/contactaddednotifywidget.ui:57
 #. i18n: ectx: property (text), widget (KPushButton, m_infoButton)
-#: rc.cpp:6220
+#: rc.cpp:6229
 msgid "Read More Info About This Contact"
 msgstr ""
 
 #. i18n: file: libkopete/ui/contactaddednotifywidget.ui:66
 #. i18n: ectx: property (text), widget (QCheckBox, m_authorizeCb)
-#: rc.cpp:6223
+#: rc.cpp:6232
 msgid "Authorize this contact to see my status"
 msgstr ""
 
 #. i18n: file: libkopete/ui/contactaddednotifywidget.ui:76
 #. i18n: ectx: property (text), widget (QCheckBox, m_addCb)
-#: rc.cpp:6226
+#: rc.cpp:6235
 msgid "Add this contact in my contactlist"
 msgstr ""
 
@@ -24167,7 +24188,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QLabel, textLabel7)
 #. i18n: file: libkopete/ui/contactaddednotifywidget.ui:120
 #. i18n: ectx: property (toolTip), widget (KLineEdit, m_displayNameEdit)
-#: rc.cpp:6229 rc.cpp:6239
+#: rc.cpp:6238 rc.cpp:6248
 msgid ""
 "The display name of the contact.  Leave it empty to use the contact's "
 "nickname."
@@ -24181,7 +24202,7 @@ msgstr ""
 #. i18n: ectx: property (whatsThis), widget (QLabel, textLabel7)
 #. i18n: file: libkopete/ui/contactaddednotifywidget.ui:124
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, m_displayNameEdit)
-#: rc.cpp:6232 rc.cpp:6242
+#: rc.cpp:6241 rc.cpp:6251
 msgid ""
 "Enter the contact's display name. This is how the contact will appear in the "
 "contact list.\n"
@@ -24191,7 +24212,7 @@ msgstr ""
 
 #. i18n: file: libkopete/ui/contactaddednotifywidget.ui:141
 #. i18n: ectx: property (whatsThis), widget (QLabel, textLabel5)
-#: rc.cpp:6246
+#: rc.cpp:6255
 msgid ""
 "Enter the group where the contact should be added. Leave it empty to add it "
 "in the top level group."
@@ -24199,13 +24220,13 @@ msgstr ""
 
 #. i18n: file: libkopete/ui/contactaddednotifywidget.ui:144
 #. i18n: ectx: property (text), widget (QLabel, textLabel5)
-#: rc.cpp:6249
+#: rc.cpp:6258
 msgid "In the group:"
 msgstr ""
 
 #. i18n: file: libkopete/ui/contactaddednotifywidget.ui:159
 #. i18n: ectx: property (whatsThis), widget (KComboBox, m_groupList)
-#: rc.cpp:6252
+#: rc.cpp:6261
 msgid ""
 "Enter the group where the contact should be added. Leave it empty to add it "
 "to the top level group."
@@ -24213,7 +24234,7 @@ msgstr ""
 
 #. i18n: file: libkopete/ui/contactaddednotifywidget.ui:171
 #. i18n: ectx: property (text), widget (QLabel, textLabel6)
-#: rc.cpp:6255
+#: rc.cpp:6264
 #, fuzzy
 #| msgid "Addressbook link:"
 msgid "Address book link:"
@@ -24221,38 +24242,38 @@ msgstr "Girêdana deftera navnîşanan"
 
 #. i18n: file: libkopete/kopeteappearancesettings.kcfg:20
 #. i18n: ectx: label
-#: rc.cpp:6264
+#: rc.cpp:6273
 msgid "Emitted when the contact list appearance has changed."
 msgstr ""
 
 #. i18n: file: libkopete/kopeteappearancesettings.kcfg:26
 #. i18n: ectx: label, entry, group (Appearance)
-#: rc.cpp:6267
+#: rc.cpp:6276
 msgid "Enable emoticon support in Kopete."
 msgstr ""
 
 #. i18n: file: libkopete/kopeteappearancesettings.kcfg:79
 #. i18n: ectx: label, entry, group (Appearance)
-#: rc.cpp:6294
+#: rc.cpp:6303
 #, fuzzy
 msgid "Whether using the system font for the chat window."
 msgstr "Di paceya heman sohbetê de hemû peyaman dabeş bike"
 
 #. i18n: file: libkopete/kopeteappearancesettings.kcfg:91
 #. i18n: ectx: label, entry, group (Appearance)
-#: rc.cpp:6300
+#: rc.cpp:6309
 msgid "Color used to identify idle contacts."
 msgstr ""
 
 #. i18n: file: libkopete/kopeteappearancesettings.kcfg:96
 #. i18n: ectx: label, entry, group (Appearance)
-#: rc.cpp:6303
+#: rc.cpp:6312
 msgid "Whether to use a different color for idle contacts."
 msgstr ""
 
 #. i18n: file: libkopete/kopeteappearancesettings.kcfg:103
 #. i18n: ectx: label, entry, group (Appearance)
-#: rc.cpp:6306
+#: rc.cpp:6315
 msgid "Contact properties that contact tooltip will show."
 msgstr ""
 
@@ -24264,7 +24285,7 @@ msgstr ""
 #. i18n: ectx: label, entry, group (ContactList)
 #. i18n: file: libkopete/kopeteappearancesettings.kcfg:120
 #. i18n: ectx: label, entry, group (ContactList)
-#: rc.cpp:6309 rc.cpp:6312
+#: rc.cpp:6318 rc.cpp:6321
 #, fuzzy
 #| msgid "&Contact Settings"
 msgid "Contact list group sorting"
@@ -24272,7 +24293,7 @@ msgstr "Mîhengên &Têkiliyê"
 
 #. i18n: file: libkopete/kopeteappearancesettings.kcfg:130
 #. i18n: ectx: label, entry, group (ContactList)
-#: rc.cpp:6315
+#: rc.cpp:6324
 msgid ""
 "Contact list icon display mode. Either the protocol icon or the contact "
 "photo."
@@ -24280,43 +24301,43 @@ msgstr ""
 
 #. i18n: file: libkopete/kopeteappearancesettings.kcfg:139
 #. i18n: ectx: label, entry, group (ContactList)
-#: rc.cpp:6318
+#: rc.cpp:6327
 msgid "Enable borders on the contact's photo."
 msgstr ""
 
 #. i18n: file: libkopete/kopeteappearancesettings.kcfg:144
 #. i18n: ectx: label, entry, group (ContactList)
-#: rc.cpp:6321
+#: rc.cpp:6330
 msgid "Round contact photo corners."
 msgstr ""
 
 #. i18n: file: libkopete/kopeteappearancesettings.kcfg:149
 #. i18n: ectx: label, entry, group (ContactList)
-#: rc.cpp:6324
+#: rc.cpp:6333
 msgid "Show contact list as a tree view."
 msgstr ""
 
 #. i18n: file: libkopete/kopeteappearancesettings.kcfg:154
 #. i18n: ectx: label, entry, group (ContactList)
-#: rc.cpp:6327
+#: rc.cpp:6336
 msgid "Indent contacts if you do not show tree lines."
 msgstr ""
 
 #. i18n: file: libkopete/kopeteappearancesettings.kcfg:159
 #. i18n: ectx: label, entry, group (ContactList)
-#: rc.cpp:6330
+#: rc.cpp:6339
 msgid "Hide the vertical scroll bar."
 msgstr ""
 
 #. i18n: file: libkopete/kopeteappearancesettings.kcfg:164
 #. i18n: ectx: label, entry, group (ContactList)
-#: rc.cpp:6333
+#: rc.cpp:6342
 msgid "Group contacts by group."
 msgstr ""
 
 #. i18n: file: libkopete/kopeteappearancesettings.kcfg:169
 #. i18n: ectx: label, entry, group (ContactList)
-#: rc.cpp:6336
+#: rc.cpp:6345
 #, fuzzy
 #| msgid "Not in your contact list"
 msgid "Use custom fonts for contact list."
@@ -24324,20 +24345,20 @@ msgstr "Di lîsteya têkiliyan de tuneye"
 
 #. i18n: file: libkopete/kopeteappearancesettings.kcfg:174
 #. i18n: ectx: label, entry, group (ContactList)
-#: rc.cpp:6339
+#: rc.cpp:6348
 #, fuzzy
 msgid "Automatically resize the main window."
 msgstr "Jixweber"
 
 #. i18n: file: libkopete/kopeteappearancesettings.kcfg:179
 #. i18n: ectx: label, entry, group (ContactList)
-#: rc.cpp:6342
+#: rc.cpp:6351
 msgid "Corner at which to anchor main window when auto-resizing."
 msgstr ""
 
 #. i18n: file: libkopete/kopeteappearancesettings.kcfg:197
 #. i18n: ectx: label, entry, group (ContactList)
-#: rc.cpp:6345
+#: rc.cpp:6354
 #, fuzzy
 #| msgid "Not in your contact list"
 msgid "Normal font for contact list"
@@ -24345,19 +24366,19 @@ msgstr "Di lîsteya têkiliyan de tuneye"
 
 #. i18n: file: libkopete/kopeteappearancesettings.kcfg:202
 #. i18n: ectx: label, entry, group (ContactList)
-#: rc.cpp:6348
+#: rc.cpp:6357
 msgid "Small font for contact list (for status message)"
 msgstr ""
 
 #. i18n: file: libkopete/kopeteappearancesettings.kcfg:207
 #. i18n: ectx: label, entry, group (ContactList)
-#: rc.cpp:6351
+#: rc.cpp:6360
 msgid "Color for group name."
 msgstr ""
 
 #. i18n: file: libkopete/kopeteappearancesettings.kcfg:212
 #. i18n: ectx: label, entry, group (ContactList)
-#: rc.cpp:6354
+#: rc.cpp:6363
 #, fuzzy
 #| msgid "I am on &the contact list of this contact"
 msgid "Animate contact list on contact list changes."
@@ -24365,34 +24386,34 @@ msgstr "Ez di lîsteya &têkiliyên vî/ê şexsî/ê de me"
 
 #. i18n: file: libkopete/kopeteappearancesettings.kcfg:217
 #. i18n: ectx: label, entry, group (ContactList)
-#: rc.cpp:6357
+#: rc.cpp:6366
 #, fuzzy
 msgid "Fade-in/Fade-out on contact status changes."
 msgstr "Pel ji bo nivîsandinê nayê vekirin."
 
 #. i18n: file: libkopete/kopeteappearancesettings.kcfg:222
 #. i18n: ectx: label, entry, group (ContactList)
-#: rc.cpp:6360
+#: rc.cpp:6369
 #, fuzzy
 msgid "Fold-in/Fold-out on contact status changes."
 msgstr "Pel ji bo nivîsandinê nayê vekirin."
 
 #. i18n: file: libkopete/kopeteappearancesettings.kcfg:227
 #. i18n: ectx: label, entry, group (ContactList)
-#: rc.cpp:6363
+#: rc.cpp:6372
 #, fuzzy
 msgid "Auto-hide contact list after a while."
 msgstr "Pel ji bo nivîsandinê nayê vekirin."
 
 #. i18n: file: libkopete/kopeteappearancesettings.kcfg:232
 #. i18n: ectx: label, entry, group (ContactList)
-#: rc.cpp:6366
+#: rc.cpp:6375
 msgid "Auto-hide vertical scrollbar in contact list after a while."
 msgstr ""
 
 #. i18n: file: libkopete/kopeteappearancesettings.kcfg:237
 #. i18n: ectx: label, entry, group (ContactList)
-#: rc.cpp:6369
+#: rc.cpp:6378
 #, fuzzy
 #| msgid "timeout"
 msgid "Auto-hide timeout"
@@ -24400,7 +24421,7 @@ msgstr "mawe qediya"
 
 #. i18n: file: libkopete/kopeteappearancesettings.kcfg:244
 #. i18n: ectx: label, entry, group (ContactList)
-#: rc.cpp:6372
+#: rc.cpp:6381
 #, fuzzy
 #| msgid "Show or hide the contact list"
 msgid "Show offline users in contact list."
@@ -24408,7 +24429,7 @@ msgstr "Lîsteya têkiliyan veşêre an jî nîşan bide"
 
 #. i18n: file: libkopete/kopeteappearancesettings.kcfg:249
 #. i18n: ectx: label, entry, group (ContactList)
-#: rc.cpp:6375
+#: rc.cpp:6384
 #, fuzzy
 #| msgid "Show or hide the contact list"
 msgid "Show empty groups in contact list."
@@ -24416,31 +24437,31 @@ msgstr "Lîsteya têkiliyan veşêre an jî nîşan bide"
 
 #. i18n: file: libkopete/kopeteappearancesettings.kcfg:255
 #. i18n: ectx: label, entry, group (ContactList)
-#: rc.cpp:6378
+#: rc.cpp:6387
 msgid "Show identities in status bar instead of accounts."
 msgstr ""
 
 #. i18n: file: libkopete/kopetecommandui.rc:6
 #. i18n: ectx: Menu (commandmenu)
-#: rc.cpp:6391
+#: rc.cpp:6400
 msgid "Commands"
 msgstr "Ferman"
 
 #. i18n: file: libkopete/kopetebehaviorsettings.kcfg:12
 #. i18n: ectx: label, entry, group (Behavior)
-#: rc.cpp:6394
+#: rc.cpp:6403
 msgid "Start Kopete docked."
 msgstr ""
 
 #. i18n: file: libkopete/kopetebehaviorsettings.kcfg:16
 #. i18n: ectx: label, entry, group (Behavior)
-#: rc.cpp:6397
+#: rc.cpp:6406
 msgid "Show Kopete in system tray."
 msgstr ""
 
 #. i18n: file: libkopete/kopetebehaviorsettings.kcfg:20
 #. i18n: ectx: label, entry, group (Behavior)
-#: rc.cpp:6400
+#: rc.cpp:6409
 #, fuzzy
 #| msgid "The message is empty."
 msgid "Use message queue."
@@ -24448,7 +24469,7 @@ msgstr "Peyam vala ye."
 
 #. i18n: file: libkopete/kopetebehaviorsettings.kcfg:24
 #. i18n: ectx: label, entry, group (Behavior)
-#: rc.cpp:6403
+#: rc.cpp:6412
 #, fuzzy
 #| msgid "Unread Message"
 msgid "Queue unread messages."
@@ -24456,14 +24477,14 @@ msgstr "Peyama Nehatiye Xwendin"
 
 #. i18n: file: libkopete/kopetebehaviorsettings.kcfg:28
 #. i18n: ectx: label, entry, group (Behavior)
-#: rc.cpp:6406
+#: rc.cpp:6415
 #, fuzzy
 msgid "Use mouse navigation only in contact list."
 msgstr "Di lîsteya têkiliyan de tuneye"
 
 #. i18n: file: libkopete/kopetebehaviorsettings.kcfg:32
 #. i18n: ectx: label, entry, group (Behavior)
-#: rc.cpp:6409
+#: rc.cpp:6418
 #, fuzzy
 #| msgid "connection closed"
 msgid "Reconnect on disconnect."
@@ -24471,44 +24492,44 @@ msgstr "girêdan hate girtin"
 
 #. i18n: file: libkopete/kopetebehaviorsettings.kcfg:48
 #. i18n: ectx: label, entry, group (Behavior)
-#: rc.cpp:6415
+#: rc.cpp:6424
 msgid "Raise message view on new messages."
 msgstr ""
 
 #. i18n: file: libkopete/kopetebehaviorsettings.kcfg:52
 #. i18n: ectx: label, entry, group (Behavior)
-#: rc.cpp:6418
+#: rc.cpp:6427
 #, fuzzy
 msgid "Show events in chat window."
 msgstr "Paceya Pêşkêşker Nîşan Bude"
 
 #. i18n: file: libkopete/kopetebehaviorsettings.kcfg:56
 #. i18n: ectx: label, entry, group (Behavior)
-#: rc.cpp:6421
+#: rc.cpp:6430
 msgid "Queue only highlighted messages in group chats"
 msgstr ""
 
 #. i18n: file: libkopete/kopetebehaviorsettings.kcfg:60
 #. i18n: ectx: label, entry, group (Behavior)
-#: rc.cpp:6424
+#: rc.cpp:6433
 msgid "Queue Only Messages On Another Desktop"
 msgstr ""
 
 #. i18n: file: libkopete/kopetebehaviorsettings.kcfg:64
 #. i18n: ectx: label, entry, group (Behavior)
-#: rc.cpp:6427
+#: rc.cpp:6436
 msgid "Single notification for messages from the same sender."
 msgstr ""
 
 #. i18n: file: libkopete/kopetebehaviorsettings.kcfg:68
 #. i18n: ectx: label, entry, group (Behavior)
-#: rc.cpp:6430
+#: rc.cpp:6439
 msgid "Balloon Notification Ignore Closes Chat View"
 msgstr ""
 
 #. i18n: file: libkopete/kopetebehaviorsettings.kcfg:72
 #. i18n: ectx: label, entry, group (Behavior)
-#: rc.cpp:6433
+#: rc.cpp:6442
 #, fuzzy
 #| msgid "Notification"
 msgid "Trayflash Notification"
@@ -24516,37 +24537,37 @@ msgstr "Danezanî"
 
 #. i18n: file: libkopete/kopetebehaviorsettings.kcfg:76
 #. i18n: ectx: label, entry, group (Behavior)
-#: rc.cpp:6436
+#: rc.cpp:6445
 msgid "Trayflash Notification Left Click Opens Message."
 msgstr ""
 
 #. i18n: file: libkopete/kopetebehaviorsettings.kcfg:80
 #. i18n: ectx: label, entry, group (Behavior)
-#: rc.cpp:6439
+#: rc.cpp:6448
 msgid "Animate on message with open chat."
 msgstr ""
 
 #. i18n: file: libkopete/kopetebehaviorsettings.kcfg:84
 #. i18n: ectx: label, entry, group (Behavior)
-#: rc.cpp:6442
+#: rc.cpp:6451
 msgid "Trayflash Notification Set Current Desktop To Chat View"
 msgstr ""
 
 #. i18n: file: libkopete/kopetebehaviorsettings.kcfg:88
 #. i18n: ectx: label, entry, group (Behavior)
-#: rc.cpp:6445
+#: rc.cpp:6454
 msgid "Enable events while away."
 msgstr ""
 
 #. i18n: file: libkopete/kopetebehaviorsettings.kcfg:94
 #. i18n: ectx: label, entry, group (Behavior)
-#: rc.cpp:6448
+#: rc.cpp:6457
 msgid "Chat window grouping policy."
 msgstr ""
 
 #. i18n: file: libkopete/kopetebehaviorsettings.kcfg:105
 #. i18n: ectx: label, entry, group (Behavior)
-#: rc.cpp:6451
+#: rc.cpp:6460
 #, fuzzy
 #| msgid "Automatic Spell Checking"
 msgid "Enable spell checking by default."
@@ -24554,7 +24575,7 @@ msgstr "Kontrolkirina Bixweber a Rastnivîsandinê"
 
 #. i18n: file: libkopete/kopetebehaviorsettings.kcfg:109
 #. i18n: ectx: label, entry, group (Behavior)
-#: rc.cpp:6454
+#: rc.cpp:6463
 #, fuzzy
 #| msgid "Disable &Rich Text"
 msgid "Enable rich text by default."
@@ -24562,35 +24583,35 @@ msgstr "Deqa &Zengîn Bigire"
 
 #. i18n: file: libkopete/kopetebehaviorsettings.kcfg:113
 #. i18n: ectx: label, entry, group (Behavior)
-#: rc.cpp:6457
+#: rc.cpp:6466
 #, fuzzy
 msgid "Show send button in Chat Window."
 msgstr "Paceya Pêşkêşker Nîşan Bude"
 
 #. i18n: file: libkopete/kopetebehaviorsettings.kcfg:117
 #. i18n: ectx: label, entry, group (Behavior)
-#: rc.cpp:6460
+#: rc.cpp:6469
 #, fuzzy
 msgid "Show message dates."
 msgstr "Peyama Li Derve:"
 
 #. i18n: file: libkopete/kopetebehaviorsettings.kcfg:121
 #. i18n: ectx: label, entry, group (Behavior)
-#: rc.cpp:6463
+#: rc.cpp:6472
 #, fuzzy
 msgid "Truncate contact name."
 msgstr "Rewşa Piştrastkirinê"
 
 #. i18n: file: libkopete/kopetebehaviorsettings.kcfg:125
 #. i18n: ectx: label, entry, group (Behavior)
-#: rc.cpp:6466
+#: rc.cpp:6475
 #, fuzzy
 msgid "Truncate contact name max length."
 msgstr "Rewşa Piştrastkirinê"
 
 #. i18n: file: libkopete/kopetebehaviorsettings.kcfg:129
 #. i18n: ectx: label, entry, group (Behavior)
-#: rc.cpp:6469
+#: rc.cpp:6478
 #, fuzzy
 #| msgid "Number of messages to show:"
 msgid "Maximum number of messages to show in a chat window."
@@ -24598,25 +24619,25 @@ msgstr "Hejmara peyamên ku wê werine nîşandan:"
 
 #. i18n: file: libkopete/kopetebehaviorsettings.kcfg:133
 #. i18n: ectx: label, entry, group (Behavior)
-#: rc.cpp:6472
+#: rc.cpp:6481
 msgid "Hightlight messages containing your nickname."
 msgstr ""
 
 #. i18n: file: libkopete/kopetebehaviorsettings.kcfg:137
 #. i18n: ectx: label, entry, group (Behavior)
-#: rc.cpp:6475
+#: rc.cpp:6484
 msgid "Selected view plugin for Chat Window."
 msgstr ""
 
 #. i18n: file: libkopete/kopetebehaviorsettings.kcfg:144
 #. i18n: ectx: label, entry, group (AutoAway)
-#: rc.cpp:6478
+#: rc.cpp:6487
 msgid "Use auto away."
 msgstr ""
 
 #. i18n: file: libkopete/kopetebehaviorsettings.kcfg:148
 #. i18n: ectx: label, entry, group (AutoAway)
-#: rc.cpp:6481
+#: rc.cpp:6490
 #, fuzzy
 #| msgid "Away time"
 msgid "Auto away timeout."
@@ -24624,55 +24645,68 @@ msgstr "Dema li derve"
 
 #. i18n: file: libkopete/kopetebehaviorsettings.kcfg:152
 #. i18n: ectx: label, entry, group (AutoAway)
-#: rc.cpp:6484
+#: rc.cpp:6493
 msgid "Go available after detecting an activity."
 msgstr ""
 
 #. i18n: file: libkopete/kopetebehaviorsettings.kcfg:156
 #. i18n: ectx: label, entry, group (AutoAway)
-#: rc.cpp:6487
+#: rc.cpp:6496
 msgid "Confirm Before Coming Back from Auto Away"
 msgstr ""
 
 #. i18n: file: libkopete/kopetebehaviorsettings.kcfg:160
 #. i18n: ectx: label, entry, group (AutoAway)
-#: rc.cpp:6490
+#: rc.cpp:6499
 msgid "When setting the auto away message, use the latest away message."
 msgstr ""
 
 #. i18n: file: libkopete/kopetebehaviorsettings.kcfg:164
 #. i18n: ectx: label, entry, group (AutoAway)
-#: rc.cpp:6493
+#: rc.cpp:6502
 msgid "When setting the auto away message, use a custom away message."
 msgstr ""
 
 #. i18n: file: libkopete/kopetebehaviorsettings.kcfg:168
 #. i18n: ectx: label, entry, group (AutoAway)
-#: rc.cpp:6496
+#: rc.cpp:6505
 msgid "The custom auto away title."
 msgstr ""
 
 #. i18n: file: libkopete/kopetebehaviorsettings.kcfg:172
 #. i18n: ectx: label, entry, group (AutoAway)
-#: rc.cpp:6499
+#: rc.cpp:6508
 msgid "The custom auto away message."
 msgstr ""
 
 #. i18n: file: libkopete/kopetebehaviorsettings.kcfg:179
 #. i18n: ectx: label, entry, group (ContactList)
-#: rc.cpp:6502
+#: rc.cpp:6511
 msgid "Enable smooth scrolling in contact list."
 msgstr ""
 
 #. i18n: file: libkopete/kopetebehaviorsettings.kcfg:186
 #. i18n: ectx: label, entry, group (ChatWindowSettings)
-#: rc.cpp:6505
+#: rc.cpp:6514
 msgid "Always show tabs."
 msgstr ""
 
+#. i18n: file: libkopete/kopetebehaviorsettings.kcfg:190
+#. i18n: ectx: label, entry, group (ChatWindowSettings)
+#: rc.cpp:6517
+msgid "Show contact name for each tab."
+msgstr ""
+
+#. i18n: file: libkopete/kopetebehaviorsettings.kcfg:194
+#. i18n: ectx: label, entry, group (ChatWindowSettings)
+#: rc.cpp:6520
+#, fuzzy
+msgid "Show close button for each tab."
+msgstr "Paceya Pêşkêşker Nîşan Bude"
+
 #. i18n: file: libkopete/kopetestatussettings.kcfg:12
 #. i18n: ectx: label, entry, group (Status)
-#: rc.cpp:6512
+#: rc.cpp:6527
 msgid "Protocol's status menu type."
 msgstr ""
 
