@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-07-08 04:18+0200\n"
+"POT-Creation-Date: 2011-07-12 04:33+0200\n"
 "PO-Revision-Date: 2007-12-21 21:45+0100\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <gnu-ku-wergerandin at lists dot sourceforge dot "
@@ -140,14 +140,6 @@ msgstr ""
 msgid "*.adr|Opera Bookmark Files (*.adr)"
 msgstr ""
 
-#: bookmarks/kbookmarkmanager.cc:443
-#, kde-format
-msgid ""
-"Unable to save bookmarks in %1. Reported error was: %2. This error message "
-"will only be shown once. The cause of the error needs to be fixed as quickly "
-"as possible, which is most likely a full hard drive."
-msgstr ""
-
 #: bookmarks/kbookmarkmenu.cc:267
 msgid "Add Bookmark Here"
 msgstr ""
@@ -242,108 +234,16 @@ msgstr "Di Paceyeke nû de Veke"
 msgid "Open in New Tab"
 msgstr "Di Hilfirîna Nû de Veke"
 
+#: bookmarks/kbookmarkmanager.cc:443
+#, kde-format
+msgid ""
+"Unable to save bookmarks in %1. Reported error was: %2. This error message "
+"will only be shown once. The cause of the error needs to be fixed as quickly "
+"as possible, which is most likely a full hard drive."
+msgstr ""
+
 #: httpfilter/httpfilter.cc:179
 msgid "Receiving corrupt data."
-msgstr ""
-
-# msgctxt "@title:column"
-#: kfile/kacleditwidget.cpp:61 kfile/kacleditwidget.cpp:454
-msgid "Owner"
-msgstr "Xwedî"
-
-#: kfile/kacleditwidget.cpp:62 kfile/kacleditwidget.cpp:459
-msgid "Owning Group"
-msgstr ""
-
-#: kfile/kacleditwidget.cpp:63 kfile/kacleditwidget.cpp:464
-#: kfile/kpropertiesdialog.cpp:2001
-msgid "Others"
-msgstr ""
-
-#: kfile/kacleditwidget.cpp:64 kfile/kacleditwidget.cpp:469
-msgid "Mask"
-msgstr ""
-
-#: kfile/kacleditwidget.cpp:65
-msgid "Named User"
-msgstr ""
-
-#: kfile/kacleditwidget.cpp:66
-msgid "Named Group"
-msgstr ""
-
-#: kfile/kacleditwidget.cpp:98 ../kfile/kfileplacesview.cpp:580
-#: ../kfile/kfileplacesview.cpp:601 ../kfile/kfileplacesview.cpp:608
-msgid "Add Entry..."
-msgstr ""
-
-#: kfile/kacleditwidget.cpp:102
-msgid "Edit Entry..."
-msgstr ""
-
-#: kfile/kacleditwidget.cpp:106
-msgid "Delete Entry"
-msgstr ""
-
-#: kfile/kacleditwidget.cpp:307
-msgid " (Default)"
-msgstr ""
-
-#: kfile/kacleditwidget.cpp:431
-msgid "Edit ACL Entry"
-msgstr ""
-
-#: kfile/kacleditwidget.cpp:439
-msgid "Entry Type"
-msgstr ""
-
-#: kfile/kacleditwidget.cpp:445
-msgid "Default for new files in this folder"
-msgstr ""
-
-#: kfile/kacleditwidget.cpp:474
-msgid "Named user"
-msgstr ""
-
-#: kfile/kacleditwidget.cpp:479
-msgid "Named group"
-msgstr ""
-
-#: kfile/kacleditwidget.cpp:499
-msgid "User: "
-msgstr "Bikarhêner: "
-
-#: kfile/kacleditwidget.cpp:505
-msgid "Group: "
-msgstr "Kom: "
-
-# msgctxt "@title:column"
-#: kfile/kacleditwidget.cpp:625
-msgid "Type"
-msgstr "Cure"
-
-# msgctxt "@title:column"
-#: kfile/kacleditwidget.cpp:626
-msgid "Name"
-msgstr "Nav"
-
-#: kfile/kacleditwidget.cpp:627
-msgctxt "read permission"
-msgid "r"
-msgstr ""
-
-#: kfile/kacleditwidget.cpp:628
-msgctxt "write permission"
-msgid "w"
-msgstr ""
-
-#: kfile/kacleditwidget.cpp:629
-msgctxt "execute permission"
-msgid "x"
-msgstr ""
-
-#: kfile/kacleditwidget.cpp:630
-msgid "Effective"
 msgstr ""
 
 #: kfile/kdevicelistmodel.cpp:116
@@ -1174,6 +1074,11 @@ msgstr "Bikarhêner"
 msgid "Group"
 msgstr "Kom"
 
+#: kfile/kpropertiesdialog.cpp:2001 kfile/kacleditwidget.cpp:63
+#: kfile/kacleditwidget.cpp:464
+msgid "Others"
+msgstr ""
+
 #: kfile/kpropertiesdialog.cpp:2005
 msgid "Set UID"
 msgstr ""
@@ -1410,6 +1315,101 @@ msgstr ""
 
 #: kfile/kicondialog.cpp:691
 msgid "*.png *.xpm *.svg *.svgz|Icon Files (*.png *.xpm *.svg *.svgz)"
+msgstr ""
+
+# msgctxt "@title:column"
+#: kfile/kacleditwidget.cpp:61 kfile/kacleditwidget.cpp:454
+msgid "Owner"
+msgstr "Xwedî"
+
+#: kfile/kacleditwidget.cpp:62 kfile/kacleditwidget.cpp:459
+msgid "Owning Group"
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:64 kfile/kacleditwidget.cpp:469
+msgid "Mask"
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:65
+msgid "Named User"
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:66
+msgid "Named Group"
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:98 ../kfile/kfileplacesview.cpp:580
+#: ../kfile/kfileplacesview.cpp:601 ../kfile/kfileplacesview.cpp:608
+msgid "Add Entry..."
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:102
+msgid "Edit Entry..."
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:106
+msgid "Delete Entry"
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:307
+msgid " (Default)"
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:431
+msgid "Edit ACL Entry"
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:439
+msgid "Entry Type"
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:445
+msgid "Default for new files in this folder"
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:474
+msgid "Named user"
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:479
+msgid "Named group"
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:499
+msgid "User: "
+msgstr "Bikarhêner: "
+
+#: kfile/kacleditwidget.cpp:505
+msgid "Group: "
+msgstr "Kom: "
+
+# msgctxt "@title:column"
+#: kfile/kacleditwidget.cpp:625
+msgid "Type"
+msgstr "Cure"
+
+# msgctxt "@title:column"
+#: kfile/kacleditwidget.cpp:626
+msgid "Name"
+msgstr "Nav"
+
+#: kfile/kacleditwidget.cpp:627
+msgctxt "read permission"
+msgid "r"
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:628
+msgctxt "write permission"
+msgid "w"
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:629
+msgctxt "execute permission"
+msgid "x"
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:630
+msgid "Effective"
 msgstr ""
 
 #: kfile/kfilemetadataprovider.cpp:400
@@ -5809,11 +5809,6 @@ msgstr "Ji bo gerîna nav cihan bitikîne"
 msgid "Click to Edit Location"
 msgstr "Ji bo sererastkirina cihê bitikîne"
 
-#: ../kfile/kurlnavigatorbutton.cpp:611
-msgctxt "@action:inmenu"
-msgid "More"
-msgstr ""
-
 #: ../kfile/kfilefiltercombo.cpp:36 ../kfile/kfilewidget.cpp:1802
 msgid "*|All Files"
 msgstr ""
@@ -6462,6 +6457,11 @@ msgstr ""
 
 #: ../kfile/kurlnavigator.cpp:690
 msgid "Custom Path"
+msgstr ""
+
+#: ../kfile/kurlnavigatorbutton.cpp:612
+msgctxt "@action:inmenu"
+msgid "More"
 msgstr ""
 
 #, fuzzy
