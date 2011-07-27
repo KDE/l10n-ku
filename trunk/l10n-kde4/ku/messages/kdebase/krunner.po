@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krunner\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-07-13 04:02+0200\n"
+"POT-Creation-Date: 2011-07-27 04:01+0200\n"
 "PO-Revision-Date: 2009-01-03 04:40+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: ku <kde-i18n-doc@lists.kde.org>\n"
@@ -202,6 +202,23 @@ msgstr "&Çalakkirin"
 msgid "Start &New Session"
 msgstr "Dest Bi Danişîna &Nû Bike"
 
+#: lock/lockprocess.cc:834
+msgid "Will not lock the session, as unlocking would be impossible:\n"
+msgstr ""
+"Ji ber ku dê mifteya danişînê vene be, dê danişîn neyê miftekirin jî:\n"
+
+#: lock/lockprocess.cc:838
+msgid "Cannot start <i>kcheckpass</i>."
+msgstr "Bernameya <i>Kcheckpass</i> nehate xebitandin."
+
+#: lock/lockprocess.cc:839
+msgid "<i>kcheckpass</i> is unable to operate. Possibly it is not setuid root."
+msgstr "<i>Kcheckpass</i> nikare bixebite. Dibe ku setuid ne root be."
+
+#: lock/lockprocess.cc:902
+msgid "No appropriate greeter plugin configured."
+msgstr "Pêvekeke lihevkir a beramber nayê dîtin."
+
 #: lock/main.cc:61
 msgid "KDE Screen Locker"
 msgstr ""
@@ -236,23 +253,6 @@ msgstr "ji bo veavakirinê bi plasma bêqufl re destpê bike"
 msgid "Fork into the background after starting up"
 msgstr ""
 
-#: lock/lockprocess.cc:834
-msgid "Will not lock the session, as unlocking would be impossible:\n"
-msgstr ""
-"Ji ber ku dê mifteya danişînê vene be, dê danişîn neyê miftekirin jî:\n"
-
-#: lock/lockprocess.cc:838
-msgid "Cannot start <i>kcheckpass</i>."
-msgstr "Bernameya <i>Kcheckpass</i> nehate xebitandin."
-
-#: lock/lockprocess.cc:839
-msgid "<i>kcheckpass</i> is unable to operate. Possibly it is not setuid root."
-msgstr "<i>Kcheckpass</i> nikare bixebite. Dibe ku setuid ne root be."
-
-#: lock/lockprocess.cc:902
-msgid "No appropriate greeter plugin configured."
-msgstr "Pêvekeke lihevkir a beramber nayê dîtin."
-
 #: main.cpp:38
 msgid "KDE run command interface"
 msgstr "Navrû ya KDE xebitandina fermanê"
@@ -273,35 +273,35 @@ msgstr "Aaron J. Seigo"
 msgid "Author and maintainer"
 msgstr "Nivîskar û kesê miqate"
 
-#: krunnerdialog.cpp:70 krunnerapp.cpp:131
+#: krunnerdialog.cpp:70 krunnerapp.cpp:130
 msgid "Run Command"
 msgstr "Fermanê Bixebitîne"
-
-#: krunnerapp.cpp:136
-msgid "Run Command on clipboard contents"
-msgstr "Fermanê di naveroka panoyê de bixebitîne"
-
-#: krunnerapp.cpp:142
-msgid "Show System Activity"
-msgstr "Çalakbûna Pergalê Nîşan Bide"
-
-#: krunnerapp.cpp:148
-msgid "Switch User"
-msgstr "Bikarhêner Biguherîne"
-
-#: krunnerapp.cpp:158
-msgid "Lock Session"
-msgstr "Danişînê Biqufilîne"
-
-#: krunnerapp.cpp:200
-#, kde-format
-msgctxt "Run krunner restricting the search only to runner %1"
-msgid "Run Command (runner \"%1\" only)"
-msgstr ""
 
 #: ksystemactivitydialog.cpp:40
 msgid "System Activity"
 msgstr "Çalakiya Pergalê"
+
+#: krunnerapp.cpp:135
+msgid "Run Command on clipboard contents"
+msgstr "Fermanê di naveroka panoyê de bixebitîne"
+
+#: krunnerapp.cpp:141
+msgid "Show System Activity"
+msgstr "Çalakbûna Pergalê Nîşan Bide"
+
+#: krunnerapp.cpp:147
+msgid "Switch User"
+msgstr "Bikarhêner Biguherîne"
+
+#: krunnerapp.cpp:157
+msgid "Lock Session"
+msgstr "Danişînê Biqufilîne"
+
+#: krunnerapp.cpp:199
+#, kde-format
+msgctxt "Run krunner restricting the search only to runner %1"
+msgid "Run Command (runner \"%1\" only)"
+msgstr ""
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"

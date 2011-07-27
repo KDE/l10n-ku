@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-07-26 04:17+0200\n"
+"POT-Creation-Date: 2011-07-27 03:59+0200\n"
 "PO-Revision-Date: 2008-09-22 02:29+0300\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
@@ -2202,6 +2202,66 @@ msgstr "Rêzikan Bike Yek"
 msgid "Move Down"
 msgstr ""
 
+#: view/kateviewhelpers.cpp:361
+msgid "Available Commands"
+msgstr ""
+
+#: view/kateviewhelpers.cpp:363
+msgid ""
+"<p>For help on individual commands, do <code>'help &lt;command&gt;'</code></"
+"p>"
+msgstr ""
+
+#: view/kateviewhelpers.cpp:374
+#, kde-format
+msgid "No help for '%1'"
+msgstr ""
+
+#: view/kateviewhelpers.cpp:377
+#, kde-format
+msgid "No such command <b>%1</b>"
+msgstr ""
+
+#: view/kateviewhelpers.cpp:382
+msgid ""
+"<p>This is the Katepart <b>command line</b>.<br />Syntax: <code><b>command "
+"[ arguments ]</b></code><br />For a list of available commands, enter "
+"<code><b>help list</b></code><br />For help for individual commands, enter "
+"<code><b>help &lt;command&gt;</b></code></p>"
+msgstr ""
+
+#: view/kateviewhelpers.cpp:511
+#, kde-format
+msgid "Error: No range allowed for command \"%1\"."
+msgstr ""
+
+#: view/kateviewhelpers.cpp:527
+msgid "Success: "
+msgstr ""
+
+#: view/kateviewhelpers.cpp:542
+#, kde-format
+msgid "Command \"%1\" failed."
+msgstr "Fermana \"%1\" bi ser neket."
+
+#: view/kateviewhelpers.cpp:548
+#, kde-format
+msgid "No such command: \"%1\""
+msgstr "Ev femran tune: \"%1\""
+
+#: view/kateviewhelpers.cpp:1533 view/kateviewhelpers.cpp:1534
+#, kde-format
+msgid "Mark Type %1"
+msgstr ""
+
+#: view/kateviewhelpers.cpp:1553
+msgid "Set Default Mark Type"
+msgstr ""
+
+#: view/kateviewhelpers.cpp:1619
+msgid "Disable Annotation Bar"
+msgstr ""
+
 #: view/kateview.cpp:326
 msgid "Cut the selected text and move it to the clipboard"
 msgstr ""
@@ -2841,76 +2901,16 @@ msgstr ""
 msgid "Expand One Local Level"
 msgstr ""
 
-#: view/kateview.cpp:997
+#: view/kateview.cpp:985
 msgid "R/O"
 msgstr ""
 
-#: view/kateview.cpp:1005
+#: view/kateview.cpp:993
 msgid "OVR"
 msgstr ""
 
-#: view/kateview.cpp:1005
+#: view/kateview.cpp:993
 msgid "INS"
-msgstr ""
-
-#: view/kateviewhelpers.cpp:361
-msgid "Available Commands"
-msgstr ""
-
-#: view/kateviewhelpers.cpp:363
-msgid ""
-"<p>For help on individual commands, do <code>'help &lt;command&gt;'</code></"
-"p>"
-msgstr ""
-
-#: view/kateviewhelpers.cpp:374
-#, kde-format
-msgid "No help for '%1'"
-msgstr ""
-
-#: view/kateviewhelpers.cpp:377
-#, kde-format
-msgid "No such command <b>%1</b>"
-msgstr ""
-
-#: view/kateviewhelpers.cpp:382
-msgid ""
-"<p>This is the Katepart <b>command line</b>.<br />Syntax: <code><b>command "
-"[ arguments ]</b></code><br />For a list of available commands, enter "
-"<code><b>help list</b></code><br />For help for individual commands, enter "
-"<code><b>help &lt;command&gt;</b></code></p>"
-msgstr ""
-
-#: view/kateviewhelpers.cpp:511
-#, kde-format
-msgid "Error: No range allowed for command \"%1\"."
-msgstr ""
-
-#: view/kateviewhelpers.cpp:527
-msgid "Success: "
-msgstr ""
-
-#: view/kateviewhelpers.cpp:542
-#, kde-format
-msgid "Command \"%1\" failed."
-msgstr "Fermana \"%1\" bi ser neket."
-
-#: view/kateviewhelpers.cpp:548
-#, kde-format
-msgid "No such command: \"%1\""
-msgstr "Ev femran tune: \"%1\""
-
-#: view/kateviewhelpers.cpp:1533 view/kateviewhelpers.cpp:1534
-#, kde-format
-msgid "Mark Type %1"
-msgstr ""
-
-#: view/kateviewhelpers.cpp:1553
-msgid "Set Default Mark Type"
-msgstr ""
-
-#: view/kateviewhelpers.cpp:1619
-msgid "Disable Annotation Bar"
 msgstr ""
 
 #: vimode/katevimodebar.cpp:125
@@ -2937,8 +2937,8 @@ msgstr ""
 msgid "VI: REPLACE"
 msgstr ""
 
-#: vimode/kateviinsertmode.cpp:194 vimode/katevimodebase.cpp:857
-#: vimode/katevinormalmode.cpp:1114
+#: vimode/kateviinsertmode.cpp:194 vimode/katevinormalmode.cpp:1114
+#: vimode/katevimodebase.cpp:859
 #, kde-format
 msgid "Nothing in register %1"
 msgstr ""
