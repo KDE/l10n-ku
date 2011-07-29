@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nepomukserver\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-07-06 04:16+0200\n"
+"POT-Creation-Date: 2011-07-29 04:00+0200\n"
 "PO-Revision-Date: 2008-12-30 21:52+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <ku@li.org>\n"
@@ -111,35 +111,36 @@ msgstr "Pêrist kirina pelê ya Lêgerîna Sermasê yê Pêşîn di %1 de hat qe
 #, fuzzy
 #| msgid "File indexer is suspended"
 msgctxt "@info:status"
-msgid "File indexer is suspended"
+msgid "File indexer is suspended."
 msgstr "Pêristkerê pelê hate sekinandin"
 
 #: strigiservice.cpp:164
 #, fuzzy
-#| msgid "Strigi is currently indexing files in folder %1"
+#| msgctxt "@info %1 is a duration formatted using KLocale::formatDuration"
+#| msgid "Initial Desktop Search file indexing finished in %1"
 msgctxt "@info:status"
-msgid "Strigi is currently indexing files"
-msgstr "Strigi niha pelên di peldanka %1 de pêrist dike"
+msgid "Indexing files for desktop search."
+msgstr "Pêrist kirina pelê ya Lêgerîna Sermasê yê Pêşîn di %1 de hat qedandin"
 
 #: strigiservice.cpp:168
 #, fuzzy, kde-format
-#| msgid "Strigi is currently indexing files in folder %1"
+#| msgid "Indexed files:"
 msgctxt "@info:status"
-msgid "Strigi is currently indexing files in folder %1"
-msgstr "Strigi niha pelên di peldanka %1 de pêrist dike"
+msgid "Indexing files in %1"
+msgstr "Pelên hatin pêrist kirin:"
 
 #: strigiservice.cpp:170
 #, fuzzy, kde-format
 #| msgid "Strigi is currently indexing files in folder %1"
 msgctxt "@info:status"
-msgid "Strigi is currently indexing files in folder %1 (%2)"
+msgid "Indexing files in %1 (%2)"
 msgstr "Strigi niha pelên di peldanka %1 de pêrist dike"
 
 #: strigiservice.cpp:174
 #, fuzzy
 #| msgid "File indexer is idle"
 msgctxt "@info:status"
-msgid "File indexer is idle"
+msgid "File indexer is idle."
 msgstr "Pêristkerê pelê beredayî ye"
 
 #: rc.cpp:1
@@ -151,6 +152,18 @@ msgstr "Erdal Ronahi"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "erdal dot ronahi at gmail dot com"
+
+#, fuzzy
+#~| msgid "Strigi is currently indexing files in folder %1"
+#~ msgctxt "@info:status"
+#~ msgid "Strigi is currently indexing files"
+#~ msgstr "Strigi niha pelên di peldanka %1 de pêrist dike"
+
+#, fuzzy
+#~| msgid "Strigi is currently indexing files in folder %1"
+#~ msgctxt "@info:status"
+#~ msgid "Strigi is currently indexing files in folder %1"
+#~ msgstr "Strigi niha pelên di peldanka %1 de pêrist dike"
 
 #~ msgctxt "@info - notification message"
 #~ msgid "Converting Nepomuk data to a new backend. This might take a while."
@@ -365,9 +378,6 @@ msgstr "erdal dot ronahi at gmail dot com"
 #~| msgid "Nepomuk store size:"
 #~ msgid "Nepomuk Repository Details"
 #~ msgstr "Nepomuk mezinahiya depoyê:"
-
-#~ msgid "Indexed files:"
-#~ msgstr "Pelên hatin pêrist kirin:"
 
 #~ msgid "Calculating..."
 #~ msgstr "Dihesibîne..."
