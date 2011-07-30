@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gwenview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-06-19 04:15+0200\n"
+"POT-Creation-Date: 2011-07-30 04:09+0200\n"
 "PO-Revision-Date: 2009-01-22 22:46+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -154,69 +154,6 @@ msgstr "Veke Bi"
 msgid "Other Application..."
 msgstr "Sepanê Din..."
 
-#: app/infocontextmanageritem.cpp:165
-#, kde-format
-msgctxt ""
-"@item:intext %1 is a key, we append a colon to it. A value is displayed after"
-msgid "%1:"
-msgstr "%1:"
-
-#: app/infocontextmanageritem.cpp:237
-msgctxt "@action show more image meta info"
-msgid "More..."
-msgstr "Zêdetir..."
-
-#: app/infocontextmanageritem.cpp:248
-msgctxt "@title:group"
-msgid "Meta Information"
-msgstr "Agahiya Meta"
-
-#: app/infocontextmanageritem.cpp:337
-#, fuzzy, kde-format
-#| msgctxt "@label"
-#| msgid "%1 files selected"
-msgctxt "@label"
-msgid "%1 file selected"
-msgid_plural "%1 files selected"
-msgstr[0] "%1 pel hatin hilbijartin"
-msgstr[1] "%1 pel hatin hilbijartin"
-
-#: app/infocontextmanageritem.cpp:339
-#, fuzzy, kde-format
-#| msgctxt "@label"
-#| msgid "One folder selected"
-#| msgid_plural "%1 folders selected"
-msgctxt "@label"
-msgid "%1 folder selected"
-msgid_plural "%1 folders selected"
-msgstr[0] "Yek peldank hatiye hilbijartin"
-msgstr[1] "%1 peldank hatine hilbijartin"
-
-#: app/infocontextmanageritem.cpp:342
-#, kde-format
-msgid "%1 folder"
-msgid_plural "%1 folders"
-msgstr[0] ""
-msgstr[1] ""
-
-#: app/infocontextmanageritem.cpp:342
-#, fuzzy, kde-format
-#| msgctxt "Slideshow interval in seconds"
-#| msgid "%1 sec"
-#| msgid_plural "%1 secs"
-msgid "%1 file"
-msgid_plural "%1 files"
-msgstr[0] "%1 çirke"
-msgstr[1] "%1 çirke"
-
-#: app/infocontextmanageritem.cpp:342
-#, fuzzy, kde-format
-#| msgctxt "@label"
-#| msgid "%1 folders and %2 files selected"
-msgctxt "@label. The two parameters are strings like '2 folders' and '1 file'."
-msgid "%1 and %2 selected"
-msgstr "%1 peldank û %2 pel hatine hilbijartin"
-
 #: app/documentpanel.cpp:273
 #, fuzzy
 #| msgctxt "Verb"
@@ -317,6 +254,69 @@ msgctxt "@action:inmenu"
 msgid "Filter by Tag"
 msgstr "Gorê Etîketê Parzûn Bike"
 
+#: app/infocontextmanageritem.cpp:165
+#, kde-format
+msgctxt ""
+"@item:intext %1 is a key, we append a colon to it. A value is displayed after"
+msgid "%1:"
+msgstr "%1:"
+
+#: app/infocontextmanageritem.cpp:237
+msgctxt "@action show more image meta info"
+msgid "More..."
+msgstr "Zêdetir..."
+
+#: app/infocontextmanageritem.cpp:248
+msgctxt "@title:group"
+msgid "Meta Information"
+msgstr "Agahiya Meta"
+
+#: app/infocontextmanageritem.cpp:337
+#, fuzzy, kde-format
+#| msgctxt "@label"
+#| msgid "%1 files selected"
+msgctxt "@label"
+msgid "%1 file selected"
+msgid_plural "%1 files selected"
+msgstr[0] "%1 pel hatin hilbijartin"
+msgstr[1] "%1 pel hatin hilbijartin"
+
+#: app/infocontextmanageritem.cpp:339
+#, fuzzy, kde-format
+#| msgctxt "@label"
+#| msgid "One folder selected"
+#| msgid_plural "%1 folders selected"
+msgctxt "@label"
+msgid "%1 folder selected"
+msgid_plural "%1 folders selected"
+msgstr[0] "Yek peldank hatiye hilbijartin"
+msgstr[1] "%1 peldank hatine hilbijartin"
+
+#: app/infocontextmanageritem.cpp:342
+#, kde-format
+msgid "%1 folder"
+msgid_plural "%1 folders"
+msgstr[0] ""
+msgstr[1] ""
+
+#: app/infocontextmanageritem.cpp:342
+#, fuzzy, kde-format
+#| msgctxt "Slideshow interval in seconds"
+#| msgid "%1 sec"
+#| msgid_plural "%1 secs"
+msgid "%1 file"
+msgid_plural "%1 files"
+msgstr[0] "%1 çirke"
+msgstr[1] "%1 çirke"
+
+#: app/infocontextmanageritem.cpp:342
+#, fuzzy, kde-format
+#| msgctxt "@label"
+#| msgid "%1 folders and %2 files selected"
+msgctxt "@label. The two parameters are strings like '2 folders' and '1 file'."
+msgid "%1 and %2 selected"
+msgstr "%1 peldank û %2 pel hatine hilbijartin"
+
 #: app/imageopscontextmanageritem.cpp:78
 msgctxt "@title actions category - means actions changing image"
 msgid "Edit"
@@ -389,6 +389,62 @@ msgid_plural "%1 (%2 images)"
 msgstr[0] "%1 (%2 wêne)"
 msgstr[1] "%1 (%2 wêne)"
 
+#: app/kipiinterface.cpp:223
+#, fuzzy
+#| msgid "Images"
+msgctxt "@title:menu"
+msgid "Images"
+msgstr "Wêne"
+
+#: app/kipiinterface.cpp:224
+#, fuzzy
+#| msgid "Effects"
+msgctxt "@title:menu"
+msgid "Effects"
+msgstr "Efekt"
+
+#: app/kipiinterface.cpp:225
+#, fuzzy
+#| msgid "Tools"
+msgctxt "@title:menu"
+msgid "Tools"
+msgstr "Amûr"
+
+#: app/kipiinterface.cpp:226
+#, fuzzy
+#| msgid "Import"
+msgctxt "@title:menu"
+msgid "Import"
+msgstr "Veguhezîne Hundir"
+
+#: app/kipiinterface.cpp:227
+#, fuzzy
+#| msgid "Export"
+msgctxt "@title:menu"
+msgid "Export"
+msgstr "Veguhezîne Derve"
+
+#: app/kipiinterface.cpp:228
+#, fuzzy
+#| msgid "Batch Processing"
+msgctxt "@title:menu"
+msgid "Batch Processing"
+msgstr "Pêvajoyên Bitevayî"
+
+#: app/kipiinterface.cpp:229
+#, fuzzy
+#| msgid "Collections"
+msgctxt "@title:menu"
+msgid "Collections"
+msgstr "Berhevok"
+
+#: app/kipiinterface.cpp:233
+#, fuzzy
+#| msgctxt "@info:progress saving all image changes"
+#| msgid "Saving..."
+msgid "Loading..."
+msgstr "Tê tomarkirin..."
+
 #: app/kipiuploadwidget.cpp:42
 #, kde-format
 msgid ""
@@ -456,45 +512,6 @@ msgctxt ""
 "for the failure"
 msgid "<filename>%1</filename>: %2"
 msgstr "<filename>%1</filename>: %2"
-
-#: app/savebar.cpp:85
-msgid ""
-"You have modified many images. To avoid memory problems, you should save "
-"your changes."
-msgstr ""
-"Te gelek wêne guherandî ye. Ji bo ku pirsgirêkên bîrê dernekevin, divê tu "
-"guherandinan tomar bikî."
-
-#: app/savebar.cpp:172
-msgid "Current image modified"
-msgstr "Wêneya vekirî hatiye guhertin"
-
-#: app/savebar.cpp:178
-msgid "Previous modified image"
-msgstr "Wêneya paş ya hatiye guhertin"
-
-#: app/savebar.cpp:179
-msgid "Next modified image"
-msgstr "Wêneya pêş ya hatiye guhertin"
-
-#: app/savebar.cpp:195
-#, kde-format
-msgid "One image modified"
-msgid_plural "%1 images modified"
-msgstr[0] "Yek wêne hatiye guhertin"
-msgstr[1] "%1 wêne hatine guhertin"
-
-#: app/savebar.cpp:197
-msgid "Go to first modified image"
-msgstr "Biçe wêneya serî ya hatiye guhertin"
-
-#: app/savebar.cpp:199
-msgid "Go to it"
-msgstr "Biçe vê"
-
-#: app/savebar.cpp:301 app/savebar.cpp:306
-msgid "Save All"
-msgstr "Hemûyan Tomar Bike"
 
 #: app/mainwindow.cpp:321
 msgctxt "@action reload the currently viewed image"
@@ -637,6 +654,45 @@ msgstr[1] "%1 wêne hatine guhertin."
 #: app/mainwindow.cpp:1353
 msgid "If you quit now, your changes will be lost."
 msgstr "Heke tu niha derkevî, guherandinên te dê winda bin."
+
+#: app/savebar.cpp:85
+msgid ""
+"You have modified many images. To avoid memory problems, you should save "
+"your changes."
+msgstr ""
+"Te gelek wêne guherandî ye. Ji bo ku pirsgirêkên bîrê dernekevin, divê tu "
+"guherandinan tomar bikî."
+
+#: app/savebar.cpp:172
+msgid "Current image modified"
+msgstr "Wêneya vekirî hatiye guhertin"
+
+#: app/savebar.cpp:178
+msgid "Previous modified image"
+msgstr "Wêneya paş ya hatiye guhertin"
+
+#: app/savebar.cpp:179
+msgid "Next modified image"
+msgstr "Wêneya pêş ya hatiye guhertin"
+
+#: app/savebar.cpp:195
+#, kde-format
+msgid "One image modified"
+msgid_plural "%1 images modified"
+msgstr[0] "Yek wêne hatiye guhertin"
+msgstr[1] "%1 wêne hatine guhertin"
+
+#: app/savebar.cpp:197
+msgid "Go to first modified image"
+msgstr "Biçe wêneya serî ya hatiye guhertin"
+
+#: app/savebar.cpp:199
+msgid "Go to it"
+msgstr "Biçe vê"
+
+#: app/savebar.cpp:301 app/savebar.cpp:306
+msgid "Save All"
+msgstr "Hemûyan Tomar Bike"
 
 #: app/startpage.cpp:288
 #, fuzzy
@@ -827,62 +883,6 @@ msgid_plural "%1 documents"
 msgstr[0] "%1 belge"
 msgstr[1] "%1 belge"
 
-#: app/kipiinterface.cpp:223
-#, fuzzy
-#| msgid "Images"
-msgctxt "@title:menu"
-msgid "Images"
-msgstr "Wêne"
-
-#: app/kipiinterface.cpp:224
-#, fuzzy
-#| msgid "Effects"
-msgctxt "@title:menu"
-msgid "Effects"
-msgstr "Efekt"
-
-#: app/kipiinterface.cpp:225
-#, fuzzy
-#| msgid "Tools"
-msgctxt "@title:menu"
-msgid "Tools"
-msgstr "Amûr"
-
-#: app/kipiinterface.cpp:226
-#, fuzzy
-#| msgid "Import"
-msgctxt "@title:menu"
-msgid "Import"
-msgstr "Veguhezîne Hundir"
-
-#: app/kipiinterface.cpp:227
-#, fuzzy
-#| msgid "Export"
-msgctxt "@title:menu"
-msgid "Export"
-msgstr "Veguhezîne Derve"
-
-#: app/kipiinterface.cpp:228
-#, fuzzy
-#| msgid "Batch Processing"
-msgctxt "@title:menu"
-msgid "Batch Processing"
-msgstr "Pêvajoyên Bitevayî"
-
-#: app/kipiinterface.cpp:229
-#, fuzzy
-#| msgid "Collections"
-msgctxt "@title:menu"
-msgid "Collections"
-msgstr "Berhevok"
-
-#: app/kipiinterface.cpp:233
-#, fuzzy
-#| msgctxt "@info:progress saving all image changes"
-#| msgid "Saving..."
-msgid "Loading..."
-msgstr "Tê tomarkirin..."
-
 #: app/configdialog.cpp:69
 msgid "General"
 msgstr "Giştî"
@@ -922,27 +922,6 @@ msgstr ""
 #: importer/filenameformater.cpp:107
 msgid "Original filename, in lower case"
 msgstr ""
-
-#: importer/importer.cpp:76
-msgid "Could not create destination folder."
-msgstr ""
-
-#: importer/importer.cpp:83
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid "Could not upload file."
-msgid ""
-"Could not create temporary upload folder:\n"
-"%1"
-msgstr "Nekarî pelê bar bike."
-
-#: importer/importerconfigdialog.cpp:53
-#, fuzzy, kde-format
-#| msgctxt "@item:intable %1 is image width, %2 is image height"
-#| msgid "%1x%2"
-msgctxt "%1 is the importer keyword, %2 is keyword explanation"
-msgid "%1: %2"
-msgstr "%1x%2"
 
 #: importer/main.cpp:39
 #, fuzzy
@@ -1066,6 +1045,27 @@ msgstr ""
 msgid "Quit"
 msgstr ""
 
+#: importer/importer.cpp:76
+msgid "Could not create destination folder."
+msgstr ""
+
+#: importer/importer.cpp:83
+#, fuzzy, kde-format
+#| msgctxt "@info"
+#| msgid "Could not upload file."
+msgid ""
+"Could not create temporary upload folder:\n"
+"%1"
+msgstr "Nekarî pelê bar bike."
+
+#: importer/importerconfigdialog.cpp:53
+#, fuzzy, kde-format
+#| msgctxt "@item:intable %1 is image width, %2 is image height"
+#| msgid "%1x%2"
+msgctxt "%1 is the importer keyword, %2 is keyword explanation"
+msgid "%1: %2"
+msgstr "%1x%2"
+
 #: importer/thumbnailpage.cpp:143
 #, fuzzy
 #| msgctxt "@label"
@@ -1100,13 +1100,6 @@ msgstr "&Firehî:"
 msgid "Height"
 msgstr "Bilindahî:"
 
-#: lib/document/loadingjob.cpp:56
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid "Could not upload file."
-msgid "Could not load document %1"
-msgstr "Nekarî pelê bar bike."
-
 #: lib/document/savejob.cpp:104
 #, kde-format
 msgctxt "@info"
@@ -1126,6 +1119,14 @@ msgid ""
 msgstr ""
 "Nikare ser pelê binivîse, kontrol bike ku tu xwedî destûrên hewce yên di "
 "<filename>%1</filename> de yî."
+
+#: lib/document/document.cpp:231
+#, fuzzy
+#| msgctxt "@info"
+#| msgid "Gwenview cannot edit this kind of image."
+msgctxt "@info"
+msgid "Gwenview cannot save this kind of documents."
+msgstr "Gwenview nikare wêneyên bi vê cure yê serast bike."
 
 #: lib/document/loadingdocumentimpl.cpp:126
 #, kde-format
@@ -1151,13 +1152,12 @@ msgctxt "@info"
 msgid "Loading image failed."
 msgstr "Barkirina wêneyê pêk nehat."
 
-#: lib/document/document.cpp:231
-#, fuzzy
+#: lib/document/loadingjob.cpp:56
+#, fuzzy, kde-format
 #| msgctxt "@info"
-#| msgid "Gwenview cannot edit this kind of image."
-msgctxt "@info"
-msgid "Gwenview cannot save this kind of documents."
-msgstr "Gwenview nikare wêneyên bi vê cure yê serast bike."
+#| msgid "Could not upload file."
+msgid "Could not load document %1"
+msgstr "Nekarî pelê bar bike."
 
 #: lib/documentview/documentviewcontroller.cpp:61
 msgid "Zoom to Fit"
@@ -1667,60 +1667,60 @@ msgstr ""
 msgid "Show videos"
 msgstr "Darika-kêlekê Nîşan Bide"
 
+#. i18n: file: importer/progresspage.ui:30
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:150
+msgid "Importing documents..."
+msgstr ""
+
+#. i18n: file: importer/thumbnailpage.ui:84
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:153
+msgid "Select the documents to import"
+msgstr ""
+
+#. i18n: file: importer/thumbnailpage.ui:145
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:156
+msgid "Enter the import destination"
+msgstr ""
+
+#. i18n: file: importer/thumbnailpage.ui:163
+#. i18n: ectx: property (text), widget (QPushButton, mConfigureButton)
+#: rc.cpp:159
+#, fuzzy
+#| msgid "&Settings"
+msgid "Settings..."
+msgstr "&Mîheng"
+
 #. i18n: file: importer/importerconfigdialog.ui:17
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoRename)
-#: rc.cpp:150
+#: rc.cpp:162
 msgid "Rename documents automatically"
 msgstr ""
 
-#. i18n: file: importer/importerconfigdialog.ui:42
+#. i18n: file: importer/importerconfigdialog.ui:39
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:153
+#: rc.cpp:165
 #, fuzzy
 #| msgctxt "@action:inmenu"
 #| msgid "Filename"
 msgid "Rename Format:"
 msgstr "Navê Pelê"
 
-#. i18n: file: importer/importerconfigdialog.ui:65
+#. i18n: file: importer/importerconfigdialog.ui:59
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:156
+#: rc.cpp:168
 #, fuzzy
 #| msgid "Gwenview"
 msgid "Preview:"
 msgstr "Gwenview"
 
-#. i18n: file: importer/importerconfigdialog.ui:89
+#. i18n: file: importer/importerconfigdialog.ui:83
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:159
+#: rc.cpp:171
 msgid "<i>Type text or click the items below to customize the format</i>"
 msgstr ""
-
-#. i18n: file: importer/progresspage.ui:30
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:162
-msgid "Importing documents..."
-msgstr ""
-
-#. i18n: file: importer/thumbnailpage.ui:84
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:165
-msgid "Select the documents to import"
-msgstr ""
-
-#. i18n: file: importer/thumbnailpage.ui:145
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:168
-msgid "Enter the import destination"
-msgstr ""
-
-#. i18n: file: importer/thumbnailpage.ui:163
-#. i18n: ectx: property (text), widget (QPushButton, mConfigureButton)
-#: rc.cpp:171
-#, fuzzy
-#| msgid "&Settings"
-msgid "Settings..."
-msgstr "&Mîheng"
 
 #. i18n: file: lib/gwenviewconfig.kcfg:30
 #. i18n: ectx: whatsthis, entry (PercentageOfMemoryUsageWarning), group (General)
