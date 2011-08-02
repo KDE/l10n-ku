@@ -7,10 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nepomukserver\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-07-29 04:00+0200\n"
+"POT-Creation-Date: 2011-08-02 17:59+0200\n"
 "PO-Revision-Date: 2008-12-30 21:52+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <ku@li.org>\n"
+"Language: ku\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -114,7 +115,15 @@ msgctxt "@info:status"
 msgid "File indexer is suspended."
 msgstr "Pêristkerê pelê hate sekinandin"
 
-#: strigiservice.cpp:164
+#: strigiservice.cpp:166
+#, fuzzy
+#| msgctxt "@info %1 is a duration formatted using KLocale::formatDuration"
+#| msgid "Initial Desktop Search file indexing finished in %1"
+msgctxt "@info:status"
+msgid "Scanning for recent changes in files for desktop search"
+msgstr "Pêrist kirina pelê ya Lêgerîna Sermasê yê Pêşîn di %1 de hat qedandin"
+
+#: strigiservice.cpp:169
 #, fuzzy
 #| msgctxt "@info %1 is a duration formatted using KLocale::formatDuration"
 #| msgid "Initial Desktop Search file indexing finished in %1"
@@ -122,21 +131,27 @@ msgctxt "@info:status"
 msgid "Indexing files for desktop search."
 msgstr "Pêrist kirina pelê ya Lêgerîna Sermasê yê Pêşîn di %1 de hat qedandin"
 
-#: strigiservice.cpp:168
+#: strigiservice.cpp:176
+#, kde-format
+msgctxt "@info:status"
+msgid "Scanning for recent changes in %1"
+msgstr ""
+
+#: strigiservice.cpp:180
 #, fuzzy, kde-format
 #| msgid "Indexed files:"
 msgctxt "@info:status"
 msgid "Indexing files in %1"
 msgstr "Pelên hatin pêrist kirin:"
 
-#: strigiservice.cpp:170
+#: strigiservice.cpp:182
 #, fuzzy, kde-format
-#| msgid "Strigi is currently indexing files in folder %1"
+#| msgid "Indexed files:"
 msgctxt "@info:status"
-msgid "Indexing files in %1 (%2)"
-msgstr "Strigi niha pelên di peldanka %1 de pêrist dike"
+msgid "Indexing %1"
+msgstr "Pelên hatin pêrist kirin:"
 
-#: strigiservice.cpp:174
+#: strigiservice.cpp:187
 #, fuzzy
 #| msgid "File indexer is idle"
 msgctxt "@info:status"
@@ -152,6 +167,12 @@ msgstr "Erdal Ronahi"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "erdal dot ronahi at gmail dot com"
+
+#, fuzzy
+#~| msgid "Strigi is currently indexing files in folder %1"
+#~ msgctxt "@info:status"
+#~ msgid "Indexing files in %1 (%2)"
+#~ msgstr "Strigi niha pelên di peldanka %1 de pêrist dike"
 
 #, fuzzy
 #~| msgid "Strigi is currently indexing files in folder %1"
