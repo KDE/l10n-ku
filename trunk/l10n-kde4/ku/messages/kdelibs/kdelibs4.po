@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-02 06:20+0200\n"
+"POT-Creation-Date: 2011-08-04 03:00+0200\n"
 "PO-Revision-Date: 2010-08-13 15:45+0200\n"
 "Last-Translator: Erdal Ronahî <erdal.ronahi@gmail.com>\n"
 "Language-Team: Kurdish Team http://pckurd.net\n"
@@ -5697,27 +5697,6 @@ msgctxt "@title:window"
 msgid "Print"
 msgstr "Çapkirin"
 
-#: kdeui/dialogs/kdialog.cpp:250
-msgid "&Try"
-msgstr "&Ceribandin"
-
-#: kdeui/dialogs/kdialog.cpp:452
-msgid "modified"
-msgstr "guherî"
-
-#: kdeui/dialogs/kdialog.cpp:462
-msgctxt "Document/application separator in titlebar"
-msgid " – "
-msgstr " – "
-
-#: kdeui/dialogs/kdialog.cpp:833
-msgid "&Details"
-msgstr "&Kîtekît"
-
-#: kdeui/dialogs/kdialog.cpp:985
-msgid "Get help..."
-msgstr "Alîkariyê bistîne..."
-
 #: kdeui/dialogs/kedittoolbar.cpp:58
 msgid "--- separator ---"
 msgstr "--- veqetînder ---"
@@ -6438,6 +6417,27 @@ msgstr "Serûpel"
 msgctxt "@item Contributor name in about dialog."
 msgid "%1"
 msgstr "%1"
+
+#: kdeui/dialogs/kdialog.cpp:250
+msgid "&Try"
+msgstr "&Ceribandin"
+
+#: kdeui/dialogs/kdialog.cpp:452
+msgid "modified"
+msgstr "guherî"
+
+#: kdeui/dialogs/kdialog.cpp:462
+msgctxt "Document/application separator in titlebar"
+msgid " – "
+msgstr " – "
+
+#: kdeui/dialogs/kdialog.cpp:833
+msgid "&Details"
+msgstr "&Kîtekît"
+
+#: kdeui/dialogs/kdialog.cpp:986
+msgid "Get help..."
+msgstr "Alîkariyê bistîne..."
 
 #: kdeui/findreplace/kfind.cpp:50
 msgid "Find Next"
@@ -7169,31 +7169,31 @@ msgstr ""
 msgid "Unknown Application"
 msgstr "Sepana Nenas"
 
-#: kdeui/notifications/kstatusnotifieritem.cpp:419
-#: kdeui/notifications/kstatusnotifieritem.cpp:857
+#: kdeui/notifications/ksystemtrayicon.cpp:156
+msgid "Minimize"
+msgstr "Biçûk bike"
+
 #: kdeui/notifications/ksystemtrayicon.cpp:215
+#: kdeui/notifications/kstatusnotifieritem.cpp:487
+#: kdeui/notifications/kstatusnotifieritem.cpp:925
 msgid "&Minimize"
 msgstr "&Biçûk Bike"
 
-#: kdeui/notifications/kstatusnotifieritem.cpp:855
 #: kdeui/notifications/ksystemtrayicon.cpp:219
+#: kdeui/notifications/kstatusnotifieritem.cpp:923
 msgid "&Restore"
 msgstr "&Paşde bîne"
 
-#: kdeui/notifications/kstatusnotifieritem.cpp:865
 #: kdeui/notifications/ksystemtrayicon.cpp:239
+#: kdeui/notifications/kstatusnotifieritem.cpp:933
 #, kde-format
 msgid "<qt>Are you sure you want to quit <b>%1</b>?</qt>"
 msgstr "tu dixwazî ji bernameya <qt><b>%1</b> derkevî?</qt>"
 
-#: kdeui/notifications/kstatusnotifieritem.cpp:868
 #: kdeui/notifications/ksystemtrayicon.cpp:242
+#: kdeui/notifications/kstatusnotifieritem.cpp:936
 msgid "Confirm Quit From System Tray"
 msgstr "Derketina Ji Berkêşka Pergalê Erê Bike"
-
-#: kdeui/notifications/ksystemtrayicon.cpp:156
-msgid "Minimize"
-msgstr "Biçûk bike"
 
 #: kdeui/shortcuts/kcheckaccelerators.cpp:209
 msgctxt "@title:window"
@@ -8844,145 +8844,145 @@ msgctxt "KCharselect unicode block name"
 msgid "Specials"
 msgstr "Taybet"
 
-#: kdeui/widgets/kcharselect.cpp:336 kdeui/widgets/kcharselect.cpp:338
+#: kdeui/widgets/kcharselect.cpp:339 kdeui/widgets/kcharselect.cpp:341
 msgid "Enter a search term or character here"
 msgstr "Gotinek an tîpa e lêgerînê têkeve virê"
 
-#: kdeui/widgets/kcharselect.cpp:356
+#: kdeui/widgets/kcharselect.cpp:359
 msgctxt "Goes to previous character"
 msgid "Previous in History"
 msgstr "Di Dîrokê de yên Berê"
 
-#: kdeui/widgets/kcharselect.cpp:358
+#: kdeui/widgets/kcharselect.cpp:361
 msgid "Previous Character in History"
 msgstr "Di Dîrokê de Karaktera Berê"
 
-#: kdeui/widgets/kcharselect.cpp:363
+#: kdeui/widgets/kcharselect.cpp:366
 msgctxt "Goes to next character"
 msgid "Next in History"
 msgstr "Di Dîrokê de yê Pêş"
 
-#: kdeui/widgets/kcharselect.cpp:365
+#: kdeui/widgets/kcharselect.cpp:368
 msgid "Next Character in History"
 msgstr "Di Dîrokê de Karaktera Pêş"
 
-#: kdeui/widgets/kcharselect.cpp:373
+#: kdeui/widgets/kcharselect.cpp:376
 msgid "Select a category"
 msgstr "Kategoriyekê hilbijêre"
 
-#: kdeui/widgets/kcharselect.cpp:376
+#: kdeui/widgets/kcharselect.cpp:379
 msgid "Select a block to be displayed"
 msgstr "Blokeke ku were nîşandan hilbijêre"
 
-#: kdeui/widgets/kcharselect.cpp:389
+#: kdeui/widgets/kcharselect.cpp:392
 msgid "Set font"
 msgstr "Curenivîsê hilbijêre"
 
-#: kdeui/widgets/kcharselect.cpp:396
+#: kdeui/widgets/kcharselect.cpp:399
 msgid "Set font size"
 msgstr "Mezinahiya curenivîsan hilbijêre"
 
-#: kdeui/widgets/kcharselect.cpp:627
+#: kdeui/widgets/kcharselect.cpp:630
 msgid "Character:"
 msgstr "Karakter:"
 
-#: kdeui/widgets/kcharselect.cpp:633
+#: kdeui/widgets/kcharselect.cpp:636
 msgid "Name: "
 msgstr "Nav: "
 
-#: kdeui/widgets/kcharselect.cpp:641
+#: kdeui/widgets/kcharselect.cpp:644
 msgid "Annotations and Cross References"
 msgstr ""
 
-#: kdeui/widgets/kcharselect.cpp:645
+#: kdeui/widgets/kcharselect.cpp:648
 msgid "Alias names:"
 msgstr "Navên kod:"
 
-#: kdeui/widgets/kcharselect.cpp:653
+#: kdeui/widgets/kcharselect.cpp:656
 msgid "Notes:"
 msgstr "Nîşe:"
 
-#: kdeui/widgets/kcharselect.cpp:661
+#: kdeui/widgets/kcharselect.cpp:664
 msgid "See also:"
 msgstr "Binêre:"
 
-#: kdeui/widgets/kcharselect.cpp:673
+#: kdeui/widgets/kcharselect.cpp:676
 msgid "Equivalents:"
 msgstr "Yên Wekhev:"
 
-#: kdeui/widgets/kcharselect.cpp:681
+#: kdeui/widgets/kcharselect.cpp:684
 msgid "Approximate equivalents:"
 msgstr "Wekhevên kêmzêde:"
 
-#: kdeui/widgets/kcharselect.cpp:690
+#: kdeui/widgets/kcharselect.cpp:693
 msgid "CJK Ideograph Information"
 msgstr "Agahiya CJK Ideograph"
 
-#: kdeui/widgets/kcharselect.cpp:693
+#: kdeui/widgets/kcharselect.cpp:696
 msgid "Definition in English: "
 msgstr "Danasîna bi Îngilîzî:"
 
-#: kdeui/widgets/kcharselect.cpp:698
+#: kdeui/widgets/kcharselect.cpp:701
 msgid "Mandarin Pronunciation: "
 msgstr "Bilêvkirina Mandarî:"
 
-#: kdeui/widgets/kcharselect.cpp:703
+#: kdeui/widgets/kcharselect.cpp:706
 msgid "Cantonese Pronunciation: "
 msgstr "Bilêvkirina Kantonezî:"
 
-#: kdeui/widgets/kcharselect.cpp:708
+#: kdeui/widgets/kcharselect.cpp:711
 msgid "Japanese On Pronunciation: "
 msgstr "Bilêvkirina Japoniya On:"
 
-#: kdeui/widgets/kcharselect.cpp:713
+#: kdeui/widgets/kcharselect.cpp:716
 msgid "Japanese Kun Pronunciation: "
 msgstr "Bilêvkirina Japoniya Kun:"
 
-#: kdeui/widgets/kcharselect.cpp:718
+#: kdeui/widgets/kcharselect.cpp:721
 msgid "Tang Pronunciation: "
 msgstr "Bilêvkirina  Tangî:"
 
-#: kdeui/widgets/kcharselect.cpp:723
+#: kdeui/widgets/kcharselect.cpp:726
 msgid "Korean Pronunciation: "
 msgstr "Bilêvkirina Koreyî:"
 
-#: kdeui/widgets/kcharselect.cpp:729
+#: kdeui/widgets/kcharselect.cpp:732
 msgid "General Character Properties"
 msgstr "Taybetiyên Giştî yên Karakterê"
 
-#: kdeui/widgets/kcharselect.cpp:730
+#: kdeui/widgets/kcharselect.cpp:733
 msgid "Block: "
 msgstr "Blok Bike:"
 
-#: kdeui/widgets/kcharselect.cpp:731
+#: kdeui/widgets/kcharselect.cpp:734
 msgid "Unicode category: "
 msgstr "Kategoriya Unicode: "
 
-#: kdeui/widgets/kcharselect.cpp:735
+#: kdeui/widgets/kcharselect.cpp:738
 msgid "Various Useful Representations"
 msgstr ""
 
-#: kdeui/widgets/kcharselect.cpp:736
+#: kdeui/widgets/kcharselect.cpp:739
 msgid "UTF-8:"
 msgstr "UTF-8:"
 
-#: kdeui/widgets/kcharselect.cpp:739
+#: kdeui/widgets/kcharselect.cpp:742
 msgid "UTF-16: "
 msgstr "UTF-16: "
 
-#: kdeui/widgets/kcharselect.cpp:740
+#: kdeui/widgets/kcharselect.cpp:743
 msgid "C octal escaped UTF-8: "
 msgstr ""
 
-#: kdeui/widgets/kcharselect.cpp:743
+#: kdeui/widgets/kcharselect.cpp:746
 msgid "XML decimal entity:"
 msgstr "XML yekeya dehanî:"
 
-#: kdeui/widgets/kcharselect.cpp:872
+#: kdeui/widgets/kcharselect.cpp:875
 msgid "Unicode code point:"
 msgstr "Xala koda Unicode: "
 
-#: kdeui/widgets/kcharselect.cpp:873
+#: kdeui/widgets/kcharselect.cpp:876
 msgctxt "Character"
 msgid "In decimal:"
 msgstr "Bi dehanî:"
