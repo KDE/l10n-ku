@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktorrent\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-20 02:37+0200\n"
+"POT-Creation-Date: 2011-08-21 03:14+0200\n"
 "PO-Revision-Date: 2008-09-23 17:28+0300\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -562,19 +562,6 @@ msgstr "%1 nayê vekirin: %2"
 msgid "Cannot seek in file: %1"
 msgstr "%1 nayê vekirin: %2"
 
-#: src/util/functions.cpp:280
-#, fuzzy, kde-format
-#| msgid "%1 KB/s"
-msgid "%1/s"
-msgstr "%1 KB/ç"
-
-#: src/util/functions.cpp:291
-#, kde-format
-msgid "1 day "
-msgid_plural "%1 days "
-msgstr[0] ""
-msgstr[1] ""
-
 #: src/util/logsystemmanager.cpp:33
 msgid "General"
 msgstr "Giştî"
@@ -599,11 +586,24 @@ msgstr ""
 msgid "µTP"
 msgstr ""
 
-#: src/util/signalcatcher.cpp:62
+#: src/util/functions.cpp:280
+#, fuzzy, kde-format
+#| msgid "%1 KB/s"
+msgid "%1/s"
+msgstr "%1 KB/ç"
+
+#: src/util/functions.cpp:291
+#, kde-format
+msgid "1 day "
+msgid_plural "%1 days "
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/util/signalcatcher.cpp:78
 msgid "Error when writing to disk"
 msgstr ""
 
-#: src/util/signalcatcher.cpp:62
+#: src/util/signalcatcher.cpp:78
 #, fuzzy
 #| msgid "Cannot read from %1"
 msgid "Error when reading from disk"
