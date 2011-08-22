@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktorrent\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-18 02:59+0200\n"
+"POT-Creation-Date: 2011-08-22 03:26+0200\n"
 "PO-Revision-Date: 2008-09-23 17:28+0300\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -1924,11 +1924,11 @@ msgstr ""
 msgid "(C) 2005 - 2007 Joris Guisson and Ivan Vasic"
 msgstr ""
 
-#: libktcore/dbus/dbustorrent.cpp:322
+#: libktcore/dbus/dbustorrent.cpp:321
 msgid "Maximum share ratio reached."
 msgstr ""
 
-#: libktcore/dbus/dbustorrent.cpp:325
+#: libktcore/dbus/dbustorrent.cpp:324
 msgid "Maximum seed time reached."
 msgstr ""
 
@@ -2685,29 +2685,6 @@ msgstr "Hatiye daxistin"
 msgid "Next Update"
 msgstr ""
 
-#. i18n: file: plugins/infowidget/trackerview.ui:22
-#. i18n: ectx: property (text), widget (KPushButton, m_add_tracker)
-#: plugins/infowidget/trackerview.cpp:88 rc.cpp:1774
-msgid "Add Trackers"
-msgstr ""
-
-#: plugins/infowidget/trackerview.cpp:89
-msgid "Enter the URL's of the trackers, one per line:"
-msgstr ""
-
-#: plugins/infowidget/trackerview.cpp:113
-msgid "Several URL's could not be added because they are malformed:"
-msgstr ""
-
-#: plugins/infowidget/trackerview.cpp:133
-#, kde-format
-msgid "There already is a tracker named <b>%1</b>."
-msgstr ""
-
-#: plugins/infowidget/trackerview.cpp:135
-msgid "The following duplicate trackers were not added:"
-msgstr ""
-
 #: plugins/infowidget/statustab.cpp:110
 msgid "Private"
 msgstr ""
@@ -2790,6 +2767,29 @@ msgid_plural ""
 "You will lose all data in these files, are you sure you want to do this?"
 msgstr[0] ""
 msgstr[1] ""
+
+#. i18n: file: plugins/infowidget/trackerview.ui:22
+#. i18n: ectx: property (text), widget (KPushButton, m_add_tracker)
+#: plugins/infowidget/trackerview.cpp:88 rc.cpp:1774
+msgid "Add Trackers"
+msgstr ""
+
+#: plugins/infowidget/trackerview.cpp:89
+msgid "Enter the URL's of the trackers, one per line:"
+msgstr ""
+
+#: plugins/infowidget/trackerview.cpp:113
+msgid "Several URL's could not be added because they are malformed:"
+msgstr ""
+
+#: plugins/infowidget/trackerview.cpp:128
+#, kde-format
+msgid "There already is a tracker named <b>%1</b>."
+msgstr ""
+
+#: plugins/infowidget/trackerview.cpp:130
+msgid "The following duplicate trackers were not added:"
+msgstr ""
 
 #: plugins/ipfilter/convertthread.cpp:72
 msgid "Loading txt file..."
