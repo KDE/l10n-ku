@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-22 02:39+0200\n"
+"POT-Creation-Date: 2011-08-23 02:31+0200\n"
 "PO-Revision-Date: 2007-12-17 01:31+0100\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
@@ -1483,8 +1483,8 @@ msgstr ""
 msgid "Insert Variable"
 msgstr ""
 
-#: kotext/KoTextEditor.cpp:878 kotext/KoTextEditor.cpp:1413
-#: kotext/KoTextEditor.cpp:1431 kotext/KoTextEditor.cpp:1532
+#: kotext/KoTextEditor.cpp:878 kotext/KoTextEditor.cpp:1412
+#: kotext/KoTextEditor.cpp:1430 kotext/KoTextEditor.cpp:1531
 msgid "Key Press"
 msgstr ""
 
@@ -1524,11 +1524,11 @@ msgstr ""
 msgid "Split Cells"
 msgstr ""
 
-#: kotext/KoTextEditor.cpp:1371 kotext/KoTextEditor.cpp:1384
+#: kotext/KoTextEditor.cpp:1371 kotext/KoTextEditor.cpp:1383
 msgid "Insert Table Of Contents"
 msgstr ""
 
-#: kotext/KoTextEditor.cpp:1501
+#: kotext/KoTextEditor.cpp:1500
 msgid "Line Break"
 msgstr ""
 
@@ -2672,26 +2672,58 @@ msgstr ""
 msgid "Paste at Cursor"
 msgstr ""
 
-#: main/KoFindToolbar.cpp:91
+#: main/KoFindText.cpp:92
+msgid "Case Sensitive"
+msgstr ""
+
+#: main/KoFindText.cpp:92
+msgid "Match cases when searching"
+msgstr ""
+
+#: main/KoFindText.cpp:93
+msgid "Whole Words Only"
+msgstr ""
+
+#: main/KoFindText.cpp:93
+msgid "Match only whole words"
+msgstr ""
+
+#: main/KoFindToolbar.cpp:99
+msgctxt "Label for the Find text input box"
 msgid "Find:"
 msgstr ""
 
-#: main/KoFindToolbar.cpp:107
+#: main/KoFindToolbar.cpp:112
 msgctxt "Next search result"
 msgid "Next"
 msgstr ""
 
-#: main/KoFindToolbar.cpp:117
+#: main/KoFindToolbar.cpp:122
 msgctxt "Previous search result"
 msgid "Previous"
 msgstr ""
 
-#: main/KoFindToolbar.cpp:126
+#: main/KoFindToolbar.cpp:131
 msgctxt "Search options"
 msgid "Options"
 msgstr ""
 
-#: main/KoFindToolbar.cpp:187
+#: main/KoFindToolbar.cpp:155
+msgctxt "Label for the Replace text input box"
+msgid "Replace:"
+msgstr ""
+
+#: main/KoFindToolbar.cpp:165
+msgctxt "Replace the current match"
+msgid "Replace"
+msgstr ""
+
+#: main/KoFindToolbar.cpp:171
+msgctxt "Replace all found matches"
+msgid "Replace All"
+msgstr ""
+
+#: main/KoFindToolbar.cpp:237
 #, kde-format
 msgctxt "Total number of matches"
 msgid "1 match found"
@@ -2699,28 +2731,16 @@ msgid_plural "%1 matches found"
 msgstr[0] ""
 msgstr[1] ""
 
-#: main/KoFindToolbar.cpp:203
+#: main/KoFindToolbar.cpp:247
+msgid "No matches found"
+msgstr ""
+
+#: main/KoFindToolbar.cpp:253
 msgid "Search hit bottom, continuing from top."
 msgstr ""
 
-#: main/KoFindToolbar.cpp:205
+#: main/KoFindToolbar.cpp:255
 msgid "Search hit top, continuing from bottom."
-msgstr ""
-
-#: main/KoFindText.cpp:90
-msgid "Case Sensitive"
-msgstr ""
-
-#: main/KoFindText.cpp:90
-msgid "Match cases when searching"
-msgstr ""
-
-#: main/KoFindText.cpp:91
-msgid "Whole Words Only"
-msgstr ""
-
-#: main/KoFindText.cpp:91
-msgid "Match only whole words"
 msgstr ""
 
 #: odf/KoEncryptedStore.cpp:164
