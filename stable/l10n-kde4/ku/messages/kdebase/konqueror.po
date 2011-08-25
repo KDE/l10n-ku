@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-03 07:45+0200\n"
+"POT-Creation-Date: 2011-08-25 11:07+0200\n"
 "PO-Revision-Date: 2009-01-06 14:18+0200\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: American English <kde-i18n-doc@lists.kde.org>\n"
@@ -35,8 +35,8 @@ msgstr "Veavakirin"
 msgid "Extensions"
 msgstr "Pêvek"
 
-#: src/konqclosedwindowsmanager.cpp:418 src/konqmainwindow.cpp:5010
-#: src/konqmainwindow.cpp:5070
+#: src/konqclosedwindowsmanager.cpp:418 src/konqmainwindow.cpp:5014
+#: src/konqmainwindow.cpp:5074
 msgid "no name"
 msgstr "bênav"
 
@@ -596,6 +596,92 @@ msgstr ""
 msgid "Location to open"
 msgstr "Cihê ku dê lê vebe"
 
+#: src/konqprofiledlg.cpp:111
+#, fuzzy
+#| msgid "Profile Management"
+msgctxt "@title:window"
+msgid "Profile Management"
+msgstr "Gerînendetiya Profîlan"
+
+#: src/konqprofiledlg.cpp:114
+msgid "&Rename Profile"
+msgstr "Profîlê Ji Nû Ve &Binavîne"
+
+#: src/konqprofiledlg.cpp:115
+msgid "&Delete Profile"
+msgstr "Profîlê &Jê Bibe"
+
+#: src/konqsessionmanager.cpp:330
+#, fuzzy
+#| msgid "Konqueror didn't close correctly. Would you like to restore session?"
+msgid ""
+"Konqueror did not close correctly. Would you like to restore the previous "
+"session?"
+msgstr "Konqueror başebaş nehate girtin. Dixwazî danişînê şûnde bînî?"
+
+#: src/konqsessionmanager.cpp:332
+#, fuzzy
+#| msgid "Restore Session?"
+msgctxt "@title:window"
+msgid "Restore Session?"
+msgstr "Danişînê şûnde bînî?"
+
+#: src/konqsessionmanager.cpp:333
+msgid "Restore Session"
+msgstr "Danişînê şûnde bîne"
+
+#: src/konqsessionmanager.cpp:334
+msgid "Do Not Restore"
+msgstr "Şûnde neyne"
+
+#: src/konqsessionmanager.cpp:335
+msgid "Ask Me Later"
+msgstr "Paşê bipirse"
+
+#: src/konqviewmanager.cpp:1411
+msgid ""
+"You have multiple tabs open in this window.\n"
+"Loading a view profile will close them."
+msgstr ""
+"Di vê paceyê de gelek hilfirîn vekirî ye.\n"
+"Heke tu profîleke nû ya bergehan bar bike wê van hilfirînan bigire."
+
+#: src/konqviewmanager.cpp:1413 src/konqmainwindow.cpp:4941
+#, fuzzy
+#| msgid "Confirmation"
+msgctxt "@title:window"
+msgid "Confirmation"
+msgstr "Erêkirin"
+
+#: src/konqviewmanager.cpp:1414
+msgid "Load View Profile"
+msgstr "Profîla Xuyanekê Bar Bike"
+
+#: src/konqviewmanager.cpp:1426
+msgid ""
+"This tab contains changes that have not been submitted.\n"
+"Loading a profile will discard these changes."
+msgstr ""
+"Di vê hilfirînê de guherînên ku nehatine şandin heye.\n"
+"Heke tu profîleke nû bar bike wê hemû guherînan pişt guh re biavêjî."
+
+#: src/konqviewmanager.cpp:1427 src/konqmainwindow.cpp:1615
+#: src/konqmainwindow.cpp:2342 src/konqmainwindow.cpp:2420
+#: src/konqmainwindow.cpp:2450 src/konqmainwindow.cpp:2492
+#: src/konqmainwindow.cpp:2514 src/konqmainwindow.cpp:4976
+#, fuzzy
+#| msgid "Discard Changes?"
+msgctxt "@title:window"
+msgid "Discard Changes?"
+msgstr "Bila Guhartin Jê Bên Birin?"
+
+#: src/konqviewmanager.cpp:1427 src/konqmainwindow.cpp:1615
+#: src/konqmainwindow.cpp:2342 src/konqmainwindow.cpp:2420
+#: src/konqmainwindow.cpp:2450 src/konqmainwindow.cpp:2492
+#: src/konqmainwindow.cpp:2515 src/konqmainwindow.cpp:4976
+msgid "&Discard Changes"
+msgstr "Guhartinan &Jê Bibe"
+
 #: src/konqmainwindow.cpp:574
 msgctxt "@title:tab"
 msgid "Loading..."
@@ -612,23 +698,6 @@ msgid ""
 msgstr ""
 "Di vê rûpelê de guherînên ku nehatine şandin hene.\n"
 "Girtina rûpelê dê hemû guhartinan piştguh bike."
-
-#: src/konqmainwindow.cpp:1615 src/konqmainwindow.cpp:2342
-#: src/konqmainwindow.cpp:2420 src/konqmainwindow.cpp:2450
-#: src/konqmainwindow.cpp:2492 src/konqmainwindow.cpp:2514
-#: src/konqmainwindow.cpp:4972 src/konqviewmanager.cpp:1427
-#, fuzzy
-#| msgid "Discard Changes?"
-msgctxt "@title:window"
-msgid "Discard Changes?"
-msgstr "Bila Guhartin Jê Bên Birin?"
-
-#: src/konqmainwindow.cpp:1615 src/konqmainwindow.cpp:2342
-#: src/konqmainwindow.cpp:2420 src/konqmainwindow.cpp:2450
-#: src/konqmainwindow.cpp:2492 src/konqmainwindow.cpp:2515
-#: src/konqmainwindow.cpp:4972 src/konqviewmanager.cpp:1427
-msgid "&Discard Changes"
-msgstr "Guhartinan &Jê Bibe"
 
 #: src/konqmainwindow.cpp:1725
 msgid "File Management"
@@ -1188,23 +1257,16 @@ msgctxt "@action:inmenu View"
 msgid "&View Mode"
 msgstr "&Moda Dîtine"
 
-#: src/konqmainwindow.cpp:4935
+#: src/konqmainwindow.cpp:4939
 msgid ""
 "You have multiple tabs open in this window, are you sure you want to quit?"
 msgstr "Bêtir ji paceyekê vekiriye, Tu bawerî ku dixwazî derkevî?"
 
-#: src/konqmainwindow.cpp:4937 src/konqviewmanager.cpp:1413
-#, fuzzy
-#| msgid "Confirmation"
-msgctxt "@title:window"
-msgid "Confirmation"
-msgstr "Erêkirin"
-
-#: src/konqmainwindow.cpp:4939
+#: src/konqmainwindow.cpp:4943
 msgid "C&lose Current Tab"
 msgstr "&Paceya heyî bigire"
 
-#: src/konqmainwindow.cpp:4968
+#: src/konqmainwindow.cpp:4972
 msgid ""
 "This tab contains changes that have not been submitted.\n"
 "Closing the window will discard these changes."
@@ -1212,7 +1274,7 @@ msgstr ""
 "Di vê hilfirînê de guherînên ku nehatine şandin heye.\n"
 "Heke tu paceyê bigire wê hemû guherînan winda bike."
 
-#: src/konqmainwindow.cpp:4969
+#: src/konqmainwindow.cpp:4973
 msgid ""
 "This page contains changes that have not been submitted.\n"
 "Closing the window will discard these changes."
@@ -1220,34 +1282,34 @@ msgstr ""
 "Di vê rûpelê de guherînên ku nehatine şandin heye.\n"
 "Heke tu paceyê bigire wê hemû guherînan winda bike."
 
-#: src/konqmainwindow.cpp:5137
+#: src/konqmainwindow.cpp:5141
 msgid ""
 "Your sidebar is not functional or unavailable. A new entry cannot be added."
 msgstr ""
 "Darikê te yê kêlekê ne kêrhatî ye yan jî nayê gihiştin. Tu nikarî ketaneke "
 "nû lê zêde bike"
 
-#: src/konqmainwindow.cpp:5137 src/konqmainwindow.cpp:5144
+#: src/konqmainwindow.cpp:5141 src/konqmainwindow.cpp:5148
 #, fuzzy
 #| msgid "Web Sidebar"
 msgctxt "@title:window"
 msgid "Web Sidebar"
 msgstr "Darikê Kêlekê yê Webê"
 
-#: src/konqmainwindow.cpp:5142
+#: src/konqmainwindow.cpp:5146
 #, kde-format
 msgid "Add new web extension \"%1\" to your sidebar?"
 msgstr "Bila dirêjeka webê ya \"%1\" li darikê kêlekê were zêdekirin?"
 
-#: src/konqmainwindow.cpp:5144
+#: src/konqmainwindow.cpp:5148
 msgid "Add"
 msgstr "Lêzêdekirin"
 
-#: src/konqmainwindow.cpp:5144
+#: src/konqmainwindow.cpp:5148
 msgid "Do Not Add"
 msgstr "Lê zêde neke"
 
-#: src/konqmainwindow.cpp:5457
+#: src/konqmainwindow.cpp:5461
 #, kde-format
 msgid ""
 "There appears to be a configuration error. You have associated Konqueror "
@@ -1255,68 +1317,6 @@ msgid ""
 msgstr ""
 "Çewtiyeke avakirinê dixuye. Te Konqueror bi peleke cureyê %1 re têkildar "
 "kiriye, lê Konqueror nikare van pelan veke."
-
-#: src/konqprofiledlg.cpp:111
-#, fuzzy
-#| msgid "Profile Management"
-msgctxt "@title:window"
-msgid "Profile Management"
-msgstr "Gerînendetiya Profîlan"
-
-#: src/konqprofiledlg.cpp:114
-msgid "&Rename Profile"
-msgstr "Profîlê Ji Nû Ve &Binavîne"
-
-#: src/konqprofiledlg.cpp:115
-msgid "&Delete Profile"
-msgstr "Profîlê &Jê Bibe"
-
-#: src/konqsessionmanager.cpp:330
-#, fuzzy
-#| msgid "Konqueror didn't close correctly. Would you like to restore session?"
-msgid ""
-"Konqueror did not close correctly. Would you like to restore the previous "
-"session?"
-msgstr "Konqueror başebaş nehate girtin. Dixwazî danişînê şûnde bînî?"
-
-#: src/konqsessionmanager.cpp:332
-#, fuzzy
-#| msgid "Restore Session?"
-msgctxt "@title:window"
-msgid "Restore Session?"
-msgstr "Danişînê şûnde bînî?"
-
-#: src/konqsessionmanager.cpp:333
-msgid "Restore Session"
-msgstr "Danişînê şûnde bîne"
-
-#: src/konqsessionmanager.cpp:334
-msgid "Do Not Restore"
-msgstr "Şûnde neyne"
-
-#: src/konqsessionmanager.cpp:335
-msgid "Ask Me Later"
-msgstr "Paşê bipirse"
-
-#: src/konqviewmanager.cpp:1411
-msgid ""
-"You have multiple tabs open in this window.\n"
-"Loading a view profile will close them."
-msgstr ""
-"Di vê paceyê de gelek hilfirîn vekirî ye.\n"
-"Heke tu profîleke nû ya bergehan bar bike wê van hilfirînan bigire."
-
-#: src/konqviewmanager.cpp:1414
-msgid "Load View Profile"
-msgstr "Profîla Xuyanekê Bar Bike"
-
-#: src/konqviewmanager.cpp:1426
-msgid ""
-"This tab contains changes that have not been submitted.\n"
-"Loading a profile will discard these changes."
-msgstr ""
-"Di vê hilfirînê de guherînên ku nehatine şandin heye.\n"
-"Heke tu profîleke nû bar bike wê hemû guherînan pişt guh re biavêjî."
 
 #: src/konqview.cpp:1203
 msgid ""
