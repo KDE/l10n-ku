@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kopete\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-02 06:22+0200\n"
+"POT-Creation-Date: 2011-08-31 03:42+0200\n"
 "PO-Revision-Date: 2008-06-22 23:57+0200\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <ku@li.org>\n"
@@ -8771,7 +8771,21 @@ msgstr "<qt>Ji dil dixwazî<b>%1</b> ji lîsteya xwe ya têkiliyan derxî?</qt>"
 msgid "Meta Contact Merge"
 msgstr "Têkiliya Pêşsalixbûyî Biguharîne..."
 
-#: kopete/contactlist/contactlistmodel.cpp:648
+#: kopete/contactlist/contactlistmodel.cpp:497
+#, fuzzy, kde-format
+msgctxt "%1 is display name, %2 is status (connected/away/etc.)"
+msgid "%1 (%2)"
+msgstr "'%1' (%2)"
+
+#: kopete/contactlist/contactlistmodel.cpp:500
+#, fuzzy, kde-format
+msgctxt "%1 is display name, %2 is status and %3 is status message"
+msgid ""
+"%1 (%2)\n"
+"%3"
+msgstr "'%1' (%2)"
+
+#: kopete/contactlist/contactlistmodel.cpp:654
 #, kde-format
 msgctxt ""
 "<tr><td>STATUS ICON <b>PROTOCOL NAME</b> (ACCOUNT NAME)</td><td>STATUS "
@@ -8781,7 +8795,7 @@ msgid ""
 "b>&nbsp;(%3)</td><td align=\"right\">%4</td></tr>"
 msgstr ""
 
-#: kopete/contactlist/contactlistmodel.cpp:659
+#: kopete/contactlist/contactlistmodel.cpp:665
 #, kde-format
 msgctxt "<tr><td><small><i>STATUS MESSAGE</i></small></td></tr>"
 msgid "<tr><td>&nbsp;</td><td colspan='2'><small><i>%1</i></small></td></tr>"
