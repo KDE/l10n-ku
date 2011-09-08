@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krunner\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-18 03:36+0200\n"
+"POT-Creation-Date: 2011-09-08 04:07+0200\n"
 "PO-Revision-Date: 2009-01-03 04:40+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: ku <kde-i18n-doc@lists.kde.org>\n"
@@ -18,6 +18,18 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: KAider 0.1\n"
 "X-Poedit-Language: Kurdish\n"
+
+#: configdialog.cpp:52
+msgid "Plugins"
+msgstr "Pêvek"
+
+#: configdialog.cpp:81
+msgid "User Interface"
+msgstr "Navrû ya Bikarhêner"
+
+#: configdialog.cpp:87
+msgid "Available Features"
+msgstr "Taybetiyên Heyî"
 
 #: interfaces/default/interface.cpp:90 interfaces/default/interface.cpp:91
 #: interfaces/quicksand/qs_dialog.cpp:59 interfaces/quicksand/qs_dialog.cpp:60
@@ -43,13 +55,6 @@ msgstr "%1: %2"
 #, kde-format
 msgid "(From %1, %2)"
 msgstr ""
-
-#: interfaces/quicksand/qs_statusbar.cpp:57
-#, fuzzy, kde-format
-#| msgid "%1 %2"
-msgctxt "%1 current item number, %2 total number of items"
-msgid "%1 of %2"
-msgstr "%1 %2"
 
 #: interfaces/quicksand/qs_dialog.cpp:108
 msgid "Actions"
@@ -82,6 +87,43 @@ msgstr "Tê Barkirin..."
 #: interfaces/quicksand/qs_matchview.cpp:446
 msgid "No results found."
 msgstr "Tu encam nedît."
+
+#: interfaces/quicksand/qs_statusbar.cpp:57
+#, fuzzy, kde-format
+#| msgid "%1 %2"
+msgctxt "%1 current item number, %2 total number of items"
+msgid "%1 of %2"
+msgstr "%1 %2"
+
+#: krunnerapp.cpp:127 krunnerdialog.cpp:73
+msgid "Run Command"
+msgstr "Fermanê Bixebitîne"
+
+#: krunnerapp.cpp:132
+msgid "Run Command on clipboard contents"
+msgstr "Fermanê di naveroka panoyê de bixebitîne"
+
+#: krunnerapp.cpp:138
+msgid "Show System Activity"
+msgstr "Çalakbûna Pergalê Nîşan Bide"
+
+#: krunnerapp.cpp:144
+msgid "Switch User"
+msgstr "Bikarhêner Biguherîne"
+
+#: krunnerapp.cpp:154
+msgid "Lock Session"
+msgstr "Danişînê Biqufilîne"
+
+#: krunnerapp.cpp:194
+#, kde-format
+msgctxt "Run krunner restricting the search only to runner %1"
+msgid "Run Command (runner \"%1\" only)"
+msgstr ""
+
+#: ksystemactivitydialog.cpp:40
+msgid "System Activity"
+msgstr "Çalakiya Pergalê"
 
 #: lock/autologout.cc:38
 msgid "<qt><nobr><b>Automatic Log Out</b></nobr></qt>"
@@ -261,48 +303,6 @@ msgstr "Aaron J. Seigo"
 #: main.cpp:54
 msgid "Author and maintainer"
 msgstr "Nivîskar û kesê miqate"
-
-#: ksystemactivitydialog.cpp:40
-msgid "System Activity"
-msgstr "Çalakiya Pergalê"
-
-#: krunnerapp.cpp:127 krunnerdialog.cpp:73
-msgid "Run Command"
-msgstr "Fermanê Bixebitîne"
-
-#: krunnerapp.cpp:132
-msgid "Run Command on clipboard contents"
-msgstr "Fermanê di naveroka panoyê de bixebitîne"
-
-#: krunnerapp.cpp:138
-msgid "Show System Activity"
-msgstr "Çalakbûna Pergalê Nîşan Bide"
-
-#: krunnerapp.cpp:144
-msgid "Switch User"
-msgstr "Bikarhêner Biguherîne"
-
-#: krunnerapp.cpp:154
-msgid "Lock Session"
-msgstr "Danişînê Biqufilîne"
-
-#: krunnerapp.cpp:194
-#, kde-format
-msgctxt "Run krunner restricting the search only to runner %1"
-msgid "Run Command (runner \"%1\" only)"
-msgstr ""
-
-#: configdialog.cpp:52
-msgid "Plugins"
-msgstr "Pêvek"
-
-#: configdialog.cpp:81
-msgid "User Interface"
-msgstr "Navrû ya Bikarhêner"
-
-#: configdialog.cpp:87
-msgid "Available Features"
-msgstr "Taybetiyên Heyî"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
