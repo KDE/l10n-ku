@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: okular2\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-09-08 04:01+0200\n"
+"POT-Creation-Date: 2011-09-23 04:09+0200\n"
 "PO-Revision-Date: 2008-11-07 17:14+0100\n"
 "Last-Translator: Erdal Ronahi <erdal.ronahi@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -838,6 +838,41 @@ msgstr ""
 msgid "Please insert your name or initials:"
 msgstr ""
 
+#: ui/annotwindow.cpp:51
+msgid "Close this note"
+msgstr ""
+
+#: ui/annotwindow.cpp:93 ui/findbar.cpp:64
+msgid "Options"
+msgstr ""
+
+#: ui/annotwindow.cpp:104
+msgid ""
+"This annotation may contain LaTeX code.\n"
+"Click here to render."
+msgstr ""
+
+#: ui/annotwindow.cpp:312
+msgid "Cannot find latex executable."
+msgstr ""
+
+#: ui/annotwindow.cpp:312 ui/annotwindow.cpp:317 ui/annotwindow.cpp:322
+#: ui/annotwindow.cpp:327
+msgid "LaTeX rendering failed"
+msgstr ""
+
+#: ui/annotwindow.cpp:317
+msgid "Cannot find dvipng executable."
+msgstr ""
+
+#: ui/annotwindow.cpp:322
+msgid "latex failed."
+msgstr ""
+
+#: ui/annotwindow.cpp:327
+msgid "dvipng failed."
+msgstr ""
+
 #: ui/annotationpropertiesdialog.cpp:58
 msgid "&Appearance"
 msgstr "Xuyanî"
@@ -1153,14 +1188,6 @@ msgstr "Na"
 #: ui/annotationwidgets.cpp:601
 msgctxt "Symbol for caret annotations"
 msgid "P"
-msgstr ""
-
-#: ui/annotwindow.cpp:48
-msgid "Close this note"
-msgstr ""
-
-#: ui/annotwindow.cpp:90 ui/findbar.cpp:64
-msgid "Options"
 msgstr ""
 
 #: ui/bookmarklist.cpp:111
