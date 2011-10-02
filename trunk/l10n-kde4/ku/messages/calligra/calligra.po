@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-09-30 02:26+0200\n"
+"POT-Creation-Date: 2011-10-02 02:35+0200\n"
 "PO-Revision-Date: 2007-12-17 01:31+0100\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
@@ -50,21 +50,21 @@ msgstr ""
 msgid "A simple path shape"
 msgstr ""
 
-#: flake/KoShapeController.cpp:67 kotext/InsertTextReferenceAction.cpp:63
-#: kotext/InsertVariableAction.cpp:51
-#: main/rdf/InsertSemanticObjectReferenceAction.cpp:64
-#: main/rdf/InsertSemanticObjectCreateAction.cpp:59
-#, kde-format
-msgid "%1 Options"
+#: flake/KoShapePaste.cpp:168
+msgctxt "(qtundo-format)"
+msgid "Paste Shapes"
 msgstr ""
 
 #: flake/svg/SvgShapeFactory.cpp:35
 msgid "Embedded svg shape"
 msgstr ""
 
-#: flake/KoShapePaste.cpp:168
-msgctxt "(qtundo-format)"
-msgid "Paste Shapes"
+#: flake/KoShapeController.cpp:67 kotext/InsertTextReferenceAction.cpp:63
+#: kotext/InsertVariableAction.cpp:51
+#: main/rdf/InsertSemanticObjectReferenceAction.cpp:64
+#: main/rdf/InsertSemanticObjectCreateAction.cpp:59
+#, kde-format
+msgid "%1 Options"
 msgstr ""
 
 #: flake/KoToolManager.cpp:366
@@ -1147,8 +1147,8 @@ msgstr ""
 msgid "Label"
 msgstr ""
 
-#: koreport/items/text/KoReportTextPlugin.cpp:34 kotext/KoTextEditor.cpp:174
-#: kotext/KoTextEditor.cpp:328 widgets/KoCsvImportDialog.cpp:217
+#: koreport/items/text/KoReportTextPlugin.cpp:34 kotext/KoTextEditor.cpp:190
+#: kotext/KoTextEditor.cpp:344 widgets/KoCsvImportDialog.cpp:217
 #: widgets/KoCsvImportDialog.cpp:581
 msgid "Text"
 msgstr ""
@@ -1287,8 +1287,9 @@ msgstr ""
 
 #. i18n: file: koreport/wrtembed/sectioneditor.ui:200
 #. i18n: ectx: property (text), widget (QPushButton, btnRemove)
-#: koreport/wrtembed/KoReportDesigner.cpp:838 kotext/KoTextEditor.cpp:1014
-#: kotext/KoTextEditor.cpp:1059 rc.cpp:170
+#: koreport/wrtembed/KoReportDesigner.cpp:838
+#: kotext/commands/ChangeTrackedDeleteCommand.cpp:297
+#: kotext/KoTextEditor.cpp:1178 kotext/KoTextEditor.cpp:1223 rc.cpp:170
 msgid "Delete"
 msgstr ""
 
@@ -1395,161 +1396,189 @@ msgctxt "(qtundo-format)"
 msgid "Insert Row Above"
 msgstr ""
 
-#: kotext/styles/KoStyleManager.cpp:91
-msgid "Default"
+#: kotext/commands/ChangeListCommand.cpp:83
+#: kotext/commands/ChangeListCommand.cpp:96
+msgctxt "(qtundo-format)"
+msgid "Change List"
 msgstr ""
 
-#: kotext/KoTextEditor.cpp:118
+#: kotext/commands/ChangeTrackedDeleteCommand.cpp:83
+#: kotext/commands/DeleteCommand.cpp:47
+msgctxt "(qtundo-format)"
+msgid "Delete"
+msgstr ""
+
+#: kotext/commands/ChangeTrackedDeleteCommand.cpp:187
+#: kotext/KoTextEditor.cpp:885 kotext/KoTextEditor.cpp:1720
+#: kotext/KoTextEditor.cpp:1738 kotext/KoTextEditor.cpp:1873
+msgid "Key Press"
+msgstr ""
+
+#: kotext/commands/ChangeTrackedDeleteCommand.cpp:356
+#: kotext/commands/DeleteCommand.cpp:192 kotext/KoTextEditor.cpp:134
 msgctxt "(qtundo-format)"
 msgid "Text"
 msgstr ""
 
-#: kotext/KoTextEditor.cpp:469 kotext/KoTextEditor.cpp:475
-msgid "Bold"
+#: kotext/commands/ListItemNumberingCommand.cpp:35
+msgctxt "(qtundo-format)"
+msgid "Change List Numbering"
+msgstr ""
+
+#: kotext/commands/TextPasteCommand.cpp:61
+msgid "Paste As Text"
+msgstr ""
+
+#: kotext/commands/TextPasteCommand.cpp:63
+msgctxt "(qtundo-format)"
+msgid "Paste"
+msgstr ""
+
+#: kotext/styles/KoStyleManager.cpp:92
+msgid "Default"
 msgstr ""
 
 #: kotext/KoTextEditor.cpp:485 kotext/KoTextEditor.cpp:491
+msgid "Bold"
+msgstr ""
+
+#: kotext/KoTextEditor.cpp:501 kotext/KoTextEditor.cpp:507
 msgid "Italic"
 msgstr ""
 
-#: kotext/KoTextEditor.cpp:501 kotext/KoTextEditor.cpp:513
+#: kotext/KoTextEditor.cpp:517 kotext/KoTextEditor.cpp:529
 msgid "Underline"
 msgstr ""
 
-#: kotext/KoTextEditor.cpp:523 kotext/KoTextEditor.cpp:534
+#: kotext/KoTextEditor.cpp:539 kotext/KoTextEditor.cpp:550
 msgid "Strike Out"
 msgstr ""
 
-#: kotext/KoTextEditor.cpp:555 kotext/KoTextEditor.cpp:556
+#: kotext/KoTextEditor.cpp:571 kotext/KoTextEditor.cpp:572
 msgid "Set Horizontal Alignment"
 msgstr ""
 
-#: kotext/KoTextEditor.cpp:572 kotext/KoTextEditor.cpp:577
+#: kotext/KoTextEditor.cpp:588 kotext/KoTextEditor.cpp:593
 msgid "Set Vertical Alignment"
 msgstr ""
 
-#: kotext/KoTextEditor.cpp:598 kotext/KoTextEditor.cpp:599
+#: kotext/KoTextEditor.cpp:614 kotext/KoTextEditor.cpp:615
 msgid "Decrease Indent"
 msgstr ""
 
-#: kotext/KoTextEditor.cpp:620 kotext/KoTextEditor.cpp:621
+#: kotext/KoTextEditor.cpp:636 kotext/KoTextEditor.cpp:637
 msgid "Increase Indent"
 msgstr ""
 
-#: kotext/KoTextEditor.cpp:655 kotext/KoTextEditor.cpp:657
+#: kotext/KoTextEditor.cpp:671 kotext/KoTextEditor.cpp:673
 msgid "Decrease font size"
 msgstr ""
 
-#: kotext/KoTextEditor.cpp:667 kotext/KoTextEditor.cpp:669
+#: kotext/KoTextEditor.cpp:683 kotext/KoTextEditor.cpp:685
 msgid "Increase font size"
 msgstr ""
 
-#: kotext/KoTextEditor.cpp:679 kotext/KoTextEditor.cpp:684
+#: kotext/KoTextEditor.cpp:695 kotext/KoTextEditor.cpp:700
 msgid "Set Font"
 msgstr ""
 
-#: kotext/KoTextEditor.cpp:694 kotext/KoTextEditor.cpp:699
+#: kotext/KoTextEditor.cpp:710 kotext/KoTextEditor.cpp:715
 msgid "Set Font Size"
 msgstr ""
 
-#: kotext/KoTextEditor.cpp:709 kotext/KoTextEditor.cpp:714
+#: kotext/KoTextEditor.cpp:725 kotext/KoTextEditor.cpp:730
 msgid "Set Background Color"
 msgstr ""
 
-#: kotext/KoTextEditor.cpp:724 kotext/KoTextEditor.cpp:729
+#: kotext/KoTextEditor.cpp:740 kotext/KoTextEditor.cpp:745
 msgid "Set Text Color"
 msgstr ""
 
-#: kotext/KoTextEditor.cpp:740 kotext/KoTextEditor.cpp:745
+#: kotext/KoTextEditor.cpp:756 kotext/KoTextEditor.cpp:761
 msgid "Set Character Style"
 msgstr ""
 
-#: kotext/KoTextEditor.cpp:755
+#: kotext/KoTextEditor.cpp:771
 msgid "Set Paragraph Style"
 msgstr ""
 
-#: kotext/KoTextEditor.cpp:775 kotext/KoTextEditor.cpp:782
+#: kotext/KoTextEditor.cpp:791 kotext/KoTextEditor.cpp:798
 msgid "Set default format"
 msgstr ""
 
-#: kotext/KoTextEditor.cpp:793
+#: kotext/KoTextEditor.cpp:809
 msgid "Insert Bookmark"
 msgstr ""
 
-#: kotext/KoTextEditor.cpp:842
+#: kotext/KoTextEditor.cpp:858
 msgid "Insert Index"
 msgstr ""
 
-#: kotext/KoTextEditor.cpp:855
+#: kotext/KoTextEditor.cpp:871
 msgid "Insert Variable"
 msgstr ""
 
-#: kotext/KoTextEditor.cpp:869 kotext/KoTextEditor.cpp:1567
-#: kotext/KoTextEditor.cpp:1585 kotext/KoTextEditor.cpp:1714
-msgid "Key Press"
-msgstr ""
-
-#: kotext/KoTextEditor.cpp:897
+#: kotext/KoTextEditor.cpp:913
 msgid "Insert Break"
 msgstr ""
 
-#: kotext/KoTextEditor.cpp:1230 kotext/KoTextEditor.cpp:1240
+#: kotext/KoTextEditor.cpp:1384 kotext/KoTextEditor.cpp:1394
 msgid "Insert Table"
 msgstr ""
 
-#: kotext/KoTextEditor.cpp:1290 kotext/KoTextEditor.cpp:1308
+#: kotext/KoTextEditor.cpp:1444 kotext/KoTextEditor.cpp:1462
 msgid "Insert Row Above"
 msgstr ""
 
-#: kotext/KoTextEditor.cpp:1326
+#: kotext/KoTextEditor.cpp:1480
 msgid "Insert Column Left"
 msgstr ""
 
-#: kotext/KoTextEditor.cpp:1344
+#: kotext/KoTextEditor.cpp:1498
 msgid "Insert Column Right"
 msgstr ""
 
-#: kotext/KoTextEditor.cpp:1362
+#: kotext/KoTextEditor.cpp:1516
 msgid "Delete Column"
 msgstr ""
 
-#: kotext/KoTextEditor.cpp:1381
+#: kotext/KoTextEditor.cpp:1535
 msgid "Delete Row"
 msgstr ""
 
-#: kotext/KoTextEditor.cpp:1394
+#: kotext/KoTextEditor.cpp:1548
 msgid "Merge Cells"
 msgstr ""
 
-#: kotext/KoTextEditor.cpp:1411
+#: kotext/KoTextEditor.cpp:1565
 msgid "Split Cells"
 msgstr ""
 
-#: kotext/KoTextEditor.cpp:1425
+#: kotext/KoTextEditor.cpp:1579
 msgid "Insert Footnote"
 msgstr ""
 
-#: kotext/KoTextEditor.cpp:1437
+#: kotext/KoTextEditor.cpp:1591
 msgid "Insert Endnote"
 msgstr ""
 
-#: kotext/KoTextEditor.cpp:1453 kotext/KoTextEditor.cpp:1465
+#: kotext/KoTextEditor.cpp:1607 kotext/KoTextEditor.cpp:1619
 msgid "Insert Table Of Contents"
 msgstr ""
 
-#: kotext/KoTextEditor.cpp:1496
+#: kotext/KoTextEditor.cpp:1650
 msgid "Modify Table Of Contents"
 msgstr ""
 
-#: kotext/KoTextEditor.cpp:1510 kotext/KoTextEditor.cpp:1526
+#: kotext/KoTextEditor.cpp:1664 kotext/KoTextEditor.cpp:1677
 msgid "Insert Bibliography"
 msgstr ""
 
-#: kotext/KoTextEditor.cpp:1551
+#: kotext/KoTextEditor.cpp:1704
 msgid "Add Citation"
 msgstr ""
 
-#: kotext/KoTextEditor.cpp:1683
+#: kotext/KoTextEditor.cpp:1842
 msgid "Line Break"
 msgstr ""
 
@@ -2593,7 +2622,7 @@ msgctxt "statement is an Rdf related term"
 msgid "Discard invalid statements?"
 msgstr ""
 
-#: main/rdf/KoDocumentRdf.cpp:916
+#: main/rdf/KoDocumentRdf.cpp:903
 msgid "Reference"
 msgstr ""
 
