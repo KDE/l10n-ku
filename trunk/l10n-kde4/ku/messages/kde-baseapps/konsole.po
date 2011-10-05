@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-10-04 04:23+0200\n"
+"POT-Creation-Date: 2011-10-05 03:48+0200\n"
 "PO-Revision-Date: 2009-01-06 02:14+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <ku@li.org>\n"
@@ -149,6 +149,7 @@ msgstr ""
 "ku piştgirî nade paceyên zelalî."
 
 #: ColorSchemeEditor.cpp:144
+msgctxt "@action:button"
 msgid "Select wallpaper image file"
 msgstr ""
 
@@ -2042,30 +2043,38 @@ msgstr "Hilpekînê &Bigire"
 #: ViewManager.cpp:137
 #, fuzzy
 #| msgid "New &Tab"
+msgctxt "@action Shortcut entry"
 msgid "Next Tab"
 msgstr "Hi&pekîna Nû"
 
 #: ViewManager.cpp:138
 #, fuzzy
 #| msgid "Previous"
+msgctxt "@action Shortcut entry"
 msgid "Previous Tab"
 msgstr "Paş ve"
 
 #: ViewManager.cpp:139
 #, fuzzy
 #| msgid "Switch to Tab %1"
+msgctxt "@action Shortcut entry"
 msgid "Switch to Last Tab"
 msgstr "Biçe Hilpekîna %1"
 
 #: ViewManager.cpp:140
+#, fuzzy
+#| msgid "Next View"
+msgctxt "@action Shortcut entry"
 msgid "Next View Container"
-msgstr ""
+msgstr "Dîmena Dû Ve"
 
 #: ViewManager.cpp:142
+msgctxt "@action Shortcut entry"
 msgid "Move Tab Left"
 msgstr ""
 
 #: ViewManager.cpp:143
+msgctxt "@action Shortcut entry"
 msgid "Move Tab Right"
 msgstr ""
 
@@ -2092,6 +2101,7 @@ msgstr "Yên Din Bigire"
 #: ViewManager.cpp:184
 #, fuzzy
 #| msgid "Close Current Tab"
+msgctxt "@action:inmenu"
 msgid "D&etach Current Tab"
 msgstr "Vê Hilpekînê Bigire"
 
@@ -2106,7 +2116,9 @@ msgid "Shrink View"
 msgstr ""
 
 #: ViewManager.cpp:221
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Switch to Tab %1"
+msgctxt "@action Shortcut entry"
 msgid "Switch to Tab %1"
 msgstr "Biçe Hilpekîna %1"
 
@@ -2169,9 +2181,6 @@ msgstr "&Rawestîn"
 
 #~ msgid "Connect"
 #~ msgstr "Girêdan"
-
-#~ msgid "Next View"
-#~ msgstr "Dîmena Dû Ve"
 
 #~ msgid "Previous View"
 #~ msgstr "Dîmena Paş Ve"
