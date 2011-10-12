@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gwenview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-10-10 03:53+0200\n"
+"POT-Creation-Date: 2011-10-12 03:50+0200\n"
 "PO-Revision-Date: 2009-01-22 22:46+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -155,40 +155,27 @@ msgstr "Veke Bi"
 msgid "Other Application..."
 msgstr "Sepanê Din..."
 
-#: app/documentpanel.cpp:273
-#, fuzzy
-#| msgctxt "Verb"
-#| msgid "Trash"
-msgid "Trash"
-msgstr "Bavêje Çopê"
-
-#: app/documentpanel.cpp:274
-#, fuzzy
-#| msgid "Delete"
-msgid "Deselect"
-msgstr "Jê Bibe"
-
-#: app/documentpanel.cpp:304 app/documentpanel.cpp:421
+#: app/documentpanel.cpp:267 app/documentpanel.cpp:383
 msgid "Synchronize"
 msgstr ""
 
-#: app/documentpanel.cpp:409 app/mainwindow.cpp:312
+#: app/documentpanel.cpp:371 app/mainwindow.cpp:312
 #: app/thumbnailviewpanel.cpp:108
 #: lib/documentview/documentviewcontroller.cpp:56
 msgctxt "@title actions category - means actions changing smth in interface"
 msgid "View"
 msgstr "Bibîne"
 
-#: app/documentpanel.cpp:412
+#: app/documentpanel.cpp:374
 msgid "Thumbnail Bar"
 msgstr "Darika Wêneyên Biçûk"
 
-#: app/documentpanel.cpp:680
+#: app/documentpanel.cpp:636
 msgctxt "@action:button"
 msgid "Discard Changes and Reload"
 msgstr "Guherandin û Nû ve Barkirinê Jê Bavêje"
 
-#: app/documentpanel.cpp:682
+#: app/documentpanel.cpp:638
 msgctxt "@info"
 msgid ""
 "This image has been modified. Reloading it will discard all your changes."
@@ -663,35 +650,35 @@ msgstr "Agahiya Meta"
 msgid "Operations"
 msgstr "Xebatên Pelê"
 
-#: app/mainwindow.cpp:1278
+#: app/mainwindow.cpp:1296
 msgctxt "@title:window"
 msgid "Open Image"
 msgstr "Wêneyê Veke"
 
-#: app/mainwindow.cpp:1332
+#: app/mainwindow.cpp:1350
 msgid "Stop Slideshow"
 msgstr "Nîşandana-slaytê Rawestîne"
 
-#: app/mainwindow.cpp:1335
+#: app/mainwindow.cpp:1353
 msgid "Start Slideshow"
 msgstr "Nîşandana-slaytê Bide Destpêkirin"
 
-#: app/mainwindow.cpp:1349
+#: app/mainwindow.cpp:1367
 msgid "Save All Changes"
 msgstr "Hemû Guherandinan Tomar Bike"
 
-#: app/mainwindow.cpp:1350
+#: app/mainwindow.cpp:1368
 msgid "Discard Changes"
 msgstr "Guhertinan Jê Bibe"
 
-#: app/mainwindow.cpp:1351
+#: app/mainwindow.cpp:1369
 #, kde-format
 msgid "One image has been modified."
 msgid_plural "%1 images have been modified."
 msgstr[0] "Yek wêne hatiye guhertin."
 msgstr[1] "%1 wêne hatine guhertin."
 
-#: app/mainwindow.cpp:1353
+#: app/mainwindow.cpp:1371
 msgid "If you quit now, your changes will be lost."
 msgstr "Heke tu niha derkevî, guherandinên te dê winda bin."
 
@@ -1166,19 +1153,6 @@ msgstr "Barkirina wêneyê pêk nehat."
 msgid "Could not load document %1"
 msgstr "Nekarî pelê bar bike."
 
-#: lib/documentview/messageviewadapter.cpp:49
-msgid "No document selected"
-msgstr "Tu belge nehatiye hilbijartin"
-
-#: lib/documentview/documentview.cpp:349
-msgid "Gwenview does not know how to display this kind of document"
-msgstr "Gwenview nizane ku belgeyên vê cureyê çawa nîşan bide"
-
-#: lib/documentview/documentview.cpp:454
-#, kde-format
-msgid "Loading <filename>%1</filename> failed"
-msgstr "Barkirina <filename>%1</filename> pêk nehat"
-
 #: lib/documentview/documentviewcontroller.cpp:61
 msgid "Zoom to Fit"
 msgstr "Bicihbûna Tam"
@@ -1194,6 +1168,32 @@ msgctxt ""
 "please"
 msgid "100%"
 msgstr "100%"
+
+#: lib/documentview/documentview.cpp:180
+#, fuzzy
+#| msgctxt "Verb"
+#| msgid "Trash"
+msgid "Trash"
+msgstr "Bavêje Çopê"
+
+#: lib/documentview/documentview.cpp:181
+#, fuzzy
+#| msgid "Delete"
+msgid "Deselect"
+msgstr "Jê Bibe"
+
+#: lib/documentview/documentview.cpp:410
+msgid "Gwenview does not know how to display this kind of document"
+msgstr "Gwenview nizane ku belgeyên vê cureyê çawa nîşan bide"
+
+#: lib/documentview/documentview.cpp:515
+#, kde-format
+msgid "Loading <filename>%1</filename> failed"
+msgstr "Barkirina <filename>%1</filename> pêk nehat"
+
+#: lib/documentview/messageviewadapter.cpp:51
+msgid "No document selected"
+msgstr "Tu belge nehatiye hilbijartin"
 
 #: lib/historymodel.cpp:135
 #, kde-format
