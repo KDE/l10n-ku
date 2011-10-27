@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-10-26 03:55+0200\n"
+"POT-Creation-Date: 2011-10-27 03:31+0200\n"
 "PO-Revision-Date: 2009-02-21 06:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -2992,6 +2992,20 @@ msgstr ""
 msgid "Close"
 msgstr "Girtin"
 
+#: context/applets/currenttrack/CurrentTrack.h:38
+#: core-impl/collections/mediadevicecollection/MediaDeviceMeta.cpp:150
+#: core-impl/collections/mtpcollection/handler/MtpHandler.cpp:421
+#: core/meta/Meta.cpp:394 covermanager/CoverFetchUnit.cpp:596
+#: covermanager/CoverFetchUnit.cpp:606
+msgid "Unknown Artist"
+msgstr "Hunermendê Nenas"
+
+#: context/applets/currenttrack/CurrentTrack.h:39
+#: core-impl/collections/mtpcollection/handler/MtpHandler.cpp:431
+#: core/meta/Meta.cpp:444
+msgid "Unknown Album"
+msgstr "Albuma Nenas"
+
 #: context/applets/currenttrack/CurrentTrack.cpp:104
 #: core-impl/collections/db/sql/mysqlecollection/MySqlEmbeddedCollection.cpp:35
 #: core-impl/collections/db/sql/mysqlservercollection/MySqlServerCollection.cpp:41
@@ -3096,20 +3110,6 @@ msgstr "Pêveka Dosiya Çavkaniyê"
 #| msgid "File Extension of Source"
 msgid "Show Year in Media Sources"
 msgstr "Pêveka Dosiya Çavkaniyê"
-
-#: context/applets/currenttrack/CurrentTrack.h:38
-#: core-impl/collections/mediadevicecollection/MediaDeviceMeta.cpp:150
-#: core-impl/collections/mtpcollection/handler/MtpHandler.cpp:421
-#: core/meta/Meta.cpp:394 covermanager/CoverFetchUnit.cpp:596
-#: covermanager/CoverFetchUnit.cpp:606
-msgid "Unknown Artist"
-msgstr "Hunermendê Nenas"
-
-#: context/applets/currenttrack/CurrentTrack.h:39
-#: core-impl/collections/mtpcollection/handler/MtpHandler.cpp:431
-#: core/meta/Meta.cpp:444
-msgid "Unknown Album"
-msgstr "Albuma Nenas"
 
 #: context/applets/labels/LabelGraphicsItem.cpp:63
 #, fuzzy
@@ -10283,55 +10283,6 @@ msgid_plural "%1 artists."
 msgstr[0] "hunermend"
 msgstr[1] "hunermend"
 
-#: services/magnatune/MagnatuneInfoParser.cpp:32
-msgid "Loading artist info..."
-msgstr "Agahiyên hunermend bar dike..."
-
-#: services/magnatune/MagnatuneInfoParser.cpp:44
-#, kde-format
-msgid "Fetching %1 Artist Info"
-msgstr "Agahiyên %1 Hunermend tê Anîn"
-
-#: services/magnatune/MagnatuneInfoParser.cpp:53
-msgid "Loading album info..."
-msgstr "Agahiyên albumê bar dike..."
-
-#: services/magnatune/MagnatuneInfoParser.cpp:75
-#, fuzzy, kde-format
-#| msgid "Release Year: "
-msgid "Release Year: %1"
-msgstr "Sala Weşanê:"
-
-#: services/magnatune/MagnatuneInfoParser.cpp:80
-msgid "Description:"
-msgstr "Rave:"
-
-#: services/magnatune/MagnatuneInfoParser.cpp:84
-msgid "From Magnatune.com"
-msgstr "Jê Magnatune.com"
-
-#: services/magnatune/MagnatuneInfoParser.cpp:166
-msgid "Loading Magnatune.com frontpage..."
-msgstr "Rûpela pêşîn ya Magnatune.com bar dike..."
-
-#: services/magnatune/MagnatuneInfoParser.cpp:169
-msgid "Fetching Magnatune.com front page"
-msgstr ""
-
-#: services/magnatune/MagnatuneInfoParser.cpp:182
-#: services/magnatune/MagnatuneInfoParser.cpp:198
-#, fuzzy
-#| msgid "Loading Magnatune.com frontpage..."
-msgid "Loading your Magnatune.com favorites page..."
-msgstr "Rûpela pêşîn ya Magnatune.com bar dike..."
-
-#: services/magnatune/MagnatuneInfoParser.cpp:211
-#: services/magnatune/MagnatuneInfoParser.cpp:227
-#, fuzzy
-#| msgid "Loading Magnatune.com frontpage..."
-msgid "Loading your personal Magnatune.com recommendations page..."
-msgstr "Rûpela pêşîn ya Magnatune.com bar dike..."
-
 #: services/magnatune/MagnatuneAlbumDownloader.cpp:68
 #, fuzzy, kde-format
 #| msgid "Downloading Magnatune.com Database"
@@ -10449,6 +10400,55 @@ msgstr "erê"
 #: services/magnatune/MagnatuneStore.cpp:680
 msgid "ERROR: Unknown argument."
 msgstr "ÇEWTÎ: Hevoksaziya nenas"
+
+#: services/magnatune/MagnatuneInfoParser.cpp:32
+msgid "Loading artist info..."
+msgstr "Agahiyên hunermend bar dike..."
+
+#: services/magnatune/MagnatuneInfoParser.cpp:44
+#, kde-format
+msgid "Fetching %1 Artist Info"
+msgstr "Agahiyên %1 Hunermend tê Anîn"
+
+#: services/magnatune/MagnatuneInfoParser.cpp:53
+msgid "Loading album info..."
+msgstr "Agahiyên albumê bar dike..."
+
+#: services/magnatune/MagnatuneInfoParser.cpp:75
+#, fuzzy, kde-format
+#| msgid "Release Year: "
+msgid "Release Year: %1"
+msgstr "Sala Weşanê:"
+
+#: services/magnatune/MagnatuneInfoParser.cpp:80
+msgid "Description:"
+msgstr "Rave:"
+
+#: services/magnatune/MagnatuneInfoParser.cpp:84
+msgid "From Magnatune.com"
+msgstr "Jê Magnatune.com"
+
+#: services/magnatune/MagnatuneInfoParser.cpp:166
+msgid "Loading Magnatune.com frontpage..."
+msgstr "Rûpela pêşîn ya Magnatune.com bar dike..."
+
+#: services/magnatune/MagnatuneInfoParser.cpp:169
+msgid "Fetching Magnatune.com front page"
+msgstr ""
+
+#: services/magnatune/MagnatuneInfoParser.cpp:182
+#: services/magnatune/MagnatuneInfoParser.cpp:198
+#, fuzzy
+#| msgid "Loading Magnatune.com frontpage..."
+msgid "Loading your Magnatune.com favorites page..."
+msgstr "Rûpela pêşîn ya Magnatune.com bar dike..."
+
+#: services/magnatune/MagnatuneInfoParser.cpp:211
+#: services/magnatune/MagnatuneInfoParser.cpp:227
+#, fuzzy
+#| msgid "Loading Magnatune.com frontpage..."
+msgid "Loading your personal Magnatune.com recommendations page..."
+msgstr "Rûpela pêşîn ya Magnatune.com bar dike..."
 
 #: services/mp3tunes/Mp3tunesMeta.cpp:45
 msgid ""
