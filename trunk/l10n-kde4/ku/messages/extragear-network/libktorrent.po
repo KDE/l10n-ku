@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktorrent\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-10-29 03:23+0200\n"
+"POT-Creation-Date: 2011-10-30 02:44+0100\n"
 "PO-Revision-Date: 2008-09-23 17:28+0300\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -445,21 +445,8 @@ msgstr ""
 msgid "Redirect without a redirect location"
 msgstr ""
 
-#: src/tracker/httptracker.cpp:283 src/tracker/httptracker.cpp:303
-#: src/tracker/httptracker.cpp:459
-msgid "Invalid response from tracker"
-msgstr ""
-
-#: src/tracker/httptracker.cpp:296
-msgid "Invalid data from tracker"
-msgstr ""
-
-#: src/tracker/httptracker.cpp:476
-msgid "Invalid tracker URL"
-msgstr ""
-
-#: src/tracker/httptracker.cpp:554 src/tracker/udptracker.cpp:364
-#: src/tracker/udptracker.cpp:374
+#: src/tracker/udptracker.cpp:364 src/tracker/udptracker.cpp:374
+#: src/tracker/httptracker.cpp:558
 #, kde-format
 msgid "Timeout contacting tracker %1"
 msgstr ""
@@ -467,6 +454,19 @@ msgstr ""
 #: src/tracker/udptracker.cpp:401
 #, kde-format
 msgid "Unable to resolve hostname %1"
+msgstr ""
+
+#: src/tracker/httptracker.cpp:287 src/tracker/httptracker.cpp:307
+#: src/tracker/httptracker.cpp:463
+msgid "Invalid response from tracker"
+msgstr ""
+
+#: src/tracker/httptracker.cpp:300
+msgid "Invalid data from tracker"
+msgstr ""
+
+#: src/tracker/httptracker.cpp:480
+msgid "Invalid tracker URL"
 msgstr ""
 
 #: src/upnp/httprequest.cpp:96
@@ -600,13 +600,13 @@ msgstr ""
 msgid "Error when reading from disk"
 msgstr "Ji %1 nayê xwedin"
 
-#: src/util/functions.cpp:216
+#: src/util/functions.cpp:242
 #, fuzzy, kde-format
 #| msgid "%1 KB/s"
 msgid "%1/s"
 msgstr "%1 KB/ç"
 
-#: src/util/functions.cpp:227
+#: src/util/functions.cpp:253
 #, kde-format
 msgid "1 day "
 msgid_plural "%1 days "
