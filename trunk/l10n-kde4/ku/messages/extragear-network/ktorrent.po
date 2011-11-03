@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktorrent\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-11-02 03:50+0100\n"
+"POT-Creation-Date: 2011-11-03 03:41+0100\n"
 "PO-Revision-Date: 2008-09-23 17:28+0300\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -659,7 +659,7 @@ msgstr ""
 msgid "Magnet Link"
 msgstr ""
 
-#: ktorrent/tools/magnetmodel.cpp:129 ktorrent/tools/queuemanagermodel.cpp:123
+#: ktorrent/tools/magnetmodel.cpp:129 ktorrent/tools/queuemanagermodel.cpp:194
 #: ktorrent/view/viewmodel.cpp:442 ktorrent/trayicon.cpp:159
 #: plugins/infowidget/webseedsmodel.cpp:127
 #: plugins/infowidget/trackermodel.cpp:148
@@ -708,42 +708,42 @@ msgstr ""
 msgid "Remove Magnet"
 msgstr "Torrentê Rake"
 
-#: ktorrent/tools/queuemanagermodel.cpp:121
+#: ktorrent/tools/queuemanagermodel.cpp:190
 msgid "Order"
 msgstr ""
 
-#: ktorrent/tools/queuemanagermodel.cpp:122 ktorrent/view/viewmodel.cpp:441
+#: ktorrent/tools/queuemanagermodel.cpp:192 ktorrent/view/viewmodel.cpp:441
 msgid "Name"
 msgstr "Nav"
 
-#: ktorrent/tools/queuemanagermodel.cpp:124
+#: ktorrent/tools/queuemanagermodel.cpp:196
 msgid "Time Stalled"
 msgstr ""
 
-#: ktorrent/tools/queuemanagermodel.cpp:125
+#: ktorrent/tools/queuemanagermodel.cpp:198
 #: plugins/infowidget/iwfilelistmodel.cpp:77
 #: plugins/infowidget/iwfiletreemodel.cpp:89
 msgid "Priority"
 msgstr ""
 
-#: ktorrent/tools/queuemanagermodel.cpp:158
+#: ktorrent/tools/queuemanagermodel.cpp:233
 msgid "Running"
 msgstr ""
 
-#: ktorrent/tools/queuemanagermodel.cpp:160
+#: ktorrent/tools/queuemanagermodel.cpp:235
 msgid "Queued"
 msgstr ""
 
-#: ktorrent/tools/queuemanagermodel.cpp:162
+#: ktorrent/tools/queuemanagermodel.cpp:237
 msgid "Not queued"
 msgstr ""
 
-#: ktorrent/tools/queuemanagermodel.cpp:171
+#: ktorrent/tools/queuemanagermodel.cpp:246
 #, kde-format
 msgid "%1"
 msgstr ""
 
-#: ktorrent/tools/queuemanagermodel.cpp:183
+#: ktorrent/tools/queuemanagermodel.cpp:259
 msgid ""
 "Order of a torrent in the queue.\n"
 "Use drag and drop or the move up and down buttons on the right to change the "
@@ -815,6 +815,42 @@ msgstr ""
 #: ktorrent/tools/queuemanagerwidget.cpp:81
 msgid "Move a torrent to the bottom of the queue"
 msgstr ""
+
+#: ktorrent/tools/queuemanagerwidget.cpp:83
+#, fuzzy
+#| msgid "Downloads"
+msgid "Show Downloads"
+msgstr "Daxistin"
+
+#: ktorrent/tools/queuemanagerwidget.cpp:84
+#, fuzzy
+#| msgid "Set max download rate"
+msgid "Show all downloads"
+msgstr "Leza zêdetirîn a daxistinê ava bike"
+
+#: ktorrent/tools/queuemanagerwidget.cpp:88
+#, fuzzy
+#| msgid "Uploads"
+msgid "Show Uploads"
+msgstr "Şandin"
+
+#: ktorrent/tools/queuemanagerwidget.cpp:89
+#, fuzzy
+#| msgid "Choose a file"
+msgid "Show all uploads"
+msgstr "Pelekî hilbijêre"
+
+#: ktorrent/tools/queuemanagerwidget.cpp:93
+#, fuzzy
+#| msgid "Down Speed"
+msgid "Show Not Queued"
+msgstr "Leza Daxistinê"
+
+#: ktorrent/tools/queuemanagerwidget.cpp:94
+#, fuzzy
+#| msgid "Choose File to Save Torrent"
+msgid "Show all not queued torrents"
+msgstr "Ji bo tomarkirina torrentê pel hilbijêre"
 
 #: ktorrent/view/scanextender.cpp:46
 msgid "Checked %v of %m chunks"
@@ -9422,9 +9458,6 @@ msgstr ""
 
 #~ msgid "Set max upload rate"
 #~ msgstr "Leza zêdetirîn a şandinê ava bike"
-
-#~ msgid "Set max download rate"
-#~ msgstr "Leza zêdetirîn a daxistinê ava bike"
 
 #~ msgid "A KDE KPart Application"
 #~ msgstr "Sepana KDE KPart"
