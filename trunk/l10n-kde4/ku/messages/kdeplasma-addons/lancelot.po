@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lancelot\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-02 06:30+0200\n"
+"POT-Creation-Date: 2011-11-05 04:20+0100\n"
 "PO-Revision-Date: 2009-01-11 21:29+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -224,21 +224,46 @@ msgstr "Pêşeka Lancelot veke"
 msgid "Menu Editor"
 msgstr "Edîtorê Pêşekê"
 
-#: application/LancelotWindow.cpp:1079
-msgid "Configure &Shortcuts..."
+#: application/LancelotWindow.cpp:1079 launcher/LancelotApplet.cpp:449
+#, fuzzy
+#| msgid "Configure &Shortcuts..."
+msgid "Configure Shortcuts..."
 msgstr "&Kurterê yan Veava Bike..."
 
 #: application/LancelotWindow.cpp:1084
-msgid "Configure &Lancelot menu..."
+#, fuzzy
+#| msgid "Configure &Lancelot menu..."
+msgid "Configure Lancelot menu..."
 msgstr "Pêşeka &Lancelot veava bike..."
 
 #: application/LancelotWindow.cpp:1089
-msgid "&About Lancelot"
+#, fuzzy
+#| msgid "&About Lancelot"
+msgid "About Lancelot"
 msgstr "&Der barê Lancelot de"
 
 #: application/LancelotWindow.cpp:1127 application/LancelotWindow.cpp:1129
 msgid "Configure Lancelot menu"
 msgstr "Pêşeka Lancelot veava bike"
+
+#: launcher/LancelotAppletConfig.cpp:59
+#, fuzzy
+#| msgid "&KDE Logo"
+msgid "KDE Logo"
+msgstr "Logo ya &KDE "
+
+#: launcher/LancelotAppletConfig.cpp:62
+#, fuzzy
+#| msgid "&Start Here"
+msgid "Start here"
+msgstr "&Li vir Destpê Bike"
+
+#: launcher/LancelotAppletConfig.cpp:65
+#, fuzzy
+#| msgid "Custo&m"
+msgctxt "Choose a custom icon"
+msgid "Custom"
+msgstr "Taybe&t"
 
 #: launcher/LancelotApplet.cpp:388
 #, fuzzy
@@ -259,31 +284,6 @@ msgstr ""
 #| msgid "Open Lancelot menu"
 msgid "Lancelot Menu"
 msgstr "Pêşeka Lancelot veke"
-
-#: launcher/LancelotApplet.cpp:449
-#, fuzzy
-#| msgid "Configure &Shortcuts..."
-msgid "Configure Shortcuts..."
-msgstr "&Kurterê yan Veava Bike..."
-
-#: launcher/LancelotAppletConfig.cpp:59
-#, fuzzy
-#| msgid "&KDE Logo"
-msgid "KDE Logo"
-msgstr "Logo ya &KDE "
-
-#: launcher/LancelotAppletConfig.cpp:62
-#, fuzzy
-#| msgid "&Start Here"
-msgid "Start here"
-msgstr "&Li vir Destpê Bike"
-
-#: launcher/LancelotAppletConfig.cpp:65
-#, fuzzy
-#| msgid "Custo&m"
-msgctxt "Choose a custom icon"
-msgid "Custom"
-msgstr "Taybe&t"
 
 #: parts/PartsMergedModel.cpp:68
 #, fuzzy
@@ -692,6 +692,9 @@ msgstr ""
 #: rc.cpp:150
 msgid "Show the search box"
 msgstr ""
+
+#~ msgid "Configure &Shortcuts..."
+#~ msgstr "&Kurterê yan Veava Bike..."
 
 #~ msgid "Column Number Limit"
 #~ msgstr "Sînora Hejmara Stûnan"
