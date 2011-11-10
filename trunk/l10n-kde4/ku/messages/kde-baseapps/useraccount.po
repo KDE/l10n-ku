@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: useraccount\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-02 05:23+0200\n"
+"POT-Creation-Date: 2011-11-10 03:41+0100\n"
 "PO-Revision-Date: 2008-12-24 19:07+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
@@ -35,7 +35,7 @@ msgstr "Wêneyê &Bîne..."
 msgid "(Custom)"
 msgstr "(Taybet)"
 
-#: chfacedlg.cpp:114 main.cpp:274
+#: chfacedlg.cpp:114 main.cpp:228
 msgid "There was an error loading the image."
 msgstr "Di barkirina wêneyê de çewtiyek derket."
 
@@ -148,19 +148,19 @@ msgstr ""
 "Çewtiyeke bernameyê derket: bernameya hundirîn 'kdepasswd' nehat dîtin. Tu "
 "yê nikaribî nasnavê xwe biguherînî."
 
-#: main.cpp:218
+#: main.cpp:175
 msgid "Please enter your password in order to save your settings:"
 msgstr "Ji kerema xwe re ji bo tomarkirina mîhengan, nasnavê xwe têkevê:"
 
-#: main.cpp:221
+#: main.cpp:178
 msgid "You must enter your password in order to change your information."
 msgstr "Ji bo guherandina agahiyan divê nasnavê xwe binivîsî."
 
-#: main.cpp:231
+#: main.cpp:188
 msgid "You must enter a correct password."
 msgstr "Divê nasnavekî rast binivîsî."
 
-#: main.cpp:235
+#: main.cpp:192
 #, fuzzy, kde-format
 #| msgid ""
 #| "An error occurred and your password has probably not been changed. The "
@@ -174,16 +174,12 @@ msgstr ""
 "Çewtiyek derket û nasnav nehat guherandin. Peyama çewtiyê ev e:\n"
 "%1"
 
-#: main.cpp:255
+#: main.cpp:212
 #, kde-format
 msgid "There was an error saving the image: %1"
 msgstr "Di tomarkirina pelê de çewtî derket: %1"
 
-#: main.cpp:288 main.cpp:322
-msgid "Your administrator has disallowed changing your image."
-msgstr "Gerînendeyê te destûrê nade te ku wêneyê biguherînî."
-
-#: main.cpp:355
+#: main.cpp:296
 #, kde-format
 msgid ""
 "%1 does not appear to be an image file.\n"
@@ -323,6 +319,9 @@ msgstr "Wêneyê têketinê yê bikarhêner"
 #: rc.cpp:61
 msgid "Password echo type"
 msgstr "Nasnav bi cure yê echo"
+
+#~ msgid "Your administrator has disallowed changing your image."
+#~ msgstr "Gerînendeyê te destûrê nade te ku wêneyê biguherînî."
 
 #~ msgid "Custom Image..."
 #~ msgstr "Wêneyê Takekesî..."
