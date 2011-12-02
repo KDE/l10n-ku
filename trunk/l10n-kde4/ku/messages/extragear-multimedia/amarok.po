@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-11-30 03:53+0100\n"
+"POT-Creation-Date: 2011-12-02 03:32+0100\n"
 "PO-Revision-Date: 2009-02-21 06:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -201,6 +201,12 @@ msgstr ""
 #| msgid "Zero"
 msgid "Zero"
 msgstr "Sifir"
+
+#: KNotificationBackend.cpp:146
+#, fuzzy
+#| msgid "No track playing"
+msgid "Now playing"
+msgstr "Tu Stran Nayê Lêdan"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -2323,7 +2329,7 @@ msgstr "Sepanok Rake"
 
 #. i18n: file: context/applets/lyrics/lyricsSettings.ui:14
 #. i18n: ectx: property (windowTitle), widget (QWidget, lyricsSettings)
-#: rc.cpp:990 context/applets/lyrics/LyricsApplet.cpp:694
+#: rc.cpp:990 context/applets/lyrics/LyricsApplet.cpp:693
 #, fuzzy
 #| msgid "&Settings"
 msgid "Lyrics Settings"
@@ -3256,7 +3262,7 @@ msgstr ""
 
 #. i18n: file: dialogs/MusicBrainzTagger.ui:12
 #. i18n: ectx: property (windowTitle), widget (QWidget, MusicBrainzTagger)
-#: rc.cpp:1434 dialogs/TagDialog.cpp:1384
+#: rc.cpp:1434 dialogs/TagDialog.cpp:1386
 #, fuzzy
 #| msgid "MusicBrainz Lookup"
 msgid "MusicBrainz Tagger"
@@ -5544,7 +5550,7 @@ msgstr ""
 #. i18n: file: services/magnatune/MagnatuneSignupDialogBase.ui:45
 #. i18n: ectx: property (text), widget (QPushButton, closeButton)
 #: rc.cpp:2499 context/applets/albums/Albums.cpp:342
-#: context/applets/lyrics/LyricsApplet.cpp:465
+#: context/applets/lyrics/LyricsApplet.cpp:464
 #: firstruntutorial/FirstRunTutorialPage.cpp:56
 msgid "Close"
 msgstr "Girtin"
@@ -5881,12 +5887,6 @@ msgstr "Dabeşkirin"
 #: rc.cpp:2633
 msgid "Verbose"
 msgstr ""
-
-#: KNotificationBackend.cpp:146
-#, fuzzy
-#| msgid "No track playing"
-msgid "Now playing"
-msgstr "Tu Stran Nayê Lêdan"
 
 #: scanner/GenericScanManager.cpp:203
 #: core-impl/collections/db/ScanManager.cpp:482
@@ -7341,7 +7341,7 @@ msgid_plural "%1 channels"
 msgstr[0] "Hemû yan &Rojane Bike"
 msgstr[1] "Hemû yan &Rojane Bike"
 
-#: browsers/playlistbrowser/PodcastModel.cpp:335 dialogs/TagDialog.cpp:509
+#: browsers/playlistbrowser/PodcastModel.cpp:335 dialogs/TagDialog.cpp:510
 msgid "Summary"
 msgstr "Kurte"
 
@@ -7547,7 +7547,7 @@ msgstr "Giştî"
 
 #: configdialog/dialogs/ScriptsConfig.cpp:54
 #: context/applets/lyrics/LyricsApplet.cpp:440
-#: context/applets/lyrics/LyricsApplet.cpp:568 dialogs/TagDialog.cpp:511
+#: context/applets/lyrics/LyricsApplet.cpp:567 dialogs/TagDialog.cpp:512
 msgid "Lyrics"
 msgstr "Gotin"
 
@@ -7669,7 +7669,7 @@ msgstr "Albumên herî dawî lê hatine zêdekirin "
 
 #: context/applets/albums/Albums.cpp:74
 #: context/applets/labels/LabelsApplet.cpp:112
-#: context/applets/lyrics/LyricsApplet.cpp:486
+#: context/applets/lyrics/LyricsApplet.cpp:485
 #: context/applets/photos/PhotosApplet.cpp:76
 #: context/applets/similarartists/SimilarArtistsApplet.cpp:97
 #: context/applets/tabs/TabsApplet.cpp:104
@@ -7850,7 +7850,7 @@ msgid "Add to blacklist"
 msgstr "lîsteya lêdanê"
 
 #: context/applets/labels/LabelsApplet.cpp:92
-#: context/applets/labels/LabelsApplet.cpp:184 dialogs/TagDialog.cpp:512
+#: context/applets/labels/LabelsApplet.cpp:184 dialogs/TagDialog.cpp:513
 msgid "Labels"
 msgstr "Etîket"
 
@@ -7928,64 +7928,64 @@ msgid ""
 "want to save your changes?"
 msgstr ""
 
-#: context/applets/lyrics/LyricsApplet.cpp:451
+#: context/applets/lyrics/LyricsApplet.cpp:450
 #, fuzzy
 #| msgid "Lyrics"
 msgid "Edit Lyrics"
 msgstr "Gotin"
 
-#: context/applets/lyrics/LyricsApplet.cpp:458
+#: context/applets/lyrics/LyricsApplet.cpp:457
 #, fuzzy
 #| msgid "Lyrics"
 msgid "Save Lyrics"
 msgstr "Gotin"
 
-#: context/applets/lyrics/LyricsApplet.cpp:472
+#: context/applets/lyrics/LyricsApplet.cpp:471
 msgid "Scroll automatically"
 msgstr ""
 
-#: context/applets/lyrics/LyricsApplet.cpp:479
+#: context/applets/lyrics/LyricsApplet.cpp:478
 msgid "Reload Lyrics"
 msgstr "Gotinên Stranan Nû ve Bar Bike"
 
-#: context/applets/lyrics/LyricsApplet.cpp:563
+#: context/applets/lyrics/LyricsApplet.cpp:562
 #, fuzzy
 #| msgid "No lyrics script is running!"
 msgid "Lyrics: No script is running"
 msgstr "Tu skrîptê gotinên stranê naxebite!"
 
-#: context/applets/lyrics/LyricsApplet.cpp:575
+#: context/applets/lyrics/LyricsApplet.cpp:574
 #, fuzzy
 #| msgid "Fetching content.."
 msgid "Lyrics: Fetching ..."
 msgstr "Naverokê tîne..."
 
-#: context/applets/lyrics/LyricsApplet.cpp:579
+#: context/applets/lyrics/LyricsApplet.cpp:578
 #, fuzzy
 #| msgid "Fetching content.."
 msgid "Lyrics: Fetch error"
 msgstr "Naverokê tîne..."
 
-#: context/applets/lyrics/LyricsApplet.cpp:585
+#: context/applets/lyrics/LyricsApplet.cpp:584
 #, fuzzy
 msgid "Lyrics: Suggested URLs"
 msgstr "Stranên pêşniyazkirî"
 
-#: context/applets/lyrics/LyricsApplet.cpp:611
+#: context/applets/lyrics/LyricsApplet.cpp:610
 #, fuzzy, kde-format
 #| msgid "Results for: %1"
 msgctxt "Lyrics: <artist> - <title>"
 msgid "Lyrics: %1 - %2"
 msgstr "Encam ji bo: %1"
 
-#: context/applets/lyrics/LyricsApplet.cpp:617
+#: context/applets/lyrics/LyricsApplet.cpp:616
 #, fuzzy
 #| msgid "1 not found"
 #| msgid_plural "%1 not found"
 msgid "Lyrics: Not found"
 msgstr "1 nehat dîtin"
 
-#: context/applets/lyrics/LyricsApplet.cpp:657
+#: context/applets/lyrics/LyricsApplet.cpp:656
 #, fuzzy
 #| msgctxt "@info"
 #| msgid ""
@@ -10835,258 +10835,6 @@ msgstr "Rûgir tê anîn ji bo %1..."
 msgid "Cover View"
 msgstr "Wêneya rûgirê albumê"
 
-#: covermanager/CoverFetchingActions.cpp:47
-msgid "Fetch Cover"
-msgid_plural "Fetch Covers"
-msgstr[0] "Rûgirê Albumê Bîne"
-msgstr[1] "Rûgirên Albumê Bîne"
-
-#: covermanager/CoverFetchingActions.cpp:49
-#, kde-format
-msgid "Fetch the artwork for this album"
-msgid_plural "Fetch artwork for %1 albums"
-msgstr[0] ""
-msgstr[1] ""
-
-#: covermanager/CoverFetchingActions.cpp:69
-#: covermanager/CoverFoundDialog.cpp:358
-msgid "Display Cover"
-msgstr "Rûgirê Albumê Nîşan Bide"
-
-#: covermanager/CoverFetchingActions.cpp:71
-msgid "Display artwork for this album"
-msgstr ""
-
-#: covermanager/CoverFetchingActions.cpp:89
-msgid "Unset Cover"
-msgid_plural "Unset Covers"
-msgstr[0] "Rûgirê Albumê Ne-ava Bike"
-msgstr[1] "Rûgirên Albumê Ne-ava Bike"
-
-#: covermanager/CoverFetchingActions.cpp:91
-#, kde-format
-msgid "Remove artwork for this album"
-msgid_plural "Remove artwork for %1 albums"
-msgstr[0] ""
-msgstr[1] ""
-
-#: covermanager/CoverFetchingActions.cpp:104
-#, kde-format
-msgid "Are you sure you want to remove this cover from the Collection?"
-msgid_plural ""
-"Are you sure you want to delete these %1 covers from the Collection?"
-msgstr[0] ""
-msgstr[1] ""
-
-#: covermanager/CoverFetchingActions.cpp:127
-msgid "Set Custom Cover"
-msgstr "Rûgirê Albumê yê Taybet Ava Bike"
-
-#: covermanager/CoverFetchingActions.cpp:129
-#, kde-format
-msgid "Set custom artwork for this album"
-msgid_plural "Set custom artwork for these %1 albums"
-msgstr[0] ""
-msgstr[1] ""
-
-#: covermanager/CoverFetchingActions.cpp:155
-msgid "Select Cover Image File"
-msgstr "Pela Wêneya Rûgirê Albumê Hilbijêre"
-
-#: covermanager/CoverFoundDialog.cpp:81
-#, fuzzy
-#| msgid "Fetching cover for %1..."
-msgid "Finding cover for"
-msgstr "Rûgir tê anîn ji bo %1..."
-
-#: covermanager/CoverFoundDialog.cpp:113
-#, fuzzy
-#| msgid "Set Custom Cover"
-msgid "Enter Custom Search"
-msgstr "Rûgirê Albumê yê Taybet Ava Bike"
-
-#: covermanager/CoverFoundDialog.cpp:128
-#: services/lastfm/LastFmServiceCollection.cpp:141
-#, fuzzy
-#| msgid "last.fm"
-msgid "Last.fm"
-msgstr "last.fm"
-
-#: covermanager/CoverFoundDialog.cpp:129
-#, fuzzy
-#| msgid "Goto"
-msgid "Google"
-msgstr "Biçe"
-
-#: covermanager/CoverFoundDialog.cpp:130
-msgid "Yahoo!"
-msgstr ""
-
-#: covermanager/CoverFoundDialog.cpp:131
-#, fuzzy
-#| msgid "Disc #"
-msgid "Discogs"
-msgstr "Dîsk #"
-
-#: covermanager/CoverFoundDialog.cpp:141
-msgid "Sort by size"
-msgstr ""
-
-#: covermanager/CoverFoundDialog.cpp:376
-#, fuzzy
-#| msgid "Save location:"
-msgid "Cover Image Save Location"
-msgstr "Cihê tomar kirinê:"
-
-#: covermanager/CoverFoundDialog.cpp:402 covermanager/CoverFoundDialog.cpp:419
-#, fuzzy
-#| msgid "The cover could not be retrieved."
-msgid "Sorry, the cover could not be saved."
-msgstr "Rûgirê albumê cardin nayê anîn."
-
-#: covermanager/CoverFoundDialog.cpp:487
-#, fuzzy
-#| msgid "The cover could not be retrieved."
-msgid "Sorry, the cover image could not be retrieved."
-msgstr "Rûgirê albumê cardin nayê anîn."
-
-#: covermanager/CoverFoundDialog.cpp:507
-#, fuzzy
-#| msgid "Fetching Cover"
-msgid "Fetching Large Cover"
-msgstr "Rûgirê Albumê Tê Anîn"
-
-#: covermanager/CoverFoundDialog.cpp:508
-#, fuzzy
-#| msgid "Download to:"
-msgid "Download Progress"
-msgstr "Bi daxe li:"
-
-#: covermanager/CoverFoundDialog.cpp:681
-#, fuzzy
-#| msgid "&Search"
-msgid "Search"
-msgstr "&Lêgere"
-
-#: covermanager/CoverFoundDialog.cpp:681
-#, fuzzy
-#| msgid "MusicBrainz Results"
-msgid "Search For More Results"
-msgstr "Encamên MusicBranz"
-
-#: covermanager/CoverFoundDialog.cpp:697
-#, fuzzy
-#| msgid "No purchases found!"
-msgid "No Images Found"
-msgstr "Tu standin nehat dîtin!"
-
-#: covermanager/CoverFoundDialog.cpp:698
-#, kde-format
-msgid "1 Image Found"
-msgid_plural "%1 Images Found"
-msgstr[0] ""
-msgstr[1] ""
-
-#: covermanager/CoverFoundDialog.cpp:722
-#, fuzzy
-#| msgid "Track Information"
-msgid "Information"
-msgstr "Agahiyên Stranê"
-
-#: covermanager/CoverFoundDialog.cpp:723
-#, fuzzy
-#| msgid "None"
-msgid "Notes"
-msgstr "Ne yek jî"
-
-#: covermanager/CoverFoundDialog.cpp:795
-#, fuzzy
-#| msgid "Artist"
-msgctxt "@item::intable"
-msgid "Artist"
-msgstr "Hunermend"
-
-#: covermanager/CoverFoundDialog.cpp:796
-#, fuzzy
-#| msgid "Connection"
-msgctxt "@item::intable"
-msgid "Country"
-msgstr "Girêdan"
-
-#: covermanager/CoverFoundDialog.cpp:797
-#, fuzzy
-#| msgid "Database Name"
-msgctxt "@item::intable"
-msgid "Date"
-msgstr "Navê Bingeha Dana"
-
-#: covermanager/CoverFoundDialog.cpp:798
-#, fuzzy
-#| msgid "Format:"
-msgctxt "@item::intable File Format"
-msgid "Format"
-msgstr "Teşe:"
-
-#: covermanager/CoverFoundDialog.cpp:799
-#, fuzzy
-#| msgid "Right"
-msgctxt "@item::intable Image Height"
-msgid "Height"
-msgstr "Rast"
-
-#: covermanager/CoverFoundDialog.cpp:800 covermanager/CoverFoundDialog.cpp:805
-#, fuzzy
-#| msgid "Title"
-msgctxt "@item::intable Album Title"
-msgid "Title"
-msgstr "Sernav"
-
-#: covermanager/CoverFoundDialog.cpp:801
-#, fuzzy
-#| msgid "Type"
-msgctxt "@item::intable Release Type"
-msgid "Type"
-msgstr "Cure"
-
-#: covermanager/CoverFoundDialog.cpp:802
-#, fuzzy
-#| msgid "Reload"
-msgctxt "@item::intable Release Date"
-msgid "Released"
-msgstr "Nû ve bar bike"
-
-#: covermanager/CoverFoundDialog.cpp:803
-#, fuzzy
-#| msgid "Size:"
-msgctxt "@item::intable File Size"
-msgid "Size"
-msgstr "Mezinahî:"
-
-#: covermanager/CoverFoundDialog.cpp:804
-#, fuzzy
-#| msgid "Source"
-msgctxt "@item::intable Cover Provider"
-msgid "Source"
-msgstr "Çavkanî"
-
-#: covermanager/CoverFoundDialog.cpp:806
-#, fuzzy
-#| msgid "Width"
-msgctxt "@item::intable Image Width"
-msgid "Width"
-msgstr "Firehî"
-
-#: covermanager/CoverFoundDialog.cpp:846
-#, fuzzy
-msgctxt "@item::intable URL"
-msgid "link"
-msgstr "&Bilîze"
-
-#: covermanager/CoverFoundDialog.cpp:852
-msgctxt "@item::intable"
-msgid "URL"
-msgstr ""
-
 #: covermanager/CoverManager.cpp:116
 msgid "Albums By"
 msgstr "Çêkerê Albumê"
@@ -11208,6 +10956,258 @@ msgstr "Wêneya Rûgirê"
 #: covermanager/CoverManager.cpp:860
 msgid "No Artist"
 msgstr "Hunermend Tune ye "
+
+#: covermanager/CoverFetchingActions.cpp:47
+msgid "Fetch Cover"
+msgid_plural "Fetch Covers"
+msgstr[0] "Rûgirê Albumê Bîne"
+msgstr[1] "Rûgirên Albumê Bîne"
+
+#: covermanager/CoverFetchingActions.cpp:49
+#, kde-format
+msgid "Fetch the artwork for this album"
+msgid_plural "Fetch artwork for %1 albums"
+msgstr[0] ""
+msgstr[1] ""
+
+#: covermanager/CoverFetchingActions.cpp:75
+#: covermanager/CoverFoundDialog.cpp:358
+msgid "Display Cover"
+msgstr "Rûgirê Albumê Nîşan Bide"
+
+#: covermanager/CoverFetchingActions.cpp:77
+msgid "Display artwork for this album"
+msgstr ""
+
+#: covermanager/CoverFetchingActions.cpp:95
+msgid "Unset Cover"
+msgid_plural "Unset Covers"
+msgstr[0] "Rûgirê Albumê Ne-ava Bike"
+msgstr[1] "Rûgirên Albumê Ne-ava Bike"
+
+#: covermanager/CoverFetchingActions.cpp:97
+#, kde-format
+msgid "Remove artwork for this album"
+msgid_plural "Remove artwork for %1 albums"
+msgstr[0] ""
+msgstr[1] ""
+
+#: covermanager/CoverFetchingActions.cpp:110
+#, kde-format
+msgid "Are you sure you want to remove this cover from the Collection?"
+msgid_plural ""
+"Are you sure you want to delete these %1 covers from the Collection?"
+msgstr[0] ""
+msgstr[1] ""
+
+#: covermanager/CoverFetchingActions.cpp:133
+msgid "Set Custom Cover"
+msgstr "Rûgirê Albumê yê Taybet Ava Bike"
+
+#: covermanager/CoverFetchingActions.cpp:135
+#, kde-format
+msgid "Set custom artwork for this album"
+msgid_plural "Set custom artwork for these %1 albums"
+msgstr[0] ""
+msgstr[1] ""
+
+#: covermanager/CoverFetchingActions.cpp:161
+msgid "Select Cover Image File"
+msgstr "Pela Wêneya Rûgirê Albumê Hilbijêre"
+
+#: covermanager/CoverFoundDialog.cpp:81
+#, fuzzy
+#| msgid "Fetching cover for %1..."
+msgid "Finding cover for"
+msgstr "Rûgir tê anîn ji bo %1..."
+
+#: covermanager/CoverFoundDialog.cpp:113
+#, fuzzy
+#| msgid "Set Custom Cover"
+msgid "Enter Custom Search"
+msgstr "Rûgirê Albumê yê Taybet Ava Bike"
+
+#: covermanager/CoverFoundDialog.cpp:128
+#: services/lastfm/LastFmServiceCollection.cpp:141
+#, fuzzy
+#| msgid "last.fm"
+msgid "Last.fm"
+msgstr "last.fm"
+
+#: covermanager/CoverFoundDialog.cpp:129
+#, fuzzy
+#| msgid "Goto"
+msgid "Google"
+msgstr "Biçe"
+
+#: covermanager/CoverFoundDialog.cpp:130
+msgid "Yahoo!"
+msgstr ""
+
+#: covermanager/CoverFoundDialog.cpp:131
+#, fuzzy
+#| msgid "Disc #"
+msgid "Discogs"
+msgstr "Dîsk #"
+
+#: covermanager/CoverFoundDialog.cpp:141
+msgid "Sort by size"
+msgstr ""
+
+#: covermanager/CoverFoundDialog.cpp:383
+#, fuzzy
+#| msgid "Save location:"
+msgid "Cover Image Save Location"
+msgstr "Cihê tomar kirinê:"
+
+#: covermanager/CoverFoundDialog.cpp:409 covermanager/CoverFoundDialog.cpp:426
+#, fuzzy
+#| msgid "The cover could not be retrieved."
+msgid "Sorry, the cover could not be saved."
+msgstr "Rûgirê albumê cardin nayê anîn."
+
+#: covermanager/CoverFoundDialog.cpp:495
+#, fuzzy
+#| msgid "The cover could not be retrieved."
+msgid "Sorry, the cover image could not be retrieved."
+msgstr "Rûgirê albumê cardin nayê anîn."
+
+#: covermanager/CoverFoundDialog.cpp:516
+#, fuzzy
+#| msgid "Fetching Cover"
+msgid "Fetching Large Cover"
+msgstr "Rûgirê Albumê Tê Anîn"
+
+#: covermanager/CoverFoundDialog.cpp:517
+#, fuzzy
+#| msgid "Download to:"
+msgid "Download Progress"
+msgstr "Bi daxe li:"
+
+#: covermanager/CoverFoundDialog.cpp:690
+#, fuzzy
+#| msgid "&Search"
+msgid "Search"
+msgstr "&Lêgere"
+
+#: covermanager/CoverFoundDialog.cpp:690
+#, fuzzy
+#| msgid "MusicBrainz Results"
+msgid "Search For More Results"
+msgstr "Encamên MusicBranz"
+
+#: covermanager/CoverFoundDialog.cpp:706
+#, fuzzy
+#| msgid "No purchases found!"
+msgid "No Images Found"
+msgstr "Tu standin nehat dîtin!"
+
+#: covermanager/CoverFoundDialog.cpp:707
+#, kde-format
+msgid "1 Image Found"
+msgid_plural "%1 Images Found"
+msgstr[0] ""
+msgstr[1] ""
+
+#: covermanager/CoverFoundDialog.cpp:731
+#, fuzzy
+#| msgid "Track Information"
+msgid "Information"
+msgstr "Agahiyên Stranê"
+
+#: covermanager/CoverFoundDialog.cpp:732
+#, fuzzy
+#| msgid "None"
+msgid "Notes"
+msgstr "Ne yek jî"
+
+#: covermanager/CoverFoundDialog.cpp:804
+#, fuzzy
+#| msgid "Artist"
+msgctxt "@item::intable"
+msgid "Artist"
+msgstr "Hunermend"
+
+#: covermanager/CoverFoundDialog.cpp:805
+#, fuzzy
+#| msgid "Connection"
+msgctxt "@item::intable"
+msgid "Country"
+msgstr "Girêdan"
+
+#: covermanager/CoverFoundDialog.cpp:806
+#, fuzzy
+#| msgid "Database Name"
+msgctxt "@item::intable"
+msgid "Date"
+msgstr "Navê Bingeha Dana"
+
+#: covermanager/CoverFoundDialog.cpp:807
+#, fuzzy
+#| msgid "Format:"
+msgctxt "@item::intable File Format"
+msgid "Format"
+msgstr "Teşe:"
+
+#: covermanager/CoverFoundDialog.cpp:808
+#, fuzzy
+#| msgid "Right"
+msgctxt "@item::intable Image Height"
+msgid "Height"
+msgstr "Rast"
+
+#: covermanager/CoverFoundDialog.cpp:809 covermanager/CoverFoundDialog.cpp:814
+#, fuzzy
+#| msgid "Title"
+msgctxt "@item::intable Album Title"
+msgid "Title"
+msgstr "Sernav"
+
+#: covermanager/CoverFoundDialog.cpp:810
+#, fuzzy
+#| msgid "Type"
+msgctxt "@item::intable Release Type"
+msgid "Type"
+msgstr "Cure"
+
+#: covermanager/CoverFoundDialog.cpp:811
+#, fuzzy
+#| msgid "Reload"
+msgctxt "@item::intable Release Date"
+msgid "Released"
+msgstr "Nû ve bar bike"
+
+#: covermanager/CoverFoundDialog.cpp:812
+#, fuzzy
+#| msgid "Size:"
+msgctxt "@item::intable File Size"
+msgid "Size"
+msgstr "Mezinahî:"
+
+#: covermanager/CoverFoundDialog.cpp:813
+#, fuzzy
+#| msgid "Source"
+msgctxt "@item::intable Cover Provider"
+msgid "Source"
+msgstr "Çavkanî"
+
+#: covermanager/CoverFoundDialog.cpp:815
+#, fuzzy
+#| msgid "Width"
+msgctxt "@item::intable Image Width"
+msgid "Width"
+msgstr "Firehî"
+
+#: covermanager/CoverFoundDialog.cpp:855
+#, fuzzy
+msgctxt "@item::intable URL"
+msgid "link"
+msgstr "&Bilîze"
+
+#: covermanager/CoverFoundDialog.cpp:861
+msgctxt "@item::intable"
+msgid "URL"
+msgstr ""
 
 #: databaseimporter/amarok14/FastForwardImporterConfig.cpp:39
 msgid "Connection"
@@ -11459,76 +11459,6 @@ msgid ""
 "If selected, Amarok will use Mozilla's\n"
 "Character Set Detector to attempt to automatically guess the\n"
 "character sets used in ID3 tags."
-msgstr ""
-
-#: dialogs/TagDialog.cpp:419
-msgid "Filename Layout Chooser"
-msgstr "Bijarkerê Bicihbûna Navê-pelê "
-
-#: dialogs/TagDialog.cpp:510
-msgid "Tags"
-msgstr "Etîket"
-
-#: dialogs/TagDialog.cpp:666 dialogs/TagDialog.cpp:674
-msgctxt "The value for this tag is not known"
-msgid "Unknown"
-msgstr "Nenas"
-
-#: dialogs/TagDialog.cpp:711
-#, kde-format
-msgid "Track Details: %1 by %2"
-msgstr "Kitekitên Stranê: %1 alî yê %2"
-
-#: dialogs/TagDialog.cpp:717
-#, kde-format
-msgctxt "The amount of tracks being edited"
-msgid "1 Track"
-msgid_plural "Information for %1 Tracks"
-msgstr[0] "1 Track"
-msgstr[1] "Agahî ji bo %1 Stranan"
-
-#: dialogs/TagDialog.cpp:746 dialogs/TagDialog.cpp:756
-#, kde-format
-msgid "<b>%1</b> by <b>%2</b>"
-msgstr "<b>%1</b> alî yê <b>%2</b>"
-
-#: dialogs/TagDialog.cpp:748 dialogs/TagDialog.cpp:758
-#, kde-format
-msgid "<b>%1</b>"
-msgstr "<b>%1</b>"
-
-#: dialogs/TagDialog.cpp:754
-#, kde-format
-msgid "<b>%1</b> by <b>%2</b> on <b>%3</b>"
-msgstr "<b>%1</b> alî yê <b>%2</b> di <b>%3</b> de"
-
-#: dialogs/TagDialog.cpp:764
-#, kde-format
-msgid "Editing 1 file"
-msgid_plural "Editing %1 files"
-msgstr[0] "1 pel tê guherandin"
-msgstr[1] "%1 pel tên guherandin"
-
-#: dialogs/TagDialog.cpp:796
-#, fuzzy
-#| msgid "Never"
-msgctxt "When this track first played"
-msgid "Never"
-msgstr "Ti car"
-
-#: dialogs/TagDialog.cpp:801
-msgctxt "When this track was last played"
-msgid "Never"
-msgstr "Tu car"
-
-#: dialogs/TagDialog.cpp:805
-msgctxt "The collection this track is part of"
-msgid "None"
-msgstr "Ne Yek Jî"
-
-#: dialogs/TagDialog.cpp:1326
-msgid ""
-"Writing to file failed. Please check permissions and available disc space."
 msgstr ""
 
 #: dialogs/FilenameLayoutDialog.cpp:240 dialogs/FilenameLayoutDialog.cpp:245
@@ -12106,6 +12036,76 @@ msgstr ""
 #| msgid "Manage presets"
 msgid "Error saving preset"
 msgstr "Pêş-avakirinan bi rê ve bibe"
+
+#: dialogs/TagDialog.cpp:420
+msgid "Filename Layout Chooser"
+msgstr "Bijarkerê Bicihbûna Navê-pelê "
+
+#: dialogs/TagDialog.cpp:511
+msgid "Tags"
+msgstr "Etîket"
+
+#: dialogs/TagDialog.cpp:667 dialogs/TagDialog.cpp:675
+msgctxt "The value for this tag is not known"
+msgid "Unknown"
+msgstr "Nenas"
+
+#: dialogs/TagDialog.cpp:712
+#, kde-format
+msgid "Track Details: %1 by %2"
+msgstr "Kitekitên Stranê: %1 alî yê %2"
+
+#: dialogs/TagDialog.cpp:718
+#, kde-format
+msgctxt "The amount of tracks being edited"
+msgid "1 Track"
+msgid_plural "Information for %1 Tracks"
+msgstr[0] "1 Track"
+msgstr[1] "Agahî ji bo %1 Stranan"
+
+#: dialogs/TagDialog.cpp:747 dialogs/TagDialog.cpp:757
+#, kde-format
+msgid "<b>%1</b> by <b>%2</b>"
+msgstr "<b>%1</b> alî yê <b>%2</b>"
+
+#: dialogs/TagDialog.cpp:749 dialogs/TagDialog.cpp:759
+#, kde-format
+msgid "<b>%1</b>"
+msgstr "<b>%1</b>"
+
+#: dialogs/TagDialog.cpp:755
+#, kde-format
+msgid "<b>%1</b> by <b>%2</b> on <b>%3</b>"
+msgstr "<b>%1</b> alî yê <b>%2</b> di <b>%3</b> de"
+
+#: dialogs/TagDialog.cpp:765
+#, kde-format
+msgid "Editing 1 file"
+msgid_plural "Editing %1 files"
+msgstr[0] "1 pel tê guherandin"
+msgstr[1] "%1 pel tên guherandin"
+
+#: dialogs/TagDialog.cpp:797
+#, fuzzy
+#| msgid "Never"
+msgctxt "When this track first played"
+msgid "Never"
+msgstr "Ti car"
+
+#: dialogs/TagDialog.cpp:802
+msgctxt "When this track was last played"
+msgid "Never"
+msgstr "Tu car"
+
+#: dialogs/TagDialog.cpp:806
+msgctxt "The collection this track is part of"
+msgid "None"
+msgstr "Ne Yek Jî"
+
+#: dialogs/TagDialog.cpp:1328
+msgid ""
+"Writing to file failed. Please check permissions and available disc space."
+msgstr ""
 
 #: dynamic/biases/IfElseBias.cpp:37
 msgctxt "Name of the \"IfElse\" bias"
