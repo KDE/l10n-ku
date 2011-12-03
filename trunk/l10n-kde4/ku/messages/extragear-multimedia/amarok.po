@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-12-02 03:32+0100\n"
+"POT-Creation-Date: 2011-12-03 03:10+0100\n"
 "PO-Revision-Date: 2009-02-21 06:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -7449,6 +7449,12 @@ msgstr "Pelan bavêje sergo"
 msgid "Delete Tracks"
 msgstr "Stranan &Jê Bibe"
 
+#: browsers/BrowserCategoryList.cpp:52
+#, fuzzy
+#| msgid "File Extension of Source"
+msgid "Filter Music Sources"
+msgstr "Pêveka Dosiya Çavkaniyê"
+
 #: browsers/BrowserBreadcrumbItem.cpp:68
 #, fuzzy
 #| msgid "File Extension of Source"
@@ -7489,12 +7495,6 @@ msgid "1 track"
 msgid_plural "%1 tracks"
 msgstr[0] "%1 stran"
 msgstr[1] "%1 stranan "
-
-#: browsers/BrowserCategoryList.cpp:52
-#, fuzzy
-#| msgid "File Extension of Source"
-msgid "Filter Music Sources"
-msgstr "Pêveka Dosiya Çavkaniyê"
 
 #: configdialog/dialogs/DatabaseConfig.cpp:93
 #, fuzzy
@@ -8782,11 +8782,6 @@ msgstr ""
 msgid "print() takes one argument"
 msgstr ""
 
-#: context/toolbar/AppletItemOverlay.cpp:104
-#: context/toolbar/AppletToolbarAppletItem.cpp:58
-msgid "Remove Applet"
-msgstr "Sepanok Rake"
-
 #: context/toolbar/AppletToolbarAddItem.cpp:47
 msgid "Add Applets..."
 msgstr "Sepanokan Lê Zêde Bike.."
@@ -8804,6 +8799,11 @@ msgstr "Sepanokan Veava Bike..."
 #| msgid "Enter preset name:"
 msgid "no applet name"
 msgstr "Navê pêş-avakirinê têkevê:"
+
+#: context/toolbar/AppletToolbarAppletItem.cpp:58
+#: context/toolbar/AppletItemOverlay.cpp:105
+msgid "Remove Applet"
+msgstr "Sepanok Rake"
 
 #: context/tools/amarokpkg.cpp:40
 #, fuzzy
@@ -14268,46 +14268,6 @@ msgstr "Bingeha Danê ya Jamendo.com Tê Daxistin"
 msgid "Updating the local Jamendo database."
 msgstr ""
 
-#: services/lastfm/LastFmTreeModel.cpp:182
-msgid "Personal Radio"
-msgstr "Radyoyên Şexsî"
-
-#: services/lastfm/LastFmTreeModel.cpp:183
-msgid "Neighborhood"
-msgstr "Cîranî"
-
-#: services/lastfm/LastFmTreeModel.cpp:368
-msgid "My Recommendations"
-msgstr "Salixdayî yên Min"
-
-#: services/lastfm/LastFmTreeModel.cpp:370
-msgid "My Radio Station"
-msgstr "Radyo ya Min"
-
-#: services/lastfm/LastFmTreeModel.cpp:372
-msgid "My Mix Radio"
-msgstr ""
-
-#: services/lastfm/LastFmTreeModel.cpp:374
-msgid "My Neighborhood"
-msgstr "Cîranê Min"
-
-#: services/lastfm/LastFmTreeModel.cpp:379
-msgid "My Top Artists"
-msgstr "Hunermendên Ez Jê Hez Dikim"
-
-#: services/lastfm/LastFmTreeModel.cpp:381
-msgid "My Tags"
-msgstr "Etîketên Min"
-
-#: services/lastfm/LastFmTreeModel.cpp:383
-msgid "Friends"
-msgstr "Hevalên Min"
-
-#: services/lastfm/LastFmTreeModel.cpp:385
-msgid "Neighbors"
-msgstr "Cîran"
-
 #: services/lastfm/LoveTrackAction.cpp:25
 #: services/lastfm/LastFmService.cpp:284
 msgid "Last.fm: Love"
@@ -14643,6 +14603,46 @@ msgstr "Bikarhêner"
 msgctxt "As in, lastfm"
 msgid "Loved Track: %1"
 msgstr "Strana Tê Hez Kirin: %1"
+
+#: services/lastfm/LastFmTreeModel.cpp:172
+msgid "Personal Radio"
+msgstr "Radyoyên Şexsî"
+
+#: services/lastfm/LastFmTreeModel.cpp:173
+msgid "Neighborhood"
+msgstr "Cîranî"
+
+#: services/lastfm/LastFmTreeModel.cpp:331
+msgid "My Recommendations"
+msgstr "Salixdayî yên Min"
+
+#: services/lastfm/LastFmTreeModel.cpp:333
+msgid "My Radio Station"
+msgstr "Radyo ya Min"
+
+#: services/lastfm/LastFmTreeModel.cpp:335
+msgid "My Mix Radio"
+msgstr ""
+
+#: services/lastfm/LastFmTreeModel.cpp:337
+msgid "My Neighborhood"
+msgstr "Cîranê Min"
+
+#: services/lastfm/LastFmTreeModel.cpp:342
+msgid "My Top Artists"
+msgstr "Hunermendên Ez Jê Hez Dikim"
+
+#: services/lastfm/LastFmTreeModel.cpp:344
+msgid "My Tags"
+msgstr "Etîketên Min"
+
+#: services/lastfm/LastFmTreeModel.cpp:346
+msgid "Friends"
+msgstr "Hevalên Min"
+
+#: services/lastfm/LastFmTreeModel.cpp:348
+msgid "Neighbors"
+msgstr "Cîran"
 
 #: services/magnatune/MagnatuneCollectionLocation.cpp:42
 msgid "Preview Tracks"
@@ -15155,12 +15155,6 @@ msgctxt ""
 msgid "Amazon"
 msgstr "Pir gelek baş e"
 
-#: services/amazon/AmazonShoppingCartView.cpp:64
-#, fuzzy
-#| msgid "&Remove from iPod"
-msgid "Remove from Cart"
-msgstr "Jê iPod ê &rake"
-
 #: services/amazon/AmazonStore.cpp:100
 msgid "Access the Amazon MP3 Store directly from Amarok"
 msgstr ""
@@ -15192,22 +15186,22 @@ msgid ""
 "settings to make the store work."
 msgstr ""
 
-#: services/amazon/AmazonStore.cpp:403
+#: services/amazon/AmazonStore.cpp:409
 msgid "Select results page to show"
 msgstr ""
 
-#: services/amazon/AmazonStore.cpp:426
+#: services/amazon/AmazonStore.cpp:432
 #, fuzzy
 #| msgid "Add to playlist"
 msgctxt "Add selected item to your shopping cart"
 msgid "Add to Cart"
 msgstr "lîsteya lêdanê"
 
-#: services/amazon/AmazonStore.cpp:427
+#: services/amazon/AmazonStore.cpp:433
 msgid "Add selected item to your shopping cart"
 msgstr ""
 
-#: services/amazon/AmazonStore.cpp:434
+#: services/amazon/AmazonStore.cpp:440
 #, fuzzy
 #| msgctxt "@title buttontext for popup-menu"
 #| msgid "View"
@@ -15215,40 +15209,46 @@ msgctxt "View your shopping cart contents"
 msgid "View Cart"
 msgstr "Bergeh"
 
-#: services/amazon/AmazonStore.cpp:435
+#: services/amazon/AmazonStore.cpp:441
 msgid "View your shopping cart contents"
 msgstr ""
 
-#: services/amazon/AmazonStore.cpp:442
+#: services/amazon/AmazonStore.cpp:448
 #, fuzzy
 #| msgid " on <b>%1</b>"
 msgctxt "Checkout your shopping cart"
 msgid "Checkout"
 msgstr " di <b>%1</b> de"
 
-#: services/amazon/AmazonStore.cpp:443
+#: services/amazon/AmazonStore.cpp:449
 msgid "Checkout your shopping cart"
 msgstr ""
 
-#: services/amazon/AmazonStore.cpp:463
+#: services/amazon/AmazonStore.cpp:469
 msgid "Error: Querying MP3 Music Store database failed. :-("
 msgstr ""
 
-#: services/amazon/AmazonStore.cpp:498
+#: services/amazon/AmazonStore.cpp:504
 msgid "Error: Received an invalid reply. :-("
 msgstr ""
 
-#: services/amazon/AmazonStore.cpp:518
+#: services/amazon/AmazonStore.cpp:524
 #, fuzzy
 #| msgid "Unable to retrieve Wikipedia information: %1"
 msgid "Error: Unable to open temporary file. :-("
 msgstr "Nekarî agahiyan ji Wikipedia bîne: %1"
 
-#: services/amazon/AmazonStore.cpp:538
+#: services/amazon/AmazonStore.cpp:544
 #, fuzzy
 #| msgid "Unable to retrieve Wikipedia information: %1"
 msgid "Error: Unable to parse temporary file. :-("
 msgstr "Nekarî agahiyan ji Wikipedia bîne: %1"
+
+#: services/amazon/AmazonShoppingCartView.cpp:64
+#, fuzzy
+#| msgid "&Remove from iPod"
+msgid "Remove from Cart"
+msgstr "Jê iPod ê &rake"
 
 #: services/amazon/AmazonItemTreeView.cpp:271
 #, fuzzy
