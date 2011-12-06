@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-09-08 04:08+0200\n"
+"POT-Creation-Date: 2011-12-06 06:27+0100\n"
 "PO-Revision-Date: 2009-01-06 14:08+0200\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -136,14 +136,14 @@ msgstr ""
 #. i18n: file: SensorDisplayLib/SensorLoggerSettingsWidget.ui:16
 #. i18n: ectx: property (title), widget (QGroupBox, titleFrame)
 #: SensorDisplayLib/DancingBarsSettings.cpp:57 WorkSheetSettings.cpp:50
-#: rc.cpp:5 rc.cpp:116
+#: rc.cpp:5 rc.cpp:92
 msgid "Title"
 msgstr "Sernav"
 
 #. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:35
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, m_title)
 #: SensorDisplayLib/DancingBarsSettings.cpp:62
-#: SensorDisplayLib/FancyPlotterSettings.cpp:73 rc.cpp:47
+#: SensorDisplayLib/FancyPlotterSettings.cpp:73 rc.cpp:23
 msgid "Enter the title of the display here."
 msgstr "Sernavê nîşanderê binivîse li vir."
 
@@ -179,7 +179,7 @@ msgstr "Hişyarî"
 
 #. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:59
 #. i18n: ectx: property (title), widget (QGroupBox, GroupBox1)
-#: SensorDisplayLib/DancingBarsSettings.cpp:107 rc.cpp:92
+#: SensorDisplayLib/DancingBarsSettings.cpp:107 rc.cpp:68
 msgid "Alarm for Minimum Value"
 msgstr "Hişyarî ji bo Nirxê Biçûktirîn"
 
@@ -192,19 +192,19 @@ msgstr "Hişyarî yê çalak bike"
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_lowerLimitActive)
 #. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:71
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_lowerLimitActive)
-#: SensorDisplayLib/DancingBarsSettings.cpp:113 rc.cpp:56 rc.cpp:98
+#: SensorDisplayLib/DancingBarsSettings.cpp:113 rc.cpp:32 rc.cpp:74
 msgid "Enable the minimum value alarm."
 msgstr "Nirxê biçûktirîn yê hişyarî yê çalak dike."
 
 #. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:97
 #. i18n: ectx: property (text), widget (QLabel, m_lblLowerLimit)
-#: SensorDisplayLib/DancingBarsSettings.cpp:116 rc.cpp:101
+#: SensorDisplayLib/DancingBarsSettings.cpp:116 rc.cpp:77
 msgid "Lower limit:"
 msgstr "Sînora Jêr:"
 
 #. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:123
 #. i18n: ectx: property (title), widget (QGroupBox, GroupBox1_2)
-#: SensorDisplayLib/DancingBarsSettings.cpp:130 rc.cpp:104
+#: SensorDisplayLib/DancingBarsSettings.cpp:130 rc.cpp:80
 msgid "Alarm for Maximum Value"
 msgstr "Hişyarî ji bo Nirxê Mezintirîn"
 
@@ -212,13 +212,13 @@ msgstr "Hişyarî ji bo Nirxê Mezintirîn"
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_upperLimitActive)
 #. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:135
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_upperLimitActive)
-#: SensorDisplayLib/DancingBarsSettings.cpp:136 rc.cpp:65 rc.cpp:110
+#: SensorDisplayLib/DancingBarsSettings.cpp:136 rc.cpp:41 rc.cpp:86
 msgid "Enable the maximum value alarm."
 msgstr "Nirxê mezintirîn ya hişyarî yê çalak dike."
 
 #. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:161
 #. i18n: ectx: property (text), widget (QLabel, m_lblUpperLimit)
-#: SensorDisplayLib/DancingBarsSettings.cpp:139 rc.cpp:113
+#: SensorDisplayLib/DancingBarsSettings.cpp:139 rc.cpp:89
 msgid "Upper limit:"
 msgstr "Sînora Jor:"
 
@@ -239,14 +239,14 @@ msgstr ""
 
 #. i18n: file: SensorDisplayLib/ListViewSettingsWidget.ui:77
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
-#. i18n: file: SensorDisplayLib/LogFileSettings.ui:74
-#. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:228
 #. i18n: ectx: property (text), widget (QLabel, textLabel3_2)
 #. i18n: file: SensorDisplayLib/SensorLoggerSettingsWidget.ui:64
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#. i18n: file: SensorDisplayLib/LogFileSettings.ui:67
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #: SensorDisplayLib/DancingBarsSettings.cpp:175
-#: SensorDisplayLib/LogFile.cpp:100 rc.cpp:17 rc.cpp:29 rc.cpp:80 rc.cpp:125
+#: SensorDisplayLib/LogFile.cpp:100 rc.cpp:17 rc.cpp:56 rc.cpp:101 rc.cpp:116
 msgid "Background color:"
 msgstr "Rengê rûerdê:"
 
@@ -581,16 +581,6 @@ msgstr "Germahî"
 msgid "List View Settings"
 msgstr ""
 
-#: SensorDisplayLib/LogFile.cpp:92
-msgid "File logging settings"
-msgstr ""
-
-#. i18n: file: SensorDisplayLib/LogFileSettings.ui:61
-#. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: SensorDisplayLib/LogFile.cpp:98 rc.cpp:26
-msgid "Foreground color:"
-msgstr "Rengên pêş-erdê:"
-
 #: SensorDisplayLib/MultiMeterSettings.cpp:31
 msgctxt ""
 "Multimeter is a sensor display that mimics 'digital multimeter' aparatus"
@@ -598,12 +588,12 @@ msgid "Multimeter Settings"
 msgstr ""
 
 #: SensorDisplayLib/SensorDisplay.cpp:118
-#: SensorDisplayLib/SensorLogger.cpp:598
+#: SensorDisplayLib/SensorLogger.cpp:600
 msgid "&Properties"
 msgstr "&Taybetmendî"
 
 #: SensorDisplayLib/SensorDisplay.cpp:123
-#: SensorDisplayLib/SensorLogger.cpp:603
+#: SensorDisplayLib/SensorLogger.cpp:605
 msgid "&Remove Display"
 msgstr ""
 
@@ -616,54 +606,10 @@ msgid ""
 "p>%1</qt>"
 msgstr ""
 
-#: SensorDisplayLib/SensorLogger.cpp:138
-msgid "Logging"
-msgstr "Tomar"
-
-#. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:31
-#. i18n: ectx: property (title), widget (QGroupBox, timerFrame)
-#: SensorDisplayLib/SensorLogger.cpp:141 rc.cpp:86
-#, fuzzy
-#| msgid "Update interval:"
-msgid "Timer Interval"
-msgstr "Navbera rojane kirinê:"
-
-#: SensorDisplayLib/SensorLogger.cpp:144
-msgid "Sensor Name"
-msgstr ""
-
-#: SensorDisplayLib/SensorLogger.cpp:147
-msgid "Host Name"
-msgstr "Navê Hostê"
-
-#: SensorDisplayLib/SensorLogger.cpp:150
-msgid "Log File"
-msgstr ""
-
-#: SensorDisplayLib/SensorLogger.cpp:431
 #: SensorDisplayLib/SensorLoggerDlg.cpp:32
+#: SensorDisplayLib/SensorLogger.cpp:433
 msgid "Sensor Logger"
 msgstr ""
-
-#: SensorDisplayLib/SensorLogger.cpp:608
-msgid "&Remove Sensor"
-msgstr ""
-
-#: SensorDisplayLib/SensorLogger.cpp:613
-msgid "&Edit Sensor..."
-msgstr ""
-
-#: SensorDisplayLib/SensorLogger.cpp:621
-#, fuzzy
-#| msgid "Logging"
-msgid "St&op Logging"
-msgstr "Tomar"
-
-#: SensorDisplayLib/SensorLogger.cpp:624
-#, fuzzy
-#| msgid "Logging"
-msgid "S&tart Logging"
-msgstr "Tomar"
 
 #: SensorDisplayLib/SensorLoggerSettings.cpp:30
 msgid "Sensor Logger Settings"
@@ -689,6 +635,60 @@ msgstr "Rewş"
 msgid "Label"
 msgstr "Etîket"
 
+#: SensorDisplayLib/LogFile.cpp:92
+msgid "File logging settings"
+msgstr ""
+
+#. i18n: file: SensorDisplayLib/LogFileSettings.ui:54
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: SensorDisplayLib/LogFile.cpp:98 rc.cpp:113
+msgid "Foreground color:"
+msgstr "Rengên pêş-erdê:"
+
+#: SensorDisplayLib/SensorLogger.cpp:138
+msgid "Logging"
+msgstr "Tomar"
+
+#. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:31
+#. i18n: ectx: property (title), widget (QGroupBox, timerFrame)
+#: SensorDisplayLib/SensorLogger.cpp:141 rc.cpp:62
+#, fuzzy
+#| msgid "Update interval:"
+msgid "Timer Interval"
+msgstr "Navbera rojane kirinê:"
+
+#: SensorDisplayLib/SensorLogger.cpp:144
+msgid "Sensor Name"
+msgstr ""
+
+#: SensorDisplayLib/SensorLogger.cpp:147
+msgid "Host Name"
+msgstr "Navê Hostê"
+
+#: SensorDisplayLib/SensorLogger.cpp:150
+msgid "Log File"
+msgstr ""
+
+#: SensorDisplayLib/SensorLogger.cpp:610
+msgid "&Remove Sensor"
+msgstr ""
+
+#: SensorDisplayLib/SensorLogger.cpp:615
+msgid "&Edit Sensor..."
+msgstr ""
+
+#: SensorDisplayLib/SensorLogger.cpp:623
+#, fuzzy
+#| msgid "Logging"
+msgid "St&op Logging"
+msgstr "Tomar"
+
+#: SensorDisplayLib/SensorLogger.cpp:626
+#, fuzzy
+#| msgid "Logging"
+msgid "S&tart Logging"
+msgstr "Tomar"
+
 #: TimerSettings.cpp:38
 msgid "Timer Settings"
 msgstr ""
@@ -703,78 +703,13 @@ msgstr "Navbera rojane kirinê:"
 
 #. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:49
 #. i18n: ectx: property (suffix), widget (KIntNumInput, m_timerInterval)
-#: TimerSettings.cpp:58 WorkSheetSettings.cpp:94 rc.cpp:89
+#: TimerSettings.cpp:58 WorkSheetSettings.cpp:94 rc.cpp:65
 msgid " sec"
 msgstr " çirke"
 
 #: TimerSettings.cpp:61 WorkSheetSettings.cpp:100
 msgid "All displays of the sheet are updated at the rate specified here."
 msgstr ""
-
-#: WorkSheet.cpp:89
-#, kde-format
-msgid "Cannot open the file %1."
-msgstr "Pelê %1 nayê vekirin."
-
-#: WorkSheet.cpp:97
-#, kde-format
-msgid "The file %1 does not contain valid XML."
-msgstr "Di pela %1 de XML a derbasdar tune ye."
-
-#: WorkSheet.cpp:104
-#, kde-format
-msgid ""
-"The file %1 does not contain a valid worksheet definition, which must have a "
-"document type 'KSysGuardWorkSheet'."
-msgstr ""
-
-#: WorkSheet.cpp:128
-#, kde-format
-msgid "The file %1 has an invalid worksheet size."
-msgstr ""
-
-#: WorkSheet.cpp:229
-#, kde-format
-msgid "Cannot save file %1"
-msgstr "Pelê %1 nayê tomarkirin"
-
-#: WorkSheet.cpp:275
-msgid "The clipboard does not contain a valid display description."
-msgstr ""
-
-#: WorkSheet.cpp:376
-msgid "Select Display Type"
-msgstr "Teşeyê Xuyakirinê Hilbijêre"
-
-#: WorkSheet.cpp:377
-msgid "&Line graph"
-msgstr "Xanxanka &Rêzik"
-
-#: WorkSheet.cpp:378
-msgid "&Digital display"
-msgstr "Xuyakirina &Dîjîtal"
-
-#: WorkSheet.cpp:379
-msgid "&Bar graph"
-msgstr "Xanxanka &Giloverîk"
-
-#: WorkSheet.cpp:380
-msgid "Log to a &file"
-msgstr "Di &pelê de tomar bike"
-
-#: WorkSheet.cpp:529
-msgid "Remove this display?"
-msgstr ""
-
-#: WorkSheet.cpp:530
-#, fuzzy
-#| msgid "Delete Display"
-msgid "Remove Display"
-msgstr "Xuyakirinê Jê Bibe"
-
-#: WorkSheet.cpp:571
-msgid "Dummy"
-msgstr "Çêkirîtî "
 
 #: WorkSheetSettings.cpp:40
 msgid "Tab Properties"
@@ -991,6 +926,71 @@ msgstr ""
 msgid "Optional worksheet files to load"
 msgstr ""
 
+#: WorkSheet.cpp:88
+#, kde-format
+msgid "Cannot open the file %1."
+msgstr "Pelê %1 nayê vekirin."
+
+#: WorkSheet.cpp:96
+#, kde-format
+msgid "The file %1 does not contain valid XML."
+msgstr "Di pela %1 de XML a derbasdar tune ye."
+
+#: WorkSheet.cpp:103
+#, kde-format
+msgid ""
+"The file %1 does not contain a valid worksheet definition, which must have a "
+"document type 'KSysGuardWorkSheet'."
+msgstr ""
+
+#: WorkSheet.cpp:127
+#, kde-format
+msgid "The file %1 has an invalid worksheet size."
+msgstr ""
+
+#: WorkSheet.cpp:228
+#, kde-format
+msgid "Cannot save file %1"
+msgstr "Pelê %1 nayê tomarkirin"
+
+#: WorkSheet.cpp:274
+msgid "The clipboard does not contain a valid display description."
+msgstr ""
+
+#: WorkSheet.cpp:375
+msgid "Select Display Type"
+msgstr "Teşeyê Xuyakirinê Hilbijêre"
+
+#: WorkSheet.cpp:376
+msgid "&Line graph"
+msgstr "Xanxanka &Rêzik"
+
+#: WorkSheet.cpp:377
+msgid "&Digital display"
+msgstr "Xuyakirina &Dîjîtal"
+
+#: WorkSheet.cpp:378
+msgid "&Bar graph"
+msgstr "Xanxanka &Giloverîk"
+
+#: WorkSheet.cpp:379
+msgid "Log to a &file"
+msgstr "Di &pelê de tomar bike"
+
+#: WorkSheet.cpp:528
+msgid "Remove this display?"
+msgstr ""
+
+#: WorkSheet.cpp:529
+#, fuzzy
+#| msgid "Delete Display"
+msgid "Remove Display"
+msgstr "Xuyakirinê Jê Bibe"
+
+#: WorkSheet.cpp:570
+msgid "Dummy"
+msgstr "Çêkirîtî "
+
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
@@ -1005,7 +1005,7 @@ msgstr "oensari@gmail.com"
 #. i18n: ectx: property (title), widget (QGroupBox, colorFrame)
 #. i18n: file: SensorDisplayLib/SensorLoggerSettingsWidget.ui:37
 #. i18n: ectx: property (title), widget (QGroupBox, colorFrame)
-#: rc.cpp:8 rc.cpp:119
+#: rc.cpp:8 rc.cpp:95
 msgid "Colors"
 msgstr "Reng"
 
@@ -1013,7 +1013,7 @@ msgstr "Reng"
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #. i18n: file: SensorDisplayLib/SensorLoggerSettingsWidget.ui:51
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: rc.cpp:11 rc.cpp:122
+#: rc.cpp:11 rc.cpp:98
 msgid "Text color:"
 msgstr "Rengê nivîsê:"
 
@@ -1023,47 +1023,9 @@ msgstr "Rengê nivîsê:"
 msgid "Grid color:"
 msgstr ""
 
-#. i18n: file: SensorDisplayLib/LogFileSettings.ui:28
-#. i18n: ectx: attribute (title), widget (QWidget, textTab)
-#: rc.cpp:20
-msgid "&Text"
-msgstr "&Nivîs"
-
-#. i18n: file: SensorDisplayLib/LogFileSettings.ui:36
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:23
-#, fuzzy
-#| msgid "Title:"
-msgid "T&itle:"
-msgstr "Sernav:"
-
-#. i18n: file: SensorDisplayLib/LogFileSettings.ui:154
-#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
-#: rc.cpp:32
-msgid "Fi&lter"
-msgstr "Pa%&rzûn"
-
-#. i18n: file: SensorDisplayLib/LogFileSettings.ui:175
-#. i18n: ectx: property (text), widget (QPushButton, addButton)
-#: rc.cpp:35
-msgid "&Add"
-msgstr "Lê&zêdekirin"
-
-#. i18n: file: SensorDisplayLib/LogFileSettings.ui:182
-#. i18n: ectx: property (text), widget (QPushButton, deleteButton)
-#: rc.cpp:38
-msgid "&Delete"
-msgstr "&Jêbirin "
-
-#. i18n: file: SensorDisplayLib/LogFileSettings.ui:189
-#. i18n: ectx: property (text), widget (QPushButton, changeButton)
-#: rc.cpp:41
-msgid "&Change"
-msgstr "&Guherandin"
-
 #. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:25
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:44
+#: rc.cpp:20
 #, fuzzy
 #| msgid "Title:"
 msgid "&Title:"
@@ -1071,13 +1033,13 @@ msgstr "Sernav:"
 
 #. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:42
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_showUnit)
-#: rc.cpp:50
+#: rc.cpp:26
 msgid "Enable this to append the unit to the title of the display."
 msgstr ""
 
 #. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:45
 #. i18n: ectx: property (text), widget (QCheckBox, m_showUnit)
-#: rc.cpp:53
+#: rc.cpp:29
 msgid "&Show unit"
 msgstr ""
 
@@ -1085,13 +1047,13 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, m_lowerLimitActive)
 #. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:68
 #. i18n: ectx: property (text), widget (QCheckBox, m_lowerLimitActive)
-#: rc.cpp:59 rc.cpp:95
+#: rc.cpp:35 rc.cpp:71
 msgid "&Enable alarm"
 msgstr "Hişyarî yê &çalak bike"
 
 #. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:85
 #. i18n: ectx: property (text), widget (QLabel, m_lblLowerLimit)
-#: rc.cpp:62
+#: rc.cpp:38
 msgid "Lo&wer limit:"
 msgstr ""
 
@@ -1099,39 +1061,77 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, m_upperLimitActive)
 #. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:132
 #. i18n: ectx: property (text), widget (QCheckBox, m_upperLimitActive)
-#: rc.cpp:68 rc.cpp:107
+#: rc.cpp:44 rc.cpp:83
 msgid "E&nable alarm"
 msgstr ""
 
 #. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:144
 #. i18n: ectx: property (text), widget (QLabel, m_lblUpperLimit)
-#: rc.cpp:71
+#: rc.cpp:47
 msgid "&Upper limit:"
 msgstr "Sînora &Jor:"
 
 #. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:174
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
-#: rc.cpp:74
+#: rc.cpp:50
 msgid "Normal digit color:"
 msgstr ""
 
 #. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:201
 #. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
-#: rc.cpp:77
+#: rc.cpp:53
 msgid "Alarm digit color:"
 msgstr ""
 
 #. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:16
 #. i18n: ectx: property (title), widget (QGroupBox, fileFrame)
-#: rc.cpp:83
+#: rc.cpp:59
 msgid "File"
 msgstr "Pel"
 
 #. i18n: file: SensorDisplayLib/SensorLoggerSettingsWidget.ui:77
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
-#: rc.cpp:128
+#: rc.cpp:104
 msgid "Alarm color:"
 msgstr "Rengê alarmê:"
+
+#. i18n: file: SensorDisplayLib/LogFileSettings.ui:21
+#. i18n: ectx: attribute (title), widget (QWidget, textTab)
+#: rc.cpp:107
+msgid "&Text"
+msgstr "&Nivîs"
+
+#. i18n: file: SensorDisplayLib/LogFileSettings.ui:29
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:110
+#, fuzzy
+#| msgid "Title:"
+msgid "T&itle:"
+msgstr "Sernav:"
+
+#. i18n: file: SensorDisplayLib/LogFileSettings.ui:139
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: rc.cpp:119
+msgid "Fi&lter"
+msgstr "Pa%&rzûn"
+
+#. i18n: file: SensorDisplayLib/LogFileSettings.ui:160
+#. i18n: ectx: property (text), widget (QPushButton, addButton)
+#: rc.cpp:122
+msgid "&Add"
+msgstr "Lê&zêdekirin"
+
+#. i18n: file: SensorDisplayLib/LogFileSettings.ui:167
+#. i18n: ectx: property (text), widget (QPushButton, deleteButton)
+#: rc.cpp:125
+msgid "&Delete"
+msgstr "&Jêbirin "
+
+#. i18n: file: SensorDisplayLib/LogFileSettings.ui:174
+#. i18n: ectx: property (text), widget (QPushButton, changeButton)
+#: rc.cpp:128
+msgid "&Change"
+msgstr "&Guherandin"
 
 #. i18n: file: ksysguardui.rc:4
 #. i18n: ectx: Menu (file)
