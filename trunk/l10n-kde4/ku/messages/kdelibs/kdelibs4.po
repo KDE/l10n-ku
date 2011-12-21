@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-12-02 04:24+0100\n"
+"POT-Creation-Date: 2011-12-21 04:41+0100\n"
 "PO-Revision-Date: 2010-08-13 15:45+0200\n"
 "Last-Translator: Erdal Ronahî <erdal.ronahi@gmail.com>\n"
 "Language-Team: Kurdish Team http://pckurd.net\n"
@@ -813,7 +813,7 @@ msgstr "&Mîheng"
 
 #. i18n: file: kdeui/xmlgui/ui_standards.rc:177
 #. i18n: ectx: Menu (help)
-#: rc.cpp:445 kdeui/widgets/khelpmenu.cpp:148
+#: rc.cpp:445 kdeui/widgets/khelpmenu.cpp:188
 msgid "&Help"
 msgstr "&Alîkarî"
 
@@ -2094,7 +2094,7 @@ msgstr "Enter"
 
 #. i18n: file: nepomuk/utils/daterangeselectionwidget.ui:81
 #. i18n: ectx: property (text), widget (QToolButton, m_rangesButton)
-#: rc.cpp:1109 kdecore/localization/klocale_kde.cpp:2517
+#: rc.cpp:1109 kdecore/localization/klocale_kde.cpp:2523
 #: nepomuk/utils/daterangeselectionwidget.cpp:193
 msgid "Today"
 msgstr "Îro"
@@ -2379,7 +2379,7 @@ msgstr "(Logo tuneye)"
 
 #: kde3support/kdeui/k3aboutdialog.cpp:1044
 #: kdeui/dialogs/kaboutapplicationdialog.cpp:92
-#: kdeui/dialogs/kmessagebox.cpp:1049 kdeui/widgets/khelpmenu.cpp:264
+#: kdeui/dialogs/kmessagebox.cpp:1049 kdeui/widgets/khelpmenu.cpp:290
 #, kde-format
 msgid "About %1"
 msgstr "Der barê %1 de"
@@ -4673,49 +4673,49 @@ msgctxt ""
 msgid "%1 and %2"
 msgstr "%1 û %2"
 
-#: kdecore/localization/klocale_kde.cpp:2462
+#: kdecore/localization/klocale_kde.cpp:2468
 msgctxt "Before Noon KLocale::LongName"
 msgid "Ante Meridiem"
 msgstr ""
 
-#: kdecore/localization/klocale_kde.cpp:2463
+#: kdecore/localization/klocale_kde.cpp:2469
 msgctxt "Before Noon KLocale::ShortName"
 msgid "AM"
 msgstr ""
 
-#: kdecore/localization/klocale_kde.cpp:2464
+#: kdecore/localization/klocale_kde.cpp:2470
 #, fuzzy
 #| msgid "AC"
 msgctxt "Before Noon KLocale::NarrowName"
 msgid "A"
 msgstr "AC"
 
-#: kdecore/localization/klocale_kde.cpp:2467
+#: kdecore/localization/klocale_kde.cpp:2473
 msgctxt "After Noon KLocale::LongName"
 msgid "Post Meridiem"
 msgstr ""
 
-#: kdecore/localization/klocale_kde.cpp:2468
+#: kdecore/localization/klocale_kde.cpp:2474
 msgctxt "After Noon KLocale::ShortName"
 msgid "PM"
 msgstr ""
 
-#: kdecore/localization/klocale_kde.cpp:2469
+#: kdecore/localization/klocale_kde.cpp:2475
 msgctxt "After Noon KLocale::NarrowName"
 msgid "P"
 msgstr ""
 
-#: kdecore/localization/klocale_kde.cpp:2520
+#: kdecore/localization/klocale_kde.cpp:2526
 msgid "Yesterday"
 msgstr "Do"
 
-#: kdecore/localization/klocale_kde.cpp:2536
+#: kdecore/localization/klocale_kde.cpp:2542
 #, kde-format
 msgctxt "concatenation of dates and time"
 msgid "%1 %2"
 msgstr "%1 %2"
 
-#: kdecore/localization/klocale_kde.cpp:2576
+#: kdecore/localization/klocale_kde.cpp:2582
 #, kde-format
 msgctxt "concatenation of date/time and time zone"
 msgid "%1 %2"
@@ -5331,14 +5331,6 @@ msgctxt "Encodings menu"
 msgid "Autodetect"
 msgstr "Xweber bibîne"
 
-#: kdeui/actions/krecentfilesaction.cpp:80
-msgid "No Entries"
-msgstr "Ketan Tune"
-
-#: kdeui/actions/krecentfilesaction.cpp:84
-msgid "Clear List"
-msgstr "Lîstê Paqij Bike"
-
 #: kdeui/actions/ktogglefullscreenaction.cpp:48
 #: kdeui/actions/ktogglefullscreenaction.cpp:55
 #: kdeui/actions/ktogglefullscreenaction.cpp:85
@@ -5371,6 +5363,14 @@ msgstr ""
 #: kdeui/actions/kaction.cpp:126
 msgid "Ambiguous shortcut detected"
 msgstr ""
+
+#: kdeui/actions/krecentfilesaction.cpp:81
+msgid "No Entries"
+msgstr "Ketan Tune"
+
+#: kdeui/actions/krecentfilesaction.cpp:85
+msgid "Clear List"
+msgstr "Lîstê Paqij Bike"
 
 #: kdeui/actions/kstandardaction.cpp:93 kdeui/util/kstandardguiitem.cpp:210
 msgctxt "go back"
@@ -5406,8 +5406,8 @@ msgstr "&Darikê Rewşê Nîşan Bide"
 
 #: kdeui/actions/kstandardaction.cpp:542
 msgid ""
-"Show Statusbar<p>Shows the statusbar, which is the bar at the bottom of the "
-"window used for status information.</p>"
+"Show Statusbar<br /><br />Shows the statusbar, which is the bar at the "
+"bottom of the window used for status information."
 msgstr ""
 
 #: kdeui/dialogs/kaboutapplicationdialog.cpp:84
@@ -6945,12 +6945,18 @@ msgctxt "@info:whatsthis"
 msgid "Here you can choose the font style to be used."
 msgstr "Ji vê derê tu dikarî şêwaza curetîpan biguherîne."
 
-#: kdeui/fonts/kfontchooser.cpp:296 kdeui/fonts/kfontchooser.cpp:639
+#: kdeui/fonts/kfontchooser.cpp:295 kdeui/fonts/kfontchooser.cpp:623
+#: kdeui/fonts/kfontchooser.cpp:640
+msgctxt "@item font"
+msgid "Regular"
+msgstr "Asayî"
+
+#: kdeui/fonts/kfontchooser.cpp:296 kdeui/fonts/kfontchooser.cpp:644
 msgctxt "@item font"
 msgid "Italic"
 msgstr "Îtalîk"
 
-#: kdeui/fonts/kfontchooser.cpp:297 kdeui/fonts/kfontchooser.cpp:640
+#: kdeui/fonts/kfontchooser.cpp:297 kdeui/fonts/kfontchooser.cpp:645
 msgctxt "@item font"
 msgid "Oblique"
 msgstr "Xwar"
@@ -7010,7 +7016,7 @@ msgstr "Curenivîsa Derbasdar"
 #. noun-adjective congruence wrt. gender of the family name).
 #. The message provides the dynamic context 'family', which is
 #. the family name to which the style string corresponds.
-#: kdeui/fonts/kfontchooser.cpp:625
+#: kdeui/fonts/kfontchooser.cpp:630
 #, kde-format
 msgctxt "@item Font style"
 msgid "%1"
@@ -7174,24 +7180,24 @@ msgid "Minimize"
 msgstr "Biçûk bike"
 
 #: kdeui/notifications/ksystemtrayicon.cpp:215
-#: kdeui/notifications/kstatusnotifieritem.cpp:487
-#: kdeui/notifications/kstatusnotifieritem.cpp:925
+#: kdeui/notifications/kstatusnotifieritem.cpp:488
+#: kdeui/notifications/kstatusnotifieritem.cpp:926
 msgid "&Minimize"
 msgstr "&Biçûk Bike"
 
 #: kdeui/notifications/ksystemtrayicon.cpp:219
-#: kdeui/notifications/kstatusnotifieritem.cpp:923
+#: kdeui/notifications/kstatusnotifieritem.cpp:924
 msgid "&Restore"
 msgstr "&Paşde bîne"
 
 #: kdeui/notifications/ksystemtrayicon.cpp:239
-#: kdeui/notifications/kstatusnotifieritem.cpp:933
+#: kdeui/notifications/kstatusnotifieritem.cpp:934
 #, kde-format
 msgid "<qt>Are you sure you want to quit <b>%1</b>?</qt>"
 msgstr "tu dixwazî ji bernameya <qt><b>%1</b> derkevî?</qt>"
 
 #: kdeui/notifications/ksystemtrayicon.cpp:242
-#: kdeui/notifications/kstatusnotifieritem.cpp:936
+#: kdeui/notifications/kstatusnotifieritem.cpp:937
 msgid "Confirm Quit From System Tray"
 msgstr "Derketina Ji Berkêşka Pergalê Erê Bike"
 
@@ -9213,31 +9219,65 @@ msgstr "Bikşîne &Jor"
 msgid "Move &Down"
 msgstr "Bikşîne &Jêr"
 
-#: kdeui/widgets/khelpmenu.cpp:153 kdeui/actions/kstandardaction_p.h:111
-#, kde-format
-msgid "%1 &Handbook"
-msgstr "%1 &Pirtûka Destan"
+#. i18n: Placeholder text in line edit widgets is the text appearing
+#. before any user input, briefly explaining to the user what to type
+#. (e.g. "Enter search pattern").
+#. By default the text is set in italic, which may not be appropriate
+#. for some languages and scripts (e.g. for CJK ideographs).
+#. i18n: Placeholder text in text edit widgets is the text appearing
+#. before any user input, briefly explaining to the user what to type
+#. (e.g. "Enter message").
+#. By default the text is set in italic, which may not be appropriate
+#. for some languages and scripts (e.g. for CJK ideographs).
+#: kdeui/widgets/klineedit.cpp:87 kdeui/widgets/ktextedit.cpp:79
+msgctxt "Italic placeholder text in line edits: 0 no, 1 yes"
+msgid "1"
+msgstr "1"
 
-#: kdeui/widgets/khelpmenu.cpp:162
-msgid "What's &This"
-msgstr "&Ev Çi ye"
+#: kdeui/widgets/klineedit.cpp:296
+msgctxt "@action:button Clear current text in the line edit"
+msgid "Clear text"
+msgstr "Nivîsê Paqij Bike"
 
-#: kdeui/widgets/khelpmenu.cpp:173 kdeui/actions/kstandardaction_p.h:114
-msgid "&Report Bug..."
-msgstr "&Raporekê Çêbike..."
+#: kdeui/widgets/klineedit.cpp:1216
+msgctxt "@title:menu"
+msgid "Text Completion"
+msgstr "Temamkirina Nivîsê"
 
-#: kdeui/widgets/khelpmenu.cpp:183 kdeui/actions/kstandardaction_p.h:115
-msgid "Switch Application &Language..."
-msgstr "&Zimanê Sepanê Biguherîne..."
+#: kdeui/widgets/klineedit.cpp:1223
+msgctxt "@item:inmenu Text Completion"
+msgid "None"
+msgstr "Ne yek jî"
 
-#: kdeui/widgets/khelpmenu.cpp:194 kdeui/actions/kstandardaction_p.h:116
-#, kde-format
-msgid "&About %1"
-msgstr "&Der barê %1 de"
+#: kdeui/widgets/klineedit.cpp:1224
+msgctxt "@item:inmenu Text Completion"
+msgid "Manual"
+msgstr "Bi destan"
 
-#: kdeui/widgets/khelpmenu.cpp:199 kdeui/actions/kstandardaction_p.h:117
-msgid "About &KDE"
-msgstr "Der barê &KDE de"
+#: kdeui/widgets/klineedit.cpp:1225
+msgctxt "@item:inmenu Text Completion"
+msgid "Automatic"
+msgstr "Bixweber"
+
+#: kdeui/widgets/klineedit.cpp:1226
+msgctxt "@item:inmenu Text Completion"
+msgid "Dropdown List"
+msgstr "Lîsteya Rêzkirî"
+
+#: kdeui/widgets/klineedit.cpp:1227
+msgctxt "@item:inmenu Text Completion"
+msgid "Short Automatic"
+msgstr "Bixweber û Kurt"
+
+#: kdeui/widgets/klineedit.cpp:1228
+msgctxt "@item:inmenu Text Completion"
+msgid "Dropdown List && Automatic"
+msgstr "Lîsteya Rêzkirî && Bixweber"
+
+#: kdeui/widgets/klineedit.cpp:1259
+msgctxt "@item:inmenu Text Completion"
+msgid "Default"
+msgstr "Standard"
 
 #: kdeui/widgets/khistorycombobox.cpp:177 khtml/rendering/render_form.cpp:936
 msgid "Clear &History"
@@ -9364,66 +9404,6 @@ msgstr "Mifteya Bêpiştgir"
 #: kdeui/widgets/klanguagebutton.cpp:177
 msgid "without name"
 msgstr "bênav"
-
-#. i18n: Placeholder text in line edit widgets is the text appearing
-#. before any user input, briefly explaining to the user what to type
-#. (e.g. "Enter search pattern").
-#. By default the text is set in italic, which may not be appropriate
-#. for some languages and scripts (e.g. for CJK ideographs).
-#. i18n: Placeholder text in text edit widgets is the text appearing
-#. before any user input, briefly explaining to the user what to type
-#. (e.g. "Enter message").
-#. By default the text is set in italic, which may not be appropriate
-#. for some languages and scripts (e.g. for CJK ideographs).
-#: kdeui/widgets/klineedit.cpp:87 kdeui/widgets/ktextedit.cpp:79
-msgctxt "Italic placeholder text in line edits: 0 no, 1 yes"
-msgid "1"
-msgstr "1"
-
-#: kdeui/widgets/klineedit.cpp:296
-msgctxt "@action:button Clear current text in the line edit"
-msgid "Clear text"
-msgstr "Nivîsê Paqij Bike"
-
-#: kdeui/widgets/klineedit.cpp:1213
-msgctxt "@title:menu"
-msgid "Text Completion"
-msgstr "Temamkirina Nivîsê"
-
-#: kdeui/widgets/klineedit.cpp:1220
-msgctxt "@item:inmenu Text Completion"
-msgid "None"
-msgstr "Ne yek jî"
-
-#: kdeui/widgets/klineedit.cpp:1221
-msgctxt "@item:inmenu Text Completion"
-msgid "Manual"
-msgstr "Bi destan"
-
-#: kdeui/widgets/klineedit.cpp:1222
-msgctxt "@item:inmenu Text Completion"
-msgid "Automatic"
-msgstr "Bixweber"
-
-#: kdeui/widgets/klineedit.cpp:1223
-msgctxt "@item:inmenu Text Completion"
-msgid "Dropdown List"
-msgstr "Lîsteya Rêzkirî"
-
-#: kdeui/widgets/klineedit.cpp:1224
-msgctxt "@item:inmenu Text Completion"
-msgid "Short Automatic"
-msgstr "Bixweber û Kurt"
-
-#: kdeui/widgets/klineedit.cpp:1225
-msgctxt "@item:inmenu Text Completion"
-msgid "Dropdown List && Automatic"
-msgstr "Lîsteya Rêzkirî && Bixweber"
-
-#: kdeui/widgets/klineedit.cpp:1256
-msgctxt "@item:inmenu Text Completion"
-msgid "Default"
-msgstr "Standard"
 
 #: kdeui/widgets/ktextedit.cpp:527
 msgid "Speak Text"
@@ -10814,6 +10794,10 @@ msgstr "Danezana Neçalak ya Paceyên Vedibe yên Têne Astengkirin &Nîşan Bid
 msgid "&Configure JavaScript New Window Policies..."
 msgstr "Polîtîkayên Paceyên Vedibin yên JacaSkrîptê &Veava Bike..."
 
+#: khtml/khtmlview.cpp:1842
+msgid "Access Keys activated"
+msgstr "Bişkokên Gihiştînê Hatine Çalakkirin"
+
 #: khtml/khtmlimage.cpp:202
 #, kde-format
 msgid "%1 (%2 - %3x%4 Pixels)"
@@ -10837,10 +10821,6 @@ msgstr "Wêne- %1x%2 Tipik"
 #: khtml/khtmlimage.cpp:217
 msgid "Done."
 msgstr "Qediya."
-
-#: khtml/khtmlview.cpp:1842
-msgid "Access Keys activated"
-msgstr "Bişkokên Gihiştînê Hatine Çalakkirin"
 
 #: khtml/ecma/kjs_binding.cpp:185
 msgid ""
@@ -12385,63 +12365,6 @@ msgstr "Bi rastî jî tu dixwazî '%1' bixebitînî?"
 msgid "Execute File?"
 msgstr "Bila di ser pel de were nivisandin?"
 
-#: kparts/browseropenorsavequestion.cpp:100
-#, kde-format
-msgctxt "@label Type of file"
-msgid "Type: %1"
-msgstr "Cure: %1"
-
-#: kparts/browseropenorsavequestion.cpp:108
-msgctxt "@label:checkbox"
-msgid "Remember action for files of this type"
-msgstr "Çalakiyê ji bo pelên bi vê cureyê bi bîr bîne"
-
-#: kparts/browseropenorsavequestion.cpp:139
-#: kparts/browseropenorsavequestion.cpp:214
-#, kde-format
-msgctxt "@label:button"
-msgid "&Open with %1"
-msgstr "Bi %1 &veke"
-
-#: kparts/browseropenorsavequestion.cpp:188
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Open &with %1"
-msgstr "&Bi %1 veke"
-
-#: kparts/browseropenorsavequestion.cpp:199
-#: kparts/browseropenorsavequestion.cpp:293
-#, kde-format
-msgctxt "@info"
-msgid "Open '%1'?"
-msgstr "Bila '%1' veke?"
-
-#: kparts/browseropenorsavequestion.cpp:203
-msgctxt "@label:button"
-msgid "&Open with..."
-msgstr "&Veke bi..."
-
-#: kparts/browseropenorsavequestion.cpp:223
-msgctxt "@label:button"
-msgid "&Open with"
-msgstr "&Veke bi"
-
-#: kparts/browseropenorsavequestion.cpp:290
-msgctxt "@label:button"
-msgid "&Open"
-msgstr "&Veke"
-
-#: kparts/browseropenorsavequestion.cpp:315
-#, kde-format
-msgctxt "@label File name"
-msgid "Name: %1"
-msgstr "Nav: %1"
-
-#: kparts/browseropenorsavequestion.cpp:317
-msgctxt "@info:whatsthis"
-msgid "This is the file name suggested by the server"
-msgstr "Ev, navê pelê yê aliyê pêşkêşkerê ve tê pêşniyarkirin e"
-
 #: kparts/part.cpp:815
 msgid "Untitled"
 msgstr "Bênav"
@@ -12458,6 +12381,63 @@ msgstr ""
 #: kparts/part.cpp:823
 msgid "Close Document"
 msgstr "Belgeyê Bigire"
+
+#: kparts/browseropenorsavequestion.cpp:100
+#, kde-format
+msgctxt "@label Type of file"
+msgid "Type: %1"
+msgstr "Cure: %1"
+
+#: kparts/browseropenorsavequestion.cpp:108
+msgctxt "@label:checkbox"
+msgid "Remember action for files of this type"
+msgstr "Çalakiyê ji bo pelên bi vê cureyê bi bîr bîne"
+
+#: kparts/browseropenorsavequestion.cpp:139
+#: kparts/browseropenorsavequestion.cpp:215
+#, kde-format
+msgctxt "@label:button"
+msgid "&Open with %1"
+msgstr "Bi %1 &veke"
+
+#: kparts/browseropenorsavequestion.cpp:189
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open &with %1"
+msgstr "&Bi %1 veke"
+
+#: kparts/browseropenorsavequestion.cpp:200
+#: kparts/browseropenorsavequestion.cpp:294
+#, kde-format
+msgctxt "@info"
+msgid "Open '%1'?"
+msgstr "Bila '%1' veke?"
+
+#: kparts/browseropenorsavequestion.cpp:204
+msgctxt "@label:button"
+msgid "&Open with..."
+msgstr "&Veke bi..."
+
+#: kparts/browseropenorsavequestion.cpp:224
+msgctxt "@label:button"
+msgid "&Open with"
+msgstr "&Veke bi"
+
+#: kparts/browseropenorsavequestion.cpp:291
+msgctxt "@label:button"
+msgid "&Open"
+msgstr "&Veke"
+
+#: kparts/browseropenorsavequestion.cpp:316
+#, kde-format
+msgctxt "@label File name"
+msgid "Name: %1"
+msgstr "Nav: %1"
+
+#: kparts/browseropenorsavequestion.cpp:318
+msgctxt "@info:whatsthis"
+msgid "This is the file name suggested by the server"
+msgstr "Ev, navê pelê yê aliyê pêşkêşkerê ve tê pêşniyarkirin e"
 
 #: kpty/kptydevice.cpp:322
 msgid "Error reading from PTY"
@@ -12757,7 +12737,7 @@ msgstr[1] "%1 pêvek bixweber hatin rakirin gorê girêdayiyên pêvekê"
 msgid "Search Plugins"
 msgstr "Pêvekên Lêgerînê"
 
-#: kutils/kpluginselector.cpp:768 kutils/kpluginselector.cpp:797
+#: kutils/kpluginselector.cpp:767 kutils/kpluginselector.cpp:796
 #, fuzzy, kde-format
 #| msgid "About %1"
 msgctxt "Used only for plugins"
@@ -13012,7 +12992,7 @@ msgctxt "@option:check A filter on file type - media video"
 msgid "Video"
 msgstr "&Dîtin"
 
-#: nepomuk/utils/facet.cpp:143 nepomuk/utils/typefacet.cpp:74
+#: nepomuk/utils/facet.cpp:143 nepomuk/utils/typefacet.cpp:73
 #, fuzzy
 #| msgid "Pages"
 msgctxt "@option:check A filter on file type"
@@ -13185,42 +13165,42 @@ msgstr "Taybet..."
 msgid "Enter Search Terms..."
 msgstr "Gotineke lêgerînê têkeve virê"
 
-#: nepomuk/utils/typefacet.cpp:81
+#: nepomuk/utils/typefacet.cpp:80
 #, fuzzy
 #| msgid "Contact author"
 msgctxt "@option:check A filter on resource type"
 msgid "Contacts"
 msgstr "Ji nivîskarê re binivîse"
 
-#: nepomuk/utils/typefacet.cpp:83
+#: nepomuk/utils/typefacet.cpp:82
 #, fuzzy
 #| msgid "Email"
 msgctxt "@option:check A filter on resource type"
 msgid "Emails"
 msgstr "E-peyam"
 
-#: nepomuk/utils/typefacet.cpp:85
+#: nepomuk/utils/typefacet.cpp:84
 #, fuzzy
 #| msgid "Task"
 msgctxt "@option:check A filter on resource type"
 msgid "Tasks"
 msgstr "Peywir"
 
-#: nepomuk/utils/typefacet.cpp:87
+#: nepomuk/utils/typefacet.cpp:86
 #, fuzzy
 #| msgid "Task"
 msgctxt "@option:check A filter on resource type"
 msgid "Tags"
 msgstr "Peywir"
 
-#: nepomuk/utils/typefacet.cpp:221 nepomuk/utils/typefacet.cpp:230
+#: nepomuk/utils/typefacet.cpp:220 nepomuk/utils/typefacet.cpp:229
 #, fuzzy
 #| msgid "File"
 msgctxt "@option:check Do filter on type - show only files"
 msgid "Files"
 msgstr "Pel"
 
-#: nepomuk/utils/typefacet.cpp:223 nepomuk/utils/typefacet.cpp:232
+#: nepomuk/utils/typefacet.cpp:222 nepomuk/utils/typefacet.cpp:231
 #, fuzzy
 #| msgctxt "@item Text character set"
 #| msgid "Other"
@@ -13531,6 +13511,11 @@ msgstr "&Darikê Amûran Veava Bike..."
 msgid "Configure &Notifications..."
 msgstr "&Hişyariyan Veava Bike..."
 
+#: kdeui/actions/kstandardaction_p.h:111
+#, kde-format
+msgid "%1 &Handbook"
+msgstr "%1 &Pirtûka Destan"
+
 #: kdeui/actions/kstandardaction_p.h:112
 msgid "What's &This?"
 msgstr "&Ev Çi Ye?"
@@ -13538,6 +13523,23 @@ msgstr "&Ev Çi Ye?"
 #: kdeui/actions/kstandardaction_p.h:113
 msgid "Tip of the &Day"
 msgstr "Mijara &rojê"
+
+#: kdeui/actions/kstandardaction_p.h:114
+msgid "&Report Bug..."
+msgstr "&Raporekê Çêbike..."
+
+#: kdeui/actions/kstandardaction_p.h:115
+msgid "Switch Application &Language..."
+msgstr "&Zimanê Sepanê Biguherîne..."
+
+#: kdeui/actions/kstandardaction_p.h:116
+#, kde-format
+msgid "&About %1"
+msgstr "&Der barê %1 de"
+
+#: kdeui/actions/kstandardaction_p.h:117
+msgid "About &KDE"
+msgstr "Der barê &KDE de"
 
 #: kross/qts/values_p.h:69
 #, kde-format
@@ -13553,9 +13555,8 @@ msgstr "bn"
 msgid "pm"
 msgstr "pn"
 
-#~ msgctxt "@item font"
-#~ msgid "Regular"
-#~ msgstr "Asayî"
+#~ msgid "What's &This"
+#~ msgstr "&Ev Çi ye"
 
 #, fuzzy
 #~| msgid "Next year"
