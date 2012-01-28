@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-01-10 04:05+0100\n"
+"POT-Creation-Date: 2012-01-28 04:12+0100\n"
 "PO-Revision-Date: 2009-01-06 14:18+0200\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: American English <kde-i18n-doc@lists.kde.org>\n"
@@ -625,63 +625,6 @@ msgstr "Bila Guhartin Jê Bên Birin?"
 msgid "&Discard Changes"
 msgstr "Guhartinan &Jê Bibe"
 
-#: src/konqtabs.cpp:66
-#, fuzzy
-msgid ""
-"This bar contains the list of currently open tabs. Click on a tab to make it "
-"active. You can also use keyboard shortcuts to navigate through tabs. The "
-"text on the tab shows the content currently open in it; place your mouse "
-"over the tab to see the full title, in case it has been shortened to fit the "
-"tab width."
-msgstr ""
-"Ev darik lîsteya hemû pekanên niha vekirî ne nîşan dide. Ji bo çalakirina "
-"pekanekê wê pekanê bitikîne. Tu dikarî di pekanê de li şûna logoya malperê "
-"bişkojka girtinê jî bidî xuyakirin. Tu dikarî bi kineriyên klavyeyê jî ji "
-"pekanekê herî ya din. Nivîsa li ser pekanê sernivîsa malpera vekirî ye. Ji "
-"bo tu hemû sernivîsa wê bibînî bi mişk here ser sepanê û hinekî li ser "
-"bimîne."
-
-#: src/konqtabs.cpp:100
-msgid "Open a new tab"
-msgstr "Hilfirîneke nû veke"
-
-#: src/konqtabs.cpp:109
-msgid "Close the current tab"
-msgstr "Hilfirîna derbasdar bigire"
-
-#: src/konqtabs.cpp:326 src/konqmainwindow.cpp:3683
-msgid "&Reload All Tabs"
-msgstr "Hemû Tabloyan Ji nû ve Bar Bike"
-
-#: src/konqtabs.cpp:349 src/konqmainwindow.cpp:2496
-#: src/konqmainwindow.cpp:3621
-msgid "Close &Other Tabs"
-msgstr "Pekanên &Din Bigire"
-
-#: src/konqtabs.cpp:460 src/konqmainwindow.cpp:3594
-msgid "&New Tab"
-msgstr "Pekana &Nû"
-
-#: src/konqtabs.cpp:465
-msgid "&Duplicate Tab"
-msgstr "&Paceyê 2qat bike"
-
-#: src/konqtabs.cpp:470
-msgid "&Reload Tab"
-msgstr "Hilfirînê Ji Nû Ve Bar Bike"
-
-#: src/konqtabs.cpp:477
-msgid "Other Tabs"
-msgstr "Hilfirînên Din"
-
-#: src/konqtabs.cpp:482
-msgid "D&etach Tab"
-msgstr "Hilfirînê Ji Hev V&eçirîne"
-
-#: src/konqtabs.cpp:488
-msgid "&Close Tab"
-msgstr "Hilfirînê &Bigire"
-
 #: src/konqview.cpp:1203
 msgid ""
 "The page you are trying to view is the result of posted form data. If you "
@@ -802,6 +745,11 @@ msgstr "Bi rastî jî tu dixwazî hemû pekanan bigirî?"
 msgctxt "@title:window"
 msgid "Close Other Tabs Confirmation"
 msgstr "Erêkirina Ji bo Girtina Pekanên Din"
+
+#: src/konqmainwindow.cpp:2496 src/konqmainwindow.cpp:3621
+#: src/konqtabs.cpp:352
+msgid "Close &Other Tabs"
+msgstr "Pekanên &Din Bigire"
 
 #: src/konqmainwindow.cpp:2511
 msgid ""
@@ -947,6 +895,10 @@ msgstr "Dîtên wekî &çep/rast par bike"
 msgid "Split View &Top/Bottom"
 msgstr "Dîtinê wekî &jor/jêr par bike"
 
+#: src/konqmainwindow.cpp:3594 src/konqtabs.cpp:463
+msgid "&New Tab"
+msgstr "Pekana &Nû"
+
 #: src/konqmainwindow.cpp:3600
 msgid "&Duplicate Current Tab"
 msgstr "Pekana &Rojane Ji ber bigire"
@@ -999,6 +951,10 @@ msgstr "Profîlên Dîtinê &Bar Bike"
 #: src/konqmainwindow.cpp:3678 sidebar/web_module/web_module.cpp:68
 msgid "&Reload"
 msgstr "Ji &Nû Ve Bar Bike"
+
+#: src/konqmainwindow.cpp:3683 src/konqtabs.cpp:329
+msgid "&Reload All Tabs"
+msgstr "Hemû Tabloyan Ji nû ve Bar Bike"
 
 #: src/konqmainwindow.cpp:3691
 msgid "&Force Reload"
@@ -1338,6 +1294,50 @@ msgid ""
 msgstr ""
 "Çewtiyeke avakirinê dixuye. Te Konqueror bi peleke cureyê %1 re têkildar "
 "kiriye, lê Konqueror nikare van pelan veke."
+
+#: src/konqtabs.cpp:66
+#, fuzzy
+msgid ""
+"This bar contains the list of currently open tabs. Click on a tab to make it "
+"active. You can also use keyboard shortcuts to navigate through tabs. The "
+"text on the tab shows the content currently open in it; place your mouse "
+"over the tab to see the full title, in case it has been shortened to fit the "
+"tab width."
+msgstr ""
+"Ev darik lîsteya hemû pekanên niha vekirî ne nîşan dide. Ji bo çalakirina "
+"pekanekê wê pekanê bitikîne. Tu dikarî di pekanê de li şûna logoya malperê "
+"bişkojka girtinê jî bidî xuyakirin. Tu dikarî bi kineriyên klavyeyê jî ji "
+"pekanekê herî ya din. Nivîsa li ser pekanê sernivîsa malpera vekirî ye. Ji "
+"bo tu hemû sernivîsa wê bibînî bi mişk here ser sepanê û hinekî li ser "
+"bimîne."
+
+#: src/konqtabs.cpp:100
+msgid "Open a new tab"
+msgstr "Hilfirîneke nû veke"
+
+#: src/konqtabs.cpp:109
+msgid "Close the current tab"
+msgstr "Hilfirîna derbasdar bigire"
+
+#: src/konqtabs.cpp:468
+msgid "&Duplicate Tab"
+msgstr "&Paceyê 2qat bike"
+
+#: src/konqtabs.cpp:473
+msgid "&Reload Tab"
+msgstr "Hilfirînê Ji Nû Ve Bar Bike"
+
+#: src/konqtabs.cpp:480
+msgid "Other Tabs"
+msgstr "Hilfirînên Din"
+
+#: src/konqtabs.cpp:485
+msgid "D&etach Tab"
+msgstr "Hilfirînê Ji Hev V&eçirîne"
+
+#: src/konqtabs.cpp:491
+msgid "&Close Tab"
+msgstr "Hilfirînê &Bigire"
 
 #: sidebar/history_module/history_module.cpp:126
 #, fuzzy
