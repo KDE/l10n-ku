@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-01-28 04:18+0100\n"
+"POT-Creation-Date: 2012-01-29 03:03+0100\n"
 "PO-Revision-Date: 2010-08-13 15:45+0200\n"
 "Last-Translator: Erdal Ronahî <erdal.ronahi@gmail.com>\n"
 "Language-Team: Kurdish Team http://pckurd.net\n"
@@ -4886,7 +4886,7 @@ msgid "Connection timed out"
 msgstr "Dem têra girêdanê nekir"
 
 #: kdecore/network/klocalsocket_unix.cpp:213
-#: kdecore/network/klocalsocket_unix.cpp:293 nepomuk/core/resource.cpp:538
+#: kdecore/network/klocalsocket_unix.cpp:293 nepomuk/core/resource.cpp:539
 msgid "Unknown error"
 msgstr "Çewtiya nenas"
 
@@ -5408,8 +5408,8 @@ msgstr "&Darikê Rewşê Nîşan Bide"
 
 #: kdeui/actions/kstandardaction.cpp:542
 msgid ""
-"Show Statusbar<br /><br />Shows the statusbar, which is the bar at the "
-"bottom of the window used for status information."
+"Show Statusbar<p>Shows the statusbar, which is the bar at the bottom of the "
+"window used for status information.</p>"
 msgstr ""
 
 #: kdeui/dialogs/kaboutapplicationdialog.cpp:84
@@ -6947,18 +6947,12 @@ msgctxt "@info:whatsthis"
 msgid "Here you can choose the font style to be used."
 msgstr "Ji vê derê tu dikarî şêwaza curetîpan biguherîne."
 
-#: kdeui/fonts/kfontchooser.cpp:295 kdeui/fonts/kfontchooser.cpp:623
-#: kdeui/fonts/kfontchooser.cpp:640
-msgctxt "@item font"
-msgid "Regular"
-msgstr "Asayî"
-
-#: kdeui/fonts/kfontchooser.cpp:296 kdeui/fonts/kfontchooser.cpp:644
+#: kdeui/fonts/kfontchooser.cpp:296 kdeui/fonts/kfontchooser.cpp:639
 msgctxt "@item font"
 msgid "Italic"
 msgstr "Îtalîk"
 
-#: kdeui/fonts/kfontchooser.cpp:297 kdeui/fonts/kfontchooser.cpp:645
+#: kdeui/fonts/kfontchooser.cpp:297 kdeui/fonts/kfontchooser.cpp:640
 msgctxt "@item font"
 msgid "Oblique"
 msgstr "Xwar"
@@ -7018,7 +7012,7 @@ msgstr "Curenivîsa Derbasdar"
 #. noun-adjective congruence wrt. gender of the family name).
 #. The message provides the dynamic context 'family', which is
 #. the family name to which the style string corresponds.
-#: kdeui/fonts/kfontchooser.cpp:630
+#: kdeui/fonts/kfontchooser.cpp:625
 #, kde-format
 msgctxt "@item Font style"
 msgid "%1"
@@ -9221,66 +9215,6 @@ msgstr "Bikşîne &Jor"
 msgid "Move &Down"
 msgstr "Bikşîne &Jêr"
 
-#. i18n: Placeholder text in line edit widgets is the text appearing
-#. before any user input, briefly explaining to the user what to type
-#. (e.g. "Enter search pattern").
-#. By default the text is set in italic, which may not be appropriate
-#. for some languages and scripts (e.g. for CJK ideographs).
-#. i18n: Placeholder text in text edit widgets is the text appearing
-#. before any user input, briefly explaining to the user what to type
-#. (e.g. "Enter message").
-#. By default the text is set in italic, which may not be appropriate
-#. for some languages and scripts (e.g. for CJK ideographs).
-#: kdeui/widgets/klineedit.cpp:87 kdeui/widgets/ktextedit.cpp:79
-msgctxt "Italic placeholder text in line edits: 0 no, 1 yes"
-msgid "1"
-msgstr "1"
-
-#: kdeui/widgets/klineedit.cpp:296
-msgctxt "@action:button Clear current text in the line edit"
-msgid "Clear text"
-msgstr "Nivîsê Paqij Bike"
-
-#: kdeui/widgets/klineedit.cpp:1216
-msgctxt "@title:menu"
-msgid "Text Completion"
-msgstr "Temamkirina Nivîsê"
-
-#: kdeui/widgets/klineedit.cpp:1223
-msgctxt "@item:inmenu Text Completion"
-msgid "None"
-msgstr "Ne yek jî"
-
-#: kdeui/widgets/klineedit.cpp:1224
-msgctxt "@item:inmenu Text Completion"
-msgid "Manual"
-msgstr "Bi destan"
-
-#: kdeui/widgets/klineedit.cpp:1225
-msgctxt "@item:inmenu Text Completion"
-msgid "Automatic"
-msgstr "Bixweber"
-
-#: kdeui/widgets/klineedit.cpp:1226
-msgctxt "@item:inmenu Text Completion"
-msgid "Dropdown List"
-msgstr "Lîsteya Rêzkirî"
-
-#: kdeui/widgets/klineedit.cpp:1227
-msgctxt "@item:inmenu Text Completion"
-msgid "Short Automatic"
-msgstr "Bixweber û Kurt"
-
-#: kdeui/widgets/klineedit.cpp:1228
-msgctxt "@item:inmenu Text Completion"
-msgid "Dropdown List && Automatic"
-msgstr "Lîsteya Rêzkirî && Bixweber"
-
-#: kdeui/widgets/klineedit.cpp:1259
-msgctxt "@item:inmenu Text Completion"
-msgid "Default"
-msgstr "Standard"
-
 #: kdeui/widgets/khistorycombobox.cpp:177 khtml/rendering/render_form.cpp:936
 msgid "Clear &History"
 msgstr "&Rabirdûyê Jê Bibe"
@@ -9406,6 +9340,21 @@ msgstr "Mifteya Bêpiştgir"
 #: kdeui/widgets/klanguagebutton.cpp:177
 msgid "without name"
 msgstr "bênav"
+
+#. i18n: Placeholder text in text edit widgets is the text appearing
+#. before any user input, briefly explaining to the user what to type
+#. (e.g. "Enter message").
+#. By default the text is set in italic, which may not be appropriate
+#. for some languages and scripts (e.g. for CJK ideographs).
+#. i18n: Placeholder text in line edit widgets is the text appearing
+#. before any user input, briefly explaining to the user what to type
+#. (e.g. "Enter search pattern").
+#. By default the text is set in italic, which may not be appropriate
+#. for some languages and scripts (e.g. for CJK ideographs).
+#: kdeui/widgets/ktextedit.cpp:79 kdeui/widgets/klineedit.cpp:87
+msgctxt "Italic placeholder text in line edits: 0 no, 1 yes"
+msgid "1"
+msgstr "1"
 
 #: kdeui/widgets/ktextedit.cpp:527
 msgid "Speak Text"
@@ -9632,6 +9581,51 @@ msgstr "Skrîptê Super"
 #: kdeui/widgets/ksqueezedtextlabel.cpp:165
 msgid "&Copy Full Text"
 msgstr "Hemû Nivîsê &Ji Ber Bigire"
+
+#: kdeui/widgets/klineedit.cpp:296
+msgctxt "@action:button Clear current text in the line edit"
+msgid "Clear text"
+msgstr "Nivîsê Paqij Bike"
+
+#: kdeui/widgets/klineedit.cpp:1213
+msgctxt "@title:menu"
+msgid "Text Completion"
+msgstr "Temamkirina Nivîsê"
+
+#: kdeui/widgets/klineedit.cpp:1220
+msgctxt "@item:inmenu Text Completion"
+msgid "None"
+msgstr "Ne yek jî"
+
+#: kdeui/widgets/klineedit.cpp:1221
+msgctxt "@item:inmenu Text Completion"
+msgid "Manual"
+msgstr "Bi destan"
+
+#: kdeui/widgets/klineedit.cpp:1222
+msgctxt "@item:inmenu Text Completion"
+msgid "Automatic"
+msgstr "Bixweber"
+
+#: kdeui/widgets/klineedit.cpp:1223
+msgctxt "@item:inmenu Text Completion"
+msgid "Dropdown List"
+msgstr "Lîsteya Rêzkirî"
+
+#: kdeui/widgets/klineedit.cpp:1224
+msgctxt "@item:inmenu Text Completion"
+msgid "Short Automatic"
+msgstr "Bixweber û Kurt"
+
+#: kdeui/widgets/klineedit.cpp:1225
+msgctxt "@item:inmenu Text Completion"
+msgid "Dropdown List && Automatic"
+msgstr "Lîsteya Rêzkirî && Bixweber"
+
+#: kdeui/widgets/klineedit.cpp:1256
+msgctxt "@item:inmenu Text Completion"
+msgid "Default"
+msgstr "Standard"
 
 #: kdeui/widgets/ktimezonewidget.cpp:66
 msgctxt "Define an area in the time zone, like a town area"
@@ -12755,15 +12749,15 @@ msgstr "Pêkhênanan Hilbijêre"
 msgid "Enable component"
 msgstr "Pêkhênanan Çalak Bike"
 
-#: nepomuk/core/resource.cpp:532
+#: nepomuk/core/resource.cpp:533
 msgid "Success"
 msgstr "Serkeftin"
 
-#: nepomuk/core/resource.cpp:534
+#: nepomuk/core/resource.cpp:535
 msgid "Communication error"
 msgstr "Çewtiya ragihandinê"
 
-#: nepomuk/core/resource.cpp:536
+#: nepomuk/core/resource.cpp:537
 msgid "Invalid type in Database"
 msgstr "Di Danegehê de cureyeke nederbasdar"
 
@@ -13557,6 +13551,10 @@ msgstr "bn"
 #: kdecore/date/kdatetime.cpp:2991
 msgid "pm"
 msgstr "pn"
+
+#~ msgctxt "@item font"
+#~ msgid "Regular"
+#~ msgstr "Asayî"
 
 #~ msgid "What's &This"
 #~ msgstr "&Ev Çi ye"

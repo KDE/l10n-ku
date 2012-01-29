@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-shells-common\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-12-23 04:59+0100\n"
+"POT-Creation-Date: 2012-01-29 03:29+0100\n"
 "PO-Revision-Date: 2009-01-06 13:53+0200\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -158,45 +158,6 @@ msgstr ""
 msgid "widgetById requires a name of a widget or a widget object"
 msgstr ""
 
-#: widgetsexplorer/appletsfiltering.cpp:55
-#, fuzzy
-#| msgid "Categories:"
-msgid "Categories"
-msgstr "Kategorî:"
-
-#: widgetsexplorer/appletsfiltering.cpp:161
-#, fuzzy
-#| msgid "Enter search phrase here"
-msgid "Enter Search Term"
-msgstr "Gotineke lêgerînê binivîse li vir"
-
-#: widgetsexplorer/appletsfiltering.cpp:166
-#: widgetsexplorer/appletsfiltering.cpp:168
-#, fuzzy
-#| msgid "Get New Widgets"
-msgid "Get New Widgets..."
-msgstr "Alavên Nû Bîne"
-
-#: widgetsexplorer/appletsfiltering.cpp:309
-msgid "Download New Plasma Widgets"
-msgstr "Alavên Plasma yên Nû Bidaxîne"
-
-#: widgetsexplorer/appletsfiltering.cpp:321
-#, kde-format
-msgctxt ""
-"%1 is a type of widgets, as defined by e.g. some plasma-packagestructure-*."
-"desktop files"
-msgid "Download New %1"
-msgstr "%1 ya Nû Hat Daxistin"
-
-#: widgetsexplorer/appletsfiltering.cpp:331
-msgid "Install Widget From Local File..."
-msgstr "Alavê Saz Bike Jê Pela Heyî..."
-
-#: widgetsexplorer/kcategorizeditemsviewmodels.cpp:72
-msgid "Filters"
-msgstr "Parzûn"
-
 #: widgetsexplorer/openwidgetassistant.cpp:46
 msgid "Select the type of widget to install from the list below."
 msgstr "Jê lîsteya jêr teşeyê alavê hilbijêre ji bo saz kirinê."
@@ -228,53 +189,43 @@ msgstr "Têk çûna Sazkirinê"
 msgid "Installing the package %1 failed."
 msgstr "Sazkirina pakêta %1 têk çû."
 
-#: widgetsexplorer/plasmaappletitemmodel.cpp:194
+#: widgetsexplorer/kcategorizeditemsviewmodels.cpp:72
+msgid "Filters"
+msgstr "Parzûn"
+
+#: widgetsexplorer/plasmaappletitemmodel.cpp:226
 msgid "Containments"
 msgstr "Bergeh"
 
-#: widgetsexplorer/applettooltip.cpp:123
-#, fuzzy
-#| msgid "Install New Widgets"
-msgid "Uninstall Widget"
-msgstr "Alavên Nû Saz Bike"
-
-#: widgetsexplorer/applettooltip.cpp:180
-#, kde-format
-msgid "Version %1"
-msgstr ""
-
-#: widgetsexplorer/applettooltip.cpp:188
-#, kde-format
-msgid "<font color=\"%1\">Author:</font>"
-msgstr ""
-
-#: widgetsexplorer/applettooltip.cpp:197
-#, kde-format
-msgid "<font color=\"%1\">Website:</font>"
-msgstr ""
-
-#: widgetsexplorer/applettooltip.cpp:201
-#, kde-format
-msgid "<font color=\"%1\">License:</font>"
-msgstr ""
-
-#: widgetsexplorer/applettooltip.cpp:211
-msgid "Unknown Applet"
-msgstr ""
-
-#: widgetsexplorer/widgetexplorer.cpp:115
+#: widgetsexplorer/widgetexplorer.cpp:127
 msgid "All Widgets"
 msgstr "Hemû Alav"
 
-#: widgetsexplorer/widgetexplorer.cpp:119
+#: widgetsexplorer/widgetexplorer.cpp:131
 msgid "Running"
 msgstr ""
 
-#: widgetsexplorer/widgetexplorer.cpp:123
+#: widgetsexplorer/widgetexplorer.cpp:135
 #, fuzzy
 #| msgid "Categories:"
 msgid "Categories:"
 msgstr "Kategorî:"
+
+#: widgetsexplorer/widgetexplorer.cpp:251
+msgid "Download New Plasma Widgets"
+msgstr "Alavên Plasma yên Nû Bidaxîne"
+
+#: widgetsexplorer/widgetexplorer.cpp:263
+#, kde-format
+msgctxt ""
+"%1 is a type of widgets, as defined by e.g. some plasma-packagestructure-*."
+"desktop files"
+msgid "Download New %1"
+msgstr "%1 ya Nû Hat Daxistin"
+
+#: widgetsexplorer/widgetexplorer.cpp:275
+msgid "Install Widget From Local File..."
+msgstr "Alavê Saz Bike Jê Pela Heyî..."
 
 #: backgrounddialog.cpp:209
 msgid "Desktop Settings"
@@ -341,6 +292,26 @@ msgstr ""
 #: rc.cpp:20
 msgid "Mouse Plugins"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Categories:"
+#~ msgid "Categories"
+#~ msgstr "Kategorî:"
+
+#, fuzzy
+#~| msgid "Enter search phrase here"
+#~ msgid "Enter Search Term"
+#~ msgstr "Gotineke lêgerînê binivîse li vir"
+
+#, fuzzy
+#~| msgid "Get New Widgets"
+#~ msgid "Get New Widgets..."
+#~ msgstr "Alavên Nû Bîne"
+
+#, fuzzy
+#~| msgid "Install New Widgets"
+#~ msgid "Uninstall Widget"
+#~ msgstr "Alavên Nû Saz Bike"
 
 #, fuzzy
 #~| msgid "Add Widget"
