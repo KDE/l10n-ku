@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_launcher\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-01-12 04:16+0100\n"
+"POT-Creation-Date: 2012-01-29 13:35+0100\n"
 "PO-Revision-Date: 2008-12-25 02:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <gnu-ku-wergerandin at lists dot sourceforge dot "
@@ -57,31 +57,13 @@ msgstr "Home Folder"
 msgid "Network Folders"
 msgstr "Peldankên Torê"
 
-#: core/recentlyusedmodel.cpp:109
-msgid "Documents"
-msgstr "Belge"
+#: core/applicationmodel.cpp:335
+msgid "Games"
+msgstr ""
 
-#: core/recentlyusedmodel.cpp:120 core/systemmodel.cpp:74
-#: simpleapplet/simpleapplet.cpp:195 ui/launcher.cpp:123 ui/launcher.cpp:236
-msgid "Applications"
-msgstr "Sepan"
-
-#: core/recentlyusedmodel.cpp:186 simpleapplet/simpleapplet.cpp:197
-#: ui/launcher.cpp:124 ui/launcher.cpp:249
-msgid "Recently Used"
-msgstr "Berê bikaranî"
-
-#: core/recentlyusedmodel.cpp:188 simpleapplet/simpleapplet.cpp:199
-#, fuzzy
-#| msgid "Recently Used"
-msgid "Recently Used Documents"
-msgstr "Berê bikaranî"
-
-#: core/recentlyusedmodel.cpp:190 simpleapplet/simpleapplet.cpp:198
-#, fuzzy
-#| msgid "Clear Recent Applications"
-msgid "Recently Used Applications"
-msgstr "Sepanên Borî Pakuj bike"
+#: core/applicationmodel.cpp:429 ui/launcher.cpp:976
+msgid "All Applications"
+msgstr "Hemû Sepan"
 
 #: core/favoritesmodel.cpp:49 core/favoritesmodel.cpp:322
 #: simpleapplet/simpleapplet.cpp:193 ui/launcher.cpp:121 ui/launcher.cpp:191
@@ -192,6 +174,32 @@ msgstr "Danişîn"
 msgid "System"
 msgstr "Pergal"
 
+#: core/recentlyusedmodel.cpp:109
+msgid "Documents"
+msgstr "Belge"
+
+#: core/recentlyusedmodel.cpp:120 core/systemmodel.cpp:74
+#: simpleapplet/simpleapplet.cpp:195 ui/launcher.cpp:123 ui/launcher.cpp:236
+msgid "Applications"
+msgstr "Sepan"
+
+#: core/recentlyusedmodel.cpp:186 simpleapplet/simpleapplet.cpp:197
+#: ui/launcher.cpp:124 ui/launcher.cpp:249
+msgid "Recently Used"
+msgstr "Berê bikaranî"
+
+#: core/recentlyusedmodel.cpp:188 simpleapplet/simpleapplet.cpp:199
+#, fuzzy
+#| msgid "Recently Used"
+msgid "Recently Used Documents"
+msgstr "Berê bikaranî"
+
+#: core/recentlyusedmodel.cpp:190 simpleapplet/simpleapplet.cpp:198
+#, fuzzy
+#| msgid "Clear Recent Applications"
+msgid "Recently Used Applications"
+msgstr "Sepanên Borî Pakuj bike"
+
 #: core/systemmodel.cpp:75
 msgid "Places"
 msgstr "Cih"
@@ -216,14 +224,6 @@ msgstr ""
 #: ui/launcher.cpp:123 ui/launcher.cpp:270
 msgid "Computer"
 msgstr "Komputer"
-
-#: core/applicationmodel.cpp:335
-msgid "Games"
-msgstr ""
-
-#: core/applicationmodel.cpp:429 ui/launcher.cpp:976
-msgid "All Applications"
-msgstr "Hemû Sepan"
 
 #: main.cpp:32
 msgid "Kickoff"
@@ -348,34 +348,6 @@ msgctxt "Label of the search bar textedit"
 msgid "Search:"
 msgstr "Lêgerîn:"
 
-#: ui/launcher.cpp:194
-msgid "Sort Alphabetically (A to Z)"
-msgstr "Bi tîpan (ji A heta Z) Rêz Bike"
-
-#: ui/launcher.cpp:197
-msgid "Sort Alphabetically (Z to A)"
-msgstr "Bi tîpan (ji Z heta A) Rêz Bike"
-
-#: ui/launcher.cpp:251
-msgid "Clear Recent Applications"
-msgstr "Sepanên Borî Pakuj bike"
-
-#: ui/launcher.cpp:252
-msgid "Clear Recent Documents"
-msgstr "Belgeyên Borî Pakuj bike"
-
-#: ui/launcher.cpp:560
-#, kde-format
-msgctxt "login name, hostname"
-msgid "User <b>%1</b> on <b>%2</b>"
-msgstr "Bikarhêner <b>%1</b> di <b>%2</b> de"
-
-#: ui/launcher.cpp:562
-#, kde-format
-msgctxt "full name, login name, hostname"
-msgid "<b>%1 (%2)</b> on <b>%3</b>"
-msgstr "<b>%1 (%2)</b> di <b>%3</b> de"
-
 #: ui/contextmenufactory.cpp:85
 msgid "Advanced"
 msgstr "Pêşketî"
@@ -407,6 +379,34 @@ msgstr "Bavêje"
 #: ui/contextmenufactory.cpp:263
 msgid "Safely Remove"
 msgstr "Bi ewle Rake"
+
+#: ui/launcher.cpp:194
+msgid "Sort Alphabetically (A to Z)"
+msgstr "Bi tîpan (ji A heta Z) Rêz Bike"
+
+#: ui/launcher.cpp:197
+msgid "Sort Alphabetically (Z to A)"
+msgstr "Bi tîpan (ji Z heta A) Rêz Bike"
+
+#: ui/launcher.cpp:251
+msgid "Clear Recent Applications"
+msgstr "Sepanên Borî Pakuj bike"
+
+#: ui/launcher.cpp:252
+msgid "Clear Recent Documents"
+msgstr "Belgeyên Borî Pakuj bike"
+
+#: ui/launcher.cpp:560
+#, kde-format
+msgctxt "login name, hostname"
+msgid "User <b>%1</b> on <b>%2</b>"
+msgstr "Bikarhêner <b>%1</b> di <b>%2</b> de"
+
+#: ui/launcher.cpp:562
+#, kde-format
+msgctxt "full name, login name, hostname"
+msgid "<b>%1 (%2)</b> on <b>%3</b>"
+msgstr "<b>%1 (%2)</b> di <b>%3</b> de"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
