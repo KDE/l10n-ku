@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeqt\n"
 "Report-Msgid-Bugs-To: qt-bugs@trolltech.com\n"
-"POT-Creation-Date: 2012-01-31 08:14+0100\n"
+"POT-Creation-Date: 2012-02-01 04:59+0100\n"
 "PO-Revision-Date: 2009-01-02 15:33+0200\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -1659,22 +1659,22 @@ msgctxt "Media time description"
 msgid "%1 seconds"
 msgstr ""
 
-#: corelib/global/qglobal.cpp:2103 corelib/kernel/qsystemerror.cpp:87
+#: corelib/global/qglobal.cpp:2103 corelib/kernel/qsystemerror.cpp:112
 msgctxt "QIODevice"
 msgid "Permission denied"
 msgstr ""
 
-#: corelib/global/qglobal.cpp:2106 corelib/kernel/qsystemerror.cpp:90
+#: corelib/global/qglobal.cpp:2106 corelib/kernel/qsystemerror.cpp:115
 msgctxt "QIODevice"
 msgid "Too many open files"
 msgstr ""
 
-#: corelib/global/qglobal.cpp:2109 corelib/kernel/qsystemerror.cpp:93
+#: corelib/global/qglobal.cpp:2109 corelib/kernel/qsystemerror.cpp:118
 msgctxt "QIODevice"
 msgid "No such file or directory"
 msgstr ""
 
-#: corelib/global/qglobal.cpp:2112 corelib/kernel/qsystemerror.cpp:96
+#: corelib/global/qglobal.cpp:2112 corelib/kernel/qsystemerror.cpp:121
 msgctxt "QIODevice"
 msgid "No space left on device"
 msgstr ""
@@ -3169,15 +3169,6 @@ msgstr "Çalakkirin"
 msgid "Activates the program's main window"
 msgstr "Pencereya mak ya bernameyê çalak dike"
 
-#: gui/dialogs/qdialog.cpp:524 gui/dialogs/qwizard.cpp:698
-#: gui/kernel/qsoftkeymanager.cpp:70
-msgid "Done"
-msgstr "Qediya"
-
-#: gui/dialogs/qdialog.cpp:651 gui/kernel/qwhatsthis.cpp:527
-msgid "What's This?"
-msgstr "&Ev Çi Ye?"
-
 #: gui/dialogs/qfilesystemmodel.cpp:763 gui/itemviews/qdirmodel.cpp:1334
 #, qt-format
 msgid "%1 TB"
@@ -3276,66 +3267,6 @@ msgstr "Pergala Nivisînê"
 #: gui/dialogs/qinputdialog.cpp:223
 msgid "Enter a value:"
 msgstr ""
-
-#: gui/dialogs/qmessagebox.cpp:139
-msgid "Show Details..."
-msgstr "Kîtekîtan Nîşan bide..."
-
-#: gui/dialogs/qmessagebox.cpp:139
-msgid "Hide Details..."
-msgstr "Kîtekîtan Veşêre..."
-
-#: gui/dialogs/qmessagebox.cpp:427 gui/dialogs/qmessagebox.cpp:1272
-msgctxt "QMessageBox"
-msgid "OK"
-msgstr "Temam"
-
-#: gui/dialogs/qmessagebox.cpp:1273
-msgctxt "QMessageBox"
-msgid "Help"
-msgstr "Alîkarî"
-
-#: gui/dialogs/qmessagebox.cpp:1762
-#, fuzzy, qt-format
-#| msgid "<p>This program uses Qt version %1.</p>"
-msgid "<h3>About Qt</h3><p>This program uses Qt version %1.</p>"
-msgstr "<p>Ev bername Qt guhertoya %1 bi kar tîne.</p>"
-
-#: gui/dialogs/qmessagebox.cpp:1767
-msgid ""
-"<p>Qt is a C++ toolkit for cross-platform application development.</p><p>Qt "
-"provides single-source portability across MS&nbsp;Windows, Mac&nbsp;OS&nbsp;"
-"X, Linux, and all major commercial Unix variants. Qt is also available for "
-"embedded devices as Qt for Embedded Linux and Qt for Windows CE.</p><p>Qt is "
-"available under three different licensing options designed to accommodate "
-"the needs of our various users.</p><p>Qt licensed under our commercial "
-"license agreement is appropriate for development of proprietary/commercial "
-"software where you do not want to share any source code with third parties "
-"or otherwise cannot comply with the terms of the GNU LGPL version 2.1 or GNU "
-"GPL version 3.0.</p><p>Qt licensed under the GNU LGPL version 2.1 is "
-"appropriate for the development of Qt applications (proprietary or open "
-"source) provided you can comply with the terms and conditions of the GNU "
-"LGPL version 2.1.</p><p>Qt licensed under the GNU General Public License "
-"version 3.0 is appropriate for the development of Qt applications where you "
-"wish to use such applications in combination with software subject to the "
-"terms of the GNU GPL version 3.0 or where you are otherwise willing to "
-"comply with the terms of the GNU GPL version 3.0.</p><p>Please see <a href="
-"\"http://qt.nokia.com/products/licensing\">qt.nokia.com/products/licensing</"
-"a> for an overview of Qt licensing.</p><p>Copyright (C) 2012 Nokia "
-"Corporation and/or its subsidiary(-ies).</p><p>Qt is a Nokia product. See <a "
-"href=\"http://qt.nokia.com/\">qt.nokia.com</a> for more information.</p>"
-msgstr ""
-
-#: gui/dialogs/qmessagebox.cpp:1797
-msgid "About Qt"
-msgstr "Der barê Qt de"
-
-#: gui/dialogs/qmessagebox.cpp:1937 gui/dialogs/qmessagebox.cpp:2383
-#: gui/dialogs/qprintdialog_win.cpp:272 gui/kernel/qsoftkeymanager.cpp:64
-#: qt3support/dialogs/q3tabdialog.cpp:190
-#: qt3support/dialogs/q3tabdialog.cpp:1014
-msgid "OK"
-msgstr "Temam"
 
 #: gui/dialogs/qpagesetupdialog_unix.cpp:72
 msgid "A0"
@@ -3563,6 +3494,66 @@ msgstr "Çap"
 msgid "The 'From' value cannot be greater than the 'To' value."
 msgstr ""
 
+#: gui/dialogs/qprintdialog_win.cpp:272 gui/dialogs/qmessagebox.cpp:1937
+#: gui/dialogs/qmessagebox.cpp:2383 gui/kernel/qsoftkeymanager.cpp:64
+#: qt3support/dialogs/q3tabdialog.cpp:190
+#: qt3support/dialogs/q3tabdialog.cpp:1014
+msgid "OK"
+msgstr "Temam"
+
+#: gui/dialogs/qmessagebox.cpp:139
+msgid "Show Details..."
+msgstr "Kîtekîtan Nîşan bide..."
+
+#: gui/dialogs/qmessagebox.cpp:139
+msgid "Hide Details..."
+msgstr "Kîtekîtan Veşêre..."
+
+#: gui/dialogs/qmessagebox.cpp:427 gui/dialogs/qmessagebox.cpp:1272
+msgctxt "QMessageBox"
+msgid "OK"
+msgstr "Temam"
+
+#: gui/dialogs/qmessagebox.cpp:1273
+msgctxt "QMessageBox"
+msgid "Help"
+msgstr "Alîkarî"
+
+#: gui/dialogs/qmessagebox.cpp:1762
+#, fuzzy, qt-format
+#| msgid "<p>This program uses Qt version %1.</p>"
+msgid "<h3>About Qt</h3><p>This program uses Qt version %1.</p>"
+msgstr "<p>Ev bername Qt guhertoya %1 bi kar tîne.</p>"
+
+#: gui/dialogs/qmessagebox.cpp:1767
+msgid ""
+"<p>Qt is a C++ toolkit for cross-platform application development.</p><p>Qt "
+"provides single-source portability across MS&nbsp;Windows, Mac&nbsp;OS&nbsp;"
+"X, Linux, and all major commercial Unix variants. Qt is also available for "
+"embedded devices as Qt for Embedded Linux and Qt for Windows CE.</p><p>Qt is "
+"available under three different licensing options designed to accommodate "
+"the needs of our various users.</p><p>Qt licensed under our commercial "
+"license agreement is appropriate for development of proprietary/commercial "
+"software where you do not want to share any source code with third parties "
+"or otherwise cannot comply with the terms of the GNU LGPL version 2.1 or GNU "
+"GPL version 3.0.</p><p>Qt licensed under the GNU LGPL version 2.1 is "
+"appropriate for the development of Qt applications (proprietary or open "
+"source) provided you can comply with the terms and conditions of the GNU "
+"LGPL version 2.1.</p><p>Qt licensed under the GNU General Public License "
+"version 3.0 is appropriate for the development of Qt applications where you "
+"wish to use such applications in combination with software subject to the "
+"terms of the GNU GPL version 3.0 or where you are otherwise willing to "
+"comply with the terms of the GNU GPL version 3.0.</p><p>Please see <a href="
+"\"http://qt.nokia.com/products/licensing\">qt.nokia.com/products/licensing</"
+"a> for an overview of Qt licensing.</p><p>Copyright (C) 2012 Nokia "
+"Corporation and/or its subsidiary(-ies).</p><p>Qt is a Nokia product. See <a "
+"href=\"http://qt.nokia.com/\">qt.nokia.com</a> for more information.</p>"
+msgstr ""
+
+#: gui/dialogs/qmessagebox.cpp:1797
+msgid "About Qt"
+msgstr "Der barê Qt de"
+
 #: gui/dialogs/qprogressdialog.cpp:203 gui/dialogs/qwizard.cpp:700
 #: gui/kernel/qsoftkeymanager.cpp:76
 #: qt3support/dialogs/q3progressdialog.cpp:224
@@ -3570,6 +3561,24 @@ msgstr ""
 #: qt3support/dialogs/q3tabdialog.cpp:786
 msgid "Cancel"
 msgstr "Betal"
+
+#: gui/dialogs/qabstractprintdialog.cpp:116
+#: gui/dialogs/qabstractprintdialog.cpp:129
+#, fuzzy
+#| msgctxt "QPrintPreviewDialog"
+#| msgid "Print"
+msgctxt "QPrintDialog"
+msgid "Print"
+msgstr "Çap"
+
+#: gui/dialogs/qdialog.cpp:526 gui/dialogs/qwizard.cpp:698
+#: gui/kernel/qsoftkeymanager.cpp:70
+msgid "Done"
+msgstr "Qediya"
+
+#: gui/dialogs/qdialog.cpp:653 gui/kernel/qwhatsthis.cpp:527
+msgid "What's This?"
+msgstr "&Ev Çi Ye?"
 
 #: gui/dialogs/qwizard.cpp:688
 msgid "Go Back"
@@ -3613,15 +3622,6 @@ msgstr "&Alîkarî"
 msgctxt "QPrintPreviewDialog"
 msgid "Page Setup"
 msgstr "Sazkirina Rûpelê"
-
-#: gui/dialogs/qabstractprintdialog.cpp:116
-#: gui/dialogs/qabstractprintdialog.cpp:129
-#, fuzzy
-#| msgctxt "QPrintPreviewDialog"
-#| msgid "Print"
-msgctxt "QPrintDialog"
-msgid "Print"
-msgstr "Çap"
 
 #: gui/dialogs/qprintdialog_qws.cpp:148
 msgid "File exists"

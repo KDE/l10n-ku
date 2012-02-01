@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-01-27 03:31+0100\n"
+"POT-Creation-Date: 2012-02-01 03:53+0100\n"
 "PO-Revision-Date: 2009-02-21 06:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -109,7 +109,7 @@ msgstr "Ji ve perçeyê hez bike"
 msgid "Stop after current track: Off"
 msgstr "Ji ve perçeyê hez bike"
 
-#: equalizer/EqualizerPresets.cpp:90
+#: equalizer/EqualizerPresets.cpp:90 dialogs/EqualizerDialog.cpp:326
 msgid "Manual"
 msgstr "Bi destan"
 
@@ -12681,79 +12681,6 @@ msgid ""
 "been discarded."
 msgstr "<b><font color='red'>Çewtî:</font></b> %1"
 
-#: dialogs/EqualizerDialog.cpp:44
-#, fuzzy
-#| msgid "Enable Equalizer"
-msgid "Configure Equalizer"
-msgstr "Wekhevîkerê Çalak Bike"
-
-#: dialogs/EqualizerDialog.cpp:100
-msgid ""
-"Sorry, your current Phonon backend version does not provide equalizer "
-"support."
-msgstr ""
-
-#: dialogs/EqualizerDialog.cpp:156 dialogs/EqualizerDialog.cpp:165
-msgid ""
-"%0\n"
-"dB"
-msgstr ""
-
-#: dialogs/EqualizerDialog.cpp:256
-#, fuzzy
-#| msgctxt "State, as in disabled"
-#| msgid "Off"
-msgctxt "Equalizer state, as in, disabled"
-msgid "Off"
-msgstr "Girtî"
-
-#: dialogs/EqualizerDialog.cpp:273
-#, fuzzy
-#| msgid "Delete the preset."
-msgid "Cannot delete this preset"
-msgstr "Pêş-avakirinê jê dibe."
-
-#: dialogs/EqualizerDialog.cpp:274
-msgid "Default presets can not be deleted"
-msgstr ""
-
-#: dialogs/EqualizerDialog.cpp:275
-msgid "Error deleting preset"
-msgstr ""
-
-#: dialogs/EqualizerDialog.cpp:298
-#, fuzzy
-#| msgid "Delete the preset."
-msgid "Cannot restore this preset"
-msgstr "Pêş-avakirinê jê dibe."
-
-#: dialogs/EqualizerDialog.cpp:299
-msgid "Only default presets can be restored"
-msgstr ""
-
-#: dialogs/EqualizerDialog.cpp:300
-msgid "Error restoring preset"
-msgstr ""
-
-#: dialogs/EqualizerDialog.cpp:320
-#, fuzzy
-#| msgid "Save the preset."
-msgid "Cannot save this preset"
-msgstr "Pêş-avakirinê tomar dike."
-
-#: dialogs/EqualizerDialog.cpp:321
-msgid ""
-"Preset 'Manual' is reserved for momentary settings.\n"
-"                                              Please choose different name "
-"and try again."
-msgstr ""
-
-#: dialogs/EqualizerDialog.cpp:323
-#, fuzzy
-#| msgid "Manage presets"
-msgid "Error saving preset"
-msgstr "Pêş-avakirinan bi rê ve bibe"
-
 #: dialogs/TagDialog.cpp:420
 msgid "Filename Layout Chooser"
 msgstr "Bijarkerê Bicihbûna Navê-pelê "
@@ -12833,6 +12760,79 @@ msgstr "Rêjeya Mînakkirinê"
 #: dialogs/EditFilterDialog.cpp:50
 msgid "Edit Filter"
 msgstr "Parzûnê Biguherîne"
+
+#: dialogs/EqualizerDialog.cpp:44
+#, fuzzy
+#| msgid "Enable Equalizer"
+msgid "Configure Equalizer"
+msgstr "Wekhevîkerê Çalak Bike"
+
+#: dialogs/EqualizerDialog.cpp:100
+msgid ""
+"Sorry, your current Phonon backend version does not provide equalizer "
+"support."
+msgstr ""
+
+#: dialogs/EqualizerDialog.cpp:156 dialogs/EqualizerDialog.cpp:165
+msgid ""
+"%0\n"
+"dB"
+msgstr ""
+
+#: dialogs/EqualizerDialog.cpp:265
+#, fuzzy
+#| msgctxt "State, as in disabled"
+#| msgid "Off"
+msgctxt "Equalizer state, as in, disabled"
+msgid "Off"
+msgstr "Girtî"
+
+#: dialogs/EqualizerDialog.cpp:282
+#, fuzzy
+#| msgid "Delete the preset."
+msgid "Cannot delete this preset"
+msgstr "Pêş-avakirinê jê dibe."
+
+#: dialogs/EqualizerDialog.cpp:283
+msgid "Default presets can not be deleted"
+msgstr ""
+
+#: dialogs/EqualizerDialog.cpp:284
+msgid "Error deleting preset"
+msgstr ""
+
+#: dialogs/EqualizerDialog.cpp:307
+#, fuzzy
+#| msgid "Delete the preset."
+msgid "Cannot restore this preset"
+msgstr "Pêş-avakirinê jê dibe."
+
+#: dialogs/EqualizerDialog.cpp:308
+msgid "Only default presets can be restored"
+msgstr ""
+
+#: dialogs/EqualizerDialog.cpp:309
+msgid "Error restoring preset"
+msgstr ""
+
+#: dialogs/EqualizerDialog.cpp:328
+#, fuzzy
+#| msgid "Save the preset."
+msgid "Cannot save this preset"
+msgstr "Pêş-avakirinê tomar dike."
+
+#: dialogs/EqualizerDialog.cpp:329
+msgid ""
+"Preset 'Manual' is reserved for momentary settings.\n"
+"                                              Please choose different name "
+"and try again."
+msgstr ""
+
+#: dialogs/EqualizerDialog.cpp:331
+#, fuzzy
+#| msgid "Manage presets"
+msgid "Error saving preset"
+msgstr "Pêş-avakirinan bi rê ve bibe"
 
 #: dynamic/biases/EchoNestBias.cpp:47
 #, fuzzy
