@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-05 03:47+0100\n"
+"POT-Creation-Date: 2012-02-06 03:31+0100\n"
 "PO-Revision-Date: 2009-02-21 06:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -8206,7 +8206,7 @@ msgid_plural "%1 tracks"
 msgstr[0] "%1 stran"
 msgstr[1] "%1 stranan "
 
-#: browsers/CollectionTreeView.cpp:246 configdialog/ConfigDialog.cpp:59
+#: browsers/CollectionTreeView.cpp:246
 msgid "Collection"
 msgstr "Berhevok"
 
@@ -8268,20 +8268,6 @@ msgstr "Cîhaz Lê Zêde Bike..."
 msgid "Sound System - Amarok"
 msgstr ""
 
-#: configdialog/dialogs/PluginsConfig.cpp:44
-#, fuzzy
-#| msgid "Collection"
-msgid "Collections"
-msgstr "Berhevok"
-
-#: configdialog/dialogs/PluginsConfig.cpp:48
-msgid "Internet Services"
-msgstr "Servîsên Torê"
-
-#: configdialog/dialogs/PluginsConfig.cpp:52
-msgid "Devices"
-msgstr "Cîhaz"
-
 #: configdialog/dialogs/ScriptSelector.cpp:31 dialogs/ScriptSelector.cpp:30
 msgid "Search Scripts"
 msgstr "Lê Skrîptan Bigere"
@@ -8328,6 +8314,22 @@ msgstr ""
 "<p>Skrîpt serkeftî hate rakirin.</p><p>Jê kerema xwe ji bo bi temamî "
 "rakirina skrîptê Amarok nû ve bide destpêkirin!<p>"
 
+#: configdialog/dialogs/PluginsConfig.cpp:44
+#, fuzzy
+#| msgid "Collection"
+msgid "Collections"
+msgstr "Berhevok"
+
+#: configdialog/dialogs/PluginsConfig.cpp:48
+msgid "Internet Services"
+msgstr "Servîsên Torê"
+
+#: configdialog/dialogs/PluginsConfig.cpp:52
+#, fuzzy
+#| msgid "Local Collection"
+msgid "Local Collection Backends"
+msgstr "Berhevoka Herêmî "
+
 #: configdialog/ConfigDialog.cpp:58
 msgctxt "Miscellaneous settings"
 msgid "General"
@@ -8338,7 +8340,17 @@ msgid "Configure General Options"
 msgstr "Bijare yên Giştî Veava Bike"
 
 #: configdialog/ConfigDialog.cpp:59
-msgid "Configure Collection"
+#: context/applets/currenttrack/CurrentTrack.cpp:104
+#: core-impl/collections/db/sql/mysqlecollection/MySqlEmbeddedCollection.cpp:35
+#: core-impl/collections/db/sql/mysqlservercollection/MySqlServerCollection.cpp:41
+#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:72
+msgid "Local Collection"
+msgstr "Berhevoka Herêmî "
+
+#: configdialog/ConfigDialog.cpp:59
+#, fuzzy
+#| msgid "Configure Collection"
+msgid "Configure Local Collection"
 msgstr "Berhevokê Veava Bike"
 
 #: configdialog/ConfigDialog.cpp:60
@@ -8473,13 +8485,6 @@ msgstr "Hunermendê Nenas"
 #: core/meta/Meta.cpp:444
 msgid "Unknown Album"
 msgstr "Albuma Nenas"
-
-#: context/applets/currenttrack/CurrentTrack.cpp:104
-#: core-impl/collections/db/sql/mysqlecollection/MySqlEmbeddedCollection.cpp:35
-#: core-impl/collections/db/sql/mysqlservercollection/MySqlServerCollection.cpp:41
-#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:72
-msgid "Local Collection"
-msgstr "Berhevoka Herêmî "
 
 #: context/applets/currenttrack/CurrentTrack.cpp:113
 #, fuzzy
@@ -9219,24 +9224,24 @@ msgid "Append and &Play"
 msgstr "Lê zêde bike && &Lê bide"
 
 #: context/applets/videoclip/VideoclipApplet.cpp:102
-#: context/applets/videoclip/VideoclipApplet.cpp:279
-#: context/applets/videoclip/VideoclipApplet.cpp:333
+#: context/applets/videoclip/VideoclipApplet.cpp:281
+#: context/applets/videoclip/VideoclipApplet.cpp:335
 msgid "Video Clip"
 msgstr ""
 
-#: context/applets/videoclip/VideoclipApplet.cpp:314
+#: context/applets/videoclip/VideoclipApplet.cpp:316
 #, fuzzy
 #| msgid "Wikipedia"
 msgid "Video Clip: Fetching"
 msgstr "Wîkîpediya"
 
-#: context/applets/videoclip/VideoclipApplet.cpp:323
+#: context/applets/videoclip/VideoclipApplet.cpp:325
 #, fuzzy
 #| msgid "No information found..."
 msgid "Video Clip: No Information Found"
 msgstr "Tu agahî nehat dîtin..."
 
-#: context/applets/videoclip/VideoclipApplet.cpp:522
+#: context/applets/videoclip/VideoclipApplet.cpp:524
 #, fuzzy
 #| msgid "Wikipedia"
 msgid "Video Clip Settings"
@@ -10181,7 +10186,6 @@ msgid "Podcasts on %1"
 msgstr "Podcast"
 
 #: core-impl/collections/mediadevicecollection/MediaDeviceCollection.cpp:249
-#: core-impl/collections/umscollection/UmsCollection.cpp:180
 #, fuzzy
 #| msgid "&Disconnect the MTP Device"
 msgid "&Disconnect Device"
@@ -10407,25 +10411,6 @@ msgstr ""
 msgid "&Delete Channel and Episodes"
 msgstr "Beşa (yê rêzefilmê) Daxistî &Jê Bibe"
 
-#: core-impl/collections/umscollection/UmsCollection.cpp:171
-#, fuzzy, kde-format
-#| msgctxt "change options"
-#| msgid "Configure %1"
-msgid "&Configure %1"
-msgstr "%1 Veava bike"
-
-#: core-impl/collections/umscollection/UmsCollection.cpp:176
-#, fuzzy
-#| msgid "Update Collection"
-msgid "&Use as Collection"
-msgstr "Berhevokê Rojane Bike"
-
-#: core-impl/collections/umscollection/UmsCollection.cpp:586
-#, fuzzy
-#| msgid "Configure Media Device"
-msgid "Configure USB Mass Storage Device"
-msgstr "Cîhazê Çapemeniyê Ava Bike"
-
 #: core-impl/collections/umscollection/UmsCollectionLocation.cpp:116
 #, fuzzy, kde-format
 #| msgid "Group tracks"
@@ -10449,6 +10434,38 @@ msgid "Removing one track from %2"
 msgid_plural "Removing %1 tracks from %2"
 msgstr[0] "Stranan Jê iPod Dibe"
 msgstr[1] "Stranan Jê iPod Dibe"
+
+#: core-impl/collections/umscollection/UmsCollection.cpp:235
+#, fuzzy
+#| msgid "Configure Media Device"
+msgid "&Configure Device"
+msgstr "Cîhazê Çapemeniyê Ava Bike"
+
+#: core-impl/collections/umscollection/UmsCollection.cpp:239
+#, fuzzy
+#| msgid "Update Collection"
+msgid "&Activate This Collection"
+msgstr "Berhevokê Rojane Bike"
+
+#: core-impl/collections/umscollection/UmsCollection.cpp:243
+#, fuzzy
+#| msgid "Media Devices"
+msgid "&Eject Device"
+msgstr "Cihazên Medya"
+
+#: core-impl/collections/umscollection/UmsCollection.cpp:423
+#, kde-format
+msgctxt ""
+"Name of the USB Mass Storage collection that has not yet been activated. See "
+"also the 'Activate This Collection' action; %1 is actual collection name"
+msgid "%1 (not activated)"
+msgstr ""
+
+#: core-impl/collections/umscollection/UmsCollection.cpp:644
+#, fuzzy
+#| msgid "Configure Media Device"
+msgid "Configure USB Mass Storage Device"
+msgstr "Cîhazê Çapemeniyê Ava Bike"
 
 #: core-impl/collections/upnpcollection/UpnpBrowseCollection.cpp:118
 #, fuzzy, kde-format
@@ -16776,6 +16793,15 @@ msgid ""
 "Would you like to use that as a collection folder?"
 msgstr ""
 
+#~ msgid "Devices"
+#~ msgstr "Cîhaz"
+
+#, fuzzy
+#~| msgctxt "change options"
+#~| msgid "Configure %1"
+#~ msgid "&Configure %1"
+#~ msgstr "%1 Veava bike"
+
 #, fuzzy
 #~| msgid "Initial"
 #~ msgid "Initialize iPod"
@@ -17870,11 +17896,6 @@ msgstr ""
 
 #~ msgid "Smart Playlist"
 #~ msgstr "Lîsteya Lêdanê ya Baqil"
-
-#, fuzzy
-#~| msgid "Media Devices"
-#~ msgid "&Read Device"
-#~ msgstr "Cihazên Medya"
 
 #~ msgid "Bookmarks"
 #~ msgstr "Bijare"
