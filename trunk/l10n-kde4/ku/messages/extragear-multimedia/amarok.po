@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-08 03:57+0100\n"
+"POT-Creation-Date: 2012-02-09 03:38+0100\n"
 "PO-Revision-Date: 2009-02-21 06:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -207,28 +207,6 @@ msgstr "Sifir"
 #| msgid "No track playing"
 msgid "Now playing"
 msgstr "Tu Stran Nayê Lêdan"
-
-#: scanner/GenericScanManager.cpp:203
-#: core-impl/collections/db/ScanManager.cpp:482
-#, fuzzy
-#| msgid "Amarok AFT Tagger"
-msgid "Unable to start Amarok collection scanner."
-msgstr "Etîketvanê Amarok AFT"
-
-#: scanner/GenericScanManager.cpp:300
-#: core-impl/collections/db/ScanManager.cpp:531
-#, fuzzy, kde-format
-#| msgid "could not execute %1"
-msgid "Found one directory"
-msgid_plural "Found %1 directories"
-msgstr[0] "nekarî %1 bixebitîne"
-msgstr[1] "nekarî %1 bixebitîne"
-
-#: scanner/GenericScanManager.cpp:310
-#: core-impl/collections/db/ScanManager.cpp:542
-#, kde-format
-msgid "Got directory \"%1\" from scanner."
-msgstr ""
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -5912,6 +5890,28 @@ msgstr "Dabeşkirin"
 msgid "Verbose"
 msgstr ""
 
+#: scanner/GenericScanManager.cpp:203
+#: core-impl/collections/db/ScanManager.cpp:482
+#, fuzzy
+#| msgid "Amarok AFT Tagger"
+msgid "Unable to start Amarok collection scanner."
+msgstr "Etîketvanê Amarok AFT"
+
+#: scanner/GenericScanManager.cpp:300
+#: core-impl/collections/db/ScanManager.cpp:531
+#, fuzzy, kde-format
+#| msgid "could not execute %1"
+msgid "Found one directory"
+msgid_plural "Found %1 directories"
+msgstr[0] "nekarî %1 bixebitîne"
+msgstr[1] "nekarî %1 bixebitîne"
+
+#: scanner/GenericScanManager.cpp:310
+#: core-impl/collections/db/ScanManager.cpp:542
+#, kde-format
+msgid "Got directory \"%1\" from scanner."
+msgstr ""
+
 #: EngineController.cpp:289
 msgid ""
 "<p>Phonon claims it <b>cannot</b> play MP3 files. You may want to examine "
@@ -5938,59 +5938,59 @@ msgstr ""
 msgid "No MP3 Support"
 msgstr "Desteka MP3 Tune"
 
-#: EngineController.cpp:891
+#: EngineController.cpp:892
 #, fuzzy
 #| msgid "Pre-amp"
 msgid "Preamp"
 msgstr "Hêzdêr"
 
-#: EngineController.cpp:897
+#: EngineController.cpp:898
 msgid ""
 "%0\n"
 "Hz"
 msgstr ""
 
-#: EngineController.cpp:901
+#: EngineController.cpp:902
 msgid ""
 "%0\n"
 "kHz"
 msgstr ""
 
-#: EngineController.cpp:1198
+#: EngineController.cpp:1199
 msgid "Too many errors encountered in playlist. Playback stopped."
 msgstr ""
 
-#: EngineController.cpp:1419
+#: EngineController.cpp:1420
 #, kde-format
 msgctxt "track by artist on album"
 msgid "<b>%1</b> by <b>%2</b> on <b>%3</b>"
 msgstr "<b>%1</b> alî yê <b>%2</b> di <b>%3</b> de"
 
-#: EngineController.cpp:1422
+#: EngineController.cpp:1423
 #, kde-format
 msgctxt "track by artist"
 msgid "<b>%1</b> by <b>%2</b>"
 msgstr "<b>%1</b> alî yê <b>%2</b>"
 
-#: EngineController.cpp:1426
+#: EngineController.cpp:1427
 #, kde-format
 msgctxt "track on album"
 msgid "<b>%1</b> on <b>%2</b>"
 msgstr "<b>%1</b> di <b>%2</b> de"
 
-#: EngineController.cpp:1431
+#: EngineController.cpp:1432
 #: core-impl/collections/mediadevicecollection/MediaDeviceMeta.cpp:94
 msgid "Unknown track"
 msgstr "Strana nenas"
 
-#: EngineController.cpp:1438
+#: EngineController.cpp:1439
 #, fuzzy, kde-format
 #| msgid " on <b>%1</b>"
 msgctxt "track from source"
 msgid "from <b>%1</b>"
 msgstr " di <b>%1</b> de"
 
-#: EngineController.cpp:1452 context/engines/current/CurrentEngine.cpp:136
+#: EngineController.cpp:1453 context/engines/current/CurrentEngine.cpp:136
 #: mac/GrowlInterface.cpp:43 widgets/Osd.cpp:651
 msgid "No track playing"
 msgstr "Tu Stran Nayê Lêdan"
