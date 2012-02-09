@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-06 10:56+0100\n"
+"POT-Creation-Date: 2012-02-09 11:28+0100\n"
 "PO-Revision-Date: 2008-12-22 22:21+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -895,21 +895,34 @@ msgctxt "@info:status files (size)"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: views/dolphinview.cpp:1074
+#: views/dolphinview.cpp:1077
 msgctxt "@info:status"
 msgid "Delete operation completed."
 msgstr "Karê jêbirinê qediya."
 
-#: views/dolphinview.cpp:1149
+#: views/dolphinview.cpp:1152
 msgctxt "@info:status"
 msgid "The location is empty."
 msgstr "Cî vala ye."
 
-#: views/dolphinview.cpp:1151
+#: views/dolphinview.cpp:1154
 #, kde-format
 msgctxt "@info:status"
 msgid "The location '%1' is invalid."
 msgstr "Ciyê '%1' vala ye."
+
+#: views/draganddrophelper.cpp:34
+#, fuzzy, kde-format
+#| msgctxt "@label:textbox"
+#| msgid "Rename the item <filename>%1</filename> to:"
+msgctxt "@info:status"
+msgid "Access denied. Could not write to <filename>%1</filename>"
+msgstr "Navê hêmana <filename>%1</filename>'ê bike:"
+
+#: views/draganddrophelper.cpp:49
+msgctxt "@info:status"
+msgid "A folder cannot be dropped into itself"
+msgstr "Peldankek nayê kişandina nava xwe de"
 
 #: views/versioncontrol/versioncontrolobserver.cpp:204
 #, fuzzy
@@ -1244,19 +1257,6 @@ msgctxt "@info"
 msgid "# will be replaced by ascending numbers starting with:"
 msgstr "(Di ciyê nîşaneya # de dê hejmarên kêm dibin bên bikaranîn)"
 
-#: views/draganddrophelper.cpp:34
-#, fuzzy, kde-format
-#| msgctxt "@label:textbox"
-#| msgid "Rename the item <filename>%1</filename> to:"
-msgctxt "@info:status"
-msgid "Access denied. Could not write to <filename>%1</filename>"
-msgstr "Navê hêmana <filename>%1</filename>'ê bike:"
-
-#: views/draganddrophelper.cpp:48
-msgctxt "@info:status"
-msgid "A folder cannot be dropped into itself"
-msgstr "Peldankek nayê kişandina nava xwe de"
-
 #: dolphincontextmenu.cpp:173
 msgctxt "@action:inmenu"
 msgid "Empty Trash"
@@ -1328,25 +1328,6 @@ msgstr "Jebirin"
 msgctxt "@item:intable"
 msgid "items"
 msgstr ""
-
-#: kitemviews/kfileitemlistwidget.cpp:236
-#, fuzzy
-#| msgctxt "@info:status"
-#| msgid "Unknown size"
-msgctxt "@item:intable"
-msgid "Unknown"
-msgstr "Mezinahiya nenas"
-
-#: kitemviews/kfileitemlistwidget.cpp:238
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid "%1 item selected"
-#| msgid_plural "%1 items selected"
-msgctxt "@item:intable"
-msgid "%1 item"
-msgid_plural "%1 items"
-msgstr[0] "%1 hêman hat hilbijartin"
-msgstr[1] "%1 hêman hatin hilbijartin"
 
 #: kitemviews/kfileitemmodel.cpp:268
 #, fuzzy
@@ -1601,6 +1582,25 @@ msgstr "Qedexe"
 msgctxt "@title:group Files and folders by permissions"
 msgid "User: %1 | Group: %2 | Others: %3"
 msgstr "(Bikarhêner: %1) (Kom: %2) (Ên Din: %3)"
+
+#: kitemviews/kfileitemlistwidget.cpp:236
+#, fuzzy
+#| msgctxt "@info:status"
+#| msgid "Unknown size"
+msgctxt "@item:intable"
+msgid "Unknown"
+msgstr "Mezinahiya nenas"
+
+#: kitemviews/kfileitemlistwidget.cpp:238
+#, fuzzy, kde-format
+#| msgctxt "@info"
+#| msgid "%1 item selected"
+#| msgid_plural "%1 items selected"
+msgctxt "@item:intable"
+msgid "%1 item"
+msgid_plural "%1 items"
+msgstr[0] "%1 hêman hat hilbijartin"
+msgstr[1] "%1 hêman hatin hilbijartin"
 
 #: main.cpp:35
 msgctxt "@title"
