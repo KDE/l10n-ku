@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-09 03:38+0100\n"
+"POT-Creation-Date: 2012-02-14 03:57+0100\n"
 "PO-Revision-Date: 2009-02-21 06:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -7682,28 +7682,6 @@ msgid_plural "Moving to trash: %1 files"
 msgstr[0] "Pelan bavêje sergo"
 msgstr[1] "Pelan bavêje sergo"
 
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:44
-#, fuzzy
-#| msgid "Create Smart Playlist"
-msgid "Create empty playlist"
-msgstr "Lîsteya Lêdanê ya Biaqil Çêke"
-
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:138
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:187
-#, fuzzy, kde-format
-#| msgid "Playlist"
-msgctxt "number of playlists from one source"
-msgid "One Playlist"
-msgid_plural "%1 playlists"
-msgstr[0] "Lîsteya Lêdanê"
-msgstr[1] "Lîsteya Lêdanê"
-
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:416
-#, fuzzy
-#| msgid "Source"
-msgid "Source"
-msgstr "Çavkanî"
-
 #: browsers/playlistbrowser/APGCategory.cpp:39
 msgid "Automated Playlist Generator"
 msgstr ""
@@ -7786,6 +7764,28 @@ msgstr ""
 msgctxt "default name for new folder"
 msgid "New Folder"
 msgstr "Peldank"
+
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:44
+#, fuzzy
+#| msgid "Create Smart Playlist"
+msgid "Create empty playlist"
+msgstr "Lîsteya Lêdanê ya Biaqil Çêke"
+
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:138
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:187
+#, fuzzy, kde-format
+#| msgid "Playlist"
+msgctxt "number of playlists from one source"
+msgid "One Playlist"
+msgid_plural "%1 playlists"
+msgstr[0] "Lîsteya Lêdanê"
+msgstr[1] "Lîsteya Lêdanê"
+
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:416
+#, fuzzy
+#| msgid "Source"
+msgid "Source"
+msgstr "Çavkanî"
 
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:43
 #, fuzzy
@@ -14834,12 +14834,6 @@ msgstr[1] "Tu bi rastî dixwazî wan stranên %1 jê bibî?"
 msgid "Yes, delete from disk."
 msgstr ""
 
-#: playlistmanager/sql/SqlPlaylist.cpp:40
-#, fuzzy
-#| msgid "Playlist name:"
-msgid "Playlist in database"
-msgstr "Navê Lîsteya Lêdanê:"
-
 #: playlistmanager/sql/SqlUserPlaylistProvider.cpp:90
 #, fuzzy
 #| msgid "Configure Playback"
@@ -14874,6 +14868,12 @@ msgstr "Navê Bingeha Dana"
 #| msgid "Local Playlists stored in the database"
 msgid "Local playlists stored in the database"
 msgstr "Lîsteyên lêdanê yên herêmî yên di bingeha dana de tomarkirî"
+
+#: playlistmanager/sql/SqlPlaylist.cpp:40
+#, fuzzy
+#| msgid "Playlist name:"
+msgid "Playlist in database"
+msgstr "Navê Lîsteya Lêdanê:"
 
 #: playlistmanager/PlaylistManager.cpp:320
 msgid "Downloading Playlist"
