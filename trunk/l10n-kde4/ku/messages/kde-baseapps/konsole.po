@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-17 03:53+0100\n"
+"POT-Creation-Date: 2012-02-18 04:41+0100\n"
 "PO-Revision-Date: 2009-01-06 02:14+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <ku@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-Language: Kurdish\n"
 
-#: Application.cpp:407
+#: Application.cpp:405
 msgid "Toggle Background Window"
 msgstr ""
 
@@ -1743,61 +1743,51 @@ msgstr ""
 msgid "Put New Tab After Current Tab"
 msgstr ""
 
-#. i18n: file: ../desktop/partui.rc:7
-#. i18n: ectx: Menu (history)
-#: rc.cpp:491
-msgid "S&crollback"
-msgstr ""
-
-#. i18n: file: ../desktop/partui.rc:23
-#. i18n: ectx: Menu (switch-profile)
-#. i18n: file: ../desktop/sessionui.rc:60
-#. i18n: ectx: Menu (switch-profile)
-#: rc.cpp:494 rc.cpp:518
-#, fuzzy
-#| msgid "Edit Profile"
-msgid "&Switch Profile"
-msgstr "Jînname yê Biguherîne"
-
 #. i18n: file: ../desktop/konsoleui.rc:5
 #. i18n: ectx: Menu (file)
-#: rc.cpp:497
+#: rc.cpp:491
 msgid "File"
 msgstr "Pel"
 
 #. i18n: file: ../desktop/konsoleui.rc:15
 #. i18n: ectx: Menu (edit)
-#: rc.cpp:500
+#: rc.cpp:494
 msgid "Edit"
 msgstr "Guherîne"
 
 #. i18n: file: ../desktop/konsoleui.rc:18
 #. i18n: ectx: Menu (view)
-#: rc.cpp:503
+#: rc.cpp:497
 msgid "View"
 msgstr "Bibîne"
 
 #. i18n: file: ../desktop/konsoleui.rc:19
 #. i18n: ectx: Menu (view-split)
-#: rc.cpp:506
+#: rc.cpp:500
 msgid "Split View"
 msgstr "Dîmena Par Kirî"
 
-#. i18n: file: ../desktop/konsoleui.rc:34
+#. i18n: file: ../desktop/konsoleui.rc:33
 #. i18n: ectx: Menu (settings)
-#: rc.cpp:509
+#: rc.cpp:503
 msgid "Settings"
 msgstr "Mîheng"
 
-#. i18n: file: ../desktop/konsoleui.rc:46
+#. i18n: file: ../desktop/konsoleui.rc:44
 #. i18n: ectx: Menu (help)
-#: rc.cpp:512
+#: rc.cpp:506
 msgid "Help"
 msgstr "Alîkarî"
 
+#. i18n: file: ../desktop/partui.rc:7
+#. i18n: ectx: Menu (history)
+#: rc.cpp:509
+msgid "S&crollback"
+msgstr ""
+
 #. i18n: file: ../desktop/sessionui.rc:17
 #. i18n: ectx: Menu (edit-copy-input-to)
-#: rc.cpp:515
+#: rc.cpp:512
 #, fuzzy
 #| msgid "Copy Input To..."
 msgid "Copy Input To"
@@ -2301,6 +2291,11 @@ msgstr ""
 #: ZModemDialog.cpp:36
 msgid "&Stop"
 msgstr "&Rawestîn"
+
+#, fuzzy
+#~| msgid "Edit Profile"
+#~ msgid "&Switch Profile"
+#~ msgstr "Jînname yê Biguherîne"
 
 #~ msgid "Debug"
 #~ msgstr "Serast kirina Çewtiyan"
