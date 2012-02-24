@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-23 11:28+0100\n"
+"POT-Creation-Date: 2012-02-24 11:19+0100\n"
 "PO-Revision-Date: 2008-12-22 22:21+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -845,72 +845,6 @@ msgid_plural "Size: %1 pixels"
 msgstr[0] "Mezinahî: 1 pîksel"
 msgstr[1] "Mezinahî: %1 pîkselan "
 
-#: views/dolphinview.cpp:517
-#, kde-format
-msgctxt "@info:status"
-msgid "<filename>%1</filename> selected"
-msgstr "<filename>%1</filename> hate hilbijartin"
-
-#: views/dolphinview.cpp:520
-#, kde-format
-msgctxt "@info:status"
-msgid "1 Folder selected"
-msgid_plural "%1 Folders selected"
-msgstr[0] "Peldankek Hatiye Hilbijartin"
-msgstr[1] "%1 Peldank Hatine Hilbijartin"
-
-#: views/dolphinview.cpp:521
-#, kde-format
-msgctxt "@info:status"
-msgid "1 File selected"
-msgid_plural "%1 Files selected"
-msgstr[0] "Pelek hate hilbijartin"
-msgstr[1] "%1 Pelên te hatin hilbijartin"
-
-#: views/dolphinview.cpp:525
-#, fuzzy, kde-format
-msgctxt "@info:status"
-msgid "1 Folder"
-msgid_plural "%1 Folders"
-msgstr[0] "Peldank"
-msgstr[1] "Peldank"
-
-#: views/dolphinview.cpp:526
-#, kde-format
-msgctxt "@info:status"
-msgid "1 File"
-msgid_plural "%1 Files"
-msgstr[0] ""
-msgstr[1] ""
-
-#: views/dolphinview.cpp:530
-#, kde-format
-msgctxt "@info:status folders, files (size)"
-msgid "%1, %2 (%3)"
-msgstr "%1, %2 (%3)"
-
-#: views/dolphinview.cpp:533
-#, kde-format
-msgctxt "@info:status files (size)"
-msgid "%1 (%2)"
-msgstr "%1 (%2)"
-
-#: views/dolphinview.cpp:1077
-msgctxt "@info:status"
-msgid "Delete operation completed."
-msgstr "Karê jêbirinê qediya."
-
-#: views/dolphinview.cpp:1152
-msgctxt "@info:status"
-msgid "The location is empty."
-msgstr "Cî vala ye."
-
-#: views/dolphinview.cpp:1154
-#, kde-format
-msgctxt "@info:status"
-msgid "The location '%1' is invalid."
-msgstr "Ciyê '%1' vala ye."
-
 #: views/draganddrophelper.cpp:34
 #, fuzzy, kde-format
 #| msgctxt "@label:textbox"
@@ -923,6 +857,72 @@ msgstr "Navê hêmana <filename>%1</filename>'ê bike:"
 msgctxt "@info:status"
 msgid "A folder cannot be dropped into itself"
 msgstr "Peldankek nayê kişandina nava xwe de"
+
+#: views/dolphinview.cpp:519
+#, kde-format
+msgctxt "@info:status"
+msgid "<filename>%1</filename> selected"
+msgstr "<filename>%1</filename> hate hilbijartin"
+
+#: views/dolphinview.cpp:522
+#, kde-format
+msgctxt "@info:status"
+msgid "1 Folder selected"
+msgid_plural "%1 Folders selected"
+msgstr[0] "Peldankek Hatiye Hilbijartin"
+msgstr[1] "%1 Peldank Hatine Hilbijartin"
+
+#: views/dolphinview.cpp:523
+#, kde-format
+msgctxt "@info:status"
+msgid "1 File selected"
+msgid_plural "%1 Files selected"
+msgstr[0] "Pelek hate hilbijartin"
+msgstr[1] "%1 Pelên te hatin hilbijartin"
+
+#: views/dolphinview.cpp:527
+#, fuzzy, kde-format
+msgctxt "@info:status"
+msgid "1 Folder"
+msgid_plural "%1 Folders"
+msgstr[0] "Peldank"
+msgstr[1] "Peldank"
+
+#: views/dolphinview.cpp:528
+#, kde-format
+msgctxt "@info:status"
+msgid "1 File"
+msgid_plural "%1 Files"
+msgstr[0] ""
+msgstr[1] ""
+
+#: views/dolphinview.cpp:532
+#, kde-format
+msgctxt "@info:status folders, files (size)"
+msgid "%1, %2 (%3)"
+msgstr "%1, %2 (%3)"
+
+#: views/dolphinview.cpp:535
+#, kde-format
+msgctxt "@info:status files (size)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: views/dolphinview.cpp:1095
+msgctxt "@info:status"
+msgid "Delete operation completed."
+msgstr "Karê jêbirinê qediya."
+
+#: views/dolphinview.cpp:1170
+msgctxt "@info:status"
+msgid "The location is empty."
+msgstr "Cî vala ye."
+
+#: views/dolphinview.cpp:1172
+#, kde-format
+msgctxt "@info:status"
+msgid "The location '%1' is invalid."
+msgstr "Ciyê '%1' vala ye."
 
 #: views/versioncontrol/versioncontrolobserver.cpp:204
 #, fuzzy
@@ -1343,6 +1343,11 @@ msgid_plural "%1 items"
 msgstr[0] "%1 hêman hat hilbijartin"
 msgstr[1] "%1 hêman hatin hilbijartin"
 
+#: kitemviews/kfileitemlistview.cpp:552
+msgctxt "@item:intable"
+msgid "items"
+msgstr ""
+
 #: kitemviews/kfileitemmodel.cpp:268
 #, fuzzy
 #| msgctxt "@action:inmenu Sort By"
@@ -1597,11 +1602,6 @@ msgctxt "@title:group Files and folders by permissions"
 msgid "User: %1 | Group: %2 | Others: %3"
 msgstr "(Bikarhêner: %1) (Kom: %2) (Ên Din: %3)"
 
-#: kitemviews/kfileitemlistview.cpp:552
-msgctxt "@item:intable"
-msgid "items"
-msgstr ""
-
 #: main.cpp:35
 msgctxt "@title"
 msgid "Dolphin"
@@ -1703,6 +1703,131 @@ msgstr ""
 msgctxt "@info:shell"
 msgid "Document to open"
 msgstr "Belgeya were vekirin"
+
+#: dolphinpart.cpp:145
+msgctxt "@action:inmenu Edit"
+msgid "&Edit File Type..."
+msgstr "Cureyê Pelî &Sererast Bike..."
+
+#: dolphinpart.cpp:149
+#, fuzzy
+#| msgctxt "@info:tooltip"
+#| msgid "Select Item"
+msgctxt "@action:inmenu Edit"
+msgid "Select Items Matching..."
+msgstr "Hêmanê Hilbijêre"
+
+#: dolphinpart.cpp:154
+msgctxt "@action:inmenu Edit"
+msgid "Unselect Items Matching..."
+msgstr ""
+
+#: dolphinpart.cpp:160
+#, fuzzy
+#| msgctxt "@action:inmenu Edit"
+#| msgid "Select All"
+msgctxt "@action:inmenu Edit"
+msgid "Unselect All"
+msgstr "Hemûyan Hilbijêre"
+
+#: dolphinpart.cpp:164 dolphinmainwindow.cpp:1645
+msgctxt "@action:inmenu Edit"
+msgid "Invert Selection"
+msgstr "Hilbijartinê Serûbin Bike"
+
+#: dolphinpart.cpp:177
+msgctxt "@action:inmenu Go"
+msgid "App&lications"
+msgstr "&Sepan"
+
+#: dolphinpart.cpp:180
+msgctxt "@action:inmenu Go"
+msgid "&Network Folders"
+msgstr "Peldankên &Torê"
+
+#: dolphinpart.cpp:183
+msgctxt "@action:inmenu Go"
+msgid "Sett&ings"
+msgstr "&Mîheng"
+
+#: dolphinpart.cpp:186
+msgctxt "@action:inmenu Go"
+msgid "Trash"
+msgstr "Sergo"
+
+#: dolphinpart.cpp:189
+msgctxt "@action:inmenu Go"
+msgid "Autostart"
+msgstr "Xweber bide destpêkirin"
+
+#: dolphinpart.cpp:194
+#, fuzzy
+#| msgctxt "@action:inmenu Tools"
+#| msgid "Find File..."
+msgctxt "@action:inmenu Tools"
+msgid "Find File..."
+msgstr "Pelî bibîne..."
+
+#: dolphinpart.cpp:202
+msgctxt "@action:inmenu Tools"
+msgid "Open &Terminal"
+msgstr "&Termînalê Veke"
+
+#: dolphinpart.cpp:271
+msgctxt "@title"
+msgid "Dolphin Part"
+msgstr "Dolphin Part"
+
+#: dolphinpart.cpp:461
+#, fuzzy
+#| msgctxt "@action:inmenu Edit"
+#| msgid "Select All"
+msgctxt "@title:window"
+msgid "Select"
+msgstr "Hemûyan Hilbijêre"
+
+#: dolphinpart.cpp:462
+msgid "Select all items matching this pattern:"
+msgstr ""
+
+#: dolphinpart.cpp:468
+msgctxt "@title:window"
+msgid "Unselect"
+msgstr ""
+
+#: dolphinpart.cpp:469
+msgid "Unselect all items matching this pattern:"
+msgstr ""
+
+#: dolphinviewcontainer.cpp:338
+msgctxt "@info:progress"
+msgid "Loading folder..."
+msgstr "Peldank tê barkirin..."
+
+#: dolphinviewcontainer.cpp:349
+msgctxt "@info"
+msgid "Searching..."
+msgstr ""
+
+#: dolphinviewcontainer.cpp:369
+msgctxt "@info:status"
+msgid "No items found."
+msgstr ""
+
+#: dolphinviewcontainer.cpp:512
+msgctxt "@info:status"
+msgid "Dolphin does not support web pages, the web browser has been launched"
+msgstr "Dolphin piştgirî nade rûpelên torê, geroka torê tê vebe"
+
+#: dolphinviewcontainer.cpp:524
+msgctxt "@info:status"
+msgid "Protocol not supported by Dolphin, Konqueror has been launched"
+msgstr "Protokol nayê piştgirî dan alî yê Dolphin ve, Konqueror tê vebe"
+
+#: dolphinviewcontainer.cpp:531
+msgctxt "@info:status"
+msgid "Invalid protocol"
+msgstr "Protokola nenas"
 
 #: dolphinmainwindow.cpp:347
 msgctxt "@info:status"
@@ -1843,11 +1968,6 @@ msgstr "Pê Ve Bike"
 msgctxt "@action:inmenu Edit"
 msgid "Select All"
 msgstr "Hemûyan Hilbijêre"
-
-#: dolphinmainwindow.cpp:1645 dolphinpart.cpp:164
-msgctxt "@action:inmenu Edit"
-msgid "Invert Selection"
-msgstr "Hilbijartinê Serûbin Bike"
 
 #: dolphinmainwindow.cpp:1658
 msgctxt "@action:inmenu View"
@@ -2015,126 +2135,6 @@ msgstr "Veqetîne"
 msgctxt "@info"
 msgid "Split view"
 msgstr "Moda xuyakirinê parve bike"
-
-#: dolphinpart.cpp:145
-msgctxt "@action:inmenu Edit"
-msgid "&Edit File Type..."
-msgstr "Cureyê Pelî &Sererast Bike..."
-
-#: dolphinpart.cpp:149
-#, fuzzy
-#| msgctxt "@info:tooltip"
-#| msgid "Select Item"
-msgctxt "@action:inmenu Edit"
-msgid "Select Items Matching..."
-msgstr "Hêmanê Hilbijêre"
-
-#: dolphinpart.cpp:154
-msgctxt "@action:inmenu Edit"
-msgid "Unselect Items Matching..."
-msgstr ""
-
-#: dolphinpart.cpp:160
-#, fuzzy
-#| msgctxt "@action:inmenu Edit"
-#| msgid "Select All"
-msgctxt "@action:inmenu Edit"
-msgid "Unselect All"
-msgstr "Hemûyan Hilbijêre"
-
-#: dolphinpart.cpp:177
-msgctxt "@action:inmenu Go"
-msgid "App&lications"
-msgstr "&Sepan"
-
-#: dolphinpart.cpp:180
-msgctxt "@action:inmenu Go"
-msgid "&Network Folders"
-msgstr "Peldankên &Torê"
-
-#: dolphinpart.cpp:183
-msgctxt "@action:inmenu Go"
-msgid "Sett&ings"
-msgstr "&Mîheng"
-
-#: dolphinpart.cpp:186
-msgctxt "@action:inmenu Go"
-msgid "Trash"
-msgstr "Sergo"
-
-#: dolphinpart.cpp:189
-msgctxt "@action:inmenu Go"
-msgid "Autostart"
-msgstr "Xweber bide destpêkirin"
-
-#: dolphinpart.cpp:194
-#, fuzzy
-#| msgctxt "@action:inmenu Tools"
-#| msgid "Find File..."
-msgctxt "@action:inmenu Tools"
-msgid "Find File..."
-msgstr "Pelî bibîne..."
-
-#: dolphinpart.cpp:202
-msgctxt "@action:inmenu Tools"
-msgid "Open &Terminal"
-msgstr "&Termînalê Veke"
-
-#: dolphinpart.cpp:271
-msgctxt "@title"
-msgid "Dolphin Part"
-msgstr "Dolphin Part"
-
-#: dolphinpart.cpp:461
-#, fuzzy
-#| msgctxt "@action:inmenu Edit"
-#| msgid "Select All"
-msgctxt "@title:window"
-msgid "Select"
-msgstr "Hemûyan Hilbijêre"
-
-#: dolphinpart.cpp:462
-msgid "Select all items matching this pattern:"
-msgstr ""
-
-#: dolphinpart.cpp:468
-msgctxt "@title:window"
-msgid "Unselect"
-msgstr ""
-
-#: dolphinpart.cpp:469
-msgid "Unselect all items matching this pattern:"
-msgstr ""
-
-#: dolphinviewcontainer.cpp:338
-msgctxt "@info:progress"
-msgid "Loading folder..."
-msgstr "Peldank tê barkirin..."
-
-#: dolphinviewcontainer.cpp:349
-msgctxt "@info"
-msgid "Searching..."
-msgstr ""
-
-#: dolphinviewcontainer.cpp:369
-msgctxt "@info:status"
-msgid "No items found."
-msgstr ""
-
-#: dolphinviewcontainer.cpp:512
-msgctxt "@info:status"
-msgid "Dolphin does not support web pages, the web browser has been launched"
-msgstr "Dolphin piştgirî nade rûpelên torê, geroka torê tê vebe"
-
-#: dolphinviewcontainer.cpp:524
-msgctxt "@info:status"
-msgid "Protocol not supported by Dolphin, Konqueror has been launched"
-msgstr "Protokol nayê piştgirî dan alî yê Dolphin ve, Konqueror tê vebe"
-
-#: dolphinviewcontainer.cpp:531
-msgctxt "@info:status"
-msgid "Invalid protocol"
-msgstr "Protokola nenas"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
