@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-03-03 04:31+0100\n"
+"POT-Creation-Date: 2012-03-04 04:14+0100\n"
 "PO-Revision-Date: 2009-01-06 02:14+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <ku@li.org>\n"
@@ -1934,10 +1934,8 @@ msgid "Clear Scrollback and Reset"
 msgstr "Paqij Bike && Vegere Nirxên Destpêkê"
 
 #: SessionController.cpp:493
-#, fuzzy
-#| msgid "Manage Profiles..."
-msgid "Configure Current Profile..."
-msgstr "Profîlan Bi Rê Ve Bibe..."
+msgid "Edit Current Profile..."
+msgstr "Profîla Heyî Biguherîne..."
 
 #: SessionController.cpp:496
 #, fuzzy
@@ -2059,18 +2057,18 @@ msgid ""
 "%1"
 msgstr ""
 
-#: Session.cpp:363
+#: Session.cpp:367
 msgid "Could not find binary: "
 msgstr "Nikare pela-cot bibîne:"
 
-#: Session.cpp:372
+#: Session.cpp:376
 #, fuzzy
 #| msgid "Warning: "
 msgctxt "@info:shell Alert the user with red color text"
 msgid "Warning: "
 msgstr "Hişyarî: "
 
-#: Session.cpp:429
+#: Session.cpp:433
 #, kde-format
 msgid ""
 "Could not find '%1', starting '%2' instead.  Please check your profile "
@@ -2079,48 +2077,48 @@ msgstr ""
 "Nikare '%1' bibîne, şûna vê '%2' destpê dike. Jê kerema xwe mîhengên profîla "
 "xwe kontrol bike."
 
-#: Session.cpp:433
+#: Session.cpp:437
 msgid "Could not find an interactive shell to start."
 msgstr "Nikare shell a înteraktîf bibîne û bide destpê kirin."
 
-#: Session.cpp:473
+#: Session.cpp:477
 #, kde-format
 msgid "Could not start program '%1' with arguments '%2'."
 msgstr "Nikare bernameya '%1' bi sedema '%2' re bide destpêkirin."
 
-#: Session.cpp:580
+#: Session.cpp:584
 #, kde-format
 msgid "Silence in session '%1'"
 msgstr "Di danişîna '%1' de bêdengî"
 
-#: Session.cpp:627
+#: Session.cpp:631
 #, kde-format
 msgid "Bell in session '%1'"
 msgstr "Di danişîna '%1' de zengil"
 
-#: Session.cpp:630
+#: Session.cpp:634
 #, kde-format
 msgid "Activity in session '%1'"
 msgstr "Di danişîna '%1' de çalakî"
 
-#: Session.cpp:795
+#: Session.cpp:793
 #, fuzzy
 #| msgid "Finished"
 msgctxt "@info:shell This session is done"
 msgid "Finished"
 msgstr "Bi Dawî Bû"
 
-#: Session.cpp:809 Session.cpp:821
+#: Session.cpp:807 Session.cpp:819
 #, kde-format
 msgid "Program '%1' crashed."
 msgstr "Bernameya '%1' têk çû."
 
-#: Session.cpp:811
+#: Session.cpp:809
 #, kde-format
 msgid "Program '%1' exited with status %2."
 msgstr "Bernameya '%1' bi rewşa %2 re derket."
 
-#: Session.cpp:1143
+#: Session.cpp:1141
 msgid "ZModem Progress"
 msgstr "Pêşketina ZModem"
 
@@ -2332,8 +2330,10 @@ msgstr ""
 msgid "&Stop"
 msgstr "&Rawestîn"
 
-#~ msgid "Edit Current Profile..."
-#~ msgstr "Profîla Heyî Biguherîne..."
+#, fuzzy
+#~| msgid "Manage Profiles..."
+#~ msgid "Configure Current Profile..."
+#~ msgstr "Profîlan Bi Rê Ve Bibe..."
 
 #, fuzzy
 #~| msgid "Edit Profile"
