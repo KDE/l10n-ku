@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-07 18:23+0100\n"
+"POT-Creation-Date: 2012-03-04 11:37+0100\n"
 "PO-Revision-Date: 2009-01-06 14:18+0200\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: American English <kde-i18n-doc@lists.kde.org>\n"
@@ -1026,6 +1026,33 @@ msgstr ""
 "Çewtiyeke avakirinê dixuye. Te Konqueror bi peleke cureyê %1 re têkildar "
 "kiriye, lê Konqueror nikare van pelan veke."
 
+#: src/konqframestatusbar.cpp:116
+msgid ""
+"Checking this box on at least two views sets those views as 'linked'. Then, "
+"when you change directories in one view, the other views linked with it will "
+"automatically update to show the current directory. This is especially "
+"useful with different types of views, such as a directory tree with an icon "
+"view or detailed view, and possibly a terminal emulator window."
+msgstr ""
+"Bi kêmanî heke tu didu awayan de vê qutiyê nîşan bikî, dê dîtinên navborî bi "
+"hev re bên girêdan. Bi vî rengî dema te di dîtinekê de pêrist guhart dê "
+"dîtinên din ên têkildar jî bixweber bêne rojanekirin ji bo pêristê nîşan "
+"bidin. Ev vebijêrk, bi taybetî di bikaranîna cureyên cuda yên dîtinê, mînak "
+"dara pêristeke bi dîtina dawêrî an jî dîtina bi kîtekît, bikêr tê."
+
+#: src/konqframestatusbar.cpp:163
+msgid "Close View"
+msgstr "Dîtinê Bigire"
+
+#: src/konqframestatusbar.cpp:243
+#, kde-format
+msgid "%1/s"
+msgstr "%1/s"
+
+#: src/konqframestatusbar.cpp:245
+msgid "Stalled"
+msgstr "Tê rawestandin"
+
 #: src/konqhistorydialog.cpp:45
 #, fuzzy
 #| msgid "Clear History"
@@ -1155,33 +1182,6 @@ msgstr "Veavakirin"
 #: src/konqextensionmanager.cpp:78
 msgid "Extensions"
 msgstr "Pêvek"
-
-#: src/konqframestatusbar.cpp:109
-msgid ""
-"Checking this box on at least two views sets those views as 'linked'. Then, "
-"when you change directories in one view, the other views linked with it will "
-"automatically update to show the current directory. This is especially "
-"useful with different types of views, such as a directory tree with an icon "
-"view or detailed view, and possibly a terminal emulator window."
-msgstr ""
-"Bi kêmanî heke tu didu awayan de vê qutiyê nîşan bikî, dê dîtinên navborî bi "
-"hev re bên girêdan. Bi vî rengî dema te di dîtinekê de pêrist guhart dê "
-"dîtinên din ên têkildar jî bixweber bêne rojanekirin ji bo pêristê nîşan "
-"bidin. Ev vebijêrk, bi taybetî di bikaranîna cureyên cuda yên dîtinê, mînak "
-"dara pêristeke bi dîtina dawêrî an jî dîtina bi kîtekît, bikêr tê."
-
-#: src/konqframestatusbar.cpp:156
-msgid "Close View"
-msgstr "Dîtinê Bigire"
-
-#: src/konqframestatusbar.cpp:236
-#, kde-format
-msgid "%1/s"
-msgstr "%1/s"
-
-#: src/konqframestatusbar.cpp:238
-msgid "Stalled"
-msgstr "Tê rawestandin"
 
 #: src/konqguiclients.cpp:66
 #, kde-format
