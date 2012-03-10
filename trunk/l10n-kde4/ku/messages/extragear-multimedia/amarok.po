@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-03-09 03:40+0100\n"
+"POT-Creation-Date: 2012-03-10 03:41+0100\n"
 "PO-Revision-Date: 2009-02-21 06:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -4790,6 +4790,18 @@ msgstr "du meh berê"
 msgid "three months ago"
 msgstr "sê meh berê"
 
+#: core-impl/collections/support/TrashCollectionLocation.cpp:47
+#, fuzzy
+#| msgid "Tracks"
+msgid "Trash"
+msgstr "Stran"
+
+#: core-impl/collections/support/TrashCollectionLocation.cpp:101
+#, fuzzy, kde-format
+#| msgid "Moving files to trash"
+msgid "Moving to trash: %1"
+msgstr "Pelan bavêje sergo"
+
 #: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:35
 #, fuzzy, kde-format
 #| msgctxt "@info"
@@ -4798,10 +4810,10 @@ msgstr "sê meh berê"
 #| "disk as well as your collection."
 msgctxt "@info"
 msgid ""
-"Do you really want to delete this track? It will be removed from %1 and from "
+"Do you really want to delete this track? It will be removed from %2 and from "
 "underlying storage medium."
 msgid_plural ""
-"Do you really want to delete these %2 tracks? They will be removed from %1 "
+"Do you really want to delete these %1 tracks? They will be removed from %2 "
 "and from underlying storage medium."
 msgstr[0] ""
 "Tu bi rastî dixwazî wan stranên %1 jê bibî? Ev wê ji dîska we û berhevoka we "
@@ -4918,18 +4930,6 @@ msgstr "%1 stran (%2)"
 msgctxt "%1 is track url, %2 artist name"
 msgid "%1 (by %2)"
 msgstr "%1 stran (%2)"
-
-#: core-impl/collections/support/TrashCollectionLocation.cpp:47
-#, fuzzy
-#| msgid "Tracks"
-msgid "Trash"
-msgstr "Stran"
-
-#: core-impl/collections/support/TrashCollectionLocation.cpp:101
-#, fuzzy, kde-format
-#| msgid "Moving files to trash"
-msgid "Moving to trash: %1"
-msgstr "Pelan bavêje sergo"
 
 #: core-impl/collections/umscollection/podcasts/UmsPodcastProvider.cpp:184
 #, fuzzy
