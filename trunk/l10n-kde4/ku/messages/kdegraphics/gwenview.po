@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gwenview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-26 04:10+0100\n"
+"POT-Creation-Date: 2012-03-14 04:07+0100\n"
 "PO-Revision-Date: 2009-01-22 22:46+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -317,13 +317,13 @@ msgstr ""
 msgid "Other Plugins"
 msgstr "&Plugin"
 
-#: app/kipiexportaction.cpp:64 app/kipiinterface.cpp:312
+#: app/kipiexportaction.cpp:64 app/kipiinterface.cpp:213
 #, fuzzy
 #| msgid "No Plugin"
 msgid "No Plugin Found"
 msgstr "Pêvek Tune ye"
 
-#: app/kipiexportaction.cpp:77
+#: app/kipiexportaction.cpp:72
 #, fuzzy
 #| msgid "Square"
 msgid "Share"
@@ -644,62 +644,6 @@ msgstr "Peldank Biafirîne"
 msgid "Forget All"
 msgstr ""
 
-#: app/kipiinterface.cpp:242
-#, fuzzy
-#| msgid "Images"
-msgctxt "@title:menu"
-msgid "Images"
-msgstr "Wêne"
-
-#: app/kipiinterface.cpp:243
-#, fuzzy
-#| msgid "Effects"
-msgctxt "@title:menu"
-msgid "Effects"
-msgstr "Efekt"
-
-#: app/kipiinterface.cpp:244
-#, fuzzy
-#| msgid "Tools"
-msgctxt "@title:menu"
-msgid "Tools"
-msgstr "Amûr"
-
-#: app/kipiinterface.cpp:245
-#, fuzzy
-#| msgid "Import"
-msgctxt "@title:menu"
-msgid "Import"
-msgstr "Veguhezîne Hundir"
-
-#: app/kipiinterface.cpp:246
-#, fuzzy
-#| msgid "Export"
-msgctxt "@title:menu"
-msgid "Export"
-msgstr "Veguhezîne Derve"
-
-#: app/kipiinterface.cpp:247
-#, fuzzy
-#| msgid "Batch Processing"
-msgctxt "@title:menu"
-msgid "Batch Processing"
-msgstr "Pêvajoyên Bitevayî"
-
-#: app/kipiinterface.cpp:248
-#, fuzzy
-#| msgid "Collections"
-msgctxt "@title:menu"
-msgid "Collections"
-msgstr "Berhevok"
-
-#: app/kipiinterface.cpp:252
-#, fuzzy
-#| msgctxt "@info:progress saving all image changes"
-#| msgid "Saving..."
-msgid "Loading..."
-msgstr "Tê tomarkirin..."
-
 #: app/gvcore.cpp:86
 msgctxt "@info"
 msgid "No image format selected."
@@ -748,6 +692,62 @@ msgstr ""
 msgctxt "@info"
 msgid "Gwenview cannot edit this kind of image."
 msgstr "Gwenview nikare wêneyên bi vê cure yê serast bike."
+
+#: app/kipiinterface.cpp:212
+#, fuzzy
+#| msgctxt "@info:progress saving all image changes"
+#| msgid "Saving..."
+msgid "Loading..."
+msgstr "Tê tomarkirin..."
+
+#: app/kipiinterface.cpp:246
+#, fuzzy
+#| msgid "Images"
+msgctxt "@title:menu"
+msgid "Images"
+msgstr "Wêne"
+
+#: app/kipiinterface.cpp:247
+#, fuzzy
+#| msgid "Effects"
+msgctxt "@title:menu"
+msgid "Effects"
+msgstr "Efekt"
+
+#: app/kipiinterface.cpp:248
+#, fuzzy
+#| msgid "Tools"
+msgctxt "@title:menu"
+msgid "Tools"
+msgstr "Amûr"
+
+#: app/kipiinterface.cpp:249
+#, fuzzy
+#| msgid "Import"
+msgctxt "@title:menu"
+msgid "Import"
+msgstr "Veguhezîne Hundir"
+
+#: app/kipiinterface.cpp:250
+#, fuzzy
+#| msgid "Export"
+msgctxt "@title:menu"
+msgid "Export"
+msgstr "Veguhezîne Derve"
+
+#: app/kipiinterface.cpp:251
+#, fuzzy
+#| msgid "Batch Processing"
+msgctxt "@title:menu"
+msgid "Batch Processing"
+msgstr "Pêvajoyên Bitevayî"
+
+#: app/kipiinterface.cpp:252
+#, fuzzy
+#| msgid "Collections"
+msgctxt "@title:menu"
+msgid "Collections"
+msgstr "Berhevok"
 
 #: app/kipiuploadwidget.cpp:43
 #, kde-format
