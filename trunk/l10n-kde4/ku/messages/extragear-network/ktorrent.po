@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktorrent\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-03-29 03:43+0200\n"
+"POT-Creation-Date: 2012-04-06 03:45+0200\n"
 "PO-Revision-Date: 2008-09-23 17:28+0300\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -646,25 +646,6 @@ msgstr "%1 KB/ç"
 
 #: ktorrent/pref/btpref.cpp:27
 msgid "BitTorrent"
-msgstr ""
-
-#: ktorrent/statusbar.cpp:39 ktorrent/statusbar.cpp:71
-#, kde-format
-msgid "Speed down: %1 / up: %2"
-msgstr "Lez daxistin: %1 / şandin: %2"
-
-#: ktorrent/statusbar.cpp:40 ktorrent/statusbar.cpp:82
-#, kde-format
-msgid "Transferred down: %1 / up: %2"
-msgstr ""
-
-#: ktorrent/statusbar.cpp:42 ktorrent/statusbar.cpp:97
-msgid "DHT: off"
-msgstr "DHT: girtî"
-
-#: ktorrent/statusbar.cpp:95
-#, kde-format
-msgid "DHT: %1 nodes, %2 tasks"
 msgstr ""
 
 #: ktorrent/tools/queuemanagermodel.cpp:190
@@ -1958,6 +1939,39 @@ msgstr "Pelekî hilbijêre"
 #: ktorrent/ipfilterwidget.cpp:151
 msgid "Choose a filename to save under"
 msgstr "Ji bo tomarkirinê navê pelekî hilbijêre"
+
+#: ktorrent/statusbar.cpp:39 ktorrent/statusbar.cpp:71
+#, kde-format
+msgid "Speed down: %1 / up: %2"
+msgstr "Lez daxistin: %1 / şandin: %2"
+
+#: ktorrent/statusbar.cpp:40 ktorrent/statusbar.cpp:82
+#, kde-format
+msgid "Transferred down: %1 / up: %2"
+msgstr ""
+
+#: ktorrent/statusbar.cpp:42 ktorrent/statusbar.cpp:97
+msgid "DHT: off"
+msgstr "DHT: girtî"
+
+#: ktorrent/statusbar.cpp:95
+#, kde-format
+msgid "%1 node"
+msgid_plural "%1 nodes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ktorrent/statusbar.cpp:95
+#, kde-format
+msgid "%1 task"
+msgid_plural "%1 tasks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ktorrent/statusbar.cpp:95
+#, kde-format
+msgid "DHT: %1, %2"
+msgstr ""
 
 #: ktupnptest/main.cpp:40
 msgid "KTUPnPTest"
