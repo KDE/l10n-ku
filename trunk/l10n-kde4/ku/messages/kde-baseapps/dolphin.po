@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-04-14 04:18+0200\n"
+"POT-Creation-Date: 2012-04-16 03:42+0200\n"
 "PO-Revision-Date: 2008-12-22 22:21+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -616,39 +616,6 @@ msgctxt "@title:window"
 msgid "Configure Preview for %1"
 msgstr ""
 
-#: settings/general/behaviorsettingspage.cpp:49
-#, fuzzy
-#| msgctxt "@title:group"
-#| msgid "View Properties"
-msgctxt "@label"
-msgid "View properties:"
-msgstr "Taybetmendiyên Xuyakirinê"
-
-#: settings/general/behaviorsettingspage.cpp:53
-msgctxt "@option:radio"
-msgid "Remember view properties for each folder"
-msgstr "Ji bo her peldankekê taybetmendiyên xuyakirinê bi bîr bîne"
-
-#: settings/general/behaviorsettingspage.cpp:54
-msgctxt "@option:radio"
-msgid "Use common view properties for all folders"
-msgstr "Ji bo hemû peldankan taybetmendiyên giştî bi kar bîne"
-
-#: settings/general/behaviorsettingspage.cpp:61
-msgctxt "@option:check"
-msgid "Show tooltips"
-msgstr "Qutî ya amûran nîşan bide"
-
-#: settings/general/behaviorsettingspage.cpp:64
-msgctxt "@option:check"
-msgid "Show selection marker"
-msgstr "Nîşanderê hilbijartî nîşan bide"
-
-#: settings/general/behaviorsettingspage.cpp:67
-msgctxt "option:check"
-msgid "Natural sorting of items"
-msgstr ""
-
 #: settings/general/confirmationssettingspage.cpp:44
 #, fuzzy
 #| msgctxt "@title:group"
@@ -735,6 +702,44 @@ msgstr "Kaşkera nêzîktir kirinê nîşan bide"
 msgctxt "@option:check"
 msgid "Show space information"
 msgstr "Agahiya valahiyê nîşan bide"
+
+#: settings/general/behaviorsettingspage.cpp:50
+#, fuzzy
+#| msgid "&View"
+msgctxt "@title:group"
+msgid "View"
+msgstr "&Bibîne"
+
+#: settings/general/behaviorsettingspage.cpp:53
+#, fuzzy
+#| msgctxt "@option:radio"
+#| msgid "Remember view properties for each folder"
+msgctxt "@option:radio"
+msgid "Remember properties for each folder"
+msgstr "Ji bo her peldankekê taybetmendiyên xuyakirinê bi bîr bîne"
+
+#: settings/general/behaviorsettingspage.cpp:54
+#, fuzzy
+#| msgctxt "@option:radio"
+#| msgid "Use common view properties for all folders"
+msgctxt "@option:radio"
+msgid "Use common properties for all folders"
+msgstr "Ji bo hemû peldankan taybetmendiyên giştî bi kar bîne"
+
+#: settings/general/behaviorsettingspage.cpp:61
+msgctxt "@option:check"
+msgid "Show tooltips"
+msgstr "Qutî ya amûran nîşan bide"
+
+#: settings/general/behaviorsettingspage.cpp:64
+msgctxt "@option:check"
+msgid "Show selection marker"
+msgstr "Nîşanderê hilbijartî nîşan bide"
+
+#: settings/general/behaviorsettingspage.cpp:67
+msgctxt "option:check"
+msgid "Natural sorting of items"
+msgstr ""
 
 #: settings/kcm/kcmdolphinviewmodes.cpp:58
 #: settings/viewmodes/viewsettingspage.cpp:45
@@ -1218,60 +1223,6 @@ msgctxt "@label"
 msgid "Select which additional information should be shown:"
 msgstr ""
 
-#: statusbar/dolphinstatusbar.cpp:63
-#, fuzzy
-#| msgctxt "@option:check"
-#| msgid "Show zoom slider"
-msgid "Zoom slider"
-msgstr "Kaşkera nêzîktir kirinê nîşan bide"
-
-#: statusbar/dolphinstatusbar.cpp:76
-#, fuzzy
-#| msgctxt "@action:inmenu View"
-#| msgid "Stop"
-msgid "Stop"
-msgstr "Sekinandin"
-
-#: statusbar/dolphinstatusbar.cpp:78
-#, fuzzy
-#| msgctxt "@label:listbox"
-#| msgid "Sorting:"
-msgctxt "@tooltip"
-msgid "Stop loading"
-msgstr "Rêzkirin:"
-
-#: statusbar/dolphinstatusbar.cpp:226
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Copy"
-msgctxt "@action:inmenu"
-msgid "Copy Text"
-msgstr "Jibergirtin"
-
-#: statusbar/dolphinstatusbar.cpp:227
-#, fuzzy
-#| msgctxt "@option:check"
-#| msgid "Show zoom slider"
-msgctxt "@action:inmenu"
-msgid "Show Zoom Slider"
-msgstr "Kaşkera nêzîktir kirinê nîşan bide"
-
-#: statusbar/dolphinstatusbar.cpp:231
-#, fuzzy
-#| msgctxt "@option:check"
-#| msgid "Show space information"
-msgctxt "@action:inmenu"
-msgid "Show Space Information"
-msgstr "Agahiya valahiyê nîşan bide"
-
-#: statusbar/dolphinstatusbar.cpp:308
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Size: 1 pixel"
-msgid_plural "Size: %1 pixels"
-msgstr[0] "Mezinahî: 1 pîksel"
-msgstr[1] "Mezinahî: %1 pîkselan "
-
 #: statusbar/statusbarspaceinfo.cpp:79 statusbar/statusbarspaceinfo.cpp:87
 msgctxt "@info:status"
 msgid "Unknown size"
@@ -1282,6 +1233,60 @@ msgstr "Mezinahiya nenas"
 msgctxt "@info:status Free disk space"
 msgid "%1 free"
 msgstr "%1 vala"
+
+#: statusbar/dolphinstatusbar.cpp:69
+#, fuzzy
+#| msgctxt "@option:check"
+#| msgid "Show zoom slider"
+msgid "Zoom slider"
+msgstr "Kaşkera nêzîktir kirinê nîşan bide"
+
+#: statusbar/dolphinstatusbar.cpp:82
+#, fuzzy
+#| msgctxt "@action:inmenu View"
+#| msgid "Stop"
+msgid "Stop"
+msgstr "Sekinandin"
+
+#: statusbar/dolphinstatusbar.cpp:84
+#, fuzzy
+#| msgctxt "@label:listbox"
+#| msgid "Sorting:"
+msgctxt "@tooltip"
+msgid "Stop loading"
+msgstr "Rêzkirin:"
+
+#: statusbar/dolphinstatusbar.cpp:257
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Copy"
+msgctxt "@action:inmenu"
+msgid "Copy Text"
+msgstr "Jibergirtin"
+
+#: statusbar/dolphinstatusbar.cpp:258
+#, fuzzy
+#| msgctxt "@option:check"
+#| msgid "Show zoom slider"
+msgctxt "@action:inmenu"
+msgid "Show Zoom Slider"
+msgstr "Kaşkera nêzîktir kirinê nîşan bide"
+
+#: statusbar/dolphinstatusbar.cpp:262
+#, fuzzy
+#| msgctxt "@option:check"
+#| msgid "Show space information"
+msgctxt "@action:inmenu"
+msgid "Show Space Information"
+msgstr "Agahiya valahiyê nîşan bide"
+
+#: statusbar/dolphinstatusbar.cpp:345
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Size: 1 pixel"
+msgid_plural "Size: %1 pixels"
+msgstr[0] "Mezinahî: 1 pîksel"
+msgstr[1] "Mezinahî: %1 pîkselan "
 
 #: views/dolphinview.cpp:517
 #, kde-format
@@ -2826,6 +2831,13 @@ msgstr ""
 #: dolphinpart.cpp:469
 msgid "Unselect all items matching this pattern:"
 msgstr ""
+
+#, fuzzy
+#~| msgctxt "@title:group"
+#~| msgid "View Properties"
+#~ msgctxt "@label"
+#~ msgid "View properties:"
+#~ msgstr "Taybetmendiyên Xuyakirinê"
 
 #, fuzzy
 #~| msgctxt "@title:window"
