@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-04-20 11:50+0200\n"
+"POT-Creation-Date: 2012-04-23 12:02+0200\n"
 "PO-Revision-Date: 2010-08-13 15:45+0200\n"
 "Last-Translator: Erdal Ronahî <erdal.ronahi@gmail.com>\n"
 "Language-Team: Kurdish Team http://pckurd.net\n"
@@ -3230,6 +3230,55 @@ msgstr ""
 msgid "Could not Launch Help Center"
 msgstr "Navenda Alîkariyan nehate destpêkirin"
 
+#: kdecore/kernel/ktoolinvocation_x11.cpp:281
+#, kde-format
+msgid ""
+"Could not launch the mail client:\n"
+"\n"
+"%1"
+msgstr ""
+"Bernameya e-peyaman nehate xebitandin:\n"
+"\n"
+"%1"
+
+#: kdecore/kernel/ktoolinvocation_x11.cpp:282
+msgid "Could not launch Mail Client"
+msgstr "Bernameya e-peyaman nehate destpêkirin"
+
+#: kdecore/kernel/ktoolinvocation_x11.cpp:334
+#: kdecore/kernel/ktoolinvocation_x11.cpp:359
+#: kdecore/kernel/ktoolinvocation_x11.cpp:379
+#, kde-format
+msgid ""
+"Could not launch the browser:\n"
+"\n"
+"%1"
+msgstr ""
+"Geroka webê nehate destpêkirin:\n"
+"\n"
+"%1"
+
+#: kdecore/kernel/ktoolinvocation_x11.cpp:335
+#: kdecore/kernel/ktoolinvocation_x11.cpp:360
+#: kdecore/kernel/ktoolinvocation_x11.cpp:380
+msgid "Could not launch Browser"
+msgstr "Geroka webê nehate destpêkirin"
+
+#: kdecore/kernel/ktoolinvocation_x11.cpp:419
+#, kde-format
+msgid ""
+"Could not launch the terminal client:\n"
+"\n"
+"%1"
+msgstr ""
+"Xebitandina bernameya termînal biserneket:\n"
+"\n"
+"%1"
+
+#: kdecore/kernel/ktoolinvocation_x11.cpp:420
+msgid "Could not launch Terminal Client"
+msgstr "Destpêkirina Bernameya Termînalê biserneket"
+
 #: kdecore/kernel/kcmdlineargs.cpp:273
 msgid "Use the X-server display 'displayname'"
 msgstr "Dîmenderê pêşkêşkerê grafîka 'displayname' bikar bîne"
@@ -3306,7 +3355,11 @@ msgstr "navê sepanê mîheng dike"
 msgid "sets the application title (caption)"
 msgstr "sernavê sepanê mîheng dike"
 
-#: kdecore/kernel/kcmdlineargs.cpp:295
+#: kdecore/kernel/kcmdlineargs.cpp:294
+msgid "load the testability framework"
+msgstr ""
+
+#: kdecore/kernel/kcmdlineargs.cpp:296
 msgid ""
 "forces the application to use a TrueColor visual on\n"
 "an 8-bit display"
@@ -3314,64 +3367,64 @@ msgstr ""
 "Sepandinê mecbûr dike ku rengên rastî bi firehiya \n"
 "8-bitan bikar bîne"
 
-#: kdecore/kernel/kcmdlineargs.cpp:296
+#: kdecore/kernel/kcmdlineargs.cpp:297
 msgid ""
 "sets XIM (X Input Method) input style. Possible\n"
 "values are onthespot, overthespot, offthespot and\n"
 "root"
 msgstr ""
 
-#: kdecore/kernel/kcmdlineargs.cpp:297
+#: kdecore/kernel/kcmdlineargs.cpp:298
 msgid "set XIM server"
 msgstr "Pêşkêşkerê XIM binasîne"
 
-#: kdecore/kernel/kcmdlineargs.cpp:298
+#: kdecore/kernel/kcmdlineargs.cpp:299
 msgid "disable XIM"
 msgstr "XIMê bêbandor bike"
 
-#: kdecore/kernel/kcmdlineargs.cpp:301
+#: kdecore/kernel/kcmdlineargs.cpp:302
 msgid "forces the application to run as QWS Server"
 msgstr "Zorê dide bernameyê da ku weke pêşkêşkerê QWS bixebite"
 
-#: kdecore/kernel/kcmdlineargs.cpp:303
+#: kdecore/kernel/kcmdlineargs.cpp:304
 msgid "mirrors the whole layout of widgets"
 msgstr "bicihbûna perçeyan vajî dike (neynik)"
 
-#: kdecore/kernel/kcmdlineargs.cpp:304
+#: kdecore/kernel/kcmdlineargs.cpp:305
 msgid "applies the Qt stylesheet to the application widgets"
 msgstr ""
 
-#: kdecore/kernel/kcmdlineargs.cpp:305
+#: kdecore/kernel/kcmdlineargs.cpp:306
 msgid ""
 "use a different graphics system instead of the default one, options are "
 "raster and opengl (experimental)"
 msgstr ""
 
-#: kdecore/kernel/kcmdlineargs.cpp:307
+#: kdecore/kernel/kcmdlineargs.cpp:308
 msgid "Use 'caption' as name in the titlebar"
 msgstr "Di darikê sernavan de weke nav \"sernav\" bikar bîne"
 
-#: kdecore/kernel/kcmdlineargs.cpp:308
+#: kdecore/kernel/kcmdlineargs.cpp:309
 msgid "Use 'icon' as the application icon"
 msgstr "Weke sembola sepanê 'sembol'ekê bikar bîne"
 
-#: kdecore/kernel/kcmdlineargs.cpp:309
+#: kdecore/kernel/kcmdlineargs.cpp:310
 msgid "Use alternative configuration file"
 msgstr "Pelê veavakirina alternatîf bîkar bîne"
 
-#: kdecore/kernel/kcmdlineargs.cpp:310
+#: kdecore/kernel/kcmdlineargs.cpp:311
 msgid "Disable crash handler, to get core dumps"
 msgstr "Nûçegîhanê hilweşandinê bêbandor bike"
 
-#: kdecore/kernel/kcmdlineargs.cpp:312
+#: kdecore/kernel/kcmdlineargs.cpp:313
 msgid "Waits for a WM_NET compatible windowmanager"
 msgstr "WM_NET benda gerînendeyekî paceyan yê guncav disekine"
 
-#: kdecore/kernel/kcmdlineargs.cpp:314
+#: kdecore/kernel/kcmdlineargs.cpp:315
 msgid "sets the application GUI style"
 msgstr "şêwaza grafîka sepanê mîheng dike"
 
-#: kdecore/kernel/kcmdlineargs.cpp:315
+#: kdecore/kernel/kcmdlineargs.cpp:316
 msgid ""
 "sets the client geometry of the main widget - see man X for the argument "
 "format (usually WidthxHeight+XPos+YPos)"
@@ -3379,30 +3432,30 @@ msgstr ""
 "geometriya parçeya daxwazkar a parçeya navendî mîheng dike - ji bo teşeya "
 "argumanê rêberê X binihêre (piranî FirehîxBilindahî+XCih+YCih)"
 
-#: kdecore/kernel/kcmdlineargs.cpp:433
+#: kdecore/kernel/kcmdlineargs.cpp:434
 msgid "KDE Application"
 msgstr "Sepana KDE"
 
-#: kdecore/kernel/kcmdlineargs.cpp:492
+#: kdecore/kernel/kcmdlineargs.cpp:493
 msgid "Qt"
 msgstr "Qt"
 
-#: kdecore/kernel/kcmdlineargs.cpp:495 khtml/khtml_part.cpp:4819
+#: kdecore/kernel/kcmdlineargs.cpp:496 khtml/khtml_part.cpp:4819
 msgid "KDE"
 msgstr "KDE"
 
-#: kdecore/kernel/kcmdlineargs.cpp:798 kdecore/kernel/kcmdlineargs.cpp:814
+#: kdecore/kernel/kcmdlineargs.cpp:799 kdecore/kernel/kcmdlineargs.cpp:815
 #, kde-format
 msgid "Unknown option '%1'."
 msgstr "Vebijêrka nenas '%1'."
 
-#: kdecore/kernel/kcmdlineargs.cpp:822
+#: kdecore/kernel/kcmdlineargs.cpp:823
 #, kde-format
 msgctxt "@info:shell %1 is cmdoption name"
 msgid "'%1' missing."
 msgstr "'%1' kêm e."
 
-#: kdecore/kernel/kcmdlineargs.cpp:888
+#: kdecore/kernel/kcmdlineargs.cpp:889
 #, kde-format
 msgctxt ""
 "@info:shell message on appcmd --version; do not translate 'Development "
@@ -3416,7 +3469,7 @@ msgstr ""
 "Platforma Pêşdebirîna KDE: %2\n"
 "%3: %4\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:913
+#: kdecore/kernel/kcmdlineargs.cpp:914
 #, kde-format
 msgctxt "the 2nd argument is a list of name+address, one on each line"
 msgid ""
@@ -3426,49 +3479,49 @@ msgstr ""
 "%1 ji hêla\n"
 "%2 ve hatiye nivîsandin"
 
-#: kdecore/kernel/kcmdlineargs.cpp:916
+#: kdecore/kernel/kcmdlineargs.cpp:917
 msgid "This application was written by somebody who wants to remain anonymous."
 msgstr ""
 "Ev sepan ji aliyê kesekî/e ku naxwaze navê wî/ê deşîfre bibe hatiye "
 "nivîsandin."
 
-#: kdecore/kernel/kcmdlineargs.cpp:923
+#: kdecore/kernel/kcmdlineargs.cpp:924
 msgid "Please use http://bugs.kde.org to report bugs.\n"
 msgstr ""
 "Ji kerema xwe bo ragihandina çewtiyan navnîşana http://bugs.kde.org  bikar "
 "bîne.\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:925
+#: kdecore/kernel/kcmdlineargs.cpp:926
 #, kde-format
 msgid "Please report bugs to %1.\n"
 msgstr "Ji kerema xwe re çewtiyan ragihîne navnîşana %1\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:962
+#: kdecore/kernel/kcmdlineargs.cpp:963
 #, kde-format
 msgid "Unexpected argument '%1'."
 msgstr "Argumana nenas '%1'."
 
-#: kdecore/kernel/kcmdlineargs.cpp:1086
+#: kdecore/kernel/kcmdlineargs.cpp:1087
 msgid "Use --help to get a list of available command line options."
 msgstr ""
 "Ji bo ku tu karibî xwe bigihînî vebijêrkên rêzika fermanan --helpê bikar "
 "bînî."
 
-#: kdecore/kernel/kcmdlineargs.cpp:1109
+#: kdecore/kernel/kcmdlineargs.cpp:1110
 msgid "[options] "
 msgstr "[vebijêrk] "
 
-#: kdecore/kernel/kcmdlineargs.cpp:1116
+#: kdecore/kernel/kcmdlineargs.cpp:1117
 #, kde-format
 msgid "[%1-options]"
 msgstr "[Vebijarkên-%1]"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1137
+#: kdecore/kernel/kcmdlineargs.cpp:1138
 #, kde-format
 msgid "Usage: %1 %2\n"
 msgstr "Bikaranîn: %1 %2\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1140
+#: kdecore/kernel/kcmdlineargs.cpp:1141
 msgid ""
 "\n"
 "Generic options:\n"
@@ -3476,36 +3529,36 @@ msgstr ""
 "\n"
 "Opsiyonên giştî:\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1142
+#: kdecore/kernel/kcmdlineargs.cpp:1143
 msgid "Show help about options"
 msgstr "Der barê vebijarkan de alîkariyê nîşan bide"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1150
+#: kdecore/kernel/kcmdlineargs.cpp:1151
 #, kde-format
 msgid "Show %1 specific options"
 msgstr "Vebijarkên ku têkildarî %1 nîşan bide"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1157
+#: kdecore/kernel/kcmdlineargs.cpp:1158
 msgid "Show all options"
 msgstr "Hemû vebijarkan nîşan bide"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1158
+#: kdecore/kernel/kcmdlineargs.cpp:1159
 msgid "Show author information"
 msgstr "Agahiya nivîskêr nîşan bide"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1159
+#: kdecore/kernel/kcmdlineargs.cpp:1160
 msgid "Show version information"
 msgstr "Agahiya guhertoyê nîşan bide"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1160
+#: kdecore/kernel/kcmdlineargs.cpp:1161
 msgid "Show license information"
 msgstr "Agahiya lîsansê nîşan bide"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1161
+#: kdecore/kernel/kcmdlineargs.cpp:1162
 msgid "End of options"
 msgstr "Dawiya vebijarkan"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1182
+#: kdecore/kernel/kcmdlineargs.cpp:1183
 #, kde-format
 msgid ""
 "\n"
@@ -3514,7 +3567,7 @@ msgstr ""
 "\n"
 "%1 opsiyon:\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1184
+#: kdecore/kernel/kcmdlineargs.cpp:1185
 msgid ""
 "\n"
 "Options:\n"
@@ -3522,7 +3575,7 @@ msgstr ""
 "\n"
 "Opsiyon:\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1242
+#: kdecore/kernel/kcmdlineargs.cpp:1243
 msgid ""
 "\n"
 "Arguments:\n"
@@ -3530,64 +3583,15 @@ msgstr ""
 "\n"
 "Arguman:\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1596
+#: kdecore/kernel/kcmdlineargs.cpp:1597
 msgid "The files/URLs opened by the application will be deleted after use"
 msgstr ""
 "Pel/URL'ên ku ji aliyê sepanê hatiye vekirin wê piştî bikaranînê werine "
 "girtin"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1597
+#: kdecore/kernel/kcmdlineargs.cpp:1598
 msgid "KDE-tempfile"
 msgstr "KDE-tempfile"
-
-#: kdecore/kernel/ktoolinvocation_x11.cpp:281
-#, kde-format
-msgid ""
-"Could not launch the mail client:\n"
-"\n"
-"%1"
-msgstr ""
-"Bernameya e-peyaman nehate xebitandin:\n"
-"\n"
-"%1"
-
-#: kdecore/kernel/ktoolinvocation_x11.cpp:282
-msgid "Could not launch Mail Client"
-msgstr "Bernameya e-peyaman nehate destpêkirin"
-
-#: kdecore/kernel/ktoolinvocation_x11.cpp:334
-#: kdecore/kernel/ktoolinvocation_x11.cpp:359
-#: kdecore/kernel/ktoolinvocation_x11.cpp:379
-#, kde-format
-msgid ""
-"Could not launch the browser:\n"
-"\n"
-"%1"
-msgstr ""
-"Geroka webê nehate destpêkirin:\n"
-"\n"
-"%1"
-
-#: kdecore/kernel/ktoolinvocation_x11.cpp:335
-#: kdecore/kernel/ktoolinvocation_x11.cpp:360
-#: kdecore/kernel/ktoolinvocation_x11.cpp:380
-msgid "Could not launch Browser"
-msgstr "Geroka webê nehate destpêkirin"
-
-#: kdecore/kernel/ktoolinvocation_x11.cpp:419
-#, kde-format
-msgid ""
-"Could not launch the terminal client:\n"
-"\n"
-"%1"
-msgstr ""
-"Xebitandina bernameya termînal biserneket:\n"
-"\n"
-"%1"
-
-#: kdecore/kernel/ktoolinvocation_x11.cpp:420
-msgid "Could not launch Terminal Client"
-msgstr "Destpêkirina Bernameya Termînalê biserneket"
 
 #: kdecore/localization/kencodingdetector.cpp:1145
 #: kdecore/localization/kencodingdetector.cpp:1247
