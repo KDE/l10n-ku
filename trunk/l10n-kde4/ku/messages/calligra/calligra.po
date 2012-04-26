@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-04-25 02:54+0200\n"
+"POT-Creation-Date: 2012-04-26 02:58+0200\n"
 "PO-Revision-Date: 2007-12-17 01:31+0100\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
@@ -3234,7 +3234,10 @@ msgid "Addition"
 msgstr ""
 
 #: pigment/KoCompositeOpRegistry.cpp:43
-msgid "Substract"
+#: pigment/colorspaces/KoAlphaColorSpace.cpp:121
+#: pigment/compositeops/KoCompositeOpSubtract.h:37
+#: pigment/compositeops/KoCompositeOps.h:101
+msgid "Subtract"
 msgstr ""
 
 #: pigment/KoCompositeOpRegistry.cpp:44
@@ -3251,7 +3254,8 @@ msgid "Divide"
 msgstr ""
 
 #: pigment/KoCompositeOpRegistry.cpp:46
-msgid "Inverse Substract"
+#: pigment/compositeops/KoCompositeOpInversedSubtract.h:37
+msgid "Inverse Subtract"
 msgstr ""
 
 #: pigment/KoCompositeOpRegistry.cpp:48
@@ -3326,7 +3330,7 @@ msgid "Equivalence"
 msgstr ""
 
 #: pigment/KoCompositeOpRegistry.cpp:66
-msgid "Additive Substractive"
+msgid "Additive Subtractive"
 msgstr ""
 
 #: pigment/KoCompositeOpRegistry.cpp:67
@@ -3573,12 +3577,6 @@ msgstr ""
 msgid "Clear"
 msgstr ""
 
-#: pigment/colorspaces/KoAlphaColorSpace.cpp:121
-#: pigment/compositeops/KoCompositeOpSubtract.h:37
-#: pigment/compositeops/KoCompositeOps.h:101
-msgid "Subtract"
-msgstr ""
-
 #: pigment/colorspaces/KoAlphaColorSpace.cpp:259
 #: pigment/colorspaces/KoAlphaColorSpace.h:189
 msgid "Alpha mask"
@@ -3656,10 +3654,6 @@ msgstr ""
 msgid "Hard light"
 msgstr ""
 
-#: pigment/compositeops/KoCompositeOpInversedSubtract.h:37
-msgid "Inverse Subtract"
-msgstr ""
-
 #: pigment/compositeops/KoCompositeOpSoftlight.h:39
 msgid "Soft light"
 msgstr ""
@@ -3673,7 +3667,7 @@ msgid "Inversed-Subtract"
 msgstr ""
 
 #: pigment/compositeops/KoCompositeOps.h:110
-msgid "Additive-Substractive"
+msgid "Additive-Subtractive"
 msgstr ""
 
 #: pigment/resources/KoStopGradient.cpp:420
