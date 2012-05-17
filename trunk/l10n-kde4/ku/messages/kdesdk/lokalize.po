@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaider\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-04-27 04:27+0200\n"
+"POT-Creation-Date: 2012-05-17 04:35+0200\n"
 "PO-Revision-Date: 2008-09-24 02:55+0300\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: American English <kde-i18n-doc@lists.kde.org>\n"
@@ -1165,9 +1165,42 @@ msgstr ""
 msgid "Regular expressions"
 msgstr ""
 
+#. i18n: file: src/filesearch/massreplaceoptions.ui:20
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:559
+#, fuzzy
+#| msgctxt "@label:textbox as in 'Replace with'"
+#| msgid "With: "
+msgid "With:"
+msgstr "Bi:"
+
+#. i18n: file: src/filesearch/massreplaceoptions.ui:43
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:562
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Replace in files"
+msgid "Replace:"
+msgstr "Di pelan de biguherîne"
+
+#. i18n: file: src/filesearch/massreplaceoptions.ui:50
+#. i18n: ectx: property (text), widget (QPushButton, doPreview)
+#: rc.cpp:565
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Manage translation memories"
+msgid "Preview"
+msgstr "Bîrên wergeran birêvebibe"
+
+#. i18n: file: src/filesearch/massreplaceoptions.ui:63
+#. i18n: ectx: property (text), widget (QPushButton, doReplace)
+#: rc.cpp:568
+msgid "Mass Replace"
+msgstr ""
+
 #. i18n: file: src/tools/widgettextcaptureconfig.ui:25
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:559
+#: rc.cpp:571
 msgid ""
 "<html>\n"
 "<p align=\"justify\">To facilitate KDE translation, Lokalize can capture "
@@ -1185,13 +1218,13 @@ msgstr ""
 
 #. i18n: file: src/tools/widgettextcaptureconfig.ui:41
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:565
+#: rc.cpp:577
 msgid "Middle Mouse Button Click Reaction"
 msgstr ""
 
 #. i18n: file: src/tools/widgettextcaptureconfig.ui:47
 #. i18n: ectx: property (text), widget (QRadioButton, none)
-#: rc.cpp:568
+#: rc.cpp:580
 #, fuzzy
 #| msgctxt "@info:status message entries"
 #| msgid "Total: %1"
@@ -1200,19 +1233,19 @@ msgstr "Hemî: %1"
 
 #. i18n: file: src/tools/widgettextcaptureconfig.ui:57
 #. i18n: ectx: property (text), widget (QRadioButton, search)
-#: rc.cpp:571
+#: rc.cpp:583
 msgid "Search GUI element text in translation memory"
 msgstr ""
 
 #. i18n: file: src/tools/widgettextcaptureconfig.ui:64
 #. i18n: ectx: property (text), widget (QRadioButton, clipboard)
-#: rc.cpp:574
+#: rc.cpp:586
 msgid "Copy GUI element text to clipboard"
 msgstr ""
 
 #. i18n: tag collection attribute text
 #. i18n: file: scripts/msgmerge.rc:3
-#: rc.cpp:577
+#: rc.cpp:589
 #, fuzzy
 #| msgctxt "@title actions category"
 #| msgid "File"
@@ -1221,7 +1254,7 @@ msgstr "Pel"
 
 #. i18n: tag script attribute text
 #. i18n: file: scripts/msgmerge.rc:4
-#: rc.cpp:580
+#: rc.cpp:592
 msgid "Update file from template"
 msgstr ""
 
@@ -1229,7 +1262,7 @@ msgstr ""
 #. i18n: file: scripts/newprojectwizard.rc:3
 #. i18n: tag collection attribute text
 #. i18n: file: scripts/newprojectwizard_win.rc:3
-#: rc.cpp:583 rc.cpp:592
+#: rc.cpp:595 rc.cpp:604
 #, fuzzy
 #| msgctxt "@title actions category"
 #| msgid "Project"
@@ -1238,7 +1271,7 @@ msgstr "Proje"
 
 #. i18n: tag script attribute text
 #. i18n: file: scripts/newprojectwizard.rc:4
-#: rc.cpp:586
+#: rc.cpp:598
 msgid "New project wizard"
 msgstr ""
 
@@ -1246,13 +1279,13 @@ msgstr ""
 #. i18n: file: scripts/newprojectwizard.rc:4
 #. i18n: tag script attribute comment
 #. i18n: file: scripts/newprojectwizard_win.rc:4
-#: rc.cpp:589 rc.cpp:598
+#: rc.cpp:601 rc.cpp:610
 msgid "Fires up a wizard to guide you through project creation"
 msgstr ""
 
 #. i18n: tag script attribute text
 #. i18n: file: scripts/newprojectwizard_win.rc:4
-#: rc.cpp:595
+#: rc.cpp:607
 #, fuzzy
 #| msgctxt "@action:inmenu"
 #| msgid "Create new project"
@@ -1261,7 +1294,7 @@ msgstr "Projeya nû biafirîne"
 
 #. i18n: tag collection attribute text
 #. i18n: file: scripts/xliff2odf.rc:3
-#: rc.cpp:601
+#: rc.cpp:613
 #, fuzzy
 #| msgid "&Tools"
 msgid "Tools"
@@ -1269,13 +1302,13 @@ msgstr "&Amûr"
 
 #. i18n: tag script attribute text
 #. i18n: file: scripts/xliff2odf.rc:4
-#: rc.cpp:604
+#: rc.cpp:616
 msgid "Merge into ODF"
 msgstr ""
 
 #. i18n: tag script attribute comment
 #. i18n: file: scripts/xliff2odf.rc:4
-#: rc.cpp:607
+#: rc.cpp:619
 msgid "Generates translated version of ODF document"
 msgstr ""
 
@@ -3603,10 +3636,6 @@ msgstr ""
 #~| msgid "Untranslated"
 #~ msgid "Untranslated"
 #~ msgstr "Newergerandî"
-
-#~ msgctxt "@label:textbox as in 'Replace with'"
-#~ msgid "With: "
-#~ msgstr "Bi:"
 
 #~ msgctxt "@label:textbox"
 #~ msgid "PO directory:"
