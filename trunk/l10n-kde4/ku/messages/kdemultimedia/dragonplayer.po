@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dragonplayer\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-05-06 05:10+0200\n"
+"POT-Creation-Date: 2012-06-01 04:56+0200\n"
 "PO-Revision-Date: 2009-01-22 21:21+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -81,7 +81,7 @@ msgstr "Dîskekî Hilbijêre"
 msgid "Select a disc to play."
 msgstr "Ji bo lêdanê dîskekî hilbijêre."
 
-#: src/app/part.cpp:66 src/app/mainWindow.cpp:328
+#: src/app/part.cpp:66 src/app/mainWindow.cpp:331
 msgid "Position Slider"
 msgstr "Cih Guhêrker"
 
@@ -140,23 +140,6 @@ msgstr ""
 #, kde-format
 msgid "Dragon Player could not open the file: %1"
 msgstr "Lêdarê Dragon nekarî pelê veke: %1"
-
-#: src/app/recentlyPlayedList.cpp:79
-msgid "Remove Entry"
-msgstr ""
-
-#: src/app/recentlyPlayedList.cpp:80
-msgid "Clear List"
-msgstr ""
-
-#: src/app/recentlyPlayedList.cpp:114
-msgid ""
-"This file could not be found. Would you like to remove it from the playlist?"
-msgstr ""
-
-#: src/app/recentlyPlayedList.cpp:115
-msgid "File not found"
-msgstr ""
 
 #: src/app/main.cpp:32
 msgid ""
@@ -236,137 +219,154 @@ msgstr "'URL' Lê Bide"
 msgid "Play DVD Video"
 msgstr "DVD ya Vîdeoyê Lê Bide"
 
-#: src/app/mainWindow.cpp:150
+#: src/app/mainWindow.cpp:152
 msgid "Aspect &Ratio"
 msgstr "&Rêje ya Dîmenê"
 
-#: src/app/mainWindow.cpp:151
+#: src/app/mainWindow.cpp:153
 msgid "&Audio Channels"
 msgstr "Kanalên &Muzîkê"
 
-#: src/app/mainWindow.cpp:152
+#: src/app/mainWindow.cpp:154
 msgid "&Subtitles"
 msgstr "&Binnivîs"
 
-#: src/app/mainWindow.cpp:168
+#: src/app/mainWindow.cpp:170
 msgid "Determine &Automatically"
 msgstr "&Bixweber Diyar Bike"
 
-#: src/app/mainWindow.cpp:169
+#: src/app/mainWindow.cpp:171
 msgid "&4:3"
 msgstr "&4:3"
 
-#: src/app/mainWindow.cpp:170
+#: src/app/mainWindow.cpp:172
 msgid "Ana&morphic (16:9)"
 msgstr "Ana&morphic (16:9)"
 
-#: src/app/mainWindow.cpp:171
+#: src/app/mainWindow.cpp:173
 msgid "&Window Size"
 msgstr "Mezinahiyê &Paceyê"
 
-#: src/app/mainWindow.cpp:220
+#: src/app/mainWindow.cpp:222
 msgid ""
 "<qt>Phonon could not be successfully initialized. Dragon Player will now "
 "exit.</qt>"
 msgstr ""
 
-#: src/app/mainWindow.cpp:290
+#: src/app/mainWindow.cpp:293
 msgid "Play &Media..."
 msgstr "&Medya Lê Bide..."
 
-#: src/app/mainWindow.cpp:304
+#: src/app/mainWindow.cpp:307
 msgid "Stop"
 msgstr "Rawestîne"
 
-#: src/app/mainWindow.cpp:310
+#: src/app/mainWindow.cpp:313
 #, fuzzy
 #| msgid "Mute"
 msgctxt "Mute the sound output"
 msgid "Mute"
 msgstr "Bêdeng"
 
-#: src/app/mainWindow.cpp:316
+#: src/app/mainWindow.cpp:319
 msgid "Reset Video Scale"
 msgstr "Pîvanga Vîdeoyê Vegerîne Nirxên Asayî"
 
-#: src/app/mainWindow.cpp:322
+#: src/app/mainWindow.cpp:325
 msgid "Menu Toggle"
 msgstr "Pêşekê Veke/Bigire"
 
-#: src/app/mainWindow.cpp:333
+#: src/app/mainWindow.cpp:336
 msgid "Video Settings"
 msgstr "Vebijêrkên Vîdeoyê"
 
-#: src/app/mainWindow.cpp:339
+#: src/app/mainWindow.cpp:342
 #, fuzzy
 #| msgid "Previous chapter"
 msgid "Previous Chapter"
 msgstr "Beşa paş"
 
-#: src/app/mainWindow.cpp:345
+#: src/app/mainWindow.cpp:348
 #, fuzzy
 #| msgid "Next chapter"
 msgid "Next Chapter"
 msgstr "Beşa pêş"
 
-#: src/app/mainWindow.cpp:352
+#: src/app/mainWindow.cpp:355
 #, fuzzy, no-c-format
 #| msgid "Return 10% back"
 msgid "Return 10% Back"
 msgstr "10% vegere paş"
 
-#: src/app/mainWindow.cpp:359
+#: src/app/mainWindow.cpp:362
 #, fuzzy, no-c-format
 #| msgid "Go 10% forward"
 msgid "Go 10% Forward"
 msgstr "10% biçe pêş"
 
-#: src/app/mainWindow.cpp:365
+#: src/app/mainWindow.cpp:368
 #, fuzzy
 #| msgid "Return 10 seconds back"
 msgid "Return 10 Seconds Back"
 msgstr "10 xulekan vegere paş"
 
-#: src/app/mainWindow.cpp:371
+#: src/app/mainWindow.cpp:374
 #, fuzzy
 #| msgid "Go 10 seconds forward"
 msgid "Go 10 Seconds Forward"
 msgstr "10 xulekan biçe pêş"
 
-#: src/app/mainWindow.cpp:457
+#: src/app/mainWindow.cpp:460
 #, fuzzy
 #| msgid "Mute "
 msgctxt "Mute the sound output"
 msgid "Mute "
 msgstr "Bêdeng"
 
-#: src/app/mainWindow.cpp:529
+#: src/app/mainWindow.cpp:532
 msgid "Dragon Player was asked to open an empty URL; it cannot."
 msgstr "Lêdarê Dragon ji bo vekirina URL yekê vala hat lê pirsîn; nikare veke."
 
-#: src/app/mainWindow.cpp:610
+#: src/app/mainWindow.cpp:613
 #, fuzzy
 #| msgid "Select A File To Play"
 msgid "Select File to Play"
 msgstr "Ji bo Lêdanê Pelekî Hilbijêre"
 
-#: src/app/mainWindow.cpp:766
+#: src/app/mainWindow.cpp:769
 msgid "Sorry, no media was found in the drop"
 msgstr "Lêborîne, tu medya nehat dîtin"
 
-#: src/app/mainWindow.cpp:804
+#: src/app/mainWindow.cpp:832
 msgid "No media loaded"
 msgstr "Tu medya nehat bar kirin"
 
-#: src/app/mainWindow.cpp:808
+#: src/app/mainWindow.cpp:836
 msgid "Paused"
 msgstr "Hatiye Sekinandin"
 
-#: src/app/videoWindow.cpp:125
+#: src/app/recentlyPlayedList.cpp:81
+msgid "Remove Entry"
+msgstr ""
+
+#: src/app/recentlyPlayedList.cpp:82
+msgid "Clear List"
+msgstr ""
+
+#: src/app/recentlyPlayedList.cpp:116
+msgid ""
+"This file could not be found. Would you like to remove it from the playlist?"
+msgstr ""
+
+#: src/app/recentlyPlayedList.cpp:117
+msgid "File not found"
+msgstr ""
+
+#: src/app/videoWindow.cpp:126
 msgid "&DVD Subtitle Selection"
 msgstr "Hilbijartina Binnivîsê &DVD yê "
 
-#: src/app/videoWindow.cpp:135
+#: src/app/videoWindow.cpp:136
 msgid "&Auto"
 msgstr "&Bixweber"
 
