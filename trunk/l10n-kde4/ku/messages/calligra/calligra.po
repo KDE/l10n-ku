@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-06-04 02:38+0200\n"
+"POT-Creation-Date: 2012-06-07 04:10+0200\n"
 "PO-Revision-Date: 2007-12-17 01:31+0100\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
@@ -1531,36 +1531,6 @@ msgstr ""
 msgid "Typing"
 msgstr ""
 
-#: kotext/commands/DeleteTableColumnCommand.cpp:40
-msgctxt "(qtundo-format)"
-msgid "Delete Column"
-msgstr ""
-
-#: kotext/commands/DeleteTableRowCommand.cpp:40
-msgctxt "(qtundo-format)"
-msgid "Delete Row"
-msgstr ""
-
-#: kotext/commands/InsertTableColumnCommand.cpp:42
-msgctxt "(qtundo-format)"
-msgid "Insert Column Right"
-msgstr ""
-
-#: kotext/commands/InsertTableColumnCommand.cpp:44
-msgctxt "(qtundo-format)"
-msgid "Insert Column Left"
-msgstr ""
-
-#: kotext/commands/InsertTableRowCommand.cpp:42
-msgctxt "(qtundo-format)"
-msgid "Insert Row Below"
-msgstr ""
-
-#: kotext/commands/InsertTableRowCommand.cpp:44
-msgctxt "(qtundo-format)"
-msgid "Insert Row Above"
-msgstr ""
-
 #: kotext/commands/ListItemNumberingCommand.cpp:35
 msgctxt "(qtundo-format)"
 msgid "Change List Numbering"
@@ -1612,6 +1582,36 @@ msgstr ""
 #: kotext/commands/InsertNoteCommand.cpp:40
 msgctxt "(qtundo-format)"
 msgid "Insert Endnote"
+msgstr ""
+
+#: kotext/commands/DeleteTableColumnCommand.cpp:40
+msgctxt "(qtundo-format)"
+msgid "Delete Column"
+msgstr ""
+
+#: kotext/commands/DeleteTableRowCommand.cpp:40
+msgctxt "(qtundo-format)"
+msgid "Delete Row"
+msgstr ""
+
+#: kotext/commands/InsertTableColumnCommand.cpp:42
+msgctxt "(qtundo-format)"
+msgid "Insert Column Right"
+msgstr ""
+
+#: kotext/commands/InsertTableColumnCommand.cpp:44
+msgctxt "(qtundo-format)"
+msgid "Insert Column Left"
+msgstr ""
+
+#: kotext/commands/InsertTableRowCommand.cpp:42
+msgctxt "(qtundo-format)"
+msgid "Insert Row Below"
+msgstr ""
+
+#: kotext/commands/InsertTableRowCommand.cpp:44
+msgctxt "(qtundo-format)"
+msgid "Insert Row Above"
 msgstr ""
 
 #: kotext/styles/KoStyleManager.cpp:101 kotext/styles/KoStyleManager.cpp:106
@@ -2838,14 +2838,6 @@ msgstr ""
 msgid "Reference"
 msgstr ""
 
-#: main/KoToolDocker.cpp:191
-msgid "Tool Options"
-msgstr ""
-
-#: main/KoToolDocker.cpp:223
-msgid "Toggles organising the options in tabs or not"
-msgstr ""
-
 #: main/KoAutoSaveRecoveryDialog.cpp:184
 msgid "Recover Files"
 msgstr ""
@@ -2896,6 +2888,50 @@ msgstr ""
 #, kde-format
 msgid "Date: %1"
 msgstr ""
+
+#: main/KoToolDocker.cpp:191
+msgid "Tool Options"
+msgstr ""
+
+#: main/KoToolDocker.cpp:224
+msgid "Toggles organising the options in tabs or not"
+msgstr ""
+
+#: odf/KoUnit.cpp:48
+msgid "Millimeters (mm)"
+msgstr ""
+
+#: odf/KoUnit.cpp:50
+msgid "Centimeters (cm)"
+msgstr ""
+
+#: odf/KoUnit.cpp:52
+msgid "Decimeters (dm)"
+msgstr ""
+
+#: odf/KoUnit.cpp:54
+msgid "Inches (in)"
+msgstr ""
+
+#: odf/KoUnit.cpp:56
+msgid "Pica (pi)"
+msgstr ""
+
+#: odf/KoUnit.cpp:58
+msgid "Cicero (cc)"
+msgstr ""
+
+#: odf/KoUnit.cpp:60
+msgid "Points (pt)"
+msgstr ""
+
+#: odf/KoUnit.cpp:62
+msgid "Pixels (px)"
+msgstr ""
+
+#: odf/KoUnit.cpp:64
+msgid "Error!"
+msgstr "Çewtî!"
 
 #: odf/KoEncryptedStore.cpp:165
 msgid ""
@@ -2950,42 +2986,6 @@ msgstr ""
 #: odf/KoEncryptedStore.cpp:721
 msgid "Do you want to save the password?"
 msgstr ""
-
-#: odf/KoUnit.cpp:48
-msgid "Millimeters (mm)"
-msgstr ""
-
-#: odf/KoUnit.cpp:50
-msgid "Centimeters (cm)"
-msgstr ""
-
-#: odf/KoUnit.cpp:52
-msgid "Decimeters (dm)"
-msgstr ""
-
-#: odf/KoUnit.cpp:54
-msgid "Inches (in)"
-msgstr ""
-
-#: odf/KoUnit.cpp:56
-msgid "Pica (pi)"
-msgstr ""
-
-#: odf/KoUnit.cpp:58
-msgid "Cicero (cc)"
-msgstr ""
-
-#: odf/KoUnit.cpp:60
-msgid "Points (pt)"
-msgstr ""
-
-#: odf/KoUnit.cpp:62
-msgid "Pixels (px)"
-msgstr ""
-
-#: odf/KoUnit.cpp:64
-msgid "Error!"
-msgstr "Çewtî!"
 
 #: odf/KoOdfReadStore.cpp:105
 msgid "No store backend"
@@ -3849,6 +3849,38 @@ msgstr ""
 msgid "ArabicAlphabet"
 msgstr ""
 
+#: widgets/KoUniColorChooser.cpp:134
+msgid "Value (brightness)"
+msgstr ""
+
+#: widgets/KoUniColorChooser.cpp:168
+msgid "Cyan"
+msgstr ""
+
+#: widgets/KoUniColorChooser.cpp:176
+msgid "Magenta"
+msgstr ""
+
+#: widgets/KoUniColorChooser.cpp:184
+msgid "Yellow"
+msgstr ""
+
+#: widgets/KoUniColorChooser.cpp:192
+msgid "Black"
+msgstr ""
+
+#: widgets/KoUniColorChooser.cpp:209
+msgid "Green to magenta*"
+msgstr ""
+
+#: widgets/KoUniColorChooser.cpp:217
+msgid "Blue to yellow"
+msgstr ""
+
+#: widgets/KoUniColorChooser.cpp:221
+msgid "Opacity:"
+msgstr ""
+
 #: widgets/KoCsvImportDialog.cpp:93
 msgid "Import Data"
 msgstr ""
@@ -3908,6 +3940,25 @@ msgstr ""
 
 #: widgets/KoColorSetWidget.cpp:199
 msgid "Add / Remove Colors..."
+msgstr ""
+
+#: widgets/KoZoomAction.cpp:173 widgets/KoZoomAction.cpp:175
+#: widgets/KoZoomAction.cpp:187 widgets/KoZoomAction.cpp:189
+#: widgets/KoZoomMode.cpp:26
+#, kde-format
+msgid "%1%"
+msgstr ""
+
+#: widgets/KoZoomAction.cpp:271
+msgid "Use same aspect as pixels"
+msgstr ""
+
+#: widgets/KoZoomAction.cpp:279
+msgid "Zoom to Selection"
+msgstr ""
+
+#: widgets/KoZoomAction.cpp:287
+msgid "Zoom to All"
 msgstr ""
 
 #: widgets/KoResourceItemChooser.cpp:126
@@ -4002,59 +4053,8 @@ msgstr ""
 msgid "Set miter limit"
 msgstr ""
 
-#: widgets/KoUniColorChooser.cpp:134
-msgid "Value (brightness)"
-msgstr ""
-
-#: widgets/KoUniColorChooser.cpp:168
-msgid "Cyan"
-msgstr ""
-
-#: widgets/KoUniColorChooser.cpp:176
-msgid "Magenta"
-msgstr ""
-
-#: widgets/KoUniColorChooser.cpp:184
-msgid "Yellow"
-msgstr ""
-
-#: widgets/KoUniColorChooser.cpp:192
-msgid "Black"
-msgstr ""
-
-#: widgets/KoUniColorChooser.cpp:209
-msgid "Green to magenta*"
-msgstr ""
-
-#: widgets/KoUniColorChooser.cpp:217
-msgid "Blue to yellow"
-msgstr ""
-
-#: widgets/KoUniColorChooser.cpp:221
-msgid "Opacity:"
-msgstr ""
-
 #: widgets/KoUniColorDialog.cpp:39
 msgid "Color Selector"
-msgstr ""
-
-#: widgets/KoZoomAction.cpp:173 widgets/KoZoomAction.cpp:175
-#: widgets/KoZoomAction.cpp:187 widgets/KoZoomAction.cpp:189
-#: widgets/KoZoomMode.cpp:26
-#, kde-format
-msgid "%1%"
-msgstr ""
-
-#: widgets/KoZoomAction.cpp:271
-msgid "Use same aspect as pixels"
-msgstr ""
-
-#: widgets/KoZoomAction.cpp:279
-msgid "Zoom to Selection"
-msgstr ""
-
-#: widgets/KoZoomAction.cpp:287
-msgid "Zoom to All"
 msgstr ""
 
 #: widgets/KoZoomMode.cpp:27
