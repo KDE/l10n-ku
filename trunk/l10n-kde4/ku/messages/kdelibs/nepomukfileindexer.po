@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nepomukserver\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-06-14 06:13+0200\n"
+"POT-Creation-Date: 2012-06-17 05:44+0200\n"
 "PO-Revision-Date: 2008-12-30 21:52+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <ku@li.org>\n"
@@ -72,44 +72,6 @@ msgstr ""
 msgid "Remove all indexed data of the URL provided"
 msgstr ""
 
-#: eventmonitor.cpp:69
-#, fuzzy
-#| msgid ""
-#| "Strigi file indexing started. Indexing all files for fast desktop "
-#| "searches may take a while."
-msgid "Indexing files for fast searching. This process may take a while."
-msgstr ""
-"Strigi pêrist kirina pelê hat destpê kirin. Pêrist kirina hemû pelan ji bo "
-"lêgerîna sermasê yê lez di be ku hinek dem bikişîne."
-
-#: eventmonitor.cpp:98 eventmonitor.cpp:128
-msgid "Resuming indexing of files for fast searching."
-msgstr ""
-
-#: eventmonitor.cpp:106
-#, fuzzy
-#| msgid "Suspending Strigi file indexing to preserve resources."
-msgid "Suspending the indexing of files to preserve resources."
-msgstr "Ji bo parastina çavkaniyan, Strigi pêrist kirina pelê tê sekinandin."
-
-#: eventmonitor.cpp:120
-#, fuzzy, kde-format
-#| msgid ""
-#| "Local disk space is running low (%1 left). Suspending Strigi file "
-#| "indexing."
-msgid "Disk space is running low (%1 left). Suspending indexing of files."
-msgstr ""
-"Valahiya dîska herêmî hindik ma (%1 ma). Strigi pêrist kirina pelê tê "
-"sekinandin."
-
-#: eventmonitor.cpp:148
-#, fuzzy, kde-format
-#| msgctxt "@info %1 is a duration formatted using KLocale::formatDuration"
-#| msgid "Initial Desktop Search file indexing finished in %1"
-msgctxt "@info %1 is a duration formatted using KLocale::prettyFormatDuration"
-msgid "Initial indexing of files for fast searching finished in %1"
-msgstr "Pêrist kirina pelê ya Lêgerîna Sermasê yê Pêşîn di %1 de hat qedandin"
-
 #: fileindexer.cpp:176
 #, fuzzy
 #| msgid "File indexer is suspended"
@@ -159,6 +121,44 @@ msgstr "Pelên hatin pêrist kirin:"
 msgctxt "@info:status"
 msgid "File indexer is idle."
 msgstr "Pêristkerê pelê beredayî ye"
+
+#: eventmonitor.cpp:70
+#, fuzzy
+#| msgid ""
+#| "Strigi file indexing started. Indexing all files for fast desktop "
+#| "searches may take a while."
+msgid "Indexing files for fast searching. This process may take a while."
+msgstr ""
+"Strigi pêrist kirina pelê hat destpê kirin. Pêrist kirina hemû pelan ji bo "
+"lêgerîna sermasê yê lez di be ku hinek dem bikişîne."
+
+#: eventmonitor.cpp:103 eventmonitor.cpp:133
+msgid "Resuming indexing of files for fast searching."
+msgstr ""
+
+#: eventmonitor.cpp:111
+#, fuzzy
+#| msgid "Suspending Strigi file indexing to preserve resources."
+msgid "Suspending the indexing of files to preserve resources."
+msgstr "Ji bo parastina çavkaniyan, Strigi pêrist kirina pelê tê sekinandin."
+
+#: eventmonitor.cpp:125
+#, fuzzy, kde-format
+#| msgid ""
+#| "Local disk space is running low (%1 left). Suspending Strigi file "
+#| "indexing."
+msgid "Disk space is running low (%1 left). Suspending indexing of files."
+msgstr ""
+"Valahiya dîska herêmî hindik ma (%1 ma). Strigi pêrist kirina pelê tê "
+"sekinandin."
+
+#: eventmonitor.cpp:153
+#, fuzzy, kde-format
+#| msgctxt "@info %1 is a duration formatted using KLocale::formatDuration"
+#| msgid "Initial Desktop Search file indexing finished in %1"
+msgctxt "@info %1 is a duration formatted using KLocale::prettyFormatDuration"
+msgid "Initial indexing of files for fast searching finished in %1"
+msgstr "Pêrist kirina pelê ya Lêgerîna Sermasê yê Pêşîn di %1 de hat qedandin"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
