@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_battery\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-06-16 05:09+0200\n"
+"POT-Creation-Date: 2012-06-20 05:49+0200\n"
 "PO-Revision-Date: 2008-12-26 00:33+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
@@ -19,62 +19,6 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-Language: Kurdish\n"
-
-#: contents/ui/PopupDialog.qml:50
-#, fuzzy
-#| msgid "On Battery"
-msgid "Battery:"
-msgstr "Pîl"
-
-#: contents/ui/PopupDialog.qml:55
-#, fuzzy
-#| msgid "AC Adapter"
-msgid "AC Adapter:"
-msgstr "Adaptorê AC"
-
-#: contents/ui/PopupDialog.qml:60
-#, fuzzy
-#| msgid "Power Management"
-msgctxt "Label for power management inhibition"
-msgid "Power management enabled:"
-msgstr "Rêveberiya Hezê"
-
-#: contents/ui/PopupDialog.qml:65
-#, fuzzy
-#| msgid "Screen Brightness"
-msgid "Screen Brightness:"
-msgstr "Ronahiya Dîmenê"
-
-#: contents/ui/PopupDialog.qml:80 contents/ui/batterymonitor.qml:120
-msgctxt "Battery is not plugged in"
-msgid "Not present"
-msgstr ""
-
-#: contents/ui/PopupDialog.qml:85
-#, fuzzy
-#| msgid "Plugged in"
-msgid "Plugged in"
-msgstr "Tê de"
-
-#: contents/ui/PopupDialog.qml:85
-#, fuzzy
-#| msgid "Plugged in"
-msgid "Not plugged in"
-msgstr "Tê de"
-
-#: contents/ui/PopupDialog.qml:115
-#, fuzzy
-#| msgid "Sleep"
-msgctxt "Suspend the computer to RAM; translation should be short"
-msgid "Sleep"
-msgstr "Bide Razan"
-
-#: contents/ui/PopupDialog.qml:124
-#, fuzzy
-#| msgid "Hibernate"
-msgctxt "Suspend the computer to disk; translation should be short"
-msgid "Hibernate"
-msgstr "Bide Sekinandin "
 
 #: contents/ui/batterymonitor.qml:105
 #, kde-format
@@ -87,6 +31,11 @@ msgstr ""
 #| msgid "Battery"
 msgid "<b>Battery:</b>"
 msgstr "Pîl"
+
+#: contents/ui/batterymonitor.qml:120 contents/ui/PopupDialog.qml:83
+msgctxt "Battery is not plugged in"
+msgid "Not present"
+msgstr ""
 
 #: contents/ui/batterymonitor.qml:122
 #, fuzzy
@@ -130,6 +79,57 @@ msgstr "<b>Pîl:</b> %1% (şarj tê vala kirin)<br />"
 #: contents/ui/batterymonitor.qml:188
 msgid "The battery applet has enabled system-wide inhibition"
 msgstr ""
+
+#: contents/ui/PopupDialog.qml:52
+#, fuzzy
+#| msgid "On Battery"
+msgid "Battery:"
+msgstr "Pîl"
+
+#: contents/ui/PopupDialog.qml:57
+#, fuzzy
+#| msgid "AC Adapter"
+msgid "AC Adapter:"
+msgstr "Adaptorê AC"
+
+#: contents/ui/PopupDialog.qml:63
+#, fuzzy
+#| msgid "Power Management"
+msgctxt "Label for power management inhibition"
+msgid "Power management enabled:"
+msgstr "Rêveberiya Hezê"
+
+#: contents/ui/PopupDialog.qml:68
+#, fuzzy
+#| msgid "Screen Brightness"
+msgid "Screen Brightness:"
+msgstr "Ronahiya Dîmenê"
+
+#: contents/ui/PopupDialog.qml:88
+#, fuzzy
+#| msgid "Plugged in"
+msgid "Plugged in"
+msgstr "Tê de"
+
+#: contents/ui/PopupDialog.qml:88
+#, fuzzy
+#| msgid "Plugged in"
+msgid "Not plugged in"
+msgstr "Tê de"
+
+#: contents/ui/PopupDialog.qml:119
+#, fuzzy
+#| msgid "Sleep"
+msgctxt "Suspend the computer to RAM; translation should be short"
+msgid "Sleep"
+msgstr "Bide Razan"
+
+#: contents/ui/PopupDialog.qml:128
+#, fuzzy
+#| msgid "Hibernate"
+msgctxt "Suspend the computer to disk; translation should be short"
+msgid "Hibernate"
+msgstr "Bide Sekinandin "
 
 #. i18n: file: contents/ui/config.ui:14
 #. i18n: ectx: property (windowTitle), widget (QWidget, batteryConfig)
