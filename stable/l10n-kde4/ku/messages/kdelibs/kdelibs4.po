@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-06-19 19:42+0200\n"
+"POT-Creation-Date: 2012-06-24 12:03+0200\n"
 "PO-Revision-Date: 2010-08-13 15:45+0200\n"
 "Last-Translator: Erdal Ronahî <erdal.ronahi@gmail.com>\n"
 "Language-Team: Kurdish Team http://pckurd.net\n"
@@ -4875,54 +4875,6 @@ msgstr "Çewtiya soketê ya nenas"
 msgid "Operation not supported"
 msgstr "Kar bêdestek e"
 
-#: kdecore/network/netsupp.cpp:891 kdecore/network/k3resolver.cpp:545
-msgid "no error"
-msgstr "bê çewtî"
-
-#: kdecore/network/netsupp.cpp:892
-msgid "address family for nodename not supported"
-msgstr "Navnîşana malbatê an jî navê alî ne derbasbare"
-
-#: kdecore/network/netsupp.cpp:893 kdecore/network/k3resolver.cpp:547
-msgid "temporary failure in name resolution"
-msgstr "Dema jiheveqetandina navan de çewtiya derbasdar"
-
-#: kdecore/network/netsupp.cpp:894
-msgid "invalid value for 'ai_flags'"
-msgstr "ji bo 'ai_flags' nirxa nederbasdar"
-
-#: kdecore/network/netsupp.cpp:895 kdecore/network/k3resolver.cpp:548
-msgid "non-recoverable failure in name resolution"
-msgstr "dema veçirandina navan de çewtiye nayê tamîrkirin"
-
-#: kdecore/network/netsupp.cpp:896
-msgid "'ai_family' not supported"
-msgstr "'ai_family' nayê destekirin"
-
-#: kdecore/network/netsupp.cpp:897 kdecore/network/k3resolver.cpp:550
-msgid "memory allocation failure"
-msgstr "pirsgirêka di bîrê de cihvekirin"
-
-#: kdecore/network/netsupp.cpp:898
-msgid "no address associated with nodename"
-msgstr "ji bo navê girêkê navnîşanek hatiye danasîn"
-
-#: kdecore/network/netsupp.cpp:899 kdecore/network/k3resolver.cpp:551
-msgid "name or service not known"
-msgstr "nav an jî servîs nayê zanîn"
-
-#: kdecore/network/netsupp.cpp:900
-msgid "servname not supported for ai_socktype"
-msgstr "Navê pêşkêşker ji bo cureyê ai_socktype ne derbasdar e"
-
-#: kdecore/network/netsupp.cpp:901
-msgid "'ai_socktype' not supported"
-msgstr "'ai_socktype' nayê destekirin"
-
-#: kdecore/network/netsupp.cpp:902
-msgid "system error"
-msgstr "çewtiya pergalê"
-
 #: kdecore/network/k3socks.cpp:137
 msgid "NEC SOCKS client"
 msgstr "Daxwazkerê NEC SOCKS"
@@ -4936,13 +4888,33 @@ msgstr "Daxwazkerê Dante SOCKS"
 msgid "Timed out trying to connect to remote host"
 msgstr "demê têra girêdana makîneya dûr nekir"
 
+#: kdecore/network/k3resolver.cpp:545 kdecore/network/netsupp.cpp:894
+msgid "no error"
+msgstr "bê çewtî"
+
 #: kdecore/network/k3resolver.cpp:546
 msgid "requested family not supported for this host name"
 msgstr "malbata protokolan ya tê xwestin navê vê makîneyê destek nake"
 
+#: kdecore/network/k3resolver.cpp:547 kdecore/network/netsupp.cpp:896
+msgid "temporary failure in name resolution"
+msgstr "Dema jiheveqetandina navan de çewtiya derbasdar"
+
+#: kdecore/network/k3resolver.cpp:548 kdecore/network/netsupp.cpp:898
+msgid "non-recoverable failure in name resolution"
+msgstr "dema veçirandina navan de çewtiye nayê tamîrkirin"
+
 #: kdecore/network/k3resolver.cpp:549
 msgid "invalid flags"
 msgstr "alayên nederbasdar"
+
+#: kdecore/network/k3resolver.cpp:550 kdecore/network/netsupp.cpp:900
+msgid "memory allocation failure"
+msgstr "pirsgirêka di bîrê de cihvekirin"
+
+#: kdecore/network/k3resolver.cpp:551 kdecore/network/netsupp.cpp:902
+msgid "name or service not known"
+msgstr "nav an jî servîs nayê zanîn"
 
 #: kdecore/network/k3resolver.cpp:552
 msgid "requested family not supported"
@@ -5045,6 +5017,34 @@ msgstr "Zincîra bawernameyê pir dirêj e"
 msgctxt "SSL error"
 msgid "Unknown error"
 msgstr "Çewtiya nenas"
+
+#: kdecore/network/netsupp.cpp:895
+msgid "address family for nodename not supported"
+msgstr "Navnîşana malbatê an jî navê alî ne derbasbare"
+
+#: kdecore/network/netsupp.cpp:897
+msgid "invalid value for 'ai_flags'"
+msgstr "ji bo 'ai_flags' nirxa nederbasdar"
+
+#: kdecore/network/netsupp.cpp:899
+msgid "'ai_family' not supported"
+msgstr "'ai_family' nayê destekirin"
+
+#: kdecore/network/netsupp.cpp:901
+msgid "no address associated with nodename"
+msgstr "ji bo navê girêkê navnîşanek hatiye danasîn"
+
+#: kdecore/network/netsupp.cpp:903
+msgid "servname not supported for ai_socktype"
+msgstr "Navê pêşkêşker ji bo cureyê ai_socktype ne derbasdar e"
+
+#: kdecore/network/netsupp.cpp:904
+msgid "'ai_socktype' not supported"
+msgstr "'ai_socktype' nayê destekirin"
+
+#: kdecore/network/netsupp.cpp:905
+msgid "system error"
+msgstr "çewtiya pergalê"
 
 #: kdecore/services/kmimetyperepository.cpp:611
 #, kde-format
@@ -5337,18 +5337,6 @@ msgctxt "Encodings menu"
 msgid "Autodetect"
 msgstr "Xweber bibîne"
 
-#: kdeui/actions/kaction.cpp:122
-#, kde-format
-msgid ""
-"The key sequence '%1' is ambiguous. Use 'Configure Shortcuts'\n"
-"from the 'Settings' menu to solve the ambiguity.\n"
-"No action will be triggered."
-msgstr ""
-
-#: kdeui/actions/kaction.cpp:126
-msgid "Ambiguous shortcut detected"
-msgstr ""
-
 #: kdeui/actions/krecentfilesaction.cpp:81
 msgid "No Entries"
 msgstr "Ketan Tune"
@@ -5433,6 +5421,18 @@ msgstr "Moda Dîmender Tije"
 #: kdeui/actions/ktogglefullscreenaction.cpp:55
 msgctxt "@info:tooltip"
 msgid "Display the window in full screen"
+msgstr ""
+
+#: kdeui/actions/kaction.cpp:122
+#, kde-format
+msgid ""
+"The key sequence '%1' is ambiguous. Use 'Configure Shortcuts'\n"
+"from the 'Settings' menu to solve the ambiguity.\n"
+"No action will be triggered."
+msgstr ""
+
+#: kdeui/actions/kaction.cpp:126
+msgid "Ambiguous shortcut detected"
 msgstr ""
 
 #: kdeui/dialogs/kaboutapplicationdialog.cpp:84
