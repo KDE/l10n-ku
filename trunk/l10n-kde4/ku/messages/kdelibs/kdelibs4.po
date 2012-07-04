@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-06-26 07:39+0200\n"
+"POT-Creation-Date: 2012-07-04 04:54+0200\n"
 "PO-Revision-Date: 2010-08-13 15:45+0200\n"
 "Last-Translator: Erdal Ronahî <erdal.ronahi@gmail.com>\n"
 "Language-Team: Kurdish Team http://pckurd.net\n"
@@ -9243,6 +9243,59 @@ msgctxt "@item:inmenu Text Completion"
 msgid "Default"
 msgstr "Standard"
 
+#: kdeui/widgets/kdatepicker.cpp:174
+#, kde-format
+msgid "Week %1"
+msgstr "Hefteya %1"
+
+#: kdeui/widgets/kdatepicker.cpp:278
+msgid "Next year"
+msgstr "Sala Pişt re"
+
+#: kdeui/widgets/kdatepicker.cpp:279
+msgid "Previous year"
+msgstr "Sala Par"
+
+#: kdeui/widgets/kdatepicker.cpp:280
+msgid "Next month"
+msgstr "Meha pişt re"
+
+#: kdeui/widgets/kdatepicker.cpp:281
+msgid "Previous month"
+msgstr "Meha berê"
+
+#: kdeui/widgets/kdatepicker.cpp:282
+msgid "Select a week"
+msgstr "Hefteyekê hilbijêre"
+
+#: kdeui/widgets/kdatepicker.cpp:283
+msgid "Select a month"
+msgstr "Mehekê hilbijêre"
+
+#: kdeui/widgets/kdatepicker.cpp:284
+msgid "Select a year"
+msgstr "Salekê hilbijêre"
+
+#: kdeui/widgets/kdatepicker.cpp:285
+msgid "Select the current day"
+msgstr "Roja îro hilbijêre"
+
+#: kdeui/widgets/keditlistbox.cpp:326 kdeui/widgets/keditlistwidget.cpp:305
+msgid "&Add"
+msgstr "&Têxê"
+
+#: kdeui/widgets/keditlistbox.cpp:338 kdeui/widgets/keditlistwidget.cpp:317
+msgid "&Remove"
+msgstr "&Rake"
+
+#: kdeui/widgets/keditlistbox.cpp:350 kdeui/widgets/keditlistwidget.cpp:329
+msgid "Move &Up"
+msgstr "Bikşîne &Jor"
+
+#: kdeui/widgets/keditlistbox.cpp:355 kdeui/widgets/keditlistwidget.cpp:334
+msgid "Move &Down"
+msgstr "Bikşîne &Jêr"
+
 #: kdeui/widgets/ktoolbar.cpp:292
 #, fuzzy
 #| msgid "Show help"
@@ -9334,70 +9387,17 @@ msgstr "Gelekî Mezin (%1x%2)"
 msgid "Lock Toolbar Positions"
 msgstr "Cihê Darikên Amûran Biqufilîne"
 
-#: kdeui/widgets/ktoolbar.cpp:1321
+#: kdeui/widgets/ktoolbar.cpp:1326
 #, kde-format
 msgctxt "@action:intoolbar Text label of toolbar button"
 msgid "%1"
 msgstr "%1"
 
-#: kdeui/widgets/ktoolbar.cpp:1322
+#: kdeui/widgets/ktoolbar.cpp:1327
 #, kde-format
 msgctxt "@info:tooltip Tooltip of toolbar button"
 msgid "%1"
 msgstr "%1"
-
-#: kdeui/widgets/kdatepicker.cpp:174
-#, kde-format
-msgid "Week %1"
-msgstr "Hefteya %1"
-
-#: kdeui/widgets/kdatepicker.cpp:278
-msgid "Next year"
-msgstr "Sala Pişt re"
-
-#: kdeui/widgets/kdatepicker.cpp:279
-msgid "Previous year"
-msgstr "Sala Par"
-
-#: kdeui/widgets/kdatepicker.cpp:280
-msgid "Next month"
-msgstr "Meha pişt re"
-
-#: kdeui/widgets/kdatepicker.cpp:281
-msgid "Previous month"
-msgstr "Meha berê"
-
-#: kdeui/widgets/kdatepicker.cpp:282
-msgid "Select a week"
-msgstr "Hefteyekê hilbijêre"
-
-#: kdeui/widgets/kdatepicker.cpp:283
-msgid "Select a month"
-msgstr "Mehekê hilbijêre"
-
-#: kdeui/widgets/kdatepicker.cpp:284
-msgid "Select a year"
-msgstr "Salekê hilbijêre"
-
-#: kdeui/widgets/kdatepicker.cpp:285
-msgid "Select the current day"
-msgstr "Roja îro hilbijêre"
-
-#: kdeui/widgets/keditlistbox.cpp:326 kdeui/widgets/keditlistwidget.cpp:305
-msgid "&Add"
-msgstr "&Têxê"
-
-#: kdeui/widgets/keditlistbox.cpp:338 kdeui/widgets/keditlistwidget.cpp:317
-msgid "&Remove"
-msgstr "&Rake"
-
-#: kdeui/widgets/keditlistbox.cpp:350 kdeui/widgets/keditlistwidget.cpp:329
-msgid "Move &Up"
-msgstr "Bikşîne &Jor"
-
-#: kdeui/widgets/keditlistbox.cpp:355 kdeui/widgets/keditlistwidget.cpp:334
-msgid "Move &Down"
-msgstr "Bikşîne &Jêr"
 
 #: kdeui/widgets/khistorycombobox.cpp:177 khtml/rendering/render_form.cpp:993
 msgid "Clear &History"
@@ -11230,10 +11230,6 @@ msgstr "Copyright 2001, David Faure <email>david@mandrakesoft.com</email>"
 msgid "No handler found for %1."
 msgstr "Ji bo %1 tu fermana guncav nehate dîtin."
 
-#: khtml/rendering/media_controls.cpp:47
-msgid "Play"
-msgstr "Lê Bide"
-
 #: khtml/rendering/render_form.cpp:849
 msgid "New Web Shortcut"
 msgstr "Kurteriya Torê ya Nû"
@@ -11258,6 +11254,10 @@ msgstr "Kurteriyên UR%I:"
 #: khtml/rendering/render_form.cpp:1008
 msgid "Create Web Shortcut"
 msgstr "Kurteriya Torê Veava Bike"
+
+#: khtml/rendering/media_controls.cpp:47
+msgid "Play"
+msgstr "Lê Bide"
 
 #: khtml/ui/findbar/khtmlfindbar.cpp:58
 #, fuzzy

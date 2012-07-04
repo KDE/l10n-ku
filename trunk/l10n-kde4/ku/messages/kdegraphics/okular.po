@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: okular2\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-06-25 05:05+0200\n"
+"POT-Creation-Date: 2012-07-04 04:54+0200\n"
 "PO-Revision-Date: 2008-11-07 17:14+0100\n"
 "Last-Translator: Erdal Ronahi <erdal.ronahi@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -185,30 +185,30 @@ msgid ""
 "><br />Please select which one to use:</qt>"
 msgstr ""
 
+#: core/generator.cpp:555
+msgid "Plain &Text..."
+msgstr ""
+
+#: core/generator.cpp:558
+msgid "PDF"
+msgstr "PDF"
+
+#: core/generator.cpp:563
+msgctxt "This is the document format"
+msgid "OpenDocument Text"
+msgstr "Nivîsara OpenDocument"
+
+#: core/generator.cpp:567
+msgctxt "This is the document format"
+msgid "HTML"
+msgstr "HTML"
+
 #: core/sourcereference.cpp:92
 #, fuzzy, kde-format
 #| msgid "&Size:"
 msgctxt "'source' is a source file"
 msgid "Source: %1"
 msgstr "&Mezinahî:"
-
-#: core/generator.cpp:556
-msgid "Plain &Text..."
-msgstr ""
-
-#: core/generator.cpp:559
-msgid "PDF"
-msgstr "PDF"
-
-#: core/generator.cpp:564
-msgctxt "This is the document format"
-msgid "OpenDocument Text"
-msgstr "Nivîsara OpenDocument"
-
-#: core/generator.cpp:568
-msgctxt "This is the document format"
-msgid "HTML"
-msgstr "HTML"
 
 #: core/action.cpp:105
 #, kde-format
@@ -855,12 +855,12 @@ msgstr "Nenas"
 msgid "Author: %1"
 msgstr "Nivîskar: %1"
 
-#: ui/guiutils.cpp:206 ui/propertiesdialog.cpp:218
+#: ui/guiutils.cpp:206 ui/propertiesdialog.cpp:219
 #, kde-format
 msgid "Where do you want to save %1?"
 msgstr ""
 
-#: ui/guiutils.cpp:215 ui/propertiesdialog.cpp:231
+#: ui/guiutils.cpp:215 ui/propertiesdialog.cpp:232
 #, kde-format
 msgid "Could not open \"%1\" for writing. File was not saved."
 msgstr ""
@@ -1479,139 +1479,139 @@ msgstr "Ti belge nehat vekirin."
 msgid "%1 Properties"
 msgstr "Taybetmendiyên %1"
 
-#: ui/propertiesdialog.cpp:107
+#: ui/propertiesdialog.cpp:108
 #, kde-format
 msgid "%1:"
 msgstr "%1:"
 
-#: ui/propertiesdialog.cpp:123
+#: ui/propertiesdialog.cpp:124
 msgid "&Fonts"
 msgstr "&Curenivîs"
 
-#: ui/propertiesdialog.cpp:146
+#: ui/propertiesdialog.cpp:147
 msgid "Reading font information..."
 msgstr ""
 
-#: ui/propertiesdialog.cpp:213
+#: ui/propertiesdialog.cpp:214
 msgctxt "@action:inmenu"
 msgid "&Extract Font"
 msgstr ""
 
-#: ui/propertiesdialog.cpp:265
+#: ui/propertiesdialog.cpp:266
 msgid "Type 1"
 msgstr "Cureyê 1"
 
-#: ui/propertiesdialog.cpp:268
+#: ui/propertiesdialog.cpp:269
 msgid "Type 1C"
 msgstr "Cureyê 1C"
 
-#: ui/propertiesdialog.cpp:271
+#: ui/propertiesdialog.cpp:272
 msgctxt "OT means OpenType"
 msgid "Type 1C (OT)"
 msgstr ""
 
-#: ui/propertiesdialog.cpp:274
+#: ui/propertiesdialog.cpp:275
 msgid "Type 3"
 msgstr "Cureyê 3"
 
-#: ui/propertiesdialog.cpp:277
+#: ui/propertiesdialog.cpp:278
 msgid "TrueType"
 msgstr "TrueType"
 
-#: ui/propertiesdialog.cpp:280
+#: ui/propertiesdialog.cpp:281
 msgctxt "OT means OpenType"
 msgid "TrueType (OT)"
 msgstr ""
 
-#: ui/propertiesdialog.cpp:283
+#: ui/propertiesdialog.cpp:284
 msgid "CID Type 0"
 msgstr ""
 
-#: ui/propertiesdialog.cpp:286
+#: ui/propertiesdialog.cpp:287
 msgid "CID Type 0C"
 msgstr ""
 
-#: ui/propertiesdialog.cpp:289
+#: ui/propertiesdialog.cpp:290
 msgctxt "OT means OpenType"
 msgid "CID Type 0C (OT)"
 msgstr ""
 
-#: ui/propertiesdialog.cpp:292
+#: ui/propertiesdialog.cpp:293
 msgid "CID TrueType"
 msgstr ""
 
-#: ui/propertiesdialog.cpp:295
+#: ui/propertiesdialog.cpp:296
 msgctxt "OT means OpenType"
 msgid "CID TrueType (OT)"
 msgstr ""
 
-#: ui/propertiesdialog.cpp:298
+#: ui/propertiesdialog.cpp:299
 msgid "TeX PK"
 msgstr ""
 
-#: ui/propertiesdialog.cpp:301
+#: ui/propertiesdialog.cpp:302
 msgid "TeX virtual"
 msgstr ""
 
-#: ui/propertiesdialog.cpp:304
+#: ui/propertiesdialog.cpp:305
 msgid "TeX Font Metric"
 msgstr ""
 
-#: ui/propertiesdialog.cpp:307
+#: ui/propertiesdialog.cpp:308
 msgid "TeX FreeType-handled"
 msgstr ""
 
-#: ui/propertiesdialog.cpp:310
+#: ui/propertiesdialog.cpp:311
 msgctxt "Unknown font type"
 msgid "Unknown"
 msgstr ""
 
-#: ui/propertiesdialog.cpp:324
+#: ui/propertiesdialog.cpp:325
 msgid "Embedded (subset)"
 msgstr ""
 
-#: ui/propertiesdialog.cpp:327
+#: ui/propertiesdialog.cpp:328
 msgid "Fully embedded"
 msgstr ""
 
-#: ui/propertiesdialog.cpp:338
+#: ui/propertiesdialog.cpp:339
 msgid "No"
 msgstr "Na"
 
-#: ui/propertiesdialog.cpp:341
+#: ui/propertiesdialog.cpp:342
 msgid "Yes (subset)"
 msgstr ""
 
-#: ui/propertiesdialog.cpp:344
+#: ui/propertiesdialog.cpp:345
 msgid "Yes"
 msgstr "Erê"
 
-#: ui/propertiesdialog.cpp:363
+#: ui/propertiesdialog.cpp:364
 msgctxt "font name not available (empty)"
 msgid "[n/a]"
 msgstr ""
 
-#: ui/propertiesdialog.cpp:378
+#: ui/propertiesdialog.cpp:379
 #, fuzzy
 #| msgctxt "Unknown author"
 #| msgid "Unknown"
 msgid "Unknown font"
 msgstr "Nenas"
 
-#: ui/propertiesdialog.cpp:382
+#: ui/propertiesdialog.cpp:383
 #, kde-format
 msgid "Embedded: %1"
 msgstr ""
 
-#: ui/propertiesdialog.cpp:415
+#: ui/propertiesdialog.cpp:416
 msgid "Name"
 msgstr "Nav"
 
-#: ui/propertiesdialog.cpp:416
+#: ui/propertiesdialog.cpp:417
 msgid "Type"
 msgstr "Cure"
 
-#: ui/propertiesdialog.cpp:417
+#: ui/propertiesdialog.cpp:418
 msgid "File"
 msgstr "Pel"
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktorrent\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-06-19 06:37+0200\n"
+"POT-Creation-Date: 2012-07-04 04:30+0200\n"
 "PO-Revision-Date: 2008-09-23 17:28+0300\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -660,8 +660,8 @@ msgid "BitTorrent"
 msgstr ""
 
 #: ktorrent/tools/queuemanagerwidget.cpp:57
-#: plugins/search/searchactivity.cpp:81 plugins/search/searchtoolbar.cpp:70
-#: plugins/search/webview.cpp:178
+#: plugins/search/searchtoolbar.cpp:70 plugins/search/webview.cpp:178
+#: plugins/search/searchactivity.cpp:81
 msgid "Search"
 msgstr ""
 
@@ -3343,17 +3343,6 @@ msgid ""
 "All standard ktorrent scripts require krosspython"
 msgstr ""
 
-#: plugins/search/searchactivity.cpp:47 plugins/search/searchplugin.cpp:65
-#: plugins/search/searchplugin.cpp:83 plugins/search/searchprefpage.cpp:58
-msgctxt "plugin name"
-msgid "Search"
-msgstr ""
-
-#: plugins/search/searchactivity.cpp:246
-#, kde-format
-msgid "Search for %1"
-msgstr ""
-
 #: plugins/search/searchenginelist.cpp:216
 #, kde-format
 msgid "Failed to parse %1"
@@ -3362,6 +3351,12 @@ msgstr ""
 #: plugins/search/searchenginelist.cpp:365
 #, kde-format
 msgid "URL: <b>%1</b>"
+msgstr ""
+
+#: plugins/search/searchplugin.cpp:65 plugins/search/searchplugin.cpp:83
+#: plugins/search/searchprefpage.cpp:58 plugins/search/searchactivity.cpp:47
+msgctxt "plugin name"
+msgid "Search"
 msgstr ""
 
 #: plugins/search/searchprefpage.cpp:105 plugins/search/searchprefpage.cpp:146
@@ -3465,6 +3460,11 @@ msgstr ""
 #: rc.cpp:2366
 msgid "Download"
 msgstr "Daxistin"
+
+#: plugins/search/searchactivity.cpp:246
+#, kde-format
+msgid "Search for %1"
+msgstr ""
 
 #: plugins/shutdown/shutdowntorrentmodel.cpp:92
 #: plugins/shutdown/shutdowntorrentmodel.cpp:235
