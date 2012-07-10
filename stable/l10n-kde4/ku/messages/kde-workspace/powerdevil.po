@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: powerdevil\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-06-19 19:49+0200\n"
+"POT-Creation-Date: 2012-07-10 20:12+0200\n"
 "PO-Revision-Date: 2008-12-31 04:01+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -17,6 +17,11 @@ msgstr ""
 "X-Generator: Lokalize 0.2\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-Language: Kurdish\n"
+
+#: actions/bundled/brightnesscontrolconfig.cpp:63
+msgctxt "Brightness level, label for the slider"
+msgid "Level"
+msgstr ""
 
 #: actions/bundled/dimdisplayconfig.cpp:63
 #: actions/bundled/runscriptconfig.cpp:80
@@ -34,58 +39,31 @@ msgstr " xul"
 msgid "After"
 msgstr ""
 
-#: actions/bundled/runscriptconfig.cpp:70
-msgid "Script"
-msgstr ""
+#: actions/bundled/handlebuttoneventsconfig.cpp:77
+msgid "Do nothing"
+msgstr "Tiştek neke"
 
-#: actions/bundled/runscriptconfig.cpp:81
-#, fuzzy
-#| msgid "New Profile"
-msgid "On Profile Load"
-msgstr "Profîla Nû"
-
-#: actions/bundled/runscriptconfig.cpp:82
-msgid "On Profile Unload"
-msgstr ""
-
-#: actions/bundled/runscriptconfig.cpp:93
-msgid "Run script"
-msgstr ""
-
-#: actions/bundled/suspendsession.cpp:114
-msgid "The screen is being locked"
-msgstr "Dîmender tê qufl kirin"
-
-#: actions/bundled/suspendsessionconfig.cpp:80
 #: actions/bundled/handlebuttoneventsconfig.cpp:79
+#: actions/bundled/suspendsessionconfig.cpp:80
 msgid "Sleep"
 msgstr ""
 
-#: actions/bundled/suspendsessionconfig.cpp:83
 #: actions/bundled/handlebuttoneventsconfig.cpp:82
+#: actions/bundled/suspendsessionconfig.cpp:83
 msgid "Hibernate"
 msgstr ""
 
-#: actions/bundled/suspendsessionconfig.cpp:85
 #: actions/bundled/handlebuttoneventsconfig.cpp:84
+#: actions/bundled/suspendsessionconfig.cpp:85
 msgid "Shutdown"
 msgstr "Dadan"
 
-#: actions/bundled/suspendsessionconfig.cpp:86
 #: actions/bundled/handlebuttoneventsconfig.cpp:85
+#: actions/bundled/suspendsessionconfig.cpp:86
 #, fuzzy
 #| msgid "Lock Screen"
 msgid "Lock screen"
 msgstr "Dîmenderê Qufl Bike"
-
-#: actions/bundled/brightnesscontrolconfig.cpp:63
-msgctxt "Brightness level, label for the slider"
-msgid "Level"
-msgstr ""
-
-#: actions/bundled/handlebuttoneventsconfig.cpp:77
-msgid "Do nothing"
-msgstr "Tiştek neke"
 
 #: actions/bundled/handlebuttoneventsconfig.cpp:87
 #, fuzzy
@@ -109,6 +87,28 @@ msgstr "Wextê Rûgira Laptopê Bê Girtin"
 msgid "When power button pressed"
 msgstr "Wextê Bişkojka Hêzê bê pêlêkirin"
 
+#: actions/bundled/runscriptconfig.cpp:70
+msgid "Script"
+msgstr ""
+
+#: actions/bundled/runscriptconfig.cpp:81
+#, fuzzy
+#| msgid "New Profile"
+msgid "On Profile Load"
+msgstr "Profîla Nû"
+
+#: actions/bundled/runscriptconfig.cpp:82
+msgid "On Profile Unload"
+msgstr ""
+
+#: actions/bundled/runscriptconfig.cpp:93
+msgid "Run script"
+msgstr ""
+
+#: actions/bundled/suspendsession.cpp:114
+msgid "The screen is being locked"
+msgstr "Dîmender tê qufl kirin"
+
 #: actions/dpms/powerdevildpmsactionconfig.cpp:60
 #, fuzzy
 #| msgid "&Power off after"
@@ -120,6 +120,30 @@ msgstr "&Bigire piştî"
 #| msgid "Supported suspend methods"
 msgid "Unsupported suspend method"
 msgstr "Azîneyên sekinandinê yên tên piştgirî dan"
+
+#: kdedpowerdevil.cpp:58
+#, fuzzy
+#| msgid "A Power Management tool for KDE4"
+msgid "KDE Power Management System"
+msgstr "Amûra Rêveberê Hêzê ji bo KDE4"
+
+#: kdedpowerdevil.cpp:59
+msgid ""
+"KDE Power Management System is PowerDevil, an advanced, modular and "
+"lightweight Power Management daemon"
+msgstr ""
+
+#: kdedpowerdevil.cpp:62
+msgid "(c) 2010 MetalWorkers Co."
+msgstr ""
+
+#: kdedpowerdevil.cpp:65
+msgid "Dario Freddi"
+msgstr "Dario Freddi"
+
+#: kdedpowerdevil.cpp:65
+msgid "Maintainer"
+msgstr "Kesê miqet"
 
 #: powerdevilcore.cpp:73
 msgid ""
@@ -305,30 +329,6 @@ msgstr "Pîla te gihîşt asta rexne, xebatên xwe di demê zûtirîn de tomar b
 #| msgid "Your battery has reached low level"
 msgid "Your battery has reached a low level."
 msgstr "Pîla te gihîşt asta kêmtir"
-
-#: kdedpowerdevil.cpp:58
-#, fuzzy
-#| msgid "A Power Management tool for KDE4"
-msgid "KDE Power Management System"
-msgstr "Amûra Rêveberê Hêzê ji bo KDE4"
-
-#: kdedpowerdevil.cpp:59
-msgid ""
-"KDE Power Management System is PowerDevil, an advanced, modular and "
-"lightweight Power Management daemon"
-msgstr ""
-
-#: kdedpowerdevil.cpp:62
-msgid "(c) 2010 MetalWorkers Co."
-msgstr ""
-
-#: kdedpowerdevil.cpp:65
-msgid "Dario Freddi"
-msgstr "Dario Freddi"
-
-#: kdedpowerdevil.cpp:65
-msgid "Maintainer"
-msgstr "Kesê miqet"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
