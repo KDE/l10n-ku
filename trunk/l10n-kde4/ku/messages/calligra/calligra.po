@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-07-07 02:33+0200\n"
+"POT-Creation-Date: 2012-07-16 02:43+0200\n"
 "PO-Revision-Date: 2007-12-17 01:31+0100\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
@@ -734,66 +734,6 @@ msgid_plural "Paste Pages"
 msgstr[0] ""
 msgstr[1] ""
 
-#: kopageapp/KoPADocumentModel.cpp:173
-#, kde-format
-msgid "Page  %1"
-msgstr ""
-
-#: kopageapp/KoPADocumentModel.cpp:177
-#: kopageapp/KoPADocumentStructureDocker.cpp:120
-msgid "Layer"
-msgstr ""
-
-#: kopageapp/KoPADocumentModel.cpp:180
-msgid "Group"
-msgstr ""
-
-#: kopageapp/KoPADocumentModel.cpp:183
-msgid "Shape"
-msgstr ""
-
-#: kopageapp/KoPADocumentModel.cpp:269
-msgid "Rename Slide"
-msgstr ""
-
-#: kopageapp/KoPADocumentModel.cpp:272
-msgid "Rename Page"
-msgstr ""
-
-#: kopageapp/KoPADocumentModel.cpp:276
-msgid "Rename Layer"
-msgstr ""
-
-#: kopageapp/KoPADocumentModel.cpp:312
-#: kopageapp/KoPADocumentStructureDocker.cpp:115
-msgid "Slide"
-msgstr ""
-
-#: kopageapp/KoPADocumentModel.cpp:315
-msgid "Visible"
-msgstr ""
-
-#: kopageapp/KoPADocumentModel.cpp:316
-msgid "Locked"
-msgstr ""
-
-#: kopageapp/KoPADocumentModel.cpp:524 kopageapp/KoPADocumentModel.cpp:545
-msgctxt "(qtundo-format)"
-msgid "Reparent shapes"
-msgstr ""
-
-#: kopageapp/KoPADocumentModel.cpp:666
-msgid "&Move Here"
-msgstr ""
-
-#: kopageapp/KoPADocumentModel.cpp:670
-msgid "&Copy Here"
-msgstr ""
-
-#: kopageapp/KoPADocumentModel.cpp:674
-msgid "C&ancel"
-msgstr ""
-
 #: kopageapp/widgets/KoPageNavigator.cpp:68
 #, kde-format
 msgid "Master Slide %1/%2"
@@ -826,9 +766,19 @@ msgstr ""
 msgid "Add a new page or layer"
 msgstr ""
 
+#: kopageapp/KoPADocumentStructureDocker.cpp:115
+#: kopageapp/KoPADocumentModel.cpp:312
+msgid "Slide"
+msgstr ""
+
 #: kopageapp/KoPADocumentStructureDocker.cpp:118
 #: widgets/KoPageLayoutDialog.cpp:50
 msgid "Page"
+msgstr ""
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:120
+#: kopageapp/KoPADocumentModel.cpp:177
+msgid "Layer"
 msgstr ""
 
 #: kopageapp/KoPADocumentStructureDocker.cpp:127
@@ -1000,6 +950,56 @@ msgstr ""
 #: kopageapp/KoPAView.cpp:644
 msgctxt "(qtundo-format)"
 msgid "Change page layout"
+msgstr ""
+
+#: kopageapp/KoPADocumentModel.cpp:173
+#, kde-format
+msgid "Page  %1"
+msgstr ""
+
+#: kopageapp/KoPADocumentModel.cpp:180
+msgid "Group"
+msgstr ""
+
+#: kopageapp/KoPADocumentModel.cpp:183
+msgid "Shape"
+msgstr ""
+
+#: kopageapp/KoPADocumentModel.cpp:269
+msgid "Rename Slide"
+msgstr ""
+
+#: kopageapp/KoPADocumentModel.cpp:272
+msgid "Rename Page"
+msgstr ""
+
+#: kopageapp/KoPADocumentModel.cpp:276
+msgid "Rename Layer"
+msgstr ""
+
+#: kopageapp/KoPADocumentModel.cpp:315
+msgid "Visible"
+msgstr ""
+
+#: kopageapp/KoPADocumentModel.cpp:316
+msgid "Locked"
+msgstr ""
+
+#: kopageapp/KoPADocumentModel.cpp:524 kopageapp/KoPADocumentModel.cpp:545
+msgctxt "(qtundo-format)"
+msgid "Reparent shapes"
+msgstr ""
+
+#: kopageapp/KoPADocumentModel.cpp:666
+msgid "&Move Here"
+msgstr ""
+
+#: kopageapp/KoPADocumentModel.cpp:670
+msgid "&Copy Here"
+msgstr ""
+
+#: kopageapp/KoPADocumentModel.cpp:674
+msgid "C&ancel"
 msgstr ""
 
 #: koreport/common/KoReportItemLine.cpp:67
