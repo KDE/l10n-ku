@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktorrent\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-07-18 04:16+0200\n"
+"POT-Creation-Date: 2012-08-06 03:56+0200\n"
 "PO-Revision-Date: 2008-09-23 17:28+0300\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -391,8 +391,9 @@ msgstr ""
 msgid "Open an URL"
 msgstr ""
 
-#: ktorrent/dialogs/pastedialog.cpp:62 ktorrent/dialogs/fileselectdlg.cpp:430
-#: ktorrent/dialogs/torrentcreatordlg.cpp:118 libktcore/groups/allgroup.cpp:26
+#: ktorrent/dialogs/pastedialog.cpp:62
+#: ktorrent/dialogs/torrentcreatordlg.cpp:118
+#: ktorrent/dialogs/fileselectdlg.cpp:430 libktcore/groups/allgroup.cpp:26
 msgid "All Torrents"
 msgstr ""
 
@@ -400,6 +401,33 @@ msgstr ""
 #: ktorrent/dialogs/torrentcreatordlg.cpp:252 ktorrent/gui.cpp:348
 #, kde-format
 msgid "Invalid URL: %1"
+msgstr ""
+
+#: ktorrent/dialogs/torrentcreatordlg.cpp:44
+#, fuzzy
+#| msgid "Create Torrent"
+msgid "Create A Torrent"
+msgstr "Torrent biafirîne"
+
+#: ktorrent/dialogs/torrentcreatordlg.cpp:258
+msgid "Only HTTP is supported for webseeding."
+msgstr ""
+
+#: ktorrent/dialogs/torrentcreatordlg.cpp:290
+msgid "You must select a file or a folder."
+msgstr "Divê tu pel an jî peldankekê hilbijêrî."
+
+#: ktorrent/dialogs/torrentcreatordlg.cpp:296
+msgid ""
+"You have not added a tracker, are you sure you want to create this torrent?"
+msgstr ""
+
+#: ktorrent/dialogs/torrentcreatordlg.cpp:304
+msgid "You must add at least one node."
+msgstr ""
+
+#: ktorrent/dialogs/torrentcreatordlg.cpp:370
+msgid "Choose a file to save the torrent"
 msgstr ""
 
 #: ktorrent/dialogs/fileselectdlg.cpp:89
@@ -512,33 +540,6 @@ msgstr ""
 
 #: ktorrent/dialogs/fileselectdlg.cpp:654
 msgid "Clear History"
-msgstr ""
-
-#: ktorrent/dialogs/torrentcreatordlg.cpp:44
-#, fuzzy
-#| msgid "Create Torrent"
-msgid "Create A Torrent"
-msgstr "Torrent biafirîne"
-
-#: ktorrent/dialogs/torrentcreatordlg.cpp:258
-msgid "Only HTTP is supported for webseeding."
-msgstr ""
-
-#: ktorrent/dialogs/torrentcreatordlg.cpp:290
-msgid "You must select a file or a folder."
-msgstr "Divê tu pel an jî peldankekê hilbijêrî."
-
-#: ktorrent/dialogs/torrentcreatordlg.cpp:296
-msgid ""
-"You have not added a tracker, are you sure you want to create this torrent?"
-msgstr ""
-
-#: ktorrent/dialogs/torrentcreatordlg.cpp:304
-msgid "You must add at least one node."
-msgstr ""
-
-#: ktorrent/dialogs/torrentcreatordlg.cpp:370
-msgid "Choose a file to save the torrent"
 msgstr ""
 
 #: ktorrent/groups/grouppolicydlg.cpp:31
