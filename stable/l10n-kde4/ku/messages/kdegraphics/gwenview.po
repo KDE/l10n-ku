@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gwenview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-07-16 04:39+0200\n"
+"POT-Creation-Date: 2012-08-07 21:41+0200\n"
 "PO-Revision-Date: 2009-01-22 22:46+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -18,6 +18,61 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-Language: Kurdish\n"
 "X-Poedit-SourceCharset: utf8\n"
+
+#: app/kipiinterface.cpp:212
+#, fuzzy
+#| msgctxt "@info:progress saving all image changes"
+#| msgid "Saving..."
+msgid "Loading..."
+msgstr "Tê tomarkirin..."
+
+#: app/kipiinterface.cpp:213 app/kipiexportaction.cpp:64
+#, fuzzy
+#| msgid "No Plugin"
+msgid "No Plugin Found"
+msgstr "Pêvek Tune ye"
+
+#: app/kipiinterface.cpp:246
+#, fuzzy
+#| msgid "Images"
+msgctxt "@title:menu"
+msgid "Images"
+msgstr "Wêne"
+
+#: app/kipiinterface.cpp:247
+#, fuzzy
+#| msgid "Tools"
+msgctxt "@title:menu"
+msgid "Tools"
+msgstr "Amûr"
+
+#: app/kipiinterface.cpp:248
+#, fuzzy
+#| msgid "Import"
+msgctxt "@title:menu"
+msgid "Import"
+msgstr "Veguhezîne Hundir"
+
+#: app/kipiinterface.cpp:249
+#, fuzzy
+#| msgid "Export"
+msgctxt "@title:menu"
+msgid "Export"
+msgstr "Veguhezîne Derve"
+
+#: app/kipiinterface.cpp:250
+#, fuzzy
+#| msgid "Batch Processing"
+msgctxt "@title:menu"
+msgid "Batch Processing"
+msgstr "Pêvajoyên Bitevayî"
+
+#: app/kipiinterface.cpp:251
+#, fuzzy
+#| msgid "Collections"
+msgctxt "@title:menu"
+msgid "Collections"
+msgstr "Berhevok"
 
 #: app/fileoperations.cpp:60
 #, fuzzy
@@ -88,125 +143,6 @@ msgstr "Navê Pelê"
 msgid "Rename <filename>%1</filename> to:"
 msgstr "<filename>%1</filename>: %2"
 
-#: app/kipiinterface.cpp:212
-#, fuzzy
-#| msgctxt "@info:progress saving all image changes"
-#| msgid "Saving..."
-msgid "Loading..."
-msgstr "Tê tomarkirin..."
-
-#: app/kipiinterface.cpp:213 app/kipiexportaction.cpp:64
-#, fuzzy
-#| msgid "No Plugin"
-msgid "No Plugin Found"
-msgstr "Pêvek Tune ye"
-
-#: app/kipiinterface.cpp:246
-#, fuzzy
-#| msgid "Images"
-msgctxt "@title:menu"
-msgid "Images"
-msgstr "Wêne"
-
-#: app/kipiinterface.cpp:247
-#, fuzzy
-#| msgid "Tools"
-msgctxt "@title:menu"
-msgid "Tools"
-msgstr "Amûr"
-
-#: app/kipiinterface.cpp:248
-#, fuzzy
-#| msgid "Import"
-msgctxt "@title:menu"
-msgid "Import"
-msgstr "Veguhezîne Hundir"
-
-#: app/kipiinterface.cpp:249
-#, fuzzy
-#| msgid "Export"
-msgctxt "@title:menu"
-msgid "Export"
-msgstr "Veguhezîne Derve"
-
-#: app/kipiinterface.cpp:250
-#, fuzzy
-#| msgid "Batch Processing"
-msgctxt "@title:menu"
-msgid "Batch Processing"
-msgstr "Pêvajoyên Bitevayî"
-
-#: app/kipiinterface.cpp:251
-#, fuzzy
-#| msgid "Collections"
-msgctxt "@title:menu"
-msgid "Collections"
-msgstr "Berhevok"
-
-#: app/saveallhelper.cpp:58
-msgctxt "@info:progress saving all image changes"
-msgid "Saving..."
-msgstr "Tê tomarkirin..."
-
-#: app/saveallhelper.cpp:59
-msgid "&Stop"
-msgstr "&Rawestîne"
-
-#: app/saveallhelper.cpp:84
-#, kde-format
-msgctxt "@info"
-msgid "One document could not be saved:"
-msgid_plural "%1 documents could not be saved:"
-msgstr[0] "Belgeyek nayê tomarkirin:"
-msgstr[1] "%1 belge nayên tomarkirin:"
-
-#: app/saveallhelper.cpp:108
-#, kde-format
-msgctxt ""
-"@info %1 is the name of the document which failed to save, %2 is the reason "
-"for the failure"
-msgid "<filename>%1</filename>: %2"
-msgstr "<filename>%1</filename>: %2"
-
-#: app/savebar.cpp:87
-msgid ""
-"You have modified many images. To avoid memory problems, you should save "
-"your changes."
-msgstr ""
-"Te gelek wêne guherandî ye. Ji bo ku pirsgirêkên bîrê dernekevin, divê tu "
-"guherandinan tomar bikî."
-
-#: app/savebar.cpp:176
-msgid "Current image modified"
-msgstr "Wêneya vekirî hatiye guhertin"
-
-#: app/savebar.cpp:182
-msgid "Previous modified image"
-msgstr "Wêneya paş ya hatiye guhertin"
-
-#: app/savebar.cpp:183
-msgid "Next modified image"
-msgstr "Wêneya pêş ya hatiye guhertin"
-
-#: app/savebar.cpp:199
-#, kde-format
-msgid "One image modified"
-msgid_plural "%1 images modified"
-msgstr[0] "Yek wêne hatiye guhertin"
-msgstr[1] "%1 wêne hatine guhertin"
-
-#: app/savebar.cpp:201
-msgid "Go to first modified image"
-msgstr "Biçe wêneya serî ya hatiye guhertin"
-
-#: app/savebar.cpp:203
-msgid "Go to it"
-msgstr "Biçe vê"
-
-#: app/savebar.cpp:302 app/savebar.cpp:307
-msgid "Save All"
-msgstr "Hemûyan Tomar Bike"
-
 #: app/imageopscontextmanageritem.cpp:81
 msgctxt "@title actions category - means actions changing image"
 msgid "Edit"
@@ -247,7 +183,7 @@ msgstr "Mezinahiyê Biguherîne"
 #. i18n: file: lib/crop/cropwidget.ui:20
 #. i18n: ectx: property (windowTitle), widget (QWidget, CropWidget)
 #: app/imageopscontextmanageritem.cpp:110 lib/crop/cropimageoperation.cpp:71
-#: lib/crop/cropwidget.cpp:191 rc.cpp:179
+#: lib/crop/cropwidget.cpp:191 rc.cpp:211
 msgid "Crop"
 msgstr "Jê Bike"
 
@@ -258,360 +194,6 @@ msgstr "Kêm-kirina Çavê Sor"
 #: app/imageopscontextmanageritem.cpp:142
 msgid "Image Operations"
 msgstr "Xebatên Wêne"
-
-#: app/infocontextmanageritem.cpp:176
-#, kde-format
-msgctxt ""
-"@item:intext %1 is a key, we append a colon to it. A value is displayed after"
-msgid "%1:"
-msgstr "%1:"
-
-#: app/infocontextmanageritem.cpp:253
-msgctxt "@action show more image meta info"
-msgid "More..."
-msgstr "Zêdetir..."
-
-#: app/infocontextmanageritem.cpp:264
-msgctxt "@title:group"
-msgid "Meta Information"
-msgstr "Agahiya Meta"
-
-#: app/infocontextmanageritem.cpp:357
-#, fuzzy, kde-format
-#| msgctxt "@label"
-#| msgid "%1 files selected"
-msgctxt "@label"
-msgid "%1 file selected"
-msgid_plural "%1 files selected"
-msgstr[0] "%1 pel hatin hilbijartin"
-msgstr[1] "%1 pel hatin hilbijartin"
-
-#: app/infocontextmanageritem.cpp:359
-#, fuzzy, kde-format
-#| msgctxt "@label"
-#| msgid "One folder selected"
-#| msgid_plural "%1 folders selected"
-msgctxt "@label"
-msgid "%1 folder selected"
-msgid_plural "%1 folders selected"
-msgstr[0] "Yek peldank hatiye hilbijartin"
-msgstr[1] "%1 peldank hatine hilbijartin"
-
-#: app/infocontextmanageritem.cpp:362
-#, kde-format
-msgid "%1 folder"
-msgid_plural "%1 folders"
-msgstr[0] ""
-msgstr[1] ""
-
-#: app/infocontextmanageritem.cpp:362
-#, fuzzy, kde-format
-#| msgctxt "Slideshow interval in seconds"
-#| msgid "%1 sec"
-#| msgid_plural "%1 secs"
-msgid "%1 file"
-msgid_plural "%1 files"
-msgstr[0] "%1 çirke"
-msgstr[1] "%1 çirke"
-
-#: app/infocontextmanageritem.cpp:362
-#, fuzzy, kde-format
-#| msgctxt "@label"
-#| msgid "%1 folders and %2 files selected"
-msgctxt "@label. The two parameters are strings like '2 folders' and '1 file'."
-msgid "%1 and %2 selected"
-msgstr "%1 peldank û %2 pel hatine hilbijartin"
-
-#: app/kipiexportaction.cpp:52
-msgid "Last Used Plugin"
-msgstr ""
-
-#: app/kipiexportaction.cpp:54
-#, fuzzy
-#| msgid "&Plugins"
-msgid "Other Plugins"
-msgstr "&Plugin"
-
-#: app/kipiexportaction.cpp:72
-#, fuzzy
-#| msgid "Square"
-msgctxt "@action"
-msgid "Share"
-msgstr "Çar goşe(kare)"
-
-#: app/kipiexportaction.cpp:78
-msgctxt "@info:tooltip"
-msgid "Share images using various services"
-msgstr ""
-
-#: app/kipiimagecollectionselector.cpp:55
-#, kde-format
-msgctxt "%1 is collection name, %2 is image count in collection"
-msgid "%1 (%2 image)"
-msgid_plural "%1 (%2 images)"
-msgstr[0] "%1 (%2 wêne)"
-msgstr[1] "%1 (%2 wêne)"
-
-#: app/configdialog.cpp:72
-msgid "General"
-msgstr "Giştî"
-
-#: app/configdialog.cpp:100
-msgid "Image View"
-msgstr "Nîşandana Wêneyan"
-
-#: app/configdialog.cpp:105
-#, fuzzy
-#| msgid "Image Settings"
-msgid "Advanced"
-msgstr "Mîhengên Wêneyan"
-
-#: app/semanticinfocontextmanageritem.cpp:175
-msgid "Semantic Information"
-msgstr "Agahiya Semantîk"
-
-#: app/semanticinfocontextmanageritem.cpp:197
-#: app/fileopscontextmanageritem.cpp:180
-msgctxt "@title actions category"
-msgid "Edit"
-msgstr "Serast Bike"
-
-#: app/semanticinfocontextmanageritem.cpp:200
-msgctxt "@action"
-msgid "Edit Tags"
-msgstr "Etîketan Serast Bike"
-
-#: app/semanticinfocontextmanageritem.cpp:210
-msgctxt "@action Rating value of zero"
-msgid "Zero"
-msgstr "Sifir"
-
-#: app/semanticinfocontextmanageritem.cpp:246
-msgid "Edit"
-msgstr "Serast Bike"
-
-#: app/browsemainpage.cpp:115 app/viewmainpage.cpp:395 app/mainwindow.cpp:346
-#: lib/documentview/documentviewcontroller.cpp:92
-msgctxt "@title actions category - means actions changing smth in interface"
-msgid "View"
-msgstr "Bibîne"
-
-#: app/browsemainpage.cpp:117
-msgctxt "@action:inmenu Navigation Bar"
-msgid "Edit Location"
-msgstr "Cih Serast Bike"
-
-#: app/browsemainpage.cpp:121
-msgctxt "@action:inmenu"
-msgid "Sort By"
-msgstr "Rêz Bike Gorê"
-
-#: app/browsemainpage.cpp:122
-msgctxt "@addAction:inmenu"
-msgid "Name"
-msgstr "Nav"
-
-#: app/browsemainpage.cpp:124
-msgctxt "@addAction:inmenu"
-msgid "Date"
-msgstr "Dîrok"
-
-#: app/browsemainpage.cpp:126
-msgctxt "@addAction:inmenu"
-msgid "Size"
-msgstr "Mezinahî"
-
-#: app/browsemainpage.cpp:134
-msgctxt "@action:inmenu"
-msgid "Thumbnail Details"
-msgstr "Kîtekîtên Wêneyên Biçûk"
-
-#: app/browsemainpage.cpp:145
-msgctxt "@action:inmenu"
-msgid "Filename"
-msgstr "Navê Pelê"
-
-#: app/browsemainpage.cpp:146
-msgctxt "@action:inmenu"
-msgid "Date"
-msgstr "Dîrok"
-
-#: app/browsemainpage.cpp:147
-#, fuzzy
-#| msgctxt "@item:intable"
-#| msgid "Image Size"
-msgctxt "@action:inmenu"
-msgid "Image Size"
-msgstr "Mezinahiya Wêneyê"
-
-#: app/browsemainpage.cpp:148
-#, fuzzy
-#| msgctxt "@item:intable"
-#| msgid "File Size"
-msgctxt "@action:inmenu"
-msgid "File Size"
-msgstr "Mezinahiya Pelê"
-
-#: app/browsemainpage.cpp:150
-msgctxt "@action:inmenu"
-msgid "Rating"
-msgstr "Nirxandin"
-
-#: app/browsemainpage.cpp:154 app/fileopscontextmanageritem.cpp:179
-#: app/mainwindow.cpp:345
-msgctxt "@title actions category"
-msgid "File"
-msgstr "Pel"
-
-#: app/browsemainpage.cpp:156
-msgctxt "@action:inmenu"
-msgid "Add Folder to Places"
-msgstr "Lê Qadan Peldank Zêde Bike"
-
-#: app/browsemainpage.cpp:185
-#, kde-format
-msgctxt "@label"
-msgid "%1 document"
-msgid_plural "%1 documents"
-msgstr[0] "%1 belge"
-msgstr[1] "%1 belge"
-
-#: app/filtercontroller.cpp:131
-msgid "Name contains"
-msgstr "Nav dihundirîne"
-
-#: app/filtercontroller.cpp:132
-msgid "Name does not contain"
-msgstr "Nav nahundirîne"
-
-#: app/filtercontroller.cpp:237
-msgid "Date >="
-msgstr "Dîrok >="
-
-#: app/filtercontroller.cpp:238
-msgid "Date ="
-msgstr "Dîrok ="
-
-#: app/filtercontroller.cpp:239
-msgid "Date <="
-msgstr "Dîrok <="
-
-#: app/filtercontroller.cpp:333
-msgid "Rating >="
-msgstr "Nirxandin >="
-
-#: app/filtercontroller.cpp:334
-msgid "Rating ="
-msgstr "Nirxandin ="
-
-#: app/filtercontroller.cpp:335
-msgid "Rating <="
-msgstr "Nirxandin <="
-
-#: app/filtercontroller.cpp:433
-msgid "Tagged"
-msgstr "Etîketkirî"
-
-#: app/filtercontroller.cpp:434
-msgid "Not Tagged"
-msgstr "Ne Etîketkirî"
-
-#: app/filtercontroller.cpp:570
-msgctxt "@action:inmenu"
-msgid "Filter by Name"
-msgstr "Gorê Navê Parzûn Bike"
-
-#: app/filtercontroller.cpp:571
-msgctxt "@action:inmenu"
-msgid "Filter by Date"
-msgstr "Gorê Dîrokê Parzûn Bike"
-
-#: app/filtercontroller.cpp:577
-msgctxt "@action:inmenu"
-msgid "Filter by Rating"
-msgstr "Gorê Nirxandinê Parzûn Bike"
-
-#: app/filtercontroller.cpp:578
-msgctxt "@action:inmenu"
-msgid "Filter by Tag"
-msgstr "Gorê Etîketê Parzûn Bike"
-
-#: app/viewmainpage.cpp:287 app/viewmainpage.cpp:407
-msgid "Synchronize"
-msgstr ""
-
-#: app/viewmainpage.cpp:398
-msgid "Thumbnail Bar"
-msgstr "Darika Wêneyên Biçûk"
-
-#: app/viewmainpage.cpp:690
-msgctxt "@action:button"
-msgid "Discard Changes and Reload"
-msgstr "Guherandin û Nû ve Barkirinê Jê Bavêje"
-
-#: app/viewmainpage.cpp:692
-msgctxt "@info"
-msgid ""
-"This image has been modified. Reloading it will discard all your changes."
-msgstr ""
-"Ev wêne hatiye guherandin. Nû ve barkirina vê dê hemû guherandinan jê bavêje."
-
-#: app/main.cpp:114
-msgid "Gwenview"
-msgstr "Gwenview"
-
-#: app/main.cpp:116 part/gvpart.cpp:130
-msgid "An Image Viewer"
-msgstr "Nîşanderê Wêneyan"
-
-#: app/main.cpp:118 part/gvpart.cpp:132
-#, fuzzy
-#| msgid "Copyright 2000-2008 Aurélien Gâteau"
-msgid "Copyright 2000-2012 Aurélien Gâteau"
-msgstr "Copyright 2000-2008 Aurélien Gâteau"
-
-#: app/main.cpp:120 importer/main.cpp:46 part/gvpart.cpp:134
-msgid "Aurélien Gâteau"
-msgstr "Aurélien Gâteau"
-
-#: app/main.cpp:121 importer/main.cpp:47 part/gvpart.cpp:135
-msgid "Main developer"
-msgstr "Pêşvebirê Bingehîn"
-
-#: app/main.cpp:127
-msgid "Start in fullscreen mode"
-msgstr "Di moda dîmender tijî de bide destpêkirin"
-
-#: app/main.cpp:128
-msgid "Start in slideshow mode"
-msgstr "Di moda nîşandana slaytê de bide destpêkirin"
-
-#: app/main.cpp:129
-msgid "A starting file or folder"
-msgstr "Pel an jî peldank tê destpêkirin"
-
-#: app/startmainpage.cpp:300
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Add Folder to Places"
-msgid "Add to Places"
-msgstr "Lê Qadan Peldank Zêde Bike"
-
-#: app/startmainpage.cpp:301
-#, fuzzy
-#| msgid "Create Folder"
-msgid "Forget this URL"
-msgstr "Peldank Biafirîne"
-
-#: app/startmainpage.cpp:301
-#, fuzzy
-#| msgid "Create Folder"
-msgid "Forget this Folder"
-msgstr "Peldank Biafirîne"
-
-#: app/startmainpage.cpp:303
-msgid "Forget All"
-msgstr ""
 
 #: app/gvcore.cpp:86
 msgctxt "@info"
@@ -683,6 +265,111 @@ msgid_plural "%1 secs"
 msgstr[0] "%1 çirke"
 msgstr[1] "%1 çirke"
 
+#: app/main.cpp:114
+msgid "Gwenview"
+msgstr "Gwenview"
+
+#: app/main.cpp:116 part/gvpart.cpp:130
+msgid "An Image Viewer"
+msgstr "Nîşanderê Wêneyan"
+
+#: app/main.cpp:118 part/gvpart.cpp:132
+#, fuzzy
+#| msgid "Copyright 2000-2008 Aurélien Gâteau"
+msgid "Copyright 2000-2012 Aurélien Gâteau"
+msgstr "Copyright 2000-2008 Aurélien Gâteau"
+
+#: app/main.cpp:120 importer/main.cpp:46 part/gvpart.cpp:134
+msgid "Aurélien Gâteau"
+msgstr "Aurélien Gâteau"
+
+#: app/main.cpp:121 importer/main.cpp:47 part/gvpart.cpp:135
+msgid "Main developer"
+msgstr "Pêşvebirê Bingehîn"
+
+#: app/main.cpp:127
+msgid "Start in fullscreen mode"
+msgstr "Di moda dîmender tijî de bide destpêkirin"
+
+#: app/main.cpp:128
+msgid "Start in slideshow mode"
+msgstr "Di moda nîşandana slaytê de bide destpêkirin"
+
+#: app/main.cpp:129
+msgid "A starting file or folder"
+msgstr "Pel an jî peldank tê destpêkirin"
+
+#: app/infocontextmanageritem.cpp:176
+#, kde-format
+msgctxt ""
+"@item:intext %1 is a key, we append a colon to it. A value is displayed after"
+msgid "%1:"
+msgstr "%1:"
+
+#: app/infocontextmanageritem.cpp:253
+msgctxt "@action show more image meta info"
+msgid "More..."
+msgstr "Zêdetir..."
+
+#: app/infocontextmanageritem.cpp:264
+msgctxt "@title:group"
+msgid "Meta Information"
+msgstr "Agahiya Meta"
+
+#: app/infocontextmanageritem.cpp:357
+#, fuzzy, kde-format
+#| msgctxt "@label"
+#| msgid "%1 files selected"
+msgctxt "@label"
+msgid "%1 file selected"
+msgid_plural "%1 files selected"
+msgstr[0] "%1 pel hatin hilbijartin"
+msgstr[1] "%1 pel hatin hilbijartin"
+
+#: app/infocontextmanageritem.cpp:359
+#, fuzzy, kde-format
+#| msgctxt "@label"
+#| msgid "One folder selected"
+#| msgid_plural "%1 folders selected"
+msgctxt "@label"
+msgid "%1 folder selected"
+msgid_plural "%1 folders selected"
+msgstr[0] "Yek peldank hatiye hilbijartin"
+msgstr[1] "%1 peldank hatine hilbijartin"
+
+#: app/infocontextmanageritem.cpp:362
+#, kde-format
+msgid "%1 folder"
+msgid_plural "%1 folders"
+msgstr[0] ""
+msgstr[1] ""
+
+#: app/infocontextmanageritem.cpp:362
+#, fuzzy, kde-format
+#| msgctxt "Slideshow interval in seconds"
+#| msgid "%1 sec"
+#| msgid_plural "%1 secs"
+msgid "%1 file"
+msgid_plural "%1 files"
+msgstr[0] "%1 çirke"
+msgstr[1] "%1 çirke"
+
+#: app/infocontextmanageritem.cpp:362
+#, fuzzy, kde-format
+#| msgctxt "@label"
+#| msgid "%1 folders and %2 files selected"
+msgctxt "@label. The two parameters are strings like '2 folders' and '1 file'."
+msgid "%1 and %2 selected"
+msgstr "%1 peldank û %2 pel hatine hilbijartin"
+
+#: app/kipiimagecollectionselector.cpp:55
+#, kde-format
+msgctxt "%1 is collection name, %2 is image count in collection"
+msgid "%1 (%2 image)"
+msgid_plural "%1 (%2 images)"
+msgstr[0] "%1 (%2 wêne)"
+msgstr[1] "%1 (%2 wêne)"
+
 #: app/kipiuploadwidget.cpp:43
 #, kde-format
 msgid ""
@@ -692,60 +379,119 @@ msgstr ""
 "Wêne dê bên barkirina li vir:\n"
 "%1"
 
-#: app/fileopscontextmanageritem.cpp:168
-msgid "File Operations"
-msgstr "Xebatên Pelê"
-
-#: app/fileopscontextmanageritem.cpp:195
-msgctxt "Verb"
-msgid "Copy To..."
-msgstr "Ji Ber Bigire Li..."
-
-#: app/fileopscontextmanageritem.cpp:199
-msgctxt "Verb"
-msgid "Move To..."
-msgstr "Bibe Li..."
-
-#: app/fileopscontextmanageritem.cpp:203
-msgctxt "Verb: create link to the file where user wants"
-msgid "Link To..."
-msgstr "Girê Bide Li..."
-
-#: app/fileopscontextmanageritem.cpp:207
-msgctxt "Verb"
-msgid "Rename..."
+#: app/viewmainpage.cpp:287 app/viewmainpage.cpp:407
+msgid "Synchronize"
 msgstr ""
 
-#: app/fileopscontextmanageritem.cpp:211
-msgctxt "Verb"
-msgid "Trash"
-msgstr "Bavêje Çopê"
+#: app/viewmainpage.cpp:395 app/mainwindow.cpp:346 app/browsemainpage.cpp:115
+#: lib/documentview/documentviewcontroller.cpp:92
+msgctxt "@title actions category - means actions changing smth in interface"
+msgid "View"
+msgstr "Bibîne"
 
-#: app/fileopscontextmanageritem.cpp:216
-msgid "Delete"
-msgstr "Jê Bibe"
+#: app/viewmainpage.cpp:398
+msgid "Thumbnail Bar"
+msgstr "Darika Wêneyên Biçûk"
 
-#: app/fileopscontextmanageritem.cpp:221
-#, fuzzy
-#| msgid "Resize"
-msgid "Restore"
-msgstr "Mezinahiyê Biguherîne"
+#: app/viewmainpage.cpp:690
+msgctxt "@action:button"
+msgid "Discard Changes and Reload"
+msgstr "Guherandin û Nû ve Barkirinê Jê Bavêje"
 
-#: app/fileopscontextmanageritem.cpp:224
-msgid "Properties"
-msgstr "Taybetmendî"
+#: app/viewmainpage.cpp:692
+msgctxt "@info"
+msgid ""
+"This image has been modified. Reloading it will discard all your changes."
+msgstr ""
+"Ev wêne hatiye guherandin. Nû ve barkirina vê dê hemû guherandinan jê bavêje."
 
-#: app/fileopscontextmanageritem.cpp:228
-msgid "Create Folder..."
-msgstr "Peldank Biafirîne..."
+#: app/saveallhelper.cpp:58
+msgctxt "@info:progress saving all image changes"
+msgid "Saving..."
+msgstr "Tê tomarkirin..."
 
-#: app/fileopscontextmanageritem.cpp:232
-msgid "Open With"
-msgstr "Veke Bi"
+#: app/saveallhelper.cpp:59
+msgid "&Stop"
+msgstr "&Rawestîne"
 
-#: app/fileopscontextmanageritem.cpp:422
-msgid "Other Application..."
-msgstr "Sepanê Din..."
+#: app/saveallhelper.cpp:84
+#, kde-format
+msgctxt "@info"
+msgid "One document could not be saved:"
+msgid_plural "%1 documents could not be saved:"
+msgstr[0] "Belgeyek nayê tomarkirin:"
+msgstr[1] "%1 belge nayên tomarkirin:"
+
+#: app/saveallhelper.cpp:108
+#, kde-format
+msgctxt ""
+"@info %1 is the name of the document which failed to save, %2 is the reason "
+"for the failure"
+msgid "<filename>%1</filename>: %2"
+msgstr "<filename>%1</filename>: %2"
+
+#: app/savebar.cpp:87
+msgid ""
+"You have modified many images. To avoid memory problems, you should save "
+"your changes."
+msgstr ""
+"Te gelek wêne guherandî ye. Ji bo ku pirsgirêkên bîrê dernekevin, divê tu "
+"guherandinan tomar bikî."
+
+#: app/savebar.cpp:176
+msgid "Current image modified"
+msgstr "Wêneya vekirî hatiye guhertin"
+
+#: app/savebar.cpp:182
+msgid "Previous modified image"
+msgstr "Wêneya paş ya hatiye guhertin"
+
+#: app/savebar.cpp:183
+msgid "Next modified image"
+msgstr "Wêneya pêş ya hatiye guhertin"
+
+#: app/savebar.cpp:199
+#, kde-format
+msgid "One image modified"
+msgid_plural "%1 images modified"
+msgstr[0] "Yek wêne hatiye guhertin"
+msgstr[1] "%1 wêne hatine guhertin"
+
+#: app/savebar.cpp:201
+msgid "Go to first modified image"
+msgstr "Biçe wêneya serî ya hatiye guhertin"
+
+#: app/savebar.cpp:203
+msgid "Go to it"
+msgstr "Biçe vê"
+
+#: app/savebar.cpp:302 app/savebar.cpp:307
+msgid "Save All"
+msgstr "Hemûyan Tomar Bike"
+
+#: app/semanticinfocontextmanageritem.cpp:175
+msgid "Semantic Information"
+msgstr "Agahiya Semantîk"
+
+#: app/semanticinfocontextmanageritem.cpp:197
+#: app/fileopscontextmanageritem.cpp:180
+msgctxt "@title actions category"
+msgid "Edit"
+msgstr "Serast Bike"
+
+#: app/semanticinfocontextmanageritem.cpp:200
+msgctxt "@action"
+msgid "Edit Tags"
+msgstr "Etîketan Serast Bike"
+
+#: app/semanticinfocontextmanageritem.cpp:210
+msgctxt "@action Rating value of zero"
+msgid "Zero"
+msgstr "Sifir"
+
+#: app/semanticinfocontextmanageritem.cpp:246
+msgid "Edit"
+msgstr "Serast Bike"
 
 #: app/imagemetainfodialog.cpp:128
 #, fuzzy
@@ -753,6 +499,12 @@ msgstr "Sepanê Din..."
 msgctxt "@title:window"
 msgid "Image Information"
 msgstr "Agahiya Meta"
+
+#: app/mainwindow.cpp:345 app/fileopscontextmanageritem.cpp:179
+#: app/browsemainpage.cpp:154
+msgctxt "@title actions category"
+msgid "File"
+msgstr "Pel"
 
 #: app/mainwindow.cpp:355
 msgctxt "@action reload the currently viewed image"
@@ -943,26 +695,279 @@ msgstr[1] "%1 wêne hatine guhertin."
 msgid "If you quit now, your changes will be lost."
 msgstr "Heke tu niha derkevî, guherandinên te dê winda bin."
 
-#: importer/importerconfigdialog.cpp:56
-#, fuzzy, kde-format
-#| msgctxt "@item:intable %1 is image width, %2 is image height"
-#| msgid "%1x%2"
-msgctxt "%1 is the importer keyword, %2 is keyword explanation"
-msgid "%1: %2"
-msgstr "%1x%2"
+#: app/configdialog.cpp:72
+msgid "General"
+msgstr "Giştî"
 
-#: importer/importer.cpp:80
-msgid "Could not create destination folder."
+#: app/configdialog.cpp:100
+msgid "Image View"
+msgstr "Nîşandana Wêneyan"
+
+#: app/configdialog.cpp:105
+#, fuzzy
+#| msgid "Image Settings"
+msgid "Advanced"
+msgstr "Mîhengên Wêneyan"
+
+#: app/fileopscontextmanageritem.cpp:168
+msgid "File Operations"
+msgstr "Xebatên Pelê"
+
+#: app/fileopscontextmanageritem.cpp:195
+msgctxt "Verb"
+msgid "Copy To..."
+msgstr "Ji Ber Bigire Li..."
+
+#: app/fileopscontextmanageritem.cpp:199
+msgctxt "Verb"
+msgid "Move To..."
+msgstr "Bibe Li..."
+
+#: app/fileopscontextmanageritem.cpp:203
+msgctxt "Verb: create link to the file where user wants"
+msgid "Link To..."
+msgstr "Girê Bide Li..."
+
+#: app/fileopscontextmanageritem.cpp:207
+msgctxt "Verb"
+msgid "Rename..."
 msgstr ""
 
-#: importer/importer.cpp:86
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid "Could not upload file."
-msgid ""
-"Could not create temporary upload folder:\n"
-"%1"
-msgstr "Nekarî pelê bar bike."
+#: app/fileopscontextmanageritem.cpp:211
+msgctxt "Verb"
+msgid "Trash"
+msgstr "Bavêje Çopê"
+
+#: app/fileopscontextmanageritem.cpp:216
+msgid "Delete"
+msgstr "Jê Bibe"
+
+#: app/fileopscontextmanageritem.cpp:221
+#, fuzzy
+#| msgid "Resize"
+msgid "Restore"
+msgstr "Mezinahiyê Biguherîne"
+
+#: app/fileopscontextmanageritem.cpp:224
+msgid "Properties"
+msgstr "Taybetmendî"
+
+#: app/fileopscontextmanageritem.cpp:228
+msgid "Create Folder..."
+msgstr "Peldank Biafirîne..."
+
+#: app/fileopscontextmanageritem.cpp:232
+msgid "Open With"
+msgstr "Veke Bi"
+
+#: app/fileopscontextmanageritem.cpp:422
+msgid "Other Application..."
+msgstr "Sepanê Din..."
+
+#: app/filtercontroller.cpp:131
+msgid "Name contains"
+msgstr "Nav dihundirîne"
+
+#: app/filtercontroller.cpp:132
+msgid "Name does not contain"
+msgstr "Nav nahundirîne"
+
+#: app/filtercontroller.cpp:237
+msgid "Date >="
+msgstr "Dîrok >="
+
+#: app/filtercontroller.cpp:238
+msgid "Date ="
+msgstr "Dîrok ="
+
+#: app/filtercontroller.cpp:239
+msgid "Date <="
+msgstr "Dîrok <="
+
+#: app/filtercontroller.cpp:333
+msgid "Rating >="
+msgstr "Nirxandin >="
+
+#: app/filtercontroller.cpp:334
+msgid "Rating ="
+msgstr "Nirxandin ="
+
+#: app/filtercontroller.cpp:335
+msgid "Rating <="
+msgstr "Nirxandin <="
+
+#: app/filtercontroller.cpp:433
+msgid "Tagged"
+msgstr "Etîketkirî"
+
+#: app/filtercontroller.cpp:434
+msgid "Not Tagged"
+msgstr "Ne Etîketkirî"
+
+#: app/filtercontroller.cpp:570
+msgctxt "@action:inmenu"
+msgid "Filter by Name"
+msgstr "Gorê Navê Parzûn Bike"
+
+#: app/filtercontroller.cpp:571
+msgctxt "@action:inmenu"
+msgid "Filter by Date"
+msgstr "Gorê Dîrokê Parzûn Bike"
+
+#: app/filtercontroller.cpp:577
+msgctxt "@action:inmenu"
+msgid "Filter by Rating"
+msgstr "Gorê Nirxandinê Parzûn Bike"
+
+#: app/filtercontroller.cpp:578
+msgctxt "@action:inmenu"
+msgid "Filter by Tag"
+msgstr "Gorê Etîketê Parzûn Bike"
+
+#: app/kipiexportaction.cpp:52
+msgid "Last Used Plugin"
+msgstr ""
+
+#: app/kipiexportaction.cpp:54
+#, fuzzy
+#| msgid "&Plugins"
+msgid "Other Plugins"
+msgstr "&Plugin"
+
+#: app/kipiexportaction.cpp:72
+#, fuzzy
+#| msgid "Square"
+msgctxt "@action"
+msgid "Share"
+msgstr "Çar goşe(kare)"
+
+#: app/kipiexportaction.cpp:78
+msgctxt "@info:tooltip"
+msgid "Share images using various services"
+msgstr ""
+
+#: app/browsemainpage.cpp:117
+msgctxt "@action:inmenu Navigation Bar"
+msgid "Edit Location"
+msgstr "Cih Serast Bike"
+
+#: app/browsemainpage.cpp:121
+msgctxt "@action:inmenu"
+msgid "Sort By"
+msgstr "Rêz Bike Gorê"
+
+#: app/browsemainpage.cpp:122
+msgctxt "@addAction:inmenu"
+msgid "Name"
+msgstr "Nav"
+
+#: app/browsemainpage.cpp:124
+msgctxt "@addAction:inmenu"
+msgid "Date"
+msgstr "Dîrok"
+
+#: app/browsemainpage.cpp:126
+msgctxt "@addAction:inmenu"
+msgid "Size"
+msgstr "Mezinahî"
+
+#: app/browsemainpage.cpp:134
+msgctxt "@action:inmenu"
+msgid "Thumbnail Details"
+msgstr "Kîtekîtên Wêneyên Biçûk"
+
+#: app/browsemainpage.cpp:145
+msgctxt "@action:inmenu"
+msgid "Filename"
+msgstr "Navê Pelê"
+
+#: app/browsemainpage.cpp:146
+msgctxt "@action:inmenu"
+msgid "Date"
+msgstr "Dîrok"
+
+#: app/browsemainpage.cpp:147
+#, fuzzy
+#| msgctxt "@item:intable"
+#| msgid "Image Size"
+msgctxt "@action:inmenu"
+msgid "Image Size"
+msgstr "Mezinahiya Wêneyê"
+
+#: app/browsemainpage.cpp:148
+#, fuzzy
+#| msgctxt "@item:intable"
+#| msgid "File Size"
+msgctxt "@action:inmenu"
+msgid "File Size"
+msgstr "Mezinahiya Pelê"
+
+#: app/browsemainpage.cpp:150
+msgctxt "@action:inmenu"
+msgid "Rating"
+msgstr "Nirxandin"
+
+#: app/browsemainpage.cpp:156
+msgctxt "@action:inmenu"
+msgid "Add Folder to Places"
+msgstr "Lê Qadan Peldank Zêde Bike"
+
+#: app/browsemainpage.cpp:185
+#, kde-format
+msgctxt "@label"
+msgid "%1 document"
+msgid_plural "%1 documents"
+msgstr[0] "%1 belge"
+msgstr[1] "%1 belge"
+
+#: app/startmainpage.cpp:300
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Add Folder to Places"
+msgid "Add to Places"
+msgstr "Lê Qadan Peldank Zêde Bike"
+
+#: app/startmainpage.cpp:301
+#, fuzzy
+#| msgid "Create Folder"
+msgid "Forget this URL"
+msgstr "Peldank Biafirîne"
+
+#: app/startmainpage.cpp:301
+#, fuzzy
+#| msgid "Create Folder"
+msgid "Forget this Folder"
+msgstr "Peldank Biafirîne"
+
+#: app/startmainpage.cpp:303
+msgid "Forget All"
+msgstr ""
+
+#: importer/filenameformater.cpp:104
+msgid "Shooting date"
+msgstr ""
+
+#: importer/filenameformater.cpp:105
+msgid "Shooting time"
+msgstr ""
+
+#: importer/filenameformater.cpp:106
+#, fuzzy
+#| msgid "File Operations"
+msgid "Original extension"
+msgstr "Xebatên Pelê"
+
+#: importer/filenameformater.cpp:107
+msgid "Original extension, in lower case"
+msgstr ""
+
+#: importer/filenameformater.cpp:108
+msgid "Original filename"
+msgstr ""
+
+#: importer/filenameformater.cpp:109
+msgid "Original filename, in lower case"
+msgstr ""
 
 #: importer/importdialog.cpp:73
 #, fuzzy, kde-format
@@ -1086,31 +1091,26 @@ msgstr "Copyright 2000-2008 Aurélien Gâteau"
 msgid "Source folder"
 msgstr "Peldank Biafirîne"
 
-#: importer/filenameformater.cpp:104
-msgid "Shooting date"
+#: importer/importer.cpp:80
+msgid "Could not create destination folder."
 msgstr ""
 
-#: importer/filenameformater.cpp:105
-msgid "Shooting time"
-msgstr ""
+#: importer/importer.cpp:86
+#, fuzzy, kde-format
+#| msgctxt "@info"
+#| msgid "Could not upload file."
+msgid ""
+"Could not create temporary upload folder:\n"
+"%1"
+msgstr "Nekarî pelê bar bike."
 
-#: importer/filenameformater.cpp:106
-#, fuzzy
-#| msgid "File Operations"
-msgid "Original extension"
-msgstr "Xebatên Pelê"
-
-#: importer/filenameformater.cpp:107
-msgid "Original extension, in lower case"
-msgstr ""
-
-#: importer/filenameformater.cpp:108
-msgid "Original filename"
-msgstr ""
-
-#: importer/filenameformater.cpp:109
-msgid "Original filename, in lower case"
-msgstr ""
+#: importer/importerconfigdialog.cpp:56
+#, fuzzy, kde-format
+#| msgctxt "@item:intable %1 is image width, %2 is image height"
+#| msgid "%1x%2"
+msgctxt "%1 is the importer keyword, %2 is keyword explanation"
+msgid "%1: %2"
+msgstr "%1x%2"
 
 #: importer/thumbnailpage.cpp:150
 #, fuzzy
@@ -1126,7 +1126,7 @@ msgstr "Yek peldank hatiye hilbijartin"
 msgid "Import All"
 msgstr "Veguhezîne Hundir"
 
-#: lib/statusbartoolbutton.cpp:107 lib/fullscreenbar.cpp:263
+#: lib/fullscreenbar.cpp:263 lib/statusbartoolbutton.cpp:107
 #, kde-format
 msgctxt "@info:tooltip of custom toolbar button"
 msgid "%1"
@@ -1168,6 +1168,33 @@ msgstr "&Firehî:"
 msgid "Height"
 msgstr "Bilindahî:"
 
+#: lib/document/loadingjob.cpp:57
+#, fuzzy, kde-format
+#| msgctxt "@info"
+#| msgid "Could not upload file."
+msgid "Could not load document %1"
+msgstr "Nekarî pelê bar bike."
+
+#: lib/document/savejob.cpp:105
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Could not open file for writing, check that you have the necessary rights in "
+"<filename>%1</filename>."
+msgstr ""
+"Nikare pelê ji bo nivîsandinê veke, kontrol bike ku tu xwedî destûrên hewce "
+"yên di <filename>%1</filename> de yî."
+
+#: lib/document/savejob.cpp:129
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Could not overwrite file, check that you have the necessary rights to write "
+"in <filename>%1</filename>."
+msgstr ""
+"Nikare ser pelê binivîse, kontrol bike ku tu xwedî destûrên hewce yên di "
+"<filename>%1</filename> de yî."
+
 #: lib/document/document.cpp:234
 #, fuzzy
 #| msgctxt "@info"
@@ -1200,32 +1227,25 @@ msgctxt "@info"
 msgid "Loading image failed."
 msgstr "Barkirina wêneyê pêk nehat."
 
-#: lib/document/savejob.cpp:105
-#, kde-format
-msgctxt "@info"
-msgid ""
-"Could not open file for writing, check that you have the necessary rights in "
-"<filename>%1</filename>."
-msgstr ""
-"Nikare pelê ji bo nivîsandinê veke, kontrol bike ku tu xwedî destûrên hewce "
-"yên di <filename>%1</filename> de yî."
+#: lib/documentview/documentviewcontroller.cpp:98
+msgid "Zoom to Fit"
+msgstr "Bicihbûna Tam"
 
-#: lib/document/savejob.cpp:129
-#, kde-format
-msgctxt "@info"
-msgid ""
-"Could not overwrite file, check that you have the necessary rights to write "
-"in <filename>%1</filename>."
-msgstr ""
-"Nikare ser pelê binivîse, kontrol bike ku tu xwedî destûrên hewce yên di "
-"<filename>%1</filename> de yî."
+#: lib/documentview/documentviewcontroller.cpp:100
+msgctxt "@action:button Zoom to fit, shown in status bar, keep it short please"
+msgid "Fit"
+msgstr "Lihevkirin"
 
-#: lib/document/loadingjob.cpp:57
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid "Could not upload file."
-msgid "Could not load document %1"
-msgstr "Nekarî pelê bar bike."
+#: lib/documentview/documentviewcontroller.cpp:104
+msgctxt ""
+"@action:button Zoom to original size, shown in status bar, keep it short "
+"please"
+msgid "100%"
+msgstr "100%"
+
+#: lib/documentview/messageviewadapter.cpp:52
+msgid "No document selected"
+msgstr "Tu belge nehatiye hilbijartin"
 
 #: lib/documentview/documentview.cpp:175
 #, fuzzy
@@ -1251,41 +1271,6 @@ msgstr "Gwenview nizane ku belgeyên vê cureyê çawa nîşan bide"
 msgid "Loading <filename>%1</filename> failed"
 msgstr "Barkirina <filename>%1</filename> pêk nehat"
 
-#: lib/documentview/documentviewcontroller.cpp:98
-msgid "Zoom to Fit"
-msgstr "Bicihbûna Tam"
-
-#: lib/documentview/documentviewcontroller.cpp:100
-msgctxt "@action:button Zoom to fit, shown in status bar, keep it short please"
-msgid "Fit"
-msgstr "Lihevkirin"
-
-#: lib/documentview/documentviewcontroller.cpp:104
-msgctxt ""
-"@action:button Zoom to original size, shown in status bar, keep it short "
-"please"
-msgid "100%"
-msgstr "100%"
-
-#: lib/documentview/messageviewadapter.cpp:52
-msgid "No document selected"
-msgstr "Tu belge nehatiye hilbijartin"
-
-#: lib/historymodel.cpp:143
-#, kde-format
-msgid "Last visited: %1"
-msgstr ""
-
-#: lib/jpegcontent.cpp:571
-msgctxt "@info"
-msgid "Could not open file for writing."
-msgstr "Pel ji bo nivîsandinê nayê vekirin."
-
-#: lib/jpegcontent.cpp:587
-msgctxt "@info"
-msgid "No data to store."
-msgstr "Ji bo nijandinê tu dane tune ye."
-
 #: lib/slideshow.cpp:191
 msgctxt "@item:inmenu toggle loop in slideshow"
 msgid "Loop"
@@ -1296,34 +1281,40 @@ msgctxt "@item:inmenu toggle random order in slideshow"
 msgid "Random"
 msgstr "Lêrasthatî"
 
-#: lib/print/printhelper.cpp:131
-msgid "Print Image"
-msgstr "Wêneyê Çap Bike"
-
-#: lib/redeyereduction/redeyereductionimageoperation.cpp:77
-msgid "RedEyeReduction"
-msgstr "RedEyeReduction"
-
-#: lib/resize/resizeimageoperation.cpp:71
+#: lib/transformimageoperation.cpp:68
 #, fuzzy
-#| msgid "Resize"
+#| msgid "Rotate Right"
 msgctxt "(qtundo-format)"
-msgid "Resize"
-msgstr "Mezinahiyê Biguherîne"
+msgid "Rotate Right"
+msgstr "Bizivirîne Rastê"
 
-#: lib/semanticinfo/tagitemdelegate.cpp:66
+#: lib/transformimageoperation.cpp:71
 #, fuzzy
-#| msgid "Assign this tag to all selected images"
-msgctxt "@info:tooltip"
-msgid "Assign this tag to all selected images"
-msgstr "Vê etîketê lê hemû wêneyên hilbijartî zêde bike"
+#| msgid "Rotate Left"
+msgctxt "(qtundo-format)"
+msgid "Rotate Left"
+msgstr "Bizivirîne Çepê"
 
-#: lib/graphicshudwidget.cpp:106
+#: lib/transformimageoperation.cpp:74
 #, fuzzy
-#| msgid "Close"
-msgctxt "@info:tooltip"
-msgid "Close"
-msgstr "Bigire"
+#| msgid "Mirror"
+msgctxt "(qtundo-format)"
+msgid "Mirror"
+msgstr "Neynûk"
+
+#: lib/transformimageoperation.cpp:77
+#, fuzzy
+#| msgid "Flip"
+msgctxt "(qtundo-format)"
+msgid "Flip"
+msgstr "Serberjêr Bike"
+
+#: lib/transformimageoperation.cpp:82
+#, fuzzy
+#| msgid "Transform"
+msgctxt "(qtundo-format)"
+msgid "Transform"
+msgstr "Veguhezîne"
 
 #: lib/imagemetainfomodel.cpp:244
 msgctxt "@item:intable Image file name"
@@ -1377,40 +1368,49 @@ msgctxt "@title:column"
 msgid "Value"
 msgstr "Nirx"
 
-#: lib/transformimageoperation.cpp:68
-#, fuzzy
-#| msgid "Rotate Right"
-msgctxt "(qtundo-format)"
-msgid "Rotate Right"
-msgstr "Bizivirîne Rastê"
+#: lib/print/printhelper.cpp:131
+msgid "Print Image"
+msgstr "Wêneyê Çap Bike"
 
-#: lib/transformimageoperation.cpp:71
-#, fuzzy
-#| msgid "Rotate Left"
-msgctxt "(qtundo-format)"
-msgid "Rotate Left"
-msgstr "Bizivirîne Çepê"
+#: lib/redeyereduction/redeyereductionimageoperation.cpp:77
+msgid "RedEyeReduction"
+msgstr "RedEyeReduction"
 
-#: lib/transformimageoperation.cpp:74
+#: lib/resize/resizeimageoperation.cpp:71
 #, fuzzy
-#| msgid "Mirror"
+#| msgid "Resize"
 msgctxt "(qtundo-format)"
-msgid "Mirror"
-msgstr "Neynûk"
+msgid "Resize"
+msgstr "Mezinahiyê Biguherîne"
 
-#: lib/transformimageoperation.cpp:77
+#: lib/semanticinfo/tagitemdelegate.cpp:66
 #, fuzzy
-#| msgid "Flip"
-msgctxt "(qtundo-format)"
-msgid "Flip"
-msgstr "Serberjêr Bike"
+#| msgid "Assign this tag to all selected images"
+msgctxt "@info:tooltip"
+msgid "Assign this tag to all selected images"
+msgstr "Vê etîketê lê hemû wêneyên hilbijartî zêde bike"
 
-#: lib/transformimageoperation.cpp:82
+#: lib/graphicshudwidget.cpp:106
 #, fuzzy
-#| msgid "Transform"
-msgctxt "(qtundo-format)"
-msgid "Transform"
-msgstr "Veguhezîne"
+#| msgid "Close"
+msgctxt "@info:tooltip"
+msgid "Close"
+msgstr "Bigire"
+
+#: lib/historymodel.cpp:143
+#, kde-format
+msgid "Last visited: %1"
+msgstr ""
+
+#: lib/jpegcontent.cpp:571
+msgctxt "@info"
+msgid "Could not open file for writing."
+msgstr "Pel ji bo nivîsandinê nayê vekirin."
+
+#: lib/jpegcontent.cpp:587
+msgctxt "@info"
+msgid "No data to store."
+msgstr "Ji bo nijandinê tu dane tune ye."
 
 #: part/gvpart.cpp:80
 msgctxt "@action"
@@ -1431,9 +1431,187 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "oensari@gmail.com"
 
+#. i18n: file: app/gwenviewui.rc:47
+#. i18n: ectx: Menu (rating)
+#: rc.cpp:5
+msgid "&Rating"
+msgstr "Tê &Nirxandin"
+
+#. i18n: file: app/gwenviewui.rc:76
+#. i18n: ectx: Menu (plugins)
+#: rc.cpp:8
+msgid "&Plugins"
+msgstr "&Plugin"
+
+#. i18n: file: app/gwenviewui.rc:79
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:11
+msgid "&Settings"
+msgstr "&Mîheng"
+
+#. i18n: file: app/gwenviewui.rc:92
+#. i18n: ectx: ToolBar (mainToolBar)
+#. i18n: file: part/gvpart.rc:15
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:14 rc.cpp:289
+msgid "Main Toolbar"
+msgstr "Darikê Amûran ya Mak"
+
+#. i18n: file: app/imageviewconfigpage.ui:17
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: rc.cpp:17
+msgid "Transparent background:"
+msgstr "Rûerdê zelalî"
+
+#. i18n: file: app/imageviewconfigpage.ui:38
+#. i18n: ectx: property (text), widget (QRadioButton, checkBoardRadioButton)
+#: rc.cpp:20
+msgid "&Check board"
+msgstr "Tabloya &Nîşankirinê"
+
+#. i18n: file: app/imageviewconfigpage.ui:71
+#. i18n: ectx: property (text), widget (QRadioButton, solidColorRadioButton)
+#: rc.cpp:23
+msgid "&Solid color:"
+msgstr "Rengê &tarî:"
+
+#. i18n: file: app/imageviewconfigpage.ui:119
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: rc.cpp:26
+msgid "Mouse wheel behavior:"
+msgstr "Tevgerên gulovera mişkê:"
+
+#. i18n: file: app/imageviewconfigpage.ui:134
+#. i18n: ectx: property (text), widget (QRadioButton, mouseWheelScrollRadioButton)
+#: rc.cpp:29
+msgctxt "@option:radio action on mouse wheel"
+msgid "Scroll"
+msgstr "Xişkirin"
+
+#. i18n: file: app/imageviewconfigpage.ui:161
+#. i18n: ectx: property (text), widget (QRadioButton, mouseWheelBrowseRadioButton)
+#: rc.cpp:32
+msgctxt "@option:radio action on mouse wheel"
+msgid "Browse"
+msgstr "Bigere"
+
+#. i18n: file: app/imageviewconfigpage.ui:201
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_EnlargeSmallerImages)
+#. i18n: file: lib/print/printoptionspage.ui:98
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_PrintEnlargeSmallerImages)
+#: rc.cpp:35 rc.cpp:241
+msgid "Enlarge smaller images"
+msgstr "Wêneyên biçûk mezin bike"
+
+#. i18n: file: app/imageviewconfigpage.ui:239
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:38
+#, fuzzy
+#| msgid "Meta Information"
+msgid "Animations:"
+msgstr "Agahiya Meta"
+
+#. i18n: file: app/imageviewconfigpage.ui:254
+#. i18n: ectx: property (text), widget (QRadioButton, glAnimationRadioButton)
+#: rc.cpp:41
+msgid "OpenGL"
+msgstr ""
+
+#. i18n: file: app/imageviewconfigpage.ui:281
+#. i18n: ectx: property (text), widget (QRadioButton, softwareAnimationRadioButton)
+#: rc.cpp:44
+msgid "Software"
+msgstr ""
+
+#. i18n: file: app/imageviewconfigpage.ui:305
+#. i18n: ectx: property (text), widget (QRadioButton, noAnimationRadioButton)
+#: rc.cpp:47
+msgid "None"
+msgstr ""
+
+#. i18n: file: app/imageviewconfigpage.ui:327
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:50
+#, fuzzy
+#| msgid "Thumbnail Bar"
+msgid "<b>Thumbnail Bar</b>"
+msgstr "Darika Wêneyên Biçûk"
+
+#. i18n: file: app/imageviewconfigpage.ui:334
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: rc.cpp:53
+#, fuzzy
+#| msgid "File Operations"
+msgid "Orientation:"
+msgstr "Xebatên Pelê"
+
+#. i18n: file: app/imageviewconfigpage.ui:349
+#. i18n: ectx: property (text), widget (QRadioButton, horizontalRadioButton)
+#: rc.cpp:56
+msgid "Horizontal"
+msgstr ""
+
+#. i18n: file: app/imageviewconfigpage.ui:373
+#. i18n: ectx: property (text), widget (QRadioButton, verticalRadioButton)
+#: rc.cpp:59
+msgid "Vertical"
+msgstr ""
+
+#. i18n: file: app/imageviewconfigpage.ui:395
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:62
+msgid "Row count:"
+msgstr ""
+
+#. i18n: file: app/startmainpage.ui:34
+#. i18n: ectx: property (text), widget (QLabel, mHistoryDisabledLabel)
+#: rc.cpp:65
+msgid "History has been disabled."
+msgstr ""
+
+#. i18n: file: app/startmainpage.ui:51
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: rc.cpp:68
+msgid "Recent Folders"
+msgstr "Peldankên Borî"
+
+#. i18n: file: app/startmainpage.ui:65
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: rc.cpp:71
+#, fuzzy
+#| msgid "Recent Folders"
+msgid "Recent URLs"
+msgstr "Peldankên Borî"
+
+#. i18n: file: app/startmainpage.ui:109
+#. i18n: ectx: attribute (title), widget (QWidget, placesTab)
+#: rc.cpp:74
+msgid "Places"
+msgstr "Cih"
+
+#. i18n: file: app/startmainpage.ui:132
+#. i18n: ectx: attribute (title), widget (QWidget, tagsTab)
+#: rc.cpp:77
+msgid "Tags"
+msgstr "Etîket"
+
+#. i18n: file: app/startmainpage.ui:138
+#. i18n: ectx: property (text), widget (QLabel, mTagLabel)
+#: rc.cpp:80
+#, fuzzy
+#| msgid ""
+#| "Sorry, browsing by tag is not available. Make sure Nepomuk is properly "
+#| "installed on your computer."
+msgid ""
+"Browsing by tags is not available. Make sure Nepomuk is properly installed "
+"on your computer."
+msgstr ""
+"Lêborîne, nihêrîna bi etîket re tune ye. Baş bizane ku Nepomuk di komputera "
+"te de saz kirî ye."
+
 #. i18n: file: app/advancedconfigpage.ui:17
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:5
+#: rc.cpp:83
 #, fuzzy
 #| msgid "Cancel"
 msgid "Cache:"
@@ -1441,13 +1619,13 @@ msgstr "Betal Bike"
 
 #. i18n: file: app/advancedconfigpage.ui:29
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_DeleteThumbnailCacheOnExit)
-#: rc.cpp:8
+#: rc.cpp:86
 msgid "Delete thumbnail cache folder on exit"
 msgstr "Di derketinê de peldanka pêşbîra wêneyên biçûk jê bibe"
 
 #. i18n: file: app/advancedconfigpage.ui:51
 #. i18n: ectx: property (text), widget (QLabel, cacheHelpLabel)
-#: rc.cpp:11
+#: rc.cpp:89
 #, fuzzy
 #| msgid ""
 #| "Enable this option if you do not have a lot of disk space.\n"
@@ -1467,43 +1645,109 @@ msgstr ""
 
 #. i18n: file: app/advancedconfigpage.ui:77
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:14
+#: rc.cpp:92
 msgid "History:"
 msgstr ""
 
 #. i18n: file: app/advancedconfigpage.ui:89
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_HistoryEnabled)
-#: rc.cpp:17
+#: rc.cpp:95
 msgid "Remember folders and URLs"
 msgstr ""
 
+#. i18n: file: app/semanticinfodialog.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, SemanticInfoDialog)
+#: rc.cpp:98
+msgid "Tag Editor"
+msgstr "Edîtorê Etîketê"
+
+#. i18n: file: app/semanticinfodialog.ui:31
+#. i18n: ectx: property (text), widget (QPushButton, mPreviousButton)
+#: rc.cpp:101
+msgid "Previous"
+msgstr "Paş"
+
+#. i18n: file: app/semanticinfodialog.ui:38
+#. i18n: ectx: property (text), widget (QPushButton, mNextButton)
+#: rc.cpp:104
+msgid "Next"
+msgstr "Pêş"
+
+#. i18n: file: app/semanticinfosidebaritem.ui:22
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:107
+msgid "Rating:"
+msgstr "Nirxandin:"
+
+#. i18n: file: app/semanticinfosidebaritem.ui:45
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:110
+msgid "Tags:"
+msgstr "Etîket:"
+
+#. i18n: file: app/semanticinfosidebaritem.ui:76
+#. i18n: ectx: property (clickMessage), widget (KTextEdit, mDescriptionTextEdit)
+#: rc.cpp:113
+#, fuzzy
+#| msgid "Description:"
+msgid "Description"
+msgstr "Daxuyanî:"
+
+#. i18n: file: app/browsemainpage.ui:88
+#. i18n: ectx: property (text), widget (Gwenview::StatusBarToolButton, mAddFilterButton)
+#: rc.cpp:116
+msgid "Add Filter"
+msgstr "Parzûn Lê Zêde Bike"
+
+#. i18n: file: app/generalconfigpage.ui:17
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:119
+#, fuzzy
+#| msgid "&View background color:"
+msgid "Background color:"
+msgstr "Rengê rûerdê &bibîne:"
+
+#. i18n: file: app/generalconfigpage.ui:82
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:122
+msgid "Videos:"
+msgstr ""
+
+#. i18n: file: app/generalconfigpage.ui:89
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ListVideos)
+#: rc.cpp:125
+#, fuzzy
+#| msgid "Show Sidebar"
+msgid "Show videos"
+msgstr "Darika-kêlekê Nîşan Bide"
+
 #. i18n: file: app/fullscreenconfigwidget.ui:20
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:20
+#: rc.cpp:128
 msgid "Slideshow"
 msgstr "NîşandanaSlaydê"
 
 #. i18n: file: app/fullscreenconfigwidget.ui:29
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:23
+#: rc.cpp:131
 msgid "Interval:"
 msgstr "Navber:"
 
 #. i18n: file: app/fullscreenconfigwidget.ui:75
 #. i18n: ectx: property (text), widget (QCheckBox, mSlideShowLoopCheckBox)
-#: rc.cpp:26
+#: rc.cpp:134
 msgid "Loop"
 msgstr "Zivr (Loop)"
 
 #. i18n: file: app/fullscreenconfigwidget.ui:82
 #. i18n: ectx: property (text), widget (QCheckBox, mSlideShowRandomCheckBox)
-#: rc.cpp:29
+#: rc.cpp:137
 msgid "Random"
 msgstr "Lêrasthatî"
 
 #. i18n: file: app/fullscreenconfigwidget.ui:92
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: rc.cpp:32
+#: rc.cpp:140
 #, fuzzy
 #| msgctxt "@title:group"
 #| msgid "Meta Information"
@@ -1512,13 +1756,13 @@ msgstr "Agahiya Meta"
 
 #. i18n: file: app/fullscreenconfigwidget.ui:101
 #. i18n: ectx: property (text), widget (QPushButton, mConfigureDisplayedInformationButton)
-#: rc.cpp:35
+#: rc.cpp:143
 msgid "Select Image Information to Display..."
 msgstr ""
 
 #. i18n: file: app/fullscreenconfigwidget.ui:111
 #. i18n: ectx: property (title), widget (QGroupBox, mThumbnailGroupBox)
-#: rc.cpp:38
+#: rc.cpp:146
 #, fuzzy
 #| msgid "Thumbnail Bar"
 msgid "Thumbnails"
@@ -1526,259 +1770,15 @@ msgstr "Darika Wêneyên Biçûk"
 
 #. i18n: file: app/fullscreenconfigwidget.ui:120
 #. i18n: ectx: property (text), widget (QCheckBox, mShowThumbnailsCheckBox)
-#: rc.cpp:41
+#: rc.cpp:149
 msgid "Show thumbnails"
 msgstr "Wêneyên biçûk nîşan bide"
 
 #. i18n: file: app/fullscreenconfigwidget.ui:130
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: rc.cpp:44
+#: rc.cpp:152
 msgid "Height:"
 msgstr "Bilindahî:"
-
-#. i18n: file: app/gwenviewui.rc:47
-#. i18n: ectx: Menu (rating)
-#: rc.cpp:47
-msgid "&Rating"
-msgstr "Tê &Nirxandin"
-
-#. i18n: file: app/gwenviewui.rc:76
-#. i18n: ectx: Menu (plugins)
-#: rc.cpp:50
-msgid "&Plugins"
-msgstr "&Plugin"
-
-#. i18n: file: app/gwenviewui.rc:79
-#. i18n: ectx: Menu (settings)
-#: rc.cpp:53
-msgid "&Settings"
-msgstr "&Mîheng"
-
-#. i18n: file: app/gwenviewui.rc:92
-#. i18n: ectx: ToolBar (mainToolBar)
-#. i18n: file: part/gvpart.rc:15
-#. i18n: ectx: ToolBar (mainToolBar)
-#: rc.cpp:56 rc.cpp:289
-msgid "Main Toolbar"
-msgstr "Darikê Amûran ya Mak"
-
-#. i18n: file: app/imageviewconfigpage.ui:17
-#. i18n: ectx: property (text), widget (QLabel, label_7)
-#: rc.cpp:59
-msgid "Transparent background:"
-msgstr "Rûerdê zelalî"
-
-#. i18n: file: app/imageviewconfigpage.ui:38
-#. i18n: ectx: property (text), widget (QRadioButton, checkBoardRadioButton)
-#: rc.cpp:62
-msgid "&Check board"
-msgstr "Tabloya &Nîşankirinê"
-
-#. i18n: file: app/imageviewconfigpage.ui:71
-#. i18n: ectx: property (text), widget (QRadioButton, solidColorRadioButton)
-#: rc.cpp:65
-msgid "&Solid color:"
-msgstr "Rengê &tarî:"
-
-#. i18n: file: app/imageviewconfigpage.ui:119
-#. i18n: ectx: property (text), widget (QLabel, label_8)
-#: rc.cpp:68
-msgid "Mouse wheel behavior:"
-msgstr "Tevgerên gulovera mişkê:"
-
-#. i18n: file: app/imageviewconfigpage.ui:134
-#. i18n: ectx: property (text), widget (QRadioButton, mouseWheelScrollRadioButton)
-#: rc.cpp:71
-msgctxt "@option:radio action on mouse wheel"
-msgid "Scroll"
-msgstr "Xişkirin"
-
-#. i18n: file: app/imageviewconfigpage.ui:161
-#. i18n: ectx: property (text), widget (QRadioButton, mouseWheelBrowseRadioButton)
-#: rc.cpp:74
-msgctxt "@option:radio action on mouse wheel"
-msgid "Browse"
-msgstr "Bigere"
-
-#. i18n: file: app/imageviewconfigpage.ui:201
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_EnlargeSmallerImages)
-#. i18n: file: lib/print/printoptionspage.ui:98
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_PrintEnlargeSmallerImages)
-#: rc.cpp:77 rc.cpp:209
-msgid "Enlarge smaller images"
-msgstr "Wêneyên biçûk mezin bike"
-
-#. i18n: file: app/imageviewconfigpage.ui:239
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:80
-#, fuzzy
-#| msgid "Meta Information"
-msgid "Animations:"
-msgstr "Agahiya Meta"
-
-#. i18n: file: app/imageviewconfigpage.ui:254
-#. i18n: ectx: property (text), widget (QRadioButton, glAnimationRadioButton)
-#: rc.cpp:83
-msgid "OpenGL"
-msgstr ""
-
-#. i18n: file: app/imageviewconfigpage.ui:281
-#. i18n: ectx: property (text), widget (QRadioButton, softwareAnimationRadioButton)
-#: rc.cpp:86
-msgid "Software"
-msgstr ""
-
-#. i18n: file: app/imageviewconfigpage.ui:305
-#. i18n: ectx: property (text), widget (QRadioButton, noAnimationRadioButton)
-#: rc.cpp:89
-msgid "None"
-msgstr ""
-
-#. i18n: file: app/imageviewconfigpage.ui:327
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:92
-#, fuzzy
-#| msgid "Thumbnail Bar"
-msgid "<b>Thumbnail Bar</b>"
-msgstr "Darika Wêneyên Biçûk"
-
-#. i18n: file: app/imageviewconfigpage.ui:334
-#. i18n: ectx: property (text), widget (QLabel, label_9)
-#: rc.cpp:95
-#, fuzzy
-#| msgid "File Operations"
-msgid "Orientation:"
-msgstr "Xebatên Pelê"
-
-#. i18n: file: app/imageviewconfigpage.ui:349
-#. i18n: ectx: property (text), widget (QRadioButton, horizontalRadioButton)
-#: rc.cpp:98
-msgid "Horizontal"
-msgstr ""
-
-#. i18n: file: app/imageviewconfigpage.ui:373
-#. i18n: ectx: property (text), widget (QRadioButton, verticalRadioButton)
-#: rc.cpp:101
-msgid "Vertical"
-msgstr ""
-
-#. i18n: file: app/imageviewconfigpage.ui:395
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:104
-msgid "Row count:"
-msgstr ""
-
-#. i18n: file: app/browsemainpage.ui:88
-#. i18n: ectx: property (text), widget (Gwenview::StatusBarToolButton, mAddFilterButton)
-#: rc.cpp:107
-msgid "Add Filter"
-msgstr "Parzûn Lê Zêde Bike"
-
-#. i18n: file: app/startmainpage.ui:34
-#. i18n: ectx: property (text), widget (QLabel, mHistoryDisabledLabel)
-#: rc.cpp:110
-msgid "History has been disabled."
-msgstr ""
-
-#. i18n: file: app/startmainpage.ui:51
-#. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: rc.cpp:113
-msgid "Recent Folders"
-msgstr "Peldankên Borî"
-
-#. i18n: file: app/startmainpage.ui:65
-#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
-#: rc.cpp:116
-#, fuzzy
-#| msgid "Recent Folders"
-msgid "Recent URLs"
-msgstr "Peldankên Borî"
-
-#. i18n: file: app/startmainpage.ui:109
-#. i18n: ectx: attribute (title), widget (QWidget, placesTab)
-#: rc.cpp:119
-msgid "Places"
-msgstr "Cih"
-
-#. i18n: file: app/startmainpage.ui:132
-#. i18n: ectx: attribute (title), widget (QWidget, tagsTab)
-#: rc.cpp:122
-msgid "Tags"
-msgstr "Etîket"
-
-#. i18n: file: app/startmainpage.ui:138
-#. i18n: ectx: property (text), widget (QLabel, mTagLabel)
-#: rc.cpp:125
-#, fuzzy
-#| msgid ""
-#| "Sorry, browsing by tag is not available. Make sure Nepomuk is properly "
-#| "installed on your computer."
-msgid ""
-"Browsing by tags is not available. Make sure Nepomuk is properly installed "
-"on your computer."
-msgstr ""
-"Lêborîne, nihêrîna bi etîket re tune ye. Baş bizane ku Nepomuk di komputera "
-"te de saz kirî ye."
-
-#. i18n: file: app/semanticinfodialog.ui:13
-#. i18n: ectx: property (windowTitle), widget (QWidget, SemanticInfoDialog)
-#: rc.cpp:128
-msgid "Tag Editor"
-msgstr "Edîtorê Etîketê"
-
-#. i18n: file: app/semanticinfodialog.ui:31
-#. i18n: ectx: property (text), widget (QPushButton, mPreviousButton)
-#: rc.cpp:131
-msgid "Previous"
-msgstr "Paş"
-
-#. i18n: file: app/semanticinfodialog.ui:38
-#. i18n: ectx: property (text), widget (QPushButton, mNextButton)
-#: rc.cpp:134
-msgid "Next"
-msgstr "Pêş"
-
-#. i18n: file: app/semanticinfosidebaritem.ui:22
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:137
-msgid "Rating:"
-msgstr "Nirxandin:"
-
-#. i18n: file: app/semanticinfosidebaritem.ui:45
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:140
-msgid "Tags:"
-msgstr "Etîket:"
-
-#. i18n: file: app/semanticinfosidebaritem.ui:76
-#. i18n: ectx: property (clickMessage), widget (KTextEdit, mDescriptionTextEdit)
-#: rc.cpp:143
-#, fuzzy
-#| msgid "Description:"
-msgid "Description"
-msgstr "Daxuyanî:"
-
-#. i18n: file: app/generalconfigpage.ui:17
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:146
-#, fuzzy
-#| msgid "&View background color:"
-msgid "Background color:"
-msgstr "Rengê rûerdê &bibîne:"
-
-#. i18n: file: app/generalconfigpage.ui:82
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:149
-msgid "Videos:"
-msgstr ""
-
-#. i18n: file: app/generalconfigpage.ui:89
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ListVideos)
-#: rc.cpp:152
-#, fuzzy
-#| msgid "Show Sidebar"
-msgid "Show videos"
-msgstr "Darika-kêlekê Nîşan Bide"
 
 #. i18n: file: importer/progresspage.ui:30
 #. i18n: ectx: property (text), widget (QLabel, label)
@@ -1835,158 +1835,9 @@ msgstr "Gwenview"
 msgid "<i>Type text or click the items below to customize the format</i>"
 msgstr ""
 
-#. i18n: file: lib/crop/cropwidget.ui:29
-#. i18n: ectx: property (text), widget (QCheckBox, advancedCheckBox)
-#: rc.cpp:182
-#, fuzzy
-#| msgid "Image Settings"
-msgid "Advanced settings"
-msgstr "Mîhengên Wêneyan"
-
-#. i18n: file: lib/crop/cropwidget.ui:55
-#. i18n: ectx: property (text), widget (QLabel, label_6)
-#: rc.cpp:185
-#, fuzzy
-#| msgid "Rating:"
-msgid "Ratio:"
-msgstr "Nirxandin:"
-
-#. i18n: file: lib/crop/cropwidget.ui:84
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:188
-#, fuzzy
-#| msgid "Image Position"
-msgid "Position:"
-msgstr "Bicihbûna Wêneyan"
-
-#. i18n: file: lib/crop/cropwidget.ui:117
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:191
-#, fuzzy
-#| msgid "Size"
-msgid "Size:"
-msgstr "Mezinahî"
-
-#. i18n: file: lib/print/printoptionspage.ui:14
-#. i18n: ectx: property (windowTitle), widget (QWidget, PrintOptionsPage)
-#: rc.cpp:194
-msgid "Image Settings"
-msgstr "Mîhengên Wêneyan"
-
-#. i18n: file: lib/print/printoptionspage.ui:20
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: rc.cpp:197
-msgid "Image Position"
-msgstr "Bicihbûna Wêneyan"
-
-#. i18n: file: lib/print/printoptionspage.ui:45
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:200
-msgid "Scaling"
-msgstr "Pîvang"
-
-#. i18n: file: lib/print/printoptionspage.ui:51
-#. i18n: ectx: property (text), widget (QRadioButton, mNoScale)
-#: rc.cpp:203
-msgid "&No scaling"
-msgstr "&Bê pîvang"
-
-#. i18n: file: lib/print/printoptionspage.ui:61
-#. i18n: ectx: property (text), widget (QRadioButton, mScaleToPage)
-#: rc.cpp:206
-msgid "&Fit image to page"
-msgstr "Wêneyê &bicihbike rûpelê"
-
-#. i18n: file: lib/print/printoptionspage.ui:123
-#. i18n: ectx: property (text), widget (QRadioButton, mScaleTo)
-#: rc.cpp:212
-msgid "&Scale to:"
-msgstr "&Pîvang bike li:"
-
-#. i18n: file: lib/print/printoptionspage.ui:158
-#. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#: rc.cpp:215
-msgctxt "Dimension separator, as in: '15 x 10 centimeters'"
-msgid "x"
-msgstr "x"
-
-#. i18n: file: lib/print/printoptionspage.ui:185
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_PrintUnit)
-#: rc.cpp:218
-msgid "Millimeters"
-msgstr "Mîlîmetre"
-
-#. i18n: file: lib/print/printoptionspage.ui:190
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_PrintUnit)
-#: rc.cpp:221
-msgid "Centimeters"
-msgstr "Santîmetre"
-
-#. i18n: file: lib/print/printoptionspage.ui:195
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_PrintUnit)
-#: rc.cpp:224
-msgid "Inches"
-msgstr "Înç"
-
-#. i18n: file: lib/print/printoptionspage.ui:224
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_PrintKeepRatio)
-#: rc.cpp:227
-msgid "Keep ratio"
-msgstr "Rêje yê bihêle"
-
-#. i18n: file: lib/redeyereduction/redeyereductionwidget.ui:24
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:230
-msgid "Size"
-msgstr "Mezinahî"
-
-#. i18n: file: lib/redeyereduction/redeyereductionwidget.ui:63
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:233
-#, fuzzy
-#| msgid "Click on the red eye you want to fix."
-msgid "Click on the red eye you want to fix"
-msgstr "Çavê sor yê tu dixwazî serast bikî bitikîne."
-
-#. i18n: file: lib/resize/resizeimagewidget.ui:14
-#. i18n: ectx: property (windowTitle), widget (QWidget, ResizeImageWidget)
-#: rc.cpp:236
-msgid "Image Resizing"
-msgstr "Guherandina Mezinahiya Wêne"
-
-#. i18n: file: lib/resize/resizeimagewidget.ui:20
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:239
-#, fuzzy
-#| msgid "Enter the new size of the image:"
-msgid "Enter the new size for this image."
-msgstr "Mezinahiya wêneyê ya nû têkevê:"
-
-#. i18n: file: lib/resize/resizeimagewidget.ui:32
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:242
-msgid "Current size:"
-msgstr ""
-
-#. i18n: file: lib/resize/resizeimagewidget.ui:88
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:245
-#, fuzzy
-#| msgid "Size"
-msgid "New Size:"
-msgstr "Mezinahî"
-
-#. i18n: file: lib/resize/resizeimagewidget.ui:135
-#. i18n: ectx: property (text), widget (QCheckBox, mKeepAspectCheckBox)
-#: rc.cpp:248
-#, fuzzy
-#| msgid "Keep ratio"
-msgid "Keep aspect ratio"
-msgstr "Rêje yê bihêle"
-
 #. i18n: file: lib/gwenviewconfig.kcfg:31
 #. i18n: ectx: whatsthis, entry (PercentageOfMemoryUsageWarning), group (General)
-#: rc.cpp:251
+#: rc.cpp:179
 msgid ""
 "The percentage of memory used by Gwenview before it\n"
 "            warns the user and suggest saving changes."
@@ -1994,7 +1845,7 @@ msgstr ""
 
 #. i18n: file: lib/gwenviewconfig.kcfg:39
 #. i18n: ectx: whatsthis, entry (BlackListedExtensions), group (General)
-#: rc.cpp:255
+#: rc.cpp:183
 msgid ""
 "A list of filename extensions Gwenview should not try to\n"
 "            load. This is useful to exclude raw files which are recognized "
@@ -2006,7 +1857,7 @@ msgstr ""
 
 #. i18n: file: lib/gwenviewconfig.kcfg:136
 #. i18n: ectx: whatsthis, entry (LockZoom), group (ImageView)
-#: rc.cpp:261
+#: rc.cpp:189
 msgid ""
 "Defines what happens when going to image B after having zoomed an area of "
 "image A.\n"
@@ -2016,13 +1867,13 @@ msgstr ""
 
 #. i18n: file: lib/gwenviewconfig.kcfg:213
 #. i18n: ectx: label, entry (random), group (slide show)
-#: rc.cpp:265
+#: rc.cpp:193
 msgid "Display slide show images in random order"
 msgstr ""
 
 #. i18n: file: lib/gwenviewconfig.kcfg:217
 #. i18n: ectx: label, entry (fullscreen), group (slide show)
-#: rc.cpp:268
+#: rc.cpp:196
 #, fuzzy
 #| msgid "Start in fullscreen mode"
 msgid "Show slideshow in fullscreen mode"
@@ -2030,13 +1881,13 @@ msgstr "Di moda dîmender tijî de bide destpêkirin"
 
 #. i18n: file: lib/gwenviewconfig.kcfg:221
 #. i18n: ectx: label, entry (loop), group (slide show)
-#: rc.cpp:271
+#: rc.cpp:199
 msgid "Loop on images"
 msgstr ""
 
 #. i18n: file: lib/gwenviewconfig.kcfg:225
 #. i18n: ectx: label, entry (stopAtEnd), group (slide show)
-#: rc.cpp:274
+#: rc.cpp:202
 #, fuzzy
 #| msgid "A starting file or folder"
 msgid "Stop at last image of folder"
@@ -2044,9 +1895,158 @@ msgstr "Pel an jî peldank tê destpêkirin"
 
 #. i18n: file: lib/gwenviewconfig.kcfg:229
 #. i18n: ectx: label, entry (interval), group (slide show)
-#: rc.cpp:277
+#: rc.cpp:205
 msgid "Interval between images (in seconds)"
 msgstr ""
+
+#. i18n: file: lib/crop/cropwidget.ui:29
+#. i18n: ectx: property (text), widget (QCheckBox, advancedCheckBox)
+#: rc.cpp:214
+#, fuzzy
+#| msgid "Image Settings"
+msgid "Advanced settings"
+msgstr "Mîhengên Wêneyan"
+
+#. i18n: file: lib/crop/cropwidget.ui:55
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: rc.cpp:217
+#, fuzzy
+#| msgid "Rating:"
+msgid "Ratio:"
+msgstr "Nirxandin:"
+
+#. i18n: file: lib/crop/cropwidget.ui:84
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:220
+#, fuzzy
+#| msgid "Image Position"
+msgid "Position:"
+msgstr "Bicihbûna Wêneyan"
+
+#. i18n: file: lib/crop/cropwidget.ui:117
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:223
+#, fuzzy
+#| msgid "Size"
+msgid "Size:"
+msgstr "Mezinahî"
+
+#. i18n: file: lib/print/printoptionspage.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, PrintOptionsPage)
+#: rc.cpp:226
+msgid "Image Settings"
+msgstr "Mîhengên Wêneyan"
+
+#. i18n: file: lib/print/printoptionspage.ui:20
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: rc.cpp:229
+msgid "Image Position"
+msgstr "Bicihbûna Wêneyan"
+
+#. i18n: file: lib/print/printoptionspage.ui:45
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:232
+msgid "Scaling"
+msgstr "Pîvang"
+
+#. i18n: file: lib/print/printoptionspage.ui:51
+#. i18n: ectx: property (text), widget (QRadioButton, mNoScale)
+#: rc.cpp:235
+msgid "&No scaling"
+msgstr "&Bê pîvang"
+
+#. i18n: file: lib/print/printoptionspage.ui:61
+#. i18n: ectx: property (text), widget (QRadioButton, mScaleToPage)
+#: rc.cpp:238
+msgid "&Fit image to page"
+msgstr "Wêneyê &bicihbike rûpelê"
+
+#. i18n: file: lib/print/printoptionspage.ui:123
+#. i18n: ectx: property (text), widget (QRadioButton, mScaleTo)
+#: rc.cpp:244
+msgid "&Scale to:"
+msgstr "&Pîvang bike li:"
+
+#. i18n: file: lib/print/printoptionspage.ui:158
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: rc.cpp:247
+msgctxt "Dimension separator, as in: '15 x 10 centimeters'"
+msgid "x"
+msgstr "x"
+
+#. i18n: file: lib/print/printoptionspage.ui:185
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_PrintUnit)
+#: rc.cpp:250
+msgid "Millimeters"
+msgstr "Mîlîmetre"
+
+#. i18n: file: lib/print/printoptionspage.ui:190
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_PrintUnit)
+#: rc.cpp:253
+msgid "Centimeters"
+msgstr "Santîmetre"
+
+#. i18n: file: lib/print/printoptionspage.ui:195
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_PrintUnit)
+#: rc.cpp:256
+msgid "Inches"
+msgstr "Înç"
+
+#. i18n: file: lib/print/printoptionspage.ui:224
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_PrintKeepRatio)
+#: rc.cpp:259
+msgid "Keep ratio"
+msgstr "Rêje yê bihêle"
+
+#. i18n: file: lib/redeyereduction/redeyereductionwidget.ui:24
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:262
+msgid "Size"
+msgstr "Mezinahî"
+
+#. i18n: file: lib/redeyereduction/redeyereductionwidget.ui:63
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:265
+#, fuzzy
+#| msgid "Click on the red eye you want to fix."
+msgid "Click on the red eye you want to fix"
+msgstr "Çavê sor yê tu dixwazî serast bikî bitikîne."
+
+#. i18n: file: lib/resize/resizeimagewidget.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, ResizeImageWidget)
+#: rc.cpp:268
+msgid "Image Resizing"
+msgstr "Guherandina Mezinahiya Wêne"
+
+#. i18n: file: lib/resize/resizeimagewidget.ui:20
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:271
+#, fuzzy
+#| msgid "Enter the new size of the image:"
+msgid "Enter the new size for this image."
+msgstr "Mezinahiya wêneyê ya nû têkevê:"
+
+#. i18n: file: lib/resize/resizeimagewidget.ui:32
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:274
+msgid "Current size:"
+msgstr ""
+
+#. i18n: file: lib/resize/resizeimagewidget.ui:88
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:277
+#, fuzzy
+#| msgid "Size"
+msgid "New Size:"
+msgstr "Mezinahî"
+
+#. i18n: file: lib/resize/resizeimagewidget.ui:135
+#. i18n: ectx: property (text), widget (QCheckBox, mKeepAspectCheckBox)
+#: rc.cpp:280
+#, fuzzy
+#| msgid "Keep ratio"
+msgid "Keep aspect ratio"
+msgstr "Rêje yê bihêle"
 
 #. i18n: file: part/gvpart.rc:4
 #. i18n: ectx: Menu (file)
