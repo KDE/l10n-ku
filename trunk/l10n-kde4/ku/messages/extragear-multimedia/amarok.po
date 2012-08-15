@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-14 05:14+0200\n"
+"POT-Creation-Date: 2012-08-15 03:58+0200\n"
 "PO-Revision-Date: 2009-02-21 06:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -2313,7 +2313,7 @@ msgstr ""
 #: dialogs/FilenameLayoutDialog.cpp:62 dialogs/FilenameLayoutDialog.cpp:435
 #: dialogs/transferdialog.cpp:88 musicbrainz/MusicBrainzTags.cpp:359
 #: playlist/PlaylistModel.cpp:893 services/jamendo/JamendoInfoParser.cpp:51
-#: services/lastfm/LastFmService.cpp:507
+#: services/lastfm/LastFmService.cpp:490
 #: services/magnatune/MagnatuneStore.cpp:218
 #: widgets/SmartPlaylistEditor.cpp:183 widgets/SmartPlaylistEditor.cpp:197
 msgid "Artist"
@@ -2573,7 +2573,7 @@ msgstr ""
 
 #. i18n: file: context/applets/spectrumanalyzer/spectrumAnalyzerSettings.ui:137
 #. i18n: ectx: property (shortcut), widget (QCheckBox, cutCheckBox)
-#: rc.cpp:1176 services/lastfm/meta/LastFmMeta.cpp:109
+#: rc.cpp:1176 services/lastfm/meta/LastFmMeta.cpp:96
 msgid "Ctrl+S"
 msgstr "Ctrl+S"
 
@@ -5138,7 +5138,7 @@ msgstr "<a href=\"http://www.last.fm:80/signup.php\">Bibe endamê last.fm</a>"
 #. i18n: ectx: property (text), widget (QPushButton, testLogin)
 #. i18n: file: services/gpodder/GpodderConfigWidget.ui:91
 #. i18n: ectx: property (text), widget (QPushButton, testLogin)
-#: rc.cpp:2425 rc.cpp:2612 services/lastfm/LastFmServiceSettings.cpp:220
+#: rc.cpp:2425 rc.cpp:2612 services/lastfm/LastFmServiceSettings.cpp:216
 #: services/gpodder/GpodderServiceSettings.cpp:231
 msgid "&Test Login"
 msgstr "Têketina &Ceribandinê"
@@ -5489,7 +5489,7 @@ msgstr ""
 
 #. i18n: file: services/magnatune/MagnatuneSignupDialogBase.ui:45
 #. i18n: ectx: property (text), widget (QPushButton, closeButton)
-#: rc.cpp:2550 context/applets/albums/Albums.cpp:342
+#: rc.cpp:2550 context/applets/albums/Albums.cpp:343
 #: context/applets/lyrics/LyricsApplet.cpp:473
 msgid "Close"
 msgstr "Girtin"
@@ -6973,36 +6973,6 @@ msgstr "Bijareya Nû"
 msgid "Start typing to progressively filter the bookmarks"
 msgstr ""
 
-#: amarokurls/BookmarkModel.cpp:86
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:411
-#, fuzzy
-#| msgid "Group By"
-msgid "Group"
-msgstr "Kom Alî yê"
-
-#: amarokurls/BookmarkModel.cpp:266
-#: browsers/playlistbrowser/PodcastModel.cpp:333
-#: playlist/PlaylistModel.cpp:904
-msgid "Type"
-msgstr "Cure"
-
-#: amarokurls/BookmarkModel.cpp:522
-msgid "New Group"
-msgstr "Koma Nû"
-
-#: amarokurls/BookmarkModel.cpp:548
-#: context/applets/similarartists/ArtistWidget.cpp:442
-#: context/applets/upcomingevents/UpcomingEventsMapWidget.cpp:162
-#: context/applets/upcomingevents/UpcomingEventsMapWidget.cpp:163
-#: context/applets/upcomingevents/UpcomingEventsMapWidget.cpp:165
-#: context/applets/upcomingevents/UpcomingEventsMapWidget.cpp:166
-#: context/applets/upcomingevents/UpcomingEventsWidget.cpp:205
-#: context/applets/upcomingevents/UpcomingEventsWidget.cpp:229
-#, fuzzy
-#| msgid "None"
-msgid "none"
-msgstr "Ne yek jî"
-
 #: amarokurls/ContextUrlGenerator.cpp:56
 #, fuzzy, kde-format
 #| msgid "Center"
@@ -7104,6 +7074,36 @@ msgstr "Stranên Hilbijartî"
 #: core-impl/collections/audiocd/AudioCdCollection.cpp:450 MainWindow.cpp:1177
 msgid "Unknown"
 msgstr "Nenas"
+
+#: amarokurls/BookmarkModel.cpp:86
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:411
+#, fuzzy
+#| msgid "Group By"
+msgid "Group"
+msgstr "Kom Alî yê"
+
+#: amarokurls/BookmarkModel.cpp:266
+#: browsers/playlistbrowser/PodcastModel.cpp:333
+#: playlist/PlaylistModel.cpp:904
+msgid "Type"
+msgstr "Cure"
+
+#: amarokurls/BookmarkModel.cpp:522
+msgid "New Group"
+msgstr "Koma Nû"
+
+#: amarokurls/BookmarkModel.cpp:548
+#: context/applets/similarartists/ArtistWidget.cpp:442
+#: context/applets/upcomingevents/UpcomingEventsMapWidget.cpp:162
+#: context/applets/upcomingevents/UpcomingEventsMapWidget.cpp:163
+#: context/applets/upcomingevents/UpcomingEventsMapWidget.cpp:165
+#: context/applets/upcomingevents/UpcomingEventsMapWidget.cpp:166
+#: context/applets/upcomingevents/UpcomingEventsWidget.cpp:205
+#: context/applets/upcomingevents/UpcomingEventsWidget.cpp:229
+#, fuzzy
+#| msgid "None"
+msgid "none"
+msgstr "Ne yek jî"
 
 #: browsers/CollectionTreeItem.cpp:140
 #, fuzzy
@@ -7361,7 +7361,7 @@ msgstr "Ji Ber Bigire Berhevokê"
 #: browsers/playlistbrowser/PlaylistBrowserModel.cpp:49
 #: browsers/CollectionTreeView.cpp:951
 #: context/applets/albums/AlbumsView.cpp:240
-#: services/lastfm/LastFmTreeView.cpp:111
+#: services/lastfm/LastFmTreeView.cpp:96
 #, fuzzy
 #| msgid "Add to playlist"
 msgid "&Add to Playlist"
@@ -7371,7 +7371,7 @@ msgstr "lîsteya lêdanê"
 #: browsers/playlistbrowser/PlaylistBrowserModel.cpp:60
 #: browsers/CollectionTreeView.cpp:965
 #: context/applets/albums/AlbumsView.cpp:241
-#: services/lastfm/LastFmTreeView.cpp:120
+#: services/lastfm/LastFmTreeView.cpp:105
 #, fuzzy
 #| msgid "Repeat Playlist"
 msgctxt "Replace the currently loaded tracks with these"
@@ -7902,7 +7902,7 @@ msgstr ""
 msgid "Delete Tracks"
 msgstr "Stranan &Jê Bibe"
 
-#: browsers/CollectionTreeView.cpp:653 services/lastfm/LastFmTreeView.cpp:201
+#: browsers/CollectionTreeView.cpp:653 services/lastfm/LastFmTreeView.cpp:186
 msgid "More..."
 msgstr "Zêdetir..."
 
@@ -8105,7 +8105,7 @@ msgstr "&Rêz bike"
 msgid "Recently Added Albums"
 msgstr "Albumên herî dawî lê hatine zêdekirin "
 
-#: context/applets/albums/Albums.cpp:81 context/applets/albums/Albums.cpp:326
+#: context/applets/albums/Albums.cpp:81 context/applets/albums/Albums.cpp:327
 #, fuzzy
 #| msgid "Delete Files"
 msgid "Filter Albums"
@@ -8117,22 +8117,22 @@ msgstr "Pelan Jê Bibe"
 msgid "Albums"
 msgstr "Album"
 
-#: context/applets/albums/Albums.cpp:221
+#: context/applets/albums/Albums.cpp:222
 #, kde-format
 msgid "Disc %1"
 msgstr "Dîska %1"
 
-#: context/applets/albums/Albums.cpp:254
+#: context/applets/albums/Albums.cpp:255
 msgid "Right align track lengths"
 msgstr ""
 
-#: context/applets/albums/Albums.cpp:259
+#: context/applets/albums/Albums.cpp:260
 #, fuzzy
 #| msgid "Recently added albums"
 msgid "Number of recently added albums:"
 msgstr "Albumên herî dawî lê hatine zêdekirin "
 
-#: context/applets/albums/Albums.cpp:265
+#: context/applets/albums/Albums.cpp:266
 msgid "Albums Applet Settings"
 msgstr ""
 
@@ -9399,7 +9399,7 @@ msgid "Scanning music"
 msgstr "Muzîkê dinihêre"
 
 #: core-impl/collections/db/sql/SqlMeta.cpp:274
-#: covermanager/CoverManager.cpp:842 services/lastfm/meta/LastFmMeta.cpp:134
+#: covermanager/CoverManager.cpp:842 services/lastfm/meta/LastFmMeta.cpp:121
 #, kde-format
 msgid "%1 - %2"
 msgstr "%1 - %2"
@@ -11636,7 +11636,7 @@ msgid "Enter Custom Search"
 msgstr "Rûgirê Albumê yê Taybet Ava Bike"
 
 #: covermanager/CoverFoundDialog.cpp:128
-#: services/lastfm/LastFmServiceCollection.cpp:141
+#: services/lastfm/LastFmServiceCollection.cpp:132
 #, fuzzy
 #| msgid "last.fm"
 msgid "Last.fm"
@@ -14873,24 +14873,6 @@ msgstr "Cîhaz serfiraz hate girêdan"
 msgid "Connection failure"
 msgstr "Girêdan"
 
-#: services/ampache/LastfmInfoParser.cpp:67
-#, fuzzy
-#| msgid "There were no lyrics found for this track"
-msgid "<p>No information found for this track.</p>"
-msgstr "Ji bo vê stranê tu gotin nehat dîtin"
-
-#: services/ampache/LastfmInfoParser.cpp:118
-#, fuzzy
-#| msgid "There were no lyrics found for this track"
-msgid "<p>No information found for this album.</p>"
-msgstr "Ji bo vê stranê tu gotin nehat dîtin"
-
-#: services/ampache/LastfmInfoParser.cpp:171
-#, fuzzy
-#| msgid "There were no lyrics found for this track"
-msgid "<p>No information found for this artist.</p>"
-msgstr "Ji bo vê stranê tu gotin nehat dîtin"
-
 #: services/ampache/AmpacheAccountLogin.cpp:133
 msgid "Enter the server name and a password"
 msgstr "Navê pêşkêşkerê û nasnavê têkevê"
@@ -14917,6 +14899,24 @@ msgid ""
 "Use Amarok as a seamless frontend to your Ampache server. This lets you "
 "browse and play all the Ampache contents from within Amarok."
 msgstr ""
+
+#: services/ampache/LastfmInfoParser.cpp:67
+#, fuzzy
+#| msgid "There were no lyrics found for this track"
+msgid "<p>No information found for this track.</p>"
+msgstr "Ji bo vê stranê tu gotin nehat dîtin"
+
+#: services/ampache/LastfmInfoParser.cpp:119
+#, fuzzy
+#| msgid "There were no lyrics found for this track"
+msgid "<p>No information found for this album.</p>"
+msgstr "Ji bo vê stranê tu gotin nehat dîtin"
+
+#: services/ampache/LastfmInfoParser.cpp:173
+#, fuzzy
+#| msgid "There were no lyrics found for this track"
+msgid "<p>No information found for this artist.</p>"
+msgstr "Ji bo vê stranê tu gotin nehat dîtin"
 
 #: services/jamendo/JamendoInfoParser.cpp:46
 #: services/jamendo/JamendoInfoParser.cpp:77
@@ -14997,82 +14997,161 @@ msgstr "Bingeha Danê ya Jamendo.com Tê Daxistin"
 msgid "Updating the local Jamendo database."
 msgstr ""
 
-#: services/lastfm/LoveTrackAction.cpp:25
-#: services/lastfm/LastFmService.cpp:284
-msgid "Last.fm: Love"
-msgstr "Last.fm: Love"
-
-#: services/lastfm/biases/LastFmBias.cpp:48
+#: services/lastfm/biases/LastFmBias.cpp:39
 #, fuzzy
 #| msgid "Similar Artists to \"%1\""
 msgctxt "Name of the \"Last.fm\" similar bias"
 msgid "Last.fm similar"
 msgstr "Hunermendên wekî \"%1\""
 
-#: services/lastfm/biases/LastFmBias.cpp:57
+#: services/lastfm/biases/LastFmBias.cpp:48
 msgctxt "Description of the \"Last.fm\" bias"
 msgid ""
 "The \"Last.fm\" similar bias looks up tracks on Last.fm and only adds "
 "similar tracks."
 msgstr ""
 
-#: services/lastfm/biases/LastFmBias.cpp:132
+#: services/lastfm/biases/LastFmBias.cpp:123
 msgctxt "Last.fm bias representation"
 msgid "Similar to the previous track (as reported by Last.fm)"
 msgstr ""
 
-#: services/lastfm/biases/LastFmBias.cpp:135
+#: services/lastfm/biases/LastFmBias.cpp:126
 msgctxt "Last.fm bias representation"
 msgid "Similar to the previous artist (as reported by Last.fm)"
 msgstr ""
 
-#: services/lastfm/biases/LastFmBias.cpp:147
+#: services/lastfm/biases/LastFmBias.cpp:138
 msgid "Last.fm thinks the track is similar to"
 msgstr ""
 
-#: services/lastfm/biases/LastFmBias.cpp:150
+#: services/lastfm/biases/LastFmBias.cpp:141
 #, fuzzy
 #| msgid "Various Artists"
 msgid "the previous artist"
 msgstr "Hunermendên cur bi cur"
 
-#: services/lastfm/biases/LastFmBias.cpp:152
+#: services/lastfm/biases/LastFmBias.cpp:143
 #, fuzzy
 #| msgid "Previous Track"
 msgid "the previous track"
 msgstr "Strana Berê"
 
-#: services/lastfm/biases/WeeklyTopBias.cpp:50
+#: services/lastfm/biases/WeeklyTopBias.cpp:43
 #, fuzzy
 #| msgid "My Top Artists"
 msgctxt "Name of the \"WeeklyTop\" bias"
 msgid "Last.fm weekly top artist"
 msgstr "Hunermendên Ez Jê Hez Dikim"
 
-#: services/lastfm/biases/WeeklyTopBias.cpp:59
+#: services/lastfm/biases/WeeklyTopBias.cpp:52
 msgctxt "Description of the \"WeeklyTop\" bias"
 msgid ""
 "The \"WeeklyTop\" bias adds tracks that are in the weekly top chart of Last."
 "fm."
 msgstr ""
 
-#: services/lastfm/biases/WeeklyTopBias.cpp:133
+#: services/lastfm/biases/WeeklyTopBias.cpp:126
 #, kde-format
 msgctxt "WeeklyTopBias bias representation"
 msgid "Tracks from the Last.fm top lists from %1 to %2"
 msgstr ""
 
-#: services/lastfm/biases/WeeklyTopBias.cpp:144
+#: services/lastfm/biases/WeeklyTopBias.cpp:137
 msgctxt "in WeeklyTopBias. Label for the date widget"
 msgid "from:"
 msgstr ""
 
-#: services/lastfm/biases/WeeklyTopBias.cpp:158
+#: services/lastfm/biases/WeeklyTopBias.cpp:151
 #, fuzzy
 #| msgid "Stop"
 msgctxt "in WeeklyTopBias. Label for the date widget"
 msgid "to:"
 msgstr "Rawestîne"
+
+#: services/lastfm/meta/LastFmMeta.cpp:89
+msgid "Last.fm: &Ban"
+msgstr "Last.fm: &Asteng bike"
+
+#: services/lastfm/meta/LastFmMeta.cpp:90
+msgid "Ctrl+B"
+msgstr "Ctrl+B"
+
+#: services/lastfm/meta/LastFmMeta.cpp:91
+msgid "Ban this track"
+msgstr "Vê stranê asteng bike"
+
+#: services/lastfm/meta/LastFmMeta.cpp:95
+msgid "Last.fm: &Skip"
+msgstr "Last.fm: &Derbas be"
+
+#: services/lastfm/meta/LastFmMeta.cpp:97
+msgid "Skip this track"
+msgstr "Vê stranê derbas be"
+
+#: services/lastfm/meta/LastFmMeta.cpp:135
+#: services/lastfm/meta/LastFmMeta.cpp:423
+msgid "Track Radio"
+msgstr "Strana Radyo"
+
+#: services/lastfm/meta/LastFmMeta.cpp:365
+#, kde-format
+msgid "Global Tag Radio: \"%1\""
+msgstr "Radyo ya bi Etîketa Giştî: \"%1\""
+
+#: services/lastfm/meta/LastFmMeta.cpp:371
+#, kde-format
+msgid "User Tag Radio: \"%1\""
+msgstr "Radyo ya bi Etîketa bikarhêner: \"%1\""
+
+#: services/lastfm/meta/LastFmMeta.cpp:379
+#, kde-format
+msgid "Similar Artists to \"%1\""
+msgstr "Hunermendên wekî \"%1\""
+
+#: services/lastfm/meta/LastFmMeta.cpp:383
+#, kde-format
+msgid "Artist Fan Radio: \"%1\""
+msgstr "Radyo ya Hezkerên Hunermendê: \"%1\""
+
+#: services/lastfm/meta/LastFmMeta.cpp:392
+#, kde-format
+msgid "%1's Neighbor Radio"
+msgstr "Radyo ya Cîran %1"
+
+#: services/lastfm/meta/LastFmMeta.cpp:396
+#, kde-format
+msgid "%1's Personal Radio"
+msgstr "Radyo ya %1 ya Şexsî"
+
+#: services/lastfm/meta/LastFmMeta.cpp:400
+#, fuzzy, kde-format
+#| msgid "%1's Loved Radio"
+msgid "%1's Mix Radio"
+msgstr "Radyo ya %1 jê Hez Dike"
+
+#: services/lastfm/meta/LastFmMeta.cpp:404
+#, kde-format
+msgid "%1's Recommended Radio"
+msgstr "Radyo ya %1 salixdayî"
+
+#: services/lastfm/meta/LastFmMeta.cpp:408
+#, kde-format
+msgid "%1's Recommended Radio (Popularity %2)"
+msgstr "Radyo ya %1 Salix Dide (Nasîn %2)"
+
+#: services/lastfm/meta/LastFmMeta.cpp:415
+#, kde-format
+msgid "Group Radio: %1"
+msgstr "Koma Radyo: %1"
+
+#: services/lastfm/meta/LastFmMeta.cpp:427
+msgid "Artist Radio"
+msgstr "Radyo ya Hunermendê"
+
+#: services/lastfm/meta/LastFmMeta.cpp:540
+msgid "Last.fm is cool..."
+msgstr "Last.fm xweşik e..."
 
 #: services/lastfm/meta/MultiPlayableCapabilityImpl_p.h:111
 msgid ""
@@ -15084,282 +15163,9 @@ msgstr ""
 msgid "Error starting track from Last.fm radio"
 msgstr ""
 
-#: services/lastfm/meta/LastFmMeta.cpp:102
-msgid "Last.fm: &Ban"
-msgstr "Last.fm: &Asteng bike"
-
-#: services/lastfm/meta/LastFmMeta.cpp:103
-msgid "Ctrl+B"
-msgstr "Ctrl+B"
-
-#: services/lastfm/meta/LastFmMeta.cpp:104
-msgid "Ban this track"
-msgstr "Vê stranê asteng bike"
-
-#: services/lastfm/meta/LastFmMeta.cpp:108
-msgid "Last.fm: &Skip"
-msgstr "Last.fm: &Derbas be"
-
-#: services/lastfm/meta/LastFmMeta.cpp:110
-msgid "Skip this track"
-msgstr "Vê stranê derbas be"
-
-#: services/lastfm/meta/LastFmMeta.cpp:148
-#: services/lastfm/meta/LastFmMeta.cpp:436
-msgid "Track Radio"
-msgstr "Strana Radyo"
-
-#: services/lastfm/meta/LastFmMeta.cpp:378
-#, kde-format
-msgid "Global Tag Radio: \"%1\""
-msgstr "Radyo ya bi Etîketa Giştî: \"%1\""
-
-#: services/lastfm/meta/LastFmMeta.cpp:384
-#, kde-format
-msgid "User Tag Radio: \"%1\""
-msgstr "Radyo ya bi Etîketa bikarhêner: \"%1\""
-
-#: services/lastfm/meta/LastFmMeta.cpp:392
-#, kde-format
-msgid "Similar Artists to \"%1\""
-msgstr "Hunermendên wekî \"%1\""
-
-#: services/lastfm/meta/LastFmMeta.cpp:396
-#, kde-format
-msgid "Artist Fan Radio: \"%1\""
-msgstr "Radyo ya Hezkerên Hunermendê: \"%1\""
-
-#: services/lastfm/meta/LastFmMeta.cpp:405
-#, kde-format
-msgid "%1's Neighbor Radio"
-msgstr "Radyo ya Cîran %1"
-
-#: services/lastfm/meta/LastFmMeta.cpp:409
-#, kde-format
-msgid "%1's Personal Radio"
-msgstr "Radyo ya %1 ya Şexsî"
-
-#: services/lastfm/meta/LastFmMeta.cpp:413
-#, fuzzy, kde-format
-#| msgid "%1's Loved Radio"
-msgid "%1's Mix Radio"
-msgstr "Radyo ya %1 jê Hez Dike"
-
-#: services/lastfm/meta/LastFmMeta.cpp:417
-#, kde-format
-msgid "%1's Recommended Radio"
-msgstr "Radyo ya %1 salixdayî"
-
-#: services/lastfm/meta/LastFmMeta.cpp:421
-#, kde-format
-msgid "%1's Recommended Radio (Popularity %2)"
-msgstr "Radyo ya %1 Salix Dide (Nasîn %2)"
-
-#: services/lastfm/meta/LastFmMeta.cpp:428
-#, kde-format
-msgid "Group Radio: %1"
-msgstr "Koma Radyo: %1"
-
-#: services/lastfm/meta/LastFmMeta.cpp:440
-msgid "Artist Radio"
-msgstr "Radyo ya Hunermendê"
-
-#: services/lastfm/meta/LastFmMeta.cpp:553
-msgid "Last.fm is cool..."
-msgstr "Last.fm xweşik e..."
-
-#: services/lastfm/LastFmServiceSettings.cpp:100
-#: services/gpodder/GpodderServiceSettings.cpp:89
-msgid "Testing..."
-msgstr "Tê ceribandin..."
-
-#: services/lastfm/LastFmServiceSettings.cpp:138
-#, fuzzy
-#| msgid "Failed"
-msgctxt "The operation was rejected by the server"
-msgid "Failed"
-msgstr "Têk Çû"
-
-#: services/lastfm/LastFmServiceSettings.cpp:143
-#: services/gpodder/GpodderServiceSettings.cpp:108
-msgctxt "The operation completed as expected"
-msgid "Success"
-msgstr "Serketî "
-
-#: services/lastfm/LastFmServiceSettings.cpp:151
-#: services/gpodder/GpodderServiceSettings.cpp:162
-msgid ""
-"Either the username or the password is incorrect, please correct and try "
-"again"
-msgstr ""
-
-#: services/lastfm/LastFmServiceSettings.cpp:151
-#: services/lastfm/LastFmServiceSettings.cpp:176
-#: services/gpodder/GpodderServiceSettings.cpp:163
-#: services/gpodder/GpodderServiceSettings.cpp:172
-#: services/gpodder/GpodderServiceSettings.cpp:186
-msgid "Failed"
-msgstr "Têk Çû"
-
-#: services/lastfm/LastFmServiceSettings.cpp:152
-#: services/lastfm/LastFmServiceSettings.cpp:177
-#: services/gpodder/GpodderServiceSettings.cpp:165
-#: services/gpodder/GpodderServiceSettings.cpp:174
-msgid "Test Login"
-msgstr "Têketina Ceribandinê"
-
-#: services/lastfm/LastFmServiceSettings.cpp:176
-#, fuzzy
-#| msgid "Unable to retrieve Wikipedia information: %1"
-msgid "Unable to connect to Last.fm service."
-msgstr "Nekarî agahiyan ji Wikipedia bîne: %1"
-
-#: services/lastfm/LastFmServiceCollection.cpp:42
-#, kde-format
-msgid "%1's Streams"
-msgstr "Darêja %1"
-
-#: services/lastfm/LastFmServiceCollection.cpp:46
-msgid "Global Tags"
-msgstr "Etîketên Giştî"
-
-#: services/lastfm/LastFmServiceCollection.cpp:50
-msgid "Neighbors' Loved Radio"
-msgstr "Radyo yên Cîran Jê Hez Dikin"
-
-#: services/lastfm/LastFmServiceCollection.cpp:54
-msgid "Neighbors' Personal Radio"
-msgstr "Radyo yên Cîranan yê Şexsî"
-
-#: services/lastfm/LastFmServiceCollection.cpp:58
-msgid "Friends' Loved Radio"
-msgstr "Radyo yên Heval Jê Hez Dikin"
-
-#: services/lastfm/LastFmServiceCollection.cpp:62
-msgid "Friends' Personal Radio"
-msgstr "Radyo yên Hevalan yê Şexsî"
-
-#: services/lastfm/SimilarArtistsAction.cpp:26
+#: services/lastfm/SimilarArtistsAction.cpp:24
 msgid "Play Similar Artists from Last.fm"
 msgstr ""
-
-#: services/lastfm/LastFmService.cpp:195
-msgid "Last.fm: The social music revolution"
-msgstr ""
-
-#: services/lastfm/LastFmService.cpp:197
-msgid ""
-"Last.fm is a popular online service that provides personal radio stations "
-"and music recommendations. A personal listening station is tailored based on "
-"your listening habits and provides you with recommendations for new music. "
-"It is also possible to play stations with music that is similar to a "
-"particular artist as well as listen to streams from people you have added as "
-"friends or that Last.fm considers your musical \"neighbors\""
-msgstr ""
-
-#: services/lastfm/LastFmService.cpp:286
-msgid "Ctrl+L"
-msgstr "Ctrl+L"
-
-#: services/lastfm/LastFmService.cpp:339
-msgctxt "Last.fm: errorMessage"
-msgid "Either the username was not recognized, or the password was incorrect."
-msgstr ""
-
-#: services/lastfm/LastFmService.cpp:343
-msgctxt "Last.fm: errorMessage"
-msgid ""
-"There was a problem communicating with the Last.fm services. Please try "
-"again later."
-msgstr ""
-
-#: services/lastfm/LastFmService.cpp:431
-msgid "Enter an artist name"
-msgstr "Navê hunermendê binivîse"
-
-#: services/lastfm/LastFmService.cpp:434
-msgid "Enter a tag"
-msgstr "Navê etîketê binivîse"
-
-#: services/lastfm/LastFmService.cpp:437
-#, fuzzy
-#| msgid "Enter a last.fm user name"
-msgid "Enter a Last.fm user name"
-msgstr "Navê bikarhênerê last.fm binivîse"
-
-#: services/lastfm/LastFmService.cpp:450
-#, fuzzy, kde-format
-#| msgctxt "Username for logins to Magnatune"
-#| msgid "Username:"
-msgid "Username: %1"
-msgstr "Navê Bikarhêner:"
-
-#: services/lastfm/LastFmService.cpp:455
-#, fuzzy, kde-format
-#| msgid "Play Count:"
-msgid "Play Count: %1 play"
-msgid_plural "Play Count: %1 plays"
-msgstr[0] "Hejmara Lêdanan  :"
-msgstr[1] "Hejmara Lêdanan  :"
-
-#: services/lastfm/LastFmService.cpp:504
-msgid "Create a Custom Last.fm Station"
-msgstr ""
-
-#: services/lastfm/LastFmService.cpp:507
-msgid "Tag"
-msgstr "Etîket"
-
-#: services/lastfm/LastFmService.cpp:507
-msgid "User"
-msgstr "Bikarhêner"
-
-#: services/lastfm/LastFmService.cpp:543
-#: services/lastfm/ScrobblerAdapter.cpp:213
-#, kde-format
-msgctxt "As in, lastfm"
-msgid "Loved Track: %1"
-msgstr "Strana Tê Hez Kirin: %1"
-
-#: services/lastfm/LastFmTreeModel.cpp:172
-msgid "Personal Radio"
-msgstr "Radyoyên Şexsî"
-
-#: services/lastfm/LastFmTreeModel.cpp:173
-msgid "Neighborhood"
-msgstr "Cîranî"
-
-#: services/lastfm/LastFmTreeModel.cpp:331
-msgid "My Recommendations"
-msgstr "Salixdayî yên Min"
-
-#: services/lastfm/LastFmTreeModel.cpp:333
-msgid "My Radio Station"
-msgstr "Radyo ya Min"
-
-#: services/lastfm/LastFmTreeModel.cpp:335
-msgid "My Mix Radio"
-msgstr ""
-
-#: services/lastfm/LastFmTreeModel.cpp:337
-msgid "My Neighborhood"
-msgstr "Cîranê Min"
-
-#: services/lastfm/LastFmTreeModel.cpp:342
-msgid "My Top Artists"
-msgstr "Hunermendên Ez Jê Hez Dikim"
-
-#: services/lastfm/LastFmTreeModel.cpp:344
-msgid "My Tags"
-msgstr "Etîketên Min"
-
-#: services/lastfm/LastFmTreeModel.cpp:346
-msgid "Friends"
-msgstr "Hevalên Min"
-
-#: services/lastfm/LastFmTreeModel.cpp:348
-msgid "Neighbors"
-msgstr "Cîran"
 
 #: services/lastfm/LastFmServiceConfig.cpp:154
 #, fuzzy
@@ -15372,6 +15178,200 @@ msgid ""
 "No running KWallet found. Would you like Amarok to save your Last.fm "
 "credentials in plaintext?"
 msgstr ""
+
+#: services/lastfm/LastFmService.cpp:181
+msgid "Last.fm: The social music revolution"
+msgstr ""
+
+#: services/lastfm/LastFmService.cpp:183
+msgid ""
+"Last.fm is a popular online service that provides personal radio stations "
+"and music recommendations. A personal listening station is tailored based on "
+"your listening habits and provides you with recommendations for new music. "
+"It is also possible to play stations with music that is similar to a "
+"particular artist as well as listen to streams from people you have added as "
+"friends or that Last.fm considers your musical \"neighbors\""
+msgstr ""
+
+#: services/lastfm/LastFmService.cpp:267
+#: services/lastfm/LoveTrackAction.cpp:24
+msgid "Last.fm: Love"
+msgstr "Last.fm: Love"
+
+#: services/lastfm/LastFmService.cpp:269
+msgid "Ctrl+L"
+msgstr "Ctrl+L"
+
+#: services/lastfm/LastFmService.cpp:323
+msgctxt "Last.fm: errorMessage"
+msgid "Either the username was not recognized, or the password was incorrect."
+msgstr ""
+
+#: services/lastfm/LastFmService.cpp:327
+msgctxt "Last.fm: errorMessage"
+msgid ""
+"There was a problem communicating with the Last.fm services. Please try "
+"again later."
+msgstr ""
+
+#: services/lastfm/LastFmService.cpp:414
+msgid "Enter an artist name"
+msgstr "Navê hunermendê binivîse"
+
+#: services/lastfm/LastFmService.cpp:417
+msgid "Enter a tag"
+msgstr "Navê etîketê binivîse"
+
+#: services/lastfm/LastFmService.cpp:420
+#, fuzzy
+#| msgid "Enter a last.fm user name"
+msgid "Enter a Last.fm user name"
+msgstr "Navê bikarhênerê last.fm binivîse"
+
+#: services/lastfm/LastFmService.cpp:433
+#, fuzzy, kde-format
+#| msgctxt "Username for logins to Magnatune"
+#| msgid "Username:"
+msgid "Username: %1"
+msgstr "Navê Bikarhêner:"
+
+#: services/lastfm/LastFmService.cpp:438
+#, fuzzy, kde-format
+#| msgid "Play Count:"
+msgid "Play Count: %1 play"
+msgid_plural "Play Count: %1 plays"
+msgstr[0] "Hejmara Lêdanan  :"
+msgstr[1] "Hejmara Lêdanan  :"
+
+#: services/lastfm/LastFmService.cpp:487
+msgid "Create a Custom Last.fm Station"
+msgstr ""
+
+#: services/lastfm/LastFmService.cpp:490
+msgid "Tag"
+msgstr "Etîket"
+
+#: services/lastfm/LastFmService.cpp:490
+msgid "User"
+msgstr "Bikarhêner"
+
+#: services/lastfm/LastFmService.cpp:526
+#: services/lastfm/ScrobblerAdapter.cpp:213
+#, kde-format
+msgctxt "As in, lastfm"
+msgid "Loved Track: %1"
+msgstr "Strana Tê Hez Kirin: %1"
+
+#: services/lastfm/LastFmServiceCollection.cpp:33
+#, kde-format
+msgid "%1's Streams"
+msgstr "Darêja %1"
+
+#: services/lastfm/LastFmServiceCollection.cpp:37
+msgid "Global Tags"
+msgstr "Etîketên Giştî"
+
+#: services/lastfm/LastFmServiceCollection.cpp:41
+msgid "Neighbors' Loved Radio"
+msgstr "Radyo yên Cîran Jê Hez Dikin"
+
+#: services/lastfm/LastFmServiceCollection.cpp:45
+msgid "Neighbors' Personal Radio"
+msgstr "Radyo yên Cîranan yê Şexsî"
+
+#: services/lastfm/LastFmServiceCollection.cpp:49
+msgid "Friends' Loved Radio"
+msgstr "Radyo yên Heval Jê Hez Dikin"
+
+#: services/lastfm/LastFmServiceCollection.cpp:53
+msgid "Friends' Personal Radio"
+msgstr "Radyo yên Hevalan yê Şexsî"
+
+#: services/lastfm/LastFmServiceSettings.cpp:95
+#: services/gpodder/GpodderServiceSettings.cpp:89
+msgid "Testing..."
+msgstr "Tê ceribandin..."
+
+#: services/lastfm/LastFmServiceSettings.cpp:134
+#, fuzzy
+#| msgid "Failed"
+msgctxt "The operation was rejected by the server"
+msgid "Failed"
+msgstr "Têk Çû"
+
+#: services/lastfm/LastFmServiceSettings.cpp:139
+#: services/gpodder/GpodderServiceSettings.cpp:108
+msgctxt "The operation completed as expected"
+msgid "Success"
+msgstr "Serketî "
+
+#: services/lastfm/LastFmServiceSettings.cpp:147
+#: services/gpodder/GpodderServiceSettings.cpp:162
+msgid ""
+"Either the username or the password is incorrect, please correct and try "
+"again"
+msgstr ""
+
+#: services/lastfm/LastFmServiceSettings.cpp:147
+#: services/lastfm/LastFmServiceSettings.cpp:172
+#: services/gpodder/GpodderServiceSettings.cpp:163
+#: services/gpodder/GpodderServiceSettings.cpp:172
+#: services/gpodder/GpodderServiceSettings.cpp:186
+msgid "Failed"
+msgstr "Têk Çû"
+
+#: services/lastfm/LastFmServiceSettings.cpp:148
+#: services/lastfm/LastFmServiceSettings.cpp:173
+#: services/gpodder/GpodderServiceSettings.cpp:165
+#: services/gpodder/GpodderServiceSettings.cpp:174
+msgid "Test Login"
+msgstr "Têketina Ceribandinê"
+
+#: services/lastfm/LastFmServiceSettings.cpp:172
+#, fuzzy
+#| msgid "Unable to retrieve Wikipedia information: %1"
+msgid "Unable to connect to Last.fm service."
+msgstr "Nekarî agahiyan ji Wikipedia bîne: %1"
+
+#: services/lastfm/LastFmTreeModel.cpp:167
+msgid "Personal Radio"
+msgstr "Radyoyên Şexsî"
+
+#: services/lastfm/LastFmTreeModel.cpp:168
+msgid "Neighborhood"
+msgstr "Cîranî"
+
+#: services/lastfm/LastFmTreeModel.cpp:326
+msgid "My Recommendations"
+msgstr "Salixdayî yên Min"
+
+#: services/lastfm/LastFmTreeModel.cpp:328
+msgid "My Radio Station"
+msgstr "Radyo ya Min"
+
+#: services/lastfm/LastFmTreeModel.cpp:330
+msgid "My Mix Radio"
+msgstr ""
+
+#: services/lastfm/LastFmTreeModel.cpp:332
+msgid "My Neighborhood"
+msgstr "Cîranê Min"
+
+#: services/lastfm/LastFmTreeModel.cpp:337
+msgid "My Top Artists"
+msgstr "Hunermendên Ez Jê Hez Dikim"
+
+#: services/lastfm/LastFmTreeModel.cpp:339
+msgid "My Tags"
+msgstr "Etîketên Min"
+
+#: services/lastfm/LastFmTreeModel.cpp:341
+msgid "Friends"
+msgstr "Hevalên Min"
+
+#: services/lastfm/LastFmTreeModel.cpp:343
+msgid "Neighbors"
+msgstr "Cîran"
 
 #: services/magnatune/MagnatuneDownloadInfo.cpp:210
 #, kde-format
@@ -15958,38 +15958,34 @@ msgstr ""
 msgid "<em>%1</em> has been added to your shopping cart."
 msgstr ""
 
-#: services/amazon/AmazonStore.cpp:293
-msgid "Select your Amazon locale - Amarok"
-msgstr ""
-
-#: services/amazon/AmazonStore.cpp:307
+#: services/amazon/AmazonStore.cpp:299
 msgid ""
 "<b>MP3 Music Store</b><br/><br/>Please select a valid country in the "
 "settings to make the store work."
 msgstr ""
 
-#: services/amazon/AmazonStore.cpp:338
+#: services/amazon/AmazonStore.cpp:330
 #, fuzzy
 #| msgid "Unable to retrieve Wikipedia information: %1"
 msgid "Error: Unable to write temporary file. :-("
 msgstr "Nekarî agahiyan ji Wikipedia bîne: %1"
 
-#: services/amazon/AmazonStore.cpp:437
+#: services/amazon/AmazonStore.cpp:429
 msgid "Select results page to show"
 msgstr ""
 
-#: services/amazon/AmazonStore.cpp:461
+#: services/amazon/AmazonStore.cpp:453
 #, fuzzy
 #| msgid "Add to playlist"
 msgctxt "Add selected item to your shopping cart"
 msgid "Add to Cart"
 msgstr "lîsteya lêdanê"
 
-#: services/amazon/AmazonStore.cpp:462
+#: services/amazon/AmazonStore.cpp:454
 msgid "Add selected item to your shopping cart"
 msgstr ""
 
-#: services/amazon/AmazonStore.cpp:469
+#: services/amazon/AmazonStore.cpp:461
 #, fuzzy
 #| msgctxt "@title buttontext for popup-menu"
 #| msgid "View"
@@ -15997,26 +15993,26 @@ msgctxt "View your shopping cart contents"
 msgid "View Cart"
 msgstr "Bergeh"
 
-#: services/amazon/AmazonStore.cpp:470
+#: services/amazon/AmazonStore.cpp:462
 msgid "View your shopping cart contents"
 msgstr ""
 
-#: services/amazon/AmazonStore.cpp:477
+#: services/amazon/AmazonStore.cpp:469
 #, fuzzy
 #| msgid " on <b>%1</b>"
 msgctxt "Checkout your shopping cart"
 msgid "Checkout"
 msgstr " di <b>%1</b> de"
 
-#: services/amazon/AmazonStore.cpp:478
+#: services/amazon/AmazonStore.cpp:470
 msgid "Checkout your shopping cart"
 msgstr ""
 
-#: services/amazon/AmazonStore.cpp:499
+#: services/amazon/AmazonStore.cpp:508
 msgid "Error: Querying MP3 Music Store database failed. :-("
 msgstr ""
 
-#: services/amazon/AmazonStore.cpp:534
+#: services/amazon/AmazonStore.cpp:543
 msgid "Error: Received an invalid reply. :-("
 msgstr ""
 
