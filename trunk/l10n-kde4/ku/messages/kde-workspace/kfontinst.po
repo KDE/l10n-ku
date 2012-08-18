@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfontinst\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-02 05:37+0200\n"
+"POT-Creation-Date: 2012-08-18 04:26+0200\n"
 "PO-Revision-Date: 2009-01-06 05:17+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: ku <kde-i18n-doc@lists.kde.org>\n"
@@ -18,22 +18,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: KAider 0.1\n"
 "X-Poedit-Language: Kurdish\n"
-
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Erdal Ronahi"
-
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "erdal dot ronahi at gmail dot com"
-
-#. i18n: file: viewpart/kfontviewpart.rc:4
-#. i18n: ectx: ToolBar (mainToolBar)
-#: rc.cpp:5
-msgid "&Main Toolbar"
-msgstr "Darikê Amûran ya &Mak"
 
 #: apps/Installer.cpp:54 kcmfontinst/KCmFontInst.cpp:1023
 msgid ""
@@ -332,17 +316,29 @@ msgstr ""
 "<p>Bi rastî dixwazî '<b>%1</b>' rakî?</p><p><i>Bi vî rengî tenê kom tê "
 "rakirin, curenivîs nayên rakirin.</i></p>"
 
-#: kcmfontinst/GroupList.cpp:579
-msgid "Remove Group"
-msgstr "Komê Rake"
-
 #: kcmfontinst/GroupList.cpp:579 kcmfontinst/GroupList.cpp:830
 msgid "Remove"
 msgstr "Rakirin"
 
+#: kcmfontinst/GroupList.cpp:579
+msgid "Remove Group"
+msgstr "Komê Rake"
+
 #: kcmfontinst/GroupList.cpp:580 kcmfontinst/KCmFontInst.cpp:250
 msgid "Remove group"
 msgstr "Komê rake"
+
+#: kcmfontinst/GroupList.cpp:625
+#, kde-format
+msgid ""
+"<h3>Font Groups</h3><p>This list displays the font groups available on your "
+"system. There are 2 main types of font groups:<ul><li><b>Standard</b> are "
+"special groups used by the font manager.<ul>%1</ul></li><li><b>Custom</b> "
+"are groups created by you. To add a font family to one of these groups "
+"simply drag it from the list of fonts, and drop onto the desired group. To "
+"remove a family from the group, drag the font onto the \"All Fonts\" group.</"
+"li></ul></p>"
+msgstr ""
 
 #: kcmfontinst/GroupList.cpp:634
 msgid ""
@@ -359,18 +355,6 @@ msgid ""
 "li><li><i>Personal</i> contains your personal fonts.</"
 "li><li><i>Unclassified</i> contains all fonts that have not yet been placed "
 "within a \"Custom\" group.</li>"
-msgstr ""
-
-#: kcmfontinst/GroupList.cpp:625
-#, kde-format
-msgid ""
-"<h3>Font Groups</h3><p>This list displays the font groups available on your "
-"system. There are 2 main types of font groups:<ul><li><b>Standard</b> are "
-"special groups used by the font manager.<ul>%1</ul></li><li><b>Custom</b> "
-"are groups created by you. To add a font family to one of these groups "
-"simply drag it from the list of fonts, and drop onto the desired group. To "
-"remove a family from the group, drag the font onto the \"All Fonts\" group.</"
-"li></ul></p>"
 msgstr ""
 
 #: kcmfontinst/GroupList.cpp:744
@@ -704,13 +688,13 @@ msgid ""
 "%3</i>?</p>"
 msgstr "<p>Tu bi rastî dixwazî</p><p>'<b>%1</b>' biguhezînî?</p>"
 
-#: kcmfontinst/KCmFontInst.cpp:727
-msgid "Move Font"
-msgstr "Cure-nivîs Biguhezîne"
-
 #: kcmfontinst/KCmFontInst.cpp:727 kcmfontinst/KCmFontInst.cpp:736
 msgid "Move"
 msgstr "Guhestin"
+
+#: kcmfontinst/KCmFontInst.cpp:727
+msgid "Move Font"
+msgstr "Cure-nivîs Biguhezîne"
 
 #: kcmfontinst/KCmFontInst.cpp:731
 #, fuzzy, kde-format
@@ -826,12 +810,12 @@ msgid "You did not select anything to disable."
 msgstr "Ji bo neçalak kirinê te tu tişt ne hilbijartî ye."
 
 #: kcmfontinst/KCmFontInst.cpp:1174
-msgid "Nothing to Enable"
-msgstr "Tu Tişt Ji bo Çalak kirinê Tune ye"
-
-#: kcmfontinst/KCmFontInst.cpp:1174
 msgid "Nothing to Disable"
 msgstr "Tu Tişt Ji bo Neçalak kirinê Tune ye"
+
+#: kcmfontinst/KCmFontInst.cpp:1174
+msgid "Nothing to Enable"
+msgstr "Tu Tişt Ji bo Çalak kirinê Tune ye"
 
 #: kcmfontinst/KCmFontInst.cpp:1191
 #, kde-format
@@ -861,13 +845,13 @@ msgstr ""
 "<p>Tu bi rastî dixwazî</p><p>'<b>%1</b>' neçalak bikî yê ku di koma '<b>%2</"
 "b>' de ne?</p>"
 
-#: kcmfontinst/KCmFontInst.cpp:1203 kcmfontinst/KCmFontInst.cpp:1204
-msgid "Enable Font"
-msgstr "Curenivîsî Çalak Bike"
-
 #: kcmfontinst/KCmFontInst.cpp:1203 kcmfontinst/KCmFontInst.cpp:1205
 msgid "Disable Font"
 msgstr "Curenivîsî Neçalak Bike"
+
+#: kcmfontinst/KCmFontInst.cpp:1203 kcmfontinst/KCmFontInst.cpp:1204
+msgid "Enable Font"
+msgstr "Curenivîsî Çalak Bike"
 
 #: kcmfontinst/KCmFontInst.cpp:1210
 #, kde-format
@@ -911,13 +895,13 @@ msgstr[1] ""
 "Tu bi rastî dixwazî wan cure-nivîsên %1 yên di koma '<b>%2</b>' de ne "
 "neçalak bikî?"
 
-#: kcmfontinst/KCmFontInst.cpp:1227 kcmfontinst/KCmFontInst.cpp:1228
-msgid "Enable Fonts"
-msgstr "Cure-nivîsan Çalak Bike"
-
 #: kcmfontinst/KCmFontInst.cpp:1227 kcmfontinst/KCmFontInst.cpp:1229
 msgid "Disable Fonts"
 msgstr "Cure-nivîsan Neçalak Bike"
+
+#: kcmfontinst/KCmFontInst.cpp:1227 kcmfontinst/KCmFontInst.cpp:1228
+msgid "Enable Fonts"
+msgstr "Cure-nivîsan Çalak Bike"
 
 #: kcmfontinst/KCmFontInst.cpp:1235
 msgid "Enabling font(s)..."
@@ -1090,6 +1074,150 @@ msgid "%2 [1 pixel]"
 msgid_plural "%2 [%1 pixels]"
 msgstr[0] "%2 [1 pîksel]"
 msgstr[1] "%2 [%1 pîksel]"
+
+#: lib/KfiConstants.h:40
+msgid "Personal"
+msgstr "Şexsî"
+
+#: lib/KfiConstants.h:41
+msgid "System"
+msgstr "Pergal"
+
+#: lib/KfiConstants.h:42
+msgid "All"
+msgstr "Hemû"
+
+#: lib/KfiConstants.h:56
+msgid "Administrator"
+msgstr "Rêveber"
+
+#: lib/KfiConstants.h:95
+msgid "Thin"
+msgstr "Zirav"
+
+#: lib/KfiConstants.h:96
+msgid "Extra Light"
+msgstr "Gelek Sivik"
+
+#: lib/KfiConstants.h:97
+msgid "Ultra Light"
+msgstr "Ultra Sivik"
+
+#: lib/KfiConstants.h:98
+msgid "Light"
+msgstr "Sivik"
+
+#: lib/KfiConstants.h:99
+msgid "Regular"
+msgstr "Asayî"
+
+#: lib/KfiConstants.h:100 lib/KfiConstants.h:118
+msgid "Normal"
+msgstr "Asayî"
+
+#: lib/KfiConstants.h:101
+msgid "Medium"
+msgstr "Navîn"
+
+#: lib/KfiConstants.h:102
+msgid "Demi Bold"
+msgstr "Nîv Qalind"
+
+#: lib/KfiConstants.h:103
+msgid "Semi Bold"
+msgstr "Nîv Qalind"
+
+#: lib/KfiConstants.h:104
+msgid "Bold"
+msgstr "Qalind"
+
+#: lib/KfiConstants.h:105
+msgid "Extra Bold"
+msgstr "Gelek Qalind"
+
+#: lib/KfiConstants.h:106
+msgid "Ultra Bold"
+msgstr "Ultra Qalind"
+
+#: lib/KfiConstants.h:107
+msgid "Black"
+msgstr "Reş"
+
+#: lib/KfiConstants.h:108
+msgid "Heavy"
+msgstr "Giran"
+
+#: lib/KfiConstants.h:110
+msgid "Roman"
+msgstr "Roman"
+
+#: lib/KfiConstants.h:111
+msgid "Italic"
+msgstr "Îtalîk"
+
+#: lib/KfiConstants.h:112
+msgid "Oblique"
+msgstr "Xwar"
+
+#: lib/KfiConstants.h:114
+msgid "Ultra Condensed"
+msgstr "Ultra Tengkirî"
+
+#: lib/KfiConstants.h:115
+msgid "Extra Condensed"
+msgstr "Ekstra Tengkirî"
+
+#: lib/KfiConstants.h:116
+msgid "Condensed"
+msgstr "Tengkirî"
+
+#: lib/KfiConstants.h:117
+msgid "Semi Condensed"
+msgstr "Nîv Tengkirî"
+
+#: lib/KfiConstants.h:119
+msgid "Semi Expanded"
+msgstr "Nîv Firehkirî"
+
+#: lib/KfiConstants.h:120
+msgid "Expanded"
+msgstr "Firehkirî"
+
+#: lib/KfiConstants.h:121
+msgid "Extra Expanded"
+msgstr "Ekstra Firehkirî"
+
+#: lib/KfiConstants.h:122
+msgid "Ultra Expanded"
+msgstr "Ultra Firehkirî"
+
+#: lib/KfiConstants.h:124
+msgid "Monospaced"
+msgstr "Monospaced"
+
+#: lib/KfiConstants.h:125
+msgid "Charcell"
+msgstr "Charcell"
+
+#: lib/KfiConstants.h:126
+msgid "Proportional"
+msgstr "Bi-rêje"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Erdal Ronahi"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "erdal dot ronahi at gmail dot com"
+
+#. i18n: file: viewpart/kfontviewpart.rc:4
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:5
+msgid "&Main Toolbar"
+msgstr "Darikê Amûran ya &Mak"
 
 #: viewpart/CharTip.cpp:65
 msgid "Other, Control"
@@ -1280,134 +1408,6 @@ msgstr ""
 #, kde-format
 msgid "Unicode Script: %1"
 msgstr ""
-
-#: lib/KfiConstants.h:40
-msgid "Personal"
-msgstr "Şexsî"
-
-#: lib/KfiConstants.h:41
-msgid "System"
-msgstr "Pergal"
-
-#: lib/KfiConstants.h:42
-msgid "All"
-msgstr "Hemû"
-
-#: lib/KfiConstants.h:56
-msgid "Administrator"
-msgstr "Rêveber"
-
-#: lib/KfiConstants.h:95
-msgid "Thin"
-msgstr "Zirav"
-
-#: lib/KfiConstants.h:96
-msgid "Extra Light"
-msgstr "Gelek Sivik"
-
-#: lib/KfiConstants.h:97
-msgid "Ultra Light"
-msgstr "Ultra Sivik"
-
-#: lib/KfiConstants.h:98
-msgid "Light"
-msgstr "Sivik"
-
-#: lib/KfiConstants.h:99
-msgid "Regular"
-msgstr "Asayî"
-
-#: lib/KfiConstants.h:100 lib/KfiConstants.h:118
-msgid "Normal"
-msgstr "Asayî"
-
-#: lib/KfiConstants.h:101
-msgid "Medium"
-msgstr "Navîn"
-
-#: lib/KfiConstants.h:102
-msgid "Demi Bold"
-msgstr "Nîv Qalind"
-
-#: lib/KfiConstants.h:103
-msgid "Semi Bold"
-msgstr "Nîv Qalind"
-
-#: lib/KfiConstants.h:104
-msgid "Bold"
-msgstr "Qalind"
-
-#: lib/KfiConstants.h:105
-msgid "Extra Bold"
-msgstr "Gelek Qalind"
-
-#: lib/KfiConstants.h:106
-msgid "Ultra Bold"
-msgstr "Ultra Qalind"
-
-#: lib/KfiConstants.h:107
-msgid "Black"
-msgstr "Reş"
-
-#: lib/KfiConstants.h:108
-msgid "Heavy"
-msgstr "Giran"
-
-#: lib/KfiConstants.h:110
-msgid "Roman"
-msgstr "Roman"
-
-#: lib/KfiConstants.h:111
-msgid "Italic"
-msgstr "Îtalîk"
-
-#: lib/KfiConstants.h:112
-msgid "Oblique"
-msgstr "Xwar"
-
-#: lib/KfiConstants.h:114
-msgid "Ultra Condensed"
-msgstr "Ultra Tengkirî"
-
-#: lib/KfiConstants.h:115
-msgid "Extra Condensed"
-msgstr "Ekstra Tengkirî"
-
-#: lib/KfiConstants.h:116
-msgid "Condensed"
-msgstr "Tengkirî"
-
-#: lib/KfiConstants.h:117
-msgid "Semi Condensed"
-msgstr "Nîv Tengkirî"
-
-#: lib/KfiConstants.h:119
-msgid "Semi Expanded"
-msgstr "Nîv Firehkirî"
-
-#: lib/KfiConstants.h:120
-msgid "Expanded"
-msgstr "Firehkirî"
-
-#: lib/KfiConstants.h:121
-msgid "Extra Expanded"
-msgstr "Ekstra Firehkirî"
-
-#: lib/KfiConstants.h:122
-msgid "Ultra Expanded"
-msgstr "Ultra Firehkirî"
-
-#: lib/KfiConstants.h:124
-msgid "Monospaced"
-msgstr "Monospaced"
-
-#: lib/KfiConstants.h:125
-msgid "Charcell"
-msgstr "Charcell"
-
-#: lib/KfiConstants.h:126
-msgid "Proportional"
-msgstr "Bi-rêje"
 
 #: viewpart/UnicodeBlocks.h:21
 msgid "Basic Latin"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: okular_fictionbook\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-01-19 03:57+0100\n"
+"POT-Creation-Date: 2012-08-18 04:18+0200\n"
 "PO-Revision-Date: 2009-01-22 05:01+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -18,6 +18,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-Language: Kurdish\n"
 "X-Poedit-SourceCharset: utf8\n"
+
+#: converter.cpp:98
+msgid "Document is not a valid FictionBook"
+msgstr "Belge FictionBook a derbasdar nîn e"
 
 #: document.cpp:32
 #, kde-format
@@ -40,10 +44,6 @@ msgstr "Tu naverok di belgeyê de nehat dîtin"
 #, kde-format
 msgid "Invalid XML document: %1"
 msgstr "Belgeya XML ya nederbasdar: %1"
-
-#: converter.cpp:98
-msgid "Document is not a valid FictionBook"
-msgstr "Belge FictionBook a derbasdar nîn e"
 
 #: generator_fb.cpp:22
 msgid "Fiction Book Backend"
