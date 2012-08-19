@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-18 17:01+0200\n"
+"POT-Creation-Date: 2012-08-19 15:33+0200\n"
 "PO-Revision-Date: 2009-01-06 14:18+0200\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: American English <kde-i18n-doc@lists.kde.org>\n"
@@ -23,161 +23,1285 @@ msgstr ""
 "X-Launchpad-Export-Date: 2007-11-26 10:24+0000\n"
 "X-Generator: Lokalize 0.2\n"
 
-#: src/konqhistorydialog.cpp:45
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Erdal Ronahi"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "erdal dot ronahi at gmail dot com"
+
+#: about/konq_aboutpage.cc:79 about/konq_aboutpage.cc:81
+#: about/konq_aboutpage.cc:135 about/konq_aboutpage.cc:137
+#: about/konq_aboutpage.cc:189 about/konq_aboutpage.cc:191
+#: about/konq_aboutpage.cc:287 about/konq_aboutpage.cc:289
+msgctxt "KDE 4 tag line, see http://kde.org/img/kde40.png"
+msgid "Be free."
+msgstr "Azad bibe."
+
+#: about/konq_aboutpage.cc:80 about/konq_aboutpage.cc:136
+#: about/konq_aboutpage.cc:190 about/konq_aboutpage.cc:288
+#: src/konqfactory.cpp:229
+msgid "Konqueror"
+msgstr "Konqueror"
+
+#: about/konq_aboutpage.cc:82 about/konq_aboutpage.cc:138
+#: about/konq_aboutpage.cc:192 about/konq_aboutpage.cc:290
+msgid "Konqueror is a web browser, file manager and universal document viewer."
+msgstr ""
+"Konqueror geroka torê, gerînendeyê pelan û nîşanderê gerdûnî yê belgeyan e."
+
+#: about/konq_aboutpage.cc:83 about/konq_aboutpage.cc:139
+#: about/konq_aboutpage.cc:193 about/konq_aboutpage.cc:291
+msgctxt ""
+"Link that points to the first page of the Konqueror 'about page', Starting "
+"Points contains links to Home, Network Folders, Trash, etc."
+msgid "Starting Points"
+msgstr "Xalên Destpêkê"
+
+#: about/konq_aboutpage.cc:84 about/konq_aboutpage.cc:140
+#: about/konq_aboutpage.cc:194 about/konq_aboutpage.cc:292
+msgid "Introduction"
+msgstr "Destpêk"
+
+#: about/konq_aboutpage.cc:85 about/konq_aboutpage.cc:141
+#: about/konq_aboutpage.cc:195 about/konq_aboutpage.cc:293
+msgid "Tips"
+msgstr "Pêşinyar"
+
+#: about/konq_aboutpage.cc:86 about/konq_aboutpage.cc:142
+#: about/konq_aboutpage.cc:196 about/konq_aboutpage.cc:197
+#: about/konq_aboutpage.cc:294
+msgid "Specifications"
+msgstr "Taybetmendî"
+
+#: about/konq_aboutpage.cc:91 src/konqmainwindow.cpp:2107
+#: src/konqmainwindow.cpp:2113
+msgid "Home Folder"
+msgstr "Peldanka Malê"
+
+#: about/konq_aboutpage.cc:92
+msgid "Your personal files"
+msgstr "Pelên te yên Şexsî"
+
+#: about/konq_aboutpage.cc:95
+msgid "Trash"
+msgstr "Çop"
+
+#: about/konq_aboutpage.cc:96
+msgid "Browse and restore the trash"
+msgstr "Li qutiya çopê binihêre û wan xelas bike"
+
+#: about/konq_aboutpage.cc:99
+msgid "Network Folders"
+msgstr "Peldankên Torê"
+
+#: about/konq_aboutpage.cc:100
+msgid "Shared files and folders"
+msgstr "Pel û peldankên hevpar"
+
+#: about/konq_aboutpage.cc:103
+#, fuzzy
+#| msgid "&Bookmarks"
+msgid "Bookmarks"
+msgstr "&Bijare"
+
+#: about/konq_aboutpage.cc:104
+msgid "Quick access to your bookmarks"
+msgstr ""
+
+#: about/konq_aboutpage.cc:107
+msgid "Next: An Introduction to Konqueror"
+msgstr "Ya pişt re: Têketina Konquerorê"
+
+#: about/konq_aboutpage.cc:109
+msgid "Search the Web"
+msgstr "Di webê de lê bigere"
+
+#: about/konq_aboutpage.cc:143
+msgid ""
+"Konqueror makes working with and managing your files easy. You can browse "
+"both local and networked folders while enjoying advanced features such as "
+"the powerful sidebar and file previews."
+msgstr ""
+"Koqueror rêvebirin û xebitandina pelên te gelekî hesan dike. Bi darikê "
+"kêlekê yê bi hêz û pêşdîtina pelgeyê tu dikarî hem li girêdanên herêmî hem "
+"jî li girêdanên peldankan bigerî."
+
+#: about/konq_aboutpage.cc:147
+msgid ""
+"Konqueror is also a full featured and easy to use web browser which you can "
+"use to explore the Internet. Enter the address (e.g. <a href=\"http://www."
+"kde.org\">http://www.kde.org</a>) of a web page you would like to visit in "
+"the location bar and press Enter, or choose an entry from the Bookmarks menu."
+msgstr ""
+"Konqueror ji bo gera te ya înternetê hem hêsanî ye hem jî gelek taybetiyên "
+"wê hene. Navnîşana malpereke tu dixwazî têkevê li darikê jorîn binivîse "
+"(mînak <a href=\"http://www.kde.org\">http://www.kde.org.tr</a>) û pê li "
+"bişkojka Enter bike an jî ji pêşeka Bijareyan navnîşanekê bitikîne."
+
+#: about/konq_aboutpage.cc:152
+#, kde-format
+msgid ""
+"To return to the previous location, press the back button <img width='16' "
+"height='16' src=\"%1\"></img> in the toolbar. "
+msgstr ""
+"Ji bo ku tu vegerî rûpelê berê, pêl bişkoka vegere ya di darikê amûran de ye "
+"<img width='16' height='16' src=\"%1\"></img> bike. "
+
+#: about/konq_aboutpage.cc:155
+#, kde-format
+msgid ""
+"To quickly go to your Home folder press the  home button <img width='16' "
+"height='16' src=\"%1\"></img>."
+msgstr ""
+"Heke tu bixwazî biçî ser peldanka mala xwe, bişkoka malê ya di darikê amûran "
+"de bitikîne <img width='16' height='16' src=\"%1\"></img>."
+
+#: about/konq_aboutpage.cc:157
+#, kde-format
+msgid ""
+"For more detailed documentation on Konqueror click <a href=\"%1\">here</a>."
+msgstr ""
+"Derbarê Konqueror de ji bo agahiyên zêde pêl <a href=\"%1\">vira</a> bike."
+
+#: about/konq_aboutpage.cc:159
+#, fuzzy, kde-format
+#| msgid ""
+#| "<em>Tuning Tip:</em> If you want the Konqueror web browser to start "
+#| "faster, you can turn off this information screen by clicking <a href="
+#| "\"%1\">here</a>. You can re-enable it by choosing the Help -> Konqueror "
+#| "Introduction menu option, and then pressing Settings -> Save View Profile "
+#| "\"Web Browsing\"."
+msgid ""
+"<em>Tuning Tip:</em> If you want the Konqueror web browser to start faster, "
+"you can turn off this information screen by clicking <a href=\"%1\">here</"
+"a>. You can re-enable it by choosing the Help -> Konqueror Introduction menu "
+"option, and then pressing Settings -> Save View Profile As... -> \"Web "
+"Browsing\"."
+msgstr ""
+"<em>Liberxistina hûrmîhengan:</em> Heke te divê Konqueror zûtir vebe, ji bo "
+"girtina dîmendera agahiyên ya destpêkê vê <A HREF=\"%1\">bişkojk</A>ê "
+"bitikîne. Ji bo tu dîsa çalak bikî Alîkarî -> ji pêşeka destpêka Konqueror'ê "
+"Mîheng -> Profîla Dîtinê Tomar Bike \"Gera Webê\" bitikîne."
+
+#: about/konq_aboutpage.cc:164
+msgid "Next: Tips &amp; Tricks"
+msgstr "Piştre: Liberxistin"
+
+#: about/konq_aboutpage.cc:198
+#, fuzzy, kde-format
+#| msgid ""
+#| "Konqueror is designed to embrace and support Internet standards. The aim "
+#| "is to fully implement the officially sanctioned standards from "
+#| "organizations such as the W3 and OASIS, while also adding extra support "
+#| "for other common usability features that arise as de facto standards "
+#| "across the Internet. Along with this support, for such functions as "
+#| "favicons, Internet Keywords, and <A HREF=\"%1\">XBEL bookmarks</A>, "
+#| "Konqueror also implements:"
+msgid ""
+"Konqueror is designed to embrace and support Internet standards. The aim is "
+"to fully implement the officially sanctioned standards from organizations "
+"such as the W3 and OASIS, while also adding extra support for other common "
+"usability features that arise as de facto standards across the Internet. "
+"Along with this support, for such functions as favicons, Web Shortcuts, and "
+"<A HREF=\"%1\">XBEL bookmarks</A>, Konqueror also implements:"
+msgstr ""
+"Konqueror, ji bo xwedîlêderketina standartên Internetê û destekirina wê "
+"hatiye afirandin. Armanc pêkanîna standardên ji aliyê W3 û OASIS ve hatine "
+"belîkirin bên bicihanîn, her wisa destekirina hinek hêmanên ku li ser "
+"Internetê bikêrhatî ye. Pê re jî, favicons, gotinên miftehî yên Internetê û "
+"<A HREF=\"%1\"> bijareyên XBEL </A> jî tên destekirin. Her wisa taybetiyên "
+"jêrîn ên Konqueror jî hene:"
+
+#: about/konq_aboutpage.cc:205 src/konqmainwindow.cpp:1847
+msgid "Web Browsing"
+msgstr "Lêgerîna Webê"
+
+#: about/konq_aboutpage.cc:206
+msgid "Supported standards"
+msgstr "Standartên têne destekkirin"
+
+#: about/konq_aboutpage.cc:207
+msgid "Additional requirements*"
+msgstr "Pêwistiyên pêvek*"
+
+#: about/konq_aboutpage.cc:208
+#, kde-format
+msgid ""
+"<A HREF=\"%1\">DOM</A> (Level 1, partially Level 2) based <A HREF="
+"\"%2\">HTML 4.01</A>"
+msgstr ""
+"<a href=\"%1\">DOM</a> bi bingeha (1. Ast, asta demdemî 2) <a href="
+"\"%2\">HTML 4.01</a>"
+
+#: about/konq_aboutpage.cc:210 about/konq_aboutpage.cc:212
+#: about/konq_aboutpage.cc:225 about/konq_aboutpage.cc:230
+#: about/konq_aboutpage.cc:232
+msgid "built-in"
+msgstr "hate avakirin"
+
+#: about/konq_aboutpage.cc:211
+#, kde-format
+msgid "<A HREF=\"%1\">Cascading Style Sheets</A> (CSS 1, partially CSS 2)"
+msgstr ""
+"<A HREF=\"%1\">Kaxizên Şêwazan yên Hatine Raxistin</A> (CSS 1, derbasdar CSS "
+"2)"
+
+#: about/konq_aboutpage.cc:213
+#, kde-format
+msgid "<A HREF=\"%1\">ECMA-262</A> Edition 3 (roughly equals JavaScript 1.5)"
+msgstr ""
+"<A HREF=\"%1\">ECMA-262</A> Guherto 3 (hema hema wekî Javaskrîpt 1.5 e)"
+
+#: about/konq_aboutpage.cc:215
+#, kde-format
+msgid ""
+"JavaScript disabled (globally). Enable JavaScript <A HREF=\"%1\">here</A>."
+msgstr ""
+"Javaskrîpt ne çalak e. Javaskrîptê <A HREF=\"%1\">ji vir</A> çalak bike."
+
+#: about/konq_aboutpage.cc:216
+#, kde-format
+msgid ""
+"JavaScript enabled (globally). Configure JavaScript <A HREF=\\\"%1\\\">here</"
+"A>."
+msgstr ""
+"Javaskrîpt ne çalak e. Javaskrîptê <a href=\\\"%1\\\">ji vir</a> çalak bike."
+
+#: about/konq_aboutpage.cc:217
+#, kde-format
+msgid "Secure <A HREF=\"%1\">Java</A><SUP>&reg;</SUP> support"
+msgstr "Desteka <A HREF=\"%1\">Javaya</A><SUP>&reg;</SUP> Ewle"
+
+#: about/konq_aboutpage.cc:218
+#, fuzzy, kde-format
+#| msgid ""
+#| "JDK 1.2.0 (Java 2) compatible VM (<A HREF=\"%1\">Blackdown</A>, <A HREF="
+#| "\"%2\">IBM</A> or <A HREF=\"%3\">Sun</A>)"
+msgid ""
+"JDK 1.2.0 (Java 2) compatible VM (<A HREF=\"%1\">IBM</A> or <A HREF="
+"\"%2\">Sun/Oracle</A>)"
+msgstr ""
+"Bi desteka JDK 1.2.0 (Java 2) ev VM (<A HREF=\"%1\">Blackdown</A>,<A HREF="
+"\"%2\">IBM</A> an jî <A HREF=\"%3\">Sun</A>)"
+
+#: about/konq_aboutpage.cc:220
+#, kde-format
+msgid "Enable Java (globally) <A HREF=\"%1\">here</A>."
+msgstr "<A HREF=\"%1\">ji vir</A> Javayê çalak bike."
+
+#: about/konq_aboutpage.cc:221
+#, kde-format
+msgid ""
+"Netscape Communicator<SUP>&reg;</SUP> <A HREF=\"%4\">plugins</A> (for "
+"viewing <A HREF=\"%1\">Flash<SUP>&reg;</SUP></A>, <A HREF="
+"\"%2\">Real<SUP>&reg;</SUP></A>Audio, <A HREF=\"%3\">Real<SUP>&reg;</SUP></"
+"A>Video, etc.)"
+msgstr ""
+"Pêvekên Netscape Communicator<SUP>&reg;</SUP> <A HREF=\"%4\"> û </A> (for "
+"viewing <A HREF=\"%1\">Flash<SUP>&reg;</SUP></A>, <A HREF="
+"\"%2\">Real<SUP>&reg;</SUP></A>Audio, <A HREF=\"%3\">Real<SUP>&reg;</SUP></"
+"A>ji bo temaşeya videoyê)"
+
+#: about/konq_aboutpage.cc:226
+msgid "Secure Sockets Layer"
+msgstr "Asta Ketoka Ewle"
+
+#: about/konq_aboutpage.cc:227
+msgid "(TLS/SSL v2/3) for secure communications up to 168bit"
+msgstr "(TLS/SSL v2/3) ji bo heta 168 bitan têkildariya ewle"
+
+#: about/konq_aboutpage.cc:228
+msgid "OpenSSL"
+msgstr "SSL Veke"
+
+#: about/konq_aboutpage.cc:229
+msgid "Bidirectional 16bit unicode support"
+msgstr "Piştgiriya unîkoda 16 bit ya dualî"
+
+#: about/konq_aboutpage.cc:231
+msgid "AutoCompletion for forms"
+msgstr "Ji bo forman temamkirina bixweber"
+
+#: about/konq_aboutpage.cc:233
+msgctxt "Title of an html 'group box' explaining konqueror features"
+msgid "General"
+msgstr ""
+
+#: about/konq_aboutpage.cc:234
+msgid "Feature"
+msgstr "Taybetmendî"
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbDetails)
+#: about/konq_aboutpage.cc:235 sidebar/history_module/history_dlg.ui:128
+msgid "Details"
+msgstr "Kîtekît"
+
+#: about/konq_aboutpage.cc:236
+msgid "Image formats"
+msgstr "Şêwazê wêne"
+
+#: about/konq_aboutpage.cc:237
+#, fuzzy
+#| msgid "PNG<br />MNG<br />JPG<br />GIF"
+msgid "PNG<br />JPG<br />GIF"
+msgstr "PNG<br />MNG<br />JPG<br />GIF"
+
+#: about/konq_aboutpage.cc:238
+msgid "Transfer protocols"
+msgstr "Protokolên Veguheztinê"
+
+#: about/konq_aboutpage.cc:239
+msgid "HTTP 1.1 (including gzip/bzip2 compression)"
+msgstr "HTTP 1.1 (pêçavên bzip2/gzip dihindurîne)"
+
+#: about/konq_aboutpage.cc:240
+msgid "FTP"
+msgstr "FTP"
+
+#: about/konq_aboutpage.cc:241
+#, fuzzy, kde-format
+#| msgid "and <A HREF=\"%1\">many more...</A>"
+msgid "and <A HREF=\"%1\">many more (see Kioslaves in KHelpcenter)...</A>"
+msgstr "û <A HREF=\"%1\">hîn zêde...</A>"
+
+#: about/konq_aboutpage.cc:242
+msgctxt "A feature of Konqueror"
+msgid "URL-Completion"
+msgstr "URL-Temamkirin"
+
+#: about/konq_aboutpage.cc:243
+msgid "Manual"
+msgstr "Rêber"
+
+#: about/konq_aboutpage.cc:244
+msgid "Popup"
+msgstr "Agahî"
+
+#: about/konq_aboutpage.cc:245
+msgid "(Short-) Automatic"
+msgstr "(Nîv) Bixweber"
+
+#: about/konq_aboutpage.cc:247
+#, kde-format
+msgctxt ""
+"Link that points to the first page of the Konqueror 'about page', Starting "
+"Points contains links to Home, Network Folders, Trash, etc."
+msgid "<a href=\"%1\">Return to Starting Points</a>"
+msgstr "<a href=\"%1\">Vegere Xalên Destpêkê</a>"
+
+#: about/konq_aboutpage.cc:295
+msgid "Tips &amp; Tricks"
+msgstr "Liberxistin"
+
+#: about/konq_aboutpage.cc:296
+#, fuzzy, kde-format
+#| msgid ""
+#| "Use Internet-Keywords and Web-Shortcuts: by typing \"gg: KDE\" one can "
+#| "search the Internet, using Google, for the search phrase \"KDE\". There "
+#| "are a lot of Web-Shortcuts predefined to make searching for software or "
+#| "looking up certain words in an encyclopedia a breeze. You can even <a "
+#| "href=\"%1\">create your own</a> Web-Shortcuts."
+msgid ""
+"Use Web-Shortcuts: by typing \"gg: KDE\" one can search the Internet, using "
+"Google, for the search phrase \"KDE\". There are a lot of Web-Shortcuts "
+"predefined to make searching for software or looking up certain words in an "
+"encyclopedia a breeze. You can even <a href=\"%1\">create your own</a> Web-"
+"Shortcuts."
+msgstr ""
+"Bêjeyên miftehî yên Internetê û kineriyên Webê bi kar bîne: \"gg: KDE\" "
+"binivîse, tu dikarî gotina \"KDE\" motora lêgerînê ya Google bi kar bînî û "
+"lê bigerî. Ji bo lêgerîna nivîsbariyê û lêkolîna di ensîklopediyan de gelek "
+"kineriyên Webê hene. Pê re jî tu dikarî <a href=\"%1\">kineriyên xwe</a> "
+"çêkî."
+
+#: about/konq_aboutpage.cc:301
+#, fuzzy, kde-format
+#| msgid ""
+#| "Use the magnifier button <img width='16' height='16' src=\"%1\"></img> in "
+#| "the toolbar to increase the font size on your web page."
+msgid ""
+"Use the magnifier button <img width='16' height='16' src=\"%1\"></img> in "
+"the HTML toolbar to increase the font size on your web page."
+msgstr ""
+"Ji bo mezinkirina curetîpên rûpela Webê, bişkojka pertavê ya li ser darikê "
+"amûran <img width='16' height='16' src=\"%1\"></img> bi kar bîne."
+
+#: about/konq_aboutpage.cc:303
+#, kde-format
+msgid ""
+"When you want to paste a new address into the Location toolbar you might "
+"want to clear the current entry by pressing the black arrow with the white "
+"cross <img width='16' height='16' src=\"%1\"></img> in the toolbar."
+msgstr ""
+"Berî tu navnîşaneke nû li darikê navnîşanê danî, ji bo tu ya kevin jê bibî "
+"tîra reş ku X li ser heye ya li ser darikê amûran<img width='16' height='16' "
+"src=\"%1\"></img> bi kar bîne."
+
+#: about/konq_aboutpage.cc:307
+#, fuzzy
+#| msgid ""
+#| "To create a link on your desktop pointing to the current page, simply "
+#| "drag the \"Location\" label that is to the left of the Location toolbar, "
+#| "drop it on to the desktop, and choose \"Link\"."
+msgid ""
+"To create a link on your desktop pointing to the current page, simply drag "
+"the icon (favicon) that is to the left of the Location toolbar, drop it on "
+"to the desktop, and choose \"Icon\"."
+msgstr ""
+"Heke tu bixwazî girêdanekê li ser maseya xwe çêkî, ji bo vê rûpela tu niha "
+"lê digerî, bi tenê li ser darikê amûrên Cihan etîketa \"Cih\" bi xwê re "
+"bikişîne û bibe sermaseya xwe û berde û vebijêrka \"Girêdan\"ê hilbijêre."
+
+#: about/konq_aboutpage.cc:310
+#, kde-format
+msgid ""
+"You can also find <img width='16' height='16' src=\"%1\" /> \"Full-Screen "
+"Mode\" in the Settings menu. This feature is very useful for \"Talk\" "
+"sessions."
+msgstr ""
+"Ji pêşeka paceyê tu dikarî<img width='16' height='16' src=\"%1\" /> \"Moda "
+"Dimendertijî\" bibînî. Ev taybetî ji bo danişînên \"Axaftin\" ê girîng e."
+
+#: about/konq_aboutpage.cc:313
+#, kde-format
+msgid ""
+"Divide et impera (lat. \"Divide and conquer\") - by splitting a window into "
+"two parts (e.g. Window -> <img width='16' height='16' src=\"%1\" /> Split "
+"View Left/Right) you can make Konqueror appear the way you like. You can "
+"even load some example view-profiles (e.g. Midnight Commander), or create "
+"your own ones."
+msgstr ""
+"Divide et impera (latînî: \"Parve bike û hikm bike\") - paceyê dike du parçe "
+"(mînak. Pace -> <img width='16' height='16' src=\"%1\" /> Dîmenê Çep/Rast "
+"Parve bike) tu dikarî Konqueror'ê wekî tu hez dikî nîşan bikî. Her wisa tu "
+"dikarî hinek profîlên dîtinê yên mînak lê bar bikî (mînak. Midnight-"
+"Commander), an jî tu dikarî profîla xwe çêkî."
+
+#: about/konq_aboutpage.cc:318
+#, kde-format
+msgid ""
+"Use the <a href=\"%1\">user-agent</a> feature if the website you are "
+"visiting asks you to use a different browser (and do not forget to send a "
+"complaint to the webmaster!)"
+msgstr ""
+"Rûpela tu serîlêdana wê dikî here ji aliyê geroka te ve nayê destekirin, "
+"taybetiya <a href=\"%1\">ajanê bikarhêner</a> bi kar bîne (ji bîr neke û "
+"giliyê xwe jî ji rêveberê wê malperê re bişîne)"
+
+#: about/konq_aboutpage.cc:321
+#, fuzzy, kde-format
+#| msgid ""
+#| "The <img width='16' height='16' src=\"%1\"></img> History in your SideBar "
+#| "ensures that you can keep track of the pages you have visited recently."
+msgid ""
+"The <img width='16' height='16' src=\"%1\"></img> History in your Sidebar "
+"ensures that you can keep track of the pages you have visited recently."
+msgstr ""
+"Ev a ku li darikê kêlekê xuya dike <img width='16' height='16' src=\"%1\"></"
+"img> ji bo bikaranîna dîroka te û şopa rûpelên tu lê geriyayî ye."
+
+#: about/konq_aboutpage.cc:323
+#, kde-format
+msgid ""
+"Use a caching <a href=\"%1\">proxy</a> to speed up your Internet connection."
+msgstr ""
+"Tu dikarî pêşkêşkereke hilanîna bîrê <a href=\"%1\"></a> bi kar bînî û xeta "
+"xwe ya înternetê xurtir bikî."
+
+#: about/konq_aboutpage.cc:325
+#, fuzzy, kde-format
+#| msgid ""
+#| "Advanced users will appreciate the Konsole which you can embed into "
+#| "Konqueror (Window -> <img width='16' height='16' SRC=\"%1\"></img> Show "
+#| "Terminal Emulator)."
+msgid ""
+"Advanced users will appreciate the Konsole which you can embed into "
+"Konqueror (Settings -> <img width='16' height='16' SRC=\"%1\"></img> Show "
+"Terminal Emulator)."
+msgstr ""
+"Bikarhênerên pispor konsola ku tu dikarî di Konqueror de hilînî çalak dikin "
+"(Pace -> <img width='16' height='16' src=\"%1\"></img> Emulatora Termînalê "
+"Nîşan Bide) û dikarin bi kar bînin."
+
+#: about/konq_aboutpage.cc:329
+msgid "Next: Specifications"
+msgstr "Ya dû re: Şert"
+
+#: about/konq_aboutpage.cc:344
+msgid "Installed Plugins"
+msgstr "Pêvekên Sazkirî"
+
+#: about/konq_aboutpage.cc:345
+msgid "<td>Plugin</td><td>Description</td><td>File</td><td>Types</td>"
+msgstr "<td>Pêvek</td><td>Daxuyanî</td><td>Pel</td><td>Cure</td>"
+
+#: about/konq_aboutpage.cc:346
+msgid "Installed"
+msgstr "Sazkirî"
+
+#: about/konq_aboutpage.cc:347
+msgid "<td>Mime Type</td><td>Description</td><td>Suffixes</td><td>Plugin</td>"
+msgstr "<td>Cureyê Mime</td><td>Daxuyanî</td><td>Paşgir</td><td>Pêvek</td>"
+
+#: about/konq_aboutpage.cc:463
+msgid ""
+"Do you want to disable showing the introduction in the webbrowsing profile?"
+msgstr "Tu dixwazî ku destpêkirin di geroka internetê de neyê xuyakirin?"
+
+#: about/konq_aboutpage.cc:465
+#, fuzzy
+#| msgid "Faster Startup?"
+msgctxt "@title:window"
+msgid "Faster Startup?"
+msgstr "Destpêkirina Hîn Zû?"
+
+#: about/konq_aboutpage.cc:465
+msgid "Disable"
+msgstr "çalak neke"
+
+#: about/konq_aboutpage.cc:465
+msgid "Keep"
+msgstr "Hilîne"
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbLimits)
+#: sidebar/history_module/history_dlg.ui:16
+msgid "Limits"
+msgstr "Sînor"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbExpire)
+#: sidebar/history_module/history_dlg.ui:38
+msgid "URLs e&xpire after"
+msgstr "Bidawîbûna URL'yan"
+
+#. i18n: ectx: property (text), widget (QLabel, lEntries)
+#: sidebar/history_module/history_dlg.ui:48
+msgid "Maximum &number of URLs:"
+msgstr "&Hejmara herî zêde ya URL'yan:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbFonts)
+#: sidebar/history_module/history_dlg.ui:67
+msgid "Custom Fonts For"
+msgstr "Curenivîsa Taybet:"
+
+#. i18n: ectx: property (text), widget (QLabel, lbNewer)
+#: sidebar/history_module/history_dlg.ui:82
+msgid "URLs newer than"
+msgstr "URL'yên ji vê dîrokê nûtir"
+
+#. i18n: ectx: property (text), widget (QPushButton, btnFontOlder)
+#. i18n: ectx: property (text), widget (QPushButton, btnFontNewer)
+#: sidebar/history_module/history_dlg.ui:98
+#: sidebar/history_module/history_dlg.ui:118
+msgid "Choose Font..."
+msgstr "Curenivîsê Hilbijêre..."
+
+#. i18n: ectx: property (text), widget (QLabel, lbOlder)
+#: sidebar/history_module/history_dlg.ui:105
+msgid "URLs older than"
+msgstr "URL'yên kevintir ji"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, cbDetailedTips)
+#: sidebar/history_module/history_dlg.ui:134
+msgid ""
+"Shows the number of times visited and the dates of the first and last "
+"visits, in addition to the URL"
+msgstr ""
+"Hejmara serîlêdanan nîşan dide. Di heman demê de jî demên serîlêdana pêşî û "
+"dawî jî nîşan dide."
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbDetailedTips)
+#: sidebar/history_module/history_dlg.ui:137
+msgid "Detailed tooltips"
+msgstr "Kîtekîtên alavan"
+
+#. i18n: ectx: property (text), widget (QPushButton, btnClearHistory)
+#: sidebar/history_module/history_dlg.ui:149
+msgid "Clear History"
+msgstr "Dîrokê jê bibe"
+
+#: sidebar/history_module/history_module.cpp:126
+#, fuzzy
+#| msgid "Web Sidebar"
+msgctxt "@action:inmenu Add"
+msgid "History Sidebar Module"
+msgstr "Darikê Kêlekê yê Webê"
+
+#: sidebar/history_module/history_module.cpp:149
 #, fuzzy
 #| msgid "Clear History"
-msgctxt "@title:window"
+msgctxt "@title:tab"
 msgid "History"
 msgstr "Dîrokê jê bibe"
 
-#: src/konqhistorydialog.cpp:61 src/konqhistoryview.cpp:143
-msgctxt "@action:inmenu Parent of 'By Name' and 'By Date'"
-msgid "Sort"
-msgstr "Rêz bike"
+#: sidebar/history_module/kcmhistory.cpp:71
+msgid " day"
+msgid_plural " days"
+msgstr[0] " roj"
+msgstr[1] " roj"
 
-#: src/konqsessiondlg.cpp:78
+#: sidebar/history_module/kcmhistory.cpp:77
+#: sidebar/history_module/kcmhistory.cpp:82
+#: sidebar/history_module/kcmhistory.cpp:215
+#: sidebar/history_module/kcmhistory.cpp:227
+msgid "Minute"
+msgid_plural "Minutes"
+msgstr[0] "Xulek"
+msgstr[1] "Xulek"
+
+#: sidebar/history_module/kcmhistory.cpp:79
+#: sidebar/history_module/kcmhistory.cpp:84
+#: sidebar/history_module/kcmhistory.cpp:213
+#: sidebar/history_module/kcmhistory.cpp:225
+msgid "Day"
+msgid_plural "Days"
+msgstr[0] "Roj"
+msgstr[1] "Roj"
+
+#: sidebar/history_module/kcmhistory.cpp:198
+msgid "<h1>History Sidebar</h1> You can configure the history sidebar here."
+msgstr ""
+"<h1>Darikê Kêlekê yê Dîrokê</h1> Tu dikarî darikê kêlekê yê dîrokê li vir "
+"veava bike."
+
+#: sidebar/history_module/kcmhistory.cpp:254 src/konqhistoryview.cpp:171
+msgid "Do you really want to clear the entire history?"
+msgstr "Bi rastî jî tu dixwazî hemû rabirdûyê jê bibî?"
+
+#: sidebar/history_module/kcmhistory.cpp:256 src/konqhistoryview.cpp:172
 #, fuzzy
-#| msgid "Manage Sessions"
+#| msgid "Clear History?"
 msgctxt "@title:window"
-msgid "Manage Sessions"
-msgstr "Danişênan bi rê ve bibe"
+msgid "Clear History?"
+msgstr "Rabirdûyê Jê Bibî?"
 
-#: src/konqsessiondlg.cpp:82
-msgid "&Open"
-msgstr "&Vekirin"
-
-#: src/konqsessiondlg.cpp:176
+#: sidebar/places_module/places_module.cpp:119
 #, fuzzy
-#| msgid "Rename session"
-msgctxt "@title:window"
-msgid "Rename Session"
-msgstr "Navê Danişînê Biguherîne"
+#| msgid "Web Sidebar"
+msgctxt "@action:inmenu Add"
+msgid "Places Sidebar Module"
+msgstr "Darikê Kêlekê yê Webê"
 
-#: src/konqsessiondlg.cpp:224
+#: sidebar/places_module/places_module.cpp:142
+msgctxt "@title:tab"
+msgid "Places"
+msgstr ""
+
+#: sidebar/sidebar_part.cpp:28
+msgid "Extended Sidebar"
+msgstr "Darikê Kêlekê Veava Bike"
+
+#: sidebar/sidebar_part.cpp:29 src/konqfactory.cpp:269
+msgid "Joseph Wenninger"
+msgstr "Joseph Wenninger"
+
+#: sidebar/sidebar_part.cpp:30 src/konqfactory.cpp:236
+msgid "David Faure"
+msgstr "David Faure"
+
+#: sidebar/sidebar_widget.cpp:95
+msgid "Rollback to System Default"
+msgstr "Vegerînê Mîhengên Standard ên Pergalê"
+
+#: sidebar/sidebar_widget.cpp:155 sidebar/sidebar_widget.cpp:432
+msgid "Configure Sidebar"
+msgstr "Darikê Kêlekê Veava Bike"
+
+#: sidebar/sidebar_widget.cpp:157
+msgid "Add New"
+msgstr "Nû Têxe"
+
+#: sidebar/sidebar_widget.cpp:161
+msgid "Multiple Views"
+msgstr "Gelek Dîmen"
+
+#: sidebar/sidebar_widget.cpp:163 sidebar/sidebar_widget.cpp:278
+msgid "Show Tabs Left"
+msgstr "Hilpekînên Aliyê Çepê Nîşan Bide"
+
+#: sidebar/sidebar_widget.cpp:164
+msgid "Show Configuration Button"
+msgstr "Bişkokê Mîhengan Nîşan Bide"
+
+#: sidebar/sidebar_widget.cpp:167
 #, fuzzy
-#| msgid "Save Session"
-msgctxt "@title:window"
-msgid "Save Session"
-msgstr "Danişînê tomar bike"
+#| msgid "Web Sidebar"
+msgid "Close Sidebar"
+msgstr "Darikê Kêlekê yê Webê"
 
-#: src/konqsessiondlg.cpp:248
+#: sidebar/sidebar_widget.cpp:225
+msgid "This entry already exists."
+msgstr "Ev ketan jixwe heye."
+
+#: sidebar/sidebar_widget.cpp:236
+msgid ""
+"<qt>This removes all your entries from the sidebar and adds the system "
+"default ones.<br /><b>This procedure is irreversible</b><br />Do you want to "
+"proceed?</qt>"
+msgstr ""
+"<qt>Pê re hemû ketanên te ji darikê kelekê tên rakirin û yên standard "
+"dikevin şûna wan.<br /><b>Jê nayê vegerandin</b><br />Tu dixwazî bidomînî?></"
+"qt>"
+
+#: sidebar/sidebar_widget.cpp:278
+msgid "Show Tabs Right"
+msgstr "Hilpekînên Aliyê Rastê Nîşan Bide"
+
+#: sidebar/sidebar_widget.cpp:288
+#, fuzzy
+#| msgid "Set Name"
+msgctxt "@title:window"
+msgid "Set Name"
+msgstr "Nav Hilbijêre"
+
+#: sidebar/sidebar_widget.cpp:288
+msgid "Enter the name:"
+msgstr "Navî binivîse:"
+
+#: sidebar/sidebar_widget.cpp:305
+msgid "Enter a URL:"
+msgstr "URL'ekê binivîse:"
+
+#: sidebar/sidebar_widget.cpp:328
+#, kde-format
+msgid "<qt>Do you really want to remove the <b>%1</b> tab?</qt>"
+msgstr "<qt>Bi rastî jî tu dixwazî hilfirîna <b>%1</b> rakî?</qt>"
+
+#: sidebar/sidebar_widget.cpp:373
+#, fuzzy
+#| msgid ""
+#| "You have hidden the navigation panel configuration button. To make it "
+#| "visible again, click the right mouse button on any of the navigation "
+#| "panel buttons and select \"Show Configuration Button\"."
+msgid ""
+"You have hidden the sidebar configuration button. To make it visible again, "
+"click the right mouse button on any of the sidebar buttons and select \"Show "
+"Configuration Button\"."
+msgstr ""
+"Te bişkojka veavakirina panela gerê girtiye. Ji bo wê careke din xuya bikî, "
+"mişkî li ciyeke ji rêzê a boşkojkên panela gerê rast bitikîne û \"Bişkojka "
+"Vevakirinê Nîşan Bide\" hilbijêre."
+
+#: sidebar/sidebar_widget.cpp:550
+msgid "Set Name..."
+msgstr "Nav Hilbijêre..."
+
+#: sidebar/sidebar_widget.cpp:551
+msgid "Set URL..."
+msgstr "URL Hilbijêre..."
+
+#: sidebar/sidebar_widget.cpp:552
+msgid "Set Icon..."
+msgstr "Îkonê Hilbijêre..."
+
+#: sidebar/sidebar_widget.cpp:554
+msgid "Remove"
+msgstr "Rakirin"
+
+#: sidebar/sidebar_widget.cpp:847
+#, fuzzy
+#| msgid "Web Sidebar"
+msgid "Web module"
+msgstr "Darikê Kêlekê yê Webê"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:75
+msgid "&Create New Folder"
+msgstr "&Peldaneke nû biafirîne"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:79
+#: sidebar/trees/konq_sidebartree.cpp:207
+msgid "Delete Folder"
+msgstr "Peldankê jê bibe"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:83
+msgid "Delete Bookmark"
+msgstr "Bijareyê Jê Bibe"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:87
+#: sidebar/trees/konq_sidebartree.cpp:224
+msgid "Properties"
+msgstr "Taybetmendî"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:91
+#: sidebar/trees/konq_sidebartree.cpp:228
+msgid "Open in New Window"
+msgstr "Di Paceyeke nû de Veke"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:95
+#: sidebar/trees/konq_sidebartree.cpp:232 src/konqhistoryview.cpp:67
+msgid "Open in New Tab"
+msgstr "Di Hilfirîna Nû de Veke"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:99
+msgid "Open Folder in Tabs"
+msgstr "Di paceyekê nû de veke"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:103
+#: sidebar/trees/konq_sidebartree.cpp:236
+msgid "Copy Link Address"
+msgstr "Girêdana Navnîşanê Ji Ber Bigire"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:316
+#, fuzzy
+#| msgid "Create New Folder"
+msgctxt "@title:window"
+msgid "Create New Bookmark Folder"
+msgstr "Afirandina Peldanka Nû"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:317
+#, fuzzy
+#| msgid "New Folder"
+msgid "New folder:"
+msgstr "Peldanka Nû"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:340
 #, kde-format
 msgid ""
-"A session with the name '%1' already exists, do you want to overwrite it?"
-msgstr "Danişîneke bi navê '%1' jixwe heye, dixwazî li serê binivîsî?"
-
-#: src/konqsessiondlg.cpp:249
-#, fuzzy
-#| msgid "Session exists. Overwrite?"
-msgctxt "@title:window"
-msgid "Session exists. Overwrite?"
-msgstr "Danişîn heye. Li serê binivîsî?"
-
-#: src/konqtabs.cpp:67
-#, fuzzy
-msgid ""
-"This bar contains the list of currently open tabs. Click on a tab to make it "
-"active. You can also use keyboard shortcuts to navigate through tabs. The "
-"text on the tab shows the content currently open in it; place your mouse "
-"over the tab to see the full title, in case it has been shortened to fit the "
-"tab width."
+"Are you sure you wish to remove the bookmark folder\n"
+"\"%1\"?"
 msgstr ""
-"Ev darik lîsteya hemû pekanên niha vekirî ne nîşan dide. Ji bo çalakirina "
-"pekanekê wê pekanê bitikîne. Tu dikarî di pekanê de li şûna logoya malperê "
-"bişkojka girtinê jî bidî xuyakirin. Tu dikarî bi kineriyên klavyeyê jî ji "
-"pekanekê herî ya din. Nivîsa li ser pekanê sernivîsa malpera vekirî ye. Ji "
-"bo tu hemû sernivîsa wê bibînî bi mişk here ser sepanê û hinekî li ser "
-"bimîne."
+"Bi rastî jî tu dixwazî vê peldanka bijareyê jê bibî\n"
+"\"%1\""
 
-#: src/konqtabs.cpp:101
-msgid "Open a new tab"
-msgstr "Hilfirîneke nû veke"
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:341
+#, kde-format
+msgid ""
+"Are you sure you wish to remove the bookmark\n"
+"\"%1\"?"
+msgstr ""
+"Bi rastî jî tu dixwazî vê bijareyê jê bibî\n"
+"\"%1\""
 
-#: src/konqtabs.cpp:110
-msgid "Close the current tab"
-msgstr "Hilfirîna derbasdar bigire"
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:342
+#, fuzzy
+#| msgid "Bookmark Folder Deletion"
+msgctxt "@title:window"
+msgid "Bookmark Folder Deletion"
+msgstr "Jêbirina Peldankên Bijareyan"
 
-#: src/konqtabs.cpp:330 src/konqmainwindow.cpp:3784
-msgid "&Reload All Tabs"
-msgstr "Hemû Tabloyan Ji nû ve Bar Bike"
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:343
+#, fuzzy
+#| msgid "Bookmark Deletion"
+msgctxt "@title:window"
+msgid "Bookmark Deletion"
+msgstr "Jêbirina Bijareyan"
 
-#: src/konqtabs.cpp:353 src/konqmainwindow.cpp:2596
-#: src/konqmainwindow.cpp:3722
-msgid "Close &Other Tabs"
-msgstr "Pekanên &Din Bigire"
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:385
+#, fuzzy
+#| msgid "Bookmark Properties"
+msgctxt "@title:window"
+msgid "Bookmark Properties"
+msgstr "Taybetmendiyên Bijareyan"
 
-#: src/konqtabs.cpp:464 src/konqmainwindow.cpp:3695
-msgid "&New Tab"
-msgstr "Pekana &Nû"
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:570
+msgid "&Update"
+msgstr "&Rojanekirin"
 
-#: src/konqtabs.cpp:469
-msgid "&Duplicate Tab"
-msgstr "&Paceyê 2qat bike"
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:578
+msgid "Name:"
+msgstr "Nav:"
 
-#: src/konqtabs.cpp:474
-msgid "&Reload Tab"
-msgstr "Hilfirînê Ji Nû Ve Bar Bike"
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:586
+msgid "Location:"
+msgstr "Herêm:"
 
-#: src/konqtabs.cpp:481
-msgid "Other Tabs"
-msgstr "Hilfirînên Din"
+#: sidebar/trees/bookmark_module/bookmark_module.h:88
+#, fuzzy
+#| msgid "Add Bookmark"
+msgctxt "@title:window"
+msgid "Add Bookmark"
+msgstr "Bijareyekê lê zêde bike"
 
-#: src/konqtabs.cpp:486
-msgid "D&etach Tab"
-msgstr "Hilfirînê Ji Hev V&eçirîne"
+#: sidebar/trees/dirtree_module/dirtree_module.cpp:417
+#, kde-format
+msgid "Cannot find parent item %1 in the tree. Internal error."
+msgstr "Hêmana mak %1, li ser darê nayê dîtin. Çewtiya hundurîn."
 
-#: src/konqtabs.cpp:492
-msgid "&Close Tab"
-msgstr "Hilfirînê &Bigire"
+#: sidebar/trees/konq_sidebartree.cpp:203
+msgid "&Create New Folder..."
+msgstr "&Peldaneke nû biafirîne..."
+
+#: sidebar/trees/konq_sidebartree.cpp:211
+msgid "Move to Trash"
+msgstr ""
+
+#: sidebar/trees/konq_sidebartree.cpp:215
+msgid "Rename"
+msgstr "Nav biguherîne"
+
+#: sidebar/trees/konq_sidebartree.cpp:220
+msgid "Delete Link"
+msgstr "Girêdanê Jê Bibe"
+
+#: sidebar/trees/konq_sidebartree.cpp:951
+msgid "New Folder"
+msgstr "Peldanka Nû"
+
+#: sidebar/trees/konq_sidebartree.cpp:955
+#, fuzzy
+#| msgid "Create New Folder"
+msgctxt "@title:window"
+msgid "Create New Folder"
+msgstr "Afirandina Peldanka Nû"
+
+#: sidebar/trees/konq_sidebartree.cpp:956
+msgid "Enter folder name:"
+msgstr "Navê peldankê binivîse:"
+
+#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
+#: sidebar/web_module/web_module.cpp:300
+#, fuzzy
+#| msgid "Name:"
+msgctxt "@label"
+msgid "Name:"
+msgstr "Nav:"
+
+#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
+#: sidebar/web_module/web_module.cpp:300
+msgctxt "@label"
+msgid "Path or URL:"
+msgstr ""
+
+#: sidebar/trees/konqsidebar_oldtreemodule.cpp:180
+msgctxt "@title:window"
+msgid "Add folder sidebar module"
+msgstr ""
+
+#: sidebar/web_module/web_module.cpp:57
+msgid "&Open Link"
+msgstr "Lînk &Veke"
+
+#: sidebar/web_module/web_module.cpp:61 src/konqhistoryview.cpp:62
+#: src/konqmainwindow.cpp:4678
+msgid "Open in New &Window"
+msgstr "Di &Paceyeke Nû de Veke"
+
+#: sidebar/web_module/web_module.cpp:68 src/konqmainwindow.cpp:3779
+msgid "&Reload"
+msgstr "Ji &Nû Ve Bar Bike"
+
+#: sidebar/web_module/web_module.cpp:73
+msgid "Set &Automatic Reload"
+msgstr "Barkirina &Bixweber Mîheng Bike"
+
+#: sidebar/web_module/web_module.cpp:137
+#, fuzzy
+#| msgid "Set Refresh Timeout (0 disables)"
+msgctxt "@title:window"
+msgid "Set Refresh Timeout (0 disables)"
+msgstr "Maweya Nûkirinê Mîheng Bide (0 digire)"
+
+#: sidebar/web_module/web_module.cpp:145
+#, fuzzy
+#| msgid "Minute"
+#| msgid_plural "Minutes"
+msgid " minute"
+msgid_plural " minutes"
+msgstr[0] "Xulek"
+msgstr[1] "Xulek"
+
+#: sidebar/web_module/web_module.cpp:148
+#, fuzzy
+#| msgid " sec"
+msgid " second"
+msgid_plural " seconds"
+msgstr[0] " çirke"
+msgstr[1] " çirke"
+
+#: sidebar/web_module/web_module.cpp:280
+#, fuzzy
+#| msgid "Web Sidebar"
+msgctxt "@action:inmenu Add"
+msgid "Web Sidebar Module"
+msgstr "Darikê Kêlekê yê Webê"
+
+#: sidebar/web_module/web_module.cpp:301
+msgctxt "@title:window"
+msgid "Add web sidebar module"
+msgstr ""
 
 #: src/konqclosedwindowsmanager.cpp:418 src/konqmainwindow.cpp:5160
 #: src/konqmainwindow.cpp:5220
 msgid "no name"
 msgstr "bênav"
 
-#: src/konqviewmanager.cpp:1407
-msgid ""
-"You have multiple tabs open in this window.\n"
-"Loading a view profile will close them."
-msgstr ""
-"Di vê paceyê de gelek hilfirîn vekirî ye.\n"
-"Heke tu profîleke nû ya bergehan bar bike wê van hilfirînan bigire."
-
-#: src/konqviewmanager.cpp:1409 src/konqmainwindow.cpp:5087
+#: src/konqextensionmanager.cpp:54
 #, fuzzy
-#| msgid "Confirmation"
+#| msgid "Configure"
 msgctxt "@title:window"
-msgid "Confirmation"
-msgstr "Erêkirin"
+msgid "Configure"
+msgstr "Veavakirin"
 
-#: src/konqviewmanager.cpp:1410
-msgid "Load View Profile"
-msgstr "Profîla Xuyanekê Bar Bike"
+#: src/konqextensionmanager.cpp:74 src/konqextensionmanager.cpp:77
+#: src/konqextensionmanager.cpp:78
+msgid "Extensions"
+msgstr "Pêvek"
 
-#: src/konqviewmanager.cpp:1422
+#: src/konqfactory.cpp:90
+#, kde-format
 msgid ""
-"This tab contains changes that have not been submitted.\n"
-"Loading a profile will discard these changes."
+"There was an error loading the module %1.\n"
+"The diagnostics is:\n"
+"%2"
 msgstr ""
-"Di vê hilfirînê de guherînên ku nehatine şandin heye.\n"
-"Heke tu profîleke nû bar bike wê hemû guherînan pişt guh re biavêjî."
+"Modula %1 nehate lêbarkirin.\n"
+"Sedema çewtiyê:\n"
+"%2"
 
-#: src/konqviewmanager.cpp:1423 src/konqmainwindow.cpp:1721
-#: src/konqmainwindow.cpp:2449 src/konqmainwindow.cpp:2540
-#: src/konqmainwindow.cpp:2570 src/konqmainwindow.cpp:2612
-#: src/konqmainwindow.cpp:2634 src/konqmainwindow.cpp:5122
-#, fuzzy
-#| msgid "Discard Changes?"
-msgctxt "@title:window"
-msgid "Discard Changes?"
-msgstr "Bila Guhartin Jê Bên Birin?"
+#: src/konqfactory.cpp:231
+msgid "Web browser, file manager and document viewer."
+msgstr "Geroka torê, gerînendeyê pelan û temaşekerê belgeyan."
 
-#: src/konqviewmanager.cpp:1423 src/konqmainwindow.cpp:1721
-#: src/konqmainwindow.cpp:2449 src/konqmainwindow.cpp:2540
-#: src/konqmainwindow.cpp:2570 src/konqmainwindow.cpp:2612
-#: src/konqmainwindow.cpp:2635 src/konqmainwindow.cpp:5122
-msgid "&Discard Changes"
-msgstr "Guhartinan &Jê Bibe"
+#: src/konqfactory.cpp:233
+msgid "(C) 1999-2008, The Konqueror developers"
+msgstr "(c) 1999-2008, Pêşvebirên Konqueror"
+
+#: src/konqfactory.cpp:235
+msgid "http://konqueror.kde.org"
+msgstr "http://konqueror.kde.org"
+
+#: src/konqfactory.cpp:236
+msgid "Developer (framework, parts, JavaScript, I/O library) and maintainer"
+msgstr "Pêşvebir (çarçove, parçe, JavaScript, pirtûkxaneya I/O) û kesê mîqet"
+
+#: src/konqfactory.cpp:237
+msgid "Simon Hausmann"
+msgstr "Simon Hausmann"
+
+#: src/konqfactory.cpp:237
+msgid "Developer (framework, parts)"
+msgstr "Pêşvebir (çarçove, parçe)"
+
+#: src/konqfactory.cpp:238
+msgid "Michael Reiher"
+msgstr "Michael Reiher"
+
+#: src/konqfactory.cpp:238 src/konqfactory.cpp:266 src/konqfactory.cpp:272
+msgid "Developer (framework)"
+msgstr "pêşvebir (çarçove giştî)"
+
+#: src/konqfactory.cpp:239
+msgid "Matthias Welk"
+msgstr "Matthias Welk"
+
+#: src/konqfactory.cpp:239
+msgid "Developer"
+msgstr "Pêşvebir"
+
+#: src/konqfactory.cpp:240
+msgid "Alexander Neundorf"
+msgstr "Alexander Neundorf"
+
+#: src/konqfactory.cpp:240
+msgid "Developer (List views)"
+msgstr "Pêşvebir (Dîtina lîsteyan)"
+
+#: src/konqfactory.cpp:241
+msgid "Michael Brade"
+msgstr "Michael Brade"
+
+#: src/konqfactory.cpp:241
+msgid "Developer (List views, I/O library)"
+msgstr "Pêşvebir (dîtina lîsteyan, nivîsgeha I/O )"
+
+#: src/konqfactory.cpp:242
+msgid "Lars Knoll"
+msgstr "Lars Knoll"
+
+#: src/konqfactory.cpp:242 src/konqfactory.cpp:243 src/konqfactory.cpp:244
+#: src/konqfactory.cpp:246 src/konqfactory.cpp:247 src/konqfactory.cpp:249
+#: src/konqfactory.cpp:250 src/konqfactory.cpp:251 src/konqfactory.cpp:252
+#: src/konqfactory.cpp:254
+msgid "Developer (HTML rendering engine)"
+msgstr "Pêşvebir (motora şîroveyan a HTML)"
+
+#: src/konqfactory.cpp:243
+msgid "Dirk Mueller"
+msgstr "Dirk Mueller"
+
+#: src/konqfactory.cpp:244
+msgid "Peter Kelly"
+msgstr "Peter Kelly"
+
+#: src/konqfactory.cpp:245
+msgid "Waldo Bastian"
+msgstr "Waldo Bastian"
+
+#: src/konqfactory.cpp:245
+msgid "Developer (HTML rendering engine, I/O library)"
+msgstr "Pêşvebir (motorê şîrovekirina HTML, nivîsgeha I/O )"
+
+#: src/konqfactory.cpp:246
+msgid "Germain Garand"
+msgstr "Germain Garand"
+
+#: src/konqfactory.cpp:247
+msgid "Leo Savernik"
+msgstr "Leo Savernik"
+
+#: src/konqfactory.cpp:248
+msgid "Stephan Kulow"
+msgstr "Stephan Kulow"
+
+#: src/konqfactory.cpp:248
+msgid ""
+"Developer (HTML rendering engine, I/O library, regression test framework)"
+msgstr ""
+"Pêşvebir (motorê şîrovekirina HTML, nivîsgeha I/O, nivîsgeha ketin û "
+"derketinê )"
+
+#: src/konqfactory.cpp:249
+msgid "Antti Koivisto"
+msgstr "Antti Koivisto"
+
+#: src/konqfactory.cpp:250
+msgid "Zack Rusin"
+msgstr "Zack Rusin"
+
+#: src/konqfactory.cpp:251
+msgid "Tobias Anton"
+msgstr "Tobias Anton"
+
+#: src/konqfactory.cpp:252
+msgid "Lubos Lunak"
+msgstr "Lubos Lunak"
+
+#: src/konqfactory.cpp:253
+msgid "Maks Orlovich"
+msgstr ""
+
+#: src/konqfactory.cpp:253 src/konqfactory.cpp:255
+msgid "Developer (HTML rendering engine, JavaScript)"
+msgstr "Pêşvebir (motorê şîrovekirina HTML,  JavaScript)"
+
+#: src/konqfactory.cpp:254
+msgid "Allan Sandfeld Jensen"
+msgstr "Allan Sandfeld Jensen"
+
+#: src/konqfactory.cpp:255
+msgid "Apple Safari Developers"
+msgstr "Pêşvebirên Apple Safari"
+
+#: src/konqfactory.cpp:256
+msgid "Harri Porten"
+msgstr "Harri Porten"
+
+#: src/konqfactory.cpp:256
+msgid "Developer (JavaScript)"
+msgstr "Pêşvebir (JavaScript)"
+
+#: src/konqfactory.cpp:257
+msgid "Koos Vriezen"
+msgstr "Koos Vriezen"
+
+#: src/konqfactory.cpp:257
+msgid "Developer (Java applets and other embedded objects)"
+msgstr "Pêşvebir (sepanokên Java û hêmanên hundirkirî)"
+
+#: src/konqfactory.cpp:258
+msgid "Matt Koss"
+msgstr "Matt Koss"
+
+#: src/konqfactory.cpp:258 src/konqfactory.cpp:259
+msgid "Developer (I/O library)"
+msgstr "Pêşvebir (I/O lib)"
+
+#: src/konqfactory.cpp:259
+msgid "Alex Zepeda"
+msgstr "Alex Zepeda"
+
+#: src/konqfactory.cpp:260
+msgid "Richard Moore"
+msgstr "Richard Moore"
+
+#: src/konqfactory.cpp:260 src/konqfactory.cpp:261
+msgid "Developer (Java applet support)"
+msgstr "Pêşvebir (desteka sepanoka Java)"
+
+#: src/konqfactory.cpp:261
+msgid "Dima Rogozin"
+msgstr "Dima Rogozin"
+
+#: src/konqfactory.cpp:262
+msgid "Wynn Wilkes"
+msgstr "Wynn Wilkes"
+
+#: src/konqfactory.cpp:262
+msgid ""
+"Developer (Java 2 security manager support,\n"
+" and other major improvements to applet support)"
+msgstr ""
+"Pêşvebir (piştgirya gerînendeyê ewlekariyê yê Java 2,\n"
+" û destekên hêja ji bo sepanokan)"
+
+#: src/konqfactory.cpp:263
+msgid "Stefan Schimanski"
+msgstr "Stefan Schimanski"
+
+#: src/konqfactory.cpp:263
+msgid "Developer (Netscape plugin support)"
+msgstr "Pêşvebir (desteka pêveka Netscape)"
+
+#: src/konqfactory.cpp:264
+msgid "George Staikos"
+msgstr "George Staikos"
+
+#: src/konqfactory.cpp:264
+msgid "Developer (SSL, Netscape plugins)"
+msgstr "Pêşvebir (SSL, piştgiriya pêveka Netscape)"
+
+#: src/konqfactory.cpp:265
+msgid "Dawit Alemayehu"
+msgstr "Dawit Alemayehu"
+
+#: src/konqfactory.cpp:265
+msgid "Developer (I/O library, Authentication support)"
+msgstr "Pêşvebir (pirtûkxaneya I/O, desteka piştrastkirina nasnameyê)"
+
+#: src/konqfactory.cpp:266
+msgid "Carsten Pfeiffer"
+msgstr "Carsten Pfeiffer"
+
+#: src/konqfactory.cpp:267
+msgid "Torsten Rahn"
+msgstr "Torsten Rahn"
+
+#: src/konqfactory.cpp:267
+msgid "Graphics/icons"
+msgstr "Grafîk/dawêr"
+
+#: src/konqfactory.cpp:268
+msgid "Torben Weis"
+msgstr "Torben Weis"
+
+#: src/konqfactory.cpp:268
+msgid "KFM author"
+msgstr "Nivîskarê KFM"
+
+#: src/konqfactory.cpp:269
+msgid "Developer (navigation panel framework)"
+msgstr "Pêşvebir (çarçoveya panela navîgasiyonê)"
+
+#: src/konqfactory.cpp:270
+msgid "Stephan Binner"
+msgstr "Stephan Binner"
+
+#: src/konqfactory.cpp:270
+msgid "Developer (misc stuff)"
+msgstr "Pêşvebir (tiştên curbecur)"
+
+#: src/konqfactory.cpp:271
+msgid "Ivor Hewitt"
+msgstr "Ivor Hewitt"
+
+#: src/konqfactory.cpp:271
+msgid "Developer (AdBlock filter)"
+msgstr "Pêşvebir (Parzûnê AdBlock)"
+
+#: src/konqfactory.cpp:272
+msgid "Eduardo Robles Elvira"
+msgstr "Eduardo Robles Elvira"
 
 #: src/konqframestatusbar.cpp:116
 msgid ""
@@ -205,6 +1329,77 @@ msgstr "%1/s"
 #: src/konqframestatusbar.cpp:245
 msgid "Stalled"
 msgstr "Tê rawestandin"
+
+#: src/konqguiclients.cpp:66
+#, kde-format
+msgid "Preview &in %1"
+msgstr "Pêşdîtina &li %1"
+
+#: src/konqguiclients.cpp:135
+#, kde-format
+msgid "Show %1"
+msgstr "%1 nîşan bide"
+
+#: src/konqhistorydialog.cpp:45
+#, fuzzy
+#| msgid "Clear History"
+msgctxt "@title:window"
+msgid "History"
+msgstr "Dîrokê jê bibe"
+
+#: src/konqhistorydialog.cpp:61 src/konqhistoryview.cpp:143
+msgctxt "@action:inmenu Parent of 'By Name' and 'By Date'"
+msgid "Sort"
+msgstr "Rêz bike"
+
+#: src/konqhistorymodel.cpp:137
+#, kde-format
+msgid ""
+"<qt><center><b>%1</b></center><hr />Last visited: %2<br />First visited: "
+"%3<br />Number of times visited: %4</qt>"
+msgstr ""
+"<qt><center><b>%1</b></center><hr />Serdana dawîn: %2<br />Serdana pêşîn: "
+"%3<br />Hejmara serdanan: %4</qt>"
+
+#: src/konqhistorymodel.cpp:233
+msgid "Local"
+msgstr ""
+
+#: src/konqhistorymodel.cpp:236
+msgid "Miscellaneous"
+msgstr "Cur be Cur"
+
+#: src/konqhistoryview.cpp:71
+#, fuzzy
+#| msgid "Copy Link Address"
+msgid "&Copy Link Address"
+msgstr "Girêdana Navnîşanê Ji Ber Bigire"
+
+#: src/konqhistoryview.cpp:76
+msgid "&Remove Entry"
+msgstr "Ketanê %Jê Bibî"
+
+#: src/konqhistoryview.cpp:83
+msgid "C&lear History"
+msgstr "Rabirdûyê P&aqij Bike"
+
+#: src/konqhistoryview.cpp:88
+msgid "&Preferences..."
+msgstr "&Vebijêrk..."
+
+#: src/konqhistoryview.cpp:95
+msgid "By &Name"
+msgstr "Bi &Nav"
+
+#: src/konqhistoryview.cpp:101
+msgid "By &Date"
+msgstr "Bi &Dîrokê"
+
+#: src/konqhistoryview.cpp:111
+#, fuzzy
+#| msgid "Clear History"
+msgid "Search in history"
+msgstr "Dîrokê jê bibe"
 
 #: src/konqmain.cpp:96
 #, fuzzy
@@ -272,18 +1467,26 @@ msgstr ""
 "Di vê rûpelê de guherînên ku nehatine şandin hene.\n"
 "Girtina rûpelê dê hemû guhartinan piştguh bike."
 
+#: src/konqmainwindow.cpp:1721 src/konqmainwindow.cpp:2449
+#: src/konqmainwindow.cpp:2540 src/konqmainwindow.cpp:2570
+#: src/konqmainwindow.cpp:2612 src/konqmainwindow.cpp:2634
+#: src/konqmainwindow.cpp:5122 src/konqviewmanager.cpp:1423
+#, fuzzy
+#| msgid "Discard Changes?"
+msgctxt "@title:window"
+msgid "Discard Changes?"
+msgstr "Bila Guhartin Jê Bên Birin?"
+
+#: src/konqmainwindow.cpp:1721 src/konqmainwindow.cpp:2449
+#: src/konqmainwindow.cpp:2540 src/konqmainwindow.cpp:2570
+#: src/konqmainwindow.cpp:2612 src/konqmainwindow.cpp:2635
+#: src/konqmainwindow.cpp:5122 src/konqviewmanager.cpp:1423
+msgid "&Discard Changes"
+msgstr "Guhartinan &Jê Bibe"
+
 #: src/konqmainwindow.cpp:1831
 msgid "File Management"
 msgstr "Gerînendetiya Pelan"
-
-#: src/konqmainwindow.cpp:1847 about/konq_aboutpage.cc:205
-msgid "Web Browsing"
-msgstr "Lêgerîna Webê"
-
-#: src/konqmainwindow.cpp:2107 src/konqmainwindow.cpp:2113
-#: about/konq_aboutpage.cc:91
-msgid "Home Folder"
-msgstr "Peldanka Malê"
 
 #: src/konqmainwindow.cpp:2108 src/konqmainwindow.cpp:3629
 #, fuzzy
@@ -299,9 +1502,8 @@ msgstr "Here 'Peldanka Malê' ya xwe"
 msgid "Navigate to your local 'Home Folder'"
 msgstr "Here 'Peldanka Malê' ya herêmî"
 
-#. i18n: file: src/konqueror.kcfg:11
 #. i18n: ectx: label, entry, group (UserSettings)
-#: src/konqmainwindow.cpp:2118 rc.cpp:101
+#: src/konqmainwindow.cpp:2118 src/konqueror.kcfg:11
 msgid "Home Page"
 msgstr "Malper"
 
@@ -347,6 +1549,11 @@ msgstr ""
 #: src/konqmainwindow.cpp:2595
 msgid "Do you really want to close all other tabs?"
 msgstr "Bi rastî jî tu dixwazî hemû pekanan bigirî?"
+
+#: src/konqmainwindow.cpp:2596 src/konqmainwindow.cpp:3722
+#: src/konqtabs.cpp:353
+msgid "Close &Other Tabs"
+msgstr "Pekanên &Din Bigire"
 
 #: src/konqmainwindow.cpp:2596
 #, fuzzy
@@ -499,6 +1706,10 @@ msgstr "Dîtên wekî &çep/rast par bike"
 msgid "Split View &Top/Bottom"
 msgstr "Dîtinê wekî &jor/jêr par bike"
 
+#: src/konqmainwindow.cpp:3695 src/konqtabs.cpp:464
+msgid "&New Tab"
+msgstr "Pekana &Nû"
+
 #: src/konqmainwindow.cpp:3701
 msgid "&Duplicate Current Tab"
 msgstr "Pekana &Rojane Ji ber bigire"
@@ -548,9 +1759,9 @@ msgstr "Profîlên Dîtinê &Ava Bike..."
 msgid "Load &View Profile"
 msgstr "Profîlên Dîtinê &Bar Bike"
 
-#: src/konqmainwindow.cpp:3779 sidebar/web_module/web_module.cpp:68
-msgid "&Reload"
-msgstr "Ji &Nû Ve Bar Bike"
+#: src/konqmainwindow.cpp:3784 src/konqtabs.cpp:330
+msgid "&Reload All Tabs"
+msgstr "Hemû Tabloyan Ji nû ve Bar Bike"
 
 #: src/konqmainwindow.cpp:3792
 msgid "&Force Reload"
@@ -804,11 +2015,6 @@ msgstr "Di &Vê Paceyê de Veke"
 msgid "Open the document in current window"
 msgstr "Pelgeyê di hilfirîna hatiye hilbijartin de veke"
 
-#: src/konqmainwindow.cpp:4678 src/konqhistoryview.cpp:62
-#: sidebar/web_module/web_module.cpp:61
-msgid "Open in New &Window"
-msgstr "Di &Paceyeke Nû de Veke"
-
 #: src/konqmainwindow.cpp:4679
 msgid "Open the document in a new window"
 msgstr "Pelgeyê di paceyeke nû de veke"
@@ -839,6 +2045,13 @@ msgstr "&Moda Dîtine"
 msgid ""
 "You have multiple tabs open in this window, are you sure you want to quit?"
 msgstr "Bêtir ji paceyekê vekiriye, Tu bawerî ku dixwazî derkevî?"
+
+#: src/konqmainwindow.cpp:5087 src/konqviewmanager.cpp:1409
+#, fuzzy
+#| msgid "Confirmation"
+msgctxt "@title:window"
+msgid "Confirmation"
+msgstr "Erêkirin"
 
 #: src/konqmainwindow.cpp:5089
 msgid "C&lose Current Tab"
@@ -896,6 +2109,16 @@ msgstr ""
 "Çewtiyeke avakirinê dixuye. Te Konqueror bi peleke cureyê %1 re têkildar "
 "kiriye, lê Konqueror nikare van pelan veke."
 
+#. i18n: ectx: property (text), widget (QLabel, lblDescription)
+#: src/konqnewsessiondlg_base.ui:33
+msgid "Save open tabs and windows for easy retrieval"
+msgstr "Ji bo hêsaniyê pace û hilpekînên vekirî tomar bike"
+
+#. i18n: ectx: property (text), widget (QLabel, lblSessionName)
+#: src/konqnewsessiondlg_base.ui:48
+msgid "&Session name:"
+msgstr "Navê &Danişînê:"
+
 #: src/konqprofiledlg.cpp:111
 #, fuzzy
 #| msgid "Profile Management"
@@ -911,406 +2134,83 @@ msgstr "Profîlê Ji Nû Ve &Binavîne"
 msgid "&Delete Profile"
 msgstr "Profîlê &Jê Bibe"
 
-#: src/konqview.cpp:1200
-msgid ""
-"The page you are trying to view is the result of posted form data. If you "
-"resend the data, any action the form carried out (such as search or online "
-"purchase) will be repeated. "
-msgstr ""
-"Rûpelê ku tu ber çav derbas dikî encama daneya ku bi formê re hatiye şandin "
-"e. Daneya ku dîsa were şandin, wê agahiyên di formê de dîsa bibîne. (Wekî "
-"encamên lêgerînê yan jî wekî encamê danûstendinên girêdayînê) "
+#. i18n: ectx: property (text), widget (QLabel, lblName)
+#: src/konqprofiledlg_base.ui:16
+msgid "&Profile name:"
+msgstr "Navê &Profîlê:"
 
-#: src/konqview.cpp:1202
+#. i18n: ectx: property (text), widget (QCheckBox, m_cbSaveURLs)
+#: src/konqprofiledlg_base.ui:32
+msgid "Save &URLs in profile"
+msgstr "&URLyan li profîlê tomar bike"
+
+#: src/konqsessiondlg.cpp:78
 #, fuzzy
-#| msgid "Warning"
+#| msgid "Manage Sessions"
 msgctxt "@title:window"
-msgid "Warning"
-msgstr "Hişyarî"
+msgid "Manage Sessions"
+msgstr "Danişênan bi rê ve bibe"
 
-#: src/konqview.cpp:1202
-msgid "Resend"
-msgstr "Ji nû ve bişîne"
+#: src/konqsessiondlg.cpp:82
+msgid "&Open"
+msgstr "&Vekirin"
 
-#: src/konqundomanager.cpp:110 src/konqundomanager.cpp:266
-msgid "Und&o: Closed Tab"
-msgstr "&Vegerîne: Hilfirînê Girtî"
-
-#: src/konqundomanager.cpp:112 src/konqundomanager.cpp:120
-#: src/konqundomanager.cpp:162
-msgid "Und&o: Closed Window"
-msgstr "&Vegerîne: Paceya Girtî"
-
-#: src/konqundomanager.cpp:122
-msgid "Und&o"
-msgstr ""
-
-#: src/konqextensionmanager.cpp:54
+#: src/konqsessiondlg.cpp:176
 #, fuzzy
-#| msgid "Configure"
+#| msgid "Rename session"
 msgctxt "@title:window"
-msgid "Configure"
-msgstr "Veavakirin"
+msgid "Rename Session"
+msgstr "Navê Danişînê Biguherîne"
 
-#: src/konqextensionmanager.cpp:74 src/konqextensionmanager.cpp:77
-#: src/konqextensionmanager.cpp:78
-msgid "Extensions"
-msgstr "Pêvek"
-
-#: src/konqfactory.cpp:90
-#, kde-format
-msgid ""
-"There was an error loading the module %1.\n"
-"The diagnostics is:\n"
-"%2"
-msgstr ""
-"Modula %1 nehate lêbarkirin.\n"
-"Sedema çewtiyê:\n"
-"%2"
-
-#: src/konqfactory.cpp:229 about/konq_aboutpage.cc:80
-#: about/konq_aboutpage.cc:136 about/konq_aboutpage.cc:190
-#: about/konq_aboutpage.cc:288
-msgid "Konqueror"
-msgstr "Konqueror"
-
-#: src/konqfactory.cpp:231
-msgid "Web browser, file manager and document viewer."
-msgstr "Geroka torê, gerînendeyê pelan û temaşekerê belgeyan."
-
-#: src/konqfactory.cpp:233
-msgid "(C) 1999-2008, The Konqueror developers"
-msgstr "(c) 1999-2008, Pêşvebirên Konqueror"
-
-#: src/konqfactory.cpp:235
-msgid "http://konqueror.kde.org"
-msgstr "http://konqueror.kde.org"
-
-#: src/konqfactory.cpp:236 sidebar/sidebar_part.cpp:30
-msgid "David Faure"
-msgstr "David Faure"
-
-#: src/konqfactory.cpp:236
-msgid "Developer (framework, parts, JavaScript, I/O library) and maintainer"
-msgstr "Pêşvebir (çarçove, parçe, JavaScript, pirtûkxaneya I/O) û kesê mîqet"
-
-#: src/konqfactory.cpp:237
-msgid "Simon Hausmann"
-msgstr "Simon Hausmann"
-
-#: src/konqfactory.cpp:237
-msgid "Developer (framework, parts)"
-msgstr "Pêşvebir (çarçove, parçe)"
-
-#: src/konqfactory.cpp:238
-msgid "Michael Reiher"
-msgstr "Michael Reiher"
-
-#: src/konqfactory.cpp:238 src/konqfactory.cpp:266 src/konqfactory.cpp:272
-msgid "Developer (framework)"
-msgstr "pêşvebir (çarçove giştî)"
-
-#: src/konqfactory.cpp:239
-msgid "Matthias Welk"
-msgstr "Matthias Welk"
-
-#: src/konqfactory.cpp:239
-msgid "Developer"
-msgstr "Pêşvebir"
-
-#: src/konqfactory.cpp:240
-msgid "Alexander Neundorf"
-msgstr "Alexander Neundorf"
-
-#: src/konqfactory.cpp:240
-msgid "Developer (List views)"
-msgstr "Pêşvebir (Dîtina lîsteyan)"
-
-#: src/konqfactory.cpp:241
-msgid "Michael Brade"
-msgstr "Michael Brade"
-
-#: src/konqfactory.cpp:241
-msgid "Developer (List views, I/O library)"
-msgstr "Pêşvebir (dîtina lîsteyan, nivîsgeha I/O )"
-
-#: src/konqfactory.cpp:242
-msgid "Lars Knoll"
-msgstr "Lars Knoll"
-
-#: src/konqfactory.cpp:242 src/konqfactory.cpp:243 src/konqfactory.cpp:244
-#: src/konqfactory.cpp:246 src/konqfactory.cpp:247 src/konqfactory.cpp:249
-#: src/konqfactory.cpp:250 src/konqfactory.cpp:251 src/konqfactory.cpp:252
-#: src/konqfactory.cpp:254
-msgid "Developer (HTML rendering engine)"
-msgstr "Pêşvebir (motora şîroveyan a HTML)"
-
-#: src/konqfactory.cpp:243
-msgid "Dirk Mueller"
-msgstr "Dirk Mueller"
-
-#: src/konqfactory.cpp:244
-msgid "Peter Kelly"
-msgstr "Peter Kelly"
-
-#: src/konqfactory.cpp:245
-msgid "Waldo Bastian"
-msgstr "Waldo Bastian"
-
-#: src/konqfactory.cpp:245
-msgid "Developer (HTML rendering engine, I/O library)"
-msgstr "Pêşvebir (motorê şîrovekirina HTML, nivîsgeha I/O )"
-
-#: src/konqfactory.cpp:246
-msgid "Germain Garand"
-msgstr "Germain Garand"
-
-#: src/konqfactory.cpp:247
-msgid "Leo Savernik"
-msgstr "Leo Savernik"
-
-#: src/konqfactory.cpp:248
-msgid "Stephan Kulow"
-msgstr "Stephan Kulow"
-
-#: src/konqfactory.cpp:248
-msgid ""
-"Developer (HTML rendering engine, I/O library, regression test framework)"
-msgstr ""
-"Pêşvebir (motorê şîrovekirina HTML, nivîsgeha I/O, nivîsgeha ketin û "
-"derketinê )"
-
-#: src/konqfactory.cpp:249
-msgid "Antti Koivisto"
-msgstr "Antti Koivisto"
-
-#: src/konqfactory.cpp:250
-msgid "Zack Rusin"
-msgstr "Zack Rusin"
-
-#: src/konqfactory.cpp:251
-msgid "Tobias Anton"
-msgstr "Tobias Anton"
-
-#: src/konqfactory.cpp:252
-msgid "Lubos Lunak"
-msgstr "Lubos Lunak"
-
-#: src/konqfactory.cpp:253
-msgid "Maks Orlovich"
-msgstr ""
-
-#: src/konqfactory.cpp:253 src/konqfactory.cpp:255
-msgid "Developer (HTML rendering engine, JavaScript)"
-msgstr "Pêşvebir (motorê şîrovekirina HTML,  JavaScript)"
-
-#: src/konqfactory.cpp:254
-msgid "Allan Sandfeld Jensen"
-msgstr "Allan Sandfeld Jensen"
-
-#: src/konqfactory.cpp:255
-msgid "Apple Safari Developers"
-msgstr "Pêşvebirên Apple Safari"
-
-#: src/konqfactory.cpp:256
-msgid "Harri Porten"
-msgstr "Harri Porten"
-
-#: src/konqfactory.cpp:256
-msgid "Developer (JavaScript)"
-msgstr "Pêşvebir (JavaScript)"
-
-#: src/konqfactory.cpp:257
-msgid "Koos Vriezen"
-msgstr "Koos Vriezen"
-
-#: src/konqfactory.cpp:257
-msgid "Developer (Java applets and other embedded objects)"
-msgstr "Pêşvebir (sepanokên Java û hêmanên hundirkirî)"
-
-#: src/konqfactory.cpp:258
-msgid "Matt Koss"
-msgstr "Matt Koss"
-
-#: src/konqfactory.cpp:258 src/konqfactory.cpp:259
-msgid "Developer (I/O library)"
-msgstr "Pêşvebir (I/O lib)"
-
-#: src/konqfactory.cpp:259
-msgid "Alex Zepeda"
-msgstr "Alex Zepeda"
-
-#: src/konqfactory.cpp:260
-msgid "Richard Moore"
-msgstr "Richard Moore"
-
-#: src/konqfactory.cpp:260 src/konqfactory.cpp:261
-msgid "Developer (Java applet support)"
-msgstr "Pêşvebir (desteka sepanoka Java)"
-
-#: src/konqfactory.cpp:261
-msgid "Dima Rogozin"
-msgstr "Dima Rogozin"
-
-#: src/konqfactory.cpp:262
-msgid "Wynn Wilkes"
-msgstr "Wynn Wilkes"
-
-#: src/konqfactory.cpp:262
-msgid ""
-"Developer (Java 2 security manager support,\n"
-" and other major improvements to applet support)"
-msgstr ""
-"Pêşvebir (piştgirya gerînendeyê ewlekariyê yê Java 2,\n"
-" û destekên hêja ji bo sepanokan)"
-
-#: src/konqfactory.cpp:263
-msgid "Stefan Schimanski"
-msgstr "Stefan Schimanski"
-
-#: src/konqfactory.cpp:263
-msgid "Developer (Netscape plugin support)"
-msgstr "Pêşvebir (desteka pêveka Netscape)"
-
-#: src/konqfactory.cpp:264
-msgid "George Staikos"
-msgstr "George Staikos"
-
-#: src/konqfactory.cpp:264
-msgid "Developer (SSL, Netscape plugins)"
-msgstr "Pêşvebir (SSL, piştgiriya pêveka Netscape)"
-
-#: src/konqfactory.cpp:265
-msgid "Dawit Alemayehu"
-msgstr "Dawit Alemayehu"
-
-#: src/konqfactory.cpp:265
-msgid "Developer (I/O library, Authentication support)"
-msgstr "Pêşvebir (pirtûkxaneya I/O, desteka piştrastkirina nasnameyê)"
-
-#: src/konqfactory.cpp:266
-msgid "Carsten Pfeiffer"
-msgstr "Carsten Pfeiffer"
-
-#: src/konqfactory.cpp:267
-msgid "Torsten Rahn"
-msgstr "Torsten Rahn"
-
-#: src/konqfactory.cpp:267
-msgid "Graphics/icons"
-msgstr "Grafîk/dawêr"
-
-#: src/konqfactory.cpp:268
-msgid "Torben Weis"
-msgstr "Torben Weis"
-
-#: src/konqfactory.cpp:268
-msgid "KFM author"
-msgstr "Nivîskarê KFM"
-
-#: src/konqfactory.cpp:269 sidebar/sidebar_part.cpp:29
-msgid "Joseph Wenninger"
-msgstr "Joseph Wenninger"
-
-#: src/konqfactory.cpp:269
-msgid "Developer (navigation panel framework)"
-msgstr "Pêşvebir (çarçoveya panela navîgasiyonê)"
-
-#: src/konqfactory.cpp:270
-msgid "Stephan Binner"
-msgstr "Stephan Binner"
-
-#: src/konqfactory.cpp:270
-msgid "Developer (misc stuff)"
-msgstr "Pêşvebir (tiştên curbecur)"
-
-#: src/konqfactory.cpp:271
-msgid "Ivor Hewitt"
-msgstr "Ivor Hewitt"
-
-#: src/konqfactory.cpp:271
-msgid "Developer (AdBlock filter)"
-msgstr "Pêşvebir (Parzûnê AdBlock)"
-
-#: src/konqfactory.cpp:272
-msgid "Eduardo Robles Elvira"
-msgstr "Eduardo Robles Elvira"
-
-#: src/konqguiclients.cpp:66
-#, kde-format
-msgid "Preview &in %1"
-msgstr "Pêşdîtina &li %1"
-
-#: src/konqguiclients.cpp:135
-#, kde-format
-msgid "Show %1"
-msgstr "%1 nîşan bide"
-
-#: src/konqhistorymodel.cpp:137
-#, kde-format
-msgid ""
-"<qt><center><b>%1</b></center><hr />Last visited: %2<br />First visited: "
-"%3<br />Number of times visited: %4</qt>"
-msgstr ""
-"<qt><center><b>%1</b></center><hr />Serdana dawîn: %2<br />Serdana pêşîn: "
-"%3<br />Hejmara serdanan: %4</qt>"
-
-#: src/konqhistorymodel.cpp:233
-msgid "Local"
-msgstr ""
-
-#: src/konqhistorymodel.cpp:236
-msgid "Miscellaneous"
-msgstr "Cur be Cur"
-
-#: src/konqhistoryview.cpp:67
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:95
-#: sidebar/trees/konq_sidebartree.cpp:232
-msgid "Open in New Tab"
-msgstr "Di Hilfirîna Nû de Veke"
-
-#: src/konqhistoryview.cpp:71
+#: src/konqsessiondlg.cpp:224
 #, fuzzy
-#| msgid "Copy Link Address"
-msgid "&Copy Link Address"
-msgstr "Girêdana Navnîşanê Ji Ber Bigire"
-
-#: src/konqhistoryview.cpp:76
-msgid "&Remove Entry"
-msgstr "Ketanê %Jê Bibî"
-
-#: src/konqhistoryview.cpp:83
-msgid "C&lear History"
-msgstr "Rabirdûyê P&aqij Bike"
-
-#: src/konqhistoryview.cpp:88
-msgid "&Preferences..."
-msgstr "&Vebijêrk..."
-
-#: src/konqhistoryview.cpp:95
-msgid "By &Name"
-msgstr "Bi &Nav"
-
-#: src/konqhistoryview.cpp:101
-msgid "By &Date"
-msgstr "Bi &Dîrokê"
-
-#: src/konqhistoryview.cpp:111
-#, fuzzy
-#| msgid "Clear History"
-msgid "Search in history"
-msgstr "Dîrokê jê bibe"
-
-#: src/konqhistoryview.cpp:171 sidebar/history_module/kcmhistory.cpp:254
-msgid "Do you really want to clear the entire history?"
-msgstr "Bi rastî jî tu dixwazî hemû rabirdûyê jê bibî?"
-
-#: src/konqhistoryview.cpp:172 sidebar/history_module/kcmhistory.cpp:256
-#, fuzzy
-#| msgid "Clear History?"
+#| msgid "Save Session"
 msgctxt "@title:window"
-msgid "Clear History?"
-msgstr "Rabirdûyê Jê Bibî?"
+msgid "Save Session"
+msgstr "Danişînê tomar bike"
+
+#: src/konqsessiondlg.cpp:248
+#, kde-format
+msgid ""
+"A session with the name '%1' already exists, do you want to overwrite it?"
+msgstr "Danişîneke bi navê '%1' jixwe heye, dixwazî li serê binivîsî?"
+
+#: src/konqsessiondlg.cpp:249
+#, fuzzy
+#| msgid "Session exists. Overwrite?"
+msgctxt "@title:window"
+msgid "Session exists. Overwrite?"
+msgstr "Danişîn heye. Li serê binivîsî?"
+
+#. i18n: ectx: property (text), widget (KPushButton, m_pNewButton)
+#: src/konqsessiondlg_base.ui:25
+msgctxt "@action:button New session"
+msgid "New..."
+msgstr "Nû..."
+
+#. i18n: ectx: property (text), widget (KPushButton, m_pSaveCurrentButton)
+#: src/konqsessiondlg_base.ui:32
+msgctxt "@action:button Save current session"
+msgid "Save Current"
+msgstr "Yê heyî tomar bike"
+
+#. i18n: ectx: property (text), widget (KPushButton, m_pRenameButton)
+#: src/konqsessiondlg_base.ui:39
+msgctxt "@action:button Rename session"
+msgid "Rename..."
+msgstr "Nav biguherîne..."
+
+#. i18n: ectx: property (text), widget (KPushButton, m_pDeleteButton)
+#: src/konqsessiondlg_base.ui:46
+msgctxt "@action:button Delete session"
+msgid "Delete"
+msgstr "Jêbirin"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_pOpenTabsInsideCurrentWindow)
+#. i18n: ectx: label, entry, group (Trash)
+#: src/konqsessiondlg_base.ui:72 src/konqueror.kcfg:531
+msgid "Open tabs inside current window"
+msgstr "Hilpekînan di paceya heyî de veke"
 
 #: src/konqsessionmanager.cpp:330
 #, fuzzy
@@ -1339,1241 +2239,284 @@ msgstr "Şûnde neyne"
 msgid "Ask Me Later"
 msgstr "Paşê bipirse"
 
-#: sidebar/history_module/history_module.cpp:126
+#: src/konqtabs.cpp:67
 #, fuzzy
-#| msgid "Web Sidebar"
-msgctxt "@action:inmenu Add"
-msgid "History Sidebar Module"
-msgstr "Darikê Kêlekê yê Webê"
-
-#: sidebar/history_module/history_module.cpp:149
-#, fuzzy
-#| msgid "Clear History"
-msgctxt "@title:tab"
-msgid "History"
-msgstr "Dîrokê jê bibe"
-
-#: sidebar/history_module/kcmhistory.cpp:71
-msgid " day"
-msgid_plural " days"
-msgstr[0] " roj"
-msgstr[1] " roj"
-
-#: sidebar/history_module/kcmhistory.cpp:77
-#: sidebar/history_module/kcmhistory.cpp:82
-#: sidebar/history_module/kcmhistory.cpp:215
-#: sidebar/history_module/kcmhistory.cpp:227
-msgid "Minute"
-msgid_plural "Minutes"
-msgstr[0] "Xulek"
-msgstr[1] "Xulek"
-
-#: sidebar/history_module/kcmhistory.cpp:79
-#: sidebar/history_module/kcmhistory.cpp:84
-#: sidebar/history_module/kcmhistory.cpp:213
-#: sidebar/history_module/kcmhistory.cpp:225
-msgid "Day"
-msgid_plural "Days"
-msgstr[0] "Roj"
-msgstr[1] "Roj"
-
-#: sidebar/history_module/kcmhistory.cpp:198
-msgid "<h1>History Sidebar</h1> You can configure the history sidebar here."
-msgstr ""
-"<h1>Darikê Kêlekê yê Dîrokê</h1> Tu dikarî darikê kêlekê yê dîrokê li vir "
-"veava bike."
-
-#: sidebar/places_module/places_module.cpp:119
-#, fuzzy
-#| msgid "Web Sidebar"
-msgctxt "@action:inmenu Add"
-msgid "Places Sidebar Module"
-msgstr "Darikê Kêlekê yê Webê"
-
-#: sidebar/places_module/places_module.cpp:142
-msgctxt "@title:tab"
-msgid "Places"
-msgstr ""
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:75
-msgid "&Create New Folder"
-msgstr "&Peldaneke nû biafirîne"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:79
-#: sidebar/trees/konq_sidebartree.cpp:207
-msgid "Delete Folder"
-msgstr "Peldankê jê bibe"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:83
-msgid "Delete Bookmark"
-msgstr "Bijareyê Jê Bibe"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:87
-#: sidebar/trees/konq_sidebartree.cpp:224
-msgid "Properties"
-msgstr "Taybetmendî"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:91
-#: sidebar/trees/konq_sidebartree.cpp:228
-msgid "Open in New Window"
-msgstr "Di Paceyeke nû de Veke"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:99
-msgid "Open Folder in Tabs"
-msgstr "Di paceyekê nû de veke"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:103
-#: sidebar/trees/konq_sidebartree.cpp:236
-msgid "Copy Link Address"
-msgstr "Girêdana Navnîşanê Ji Ber Bigire"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:316
-#, fuzzy
-#| msgid "Create New Folder"
-msgctxt "@title:window"
-msgid "Create New Bookmark Folder"
-msgstr "Afirandina Peldanka Nû"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:317
-#, fuzzy
-#| msgid "New Folder"
-msgid "New folder:"
-msgstr "Peldanka Nû"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:340
-#, kde-format
 msgid ""
-"Are you sure you wish to remove the bookmark folder\n"
-"\"%1\"?"
+"This bar contains the list of currently open tabs. Click on a tab to make it "
+"active. You can also use keyboard shortcuts to navigate through tabs. The "
+"text on the tab shows the content currently open in it; place your mouse "
+"over the tab to see the full title, in case it has been shortened to fit the "
+"tab width."
 msgstr ""
-"Bi rastî jî tu dixwazî vê peldanka bijareyê jê bibî\n"
-"\"%1\""
+"Ev darik lîsteya hemû pekanên niha vekirî ne nîşan dide. Ji bo çalakirina "
+"pekanekê wê pekanê bitikîne. Tu dikarî di pekanê de li şûna logoya malperê "
+"bişkojka girtinê jî bidî xuyakirin. Tu dikarî bi kineriyên klavyeyê jî ji "
+"pekanekê herî ya din. Nivîsa li ser pekanê sernivîsa malpera vekirî ye. Ji "
+"bo tu hemû sernivîsa wê bibînî bi mişk here ser sepanê û hinekî li ser "
+"bimîne."
+
+#: src/konqtabs.cpp:101
+msgid "Open a new tab"
+msgstr "Hilfirîneke nû veke"
+
+#: src/konqtabs.cpp:110
+msgid "Close the current tab"
+msgstr "Hilfirîna derbasdar bigire"
+
+#: src/konqtabs.cpp:469
+msgid "&Duplicate Tab"
+msgstr "&Paceyê 2qat bike"
+
+#: src/konqtabs.cpp:474
+msgid "&Reload Tab"
+msgstr "Hilfirînê Ji Nû Ve Bar Bike"
+
+#: src/konqtabs.cpp:481
+msgid "Other Tabs"
+msgstr "Hilfirînên Din"
+
+#: src/konqtabs.cpp:486
+msgid "D&etach Tab"
+msgstr "Hilfirînê Ji Hev V&eçirîne"
+
+#: src/konqtabs.cpp:492
+msgid "&Close Tab"
+msgstr "Hilfirînê &Bigire"
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:341
-#, kde-format
-msgid ""
-"Are you sure you wish to remove the bookmark\n"
-"\"%1\"?"
-msgstr ""
-"Bi rastî jî tu dixwazî vê bijareyê jê bibî\n"
-"\"%1\""
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:342
-#, fuzzy
-#| msgid "Bookmark Folder Deletion"
-msgctxt "@title:window"
-msgid "Bookmark Folder Deletion"
-msgstr "Jêbirina Peldankên Bijareyan"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:343
-#, fuzzy
-#| msgid "Bookmark Deletion"
-msgctxt "@title:window"
-msgid "Bookmark Deletion"
-msgstr "Jêbirina Bijareyan"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:385
-#, fuzzy
-#| msgid "Bookmark Properties"
-msgctxt "@title:window"
-msgid "Bookmark Properties"
-msgstr "Taybetmendiyên Bijareyan"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:570
-msgid "&Update"
-msgstr "&Rojanekirin"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:578
-msgid "Name:"
-msgstr "Nav:"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:586
-msgid "Location:"
-msgstr "Herêm:"
-
-#: sidebar/trees/bookmark_module/bookmark_module.h:88
-#, fuzzy
-#| msgid "Add Bookmark"
-msgctxt "@title:window"
-msgid "Add Bookmark"
-msgstr "Bijareyekê lê zêde bike"
-
-#: sidebar/trees/dirtree_module/dirtree_module.cpp:417
-#, kde-format
-msgid "Cannot find parent item %1 in the tree. Internal error."
-msgstr "Hêmana mak %1, li ser darê nayê dîtin. Çewtiya hundurîn."
-
-#: sidebar/trees/konq_sidebartree.cpp:203
-msgid "&Create New Folder..."
-msgstr "&Peldaneke nû biafirîne..."
-
-#: sidebar/trees/konq_sidebartree.cpp:211
-msgid "Move to Trash"
-msgstr ""
-
-#: sidebar/trees/konq_sidebartree.cpp:215
-msgid "Rename"
-msgstr "Nav biguherîne"
-
-#: sidebar/trees/konq_sidebartree.cpp:220
-msgid "Delete Link"
-msgstr "Girêdanê Jê Bibe"
-
-#: sidebar/trees/konq_sidebartree.cpp:951
-msgid "New Folder"
-msgstr "Peldanka Nû"
-
-#: sidebar/trees/konq_sidebartree.cpp:955
-#, fuzzy
-#| msgid "Create New Folder"
-msgctxt "@title:window"
-msgid "Create New Folder"
-msgstr "Afirandina Peldanka Nû"
-
-#: sidebar/trees/konq_sidebartree.cpp:956
-msgid "Enter folder name:"
-msgstr "Navê peldankê binivîse:"
-
-#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
-#: sidebar/web_module/web_module.cpp:300
-#, fuzzy
-#| msgid "Name:"
-msgctxt "@label"
-msgid "Name:"
-msgstr "Nav:"
-
-#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
-#: sidebar/web_module/web_module.cpp:300
-msgctxt "@label"
-msgid "Path or URL:"
-msgstr ""
-
-#: sidebar/trees/konqsidebar_oldtreemodule.cpp:180
-msgctxt "@title:window"
-msgid "Add folder sidebar module"
-msgstr ""
-
-#: sidebar/web_module/web_module.cpp:57
-msgid "&Open Link"
-msgstr "Lînk &Veke"
-
-#: sidebar/web_module/web_module.cpp:73
-msgid "Set &Automatic Reload"
-msgstr "Barkirina &Bixweber Mîheng Bike"
-
-#: sidebar/web_module/web_module.cpp:137
-#, fuzzy
-#| msgid "Set Refresh Timeout (0 disables)"
-msgctxt "@title:window"
-msgid "Set Refresh Timeout (0 disables)"
-msgstr "Maweya Nûkirinê Mîheng Bide (0 digire)"
-
-#: sidebar/web_module/web_module.cpp:145
-#, fuzzy
-#| msgid "Minute"
-#| msgid_plural "Minutes"
-msgid " minute"
-msgid_plural " minutes"
-msgstr[0] "Xulek"
-msgstr[1] "Xulek"
-
-#: sidebar/web_module/web_module.cpp:148
-#, fuzzy
-#| msgid " sec"
-msgid " second"
-msgid_plural " seconds"
-msgstr[0] " çirke"
-msgstr[1] " çirke"
-
-#: sidebar/web_module/web_module.cpp:280
-#, fuzzy
-#| msgid "Web Sidebar"
-msgctxt "@action:inmenu Add"
-msgid "Web Sidebar Module"
-msgstr "Darikê Kêlekê yê Webê"
-
-#: sidebar/web_module/web_module.cpp:301
-msgctxt "@title:window"
-msgid "Add web sidebar module"
-msgstr ""
-
-#: sidebar/sidebar_part.cpp:28
-msgid "Extended Sidebar"
-msgstr "Darikê Kêlekê Veava Bike"
-
-#: sidebar/sidebar_widget.cpp:95
-msgid "Rollback to System Default"
-msgstr "Vegerînê Mîhengên Standard ên Pergalê"
-
-#: sidebar/sidebar_widget.cpp:155 sidebar/sidebar_widget.cpp:432
-msgid "Configure Sidebar"
-msgstr "Darikê Kêlekê Veava Bike"
-
-#: sidebar/sidebar_widget.cpp:157
-msgid "Add New"
-msgstr "Nû Têxe"
-
-#: sidebar/sidebar_widget.cpp:161
-msgid "Multiple Views"
-msgstr "Gelek Dîmen"
-
-#: sidebar/sidebar_widget.cpp:163 sidebar/sidebar_widget.cpp:278
-msgid "Show Tabs Left"
-msgstr "Hilpekînên Aliyê Çepê Nîşan Bide"
-
-#: sidebar/sidebar_widget.cpp:164
-msgid "Show Configuration Button"
-msgstr "Bişkokê Mîhengan Nîşan Bide"
-
-#: sidebar/sidebar_widget.cpp:167
-#, fuzzy
-#| msgid "Web Sidebar"
-msgid "Close Sidebar"
-msgstr "Darikê Kêlekê yê Webê"
-
-#: sidebar/sidebar_widget.cpp:225
-msgid "This entry already exists."
-msgstr "Ev ketan jixwe heye."
-
-#: sidebar/sidebar_widget.cpp:236
-msgid ""
-"<qt>This removes all your entries from the sidebar and adds the system "
-"default ones.<br /><b>This procedure is irreversible</b><br />Do you want to "
-"proceed?</qt>"
-msgstr ""
-"<qt>Pê re hemû ketanên te ji darikê kelekê tên rakirin û yên standard "
-"dikevin şûna wan.<br /><b>Jê nayê vegerandin</b><br />Tu dixwazî bidomînî?></"
-"qt>"
-
-#: sidebar/sidebar_widget.cpp:278
-msgid "Show Tabs Right"
-msgstr "Hilpekînên Aliyê Rastê Nîşan Bide"
-
-#: sidebar/sidebar_widget.cpp:288
-#, fuzzy
-#| msgid "Set Name"
-msgctxt "@title:window"
-msgid "Set Name"
-msgstr "Nav Hilbijêre"
-
-#: sidebar/sidebar_widget.cpp:288
-msgid "Enter the name:"
-msgstr "Navî binivîse:"
-
-#: sidebar/sidebar_widget.cpp:305
-msgid "Enter a URL:"
-msgstr "URL'ekê binivîse:"
-
-#: sidebar/sidebar_widget.cpp:328
-#, kde-format
-msgid "<qt>Do you really want to remove the <b>%1</b> tab?</qt>"
-msgstr "<qt>Bi rastî jî tu dixwazî hilfirîna <b>%1</b> rakî?</qt>"
-
-#: sidebar/sidebar_widget.cpp:373
-#, fuzzy
-#| msgid ""
-#| "You have hidden the navigation panel configuration button. To make it "
-#| "visible again, click the right mouse button on any of the navigation "
-#| "panel buttons and select \"Show Configuration Button\"."
-msgid ""
-"You have hidden the sidebar configuration button. To make it visible again, "
-"click the right mouse button on any of the sidebar buttons and select \"Show "
-"Configuration Button\"."
-msgstr ""
-"Te bişkojka veavakirina panela gerê girtiye. Ji bo wê careke din xuya bikî, "
-"mişkî li ciyeke ji rêzê a boşkojkên panela gerê rast bitikîne û \"Bişkojka "
-"Vevakirinê Nîşan Bide\" hilbijêre."
-
-#: sidebar/sidebar_widget.cpp:550
-msgid "Set Name..."
-msgstr "Nav Hilbijêre..."
-
-#: sidebar/sidebar_widget.cpp:551
-msgid "Set URL..."
-msgstr "URL Hilbijêre..."
-
-#: sidebar/sidebar_widget.cpp:552
-msgid "Set Icon..."
-msgstr "Îkonê Hilbijêre..."
-
-#: sidebar/sidebar_widget.cpp:554
-msgid "Remove"
-msgstr "Rakirin"
-
-#: sidebar/sidebar_widget.cpp:847
-#, fuzzy
-#| msgid "Web Sidebar"
-msgid "Web module"
-msgstr "Darikê Kêlekê yê Webê"
-
-#: about/konq_aboutpage.cc:79 about/konq_aboutpage.cc:81
-#: about/konq_aboutpage.cc:135 about/konq_aboutpage.cc:137
-#: about/konq_aboutpage.cc:189 about/konq_aboutpage.cc:191
-#: about/konq_aboutpage.cc:287 about/konq_aboutpage.cc:289
-msgctxt "KDE 4 tag line, see http://kde.org/img/kde40.png"
-msgid "Be free."
-msgstr "Azad bibe."
-
-#: about/konq_aboutpage.cc:82 about/konq_aboutpage.cc:138
-#: about/konq_aboutpage.cc:192 about/konq_aboutpage.cc:290
-msgid "Konqueror is a web browser, file manager and universal document viewer."
-msgstr ""
-"Konqueror geroka torê, gerînendeyê pelan û nîşanderê gerdûnî yê belgeyan e."
-
-#: about/konq_aboutpage.cc:83 about/konq_aboutpage.cc:139
-#: about/konq_aboutpage.cc:193 about/konq_aboutpage.cc:291
-msgctxt ""
-"Link that points to the first page of the Konqueror 'about page', Starting "
-"Points contains links to Home, Network Folders, Trash, etc."
-msgid "Starting Points"
-msgstr "Xalên Destpêkê"
-
-#: about/konq_aboutpage.cc:84 about/konq_aboutpage.cc:140
-#: about/konq_aboutpage.cc:194 about/konq_aboutpage.cc:292
-msgid "Introduction"
-msgstr "Destpêk"
-
-#: about/konq_aboutpage.cc:85 about/konq_aboutpage.cc:141
-#: about/konq_aboutpage.cc:195 about/konq_aboutpage.cc:293
-msgid "Tips"
-msgstr "Pêşinyar"
-
-#: about/konq_aboutpage.cc:86 about/konq_aboutpage.cc:142
-#: about/konq_aboutpage.cc:196 about/konq_aboutpage.cc:197
-#: about/konq_aboutpage.cc:294
-msgid "Specifications"
-msgstr "Taybetmendî"
-
-#: about/konq_aboutpage.cc:92
-msgid "Your personal files"
-msgstr "Pelên te yên Şexsî"
-
-#: about/konq_aboutpage.cc:95
-msgid "Trash"
-msgstr "Çop"
-
-#: about/konq_aboutpage.cc:96
-msgid "Browse and restore the trash"
-msgstr "Li qutiya çopê binihêre û wan xelas bike"
-
-#: about/konq_aboutpage.cc:99
-msgid "Network Folders"
-msgstr "Peldankên Torê"
-
-#: about/konq_aboutpage.cc:100
-msgid "Shared files and folders"
-msgstr "Pel û peldankên hevpar"
-
-#: about/konq_aboutpage.cc:103
-#, fuzzy
-#| msgid "&Bookmarks"
-msgid "Bookmarks"
-msgstr "&Bijare"
-
-#: about/konq_aboutpage.cc:104
-msgid "Quick access to your bookmarks"
-msgstr ""
-
-#: about/konq_aboutpage.cc:107
-msgid "Next: An Introduction to Konqueror"
-msgstr "Ya pişt re: Têketina Konquerorê"
-
-#: about/konq_aboutpage.cc:109
-msgid "Search the Web"
-msgstr "Di webê de lê bigere"
-
-#: about/konq_aboutpage.cc:143
-msgid ""
-"Konqueror makes working with and managing your files easy. You can browse "
-"both local and networked folders while enjoying advanced features such as "
-"the powerful sidebar and file previews."
-msgstr ""
-"Koqueror rêvebirin û xebitandina pelên te gelekî hesan dike. Bi darikê "
-"kêlekê yê bi hêz û pêşdîtina pelgeyê tu dikarî hem li girêdanên herêmî hem "
-"jî li girêdanên peldankan bigerî."
-
-#: about/konq_aboutpage.cc:147
-msgid ""
-"Konqueror is also a full featured and easy to use web browser which you can "
-"use to explore the Internet. Enter the address (e.g. <a href=\"http://www."
-"kde.org\">http://www.kde.org</a>) of a web page you would like to visit in "
-"the location bar and press Enter, or choose an entry from the Bookmarks menu."
-msgstr ""
-"Konqueror ji bo gera te ya înternetê hem hêsanî ye hem jî gelek taybetiyên "
-"wê hene. Navnîşana malpereke tu dixwazî têkevê li darikê jorîn binivîse "
-"(mînak <a href=\"http://www.kde.org\">http://www.kde.org.tr</a>) û pê li "
-"bişkojka Enter bike an jî ji pêşeka Bijareyan navnîşanekê bitikîne."
-
-#: about/konq_aboutpage.cc:152
-#, kde-format
-msgid ""
-"To return to the previous location, press the back button <img width='16' "
-"height='16' src=\"%1\"></img> in the toolbar. "
-msgstr ""
-"Ji bo ku tu vegerî rûpelê berê, pêl bişkoka vegere ya di darikê amûran de ye "
-"<img width='16' height='16' src=\"%1\"></img> bike. "
-
-#: about/konq_aboutpage.cc:155
-#, kde-format
-msgid ""
-"To quickly go to your Home folder press the  home button <img width='16' "
-"height='16' src=\"%1\"></img>."
-msgstr ""
-"Heke tu bixwazî biçî ser peldanka mala xwe, bişkoka malê ya di darikê amûran "
-"de bitikîne <img width='16' height='16' src=\"%1\"></img>."
-
-#: about/konq_aboutpage.cc:157
-#, kde-format
-msgid ""
-"For more detailed documentation on Konqueror click <a href=\"%1\">here</a>."
-msgstr ""
-"Derbarê Konqueror de ji bo agahiyên zêde pêl <a href=\"%1\">vira</a> bike."
-
-#: about/konq_aboutpage.cc:159
-#, fuzzy, kde-format
-#| msgid ""
-#| "<em>Tuning Tip:</em> If you want the Konqueror web browser to start "
-#| "faster, you can turn off this information screen by clicking <a href="
-#| "\"%1\">here</a>. You can re-enable it by choosing the Help -> Konqueror "
-#| "Introduction menu option, and then pressing Settings -> Save View Profile "
-#| "\"Web Browsing\"."
-msgid ""
-"<em>Tuning Tip:</em> If you want the Konqueror web browser to start faster, "
-"you can turn off this information screen by clicking <a href=\"%1\">here</"
-"a>. You can re-enable it by choosing the Help -> Konqueror Introduction menu "
-"option, and then pressing Settings -> Save View Profile As... -> \"Web "
-"Browsing\"."
-msgstr ""
-"<em>Liberxistina hûrmîhengan:</em> Heke te divê Konqueror zûtir vebe, ji bo "
-"girtina dîmendera agahiyên ya destpêkê vê <A HREF=\"%1\">bişkojk</A>ê "
-"bitikîne. Ji bo tu dîsa çalak bikî Alîkarî -> ji pêşeka destpêka Konqueror'ê "
-"Mîheng -> Profîla Dîtinê Tomar Bike \"Gera Webê\" bitikîne."
-
-#: about/konq_aboutpage.cc:164
-msgid "Next: Tips &amp; Tricks"
-msgstr "Piştre: Liberxistin"
-
-#: about/konq_aboutpage.cc:198
-#, fuzzy, kde-format
-#| msgid ""
-#| "Konqueror is designed to embrace and support Internet standards. The aim "
-#| "is to fully implement the officially sanctioned standards from "
-#| "organizations such as the W3 and OASIS, while also adding extra support "
-#| "for other common usability features that arise as de facto standards "
-#| "across the Internet. Along with this support, for such functions as "
-#| "favicons, Internet Keywords, and <A HREF=\"%1\">XBEL bookmarks</A>, "
-#| "Konqueror also implements:"
-msgid ""
-"Konqueror is designed to embrace and support Internet standards. The aim is "
-"to fully implement the officially sanctioned standards from organizations "
-"such as the W3 and OASIS, while also adding extra support for other common "
-"usability features that arise as de facto standards across the Internet. "
-"Along with this support, for such functions as favicons, Web Shortcuts, and "
-"<A HREF=\"%1\">XBEL bookmarks</A>, Konqueror also implements:"
-msgstr ""
-"Konqueror, ji bo xwedîlêderketina standartên Internetê û destekirina wê "
-"hatiye afirandin. Armanc pêkanîna standardên ji aliyê W3 û OASIS ve hatine "
-"belîkirin bên bicihanîn, her wisa destekirina hinek hêmanên ku li ser "
-"Internetê bikêrhatî ye. Pê re jî, favicons, gotinên miftehî yên Internetê û "
-"<A HREF=\"%1\"> bijareyên XBEL </A> jî tên destekirin. Her wisa taybetiyên "
-"jêrîn ên Konqueror jî hene:"
-
-#: about/konq_aboutpage.cc:206
-msgid "Supported standards"
-msgstr "Standartên têne destekkirin"
-
-#: about/konq_aboutpage.cc:207
-msgid "Additional requirements*"
-msgstr "Pêwistiyên pêvek*"
-
-#: about/konq_aboutpage.cc:208
-#, kde-format
-msgid ""
-"<A HREF=\"%1\">DOM</A> (Level 1, partially Level 2) based <A HREF="
-"\"%2\">HTML 4.01</A>"
-msgstr ""
-"<a href=\"%1\">DOM</a> bi bingeha (1. Ast, asta demdemî 2) <a href="
-"\"%2\">HTML 4.01</a>"
-
-#: about/konq_aboutpage.cc:210 about/konq_aboutpage.cc:212
-#: about/konq_aboutpage.cc:225 about/konq_aboutpage.cc:230
-#: about/konq_aboutpage.cc:232
-msgid "built-in"
-msgstr "hate avakirin"
-
-#: about/konq_aboutpage.cc:211
-#, kde-format
-msgid "<A HREF=\"%1\">Cascading Style Sheets</A> (CSS 1, partially CSS 2)"
-msgstr ""
-"<A HREF=\"%1\">Kaxizên Şêwazan yên Hatine Raxistin</A> (CSS 1, derbasdar CSS "
-"2)"
-
-#: about/konq_aboutpage.cc:213
-#, kde-format
-msgid "<A HREF=\"%1\">ECMA-262</A> Edition 3 (roughly equals JavaScript 1.5)"
-msgstr ""
-"<A HREF=\"%1\">ECMA-262</A> Guherto 3 (hema hema wekî Javaskrîpt 1.5 e)"
-
-#: about/konq_aboutpage.cc:215
-#, kde-format
-msgid ""
-"JavaScript disabled (globally). Enable JavaScript <A HREF=\"%1\">here</A>."
-msgstr ""
-"Javaskrîpt ne çalak e. Javaskrîptê <A HREF=\"%1\">ji vir</A> çalak bike."
-
-#: about/konq_aboutpage.cc:216
-#, kde-format
-msgid ""
-"JavaScript enabled (globally). Configure JavaScript <A HREF=\\\"%1\\\">here</"
-"A>."
-msgstr ""
-"Javaskrîpt ne çalak e. Javaskrîptê <a href=\\\"%1\\\">ji vir</a> çalak bike."
-
-#: about/konq_aboutpage.cc:217
-#, kde-format
-msgid "Secure <A HREF=\"%1\">Java</A><SUP>&reg;</SUP> support"
-msgstr "Desteka <A HREF=\"%1\">Javaya</A><SUP>&reg;</SUP> Ewle"
-
-#: about/konq_aboutpage.cc:218
-#, fuzzy, kde-format
-#| msgid ""
-#| "JDK 1.2.0 (Java 2) compatible VM (<A HREF=\"%1\">Blackdown</A>, <A HREF="
-#| "\"%2\">IBM</A> or <A HREF=\"%3\">Sun</A>)"
-msgid ""
-"JDK 1.2.0 (Java 2) compatible VM (<A HREF=\"%1\">IBM</A> or <A HREF="
-"\"%2\">Sun/Oracle</A>)"
-msgstr ""
-"Bi desteka JDK 1.2.0 (Java 2) ev VM (<A HREF=\"%1\">Blackdown</A>,<A HREF="
-"\"%2\">IBM</A> an jî <A HREF=\"%3\">Sun</A>)"
-
-#: about/konq_aboutpage.cc:220
-#, kde-format
-msgid "Enable Java (globally) <A HREF=\"%1\">here</A>."
-msgstr "<A HREF=\"%1\">ji vir</A> Javayê çalak bike."
-
-#: about/konq_aboutpage.cc:221
-#, kde-format
-msgid ""
-"Netscape Communicator<SUP>&reg;</SUP> <A HREF=\"%4\">plugins</A> (for "
-"viewing <A HREF=\"%1\">Flash<SUP>&reg;</SUP></A>, <A HREF="
-"\"%2\">Real<SUP>&reg;</SUP></A>Audio, <A HREF=\"%3\">Real<SUP>&reg;</SUP></"
-"A>Video, etc.)"
-msgstr ""
-"Pêvekên Netscape Communicator<SUP>&reg;</SUP> <A HREF=\"%4\"> û </A> (for "
-"viewing <A HREF=\"%1\">Flash<SUP>&reg;</SUP></A>, <A HREF="
-"\"%2\">Real<SUP>&reg;</SUP></A>Audio, <A HREF=\"%3\">Real<SUP>&reg;</SUP></"
-"A>ji bo temaşeya videoyê)"
-
-#: about/konq_aboutpage.cc:226
-msgid "Secure Sockets Layer"
-msgstr "Asta Ketoka Ewle"
-
-#: about/konq_aboutpage.cc:227
-msgid "(TLS/SSL v2/3) for secure communications up to 168bit"
-msgstr "(TLS/SSL v2/3) ji bo heta 168 bitan têkildariya ewle"
-
-#: about/konq_aboutpage.cc:228
-msgid "OpenSSL"
-msgstr "SSL Veke"
-
-#: about/konq_aboutpage.cc:229
-msgid "Bidirectional 16bit unicode support"
-msgstr "Piştgiriya unîkoda 16 bit ya dualî"
-
-#: about/konq_aboutpage.cc:231
-msgid "AutoCompletion for forms"
-msgstr "Ji bo forman temamkirina bixweber"
-
-#: about/konq_aboutpage.cc:233
-msgctxt "Title of an html 'group box' explaining konqueror features"
-msgid "General"
-msgstr ""
-
-#: about/konq_aboutpage.cc:234
-msgid "Feature"
-msgstr "Taybetmendî"
-
-#. i18n: file: sidebar/history_module/history_dlg.ui:128
-#. i18n: ectx: property (title), widget (QGroupBox, gbDetails)
-#: about/konq_aboutpage.cc:235 rc.cpp:89
-msgid "Details"
-msgstr "Kîtekît"
-
-#: about/konq_aboutpage.cc:236
-msgid "Image formats"
-msgstr "Şêwazê wêne"
-
-#: about/konq_aboutpage.cc:237
-#, fuzzy
-#| msgid "PNG<br />MNG<br />JPG<br />GIF"
-msgid "PNG<br />JPG<br />GIF"
-msgstr "PNG<br />MNG<br />JPG<br />GIF"
-
-#: about/konq_aboutpage.cc:238
-msgid "Transfer protocols"
-msgstr "Protokolên Veguheztinê"
-
-#: about/konq_aboutpage.cc:239
-msgid "HTTP 1.1 (including gzip/bzip2 compression)"
-msgstr "HTTP 1.1 (pêçavên bzip2/gzip dihindurîne)"
-
-#: about/konq_aboutpage.cc:240
-msgid "FTP"
-msgstr "FTP"
-
-#: about/konq_aboutpage.cc:241
-#, fuzzy, kde-format
-#| msgid "and <A HREF=\"%1\">many more...</A>"
-msgid "and <A HREF=\"%1\">many more (see Kioslaves in KHelpcenter)...</A>"
-msgstr "û <A HREF=\"%1\">hîn zêde...</A>"
-
-#: about/konq_aboutpage.cc:242
-msgctxt "A feature of Konqueror"
-msgid "URL-Completion"
-msgstr "URL-Temamkirin"
-
-#: about/konq_aboutpage.cc:243
-msgid "Manual"
-msgstr "Rêber"
-
-#: about/konq_aboutpage.cc:244
-msgid "Popup"
-msgstr "Agahî"
-
-#: about/konq_aboutpage.cc:245
-msgid "(Short-) Automatic"
-msgstr "(Nîv) Bixweber"
-
-#: about/konq_aboutpage.cc:247
-#, kde-format
-msgctxt ""
-"Link that points to the first page of the Konqueror 'about page', Starting "
-"Points contains links to Home, Network Folders, Trash, etc."
-msgid "<a href=\"%1\">Return to Starting Points</a>"
-msgstr "<a href=\"%1\">Vegere Xalên Destpêkê</a>"
-
-#: about/konq_aboutpage.cc:295
-msgid "Tips &amp; Tricks"
-msgstr "Liberxistin"
-
-#: about/konq_aboutpage.cc:296
-#, fuzzy, kde-format
-#| msgid ""
-#| "Use Internet-Keywords and Web-Shortcuts: by typing \"gg: KDE\" one can "
-#| "search the Internet, using Google, for the search phrase \"KDE\". There "
-#| "are a lot of Web-Shortcuts predefined to make searching for software or "
-#| "looking up certain words in an encyclopedia a breeze. You can even <a "
-#| "href=\"%1\">create your own</a> Web-Shortcuts."
-msgid ""
-"Use Web-Shortcuts: by typing \"gg: KDE\" one can search the Internet, using "
-"Google, for the search phrase \"KDE\". There are a lot of Web-Shortcuts "
-"predefined to make searching for software or looking up certain words in an "
-"encyclopedia a breeze. You can even <a href=\"%1\">create your own</a> Web-"
-"Shortcuts."
-msgstr ""
-"Bêjeyên miftehî yên Internetê û kineriyên Webê bi kar bîne: \"gg: KDE\" "
-"binivîse, tu dikarî gotina \"KDE\" motora lêgerînê ya Google bi kar bînî û "
-"lê bigerî. Ji bo lêgerîna nivîsbariyê û lêkolîna di ensîklopediyan de gelek "
-"kineriyên Webê hene. Pê re jî tu dikarî <a href=\"%1\">kineriyên xwe</a> "
-"çêkî."
-
-#: about/konq_aboutpage.cc:301
-#, fuzzy, kde-format
-#| msgid ""
-#| "Use the magnifier button <img width='16' height='16' src=\"%1\"></img> in "
-#| "the toolbar to increase the font size on your web page."
-msgid ""
-"Use the magnifier button <img width='16' height='16' src=\"%1\"></img> in "
-"the HTML toolbar to increase the font size on your web page."
-msgstr ""
-"Ji bo mezinkirina curetîpên rûpela Webê, bişkojka pertavê ya li ser darikê "
-"amûran <img width='16' height='16' src=\"%1\"></img> bi kar bîne."
-
-#: about/konq_aboutpage.cc:303
-#, kde-format
-msgid ""
-"When you want to paste a new address into the Location toolbar you might "
-"want to clear the current entry by pressing the black arrow with the white "
-"cross <img width='16' height='16' src=\"%1\"></img> in the toolbar."
-msgstr ""
-"Berî tu navnîşaneke nû li darikê navnîşanê danî, ji bo tu ya kevin jê bibî "
-"tîra reş ku X li ser heye ya li ser darikê amûran<img width='16' height='16' "
-"src=\"%1\"></img> bi kar bîne."
-
-#: about/konq_aboutpage.cc:307
-#, fuzzy
-#| msgid ""
-#| "To create a link on your desktop pointing to the current page, simply "
-#| "drag the \"Location\" label that is to the left of the Location toolbar, "
-#| "drop it on to the desktop, and choose \"Link\"."
-msgid ""
-"To create a link on your desktop pointing to the current page, simply drag "
-"the icon (favicon) that is to the left of the Location toolbar, drop it on "
-"to the desktop, and choose \"Icon\"."
-msgstr ""
-"Heke tu bixwazî girêdanekê li ser maseya xwe çêkî, ji bo vê rûpela tu niha "
-"lê digerî, bi tenê li ser darikê amûrên Cihan etîketa \"Cih\" bi xwê re "
-"bikişîne û bibe sermaseya xwe û berde û vebijêrka \"Girêdan\"ê hilbijêre."
-
-#: about/konq_aboutpage.cc:310
-#, kde-format
-msgid ""
-"You can also find <img width='16' height='16' src=\"%1\" /> \"Full-Screen "
-"Mode\" in the Settings menu. This feature is very useful for \"Talk\" "
-"sessions."
-msgstr ""
-"Ji pêşeka paceyê tu dikarî<img width='16' height='16' src=\"%1\" /> \"Moda "
-"Dimendertijî\" bibînî. Ev taybetî ji bo danişînên \"Axaftin\" ê girîng e."
-
-#: about/konq_aboutpage.cc:313
-#, kde-format
-msgid ""
-"Divide et impera (lat. \"Divide and conquer\") - by splitting a window into "
-"two parts (e.g. Window -> <img width='16' height='16' src=\"%1\" /> Split "
-"View Left/Right) you can make Konqueror appear the way you like. You can "
-"even load some example view-profiles (e.g. Midnight Commander), or create "
-"your own ones."
-msgstr ""
-"Divide et impera (latînî: \"Parve bike û hikm bike\") - paceyê dike du parçe "
-"(mînak. Pace -> <img width='16' height='16' src=\"%1\" /> Dîmenê Çep/Rast "
-"Parve bike) tu dikarî Konqueror'ê wekî tu hez dikî nîşan bikî. Her wisa tu "
-"dikarî hinek profîlên dîtinê yên mînak lê bar bikî (mînak. Midnight-"
-"Commander), an jî tu dikarî profîla xwe çêkî."
-
-#: about/konq_aboutpage.cc:318
-#, kde-format
-msgid ""
-"Use the <a href=\"%1\">user-agent</a> feature if the website you are "
-"visiting asks you to use a different browser (and do not forget to send a "
-"complaint to the webmaster!)"
-msgstr ""
-"Rûpela tu serîlêdana wê dikî here ji aliyê geroka te ve nayê destekirin, "
-"taybetiya <a href=\"%1\">ajanê bikarhêner</a> bi kar bîne (ji bîr neke û "
-"giliyê xwe jî ji rêveberê wê malperê re bişîne)"
-
-#: about/konq_aboutpage.cc:321
-#, fuzzy, kde-format
-#| msgid ""
-#| "The <img width='16' height='16' src=\"%1\"></img> History in your SideBar "
-#| "ensures that you can keep track of the pages you have visited recently."
-msgid ""
-"The <img width='16' height='16' src=\"%1\"></img> History in your Sidebar "
-"ensures that you can keep track of the pages you have visited recently."
-msgstr ""
-"Ev a ku li darikê kêlekê xuya dike <img width='16' height='16' src=\"%1\"></"
-"img> ji bo bikaranîna dîroka te û şopa rûpelên tu lê geriyayî ye."
-
-#: about/konq_aboutpage.cc:323
-#, kde-format
-msgid ""
-"Use a caching <a href=\"%1\">proxy</a> to speed up your Internet connection."
-msgstr ""
-"Tu dikarî pêşkêşkereke hilanîna bîrê <a href=\"%1\"></a> bi kar bînî û xeta "
-"xwe ya înternetê xurtir bikî."
-
-#: about/konq_aboutpage.cc:325
-#, fuzzy, kde-format
-#| msgid ""
-#| "Advanced users will appreciate the Konsole which you can embed into "
-#| "Konqueror (Window -> <img width='16' height='16' SRC=\"%1\"></img> Show "
-#| "Terminal Emulator)."
-msgid ""
-"Advanced users will appreciate the Konsole which you can embed into "
-"Konqueror (Settings -> <img width='16' height='16' SRC=\"%1\"></img> Show "
-"Terminal Emulator)."
-msgstr ""
-"Bikarhênerên pispor konsola ku tu dikarî di Konqueror de hilînî çalak dikin "
-"(Pace -> <img width='16' height='16' src=\"%1\"></img> Emulatora Termînalê "
-"Nîşan Bide) û dikarin bi kar bînin."
-
-#: about/konq_aboutpage.cc:329
-msgid "Next: Specifications"
-msgstr "Ya dû re: Şert"
-
-#: about/konq_aboutpage.cc:344
-msgid "Installed Plugins"
-msgstr "Pêvekên Sazkirî"
-
-#: about/konq_aboutpage.cc:345
-msgid "<td>Plugin</td><td>Description</td><td>File</td><td>Types</td>"
-msgstr "<td>Pêvek</td><td>Daxuyanî</td><td>Pel</td><td>Cure</td>"
-
-#: about/konq_aboutpage.cc:346
-msgid "Installed"
-msgstr "Sazkirî"
-
-#: about/konq_aboutpage.cc:347
-msgid "<td>Mime Type</td><td>Description</td><td>Suffixes</td><td>Plugin</td>"
-msgstr "<td>Cureyê Mime</td><td>Daxuyanî</td><td>Paşgir</td><td>Pêvek</td>"
-
-#: about/konq_aboutpage.cc:463
-msgid ""
-"Do you want to disable showing the introduction in the webbrowsing profile?"
-msgstr "Tu dixwazî ku destpêkirin di geroka internetê de neyê xuyakirin?"
-
-#: about/konq_aboutpage.cc:465
-#, fuzzy
-#| msgid "Faster Startup?"
-msgctxt "@title:window"
-msgid "Faster Startup?"
-msgstr "Destpêkirina Hîn Zû?"
-
-#: about/konq_aboutpage.cc:465
-msgid "Disable"
-msgstr "çalak neke"
-
-#: about/konq_aboutpage.cc:465
-msgid "Keep"
-msgstr "Hilîne"
-
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Erdal Ronahi"
-
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "erdal dot ronahi at gmail dot com"
-
-#. i18n: file: src/konqueror.rc:5
-#. i18n: ectx: Menu (file)
-#: rc.cpp:5
-msgid "&File"
-msgstr "&Pel"
-
-#. i18n: file: src/konqueror.rc:24
-#. i18n: ectx: Menu (edit)
-#: rc.cpp:8
-msgid "&Edit"
-msgstr "&Sererastkirin"
-
-#. i18n: file: src/konqueror.rc:33
-#. i18n: ectx: Menu (view)
-#: rc.cpp:11
-msgid "&View"
-msgstr "&Dîmen"
-
-#. i18n: file: src/konqueror.rc:44
-#. i18n: ectx: Menu (go)
-#: rc.cpp:14
-msgid "&Go"
-msgstr "&Here"
-
-#. i18n: file: src/konqueror.rc:54
-#. i18n: ectx: Menu (settings)
-#: rc.cpp:17
-msgid "&Settings"
-msgstr "&Mîheng"
-
-#. i18n: file: src/konqueror.rc:71
-#. i18n: ectx: Menu (window)
-#: rc.cpp:20
-msgid "&Window"
-msgstr "&Pace"
-
-#. i18n: file: src/konqueror.rc:87
-#. i18n: ectx: Menu (help)
-#: rc.cpp:23
-msgid "&Help"
-msgstr "&Alîkarî"
-
-#. i18n: file: src/konqueror.rc:92
-#. i18n: ectx: ToolBar (mainToolBar)
-#: rc.cpp:26
-msgid "Main Toolbar"
-msgstr "Darikê Mak"
-
-#. i18n: file: src/konqueror.rc:102
-#. i18n: ectx: ToolBar (extraToolBar)
-#: rc.cpp:29
-msgid "Extra Toolbar"
-msgstr "Darikê Amûran ê Bêhtir"
-
-#. i18n: file: src/konqueror.rc:109
-#. i18n: ectx: ToolBar (locationToolBar)
-#: rc.cpp:32
-msgid "Location Toolbar"
-msgstr "Darikê Amûran ê Cih"
-
-#. i18n: file: src/konqueror.rc:115
-#. i18n: ectx: ToolBar (bookmarkToolBar)
-#: rc.cpp:35
-msgid "Bookmark Toolbar"
-msgstr "Darikê Amûran ê Bijareyan"
-
-#. i18n: file: src/konqnewsessiondlg_base.ui:33
-#. i18n: ectx: property (text), widget (QLabel, lblDescription)
-#: rc.cpp:38
-msgid "Save open tabs and windows for easy retrieval"
-msgstr "Ji bo hêsaniyê pace û hilpekînên vekirî tomar bike"
-
-#. i18n: file: src/konqnewsessiondlg_base.ui:48
-#. i18n: ectx: property (text), widget (QLabel, lblSessionName)
-#: rc.cpp:41
-msgid "&Session name:"
-msgstr "Navê &Danişînê:"
-
-#. i18n: file: src/konqprofiledlg_base.ui:16
-#. i18n: ectx: property (text), widget (QLabel, lblName)
-#: rc.cpp:44
-msgid "&Profile name:"
-msgstr "Navê &Profîlê:"
-
-#. i18n: file: src/konqprofiledlg_base.ui:32
-#. i18n: ectx: property (text), widget (QCheckBox, m_cbSaveURLs)
-#: rc.cpp:47
-msgid "Save &URLs in profile"
-msgstr "&URLyan li profîlê tomar bike"
-
-#. i18n: file: src/konqsessiondlg_base.ui:25
-#. i18n: ectx: property (text), widget (KPushButton, m_pNewButton)
-#: rc.cpp:50
-msgctxt "@action:button New session"
-msgid "New..."
-msgstr "Nû..."
-
-#. i18n: file: src/konqsessiondlg_base.ui:32
-#. i18n: ectx: property (text), widget (KPushButton, m_pSaveCurrentButton)
-#: rc.cpp:53
-msgctxt "@action:button Save current session"
-msgid "Save Current"
-msgstr "Yê heyî tomar bike"
-
-#. i18n: file: src/konqsessiondlg_base.ui:39
-#. i18n: ectx: property (text), widget (KPushButton, m_pRenameButton)
-#: rc.cpp:56
-msgctxt "@action:button Rename session"
-msgid "Rename..."
-msgstr "Nav biguherîne..."
-
-#. i18n: file: src/konqsessiondlg_base.ui:46
-#. i18n: ectx: property (text), widget (KPushButton, m_pDeleteButton)
-#: rc.cpp:59
-msgctxt "@action:button Delete session"
-msgid "Delete"
-msgstr "Jêbirin"
-
-#. i18n: file: src/konqsessiondlg_base.ui:72
-#. i18n: ectx: property (text), widget (QCheckBox, m_pOpenTabsInsideCurrentWindow)
-#. i18n: file: src/konqueror.kcfg:531
-#. i18n: ectx: label, entry, group (Trash)
-#: rc.cpp:62 rc.cpp:164
-msgid "Open tabs inside current window"
-msgstr "Hilpekînan di paceya heyî de veke"
-
-#. i18n: file: sidebar/history_module/history_dlg.ui:16
-#. i18n: ectx: property (title), widget (QGroupBox, gbLimits)
-#: rc.cpp:65
-msgid "Limits"
-msgstr "Sînor"
-
-#. i18n: file: sidebar/history_module/history_dlg.ui:38
-#. i18n: ectx: property (text), widget (QCheckBox, cbExpire)
-#: rc.cpp:68
-msgid "URLs e&xpire after"
-msgstr "Bidawîbûna URL'yan"
-
-#. i18n: file: sidebar/history_module/history_dlg.ui:48
-#. i18n: ectx: property (text), widget (QLabel, lEntries)
-#: rc.cpp:71
-msgid "Maximum &number of URLs:"
-msgstr "&Hejmara herî zêde ya URL'yan:"
-
-#. i18n: file: sidebar/history_module/history_dlg.ui:67
-#. i18n: ectx: property (title), widget (QGroupBox, gbFonts)
-#: rc.cpp:74
-msgid "Custom Fonts For"
-msgstr "Curenivîsa Taybet:"
-
-#. i18n: file: sidebar/history_module/history_dlg.ui:82
-#. i18n: ectx: property (text), widget (QLabel, lbNewer)
-#: rc.cpp:77
-msgid "URLs newer than"
-msgstr "URL'yên ji vê dîrokê nûtir"
-
-#. i18n: file: sidebar/history_module/history_dlg.ui:98
-#. i18n: ectx: property (text), widget (QPushButton, btnFontOlder)
-#. i18n: file: sidebar/history_module/history_dlg.ui:118
-#. i18n: ectx: property (text), widget (QPushButton, btnFontNewer)
-#: rc.cpp:80 rc.cpp:86
-msgid "Choose Font..."
-msgstr "Curenivîsê Hilbijêre..."
-
-#. i18n: file: sidebar/history_module/history_dlg.ui:105
-#. i18n: ectx: property (text), widget (QLabel, lbOlder)
-#: rc.cpp:83
-msgid "URLs older than"
-msgstr "URL'yên kevintir ji"
-
-#. i18n: file: sidebar/history_module/history_dlg.ui:134
-#. i18n: ectx: property (toolTip), widget (QCheckBox, cbDetailedTips)
-#: rc.cpp:92
-msgid ""
-"Shows the number of times visited and the dates of the first and last "
-"visits, in addition to the URL"
-msgstr ""
-"Hejmara serîlêdanan nîşan dide. Di heman demê de jî demên serîlêdana pêşî û "
-"dawî jî nîşan dide."
-
-#. i18n: file: sidebar/history_module/history_dlg.ui:137
-#. i18n: ectx: property (text), widget (QCheckBox, cbDetailedTips)
-#: rc.cpp:95
-msgid "Detailed tooltips"
-msgstr "Kîtekîtên alavan"
-
-#. i18n: file: sidebar/history_module/history_dlg.ui:149
-#. i18n: ectx: property (text), widget (QPushButton, btnClearHistory)
-#: rc.cpp:98
-msgid "Clear History"
-msgstr "Dîrokê jê bibe"
-
-#. i18n: file: src/konqueror.kcfg:12
 #. i18n: ectx: whatsthis, entry, group (UserSettings)
-#: rc.cpp:104
+#: src/konqueror.kcfg:12
 msgid ""
 "This is the URL of the web page where Konqueror (as web browser) will jump "
 "to when the \\\"Home\\\" button is pressed. When Konqueror is started as a "
 "file manager, that button makes it jump to your local home folder instead."
 msgstr ""
 
-#. i18n: file: src/konqueror.kcfg:22
 #. i18n: ectx: label, entry, group (UndoManagerSettings)
-#: rc.cpp:107
+#: src/konqueror.kcfg:22
 #, fuzzy
 #| msgid "Maximum &number of URLs:"
 msgid "Maximum number of Closed Items"
 msgstr "&Hejmara herî zêde ya URL'yan:"
 
-#. i18n: file: src/konqueror.kcfg:23
 #. i18n: ectx: whatsthis, entry, group (UndoManagerSettings)
-#: rc.cpp:110
+#: src/konqueror.kcfg:23
 msgid ""
 "This sets the maximum number of closed items that will be stored in memory. "
 "This limit will not be surpassed."
 msgstr ""
 
-#. i18n: file: src/konqueror.kcfg:32
 #. i18n: ectx: label, entry, group (FMSettings)
-#: rc.cpp:113
+#: src/konqueror.kcfg:32
 #, fuzzy
 #| msgid "Open tabs inside current window"
 msgid "Open folders in separate windows"
 msgstr "Hilpekînan di paceya heyî de veke"
 
-#. i18n: file: src/konqueror.kcfg:33
 #. i18n: ectx: whatsthis, entry, group (FMSettings)
-#: rc.cpp:116
+#: src/konqueror.kcfg:33
 msgid ""
 "If this option is checked, Konqueror will open a new window when you open a "
 "folder, rather than showing that folder's contents in the current window."
 msgstr ""
 
-#. i18n: file: src/konqueror.kcfg:38
 #. i18n: ectx: label, entry, group (FMSettings)
-#: rc.cpp:119
+#: src/konqueror.kcfg:38
 msgid "Show file tips"
 msgstr ""
 
-#. i18n: file: src/konqueror.kcfg:39
 #. i18n: ectx: whatsthis, entry, group (FMSettings)
-#: rc.cpp:122
+#: src/konqueror.kcfg:39
 msgid ""
 "Here you can control if, when moving the mouse over a file, you want to see "
 "a small popup window with additional information about that file"
 msgstr ""
 
-#. i18n: file: src/konqueror.kcfg:50
 #. i18n: ectx: label, entry, group (FMSettings)
-#: rc.cpp:125
+#: src/konqueror.kcfg:50
 msgid "Show previews in file tips"
 msgstr ""
 
-#. i18n: file: src/konqueror.kcfg:51
 #. i18n: ectx: whatsthis, entry, group (FMSettings)
-#: rc.cpp:128
+#: src/konqueror.kcfg:51
 msgid ""
 "Here you can control if you want the popup window to contain a larger "
 "preview for the file, when moving the mouse over it"
 msgstr ""
 
-#. i18n: file: src/konqueror.kcfg:56
 #. i18n: ectx: label, entry, group (FMSettings)
-#: rc.cpp:131
+#: src/konqueror.kcfg:56
 msgid "Show 'Delete' menu entries which bypass the trashcan"
 msgstr ""
 
-#. i18n: file: src/konqueror.kcfg:57
 #. i18n: ectx: whatsthis, entry, group (FMSettings)
-#: rc.cpp:134
+#: src/konqueror.kcfg:57
 msgid ""
 "Check this if you want 'Delete' menu commands to be displayed on the desktop "
 "and in the file manager's menus and context menus. You can always delete "
 "files when hidden by holding the Shift key while calling 'Move to Trash'."
 msgstr ""
 
-#. i18n: file: src/konqueror.kcfg:149
 #. i18n: ectx: label, entry, group (FMSettings)
-#. i18n: file: src/konqueror.kcfg:150
 #. i18n: ectx: whatsthis, entry, group (FMSettings)
-#: rc.cpp:137 rc.cpp:140
+#: src/konqueror.kcfg:149 src/konqueror.kcfg:150
 msgid "Number of Open With items in the File menu"
 msgstr ""
 
-#. i18n: file: src/konqueror.kcfg:159
 #. i18n: ectx: label, entry, group (HTML Settings)
-#: rc.cpp:143
+#: src/konqueror.kcfg:159
 msgid "Standard font"
 msgstr ""
 
-#. i18n: file: src/konqueror.kcfg:160
 #. i18n: ectx: whatsthis, entry, group (HTML Settings)
-#: rc.cpp:146
+#: src/konqueror.kcfg:160
 msgid "This is the font used to display text in Konqueror windows."
 msgstr ""
 
-#. i18n: file: src/konqueror.kcfg:317
 #. i18n: ectx: label, entry, group (HistorySettings)
-#: rc.cpp:149
+#: src/konqueror.kcfg:317
 msgid "Maximum number of history items per view"
 msgstr ""
 
-#. i18n: file: src/konqueror.kcfg:518
 #. i18n: ectx: label, entry, group (Trash)
-#: rc.cpp:152
+#: src/konqueror.kcfg:518
 msgid "Ask confirmation for deleting a file."
 msgstr ""
 
-#. i18n: file: src/konqueror.kcfg:519
 #. i18n: ectx: whatsthis, entry, group (Trash)
-#: rc.cpp:155
+#: src/konqueror.kcfg:519
 msgid ""
 "This option tells Konqueror whether to ask for a confirmation when you "
 "delete a file without using the trash folder. Warning, deleted files can not "
 "be recovered, so it is recommended to leave this confirmation enabled."
 msgstr ""
 
-#. i18n: file: src/konqueror.kcfg:524
 #. i18n: ectx: label, entry, group (Trash)
-#: rc.cpp:158
+#: src/konqueror.kcfg:524
 msgid "Ask confirmation for move to trash"
 msgstr ""
 
-#. i18n: file: src/konqueror.kcfg:525
 #. i18n: ectx: whatsthis, entry, group (Trash)
-#: rc.cpp:161
+#: src/konqueror.kcfg:525
 msgid ""
 "This option tells Konqueror whether to ask for a confirmation when you move "
 "the file to your trash folder, from where it can be recovered very easily."
 msgstr ""
 
-#. i18n: file: src/konqueror.kcfg:532
 #. i18n: ectx: whatsthis, entry, group (Trash)
-#: rc.cpp:167
+#: src/konqueror.kcfg:532
 msgid ""
 "If true, when opening a session from within the sessions dialog the tabs "
 "will be opened inside current window."
 msgstr ""
+
+#. i18n: ectx: Menu (file)
+#: src/konqueror.rc:5
+msgid "&File"
+msgstr "&Pel"
+
+#. i18n: ectx: Menu (edit)
+#: src/konqueror.rc:24
+msgid "&Edit"
+msgstr "&Sererastkirin"
+
+#. i18n: ectx: Menu (view)
+#: src/konqueror.rc:33
+msgid "&View"
+msgstr "&Dîmen"
+
+#. i18n: ectx: Menu (go)
+#: src/konqueror.rc:44
+msgid "&Go"
+msgstr "&Here"
+
+#. i18n: ectx: Menu (settings)
+#: src/konqueror.rc:54
+msgid "&Settings"
+msgstr "&Mîheng"
+
+#. i18n: ectx: Menu (window)
+#: src/konqueror.rc:71
+msgid "&Window"
+msgstr "&Pace"
+
+#. i18n: ectx: Menu (help)
+#: src/konqueror.rc:87
+msgid "&Help"
+msgstr "&Alîkarî"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: src/konqueror.rc:92
+msgid "Main Toolbar"
+msgstr "Darikê Mak"
+
+#. i18n: ectx: ToolBar (extraToolBar)
+#: src/konqueror.rc:102
+msgid "Extra Toolbar"
+msgstr "Darikê Amûran ê Bêhtir"
+
+#. i18n: ectx: ToolBar (locationToolBar)
+#: src/konqueror.rc:109
+msgid "Location Toolbar"
+msgstr "Darikê Amûran ê Cih"
+
+#. i18n: ectx: ToolBar (bookmarkToolBar)
+#: src/konqueror.rc:115
+msgid "Bookmark Toolbar"
+msgstr "Darikê Amûran ê Bijareyan"
+
+#: src/konqundomanager.cpp:110 src/konqundomanager.cpp:266
+msgid "Und&o: Closed Tab"
+msgstr "&Vegerîne: Hilfirînê Girtî"
+
+#: src/konqundomanager.cpp:112 src/konqundomanager.cpp:120
+#: src/konqundomanager.cpp:162
+msgid "Und&o: Closed Window"
+msgstr "&Vegerîne: Paceya Girtî"
+
+#: src/konqundomanager.cpp:122
+msgid "Und&o"
+msgstr ""
+
+#: src/konqview.cpp:1200
+msgid ""
+"The page you are trying to view is the result of posted form data. If you "
+"resend the data, any action the form carried out (such as search or online "
+"purchase) will be repeated. "
+msgstr ""
+"Rûpelê ku tu ber çav derbas dikî encama daneya ku bi formê re hatiye şandin "
+"e. Daneya ku dîsa were şandin, wê agahiyên di formê de dîsa bibîne. (Wekî "
+"encamên lêgerînê yan jî wekî encamê danûstendinên girêdayînê) "
+
+#: src/konqview.cpp:1202
+#, fuzzy
+#| msgid "Warning"
+msgctxt "@title:window"
+msgid "Warning"
+msgstr "Hişyarî"
+
+#: src/konqview.cpp:1202
+msgid "Resend"
+msgstr "Ji nû ve bişîne"
+
+#: src/konqviewmanager.cpp:1407
+msgid ""
+"You have multiple tabs open in this window.\n"
+"Loading a view profile will close them."
+msgstr ""
+"Di vê paceyê de gelek hilfirîn vekirî ye.\n"
+"Heke tu profîleke nû ya bergehan bar bike wê van hilfirînan bigire."
+
+#: src/konqviewmanager.cpp:1410
+msgid "Load View Profile"
+msgstr "Profîla Xuyanekê Bar Bike"
+
+#: src/konqviewmanager.cpp:1422
+msgid ""
+"This tab contains changes that have not been submitted.\n"
+"Loading a profile will discard these changes."
+msgstr ""
+"Di vê hilfirînê de guherînên ku nehatine şandin heye.\n"
+"Heke tu profîleke nû bar bike wê hemû guherînan pişt guh re biavêjî."
 
 #~ msgid " min"
 #~ msgstr " xulek"
