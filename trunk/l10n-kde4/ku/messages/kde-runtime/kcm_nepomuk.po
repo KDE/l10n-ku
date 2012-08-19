@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nepomukserver\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-18 04:24+0200\n"
+"POT-Creation-Date: 2012-08-19 05:47+0200\n"
 "PO-Revision-Date: 2008-12-30 21:52+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <ku@li.org>\n"
@@ -171,6 +171,34 @@ msgstr ""
 #: nepomukserverkcm.cpp:496
 msgid "Please enter a query to be listed in the root folder"
 msgstr ""
+
+#: statuswidget.cpp:119
+#, kde-format
+msgid "1 file in index"
+msgid_plural "%1 files in index"
+msgstr[0] "1 pel di pêrist de"
+msgstr[1] "%1 pel di pêrist de"
+
+#: statuswidget.cpp:146
+#, fuzzy
+#| msgctxt "@info_status"
+#| msgid "Strigi service not running."
+msgid "File indexing service not running"
+msgstr "Servîsa Strigi naxebite."
+
+#: statuswidget.cpp:171
+#, fuzzy
+#| msgid "Suspend Strigi Indexing"
+msgctxt "Suspends the Nepomuk file indexing service."
+msgid "Suspend File Indexing"
+msgstr "Pêrist kirina Strigi Bide Sekinandin"
+
+#: statuswidget.cpp:174
+#, fuzzy
+#| msgid "Resume Strigi Indexing"
+msgctxt "Resumes the Nepomuk file indexing service."
+msgid "Resume File Indexing"
+msgstr "Pêrist kirina Strigi Bide Dom Kirin"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -604,34 +632,6 @@ msgstr ""
 #: rc.cpp:191
 msgid " MiB"
 msgstr ""
-
-#: statuswidget.cpp:119
-#, kde-format
-msgid "1 file in index"
-msgid_plural "%1 files in index"
-msgstr[0] "1 pel di pêrist de"
-msgstr[1] "%1 pel di pêrist de"
-
-#: statuswidget.cpp:146
-#, fuzzy
-#| msgctxt "@info_status"
-#| msgid "Strigi service not running."
-msgid "File indexing service not running"
-msgstr "Servîsa Strigi naxebite."
-
-#: statuswidget.cpp:171
-#, fuzzy
-#| msgid "Suspend Strigi Indexing"
-msgctxt "Suspends the Nepomuk file indexing service."
-msgid "Suspend File Indexing"
-msgstr "Pêrist kirina Strigi Bide Sekinandin"
-
-#: statuswidget.cpp:174
-#, fuzzy
-#| msgid "Resume Strigi Indexing"
-msgctxt "Resumes the Nepomuk file indexing service."
-msgid "Resume File Indexing"
-msgstr "Pêrist kirina Strigi Bide Dom Kirin"
 
 #~ msgid "Calculation failed"
 #~ msgstr "Hesibandin têk çû"

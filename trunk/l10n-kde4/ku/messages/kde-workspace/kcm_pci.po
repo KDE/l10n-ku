@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_pci\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-18 04:26+0200\n"
+"POT-Creation-Date: 2012-08-19 05:50+0200\n"
 "PO-Revision-Date: 2008-12-28 09:01+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <ku@li.org>\n"
@@ -266,16 +266,16 @@ msgid "Mapping %1"
 msgstr ""
 
 #: kpci.cpp:286
+msgid "Space"
+msgstr "Navber"
+
+#: kpci.cpp:286
 msgid "I/O"
 msgstr "K/D"
 
 #: kpci.cpp:286
 msgid "Memory"
 msgstr "Bîr"
-
-#: kpci.cpp:286
-msgid "Space"
-msgstr "Navber"
 
 #: kpci.cpp:289 kpci.cpp:458
 msgid "Prefetchable"
@@ -385,16 +385,16 @@ msgstr ""
 msgid "Secondary back-to-back writes"
 msgstr ""
 
+#: kpci.cpp:422
+msgid "Primary discard timer counts"
+msgstr ""
+
 #: kpci.cpp:422 kpci.cpp:423
 msgid "2e10 PCI clocks"
 msgstr ""
 
 #: kpci.cpp:422 kpci.cpp:423
 msgid "2e15 PCI clocks"
-msgstr ""
-
-#: kpci.cpp:422
-msgid "Primary discard timer counts"
 msgstr ""
 
 #: kpci.cpp:423
@@ -535,16 +535,16 @@ msgid "Bridge status"
 msgstr ""
 
 #: kpci.cpp:546
+msgid "Secondary bus state in D3 hot"
+msgstr ""
+
+#: kpci.cpp:546
 msgid "B2"
 msgstr "B2"
 
 #: kpci.cpp:546
 msgid "B3"
 msgstr "B3"
-
-#: kpci.cpp:546
-msgid "Secondary bus state in D3 hot"
-msgstr ""
 
 #: kpci.cpp:547
 msgid "Secondary bus power & clock control"
@@ -666,13 +666,13 @@ msgctxt "no data"
 msgid "None"
 msgstr "Ne yek jî"
 
-#: kpci.cpp:689 kpci.cpp:716
-msgid "0x00 (None)"
-msgstr "0x00 (Ne yek jî)"
-
 #: kpci.cpp:689
 msgid "Next"
 msgstr "Pêş ve"
+
+#: kpci.cpp:689 kpci.cpp:716
+msgid "0x00 (None)"
+msgstr "0x00 (Ne yek jî)"
 
 #: kpci.cpp:712
 msgid "Root only"
@@ -689,6 +689,16 @@ msgstr "Nirx"
 #: kpci.cpp:773
 msgid "Cache line size"
 msgstr ""
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Omer Ensari"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "oensari at gmail dot com"
 
 #: kpci_private.h:26
 msgctxt "state of PCI item"
@@ -1658,13 +1668,3 @@ msgstr ""
 #: kpci_private.h:776
 msgid "32 vectors"
 msgstr ""
-
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Omer Ensari"
-
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "oensari at gmail dot com"

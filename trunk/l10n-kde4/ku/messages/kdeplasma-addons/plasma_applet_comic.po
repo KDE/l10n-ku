@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_comic\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-18 04:23+0200\n"
+"POT-Creation-Date: 2012-08-19 05:46+0200\n"
 "PO-Revision-Date: 2009-01-10 23:44+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -24,6 +24,45 @@ msgid ""
 "Show at actual size in a different view.  Alternatively, click with the "
 "middle mouse button on the comic."
 msgstr ""
+
+#: comicarchivedialog.cpp:32
+#, kde-format
+msgid "Create %1 Comic Book Archive"
+msgstr ""
+
+#: comicarchivejob.cpp:144
+msgid "No zip file is existing, aborting."
+msgstr ""
+
+#: comicarchivejob.cpp:171
+#, kde-format
+msgid "An error happened for identifier %1."
+msgstr ""
+
+#: comicarchivejob.cpp:244
+#, kde-format
+msgid "Failed creating the file with identifier %1."
+msgstr ""
+
+#: comicarchivejob.cpp:346
+msgid "Creating Comic Book Archive"
+msgstr ""
+
+#: comicarchivejob.cpp:374
+msgid "Failed adding a file to the archive."
+msgstr ""
+
+#: comicarchivejob.cpp:391
+msgid "Could not create the archive at the specified location."
+msgstr ""
+
+#. i18n: file: comicSettings.ui:32
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: comicarchivejob.cpp:402 comicsaver.cpp:88 rc.cpp:102
+#, fuzzy
+#| msgid "Comic:"
+msgid "Comic"
+msgstr "Pirtûka Qerfî:"
 
 #: comic.cpp:130
 msgctxt "here strip means comic strip"
@@ -91,45 +130,6 @@ msgstr ""
 #: comic.cpp:760
 msgid "Archiving comic failed"
 msgstr ""
-
-#: comicarchivedialog.cpp:32
-#, kde-format
-msgid "Create %1 Comic Book Archive"
-msgstr ""
-
-#: comicarchivejob.cpp:144
-msgid "No zip file is existing, aborting."
-msgstr ""
-
-#: comicarchivejob.cpp:171
-#, kde-format
-msgid "An error happened for identifier %1."
-msgstr ""
-
-#: comicarchivejob.cpp:244
-#, kde-format
-msgid "Failed creating the file with identifier %1."
-msgstr ""
-
-#: comicarchivejob.cpp:346
-msgid "Creating Comic Book Archive"
-msgstr ""
-
-#: comicarchivejob.cpp:374
-msgid "Failed adding a file to the archive."
-msgstr ""
-
-#: comicarchivejob.cpp:391
-msgid "Could not create the archive at the specified location."
-msgstr ""
-
-#. i18n: file: comicSettings.ui:32
-#. i18n: ectx: property (text), widget (QLabel, label_8)
-#: comicarchivejob.cpp:402 comicsaver.cpp:88 rc.cpp:102
-#, fuzzy
-#| msgid "Comic:"
-msgid "Comic"
-msgstr "Pirtûka Qerfî:"
 
 #: comicdata.cpp:112
 #, kde-format
