@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lmplayer\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-19 03:29+0200\n"
+"POT-Creation-Date: 2012-08-20 02:54+0200\n"
 "PO-Revision-Date: 2009-02-02 22:53+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -18,6 +18,39 @@ msgstr ""
 "X-Poedit-Language: Kurdish\n"
 "X-Poedit-SourceCharset: utf8\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Omer Ensari"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "oensari@gmail.com"
+
+#: kmplayer_lists.cpp:94
+msgid "Most Recent"
+msgstr "Yên Herî Dawiyê"
+
+#: kmplayer_lists.cpp:189
+msgid "Persistent Playlists"
+msgstr "Lîsteyên Lêdanê yên Mayinde"
+
+#: kmplayer_part.cpp:142
+msgid "plugin"
+msgstr "pêvek"
+
+#: kmplayer_part.cpp:815
+#, no-c-format
+msgid "% Cache fill"
+msgstr "% Pêşbîr a tijî"
+
+#: kmplayer_part.cpp:845
+msgid "KMPlayer: Playing"
+msgstr "KMPlayer: Lêdide"
+
+#: kmplayer_part.cpp:859
+msgid "KMPlayer: Stop Playing"
+msgstr "KMPlayer: Lêdanê Rawestîne"
 
 #: kmplayerapp.cpp:152
 msgid "New window"
@@ -634,14 +667,6 @@ msgstr "Pîvan:"
 msgid "&Configure KMPlayer..."
 msgstr "&Veavakirina KMPlayer..."
 
-#: kmplayer_lists.cpp:94
-msgid "Most Recent"
-msgstr "Yên Herî Dawiyê"
-
-#: kmplayer_lists.cpp:189
-msgid "Persistent Playlists"
-msgstr "Lîsteyên Lêdanê yên Mayinde"
-
 #: kmplayerpartbase.cpp:1442
 msgid "Unknown"
 msgstr "Nayê Zanîn"
@@ -654,22 +679,10 @@ msgstr "URL"
 msgid "Url - "
 msgstr "Url - "
 
-#: kmplayer_part.cpp:142
-msgid "plugin"
-msgstr "pêvek"
-
-#: kmplayer_part.cpp:815
-#, no-c-format
-msgid "% Cache fill"
-msgstr "% Pêşbîr a tijî"
-
-#: kmplayer_part.cpp:845
-msgid "KMPlayer: Playing"
-msgstr "KMPlayer: Lêdide"
-
-#: kmplayer_part.cpp:859
-msgid "KMPlayer: Stop Playing"
-msgstr "KMPlayer: Lêdanê Rawestîne"
+#. i18n: ectx: Menu (view)
+#: kmplayerpartui.rc:4 kmplayerui.rc:31
+msgid "&View"
+msgstr "&Bibîne"
 
 #: kmplayerprocess.cpp:158
 msgid "Failed to end player process."
@@ -870,6 +883,21 @@ msgstr "Tu cîhaz nehat dîtin."
 #: kmplayertvsource.cpp:649
 msgid "TVScanner"
 msgstr "TVScanner"
+
+#. i18n: ectx: Menu (file)
+#: kmplayerui.rc:5
+msgid "&File"
+msgstr "&Pel"
+
+#. i18n: ectx: Menu (vdr)
+#: kmplayerui.rc:15
+msgid "VD&R"
+msgstr "VD&R"
+
+#. i18n: ectx: Menu (settings)
+#: kmplayerui.rc:51
+msgid "&Settings"
+msgstr "&Mîheng"
 
 #: kmplayervdr.cpp:87
 msgid "XVideo port"
@@ -1609,42 +1637,6 @@ msgstr "&Baş"
 #: pref.cpp:830
 msgid "&Cancel"
 msgstr "&Betal"
-
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Omer Ensari"
-
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "oensari@gmail.com"
-
-#. i18n: file: kmplayerpartui.rc:4
-#. i18n: ectx: Menu (view)
-#. i18n: file: kmplayerui.rc:31
-#. i18n: ectx: Menu (view)
-#: rc.cpp:5 rc.cpp:14
-msgid "&View"
-msgstr "&Bibîne"
-
-#. i18n: file: kmplayerui.rc:5
-#. i18n: ectx: Menu (file)
-#: rc.cpp:8
-msgid "&File"
-msgstr "&Pel"
-
-#. i18n: file: kmplayerui.rc:15
-#. i18n: ectx: Menu (vdr)
-#: rc.cpp:11
-msgid "VD&R"
-msgstr "VD&R"
-
-#. i18n: file: kmplayerui.rc:51
-#. i18n: ectx: Menu (settings)
-#: rc.cpp:17
-msgid "&Settings"
-msgstr "&Mîheng"
 
 #~ msgid "&Titles"
 #~ msgstr "&Sernav"

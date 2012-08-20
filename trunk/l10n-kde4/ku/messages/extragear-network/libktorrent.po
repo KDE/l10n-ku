@@ -71,14 +71,6 @@ msgstr "%1 nayê vekirin: %2"
 msgid "Torrent is incomplete."
 msgstr "Pelên Torrent"
 
-#: src/datachecker/multidatachecker.cpp:209
-#: src/datachecker/singledatachecker.cpp:49 src/diskio/multifilecache.cpp:706
-#: src/diskio/multifilecache.cpp:745 src/torrent/torrentcreator.cpp:124
-#: src/torrent/torrentcreator.cpp:255 src/torrent/torrentcreator.cpp:292
-#, kde-format
-msgid "Cannot open file %1: %2"
-msgstr ""
-
 #: src/datachecker/datacheckerjob.cpp:82
 msgid "Waiting for other data checks to finish"
 msgstr ""
@@ -93,24 +85,20 @@ msgstr "Dane tên kontrolkirin"
 msgid "Checking Data"
 msgstr "Dane tên kontrolkirin"
 
-#: src/diskio/movedatafilesjob.cpp:140
-msgid "Waiting for other move jobs to finish"
+#: src/datachecker/multidatachecker.cpp:209
+#: src/datachecker/singledatachecker.cpp:49 src/diskio/multifilecache.cpp:706
+#: src/diskio/multifilecache.cpp:745 src/torrent/torrentcreator.cpp:124
+#: src/torrent/torrentcreator.cpp:255 src/torrent/torrentcreator.cpp:292
+#, kde-format
+msgid "Cannot open file %1: %2"
 msgstr ""
 
-#: src/diskio/movedatafilesjob.cpp:141 src/diskio/movedatafilesjob.cpp:181
-msgctxt "The source of a file operation"
-msgid "Source"
-msgstr ""
-
-#: src/diskio/movedatafilesjob.cpp:142 src/diskio/movedatafilesjob.cpp:182
-msgctxt "The destination of a file operation"
-msgid "Destination"
-msgstr ""
-
-#: src/diskio/movedatafilesjob.cpp:180
-msgctxt "@title job"
-msgid "Moving"
-msgstr ""
+#: src/diskio/cache.cpp:170 src/diskio/multifilecache.cpp:118
+#: src/diskio/singlefilecache.cpp:85
+#, fuzzy, kde-format
+#| msgid "Cannot create %1: %2"
+msgid "Failed to create %1: %2"
+msgstr "%1 nayê çêkirin: %2"
 
 #: src/diskio/cachefile.cpp:94 src/util/fileops.cpp:354
 #: src/util/fileops.cpp:399
@@ -171,6 +159,12 @@ msgstr "Peldanka %1 nayê afirandin: %2"
 msgid "Cannot preallocate diskspace: %1"
 msgstr "Peldanka %1 nayê afirandin: %2"
 
+#: src/diskio/chunkmanager.cpp:936 src/diskio/chunkmanager.cpp:962
+#, fuzzy, kde-format
+#| msgid "Cannot open %1 : %2"
+msgid "Cannot open index file %1: %2"
+msgstr "%1 nayê vekirin: %2"
+
 #: src/diskio/dndfile.cpp:89
 #, fuzzy, kde-format
 #| msgid "Cannot create %1: %2"
@@ -189,8 +183,23 @@ msgstr "Peldanka %1 nayê afirandin: %2"
 msgid "Failed to write last chunk to DND file: %1"
 msgstr "Peldanka %1 nayê afirandin: %2"
 
-#: src/diskio/piecedata.cpp:69 src/diskio/piecedata.cpp:108
-msgid "Unable to write to a piece mapped read only"
+#: src/diskio/movedatafilesjob.cpp:140
+msgid "Waiting for other move jobs to finish"
+msgstr ""
+
+#: src/diskio/movedatafilesjob.cpp:141 src/diskio/movedatafilesjob.cpp:181
+msgctxt "The source of a file operation"
+msgid "Source"
+msgstr ""
+
+#: src/diskio/movedatafilesjob.cpp:142 src/diskio/movedatafilesjob.cpp:182
+msgctxt "The destination of a file operation"
+msgid "Destination"
+msgstr ""
+
+#: src/diskio/movedatafilesjob.cpp:180
+msgctxt "@title job"
+msgid "Moving"
 msgstr ""
 
 #: src/diskio/multifilecache.cpp:91 src/diskio/singlefilecache.cpp:74
@@ -199,18 +208,9 @@ msgstr ""
 msgid "Failed to open %1: %2"
 msgstr "%1 nayê vekirin: %2"
 
-#: src/diskio/multifilecache.cpp:118 src/diskio/singlefilecache.cpp:85
-#: src/diskio/cache.cpp:170
-#, fuzzy, kde-format
-#| msgid "Cannot create %1: %2"
-msgid "Failed to create %1: %2"
-msgstr "%1 nayê çêkirin: %2"
-
-#: src/diskio/chunkmanager.cpp:936 src/diskio/chunkmanager.cpp:962
-#, fuzzy, kde-format
-#| msgid "Cannot open %1 : %2"
-msgid "Cannot open index file %1: %2"
-msgstr "%1 nayê vekirin: %2"
+#: src/diskio/piecedata.cpp:69 src/diskio/piecedata.cpp:108
+msgid "Unable to write to a piece mapped read only"
+msgstr ""
 
 #: src/download/chunkdownload.cpp:383
 #, kde-format
@@ -322,12 +322,6 @@ msgstr ""
 msgid "Unknown client"
 msgstr ""
 
-#: src/torrent/torrentcreator.cpp:361
-#, fuzzy, kde-format
-#| msgid "Cannot create directory %1: %2"
-msgid "Cannot create index file: %1"
-msgstr "Peldanka %1 nayê afirandin: %2"
-
 #: src/torrent/torrent.cpp:100 src/torrent/torrent.cpp:174
 #: src/torrent/torrent.cpp:202 src/torrent/torrent.cpp:209
 #: src/torrent/torrent.cpp:217 src/torrent/torrent.cpp:221
@@ -341,6 +335,46 @@ msgstr "Torrenta xerab!"
 #, fuzzy, kde-format
 #| msgid "Cannot create directory %1: %2"
 msgid "Unable to open torrent file %1: %2"
+msgstr "Peldanka %1 nayê afirandin: %2"
+
+#: src/torrent/torrentcontrol.cpp:302
+msgid "Error writing to disk, do you have enough diskspace?"
+msgstr ""
+
+#: src/torrent/torrentcontrol.cpp:548
+#, kde-format
+msgid ""
+"An error occurred while loading the torrent <b>%1</b>:<br/><b>%2</b><br/>The "
+"torrent is probably corrupt or is not a valid torrent file."
+msgstr ""
+
+#: src/torrent/torrentcontrol.cpp:578
+#, kde-format
+msgid "An error occurred while loading <b>%1</b>:<br/><b>%2</b>"
+msgstr ""
+
+#: src/torrent/torrentcontrol.cpp:589
+#, fuzzy, kde-format
+#| msgid "Cannot create %1: %2"
+msgid "Unable to create %1: %2"
+msgstr "%1 nayê çêkirin: %2"
+
+#: src/torrent/torrentcontrol.cpp:604
+#, kde-format
+msgid ""
+"You are already downloading the torrent <b>%1</b>. The tracker lists from "
+"both torrents have been merged."
+msgstr ""
+
+#: src/torrent/torrentcontrol.cpp:609
+#, kde-format
+msgid "You are already downloading the torrent <b>%1</b>."
+msgstr ""
+
+#: src/torrent/torrentcreator.cpp:361
+#, fuzzy, kde-format
+#| msgid "Cannot create directory %1: %2"
+msgid "Cannot create index file: %1"
 msgstr "Peldanka %1 nayê afirandin: %2"
 
 #: src/torrent/torrentstats.cpp:73
@@ -408,53 +442,8 @@ msgstr ""
 msgid "Superseeding"
 msgstr "Leza Daxistinê"
 
-#: src/torrent/torrentcontrol.cpp:302
-msgid "Error writing to disk, do you have enough diskspace?"
-msgstr ""
-
-#: src/torrent/torrentcontrol.cpp:548
-#, kde-format
-msgid ""
-"An error occurred while loading the torrent <b>%1</b>:<br/><b>%2</b><br/>The "
-"torrent is probably corrupt or is not a valid torrent file."
-msgstr ""
-
-#: src/torrent/torrentcontrol.cpp:578
-#, kde-format
-msgid "An error occurred while loading <b>%1</b>:<br/><b>%2</b>"
-msgstr ""
-
-#: src/torrent/torrentcontrol.cpp:589
-#, fuzzy, kde-format
-#| msgid "Cannot create %1: %2"
-msgid "Unable to create %1: %2"
-msgstr "%1 nayê çêkirin: %2"
-
-#: src/torrent/torrentcontrol.cpp:604
-#, kde-format
-msgid ""
-"You are already downloading the torrent <b>%1</b>. The tracker lists from "
-"both torrents have been merged."
-msgstr ""
-
-#: src/torrent/torrentcontrol.cpp:609
-#, kde-format
-msgid "You are already downloading the torrent <b>%1</b>."
-msgstr ""
-
 #: src/tracker/httpannouncejob.cpp:142
 msgid "Redirect without a redirect location"
-msgstr ""
-
-#: src/tracker/udptracker.cpp:364 src/tracker/udptracker.cpp:374
-#: src/tracker/httptracker.cpp:558
-#, kde-format
-msgid "Timeout contacting tracker %1"
-msgstr ""
-
-#: src/tracker/udptracker.cpp:401
-#, kde-format
-msgid "Unable to resolve hostname %1"
 msgstr ""
 
 #: src/tracker/httptracker.cpp:287 src/tracker/httptracker.cpp:307
@@ -468,6 +457,17 @@ msgstr ""
 
 #: src/tracker/httptracker.cpp:480
 msgid "Invalid tracker URL"
+msgstr ""
+
+#: src/tracker/httptracker.cpp:558 src/tracker/udptracker.cpp:364
+#: src/tracker/udptracker.cpp:374
+#, kde-format
+msgid "Timeout contacting tracker %1"
+msgstr ""
+
+#: src/tracker/udptracker.cpp:401
+#, kde-format
+msgid "Unable to resolve hostname %1"
 msgstr ""
 
 #: src/upnp/httprequest.cpp:96
@@ -507,29 +507,6 @@ msgstr "Li %1 nayê nivîsandin: %2"
 #: src/util/file.cpp:98
 #, kde-format
 msgid "Cannot read from %1"
-msgstr "Ji %1 nayê xwedin"
-
-#: src/util/functions.cpp:234
-#, fuzzy, kde-format
-#| msgid "%1 KB/s"
-msgid "%1/s"
-msgstr "%1 KB/ç"
-
-#: src/util/functions.cpp:245
-#, kde-format
-msgid "1 day "
-msgid_plural "%1 days "
-msgstr[0] ""
-msgstr[1] ""
-
-#: src/util/signalcatcher.cpp:80
-msgid "Error when writing to disk"
-msgstr ""
-
-#: src/util/signalcatcher.cpp:80
-#, fuzzy
-#| msgid "Cannot read from %1"
-msgid "Error when reading from disk"
 msgstr "Ji %1 nayê xwedin"
 
 #: src/util/fileops.cpp:94
@@ -590,6 +567,19 @@ msgstr "%1 nayê vekirin: %2"
 msgid "Cannot seek in file: %1"
 msgstr "%1 nayê vekirin: %2"
 
+#: src/util/functions.cpp:234
+#, fuzzy, kde-format
+#| msgid "%1 KB/s"
+msgid "%1/s"
+msgstr "%1 KB/ç"
+
+#: src/util/functions.cpp:245
+#, kde-format
+msgid "1 day "
+msgid_plural "%1 days "
+msgstr[0] ""
+msgstr[1] ""
+
 #: src/util/logsystemmanager.cpp:33
 msgid "General"
 msgstr "Giştî"
@@ -613,6 +603,16 @@ msgstr ""
 #: src/util/logsystemmanager.cpp:38
 msgid "µTP"
 msgstr ""
+
+#: src/util/signalcatcher.cpp:80
+msgid "Error when writing to disk"
+msgstr ""
+
+#: src/util/signalcatcher.cpp:80
+#, fuzzy
+#| msgid "Cannot read from %1"
+msgid "Error when reading from disk"
+msgstr "Ji %1 nayê xwedin"
 
 #, fuzzy
 #~| msgid "Cannot open %1 : %2"

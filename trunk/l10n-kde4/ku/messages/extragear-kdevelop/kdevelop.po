@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdevelop\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-19 03:18+0200\n"
+"POT-Creation-Date: 2012-08-20 02:50+0200\n"
 "PO-Revision-Date: 2007-12-17 02:49+0100\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
@@ -17,6 +17,115 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#. i18n: ectx: Menu (file)
+#: katepartui.rc:4 vendor/kate/katepartui.rc:4
+msgid "&File"
+msgstr ""
+
+#. i18n: ectx: Menu (edit)
+#: katepartui.rc:13 vendor/kate/katepartui.rc:12
+msgid "&Edit"
+msgstr ""
+
+#. i18n: ectx: Menu (edit_advanced)
+#: katepartui.rc:23
+#, fuzzy
+#| msgid "Cancel"
+msgid "&Advanced"
+msgstr "Betalkirin"
+
+#. i18n: ectx: Menu (view)
+#: katepartui.rc:43 vendor/kate/katepartui.rc:37
+msgid "&View"
+msgstr ""
+
+#. i18n: ectx: Menu (codefolding)
+#: katepartui.rc:57 vendor/kate/katepartui.rc:51
+msgid "&Code Folding"
+msgstr ""
+
+#. i18n: ectx: Menu (tools)
+#: katepartui.rc:70 vendor/kate/katepartui.rc:64
+msgid "&Tools"
+msgstr ""
+
+#. i18n: ectx: Menu (wordcompletion)
+#: katepartui.rc:81 vendor/kate/katepartui.rc:75
+msgid "Word Completion"
+msgstr ""
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: katepartui.rc:126 kdevelopui.rc:157 vendor/kate/katepartui.rc:123
+msgid "Main Toolbar"
+msgstr ""
+
+#. i18n: ectx: Menu (session)
+#: kdevelopui.rc:6
+msgctxt "@title:menu"
+msgid "Session"
+msgstr ""
+
+#. i18n: ectx: Menu (project)
+#: kdevelopui.rc:10
+msgctxt "@title:menu"
+msgid "&Project"
+msgstr ""
+
+#. i18n: ectx: Menu (run)
+#: kdevelopui.rc:29
+msgid "&Run"
+msgstr ""
+
+#. i18n: ectx: Menu (navigation)
+#: kdevelopui.rc:51
+msgctxt "@title:menu"
+msgid "&Navigation"
+msgstr ""
+
+#. i18n: ectx: Menu (file)
+#: kdevelopui.rc:65
+msgctxt "@title:menu"
+msgid "&File"
+msgstr ""
+
+#. i18n: ectx: Menu (edit)
+#: kdevelopui.rc:76
+msgctxt "@title:menu"
+msgid "&Edit"
+msgstr ""
+
+#. i18n: ectx: Menu (editor)
+#: kdevelopui.rc:89
+msgctxt "@title:menu"
+msgid "Editor"
+msgstr ""
+
+#. i18n: ectx: Menu (code)
+#: kdevelopui.rc:94
+msgctxt "@title:menu"
+msgid "Code"
+msgstr ""
+
+#. i18n: ectx: Menu (window)
+#: kdevelopui.rc:101
+msgctxt "@title:menu"
+msgid "&Window"
+msgstr ""
+
+#. i18n: ectx: Menu (settings)
+#: kdevelopui.rc:142
+msgctxt "@title:menu"
+msgid "Settings"
+msgstr ""
 
 #: kdevideextension.cpp:48
 msgid "Code"
@@ -579,6 +688,14 @@ msgstr ""
 msgid "Could not open %1"
 msgstr ""
 
+#: plasma/applet/package/contents/ui/kdevelopsessions.qml:74
+msgid "KDevelop Sessions"
+msgstr ""
+
+#: plasma/applet/package/contents/ui/kdevelopsessions.qml:94
+msgid "Arbitrary String Which Says Something"
+msgstr ""
+
 #: plasma/runner/kdevelopsessions.cpp:58
 msgid "Finds KDevelop sessions matching :q:."
 msgstr ""
@@ -591,195 +708,17 @@ msgstr ""
 msgid "Open KDevelop Session"
 msgstr ""
 
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr ""
-
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr ""
-
-#. i18n: file: katepartui.rc:4
-#. i18n: ectx: Menu (file)
-#. i18n: file: vendor/kate/katepartui.rc:4
-#. i18n: ectx: Menu (file)
-#: rc.cpp:5 rc.cpp:62
-msgid "&File"
-msgstr ""
-
-#. i18n: file: katepartui.rc:13
-#. i18n: ectx: Menu (edit)
-#. i18n: file: vendor/kate/katepartui.rc:12
-#. i18n: ectx: Menu (edit)
-#: rc.cpp:8 rc.cpp:65
-msgid "&Edit"
-msgstr ""
-
-#. i18n: file: katepartui.rc:23
-#. i18n: ectx: Menu (edit_advanced)
-#: rc.cpp:11
-#, fuzzy
-#| msgid "Cancel"
-msgid "&Advanced"
-msgstr "Betalkirin"
-
-#. i18n: file: katepartui.rc:43
-#. i18n: ectx: Menu (view)
-#. i18n: file: vendor/kate/katepartui.rc:37
-#. i18n: ectx: Menu (view)
-#: rc.cpp:14 rc.cpp:68
-msgid "&View"
-msgstr ""
-
-#. i18n: file: katepartui.rc:57
-#. i18n: ectx: Menu (codefolding)
-#. i18n: file: vendor/kate/katepartui.rc:51
-#. i18n: ectx: Menu (codefolding)
-#: rc.cpp:17 rc.cpp:71
-msgid "&Code Folding"
-msgstr ""
-
-#. i18n: file: katepartui.rc:70
-#. i18n: ectx: Menu (tools)
-#. i18n: file: vendor/kate/katepartui.rc:64
-#. i18n: ectx: Menu (tools)
-#: rc.cpp:20 rc.cpp:74
-msgid "&Tools"
-msgstr ""
-
-#. i18n: file: katepartui.rc:81
-#. i18n: ectx: Menu (wordcompletion)
-#. i18n: file: vendor/kate/katepartui.rc:75
-#. i18n: ectx: Menu (wordcompletion)
-#: rc.cpp:23 rc.cpp:77
-msgid "Word Completion"
-msgstr ""
-
-#. i18n: file: katepartui.rc:126
-#. i18n: ectx: ToolBar (mainToolBar)
-#. i18n: file: kdevelopui.rc:157
-#. i18n: ectx: ToolBar (mainToolBar)
-#. i18n: file: vendor/kate/katepartui.rc:123
-#. i18n: ectx: ToolBar (mainToolBar)
-#: rc.cpp:26 rc.cpp:59 rc.cpp:83
-msgid "Main Toolbar"
-msgstr ""
-
-#. i18n: file: kdevelopui.rc:6
-#. i18n: ectx: Menu (session)
-#: rc.cpp:29
-msgctxt "@title:menu"
-msgid "Session"
-msgstr ""
-
-#. i18n: file: kdevelopui.rc:10
-#. i18n: ectx: Menu (project)
-#: rc.cpp:32
-msgctxt "@title:menu"
-msgid "&Project"
-msgstr ""
-
-#. i18n: file: kdevelopui.rc:29
-#. i18n: ectx: Menu (run)
-#: rc.cpp:35
-msgid "&Run"
-msgstr ""
-
-#. i18n: file: kdevelopui.rc:51
-#. i18n: ectx: Menu (navigation)
-#: rc.cpp:38
-msgctxt "@title:menu"
-msgid "&Navigation"
-msgstr ""
-
-#. i18n: file: kdevelopui.rc:65
-#. i18n: ectx: Menu (file)
-#: rc.cpp:41
-msgctxt "@title:menu"
-msgid "&File"
-msgstr ""
-
-#. i18n: file: kdevelopui.rc:76
-#. i18n: ectx: Menu (edit)
-#: rc.cpp:44
-msgctxt "@title:menu"
-msgid "&Edit"
-msgstr ""
-
-#. i18n: file: kdevelopui.rc:89
-#. i18n: ectx: Menu (editor)
-#: rc.cpp:47
-msgctxt "@title:menu"
-msgid "Editor"
-msgstr ""
-
-#. i18n: file: kdevelopui.rc:94
-#. i18n: ectx: Menu (code)
-#: rc.cpp:50
-msgctxt "@title:menu"
-msgid "Code"
-msgstr ""
-
-#. i18n: file: kdevelopui.rc:101
-#. i18n: ectx: Menu (window)
-#: rc.cpp:53
-msgctxt "@title:menu"
-msgid "&Window"
-msgstr ""
-
-#. i18n: file: kdevelopui.rc:142
 #. i18n: ectx: Menu (settings)
-#: rc.cpp:56
-msgctxt "@title:menu"
-msgid "Settings"
-msgstr ""
-
-#. i18n: file: vendor/kate/katepartui.rc:104
-#. i18n: ectx: Menu (settings)
-#: rc.cpp:80
+#: vendor/kate/katepartui.rc:104
 msgid "&Settings"
 msgstr ""
 
-#: plasma/applet/package/contents/ui/kdevelopsessions.qml:74
-msgid "KDevelop Sessions"
+#: welcomepage/code.qml:39
+msgid "Starting"
 msgstr ""
 
-#: plasma/applet/package/contents/ui/kdevelopsessions.qml:94
-msgid "Arbitrary String Which Says Something"
-msgstr ""
-
-#: welcomepage/UseKDevelop.qml:35
-msgid "Official Website"
-msgstr ""
-
-#: welcomepage/UseKDevelop.qml:36
-msgid "Userbase"
-msgstr ""
-
-#: welcomepage/UseKDevelop.qml:37
-msgid "Techbase"
-msgstr ""
-
-#: welcomepage/UseKDevelop.qml:38
-msgid "Handbook"
-msgstr ""
-
-#: welcomepage/UseKDevelop.qml:66
-msgid "Go!"
-msgstr ""
-
-#: welcomepage/UseKDevelop.qml:73
-msgid "Documentation for KDevelop users"
-msgstr ""
-
-#: welcomepage/UseKDevelop.qml:78
-msgid "Keep up with KDevelop's development!"
-msgstr ""
-
-#: welcomepage/UseKDevelop.qml:83
-msgid "Help us improve KDevelop!"
+#: welcomepage/code.qml:46
+msgid "Learn KDevelop!"
 msgstr ""
 
 #: welcomepage/debug.qml:35 welcomepage/review.qml:35
@@ -821,14 +760,6 @@ msgid ""
 "putting them on a ReviewBoard service."
 msgstr ""
 
-#: welcomepage/code.qml:39
-msgid "Starting"
-msgstr ""
-
-#: welcomepage/code.qml:46
-msgid "Learn KDevelop!"
-msgstr ""
-
 #: welcomepage/Starting.qml:40
 msgid "New Project"
 msgstr ""
@@ -851,6 +782,38 @@ msgstr ""
 
 #: welcomepage/Starting.qml:125
 msgid "Recent Projects:"
+msgstr ""
+
+#: welcomepage/UseKDevelop.qml:35
+msgid "Official Website"
+msgstr ""
+
+#: welcomepage/UseKDevelop.qml:36
+msgid "Userbase"
+msgstr ""
+
+#: welcomepage/UseKDevelop.qml:37
+msgid "Techbase"
+msgstr ""
+
+#: welcomepage/UseKDevelop.qml:38
+msgid "Handbook"
+msgstr ""
+
+#: welcomepage/UseKDevelop.qml:66
+msgid "Go!"
+msgstr ""
+
+#: welcomepage/UseKDevelop.qml:73
+msgid "Documentation for KDevelop users"
+msgstr ""
+
+#: welcomepage/UseKDevelop.qml:78
+msgid "Keep up with KDevelop's development!"
+msgstr ""
+
+#: welcomepage/UseKDevelop.qml:83
+msgid "Help us improve KDevelop!"
 msgstr ""
 
 #~ msgid "Cancel"

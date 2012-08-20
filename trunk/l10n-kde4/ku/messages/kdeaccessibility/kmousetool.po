@@ -20,6 +20,14 @@ msgstr ""
 "X-Poedit-Language: Kurdish\n"
 "X-Poedit-SourceCharset: utf8\n"
 
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Omer Ensari"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "oensari at gmail dot com"
+
 #: kmousetool.cpp:414
 msgid "The drag time must be less than or equal to the dwell time."
 msgstr "Demê kişandinê divê hindiktir an jî wekheviyê an demê bicihkirinê be."
@@ -79,11 +87,95 @@ msgstr "&Rêberê KMousetool"
 msgid "&About KMouseTool"
 msgstr "&Der barê KMouseTool"
 
-#. i18n: file: kmousetoolui.ui:13
 #. i18n: ectx: property (windowTitle), widget (QWidget, KMouseToolUI)
-#: main.cpp:32 main.cpp:37 rc.cpp:5
+#: kmousetoolui.ui:13 main.cpp:32 main.cpp:37
 msgid "KMouseTool"
 msgstr "KMouseTool"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
+#: kmousetoolui.ui:41
+msgid "Settings"
+msgstr "Mîheng"
+
+#. i18n: ectx: property (text), widget (QLabel, dragTimeLabel)
+#: kmousetoolui.ui:83
+msgid "Drag t&ime (1/10 sec):"
+msgstr "D&emê kişandinê (1/10 çirke):"
+
+#. i18n: ectx: property (text), widget (QLabel, movementLabel)
+#: kmousetoolui.ui:133
+msgid "&Minimum movement:"
+msgstr "Cih Guhastina &Kêmtirîn:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbStroke)
+#: kmousetoolui.ui:159
+msgid "&Enable strokes"
+msgstr "Xêzkirinê &çalak bike"
+
+#. i18n: ectx: property (text), widget (QLabel, dwellTimeLabel)
+#: kmousetoolui.ui:172
+msgid "D&well time (1/10 sec):"
+msgstr "Demê b&icihkirinê (1/10 çirke):"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbDrag)
+#: kmousetoolui.ui:182
+msgid "Smar&t drag"
+msgstr "Kişandina jî&r"
+
+#. i18n: ectx: property (text), widget (KPushButton, buttonDefault)
+#: kmousetoolui.ui:200
+msgid "&Defaults"
+msgstr "&Pêşdanasînî"
+
+#. i18n: ectx: property (text), widget (KPushButton, buttonReset)
+#: kmousetoolui.ui:207
+msgid "&Reset"
+msgstr "&Vesazkirin"
+
+#. i18n: ectx: property (text), widget (KPushButton, buttonApply)
+#: kmousetoolui.ui:230
+msgid "&Apply"
+msgstr "&Bisepîne"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbStart)
+#: kmousetoolui.ui:239
+msgid "Start with &KDE"
+msgstr "Bi &KDE re destpê bike"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbClick)
+#: kmousetoolui.ui:246
+msgid "A&udible click"
+msgstr "Tikandina b&idengî"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: kmousetoolui.ui:270
+msgid ""
+"KMouseTool will run as a background application after you close this dialog. "
+"To change the settings again, restart KMouseTool or use the KDE system tray."
+msgstr ""
+"KMouseTool piştî girtina vê paceyê dê wekî sepana nexuyakirî bixebite. Ji "
+"cardin guherandina mîhengan, KMouseTool nû ve bidin destpê kirin an jî "
+"berkêşka pergala KDE yê bi kar bînin."
+
+#. i18n: ectx: property (text), widget (KPushButton, buttonStartStop)
+#: kmousetoolui.ui:308
+msgid "&Start"
+msgstr "&Dest pê bike"
+
+#. i18n: ectx: property (text), widget (KPushButton, buttonHelp)
+#: kmousetoolui.ui:325
+msgid "&Help"
+msgstr "&Alîkarî"
+
+#. i18n: ectx: property (text), widget (KPushButton, buttonClose)
+#: kmousetoolui.ui:348
+msgid "&Close"
+msgstr "&Bigire"
+
+#. i18n: ectx: property (text), widget (KPushButton, buttonQuit)
+#: kmousetoolui.ui:355
+msgid "&Quit"
+msgstr "&Derkeve"
 
 #: main.cpp:39
 #, fuzzy
@@ -126,114 +218,3 @@ msgstr "Nivîskarê nûser"
 #: main.cpp:45
 msgid "Joe Betts"
 msgstr "Joe Betts"
-
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Omer Ensari"
-
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "oensari at gmail dot com"
-
-#. i18n: file: kmousetoolui.ui:41
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
-#: rc.cpp:8
-msgid "Settings"
-msgstr "Mîheng"
-
-#. i18n: file: kmousetoolui.ui:83
-#. i18n: ectx: property (text), widget (QLabel, dragTimeLabel)
-#: rc.cpp:11
-msgid "Drag t&ime (1/10 sec):"
-msgstr "D&emê kişandinê (1/10 çirke):"
-
-#. i18n: file: kmousetoolui.ui:133
-#. i18n: ectx: property (text), widget (QLabel, movementLabel)
-#: rc.cpp:14
-msgid "&Minimum movement:"
-msgstr "Cih Guhastina &Kêmtirîn:"
-
-#. i18n: file: kmousetoolui.ui:159
-#. i18n: ectx: property (text), widget (QCheckBox, cbStroke)
-#: rc.cpp:17
-msgid "&Enable strokes"
-msgstr "Xêzkirinê &çalak bike"
-
-#. i18n: file: kmousetoolui.ui:172
-#. i18n: ectx: property (text), widget (QLabel, dwellTimeLabel)
-#: rc.cpp:20
-msgid "D&well time (1/10 sec):"
-msgstr "Demê b&icihkirinê (1/10 çirke):"
-
-#. i18n: file: kmousetoolui.ui:182
-#. i18n: ectx: property (text), widget (QCheckBox, cbDrag)
-#: rc.cpp:23
-msgid "Smar&t drag"
-msgstr "Kişandina jî&r"
-
-#. i18n: file: kmousetoolui.ui:200
-#. i18n: ectx: property (text), widget (KPushButton, buttonDefault)
-#: rc.cpp:26
-msgid "&Defaults"
-msgstr "&Pêşdanasînî"
-
-#. i18n: file: kmousetoolui.ui:207
-#. i18n: ectx: property (text), widget (KPushButton, buttonReset)
-#: rc.cpp:29
-msgid "&Reset"
-msgstr "&Vesazkirin"
-
-#. i18n: file: kmousetoolui.ui:230
-#. i18n: ectx: property (text), widget (KPushButton, buttonApply)
-#: rc.cpp:32
-msgid "&Apply"
-msgstr "&Bisepîne"
-
-#. i18n: file: kmousetoolui.ui:239
-#. i18n: ectx: property (text), widget (QCheckBox, cbStart)
-#: rc.cpp:35
-msgid "Start with &KDE"
-msgstr "Bi &KDE re destpê bike"
-
-#. i18n: file: kmousetoolui.ui:246
-#. i18n: ectx: property (text), widget (QCheckBox, cbClick)
-#: rc.cpp:38
-msgid "A&udible click"
-msgstr "Tikandina b&idengî"
-
-#. i18n: file: kmousetoolui.ui:270
-#. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: rc.cpp:41
-msgid ""
-"KMouseTool will run as a background application after you close this dialog. "
-"To change the settings again, restart KMouseTool or use the KDE system tray."
-msgstr ""
-"KMouseTool piştî girtina vê paceyê dê wekî sepana nexuyakirî bixebite. Ji "
-"cardin guherandina mîhengan, KMouseTool nû ve bidin destpê kirin an jî "
-"berkêşka pergala KDE yê bi kar bînin."
-
-#. i18n: file: kmousetoolui.ui:308
-#. i18n: ectx: property (text), widget (KPushButton, buttonStartStop)
-#: rc.cpp:44
-msgid "&Start"
-msgstr "&Dest pê bike"
-
-#. i18n: file: kmousetoolui.ui:325
-#. i18n: ectx: property (text), widget (KPushButton, buttonHelp)
-#: rc.cpp:47
-msgid "&Help"
-msgstr "&Alîkarî"
-
-#. i18n: file: kmousetoolui.ui:348
-#. i18n: ectx: property (text), widget (KPushButton, buttonClose)
-#: rc.cpp:50
-msgid "&Close"
-msgstr "&Bigire"
-
-#. i18n: file: kmousetoolui.ui:355
-#. i18n: ectx: property (text), widget (KPushButton, buttonQuit)
-#: rc.cpp:53
-msgid "&Quit"
-msgstr "&Derkeve"
