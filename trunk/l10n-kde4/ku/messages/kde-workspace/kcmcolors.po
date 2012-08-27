@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcolors\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-23 10:37+0200\n"
+"POT-Creation-Date: 2012-08-27 04:54+0200\n"
 "PO-Revision-Date: 2009-01-06 14:36+0200\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -510,20 +510,26 @@ msgid "None"
 msgstr "Ti yek"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, inactiveIntensityBox)
-#. i18n: ectx: property (text), item, widget (QComboBox, disabledIntensityBox)
-#: colorsettings.ui:760 colorsettings.ui:1010
+#: colorsettings.ui:760
+#, fuzzy
+#| msgid "Shade"
+msgctxt "inactive intensity effect"
 msgid "Shade"
 msgstr "Sî"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, inactiveIntensityBox)
-#. i18n: ectx: property (text), item, widget (QComboBox, disabledIntensityBox)
-#: colorsettings.ui:765 colorsettings.ui:1015
+#: colorsettings.ui:765
+#, fuzzy
+#| msgid "Darken"
+msgctxt "inactive intensity effect"
 msgid "Darken"
 msgstr "Tarî"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, inactiveIntensityBox)
-#. i18n: ectx: property (text), item, widget (QComboBox, disabledIntensityBox)
-#: colorsettings.ui:770 colorsettings.ui:1020
+#: colorsettings.ui:770
+#, fuzzy
+#| msgid "Lighten"
+msgctxt "inactive intensity effect"
 msgid "Lighten"
 msgstr "Ronî"
 
@@ -552,26 +558,22 @@ msgid "None"
 msgstr "Ti yek"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, inactiveColorBox)
-#. i18n: ectx: property (text), item, widget (QComboBox, disabledColorBox)
-#: colorsettings.ui:832 colorsettings.ui:1082
+#: colorsettings.ui:832
+msgctxt "inactive color effect"
 msgid "Desaturate"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, inactiveColorBox)
-#. i18n: ectx: property (text), item, widget (QComboBox, inactiveContrastBox)
-#. i18n: ectx: property (text), item, widget (QComboBox, disabledColorBox)
-#. i18n: ectx: property (text), item, widget (QComboBox, disabledContrastBox)
-#: colorsettings.ui:837 colorsettings.ui:898 colorsettings.ui:1087
-#: colorsettings.ui:1148
+#: colorsettings.ui:837
+msgctxt "inactive color effect"
 msgid "Fade"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, inactiveColorBox)
-#. i18n: ectx: property (text), item, widget (QComboBox, inactiveContrastBox)
-#. i18n: ectx: property (text), item, widget (QComboBox, disabledColorBox)
-#. i18n: ectx: property (text), item, widget (QComboBox, disabledContrastBox)
-#: colorsettings.ui:842 colorsettings.ui:903 colorsettings.ui:1092
-#: colorsettings.ui:1153
+#: colorsettings.ui:842
+#, fuzzy
+#| msgid "Tint"
+msgctxt "inactive color effect"
 msgid "Tint"
 msgstr "Bi rengî "
 
@@ -604,6 +606,20 @@ msgctxt "no inactive contrast effect"
 msgid "None"
 msgstr "Ti yek"
 
+#. i18n: ectx: property (text), item, widget (QComboBox, inactiveContrastBox)
+#: colorsettings.ui:898
+msgctxt "inactive contrast effect"
+msgid "Fade"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, inactiveContrastBox)
+#: colorsettings.ui:903
+#, fuzzy
+#| msgid "Tint"
+msgctxt "inactive contrast effect"
+msgid "Tint"
+msgstr "Bi rengî "
+
 #. i18n: ectx: property (toolTip), widget (QSlider, inactiveContrastSlider)
 #: colorsettings.ui:914
 msgid "Inactive contrast effect amount"
@@ -630,6 +646,30 @@ msgctxt "no disabled intensity effect"
 msgid "None"
 msgstr "Ti yek"
 
+#. i18n: ectx: property (text), item, widget (QComboBox, disabledIntensityBox)
+#: colorsettings.ui:1010
+#, fuzzy
+#| msgid "Shade"
+msgctxt "disabled intensity effect"
+msgid "Shade"
+msgstr "Sî"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, disabledIntensityBox)
+#: colorsettings.ui:1015
+#, fuzzy
+#| msgid "Darken"
+msgctxt "disabled intensity effect"
+msgid "Darken"
+msgstr "Tarî"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, disabledIntensityBox)
+#: colorsettings.ui:1020
+#, fuzzy
+#| msgid "Lighten"
+msgctxt "disabled intensity effect"
+msgid "Lighten"
+msgstr "Ronî"
+
 #. i18n: ectx: property (toolTip), widget (QSlider, disabledIntensitySlider)
 #: colorsettings.ui:1031
 msgid "Disabled intensity effect amount"
@@ -647,6 +687,26 @@ msgstr ""
 msgctxt "no disabled color effect"
 msgid "None"
 msgstr "Ti yek"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, disabledColorBox)
+#: colorsettings.ui:1082
+msgctxt "disabled color effect"
+msgid "Desaturate"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, disabledColorBox)
+#: colorsettings.ui:1087
+msgctxt "disabled color effect"
+msgid "Fade"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, disabledColorBox)
+#: colorsettings.ui:1092
+#, fuzzy
+#| msgid "Tint"
+msgctxt "disabled color effect"
+msgid "Tint"
+msgstr "Bi rengî "
 
 #. i18n: ectx: property (toolTip), widget (QSlider, disabledColorSlider)
 #: colorsettings.ui:1103
@@ -670,6 +730,20 @@ msgstr ""
 msgctxt "no disabled contrast"
 msgid "None"
 msgstr "Ti yek"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, disabledContrastBox)
+#: colorsettings.ui:1148
+msgctxt "disabled contrast"
+msgid "Fade"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, disabledContrastBox)
+#: colorsettings.ui:1153
+#, fuzzy
+#| msgid "Tint"
+msgctxt "disabled contrast"
+msgid "Tint"
+msgstr "Bi rengî "
 
 #. i18n: ectx: property (toolTip), widget (QSlider, disabledContrastSlider)
 #: colorsettings.ui:1164
