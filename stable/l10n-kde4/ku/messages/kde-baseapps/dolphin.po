@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-09-12 19:00+0200\n"
+"POT-Creation-Date: 2012-09-13 12:04+0200\n"
 "PO-Revision-Date: 2008-12-22 22:21+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -1989,8 +1989,16 @@ msgstr "Li arşîvan bigere"
 msgid "Ask for confirmation when closing windows with multiple tabs."
 msgstr ""
 
-#. i18n: ectx: label, entry (ShowSelectionToggle), group (General)
+#. i18n: ectx: label, entry (RenameInline), group (General)
 #: settings/dolphin_generalsettings.kcfg:56
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Rename inline"
+msgid "Rename inline"
+msgstr "Bi rêzê de nav biguherîne"
+
+#. i18n: ectx: label, entry (ShowSelectionToggle), group (General)
+#: settings/dolphin_generalsettings.kcfg:60
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Show selection toggle"
@@ -1998,7 +2006,7 @@ msgid "Show selection toggle"
 msgstr "Têbara hilbijartî nîşan bide"
 
 #. i18n: ectx: label, entry (ShowToolTips), group (General)
-#: settings/dolphin_generalsettings.kcfg:60
+#: settings/dolphin_generalsettings.kcfg:64
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Show tooltips"
@@ -2006,7 +2014,7 @@ msgid "Show tooltips"
 msgstr "Qutî ya amûran nîşan bide"
 
 #. i18n: ectx: label, entry (ShowCopyMoveMenu), group (General)
-#: settings/dolphin_generalsettings.kcfg:64
+#: settings/dolphin_generalsettings.kcfg:68
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Show 'Copy To' and 'Move To' commands in context menu"
@@ -2014,7 +2022,7 @@ msgid "Show 'Copy To' and 'Move To' commands in context menu"
 msgstr "Di pêşekê de fermanên 'Jibergirtin' û 'Guhestin' nîşan bide"
 
 #. i18n: ectx: label, entry (ViewPropsTimestamp), group (General)
-#: settings/dolphin_generalsettings.kcfg:68
+#: settings/dolphin_generalsettings.kcfg:72
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Timestamp since when the view properties are valid"
@@ -2022,7 +2030,7 @@ msgid "Timestamp since when the view properties are valid"
 msgstr "Demê guherandinê ji wextê taybetiyên dîtinê derbasdar bûn ve heta niha"
 
 #. i18n: ectx: label, entry (AutoExpandFolders), group (General)
-#: settings/dolphin_generalsettings.kcfg:71
+#: settings/dolphin_generalsettings.kcfg:75
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Use auto-expanding folders for all view types"
@@ -2030,7 +2038,7 @@ msgid "Use auto-expanding folders for all view types"
 msgstr "Bixweber-vekirina peldankan bi kar bîne ji bo hemû cureyên dîtinê"
 
 #. i18n: ectx: label, entry (ShowZoomSlider), group (General)
-#: settings/dolphin_generalsettings.kcfg:75
+#: settings/dolphin_generalsettings.kcfg:79
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Show zoom slider in the statusbar"
@@ -2038,7 +2046,7 @@ msgid "Show zoom slider in the statusbar"
 msgstr "Kaşkera nêzîktir kirinê di nav darikê rewşê de nîşan bide"
 
 #. i18n: ectx: label, entry (ShowSpaceInfo), group (General)
-#: settings/dolphin_generalsettings.kcfg:79
+#: settings/dolphin_generalsettings.kcfg:83
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Show the space information in the statusbar"
@@ -2046,12 +2054,12 @@ msgid "Show the space information in the statusbar"
 msgstr "Agahiya valahiyê di darikê rewşê de nîşan bide"
 
 #. i18n: ectx: label, entry (LockPanels), group (General)
-#: settings/dolphin_generalsettings.kcfg:83
+#: settings/dolphin_generalsettings.kcfg:87
 msgid "Lock the layout of the panels"
 msgstr ""
 
 #. i18n: ectx: label, entry (EnlargeSmallPreviews), group (General)
-#: settings/dolphin_generalsettings.kcfg:87
+#: settings/dolphin_generalsettings.kcfg:91
 #, fuzzy
 #| msgctxt "@title:group"
 #| msgid "File Previews"
@@ -3305,12 +3313,6 @@ msgstr "Agahiyên pêvek"
 #~ msgstr "%1 (%2)"
 
 #~ msgctxt "@option:check"
-#~ msgid "Rename inline"
-#~ msgstr "Bi rêzê de nav biguherîne"
-
-#, fuzzy
-#~| msgctxt "@label"
-#~| msgid "Rename inline"
 #~ msgid "Rename inline"
 #~ msgstr "Bi rêzê de nav biguherîne"
 
