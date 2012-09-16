@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin_effects\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-09-15 04:54+0200\n"
+"POT-Creation-Date: 2012-09-16 04:33+0200\n"
 "PO-Revision-Date: 2009-01-06 02:36+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
@@ -36,7 +36,7 @@ msgstr "Rast"
 msgid "Strong"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, checkBox)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_CacheTexture)
 #: blur/blur_config.ui:83
 msgid "Safe intermediate rendering results."
 msgstr ""
@@ -56,15 +56,14 @@ msgstr ""
 msgid "&Animate walk through windows"
 msgstr ""
 
-#: coverswitch/coverswitch.cpp:1016 flipswitch/flipswitch.cpp:992
+#: coverswitch/coverswitch.cpp:1016 flipswitch/flipswitch.cpp:987
 #, fuzzy
 #| msgid "Desktop Cube"
 msgctxt "Special entry in alt+tab list for minimizing all windows"
 msgid "Show Desktop"
 msgstr "Sermase ya Mîkap"
 
-#: coverswitch/coverswitch_config.cpp:72
-#: desktopgrid/desktopgrid_config.cpp:109 magiclamp/magiclamp_config.cpp:58
+#: coverswitch/coverswitch_config.cpp:72 magiclamp/magiclamp_config.cpp:58
 #, fuzzy
 #| msgid " msec"
 msgid " millisecond"
@@ -73,7 +72,7 @@ msgstr[0] " mçir"
 msgstr[1] " mçir"
 
 #. i18n: ectx: property (text), widget (QCheckBox, checkWindowTitle)
-#. i18n: ectx: property (text), widget (QCheckBox, windowTitleBox)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_WindowTitle)
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_DrawWindowCaptions)
 #: coverswitch/coverswitch_config.ui:17 flipswitch/flipswitch_config.ui:191
 #: presentwindows/presentwindows_config.ui:408
@@ -462,11 +461,11 @@ msgstr ""
 msgid "Apply blur effect to background"
 msgstr ""
 
-#: desktopgrid/desktopgrid.cpp:73 desktopgrid/desktopgrid_config.cpp:57
+#: desktopgrid/desktopgrid.cpp:74 desktopgrid/desktopgrid_config.cpp:60
 msgid "Show Desktop Grid"
 msgstr ""
 
-#: desktopgrid/desktopgrid_config.cpp:64
+#: desktopgrid/desktopgrid_config.cpp:66
 #, fuzzy
 #| msgid "Disabled"
 msgctxt "Desktop name alignment:"
@@ -474,7 +473,7 @@ msgid "Disabled"
 msgstr "Neçalak"
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
-#: desktopgrid/desktopgrid_config.cpp:66 flipswitch/flipswitch_config.ui:160
+#: desktopgrid/desktopgrid_config.cpp:67 flipswitch/flipswitch_config.ui:160
 msgid "Top"
 msgstr "Jor"
 
@@ -483,60 +482,42 @@ msgid "Top-Right"
 msgstr "Rast-Jor"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: desktopgrid/desktopgrid_config.cpp:70 flipswitch/flipswitch_config.ui:125
+#: desktopgrid/desktopgrid_config.cpp:69 flipswitch/flipswitch_config.ui:125
 msgid "Right"
 msgstr "Rast"
 
-#: desktopgrid/desktopgrid_config.cpp:72
+#: desktopgrid/desktopgrid_config.cpp:70
 msgid "Bottom-Right"
 msgstr "Rastê Jêr"
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
-#: desktopgrid/desktopgrid_config.cpp:74 flipswitch/flipswitch_config.ui:180
+#: desktopgrid/desktopgrid_config.cpp:71 flipswitch/flipswitch_config.ui:180
 msgid "Bottom"
 msgstr "Jêr"
 
-#: desktopgrid/desktopgrid_config.cpp:76
+#: desktopgrid/desktopgrid_config.cpp:72
 msgid "Bottom-Left"
 msgstr "Çepê Jêr"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: desktopgrid/desktopgrid_config.cpp:78 flipswitch/flipswitch_config.ui:105
+#: desktopgrid/desktopgrid_config.cpp:73 flipswitch/flipswitch_config.ui:105
 msgid "Left"
 msgstr "Çep"
 
-#: desktopgrid/desktopgrid_config.cpp:80
+#: desktopgrid/desktopgrid_config.cpp:74
 msgid "Top-Left"
 msgstr "Çepê Jor"
 
-#: desktopgrid/desktopgrid_config.cpp:82
+#: desktopgrid/desktopgrid_config.cpp:75
 msgid "Center"
 msgstr "Navîn"
-
-#: desktopgrid/desktopgrid_config.cpp:111 mousemark/mousemark_config.cpp:51
-#: thumbnailaside/thumbnailaside_config.cpp:90
-#: thumbnailaside/thumbnailaside_config.cpp:92
-#, fuzzy
-#| msgid " pixels"
-msgid " pixel"
-msgid_plural " pixels"
-msgstr[0] " pîksel"
-msgstr[1] " pîksel"
-
-#: desktopgrid/desktopgrid_config.cpp:121
-#, fuzzy
-#| msgid " rows"
-msgid " row"
-msgid_plural " rows"
-msgstr[0] " rêzik"
-msgstr[1] " rêzik"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: desktopgrid/desktopgrid_config.ui:23
 msgid "Zoom &duration:"
 msgstr ""
 
-#. i18n: ectx: property (specialValueText), widget (KIntSpinBox, zoomDurationSpin)
+#. i18n: ectx: property (specialValueText), widget (KIntSpinBox, kcfg_ZoomDuration)
 #: desktopgrid/desktopgrid_config.ui:42
 msgctxt "Duration of zoom"
 msgid "Default"
@@ -557,17 +538,17 @@ msgstr ""
 msgid "&Layout mode:"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (KComboBox, layoutCombo)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_LayoutMode)
 #: desktopgrid/desktopgrid_config.ui:127
 msgid "Pager"
 msgstr "Rûpelker"
 
-#. i18n: ectx: property (text), item, widget (KComboBox, layoutCombo)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_LayoutMode)
 #: desktopgrid/desktopgrid_config.ui:132
 msgid "Automatic"
 msgstr "Bixweber"
 
-#. i18n: ectx: property (text), item, widget (KComboBox, layoutCombo)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_LayoutMode)
 #: desktopgrid/desktopgrid_config.ui:137
 msgid "Custom"
 msgstr "Taybet"
@@ -577,7 +558,7 @@ msgstr "Taybet"
 msgid "Number of &rows:"
 msgstr "Hejmara &rêzikan:"
 
-#. i18n: ectx: property (text), widget (QCheckBox, presentWindowsCheckBox)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_PresentWindows)
 #: desktopgrid/desktopgrid_config.ui:190
 msgid "Use Present Windows effect to layout the windows"
 msgstr ""
@@ -607,11 +588,11 @@ msgstr ""
 msgid "&Strength:"
 msgstr ""
 
-#: flipswitch/flipswitch.cpp:60 flipswitch/flipswitch_config.cpp:51
+#: flipswitch/flipswitch.cpp:61 flipswitch/flipswitch_config.cpp:54
 msgid "Toggle Flip Switch (Current desktop)"
 msgstr ""
 
-#: flipswitch/flipswitch.cpp:66 flipswitch/flipswitch_config.cpp:54
+#: flipswitch/flipswitch.cpp:67 flipswitch/flipswitch_config.cpp:57
 msgid "Toggle Flip Switch (All desktops)"
 msgstr ""
 
@@ -620,7 +601,7 @@ msgstr ""
 msgid "Flip animation duration:"
 msgstr ""
 
-#. i18n: ectx: property (specialValueText), widget (KIntSpinBox, durationSpin)
+#. i18n: ectx: property (specialValueText), widget (KIntSpinBox, kcfg_Duration)
 #: flipswitch/flipswitch_config.ui:42
 msgctxt "Duration of flip animation"
 msgid "Default"
@@ -631,7 +612,7 @@ msgstr "Standard"
 msgid "Angle:"
 msgstr ""
 
-#. i18n: ectx: property (suffix), widget (KIntSpinBox, angleSpin)
+#. i18n: ectx: property (suffix), widget (KIntSpinBox, kcfg_Angle)
 #: flipswitch/flipswitch_config.ui:71
 msgid " °"
 msgstr ""
@@ -690,7 +671,7 @@ msgid "Fade to black (fullscreen splash screens only)"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: lookingglass/lookingglass_config.ui:19
+#: lookingglass/lookingglass_config.ui:20
 msgid "&Radius:"
 msgstr ""
 
@@ -722,6 +703,16 @@ msgstr ""
 #: mousemark/mousemark.cpp:53 mousemark/mousemark_config.cpp:68
 msgid "Clear Last Mouse Mark"
 msgstr ""
+
+#: mousemark/mousemark_config.cpp:51
+#: thumbnailaside/thumbnailaside_config.cpp:90
+#: thumbnailaside/thumbnailaside_config.cpp:92
+#, fuzzy
+#| msgid " pixels"
+msgid " pixel"
+msgid_plural " pixels"
+msgstr[0] " pîksel"
+msgstr[1] " pîksel"
 
 #: mousemark/mousemark_config.cpp:63
 msgid "Clear Mouse Marks"
@@ -1322,6 +1313,13 @@ msgstr "Neçalak"
 #: zoom/zoom_config.ui:151
 msgid "Mouse Tracking:"
 msgstr ""
+
+#, fuzzy
+#~| msgid " rows"
+#~ msgid " row"
+#~ msgid_plural " rows"
+#~ msgstr[0] " rêzik"
+#~ msgstr[1] " rêzik"
 
 #~ msgctxt "Duration of fading"
 #~ msgid "Default"
