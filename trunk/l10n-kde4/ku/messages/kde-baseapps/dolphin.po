@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-09-16 04:16+0200\n"
+"POT-Creation-Date: 2012-09-22 04:44+0200\n"
 "PO-Revision-Date: 2008-12-22 22:21+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -1314,7 +1314,7 @@ msgctxt "@info"
 msgid "The device '%1' is not a disk and cannot be ejected."
 msgstr ""
 
-#: panels/places/placesitemmodel.cpp:897
+#: panels/places/placesitemmodel.cpp:907
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Home URL"
@@ -1322,7 +1322,7 @@ msgctxt "KFile System Bookmarks"
 msgid "Home"
 msgstr "URL'a malê"
 
-#: panels/places/placesitemmodel.cpp:900
+#: panels/places/placesitemmodel.cpp:910
 #, fuzzy
 #| msgctxt "@action:inmenu Go"
 #| msgid "&Network Folders"
@@ -1330,12 +1330,12 @@ msgctxt "KFile System Bookmarks"
 msgid "Network"
 msgstr "Peldankên &Torê"
 
-#: panels/places/placesitemmodel.cpp:903
+#: panels/places/placesitemmodel.cpp:913
 msgctxt "KFile System Bookmarks"
 msgid "Root"
 msgstr ""
 
-#: panels/places/placesitemmodel.cpp:906
+#: panels/places/placesitemmodel.cpp:916
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Trash"
@@ -1343,7 +1343,7 @@ msgctxt "KFile System Bookmarks"
 msgid "Trash"
 msgstr "Sergo"
 
-#: panels/places/placesitemmodel.cpp:911
+#: panels/places/placesitemmodel.cpp:921
 #, fuzzy
 #| msgctxt "@title:group Date"
 #| msgid "Today"
@@ -1351,7 +1351,7 @@ msgctxt "KFile System Bookmarks"
 msgid "Today"
 msgstr "Îro"
 
-#: panels/places/placesitemmodel.cpp:914
+#: panels/places/placesitemmodel.cpp:924
 #, fuzzy
 #| msgctxt "@title:group Date"
 #| msgid "Yesterday"
@@ -1359,7 +1359,7 @@ msgctxt "KFile System Bookmarks"
 msgid "Yesterday"
 msgstr "Do"
 
-#: panels/places/placesitemmodel.cpp:917
+#: panels/places/placesitemmodel.cpp:927
 #, fuzzy
 #| msgctxt "@title:group Date"
 #| msgid "Earlier this Month"
@@ -1367,7 +1367,7 @@ msgctxt "KFile System Bookmarks"
 msgid "This Month"
 msgstr "Berê di vî mehî de"
 
-#: panels/places/placesitemmodel.cpp:920
+#: panels/places/placesitemmodel.cpp:930
 #, fuzzy
 #| msgctxt "@title:group Date"
 #| msgid "Earlier this Month"
@@ -1375,7 +1375,7 @@ msgctxt "KFile System Bookmarks"
 msgid "Last Month"
 msgstr "Berê di vî mehî de"
 
-#: panels/places/placesitemmodel.cpp:923
+#: panels/places/placesitemmodel.cpp:933
 #, fuzzy
 #| msgctxt "@info:credit"
 #| msgid "Documentation"
@@ -1383,18 +1383,18 @@ msgctxt "KFile System Bookmarks"
 msgid "Documents"
 msgstr "Belgekirin"
 
-#: panels/places/placesitemmodel.cpp:926
+#: panels/places/placesitemmodel.cpp:936
 #, fuzzy
 msgctxt "KFile System Bookmarks"
 msgid "Images"
 msgstr "Mezinahiya pêşdîtinê"
 
-#: panels/places/placesitemmodel.cpp:929
+#: panels/places/placesitemmodel.cpp:939
 msgctxt "KFile System Bookmarks"
 msgid "Audio Files"
 msgstr ""
 
-#: panels/places/placesitemmodel.cpp:932
+#: panels/places/placesitemmodel.cpp:942
 msgctxt "KFile System Bookmarks"
 msgid "Videos"
 msgstr ""
@@ -2010,8 +2010,16 @@ msgstr "Li arşîvan bigere"
 msgid "Ask for confirmation when closing windows with multiple tabs."
 msgstr ""
 
-#. i18n: ectx: label, entry (ShowSelectionToggle), group (General)
+#. i18n: ectx: label, entry (RenameInline), group (General)
 #: settings/dolphin_generalsettings.kcfg:56
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Rename inline"
+msgid "Rename inline"
+msgstr "Bi rêzê de nav biguherîne"
+
+#. i18n: ectx: label, entry (ShowSelectionToggle), group (General)
+#: settings/dolphin_generalsettings.kcfg:60
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Show selection toggle"
@@ -2019,7 +2027,7 @@ msgid "Show selection toggle"
 msgstr "Têbara hilbijartî nîşan bide"
 
 #. i18n: ectx: label, entry (ShowToolTips), group (General)
-#: settings/dolphin_generalsettings.kcfg:60
+#: settings/dolphin_generalsettings.kcfg:64
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Show tooltips"
@@ -2027,7 +2035,7 @@ msgid "Show tooltips"
 msgstr "Qutî ya amûran nîşan bide"
 
 #. i18n: ectx: label, entry (ShowCopyMoveMenu), group (General)
-#: settings/dolphin_generalsettings.kcfg:64
+#: settings/dolphin_generalsettings.kcfg:68
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Show 'Copy To' and 'Move To' commands in context menu"
@@ -2035,7 +2043,7 @@ msgid "Show 'Copy To' and 'Move To' commands in context menu"
 msgstr "Di pêşekê de fermanên 'Jibergirtin' û 'Guhestin' nîşan bide"
 
 #. i18n: ectx: label, entry (ViewPropsTimestamp), group (General)
-#: settings/dolphin_generalsettings.kcfg:68
+#: settings/dolphin_generalsettings.kcfg:72
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Timestamp since when the view properties are valid"
@@ -2043,7 +2051,7 @@ msgid "Timestamp since when the view properties are valid"
 msgstr "Demê guherandinê ji wextê taybetiyên dîtinê derbasdar bûn ve heta niha"
 
 #. i18n: ectx: label, entry (AutoExpandFolders), group (General)
-#: settings/dolphin_generalsettings.kcfg:71
+#: settings/dolphin_generalsettings.kcfg:75
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Use auto-expanding folders for all view types"
@@ -2051,7 +2059,7 @@ msgid "Use auto-expanding folders for all view types"
 msgstr "Bixweber-vekirina peldankan bi kar bîne ji bo hemû cureyên dîtinê"
 
 #. i18n: ectx: label, entry (ShowZoomSlider), group (General)
-#: settings/dolphin_generalsettings.kcfg:75
+#: settings/dolphin_generalsettings.kcfg:79
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Show zoom slider in the statusbar"
@@ -2059,7 +2067,7 @@ msgid "Show zoom slider in the statusbar"
 msgstr "Kaşkera nêzîktir kirinê di nav darikê rewşê de nîşan bide"
 
 #. i18n: ectx: label, entry (ShowSpaceInfo), group (General)
-#: settings/dolphin_generalsettings.kcfg:79
+#: settings/dolphin_generalsettings.kcfg:83
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Show the space information in the statusbar"
@@ -2067,12 +2075,12 @@ msgid "Show the space information in the statusbar"
 msgstr "Agahiya valahiyê di darikê rewşê de nîşan bide"
 
 #. i18n: ectx: label, entry (LockPanels), group (General)
-#: settings/dolphin_generalsettings.kcfg:83
+#: settings/dolphin_generalsettings.kcfg:87
 msgid "Lock the layout of the panels"
 msgstr ""
 
 #. i18n: ectx: label, entry (EnlargeSmallPreviews), group (General)
-#: settings/dolphin_generalsettings.kcfg:87
+#: settings/dolphin_generalsettings.kcfg:91
 #, fuzzy
 #| msgctxt "@title:group"
 #| msgid "File Previews"
@@ -2842,29 +2850,29 @@ msgctxt "@info:status"
 msgid "0 Folders, 0 Files"
 msgstr "Peldank"
 
-#: views/dolphinview.cpp:875
+#: views/dolphinview.cpp:889
 #, fuzzy
 msgctxt "@action:inmenu"
 msgid "Automatic Column Widths"
 msgstr "Firehiya Sitûnê"
 
-#: views/dolphinview.cpp:880
+#: views/dolphinview.cpp:894
 #, fuzzy
 msgctxt "@action:inmenu"
 msgid "Custom Column Widths"
 msgstr "Firehiya Sitûnê"
 
-#: views/dolphinview.cpp:1258
+#: views/dolphinview.cpp:1272
 msgctxt "@info:status"
 msgid "Delete operation completed."
 msgstr "Karê jêbirinê qediya."
 
-#: views/dolphinview.cpp:1352
+#: views/dolphinview.cpp:1370
 msgctxt "@info:status"
 msgid "The location is empty."
 msgstr "Cî vala ye."
 
-#: views/dolphinview.cpp:1354
+#: views/dolphinview.cpp:1372
 #, kde-format
 msgctxt "@info:status"
 msgid "The location '%1' is invalid."
@@ -3326,12 +3334,6 @@ msgstr "Agahiyên pêvek"
 #~ msgstr "%1 (%2)"
 
 #~ msgctxt "@option:check"
-#~ msgid "Rename inline"
-#~ msgstr "Bi rêzê de nav biguherîne"
-
-#, fuzzy
-#~| msgctxt "@label"
-#~| msgid "Rename inline"
 #~ msgid "Rename inline"
 #~ msgstr "Bi rêzê de nav biguherîne"
 
