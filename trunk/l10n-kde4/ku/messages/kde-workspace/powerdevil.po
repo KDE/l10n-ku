@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: powerdevil\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-20 05:37+0200\n"
+"POT-Creation-Date: 2012-10-02 07:20+0200\n"
 "PO-Revision-Date: 2008-12-31 04:01+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -114,6 +114,12 @@ msgid "Run script"
 msgstr ""
 
 #: actions/bundled/suspendsession.cpp:114
+#, fuzzy
+#| msgid "Lock Screen"
+msgid "Locking Screen"
+msgstr "Dîmenderê Qufl Bike"
+
+#: actions/bundled/suspendsession.cpp:114
 msgid "The screen is being locked"
 msgstr "Dîmender tê qufl kirin"
 
@@ -201,6 +207,10 @@ msgid ""
 "details."
 msgstr ""
 
+#: powerdevilcore.cpp:201
+msgid "Broken Battery"
+msgstr ""
+
 #: powerdevilcore.cpp:210
 #, kde-format
 msgid ""
@@ -217,6 +227,10 @@ msgid ""
 "vendors recall the hardware, it is because of factory defects which are "
 "usually eligible for a free repair or substitution. Please check <a href="
 "\"%2\">%1's website</a> to verify if your battery is faulted."
+msgstr ""
+
+#: powerdevilcore.cpp:222
+msgid "Check Your Battery"
 msgstr ""
 
 #: powerdevilcore.cpp:342
@@ -262,27 +276,41 @@ msgstr ""
 "Nikare girêbide navrû yê pîlê!\n"
 "Jê kerema xwe mîhengên pergala xwe kontrol bike"
 
-#: powerdevilcore.cpp:502
+#: powerdevilcore.cpp:514
+#, fuzzy
+#| msgid "When AC Adaptor is plugged in"
+msgid "AC Adapter Plugged In"
+msgstr "Wextê Adaptora AC tê girêdan"
+
+#: powerdevilcore.cpp:515
 #, fuzzy
 #| msgid "The power adaptor has been plugged in"
-msgid ""
-"The power adaptor has been plugged in – all pending suspend actions have "
-"been canceled."
+msgid "All pending suspend actions have been canceled."
 msgstr "Adaptorê hêzê hate girêdan "
 
-#: powerdevilcore.cpp:504
+#: powerdevilcore.cpp:517
+msgid "Running on AC power"
+msgstr ""
+
+#: powerdevilcore.cpp:517
 #, fuzzy
 #| msgid "The power adaptor has been plugged in"
 msgid "The power adaptor has been plugged in."
 msgstr "Adaptorê hêzê hate girêdan "
 
-#: powerdevilcore.cpp:507
+#: powerdevilcore.cpp:520
+#, fuzzy
+#| msgid "When on battery Power"
+msgid "Running on Battery Power"
+msgstr "Wextê di Hêza pîlê de"
+
+#: powerdevilcore.cpp:520
 #, fuzzy
 #| msgid "The power adaptor has been unplugged"
 msgid "The power adaptor has been unplugged."
 msgstr "Adaptorê hêzê hate qut kirin"
 
-#: powerdevilcore.cpp:513
+#: powerdevilcore.cpp:526
 #, kde-format
 msgid ""
 "KDE Power Management System could not be initialized. The backend reported "
@@ -290,7 +318,13 @@ msgid ""
 "Please check your system configuration"
 msgstr ""
 
-#: powerdevilcore.cpp:540
+#: powerdevilcore.cpp:552 powerdevilcore.cpp:557 powerdevilcore.cpp:562
+#: powerdevilcore.cpp:567
+#, kde-format
+msgid "Battery Critical (%1% Remaining)"
+msgstr ""
+
+#: powerdevilcore.cpp:553
 #, fuzzy
 #| msgid ""
 #| "Your battery has reached critical level, the PC will be halted in %1 "
@@ -301,7 +335,7 @@ msgstr ""
 "Pîla te gihîşt asta rexne, Komputer dê %1 çirkeyan de bê girtin. Pêl li vir "
 "bike ku pêvajo yê bidî rawestandin."
 
-#: powerdevilcore.cpp:546
+#: powerdevilcore.cpp:558
 #, fuzzy
 #| msgid ""
 #| "Your battery has reached critical level, the PC will be halted in %1 "
@@ -313,7 +347,7 @@ msgstr ""
 "Pîla te gihîşt asta rexne, Komputer dê %1 çirkeyan de bê girtin. Pêl li vir "
 "bike ku pêvajo yê bidî rawestandin."
 
-#: powerdevilcore.cpp:552
+#: powerdevilcore.cpp:563
 #, fuzzy
 #| msgid ""
 #| "Your battery has reached critical level, the PC will be suspended to RAM "
@@ -324,19 +358,44 @@ msgstr ""
 "Pîla te gihîşt asta rexne, Komputer dê %1 çirkeyan de ji RAMê bê sekinandin. "
 "Pêl li vir bike ku pêvajo yê bidî rawestandin."
 
-#: powerdevilcore.cpp:558
+#: powerdevilcore.cpp:568
 #, fuzzy
 #| msgid ""
 #| "Your battery has reached critical level, save your work as soon as "
 #| "possible!"
-msgid "Your battery level is critical: save your work as soon as possible."
+msgid "Your battery level is critical, save your work as soon as possible."
 msgstr "Pîla te gihîşt asta rexne, xebatên xwe di demê zûtirîn de tomar bike! "
 
-#: powerdevilcore.cpp:564
+#: powerdevilcore.cpp:573
+#, kde-format
+msgid "Battery Low (%1% Remaining)"
+msgstr ""
+
+#: powerdevilcore.cpp:574
+msgid ""
+"Your battery is low. If you need to continue using your computer, either "
+"plug in your computer, or shut it down and then change the battery."
+msgstr ""
+
+#: powerdevilcore.cpp:577
+msgid "Charge Complete"
+msgstr ""
+
+#: powerdevilcore.cpp:577
+msgid "Your battery is now fully charged."
+msgstr ""
+
 #, fuzzy
-#| msgid "Your battery has reached low level"
-msgid "Your battery has reached a low level."
-msgstr "Pîla te gihîşt asta kêmtir"
+#~| msgid "The power adaptor has been plugged in"
+#~ msgid ""
+#~ "The power adaptor has been plugged in – all pending suspend actions have "
+#~ "been canceled."
+#~ msgstr "Adaptorê hêzê hate girêdan "
+
+#, fuzzy
+#~| msgid "Your battery has reached low level"
+#~ msgid "Your battery has reached a low level."
+#~ msgstr "Pîla te gihîşt asta kêmtir"
 
 #, fuzzy
 #~| msgid "Performance"
@@ -389,13 +448,6 @@ msgstr "Pîla te gihîşt asta kêmtir"
 #~| msgid "(c), 2008 Dario Freddi"
 #~ msgid "(c) 2008 Dario Freddi"
 #~ msgstr "(c), 2008 Dario Freddi"
-
-#, fuzzy
-#~| msgid "The power adaptor has been plugged in"
-#~ msgid ""
-#~ "The power adaptor has been plugged in. Any pending suspend actions have "
-#~ "been canceled."
-#~ msgstr "Adaptorê hêzê hate girêdan "
 
 #, fuzzy
 #~| msgid ""
@@ -730,9 +782,6 @@ msgstr "Pîla te gihîşt asta kêmtir"
 #~ msgid "Configure Notifications..."
 #~ msgstr "Hişyariyan Veava Bike"
 
-#~ msgid "When AC Adaptor is plugged in"
-#~ msgstr "Wextê Adaptora AC tê girêdan"
-
 #, fuzzy
 #~| msgid "When AC Adaptor is plugged in"
 #~ msgid "When AC Adaptor is unplugged"
@@ -865,11 +914,6 @@ msgstr "Pîla te gihîşt asta kêmtir"
 #~| msgid "Do nothing"
 #~ msgid "Do not wait"
 #~ msgstr "Tiştek neke"
-
-#, fuzzy
-#~| msgid "When on battery Power"
-#~ msgid "When on battery power"
-#~ msgstr "Wextê di Hêza pîlê de"
 
 #, fuzzy
 #~| msgid "Do nothing"
