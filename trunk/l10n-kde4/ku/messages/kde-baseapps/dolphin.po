@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-10-30 04:25+0100\n"
+"POT-Creation-Date: 2012-11-01 03:57+0100\n"
 "PO-Revision-Date: 2008-12-22 22:21+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -1406,7 +1406,7 @@ msgid "Videos"
 msgstr ""
 
 #: panels/places/placespanel.cpp:188 panels/places/placespanel.cpp:194
-#: panels/places/placespanel.cpp:255
+#: panels/places/placespanel.cpp:284
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Add Comment..."
@@ -1444,7 +1444,7 @@ msgctxt "@item:inmenu"
 msgid "Hide '%1'"
 msgstr ""
 
-#: panels/places/placespanel.cpp:214 panels/places/placespanel.cpp:259
+#: panels/places/placespanel.cpp:214 panels/places/placespanel.cpp:288
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Show tooltips"
@@ -1452,17 +1452,49 @@ msgctxt "@item:inmenu"
 msgid "Show All Entries"
 msgstr "Qutî ya amûran nîşan bide"
 
-#: panels/places/placespanel.cpp:386
+#: panels/places/placespanel.cpp:220
+#, fuzzy
+#| msgctxt "@title:group"
+#| msgid "Icon Size"
+msgctxt "@item:inmenu"
+msgid "Icon Size"
+msgstr "Mezinahiya Îkonê"
+
+#: panels/places/placespanel.cpp:225
+#, kde-format
+msgctxt "Small icon size"
+msgid "Small (%1x%2)"
+msgstr ""
+
+#: panels/places/placespanel.cpp:226
+#, kde-format
+msgctxt "Medium icon size"
+msgid "Medium (%1x%2)"
+msgstr ""
+
+#: panels/places/placespanel.cpp:227
+#, kde-format
+msgctxt "Large icon size"
+msgid "Large (%1x%2)"
+msgstr ""
+
+#: panels/places/placespanel.cpp:228
+#, kde-format
+msgctxt "Huge icon size"
+msgid "Huge (%1x%2)"
+msgstr ""
+
+#: panels/places/placespanel.cpp:415
 msgctxt "@info"
 msgid "Do you really want to empty the Trash? All items will be deleted."
 msgstr "Ji dil dixwazî çopê vala bikî? Her tişt dê jê bên birin."
 
-#: panels/places/placespanel.cpp:390
+#: panels/places/placespanel.cpp:419
 msgctxt "@action:button"
 msgid "Empty Trash"
 msgstr "Çopê Vala Bike"
 
-#: panels/places/placespanel.cpp:410
+#: panels/places/placespanel.cpp:439
 #, fuzzy
 #| msgctxt "@action:inmenu Add current folder to places"
 #| msgid "Add to Places"
@@ -1470,7 +1502,7 @@ msgctxt "@title:window"
 msgid "Add Places Entry"
 msgstr "Têxe Ciyan"
 
-#: panels/places/placespanel.cpp:426
+#: panels/places/placespanel.cpp:455
 msgctxt "@title:window"
 msgid "Edit Places Entry"
 msgstr ""
