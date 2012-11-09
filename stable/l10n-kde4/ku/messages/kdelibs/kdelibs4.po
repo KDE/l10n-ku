@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-11-08 07:50+0100\n"
+"POT-Creation-Date: 2012-11-09 08:23+0100\n"
 "PO-Revision-Date: 2010-08-13 15:45+0200\n"
 "Last-Translator: Erdal Ronahî <erdal.ronahi@gmail.com>\n"
 "Language-Team: Kurdish Team http://pckurd.net\n"
@@ -922,15 +922,15 @@ msgstr ""
 "Pir zêde peyvên şaş hate dîtin. Dema nivîsînê de kontrolkirina rastnivîsê wê "
 "were rawestandin."
 
-#: kde3support/kdeui/k3textedit.cpp:232 kdeui/widgets/ktextedit.cpp:546
+#: kde3support/kdeui/k3textedit.cpp:232 kdeui/widgets/ktextedit.cpp:491
 msgid "Check Spelling..."
 msgstr "Rastnivîsê Kontrol Bike..."
 
-#: kde3support/kdeui/k3textedit.cpp:238 kdeui/widgets/ktextedit.cpp:549
+#: kde3support/kdeui/k3textedit.cpp:238 kdeui/widgets/ktextedit.cpp:494
 msgid "Auto Spell Check"
 msgstr "Kontrolkirina Rastnivîsê ya Bixweber"
 
-#: kde3support/kdeui/k3textedit.cpp:242 kdeui/widgets/ktextedit.cpp:554
+#: kde3support/kdeui/k3textedit.cpp:242 kdeui/widgets/ktextedit.cpp:498
 msgid "Allow Tabulations"
 msgstr "Destûrê Bide Hilfirînan"
 
@@ -3582,8 +3582,8 @@ msgstr "&Darikê Rewşê Nîşan Bide"
 
 #: kdeui/actions/kstandardaction.cpp:547
 msgid ""
-"Show Statusbar<p>Shows the statusbar, which is the bar at the bottom of the "
-"window used for status information.</p>"
+"Show Statusbar<br /><br />Shows the statusbar, which is the bar at the "
+"bottom of the window used for status information."
 msgstr ""
 
 #: kdeui/actions/kstandardaction_p.h:43
@@ -5887,12 +5887,18 @@ msgctxt "@info:whatsthis"
 msgid "Here you can choose the font style to be used."
 msgstr "Ji vê derê tu dikarî şêwaza curetîpan biguherîne."
 
-#: kdeui/fonts/kfontchooser.cpp:299 kdeui/fonts/kfontchooser.cpp:645
+#: kdeui/fonts/kfontchooser.cpp:298 kdeui/fonts/kfontchooser.cpp:629
+#: kdeui/fonts/kfontchooser.cpp:647
+msgctxt "@item font"
+msgid "Regular"
+msgstr "Asayî"
+
+#: kdeui/fonts/kfontchooser.cpp:299 kdeui/fonts/kfontchooser.cpp:651
 msgctxt "@item font"
 msgid "Italic"
 msgstr "Îtalîk"
 
-#: kdeui/fonts/kfontchooser.cpp:300 kdeui/fonts/kfontchooser.cpp:646
+#: kdeui/fonts/kfontchooser.cpp:300 kdeui/fonts/kfontchooser.cpp:652
 msgctxt "@item font"
 msgid "Oblique"
 msgstr "Xwar"
@@ -5952,7 +5958,7 @@ msgstr "Curenivîsa Derbasdar"
 #. noun-adjective congruence wrt. gender of the family name).
 #. The message provides the dynamic context 'family', which is
 #. the family name to which the style string corresponds.
-#: kdeui/fonts/kfontchooser.cpp:630
+#: kdeui/fonts/kfontchooser.cpp:636
 #, kde-format
 msgctxt "@item Font style"
 msgid "%1"
@@ -8486,7 +8492,7 @@ msgstr "bênav"
 #. (e.g. "Enter search pattern").
 #. By default the text is set in italic, which may not be appropriate
 #. for some languages and scripts (e.g. for CJK ideographs).
-#: kdeui/widgets/klineedit.cpp:87 kdeui/widgets/ktextedit.cpp:82
+#: kdeui/widgets/klineedit.cpp:87 kdeui/widgets/ktextedit.cpp:79
 msgctxt "Italic placeholder text in line edits: 0 no, 1 yes"
 msgid "1"
 msgstr "1"
@@ -8496,42 +8502,42 @@ msgctxt "@action:button Clear current text in the line edit"
 msgid "Clear text"
 msgstr "Nivîsê Paqij Bike"
 
-#: kdeui/widgets/klineedit.cpp:1213
+#: kdeui/widgets/klineedit.cpp:1216
 msgctxt "@title:menu"
 msgid "Text Completion"
 msgstr "Temamkirina Nivîsê"
 
-#: kdeui/widgets/klineedit.cpp:1220
+#: kdeui/widgets/klineedit.cpp:1223
 msgctxt "@item:inmenu Text Completion"
 msgid "None"
 msgstr "Ne yek jî"
 
-#: kdeui/widgets/klineedit.cpp:1221
+#: kdeui/widgets/klineedit.cpp:1224
 msgctxt "@item:inmenu Text Completion"
 msgid "Manual"
 msgstr "Bi destan"
 
-#: kdeui/widgets/klineedit.cpp:1222
+#: kdeui/widgets/klineedit.cpp:1225
 msgctxt "@item:inmenu Text Completion"
 msgid "Automatic"
 msgstr "Bixweber"
 
-#: kdeui/widgets/klineedit.cpp:1223
+#: kdeui/widgets/klineedit.cpp:1226
 msgctxt "@item:inmenu Text Completion"
 msgid "Dropdown List"
 msgstr "Lîsteya Rêzkirî"
 
-#: kdeui/widgets/klineedit.cpp:1224
+#: kdeui/widgets/klineedit.cpp:1227
 msgctxt "@item:inmenu Text Completion"
 msgid "Short Automatic"
 msgstr "Bixweber û Kurt"
 
-#: kdeui/widgets/klineedit.cpp:1225
+#: kdeui/widgets/klineedit.cpp:1228
 msgctxt "@item:inmenu Text Completion"
 msgid "Dropdown List && Automatic"
 msgstr "Lîsteya Rêzkirî && Bixweber"
 
-#: kdeui/widgets/klineedit.cpp:1256
+#: kdeui/widgets/klineedit.cpp:1259
 msgctxt "@item:inmenu Text Completion"
 msgid "Default"
 msgstr "Standard"
@@ -8693,52 +8699,42 @@ msgctxt "@item:inmenu uppercase abc lists"
 msgid "ABC"
 msgstr "ABC"
 
-#: kdeui/widgets/krichtextwidget.cpp:415
-msgctxt "@item:inmenu lower case roman numerals"
-msgid "i ii iii"
-msgstr ""
-
-#: kdeui/widgets/krichtextwidget.cpp:416
-msgctxt "@item:inmenu upper case roman numerals"
-msgid "I II III"
-msgstr ""
-
-#: kdeui/widgets/krichtextwidget.cpp:433
+#: kdeui/widgets/krichtextwidget.cpp:430
 msgctxt "@action"
 msgid "Increase Indent"
 msgstr "Çalikê mezintir bike"
 
-#: kdeui/widgets/krichtextwidget.cpp:446
+#: kdeui/widgets/krichtextwidget.cpp:443
 msgctxt "@action"
 msgid "Decrease Indent"
 msgstr "Çalikê kêmtir bike"
 
-#: kdeui/widgets/krichtextwidget.cpp:459
+#: kdeui/widgets/krichtextwidget.cpp:456
 msgctxt "@action"
 msgid "Insert Rule Line"
 msgstr ""
 
-#: kdeui/widgets/krichtextwidget.cpp:470
+#: kdeui/widgets/krichtextwidget.cpp:467
 msgctxt "@action"
 msgid "Link"
 msgstr "Lînk"
 
-#: kdeui/widgets/krichtextwidget.cpp:481
+#: kdeui/widgets/krichtextwidget.cpp:478
 msgctxt "@action"
 msgid "Format Painter"
 msgstr "Nexşevanê Teşe"
 
-#: kdeui/widgets/krichtextwidget.cpp:492
+#: kdeui/widgets/krichtextwidget.cpp:489
 msgctxt "@action"
 msgid "To Plain Text"
 msgstr ""
 
-#: kdeui/widgets/krichtextwidget.cpp:503
+#: kdeui/widgets/krichtextwidget.cpp:500
 msgctxt "@action"
 msgid "Subscript"
 msgstr "Abonebûn"
 
-#: kdeui/widgets/krichtextwidget.cpp:510
+#: kdeui/widgets/krichtextwidget.cpp:507
 msgctxt "@action"
 msgid "Superscript"
 msgstr "Skrîptê Super"
@@ -8747,30 +8743,30 @@ msgstr "Skrîptê Super"
 msgid "&Copy Full Text"
 msgstr "Hemû Nivîsê &Ji Ber Bigire"
 
-#: kdeui/widgets/ktextedit.cpp:161
-msgid "Nothing to spell check."
-msgstr "Tu tiştekî ji bo kontrola rastnivîsînê tune."
-
-#: kdeui/widgets/ktextedit.cpp:582
+#: kdeui/widgets/ktextedit.cpp:525
 msgid "Speak Text"
 msgstr "Nivîsa Axaftinê"
 
-#: kdeui/widgets/ktextedit.cpp:597
+#: kdeui/widgets/ktextedit.cpp:540
 msgid "Starting Jovie Text-to-Speech Service Failed"
 msgstr ""
 
-#: kdeui/widgets/ktextedit.cpp:686
+#: kdeui/widgets/ktextedit.cpp:629
 #, kde-format
 msgid "No suggestions for %1"
 msgstr "Ji bo %1 tu pêşniyaz tuneye"
 
-#: kdeui/widgets/ktextedit.cpp:698
+#: kdeui/widgets/ktextedit.cpp:640
 msgid "Ignore"
 msgstr "Guh nede"
 
-#: kdeui/widgets/ktextedit.cpp:699
+#: kdeui/widgets/ktextedit.cpp:641
 msgid "Add to Dictionary"
 msgstr "Li Ferhengê Zêde Bike"
+
+#: kdeui/widgets/ktextedit.cpp:786
+msgid "Nothing to spell check."
+msgstr "Tu tiştekî ji bo kontrola rastnivîsînê tune."
 
 #: kdeui/widgets/ktimecombobox.cpp:259
 #, fuzzy
@@ -12275,11 +12271,11 @@ msgstr "Bipejirîne"
 msgid "Reject"
 msgstr "Nepejirîne"
 
-#: kparts/part.cpp:816
+#: kparts/part.cpp:815
 msgid "Untitled"
 msgstr "Bênav"
 
-#: kparts/part.cpp:822
+#: kparts/part.cpp:821
 #, kde-format
 msgid ""
 "The document \"%1\" has been modified.\n"
@@ -12288,7 +12284,7 @@ msgstr ""
 "Pelê \"%1\" hate guhertin.\n"
 "Tu dixwazî tomar bike yan jî guhertinan jê bibî?"
 
-#: kparts/part.cpp:824
+#: kparts/part.cpp:823
 msgid "Close Document"
 msgstr "Belgeyê Bigire"
 
@@ -13421,10 +13417,6 @@ msgstr "Betalkirin"
 #: threadweaver/Examples/SMIV/SMIVBase.ui:49
 msgid "Suspend"
 msgstr "Xew"
-
-#~ msgctxt "@item font"
-#~ msgid "Regular"
-#~ msgstr "Asayî"
 
 #~ msgid "What's &This"
 #~ msgstr "&Ev Çi ye"
