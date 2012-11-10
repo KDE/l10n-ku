@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkwindecoration\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-10-26 03:11+0200\n"
+"POT-Creation-Date: 2012-11-10 02:58+0100\n"
 "PO-Revision-Date: 2008-12-28 14:32+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
@@ -158,16 +158,16 @@ msgstr "Herî Gelek Mezin"
 msgid "Close windows by double clicking the menu button"
 msgstr ""
 
-#: buttons.cpp:613
+#: buttons.cpp:619
 msgid "KDE"
 msgstr "KDE"
 
-#: buttons.cpp:642
+#: buttons.cpp:648
 #, kde-format
 msgid "%1 (unavailable)"
 msgstr "%1 (tune ye)"
 
-#: buttons.cpp:665
+#: buttons.cpp:671
 msgid ""
 "To add or remove titlebar buttons, simply <i>drag</i> items between the "
 "available item list and the titlebar preview. Similarly, drag items within "
@@ -178,47 +178,53 @@ msgstr ""
 "sernavê de. Wekî vê, hêmanan jê navbera pêşdîtina darika sernavê de bikişîne "
 "û wan bicih bike."
 
-#: buttons.cpp:708
+#: buttons.cpp:726
 msgid "Resize"
 msgstr "Mezinahiyê Biguherîne"
 
-#: buttons.cpp:712
+#: buttons.cpp:730
 msgid "Shade"
 msgstr "Sîdar Bike"
 
-#: buttons.cpp:716
+#: buttons.cpp:734
 msgid "Keep Below Others"
 msgstr "Bin yê Din Bigire"
 
-#: buttons.cpp:720
+#: buttons.cpp:738
 msgid "Keep Above Others"
 msgstr "Ser yê Din Bigire"
 
-#: buttons.cpp:724
+#: buttons.cpp:742
 msgid "Close"
 msgstr "Girtin"
 
-#: buttons.cpp:728
+#: buttons.cpp:746
 msgid "Maximize"
 msgstr "Mezintirîn Bike"
 
-#: buttons.cpp:732
+#: buttons.cpp:750
 msgid "Minimize"
 msgstr "Biçûktirîn Bike"
 
-#: buttons.cpp:736
+#: buttons.cpp:754
 msgid "Help"
 msgstr "Alîkarî"
 
-#: buttons.cpp:740
+#: buttons.cpp:758
 msgid "On All Desktops"
 msgstr "Di Hemû Sermase yan de"
 
-#: buttons.cpp:744
-msgid "Menu"
-msgstr "Pêşek"
+#: buttons.cpp:762
+msgctxt "Button showing window actions menu"
+msgid "Window Menu"
+msgstr ""
 
-#: buttons.cpp:748
+#: buttons.cpp:767
+msgctxt "Button showing application menu imported from dbusmenu"
+msgid "Application Menu"
+msgstr ""
+
+#: buttons.cpp:772
 msgid "--- spacer ---"
 msgstr "--- cudaker ---"
 
@@ -384,6 +390,9 @@ msgstr "Pace ya Çalak"
 #: preview.cpp:373
 msgid "Inactive Window"
 msgstr "Pace ya Neçalak"
+
+#~ msgid "Menu"
+#~ msgstr "Pêşek"
 
 #, fuzzy
 #~| msgid "Normal"
