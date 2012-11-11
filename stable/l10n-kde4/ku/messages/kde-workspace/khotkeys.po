@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: khotkeys\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-19 15:44+0200\n"
+"POT-Creation-Date: 2012-11-11 07:57+0100\n"
 "PO-Revision-Date: 2009-01-06 14:20+0200\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -168,9 +168,9 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, new_button)
 #: kcm_hotkeys/conditions/conditions_widget.ui:30
-#: kcm_hotkeys/hotkeys_context_menu.cpp:156
 #, fuzzy
 #| msgid "&New"
+msgctxt "new condition"
 msgid "New"
 msgstr "&Nu"
 
@@ -285,11 +285,8 @@ msgid "Window title:"
 msgstr "Pencere"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, window_title_combo)
-#. i18n: ectx: property (text), item, widget (QComboBox, window_class_combo)
-#. i18n: ectx: property (text), item, widget (QComboBox, window_role_combo)
 #: kcm_hotkeys/helper_widgets/window_definition_widget.ui:39
-#: kcm_hotkeys/helper_widgets/window_definition_widget.ui:85
-#: kcm_hotkeys/helper_widgets/window_definition_widget.ui:131
+msgctxt "window title is not important"
 msgid "Is Not Important"
 msgstr ""
 
@@ -359,12 +356,24 @@ msgstr ""
 msgid "Window class:"
 msgstr "Pencere"
 
+#. i18n: ectx: property (text), item, widget (QComboBox, window_class_combo)
+#: kcm_hotkeys/helper_widgets/window_definition_widget.ui:85
+msgctxt "window class is not important"
+msgid "Is Not Important"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, window_role_label)
 #: kcm_hotkeys/helper_widgets/window_definition_widget.ui:123
 #, fuzzy
 #| msgid "Window"
 msgid "Window role:"
 msgstr "Pencere"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, window_role_combo)
+#: kcm_hotkeys/helper_widgets/window_definition_widget.ui:131
+msgctxt "window role is not important"
+msgid "Is Not Important"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, autodetect)
 #: kcm_hotkeys/helper_widgets/window_definition_widget.ui:195
@@ -417,6 +426,13 @@ msgstr "Sererastkirin..."
 #: kcm_hotkeys/hotkeys_context_menu.cpp:148
 msgid "Import..."
 msgstr ""
+
+#: kcm_hotkeys/hotkeys_context_menu.cpp:156
+#, fuzzy
+#| msgid "&New"
+msgctxt "@title:menu create various trigger types"
+msgid "New"
+msgstr "&Nu"
 
 #: kcm_hotkeys/hotkeys_context_menu.cpp:162
 #, fuzzy

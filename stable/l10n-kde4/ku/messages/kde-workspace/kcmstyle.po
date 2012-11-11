@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmstyle\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-19 15:44+0200\n"
+"POT-Creation-Date: 2012-11-11 07:57+0100\n"
 "PO-Revision-Date: 2008-12-28 07:31+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
@@ -91,7 +91,37 @@ msgstr "Nivîs Bin Îkonan"
 msgid "Secondary toolbar text:"
 msgstr ""
 
-#: kcmstyle.cpp:165
+#. i18n: ectx: property (title), widget (QGroupBox, menubarBox)
+#: finetuning.ui:179
+msgid "Menubar"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelMenubarStyle)
+#: finetuning.ui:185
+msgid "Menubar style:"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, comboMenubarStyle)
+#: finetuning.ui:199
+msgid "In application"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, comboMenubarStyle)
+#: finetuning.ui:204
+msgid "Title bar button"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, comboMenubarStyle)
+#: finetuning.ui:209
+msgid "Top screen menubar"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, comboMenubarStyle)
+#: finetuning.ui:214
+msgid "Only export"
+msgstr ""
+
+#: kcmstyle.cpp:166
 msgid ""
 "<h1>Style</h1>This module allows you to modify the visual appearance of user "
 "interface elements, such as the widget style and effects."
@@ -99,106 +129,110 @@ msgstr ""
 "<h1>Teşe</h1>Ev modûl dihêle hûn xuyakirina hêmanên bikarhêner yên navrû, "
 "yên wekî teşeyê alavê û efektan, biguherînin."
 
-#: kcmstyle.cpp:177
+#: kcmstyle.cpp:178
 msgid "kcmstyle"
 msgstr "kcmstyle"
 
-#: kcmstyle.cpp:178
+#: kcmstyle.cpp:179
 msgid "KDE Style Module"
 msgstr "KDE Modûla Teşeyê "
 
-#: kcmstyle.cpp:180
+#: kcmstyle.cpp:181
 msgid "(c) 2002 Karol Szwed, Daniel Molkentin"
 msgstr "(c) 2002 Karol Szwed, Daniel Molkentin"
 
-#: kcmstyle.cpp:182
+#: kcmstyle.cpp:183
 msgid "Karol Szwed"
 msgstr "Karol Szwed"
 
-#: kcmstyle.cpp:183
+#: kcmstyle.cpp:184
 msgid "Daniel Molkentin"
 msgstr "Daniel Molkentin"
 
-#: kcmstyle.cpp:184
+#: kcmstyle.cpp:185
 msgid "Ralf Nolden"
 msgstr "(C) 2008 Ralf Habacker"
 
-#: kcmstyle.cpp:209
+#: kcmstyle.cpp:210
 msgid "Widget style:"
 msgstr "Teşeyê alavê:"
 
-#: kcmstyle.cpp:219
+#: kcmstyle.cpp:220
 msgid "Con&figure..."
 msgstr "Vea&vakirin..."
 
-#: kcmstyle.cpp:228
+#: kcmstyle.cpp:229
 msgid "Preview"
 msgstr "Pêşdîtin"
 
-#: kcmstyle.cpp:249
+#: kcmstyle.cpp:250
 msgid "Low display resolution and Low CPU"
 msgstr "Fesîhî ya nîşanderê yê kin û CPU ya Kin"
 
-#: kcmstyle.cpp:250
+#: kcmstyle.cpp:251
 msgid "High display resolution and Low CPU"
 msgstr "Fesîhî ya nîşanderê yê zêde û CPU ya Kêm"
 
-#: kcmstyle.cpp:251
+#: kcmstyle.cpp:252
 msgid "Low display resolution and High CPU"
 msgstr "Fesîhî ya nîşanderê yê kin û CPU ya Bilind"
 
-#: kcmstyle.cpp:252
+#: kcmstyle.cpp:253
 msgid "High display resolution and High CPU"
 msgstr "Fesîhî ya nîşanderê yê bilind û CPU ya Bilind"
 
-#: kcmstyle.cpp:253
+#: kcmstyle.cpp:254
 msgid "Low display resolution and Very High CPU"
 msgstr "Fesîhî ya nîşanderê yê kin û CPU ya Bilind"
 
-#: kcmstyle.cpp:254
+#: kcmstyle.cpp:255
 msgid "High display resolution and Very High CPU"
 msgstr "Fesîhî ya nîşanderê yê bilind û CPU ya Bilind"
 
-#: kcmstyle.cpp:266
+#: kcmstyle.cpp:272
 msgctxt "@title:tab"
 msgid "&Applications"
 msgstr ""
 
-#: kcmstyle.cpp:267
+#: kcmstyle.cpp:273
 msgctxt "@title:tab"
 msgid "&Fine Tuning"
 msgstr "Sazkirina &Bikitekit"
 
-#: kcmstyle.cpp:297 kcmstyle.cpp:308
+#: kcmstyle.cpp:303 kcmstyle.cpp:314
 msgid "There was an error loading the configuration dialog for this style."
 msgstr ""
 "Di barkirina pace ya veavakirinê de yê ji bo vê teşeyê çewtiyek çê bû.  "
 
-#: kcmstyle.cpp:299 kcmstyle.cpp:310
+#: kcmstyle.cpp:305 kcmstyle.cpp:316
 msgid "Unable to Load Dialog"
 msgstr "Nikare Paceyê Bar Bike"
 
-#: kcmstyle.cpp:382
+#: kcmstyle.cpp:388
 msgid ""
 "<p>Changes to the visibility of menu icons will only affect newly started "
 "applications.</p>"
 msgstr ""
 
-#: kcmstyle.cpp:383
+#: kcmstyle.cpp:389
 msgctxt "@title:window"
 msgid "Menu Icons Changed"
 msgstr ""
 
-#: kcmstyle.cpp:540 kcmstyle.cpp:651
+#: kcmstyle.cpp:433
+msgid "Settings changes will take effect only on application restart"
+msgstr ""
+
+#: kcmstyle.cpp:610 kcmstyle.cpp:721
 msgid "No description available."
 msgstr "Danasîn tuneye."
 
-#: kcmstyle.cpp:651
+#: kcmstyle.cpp:721
 #, kde-format
 msgid "Description: %1"
 msgstr "Daxuyanî: %1"
 
-#: kcmstyle.cpp:734
+#: kcmstyle.cpp:835
 msgid ""
 "Here you can choose from a list of predefined widget styles (e.g. the way "
 "buttons are drawn) which may or may not be combined with a theme (additional "
@@ -208,7 +242,7 @@ msgstr ""
 "nexşe kirî) yên di be ku bi dirbekê re girêdayî bin an jî na (agahiyên "
 "zêdetir wekî nîgarê mermerê an jî rengên sade)."
 
-#: kcmstyle.cpp:738
+#: kcmstyle.cpp:839
 msgid ""
 "This area shows a preview of the currently selected style without having to "
 "apply it to the whole desktop."
@@ -216,11 +250,11 @@ msgstr ""
 "Ev qad pêşdîtina teşe yên hilbijartî nîşan dide, bê sepandina vê jê hemû "
 "sermasê re."
 
-#: kcmstyle.cpp:741
+#: kcmstyle.cpp:842
 msgid "This page allows you to choose details about the widget style options"
 msgstr ""
 
-#: kcmstyle.cpp:742
+#: kcmstyle.cpp:843
 #, fuzzy
 #| msgid ""
 #| "<p><b>Icons only:</b> Shows only icons on toolbar buttons. Best option "
@@ -243,7 +277,7 @@ msgstr ""
 "ber rexê îkonê e.</p><b>Nivîs bin îkonan: </b>Di bişkojkên darika amûrê de "
 "îkonan û nivîsê nîşan dide. Nivîs di bin îkonê de ye."
 
-#: kcmstyle.cpp:749
+#: kcmstyle.cpp:850
 msgid ""
 "If you enable this option, KDE Applications will show small icons alongside "
 "some important buttons."
@@ -251,7 +285,7 @@ msgstr ""
 "Heke hûn vê bijare yê çalak bikin, Sepanên KDE dê îkonên biçûk ber rexê "
 "hinek bişkojkên girîng nîşan bide."
 
-#: kcmstyle.cpp:751
+#: kcmstyle.cpp:852
 #, fuzzy
 #| msgid ""
 #| "If you enable this option, KDE Applications will show small icons "
@@ -263,7 +297,7 @@ msgstr ""
 "Heke hûn vê bijare yê çalak bikin, Sepanên KDE dê îkonên biçûk ber rexê "
 "hinek bişkojkên girîng nîşan bide."
 
-#: kcmstyle.cpp:753
+#: kcmstyle.cpp:854
 msgid ""
 "If you enable this option, KDE Applications will run internal animations."
 msgstr ""
