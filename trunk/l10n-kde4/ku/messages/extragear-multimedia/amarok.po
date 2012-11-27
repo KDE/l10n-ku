@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-11-25 02:07+0100\n"
+"POT-Creation-Date: 2012-11-27 02:35+0100\n"
 "PO-Revision-Date: 2009-02-21 06:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -333,22 +333,27 @@ msgstr "Stranên Hilbijartî"
 msgid "Stop"
 msgstr "Rawestîne"
 
-#: ActionClasses.cpp:520
+#: ActionClasses.cpp:514
 #, fuzzy
 #| msgid "Love Current Track"
 msgid "Stop after current Track"
 msgstr "Ji ve perçeyê hez bike"
 
+#: ActionClasses.cpp:527 context/engines/current/CurrentEngine.cpp:136
+#: EngineController.cpp:1420 mac/GrowlInterface.cpp:43 widgets/Osd.cpp:652
+msgid "No track playing"
+msgstr "Tu Stran Nayê Lêdan"
+
 #: ActionClasses.cpp:535
 #, fuzzy
 #| msgid "Love Current Track"
-msgid "Stop after current track: On"
+msgid "Stop after current track: Off"
 msgstr "Ji ve perçeyê hez bike"
 
 #: ActionClasses.cpp:541
 #, fuzzy
 #| msgid "Love Current Track"
-msgid "Stop after current track: Off"
+msgid "Stop after current track: On"
 msgstr "Ji ve perçeyê hez bike"
 
 #. i18n: ectx: label, entry, group (General Options)
@@ -4892,11 +4897,6 @@ msgstr ""
 #| msgid "Center"
 msgid "&Context"
 msgstr "Navîn"
-
-#: context/engines/current/CurrentEngine.cpp:136 EngineController.cpp:1420
-#: mac/GrowlInterface.cpp:43 widgets/Osd.cpp:652
-msgid "No track playing"
-msgstr "Tu Stran Nayê Lêdan"
 
 #: context/engines/current/CurrentEngine.cpp:227
 #, kde-format
