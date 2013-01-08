@@ -1,0 +1,87 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_luna\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-08-20 04:43+0200\n"
+"PO-Revision-Date: 2009-01-11 21:58+0200\n"
+"Last-Translator: Omer Ensari <oensari@gmail.com>\n"
+"Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
+"Language: ku\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: Kurdish\n"
+"X-Poedit-SourceCharset: utf8\n"
+
+#: luna.cpp:56
+msgid "The luna SVG file was not found"
+msgstr "Pela luna SVG nehat dîtin"
+
+#: luna.cpp:95
+msgid "General"
+msgstr "Giştî"
+
+#: luna.cpp:183
+msgid "Full Moon"
+msgstr "Heyva Tijî"
+
+#: luna.cpp:228
+msgid "New Moon"
+msgstr "Heyva Nû"
+
+#: luna.cpp:237
+#, kde-format
+msgid "Waxing Crescent (New Moon was yesterday)"
+msgid_plural "Waxing Crescent (%1 days since New Moon)"
+msgstr[0] "Heyvika Mezin dibe (Hêyva Nû do bû)"
+msgstr[1] "Heyvika Mezin dibe (%1 roj piştî Heyva Nû)"
+
+#: luna.cpp:241
+msgid "First Quarter"
+msgstr "Çarika Pêşîn"
+
+#: luna.cpp:250
+#, kde-format
+msgid "Waxing Gibbous (Tomorrow is Full Moon)"
+msgid_plural "Waxing Gibbous (%1 days to Full Moon)"
+msgstr[0] "Qopa Mezin dibe (Sibeyê Heyva Tijî heye)"
+msgstr[1] "Qopa Mezin dibe (%1 roj din paşê Heyva Tijî heye)"
+
+#: luna.cpp:263
+#, kde-format
+msgid "Waning Gibbous (Yesterday was Full Moon)"
+msgid_plural "Waning Gibbous (%1 days since Full Moon)"
+msgstr[0] "Qopa Biçûk dibe (Do Heyva Tijî bû)"
+msgstr[1] "Qopa Biçûk dibe (%1 roj piştî Heyva Tijî)"
+
+#: luna.cpp:267
+msgid "Last Quarter"
+msgstr "Çarika Dawî"
+
+#: luna.cpp:278
+#, kde-format
+msgid "Waning Crescent (Tomorrow is New Moon)"
+msgid_plural "Waning Crescent (%1 days to New Moon)"
+msgstr[0] "Heyvika Biçûk dibe (Sibeyê Heyva Nû heye)"
+msgstr[1] "Heyvika Biçûk dibe (%1 roj paşê Heyva Nû heye)"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: lunaConfig.ui:16
+msgid "Show moon as seen in:"
+msgstr "Heyvê wekî xuya dike nîşan bide:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, northenRadio)
+#: lunaConfig.ui:45
+msgid "Northern hemisphere"
+msgstr "Nîvkada bakur"
+
+#. i18n: ectx: property (text), widget (QRadioButton, southernRadio)
+#: lunaConfig.ui:58
+msgid "Southern hemisphere"
+msgstr "Nîvkada başûr"
