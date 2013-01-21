@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-01-20 02:27+0100\n"
+"POT-Creation-Date: 2013-01-21 02:48+0100\n"
 "PO-Revision-Date: 2009-02-21 06:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -290,26 +290,26 @@ msgctxt "Replay Gain state, as in, disabled"
 msgid "&Off"
 msgstr "&Girtî"
 
-#: ActionClasses.cpp:332
+#: ActionClasses.cpp:333
 msgctxt "Item, as in, music"
 msgid "&Track"
 msgstr "&Stran"
 
-#: ActionClasses.cpp:333
+#: ActionClasses.cpp:334
 msgid "&Album"
 msgstr "&Album"
 
-#: ActionClasses.cpp:342
+#: ActionClasses.cpp:352
 msgid "&Equalizer"
 msgstr "&Yeksanker "
 
-#: ActionClasses.cpp:370
+#: ActionClasses.cpp:380
 #, fuzzy
 #| msgid "Your machine does not support OpenGL widgets."
 msgid "Your current setup does not support the equalizer feature"
 msgstr "Makîneya te piştgirî nade alavên OpenGL."
 
-#: ActionClasses.cpp:375
+#: ActionClasses.cpp:385
 #, fuzzy
 #| msgctxt "State, as in, disabled"
 #| msgid "&Off"
@@ -317,47 +317,47 @@ msgctxt "Equalizer state, as in, disabled"
 msgid "&Off"
 msgstr "&Girtî"
 
-#: ActionClasses.cpp:398
+#: ActionClasses.cpp:408
 msgid "Burn"
 msgstr "Nivîsandina CD yê"
 
-#: ActionClasses.cpp:437
+#: ActionClasses.cpp:447
 msgid "Current Playlist"
 msgstr "Lîsteya Lêdanê yê Niha"
 
-#: ActionClasses.cpp:438
+#: ActionClasses.cpp:448
 msgid "Selected Tracks"
 msgstr "Stranên Hilbijartî"
 
-#: ActionClasses.cpp:469
+#: ActionClasses.cpp:479
 msgid "Stop"
 msgstr "Rawestîne"
 
-#: ActionClasses.cpp:515
+#: ActionClasses.cpp:525
 #, fuzzy
 #| msgid "Love Current Track"
 msgid "Stop after current Track"
 msgstr "Ji ve perçeyê hez bike"
 
-#: ActionClasses.cpp:532
+#: ActionClasses.cpp:542
 #, fuzzy
 #| msgid "Love Current Track"
 msgid "Stop after current track: Off"
 msgstr "Ji ve perçeyê hez bike"
 
-#: ActionClasses.cpp:537
+#: ActionClasses.cpp:547
 #, fuzzy
 #| msgid "Love Current Track"
 msgid "Stop after current track: On"
 msgstr "Ji ve perçeyê hez bike"
 
-#: ActionClasses.cpp:541 context/engines/current/CurrentEngine.cpp:136
+#: ActionClasses.cpp:551 context/engines/current/CurrentEngine.cpp:136
 #: EngineController.cpp:1391 mac/GrowlInterface.cpp:43 widgets/Osd.cpp:652
 msgid "No track playing"
 msgstr "Tu Stran Nayê Lêdan"
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, FormatSelectionDialog)
-#: ActionClasses.cpp:545
+#: ActionClasses.cpp:555
 #: core-impl/collections/audiocd/FormatSelectionDialog.ui:14 main.cpp:43
 #: MainWindow.cpp:106
 msgid "Amarok"
@@ -3279,7 +3279,11 @@ msgstr "Ji bo agahdariyan Growl bi kar bîne"
 msgid "Use &system notifications"
 msgstr "Ji bo agahdariyan Growl bi kar bîne"
 
-#: configdialog/dialogs/PlaybackConfig.cpp:75
+#: configdialog/dialogs/PlaybackConfig.cpp:42
+msgid "Current Phonon back-end doesn't support volume fading"
+msgstr ""
+
+#: configdialog/dialogs/PlaybackConfig.cpp:86
 msgid "Sound System - Amarok"
 msgstr ""
 
@@ -10423,25 +10427,25 @@ msgctxt "Name of a dynamic playlist"
 msgid "Rating"
 msgstr "Nirxandin"
 
-#: EngineController.cpp:801
+#: EngineController.cpp:803
 #, fuzzy
 #| msgid "Pre-amp"
 msgid "Preamp"
 msgstr "Hêzdêr"
 
-#: EngineController.cpp:805
+#: EngineController.cpp:807
 msgid ""
 "%0\n"
 "Hz"
 msgstr ""
 
-#: EngineController.cpp:807
+#: EngineController.cpp:809
 msgid ""
 "%0\n"
 "kHz"
 msgstr ""
 
-#: EngineController.cpp:1138
+#: EngineController.cpp:1158
 msgid "Too many errors encountered in playlist. Playback stopped."
 msgstr ""
 
