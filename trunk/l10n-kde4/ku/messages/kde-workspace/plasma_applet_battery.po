@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_battery\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-01-15 04:44+0100\n"
+"POT-Creation-Date: 2013-01-24 04:31+0100\n"
 "PO-Revision-Date: 2008-12-26 00:33+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
@@ -19,16 +19,6 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-Language: Kurdish\n"
-
-#: contents/ui/batterymonitor.qml:123
-#, kde-format
-msgctxt "overlay on the battery, needs to be really tiny"
-msgid "%1%"
-msgstr ""
-
-#: contents/ui/batterymonitor.qml:232
-msgid "The battery applet has enabled system-wide inhibition"
-msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, batteryConfig)
 #: contents/ui/config.ui:14
@@ -45,84 +35,60 @@ msgstr ""
 msgid "Show the state for &each battery present"
 msgstr "Rewşa her pîlekê bi rêjeya ji sedî nîşan bide"
 
-#: contents/ui/PopupDialog.qml:54
-#, fuzzy, kde-format
-#| msgid "On Battery"
-msgctxt "Placeholder is the battery ID"
-msgid "Battery %1:"
-msgstr "Pîl"
-
-#: contents/ui/PopupDialog.qml:54
 #, fuzzy
-#| msgid "On Battery"
-msgid "Battery:"
-msgstr "Pîl"
+#~| msgid "On Battery"
+#~ msgctxt "Placeholder is the battery ID"
+#~ msgid "Battery %1:"
+#~ msgstr "Pîl"
 
-#: contents/ui/PopupDialog.qml:61
 #, fuzzy
-#| msgid "AC Adapter"
-msgid "AC Adapter:"
-msgstr "Adaptorê AC"
+#~| msgid "On Battery"
+#~ msgid "Battery:"
+#~ msgstr "Pîl"
 
-#: contents/ui/PopupDialog.qml:67
 #, fuzzy
-#| msgid "Time remaining: <b>%1</b><br />"
-msgctxt "Label for remaining time"
-msgid "Time Remaining:"
-msgstr "Demê mayî: <b>%1</b><br />"
+#~| msgid "AC Adapter"
+#~ msgid "AC Adapter:"
+#~ msgstr "Adaptorê AC"
 
-#: contents/ui/PopupDialog.qml:73
 #, fuzzy
-#| msgid "Power Management"
-msgctxt "Label for power management inhibition"
-msgid "Power management enabled:"
-msgstr "Rêveberiya Hezê"
+#~| msgid "Time remaining: <b>%1</b><br />"
+#~ msgctxt "Label for remaining time"
+#~ msgid "Time Remaining:"
+#~ msgstr "Demê mayî: <b>%1</b><br />"
 
-#: contents/ui/PopupDialog.qml:78
 #, fuzzy
-#| msgid "Screen Brightness"
-msgid "Screen Brightness:"
-msgstr "Ronahiya Dîmenê"
+#~| msgid "Power Management"
+#~ msgctxt "Label for power management inhibition"
+#~ msgid "Power management enabled:"
+#~ msgstr "Rêveberiya Hezê"
 
-#: contents/ui/PopupDialog.qml:108
 #, fuzzy
-#| msgid "Plugged in"
-msgid "Plugged in"
-msgstr "Tê de"
+#~| msgid "Screen Brightness"
+#~ msgid "Screen Brightness:"
+#~ msgstr "Ronahiya Dîmenê"
 
-#: contents/ui/PopupDialog.qml:108
 #, fuzzy
-#| msgid "Plugged in"
-msgid "Not plugged in"
-msgstr "Tê de"
+#~| msgid "Plugged in"
+#~ msgid "Plugged in"
+#~ msgstr "Tê de"
 
-#: contents/ui/PopupDialog.qml:154
-#, kde-format
-msgid "1 hour "
-msgid_plural "%1 hours "
-msgstr[0] ""
-msgstr[1] ""
-
-#: contents/ui/PopupDialog.qml:155
-#, kde-format
-msgid "1 minute"
-msgid_plural "%1 minutes"
-msgstr[0] ""
-msgstr[1] ""
-
-#: contents/ui/PopupDialog.qml:169
 #, fuzzy
-#| msgid "Sleep"
-msgctxt "Suspend the computer to RAM; translation should be short"
-msgid "Sleep"
-msgstr "Bide Razan"
+#~| msgid "Plugged in"
+#~ msgid "Not plugged in"
+#~ msgstr "Tê de"
 
-#: contents/ui/PopupDialog.qml:176
 #, fuzzy
-#| msgid "Hibernate"
-msgctxt "Suspend the computer to disk; translation should be short"
-msgid "Hibernate"
-msgstr "Bide Sekinandin "
+#~| msgid "Sleep"
+#~ msgctxt "Suspend the computer to RAM; translation should be short"
+#~ msgid "Sleep"
+#~ msgstr "Bide Razan"
+
+#, fuzzy
+#~| msgid "Hibernate"
+#~ msgctxt "Suspend the computer to disk; translation should be short"
+#~ msgid "Hibernate"
+#~ msgstr "Bide Sekinandin "
 
 #, fuzzy
 #~| msgid "Battery"
