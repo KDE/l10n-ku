@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-01-21 02:07+0100\n"
+"POT-Creation-Date: 2013-01-27 02:08+0100\n"
 "PO-Revision-Date: 2007-12-17 01:31+0100\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
@@ -2468,6 +2468,15 @@ msgctxt "(qtundo-format)"
 msgid "Change List Numbering"
 msgstr ""
 
+#: kotext/commands/ParagraphFormattingCommand.cpp:56
+msgid "Formatting"
+msgstr ""
+
+#: kotext/commands/ParagraphFormattingCommand.cpp:93
+msgctxt "(qtundo-format)"
+msgid "Direct Paragraph Formatting"
+msgstr ""
+
 #: kotext/commands/ResizeTableCommand.cpp:46
 msgctxt "(qtundo-format)"
 msgid "Adjust Column Width"
@@ -2630,92 +2639,88 @@ msgctxt "(qtundo-format)"
 msgid "Typing"
 msgstr ""
 
-#: kotext/KoTextEditor_format.cpp:77 kotext/KoTextEditor_format.cpp:83
+#: kotext/KoTextEditor_format.cpp:78 kotext/KoTextEditor_format.cpp:84
 msgctxt "(qtundo-format)"
 msgid "Bold"
 msgstr ""
 
-#: kotext/KoTextEditor_format.cpp:94 kotext/KoTextEditor_format.cpp:100
+#: kotext/KoTextEditor_format.cpp:95 kotext/KoTextEditor_format.cpp:101
 msgctxt "(qtundo-format)"
 msgid "Italic"
 msgstr ""
 
-#: kotext/KoTextEditor_format.cpp:111 kotext/KoTextEditor_format.cpp:123
+#: kotext/KoTextEditor_format.cpp:112 kotext/KoTextEditor_format.cpp:124
 msgctxt "(qtundo-format)"
 msgid "Underline"
 msgstr ""
 
-#: kotext/KoTextEditor_format.cpp:134 kotext/KoTextEditor_format.cpp:145
+#: kotext/KoTextEditor_format.cpp:135 kotext/KoTextEditor_format.cpp:146
 msgctxt "(qtundo-format)"
 msgid "Strike Out"
 msgstr ""
 
-#: kotext/KoTextEditor_format.cpp:170 kotext/KoTextEditor_format.cpp:171
+#: kotext/KoTextEditor_format.cpp:171 kotext/KoTextEditor_format.cpp:172
 msgctxt "(qtundo-format)"
 msgid "Change Alignment"
 msgstr ""
 
-#: kotext/KoTextEditor_format.cpp:188 kotext/KoTextEditor_format.cpp:193
+#: kotext/KoTextEditor_format.cpp:189 kotext/KoTextEditor_format.cpp:194
 msgctxt "(qtundo-format)"
 msgid "Set Vertical Alignment"
 msgstr ""
 
-#: kotext/KoTextEditor_format.cpp:225 kotext/KoTextEditor_format.cpp:226
+#: kotext/KoTextEditor_format.cpp:226 kotext/KoTextEditor_format.cpp:227
 msgctxt "(qtundo-format)"
 msgid "Decrease Indent"
 msgstr ""
 
-#: kotext/KoTextEditor_format.cpp:261 kotext/KoTextEditor_format.cpp:262
+#: kotext/KoTextEditor_format.cpp:262 kotext/KoTextEditor_format.cpp:263
 msgctxt "(qtundo-format)"
 msgid "Increase Indent"
 msgstr ""
 
-#: kotext/KoTextEditor_format.cpp:297 kotext/KoTextEditor_format.cpp:299
+#: kotext/KoTextEditor_format.cpp:298 kotext/KoTextEditor_format.cpp:300
 msgctxt "(qtundo-format)"
 msgid "Decrease font size"
 msgstr ""
 
-#: kotext/KoTextEditor_format.cpp:310 kotext/KoTextEditor_format.cpp:312
+#: kotext/KoTextEditor_format.cpp:311 kotext/KoTextEditor_format.cpp:313
 msgctxt "(qtundo-format)"
 msgid "Increase font size"
 msgstr ""
 
-#: kotext/KoTextEditor_format.cpp:323 kotext/KoTextEditor_format.cpp:328
+#: kotext/KoTextEditor_format.cpp:324 kotext/KoTextEditor_format.cpp:329
 msgctxt "(qtundo-format)"
 msgid "Set Font"
 msgstr ""
 
-#: kotext/KoTextEditor_format.cpp:339 kotext/KoTextEditor_format.cpp:344
+#: kotext/KoTextEditor_format.cpp:340 kotext/KoTextEditor_format.cpp:345
 msgctxt "(qtundo-format)"
 msgid "Set Font Size"
 msgstr ""
 
-#: kotext/KoTextEditor_format.cpp:355 kotext/KoTextEditor_format.cpp:360
+#: kotext/KoTextEditor_format.cpp:356 kotext/KoTextEditor_format.cpp:361
 msgctxt "(qtundo-format)"
 msgid "Set Background Color"
 msgstr ""
 
-#: kotext/KoTextEditor_format.cpp:371 kotext/KoTextEditor_format.cpp:376
+#: kotext/KoTextEditor_format.cpp:372 kotext/KoTextEditor_format.cpp:377
 msgctxt "(qtundo-format)"
 msgid "Set Text Color"
 msgstr ""
 
-#: kotext/KoTextEditor_format.cpp:402 kotext/KoTextEditor_format.cpp:441
+#: kotext/KoTextEditor_format.cpp:403 kotext/KoTextEditor_format.cpp:442
 msgctxt "(qtundo-format)"
 msgid "Set Character Style"
 msgstr ""
 
-#: kotext/KoTextEditor_format.cpp:501
+#: kotext/KoTextEditor_format.cpp:502
 msgctxt "(qtundo-format)"
 msgid "Set Paragraph Style"
 msgstr ""
 
-#: kotext/KoTextEditor_format.cpp:542
+#: kotext/KoTextEditor_format.cpp:543
 msgctxt "(qtundo-format)"
-msgid "Formatting"
-msgstr ""
-
-#: kotext/KoTextEditor_format.cpp:611
 msgid "Formatting"
 msgstr ""
 
@@ -2972,17 +2977,17 @@ msgstr ""
 msgid "Calligra"
 msgstr ""
 
-#: main/KoApplication.cpp:421
+#: main/KoApplication.cpp:422
 #, kde-format
 msgid "No template found for: %1"
 msgstr ""
 
-#: main/KoApplication.cpp:424
+#: main/KoApplication.cpp:425
 #, kde-format
 msgid "Too many templates found for: %1"
 msgstr ""
 
-#: main/KoApplication.cpp:444
+#: main/KoApplication.cpp:445
 #, kde-format
 msgid "Template %1 failed to load."
 msgstr ""
