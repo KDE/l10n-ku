@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-01-23 02:40+0100\n"
+"POT-Creation-Date: 2013-01-30 03:55+0100\n"
 "PO-Revision-Date: 2009-02-21 06:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -14480,11 +14480,14 @@ msgstr "Cîhaz serfiraz hate girêdan"
 msgid "Connection failure"
 msgstr "Girêdan"
 
-#: services/ampache/AmpacheAccountLogin.cpp:133
-msgid "Enter the server name and a password"
-msgstr "Navê pêşkêşkerê û nasnavê têkevê"
+#: services/ampache/AmpacheAccountLogin.cpp:173
+#, fuzzy
+#| msgid "Authenticating"
+msgid "Authentication failed."
+msgstr "Erêkirin"
 
-#: services/ampache/AmpacheAccountLogin.cpp:223
+#: services/ampache/AmpacheAccountLogin.cpp:174
+#: services/ampache/AmpacheAccountLogin.cpp:245
 #, fuzzy
 #| msgid "Authentication Error!"
 msgid "Authentication Error"
@@ -17133,6 +17136,9 @@ msgstr ""
 #| msgid "Volume: %1%"
 msgid "Volume: %1%"
 msgstr "Deng: %1%"
+
+#~ msgid "Enter the server name and a password"
+#~ msgstr "Navê pêşkêşkerê û nasnavê têkevê"
 
 #~ msgid "&Equalizer"
 #~ msgstr "&Yeksanker "
