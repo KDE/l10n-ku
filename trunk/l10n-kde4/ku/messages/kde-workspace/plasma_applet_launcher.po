@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_launcher\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-11 03:51+0100\n"
+"POT-Creation-Date: 2012-10-20 05:02+0200\n"
 "PO-Revision-Date: 2008-12-25 02:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <gnu-ku-wergerandin at lists dot sourceforge dot "
@@ -56,6 +56,25 @@ msgstr "Teşe ya Pêşeka Klasîk Bi Kar Bîne"
 msgctxt "General configuration page"
 msgid "General"
 msgstr "Giştî"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: applet/kickoffConfig.ui:27
+#, fuzzy
+#| msgid "Known Applications"
+msgid "Show applications by &name:"
+msgstr "Sepanên Nasyar"
+
+#. i18n: ectx: property (text), widget (QLabel, iconLabel)
+#: applet/kickoffConfig.ui:73
+msgid "&Icon:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: applet/kickoffConfig.ui:86
+#, fuzzy
+#| msgid "Switch tabs on hover"
+msgid "Switch &tabs on hover:"
+msgstr "Hilpekînan bike bixwe vedibin "
 
 #: core/applicationmodel.cpp:334
 msgid "Games"
@@ -422,16 +441,6 @@ msgstr "<b>%1 (%2)</b> di <b>%3</b> de"
 msgctxt "Label of the search bar textedit"
 msgid "Search:"
 msgstr "Lêgerîn:"
-
-#, fuzzy
-#~| msgid "Known Applications"
-#~ msgid "Show applications by &name:"
-#~ msgstr "Sepanên Nasyar"
-
-#, fuzzy
-#~| msgid "Switch tabs on hover"
-#~ msgid "Switch &tabs on hover:"
-#~ msgstr "Hilpekînan bike bixwe vedibin "
 
 #~ msgid "Switch to Kickoff Menu Style"
 #~ msgstr "Teşe ya Pêşeka Kickoff Bi Kar Bîne"

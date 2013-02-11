@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_paste\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-11 03:48+0100\n"
+"POT-Creation-Date: 2012-08-20 04:43+0200\n"
 "PO-Revision-Date: 2009-01-11 00:34+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -28,6 +28,16 @@ msgctxt "Button to select an application by clicking on its window"
 msgid "Click application"
 msgstr "Sepanê bitikîne"
 
+#. i18n: ectx: property (text), widget (QLabel, appLabel)
+#: appkey.ui:18
+msgid "&Application:"
+msgstr "&Sepan:"
+
+#. i18n: ectx: property (text), widget (QLabel, pasteLabel)
+#: appkey.ui:38
+msgid "&Paste key:"
+msgstr "Bişkojka &pêvekirinê:"
+
 #: autopasteconfig.cpp:34
 msgid "Application"
 msgstr "Sepan"
@@ -35,6 +45,31 @@ msgstr "Sepan"
 #: autopasteconfig.cpp:34
 msgid "Paste Key"
 msgstr "Bişkojka Pêvekirinê"
+
+#. i18n: ectx: property (text), widget (QCheckBox, autoPasteCheckBox)
+#: autopasteconfig.ui:18
+msgid "Paste text automatically with:"
+msgstr "Nivîsê bixweber pêve bike bi:"
+
+#. i18n: ectx: property (text), widget (QLabel, appsLabel)
+#: autopasteconfig.ui:30
+msgid "Use &special keys for these apps:"
+msgstr "Ji bo wan sepanan bişkojkên &taybet bi kar bîne:"
+
+#. i18n: ectx: property (text), widget (QPushButton, addButton)
+#: autopasteconfig.ui:61
+msgid "&Add..."
+msgstr "&Lê zêdekirin..."
+
+#. i18n: ectx: property (text), widget (QPushButton, editButton)
+#: autopasteconfig.ui:68
+msgid "&Edit..."
+msgstr "&Guherandin..."
+
+#. i18n: ectx: property (text), widget (QPushButton, removeButton)
+#: autopasteconfig.ui:75 snippetconfig.ui:119
+msgid "&Remove"
+msgstr "&Rakirin"
 
 #: configdata.cpp:129 pastemacroexpander.cpp:56
 msgid "Random Password"
@@ -109,41 +144,32 @@ msgstr "Nikare pela %1 veke"
 msgid "Untitled"
 msgstr "Bênav"
 
-#~ msgid "&Application:"
-#~ msgstr "&Sepan:"
+#. i18n: ectx: property (windowTitle), widget (QWidget, SnippetConfig)
+#: snippetconfig.ui:14
+msgid "Configure Paste Snippets"
+msgstr "Veavakirina Pêvekirina Parî yan"
 
-#~ msgid "&Paste key:"
-#~ msgstr "Bişkojka &pêvekirinê:"
+#. i18n: ectx: property (text), widget (QLabel, textsLabel)
+#: snippetconfig.ui:22
+msgid "&Texts:"
+msgstr "&Nivîs:"
 
-#~ msgid "Paste text automatically with:"
-#~ msgstr "Nivîsê bixweber pêve bike bi:"
+#. i18n: ectx: property (text), widget (QLabel, nameLabel)
+#: snippetconfig.ui:50
+msgid "&Name:"
+msgstr "&Nav:"
 
-#~ msgid "Use &special keys for these apps:"
-#~ msgstr "Ji bo wan sepanan bişkojkên &taybet bi kar bîne:"
+#. i18n: ectx: property (text), widget (QLabel, textLabel)
+#: snippetconfig.ui:77
+msgid "Text to be &pasted:"
+msgstr "Nivîsa tê bê &pêvekirin:"
 
-#~ msgid "&Add..."
-#~ msgstr "&Lê zêdekirin..."
+#. i18n: ectx: property (text), widget (QPushButton, addMacroButton)
+#: snippetconfig.ui:103
+msgid "&Add Macro..."
+msgstr "Makro &Lê Zêde Bike..."
 
-#~ msgid "&Edit..."
-#~ msgstr "&Guherandin..."
-
-#~ msgid "&Remove"
-#~ msgstr "&Rakirin"
-
-#~ msgid "Configure Paste Snippets"
-#~ msgstr "Veavakirina Pêvekirina Parî yan"
-
-#~ msgid "&Texts:"
-#~ msgstr "&Nivîs:"
-
-#~ msgid "&Name:"
-#~ msgstr "&Nav:"
-
-#~ msgid "Text to be &pasted:"
-#~ msgstr "Nivîsa tê bê &pêvekirin:"
-
-#~ msgid "&Add Macro..."
-#~ msgstr "Makro &Lê Zêde Bike..."
-
-#~ msgid "&Add"
-#~ msgstr "&Lê zêde bike"
+#. i18n: ectx: property (text), widget (QPushButton, addButton)
+#: snippetconfig.ui:112
+msgid "&Add"
+msgstr "&Lê zêde bike"

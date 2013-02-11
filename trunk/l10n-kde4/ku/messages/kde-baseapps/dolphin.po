@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-11 03:39+0100\n"
+"POT-Creation-Date: 2013-02-11 17:33+0100\n"
 "PO-Revision-Date: 2008-12-22 22:21+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -488,6 +488,57 @@ msgstr ""
 #: dolphinpart.cpp:502
 msgid "Unselect all items matching this pattern:"
 msgstr ""
+
+#. i18n: ectx: Menu (edit)
+#: dolphinpart.rc:4
+msgid "&Edit"
+msgstr "&Biguherhîne"
+
+#. i18n: ectx: Menu (selection)
+#: dolphinpart.rc:14
+#, fuzzy
+#| msgctxt "@action:inmenu Edit"
+#| msgid "Invert Selection"
+msgctxt "@title:menu"
+msgid "Selection"
+msgstr "Hilbijartinê Serûbin Bike"
+
+#. i18n: ectx: Menu (view)
+#: dolphinpart.rc:23
+msgid "&View"
+msgstr "&Bibîne"
+
+#. i18n: ectx: Menu (go)
+#: dolphinpart.rc:32
+msgid "&Go"
+msgstr "&Biçe"
+
+#. i18n: ectx: Menu (tools)
+#: dolphinpart.rc:40
+msgctxt "@title:menu"
+msgid "Tools"
+msgstr "Amûr"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: dolphinpart.rc:48
+msgctxt "@title:menu"
+msgid "Dolphin Toolbar"
+msgstr "Darikê Amûran yê Dolphin"
+
+#. i18n: ectx: Menu (location_bar)
+#: dolphinui.rc:34
+#, fuzzy
+#| msgctxt "@label:textbox"
+#| msgid "Location:"
+msgctxt "@title:menu"
+msgid "Location Bar"
+msgstr "Cih:"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: dolphinui.rc:88
+msgctxt "@title:menu"
+msgid "Main Toolbar"
+msgstr "Darikê Amûran ya Mak"
 
 #: dolphinviewcontainer.cpp:414
 msgctxt "@info:progress"
@@ -1055,6 +1106,20 @@ msgctxt "@info:shell"
 msgid "Document to open"
 msgstr "Belgeya were vekirin"
 
+#. i18n: ectx: label, entry (HiddenFilesShown), group (FoldersPanel)
+#: panels/folders/dolphin_folderspanelsettings.kcfg:10
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Show hidden files"
+msgid "Hidden files shown"
+msgstr "Pelên veşartî nîşan bide"
+
+#. i18n: ectx: label, entry (AutoScrolling), group (FoldersPanel)
+#: panels/folders/dolphin_folderspanelsettings.kcfg:14
+#, fuzzy
+msgid "Automatic scrolling"
+msgstr "Firehiya Sitûnê"
+
 #: panels/folders/treeviewcontextmenu.cpp:58
 msgctxt "@action:inmenu"
 msgid "Cut"
@@ -1102,6 +1167,14 @@ msgstr ""
 msgctxt "@action:inmenu"
 msgid "Properties"
 msgstr "Taybetmendî"
+
+#. i18n: ectx: label, entry (previewsShown), group (InformationPanel)
+#: panels/information/dolphin_informationpanelsettings.kcfg:10
+#, fuzzy
+#| msgctxt "@action:intoolbar"
+#| msgid "Preview"
+msgid "Previews shown"
+msgstr "Pêşdîtin"
 
 #: panels/information/filemetadataconfigurationdialog.cpp:33
 msgctxt "@title:window"
@@ -1152,6 +1225,12 @@ msgstr ""
 #| msgid "Stop"
 msgid "stop"
 msgstr "Sekinandin"
+
+#. i18n: ectx: label, entry (IconSize), group (PlacesPanel)
+#: panels/places/dolphin_placespanelsettings.kcfg:10
+msgid ""
+"Size of icons in the Places Panel (-1 means \"use the style's small size\")"
+msgstr ""
 
 #: panels/places/placesitem.cpp:152
 #, fuzzy
@@ -1434,6 +1513,27 @@ msgctxt "@title:window"
 msgid "Edit Places Entry"
 msgstr ""
 
+#. i18n: ectx: label, entry (Location), group (Search)
+#: search/dolphin_searchsettings.kcfg:10
+#, fuzzy
+#| msgctxt "@label:textbox"
+#| msgid "Location:"
+msgid "Location"
+msgstr "Cih:"
+
+#. i18n: ectx: label, entry (What), group (Search)
+#: search/dolphin_searchsettings.kcfg:14
+msgid "What"
+msgstr ""
+
+#. i18n: ectx: label, entry (ShowFacetsWidget), group (Search)
+#: search/dolphin_searchsettings.kcfg:18
+#, fuzzy
+#| msgctxt "@option:check Startup Settings"
+#| msgid "Show filter bar"
+msgid "Show facets widget"
+msgstr "Darikê fîltreyê nîşan bide"
+
 #: search/dolphinfacetswidget.cpp:61
 #, fuzzy
 #| msgctxt "@info:credit"
@@ -1610,6 +1710,449 @@ msgstr "Agahiyên Pêvek"
 #: settings/additionalinfodialog.cpp:49
 msgctxt "@label"
 msgid "Select which additional information should be shown:"
+msgstr ""
+
+#. i18n: ectx: label, entry (UseSystemFont), group (IconsMode)
+#. i18n: ectx: label, entry (UseSystemFont), group (CompactMode)
+#. i18n: ectx: label, entry (UseSystemFont), group (DetailsMode)
+#: settings/dolphin_compactmodesettings.kcfg:12
+#: settings/dolphin_detailsmodesettings.kcfg:16
+#: settings/dolphin_iconsmodesettings.kcfg:12
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Use system font"
+msgid "Use system font"
+msgstr "Curenivîsê pergalê bi kar bîne"
+
+#. i18n: ectx: label, entry (FontFamily), group (IconsMode)
+#. i18n: ectx: label, entry (FontFamily), group (CompactMode)
+#. i18n: ectx: label, entry (FontFamily), group (DetailsMode)
+#: settings/dolphin_compactmodesettings.kcfg:16
+#: settings/dolphin_detailsmodesettings.kcfg:12
+#: settings/dolphin_iconsmodesettings.kcfg:16
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Font family"
+msgid "Font family"
+msgstr "Malbata curenivîsê"
+
+#. i18n: ectx: label, entry (FontSize), group (IconsMode)
+#. i18n: ectx: label, entry (FontSize), group (CompactMode)
+#. i18n: ectx: label, entry (FontSize), group (DetailsMode)
+#: settings/dolphin_compactmodesettings.kcfg:20
+#: settings/dolphin_detailsmodesettings.kcfg:20
+#: settings/dolphin_iconsmodesettings.kcfg:20
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Font size"
+msgid "Font size"
+msgstr "Mezinahiya curenivîsê"
+
+#. i18n: ectx: label, entry (ItalicFont), group (IconsMode)
+#. i18n: ectx: label, entry (ItalicFont), group (CompactMode)
+#. i18n: ectx: label, entry (ItalicFont), group (DetailsMode)
+#: settings/dolphin_compactmodesettings.kcfg:24
+#: settings/dolphin_detailsmodesettings.kcfg:24
+#: settings/dolphin_iconsmodesettings.kcfg:24
+#, fuzzy
+#| msgctxt "@label Font style"
+#| msgid "Italic"
+msgid "Italic"
+msgstr "Îtalîk"
+
+#. i18n: ectx: label, entry (FontWeight), group (IconsMode)
+#. i18n: ectx: label, entry (FontWeight), group (CompactMode)
+#. i18n: ectx: label, entry (FontWeight), group (DetailsMode)
+#: settings/dolphin_compactmodesettings.kcfg:28
+#: settings/dolphin_detailsmodesettings.kcfg:28
+#: settings/dolphin_iconsmodesettings.kcfg:28
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Font weight"
+msgid "Font weight"
+msgstr "Giranbûna curenivîsê"
+
+#. i18n: ectx: label, entry (IconSize), group (IconsMode)
+#. i18n: ectx: label, entry (IconSize), group (CompactMode)
+#. i18n: ectx: label, entry (IconSize), group (DetailsMode)
+#: settings/dolphin_compactmodesettings.kcfg:32
+#: settings/dolphin_detailsmodesettings.kcfg:32
+#: settings/dolphin_iconsmodesettings.kcfg:32
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Icon size"
+msgid "Icon size"
+msgstr "Mezinahiya îkonê"
+
+#. i18n: ectx: label, entry (PreviewSize), group (IconsMode)
+#. i18n: ectx: label, entry (PreviewSize), group (CompactMode)
+#. i18n: ectx: label, entry (PreviewSize), group (DetailsMode)
+#: settings/dolphin_compactmodesettings.kcfg:36
+#: settings/dolphin_detailsmodesettings.kcfg:36
+#: settings/dolphin_iconsmodesettings.kcfg:36
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Preview size"
+msgid "Preview size"
+msgstr "Mezinahiya pêşdîtinê"
+
+#. i18n: ectx: label, entry (MaximumTextWidthIndex), group (CompactMode)
+#: settings/dolphin_compactmodesettings.kcfg:40
+msgid "Maximum text width index (0 means unlimited)"
+msgstr ""
+
+#. i18n: ectx: label, entry (ColumnPositions), group (DetailsMode)
+#: settings/dolphin_detailsmodesettings.kcfg:40
+msgid "Position of columns"
+msgstr ""
+
+#. i18n: ectx: label, entry (ExpandableFolders), group (DetailsMode)
+#: settings/dolphin_detailsmodesettings.kcfg:44
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Expandable folders"
+msgid "Expandable folders"
+msgstr "Peldankên Firehbar"
+
+#. i18n: ectx: label, entry (HiddenFilesShown), group (Settings)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:11
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Show hidden files"
+msgctxt "@label"
+msgid "Hidden files shown"
+msgstr "Pelên veşartî nîşan bide"
+
+#. i18n: ectx: whatsthis, entry (HiddenFilesShown), group (Settings)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:12
+msgctxt "@info:whatsthis"
+msgid ""
+"When this option is enabled hidden files, such as those starting with a '.', "
+"will be shown in the file view."
+msgstr ""
+"Dema ev vebijêrk hat çalakirin, pelên veşartî ên ku navên wan bi  '.', dest "
+"pê dikin dê wekî pel bên nîşandan."
+
+#. i18n: ectx: label, entry (Version), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:19
+#, fuzzy
+#| msgctxt "@option:check Additional Information"
+#| msgid "Permissions"
+msgctxt "@label"
+msgid "Version"
+msgstr "Destûr"
+
+#. i18n: ectx: whatsthis, entry (Version), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:20
+msgctxt "@info:whatsthis"
+msgid "This option defines the used version of the view properties."
+msgstr ""
+
+#. i18n: ectx: label, entry (ViewMode), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:25
+msgctxt "@label"
+msgid "View Mode"
+msgstr "Moda Xuyakirinê"
+
+#. i18n: ectx: whatsthis, entry (ViewMode), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:26
+msgctxt "@info:whatsthis"
+msgid ""
+"This option controls the style of the view. Currently supported values "
+"include icons (0), details (1) and column (2) views."
+msgstr ""
+"Ev vebijêrk şêweya xuyakirinê kontrol dike. Nirxên niha tên destekirin "
+"hundirandina îkonan (0), kîtekît (1) û xuyakirinên sitûnan (2)."
+
+#. i18n: ectx: label, entry (PreviewsShown), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:31
+#, fuzzy
+#| msgctxt "@action:intoolbar"
+#| msgid "Preview"
+msgctxt "@label"
+msgid "Previews shown"
+msgstr "Pêşdîtin"
+
+#. i18n: ectx: whatsthis, entry (PreviewsShown), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:32
+msgctxt "@info:whatsthis"
+msgid ""
+"When this option is enabled, a preview of the file content is shown as an "
+"icon."
+msgstr ""
+"Dema ku ev vebijêrk çalak bibe, pêşdîtina naveroka pelî dê wekî îkonekê bê "
+"nîşandan."
+
+#. i18n: ectx: label, entry (GroupedSorting), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:37
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Categorized Sorting"
+msgctxt "@label"
+msgid "Grouped Sorting"
+msgstr "Rêzkirina Kategorîbûyî"
+
+#. i18n: ectx: whatsthis, entry (GroupedSorting), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:38
+#, fuzzy
+#| msgctxt "@info:whatsthis"
+#| msgid ""
+#| "When this option is enabled, the sorted items are summarized by their "
+#| "category."
+msgctxt "@info:whatsthis"
+msgid ""
+"When this option is enabled, the sorted items are categorized into groups."
+msgstr ""
+"Dema ev vebijêrk çalak bibe, hêmanên rêzbûyî dê li gorî kategoriyên xwe bên "
+"kurtebirkirin"
+
+#. i18n: ectx: label, entry (SortRole), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:43
+msgctxt "@label"
+msgid "Sort files by"
+msgstr "Pelan li gorî vê rêz bike"
+
+#. i18n: ectx: whatsthis, entry (SortRole), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:44
+#, fuzzy
+#| msgctxt "@info:whatsthis"
+#| msgid ""
+#| "This option defines which attribute (name, size, date, etc.) sorting is "
+#| "performed on."
+msgctxt "@info:whatsthis"
+msgid ""
+"This option defines which attribute (text, size, date, etc.) sorting is "
+"performed on."
+msgstr ""
+"Ev vebijêrk diyar dike ka dê kîjan wesf (nav, mezinahî, hwd) ji bo rêzkirinê "
+"bê bikaranîn."
+
+#. i18n: ectx: label, entry (SortOrder), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:49
+msgctxt "@label"
+msgid "Order in which to sort files"
+msgstr "Pelan li gorî vê rêz bike"
+
+#. i18n: ectx: label, entry (SortFoldersFirst), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:56
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Show preview"
+msgctxt "@label"
+msgid "Show folders first when sorting files and folders"
+msgstr "Pêşdîtinê nîşan bide"
+
+#. i18n: ectx: label, entry (VisibleRoles), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:61
+msgctxt "@label"
+msgid "Visible roles"
+msgstr ""
+
+#. i18n: ectx: label, entry (HeaderColumnWidths), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:66
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Column width"
+msgctxt "@label"
+msgid "Header column widths"
+msgstr "Firehiya Sitûnê"
+
+#. i18n: ectx: label, entry (Timestamp), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:71
+msgctxt "@label"
+msgid "Properties last changed"
+msgstr "Dema dawî ya guherandina taybetmendiyan"
+
+#. i18n: ectx: whatsthis, entry (Timestamp), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:72
+msgctxt "@info:whatsthis"
+msgid "The last time these properties were changed by the user."
+msgstr "Dema dawî ku ev taybetmendî ji hêla bikarhêner ve hatin guherandin."
+
+#. i18n: ectx: label, entry (AdditionalInfo), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:77
+#, fuzzy
+#| msgctxt "@title:window"
+#| msgid "Additional Information"
+msgctxt "@label"
+msgid "Additional Information"
+msgstr "Agahiyên Pêvek"
+
+#. i18n: ectx: label, entry (EditableUrl), group (General)
+#: settings/dolphin_generalsettings.kcfg:13
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Should the URL be editable for the user"
+msgid "Should the URL be editable for the user"
+msgstr "Bila bikarhêner karibe URL'ê biguherîne"
+
+#. i18n: ectx: label, entry (UrlCompletionMode), group (General)
+#: settings/dolphin_generalsettings.kcfg:17
+msgid "Text completion mode of the URL Navigator"
+msgstr ""
+
+#. i18n: ectx: label, entry (ShowFullPath), group (General)
+#: settings/dolphin_generalsettings.kcfg:21
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Should the full path be shown inside the location bar"
+msgid "Should the full path be shown inside the location bar"
+msgstr "Ma rê ya çûnê bitemamî di nav darikê de bê nîşan dan"
+
+#. i18n: ectx: label, entry (Version), group (General)
+#: settings/dolphin_generalsettings.kcfg:25
+msgid ""
+"Internal version of Dolphin, containing 3 digits for major, minor, bugfix"
+msgstr ""
+
+#. i18n: ectx: label, entry (ModifiedStartupSettings), group (General)
+#: settings/dolphin_generalsettings.kcfg:29
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Is the application started the first time"
+msgid ""
+"Have the startup settings been modified (internal setting not shown in the "
+"UI)"
+msgstr "Dema sepan cara yekemîn hat destpêkirin"
+
+#. i18n: ectx: label, entry (HomeUrl), group (General)
+#: settings/dolphin_generalsettings.kcfg:33
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Home URL"
+msgid "Home URL"
+msgstr "URL'a malê"
+
+#. i18n: ectx: label, entry (SplitView), group (General)
+#: settings/dolphin_generalsettings.kcfg:37
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Split the view into two panes"
+msgid "Split the view into two panes"
+msgstr "Xuyakirinê bike du par"
+
+#. i18n: ectx: label, entry (FilterBar), group (General)
+#: settings/dolphin_generalsettings.kcfg:41
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Should the filter bar be shown"
+msgid "Should the filter bar be shown"
+msgstr "Bila darikê fîlrtekirinê bê nîşandan"
+
+#. i18n: ectx: label, entry (GlobalViewProps), group (General)
+#: settings/dolphin_generalsettings.kcfg:45
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Should the view properties be used for all directories"
+msgid "Should the view properties be used for all directories"
+msgstr "Bila taybetmendiyên xuyakirinê ji bo hemû pelrêçan bên bikaranîn"
+
+#. i18n: ectx: label, entry (BrowseThroughArchives), group (General)
+#: settings/dolphin_generalsettings.kcfg:49
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Browse through archives"
+msgid "Browse through archives"
+msgstr "Li arşîvan bigere"
+
+#. i18n: ectx: label, entry (ConfirmClosingMultipleTabs), group (General)
+#: settings/dolphin_generalsettings.kcfg:53
+msgid "Ask for confirmation when closing windows with multiple tabs."
+msgstr ""
+
+#. i18n: ectx: label, entry (RenameInline), group (General)
+#: settings/dolphin_generalsettings.kcfg:57
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Rename inline"
+msgid "Rename inline"
+msgstr "Bi rêzê de nav biguherîne"
+
+#. i18n: ectx: label, entry (ShowSelectionToggle), group (General)
+#: settings/dolphin_generalsettings.kcfg:61
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Show selection toggle"
+msgid "Show selection toggle"
+msgstr "Têbara hilbijartî nîşan bide"
+
+#. i18n: ectx: label, entry (ShowToolTips), group (General)
+#: settings/dolphin_generalsettings.kcfg:65
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Show tooltips"
+msgid "Show tooltips"
+msgstr "Qutî ya amûran nîşan bide"
+
+#. i18n: ectx: label, entry (ShowCopyMoveMenu), group (General)
+#: settings/dolphin_generalsettings.kcfg:69
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Show 'Copy To' and 'Move To' commands in context menu"
+msgid "Show 'Copy To' and 'Move To' commands in context menu"
+msgstr "Di pêşekê de fermanên 'Jibergirtin' û 'Guhestin' nîşan bide"
+
+#. i18n: ectx: label, entry (ViewPropsTimestamp), group (General)
+#: settings/dolphin_generalsettings.kcfg:73
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Timestamp since when the view properties are valid"
+msgid "Timestamp since when the view properties are valid"
+msgstr "Demê guherandinê ji wextê taybetiyên dîtinê derbasdar bûn ve heta niha"
+
+#. i18n: ectx: label, entry (AutoExpandFolders), group (General)
+#: settings/dolphin_generalsettings.kcfg:76
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Use auto-expanding folders for all view types"
+msgid "Use auto-expanding folders for all view types"
+msgstr "Bixweber-vekirina peldankan bi kar bîne ji bo hemû cureyên dîtinê"
+
+#. i18n: ectx: label, entry (ShowZoomSlider), group (General)
+#: settings/dolphin_generalsettings.kcfg:80
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Show zoom slider in the statusbar"
+msgid "Show zoom slider in the statusbar"
+msgstr "Kaşkera nêzîktir kirinê di nav darikê rewşê de nîşan bide"
+
+#. i18n: ectx: label, entry (ShowSpaceInfo), group (General)
+#: settings/dolphin_generalsettings.kcfg:84
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Show the space information in the statusbar"
+msgid "Show the space information in the statusbar"
+msgstr "Agahiya valahiyê di darikê rewşê de nîşan bide"
+
+#. i18n: ectx: label, entry (LockPanels), group (General)
+#: settings/dolphin_generalsettings.kcfg:88
+msgid "Lock the layout of the panels"
+msgstr ""
+
+#. i18n: ectx: label, entry (EnlargeSmallPreviews), group (General)
+#: settings/dolphin_generalsettings.kcfg:92
+#, fuzzy
+#| msgctxt "@title:group"
+#| msgid "File Previews"
+msgid "Enlarge Small Previews"
+msgstr "Pêşdîtinên Pelan"
+
+#. i18n: ectx: label, entry (TextWidthIndex), group (IconsMode)
+#: settings/dolphin_iconsmodesettings.kcfg:40
+#, fuzzy
+#| msgctxt "@label:listbox"
+#| msgid "Text width:"
+msgid "Text width index"
+msgstr "Firehiya deqê:"
+
+#. i18n: ectx: label, entry (MaximumTextLines), group (IconsMode)
+#: settings/dolphin_iconsmodesettings.kcfg:44
+msgid "Maximum textlines (0 means unlimited)"
+msgstr ""
+
+#. i18n: ectx: label, entry (enabledPlugins), group (VersionControl)
+#: settings/dolphin_versioncontrolsettings.kcfg:10
+msgid "Enabled plugins"
 msgstr ""
 
 #: settings/dolphinsettingsdialog.cpp:46
@@ -2657,327 +3200,6 @@ msgctxt "@info:status"
 msgid "Updating version information..."
 msgstr "Agahiyên pêvek"
 
-#~ msgid "&Edit"
-#~ msgstr "&Biguherhîne"
-
-#, fuzzy
-#~| msgctxt "@action:inmenu Edit"
-#~| msgid "Invert Selection"
-#~ msgctxt "@title:menu"
-#~ msgid "Selection"
-#~ msgstr "Hilbijartinê Serûbin Bike"
-
-#~ msgid "&View"
-#~ msgstr "&Bibîne"
-
-#~ msgid "&Go"
-#~ msgstr "&Biçe"
-
-#~ msgctxt "@title:menu"
-#~ msgid "Tools"
-#~ msgstr "Amûr"
-
-#~ msgctxt "@title:menu"
-#~ msgid "Dolphin Toolbar"
-#~ msgstr "Darikê Amûran yê Dolphin"
-
-#, fuzzy
-#~| msgctxt "@label:textbox"
-#~| msgid "Location:"
-#~ msgctxt "@title:menu"
-#~ msgid "Location Bar"
-#~ msgstr "Cih:"
-
-#~ msgctxt "@title:menu"
-#~ msgid "Main Toolbar"
-#~ msgstr "Darikê Amûran ya Mak"
-
-#, fuzzy
-#~| msgctxt "@label"
-#~| msgid "Show hidden files"
-#~ msgid "Hidden files shown"
-#~ msgstr "Pelên veşartî nîşan bide"
-
-#, fuzzy
-#~| msgctxt "@action:intoolbar"
-#~| msgid "Preview"
-#~ msgid "Previews shown"
-#~ msgstr "Pêşdîtin"
-
-#, fuzzy
-#~| msgctxt "@label:textbox"
-#~| msgid "Location:"
-#~ msgid "Location"
-#~ msgstr "Cih:"
-
-#, fuzzy
-#~| msgctxt "@option:check Startup Settings"
-#~| msgid "Show filter bar"
-#~ msgid "Show facets widget"
-#~ msgstr "Darikê fîltreyê nîşan bide"
-
-#, fuzzy
-#~| msgctxt "@label"
-#~| msgid "Use system font"
-#~ msgid "Use system font"
-#~ msgstr "Curenivîsê pergalê bi kar bîne"
-
-#, fuzzy
-#~| msgctxt "@label"
-#~| msgid "Font family"
-#~ msgid "Font family"
-#~ msgstr "Malbata curenivîsê"
-
-#, fuzzy
-#~| msgctxt "@label"
-#~| msgid "Font size"
-#~ msgid "Font size"
-#~ msgstr "Mezinahiya curenivîsê"
-
-#, fuzzy
-#~| msgctxt "@label Font style"
-#~| msgid "Italic"
-#~ msgid "Italic"
-#~ msgstr "Îtalîk"
-
-#, fuzzy
-#~| msgctxt "@label"
-#~| msgid "Font weight"
-#~ msgid "Font weight"
-#~ msgstr "Giranbûna curenivîsê"
-
-#, fuzzy
-#~| msgctxt "@label"
-#~| msgid "Icon size"
-#~ msgid "Icon size"
-#~ msgstr "Mezinahiya îkonê"
-
-#, fuzzy
-#~| msgctxt "@label"
-#~| msgid "Preview size"
-#~ msgid "Preview size"
-#~ msgstr "Mezinahiya pêşdîtinê"
-
-#, fuzzy
-#~| msgctxt "@label"
-#~| msgid "Expandable folders"
-#~ msgid "Expandable folders"
-#~ msgstr "Peldankên Firehbar"
-
-#, fuzzy
-#~| msgctxt "@label"
-#~| msgid "Show hidden files"
-#~ msgctxt "@label"
-#~ msgid "Hidden files shown"
-#~ msgstr "Pelên veşartî nîşan bide"
-
-#~ msgctxt "@info:whatsthis"
-#~ msgid ""
-#~ "When this option is enabled hidden files, such as those starting with a "
-#~ "'.', will be shown in the file view."
-#~ msgstr ""
-#~ "Dema ev vebijêrk hat çalakirin, pelên veşartî ên ku navên wan bi  '.', "
-#~ "dest pê dikin dê wekî pel bên nîşandan."
-
-#, fuzzy
-#~| msgctxt "@option:check Additional Information"
-#~| msgid "Permissions"
-#~ msgctxt "@label"
-#~ msgid "Version"
-#~ msgstr "Destûr"
-
-#~ msgctxt "@label"
-#~ msgid "View Mode"
-#~ msgstr "Moda Xuyakirinê"
-
-#~ msgctxt "@info:whatsthis"
-#~ msgid ""
-#~ "This option controls the style of the view. Currently supported values "
-#~ "include icons (0), details (1) and column (2) views."
-#~ msgstr ""
-#~ "Ev vebijêrk şêweya xuyakirinê kontrol dike. Nirxên niha tên destekirin "
-#~ "hundirandina îkonan (0), kîtekît (1) û xuyakirinên sitûnan (2)."
-
-#, fuzzy
-#~| msgctxt "@action:intoolbar"
-#~| msgid "Preview"
-#~ msgctxt "@label"
-#~ msgid "Previews shown"
-#~ msgstr "Pêşdîtin"
-
-#~ msgctxt "@info:whatsthis"
-#~ msgid ""
-#~ "When this option is enabled, a preview of the file content is shown as an "
-#~ "icon."
-#~ msgstr ""
-#~ "Dema ku ev vebijêrk çalak bibe, pêşdîtina naveroka pelî dê wekî îkonekê "
-#~ "bê nîşandan."
-
-#, fuzzy
-#~| msgctxt "@label"
-#~| msgid "Categorized Sorting"
-#~ msgctxt "@label"
-#~ msgid "Grouped Sorting"
-#~ msgstr "Rêzkirina Kategorîbûyî"
-
-#, fuzzy
-#~| msgctxt "@info:whatsthis"
-#~| msgid ""
-#~| "When this option is enabled, the sorted items are summarized by their "
-#~| "category."
-#~ msgctxt "@info:whatsthis"
-#~ msgid ""
-#~ "When this option is enabled, the sorted items are categorized into groups."
-#~ msgstr ""
-#~ "Dema ev vebijêrk çalak bibe, hêmanên rêzbûyî dê li gorî kategoriyên xwe "
-#~ "bên kurtebirkirin"
-
-#~ msgctxt "@label"
-#~ msgid "Sort files by"
-#~ msgstr "Pelan li gorî vê rêz bike"
-
-#, fuzzy
-#~| msgctxt "@info:whatsthis"
-#~| msgid ""
-#~| "This option defines which attribute (name, size, date, etc.) sorting is "
-#~| "performed on."
-#~ msgctxt "@info:whatsthis"
-#~ msgid ""
-#~ "This option defines which attribute (text, size, date, etc.) sorting is "
-#~ "performed on."
-#~ msgstr ""
-#~ "Ev vebijêrk diyar dike ka dê kîjan wesf (nav, mezinahî, hwd) ji bo "
-#~ "rêzkirinê bê bikaranîn."
-
-#~ msgctxt "@label"
-#~ msgid "Order in which to sort files"
-#~ msgstr "Pelan li gorî vê rêz bike"
-
-#, fuzzy
-#~| msgctxt "@label"
-#~| msgid "Column width"
-#~ msgctxt "@label"
-#~ msgid "Header column widths"
-#~ msgstr "Firehiya Sitûnê"
-
-#~ msgctxt "@label"
-#~ msgid "Properties last changed"
-#~ msgstr "Dema dawî ya guherandina taybetmendiyan"
-
-#~ msgctxt "@info:whatsthis"
-#~ msgid "The last time these properties were changed by the user."
-#~ msgstr "Dema dawî ku ev taybetmendî ji hêla bikarhêner ve hatin guherandin."
-
-#, fuzzy
-#~| msgctxt "@title:window"
-#~| msgid "Additional Information"
-#~ msgctxt "@label"
-#~ msgid "Additional Information"
-#~ msgstr "Agahiyên Pêvek"
-
-#, fuzzy
-#~| msgctxt "@label"
-#~| msgid "Should the URL be editable for the user"
-#~ msgid "Should the URL be editable for the user"
-#~ msgstr "Bila bikarhêner karibe URL'ê biguherîne"
-
-#, fuzzy
-#~| msgctxt "@label"
-#~| msgid "Should the full path be shown inside the location bar"
-#~ msgid "Should the full path be shown inside the location bar"
-#~ msgstr "Ma rê ya çûnê bitemamî di nav darikê de bê nîşan dan"
-
-#, fuzzy
-#~| msgctxt "@label"
-#~| msgid "Home URL"
-#~ msgid "Home URL"
-#~ msgstr "URL'a malê"
-
-#, fuzzy
-#~| msgctxt "@label"
-#~| msgid "Split the view into two panes"
-#~ msgid "Split the view into two panes"
-#~ msgstr "Xuyakirinê bike du par"
-
-#, fuzzy
-#~| msgctxt "@label"
-#~| msgid "Should the filter bar be shown"
-#~ msgid "Should the filter bar be shown"
-#~ msgstr "Bila darikê fîlrtekirinê bê nîşandan"
-
-#, fuzzy
-#~| msgctxt "@label"
-#~| msgid "Should the view properties be used for all directories"
-#~ msgid "Should the view properties be used for all directories"
-#~ msgstr "Bila taybetmendiyên xuyakirinê ji bo hemû pelrêçan bên bikaranîn"
-
-#, fuzzy
-#~| msgctxt "@label"
-#~| msgid "Browse through archives"
-#~ msgid "Browse through archives"
-#~ msgstr "Li arşîvan bigere"
-
-#, fuzzy
-#~| msgctxt "@label"
-#~| msgid "Rename inline"
-#~ msgid "Rename inline"
-#~ msgstr "Bi rêzê de nav biguherîne"
-
-#, fuzzy
-#~| msgctxt "@label"
-#~| msgid "Show selection toggle"
-#~ msgid "Show selection toggle"
-#~ msgstr "Têbara hilbijartî nîşan bide"
-
-#, fuzzy
-#~| msgctxt "@label"
-#~| msgid "Show tooltips"
-#~ msgid "Show tooltips"
-#~ msgstr "Qutî ya amûran nîşan bide"
-
-#, fuzzy
-#~| msgctxt "@label"
-#~| msgid "Show 'Copy To' and 'Move To' commands in context menu"
-#~ msgid "Show 'Copy To' and 'Move To' commands in context menu"
-#~ msgstr "Di pêşekê de fermanên 'Jibergirtin' û 'Guhestin' nîşan bide"
-
-#, fuzzy
-#~| msgctxt "@label"
-#~| msgid "Timestamp since when the view properties are valid"
-#~ msgid "Timestamp since when the view properties are valid"
-#~ msgstr ""
-#~ "Demê guherandinê ji wextê taybetiyên dîtinê derbasdar bûn ve heta niha"
-
-#, fuzzy
-#~| msgctxt "@label"
-#~| msgid "Use auto-expanding folders for all view types"
-#~ msgid "Use auto-expanding folders for all view types"
-#~ msgstr "Bixweber-vekirina peldankan bi kar bîne ji bo hemû cureyên dîtinê"
-
-#, fuzzy
-#~| msgctxt "@label"
-#~| msgid "Show zoom slider in the statusbar"
-#~ msgid "Show zoom slider in the statusbar"
-#~ msgstr "Kaşkera nêzîktir kirinê di nav darikê rewşê de nîşan bide"
-
-#, fuzzy
-#~| msgctxt "@label"
-#~| msgid "Show the space information in the statusbar"
-#~ msgid "Show the space information in the statusbar"
-#~ msgstr "Agahiya valahiyê di darikê rewşê de nîşan bide"
-
-#, fuzzy
-#~| msgctxt "@title:group"
-#~| msgid "File Previews"
-#~ msgid "Enlarge Small Previews"
-#~ msgstr "Pêşdîtinên Pelan"
-
-#, fuzzy
-#~| msgctxt "@label:listbox"
-#~| msgid "Text width:"
-#~ msgid "Text width index"
-#~ msgstr "Firehiya deqê:"
-
 #, fuzzy
 #~| msgctxt "@option:check"
 #~| msgid "Show zoom slider"
@@ -3199,14 +3421,6 @@ msgstr "Agahiyên pêvek"
 #~ msgctxt "@info:status"
 #~ msgid "<filename>%1</filename> selected (%2)"
 #~ msgstr "<filename>%1</filename> hate hilbijartin (%2)"
-
-#, fuzzy
-#~| msgctxt "@label"
-#~| msgid "Is the application started the first time"
-#~ msgid ""
-#~ "Is the application started the first time (internal setting not shown in "
-#~ "the UI)"
-#~ msgstr "Dema sepan cara yekemîn hat destpêkirin"
 
 #~ msgctxt "@title:tab"
 #~ msgid "Column"

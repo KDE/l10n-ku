@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: domtreeviewer\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-11 03:39+0100\n"
+"POT-Creation-Date: 2012-08-20 03:23+0200\n"
 "PO-Revision-Date: 2009-01-17 22:33+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -18,6 +18,16 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-Language: Kurdish\n"
 "X-Poedit-SourceCharset: utf8\n"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: attributeeditwidget.ui:24
+msgid "Attribute &name:"
+msgstr "&Navê çawanî:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: attributeeditwidget.ui:42
+msgid "Attribute &value:"
+msgstr "&Nirxê çawanî yê: "
 
 #: domtreecommands.cpp:33
 msgid "No error"
@@ -239,6 +249,117 @@ msgstr "<Ji bo lêzêdekirinê bitikîne>"
 msgid "Delete Attributes"
 msgstr "Çawaniyan Jê Bibe"
 
+#. i18n: ectx: property (windowTitle), widget (QWidget, DOMTreeViewBase)
+#: domtreeviewbase.ui:19
+msgid "DOM Tree Viewer"
+msgstr "Nîşanderê Dara DOM"
+
+#. i18n: ectx: property (text), widget (KPushButton, messageListBtn)
+#: domtreeviewbase.ui:61
+msgid "&List"
+msgstr "&Lîste"
+
+#. i18n: ectx: property (text), widget (KPushButton, messageHideBtn)
+#: domtreeviewbase.ui:92
+msgid "H&ide"
+msgstr "V&eşêre"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listView)
+#: domtreeviewbase.ui:115
+msgid "DOM Tree"
+msgstr "Dara DOM"
+
+#. i18n: ectx: attribute (title), widget (QWidget, domTab)
+#: domtreeviewbase.ui:127
+msgid "DOM Node"
+msgstr "Girêka DOM"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2_3)
+#: domtreeviewbase.ui:138
+msgid "Node &value:"
+msgstr "&Nirxa girêkê:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2_2)
+#: domtreeviewbase.ui:151
+msgid "Node &type:"
+msgstr "&Cureyê  girêkê:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: domtreeviewbase.ui:164
+msgid "Namespace &URI:"
+msgstr "Cihê-navê &URl yê:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: domtreeviewbase.ui:177
+msgid "Node &name:"
+msgstr "&Navê girêkê:"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, nodeAttributes)
+#: domtreeviewbase.ui:249
+msgid "Name"
+msgstr "Nav"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, nodeAttributes)
+#. i18n: ectx: property (text), widget (QTreeWidget, cssProperties)
+#: domtreeviewbase.ui:254 domtreeviewbase.ui:344
+msgid "Value"
+msgstr "Nirx"
+
+#. i18n: ectx: property (text), widget (QPushButton, applyContent)
+#: domtreeviewbase.ui:287
+msgid "Appl&y"
+msgstr "Bisepîn&e"
+
+#. i18n: ectx: attribute (title), widget (QWidget, cssTab)
+#: domtreeviewbase.ui:320
+msgid "Computed Style"
+msgstr "Teşeya Hatiye Hesibandin"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, cssProperties)
+#: domtreeviewbase.ui:339
+msgid "Property"
+msgstr "Taybetmendî"
+
+#. i18n: ectx: attribute (title), widget (QWidget, styleSheetsTab)
+#: domtreeviewbase.ui:353
+msgid "Stylesheets"
+msgstr "Curepel"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, styleSheetsTree)
+#: domtreeviewbase.ui:366
+msgid "1"
+msgstr "1"
+
+#. i18n: ectx: Menu (file)
+#: domtreeviewerui.rc:4
+msgid "&File"
+msgstr "&Pel"
+
+#. i18n: ectx: Menu (edit)
+#: domtreeviewerui.rc:6
+msgid "&Edit"
+msgstr "&Biguherhîne"
+
+#. i18n: ectx: Menu (view)
+#: domtreeviewerui.rc:8
+msgid "&View"
+msgstr "&Bibîne"
+
+#. i18n: ectx: Menu (go)
+#: domtreeviewerui.rc:19
+msgid "&Go"
+msgstr "&Biçe"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: domtreeviewerui.rc:23
+msgid "Main Toolbar"
+msgstr "Darikê Amûran ya Mak"
+
+#. i18n: ectx: ToolBar (treeToolBar)
+#: domtreeviewerui.rc:25
+msgid "Tree Toolbar"
+msgstr "Darika Amûran yê Dar"
+
 #: domtreewindow.cpp:62
 #, fuzzy
 #| msgid "Message Log"
@@ -298,93 +419,31 @@ msgstr "Girêka &Nivîsar yê Nû..."
 msgid "Delete attributes"
 msgstr "Çawaniyan jê bibe"
 
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: elementeditwidget.ui:24
+msgid "Element &name:"
+msgstr "&Navê hêmanê:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: elementeditwidget.ui:47
+msgid "Element &namespace:"
+msgstr "&Cihê-navê hêmanê:"
+
 #: plugin_domtreeviewer.cpp:24
 msgid "Show &DOM Tree"
 msgstr "Dara &DOM Nîşan Bide"
 
-#~ msgid "Attribute &name:"
-#~ msgstr "&Navê çawanî:"
+#. i18n: ectx: Menu (tools)
+#: plugin_domtreeviewer.rc:4
+msgid "&Tools"
+msgstr "&Amûr"
 
-#~ msgid "Attribute &value:"
-#~ msgstr "&Nirxê çawanî yê: "
+#. i18n: ectx: ToolBar (extraToolBar)
+#: plugin_domtreeviewer.rc:8
+msgid "Extra Toolbar"
+msgstr "Zêdetir Darikê Amûran"
 
-#~ msgid "DOM Tree Viewer"
-#~ msgstr "Nîşanderê Dara DOM"
-
-#~ msgid "&List"
-#~ msgstr "&Lîste"
-
-#~ msgid "H&ide"
-#~ msgstr "V&eşêre"
-
-#~ msgid "DOM Tree"
-#~ msgstr "Dara DOM"
-
-#~ msgid "DOM Node"
-#~ msgstr "Girêka DOM"
-
-#~ msgid "Node &value:"
-#~ msgstr "&Nirxa girêkê:"
-
-#~ msgid "Node &type:"
-#~ msgstr "&Cureyê  girêkê:"
-
-#~ msgid "Namespace &URI:"
-#~ msgstr "Cihê-navê &URl yê:"
-
-#~ msgid "Node &name:"
-#~ msgstr "&Navê girêkê:"
-
-#~ msgid "Name"
-#~ msgstr "Nav"
-
-#~ msgid "Value"
-#~ msgstr "Nirx"
-
-#~ msgid "Appl&y"
-#~ msgstr "Bisepîn&e"
-
-#~ msgid "Computed Style"
-#~ msgstr "Teşeya Hatiye Hesibandin"
-
-#~ msgid "Property"
-#~ msgstr "Taybetmendî"
-
-#~ msgid "Stylesheets"
-#~ msgstr "Curepel"
-
-#~ msgid "1"
-#~ msgstr "1"
-
-#~ msgid "&File"
-#~ msgstr "&Pel"
-
-#~ msgid "&Edit"
-#~ msgstr "&Biguherhîne"
-
-#~ msgid "&View"
-#~ msgstr "&Bibîne"
-
-#~ msgid "&Go"
-#~ msgstr "&Biçe"
-
-#~ msgid "Main Toolbar"
-#~ msgstr "Darikê Amûran ya Mak"
-
-#~ msgid "Tree Toolbar"
-#~ msgstr "Darika Amûran yê Dar"
-
-#~ msgid "Element &name:"
-#~ msgstr "&Navê hêmanê:"
-
-#~ msgid "Element &namespace:"
-#~ msgstr "&Cihê-navê hêmanê:"
-
-#~ msgid "&Tools"
-#~ msgstr "&Amûr"
-
-#~ msgid "Extra Toolbar"
-#~ msgstr "Zêdetir Darikê Amûran"
-
-#~ msgid "Edit &text for text node:"
-#~ msgstr "&Nivîsarê ji bo girêka nivîsarê serrast bike:"
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: texteditwidget.ui:19
+msgid "Edit &text for text node:"
+msgstr "&Nivîsarê ji bo girêka nivîsarê serrast bike:"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dragonplayer\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-11 03:46+0100\n"
+"POT-Creation-Date: 2012-12-05 02:55+0100\n"
 "PO-Revision-Date: 2009-01-22 21:21+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -26,6 +26,21 @@ msgstr "Omer Ensari"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "oensari@gmail.com"
+
+#. i18n: ectx: Menu (file)
+#: misc/dragonplayerui.rc:4
+msgid "&Play"
+msgstr "&Lê Bide"
+
+#. i18n: ectx: Menu (settings)
+#: misc/dragonplayerui.rc:15
+msgid "&Settings"
+msgstr "&Mîheng"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: misc/dragonplayerui.rc:31
+msgid "Main Toolbar"
+msgstr "Darikê Amûran ya Mak"
 
 #: src/app/actions.cpp:35
 msgid "Play"
@@ -88,6 +103,18 @@ msgstr "Dîskekî Hilbijêre"
 #: src/app/discSelectionDialog.cpp:95
 msgid "Select a disc to play."
 msgstr "Ji bo lêdanê dîskekî hilbijêre."
+
+#. i18n: ectx: property (text), widget (KPushButton, m_playFileButton)
+#: src/app/loadView.ui:19
+#, fuzzy
+#| msgid "Play File..."
+msgid "Play File"
+msgstr "Pelê Lê Bide..."
+
+#. i18n: ectx: property (text), widget (KPushButton, m_playDiskButton)
+#: src/app/loadView.ui:26 src/app/playDialog.cpp:68
+msgid "Play Disc"
+msgstr "Dîskê Lê Bide"
 
 #: src/app/main.cpp:30 src/app/part.cpp:108
 msgid "Dragon Player"
@@ -342,10 +369,6 @@ msgstr "Tu çi medya dixwazî ku were lêdan?"
 msgid "Play File..."
 msgstr "Pelê Lê Bide..."
 
-#: src/app/playDialog.cpp:68
-msgid "Play Disc"
-msgstr "Dîskê Lê Bide"
-
 #: src/app/playlistFile.cpp:50
 msgid "The file is not a playlist"
 msgstr "Pel pela lîsteya lêdanê nîn e"
@@ -385,6 +408,44 @@ msgstr ""
 msgid "File not found"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QLabel, brightnessLabel)
+#: src/app/videoSettingsWidget.ui:19
+#, fuzzy
+#| msgid "Brightness"
+msgid "Brightness:"
+msgstr "Biriqandin"
+
+#. i18n: ectx: property (text), widget (QLabel, contrastLabel)
+#: src/app/videoSettingsWidget.ui:42
+#, fuzzy
+#| msgid "Contrast"
+msgid "Contrast:"
+msgstr "Kontrast"
+
+#. i18n: ectx: property (text), widget (QLabel, hueLabel)
+#: src/app/videoSettingsWidget.ui:65
+#, fuzzy
+#| msgid "Hue"
+msgid "Hue:"
+msgstr "Kirpandina rengan"
+
+#. i18n: ectx: property (text), widget (QLabel, saturationLabel)
+#: src/app/videoSettingsWidget.ui:88
+#, fuzzy
+#| msgid "Saturation"
+msgid "Saturation:"
+msgstr "Têrbûn"
+
+#. i18n: ectx: property (text), widget (QPushButton, defaultsButton)
+#: src/app/videoSettingsWidget.ui:128
+msgid "Restore Defaults"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, closeButton)
+#: src/app/videoSettingsWidget.ui:135
+msgid "Close"
+msgstr "Bigire"
+
 #: src/app/videoWindow.cpp:126
 msgid "&DVD Subtitle Selection"
 msgstr "Hilbijartina Binnivîsê &DVD yê "
@@ -392,43 +453,6 @@ msgstr "Hilbijartina Binnivîsê &DVD yê "
 #: src/app/videoWindow.cpp:136
 msgid "&Auto"
 msgstr "&Bixweber"
-
-#~ msgid "&Play"
-#~ msgstr "&Lê Bide"
-
-#~ msgid "&Settings"
-#~ msgstr "&Mîheng"
-
-#~ msgid "Main Toolbar"
-#~ msgstr "Darikê Amûran ya Mak"
-
-#, fuzzy
-#~| msgid "Play File..."
-#~ msgid "Play File"
-#~ msgstr "Pelê Lê Bide..."
-
-#, fuzzy
-#~| msgid "Brightness"
-#~ msgid "Brightness:"
-#~ msgstr "Biriqandin"
-
-#, fuzzy
-#~| msgid "Contrast"
-#~ msgid "Contrast:"
-#~ msgstr "Kontrast"
-
-#, fuzzy
-#~| msgid "Hue"
-#~ msgid "Hue:"
-#~ msgstr "Kirpandina rengan"
-
-#, fuzzy
-#~| msgid "Saturation"
-#~ msgid "Saturation:"
-#~ msgstr "Têrbûn"
-
-#~ msgid "Close"
-#~ msgstr "Bigire"
 
 #~ msgid ""
 #~ "<qt>xine could not be successfully initialised. Dragon Player will now "
