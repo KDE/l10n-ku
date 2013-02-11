@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasmaengineexplorer\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-01-23 03:32+0100\n"
+"POT-Creation-Date: 2013-02-11 03:36+0100\n"
 "PO-Revision-Date: 2008-12-26 03:29+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
@@ -48,13 +48,11 @@ msgstr "Hemû yan Fireh Bike"
 msgid "DataSource"
 msgstr "ÇavkaniyaDaneyan"
 
-#. i18n: ectx: property (text), widget (QTableWidget, m_operationDescription)
-#: engineexplorer.cpp:170 serviceviewer.cpp:147 serviceviewer.ui:67
+#: engineexplorer.cpp:170 serviceviewer.cpp:147
 msgid "Key"
 msgstr "Mifte"
 
-#. i18n: ectx: property (text), widget (QTableWidget, m_operationDescription)
-#: engineexplorer.cpp:170 serviceviewer.cpp:147 serviceviewer.ui:72
+#: engineexplorer.cpp:170 serviceviewer.cpp:147
 msgid "Value"
 msgstr "Nirx"
 
@@ -107,8 +105,7 @@ msgctxt ""
 msgid "<not displayable>"
 msgstr "<nayê nîşandan>"
 
-#. i18n: ectx: property (text), widget (KTitleWidget, m_title)
-#: engineexplorer.cpp:491 engineexplorer.ui:17
+#: engineexplorer.cpp:491
 msgid "Plasma DataEngine Explorer"
 msgstr "Kaşîfê Motora Daneyan a Plasmayê"
 
@@ -119,45 +116,6 @@ msgid "%1 Engine - 1 data source"
 msgid_plural "%1 Engine - %2 data sources"
 msgstr[0] "%1 Motor - çavkaniyeke daneyan"
 msgstr[1] "%1 Motor - %2 çavkaniyên daneyan"
-
-#. i18n: ectx: property (clickMessage), widget (KLineEdit, m_sourceRequester)
-#: engineexplorer.ui:38
-msgid "Source name"
-msgstr "Navê çavkaniyê"
-
-#. i18n: ectx: property (specialValueText), widget (KIntSpinBox, m_updateInterval)
-#: engineexplorer.ui:57
-msgid "Update on demand"
-msgstr "Li gorî daxwazê rojane bike"
-
-#. i18n: ectx: property (suffix), widget (KIntSpinBox, m_updateInterval)
-#: engineexplorer.ui:60
-msgid "ms"
-msgstr "mç"
-
-#. i18n: ectx: property (prefix), widget (KIntSpinBox, m_updateInterval)
-#: engineexplorer.ui:63
-msgid "Update every "
-msgstr "Rojane bike, her "
-
-#. i18n: ectx: property (text), widget (QPushButton, m_sourceRequesterButton)
-#: engineexplorer.ui:85
-#, fuzzy
-#| msgid "Request"
-msgid "Request Source"
-msgstr "Daxwaz"
-
-#. i18n: ectx: property (clickMessage), widget (KLineEdit, m_serviceRequester)
-#: engineexplorer.ui:105
-#, fuzzy
-#| msgid "Remove source"
-msgid "Service for source"
-msgstr "Çavkaniyê rake"
-
-#. i18n: ectx: property (text), widget (QPushButton, m_serviceRequesterButton)
-#: engineexplorer.ui:118
-msgid "Request Service for Source"
-msgstr ""
 
 #: ktreeviewsearchline.cpp:420
 msgid "Search Columns"
@@ -301,19 +259,37 @@ msgid_plural "%1 operations active..."
 msgstr[0] "Yek karê çalak..."
 msgstr[1] "%1 karên çalak..."
 
-#. i18n: ectx: property (text), widget (QLabel, m_operationsLabel)
-#: serviceviewer.ui:33
-msgid "&Operation:"
-msgstr "&Kar:"
-
-#. i18n: ectx: property (text), widget (QLabel, m_operationStatus)
-#: serviceviewer.ui:80
-msgid "Operation count"
-msgstr "Hejmara karê"
-
 #: titlecombobox.h:53
 msgid "Data Engines"
 msgstr ""
+
+#~ msgid "Source name"
+#~ msgstr "Navê çavkaniyê"
+
+#~ msgid "Update on demand"
+#~ msgstr "Li gorî daxwazê rojane bike"
+
+#~ msgid "ms"
+#~ msgstr "mç"
+
+#~ msgid "Update every "
+#~ msgstr "Rojane bike, her "
+
+#, fuzzy
+#~| msgid "Request"
+#~ msgid "Request Source"
+#~ msgstr "Daxwaz"
+
+#, fuzzy
+#~| msgid "Remove source"
+#~ msgid "Service for source"
+#~ msgstr "Çavkaniyê rake"
+
+#~ msgid "&Operation:"
+#~ msgstr "&Kar:"
+
+#~ msgid "Operation count"
+#~ msgstr "Hejmara karê"
 
 #~ msgid "%1 service for %2 DataEngine source %3"
 #~ msgstr "%1 servîs ji bo %2 çavkaniya MotoraDane %3 ê"
