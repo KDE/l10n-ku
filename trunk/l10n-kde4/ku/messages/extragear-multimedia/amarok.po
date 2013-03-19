@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-03-10 03:09+0100\n"
+"POT-Creation-Date: 2013-03-19 02:59+0100\n"
 "PO-Revision-Date: 2009-02-21 06:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -2620,7 +2620,7 @@ msgstr "Bijare yên Giştî Veava Bike"
 #: configdialog/ConfigDialog.cpp:59
 #: context/applets/currenttrack/CurrentTrack.cpp:105
 #: core-impl/collections/db/DatabaseCollection.cpp:53
-#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:71
+#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:70
 msgid "Local Collection"
 msgstr "Berhevoka Herêmî "
 
@@ -5242,95 +5242,19 @@ msgstr ""
 msgid "Music share at %1"
 msgstr ""
 
-#: core-impl/collections/db/ScanManager.cpp:135
-msgid "Database import requested"
-msgstr ""
-
-#: core-impl/collections/db/ScanManager.cpp:268
-msgid ""
-"<p>The version of the 'amarokcollectionscanner' tool\n"
-"does not match your Amarok version.</p><p>Please note that Collection "
-"Scanning may not work correctly.</p>"
-msgstr ""
-
-#: core-impl/collections/db/ScanManager.cpp:330
-#, kde-format
-msgid ""
-"<ul><li>%1</li></ul>In most cases this means that not all of your tracks "
-"were imported.<br>See <a href='http://userbase.kde.org/Amarok/Manual/Various/"
-"TroubleshootingAndCommonProblems#Duplicate_Tracks'>Amarok Manual</a> for "
-"information about duplicate tracks."
-msgstr ""
-
-#: core-impl/collections/db/ScanManager.cpp:334
-#, fuzzy
-#| msgid "Collection Scan Error"
-msgid "Errors During Collection Scan"
-msgstr "Çewtiya Venihartina Berhevokê"
-
-#: core-impl/collections/db/ScanManager.cpp:478
-#, kde-format
-msgid "Failed to write scanner batch file \"%1\""
-msgstr ""
-
-#: core-impl/collections/db/ScanManager.cpp:486
-#: scanner/GenericScanManager.cpp:201
-#, fuzzy
-#| msgid "Amarok AFT Tagger"
-msgid "Unable to start Amarok collection scanner."
-msgstr "Etîketvanê Amarok AFT"
-
-#: core-impl/collections/db/ScanManager.cpp:535
-#: scanner/GenericScanManager.cpp:298
-#, fuzzy, kde-format
-#| msgid "could not execute %1"
-msgid "Found one directory"
-msgid_plural "Found %1 directories"
-msgstr[0] "nekarî %1 bixebitîne"
-msgstr[1] "nekarî %1 bixebitîne"
-
-#: core-impl/collections/db/ScanManager.cpp:546
-#: scanner/GenericScanManager.cpp:308
-#, kde-format
-msgid "Got directory \"%1\" from scanner."
-msgstr ""
-
-#: core-impl/collections/db/ScanManager.cpp:589
-#, kde-format
-msgid "Aborting scanner with error: %1"
-msgstr ""
-
-#: core-impl/collections/db/ScanManager.cpp:609
-msgid "Scanner aborted."
-msgstr ""
-
-#: core-impl/collections/db/ScanManager.cpp:726
-#, fuzzy, kde-format
-#| msgid ""
-#| "<p>Sorry, the collection scan had to be aborted.</p><p>Too many errors "
-#| "were encountered during the scan.</p>"
-msgid ""
-"The collection scan had to be aborted. Too many crashes (%1) were "
-"encountered during the scan. Following files caused the crashes:\n"
-"\n"
-"%2"
-msgstr ""
-"<p>Ji ber ku gelekî çewtî çêbû karê venihartina berhevokan hate bi dawî "
-"kirin.</p>"
-
-#: core-impl/collections/db/sql/SqlCollection.cpp:142
+#: core-impl/collections/db/sql/SqlCollection.cpp:239
 msgid ""
 "Updating Amarok database schema. Please don't terminate Amarok now as it may "
 "result in database corruption."
 msgstr ""
 
-#: core-impl/collections/db/sql/SqlCollection.cpp:146
+#: core-impl/collections/db/sql/SqlCollection.cpp:243
 #, fuzzy
 #| msgid "Updating podcast channel"
 msgid "Updating Amarok database schema"
 msgstr "Kanala podcast tê rojane kirin"
 
-#: core-impl/collections/db/sql/SqlCollection.cpp:179
+#: core-impl/collections/db/sql/SqlCollection.cpp:285
 #, kde-format
 msgid ""
 "The amarok database reported the following errors:\n"
@@ -5339,33 +5263,29 @@ msgid ""
 "properly."
 msgstr ""
 
-#: core-impl/collections/db/sql/SqlCollection.cpp:249
-msgid "Scanning music"
-msgstr "Muzîkê dinihêre"
-
-#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:539
+#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:528
 #, kde-format
 msgid "Source track does not exist: %1"
 msgstr ""
 
-#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:550
+#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:539
 #, fuzzy, kde-format
 #| msgid "could not execute %1"
 msgid "Could not create directory: %1"
 msgstr "nekarî %1 bixebitîne"
 
-#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:627
+#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:616
 #, kde-format
 msgid "Transferring: %1"
 msgstr "Diguhezîne: %1"
 
-#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:629
+#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:618
 #, fuzzy, kde-format
 #| msgid "Transcoding"
 msgid "Transcoding: %1"
 msgstr "Wergera-kodê"
 
-#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:673
+#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:662
 #: core-impl/collections/support/FileCollectionLocation.cpp:87
 #, fuzzy, kde-format
 #| msgid "Remove this %1"
@@ -5378,7 +5298,22 @@ msgstr "Vê %1 ê rake"
 msgid "%1 - %2"
 msgstr "%1 - %2"
 
-#: core-impl/collections/db/sql/SqlScanResultProcessor.cpp:152
+#: core-impl/collections/db/sql/SqlScanResultProcessor.cpp:84
+#, kde-format
+msgid ""
+"<ul><li>%1</li></ul>In most cases this means that not all of your tracks "
+"were imported.<br>See <a href='http://userbase.kde.org/Amarok/Manual/Various/"
+"TroubleshootingAndCommonProblems#Duplicate_Tracks'>Amarok Manual</a> for "
+"information about duplicate tracks."
+msgstr ""
+
+#: core-impl/collections/db/sql/SqlScanResultProcessor.cpp:88
+#, fuzzy
+#| msgid "Collection Scan Error"
+msgid "Errors During Collection Scan"
+msgstr "Çewtiya Venihartina Berhevokê"
+
+#: core-impl/collections/db/sql/SqlScanResultProcessor.cpp:208
 #, kde-format
 msgid ""
 "Duplicates found, the second file will be ignored:\n"
@@ -14035,6 +13970,39 @@ msgid ""
 "freenode.net.</p>"
 msgstr ""
 
+#: scanner/AbstractScanResultProcessor.cpp:74
+msgid "Scanning music"
+msgstr "Muzîkê dinihêre"
+
+#: scanner/GenericScannerJob.cpp:121
+msgid "Abort for scanner requested"
+msgstr ""
+
+#: scanner/GenericScannerJob.cpp:151
+#, kde-format
+msgid "Aborting scanner with error: %1"
+msgstr ""
+
+#: scanner/GenericScannerJob.cpp:239
+#, fuzzy
+#| msgid "Amarok AFT Tagger"
+msgid "Unable to start Amarok collection scanner."
+msgstr "Etîketvanê Amarok AFT"
+
+#: scanner/GenericScannerJob.cpp:288
+#, fuzzy, kde-format
+#| msgid ""
+#| "<p>Sorry, the collection scan had to be aborted.</p><p>Too many errors "
+#| "were encountered during the scan.</p>"
+msgid ""
+"The collection scan had to be aborted. Too many crashes (%1) were "
+"encountered during the scan. Following files caused the crashes:\n"
+"\n"
+"%2"
+msgstr ""
+"<p>Ji ber ku gelekî çewtî çêbû karê venihartina berhevokan hate bi dawî "
+"kirin.</p>"
+
 #: scriptengine/AmarokNetworkScript.cpp:70
 msgctxt "do not translate 'DataDownloader' or 'qt.core'"
 msgid "qt.core must be loaded to use DataDownloader"
@@ -17179,6 +17147,13 @@ msgstr ""
 #| msgid "Volume: %1%"
 msgid "Volume: %1%"
 msgstr "Deng: %1%"
+
+#, fuzzy
+#~| msgid "could not execute %1"
+#~ msgid "Found one directory"
+#~ msgid_plural "Found %1 directories"
+#~ msgstr[0] "nekarî %1 bixebitîne"
+#~ msgstr[1] "nekarî %1 bixebitîne"
 
 #~ msgid "The OSD text to show"
 #~ msgstr "Nivîsa DA ji bo nîşandanê"
