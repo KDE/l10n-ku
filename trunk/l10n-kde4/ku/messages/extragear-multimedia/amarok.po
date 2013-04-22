@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-04-20 03:16+0200\n"
+"POT-Creation-Date: 2013-04-22 02:57+0200\n"
 "PO-Revision-Date: 2009-02-21 06:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -1511,7 +1511,7 @@ msgid "Group"
 msgstr "Kom Alî yê"
 
 #: amarokurls/BookmarkModel.cpp:262
-#: browsers/playlistbrowser/PodcastModel.cpp:330
+#: browsers/playlistbrowser/PodcastModel.cpp:299
 #: playlist/PlaylistModel.cpp:923
 msgid "Type"
 msgstr "Cure"
@@ -2565,7 +2565,8 @@ msgctxt "toggle the \"new\" status of this podcast episode"
 msgid "&New"
 msgstr "&Pêşve"
 
-#: browsers/playlistbrowser/PodcastModel.cpp:254
+#: browsers/playlistbrowser/PodcastModel.cpp:206
+#: browsers/playlistbrowser/PodcastModel.cpp:258
 #, fuzzy, kde-format
 #| msgid "&Update All"
 msgctxt "number of podcasts from one source"
@@ -2575,24 +2576,24 @@ msgstr[0] "Hemû yan &Rojane Bike"
 msgstr[1] "Hemû yan &Rojane Bike"
 
 #. i18n: ectx: property (text), widget (QLabel, titleLabel)
-#: browsers/playlistbrowser/PodcastModel.cpp:331
+#: browsers/playlistbrowser/PodcastModel.cpp:300
 #: context/applets/tabs/ReloadEditDialog.ui:86
 #: musicbrainz/MusicBrainzTags.cpp:358 playlist/PlaylistModel.cpp:911
 #: widgets/SmartPlaylistEditor.cpp:183
 msgid "Title"
 msgstr "Sernav"
 
-#: browsers/playlistbrowser/PodcastModel.cpp:332 dialogs/TagDialog.cpp:500
+#: browsers/playlistbrowser/PodcastModel.cpp:301 dialogs/TagDialog.cpp:501
 msgid "Summary"
 msgstr "Kurte"
 
-#: browsers/playlistbrowser/PodcastModel.cpp:352
+#: browsers/playlistbrowser/PodcastModel.cpp:321
 #, fuzzy
 #| msgid "&Add Podcast"
 msgid "Add Podcast"
 msgstr "Podcast &Lê Zêde Bike"
 
-#: browsers/playlistbrowser/PodcastModel.cpp:353
+#: browsers/playlistbrowser/PodcastModel.cpp:322
 #, fuzzy
 #| msgid "Enter Stream URL:"
 msgid "Enter RSS 1.0/2.0 or Atom feed URL:"
@@ -3433,7 +3434,7 @@ msgstr "Giştî"
 
 #: configdialog/dialogs/ScriptsConfig.cpp:54
 #: context/applets/lyrics/LyricsApplet.cpp:446
-#: context/applets/lyrics/LyricsApplet.cpp:572 dialogs/TagDialog.cpp:502
+#: context/applets/lyrics/LyricsApplet.cpp:572 dialogs/TagDialog.cpp:503
 msgid "Lyrics"
 msgstr "Gotin"
 
@@ -3651,7 +3652,7 @@ msgstr "Pêveka Dosiya Çavkaniyê"
 msgid "Search for Artist in the MP3 Music Store"
 msgstr "Pêveka Dosiya Çavkaniyê"
 
-#: context/applets/currenttrack/CurrentTrack.cpp:823 core/meta/Meta.cpp:494
+#: context/applets/currenttrack/CurrentTrack.cpp:823 core/meta/Meta.cpp:488
 #, fuzzy
 #| msgid "Unknown Genre"
 msgid "Unknown Composer"
@@ -3679,14 +3680,14 @@ msgstr "Pêveka Dosiya Çavkaniyê"
 #: core-impl/collections/ipodcollection/IpodMeta.cpp:209
 #: core-impl/collections/mediadevicecollection/MediaDeviceMeta.cpp:92
 #: core-impl/collections/mtpcollection/handler/MtpHandler.cpp:421
-#: core/meta/Meta.cpp:393 covermanager/CoverFetchUnit.cpp:596
+#: core/meta/Meta.cpp:387 covermanager/CoverFetchUnit.cpp:596
 #: covermanager/CoverFetchUnit.cpp:606
 msgid "Unknown Artist"
 msgstr "Hunermendê Nenas"
 
 #: context/applets/currenttrack/CurrentTrack.h:39
 #: core-impl/collections/mtpcollection/handler/MtpHandler.cpp:431
-#: core/meta/Meta.cpp:439
+#: core/meta/Meta.cpp:433
 msgid "Unknown Album"
 msgstr "Albuma Nenas"
 
@@ -3732,7 +3733,7 @@ msgstr "lîsteya lêdanê"
 
 #. i18n: ectx: property (text), widget (QToolButton, matchedLabelsButton)
 #: context/applets/labels/LabelsApplet.cpp:91
-#: context/applets/labels/LabelsApplet.cpp:184 dialogs/TagDialog.cpp:503
+#: context/applets/labels/LabelsApplet.cpp:184 dialogs/TagDialog.cpp:504
 #: statsyncing/ui/MatchedTracksPage.ui:87
 msgid "Labels"
 msgstr "Etîket"
@@ -3920,7 +3921,7 @@ msgstr "bi"
 #. i18n: ectx: property (text), widget (QPushButton, addPushButton)
 #. i18n: ectx: property (text), widget (QPushButton, addButton)
 #: context/applets/labels/labelsReplacementSettings.ui:69
-#: dialogs/TagDialogBase.ui:1045
+#: dialogs/TagDialogBase.ui:1005
 msgid "Add"
 msgstr "Lêzêdekirin"
 
@@ -5948,7 +5949,7 @@ msgid "Could not copy track from device."
 msgstr "Nikare strana di cîhazê de ji ber bigire"
 
 #: core-impl/collections/mtpcollection/handler/MtpHandler.cpp:437
-#: core/meta/Meta.cpp:472
+#: core/meta/Meta.cpp:466
 msgid "Unknown Genre"
 msgstr "Cureyê Nenas"
 
@@ -6302,7 +6303,7 @@ msgctxt "The Value is not known"
 msgid "Unknown"
 msgstr "Nenas"
 
-#: core-impl/meta/proxy/MetaProxy.cpp:211
+#: core-impl/meta/proxy/MetaProxy.cpp:202
 #, kde-format
 msgid ""
 "When Amarok was last closed, this track was at %1, but Amarok cannot find "
@@ -6568,7 +6569,7 @@ msgstr[0] "Hêman"
 msgstr[1] "Hêman"
 
 #: core-impl/podcasts/sql/SqlPodcastMeta.cpp:442
-#: core/podcasts/PodcastMeta.h:396
+#: core/podcasts/PodcastMeta.h:382
 msgid "Podcast"
 msgstr "Podcast"
 
@@ -6885,23 +6886,23 @@ msgid_plural "Transcoding and copying %1 tracks to %2"
 msgstr[0] "Wergera-kodê"
 msgstr[1] "Wergera-kodê"
 
-#: core/meta/Meta.cpp:350
+#: core/meta/Meta.cpp:344
 #, fuzzy
 #| msgid "Connection"
 msgid "No network connection"
 msgstr "Girêdan"
 
-#: core/meta/Meta.cpp:363
+#: core/meta/Meta.cpp:357
 #, fuzzy
 #| msgid "does not end with"
 msgid "File does not exist"
 msgstr "dawî nabe bi"
 
-#: core/meta/Meta.cpp:365
+#: core/meta/Meta.cpp:359
 msgid "Not a file"
 msgstr ""
 
-#: core/meta/Meta.cpp:367
+#: core/meta/Meta.cpp:361
 msgid "No read permissions"
 msgstr ""
 
@@ -7587,12 +7588,6 @@ msgctxt "h for hours"
 msgid "%1h"
 msgstr "%1s"
 
-#. i18n: ectx: property (text), widget (QLabel, qLabel_length)
-#. i18n: ectx: property (text), widget (QLabel, qLabel_bitrate)
-#. i18n: ectx: property (text), widget (QLabel, qLabel_samplerate)
-#. i18n: ectx: property (text), widget (QLabel, qLabel_size)
-#. i18n: ectx: property (text), widget (QLabel, qLabel_collection)
-#. i18n: ectx: property (text), widget (QLabel, qLabel_playcount)
 #. i18n: ectx: property (text), widget (QLabel, eqPreampValue)
 #. i18n: ectx: property (text), widget (QLabel, eqBand0Value)
 #. i18n: ectx: property (text), widget (QLabel, eqBand1Value)
@@ -7604,15 +7599,21 @@ msgstr "%1s"
 #. i18n: ectx: property (text), widget (QLabel, eqBand7Value)
 #. i18n: ectx: property (text), widget (QLabel, eqBand8Value)
 #. i18n: ectx: property (text), widget (QLabel, eqBand9Value)
+#. i18n: ectx: property (text), widget (QLabel, qLabel_collection)
+#. i18n: ectx: property (text), widget (QLabel, qLabel_length)
+#. i18n: ectx: property (text), widget (QLabel, qLabel_bitrate)
+#. i18n: ectx: property (text), widget (QLabel, qLabel_samplerate)
+#. i18n: ectx: property (text), widget (QLabel, qLabel_size)
+#. i18n: ectx: property (text), widget (QLabel, qLabel_playcount)
 #: core/support/Amarok.cpp:135 dialogs/EqualizerDialog.ui:122
 #: dialogs/EqualizerDialog.ui:132 dialogs/EqualizerDialog.ui:142
 #: dialogs/EqualizerDialog.ui:152 dialogs/EqualizerDialog.ui:162
 #: dialogs/EqualizerDialog.ui:172 dialogs/EqualizerDialog.ui:182
 #: dialogs/EqualizerDialog.ui:192 dialogs/EqualizerDialog.ui:202
 #: dialogs/EqualizerDialog.ui:212 dialogs/EqualizerDialog.ui:222
-#: dialogs/TagDialogBase.ui:176 dialogs/TagDialogBase.ui:208
-#: dialogs/TagDialogBase.ui:240 dialogs/TagDialogBase.ui:272
-#: dialogs/TagDialogBase.ui:336 dialogs/TagDialogBase.ui:428
+#: dialogs/TagDialogBase.ui:113 dialogs/TagDialogBase.ui:183
+#: dialogs/TagDialogBase.ui:209 dialogs/TagDialogBase.ui:235
+#: dialogs/TagDialogBase.ui:261 dialogs/TagDialogBase.ui:380
 msgid "0"
 msgstr "0"
 
@@ -9119,7 +9120,7 @@ msgid "Collapse Chosen"
 msgstr "Vê alavê tengtir bike"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, MusicBrainzTagger)
-#: dialogs/MusicBrainzTagger.ui:12 dialogs/TagDialog.cpp:1384
+#: dialogs/MusicBrainzTagger.ui:12 dialogs/TagDialog.cpp:1402
 #, fuzzy
 #| msgid "MusicBrainz Lookup"
 msgid "MusicBrainz Tagger"
@@ -9144,7 +9145,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, pushButton_cancel)
 #. i18n: ectx: property (text), widget (QPushButton, cancelButton)
-#: dialogs/MusicBrainzTagger.ui:68 dialogs/TagDialogBase.ui:1186
+#: dialogs/MusicBrainzTagger.ui:68 dialogs/TagDialogBase.ui:1146
 #: services/magnatune/MagnatuneRedownloadDialogBase.ui:36
 msgid "&Cancel"
 msgstr "&Betal"
@@ -9481,21 +9482,21 @@ msgstr "Derbirîna bi pergal"
 msgid "Character string"
 msgstr ""
 
-#: dialogs/TagDialog.cpp:501
+#: dialogs/TagDialog.cpp:502
 msgid "Tags"
 msgstr "Etîket"
 
-#: dialogs/TagDialog.cpp:657 dialogs/TagDialog.cpp:665
+#: dialogs/TagDialog.cpp:658 dialogs/TagDialog.cpp:666
 msgctxt "The value for this tag is not known"
 msgid "Unknown"
 msgstr "Nenas"
 
-#: dialogs/TagDialog.cpp:702
+#: dialogs/TagDialog.cpp:703
 #, kde-format
 msgid "Track Details: %1 by %2"
 msgstr "Kitekitên Stranê: %1 alî yê %2"
 
-#: dialogs/TagDialog.cpp:708
+#: dialogs/TagDialog.cpp:709
 #, kde-format
 msgctxt "The amount of tracks being edited"
 msgid "1 Track"
@@ -9503,46 +9504,51 @@ msgid_plural "Information for %1 Tracks"
 msgstr[0] "1 Track"
 msgstr[1] "Agahî ji bo %1 Stranan"
 
-#: dialogs/TagDialog.cpp:737 dialogs/TagDialog.cpp:747
+#: dialogs/TagDialog.cpp:738 dialogs/TagDialog.cpp:748
 #, kde-format
 msgid "<b>%1</b> by <b>%2</b>"
 msgstr "<b>%1</b> alî yê <b>%2</b>"
 
-#: dialogs/TagDialog.cpp:739 dialogs/TagDialog.cpp:749
+#: dialogs/TagDialog.cpp:740 dialogs/TagDialog.cpp:750
 #, kde-format
 msgid "<b>%1</b>"
 msgstr "<b>%1</b>"
 
-#: dialogs/TagDialog.cpp:745
+#: dialogs/TagDialog.cpp:746
 #, kde-format
 msgid "<b>%1</b> by <b>%2</b> on <b>%3</b>"
 msgstr "<b>%1</b> alî yê <b>%2</b> di <b>%3</b> de"
 
-#: dialogs/TagDialog.cpp:755
+#: dialogs/TagDialog.cpp:756
 #, kde-format
 msgid "Editing 1 file"
 msgid_plural "Editing %1 files"
 msgstr[0] "1 pel tê guherandin"
 msgstr[1] "%1 pel tên guherandin"
 
-#: dialogs/TagDialog.cpp:787
+#: dialogs/TagDialog.cpp:788
 #, fuzzy
 #| msgid "Never"
 msgctxt "When this track first played"
 msgid "Never"
 msgstr "Ti car"
 
-#: dialogs/TagDialog.cpp:792
+#: dialogs/TagDialog.cpp:793
 msgctxt "When this track was last played"
 msgid "Never"
 msgstr "Tu car"
 
-#: dialogs/TagDialog.cpp:796
+#: dialogs/TagDialog.cpp:797
 msgctxt "The collection this track is part of"
 msgid "None"
 msgstr "Ne Yek Jî"
 
-#: dialogs/TagDialog.cpp:1328
+#: dialogs/TagDialog.cpp:963
+#, kde-format
+msgid "The track is not playable. %1"
+msgstr ""
+
+#: dialogs/TagDialog.cpp:1346
 msgid ""
 "Writing to file failed. Please check permissions and available disc space."
 msgstr ""
@@ -9557,229 +9563,226 @@ msgstr "Agahiyên Stranê"
 msgid "S&ummary"
 msgstr "K&urtebêj"
 
-#. i18n: ectx: property (text), widget (QLabel, trackArtistAlbumLabel)
-#: dialogs/TagDialogBase.ui:71
-msgid "Track by Artist on Album"
-msgstr "Stran bi Hunermendê di Album de"
-
 #. i18n: ectx: property (text), widget (QLabel, leftHeaderLabel)
-#: dialogs/TagDialogBase.ui:119
+#: dialogs/TagDialogBase.ui:135
 #, fuzzy
 #| msgid "Proportion:"
 msgid "Properties"
 msgstr "Rêje kirin:"
 
 #. i18n: ectx: property (text), widget (QLabel, rightHeaderLabel)
-#: dialogs/TagDialogBase.ui:144
+#: dialogs/TagDialogBase.ui:157
 msgid "Statistics"
 msgstr "Statistîk"
 
 #. i18n: ectx: property (text), widget (QLabel, lenghtLabel)
-#: dialogs/TagDialogBase.ui:157
+#: dialogs/TagDialogBase.ui:167
 msgid "Length:"
 msgstr "Mawe:"
 
 #. i18n: ectx: property (text), widget (QLabel, bitrateLabel)
-#: dialogs/TagDialogBase.ui:189
+#: dialogs/TagDialogBase.ui:193
 #, fuzzy
 #| msgid "Bitrate:"
 msgid "Bit rate:"
 msgstr "Leza bit:"
 
 #. i18n: ectx: property (text), widget (QLabel, samplerateLabel)
-#: dialogs/TagDialogBase.ui:221
+#: dialogs/TagDialogBase.ui:219
 #, fuzzy
 #| msgid "Samplerate:"
 msgid "Sample rate:"
 msgstr "Leza Mînak:"
 
 #. i18n: ectx: property (text), widget (QLabel, sizeLabel)
-#: dialogs/TagDialogBase.ui:253
+#: dialogs/TagDialogBase.ui:245
 msgid "Size:"
 msgstr "Mezinahî:"
 
 #. i18n: ectx: property (text), widget (QLabel, formatLabel)
-#: dialogs/TagDialogBase.ui:285
+#: dialogs/TagDialogBase.ui:271
 msgid "Format:"
 msgstr "Teşe:"
 
-#. i18n: ectx: property (text), widget (QLabel, qLabel_format)
-#: dialogs/TagDialogBase.ui:304
-msgid "mp3"
-msgstr ""
-
 #. i18n: ectx: property (text), widget (QLabel, collectionLabel)
-#: dialogs/TagDialogBase.ui:317
+#: dialogs/TagDialogBase.ui:297
 msgid "Collection:"
 msgstr "Berhevok:"
 
 #. i18n: ectx: property (text), widget (QLabel, ratingLabel)
-#: dialogs/TagDialogBase.ui:365
+#: dialogs/TagDialogBase.ui:323
 msgid "Rating:"
 msgstr "Ecibandin:"
 
 #. i18n: ectx: property (text), widget (QLabel, playcountLabel)
-#: dialogs/TagDialogBase.ui:403
+#: dialogs/TagDialogBase.ui:358
 #, fuzzy
 #| msgid "Play count"
 msgid "Play count:"
 msgstr "Hejmara lêdanan"
 
 #. i18n: ectx: property (text), widget (QLabel, scoreLabel)
-#: dialogs/TagDialogBase.ui:441
+#: dialogs/TagDialogBase.ui:390
 msgid "Score:"
 msgstr "Rewş:"
 
 #. i18n: ectx: property (text), widget (QLabel, firstPlayedLabel)
-#: dialogs/TagDialogBase.ui:457
+#: dialogs/TagDialogBase.ui:403
 #, fuzzy
 #| msgid "First Played:"
 msgid "First played:"
 msgstr "Lêdana Pêşîn:"
 
 #. i18n: ectx: property (text), widget (QLabel, lastPlayedLabel)
-#: dialogs/TagDialogBase.ui:495
+#: dialogs/TagDialogBase.ui:435
 #, fuzzy
 #| msgid "Last played"
 msgid "Last played:"
 msgstr "Yê dawî hatiye lêdan"
 
+#. i18n: ectx: property (text), widget (QLabel, noteLabel)
+#: dialogs/TagDialogBase.ui:467
+#, fuzzy
+#| msgid "None"
+msgid "Note:"
+msgstr "Ne yek jî"
+
 #. i18n: ectx: attribute (title), widget (QWidget, tagsTab)
-#: dialogs/TagDialogBase.ui:549
+#: dialogs/TagDialogBase.ui:509
 msgid "Ta&gs"
 msgstr "Et&îket"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: dialogs/TagDialogBase.ui:555
+#: dialogs/TagDialogBase.ui:515
 msgid "T&itle:"
 msgstr "S&ernav:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
-#: dialogs/TagDialogBase.ui:581
+#: dialogs/TagDialogBase.ui:541
 msgid "&Artist:"
 msgstr "&Hunermend:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_3_2)
-#: dialogs/TagDialogBase.ui:613
+#: dialogs/TagDialogBase.ui:573
 msgid "&Composer:"
 msgstr "&Awazsaz:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel_albumArtist)
-#: dialogs/TagDialogBase.ui:642
+#: dialogs/TagDialogBase.ui:602
 #, fuzzy
 #| msgid "Album artist"
 msgid "Album artist:"
 msgstr "Hunermendê albumê"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
-#: dialogs/TagDialogBase.ui:665
+#: dialogs/TagDialogBase.ui:625
 msgid "Al&bum:"
 msgstr "Al&bum:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_6_6)
-#: dialogs/TagDialogBase.ui:703
+#: dialogs/TagDialogBase.ui:663
 #, fuzzy
 #| msgid "Track Number"
 msgid "Trac&k number:"
 msgstr "Hejmara Stranê"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_4)
-#: dialogs/TagDialogBase.ui:741
+#: dialogs/TagDialogBase.ui:701
 msgid "&Genre:"
 msgstr "&Teşe:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_3_2_2)
-#: dialogs/TagDialogBase.ui:779
+#: dialogs/TagDialogBase.ui:739
 #, fuzzy
 #| msgid "&Disc Number:"
 msgid "&Disc number:"
 msgstr "Hejmara &Dîskê:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_5)
-#: dialogs/TagDialogBase.ui:814
+#: dialogs/TagDialogBase.ui:774
 msgid "&Year:"
 msgstr "&Sal:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel_BPM)
-#: dialogs/TagDialogBase.ui:855
+#: dialogs/TagDialogBase.ui:815
 msgid "B&eats per minute:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel_comment)
-#: dialogs/TagDialogBase.ui:884
+#: dialogs/TagDialogBase.ui:844
 msgid "Co&mment:"
 msgstr "Şî&rove:"
 
 #. i18n: ectx: property (text), widget (QPushButton, pushButton_musicbrainz)
-#: dialogs/TagDialogBase.ui:915
+#: dialogs/TagDialogBase.ui:875
 #, fuzzy
 #| msgid "Guess Tags From &Filename"
 msgid "Get Tags from MusicBrain&z"
 msgstr "Etîketên Jê &Navê-pelan Texmîn Bike"
 
 #. i18n: ectx: property (text), widget (QPushButton, pushButton_guessTags)
-#: dialogs/TagDialogBase.ui:928
+#: dialogs/TagDialogBase.ui:888
 #, fuzzy
 #| msgid "Guess Tags From &Filename"
 msgid "Guess Tags from &Filename"
 msgstr "Etîketên Jê &Navê-pelan Texmîn Bike"
 
 #. i18n: ectx: attribute (title), widget (QWidget, lyricsTab)
-#: dialogs/TagDialogBase.ui:936
+#: dialogs/TagDialogBase.ui:896
 msgid "L&yrics"
 msgstr "G&otinên Stranê"
 
 #. i18n: ectx: attribute (title), widget (QWidget, labelsTab)
-#: dialogs/TagDialogBase.ui:953
+#: dialogs/TagDialogBase.ui:913
 msgid "La&bels"
 msgstr "E&tîket"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: dialogs/TagDialogBase.ui:969
+#: dialogs/TagDialogBase.ui:929
 #, fuzzy
 #| msgid "Label"
 msgid "Label:"
 msgstr "Etîket"
 
 #. i18n: ectx: property (toolTip), widget (KComboBox, kComboBox_label)
-#: dialogs/TagDialogBase.ui:985
+#: dialogs/TagDialogBase.ui:945
 msgid "Insert your custom label here or select one from the list."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: dialogs/TagDialogBase.ui:1016
+#: dialogs/TagDialogBase.ui:976
 msgid "Custom labels for this item:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, removeButton)
-#: dialogs/TagDialogBase.ui:1061
+#: dialogs/TagDialogBase.ui:1021
 msgid "Remove"
 msgstr "Rake"
 
 #. i18n: ectx: property (text), widget (QLabel, locationLabel)
-#: dialogs/TagDialogBase.ui:1090
+#: dialogs/TagDialogBase.ui:1050
 msgid "Location:"
 msgstr "Cih:"
 
 #. i18n: ectx: property (text), widget (QPushButton, pushButton_previous)
-#: dialogs/TagDialogBase.ui:1133 playlist/ProgressiveSearchWidget.cpp:64
+#: dialogs/TagDialogBase.ui:1093 playlist/ProgressiveSearchWidget.cpp:64
 msgid "&Previous"
 msgstr "&Paşde"
 
 #. i18n: ectx: property (text), widget (QPushButton, pushButton_next)
-#: dialogs/TagDialogBase.ui:1143 playlist/ProgressiveSearchWidget.cpp:61
+#: dialogs/TagDialogBase.ui:1103 playlist/ProgressiveSearchWidget.cpp:61
 msgid "&Next"
 msgstr "&Pêşve"
 
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_perTrack)
-#: dialogs/TagDialogBase.ui:1150
+#: dialogs/TagDialogBase.ui:1110
 #, fuzzy
 #| msgid "Per Trac&k"
 msgid "Per trac&k"
 msgstr "Serê Stran&ê"
 
 #. i18n: ectx: property (text), widget (QPushButton, pushButton_ok)
-#: dialogs/TagDialogBase.ui:1173
+#: dialogs/TagDialogBase.ui:1133
 msgid "Sa&ve && Close"
 msgstr "To&mar Bike && Bigire "
 
@@ -16152,6 +16155,10 @@ msgstr ""
 msgid "ERROR: unknown message"
 msgstr "ÇEWTÎ: peyama nenas"
 
+#: services/ServiceMetaBase.cpp:247
+msgid "Neither playable nor downloadable url specified."
+msgstr ""
+
 #: services/ServicePluginManager.cpp:161 services/ServicePluginManager.cpp:178
 #: services/ServicePluginManager.cpp:195
 #, kde-format
@@ -17259,6 +17266,9 @@ msgstr ""
 #| msgid "Volume: %1%"
 msgid "Volume: %1%"
 msgstr "Deng: %1%"
+
+#~ msgid "Track by Artist on Album"
+#~ msgstr "Stran bi Hunermendê di Album de"
 
 #~ msgid "Downloading Playlist"
 #~ msgstr "Lîsteya Lêdanê Daxistin"
