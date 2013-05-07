@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-05-06 03:09+0200\n"
+"POT-Creation-Date: 2013-05-07 03:17+0200\n"
 "PO-Revision-Date: 2009-02-21 06:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -257,7 +257,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, labelName)
 #. i18n: ectx: property (text), widget (QTableWidget, serverList)
 #: aboutdialog/OcsPersonItem.ui:137 amarokurls/BookmarkModel.cpp:261
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:419
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:397
 #: network/NetworkRequests.ui:89 network/NetworkRequests.ui:103
 #: playlistgenerator/TreeModel.cpp:64
 #: services/amazon/AmazonItemTreeModel.cpp:168
@@ -1504,15 +1504,15 @@ msgid "Add Position Marker"
 msgstr ""
 
 #: amarokurls/BookmarkModel.cpp:86
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:420
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:398
 #, fuzzy
 #| msgid "Group By"
 msgid "Group"
 msgstr "Kom Alî yê"
 
 #: amarokurls/BookmarkModel.cpp:262
-#: browsers/playlistbrowser/PodcastModel.cpp:299
-#: playlist/PlaylistModel.cpp:923
+#: browsers/playlistbrowser/PodcastModel.cpp:300
+#: playlist/PlaylistModel.cpp:920
 msgid "Type"
 msgstr "Cure"
 
@@ -1904,20 +1904,20 @@ msgstr ""
 msgid "Sort Options"
 msgstr "Vebijêrkan Rêz Bike"
 
-#: browsers/CollectionTreeItem.cpp:142
+#: browsers/CollectionTreeItem.cpp:141
 #, fuzzy
 #| msgid "Labels"
 msgctxt "No labels are assigned to the given item are any of its subitems"
 msgid "No Labels"
 msgstr "Etîket"
 
-#: browsers/CollectionTreeItem.cpp:150
+#: browsers/CollectionTreeItem.cpp:149
 #, fuzzy
 #| msgid "Connection"
 msgid "Counting..."
 msgstr "Girêdan"
 
-#: browsers/CollectionTreeItem.cpp:177
+#: browsers/CollectionTreeItem.cpp:176
 #: playlist/proxymodels/GroupingProxy.cpp:188
 #, fuzzy, kde-format
 #| msgid "%1 track"
@@ -1953,7 +1953,7 @@ msgstr "Sal - Album "
 #: context/applets/albums/AlbumsView.cpp:256
 #: context/applets/wikipedia/WikipediaApplet.cpp:631
 #: dialogs/transferdialog.cpp:89 musicbrainz/MusicBrainzTagsModel.cpp:38
-#: playlist/PlaylistModel.cpp:916 playlist/view/PlaylistViewCommon.cpp:64
+#: playlist/PlaylistModel.cpp:913 playlist/view/PlaylistViewCommon.cpp:64
 #: services/jamendo/JamendoInfoParser.cpp:83
 #: services/magnatune/MagnatuneStore.cpp:224
 #: widgets/SmartPlaylistEditor.cpp:183 widgets/SmartPlaylistEditor.cpp:197
@@ -1965,7 +1965,7 @@ msgstr "Album"
 #: context/applets/tabs/ReloadEditDialog.ui:73
 #: context/applets/wikipedia/WikipediaApplet.cpp:619
 #: dialogs/transferdialog.cpp:88 musicbrainz/MusicBrainzTagsModel.cpp:37
-#: playlist/PlaylistModel.cpp:912 services/amazon/AmazonInfoParser.cpp:157
+#: playlist/PlaylistModel.cpp:909 services/amazon/AmazonInfoParser.cpp:157
 #: services/jamendo/JamendoInfoParser.cpp:51
 #: services/lastfm/LastFmService.cpp:466
 #: services/magnatune/MagnatuneStore.cpp:218
@@ -1975,25 +1975,25 @@ msgstr "Hunermend"
 
 #. i18n: ectx: property (text), widget (QLabel, label_29)
 #: browsers/CollectionTreeItemModelBase.cpp:975 dialogs/TagGuessOptions.ui:253
-#: musicbrainz/MusicBrainzTagsModel.cpp:39 playlist/PlaylistModel.cpp:913
+#: musicbrainz/MusicBrainzTagsModel.cpp:39 playlist/PlaylistModel.cpp:910
 msgid "Album Artist"
 msgstr "Hunermendê Albumê "
 
 #: browsers/CollectionTreeItemModelBase.cpp:976
 #: context/applets/wikipedia/WikipediaApplet.cpp:625
-#: playlist/PlaylistModel.cpp:914 widgets/SmartPlaylistEditor.cpp:183
+#: playlist/PlaylistModel.cpp:911 widgets/SmartPlaylistEditor.cpp:183
 #: widgets/SmartPlaylistEditor.cpp:197
 msgid "Composer"
 msgstr "Bestekar"
 
 #: browsers/CollectionTreeItemModelBase.cpp:977 dialogs/transferdialog.cpp:90
-#: playlist/PlaylistModel.cpp:920 playlist/ProgressiveSearchWidget.cpp:93
+#: playlist/PlaylistModel.cpp:917 playlist/ProgressiveSearchWidget.cpp:93
 #: widgets/SmartPlaylistEditor.cpp:183 widgets/SmartPlaylistEditor.cpp:197
 msgid "Genre"
 msgstr "Cûre"
 
 #: browsers/CollectionTreeItemModelBase.cpp:978
-#: musicbrainz/MusicBrainzTagsModel.cpp:40 playlist/PlaylistModel.cpp:915
+#: musicbrainz/MusicBrainzTagsModel.cpp:40 playlist/PlaylistModel.cpp:912
 #: widgets/SmartPlaylistEditor.cpp:184 widgets/SmartPlaylistEditor.cpp:197
 #: widgets/SmartPlaylistEditor.cpp:921
 msgid "Year"
@@ -2033,7 +2033,7 @@ msgid "More..."
 msgstr "Zêdetir..."
 
 #: browsers/CollectionTreeView.cpp:863 browsers/filebrowser/FileView.cpp:381
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:50
+#: browsers/playlistbrowser/PlaylistBrowserView.cpp:72
 #: context/applets/albums/AlbumsView.cpp:241
 #: services/lastfm/LastFmTreeView.cpp:97
 #, fuzzy
@@ -2042,7 +2042,7 @@ msgid "&Add to Playlist"
 msgstr "lîsteya lêdanê"
 
 #: browsers/CollectionTreeView.cpp:877 browsers/filebrowser/FileView.cpp:394
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:61
+#: browsers/playlistbrowser/PlaylistBrowserView.cpp:79
 #: context/applets/albums/AlbumsView.cpp:242
 #: services/lastfm/LastFmTreeView.cpp:106
 #, fuzzy
@@ -2389,13 +2389,7 @@ msgctxt "default name for new folder"
 msgid "New Folder"
 msgstr "Peldank"
 
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:45
-#, fuzzy
-#| msgid "Create Smart Playlist"
-msgid "Create empty playlist"
-msgstr "Lîsteya Lêdanê ya Biaqil Çêke"
-
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:145
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:123
 #, fuzzy, kde-format
 #| msgid "Playlist"
 msgctxt "number of playlists from one source"
@@ -2404,14 +2398,14 @@ msgid_plural "%1 playlists"
 msgstr[0] "Lîsteya Lêdanê"
 msgstr[1] "Lîsteya Lêdanê"
 
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:150
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:128
 #, fuzzy
 #| msgid "Rating"
 msgctxt "normally number of playlists, but they are still loading"
 msgid "Loading..."
 msgstr "Nirxandin"
 
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:194
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:171
 #, fuzzy, kde-format
 #| msgid "Playlist"
 msgctxt "number of playlists from one source"
@@ -2420,11 +2414,91 @@ msgid_plural "%1 playlists"
 msgstr[0] "Lîsteya Lêdanê"
 msgstr[1] "Lîsteya Lêdanê"
 
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:421
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:399
 #, fuzzy
 #| msgid "Source"
 msgid "Source"
 msgstr "Çavkanî"
+
+#: browsers/playlistbrowser/PlaylistBrowserView.cpp:68
+#, fuzzy
+#| msgid "Create Smart Playlist"
+msgid "Create an Empty Playlist"
+msgstr "Lîsteya Lêdanê ya Biaqil Çêke"
+
+#: browsers/playlistbrowser/PlaylistBrowserView.cpp:84
+#, fuzzy
+#| msgid "&Next"
+msgctxt "toggle the \"new\" status  of this podcast episode"
+msgid "&New"
+msgstr "&Pêşve"
+
+#: browsers/playlistbrowser/PlaylistBrowserView.cpp:90
+#, fuzzy
+#| msgid "&Rename"
+msgid "&Rename..."
+msgstr "&Nav biguhere"
+
+#: browsers/playlistbrowser/PlaylistBrowserView.cpp:97
+#, fuzzy
+#| msgid "&Delete"
+msgid "&Delete..."
+msgstr "&Jê bibe"
+
+#: browsers/playlistbrowser/PlaylistBrowserView.cpp:111
+#, fuzzy
+#| msgid "&Export Playlist As..."
+msgid "&Export As..."
+msgstr "Lîsteya lêdanê Cuda &Derxîne Derve"
+
+#: browsers/playlistbrowser/PlaylistBrowserView.cpp:377
+#, fuzzy, kde-format
+#| msgid "Remove From Playlist"
+msgctxt "Number of playlists is >= 2"
+msgid "Remove a Track From %2 Playlists"
+msgid_plural "Remove %1 Tracks From %2 Playlists"
+msgstr[0] "Jê Lîsteya Lêdanê Rake"
+msgstr[1] "Jê Lîsteya Lêdanê Rake"
+
+#: browsers/playlistbrowser/PlaylistBrowserView.cpp:381
+#, fuzzy, kde-format
+#| msgid "Deleting Tracks from iPod"
+msgctxt "%2 is saved playlist name"
+msgid "Remove a Track From %2"
+msgid_plural "Remove %1 Tracks From %2"
+msgstr[0] "Stranan Jê iPod Dibe"
+msgstr[1] "Stranan Jê iPod Dibe"
+
+#: browsers/playlistbrowser/PlaylistBrowserView.cpp:472
+#, fuzzy
+#| msgid "Configure Playlist Info Applet"
+msgid "Confirm Playlist Deletion"
+msgstr "Sepanoka Agahiyên Lîsteya Lêdanê Veava Bike"
+
+#: browsers/playlistbrowser/PlaylistBrowserView.cpp:474
+#, fuzzy, kde-format
+#| msgctxt "@info"
+#| msgid "Do you really want to delete these %1 tracks?"
+msgid "Are you sure you want to delete this playlist?"
+msgid_plural "Are you sure you want to delete these %1 playlists?"
+msgstr[0] "Tu bi rastî dixwazî wan stranên %1 jê bibî?"
+msgstr[1] "Tu bi rastî dixwazî wan stranên %1 jê bibî?"
+
+#: browsers/playlistbrowser/PlaylistBrowserView.cpp:479
+#, fuzzy, kde-format
+#| msgid "Delete Files"
+msgctxt "%1 is playlist provider pretty name"
+msgid "Yes, delete from %1."
+msgstr "Pelan Jê Bibe"
+
+#: browsers/playlistbrowser/PlaylistBrowserView.cpp:517 MainWindow.cpp:492
+msgid "Use relative path for &saving"
+msgstr "Pelrêça têkîldar bi kar bîne ji bo &tomarkirinê"
+
+#: browsers/playlistbrowser/PlaylistBrowserView.cpp:531
+#: covermanager/CoverFoundDialog.cpp:361 MainWindow.cpp:506
+msgid "Save As"
+msgstr "Cuda Tomar Bike"
 
 #: browsers/playlistbrowser/PlaylistsInFoldersProxy.cpp:37
 #, fuzzy
@@ -2450,9 +2524,7 @@ msgid "Enter new folder name:"
 msgstr "Navê koma nû têkevê:"
 
 #: browsers/playlistbrowser/PlaylistsInFoldersProxy.cpp:338
-#: core-impl/collections/umscollection/podcasts/UmsPodcastProvider.cpp:255
-#: core-impl/playlists/providers/user/UserPlaylistProvider.cpp:152
-#: playlistmanager/sql/SqlUserPlaylistProvider.cpp:98
+#: core-impl/collections/umscollection/podcasts/UmsPodcastProvider.cpp:250
 #, fuzzy
 #| msgid "Configure Playback"
 msgid "Confirm Delete"
@@ -2559,15 +2631,8 @@ msgstr "Postcast an Veava Bike..."
 msgid "Scan Interval..."
 msgstr "Navbera Venihartinê..."
 
-#: browsers/playlistbrowser/PodcastModel.cpp:74
-#, fuzzy
-#| msgid "&Next"
-msgctxt "toggle the \"new\" status of this podcast episode"
-msgid "&New"
-msgstr "&Pêşve"
-
-#: browsers/playlistbrowser/PodcastModel.cpp:206
-#: browsers/playlistbrowser/PodcastModel.cpp:258
+#: browsers/playlistbrowser/PodcastModel.cpp:197
+#: browsers/playlistbrowser/PodcastModel.cpp:249
 #, fuzzy, kde-format
 #| msgid "&Update All"
 msgctxt "number of podcasts from one source"
@@ -2577,24 +2642,24 @@ msgstr[0] "Hemû yan &Rojane Bike"
 msgstr[1] "Hemû yan &Rojane Bike"
 
 #. i18n: ectx: property (text), widget (QLabel, titleLabel)
-#: browsers/playlistbrowser/PodcastModel.cpp:300
+#: browsers/playlistbrowser/PodcastModel.cpp:301
 #: context/applets/tabs/ReloadEditDialog.ui:86
-#: musicbrainz/MusicBrainzTagsModel.cpp:36 playlist/PlaylistModel.cpp:911
+#: musicbrainz/MusicBrainzTagsModel.cpp:36 playlist/PlaylistModel.cpp:908
 #: widgets/SmartPlaylistEditor.cpp:183
 msgid "Title"
 msgstr "Sernav"
 
-#: browsers/playlistbrowser/PodcastModel.cpp:301 dialogs/TagDialog.cpp:501
+#: browsers/playlistbrowser/PodcastModel.cpp:302 dialogs/TagDialog.cpp:501
 msgid "Summary"
 msgstr "Kurte"
 
-#: browsers/playlistbrowser/PodcastModel.cpp:321
+#: browsers/playlistbrowser/PodcastModel.cpp:322
 #, fuzzy
 #| msgid "&Add Podcast"
 msgid "Add Podcast"
 msgstr "Podcast &Lê Zêde Bike"
 
-#: browsers/playlistbrowser/PodcastModel.cpp:322
+#: browsers/playlistbrowser/PodcastModel.cpp:323
 #, fuzzy
 #| msgid "Enter Stream URL:"
 msgid "Enter RSS 1.0/2.0 or Atom feed URL:"
@@ -3607,12 +3672,12 @@ msgid "Tracks"
 msgstr "Stran"
 
 #: context/applets/currenttrack/CurrentTrack.cpp:445
-#: playlist/PlaylistModel.cpp:929
+#: playlist/PlaylistModel.cpp:926
 msgid "Play Count"
 msgstr "Hejmara Lêdanan"
 
 #: context/applets/currenttrack/CurrentTrack.cpp:446
-#: playlist/PlaylistModel.cpp:927 widgets/SmartPlaylistEditor.cpp:185
+#: playlist/PlaylistModel.cpp:924 widgets/SmartPlaylistEditor.cpp:185
 msgid "Score"
 msgstr "Skor"
 
@@ -5373,7 +5438,7 @@ msgstr "Berhevok"
 msgid "Unknown track"
 msgstr "Strana nenas"
 
-#: core-impl/collections/ipodcollection/IpodPlaylistProvider.cpp:330
+#: core-impl/collections/ipodcollection/IpodPlaylistProvider.cpp:313
 #, kde-format
 msgid ""
 "Failed to process one track. (more info about it is in the Amarok debugging "
@@ -5384,7 +5449,7 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: core-impl/collections/ipodcollection/IpodPlaylistProvider.cpp:335
+#: core-impl/collections/ipodcollection/IpodPlaylistProvider.cpp:318
 #, kde-format
 msgctxt ""
 "Infrequently displayed message, don't bother with singlar forms. %1 to %3 "
@@ -5846,19 +5911,7 @@ msgstr[1] "Stranan Jê iPod Dibe"
 msgid "&Disconnect Device"
 msgstr "Cîhaza MTP &Jê Bavêje"
 
-#: core-impl/collections/mediadevicecollection/playlist/MediaDeviceUserPlaylistProvider.cpp:114
-#, fuzzy
-#| msgid "&Save Playlist"
-msgid "Change playlist"
-msgstr "Lîsteya Lêdanê &Tomar Bike"
-
-#: core-impl/collections/mediadevicecollection/playlist/MediaDeviceUserPlaylistProvider.cpp:115
-#, fuzzy
-#| msgid "Enter a name for the playlist:"
-msgid "Enter new name for playlist:"
-msgstr "Ji bo lîsteya lêdanê navekî binivîse:"
-
-#: core-impl/collections/mediadevicecollection/playlist/MediaDeviceUserPlaylistProvider.h:42
+#: core-impl/collections/mediadevicecollection/playlist/MediaDeviceUserPlaylistProvider.h:40
 #, fuzzy
 #| msgid "Media Devices"
 msgid "Media Device playlists"
@@ -6101,13 +6154,13 @@ msgstr "Stran"
 msgid "Moving to trash: %1"
 msgstr "Pelan bavêje sergo"
 
-#: core-impl/collections/umscollection/podcasts/UmsPodcastProvider.cpp:185
+#: core-impl/collections/umscollection/podcasts/UmsPodcastProvider.cpp:186
 #, fuzzy
 #| msgid "Delete Files"
 msgid "&Delete Episode"
 msgstr "Pelan Jê Bibe"
 
-#: core-impl/collections/umscollection/podcasts/UmsPodcastProvider.cpp:257
+#: core-impl/collections/umscollection/podcasts/UmsPodcastProvider.cpp:252
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid "Do you really want to delete these %1 tracks?"
@@ -6116,13 +6169,13 @@ msgid_plural "Are you sure you want to delete these %1 episodes?"
 msgstr[0] "Tu bi rastî dixwazî wan stranên %1 jê bibî?"
 msgstr[1] "Tu bi rastî dixwazî wan stranên %1 jê bibî?"
 
-#: core-impl/collections/umscollection/podcasts/UmsPodcastProvider.cpp:273
+#: core-impl/collections/umscollection/podcasts/UmsPodcastProvider.cpp:268
 #, kde-format
 msgid "Yes, delete from %1."
 msgstr ""
 
-#: core-impl/collections/umscollection/podcasts/UmsPodcastProvider.cpp:329
-#: services/gpodder/GpodderProvider.cpp:357
+#: core-impl/collections/umscollection/podcasts/UmsPodcastProvider.cpp:325
+#: services/gpodder/GpodderProvider.cpp:356
 #, fuzzy
 #| msgid "&Delete Downloaded Episode"
 msgid "&Delete Channel and Episodes"
@@ -6237,73 +6290,10 @@ msgid ""
 "try plugging in the device this track might be on."
 msgstr ""
 
-#: core-impl/meta/stream/Stream.cpp:54
+#: core-impl/meta/stream/Stream.cpp:52
 #, kde-format
 msgid "Stream (%1)"
 msgstr "Darêj (%1)"
-
-#: core-impl/playlists/providers/user/UserPlaylistProvider.cpp:40
-#, fuzzy
-#| msgid "&Delete"
-msgid "&Delete..."
-msgstr "&Jê bibe"
-
-#: core-impl/playlists/providers/user/UserPlaylistProvider.cpp:48
-#, fuzzy
-#| msgid "&Rename"
-msgid "&Rename..."
-msgstr "&Nav biguhere"
-
-#: core-impl/playlists/providers/user/UserPlaylistProvider.cpp:54
-#: MainWindow.cpp:802
-msgid "&Export Playlist As..."
-msgstr "Lîsteya lêdanê Cuda &Derxîne Derve"
-
-#: core-impl/playlists/providers/user/UserPlaylistProvider.cpp:126
-#, fuzzy, kde-format
-#| msgid "Remove From Playlist"
-msgctxt "Number of playlists is >= 2"
-msgid "Remove a track from %2 playlists"
-msgid_plural "Remove %1 tracks from %2 playlists"
-msgstr[0] "Jê Lîsteya Lêdanê Rake"
-msgstr[1] "Jê Lîsteya Lêdanê Rake"
-
-#: core-impl/playlists/providers/user/UserPlaylistProvider.cpp:132
-#, fuzzy, kde-format
-#| msgid "Deleting Tracks from iPod"
-msgctxt "%2 is saved playlist name"
-msgid "Remove a track from %2"
-msgid_plural "Remove %1 tracks from %2"
-msgstr[0] "Stranan Jê iPod Dibe"
-msgstr[1] "Stranan Jê iPod Dibe"
-
-#: core-impl/playlists/providers/user/UserPlaylistProvider.cpp:154
-#: playlistmanager/sql/SqlUserPlaylistProvider.cpp:100
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid "Do you really want to delete these %1 tracks?"
-msgid "Are you sure you want to delete this playlist?"
-msgid_plural "Are you sure you want to delete these %1 playlists?"
-msgstr[0] "Tu bi rastî dixwazî wan stranên %1 jê bibî?"
-msgstr[1] "Tu bi rastî dixwazî wan stranên %1 jê bibî?"
-
-#: core-impl/playlists/providers/user/UserPlaylistProvider.cpp:161
-#: playlistmanager/sql/SqlUserPlaylistProvider.cpp:107
-#, fuzzy, kde-format
-#| msgid "Delete Files"
-msgctxt "%1 is playlist provider pretty name"
-msgid "Yes, delete from %1."
-msgstr "Pelan Jê Bibe"
-
-#: core-impl/playlists/providers/user/UserPlaylistProvider.cpp:196
-#: MainWindow.cpp:492
-msgid "Use relative path for &saving"
-msgstr "Pelrêça têkîldar bi kar bîne ji bo &tomarkirinê"
-
-#: core-impl/playlists/providers/user/UserPlaylistProvider.cpp:210
-#: covermanager/CoverFoundDialog.cpp:361 MainWindow.cpp:506
-msgid "Save As"
-msgstr "Cuda Tomar Bike"
 
 #: core-impl/playlists/types/file/PlaylistFileLoaderJob.cpp:68
 msgid "Could not create a temporary file to download playlist."
@@ -6505,72 +6495,68 @@ msgstr "Podcast"
 msgid "&Update All Channels"
 msgstr "Hemû yan &Rojane Bike"
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:297
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:295
 #, fuzzy
 #| msgid "Configure General Options"
 msgid "&Configure General Settings"
 msgstr "Bijare yên Giştî Veava Bike"
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:305
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:301
 msgid "&Export subscriptions to OPML file"
 msgstr ""
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:329
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:924
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:327
 msgid "&Configure"
 msgstr "&Veava Bike"
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:347
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:942
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:340
 msgid "&Remove Subscription"
 msgstr "Endamiyê &Rake "
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:369
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:963
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:349
 #, fuzzy
 #| msgid "&Update All"
 msgid "&Update Channel"
 msgstr "Hemû yan &Rojane Bike"
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:408
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:821
-msgid "&Delete Downloaded Episode"
-msgstr "Beşa (yê rêzefilmê) Daxistî &Jê Bibe"
-
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:420
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:833
-msgid "&Write Feed Information to File"
-msgstr ""
-
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:432
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:845
-#, fuzzy
-#| msgid "&Delete Downloaded Episode"
-msgctxt ""
-"toggle the \"keep\" downloaded file status of this podcast episode. Notice "
-"that downloaded files with this status wouldn't be deleted if we apply a "
-"purge."
-msgid "&Keep downloaded file"
-msgstr "Beşa (yê rêzefilmê) Daxistî &Jê Bibe"
-
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:461
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:894
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:385
 msgid "&Download Episode"
 msgstr "Beşa Rêzefilmê &Daxe"
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:504
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:393
+msgid "&Delete Downloaded Episode"
+msgstr "Beşa (yê rêzefilmê) Daxistî &Jê Bibe"
+
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:402
+msgid "&Write Feed Information to File"
+msgstr ""
+
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:410
+#, fuzzy
+#| msgid "&Delete Downloaded Episode"
+msgid "&Keep downloaded file"
+msgstr "Beşa (yê rêzefilmê) Daxistî &Jê Bibe"
+
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:411
+msgid ""
+"Toggle the \"keep\" downloaded file status of this podcast episode. "
+"Downloaded files with this status wouldn't be deleted even if we apply a "
+"purge."
+msgstr ""
+
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:477
 #, kde-format
 msgid "Already subscribed to %1."
 msgstr "Jixwe endamê %1 ê ye."
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:633
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:606
 #, fuzzy
 #| msgid "Never"
 msgctxt "prefix to 'x minutes'"
 msgid "every "
 msgstr "Ti car"
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:634
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:607
 #, fuzzy
 #| msgid "Minutes"
 msgid " minute"
@@ -6578,70 +6564,70 @@ msgid_plural " minutes"
 msgstr[0] "Xulekan"
 msgstr[1] "Xulekan"
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:643
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:616
 #, fuzzy
 #| msgid "Configure Podcasts..."
 msgid "Configure Local Podcasts"
 msgstr "Postcast an Veava Bike..."
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:663
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:636
 #, fuzzy
 #| msgid "Podcasts"
 msgid "Move Podcasts"
 msgstr "Podcast"
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:667
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:640
 msgid "Do you want to move all downloaded episodes to the new location?"
 msgstr ""
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:736
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:709
 msgid "Select file for OPML export"
 msgstr ""
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1055
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:855
 #, fuzzy
 #| msgid "Subscribe"
 msgid "Unsubscribe"
 msgstr "Bibe Abone"
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1059
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:859
 #, fuzzy, kde-format
 #| msgid "Do you really want to remove this %1?"
 msgid "Do you really want to unsubscribe from \"%1\"?"
 msgstr "Ji dil dixwazî vê %1 jê bibî?"
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1064
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:864
 #, fuzzy
 #| msgid "&Delete Downloaded Episode"
 msgid "Delete downloaded episodes"
 msgstr "Beşa (yê rêzefilmê) Daxistî &Jê Bibe"
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1189
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:989
 msgid "Waiting for Podcast Downloads to Finish"
 msgstr ""
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1190
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:990
 #, kde-format
 msgid "There is still a podcast download in progress"
 msgid_plural "There are still %1 podcast downloads in progress"
 msgstr[0] ""
 msgstr[1] ""
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1194
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:994
 msgid "Cancel Download and Quit."
 msgstr ""
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1371
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1616
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1171
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1416
 #, kde-format
 msgid "Unable to save podcast episode file to %1"
 msgstr "Nekarî beşa ji torê tê anîn tomar bike di pela %1 de"
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1381
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1181
 msgid "Downloading Podcast Media"
 msgstr "Medya ya Podcast Tê Daxistin"
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1382
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1182
 #, kde-format
 msgid "Downloading Podcast \"%1\""
 msgstr "Podcasta \"%1\" Tê Daxistin"
@@ -10319,34 +10305,34 @@ msgstr ""
 msgid "Replacement for bias %1"
 msgstr "Mîhengên %1"
 
-#: dynamic/DynamicModel.cpp:792
+#: dynamic/DynamicModel.cpp:780
 #, fuzzy
 #| msgid "Playlist name:"
 msgctxt "Default name for new playlists"
 msgid "New playlist"
 msgstr "Navê Lîsteya Lêdanê:"
 
-#: dynamic/DynamicModel.cpp:931
+#: dynamic/DynamicModel.cpp:919
 msgid "Rock and Pop"
 msgstr ""
 
-#: dynamic/DynamicModel.cpp:932 equalizer/EqualizerPresets.cpp:98
+#: dynamic/DynamicModel.cpp:920 equalizer/EqualizerPresets.cpp:98
 #, fuzzy
 #| msgid "ok"
 msgid "Rock"
 msgstr "erê"
 
-#: dynamic/DynamicModel.cpp:936 equalizer/EqualizerPresets.cpp:96
+#: dynamic/DynamicModel.cpp:924 equalizer/EqualizerPresets.cpp:96
 msgid "Pop"
 msgstr ""
 
-#: dynamic/DynamicModel.cpp:942
+#: dynamic/DynamicModel.cpp:930
 #, fuzzy
 #| msgid "Album Name"
 msgid "Album play"
 msgstr "Album"
 
-#: dynamic/DynamicModel.cpp:952
+#: dynamic/DynamicModel.cpp:940
 #, fuzzy
 #| msgid "Rating"
 msgctxt "Name of a dynamic playlist"
@@ -11659,6 +11645,10 @@ msgstr "Sepanok Rake"
 msgid "&Add Stream..."
 msgstr "Darêj &Lê zêde bike..."
 
+#: MainWindow.cpp:802
+msgid "&Export Playlist As..."
+msgstr "Lîsteya lêdanê Cuda &Derxîne Derve"
+
 #: MainWindow.cpp:814
 msgid "Equalizer"
 msgstr "Yeksanker "
@@ -11941,7 +11931,7 @@ msgid "Response"
 msgstr "Kîtekît"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, requestList)
-#: network/NetworkRequests.ui:56 playlist/PlaylistModel.cpp:924
+#: network/NetworkRequests.ui:56 playlist/PlaylistModel.cpp:921
 #: widgets/SmartPlaylistEditor.cpp:183
 msgid "Length"
 msgstr "Mawe"
@@ -11980,7 +11970,7 @@ msgstr "Kîtekît"
 msgid "Value"
 msgstr "Deng"
 
-#: OpmlParser.cpp:109
+#: OpmlParser.cpp:107
 #, fuzzy, kde-format
 #| msgid "Importing podcast channel from %1"
 msgid "Reading OPML podcast from %1 failed with error:\n"
@@ -12577,56 +12567,56 @@ msgstr ""
 msgid "No extra information available"
 msgstr "Ji bo vê skrîptê agahî tune ye"
 
-#: playlist/PlaylistModel.cpp:910
+#: playlist/PlaylistModel.cpp:907
 msgctxt "The name of the file this track is stored in"
 msgid "Filename"
 msgstr "Navê Pelê"
 
-#: playlist/PlaylistModel.cpp:917
+#: playlist/PlaylistModel.cpp:914
 msgid "Disc Number"
 msgstr "Hejmara Dîskê"
 
-#: playlist/PlaylistModel.cpp:918
+#: playlist/PlaylistModel.cpp:915
 msgctxt "The Track number for this item"
 msgid "Track"
 msgstr "Stran"
 
-#: playlist/PlaylistModel.cpp:919 widgets/SmartPlaylistEditor.cpp:187
+#: playlist/PlaylistModel.cpp:916 widgets/SmartPlaylistEditor.cpp:187
 msgid "BPM"
 msgstr "BPM"
 
-#: playlist/PlaylistModel.cpp:921 widgets/SmartPlaylistEditor.cpp:184
+#: playlist/PlaylistModel.cpp:918 widgets/SmartPlaylistEditor.cpp:184
 msgid "Comment"
 msgstr "Şîrove"
 
-#: playlist/PlaylistModel.cpp:922
+#: playlist/PlaylistModel.cpp:919
 msgctxt "The location on disc of this track"
 msgid "Directory"
 msgstr "Peldank"
 
-#: playlist/PlaylistModel.cpp:925 widgets/SmartPlaylistEditor.cpp:187
+#: playlist/PlaylistModel.cpp:922 widgets/SmartPlaylistEditor.cpp:187
 msgid "Bitrate"
 msgstr "Leza bit"
 
-#: playlist/PlaylistModel.cpp:926
+#: playlist/PlaylistModel.cpp:923
 msgid "Sample Rate"
 msgstr "Rêjeya Mînakkirinê"
 
-#: playlist/PlaylistModel.cpp:928 playlist/ProgressiveSearchWidget.cpp:107
+#: playlist/PlaylistModel.cpp:925 playlist/ProgressiveSearchWidget.cpp:107
 #: widgets/SmartPlaylistEditor.cpp:185
 msgid "Rating"
 msgstr "Nirxandin"
 
-#: playlist/PlaylistModel.cpp:930
+#: playlist/PlaylistModel.cpp:927
 msgctxt "Column name"
 msgid "Last Played"
 msgstr "Lêdana Dawî"
 
-#: playlist/PlaylistModel.cpp:931
+#: playlist/PlaylistModel.cpp:928
 msgid "Mood"
 msgstr "Rewş"
 
-#: playlist/PlaylistModel.cpp:932
+#: playlist/PlaylistModel.cpp:929
 msgid "File Size"
 msgstr "Mezinahiya Pelî"
 
@@ -14016,7 +14006,7 @@ msgstr "Berhevokê Bîne Nava Xwe"
 msgid "Playlist Files on Disk"
 msgstr "Pelên Lîsteya Lêdanê"
 
-#: playlistmanager/file/PlaylistFileProvider.cpp:282
+#: playlistmanager/file/PlaylistFileProvider.cpp:287
 #, fuzzy, kde-format
 #| msgid "This object could not be created."
 msgid "The playlist file \"%1\" could not be loaded."
@@ -14192,7 +14182,7 @@ msgid "none of the above (store won't work)"
 msgstr ""
 
 #: services/amazon/AmazonInfoParser.cpp:40
-#: services/magnatune/MagnatuneInfoParser.cpp:53
+#: services/magnatune/MagnatuneInfoParser.cpp:50
 msgid "Loading album info..."
 msgstr "Agahiyên albumê bar dike..."
 
@@ -14606,16 +14596,16 @@ msgstr "Têketina &Ceribandinê"
 msgid "Gpodder Podcasts"
 msgstr "Podcast"
 
-#: services/gpodder/GpodderProvider.cpp:487
+#: services/gpodder/GpodderProvider.cpp:475
 msgid "Trying to synchronize statuses with gpodder.net"
 msgstr ""
 
-#: services/gpodder/GpodderProvider.cpp:547
+#: services/gpodder/GpodderProvider.cpp:535
 msgid "Trying to synchronize subscriptions with gpodder.net"
 msgstr ""
 
-#: services/gpodder/GpodderProvider.cpp:799
-#: services/gpodder/GpodderProvider.cpp:810
+#: services/gpodder/GpodderProvider.cpp:787
+#: services/gpodder/GpodderProvider.cpp:798
 msgid ""
 "GPodder Service failed to get data from the server. Will retry in 10 "
 "seconds..."
@@ -15528,46 +15518,46 @@ msgid ""
 "Password: %4\n"
 msgstr ""
 
-#: services/magnatune/MagnatuneInfoParser.cpp:32
+#: services/magnatune/MagnatuneInfoParser.cpp:31
 msgid "Loading artist info..."
 msgstr "Agahiyên hunermend bar dike..."
 
-#: services/magnatune/MagnatuneInfoParser.cpp:44
+#: services/magnatune/MagnatuneInfoParser.cpp:41
 #, kde-format
 msgid "Fetching %1 Artist Info"
 msgstr "Agahiyên %1 Hunermend tê Anîn"
 
-#: services/magnatune/MagnatuneInfoParser.cpp:75
+#: services/magnatune/MagnatuneInfoParser.cpp:72
 #, fuzzy, kde-format
 #| msgid "Release Year: "
 msgid "Release Year: %1"
 msgstr "Sala Weşanê:"
 
-#: services/magnatune/MagnatuneInfoParser.cpp:80
+#: services/magnatune/MagnatuneInfoParser.cpp:77
 msgid "Description:"
 msgstr "Rave:"
 
-#: services/magnatune/MagnatuneInfoParser.cpp:84
+#: services/magnatune/MagnatuneInfoParser.cpp:81
 msgid "From Magnatune.com"
 msgstr "Jê Magnatune.com"
 
-#: services/magnatune/MagnatuneInfoParser.cpp:166
+#: services/magnatune/MagnatuneInfoParser.cpp:163
 msgid "Loading Magnatune.com frontpage..."
 msgstr "Rûpela pêşîn ya Magnatune.com bar dike..."
 
-#: services/magnatune/MagnatuneInfoParser.cpp:169
+#: services/magnatune/MagnatuneInfoParser.cpp:166
 msgid "Fetching Magnatune.com front page"
 msgstr ""
 
-#: services/magnatune/MagnatuneInfoParser.cpp:182
-#: services/magnatune/MagnatuneInfoParser.cpp:198
+#: services/magnatune/MagnatuneInfoParser.cpp:177
+#: services/magnatune/MagnatuneInfoParser.cpp:191
 #, fuzzy
 #| msgid "Loading Magnatune.com frontpage..."
 msgid "Loading your Magnatune.com favorites page..."
 msgstr "Rûpela pêşîn ya Magnatune.com bar dike..."
 
-#: services/magnatune/MagnatuneInfoParser.cpp:211
-#: services/magnatune/MagnatuneInfoParser.cpp:227
+#: services/magnatune/MagnatuneInfoParser.cpp:202
+#: services/magnatune/MagnatuneInfoParser.cpp:216
 #, fuzzy
 #| msgid "Loading Magnatune.com frontpage..."
 msgid "Loading your personal Magnatune.com recommendations page..."
@@ -17277,6 +17267,16 @@ msgstr ""
 #| msgid "Volume: %1%"
 msgid "Volume: %1%"
 msgstr "Deng: %1%"
+
+#, fuzzy
+#~| msgid "&Save Playlist"
+#~ msgid "Change playlist"
+#~ msgstr "Lîsteya Lêdanê &Tomar Bike"
+
+#, fuzzy
+#~| msgid "Enter a name for the playlist:"
+#~ msgid "Enter new name for playlist:"
+#~ msgstr "Ji bo lîsteya lêdanê navekî binivîse:"
 
 #, fuzzy
 #~| msgid "Collection"
