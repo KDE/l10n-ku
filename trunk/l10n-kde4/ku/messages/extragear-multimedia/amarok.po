@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-05-10 04:51+0200\n"
+"POT-Creation-Date: 2013-05-12 03:10+0200\n"
 "PO-Revision-Date: 2009-02-21 06:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -1512,7 +1512,7 @@ msgstr "Kom Alî yê"
 
 #: amarokurls/BookmarkModel.cpp:262
 #: browsers/playlistbrowser/PodcastModel.cpp:300
-#: playlist/PlaylistModel.cpp:920
+#: playlist/PlaylistModel.cpp:934
 msgid "Type"
 msgstr "Cure"
 
@@ -1650,122 +1650,100 @@ msgctxt ""
 msgid "Play"
 msgstr "&Bilîze"
 
-#: App.cpp:403
+#: App.cpp:356
 msgid "Files/URLs to open"
 msgstr "Pelên/URLyên ku vebin"
 
-#: App.cpp:404
+#: App.cpp:357
 msgid "Immediately start playing an audio cd"
 msgstr ""
 
-#: App.cpp:406
+#: App.cpp:359
 msgid "Skip backwards in playlist"
 msgstr "Di lîsteya lêdanê de paş ve derbas be"
 
-#: App.cpp:408
+#: App.cpp:361
 msgid "Start playing current playlist"
 msgstr "Destpê lêdana lîsteya lêdanê ya heyî bike"
 
-#: App.cpp:410
+#: App.cpp:363
 msgid "Play if stopped, pause if playing"
 msgstr "Heke girtî be lê bide, heke lê dide bide sekinandin"
 
-#: App.cpp:411
+#: App.cpp:364
 msgid "Pause playback"
 msgstr "Lêdanê bide sekinandin"
 
-#: App.cpp:413
+#: App.cpp:366
 msgid "Stop playback"
 msgstr "Lêdanê rawestîne"
 
-#: App.cpp:415
+#: App.cpp:368
 msgid "Skip forwards in playlist"
 msgstr "Di lîsteya lêdanê de pêş ve derbas be"
 
-#: App.cpp:416
+#: App.cpp:369
 msgid "Additional options:"
 msgstr "Vebijêrkên zêdetir:"
 
-#: App.cpp:418
+#: App.cpp:371
 msgid "Append files/URLs to playlist"
 msgstr "Pelan/URLyan lê lîsteya lêdanê zêde bike"
 
-#: App.cpp:419
+#: App.cpp:372
 msgid "Queue URLs after the currently playing track"
 msgstr "URLyan paş strana lêdide rêz bike"
 
-#: App.cpp:421
+#: App.cpp:374
 msgid "Load URLs, replacing current playlist"
 msgstr "URLyan bar dike, bi lîsteya lêdanê ya heyî ve diguherîne"
 
-#: App.cpp:423
+#: App.cpp:376
 msgid "Print verbose debugging information"
 msgstr "Agahiyên serast kirina çewtiyan bi kitekit çap bike"
 
-#: App.cpp:424
+#: App.cpp:377
 #, fuzzy
 #| msgid "Print verbose debugging information"
 msgid "Print verbose debugging information from the audio system"
 msgstr "Agahiyên serast kirina çewtiyan bi kitekit çap bike"
 
-#: App.cpp:426
+#: App.cpp:379
 msgid "Disable colorization for debug output."
 msgstr ""
 
-#: App.cpp:428
+#: App.cpp:381
 msgid "Allow running multiple Amarok instances"
 msgstr "Destûr bide ku yekî zêdetir sepanên Amarok bixebitin"
 
-#: App.cpp:429
+#: App.cpp:382
 msgid "Base for relative filenames/URLs"
 msgstr "Bingeh ji bo navên-pelan/URLyan yên nêzî hev"
 
-#: App.cpp:431
-#, fuzzy
-#| msgid "Stream options"
-msgid "Unit test options:"
-msgstr "Vebijêrkên Darêjê"
-
-#: App.cpp:432
-msgid "Run integrated unit tests"
-msgstr ""
-
-#: App.cpp:433
-msgid "Destination of test output: 'stdout', 'log'"
-msgstr ""
-
-#: App.cpp:434
-msgid "Format of test output: 'xml', 'lightxml', 'plaintext'"
-msgstr ""
-
-#: App.cpp:435
-msgid "Verbosity from 0-3 (highest)"
-msgstr ""
-
-#: App.cpp:620
+#: App.cpp:527
 msgid ""
 "The embedded database was not found; you must set up a database server "
 "connection.\n"
 "You must restart Amarok after doing this."
 msgstr ""
 
-#: App.cpp:621
+#: App.cpp:528
 msgid ""
 "The connection details for the database server were invalid.\n"
 "You must enter correct settings and restart Amarok after doing this."
 msgstr ""
 
-#: App.cpp:622
+#: App.cpp:529
 #, fuzzy
 #| msgid "Database Name"
 msgid "Database Error"
 msgstr "Navê Bingeha Dana"
 
-#: App.cpp:667
+#: App.cpp:574
 msgid "Moving files to trash"
 msgstr "Pelan bavêje sergo"
 
-#: App.cpp:748
+#: App.cpp:655
 #, kde-format
 msgid ""
 "A music path, %1, is set in System Settings.\n"
@@ -1953,7 +1931,7 @@ msgstr "Sal - Album "
 #: context/applets/albums/AlbumsView.cpp:256
 #: context/applets/wikipedia/WikipediaApplet.cpp:631
 #: dialogs/transferdialog.cpp:89 musicbrainz/MusicBrainzTagsModel.cpp:38
-#: playlist/PlaylistModel.cpp:913 playlist/view/PlaylistViewCommon.cpp:64
+#: playlist/PlaylistModel.cpp:927 playlist/view/PlaylistViewCommon.cpp:64
 #: services/jamendo/JamendoInfoParser.cpp:83
 #: services/magnatune/MagnatuneStore.cpp:224
 #: widgets/SmartPlaylistEditor.cpp:183 widgets/SmartPlaylistEditor.cpp:197
@@ -1965,7 +1943,7 @@ msgstr "Album"
 #: context/applets/tabs/ReloadEditDialog.ui:73
 #: context/applets/wikipedia/WikipediaApplet.cpp:619
 #: dialogs/transferdialog.cpp:88 musicbrainz/MusicBrainzTagsModel.cpp:37
-#: playlist/PlaylistModel.cpp:909 services/amazon/AmazonInfoParser.cpp:157
+#: playlist/PlaylistModel.cpp:923 services/amazon/AmazonInfoParser.cpp:157
 #: services/jamendo/JamendoInfoParser.cpp:51
 #: services/lastfm/LastFmService.cpp:466
 #: services/magnatune/MagnatuneStore.cpp:218
@@ -1975,25 +1953,25 @@ msgstr "Hunermend"
 
 #. i18n: ectx: property (text), widget (QLabel, label_29)
 #: browsers/CollectionTreeItemModelBase.cpp:975 dialogs/TagGuessOptions.ui:253
-#: musicbrainz/MusicBrainzTagsModel.cpp:39 playlist/PlaylistModel.cpp:910
+#: musicbrainz/MusicBrainzTagsModel.cpp:39 playlist/PlaylistModel.cpp:924
 msgid "Album Artist"
 msgstr "Hunermendê Albumê "
 
 #: browsers/CollectionTreeItemModelBase.cpp:976
 #: context/applets/wikipedia/WikipediaApplet.cpp:625
-#: playlist/PlaylistModel.cpp:911 widgets/SmartPlaylistEditor.cpp:183
+#: playlist/PlaylistModel.cpp:925 widgets/SmartPlaylistEditor.cpp:183
 #: widgets/SmartPlaylistEditor.cpp:197
 msgid "Composer"
 msgstr "Bestekar"
 
 #: browsers/CollectionTreeItemModelBase.cpp:977 dialogs/transferdialog.cpp:90
-#: playlist/PlaylistModel.cpp:917 playlist/ProgressiveSearchWidget.cpp:93
+#: playlist/PlaylistModel.cpp:931 playlist/ProgressiveSearchWidget.cpp:93
 #: widgets/SmartPlaylistEditor.cpp:183 widgets/SmartPlaylistEditor.cpp:197
 msgid "Genre"
 msgstr "Cûre"
 
 #: browsers/CollectionTreeItemModelBase.cpp:978
-#: musicbrainz/MusicBrainzTagsModel.cpp:40 playlist/PlaylistModel.cpp:912
+#: musicbrainz/MusicBrainzTagsModel.cpp:40 playlist/PlaylistModel.cpp:926
 #: widgets/SmartPlaylistEditor.cpp:184 widgets/SmartPlaylistEditor.cpp:197
 #: widgets/SmartPlaylistEditor.cpp:921
 msgid "Year"
@@ -2079,7 +2057,7 @@ msgstr ""
 msgid "&Move to Trash"
 msgstr "&Bişîne Sergo"
 
-#: browsers/filebrowser/FileView.cpp:569
+#: browsers/filebrowser/FileView.cpp:572
 #: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:40
 #, fuzzy
 #| msgid "Configure Playback"
@@ -2087,7 +2065,7 @@ msgctxt "@title:window"
 msgid "Confirm Delete"
 msgstr "Lêdanê Veava Bike"
 
-#: browsers/filebrowser/FileView.cpp:570
+#: browsers/filebrowser/FileView.cpp:573
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid "Do you really want to delete these %1 tracks?"
@@ -2096,7 +2074,7 @@ msgid_plural "Are you sure you want to delete these %1 items?"
 msgstr[0] "Tu bi rastî dixwazî wan stranên %1 jê bibî?"
 msgstr[1] "Tu bi rastî dixwazî wan stranên %1 jê bibî?"
 
-#: browsers/filebrowser/FileView.cpp:576
+#: browsers/filebrowser/FileView.cpp:579
 #: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:53
 #, fuzzy
 #| msgid "Moving files to trash"
@@ -2104,7 +2082,7 @@ msgctxt "@title:window"
 msgid "Confirm Move to Trash"
 msgstr "Pelan bavêje sergo"
 
-#: browsers/filebrowser/FileView.cpp:577
+#: browsers/filebrowser/FileView.cpp:580
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid "Do you really want to delete these %1 tracks?"
@@ -2113,7 +2091,7 @@ msgid_plural "Are you sure you want to move these %1 items to trash?"
 msgstr[0] "Tu bi rastî dixwazî wan stranên %1 jê bibî?"
 msgstr[1] "Tu bi rastî dixwazî wan stranên %1 jê bibî?"
 
-#: browsers/filebrowser/FileView.cpp:604
+#: browsers/filebrowser/FileView.cpp:607
 #, fuzzy, kde-format
 #| msgid "Moving files to trash"
 msgctxt "@info:status"
@@ -2644,7 +2622,7 @@ msgstr[1] "Hemû yan &Rojane Bike"
 #. i18n: ectx: property (text), widget (QLabel, titleLabel)
 #: browsers/playlistbrowser/PodcastModel.cpp:301
 #: context/applets/tabs/ReloadEditDialog.ui:86
-#: musicbrainz/MusicBrainzTagsModel.cpp:36 playlist/PlaylistModel.cpp:908
+#: musicbrainz/MusicBrainzTagsModel.cpp:36 playlist/PlaylistModel.cpp:922
 #: widgets/SmartPlaylistEditor.cpp:183
 msgid "Title"
 msgstr "Sernav"
@@ -3672,12 +3650,12 @@ msgid "Tracks"
 msgstr "Stran"
 
 #: context/applets/currenttrack/CurrentTrack.cpp:445
-#: playlist/PlaylistModel.cpp:926
+#: playlist/PlaylistModel.cpp:940
 msgid "Play Count"
 msgstr "Hejmara Lêdanan"
 
 #: context/applets/currenttrack/CurrentTrack.cpp:446
-#: playlist/PlaylistModel.cpp:924 widgets/SmartPlaylistEditor.cpp:185
+#: playlist/PlaylistModel.cpp:938 widgets/SmartPlaylistEditor.cpp:185
 msgid "Score"
 msgstr "Skor"
 
@@ -7408,7 +7386,7 @@ msgid "unknown type"
 msgstr "Sernavê Nenas"
 
 #: core/support/Amarok.cpp:46 core/support/Amarok.cpp:91
-#: playlist/PlaylistModel.cpp:484
+#: playlist/PlaylistModel.cpp:497
 msgctxt "The amount of time since last played"
 msgid "Never"
 msgstr "Tu car"
@@ -11931,7 +11909,7 @@ msgid "Response"
 msgstr "Kîtekît"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, requestList)
-#: network/NetworkRequests.ui:56 playlist/PlaylistModel.cpp:921
+#: network/NetworkRequests.ui:56 playlist/PlaylistModel.cpp:935
 #: widgets/SmartPlaylistEditor.cpp:183
 msgid "Length"
 msgstr "Mawe"
@@ -12544,79 +12522,79 @@ msgstr ""
 msgid "Queue length: %1"
 msgstr ""
 
-#: playlist/PlaylistModel.cpp:254 playlist/PlaylistModel.cpp:366
+#: playlist/PlaylistModel.cpp:267 playlist/PlaylistModel.cpp:379
 #, kde-format
 msgid "<b>Note:</b> This track is not playable.<br>%1"
 msgstr ""
 
-#: playlist/PlaylistModel.cpp:289
+#: playlist/PlaylistModel.cpp:302
 #, fuzzy
 #| msgid "..."
 msgid "(...)"
 msgstr "..."
 
-#: playlist/PlaylistModel.cpp:318
+#: playlist/PlaylistModel.cpp:331
 #, kde-format
 msgctxt "%1: bitrate"
 msgid "%1 kbps"
 msgstr ""
 
-#: playlist/PlaylistModel.cpp:321
+#: playlist/PlaylistModel.cpp:334
 #, fuzzy
 #| msgid "No information available for this track"
 msgid "No extra information available"
 msgstr "Ji bo vê skrîptê agahî tune ye"
 
-#: playlist/PlaylistModel.cpp:907
+#: playlist/PlaylistModel.cpp:921
 msgctxt "The name of the file this track is stored in"
 msgid "Filename"
 msgstr "Navê Pelê"
 
-#: playlist/PlaylistModel.cpp:914
+#: playlist/PlaylistModel.cpp:928
 msgid "Disc Number"
 msgstr "Hejmara Dîskê"
 
-#: playlist/PlaylistModel.cpp:915
+#: playlist/PlaylistModel.cpp:929
 msgctxt "The Track number for this item"
 msgid "Track"
 msgstr "Stran"
 
-#: playlist/PlaylistModel.cpp:916 widgets/SmartPlaylistEditor.cpp:187
+#: playlist/PlaylistModel.cpp:930 widgets/SmartPlaylistEditor.cpp:187
 msgid "BPM"
 msgstr "BPM"
 
-#: playlist/PlaylistModel.cpp:918 widgets/SmartPlaylistEditor.cpp:184
+#: playlist/PlaylistModel.cpp:932 widgets/SmartPlaylistEditor.cpp:184
 msgid "Comment"
 msgstr "Şîrove"
 
-#: playlist/PlaylistModel.cpp:919
+#: playlist/PlaylistModel.cpp:933
 msgctxt "The location on disc of this track"
 msgid "Directory"
 msgstr "Peldank"
 
-#: playlist/PlaylistModel.cpp:922 widgets/SmartPlaylistEditor.cpp:187
+#: playlist/PlaylistModel.cpp:936 widgets/SmartPlaylistEditor.cpp:187
 msgid "Bitrate"
 msgstr "Leza bit"
 
-#: playlist/PlaylistModel.cpp:923
+#: playlist/PlaylistModel.cpp:937
 msgid "Sample Rate"
 msgstr "Rêjeya Mînakkirinê"
 
-#: playlist/PlaylistModel.cpp:925 playlist/ProgressiveSearchWidget.cpp:107
+#: playlist/PlaylistModel.cpp:939 playlist/ProgressiveSearchWidget.cpp:107
 #: widgets/SmartPlaylistEditor.cpp:185
 msgid "Rating"
 msgstr "Nirxandin"
 
-#: playlist/PlaylistModel.cpp:927
+#: playlist/PlaylistModel.cpp:941
 msgctxt "Column name"
 msgid "Last Played"
 msgstr "Lêdana Dawî"
 
-#: playlist/PlaylistModel.cpp:928
+#: playlist/PlaylistModel.cpp:942
 msgid "Mood"
 msgstr "Rewş"
 
-#: playlist/PlaylistModel.cpp:929
+#: playlist/PlaylistModel.cpp:943
 msgid "File Size"
 msgstr "Mezinahiya Pelî"
 
@@ -17267,6 +17245,11 @@ msgstr ""
 #| msgid "Volume: %1%"
 msgid "Volume: %1%"
 msgstr "Deng: %1%"
+
+#, fuzzy
+#~| msgid "Stream options"
+#~ msgid "Unit test options:"
+#~ msgstr "Vebijêrkên Darêjê"
 
 #, fuzzy
 #~| msgid "&Save Playlist"
