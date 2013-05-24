@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-05-21 01:44+0000\n"
+"POT-Creation-Date: 2013-05-24 01:26+0000\n"
 "PO-Revision-Date: 2009-02-21 06:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -8241,33 +8241,6 @@ msgstr "Hunermend Tune ye "
 msgid "Cover View"
 msgstr "Wêneya rûgirê albumê"
 
-#. i18n: tag layout attribute name
-#: data/DefaultPlaylistLayouts.xml:3
-#, fuzzy
-#| msgid "Playlist name:"
-msgid "Default"
-msgstr "Navê Lîsteya Lêdanê:"
-
-#. i18n: tag layout attribute name
-#: data/DefaultPlaylistLayouts.xml:36
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:507
-#, fuzzy
-#| msgid "Groupings"
-msgid "No Grouping"
-msgstr "Dabeşkirin"
-
-#. i18n: tag layout attribute name
-#: data/DefaultPlaylistLayouts.xml:60
-#, fuzzy
-#| msgid "Groupings"
-msgid "No Grouping (Single Line)"
-msgstr "Dabeşkirin"
-
-#. i18n: tag layout attribute name
-#: data/DefaultPlaylistLayouts.xml:77
-msgid "Verbose"
-msgstr ""
-
 #: databaseimporter/amarok14/FastForwardImporterConfig.cpp:39
 msgid "Connection"
 msgstr "Girêdan"
@@ -12228,6 +12201,12 @@ msgstr ""
 msgid "Default Layout"
 msgstr "Navê Lîsteya Lêdanê:"
 
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:507
+#, fuzzy
+#| msgid "Groupings"
+msgid "No Grouping"
+msgstr "Dabeşkirin"
+
 #. i18n: ectx: property (windowTitle), widget (QDialog, PlaylistLayoutEditDialog)
 #: playlist/layouts/PlaylistLayoutEditDialog.ui:20
 #, fuzzy
@@ -12712,11 +12691,11 @@ msgstr "Stran Hate Rakirin"
 msgid "Tracks moved"
 msgstr "Stran hate guhastin "
 
-#: playlist/view/listview/PrettyListView.cpp:682
+#: playlist/view/listview/PrettyListView.cpp:684
 msgid "Tracks have been hidden due to the active search."
 msgstr ""
 
-#: playlist/view/listview/PrettyListView.cpp:684
+#: playlist/view/listview/PrettyListView.cpp:686
 msgid "Add some songs here by dragging them from all around."
 msgstr ""
 
@@ -17075,6 +17054,16 @@ msgstr ""
 #| msgid "Volume: %1%"
 msgid "Volume: %1%"
 msgstr "Deng: %1%"
+
+#, fuzzy
+#~| msgid "Playlist name:"
+#~ msgid "Default"
+#~ msgstr "Navê Lîsteya Lêdanê:"
+
+#, fuzzy
+#~| msgid "Groupings"
+#~ msgid "No Grouping (Single Line)"
+#~ msgstr "Dabeşkirin"
 
 #~ msgid "Create Smart Playlist"
 #~ msgstr "Lîsteya Lêdanê ya Biaqil Çêke"
