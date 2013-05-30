@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_launcher\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-10-20 05:02+0200\n"
+"POT-Creation-Date: 2013-05-30 01:57+0000\n"
 "PO-Revision-Date: 2008-12-25 02:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <gnu-ku-wergerandin at lists dot sourceforge dot "
@@ -40,7 +40,7 @@ msgstr ""
 "Bijarte, sepan, cihên komputerê, hêmanên dawî yê hatine karandin û danişînên "
 "sermase yê "
 
-#: applet/applet.cpp:108 simpleapplet/simpleapplet.cpp:340
+#: applet/applet.cpp:108 simpleapplet/simpleapplet.cpp:343
 #, fuzzy
 #| msgid "Applications"
 msgid "Edit Applications..."
@@ -76,15 +76,28 @@ msgstr ""
 msgid "Switch &tabs on hover:"
 msgstr "Hilpekînan bike bixwe vedibin "
 
-#: core/applicationmodel.cpp:334
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: applet/kickoffConfig.ui:106 simpleapplet/simpleapplet.cpp:491
+#, fuzzy
+#| msgid "Recently Used"
+msgid "Show 'Recently Installed':"
+msgstr "Berê bikaranî"
+
+#: core/applicationmodel.cpp:291
+#, fuzzy
+#| msgid "Recently Used"
+msgid "Recently Installed"
+msgstr "Berê bikaranî"
+
+#: core/applicationmodel.cpp:382
 msgid "Games"
 msgstr ""
 
-#: core/applicationmodel.cpp:428 ui/launcher.cpp:1037
+#: core/applicationmodel.cpp:476 ui/launcher.cpp:1055
 msgid "All Applications"
 msgstr "Hemû Sepan"
 
-#: core/favoritesmodel.cpp:49 simpleapplet/simpleapplet.cpp:193
+#: core/favoritesmodel.cpp:49 simpleapplet/simpleapplet.cpp:196
 #: ui/launcher.cpp:123 ui/launcher.cpp:193
 msgid "Favorites"
 msgstr "Bijarte"
@@ -96,7 +109,7 @@ msgctxt "@title:column"
 msgid "Favorites"
 msgstr "Bijarte"
 
-#: core/leavemodel.cpp:50 simpleapplet/simpleapplet.cpp:210
+#: core/leavemodel.cpp:50 simpleapplet/simpleapplet.cpp:213
 #, fuzzy
 #| msgid "Logout"
 msgid "Log out"
@@ -126,7 +139,7 @@ msgstr "Bikarhênerê/î biguherîne"
 msgid "Start a parallel session as a different user"
 msgstr "Wekî bikarhênerekê din dest bi danişînekê paralel bike"
 
-#: core/leavemodel.cpp:62 simpleapplet/simpleapplet.cpp:209
+#: core/leavemodel.cpp:62 simpleapplet/simpleapplet.cpp:212
 #, fuzzy
 #| msgid "Shutdown"
 msgid "Shut down"
@@ -152,7 +165,7 @@ msgstr "Ji Nû ve Bide Destpêkirin"
 msgid "Restart computer"
 msgstr "Komputerê ji nû ve bide destpêkirin"
 
-#: core/leavemodel.cpp:70 simpleapplet/simpleapplet.cpp:203
+#: core/leavemodel.cpp:70 simpleapplet/simpleapplet.cpp:206
 msgid "Save Session"
 msgstr "Danişînê Tomar Bike"
 
@@ -160,7 +173,7 @@ msgstr "Danişînê Tomar Bike"
 msgid "Save current session for next login"
 msgstr "Danişîna heyî ji bo têketina pêş tomar bike"
 
-#: core/leavemodel.cpp:74 simpleapplet/simpleapplet.cpp:205
+#: core/leavemodel.cpp:74 simpleapplet/simpleapplet.cpp:208
 msgctxt "Puts the system on standby"
 msgid "Standby"
 msgstr "Bendê Bimîne "
@@ -169,7 +182,7 @@ msgstr "Bendê Bimîne "
 msgid "Pause without logging out"
 msgstr "Bê derketin bi de sekinandin"
 
-#: core/leavemodel.cpp:78 simpleapplet/simpleapplet.cpp:206
+#: core/leavemodel.cpp:78 simpleapplet/simpleapplet.cpp:209
 msgid "Hibernate"
 msgstr "Xewa zivistanê"
 
@@ -179,7 +192,7 @@ msgstr "Xewa zivistanê"
 msgid "Suspend to disk"
 msgstr "Ji Dîskê Bisekine"
 
-#: core/leavemodel.cpp:82 simpleapplet/simpleapplet.cpp:207
+#: core/leavemodel.cpp:82 simpleapplet/simpleapplet.cpp:210
 msgid "Sleep"
 msgstr "Bixe xewê"
 
@@ -187,7 +200,7 @@ msgstr "Bixe xewê"
 msgid "Suspend to RAM"
 msgstr "Ji RAMê Bisekine"
 
-#: core/leavemodel.cpp:107 simpleapplet/simpleapplet.cpp:211
+#: core/leavemodel.cpp:107 simpleapplet/simpleapplet.cpp:214
 #: ui/launcher.cpp:181
 msgid "Leave"
 msgstr "Biterikîne"
@@ -213,22 +226,22 @@ msgid "Documents"
 msgstr "Belge"
 
 #: core/recentlyusedmodel.cpp:120 core/systemmodel.cpp:74
-#: simpleapplet/simpleapplet.cpp:195 ui/launcher.cpp:125 ui/launcher.cpp:241
+#: simpleapplet/simpleapplet.cpp:198 ui/launcher.cpp:125 ui/launcher.cpp:241
 msgid "Applications"
 msgstr "Sepan"
 
-#: core/recentlyusedmodel.cpp:186 simpleapplet/simpleapplet.cpp:197
+#: core/recentlyusedmodel.cpp:186 simpleapplet/simpleapplet.cpp:200
 #: ui/launcher.cpp:126 ui/launcher.cpp:254
 msgid "Recently Used"
 msgstr "Berê bikaranî"
 
-#: core/recentlyusedmodel.cpp:188 simpleapplet/simpleapplet.cpp:199
+#: core/recentlyusedmodel.cpp:188 simpleapplet/simpleapplet.cpp:202
 #, fuzzy
 #| msgid "Recently Used"
 msgid "Recently Used Documents"
 msgstr "Berê bikaranî"
 
-#: core/recentlyusedmodel.cpp:190 simpleapplet/simpleapplet.cpp:198
+#: core/recentlyusedmodel.cpp:190 simpleapplet/simpleapplet.cpp:201
 #, fuzzy
 #| msgid "Clear Recent Applications"
 msgid "Recently Used Applications"
@@ -246,7 +259,7 @@ msgstr "Cîhaza Tomarkirinê ya Nesabît"
 msgid "Storage"
 msgstr "Cîhaza Tomarkirinê"
 
-#: core/systemmodel.cpp:207 simpleapplet/simpleapplet.cpp:201
+#: core/systemmodel.cpp:207 simpleapplet/simpleapplet.cpp:204
 msgid "Run Command..."
 msgstr ""
 
@@ -254,7 +267,7 @@ msgstr ""
 msgid "Run a command or a search query"
 msgstr ""
 
-#: core/systemmodel.cpp:319 simpleapplet/simpleapplet.cpp:196
+#: core/systemmodel.cpp:319 simpleapplet/simpleapplet.cpp:199
 #: ui/launcher.cpp:125 ui/launcher.cpp:275
 msgid "Computer"
 msgstr "Komputer"
@@ -267,28 +280,28 @@ msgstr "Kîckoff"
 msgid "Application Launcher"
 msgstr "Deskpêkerê Sepanan"
 
-#: simpleapplet/simpleapplet.cpp:194
+#: simpleapplet/simpleapplet.cpp:197
 #, fuzzy
 #| msgctxt "@item:inlistbox View:"
 #| msgid "Bookmarks"
 msgid "Bookmarks"
 msgstr "Bijare"
 
-#: simpleapplet/simpleapplet.cpp:200
+#: simpleapplet/simpleapplet.cpp:203
 msgid "System Settings"
 msgstr ""
 
-#: simpleapplet/simpleapplet.cpp:202
+#: simpleapplet/simpleapplet.cpp:205
 msgid "Switch User"
 msgstr "Bikarhênerê/î biguherîne"
 
-#: simpleapplet/simpleapplet.cpp:204
+#: simpleapplet/simpleapplet.cpp:207
 #, fuzzy
 #| msgid "Lock the screen"
 msgid "Lock Screen"
 msgstr "îmenderê biqufilîne"
 
-#: simpleapplet/simpleapplet.cpp:208
+#: simpleapplet/simpleapplet.cpp:211
 #, fuzzy
 #| msgctxt "Restart the computer"
 #| msgid "Restart"
@@ -296,19 +309,19 @@ msgctxt "Restart Computer"
 msgid "Restart"
 msgstr "Ji Nû ve Bide Destpêkirin"
 
-#: simpleapplet/simpleapplet.cpp:267
+#: simpleapplet/simpleapplet.cpp:270
 #, fuzzy
 #| msgid "Application Launcher"
 msgid "Application Launcher Menu"
 msgstr "Deskpêkerê Sepanan"
 
-#: simpleapplet/simpleapplet.cpp:346
+#: simpleapplet/simpleapplet.cpp:349
 #, fuzzy
 #| msgid "Kickoff Application Launcher"
 msgid "Switch to Application Launcher Style"
 msgstr "Deskpêkerê Sepana Kickoff"
 
-#: simpleapplet/simpleapplet.cpp:445
+#: simpleapplet/simpleapplet.cpp:448
 #, fuzzy
 #| msgctxt ""
 #| "@label:listbox Which category of items to view in a KMenu-like menu"
@@ -316,26 +329,26 @@ msgstr "Deskpêkerê Sepana Kickoff"
 msgid "View"
 msgstr "Bibîne:"
 
-#: simpleapplet/simpleapplet.cpp:452
+#: simpleapplet/simpleapplet.cpp:455
 msgid "Icon:"
 msgstr ""
 
-#: simpleapplet/simpleapplet.cpp:459
+#: simpleapplet/simpleapplet.cpp:462
 msgctxt "@label:listbox How to present applications in a KMenu-like menu"
 msgid "Format:"
 msgstr "Teşe:"
 
-#: simpleapplet/simpleapplet.cpp:463
+#: simpleapplet/simpleapplet.cpp:466
 msgctxt "@item:inlistbox Format:"
 msgid "Name Only"
 msgstr "Tenê Nav"
 
-#: simpleapplet/simpleapplet.cpp:464
+#: simpleapplet/simpleapplet.cpp:467
 msgctxt "@item:inlistbox Format:"
 msgid "Description Only"
 msgstr "Tenê Daxuyanî"
 
-#: simpleapplet/simpleapplet.cpp:465
+#: simpleapplet/simpleapplet.cpp:468
 #, fuzzy
 #| msgctxt "@item:inlistbox Format:"
 #| msgid "Name Description"
@@ -343,33 +356,33 @@ msgctxt "@item:inlistbox Format:"
 msgid "Name (Description)"
 msgstr "Daxuyanî ya Navê"
 
-#: simpleapplet/simpleapplet.cpp:466
+#: simpleapplet/simpleapplet.cpp:469
 msgctxt "@item:inlistbox Format:"
 msgid "Description (Name)"
 msgstr "Daxuyanî (Nav)"
 
-#: simpleapplet/simpleapplet.cpp:467
+#: simpleapplet/simpleapplet.cpp:470
 msgctxt "@item:inlistbox Format:"
 msgid "Name - Description"
 msgstr "Nav - Daxuyanî"
 
-#: simpleapplet/simpleapplet.cpp:472
+#: simpleapplet/simpleapplet.cpp:475
 #, fuzzy
 #| msgid "Clear Recent Applications"
 msgid "Recently used applications:"
 msgstr "Sepanên Borî Pakuj bike"
 
-#: simpleapplet/simpleapplet.cpp:482
+#: simpleapplet/simpleapplet.cpp:485
 msgid "Show menu titles:"
 msgstr ""
 
-#: simpleapplet/simpleapplet.cpp:489
+#: simpleapplet/simpleapplet.cpp:498
 #, fuzzy
 #| msgid "Applications"
 msgid "Options"
 msgstr "Sepan"
 
-#: simpleapplet/simpleapplet.cpp:626
+#: simpleapplet/simpleapplet.cpp:644
 #, fuzzy
 #| msgid "Applications"
 msgid "Actions"
