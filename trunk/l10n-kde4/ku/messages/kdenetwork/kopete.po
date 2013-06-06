@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kopete\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-06-05 02:11+0000\n"
+"POT-Creation-Date: 2013-06-06 01:31+0000\n"
 "PO-Revision-Date: 2008-06-22 23:57+0200\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <ku@li.org>\n"
@@ -6857,7 +6857,7 @@ msgid "Do Not Import"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: plugins/history/historyprefsui.ui:32
+#: plugins/history/historyprefsui.ui:32 plugins/history2/history2prefsui.ui:24
 msgid "Chat History"
 msgstr "Raboriya Sohbetê"
 
@@ -6876,6 +6876,7 @@ msgstr ""
 #. i18n: ectx: property (whatsThis), widget (QLabel, colorLabel)
 #. i18n: ectx: property (whatsThis), widget (KColorButton, History_color)
 #: plugins/history/historyprefsui.ui:82 plugins/history/historyprefsui.ui:108
+#: plugins/history2/history2prefsui.ui:52
 #: plugins/history2/history2prefsui.ui:117
 msgid "Color of history messages in the chat window"
 msgstr "Di paceya heman sohbetê de hemû peyaman dabeş bike"
@@ -7015,20 +7016,6 @@ msgstr ""
 #| msgid "History"
 msgid "History2"
 msgstr "Mêjû"
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: plugins/history2/history2prefsui.ui:24
-#, fuzzy
-#| msgid "Chat History"
-msgid "Chat History2"
-msgstr "Raboriya Sohbetê"
-
-#. i18n: ectx: property (whatsThis), widget (QLabel, colorLabel)
-#: plugins/history2/history2prefsui.ui:52
-#, fuzzy
-#| msgid "Color of history messages in the chat window"
-msgid "Color of history2 messages in the chat window"
-msgstr "Di paceya heman sohbetê de hemû peyaman dabeş bike"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, import2)
 #: plugins/history2/history2prefsui.ui:150
@@ -18351,7 +18338,7 @@ msgid "Age:"
 msgstr "Temen"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cbGender)
-#: protocols/qq/ui/qqvcard.ui:228 protocols/winpopup/wpuserinfo.cpp:39
+#: protocols/qq/ui/qqvcard.ui:228 protocols/winpopup/wpuserinfo.cpp:40
 msgid "N/A"
 msgstr ""
 
@@ -19822,7 +19809,7 @@ msgid ""
 "service available."
 msgstr ""
 
-#: protocols/winpopup/libwinpopup/libwinpopup.cpp:105
+#: protocols/winpopup/libwinpopup/libwinpopup.cpp:106
 #, fuzzy, kde-format
 msgid ""
 "The working directory %1 does not exist.\n"
@@ -19837,15 +19824,15 @@ msgstr ""
 "(Mîheng...->Hesab->Serast Bike)\n"
 "Bila pelrêç bê afirandin? (Dibe ku nasnavê root bivê)"
 
-#: protocols/winpopup/libwinpopup/libwinpopup.cpp:110
+#: protocols/winpopup/libwinpopup/libwinpopup.cpp:111
 msgid "Create Directory"
 msgstr "Pelrêçêkê Biafirîne"
 
-#: protocols/winpopup/libwinpopup/libwinpopup.cpp:110
+#: protocols/winpopup/libwinpopup/libwinpopup.cpp:111
 msgid "Do Not Create"
 msgstr "Neafirîne"
 
-#: protocols/winpopup/libwinpopup/libwinpopup.cpp:124
+#: protocols/winpopup/libwinpopup/libwinpopup.cpp:125
 #, kde-format
 msgid ""
 "Permissions of the working directory %1 are incorrect.\n"
@@ -19854,23 +19841,23 @@ msgid ""
 "Fix this (may require the root password)?"
 msgstr ""
 
-#: protocols/winpopup/libwinpopup/libwinpopup.cpp:129
-#: protocols/winpopup/libwinpopup/libwinpopup.cpp:316
+#: protocols/winpopup/libwinpopup/libwinpopup.cpp:130
+#: protocols/winpopup/libwinpopup/libwinpopup.cpp:342
 msgid "Fix"
 msgstr "Serast Bike"
 
-#: protocols/winpopup/libwinpopup/libwinpopup.cpp:129
-#: protocols/winpopup/libwinpopup/libwinpopup.cpp:316
+#: protocols/winpopup/libwinpopup/libwinpopup.cpp:130
+#: protocols/winpopup/libwinpopup/libwinpopup.cpp:342
 msgid "Do Not Fix"
 msgstr "Serast Neke"
 
-#: protocols/winpopup/libwinpopup/libwinpopup.cpp:254
+#: protocols/winpopup/libwinpopup/libwinpopup.cpp:280
 msgid ""
 "Connection to localhost failed.\n"
 "Is your samba server running?"
 msgstr ""
 
-#: protocols/winpopup/libwinpopup/libwinpopup.cpp:313
+#: protocols/winpopup/libwinpopup/libwinpopup.cpp:339
 #, fuzzy
 msgid ""
 "A message file could not be removed; maybe the permissions are incorrect.\n"
@@ -19879,7 +19866,7 @@ msgstr ""
 "Pelekî peyaman jê nehate birin; belkî destûr çewt be.\n"
 "Bila were sererastkirin? (dibe ku şîfreya root hewce be)"
 
-#: protocols/winpopup/libwinpopup/libwinpopup.cpp:321
+#: protocols/winpopup/libwinpopup/libwinpopup.cpp:347
 #, fuzzy
 msgid "Still cannot remove it; please fix it manually."
 msgstr "Hê jî jê nehate birin. Ji kerema xwe re bi destan sererast bike."
@@ -20133,7 +20120,7 @@ msgstr "Rojanekirina pelê veavakirinê bi ser neket."
 msgid "Configuration Failed"
 msgstr "Veavakirin Bi Ser Neket"
 
-#: protocols/winpopup/wpuserinfo.cpp:45
+#: protocols/winpopup/wpuserinfo.cpp:46
 #, kde-format
 msgid "User Info for %1"
 msgstr "Agahiya Bikarhêner ji bo %1"
@@ -21403,6 +21390,16 @@ msgstr "Taybetmendiyên din"
 #: protocols/yahoo/yahooverifyaccount.cpp:42
 msgid "Account Verification - Yahoo"
 msgstr "Tercîhên Hesab - Yahoo"
+
+#, fuzzy
+#~| msgid "Chat History"
+#~ msgid "Chat History2"
+#~ msgstr "Raboriya Sohbetê"
+
+#, fuzzy
+#~| msgid "Color of history messages in the chat window"
+#~ msgid "Color of history2 messages in the chat window"
+#~ msgstr "Di paceya heman sohbetê de hemû peyaman dabeş bike"
 
 #, fuzzy
 #~| msgid "Developer, Gadu plugin maintainer"

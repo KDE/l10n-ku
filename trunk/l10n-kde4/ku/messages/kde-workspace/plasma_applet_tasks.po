@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_tasks\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-05-17 04:15+0200\n"
+"POT-Creation-Date: 2013-06-06 01:33+0000\n"
 "PO-Revision-Date: 2008-12-26 01:50+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -20,65 +20,57 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-Language: Kurdish\n"
 
-#: taskgroupitem.cpp:304
-#, kde-format
-msgctxt "@title:group Name of a group of windows"
-msgid "%1"
-msgstr ""
-
-#: taskgroupitem.cpp:309 windowtaskitem.cpp:224
-#, kde-format
-msgctxt "Which virtual desktop a window is currently on"
+#: package/contents/ui/main.qml:89
+#, fuzzy
+#| msgctxt "Which virtual desktop a window is currently on"
+#| msgid "On %1"
 msgid "On %1"
 msgstr "Di %1 de"
 
-#: taskgroupitem.cpp:430
-msgid "Collapse Group"
-msgstr "Komê Veşêre"
-
-#: taskgroupitem.cpp:433
-msgid "Expand Group"
-msgstr "Komê Nîşan Bide"
-
-#: taskgroupitem.cpp:981
-#, fuzzy
-#| msgid "Expand Group"
-msgid "Edit Group"
-msgstr "Komê Nîşan Bide"
-
-#: taskgroupitem.cpp:982
-msgid "New Group Name: "
+#: package/contents/ui/main.qml:94
+msgctxt "Which virtual desktop a window is currently on"
+msgid "Available on all activities"
 msgstr ""
 
-#: tasks.cpp:364
+#: package/contents/ui/main.qml:97
+msgctxt "Activities a window is currently on (apart from the current one)"
+msgid "Also available on %1"
+msgstr ""
+
+#: package/contents/ui/main.qml:101
+msgctxt "Which activities a window is currently on"
+msgid "Available on %1"
+msgstr ""
+
+#: tasks.cpp:464
 msgid "General"
 msgstr "Giştî"
 
-#: tasks.cpp:374
+#: tasks.cpp:474
 msgid "Do Not Group"
 msgstr "Kom Neke"
 
-#: tasks.cpp:375 tasks.cpp:399
+#: tasks.cpp:475 tasks.cpp:497
 msgid "Manually"
 msgstr "Bi destan"
 
-#: tasks.cpp:376
+#: tasks.cpp:476
 msgid "By Program Name"
 msgstr "Li gorî navê bernameyê"
 
-#: tasks.cpp:398
+#: tasks.cpp:496
 msgid "Do Not Sort"
 msgstr "Bê rêzkirinê"
 
-#: tasks.cpp:400
+#: tasks.cpp:498
 msgid "Alphabetically"
 msgstr "Li gorî alfabeyê"
 
-#: tasks.cpp:401
+#: tasks.cpp:499
 msgid "By Desktop"
 msgstr "Bi Sermasê"
 
-#: tasks.cpp:402
+#: tasks.cpp:500
 msgid "By Activity"
 msgstr ""
 
@@ -160,22 +152,16 @@ msgstr "Peywiran tenê di dîmendêra heyî de nîşan bide"
 msgid "Only show tasks that are minimized"
 msgstr "Tenê peywirên hatine biçûk kirin nîşan bide  "
 
-#: windowtaskitem.cpp:229
-msgid "Available on all activities"
-msgstr ""
+#~ msgid "Collapse Group"
+#~ msgstr "Komê Veşêre"
 
-#: windowtaskitem.cpp:234
-#, kde-format
-msgctxt "Activities a window is currently on (appart from the current one)"
-msgid "Also available on %1"
-msgstr ""
+#~ msgid "Expand Group"
+#~ msgstr "Komê Nîşan Bide"
 
-#: windowtaskitem.cpp:237
-#, kde-format
-msgctxt "Which activities a window is currently on"
-msgid "Available on %1"
-msgstr ""
+#, fuzzy
+#~| msgid "Expand Group"
+#~ msgid "Edit Group"
+#~ msgstr "Komê Nîşan Bide"
 
-#: windowtaskitem.cpp:336
-msgid "Collapse Parent Group"
-msgstr "Koma Bingeh Veşêre"
+#~ msgid "Collapse Parent Group"
+#~ msgstr "Koma Bingeh Veşêre"
