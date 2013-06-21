@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gwenview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-05-31 01:34+0000\n"
+"POT-Creation-Date: 2013-06-21 01:38+0000\n"
 "PO-Revision-Date: 2009-01-22 22:46+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -68,7 +68,7 @@ msgstr ""
 msgid "Remember folders and URLs"
 msgstr ""
 
-#: app/browsemainpage.cpp:117 app/mainwindow.cpp:332 app/viewmainpage.cpp:420
+#: app/browsemainpage.cpp:117 app/mainwindow.cpp:346 app/viewmainpage.cpp:430
 #: lib/documentview/documentviewcontroller.cpp:92
 msgctxt "@title actions category - means actions changing smth in interface"
 msgid "View"
@@ -136,7 +136,7 @@ msgid "Rating"
 msgstr "Nirxandin"
 
 #: app/browsemainpage.cpp:156 app/fileopscontextmanageritem.cpp:165
-#: app/mainwindow.cpp:331
+#: app/mainwindow.cpp:345
 msgctxt "@title actions category"
 msgid "File"
 msgstr "Pel"
@@ -467,16 +467,16 @@ msgctxt "@info"
 msgid "Gwenview cannot save images as %1."
 msgstr "Gwenview nikare wêneyan wekî %1 tomar bike."
 
-#: app/gvcore.cpp:231
+#: app/gvcore.cpp:236
 msgid "Save using another format"
 msgstr "Bi bikaranîna teşeyekî din re tomar bike"
 
-#: app/gvcore.cpp:234
+#: app/gvcore.cpp:239
 #, kde-format
 msgid "Gwenview cannot save images in '%1' format."
 msgstr "Gwenview nikare wêneyan di teşeya '%1' de tomar bike."
 
-#: app/gvcore.cpp:257
+#: app/gvcore.cpp:262
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -486,21 +486,21 @@ msgstr ""
 "Navê pelê <filename>%1</filename> jixwe heye.\n"
 "Tu bi rastî dixwazî ser vê binivîsî?"
 
-#: app/gvcore.cpp:272 app/gvcore.cpp:295
+#: app/gvcore.cpp:277 app/gvcore.cpp:300
 #, kde-format
 msgctxt "@info"
 msgid "<b>Saving <filename>%1</filename> failed:</b><br>%2"
 msgstr "<b>Tomarkirina <filename>%1</filename> pêk nehat:</b><br>%2"
 
-#: app/gvcore.cpp:315
+#: app/gvcore.cpp:320
 msgid "You are now viewing the new document."
 msgstr ""
 
-#: app/gvcore.cpp:317
+#: app/gvcore.cpp:322
 msgid "Go back to the original"
 msgstr ""
 
-#: app/gvcore.cpp:362 lib/document/documentjob.cpp:79
+#: app/gvcore.cpp:367 lib/document/documentjob.cpp:79
 msgctxt "@info"
 msgid "Gwenview cannot edit this kind of image."
 msgstr "Gwenview nikare wêneyên bi vê cure yê serast bike."
@@ -863,12 +863,12 @@ msgstr "Di moda nîşandana slaytê de bide destpêkirin"
 msgid "A starting file or folder"
 msgstr "Pel an jî peldank tê destpêkirin"
 
-#: app/mainwindow.cpp:341
+#: app/mainwindow.cpp:355
 msgctxt "@action reload the currently viewed image"
 msgid "Reload"
 msgstr "Nû Ve Bar Bike"
 
-#: app/mainwindow.cpp:346
+#: app/mainwindow.cpp:360
 #, fuzzy
 #| msgctxt "@action Switch to file list"
 #| msgid "Browse"
@@ -876,12 +876,12 @@ msgctxt "@action:intoolbar Switch to file list"
 msgid "Browse"
 msgstr "Bigere"
 
-#: app/mainwindow.cpp:347
+#: app/mainwindow.cpp:361
 msgctxt "@info:tooltip"
 msgid "Browse folders for images"
 msgstr ""
 
-#: app/mainwindow.cpp:355
+#: app/mainwindow.cpp:369
 #, fuzzy
 #| msgctxt "@title actions category - means actions changing smth in interface"
 #| msgid "View"
@@ -889,45 +889,45 @@ msgctxt "@action:intoolbar Switch to image view"
 msgid "View"
 msgstr "Bibîne"
 
-#: app/mainwindow.cpp:356
+#: app/mainwindow.cpp:370
 #, fuzzy
 #| msgid "Next modified image"
 msgctxt "@info:tooltip"
 msgid "View selected images"
 msgstr "Wêneya pêş ya hatiye guhertin"
 
-#: app/mainwindow.cpp:379
+#: app/mainwindow.cpp:393
 #, fuzzy
 #| msgid "Start in fullscreen mode"
 msgctxt "@action"
 msgid "Leave Fullscreen Mode"
 msgstr "Di moda dîmender tijî de bide destpêkirin"
 
-#: app/mainwindow.cpp:384
+#: app/mainwindow.cpp:398
 msgctxt "@action Go to previous image"
 msgid "Previous"
 msgstr "Paş"
 
-#: app/mainwindow.cpp:385
+#: app/mainwindow.cpp:399
 #, fuzzy
 #| msgid "Go to Previous Image"
 msgctxt "@info:tooltip"
 msgid "Go to previous image"
 msgstr "Biçe Wêneya Paş"
 
-#: app/mainwindow.cpp:391
+#: app/mainwindow.cpp:405
 msgctxt "@action Go to next image"
 msgid "Next"
 msgstr "Pêş"
 
-#: app/mainwindow.cpp:392
+#: app/mainwindow.cpp:406
 #, fuzzy
 #| msgid "Go to Next Image"
 msgctxt "@info:tooltip"
 msgid "Go to next image"
 msgstr "Biçe Wêneya Pêş"
 
-#: app/mainwindow.cpp:397
+#: app/mainwindow.cpp:411
 #, fuzzy
 #| msgctxt ""
 #| "@action:button Zoom to fit, shown in status bar, keep it short please"
@@ -936,14 +936,14 @@ msgctxt "@action Go to first image"
 msgid "First"
 msgstr "Lihevkirin"
 
-#: app/mainwindow.cpp:398
+#: app/mainwindow.cpp:412
 #, fuzzy
 #| msgid "Go to Next Image"
 msgctxt "@info:tooltip"
 msgid "Go to first image"
 msgstr "Biçe Wêneya Pêş"
 
-#: app/mainwindow.cpp:403
+#: app/mainwindow.cpp:417
 #, fuzzy
 #| msgctxt "@action:inmenu"
 #| msgid "Date"
@@ -951,112 +951,112 @@ msgctxt "@action Go to last image"
 msgid "Last"
 msgstr "Dîrok"
 
-#: app/mainwindow.cpp:404
+#: app/mainwindow.cpp:418
 #, fuzzy
 #| msgid "Go to Next Image"
 msgctxt "@info:tooltip"
 msgid "Go to last image"
 msgstr "Biçe Wêneya Pêş"
 
-#: app/mainwindow.cpp:414
+#: app/mainwindow.cpp:428
 msgctxt "@action"
 msgid "Start Page"
 msgstr "Rûpela Destpêkê"
 
-#: app/mainwindow.cpp:415
+#: app/mainwindow.cpp:429
 msgctxt "@info:tooltip"
 msgid "Open the start page"
 msgstr ""
 
-#: app/mainwindow.cpp:422
+#: app/mainwindow.cpp:436
 #, fuzzy
 #| msgid "Hide Sidebar"
 msgctxt "@action"
 msgid "Sidebar"
 msgstr "Darika-kêlekê Veşêre"
 
-#: app/mainwindow.cpp:457
+#: app/mainwindow.cpp:471
 msgctxt "@title actions category - means actions changing smth in interface"
 msgid "Edit"
 msgstr "Serast Bike"
 
-#: app/mainwindow.cpp:462
+#: app/mainwindow.cpp:476
 msgid "Redo"
 msgstr "Dîsa Bike"
 
-#: app/mainwindow.cpp:469
+#: app/mainwindow.cpp:483
 msgid "Undo"
 msgstr "Şûnde Bîne"
 
-#: app/mainwindow.cpp:515
+#: app/mainwindow.cpp:529
 #, fuzzy
 #| msgid "Recent Folders"
 msgid "Folders"
 msgstr "Peldankên Borî"
 
-#: app/mainwindow.cpp:521
+#: app/mainwindow.cpp:535
 #, fuzzy
 #| msgid "Meta Information"
 msgid "Information"
 msgstr "Agahiya Meta"
 
-#: app/mainwindow.cpp:532
+#: app/mainwindow.cpp:546
 #, fuzzy
 #| msgid "File Operations"
 msgid "Operations"
 msgstr "Xebatên Pelê"
 
-#: app/mainwindow.cpp:605
+#: app/mainwindow.cpp:621
 msgid "Last document reached, continuing on first document."
 msgstr ""
 
-#: app/mainwindow.cpp:606
+#: app/mainwindow.cpp:622
 msgid "First document reached, continuing on last document."
 msgstr ""
 
-#: app/mainwindow.cpp:1201
+#: app/mainwindow.cpp:1212
 #, fuzzy
 #| msgid "Hide Sidebar"
 msgctxt "@info:tooltip"
 msgid "Hide sidebar"
 msgstr "Darika-kêlekê Veşêre"
 
-#: app/mainwindow.cpp:1201
+#: app/mainwindow.cpp:1212
 #, fuzzy
 #| msgid "Hide Sidebar"
 msgctxt "@info:tooltip"
 msgid "Show sidebar"
 msgstr "Darika-kêlekê Veşêre"
 
-#: app/mainwindow.cpp:1439
+#: app/mainwindow.cpp:1450
 msgctxt "@title:window"
 msgid "Open Image"
 msgstr "Wêneyê Veke"
 
-#: app/mainwindow.cpp:1496
+#: app/mainwindow.cpp:1507
 msgid "Stop Slideshow"
 msgstr "Nîşandana-slaytê Rawestîne"
 
-#: app/mainwindow.cpp:1499
+#: app/mainwindow.cpp:1510
 msgid "Start Slideshow"
 msgstr "Nîşandana-slaytê Bide Destpêkirin"
 
-#: app/mainwindow.cpp:1513
+#: app/mainwindow.cpp:1524
 msgid "Save All Changes"
 msgstr "Hemû Guherandinan Tomar Bike"
 
-#: app/mainwindow.cpp:1514
+#: app/mainwindow.cpp:1525
 msgid "Discard Changes"
 msgstr "Guhertinan Jê Bibe"
 
-#: app/mainwindow.cpp:1515
+#: app/mainwindow.cpp:1526
 #, kde-format
 msgid "One image has been modified."
 msgid_plural "%1 images have been modified."
 msgstr[0] "Yek wêne hatiye guhertin."
 msgstr[1] "%1 wêne hatine guhertin."
 
-#: app/mainwindow.cpp:1517
+#: app/mainwindow.cpp:1528
 msgid "If you quit now, your changes will be lost."
 msgstr "Heke tu niha derkevî, guherandinên te dê winda bin."
 
@@ -1237,20 +1237,20 @@ msgstr ""
 "Lêborîne, nihêrîna bi etîket re tune ye. Baş bizane ku Nepomuk di komputera "
 "te de saz kirî ye."
 
-#: app/viewmainpage.cpp:305 app/viewmainpage.cpp:432
+#: app/viewmainpage.cpp:307 app/viewmainpage.cpp:442
 msgid "Synchronize"
 msgstr ""
 
-#: app/viewmainpage.cpp:423
+#: app/viewmainpage.cpp:433
 msgid "Thumbnail Bar"
 msgstr "Darika Wêneyên Biçûk"
 
-#: app/viewmainpage.cpp:714
+#: app/viewmainpage.cpp:724
 msgctxt "@action:button"
 msgid "Discard Changes and Reload"
 msgstr "Guherandin û Nû ve Barkirinê Jê Bavêje"
 
-#: app/viewmainpage.cpp:716
+#: app/viewmainpage.cpp:726
 msgctxt "@info"
 msgid ""
 "This image has been modified. Reloading it will discard all your changes."
