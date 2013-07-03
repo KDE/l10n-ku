@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-07-02 01:32+0000\n"
+"POT-Creation-Date: 2013-07-03 01:30+0000\n"
 "PO-Revision-Date: 2009-02-21 06:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -2308,7 +2308,7 @@ msgctxt "default name for new folder"
 msgid "New Folder"
 msgstr "Peldank"
 
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:123
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:119
 #, fuzzy, kde-format
 #| msgid "Playlist"
 msgctxt "number of playlists from one source"
@@ -2317,7 +2317,7 @@ msgid_plural "%1 playlists"
 msgstr[0] "Lîsteya Lêdanê"
 msgstr[1] "Lîsteya Lêdanê"
 
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:128
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:124
 #, fuzzy
 #| msgid "Rating"
 msgctxt "normally number of playlists, but they are still loading"
@@ -13659,11 +13659,22 @@ msgstr "Pelên Lîsteya Lêdanê"
 msgid "The playlist file \"%1\" could not be loaded."
 msgstr "Ev hêman nayê çê kirin."
 
-#: playlistmanager/sql/SqlPlaylist.cpp:41
-#, fuzzy
-#| msgid "Playlist name:"
-msgid "Playlist in database"
-msgstr "Navê Lîsteya Lêdanê:"
+#: playlistmanager/sql/SqlUserPlaylistProvider.cpp:286
+#, kde-format
+msgid ""
+"Version %1 of playlist database schema encountered, however this Amarok "
+"version only supports version %2 (and previous versions starting with %2. "
+"Playlists saved in the Amarok Database probably will not work and any write "
+"operations with them may result in losing them. Perhaps you have started an "
+"older version of Amarok with a database written by newer version?"
+msgstr ""
+
+#: playlistmanager/sql/SqlUserPlaylistProvider.cpp:293
+msgctxt ""
+"the user's 'database version' is newer and unsupported by this software "
+"version"
+msgid "Future version of Playlist Database?"
+msgstr ""
 
 #: playlistmanager/sql/SqlUserPlaylistProvider.h:44
 #, fuzzy
@@ -13678,13 +13689,7 @@ msgid "Local playlists stored in the database"
 msgstr "Lîsteyên lêdanê yên herêmî yên di bingeha dana de tomarkirî"
 
 #: playlistmanager/SyncedPlaylist.cpp:43 playlistmanager/SyncedPlaylist.cpp:51
-#: playlistmanager/SyncedPlaylist.cpp:59
 msgid "<Empty>"
-msgstr ""
-
-#: playlistmanager/SyncedPlaylist.cpp:66
-#, kde-format
-msgid "Synchronized on: %1"
 msgstr ""
 
 #: PluginManager.cpp:250
@@ -16758,6 +16763,11 @@ msgstr ""
 #| msgid "Volume: %1%"
 msgid "Volume: %1%"
 msgstr "Deng: %1%"
+
+#, fuzzy
+#~| msgid "Playlist name:"
+#~ msgid "Playlist in database"
+#~ msgstr "Navê Lîsteya Lêdanê:"
 
 #, fuzzy
 #~| msgid "Example: My_Ipod"
