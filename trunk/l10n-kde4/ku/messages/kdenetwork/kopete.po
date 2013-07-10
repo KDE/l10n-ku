@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kopete\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-06-22 01:37+0000\n"
+"POT-Creation-Date: 2013-07-10 07:42+0000\n"
 "PO-Revision-Date: 2008-06-22 23:57+0200\n"
 "Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish <ku@li.org>\n"
@@ -167,42 +167,42 @@ msgstr ""
 msgid "Co&nnect now"
 msgstr ""
 
-#: kopete/chatwindow/chatmessagepart.cpp:282
+#: kopete/chatwindow/chatmessagepart.cpp:277
 #: plugins/history/historydialog.cpp:170
 #: plugins/history2/history2dialog.cpp:175
 msgid "Copy Link Address"
 msgstr "Girêdana Navnîşanê Ji Ber Bigire"
 
-#: kopete/chatwindow/chatmessagepart.cpp:318
+#: kopete/chatwindow/chatmessagepart.cpp:313
 msgid "Save Conversation"
 msgstr "Axaftinan Tomar Bike"
 
-#: kopete/chatwindow/chatmessagepart.cpp:368
+#: kopete/chatwindow/chatmessagepart.cpp:363
 #, kde-format
 msgid "<qt>Could not open <b>%1</b> for writing.</qt>"
 msgstr "<qt><b>%1</b> ji bo nivîsandinê nayê vekirin.</qt>"
 
-#: kopete/chatwindow/chatmessagepart.cpp:369
+#: kopete/chatwindow/chatmessagepart.cpp:364
 msgid "Error While Saving"
 msgstr "Di Tomatkirinê de Çewtî Derket"
 
-#: kopete/chatwindow/chatmessagepart.cpp:814
+#: kopete/chatwindow/chatmessagepart.cpp:797
 msgid "User Has Left"
 msgstr "Bikarhêner Derket"
 
-#: kopete/chatwindow/chatmessagepart.cpp:1396
+#: kopete/chatwindow/chatmessagepart.cpp:1380
 #, fuzzy
 #| msgid "The signature is invalid."
 msgid "Chat style could not be found, or is invalid."
 msgstr "Îmze ne derbasdar e."
 
-#: kopete/chatwindow/chatmessagepart.cpp:1453
+#: kopete/chatwindow/chatmessagepart.cpp:1437
 #, fuzzy
 #| msgid "Send File"
 msgid "Save File as"
 msgstr "Pelekî Bişîne"
 
-#: kopete/chatwindow/chatmessagepart.cpp:1453
+#: kopete/chatwindow/chatmessagepart.cpp:1437
 msgid "Wav file (*.wav)"
 msgstr ""
 
@@ -619,51 +619,37 @@ msgstr "Ev peyameke hatiye kirpandin e"
 #. i18n: ectx: label, entry, group (Appearance)
 #: kopete/chatwindow/kopetechatwindowsettings.kcfg:61
 #: libkopete/kopeteappearancesettings.kcfg:47
-msgid "Disable custom text color set by users."
-msgstr ""
-
-#. i18n: ectx: label, entry, group (Appearance)
-#: kopete/chatwindow/kopetechatwindowsettings.kcfg:66
-#: libkopete/kopeteappearancesettings.kcfg:52
-#, fuzzy
-#| msgid "Change the background color to:"
-msgid "Disable custom background color set by users."
-msgstr "Rengê rûerd biguherîne:"
-
-#. i18n: ectx: label, entry, group (Appearance)
-#: kopete/chatwindow/kopetechatwindowsettings.kcfg:71
-#: libkopete/kopeteappearancesettings.kcfg:57
 #, fuzzy
 #| msgid "Disable &Rich Text"
-msgid "Disable rich text set by users."
+msgid "Disable custom formatting set by users."
 msgstr "Deqa &Zengîn Bigire"
 
 #. i18n: ectx: label, entry, group (Appearance)
-#: kopete/chatwindow/kopetechatwindowsettings.kcfg:78
-#: libkopete/kopeteappearancesettings.kcfg:64
+#: kopete/chatwindow/kopetechatwindowsettings.kcfg:68
+#: libkopete/kopeteappearancesettings.kcfg:54
 #, fuzzy
 #| msgid "Set Text &Color..."
 msgid "Chat text color."
 msgstr "&Rengê Nivîsê Mîheng Bike..."
 
 #. i18n: ectx: label, entry, group (Appearance)
-#: kopete/chatwindow/kopetechatwindowsettings.kcfg:83
-#: libkopete/kopeteappearancesettings.kcfg:69
+#: kopete/chatwindow/kopetechatwindowsettings.kcfg:73
+#: libkopete/kopeteappearancesettings.kcfg:59
 #, fuzzy
 #| msgid "Change the background color to:"
 msgid "Chat background color."
 msgstr "Rengê rûerd biguherîne:"
 
 #. i18n: ectx: label, entry, group (Appearance)
-#: kopete/chatwindow/kopetechatwindowsettings.kcfg:88
-#: libkopete/kopeteappearancesettings.kcfg:74
+#: kopete/chatwindow/kopetechatwindowsettings.kcfg:78
+#: libkopete/kopeteappearancesettings.kcfg:64
 #, fuzzy
 msgid "Chat link color."
 msgstr "Rengê girêdanê:"
 
 #. i18n: ectx: label, entry, group (Appearance)
-#: kopete/chatwindow/kopetechatwindowsettings.kcfg:93
-#: libkopete/kopeteappearancesettings.kcfg:84
+#: kopete/chatwindow/kopetechatwindowsettings.kcfg:83
+#: libkopete/kopeteappearancesettings.kcfg:74
 #, fuzzy
 msgid "Chat font."
 msgstr "Girêdan çênabe."
@@ -1155,7 +1141,7 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
 #: kopete/config/appearance/appearanceconfig_colors.ui:78
-#: kopete/config/chatwindow/chatwindowconfig_colors.ui:89
+#: kopete/config/chatwindow/chatwindowconfig_colors.ui:92
 #: plugins/texteffect/texteffectprefs.ui:63
 msgid "Colors"
 msgstr "Reng"
@@ -2112,17 +2098,17 @@ msgstr "Şêwaza Lîstekirinê"
 msgid "&Emoticons"
 msgstr "&Emoticon"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:352
+#: kopete/config/chatwindow/chatwindowconfig.cpp:351
 msgid "(No Variant)"
 msgstr "(Cudahî tune)"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:409
+#: kopete/config/chatwindow/chatwindowconfig.cpp:408
 #, fuzzy
 #| msgid "Choose Chat Window style to install."
 msgid "Choose Chat Window Style to Install"
 msgstr "Cureyê paceya sohbetê ya ku dixwazî saz bikî, hilbijêre."
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:420
+#: kopete/config/chatwindow/chatwindowconfig.cpp:419
 #, fuzzy
 #| msgid ""
 #| "The specified archive cannot be opened.\n"
@@ -2134,13 +2120,13 @@ msgstr ""
 "Arşîva mîsoger nayê vekirin.\n"
 "Binêre ka arşîv ji bo ZIP an jî TAR'ê derbasdar e an na."
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:420
+#: kopete/config/chatwindow/chatwindowconfig.cpp:419
 #, fuzzy
 #| msgid "Cannot open archive"
 msgid "Cannot Open Archive"
 msgstr "Arşîv nayê vekirin"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:425
+#: kopete/config/chatwindow/chatwindowconfig.cpp:424
 #, fuzzy
 #| msgid ""
 #| "Could not find a suitable place to install the Chat Window style in user "
@@ -2148,35 +2134,35 @@ msgstr "Arşîv nayê vekirin"
 msgid "Could not find a suitable place to install the chat window style."
 msgstr "Ji bo sazkirina dirbên îkonên hestan cihekî guncav nehate dîtin."
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:425
+#: kopete/config/chatwindow/chatwindowconfig.cpp:424
 #, fuzzy
 #| msgid "Cannot find styles directory"
 msgid "Cannot Find Styles Directory"
 msgstr "Pelrêka cureyan nehat dîtin"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:429
+#: kopete/config/chatwindow/chatwindowconfig.cpp:428
 #, fuzzy
 #| msgid "The specified archive does not contain a valid Chat Window style."
 msgid "The specified archive does not contain a valid chat window style."
 msgstr "Arşîva mîsoger cureyê Paceya Sohbeteke derbasdar nahundirîne."
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:429
+#: kopete/config/chatwindow/chatwindowconfig.cpp:428
 msgid "Invalid Style"
 msgstr "Cureyê nederbasdar"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:433
+#: kopete/config/chatwindow/chatwindowconfig.cpp:432
 #, fuzzy
 #| msgid "The Chat Window style was successfully installed."
 msgid "The chat window style was successfully installed."
 msgstr "Ji înternetê cureyên paceyên sohbetê daxe."
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:433
+#: kopete/config/chatwindow/chatwindowconfig.cpp:432
 #, fuzzy
 #| msgid "Install successful"
 msgid "Install Successful"
 msgstr "Sazkirin bi ser ket"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:439
+#: kopete/config/chatwindow/chatwindowconfig.cpp:438
 #, fuzzy
 #| msgid ""
 #| "An unknow error occurred while trying to install the Chat Window style."
@@ -2184,19 +2170,19 @@ msgid ""
 "An unknown error occurred while trying to install the chat window style."
 msgstr "Dema ku cureyê paceya sohbetê dihat daxistin çewtiyek derket holê."
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:439
+#: kopete/config/chatwindow/chatwindowconfig.cpp:438
 #, fuzzy
 msgid "Unknown Error"
 msgstr "Çewtiya nenas."
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:474
+#: kopete/config/chatwindow/chatwindowconfig.cpp:473
 #, fuzzy, kde-format
 #| msgid "The Chat Window style was successfully installed."
 msgctxt "@info"
 msgid "The Chat Window Style <resource>%1</resource> was successfully deleted."
 msgstr "Ji înternetê cureyên paceyên sohbetê daxe."
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:479
+#: kopete/config/chatwindow/chatwindowconfig.cpp:478
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -2204,14 +2190,14 @@ msgid ""
 "Window Style. Your account might not have permission to remove it."
 msgstr ""
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:512
+#: kopete/config/chatwindow/chatwindowconfig.cpp:511
 #, fuzzy, kde-format
 #| msgid "The Chat Window style was successfully installed."
 msgctxt "@title:window"
 msgid "Chat Window Style <resource>%1</resource> installation"
 msgstr "Ji înternetê cureyên paceyên sohbetê daxe."
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:517
+#: kopete/config/chatwindow/chatwindowconfig.cpp:516
 #, fuzzy, kde-format
 #| msgid ""
 #| "The specified archive cannot be opened.\n"
@@ -2224,7 +2210,7 @@ msgstr ""
 "Arşîva mîsoger nayê vekirin.\n"
 "Binêre ka arşîv ji bo ZIP an jî TAR'ê derbasdar e an na."
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:522
+#: kopete/config/chatwindow/chatwindowconfig.cpp:521
 #, fuzzy, kde-format
 #| msgid ""
 #| "Could not find a suitable place to install the Chat Window style in user "
@@ -2235,7 +2221,7 @@ msgid ""
 "%1</resource>."
 msgstr "Ji bo sazkirina dirbên îkonên hestan cihekî guncav nehate dîtin."
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:526
+#: kopete/config/chatwindow/chatwindowconfig.cpp:525
 #, fuzzy, kde-format
 #| msgid "The specified archive does not contain a valid Chat Window style."
 msgctxt "@info"
@@ -2244,7 +2230,7 @@ msgid ""
 "Window Style."
 msgstr "Arşîva mîsoger cureyê Paceya Sohbeteke derbasdar nahundirîne."
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:536
+#: kopete/config/chatwindow/chatwindowconfig.cpp:535
 #, fuzzy, kde-format
 #| msgid ""
 #| "An unknow error occurred while trying to install the Chat Window style."
@@ -2254,7 +2240,7 @@ msgid ""
 "<resource>%1</resource>."
 msgstr "Dema ku cureyê paceya sohbetê dihat daxistin çewtiyek derket holê."
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:545
+#: kopete/config/chatwindow/chatwindowconfig.cpp:544
 #, fuzzy, kde-format
 #| msgid "The Chat Window style was successfully installed."
 msgid "One Chat Window Style package has been installed."
@@ -2262,115 +2248,115 @@ msgid_plural "%1 Chat Window Style packages have been installed."
 msgstr[0] "Ji înternetê cureyên paceyên sohbetê daxe."
 msgstr[1] "Ji înternetê cureyên paceyên sohbetê daxe."
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:557
+#: kopete/config/chatwindow/chatwindowconfig.cpp:556
 msgctxt "This is the myself preview contact id"
 msgid "myself@preview"
 msgstr ""
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:558
+#: kopete/config/chatwindow/chatwindowconfig.cpp:557
 #, fuzzy
 msgctxt "This is the myself preview contact nickname"
 msgid "Myself"
 msgstr "Ez"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:562
+#: kopete/config/chatwindow/chatwindowconfig.cpp:561
 msgid "Jack"
 msgstr "Jack"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:565
+#: kopete/config/chatwindow/chatwindowconfig.cpp:564
 #, fuzzy
 msgctxt "This is the other preview contact id"
 msgid "jack@preview"
 msgstr "Pêşdîtin:"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:566
+#: kopete/config/chatwindow/chatwindowconfig.cpp:565
 #, fuzzy
 msgctxt "This is the other preview contact nickname"
 msgid "Jack"
 msgstr "Jack"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:574
+#: kopete/config/chatwindow/chatwindowconfig.cpp:573
 #, fuzzy
 msgctxt "preview of a chat session"
 msgid "Preview Session"
 msgstr "Pêşdîtin:"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:580
+#: kopete/config/chatwindow/chatwindowconfig.cpp:579
 msgid "Hello, this is an incoming message :-)"
 msgstr "Silav, ev peyama min a têketinê ye"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:584
+#: kopete/config/chatwindow/chatwindowconfig.cpp:583
 msgid "Hello, this is an incoming consecutive message."
 msgstr "Silav, ev peyama min a têketinê ye"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:588
+#: kopete/config/chatwindow/chatwindowconfig.cpp:587
 msgid "Ok, this is an outgoing message"
 msgstr "Temam, ev peyama min a derketinê ye"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:592
+#: kopete/config/chatwindow/chatwindowconfig.cpp:591
 #, fuzzy
 msgid "Ok, an outgoing consecutive message."
 msgstr "Temam, ev peyama min a derketinê ye"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:596
+#: kopete/config/chatwindow/chatwindowconfig.cpp:595
 #, fuzzy
 #| msgid "Message has been displayed"
 msgid "Message that is being sent."
 msgstr "Peyam hate nîşandan"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:601
+#: kopete/config/chatwindow/chatwindowconfig.cpp:600
 #, fuzzy
 #| msgid "Server messages:"
 msgid "Delivered message."
 msgstr "Peyamên ji pêşkêşker hatiye:"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:606
+#: kopete/config/chatwindow/chatwindowconfig.cpp:605
 #, fuzzy
 #| msgid "Message has been delivered"
 msgid "Message that cannot be delivered."
 msgstr "Peyam hate veguheztin"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:611
+#: kopete/config/chatwindow/chatwindowconfig.cpp:610
 #, fuzzy
 msgid "Here is an incoming colored message."
 msgstr "Dikarî peyamên ji vir birengînî"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:617
+#: kopete/config/chatwindow/chatwindowconfig.cpp:616
 msgid "This is an internal message"
 msgstr "Ev peyameke hundirîn e"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:621
+#: kopete/config/chatwindow/chatwindowconfig.cpp:620
 msgid "performed an action"
 msgstr "çalakiyê zindî bike"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:626
+#: kopete/config/chatwindow/chatwindowconfig.cpp:625
 msgid "This is a highlighted message"
 msgstr "Ev peyameke hatiye kirpandin e"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:631
+#: kopete/config/chatwindow/chatwindowconfig.cpp:630
 #, fuzzy
 #| msgid "Hello, this is an incoming message :-)"
 msgid "Hello, this is an incoming file transfer request"
 msgstr "Silav, ev peyama min a têketinê ye"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:638
+#: kopete/config/chatwindow/chatwindowconfig.cpp:637
 #, fuzzy
 #| msgid "Hello, this is an incoming message :-)"
 msgid "Hello, this is a disabled incoming file transfer request"
 msgstr "Silav, ev peyama min a têketinê ye"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:647
+#: kopete/config/chatwindow/chatwindowconfig.cpp:646
 msgctxt ""
 "This special UTF-8 string is to test if the style supports Right-to-Left "
 "language display."
 msgid "הודעות טקסט"
 msgstr ""
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:651
+#: kopete/config/chatwindow/chatwindowconfig.cpp:650
 msgid "Bye"
 msgstr "Bi xatirê te"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:730
+#: kopete/config/chatwindow/chatwindowconfig.cpp:729
 #, fuzzy
 #| msgid "Installing Emoticon Themes..."
 msgid "Configure Emoticon Themes"
@@ -2385,10 +2371,8 @@ msgstr "&Curenivîs"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, textLabel3_2)
 #. i18n: ectx: property (toolTip), widget (KFontRequester, kcfg_chatFont)
-#. i18n: ectx: property (toolTip), widget (QLabel, textLabel3)
 #: kopete/config/chatwindow/chatwindowconfig_colors.ui:30
-#: kopete/config/chatwindow/chatwindowconfig_colors.ui:73
-#: kopete/config/chatwindow/chatwindowconfig_colors.ui:99
+#: kopete/config/chatwindow/chatwindowconfig_colors.ui:76
 msgid ""
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
 "\">\n"
@@ -2406,92 +2390,122 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, textLabel3_2)
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
 #: kopete/config/chatwindow/chatwindowconfig_colors.ui:33
-#: kopete/config/chatwindow/chatwindowconfig_colors.ui:102
+#: kopete/config/chatwindow/chatwindowconfig_colors.ui:104
 #, fuzzy
 msgid "Base &font:"
 msgstr "Curenivîsa bingehîn:"
 
-#. i18n: ectx: property (text), widget (QRadioButton, radioButton)
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, radioButton)
 #: kopete/config/chatwindow/chatwindowconfig_colors.ui:43
+msgid "Use normal screen font"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton)
+#: kopete/config/chatwindow/chatwindowconfig_colors.ui:46
 msgid "Use system font"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioButton_2)
-#: kopete/config/chatwindow/chatwindowconfig_colors.ui:50
+#: kopete/config/chatwindow/chatwindowconfig_colors.ui:53
 #, fuzzy
 msgid "Use custom font:"
 msgstr "Taybet"
 
+#. i18n: ectx: property (toolTip), widget (QLabel, textLabel3)
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel3)
 #. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_chatTextColor)
-#: kopete/config/chatwindow/chatwindowconfig_colors.ui:112
-#, fuzzy
-msgid "Base font color for the chat window"
-msgstr "Di paceya heman sohbetê de hemû peyaman dabeş bike"
+#. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_chatTextColor)
+#: kopete/config/chatwindow/chatwindowconfig_colors.ui:98
+#: kopete/config/chatwindow/chatwindowconfig_colors.ui:101
+#: kopete/config/chatwindow/chatwindowconfig_colors.ui:114
+#: kopete/config/chatwindow/chatwindowconfig_colors.ui:117
+msgid "The color of normal text"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#: kopete/config/chatwindow/chatwindowconfig_colors.ui:122
+#: kopete/config/chatwindow/chatwindowconfig_colors.ui:127
 msgid "&Highlight foreground:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_highlightForegroundColor)
-#: kopete/config/chatwindow/chatwindowconfig_colors.ui:132
+#. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_highlightForegroundColor)
+#: kopete/config/chatwindow/chatwindowconfig_colors.ui:137
+#: kopete/config/chatwindow/chatwindowconfig_colors.ui:140
 #, fuzzy
 msgid "Foreground color for highlighted messages"
 msgstr "Ev peyameke hatiye kirpandin e"
 
-#. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
-#: kopete/config/chatwindow/chatwindowconfig_colors.ui:142
-#, fuzzy
-msgid "&Background color:"
-msgstr "Rengê rûerd:"
-
+#. i18n: ectx: property (toolTip), widget (QLabel, textLabel2_2)
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel2_2)
 #. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_chatBackgroundColor)
-#: kopete/config/chatwindow/chatwindowconfig_colors.ui:152
+#. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_chatBackgroundColor)
+#: kopete/config/chatwindow/chatwindowconfig_colors.ui:150
+#: kopete/config/chatwindow/chatwindowconfig_colors.ui:153
+#: kopete/config/chatwindow/chatwindowconfig_colors.ui:166
+#: kopete/config/chatwindow/chatwindowconfig_colors.ui:169
 #, fuzzy
 msgid "Color for the background of the chat window"
 msgstr "Di paceya heman sohbetê de hemû peyaman dabeş bike"
 
-#. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: kopete/config/chatwindow/chatwindowconfig_colors.ui:169
-msgid "Highlight bac&kground:"
-msgstr ""
+#. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
+#: kopete/config/chatwindow/chatwindowconfig_colors.ui:156
+#, fuzzy
+msgid "&Background color:"
+msgstr "Rengê rûerd:"
 
+#. i18n: ectx: property (toolTip), widget (QLabel, textLabel1)
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel1)
 #. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_highlightBackgroundColor)
-#: kopete/config/chatwindow/chatwindowconfig_colors.ui:179
+#. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_highlightBackgroundColor)
+#: kopete/config/chatwindow/chatwindowconfig_colors.ui:186
+#: kopete/config/chatwindow/chatwindowconfig_colors.ui:189
+#: kopete/config/chatwindow/chatwindowconfig_colors.ui:202
+#: kopete/config/chatwindow/chatwindowconfig_colors.ui:205
 #, fuzzy
 msgid "Background color for highlighted messages"
 msgstr "Ev peyameke hatiye kirpandin e"
 
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: kopete/config/chatwindow/chatwindowconfig_colors.ui:192
+msgid "Highlight bac&kground:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QLabel, textLabel1_3)
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel1_3)
+#. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_chatLinkColor)
+#. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_chatLinkColor)
+#: kopete/config/chatwindow/chatwindowconfig_colors.ui:215
+#: kopete/config/chatwindow/chatwindowconfig_colors.ui:218
+#: kopete/config/chatwindow/chatwindowconfig_colors.ui:231
+#: kopete/config/chatwindow/chatwindowconfig_colors.ui:234
+msgid "Color used for links in chats"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
-#: kopete/config/chatwindow/chatwindowconfig_colors.ui:189
+#: kopete/config/chatwindow/chatwindowconfig_colors.ui:221
 #, fuzzy
 msgid "&Link color:"
 msgstr "Rengê girêdanê:"
 
-#. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_chatLinkColor)
-#: kopete/config/chatwindow/chatwindowconfig_colors.ui:199
-msgid "Color used for links in chats"
-msgstr ""
-
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: kopete/config/chatwindow/chatwindowconfig_colors.ui:219
+#: kopete/config/chatwindow/chatwindowconfig_colors.ui:254
 msgid "Formatting Overrides"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_chatBgOverride)
-#: kopete/config/chatwindow/chatwindowconfig_colors.ui:225
-msgid "Do not show user specified back&ground color"
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_chatFmtOverride)
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_chatFmtOverride)
+#: kopete/config/chatwindow/chatwindowconfig_colors.ui:260
+#: kopete/config/chatwindow/chatwindowconfig_colors.ui:263
+msgid ""
+"Disregard the colors (background and foreground), and font (size and "
+"typeface) of incoming messages"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_chatFgOverride)
-#: kopete/config/chatwindow/chatwindowconfig_colors.ui:232
-msgid "&Do not show user specified foreground color"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_chatRtfOverride)
-#: kopete/config/chatwindow/chatwindowconfig_colors.ui:239
-msgid "Do not show user specified &rich text"
-msgstr ""
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_chatFmtOverride)
+#: kopete/config/chatwindow/chatwindowconfig_colors.ui:266
+#, fuzzy
+msgid "Ignore peer's formatting"
+msgstr "Agahiya Bikarhêner ya ICQ"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_useEmoticons)
 #: kopete/config/chatwindow/chatwindowconfig_emoticons.ui:22
@@ -4796,164 +4810,164 @@ msgid "Enable emoticon support in Kopete."
 msgstr ""
 
 #. i18n: ectx: label, entry, group (Appearance)
-#: libkopete/kopeteappearancesettings.kcfg:79
+#: libkopete/kopeteappearancesettings.kcfg:69
 #, fuzzy
 msgid "Whether using the system font for the chat window."
 msgstr "Di paceya heman sohbetê de hemû peyaman dabeş bike"
 
 #. i18n: ectx: label, entry, group (Appearance)
-#: libkopete/kopeteappearancesettings.kcfg:91
+#: libkopete/kopeteappearancesettings.kcfg:81
 msgid "Color used to identify idle contacts."
 msgstr ""
 
 #. i18n: ectx: label, entry, group (Appearance)
-#: libkopete/kopeteappearancesettings.kcfg:96
+#: libkopete/kopeteappearancesettings.kcfg:86
 msgid "Whether to use a different color for idle contacts."
 msgstr ""
 
 #. i18n: ectx: label, entry, group (Appearance)
-#: libkopete/kopeteappearancesettings.kcfg:103
+#: libkopete/kopeteappearancesettings.kcfg:93
 msgid "Contact properties that contact tooltip will show."
 msgstr ""
 
 #. i18n: ectx: label, entry, group (ContactList)
-#: libkopete/kopeteappearancesettings.kcfg:111
-#: libkopete/kopeteappearancesettings.kcfg:120
+#: libkopete/kopeteappearancesettings.kcfg:101
+#: libkopete/kopeteappearancesettings.kcfg:110
 #, fuzzy
 #| msgid "&Contact Settings"
 msgid "Contact list group sorting"
 msgstr "Mîhengên &Têkiliyê"
 
 #. i18n: ectx: label, entry, group (ContactList)
-#: libkopete/kopeteappearancesettings.kcfg:130
+#: libkopete/kopeteappearancesettings.kcfg:120
 msgid ""
 "Contact list icon display mode. Either the protocol icon or the contact "
 "photo."
 msgstr ""
 
 #. i18n: ectx: label, entry, group (ContactList)
-#: libkopete/kopeteappearancesettings.kcfg:139
+#: libkopete/kopeteappearancesettings.kcfg:129
 msgid "Enable borders on the contact's photo."
 msgstr ""
 
 #. i18n: ectx: label, entry, group (ContactList)
-#: libkopete/kopeteappearancesettings.kcfg:144
+#: libkopete/kopeteappearancesettings.kcfg:134
 msgid "Round contact photo corners."
 msgstr ""
 
 #. i18n: ectx: label, entry, group (ContactList)
-#: libkopete/kopeteappearancesettings.kcfg:149
+#: libkopete/kopeteappearancesettings.kcfg:139
 msgid "Show contact list as a tree view."
 msgstr ""
 
 #. i18n: ectx: label, entry, group (ContactList)
-#: libkopete/kopeteappearancesettings.kcfg:154
+#: libkopete/kopeteappearancesettings.kcfg:144
 msgid "Indent contacts if you do not show tree lines."
 msgstr ""
 
 #. i18n: ectx: label, entry, group (ContactList)
-#: libkopete/kopeteappearancesettings.kcfg:159
+#: libkopete/kopeteappearancesettings.kcfg:149
 msgid "Hide the vertical scroll bar."
 msgstr ""
 
 #. i18n: ectx: label, entry, group (ContactList)
-#: libkopete/kopeteappearancesettings.kcfg:164
+#: libkopete/kopeteappearancesettings.kcfg:154
 msgid "Group contacts by group."
 msgstr ""
 
 #. i18n: ectx: label, entry, group (ContactList)
-#: libkopete/kopeteappearancesettings.kcfg:169
+#: libkopete/kopeteappearancesettings.kcfg:159
 #, fuzzy
 #| msgid "Not in your contact list"
 msgid "Use custom fonts for contact list."
 msgstr "Di lîsteya têkiliyan de tuneye"
 
 #. i18n: ectx: label, entry, group (ContactList)
-#: libkopete/kopeteappearancesettings.kcfg:174
+#: libkopete/kopeteappearancesettings.kcfg:164
 #, fuzzy
 msgid "Automatically resize the main window."
 msgstr "Jixweber"
 
 #. i18n: ectx: label, entry, group (ContactList)
-#: libkopete/kopeteappearancesettings.kcfg:179
+#: libkopete/kopeteappearancesettings.kcfg:169
 msgid "Corner at which to anchor main window when auto-resizing."
 msgstr ""
 
 #. i18n: ectx: label, entry, group (ContactList)
-#: libkopete/kopeteappearancesettings.kcfg:197
+#: libkopete/kopeteappearancesettings.kcfg:187
 #, fuzzy
 #| msgid "Not in your contact list"
 msgid "Normal font for contact list"
 msgstr "Di lîsteya têkiliyan de tuneye"
 
 #. i18n: ectx: label, entry, group (ContactList)
-#: libkopete/kopeteappearancesettings.kcfg:202
+#: libkopete/kopeteappearancesettings.kcfg:192
 msgid "Small font for contact list (for status message)"
 msgstr ""
 
 #. i18n: ectx: label, entry, group (ContactList)
-#: libkopete/kopeteappearancesettings.kcfg:207
+#: libkopete/kopeteappearancesettings.kcfg:197
 msgid "Color for group name."
 msgstr ""
 
 #. i18n: ectx: label, entry, group (ContactList)
-#: libkopete/kopeteappearancesettings.kcfg:212
+#: libkopete/kopeteappearancesettings.kcfg:202
 #, fuzzy
 #| msgid "I am on &the contact list of this contact"
 msgid "Animate contact list on contact list changes."
 msgstr "Ez di lîsteya &têkiliyên vî/ê şexsî/ê de me"
 
 #. i18n: ectx: label, entry, group (ContactList)
-#: libkopete/kopeteappearancesettings.kcfg:217
+#: libkopete/kopeteappearancesettings.kcfg:207
 #, fuzzy
 msgid "Fade-in/Fade-out on contact status changes."
 msgstr "Pel ji bo nivîsandinê nayê vekirin."
 
 #. i18n: ectx: label, entry, group (ContactList)
-#: libkopete/kopeteappearancesettings.kcfg:222
+#: libkopete/kopeteappearancesettings.kcfg:212
 #, fuzzy
 msgid "Fold-in/Fold-out on contact status changes."
 msgstr "Pel ji bo nivîsandinê nayê vekirin."
 
 #. i18n: ectx: label, entry, group (ContactList)
-#: libkopete/kopeteappearancesettings.kcfg:227
+#: libkopete/kopeteappearancesettings.kcfg:217
 #, fuzzy
 msgid "Auto-hide contact list after a while."
 msgstr "Pel ji bo nivîsandinê nayê vekirin."
 
 #. i18n: ectx: label, entry, group (ContactList)
-#: libkopete/kopeteappearancesettings.kcfg:232
+#: libkopete/kopeteappearancesettings.kcfg:222
 msgid "Auto-hide vertical scrollbar in contact list after a while."
 msgstr ""
 
 #. i18n: ectx: label, entry, group (ContactList)
-#: libkopete/kopeteappearancesettings.kcfg:237
+#: libkopete/kopeteappearancesettings.kcfg:227
 #, fuzzy
 #| msgid "timeout"
 msgid "Auto-hide timeout"
 msgstr "mawe qediya"
 
 #. i18n: ectx: label, entry, group (ContactList)
-#: libkopete/kopeteappearancesettings.kcfg:244
+#: libkopete/kopeteappearancesettings.kcfg:234
 #, fuzzy
 #| msgid "Show or hide the contact list"
 msgid "Show offline users in contact list."
 msgstr "Lîsteya têkiliyan veşêre an jî nîşan bide"
 
 #. i18n: ectx: label, entry, group (ContactList)
-#: libkopete/kopeteappearancesettings.kcfg:249
+#: libkopete/kopeteappearancesettings.kcfg:239
 #, fuzzy
 #| msgid "Show or hide the contact list"
 msgid "Show empty groups in contact list."
 msgstr "Lîsteya têkiliyan veşêre an jî nîşan bide"
 
 #. i18n: ectx: label, entry, group (ContactList)
-#: libkopete/kopeteappearancesettings.kcfg:254
+#: libkopete/kopeteappearancesettings.kcfg:244
 msgid "Show identities in status bar instead of accounts."
 msgstr ""
 
 #. i18n: ectx: label, entry, group (ContactList)
-#: libkopete/kopeteappearancesettings.kcfg:258
+#: libkopete/kopeteappearancesettings.kcfg:248
 #, fuzzy
 #| msgid "Show or hide the contact list"
 msgid "Show offline users in a separate group."
@@ -7064,7 +7078,7 @@ msgstr "Tu Formulên Latex tunin"
 msgid "<b>Preview of the LaTeX message :</b> <br />%1"
 msgstr "<b>Pêşdîtina peyama latex: </b> %1"
 
-#: plugins/latex/latexplugin.cpp:96
+#: plugins/latex/latexplugin.cpp:95
 #, fuzzy
 msgid ""
 "Cannot find the Magick 'convert' program.\n"
@@ -21397,6 +21411,15 @@ msgstr "Taybetmendiyên din"
 #: protocols/yahoo/yahooverifyaccount.cpp:42
 msgid "Account Verification - Yahoo"
 msgstr "Tercîhên Hesab - Yahoo"
+
+#, fuzzy
+#~| msgid "Change the background color to:"
+#~ msgid "Disable custom background color set by users."
+#~ msgstr "Rengê rûerd biguherîne:"
+
+#, fuzzy
+#~ msgid "Base font color for the chat window"
+#~ msgstr "Di paceya heman sohbetê de hemû peyaman dabeş bike"
 
 #~ msgid "Jabber &server:"
 #~ msgstr "&Pêşkêşkerê Jabberê:"
