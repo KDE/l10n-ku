@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-07-25 01:33+0000\n"
+"POT-Creation-Date: 2013-07-27 01:33+0000\n"
 "PO-Revision-Date: 2009-02-21 06:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -5114,6 +5114,14 @@ msgstr "Nêzîktir bike"
 #| msgid "Transferring: %1"
 msgid "Track rating: %1"
 msgstr "Diguhezîne: %1"
+
+#: context/widgets/RecentlyPlayedListWidget.cpp:214
+#: services/lastfm/ScrobblerAdapter.cpp:267
+#, fuzzy, kde-format
+#| msgid "%1 - %2"
+msgctxt "%1 is artist, %2 is title"
+msgid "%1 - %2"
+msgstr "%1 - %2"
 
 #: core-impl/capabilities/AlbumActionsCapability.cpp:38
 msgid "Do not show under Various Artists"
@@ -14900,13 +14908,6 @@ msgctxt ""
 "corrected value"
 msgid "%1 <b>%2</b> should be corrected to <b>%3</b>"
 msgstr "<b>%1</b> alî yê <b>%2</b> di <b>%3</b> de"
-
-#: services/lastfm/ScrobblerAdapter.cpp:267
-#, fuzzy, kde-format
-#| msgid "%1 - %2"
-msgctxt "%1 is artist, %2 is title"
-msgid "%1 - %2"
-msgstr "%1 - %2"
 
 #: services/lastfm/ScrobblerAdapter.cpp:270
 #, kde-format
