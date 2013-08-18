@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-08-17 01:32+0000\n"
+"POT-Creation-Date: 2013-08-18 01:34+0000\n"
 "PO-Revision-Date: 2009-02-21 06:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -6236,6 +6236,13 @@ msgctxt "The Value is not known"
 msgid "Unknown"
 msgstr "Nenas"
 
+#: core-impl/meta/multi/MultiTrack.h:59
+#, fuzzy
+#| msgid "Retrieve similar artists"
+msgctxt "Reason why a track is not playable"
+msgid "Underlying playlist is empty"
+msgstr "Hunermendên wekî vê bîne"
+
 #: core-impl/meta/proxy/MetaProxy.cpp:156
 #, kde-format
 msgid ""
@@ -6249,17 +6256,17 @@ msgstr ""
 msgid "Stream (%1)"
 msgstr "Darêj (%1)"
 
-#: core-impl/playlists/types/file/PlaylistFileLoaderJob.cpp:68
+#: core-impl/playlists/types/file/PlaylistFileLoaderJob.cpp:56
 msgid "Could not create a temporary file to download playlist."
 msgstr ""
 
-#: core-impl/playlists/types/file/PlaylistFileLoaderJob.cpp:76
+#: core-impl/playlists/types/file/PlaylistFileLoaderJob.cpp:64
 #, fuzzy
 #| msgid "Downloading Playlist"
 msgid "Downloading remote playlist"
 msgstr "Lîsteya Lêdanê Daxistin"
 
-#: core-impl/playlists/types/file/PlaylistFileLoaderJob.cpp:101
+#: core-impl/playlists/types/file/PlaylistFileLoaderJob.cpp:89
 #, fuzzy, kde-format
 #| msgid "Cannot read playlist (%1)."
 msgctxt "%1 is file path"
@@ -7922,7 +7929,7 @@ msgstr "Rûgirê Albumê yê Taybet Ava Bike"
 #: covermanager/CoverFoundDialog.cpp:128
 #: services/lastfm/LastFmServiceCollection.cpp:130
 #: services/lastfm/ScrobblerAdapter.cpp:73
-#: services/lastfm/SynchronizationAdapter.cpp:55
+#: services/lastfm/SynchronizationAdapter.cpp:56
 #, fuzzy
 #| msgid "last.fm"
 msgid "Last.fm"
@@ -10415,7 +10422,7 @@ msgstr "Lêdarê muzîkê ji bo KDE"
 #| "(C) 2003-2009, The Amarok Development Squad"
 msgid ""
 "(C) 2002-2003, Mark Kretschmann\n"
-"(C) 2003-2012, The Amarok Development Squad"
+"(C) 2003-2013, The Amarok Development Squad"
 msgstr ""
 "(C) 2002-2003, Mark Kretschmann\n"
 "(C) 2003-2008, The Amarok Development Squad"
@@ -12345,7 +12352,7 @@ msgstr "&Lêgere"
 msgid "%1 layout"
 msgstr " lêdan"
 
-#: playlist/PlaylistViewUrlRunner.cpp:110
+#: playlist/PlaylistViewUrlRunner.cpp:90
 #, fuzzy
 #| msgid "Playlist"
 msgctxt ""
@@ -14916,7 +14923,7 @@ msgstr ""
 msgid "Play Similar Artists from Last.fm"
 msgstr ""
 
-#: services/lastfm/SynchronizationAdapter.cpp:62
+#: services/lastfm/SynchronizationAdapter.cpp:63
 #, fuzzy
 #| msgid "No track playing"
 msgctxt "description of the Last.fm statistics synchronization provider"
