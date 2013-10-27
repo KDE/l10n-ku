@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_pager\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-03-13 03:46+0100\n"
+"POT-Creation-Date: 2013-10-26 01:33+0000\n"
 "PO-Revision-Date: 2008-12-26 00:57+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <gnu-ku-wergerandin at lists dot sourceforge dot "
@@ -20,83 +20,70 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-Language: Kurdish\n"
 
-#: pager.cpp:307
+#: package/contents/config/config.qml:25
+msgid "General"
+msgstr "Giştî"
+
+#: package/contents/ui/configGeneral.qml:79
+#, fuzzy
+#| msgid "Display text:"
+msgid "Display Text:"
+msgstr "Nivîs nîşan bide:"
+
+#: package/contents/ui/configGeneral.qml:85
+msgid "Desktop number"
+msgstr "Hejmara sermasê"
+
+#: package/contents/ui/configGeneral.qml:96
+msgid "Desktop name"
+msgstr "Navê sermasê"
+
+#: package/contents/ui/configGeneral.qml:102
+msgid "No text"
+msgstr "Nivîs tuneye"
+
+#: package/contents/ui/configGeneral.qml:107
+msgid "Display icons:"
+msgstr "Îkonan nîşan bide:"
+
+#: package/contents/ui/configGeneral.qml:115
+msgid "Selecting current desktop:"
+msgstr ""
+
+#: package/contents/ui/configGeneral.qml:121
+msgid "Does nothing"
+msgstr ""
+
+#: package/contents/ui/configGeneral.qml:132
+msgid "Shows desktop"
+msgstr ""
+
+#: package/contents/ui/configGeneral.qml:138
+msgid "Shows the dashboard"
+msgstr ""
+
+#: plugin/pager.cpp:205
 msgid "&Add Virtual Desktop"
 msgstr ""
 
-#: pager.cpp:310
+#: plugin/pager.cpp:208
 #, fuzzy
 #| msgid "&Configure Desktops..."
 msgid "&Remove Last Virtual Desktop"
 msgstr "Sermase yan &Veava bike..."
 
-#: pager.cpp:350
-msgid "General"
-msgstr "Giştî"
+#~ msgid "One window:"
+#~ msgid_plural "%1 windows:"
+#~ msgstr[0] "Yek pace:"
+#~ msgstr[1] "%1 pace:"
 
-#: pager.cpp:876
-#, kde-format
-msgid "One window:"
-msgid_plural "%1 windows:"
-msgstr[0] "Yek pace:"
-msgstr[1] "%1 pace:"
+#~ msgid "and 1 other"
+#~ msgid_plural "and %1 others"
+#~ msgstr[0] "û 1 din"
+#~ msgstr[1] "û %1 yên din"
 
-#: pager.cpp:880
-#, kde-format
-msgid "and 1 other"
-msgid_plural "and %1 others"
-msgstr[0] "û 1 din"
-msgstr[1] "û %1 yên din"
-
-#. i18n: ectx: property (windowTitle), widget (QWidget, pagerConfig)
-#: pagerConfig.ui:14
-msgid "Configure Pager"
-msgstr "Pager Veava Bike"
-
-#. i18n: ectx: property (text), widget (QLabel, displayLabel)
-#: pagerConfig.ui:41
-msgid "Display text:"
-msgstr "Nivîs nîşan bide:"
-
-#. i18n: ectx: property (text), widget (QRadioButton, desktopNumberRadioButton)
-#: pagerConfig.ui:51
-msgid "Desktop number"
-msgstr "Hejmara sermasê"
-
-#. i18n: ectx: property (text), widget (QRadioButton, desktopNameRadioButton)
-#: pagerConfig.ui:61
-msgid "Desktop name"
-msgstr "Navê sermasê"
-
-#. i18n: ectx: property (text), widget (QRadioButton, displayNoneRadioButton)
-#: pagerConfig.ui:71
-msgid "No text"
-msgstr "Nivîs tuneye"
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: pagerConfig.ui:81
-msgid "Display icons:"
-msgstr "Îkonan nîşan bide:"
-
-#. i18n: ectx: property (text), widget (QLabel, currentLabel)
-#: pagerConfig.ui:101
-msgid "Selecting current desktop:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QRadioButton, doNothingRadioButton)
-#: pagerConfig.ui:111
-msgid "Does nothing"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QRadioButton, showDesktopRadioButton)
-#: pagerConfig.ui:121
-msgid "Shows desktop"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QRadioButton, showDashboardRadioButton)
-#: pagerConfig.ui:131
-msgid "Shows the dashboard"
-msgstr ""
+#~ msgid "Configure Pager"
+#~ msgstr "Pager Veava Bike"
 
 #, fuzzy
 #~| msgid "Number of rows:"
