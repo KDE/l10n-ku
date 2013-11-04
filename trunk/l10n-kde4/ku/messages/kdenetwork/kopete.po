@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kopete\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-10-29 01:31+0000\n"
+"POT-Creation-Date: 2013-11-04 01:35+0000\n"
 "PO-Revision-Date: 2008-06-22 23:57+0200\n"
 "Last-Translator: Erdal Ronahi <erdal.ronahi@nospam.gmail.com>\n"
 "Language-Team: Kurdish <ku@li.org>\n"
@@ -1294,7 +1294,7 @@ msgstr "Paşnav:"
 #: kopete/contactlist/kopetecontactlistview.cpp:863
 #: libkopete/kopetecontact.cpp:467 plugins/highlight/highlightprefsbase.ui:66
 #: plugins/privacy/privacydialog.ui:92 plugins/privacy/privacydialog.ui:176
-#: protocols/jabber/jabberprotocol.cpp:469
+#: protocols/jabber/jabberprotocol.cpp:468
 #: protocols/jabber/ui/dlgjabberbookmarkeditor.ui:52
 #: protocols/jabber/ui/privacy.ui:249
 #: protocols/oscar/aim/ui/aimeditaccountui.ui:784
@@ -2690,7 +2690,7 @@ msgstr "Grupa Nû"
 #: kopete/config/status/statusconfig_manager.ui:46 kopete/kopetewindow.cpp:387
 #: plugins/highlight/highlightprefsbase.ui:56
 #: plugins/privacy/privacydialog.ui:116 plugins/privacy/privacydialog.ui:183
-#: protocols/jabber/jabberprotocol.cpp:452
+#: protocols/jabber/jabberprotocol.cpp:451
 #: protocols/oscar/aim/aimprotocol.cpp:187
 #: protocols/oscar/aim/ui/aimeditaccountui.ui:777
 #: protocols/oscar/aim/ui/aimeditaccountui.ui:863
@@ -3135,7 +3135,7 @@ msgctxt "Translators: format: '<nickname> (<online status>)'"
 msgid "%1 (%2)"
 msgstr "'%1' (%2)"
 
-#: kopete/contactlist/kopetecontactlistview.cpp:1095
+#: kopete/contactlist/kopetecontactlistview.cpp:1094
 #, fuzzy, kde-format
 msgctxt "Translators: format: '<displayName> (<id>)'"
 msgid "%2 <%1>"
@@ -4700,7 +4700,7 @@ msgstr ""
 msgid "Not Connected"
 msgstr "Negirêdayî"
 
-#: libkopete/kabcpersistence.cpp:380 protocols/jabber/jabberprotocol.cpp:388
+#: libkopete/kabcpersistence.cpp:380 protocols/jabber/jabberprotocol.cpp:387
 #: protocols/oscar/aim/aimprotocol.cpp:156
 #: protocols/oscar/icq/icqprotocol.cpp:98
 msgid "Choose Account"
@@ -5203,29 +5203,29 @@ msgstr ""
 msgid "Show close button for each tab."
 msgstr "Paceya Pêşkêşker Nîşan Bude"
 
-#: libkopete/kopetechatsession.cpp:291
+#: libkopete/kopetechatsession.cpp:290
 msgid "Outgoing Message Sent"
 msgstr "Peyama Derketinê Hat Şandin"
 
-#: libkopete/kopetechatsession.cpp:308
+#: libkopete/kopetechatsession.cpp:307
 msgid "A contact sent you a buzz/nudge."
 msgstr "Têkiliyekê buzz/nudgeyekê ji te re şand"
 
-#: libkopete/kopetechatsession.cpp:565
+#: libkopete/kopetechatsession.cpp:564
 #, fuzzy, kde-format
 #| msgid "%1 is typing a message"
 msgid "User <i>%1</i> is typing a message"
 msgstr "%1 peyam dinivîsîne"
 
-#: libkopete/kopetechatsession.cpp:568 libkopete/kopetemetacontact.cpp:1343
-#: libkopete/kopetemetacontact.cpp:1347
+#: libkopete/kopetechatsession.cpp:567 libkopete/kopetemetacontact.cpp:1340
+#: libkopete/kopetemetacontact.cpp:1344
 #, fuzzy
 #| msgid "Chat"
 msgctxt "@action"
 msgid "Chat"
 msgstr "Sohbet"
 
-#: libkopete/kopetechatsession.cpp:655
+#: libkopete/kopetechatsession.cpp:654
 msgid ""
 "<qt>An error has occurred while creating a new chat window. The chat window "
 "has not been created.</qt>"
@@ -5233,7 +5233,7 @@ msgstr ""
 "<qt>Di afirandina paceyeke nû ya sohbetê de çewtî derket. Paceya sohbetê "
 "nehat afirandin.</qt>"
 
-#: libkopete/kopetechatsession.cpp:656
+#: libkopete/kopetechatsession.cpp:655
 msgid "Error While Creating Chat Window"
 msgstr "Çewtiya Afirandina Paceya Sohbetê"
 
@@ -5586,7 +5586,7 @@ msgstr ""
 msgid "Status not available"
 msgstr "Rewş ne diyar e"
 
-#: libkopete/kopetemetacontact.cpp:1356
+#: libkopete/kopetemetacontact.cpp:1353
 #, kde-format
 msgid "<qt><i>%1</i> is now %2.</qt>"
 msgstr "<qt><i>%1</i> niha %2.</qt>"
@@ -5721,12 +5721,12 @@ msgstr ""
 msgid "File transfer %1 cancelled."
 msgstr "Veguheztina pelan %1 hate betalkirin."
 
-#: libkopete/kopetetransfermanager.cpp:488 protocols/gadu/gaducontact.cpp:100
+#: libkopete/kopetetransfermanager.cpp:488 protocols/gadu/gaducontact.cpp:98
 #: protocols/jabber/jabbercontact.cpp:1114
 #: protocols/jabber/jabbergroupcontact.cpp:336
 #: protocols/jabber/jabbergroupmembercontact.cpp:278
 #: protocols/oscar/oscarcontact.cpp:366 protocols/qq/qqcontact.cpp:418
-#: protocols/wlm/wlmcontact.cpp:177
+#: protocols/wlm/wlmcontact.cpp:175
 msgid "Kopete File Transfer"
 msgstr "Şandina Dosyeyan a Kopete"
 
@@ -5875,7 +5875,7 @@ msgid "View"
 msgstr "Deng"
 
 #: libkopete/private/kopeteviewmanager.cpp:418
-#: protocols/wlm/wlmaccount.cpp:1162 protocols/wlm/wlmaccount.cpp:1181
+#: protocols/wlm/wlmaccount.cpp:1161 protocols/wlm/wlmaccount.cpp:1180
 #: protocols/yahoo/yahooaccount.cpp:1187 protocols/yahoo/yahooaccount.cpp:1633
 #: protocols/yahoo/yahooaccount.cpp:1844
 #, fuzzy
@@ -6785,7 +6785,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (KPushButton, pb_edit)
 #. i18n: ectx: property (text), widget (QPushButton, m_editregexp)
 #: plugins/highlight/highlightprefsbase.ui:166
-#: protocols/gadu/gaducontact.cpp:198 protocols/jabber/ui/privacy.ui:270
+#: protocols/gadu/gaducontact.cpp:196 protocols/jabber/ui/privacy.ui:270
 msgid "Edit..."
 msgstr "Sererast Bike..."
 
@@ -9762,63 +9762,63 @@ msgstr "&Daxuyaniyê Mîheng Bike..."
 msgid "Export Contacts on change"
 msgstr "Ji Pêşkêşkerê Girêdanan Bistîne"
 
-#: protocols/gadu/gaduaccount.cpp:775
+#: protocols/gadu/gaduaccount.cpp:774
 msgid "connection using SSL was not possible, retrying without."
 msgstr "Bi bikaranîna SSL girêdan çênebû, bê SSL biceribîne."
 
-#: protocols/gadu/gaduaccount.cpp:803
+#: protocols/gadu/gaduaccount.cpp:802
 #, kde-format
 msgid "unable to connect to the Gadu-Gadu server(\"%1\")."
 msgstr "girêdan digel pêşkêşkara Gadu-Gadu (\"%1\") çênabe."
 
-#: protocols/gadu/gaduaccount.cpp:804 protocols/gadu/gaducommands.cpp:325
+#: protocols/gadu/gaduaccount.cpp:803 protocols/gadu/gaducommands.cpp:325
 #: protocols/gadu/gaducommands.cpp:333 protocols/gadu/gaducommands.cpp:381
 msgid "Connection Error"
 msgstr "Çewtiya Girêdanê"
 
-#: protocols/gadu/gaduaccount.cpp:942
+#: protocols/gadu/gaduaccount.cpp:941
 #, fuzzy
 #| msgid "Import Contacts From File..."
 msgid "Imported contacts list is empty."
 msgstr "Di Pel Girêdanan Bistîne..."
 
-#: protocols/gadu/gaduaccount.cpp:989
+#: protocols/gadu/gaduaccount.cpp:988
 #, fuzzy
 #| msgid "Contact Notes"
 msgid "Contacts imported."
 msgstr "Nêşeyên Têkiliyan"
 
-#: protocols/gadu/gaduaccount.cpp:998
+#: protocols/gadu/gaduaccount.cpp:997
 #, fuzzy
 #| msgid "Contacts exported to the server."
 msgid "Contacts exported."
 msgstr "Girêdan veguhezî pêşkêşker ."
 
-#: protocols/gadu/gaduaccount.cpp:1004
+#: protocols/gadu/gaduaccount.cpp:1003
 #, fuzzy
 #| msgid "Contacts exported to the server."
 msgid "Contacts deleted from the server."
 msgstr "Girêdan veguhezî pêşkêşker ."
 
-#: protocols/gadu/gaduaccount.cpp:1041
+#: protocols/gadu/gaduaccount.cpp:1040
 #, kde-format
 msgid "Save Contacts List for Account %1 As"
 msgstr "Ji Bo Hesaba %1 Lîsteya Têkiliyan Cuda Tomar Bike"
 
-#: protocols/gadu/gaduaccount.cpp:1049
+#: protocols/gadu/gaduaccount.cpp:1048
 msgid "Unable to create temporary file."
 msgstr "Pelrêça demdemî nayê afirandin."
 
-#: protocols/gadu/gaduaccount.cpp:1049 protocols/gadu/gaduaccount.cpp:1063
+#: protocols/gadu/gaduaccount.cpp:1048 protocols/gadu/gaduaccount.cpp:1062
 msgid "Save Contacts List Failed"
 msgstr "Lîsteya Girêdanan Nehate Tomarkirin"
 
-#: protocols/gadu/gaduaccount.cpp:1087
+#: protocols/gadu/gaduaccount.cpp:1086
 #, kde-format
 msgid "Load Contacts List for Account %1 As"
 msgstr "Ji Bo Hesabê %1 Lîsteya Girêdanan Bar Bike"
 
-#: protocols/gadu/gaduaccount.cpp:1107 protocols/gadu/gaduaccount.cpp:1113
+#: protocols/gadu/gaduaccount.cpp:1106 protocols/gadu/gaduaccount.cpp:1112
 msgid "Contacts List Load Has Failed"
 msgstr "Barkirina Lîsteya Girêdanan Bi Ser Neket"
 
@@ -9933,12 +9933,12 @@ msgstr "Nasnav Hat Guhartin"
 msgid "Your password has been changed."
 msgstr "Nasnavê te hat guhartin."
 
-#: protocols/gadu/gaducontact.cpp:192 protocols/qq/qqcontact.cpp:143
-#: protocols/wlm/wlmcontact.cpp:63
+#: protocols/gadu/gaducontact.cpp:190 protocols/qq/qqcontact.cpp:143
+#: protocols/wlm/wlmcontact.cpp:61
 msgid "Show Profile"
 msgstr "Profîlê Nîşan Bide"
 
-#: protocols/gadu/gaducontact.cpp:243
+#: protocols/gadu/gaducontact.cpp:241
 #, fuzzy
 msgid ""
 "<qt>You need to go online to remove a contact from your contact list.</qt>"
@@ -9946,7 +9946,7 @@ msgstr ""
 "<qt>Ji bo ku tu karibî bikarhênerekî/ê ji lîsteya xwe ya têkiliyan derxe "
 "divê tu girêdayî be.</qt>"
 
-#: protocols/gadu/gaducontact.cpp:244
+#: protocols/gadu/gaducontact.cpp:242
 msgid "Gadu-Gadu Plugin"
 msgstr "Pêveka Gadu-Gadu"
 
@@ -13330,7 +13330,7 @@ msgid "Error trying to join %1 : nickname %2 is already in use"
 msgstr ""
 
 #: protocols/jabber/jabberaccount.cpp:1661
-#: protocols/jabber/jabberprotocol.cpp:493
+#: protocols/jabber/jabberprotocol.cpp:492
 msgid "Provide your nickname"
 msgstr ""
 
@@ -13629,7 +13629,7 @@ msgid "Jabber Resource Selector"
 msgstr "Vebijêrê Çavkaniya Jabber"
 
 #: protocols/jabber/jabbergroupchatmanager.cpp:175
-#: protocols/jabber/jabberprotocol.cpp:515
+#: protocols/jabber/jabberprotocol.cpp:514
 #, kde-format
 msgid "You have been invited to %1"
 msgstr ""
@@ -13775,34 +13775,34 @@ msgstr "Faqs"
 msgid "About"
 msgstr "Hate Betalkirin"
 
-#: protocols/jabber/jabberprotocol.cpp:394
+#: protocols/jabber/jabberprotocol.cpp:393
 #, kde-format
 msgid "Choose an account to handle the URL %1"
 msgstr ""
 
-#: protocols/jabber/jabberprotocol.cpp:451
+#: protocols/jabber/jabberprotocol.cpp:450
 #: protocols/oscar/aim/aimprotocol.cpp:186
 #, kde-format
 msgid "Do you want to add '%1' to your contact list?"
 msgstr "Tu dixwazî bikarhênerê %1 têxe lîsteya xwe ya girêdanan?"
 
-#: protocols/jabber/jabberprotocol.cpp:452
+#: protocols/jabber/jabberprotocol.cpp:451
 #: protocols/oscar/aim/aimprotocol.cpp:187
 #: protocols/oscar/icq/icqprotocol.cpp:129
 msgid "Do Not Add"
 msgstr "Lê zêde neke"
 
-#: protocols/jabber/jabberprotocol.cpp:468
+#: protocols/jabber/jabberprotocol.cpp:467
 #, fuzzy, kde-format
 msgid "Do you want to remove '%1' from your contact list?"
 msgstr "Tu dixwazî bikarhênerê %1 têxe lîsteya xwe ya girêdanan?"
 
-#: protocols/jabber/jabberprotocol.cpp:469
+#: protocols/jabber/jabberprotocol.cpp:468
 #, fuzzy
 msgid "Do Not Remove"
 msgstr "Bi kar neyne"
 
-#: protocols/jabber/jabberprotocol.cpp:492
+#: protocols/jabber/jabberprotocol.cpp:491
 #, fuzzy, kde-format
 msgid "Please enter your nickname for the room %1"
 msgstr "Ji kerema xwe ji bo grupa nû navekî têkevê:"
@@ -19863,7 +19863,7 @@ msgstr ""
 #: protocols/sms/services/smssend.cpp:59
 #: protocols/sms/services/smssendprovider.cpp:217
 #: protocols/sms/services/smssendprovider.cpp:225
-#: protocols/sms/smscontact.cpp:59
+#: protocols/sms/smscontact.cpp:58
 msgid "Could Not Send Message"
 msgstr "Peyam Nehate Şandin"
 
@@ -19973,12 +19973,12 @@ msgstr ""
 msgid "Message too long."
 msgstr "Di peyama dirêj de."
 
-#: protocols/sms/smscontact.cpp:58
+#: protocols/sms/smscontact.cpp:57
 #, fuzzy
 msgid "Something went wrong while sending the message."
 msgstr "Dema peyam dihate şandin hin tişt bi ser neket."
 
-#: protocols/sms/smscontact.cpp:130
+#: protocols/sms/smscontact.cpp:129
 msgid "&Contact Settings"
 msgstr "Mîhengên &Têkiliyê"
 
@@ -20619,7 +20619,7 @@ msgid "<i>(for example: joe@hotmail.com)</i>"
 msgstr "<i>(wekî mînak: kawayê-hesinkar@hotmail.com)</i>"
 
 #: protocols/wlm/ui/wlmeditaccountwidget.cpp:212
-#: protocols/wlm/wlmcontact.cpp:387
+#: protocols/wlm/wlmcontact.cpp:385
 #, fuzzy
 #| msgid "MSN Plugin"
 msgid "WLM Plugin"
@@ -20657,53 +20657,53 @@ msgstr ""
 msgid "I am on &the contact list of this contact"
 msgstr "Ez di lîsteya &têkiliyên vî/ê şexsî/ê de me"
 
-#: protocols/wlm/wlmaccount.cpp:76 protocols/yahoo/yahooaccount.cpp:91
+#: protocols/wlm/wlmaccount.cpp:75 protocols/yahoo/yahooaccount.cpp:91
 msgid "Open Inbo&x..."
 msgstr "Qutîka Peyamên &Hatî Veke..."
 
-#: protocols/wlm/wlmaccount.cpp:79
+#: protocols/wlm/wlmaccount.cpp:78
 msgid "&Change Display Name..."
 msgstr ""
 
-#: protocols/wlm/wlmaccount.cpp:85
+#: protocols/wlm/wlmaccount.cpp:84
 msgid "Open MS&N service status site..."
 msgstr ""
 
-#: protocols/wlm/wlmaccount.cpp:141 protocols/wlm/wlmaccount.cpp:143
+#: protocols/wlm/wlmaccount.cpp:140 protocols/wlm/wlmaccount.cpp:142
 msgid "Buddies"
 msgstr "Heval"
 
-#: protocols/wlm/wlmaccount.cpp:244 protocols/wlm/wlmaccount.cpp:255
+#: protocols/wlm/wlmaccount.cpp:243 protocols/wlm/wlmaccount.cpp:254
 msgid "Change Display Name - MSN Plugin"
 msgstr ""
 
-#: protocols/wlm/wlmaccount.cpp:245
+#: protocols/wlm/wlmaccount.cpp:244
 msgid ""
 "Enter the new display name by which you want to be visible to your friends "
 "on MSN:"
 msgstr ""
 
-#: protocols/wlm/wlmaccount.cpp:253
+#: protocols/wlm/wlmaccount.cpp:252
 msgid ""
 "<qt>The display name you entered is too long. Please use a shorter name.\n"
 "Your display name has <b>not</b> been changed.</qt>"
 msgstr ""
 
-#: protocols/wlm/wlmaccount.cpp:1160
+#: protocols/wlm/wlmaccount.cpp:1159
 #, kde-format
 msgid "You have one unread message in your Hotmail inbox."
 msgid_plural "You have %1 unread messages in your Hotmail inbox."
 msgstr[0] ""
 msgstr[1] ""
 
-#: protocols/wlm/wlmaccount.cpp:1162 protocols/wlm/wlmaccount.cpp:1181
+#: protocols/wlm/wlmaccount.cpp:1161 protocols/wlm/wlmaccount.cpp:1180
 #, fuzzy
 #| msgid "Open Inbo&x..."
 msgctxt "@action"
 msgid "Open Inbox"
 msgstr "Qutîka Peyamên &Hatî Veke..."
 
-#: protocols/wlm/wlmaccount.cpp:1180
+#: protocols/wlm/wlmaccount.cpp:1179
 #, kde-format
 msgid "New message from %1 in your Hotmail inbox.<p>Subject: %2"
 msgstr ""
@@ -20764,24 +20764,24 @@ msgstr "Bişeyine"
 msgid "Select the pen's color"
 msgstr ""
 
-#: protocols/wlm/wlmcontact.cpp:60
+#: protocols/wlm/wlmcontact.cpp:58
 #, fuzzy
 #| msgid "&Block Contact"
 msgid "Block Contact"
 msgstr "Têkiliyê &Asteng Bike"
 
-#: protocols/wlm/wlmcontact.cpp:66
+#: protocols/wlm/wlmcontact.cpp:64
 #, fuzzy
 msgid "Update Photo"
 msgstr "Jabber Wêne"
 
-#: protocols/wlm/wlmcontact.cpp:70
+#: protocols/wlm/wlmcontact.cpp:68
 #, fuzzy
 #| msgid "&Download and show custom emoticons"
 msgid "&Block custom emoticons"
 msgstr "Îkonên hestên taybet &daxe û nîşan bide"
 
-#: protocols/wlm/wlmcontact.cpp:386
+#: protocols/wlm/wlmcontact.cpp:384
 #, fuzzy
 msgid ""
 "<qt>You need to go online to remove a contact from your contact list. This "
@@ -20790,16 +20790,16 @@ msgstr ""
 "<qt>Ji bo ku tu karibî bikarhênerekî/ê ji lîsteya xwe ya têkiliyan derxe "
 "divê tu girêdayî be.</qt>"
 
-#: protocols/wlm/wlmcontact.cpp:430
+#: protocols/wlm/wlmcontact.cpp:428
 #, fuzzy
 msgid "This contact does not have you in his/her list"
 msgstr "<b>%1</b> xwest ku te têxe nav lîsteya xwe ya girêdanan."
 
-#: protocols/wlm/wlmcontact.cpp:437
+#: protocols/wlm/wlmcontact.cpp:435
 msgid "This contact is blocked"
 msgstr ""
 
-#: protocols/wlm/wlmcontact.cpp:439
+#: protocols/wlm/wlmcontact.cpp:437
 msgid "This contact does not have you in his/her list and is blocked"
 msgstr ""
 
