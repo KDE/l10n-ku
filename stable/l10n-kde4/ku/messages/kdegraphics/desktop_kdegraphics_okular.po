@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdegraphics\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-10-10 01:58+0000\n"
+"POT-Creation-Date: 2013-11-05 11:54+0000\n"
 "PO-Revision-Date: 2009-01-22 04:22+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -130,6 +130,8 @@ msgstr "Binesazî ya Windows HTMLHelp ji bo Okular"
 #: generators/fictionbook/okularFb.desktop:3
 #: generators/kimgio/okularApplication_kimgio.desktop:4
 #: generators/kimgio/okularKimgio.desktop:3
+#: generators/mobipocket/okularApplication_mobi.desktop:4
+#: generators/mobipocket/okularMobi.desktop:3
 #: generators/ooo/okularApplication_ooo.desktop:4
 #: generators/ooo/okularOoo.desktop:3
 #: generators/plucker/okularApplication_plucker.desktop:4
@@ -157,6 +159,7 @@ msgstr "Okular"
 #: generators/fax/okularApplication_fax.desktop:64
 #: generators/fictionbook/okularApplication_fb.desktop:64
 #: generators/kimgio/okularApplication_kimgio.desktop:64
+#: generators/mobipocket/okularApplication_mobi.desktop:64
 #: generators/ooo/okularApplication_ooo.desktop:64
 #: generators/plucker/okularApplication_plucker.desktop:64
 #: generators/poppler/okularApplication_pdf.desktop:64
@@ -274,6 +277,30 @@ msgctxt "Comment"
 msgid "Image backend for Okular"
 msgstr "Binesazî ya Wêneyan ji bo Okular"
 
+#: generators/mobipocket/libokularGenerator_mobi.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Plucker document"
+msgctxt "Name"
+msgid "Mobipocket document"
+msgstr "Belgeya Plucker"
+
+#: generators/mobipocket/libokularGenerator_mobi.desktop:4
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "OpenDocument backend for Okular"
+msgctxt "Comment"
+msgid "Mobipocket backend for Okular"
+msgstr "Binesazî ya OpenDocument ji bo Okular"
+
+#: generators/mobipocket/okularApplication_mobi.desktop:134
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Plucker document"
+msgctxt "X-KDE-Keywords"
+msgid "mobipocket"
+msgstr "Belgeya Plucker"
+
 #: generators/ooo/libokularGenerator_ooo.desktop:3
 msgctxt "Name"
 msgid "OpenDocument format"
@@ -382,20 +409,6 @@ msgstr "Pêveka Okular XPS"
 msgctxt "Comment"
 msgid "XPS backend for Okular"
 msgstr "Binesazî ya XPS ji bo Okular"
-
-#, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Plucker document"
-#~ msgctxt "Name"
-#~ msgid "Mobipocket document"
-#~ msgstr "Belgeya Plucker"
-
-#, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "OpenDocument backend for Okular"
-#~ msgctxt "Comment"
-#~ msgid "Mobipocket backend for Okular"
-#~ msgstr "Binesazî ya OpenDocument ji bo Okular"
 
 #~ msgctxt "Name"
 #~ msgid "KDE Scan Service"
@@ -523,13 +536,6 @@ msgstr "Binesazî ya XPS ji bo Okular"
 #~ msgctxt "Name"
 #~ msgid "XML Paper Specification Info"
 #~ msgstr "Agahiyên XML Taybetî Kirina Rûpelê"
-
-#, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Plucker document"
-#~ msgctxt "Name"
-#~ msgid "Mobipocket Files"
-#~ msgstr "Belgeya Plucker"
 
 #~ msgctxt "Name"
 #~ msgid "PostScript, PDF and DVI Files"
