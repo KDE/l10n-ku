@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-01-03 01:56+0000\n"
+"POT-Creation-Date: 2014-02-10 01:29+0000\n"
 "PO-Revision-Date: 2009-02-21 06:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -1192,9 +1192,10 @@ msgstr "Navê bikarhêner ji bo girêdana bi Audioscrobbler re"
 
 #. i18n: ectx: property (text), widget (QLabel, labelPassword)
 #. i18n: ectx: property (text), widget (QTableWidget, serverList)
+#. i18n: ectx: property (text), widget (QLabel, m_passwordLabel)
 #. i18n: ectx: label, entry, group (Scrobbler)
-#: amarokconfig.kcfg:457
-#: databaseimporter/amarok14/FastForwardImporterConfig.cpp:57
+#: amarokconfig.kcfg:457 importers/amarok/AmarokConfigWidget.ui:38
+#: importers/fastforward/FastForwardConfigWidget.ui:46
 #: services/ampache/AmpacheConfigWidget.ui:68
 #: services/ampache/NewServerWidget.ui:60
 msgid "Password"
@@ -3008,37 +3009,37 @@ msgstr ""
 msgid "Normal"
 msgstr "Teşe:"
 
-#: configdialog/dialogs/MetadataConfig.cpp:33
+#: configdialog/dialogs/MetadataConfig.cpp:34
 msgctxt "Maximum cover size option"
 msgid "Small (200 px)"
 msgstr ""
 
-#: configdialog/dialogs/MetadataConfig.cpp:35
+#: configdialog/dialogs/MetadataConfig.cpp:36
 msgctxt "Maximum cover size option"
 msgid "Medium (400 px)"
 msgstr ""
 
-#: configdialog/dialogs/MetadataConfig.cpp:37
+#: configdialog/dialogs/MetadataConfig.cpp:38
 msgctxt "Maximum cover size option"
 msgid "Large (800 px)"
 msgstr ""
 
-#: configdialog/dialogs/MetadataConfig.cpp:39
+#: configdialog/dialogs/MetadataConfig.cpp:40
 msgctxt "Maximum cover size option"
 msgid "Huge (1600 px)"
 msgstr ""
 
-#: configdialog/dialogs/MetadataConfig.cpp:85
+#: configdialog/dialogs/MetadataConfig.cpp:101
 msgid "Synchronize Labels"
 msgstr ""
 
-#: configdialog/dialogs/MetadataConfig.cpp:103
+#: configdialog/dialogs/MetadataConfig.cpp:119
 #, kde-format
 msgctxt "%1 is field name such as Play Count"
 msgid "Synchronize %1"
 msgstr ""
 
-#: configdialog/dialogs/MetadataConfig.cpp:191
+#: configdialog/dialogs/MetadataConfig.cpp:207
 #, kde-format
 msgid "(%2one exception%3)"
 msgid_plural "(%2%1 exceptions%3)"
@@ -3123,17 +3124,28 @@ msgid ""
 "of tracks played on iPods if you have Last.fm plugin configured"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QPushButton, m_forgetCollectionsButton)
+#. i18n: ectx: property (text), widget (QPushButton, m_forgetTargetsButton)
 #: configdialog/dialogs/MetadataConfig.ui:128
-msgid "Forget about Selected Collections"
+msgid "Forget"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, m_configureTargetButton)
+#: configdialog/dialogs/MetadataConfig.ui:138
+#, fuzzy
+msgid "Configure…"
+msgstr "&Veava bike..."
+
+#. i18n: ectx: property (text), widget (QPushButton, m_addTargetButton)
+#: configdialog/dialogs/MetadataConfig.ui:145
+msgid "Add…"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, m_synchronizeButton)
-#: configdialog/dialogs/MetadataConfig.ui:135
+#: configdialog/dialogs/MetadataConfig.ui:155
 #, fuzzy
-#| msgid "Configure Collection"
-msgid "Perform Synchronization..."
-msgstr "Berhevokê Veava Bike"
+#| msgid "Lyrics data could not be parsed"
+msgid "Synchronize…"
+msgstr "Daneya gotinê stranê nayê hev qetandin"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: configdialog/dialogs/NotificationsConfig.ui:17
@@ -3408,6 +3420,12 @@ msgstr "Berhevok"
 #: configdialog/dialogs/PluginsConfig.cpp:48
 msgid "Internet Services"
 msgstr "Servîsên Torê"
+
+#: configdialog/dialogs/PluginsConfig.cpp:52
+#, fuzzy
+#| msgid "Statistics"
+msgid "Statistics importers"
+msgstr "Statistîk"
 
 #: configdialog/dialogs/ScriptsConfig.cpp:50
 #, fuzzy
@@ -8263,162 +8281,19 @@ msgstr "Hunermend Tune ye "
 msgid "Cover View"
 msgstr "Wêneya rûgirê albumê"
 
-#: databaseimporter/amarok14/FastForwardImporterConfig.cpp:39
-msgid "Connection"
-msgstr "Girêdan"
-
-#: databaseimporter/amarok14/FastForwardImporterConfig.cpp:45
-#: databaseimporter/itunes/ITunesImporterConfig.cpp:37
-msgid "Database Location"
-msgstr "Cihê Danegeh"
-
-#. i18n: ectx: property (text), widget (QLabel, labelUsername)
-#. i18n: ectx: property (text), widget (QTableWidget, serverList)
-#: databaseimporter/amarok14/FastForwardImporterConfig.cpp:53
-#: services/ampache/AmpacheConfigWidget.ui:63
-#: services/ampache/NewServerWidget.ui:50
-msgid "Username"
-msgstr "Navê Bikarhêner"
-
-#: databaseimporter/amarok14/FastForwardImporterConfig.cpp:62
-msgid "Database Name"
-msgstr "Navê Bingeha Dana"
-
-#: databaseimporter/amarok14/FastForwardImporterConfig.cpp:66
-msgid "Hostname"
-msgstr "Navê Mêvandarê"
-
-#: databaseimporter/amarok14/FastForwardImporterConfig.cpp:92
-msgid "Match tracks by meta tags"
-msgstr ""
-
-#: databaseimporter/amarok14/FastForwardImporterConfig.cpp:93
-msgid ""
-"Perform meta information search on non-existing files, possibly detecting "
-"file renames. See <b>What's This</b>"
-msgstr ""
-
-#: databaseimporter/amarok14/FastForwardImporterConfig.cpp:95
-msgid ""
-"If enabled, tracks from the old collection that do not exist anymore in the "
-"file system are searched for (by metadata) in the current collection. If a "
-"match is found, statistics for the matched track are updated, even if the "
-"file locations differ."
-msgstr ""
-
-#: databaseimporter/amarok14/FastForwardImporterConfig.cpp:101
-msgid "Import downloaded artwork"
-msgstr "Karên hunerî yên daxistî bîne"
-
-#: databaseimporter/amarok14/FastForwardImporterConfig.cpp:110
-#, fuzzy
-#| msgid "Directory"
-msgid "Artwork directory"
-msgstr "Pelrêç"
-
-#: databaseimporter/amarok14/FastForwardWorker.cpp:81
-msgid "No database driver was selected"
-msgstr ""
-
-#: databaseimporter/amarok14/FastForwardWorker.cpp:87
-#, kde-format
-msgid "Database could not be found at: %1"
-msgstr ""
-
-#: databaseimporter/amarok14/FastForwardWorker.cpp:122
-#, kde-format
-msgid "Could not open Amarok 1.4 database: %1"
-msgstr "Nekarî bingeha dane ya Amarok 1.4 veke: %1"
-
-#: databaseimporter/amarok14/FastForwardWorker.cpp:152
-#, fuzzy, kde-format
-#| msgid "could not execute %1"
-msgid "Could not execute import query: %1"
-msgstr "nekarî %1 bixebitîne"
-
-#: databaseimporter/amarok14/FastForwardWorker.cpp:236
-msgid ""
-"(track exists, but does not belong in any of your configured collection "
-"folders)"
-msgstr ""
-
-#: databaseimporter/amarok14/FastForwardWorker.cpp:270
-#, kde-format
-msgid "Adding <b>1 new track</b> to Amarok collection <b>%2</b>."
-msgid_plural "Adding <b>%1 new tracks</b> to Amarok collection <b>%2</b>."
-msgstr[0] ""
-msgstr[1] ""
-
-#: databaseimporter/amarok14/FastForwardWorker.cpp:408
-#, fuzzy, kde-format
-#| msgid "could not execute %1"
-msgid "Could not execute labels import query: %1; query was: %2"
-msgstr "nekarî %1 bixebitîne"
-
-#: databaseimporter/amarok14/FastForwardWorker.cpp:431
-#, kde-format
-msgid "Updating cached lyrics and labels for 1 track..."
-msgid_plural "Updating cached lyrics and labels for %1 tracks..."
-msgstr[0] ""
-msgstr[1] ""
-
-#: databaseimporter/amarok14/FastForwardWorker.cpp:447
-#, kde-format
-msgid "Failed to update lyrics/labels for track %1"
-msgstr ""
-
-#: databaseimporter/amarok14/FastForwardWorker.cpp:467
-#, fuzzy, kde-format
-#| msgid "There were no lyrics found for this track"
-msgid "Cached lyrics updated for 1 track"
-msgid_plural "Cached lyrics updated for %1 tracks"
-msgstr[0] "Ji bo vê stranê tu gotin nehat dîtin"
-msgstr[1] "Ji bo vê stranê tu gotin nehat dîtin"
-
-#: databaseimporter/amarok14/FastForwardWorker.cpp:471
-#, kde-format
-msgid "labels added to 1 track"
-msgid_plural "labels added to %1 tracks"
-msgstr[0] ""
-msgstr[1] ""
-
-#: databaseimporter/amarok14/FastForwardWorker.cpp:477
-#, fuzzy, kde-format
-#| msgctxt "monthname year"
-#| msgid "%1 %2"
-msgctxt ""
-"%1 is e.g. Cached lyrics updated for 2 tracks, %2 is e.g. labels added to 3 "
-"tracks"
-msgid "%1, %2."
-msgstr "%1 %2"
-
-#: databaseimporter/amarok14/FastForwardWorker.cpp:484
-#, fuzzy
-#| msgid "Importing downloaded album art"
-msgid "Importing downloaded album art..."
-msgstr "Hunera albuma daxistî tê anîn"
-
-#: databaseimporter/amarok14/FastForwardWorker.cpp:518
-#, fuzzy, kde-format
-#| msgid "Cover image"
-msgid "Copied 1 cover image."
-msgid_plural "Copied %1 cover images."
-msgstr[0] "Wêneya rûgirê albumê"
-msgstr[1] "Wêneya rûgirê albumê"
-
-#: databaseimporter/sqlbatch/SqlBatchImporter.cpp:74
+#: databaseimporter/SqlBatchImporter.cpp:81
 #, fuzzy, kde-format
 #| msgid "could not execute %1"
 msgid "Could not open file \"%1\"."
 msgstr "nekarî %1 bixebitîne"
 
-#: databaseimporter/sqlbatch/SqlBatchImporterConfig.cpp:37
+#: databaseimporter/SqlBatchImporterConfig.cpp:37
 msgid ""
 "Input file produced by amarokcollectionscanner.<br>See <a href=\"http://"
 "community.kde.org/Amarok/Development/BatchMode\">Batch Mode</a>."
 msgstr ""
 
-#: databaseimporter/sqlbatch/SqlBatchImporterConfig.cpp:43
+#: databaseimporter/SqlBatchImporterConfig.cpp:44
 msgid "Input file"
 msgstr ""
 
@@ -8433,15 +8308,15 @@ msgstr ""
 
 #: dialogs/CollectionSetup.cpp:70
 #, fuzzy
-#| msgid "part"
-msgid "Import"
-msgstr "perçe"
+#| msgid "Import playlist"
+msgid "Import batch file..."
+msgstr "Lîsteya lêdanê bîne"
 
 #: dialogs/CollectionSetup.cpp:71
-msgid ""
-"Import collection and/or statistics from older Amarok versions, the batch "
-"scanner or media players."
-msgstr ""
+#, fuzzy
+#| msgid "Amarok AFT Tagger"
+msgid "Import collection from file produced by amarokcollectionscanner."
+msgstr "Etîketvanê Amarok AFT"
 
 #: dialogs/CollectionSetup.cpp:79
 msgid "&Scan folders recursively (requires full rescan if newly checked)"
@@ -8466,80 +8341,41 @@ msgstr ""
 msgid "Rescan '%1'"
 msgstr ""
 
-#: dialogs/DatabaseImporterDialog.cpp:40
+#: dialogs/DatabaseImporterDialog.cpp:39
 msgid "Import Collection"
 msgstr "Berhevokê Bîne Nava Xwe"
 
-#: dialogs/DatabaseImporterDialog.cpp:45
+#: dialogs/DatabaseImporterDialog.cpp:47
 #, fuzzy
-#| msgid ""
-#| "This tool allows you to import track information and<br>statistical data "
-#| "from another music application."
-msgid ""
-"This tool allows you to import track information and<br>statistical data "
-"from another music application.<br><br>Any statistical data in your database "
-"will be <i>overwritten</i>"
-msgstr ""
-"Ev amûr dihêle ku tu agahiyên stranê û<br>dana yê îstatîskî ji sepanekî "
-"muzîkê yekê din bînî."
+#| msgid "Podcast Configuration"
+msgid "Import configuration"
+msgstr "Podcast Veava Bike"
 
-#: dialogs/DatabaseImporterDialog.cpp:56
-#, fuzzy
-#| msgid "Amarok AFT Tagger"
-msgid "Amarok collection scanner"
-msgstr "Etîketvanê Amarok AFT"
-
-#: dialogs/DatabaseImporterDialog.cpp:57
-msgid "Amarok 1.4"
-msgstr "Amarok 1.4"
-
-#: dialogs/DatabaseImporterDialog.cpp:58
-msgid "iTunes"
-msgstr "iTunes"
-
-#: dialogs/DatabaseImporterDialog.cpp:59
-msgid "Banshee"
-msgstr "Reşe "
-
-#: dialogs/DatabaseImporterDialog.cpp:60
-#, fuzzy
-#| msgid "Rythmbox"
-msgid "Rhythmbox"
-msgstr "Rythmbox"
-
-#: dialogs/DatabaseImporterDialog.cpp:81
-msgid "Select Importer"
-msgstr "Guhêzer Hilbijêre"
-
-#: dialogs/DatabaseImporterDialog.cpp:86
-msgid "Configuration"
-msgstr "Veavakirin"
-
-#: dialogs/DatabaseImporterDialog.cpp:95
+#: dialogs/DatabaseImporterDialog.cpp:69
 msgid "Migrating"
 msgstr "Derbas Kirin"
 
-#: dialogs/DatabaseImporterDialog.cpp:162
+#: dialogs/DatabaseImporterDialog.cpp:100
 msgid "<b><font color='red'>Failed:</font></b> No tracks were imported"
 msgstr "<b><font color='red'>Têk çû:</font></b> Tu stran nehatin anîn"
 
-#: dialogs/DatabaseImporterDialog.cpp:164
+#: dialogs/DatabaseImporterDialog.cpp:102
 #, kde-format
 msgid "<b><font color='green'>Success:</font></b> Imported %1 track"
 msgid_plural "<b><font color='green'>Success:</font></b> Imported %1 tracks"
 msgstr[0] "<b><font color='green'>Serkeftî:</font></b> %1 stran hat anîn"
 msgstr[1] "<b><font color='green'>Serkeftî:</font></b> %1 stran hatin anîn"
 
-#: dialogs/DatabaseImporterDialog.cpp:175
+#: dialogs/DatabaseImporterDialog.cpp:113
 msgid "<b><font color='red'>Failed:</font></b> Unable to import statistics"
 msgstr "<b><font color='red'>Têk çû:</font></b> Nekarî statîstîkan bîne"
 
-#: dialogs/DatabaseImporterDialog.cpp:190
+#: dialogs/DatabaseImporterDialog.cpp:128
 #, kde-format
 msgid "<b><font color='red'>Error:</font></b> %1"
 msgstr "<b><font color='red'>Çewtî:</font></b> %1"
 
-#: dialogs/DatabaseImporterDialog.cpp:205
+#: dialogs/DatabaseImporterDialog.cpp:143
 #, fuzzy, kde-format
 #| msgctxt "Track has been imported, format: Artist - Track"
 #| msgid "Imported <b>%1 - %2</b>"
@@ -8547,26 +8383,26 @@ msgctxt "Track has been imported, format: Track"
 msgid "Imported <b>%1</b>"
 msgstr "Hat veguhastin <b>%1 - %2</b>"
 
-#: dialogs/DatabaseImporterDialog.cpp:208
+#: dialogs/DatabaseImporterDialog.cpp:146
 #, kde-format
 msgctxt "Track has been imported, format: Artist - Track"
 msgid "Imported <b>%1 - %2</b>"
 msgstr "Hat veguhastin <b>%1 - %2</b>"
 
-#: dialogs/DatabaseImporterDialog.cpp:211
+#: dialogs/DatabaseImporterDialog.cpp:149
 #, kde-format
 msgctxt "Track has been imported, format: Artist - Track (Album)"
 msgid "Imported <b>%1 - %2 (%3)</b>"
 msgstr "Hat veguhastin <b>%1 - %2 (%3)</b>"
 
-#: dialogs/DatabaseImporterDialog.cpp:220
+#: dialogs/DatabaseImporterDialog.cpp:158
 #, fuzzy, kde-format
 #| msgid "<b><font color='red'>Error:</font></b> %1"
 msgctxt "Track has been discarded, format: Url"
 msgid "Discarded <b><font color='gray'>%1</font></b>"
 msgstr "<b><font color='red'>Çewtî:</font></b> %1"
 
-#: dialogs/DatabaseImporterDialog.cpp:235
+#: dialogs/DatabaseImporterDialog.cpp:173
 #, kde-format
 msgctxt "Track has been imported by tags, format: Track, from Url, to Url"
 msgid ""
@@ -8574,7 +8410,7 @@ msgid ""
 ">&nbsp;&nbsp;to %3"
 msgstr ""
 
-#: dialogs/DatabaseImporterDialog.cpp:238
+#: dialogs/DatabaseImporterDialog.cpp:176
 #, kde-format
 msgctxt ""
 "Track has been imported by tags, format: Artist - Track, from Url, to Url"
@@ -8583,7 +8419,7 @@ msgid ""
 "%3<br/>&nbsp;&nbsp;to %4"
 msgstr ""
 
-#: dialogs/DatabaseImporterDialog.cpp:241
+#: dialogs/DatabaseImporterDialog.cpp:179
 #, kde-format
 msgctxt ""
 "Track has been imported by tags, format: Artist - Track (Album), from Url, "
@@ -8593,7 +8429,7 @@ msgid ""
 "%4<br/>&nbsp;&nbsp;to %5"
 msgstr ""
 
-#: dialogs/DatabaseImporterDialog.cpp:253
+#: dialogs/DatabaseImporterDialog.cpp:191
 #, fuzzy, kde-format
 #| msgid "<b><font color='red'>Error:</font></b> %1"
 msgctxt "Track has been matched ambigously, format: Url"
@@ -10404,6 +10240,155 @@ msgstr ""
 #| msgid "Zero"
 msgid "Zero"
 msgstr "Sifir"
+
+#: importers/amarok/AmarokConfigWidget.cpp:81
+#, fuzzy
+#| msgid "added"
+msgctxt "Database type"
+msgid "embedded"
+msgstr "lê hate zêdekirin"
+
+#: importers/amarok/AmarokConfigWidget.cpp:82
+msgctxt "Database type"
+msgid "external"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelUsername)
+#. i18n: ectx: property (text), widget (QTableWidget, serverList)
+#. i18n: ectx: property (text), widget (QLabel, m_usernameLabel)
+#: importers/amarok/AmarokConfigWidget.ui:9
+#: importers/fastforward/FastForwardConfigWidget.ui:17
+#: services/ampache/AmpacheConfigWidget.ui:63
+#: services/ampache/NewServerWidget.ui:50
+msgid "Username"
+msgstr "Navê Bikarhêner"
+
+#. i18n: ectx: property (text), widget (QLabel, m_connectionTypeLabel)
+#: importers/amarok/AmarokConfigWidget.ui:58
+#, fuzzy
+#| msgid "Database Name"
+msgid "Database type"
+msgstr "Navê Bingeha Dana"
+
+#. i18n: ectx: property (text), widget (QLabel, m_databaseLocationLabel)
+#: importers/amarok/AmarokConfigWidget.ui:71
+#: importers/banshee/BansheeConfigWidget.cpp:35
+#: importers/clementine/ClementineConfigWidget.cpp:35
+#: importers/fastforward/FastForwardConfigWidget.ui:79
+#: importers/itunes/ITunesConfigWidget.cpp:30
+#: importers/rhythmbox/RhythmboxConfigWidget.cpp:35
+#, fuzzy
+#| msgid "Database Location"
+msgid "Database location"
+msgstr "Cihê Danegeh"
+
+#. i18n: ectx: property (text), widget (QLabel, m_targetNameLabel)
+#: importers/amarok/AmarokConfigWidget.ui:91
+#: importers/fastforward/FastForwardConfigWidget.ui:99
+#, fuzzy
+#| msgid "Playlist name:"
+msgid "Target name"
+msgstr "Navê Lîsteya Lêdanê:"
+
+#. i18n: ectx: property (text), widget (QLabel, m_hostnameLabel)
+#: importers/amarok/AmarokConfigWidget.ui:104
+#: importers/fastforward/FastForwardConfigWidget.ui:112
+msgid "Hostname"
+msgstr "Navê Mêvandarê"
+
+#. i18n: ectx: property (text), widget (QLabel, m_portLabel)
+#: importers/amarok/AmarokConfigWidget.ui:117
+#: importers/fastforward/FastForwardConfigWidget.ui:125
+msgid "Port"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, m_databaseNameLabel)
+#: importers/amarok/AmarokConfigWidget.ui:127
+#: importers/fastforward/FastForwardConfigWidget.ui:135
+#, fuzzy
+#| msgid "Database Name"
+msgid "Database name"
+msgstr "Navê Bingeha Dana"
+
+#. i18n: ectx: property (text), widget (QLabel, m_mysqlBinaryLabel)
+#: importers/amarok/AmarokConfigWidget.ui:163
+msgid "MySQL server binary"
+msgstr ""
+
+#. i18n: ectx: property (filter), widget (KUrlRequester, m_mysqlBinary)
+#: importers/amarok/AmarokConfigWidget.ui:170
+msgid "mysqld"
+msgstr ""
+
+#: importers/amarok/AmarokManager.cpp:50
+#, fuzzy
+#| msgid "Amarok"
+msgid "Amarok 2.x"
+msgstr "Amarok"
+
+#: importers/amarok/AmarokManager.cpp:56
+msgid "Amarok 2.x Statistics Importer"
+msgstr ""
+
+#: importers/banshee/BansheeManager.cpp:24
+msgid "Banshee"
+msgstr "Reşe "
+
+#: importers/banshee/BansheeManager.cpp:25
+msgid "Banshee Statistics Importer"
+msgstr ""
+
+#: importers/clementine/ClementineManager.cpp:24
+msgid "Clementine"
+msgstr ""
+
+#: importers/clementine/ClementineManager.cpp:25
+msgid "Clementine Statistics Importer"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, m_connectionTypeLabel)
+#: importers/fastforward/FastForwardConfigWidget.ui:66
+#, fuzzy
+#| msgid "Connection"
+msgid "Connection type"
+msgstr "Girêdan"
+
+#: importers/fastforward/FastForwardManager.cpp:24
+#, fuzzy
+#| msgid "&Seek Forward"
+msgid "Amarok 1.4 (FastForward)"
+msgstr "Pêşveçûna &Bilez"
+
+#: importers/fastforward/FastForwardManager.cpp:25
+msgid "Amarok 1.4 Statistics Importer"
+msgstr ""
+
+#: importers/itunes/ITunesManager.cpp:24
+#, fuzzy
+#| msgid "iTunes"
+msgid "Apple iTunes"
+msgstr "iTunes"
+
+#: importers/itunes/ITunesManager.cpp:25
+msgid "iTunes Statistics Importer"
+msgstr ""
+
+#: importers/rhythmbox/RhythmboxManager.cpp:24
+#, fuzzy
+#| msgid "Rythmbox"
+msgid "Rhythmbox"
+msgstr "Rythmbox"
+
+#: importers/rhythmbox/RhythmboxManager.cpp:25
+msgid "Rhythmbox Statistics Importer"
+msgstr ""
+
+#: importers/SimpleImporterConfigWidget.cpp:49
+#, fuzzy
+#| msgid "Playlist name:"
+msgctxt "Name of the synchronization target"
+msgid "Target name"
+msgstr "Navê Lîsteya Lêdanê:"
 
 #: k3bexporter.cpp:182
 msgid "Unable to start K3b."
@@ -13747,7 +13732,7 @@ msgstr "Lîsteyên lêdanê yên herêmî yên di bingeha dana de tomarkirî"
 msgid "<Empty>"
 msgstr ""
 
-#: PluginManager.cpp:258
+#: PluginManager.cpp:268
 msgid ""
 "Amarok could not find any plugins. This indicates an installation problem."
 msgstr ""
@@ -15840,7 +15825,7 @@ msgstr ""
 msgid "This collection is currently offline"
 msgstr ""
 
-#: statsyncing/Controller.cpp:106
+#: statsyncing/Controller.cpp:109
 #, kde-format
 msgctxt "%1 is collection name"
 msgid ""
@@ -15850,7 +15835,7 @@ msgid ""
 "You can always change the decision in Amarok configuration."
 msgstr ""
 
-#: statsyncing/Controller.cpp:295
+#: statsyncing/Controller.cpp:371
 msgid ""
 "You only seem to have the Local Collection. Statistics synchronization only "
 "makes sense if there is more than one collection."
@@ -16015,6 +16000,37 @@ msgstr ""
 #: statsyncing/ui/ChooseProvidersPage.ui:49
 msgid "Select Fields to Synchronize"
 msgstr ""
+
+#: statsyncing/ui/ConfigureProviderDialog.cpp:37
+#, fuzzy
+#| msgid "Configure Collection"
+msgid "Configure Synchronization Target"
+msgstr "Berhevokê Veava Bike"
+
+#: statsyncing/ui/CreateProviderDialog.cpp:36
+#, fuzzy
+#| msgid "Configure Collection"
+msgid "Add Synchronization Target"
+msgstr "Berhevokê Veava Bike"
+
+#: statsyncing/ui/CreateProviderDialog.cpp:46
+msgid ""
+"<span style=\"color:red; font-weight:bold;\">Important:</span> before "
+"synchronizing tracks with a file-based target always make sure that the "
+"database file is not currently in use!"
+msgstr ""
+
+#: statsyncing/ui/CreateProviderDialog.cpp:59
+#, fuzzy
+#| msgid "Rating"
+msgid "Choose Target Type"
+msgstr "Nirxandin"
+
+#: statsyncing/ui/CreateProviderDialog.cpp:85
+#, fuzzy
+#| msgid "Configure Services"
+msgid "Configure Target"
+msgstr "Servîsan Veava Bike"
 
 #: statsyncing/ui/MatchedTracksPage.cpp:142
 #, fuzzy
@@ -16807,6 +16823,91 @@ msgstr ""
 #| msgid "Volume: %1%"
 msgid "Volume: %1%"
 msgstr "Deng: %1%"
+
+#, fuzzy
+#~| msgid "Configure Collection"
+#~ msgid "Perform Synchronization..."
+#~ msgstr "Berhevokê Veava Bike"
+
+#~ msgid "Import downloaded artwork"
+#~ msgstr "Karên hunerî yên daxistî bîne"
+
+#, fuzzy
+#~| msgid "Directory"
+#~ msgid "Artwork directory"
+#~ msgstr "Pelrêç"
+
+#~ msgid "Could not open Amarok 1.4 database: %1"
+#~ msgstr "Nekarî bingeha dane ya Amarok 1.4 veke: %1"
+
+#, fuzzy
+#~| msgid "could not execute %1"
+#~ msgid "Could not execute import query: %1"
+#~ msgstr "nekarî %1 bixebitîne"
+
+#, fuzzy
+#~| msgid "could not execute %1"
+#~ msgid "Could not execute labels import query: %1; query was: %2"
+#~ msgstr "nekarî %1 bixebitîne"
+
+#, fuzzy
+#~| msgid "There were no lyrics found for this track"
+#~ msgid "Cached lyrics updated for 1 track"
+#~ msgid_plural "Cached lyrics updated for %1 tracks"
+#~ msgstr[0] "Ji bo vê stranê tu gotin nehat dîtin"
+#~ msgstr[1] "Ji bo vê stranê tu gotin nehat dîtin"
+
+#, fuzzy
+#~| msgctxt "monthname year"
+#~| msgid "%1 %2"
+#~ msgctxt ""
+#~ "%1 is e.g. Cached lyrics updated for 2 tracks, %2 is e.g. labels added to "
+#~ "3 tracks"
+#~ msgid "%1, %2."
+#~ msgstr "%1 %2"
+
+#, fuzzy
+#~| msgid "Importing downloaded album art"
+#~ msgid "Importing downloaded album art..."
+#~ msgstr "Hunera albuma daxistî tê anîn"
+
+#, fuzzy
+#~| msgid "Cover image"
+#~ msgid "Copied 1 cover image."
+#~ msgid_plural "Copied %1 cover images."
+#~ msgstr[0] "Wêneya rûgirê albumê"
+#~ msgstr[1] "Wêneya rûgirê albumê"
+
+#, fuzzy
+#~| msgid "part"
+#~ msgid "Import"
+#~ msgstr "perçe"
+
+#, fuzzy
+#~| msgid ""
+#~| "This tool allows you to import track information and<br>statistical data "
+#~| "from another music application."
+#~ msgid ""
+#~ "This tool allows you to import track information and<br>statistical data "
+#~ "from another music application.<br><br>Any statistical data in your "
+#~ "database will be <i>overwritten</i>"
+#~ msgstr ""
+#~ "Ev amûr dihêle ku tu agahiyên stranê û<br>dana yê îstatîskî ji sepanekî "
+#~ "muzîkê yekê din bînî."
+
+#, fuzzy
+#~| msgid "Amarok AFT Tagger"
+#~ msgid "Amarok collection scanner"
+#~ msgstr "Etîketvanê Amarok AFT"
+
+#~ msgid "Amarok 1.4"
+#~ msgstr "Amarok 1.4"
+
+#~ msgid "Select Importer"
+#~ msgstr "Guhêzer Hilbijêre"
+
+#~ msgid "Configuration"
+#~ msgstr "Veavakirin"
 
 #, fuzzy
 #~| msgid "Stop"
@@ -18344,11 +18445,6 @@ msgstr "Deng: %1%"
 #~ msgid "Track Length"
 #~ msgstr "Stran  #"
 
-#, fuzzy
-#~| msgid "added"
-#~ msgid "Added"
-#~ msgstr "lê hate zêdekirin"
-
 #~ msgid "Equal To"
 #~ msgstr "Wekî Ji"
 
@@ -18622,11 +18718,6 @@ msgstr "Deng: %1%"
 #~| msgid "&Seek Backward"
 #~ msgid "Fast Backward"
 #~ msgstr "Paşveçûna &Bilez"
-
-#, fuzzy
-#~| msgid "&Seek Forward"
-#~ msgid "Fast Forward"
-#~ msgstr "Pêşveçûna &Bilez"
 
 #, fuzzy
 #~| msgid "Get Current"
@@ -18907,10 +18998,6 @@ msgstr "Deng: %1%"
 
 #~ msgid "These folders will be scanned for media to make up your collection:"
 #~ msgstr "Ew peldank ji bo berhevkirina berhevoka we dê were nihêrîn:"
-
-#, fuzzy
-#~ msgid "Configure"
-#~ msgstr "&Veava bike..."
 
 #~ msgid "Aborted."
 #~ msgstr "Betal bû."
@@ -19530,11 +19617,6 @@ msgstr "Deng: %1%"
 
 #~ msgid "Folders to scan"
 #~ msgstr "Peldankan dê bên venihêrîn"
-
-#, fuzzy
-#~| msgid "Amarok"
-#~ msgid "Amarok2"
-#~ msgstr "Amarok"
 
 #~ msgid "Amarok Version"
 #~ msgstr "Guhertoya Amarok"
