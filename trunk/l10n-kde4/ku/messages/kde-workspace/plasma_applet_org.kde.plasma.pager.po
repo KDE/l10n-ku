@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_pager\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-02-12 01:39+0000\n"
+"POT-Creation-Date: 2014-03-26 01:53+0000\n"
 "PO-Revision-Date: 2008-12-26 00:57+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <gnu-ku-wergerandin at lists dot sourceforge dot "
@@ -62,6 +62,20 @@ msgstr ""
 msgid "Shows the dashboard"
 msgstr ""
 
+#: package/contents/ui/main.qml:186
+#, fuzzy, kde-format
+#| msgid "One window:"
+#| msgid_plural "%1 windows:"
+msgid "%1 windows"
+msgstr "Yek pace:"
+
+#: package/contents/ui/main.qml:193
+#, fuzzy, kde-format
+#| msgid "and 1 other"
+#| msgid_plural "and %1 others"
+msgid "and %1 other windows"
+msgstr "û 1 din"
+
 #: plugin/pager.cpp:214
 msgid "&Add Virtual Desktop"
 msgstr ""
@@ -71,16 +85,6 @@ msgstr ""
 #| msgid "&Configure Desktops..."
 msgid "&Remove Last Virtual Desktop"
 msgstr "Sermase yan &Veava bike..."
-
-#~ msgid "One window:"
-#~ msgid_plural "%1 windows:"
-#~ msgstr[0] "Yek pace:"
-#~ msgstr[1] "%1 pace:"
-
-#~ msgid "and 1 other"
-#~ msgid_plural "and %1 others"
-#~ msgstr[0] "û 1 din"
-#~ msgstr[1] "û %1 yên din"
 
 #~ msgid "Configure Pager"
 #~ msgstr "Pager Veava Bike"
