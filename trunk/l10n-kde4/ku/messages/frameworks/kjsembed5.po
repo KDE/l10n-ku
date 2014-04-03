@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-03-28 01:56+0000\n"
+"POT-Creation-Date: 2014-04-03 01:41+0000\n"
 "PO-Revision-Date: 2010-08-13 15:45+0200\n"
 "Last-Translator: Erdal Ronahî <erdal.ronahi@nospam.gmail.com>\n"
 "Language-Team: Kurdish Team http://pckurd.net\n"
@@ -77,6 +77,11 @@ msgstr "Pelê demdemî nayê çêkirin."
 #, kde-format
 msgid "%1 is not a function and cannot be called."
 msgstr "%1 ne fonksiyonek e û nayê gazîkirin."
+
+#: kjsembed/object_binding.h:214 kjsembed/qobject_binding.cpp:789
+#, kde-format
+msgid "%1 is not an Object type"
+msgstr "%1 ne cureyekî bireseran e"
 
 #: kjsembed/qaction_binding.cpp:57
 msgid "Action takes 2 args."
@@ -166,11 +171,6 @@ msgstr "Gazîkirina metoda '%1' têkçû, nekarî hevoksaziya %2 bîne: %3"
 #, kde-format
 msgid "Call to '%1' failed."
 msgstr "Gazîkirina '%1 'ê bi ser neket."
-
-#: kjsembed/qobject_binding.cpp:789
-#, kde-format
-msgid "%1 is not an Object type"
-msgstr "%1 ne cureyekî bireseran e"
 
 #: kjsembed/qobject_binding.cpp:793
 msgid "Could not construct value"
