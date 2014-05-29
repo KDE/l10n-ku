@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: filetypes\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-04-27 20:55+0000\n"
+"POT-Creation-Date: 2014-05-29 07:46+0000\n"
 "PO-Revision-Date: 2008-12-30 20:48+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <ku@li.org>\n"
@@ -21,15 +21,23 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-Language: Kurdish\n"
 
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Amed Çeko Jiyan"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "amedcj@gmail.com"
+
 #: filegroupdetails.cpp:35
 msgid "Left Click Action (only for Konqueror file manager)"
 msgstr ""
 
-#: filegroupdetails.cpp:39 filetypedetails.cpp:155
+#: filegroupdetails.cpp:39 filetypedetails.cpp:146
 msgid "Show file in embedded viewer"
 msgstr "Pelî di nîşandêra bicîbûyî de nîşan bide"
 
-#: filegroupdetails.cpp:40 filetypedetails.cpp:156
+#: filegroupdetails.cpp:40 filetypedetails.cpp:147
 msgid "Show file in separate viewer"
 msgstr "Pelî di nîşandêreke din de nîşan bide"
 
@@ -53,7 +61,7 @@ msgstr ""
 "an jî di nîşandêreke cuda de nîşan bide. Dikarî vê kiryayê ji bo dosyeyeke "
 "taybet ji beşa Bicîkirin biguherînî."
 
-#: filetypedetails.cpp:73
+#: filetypedetails.cpp:72
 msgid ""
 "This button displays the icon associated with the selected file type. Click "
 "on it to choose a different icon."
@@ -61,23 +69,11 @@ msgstr ""
 "Ev bişkojk, îkona bi pelê cure yê vê hilbijartî ye nîşan dide. Ser de "
 "bitikîne û îkonê biguherîne. "
 
-#: filetypedetails.cpp:81
-#, fuzzy
-#| msgid ""
-#| "This button displays the icon associated with the selected file type. "
-#| "Click on it to choose a different icon."
-msgid ""
-"This is the icon associated with the selected file type. Choosing a "
-"different icon requires shared-mime-info to be at least version 0.40."
-msgstr ""
-"Ev bişkojk, îkona bi pelê cure yê vê hilbijartî ye nîşan dide. Ser de "
-"bitikîne û îkonê biguherîne. "
-
-#: filetypedetails.cpp:87
+#: filetypedetails.cpp:78
 msgid "Filename Patterns"
 msgstr "Qalibên NavêPelî"
 
-#: filetypedetails.cpp:99
+#: filetypedetails.cpp:90
 msgid ""
 "This box contains a list of patterns that can be used to identify files of "
 "the selected type. For example, the pattern *.txt is associated with the "
@@ -88,29 +84,29 @@ msgstr ""
 "lîsteya qalibên ji bo minandinê hene. Mînak: ji bo deq/pexşan qalibê *.txt "
 "Hemû pelên bi niçika .txt dê wekî pelên deqî bên dîtin."
 
-#: filetypedetails.cpp:107 filetypesview.cpp:121 kservicelistwidget.cpp:129
+#: filetypedetails.cpp:98 filetypesview.cpp:120 kservicelistwidget.cpp:121
 msgid "Add..."
 msgstr "Têxe..."
 
-#: filetypedetails.cpp:113
+#: filetypedetails.cpp:104
 msgid "Add a new pattern for the selected file type."
 msgstr "Ji bo pelê hilbijartî qalibeke nû têxê."
 
-#: filetypedetails.cpp:115 kservicelistwidget.cpp:145
+#: filetypedetails.cpp:106 kservicelistwidget.cpp:137
 msgid "Remove"
 msgstr "Rakirin"
 
-#: filetypedetails.cpp:121
+#: filetypedetails.cpp:112
 msgid "Remove the selected filename pattern."
 msgstr "Qaliba pelê hilbijartî rake."
 
-#: filetypedetails.cpp:133
+#: filetypedetails.cpp:124
 #, fuzzy
 #| msgid "Description"
 msgid "Description:"
 msgstr "Rave"
 
-#: filetypedetails.cpp:137
+#: filetypedetails.cpp:128
 msgid ""
 "You can enter a short description for files of the selected file type (e.g. "
 "'HTML Page'). This description will be used by applications like Konqueror "
@@ -120,19 +116,19 @@ msgstr ""
 "rave dê ji hêla sepanên wekî Konqueror ve ji bo nîşandana naveroka pelrêçan "
 "bê bikaranîn."
 
-#: filetypedetails.cpp:150
+#: filetypedetails.cpp:141
 #, fuzzy
 #| msgid "Left Click Action"
 msgid "Left Click Action in Konqueror"
 msgstr "Çalakiya Tikandina Çepê"
 
-#: filetypedetails.cpp:159
+#: filetypedetails.cpp:150
 #, fuzzy
 #| msgid "Ask whether to save to disk instead"
 msgid "Ask whether to save to disk instead (only for Konqueror browser)"
 msgstr "Bipirsa ka dê di dîskê de bê tomarkirin an na"
 
-#: filetypedetails.cpp:174
+#: filetypedetails.cpp:165
 #, fuzzy
 #| msgid ""
 #| "Here you can configure what the Konqueror file manager will do when you "
@@ -155,33 +151,33 @@ msgstr ""
 "hatibe nîşankirin Konqueror dê li gorî mîhengên vê komê tev bigere. Mînak: "
 "ji bo pelên image/png dê mîhengên koma 'image' bên bikaranîn."
 
-#: filetypedetails.cpp:186
+#: filetypedetails.cpp:177
 msgid "&General"
 msgstr "&Giştî"
 
-#: filetypedetails.cpp:187
+#: filetypedetails.cpp:178
 msgid "&Embedding"
 msgstr "&Bicîbûyî"
 
-#: filetypedetails.cpp:224
+#: filetypedetails.cpp:216
 msgid "Add New Extension"
 msgstr "PêvekekeNû Têxê"
 
-#: filetypedetails.cpp:225
+#: filetypedetails.cpp:216
 msgid "Extension:"
 msgstr "Pêvek:"
 
-#: filetypedetails.cpp:335
+#: filetypedetails.cpp:328
 #, kde-format
 msgid "File type %1"
 msgstr "Cureyê Pelê %1 "
 
-#: filetypedetails.cpp:341
+#: filetypedetails.cpp:334
 #, kde-format
 msgid "Use settings for '%1' group"
 msgstr "Mîhengên ji bo koma '%1' bi kar bîne"
 
-#: filetypesview.cpp:61
+#: filetypesview.cpp:60
 msgid ""
 "<p><h1>File Associations</h1> This module allows you to choose which "
 "applications are associated with a given type of file. File types are also "
@@ -217,13 +213,13 @@ msgstr ""
 "cure yên MIME bi tu qalibên pel ve girêdayî nîn e, KDE dikare cureyê-MIME "
 "bibîne bi lêkolîna naveroka vê re.</p>"
 
-#: filetypesview.cpp:91
+#: filetypesview.cpp:90
 #, fuzzy
 #| msgid "F&ind file type or filename pattern:"
 msgid "Find file type or filename pattern"
 msgstr "Cureyê pelê an jî teşeyê navê pelê b&ibîne:"
 
-#: filetypesview.cpp:97
+#: filetypesview.cpp:96
 msgid ""
 "Enter a part of a filename pattern, and only file types with a matching file "
 "pattern will appear in the list. Alternatively, enter a part of a file type "
@@ -233,11 +229,11 @@ msgstr ""
 "navê pelê re hev digirin tê bên xuya kirin. An jî, parçeyek ji navê cure yê "
 "pelê têkevê wekî ku lîsteyê de xuya dike."
 
-#: filetypesview.cpp:105
+#: filetypesview.cpp:104
 msgid "Known Types"
 msgstr "Cureyên Nas"
 
-#: filetypesview.cpp:112
+#: filetypesview.cpp:111
 msgid ""
 "Here you can see a hierarchical list of the file types which are known on "
 "your system. Click on the '+' sign to expand a category, or the '-' sign to "
@@ -249,15 +245,15 @@ msgstr ""
 "kontrolên rastê cureyê pelê ku dixwazî lê binêrî/serast bikî (mînak: ji bo "
 "pelên HTML deq/html) hilbijêre."
 
-#: filetypesview.cpp:126
+#: filetypesview.cpp:125
 msgid "Click here to add a new file type."
 msgstr "Ji bo cureyekî nû ê pelan lê zêde bikîli ser virê bitikîne."
 
-#: filetypesview.cpp:128 filetypesview.cpp:389
+#: filetypesview.cpp:127 filetypesview.cpp:389
 msgid "&Remove"
 msgstr "&Rakirin"
 
-#: filetypesview.cpp:155
+#: filetypesview.cpp:154
 msgid "Select a file type by name or by extension"
 msgstr "Li gorî nav an jî niçikê cureyekî pelan hilbijêre"
 
@@ -293,66 +289,66 @@ msgid ""
 "still end up using them)."
 msgstr ""
 
-#: keditfiletype.cpp:122
+#: keditfiletype.cpp:133
 msgid "KEditFileType"
 msgstr "CureyêPelanKEdit"
 
-#: keditfiletype.cpp:123
+#: keditfiletype.cpp:134
 msgid ""
 "KDE file type editor - simplified version for editing a single file type"
 msgstr ""
 "Edîtora cureyê pelan a KDE'yê - guhertoya hêsankirî ya ji bo zêdekirina tenê "
 "cureyekî pelan"
 
-#: keditfiletype.cpp:125
+#: keditfiletype.cpp:136
 msgid "(c) 2000, KDE developers"
 msgstr "(c) 2000, Pêşdebirên KDE'yê"
 
-#: keditfiletype.cpp:126
+#: keditfiletype.cpp:137
 msgid "Preston Brown"
 msgstr "Preston Brown"
 
-#: keditfiletype.cpp:127
+#: keditfiletype.cpp:138
 msgid "David Faure"
 msgstr "David Faure"
 
-#: keditfiletype.cpp:133
+#: keditfiletype.cpp:146
 msgid "Makes the dialog transient for the window specified by winid"
 msgstr "Paceya axaftinê bi winid'ê ji bo paceya diyar bûye dike demdemî"
 
-#: keditfiletype.cpp:134
+#: keditfiletype.cpp:147
 msgid "File type to edit (e.g. text/html)"
 msgstr "Cerê pelan ê bê serastkirin (mînak: text/html)"
 
-#: keditfiletype.cpp:162
+#: keditfiletype.cpp:176
 #, kde-format
 msgid "%1 File"
 msgstr "%1 Pel"
 
-#: keditfiletype.cpp:189
+#: keditfiletype.cpp:202
 #, kde-format
 msgid "Edit File Type %1"
 msgstr "Cureyê Pelan %1 Sererast Bike"
 
-#: keditfiletype.cpp:191
+#: keditfiletype.cpp:204
 #, kde-format
 msgid "Create New File Type %1"
 msgstr "Cureyekî Nû yê Pelê %1 Biafirîne"
 
-#: kservicelistwidget.cpp:54
+#: kservicelistwidget.cpp:50
 #, kde-format
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: kservicelistwidget.cpp:72
+#: kservicelistwidget.cpp:64
 msgid "Application Preference Order"
 msgstr "Rêzkirina Hilbijartina Sepanan"
 
-#: kservicelistwidget.cpp:73
+#: kservicelistwidget.cpp:65
 msgid "Services Preference Order"
 msgstr "Rêzkirina Hilbijartina Servîsan"
 
-#: kservicelistwidget.cpp:85
+#: kservicelistwidget.cpp:77
 msgid ""
 "This is a list of applications associated with files of the selected file "
 "type. This list is shown in Konqueror's context menus when you select \"Open "
@@ -365,7 +361,7 @@ msgstr ""
 "nîşandan. Dema ku ji yekê zêdetir cure bi pelekî ve hatin têkildarkirin, dê "
 "sepana jortirîn bê hilbijartin."
 
-#: kservicelistwidget.cpp:90
+#: kservicelistwidget.cpp:82
 msgid ""
 "This is a list of services associated with files of the selected file type. "
 "This list is shown in Konqueror's context menus when you select a \"Preview "
@@ -378,11 +374,11 @@ msgstr ""
 "hilbijart dê bê nîşandan. Dema ku ji yekê zêdetir cure bi pelê ve hatiye "
 "têkildar kirin, dê sepana jortirîn bê hilbijartin."
 
-#: kservicelistwidget.cpp:102
+#: kservicelistwidget.cpp:94
 msgid "Move &Up"
 msgstr "Bibe J&orê"
 
-#: kservicelistwidget.cpp:109
+#: kservicelistwidget.cpp:101
 msgid ""
 "Assigns a higher priority to the selected\n"
 "application, moving it up in the list. Note:  This\n"
@@ -394,7 +390,7 @@ msgstr ""
 "pel bi gelek sepanan re têkildar be, ev kiryar dê tenê\n"
 "li ser sepana hilbijartî bandorê bike."
 
-#: kservicelistwidget.cpp:113
+#: kservicelistwidget.cpp:105
 msgid ""
 "Assigns a higher priority to the selected\n"
 "service, moving it up in the list."
@@ -402,11 +398,11 @@ msgstr ""
 "Servîsa hilbijartî di lîsteyê de bibe jorê\n"
 "da ku li pêş be."
 
-#: kservicelistwidget.cpp:116
+#: kservicelistwidget.cpp:108
 msgid "Move &Down"
 msgstr "Bîne J&êrê"
 
-#: kservicelistwidget.cpp:122
+#: kservicelistwidget.cpp:114
 msgid ""
 "Assigns a lower priority to the selected\n"
 "application, moving it down in the list. Note: This \n"
@@ -418,7 +414,7 @@ msgstr ""
 "pel bi gelek sepanan re têkildar be, ev kiryar dê tenê\n"
 "li ser sepana hilbijartî bandorê bike."
 
-#: kservicelistwidget.cpp:126
+#: kservicelistwidget.cpp:118
 msgid ""
 "Assigns a lower priority to the selected\n"
 "service, moving it down in the list."
@@ -426,37 +422,33 @@ msgstr ""
 "Servîsa hilbijartî di lîsteyê de bîne jêrê\n"
 "da ku li paş be."
 
-#: kservicelistwidget.cpp:134
+#: kservicelistwidget.cpp:126
 msgid "Add a new application for this file type."
 msgstr "Ji bo vî cureyê pelan sepaneke nû têxê."
 
-#: kservicelistwidget.cpp:137
+#: kservicelistwidget.cpp:129
 msgid "Edit..."
 msgstr "Sererastkirin..."
 
-#: kservicelistwidget.cpp:142
+#: kservicelistwidget.cpp:134
 msgid "Edit command line of the selected application."
 msgstr "Fermana sepana hilbijartî têkevê."
 
-#: kservicelistwidget.cpp:150
+#: kservicelistwidget.cpp:142
 msgid "Remove the selected application from the list."
 msgstr "Sepana hilbijartî ji lîsteyê rake."
 
-#: kservicelistwidget.cpp:174
+#: kservicelistwidget.cpp:166
 msgctxt "No applications associated with this file type"
 msgid "None"
 msgstr "Ne yek jî"
 
-#: kservicelistwidget.cpp:176
+#: kservicelistwidget.cpp:168
 msgctxt "No components associated with this file type"
 msgid "None"
 msgstr "Ne yek jî"
 
-#: kservicelistwidget.cpp:372
-msgid "You are not authorized to remove this service."
-msgstr "Destûra te tune ku vê servîsê rakî."
-
-#: kserviceselectdlg.cpp:31
+#: kserviceselectdlg.cpp:33
 msgid "Add Service"
 msgstr "Servîsê Têxê"
 
@@ -464,23 +456,23 @@ msgstr "Servîsê Têxê"
 msgid "Select service:"
 msgstr "Servîsê hilbijêre:"
 
-#: newtypedlg.cpp:41
+#: newtypedlg.cpp:42
 msgid "Create New File Type"
 msgstr "Cureyekî Nû ê Pelan Biafirîne"
 
-#: newtypedlg.cpp:48
+#: newtypedlg.cpp:47
 msgid "Group:"
 msgstr "Kom:"
 
-#: newtypedlg.cpp:56
+#: newtypedlg.cpp:55
 msgid "Select the category under which the new file type should be added."
 msgstr "Kategoriya ku dê cureyê pelan ê nû dê li bin bê zêdekirin"
 
-#: newtypedlg.cpp:61
+#: newtypedlg.cpp:60
 msgid "Type name:"
 msgstr "Navê cureyî:"
 
-#: newtypedlg.cpp:66
+#: newtypedlg.cpp:65
 msgid ""
 "Type the name of the file type. For instance, if you selected 'image' as "
 "category and you type 'custom' here, the file type 'image/custom' will be "
@@ -490,13 +482,19 @@ msgstr ""
 "hilbijartî ye û tu li vir 'taybet' binivîsî, cure yê pelê 'wêne/taybet' wê "
 "bê afirandin."
 
-#~ msgctxt "NAME OF TRANSLATORS"
-#~ msgid "Your names"
-#~ msgstr "Amed Çeko Jiyan"
+#, fuzzy
+#~| msgid ""
+#~| "This button displays the icon associated with the selected file type. "
+#~| "Click on it to choose a different icon."
+#~ msgid ""
+#~ "This is the icon associated with the selected file type. Choosing a "
+#~ "different icon requires shared-mime-info to be at least version 0.40."
+#~ msgstr ""
+#~ "Ev bişkojk, îkona bi pelê cure yê vê hilbijartî ye nîşan dide. Ser de "
+#~ "bitikîne û îkonê biguherîne. "
 
-#~ msgctxt "EMAIL OF TRANSLATORS"
-#~ msgid "Your emails"
-#~ msgstr "amedcj@gmail.com"
+#~ msgid "You are not authorized to remove this service."
+#~ msgstr "Destûra te tune ku vê servîsê rakî."
 
 #~ msgid "Click here to remove the selected file type."
 #~ msgstr "Ji bo rakirina cureyê pelê hilbijartî li ser virê bitikîne."
