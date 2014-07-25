@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_wallpaper_image\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-06-24 10:10+0000\n"
+"POT-Creation-Date: 2014-07-25 09:45+0000\n"
 "PO-Revision-Date: 2008-12-26 03:10+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -33,6 +33,92 @@ msgstr "Pelê Wêneyê Zemînê Hilbijêre"
 msgid "Image Files (*.png *.jpg *.jpeg *.bmp *.svg *.svgz *.xcf)"
 msgstr ""
 
+#: imagepackage/contents/ui/config.qml:69
+#, fuzzy
+#| msgid "P&ositioning:"
+msgctxt "Label for positioning combo"
+msgid "Positioning:"
+msgstr "Bi&cihbûn:"
+
+#: imagepackage/contents/ui/config.qml:78
+#, fuzzy
+#| msgid "Scaled & Cropped"
+msgid "Scaled && Cropped"
+msgstr "Vezeliyayî & Qusandî"
+
+#: imagepackage/contents/ui/config.qml:82
+msgid "Scaled"
+msgstr "Pîvan bûyî"
+
+#: imagepackage/contents/ui/config.qml:86
+#, fuzzy
+#| msgid "Scaled, keep proportions"
+msgid "Scaled, Keep Proportions"
+msgstr "Pîvan bûyî, rêjedar bigire"
+
+#: imagepackage/contents/ui/config.qml:90
+msgid "Centered"
+msgstr "Navîn"
+
+#: imagepackage/contents/ui/config.qml:94
+msgid "Tiled"
+msgstr "Raxistî"
+
+#: imagepackage/contents/ui/config.qml:143
+#, fuzzy
+#| msgid "&Change images every:"
+msgid "Change every:"
+msgstr "Wêneyê bi&guherîne her:"
+
+#: imagepackage/contents/ui/config.qml:156
+msgid "Hours"
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:173
+msgid "Minutes"
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:190
+msgid "Seconds"
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:296
+#, fuzzy
+#| msgid "&Add Folder..."
+msgid "Add Folder"
+msgstr "Peldankê &Lê Zêde Bike..."
+
+#: imagepackage/contents/ui/config.qml:302
+#, fuzzy
+#| msgid "..."
+msgid "Open..."
+msgstr "..."
+
+#: imagepackage/contents/ui/config.qml:307
+#, fuzzy
+#| msgid "Download new wallpapers"
+msgid "Download Wallpapers"
+msgstr "Wêneyên Nû Daxe"
+
+#: imagepackage/contents/ui/main.qml:91
+#, fuzzy
+#| msgid "Select Wallpaper Image File"
+msgid "Next Wallpaper Image"
+msgstr "Pelê Wêneyê Zemînê Hilbijêre"
+
+#: imagepackage/contents/ui/WallpaperDelegate.qml:120
+#, fuzzy
+#| msgid "Get New Wallpapers..."
+msgid "Remove wallpaper"
+msgstr "Wêneyên Nû Daxe..."
+
+#: imagepackage/contents/ui/WallpaperDelegate.qml:142
+#, fuzzy, kde-format
+#| msgctxt "Caption to wallpaper preview, %1 author name"
+#| msgid "by %1"
+msgid "%1 by %2"
+msgstr "yê %1"
+
 #: wallpaperpackage.cpp:40
 #, fuzzy
 #| msgid "Images"
@@ -53,28 +139,8 @@ msgstr ""
 
 #, fuzzy
 #~| msgid "Select Wallpaper Image File"
-#~ msgid "Next Wallpaper Image"
-#~ msgstr "Pelê Wêneyê Zemînê Hilbijêre"
-
-#, fuzzy
-#~| msgid "Select Wallpaper Image File"
 #~ msgid "Open Wallpaper Image"
 #~ msgstr "Pelê Wêneyê Zemînê Hilbijêre"
-
-#~ msgid "Scaled & Cropped"
-#~ msgstr "Vezeliyayî & Qusandî"
-
-#~ msgid "Scaled"
-#~ msgstr "Pîvan bûyî"
-
-#~ msgid "Scaled, keep proportions"
-#~ msgstr "Pîvan bûyî, rêjedar bigire"
-
-#~ msgid "Centered"
-#~ msgstr "Navîn"
-
-#~ msgid "Tiled"
-#~ msgstr "Raxistî"
 
 #~ msgid "Center Tiled"
 #~ msgstr "Li Navîn Raxistî"
@@ -88,11 +154,6 @@ msgstr ""
 #~ msgid "&Color:"
 #~ msgstr "&Reng:"
 
-#, fuzzy
-#~| msgid "..."
-#~ msgid "Open..."
-#~ msgstr "..."
-
 #~ msgid "Get New Wallpapers..."
 #~ msgstr "Wêneyên Nû Daxe..."
 
@@ -101,26 +162,11 @@ msgstr ""
 #~ msgid "Remove from list"
 #~ msgstr "Peldankê &Rake"
 
-#, fuzzy
-#~| msgid "P&ositioning:"
-#~ msgid "&Positioning:"
-#~ msgstr "Bi&cihbûn:"
-
-#, fuzzy
-#~| msgid "&Change images every:"
-#~ msgid "C&hange images every:"
-#~ msgstr "Wêneyê bi&guherîne her:"
-
 #~ msgctxt ""
 #~ "(qtdt-format) Please do not change the quotes (') and translate only the "
 #~ "content of the quotes."
 #~ msgid "hh 'Hours' mm 'Mins' ss 'Secs'"
 #~ msgstr "hh 'Demjimêr' mm 'Xulek' ss 'Çirke'"
-
-#, fuzzy
-#~| msgid "Get New Wallpapers..."
-#~ msgid "&System wallpapers:"
-#~ msgstr "Wêneyên Nû Daxe..."
 
 #, fuzzy
 #~| msgid "Download new wallpapers"
@@ -132,18 +178,8 @@ msgstr ""
 #~ msgid "Custom folders:"
 #~ msgstr "Peldank:"
 
-#~ msgid "&Add Folder..."
-#~ msgstr "Peldankê &Lê Zêde Bike..."
-
 #~ msgid "&Remove Folder"
 #~ msgstr "Peldankê &Rake"
-
-#~ msgid "Download new wallpapers"
-#~ msgstr "Wêneyên Nû Daxe"
-
-#~ msgctxt "Caption to wallpaper preview, %1 author name"
-#~ msgid "by %1"
-#~ msgstr "yê %1"
 
 #~ msgctxt "Wallpaper info, author name"
 #~ msgid "%1"
