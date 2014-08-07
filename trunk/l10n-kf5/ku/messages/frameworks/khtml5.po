@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-06-03 10:25+0000\n"
+"POT-Creation-Date: 2014-08-07 07:59+0000\n"
 "PO-Revision-Date: 2010-08-13 15:45+0200\n"
 "Last-Translator: Erdal Ronahî <erdal.ronahi@nospam.gmail.com>\n"
 "Language-Team: Kurdish Team http://pckurd.net\n"
@@ -158,9 +158,7 @@ msgstr "Guherbarên Herêmî"
 msgid "Reference"
 msgstr "Referans"
 
-#. i18n: ectx: property (text), widget (QTreeWidget, _headers)
-#: ecma/debugger/localvariabledock.cpp:52 htmlpageinfo.ui:219
-#: java/kjavaappletviewer.cpp:150
+#: ecma/debugger/localvariabledock.cpp:52 java/kjavaappletviewer.cpp:150
 msgid "Value"
 msgstr "Nirx"
 
@@ -351,35 +349,6 @@ msgstr "Danexe"
 msgid "This is a searchable index. Enter search keywords: "
 msgstr "Ev pêristeke lêgerînê ya derbasbare. şîfreya lêgerînê derbaske: "
 
-#. i18n: ectx: property (text), widget (QLabel, TextLabel1)
-#: html/keygenwizard.ui:35
-msgid ""
-"You have indicated that you wish to obtain or purchase a secure certificate. "
-"This wizard is intended to guide you through the procedure. You may cancel "
-"at any time, and this will abort the transaction."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, TextLabel4)
-#: html/keygenwizard2.ui:35
-msgid ""
-"You must now provide a password for the certificate request. Please choose a "
-"very secure password as this will be used to encrypt your private key."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, TextLabel6)
-#: html/keygenwizard2.ui:48
-#, fuzzy
-#| msgid "&Keep password"
-msgid "&Repeat password:"
-msgstr "Şîfreyê &veşêre"
-
-#. i18n: ectx: property (text), widget (QLabel, TextLabel5)
-#: html/keygenwizard2.ui:58
-#, fuzzy
-#| msgid "&Keep password"
-msgid "&Choose password:"
-msgstr "Şîfreyê &veşêre"
-
 #: html/ksslkeygen.cpp:82
 #, fuzzy
 #| msgid "Details of the Request:"
@@ -449,52 +418,6 @@ msgstr ""
 #| msgid "Enable SOCKS support"
 msgid "No SSL support."
 msgstr "Desteka SOCKS çalak bike"
-
-#. i18n: ectx: property (windowTitle), widget (QDialog, KHTMLInfoDlg)
-#: htmlpageinfo.ui:22
-msgid "Document Information"
-msgstr "Agahiyên Belgeyê"
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
-#: htmlpageinfo.ui:34
-msgctxt "@title:group Document information"
-msgid "General"
-msgstr "Giştî"
-
-#. i18n: ectx: property (text), widget (QLabel, urlLabel)
-#: htmlpageinfo.ui:60
-msgid "URL:"
-msgstr "URL:"
-
-#. i18n: ectx: property (text), widget (QLabel, titleLabel)
-#: htmlpageinfo.ui:112
-msgid "Title:"
-msgstr "Sernav:"
-
-#. i18n: ectx: property (text), widget (QLabel, _lmLabel)
-#: htmlpageinfo.ui:128
-msgid "Last modified:"
-msgstr "Guherandina dawî:"
-
-#. i18n: ectx: property (text), widget (QLabel, _eLabel)
-#: htmlpageinfo.ui:144
-msgid "Document encoding:"
-msgstr "Kodkirina belgeyê:"
-
-#. i18n: ectx: property (text), widget (QLabel, _modeLabel)
-#: htmlpageinfo.ui:167
-msgid "Rendering mode:"
-msgstr "Moda ceribandinê:"
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
-#: htmlpageinfo.ui:186
-msgid "HTTP Headers"
-msgstr "Sernavên HTTP"
-
-#. i18n: ectx: property (text), widget (QTreeWidget, _headers)
-#: htmlpageinfo.ui:214
-msgid "Property"
-msgstr "Taybetmendî"
 
 #: java/kjavaapplet.cpp:227
 #, kde-format
@@ -585,26 +508,6 @@ msgstr "URLya Mak"
 #: java/kjavaappletviewer.cpp:165
 msgid "Archives"
 msgstr "Arşîv"
-
-#. i18n: ectx: Menu (edit)
-#: khtml.rc:4 khtml_browser.rc:11
-msgid "&Edit"
-msgstr "Sere&rastkirin"
-
-#. i18n: ectx: Menu (file)
-#: khtml_browser.rc:4
-msgid "&File"
-msgstr "&Pel"
-
-#. i18n: ectx: Menu (view)
-#: khtml_browser.rc:18
-msgid "&View"
-msgstr "&Dîtin"
-
-#. i18n: ectx: ToolBar (htmlToolBar)
-#: khtml_browser.rc:34
-msgid "HTML Toolbar"
-msgstr "Darikê HTML"
 
 #: khtml_ext.cpp:413
 msgid "&Copy Text"
@@ -1335,39 +1238,6 @@ msgstr "Qediya."
 msgid "Access Keys activated"
 msgstr "Bişkokên Gihiştînê Hatine Çalakkirin"
 
-#. i18n: ectx: property (windowTitle), widget (QDialog, KJSErrorDlgBase)
-#: kjserrordlgbase.ui:14
-msgid "JavaScript Errors"
-msgstr "Çewtiyên JavaScript"
-
-#. i18n: ectx: property (whatsThis), widget (QDialog, KJSErrorDlgBase)
-#: kjserrordlgbase.ui:17
-msgid ""
-"This dialog provides you with notification and details of scripting errors "
-"that occur on web pages.  In many cases it is due to an error in the web "
-"site as designed by its author.  In other cases it is the result of a "
-"programming error in Konqueror.  If you suspect the former, please contact "
-"the webmaster of the site in question.  Conversely if you suspect an error "
-"in Konqueror, please file a bug report at http://bugs.kde.org/.  A test case "
-"which illustrates the problem will be appreciated."
-msgstr ""
-"Çewtiyên skrîptî ên malperan, bi piranî ji avabûna zimanên cuda ên skrîptan "
-"pêk tên. Çewtiyên din ji çewtiyên bernamekirina Konquerorê pêk tên. Heke ji "
-"îhtîmala duyemîn dikevî şikê, ji kerema xwe re bi formeke raporkirina "
-"çewtiyan serî li <b>http://bugs.kde.org/ </b> bide. Heke heman çewtî ji hêla "
-"hin kesên din ve nehatine raporkirin, tu dikarî vê çewtiyê rapor bikî. Heke "
-"agahiyên di derbarê pergala xwe de jî di raporê de diyar bikî, dê çêtir be."
-
-#. i18n: ectx: property (text), widget (QPushButton, _close)
-#: kjserrordlgbase.ui:29
-msgid "&Close"
-msgstr "&Bigire"
-
-#. i18n: ectx: property (text), widget (QPushButton, _clear)
-#: kjserrordlgbase.ui:36
-msgid "C&lear"
-msgstr "&Paqij Bike"
-
 #: kmultipart/kmultipart.cpp:40
 msgid "KMultiPart"
 msgstr "KMultiPart"
@@ -1532,28 +1402,7 @@ msgstr "Nehate dîtin"
 msgid "No more matches for this search direction."
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: ui/findbar/khtmlfindbar_base.ui:43
-msgid "F&ind:"
-msgstr "Lê&gerîn:"
-
-#. i18n: ectx: property (text), widget (QToolButton, m_next)
-#: ui/findbar/khtmlfindbar_base.ui:75
-msgid "&Next"
-msgstr "&Pêşde"
-
-#. i18n: ectx: property (text), widget (QToolButton, m_previous)
-#: ui/findbar/khtmlfindbar_base.ui:85
-msgid "&Previous"
-msgstr "&Paşde"
-
-#. i18n: ectx: property (text), widget (QToolButton, m_options)
-#: ui/findbar/khtmlfindbar_base.ui:111
-msgid "Opt&ions"
-msgstr "&Vebijêrk"
-
-#. i18n: ectx: property (text), widget (QLabel, m_label)
-#: ui/passwordbar/storepassbar.cpp:59 ui/passwordbar/storepassbar_base.ui:39
+#: ui/passwordbar/storepassbar.cpp:59
 msgid "Do you want to store this password?"
 msgstr "Tu dixwazî vê nasnavê tomar bikî?"
 
@@ -1561,21 +1410,6 @@ msgstr "Tu dixwazî vê nasnavê tomar bikî?"
 #, kde-format
 msgid "Do you want to store this password for %1?"
 msgstr "Tu dixwazî vê nasnavê ji bo %1 tomar bikî?"
-
-#. i18n: ectx: property (text), widget (QToolButton, m_store)
-#: ui/passwordbar/storepassbar_base.ui:59
-msgid "&Store"
-msgstr "&Tomar Bike"
-
-#. i18n: ectx: property (text), widget (QToolButton, m_neverForThisSite)
-#: ui/passwordbar/storepassbar_base.ui:69
-msgid "Ne&ver store for this site"
-msgstr "Ji bo vî rûpelî t&u carî tomar neke"
-
-#. i18n: ectx: property (text), widget (QToolButton, m_doNotStore)
-#: ui/passwordbar/storepassbar_base.ui:79
-msgid "Do &not store this time"
-msgstr "Vê carê tomar &neke"
 
 #: xml/dom_docimpl.cpp:2380
 msgid "Basic Page Style"
@@ -1593,6 +1427,103 @@ msgstr "Çewtiyeke mezin di şîrovekirina:%1 di rêzika %2, stûna %3 de"
 #: xml/xml_tokenizer.cpp:567
 msgid "XML parsing error"
 msgstr "Çewtî di şîrovekirina XML de"
+
+#, fuzzy
+#~| msgid "&Keep password"
+#~ msgid "&Repeat password:"
+#~ msgstr "Şîfreyê &veşêre"
+
+#, fuzzy
+#~| msgid "&Keep password"
+#~ msgid "&Choose password:"
+#~ msgstr "Şîfreyê &veşêre"
+
+#~ msgid "Document Information"
+#~ msgstr "Agahiyên Belgeyê"
+
+#~ msgctxt "@title:group Document information"
+#~ msgid "General"
+#~ msgstr "Giştî"
+
+#~ msgid "URL:"
+#~ msgstr "URL:"
+
+#~ msgid "Title:"
+#~ msgstr "Sernav:"
+
+#~ msgid "Last modified:"
+#~ msgstr "Guherandina dawî:"
+
+#~ msgid "Document encoding:"
+#~ msgstr "Kodkirina belgeyê:"
+
+#~ msgid "Rendering mode:"
+#~ msgstr "Moda ceribandinê:"
+
+#~ msgid "HTTP Headers"
+#~ msgstr "Sernavên HTTP"
+
+#~ msgid "Property"
+#~ msgstr "Taybetmendî"
+
+#~ msgid "&Edit"
+#~ msgstr "Sere&rastkirin"
+
+#~ msgid "&File"
+#~ msgstr "&Pel"
+
+#~ msgid "&View"
+#~ msgstr "&Dîtin"
+
+#~ msgid "HTML Toolbar"
+#~ msgstr "Darikê HTML"
+
+#~ msgid "JavaScript Errors"
+#~ msgstr "Çewtiyên JavaScript"
+
+#~ msgid ""
+#~ "This dialog provides you with notification and details of scripting "
+#~ "errors that occur on web pages.  In many cases it is due to an error in "
+#~ "the web site as designed by its author.  In other cases it is the result "
+#~ "of a programming error in Konqueror.  If you suspect the former, please "
+#~ "contact the webmaster of the site in question.  Conversely if you suspect "
+#~ "an error in Konqueror, please file a bug report at http://bugs.kde.org/.  "
+#~ "A test case which illustrates the problem will be appreciated."
+#~ msgstr ""
+#~ "Çewtiyên skrîptî ên malperan, bi piranî ji avabûna zimanên cuda ên "
+#~ "skrîptan pêk tên. Çewtiyên din ji çewtiyên bernamekirina Konquerorê pêk "
+#~ "tên. Heke ji îhtîmala duyemîn dikevî şikê, ji kerema xwe re bi formeke "
+#~ "raporkirina çewtiyan serî li <b>http://bugs.kde.org/ </b> bide. Heke "
+#~ "heman çewtî ji hêla hin kesên din ve nehatine raporkirin, tu dikarî vê "
+#~ "çewtiyê rapor bikî. Heke agahiyên di derbarê pergala xwe de jî di raporê "
+#~ "de diyar bikî, dê çêtir be."
+
+#~ msgid "&Close"
+#~ msgstr "&Bigire"
+
+#~ msgid "C&lear"
+#~ msgstr "&Paqij Bike"
+
+#~ msgid "F&ind:"
+#~ msgstr "Lê&gerîn:"
+
+#~ msgid "&Next"
+#~ msgstr "&Pêşde"
+
+#~ msgid "&Previous"
+#~ msgstr "&Paşde"
+
+#~ msgid "Opt&ions"
+#~ msgstr "&Vebijêrk"
+
+#~ msgid "&Store"
+#~ msgstr "&Tomar Bike"
+
+#~ msgid "Ne&ver store for this site"
+#~ msgstr "Ji bo vî rûpelî t&u carî tomar neke"
+
+#~ msgid "Do &not store this time"
+#~ msgstr "Vê carê tomar &neke"
 
 #~ msgid "Name"
 #~ msgstr "Nav"
