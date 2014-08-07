@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmenuedit\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-08-02 08:12+0000\n"
+"POT-Creation-Date: 2014-08-07 08:45+0000\n"
 "PO-Revision-Date: 2008-12-23 01:15+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <ku@li.org>\n"
@@ -76,7 +76,7 @@ msgstr "Tenê di KDE de nîşan bide"
 msgid "Hidden entry"
 msgstr "Têketina veşartî"
 
-#: basictab.cpp:143 preferencesdlg.cpp:76
+#: basictab.cpp:143 preferencesdlg.cpp:75
 msgid "General"
 msgstr "Giştî"
 
@@ -180,21 +180,6 @@ msgstr ""
 msgid "Save Menu Changes?"
 msgstr "Guhartinên Pêşekê Werin Tomarkirin?"
 
-#. i18n: ectx: Menu (file)
-#: kmenueditui.rc:6
-msgid "&File"
-msgstr "&Pel"
-
-#. i18n: ectx: Menu (edit)
-#: kmenueditui.rc:16
-msgid "&Edit"
-msgstr "&Sererastkirin"
-
-#. i18n: ectx: ToolBar (mainToolBar)
-#: kmenueditui.rc:33
-msgid "Main Toolbar"
-msgstr "Darikê Amûran ya Mak"
-
 #: main.cpp:34
 msgid "KDE menu editor"
 msgstr "Edîtorê pêşekên KDE"
@@ -248,21 +233,21 @@ msgstr ""
 msgid "Could not write to %1"
 msgstr "Nivîsîna li %1 biserneket"
 
-#: preferencesdlg.cpp:39
+#: preferencesdlg.cpp:38
 #, fuzzy
 #| msgid "Terminal &options:"
 msgid "General options"
 msgstr "&Opsiyonên termînalê:"
 
-#: preferencesdlg.cpp:44
+#: preferencesdlg.cpp:43
 msgid "Spell Checking"
 msgstr "Kontrola Rastnivîsê"
 
-#: preferencesdlg.cpp:45
+#: preferencesdlg.cpp:44
 msgid "Spell checking Options"
 msgstr "Vebijêrkên kontrola rastnivîsê"
 
-#: preferencesdlg.cpp:78
+#: preferencesdlg.cpp:77
 msgid "Show hidden entries"
 msgstr "Têketinên veşartî nîşan bide"
 
@@ -270,36 +255,45 @@ msgstr "Têketinên veşartî nîşan bide"
 msgid " [Hidden]"
 msgstr " [Veşartî]"
 
-#: treeview.cpp:1134
+#: treeview.cpp:1132
 msgid "New Submenu"
 msgstr "Binpêşeka Nû"
 
-#: treeview.cpp:1135
+#: treeview.cpp:1133
 msgid "Submenu name:"
 msgstr "Navê binpêşekê:"
 
-#: treeview.cpp:1204
+#: treeview.cpp:1202
 msgid "New Item"
 msgstr "Hêmana Nû"
 
-#: treeview.cpp:1205
+#: treeview.cpp:1203
 msgid "Item name:"
 msgstr "Navê hêmanê:"
 
-#: treeview.cpp:1696
+#: treeview.cpp:1694
 #, kde-format
 msgid "All submenus of '%1' will be removed. Do you want to continue?"
 msgstr ""
 
-#: treeview.cpp:1862
+#: treeview.cpp:1860
 msgid "Menu changes could not be saved because of the following problem:"
 msgstr "Tomarkirina guhartinên pêşekê biserneket, ev pirsgirêk derket:"
 
-#: treeview.cpp:1907
+#: treeview.cpp:1905
 msgid ""
 "Do you want to restore the system menu? Warning: This will remove all custom "
 "menus."
 msgstr ""
+
+#~ msgid "&File"
+#~ msgstr "&Pel"
+
+#~ msgid "&Edit"
+#~ msgstr "&Sererastkirin"
+
+#~ msgid "Main Toolbar"
+#~ msgstr "Darikê Amûran ya Mak"
 
 #, fuzzy
 #~| msgid "&Name:"
