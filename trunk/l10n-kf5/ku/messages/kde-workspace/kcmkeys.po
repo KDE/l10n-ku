@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkeys\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-08-06 07:56+0000\n"
+"POT-Creation-Date: 2014-08-08 08:30+0000\n"
 "PO-Revision-Date: 2009-01-06 00:38+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <ku@li.org>\n"
@@ -18,6 +18,18 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-Language: Kurdish\n"
+
+#. i18n: ectx: property (text), widget (QLabel, components_label)
+#: export_scheme_dialog.ui:17
+msgid "Select the Components to Export"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, components)
+#: export_scheme_dialog.ui:27
+#, fuzzy
+#| msgid "KDE component:"
+msgid "Components"
+msgstr "Parçeya KDE'yê:"
 
 #: globalshortcuts.cpp:67
 msgid "You are about to reset all shortcuts to their default values."
@@ -120,28 +132,41 @@ msgstr ""
 msgid "Failed to contact the KDE global shortcuts daemon\n"
 msgstr "Nikare bi bernameya kurterê yên giştî yên KDE re bikeve têkilî yê\n"
 
-#, fuzzy
-#~| msgid "KDE component:"
-#~ msgid "Components"
-#~ msgstr "Parçeya KDE'yê:"
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: kglobalshortcutseditor.ui:19
+msgid "KDE component:"
+msgstr "Parçeya KDE'yê:"
 
-#~ msgid "KDE component:"
-#~ msgstr "Parçeya KDE'yê:"
+#. i18n: ectx: property (text), widget (QPushButton, menu_button)
+#: kglobalshortcutseditor.ui:36
+msgid "File"
+msgstr ""
 
-#~ msgid "Select Shortcut Scheme"
-#~ msgstr "Şemaya Kurterê Hilbijêre"
+#. i18n: ectx: property (windowTitle), widget (KDialog, SelectSchemeDialog)
+#. i18n: ectx: property (clickMessage), widget (KUrlRequester, m_url)
+#: select_scheme_dialog.ui:15 select_scheme_dialog.ui:123
+msgid "Select Shortcut Scheme"
+msgstr "Şemaya Kurterê Hilbijêre"
 
-#~ msgid "Select one of the standard KDE shortcut schemes"
-#~ msgstr "Şemayekî kurterê yê KDE yê standard hilbijêre"
+#. i18n: ectx: property (whatsThis), widget (QLabel, label)
+#: select_scheme_dialog.ui:39
+msgid "Select one of the standard KDE shortcut schemes"
+msgstr "Şemayekî kurterê yê KDE yê standard hilbijêre"
 
-#~ msgid "&Standard scheme:"
-#~ msgstr "Şemaya &Standard"
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: select_scheme_dialog.ui:42
+msgid "&Standard scheme:"
+msgstr "Şemaya &Standard"
 
-#~ msgid "Select a shortcut scheme file"
-#~ msgstr "Pelekê şemaya kurterê hilbijêre"
+#. i18n: ectx: property (whatsThis), widget (QLabel, label_2)
+#: select_scheme_dialog.ui:92
+msgid "Select a shortcut scheme file"
+msgstr "Pelekê şemaya kurterê hilbijêre"
 
-#~ msgid "&Path:"
-#~ msgstr "&Rê:"
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: select_scheme_dialog.ui:95
+msgid "&Path:"
+msgstr "&Rê:"
 
 #~ msgid "Shortcuts:"
 #~ msgstr "Kurterê:"

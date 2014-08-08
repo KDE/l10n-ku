@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krunner_shellrunner\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-08-06 07:57+0000\n"
+"POT-Creation-Date: 2014-08-08 08:30+0000\n"
 "PO-Revision-Date: 2009-01-08 21:09+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <ku@li.org>\n"
@@ -20,6 +20,60 @@ msgstr ""
 "X-Poedit-Language: Kurdish\n"
 "X-Poedit-SourceCharset: utf8\n"
 
+#. i18n: ectx: property (whatsThis), widget (QLabel, lbUsername)
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, leUsername)
+#: shellOptions.ui:61 shellOptions.ui:134
+msgid "Enter the user you want to run the application as here."
+msgstr "Navê bikarhênerê tu dixwazî sepanê bixebitîne li vir binivîse."
+
+#. i18n: ectx: property (text), widget (QLabel, lbUsername)
+#: shellOptions.ui:64
+msgid "User&name:"
+msgstr "&Navê bikarhêner:"
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, lePassword)
+#. i18n: ectx: property (whatsThis), widget (QLabel, lbPassword)
+#: shellOptions.ui:83 shellOptions.ui:102
+msgid "Enter the password here for the user you specified above."
+msgstr "Nasnava bikarhênerê li jor hatiye dîyar kirin binivîse li vir."
+
+#. i18n: ectx: property (text), widget (QLabel, lbPassword)
+#: shellOptions.ui:105
+msgid "Pass&word:"
+msgstr "Şî_fre:"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbRunInTerminal)
+#: shellOptions.ui:115
+msgid ""
+"Check this option if the application you want to run is a text mode "
+"application. The application will then be run in a terminal emulator window."
+msgstr ""
+"Heke sepana tu dixwazî bixebitînî bi moda nivîsê be, vê taybetiyê hilbijêre. "
+"Dê sepan di paceya emûlatorê termînalê de bixebite."
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbRunInTerminal)
+#: shellOptions.ui:118
+msgid "Run in &terminal window"
+msgstr "Di &termînalê de bixebitîne"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbRunAsOther)
+#: shellOptions.ui:141
+msgid ""
+"Check this option if you want to run the application with a different user "
+"id. Every process has a user id associated with it. This id code determines "
+"file access and other permissions. The password of the user is required to "
+"do this."
+msgstr ""
+"Heke tu dixwazî sepanê bi hejmara bikarhênerekî cuda bixebitînî vê taybetiyê "
+"hilbijêre. Her sepan xwedî hejmara bikarhênerê têkildar e. Ev hejmara "
+"bikarhêner gihaştina pelan û mafên din dîyar dike. Ji bo vê kirinê nasnava "
+"bikarhêner pêwist e."
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbRunAsOther)
+#: shellOptions.ui:144
+msgid "Run as a different &user"
+msgstr "Wekî &bikarhênerê cuda bixebitîne"
+
 #: shellrunner.cpp:55
 msgid "Finds commands that match :q:, using common shell syntax"
 msgstr ""
@@ -28,43 +82,6 @@ msgstr ""
 #, kde-format
 msgid "Run %1"
 msgstr "%1 Bide xebitandin"
-
-#~ msgid "Enter the user you want to run the application as here."
-#~ msgstr "Navê bikarhênerê tu dixwazî sepanê bixebitîne li vir binivîse."
-
-#~ msgid "User&name:"
-#~ msgstr "&Navê bikarhêner:"
-
-#~ msgid "Enter the password here for the user you specified above."
-#~ msgstr "Nasnava bikarhênerê li jor hatiye dîyar kirin binivîse li vir."
-
-#~ msgid "Pass&word:"
-#~ msgstr "Şî_fre:"
-
-#~ msgid ""
-#~ "Check this option if the application you want to run is a text mode "
-#~ "application. The application will then be run in a terminal emulator "
-#~ "window."
-#~ msgstr ""
-#~ "Heke sepana tu dixwazî bixebitînî bi moda nivîsê be, vê taybetiyê "
-#~ "hilbijêre. Dê sepan di paceya emûlatorê termînalê de bixebite."
-
-#~ msgid "Run in &terminal window"
-#~ msgstr "Di &termînalê de bixebitîne"
-
-#~ msgid ""
-#~ "Check this option if you want to run the application with a different "
-#~ "user id. Every process has a user id associated with it. This id code "
-#~ "determines file access and other permissions. The password of the user is "
-#~ "required to do this."
-#~ msgstr ""
-#~ "Heke tu dixwazî sepanê bi hejmara bikarhênerekî cuda bixebitînî vê "
-#~ "taybetiyê hilbijêre. Her sepan xwedî hejmara bikarhênerê têkildar e. Ev "
-#~ "hejmara bikarhêner gihaştina pelan û mafên din dîyar dike. Ji bo vê "
-#~ "kirinê nasnava bikarhêner pêwist e."
-
-#~ msgid "Run as a different &user"
-#~ msgstr "Wekî &bikarhênerê cuda bixebitîne"
 
 #~ msgid ""
 #~ "<qt>Select whether realtime scheduling should be enabled for the "
