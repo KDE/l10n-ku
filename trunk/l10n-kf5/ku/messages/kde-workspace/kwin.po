@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-07-04 08:25+0000\n"
+"POT-Creation-Date: 2014-08-18 08:07+0000\n"
 "PO-Revision-Date: 2009-01-06 03:15+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <gnu-ku-wergerandin at lists dot sourceforge dot "
@@ -28,7 +28,7 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "oensari@gmail.com"
 
-#: composite.cpp:497
+#: composite.cpp:499
 #, kde-format
 msgid ""
 "Desktop effects have been suspended by another application.<br/>You can "
@@ -409,71 +409,89 @@ msgstr ""
 msgid "Invert Screen Colors"
 msgstr ""
 
-#: main.cpp:144
+#: main.cpp:78
 msgid ""
 "KWin is unstable.\n"
 "It seems to have crashed several times in a row.\n"
 "You can select another window manager to run:"
 msgstr ""
 
-#: main.cpp:240
-msgid ""
-"kwin: unable to claim manager selection, another wm running? (try using --"
-"replace)\n"
-msgstr ""
-
-#: main.cpp:260
-msgid "kwin: another window manager is running (try using --replace)\n"
-msgstr ""
-
-#: main.cpp:396 main.cpp:510
+#: main.cpp:259 main.cpp:286
 msgid "KDE window manager"
 msgstr "Gerînendeyê Paceyan yê KDE"
 
-#: main.cpp:492
+#: main.cpp:264
 msgid "KWin"
 msgstr "KWin"
 
-#: main.cpp:496
+#: main.cpp:268
 #, fuzzy
 #| msgid "(c) 1999-2008, The KDE Developers"
 msgid "(c) 1999-2013, The KDE Developers"
 msgstr "(c) 1999-2005, Pêşvebirên KDE"
 
-#: main.cpp:498
+#: main.cpp:270
 msgid "Matthias Ettrich"
 msgstr "Matthias Ettrich"
 
-#: main.cpp:499
+#: main.cpp:271
 msgid "Cristian Tibirna"
 msgstr "Cristian Tibirna"
 
-#: main.cpp:500
+#: main.cpp:272
 msgid "Daniel M. Duley"
 msgstr "Daniel M. Duley"
 
-#: main.cpp:501
+#: main.cpp:273
 msgid "Luboš Luňák"
 msgstr "Luboš Luňák"
 
-#: main.cpp:502
+#: main.cpp:274
 msgid "Martin Gräßlin"
 msgstr ""
 
-#: main.cpp:502
+#: main.cpp:274
 msgid "Maintainer"
 msgstr "Kesê miqet"
 
-#: main.cpp:505
+#: main.cpp:283
 msgid "Disable configuration options"
 msgstr ""
 
-#: main.cpp:506
-msgid "Replace already-running ICCCM2.0-compliant window manager"
+#: main.cpp:284
+msgid "Indicate that KWin has recently crashed n times"
 msgstr ""
 
-#: main.cpp:507
-msgid "Indicate that KWin has recently crashed n times"
+#: main_wayland.cpp:87
+msgid "kwin_wayland: an X11 window manager is running on the X11 Display.\n"
+msgstr ""
+
+#: main_wayland.cpp:95
+msgid ""
+"kwin_wayland: could not connect to Wayland Server, ensure WAYLAND_DISPLAY is "
+"set.\n"
+msgstr ""
+
+#: main_wayland.cpp:230
+msgid "Start a nested X Server."
+msgstr ""
+
+#: main_wayland.cpp:233
+msgid "The X11 Display to connect to, required if option x-server is used."
+msgstr ""
+
+#: main_x11.cpp:149
+msgid ""
+"kwin: unable to claim manager selection, another wm running? (try using --"
+"replace)\n"
+msgstr ""
+
+#: main_x11.cpp:166
+msgid "kwin: another window manager is running (try using --replace)\n"
+msgstr ""
+
+#: main_x11.cpp:261
+msgid "Replace already-running ICCCM2.0-compliant window manager"
 msgstr ""
 
 #: scene_opengl.cpp:329
@@ -848,7 +866,7 @@ msgstr "Biçe Sermase ya Jêrê"
 msgid "Switch to Desktop %1"
 msgstr "Biçe Sermase ya 1ê"
 
-#: workspace.cpp:1341
+#: workspace.cpp:1340
 msgctxt "Introductory text shown in the support information."
 msgid ""
 "KWin Support Information:\n"
