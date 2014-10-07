@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-09-29 07:45+0000\n"
+"POT-Creation-Date: 2014-10-07 10:10+0000\n"
 "PO-Revision-Date: 2010-08-13 15:45+0200\n"
 "Last-Translator: Erdal Ronahî <erdal.ronahi@nospam.gmail.com>\n"
 "Language-Team: Kurdish Team http://pckurd.net\n"
@@ -456,6 +456,10 @@ msgstr "Pêşve"
 msgid "Finish"
 msgstr "Dawî"
 
+#: uploaddialog.cpp:173
+msgid "Fetching provider information..."
+msgstr "Agahiya Belavkarê"
+
 #: uploaddialog.cpp:180
 msgid "Fetching license data from server..."
 msgstr "Danaya lîsansê ji pêşkêşkerê tê anîn..."
@@ -463,6 +467,12 @@ msgstr "Danaya lîsansê ji pêşkêşkerê tê anîn..."
 #: uploaddialog.cpp:187
 msgid "Fetching content data from server..."
 msgstr "Danaya naverokê ji pêşkêşkerê tê anîn..."
+
+#: uploaddialog.cpp:262
+#, fuzzy
+#| msgid "Fetching provider information..."
+msgid "Could not fetch provider information."
+msgstr "Agahiya Belavkarê"
 
 #: uploaddialog.cpp:286
 msgid "Register a new account"
@@ -9565,9 +9575,6 @@ msgstr "Destpê Barkirinê Bike"
 
 #~ msgid "Upload..."
 #~ msgstr "&Biguherîne..."
-
-#~ msgid "Fetching provider information..."
-#~ msgstr "Agahiya Belavkarê"
 
 #~ msgid "Provider could not be initialized."
 #~ msgstr "Dengdan nehat şandin."
