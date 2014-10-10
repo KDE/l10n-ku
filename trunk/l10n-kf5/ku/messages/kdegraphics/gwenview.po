@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gwenview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-10-09 07:55+0000\n"
+"POT-Creation-Date: 2014-10-10 08:38+0000\n"
 "PO-Revision-Date: 2009-01-22 22:46+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -68,7 +68,7 @@ msgstr ""
 msgid "Remember folders and URLs"
 msgstr ""
 
-#: app/browsemainpage.cpp:113 app/mainwindow.cpp:357 app/viewmainpage.cpp:420
+#: app/browsemainpage.cpp:113 app/mainwindow.cpp:354 app/viewmainpage.cpp:420
 #: lib/documentview/documentviewcontroller.cpp:91
 msgctxt "@title actions category - means actions changing smth in interface"
 msgid "View"
@@ -136,7 +136,7 @@ msgid "Rating"
 msgstr "Nirxandin"
 
 #: app/browsemainpage.cpp:152 app/fileopscontextmanageritem.cpp:167
-#: app/mainwindow.cpp:356
+#: app/mainwindow.cpp:353
 msgctxt "@title actions category"
 msgid "File"
 msgstr "Pel"
@@ -173,59 +173,59 @@ msgstr "Nîşandana Wêneyan"
 msgid "Advanced"
 msgstr "Mîhengên Wêneyan"
 
-#: app/fileoperations.cpp:61
+#: app/fileoperations.cpp:62
 #, fuzzy
 #| msgid "Copy To"
 msgctxt "@title:window"
 msgid "Copy To"
 msgstr "Ji Ber Bigire Li"
 
-#: app/fileoperations.cpp:62
+#: app/fileoperations.cpp:63
 msgctxt "@action:button"
 msgid "Copy"
 msgstr "Ji Ber Bigire"
 
-#: app/fileoperations.cpp:65
+#: app/fileoperations.cpp:66
 #, fuzzy
 #| msgid "Move To"
 msgctxt "@title:window"
 msgid "Move To"
 msgstr "Bibe Li"
 
-#: app/fileoperations.cpp:66
+#: app/fileoperations.cpp:67
 msgctxt "@action:button"
 msgid "Move"
 msgstr "Bibe"
 
-#: app/fileoperations.cpp:69
+#: app/fileoperations.cpp:70
 #, fuzzy
 #| msgid "Link To"
 msgctxt "@title:window"
 msgid "Link To"
 msgstr "Girê Bide Li"
 
-#: app/fileoperations.cpp:70
+#: app/fileoperations.cpp:71
 msgctxt "@action:button"
 msgid "Link"
 msgstr "Girêdan"
 
-#: app/fileoperations.cpp:176
+#: app/fileoperations.cpp:177
 msgid "Move Here"
 msgstr "Bîne Li Vir"
 
-#: app/fileoperations.cpp:179
+#: app/fileoperations.cpp:180
 msgid "Copy Here"
 msgstr "Ji Ber Bigire Li Vir"
 
-#: app/fileoperations.cpp:182
+#: app/fileoperations.cpp:183
 msgid "Link Here"
 msgstr "Girê Bide Li Vir"
 
-#: app/fileoperations.cpp:186
+#: app/fileoperations.cpp:187
 msgid "Cancel"
 msgstr "Betal Bike"
 
-#: app/fileoperations.cpp:207
+#: app/fileoperations.cpp:208
 #, fuzzy
 #| msgctxt "@action:inmenu"
 #| msgid "Filename"
@@ -233,7 +233,7 @@ msgctxt "@title:window"
 msgid "Rename"
 msgstr "Navê Pelê"
 
-#: app/fileoperations.cpp:208
+#: app/fileoperations.cpp:209
 #, fuzzy, kde-format
 #| msgctxt ""
 #| "@info %1 is the name of the document which failed to save, %2 is the "
@@ -560,13 +560,13 @@ msgstr "Neynûk"
 msgid "Flip"
 msgstr "Serberjêr Bike"
 
-#: app/imageopscontextmanageritem.cpp:105 lib/resize/resizeimagedialog.cpp:65
+#: app/imageopscontextmanageritem.cpp:105 lib/resize/resizeimagedialog.cpp:64
 msgid "Resize"
 msgstr "Mezinahiyê Biguherîne"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, CropWidget)
 #: app/imageopscontextmanageritem.cpp:110 lib/crop/cropimageoperation.cpp:71
-#: lib/crop/cropwidget.cpp:192 lib/crop/cropwidget.ui:20
+#: lib/crop/cropwidget.cpp:191 lib/crop/cropwidget.ui:20
 msgid "Crop"
 msgstr "Jê Bike"
 
@@ -851,32 +851,32 @@ msgstr ""
 "Wêne dê bên barkirina li vir:\n"
 "%1"
 
-#: app/main.cpp:116
+#: app/main.cpp:115
 msgid "Gwenview"
 msgstr "Gwenview"
 
-#: app/main.cpp:118 part/gvpart.cpp:130
+#: app/main.cpp:117 part/gvpart.cpp:124
 msgid "An Image Viewer"
 msgstr "Nîşanderê Wêneyan"
 
-#: app/main.cpp:123
+#: app/main.cpp:129
 msgid "Start in fullscreen mode"
 msgstr "Di moda dîmender tijî de bide destpêkirin"
 
-#: app/main.cpp:124
+#: app/main.cpp:131
 msgid "Start in slideshow mode"
 msgstr "Di moda nîşandana slaytê de bide destpêkirin"
 
-#: app/main.cpp:125
+#: app/main.cpp:134
 msgid "A starting file or folder"
 msgstr "Pel an jî peldank tê destpêkirin"
 
-#: app/mainwindow.cpp:368
+#: app/mainwindow.cpp:365
 msgctxt "@action reload the currently viewed image"
 msgid "Reload"
 msgstr "Nû Ve Bar Bike"
 
-#: app/mainwindow.cpp:373
+#: app/mainwindow.cpp:370
 #, fuzzy
 #| msgctxt "@action Switch to file list"
 #| msgid "Browse"
@@ -884,12 +884,12 @@ msgctxt "@action:intoolbar Switch to file list"
 msgid "Browse"
 msgstr "Bigere"
 
-#: app/mainwindow.cpp:374
+#: app/mainwindow.cpp:371
 msgctxt "@info:tooltip"
 msgid "Browse folders for images"
 msgstr ""
 
-#: app/mainwindow.cpp:382
+#: app/mainwindow.cpp:379
 #, fuzzy
 #| msgctxt "@title actions category - means actions changing smth in interface"
 #| msgid "View"
@@ -897,45 +897,45 @@ msgctxt "@action:intoolbar Switch to image view"
 msgid "View"
 msgstr "Bibîne"
 
-#: app/mainwindow.cpp:383
+#: app/mainwindow.cpp:380
 #, fuzzy
 #| msgid "Next modified image"
 msgctxt "@info:tooltip"
 msgid "View selected images"
 msgstr "Wêneya pêş ya hatiye guhertin"
 
-#: app/mainwindow.cpp:405
+#: app/mainwindow.cpp:402
 #, fuzzy
 #| msgid "Start in fullscreen mode"
 msgctxt "@action"
 msgid "Leave Fullscreen Mode"
 msgstr "Di moda dîmender tijî de bide destpêkirin"
 
-#: app/mainwindow.cpp:410
+#: app/mainwindow.cpp:407
 msgctxt "@action Go to previous image"
 msgid "Previous"
 msgstr "Paş"
 
-#: app/mainwindow.cpp:411
+#: app/mainwindow.cpp:408
 #, fuzzy
 #| msgid "Go to Previous Image"
 msgctxt "@info:tooltip"
 msgid "Go to previous image"
 msgstr "Biçe Wêneya Paş"
 
-#: app/mainwindow.cpp:418
+#: app/mainwindow.cpp:415
 msgctxt "@action Go to next image"
 msgid "Next"
 msgstr "Pêş"
 
-#: app/mainwindow.cpp:419
+#: app/mainwindow.cpp:416
 #, fuzzy
 #| msgid "Go to Next Image"
 msgctxt "@info:tooltip"
 msgid "Go to next image"
 msgstr "Biçe Wêneya Pêş"
 
-#: app/mainwindow.cpp:425
+#: app/mainwindow.cpp:422
 #, fuzzy
 #| msgctxt ""
 #| "@action:button Zoom to fit, shown in status bar, keep it short please"
@@ -944,14 +944,14 @@ msgctxt "@action Go to first image"
 msgid "First"
 msgstr "Lihevkirin"
 
-#: app/mainwindow.cpp:426
+#: app/mainwindow.cpp:423
 #, fuzzy
 #| msgid "Go to Next Image"
 msgctxt "@info:tooltip"
 msgid "Go to first image"
 msgstr "Biçe Wêneya Pêş"
 
-#: app/mainwindow.cpp:431
+#: app/mainwindow.cpp:428
 #, fuzzy
 #| msgctxt "@action:inmenu"
 #| msgid "Date"
@@ -959,130 +959,130 @@ msgctxt "@action Go to last image"
 msgid "Last"
 msgstr "Dîrok"
 
-#: app/mainwindow.cpp:432
+#: app/mainwindow.cpp:429
 #, fuzzy
 #| msgid "Go to Next Image"
 msgctxt "@info:tooltip"
 msgid "Go to last image"
 msgstr "Biçe Wêneya Pêş"
 
-#: app/mainwindow.cpp:442
+#: app/mainwindow.cpp:439
 msgctxt "@action"
 msgid "Start Page"
 msgstr "Rûpela Destpêkê"
 
-#: app/mainwindow.cpp:443
+#: app/mainwindow.cpp:440
 msgctxt "@info:tooltip"
 msgid "Open the start page"
 msgstr ""
 
-#: app/mainwindow.cpp:450
+#: app/mainwindow.cpp:447
 #, fuzzy
 #| msgid "Hide Sidebar"
 msgctxt "@action"
 msgid "Sidebar"
 msgstr "Darika-kêlekê Veşêre"
 
-#: app/mainwindow.cpp:485
+#: app/mainwindow.cpp:482
 msgctxt "@title actions category - means actions changing smth in interface"
 msgid "Edit"
 msgstr "Serast Bike"
 
-#: app/mainwindow.cpp:490
+#: app/mainwindow.cpp:487
 msgid "Redo"
 msgstr "Dîsa Bike"
 
-#: app/mainwindow.cpp:497
+#: app/mainwindow.cpp:494
 msgid "Undo"
 msgstr "Şûnde Bîne"
 
-#: app/mainwindow.cpp:526
+#: app/mainwindow.cpp:523
 #, fuzzy
 #| msgid "Recent Folders"
 msgid "Folders"
 msgstr "Peldankên Borî"
 
-#: app/mainwindow.cpp:532
+#: app/mainwindow.cpp:529
 #, fuzzy
 #| msgid "Meta Information"
 msgid "Information"
 msgstr "Agahiya Meta"
 
-#: app/mainwindow.cpp:542
+#: app/mainwindow.cpp:539
 #, fuzzy
 #| msgid "File Operations"
 msgid "Operations"
 msgstr "Xebatên Pelê"
 
-#: app/mainwindow.cpp:1080
+#: app/mainwindow.cpp:1077
 #, fuzzy
 #| msgid "Hide Sidebar"
 msgctxt "@info:tooltip"
 msgid "Hide sidebar"
 msgstr "Darika-kêlekê Veşêre"
 
-#: app/mainwindow.cpp:1080
+#: app/mainwindow.cpp:1077
 #, fuzzy
 #| msgid "Hide Sidebar"
 msgctxt "@info:tooltip"
 msgid "Show sidebar"
 msgstr "Darika-kêlekê Veşêre"
 
-#: app/mainwindow.cpp:1330
+#: app/mainwindow.cpp:1327
 msgctxt "@title:window"
 msgid "Open Image"
 msgstr "Wêneyê Veke"
 
-#: app/mainwindow.cpp:1390
+#: app/mainwindow.cpp:1387
 msgid "Stop Slideshow"
 msgstr "Nîşandana-slaytê Rawestîne"
 
-#: app/mainwindow.cpp:1393
+#: app/mainwindow.cpp:1390
 msgid "Start Slideshow"
 msgstr "Nîşandana-slaytê Bide Destpêkirin"
 
-#: app/mainwindow.cpp:1407
+#: app/mainwindow.cpp:1404
 msgid "Save All Changes"
 msgstr "Hemû Guherandinan Tomar Bike"
 
-#: app/mainwindow.cpp:1408
+#: app/mainwindow.cpp:1405
 msgid "Discard Changes"
 msgstr "Guhertinan Jê Bibe"
 
-#: app/mainwindow.cpp:1409
+#: app/mainwindow.cpp:1406
 #, kde-format
 msgid "One image has been modified."
 msgid_plural "%1 images have been modified."
 msgstr[0] "Yek wêne hatiye guhertin."
 msgstr[1] "%1 wêne hatine guhertin."
 
-#: app/mainwindow.cpp:1411
+#: app/mainwindow.cpp:1408
 msgid "If you quit now, your changes will be lost."
 msgstr "Heke tu niha derkevî, guherandinên te dê winda bin."
 
-#: app/mainwindow.cpp:1582
+#: app/mainwindow.cpp:1579
 msgid "You reached the first document, what do you want to do?"
 msgstr ""
 
-#: app/mainwindow.cpp:1583 app/mainwindow.cpp:1597
+#: app/mainwindow.cpp:1580 app/mainwindow.cpp:1594
 msgid "Stay There"
 msgstr ""
 
-#: app/mainwindow.cpp:1584
+#: app/mainwindow.cpp:1581
 #, fuzzy
 #| msgid "Go to Next Image"
 msgid "Go to the Last Document"
 msgstr "Biçe Wêneya Pêş"
 
-#: app/mainwindow.cpp:1585 app/mainwindow.cpp:1599
+#: app/mainwindow.cpp:1582 app/mainwindow.cpp:1596
 msgid "Go Back to the Document List"
 msgstr ""
 
-#: app/mainwindow.cpp:1596
+#: app/mainwindow.cpp:1593
 msgid "You reached the last document, what do you want to do?"
 msgstr ""
 
-#: app/mainwindow.cpp:1598
+#: app/mainwindow.cpp:1595
 #, fuzzy
 #| msgid "Go to Next Image"
 msgid "Go to the First Document"
@@ -1521,61 +1521,61 @@ msgstr ""
 msgid "Listing content of:"
 msgstr ""
 
-#: lib/about.cpp:38
+#: lib/about.cpp:39
 #, fuzzy
 #| msgid "Copyright 2000-2008 Aurélien Gâteau"
-msgid "Copyright 2000-2013 Gwenview authors"
+msgid "Copyright 2000-2014 Gwenview authors"
 msgstr "Copyright 2000-2008 Aurélien Gâteau"
 
-#: lib/about.cpp:40
+#: lib/about.cpp:41
 msgid "Aurélien Gâteau"
 msgstr "Aurélien Gâteau"
 
-#: lib/about.cpp:41
+#: lib/about.cpp:42
 msgid "Main developer"
 msgstr "Pêşvebirê Bingehîn"
 
-#: lib/about.cpp:44
+#: lib/about.cpp:45
 msgid "Benjamin Löwe"
 msgstr ""
 
-#: lib/about.cpp:45
+#: lib/about.cpp:46
 #, fuzzy
 #| msgid "Main developer"
 msgid "Developer"
 msgstr "Pêşvebirê Bingehîn"
 
-#: lib/crop/cropwidget.cpp:141
+#: lib/crop/cropwidget.cpp:140
 msgid "Square"
 msgstr "Çar goşe(kare)"
 
-#: lib/crop/cropwidget.cpp:142
+#: lib/crop/cropwidget.cpp:141
 msgid "This Screen"
 msgstr ""
 
-#: lib/crop/cropwidget.cpp:143
+#: lib/crop/cropwidget.cpp:142
 msgid "Landscape"
 msgstr ""
 
-#: lib/crop/cropwidget.cpp:148 lib/crop/cropwidget.cpp:155
+#: lib/crop/cropwidget.cpp:147 lib/crop/cropwidget.cpp:154
 msgid "ISO Size (A4, A3...)"
 msgstr ""
 
-#: lib/crop/cropwidget.cpp:149 lib/crop/cropwidget.cpp:156
+#: lib/crop/cropwidget.cpp:148 lib/crop/cropwidget.cpp:155
 msgid "US Letter"
 msgstr ""
 
-#: lib/crop/cropwidget.cpp:150
+#: lib/crop/cropwidget.cpp:149
 msgid "Portrait"
 msgstr ""
 
-#: lib/crop/cropwidget.cpp:165
+#: lib/crop/cropwidget.cpp:164
 #, fuzzy
 #| msgid "&Width:"
 msgid "Width"
 msgstr "&Firehî:"
 
-#: lib/crop/cropwidget.cpp:165
+#: lib/crop/cropwidget.cpp:164
 #, fuzzy
 #| msgid "Height:"
 msgid "Height"
@@ -1641,14 +1641,14 @@ msgctxt "@info"
 msgid "Loading image failed."
 msgstr "Barkirina wêneyê pêk nehat."
 
-#: lib/document/loadingjob.cpp:57
+#: lib/document/loadingjob.cpp:58
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid "Could not upload file."
 msgid "Could not load document %1"
 msgstr "Nekarî pelê bar bike."
 
-#: lib/document/savejob.cpp:106
+#: lib/document/savejob.cpp:107
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1658,7 +1658,7 @@ msgstr ""
 "Nikare pelê ji bo nivîsandinê veke, kontrol bike ku tu xwedî destûrên hewce "
 "yên di <filename>%1</filename> de yî."
 
-#: lib/document/savejob.cpp:130
+#: lib/document/savejob.cpp:131
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1780,7 +1780,7 @@ msgstr "Pel an jî peldank tê destpêkirin"
 msgid "Interval between images (in seconds)"
 msgstr ""
 
-#: lib/historymodel.cpp:143
+#: lib/historymodel.cpp:142
 #, kde-format
 msgid "Last visited: %1"
 msgstr ""
@@ -1792,54 +1792,54 @@ msgctxt "@info:tooltip"
 msgid "Close"
 msgstr "Bigire"
 
-#: lib/imagemetainfomodel.cpp:245
+#: lib/imagemetainfomodel.cpp:246
 msgctxt "@item:intable Image file name"
 msgid "Name"
 msgstr "Nav"
 
-#: lib/imagemetainfomodel.cpp:246
+#: lib/imagemetainfomodel.cpp:247
 msgctxt "@item:intable"
 msgid "File Size"
 msgstr "Mezinahiya Pelê"
 
-#: lib/imagemetainfomodel.cpp:247
+#: lib/imagemetainfomodel.cpp:248
 msgctxt "@item:intable"
 msgid "File Time"
 msgstr "Demê Pelê"
 
-#: lib/imagemetainfomodel.cpp:248
+#: lib/imagemetainfomodel.cpp:249
 msgctxt "@item:intable"
 msgid "Image Size"
 msgstr "Mezinahiya Wêneyê"
 
-#: lib/imagemetainfomodel.cpp:249
+#: lib/imagemetainfomodel.cpp:250
 msgctxt "@item:intable"
 msgid "Comment"
 msgstr ""
 
-#: lib/imagemetainfomodel.cpp:305
+#: lib/imagemetainfomodel.cpp:306
 msgctxt "@title:group General info about the image"
 msgid "General"
 msgstr "Giştî"
 
-#: lib/imagemetainfomodel.cpp:334
+#: lib/imagemetainfomodel.cpp:336
 #, kde-format
 msgctxt "@item:intable %1 is image width, %2 is image height"
 msgid "%1x%2"
 msgstr "%1x%2"
 
-#: lib/imagemetainfomodel.cpp:342
+#: lib/imagemetainfomodel.cpp:344
 #, kde-format
 msgctxt "@item:intable %1 is number of millions of pixels in image"
 msgid "(%1MP)"
 msgstr "(%1MP)"
 
-#: lib/imagemetainfomodel.cpp:489
+#: lib/imagemetainfomodel.cpp:491
 msgctxt "@title:column"
 msgid "Property"
 msgstr "Taybetmendî"
 
-#: lib/imagemetainfomodel.cpp:491
+#: lib/imagemetainfomodel.cpp:493
 msgctxt "@title:column"
 msgid "Value"
 msgstr "Nirx"
@@ -2020,12 +2020,12 @@ msgctxt "(qtundo-format)"
 msgid "Transform"
 msgstr "Veguhezîne"
 
-#: part/gvpart.cpp:80
+#: part/gvpart.cpp:79
 msgctxt "@action"
 msgid "Properties"
 msgstr "Taybetmendî"
 
-#: part/gvpart.cpp:128
+#: part/gvpart.cpp:122
 msgid "Gwenview KPart"
 msgstr "Gwenview KPart"
 
