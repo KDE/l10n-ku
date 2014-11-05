@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmstyle\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-10-09 07:59+0000\n"
+"POT-Creation-Date: 2014-11-05 07:49+0000\n"
 "PO-Revision-Date: 2008-12-28 07:31+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
@@ -27,13 +27,8 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "oensari@gmail.com"
 
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: finetuning.ui:17
-msgid "Graphical effects:"
-msgstr ""
-
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: finetuning.ui:43
+#: finetuning.ui:17
 #, fuzzy
 #| msgctxt "@option:check"
 #| msgid "Sho&w icons on buttons"
@@ -41,7 +36,7 @@ msgid "Show icons on buttons:"
 msgstr "Îkonan di nav bişkojkan de nî&şan bide"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: finetuning.ui:63
+#: finetuning.ui:37
 #, fuzzy
 #| msgctxt "@option:check"
 #| msgid "Sho&w icons on buttons"
@@ -49,30 +44,30 @@ msgid "Show icons in menus:"
 msgstr "Îkonan di nav bişkojkan de nî&şan bide"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: finetuning.ui:83
+#: finetuning.ui:70
 msgid "Toolbars"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: finetuning.ui:89
+#: finetuning.ui:76
 msgid "Main toolbar text:"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, comboToolbarIcons)
 #. i18n: ectx: property (text), item, widget (KComboBox, comboSecondaryToolbarIcons)
-#: finetuning.ui:103 finetuning.ui:140
+#: finetuning.ui:90 finetuning.ui:127
 msgid "No Text"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, comboToolbarIcons)
 #. i18n: ectx: property (text), item, widget (KComboBox, comboSecondaryToolbarIcons)
-#: finetuning.ui:108 finetuning.ui:145
+#: finetuning.ui:95 finetuning.ui:132
 msgid "Text Only"
 msgstr "Tenê Nivîs"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, comboToolbarIcons)
 #. i18n: ectx: property (text), item, widget (KComboBox, comboSecondaryToolbarIcons)
-#: finetuning.ui:113 finetuning.ui:150
+#: finetuning.ui:100 finetuning.ui:137
 #, fuzzy
 #| msgid "Text Alongside Icons"
 msgid "Text Beside Icons"
@@ -80,44 +75,44 @@ msgstr "Nivîs Ber Rexê Îkonan"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, comboToolbarIcons)
 #. i18n: ectx: property (text), item, widget (KComboBox, comboSecondaryToolbarIcons)
-#: finetuning.ui:118 finetuning.ui:155
+#: finetuning.ui:105 finetuning.ui:142
 #, fuzzy
 #| msgid "Text Under Icons"
 msgid "Text Below Icons"
 msgstr "Nivîs Bin Îkonan"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: finetuning.ui:126
+#: finetuning.ui:113
 msgid "Secondary toolbar text:"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, menubarBox)
-#: finetuning.ui:179
+#: finetuning.ui:166
 msgid "Menubar"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, labelMenubarStyle)
-#: finetuning.ui:185
+#: finetuning.ui:172
 msgid "Menubar style:"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, comboMenubarStyle)
-#: finetuning.ui:199
+#: finetuning.ui:186
 msgid "In application"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, comboMenubarStyle)
-#: finetuning.ui:204
+#: finetuning.ui:191
 msgid "Title bar button"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, comboMenubarStyle)
-#: finetuning.ui:209
+#: finetuning.ui:196
 msgid "Top screen menubar"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, comboMenubarStyle)
-#: finetuning.ui:214
+#: finetuning.ui:201
 msgid "Only export"
 msgstr ""
 
@@ -161,74 +156,50 @@ msgstr "Vea&vakirin..."
 msgid "Preview"
 msgstr "Pêşdîtin"
 
-#: kcmstyle.cpp:265
-msgid "Low display resolution and Low CPU"
-msgstr "Fesîhî ya nîşanderê yê kin û CPU ya Kin"
-
-#: kcmstyle.cpp:266
-msgid "High display resolution and Low CPU"
-msgstr "Fesîhî ya nîşanderê yê zêde û CPU ya Kêm"
-
-#: kcmstyle.cpp:267
-msgid "Low display resolution and High CPU"
-msgstr "Fesîhî ya nîşanderê yê kin û CPU ya Bilind"
-
-#: kcmstyle.cpp:268
-msgid "High display resolution and High CPU"
-msgstr "Fesîhî ya nîşanderê yê bilind û CPU ya Bilind"
-
-#: kcmstyle.cpp:269
-msgid "Low display resolution and Very High CPU"
-msgstr "Fesîhî ya nîşanderê yê kin û CPU ya Bilind"
-
-#: kcmstyle.cpp:270
-msgid "High display resolution and Very High CPU"
-msgstr "Fesîhî ya nîşanderê yê bilind û CPU ya Bilind"
-
-#: kcmstyle.cpp:287
+#: kcmstyle.cpp:277
 msgctxt "@title:tab"
 msgid "&Applications"
 msgstr ""
 
-#: kcmstyle.cpp:288
+#: kcmstyle.cpp:278
 msgctxt "@title:tab"
 msgid "&Fine Tuning"
 msgstr "Sazkirina &Bikitekit"
 
-#: kcmstyle.cpp:318 kcmstyle.cpp:329
+#: kcmstyle.cpp:308 kcmstyle.cpp:319
 msgid "There was an error loading the configuration dialog for this style."
 msgstr ""
 "Di barkirina pace ya veavakirinê de yê ji bo vê teşeyê çewtiyek çê bû.  "
 
-#: kcmstyle.cpp:320 kcmstyle.cpp:331
+#: kcmstyle.cpp:310 kcmstyle.cpp:321
 msgid "Unable to Load Dialog"
 msgstr "Nikare Paceyê Bar Bike"
 
-#: kcmstyle.cpp:403
+#: kcmstyle.cpp:393
 msgid ""
 "<p>Changes to the visibility of menu icons will only affect newly started "
 "applications.</p>"
 msgstr ""
 
-#: kcmstyle.cpp:404
+#: kcmstyle.cpp:394
 msgctxt "@title:window"
 msgid "Menu Icons Changed"
 msgstr ""
 
-#: kcmstyle.cpp:447
+#: kcmstyle.cpp:435
 msgid "Settings changes will take effect only on application restart"
 msgstr ""
 
-#: kcmstyle.cpp:631 kcmstyle.cpp:742
+#: kcmstyle.cpp:618 kcmstyle.cpp:729
 msgid "No description available."
 msgstr "Danasîn tuneye."
 
-#: kcmstyle.cpp:742
+#: kcmstyle.cpp:729
 #, kde-format
 msgid "Description: %1"
 msgstr "Daxuyanî: %1"
 
-#: kcmstyle.cpp:856
+#: kcmstyle.cpp:840
 msgid ""
 "Here you can choose from a list of predefined widget styles (e.g. the way "
 "buttons are drawn) which may or may not be combined with a theme (additional "
@@ -238,7 +209,7 @@ msgstr ""
 "nexşe kirî) yên di be ku bi dirbekê re girêdayî bin an jî na (agahiyên "
 "zêdetir wekî nîgarê mermerê an jî rengên sade)."
 
-#: kcmstyle.cpp:860
+#: kcmstyle.cpp:844
 msgid ""
 "This area shows a preview of the currently selected style without having to "
 "apply it to the whole desktop."
@@ -246,11 +217,11 @@ msgstr ""
 "Ev qad pêşdîtina teşe yên hilbijartî nîşan dide, bê sepandina vê jê hemû "
 "sermasê re."
 
-#: kcmstyle.cpp:863
+#: kcmstyle.cpp:847
 msgid "This page allows you to choose details about the widget style options"
 msgstr ""
 
-#: kcmstyle.cpp:864
+#: kcmstyle.cpp:848
 #, fuzzy
 #| msgid ""
 #| "<p><b>Icons only:</b> Shows only icons on toolbar buttons. Best option "
@@ -273,7 +244,7 @@ msgstr ""
 "ber rexê îkonê e.</p><b>Nivîs bin îkonan: </b>Di bişkojkên darika amûrê de "
 "îkonan û nivîsê nîşan dide. Nivîs di bin îkonê de ye."
 
-#: kcmstyle.cpp:871
+#: kcmstyle.cpp:855
 msgid ""
 "If you enable this option, KDE Applications will show small icons alongside "
 "some important buttons."
@@ -281,7 +252,7 @@ msgstr ""
 "Heke hûn vê bijare yê çalak bikin, Sepanên KDE dê îkonên biçûk ber rexê "
 "hinek bişkojkên girîng nîşan bide."
 
-#: kcmstyle.cpp:873
+#: kcmstyle.cpp:857
 #, fuzzy
 #| msgid ""
 #| "If you enable this option, KDE Applications will show small icons "
@@ -292,13 +263,6 @@ msgid ""
 msgstr ""
 "Heke hûn vê bijare yê çalak bikin, Sepanên KDE dê îkonên biçûk ber rexê "
 "hinek bişkojkên girîng nîşan bide."
-
-#: kcmstyle.cpp:875
-msgid ""
-"If you enable this option, KDE Applications will run internal animations."
-msgstr ""
-"Heke hûn vê bijare yê çalak bikin, Sepanên KDE dê anîmasyonên hundirî "
-"bixebitîne."
 
 #: styleconfdialog.cpp:29
 #, kde-format
@@ -340,6 +304,30 @@ msgstr "Pir-Qutî"
 #: stylepreview.ui:155
 msgid "Tab 2"
 msgstr "Hilpekîna 2em"
+
+#~ msgid "Low display resolution and Low CPU"
+#~ msgstr "Fesîhî ya nîşanderê yê kin û CPU ya Kin"
+
+#~ msgid "High display resolution and Low CPU"
+#~ msgstr "Fesîhî ya nîşanderê yê zêde û CPU ya Kêm"
+
+#~ msgid "Low display resolution and High CPU"
+#~ msgstr "Fesîhî ya nîşanderê yê kin û CPU ya Bilind"
+
+#~ msgid "High display resolution and High CPU"
+#~ msgstr "Fesîhî ya nîşanderê yê bilind û CPU ya Bilind"
+
+#~ msgid "Low display resolution and Very High CPU"
+#~ msgstr "Fesîhî ya nîşanderê yê kin û CPU ya Bilind"
+
+#~ msgid "High display resolution and Very High CPU"
+#~ msgstr "Fesîhî ya nîşanderê yê bilind û CPU ya Bilind"
+
+#~ msgid ""
+#~ "If you enable this option, KDE Applications will run internal animations."
+#~ msgstr ""
+#~ "Heke hûn vê bijare yê çalak bikin, Sepanên KDE dê anîmasyonên hundirî "
+#~ "bixebitîne."
 
 #~ msgid "kcmstyle"
 #~ msgstr "kcmstyle"
