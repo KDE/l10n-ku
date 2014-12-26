@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaider\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-12-23 01:57+0000\n"
+"POT-Creation-Date: 2014-12-26 08:20+0000\n"
 "PO-Revision-Date: 2008-09-24 02:55+0300\n"
 "Last-Translator: Erdal Ronahi <erdal.ronahi@nospam.gmail.com>\n"
 "Language-Team: American English <kde-i18n-doc@lists.kde.org>\n"
@@ -779,7 +779,7 @@ msgstr ""
 msgid "Previous source value, saved by lupdate tool"
 msgstr ""
 
-#: src/cataloglistview/cataloglistview.cpp:70
+#: src/cataloglistview/cataloglistview.cpp:71
 #, fuzzy
 #| msgctxt "@title:column"
 #| msgid "Translated"
@@ -787,109 +787,109 @@ msgctxt "@title:window aka Message Tree"
 msgid "Translation Units"
 msgstr "Wergerandî"
 
-#: src/cataloglistview/cataloglistview.cpp:87
+#: src/cataloglistview/cataloglistview.cpp:88
 #: src/glossary/glossarywindow.cpp:238 src/project/projecttab.cpp:116
 msgid "Quick search..."
 msgstr ""
 
-#: src/cataloglistview/cataloglistview.cpp:88
+#: src/cataloglistview/cataloglistview.cpp:89
 #: src/glossary/glossarywindow.cpp:240 src/project/projecttab.cpp:117
 msgctxt "@info:tooltip"
 msgid "Activated by Ctrl+L."
 msgstr ""
 
-#: src/cataloglistview/cataloglistview.cpp:88
+#: src/cataloglistview/cataloglistview.cpp:89
 #: src/glossary/glossarywindow.cpp:240 src/project/projecttab.cpp:117
 msgctxt "@info:tooltip"
 msgid "Accepts regular expressions"
 msgstr ""
 
-#: src/cataloglistview/cataloglistview.cpp:97
+#: src/cataloglistview/cataloglistview.cpp:98
 msgid "options"
 msgstr ""
 
-#: src/cataloglistview/cataloglistview.cpp:197
+#: src/cataloglistview/cataloglistview.cpp:190
 msgid "Reset individual filter"
 msgstr ""
 
-#: src/cataloglistview/cataloglistview.cpp:203 src/tm/tmtab.cpp:388
+#: src/cataloglistview/cataloglistview.cpp:196 src/tm/tmtab.cpp:388
 msgid "Case insensitive"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_ignoreAccelMarks)
-#: src/cataloglistview/cataloglistview.cpp:204 src/kaider_findextension.ui:40
+#: src/cataloglistview/cataloglistview.cpp:197 src/kaider_findextension.ui:40
 msgid "Ignore accelerator marks"
 msgstr ""
 
-#: src/cataloglistview/cataloglistview.cpp:205
+#: src/cataloglistview/cataloglistview.cpp:198
 msgid "Ready"
 msgstr ""
 
-#: src/cataloglistview/cataloglistview.cpp:206
+#: src/cataloglistview/cataloglistview.cpp:199
 #, fuzzy
 #| msgctxt "@info:status message entries"
 #| msgid "Total: %1"
 msgid "Non-ready"
 msgstr "Hemî: %1"
 
-#: src/cataloglistview/cataloglistview.cpp:207
+#: src/cataloglistview/cataloglistview.cpp:200
 msgid "Non-empty"
 msgstr ""
 
-#: src/cataloglistview/cataloglistview.cpp:208
+#: src/cataloglistview/cataloglistview.cpp:201
 msgid "Empty"
 msgstr ""
 
-#: src/cataloglistview/cataloglistview.cpp:209
+#: src/cataloglistview/cataloglistview.cpp:202
 msgid "Changed since file open"
 msgstr ""
 
-#: src/cataloglistview/cataloglistview.cpp:210
+#: src/cataloglistview/cataloglistview.cpp:203
 msgid "Unchanged since file open"
 msgstr ""
 
-#: src/cataloglistview/cataloglistview.cpp:211
+#: src/cataloglistview/cataloglistview.cpp:204
 #, fuzzy
 #| msgctxt "@action:inmenu"
 #| msgid "Find in files"
 msgid "Same in sync file"
 msgstr "Di pelan de bibîne"
 
-#: src/cataloglistview/cataloglistview.cpp:212
+#: src/cataloglistview/cataloglistview.cpp:205
 msgid "Different in sync file"
 msgstr ""
 
-#: src/cataloglistview/cataloglistview.cpp:213
+#: src/cataloglistview/cataloglistview.cpp:206
 msgid "Not in sync file"
 msgstr ""
 
-#: src/cataloglistview/cataloglistview.cpp:214
+#: src/cataloglistview/cataloglistview.cpp:207
 msgid "Plural"
 msgstr ""
 
-#: src/cataloglistview/cataloglistview.cpp:215
+#: src/cataloglistview/cataloglistview.cpp:208
 #, fuzzy
 #| msgctxt "@info:status message entries"
 #| msgid "Total: %1"
 msgid "Non-plural"
 msgstr "Hemî: %1"
 
-#: src/cataloglistview/cataloglistview.cpp:220
+#: src/cataloglistview/cataloglistview.cpp:213
 msgctxt "@title:inmenu"
 msgid "Basic"
 msgstr ""
 
-#: src/cataloglistview/cataloglistview.cpp:221
+#: src/cataloglistview/cataloglistview.cpp:214
 msgctxt "@title:inmenu"
 msgid "States"
 msgstr ""
 
-#: src/cataloglistview/cataloglistview.cpp:223
+#: src/cataloglistview/cataloglistview.cpp:216
 msgctxt "@title:inmenu"
 msgid "Searchable column"
 msgstr ""
 
-#: src/cataloglistview/cataloglistview.cpp:242
+#: src/cataloglistview/cataloglistview.cpp:235
 msgctxt "@item:inmenu all columns"
 msgid "All"
 msgstr ""
@@ -1061,7 +1061,7 @@ msgstr "&Amûr"
 #| msgctxt "@action:inmenu"
 #| msgid "Manage translation memories"
 msgctxt "@action:inmenu"
-msgid "Insert alternate translation # %1"
+msgid "Insert alternate translation #%1"
 msgstr "Bîrên wergeran birêvebibe"
 
 #: src/editortab.cpp:289
@@ -1072,14 +1072,16 @@ msgstr ""
 #: src/editortab.cpp:311
 #, kde-format
 msgctxt "@action:inmenu"
-msgid "Insert TM suggestion # %1"
+msgid "Insert TM suggestion #%1"
 msgstr ""
 
 #: src/editortab.cpp:357
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Manage translation memories"
 msgctxt "@action:inmenu"
-msgid "Insert # %1 term translation"
-msgstr ""
+msgid "Insert term translation #%1"
+msgstr "Bîrên wergeran birêvebibe"
 
 #: src/editortab.cpp:368
 msgctxt "@action:inmenu"
@@ -1087,10 +1089,12 @@ msgid "Define new term"
 msgstr ""
 
 #: src/editortab.cpp:402
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Manage translation memories"
 msgctxt "@action:inmenu"
-msgid "Insert WebQuery result # %1"
-msgstr ""
+msgid "Insert WebQuery result #%1"
+msgstr "Bîrên wergeran birêvebibe"
 
 #: src/editortab.cpp:433
 msgctxt "@action:inmenu"
@@ -1915,7 +1919,7 @@ msgctxt "@action:inmenu"
 msgid "Glossary"
 msgstr "Ferhengok"
 
-#: src/lokalizemainwindow.cpp:511 src/nokde-stubs/lokalizesubwindowbase.cpp:62
+#: src/lokalizemainwindow.cpp:511 src/nokde-stubs/lokalizesubwindowbase.cpp:63
 #, fuzzy
 #| msgctxt "@title:column"
 #| msgid "Translation"
@@ -1960,12 +1964,12 @@ msgctxt "@action:inmenu"
 msgid "Open recent project"
 msgstr "Projeyê veke"
 
-#: src/lokalizemainwindow.cpp:540 src/nokde-stubs/lokalizesubwindowbase.cpp:54
+#: src/lokalizemainwindow.cpp:540 src/nokde-stubs/lokalizesubwindowbase.cpp:55
 msgctxt "@action:inmenu"
 msgid "Search and replace in files"
 msgstr ""
 
-#: src/lokalizemainwindow.cpp:543 src/nokde-stubs/lokalizesubwindowbase.cpp:57
+#: src/lokalizemainwindow.cpp:543 src/nokde-stubs/lokalizesubwindowbase.cpp:58
 #, fuzzy
 #| msgctxt "@action:inmenu"
 #| msgid "Find in files"
@@ -3553,6 +3557,14 @@ msgstr ""
 msgid "Web Queries"
 msgstr "Lêgerînên Torê"
 
+#: src/xlifftextedit.cpp:1016
+#, fuzzy
+#| msgctxt "@title:column"
+#| msgid "Translation"
+msgctxt "@action:inmenu"
+msgid "Lookup selected text in translation memory"
+msgstr "Werger"
+
 #: src/xlifftextedit.cpp:1041 src/xlifftextedit.cpp:1101
 #, fuzzy
 #| msgctxt "@action:inmenu"
@@ -3576,13 +3588,6 @@ msgstr ""
 #~ msgctxt "@title:inmenu"
 #~ msgid "Columns"
 #~ msgstr "Niha: %1"
-
-#, fuzzy
-#~| msgctxt "@title:column"
-#~| msgid "Translation"
-#~ msgctxt "@action:inmenu"
-#~ msgid "Lookup selected text in translation memory"
-#~ msgstr "Werger"
 
 #~ msgctxt "@info:status message entries"
 #~ msgid "Fuzzy: %1"
