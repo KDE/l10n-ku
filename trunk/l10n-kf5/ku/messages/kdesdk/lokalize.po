@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaider\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-12-26 08:20+0000\n"
+"POT-Creation-Date: 2014-12-28 08:01+0000\n"
 "PO-Revision-Date: 2008-09-24 02:55+0300\n"
 "Last-Translator: Erdal Ronahi <erdal.ronahi@nospam.gmail.com>\n"
 "Language-Team: American English <kde-i18n-doc@lists.kde.org>\n"
@@ -348,59 +348,75 @@ msgctxt "@action:inmenu"
 msgid "Use source file"
 msgstr ""
 
-#: src/catalog/catalog.cpp:72
-msgid "All supported files"
+#: src/catalog/catalog.cpp:73
+msgid "All supported files (*.po *.pot *.xlf *.xliff *.ts)"
 msgstr ""
 
-#: src/catalog/catalog.cpp:81
+#: src/catalog/catalog.cpp:74
+msgid "Gettext (*.po *.pot)"
+msgstr ""
+
+#: src/catalog/catalog.cpp:74
+msgid "Gettext (*.po)"
+msgstr ""
+
+#: src/catalog/catalog.cpp:74
+msgid "XLIFF (*.xlf *.xliff)"
+msgstr ""
+
+#: src/catalog/catalog.cpp:74
+msgid "Linguist (*.ts)"
+msgstr ""
+
+#: src/catalog/catalog.cpp:80
 msgid "New"
 msgstr ""
 
-#: src/catalog/catalog.cpp:81
+#: src/catalog/catalog.cpp:80
 #, fuzzy
 #| msgctxt "@action:inmenu"
 #| msgid "Manage translation memories"
 msgid "Needs translation"
 msgstr "Bîrên wergeran birêvebibe"
 
-#: src/catalog/catalog.cpp:81
+#: src/catalog/catalog.cpp:80
 msgid "Needs full localization"
 msgstr ""
 
-#: src/catalog/catalog.cpp:81
+#: src/catalog/catalog.cpp:80
 msgid "Needs adaptation"
 msgstr ""
 
-#: src/catalog/catalog.cpp:81
+#: src/catalog/catalog.cpp:80
 #, fuzzy
 #| msgctxt "@title:column"
 #| msgid "Translated"
 msgid "Translated"
 msgstr "Wergerandî"
 
-#: src/catalog/catalog.cpp:82
+#: src/catalog/catalog.cpp:81
 #, fuzzy
 #| msgctxt "@action:inmenu"
 #| msgid "Manage translation memories"
 msgid "Needs translation review"
 msgstr "Bîrên wergeran birêvebibe"
 
-#: src/catalog/catalog.cpp:82
+#: src/catalog/catalog.cpp:81
 msgid "Needs full localization review"
 msgstr ""
 
-#: src/catalog/catalog.cpp:82
+#: src/catalog/catalog.cpp:81
 msgid "Needs adaptation review"
 msgstr ""
 
-#: src/catalog/catalog.cpp:82
+#: src/catalog/catalog.cpp:81
 #, fuzzy
 #| msgctxt "@title actions category"
 #| msgid "File"
 msgid "Final"
 msgstr "Pel"
 
-#: src/catalog/catalog.cpp:83
+#: src/catalog/catalog.cpp:82
 msgid "Signed-off"
 msgstr ""
 
