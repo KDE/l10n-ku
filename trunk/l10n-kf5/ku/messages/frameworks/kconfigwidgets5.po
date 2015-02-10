@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-01-31 08:03+0000\n"
+"POT-Creation-Date: 2015-02-10 09:59+0000\n"
 "PO-Revision-Date: 2010-08-13 15:45+0200\n"
 "Last-Translator: Erdal Ronahî <erdal.ronahi@nospam.gmail.com>\n"
 "Language-Team: Kurdish Team http://pckurd.net\n"
@@ -51,6 +51,13 @@ msgstr "Standard"
 msgctxt "Encodings menu"
 msgid "Autodetect"
 msgstr "Xweber bibîne"
+
+#: kconfigdialog.cpp:45
+#, fuzzy
+#| msgid "Configure"
+msgctxt "@title:window"
+msgid "Configure"
+msgstr "Veavakirin"
 
 #: klanguagebutton.cpp:194
 msgid "without name"
@@ -530,6 +537,41 @@ msgstr "&Der barê %1 de"
 #: kstandardaction_p.h:115
 msgid "About &KDE"
 msgstr "Der barê &KDE de"
+
+#: ktipdialog.cpp:239
+#, fuzzy
+#| msgid "Tip of the Day"
+msgctxt "@title:window"
+msgid "Tip of the Day"
+msgstr "Mijara Rojê"
+
+#: ktipdialog.cpp:255
+#, fuzzy
+#| msgid "Did you know...?\n"
+msgctxt "@title"
+msgid "Did you know...?\n"
+msgstr "Te zanîbû...?\n"
+
+#: ktipdialog.cpp:307
+#, fuzzy
+#| msgid "&Show tips on startup"
+msgctxt "@option:check"
+msgid "&Show tips on startup"
+msgstr "&Di destpêka xebitandinê de têbîniyan pêşkêş bike"
+
+#: ktipdialog.cpp:312
+#, fuzzy
+#| msgid "&Previous"
+msgctxt "@action:button Goes to previous tip"
+msgid "&Previous"
+msgstr "&Paşde"
+
+#: ktipdialog.cpp:317
+#, fuzzy
+#| msgid "&Next"
+msgctxt "@action:button Goes to next tip, opposite to previous"
+msgid "&Next"
+msgstr "&Pêşde"
 
 #~ msgid "Name"
 #~ msgstr "Nav"
@@ -3358,9 +3400,6 @@ msgstr "Der barê &KDE de"
 #~ msgid "Close Message"
 #~ msgstr "Peyamê Bigire"
 
-#~ msgid "Configure"
-#~ msgstr "Veavakirin"
-
 #~ msgid "Job"
 #~ msgstr "Kar"
 
@@ -3848,18 +3887,6 @@ msgstr "Der barê &KDE de"
 
 #~ msgid "Remove"
 #~ msgstr "Rake"
-
-#~ msgid "Tip of the Day"
-#~ msgstr "Mijara Rojê"
-
-#~ msgid "Did you know...?\n"
-#~ msgstr "Te zanîbû...?\n"
-
-#~ msgid "&Show tips on startup"
-#~ msgstr "&Di destpêka xebitandinê de têbîniyan pêşkêş bike"
-
-#~ msgid "&Previous"
-#~ msgstr "&Paşde"
 
 #~ msgctxt "Opposite to Previous"
 #~ msgid "&Next"
@@ -7420,9 +7447,6 @@ msgstr "Der barê &KDE de"
 
 #~ msgid "F&ind:"
 #~ msgstr "Lê&gerîn:"
-
-#~ msgid "&Next"
-#~ msgstr "&Pêşde"
 
 #~ msgid "Opt&ions"
 #~ msgstr "&Vebijêrk"
