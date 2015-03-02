@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-01-08 09:24+0000\n"
+"POT-Creation-Date: 2015-02-10 09:57+0000\n"
 "PO-Revision-Date: 2009-01-06 02:14+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <ku@li.org>\n"
@@ -224,26 +224,26 @@ msgstr "Reng 8 (Tîr)"
 msgid "Un-named Color Scheme"
 msgstr "Şemaya Rengan yê Bênav"
 
-#: ColorSchemeEditor.cpp:113
+#: ColorSchemeEditor.cpp:114
 #, fuzzy
 #| msgid "Name"
 msgctxt "@label:listbox Column header text for color names"
 msgid "Name"
 msgstr "Nav"
 
-#: ColorSchemeEditor.cpp:114
+#: ColorSchemeEditor.cpp:115
 #, fuzzy
 #| msgid "Color"
 msgctxt "@label:listbox Column header text for the actual colors"
 msgid "Color"
 msgstr "Reng"
 
-#: ColorSchemeEditor.cpp:115
+#: ColorSchemeEditor.cpp:116
 msgctxt "@label:listbox Column header text for the actual intense colors"
 msgid "Intense color"
 msgstr ""
 
-#: ColorSchemeEditor.cpp:139
+#: ColorSchemeEditor.cpp:140
 #, fuzzy
 #| msgid ""
 #| "The background transparency setting will not be used because your desktop "
@@ -256,25 +256,30 @@ msgstr ""
 "Mîhengên rûerda zelalî nayê karandin ji ber ku sermase ya we wisa xuya dike "
 "ku piştgirî nade paceyên zelalî."
 
-#: ColorSchemeEditor.cpp:178
+#: ColorSchemeEditor.cpp:186
 msgctxt "@action:button"
 msgid "Select wallpaper image file"
 msgstr ""
 
-#: ColorSchemeEditor.cpp:222 ColorSchemeEditor.cpp:223
+#: ColorSchemeEditor.cpp:188
+msgctxt "@action:button"
+msgid "Supported Images"
+msgstr ""
+
+#: ColorSchemeEditor.cpp:232 ColorSchemeEditor.cpp:233
 msgid "New Color Scheme"
 msgstr "Şemaya Rengan yê Nû"
 
-#: ColorSchemeEditor.cpp:225
+#: ColorSchemeEditor.cpp:235
 msgid "Edit Color Scheme"
 msgstr "Şemaya Rengan Biguherîne"
 
-#: ColorSchemeEditor.cpp:257
+#: ColorSchemeEditor.cpp:267
 msgctxt "@info:tooltip"
 msgid "Click to choose color"
 msgstr ""
 
-#: ColorSchemeEditor.cpp:262
+#: ColorSchemeEditor.cpp:272
 msgctxt "@info:tooltip"
 msgid "Click to choose intense color"
 msgstr ""
@@ -348,15 +353,15 @@ msgstr "Hemûyan Hilbijêre "
 msgid "Deselect All"
 msgstr "Hemûyan Ne Hilbijartî Bike"
 
-#: EditProfileDialog.cpp:76
+#: EditProfileDialog.cpp:77
 msgid "Edit Profile"
 msgstr "Jînname yê Biguherîne"
 
-#: EditProfileDialog.cpp:151
+#: EditProfileDialog.cpp:152
 msgid "<p>Each profile must have a name before it can be saved into disk.</p>"
 msgstr ""
 
-#: EditProfileDialog.cpp:182
+#: EditProfileDialog.cpp:183
 #, fuzzy, kde-format
 #| msgid "Edit Profile \"%1\""
 msgid "Editing profile: %2"
@@ -364,44 +369,43 @@ msgid_plural "Editing %1 profiles: %2"
 msgstr[0] "Jînname ya \"%1\" Biguherîne"
 msgstr[1] "Jînname ya \"%1\" Biguherîne"
 
-#: EditProfileDialog.cpp:187
+#: EditProfileDialog.cpp:188
 #, kde-format
 msgid "Edit Profile \"%1\""
 msgstr "Jînname ya \"%1\" Biguherîne"
 
-#: EditProfileDialog.cpp:263
+#: EditProfileDialog.cpp:264
 #, fuzzy
 #| msgid "Profile name:"
 msgid "Profile name is empty."
 msgstr "Navê profîlê:"
 
-#: EditProfileDialog.cpp:340
-msgctxt "@info:tooltip"
-msgid "One environment variable per line"
-msgstr ""
-
-#: EditProfileDialog.cpp:342
+#: EditProfileDialog.cpp:338
 msgid "Edit Environment"
 msgstr "Derdorê Biguherîne"
 
-#: EditProfileDialog.cpp:364
+#: EditProfileDialog.cpp:339
+msgid "One environment variable per line"
+msgstr ""
+
+#: EditProfileDialog.cpp:360
 msgctxt "Unit of time"
 msgid " second"
 msgid_plural " seconds"
 msgstr[0] ""
 msgstr[1] ""
 
-#: EditProfileDialog.cpp:431
+#: EditProfileDialog.cpp:426
 msgid "Select Initial Directory"
 msgstr "Peldanka Pêşî Hilbijêre"
 
-#: EditProfileDialog.cpp:596
+#: EditProfileDialog.cpp:592
 #, fuzzy, kde-format
 #| msgid "%1"
 msgid "%1"
 msgstr "%1"
 
-#: EditProfileDialog.cpp:784
+#: EditProfileDialog.cpp:780
 msgid ""
 "This color scheme uses a transparent background which does not appear to be "
 "supported on your desktop"
@@ -409,13 +413,13 @@ msgstr ""
 "Ev şemaya rengan rûerda zelalî bi kar tîne yê ku sermase ya we wisa xuya "
 "dike ku piştgirî nadî"
 
-#: EditProfileDialog.cpp:789
+#: EditProfileDialog.cpp:785
 msgid ""
 "Konsole was started before desktop effects were enabled. You need to restart "
 "Konsole to see transparent background."
 msgstr ""
 
-#: EditProfileDialog.cpp:889 EditProfileDialog.cpp:900
+#: EditProfileDialog.cpp:889 EditProfileDialog.cpp:899
 msgid "New Key Binding List"
 msgstr "Lîsteya Kurterê yan yê Nû"
 
@@ -423,11 +427,7 @@ msgstr "Lîsteya Kurterê yan yê Nû"
 msgid "Edit Key Binding List"
 msgstr "Lîsteya Kurterê yan Biguherîne"
 
-#: EditProfileDialog.cpp:1219
-msgid "--- Type anything in this box ---"
-msgstr ""
-
-#: EditProfileDialog.cpp:1223
+#: EditProfileDialog.cpp:1221
 msgid "Select Fixed Width Font"
 msgstr ""
 
@@ -1696,54 +1696,54 @@ msgctxt "@info:credit"
 msgid "Thanks to many others.\n"
 msgstr "Ji gelek kesên din re spas.\n"
 
-#: MainWindow.cpp:292
+#: MainWindow.cpp:294
 #, fuzzy
 #| msgid "New &Tab"
 msgctxt "@action:inmenu"
 msgid "&New Tab"
 msgstr "Hi&pekîna Nû"
 
-#: MainWindow.cpp:302
+#: MainWindow.cpp:304
 #, fuzzy
 #| msgid "&Close Tab"
 msgctxt "@action:inmenu"
 msgid "&Clone Tab"
 msgstr "Hilpekînê &Bigire"
 
-#: MainWindow.cpp:309
+#: MainWindow.cpp:311
 #, fuzzy
 #| msgid "New &Window"
 msgctxt "@action:inmenu"
 msgid "New &Window"
 msgstr "&Paceya Nû"
 
-#: MainWindow.cpp:316
+#: MainWindow.cpp:318
 #, fuzzy
 #| msgid "Konsole"
 msgctxt "@action:inmenu"
 msgid "Close Window"
 msgstr "Konsole"
 
-#: MainWindow.cpp:321
+#: MainWindow.cpp:323
 #, fuzzy
 #| msgid "&Bookmarks"
 msgctxt "@title:menu"
 msgid "&Bookmarks"
 msgstr "&Bijare"
 
-#: MainWindow.cpp:339
+#: MainWindow.cpp:341
 #, fuzzy
 #| msgid "Manage Profiles"
 msgctxt "@action:inmenu"
 msgid "Manage Profiles..."
 msgstr "Profîlan Bi Rê Ve Bibe"
 
-#: MainWindow.cpp:345
+#: MainWindow.cpp:347
 msgctxt "@item"
 msgid "Activate Menu"
 msgstr ""
 
-#: MainWindow.cpp:569
+#: MainWindow.cpp:571
 #, fuzzy, kde-format
 #| msgid ""
 #| "You have multiple tabs in this window, are you sure you want to quit?"
@@ -1756,35 +1756,35 @@ msgstr[0] ""
 msgstr[1] ""
 "Di vê pace yê de yekê zêdetir hilpekîn hene, tu dîsa jî dixwazî derkevî?"
 
-#: MainWindow.cpp:575
+#: MainWindow.cpp:577
 #, fuzzy
 #| msgid "Confirm Close"
 msgctxt "@title"
 msgid "Confirm Close"
 msgstr "Girtinê Bipejirîne"
 
-#: MainWindow.cpp:576
+#: MainWindow.cpp:578
 #, fuzzy
 #| msgid "Konsole"
 msgctxt "@action:button"
 msgid "Close &Window"
 msgstr "Konsole"
 
-#: MainWindow.cpp:577
+#: MainWindow.cpp:579
 #, fuzzy
 #| msgid "Close Current Tab"
 msgctxt "@action:button"
 msgid "Close Current &Tab"
 msgstr "Vê Hilpekînê Bigire"
 
-#: MainWindow.cpp:674
+#: MainWindow.cpp:676
 #, fuzzy
 #| msgid "General"
 msgctxt "@title Preferences page name"
 msgid "General"
 msgstr "Giştî"
 
-#: MainWindow.cpp:679
+#: MainWindow.cpp:681
 msgctxt "@title Preferences page name"
 msgid "TabBar"
 msgstr ""
@@ -1893,7 +1893,7 @@ msgstr "Jînname(yên) hilbijartî jê bibe"
 msgid "&Set as Default"
 msgstr "Wekî Standard Ava Bike"
 
-#: Part.cpp:92
+#: Part.cpp:91
 #, fuzzy
 #| msgid "Manage Profiles"
 msgid "Manage Profiles..."
@@ -2302,43 +2302,43 @@ msgstr ""
 msgid "Print Shell"
 msgstr "Shell"
 
-#: SessionController.cpp:1580
-msgid "Save ZModem Download to..."
+#: SessionController.cpp:1579
+msgid "Save ZModem Download to ..."
 msgstr ""
 
-#: SessionController.cpp:1588
+#: SessionController.cpp:1589
 msgid ""
 "<p>A ZModem file transfer attempt has been detected, but no suitable ZModem "
 "software was found on this system.</p><p>You may wish to install the 'rzsz' "
 "or 'lrzsz' package.</p>"
 msgstr ""
 
-#: SessionController.cpp:1600
+#: SessionController.cpp:1601
 msgid ""
 "<p>The current session already has a ZModem file transfer in progress.</p>"
 msgstr ""
 
-#: SessionController.cpp:1609
+#: SessionController.cpp:1610
 msgid ""
 "<p>No suitable ZModem software was found on this system.</p><p>You may wish "
 "to install the 'rzsz' or 'lrzsz' package.</p>"
 msgstr ""
 
-#: SessionController.cpp:1615
+#: SessionController.cpp:1616
 msgid "Select Files for ZModem Upload"
 msgstr ""
 
-#: SessionController.cpp:1682
+#: SessionController.cpp:1681
 #, kde-format
 msgid "Save Output From %1"
 msgstr ""
 
-#: SessionController.cpp:1693
+#: SessionController.cpp:1692
 #, kde-format
 msgid "%1 is an invalid URL, the output could not be saved."
 msgstr "%1 URL ya ne-derbasdar e, deran nayê tomar kirin."
 
-#: SessionController.cpp:1766
+#: SessionController.cpp:1765
 #, kde-format
 msgid ""
 "A problem occurred when saving the output.\n"
@@ -2626,91 +2626,91 @@ msgctxt "@info:tooltip"
 msgid "Insert remote title format"
 msgstr "Teşeyê sernavê hilpekîna dûr:"
 
-#: TerminalDisplay.cpp:1153 TerminalDisplay.cpp:1154
+#: TerminalDisplay.cpp:1150 TerminalDisplay.cpp:1151
 msgid "Size: XXX x XXX"
 msgstr "Mezinahî: XXX x XXX"
 
-#: TerminalDisplay.cpp:1165
+#: TerminalDisplay.cpp:1162
 #, kde-format
 msgid "Size: %1 x %2"
 msgstr "Mezinahî: %1 x %2"
 
-#: TerminalDisplay.cpp:2713
+#: TerminalDisplay.cpp:2710
 #, kde-format
 msgid "Are you sure you want to paste %1 character?"
 msgid_plural "Are you sure you want to paste %1 characters?"
 msgstr[0] ""
 msgstr[1] ""
 
-#: TerminalDisplay.cpp:2716
+#: TerminalDisplay.cpp:2713
 #, fuzzy
 #| msgid "Confirm Close"
 msgid "Confirm Paste"
 msgstr "Girtinê Bipejirîne"
 
-#: TerminalDisplay.cpp:2905
+#: TerminalDisplay.cpp:2902
 msgid ""
 "<qt>Output has been <a href=\"http://en.wikipedia.org/wiki/"
 "Software_flow_control\">suspended</a> by pressing Ctrl+S.  Press <b>Ctrl+Q</"
 "b> to resume.  This message will be dismissed in 10 seconds.</qt>"
 msgstr ""
 
-#: TerminalDisplay.cpp:3169
+#: TerminalDisplay.cpp:3170
 #, fuzzy
 #| msgid "Paste Selection"
 msgid "&Paste Location"
 msgstr "Hilbijartinê Pê Ve Bike"
 
-#: TerminalDisplay.cpp:3183
+#: TerminalDisplay.cpp:3187
 msgid "Change &Directory To"
 msgstr ""
 
-#: ViewContainer.cpp:274
+#: ViewContainer.cpp:276
 msgctxt "@action:inmenu"
 msgid "&Detach Tab"
 msgstr ""
 
-#: ViewContainer.cpp:279
+#: ViewContainer.cpp:281
 #, fuzzy
 #| msgid "&Rename Tab..."
 msgctxt "@action:inmenu"
 msgid "&Rename Tab..."
 msgstr "&Navê Hilpekînê Biguherîne..."
 
-#: ViewContainer.cpp:285
+#: ViewContainer.cpp:287
 #, fuzzy
 #| msgid "&Close Tab"
 msgctxt "@action:inmenu"
 msgid "&Close Tab"
 msgstr "Hilpekînê &Bigire"
 
-#: ViewContainer.cpp:292
+#: ViewContainer.cpp:294
 #, fuzzy
 #| msgid "Enter new tab text:"
 msgctxt "@info:tooltip"
 msgid "Create new tab"
 msgstr "Nivîsara hilpekîna nû binivîse:"
 
-#: ViewContainer.cpp:293
+#: ViewContainer.cpp:295
 msgctxt "@info:whatsthis"
 msgid "Create a new tab. Press and hold to select profile from menu"
 msgstr ""
 
-#: ViewContainer.cpp:305
+#: ViewContainer.cpp:307
 #, fuzzy
 #| msgid "&Close Tab"
 msgctxt "@info:tooltip"
 msgid "Close tab"
 msgstr "Hilpekînê &Bigire"
 
-#: ViewContainer.cpp:306
+#: ViewContainer.cpp:308
 #, fuzzy
 #| msgid "Close the search bar"
 msgctxt "@info:whatsthis"
 msgid "Close the active tab"
 msgstr "Darika lêgerînê bigire"
 
-#: ViewContainerTabBar.cpp:53
+#: ViewContainerTabBar.cpp:54
 msgctxt "@info:whatsthis"
 msgid ""
 "<title>Tab Bar</title><para>The tab bar allows you to switch and move tabs. "
