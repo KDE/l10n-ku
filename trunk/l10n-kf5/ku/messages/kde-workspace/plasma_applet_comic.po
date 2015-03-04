@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_comic\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-11-16 03:02+0100\n"
+"POT-Creation-Date: 2015-03-04 08:27+0000\n"
 "PO-Revision-Date: 2009-01-10 23:44+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -19,143 +19,64 @@ msgstr ""
 "X-Poedit-Language: Kurdish\n"
 "X-Poedit-SourceCharset: utf8\n"
 
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: advancedsettings.ui:23
-msgctxt "refers to caching of files on the users hd"
-msgid "Cache"
-msgstr ""
-
-#. i18n: ectx: property (suffix), widget (QSpinBox, maxComicLimit)
-#: advancedsettings.ui:56
-msgid " strips per comic"
-msgstr ""
-
-#. i18n: ectx: property (specialValueText), widget (QSpinBox, maxComicLimit)
-#: advancedsettings.ui:59
-msgid "No size limit"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: advancedsettings.ui:66
-#, fuzzy
-#| msgid "Comic:"
-msgid "Comic cache:"
-msgstr "Pirtûka Qerfî:"
-
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: advancedsettings.ui:99
-msgid "Error Handling"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: advancedsettings.ui:126
-msgid "Display error image when getting comic failed:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: appearanceSettings.ui:66
-#, fuzzy
-#| msgid "Show arrows only on hover"
-msgid "Show arrows only on &hover:"
-msgstr "Tîran tenê wextê hatina ser de nîşan bide"
-
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: appearanceSettings.ui:97
-msgid "Information"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_5)
-#: appearanceSettings.ui:112
-#, fuzzy
-#| msgid "Show comic title"
-msgid "Show comic &title:"
-msgstr "Sernavê pirtûka qerfî nîşan bide"
-
-#. i18n: ectx: property (text), widget (QLabel, label_6)
-#: appearanceSettings.ui:135
-#, fuzzy
-#| msgid "Show comic identifier"
-msgid "Show comic &identifier:"
-msgstr "Danasînkara pirtûka qerfî nîşan bide"
-
-#. i18n: ectx: property (text), widget (QLabel, label_7)
-#: appearanceSettings.ui:158
-#, fuzzy
-#| msgid "Show comic author"
-msgid "Show comic &author:"
-msgstr "Nivîskarê pirtûka qerfî nîşan bide"
-
-#. i18n: ectx: property (text), widget (QLabel, label_8)
-#: appearanceSettings.ui:181
-#, fuzzy
-#| msgid "Show comic url"
-msgid "Show comic &URL:"
-msgstr "url ya pirtûka qerfî nîşan bide"
-
-#: comic.cpp:126
+#: comic.cpp:102
 msgctxt "here strip means comic strip"
 msgid "&Next Tab with a new Strip"
 msgstr ""
 
-#: comic.cpp:132
+#: comic.cpp:108
 #, fuzzy
 #| msgid "&Jump to first Strip"
 msgid "Jump to &first Strip"
 msgstr "&Biçe Beşa yekemîn"
 
-#: comic.cpp:136
+#: comic.cpp:112
 #, fuzzy
 #| msgid "&Jump to current Strip"
 msgid "Jump to &current Strip"
 msgstr "&Biçe Beşa niha vekirî"
 
-#: comic.cpp:140 package/contents/ui/ComicBottomInfo.qml:71
+#: comic.cpp:116 package/contents/ui/ComicBottomInfo.qml:71
 #, fuzzy
 #| msgid "&Jump to first Strip"
 msgid "Jump to Strip ..."
 msgstr "&Biçe Beşa yekemîn"
 
-#: comic.cpp:145
+#: comic.cpp:120
 msgid "Visit the shop &website"
 msgstr ""
 
-#: comic.cpp:152
+#: comic.cpp:125
 msgid "&Save Comic As..."
 msgstr "Pirtûka Qerfî Cuda &Tomar Bike..."
 
-#: comic.cpp:158
+#: comic.cpp:129
 #, fuzzy
 #| msgid "&Save Comic As..."
 msgid "&Create Comic Book Archive..."
 msgstr "Pirtûka Qerfî Cuda &Tomar Bike..."
 
-#: comic.cpp:163
+#: comic.cpp:133
 msgctxt "@option:check Context menu of comic image"
 msgid "&Actual Size"
 msgstr "&Mezinahiya Rastî"
 
-#: comic.cpp:169
+#: comic.cpp:139
 msgctxt "@option:check Context menu of comic image"
 msgid "Store current &Position"
 msgstr ""
 
-#: comic.cpp:276
-msgid "General"
-msgstr "Giştî"
+#: comic.cpp:227
+#, fuzzy
+#| msgid "Download new comics"
+msgid "Download Comics"
+msgstr "Pirtûkên qerfî yê nû daxe"
 
-#: comic.cpp:277
-msgid "Appearance"
-msgstr ""
-
-#: comic.cpp:278
-msgid "Advanced"
-msgstr ""
-
-#: comic.cpp:531
+#: comic.cpp:445
 msgid "Archiving comic failed"
 msgstr ""
 
-#: comicarchivedialog.cpp:32
+#: comicarchivedialog.cpp:33
 #, kde-format
 msgid "Create %1 Comic Book Archive"
 msgstr ""
@@ -226,38 +147,31 @@ msgstr ""
 msgid "dd.MM.yyyy"
 msgstr ""
 
-#: comicarchivejob.cpp:144
+#: comicarchivejob.cpp:136
 msgid "No zip file is existing, aborting."
 msgstr ""
 
-#: comicarchivejob.cpp:171
+#: comicarchivejob.cpp:161
 #, kde-format
 msgid "An error happened for identifier %1."
 msgstr ""
 
-#: comicarchivejob.cpp:244
+#: comicarchivejob.cpp:234
 #, kde-format
 msgid "Failed creating the file with identifier %1."
 msgstr ""
 
-#: comicarchivejob.cpp:346
+#: comicarchivejob.cpp:338
 msgid "Creating Comic Book Archive"
 msgstr ""
 
-#: comicarchivejob.cpp:374
+#: comicarchivejob.cpp:366
 msgid "Failed adding a file to the archive."
 msgstr ""
 
-#: comicarchivejob.cpp:391
+#: comicarchivejob.cpp:386
 msgid "Could not create the archive at the specified location."
 msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_8)
-#: comicarchivejob.cpp:402 comicsaver.cpp:88 comicSettings.ui:32
-#, fuzzy
-#| msgid "Comic:"
-msgid "Comic"
-msgstr "Pirtûka Qerfî:"
 
 #: comicdata.cpp:112
 #, kde-format
@@ -284,73 +198,128 @@ msgid ""
 "Choose the previous strip to go to the last cached strip."
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (QPushButton, pushButton_GHNS)
-#: comicSettings.ui:97
-msgid "Download new comics"
-msgstr "Pirtûkên qerfî yê nû daxe"
+#: package/contents/config/config.qml:25
+msgid "General"
+msgstr "Giştî"
 
-#. i18n: ectx: property (text), widget (QPushButton, pushButton_GHNS)
-#: comicSettings.ui:100
-#, fuzzy
-#| msgid "Get New Comics..."
-msgid "&Get New Comics..."
-msgstr "Pirtûkên Qerfî yê Nû Bîne..."
-
-#. i18n: ectx: property (text), widget (QCheckBox, checkBox_middle)
-#: comicSettings.ui:128
-msgid "&Middle-click on the comic to show it at its original size"
+#: package/contents/config/config.qml:30
+#: package/contents/ui/configAppearance.qml:58
+msgid "Appearance"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_13)
-#: comicSettings.ui:144
-msgid "Update"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_14)
-#: comicSettings.ui:156
-msgid "Automatically update comic plugins:"
-msgstr ""
-
-#. i18n: ectx: property (suffix), widget (QSpinBox, updateIntervall)
-#: comicSettings.ui:172
-msgid " days"
-msgstr ""
-
-#. i18n: ectx: property (prefix), widget (QSpinBox, updateIntervall)
-#. i18n: ectx: property (prefix), widget (QSpinBox, updateIntervallComicStrips)
-#: comicSettings.ui:175 comicSettings.ui:204
-msgid "every "
-msgstr ""
-
-#. i18n: ectx: property (specialValueText), widget (QSpinBox, updateIntervall)
-#. i18n: ectx: property (specialValueText), widget (QSpinBox, updateIntervallComicStrips)
-#: comicSettings.ui:178 comicSettings.ui:207
-msgid "never"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: comicSettings.ui:185
-msgid "Check for new comic strips:"
-msgstr ""
-
-#. i18n: ectx: property (suffix), widget (QSpinBox, updateIntervallComicStrips)
-#: comicSettings.ui:201
-msgid " minutes"
+#: package/contents/config/config.qml:35
+msgid "Advanced"
 msgstr ""
 
 #: package/contents/ui/ComicBottomInfo.qml:112
 msgid "Visit the comic website"
 msgstr ""
 
-#: stripselector.cpp:42 stripselector.cpp:113
+#: package/contents/ui/configAdvanced.qml:53
+msgid "Cache"
+msgstr ""
+
+#: package/contents/ui/configAdvanced.qml:59
+#, fuzzy
+#| msgid "Comic:"
+msgid "Comic cache:"
+msgstr "Pirtûka Qerfî:"
+
+#: package/contents/ui/configAdvanced.qml:64
+msgid "strips per comic"
+msgstr ""
+
+#: package/contents/ui/configAdvanced.qml:73
+msgid "Error Handling"
+msgstr ""
+
+#: package/contents/ui/configAdvanced.qml:79
+msgid "Display error when getting comic field"
+msgstr ""
+
+#: package/contents/ui/configAppearance.qml:64
+#, fuzzy
+#| msgid "Show arrows only on hover"
+msgid "Show arrows only on mouse over"
+msgstr "Tîran tenê wextê hatina ser de nîşan bide"
+
+#: package/contents/ui/configAppearance.qml:72
+msgid "Information"
+msgstr ""
+
+#: package/contents/ui/configAppearance.qml:78
+#, fuzzy
+#| msgid "Show comic title"
+msgid "Show comic title"
+msgstr "Sernavê pirtûka qerfî nîşan bide"
+
+#: package/contents/ui/configAppearance.qml:83
+#, fuzzy
+#| msgid "Show comic identifier"
+msgid "Show comic identifier"
+msgstr "Danasînkara pirtûka qerfî nîşan bide"
+
+#: package/contents/ui/configAppearance.qml:88
+#, fuzzy
+#| msgid "Show comic author"
+msgid "Show comic author"
+msgstr "Nivîskarê pirtûka qerfî nîşan bide"
+
+#: package/contents/ui/configAppearance.qml:93
+#, fuzzy
+#| msgid "Show comic url"
+msgid "Show comic URL"
+msgstr "url ya pirtûka qerfî nîşan bide"
+
+#: package/contents/ui/configGeneral.qml:63
+#, fuzzy
+#| msgid "Comic:"
+msgid "Comic"
+msgstr "Pirtûka Qerfî:"
+
+#: package/contents/ui/configGeneral.qml:90
+#, fuzzy
+#| msgid "Get New Comics..."
+msgid "Get New Comics..."
+msgstr "Pirtûkên Qerfî yê Nû Bîne..."
+
+#: package/contents/ui/configGeneral.qml:95
+msgid "Middle-click on the comic to show it at its original size"
+msgstr ""
+
+#: package/contents/ui/configGeneral.qml:103
+msgid "Update"
+msgstr ""
+
+#: package/contents/ui/configGeneral.qml:110
+msgid "Automatically update comic plugins:"
+msgstr ""
+
+#: package/contents/ui/configGeneral.qml:115
+msgid "days"
+msgstr ""
+
+#: package/contents/ui/configGeneral.qml:123
+msgid "Check for new comic strips:"
+msgstr ""
+
+#: package/contents/ui/configGeneral.qml:128
+msgid "minutes"
+msgstr ""
+
+#: package/contents/ui/main.qml:192
+msgid "Configure..."
+msgstr ""
+
+#: stripselector.cpp:44 stripselector.cpp:114
 msgid "Go to Strip"
 msgstr "Here Beşê"
 
-#: stripselector.cpp:57
+#: stripselector.cpp:52
 msgid "&Strip Number:"
 msgstr "Hejmara &Beşê:"
 
-#: stripselector.cpp:113
+#: stripselector.cpp:114
 #, fuzzy
 #| msgid "Show comic identifier"
 msgid "Strip identifier:"
