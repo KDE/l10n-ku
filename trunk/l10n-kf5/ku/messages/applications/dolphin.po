@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-03-07 08:32+0000\n"
+"POT-Creation-Date: 2015-03-08 08:09+0000\n"
 "PO-Revision-Date: 2008-12-22 22:21+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -2897,30 +2897,36 @@ msgctxt "@action:inmenu"
 msgid "Show Space Information"
 msgstr "Agahiya valahiyê nîşan bide"
 
-#: statusbar/spaceinfotoolsmenu.cpp:33
-msgctxt "@action:inmenu"
-msgid "not installed"
+#: statusbar/spaceinfotoolsmenu.cpp:42
+#, fuzzy, kde-format
+#| msgctxt "@option:radio Apply View Properties To"
+#| msgid "Current folder"
+msgctxt "@action:inmenu %1 service name"
+msgid "%1 - current folder"
+msgstr "Peldanka Niha"
+
+#: statusbar/spaceinfotoolsmenu.cpp:53
+#, fuzzy, kde-format
+#| msgctxt "@option:radio Apply View Properties To"
+#| msgid "Current folder"
+msgctxt "@action:inmenu %1 service name"
+msgid "%1 - current device"
+msgstr "Peldanka Niha"
+
+#: statusbar/spaceinfotoolsmenu.cpp:64
+#, kde-format
+msgctxt "@action:inmenu %1 service name"
+msgid "%1 - all devices"
 msgstr ""
 
-#: statusbar/spaceinfotoolsmenu.cpp:45
-#, fuzzy
-#| msgctxt "@option:radio Apply View Properties To"
-#| msgid "Current folder"
+#: statusbar/spaceinfotoolsmenu.cpp:71
 msgctxt "@action:inmenu"
-msgid "current folder"
-msgstr "Peldanka Niha"
+msgid "Filelight [not installed]"
+msgstr ""
 
-#: statusbar/spaceinfotoolsmenu.cpp:57
-#, fuzzy
-#| msgctxt "@option:radio Apply View Properties To"
-#| msgid "Current folder"
+#: statusbar/spaceinfotoolsmenu.cpp:89
 msgctxt "@action:inmenu"
-msgid "current device"
-msgstr "Peldanka Niha"
-
-#: statusbar/spaceinfotoolsmenu.cpp:69
-msgctxt "@action:inmenu"
-msgid "all devices"
+msgid "KDiskFree [not installed]"
 msgstr ""
 
 #: statusbar/statusbarspaceinfo.cpp:84
