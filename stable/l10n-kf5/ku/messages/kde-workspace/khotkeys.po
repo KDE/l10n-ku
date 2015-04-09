@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: khotkeys\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-01-13 12:16+0000\n"
+"POT-Creation-Date: 2015-02-26 09:26+0000\n"
 "PO-Revision-Date: 2009-01-06 14:20+0200\n"
 "Last-Translator: Erdal Ronahi <erdal.ronahi@nospam.gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -28,6 +28,7 @@ msgstr "erdal.ronahi@nospam.gmail.com"
 
 #: kcm_hotkeys/action_group_widget.cpp:30
 #, fuzzy
+#| msgid "Conditions"
 msgid "Conditions"
 msgstr "Şert"
 
@@ -43,12 +44,14 @@ msgstr "Xebitandina qdbusviewer biserneket"
 #. i18n: ectx: property (text), widget (QLabel, applicationLabel)
 #: kcm_hotkeys/actions/dbus_action_widget.ui:18
 #, fuzzy
+#| msgid "Remote Application:"
 msgid "Remote application:"
 msgstr "Sepana dûr:"
 
 #. i18n: ectx: property (text), widget (QLabel, objectLabel)
 #: kcm_hotkeys/actions/dbus_action_widget.ui:31
 #, fuzzy
+#| msgid "Remote Object:"
 msgid "Remote object:"
 msgstr "Biresera dûr:"
 
@@ -82,24 +85,28 @@ msgstr "Pencere"
 #. i18n: ectx: property (text), widget (QRadioButton, active_radio)
 #: kcm_hotkeys/actions/keyboard_input_action_widget.ui:27
 #, fuzzy
+#| msgid "Active window: "
 msgid "Active window"
 msgstr "Paceya çalak:"
 
 #. i18n: ectx: property (text), widget (QRadioButton, specific_radio)
 #: kcm_hotkeys/actions/keyboard_input_action_widget.ui:34
 #, fuzzy
+#| msgid "Simple Window..."
 msgid "Specific window"
 msgstr "Pencereya Basît..."
 
 #. i18n: ectx: property (text), widget (QRadioButton, action_radio)
 #: kcm_hotkeys/actions/keyboard_input_action_widget.ui:41
 #, fuzzy
+#| msgid "Action window"
 msgid "Action window"
 msgstr "Pencereya çalakiyê"
 
 #. i18n: ectx: property (text), widget (QLabel, applicationLabel)
 #: kcm_hotkeys/actions/menuentry_action_widget.ui:16
 #, fuzzy
+#| msgid "Application"
 msgid "Application:"
 msgstr "Sepan"
 
@@ -110,36 +117,46 @@ msgstr "Sepanê tayîn bike ..."
 
 #: kcm_hotkeys/conditions/condition_type_menu.cpp:27
 #, fuzzy
+#| msgid "Active Window..."
 msgctxt "Condition type"
 msgid "Active Window ..."
 msgstr "Pencereya Çalak..."
 
 #: kcm_hotkeys/conditions/condition_type_menu.cpp:29
 #, fuzzy
+#| msgid "Existing Window..."
 msgctxt "Condition type"
 msgid "Existing Window ..."
 msgstr "Pencereya Heyî..."
 
 #: kcm_hotkeys/conditions/condition_type_menu.cpp:31
 #, fuzzy
+#| msgctxt "And_condition"
+#| msgid "And"
 msgctxt "Condition type"
 msgid "And"
 msgstr "Û"
 
 #: kcm_hotkeys/conditions/condition_type_menu.cpp:33
 #, fuzzy
+#| msgctxt "Or_condition"
+#| msgid "Or"
 msgctxt "Condition type"
 msgid "Or"
 msgstr "An"
 
 #: kcm_hotkeys/conditions/condition_type_menu.cpp:35
 #, fuzzy
+#| msgctxt "Not_condition"
+#| msgid "Not"
 msgctxt "Condition type"
 msgid "Not"
 msgstr "Ne"
 
 #: kcm_hotkeys/conditions/conditions_widget.cpp:80
 #, fuzzy
+#| msgctxt "And_condition"
+#| msgid "And"
 msgctxt "Add a new condition"
 msgid "And"
 msgstr "Û"
@@ -152,6 +169,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, new_button)
 #: kcm_hotkeys/conditions/conditions_widget.ui:30
 #, fuzzy
+#| msgid "&New"
 msgctxt "new condition"
 msgid "New"
 msgstr "&Nu"
@@ -159,6 +177,7 @@ msgstr "&Nu"
 #. i18n: ectx: property (text), widget (QPushButton, edit_button)
 #: kcm_hotkeys/conditions/conditions_widget.ui:37
 #, fuzzy
+#| msgid "Edit..."
 msgid "Edit..."
 msgstr "Sererastkirin..."
 
@@ -213,6 +232,7 @@ msgstr ""
 #: kcm_hotkeys/helper_widgets/gesture_widget.ui:19
 #: kcm_hotkeys/kcm_hotkeys.ui:29
 #, fuzzy
+#| msgid "Edit..."
 msgid "Edit"
 msgstr "Sererastkirin..."
 
@@ -220,18 +240,21 @@ msgstr "Sererastkirin..."
 #: kcm_hotkeys/helper_widgets/window_definition_list_widget.ui:19
 #: kcm_hotkeys/helper_widgets/window_definition_widget.ui:24
 #, fuzzy
+#| msgid "&Comment:"
 msgid "Comment:"
 msgstr "&Şîrove:"
 
 #. i18n: ectx: property (text), widget (QPushButton, edit_button)
 #: kcm_hotkeys/helper_widgets/window_definition_list_widget.ui:38
 #, fuzzy
+#| msgid "Edit..."
 msgid "&Edit..."
 msgstr "Sererastkirin..."
 
 #. i18n: ectx: property (text), widget (QPushButton, new_button)
 #: kcm_hotkeys/helper_widgets/window_definition_list_widget.ui:45
 #, fuzzy
+#| msgid "&New"
 msgid "&New..."
 msgstr "&Nu"
 
@@ -243,18 +266,21 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, delete_button)
 #: kcm_hotkeys/helper_widgets/window_definition_list_widget.ui:59
 #, fuzzy
+#| msgid "Delete"
 msgid "&Delete"
 msgstr "Jêbirin"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: kcm_hotkeys/helper_widgets/window_definition_widget.ui:16
 #, fuzzy
+#| msgid "Window"
 msgid "Window Data"
 msgstr "Pencere"
 
 #. i18n: ectx: property (text), widget (QLabel, window_title_label)
 #: kcm_hotkeys/helper_widgets/window_definition_widget.ui:31
 #, fuzzy
+#| msgid "Window"
 msgid "Window title:"
 msgstr "Pencere"
 
@@ -271,6 +297,7 @@ msgstr ""
 #: kcm_hotkeys/helper_widgets/window_definition_widget.ui:90
 #: kcm_hotkeys/helper_widgets/window_definition_widget.ui:136
 #, fuzzy
+#| msgid "Conditions"
 msgid "Contains"
 msgstr "Şert"
 
@@ -308,6 +335,8 @@ msgstr ""
 #: kcm_hotkeys/helper_widgets/window_definition_widget.ui:110
 #: kcm_hotkeys/helper_widgets/window_definition_widget.ui:156
 #, fuzzy
+#| msgctxt "Not_condition"
+#| msgid "Not"
 msgid "Is Not"
 msgstr "Ne"
 
@@ -323,6 +352,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, window_class_label)
 #: kcm_hotkeys/helper_widgets/window_definition_widget.ui:77
 #, fuzzy
+#| msgid "Window"
 msgid "Window class:"
 msgstr "Pencere"
 
@@ -335,6 +365,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, window_role_label)
 #: kcm_hotkeys/helper_widgets/window_definition_widget.ui:123
 #, fuzzy
+#| msgid "Window"
 msgid "Window role:"
 msgstr "Pencere"
 
@@ -352,6 +383,7 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: kcm_hotkeys/helper_widgets/window_definition_widget.ui:205
 #, fuzzy
+#| msgid "Window"
 msgid "Window Types"
 msgstr "Pencere"
 
@@ -387,6 +419,7 @@ msgstr "Koma Nû"
 
 #: kcm_hotkeys/hotkeys_context_menu.cpp:146
 #, fuzzy
+#| msgid "Edit..."
 msgid "Export Group..."
 msgstr "Sererastkirin..."
 
@@ -396,17 +429,20 @@ msgstr ""
 
 #: kcm_hotkeys/hotkeys_context_menu.cpp:155
 #, fuzzy
+#| msgid "&New"
 msgctxt "@title:menu create various trigger types"
 msgid "New"
 msgstr "&Nu"
 
 #: kcm_hotkeys/hotkeys_context_menu.cpp:161
 #, fuzzy
+#| msgid "&Shortcut:"
 msgid "Global Shortcut"
 msgstr "&Kurterê:"
 
 #: kcm_hotkeys/hotkeys_context_menu.cpp:174
 #, fuzzy
+#| msgid "New Action"
 msgid "Window Action"
 msgstr "Çalakiya Nû"
 
@@ -456,6 +492,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, stateLabel)
 #: kcm_hotkeys/hotkeys_export_widget.ui:20
 #, fuzzy
+#| msgid "Action"
 msgid "Export Actions"
 msgstr "Çalakî"
 
@@ -498,6 +535,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, state)
 #: kcm_hotkeys/hotkeys_export_widget.ui:49
 #, fuzzy
+#| msgid "Enabled"
 msgctxt "Export hotkey actions in enabled state."
 msgid "Enabled"
 msgstr "Çeçalakkirî"
@@ -505,6 +543,7 @@ msgstr "Çeçalakkirî"
 #. i18n: ectx: property (text), item, widget (QComboBox, state)
 #: kcm_hotkeys/hotkeys_export_widget.ui:54
 #, fuzzy
+#| msgid "&Disable"
 msgctxt "Export hotkey actions into disabled  state"
 msgid "Disabled"
 msgstr "&Neçalakkirin"
@@ -556,12 +595,14 @@ msgstr ""
 
 #: kcm_hotkeys/hotkeys_model.cpp:402
 #, fuzzy
+#| msgid "Name"
 msgctxt "action name"
 msgid "Name"
 msgstr "Nav"
 
 #: kcm_hotkeys/hotkeys_model.cpp:406
 #, fuzzy
+#| msgid "Enabled"
 msgctxt "action enabled"
 msgid "Enabled"
 msgstr "Çeçalakkirî"
@@ -605,6 +646,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, settings_button)
 #: kcm_hotkeys/kcm_hotkeys.ui:36
 #, fuzzy
+#| msgid "Global &Settings"
 msgid "Settings"
 msgstr "&Mîhengên Gerdûnî"
 
@@ -629,24 +671,28 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, window_appears)
 #: kcm_hotkeys/triggers/window_trigger_widget.ui:22
 #, fuzzy
+#| msgid "Window"
 msgid "Window appears"
 msgstr "Pencere"
 
 #. i18n: ectx: property (text), widget (QRadioButton, window_disappears)
 #: kcm_hotkeys/triggers/window_trigger_widget.ui:29
 #, fuzzy
+#| msgid "Window"
 msgid "Window disappears"
 msgstr "Pencere"
 
 #. i18n: ectx: property (text), widget (QRadioButton, window_gets_focus)
 #: kcm_hotkeys/triggers/window_trigger_widget.ui:36
 #, fuzzy
+#| msgid "Window"
 msgid "Window gets focus"
 msgstr "Pencere"
 
 #. i18n: ectx: property (text), widget (QRadioButton, window_lost_focus)
 #: kcm_hotkeys/triggers/window_trigger_widget.ui:43
 #, fuzzy
+#| msgid "Window"
 msgid "Window loses focus"
 msgstr "Pencere"
 
@@ -727,11 +773,13 @@ msgstr ""
 
 #: libkhotkeysprivate/triggers/gesture_trigger.cpp:126
 #, fuzzy
+#| msgid "Shortcut:"
 msgid "Gesture trigger"
 msgstr "Kurterê:"
 
-#: libkhotkeysprivate/triggers/shortcut_trigger.cpp:152
+#: libkhotkeysprivate/triggers/shortcut_trigger.cpp:153
 #, fuzzy
+#| msgid "Shortcut:"
 msgid "Shortcut trigger: "
 msgstr "Kurterê:"
 
@@ -748,22 +796,27 @@ msgid "Window simple: "
 msgstr ""
 
 #, fuzzy
+#~| msgid "Normal"
 #~ msgid "Form"
 #~ msgstr "Asayî"
 
 #, fuzzy
+#~| msgid "Edit..."
 #~ msgid "&Edit"
 #~ msgstr "Sererastkirin..."
 
 #, fuzzy
+#~| msgid "Active window"
 #~ msgid "Active Window"
 #~ msgstr "Pencereya çalak"
 
 #, fuzzy
+#~| msgid "KHotKeys Update"
 #~ msgid "KHotKeys Update Helper"
 #~ msgstr "Rojanekirina KHotKeys"
 
 #, fuzzy
+#~| msgid "(c) 1999-2005 Lubos Lunak"
 #~ msgid "(C) 2003-2009 Lubos Lunak"
 #~ msgstr "(c) 1999-2005 Lubos Lunak"
 
@@ -771,6 +824,7 @@ msgstr ""
 #~ msgstr "Daemona KHotKeys"
 
 #, fuzzy
+#~| msgid "K Menu - "
 #~ msgid "Menu"
 #~ msgstr "K Menu - "
 
@@ -814,6 +868,7 @@ msgstr ""
 #~ msgstr "&Navê koma çalakiyan:"
 
 #, fuzzy
+#~| msgid "&Disable"
 #~ msgid "&Disable:"
 #~ msgstr "&Neçalakkirin"
 
@@ -870,5 +925,6 @@ msgstr ""
 #~ msgstr "Generîk"
 
 #, fuzzy
+#~| msgid "&Copy"
 #~ msgid "Copy of "
 #~ msgstr "Ji&bergirtin"

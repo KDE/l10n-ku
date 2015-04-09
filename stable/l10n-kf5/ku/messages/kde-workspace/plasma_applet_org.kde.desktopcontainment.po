@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_folderview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-02-03 11:48+0000\n"
+"POT-Creation-Date: 2015-04-08 08:30+0000\n"
 "PO-Revision-Date: 2009-01-06 14:28+0200\n"
 "Last-Translator: Erdal Ronahi <erdal.ronahi@nospam.gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -19,30 +19,43 @@ msgstr ""
 "X-Generator: Lokalize 0.2\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: package/contents/config/config.qml:26
+#: package/contents/config/config.qml:29
 #: package/contents/ui/ConfigLocation.qml:77
 #, fuzzy
+#| msgctxt ""
+#| "Title of the page that lets the user choose which location should the "
+#| "folderview show"
+#| msgid "Location"
 msgid "Location"
 msgstr "Cih"
 
-#: package/contents/config/config.qml:32 package/contents/ui/main.qml:554
+#: package/contents/config/config.qml:36
+#: package/contents/ui/FolderViewLayer.qml:228
 msgid "Icons"
 msgstr "Îkon"
 
-#: package/contents/config/config.qml:38
+#: package/contents/config/config.qml:43
 #, fuzzy
+#| msgctxt ""
+#| "Title of the page that lets the user choose how to filter the folderview "
+#| "contents"
+#| msgid "Filter"
 msgid "Filter"
 msgstr "Parzûn"
+
+#: package/contents/config/config.qml:50
+msgid "Tweaks"
+msgstr ""
 
 #: package/contents/ui/AppletHandle.qml:105
 msgid "Resize"
 msgstr ""
 
-#: package/contents/ui/AppletHandle.qml:144
+#: package/contents/ui/AppletHandle.qml:146
 msgid "Rotate"
 msgstr ""
 
-#: package/contents/ui/AppletHandle.qml:301
+#: package/contents/ui/AppletHandle.qml:305
 msgid "Remove"
 msgstr ""
 
@@ -76,125 +89,140 @@ msgstr "Hemûyan Hilbijêre"
 
 #: package/contents/ui/ConfigFilter.qml:155
 #, fuzzy
+#| msgid "Select All"
 msgid "Deselect All"
 msgstr "Hemûyan Hilbijêre"
 
-#: package/contents/ui/ConfigIcons.qml:59
+#: package/contents/ui/ConfigIcons.qml:60
 msgid "Arrangement"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:68
+#: package/contents/ui/ConfigIcons.qml:69
 msgid "Arrange in:"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:74 plugin/viewpropertiesmenu.cpp:34
+#: package/contents/ui/ConfigIcons.qml:75
 msgid "Rows"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:74 plugin/viewpropertiesmenu.cpp:38
+#: package/contents/ui/ConfigIcons.qml:75
 msgid "Columns"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:80
+#: package/contents/ui/ConfigIcons.qml:81
 msgid "Align:"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:86 plugin/viewpropertiesmenu.cpp:46
+#: package/contents/ui/ConfigIcons.qml:87
 msgid "Left"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:86 plugin/viewpropertiesmenu.cpp:50
+#: package/contents/ui/ConfigIcons.qml:87
 msgid "Right"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:95
+#: package/contents/ui/ConfigIcons.qml:96
 msgid "Lock in place"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:105
+#: package/contents/ui/ConfigIcons.qml:106
 msgid "Sorting"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:112
+#: package/contents/ui/ConfigIcons.qml:113
 msgid "Sorting:"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:124 plugin/viewpropertiesmenu.cpp:58
+#: package/contents/ui/ConfigIcons.qml:125
 msgid "Unsorted"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:124 plugin/viewpropertiesmenu.cpp:62
+#: package/contents/ui/ConfigIcons.qml:125
 #, fuzzy
+#| msgctxt "Sort icons"
+#| msgid "By Name"
 msgid "Name"
 msgstr "Li gorî navî"
 
-#: package/contents/ui/ConfigIcons.qml:124 plugin/viewpropertiesmenu.cpp:66
+#: package/contents/ui/ConfigIcons.qml:125
 #, fuzzy
+#| msgctxt "Sort icons"
+#| msgid "By Size"
 msgid "Size"
 msgstr "Li gorî mezinahiyê"
 
-#: package/contents/ui/ConfigIcons.qml:124 plugin/viewpropertiesmenu.cpp:70
+#: package/contents/ui/ConfigIcons.qml:125
 #, fuzzy
+#| msgctxt "Sort icons"
+#| msgid "By Type"
 msgid "Type"
 msgstr "Li gorî cureyî"
 
-#: package/contents/ui/ConfigIcons.qml:124 plugin/viewpropertiesmenu.cpp:74
+#: package/contents/ui/ConfigIcons.qml:125
 #, fuzzy
+#| msgctxt "Sort icons"
+#| msgid "By Date"
 msgid "Date"
 msgstr "Li gorî demê"
 
-#: package/contents/ui/ConfigIcons.qml:141 plugin/viewpropertiesmenu.cpp:79
+#: package/contents/ui/ConfigIcons.qml:142
 msgid "Descending"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:149
+#: package/contents/ui/ConfigIcons.qml:150
 msgid "Folders first"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:158
+#: package/contents/ui/ConfigIcons.qml:159
 msgid "Appearance"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:165
+#: package/contents/ui/ConfigIcons.qml:166
 #, fuzzy
+#| msgctxt "Sort icons"
+#| msgid "By Size"
 msgid "Size:"
 msgstr "Li gorî mezinahiyê"
 
-#: package/contents/ui/ConfigIcons.qml:169
+#: package/contents/ui/ConfigIcons.qml:170
 msgid "Small"
 msgstr "Biçûk"
 
-#: package/contents/ui/ConfigIcons.qml:183
+#: package/contents/ui/ConfigIcons.qml:184
 msgid "Large"
 msgstr "Mezin"
 
-#: package/contents/ui/ConfigIcons.qml:189
+#: package/contents/ui/ConfigIcons.qml:190
 #, fuzzy
+#| msgctxt "Inserted as %2 in the message below."
+#| msgid "1 file"
+#| msgid_plural "%1 files"
 msgid "Text lines:"
 msgstr "Pelek"
 
-#: package/contents/ui/ConfigIcons.qml:209
+#: package/contents/ui/ConfigIcons.qml:210
 msgid "Features"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:217
+#: package/contents/ui/ConfigIcons.qml:218
 msgid "Tooltips"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:225
+#: package/contents/ui/ConfigIcons.qml:226
 #, fuzzy
+#| msgid "Select All"
 msgid "Selection markers"
 msgstr "Hemûyan Hilbijêre"
 
-#: package/contents/ui/ConfigIcons.qml:231
+#: package/contents/ui/ConfigIcons.qml:232
 msgid "Folder preview popups"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:238
+#: package/contents/ui/ConfigIcons.qml:239
 msgid "Preview thumbnails"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:244
+#: package/contents/ui/ConfigIcons.qml:245
 msgid "More Preview Options..."
 msgstr ""
 
@@ -242,172 +270,148 @@ msgstr ""
 msgid "Enter custom title here"
 msgstr ""
 
-#: package/contents/ui/PreviewPluginsDialog.qml:36
+#: package/contents/ui/ConfigTweaks.qml:46
+msgid ""
+"Tweaks are experimental options that may become defaults depending on your "
+"feedback."
+msgstr ""
+
+#: package/contents/ui/ConfigTweaks.qml:52
+#, fuzzy
+#| msgid "Desktop Folder"
+msgid "Desktop Layout"
+msgstr "Peldanka Sermasê"
+
+#: package/contents/ui/ConfigTweaks.qml:61
+#, fuzzy
+#| msgid "Show the Desktop folder"
+msgid "Show the desktop toolbox"
+msgstr "Peldanka Sermasê nîşan bide"
+
+#: package/contents/ui/ConfigTweaks.qml:69
+msgid "Widget Handling"
+msgstr ""
+
+#: package/contents/ui/ConfigTweaks.qml:79
+msgid "Press and hold widgets to move them and reveal their handles"
+msgstr ""
+
+#: package/contents/ui/FolderItemPreviewPluginsDialog.qml:36
 msgid "Preview Plugins"
 msgstr ""
 
-#: package/contents/ui/PreviewPluginsDialog.qml:84
+#: package/contents/ui/FolderItemPreviewPluginsDialog.qml:84
 msgid "OK"
 msgstr ""
 
-#: package/contents/ui/PreviewPluginsDialog.qml:97
+#: package/contents/ui/FolderItemPreviewPluginsDialog.qml:97
 msgid "Cancel"
 msgstr ""
 
-#: plugin/directorypicker.cpp:45
+#: package/contents/ui/main.qml:259
+msgid "Widgets unlocked"
+msgstr ""
+
+#: package/contents/ui/main.qml:260
+msgid "You can press and hold widgets to move them and reveal their handles."
+msgstr ""
+
+#: package/contents/ui/main.qml:261
+msgid "Got it"
+msgstr ""
+
 #, fuzzy
-msgid "Select Folder"
-msgstr "Hemûyan Hilbijêre"
+#~| msgid "Select All"
+#~ msgid "Select Folder"
+#~ msgstr "Hemûyan Hilbijêre"
 
-#: plugin/foldermodel.cpp:217
-msgid "&Refresh Desktop"
-msgstr ""
+#~ msgid "&Reload"
+#~ msgstr "&Nûbarkirin"
 
-#: plugin/foldermodel.cpp:217 plugin/foldermodel.cpp:1035
-msgid "&Refresh View"
-msgstr ""
+#~ msgid "&Rename"
+#~ msgstr "&Nav biguhere"
 
-#: plugin/foldermodel.cpp:1032
-msgid "&Reload"
-msgstr "&Nûbarkirin"
+#~ msgid "&Move to Trash"
+#~ msgstr "Bia&vêje Çopê"
 
-#: plugin/foldermodel.cpp:1038
-msgid "&Rename"
-msgstr "&Nav biguhere"
+#~ msgid "&Empty Trash Bin"
+#~ msgstr "&Qutiya gilêşê vala bike"
 
-#: plugin/foldermodel.cpp:1041
-msgid "&Move to Trash"
-msgstr "Bia&vêje Çopê"
+#~ msgid "&Delete"
+#~ msgstr "&Jêbirin "
 
-#: plugin/foldermodel.cpp:1044 plugin/internallibkonq/konq_popupmenu.cpp:350
-msgid "&Empty Trash Bin"
-msgstr "&Qutiya gilêşê vala bike"
+#~ msgid "&Paste"
+#~ msgstr "&Pêvekirin"
 
-#: plugin/foldermodel.cpp:1047
-msgid "&Delete"
-msgstr "&Jêbirin "
+#~ msgctxt "@title:menu"
+#~ msgid "Copy To"
+#~ msgstr "Kopî bike li"
 
-#: plugin/foldermodel.cpp:1107
-msgid "&Paste"
-msgstr "&Pêvekirin"
+#~ msgctxt "@title:menu"
+#~ msgid "Move To"
+#~ msgstr "Guhêze li"
 
-#: plugin/internallibkonq/konq_copytomenu.cpp:82
-msgctxt "@title:menu"
-msgid "Copy To"
-msgstr "Kopî bike li"
-
-#: plugin/internallibkonq/konq_copytomenu.cpp:88
-msgctxt "@title:menu"
-msgid "Move To"
-msgstr "Guhêze li"
-
-#: plugin/internallibkonq/konq_copytomenu.cpp:112
 #, fuzzy
-msgctxt "@title:menu"
-msgid "Home Folder"
-msgstr "Peldanka Sermasê"
+#~| msgid "Desktop Folder"
+#~ msgctxt "@title:menu"
+#~ msgid "Home Folder"
+#~ msgstr "Peldanka Sermasê"
 
-#: plugin/internallibkonq/konq_copytomenu.cpp:119
 #, fuzzy
-msgctxt "@title:menu"
-msgid "Root Folder"
-msgstr "Peldanka Sermasê"
+#~| msgid "Desktop Folder"
+#~ msgctxt "@title:menu"
+#~ msgid "Root Folder"
+#~ msgstr "Peldanka Sermasê"
 
-#: plugin/internallibkonq/konq_copytomenu.cpp:155
-msgctxt "@title:menu in Copy To or Move To submenu"
-msgid "Browse..."
-msgstr "Bigere..."
+#~ msgctxt "@title:menu in Copy To or Move To submenu"
+#~ msgid "Browse..."
+#~ msgstr "Bigere..."
 
-#: plugin/internallibkonq/konq_copytomenu.cpp:228
-msgctxt "@title:menu"
-msgid "Copy Here"
-msgstr "Jiberbigire bîne vir"
+#~ msgctxt "@title:menu"
+#~ msgid "Copy Here"
+#~ msgstr "Jiberbigire bîne vir"
 
-#: plugin/internallibkonq/konq_copytomenu.cpp:229
-msgctxt "@title:menu"
-msgid "Move Here"
-msgstr "Guhêze &vir"
+#~ msgctxt "@title:menu"
+#~ msgid "Move Here"
+#~ msgstr "Guhêze &vir"
 
-#: plugin/internallibkonq/konq_popupmenu.cpp:254
-msgid "&Open"
-msgstr "&Veke"
+#~ msgid "&Open"
+#~ msgstr "&Veke"
 
-#: plugin/internallibkonq/konq_popupmenu.cpp:281
-msgid "Create &Folder..."
-msgstr "Peldankê biafirîne..."
+#~ msgid "Create &Folder..."
+#~ msgstr "Peldankê biafirîne..."
 
-#: plugin/internallibkonq/konq_popupmenu.cpp:292
-msgid "&Restore"
-msgstr "&Paşde bîne"
+#~ msgid "&Restore"
+#~ msgstr "&Paşde bîne"
 
-#: plugin/internallibkonq/konq_popupmenu.cpp:315
-msgid "Show Original Directory"
-msgstr ""
-
-#: plugin/internallibkonq/konq_popupmenu.cpp:315
-msgid "Show Original File"
-msgstr ""
-
-#: plugin/internallibkonq/konq_popupmenu.cpp:363
 #, fuzzy
-msgid "&Configure Trash Bin"
-msgstr "&Qutiya gilêşê vala bike"
+#~| msgid "&Empty Trash Bin"
+#~ msgid "&Configure Trash Bin"
+#~ msgstr "&Qutiya gilêşê vala bike"
 
-#: plugin/internallibkonq/konq_popupmenu.cpp:389
-msgid "&Bookmark This Page"
-msgstr "&Vê rûpelê li bijareyan zêde bike"
+#~ msgid "&Bookmark This Page"
+#~ msgstr "&Vê rûpelê li bijareyan zêde bike"
 
-#: plugin/internallibkonq/konq_popupmenu.cpp:391
-msgid "&Bookmark This Location"
-msgstr "Vî &cihî li bijareyan zêde bike"
+#~ msgid "&Bookmark This Location"
+#~ msgstr "Vî &cihî li bijareyan zêde bike"
 
-#: plugin/internallibkonq/konq_popupmenu.cpp:394
-msgid "&Bookmark This Folder"
-msgstr "Vê &peldankê li bijareyan zêde bike"
+#~ msgid "&Bookmark This Folder"
+#~ msgstr "Vê &peldankê li bijareyan zêde bike"
 
-#: plugin/internallibkonq/konq_popupmenu.cpp:396
-msgid "&Bookmark This Link"
-msgstr "Vê &girêdanê li bijareyan zêde bike"
+#~ msgid "&Bookmark This Link"
+#~ msgstr "Vê &girêdanê li bijareyan zêde bike"
 
-#: plugin/internallibkonq/konq_popupmenu.cpp:398
-msgid "&Bookmark This File"
-msgstr "&Vê dosiyê li bijareyan zêde bike"
+#~ msgid "&Bookmark This File"
+#~ msgstr "&Vê dosiyê li bijareyan zêde bike"
 
-#: plugin/internallibkonq/konq_popupmenu.cpp:428
-msgid "Preview In"
-msgstr "Pêşdîtin li"
+#~ msgid "Preview In"
+#~ msgstr "Pêşdîtin li"
 
-#: plugin/internallibkonq/konq_popupmenu.cpp:463
-msgid "&Properties"
-msgstr "&Taybetmendî"
+#~ msgid "&Properties"
+#~ msgstr "&Taybetmendî"
 
-#: plugin/internallibkonq/konq_popupmenu.cpp:479
-msgid "Share"
-msgstr "Parvekirin"
-
-#: plugin/labelgenerator.cpp:97
-msgid "Desktop Folder"
-msgstr "Peldanka Sermasê"
-
-#: plugin/viewpropertiesmenu.cpp:31
-msgid "Arrange In"
-msgstr ""
-
-#: plugin/viewpropertiesmenu.cpp:43
-msgid "Align"
-msgstr ""
-
-#: plugin/viewpropertiesmenu.cpp:55
-msgid "Sort By"
-msgstr ""
-
-#: plugin/viewpropertiesmenu.cpp:81
-msgid "Folders First"
-msgstr ""
-
-#: plugin/viewpropertiesmenu.cpp:84
-msgid "Locked"
-msgstr ""
+#~ msgid "Share"
+#~ msgstr "Parvekirin"
 
 #~ msgid "You cannot drop a folder on to itself"
 #~ msgstr "Tu nikarî pêristekê bar bikî ser xwe"
@@ -431,46 +435,55 @@ msgstr ""
 #~ msgstr "&Bike wêneyê rûerdê"
 
 #, fuzzy
+#~| msgid "Create New"
 #~ msgctxt "@action:button"
 #~ msgid "Create directory"
 #~ msgstr "Nû Biafirîne"
 
 #, fuzzy
+#~| msgid "Enter folder name:"
 #~ msgctxt "@action:button"
 #~ msgid "Enter a different name"
 #~ msgstr "Navê peldankê binivîse:"
 
 #, fuzzy
+#~| msgid "Create New"
 #~ msgctxt "@title:window"
 #~ msgid "Create hidden directory?"
 #~ msgstr "Nû Biafirîne"
 
 #, fuzzy
+#~| msgid "Desktop Folder"
 #~ msgctxt "@label Default name when creating a folder"
 #~ msgid "New Folder"
 #~ msgstr "Peldanka Sermasê"
 
 #, fuzzy
+#~| msgid "Desktop Folder"
 #~ msgctxt "@title:window"
 #~ msgid "New Folder"
 #~ msgstr "Peldanka Sermasê"
 
 #, fuzzy
+#~| msgid "Enter folder name:"
 #~ msgctxt "@label:textbox"
 #~ msgid "Enter folder name:"
 #~ msgstr "Navê peldankê binivîse:"
 
 #, fuzzy
+#~| msgid "Desktop Folder"
 #~ msgctxt "@action:inmenu"
 #~ msgid "Paste One Folder"
 #~ msgstr "Peldanka Sermasê"
 
 #, fuzzy
+#~| msgid "&Paste"
 #~ msgctxt "@action:inmenu"
 #~ msgid "Paste"
 #~ msgstr "&Pêvekirin"
 
 #, fuzzy
+#~| msgid "Icons"
 #~ msgctxt ""
 #~ "Title of the page that lets the user choose how the folderview should be "
 #~ "shown"
@@ -499,10 +512,16 @@ msgstr ""
 #~ msgstr[1] "%1 pel."
 
 #, fuzzy
+#~| msgctxt "Inserted as %2 in the message below."
+#~| msgid "1 file"
+#~| msgid_plural "%1 files"
 #~ msgid "1 line"
 #~ msgstr "Pelek"
 
 #, fuzzy
+#~| msgctxt "Inserted as %2 in the message below."
+#~| msgid "1 file"
+#~| msgid_plural "%1 files"
 #~ msgctxt "Items in a folder"
 #~ msgid "1 item"
 #~ msgid_plural "%1 items"

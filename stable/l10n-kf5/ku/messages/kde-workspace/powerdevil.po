@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: powerdevil\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-01-26 09:37+0000\n"
+"POT-Creation-Date: 2015-03-01 08:57+0000\n"
 "PO-Revision-Date: 2008-12-31 04:01+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -46,6 +46,7 @@ msgstr ""
 #: actions/bundled/suspendsessionconfig.cpp:79
 #: actions/dpms/powerdevildpmsactionconfig.cpp:60
 #, fuzzy
+#| msgid "min"
 msgid " min"
 msgstr " xul"
 
@@ -66,61 +67,70 @@ msgctxt "@action:inmenu Global shortcut"
 msgid "Hibernate"
 msgstr ""
 
-#: actions/bundled/handlebuttoneventsconfig.cpp:89
+#: actions/bundled/handlebuttoneventsconfig.cpp:88
+msgctxt "Execute action on lid close even when external monitor is connected"
+msgid "Even when an external monitor is connected"
+msgstr ""
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:100
 msgid "Do nothing"
 msgstr "Tiştek neke"
 
-#: actions/bundled/handlebuttoneventsconfig.cpp:91
+#: actions/bundled/handlebuttoneventsconfig.cpp:102
 #: actions/bundled/suspendsessionconfig.cpp:84
 msgid "Sleep"
 msgstr ""
 
-#: actions/bundled/handlebuttoneventsconfig.cpp:94
+#: actions/bundled/handlebuttoneventsconfig.cpp:105
 #: actions/bundled/suspendsessionconfig.cpp:87
 msgid "Hibernate"
 msgstr ""
 
-#: actions/bundled/handlebuttoneventsconfig.cpp:96
+#: actions/bundled/handlebuttoneventsconfig.cpp:107
 #: actions/bundled/suspendsessionconfig.cpp:89
 msgid "Shutdown"
 msgstr "Dadan"
 
-#: actions/bundled/handlebuttoneventsconfig.cpp:97
+#: actions/bundled/handlebuttoneventsconfig.cpp:108
 #: actions/bundled/suspendsessionconfig.cpp:90
 #, fuzzy
+#| msgid "Lock Screen"
 msgid "Lock screen"
 msgstr "Dîmenderê Qufl Bike"
 
-#: actions/bundled/handlebuttoneventsconfig.cpp:99
+#: actions/bundled/handlebuttoneventsconfig.cpp:110
 #, fuzzy
+#| msgid "Prompt Log out dialog"
 msgid "Prompt log out dialog"
 msgstr "Pace ya Derketinê Nîşan Bide"
 
-#: actions/bundled/handlebuttoneventsconfig.cpp:101
+#: actions/bundled/handlebuttoneventsconfig.cpp:112
 msgid "Turn off screen"
 msgstr ""
 
-#: actions/bundled/handlebuttoneventsconfig.cpp:126
+#: actions/bundled/handlebuttoneventsconfig.cpp:138
 #, fuzzy
+#| msgid "When Laptop Lid Closed"
 msgid "When laptop lid closed"
 msgstr "Wextê Rûgira Laptopê Bê Girtin"
 
-#: actions/bundled/handlebuttoneventsconfig.cpp:133
+#: actions/bundled/handlebuttoneventsconfig.cpp:149
 #, fuzzy
+#| msgid "When Power Button pressed"
 msgid "When power button pressed"
 msgstr "Wextê Bişkojka Hêzê bê pêlêkirin"
 
-#: actions/bundled/keyboardbrightnesscontrol.cpp:61
+#: actions/bundled/keyboardbrightnesscontrol.cpp:60
 msgctxt "@action:inmenu Global shortcut"
 msgid "Increase Keyboard Brightness"
 msgstr ""
 
-#: actions/bundled/keyboardbrightnesscontrol.cpp:66
+#: actions/bundled/keyboardbrightnesscontrol.cpp:65
 msgctxt "@action:inmenu Global shortcut"
 msgid "Decrease Keyboard Brightness"
 msgstr ""
 
-#: actions/bundled/keyboardbrightnesscontrol.cpp:71
+#: actions/bundled/keyboardbrightnesscontrol.cpp:70
 msgctxt "@action:inmenu Global shortcut"
 msgid "Toggle Keyboard Backlight"
 msgstr ""
@@ -136,6 +146,7 @@ msgstr ""
 
 #: actions/bundled/runscriptconfig.cpp:84
 #, fuzzy
+#| msgid "New Profile"
 msgid "On Profile Load"
 msgstr "Profîla Nû"
 
@@ -149,33 +160,35 @@ msgstr ""
 
 #: actions/dpms/powerdevildpmsactionconfig.cpp:61
 #, fuzzy
+#| msgid "&Power off after"
 msgid "Switch off after"
 msgstr "&Bigire piştî"
 
-#: backends/upower/backlighthelper.cpp:261
+#: backends/upower/backlighthelper.cpp:195
 msgid "Can't open file"
 msgstr ""
 
-#: backends/upower/login1suspendjob.cpp:79
-#: backends/upower/upowersuspendjob.cpp:72
+#: backends/upower/login1suspendjob.cpp:78
+#: backends/upower/upowersuspendjob.cpp:69
 #, fuzzy
+#| msgid "Supported suspend methods"
 msgid "Unsupported suspend method"
 msgstr "Azîneyên sekinandinê yên tên piştgirî dan"
 
-#: powerdevilcore.cpp:76
+#: powerdevilcore.cpp:75
 msgid ""
 "No valid Power Management backend plugins are available. A new installation "
 "might solve this problem."
 msgstr ""
 
-#: powerdevilcore.cpp:183
+#: powerdevilcore.cpp:180
 #, kde-format
 msgid ""
 "Your battery capacity is %1%. This means your battery is broken and needs a "
 "replacement. Please contact your hardware vendor for more details."
 msgstr ""
 
-#: powerdevilcore.cpp:187
+#: powerdevilcore.cpp:184
 #, kde-format
 msgid ""
 "One of your batteries (ID %2) has a capacity of %1%. This means it is broken "
@@ -183,34 +196,15 @@ msgid ""
 "details."
 msgstr ""
 
-#: powerdevilcore.cpp:192
+#: powerdevilcore.cpp:189
 msgid "Broken Battery"
 msgstr ""
 
-#: powerdevilcore.cpp:201
-#, kde-format
-msgid ""
-"Your battery might have been recalled by %1. Usually, when vendors recall "
-"the hardware, it is because of factory defects which are usually eligible "
-"for a free repair or substitution. Please check <a href=\"%2\">%1's website</"
-"a> to verify if your battery is faulted."
-msgstr ""
-
-#: powerdevilcore.cpp:206
-#, kde-format
-msgid ""
-"One of your batteries (ID %3) might have been recalled by %1. Usually, when "
-"vendors recall the hardware, it is because of factory defects which are "
-"usually eligible for a free repair or substitution. Please check <a href="
-"\"%2\">%1's website</a> to verify if your battery is faulted."
-msgstr ""
-
-#: powerdevilcore.cpp:213
-msgid "Check Your Battery"
-msgstr ""
-
-#: powerdevilcore.cpp:329
+#: powerdevilcore.cpp:308
 #, fuzzy, kde-format
+#| msgid ""
+#| "The profile \"%1\" has been selected, but it does not exist!\n"
+#| "Please check your PowerDevil configuration."
 msgid ""
 "The profile \"%1\" has been selected, but it does not exist.\n"
 "Please check your PowerDevil configuration."
@@ -218,20 +212,23 @@ msgstr ""
 "Profîla \"%1\" hate hilbijartin, lê ev profîl tune ye!\n"
 "Jê kerema xwe mîhengên PowerDevil kontrol bike."
 
-#: powerdevilcore.cpp:393 powerdevilcore.cpp:405
+#: powerdevilcore.cpp:372 powerdevilcore.cpp:384
 msgid "Activity Manager"
 msgstr ""
 
-#: powerdevilcore.cpp:394
+#: powerdevilcore.cpp:373
 msgid "This activity's policies prevent the system from suspending"
 msgstr ""
 
-#: powerdevilcore.cpp:406
+#: powerdevilcore.cpp:385
 msgid "This activity's policies prevent screen power management"
 msgstr ""
 
-#: powerdevilcore.cpp:450
+#: powerdevilcore.cpp:429
 #, fuzzy
+#| msgid ""
+#| "Could not connect to battery interface!\n"
+#| "Please check your system configuration"
 msgid ""
 "Could not connect to battery interface.\n"
 "Please check your system configuration"
@@ -239,88 +236,106 @@ msgstr ""
 "Nikare girêbide navrû yê pîlê!\n"
 "Jê kerema xwe mîhengên pergala xwe kontrol bike"
 
-#: powerdevilcore.cpp:471
+#: powerdevilcore.cpp:450
 #, fuzzy
+#| msgid "Critical battery level"
 msgid "Additional Battery Added"
 msgstr "Asta rexne yê pîlê"
 
-#: powerdevilcore.cpp:472 powerdevilcore.cpp:569
+#: powerdevilcore.cpp:451 powerdevilcore.cpp:548
 #, fuzzy
+#| msgid "The power adaptor has been plugged in"
 msgid "All pending suspend actions have been canceled."
 msgstr "Adaptorê hêzê hate girêdan "
 
-#: powerdevilcore.cpp:526 powerdevilcore.cpp:531 powerdevilcore.cpp:536
-#: powerdevilcore.cpp:541
+#: powerdevilcore.cpp:505 powerdevilcore.cpp:510 powerdevilcore.cpp:515
+#: powerdevilcore.cpp:520
 #, kde-format
 msgid "Battery Critical (%1% Remaining)"
 msgstr ""
 
-#: powerdevilcore.cpp:527
+#: powerdevilcore.cpp:506
 #, fuzzy
+#| msgid ""
+#| "Your battery has reached critical level, the PC will be halted in %1 "
+#| "seconds. Click here to block the process."
 msgid ""
-"Your battery level is critical, the computer will be halted in 30 seconds."
+"Your battery level is critical, the computer will be halted in 60 seconds."
 msgstr ""
 "Pîla te gihîşt asta rexne, Komputer dê %1 çirkeyan de bê girtin. Pêl li vir "
 "bike ku pêvajo yê bidî rawestandin."
 
-#: powerdevilcore.cpp:532
+#: powerdevilcore.cpp:511
 #, fuzzy
+#| msgid ""
+#| "Your battery has reached critical level, the PC will be halted in %1 "
+#| "seconds. Click here to block the process."
 msgid ""
-"Your battery level is critical, the computer will be hibernated in 30 "
+"Your battery level is critical, the computer will be hibernated in 60 "
 "seconds."
 msgstr ""
 "Pîla te gihîşt asta rexne, Komputer dê %1 çirkeyan de bê girtin. Pêl li vir "
 "bike ku pêvajo yê bidî rawestandin."
 
-#: powerdevilcore.cpp:537
+#: powerdevilcore.cpp:516
 #, fuzzy
+#| msgid ""
+#| "Your battery has reached critical level, the PC will be suspended to RAM "
+#| "in %1 seconds. Click here to block the process"
 msgid ""
-"Your battery level is critical, the computer will be suspended in 30 seconds."
+"Your battery level is critical, the computer will be suspended in 60 seconds."
 msgstr ""
 "Pîla te gihîşt asta rexne, Komputer dê %1 çirkeyan de ji RAMê bê sekinandin. "
 "Pêl li vir bike ku pêvajo yê bidî rawestandin."
 
-#: powerdevilcore.cpp:542
+#: powerdevilcore.cpp:521
 #, fuzzy
+#| msgid ""
+#| "Your battery has reached critical level, save your work as soon as "
+#| "possible!"
 msgid "Your battery level is critical, save your work as soon as possible."
 msgstr "Pîla te gihîşt asta rexne, xebatên xwe di demê zûtirîn de tomar bike! "
 
-#: powerdevilcore.cpp:548
+#: powerdevilcore.cpp:527
 #, kde-format
 msgid "Battery Low (%1% Remaining)"
 msgstr ""
 
-#: powerdevilcore.cpp:549
+#: powerdevilcore.cpp:528
 msgid ""
 "Your battery is low. If you need to continue using your computer, either "
 "plug in your computer, or shut it down and then change the battery."
 msgstr ""
 
-#: powerdevilcore.cpp:568
+#: powerdevilcore.cpp:547
 #, fuzzy
+#| msgid "When AC Adaptor is plugged in"
 msgid "AC Adapter Plugged In"
 msgstr "Wextê Adaptora AC tê girêdan"
 
-#: powerdevilcore.cpp:571
+#: powerdevilcore.cpp:550
 msgid "Running on AC power"
 msgstr ""
 
-#: powerdevilcore.cpp:571
+#: powerdevilcore.cpp:550
 #, fuzzy
+#| msgid "The power adaptor has been plugged in"
 msgid "The power adaptor has been plugged in."
 msgstr "Adaptorê hêzê hate girêdan "
 
-#: powerdevilcore.cpp:574
+#: powerdevilcore.cpp:553
 #, fuzzy
+#| msgid "When on battery Power"
 msgid "Running on Battery Power"
 msgstr "Wextê di Hêza pîlê de"
 
-#: powerdevilcore.cpp:574
+#: powerdevilcore.cpp:553
 #, fuzzy
+#| msgid "The power adaptor has been unplugged"
 msgid "The power adaptor has been unplugged."
 msgstr "Adaptorê hêzê hate qut kirin"
 
-#: powerdevilcore.cpp:580
+#: powerdevilcore.cpp:559
 #, kde-format
 msgid ""
 "KDE Power Management System could not be initialized. The backend reported "
@@ -328,15 +343,16 @@ msgid ""
 "Please check your system configuration"
 msgstr ""
 
-#: powerdevilcore.cpp:627
+#: powerdevilcore.cpp:606
 msgid "Charge Complete"
 msgstr ""
 
-#: powerdevilcore.cpp:627
+#: powerdevilcore.cpp:606
 msgid "Your battery is now fully charged."
 msgstr ""
 
 #, fuzzy
+#~| msgid "A Power Management tool for KDE4"
 #~ msgid "KDE Power Management System"
 #~ msgstr "Amûra Rêveberê Hêzê ji bo KDE4"
 
@@ -347,6 +363,7 @@ msgstr ""
 #~ msgstr "Kesê miqet"
 
 #, fuzzy
+#~| msgid "Lock Screen"
 #~ msgid "Locking Screen"
 #~ msgstr "Dîmenderê Qufl Bike"
 
@@ -354,38 +371,46 @@ msgstr ""
 #~ msgstr "Dîmender tê qufl kirin"
 
 #, fuzzy
+#~| msgid "The power adaptor has been plugged in"
 #~ msgid ""
 #~ "The power adaptor has been plugged in – all pending suspend actions have "
 #~ "been canceled."
 #~ msgstr "Adaptorê hêzê hate girêdan "
 
 #, fuzzy
+#~| msgid "Your battery has reached low level"
 #~ msgid "Your battery has reached a low level."
 #~ msgstr "Pîla te gihîşt asta kêmtir"
 
 #, fuzzy
+#~| msgid "Performance"
 #~ msgctxt "Name of a power profile"
 #~ msgid "Performance"
 #~ msgstr "Performans"
 
 #, fuzzy
+#~| msgid "Powersave"
 #~ msgctxt "Name of a power profile"
 #~ msgid "Powersave"
 #~ msgstr "Parastina Hêzê"
 
 #, fuzzy
+#~| msgid "Your battery has reached warning level"
 #~ msgid "Your battery has reached the warning level."
 #~ msgstr "Pîla te gihîşt asta hişyarî yê"
 
 #, fuzzy
+#~| msgid "Disable KWin compositing, if active"
 #~ msgid "Disable effects"
 #~ msgstr "Tevlihev bûna KWin neçalak bike, heke çalak e"
 
 #, fuzzy
+#~| msgid "When Sleep Button pressed"
 #~ msgid "When sleep button pressed"
 #~ msgstr "Wextê Bişkojka Xewê bê pêlêkirin"
 
 #, fuzzy
+#~| msgid "Main Developer"
 #~ msgid "Developer"
 #~ msgstr "Pêşvebirê Bingehîn"
 
@@ -400,14 +425,19 @@ msgstr ""
 #~ msgstr "PowerDevil"
 
 #, fuzzy
+#~| msgid "A Power Management tool for KDE4"
 #~ msgid "A Power Management tool for KDE4"
 #~ msgstr "Amûra Rêveberê Hêzê ji bo KDE4"
 
 #, fuzzy
+#~| msgid "(c), 2008 Dario Freddi"
 #~ msgid "(c) 2008 Dario Freddi"
 #~ msgstr "(c), 2008 Dario Freddi"
 
 #, fuzzy
+#~| msgid ""
+#~| "Your battery has reached critical level, the PC will be halted in %1 "
+#~| "seconds. Click here to block the process."
 #~ msgid ""
 #~ "Your battery level is critical, the computer will be halted in 1 second."
 #~ msgid_plural ""
@@ -420,6 +450,9 @@ msgstr ""
 #~ "vir bike ku pêvajo yê bidî rawestandin."
 
 #, fuzzy
+#~| msgid ""
+#~| "Your battery has reached critical level, the PC will be suspended to "
+#~| "disk in %1 seconds. Click here to block the process."
 #~ msgid ""
 #~ "Your battery level is critical, the computer will be suspended to disk in "
 #~ "1 second."
@@ -434,6 +467,9 @@ msgstr ""
 #~ "sekinandin. Pêl li vir bike ku pêvajo yê bidî rawestandin."
 
 #, fuzzy
+#~| msgid ""
+#~| "Your battery has reached critical level, the PC will be suspended to RAM "
+#~| "in %1 seconds. Click here to block the process"
 #~ msgid ""
 #~ "Your battery level is critical, the computer will be suspended to RAM in "
 #~ "1 second."
@@ -448,6 +484,9 @@ msgstr ""
 #~ "sekinandin. Pêl li vir bike ku pêvajo yê bidî rawestandin."
 
 #, fuzzy
+#~| msgid ""
+#~| "Your battery has reached critical level, the PC is going Standby in %1 "
+#~| "seconds. Click here to block the process."
 #~ msgid ""
 #~ "Your battery level is critical, the computer will be put into standby in "
 #~ "1 second."
@@ -462,6 +501,9 @@ msgstr ""
 #~ "Pêl li vir bike ku pêvajo yê bidî rawestandin."
 
 #, fuzzy
+#~| msgid ""
+#~| "The computer will be halted in %1 seconds. Click here to block the "
+#~| "process."
 #~ msgid "The computer will be halted in 1 second."
 #~ msgid_plural "The computer will be halted in %1 seconds."
 #~ msgstr[0] ""
@@ -472,6 +514,9 @@ msgstr ""
 #~ "rawestandin."
 
 #, fuzzy
+#~| msgid ""
+#~| "The computer will be suspended to disk in %1 seconds. Click here to "
+#~| "block the process."
 #~ msgid "The computer will be suspended to disk in 1 second."
 #~ msgid_plural "The computer will be suspended to disk in %1 seconds."
 #~ msgstr[0] ""
@@ -482,6 +527,9 @@ msgstr ""
 #~ "pêvajo yê bidî rawestandin."
 
 #, fuzzy
+#~| msgid ""
+#~| "The computer will be suspended to RAM in %1 seconds. Click here to block "
+#~| "the process."
 #~ msgid "The computer will be suspended to RAM in 1 second."
 #~ msgid_plural "The computer will be suspended to RAM in %1 seconds."
 #~ msgstr[0] ""
@@ -492,6 +540,9 @@ msgstr ""
 #~ "pêvajo yê bidî rawestandin."
 
 #, fuzzy
+#~| msgid ""
+#~| "The computer will be put into standby in %1 seconds. Click here to block "
+#~| "the process."
 #~ msgid "The computer will be put into standby in 1 second."
 #~ msgid_plural "The computer will be put into standby in %1 seconds."
 #~ msgstr[0] ""
@@ -535,6 +586,9 @@ msgstr ""
 #~ msgstr "(c), 2008 Dario Freddi"
 
 #, fuzzy
+#~| msgid ""
+#~| "From this module, you can configure the Daemon, create and edit "
+#~| "powersaving profiles, and see your system's capabilities."
 #~ msgid ""
 #~ "From this module, you can configure the Daemon, create and edit "
 #~ "powersaving profiles, and see your system's capabilities."
@@ -543,6 +597,17 @@ msgstr ""
 #~ "çê bikin û biguherînin, û taybetiyên pergala xwe bibînin."
 
 #, fuzzy
+#~| msgid ""
+#~| "<h1>PowerDevil configuration</h1> <p>This module lets you configure "
+#~| "PowerDevil. PowerDevil is a daemon (so it runs in background) that is "
+#~| "started upon KDE startup.</p> <p>PowerDevil has 2 levels of "
+#~| "configuration: a general one, that is always applied, and a profile-"
+#~| "based one, that lets you configure a specific behavior in every "
+#~| "situation. You can also have a look at your system capabilities in the "
+#~| "last tab. To get you started, first configure the options in the first 2 "
+#~| "tabs. Then switch to the fourth one, and create/edit your profiles. Last "
+#~| "but not least, assign your profiles in the third Tab. You do not have to "
+#~| "restart PowerDevil, just click \"Apply\", and you are done.</p>"
 #~ msgid ""
 #~ "<h1>PowerDevil configuration</h1> <p>This module lets you configure "
 #~ "PowerDevil. PowerDevil is a daemon (so it runs in background) that is "
@@ -567,6 +632,11 @@ msgstr ""
 #~ "</p>"
 
 #, fuzzy
+#~| msgid ""
+#~| "Another power manager has been detected. PowerDevil will not start if "
+#~| "other power managers are active. If you want to use PowerDevil as your "
+#~| "primary power manager, please remove the existing one and restart "
+#~| "PowerDevil service."
 #~ msgid ""
 #~ "Another power manager has been detected. PowerDevil will not start if "
 #~ "other power managers are active. If you want to use PowerDevil as your "
@@ -579,6 +649,11 @@ msgstr ""
 #~ "kirin."
 
 #, fuzzy
+#~| msgid ""
+#~| "It seems powersaved is running on this system. PowerDevil will not start "
+#~| "if other power managers are active. If you want to use PowerDevil as "
+#~| "your primary power manager, please stop powersaved and restart "
+#~| "PowerDevil service."
 #~ msgid ""
 #~ "It seems powersaved is running on this system. PowerDevil will not start "
 #~ "if other power managers are active. If you want to use PowerDevil as your "
@@ -591,6 +666,9 @@ msgstr ""
 #~ "rawestandin û sevîsa PowerDevil nû ve bide destpêkirin."
 
 #, fuzzy
+#~| msgid ""
+#~| "PowerDevil seems not to be started. Either you have its service turned "
+#~| "off, or there is a problem in DBus."
 #~ msgid ""
 #~ "PowerDevil seems not to be started. Either you have its service turned "
 #~ "off, or there is a problem in D-Bus."
@@ -599,18 +677,22 @@ msgstr ""
 #~ "di DBus de çewtiyek heye."
 
 #, fuzzy
+#~| msgid "PowerDevil Configuration"
 #~ msgid "Power Profiles Configuration"
 #~ msgstr "Mîhengên PowerDevil"
 
 #, fuzzy
+#~| msgid "A configurator for PowerDevil"
 #~ msgid "A profile configurator for KDE Power Management System"
 #~ msgstr "Veavakerek ji bo PowerDevil"
 
 #, fuzzy
+#~| msgid "(c), 2008 Dario Freddi"
 #~ msgid "(c), 2010 Dario Freddi"
 #~ msgstr "(c), 2008 Dario Freddi"
 
 #, fuzzy
+#~| msgid "Please enter a name for the new profile"
 #~ msgid "Please enter a name for the new profile:"
 #~ msgstr "Jê kerema xwe navekî ji bo profîla nû binivîse"
 
@@ -621,14 +703,17 @@ msgstr ""
 #~ msgstr "Navê profîla tu çê dikî binivîse li vir"
 
 #, fuzzy
+#~| msgid "Please enter a name for this profile"
 #~ msgid "Please enter a name for this profile:"
 #~ msgstr "Jê kerema xwe navekî ji bo vê profîlê binivîse"
 
 #, fuzzy
+#~| msgid "Import PowerDevil profiles"
 #~ msgid "Import PowerDevil Profiles"
 #~ msgstr "Profîlên PowerDevil bîne hundir"
 
 #, fuzzy
+#~| msgid "Export PowerDevil profiles"
 #~ msgid "Export PowerDevil Profiles"
 #~ msgstr "Profîlên PowerDevil derxe derve"
 
@@ -662,6 +747,7 @@ msgstr ""
 #~ msgstr "Profîlan Derxe Derve"
 
 #, fuzzy
+#~| msgid "Settings and Profiles"
 #~ msgid "Settings and Profile"
 #~ msgstr "Mîheng û Profîl"
 
@@ -672,14 +758,17 @@ msgstr ""
 #~ msgstr "Dema ji sekinandinê hişyar bû, dîmenê qufl bike"
 
 #, fuzzy
+#~| msgid "You will be asked for password when resuming from sleep state"
 #~ msgid "You will be asked for a password when resuming from sleep state"
 #~ msgstr "Dê nasnav bê pirsîn wextê ji rewşa xewê de derdikeve"
 
 #, fuzzy
+#~| msgid "Configure Notifications"
 #~ msgid "Configure Notifications..."
 #~ msgstr "Hişyariyan Veava Bike"
 
 #, fuzzy
+#~| msgid "When AC Adaptor is plugged in"
 #~ msgid "When AC Adaptor is unplugged"
 #~ msgstr "Wextê Adaptora AC tê girêdan"
 
@@ -730,6 +819,7 @@ msgstr ""
 #~ msgstr "Taybetiyên Pergalê"
 
 #, fuzzy
+#~| msgid "Number of CPU"
 #~ msgid "Number of CPUs"
 #~ msgstr "Hejmara CPU"
 
@@ -759,6 +849,9 @@ msgstr ""
 #~ msgstr "Çewtiya PowerDevil"
 
 #, fuzzy
+#~| msgid ""
+#~| "The configuration module can not be started, since there seems to be a "
+#~| "problem with PowerDevil Daemon. Read below for more details"
 #~ msgid ""
 #~ "The configuration module can not be started, since there seems to be a "
 #~ "problem with the PowerDevil Daemon. Read below for more details"
@@ -767,14 +860,19 @@ msgstr ""
 #~ "PowerDevil re xuya dike. Ji bo zêdetir kitekitan yê jêr bixwînin"
 
 #, fuzzy
+#~| msgid "Edit Profiles"
 #~ msgid "Editing Profile"
 #~ msgstr "Profîlan Biguherîne"
 
 #, fuzzy
+#~| msgid "Profiles assignment"
 #~ msgid "Profile Assignment"
 #~ msgstr "Pîşandina profîlan"
 
 #, fuzzy
+#~| msgid ""
+#~| "<b>There are some issues in your configuration. Please check "
+#~| "Capabilities page for more details.</b>"
 #~ msgid ""
 #~ "<b>There are some issues in your configuration. Please check the "
 #~ "Capabilities page for more details.</b>"
@@ -789,14 +887,18 @@ msgstr ""
 #~ msgstr "Pêşî ya kirina çalakiya sekinandinê, bendê bimîne"
 
 #, fuzzy
+#~| msgctxt "As in \"seconds\""
+#~| msgid "sec"
 #~ msgid " sec"
 #~ msgstr "çirke"
 
 #, fuzzy
+#~| msgid "Do nothing"
 #~ msgid "Do not wait"
 #~ msgstr "Tiştek neke"
 
 #, fuzzy
+#~| msgid "Do nothing"
 #~ msgid "Do Nothing"
 #~ msgstr "Tiştek neke"
 
@@ -836,6 +938,7 @@ msgstr ""
 #~ "sokleta derveyî re"
 
 #, fuzzy
+#~| msgid "Brightness"
 #~ msgid "Brightness:"
 #~ msgstr "Biriqandin"
 
@@ -849,6 +952,8 @@ msgstr ""
 #~ msgstr "Dîmenê bigire wextê beredayî be zêdetir jê"
 
 #, fuzzy
+#~| msgctxt "Minutes"
+#~| msgid "min"
 #~ msgctxt "Minutes"
 #~ msgid " min"
 #~ msgstr " xul"
@@ -873,18 +978,22 @@ msgstr ""
 #~ msgstr "CPU û Pergal"
 
 #, fuzzy
+#~| msgid "&Enable display power management"
 #~ msgid "Enable system power saving"
 #~ msgstr "Xuyakirina rêveberê hêzê &çalak bike"
 
 #, fuzzy
+#~| msgid "When Loading profile, execute"
 #~ msgid "When loading profile execute:"
 #~ msgstr "Di demê Barkirina profîlê de, bixebitîne"
 
 #, fuzzy
+#~| msgid "(c) 2008 Dario Freddi"
 #~ msgid "Copyright © 2008–2011 Dario Freddi"
 #~ msgstr "(c), 2008 Dario Freddi"
 
 #, fuzzy
+#~| msgid "System powersaving scheme"
 #~ msgid "System powersaving scheme:"
 #~ msgstr "Şemaya parastina hêza pergalê"
 
@@ -930,6 +1039,7 @@ msgstr ""
 #~ "nîşan nede\" re neçalak bikî."
 
 #, fuzzy
+#~| msgid "Attempt loading Modules"
 #~ msgid "Attempt to load modules"
 #~ msgstr "Barkirina Modûlan Biceribîne"
 
@@ -956,6 +1066,7 @@ msgstr ""
 #~ msgstr " "
 
 #, fuzzy
+#~| msgid "CPU frequency scaling policy"
 #~ msgid "CPU frequency scaling policy:"
 #~ msgstr "Pêşarî ya pîvana freqansa CPU"
 
@@ -1000,6 +1111,10 @@ msgstr ""
 #~ "diparêze. Tê salixdan ku PowerDevil bi çalakiya XSync re bi kar bînin."
 
 #, fuzzy
+#~| msgid ""
+#~| "XSync does not seem your preferred query backend, though it is available "
+#~| "on your system. Using it largely improves performance and efficiency, "
+#~| "and it is strongly advised. Click on the button below to enable it now."
 #~ msgid ""
 #~ "XSync does not seem to be your preferred query backend, though it is "
 #~ "available on your system. Using it largely improves performance and "
@@ -1092,6 +1207,10 @@ msgstr ""
 #~ msgstr "Navber ji bo agahdariyên rast kirinên hevbandorî"
 
 #, fuzzy
+#~| msgid ""
+#~| "If selected, before doing an automatic suspension PowerDevil will show "
+#~| "an interactive notification for the specified time. If that notification "
+#~| "will be clicked, the queued action will not be run."
 #~ msgid ""
 #~ "If selected, before doing an automatic suspension PowerDevil will show an "
 #~ "interactive notification for the specified time. If that notification is "
@@ -1102,6 +1221,7 @@ msgstr ""
 #~ "agahdarî bê tikandin, çalakiya hatiye dîyarbûn dê naxebite."
 
 #, fuzzy
+#~| msgid "Actions"
 #~ msgctxt "Interrupts the suspension/shutdown process"
 #~ msgid "Abort Action"
 #~ msgstr "Çalakî"

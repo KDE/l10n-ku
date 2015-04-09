@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kinfocenter\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-01-13 12:16+0000\n"
+"POT-Creation-Date: 2015-04-09 08:40+0000\n"
 "PO-Revision-Date: 2009-01-06 14:08+0200\n"
 "Last-Translator: Erdal Ronahi <erdal.ronahi@nospam.gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -30,69 +30,45 @@ msgstr "erdal.ronahi@nospam.gmail.com"
 
 #: infocenter.cpp:52
 #, fuzzy
+#| msgid "KDE Info Center"
 msgctxt "Main window title"
 msgid "KInfocenter"
 msgstr "Navenda Agahiya KDE"
 
-#: infocenter.cpp:130
+#: infocenter.cpp:128
 #, fuzzy
+#| msgid "Information"
 msgctxt "Information about current module located in about menu"
 msgid "About Current Information Module"
 msgstr "Agahî"
 
-#: infocenter.cpp:135
-msgctxt "Export button label"
-msgid "Export"
-msgstr ""
-
-#: infocenter.cpp:139
+#: infocenter.cpp:133
 #, fuzzy
+#| msgid "Model"
 msgctxt "Module help button label"
 msgid "Module Help"
 msgstr "Model"
 
-#: infocenter.cpp:142
+#: infocenter.cpp:136
 msgctxt "Help button label"
 msgid "Help"
 msgstr ""
 
-#: infocenter.cpp:182
+#: infocenter.cpp:176
 msgctxt "Search Bar Click Message"
 msgid "Search"
 msgstr ""
 
-#: infocenter.cpp:187
+#: infocenter.cpp:181
 msgctxt "Kaction search label"
 msgid "Search Modules"
 msgstr ""
 
-#: infocenter.cpp:249
-msgid "Export of the module has produced no output."
-msgstr ""
-
-#: infocenter.cpp:259
-msgid "Unable to open file to write export information"
-msgstr ""
-
-#: infocenter.cpp:264
-#, kde-format
-msgid "Export information for %1"
-msgstr ""
-
-#: infocenter.cpp:268
-#, fuzzy
-msgid "Information exported"
-msgstr "Agahî"
-
 #: infokcmmodel.cpp:32
 #, fuzzy
+#| msgid "Information"
 msgid "Information Modules"
 msgstr "Agahî"
-
-#: kcmcontainer.cpp:108
-#, kde-format
-msgid "%1  ( %2 )"
-msgstr ""
 
 #. i18n: ectx: ToolBar (mainToolBar)
 #: kinfocenterui.rc:10
@@ -110,6 +86,7 @@ msgstr "Navenda Agahiyê KDE"
 
 #: main.cpp:52
 #, fuzzy
+#| msgid "(c) 1998-2004, The KDE Control Center Developers"
 msgid "(c) 2009-2010, The KDE SC KInfocenter Development Team"
 msgstr "(c) 1998-2004, Pêşdebirên Navenda Kontrolê KDE"
 
@@ -149,17 +126,22 @@ msgstr "Waldo Bastian"
 msgid "Nicolas Ternisien"
 msgstr "Nicolas Ternisien"
 
-#: sidepanel.cpp:102
+#: sidepanel.cpp:103
 msgid "Clear Search"
 msgstr ""
 
-#: sidepanel.cpp:105
+#: sidepanel.cpp:106
 msgid "Expand All Categories"
 msgstr ""
 
-#: sidepanel.cpp:108
+#: sidepanel.cpp:109
 msgid "Collapse All Categories"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Information"
+#~ msgid "Information exported"
+#~ msgstr "Agahî"
 
 #~ msgid "Name"
 #~ msgstr "Nav"
@@ -174,6 +156,7 @@ msgstr ""
 #~ msgstr "Rave"
 
 #, fuzzy
+#~| msgid "Device Information"
 #~ msgid "Information"
 #~ msgstr "Agahiya Cîhazê"
 
@@ -181,6 +164,7 @@ msgstr ""
 #~ msgstr "Nirx"
 
 #, fuzzy
+#~| msgid "MB"
 #~ msgctxt "Mebibyte"
 #~ msgid "MiB "
 #~ msgstr "MB"
@@ -210,6 +194,7 @@ msgstr ""
 #~ msgstr "CPU %1: %2, lez nayê zanîn"
 
 #, fuzzy
+#~| msgid "Mount Point"
 #~ msgid "Mount Options"
 #~ msgstr "Cihê girêdanê"
 
@@ -232,6 +217,7 @@ msgstr ""
 #~ msgstr "ne çalak e"
 
 #, fuzzy
+#~| msgid "MB"
 #~ msgctxt "Mebibyte"
 #~ msgid "MiB"
 #~ msgstr "MB"
@@ -240,6 +226,7 @@ msgstr ""
 #~ msgstr "Teviya Bîra Fîzîkî:"
 
 #, fuzzy
+#~| msgid "Bytes"
 #~ msgid " Bytes"
 #~ msgstr "Bayt"
 
@@ -250,6 +237,7 @@ msgstr ""
 #~ msgstr "Bazirgan"
 
 #, fuzzy
+#~| msgid "Vendor"
 #~ msgid "Vendor Number"
 #~ msgstr "Bazirgan"
 
@@ -260,14 +248,17 @@ msgstr ""
 #~ msgstr "Kanalên Ketanan"
 
 #, fuzzy
+#~| msgid "DMA-Channel"
 #~ msgid "Mono-Channel"
 #~ msgstr "Kanala-DMA"
 
 #, fuzzy
+#~| msgid "DMA-Channel"
 #~ msgid "Left-Channel"
 #~ msgstr "Kanala-DMA"
 
 #, fuzzy
+#~| msgid "DMA-Channel"
 #~ msgid "Right-Channel"
 #~ msgstr "Kanala-DMA"
 
@@ -278,6 +269,7 @@ msgstr ""
 #~ msgstr "Pêşveçûn"
 
 #, fuzzy
+#~| msgid "Output Channels"
 #~ msgid "Output Gain Limits"
 #~ msgstr "Kanalên Derketanan"
 
@@ -294,6 +286,7 @@ msgstr ""
 #~ msgstr "Cîhaz"
 
 #, fuzzy
+#~| msgid "Devices"
 #~ msgid "Block Devices"
 #~ msgstr "Cîhaz"
 
@@ -301,10 +294,12 @@ msgstr ""
 #~ msgstr "IRQ"
 
 #, fuzzy
+#~| msgid "Total Size"
 #~ msgid "Total Nodes"
 #~ msgstr "Cihê Giştî"
 
 #, fuzzy
+#~| msgid "Free Size"
 #~ msgid "Free Nodes"
 #~ msgstr "Cihê Vala"
 
@@ -312,18 +307,22 @@ msgstr ""
 #~ msgstr "Ala"
 
 #, fuzzy
+#~| msgid "Device Name: %1"
 #~ msgid "Device Name"
 #~ msgstr "Navê Cîhazê: %1"
 
 #, fuzzy
+#~| msgid "Manufacturer: %1"
 #~ msgid "Manufacturer"
 #~ msgstr "Hilberîner: %1"
 
 #, fuzzy
+#~| msgid "FS Type"
 #~ msgid "CPU Type"
 #~ msgstr "Cureyê PP"
 
 #, fuzzy
+#~| msgid "FS Type"
 #~ msgid "FPU Type"
 #~ msgstr "Cureyê PP"
 
@@ -331,6 +330,7 @@ msgstr ""
 #~ msgstr "Daxuyanî"
 
 #, fuzzy
+#~| msgid "Mount Point"
 #~ msgid "Mount Time"
 #~ msgstr "Cihê girêdanê"
 
@@ -338,6 +338,7 @@ msgstr ""
 #~ msgstr "(nirx tune ye)"
 
 #, fuzzy
+#~| msgid "Device Name: %1"
 #~ msgid "Driver Name:"
 #~ msgstr "Navê Cîhazê: %1"
 
@@ -354,26 +355,31 @@ msgstr ""
 #~ msgstr "Agahiya Cîhazê"
 
 #, fuzzy
+#~| msgid "Bytes"
 #~ msgid "1 Bit"
 #~ msgid_plural "%1 Bits"
 #~ msgstr[0] "Bayt"
 #~ msgstr[1] "Bayt"
 
 #, fuzzy
+#~| msgid "Bytes"
 #~ msgctxt "singular form: '1 Byte' (yes, it is '1', not '%1'!)"
 #~ msgid "1 Byte"
 #~ msgstr "Bayt"
 
 #, fuzzy
+#~| msgid "Bytes"
 #~ msgctxt "plural form: '%1 Bytes'"
 #~ msgid "%1 Bytes"
 #~ msgstr "Bayt"
 
 #, fuzzy
+#~| msgid "Device Information"
 #~ msgid "Server Information"
 #~ msgstr "Agahiya Cîhazê"
 
 #, fuzzy
+#~| msgid "Vendor"
 #~ msgid "Vendor String"
 #~ msgstr "Bazirgan"
 
@@ -415,10 +421,12 @@ msgstr ""
 #~ msgstr "Der barê %1 de"
 
 #, fuzzy
+#~| msgid "&Report Bug..."
 #~ msgid "Report Bug on Module %1..."
 #~ msgstr "Rapora &Çewtiyê Bişîne..."
 
 #, fuzzy
+#~| msgid "MB"
 #~ msgid " MB"
 #~ msgstr "MB"
 

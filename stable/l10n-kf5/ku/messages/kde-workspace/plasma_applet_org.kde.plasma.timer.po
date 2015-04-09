@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_timer\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-09-27 09:13+0000\n"
+"POT-Creation-Date: 2015-04-08 08:27+0000\n"
 "PO-Revision-Date: 2009-01-10 23:27+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -19,17 +19,51 @@ msgstr ""
 "X-Poedit-Language: Kurdish\n"
 "X-Poedit-SourceCharset: utf8\n"
 
-#: package/contents/ui/timer.qml:168
+#: package/contents/config/config.qml:25
+msgid "Appearance"
+msgstr ""
+
+#: package/contents/config/config.qml:31
+msgid "Advanced"
+msgstr ""
+
+#: package/contents/ui/configAdvanced.qml:31
 #, fuzzy
+#| msgid "Run a command"
+msgid "Run command"
+msgstr "Fermanê bixebitîne"
+
+#: package/contents/ui/configAdvanced.qml:42
+#, fuzzy
+#| msgid "Run a command"
+msgid "Execute command"
+msgstr "Fermanê bixebitîne"
+
+#: package/contents/ui/configAdvanced.qml:47
+msgid "Command:"
+msgstr "Ferman:"
+
+#: package/contents/ui/configAppearance.qml:34
+msgid "Show title"
+msgstr ""
+
+#: package/contents/ui/configAppearance.qml:38
+msgid "Show seconds"
+msgstr ""
+
+#: package/contents/ui/timer.qml:174
+#, fuzzy
+#| msgid "Start"
 msgid "&Start"
 msgstr "Destpê bike"
 
-#: package/contents/ui/timer.qml:169
+#: package/contents/ui/timer.qml:175
 msgid "S&top"
 msgstr ""
 
-#: package/contents/ui/timer.qml:170
+#: package/contents/ui/timer.qml:176
 #, fuzzy
+#| msgid "Reset"
 msgid "&Reset"
 msgstr "Vegere Serî"
 
@@ -56,15 +90,9 @@ msgstr "Vegere Serî"
 #~ msgstr "Çalakiyên di Demborî de"
 
 #, fuzzy
+#~| msgid "Show a message"
 #~ msgid "Show a message:"
 #~ msgstr "Peyamekê nîşan bide"
-
-#, fuzzy
-#~ msgid "Run a command:"
-#~ msgstr "Fermanê bixebitîne"
-
-#~ msgid "Command:"
-#~ msgstr "Ferman:"
 
 #~ msgid "Message:"
 #~ msgstr "Peyam:"

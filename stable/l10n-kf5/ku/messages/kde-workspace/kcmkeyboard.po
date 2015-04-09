@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkeyboard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-01-13 12:18+0000\n"
+"POT-Creation-Date: 2015-03-19 08:45+0000\n"
 "PO-Revision-Date: 2007-12-31 15:23+0100\n"
 "Last-Translator: Erdal Ronahi <erdal.ronahi@nospam.gmail.com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
@@ -32,21 +32,23 @@ msgstr "Biguherîne Plana Din a Klavyeyê"
 
 #: bindings.cpp:34
 #, fuzzy
+#| msgid "KDE Keyboard Layout Switcher"
 msgid "KDE Keyboard Layout Switcher"
 msgstr "Guherkera Planê Klavyeyê a KDE'yê"
 
 #: bindings.cpp:67
 #, fuzzy, kde-format
+#| msgid "Error changing keyboard layout to '%1'"
 msgid "Switch keyboard layout to %1"
 msgstr "Di guherandina klavyeyê ji bo '%1' de çewtî derket"
 
-#: flags.cpp:141
+#: flags.cpp:172
 #, kde-format
 msgctxt "short layout label - full layout name"
 msgid "%1 - %2"
 msgstr ""
 
-#: flags.cpp:149
+#: flags.cpp:180
 #, kde-format
 msgctxt "layout - variant"
 msgid "%1 - %2"
@@ -58,6 +60,8 @@ msgstr ""
 
 #: kcm_add_layout_dialog.cpp:139 kcm_view_models.cpp:308
 #, fuzzy
+#| msgctxt "Default variant"
+#| msgid "Default"
 msgctxt "variant"
 msgid "Default"
 msgstr "Standard"
@@ -100,11 +104,13 @@ msgstr ""
 
 #: kcm_keyboard.cpp:49
 #, fuzzy
+#| msgid "KDE Keyboard Layout Switcher"
 msgid "KDE Keyboard Control Module"
 msgstr "Guherkera Planê Klavyeyê a KDE'yê"
 
 #: kcm_keyboard.cpp:51
 #, fuzzy
+#| msgid "Copyright (C) 2006-2007 Andriy Rysin"
 msgid "(c) 2010 Andriy Rysin"
 msgstr "Mafê telîfê (C) 2006-2007 Andriy Rysin"
 
@@ -328,6 +334,7 @@ msgstr[1] ""
 
 #: kcm_keyboard_widget.cpp:612
 #, fuzzy
+#| msgid "None"
 msgctxt "no shortcuts defined"
 msgid "None"
 msgstr "Ne yek jî"
@@ -341,6 +348,7 @@ msgstr[1] ""
 
 #: kcm_view_models.cpp:224
 #, fuzzy
+#| msgid "Map"
 msgctxt "layout map name"
 msgid "Map"
 msgstr "Nexşe"
@@ -359,6 +367,7 @@ msgstr "Etîket"
 
 #: kcm_view_models.cpp:224
 #, fuzzy
+#| msgid "Main shortcuts:"
 msgid "Shortcut"
 msgstr "Kurteriyên Sereke:"
 
@@ -384,6 +393,7 @@ msgstr "&Veke"
 #. i18n: ectx: property (text), widget (QRadioButton, radioButton2)
 #: kcmmiscwidget.ui:39
 #, fuzzy
+#| msgid "T&urn on"
 msgid "&Turn off"
 msgstr "&Veke"
 
@@ -400,6 +410,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, keyboardRepeatOffRadioButton)
 #: kcmmiscwidget.ui:78
 #, fuzzy
+#| msgid "T&urn on"
 msgid "Turn o&ff"
 msgstr "&Veke"
 
@@ -459,6 +470,7 @@ msgstr ""
 
 #: layout_tray_icon.cpp:46 layout_tray_icon.cpp:47
 #, fuzzy
+#| msgid "KDE Keyboard Layout Switcher"
 msgctxt "tooltip title"
 msgid "Keyboard Layout"
 msgstr "Guherkera Planê Klavyeyê a KDE'yê"

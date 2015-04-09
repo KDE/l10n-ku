@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcolors\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-01-30 10:07+0000\n"
+"POT-Creation-Date: 2015-03-06 08:50+0000\n"
 "PO-Revision-Date: 2009-01-06 14:36+0200\n"
 "Last-Translator: Erdal Ronahi <erdal.ronahi@nospam.gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -89,6 +89,7 @@ msgstr ""
 
 #: colorscm.cpp:364
 #, fuzzy
+#| msgid "None"
 msgid "Notice"
 msgstr "Ti yek"
 
@@ -188,6 +189,7 @@ msgstr "&Dirb"
 #. i18n: ectx: property (toolTip), widget (QPushButton, schemeKnsButton)
 #: colorsettings.ui:48
 #, fuzzy
+#| msgid "Remove the selected scheme"
 msgid "Get new color schemes from the Internet"
 msgstr "Dirba hilbijartî rake"
 
@@ -199,18 +201,21 @@ msgstr "Dirbên &Nû Bîne"
 #. i18n: ectx: property (toolTip), widget (QPushButton, schemeKnsUploadButton)
 #: colorsettings.ui:61
 #, fuzzy
+#| msgid "Remove the selected scheme"
 msgid "Share the selected scheme on the Internet"
 msgstr "Dirba hilbijartî rake"
 
 #. i18n: ectx: property (text), widget (QPushButton, schemeKnsUploadButton)
 #: colorsettings.ui:64
 #, fuzzy
+#| msgid "Import Scheme..."
 msgid "&Upload Scheme..."
 msgstr "Dirb Bîne Nava Xwe..."
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, schemeImportButton)
 #: colorsettings.ui:71
 #, fuzzy
+#| msgid "Import Color Scheme"
 msgid "Import a color scheme from a file"
 msgstr "Dirba Rengê Bîne Nava Xwe"
 
@@ -222,6 +227,7 @@ msgstr "Dirb Bîne Nava Xwe..."
 #. i18n: ectx: property (toolTip), widget (QPushButton, schemeSaveButton)
 #: colorsettings.ui:81
 #, fuzzy
+#| msgid "Save Color Scheme"
 msgid "Save the current color scheme"
 msgstr "Dirba Rengê Tomar Bike"
 
@@ -257,6 +263,7 @@ msgstr "Opsiyon"
 #. i18n: ectx: property (text), widget (QCheckBox, useInactiveEffects)
 #: colorsettings.ui:157
 #, fuzzy
+#| msgid "Inactive color"
 msgid "Apply inactive window color &effects"
 msgstr "Rengê neçalak"
 
@@ -272,7 +279,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, applyToAlien)
 #: colorsettings.ui:181
-msgid "Apply colors to &non-KDE4 applications"
+msgid "Apply colors to &non-Qt applications"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QGroupBox, groupBox_5)
@@ -283,6 +290,7 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_5)
 #: colorsettings.ui:191
 #, fuzzy
+#| msgid "Shade"
 msgid "Shading"
 msgstr "Sî"
 
@@ -304,6 +312,7 @@ msgstr "Kontrast"
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #: colorsettings.ui:279
 #, fuzzy
+#| msgid "Color Set:"
 msgid "Color set:"
 msgstr "Mîhengên Rengê:"
 
@@ -316,6 +325,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, colorSet)
 #: colorsettings.ui:296
 #, fuzzy
+#| msgid "Common Colors"
 msgctxt "color-sets"
 msgid "Common Colors"
 msgstr "Rengên Giştî"
@@ -324,6 +334,7 @@ msgstr "Rengên Giştî"
 #. i18n: ectx: property (text), item, widget (QComboBox, colorSet)
 #: colorsettings.ui:301
 #, fuzzy
+#| msgid "View"
 msgctxt "color-sets"
 msgid "View"
 msgstr "Bibîne"
@@ -332,6 +343,7 @@ msgstr "Bibîne"
 #. i18n: ectx: property (text), item, widget (QComboBox, colorSet)
 #: colorsettings.ui:306
 #, fuzzy
+#| msgid "Window"
 msgctxt "color-sets"
 msgid "Window"
 msgstr "Pace"
@@ -340,6 +352,7 @@ msgstr "Pace"
 #. i18n: ectx: property (text), item, widget (QComboBox, colorSet)
 #: colorsettings.ui:311
 #, fuzzy
+#| msgid "Button"
 msgctxt "color-sets"
 msgid "Button"
 msgstr "Bişkoj"
@@ -348,6 +361,7 @@ msgstr "Bişkoj"
 #. i18n: ectx: property (text), item, widget (QComboBox, colorSet)
 #: colorsettings.ui:316
 #, fuzzy
+#| msgid "Selection"
 msgctxt "color-sets"
 msgid "Selection"
 msgstr "Hilbijartin"
@@ -426,6 +440,7 @@ msgstr "Hilbijartina Nivîsarê"
 #. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
 #: colorsettings.ui:535
 #, fuzzy
+#| msgid "Selection Text"
 msgid "Selection Inactive Text"
 msgstr "Hilbijartina Nivîsarê"
 
@@ -449,12 +464,14 @@ msgstr "Darikê sernavê yê Çalak"
 #. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
 #: colorsettings.ui:600
 #, fuzzy
+#| msgid "Active Titlebar"
 msgid "Active Titlebar Text"
 msgstr "Darikê sernavê yê Çalak"
 
 #. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
 #: colorsettings.ui:605
 #, fuzzy
+#| msgid "Active Titlebar"
 msgid "Active Titlebar Secondary"
 msgstr "Darikê sernavê yê Çalak"
 
@@ -466,18 +483,21 @@ msgstr "Darikê sernavê yê Neçalak"
 #. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
 #: colorsettings.ui:615
 #, fuzzy
+#| msgid "Inactive Titlebar"
 msgid "Inactive Titlebar Text"
 msgstr "Darikê sernavê yê Neçalak"
 
 #. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
 #: colorsettings.ui:620
 #, fuzzy
+#| msgid "Inactive Titlebar"
 msgid "Inactive Titlebar Secondary"
 msgstr "Darikê sernavê yê Neçalak"
 
 #. i18n: ectx: attribute (title), widget (QWidget, pageInactice)
 #: colorsettings.ui:735
 #, fuzzy
+#| msgid "Inactive"
 msgctxt "@title:tab color transformations on inactive elements"
 msgid "Inactive"
 msgstr "Neçalak"
@@ -491,12 +511,14 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QComboBox, inactiveIntensityBox)
 #: colorsettings.ui:751
 #, fuzzy
+#| msgid "Inactive color"
 msgid "Inactive intensity effect type"
 msgstr "Rengê neçalak"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, inactiveIntensityBox)
 #: colorsettings.ui:755
 #, fuzzy
+#| msgid "None"
 msgctxt "no inactive intensity effect"
 msgid "None"
 msgstr "Ti yek"
@@ -504,6 +526,7 @@ msgstr "Ti yek"
 #. i18n: ectx: property (text), item, widget (QComboBox, inactiveIntensityBox)
 #: colorsettings.ui:760
 #, fuzzy
+#| msgid "Shade"
 msgctxt "inactive intensity effect"
 msgid "Shade"
 msgstr "Sî"
@@ -511,6 +534,7 @@ msgstr "Sî"
 #. i18n: ectx: property (text), item, widget (QComboBox, inactiveIntensityBox)
 #: colorsettings.ui:765
 #, fuzzy
+#| msgid "Darken"
 msgctxt "inactive intensity effect"
 msgid "Darken"
 msgstr "Tarî"
@@ -518,6 +542,7 @@ msgstr "Tarî"
 #. i18n: ectx: property (text), item, widget (QComboBox, inactiveIntensityBox)
 #: colorsettings.ui:770
 #, fuzzy
+#| msgid "Lighten"
 msgctxt "inactive intensity effect"
 msgid "Lighten"
 msgstr "Ronî"
@@ -525,6 +550,7 @@ msgstr "Ronî"
 #. i18n: ectx: property (toolTip), widget (QSlider, inactiveIntensitySlider)
 #: colorsettings.ui:781
 #, fuzzy
+#| msgid "Alternate Background"
 msgid "Inactive intensity effect amount"
 msgstr "Zemîna Alternatîf"
 
@@ -537,12 +563,14 @@ msgstr "Reng:"
 #. i18n: ectx: property (toolTip), widget (QComboBox, inactiveColorBox)
 #: colorsettings.ui:823
 #, fuzzy
+#| msgid "Inactive color"
 msgid "Inactive color effect type"
 msgstr "Rengê neçalak"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, inactiveColorBox)
 #: colorsettings.ui:827
 #, fuzzy
+#| msgid "None"
 msgctxt "no inactive color effect"
 msgid "None"
 msgstr "Ti yek"
@@ -562,6 +590,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, inactiveColorBox)
 #: colorsettings.ui:842
 #, fuzzy
+#| msgid "Tint"
 msgctxt "inactive color effect"
 msgid "Tint"
 msgstr "Bi rengî "
@@ -569,6 +598,7 @@ msgstr "Bi rengî "
 #. i18n: ectx: property (toolTip), widget (QSlider, inactiveColorSlider)
 #: colorsettings.ui:853
 #, fuzzy
+#| msgid "Inactive color"
 msgid "Inactive color amount"
 msgstr "Rengê neçalak"
 
@@ -586,12 +616,14 @@ msgstr "Kontrast:"
 #. i18n: ectx: property (toolTip), widget (QComboBox, inactiveContrastBox)
 #: colorsettings.ui:889
 #, fuzzy
+#| msgid "Inactive color"
 msgid "Inactive contrast effect type"
 msgstr "Rengê neçalak"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, inactiveContrastBox)
 #: colorsettings.ui:893
 #, fuzzy
+#| msgid "None"
 msgctxt "no inactive contrast effect"
 msgid "None"
 msgstr "Ti yek"
@@ -605,6 +637,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, inactiveContrastBox)
 #: colorsettings.ui:903
 #, fuzzy
+#| msgid "Tint"
 msgctxt "inactive contrast effect"
 msgid "Tint"
 msgstr "Bi rengî "
@@ -612,12 +645,14 @@ msgstr "Bi rengî "
 #. i18n: ectx: property (toolTip), widget (QSlider, inactiveContrastSlider)
 #: colorsettings.ui:914
 #, fuzzy
+#| msgid "Alternate Background"
 msgid "Inactive contrast effect amount"
 msgstr "Zemîna Alternatîf"
 
 #. i18n: ectx: attribute (title), widget (QWidget, pageDisabled)
 #: colorsettings.ui:985
 #, fuzzy
+#| msgid "Disabled"
 msgctxt "@title:tab color transformations on disabled elements"
 msgid "Disabled"
 msgstr "Neçalakkirî"
@@ -625,12 +660,14 @@ msgstr "Neçalakkirî"
 #. i18n: ectx: property (toolTip), widget (QComboBox, disabledIntensityBox)
 #: colorsettings.ui:1001
 #, fuzzy
+#| msgid "Disabled color"
 msgid "Disabled intensity effect type"
 msgstr "Rengê neçalakkirî"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, disabledIntensityBox)
 #: colorsettings.ui:1005
 #, fuzzy
+#| msgid "None"
 msgctxt "no disabled intensity effect"
 msgid "None"
 msgstr "Ti yek"
@@ -638,6 +675,7 @@ msgstr "Ti yek"
 #. i18n: ectx: property (text), item, widget (QComboBox, disabledIntensityBox)
 #: colorsettings.ui:1010
 #, fuzzy
+#| msgid "Shade"
 msgctxt "disabled intensity effect"
 msgid "Shade"
 msgstr "Sî"
@@ -645,6 +683,7 @@ msgstr "Sî"
 #. i18n: ectx: property (text), item, widget (QComboBox, disabledIntensityBox)
 #: colorsettings.ui:1015
 #, fuzzy
+#| msgid "Darken"
 msgctxt "disabled intensity effect"
 msgid "Darken"
 msgstr "Tarî"
@@ -652,6 +691,7 @@ msgstr "Tarî"
 #. i18n: ectx: property (text), item, widget (QComboBox, disabledIntensityBox)
 #: colorsettings.ui:1020
 #, fuzzy
+#| msgid "Lighten"
 msgctxt "disabled intensity effect"
 msgid "Lighten"
 msgstr "Ronî"
@@ -659,18 +699,21 @@ msgstr "Ronî"
 #. i18n: ectx: property (toolTip), widget (QSlider, disabledIntensitySlider)
 #: colorsettings.ui:1031
 #, fuzzy
+#| msgid "Disabled color"
 msgid "Disabled intensity effect amount"
 msgstr "Rengê neçalakkirî"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, disabledColorBox)
 #: colorsettings.ui:1073
 #, fuzzy
+#| msgid "Disabled color"
 msgid "Disabled color effect type"
 msgstr "Rengê neçalakkirî"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, disabledColorBox)
 #: colorsettings.ui:1077
 #, fuzzy
+#| msgid "None"
 msgctxt "no disabled color effect"
 msgid "None"
 msgstr "Ti yek"
@@ -690,6 +733,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, disabledColorBox)
 #: colorsettings.ui:1092
 #, fuzzy
+#| msgid "Tint"
 msgctxt "disabled color effect"
 msgid "Tint"
 msgstr "Bi rengî "
@@ -697,6 +741,7 @@ msgstr "Bi rengî "
 #. i18n: ectx: property (toolTip), widget (QSlider, disabledColorSlider)
 #: colorsettings.ui:1103
 #, fuzzy
+#| msgid "Disabled color"
 msgid "Disabled color effect amount"
 msgstr "Rengê neçalakkirî"
 
@@ -708,12 +753,14 @@ msgstr "Rengê neçalakkirî"
 #. i18n: ectx: property (toolTip), widget (QComboBox, disabledContrastBox)
 #: colorsettings.ui:1139
 #, fuzzy
+#| msgid "Disabled color"
 msgid "Disabled contrast type"
 msgstr "Rengê neçalakkirî"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, disabledContrastBox)
 #: colorsettings.ui:1143
 #, fuzzy
+#| msgid "None"
 msgctxt "no disabled contrast"
 msgid "None"
 msgstr "Ti yek"
@@ -727,6 +774,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, disabledContrastBox)
 #: colorsettings.ui:1153
 #, fuzzy
+#| msgid "Tint"
 msgctxt "disabled contrast"
 msgid "Tint"
 msgstr "Bi rengî "
@@ -734,12 +782,14 @@ msgstr "Bi rengî "
 #. i18n: ectx: property (toolTip), widget (QSlider, disabledContrastSlider)
 #: colorsettings.ui:1164
 #, fuzzy
+#| msgid "Disabled color"
 msgid "Disabled contrast amount"
 msgstr "Rengê neçalakkirî"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label)
 #: preview.ui:29
 #, fuzzy
+#| msgid "Window Background"
 msgid "Window text on Window Background"
 msgstr "Rûerda Paceyê "
 
@@ -747,6 +797,7 @@ msgstr "Rûerda Paceyê "
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: preview.ui:32
 #, fuzzy
+#| msgid "Window text"
 msgctxt "color-kcm-preview"
 msgid "Window text"
 msgstr "Nivîsara paceyê"
@@ -754,6 +805,7 @@ msgstr "Nivîsara paceyê"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelView0)
 #: preview.ui:63
 #, fuzzy
+#| msgid "Normal Background"
 msgid "View Normal Text against View Normal Background"
 msgstr "Zemîna Asayî"
 
@@ -761,6 +813,7 @@ msgstr "Zemîna Asayî"
 #. i18n: ectx: property (text), widget (QLabel, labelView0)
 #: preview.ui:66
 #, fuzzy
+#| msgid "Normal text"
 msgctxt "color-kcm-preview"
 msgid "Normal text"
 msgstr "Nivîsara normal"
@@ -768,6 +821,7 @@ msgstr "Nivîsara normal"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelView3)
 #: preview.ui:78
 #, fuzzy
+#| msgid "Normal Background"
 msgid "View Link Text against View Normal Background"
 msgstr "Zemîna Asayî"
 
@@ -777,6 +831,7 @@ msgstr "Zemîna Asayî"
 #. i18n: ectx: property (text), widget (QLabel, labelSelection3)
 #: preview.ui:81 preview.ui:199
 #, fuzzy
+#| msgid "link"
 msgctxt "color-kcm-preview"
 msgid "link"
 msgstr "lînk"
@@ -784,6 +839,7 @@ msgstr "lînk"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelView4)
 #: preview.ui:93
 #, fuzzy
+#| msgid "Normal Background"
 msgid "View Visited Text against View Normal Background"
 msgstr "Zemîna Asayî"
 
@@ -793,6 +849,7 @@ msgstr "Zemîna Asayî"
 #. i18n: ectx: property (text), widget (QLabel, labelSelection4)
 #: preview.ui:96 preview.ui:214
 #, fuzzy
+#| msgid "visited"
 msgctxt "color-kcm-preview"
 msgid "visited"
 msgstr "ziyaretkirî"
@@ -800,6 +857,7 @@ msgstr "ziyaretkirî"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelView2)
 #: preview.ui:103
 #, fuzzy
+#| msgid "Normal Background"
 msgid "View Active Text against View Normal Background"
 msgstr "Zemîna Asayî"
 
@@ -809,6 +867,8 @@ msgstr "Zemîna Asayî"
 #. i18n: ectx: property (text), widget (QLabel, labelSelection2)
 #: preview.ui:106 preview.ui:224
 #, fuzzy
+#| msgctxt "active (abbreviate)"
+#| msgid "a"
 msgctxt "color-kcm-preview"
 msgid "a"
 msgstr "ç"
@@ -816,6 +876,7 @@ msgstr "ç"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelView1)
 #: preview.ui:113
 #, fuzzy
+#| msgid "Normal Background"
 msgid "View Inactive Text against View Normal Background"
 msgstr "Zemîna Asayî"
 
@@ -825,6 +886,8 @@ msgstr "Zemîna Asayî"
 #. i18n: ectx: property (text), widget (QLabel, labelSelection1)
 #: preview.ui:116 preview.ui:234
 #, fuzzy
+#| msgctxt "inactive (abbreviate)"
+#| msgid "i"
 msgctxt "color-kcm-preview"
 msgid "i"
 msgstr "i"
@@ -832,6 +895,7 @@ msgstr "i"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelView5)
 #: preview.ui:123
 #, fuzzy
+#| msgid "Normal Background"
 msgid "View Negative Text against View Normal Background"
 msgstr "Zemîna Asayî"
 
@@ -841,6 +905,7 @@ msgstr "Zemîna Asayî"
 #. i18n: ectx: property (text), widget (QLabel, labelSelection5)
 #: preview.ui:126 preview.ui:244
 #, fuzzy
+#| msgid "!"
 msgctxt "color-kcm-preview"
 msgid "!"
 msgstr "!"
@@ -848,6 +913,7 @@ msgstr "!"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelView6)
 #: preview.ui:133
 #, fuzzy
+#| msgid "Normal Background"
 msgid "View Neutral Text against View Normal Background"
 msgstr "Zemîna Asayî"
 
@@ -857,6 +923,7 @@ msgstr "Zemîna Asayî"
 #. i18n: ectx: property (text), widget (QLabel, labelSelection6)
 #: preview.ui:136 preview.ui:254
 #, fuzzy
+#| msgid "="
 msgctxt "color-kcm-preview"
 msgid "="
 msgstr "="
@@ -864,6 +931,7 @@ msgstr "="
 #. i18n: ectx: property (toolTip), widget (QLabel, labelView7)
 #: preview.ui:143
 #, fuzzy
+#| msgid "Normal Background"
 msgid "View Positive Text against View Normal Background"
 msgstr "Zemîna Asayî"
 
@@ -873,6 +941,7 @@ msgstr "Zemîna Asayî"
 #. i18n: ectx: property (text), widget (QLabel, labelSelection7)
 #: preview.ui:146 preview.ui:264
 #, fuzzy
+#| msgid "+"
 msgctxt "color-kcm-preview"
 msgid "+"
 msgstr "+"
@@ -880,6 +949,7 @@ msgstr "+"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelSelection0)
 #: preview.ui:181
 #, fuzzy
+#| msgid "Normal Background"
 msgid "Selection Normal Text against Selection Normal Background"
 msgstr "Zemîna Asayî"
 
@@ -887,6 +957,7 @@ msgstr "Zemîna Asayî"
 #. i18n: ectx: property (text), widget (QLabel, labelSelection0)
 #: preview.ui:184
 #, fuzzy
+#| msgid "Selected text"
 msgctxt "color-kcm-preview"
 msgid "Selected text"
 msgstr "Nivîsara hilbijartî"
@@ -894,48 +965,56 @@ msgstr "Nivîsara hilbijartî"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelSelection3)
 #: preview.ui:196
 #, fuzzy
+#| msgid "Normal Background"
 msgid "Selection Link Text against Selection Normal Background"
 msgstr "Zemîna Asayî"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelSelection4)
 #: preview.ui:211
 #, fuzzy
+#| msgid "Normal Background"
 msgid "Selection Visited Text against Selection Normal Background"
 msgstr "Zemîna Asayî"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelSelection2)
 #: preview.ui:221
 #, fuzzy
+#| msgid "Normal Background"
 msgid "Selection Active Text against Selection Normal Background"
 msgstr "Zemîna Asayî"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelSelection1)
 #: preview.ui:231
 #, fuzzy
+#| msgid "Normal Background"
 msgid "Selection Inactive Text against Selection Normal Background"
 msgstr "Zemîna Asayî"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelSelection5)
 #: preview.ui:241
 #, fuzzy
+#| msgid "Normal Background"
 msgid "Selection Negative Text against Selection Normal Background"
 msgstr "Zemîna Asayî"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelSelection6)
 #: preview.ui:251
 #, fuzzy
+#| msgid "Normal Background"
 msgid "Selection Neutral Text against Selection Normal Background"
 msgstr "Zemîna Asayî"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelSelection7)
 #: preview.ui:261
 #, fuzzy
+#| msgid "Normal Background"
 msgid "Selection Positive Text against Selection Normal Background"
 msgstr "Zemîna Asayî"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, pushButton)
 #: preview.ui:293
 #, fuzzy
+#| msgid "Button Background"
 msgid "Button text on Button Background"
 msgstr "Rûerda Bişkojê "
 
@@ -943,6 +1022,7 @@ msgstr "Rûerda Bişkojê "
 #. i18n: ectx: property (text), widget (QPushButton, pushButton)
 #: preview.ui:296
 #, fuzzy
+#| msgid "Push Button"
 msgctxt "color-kcm-preview"
 msgid "Push Button"
 msgstr "Pêl Bişkojê Bike"
@@ -951,6 +1031,7 @@ msgstr "Pêl Bişkojê Bike"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelBack0)
 #: setpreview.ui:35 setpreview.ui:189
 #, fuzzy
+#| msgid "Normal Background"
 msgid "Normal Text on Normal Background"
 msgstr "Zemîna Asayî"
 
@@ -960,6 +1041,7 @@ msgstr "Zemîna Asayî"
 #. i18n: ectx: property (text), widget (QLabel, labelBack0)
 #: setpreview.ui:38 setpreview.ui:192
 #, fuzzy
+#| msgid "normal"
 msgctxt "color-kcm-set-preview"
 msgid "normal"
 msgstr "asayî"
@@ -967,6 +1049,7 @@ msgstr "asayî"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelFore3)
 #: setpreview.ui:56
 #, fuzzy
+#| msgid "Normal Background"
 msgid "Link Text on Normal Background"
 msgstr "Zemîna Asayî"
 
@@ -976,6 +1059,7 @@ msgstr "Zemîna Asayî"
 #. i18n: ectx: property (text), widget (QLabel, labelBack3)
 #: setpreview.ui:59 setpreview.ui:214
 #, fuzzy
+#| msgid "link"
 msgctxt "color-kcm-set-preview"
 msgid "link"
 msgstr "lînk"
@@ -983,6 +1067,7 @@ msgstr "lînk"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelFore4)
 #: setpreview.ui:77
 #, fuzzy
+#| msgid "Normal Background"
 msgid "Visited Text on Normal Background"
 msgstr "Zemîna Asayî"
 
@@ -992,6 +1077,7 @@ msgstr "Zemîna Asayî"
 #. i18n: ectx: property (text), widget (QLabel, labelBack4)
 #: setpreview.ui:80 setpreview.ui:236
 #, fuzzy
+#| msgid "visited"
 msgctxt "color-kcm-set-preview"
 msgid "visited"
 msgstr "ziyaretkirî"
@@ -999,6 +1085,7 @@ msgstr "ziyaretkirî"
 #. i18n: ectx: property (toolTip), widget (QWidget, widgetFore2)
 #: setpreview.ui:90
 #, fuzzy
+#| msgid "Normal Background"
 msgid "Active Text on Normal Background"
 msgstr "Zemîna Asayî"
 
@@ -1008,6 +1095,7 @@ msgstr "Zemîna Asayî"
 #. i18n: ectx: property (text), widget (QLabel, labelBack2)
 #: setpreview.ui:96 setpreview.ui:253
 #, fuzzy
+#| msgid "active"
 msgctxt "color-kcm-set-preview"
 msgid "active"
 msgstr "çalak"
@@ -1015,6 +1103,7 @@ msgstr "çalak"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelFore1)
 #: setpreview.ui:109
 #, fuzzy
+#| msgid "Normal Background"
 msgid "Inactive Text on Normal Background"
 msgstr "Zemîna Asayî"
 
@@ -1022,6 +1111,7 @@ msgstr "Zemîna Asayî"
 #. i18n: ectx: property (text), widget (QLabel, labelFore1)
 #: setpreview.ui:112
 #, fuzzy
+#| msgid "inactive"
 msgctxt "color-kcm-set-preview"
 msgid "inactive"
 msgstr "neçalak"
@@ -1029,6 +1119,7 @@ msgstr "neçalak"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelFore5)
 #: setpreview.ui:125
 #, fuzzy
+#| msgid "Normal Background"
 msgid "Negative Text on Normal Background"
 msgstr "Zemîna Asayî"
 
@@ -1038,6 +1129,7 @@ msgstr "Zemîna Asayî"
 #. i18n: ectx: property (text), widget (QLabel, labelBack5)
 #: setpreview.ui:128 setpreview.ui:286
 #, fuzzy
+#| msgid "negative"
 msgctxt "color-kcm-set-preview"
 msgid "negative"
 msgstr "neyênî"
@@ -1045,6 +1137,7 @@ msgstr "neyênî"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelFore6)
 #: setpreview.ui:141
 #, fuzzy
+#| msgid "Normal Background"
 msgid "Neutral Text on Normal Background"
 msgstr "Zemîna Asayî"
 
@@ -1054,6 +1147,7 @@ msgstr "Zemîna Asayî"
 #. i18n: ectx: property (text), widget (QLabel, labelBack6)
 #: setpreview.ui:144 setpreview.ui:303
 #, fuzzy
+#| msgid "neutral"
 msgctxt "color-kcm-set-preview"
 msgid "neutral"
 msgstr "nêtar"
@@ -1061,6 +1155,7 @@ msgstr "nêtar"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelFore7)
 #: setpreview.ui:157
 #, fuzzy
+#| msgid "Normal Background"
 msgid "Positive Text on Normal Background"
 msgstr "Zemîna Asayî"
 
@@ -1070,6 +1165,7 @@ msgstr "Zemîna Asayî"
 #. i18n: ectx: property (text), widget (QLabel, labelBack7)
 #: setpreview.ui:160 setpreview.ui:320
 #, fuzzy
+#| msgid "positive"
 msgctxt "color-kcm-set-preview"
 msgid "positive"
 msgstr "erênî "
@@ -1077,6 +1173,7 @@ msgstr "erênî "
 #. i18n: ectx: property (toolTip), widget (QWidget, widgetFore8)
 #: setpreview.ui:170
 #, fuzzy
+#| msgid "Normal Background"
 msgid "Hover on Normal Background"
 msgstr "Zemîna Asayî"
 
@@ -1084,6 +1181,7 @@ msgstr "Zemîna Asayî"
 #. i18n: ectx: property (text), widget (QLabel, labelFore8)
 #: setpreview.ui:176
 #, fuzzy
+#| msgid "hover"
 msgctxt "color-kcm-set-preview"
 msgid "hover"
 msgstr "lerzek "
@@ -1115,6 +1213,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QLabel, labelBack1)
 #: setpreview.ui:266
 #, fuzzy
+#| msgid "Alternate Background"
 msgid "Inactive Text on Alternate Background"
 msgstr "Zemîna Alternatîf"
 
@@ -1122,6 +1221,7 @@ msgstr "Zemîna Alternatîf"
 #. i18n: ectx: property (text), widget (QLabel, labelBack1)
 #: setpreview.ui:269
 #, fuzzy
+#| msgid "alternate"
 msgctxt "color-kcm-set-preview"
 msgid "alternate"
 msgstr "alternatîf"
@@ -1153,6 +1253,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QLabel, labelFore9)
 #: setpreview.ui:333
 #, fuzzy
+#| msgid "Normal Background"
 msgid "Focus on Normal Background"
 msgstr "Zemîna Asayî"
 
@@ -1160,6 +1261,7 @@ msgstr "Zemîna Asayî"
 #. i18n: ectx: property (text), widget (QLabel, labelFore9)
 #: setpreview.ui:336
 #, fuzzy
+#| msgid "focus"
 msgctxt "color-kcm-set-preview"
 msgid "focus"
 msgstr "nîvend"

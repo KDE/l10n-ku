@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-02-27 12:26+0000\n"
+"POT-Creation-Date: 2015-02-27 09:48+0000\n"
 "PO-Revision-Date: 2009-01-06 14:08+0200\n"
 "Last-Translator: Erdal Ronahi <erdal.ronahi@nospam.gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -143,6 +143,7 @@ msgstr "Hilpekînên Nû &Bidaxîne"
 
 #: ksysguard.cpp:170
 #, fuzzy
+#| msgid "&Download New Tabs..."
 msgid "&Upload Current Tab..."
 msgstr "Hilpekînên Nû &Bidaxîne"
 
@@ -152,6 +153,7 @@ msgstr "&Taybetmendyên Hilpekînê"
 
 #: ksysguard.cpp:367
 #, fuzzy, kde-format
+#| msgid " %1 processes "
 msgid "1 process1"
 msgid_plural "%1 processes%1"
 msgstr[0] "Pêvajoyên %1"
@@ -159,6 +161,7 @@ msgstr[1] "Pêvajoyên %1"
 
 #: ksysguard.cpp:446
 #, fuzzy, kde-format
+#| msgid " CPU: %1% "
 msgid "CPU: %1%%1%"
 msgstr " CPU: %1%"
 
@@ -174,6 +177,7 @@ msgstr ""
 
 #: ksysguard.cpp:490
 #, fuzzy, kde-format
+#| msgid " Swap: %1 / %2 "
 msgctxt "Arguments are formatted byte sizes (used/total)"
 msgid "Swap: %1 / %2Swap: %1%1"
 msgstr " Swap: %1 / %2 "
@@ -249,6 +253,7 @@ msgstr "&Pel"
 #. i18n: ectx: Menu (view)
 #: ksysguardui.rc:14
 #, fuzzy
+#| msgid "&File"
 msgid "&View"
 msgstr "&Pel"
 
@@ -391,6 +396,7 @@ msgstr "Sînora Jor:"
 
 #: SensorDisplayLib/DancingBarsSettings.cpp:154
 #, fuzzy
+#| msgid "Look"
 msgctxt "@title:tab Appearance of the bar graph"
 msgid "Look"
 msgstr "Binihêre"
@@ -482,12 +488,14 @@ msgstr ""
 
 #: SensorDisplayLib/FancyPlotter.cpp:527
 #, fuzzy, kde-format
+#| msgid "<p><b>%1:</b><br>"
 msgctxt "%1 is what is being shown statistics for, like 'Memory', 'Swap', etc."
 msgid "<p><b>%1:</b><br>"
 msgstr "<p><b>%1:</b><br>"
 
 #: SensorDisplayLib/FancyPlotter.cpp:598
 #, fuzzy, kde-format
+#| msgid "%1 of %2"
 msgid "%1 of %2%1"
 msgstr "%1 yê %2"
 
@@ -541,12 +549,15 @@ msgstr ""
 
 #: SensorDisplayLib/FancyPlotter.cpp:655
 #, fuzzy, kde-format
+#| msgctxt "a percentage"
+#| msgid "%"
 msgctxt "unitless - just a number"
 msgid "%1"
 msgstr "%"
 
 #: SensorDisplayLib/FancyPlotterSettings.cpp:47
 #, fuzzy
+#| msgid "&Settings"
 msgid "Plotter Settings"
 msgstr "&Mîheng"
 
@@ -590,6 +601,7 @@ msgstr ""
 
 #: SensorDisplayLib/FancyPlotterSettings.cpp:103
 #, fuzzy
+#| msgid "Enter the title of the display here."
 msgid "Enter the minimum value for the display here."
 msgstr "Sernavê nîşanderê binivîse li vir."
 
@@ -676,26 +688,36 @@ msgstr "Bibe Jêr"
 
 #: SensorDisplayLib/ListView.cpp:46
 #, fuzzy, kde-format
+#| msgctxt "a percentage"
+#| msgid "%"
 msgid "%1 K"
 msgstr "%"
 
 #: SensorDisplayLib/ListView.cpp:47
 #, fuzzy, kde-format
+#| msgctxt "a percentage"
+#| msgid "%"
 msgid "%1 M"
 msgstr "%"
 
 #: SensorDisplayLib/ListView.cpp:48
 #, fuzzy, kde-format
+#| msgctxt "a percentage"
+#| msgid "%"
 msgid "%1 G"
 msgstr "%"
 
 #: SensorDisplayLib/ListView.cpp:49
 #, fuzzy, kde-format
+#| msgctxt "a percentage"
+#| msgid "%"
 msgid "%1 T"
 msgstr "%"
 
 #: SensorDisplayLib/ListView.cpp:50
 #, fuzzy, kde-format
+#| msgctxt "a percentage"
+#| msgid "%"
 msgid "%1 P"
 msgstr "%"
 
@@ -721,6 +743,7 @@ msgstr ""
 
 #: SensorDisplayLib/ListView.cpp:181
 #, fuzzy
+#| msgid "Temperature"
 msgid "Terabytes"
 msgstr "Germahî"
 
@@ -762,6 +785,7 @@ msgstr "&Nivîs"
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: SensorDisplayLib/LogFileSettings.ui:29
 #, fuzzy
+#| msgid "Title:"
 msgid "T&itle:"
 msgstr "Sernav:"
 
@@ -794,6 +818,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: SensorDisplayLib/MultiMeterSettingsWidget.ui:25
 #, fuzzy
+#| msgid "Title:"
 msgid "&Title:"
 msgstr "Sernav:"
 
@@ -860,30 +885,35 @@ msgstr ""
 
 #: SensorDisplayLib/SensorLogger.cpp:138
 #, fuzzy
+#| msgid "Logging"
 msgctxt "@title:column"
 msgid "Logging"
 msgstr "Tomar"
 
 #: SensorDisplayLib/SensorLogger.cpp:141
 #, fuzzy
+#| msgid "Update interval:"
 msgctxt "@title:column"
 msgid "Timer Interval"
 msgstr "Navbera rojane kirinê:"
 
 #: SensorDisplayLib/SensorLogger.cpp:144
 #, fuzzy
+#| msgid "Sensor"
 msgctxt "@title:column"
 msgid "Sensor Name"
 msgstr "Têgihîştî"
 
 #: SensorDisplayLib/SensorLogger.cpp:147
 #, fuzzy
+#| msgid "Host Name"
 msgctxt "@title:column"
 msgid "Host Name"
 msgstr "Navê Hostê"
 
 #: SensorDisplayLib/SensorLogger.cpp:150
 #, fuzzy
+#| msgid "File"
 msgctxt "@title:column"
 msgid "Log File"
 msgstr "Pel"
@@ -903,11 +933,13 @@ msgstr ""
 
 #: SensorDisplayLib/SensorLogger.cpp:621
 #, fuzzy
+#| msgid "Logging"
 msgid "St&op Logging"
 msgstr "Tomar"
 
 #: SensorDisplayLib/SensorLogger.cpp:624
 #, fuzzy
+#| msgid "Logging"
 msgid "S&tart Logging"
 msgstr "Tomar"
 
@@ -919,6 +951,7 @@ msgstr "Pel"
 #. i18n: ectx: property (title), widget (QGroupBox, timerFrame)
 #: SensorDisplayLib/SensorLoggerDlgWidget.ui:31
 #, fuzzy
+#| msgid "Update interval:"
 msgctxt "@title:group"
 msgid "Timer Interval"
 msgstr "Navbera rojane kirinê:"
@@ -1071,6 +1104,7 @@ msgstr ""
 
 #: WorkSheet.cpp:539
 #, fuzzy
+#| msgid "Delete Display"
 msgid "Remove Display"
 msgstr "Xuyakirinê Jê Bibe"
 
@@ -1149,10 +1183,14 @@ msgstr ""
 
 #: Workspace.cpp:304
 #, fuzzy
+#| msgid "System Monitor"
 msgid "Upload custom System Monitor tab"
 msgstr "Temaşekerê Pergalê"
 
 #, fuzzy
+#~| msgid ""
+#~| "Message from %1:\n"
+#~| "%2"
 #~ msgctxt "%1 is a host name"
 #~ msgid ""
 #~ "Message from %1:\n"
@@ -1186,6 +1224,7 @@ msgstr "Temaşekerê Pergalê"
 #~ msgstr "Barkirina Bikarhêner"
 
 #, fuzzy
+#~| msgid "System Load"
 #~ msgctxt "@item sensor description"
 #~ msgid "System Load"
 #~ msgstr "Bara Pergalê"
@@ -1194,6 +1233,7 @@ msgstr "Temaşekerê Pergalê"
 #~ msgstr "Li Bendê"
 
 #, fuzzy
+#~| msgid "Interrupts"
 #~ msgid "Interrupt Load"
 #~ msgstr "Qutkirin"
 
@@ -1225,10 +1265,12 @@ msgstr "Temaşekerê Pergalê"
 #~ msgstr "Rûpelên Pelê"
 
 #, fuzzy
+#~| msgid "Process Count"
 #~ msgid "Processes"
 #~ msgstr "Hejmara Xebatan"
 
 #, fuzzy
+#~| msgid "Process Count"
 #~ msgid "Process Spawn Count"
 #~ msgstr "Hejmara Xebatan"
 
@@ -1236,30 +1278,37 @@ msgstr "Temaşekerê Pergalê"
 #~ msgstr "Hejmara Xebatan"
 
 #, fuzzy
+#~| msgid "Process Count"
 #~ msgid "Idle Processes Count"
 #~ msgstr "Hejmara Xebatan"
 
 #, fuzzy
+#~| msgid "Process Count"
 #~ msgid "Running Processes Count"
 #~ msgstr "Hejmara Xebatan"
 
 #, fuzzy
+#~| msgid "Process Count"
 #~ msgid "Sleeping Processes Count"
 #~ msgstr "Hejmara Xebatan"
 
 #, fuzzy
+#~| msgid "Process Count"
 #~ msgid "Stopped Processes Count"
 #~ msgstr "Hejmara Xebatan"
 
 #, fuzzy
+#~| msgid "Process Count"
 #~ msgid "Zombie Processes Count"
 #~ msgstr "Hejmara Xebatan"
 
 #, fuzzy
+#~| msgid "Process Count"
 #~ msgid "Waiting Processes Count"
 #~ msgstr "Hejmara Xebatan"
 
 #, fuzzy
+#~| msgid "Process Count"
 #~ msgid "Locked Processes Count"
 #~ msgstr "Hejmara Xebatan"
 
@@ -1283,6 +1332,7 @@ msgstr "Temaşekerê Pergalê"
 #~ msgstr "Dane yê tê Nivîsîn"
 
 #, fuzzy
+#~| msgid "System Load"
 #~ msgid "System Calls"
 #~ msgstr "Bara Pergalê"
 
@@ -1293,26 +1343,32 @@ msgstr "Temaşekerê Pergalê"
 #~ msgstr "Navrû"
 
 #, fuzzy
+#~| msgid "Rate"
 #~ msgid "Data Rate"
 #~ msgstr "Rêje"
 
 #, fuzzy
+#~| msgid "Errors"
 #~ msgid "Error Rate"
 #~ msgstr "Çewtî"
 
 #, fuzzy
+#~| msgid "Errors"
 #~ msgid "Frame Error Rate"
 #~ msgstr "Çewtî"
 
 #, fuzzy
+#~| msgid "Multicast"
 #~ msgid "Multicast Packet Rate"
 #~ msgstr "Pirweşanî"
 
 #, fuzzy
+#~| msgid "Rate"
 #~ msgid "Packet Rate"
 #~ msgstr "Rêje"
 
 #, fuzzy
+#~| msgid "Errors"
 #~ msgctxt "@item sensor description ('carrier' is a type of network signal)"
 #~ msgid "Carrier Loss Rate"
 #~ msgstr "Çewtî"
@@ -1327,6 +1383,7 @@ msgstr "Temaşekerê Pergalê"
 #~ msgstr "Çewtî"
 
 #, fuzzy
+#~| msgid "Multicast"
 #~ msgid "Multicast Packets"
 #~ msgstr "Pirweşanî"
 
@@ -1346,6 +1403,7 @@ msgstr "Temaşekerê Pergalê"
 #~ msgstr "Germahî"
 
 #, fuzzy
+#~| msgid "Temperature"
 #~ msgid "Average CPU Temperature"
 #~ msgstr "Germahî"
 
@@ -1356,6 +1414,7 @@ msgstr "Temaşekerê Pergalê"
 #~ msgstr "Pîl"
 
 #, fuzzy
+#~| msgid "Battery Charge"
 #~ msgid "Battery Capacity"
 #~ msgstr "Şarja Pîlê"
 
@@ -1366,10 +1425,12 @@ msgstr "Temaşekerê Pergalê"
 #~ msgstr "Bikaranîna Pîlê"
 
 #, fuzzy
+#~| msgid "Battery Usage"
 #~ msgid "Battery Voltage"
 #~ msgstr "Bikaranîna Pîlê"
 
 #, fuzzy
+#~| msgid "Battery Charge"
 #~ msgid "Battery Discharge Rate"
 #~ msgstr "Şarja Pîlê"
 
@@ -1383,6 +1444,7 @@ msgstr "Temaşekerê Pergalê"
 #~ msgstr "Cihê Vala"
 
 #, fuzzy
+#~| msgid "User Load"
 #~ msgid "Used Inodes"
 #~ msgstr "Barkirina Bikarhêner"
 
@@ -1390,6 +1452,7 @@ msgstr "Temaşekerê Pergalê"
 #~ msgstr "System"
 
 #, fuzzy
+#~| msgid "Total Number"
 #~ msgid "Total Number of Devices"
 #~ msgstr "Hejmara Tev"
 
@@ -1400,6 +1463,7 @@ msgstr "Temaşekerê Pergalê"
 #~ msgstr "Dîska %1"
 
 #, fuzzy
+#~| msgid "Battery"
 #~ msgid "Battery %1"
 #~ msgstr "Pîl"
 
@@ -1410,10 +1474,12 @@ msgstr "Temaşekerê Pergalê"
 #~ msgstr "Hemû"
 
 #, fuzzy
+#~| msgid "Interrupts"
 #~ msgid "Software Interrupts"
 #~ msgstr "Qutkirin"
 
 #, fuzzy
+#~| msgid "Interrupts"
 #~ msgid "Hardware Interrupts"
 #~ msgstr "Qutkirin"
 
@@ -1437,6 +1503,7 @@ msgstr "Temaşekerê Pergalê"
 #~ msgstr "%"
 
 #, fuzzy
+#~| msgid " sec"
 #~ msgctxt "Units"
 #~ msgid "%1 second"
 #~ msgid_plural "%1 seconds"
@@ -1444,6 +1511,7 @@ msgstr "Temaşekerê Pergalê"
 #~ msgstr[1] " çirke"
 
 #, fuzzy
+#~| msgid " Memory: %1 / %2 "
 #~ msgctxt "Arguments are formatted byte sizes (used/total)"
 #~ msgid " Memory: %1 / %2 "
 #~ msgstr "Bîr: %1 / %2 "
@@ -1461,6 +1529,8 @@ msgstr "Temaşekerê Pergalê"
 #~ msgstr "&Sererastkirin"
 
 #, fuzzy
+#~| msgctxt "a percentage"
+#~| msgid "%"
 #~ msgctxt "units in percentage"
 #~ msgid "%1%"
 #~ msgstr "%"
@@ -1472,6 +1542,7 @@ msgstr "Temaşekerê Pergalê"
 #~ msgstr "S&ernav"
 
 #, fuzzy
+#~| msgid "%"
 #~ msgctxt "Number suffix in spinbox"
 #~ msgid "%"
 #~ msgstr "%"
