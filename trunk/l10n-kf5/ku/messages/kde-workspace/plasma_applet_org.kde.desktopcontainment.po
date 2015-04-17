@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_folderview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-04-08 08:30+0000\n"
+"POT-Creation-Date: 2015-04-17 09:54+0000\n"
 "PO-Revision-Date: 2009-01-06 14:28+0200\n"
 "Last-Translator: Erdal Ronahi <erdal.ronahi@nospam.gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -102,10 +102,12 @@ msgid "Arrange in:"
 msgstr ""
 
 #: package/contents/ui/ConfigIcons.qml:75
+#: plugins/folder/viewpropertiesmenu.cpp:34
 msgid "Rows"
 msgstr ""
 
 #: package/contents/ui/ConfigIcons.qml:75
+#: plugins/folder/viewpropertiesmenu.cpp:38
 msgid "Columns"
 msgstr ""
 
@@ -114,10 +116,12 @@ msgid "Align:"
 msgstr ""
 
 #: package/contents/ui/ConfigIcons.qml:87
+#: plugins/folder/viewpropertiesmenu.cpp:46
 msgid "Left"
 msgstr ""
 
 #: package/contents/ui/ConfigIcons.qml:87
+#: plugins/folder/viewpropertiesmenu.cpp:50
 msgid "Right"
 msgstr ""
 
@@ -134,10 +138,12 @@ msgid "Sorting:"
 msgstr ""
 
 #: package/contents/ui/ConfigIcons.qml:125
+#: plugins/folder/viewpropertiesmenu.cpp:58
 msgid "Unsorted"
 msgstr ""
 
 #: package/contents/ui/ConfigIcons.qml:125
+#: plugins/folder/viewpropertiesmenu.cpp:62
 #, fuzzy
 #| msgctxt "Sort icons"
 #| msgid "By Name"
@@ -145,6 +151,7 @@ msgid "Name"
 msgstr "Li gorî navî"
 
 #: package/contents/ui/ConfigIcons.qml:125
+#: plugins/folder/viewpropertiesmenu.cpp:66
 #, fuzzy
 #| msgctxt "Sort icons"
 #| msgid "By Size"
@@ -152,6 +159,7 @@ msgid "Size"
 msgstr "Li gorî mezinahiyê"
 
 #: package/contents/ui/ConfigIcons.qml:125
+#: plugins/folder/viewpropertiesmenu.cpp:70
 #, fuzzy
 #| msgctxt "Sort icons"
 #| msgid "By Type"
@@ -159,6 +167,7 @@ msgid "Type"
 msgstr "Li gorî cureyî"
 
 #: package/contents/ui/ConfigIcons.qml:125
+#: plugins/folder/viewpropertiesmenu.cpp:74
 #, fuzzy
 #| msgctxt "Sort icons"
 #| msgid "By Date"
@@ -166,6 +175,7 @@ msgid "Date"
 msgstr "Li gorî demê"
 
 #: package/contents/ui/ConfigIcons.qml:142
+#: plugins/folder/viewpropertiesmenu.cpp:79
 msgid "Descending"
 msgstr ""
 
@@ -320,98 +330,167 @@ msgstr ""
 msgid "Got it"
 msgstr ""
 
+#: plugins/folder/directorypicker.cpp:45
 #, fuzzy
-#~| msgid "Select All"
-#~ msgid "Select Folder"
-#~ msgstr "Hemûyan Hilbijêre"
+#| msgid "Select All"
+msgid "Select Folder"
+msgstr "Hemûyan Hilbijêre"
 
-#~ msgid "&Reload"
-#~ msgstr "&Nûbarkirin"
+#: plugins/folder/foldermodel.cpp:217
+msgid "&Refresh Desktop"
+msgstr ""
 
-#~ msgid "&Rename"
-#~ msgstr "&Nav biguhere"
+#: plugins/folder/foldermodel.cpp:217 plugins/folder/foldermodel.cpp:1035
+msgid "&Refresh View"
+msgstr ""
 
-#~ msgid "&Move to Trash"
-#~ msgstr "Bia&vêje Çopê"
+#: plugins/folder/foldermodel.cpp:1032
+msgid "&Reload"
+msgstr "&Nûbarkirin"
 
-#~ msgid "&Empty Trash Bin"
-#~ msgstr "&Qutiya gilêşê vala bike"
+#: plugins/folder/foldermodel.cpp:1038
+msgid "&Rename"
+msgstr "&Nav biguhere"
 
-#~ msgid "&Delete"
-#~ msgstr "&Jêbirin "
+#: plugins/folder/foldermodel.cpp:1041
+msgid "&Move to Trash"
+msgstr "Bia&vêje Çopê"
 
-#~ msgid "&Paste"
-#~ msgstr "&Pêvekirin"
+#: plugins/folder/foldermodel.cpp:1044
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:350
+msgid "&Empty Trash Bin"
+msgstr "&Qutiya gilêşê vala bike"
 
-#~ msgctxt "@title:menu"
-#~ msgid "Copy To"
-#~ msgstr "Kopî bike li"
+#: plugins/folder/foldermodel.cpp:1047
+msgid "&Delete"
+msgstr "&Jêbirin "
 
-#~ msgctxt "@title:menu"
-#~ msgid "Move To"
-#~ msgstr "Guhêze li"
+#: plugins/folder/foldermodel.cpp:1107
+msgid "&Paste"
+msgstr "&Pêvekirin"
 
+#: plugins/folder/internallibkonq/konq_copytomenu.cpp:82
+msgctxt "@title:menu"
+msgid "Copy To"
+msgstr "Kopî bike li"
+
+#: plugins/folder/internallibkonq/konq_copytomenu.cpp:88
+msgctxt "@title:menu"
+msgid "Move To"
+msgstr "Guhêze li"
+
+#: plugins/folder/internallibkonq/konq_copytomenu.cpp:112
 #, fuzzy
-#~| msgid "Desktop Folder"
-#~ msgctxt "@title:menu"
-#~ msgid "Home Folder"
-#~ msgstr "Peldanka Sermasê"
+#| msgid "Desktop Folder"
+msgctxt "@title:menu"
+msgid "Home Folder"
+msgstr "Peldanka Sermasê"
 
+#: plugins/folder/internallibkonq/konq_copytomenu.cpp:119
 #, fuzzy
-#~| msgid "Desktop Folder"
-#~ msgctxt "@title:menu"
-#~ msgid "Root Folder"
-#~ msgstr "Peldanka Sermasê"
+#| msgid "Desktop Folder"
+msgctxt "@title:menu"
+msgid "Root Folder"
+msgstr "Peldanka Sermasê"
 
-#~ msgctxt "@title:menu in Copy To or Move To submenu"
-#~ msgid "Browse..."
-#~ msgstr "Bigere..."
+#: plugins/folder/internallibkonq/konq_copytomenu.cpp:155
+msgctxt "@title:menu in Copy To or Move To submenu"
+msgid "Browse..."
+msgstr "Bigere..."
 
-#~ msgctxt "@title:menu"
-#~ msgid "Copy Here"
-#~ msgstr "Jiberbigire bîne vir"
+#: plugins/folder/internallibkonq/konq_copytomenu.cpp:228
+msgctxt "@title:menu"
+msgid "Copy Here"
+msgstr "Jiberbigire bîne vir"
 
-#~ msgctxt "@title:menu"
-#~ msgid "Move Here"
-#~ msgstr "Guhêze &vir"
+#: plugins/folder/internallibkonq/konq_copytomenu.cpp:229
+msgctxt "@title:menu"
+msgid "Move Here"
+msgstr "Guhêze &vir"
 
-#~ msgid "&Open"
-#~ msgstr "&Veke"
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:254
+msgid "&Open"
+msgstr "&Veke"
 
-#~ msgid "Create &Folder..."
-#~ msgstr "Peldankê biafirîne..."
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:281
+msgid "Create &Folder..."
+msgstr "Peldankê biafirîne..."
 
-#~ msgid "&Restore"
-#~ msgstr "&Paşde bîne"
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:292
+msgid "&Restore"
+msgstr "&Paşde bîne"
 
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:315
+msgid "Show Original Directory"
+msgstr ""
+
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:315
+msgid "Show Original File"
+msgstr ""
+
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:363
 #, fuzzy
-#~| msgid "&Empty Trash Bin"
-#~ msgid "&Configure Trash Bin"
-#~ msgstr "&Qutiya gilêşê vala bike"
+#| msgid "&Empty Trash Bin"
+msgid "&Configure Trash Bin"
+msgstr "&Qutiya gilêşê vala bike"
 
-#~ msgid "&Bookmark This Page"
-#~ msgstr "&Vê rûpelê li bijareyan zêde bike"
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:389
+msgid "&Bookmark This Page"
+msgstr "&Vê rûpelê li bijareyan zêde bike"
 
-#~ msgid "&Bookmark This Location"
-#~ msgstr "Vî &cihî li bijareyan zêde bike"
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:391
+msgid "&Bookmark This Location"
+msgstr "Vî &cihî li bijareyan zêde bike"
 
-#~ msgid "&Bookmark This Folder"
-#~ msgstr "Vê &peldankê li bijareyan zêde bike"
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:394
+msgid "&Bookmark This Folder"
+msgstr "Vê &peldankê li bijareyan zêde bike"
 
-#~ msgid "&Bookmark This Link"
-#~ msgstr "Vê &girêdanê li bijareyan zêde bike"
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:396
+msgid "&Bookmark This Link"
+msgstr "Vê &girêdanê li bijareyan zêde bike"
 
-#~ msgid "&Bookmark This File"
-#~ msgstr "&Vê dosiyê li bijareyan zêde bike"
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:398
+msgid "&Bookmark This File"
+msgstr "&Vê dosiyê li bijareyan zêde bike"
 
-#~ msgid "Preview In"
-#~ msgstr "Pêşdîtin li"
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:428
+msgid "Preview In"
+msgstr "Pêşdîtin li"
 
-#~ msgid "&Properties"
-#~ msgstr "&Taybetmendî"
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:463
+msgid "&Properties"
+msgstr "&Taybetmendî"
 
-#~ msgid "Share"
-#~ msgstr "Parvekirin"
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:479
+msgid "Share"
+msgstr "Parvekirin"
+
+#: plugins/folder/labelgenerator.cpp:97
+#, fuzzy
+#| msgid "Show the Desktop folder"
+msgid "Desktop Folder"
+msgstr "Peldanka Sermasê nîşan bide"
+
+#: plugins/folder/viewpropertiesmenu.cpp:31
+msgid "Arrange In"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:43
+msgid "Align"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:55
+msgid "Sort By"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:81
+msgid "Folders First"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:84
+msgid "Locked"
+msgstr ""
 
 #~ msgid "You cannot drop a folder on to itself"
 #~ msgstr "Tu nikarî pêristekê bar bikî ser xwe"
