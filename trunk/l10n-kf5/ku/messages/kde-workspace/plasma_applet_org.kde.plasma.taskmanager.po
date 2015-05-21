@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_tasks\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-05-11 09:19+0000\n"
+"POT-Creation-Date: 2015-05-21 09:19+0000\n"
 "PO-Revision-Date: 2008-12-26 01:50+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -24,126 +24,134 @@ msgstr ""
 msgid "General"
 msgstr "Giştî"
 
-#: package/contents/ui/ConfigGeneral.qml:46
-msgid "Appearance"
-msgstr "Xuyanî"
+#: package/contents/ui/ConfigGeneral.qml:50
+msgid "Arrangement"
+msgstr ""
 
-#: package/contents/ui/ConfigGeneral.qml:54
+#: package/contents/ui/ConfigGeneral.qml:58
 #, fuzzy
-#| msgid "Force row settings:"
-msgid "Force row settings"
-msgstr "Zor bide mîhengên rêzê:"
+#| msgid "Maximum rows:"
+msgid "Maximum columns:"
+msgstr "Rêzên piranî:"
 
-#: package/contents/ui/ConfigGeneral.qml:59
+#: package/contents/ui/ConfigGeneral.qml:58
+msgid "Maximum rows:"
+msgstr "Rêzên piranî:"
+
+#: package/contents/ui/ConfigGeneral.qml:70
+msgid "Always arrange tasks in rows of as many columns"
+msgstr ""
+
+#: package/contents/ui/ConfigGeneral.qml:70
+msgid "Always arrange tasks in columns of as many rows"
+msgstr ""
+
+#: package/contents/ui/ConfigGeneral.qml:79
+msgid "Behavior"
+msgstr ""
+
+#: package/contents/ui/ConfigGeneral.qml:87
 #, fuzzy
 #| msgid "Show tooltips:"
 msgid "Show tooltips"
 msgstr "Qutî ya amûran nîşan bide:"
 
-#: package/contents/ui/ConfigGeneral.qml:66
-msgid "Maximum rows:"
-msgstr "Rêzên piranî:"
-
-#: package/contents/ui/ConfigGeneral.qml:80
-msgid "Behavior"
-msgstr ""
-
-#: package/contents/ui/ConfigGeneral.qml:88
+#: package/contents/ui/ConfigGeneral.qml:92
 msgid "Cycle through tasks with mouse wheel"
 msgstr ""
 
-#: package/contents/ui/ConfigGeneral.qml:93
+#: package/contents/ui/ConfigGeneral.qml:97
 msgid "Highlight windows"
 msgstr ""
 
-#: package/contents/ui/ConfigGeneral.qml:98
+#: package/contents/ui/ConfigGeneral.qml:102
 msgid "On middle-click:"
 msgstr ""
 
-#: package/contents/ui/ConfigGeneral.qml:104
+#: package/contents/ui/ConfigGeneral.qml:108
 msgctxt "The click action"
 msgid "None"
 msgstr ""
 
-#: package/contents/ui/ConfigGeneral.qml:104
+#: package/contents/ui/ConfigGeneral.qml:108
 msgid "Close Window or Group"
 msgstr ""
 
-#: package/contents/ui/ConfigGeneral.qml:104
+#: package/contents/ui/ConfigGeneral.qml:108
 msgid "New Instance"
 msgstr ""
 
-#: package/contents/ui/ConfigGeneral.qml:113
+#: package/contents/ui/ConfigGeneral.qml:117
 #, fuzzy
 #| msgid "Grouping & Sorting"
 msgid "Grouping and Sorting"
 msgstr "Komkirin & Rêzkirin"
 
-#: package/contents/ui/ConfigGeneral.qml:121
+#: package/contents/ui/ConfigGeneral.qml:127
 msgid "Sorting:"
 msgstr "Rêzkirin:"
 
-#: package/contents/ui/ConfigGeneral.qml:129
+#: package/contents/ui/ConfigGeneral.qml:134
 msgid "Do Not Sort"
 msgstr "Bê rêzkirinê"
 
-#: package/contents/ui/ConfigGeneral.qml:129
+#: package/contents/ui/ConfigGeneral.qml:134
 msgid "Manually"
 msgstr "Bi destan"
 
-#: package/contents/ui/ConfigGeneral.qml:129
+#: package/contents/ui/ConfigGeneral.qml:134
 msgid "Alphabetically"
 msgstr "Li gorî alfabeyê"
 
-#: package/contents/ui/ConfigGeneral.qml:129
+#: package/contents/ui/ConfigGeneral.qml:134
 msgid "By Desktop"
 msgstr "Bi Sermasê"
 
-#: package/contents/ui/ConfigGeneral.qml:129
+#: package/contents/ui/ConfigGeneral.qml:134
 msgid "By Activity"
 msgstr ""
 
-#: package/contents/ui/ConfigGeneral.qml:135
+#: package/contents/ui/ConfigGeneral.qml:141
 msgid "Grouping:"
 msgstr "Komkirin:"
 
-#: package/contents/ui/ConfigGeneral.qml:143
+#: package/contents/ui/ConfigGeneral.qml:150
 msgid "Do Not Group"
 msgstr "Kom Neke"
 
-#: package/contents/ui/ConfigGeneral.qml:143
+#: package/contents/ui/ConfigGeneral.qml:150
 msgid "By Program Name"
 msgstr "Li gorî navê bernameyê"
 
-#: package/contents/ui/ConfigGeneral.qml:149
+#: package/contents/ui/ConfigGeneral.qml:157
 #, fuzzy
 #| msgid "Only when the taskbar is full"
 msgid "Only when the task manager is full"
 msgstr "Tenê wextê darika peywiran tijî be"
 
-#: package/contents/ui/ConfigGeneral.qml:157
+#: package/contents/ui/ConfigGeneral.qml:168
 msgid "Filters"
 msgstr "Parzûn:"
 
-#: package/contents/ui/ConfigGeneral.qml:165
+#: package/contents/ui/ConfigGeneral.qml:176
 #, fuzzy
 #| msgid "Only show tasks from the current screen"
 msgid "Show only tasks from the current screen"
 msgstr "Peywiran tenê di dîmendêra heyî de nîşan bide"
 
-#: package/contents/ui/ConfigGeneral.qml:170
+#: package/contents/ui/ConfigGeneral.qml:181
 #, fuzzy
 #| msgid "Only show tasks from the current desktop"
 msgid "Show only tasks from the current desktop"
 msgstr "Peywiran tenê di sermase ya heyî de nîşan bide"
 
-#: package/contents/ui/ConfigGeneral.qml:175
+#: package/contents/ui/ConfigGeneral.qml:186
 #, fuzzy
 #| msgid "Only show tasks from the current screen"
 msgid "Show only tasks from the current activity"
 msgstr "Peywiran tenê di dîmendêra heyî de nîşan bide"
 
-#: package/contents/ui/ConfigGeneral.qml:183
+#: package/contents/ui/ConfigGeneral.qml:194
 #, fuzzy
 #| msgid "Only show tasks that are minimized"
 msgid "Show only tasks that are minimized"
@@ -181,6 +189,14 @@ msgstr ""
 #: plugin/backend.cpp:374
 msgid "Forget Recent Documents"
 msgstr ""
+
+#~ msgid "Appearance"
+#~ msgstr "Xuyanî"
+
+#, fuzzy
+#~| msgid "Force row settings:"
+#~ msgid "Force row settings"
+#~ msgstr "Zor bide mîhengên rêzê:"
 
 #~ msgid "Collapse Group"
 #~ msgstr "Komê Veşêre"
