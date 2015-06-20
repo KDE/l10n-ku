@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_trash\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-01-29 08:08+0000\n"
+"POT-Creation-Date: 2015-06-20 09:58+0000\n"
 "PO-Revision-Date: 2008-12-26 01:52+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <ku@li.org>\n"
@@ -19,14 +19,14 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "X-Poedit-Language: Kurdish\n"
 
-#: contents/ui/main.qml:54
+#: contents/ui/main.qml:86
 #, fuzzy
 #| msgid "&Open"
 msgctxt "a verb"
 msgid "Open"
 msgstr "&Vekirin"
 
-#: contents/ui/main.qml:55
+#: contents/ui/main.qml:87
 #, fuzzy
 #| msgctxt "The trash is empty. This is not an action, but a state"
 #| msgid "Empty"
@@ -34,7 +34,7 @@ msgctxt "a verb"
 msgid "Empty"
 msgstr "Vala"
 
-#: contents/ui/main.qml:73
+#: contents/ui/main.qml:116
 #, fuzzy
 #| msgid "Trash"
 msgid ""
@@ -42,7 +42,7 @@ msgid ""
 "Empty"
 msgstr "Çop"
 
-#: contents/ui/main.qml:73 contents/ui/main.qml:85
+#: contents/ui/main.qml:116
 #, fuzzy, kde-format
 #| msgid "One item"
 #| msgid_plural "%1 items"
@@ -55,33 +55,38 @@ msgid_plural ""
 msgstr[0] "Hêmanek"
 msgstr[1] "%1 hêman"
 
-#: contents/ui/main.qml:84
+#: contents/ui/main.qml:124
 msgid "Trash"
 msgstr "Çop"
 
-#: contents/ui/main.qml:85
-msgid ""
-"Trash \n"
-" Empty"
-msgstr ""
-
-#: contents/ui/main.qml:93 contents/ui/main.qml:95
+#: contents/ui/main.qml:125
 #, fuzzy
-#| msgctxt "@action:button"
-#| msgid "Empty Trash"
-msgid "Empty Trash"
-msgstr "Copê Vala Bike"
+#| msgctxt "The trash is empty. This is not an action, but a state"
+#| msgid "Empty"
+msgid "Empty"
+msgstr "Vala"
 
-#: contents/ui/main.qml:94
+#: contents/ui/main.qml:125
+#, fuzzy, kde-format
+#| msgid "One item"
+#| msgid_plural "%1 items"
+msgid "One item"
+msgid_plural "%1 items"
+msgstr[0] "Hêmanek"
+msgstr[1] "%1 hêman"
+
 #, fuzzy
-#| msgctxt "@info"
-#| msgid "Do you really want to empty the trash? All items will be deleted."
-msgid "Do you really want to empty the trash ? All the items will be deleted."
-msgstr "Tu ji dil dixwazî çopê vala bikî? Hemû hêman wê bên jê birin."
+#~| msgctxt "@action:button"
+#~| msgid "Empty Trash"
+#~ msgid "Empty Trash"
+#~ msgstr "Copê Vala Bike"
 
-#: contents/ui/main.qml:96
-msgid "Cancel"
-msgstr ""
+#, fuzzy
+#~| msgctxt "@info"
+#~| msgid "Do you really want to empty the trash? All items will be deleted."
+#~ msgid ""
+#~ "Do you really want to empty the trash ? All the items will be deleted."
+#~ msgstr "Tu ji dil dixwazî çopê vala bikî? Hemû hêman wê bên jê birin."
 
 #~ msgid "&Empty Trashcan"
 #~ msgstr "Copê &Vala Bike"
