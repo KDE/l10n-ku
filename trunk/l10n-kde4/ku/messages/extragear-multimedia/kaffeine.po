@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaffeine\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-19 03:33+0200\n"
+"POT-Creation-Date: 2015-08-02 01:55+0000\n"
 "PO-Revision-Date: 2008-12-20 16:02+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -125,7 +125,7 @@ msgctxt "@action"
 msgid "Edit"
 msgstr ""
 
-#: dvb/dvbchanneldialog.cpp:298 dvb/dvbconfigdialog.cpp:466
+#: dvb/dvbchanneldialog.cpp:298 dvb/dvbconfigdialog.cpp:486
 #: dvb/dvbrecordingdialog.cpp:71 playlist/playlisttab.cpp:411
 #: playlist/playlisttab.cpp:431
 #, fuzzy
@@ -288,290 +288,304 @@ msgstr "Kanalê biguherîne"
 msgid "Scrambled:"
 msgstr ""
 
-#: dvb/dvbconfigdialog.cpp:46
+#: dvb/dvbconfigdialog.cpp:47
 #, fuzzy
 #| msgid "Configure Channels"
 msgctxt "@title:window"
 msgid "Configure Television"
 msgstr "Kanal Mîhang Bike"
 
-#: dvb/dvbconfigdialog.cpp:55
+#: dvb/dvbconfigdialog.cpp:56
 msgid "Recording folder:"
 msgstr ""
 
-#: dvb/dvbconfigdialog.cpp:63 dvb/dvbconfigdialog.cpp:75
+#: dvb/dvbconfigdialog.cpp:64 dvb/dvbconfigdialog.cpp:76
 #, fuzzy
 #| msgid "Select source:"
 msgid "Select Folder"
 msgstr "Çavkanî hilbijêre:"
 
-#: dvb/dvbconfigdialog.cpp:67
+#: dvb/dvbconfigdialog.cpp:68
 msgid "Time shift folder:"
 msgstr ""
 
-#: dvb/dvbconfigdialog.cpp:81
+#: dvb/dvbconfigdialog.cpp:82
 msgid "Begin margin (minutes):"
 msgstr ""
 
-#: dvb/dvbconfigdialog.cpp:88
+#: dvb/dvbconfigdialog.cpp:89
 msgid "End margin (minutes):"
 msgstr ""
 
 #: dvb/dvbconfigdialog.cpp:97
+msgid "Naming style for recordings:"
+msgstr ""
+
+#: dvb/dvbconfigdialog.cpp:101
+msgid ""
+"The following substitutions work: \"%year\" for year (YYYY) and the "
+"following: %month, %day, %hour, %min, %sec, %channel and %title"
+msgstr ""
+
+#: dvb/dvbconfigdialog.cpp:107
 msgid "Use ISO 8859-1 charset instead of ISO 6937:"
 msgstr ""
 
-#: dvb/dvbconfigdialog.cpp:109 dvb/dvbscandialog.cpp:280
+#: dvb/dvbconfigdialog.cpp:114
+msgid "Create info files to accompany EPG recordings."
+msgstr ""
+
+#: dvb/dvbconfigdialog.cpp:127 dvb/dvbscandialog.cpp:280
 #, fuzzy, kde-format
 #| msgid "Scan file last updated<br>on %1"
 msgid "Scan data last updated on %1"
 msgstr "Pela lê nihêrîn ê dawî yê di <br> %1 de hate rojane kirin"
 
-#: dvb/dvbconfigdialog.cpp:112
+#: dvb/dvbconfigdialog.cpp:130
 msgid "Update scan data over Internet"
 msgstr ""
 
-#: dvb/dvbconfigdialog.cpp:120
+#: dvb/dvbconfigdialog.cpp:138
 msgid "Your position (only needed for USALS rotor)"
 msgstr ""
 
-#: dvb/dvbconfigdialog.cpp:123
+#: dvb/dvbconfigdialog.cpp:141
 msgid "Latitude:"
 msgstr ""
 
-#: dvb/dvbconfigdialog.cpp:124
+#: dvb/dvbconfigdialog.cpp:142
 msgid "[S -90 ... 90 N]"
 msgstr ""
 
-#: dvb/dvbconfigdialog.cpp:138
+#: dvb/dvbconfigdialog.cpp:156
 msgid "Longitude:"
 msgstr ""
 
-#: dvb/dvbconfigdialog.cpp:139
+#: dvb/dvbconfigdialog.cpp:157
 msgid "[W -180 ... 180 E]"
 msgstr ""
 
-#: dvb/dvbconfigdialog.cpp:156
+#: dvb/dvbconfigdialog.cpp:174
 msgid "General Options"
 msgstr ""
 
-#: dvb/dvbconfigdialog.cpp:168 dvb/dvbconfigdialog.cpp:259
-#: dvb/dvbconfigdialog.cpp:260 dvb/dvbconfigdialog.cpp:286
-#: dvb/dvbconfigdialog.cpp:287 dvb/dvbconfigdialog.cpp:311
+#: dvb/dvbconfigdialog.cpp:186 dvb/dvbconfigdialog.cpp:277
+#: dvb/dvbconfigdialog.cpp:278 dvb/dvbconfigdialog.cpp:304
+#: dvb/dvbconfigdialog.cpp:305 dvb/dvbconfigdialog.cpp:329
 #, kde-format
 msgid "Device %1"
 msgstr "Cîhaza %1"
 
-#: dvb/dvbconfigdialog.cpp:382
+#: dvb/dvbconfigdialog.cpp:402
 msgid "Update Scan Data"
 msgstr ""
 
-#: dvb/dvbconfigdialog.cpp:389
+#: dvb/dvbconfigdialog.cpp:409
 msgid "Downloading scan data"
 msgstr ""
 
-#: dvb/dvbconfigdialog.cpp:432 dvb/dvbconfigdialog.cpp:444
+#: dvb/dvbconfigdialog.cpp:452 dvb/dvbconfigdialog.cpp:464
 #, fuzzy
 #| msgid "Scan file last updated<br>on %1"
 msgid "Scan data update failed."
 msgstr "Pela lê nihêrîn ê dawî yê di <br> %1 de hate rojane kirin"
 
-#: dvb/dvbconfigdialog.cpp:441
+#: dvb/dvbconfigdialog.cpp:461
 msgid ""
 "Scan data successfully updated. Changes take\n"
 "effect after you have closed the configuration dialog."
 msgstr ""
 
-#: dvb/dvbconfigdialog.cpp:453
+#: dvb/dvbconfigdialog.cpp:473
 #, kde-format
 msgid "Name: %1"
 msgstr "Nav: %1"
 
-#: dvb/dvbconfigdialog.cpp:456
+#: dvb/dvbconfigdialog.cpp:476
 msgid "Move Left"
 msgstr ""
 
-#: dvb/dvbconfigdialog.cpp:461
+#: dvb/dvbconfigdialog.cpp:481
 msgid "Reset"
 msgstr ""
 
-#: dvb/dvbconfigdialog.cpp:471
+#: dvb/dvbconfigdialog.cpp:491
 msgid "Move Right"
 msgstr ""
 
-#: dvb/dvbconfigdialog.cpp:477
+#: dvb/dvbconfigdialog.cpp:497
 #, fuzzy
 #| msgid "device not connected"
 msgid "Device not connected."
 msgstr "cîhaz nehat girêdan"
 
-#: dvb/dvbconfigdialog.cpp:509
+#: dvb/dvbconfigdialog.cpp:529
 msgid "DVB-C"
 msgstr "DVB-C"
 
-#: dvb/dvbconfigdialog.cpp:525
+#: dvb/dvbconfigdialog.cpp:545
 #, fuzzy
 #| msgid "DVB-S"
 msgid "DVB-S2"
 msgstr "DVB-S"
 
-#: dvb/dvbconfigdialog.cpp:527
+#: dvb/dvbconfigdialog.cpp:547
 msgid "DVB-S"
 msgstr "DVB-S"
 
-#: dvb/dvbconfigdialog.cpp:534
+#: dvb/dvbconfigdialog.cpp:554
 msgid "DVB-T"
 msgstr "DVB-T"
 
-#: dvb/dvbconfigdialog.cpp:547
+#: dvb/dvbconfigdialog.cpp:567
 msgid "ATSC"
 msgstr "ATSC"
 
-#: dvb/dvbconfigdialog.cpp:630
+#: dvb/dvbconfigdialog.cpp:650
 msgid "Cable"
 msgstr "Kablo"
 
-#: dvb/dvbconfigdialog.cpp:638
+#: dvb/dvbconfigdialog.cpp:658
 msgid "Terrestrial"
 msgstr "Herêmî"
 
-#: dvb/dvbconfigdialog.cpp:646
+#: dvb/dvbconfigdialog.cpp:666
 #, fuzzy
 #| msgid "Stop scan"
 msgid "Autoscan"
 msgstr "Lê nihêrîn ê rawestîne "
 
-#: dvb/dvbconfigdialog.cpp:647
+#: dvb/dvbconfigdialog.cpp:667
 msgid "Autoscan with 167 kHz Offsets"
 msgstr ""
 
-#: dvb/dvbconfigdialog.cpp:648
+#: dvb/dvbconfigdialog.cpp:668
 msgid "Autoscan Australia"
 msgstr ""
 
-#: dvb/dvbconfigdialog.cpp:649
+#: dvb/dvbconfigdialog.cpp:669
 msgid "Autoscan Italy"
 msgstr ""
 
-#: dvb/dvbconfigdialog.cpp:650
+#: dvb/dvbconfigdialog.cpp:670
 msgid "Autoscan Taiwan"
 msgstr ""
 
-#: dvb/dvbconfigdialog.cpp:653
+#: dvb/dvbconfigdialog.cpp:673
 msgid "Atsc"
 msgstr "Atsc"
 
-#: dvb/dvbconfigdialog.cpp:662 dvb/dvbconfigdialog.cpp:771
+#: dvb/dvbconfigdialog.cpp:682 dvb/dvbconfigdialog.cpp:791
 msgid "Tuner timeout (ms):"
 msgstr "Dem bihurîna eyarker (mç):"
 
-#: dvb/dvbconfigdialog.cpp:671 dvb/dvbscandialog.cpp:270
+#: dvb/dvbconfigdialog.cpp:691 dvb/dvbscandialog.cpp:270
 msgid "Source:"
 msgstr "Çavkanî:"
 
-#: dvb/dvbconfigdialog.cpp:674 dvb/dvbconfigdialog.cpp:807
+#: dvb/dvbconfigdialog.cpp:694 dvb/dvbconfigdialog.cpp:827
 #, fuzzy
 #| msgid "No source"
 msgid "No Source"
 msgstr "Çavkanî tune ye"
 
-#: dvb/dvbconfigdialog.cpp:680
+#: dvb/dvbconfigdialog.cpp:700
 msgid "Name:"
 msgstr "Nav:"
 
-#: dvb/dvbconfigdialog.cpp:779
+#: dvb/dvbconfigdialog.cpp:799
 msgid "Configuration:"
 msgstr "Mîhengkirin:"
 
-#: dvb/dvbconfigdialog.cpp:782
+#: dvb/dvbconfigdialog.cpp:802
 #, fuzzy
 #| msgid "DiSEqC switch"
 msgid "DiSEqC Switch"
 msgstr "Derbasbûna DiSEqC"
 
-#: dvb/dvbconfigdialog.cpp:783
+#: dvb/dvbconfigdialog.cpp:803
 #, fuzzy
 #| msgid "USALS rotor"
 msgid "USALS Rotor"
 msgstr "Rotora USALS"
 
-#: dvb/dvbconfigdialog.cpp:784
+#: dvb/dvbconfigdialog.cpp:804
 #, fuzzy
 #| msgid "Positions rotor"
 msgid "Positions Rotor"
 msgstr "Rotor ê bicih bike"
 
-#: dvb/dvbconfigdialog.cpp:801
+#: dvb/dvbconfigdialog.cpp:821
 #, fuzzy, kde-format
 #| msgid "LNB %1 settings"
 msgid "LNB %1 Settings"
 msgstr "Mîhengên LNB %1"
 
-#: dvb/dvbconfigdialog.cpp:820 dvb/dvbconfigdialog.cpp:1067
+#: dvb/dvbconfigdialog.cpp:840 dvb/dvbconfigdialog.cpp:1087
 #, fuzzy
 #| msgid "LNB settings"
 msgid "LNB Settings"
 msgstr "Mîhengên LNB"
 
-#: dvb/dvbconfigdialog.cpp:835 dvb/dvbconfigdialog.cpp:847
+#: dvb/dvbconfigdialog.cpp:855 dvb/dvbconfigdialog.cpp:867
 #, fuzzy
 #| msgid "Add satellite"
 msgid "Add Satellite"
 msgstr "Dûvelang lê zêde bike"
 
-#: dvb/dvbconfigdialog.cpp:855
+#: dvb/dvbconfigdialog.cpp:875
 msgid "Satellite"
 msgstr "Dûvelang"
 
-#: dvb/dvbconfigdialog.cpp:855
+#: dvb/dvbconfigdialog.cpp:875
 msgid "Position"
 msgstr "Derawa"
 
-#: dvb/dvbconfigdialog.cpp:872
+#: dvb/dvbconfigdialog.cpp:892
 #, fuzzy
 #| msgid "Remove satellite"
 msgid "Remove Satellite"
 msgstr "Dûvelangê rake"
 
-#: dvb/dvbconfigdialog.cpp:1076
+#: dvb/dvbconfigdialog.cpp:1096
 msgid "Universal LNB"
 msgstr "LNB Gerdûnî "
 
-#: dvb/dvbconfigdialog.cpp:1080
+#: dvb/dvbconfigdialog.cpp:1100
 msgid "C-band LNB"
 msgstr "C-band LNB"
 
-#: dvb/dvbconfigdialog.cpp:1084
+#: dvb/dvbconfigdialog.cpp:1104
 #, fuzzy
 #| msgid "C-band multipoint LNB"
 msgid "C-band Multipoint LNB"
 msgstr "C-band LNB a pir-xal "
 
-#: dvb/dvbconfigdialog.cpp:1088
+#: dvb/dvbconfigdialog.cpp:1108
 msgid "Custom LNB"
 msgstr "LNB a bijare "
 
-#: dvb/dvbconfigdialog.cpp:1099
+#: dvb/dvbconfigdialog.cpp:1119
 msgid "Switch frequency (MHz)"
 msgstr "Derbasbûna frekansê (MHz)"
 
-#: dvb/dvbconfigdialog.cpp:1172
+#: dvb/dvbconfigdialog.cpp:1192
 msgid "Low band LOF (MHz)"
 msgstr "Banda hêdî ya LOF (MHz)"
 
-#: dvb/dvbconfigdialog.cpp:1177
+#: dvb/dvbconfigdialog.cpp:1197
 msgid "High band LOF (MHz)"
 msgstr "Banda lêz ya LOF (MHz)"
 
-#: dvb/dvbconfigdialog.cpp:1183
+#: dvb/dvbconfigdialog.cpp:1203
 msgid "Horizontal LOF (MHz)"
 msgstr "LOF a berwarî (MHz)"
 
-#: dvb/dvbconfigdialog.cpp:1188
+#: dvb/dvbconfigdialog.cpp:1208
 msgid "Vertical LOF (MHz)"
 msgstr "LOF a tîkane (MHz)"
 
-#: dvb/dvbconfigdialog.cpp:1194
+#: dvb/dvbconfigdialog.cpp:1214
 msgid "LOF (MHz)"
 msgstr "LOF (MHz)"
 
