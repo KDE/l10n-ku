@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-08-30 02:24+0000\n"
+"POT-Creation-Date: 2015-09-02 08:34+0000\n"
 "PO-Revision-Date: 2007-12-17 01:37+0100\n"
 "Last-Translator: Erdal Ronahi <erdal.ronahi@nospam.gmail.com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
@@ -7191,14 +7191,14 @@ msgctxt "Comment"
 msgid "Kexi Project Handlers"
 msgstr ""
 
-#: kexi/formeditor/factories/kformdesigner_containers.desktop:5
+#: kexi/formeditor/factories/kexiforms_standardwidgetsplugin.desktop:2
 msgctxt "Name"
-msgid "Container Widgets"
+msgid "Standard Widgets"
 msgstr ""
 
-#: kexi/formeditor/factories/kformdesigner_stdwidgets.desktop:5
-msgctxt "Name"
-msgid "Basic Widgets"
+#: kexi/formeditor/factories/kexiforms_standardwidgetsplugin.desktop:3
+msgctxt "Comment"
+msgid "Kexi plugin providing standard form widgets"
 msgstr ""
 
 #: kexi/formeditor/widgetfactory.desktop:4
@@ -7213,12 +7213,12 @@ msgstr ""
 
 #: kexi/kexi.desktop:65
 msgctxt "GenericName"
-msgid "Database Creator"
+msgid "Visual database apps builder"
 msgstr ""
 
 #: kexi/kexi.desktop:122
 msgctxt "Comment"
-msgid "Develop desktop database applications"
+msgid "Visually develop database applications"
 msgstr ""
 
 #: kexi/migration/keximigration_driver.desktop:4
@@ -7281,34 +7281,54 @@ msgctxt "Comment"
 msgid "xBase Import Plugin for Kexi"
 msgstr ""
 
-#: kexi/plugins/forms/kexiformhandler.desktop:5
-msgctxt "GenericName"
-msgid "Forms"
-msgstr ""
-
-#: kexi/plugins/forms/kexiformhandler.desktop:66
+#: kexi/plugins/forms/kexi_formplugin.desktop:2
 msgctxt "Name"
 msgid "Form"
 msgstr ""
 
-#: kexi/plugins/forms/kformdesigner_kexidbfactory.desktop:5
-msgctxt "Name"
-msgid "Widgets Plugin for Kexi Forms"
+#: kexi/plugins/forms/kexi_formplugin.desktop:3
+msgctxt "Comment"
+msgid "Kexi plugin for handling forms"
 msgstr ""
 
-#: kexi/plugins/forms/widgets/mapbrowser/kformdesigner_mapbrowser.desktop:5
+#: kexi/plugins/forms/kexiforms_dbwidgetsplugin.desktop:2
 msgctxt "Name"
-msgid "Map Browser Plugin for Kexi Forms"
+msgid "Database Widgets"
 msgstr ""
 
-#: kexi/plugins/forms/widgets/webbrowser/kformdesigner_webbrowser.desktop:7
-msgctxt "Name"
-msgid "Web Browser Plugin for Kexi Forms"
+#: kexi/plugins/forms/kexiforms_dbwidgetsplugin.desktop:3
+msgctxt "Comment"
+msgid "Kexi plugin providing database form widgets"
 msgstr ""
 
-#: kexi/plugins/importexport/csv/kexicsv_importexporthandler.desktop:5
+#: kexi/plugins/forms/widgets/mapbrowser/kexiforms_mapwidgetplugin.desktop:2
 msgctxt "Name"
-msgid "Kexi CSV Data Import/Export Plugin"
+msgid "Map Widget"
+msgstr ""
+
+#: kexi/plugins/forms/widgets/mapbrowser/kexiforms_mapwidgetplugin.desktop:3
+msgctxt "Comment"
+msgid "Kexi plugin providing map browser form widget"
+msgstr ""
+
+#: kexi/plugins/forms/widgets/webbrowser/kexiforms_webbrowserwidgetplugin.desktop:2
+msgctxt "Name"
+msgid "Web Browser Widget"
+msgstr ""
+
+#: kexi/plugins/forms/widgets/webbrowser/kexiforms_webbrowserwidgetplugin.desktop:3
+msgctxt "Comment"
+msgid "Kexi plugin providing web browser form widget"
+msgstr ""
+
+#: kexi/plugins/importexport/csv/kexi_csvimportexportplugin.desktop:2
+msgctxt "Name"
+msgid "CSV import/export"
+msgstr ""
+
+#: kexi/plugins/importexport/csv/kexi_csvimportexportplugin.desktop:3
+msgctxt "Comment"
+msgid "Kexi Plugin for CSV data import/export"
 msgstr ""
 
 #: kexi/plugins/migration/keximigrationhandler.desktop:5
@@ -7321,24 +7341,24 @@ msgctxt "Name"
 msgid "Migration Plugin"
 msgstr ""
 
-#: kexi/plugins/queries/kexiqueryhandler.desktop:5
-msgctxt "GenericName"
-msgid "Queries"
-msgstr ""
-
-#: kexi/plugins/queries/kexiqueryhandler.desktop:66
+#: kexi/plugins/queries/kexi_queryplugin.desktop:2
 msgctxt "Name"
 msgid "Query"
 msgstr ""
 
-#: kexi/plugins/reports/kexireporthandler.desktop:4
-msgctxt "GenericName"
-msgid "Reports"
+#: kexi/plugins/queries/kexi_queryplugin.desktop:40
+msgctxt "Comment"
+msgid "Kexi plugin for handling queries"
 msgstr ""
 
-#: kexi/plugins/reports/kexireporthandler.desktop:65
+#: kexi/plugins/reports/kexi_reportplugin.desktop:2
 msgctxt "Name"
 msgid "Report"
+msgstr ""
+
+#: kexi/plugins/reports/kexi_reportplugin.desktop:3
+msgctxt "Comment"
+msgid "Kexi plugin for handling reports"
 msgstr ""
 
 #: kexi/plugins/scripting/kexiscripting/kexiscripthandler.desktop:5
@@ -7351,14 +7371,14 @@ msgctxt "Name"
 msgid "Script"
 msgstr ""
 
-#: kexi/plugins/tables/kexitablehandler.desktop:5
-msgctxt "GenericName"
-msgid "Tables"
-msgstr ""
-
-#: kexi/plugins/tables/kexitablehandler.desktop:67
+#: kexi/plugins/tables/kexi_tableplugin.desktop:2
 msgctxt "Name"
 msgid "Table"
+msgstr ""
+
+#: kexi/plugins/tables/kexi_tableplugin.desktop:3
+msgctxt "Comment"
+msgid "Kexi plugin for handling tables"
 msgstr ""
 
 #: krita/data/krita_brush.desktop:4
