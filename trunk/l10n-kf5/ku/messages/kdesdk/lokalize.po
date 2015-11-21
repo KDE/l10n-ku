@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaider\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-11-15 08:42+0000\n"
+"POT-Creation-Date: 2015-11-21 10:25+0000\n"
 "PO-Revision-Date: 2008-09-24 02:55+0300\n"
 "Last-Translator: Erdal Ronahi <erdal.ronahi@nospam.gmail.com>\n"
 "Language-Team: American English <kde-i18n-doc@lists.kde.org>\n"
@@ -88,7 +88,7 @@ msgstr ""
 msgid "Generates translated version of ODF document"
 msgstr ""
 
-#: src/alttransview.cpp:52 src/alttransview.cpp:55
+#: src/alttransview.cpp:53 src/alttransview.cpp:56
 #, fuzzy
 #| msgctxt "@action:inmenu"
 #| msgid "Manage translation memories"
@@ -96,7 +96,18 @@ msgctxt "@title:window"
 msgid "Alternate Translations"
 msgstr "Bîrên wergeran birêvebibe"
 
-#: src/alttransview.cpp:258
+#: src/alttransview.cpp:180
+msgid ""
+"There is useful data available in Alternate Translations view.\n"
+"\n"
+"For Gettext PO files it displays difference between current source text and "
+"the source text corresponding to the fuzzy translation found by msgmerge "
+"when updating PO based on POT template.\n"
+"\n"
+"Do you want to show the view with the data?"
+msgstr ""
+
+#: src/alttransview.cpp:268
 msgctxt "@info:tooltip"
 msgid ""
 "<p>Sometimes, if source text is changed, its translation becomes deprecated "
@@ -111,13 +122,13 @@ msgid ""
 "source for additional alternate translations.</p>"
 msgstr ""
 
-#: src/alttransview.cpp:279
+#: src/alttransview.cpp:289
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Origin: %1"
 msgstr ""
 
-#: src/alttransview.cpp:302
+#: src/alttransview.cpp:312
 #, fuzzy
 #| msgctxt "@action:inmenu"
 #| msgid "Manage translation memories"
