@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-12-16 07:18+0000\n"
+"POT-Creation-Date: 2015-12-17 07:45+0000\n"
 "PO-Revision-Date: 2009-01-06 03:15+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <gnu-ku-wergerandin at lists dot sourceforge dot "
@@ -574,7 +574,11 @@ msgstr ""
 msgid "Exit after the session application, which is started by KWin, closed."
 msgstr ""
 
-#: main_wayland.cpp:567
+#: main_wayland.cpp:568 main_x11.cpp:285
+msgid "Disable KActivities integration."
+msgstr ""
+
+#: main_wayland.cpp:573
 msgid "Applications to start once Wayland and Xwayland server are started"
 msgstr ""
 
@@ -974,7 +978,7 @@ msgstr "Biçe Sermase ya Jêrê"
 msgid "Switch to Desktop %1"
 msgstr "Biçe Sermase ya 1ê"
 
-#: workspace.cpp:1306
+#: workspace.cpp:1305
 msgctxt "Introductory text shown in the support information."
 msgid ""
 "KWin Support Information:\n"
