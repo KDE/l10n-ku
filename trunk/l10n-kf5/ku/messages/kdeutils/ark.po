@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-12-29 08:19+0000\n"
+"POT-Creation-Date: 2016-01-05 09:08+0000\n"
 "PO-Revision-Date: 2007-12-22 09:56+0100\n"
 "Last-Translator: Erdal Ronahi <erdal.ronahi@nospam.gmail.com>\n"
 "Language-Team: Kurdish <gnu-ku-wergerandin at lists dot sourceforge dot "
@@ -348,25 +348,25 @@ msgstr ""
 msgid "Incorrect password."
 msgstr ""
 
-#: kerfuffle/createdialog.cpp:132
+#: kerfuffle/createdialog.cpp:133
 msgid "The chosen password does not match the given verification password."
 msgstr ""
 
-#: kerfuffle/createdialog.cpp:160
+#: kerfuffle/createdialog.cpp:161
 msgid "Please select a filename for the archive."
 msgstr ""
 
-#: kerfuffle/createdialog.cpp:160
+#: kerfuffle/createdialog.cpp:161
 msgid "No file selected"
 msgstr ""
 
-#: kerfuffle/createdialog.cpp:200
+#: kerfuffle/createdialog.cpp:201
 #, kde-format
 msgid ""
 "Protection of the archive with password is not possible with the %1 format."
 msgstr ""
 
-#: kerfuffle/createdialog.cpp:212
+#: kerfuffle/createdialog.cpp:213
 #, kde-format
 msgid "Protection of the list of files is not possible with the %1 format."
 msgstr ""
@@ -639,30 +639,39 @@ msgstr ""
 #: kerfuffle/queries.cpp:218
 msgctxt "@info"
 msgid ""
-"Corrupt archive detected. Do you want Ark to attempt loading the archive?<nl/"
-"><nl/>Some files may be missing or damaged, and the archive will be opened "
-"read-only."
+"The archive you're trying to open is corrupt.<nl/>Some files may be missing "
+"or damaged."
 msgstr ""
 
-#: kerfuffle/queries.cpp:221
+#: kerfuffle/queries.cpp:220
 #, fuzzy
 #| msgid "Open an archive"
 msgctxt "@title:window"
 msgid "Corrupt archive"
 msgstr "Arşîvekê veke"
 
-#: kerfuffle/queries.cpp:241
-msgid "Error during extraction"
+#: kerfuffle/queries.cpp:221
+msgctxt "@action:button"
+msgid "Open as Read-Only"
+msgstr ""
+
+#: kerfuffle/queries.cpp:222
+msgctxt "@action:button"
+msgid "Don't Open"
 msgstr ""
 
 #: kerfuffle/queries.cpp:242
+msgid "Error during extraction"
+msgstr ""
+
+#: kerfuffle/queries.cpp:243
 #, kde-format
 msgid ""
 "Extraction of the entry:<nl/>    <filename>%1</filename><nl/>failed with the "
 "error message:<nl/>    %2<nl/><nl/>Do you want to continue extraction?<nl/>"
 msgstr ""
 
-#: kerfuffle/queries.cpp:248
+#: kerfuffle/queries.cpp:249
 msgid "Don't ask again."
 msgstr ""
 
@@ -995,7 +1004,7 @@ msgctxt "@info"
 msgid "The archive <filename>%1</filename> was not found."
 msgstr ""
 
-#: part/part.cpp:483 part/part.cpp:502 part/part.cpp:509 part/part.cpp:574
+#: part/part.cpp:483 part/part.cpp:502 part/part.cpp:509 part/part.cpp:579
 #, fuzzy
 #| msgid "Open an archive"
 msgctxt "@title:window"
@@ -1027,21 +1036,21 @@ msgid ""
 "are installed."
 msgstr ""
 
-#: part/part.cpp:555
+#: part/part.cpp:560
 #, fuzzy
 #| msgid "Extracting one file"
 #| msgid_plural "Extracting %1 files"
 msgid "Extraction settings"
 msgstr "Pelek tê derxistin"
 
-#: part/part.cpp:556
+#: part/part.cpp:561
 #, fuzzy
 #| msgctxt "to preview a file inside an archive"
 #| msgid "Pre&view"
 msgid "Preview settings"
 msgstr "P&êşdîtin"
 
-#: part/part.cpp:571
+#: part/part.cpp:576
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1049,54 +1058,54 @@ msgid ""
 "<nl/><nl/><message>%2</message>"
 msgstr ""
 
-#: part/part.cpp:650
+#: part/part.cpp:655
 msgid "Ark cannot open symlinks."
 msgstr ""
 
-#: part/part.cpp:762
+#: part/part.cpp:767
 #, kde-format
 msgid ""
 "The file <filename>%1</filename> was modified. Do you want to update the "
 "archive?"
 msgstr ""
 
-#: part/part.cpp:764
+#: part/part.cpp:769
 msgid "File modified"
 msgstr ""
 
-#: part/part.cpp:1023
+#: part/part.cpp:1028
 #, fuzzy
 #| msgid "Add Files"
 msgctxt "@title:window"
 msgid "Add Files"
 msgstr "Pelan Lê Zêde Bike"
 
-#: part/part.cpp:1030
+#: part/part.cpp:1035
 #, fuzzy
 #| msgid "Add Folder"
 msgctxt "@title:window"
 msgid "Add Folder"
 msgstr "Peldank Lê Zêde Bike"
 
-#: part/part.cpp:1055
+#: part/part.cpp:1060
 msgid "Deleting these files is not undoable. Are you sure you want to do this?"
 msgstr ""
 
-#: part/part.cpp:1056
+#: part/part.cpp:1061
 #, fuzzy
 #| msgid "Add Files"
 msgctxt "@title:window"
 msgid "Delete files"
 msgstr "Pelan Lê Zêde Bike"
 
-#: part/part.cpp:1088
+#: part/part.cpp:1093
 #, fuzzy
 #| msgid "Open an archive"
 msgctxt "@title:window"
 msgid "Save Archive As"
 msgstr "Arşîvekê veke"
 
-#: part/part.cpp:1095
+#: part/part.cpp:1100
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1104,7 +1113,7 @@ msgid ""
 "want to overwrite it?"
 msgstr ""
 
-#: part/part.cpp:1109
+#: part/part.cpp:1114
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1112,7 +1121,7 @@ msgid ""
 "location. The archive does not exist anymore."
 msgstr ""
 
-#: part/part.cpp:1123
+#: part/part.cpp:1128
 #, kde-format
 msgctxt "@info"
 msgid ""
