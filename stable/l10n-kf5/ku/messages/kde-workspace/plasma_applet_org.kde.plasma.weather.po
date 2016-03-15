@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_weather\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-03-02 07:46+0000\n"
+"POT-Creation-Date: 2016-03-15 13:12+0000\n"
 "PO-Revision-Date: 2009-01-12 03:03+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -20,71 +20,73 @@ msgstr ""
 "X-Poedit-SourceCharset: utf8\n"
 
 #: package/contents/config/config.qml:24
-msgid "General"
+#, fuzzy
+#| msgid "Weather Units"
+msgid "Weather Station"
+msgstr "Yeka yên Hewayê"
+
+#: package/contents/config/config.qml:29
+msgid "Units"
+msgstr "Yeke"
+
+#: package/contents/ui/configUnits.qml:67
+#, fuzzy
+#| msgid "&Temperature unit"
+msgid "Temperature:"
+msgstr "Yeke ya &Germahiyê"
+
+#: package/contents/ui/configUnits.qml:84
+#, fuzzy
+#| msgid "&Pressure unit"
+msgid "Pressure:"
+msgstr "Yeke ya &Pestoyê"
+
+#: package/contents/ui/configUnits.qml:101
+msgid "Wind speed:"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:84 plugin/locationlistmodel.cpp:152
+#: package/contents/ui/configUnits.qml:118
+#, fuzzy
+#| msgid "Visibility: %1"
+msgid "Visibility:"
+msgstr "Xuyanî bûn: %1"
+
+#: package/contents/ui/configWeatherStation.qml:57
+#, kde-format
+msgid "No weather stations found for '%1'"
+msgstr ""
+
+#: package/contents/ui/configWeatherStation.qml:69
+#: plugin/locationlistmodel.cpp:80
 #, fuzzy, kde-format
 #| msgid "%1 %2%3"
 msgctxt "A weather station location and the weather service it comes from"
 msgid "%1 (%2)"
 msgstr "%1 %2%3"
 
-#: package/contents/ui/configGeneral.qml:106
-#, fuzzy
-#| msgid "Weather Units"
-msgid "Weather Station"
-msgstr "Yeka yên Hewayê"
-
-#: package/contents/ui/configGeneral.qml:118
+#: package/contents/ui/configWeatherStation.qml:90
 #, fuzzy
 #| msgid "Location"
 msgid "Location:"
 msgstr "Cih"
 
-#: package/contents/ui/configGeneral.qml:147
+#: package/contents/ui/configWeatherStation.qml:128
 #, fuzzy
 #| msgid "&Search"
 msgid "Search"
 msgstr "&Lêgere"
 
-#: package/contents/ui/configGeneral.qml:156
+#: package/contents/ui/configWeatherStation.qml:167
 #, fuzzy
 #| msgid "Update every"
 msgid "Update every:"
 msgstr "Rojane bike her"
 
-#: package/contents/ui/configGeneral.qml:163
+#: package/contents/ui/configWeatherStation.qml:174
 #, fuzzy
 #| msgid " minutes"
 msgid " min"
 msgstr " xulek"
-
-#: package/contents/ui/configGeneral.qml:173
-msgid "Units"
-msgstr "Yeke"
-
-#: package/contents/ui/configGeneral.qml:184
-#, fuzzy
-#| msgid "&Temperature unit"
-msgid "Temperature:"
-msgstr "Yeke ya &Germahiyê"
-
-#: package/contents/ui/configGeneral.qml:200
-#, fuzzy
-#| msgid "&Pressure unit"
-msgid "Pressure:"
-msgstr "Yeke ya &Pestoyê"
-
-#: package/contents/ui/configGeneral.qml:216
-msgid "Wind speed:"
-msgstr ""
-
-#: package/contents/ui/configGeneral.qml:232
-#, fuzzy
-#| msgid "Visibility: %1"
-msgid "Visibility:"
-msgstr "Xuyanî bûn: %1"
 
 #: package/contents/ui/main.qml:81
 #, fuzzy
@@ -111,11 +113,6 @@ msgstr "Tiştên Hişyariyê:"
 msgctxt "weather watches"
 msgid "Watches Issued:"
 msgstr "Tiştên Nihêrînê:"
-
-#: plugin/locationlistmodel.cpp:165
-#, kde-format
-msgid "No weather stations found for '%1'"
-msgstr ""
 
 #: plugin/plugin.cpp:34
 #, fuzzy
@@ -209,6 +206,12 @@ msgstr ""
 msgctxt "temperature, unit"
 msgid "%1%2"
 msgstr "%1%2"
+
+#: weatherapplet.cpp:99
+#, fuzzy
+#| msgid "N/A"
+msgid "N/A"
+msgstr "Ne-Çalak"
 
 #: weatherapplet.cpp:148
 #, fuzzy, kde-format
