@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-03-08 08:28+0000\n"
+"POT-Creation-Date: 2016-03-15 09:00+0000\n"
 "PO-Revision-Date: 2009-01-06 14:34+0200\n"
 "Last-Translator: Erdal Ronahi <erdal.ronahi@nospam.gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -5872,29 +5872,42 @@ msgstr ""
 msgid "Choose the name of the program with which to open the selected files."
 msgstr ""
 
-#: widgets/kopenwithdialog.cpp:532
+#: widgets/kopenwithdialog.cpp:518
+#, kde-format
+msgid "<qt>Select the program you want to use to open the file<br/>%1</qt>"
+msgstr ""
+
+#: widgets/kopenwithdialog.cpp:520
+#, kde-format
+msgid "<qt>Select the program you want to use to open the file.</qt>"
+msgid_plural ""
+"<qt>Select the program you want to use to open the %1 files.</qt>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: widgets/kopenwithdialog.cpp:524 widgets/kopenwithdialog.cpp:553
+msgid "Choose Application"
+msgstr ""
+
+#: widgets/kopenwithdialog.cpp:535
 #, kde-format
 msgid "Choose Application for %1"
 msgstr ""
 
-#: widgets/kopenwithdialog.cpp:533
+#: widgets/kopenwithdialog.cpp:536
 #, kde-format
 msgid ""
 "<qt>Select the program for the file type: <b>%1</b>. If the program is not "
 "listed, enter the name or click the browse button.</qt>"
 msgstr ""
 
-#: widgets/kopenwithdialog.cpp:550
-msgid "Choose Application"
-msgstr ""
-
-#: widgets/kopenwithdialog.cpp:551
+#: widgets/kopenwithdialog.cpp:554
 msgid ""
 "<qt>Select a program. If the program is not listed, enter the name or click "
 "the browse button.</qt>"
 msgstr ""
 
-#: widgets/kopenwithdialog.cpp:612
+#: widgets/kopenwithdialog.cpp:615
 msgid ""
 "Following the command, you can have several place holders which will be "
 "replaced with the actual values when the actual program is run:\n"
@@ -5910,29 +5923,29 @@ msgid ""
 "%c - the comment"
 msgstr ""
 
-#: widgets/kopenwithdialog.cpp:647
+#: widgets/kopenwithdialog.cpp:650
 msgid "Run in &terminal"
 msgstr ""
 
-#: widgets/kopenwithdialog.cpp:665
+#: widgets/kopenwithdialog.cpp:668
 msgid "&Do not close when command exits"
 msgstr ""
 
-#: widgets/kopenwithdialog.cpp:682
+#: widgets/kopenwithdialog.cpp:685
 #, kde-format
 msgid ""
 "&Remember application association for all files of type\n"
 "\"%1\" (%2)"
 msgstr ""
 
-#: widgets/kopenwithdialog.cpp:836
+#: widgets/kopenwithdialog.cpp:839
 #, kde-format
 msgid ""
 "Could not extract executable name from '%1', please type a valid program "
 "name."
 msgstr ""
 
-#: widgets/kopenwithdialog.cpp:886
+#: widgets/kopenwithdialog.cpp:889
 #, kde-format
 msgid "'%1' not found, please type a valid program name."
 msgstr ""
@@ -6731,10 +6744,6 @@ msgstr ""
 
 #: widgets/krun.cpp:239
 msgid "You are not authorized to select an application to open this file."
-msgstr ""
-
-#: widgets/krun.cpp:250
-msgid "Open with:"
 msgstr ""
 
 #: widgets/krun.cpp:300
