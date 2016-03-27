@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_battery\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-03-10 07:59+0000\n"
+"POT-Creation-Date: 2016-03-27 07:27+0000\n"
 "PO-Revision-Date: 2008-12-26 00:33+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
@@ -24,59 +24,59 @@ msgstr ""
 #, fuzzy
 #| msgctxt "Shown when a time estimate is not available"
 #| msgid "<b>Battery:</b> %1% (discharging)<br />"
-msgid "Not Charging"
-msgstr "<b>Pîl:</b> %1% (şarj tê vala kirin)<br />"
-
-#: package/contents/code/logic.js:26
-#, fuzzy
-#| msgctxt "Shown when a time estimate is not available"
-#| msgid "<b>Battery:</b> %1% (discharging)<br />"
 msgid "Discharging"
 msgstr "<b>Pîl:</b> %1% (şarj tê vala kirin)<br />"
 
-#: package/contents/code/logic.js:27 package/contents/ui/batterymonitor.qml:58
+#: package/contents/code/logic.js:26 package/contents/ui/batterymonitor.qml:58
 #, fuzzy
 #| msgid "<b>Battery:</b> %1% (fully charged)<br />"
 msgid "Fully Charged"
 msgstr "<b>Pîl:</b> %1% (şarj tijî bû)<br />"
 
-#: package/contents/code/logic.js:28
+#: package/contents/code/logic.js:27
 #, fuzzy
 #| msgctxt "Shown when a time estimate is not available"
 #| msgid "<b>Battery:</b> %1% (discharging)<br />"
 msgid "Charging"
 msgstr "<b>Pîl:</b> %1% (şarj tê vala kirin)<br />"
 
-#: package/contents/code/logic.js:31
+#: package/contents/code/logic.js:29
+#, fuzzy
+#| msgctxt "Shown when a time estimate is not available"
+#| msgid "<b>Battery:</b> %1% (discharging)<br />"
+msgid "Not Charging"
+msgstr "<b>Pîl:</b> %1% (şarj tê vala kirin)<br />"
+
+#: package/contents/code/logic.js:32
 #, fuzzy
 #| msgid "Plugged in"
 msgctxt "Battery is currently not present in the bay"
 msgid "Not present"
 msgstr "Tê de"
 
-#: package/contents/code/logic.js:39
+#: package/contents/code/logic.js:40
 msgid "Time To Full:"
 msgstr ""
 
-#: package/contents/code/logic.js:39
+#: package/contents/code/logic.js:40
 msgid "Time To Empty:"
 msgstr ""
 
-#: package/contents/code/logic.js:44
+#: package/contents/code/logic.js:45
 msgid "Capacity:"
 msgstr ""
 
-#: package/contents/code/logic.js:45
+#: package/contents/code/logic.js:46
 #, kde-format
 msgctxt "Placeholder is battery capacity"
 msgid "%1%"
 msgstr ""
 
-#: package/contents/code/logic.js:51
+#: package/contents/code/logic.js:52
 msgid "Vendor:"
 msgstr ""
 
-#: package/contents/code/logic.js:56
+#: package/contents/code/logic.js:57
 msgid "Model:"
 msgstr ""
 
@@ -97,37 +97,50 @@ msgstr ""
 msgid "No Batteries Available"
 msgstr ""
 
-#: package/contents/ui/batterymonitor.qml:60
+#: package/contents/ui/batterymonitor.qml:63
 #, fuzzy, kde-format
 #| msgctxt "Shown when a time estimate is not available"
 #| msgid "<b>Battery:</b> %1% (discharging)<br />"
 msgid "%1%. Charging"
 msgstr "<b>Pîl:</b> %1% (şarj tê vala kirin)<br />"
 
-#: package/contents/ui/batterymonitor.qml:63
+#: package/contents/ui/batterymonitor.qml:65
+#, fuzzy, kde-format
+#| msgctxt "Shown when a time estimate is not available"
+#| msgid "<b>Battery:</b> %1% (discharging)<br />"
+msgid "%1%. Plugged in, not Charging"
+msgstr "<b>Pîl:</b> %1% (şarj tê vala kirin)<br />"
+
+#: package/contents/ui/batterymonitor.qml:67
+#, fuzzy, kde-format
+#| msgid "Plugged in"
+msgid "%1%. Plugged in"
+msgstr "Tê de"
+
+#: package/contents/ui/batterymonitor.qml:71
 #, kde-format
 msgctxt "%1 is remaining time, %2 is percentage"
 msgid "%1 Remaining (%2%)"
 msgstr ""
 
-#: package/contents/ui/batterymonitor.qml:67
+#: package/contents/ui/batterymonitor.qml:75
 #, kde-format
 msgid "%1% Battery Remaining"
 msgstr ""
 
-#: package/contents/ui/batterymonitor.qml:71
+#: package/contents/ui/batterymonitor.qml:79
 #, fuzzy
 #| msgid "Power Management"
 msgid "Power management is disabled"
 msgstr "Rêveberiya Hezê"
 
-#: package/contents/ui/batterymonitor.qml:117
+#: package/contents/ui/batterymonitor.qml:125
 #, fuzzy
 #| msgid "More..."
 msgid "&Configure Power Saving..."
 msgstr "Zêdetir..."
 
-#: package/contents/ui/batterymonitor.qml:221
+#: package/contents/ui/batterymonitor.qml:229
 msgid "The battery applet has enabled system-wide inhibition"
 msgstr ""
 
@@ -317,12 +330,6 @@ msgstr ""
 #~ msgctxt "tooltip"
 #~ msgid "<b>AC Adapter:</b>"
 #~ msgstr "<b>Adaptorê AC:</b> Girêdayî ye"
-
-#, fuzzy
-#~| msgid "Plugged in"
-#~ msgctxt "tooltip"
-#~ msgid "Plugged in"
-#~ msgstr "Tê de"
 
 #, fuzzy
 #~| msgid "Plugged in"
