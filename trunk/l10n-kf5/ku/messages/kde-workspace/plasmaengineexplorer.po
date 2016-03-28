@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasmaengineexplorer\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-10-27 10:17+0000\n"
+"POT-Creation-Date: 2016-03-28 08:33+0000\n"
 "PO-Revision-Date: 2008-12-26 03:29+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
@@ -36,7 +36,7 @@ msgstr "Hemû yan Fireh Bike"
 msgid "Collapse All"
 msgstr "Hemû yan Teng Bike"
 
-#: engineexplorer.cpp:61 main.cpp:69
+#: engineexplorer.cpp:61 main.cpp:73
 msgid "Plasma Engine Explorer"
 msgstr "Kaşîfê Motora Plasmayê"
 
@@ -138,7 +138,9 @@ msgstr "Li gorî daxwazê rojane bike"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, m_updateInterval)
 #: engineexplorer.ui:69
-msgid "ms"
+#, fuzzy
+#| msgid "ms"
+msgid " ms"
 msgstr "mç"
 
 #. i18n: ectx: property (prefix), widget (QSpinBox, m_updateInterval)
@@ -189,53 +191,53 @@ msgstr "Li Daneyê ji hêla MotorênDaneyan a Plasya ve hatiye weşandin Bigere"
 msgid "No description available"
 msgstr ""
 
-#: main.cpp:71
+#: main.cpp:75
 msgid "(c) 2006, The KDE Team"
 msgstr "(c) 2006, Tîma KDE"
 
-#: main.cpp:72
+#: main.cpp:76
 msgid "Aaron J. Seigo"
 msgstr "Aaron J. Seigo"
 
-#: main.cpp:73
+#: main.cpp:77
 msgid "Author and maintainer"
 msgstr "Nivîskar û Pêşdebir"
 
-#: main.cpp:83
+#: main.cpp:87
 msgid "Displays a list of known engines and their descriptions"
 msgstr ""
 
-#: main.cpp:84
+#: main.cpp:88
 msgid "The desired height in pixels"
 msgstr "Pîkselên Nirxbilind tê xwestin"
 
-#: main.cpp:85
+#: main.cpp:89
 msgid "The desired width in pixels"
 msgstr "Firehiya bipîksel tê xwestin"
 
-#: main.cpp:86
+#: main.cpp:90
 msgid "The desired x position in pixels"
 msgstr "X pozîsyona di pîkselê de tê xwestin"
 
-#: main.cpp:87
+#: main.cpp:91
 msgid "The desired y position in pixels"
 msgstr "Y pozîsyona di pîkselê de tê xwestin"
 
-#: main.cpp:88
+#: main.cpp:92
 msgid "The data engine to use"
 msgstr "Motora daneyan a bikaranînê"
 
-#: main.cpp:89
+#: main.cpp:93
 msgid "The source to request"
 msgstr "Çavkanî ji bo xwestinê"
 
-#: main.cpp:90
+#: main.cpp:94
 #, fuzzy
 #| msgid "Update Interval in milliseconds."
 msgid "Update interval in milliseconds"
 msgstr "Di mîlîçirkeyan de rojane bike."
 
-#: main.cpp:91
+#: main.cpp:95
 msgid ""
 "Only show engines associated with the parent application; maps to the X-KDE-"
 "ParentApp entry in the DataEngine's .desktop file."
