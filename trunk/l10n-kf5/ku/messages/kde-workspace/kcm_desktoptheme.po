@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_desktopthemedetails\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-02-08 11:24+0000\n"
+"POT-Creation-Date: 2016-04-18 08:27+0000\n"
 "PO-Revision-Date: 2008-12-28 08:00+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -26,56 +26,60 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "oensari@gmail.com"
 
-#. i18n: ectx: property (text), widget (QPushButton, m_fileInstallButton)
-#: DesktopTheme.ui:35
-msgid "Insta&ll from File"
+#: kcm.cpp:54
+#, fuzzy
+#| msgid "Remove Desktop Theme"
+msgid "Configure Desktop Theme"
+msgstr "Dirba Sermasê Rake"
+
+#: kcm.cpp:56
+msgid "David Rosca"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QPushButton, m_newThemeButton)
-#: DesktopTheme.ui:49
+#: kcm.cpp:121
+msgid "Theme installed successfully."
+msgstr ""
+
+#: kcm.cpp:124 kcm.cpp:131
+msgid "Theme installation failed."
+msgstr ""
+
+#: kcm.cpp:257 kcm.cpp:265
+msgid "Theme removal failed."
+msgstr ""
+
+#: package/contents/ui/main.qml:33
+msgid "This module lets you configure the desktop theme."
+msgstr ""
+
+#: package/contents/ui/main.qml:151
 #, fuzzy
 #| msgid "Get New Theme..."
-msgid "Get New Themes..."
+msgid "Get new Theme"
 msgstr "Temaya Nû Bîne..."
 
-#: kcmdesktoptheme.cpp:52
-msgid ""
-"<h1>Desktop Theme</h1>This module allows you to modify the visual appearance "
-"of the desktop."
+#: package/contents/ui/main.qml:157
+msgid "Install from File"
 msgstr ""
 
-#: kcmdesktoptheme.cpp:61
-#, fuzzy
-#| msgid "Export Desktop Theme"
-msgid "KDE Desktop Theme Module"
-msgstr "Dirbê Sermasê Derxe Derve"
+#: package/contents/ui/main.qml:163
+msgid "Remove Theme"
+msgstr "Temayê Rake"
 
-#: kcmdesktoptheme.cpp:63
-msgid "(c) 2002 Karol Szwed, Daniel Molkentin"
-msgstr ""
-
-#: kcmdesktoptheme.cpp:161
+#: package/contents/ui/main.qml:206
 #, fuzzy
 #| msgid "Theme Item"
 msgid "Open Theme"
 msgstr "Hêmana Dirbê"
 
-#: kcmdesktoptheme.cpp:163
+#: package/contents/ui/main.qml:208
 msgid "Theme Files (*.zip *.tar.gz *.tar.bz2)"
 msgstr ""
 
-#: kcmdesktoptheme.cpp:209
-msgid "Theme installed successfully."
-msgstr ""
-
-#: kcmdesktoptheme.cpp:213
-#, kde-format
-msgid "Theme installation failed. (%1)"
-msgstr ""
-
-#: kcmdesktoptheme.cpp:225
-msgid "Theme installation failed."
-msgstr ""
+#, fuzzy
+#~| msgid "Export Desktop Theme"
+#~ msgid "KDE Desktop Theme Module"
+#~ msgstr "Dirbê Sermasê Derxe Derve"
 
 #, fuzzy
 #~| msgid "Theme Item"
@@ -145,9 +149,6 @@ msgstr ""
 #~ msgstr ""
 #~ "Hêmanên dirbê hatin guherandin. Tu hêj jî dixwazî dirba \"%1\" rakî?"
 
-#~ msgid "Remove Desktop Theme"
-#~ msgstr "Dirba Sermasê Rake"
-
 #, fuzzy
 #~| msgid "Removal of the default KDE theme is not allowed."
 #~ msgid "Removal of the default desktop theme is not allowed."
@@ -205,9 +206,6 @@ msgstr ""
 #~| msgid "Remove Desktop Theme"
 #~ msgid "Remove the selected theme"
 #~ msgstr "Dirba Sermasê Rake"
-
-#~ msgid "Remove Theme"
-#~ msgstr "Temayê Rake"
 
 #~ msgid "Export Theme to File..."
 #~ msgstr "Dirbê Derxe Pelê..."
