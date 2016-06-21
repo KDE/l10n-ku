@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaffeine\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-06-20 08:19+0000\n"
+"POT-Creation-Date: 2016-06-21 08:21+0000\n"
 "PO-Revision-Date: 2008-12-20 16:02+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -455,7 +455,7 @@ msgstr ""
 msgid "Scan channels when idle to fetch fresh EPG data:"
 msgstr ""
 
-#: dvb/dvbconfigdialog.cpp:166 dvb/dvbscandialog.cpp:287
+#: dvb/dvbconfigdialog.cpp:166 dvb/dvbscandialog.cpp:291
 #, fuzzy, kde-format
 #| msgid "Scan file last updated<br>on %1"
 msgid "Scan data last updated on %1"
@@ -823,7 +823,7 @@ msgctxt "@info"
 msgid "No device found."
 msgstr "Tu cihazên lêhatî nedît."
 
-#: dvb/dvbliveview.cpp:378 dvb/dvbscandialog.cpp:440
+#: dvb/dvbliveview.cpp:378 dvb/dvbscandialog.cpp:444
 #, fuzzy
 #| msgid "No suitable device found."
 msgctxt "message box"
@@ -945,69 +945,73 @@ msgstr "Kablo"
 msgid "Channel Scan"
 msgstr "Kanal"
 
-#: dvb/dvbscandialog.cpp:282 dvb/dvbscandialog.cpp:399
+#: dvb/dvbscandialog.cpp:282
+msgid "Search transponders for other Networks"
+msgstr ""
+
+#: dvb/dvbscandialog.cpp:286 dvb/dvbscandialog.cpp:403
 #, fuzzy
 #| msgid "Start scan"
 msgid "Start Scan"
 msgstr "Lê nihêrîn bide destpê kirin"
 
-#: dvb/dvbscandialog.cpp:294
+#: dvb/dvbscandialog.cpp:298
 msgid "Signal:"
 msgstr "Sinyal:"
 
-#: dvb/dvbscandialog.cpp:299
+#: dvb/dvbscandialog.cpp:303
 msgid "SNR:"
 msgstr "SNR:"
 
-#: dvb/dvbscandialog.cpp:304
+#: dvb/dvbscandialog.cpp:308
 msgid "Tuned:"
 msgstr "Eyarkirî:"
 
-#: dvb/dvbscandialog.cpp:317
+#: dvb/dvbscandialog.cpp:321
 msgid "Filter"
 msgstr "Parzûn"
 
-#: dvb/dvbscandialog.cpp:320
+#: dvb/dvbscandialog.cpp:324
 msgid "Free to air"
 msgstr "Azade ku bifire"
 
-#: dvb/dvbscandialog.cpp:323
+#: dvb/dvbscandialog.cpp:327
 msgid "Radio"
 msgstr "Radyo"
 
-#: dvb/dvbscandialog.cpp:326
+#: dvb/dvbscandialog.cpp:330
 msgid "TV"
 msgstr "TV"
 
-#: dvb/dvbscandialog.cpp:329
+#: dvb/dvbscandialog.cpp:333
 msgid "Provider:"
 msgstr "Peydaker:"
 
-#: dvb/dvbscandialog.cpp:337
+#: dvb/dvbscandialog.cpp:341
 #, fuzzy
 #| msgid "Add filtered"
 msgid "Add Filtered"
 msgstr "Yên hatine parzûn kirin lê zêde bike"
 
-#: dvb/dvbscandialog.cpp:341
+#: dvb/dvbscandialog.cpp:345
 #, fuzzy
 #| msgid "Add selected"
 msgid "Add Selected"
 msgstr "Yê hilbijartî lê zêde bike"
 
-#: dvb/dvbscandialog.cpp:347
+#: dvb/dvbscandialog.cpp:351
 #, fuzzy
 #| msgid "Scan results"
 msgid "Scan Results"
 msgstr "Encamên Lê nihêrîn ê"
 
-#: dvb/dvbscandialog.cpp:363
+#: dvb/dvbscandialog.cpp:367
 #, fuzzy
 #| msgid "Current transponder"
 msgid "Current Transponder"
 msgstr "Bersîvdar(sînyalên radyo re) ê heyî"
 
-#: dvb/dvbscandialog.cpp:445
+#: dvb/dvbscandialog.cpp:449
 #, fuzzy
 #| msgid "Stop scan"
 msgid "Stop Scan"
@@ -1072,7 +1076,7 @@ msgctxt "osd"
 msgid "Instant Record Stopped"
 msgstr ""
 
-#: main.cpp:125 mainwindow.cpp:314 mainwindow.cpp:346
+#: main.cpp:125 mainwindow.cpp:319 mainwindow.cpp:351
 #, fuzzy
 #| msgid "Kaffeine Player"
 msgid "Kaffeine"
@@ -1114,194 +1118,194 @@ msgstr "oensari@gmail.com"
 msgid "&1 Play File"
 msgstr "Pelê Lê Bide"
 
-#: mainwindow.cpp:100
+#: mainwindow.cpp:101
 #, fuzzy
 #| msgid "Play Audio CD"
 msgid "&2 Play Audio CD"
 msgstr "CD ya Muzîkê Lê Bide"
 
-#: mainwindow.cpp:105
+#: mainwindow.cpp:107
 #, fuzzy
 #| msgid "Play Video CD"
 msgid "&3 Play Video CD"
 msgstr "CD ya Vîdeoyê Lê Bide"
 
-#: mainwindow.cpp:110
+#: mainwindow.cpp:113
 #, fuzzy
 #| msgid "Play DVD"
 msgid "&4 Play DVD"
 msgstr "DVD Lê bide"
 
-#: mainwindow.cpp:116
+#: mainwindow.cpp:120
 #, fuzzy
 #| msgid "Digital TV"
 msgid "&5 Digital TV"
 msgstr "TV ya Dîjîtal"
 
-#: mainwindow.cpp:174
+#: mainwindow.cpp:179
 msgid "&File"
 msgstr "&Pel"
 
-#: mainwindow.cpp:181
+#: mainwindow.cpp:186
 #, fuzzy
 #| msgid "Open URL"
 msgctxt "@action:inmenu"
 msgid "Open URL..."
 msgstr "URL Veke"
 
-#: mainwindow.cpp:192 mainwindow.cpp:463
+#: mainwindow.cpp:197 mainwindow.cpp:468
 msgid "Play Audio CD"
 msgstr "CD ya Muzîkê Lê Bide"
 
-#: mainwindow.cpp:196 mainwindow.cpp:464
+#: mainwindow.cpp:201 mainwindow.cpp:469
 msgid "Play Video CD"
 msgstr "CD ya Vîdeoyê Lê Bide"
 
-#: mainwindow.cpp:200 mainwindow.cpp:465
+#: mainwindow.cpp:205 mainwindow.cpp:470
 msgid "Play DVD"
 msgstr "DVD Lê bide"
 
-#: mainwindow.cpp:204
+#: mainwindow.cpp:209
 #, fuzzy
 #| msgid "Play DVD"
 msgctxt "@action:inmenu"
 msgid "Play DVD Folder"
 msgstr "DVD Lê bide"
 
-#: mainwindow.cpp:214
+#: mainwindow.cpp:219
 #, fuzzy
 #| msgid "Play"
 msgid "&Playback"
 msgstr "Lê Bide"
 
-#: mainwindow.cpp:217
+#: mainwindow.cpp:222
 #, fuzzy
 #| msgid "Play"
 msgctxt "menu bar"
 msgid "Play&list"
 msgstr "Lê Bide"
 
-#: mainwindow.cpp:221
+#: mainwindow.cpp:226
 msgid "&Television"
 msgstr ""
 
-#: mainwindow.cpp:225
+#: mainwindow.cpp:230
 msgid "&Settings"
 msgstr "&Mîheng"
 
-#: mainwindow.cpp:246
+#: mainwindow.cpp:251
 msgid "Start"
 msgstr "Destpê bide "
 
-#: mainwindow.cpp:247
+#: mainwindow.cpp:252
 #, fuzzy
 #| msgid "Play"
 msgid "Playback"
 msgstr "Lê Bide"
 
-#: mainwindow.cpp:248
+#: mainwindow.cpp:253
 #, fuzzy
 #| msgid "Play"
 msgid "Playlist"
 msgstr "Lê Bide"
 
-#: mainwindow.cpp:250
+#: mainwindow.cpp:255
 msgid "Television"
 msgstr ""
 
-#: mainwindow.cpp:316
+#: mainwindow.cpp:321
 #, fuzzy
 #| msgid "Play File"
 msgid "Play &File"
 msgstr "Pelê Lê Bide"
 
-#: mainwindow.cpp:320
+#: mainwindow.cpp:325
 #, fuzzy
 #| msgid "Play Audio CD"
 msgid "Play &Audio CD"
 msgstr "CD ya Muzîkê Lê Bide"
 
-#: mainwindow.cpp:324
+#: mainwindow.cpp:329
 #, fuzzy
 #| msgid "Play Video CD"
 msgid "Play &Video CD"
 msgstr "CD ya Vîdeoyê Lê Bide"
 
-#: mainwindow.cpp:328
+#: mainwindow.cpp:333
 #, fuzzy
 #| msgid "Play DVD"
 msgid "Play &DVD"
 msgstr "DVD Lê bide"
 
-#: mainwindow.cpp:333
+#: mainwindow.cpp:338
 #, fuzzy
 #| msgid "Digital TV"
 msgid "&Watch Digital TV"
 msgstr "TV ya Dîjîtal"
 
-#: mainwindow.cpp:337
+#: mainwindow.cpp:342
 msgid "&Quit"
 msgstr ""
 
-#: mainwindow.cpp:460
+#: mainwindow.cpp:465
 msgid "Enable debug messages"
 msgstr ""
 
-#: mainwindow.cpp:461
+#: mainwindow.cpp:466
 msgid "The files/URLs opened by the application will be deleted after use"
 msgstr ""
 
-#: mainwindow.cpp:462
+#: mainwindow.cpp:467
 #, fuzzy
 #| msgid "Full Screen Mode"
 msgid "Start in full screen mode"
 msgstr "Moda Dîmender Tijî"
 
-#: mainwindow.cpp:468
+#: mainwindow.cpp:473
 msgctxt "command line option"
 msgid "Dump dvb data (debug option)"
 msgstr ""
 
-#: mainwindow.cpp:469
+#: mainwindow.cpp:474
 #, fuzzy
 #| msgid "Delete channel"
 msgctxt "command line option"
 msgid "Play TV channel"
 msgstr "Kanalê jê bibe"
 
-#: mainwindow.cpp:470
+#: mainwindow.cpp:475
 #, fuzzy
 #| msgid "Delete all"
 msgctxt "command line option"
 msgid "(deprecated option)"
 msgstr "Hemûyan Jê Bibe"
 
-#: mainwindow.cpp:471
+#: mainwindow.cpp:476
 #, fuzzy
 #| msgid "Delete channel"
 msgctxt "command line option"
 msgid "Play last tuned TV channel"
 msgstr "Kanalê jê bibe"
 
-#: mainwindow.cpp:473
+#: mainwindow.cpp:478
 msgid "Files or URLs to play"
 msgstr ""
 
-#: mainwindow.cpp:611
+#: mainwindow.cpp:616
 #, fuzzy
 #| msgid "Open file"
 msgctxt "@title:window"
 msgid "Open files"
 msgstr "Pel veke"
 
-#: mainwindow.cpp:624
+#: mainwindow.cpp:629
 #, fuzzy
 #| msgid "Open URL"
 msgctxt "@title:window"
 msgid "Open URL"
 msgstr "URL Veke"
 
-#: mainwindow.cpp:624
+#: mainwindow.cpp:629
 msgid "Enter a URL:"
 msgstr "URL'ekê binivîse:"
 
