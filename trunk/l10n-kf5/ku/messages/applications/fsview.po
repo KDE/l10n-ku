@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fsview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-11-30 02:25+0100\n"
+"POT-Creation-Date: 2016-08-03 07:04+0000\n"
 "PO-Revision-Date: 2009-01-19 03:54+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -27,114 +27,122 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "oensari@gmail.com"
 
-#: fsview.cpp:50 fsview.cpp:388
+#: fsview.cpp:47 fsview.cpp:428
 msgid "Name"
 msgstr "Nav"
 
-#: fsview.cpp:51
+#: fsview.cpp:48
 msgid "Size"
 msgstr "Mezinahî"
 
-#: fsview.cpp:52
+#: fsview.cpp:49
 msgid "File Count"
 msgstr "Hejmara Pelan"
 
-#: fsview.cpp:53
+#: fsview.cpp:50
 msgid "Directory Count"
 msgstr "Hejmara Peldankan"
 
-#: fsview.cpp:54
+#: fsview.cpp:51
 msgid "Last Modified"
 msgstr "Guherandina Dawî"
 
-#: fsview.cpp:55 fsview.cpp:389
+#: fsview.cpp:52 fsview.cpp:429
 msgid "Owner"
 msgstr "Xwedî"
 
-#: fsview.cpp:56 fsview.cpp:390
+#: fsview.cpp:53 fsview.cpp:430
 msgid "Group"
 msgstr "Kom"
 
-#: fsview.cpp:57 fsview.cpp:391
+#: fsview.cpp:54 fsview.cpp:431
 msgid "Mime Type"
 msgstr "Cureyê Mime"
 
-#: fsview.cpp:273
+#: fsview.cpp:297
 msgid "Go To"
 msgstr "Biçe"
 
-#: fsview.cpp:274 fsview_part.cpp:129
+#: fsview.cpp:298 fsview_part.cpp:128
 msgid "Stop at Depth"
 msgstr "Li Kûrahiyê Rawestîne"
 
-#: fsview.cpp:275 fsview_part.cpp:126
+#: fsview.cpp:299 fsview_part.cpp:125
 msgid "Stop at Area"
 msgstr "Li Qadê Rawestîne"
 
-#: fsview.cpp:276
+#: fsview.cpp:300
 msgid "Stop at Name"
 msgstr "Li Navê Rawestîne"
 
-#: fsview.cpp:282
+#: fsview.cpp:306
 msgid "Go Up"
 msgstr "Biçe Jor"
 
-#: fsview.cpp:284
+#: fsview.cpp:308
 msgid "Stop Refresh"
 msgstr "Nûkirinê Rawestîne"
 
-#: fsview.cpp:286
+#: fsview.cpp:310
 msgid "Refresh"
 msgstr "Nû Bike"
 
-#: fsview.cpp:290
+#: fsview.cpp:315
 #, kde-format
 msgid "Refresh '%1'"
 msgstr "'%1' Nû Bike"
 
-#: fsview.cpp:301 fsview_part.cpp:136
+#: fsview.cpp:327 fsview_part.cpp:135
 msgid "Color Mode"
 msgstr "Moda Rengê"
 
-#: fsview.cpp:304 fsview_part.cpp:132
+#: fsview.cpp:330 fsview_part.cpp:131
 msgid "Visualization"
 msgstr "Zindîkirin"
 
-#: fsview.cpp:386
+#: fsview.cpp:426
 msgid "None"
 msgstr "Ne yek"
 
-#: fsview.cpp:387
+#: fsview.cpp:427
 msgid "Depth"
 msgstr "Kûrahî"
 
-#: fsview_part.cpp:62 main.cpp:21
+#: fsview_part.cpp:60 fsview_part.cpp:102 main.cpp:22
 msgid "FSView"
 msgstr "FSView"
 
-#: fsview_part.cpp:64
+#: fsview_part.cpp:62
 msgid "Filesystem Utilization Viewer"
 msgstr "Nîşanderê Bikaranîna Pergala Pelan"
 
-#: fsview_part.cpp:66
+#: fsview_part.cpp:64
 msgid "(c) 2003-2005, Josef Weidendorfer"
 msgstr "(c) 2003-2005, Josef Weidendorfer"
 
-#: fsview_part.cpp:90
+#: fsview_part.cpp:87
 #, kde-format
 msgid "Read 1 folder, in %2"
 msgid_plural "Read %1 folders, in %2"
 msgstr[0] "1 peldank xwend, di %2 de"
 msgstr[1] "%1 peldank xwend, di %2 de"
 
-#: fsview_part.cpp:95
+#: fsview_part.cpp:91
 #, kde-format
 msgid "1 folder"
 msgid_plural "%1 folders"
 msgstr[0] "1 peldank"
 msgstr[1] "%1 peldank"
 
-#: fsview_part.cpp:110
+#: fsview_part.cpp:103 main.cpp:23
+msgid "Filesystem Viewer"
+msgstr "Nîşanderê Pergala Pelan"
+
+#: fsview_part.cpp:105 main.cpp:25
+msgid "(c) 2002, Josef Weidendorfer"
+msgstr "(c) 2002, Josef Weidendorfer"
+
+#: fsview_part.cpp:109
 msgid ""
 "<p>This is the FSView plugin, a graphical browsing mode showing filesystem "
 "utilization by using a tree map visualization.</p><p>Note that in this mode, "
@@ -149,34 +157,34 @@ msgstr ""
 "vebijêrkên heyî, jê bin pêşeka alîkarî de 'Alîkarî/Rêberê FSView' jê torê "
 "alîkarî bistîne.</p>"
 
-#: fsview_part.cpp:142
+#: fsview_part.cpp:141
 msgid "&FSView Manual"
 msgstr "Rêberê &FSView"
 
-#: fsview_part.cpp:144
+#: fsview_part.cpp:143
 msgid "Show FSView manual"
 msgstr "Rêberê FSView Nîşan Bide"
 
-#: fsview_part.cpp:145
+#: fsview_part.cpp:144
 msgid "Opens the help browser with the FSView documentation"
 msgstr "Geroka alîkariyê bi belgekirina FSView re vedike"
 
-#: fsview_part.cpp:185
+#: fsview_part.cpp:184
 msgctxt "@action:inmenu File"
 msgid "Move to Trash"
 msgstr ""
 
-#: fsview_part.cpp:193
+#: fsview_part.cpp:192
 msgctxt "@action:inmenu File"
 msgid "Delete"
 msgstr ""
 
-#: fsview_part.cpp:198
+#: fsview_part.cpp:197
 msgctxt "@action:inmenu Edit"
 msgid "&Edit File Type..."
 msgstr ""
 
-#: fsview_part.cpp:202
+#: fsview_part.cpp:201
 msgctxt "@action:inmenu File"
 msgid "Properties"
 msgstr ""
@@ -207,167 +215,159 @@ msgstr "&Bibîne"
 msgid "&Help"
 msgstr "&Alîkarî"
 
-#: main.cpp:22
-msgid "Filesystem Viewer"
-msgstr "Nîşanderê Pergala Pelan"
-
-#: main.cpp:24
-msgid "(c) 2002, Josef Weidendorfer"
-msgstr "(c) 2002, Josef Weidendorfer"
-
-#: main.cpp:28
+#: main.cpp:35
 msgid "View filesystem starting from this folder"
 msgstr "Jê vê peldankê ve destpê nîşandana pergala pelê bike"
 
-#: treemap.cpp:1325
+#: treemap.cpp:1453
 #, kde-format
 msgid "Text %1"
 msgstr "Nivîsara %1"
 
-#: treemap.cpp:2857
+#: treemap.cpp:3181
 msgid "Recursive Bisection"
 msgstr "Dubare Cot-beş Kirin"
 
-#: treemap.cpp:2859
+#: treemap.cpp:3183
 msgid "Columns"
 msgstr "Stûn"
 
-#: treemap.cpp:2861
+#: treemap.cpp:3185
 msgid "Rows"
 msgstr "Rêzik"
 
-#: treemap.cpp:2863
+#: treemap.cpp:3187
 msgid "Always Best"
 msgstr "Herdem Baştirîn"
 
-#: treemap.cpp:2865
+#: treemap.cpp:3189
 msgid "Best"
 msgstr "Baştirîn"
 
-#: treemap.cpp:2867
+#: treemap.cpp:3191
 msgid "Alternate (V)"
 msgstr "Guherîne (T)"
 
-#: treemap.cpp:2869
+#: treemap.cpp:3193
 msgid "Alternate (H)"
 msgstr "Alternatîf (B)"
 
-#: treemap.cpp:2871
+#: treemap.cpp:3195
 msgid "Horizontal"
 msgstr "Berwar"
 
-#: treemap.cpp:2873
+#: treemap.cpp:3197
 msgid "Vertical"
 msgstr "Tîkane"
 
-#: treemap.cpp:2908
+#: treemap.cpp:3250
 msgid "Nesting"
 msgstr "Çal Kirin"
 
-#: treemap.cpp:2912
+#: treemap.cpp:3254
 msgid "Border"
 msgstr "Kêlek"
 
-#: treemap.cpp:2915
+#: treemap.cpp:3257
 msgid "Correct Borders Only"
 msgstr "Tenê Kêlekên Rast"
 
-#: treemap.cpp:2918
+#: treemap.cpp:3260
 #, kde-format
 msgid "Width %1"
 msgstr "Firehî %1"
 
-#: treemap.cpp:2920
+#: treemap.cpp:3263
 msgid "Allow Rotation"
 msgstr "Destûr Bide Zivirandinê"
 
-#: treemap.cpp:2921
+#: treemap.cpp:3264
 msgid "Shading"
 msgstr "Sîdar kirin"
 
-#: treemap.cpp:2930
+#: treemap.cpp:3275
 msgid "Visible"
 msgstr "Xuya"
 
-#: treemap.cpp:2931
+#: treemap.cpp:3276
 msgid "Take Space From Children"
 msgstr "Jê Zarokan Cihê Vala Bistîne"
 
-#: treemap.cpp:2935
+#: treemap.cpp:3280
 msgid "Top Left"
 msgstr "Çepê Jor"
 
-#: treemap.cpp:2938
+#: treemap.cpp:3283
 msgid "Top Center"
 msgstr "Navîna Jortirîn"
 
-#: treemap.cpp:2941
+#: treemap.cpp:3286
 msgid "Top Right"
 msgstr "Rastê Jor"
 
-#: treemap.cpp:2944
+#: treemap.cpp:3289
 msgid "Bottom Left"
 msgstr "Çepê Jêr"
 
-#: treemap.cpp:2947
+#: treemap.cpp:3292
 msgid "Bottom Center"
 msgstr "Navîna Jêrtirîn"
 
-#: treemap.cpp:2950
+#: treemap.cpp:3295
 msgid "Bottom Right"
 msgstr "Rastê Jêr"
 
-#: treemap.cpp:3012
+#: treemap.cpp:3364
 #, kde-format
 msgid "No %1 Limit"
 msgstr "Bê Sînora %1"
 
-#: treemap.cpp:3064
+#: treemap.cpp:3424
 msgid "No Area Limit"
 msgstr "Bê Sînora Qad"
 
-#: treemap.cpp:3070
+#: treemap.cpp:3430
 #, kde-format
 msgid "Area of '%1' (%2)"
 msgstr "Qada '%1' (%2)"
 
-#: treemap.cpp:3082 treemap.cpp:3095
+#: treemap.cpp:3442 treemap.cpp:3455
 #, kde-format
 msgid "1 Pixel"
 msgid_plural "%1 Pixels"
 msgstr[0] "%1 Pîksel"
 msgstr[1] "%1 Pîksel"
 
-#: treemap.cpp:3099
+#: treemap.cpp:3459
 #, kde-format
 msgid "Double Area Limit (to %1)"
 msgstr "Sînora Cot Qad (heta %1)"
 
-#: treemap.cpp:3101
+#: treemap.cpp:3461
 #, kde-format
 msgid "Halve Area Limit (to %1)"
 msgstr "Sînora Nîv Qad (heta %1)"
 
-#: treemap.cpp:3133
+#: treemap.cpp:3498
 msgid "No Depth Limit"
 msgstr "Bê Sînora Kûrahî"
 
-#: treemap.cpp:3139
+#: treemap.cpp:3504
 #, kde-format
 msgid "Depth of '%1' (%2)"
 msgstr "Kûrahiya '%1' (%2)"
 
-#: treemap.cpp:3151 treemap.cpp:3164
+#: treemap.cpp:3516 treemap.cpp:3529
 #, kde-format
 msgid "Depth %1"
 msgstr "Kûrahî %1"
 
-#: treemap.cpp:3168
+#: treemap.cpp:3533
 #, kde-format
 msgid "Decrement (to %1)"
 msgstr "Kêmbûyî (heta %1)"
 
-#: treemap.cpp:3170
+#: treemap.cpp:3535
 #, kde-format
 msgid "Increment (to %1)"
 msgstr "Zêdebûyî (heta %1)"
