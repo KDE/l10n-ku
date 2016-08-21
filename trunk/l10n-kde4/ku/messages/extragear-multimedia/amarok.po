@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-06-21 01:49+0000\n"
+"POT-Creation-Date: 2016-08-21 01:31+0000\n"
 "PO-Revision-Date: 2009-02-21 06:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -1728,7 +1728,7 @@ msgstr "Destûr bide ku yekî zêdetir sepanên Amarok bixebitin"
 msgid "Base for relative filenames/URLs"
 msgstr "Bingeh ji bo navên-pelan/URLyan yên nêzî hev"
 
-#: App.cpp:502 configdialog/dialogs/DatabaseConfig.cpp:109
+#: App.cpp:502 configdialog/dialogs/DatabaseConfig.cpp:107
 #, kde-format
 msgid ""
 "The amarok database reported the following errors:\n"
@@ -1737,7 +1737,7 @@ msgid ""
 "properly."
 msgstr ""
 
-#: App.cpp:506 configdialog/dialogs/DatabaseConfig.cpp:113
+#: App.cpp:506 configdialog/dialogs/DatabaseConfig.cpp:111
 #, fuzzy
 #| msgid "Database Name"
 msgid "Database Error"
@@ -2783,30 +2783,30 @@ msgstr ""
 msgid "Transcode tracks:"
 msgstr "Lîsteya Lêdanê yê Rasthatî"
 
-#: configdialog/dialogs/DatabaseConfig.cpp:106
+#: configdialog/dialogs/DatabaseConfig.cpp:104
 msgid "Amarok was able to establish a successful connection to the database."
 msgstr ""
 
-#: configdialog/dialogs/DatabaseConfig.cpp:107
+#: configdialog/dialogs/DatabaseConfig.cpp:105
 #, fuzzy
 #| msgctxt "The operation completed as expected"
 #| msgid "Success"
 msgid "Success"
 msgstr "Serketî "
 
-#: configdialog/dialogs/DatabaseConfig.cpp:139
+#: configdialog/dialogs/DatabaseConfig.cpp:137
 msgid ""
 "Changes to database settings only take\n"
 "effect after Amarok is restarted."
 msgstr ""
 
-#: configdialog/dialogs/DatabaseConfig.cpp:140
+#: configdialog/dialogs/DatabaseConfig.cpp:138
 #, fuzzy
 #| msgid "Rating changed"
 msgid "Database settings changed"
 msgstr "Ecibandin guherî "
 
-#: configdialog/dialogs/DatabaseConfig.cpp:159
+#: configdialog/dialogs/DatabaseConfig.cpp:157
 #, fuzzy
 #| msgid "Password"
 msgctxt ""
@@ -5440,7 +5440,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, advancedButton)
 #: core-impl/collections/audiocd/FormatSelectionDialog.ui:82
-#: widgets/FilenameLayoutWidget.cpp:146
+#: widgets/FilenameLayoutWidget.cpp:147
 msgid "Advanced"
 msgstr "Pêşketî"
 
@@ -9087,22 +9087,22 @@ msgid ""
 "that section will be hidden if the token is empty."
 msgstr ""
 
-#: dialogs/OrganizeCollectionDialog.cpp:314
+#: dialogs/OrganizeCollectionDialog.cpp:311
 #, kde-format
 msgid "Original: %1"
 msgstr ""
 
-#: dialogs/OrganizeCollectionDialog.cpp:315
+#: dialogs/OrganizeCollectionDialog.cpp:312
 #, fuzzy, kde-format
 #| msgid "Preview"
 msgid "Preview: %1"
 msgstr "Pêşdîtin"
 
-#: dialogs/OrganizeCollectionDialog.cpp:381
+#: dialogs/OrganizeCollectionDialog.cpp:378
 msgid "There is a filename conflict, existing files will be overwritten."
 msgstr ""
 
-#: dialogs/OrganizeCollectionDialog.cpp:383
+#: dialogs/OrganizeCollectionDialog.cpp:380
 msgid "There is a filename conflict, existing files will not be changed."
 msgstr ""
 
@@ -16771,8 +16771,10 @@ msgid "Add preset"
 msgstr "Pêş-avakirina nû lê zêde bike"
 
 #: widgets/FilenameLayoutWidget.cpp:93
-msgid "Saves the current scheme/format above as a preset."
-msgstr ""
+#, fuzzy
+#| msgid "Delete the preset."
+msgid "Saves the current scheme/format as new preset."
+msgstr "Pêş-avakirinê jê dibe."
 
 #: widgets/FilenameLayoutWidget.cpp:96
 #, fuzzy
@@ -16780,62 +16782,60 @@ msgstr ""
 msgid "Update preset"
 msgstr "Pêş-avakirinê tomar dike."
 
-#: widgets/FilenameLayoutWidget.cpp:99
+#: widgets/FilenameLayoutWidget.cpp:97
+msgid "Updates the preset with the current scheme/format."
+msgstr ""
+
+#: widgets/FilenameLayoutWidget.cpp:100
 #, fuzzy
 #| msgid "Remove Applet"
 msgid "Remove preset"
 msgstr "Sepanok Rake"
 
-#: widgets/FilenameLayoutWidget.cpp:100
+#: widgets/FilenameLayoutWidget.cpp:101
 #, fuzzy
 #| msgid "Delete the preset."
-msgid "Removes the currently selected format preset"
+msgid "Removes the currently selected preset."
 msgstr "Pêş-avakirinê jê dibe."
 
-#: widgets/FilenameLayoutWidget.cpp:196
+#: widgets/FilenameLayoutWidget.cpp:198
 msgid "Ignore"
 msgstr "Nebîne"
 
-#: widgets/FilenameLayoutWidget.cpp:197
+#: widgets/FilenameLayoutWidget.cpp:199
 msgid "Folder"
 msgstr "Peldank"
 
-#: widgets/FilenameLayoutWidget.cpp:198
+#: widgets/FilenameLayoutWidget.cpp:200
 #, fuzzy
 #| msgid "Initial"
 msgctxt "Artist's Initial"
 msgid "Initial"
 msgstr "Yê pêşîn"
 
-#: widgets/FilenameLayoutWidget.cpp:205
+#: widgets/FilenameLayoutWidget.cpp:207
 msgid "Collection root"
 msgstr "Koka berhevokê"
 
-#: widgets/FilenameLayoutWidget.cpp:276
+#: widgets/FilenameLayoutWidget.cpp:277
 msgid "&Basic..."
 msgstr "&Bingehîn..."
 
-#: widgets/FilenameLayoutWidget.cpp:281
+#: widgets/FilenameLayoutWidget.cpp:282
 msgid "&Advanced..."
 msgstr "&Pêşketî..."
 
-#: widgets/FilenameLayoutWidget.cpp:431
-#, fuzzy
-#| msgid "Playlist name:"
-msgid "New Format Preset"
-msgstr "Navê Lîsteya Lêdanê:"
-
-#: widgets/FilenameLayoutWidget.cpp:431
-#, fuzzy
-#| msgid "Enter preset name:"
-msgid "Preset Name"
-msgstr "Navê pêş-avakirinê têkevê:"
-
-#: widgets/FilenameLayoutWidget.cpp:431
+#: widgets/FilenameLayoutWidget.cpp:432
 #, fuzzy
 #| msgid "Delete the preset."
 msgid "New Preset"
 msgstr "Pêş-avakirinê jê dibe."
+
+#: widgets/FilenameLayoutWidget.cpp:432
+#, fuzzy
+#| msgid "Enter preset name:"
+msgid "Preset Name"
+msgstr "Navê pêş-avakirinê têkevê:"
 
 #: widgets/MetaQueryWidget.cpp:138
 #, fuzzy
@@ -17099,6 +17099,11 @@ msgstr "Hunermend \"%1\""
 #: widgets/TrackSelectWidget.cpp:98
 msgid "empty"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Playlist name:"
+#~ msgid "New Format Preset"
+#~ msgstr "Navê Lîsteya Lêdanê:"
 
 #, fuzzy
 #~| msgid "Remove From Playlist"
