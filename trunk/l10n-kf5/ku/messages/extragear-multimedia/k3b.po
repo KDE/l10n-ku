@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: k3b\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-08-26 06:43+0000\n"
+"POT-Creation-Date: 2016-08-27 07:23+0000\n"
 "PO-Revision-Date: 2009-02-21 07:27+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -3756,13 +3756,20 @@ msgstr "Pêşdîtin"
 msgid "No theme selected"
 msgstr "tu Dirb hilbijartî nîn"
 
-#. i18n: ectx: property (text), widget (QPushButton, m_buttonInstallTheme)
+#. i18n: ectx: property (text), widget (QPushButton, m_buttonGetNewThemes)
 #: option/base_k3bthemeoptiontab.ui:119
+#, fuzzy
+#| msgid "Install New Theme..."
+msgid "Get New Themes..."
+msgstr "Dirbê Nû Saz Bike..."
+
+#. i18n: ectx: property (text), widget (QPushButton, m_buttonInstallTheme)
+#: option/base_k3bthemeoptiontab.ui:126
 msgid "Install New Theme..."
 msgstr "Dirbê Nû Saz Bike..."
 
 #. i18n: ectx: property (text), widget (QPushButton, m_buttonRemoveTheme)
-#: option/base_k3bthemeoptiontab.ui:126
+#: option/base_k3bthemeoptiontab.ui:133
 msgid "Remove Theme"
 msgstr "Dirb Rake"
 
@@ -4217,20 +4224,20 @@ msgstr "Nivîskar"
 msgid "Comment"
 msgstr "Şîrove"
 
-#: option/k3bthemeoptiontab.cpp:97
+#: option/k3bthemeoptiontab.cpp:101
 msgid "K3b - The CD/DVD Kreator"
 msgstr ""
 
-#: option/k3bthemeoptiontab.cpp:117
+#: option/k3bthemeoptiontab.cpp:121
 msgid "Drag or Type Theme URL"
 msgstr "URLya Dirbê Bikişîne li vir an jî Binivîse"
 
-#: option/k3bthemeoptiontab.cpp:139
+#: option/k3bthemeoptiontab.cpp:143
 #, kde-format
 msgid "Unable to find the icon theme archive %1."
 msgstr "Nekarî arşîva dirba îkonê ya %1 bibîne."
 
-#: option/k3bthemeoptiontab.cpp:141
+#: option/k3bthemeoptiontab.cpp:145
 #, kde-format
 msgid ""
 "Unable to download the icon theme archive.\n"
@@ -4239,20 +4246,20 @@ msgstr ""
 "Nekarî arşîva dirba îkonê daxe.\n"
 "Jê kerema xwe navnîşana %1 kontrol bike ka rast e an na."
 
-#: option/k3bthemeoptiontab.cpp:173
+#: option/k3bthemeoptiontab.cpp:177
 msgid "The file is not a valid K3b theme archive."
 msgstr ""
 
-#: option/k3bthemeoptiontab.cpp:182
+#: option/k3bthemeoptiontab.cpp:186
 #, kde-format
 msgid "A theme with the name '%1' already exists. Do you want to overwrite it?"
 msgstr ""
 
-#: option/k3bthemeoptiontab.cpp:184
+#: option/k3bthemeoptiontab.cpp:188
 msgid "Theme exists"
 msgstr "Dirb heye"
 
-#: option/k3bthemeoptiontab.cpp:202
+#: option/k3bthemeoptiontab.cpp:206
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt>Are you sure you want to remove the <strong>%1</strong> icon theme?"
@@ -4264,7 +4271,7 @@ msgstr ""
 "<qt>Tu rastî dixwazî dirba îkonê <strong>%1</strong> rakî?<br /><br />Ev dê "
 "pelên bi vê dirbê re hatine sazkirin jê bibe.</qt>"
 
-#: option/k3bthemeoptiontab.cpp:207
+#: option/k3bthemeoptiontab.cpp:211
 msgid "Delete"
 msgstr "Jê bibe"
 
