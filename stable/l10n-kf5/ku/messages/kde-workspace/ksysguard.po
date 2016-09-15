@@ -1,0 +1,1561 @@
+# translation of ksysguard.po to Kurdish
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Erdal Ronahi <erdal.ronahi@nospam.gmail.com>, 2007, 2008, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: ksysguard\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2016-04-20 07:44+0000\n"
+"PO-Revision-Date: 2009-01-06 14:08+0200\n"
+"Last-Translator: Erdal Ronahi <erdal.ronahi@nospam.gmail.com>\n"
+"Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
+"Language: ku\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: Kurdish\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Omer Ensari"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "oensari@gmail.com"
+
+#: HostConnector.cpp:45
+msgid "Connect Host"
+msgstr ""
+
+#: HostConnector.cpp:58
+msgid "Host:"
+msgstr "Mêvandar:"
+
+#: HostConnector.cpp:68
+msgid "Enter the name of the host you want to connect to."
+msgstr ""
+
+#: HostConnector.cpp:74
+msgid "Connection Type"
+msgstr "Cureyê Girêdanê"
+
+#: HostConnector.cpp:79
+msgid "ssh"
+msgstr "ssh"
+
+#: HostConnector.cpp:82
+msgid "Select this to use the secure shell to login to the remote host."
+msgstr ""
+
+#: HostConnector.cpp:85
+msgid "rsh"
+msgstr "rsh"
+
+#: HostConnector.cpp:86
+msgid "Select this to use the remote shell to login to the remote host."
+msgstr ""
+
+#: HostConnector.cpp:89
+msgid "Daemon"
+msgstr "Sevîs"
+
+#: HostConnector.cpp:90
+msgid ""
+"Select this if you want to connect to a ksysguard daemon that is running on "
+"the machine you want to connect to, and is listening for client requests."
+msgstr ""
+
+#: HostConnector.cpp:93
+msgid "Custom command"
+msgstr "Fermana bijare"
+
+#: HostConnector.cpp:94
+msgid ""
+"Select this to use the command you entered below to start ksysguardd on the "
+"remote host."
+msgstr ""
+
+#: HostConnector.cpp:97
+msgid "Port:"
+msgstr "Dergeh:"
+
+#: HostConnector.cpp:104
+msgid ""
+"Enter the port number on which the ksysguard daemon is listening for "
+"connections."
+msgstr ""
+
+#: HostConnector.cpp:107
+msgid "e.g.  3112"
+msgstr "mînak,  3112"
+
+#: HostConnector.cpp:110
+msgid "Command:"
+msgstr "Ferman:"
+
+#: HostConnector.cpp:119
+msgid "Enter the command that runs ksysguardd on the host you want to monitor."
+msgstr ""
+
+#: HostConnector.cpp:123
+msgid "e.g. ssh -l root remote.host.org ksysguardd"
+msgstr ""
+
+#: ksysguard.cpp:74
+msgid "KDE System Monitor"
+msgstr "Temaşekerê Pergalê yê KDE"
+
+#: ksysguard.cpp:161 ksysguard.cpp:536
+msgid "System Monitor"
+msgstr "Temaşekerê Pergalê"
+
+#: ksysguard.cpp:162
+msgid "&Refresh Tab"
+msgstr ""
+
+#: ksysguard.cpp:163
+msgid "&New Tab..."
+msgstr "Hilpekîna &Nû..."
+
+#: ksysguard.cpp:164
+msgid "Import Tab Fr&om File..."
+msgstr ""
+
+#: ksysguard.cpp:165
+msgid "Save Tab &As..."
+msgstr "Hilpekînê &Cuda Tomarbike..."
+
+#: ksysguard.cpp:166
+msgid "&Close Tab"
+msgstr "Hilpekînê &Bigire"
+
+#: ksysguard.cpp:167
+msgid "Monitor &Remote Machine..."
+msgstr ""
+
+#: ksysguard.cpp:168
+msgid "&Download New Tabs..."
+msgstr "Hilpekînên Nû &Bidaxîne"
+
+#: ksysguard.cpp:169
+#, fuzzy
+#| msgid "&Download New Tabs..."
+msgid "&Upload Current Tab..."
+msgstr "Hilpekînên Nû &Bidaxîne"
+
+#: ksysguard.cpp:171
+msgid "Tab &Properties"
+msgstr "&Taybetmendyên Hilpekînê"
+
+#: ksysguard.cpp:366
+#, fuzzy, kde-format
+#| msgid " %1 processes "
+msgid "1 process1"
+msgid_plural "%1 processes%1"
+msgstr[0] "Pêvajoyên %1"
+msgstr[1] "Pêvajoyên %1"
+
+#: ksysguard.cpp:445
+#, fuzzy, kde-format
+#| msgid " CPU: %1% "
+msgid "CPU: %1%%1%"
+msgstr " CPU: %1%"
+
+#: ksysguard.cpp:460
+#, kde-format
+msgctxt "Arguments are formatted byte sizes (used/total)"
+msgid "Memory: %1 / %2Mem: %1 / %2Mem: %1%1"
+msgstr ""
+
+#: ksysguard.cpp:487
+msgid " No swap space available "
+msgstr ""
+
+#: ksysguard.cpp:489
+#, fuzzy, kde-format
+#| msgid " Swap: %1 / %2 "
+msgctxt "Arguments are formatted byte sizes (used/total)"
+msgid "Swap: %1 / %2Swap: %1%1"
+msgstr " Swap: %1 / %2 "
+
+#: ksysguard.cpp:538
+#, fuzzy
+#| msgid "(c) 1996-2008 The KDE System Monitor Developers"
+msgid "(c) 1996-2016 The KDE System Monitor Developers"
+msgstr "(c) 1996-2008 Pêşvebirên KDE Monîtora Pergalê"
+
+#: ksysguard.cpp:540
+msgid "John Tapsell"
+msgstr "John Tapsell"
+
+#: ksysguard.cpp:540
+msgid "Current Maintainer"
+msgstr "Kesê miqete yê niha"
+
+#: ksysguard.cpp:541
+msgid "Chris Schlaeger"
+msgstr "Chris Schlaeger"
+
+#: ksysguard.cpp:541
+msgid "Previous Maintainer"
+msgstr "Kesê Miqete yê Berê"
+
+#: ksysguard.cpp:542
+msgid "Greg Martyn"
+msgstr "Greg Martyn"
+
+#: ksysguard.cpp:543
+msgid "Tobias Koenig"
+msgstr "Tobias Koenig"
+
+#: ksysguard.cpp:544
+msgid "Nicolas Leclercq"
+msgstr "Nicolas Leclercq"
+
+#: ksysguard.cpp:545
+msgid "Alex Sanda"
+msgstr "Alex Sanda"
+
+#: ksysguard.cpp:546
+msgid "Bernd Johannes Wuebben"
+msgstr "Bernd Johannes Wuebben"
+
+#: ksysguard.cpp:547
+msgid "Ralf Mueller"
+msgstr "Ralf Mueller"
+
+#: ksysguard.cpp:548
+msgid "Hamish Rodda"
+msgstr "Hamish Rodda"
+
+#: ksysguard.cpp:549
+msgid "Torsten Kasch"
+msgstr "Torsten Kasch"
+
+#: ksysguard.cpp:549
+msgid ""
+"Solaris Support\n"
+"Parts derived (by permission) from the sunos5\n"
+"module of William LeFebvre's \"top\" utility."
+msgstr ""
+
+#: ksysguard.cpp:558
+msgid "Optional worksheet files to load"
+msgstr ""
+
+#. i18n: ectx: Menu (file)
+#: ksysguardui.rc:4
+msgid "&File"
+msgstr "&Pel"
+
+#. i18n: ectx: Menu (view)
+#: ksysguardui.rc:14
+#, fuzzy
+#| msgid "&File"
+msgid "&View"
+msgstr "&Pel"
+
+#. i18n: ectx: Menu (settings)
+#: ksysguardui.rc:18
+msgid "&Settings"
+msgstr "&Mîheng"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: ksysguardui.rc:21
+msgid "Main Toolbar"
+msgstr "Darikê Amûran ya Mak"
+
+#. i18n: tag WorkSheet attribute title
+#. i18n: tag display attribute title
+#: ProcessTable.sgrd:3 ProcessTable.sgrd:5
+msgid "Process Table"
+msgstr ""
+
+#: SensorBrowser.cpp:113
+msgid "Sensor Browser"
+msgstr ""
+
+#: SensorBrowser.cpp:470
+msgid "Drag sensors to empty cells of a worksheet "
+msgstr ""
+
+#: SensorBrowser.cpp:471
+msgid ""
+"The sensor browser lists the connected hosts and the sensors that they "
+"provide. Click and drag sensors into drop zones of a worksheet. A display "
+"will appear that visualizes the values provided by the sensor. Some sensor "
+"displays can display values of multiple sensors. Simply drag other sensors "
+"on to the display to add more sensors."
+msgstr ""
+
+#: SensorDisplayLib/DancingBars.cpp:94 SensorDisplayLib/FancyPlotter.cpp:281
+msgid "OK"
+msgstr "Temam"
+
+#: SensorDisplayLib/DancingBars.cpp:94 SensorDisplayLib/FancyPlotter.cpp:281
+#: SensorDisplayLib/FancyPlotter.cpp:522 SensorDisplayLib/FancyPlotter.cpp:600
+msgid "Error"
+msgstr "Çewtî"
+
+#: SensorDisplayLib/DancingBarsSettings.cpp:43
+msgid "Edit BarGraph Preferences"
+msgstr ""
+
+#: SensorDisplayLib/DancingBarsSettings.cpp:52
+msgid "Range"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, titleFrame)
+#: SensorDisplayLib/DancingBarsSettings.cpp:56
+#: SensorDisplayLib/ListViewSettingsWidget.ui:17
+#: SensorDisplayLib/SensorLoggerSettingsWidget.ui:17 WorkSheetSettings.cpp:62
+msgid "Title"
+msgstr "Sernav"
+
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, m_title)
+#: SensorDisplayLib/DancingBarsSettings.cpp:61
+#: SensorDisplayLib/FancyPlotterSettings.cpp:71
+#: SensorDisplayLib/MultiMeterSettingsWidget.ui:36
+msgid "Enter the title of the display here."
+msgstr "Sernavê nîşanderê binivîse li vir."
+
+#: SensorDisplayLib/DancingBarsSettings.cpp:66
+msgid "Display Range"
+msgstr ""
+
+#: SensorDisplayLib/DancingBarsSettings.cpp:71
+#: SensorDisplayLib/FancyPlotterSettings.cpp:97
+msgid "Minimum value:"
+msgstr "Nirxê biçûktirîn: "
+
+#: SensorDisplayLib/DancingBarsSettings.cpp:79
+msgid ""
+"Enter the minimum value for the display here. If both values are 0, "
+"automatic range detection is enabled."
+msgstr ""
+
+#: SensorDisplayLib/DancingBarsSettings.cpp:83
+#: SensorDisplayLib/FancyPlotterSettings.cpp:108
+msgid "Maximum value:"
+msgstr "Nirxê mezintirîn:"
+
+#: SensorDisplayLib/DancingBarsSettings.cpp:91
+msgid ""
+"Enter the maximum value for the display here. If both values are 0, "
+"automatic range detection is enabled."
+msgstr ""
+
+#: SensorDisplayLib/DancingBarsSettings.cpp:101
+msgid "Alarms"
+msgstr "Hişyarî"
+
+#. i18n: ectx: property (title), widget (QGroupBox, GroupBox1)
+#: SensorDisplayLib/DancingBarsSettings.cpp:105
+#: SensorDisplayLib/SensorLoggerDlgWidget.ui:78
+msgid "Alarm for Minimum Value"
+msgstr "Hişyarî ji bo Nirxê Biçûktirîn"
+
+#: SensorDisplayLib/DancingBarsSettings.cpp:110
+#: SensorDisplayLib/DancingBarsSettings.cpp:133
+msgid "Enable alarm"
+msgstr "Hişyarî yê çalak bike"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_lowerLimitActive)
+#: SensorDisplayLib/DancingBarsSettings.cpp:111
+#: SensorDisplayLib/MultiMeterSettingsWidget.ui:57
+#: SensorDisplayLib/SensorLoggerDlgWidget.ui:96
+msgid "Enable the minimum value alarm."
+msgstr "Nirxê biçûktirîn yê hişyarî yê çalak dike."
+
+#. i18n: ectx: property (text), widget (QLabel, m_lblLowerLimit)
+#: SensorDisplayLib/DancingBarsSettings.cpp:114
+#: SensorDisplayLib/SensorLoggerDlgWidget.ui:125
+msgid "Lower limit:"
+msgstr "Sînora Jêr:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, GroupBox1_2)
+#: SensorDisplayLib/DancingBarsSettings.cpp:128
+#: SensorDisplayLib/SensorLoggerDlgWidget.ui:151
+msgid "Alarm for Maximum Value"
+msgstr "Hişyarî ji bo Nirxê Mezintirîn"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_upperLimitActive)
+#: SensorDisplayLib/DancingBarsSettings.cpp:134
+#: SensorDisplayLib/MultiMeterSettingsWidget.ui:116
+#: SensorDisplayLib/SensorLoggerDlgWidget.ui:169
+msgid "Enable the maximum value alarm."
+msgstr "Nirxê mezintirîn ya hişyarî yê çalak dike."
+
+#. i18n: ectx: property (text), widget (QLabel, m_lblUpperLimit)
+#: SensorDisplayLib/DancingBarsSettings.cpp:137
+#: SensorDisplayLib/SensorLoggerDlgWidget.ui:198
+msgid "Upper limit:"
+msgstr "Sînora Jor:"
+
+#: SensorDisplayLib/DancingBarsSettings.cpp:154
+#, fuzzy
+#| msgid "Look"
+msgctxt "@title:tab Appearance of the bar graph"
+msgid "Look"
+msgstr "Binihêre"
+
+#: SensorDisplayLib/DancingBarsSettings.cpp:158
+msgid "Normal bar color:"
+msgstr ""
+
+#: SensorDisplayLib/DancingBarsSettings.cpp:165
+msgid "Out-of-range color:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: SensorDisplayLib/DancingBarsSettings.cpp:172
+#: SensorDisplayLib/ListViewSettingsWidget.ui:105
+#: SensorDisplayLib/LogFile.cpp:105 SensorDisplayLib/LogFileSettings.ui:85
+#: SensorDisplayLib/SensorLoggerSettingsWidget.ui:92
+msgid "Background color:"
+msgstr "Rengê rûerdê:"
+
+#: SensorDisplayLib/DancingBarsSettings.cpp:179
+#: SensorDisplayLib/FancyPlotterSettings.cpp:178
+msgid "Font size:"
+msgstr "Mezinahiya nivîsê:"
+
+#: SensorDisplayLib/DancingBarsSettings.cpp:184
+msgid ""
+"This determines the size of the font used to print a label underneath the "
+"bars. Bars are automatically suppressed if text becomes too large, so it is "
+"advisable to use a small font size here."
+msgstr ""
+
+#: SensorDisplayLib/DancingBarsSettings.cpp:192
+#: SensorDisplayLib/FancyPlotterSettings.cpp:194
+msgid "Sensors"
+msgstr ""
+
+#: SensorDisplayLib/DancingBarsSettings.cpp:204
+msgid "Edit..."
+msgstr "Sererastkirin..."
+
+#: SensorDisplayLib/DancingBarsSettings.cpp:205
+msgid "Push this button to configure the label."
+msgstr ""
+
+#: SensorDisplayLib/DancingBarsSettings.cpp:208
+#: SensorDisplayLib/FancyPlotterSettings.cpp:226
+msgid "Delete"
+msgstr "Jêbirin"
+
+#: SensorDisplayLib/DancingBarsSettings.cpp:209
+#: SensorDisplayLib/FancyPlotterSettings.cpp:227
+msgid "Push this button to delete the sensor."
+msgstr ""
+
+#: SensorDisplayLib/DancingBarsSettings.cpp:361
+msgid "Label of Bar Graph"
+msgstr ""
+
+#: SensorDisplayLib/DancingBarsSettings.cpp:362
+msgid "Enter new label:"
+msgstr ""
+
+#: SensorDisplayLib/DummyDisplay.cpp:31 SensorDisplayLib/DummyDisplay.cpp:39
+msgid "Drop Sensor Here"
+msgstr ""
+
+#: SensorDisplayLib/DummyDisplay.cpp:33
+msgid ""
+"This is an empty space in a worksheet. Drag a sensor from the Sensor Browser "
+"and drop it here. A sensor display will appear that allows you to monitor "
+"the values of the sensor over time."
+msgstr ""
+
+#: SensorDisplayLib/FancyPlotter.cpp:177
+msgctxt "Largest axis title"
+msgid "99999 XXXX"
+msgstr "99999 XXXX"
+
+#: SensorDisplayLib/FancyPlotter.cpp:518 SensorDisplayLib/FancyPlotter.cpp:589
+#: SensorDisplayLib/FancyPlotter.cpp:652
+#, kde-format
+msgctxt "units"
+msgid "%1%"
+msgstr ""
+
+#: SensorDisplayLib/FancyPlotter.cpp:526
+#, fuzzy, kde-format
+#| msgid "<p><b>%1:</b><br>"
+msgctxt "%1 is what is being shown statistics for, like 'Memory', 'Swap', etc."
+msgid "<p><b>%1:</b><br>"
+msgstr "<p><b>%1:</b><br>"
+
+#: SensorDisplayLib/FancyPlotter.cpp:597
+#, fuzzy, kde-format
+#| msgid "%1 of %2"
+msgid "%1 of %2%1"
+msgstr "%1 yê %2"
+
+#: SensorDisplayLib/FancyPlotter.cpp:625
+#, kde-format
+msgctxt "units"
+msgid "%1 TiB"
+msgstr ""
+
+#: SensorDisplayLib/FancyPlotter.cpp:628
+#, kde-format
+msgctxt "units"
+msgid "%1 GiB"
+msgstr ""
+
+#: SensorDisplayLib/FancyPlotter.cpp:631
+#, kde-format
+msgctxt "units"
+msgid "%1 MiB"
+msgstr ""
+
+#: SensorDisplayLib/FancyPlotter.cpp:634
+#, kde-format
+msgctxt "units"
+msgid "%1 KiB"
+msgstr ""
+
+#: SensorDisplayLib/FancyPlotter.cpp:639
+#, kde-format
+msgctxt "units"
+msgid "%1 TiB/s"
+msgstr ""
+
+#: SensorDisplayLib/FancyPlotter.cpp:642
+#, kde-format
+msgctxt "units"
+msgid "%1 GiB/s"
+msgstr ""
+
+#: SensorDisplayLib/FancyPlotter.cpp:645
+#, kde-format
+msgctxt "units"
+msgid "%1 MiB/s"
+msgstr ""
+
+#: SensorDisplayLib/FancyPlotter.cpp:648
+#, kde-format
+msgctxt "units"
+msgid "%1 KiB/s"
+msgstr ""
+
+#: SensorDisplayLib/FancyPlotter.cpp:654
+#, fuzzy, kde-format
+#| msgctxt "a percentage"
+#| msgid "%"
+msgctxt "unitless - just a number"
+msgid "%1"
+msgstr "%"
+
+#: SensorDisplayLib/FancyPlotterSettings.cpp:47
+#, fuzzy
+#| msgid "&Settings"
+msgid "Plotter Settings"
+msgstr "&Mîheng"
+
+#: SensorDisplayLib/FancyPlotterSettings.cpp:63
+msgid "General"
+msgstr "Giştî"
+
+#: SensorDisplayLib/FancyPlotterSettings.cpp:67
+msgid "Title:"
+msgstr "Sernav:"
+
+#: SensorDisplayLib/FancyPlotterSettings.cpp:75
+msgid "Stack the beams on top of each other"
+msgstr ""
+
+#: SensorDisplayLib/FancyPlotterSettings.cpp:76
+msgid ""
+"The beams are stacked on top of each other, and the area is drawn filled in. "
+"So if one beam has a value of 2 and another beam has a value of 3, the first "
+"beam will be drawn at value 2 and the other beam drawn at 2+3=5."
+msgstr ""
+
+#: SensorDisplayLib/FancyPlotterSettings.cpp:83
+msgid "Scales"
+msgstr ""
+
+#: SensorDisplayLib/FancyPlotterSettings.cpp:87
+msgid "Vertical scale"
+msgstr ""
+
+#: SensorDisplayLib/FancyPlotterSettings.cpp:92
+msgid "Specify graph range:"
+msgstr ""
+
+#: SensorDisplayLib/FancyPlotterSettings.cpp:93
+msgid ""
+"Check this box if you want the display range to adapt dynamically to the "
+"currently displayed values; if you do not check this, you have to specify "
+"the range you want in the fields below."
+msgstr ""
+
+#: SensorDisplayLib/FancyPlotterSettings.cpp:103
+#, fuzzy
+#| msgid "Enter the title of the display here."
+msgid "Enter the minimum value for the display here."
+msgstr "Sernavê nîşanderê binivîse li vir."
+
+#: SensorDisplayLib/FancyPlotterSettings.cpp:114
+msgid ""
+"Enter the soft maximum value for the display here. The upper range will not "
+"be reduced below this value, but will still go above this number for values "
+"above this value."
+msgstr ""
+
+#: SensorDisplayLib/FancyPlotterSettings.cpp:121
+msgid "Horizontal scale"
+msgstr ""
+
+#: SensorDisplayLib/FancyPlotterSettings.cpp:129
+msgid "Pixels per time period:"
+msgstr ""
+
+#: SensorDisplayLib/FancyPlotterSettings.cpp:136
+msgid "Grid"
+msgstr "Izxere"
+
+#: SensorDisplayLib/FancyPlotterSettings.cpp:140
+msgid "Lines"
+msgstr "Rêzik"
+
+#: SensorDisplayLib/FancyPlotterSettings.cpp:145
+msgid "Vertical lines"
+msgstr ""
+
+#: SensorDisplayLib/FancyPlotterSettings.cpp:146
+msgid "Check this to activate the vertical lines if display is large enough."
+msgstr ""
+
+#: SensorDisplayLib/FancyPlotterSettings.cpp:149
+msgid "Distance:"
+msgstr "Mesafe:"
+
+#: SensorDisplayLib/FancyPlotterSettings.cpp:156
+msgid "Enter the distance between two vertical lines here."
+msgstr ""
+
+#: SensorDisplayLib/FancyPlotterSettings.cpp:160
+msgid "Vertical lines scroll"
+msgstr ""
+
+#: SensorDisplayLib/FancyPlotterSettings.cpp:163
+msgid "Horizontal lines"
+msgstr ""
+
+#: SensorDisplayLib/FancyPlotterSettings.cpp:164
+msgid "Check this to enable horizontal lines if display is large enough."
+msgstr ""
+
+#: SensorDisplayLib/FancyPlotterSettings.cpp:169
+msgid "Text"
+msgstr "Nivîsar"
+
+#: SensorDisplayLib/FancyPlotterSettings.cpp:174
+msgid "Show axis labels"
+msgstr ""
+
+#: SensorDisplayLib/FancyPlotterSettings.cpp:175
+msgid ""
+"Check this box if horizontal lines should be decorated with the values they "
+"mark."
+msgstr ""
+
+#: SensorDisplayLib/FancyPlotterSettings.cpp:218
+msgid "Set Color..."
+msgstr "Rengê Ava bike..."
+
+#: SensorDisplayLib/FancyPlotterSettings.cpp:219
+msgid "Push this button to configure the color of the sensor in the diagram."
+msgstr ""
+
+#: SensorDisplayLib/FancyPlotterSettings.cpp:231
+msgid "Move Up"
+msgstr "Bibe Jor"
+
+#: SensorDisplayLib/FancyPlotterSettings.cpp:236
+msgid "Move Down"
+msgstr "Bibe Jêr"
+
+#: SensorDisplayLib/ListView.cpp:44
+#, fuzzy, kde-format
+#| msgctxt "a percentage"
+#| msgid "%"
+msgid "%1 K"
+msgstr "%"
+
+#: SensorDisplayLib/ListView.cpp:45
+#, fuzzy, kde-format
+#| msgctxt "a percentage"
+#| msgid "%"
+msgid "%1 M"
+msgstr "%"
+
+#: SensorDisplayLib/ListView.cpp:46
+#, fuzzy, kde-format
+#| msgctxt "a percentage"
+#| msgid "%"
+msgid "%1 G"
+msgstr "%"
+
+#: SensorDisplayLib/ListView.cpp:47
+#, fuzzy, kde-format
+#| msgctxt "a percentage"
+#| msgid "%"
+msgid "%1 T"
+msgstr "%"
+
+#: SensorDisplayLib/ListView.cpp:48
+#, fuzzy, kde-format
+#| msgctxt "a percentage"
+#| msgid "%"
+msgid "%1 P"
+msgstr "%"
+
+#: SensorDisplayLib/ListView.cpp:151
+msgid "Display Units"
+msgstr ""
+
+#: SensorDisplayLib/ListView.cpp:155
+msgid "Mixed"
+msgstr ""
+
+#: SensorDisplayLib/ListView.cpp:161
+msgid "Kilobytes"
+msgstr ""
+
+#: SensorDisplayLib/ListView.cpp:167
+msgid "Megabytes"
+msgstr ""
+
+#: SensorDisplayLib/ListView.cpp:173
+msgid "Gigabytes"
+msgstr ""
+
+#: SensorDisplayLib/ListView.cpp:179
+#, fuzzy
+#| msgid "Temperature"
+msgid "Terabytes"
+msgstr "Germahî"
+
+#: SensorDisplayLib/ListViewSettings.cpp:30
+msgid "List View Settings"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, colorFrame)
+#: SensorDisplayLib/ListViewSettingsWidget.ui:47
+#: SensorDisplayLib/SensorLoggerSettingsWidget.ui:47
+msgid "Colors"
+msgstr "Reng"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: SensorDisplayLib/ListViewSettingsWidget.ui:79
+#: SensorDisplayLib/SensorLoggerSettingsWidget.ui:79
+msgid "Text color:"
+msgstr "Rengê nivîsê:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: SensorDisplayLib/ListViewSettingsWidget.ui:92
+msgid "Grid color:"
+msgstr ""
+
+#: SensorDisplayLib/LogFile.cpp:93
+msgid "File logging settings"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: SensorDisplayLib/LogFile.cpp:103 SensorDisplayLib/LogFileSettings.ui:72
+msgid "Foreground color:"
+msgstr "Rengên pêş-erdê:"
+
+#. i18n: ectx: attribute (title), widget (QWidget, textTab)
+#: SensorDisplayLib/LogFileSettings.ui:21
+msgid "&Text"
+msgstr "&Nivîs"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: SensorDisplayLib/LogFileSettings.ui:29
+#, fuzzy
+#| msgid "Title:"
+msgid "T&itle:"
+msgstr "Sernav:"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: SensorDisplayLib/LogFileSettings.ui:166
+msgid "Fi&lter"
+msgstr "Pa%&rzûn"
+
+#. i18n: ectx: property (text), widget (QPushButton, addButton)
+#: SensorDisplayLib/LogFileSettings.ui:196
+msgid "&Add"
+msgstr "Lê&zêdekirin"
+
+#. i18n: ectx: property (text), widget (QPushButton, deleteButton)
+#: SensorDisplayLib/LogFileSettings.ui:203
+msgid "&Delete"
+msgstr "&Jêbirin "
+
+#. i18n: ectx: property (text), widget (QPushButton, changeButton)
+#: SensorDisplayLib/LogFileSettings.ui:210
+msgid "&Change"
+msgstr "&Guherandin"
+
+#: SensorDisplayLib/MultiMeterSettings.cpp:32
+msgctxt ""
+"Multimeter is a sensor display that mimics 'digital multimeter' aparatus"
+msgid "Multimeter Settings"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: SensorDisplayLib/MultiMeterSettingsWidget.ui:26
+#, fuzzy
+#| msgid "Title:"
+msgid "&Title:"
+msgstr "Sernav:"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_showUnit)
+#: SensorDisplayLib/MultiMeterSettingsWidget.ui:43
+msgid "Enable this to append the unit to the title of the display."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_showUnit)
+#: SensorDisplayLib/MultiMeterSettingsWidget.ui:46
+msgid "&Show unit"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_lowerLimitActive)
+#: SensorDisplayLib/MultiMeterSettingsWidget.ui:60
+#: SensorDisplayLib/SensorLoggerDlgWidget.ui:99
+msgid "&Enable alarm"
+msgstr "Hişyarî yê &çalak bike"
+
+#. i18n: ectx: property (text), widget (QLabel, m_lblLowerLimit)
+#: SensorDisplayLib/MultiMeterSettingsWidget.ui:86
+#, fuzzy
+#| msgid "Lower limit:"
+msgid "&Lower limit:"
+msgstr "Sînora Jêr:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_upperLimitActive)
+#: SensorDisplayLib/MultiMeterSettingsWidget.ui:119
+#: SensorDisplayLib/SensorLoggerDlgWidget.ui:172
+msgid "E&nable alarm"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, m_lblUpperLimit)
+#: SensorDisplayLib/MultiMeterSettingsWidget.ui:145
+msgid "&Upper limit:"
+msgstr "Sînora &Jor:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: SensorDisplayLib/MultiMeterSettingsWidget.ui:175
+msgid "Nor&mal digit color:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
+#: SensorDisplayLib/MultiMeterSettingsWidget.ui:205
+#, fuzzy
+#| msgid "Alarm color:"
+msgid "Alarm di&git color:"
+msgstr "Rengê alarmê:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_2)
+#: SensorDisplayLib/MultiMeterSettingsWidget.ui:235
+#, fuzzy
+#| msgid "Background color:"
+msgid "Bac&kground color:"
+msgstr "Rengê rûerdê:"
+
+#: SensorDisplayLib/SensorDisplay.cpp:116
+#: SensorDisplayLib/SensorLogger.cpp:597
+msgid "&Properties"
+msgstr "&Taybetmendî"
+
+#: SensorDisplayLib/SensorDisplay.cpp:121
+#: SensorDisplayLib/SensorLogger.cpp:602
+msgid "&Remove Display"
+msgstr ""
+
+#: SensorDisplayLib/SensorDisplay.cpp:188
+#, kde-format
+msgid ""
+"<qt><p>This is a sensor display. To customize a sensor display click the "
+"right mouse button here and select the <i>Properties</i> entry from the "
+"popup menu. Select <i>Remove</i> to delete the display from the worksheet.</"
+"p>%1</qt>"
+msgstr ""
+
+#: SensorDisplayLib/SensorLogger.cpp:137
+#, fuzzy
+#| msgid "Logging"
+msgctxt "@title:column"
+msgid "Logging"
+msgstr "Tomar"
+
+#: SensorDisplayLib/SensorLogger.cpp:140
+#, fuzzy
+#| msgid "Update interval:"
+msgctxt "@title:column"
+msgid "Timer Interval"
+msgstr "Navbera rojane kirinê:"
+
+#: SensorDisplayLib/SensorLogger.cpp:143
+#, fuzzy
+#| msgid "Sensor"
+msgctxt "@title:column"
+msgid "Sensor Name"
+msgstr "Têgihîştî"
+
+#: SensorDisplayLib/SensorLogger.cpp:146
+#, fuzzy
+#| msgid "Host Name"
+msgctxt "@title:column"
+msgid "Host Name"
+msgstr "Navê Hostê"
+
+#: SensorDisplayLib/SensorLogger.cpp:149
+#, fuzzy
+#| msgid "File"
+msgctxt "@title:column"
+msgid "Log File"
+msgstr "Pel"
+
+#: SensorDisplayLib/SensorLogger.cpp:428
+#: SensorDisplayLib/SensorLoggerDlg.cpp:30
+msgid "Sensor Logger"
+msgstr ""
+
+#: SensorDisplayLib/SensorLogger.cpp:607
+msgid "&Remove Sensor"
+msgstr ""
+
+#: SensorDisplayLib/SensorLogger.cpp:612
+msgid "&Edit Sensor..."
+msgstr ""
+
+#: SensorDisplayLib/SensorLogger.cpp:620
+#, fuzzy
+#| msgid "Logging"
+msgid "St&op Logging"
+msgstr "Tomar"
+
+#: SensorDisplayLib/SensorLogger.cpp:623
+#, fuzzy
+#| msgid "Logging"
+msgid "S&tart Logging"
+msgstr "Tomar"
+
+#. i18n: ectx: property (title), widget (QGroupBox, fileFrame)
+#: SensorDisplayLib/SensorLoggerDlgWidget.ui:17
+msgid "File"
+msgstr "Pel"
+
+#. i18n: ectx: property (title), widget (QGroupBox, timerFrame)
+#: SensorDisplayLib/SensorLoggerDlgWidget.ui:41
+#, fuzzy
+#| msgid "Update interval:"
+msgctxt "@title:group"
+msgid "Timer Interval"
+msgstr "Navbera rojane kirinê:"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, m_timerInterval)
+#: SensorDisplayLib/SensorLoggerDlgWidget.ui:59 TimerSettings.cpp:57
+#: WorkSheetSettings.cpp:111
+msgid " sec"
+msgstr " çirke"
+
+#: SensorDisplayLib/SensorLoggerSettings.cpp:30
+msgid "Sensor Logger Settings"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: SensorDisplayLib/SensorLoggerSettingsWidget.ui:105
+msgid "Alarm color:"
+msgstr "Rengê alarmê:"
+
+#: SensorDisplayLib/SensorModel.cpp:166
+msgid "Host"
+msgstr "Host"
+
+#: SensorDisplayLib/SensorModel.cpp:169
+msgid "Sensor"
+msgstr "Têgihîştî"
+
+#: SensorDisplayLib/SensorModel.cpp:172
+msgid "Unit"
+msgstr "Yekitî"
+
+#: SensorDisplayLib/SensorModel.cpp:175
+msgid "Status"
+msgstr "Rewş"
+
+#: SensorDisplayLib/SensorModel.cpp:178
+msgid "Label"
+msgstr "Etîket"
+
+#. i18n: tag WorkSheet attribute title
+#: SystemLoad2.sgrd:3
+msgid "System Load"
+msgstr "Bara Pergalê"
+
+#. i18n: tag display attribute title
+#: SystemLoad2.sgrd:5
+msgid "CPU History"
+msgstr "Dîroka CPU"
+
+#. i18n: tag display attribute title
+#: SystemLoad2.sgrd:8
+msgid "Memory and Swap History"
+msgstr "Dîroka Bîr û Swap"
+
+#. i18n: tag beam attribute summationName
+#: SystemLoad2.sgrd:9
+msgid "Memory"
+msgstr "Bîr"
+
+#. i18n: tag beam attribute summationName
+#: SystemLoad2.sgrd:10
+msgid "Swap"
+msgstr ""
+
+#. i18n: tag display attribute title
+#: SystemLoad2.sgrd:12
+msgid "Network History"
+msgstr "Dîroka Torê"
+
+#. i18n: tag beam attribute summationName
+#: SystemLoad2.sgrd:13
+msgid "Receiving"
+msgstr ""
+
+#. i18n: tag beam attribute summationName
+#: SystemLoad2.sgrd:14
+msgid "Sending"
+msgstr ""
+
+#: TimerSettings.cpp:37
+msgid "Timer Settings"
+msgstr ""
+
+#: TimerSettings.cpp:47
+msgid "Use update interval of worksheet"
+msgstr ""
+
+#: TimerSettings.cpp:50 WorkSheetSettings.cpp:104
+msgid "Update interval:"
+msgstr "Navbera rojane kirinê:"
+
+#: TimerSettings.cpp:60 WorkSheetSettings.cpp:117
+msgid "All displays of the sheet are updated at the rate specified here."
+msgstr ""
+
+#: WorkSheet.cpp:83
+#, kde-format
+msgid "Cannot open the file %1."
+msgstr "Pelê %1 nayê vekirin."
+
+#: WorkSheet.cpp:91
+#, kde-format
+msgid "The file %1 does not contain valid XML."
+msgstr "Di pela %1 de XML a derbasdar tune ye."
+
+#: WorkSheet.cpp:98
+#, kde-format
+msgid ""
+"The file %1 does not contain a valid worksheet definition, which must have a "
+"document type 'KSysGuardWorkSheet'."
+msgstr ""
+
+#: WorkSheet.cpp:110
+#, kde-format
+msgid "The file %1 has an invalid worksheet size."
+msgstr ""
+
+#: WorkSheet.cpp:235
+#, kde-format
+msgid "Cannot save file %1"
+msgstr "Pelê %1 nayê tomarkirin"
+
+#: WorkSheet.cpp:281
+msgid "The clipboard does not contain a valid display description."
+msgstr ""
+
+#: WorkSheet.cpp:381
+msgid "Select Display Type"
+msgstr "Teşeyê Xuyakirinê Hilbijêre"
+
+#: WorkSheet.cpp:382
+msgid "&Line graph"
+msgstr "Xanxanka &Rêzik"
+
+#: WorkSheet.cpp:383
+msgid "&Digital display"
+msgstr "Xuyakirina &Dîjîtal"
+
+#: WorkSheet.cpp:384
+msgid "&Bar graph"
+msgstr "Xanxanka &Giloverîk"
+
+#: WorkSheet.cpp:385
+msgid "Log to a &file"
+msgstr "Di &pelê de tomar bike"
+
+#: WorkSheet.cpp:541
+msgid "Remove this display?"
+msgstr ""
+
+#: WorkSheet.cpp:542
+#, fuzzy
+#| msgid "Delete Display"
+msgid "Remove Display"
+msgstr "Xuyakirinê Jê Bibe"
+
+#: WorkSheet.cpp:583
+msgid "Dummy"
+msgstr "Çêkirîtî "
+
+#: WorkSheetSettings.cpp:44
+msgid "Tab Properties"
+msgstr "Taybetmendiyên Hilpekînê"
+
+#: WorkSheetSettings.cpp:73
+msgid "Properties"
+msgstr "Taybetmendî"
+
+#: WorkSheetSettings.cpp:82
+msgid "Rows:"
+msgstr "Rêzik:"
+
+#: WorkSheetSettings.cpp:92
+msgid "Columns:"
+msgstr "Sitûn:"
+
+#: WorkSheetSettings.cpp:101
+msgid "Enter the number of rows the sheet should have."
+msgstr ""
+
+#: WorkSheetSettings.cpp:102
+msgid "Enter the number of columns the sheet should have."
+msgstr ""
+
+#: WorkSheetSettings.cpp:118
+msgid "Enter the title of the worksheet here."
+msgstr ""
+
+#: Workspace.cpp:110
+#, kde-format
+msgid "Sheet %1"
+msgstr ""
+
+#: Workspace.cpp:169
+#, kde-format
+msgid ""
+"The tab '%1' contains unsaved data.\n"
+"Do you want to save the tab?"
+msgstr ""
+
+#: Workspace.cpp:185
+msgid "Select Tab File to Import"
+msgstr ""
+
+#: Workspace.cpp:207 Workspace.cpp:227
+msgid "You do not have a tab that could be saved."
+msgstr ""
+
+#: Workspace.cpp:234
+msgid "Export Tab"
+msgstr ""
+
+#: Workspace.cpp:254
+msgid "There are no tabs that could be deleted."
+msgstr ""
+
+#: Workspace.cpp:294
+#, kde-format
+msgid ""
+"<qt>To propose the current custom tab as a new System Monitor tab, email "
+"<br><a href=\"file:%1\">%2</a><br> to <a href=\"mailto:john.tapsell@kde.org?"
+"subject='System Monitor Tab'&attach='file://%2'\">john.tapsell@kde.org</a></"
+"qt>"
+msgstr ""
+
+#: Workspace.cpp:294
+#, fuzzy
+#| msgid "System Monitor"
+msgid "Upload custom System Monitor tab"
+msgstr "Temaşekerê Pergalê"
+
+#~ msgid "*.sgrd|Sensor Files (*.sgrd)"
+#~ msgstr "*.sgrd|Pelên Sensor (*.sgrd)"
+
+#, fuzzy
+#~| msgid ""
+#~| "Message from %1:\n"
+#~| "%2"
+#~ msgctxt "%1 is a host name"
+#~ msgid ""
+#~ "Message from %1:\n"
+#~ "%2"
+#~ msgstr ""
+#~ "Peyam ji %1:\n"
+#~ "%2"
+
+#~ msgid "Could not run daemon program '%1'."
+#~ msgstr "Nikare bernameya biçûk '%1' bixebitîne."
+
+#~ msgid "The daemon program '%1' failed."
+#~ msgstr "Bernameya biçûk '%1' têk çû."
+
+#~ msgid "Host %1 not found"
+#~ msgstr "Hosta %1 nehat dîtin"
+
+#~ msgid "Change"
+#~ msgstr "Biguherîne"
+
+#~ msgid "Rate"
+#~ msgstr "Rêje"
+
+#~ msgid "CPU Load"
+#~ msgstr "Barkirinên CPU"
+
+#~ msgid "Nice Load"
+#~ msgstr "Barkirina Xweşik"
+
+#~ msgid "User Load"
+#~ msgstr "Barkirina Bikarhêner"
+
+#, fuzzy
+#~| msgid "System Load"
+#~ msgctxt "@item sensor description"
+#~ msgid "System Load"
+#~ msgstr "Bara Pergalê"
+
+#~ msgid "Waiting"
+#~ msgstr "Li Bendê"
+
+#, fuzzy
+#~| msgid "Interrupts"
+#~ msgid "Interrupt Load"
+#~ msgstr "Qutkirin"
+
+#~ msgid "Total Load"
+#~ msgstr "Bara Tevî"
+
+#~ msgid "Physical Memory"
+#~ msgstr "Bîra Fîzîkî"
+
+#~ msgid "Swap Memory"
+#~ msgstr "Bîra Swap"
+
+#~ msgid "Used Memory"
+#~ msgstr "Bîra Bikaranî"
+
+#~ msgid "Free Memory"
+#~ msgstr "Bîra Vala"
+
+#~ msgid "Active Memory"
+#~ msgstr "Bîra Çalak"
+
+#~ msgid "Inactive Memory"
+#~ msgstr "Bîra Neçalak"
+
+#~ msgid "Wired Memory"
+#~ msgstr "Bîra Bi kar hatî"
+
+#~ msgid "File Pages"
+#~ msgstr "Rûpelên Pelê"
+
+#, fuzzy
+#~| msgid "Process Count"
+#~ msgid "Processes"
+#~ msgstr "Hejmara Xebatan"
+
+#, fuzzy
+#~| msgid "Process Count"
+#~ msgid "Process Spawn Count"
+#~ msgstr "Hejmara Xebatan"
+
+#~ msgid "Process Count"
+#~ msgstr "Hejmara Xebatan"
+
+#, fuzzy
+#~| msgid "Process Count"
+#~ msgid "Idle Processes Count"
+#~ msgstr "Hejmara Xebatan"
+
+#, fuzzy
+#~| msgid "Process Count"
+#~ msgid "Running Processes Count"
+#~ msgstr "Hejmara Xebatan"
+
+#, fuzzy
+#~| msgid "Process Count"
+#~ msgid "Sleeping Processes Count"
+#~ msgstr "Hejmara Xebatan"
+
+#, fuzzy
+#~| msgid "Process Count"
+#~ msgid "Stopped Processes Count"
+#~ msgstr "Hejmara Xebatan"
+
+#, fuzzy
+#~| msgid "Process Count"
+#~ msgid "Zombie Processes Count"
+#~ msgstr "Hejmara Xebatan"
+
+#, fuzzy
+#~| msgid "Process Count"
+#~ msgid "Waiting Processes Count"
+#~ msgstr "Hejmara Xebatan"
+
+#, fuzzy
+#~| msgid "Process Count"
+#~ msgid "Locked Processes Count"
+#~ msgstr "Hejmara Xebatan"
+
+#~ msgctxt "CPU Load"
+#~ msgid "Load"
+#~ msgstr "Bar"
+
+#~ msgid "Total Accesses"
+#~ msgstr "Gihîştina Tev"
+
+#~ msgid "Read Accesses"
+#~ msgstr "Gihîştina Xwendinê"
+
+#~ msgid "Write Accesses"
+#~ msgstr "Gihîştina Nivîsînê"
+
+#~ msgid "Read Data"
+#~ msgstr "Dane yê tê Xwendin"
+
+#~ msgid "Written Data"
+#~ msgstr "Dane yê tê Nivîsîn"
+
+#, fuzzy
+#~| msgid "System Load"
+#~ msgid "System Calls"
+#~ msgstr "Bara Pergalê"
+
+#~ msgid "Network"
+#~ msgstr "Tor"
+
+#~ msgid "Interfaces"
+#~ msgstr "Navrû"
+
+#, fuzzy
+#~| msgid "Rate"
+#~ msgid "Data Rate"
+#~ msgstr "Rêje"
+
+#, fuzzy
+#~| msgid "Errors"
+#~ msgid "Error Rate"
+#~ msgstr "Çewtî"
+
+#, fuzzy
+#~| msgid "Errors"
+#~ msgid "Frame Error Rate"
+#~ msgstr "Çewtî"
+
+#, fuzzy
+#~| msgid "Multicast"
+#~ msgid "Multicast Packet Rate"
+#~ msgstr "Pirweşanî"
+
+#, fuzzy
+#~| msgid "Rate"
+#~ msgid "Packet Rate"
+#~ msgstr "Rêje"
+
+#, fuzzy
+#~| msgid "Errors"
+#~ msgctxt "@item sensor description ('carrier' is a type of network signal)"
+#~ msgid "Carrier Loss Rate"
+#~ msgstr "Çewtî"
+
+#~ msgid "Collisions"
+#~ msgstr "Lihevnekirin"
+
+#~ msgid "Data"
+#~ msgstr "Dane"
+
+#~ msgid "Errors"
+#~ msgstr "Çewtî"
+
+#, fuzzy
+#~| msgid "Multicast"
+#~ msgid "Multicast Packets"
+#~ msgstr "Pirweşanî"
+
+#~ msgid "Total Number"
+#~ msgstr "Hejmara Tev"
+
+#~ msgid "Table"
+#~ msgstr "Tqblo"
+
+#~ msgid "Advanced Power Management"
+#~ msgstr "Rêveberiya Hêzê yê Pêşketî"
+
+#~ msgid "ACPI"
+#~ msgstr "ACPI"
+
+#~ msgid "Temperature"
+#~ msgstr "Germahî"
+
+#, fuzzy
+#~| msgid "Temperature"
+#~ msgid "Average CPU Temperature"
+#~ msgstr "Germahî"
+
+#~ msgid "State"
+#~ msgstr "Rewş"
+
+#~ msgid "Battery"
+#~ msgstr "Pîl"
+
+#, fuzzy
+#~| msgid "Battery Charge"
+#~ msgid "Battery Capacity"
+#~ msgstr "Şarja Pîlê"
+
+#~ msgid "Battery Charge"
+#~ msgstr "Şarja Pîlê"
+
+#~ msgid "Battery Usage"
+#~ msgstr "Bikaranîna Pîlê"
+
+#, fuzzy
+#~| msgid "Battery Usage"
+#~ msgid "Battery Voltage"
+#~ msgstr "Bikaranîna Pîlê"
+
+#, fuzzy
+#~| msgid "Battery Charge"
+#~ msgid "Battery Discharge Rate"
+#~ msgstr "Şarja Pîlê"
+
+#~ msgid "Remaining Time"
+#~ msgstr "Demê Mayî"
+
+#~ msgid "Interrupts"
+#~ msgstr "Qutkirin"
+
+#~ msgid "Free Space"
+#~ msgstr "Cihê Vala"
+
+#, fuzzy
+#~| msgid "User Load"
+#~ msgid "Used Inodes"
+#~ msgstr "Barkirina Bikarhêner"
+
+#~ msgid "System"
+#~ msgstr "System"
+
+#, fuzzy
+#~| msgid "Total Number"
+#~ msgid "Total Number of Devices"
+#~ msgstr "Hejmara Tev"
+
+#~ msgid "CPU %1"
+#~ msgstr "CPU ya %1"
+
+#~ msgid "Disk %1"
+#~ msgstr "Dîska %1"
+
+#, fuzzy
+#~| msgid "Battery"
+#~ msgid "Battery %1"
+#~ msgstr "Pîl"
+
+#~ msgid "Temperature %1"
+#~ msgstr "Germahî ya %1"
+
+#~ msgid "Total"
+#~ msgstr "Hemû"
+
+#, fuzzy
+#~| msgid "Interrupts"
+#~ msgid "Software Interrupts"
+#~ msgstr "Qutkirin"
+
+#, fuzzy
+#~| msgid "Interrupts"
+#~ msgid "Hardware Interrupts"
+#~ msgstr "Qutkirin"
+
+#~ msgctxt "the unit 1 per second"
+#~ msgid "1/s"
+#~ msgstr "1/ç"
+
+#~ msgid "kBytes"
+#~ msgstr "kBayt"
+
+#~ msgctxt "the unit minutes"
+#~ msgid "min"
+#~ msgstr "xul"
+
+#~ msgctxt "the frequency unit"
+#~ msgid "MHz"
+#~ msgstr "MHz"
+
+#~ msgctxt "a percentage"
+#~ msgid "%"
+#~ msgstr "%"
+
+#, fuzzy
+#~| msgid " sec"
+#~ msgctxt "Units"
+#~ msgid "%1 second"
+#~ msgid_plural "%1 seconds"
+#~ msgstr[0] " çirke"
+#~ msgstr[1] " çirke"
+
+#, fuzzy
+#~| msgid " Memory: %1 / %2 "
+#~ msgctxt "Arguments are formatted byte sizes (used/total)"
+#~ msgid " Memory: %1 / %2 "
+#~ msgstr "Bîr: %1 / %2 "
+
+#~ msgid "Font:"
+#~ msgstr "Curenivîs:"
+
+#~ msgid "Background:"
+#~ msgstr "Rûerd:"
+
+#~ msgid "Do you really want to delete the display?"
+#~ msgstr "Tu rastî dixwazî vê xuyakirinê jê bibî?"
+
+#~ msgid "&Edit"
+#~ msgstr "&Sererastkirin"
+
+#, fuzzy
+#~| msgctxt "a percentage"
+#~| msgid "%"
+#~ msgctxt "units in percentage"
+#~ msgid "%1%"
+#~ msgstr "%"
+
+#~ msgid "&Title"
+#~ msgstr "Se&rnav"
+
+#~ msgid "T&itle"
+#~ msgstr "S&ernav"
+
+#, fuzzy
+#~| msgid "%"
+#~ msgctxt "Number suffix in spinbox"
+#~ msgid "%"
+#~ msgstr "%"
+
+#~ msgid "Labels"
+#~ msgstr "Etîket"
