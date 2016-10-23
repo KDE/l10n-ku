@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-10-21 06:54+0000\n"
+"POT-Creation-Date: 2016-10-23 06:55+0000\n"
 "PO-Revision-Date: 2009-01-06 14:18+0200\n"
 "Last-Translator: Erdal Ronahi <erdal.ronahi@nospam.gmail.com>\n"
 "Language-Team: American English <kde-i18n-doc@lists.kde.org>\n"
@@ -318,8 +318,7 @@ msgstr ""
 msgid "Feature"
 msgstr "Taybetmendî"
 
-#. i18n: ectx: property (title), widget (QGroupBox, gbDetails)
-#: about/konq_aboutpage.cpp:239 sidebar/history_module/history_dlg.ui:128
+#: about/konq_aboutpage.cpp:239
 msgid "Details"
 msgstr "Kîtekît"
 
@@ -536,460 +535,6 @@ msgstr "Sazkirî"
 msgid "<td>Mime Type</td><td>Description</td><td>Suffixes</td><td>Plugin</td>"
 msgstr "<td>Cureyê Mime</td><td>Daxuyanî</td><td>Paşgir</td><td>Pêvek</td>"
 
-#. i18n: ectx: property (title), widget (QGroupBox, gbLimits)
-#: sidebar/history_module/history_dlg.ui:16
-msgid "Limits"
-msgstr "Sînor"
-
-#. i18n: ectx: property (text), widget (QCheckBox, cbExpire)
-#: sidebar/history_module/history_dlg.ui:38
-msgid "URLs e&xpire after"
-msgstr "Bidawîbûna URL'yan"
-
-#. i18n: ectx: property (text), widget (QLabel, lEntries)
-#: sidebar/history_module/history_dlg.ui:48
-msgid "Maximum &number of URLs:"
-msgstr "&Hejmara herî zêde ya URL'yan:"
-
-#. i18n: ectx: property (title), widget (QGroupBox, gbFonts)
-#: sidebar/history_module/history_dlg.ui:67
-msgid "Custom Fonts For"
-msgstr "Curenivîsa Taybet:"
-
-#. i18n: ectx: property (text), widget (QLabel, lbNewer)
-#: sidebar/history_module/history_dlg.ui:82
-msgid "URLs newer than"
-msgstr "URL'yên ji vê dîrokê nûtir"
-
-#. i18n: ectx: property (text), widget (QPushButton, btnFontOlder)
-#. i18n: ectx: property (text), widget (QPushButton, btnFontNewer)
-#: sidebar/history_module/history_dlg.ui:98
-#: sidebar/history_module/history_dlg.ui:118
-msgid "Choose Font..."
-msgstr "Curenivîsê Hilbijêre..."
-
-#. i18n: ectx: property (text), widget (QLabel, lbOlder)
-#: sidebar/history_module/history_dlg.ui:105
-msgid "URLs older than"
-msgstr "URL'yên kevintir ji"
-
-#. i18n: ectx: property (toolTip), widget (QCheckBox, cbDetailedTips)
-#: sidebar/history_module/history_dlg.ui:134
-msgid ""
-"Shows the number of times visited and the dates of the first and last "
-"visits, in addition to the URL"
-msgstr ""
-"Hejmara serîlêdanan nîşan dide. Di heman demê de jî demên serîlêdana pêşî û "
-"dawî jî nîşan dide."
-
-#. i18n: ectx: property (text), widget (QCheckBox, cbDetailedTips)
-#: sidebar/history_module/history_dlg.ui:137
-msgid "Detailed tooltips"
-msgstr "Kîtekîtên alavan"
-
-#. i18n: ectx: property (text), widget (QPushButton, btnClearHistory)
-#: sidebar/history_module/history_dlg.ui:149
-msgid "Clear History"
-msgstr "Dîrokê jê bibe"
-
-#: sidebar/history_module/history_module.cpp:126
-#, fuzzy
-#| msgid "Web Sidebar"
-msgctxt "@action:inmenu Add"
-msgid "History Sidebar Module"
-msgstr "Darikê Kêlekê yê Webê"
-
-#: sidebar/history_module/history_module.cpp:149
-#, fuzzy
-#| msgid "Clear History"
-msgctxt "@title:tab"
-msgid "History"
-msgstr "Dîrokê jê bibe"
-
-#: sidebar/history_module/kcmhistory.cpp:68
-msgid "days"
-msgstr ""
-
-#: sidebar/history_module/kcmhistory.cpp:74
-#: sidebar/history_module/kcmhistory.cpp:79
-#: sidebar/history_module/kcmhistory.cpp:212
-#: sidebar/history_module/kcmhistory.cpp:225
-msgid "Minute"
-msgid_plural "Minutes"
-msgstr[0] "Xulek"
-msgstr[1] "Xulek"
-
-#: sidebar/history_module/kcmhistory.cpp:76
-#: sidebar/history_module/kcmhistory.cpp:81
-#: sidebar/history_module/kcmhistory.cpp:210
-#: sidebar/history_module/kcmhistory.cpp:223
-msgid "Day"
-msgid_plural "Days"
-msgstr[0] "Roj"
-msgstr[1] "Roj"
-
-#: sidebar/history_module/kcmhistory.cpp:195
-msgid "<h1>History Sidebar</h1> You can configure the history sidebar here."
-msgstr ""
-"<h1>Darikê Kêlekê yê Dîrokê</h1> Tu dikarî darikê kêlekê yê dîrokê li vir "
-"veava bike."
-
-#: sidebar/history_module/kcmhistory.cpp:257 src/konqhistoryview.cpp:171
-msgid "Do you really want to clear the entire history?"
-msgstr "Bi rastî jî tu dixwazî hemû rabirdûyê jê bibî?"
-
-#: sidebar/history_module/kcmhistory.cpp:259 src/konqhistoryview.cpp:172
-#, fuzzy
-#| msgid "Clear History?"
-msgctxt "@title:window"
-msgid "Clear History?"
-msgstr "Rabirdûyê Jê Bibî?"
-
-#: sidebar/places_module/places_module.cpp:116
-#, fuzzy
-#| msgid "Web Sidebar"
-msgctxt "@action:inmenu Add"
-msgid "Places Sidebar Module"
-msgstr "Darikê Kêlekê yê Webê"
-
-#: sidebar/places_module/places_module.cpp:139
-msgctxt "@title:tab"
-msgid "Places"
-msgstr ""
-
-#: sidebar/sidebar_part.cpp:34
-msgid "Extended Sidebar"
-msgstr "Darikê Kêlekê Veava Bike"
-
-#: sidebar/sidebar_part.cpp:35 src/konqfactory.cpp:269
-msgid "Joseph Wenninger"
-msgstr "Joseph Wenninger"
-
-#: sidebar/sidebar_part.cpp:36 src/konqfactory.cpp:236
-msgid "David Faure"
-msgstr "David Faure"
-
-#: sidebar/sidebar_widget.cpp:98
-msgid "Rollback to System Default"
-msgstr "Vegerînê Mîhengên Standard ên Pergalê"
-
-#: sidebar/sidebar_widget.cpp:159 sidebar/sidebar_widget.cpp:428
-msgid "Configure Sidebar"
-msgstr "Darikê Kêlekê Veava Bike"
-
-#: sidebar/sidebar_widget.cpp:161
-msgid "Add New"
-msgstr "Nû Têxe"
-
-#: sidebar/sidebar_widget.cpp:165
-msgid "Multiple Views"
-msgstr "Gelek Dîmen"
-
-#: sidebar/sidebar_widget.cpp:167 sidebar/sidebar_widget.cpp:280
-msgid "Show Tabs Left"
-msgstr "Hilpekînên Aliyê Çepê Nîşan Bide"
-
-#: sidebar/sidebar_widget.cpp:168
-msgid "Show Configuration Button"
-msgstr "Bişkokê Mîhengan Nîşan Bide"
-
-#: sidebar/sidebar_widget.cpp:171
-#, fuzzy
-#| msgid "Web Sidebar"
-msgid "Close Sidebar"
-msgstr "Darikê Kêlekê yê Webê"
-
-#: sidebar/sidebar_widget.cpp:228
-msgid "This entry already exists."
-msgstr "Ev ketan jixwe heye."
-
-#: sidebar/sidebar_widget.cpp:238
-msgid ""
-"<qt>This removes all your entries from the sidebar and adds the system "
-"default ones.<br /><b>This procedure is irreversible</b><br />Do you want to "
-"proceed?</qt>"
-msgstr ""
-"<qt>Pê re hemû ketanên te ji darikê kelekê tên rakirin û yên standard "
-"dikevin şûna wan.<br /><b>Jê nayê vegerandin</b><br />Tu dixwazî bidomînî?></"
-"qt>"
-
-#: sidebar/sidebar_widget.cpp:280
-msgid "Show Tabs Right"
-msgstr "Hilpekînên Aliyê Rastê Nîşan Bide"
-
-#: sidebar/sidebar_widget.cpp:290
-#, fuzzy
-#| msgid "Set Name"
-msgctxt "@title:window"
-msgid "Set Name"
-msgstr "Nav Hilbijêre"
-
-#: sidebar/sidebar_widget.cpp:290
-msgid "Enter the name:"
-msgstr "Navî binivîse:"
-
-#: sidebar/sidebar_widget.cpp:307
-msgid "Enter a URL:"
-msgstr "URL'ekê binivîse:"
-
-#: sidebar/sidebar_widget.cpp:329
-#, kde-format
-msgid "<qt>Do you really want to remove the <b>%1</b> tab?</qt>"
-msgstr "<qt>Bi rastî jî tu dixwazî hilfirîna <b>%1</b> rakî?</qt>"
-
-#: sidebar/sidebar_widget.cpp:370
-#, fuzzy
-#| msgid ""
-#| "You have hidden the navigation panel configuration button. To make it "
-#| "visible again, click the right mouse button on any of the navigation "
-#| "panel buttons and select \"Show Configuration Button\"."
-msgid ""
-"You have hidden the sidebar configuration button. To make it visible again, "
-"click the right mouse button on any of the sidebar buttons and select \"Show "
-"Configuration Button\"."
-msgstr ""
-"Te bişkojka veavakirina panela gerê girtiye. Ji bo wê careke din xuya bikî, "
-"mişkî li ciyeke ji rêzê a boşkojkên panela gerê rast bitikîne û \"Bişkojka "
-"Vevakirinê Nîşan Bide\" hilbijêre."
-
-#: sidebar/sidebar_widget.cpp:537
-msgid "Set Name..."
-msgstr "Nav Hilbijêre..."
-
-#: sidebar/sidebar_widget.cpp:538
-msgid "Set URL..."
-msgstr "URL Hilbijêre..."
-
-#: sidebar/sidebar_widget.cpp:539
-msgid "Set Icon..."
-msgstr "Îkonê Hilbijêre..."
-
-#: sidebar/sidebar_widget.cpp:541
-msgid "Remove"
-msgstr "Rakirin"
-
-#: sidebar/sidebar_widget.cpp:840
-#, fuzzy
-#| msgid "Web Sidebar"
-msgid "Web module"
-msgstr "Darikê Kêlekê yê Webê"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:75
-msgid "&Create New Folder"
-msgstr "&Peldaneke nû biafirîne"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:79
-#: sidebar/trees/konq_sidebartree.cpp:197
-msgid "Delete Folder"
-msgstr "Peldankê jê bibe"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:83
-msgid "Delete Bookmark"
-msgstr "Bijareyê Jê Bibe"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:87
-#: sidebar/trees/konq_sidebartree.cpp:214
-msgid "Properties"
-msgstr "Taybetmendî"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:91
-#: sidebar/trees/konq_sidebartree.cpp:218
-msgid "Open in New Window"
-msgstr "Di Paceyeke nû de Veke"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:95
-#: sidebar/trees/konq_sidebartree.cpp:222 src/konqhistoryview.cpp:67
-msgid "Open in New Tab"
-msgstr "Di Hilfirîna Nû de Veke"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:99
-msgid "Open Folder in Tabs"
-msgstr "Di paceyekê nû de veke"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:103
-#: sidebar/trees/konq_sidebartree.cpp:226
-msgid "Copy Link Address"
-msgstr "Girêdana Navnîşanê Ji Ber Bigire"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:323
-#, fuzzy
-#| msgid "Create New Folder"
-msgctxt "@title:window"
-msgid "Create New Bookmark Folder"
-msgstr "Afirandina Peldanka Nû"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:324
-#, fuzzy
-#| msgid "New Folder"
-msgid "New folder:"
-msgstr "Peldanka Nû"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:348
-#, kde-format
-msgid ""
-"Are you sure you wish to remove the bookmark folder\n"
-"\"%1\"?"
-msgstr ""
-"Bi rastî jî tu dixwazî vê peldanka bijareyê jê bibî\n"
-"\"%1\""
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:349
-#, kde-format
-msgid ""
-"Are you sure you wish to remove the bookmark\n"
-"\"%1\"?"
-msgstr ""
-"Bi rastî jî tu dixwazî vê bijareyê jê bibî\n"
-"\"%1\""
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:350
-#, fuzzy
-#| msgid "Bookmark Folder Deletion"
-msgctxt "@title:window"
-msgid "Bookmark Folder Deletion"
-msgstr "Jêbirina Peldankên Bijareyan"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:351
-#, fuzzy
-#| msgid "Bookmark Deletion"
-msgctxt "@title:window"
-msgid "Bookmark Deletion"
-msgstr "Jêbirina Bijareyan"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:396
-#, fuzzy
-#| msgid "Bookmark Properties"
-msgctxt "@title:window"
-msgid "Bookmark Properties"
-msgstr "Taybetmendiyên Bijareyan"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:582
-msgid "&Update"
-msgstr "&Rojanekirin"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:590
-msgid "Name:"
-msgstr "Nav:"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:598
-msgid "Location:"
-msgstr "Herêm:"
-
-#: sidebar/trees/bookmark_module/bookmark_module.h:86
-#, fuzzy
-#| msgid "Add Bookmark"
-msgctxt "@title:window"
-msgid "Add Bookmark"
-msgstr "Bijareyekê lê zêde bike"
-
-#: sidebar/trees/dirtree_module/dirtree_module.cpp:407
-#, kde-format
-msgid "Cannot find parent item %1 in the tree. Internal error."
-msgstr "Hêmana mak %1, li ser darê nayê dîtin. Çewtiya hundurîn."
-
-#: sidebar/trees/konq_sidebartree.cpp:193
-msgid "&Create New Folder..."
-msgstr "&Peldaneke nû biafirîne..."
-
-#: sidebar/trees/konq_sidebartree.cpp:201
-msgid "Move to Trash"
-msgstr ""
-
-#: sidebar/trees/konq_sidebartree.cpp:205
-msgid "Rename"
-msgstr "Nav biguherîne"
-
-#: sidebar/trees/konq_sidebartree.cpp:210
-msgid "Delete Link"
-msgstr "Girêdanê Jê Bibe"
-
-#: sidebar/trees/konq_sidebartree.cpp:933
-msgid "New Folder"
-msgstr "Peldanka Nû"
-
-#: sidebar/trees/konq_sidebartree.cpp:936
-#, fuzzy
-#| msgid "Create New Folder"
-msgctxt "@title:window"
-msgid "Create New Folder"
-msgstr "Afirandina Peldanka Nû"
-
-#: sidebar/trees/konq_sidebartree.cpp:937
-msgid "Enter folder name:"
-msgstr "Navê peldankê binivîse:"
-
-#: sidebar/trees/konqsidebar_oldtreemodule.cpp:184
-#: sidebar/web_module/web_module.cpp:298
-#, fuzzy
-#| msgid "Name:"
-msgctxt "@label"
-msgid "Name:"
-msgstr "Nav:"
-
-#: sidebar/trees/konqsidebar_oldtreemodule.cpp:184
-#: sidebar/web_module/web_module.cpp:298
-msgctxt "@label"
-msgid "Path or URL:"
-msgstr ""
-
-#: sidebar/trees/konqsidebar_oldtreemodule.cpp:185
-msgctxt "@title:window"
-msgid "Add folder sidebar module"
-msgstr ""
-
-#: sidebar/web_module/web_module.cpp:55
-msgid "&Open Link"
-msgstr "Lînk &Veke"
-
-#: sidebar/web_module/web_module.cpp:59 src/konqhistoryview.cpp:62
-#: src/konqmainwindow.cpp:4524
-msgid "Open in New &Window"
-msgstr "Di &Paceyeke Nû de Veke"
-
-#: sidebar/web_module/web_module.cpp:65 src/konqmainwindow.cpp:3673
-msgid "&Reload"
-msgstr "Ji &Nû Ve Bar Bike"
-
-#: sidebar/web_module/web_module.cpp:70
-msgid "Set &Automatic Reload"
-msgstr "Barkirina &Bixweber Mîheng Bike"
-
-#: sidebar/web_module/web_module.cpp:134
-#, fuzzy
-#| msgid "Set Refresh Timeout (0 disables)"
-msgctxt "@title:window"
-msgid "Set Refresh Timeout (0 disables)"
-msgstr "Maweya Nûkirinê Mîheng Bide (0 digire)"
-
-#: sidebar/web_module/web_module.cpp:142
-#, fuzzy
-#| msgid "Minute"
-#| msgid_plural "Minutes"
-msgid " minute"
-msgid_plural " minutes"
-msgstr[0] "Xulek"
-msgstr[1] "Xulek"
-
-#: sidebar/web_module/web_module.cpp:145
-#, fuzzy
-#| msgid " sec"
-msgid " second"
-msgid_plural " seconds"
-msgstr[0] " çirke"
-msgstr[1] " çirke"
-
-#: sidebar/web_module/web_module.cpp:278
-#, fuzzy
-#| msgid "Web Sidebar"
-msgctxt "@action:inmenu Add"
-msgid "Web Sidebar Module"
-msgstr "Darikê Kêlekê yê Webê"
-
-#: sidebar/web_module/web_module.cpp:299
-msgctxt "@title:window"
-msgid "Add web sidebar module"
-msgstr ""
-
 #: src/konq_statusbarmessagelabel.cpp:82
 #, fuzzy
 #| msgid "Close View"
@@ -1047,6 +592,10 @@ msgstr "(c) 1999-2008, Pêşvebirên Konqueror"
 #: src/konqfactory.cpp:235
 msgid "http://konqueror.kde.org"
 msgstr "http://konqueror.kde.org"
+
+#: src/konqfactory.cpp:236
+msgid "David Faure"
+msgstr "David Faure"
 
 #: src/konqfactory.cpp:236
 msgid "Developer (framework, parts, JavaScript, I/O library) and maintainer"
@@ -1267,6 +816,10 @@ msgid "KFM author"
 msgstr "Nivîskarê KFM"
 
 #: src/konqfactory.cpp:269
+msgid "Joseph Wenninger"
+msgstr "Joseph Wenninger"
+
+#: src/konqfactory.cpp:269
 msgid "Developer (navigation panel framework)"
 msgstr "Pêşvebir (çarçoveya panela navîgasiyonê)"
 
@@ -1356,6 +909,14 @@ msgstr ""
 msgid "Miscellaneous"
 msgstr "Cur be Cur"
 
+#: src/konqhistoryview.cpp:62 src/konqmainwindow.cpp:4524
+msgid "Open in New &Window"
+msgstr "Di &Paceyeke Nû de Veke"
+
+#: src/konqhistoryview.cpp:67
+msgid "Open in New Tab"
+msgstr "Di Hilfirîna Nû de Veke"
+
 #: src/konqhistoryview.cpp:71
 #, fuzzy
 #| msgid "Copy Link Address"
@@ -1387,6 +948,17 @@ msgstr "Bi &Dîrokê"
 #| msgid "Clear History"
 msgid "Search in history"
 msgstr "Dîrokê jê bibe"
+
+#: src/konqhistoryview.cpp:171
+msgid "Do you really want to clear the entire history?"
+msgstr "Bi rastî jî tu dixwazî hemû rabirdûyê jê bibî?"
+
+#: src/konqhistoryview.cpp:172
+#, fuzzy
+#| msgid "Clear History?"
+msgctxt "@title:window"
+msgid "Clear History?"
+msgstr "Rabirdûyê Jê Bibî?"
 
 #: src/konqmain.cpp:62
 #, fuzzy
@@ -1727,6 +1299,10 @@ msgstr "Pekanê Bibe Aliyê Rastê"
 #: src/konqmainwindow.cpp:3655
 msgid "Dump Debug Info"
 msgstr "Agahiya Çewtiyan Nîşan Bide"
+
+#: src/konqmainwindow.cpp:3673
+msgid "&Reload"
+msgstr "Ji &Nû Ve Bar Bike"
 
 #: src/konqmainwindow.cpp:3678 src/konqtabs.cpp:334
 msgid "&Reload All Tabs"
@@ -2471,6 +2047,302 @@ msgstr "Hişyarî"
 #: src/konqview.cpp:1251
 msgid "Resend"
 msgstr "Ji nû ve bişîne"
+
+#~ msgid "Limits"
+#~ msgstr "Sînor"
+
+#~ msgid "URLs e&xpire after"
+#~ msgstr "Bidawîbûna URL'yan"
+
+#~ msgid "Maximum &number of URLs:"
+#~ msgstr "&Hejmara herî zêde ya URL'yan:"
+
+#~ msgid "Custom Fonts For"
+#~ msgstr "Curenivîsa Taybet:"
+
+#~ msgid "URLs newer than"
+#~ msgstr "URL'yên ji vê dîrokê nûtir"
+
+#~ msgid "Choose Font..."
+#~ msgstr "Curenivîsê Hilbijêre..."
+
+#~ msgid "URLs older than"
+#~ msgstr "URL'yên kevintir ji"
+
+#~ msgid ""
+#~ "Shows the number of times visited and the dates of the first and last "
+#~ "visits, in addition to the URL"
+#~ msgstr ""
+#~ "Hejmara serîlêdanan nîşan dide. Di heman demê de jî demên serîlêdana pêşî "
+#~ "û dawî jî nîşan dide."
+
+#~ msgid "Detailed tooltips"
+#~ msgstr "Kîtekîtên alavan"
+
+#~ msgid "Clear History"
+#~ msgstr "Dîrokê jê bibe"
+
+#, fuzzy
+#~| msgid "Web Sidebar"
+#~ msgctxt "@action:inmenu Add"
+#~ msgid "History Sidebar Module"
+#~ msgstr "Darikê Kêlekê yê Webê"
+
+#, fuzzy
+#~| msgid "Clear History"
+#~ msgctxt "@title:tab"
+#~ msgid "History"
+#~ msgstr "Dîrokê jê bibe"
+
+#~ msgid "Minute"
+#~ msgid_plural "Minutes"
+#~ msgstr[0] "Xulek"
+#~ msgstr[1] "Xulek"
+
+#~ msgid "Day"
+#~ msgid_plural "Days"
+#~ msgstr[0] "Roj"
+#~ msgstr[1] "Roj"
+
+#~ msgid "<h1>History Sidebar</h1> You can configure the history sidebar here."
+#~ msgstr ""
+#~ "<h1>Darikê Kêlekê yê Dîrokê</h1> Tu dikarî darikê kêlekê yê dîrokê li vir "
+#~ "veava bike."
+
+#, fuzzy
+#~| msgid "Web Sidebar"
+#~ msgctxt "@action:inmenu Add"
+#~ msgid "Places Sidebar Module"
+#~ msgstr "Darikê Kêlekê yê Webê"
+
+#~ msgid "Extended Sidebar"
+#~ msgstr "Darikê Kêlekê Veava Bike"
+
+#~ msgid "Rollback to System Default"
+#~ msgstr "Vegerînê Mîhengên Standard ên Pergalê"
+
+#~ msgid "Configure Sidebar"
+#~ msgstr "Darikê Kêlekê Veava Bike"
+
+#~ msgid "Add New"
+#~ msgstr "Nû Têxe"
+
+#~ msgid "Multiple Views"
+#~ msgstr "Gelek Dîmen"
+
+#~ msgid "Show Tabs Left"
+#~ msgstr "Hilpekînên Aliyê Çepê Nîşan Bide"
+
+#~ msgid "Show Configuration Button"
+#~ msgstr "Bişkokê Mîhengan Nîşan Bide"
+
+#, fuzzy
+#~| msgid "Web Sidebar"
+#~ msgid "Close Sidebar"
+#~ msgstr "Darikê Kêlekê yê Webê"
+
+#~ msgid "This entry already exists."
+#~ msgstr "Ev ketan jixwe heye."
+
+#~ msgid ""
+#~ "<qt>This removes all your entries from the sidebar and adds the system "
+#~ "default ones.<br /><b>This procedure is irreversible</b><br />Do you want "
+#~ "to proceed?</qt>"
+#~ msgstr ""
+#~ "<qt>Pê re hemû ketanên te ji darikê kelekê tên rakirin û yên standard "
+#~ "dikevin şûna wan.<br /><b>Jê nayê vegerandin</b><br />Tu dixwazî bidomînî?"
+#~ "></qt>"
+
+#~ msgid "Show Tabs Right"
+#~ msgstr "Hilpekînên Aliyê Rastê Nîşan Bide"
+
+#, fuzzy
+#~| msgid "Set Name"
+#~ msgctxt "@title:window"
+#~ msgid "Set Name"
+#~ msgstr "Nav Hilbijêre"
+
+#~ msgid "Enter the name:"
+#~ msgstr "Navî binivîse:"
+
+#~ msgid "Enter a URL:"
+#~ msgstr "URL'ekê binivîse:"
+
+#~ msgid "<qt>Do you really want to remove the <b>%1</b> tab?</qt>"
+#~ msgstr "<qt>Bi rastî jî tu dixwazî hilfirîna <b>%1</b> rakî?</qt>"
+
+#, fuzzy
+#~| msgid ""
+#~| "You have hidden the navigation panel configuration button. To make it "
+#~| "visible again, click the right mouse button on any of the navigation "
+#~| "panel buttons and select \"Show Configuration Button\"."
+#~ msgid ""
+#~ "You have hidden the sidebar configuration button. To make it visible "
+#~ "again, click the right mouse button on any of the sidebar buttons and "
+#~ "select \"Show Configuration Button\"."
+#~ msgstr ""
+#~ "Te bişkojka veavakirina panela gerê girtiye. Ji bo wê careke din xuya "
+#~ "bikî, mişkî li ciyeke ji rêzê a boşkojkên panela gerê rast bitikîne û "
+#~ "\"Bişkojka Vevakirinê Nîşan Bide\" hilbijêre."
+
+#~ msgid "Set Name..."
+#~ msgstr "Nav Hilbijêre..."
+
+#~ msgid "Set URL..."
+#~ msgstr "URL Hilbijêre..."
+
+#~ msgid "Set Icon..."
+#~ msgstr "Îkonê Hilbijêre..."
+
+#~ msgid "Remove"
+#~ msgstr "Rakirin"
+
+#, fuzzy
+#~| msgid "Web Sidebar"
+#~ msgid "Web module"
+#~ msgstr "Darikê Kêlekê yê Webê"
+
+#~ msgid "&Create New Folder"
+#~ msgstr "&Peldaneke nû biafirîne"
+
+#~ msgid "Delete Folder"
+#~ msgstr "Peldankê jê bibe"
+
+#~ msgid "Delete Bookmark"
+#~ msgstr "Bijareyê Jê Bibe"
+
+#~ msgid "Properties"
+#~ msgstr "Taybetmendî"
+
+#~ msgid "Open in New Window"
+#~ msgstr "Di Paceyeke nû de Veke"
+
+#~ msgid "Open Folder in Tabs"
+#~ msgstr "Di paceyekê nû de veke"
+
+#~ msgid "Copy Link Address"
+#~ msgstr "Girêdana Navnîşanê Ji Ber Bigire"
+
+#, fuzzy
+#~| msgid "Create New Folder"
+#~ msgctxt "@title:window"
+#~ msgid "Create New Bookmark Folder"
+#~ msgstr "Afirandina Peldanka Nû"
+
+#, fuzzy
+#~| msgid "New Folder"
+#~ msgid "New folder:"
+#~ msgstr "Peldanka Nû"
+
+#~ msgid ""
+#~ "Are you sure you wish to remove the bookmark folder\n"
+#~ "\"%1\"?"
+#~ msgstr ""
+#~ "Bi rastî jî tu dixwazî vê peldanka bijareyê jê bibî\n"
+#~ "\"%1\""
+
+#~ msgid ""
+#~ "Are you sure you wish to remove the bookmark\n"
+#~ "\"%1\"?"
+#~ msgstr ""
+#~ "Bi rastî jî tu dixwazî vê bijareyê jê bibî\n"
+#~ "\"%1\""
+
+#, fuzzy
+#~| msgid "Bookmark Folder Deletion"
+#~ msgctxt "@title:window"
+#~ msgid "Bookmark Folder Deletion"
+#~ msgstr "Jêbirina Peldankên Bijareyan"
+
+#, fuzzy
+#~| msgid "Bookmark Deletion"
+#~ msgctxt "@title:window"
+#~ msgid "Bookmark Deletion"
+#~ msgstr "Jêbirina Bijareyan"
+
+#, fuzzy
+#~| msgid "Bookmark Properties"
+#~ msgctxt "@title:window"
+#~ msgid "Bookmark Properties"
+#~ msgstr "Taybetmendiyên Bijareyan"
+
+#~ msgid "&Update"
+#~ msgstr "&Rojanekirin"
+
+#~ msgid "Name:"
+#~ msgstr "Nav:"
+
+#~ msgid "Location:"
+#~ msgstr "Herêm:"
+
+#, fuzzy
+#~| msgid "Add Bookmark"
+#~ msgctxt "@title:window"
+#~ msgid "Add Bookmark"
+#~ msgstr "Bijareyekê lê zêde bike"
+
+#~ msgid "Cannot find parent item %1 in the tree. Internal error."
+#~ msgstr "Hêmana mak %1, li ser darê nayê dîtin. Çewtiya hundurîn."
+
+#~ msgid "&Create New Folder..."
+#~ msgstr "&Peldaneke nû biafirîne..."
+
+#~ msgid "Rename"
+#~ msgstr "Nav biguherîne"
+
+#~ msgid "Delete Link"
+#~ msgstr "Girêdanê Jê Bibe"
+
+#~ msgid "New Folder"
+#~ msgstr "Peldanka Nû"
+
+#, fuzzy
+#~| msgid "Create New Folder"
+#~ msgctxt "@title:window"
+#~ msgid "Create New Folder"
+#~ msgstr "Afirandina Peldanka Nû"
+
+#~ msgid "Enter folder name:"
+#~ msgstr "Navê peldankê binivîse:"
+
+#, fuzzy
+#~| msgid "Name:"
+#~ msgctxt "@label"
+#~ msgid "Name:"
+#~ msgstr "Nav:"
+
+#~ msgid "&Open Link"
+#~ msgstr "Lînk &Veke"
+
+#~ msgid "Set &Automatic Reload"
+#~ msgstr "Barkirina &Bixweber Mîheng Bike"
+
+#, fuzzy
+#~| msgid "Set Refresh Timeout (0 disables)"
+#~ msgctxt "@title:window"
+#~ msgid "Set Refresh Timeout (0 disables)"
+#~ msgstr "Maweya Nûkirinê Mîheng Bide (0 digire)"
+
+#, fuzzy
+#~| msgid "Minute"
+#~| msgid_plural "Minutes"
+#~ msgid " minute"
+#~ msgid_plural " minutes"
+#~ msgstr[0] "Xulek"
+#~ msgstr[1] "Xulek"
+
+#, fuzzy
+#~| msgid " sec"
+#~ msgid " second"
+#~ msgid_plural " seconds"
+#~ msgstr[0] " çirke"
+#~ msgstr[1] " çirke"
+
+#, fuzzy
+#~| msgid "Web Sidebar"
+#~ msgctxt "@action:inmenu Add"
+#~ msgid "Web Sidebar Module"
+#~ msgstr "Darikê Kêlekê yê Webê"
 
 #~ msgid "&Use index.html"
 #~ msgstr "&Bikaranîna index.html"
