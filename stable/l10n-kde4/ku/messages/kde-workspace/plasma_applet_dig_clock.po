@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_dig_clock\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-11-05 11:50+0000\n"
+"POT-Creation-Date: 2016-11-19 18:41+0100\n"
 "PO-Revision-Date: 2008-12-26 00:53+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <gnu-ku-wergerandin at lists dot sourceforge dot "
@@ -21,37 +21,39 @@ msgstr ""
 "X-Poedit-Language: Kurdish\n"
 
 #: clock.cpp:263
+#, kde-format
 msgid "Appearance"
 msgstr "Xuyanî"
 
 #: clock.cpp:278
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Show date:"
 msgctxt "A kind of date representation"
 msgid "No date"
 msgstr "Dîrokê nîşan bide:"
 
 #: clock.cpp:279
+#, kde-format
 msgctxt "A kind of date representation"
 msgid "Compact date"
 msgstr ""
 
 #: clock.cpp:280
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Show date:"
 msgctxt "A kind of date representation"
 msgid "Short date"
 msgstr "Dîrokê nîşan bide:"
 
 #: clock.cpp:281
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Show date:"
 msgctxt "A kind of date representation"
 msgid "Long date"
 msgstr "Dîrokê nîşan bide:"
 
 #: clock.cpp:282
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Show date:"
 msgctxt "A kind of date representation"
 msgid "ISO date"
@@ -75,58 +77,68 @@ msgstr "%1 %2"
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #: clockConfig.ui:26
+#, kde-format
 msgid "Font"
 msgstr "Cure nivîs"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: clockConfig.ui:33
+#, kde-format
 msgid "Font style:"
 msgstr "Teşeyê nivîsê:"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, plainClockFontBold)
 #: clockConfig.ui:69
+#, kde-format
 msgid "Check if you want the font in bold"
 msgstr "Heke tu nivîsa qalind bixwazî vê nîşan bike"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, plainClockFontBold)
 #: clockConfig.ui:72
+#, kde-format
 msgid "When this is checked, the clock font will be bold."
 msgstr "Piştî nîşan kirina vê, nivîsa demjimêr ê bibe qalind. "
 
 #. i18n: ectx: property (text), widget (QCheckBox, plainClockFontBold)
 #: clockConfig.ui:75
+#, kde-format
 msgid "&Bold"
 msgstr "&Qalind"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, plainClockFontItalic)
 #: clockConfig.ui:82
+#, kde-format
 msgid "Check if you want the font in italic"
 msgstr "Heke tu nivîsa paldayî bixwazî vê nîşan bike"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, plainClockFontItalic)
 #: clockConfig.ui:85
+#, kde-format
 msgid "When this is checked, the clock font will be in italic."
 msgstr "Piştî nîşan kirina vê, nivîsa demjimêr ê bibe paldayî. "
 
 #. i18n: ectx: property (text), widget (QCheckBox, plainClockFontItalic)
 #: clockConfig.ui:88
+#, kde-format
 msgid "&Italic"
 msgstr "&Paldayî"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: clockConfig.ui:111
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Font color:"
 msgid "Custom font color:"
 msgstr "Rengê nivîsê:"
 
 #. i18n: ectx: property (toolTip), widget (KColorButton, plainClockColor)
 #: clockConfig.ui:136
+#, kde-format
 msgid "Color chooser"
 msgstr "Reng bijarker"
 
 #. i18n: ectx: property (whatsThis), widget (KColorButton, plainClockColor)
 #: clockConfig.ui:139
+#, kde-format
 msgid ""
 "Click on this button and the KDE standard color dialog will show. You can "
 "then choose the new color you want for your clock."
@@ -136,28 +148,28 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_9)
 #: clockConfig.ui:161
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Show seconds:"
 msgid "Show shadow:"
 msgstr "Çirkeyan nîşan bide:"
 
 #. i18n: ectx: property (text), widget (QLabel, customShadowColorLabel)
 #: clockConfig.ui:198
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Use custom color"
 msgid "Custom shadow color:"
 msgstr "Rengê taybet bi kar bîne"
 
 #. i18n: ectx: property (toolTip), widget (KColorButton, plainClockShadowColor)
 #: clockConfig.ui:216
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Color chooser"
 msgid "Shadow color chooser"
 msgstr "Reng bijarker"
 
 #. i18n: ectx: property (whatsThis), widget (KColorButton, plainClockShadowColor)
 #: clockConfig.ui:219
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid ""
 #| "Click on this button and the KDE standard color dialog will show. You can "
 #| "then choose the new color you want for your clock."
@@ -170,41 +182,49 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #: clockConfig.ui:257
+#, kde-format
 msgid "Information"
 msgstr "Agahî"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: clockConfig.ui:264
+#, kde-format
 msgid "Show time zone:"
 msgstr "Demê herêmî nîşan bide:"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, showTimeZone)
 #: clockConfig.ui:279
+#, kde-format
 msgid "Display the time zone name"
 msgstr "Navê demê herêmî nîşan bide"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, showTimeZone)
 #: clockConfig.ui:282
+#, kde-format
 msgid "Display the time zone name under the time."
 msgstr "Navê demê herêmî bin demê de nîşan bide."
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: clockConfig.ui:307
+#, kde-format
 msgid "Show seconds:"
 msgstr "Çirkeyan nîşan bide:"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, secondsCheckbox)
 #: clockConfig.ui:322
+#, kde-format
 msgid "Show the seconds"
 msgstr "Çirkeyan nîşan bide"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, secondsCheckbox)
 #: clockConfig.ui:325
+#, kde-format
 msgid "Check this if you want to show the seconds."
 msgstr "Heke bixwazî çirkeyan nîşan bidî, vê nîşan bike."
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: clockConfig.ui:350
+#, kde-format
 msgid "Date format:"
 msgstr ""
 

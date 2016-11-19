@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcomponentchooser\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-20 04:50+0200\n"
+"POT-Creation-Date: 2016-11-19 18:41+0100\n"
 "PO-Revision-Date: 2009-01-06 14:06+0200\n"
 "Last-Translator: Erdal Ronahi <erdal.ronahi@nospam.gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -20,26 +20,31 @@ msgstr ""
 "X-Poedit-Language: Kurdish\n"
 "X-Poedit-SourceCharset: utf8\n"
 
+#, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Ezadin Mahmoud"
 
+#, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "ezadin76@gmail.com"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: browserconfig_ui.ui:12
+#, kde-format
 msgid "<qt>Open <b>http</b> and <b>https</b> URLs</qt>"
 msgstr "<qt>URL'yên <b>http</b> û <b>https</b> veke</qt>"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioKIO)
 #: browserconfig_ui.ui:19
+#, kde-format
 msgid "in an application based on the contents of the URL"
 msgstr "di sepanekî bingeha naveroka vî URL de"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioExec)
 #: browserconfig_ui.ui:29
+#, kde-format
 msgid "in the following browser:"
 msgstr "di vî gerokî de:"
 
@@ -47,16 +52,19 @@ msgstr "di vî gerokî de:"
 #. i18n: ectx: property (text), widget (QToolButton, btnSelectEmail)
 #. i18n: ectx: property (text), widget (QToolButton, btnSelectFileManager)
 #. i18n: ectx: property (text), widget (QToolButton, btnSelectTerminal)
-#: browserconfig_ui.ui:64 emailclientconfig_ui.ui:69
-#: filemanagerconfig_ui.ui:41 terminalemulatorconfig_ui.ui:60
+#: browserconfig_ui.ui:64 emailclientconfig_ui.ui:69 filemanagerconfig_ui.ui:41
+#: terminalemulatorconfig_ui.ui:60
+#, kde-format
 msgid "..."
 msgstr "..."
 
 #: componentchooser.cpp:135
+#, kde-format
 msgid "Unknown"
 msgstr "Nenas"
 
 #: componentchooser.cpp:151
+#, kde-format
 msgid ""
 "<qt>You changed the default component of your choice, do want to save that "
 "change now ?</qt>"
@@ -65,6 +73,7 @@ msgstr ""
 "tomarbike ?</qt>"
 
 #: componentchooser.cpp:155
+#, kde-format
 msgid "No description available"
 msgstr "Ravek ne berdest e"
 
@@ -79,6 +88,7 @@ msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, GroupBox1)
 #: componentchooser_ui.ui:26
+#, kde-format
 msgid ""
 "Here you can change the component program. Components are programs that "
 "handle basic tasks, like the terminal emulator, the text editor and the "
@@ -96,11 +106,13 @@ msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, GroupBox1)
 #: componentchooser_ui.ui:29
+#, kde-format
 msgid "Default Component"
 msgstr "Pêkhênanê Standard"
 
 #. i18n: ectx: property (whatsThis), widget (KListWidget, ServiceChooser)
 #: componentchooser_ui.ui:44
+#, kde-format
 msgid ""
 "<qt>\n"
 "<p>This list shows the configurable component types. Click the component you "
@@ -125,26 +137,32 @@ msgstr ""
 "</qt>"
 
 #: componentchooserbrowser.cpp:103
+#, kde-format
 msgid "Select preferred Web browser application:"
 msgstr "Sepanê gerokê torê yê xwestî hilbijêre:"
 
 #: componentchooseremail.cpp:79
+#, kde-format
 msgid "Select preferred email client:"
 msgstr "Daxwazkerê epeyamê yê xwestî hilbijêre:"
 
 #: componentchooserterminal.cpp:95
+#, kde-format
 msgid "Select preferred terminal application:"
 msgstr "Sepanê terminal yê xwestî hilbijêre:"
 
 #: componentchooserwm.cpp:89
+#, kde-format
 msgid "The new window manager will be used when KDE is started the next time."
 msgstr ""
 
 #: componentchooserwm.cpp:90 componentchooserwm.cpp:143
+#, kde-format
 msgid "Window Manager Change"
 msgstr ""
 
 #: componentchooserwm.cpp:103
+#, kde-format
 msgid ""
 "A new window manager is running.\n"
 "It is still recommended to restart this KDE session to make sure all running "
@@ -152,27 +170,33 @@ msgid ""
 msgstr ""
 
 #: componentchooserwm.cpp:106
+#, kde-format
 msgid "Window Manager Replaced"
 msgstr ""
 
 #: componentchooserwm.cpp:142
+#, kde-format
 msgid ""
 "Your running window manager will be now replaced with the configured one."
 msgstr ""
 
 #: componentchooserwm.cpp:151
+#, kde-format
 msgid "Config Window Manager Change"
 msgstr ""
 
 #: componentchooserwm.cpp:153
+#, kde-format
 msgid "&Accept Change"
 msgstr ""
 
 #: componentchooserwm.cpp:154
+#, kde-format
 msgid "&Revert to Previous"
 msgstr ""
 
 #: componentchooserwm.cpp:156
+#, kde-format
 msgid ""
 "The configured window manager is being launched.\n"
 "Please check it has started properly and confirm the change.\n"
@@ -180,12 +204,14 @@ msgid ""
 msgstr ""
 
 #: componentchooserwm.cpp:171
+#, kde-format
 msgid ""
 "The running window manager has been reverted to the default KDE window "
 "manager KWin."
 msgstr ""
 
 #: componentchooserwm.cpp:178
+#, kde-format
 msgid ""
 "The new window manager has failed to start.\n"
 "The running window manager has been reverted to the default KDE window "
@@ -193,32 +219,37 @@ msgid ""
 msgstr ""
 
 #: componentchooserwm.cpp:300
+#, kde-format
 msgid "Running the configuration tool failed"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, kmailCB)
 #: emailclientconfig_ui.ui:12
+#, kde-format
 msgid "Kmail is the standard Mail program for the KDE desktop."
 msgstr "Kmail programa Mail ya standard e ji bo sermaseya KDE."
 
 #. i18n: ectx: property (text), widget (QRadioButton, kmailCB)
 #: emailclientconfig_ui.ui:15
+#, kde-format
 msgid "&Use KMail as preferred email client"
 msgstr "&KMail wekî daxwezkerê email yê xwestî bikar bîne."
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, otherCB)
 #: emailclientconfig_ui.ui:22
+#, kde-format
 msgid "Select this option if you want to use any other mail program."
 msgstr "Vê opsyonê hilbijêre heke tu bixwaze programekî emailê dî bi kar bînî."
 
 #. i18n: ectx: property (text), widget (QRadioButton, otherCB)
 #: emailclientconfig_ui.ui:25
+#, kde-format
 msgid "Use a different &email client:"
 msgstr "&Daxwazkerekî emailê din bikar bîne:"
 
 #. i18n: ectx: property (toolTip), widget (KLineEdit, txtEMailClient)
 #: emailclientconfig_ui.ui:53
-#, no-c-format
+#, no-c-format, kde-format
 msgid ""
 "<ul> <li>%t: Recipient's address</li> <li>%s: Subject</li> <li>%c: Carbon "
 "Copy (CC)</li> <li>%b: Blind Carbon Copy (BCC)</li> <li>%B: Template body "
@@ -230,7 +261,7 @@ msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, txtEMailClient)
 #: emailclientconfig_ui.ui:56
-#, no-c-format
+#, no-c-format, kde-format
 msgid ""
 "Press this button to select your favorite email client. Please note that the "
 "file you select has to have the executable attribute set in order to be "
@@ -249,11 +280,13 @@ msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QToolButton, btnSelectEmail)
 #: emailclientconfig_ui.ui:66
+#, kde-format
 msgid "Click here to browse for the mail program file."
 msgstr "Jibo lêgerîna li pela programa Mailê livir bitekîne."
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkRunTerminal)
 #: emailclientconfig_ui.ui:99
+#, kde-format
 msgid ""
 "Activate this option if you want the selected email client to be executed in "
 "a terminal (e.g. <em>Konsole</em>)."
@@ -263,32 +296,39 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkRunTerminal)
 #: emailclientconfig_ui.ui:102
+#, kde-format
 msgid "&Run in terminal"
 msgstr "Di terminalê de bi&xebitîne"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: filemanagerconfig_ui.ui:12
+#, kde-format
 msgid "Browse directories using the following file manager:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioExec)
 #: filemanagerconfig_ui.ui:24
+#, kde-format
 msgid "Other: click Add... in the dialog shown here:"
 msgstr ""
 
 #: kcm_componentchooser.cpp:46
+#, kde-format
 msgid "kcmcomponentchooser"
 msgstr "kcmcomponentchooser"
 
 #: kcm_componentchooser.cpp:46
+#, kde-format
 msgid "Component Chooser"
 msgstr "Hilbijêrê beşan"
 
 #: kcm_componentchooser.cpp:48
+#, kde-format
 msgid "(c), 2002 Joseph Wenninger"
 msgstr "(c), 2002 Joseph Wenninger"
 
 #: kcm_componentchooser.cpp:50
+#, kde-format
 msgid "Joseph Wenninger"
 msgstr " Joseph Wenninger"
 
@@ -301,16 +341,19 @@ msgstr[1] ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, terminalCB)
 #: terminalemulatorconfig_ui.ui:12
+#, kde-format
 msgid "&Use Konsole as terminal application"
 msgstr "&Konsol wekî sepanê termînal bikar bîne"
 
 #. i18n: ectx: property (text), widget (QRadioButton, otherCB)
 #: terminalemulatorconfig_ui.ui:19
+#, kde-format
 msgid "Use a different &terminal program:"
 msgstr "P&rogrameke termînalî cuda bikar bîne:"
 
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, terminalLE)
 #: terminalemulatorconfig_ui.ui:47
+#, kde-format
 msgid ""
 "Press this button to select your favorite terminal client. Please note that "
 "the file you select has to have the executable attribute set in order to be "
@@ -324,28 +367,32 @@ msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QToolButton, btnSelectTerminal)
 #: terminalemulatorconfig_ui.ui:57
+#, kde-format
 msgid "Click here to browse for terminal program."
 msgstr "Ji bo lêgerina li programa terminal li vir bitikîne."
 
 #. i18n: ectx: property (text), widget (QRadioButton, kwinRB)
 #: wmconfig_ui.ui:12
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Use a different &window manager:"
 msgid "&Use the default KDE window manager (KWin)"
 msgstr "Gerînendeyê &paceyan yê cuda bikar bîne:"
 
 #. i18n: ectx: property (text), widget (QRadioButton, differentRB)
 #: wmconfig_ui.ui:19
+#, kde-format
 msgid "Use a different &window manager:"
 msgstr "Gerînendeyê &paceyan yê cuda bikar bîne:"
 
 #. i18n: ectx: property (text), widget (KPushButton, configureButton)
 #: wmconfig_ui.ui:60
+#, kde-format
 msgid "Configure"
 msgstr "Mîheng Bike"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: wmconfig_ui.ui:87
+#, kde-format
 msgid ""
 "Note: Most window managers have their own configuration and do not follow "
 "KDE settings."

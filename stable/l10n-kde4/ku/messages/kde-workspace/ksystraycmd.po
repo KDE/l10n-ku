@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksystraycmd\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-11-05 11:50+0000\n"
+"POT-Creation-Date: 2016-11-19 18:41+0100\n"
 "PO-Revision-Date: 2009-01-06 01:09+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
@@ -19,10 +19,12 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-Language: Kurdish\n"
 
+#, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Omer Ensari"
 
+#, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "oensari@gmail.com"
@@ -33,46 +35,57 @@ msgid "No window matching pattern '%1' and no command specified.\n"
 msgstr ""
 
 #: ksystraycmd.cpp:87
+#, kde-format
 msgid "KSysTrayCmd: K3ShellProcess cannot find a shell."
 msgstr "KSysTrayCmd: K3ShellProcess nikare shell bibîne."
 
 #: ksystraycmd.cpp:248 main.cpp:26
+#, kde-format
 msgid "KSysTrayCmd"
 msgstr "KSysTrayCmd"
 
 #: ksystraycmd.cpp:249
+#, kde-format
 msgid "&Hide"
 msgstr "&Veşêre"
 
 #: ksystraycmd.cpp:249
+#, kde-format
 msgid "&Restore"
 msgstr "&Paşde bîne"
 
 #: ksystraycmd.cpp:250
+#, kde-format
 msgid "&Undock"
 msgstr "&Veqetîne"
 
 #: ksystraycmd.cpp:251
+#, kde-format
 msgid "&Quit"
 msgstr "&Derkeve"
 
 #: main.cpp:28
+#, kde-format
 msgid "Allows any application to be kept in the system tray"
 msgstr ""
 
 #: main.cpp:30
+#, kde-format
 msgid "(C) 2001-2002 Richard Moore (rich@kde.org)"
 msgstr "(C) 2001-2002 Richard Moore (rich@kde.org)"
 
 #: main.cpp:31
+#, kde-format
 msgid "Richard Moore"
 msgstr "Richard Moore"
 
 #: main.cpp:36
+#, kde-format
 msgid "Command to execute"
 msgstr "Fermana were xebitandin"
 
 #: main.cpp:38
+#, kde-format
 msgid ""
 "A regular expression matching the window title\n"
 "If you do not specify one, then the very first window\n"
@@ -80,6 +93,7 @@ msgid ""
 msgstr ""
 
 #: main.cpp:41
+#, kde-format
 msgid ""
 "The window id of the target window\n"
 "Specifies the id of the window to use. If the id starts with 0x\n"
@@ -87,41 +101,49 @@ msgid ""
 msgstr ""
 
 #: main.cpp:44
+#, kde-format
 msgid "Hide the window to the tray on startup"
 msgstr ""
 
 #: main.cpp:45
+#, kde-format
 msgid ""
 "Wait until we are told to show the window before\n"
 "executing the command"
 msgstr ""
 
 #: main.cpp:47
+#, kde-format
 msgid "Sets the initial tooltip for the tray icon"
 msgstr ""
 
 #: main.cpp:48
+#, kde-format
 msgid ""
 "Keep the tray icon even if the client exits. This option\n"
 "has no effect unless startonshow is specified."
 msgstr ""
 
 #: main.cpp:50
+#, kde-format
 msgid ""
 "Use ksystraycmd's icon instead of the window's icon in the systray\n"
 "(should be used with --icon to specify ksystraycmd icon)"
 msgstr ""
 
 #: main.cpp:52
+#, kde-format
 msgid "Try to keep the window above other windows"
 msgstr "Hewl bide ku pace li ser paceyên din be"
 
 #: main.cpp:53
+#, kde-format
 msgid ""
 "Quit the client when we are told to hide the window.\n"
 "This has no effect unless startonshow is specified and implies keeprunning."
 msgstr ""
 
 #: main.cpp:91
+#, kde-format
 msgid "No command or window specified"
 msgstr "Tu ferman an jî pace nehatiye dîyar kirin"
