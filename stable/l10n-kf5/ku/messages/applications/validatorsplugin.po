@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: validatorsplugin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-08-03 07:04+0000\n"
+"POT-Creation-Date: 2016-11-19 22:45+0100\n"
 "PO-Revision-Date: 2009-01-19 22:27+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -21,31 +21,37 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: internalvalidator.ui:18
+#, kde-format
 msgid "Accessibility validation level:"
 msgstr "Asta pejirandina gihîştinê:"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, accessibilityLevel)
 #: internalvalidator.ui:26
+#, kde-format
 msgid "0 (No check)"
 msgstr "0 (Bê Kontrol)"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, accessibilityLevel)
 #: internalvalidator.ui:31
+#, kde-format
 msgid "1"
 msgstr "1"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, accessibilityLevel)
 #: internalvalidator.ui:36
+#, kde-format
 msgid "2"
 msgstr "2"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, accessibilityLevel)
 #: internalvalidator.ui:41
+#, kde-format
 msgid "3"
 msgstr "3"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, runAfterLoading)
 #: internalvalidator.ui:49
+#, kde-format
 msgid ""
 "If this option is enabled, the internal HTML validator is executed after a "
 "webpage has been loaded."
@@ -55,50 +61,62 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, runAfterLoading)
 #: internalvalidator.ui:52
+#, kde-format
 msgid "Run after loading"
 msgstr "Piştî bar bû bixebitîne"
 
 #: plugin_validators.cpp:126
+#, kde-format
 msgid "&Validate Web Page"
 msgstr "Malperê &Pejirîne"
 
 #: plugin_validators.cpp:132
+#, kde-format
 msgid "Validate HTML (by URI)"
 msgstr "HTML ê Pejirîne (bi URl ve)"
 
 #: plugin_validators.cpp:136
+#, kde-format
 msgid "Validate HTML (by Upload)"
 msgstr "HTML ê Pejirîne (bi Barkirinê ve)"
 
 #: plugin_validators.cpp:140
+#, kde-format
 msgid "Validate CSS (by URI)"
 msgstr "CSS yê Pejirîne (bi URl ve)"
 
 #: plugin_validators.cpp:144
+#, kde-format
 msgid "Validate CSS (by Upload)"
 msgstr "CSS yê Pejirîne (bi Barkirinê ve)"
 
 #: plugin_validators.cpp:149
+#, kde-format
 msgid "Validate &Links"
 msgstr "&Girêdanan Pejirîne"
 
 #: plugin_validators.cpp:155
+#, kde-format
 msgid "Validate Page"
 msgstr "Rûpelê Pejirîne"
 
 #: plugin_validators.cpp:159
+#, kde-format
 msgid "View Validator Report"
 msgstr "Rapora Kesê Dipejirîne Bibîne "
 
 #: plugin_validators.cpp:166
+#, kde-format
 msgid "C&onfigure Validator..."
 msgstr "Kesê Dipejirîne V&eava Bike..."
 
 #: plugin_validators.cpp:314 validatorsdialog.cpp:49
+#, kde-format
 msgid "Remote Validation"
 msgstr "Pejirandina Dûr"
 
 #: plugin_validators.cpp:321
+#, kde-format
 msgid "Local Validation"
 msgstr "Pejirandina Herêmî"
 
@@ -135,6 +153,7 @@ msgid "%1, %2"
 msgstr "%1, %2"
 
 #: plugin_validators.cpp:364
+#, kde-format
 msgid "HTML tidy results:"
 msgstr "HTML encamên "
 
@@ -180,45 +199,51 @@ msgstr ""
 "bin xeterê de.</qt>"
 
 #: plugin_validators.cpp:519
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Cannot Validate Source"
 msgctxt "@title:window"
 msgid "Cannot Validate Source"
 msgstr "Nikare Çavkaniyê Bipejirîne"
 
 #: plugin_validators.cpp:520
+#, kde-format
 msgid "You cannot validate anything except web pages with this plugin."
 msgstr "Bi vê pêvekê re tu nikarî bilî malperan tiştekî din bipejirînî."
 
 #: plugin_validators.cpp:530
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Malformed URL"
 msgctxt "@title:window"
 msgid "Malformed URL"
 msgstr "URLya Xerabî"
 
 #: plugin_validators.cpp:531
+#, kde-format
 msgid "The URL you entered is not valid, please correct it and try again."
 msgstr ""
 "URL ya tu tê ketî nederbasdar e, jê kerema xwe vê serast bike û cardin "
 "biceribîne."
 
 #: plugin_validators.cpp:560
+#, kde-format
 msgid "Validation"
 msgstr "Pejirandin"
 
 #. i18n: ectx: Menu (tools)
 #: plugin_validators.rc:4
+#, kde-format
 msgid "&Tools"
 msgstr "&Amûr"
 
 #. i18n: ectx: ToolBar (extraToolBar)
 #: plugin_validators.rc:8
+#, kde-format
 msgid "Extra Toolbar"
 msgstr "Zêdetir Darikê Amûran"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: remotevalidators.ui:16
+#, kde-format
 msgid "HTML/XML Validator"
 msgstr "Kesê HTML/XML Dipejirîne"
 
@@ -226,75 +251,87 @@ msgstr "Kesê HTML/XML Dipejirîne"
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: remotevalidators.ui:22 remotevalidators.ui:71 remotevalidators.ui:120
+#, kde-format
 msgid "URL:"
 msgstr "URL:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: remotevalidators.ui:42 remotevalidators.ui:91
+#, kde-format
 msgid "Upload:"
 msgstr "Bar bike:"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: remotevalidators.ui:65
+#, kde-format
 msgid "CSS Validator"
 msgstr "Kesê CSS Dipejirîne"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
 #: remotevalidators.ui:114
+#, kde-format
 msgid "Link Validator"
 msgstr "Kesê Girêdanê Dipejirîne"
 
 #: reportdialog.cpp:68
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Validation Report"
 msgctxt "@title:window"
 msgid "Validation Report"
 msgstr "Rapora Pejirandinê"
 
 #: reportdialog.cpp:81
+#, kde-format
 msgctxt "Validation status"
 msgid "Error"
 msgstr "Çewtî"
 
 #: reportdialog.cpp:88
+#, kde-format
 msgctxt "Validation status"
 msgid "Warning"
 msgstr "Hişyarî"
 
 #: reportdialog.cpp:95
+#, kde-format
 msgctxt "Validation status"
 msgid "Accessibility warning"
 msgstr "Hişyariya gihîştinê"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, reportsView)
 #: reportwidget.ui:34
+#, kde-format
 msgid "Frame"
 msgstr "Çarçove"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, reportsView)
 #: reportwidget.ui:39
+#, kde-format
 msgid "Row"
 msgstr "Rêzik"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, reportsView)
 #: reportwidget.ui:44
+#, kde-format
 msgid "Column"
 msgstr "Stûn"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, reportsView)
 #: reportwidget.ui:49
+#, kde-format
 msgid "Message"
 msgstr "Peyam"
 
 #: validatorsdialog.cpp:35
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Configure Validator Plugin"
 msgctxt "@title:window"
 msgid "Configure Validator Plugin"
 msgstr "Pêveka Kesê Dipejirîne Veava Bike"
 
 #: validatorsdialog.cpp:42
+#, kde-format
 msgid "Internal Validation"
 msgstr "Pejirandina Hundirîn"
 

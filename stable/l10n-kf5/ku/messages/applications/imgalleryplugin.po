@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: imagegalleryplugin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-11-03 07:08+0000\n"
+"POT-Creation-Date: 2016-11-19 22:44+0100\n"
 "PO-Revision-Date: 2009-01-19 04:40+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -20,13 +20,14 @@ msgstr ""
 "X-Poedit-SourceCharset: utf8\n"
 
 #: imgallerydialog.cpp:58
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Create Image Gallery"
 msgctxt "@title:window"
 msgid "Create Image Gallery"
 msgstr "Pêşengeha Wêneyan Biafirîne"
 
 #: imgallerydialog.cpp:59
+#, kde-format
 msgid "Create"
 msgstr "Biafirîne"
 
@@ -36,66 +37,82 @@ msgid "Image Gallery for %1"
 msgstr "Pêşengeha Wêneyan ji bo %1"
 
 #: imgallerydialog.cpp:97
+#, kde-format
 msgid "Look"
 msgstr "Binihêre"
 
 #: imgallerydialog.cpp:98
+#, kde-format
 msgid "Page Look"
 msgstr "Xuyakirina Rûpelê"
 
 #: imgallerydialog.cpp:106
+#, kde-format
 msgid "&Page title:"
 msgstr "Sernavê &rûpelê:"
 
 #: imgallerydialog.cpp:116
+#, kde-format
 msgid "I&mages per row:"
 msgstr "W&êne ji yek rêzikê:"
 
 #: imgallerydialog.cpp:124
+#, kde-format
 msgid "Show image file &name"
 msgstr "&Navê pela wêneyê nîşan bide"
 
 #: imgallerydialog.cpp:128
+#, kde-format
 msgid "Show image file &size"
 msgstr "&Mezinahiya pela wêneyê nîşan bide"
 
 #: imgallerydialog.cpp:132
+#, kde-format
 msgid "Show image &dimensions"
 msgstr "&Zerengî (dirêjî, firehî) ya wêne nîşan bide"
 
 #: imgallerydialog.cpp:145
+#, kde-format
 msgid "Fon&t name:"
 msgstr "Navê cure&nivîsê:"
 
 #: imgallerydialog.cpp:160
+#, kde-format
 msgid "Font si&ze:"
 msgstr "Me&zinahiya curenivîsê"
 
 #: imgallerydialog.cpp:172
+#, kde-format
 msgid "&Foreground color:"
 msgstr "Rengê &pêşplanê:"
 
 #: imgallerydialog.cpp:184
+#, kde-format
 msgid "&Background color:"
 msgstr "Rengê &rûerdê:"
 
 #: imgallerydialog.cpp:196 imgallerydialog.cpp:197
+#, kde-format
 msgid "Folders"
 msgstr "Peldank"
 
 #: imgallerydialog.cpp:206
+#, kde-format
 msgid "&Save to HTML file:"
 msgstr "Di pela HTML de &tomar bike:"
 
 #: imgallerydialog.cpp:209
+#, kde-format
 msgid "<p>The name of the HTML file this gallery will be saved to.</p>"
 msgstr "<p>Navê pela HTML yê dê ev pêşengeh were tomar kirin.</p>"
 
 #: imgallerydialog.cpp:220
+#, kde-format
 msgid "&Recurse subfolders"
 msgstr "Binepeldankan &dubare-bang bike"
 
 #: imgallerydialog.cpp:222
+#, kde-format
 msgid ""
 "<p>Whether subfolders should be included for the image gallery creation or "
 "not.</p>"
@@ -104,14 +121,17 @@ msgstr ""
 "an na.</p>"
 
 #: imgallerydialog.cpp:230
+#, kde-format
 msgid "Rec&ursion depth:"
 msgstr "Kûrahiya du&bare-bang kirinê:"
 
 #: imgallerydialog.cpp:232
+#, kde-format
 msgid "Endless"
 msgstr "Bê Dawî"
 
 #: imgallerydialog.cpp:235
+#, kde-format
 msgid ""
 "<p>You can limit the number of folders the image gallery creator will "
 "traverse to by setting an upper bound for the recursion depth.</p>"
@@ -121,10 +141,12 @@ msgstr ""
 "p> "
 
 #: imgallerydialog.cpp:246
+#, kde-format
 msgid "Copy or&iginal files"
 msgstr "Pelê nû&ser ji ber bigire"
 
 #: imgallerydialog.cpp:249
+#, kde-format
 msgid ""
 "<p>This makes a copy of all images and the gallery will refer to these "
 "copies instead of the original images.</p>"
@@ -133,10 +155,12 @@ msgstr ""
 "dê wan jibergirtî yan bi kar bîne.</p>"
 
 #: imgallerydialog.cpp:254
+#, kde-format
 msgid "Use &comment file"
 msgstr "Pela &şîroveyê bi kar bîne"
 
 #: imgallerydialog.cpp:258
+#, kde-format
 msgid ""
 "<p>If you enable this option you can specify a comment file which will be "
 "used for generating subtitles for the images.</p><p>For details about the "
@@ -147,10 +171,12 @@ msgstr ""
 "der barê teşeyê pelê jê kerema xwe alîkariya jêr \"Eve Çi ye?\" binihêre.</p>"
 
 #: imgallerydialog.cpp:265
+#, kde-format
 msgid "Comments &file:"
 msgstr "&Pela şîroveyan:"
 
 #: imgallerydialog.cpp:268
+#, kde-format
 msgid ""
 "<p>You can specify the name of the comment file here. The comment file "
 "contains the subtitles for the images. The format of this file is:</"
@@ -162,34 +188,42 @@ msgstr ""
 "><br />NAVÊ-PELÊ2:<br />Rave<br /><br />û wisa diçe</p>"
 
 #: imgallerydialog.cpp:299 imgallerydialog.cpp:300
+#, kde-format
 msgid "Thumbnails"
 msgstr "Wêneyên biçûk"
 
 #: imgallerydialog.cpp:319
+#, kde-format
 msgid "Image format f&or the thumbnails:"
 msgstr "Teşeya wêneyê ji&bo wêneyên biçûk:"
 
 #: imgallerydialog.cpp:327
+#, kde-format
 msgid "Thumbnail size:"
 msgstr "Mezinahiya wêneyên biçûk:"
 
 #: imgallerydialog.cpp:339
+#, kde-format
 msgid "&Set different color depth:"
 msgstr "Kûrahiya rengê yekê cuda &ava bike:"
 
 #: imgalleryplugin.cpp:60
+#, kde-format
 msgid "&Create Image Gallery..."
 msgstr "Pêşengeha Wêneyan &Biafirîne..."
 
 #: imgalleryplugin.cpp:70
+#, kde-format
 msgid "Could not create the plugin, please report a bug."
 msgstr "Nekarî pêvekê biafirîne, jê kerema xwe çewtiyê rapor bike."
 
 #: imgalleryplugin.cpp:76
+#, kde-format
 msgid "Creating an image gallery works only on local folders."
 msgstr "Afirandina pêşengeha wêneyan tenê li ser peldankên herêmî dixebite."
 
 #: imgalleryplugin.cpp:96
+#, kde-format
 msgid "Creating thumbnails"
 msgstr "Afirandina wêneyên biçûk"
 
@@ -209,6 +243,7 @@ msgid "<i>Created on</i>: %1"
 msgstr "<i>Afirandin</i>: %1"
 
 #: imgalleryplugin.cpp:187
+#, kde-format
 msgid "<i>Subfolders</i>:"
 msgstr "<i>Binepeldank</i>:"
 
@@ -233,7 +268,7 @@ msgstr ""
 " pêk nehat"
 
 #: imgalleryplugin.cpp:241
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "KB"
 msgid "KiB"
 msgstr "KB"
@@ -245,6 +280,7 @@ msgstr "Nikare pelê veke: %1"
 
 #. i18n: ectx: Menu (tools)
 #: kimgalleryplugin.rc:4
+#, kde-format
 msgid "&Tools"
 msgstr "&Amûr"
 
