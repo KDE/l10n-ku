@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_frame\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-20 04:42+0200\n"
+"POT-Creation-Date: 2016-11-19 20:20+0100\n"
 "PO-Revision-Date: 2009-01-11 17:27+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -21,31 +21,33 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: appearanceSettings.ui:17
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Use rounded corners"
 msgid "Rounded corners:"
 msgstr "Goşeyên gulover bi kar bîne"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: appearanceSettings.ui:30
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Show shadow"
 msgid "Shadow:"
 msgstr "Sî nîşan bide"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: appearanceSettings.ui:59
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Frame color:"
 msgid "Frame:"
 msgstr "Rengê çarçovê:"
 
 #. i18n: ectx: property (text), widget (QLabel, changeFrameColorLabel)
 #: appearanceSettings.ui:88
+#, kde-format
 msgid "Frame color:"
 msgstr "Rengê çarçovê:"
 
 #: configdialog.cpp:51
+#, kde-format
 msgid ""
 "This picture of a monitor contains a preview of the picture you currently "
 "have in your frame."
@@ -54,51 +56,60 @@ msgstr ""
 "dihundirîne."
 
 #: frame.cpp:128
+#, kde-format
 msgid "&Open Picture..."
 msgstr "Wêne &Veke..."
 
 #: frame.cpp:129
+#, kde-format
 msgid "Set as Wallpaper Image"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, pictureComboBox)
 #: frame.cpp:562 imageSettings.ui:21
+#, kde-format
 msgid "Image"
 msgstr "Wêne"
 
 #: frame.cpp:563
+#, kde-format
 msgid "Appearance"
 msgstr "Xuyakirin"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, pictureComboBox)
 #: imageSettings.ui:26
+#, kde-format
 msgid "Slideshow"
 msgstr "NîşandanaSlaydê"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, pictureComboBox)
 #: imageSettings.ui:31
+#, kde-format
 msgid "Picture of the day"
 msgstr "Wêneya rojê"
 
 #. i18n: ectx: property (text), widget (QLabel, picLabel)
 #: imageSettings.ui:54
+#, kde-format
 msgid "Picture:"
 msgstr "Wêne:"
 
 #. i18n: ectx: property (filter), widget (KUrlRequester, picRequester)
 #: imageSettings.ui:64
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "*.png *.jpeg *.jpg *.svg *.svgz"
 msgid "*.png *.jpeg *.jpg *.svg *.svgz *.bmp *.tif"
 msgstr "*.png *.jpeg *.jpg *.svg *.svgz"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: imageSettings.ui:137
+#, kde-format
 msgid "Auto-update:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QTimeEdit, autoUpdateTime)
 #: imageSettings.ui:145
+#, kde-format
 msgid ""
 "Updates the picture from the source in the given time.\n"
 "Useful if you want a live cam or weather data to be up to date."
@@ -106,45 +117,51 @@ msgstr ""
 
 #. i18n: ectx: property (specialValueText), widget (QTimeEdit, autoUpdateTime)
 #: imageSettings.ui:148
+#, kde-format
 msgid "never"
 msgstr ""
 
 #. i18n: ectx: property (displayFormat), widget (QTimeEdit, autoUpdateTime)
 #: imageSettings.ui:151
+#, kde-format
 msgid "hh'h' mm'min'"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (KPushButton, addDirButton)
 #: imageSettings.ui:206
+#, kde-format
 msgid "&Add Folder..."
 msgstr "Peldankê Lê &Zêde Bike..."
 
 #. i18n: ectx: property (text), widget (KPushButton, removeDirButton)
 #: imageSettings.ui:216
+#, kde-format
 msgid "&Remove Folder"
 msgstr "Peldankê &Rake"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: imageSettings.ui:254
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "&Include Subfolders"
 msgid "Include subfolders:"
 msgstr "&Binepeldankan Bihundirîne"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: imageSettings.ui:274
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Randomize"
 msgid "Randomize:"
 msgstr "Lê Rasthatî"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: imageSettings.ui:294
+#, kde-format
 msgid "Change images every:"
 msgstr "Wêneyan biguherîne her:"
 
 #. i18n: ectx: property (displayFormat), widget (QTimeEdit, slideShowDelay)
 #: imageSettings.ui:320
+#, kde-format
 msgctxt ""
 "(qtdt-format) Please do not change the quotes (') and translate only the "
 "content of the quotes."
@@ -153,22 +170,25 @@ msgstr "hh 'Demjimêr' mm 'Xulek' ss 'Çirke'"
 
 #. i18n: ectx: property (text), widget (QLabel, selectPoTDlabel)
 #: imageSettings.ui:353
+#, kde-format
 msgid "Select Picture of the day source:"
 msgstr "Çavkaniya Wêneya rojê hilbijêre:"
 
 #: picture.cpp:94
-#, fuzzy
+#, fuzzy, kde-format
 #| msgctxt "Error"
 #| msgid "Error loading image"
 msgid "Loading image..."
 msgstr "Di barkirina wêne de çewtî çê bû"
 
 #: picture.cpp:98
+#, kde-format
 msgctxt "Info"
 msgid "Dropped folder is empty. Please drop a folder with image(s)"
 msgstr ""
 
 #: picture.cpp:101
+#, kde-format
 msgctxt "Info"
 msgid "Put your photo here or drop a folder to start a slideshow"
 msgstr ""
@@ -183,10 +203,12 @@ msgid "Error loading image: %1"
 msgstr "Di barkirina wêne de çewtî çê bû"
 
 #: picture.cpp:173
+#, kde-format
 msgid "Error loading image. Image was probably deleted."
 msgstr ""
 
 #: slideshow.cpp:227
+#, kde-format
 msgid "No Picture from this Provider."
 msgstr ""
 
