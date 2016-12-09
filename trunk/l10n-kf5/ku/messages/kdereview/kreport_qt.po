@@ -44,17 +44,27 @@ msgctxt "ItemSize|"
 msgid "Size"
 msgstr ""
 
-#: common/KReportItemLine.cpp:72
+#: common/KReportItemLine.cpp:73
+msgctxt "StartPosition|"
+msgid "Start Position"
+msgstr ""
+
+#: common/KReportItemLine.cpp:74
+msgctxt "EndPosition|"
+msgid "End Position"
+msgstr ""
+
+#: common/KReportItemLine.cpp:76
 msgctxt "KReportItemLine|"
 msgid "Line Weight"
 msgstr ""
 
-#: common/KReportItemLine.cpp:73
+#: common/KReportItemLine.cpp:77
 msgctxt "KReportItemLine|"
 msgid "Line Color"
 msgstr ""
 
-#: common/KReportItemLine.cpp:74
+#: common/KReportItemLine.cpp:78
 msgctxt "KReportItemLine|"
 msgid "Line Style"
 msgstr ""
@@ -90,11 +100,6 @@ msgctxt "KReportPageFormat|"
 msgid "Screen"
 msgstr ""
 
-#: common/KReportPosition.cpp:29
-msgctxt "KReportPosition|"
-msgid "Position"
-msgstr ""
-
 #: common/KReportSection.cpp:103
 msgctxt "KReportSection|"
 msgid "Height"
@@ -118,11 +123,6 @@ msgstr ""
 #: common/KReportSectionData.cpp:106
 msgctxt "KReportSectionData|"
 msgid "Background Color"
-msgstr ""
-
-#: common/KReportSize.cpp:28
-msgctxt "KReportSize|"
-msgid "Size"
 msgstr ""
 
 #: common/KReportUnit.cpp:47
@@ -510,7 +510,7 @@ msgctxt "KReportItemText|"
 msgid "Background Opacity"
 msgstr ""
 
-#: items/text/KReportScriptText.cpp:192
+#: items/text/KReportScriptText.cpp:195
 #, qt-format
 msgctxt "Scripting::Text|"
 msgid "$Unable to read %1"
