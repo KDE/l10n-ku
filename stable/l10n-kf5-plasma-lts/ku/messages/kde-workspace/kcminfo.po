@@ -1,0 +1,797 @@
+# translation of kcminfo.po to Kurdish
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Erdal Ronahi <erdal.ronahi@nospam.gmail.com>, 2007, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcminfo\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2016-11-19 22:52+0100\n"
+"PO-Revision-Date: 2008-12-27 02:30+0200\n"
+"Last-Translator: Omer Ensari <oensari@gmail.com>\n"
+"Language-Team: Kurdish <ku@li.org>\n"
+"Language: ku\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: KBabel 1.11.4\n"
+"X-Poedit-Language: Kurdish\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Omer Ensari"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "oensari@gmail.com"
+
+#: ../base/info_aix.cpp:68 ../base/info_wayland.cpp:87
+#, kde-format
+msgid "Name"
+msgstr "Nav"
+
+#: ../base/info_aix.cpp:69
+#, kde-format
+msgid "Status"
+msgstr "Rewş"
+
+#: ../base/info_aix.cpp:70
+#, kde-format
+msgid "Location"
+msgstr "Cih"
+
+#: ../base/info_aix.cpp:71
+#, kde-format
+msgid "Description"
+msgstr "Rave"
+
+#: ../base/info_fbsd.cpp:89
+#, fuzzy, kde-format
+#| msgid "Information"
+msgctxt "@title:column Column name for PCI information"
+msgid "Information"
+msgstr "Agahî"
+
+#: ../base/info_fbsd.cpp:94
+#, kde-format
+msgid ""
+"Could not find any programs with which to query your system's PCI information"
+msgstr ""
+
+#: ../base/info_fbsd.cpp:105
+#, kde-format
+msgid "PCI subsystem could not be queried: %1 could not be executed"
+msgstr ""
+
+#: ../base/info_fbsd.cpp:124
+#, kde-format
+msgid "The PCI subsystem could not be queried, this may need root privileges."
+msgstr ""
+
+#: ../base/info_hpux.cpp:128
+#, fuzzy, kde-format
+#| msgid "Processor(s)"
+msgid "PA-RISC Processor"
+msgstr "Kirar(an)"
+
+#: ../base/info_hpux.cpp:130
+#, fuzzy, kde-format
+#| msgid "Revision"
+msgid "PA-RISC Revision"
+msgstr "Revîziyon"
+
+#: ../base/info_linux.cpp:103 main.cpp:51
+#, kde-format
+msgid "DMA-Channel"
+msgstr "Kanala-DMA"
+
+#: ../base/info_linux.cpp:103 ../base/info_linux.cpp:154
+#, fuzzy, kde-format
+#| msgid "Used Swap"
+msgid "Used By"
+msgstr "Swapa Bikaranî"
+
+#: ../base/info_linux.cpp:154
+#, kde-format
+msgid "I/O-Range"
+msgstr ""
+
+#: ../base/info_netbsd.cpp:120 ../base/info_openbsd.cpp:131
+#, kde-format
+msgid "IRQ"
+msgstr "IRQ"
+
+#: ../base/info_netbsd.cpp:120 ../base/info_openbsd.cpp:131
+#, kde-format
+msgid "Device"
+msgstr "Cîhaz"
+
+#: ../base/info_netbsd.cpp:138 ../base/info_openbsd.cpp:144
+#, kde-format
+msgid "No PCI devices found."
+msgstr ""
+
+#: ../base/info_netbsd.cpp:147 ../base/info_openbsd.cpp:153
+#, kde-format
+msgid "No I/O port devices found."
+msgstr ""
+
+#: ../base/info_wayland.cpp:56 ../base/os_base.h:231
+#, kde-format
+msgid "Information"
+msgstr "Agahî"
+
+#: ../base/info_wayland.cpp:56 ../base/os_base.h:231
+#, kde-format
+msgid "Value"
+msgstr "Nirx"
+
+#: ../base/info_wayland.cpp:59
+#, fuzzy, kde-format
+#| msgid "Information"
+msgid "Compositor Information"
+msgstr "Agahî"
+
+#: ../base/info_wayland.cpp:63 ../base/os_base.h:242
+#, kde-format
+msgid "Name of the Display"
+msgstr "Navê Dîmenderê"
+
+#: ../base/info_wayland.cpp:65
+#, kde-format
+msgid "Interfaces"
+msgstr ""
+
+#: ../base/info_wayland.cpp:65
+#, kde-format
+msgid "Interface Version"
+msgstr ""
+
+#: ../base/info_wayland.cpp:82
+#, kde-format
+msgid "Seat"
+msgstr ""
+
+#: ../base/info_wayland.cpp:93
+#, kde-format
+msgid "Pointer"
+msgstr ""
+
+#: ../base/info_wayland.cpp:100
+#, kde-format
+msgid "Keyboard"
+msgstr ""
+
+#: ../base/info_wayland.cpp:102
+#, fuzzy, kde-format
+#| msgid "enabled"
+msgid "Repeat enabled"
+msgstr "çalakkirî"
+
+#: ../base/info_wayland.cpp:103
+#, kde-format
+msgid "Repeat rate (characters per second)"
+msgstr ""
+
+#: ../base/info_wayland.cpp:104
+#, kde-format
+msgid "Repeat delay (msec)"
+msgstr ""
+
+#: ../base/info_wayland.cpp:108 ../base/os_base.h:177
+#, kde-format
+msgid "Yes"
+msgstr "Erê"
+
+#: ../base/info_wayland.cpp:108 ../base/os_base.h:178
+#, kde-format
+msgid "No"
+msgstr "Na"
+
+#: ../base/info_wayland.cpp:119
+#, kde-format
+msgid "Touch"
+msgstr ""
+
+#: ../base/info_wayland.cpp:125
+#, kde-format
+msgid "Outputs"
+msgstr ""
+
+#: ../base/info_wayland.cpp:139
+#, fuzzy, kde-format
+#| msgid "Manufacturer: %1"
+msgid "Manufacturer"
+msgstr "Hilberîner: %1"
+
+#: ../base/info_wayland.cpp:140
+#, kde-format
+msgid "Model"
+msgstr ""
+
+#: ../base/info_wayland.cpp:141
+#, fuzzy, kde-format
+#| msgid "Physical Memory"
+msgid "Physical Size"
+msgstr "Bîra Fîzîkî"
+
+#: ../base/info_wayland.cpp:142
+#, kde-format
+msgid "Global Position"
+msgstr ""
+
+#: ../base/info_wayland.cpp:147
+#, kde-format
+msgid "None"
+msgstr ""
+
+#: ../base/info_wayland.cpp:150
+#, kde-format
+msgid "Horizontal RGB"
+msgstr ""
+
+#: ../base/info_wayland.cpp:153
+#, kde-format
+msgid "Horizontal BGR"
+msgstr ""
+
+#: ../base/info_wayland.cpp:156
+#, kde-format
+msgid "Vertical RGB"
+msgstr ""
+
+#: ../base/info_wayland.cpp:159
+#, kde-format
+msgid "Vertical BGR"
+msgstr ""
+
+#: ../base/info_wayland.cpp:163
+#, fuzzy, kde-format
+#| msgid "unknown"
+msgid "Unknown"
+msgstr "unknown"
+
+#: ../base/info_wayland.cpp:166
+#, kde-format
+msgid "Subpixel"
+msgstr ""
+
+#: ../base/info_wayland.cpp:180
+#, kde-format
+msgid "Flipped"
+msgstr ""
+
+#: ../base/info_wayland.cpp:183
+#, kde-format
+msgid "Flipped 90"
+msgstr ""
+
+#: ../base/info_wayland.cpp:186
+#, kde-format
+msgid "Flipped 180"
+msgstr ""
+
+#: ../base/info_wayland.cpp:189
+#, kde-format
+msgid "Flipped 270"
+msgstr ""
+
+#: ../base/info_wayland.cpp:193
+#, kde-format
+msgid "Normal"
+msgstr ""
+
+#: ../base/info_wayland.cpp:196
+#, kde-format
+msgid "Transform"
+msgstr ""
+
+#: ../base/info_wayland.cpp:199
+#, kde-format
+msgid "Modes"
+msgstr ""
+
+#: ../base/info_wayland.cpp:204
+#, fuzzy, kde-format
+#| msgid "Free Size"
+msgid "Size"
+msgstr "Mezinahiya Azad"
+
+#: ../base/info_wayland.cpp:206
+#, kde-format
+msgid "Refresh Rate"
+msgstr ""
+
+#: ../base/info_wayland.cpp:208
+#, kde-format
+msgid "Preferred"
+msgstr ""
+
+#: ../base/info_wayland.cpp:209 ../base/info_wayland.cpp:211
+#, fuzzy, kde-format
+#| msgid "Bytes"
+msgid "yes"
+msgstr "Bayt"
+
+#: ../base/info_wayland.cpp:209 ../base/info_wayland.cpp:211
+#, kde-format
+msgid "no"
+msgstr ""
+
+#: ../base/info_wayland.cpp:210
+#, kde-format
+msgid "Current"
+msgstr ""
+
+#: ../base/os_base.h:62
+#, kde-format
+msgid "LSBFirst"
+msgstr ""
+
+#: ../base/os_base.h:64
+#, kde-format
+msgid "MSBFirst"
+msgstr ""
+
+#: ../base/os_base.h:66
+#, kde-format
+msgid "Unknown Order %1"
+msgstr ""
+
+#: ../base/os_base.h:71
+#, kde-format
+msgid "1 Bit"
+msgid_plural "%1 Bits"
+msgstr[0] "1 Bit"
+msgstr[1] "%1 Bit"
+
+#: ../base/os_base.h:75
+#, fuzzy, kde-format
+#| msgid "1 Byte"
+msgid "1 Byte"
+msgid_plural "%1 Bytes"
+msgstr[0] "1 Bayt"
+msgstr[1] "1 Bayt"
+
+#: ../base/os_base.h:116
+#, kde-format
+msgid "Screen # %1"
+msgstr ""
+
+#: ../base/os_base.h:118
+#, kde-format
+msgid "(Default Screen)"
+msgstr ""
+
+#: ../base/os_base.h:127
+#, kde-format
+msgid "Dimensions"
+msgstr ""
+
+#: ../base/os_base.h:127
+#, kde-format
+msgid "%1 x %2 Pixels (%3 x %4 mm)"
+msgstr ""
+
+#: ../base/os_base.h:131
+#, kde-format
+msgid "Resolution"
+msgstr ""
+
+#: ../base/os_base.h:131
+#, kde-format
+msgid "%1 x %2 dpi"
+msgstr ""
+
+#: ../base/os_base.h:148
+#, kde-format
+msgid "Depths (%1)"
+msgstr ""
+
+#: ../base/os_base.h:154
+#, kde-format
+msgid "Root Window ID"
+msgstr ""
+
+#: ../base/os_base.h:158
+#, kde-format
+msgid "Depth of Root Window"
+msgstr ""
+
+#: ../base/os_base.h:158
+#, kde-format
+msgid "%1 plane"
+msgid_plural "%1 planes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../base/os_base.h:162
+#, kde-format
+msgid "Number of Colormaps"
+msgstr ""
+
+#: ../base/os_base.h:162
+#, kde-format
+msgid "minimum %1, maximum %2"
+msgstr ""
+
+#: ../base/os_base.h:166
+#, kde-format
+msgid "Default Colormap"
+msgstr ""
+
+#: ../base/os_base.h:170
+#, kde-format
+msgid "Default Number of Colormap Cells"
+msgstr ""
+
+#: ../base/os_base.h:174
+#, kde-format
+msgid "Preallocated Pixels"
+msgstr ""
+
+#: ../base/os_base.h:174
+#, kde-format
+msgid "Black %1, White %2"
+msgstr ""
+
+#: ../base/os_base.h:181
+#, kde-format
+msgid "Options"
+msgstr "Opsiyon"
+
+#: ../base/os_base.h:181
+#, kde-format
+msgid "When mapped"
+msgstr ""
+
+#: ../base/os_base.h:181
+#, kde-format
+msgid "backing-store: %1, save-unders: %2"
+msgstr ""
+
+#: ../base/os_base.h:187
+#, kde-format
+msgid "Largest Cursor"
+msgstr ""
+
+#: ../base/os_base.h:189
+#, kde-format
+msgid "unlimited"
+msgstr "bêsînor"
+
+#: ../base/os_base.h:195
+#, kde-format
+msgid "Current Input Event Mask"
+msgstr ""
+
+#: ../base/os_base.h:201
+#, kde-format
+msgid "Event = %1"
+msgstr ""
+
+#: ../base/os_base.h:236
+#, fuzzy, kde-format
+#| msgid "Device Information"
+msgid "Server Information"
+msgstr "Agahiya Cîhazan"
+
+#: ../base/os_base.h:246
+#, kde-format
+msgid "Vendor String"
+msgstr ""
+
+#: ../base/os_base.h:250
+#, kde-format
+msgid "Vendor Release Number"
+msgstr ""
+
+#: ../base/os_base.h:254
+#, kde-format
+msgid "Version Number"
+msgstr ""
+
+#: ../base/os_base.h:258
+#, kde-format
+msgid "Available Screens"
+msgstr ""
+
+#: ../base/os_base.h:268
+#, fuzzy, kde-format
+#| msgid "OpenGL extensions"
+msgid "Supported Extensions"
+msgstr "Pêvekên OpenGL"
+
+#: ../base/os_base.h:283
+#, kde-format
+msgid "Supported Pixmap Formats"
+msgstr ""
+
+#: ../base/os_base.h:290
+#, kde-format
+msgid "Pixmap Format #%1"
+msgstr ""
+
+#: ../base/os_base.h:290
+#, kde-format
+msgid "%1 BPP, Depth: %2, Scanline padding: %3"
+msgstr ""
+
+#: ../base/os_base.h:302
+#, kde-format
+msgid "Maximum Request Size"
+msgstr ""
+
+#: ../base/os_base.h:306
+#, kde-format
+msgid "Motion Buffer Size"
+msgstr ""
+
+#: ../base/os_base.h:310
+#, kde-format
+msgid "Bitmap"
+msgstr ""
+
+#: ../base/os_base.h:314
+#, kde-format
+msgid "Unit"
+msgstr ""
+
+#: ../base/os_base.h:318
+#, kde-format
+msgid "Order"
+msgstr "Rêz"
+
+#: ../base/os_base.h:322
+#, kde-format
+msgid "Padding"
+msgstr ""
+
+#: ../base/os_base.h:326
+#, kde-format
+msgid "Image Byte Order"
+msgstr ""
+
+#: ../base/os_current.h:57 ../base/os_current.h:66 ../base/os_current.h:86
+#: ../base/os_current.h:95 ../base/os_current.h:104 ../base/os_current.h:114
+#: ../base/os_current.h:123 ../base/os_current.h:132
+#, kde-format
+msgid "This system may not be completely supported yet."
+msgstr ""
+
+#: info.cpp:36
+#, fuzzy, kde-format
+#| msgid "KDE Panel System Information Control Module"
+msgid "System Information Control Module"
+msgstr "Modûla Kontrola Agahiyên Pergala Panelê yê KDE"
+
+#: info.cpp:38
+#, kde-format
+msgid ""
+"(c) 2008 Nicolas Ternisien\n"
+"(c) 1998 - 2002 Helge Deller"
+msgstr ""
+"(c) 2008 Nicolas Ternisien\n"
+"(c) 1998 - 2002 Helge Deller"
+
+#: info.cpp:41
+#, kde-format
+msgid "Nicolas Ternisien"
+msgstr "Nicolas Ternisien"
+
+#: info.cpp:42
+#, kde-format
+msgid "Helge Deller"
+msgstr "Helge Deller"
+
+#: info.cpp:63
+#, kde-format
+msgid "This list displays system information on the selected category."
+msgstr "Ev lîste ye agahiyên pergalê di beşa hilbijartî de dide nîşan. "
+
+#: info.cpp:79
+#, kde-format
+msgctxt "%1 is one of the modules of the kinfocenter, cpu info, os info, etc"
+msgid "No information available about %1."
+msgstr "Tu agahî der barê %1 de tune ye."
+
+#: info.cpp:110
+#, kde-format
+msgid ""
+"All the information modules return information about a certain aspect of "
+"your computer hardware or your operating system."
+msgstr ""
+"Hemû modûlên agahiyê, agahiyên der barê reqalava komputera we an jî pergala "
+"we de dide."
+
+#: main.cpp:45
+#, kde-format
+msgid "Interrupt"
+msgstr "Qut Bike"
+
+#: main.cpp:48
+#, kde-format
+msgid "I/O-Port"
+msgstr "I/O-Port"
+
+#: main.cpp:54
+#, kde-format
+msgid "X-Server"
+msgstr "X-Server"
+
+#: main.cpp:57
+#, kde-format
+msgid "Wayland"
+msgstr ""
+
+#~ msgid "SCSI"
+#~ msgstr "SCSI"
+
+#~ msgid "Soundcard"
+#~ msgstr "Karta Dengê"
+
+#~ msgid "Devices"
+#~ msgstr "Cîhaz"
+
+#~ msgid "kcminfo"
+#~ msgstr "kcminfo"
+
+#~ msgid "Partitions"
+#~ msgstr "Partîsiyon"
+
+#~ msgid "%1 Bytes"
+#~ msgstr "%1 Bayt"
+
+#~ msgid "MB"
+#~ msgstr "MB"
+
+#~ msgid "Mount Point"
+#~ msgstr "Xala Girêdanê"
+
+#~ msgid "FS Type"
+#~ msgstr "Cureyê PP"
+
+#~ msgid "Total Size"
+#~ msgstr "Mezinahiya Tevî"
+
+#~ msgid "n/a"
+#~ msgstr "tune"
+
+#~ msgid "CPU %1: %2, %3 MHz"
+#~ msgstr "CPU %1: %2, %3 MHz"
+
+#~ msgid "CPU %1: %2, unknown speed"
+#~ msgstr "CPU %1: %2, leza nenas"
+
+#~ msgid "Machine"
+#~ msgstr "Makîne"
+
+#~ msgid "(none)"
+#~ msgstr "(tune)"
+
+#~ msgid "CPU Clock"
+#~ msgstr "Demjimêra CPU"
+
+#~ msgid "MHz"
+#~ msgstr "MHz"
+
+#~ msgid "(unknown)"
+#~ msgstr "(nenas)"
+
+#~ msgid "CPU Architecture"
+#~ msgstr "Mîmariya CPU"
+
+#~ msgid "disabled"
+#~ msgstr "neçalakkirî"
+
+#~ msgid "Release"
+#~ msgstr "Weşandin"
+
+#~ msgid "Left-Channel"
+#~ msgstr "Kanala Çep"
+
+#~ msgid "Right-Channel"
+#~ msgstr "Kanala Rast"
+
+#~ msgid "Flags"
+#~ msgstr "Ala"
+
+#~ msgid "CPU %1: %2"
+#~ msgstr "CPU %1: %2"
+
+#~ msgid "Device Name: %1"
+#~ msgstr "Navê Cîhazê: %1"
+
+#~ msgid "CPU Type"
+#~ msgstr "Cureyê CPU"
+
+#~ msgid "FPU Type"
+#~ msgstr "Cureyê FPU"
+
+#~ msgid "State"
+#~ msgstr "Rewş"
+
+#~ msgid "Mount Time"
+#~ msgstr "Dema Girêdanê"
+
+#~ msgid "(no value)"
+#~ msgstr "(bê nirx)"
+
+#~ msgid "Properties"
+#~ msgstr "Taybetmendî"
+
+#~ msgid "Type:"
+#~ msgstr "Cure:"
+
+#~ msgid "Value:"
+#~ msgstr "Nirx:"
+
+#~ msgid "PCI"
+#~ msgstr "PCI"
+
+#~ msgid "%1 GiB"
+#~ msgstr "%1 GiB"
+
+#~ msgid "%1 MiB"
+#~ msgstr "%1 MiB"
+
+#~ msgid "%1 KiB"
+#~ msgstr "%1 KiB"
+
+#~ msgid "Free swap memory:"
+#~ msgstr "Bîra swapa vala:"
+
+#~ msgid "Swap Space"
+#~ msgstr "Cihê Swap"
+
+#~ msgid "%1 free"
+#~ msgstr "%1 vala"
+
+#~ msgid "%1 bytes ="
+#~ msgstr "%1 bayt ="
+
+#~ msgid "Application Data"
+#~ msgstr "Daneyên Sepanê"
+
+#~ msgid "Disk Cache"
+#~ msgstr "Pêşbîra Dîskê"
+
+#~ msgid "Free Physical Memory"
+#~ msgstr "Bîra Vala ya Fîzîkî"
+
+#~ msgid "Free Swap"
+#~ msgstr "Swapa Vala"
+
+#~ msgid "Used Physical Memory"
+#~ msgstr "Bîra Fîzîkî ya Bikaranî"
+
+#~ msgid "Total Free Memory"
+#~ msgstr "Teviya Bîra Vala"
+
+#~ msgid "OpenGL"
+#~ msgstr "OpenGL"
+
+#~ msgid "Driver"
+#~ msgstr "Ajoger"
+
+#~ msgid "OpenGL version"
+#~ msgstr "Guhartoya OpenGL"
+
+#~ msgid "GLX"
+#~ msgstr "GLX"
+
+#~ msgid "GLX extensions"
+#~ msgstr "Pêvekên GLX"
+
+#~ msgid "GLU"
+#~ msgstr "GLU"
+
+#~ msgid "GLU version"
+#~ msgstr "Guhertoya GLU"
+
+#~ msgid "GLU extensions"
+#~ msgstr "Pêvekên GLU"
