@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-01-10 07:48+0100\n"
+"POT-Creation-Date: 2017-01-17 09:30+0100\n"
 "PO-Revision-Date: 2010-08-13 15:45+0200\n"
 "Last-Translator: Erdal Ronahî <erdal.ronahi@nospam.gmail.com>\n"
 "Language-Team: Kurdish Team http://pckurd.net\n"
@@ -62,7 +62,7 @@ msgstr ""
 msgid "&Libraries"
 msgstr "Pirtûkxane"
 
-#: kaboutapplicationdialog.cpp:185
+#: kaboutapplicationdialog.cpp:186
 #, kde-format
 msgid ""
 "Please use <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a> to report "
@@ -71,33 +71,34 @@ msgstr ""
 "Ji kerema xwe re <a href=\"http://bugs.kde.org\"> http://bugs.kde.org</a> jo "
 "raporkirinê bikarbîne.\n"
 
-#: kaboutapplicationdialog.cpp:189 kaboutapplicationdialog.cpp:193
-#, kde-format
-msgid "Please report bugs to <a href=\"mailto:%1\">%2</a>.\n"
+#: kaboutapplicationdialog.cpp:192
+#, fuzzy, kde-format
+#| msgid "Please report bugs to <a href=\"mailto:%1\">%2</a>.\n"
+msgid "Please report bugs to <a href=\"%1\">%2</a>.\n"
 msgstr ""
 "Ji kerema xwe re çewtiyan ragihîne navnîşana <a href=\"mailto:%1\">%2</a>\n"
 
-#: kaboutapplicationdialog.cpp:220
+#: kaboutapplicationdialog.cpp:218
 #, kde-format
 msgid "A&uthor"
 msgstr "&Nivîskar"
 
-#: kaboutapplicationdialog.cpp:220
+#: kaboutapplicationdialog.cpp:218
 #, kde-format
 msgid "A&uthors"
 msgstr "&Nivîskar"
 
-#: kaboutapplicationdialog.cpp:247
+#: kaboutapplicationdialog.cpp:245
 #, kde-format
 msgid "&Thanks To"
 msgstr "&Spasî"
 
-#: kaboutapplicationdialog.cpp:286
+#: kaboutapplicationdialog.cpp:284
 #, kde-format
 msgid "T&ranslation"
 msgstr "W&erger"
 
-#: kaboutapplicationdialog.cpp:318
+#: kaboutapplicationdialog.cpp:316
 #, kde-format
 msgid "License Agreement"
 msgstr "Peymana Lîsansê"
@@ -307,12 +308,12 @@ msgstr ""
 msgid "Ambiguous shortcut detected"
 msgstr ""
 
-#: kbugreport.cpp:97 kbugreport.cpp:119
+#: kbugreport.cpp:104 kbugreport.cpp:133
 #, kde-format
 msgid "Submit Bug Report"
 msgstr "Rapora Çewtiyan Bişîne"
 
-#: kbugreport.cpp:130
+#: kbugreport.cpp:144
 #, kde-format
 msgid ""
 "Your email address. If incorrect, use the Configure Email button to change it"
@@ -320,44 +321,44 @@ msgstr ""
 "Navnîşana te ya e-peyaman. Heke şaş be pêl bişkoka E-peyamê Veava Bike û "
 "biguherîne"
 
-#: kbugreport.cpp:131
+#: kbugreport.cpp:145
 #, kde-format
 msgctxt "Email sender address"
 msgid "From:"
 msgstr "Ji kê hatiye:"
 
-#: kbugreport.cpp:139
+#: kbugreport.cpp:153
 #, kde-format
 msgid "Configure Email..."
 msgstr "E-peyamê Veava Bike..."
 
-#: kbugreport.cpp:146
+#: kbugreport.cpp:160
 #, kde-format
 msgid "The email address this bug report is sent to."
 msgstr "Navnîşana e-peyama ku wê ev rapor jê were şandin."
 
-#: kbugreport.cpp:147
+#: kbugreport.cpp:161
 #, kde-format
 msgctxt "Email receiver address"
 msgid "To:"
 msgstr "Ji kê re dişîne:"
 
-#: kbugreport.cpp:156
+#: kbugreport.cpp:170
 #, kde-format
 msgid "&Send"
 msgstr "&Bişîne"
 
-#: kbugreport.cpp:156
+#: kbugreport.cpp:170
 #, kde-format
 msgid "Send bug report."
 msgstr "Rapora çewtiyan bişîne."
 
-#: kbugreport.cpp:157
+#: kbugreport.cpp:171
 #, kde-format
 msgid "Send this bug report to %1."
 msgstr "Vê rapora çewtiyan bişîne navnîşana %1."
 
-#: kbugreport.cpp:165
+#: kbugreport.cpp:179
 #, kde-format
 msgid ""
 "The application for which you wish to submit a bug report - if incorrect, "
@@ -366,12 +367,12 @@ msgstr ""
 "Bernameya ku dixwazî jêre rapora çewtiyê bişînî - heke rast be, ji kerema "
 "xwe re bernameya rast ji nav lîsteya vebijêrkan hilbijêre"
 
-#: kbugreport.cpp:166
+#: kbugreport.cpp:180
 #, kde-format
 msgid "Application: "
 msgstr "Sepan: "
 
-#: kbugreport.cpp:193
+#: kbugreport.cpp:207
 #, kde-format
 msgid ""
 "The version of this application - please make sure that no newer version is "
@@ -380,63 +381,63 @@ msgstr ""
 "Guhertoya vê sepnaê - Berî ku tu raporekê bişîne pê bawer be bê ka guhertoya "
 "nû derketiye yan na"
 
-#: kbugreport.cpp:194
+#: kbugreport.cpp:208
 #, kde-format
 msgid "Version:"
 msgstr "Guherto:"
 
-#: kbugreport.cpp:199
+#: kbugreport.cpp:213
 #, kde-format
 msgid "no version set (programmer error)"
 msgstr "agahiya guhertoyê tuneye (çewtiya bernamenûs)"
 
-#: kbugreport.cpp:212
+#: kbugreport.cpp:226
 #, kde-format
 msgid "OS:"
 msgstr "Pergala Xebatê:"
 
-#: kbugreport.cpp:220
+#: kbugreport.cpp:234
 #, kde-format
 msgid "Compiler:"
 msgstr "Berhevkar:"
 
-#: kbugreport.cpp:228
+#: kbugreport.cpp:242
 #, kde-format
 msgid "Se&verity"
 msgstr "&Girîngî"
 
-#: kbugreport.cpp:230
+#: kbugreport.cpp:244
 #, kde-format
 msgid "Critical"
 msgstr "Krîtîk"
 
-#: kbugreport.cpp:230
+#: kbugreport.cpp:244
 #, kde-format
 msgid "Grave"
 msgstr "Pir girîng"
 
-#: kbugreport.cpp:230
+#: kbugreport.cpp:244
 #, kde-format
 msgctxt "normal severity"
 msgid "Normal"
 msgstr "Asayî"
 
-#: kbugreport.cpp:230
+#: kbugreport.cpp:244
 #, kde-format
 msgid "Wishlist"
 msgstr "Lîsteya daxwaz"
 
-#: kbugreport.cpp:230
+#: kbugreport.cpp:244
 #, kde-format
 msgid "Translation"
 msgstr "Werger"
 
-#: kbugreport.cpp:248
+#: kbugreport.cpp:262
 #, kde-format
 msgid "S&ubject: "
 msgstr "M&ijar: "
 
-#: kbugreport.cpp:256
+#: kbugreport.cpp:270
 #, kde-format
 msgid ""
 "Enter the text (in English if possible) that you wish to submit for the bug "
@@ -449,7 +450,7 @@ msgstr ""
 "Heke tu pêl bişkoka \"Bişîne\" bike wê e-peyamek ji berpirsyarê vê bernameyê "
 "û ji lîsteya çewtiyan ya KDE re were şandin.\n"
 
-#: kbugreport.cpp:279
+#: kbugreport.cpp:294
 #, kde-format
 msgid ""
 "<qt>To submit a bug report, click on the button below. This will open a web "
@@ -462,25 +463,47 @@ msgstr ""
 "formekê ji bo dagirtinê nîşanî te bide. Agahiyên jor wê veguheze vê "
 "pêşkêşkerê.</qt>"
 
-#: kbugreport.cpp:294
+#: kbugreport.cpp:299
+#, fuzzy, kde-format
+#| msgid ""
+#| "<qt>To submit a bug report, click on the button below. This will open a "
+#| "web browser window on <a href=\"http://bugs.kde.org\">http://bugs.kde."
+#| "org</a> where you will find a form to fill in. The information displayed "
+#| "above will be transferred to that server.</qt>"
+msgid ""
+"<qt>To submit a bug report, click on the button below. This will open a web "
+"browser window on <a href=\"%1\">%2</a>.</qt>"
+msgstr ""
+"<qt>Ji bo şandina raporeke çewtiyan pêl girêdana jêr bike.Wê paceya gerokekê "
+"navnîşana <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a> veke û wê "
+"formekê ji bo dagirtinê nîşanî te bide. Agahiyên jor wê veguheze vê "
+"pêşkêşkerê.</qt>"
+
+#: kbugreport.cpp:316
 #, kde-format
 msgid "&Launch Bug Report Wizard"
 msgstr "Sêhrbaza Raporkirina Çewtiyan &Bide Destpêkirin"
 
-#: kbugreport.cpp:357
+#: kbugreport.cpp:318
+#, fuzzy, kde-format
+#| msgid "Submit Bug Report"
+msgid "&Submit Bug Report"
+msgstr "Rapora Çewtiyan Bişîne"
+
+#: kbugreport.cpp:382
 #, kde-format
 msgctxt "unknown program name"
 msgid "unknown"
 msgstr "nenas"
 
-#: kbugreport.cpp:416
+#: kbugreport.cpp:441
 #, kde-format
 msgid ""
 "You must specify both a subject and a description before the report can be "
 "sent."
 msgstr "Berî rapor were şandin divê tu mijarekê û daxuyaniyekê binivîse."
 
-#: kbugreport.cpp:425
+#: kbugreport.cpp:450
 #, kde-format
 msgid ""
 "<p>You chose the severity <b>Critical</b>. Please note that this severity is "
@@ -492,7 +515,7 @@ msgid ""
 "not, please select a lower severity. Thank you.</p>"
 msgstr ""
 
-#: kbugreport.cpp:437
+#: kbugreport.cpp:462
 #, kde-format
 msgid ""
 "<p>You chose the severity <b>Grave</b>. Please note that this severity is "
@@ -504,7 +527,7 @@ msgid ""
 "not, please select a lower severity. Thank you.</p>"
 msgstr ""
 
-#: kbugreport.cpp:451
+#: kbugreport.cpp:476
 #, kde-format
 msgid ""
 "Unable to send the bug report.\n"
@@ -515,12 +538,12 @@ msgstr ""
 "Rapora çewtiyan bi destan bişîne...\n"
 "Di vê mijarê de binihêre http://bugs.kde.org/."
 
-#: kbugreport.cpp:459
+#: kbugreport.cpp:484
 #, kde-format
 msgid "Bug report sent, thank you for your input."
 msgstr "Rapora çewtiyan hate şandin, spas ji bo eleqeya te."
 
-#: kbugreport.cpp:467
+#: kbugreport.cpp:493
 #, kde-format
 msgid ""
 "Close and discard\n"
@@ -529,7 +552,7 @@ msgstr ""
 "Tu dixwazî peyama sererastkirî\n"
 "piştguh bikî?"
 
-#: kbugreport.cpp:468
+#: kbugreport.cpp:494
 #, kde-format
 msgid "Close Message"
 msgstr "Peyamê Bigire"
