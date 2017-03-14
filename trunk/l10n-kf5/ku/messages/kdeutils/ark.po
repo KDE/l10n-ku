@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-03-06 04:03+0100\n"
+"POT-Creation-Date: 2017-03-14 08:23+0100\n"
 "PO-Revision-Date: 2007-12-22 09:56+0100\n"
 "Last-Translator: Erdal Ronahi <erdal.ronahi@nospam.gmail.com>\n"
 "Language-Team: Kurdish <gnu-ku-wergerandin at lists dot sourceforge dot "
@@ -495,7 +495,7 @@ msgstr ""
 msgid "Incorrect password."
 msgstr ""
 
-#: kerfuffle/cliinterface.cpp:925
+#: kerfuffle/cliinterface.cpp:929
 #, kde-format
 msgid "Ark does not currently support testing this archive."
 msgstr ""
@@ -897,11 +897,12 @@ msgid ""
 msgstr ""
 
 #: kerfuffle/jobs.cpp:650
-#, kde-format
-msgid "Adding a file"
-msgid_plural "Adding %1 files"
-msgstr[0] ""
-msgstr[1] ""
+#, fuzzy, kde-format
+#| msgid "Open an archive"
+msgid "Compressing a file"
+msgid_plural "Compressing %1 files"
+msgstr[0] "Arşîvekê veke"
+msgstr[1] "Arşîvekê veke"
 
 #: kerfuffle/jobs.cpp:703
 #, fuzzy, kde-format
@@ -1908,6 +1909,13 @@ msgstr "Arşîvekê veke"
 #| msgid_plural "Extracting %1 files"
 msgid "Extraction failed."
 msgstr "Pelek tê derxistin"
+
+#: plugins/cli7zplugin/cliplugin.cpp:292
+#, kde-format
+msgid ""
+"Delete operation failed. Try upgrading p7zip or disabling the p7zip plugin "
+"in the configuration dialog."
+msgstr ""
 
 #: plugins/clirarplugin/cliplugin.cpp:178
 #: plugins/clirarplugin/cliplugin.cpp:318
