@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-04-22 02:46+0200\n"
+"POT-Creation-Date: 2017-04-28 02:46+0200\n"
 "PO-Revision-Date: 2009-01-06 02:14+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <ku@li.org>\n"
@@ -120,6 +120,7 @@ msgstr ""
 
 #: Application.cpp:76
 #, kde-format
+msgctxt "@info:shell"
 msgid "Run in a separate process"
 msgstr ""
 
@@ -419,6 +420,7 @@ msgstr "Reng 8 (Tîr)"
 #: ColorScheme.cpp:348
 #, fuzzy, kde-format
 #| msgid "Un-named Color Scheme"
+msgctxt "@item"
 msgid "Un-named Color Scheme"
 msgstr "Şemaya Rengan yê Bênav"
 
@@ -474,13 +476,17 @@ msgctxt "Filter in file open dialog"
 msgid "Supported Images"
 msgstr ""
 
-#: ColorSchemeEditor.cpp:238 ColorSchemeEditor.cpp:239
-#, kde-format
+#: ColorSchemeEditor.cpp:238
+#, fuzzy, kde-format
+#| msgid "New Color Scheme"
+msgctxt "@title:window"
 msgid "New Color Scheme"
 msgstr "Şemaya Rengan yê Nû"
 
 #: ColorSchemeEditor.cpp:241
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Edit Color Scheme"
+msgctxt "@title:window"
 msgid "Edit Color Scheme"
 msgstr "Şemaya Rengan Biguherîne"
 
@@ -1715,21 +1721,18 @@ msgctxt "@info:tooltip"
 msgid "Sets whether matching text should be highlighted"
 msgstr "Veava dike ku nivîsa hevgirtî divê bê dîyar kirin an na"
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SearchReverseSearch)
-#. i18n: ectx: label, entry (SearchReverseSearch), group (SearchSettings)
-#: IncrementalSearchBar.cpp:134 settings/GeneralSettings.ui:195
-#: settings/konsole.kcfg:60
+#: IncrementalSearchBar.cpp:134
 #, kde-format
+msgctxt "@item:inmenu"
 msgid "Search backwards"
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_SearchReverseSearch)
-#. i18n: ectx: tooltip, entry (SearchReverseSearch), group (SearchSettings)
-#: IncrementalSearchBar.cpp:136 settings/GeneralSettings.ui:198
-#: settings/konsole.kcfg:61
-#, kde-format
+#: IncrementalSearchBar.cpp:136
+#, fuzzy, kde-format
+#| msgid "Find the next match for the current search phrase"
+msgctxt "@info:tooltip"
 msgid "Sets whether search should start from the bottom"
-msgstr ""
+msgstr "Hevgirtina pêş bibîne ji bo peyva lêgerîna heyî"
 
 #: IncrementalSearchBar.cpp:157
 #, kde-format
@@ -1740,6 +1743,7 @@ msgstr ""
 #: IncrementalSearchBar.cpp:158
 #, fuzzy, kde-format
 #| msgid "Find the next match for the current search phrase"
+msgctxt "@info:tooltip"
 msgid "Search for the current search phrase from the bottom"
 msgstr "Hevgirtina pêş bibîne ji bo peyva lêgerîna heyî"
 
@@ -1752,6 +1756,7 @@ msgstr ""
 #: IncrementalSearchBar.cpp:163
 #, fuzzy, kde-format
 #| msgid "Find the next match for the current search phrase"
+msgctxt "@info:tooltip"
 msgid "Search for the current search phrase from the top"
 msgstr "Hevgirtina pêş bibîne ji bo peyva lêgerîna heyî"
 
@@ -1806,6 +1811,7 @@ msgstr "Emûlatorê Termînalê"
 
 #: main.cpp:101
 #, kde-format
+msgctxt "@info:credit"
 msgid "(c) 1997-2017, The Konsole Developers"
 msgstr ""
 
@@ -2234,7 +2240,12 @@ msgstr "Wekî Standard Ava Bike"
 msgid "Default profile"
 msgstr "Profîlê jê bibe"
 
-#: ProfileManager.cpp:366
+#: ProfileManager.cpp:333
+#, kde-format
+msgid "Konsole does not have permission to save this profile to %1"
+msgstr ""
+
+#: ProfileManager.cpp:369
 #, fuzzy, kde-format
 #| msgid "Edit Profile \"%1\""
 msgctxt "The default name of a profile"
@@ -2349,19 +2360,19 @@ msgstr "Konsola Linux"
 msgid "Solaris console"
 msgstr "Konsola Solaris"
 
-#: Session.cpp:348
+#: Session.cpp:347
 #, kde-format
 msgid "Could not find binary: "
 msgstr "Nikare pela-cot bibîne:"
 
-#: Session.cpp:357
+#: Session.cpp:356
 #, fuzzy, kde-format
 #| msgid "Warning: "
 msgctxt "@info:shell Alert the user with red color text"
 msgid "Warning: "
 msgstr "Hişyarî: "
 
-#: Session.cpp:414
+#: Session.cpp:413
 #, kde-format
 msgid ""
 "Could not find '%1', starting '%2' instead.  Please check your profile "
@@ -2370,32 +2381,32 @@ msgstr ""
 "Nikare '%1' bibîne, şûna vê '%2' destpê dike. Jê kerema xwe mîhengên profîla "
 "xwe kontrol bike."
 
-#: Session.cpp:417
+#: Session.cpp:416
 #, kde-format
 msgid "Could not find an interactive shell to start."
 msgstr "Nikare shell a înteraktîf bibîne û bide destpê kirin."
 
-#: Session.cpp:455
+#: Session.cpp:454
 #, kde-format
 msgid "Could not start program '%1' with arguments '%2'."
 msgstr "Nikare bernameya '%1' bi sedema '%2' re bide destpêkirin."
 
-#: Session.cpp:584
+#: Session.cpp:583
 #, kde-format
 msgid "Silence in session '%1'"
 msgstr "Di danişîna '%1' de bêdengî"
 
-#: Session.cpp:632
+#: Session.cpp:631
 #, kde-format
 msgid "Bell in session '%1'"
 msgstr "Di danişîna '%1' de zengil"
 
-#: Session.cpp:645
+#: Session.cpp:644
 #, kde-format
 msgid "Activity in session '%1'"
 msgstr "Di danişîna '%1' de çalakî"
 
-#: Session.cpp:839
+#: Session.cpp:838
 #, kde-format
 msgid ""
 "The D-Bus methods sendText/runCommand were just used.  There are security "
@@ -2404,24 +2415,24 @@ msgid ""
 "warning will only show once for this Konsole instance.</p>"
 msgstr ""
 
-#: Session.cpp:866
+#: Session.cpp:865
 #, fuzzy, kde-format
 #| msgid "Finished"
 msgctxt "@info:shell This session is done"
 msgid "Finished"
 msgstr "Bi Dawî Bû"
 
-#: Session.cpp:880 Session.cpp:892
+#: Session.cpp:879 Session.cpp:891
 #, kde-format
 msgid "Program '%1' crashed."
 msgstr "Bernameya '%1' têk çû."
 
-#: Session.cpp:882
+#: Session.cpp:881
 #, kde-format
 msgid "Program '%1' exited with status %2."
 msgstr "Bernameya '%1' bi rewşa %2 re derket."
 
-#: Session.cpp:1279
+#: Session.cpp:1278
 #, kde-format
 msgid "ZModem Progress"
 msgstr "Pêşketina ZModem"
@@ -2873,6 +2884,20 @@ msgstr ""
 #| msgid "Highlight all"
 msgid "Highlight all search matches"
 msgstr "Hemûyan balkêş bike"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SearchReverseSearch)
+#. i18n: ectx: label, entry (SearchReverseSearch), group (SearchSettings)
+#: settings/GeneralSettings.ui:195 settings/konsole.kcfg:60
+#, kde-format
+msgid "Search backwards"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_SearchReverseSearch)
+#. i18n: ectx: tooltip, entry (SearchReverseSearch), group (SearchSettings)
+#: settings/GeneralSettings.ui:198 settings/konsole.kcfg:61
+#, kde-format
+msgid "Sets whether search should start from the bottom"
+msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
 #: settings/GeneralSettings.ui:216
@@ -3356,90 +3381,90 @@ msgid ""
 "You can double-click a tab to change its name.</para>"
 msgstr ""
 
-#: ViewManager.cpp:132
+#: ViewManager.cpp:131
 #, fuzzy, kde-format
 #| msgid "New &Tab"
 msgctxt "@action Shortcut entry"
 msgid "Next Tab"
 msgstr "Hi&pekîna Nû"
 
-#: ViewManager.cpp:133
+#: ViewManager.cpp:132
 #, fuzzy, kde-format
 #| msgid "Previous"
 msgctxt "@action Shortcut entry"
 msgid "Previous Tab"
 msgstr "Paş ve"
 
-#: ViewManager.cpp:134
+#: ViewManager.cpp:133
 #, fuzzy, kde-format
 #| msgid "Switch to Tab %1"
 msgctxt "@action Shortcut entry"
 msgid "Switch to Last Tab"
 msgstr "Biçe Hilpekîna %1"
 
-#: ViewManager.cpp:135
+#: ViewManager.cpp:134
 #, fuzzy, kde-format
 #| msgid "Next View"
 msgctxt "@action Shortcut entry"
 msgid "Next View Container"
 msgstr "Dîmena Dû Ve"
 
-#: ViewManager.cpp:137
+#: ViewManager.cpp:136
 #, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Move Tab Left"
 msgstr ""
 
-#: ViewManager.cpp:138
+#: ViewManager.cpp:137
 #, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Move Tab Right"
 msgstr ""
 
-#: ViewManager.cpp:146
+#: ViewManager.cpp:145
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Split View Left/Right"
 msgstr "Dîtinê wekî Çep/Rast Par Bike"
 
-#: ViewManager.cpp:153
+#: ViewManager.cpp:152
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Split View Top/Bottom"
 msgstr "Dîtinê Wekî Jor/Jêr Par Bike"
 
-#: ViewManager.cpp:158
+#: ViewManager.cpp:157
 #, kde-format
 msgctxt "@action:inmenu Close Active View"
 msgid "Close Active"
 msgstr "Ya Aktîf Bigire"
 
-#: ViewManager.cpp:167
+#: ViewManager.cpp:166
 #, kde-format
 msgctxt "@action:inmenu Close Other Views"
 msgid "Close Others"
 msgstr "Yên Din Bigire"
 
-#: ViewManager.cpp:176
+#: ViewManager.cpp:175
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Expand View"
 msgstr ""
 
-#: ViewManager.cpp:184
+#: ViewManager.cpp:183
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Shrink View"
 msgstr ""
 
-#: ViewManager.cpp:195
+#: ViewManager.cpp:194
 #, fuzzy, kde-format
 #| msgid "Close Current Tab"
 msgctxt "@action:inmenu"
 msgid "D&etach Current Tab"
 msgstr "Vê Hilpekînê Bigire"
 
-#: ViewManager.cpp:217
+#: ViewManager.cpp:216
 #, fuzzy, kde-format
 #| msgid "Switch to Tab %1"
 msgctxt "@action Shortcut entry"
