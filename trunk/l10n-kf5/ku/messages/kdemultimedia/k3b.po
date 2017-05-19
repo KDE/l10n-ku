@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: k3b\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-05-09 02:58+0200\n"
+"POT-Creation-Date: 2017-05-19 03:17+0200\n"
 "PO-Revision-Date: 2009-02-21 07:27+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -2404,7 +2404,7 @@ msgctxt "%1 and %2 are byte sizes formatted via KFormat::formatByteSize"
 msgid "%1 of %2"
 msgstr "%1 jê %2 MB"
 
-#: k3bjobprogressdialog.cpp:378 k3bjobprogressdialog.cpp:553
+#: k3bjobprogressdialog.cpp:378
 #, fuzzy, kde-format
 #| msgid "Elapsed time"
 msgctxt "@info %1 is a duration formatted using QLocale::toString"
@@ -2446,10 +2446,17 @@ msgstr ""
 msgid "Cancel Confirmation"
 msgstr ""
 
+#: k3bjobprogressdialog.cpp:553
+#, fuzzy, kde-format
+#| msgid "Elapsed time"
+msgctxt "@info %1 is a duration formatted"
+msgid "Elapsed time: %1"
+msgstr "Demê borî"
+
 #: k3bjobprogressdialog.cpp:557
 #, fuzzy, kde-format
 #| msgid "Remaining:"
-msgctxt "@info %1 is a duration formatted using QLocale::toString"
+msgctxt "@info %1 is a duration formatted"
 msgid "Remaining: %1"
 msgstr "Mayî:"
 
