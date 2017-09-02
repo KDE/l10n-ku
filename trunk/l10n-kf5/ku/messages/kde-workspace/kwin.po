@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-08-22 03:39+0200\n"
+"POT-Creation-Date: 2017-09-02 03:25+0200\n"
 "PO-Revision-Date: 2009-01-06 03:15+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <gnu-ku-wergerandin at lists dot sourceforge dot "
@@ -30,13 +30,13 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "oensari@gmail.com"
 
-#: client.cpp:1532
+#: abstract_client.cpp:1774
 #, kde-format
 msgctxt "Application is not responding, appended to window title"
 msgid "(Not Responding)"
 msgstr ""
 
-#: composite.cpp:570
+#: composite.cpp:599
 #, kde-format
 msgid ""
 "Desktop effects have been suspended by another application.<br/>You can "
@@ -1479,75 +1479,75 @@ msgctxt "KWin Scripting function received incorrect value for an expected type"
 msgid "%1 is not a variant type"
 msgstr ""
 
-#: tabbox/tabbox.cpp:385
+#: tabbox/tabbox.cpp:386
 #, fuzzy, kde-format
 #| msgid "Show Desktop Grid"
 msgctxt "Special entry in alt+tab list for minimizing all windows"
 msgid "Show Desktop"
 msgstr "Izxere ya Sermasê Nîşan Bide"
 
-#: tabbox/tabbox.cpp:534
+#: tabbox/tabbox.cpp:539
 #, kde-format
 msgid "Walk Through Windows"
 msgstr "Pace yan Bigere"
 
-#: tabbox/tabbox.cpp:535
+#: tabbox/tabbox.cpp:540
 #, kde-format
 msgid "Walk Through Windows (Reverse)"
-msgstr "Pace yan Bigere (Çepkî)"
-
-#: tabbox/tabbox.cpp:536
-#, fuzzy, kde-format
-#| msgid "Walk Through Windows (Reverse)"
-msgid "Walk Through Windows Alternative"
-msgstr "Pace yan Bigere (Çepkî)"
-
-#: tabbox/tabbox.cpp:537
-#, fuzzy, kde-format
-#| msgid "Walk Through Windows (Reverse)"
-msgid "Walk Through Windows Alternative (Reverse)"
-msgstr "Pace yan Bigere (Çepkî)"
-
-#: tabbox/tabbox.cpp:538
-#, fuzzy, kde-format
-#| msgid "Walk Through Windows (Reverse)"
-msgid "Walk Through Windows of Current Application"
-msgstr "Pace yan Bigere (Çepkî)"
-
-#: tabbox/tabbox.cpp:539
-#, fuzzy, kde-format
-#| msgid "Walk Through Windows (Reverse)"
-msgid "Walk Through Windows of Current Application (Reverse)"
-msgstr "Pace yan Bigere (Çepkî)"
-
-#: tabbox/tabbox.cpp:540
-#, fuzzy, kde-format
-#| msgid "Walk Through Windows (Reverse)"
-msgid "Walk Through Windows of Current Application Alternative"
 msgstr "Pace yan Bigere (Çepkî)"
 
 #: tabbox/tabbox.cpp:541
 #, fuzzy, kde-format
 #| msgid "Walk Through Windows (Reverse)"
-msgid "Walk Through Windows of Current Application Alternative (Reverse)"
+msgid "Walk Through Windows Alternative"
 msgstr "Pace yan Bigere (Çepkî)"
 
 #: tabbox/tabbox.cpp:542
+#, fuzzy, kde-format
+#| msgid "Walk Through Windows (Reverse)"
+msgid "Walk Through Windows Alternative (Reverse)"
+msgstr "Pace yan Bigere (Çepkî)"
+
+#: tabbox/tabbox.cpp:543
+#, fuzzy, kde-format
+#| msgid "Walk Through Windows (Reverse)"
+msgid "Walk Through Windows of Current Application"
+msgstr "Pace yan Bigere (Çepkî)"
+
+#: tabbox/tabbox.cpp:544
+#, fuzzy, kde-format
+#| msgid "Walk Through Windows (Reverse)"
+msgid "Walk Through Windows of Current Application (Reverse)"
+msgstr "Pace yan Bigere (Çepkî)"
+
+#: tabbox/tabbox.cpp:545
+#, fuzzy, kde-format
+#| msgid "Walk Through Windows (Reverse)"
+msgid "Walk Through Windows of Current Application Alternative"
+msgstr "Pace yan Bigere (Çepkî)"
+
+#: tabbox/tabbox.cpp:546
+#, fuzzy, kde-format
+#| msgid "Walk Through Windows (Reverse)"
+msgid "Walk Through Windows of Current Application Alternative (Reverse)"
+msgstr "Pace yan Bigere (Çepkî)"
+
+#: tabbox/tabbox.cpp:547
 #, kde-format
 msgid "Walk Through Desktops"
 msgstr "Sermaseyan Bigere"
 
-#: tabbox/tabbox.cpp:543
+#: tabbox/tabbox.cpp:548
 #, kde-format
 msgid "Walk Through Desktops (Reverse)"
 msgstr "Sermaseyan Bigere (Çepkî)"
 
-#: tabbox/tabbox.cpp:544
+#: tabbox/tabbox.cpp:549
 #, kde-format
 msgid "Walk Through Desktop List"
 msgstr "Lîsteya Sermaseyan Bigere"
 
-#: tabbox/tabbox.cpp:545
+#: tabbox/tabbox.cpp:550
 #, kde-format
 msgid "Walk Through Desktop List (Reverse)"
 msgstr "Lîsteya Sermaseyan Bigere (Çepkî)"
@@ -1829,7 +1829,7 @@ msgstr ""
 msgid "Virtual Keyboard is disabled."
 msgstr ""
 
-#: workspace.cpp:1369
+#: workspace.cpp:1371
 #, kde-format
 msgctxt "Introductory text shown in the support information."
 msgid ""
