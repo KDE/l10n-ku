@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-09-03 02:57+0200\n"
+"POT-Creation-Date: 2017-11-06 02:59+0100\n"
 "PO-Revision-Date: 2009-01-06 02:14+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <ku@li.org>\n"
@@ -2221,14 +2221,14 @@ msgstr "Anîn"
 
 #. i18n: ectx: property (text), widget (QCheckBox, printerFriendly)
 #. i18n: ectx: label, entry (PrinterFriendly), group (PrintOptions)
-#: PrintOptions.ui:39 settings/konsole.kcfg:110
+#: PrintOptions.ui:39 settings/konsole.kcfg:114
 #, kde-format
 msgid "Printer &friendly mode (black text, no background)"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, scaleOutput)
 #. i18n: ectx: label, entry (ScaleOutput), group (PrintOptions)
-#: PrintOptions.ui:46 settings/konsole.kcfg:114
+#: PrintOptions.ui:46 settings/konsole.kcfg:118
 #, kde-format
 msgid "&Scale output"
 msgstr ""
@@ -2795,7 +2795,7 @@ msgstr "Hilbijartinê Pê Ve Bike"
 
 #. i18n: ectx: property (filter), widget (KUrlRequester, kcfg_scrollbackUseSpecifiedLocationDirectory)
 #. i18n: ectx: property (filter), widget (KUrlRequester, kcfg_TabBarUserStyleSheetFile)
-#: settings/FileLocationSettings.ui:156 settings/TabBarSettings.ui:108
+#: settings/FileLocationSettings.ui:156 settings/TabBarSettings.ui:81
 #, kde-format
 msgid "text/css"
 msgstr ""
@@ -3025,26 +3025,32 @@ msgstr ""
 msgid "Control where to put the new tab"
 msgstr ""
 
+#. i18n: ectx: label, entry (ExpandTabWidth), group (TabBar)
+#: settings/konsole.kcfg:108
+#, kde-format
+msgid "Expand the tab widths (Qt5.9+ uses the full window width)"
+msgstr ""
+
 #. i18n: ectx: label, entry (scrollbackUseSystemLocation), group (FileLocation)
-#: settings/konsole.kcfg:120
+#: settings/konsole.kcfg:124
 #, kde-format
 msgid "For scrollback files, use system-wide folder location"
 msgstr ""
 
 #. i18n: ectx: label, entry (scrollbackUseCacheLocation), group (FileLocation)
-#: settings/konsole.kcfg:124
+#: settings/konsole.kcfg:128
 #, kde-format
 msgid "For scrollback files, use user's specific folder location"
 msgstr ""
 
 #. i18n: ectx: label, entry (scrollbackUseSpecifiedLocation), group (FileLocation)
-#: settings/konsole.kcfg:128
+#: settings/konsole.kcfg:132
 #, kde-format
 msgid "For scrollback files, use specified folder location"
 msgstr ""
 
 #. i18n: ectx: label, entry (scrollbackUseSpecifiedLocationDirectory), group (FileLocation)
-#: settings/konsole.kcfg:132
+#: settings/konsole.kcfg:136
 #, kde-format
 msgid "For scrollback files, use this folder"
 msgstr ""
@@ -3161,12 +3167,11 @@ msgstr "Jînname(yên) hilbijartî jê bibe"
 msgid "&Set as Default"
 msgstr "Wekî Standard Ava Bike"
 
-#. i18n: ectx: property (text), widget (QLabel, label_1)
+#. i18n: ectx: property (text), widget (QLabel, label_2)
 #: settings/TabBarSettings.ui:23
-#, fuzzy, kde-format
-#| msgid "Tab bar display:"
-msgid "Tab bar visibility:"
-msgstr "Dîmena darika hilpekînê:"
+#, kde-format
+msgid "Tab bar position:"
+msgstr "Bicihbûna darika hilpekînê:"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TabBarVisibility)
 #: settings/TabBarSettings.ui:40
@@ -3186,25 +3191,18 @@ msgstr "Dema Hewce Be Darika Hilpekînê Nîşan Bide"
 msgid "Always Hide Tab Bar"
 msgstr "Herdem Darika Hilpekînê Veşêre"
 
-#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: ectx: property (text), widget (QLabel, label_1)
 #: settings/TabBarSettings.ui:58
+#, fuzzy, kde-format
+#| msgid "Tab bar display:"
+msgid "Tab bar visibility:"
+msgstr "Dîmena darika hilpekînê:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ExpandTabWidth)
+#: settings/TabBarSettings.ui:68
 #, kde-format
-msgid "Tab bar position:"
-msgstr "Bicihbûna darika hilpekînê:"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TabBarPosition)
-#: settings/TabBarSettings.ui:75
-#, fuzzy, kde-format
-#| msgid "Above Terminal Displays"
-msgid "Above Terminal Area"
-msgstr "Nîşandanên Jora Termînalê"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TabBarPosition)
-#: settings/TabBarSettings.ui:80
-#, fuzzy, kde-format
-#| msgid "Below Terminal Displays"
-msgid "Below Terminal Area"
-msgstr "Nîşandanên Jêra Termînalê"
+msgid "Expand Individual Tab Widths to Full Window"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowQuickButtons)
 #: settings/TabBarSettings.ui:88
@@ -3221,26 +3219,46 @@ msgstr ""
 msgid "Use user-defined stylesheet"
 msgstr ""
 
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TabBarPosition)
+#: settings/TabBarSettings.ui:109
+#, fuzzy, kde-format
+#| msgid "Above Terminal Displays"
+msgid "Above Terminal Area"
+msgstr "Nîşandanên Jora Termînalê"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TabBarPosition)
+#: settings/TabBarSettings.ui:114
+#, fuzzy, kde-format
+#| msgid "Below Terminal Displays"
+msgid "Below Terminal Area"
+msgstr "Nîşandanên Jêra Termînalê"
+
+#. i18n: ectx: property (text), widget (QLabel, Qt59label)
+#: settings/TabBarSettings.ui:128
+#, kde-format
+msgid "Qt 5.9+ has changes that will affect the below two options."
+msgstr ""
+
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: settings/TabBarSettings.ui:118
+#: settings/TabBarSettings.ui:144
 #, kde-format
 msgid "Behavior"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: settings/TabBarSettings.ui:124
+#: settings/TabBarSettings.ui:150
 #, kde-format
 msgid "New tab behavior:"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NewTabBehavior)
-#: settings/TabBarSettings.ui:141
+#: settings/TabBarSettings.ui:167
 #, kde-format
 msgid "Put New Tab At The End"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NewTabBehavior)
-#: settings/TabBarSettings.ui:146
+#: settings/TabBarSettings.ui:172
 #, kde-format
 msgid "Put New Tab After Current Tab"
 msgstr ""
@@ -3371,47 +3389,47 @@ msgstr "Hilbijartinê Pê Ve Bike"
 msgid "Change &Directory To"
 msgstr ""
 
-#: ViewContainer.cpp:300
+#: ViewContainer.cpp:306
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Detach Tab"
 msgstr ""
 
-#: ViewContainer.cpp:305
+#: ViewContainer.cpp:311
 #, fuzzy, kde-format
 #| msgid "&Rename Tab..."
 msgctxt "@action:inmenu"
 msgid "&Rename Tab..."
 msgstr "&Navê Hilpekînê Biguherîne..."
 
-#: ViewContainer.cpp:311
+#: ViewContainer.cpp:317
 #, fuzzy, kde-format
 #| msgid "&Close Tab"
 msgctxt "@action:inmenu"
 msgid "&Close Tab"
 msgstr "Hilpekînê &Bigire"
 
-#: ViewContainer.cpp:318
+#: ViewContainer.cpp:324
 #, fuzzy, kde-format
 #| msgid "Enter new tab text:"
 msgctxt "@info:tooltip"
 msgid "Create new tab"
 msgstr "Nivîsara hilpekîna nû binivîse:"
 
-#: ViewContainer.cpp:320
+#: ViewContainer.cpp:326
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Create a new tab. Press and hold to select profile from menu"
 msgstr ""
 
-#: ViewContainer.cpp:334
+#: ViewContainer.cpp:340
 #, fuzzy, kde-format
 #| msgid "&Close Tab"
 msgctxt "@info:tooltip"
 msgid "Close tab"
 msgstr "Hilpekînê &Bigire"
 
-#: ViewContainer.cpp:335
+#: ViewContainer.cpp:341
 #, fuzzy, kde-format
 #| msgid "Close the search bar"
 msgctxt "@info:whatsthis"
@@ -3426,90 +3444,90 @@ msgid ""
 "You can double-click a tab to change its name.</para>"
 msgstr ""
 
-#: ViewManager.cpp:138
+#: ViewManager.cpp:139
 #, fuzzy, kde-format
 #| msgid "New &Tab"
 msgctxt "@action Shortcut entry"
 msgid "Next Tab"
 msgstr "Hi&pekîna Nû"
 
-#: ViewManager.cpp:139
+#: ViewManager.cpp:140
 #, fuzzy, kde-format
 #| msgid "Previous"
 msgctxt "@action Shortcut entry"
 msgid "Previous Tab"
 msgstr "Paş ve"
 
-#: ViewManager.cpp:141
+#: ViewManager.cpp:142
 #, fuzzy, kde-format
 #| msgid "Switch to Tab %1"
 msgctxt "@action Shortcut entry"
 msgid "Switch to Last Tab"
 msgstr "Biçe Hilpekîna %1"
 
-#: ViewManager.cpp:143
+#: ViewManager.cpp:144
 #, fuzzy, kde-format
 #| msgid "Next View"
 msgctxt "@action Shortcut entry"
 msgid "Next View Container"
 msgstr "Dîmena Dû Ve"
 
-#: ViewManager.cpp:145
+#: ViewManager.cpp:146
 #, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Move Tab Left"
 msgstr ""
 
-#: ViewManager.cpp:147
+#: ViewManager.cpp:148
 #, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Move Tab Right"
 msgstr ""
 
-#: ViewManager.cpp:155
+#: ViewManager.cpp:156
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Split View Left/Right"
 msgstr "Dîtinê wekî Çep/Rast Par Bike"
 
-#: ViewManager.cpp:163
+#: ViewManager.cpp:164
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Split View Top/Bottom"
 msgstr "Dîtinê Wekî Jor/Jêr Par Bike"
 
-#: ViewManager.cpp:168
+#: ViewManager.cpp:169
 #, kde-format
 msgctxt "@action:inmenu Close Active View"
 msgid "Close Active"
 msgstr "Ya Aktîf Bigire"
 
-#: ViewManager.cpp:179
+#: ViewManager.cpp:180
 #, kde-format
 msgctxt "@action:inmenu Close Other Views"
 msgid "Close Others"
 msgstr "Yên Din Bigire"
 
-#: ViewManager.cpp:189
+#: ViewManager.cpp:190
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Expand View"
 msgstr ""
 
-#: ViewManager.cpp:199
+#: ViewManager.cpp:200
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Shrink View"
 msgstr ""
 
-#: ViewManager.cpp:212
+#: ViewManager.cpp:213
 #, fuzzy, kde-format
 #| msgid "Close Current Tab"
 msgctxt "@action:inmenu"
 msgid "D&etach Current Tab"
 msgstr "Vê Hilpekînê Bigire"
 
-#: ViewManager.cpp:236
+#: ViewManager.cpp:237
 #, fuzzy, kde-format
 #| msgid "Switch to Tab %1"
 msgctxt "@action Shortcut entry"
