@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_weather\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-01-16 03:19+0100\n"
+"POT-Creation-Date: 2018-01-22 03:20+0100\n"
 "PO-Revision-Date: 2009-01-12 03:03+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -232,18 +232,6 @@ msgstr "Rojane bike her"
 msgid " min"
 msgstr " xulek"
 
-#: package/contents/ui/FullRepresentation.qml:77
-#, fuzzy, kde-format
-#| msgid "Details"
-msgid "Details"
-msgstr "Kitekît"
-
-#: package/contents/ui/FullRepresentation.qml:87
-#, fuzzy, kde-format
-#| msgid "Notices"
-msgid "Notices"
-msgstr "Hişyarî"
-
 #: package/contents/ui/main.qml:34
 #, kde-format
 msgctxt "Shown when you have not set a weather provider"
@@ -262,35 +250,47 @@ msgctxt ""
 msgid "%1 %2"
 msgstr "%1 %2"
 
-#: package/contents/ui/NoticesView.qml:29
+#: package/contents/ui/NoticesView.qml:44
 #, fuzzy, kde-format
 #| msgid "Warnings Issued:"
 msgctxt "weather warnings"
-msgid "Warnings Issued:"
+msgid "Warnings Issued"
 msgstr "Tiştên Hişyariyê:"
 
-#: package/contents/ui/NoticesView.qml:34
+#: package/contents/ui/NoticesView.qml:44
 #, fuzzy, kde-format
 #| msgid "Watches Issued:"
 msgctxt "weather watches"
-msgid "Watches Issued:"
+msgid "Watches Issued"
 msgstr "Tiştên Nihêrînê:"
 
-#: package/contents/ui/TopPanel.qml:86
+#: package/contents/ui/SwitchPanel.qml:54
+#, fuzzy, kde-format
+#| msgid "Details"
+msgid "Details"
+msgstr "Kitekît"
+
+#: package/contents/ui/SwitchPanel.qml:70
+#, fuzzy, kde-format
+#| msgid "Notices"
+msgid "Notices"
+msgstr "Hişyarî"
+
+#: package/contents/ui/TopPanel.qml:131
 #, fuzzy, kde-format
 #| msgid "H: %1 L: %2"
 msgctxt "High & Low temperature"
 msgid "H: %1 L: %2"
 msgstr "B: %1 F: %2"
 
-#: package/contents/ui/TopPanel.qml:89
+#: package/contents/ui/TopPanel.qml:134
 #, fuzzy, kde-format
 #| msgid "Low: %1"
 msgctxt "Low temperature"
 msgid "Low: %1"
 msgstr "Kêm: %1"
 
-#: package/contents/ui/TopPanel.qml:92
+#: package/contents/ui/TopPanel.qml:137
 #, fuzzy, kde-format
 #| msgid "High: %1"
 msgctxt "High temperature"
