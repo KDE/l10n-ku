@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gwenview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-03-01 06:12+0100\n"
+"POT-Creation-Date: 2018-03-16 03:23+0100\n"
 "PO-Revision-Date: 2009-01-22 22:46+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -73,62 +73,98 @@ msgstr ""
 msgid "Remember folders and URLs"
 msgstr ""
 
-#: app/browsemainpage.cpp:130 app/mainwindow.cpp:359 app/viewmainpage.cpp:421
+#. i18n: ectx: property (text), widget (QLabel, colorRenderingLabel)
+#: app/advancedconfigpage.ui:127
+#, kde-format
+msgid "Rendering intent:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, perceptualRenderingIntentRadioButton)
+#: app/advancedconfigpage.ui:142
+#, kde-format
+msgctxt "@option:Perceptual rendering intent"
+msgid "Perceptual"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, perceptualHelpLabel)
+#: app/advancedconfigpage.ui:154
+#, kde-format
+msgid ""
+"Scale all colors equally to fit them within the active color profile's color "
+"gamut"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, relativeRenderingIntentRadioButton)
+#: app/advancedconfigpage.ui:182
+#, kde-format
+msgctxt "@option:Relative Colorimetric rendering intent"
+msgid "Relative Colorimetric"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, relativeHelpLabel)
+#: app/advancedconfigpage.ui:194
+#, kde-format
+msgid ""
+"Squash colors that don't fit within the active color profile's color gamut, "
+"leaving other colors untouched"
+msgstr ""
+
+#: app/browsemainpage.cpp:134 app/mainwindow.cpp:357 app/viewmainpage.cpp:404
 #: lib/documentview/documentviewcontroller.cpp:90
 #, kde-format
 msgctxt "@title actions category - means actions changing smth in interface"
 msgid "View"
 msgstr "Bibîne"
 
-#: app/browsemainpage.cpp:132
+#: app/browsemainpage.cpp:136
 #, kde-format
 msgctxt "@action:inmenu Navigation Bar"
 msgid "Edit Location"
 msgstr "Cih Serast Bike"
 
-#: app/browsemainpage.cpp:136
+#: app/browsemainpage.cpp:140
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Sort By"
 msgstr "Rêz Bike Gorê"
 
-#: app/browsemainpage.cpp:137
+#: app/browsemainpage.cpp:141
 #, kde-format
 msgctxt "@addAction:inmenu"
 msgid "Name"
 msgstr "Nav"
 
-#: app/browsemainpage.cpp:139
+#: app/browsemainpage.cpp:143
 #, kde-format
 msgctxt "@addAction:inmenu"
 msgid "Date"
 msgstr "Dîrok"
 
-#: app/browsemainpage.cpp:141
+#: app/browsemainpage.cpp:145
 #, kde-format
 msgctxt "@addAction:inmenu"
 msgid "Size"
 msgstr "Mezinahî"
 
-#: app/browsemainpage.cpp:149
+#: app/browsemainpage.cpp:153
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Thumbnail Details"
 msgstr "Kîtekîtên Wêneyên Biçûk"
 
-#: app/browsemainpage.cpp:150
+#: app/browsemainpage.cpp:154
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Filename"
 msgstr "Navê Pelê"
 
-#: app/browsemainpage.cpp:151
+#: app/browsemainpage.cpp:155
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Date"
 msgstr "Dîrok"
 
-#: app/browsemainpage.cpp:152
+#: app/browsemainpage.cpp:156
 #, fuzzy, kde-format
 #| msgctxt "@item:intable"
 #| msgid "Image Size"
@@ -136,7 +172,7 @@ msgctxt "@action:inmenu"
 msgid "Image Size"
 msgstr "Mezinahiya Wêneyê"
 
-#: app/browsemainpage.cpp:153
+#: app/browsemainpage.cpp:157
 #, fuzzy, kde-format
 #| msgctxt "@item:intable"
 #| msgid "File Size"
@@ -144,26 +180,26 @@ msgctxt "@action:inmenu"
 msgid "File Size"
 msgstr "Mezinahiya Pelê"
 
-#: app/browsemainpage.cpp:155
+#: app/browsemainpage.cpp:159
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Rating"
 msgstr "Nirxandin"
 
-#: app/browsemainpage.cpp:158 app/fileopscontextmanageritem.cpp:132
-#: app/mainwindow.cpp:358
+#: app/browsemainpage.cpp:162 app/fileopscontextmanageritem.cpp:133
+#: app/mainwindow.cpp:356
 #, kde-format
 msgctxt "@title actions category"
 msgid "File"
 msgstr "Pel"
 
-#: app/browsemainpage.cpp:160
+#: app/browsemainpage.cpp:164
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add Folder to Places"
 msgstr "Lê Qadan Peldank Zêde Bike"
 
-#: app/browsemainpage.cpp:187
+#: app/browsemainpage.cpp:191
 #, kde-format
 msgctxt "@label"
 msgid "%1 document"
@@ -177,23 +213,23 @@ msgstr[1] "%1 belge"
 msgid "Add Filter"
 msgstr "Parzûn Lê Zêde Bike"
 
-#: app/configdialog.cpp:55
+#: app/configdialog.cpp:62
 #, kde-format
 msgid "General"
 msgstr "Giştî"
 
-#: app/configdialog.cpp:89
+#: app/configdialog.cpp:96
 #, kde-format
 msgid "Image View"
 msgstr "Nîşandana Wêneyan"
 
-#: app/configdialog.cpp:94
+#: app/configdialog.cpp:107
 #, fuzzy, kde-format
 #| msgid "Image Settings"
 msgid "Advanced"
 msgstr "Mîhengên Wêneyan"
 
-#: app/fileoperations.cpp:63
+#: app/fileoperations.cpp:65
 #, fuzzy, kde-format
 #| msgctxt "@action:button"
 #| msgid "Copy"
@@ -201,7 +237,7 @@ msgctxt "@title:window %1 file name"
 msgid "Copy %1"
 msgstr "Ji Ber Bigire"
 
-#: app/fileoperations.cpp:65
+#: app/fileoperations.cpp:67
 #, fuzzy, kde-format
 #| msgid "Go to Next Image"
 msgctxt "@title:window %1 number of images"
@@ -210,13 +246,13 @@ msgid_plural "Copy %1 images"
 msgstr[0] "Biçe Wêneya Pêş"
 msgstr[1] "Biçe Wêneya Pêş"
 
-#: app/fileoperations.cpp:67
+#: app/fileoperations.cpp:69
 #, kde-format
 msgctxt "@action:button"
 msgid "Copy"
 msgstr "Ji Ber Bigire"
 
-#: app/fileoperations.cpp:71
+#: app/fileoperations.cpp:73
 #, fuzzy, kde-format
 #| msgctxt "@action:button"
 #| msgid "Move"
@@ -224,7 +260,7 @@ msgctxt "@title:window %1 file name"
 msgid "Move %1"
 msgstr "Bibe"
 
-#: app/fileoperations.cpp:73
+#: app/fileoperations.cpp:75
 #, fuzzy, kde-format
 #| msgctxt "%1 is collection name, %2 is image count in collection"
 #| msgid "%1 (%2 image)"
@@ -235,13 +271,13 @@ msgid_plural "Move %1 images"
 msgstr[0] "%1 (%2 wêne)"
 msgstr[1] "%1 (%2 wêne)"
 
-#: app/fileoperations.cpp:75
+#: app/fileoperations.cpp:77
 #, kde-format
 msgctxt "@action:button"
 msgid "Move"
 msgstr "Bibe"
 
-#: app/fileoperations.cpp:79
+#: app/fileoperations.cpp:81
 #, fuzzy, kde-format
 #| msgctxt "@action:button"
 #| msgid "Link"
@@ -249,7 +285,7 @@ msgctxt "@title:window %1 file name"
 msgid "Link %1"
 msgstr "Girêdan"
 
-#: app/fileoperations.cpp:81
+#: app/fileoperations.cpp:83
 #, fuzzy, kde-format
 #| msgctxt "%1 is collection name, %2 is image count in collection"
 #| msgid "%1 (%2 image)"
@@ -260,118 +296,101 @@ msgid_plural "Link %1 images"
 msgstr[0] "%1 (%2 wêne)"
 msgstr[1] "%1 (%2 wêne)"
 
-#: app/fileoperations.cpp:83
+#: app/fileoperations.cpp:85
 #, kde-format
 msgctxt "@action:button"
 msgid "Link"
 msgstr "Girêdan"
 
-#: app/fileoperations.cpp:195
+#: app/fileoperations.cpp:202
 #, kde-format
 msgid "Move Here"
 msgstr "Bîne Li Vir"
 
-#: app/fileoperations.cpp:198
+#: app/fileoperations.cpp:205
 #, kde-format
 msgid "Copy Here"
 msgstr "Ji Ber Bigire Li Vir"
 
-#: app/fileoperations.cpp:201
+#: app/fileoperations.cpp:208
 #, kde-format
 msgid "Link Here"
 msgstr "Girê Bide Li Vir"
 
-#: app/fileoperations.cpp:205
+#: app/fileoperations.cpp:212
 #, kde-format
 msgid "Cancel"
 msgstr "Betal Bike"
 
-#: app/fileoperations.cpp:226
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Filename"
-msgctxt "@title:window"
-msgid "Rename"
-msgstr "Navê Pelê"
-
-#: app/fileoperations.cpp:227
-#, fuzzy, kde-kuit-format
-#| msgctxt ""
-#| "@info %1 is the name of the document which failed to save, %2 is the "
-#| "reason for the failure"
-#| msgid "<filename>%1</filename>: %2"
-msgid "Rename <filename>%1</filename> to:"
-msgstr "<filename>%1</filename>: %2"
-
-#: app/fileopscontextmanageritem.cpp:120
+#: app/fileopscontextmanageritem.cpp:121
 #, kde-format
 msgid "File Operations"
 msgstr "Xebatên Pelê"
 
-#: app/fileopscontextmanageritem.cpp:133
+#: app/fileopscontextmanageritem.cpp:134
 #: app/semanticinfocontextmanageritem.cpp:200
 #, kde-format
 msgctxt "@title actions category"
 msgid "Edit"
 msgstr "Serast Bike"
 
-#: app/fileopscontextmanageritem.cpp:140
+#: app/fileopscontextmanageritem.cpp:141
 #, kde-format
 msgctxt "Verb"
 msgid "Copy To..."
 msgstr "Ji Ber Bigire Li..."
 
-#: app/fileopscontextmanageritem.cpp:145
+#: app/fileopscontextmanageritem.cpp:146
 #, kde-format
 msgctxt "Verb"
 msgid "Move To..."
 msgstr "Bibe Li..."
 
-#: app/fileopscontextmanageritem.cpp:150
+#: app/fileopscontextmanageritem.cpp:151
 #, kde-format
 msgctxt "Verb: create link to the file where user wants"
 msgid "Link To..."
 msgstr "Girê Bide Li..."
 
-#: app/fileopscontextmanageritem.cpp:155
+#: app/fileopscontextmanageritem.cpp:156
 #, kde-format
 msgctxt "Verb"
 msgid "Rename..."
 msgstr ""
 
-#: app/fileopscontextmanageritem.cpp:160
+#: app/fileopscontextmanageritem.cpp:161
 #, kde-format
 msgctxt "Verb"
 msgid "Trash"
 msgstr "Bavêje Çopê"
 
-#: app/fileopscontextmanageritem.cpp:170
+#: app/fileopscontextmanageritem.cpp:171
 #, fuzzy, kde-format
 #| msgid "Resize"
 msgid "Restore"
 msgstr "Mezinahiyê Biguherîne"
 
-#: app/fileopscontextmanageritem.cpp:174
+#: app/fileopscontextmanageritem.cpp:175
 #, kde-format
 msgid "Properties"
 msgstr "Taybetmendî"
 
-#: app/fileopscontextmanageritem.cpp:178
+#: app/fileopscontextmanageritem.cpp:179
 #, kde-format
 msgid "Create Folder..."
 msgstr "Peldank Biafirîne..."
 
-#: app/fileopscontextmanageritem.cpp:182
+#: app/fileopscontextmanageritem.cpp:183
 #, kde-format
 msgid "Open With"
 msgstr "Veke Bi"
 
-#: app/fileopscontextmanageritem.cpp:189
+#: app/fileopscontextmanageritem.cpp:190
 #, kde-format
 msgid "Open Containing Folder"
 msgstr ""
 
-#: app/fileopscontextmanageritem.cpp:385
+#: app/fileopscontextmanageritem.cpp:386
 #, kde-format
 msgid "Other Application..."
 msgstr "Sepanê Din..."
@@ -509,13 +528,13 @@ msgstr "Wêneyên biçûk nîşan bide"
 msgid "Height:"
 msgstr "Bilindahî:"
 
-#: app/fullscreencontent.cpp:215
+#: app/fullscreencontent.cpp:217
 #, kde-format
 msgctxt "@item:intext fullscreen meta info separator"
 msgid ", "
 msgstr ","
 
-#: app/fullscreencontent.cpp:271
+#: app/fullscreencontent.cpp:266
 #, kde-format
 msgctxt "Slideshow interval in seconds"
 msgid "%1 sec"
@@ -523,7 +542,7 @@ msgid_plural "%1 secs"
 msgstr[0] "%1 çirke"
 msgstr[1] "%1 çirke"
 
-#: app/fullscreencontent.cpp:375
+#: app/fullscreencontent.cpp:370
 #, fuzzy, kde-format
 #| msgctxt "@info:tooltip"
 #| msgid "Configure Full Screen Mode"
@@ -531,27 +550,54 @@ msgctxt "@info:tooltip"
 msgid "Configure full screen mode"
 msgstr "Moda Dîmender Tijî Veava Bike"
 
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: app/generalconfigpage.ui:17
-#, fuzzy, kde-format
-#| msgid "&View background color:"
-msgid "Background color:"
-msgstr "Rengê rûerdê &bibîne:"
-
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: app/generalconfigpage.ui:82
+#: app/generalconfigpage.ui:17
 #, kde-format
 msgid "Videos:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ListVideos)
-#: app/generalconfigpage.ui:89
+#: app/generalconfigpage.ui:24
 #, fuzzy, kde-format
 #| msgid "Show Sidebar"
 msgid "Show videos"
 msgstr "Darika-kêlekê Nîşan Bide"
 
-#: app/gvcore.cpp:73
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: app/generalconfigpage.ui:47
+#, fuzzy, kde-format
+#| msgid "&View background color:"
+msgid "Background color:"
+msgstr "Rengê rûerdê &bibîne:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: app/generalconfigpage.ui:128
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Thumbnail Details"
+msgid "Thumbnail actions:"
+msgstr "Kîtekîtên Wêneyên Biçûk"
+
+#. i18n: ectx: property (text), widget (QRadioButton, allButtonsThumbnailActionsRadioButton)
+#: app/generalconfigpage.ui:135
+#, kde-format
+msgid "All buttons"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, selectionOnlyThumbnailActionsRadioButton)
+#: app/generalconfigpage.ui:142
+#, kde-format
+msgid "Show selection button only"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, noneThumbnailActionsRadioButton)
+#. i18n: ectx: property (text), widget (QRadioButton, noAnimationRadioButton)
+#: app/generalconfigpage.ui:149 app/imageviewconfigpage.ui:409
+#, kde-format
+msgid "None"
+msgstr ""
+
+#: app/gvcore.cpp:74
 #, fuzzy, kde-format
 #| msgctxt "@title:window"
 #| msgid "Open Image"
@@ -559,23 +605,23 @@ msgctxt "@title:window"
 msgid "Save Image"
 msgstr "Wêneyê Veke"
 
-#: app/gvcore.cpp:105
+#: app/gvcore.cpp:106
 #, kde-format
 msgctxt "@info"
 msgid "Gwenview cannot save images as %1."
 msgstr "Gwenview nikare wêneyan wekî %1 tomar bike."
 
-#: app/gvcore.cpp:242
+#: app/gvcore.cpp:338
 #, kde-format
 msgid "Save using another format"
 msgstr "Bi bikaranîna teşeyekî din re tomar bike"
 
-#: app/gvcore.cpp:245
+#: app/gvcore.cpp:341
 #, kde-format
 msgid "Gwenview cannot save images in '%1' format."
 msgstr "Gwenview nikare wêneyan di teşeya '%1' de tomar bike."
 
-#: app/gvcore.cpp:270
+#: app/gvcore.cpp:366
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -585,7 +631,7 @@ msgstr ""
 "Navê pelê <filename>%1</filename> jixwe heye.\n"
 "Tu bi rastî dixwazî ser vê binivîsî?"
 
-#: app/gvcore.cpp:285 app/gvcore.cpp:308
+#: app/gvcore.cpp:381 app/gvcore.cpp:404
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info"
 #| msgid "<b>Saving <filename>%1</filename> failed:</b><br>%2"
@@ -593,12 +639,12 @@ msgctxt "@info"
 msgid "<b>Saving <filename>%1</filename> failed:</b><br />%2"
 msgstr "<b>Tomarkirina <filename>%1</filename> pêk nehat:</b><br>%2"
 
-#: app/gvcore.cpp:328
+#: app/gvcore.cpp:424
 #, kde-format
 msgid "You are now viewing the new document."
 msgstr ""
 
-#: app/gvcore.cpp:330
+#: app/gvcore.cpp:426
 #, kde-format
 msgid "Go back to the original"
 msgstr ""
@@ -634,69 +680,69 @@ msgctxt "@title:window"
 msgid "Image Information"
 msgstr "Agahiya Meta"
 
-#: app/imageopscontextmanageritem.cpp:81
+#: app/imageopscontextmanageritem.cpp:82
 #, kde-format
 msgctxt "@title actions category - means actions changing image"
 msgid "Edit"
 msgstr "Serast Bike"
 
-#: app/imageopscontextmanageritem.cpp:84
+#: app/imageopscontextmanageritem.cpp:85
 #, kde-format
 msgid "Rotate Left"
 msgstr "Bizivirîne Çepê"
 
-#: app/imageopscontextmanageritem.cpp:85
+#: app/imageopscontextmanageritem.cpp:86
 #, fuzzy, kde-format
 #| msgid "Rotate Right"
 msgctxt "@info:tooltip"
 msgid "Rotate image to the left"
 msgstr "Bizivirîne Rastê"
 
-#: app/imageopscontextmanageritem.cpp:90
+#: app/imageopscontextmanageritem.cpp:91
 #, kde-format
 msgid "Rotate Right"
 msgstr "Bizivirîne Rastê"
 
-#: app/imageopscontextmanageritem.cpp:91
+#: app/imageopscontextmanageritem.cpp:92
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Rotate image to the right"
 msgstr ""
 
-#: app/imageopscontextmanageritem.cpp:96
+#: app/imageopscontextmanageritem.cpp:97
 #, kde-format
 msgid "Mirror"
 msgstr "Neynûk"
 
-#: app/imageopscontextmanageritem.cpp:100
+#: app/imageopscontextmanageritem.cpp:101
 #, kde-format
 msgid "Flip"
 msgstr "Serberjêr Bike"
 
-#: app/imageopscontextmanageritem.cpp:104 lib/resize/resizeimagedialog.cpp:64
+#: app/imageopscontextmanageritem.cpp:105 lib/resize/resizeimagedialog.cpp:64
 #, kde-format
 msgid "Resize"
 msgstr "Mezinahiyê Biguherîne"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, CropWidget)
-#: app/imageopscontextmanageritem.cpp:109 lib/crop/cropimageoperation.cpp:71
+#: app/imageopscontextmanageritem.cpp:110 lib/crop/cropimageoperation.cpp:71
 #: lib/crop/cropwidget.cpp:191 lib/crop/cropwidget.ui:20
 #, kde-format
 msgid "Crop"
 msgstr "Jê Bike"
 
-#: app/imageopscontextmanageritem.cpp:114
+#: app/imageopscontextmanageritem.cpp:115
 #, kde-format
 msgid "Red Eye Reduction"
 msgstr "Kêm-kirina Çavê Sor"
 
-#: app/imageopscontextmanageritem.cpp:140 lib/document/documentjob.cpp:79
+#: app/imageopscontextmanageritem.cpp:141 lib/document/documentjob.cpp:79
 #, kde-format
 msgctxt "@info"
 msgid "Gwenview cannot edit this kind of image."
 msgstr "Gwenview nikare wêneyên bi vê cure yê serast bike."
 
-#: app/imageopscontextmanageritem.cpp:152
+#: app/imageopscontextmanageritem.cpp:153
 #, kde-format
 msgid "Image Operations"
 msgstr "Xebatên Wêne"
@@ -788,12 +834,6 @@ msgstr ""
 #: app/imageviewconfigpage.ui:385
 #, kde-format
 msgid "Software"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QRadioButton, noAnimationRadioButton)
-#: app/imageviewconfigpage.ui:409
-#, kde-format
-msgid "None"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
@@ -1016,19 +1056,19 @@ msgstr "Di moda dîmender tijî de bide destpêkirin"
 msgid "Start in slideshow mode"
 msgstr "Di moda nîşandana slaytê de bide destpêkirin"
 
-#: app/main.cpp:145
+#: app/main.cpp:143
 #, fuzzy, kde-format
 #| msgid "A starting file or folder"
 msgid "A starting file or folders"
 msgstr "Pel an jî peldank tê destpêkirin"
 
-#: app/mainwindow.cpp:370
+#: app/mainwindow.cpp:368
 #, kde-format
 msgctxt "@action reload the currently viewed image"
 msgid "Reload"
 msgstr "Nû Ve Bar Bike"
 
-#: app/mainwindow.cpp:375
+#: app/mainwindow.cpp:373
 #, fuzzy, kde-format
 #| msgctxt "@action Switch to file list"
 #| msgid "Browse"
@@ -1036,13 +1076,13 @@ msgctxt "@action:intoolbar Switch to file list"
 msgid "Browse"
 msgstr "Bigere"
 
-#: app/mainwindow.cpp:376
+#: app/mainwindow.cpp:374
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Browse folders for images"
 msgstr ""
 
-#: app/mainwindow.cpp:383
+#: app/mainwindow.cpp:382
 #, fuzzy, kde-format
 #| msgctxt "@title actions category - means actions changing smth in interface"
 #| msgid "View"
@@ -1050,40 +1090,40 @@ msgctxt "@action:intoolbar Switch to image view"
 msgid "View"
 msgstr "Bibîne"
 
-#: app/mainwindow.cpp:384
+#: app/mainwindow.cpp:383
 #, fuzzy, kde-format
 #| msgid "Next modified image"
 msgctxt "@info:tooltip"
 msgid "View selected images"
 msgstr "Wêneya pêş ya hatiye guhertin"
 
-#: app/mainwindow.cpp:406
+#: app/mainwindow.cpp:405
 #, fuzzy, kde-format
 #| msgid "Start in fullscreen mode"
 msgctxt "@action"
 msgid "Leave Fullscreen Mode"
 msgstr "Di moda dîmender tijî de bide destpêkirin"
 
-#: app/mainwindow.cpp:411
+#: app/mainwindow.cpp:410
 #, kde-format
 msgctxt "@action Go to previous image"
 msgid "Previous"
 msgstr "Paş"
 
-#: app/mainwindow.cpp:412
+#: app/mainwindow.cpp:411
 #, fuzzy, kde-format
 #| msgid "Go to Previous Image"
 msgctxt "@info:tooltip"
 msgid "Go to previous image"
 msgstr "Biçe Wêneya Paş"
 
-#: app/mainwindow.cpp:419
+#: app/mainwindow.cpp:418
 #, kde-format
 msgctxt "@action Go to next image"
 msgid "Next"
 msgstr "Pêş"
 
-#: app/mainwindow.cpp:420
+#: app/mainwindow.cpp:419
 #, fuzzy, kde-format
 #| msgid "Go to Next Image"
 msgctxt "@info:tooltip"
@@ -1106,7 +1146,7 @@ msgctxt "@info:tooltip"
 msgid "Go to first image"
 msgstr "Biçe Wêneya Pêş"
 
-#: app/mainwindow.cpp:432
+#: app/mainwindow.cpp:433
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Date"
@@ -1114,20 +1154,20 @@ msgctxt "@action Go to last image"
 msgid "Last"
 msgstr "Dîrok"
 
-#: app/mainwindow.cpp:433
+#: app/mainwindow.cpp:434
 #, fuzzy, kde-format
 #| msgid "Go to Next Image"
 msgctxt "@info:tooltip"
 msgid "Go to last image"
 msgstr "Biçe Wêneya Pêş"
 
-#: app/mainwindow.cpp:443
+#: app/mainwindow.cpp:444
 #, kde-format
 msgctxt "@action"
 msgid "Start Page"
 msgstr "Rûpela Destpêkê"
 
-#: app/mainwindow.cpp:444
+#: app/mainwindow.cpp:445
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Open the start page"
@@ -1174,89 +1214,115 @@ msgstr "Agahiya Meta"
 msgid "Operations"
 msgstr "Xebatên Pelê"
 
-#: app/mainwindow.cpp:1071
+#: app/mainwindow.cpp:1109
 #, fuzzy, kde-format
 #| msgid "Hide Sidebar"
 msgctxt "@info:tooltip"
 msgid "Hide sidebar"
 msgstr "Darika-kêlekê Veşêre"
 
-#: app/mainwindow.cpp:1071
+#: app/mainwindow.cpp:1110
 #, fuzzy, kde-format
 #| msgid "Hide Sidebar"
 msgctxt "@info:tooltip"
 msgid "Show sidebar"
 msgstr "Darika-kêlekê Veşêre"
 
-#: app/mainwindow.cpp:1320
+#: app/mainwindow.cpp:1363
 #, kde-format
 msgctxt "@title:window"
 msgid "Open Image"
 msgstr "Wêneyê Veke"
 
-#: app/mainwindow.cpp:1380
+#: app/mainwindow.cpp:1424
 #, kde-format
 msgid "Stop Slideshow"
 msgstr "Nîşandana-slaytê Rawestîne"
 
-#: app/mainwindow.cpp:1383
+#: app/mainwindow.cpp:1427
 #, kde-format
 msgid "Start Slideshow"
 msgstr "Nîşandana-slaytê Bide Destpêkirin"
 
-#: app/mainwindow.cpp:1397
+#: app/mainwindow.cpp:1440
 #, kde-format
 msgid "Save All Changes"
 msgstr "Hemû Guherandinan Tomar Bike"
 
-#: app/mainwindow.cpp:1398
+#: app/mainwindow.cpp:1441
 #, kde-format
 msgid "Discard Changes"
 msgstr "Guhertinan Jê Bibe"
 
-#: app/mainwindow.cpp:1399
+#: app/mainwindow.cpp:1442
 #, kde-format
 msgid "One image has been modified."
 msgid_plural "%1 images have been modified."
 msgstr[0] "Yek wêne hatiye guhertin."
 msgstr[1] "%1 wêne hatine guhertin."
 
-#: app/mainwindow.cpp:1401
+#: app/mainwindow.cpp:1444
 #, kde-format
 msgid "If you quit now, your changes will be lost."
 msgstr "Heke tu niha derkevî, guherandinên te dê winda bin."
 
-#: app/mainwindow.cpp:1601
+#: app/mainwindow.cpp:1648
 #, kde-format
 msgid "You reached the first document, what do you want to do?"
 msgstr ""
 
-#: app/mainwindow.cpp:1602 app/mainwindow.cpp:1616
+#: app/mainwindow.cpp:1649 app/mainwindow.cpp:1663
 #, kde-format
 msgid "Stay There"
 msgstr ""
 
-#: app/mainwindow.cpp:1603
+#: app/mainwindow.cpp:1650
 #, fuzzy, kde-format
 #| msgid "Go to Next Image"
 msgid "Go to the Last Document"
 msgstr "Biçe Wêneya Pêş"
 
-#: app/mainwindow.cpp:1604 app/mainwindow.cpp:1618
+#: app/mainwindow.cpp:1651 app/mainwindow.cpp:1665
 #, kde-format
 msgid "Go Back to the Document List"
 msgstr ""
 
-#: app/mainwindow.cpp:1615
+#: app/mainwindow.cpp:1662
 #, kde-format
 msgid "You reached the last document, what do you want to do?"
 msgstr ""
 
-#: app/mainwindow.cpp:1617
+#: app/mainwindow.cpp:1664
 #, fuzzy, kde-format
 #| msgid "Go to Next Image"
 msgid "Go to the First Document"
 msgstr "Biçe Wêneya Pêş"
+
+#: app/renamedialog.cpp:50
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Filename"
+msgctxt "@action:button"
+msgid "Rename"
+msgstr "Navê Pelê"
+
+#: app/renamedialog.cpp:63
+#, fuzzy, kde-kuit-format
+#| msgctxt ""
+#| "@info %1 is the name of the document which failed to save, %2 is the "
+#| "reason for the failure"
+#| msgid "<filename>%1</filename>: %2"
+msgid "Rename <filename>%1</filename> to:"
+msgstr "<filename>%1</filename>: %2"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, RenameDialog)
+#: app/renamedialog.ui:26
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Filename"
+msgctxt "@title:window"
+msgid "Rename"
+msgstr "Navê Pelê"
 
 #: app/saveallhelper.cpp:58
 #, kde-format
@@ -1285,7 +1351,7 @@ msgctxt ""
 msgid "<filename>%1</filename>: %2"
 msgstr "<filename>%1</filename>: %2"
 
-#: app/savebar.cpp:87
+#: app/savebar.cpp:86
 #, kde-format
 msgid ""
 "You have modified many images. To avoid memory problems, you should save "
@@ -1294,39 +1360,39 @@ msgstr ""
 "Te gelek wêne guherandî ye. Ji bo ku pirsgirêkên bîrê dernekevin, divê tu "
 "guherandinan tomar bikî."
 
-#: app/savebar.cpp:176
+#: app/savebar.cpp:175
 #, kde-format
 msgid "Current image modified"
 msgstr "Wêneya vekirî hatiye guhertin"
 
-#: app/savebar.cpp:182
+#: app/savebar.cpp:181
 #, kde-format
 msgid "Previous modified image"
 msgstr "Wêneya paş ya hatiye guhertin"
 
-#: app/savebar.cpp:183
+#: app/savebar.cpp:182
 #, kde-format
 msgid "Next modified image"
 msgstr "Wêneya pêş ya hatiye guhertin"
 
-#: app/savebar.cpp:199
+#: app/savebar.cpp:198
 #, kde-format
 msgid "One image modified"
 msgid_plural "%1 images modified"
 msgstr[0] "Yek wêne hatiye guhertin"
 msgstr[1] "%1 wêne hatine guhertin"
 
-#: app/savebar.cpp:201
+#: app/savebar.cpp:200
 #, kde-format
 msgid "Go to first modified image"
 msgstr "Biçe wêneya serî ya hatiye guhertin"
 
-#: app/savebar.cpp:203
+#: app/savebar.cpp:202
 #, kde-format
 msgid "Go to it"
 msgstr "Biçe vê"
 
-#: app/savebar.cpp:301 app/savebar.cpp:305
+#: app/savebar.cpp:299 app/savebar.cpp:303
 #, kde-format
 msgid "Save All"
 msgstr "Hemûyan Tomar Bike"
@@ -1452,23 +1518,23 @@ msgstr ""
 "Lêborîne, nihêrîna bi etîket re tune ye. Baş bizane ku Nepomuk di komputera "
 "te de saz kirî ye."
 
-#: app/viewmainpage.cpp:297 app/viewmainpage.cpp:431
+#: app/viewmainpage.cpp:283 app/viewmainpage.cpp:414
 #, kde-format
 msgid "Synchronize"
 msgstr ""
 
-#: app/viewmainpage.cpp:424
+#: app/viewmainpage.cpp:407
 #, kde-format
 msgid "Thumbnail Bar"
 msgstr "Darika Wêneyên Biçûk"
 
-#: app/viewmainpage.cpp:710
+#: app/viewmainpage.cpp:707
 #, kde-format
 msgctxt "@action:button"
 msgid "Discard Changes and Reload"
 msgstr "Guherandin û Nû ve Barkirinê Jê Bavêje"
 
-#: app/viewmainpage.cpp:712
+#: app/viewmainpage.cpp:709
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1712,7 +1778,7 @@ msgstr "Peldank Biafirîne"
 msgid "Importing documents..."
 msgstr ""
 
-#: importer/thumbnailpage.cpp:199
+#: importer/thumbnailpage.cpp:211
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "One folder selected"
@@ -1720,7 +1786,7 @@ msgstr ""
 msgid "Import Selected"
 msgstr "Yek peldank hatiye hilbijartin"
 
-#: importer/thumbnailpage.cpp:202
+#: importer/thumbnailpage.cpp:214
 #, fuzzy, kde-format
 #| msgid "Import"
 msgid "Import All"
@@ -1832,15 +1898,16 @@ msgstr "Nirxandin:"
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: lib/crop/cropwidget.ui:84
 #, fuzzy, kde-format
-#| msgid "Image Position"
-msgid "Position:"
-msgstr "Bicihbûna Wêneyan"
+#| msgid "Size"
+msgid "Size:"
+msgstr "Mezinahî"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: lib/crop/cropwidget.ui:117
-#, kde-format
-msgid "Si&ze:"
-msgstr ""
+#, fuzzy, kde-format
+#| msgid "Image Position"
+msgid "Position:"
+msgstr "Bicihbûna Wêneyan"
 
 #: lib/document/document.cpp:305
 #, fuzzy, kde-format
@@ -1923,14 +1990,15 @@ msgstr "Jê Bibe"
 msgid "Gwenview does not know how to display this kind of document"
 msgstr "Gwenview nizane ku belgeyên vê cureyê çawa nîşan bide"
 
-#: lib/documentview/documentview.cpp:492
+#: lib/documentview/documentview.cpp:487
 #, kde-kuit-format
 msgid "Loading <filename>%1</filename> failed"
 msgstr "Barkirina <filename>%1</filename> pêk nehat"
 
 #: lib/documentview/documentviewcontroller.cpp:96
-#, kde-format
-msgid "Zoom to Fit"
+#, fuzzy, kde-format
+#| msgid "Zoom to Fit"
+msgid "Zoom to fit"
 msgstr "Bicihbûna Tam"
 
 #: lib/documentview/documentviewcontroller.cpp:98
@@ -1940,18 +2008,17 @@ msgid "Fit"
 msgstr "Lihevkirin"
 
 #: lib/documentview/documentviewcontroller.cpp:104
-#, fuzzy, kde-format
-#| msgid "Zoom to Fit"
-msgid "Zoom to Fit Width"
-msgstr "Bicihbûna Tam"
+#, kde-format
+msgid "Zoom to fill window by fitting to width or height"
+msgstr ""
 
 #: lib/documentview/documentviewcontroller.cpp:106
-#, fuzzy, kde-format
-#| msgid "&Width:"
+#, kde-format
 msgctxt ""
-"@action:button Zoom to fit width, shown in status bar, keep it short please"
-msgid "Fit Width"
-msgstr "&Firehî:"
+"@action:button Zoom to fill (fit width or height), shown in status bar, keep "
+"it short please"
+msgid "Fill"
+msgstr ""
 
 #: lib/documentview/documentviewcontroller.cpp:112
 #, kde-format
@@ -1973,7 +2040,7 @@ msgid "%1"
 msgstr "%1"
 
 #. i18n: ectx: whatsthis, entry (PercentageOfMemoryUsageWarning), group (General)
-#: lib/gwenviewconfig.kcfg:32
+#: lib/gwenviewconfig.kcfg:44
 #, kde-format
 msgid ""
 "The percentage of memory used by Gwenview before it\n"
@@ -1981,7 +2048,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (BlackListedExtensions), group (General)
-#: lib/gwenviewconfig.kcfg:39
+#: lib/gwenviewconfig.kcfg:51
 #, kde-format
 msgid ""
 "A list of filename extensions Gwenview should not try to\n"
@@ -1990,7 +2057,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (ZoomMode), group (ImageView)
-#: lib/gwenviewconfig.kcfg:159
+#: lib/gwenviewconfig.kcfg:177
 #, kde-format
 msgid ""
 "Defines what happens when going to image B after\n"
@@ -2006,35 +2073,48 @@ msgid ""
 "            be displayed with the updated zoom and position)."
 msgstr ""
 
+#. i18n: ectx: whatsthis, entry (RenderingIntent), group (ImageView)
+#: lib/gwenviewconfig.kcfg:191
+#, kde-format
+msgid ""
+"Defines how colors are rendered when your display\n"
+"            uses an ICC color profile and an image has colors that do not\n"
+"            fit within the profile's color gamut. \"Perceptual\" will scale\n"
+"            the colors of the entire image so that they all fit within the\n"
+"            display's capabilities. \"Relative\" will squash only the "
+"colors\n"
+"            that cannot be displayed, and leave the other colors alone."
+msgstr ""
+
 #. i18n: ectx: label, entry (random), group (slide show)
-#: lib/gwenviewconfig.kcfg:240
+#: lib/gwenviewconfig.kcfg:272
 #, kde-format
 msgid "Display slide show images in random order"
 msgstr ""
 
 #. i18n: ectx: label, entry (fullscreen), group (slide show)
-#: lib/gwenviewconfig.kcfg:244
+#: lib/gwenviewconfig.kcfg:276
 #, fuzzy, kde-format
 #| msgid "Start in fullscreen mode"
 msgid "Show slideshow in fullscreen mode"
 msgstr "Di moda dîmender tijî de bide destpêkirin"
 
 #. i18n: ectx: label, entry (loop), group (slide show)
-#: lib/gwenviewconfig.kcfg:248
+#: lib/gwenviewconfig.kcfg:280
 #, fuzzy, kde-format
 #| msgid "Go to Next Image"
 msgid "Loop on images"
 msgstr "Biçe Wêneya Pêş"
 
 #. i18n: ectx: label, entry (stopAtEnd), group (slide show)
-#: lib/gwenviewconfig.kcfg:252
+#: lib/gwenviewconfig.kcfg:284
 #, fuzzy, kde-format
 #| msgid "A starting file or folder"
 msgid "Stop at last image of folder"
 msgstr "Pel an jî peldank tê destpêkirin"
 
 #. i18n: ectx: label, entry (interval), group (slide show)
-#: lib/gwenviewconfig.kcfg:256
+#: lib/gwenviewconfig.kcfg:288
 #, kde-format
 msgid "Interval between images (in seconds)"
 msgstr ""
@@ -2123,7 +2203,7 @@ msgctxt "@info"
 msgid "No data to store."
 msgstr "Ji bo nijandinê tu dane tune ye."
 
-#: lib/print/printhelper.cpp:132
+#: lib/print/printhelper.cpp:133
 #, kde-format
 msgid "Print Image"
 msgstr "Wêneyê Çap Bike"
@@ -2203,8 +2283,8 @@ msgstr "RedEyeReduction"
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: lib/redeyereduction/redeyereductionwidget.ui:24
 #, kde-format
-msgid "Si&ze"
-msgstr ""
+msgid "Size"
+msgstr "Mezinahî"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: lib/redeyereduction/redeyereductionwidget.ui:61
@@ -2243,7 +2323,7 @@ msgstr ""
 #: lib/resize/resizeimagewidget.ui:88
 #, fuzzy, kde-format
 #| msgid "Size"
-msgid "New Si&ze:"
+msgid "New Size:"
 msgstr "Mezinahî"
 
 #. i18n: ectx: property (text), widget (QCheckBox, mKeepAspectCheckBox)
@@ -2338,6 +2418,19 @@ msgid "&View"
 msgstr "&Bibîne"
 
 #, fuzzy
+#~| msgid "Zoom to Fit"
+#~ msgid "Zoom to Fit Width"
+#~ msgstr "Bicihbûna Tam"
+
+#, fuzzy
+#~| msgid "&Width:"
+#~ msgctxt ""
+#~ "@action:button Zoom to fit width, shown in status bar, keep it short "
+#~ "please"
+#~ msgid "Fit Width"
+#~ msgstr "&Firehî:"
+
+#, fuzzy
 #~| msgid "Copy To"
 #~ msgctxt "@title:window"
 #~ msgid "Copy To"
@@ -2404,14 +2497,6 @@ msgstr "&Bibîne"
 #~ msgctxt "@action:inmenu"
 #~ msgid "Paste"
 #~ msgstr "Dîrok"
-
-#, fuzzy
-#~| msgid "Size"
-#~ msgid "Size:"
-#~ msgstr "Mezinahî"
-
-#~ msgid "Size"
-#~ msgstr "Mezinahî"
 
 #, fuzzy
 #~| msgid "Copyright 2000-2008 Aurélien Gâteau"
