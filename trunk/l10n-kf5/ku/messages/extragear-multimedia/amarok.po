@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-03-23 03:21+0100\n"
+"POT-Creation-Date: 2018-03-26 03:16+0200\n"
 "PO-Revision-Date: 2009-02-21 06:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -406,7 +406,7 @@ msgstr "Tu Stran Nayê Lêdan"
 #. i18n: ectx: property (windowTitle), widget (QDialog, FormatSelectionDialog)
 #: ActionClasses.cpp:501
 #: core-impl/collections/audiocd/FormatSelectionDialog.ui:14 main.cpp:51
-#: main.cpp:58 MainWindow.cpp:111
+#: main.cpp:58 MainWindow.cpp:112
 #, kde-format
 msgid "Amarok"
 msgstr "Amarok"
@@ -1656,7 +1656,7 @@ msgstr "Nenas"
 msgid "New Bookmark"
 msgstr "Bijareya Nû"
 
-#: amarokurls/BookmarkManager.cpp:35 MainWindow.cpp:784
+#: amarokurls/BookmarkManager.cpp:35 MainWindow.cpp:782
 #, fuzzy, kde-format
 #| msgid "Cover Manager"
 msgid "Bookmark Manager"
@@ -1767,7 +1767,7 @@ msgstr "Stranên Hilbijartî"
 #: core-impl/collections/audiocd/AudioCdCollection.cpp:486
 #: core-impl/collections/audiocd/AudioCdCollection.cpp:487
 #: core-impl/collections/audiocd/AudioCdCollection.cpp:488
-#: core-impl/collections/audiocd/AudioCdCollection.cpp:489 MainWindow.cpp:1227
+#: core-impl/collections/audiocd/AudioCdCollection.cpp:489 MainWindow.cpp:1225
 #, kde-format
 msgid "Unknown"
 msgstr "Nenas"
@@ -1791,7 +1791,7 @@ msgctxt "A type of command that affects the context view"
 msgid "Context"
 msgstr "Navîn"
 
-#: amarokurls/NavigationUrlGenerator.cpp:137 MainWindow.cpp:282
+#: amarokurls/NavigationUrlGenerator.cpp:137 MainWindow.cpp:280
 #, kde-format
 msgid "Files"
 msgstr "Pel"
@@ -1822,7 +1822,7 @@ msgstr "Hunermend \"%1\" jê %2"
 msgid "Artist \"%1\""
 msgstr "Hunermend \"%1\""
 
-#: amarokurls/NavigationUrlGenerator.cpp:252 MainWindow.cpp:780
+#: amarokurls/NavigationUrlGenerator.cpp:252 MainWindow.cpp:778
 #, fuzzy, kde-format
 #| msgid "Bookmark"
 msgid "Bookmark Media Sources View"
@@ -1935,7 +1935,7 @@ msgstr "Destûr bide ku yekî zêdetir sepanên Amarok bixebitin"
 msgid "Base for relative filenames/URLs"
 msgstr "Bingeh ji bo navên-pelan/URLyan yên nêzî hev"
 
-#: App.cpp:508 configdialog/dialogs/DatabaseConfig.cpp:112
+#: App.cpp:508 configdialog/dialogs/DatabaseConfig.cpp:110
 #, fuzzy, kde-format
 #| msgid "Database Name"
 msgid "Database Error"
@@ -1993,7 +1993,7 @@ msgid ""
 "audio players and CDs."
 msgstr ""
 
-#: browsers/collectionbrowser/CollectionWidget.cpp:168 MainWindow.cpp:928
+#: browsers/collectionbrowser/CollectionWidget.cpp:168 MainWindow.cpp:926
 #, fuzzy, kde-format
 msgid "Search collection"
 msgstr "Hemû Koleksiyon"
@@ -2703,13 +2703,13 @@ msgctxt "%1 is playlist provider pretty name"
 msgid "Delete playlist from %1."
 msgstr "Navê Lîsteya Lêdanê:"
 
-#: browsers/playlistbrowser/PlaylistBrowserView.cpp:514 MainWindow.cpp:448
+#: browsers/playlistbrowser/PlaylistBrowserView.cpp:514 MainWindow.cpp:446
 #, kde-format
 msgid "Use relative path for &saving"
 msgstr "Pelrêça têkîldar bi kar bîne ji bo &tomarkirinê"
 
 #: browsers/playlistbrowser/PlaylistBrowserView.cpp:527
-#: covermanager/CoverFoundDialog.cpp:383 MainWindow.cpp:461
+#: covermanager/CoverFoundDialog.cpp:383 MainWindow.cpp:459
 #, kde-format
 msgid "Save As"
 msgstr "Cuda Tomar Bike"
@@ -3051,19 +3051,19 @@ msgstr ""
 msgid "Transcode tracks:"
 msgstr "Lîsteya Lêdanê yê Rasthatî"
 
-#: configdialog/dialogs/DatabaseConfig.cpp:105
+#: configdialog/dialogs/DatabaseConfig.cpp:103
 #, kde-format
 msgid "Amarok was able to establish a successful connection to the database."
 msgstr ""
 
-#: configdialog/dialogs/DatabaseConfig.cpp:106
+#: configdialog/dialogs/DatabaseConfig.cpp:104
 #, fuzzy, kde-format
 #| msgctxt "The operation completed as expected"
 #| msgid "Success"
 msgid "Success"
 msgstr "Serketî "
 
-#: configdialog/dialogs/DatabaseConfig.cpp:108
+#: configdialog/dialogs/DatabaseConfig.cpp:106
 #, kde-format
 msgid ""
 "The amarok database reported the following errors:\n"
@@ -3072,20 +3072,20 @@ msgid ""
 "properly."
 msgstr ""
 
-#: configdialog/dialogs/DatabaseConfig.cpp:138
+#: configdialog/dialogs/DatabaseConfig.cpp:136
 #, kde-format
 msgid ""
 "Changes to database settings only take\n"
 "effect after Amarok is restarted."
 msgstr ""
 
-#: configdialog/dialogs/DatabaseConfig.cpp:139
+#: configdialog/dialogs/DatabaseConfig.cpp:137
 #, fuzzy, kde-format
 #| msgid "Rating changed"
 msgid "Database settings changed"
 msgstr "Ecibandin guherî "
 
-#: configdialog/dialogs/DatabaseConfig.cpp:158
+#: configdialog/dialogs/DatabaseConfig.cpp:156
 #, fuzzy, kde-format
 #| msgid "Password"
 msgctxt ""
@@ -6731,7 +6731,7 @@ msgid "Cancel Download and Quit."
 msgstr ""
 
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1157
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1403
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1405
 #, kde-format
 msgid "Unable to save podcast episode file to %1"
 msgstr "Nekarî beşa ji torê tê anîn tomar bike di pela %1 de"
@@ -8317,7 +8317,7 @@ msgctxt "@item::intable"
 msgid "URL"
 msgstr ""
 
-#: covermanager/CoverManager.cpp:112 MainWindow.cpp:800
+#: covermanager/CoverManager.cpp:112 MainWindow.cpp:798
 #, kde-format
 msgid "Cover Manager"
 msgstr "Rêvebirê Rûgira Albuman"
@@ -11675,43 +11675,43 @@ msgstr "Christie Harris"
 msgid "ZImin Stanislav"
 msgstr ""
 
-#: MainWindow.cpp:257
+#: MainWindow.cpp:255
 #, kde-format
 msgid "Local Music"
 msgstr ""
 
-#: MainWindow.cpp:259
+#: MainWindow.cpp:257
 #, kde-format
 msgid "Local sources of content"
 msgstr ""
 
-#: MainWindow.cpp:266
+#: MainWindow.cpp:264
 #, kde-format
 msgid "Internet"
 msgstr "Tor"
 
-#: MainWindow.cpp:268
+#: MainWindow.cpp:266
 #, kde-format
 msgid "Online sources of content"
 msgstr ""
 
-#: MainWindow.cpp:274
+#: MainWindow.cpp:272
 #, kde-format
 msgid "Playlists"
 msgstr "lîsteya lêdanê"
 
-#: MainWindow.cpp:276
+#: MainWindow.cpp:274
 #, fuzzy, kde-format
 #| msgid "Various Artists"
 msgid "Various types of playlists"
 msgstr "Hunermendên cur bi cur"
 
-#: MainWindow.cpp:285
+#: MainWindow.cpp:283
 #, kde-format
 msgid "Browse local hard drive for content"
 msgstr ""
 
-#: MainWindow.cpp:328
+#: MainWindow.cpp:326
 #, fuzzy, kde-format
 #| msgctxt "@title buttontext for popup-menu"
 #| msgid "View"
@@ -11719,19 +11719,19 @@ msgctxt "@item:inmenu"
 msgid "&View"
 msgstr "Bergeh"
 
-#: MainWindow.cpp:331
+#: MainWindow.cpp:329
 #, fuzzy, kde-format
 #| msgid "Layout"
 msgid "Lock Layout"
 msgstr "Niştecih"
 
-#: MainWindow.cpp:368 MainWindow.cpp:1301
+#: MainWindow.cpp:366 MainWindow.cpp:1299
 #, fuzzy, kde-format
 #| msgid "Playlist name:"
 msgid "Reset Layout"
 msgstr "Navê Lîsteya Lêdanê:"
 
-#: MainWindow.cpp:425
+#: MainWindow.cpp:423
 #, kde-format
 msgid ""
 "<qt>Closing the main window will keep Amarok running in the System Tray. Use "
@@ -11742,294 +11742,294 @@ msgstr ""
 "pêşekê an jî ji îkona sepanê ya di berkêşk de ne <B>Derkeve</B> bi kar bîne."
 "</qt>"
 
-#: MainWindow.cpp:427
+#: MainWindow.cpp:425
 #, kde-format
 msgid "Docking in System Tray"
 msgstr "Di Berkêşka Pergalê de Bicih be"
 
-#: MainWindow.cpp:527
+#: MainWindow.cpp:525
 #, kde-format
 msgid "Play Media (Files or URLs)"
 msgstr "(Pelên an jî URLyên) Medya Lê Bide"
 
-#: MainWindow.cpp:527
+#: MainWindow.cpp:525
 #, kde-format
 msgid "Add Media (Files or URLs)"
 msgstr "(Pelên an jî URLyên) Medya Lê Zêde Bike"
 
-#: MainWindow.cpp:547
+#: MainWindow.cpp:545
 #, kde-format
 msgid "Add Stream"
 msgstr "Darêj Lê Zêde Bike"
 
-#: MainWindow.cpp:547
+#: MainWindow.cpp:545
 #, kde-format
 msgid "Enter Stream URL:"
 msgstr "Darêja URL yê Bikeve:"
 
-#: MainWindow.cpp:750
+#: MainWindow.cpp:748
 #, kde-format
 msgid "&Add Media..."
 msgstr "Medya &Lê zêde bike..."
 
-#: MainWindow.cpp:755
+#: MainWindow.cpp:753
 #, kde-format
 msgctxt "clear playlist"
 msgid "&Clear Playlist"
 msgstr "Lîsteya Lêdanê &Paqij Bike"
 
-#: MainWindow.cpp:760
+#: MainWindow.cpp:758
 #, fuzzy, kde-format
 #| msgid "&Queue"
 msgctxt "edit play queue of playlist"
 msgid "Edit &Queue"
 msgstr "&Rêz bike"
 
-#: MainWindow.cpp:765
+#: MainWindow.cpp:763
 #, fuzzy, kde-format
 #| msgid "Remove Applet"
 msgctxt "Remove duplicate and dead (unplayable) tracks from the playlist"
 msgid "Re&move Duplicates"
 msgstr "Sepanok Rake"
 
-#: MainWindow.cpp:772
+#: MainWindow.cpp:770
 #, kde-format
 msgid "&Add Stream..."
 msgstr "Darêj &Lê zêde bike..."
 
-#: MainWindow.cpp:776
+#: MainWindow.cpp:774
 #, kde-format
 msgid "&Export Playlist As..."
 msgstr "Lîsteya lêdanê Cuda &Derxîne Derve"
 
-#: MainWindow.cpp:788
+#: MainWindow.cpp:786
 #, kde-format
 msgid "Equalizer"
 msgstr "Yeksanker "
 
-#: MainWindow.cpp:792 playlist/PlaylistViewUrlGenerator.cpp:102
+#: MainWindow.cpp:790 playlist/PlaylistViewUrlGenerator.cpp:102
 #, fuzzy, kde-format
 #| msgid "Smart Playlist"
 msgid "Bookmark Playlist Setup"
 msgstr "Lîsteya Lêdanê ya Baqil"
 
-#: MainWindow.cpp:796
+#: MainWindow.cpp:794
 #, fuzzy, kde-format
 #| msgid "Bookmark this Artist"
 msgid "Bookmark Context Applets"
 msgstr "Vê Hunermendê Bike Bijare"
 
-#: MainWindow.cpp:804
+#: MainWindow.cpp:802
 #, kde-format
 msgid "Play Media..."
 msgstr "Medya Lê Bide..."
 
-#: MainWindow.cpp:809
+#: MainWindow.cpp:807
 #, kde-format
 msgid "Edit Details of Currently Selected Track"
 msgstr ""
 
-#: MainWindow.cpp:815 MainWindow.cpp:821 MainWindow.cpp:828
+#: MainWindow.cpp:813 MainWindow.cpp:819 MainWindow.cpp:826
 #, fuzzy, kde-format
 #| msgid "&Seek Forward"
 msgid "Seek Forward by %1 seconds"
 msgstr "Pêşveçûna &Bilez"
 
-#: MainWindow.cpp:835 MainWindow.cpp:841 MainWindow.cpp:848
+#: MainWindow.cpp:833 MainWindow.cpp:839 MainWindow.cpp:846
 #, fuzzy, kde-format
 #| msgid "&Seek Backward"
 msgid "Seek Backward by %1 seconds"
 msgstr "Paşveçûna &Bilez"
 
-#: MainWindow.cpp:854
+#: MainWindow.cpp:852
 #, kde-format
 msgid "Update Collection"
 msgstr "Berhevokê Rojane Bike"
 
-#: MainWindow.cpp:858
+#: MainWindow.cpp:856
 #, fuzzy, kde-format
 #| msgid "Collection Statistics"
 msgid "Synchronize Statistics..."
 msgstr "Îstatîstîkên Koleksiyonan"
 
-#: MainWindow.cpp:866
+#: MainWindow.cpp:864
 #, kde-format
 msgid "Previous Track"
 msgstr "Strana Berê"
 
-#: MainWindow.cpp:873
+#: MainWindow.cpp:871
 #, fuzzy, kde-format
 #| msgid "Rate Current Track: 1"
 msgid "Restart current track"
 msgstr "Ray Bide Strana Lêdide: 1 "
 
-#: MainWindow.cpp:880
+#: MainWindow.cpp:878
 #, fuzzy, kde-format
 #| msgid "&Save Playlist"
 msgid "Shuffle Playlist"
 msgstr "Lîsteya Lêdanê &Tomar Bike"
 
-#: MainWindow.cpp:886
+#: MainWindow.cpp:884
 #, fuzzy, kde-format
 #| msgid "Repeat Playlist"
 msgid "Repopulate Playlist"
 msgstr "Lîsteya Lêdanê Dubare Bike"
 
-#: MainWindow.cpp:892
+#: MainWindow.cpp:890
 #, fuzzy, kde-format
 #| msgid "Default Dynamic Playlist"
 msgid "Disable Dynamic Playlist"
 msgstr "Lîsteya Lêdanê ya Dînamîk a Wekî Heyî"
 
-#: MainWindow.cpp:896
+#: MainWindow.cpp:894
 #, kde-format
 msgid "Next Track"
 msgstr "Strana Pêş"
 
-#: MainWindow.cpp:901
+#: MainWindow.cpp:899
 #, kde-format
 msgid "Increase Volume"
 msgstr "Dengê Bilintir Bike"
 
-#: MainWindow.cpp:907
+#: MainWindow.cpp:905
 #, kde-format
 msgid "Decrease Volume"
 msgstr "Dengê Kêmtir Bike"
 
-#: MainWindow.cpp:913
+#: MainWindow.cpp:911
 #, kde-format
 msgid "Toggle Main Window"
 msgstr "Paceya Mak Veke/Bigire"
 
-#: MainWindow.cpp:918
+#: MainWindow.cpp:916
 #, fuzzy, kde-format
 #| msgid "Toggle Focus"
 msgid "Toggle Full Screen"
 msgstr "Nîvend Bike"
 
-#: MainWindow.cpp:923 playlist/ProgressiveSearchWidget.cpp:48
+#: MainWindow.cpp:921 playlist/ProgressiveSearchWidget.cpp:48
 #, kde-format
 msgid "Search playlist"
 msgstr "Lîsteya Lêdanê de lêgere"
 
-#: MainWindow.cpp:933
+#: MainWindow.cpp:931
 #, kde-format
 msgid "Show active track"
 msgstr "Stranên çalak nîşan bide"
 
-#: MainWindow.cpp:937
+#: MainWindow.cpp:935
 #, fuzzy, kde-format
 #| msgid "Location:"
 msgid "Show Notification Popup"
 msgstr "Cih:"
 
-#: MainWindow.cpp:942
+#: MainWindow.cpp:940
 #, kde-format
 msgid "Mute Volume"
 msgstr "Bêdeng Bike"
 
-#: MainWindow.cpp:947
+#: MainWindow.cpp:945
 #, fuzzy, kde-format
 #| msgid "Love Current Track"
 msgid "Last.fm: Love Current Track"
 msgstr "Ji ve perçeyê hez bike"
 
-#: MainWindow.cpp:952
+#: MainWindow.cpp:950
 #, fuzzy, kde-format
 #| msgid "Love Current Track"
 msgid "Last.fm: Ban Current Track"
 msgstr "Ji ve perçeyê hez bike"
 
-#: MainWindow.cpp:957
+#: MainWindow.cpp:955
 #, fuzzy, kde-format
 #| msgid "Love Current Track"
 msgid "Last.fm: Skip Current Track"
 msgstr "Ji ve perçeyê hez bike"
 
-#: MainWindow.cpp:962 playlist/view/PlaylistViewCommon.cpp:116
+#: MainWindow.cpp:960 playlist/view/PlaylistViewCommon.cpp:116
 #, kde-format
 msgid "Queue Track"
 msgstr "Stran Rêz Kirî"
 
-#: MainWindow.cpp:967
+#: MainWindow.cpp:965
 #, kde-format
 msgid "Put Artist - Title of the current track to the clipboard"
 msgstr ""
 
-#: MainWindow.cpp:972
+#: MainWindow.cpp:970
 #, kde-format
 msgid "Rate Current Track: 1"
 msgstr "Ray Bide Strana Lêdide: 1 "
 
-#: MainWindow.cpp:977
+#: MainWindow.cpp:975
 #, kde-format
 msgid "Rate Current Track: 2"
 msgstr "Ray Bide Strana Lêdide: 2"
 
-#: MainWindow.cpp:982
+#: MainWindow.cpp:980
 #, kde-format
 msgid "Rate Current Track: 3"
 msgstr "Ray Bide Strana Lêdide: 3"
 
-#: MainWindow.cpp:987
+#: MainWindow.cpp:985
 #, kde-format
 msgid "Rate Current Track: 4"
 msgstr "Ray Bide Strana Lêdide: 4"
 
-#: MainWindow.cpp:992
+#: MainWindow.cpp:990
 #, kde-format
 msgid "Rate Current Track: 5"
 msgstr "Ray Bide Strana Lêdide: 5"
 
-#: MainWindow.cpp:998
+#: MainWindow.cpp:996
 #, kde-format
 msgid "Network Request Viewer"
 msgstr ""
 
-#: MainWindow.cpp:1016
+#: MainWindow.cpp:1014
 #, fuzzy, kde-format
 #| msgid "&Amarok"
 msgid "&About Amarok"
 msgstr "&Amarok"
 
-#: MainWindow.cpp:1020
+#: MainWindow.cpp:1018
 #, fuzzy, kde-format
 #| msgid "St&atistics"
 msgid "&Diagnostics"
 msgstr "He&ljimar"
 
-#: MainWindow.cpp:1024
+#: MainWindow.cpp:1022
 #, kde-format
 msgid "&Report Bug..."
 msgstr ""
 
-#: MainWindow.cpp:1071
+#: MainWindow.cpp:1069
 #, kde-format
 msgid "&Music"
 msgstr "&Muzîk"
 
-#: MainWindow.cpp:1073
+#: MainWindow.cpp:1071
 #, kde-format
 msgid "&Amarok"
 msgstr "&Amarok"
 
-#: MainWindow.cpp:1097 playlist/PlaylistDock.cpp:58
+#: MainWindow.cpp:1095 playlist/PlaylistDock.cpp:58
 #: playlist/PlaylistToolBar.cpp:39
 #, kde-format
 msgid "&Playlist"
 msgstr "&Lîsteya lêdanê"
 
-#: MainWindow.cpp:1114
+#: MainWindow.cpp:1112
 #, kde-format
 msgid "&Tools"
 msgstr "&Amûr"
 
-#: MainWindow.cpp:1129
+#: MainWindow.cpp:1127
 #, kde-format
 msgid "&Settings"
 msgstr "&Mîheng"
 
-#: MainWindow.cpp:1172
+#: MainWindow.cpp:1170
 #, kde-format
 msgid ""
 "You have chosen to hide the menu bar.\n"
@@ -12037,23 +12037,23 @@ msgid ""
 "Please remember that you can always use the shortcut \"%1\" to bring it back."
 msgstr ""
 
-#: MainWindow.cpp:1173
+#: MainWindow.cpp:1171
 #, fuzzy, kde-format
 #| msgid "Hide menu"
 msgid "Hide Menu"
 msgstr "Pêşekê Veşêre"
 
-#: MainWindow.cpp:1214
+#: MainWindow.cpp:1212
 #, kde-format
 msgid "Paused  ::  %1"
 msgstr "Hate Sekinandin  ::  %1"
 
-#: MainWindow.cpp:1227
+#: MainWindow.cpp:1225
 #, kde-format
 msgid "%1 - %2  ::  %3"
 msgstr "%1 - %2  ::  %3"
 
-#: MainWindow.cpp:1301
+#: MainWindow.cpp:1299
 #, kde-format
 msgid "Apply this layout change?"
 msgstr ""
@@ -16905,18 +16905,18 @@ msgstr "Stranên Hilbijartî"
 msgid "Scrobbling"
 msgstr "Yekane"
 
-#: statusbar/CompoundProgressBar.cpp:67 statusbar/CompoundProgressBar.cpp:208
+#: statusbar/CompoundProgressBar.cpp:67 statusbar/CompoundProgressBar.cpp:196
 #: statusbar/ProgressBar.cpp:48
 #, kde-format
 msgid "Abort"
 msgstr "Betal"
 
-#: statusbar/CompoundProgressBar.cpp:71 statusbar/CompoundProgressBar.cpp:220
+#: statusbar/CompoundProgressBar.cpp:71 statusbar/CompoundProgressBar.cpp:208
 #, kde-format
 msgid "Multiple background tasks running (click to show)"
 msgstr ""
 
-#: statusbar/CompoundProgressBar.cpp:72 statusbar/CompoundProgressBar.cpp:221
+#: statusbar/CompoundProgressBar.cpp:72 statusbar/CompoundProgressBar.cpp:209
 #, fuzzy, kde-format
 #| msgid "Abort all background operations"
 msgid "Abort all background tasks"
