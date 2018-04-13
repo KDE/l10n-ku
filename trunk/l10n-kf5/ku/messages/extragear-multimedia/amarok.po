@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-04-05 03:27+0200\n"
+"POT-Creation-Date: 2018-04-13 03:24+0200\n"
 "PO-Revision-Date: 2009-02-21 06:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -310,7 +310,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QTreeWidget, responseDetails)
 #. i18n: ectx: property (text), widget (QLabel, labelName)
 #. i18n: ectx: property (text), widget (QTableWidget, serverList)
-#: aboutdialog/OcsPersonItem.ui:137 amarokurls/BookmarkModel.cpp:261
+#: aboutdialog/OcsPersonItem.ui:137 amarokurls/BookmarkModel.cpp:258
 #: browsers/playlistbrowser/PlaylistBrowserModel.cpp:397
 #: network/NetworkRequests.ui:89 network/NetworkRequests.ui:103
 #: playlistgenerator/TreeModel.cpp:64
@@ -1651,7 +1651,7 @@ msgctxt "The command type of this url is not known"
 msgid "Unknown"
 msgstr "Nenas"
 
-#: amarokurls/BookmarkCurrentButton.cpp:32 amarokurls/BookmarkModel.cpp:545
+#: amarokurls/BookmarkCurrentButton.cpp:32 amarokurls/BookmarkModel.cpp:536
 #, kde-format
 msgid "New Bookmark"
 msgstr "Bijareya Nû"
@@ -1701,32 +1701,32 @@ msgstr ""
 msgid "Group"
 msgstr "Kom Alî yê"
 
-#: amarokurls/BookmarkModel.cpp:262
+#: amarokurls/BookmarkModel.cpp:259
 #: browsers/playlistbrowser/PodcastModel.cpp:300 playlist/PlaylistModel.cpp:935
 #, kde-format
 msgid "Type"
 msgstr "Cure"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, requestList)
-#: amarokurls/BookmarkModel.cpp:263 network/NetworkRequests.ui:46
+#: amarokurls/BookmarkModel.cpp:260 network/NetworkRequests.ui:46
 #, kde-format
 msgid "URL"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: amarokurls/BookmarkModel.cpp:264
+#: amarokurls/BookmarkModel.cpp:261
 #: core-impl/collections/audiocd/FormatSelectionDialog.ui:63
 #, fuzzy, kde-format
 #| msgid "Description:"
 msgid "Description"
 msgstr "Rave:"
 
-#: amarokurls/BookmarkModel.cpp:520
+#: amarokurls/BookmarkModel.cpp:511
 #, kde-format
 msgid "New Group"
 msgstr "Koma Nû"
 
-#: amarokurls/BookmarkModel.cpp:546
+#: amarokurls/BookmarkModel.cpp:537
 #: context/applets/similarartists/ArtistWidget.cpp:443
 #: context/applets/upcomingevents/UpcomingEventsMapWidget.cpp:162
 #: context/applets/upcomingevents/UpcomingEventsMapWidget.cpp:163
@@ -1739,30 +1739,30 @@ msgstr "Koma Nû"
 msgid "none"
 msgstr "Ne yek jî"
 
-#: amarokurls/BookmarkTreeView.cpp:111
+#: amarokurls/BookmarkTreeView.cpp:109
 #, kde-format
 msgctxt "Load the view represented by this bookmark"
 msgid "&Load"
 msgstr "&Bar Bike"
 
-#: amarokurls/BookmarkTreeView.cpp:117 browsers/filebrowser/FileView.cpp:412
+#: amarokurls/BookmarkTreeView.cpp:115 browsers/filebrowser/FileView.cpp:412
 #, kde-format
 msgid "&Delete"
 msgstr "&Jê bibe"
 
-#: amarokurls/BookmarkTreeView.cpp:124
+#: amarokurls/BookmarkTreeView.cpp:122
 #, kde-format
 msgid "&Create timecode track"
 msgstr ""
 
-#: amarokurls/BookmarkTreeView.cpp:372
+#: amarokurls/BookmarkTreeView.cpp:367
 #, fuzzy, kde-format
 #| msgid "Selected Tracks"
 msgid "New Timecode Track"
 msgstr "Stranên Hilbijartî"
 
-#: amarokurls/BookmarkTreeView.cpp:373 amarokurls/BookmarkTreeView.cpp:374
-#: amarokurls/BookmarkTreeView.cpp:375
+#: amarokurls/BookmarkTreeView.cpp:368 amarokurls/BookmarkTreeView.cpp:369
+#: amarokurls/BookmarkTreeView.cpp:370
 #: context/applets/albums/plugin/AlbumItem.cpp:99
 #: core-impl/collections/audiocd/AudioCdCollection.cpp:486
 #: core-impl/collections/audiocd/AudioCdCollection.cpp:487
@@ -2104,15 +2104,15 @@ msgid_plural "%1 tracks"
 msgstr[0] "%1 stran"
 msgstr[1] "%1 stranan "
 
-#: browsers/CollectionTreeItemModelBase.cpp:230
-#: browsers/CollectionTreeItemModelBase.cpp:291
+#: browsers/CollectionTreeItemModelBase.cpp:261
+#: browsers/CollectionTreeItemModelBase.cpp:354
 #, kde-format
 msgctxt "The Name is not known"
 msgid "Unknown"
 msgstr "Nenas"
 
-#: browsers/CollectionTreeItemModelBase.cpp:316
-#: core-impl/collections/db/sql/SqlMeta.cpp:411
+#: browsers/CollectionTreeItemModelBase.cpp:379
+#: core-impl/collections/db/sql/SqlMeta.cpp:409
 #: core-impl/collections/ipodcollection/IpodMeta.cpp:98
 #: core-impl/collections/mediadevicecollection/handler/MediaDeviceHandler.cpp:154
 #: core-impl/collections/mediadevicecollection/handler/MediaDeviceHandler.cpp:702
@@ -2123,7 +2123,7 @@ msgstr "Nenas"
 msgid "Various Artists"
 msgstr "Hunermendên cur bi cur"
 
-#: browsers/CollectionTreeItemModelBase.cpp:989
+#: browsers/CollectionTreeItemModelBase.cpp:1089
 #: browsers/CollectionTreeView.cpp:342
 #: context/applets/albums/plugin/AlbumsEngine.cpp:271
 #: context/applets/wikipedia/plugin/WikipediaApplet.cpp:635
@@ -2135,49 +2135,49 @@ msgstr "Hunermendên cur bi cur"
 msgid "Album"
 msgstr "Album"
 
-#: browsers/CollectionTreeItemModelBase.cpp:989
+#: browsers/CollectionTreeItemModelBase.cpp:1089
 #, kde-format
 msgid "Year - Album"
 msgstr "Sal - Album "
 
-#: browsers/CollectionTreeItemModelBase.cpp:991
+#: browsers/CollectionTreeItemModelBase.cpp:1091
 #, fuzzy, kde-format
 #| msgid "Bookmark this Artist"
 msgid "Track Artist"
 msgstr "Vê Hunermendê Bike Bijare"
 
 #. i18n: ectx: property (text), widget (QLabel, label_29)
-#: browsers/CollectionTreeItemModelBase.cpp:993 dialogs/TagGuessOptions.ui:253
+#: browsers/CollectionTreeItemModelBase.cpp:1093 dialogs/TagGuessOptions.ui:253
 #: musicbrainz/MusicBrainzTagsModel.cpp:39 playlist/PlaylistModel.cpp:925
 #, kde-format
 msgid "Album Artist"
 msgstr "Hunermendê Albumê "
 
-#: browsers/CollectionTreeItemModelBase.cpp:995
+#: browsers/CollectionTreeItemModelBase.cpp:1095
 #: context/applets/wikipedia/plugin/WikipediaApplet.cpp:629
 #: playlist/PlaylistModel.cpp:926
 #, kde-format
 msgid "Composer"
 msgstr "Bestekar"
 
-#: browsers/CollectionTreeItemModelBase.cpp:997 dialogs/transferdialog.cpp:105
+#: browsers/CollectionTreeItemModelBase.cpp:1097 dialogs/transferdialog.cpp:105
 #: playlist/PlaylistModel.cpp:932 playlist/ProgressiveSearchWidget.cpp:94
 #, kde-format
 msgid "Genre"
 msgstr "Cûre"
 
-#: browsers/CollectionTreeItemModelBase.cpp:999
+#: browsers/CollectionTreeItemModelBase.cpp:1099
 #: musicbrainz/MusicBrainzTagsModel.cpp:40 playlist/PlaylistModel.cpp:927
 #, kde-format
 msgid "Year"
 msgstr "Sal"
 
-#: browsers/CollectionTreeItemModelBase.cpp:1001
+#: browsers/CollectionTreeItemModelBase.cpp:1101
 #, kde-format
 msgid "Label"
 msgstr "Etîket"
 
-#: browsers/CollectionTreeItemModelBase.cpp:1003 dialogs/transferdialog.cpp:102
+#: browsers/CollectionTreeItemModelBase.cpp:1103 dialogs/transferdialog.cpp:102
 #: playlist/navigators/NavigatorConfigAction.cpp:80
 #, kde-format
 msgid "None"
@@ -2869,7 +2869,7 @@ msgstr[1] "Hemû yan &Rojane Bike"
 msgid "Title"
 msgstr "Sernav"
 
-#: browsers/playlistbrowser/PodcastModel.cpp:302 dialogs/TagDialog.cpp:506
+#: browsers/playlistbrowser/PodcastModel.cpp:302 dialogs/TagDialog.cpp:509
 #, kde-format
 msgid "Summary"
 msgstr "Kurte"
@@ -3918,7 +3918,7 @@ msgstr "Skrîpt bi serkeftin hate sazkirin."
 msgid "Generic"
 msgstr "Giştî"
 
-#: configdialog/dialogs/ScriptsConfig.cpp:211 dialogs/TagDialog.cpp:508
+#: configdialog/dialogs/ScriptsConfig.cpp:211 dialogs/TagDialog.cpp:511
 #, kde-format
 msgid "Lyrics"
 msgstr "Gotin"
@@ -4085,7 +4085,7 @@ msgstr "lîsteya lêdanê"
 
 #. i18n: ectx: property (text), widget (QToolButton, matchedLabelsButton)
 #: context/applets/labels/LabelsApplet.cpp:94
-#: context/applets/labels/LabelsApplet.cpp:187 dialogs/TagDialog.cpp:509
+#: context/applets/labels/LabelsApplet.cpp:187 dialogs/TagDialog.cpp:512
 #: statsyncing/ui/MatchedTracksPage.ui:87
 #, kde-format
 msgid "Labels"
@@ -5102,17 +5102,6 @@ msgstr "Biçe"
 #| msgid "Update"
 msgid "dates"
 msgstr "Rojane Bike"
-
-#: context/LyricsManager.cpp:135
-#, fuzzy, kde-format
-#| msgid "Retrieve similar artists"
-msgid "Retrieved lyrics is empty"
-msgstr "Hunermendên wekî vê bîne"
-
-#: context/LyricsManager.cpp:176
-#, kde-format
-msgid "Lyrics data could not be parsed"
-msgstr "Daneya gotinê stranê nayê hev qetandin"
 
 #: context/tools/amarokpkg.cpp:84 context/tools/amarokpkg.cpp:97
 #, fuzzy, kde-format
@@ -8025,36 +8014,36 @@ msgctxt "Displayed next to the \"Transcode:\" label. %1 example: 'MP3'"
 msgid "When Needed to %1"
 msgstr ""
 
-#: covermanager/CoverFetcher.cpp:175 covermanager/CoverFetcher.cpp:338
+#: covermanager/CoverFetcher.cpp:178 covermanager/CoverFetcher.cpp:341
 #, kde-format
 msgid "Fetching Cover"
 msgstr "Rûgirê Albumê Tê Anîn"
 
-#: covermanager/CoverFetcher.cpp:199
+#: covermanager/CoverFetcher.cpp:202
 #, fuzzy, kde-format
 #| msgid "There was an error communicating with Amazon."
 msgid "There was an error communicating with cover provider: %1"
 msgstr "Di têkiliya bi Amazon re de çewtî çê bû."
 
-#: covermanager/CoverFetcher.cpp:409
+#: covermanager/CoverFetcher.cpp:412
 #, fuzzy, kde-format
 #| msgid "Retrieved cover successfully"
 msgid "Retrieved cover successfully for '%1'."
 msgstr "Cardin anîna rûgirê serfiraz bû"
 
-#: covermanager/CoverFetcher.cpp:420
+#: covermanager/CoverFetcher.cpp:425
 #, fuzzy, kde-format
 #| msgid "Fetching cover for %1..."
 msgid "Fetching cover for '%1' failed."
 msgstr "Rûgir tê anîn ji bo %1..."
 
-#: covermanager/CoverFetcher.cpp:433
+#: covermanager/CoverFetcher.cpp:438
 #, fuzzy, kde-format
 #| msgid "Fetching cover for %1..."
 msgid "Canceled fetching cover for '%1'."
 msgstr "Rûgir tê anîn ji bo %1..."
 
-#: covermanager/CoverFetcher.cpp:442
+#: covermanager/CoverFetcher.cpp:447
 #, fuzzy, kde-format
 #| msgid "Fetching cover for %1..."
 msgid "Unable to find a cover for '%1'."
@@ -9101,7 +9090,7 @@ msgid "Expand All"
 msgstr "Fireh bike"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, MusicBrainzTagger)
-#: dialogs/MusicBrainzTagger.ui:12 dialogs/TagDialog.cpp:1392
+#: dialogs/MusicBrainzTagger.ui:12 dialogs/TagDialog.cpp:1383
 #, fuzzy, kde-format
 #| msgid "MusicBrainz Lookup"
 msgid "MusicBrainz Tagger"
@@ -9516,23 +9505,23 @@ msgstr "Derbirîna bi pergal"
 msgid "Character string"
 msgstr ""
 
-#: dialogs/TagDialog.cpp:507
+#: dialogs/TagDialog.cpp:510
 #, kde-format
 msgid "Tags"
 msgstr "Etîket"
 
-#: dialogs/TagDialog.cpp:663 dialogs/TagDialog.cpp:671
+#: dialogs/TagDialog.cpp:667 dialogs/TagDialog.cpp:675
 #, kde-format
 msgctxt "The value for this tag is not known"
 msgid "Unknown"
 msgstr "Nenas"
 
-#: dialogs/TagDialog.cpp:708
+#: dialogs/TagDialog.cpp:711
 #, kde-format
 msgid "Track Details: %1 by %2"
 msgstr "Kitekitên Stranê: %1 alî yê %2"
 
-#: dialogs/TagDialog.cpp:714
+#: dialogs/TagDialog.cpp:717
 #, kde-format
 msgctxt "The amount of tracks being edited"
 msgid "1 Track"
@@ -9540,35 +9529,35 @@ msgid_plural "Information for %1 Tracks"
 msgstr[0] "1 Track"
 msgstr[1] "Agahî ji bo %1 Stranan"
 
-#: dialogs/TagDialog.cpp:743 dialogs/TagDialog.cpp:753
+#: dialogs/TagDialog.cpp:746 dialogs/TagDialog.cpp:756
 #, kde-format
 msgid "<b>%1</b> by <b>%2</b>"
 msgstr "<b>%1</b> alî yê <b>%2</b>"
 
-#: dialogs/TagDialog.cpp:745 dialogs/TagDialog.cpp:755
+#: dialogs/TagDialog.cpp:748 dialogs/TagDialog.cpp:758
 #, kde-format
 msgid "<b>%1</b>"
 msgstr "<b>%1</b>"
 
-#: dialogs/TagDialog.cpp:751
+#: dialogs/TagDialog.cpp:754
 #, kde-format
 msgid "<b>%1</b> by <b>%2</b> on <b>%3</b>"
 msgstr "<b>%1</b> alî yê <b>%2</b> di <b>%3</b> de"
 
-#: dialogs/TagDialog.cpp:761
+#: dialogs/TagDialog.cpp:764
 #, kde-format
 msgid "Editing 1 file"
 msgid_plural "Editing %1 files"
 msgstr[0] "1 pel tê guherandin"
 msgstr[1] "%1 pel tên guherandin"
 
-#: dialogs/TagDialog.cpp:799
+#: dialogs/TagDialog.cpp:802
 #, kde-format
 msgctxt "The collection this track is part of"
 msgid "None"
 msgstr "Ne Yek Jî"
 
-#: dialogs/TagDialog.cpp:965
+#: dialogs/TagDialog.cpp:968
 #, kde-format
 msgid "The track is not playable. %1"
 msgstr ""
@@ -10766,6 +10755,17 @@ msgstr "Navê Lîsteya Lêdanê:"
 #| msgid "No track playing"
 msgid "Now playing"
 msgstr "Tu Stran Nayê Lêdan"
+
+#: lyrics/LyricsManager.cpp:74
+#, fuzzy, kde-format
+#| msgid "Retrieve similar artists"
+msgid "Retrieved lyrics is empty"
+msgstr "Hunermendên wekî vê bîne"
+
+#: lyrics/LyricsManager.cpp:110
+#, kde-format
+msgid "Lyrics data could not be parsed"
+msgstr "Daneya gotinê stranê nayê hev qetandin"
 
 #: mac/GrowlInterface.cpp:64 widgets/Osd.cpp:694
 #, kde-format
@@ -14592,17 +14592,17 @@ msgctxt "do not translate 'DataDownloader' or 'qt.core'"
 msgid "qt.core must be loaded to use DataDownloader"
 msgstr "qt.core divê were barkirin ji bo bikaranîna DataDownloader"
 
-#: scripting/scriptmanager/ScriptItem.cpp:93
+#: scripting/scriptmanager/ScriptItem.cpp:92
 #, kde-format
 msgid "Terminate"
 msgstr ""
 
-#: scripting/scriptmanager/ScriptItem.cpp:181
+#: scripting/scriptmanager/ScriptItem.cpp:180
 #, kde-format
 msgid "Script %1 has been evaluating for over 5 seconds now, terminate?"
 msgstr ""
 
-#: scripting/scriptmanager/ScriptItem.cpp:327
+#: scripting/scriptmanager/ScriptItem.cpp:322
 #, kde-format
 msgctxt ""
 "%1 is the name of the offending script, %2 the name of the script author, "
@@ -16089,7 +16089,7 @@ msgstr "Bingeha Dana Magnatune.com Tê Daxistin"
 msgid "Updating the local Magnatune database."
 msgstr ""
 
-#: services/magnatune/MagnatuneStore.cpp:622
+#: services/magnatune/MagnatuneStore.cpp:621
 #, c-format
 msgid ""
 "The Magnatune.com service accepts the following messages: \n"
@@ -16099,27 +16099,27 @@ msgid ""
 "with %%20"
 msgstr ""
 
-#: services/magnatune/MagnatuneStore.cpp:633
+#: services/magnatune/MagnatuneStore.cpp:632
 #, kde-format
 msgid "ERROR: No arguments supplied"
 msgstr "ÇEWTÎ: Tu hevoksazî nehatiye diyar kirin"
 
-#: services/magnatune/MagnatuneStore.cpp:638
+#: services/magnatune/MagnatuneStore.cpp:637
 #, kde-format
 msgid "ERROR: Wrong number of arguments for addMoodyTracks"
 msgstr ""
 
-#: services/magnatune/MagnatuneStore.cpp:648
+#: services/magnatune/MagnatuneStore.cpp:647
 #, kde-format
 msgid "ERROR: Parse error for argument 2 ( count )"
 msgstr ""
 
-#: services/magnatune/MagnatuneStore.cpp:652
+#: services/magnatune/MagnatuneStore.cpp:651
 #, kde-format
 msgid "ok"
 msgstr "erê"
 
-#: services/magnatune/MagnatuneStore.cpp:655
+#: services/magnatune/MagnatuneStore.cpp:654
 #, kde-format
 msgid "ERROR: Unknown argument."
 msgstr "ÇEWTÎ: Hevoksaziya nenas"
