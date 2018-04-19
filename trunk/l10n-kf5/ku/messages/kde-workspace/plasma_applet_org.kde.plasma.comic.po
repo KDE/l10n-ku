@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_comic\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-02-01 03:29+0100\n"
+"POT-Creation-Date: 2018-04-19 03:39+0200\n"
 "PO-Revision-Date: 2009-01-10 23:44+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -227,7 +227,6 @@ msgid "General"
 msgstr "Giştî"
 
 #: package/contents/config/config.qml:30
-#: package/contents/ui/configAppearance.qml:58
 #, kde-format
 msgid "Appearance"
 msgstr ""
@@ -244,12 +243,14 @@ msgstr ""
 
 #: package/contents/ui/configAdvanced.qml:53
 #, kde-format
+msgctxt "@title:group"
 msgid "Cache"
 msgstr ""
 
 #: package/contents/ui/configAdvanced.qml:59
 #, fuzzy, kde-format
 #| msgid "Comic:"
+msgctxt "@label:spinbox"
 msgid "Comic cache:"
 msgstr "Pirtûka Qerfî:"
 
@@ -260,73 +261,92 @@ msgstr ""
 
 #: package/contents/ui/configAdvanced.qml:73
 #, kde-format
+msgctxt "@title:group"
 msgid "Error Handling"
 msgstr ""
 
 #: package/contents/ui/configAdvanced.qml:79
 #, kde-format
+msgctxt "@option:check"
 msgid "Display error when getting comic failed"
+msgstr ""
+
+#: package/contents/ui/configAppearance.qml:58
+#, kde-format
+msgctxt "@title:group"
+msgid "Appearance"
 msgstr ""
 
 #: package/contents/ui/configAppearance.qml:64
 #, fuzzy, kde-format
 #| msgid "Show arrows only on hover"
-msgid "Show arrows only on mouse over"
+msgctxt "@option:check"
+msgid "Show arrows only on mouse-over"
 msgstr "Tîran tenê wextê hatina ser de nîşan bide"
 
 #: package/contents/ui/configAppearance.qml:72
 #, kde-format
+msgctxt "@title:group"
 msgid "Information"
 msgstr ""
 
 #: package/contents/ui/configAppearance.qml:78
 #, fuzzy, kde-format
 #| msgid "Show comic title"
+msgctxt "@option:check"
 msgid "Show comic title"
 msgstr "Sernavê pirtûka qerfî nîşan bide"
 
 #: package/contents/ui/configAppearance.qml:83
 #, fuzzy, kde-format
 #| msgid "Show comic identifier"
+msgctxt "@option:check"
 msgid "Show comic identifier"
 msgstr "Danasînkara pirtûka qerfî nîşan bide"
 
 #: package/contents/ui/configAppearance.qml:88
 #, fuzzy, kde-format
 #| msgid "Show comic author"
+msgctxt "@option:check"
 msgid "Show comic author"
 msgstr "Nivîskarê pirtûka qerfî nîşan bide"
 
 #: package/contents/ui/configAppearance.qml:93
 #, fuzzy, kde-format
 #| msgid "Show comic url"
+msgctxt "@option:check"
 msgid "Show comic URL"
 msgstr "url ya pirtûka qerfî nîşan bide"
 
 #: package/contents/ui/configGeneral.qml:63
 #, fuzzy, kde-format
 #| msgid "Comic:"
+msgctxt "@title:group"
 msgid "Comic"
 msgstr "Pirtûka Qerfî:"
 
 #: package/contents/ui/configGeneral.qml:90
 #, fuzzy, kde-format
 #| msgid "Get New Comics..."
+msgctxt "@action:button"
 msgid "Get New Comics..."
 msgstr "Pirtûkên Qerfî yê Nû Bîne..."
 
 #: package/contents/ui/configGeneral.qml:95
 #, kde-format
+msgctxt "@option:check"
 msgid "Middle-click on the comic to show it at its original size"
 msgstr ""
 
 #: package/contents/ui/configGeneral.qml:103
 #, kde-format
+msgctxt "@title:group"
 msgid "Update"
 msgstr ""
 
 #: package/contents/ui/configGeneral.qml:110
 #, kde-format
+msgctxt "@label:spinbox"
 msgid "Automatically update comic plugins:"
 msgstr ""
 
@@ -337,6 +357,7 @@ msgstr ""
 
 #: package/contents/ui/configGeneral.qml:123
 #, kde-format
+msgctxt "@label:spinbox"
 msgid "Check for new comic strips:"
 msgstr ""
 
@@ -347,6 +368,7 @@ msgstr ""
 
 #: package/contents/ui/main.qml:191
 #, kde-format
+msgctxt "@action:button"
 msgid "Configure..."
 msgstr ""
 
