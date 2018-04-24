@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gwenview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-04-22 03:38+0200\n"
+"POT-Creation-Date: 2018-04-24 03:35+0200\n"
 "PO-Revision-Date: 2009-01-22 22:46+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -711,7 +711,7 @@ msgstr "Neynûk"
 msgid "Flip"
 msgstr "Serberjêr Bike"
 
-#: app/imageopscontextmanageritem.cpp:105 lib/resize/resizeimagedialog.cpp:64
+#: app/imageopscontextmanageritem.cpp:105 lib/resize/resizeimagedialog.cpp:66
 #, kde-format
 msgid "Resize"
 msgstr "Mezinahiyê Biguherîne"
@@ -2405,8 +2405,21 @@ msgstr ""
 msgid "New Size:"
 msgstr "Mezinahî"
 
-#. i18n: ectx: property (text), widget (QCheckBox, mKeepAspectCheckBox)
+#. i18n: ectx: property (text), widget (QLabel, label_5)
 #: lib/resize/resizeimagewidget.ui:129
+#, kde-format
+msgid "Percentage:"
+msgstr ""
+
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, mWidthPercentSpinBox)
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, mHeightPercentSpinBox)
+#: lib/resize/resizeimagewidget.ui:150 lib/resize/resizeimagewidget.ui:176
+#, no-c-format, kde-format
+msgid " %"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, mKeepAspectCheckBox)
+#: lib/resize/resizeimagewidget.ui:188
 #, fuzzy, kde-format
 #| msgid "Keep ratio"
 msgid "Keep aspect ratio"
