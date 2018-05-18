@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmaccess\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-02-12 07:49+0100\n"
+"POT-Creation-Date: 2017-11-10 03:17+0100\n"
 "PO-Revision-Date: 2009-01-06 14:07+0200\n"
 "Last-Translator: Erdal Ronahi <erdal.ronahi@nospam.gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -45,7 +45,7 @@ msgstr "Zingila Bideng"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, systemBell)
 #. i18n: ectx: property (toolTip), widget (QCheckBox, gestures)
-#: accessibility.ui:33 accessibility.ui:582
+#: accessibility.ui:33 accessibility.ui:576
 #, kde-format
 msgid ""
 "If this option is checked, the default system bell will be used. Usually, "
@@ -60,7 +60,7 @@ msgstr "Zingila &pergalê bi kar bîne"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, customBell)
 #. i18n: ectx: property (toolTip), widget (QCheckBox, accessxBeep)
-#: accessibility.ui:43 accessibility.ui:666
+#: accessibility.ui:43 accessibility.ui:660
 #, kde-format
 msgid ""
 "Check this option if you want to use a customized bell, playing a sound "
@@ -76,7 +76,7 @@ msgstr "Zingila takekesî bi &kar bîne"
 #. i18n: ectx: property (toolTip), widget (QLabel, soundLabel)
 #. i18n: ectx: property (toolTip), widget (QLineEdit, soundEdit)
 #. i18n: ectx: property (toolTip), widget (QPushButton, soundButton)
-#: accessibility.ui:71 accessibility.ui:90 accessibility.ui:97
+#: accessibility.ui:71 accessibility.ui:84 accessibility.ui:91
 #, kde-format
 msgid ""
 "If the option \"Use customized bell\" is enabled, you can choose a sound "
@@ -90,34 +90,36 @@ msgid "Sound &to play:"
 msgstr "Dengê &lêxistinê:"
 
 #. i18n: ectx: property (text), widget (QPushButton, soundButton)
-#: accessibility.ui:100
+#: accessibility.ui:94
 #, kde-format
 msgid "Browse..."
 msgstr "Binihêre..."
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: accessibility.ui:112
-#, kde-format
-msgid "Visible Bell"
+#: accessibility.ui:106
+#, fuzzy, kde-format
+#| msgid "Visible Bell"
+msgid "Visual Bell"
 msgstr "Zingilê Xuya"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, visibleBell)
-#: accessibility.ui:118
+#: accessibility.ui:112
 #, kde-format
 msgid ""
-"This option will turn on the \"visible bell\", i.e. a visible notification "
+"This option will turn on the \"visual bell\", i.e. a visual notification "
 "shown every time that normally just a bell would occur. This is especially "
 "useful for deaf people."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, visibleBell)
-#: accessibility.ui:121
-#, kde-format
-msgid "&Use visible bell"
+#: accessibility.ui:115
+#, fuzzy, kde-format
+#| msgid "&Use visible bell"
+msgid "&Use visual bell"
 msgstr "Zingilê xuya &bi kar bîne"
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, flashScreen)
-#: accessibility.ui:128
+#: accessibility.ui:122
 #, kde-format
 msgid ""
 "The screen will turn to a custom color for the amount of time specified "
@@ -126,13 +128,13 @@ msgstr ""
 "Di dema li jêr hatiye diyarkirin de dîmendêr dê veguheze rengekî takekesî"
 
 #. i18n: ectx: property (text), widget (QRadioButton, flashScreen)
-#: accessibility.ui:131
+#: accessibility.ui:125
 #, kde-format
 msgid "F&lash screen"
 msgstr "Ekrana f&laş"
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, invertScreen)
-#: accessibility.ui:138
+#: accessibility.ui:132
 #, kde-format
 msgid ""
 "All screen colors will be inverted for the amount of time specified below."
@@ -140,20 +142,20 @@ msgstr ""
 "Hemû rengên dîmendêrê dê li gorî dema li jêr hatiye diyarkirin bên vajîkirin."
 
 #. i18n: ectx: property (text), widget (QRadioButton, invertScreen)
-#: accessibility.ui:141
+#: accessibility.ui:135
 #, kde-format
 msgid "I&nvert screen"
 msgstr "Dîmendêrê vajî bike"
 
 #. i18n: ectx: property (toolTip), widget (KColorButton, colorButton)
-#: accessibility.ui:164
+#: accessibility.ui:158
 #, kde-format
 msgid ""
 "Click here to choose the color used for the \"flash screen\" visible bell."
 msgstr "Ji bo hilbijartina rengê \"flash screen\"n virê bitikîne"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: accessibility.ui:171
+#: accessibility.ui:165
 #, fuzzy, kde-format
 #| msgid "Duration:"
 msgid "&Duration:"
@@ -163,8 +165,8 @@ msgstr "Demajo"
 #. i18n: ectx: property (toolTip), widget (QSpinBox, slowKeysDelay)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, bounceKeysDelay)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, timeoutDelay)
-#: accessibility.ui:184 accessibility.ui:395 accessibility.ui:492
-#: accessibility.ui:620
+#: accessibility.ui:178 accessibility.ui:389 accessibility.ui:486
+#: accessibility.ui:614
 #, kde-format
 msgid ""
 "Here you can customize the duration of the \"visible bell\" effect being "
@@ -175,44 +177,44 @@ msgstr ""
 #. i18n: ectx: property (suffix), widget (QSpinBox, duration)
 #. i18n: ectx: property (suffix), widget (QSpinBox, slowKeysDelay)
 #. i18n: ectx: property (suffix), widget (QSpinBox, bounceKeysDelay)
-#: accessibility.ui:187 accessibility.ui:398 accessibility.ui:495
+#: accessibility.ui:181 accessibility.ui:392 accessibility.ui:489
 #, kde-format
 msgid " msec"
 msgstr "mçir"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tabModifier)
-#: accessibility.ui:230
+#: accessibility.ui:224
 #, kde-format
-msgid "Modifier Keys"
+msgid "&Modifier Keys"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, sticky)
-#: accessibility.ui:236
+#: accessibility.ui:230
 #, fuzzy, kde-format
 #| msgid "S&ticky Keys"
 msgid "Sticky Keys"
 msgstr "Bişkokjên Me&zeloqî"
 
 #. i18n: ectx: property (text), widget (QCheckBox, stickyKeys)
-#: accessibility.ui:242
+#: accessibility.ui:236
 #, kde-format
 msgid "Use &sticky keys"
 msgstr "Bişkojkên &mezeloqî bi kar bîne"
 
 #. i18n: ectx: property (text), widget (QCheckBox, stickyKeysLock)
-#: accessibility.ui:269
+#: accessibility.ui:263
 #, kde-format
 msgid "&Lock sticky keys"
 msgstr "Bişkojkên mezeloqî &kilît bike"
 
 #. i18n: ectx: property (text), widget (QCheckBox, stickyKeysAutoOff)
-#: accessibility.ui:276
+#: accessibility.ui:270
 #, kde-format
 msgid "Turn sticky keys off when two keys are pressed simultaneously"
 msgstr "Dema ku du bişkojk bi hev re hatin tikandin bişkojkên mezeloqî bigire"
 
 #. i18n: ectx: property (text), widget (QCheckBox, stickyKeysBeep)
-#: accessibility.ui:283
+#: accessibility.ui:277
 #, kde-format
 msgid "Use system bell whenever a modifier gets latched, locked or unlocked"
 msgstr ""
@@ -220,13 +222,13 @@ msgstr ""
 "pergalê bi kar bîne"
 
 #. i18n: ectx: property (title), widget (QGroupBox, locking)
-#: accessibility.ui:297
+#: accessibility.ui:291
 #, kde-format
 msgid "Locking Keys"
 msgstr "Bişkojk tên kilîtkirin"
 
 #. i18n: ectx: property (text), widget (QCheckBox, toggleKeysBeep)
-#: accessibility.ui:303
+#: accessibility.ui:297
 #, fuzzy, kde-format
 #| msgid "Use system bell whenever a modifier gets latched, locked or unlocked"
 msgid "Use system bell whenever a locking key gets activated or deactivated"
@@ -235,7 +237,7 @@ msgstr ""
 "pergalê bi kar bîne"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kNotifyModifiers)
-#: accessibility.ui:310
+#: accessibility.ui:304
 #, kde-format
 msgid ""
 "Use Plasma's notification mechanism for modifier or locking key state changes"
@@ -243,33 +245,33 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, kNotifyModifiersButton)
 #. i18n: ectx: property (text), widget (QPushButton, kNotifyAccessButton)
-#: accessibility.ui:335 accessibility.ui:712
+#: accessibility.ui:329 accessibility.ui:706
 #, kde-format
 msgid "Configure &Notifications..."
 msgstr "&Hişyariyan Veava Bike..."
 
 #. i18n: ectx: attribute (title), widget (QWidget, tabKeyFilters)
-#: accessibility.ui:374
+#: accessibility.ui:368
 #, kde-format
 msgid "&Keyboard Filters"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, slowkeys)
-#: accessibility.ui:380
+#: accessibility.ui:374
 #, fuzzy, kde-format
 #| msgid "S&ticky Keys"
 msgid "Slo&w Keys"
 msgstr "Bişkokjên Me&zeloqî"
 
 #. i18n: ectx: property (text), widget (QCheckBox, slowKeys)
-#: accessibility.ui:388
+#: accessibility.ui:382
 #, fuzzy, kde-format
 #| msgid "Use &sticky keys"
 msgid "&Use slow keys"
 msgstr "Bişkojkên &mezeloqî bi kar bîne"
 
 #. i18n: ectx: property (text), widget (QCheckBox, slowKeysPressBeep)
-#: accessibility.ui:449
+#: accessibility.ui:443
 #, fuzzy, kde-format
 #| msgid "Use system bell whenever a modifier gets latched, locked or unlocked"
 msgid "&Use system bell whenever a key is pressed"
@@ -278,7 +280,7 @@ msgstr ""
 "pergalê bi kar bîne"
 
 #. i18n: ectx: property (text), widget (QCheckBox, slowKeysAcceptBeep)
-#: accessibility.ui:456
+#: accessibility.ui:450
 #, fuzzy, kde-format
 #| msgid "Use system bell whenever a modifier gets latched, locked or unlocked"
 msgid "&Use system bell whenever a key is accepted"
@@ -287,7 +289,7 @@ msgstr ""
 "pergalê bi kar bîne"
 
 #. i18n: ectx: property (text), widget (QCheckBox, slowKeysRejectBeep)
-#: accessibility.ui:463
+#: accessibility.ui:457
 #, fuzzy, kde-format
 #| msgid "Use system bell whenever a modifier gets latched, locked or unlocked"
 msgid "&Use system bell whenever a key is rejected"
@@ -296,20 +298,20 @@ msgstr ""
 "pergalê bi kar bîne"
 
 #. i18n: ectx: property (title), widget (QGroupBox, bouncekeys)
-#: accessibility.ui:477
+#: accessibility.ui:471
 #, kde-format
 msgid "Bounce Keys"
 msgstr "Bişkojkên Hilpekînê"
 
 #. i18n: ectx: property (text), widget (QCheckBox, bounceKeys)
-#: accessibility.ui:485
+#: accessibility.ui:479
 #, fuzzy, kde-format
 #| msgid "Use &sticky keys"
 msgid "Use bou&nce keys"
 msgstr "Bişkojkên &mezeloqî bi kar bîne"
 
 #. i18n: ectx: property (text), widget (QCheckBox, bounceKeysRejectBeep)
-#: accessibility.ui:544
+#: accessibility.ui:538
 #, fuzzy, kde-format
 #| msgid "Use system bell whenever a modifier gets latched, locked or unlocked"
 msgid "Use the system bell whenever a key is rejected"
@@ -318,44 +320,44 @@ msgstr ""
 "pergalê bi kar bîne"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tabActivationGestures)
-#: accessibility.ui:570
+#: accessibility.ui:564
 #, kde-format
-msgid "&Activation Gestures"
+msgid "Activation &Gestures"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, activationgestures)
-#: accessibility.ui:576
+#: accessibility.ui:570
 #, kde-format
 msgid "Activation Gestures"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, gestures)
-#: accessibility.ui:585
+#: accessibility.ui:579
 #, kde-format
 msgid "Use gestures for activating sticky keys and slow keys"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, timeout)
-#: accessibility.ui:595
+#: accessibility.ui:589
 #, kde-format
 msgid ""
 "Turn sticky keys and slow keys off after a certain period of inactivity."
 msgstr ""
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, timeoutDelay)
-#: accessibility.ui:623
+#: accessibility.ui:617
 #, kde-format
 msgid " min"
 msgstr " xul"
 
 #. i18n: ectx: property (title), widget (QGroupBox, notification)
-#: accessibility.ui:660
+#: accessibility.ui:654
 #, kde-format
 msgid "Notification"
 msgstr "Danezanî"
 
 #. i18n: ectx: property (text), widget (QCheckBox, accessxBeep)
-#: accessibility.ui:669
+#: accessibility.ui:663
 #, fuzzy, kde-format
 #| msgid "Use system bell whenever a modifier gets latched, locked or unlocked"
 msgid ""
@@ -366,7 +368,7 @@ msgstr ""
 "pergalê bi kar bîne"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, gestureConfirmation)
-#: accessibility.ui:677
+#: accessibility.ui:671
 #, kde-format
 msgid ""
 "If this option is checked, KDE will show a confirmation dialog whenever a "
@@ -376,7 +378,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, gestureConfirmation)
-#: accessibility.ui:680
+#: accessibility.ui:674
 #, kde-format
 msgid ""
 "Show a confirmation dialog whenever a keyboard accessibility feature is "
@@ -384,7 +386,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kNotifyAccess)
-#: accessibility.ui:687
+#: accessibility.ui:681
 #, kde-format
 msgid ""
 "Use Plasma's notification mechanism whenever a keyboard accessibility "
@@ -392,19 +394,25 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tabScreenReader)
-#: accessibility.ui:751
+#: accessibility.ui:745
 #, kde-format
 msgid "Screen Reader"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, screenReaderEnabled)
-#: accessibility.ui:757
+#: accessibility.ui:751
 #, kde-format
 msgid "Screen reader enabled"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QPushButton, launchOrcaConfiguration)
+#: accessibility.ui:760
+#, kde-format
+msgid "&Launch Orca Configuration"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: accessibility.ui:764
+#: accessibility.ui:785
 #, kde-format
 msgid ""
 "Please note that you may have to log out once to allow the screen reader to "
@@ -503,6 +511,16 @@ msgid ""
 "Mouse Keys: %1\n"
 "Sticky keys: Press Shift key 5 consecutive times\n"
 "Slow keys: Hold down Shift for 8 seconds"
+msgstr ""
+
+#: kcmaccess.cpp:260
+#, kde-format
+msgid "Could not set gsettings for Orca: \"%1\" failed"
+msgstr ""
+
+#: kcmaccess.cpp:267
+#, kde-format
+msgid "Error: Could not launch \"orca --setup\""
 msgstr ""
 
 #~ msgid "kaccess"
