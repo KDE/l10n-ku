@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_weather\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-05-11 03:55+0200\n"
+"POT-Creation-Date: 2018-05-19 04:09+0200\n"
 "PO-Revision-Date: 2009-01-12 03:03+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -169,42 +169,49 @@ msgstr "Yeke"
 #: package/contents/ui/config/ConfigAppearance.qml:63
 #, kde-format
 msgctxt "@title:group"
-msgid "Tooltip"
+msgid "Compact Mode"
 msgstr ""
 
-#: package/contents/ui/config/ConfigAppearance.qml:72
-#: package/contents/ui/config/ConfigAppearance.qml:148
-#, fuzzy, kde-format
-#| msgid "&Temperature unit"
-msgctxt "@label"
-msgid "Show temperature:"
-msgstr "Yeke ya &Germahiyê"
-
-#: package/contents/ui/config/ConfigAppearance.qml:88
+#: package/contents/ui/config/ConfigAppearance.qml:73
 #, kde-format
 msgctxt "@label"
-msgid "Show wind:"
+msgid "Display:"
 msgstr ""
 
-#: package/contents/ui/config/ConfigAppearance.qml:104
+#: package/contents/ui/config/ConfigAppearance.qml:83
+#: package/contents/ui/config/ConfigAppearance.qml:100
 #, fuzzy, kde-format
-#| msgid "&Pressure unit"
+#| msgid "&Temperature unit"
+msgctxt "@option:check"
+msgid "Show temperature"
+msgstr "Yeke ya &Germahiyê"
+
+#: package/contents/ui/config/ConfigAppearance.qml:91
+#, kde-format
 msgctxt "@label"
-msgid "Show pressure:"
-msgstr "Yeke ya &Pestoyê"
+msgid "Tooltip:"
+msgstr ""
+
+#: package/contents/ui/config/ConfigAppearance.qml:110
+#, fuzzy, kde-format
+#| msgid "Humidity: %1"
+msgctxt "@option:check"
+msgid "Show wind"
+msgstr "Xenam: %1"
 
 #: package/contents/ui/config/ConfigAppearance.qml:120
 #, fuzzy, kde-format
-#| msgid "Humidity: %1"
-msgctxt "@label"
-msgid "Show humidity:"
-msgstr "Xenam: %1"
+#| msgid "&Pressure unit"
+msgctxt "@option:check"
+msgid "Show pressure"
+msgstr "Yeke ya &Pestoyê"
 
-#: package/contents/ui/config/ConfigAppearance.qml:138
-#, kde-format
-msgctxt "@title:group"
-msgid "Compact Mode"
-msgstr ""
+#: package/contents/ui/config/ConfigAppearance.qml:130
+#, fuzzy, kde-format
+#| msgid "Humidity: %1"
+msgctxt "@option:check"
+msgid "Show humidity"
+msgstr "Xenam: %1"
 
 #: package/contents/ui/config/ConfigUnits.qml:67
 #, fuzzy, kde-format
