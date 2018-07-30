@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-07-17 03:36+0200\n"
+"POT-Creation-Date: 2018-07-30 03:30+0200\n"
 "PO-Revision-Date: 2009-01-06 14:34+0200\n"
 "Last-Translator: Erdal Ronahi <erdal.ronahi@nospam.gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -3288,7 +3288,7 @@ msgctxt "@action:button"
 msgid "Create directory"
 msgstr "Pelrêç tê afirandin"
 
-#: filewidgets/knewfilemenu.cpp:416
+#: filewidgets/knewfilemenu.cpp:416 filewidgets/knewfilemenu.cpp:861
 #, kde-format
 msgctxt "@action:button"
 msgid "Enter a different name"
@@ -3332,34 +3332,47 @@ msgctxt "@item:inmenu Create New"
 msgid "%1"
 msgstr ""
 
+#: filewidgets/knewfilemenu.cpp:864
+#, fuzzy, kde-format
+#| msgid "Proxy Setup"
+msgid "Invalid Directory Name"
+msgstr "Sazkirina Cihgirê"
+
+#: filewidgets/knewfilemenu.cpp:873
+#, kde-kuit-format
+msgid ""
+"Folder <filename>%1</filename> could not be created:<nl/><filename>%1</"
+"filename> is reserved for use by the operating system."
+msgstr ""
+
 # msgctxt "@title job"
-#: filewidgets/knewfilemenu.cpp:1099
+#: filewidgets/knewfilemenu.cpp:1126
 #, fuzzy, kde-format
 #| msgid "Creating directory"
 msgid "Create New"
 msgstr "Pelrêç tê afirandin"
 
-#: filewidgets/knewfilemenu.cpp:1114
+#: filewidgets/knewfilemenu.cpp:1141
 #, fuzzy, kde-format
 #| msgid "Device"
 msgid "Link to Device"
 msgstr "Cîhaz"
 
-#: filewidgets/knewfilemenu.cpp:1168
+#: filewidgets/knewfilemenu.cpp:1195
 #, fuzzy, kde-format
 #| msgid "New Folder"
 msgctxt "Default name for a new folder"
 msgid "New Folder"
 msgstr "Peldanka Nû"
 
-#: filewidgets/knewfilemenu.cpp:1178
+#: filewidgets/knewfilemenu.cpp:1205
 #, fuzzy, kde-format
 #| msgid "New Folder"
 msgctxt "@title:window"
 msgid "New Folder"
 msgstr "Peldanka Nû"
 
-#: filewidgets/knewfilemenu.cpp:1181
+#: filewidgets/knewfilemenu.cpp:1208
 #, kde-format
 msgid ""
 "Create new folder in:\n"
@@ -8439,12 +8452,6 @@ msgstr ""
 
 #~ msgid "&Clear Cache"
 #~ msgstr "Pêşbîrê pa&qij bike"
-
-#, fuzzy
-#~| msgid "Proxy Setup"
-#~ msgctxt "@title:window"
-#~ msgid "Invalid Proxy Setup"
-#~ msgstr "Sazkirina Cihgirê"
 
 #, fuzzy
 #~| msgid "Proxy Setup"
