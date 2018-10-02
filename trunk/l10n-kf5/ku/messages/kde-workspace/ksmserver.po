@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksmserver\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-09-02 03:58+0200\n"
+"POT-Creation-Date: 2018-10-02 03:59+0200\n"
 "PO-Revision-Date: 2008-12-23 03:34+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <ku@li.org>\n"
@@ -162,7 +162,24 @@ msgstr ""
 msgid "Reboot Without Confirmation"
 msgstr ""
 
-#: shutdown.cpp:484
+#. i18nd is used as this patch was backported to an LTS with stable translations
+#: shutdown.cpp:229
+#, kde-format
+msgid "Shut Down"
+msgstr ""
+
+#: shutdown.cpp:232
+#, kde-format
+msgid "Reboot"
+msgstr ""
+
+#: shutdown.cpp:237
+#, fuzzy, kde-format
+#| msgid "&Logout"
+msgid "Logout"
+msgstr "&Derkeve"
+
+#: shutdown.cpp:511
 #, kde-format
 msgid "Logout canceled by '%1'"
 msgstr "Derketin ji hêla '%1' hat betalkirin"
@@ -189,11 +206,6 @@ msgstr "Derketin ji hêla '%1' hat betalkirin"
 #~ msgid_plural "Restarting computer in %1 seconds."
 #~ msgstr[0] "Komputer wê 1 çirke din paşê ji nû ve destpê bike. "
 #~ msgstr[1] "Komputer wê %1 çirkeyan paşê ji nû ve destpê bike. "
-
-#, fuzzy
-#~| msgid "&Logout"
-#~ msgid "Logout"
-#~ msgstr "&Derkeve"
 
 #, fuzzy
 #~| msgid "&Turn Off Computer"
