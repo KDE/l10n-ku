@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfindpart\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-10-05 03:41+0200\n"
+"POT-Creation-Date: 2018-10-06 03:39+0200\n"
 "PO-Revision-Date: 2009-01-06 14:31+0200\n"
 "Last-Translator: Erdal Ronahi <erdal.ronahi@nospam.gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -32,14 +32,12 @@ msgid "Idle."
 msgstr ""
 
 #. i18n as below
-#: kfinddlg.cpp:133 kfinddlg.cpp:228 kfinddlg.cpp:252
+#: kfinddlg.cpp:133
 #, fuzzy, kde-format
 #| msgid "one file found"
 #| msgid_plural "%1 files found"
-msgid "one item found"
-msgid_plural "%1 items found"
-msgstr[0] "Pelek hate dîtin"
-msgstr[1] "%1 pel hate dîtin"
+msgid "0 items found"
+msgstr "Pelek hate dîtin"
 
 #: kfinddlg.cpp:172
 #, kde-format
@@ -65,6 +63,15 @@ msgstr ""
 #, kde-format
 msgid "Could not find the specified folder."
 msgstr "Nikare pelgeya bijarte bibîne"
+
+#: kfinddlg.cpp:228 kfinddlg.cpp:252
+#, fuzzy, kde-format
+#| msgid "one file found"
+#| msgid_plural "%1 files found"
+msgid "one item found"
+msgid_plural "%1 items found"
+msgstr[0] "Pelek hate dîtin"
+msgstr[1] "%1 pel hate dîtin"
 
 #: kfindtreeview.cpp:54
 #, kde-format
@@ -545,7 +552,7 @@ msgid_plural "years"
 msgstr[0] "sal"
 msgstr[1] "sal"
 
-#: kquery.cpp:588
+#: kquery.cpp:604
 #, kde-format
 msgctxt "@title:window"
 msgid "Error while using locate"
