@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcolors\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-08-16 09:15+0200\n"
+"POT-Creation-Date: 2018-10-31 04:05+0100\n"
 "PO-Revision-Date: 2009-01-06 14:36+0200\n"
 "Last-Translator: Erdal Ronahi <erdal.ronahi@nospam.gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -102,52 +102,52 @@ msgstr "Dirba Rengê Tomar Bike"
 
 #. i18n: ectx: property (text), widget (QPushButton, schemeEditButton)
 #: colorsettings.ui:34
-#, fuzzy, kde-format
-#| msgid "Import Scheme..."
-msgid "Edit Scheme"
-msgstr "Dirb Bîne Nava Xwe..."
+#, kde-format
+msgid "Edit..."
+msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, schemeRemoveButton)
-#: colorsettings.ui:60
+#: colorsettings.ui:52
 #, kde-format
 msgid "Remove the selected scheme"
 msgstr "Dirba hilbijartî rake"
 
 #. i18n: ectx: property (text), widget (QPushButton, schemeRemoveButton)
-#: colorsettings.ui:63
-#, kde-format
-msgid "Remove Scheme"
+#: colorsettings.ui:55
+#, fuzzy, kde-format
+#| msgid "Remove Scheme"
+msgid "Remove"
 msgstr "Dirbê Rake"
 
-#. i18n: ectx: property (toolTip), widget (QPushButton, schemeKnsButton)
-#: colorsettings.ui:73
-#, fuzzy, kde-format
-#| msgid "Remove the selected scheme"
-msgid "Get new color schemes from the Internet"
-msgstr "Dirba hilbijartî rake"
-
-#. i18n: ectx: property (text), widget (QPushButton, schemeKnsButton)
-#: colorsettings.ui:76
-#, fuzzy, kde-format
-#| msgid "Get &New Schemes..."
-msgid "Get &New Scheme"
-msgstr "Dirbên &Nû Bîne"
-
 #. i18n: ectx: property (toolTip), widget (QPushButton, schemeImportButton)
-#: colorsettings.ui:109
+#: colorsettings.ui:83
 #, fuzzy, kde-format
 #| msgid "Import Color Scheme"
 msgid "Import a color scheme from a file"
 msgstr "Dirba Rengê Bîne Nava Xwe"
 
 #. i18n: ectx: property (text), widget (QPushButton, schemeImportButton)
-#: colorsettings.ui:112
+#: colorsettings.ui:86
 #, kde-format
-msgid "&Install from File"
+msgid "&Install from File..."
 msgstr ""
 
+#. i18n: ectx: property (toolTip), widget (QPushButton, schemeKnsButton)
+#: colorsettings.ui:98
+#, fuzzy, kde-format
+#| msgid "Remove the selected scheme"
+msgid "Get new color schemes from the Internet"
+msgstr "Dirba hilbijartî rake"
+
+#. i18n: ectx: property (text), widget (QPushButton, schemeKnsButton)
+#: colorsettings.ui:101
+#, fuzzy, kde-format
+#| msgid "Get &New Schemes..."
+msgid "Get &New Color Schemes..."
+msgstr "Dirbên &Nû Bîne"
+
 #. i18n: ectx: property (text), widget (QCheckBox, applyToAlien)
-#: colorsettings.ui:122
+#: colorsettings.ui:137
 #, kde-format
 msgid "Apply colors to &non-Qt applications"
 msgstr ""
@@ -1229,6 +1229,11 @@ msgstr "Zemîna Asayî"
 msgctxt "color-kcm-set-preview"
 msgid "focus"
 msgstr "nîvend"
+
+#, fuzzy
+#~| msgid "Import Scheme..."
+#~ msgid "Edit Scheme"
+#~ msgstr "Dirb Bîne Nava Xwe..."
 
 #~ msgid "Are you sure?"
 #~ msgstr "Tu emîn î?"
