@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: khelpcenter\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-06-02 03:31+0200\n"
+"POT-Creation-Date: 2018-10-29 03:28+0100\n"
 "PO-Revision-Date: 2009-01-06 14:01+0200\n"
 "Last-Translator: Erdal Ronahi <erdal.ronahi@nospam.gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -46,8 +46,23 @@ msgstr "Navenda Alîkariyê"
 #: application.cpp:96
 #, fuzzy, kde-format
 #| msgid "(c) 1999-2003, The KHelpCenter developers"
-msgid "(c) 1999-2011, The KHelpCenter developers"
+msgid "(c) 1999-2018, The KHelpCenter developers"
 msgstr "(c) 1999-2003, Pêşvebirên navênden alîkariyê ya KDE"
+
+#: application.cpp:98
+#, kde-format
+msgid "Current maintainer"
+msgstr ""
+
+#: application.cpp:99
+#, kde-format
+msgid "Xapian-based search, lot of bugfixes"
+msgstr ""
+
+#: application.cpp:100
+#, kde-format
+msgid "Former maintainer"
+msgstr ""
 
 #: application.cpp:102
 #, kde-format
@@ -196,7 +211,7 @@ msgstr "Wekî din binihêre: "
 msgid "Search Results"
 msgstr "Encamên Lêgerînê"
 
-#: grantleeformatter.cpp:144 searchengine.cpp:257
+#: grantleeformatter.cpp:144 searchengine.cpp:277
 #, kde-format
 msgid "Search Results for '%1':"
 msgstr "Encamên Lêgerîna '%1':"
@@ -248,77 +263,77 @@ msgstr "&Biçe"
 msgid "Main Toolbar"
 msgstr "Darikê Serekî"
 
-#: mainwindow.cpp:74
+#: mainwindow.cpp:73
 #, kde-format
 msgid "Search Error Log"
 msgstr "Rojnivîska Çewtiya Lêgerînê"
 
-#: mainwindow.cpp:134
+#: mainwindow.cpp:126
 #, kde-format
 msgid "Preparing Index"
 msgstr "Amadekirina pêrist"
 
-#: mainwindow.cpp:184
+#: mainwindow.cpp:170
 #, kde-format
 msgid "Ready"
 msgstr "Amade"
 
-#: mainwindow.cpp:235
+#: mainwindow.cpp:221
 #, kde-format
 msgid "Previous Page"
 msgstr "Rûpelê Berê"
 
-#: mainwindow.cpp:237
+#: mainwindow.cpp:223
 #, kde-format
 msgid "Moves to the previous page of the document"
 msgstr "Here rûpela pelgeyê ya berê"
 
-#: mainwindow.cpp:241
+#: mainwindow.cpp:227
 #, kde-format
 msgid "Next Page"
 msgstr "Rûpelê Dû re"
 
-#: mainwindow.cpp:243
+#: mainwindow.cpp:229
 #, kde-format
 msgid "Moves to the next page of the document"
 msgstr "Here rûpela pelgeyê ya piştre"
 
-#: mainwindow.cpp:248
+#: mainwindow.cpp:234
 #, kde-format
 msgid "Table of &Contents"
 msgstr "Tabloya &Naverokan"
 
-#: mainwindow.cpp:249
+#: mainwindow.cpp:235
 #, kde-format
 msgid "Table of contents"
 msgstr "Tabloya Naverokan"
 
-#: mainwindow.cpp:250
+#: mainwindow.cpp:236
 #, kde-format
 msgid "Go back to the table of contents"
 msgstr "Biçe beşa naverokan"
 
-#: mainwindow.cpp:256
+#: mainwindow.cpp:242
 #, kde-format
 msgid "&Last Search Result"
 msgstr "Encamên Lêgerîna &Dawîn"
 
-#: mainwindow.cpp:274
+#: mainwindow.cpp:260
 #, kde-format
 msgid "Configure Fonts..."
 msgstr "Curetîpan Veava Bike..."
 
-#: mainwindow.cpp:278
+#: mainwindow.cpp:264
 #, kde-format
 msgid "Increase Font Sizes"
 msgstr "Mezinahiya Curetîpan Mezin Bike"
 
-#: mainwindow.cpp:283
+#: mainwindow.cpp:269
 #, kde-format
 msgid "Decrease Font Sizes"
 msgstr "Mezinahiya Curetîpan Biçûk Bike"
 
-#: mainwindow.cpp:299
+#: mainwindow.cpp:285
 #, kde-format
 msgctxt "@title:menu"
 msgid "&Bookmarks"
@@ -371,42 +386,42 @@ msgstr "Pêrista lêgerînê ava bike..."
 msgid "Updating search index... done."
 msgstr "Pêybîr ji nû ve tê amadekirin... hate temamkirin!"
 
-#: searchengine.cpp:52
+#: searchengine.cpp:72
 #, kde-format
 msgid "Error: No document type specified."
 msgstr "Çewtî: Ti cureyê pelgeyê nehatiye destnîşankirin"
 
-#: searchengine.cpp:54
+#: searchengine.cpp:74
 #, kde-format
 msgid "Error: No search handler for document type '%1'."
 msgstr "Çewtî: Xebatkerê lêgerîna ji bo cureyê pelgeyê '%1' tuneye."
 
-#: searchengine.cpp:227
+#: searchengine.cpp:247
 #, kde-format
 msgid "No valid search handler found."
 msgstr "Xebatkerê lêgerînê nayê dîtin."
 
-#: searchhandler.cpp:52
+#: searchhandler.cpp:53
 #, kde-format
 msgid "Error executing search command '%1'."
 msgstr "Çewtî di fermana lêgerînê '%1' de."
 
-#: searchhandler.cpp:95
+#: searchhandler.cpp:96
 #, kde-format
 msgid "Error: %1"
 msgstr "Çewtî: %1"
 
-#: searchhandler.cpp:164 searchhandler.cpp:169
+#: searchhandler.cpp:161 searchhandler.cpp:166
 #, kde-format
 msgid "'%1' not found, check your installation"
 msgstr ""
 
-#: searchhandler.cpp:174
+#: searchhandler.cpp:171
 #, kde-format
 msgid "'%1' not found, install the package containing it"
 msgstr ""
 
-#: searchhandler.cpp:225
+#: searchhandler.cpp:222
 #, kde-format
 msgid "No search command or URL specified."
 msgstr "Fermana lêgerînê an jî navnîşan nehate diyarkirin"
@@ -471,12 +486,12 @@ msgctxt "Label for Unknown search scope, that should never appear"
 msgid "unknown"
 msgstr "nenas"
 
-#: view.cpp:227
+#: view.cpp:240
 #, kde-format
 msgid "Copy Link Address"
 msgstr "Navnîşana Girêdanê Ji Ber Bigire"
 
-#: view.cpp:311
+#: view.cpp:324
 #, kde-format
 msgid ""
 "<p>Read the topic documentation in this window.<br /><br />Press <b>Space</"
