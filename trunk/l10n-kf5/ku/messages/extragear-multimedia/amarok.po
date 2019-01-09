@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2019-01-08 02:54+0100\n"
+"POT-Creation-Date: 2019-01-09 03:00+0100\n"
 "PO-Revision-Date: 2009-02-21 06:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -14301,10 +14301,11 @@ msgstr "Navê pêş-avakirinê têkevê:"
 msgid "Import preset"
 msgstr "Berhevokê Bîne Nava Xwe"
 
-#: playlistgenerator/PresetModel.cpp:156 playlistgenerator/PresetModel.cpp:299
-#, kde-format
-msgid "Preset files (*.xml)"
-msgstr ""
+#: playlistgenerator/PresetModel.cpp:156
+#, fuzzy, kde-format
+#| msgid "Presets:"
+msgid "Preset files"
+msgstr "Pêş-avakirin:"
 
 #: playlistgenerator/PresetModel.cpp:216
 #, kde-format
@@ -14358,6 +14359,11 @@ msgstr ""
 #| msgid "Import Collection"
 msgid "Export \"%1\" preset"
 msgstr "Berhevokê Bîne Nava Xwe"
+
+#: playlistgenerator/PresetModel.cpp:299
+#, kde-format
+msgid "Preset files (*.xml)"
+msgstr ""
 
 #: playlistmanager/file/PlaylistFileProvider.cpp:98
 #, fuzzy, kde-format
