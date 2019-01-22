@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: okular2\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2019-01-12 03:06+0100\n"
+"POT-Creation-Date: 2019-01-22 03:11+0100\n"
 "PO-Revision-Date: 2008-11-07 17:14+0100\n"
 "Last-Translator: Erdal Ronahi <erdal.ronahi@nospam.gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -1554,7 +1554,7 @@ msgstr ""
 msgid "Moves to the end of the document"
 msgstr ""
 
-#: part.cpp:702 part.cpp:2373 ui/bookmarklist.cpp:249 ui/bookmarklist.cpp:276
+#: part.cpp:702 part.cpp:2373 ui/bookmarklist.cpp:250 ui/bookmarklist.cpp:277
 #, kde-format
 msgid "Rename Bookmark"
 msgstr ""
@@ -1894,7 +1894,7 @@ msgstr ""
 msgid "Reloading the document..."
 msgstr ""
 
-#: part.cpp:2177 part.cpp:3079 ui/bookmarklist.cpp:250
+#: part.cpp:2177 part.cpp:3079 ui/bookmarklist.cpp:251
 #, kde-format
 msgid "Remove Bookmark"
 msgstr ""
@@ -2855,17 +2855,23 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: ui/bookmarklist.cpp:155
+#: ui/bookmarklist.cpp:127 ui/searchwidget.cpp:40 ui/side_reviews.cpp:120
+#: ui/toc.cpp:38
+#, kde-format
+msgid "Search..."
+msgstr ""
+
+#: ui/bookmarklist.cpp:156
 #, kde-format
 msgid "Current document only"
 msgstr ""
 
-#: ui/bookmarklist.cpp:248
+#: ui/bookmarklist.cpp:249
 #, kde-format
 msgid "Go to This Bookmark"
 msgstr ""
 
-#: ui/bookmarklist.cpp:275
+#: ui/bookmarklist.cpp:276
 #, fuzzy, kde-format
 #| msgctxt "This is the document format"
 #| msgid "OpenDocument Text"
@@ -2873,7 +2879,7 @@ msgctxt "Opens the selected document"
 msgid "Open Document"
 msgstr "Nivîsara OpenDocument"
 
-#: ui/bookmarklist.cpp:277
+#: ui/bookmarklist.cpp:278
 #, kde-format
 msgid "Remove Bookmarks"
 msgstr ""
@@ -4122,32 +4128,32 @@ msgstr "Pel nehatiye tomarkirin."
 msgid "Could not view revision."
 msgstr ""
 
-#: ui/searchwidget.cpp:40
+#: ui/searchwidget.cpp:41
 #, kde-format
 msgid "Enter at least 3 letters to filter pages"
 msgstr ""
 
-#: ui/searchwidget.cpp:50
+#: ui/searchwidget.cpp:51
 #, kde-format
 msgid "Case Sensitive"
 msgstr ""
 
-#: ui/searchwidget.cpp:52
+#: ui/searchwidget.cpp:53
 #, kde-format
 msgid "Match Phrase"
 msgstr ""
 
-#: ui/searchwidget.cpp:53
+#: ui/searchwidget.cpp:54
 #, kde-format
 msgid "Match All Words"
 msgstr ""
 
-#: ui/searchwidget.cpp:54
+#: ui/searchwidget.cpp:55
 #, kde-format
 msgid "Match Any Word"
 msgstr ""
 
-#: ui/searchwidget.cpp:73
+#: ui/searchwidget.cpp:74
 #, kde-format
 msgid "Filter Options"
 msgstr ""
@@ -4159,17 +4165,17 @@ msgid ""
 "or select <i>Tools -&gt; Review</i> from the menu.</div>"
 msgstr ""
 
-#: ui/side_reviews.cpp:130
+#: ui/side_reviews.cpp:131
 #, kde-format
 msgid "Group by Page"
 msgstr ""
 
-#: ui/side_reviews.cpp:135
+#: ui/side_reviews.cpp:136
 #, kde-format
 msgid "Group by Author"
 msgstr ""
 
-#: ui/side_reviews.cpp:143
+#: ui/side_reviews.cpp:144
 #, kde-format
 msgid "Show reviews for current page only"
 msgstr ""
