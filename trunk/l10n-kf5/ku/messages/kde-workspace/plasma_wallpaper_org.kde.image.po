@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_wallpaper_image\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2019-01-29 03:25+0100\n"
+"POT-Creation-Date: 2019-02-06 03:31+0100\n"
 "PO-Revision-Date: 2008-12-26 03:10+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -148,26 +148,24 @@ msgstr "Pelê Wêneyê Zemînê Hilbijêre"
 msgid "Next Wallpaper Image"
 msgstr "Pelê Wêneyê Zemînê Hilbijêre"
 
-#: imagepackage/contents/ui/WallpaperDelegate.qml:36
-#: imagepackage/platformcontents/phone/ui/WallpaperDelegate.qml:119
-#, fuzzy, kde-format
-#| msgctxt "Caption to wallpaper preview, %1 author name"
-#| msgid "by %1"
-msgid "%1 by %2"
-msgstr "yê %1"
+#: imagepackage/contents/ui/WallpaperDelegate.qml:38
+#, kde-format
+msgctxt "<image> by <author>"
+msgid "By %1"
+msgstr ""
 
-#: imagepackage/contents/ui/WallpaperDelegate.qml:43
+#: imagepackage/contents/ui/WallpaperDelegate.qml:45
 #, kde-format
 msgid "Open Containing Folder"
 msgstr ""
 
-#: imagepackage/contents/ui/WallpaperDelegate.qml:49
+#: imagepackage/contents/ui/WallpaperDelegate.qml:51
 #, fuzzy, kde-format
 #| msgid "Get New Wallpapers..."
 msgid "Restore wallpaper"
 msgstr "Wêneyên Nû Daxe..."
 
-#: imagepackage/contents/ui/WallpaperDelegate.qml:54
+#: imagepackage/contents/ui/WallpaperDelegate.qml:56
 #, fuzzy, kde-format
 #| msgid "Get New Wallpapers..."
 msgid "Remove Wallpaper"
@@ -184,6 +182,13 @@ msgstr "Wêneyên Nû Daxe..."
 #| msgid "Get New Wallpapers..."
 msgid "Remove wallpaper"
 msgstr "Wêneyên Nû Daxe..."
+
+#: imagepackage/platformcontents/phone/ui/WallpaperDelegate.qml:119
+#, fuzzy, kde-format
+#| msgctxt "Caption to wallpaper preview, %1 author name"
+#| msgid "by %1"
+msgid "%1 by %2"
+msgstr "yê %1"
 
 #, fuzzy
 #~| msgid "..."
