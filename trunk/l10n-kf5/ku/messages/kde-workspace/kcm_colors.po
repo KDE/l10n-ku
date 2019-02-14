@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcolors\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2019-01-26 03:18+0100\n"
+"POT-Creation-Date: 2019-02-14 03:17+0100\n"
 "PO-Revision-Date: 2009-01-06 14:36+0200\n"
 "Last-Translator: Erdal Ronahi <erdal.ronahi@nospam.gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -32,11 +32,10 @@ msgid "Your emails"
 msgstr ""
 "erdal.ronahi@nospam.gmail.com,amedcj@nospam.gmail.com,oensari@gmail.com"
 
-#: colors.cpp:62
-#, fuzzy, kde-format
-#| msgid "Save Color Scheme"
-msgid "Choose the color scheme"
-msgstr "Dirba Rengê Tomar Bike"
+#: colors.cpp:62 editor/scmeditordialog.cpp:80
+#, kde-format
+msgid "Colors"
+msgstr "Reng"
 
 #: colors.cpp:64
 #, kde-format
@@ -209,11 +208,6 @@ msgstr ""
 msgid "Options"
 msgstr "Opsiyon"
 
-#: editor/scmeditordialog.cpp:80
-#, kde-format
-msgid "Colors"
-msgstr "Reng"
-
 #: editor/scmeditordialog.cpp:81
 #, fuzzy, kde-format
 #| msgid "Disabled"
@@ -367,6 +361,11 @@ msgstr "Dirba Rengê Tomar Bike"
 #, kde-format
 msgid "Color Scheme Files (*.colors)"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Save Color Scheme"
+#~ msgid "Choose the color scheme"
+#~ msgstr "Dirba Rengê Tomar Bike"
 
 #~ msgid "(c) 2007 Matthew Woehlke"
 #~ msgstr "(c) 2007 Matthew Woehlke"
