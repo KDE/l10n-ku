@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_emoticons\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-10-31 04:05+0100\n"
+"POT-Creation-Date: 2019-02-19 03:39+0100\n"
 "PO-Revision-Date: 2008-12-27 01:50+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <ku@li.org>\n"
@@ -83,9 +83,10 @@ msgid "New Emoticon Theme"
 msgstr "Dirba Vegotina Nû"
 
 #: emoticonslist.cpp:364
-#, kde-format
-msgid "Enter the name of the new emoticon theme:"
-msgstr "Navê dirba vegotina nû binivîse:"
+#, fuzzy, kde-format
+#| msgid "Design a new emoticon theme"
+msgid "Name of new emoticon theme:"
+msgstr "Dirba vegotinekê nû biafirîne"
 
 #: emoticonslist.cpp:370
 #, kde-format
@@ -103,115 +104,14 @@ msgstr "Cureyê dirba vegotinê hilbijêre û biafirîne"
 msgid "Emoticons Manager"
 msgstr "Rêveberê Vegotinan"
 
-#. i18n: ectx: property (text), widget (QCheckBox, cbStrict)
-#: emoticonslist.ui:40
-#, kde-format
-msgid "Require spaces around emoticons"
-msgstr "Cihê hewce ji bo derdora vegotinan"
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, btNew)
-#: emoticonslist.ui:47
-#, kde-format
-msgid "Design a new emoticon theme"
-msgstr "Dirba vegotinekê nû biafirîne"
-
-#. i18n: ectx: property (whatsThis), widget (QPushButton, btNew)
-#: emoticonslist.ui:50
-#, kde-format
-msgid ""
-"Start a new theme by assigning it a name. Then use the Add button on the "
-"right to add emoticons to this theme."
-msgstr ""
-"Bi nav danê ve destpê dirba nû bike. Paşê pêl bişkojka Têxê yê di milê rastê "
-"de ye bike û vegotinan lê vê dirbê zêde bike."
-
-#. i18n: ectx: property (text), widget (QPushButton, btNew)
-#: emoticonslist.ui:53
-#, fuzzy, kde-format
-#| msgid "New Theme..."
-msgid "New Theme"
-msgstr "Dirbê Nû..."
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, btRemoveTheme)
-#: emoticonslist.ui:60
-#, kde-format
-msgid "Remove the selected theme from your disk"
-msgstr "Dirbên hatine hilbijartin jê dîska xwe bibe"
-
-#. i18n: ectx: property (whatsThis), widget (QPushButton, btRemoveTheme)
-#: emoticonslist.ui:63
-#, kde-format
-msgid "This will remove the selected theme from your disk."
-msgstr "Ev wê dirbên hatine hilbijartin jê dîska te bibe."
-
-#. i18n: ectx: property (text), widget (QPushButton, btRemoveTheme)
-#: emoticonslist.ui:66
-#, kde-format
-msgid "Remove Theme"
-msgstr "Dirbî Rake"
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, btAdd)
-#: emoticonslist.ui:86
-#, kde-format
-msgid "Create a new emoticon"
-msgstr "Vegotina nû biafirîne"
-
-#. i18n: ectx: property (whatsThis), widget (QPushButton, btAdd)
-#: emoticonslist.ui:89
-#, kde-format
-msgid "Create a new emoticon by assigning it an icon and some text"
-msgstr "Vegotina nû biafirîne bi vê re îkon û hinek nivîsar zêdekirinê ve"
-
-#. i18n: ectx: property (text), widget (QPushButton, btAdd)
-#: emoticonslist.ui:92
-#, kde-format
-msgid "Add..."
-msgstr "Têxê..."
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, btEdit)
-#: emoticonslist.ui:99
-#, kde-format
-msgid "Modify the selected emoticon icon or text "
-msgstr "Îkona an jî nivîsara vegotinê yê hilbijartî biguherîne"
-
-#. i18n: ectx: property (whatsThis), widget (QPushButton, btEdit)
-#: emoticonslist.ui:102
-#, kde-format
-msgid "Edit the selected emoticon to change its icon or its text"
-msgstr "Îkon an jî nivîsara vegotina hilbijartî biguherîne"
-
-#. i18n: ectx: property (text), widget (QPushButton, btEdit)
-#: emoticonslist.ui:105
-#, kde-format
-msgid "Edit..."
-msgstr "Biguherîne..."
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, btRemoveEmoticon)
-#: emoticonslist.ui:112
-#, kde-format
-msgid "Remove the selected emoticon"
-msgstr "Vegotina hilbijartî rake"
-
-#. i18n: ectx: property (whatsThis), widget (QPushButton, btRemoveEmoticon)
-#: emoticonslist.ui:115
-#, kde-format
-msgid "Remove the selected emoticon from your disk"
-msgstr "Vegotina hilbijartî jê dîska xwe rake"
-
-#. i18n: ectx: property (text), widget (QPushButton, btRemoveEmoticon)
-#: emoticonslist.ui:118
-#, kde-format
-msgid "Remove"
-msgstr "Rake"
-
 #. i18n: ectx: property (toolTip), widget (QPushButton, btInstall)
-#: emoticonslist.ui:138
+#: emoticonslist.ui:26
 #, kde-format
 msgid "Install a theme archive file you already have locally"
 msgstr "Pela arşîva dirbê yê jixwe di komputera te de heye saz bike"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, btInstall)
-#: emoticonslist.ui:141
+#: emoticonslist.ui:29
 #, kde-format
 msgid ""
 "If you already have an emoticon theme archive locally, this button will "
@@ -221,21 +121,53 @@ msgstr ""
 "arşîvê veke û vê ji bo sepanên KDE amade bike."
 
 #. i18n: ectx: property (text), widget (QPushButton, btInstall)
-#: emoticonslist.ui:144
+#: emoticonslist.ui:32
 #, fuzzy, kde-format
 #| msgid "Install Theme File..."
 msgid "Install from File..."
 msgstr "Pelê Dirban Saz Bike..."
 
+#. i18n: ectx: property (toolTip), widget (QPushButton, btNew)
+#: emoticonslist.ui:45
+#, fuzzy, kde-format
+#| msgid "Get New Themes..."
+msgid "Create New Theme..."
+msgstr "Dirbê Nû Bîne..."
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btNew)
+#: emoticonslist.ui:48
+#, fuzzy, kde-format
+#| msgid ""
+#| "Start a new theme by assigning it a name. Then use the Add button on the "
+#| "right to add emoticons to this theme."
+msgid ""
+"Create a new theme by assigning it a name. Then use the Add button on the "
+"right to add emoticons to this theme."
+msgstr ""
+"Bi nav danê ve destpê dirba nû bike. Paşê pêl bişkojka Têxê yê di milê rastê "
+"de ye bike û vegotinan lê vê dirbê zêde bike."
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, btRemoveTheme)
+#: emoticonslist.ui:99
+#, kde-format
+msgid "Remove Theme"
+msgstr "Dirbî Rake"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btRemoveTheme)
+#: emoticonslist.ui:102
+#, kde-format
+msgid "This will remove the selected theme from your disk."
+msgstr "Ev wê dirbên hatine hilbijartin jê dîska te bibe."
+
 #. i18n: ectx: property (toolTip), widget (QPushButton, btGetNew)
-#: emoticonslist.ui:151
+#: emoticonslist.ui:115
 #, fuzzy, kde-format
 #| msgid "Get new themes from the Internet"
-msgid "Get new icon themes from the Internet"
+msgid "Get new emoticon icon themes from the Internet"
 msgstr "Jê Torê dirbên nû bîne"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, btGetNew)
-#: emoticonslist.ui:154
+#: emoticonslist.ui:118
 #, fuzzy, kde-format
 #| msgid ""
 #| "You need to be connected to the Internet to use this action. A dialog "
@@ -253,13 +185,82 @@ msgstr ""
 "saz bike yê rexê dirbê heyî re ev dirb ê bê saz kirin. "
 
 #. i18n: ectx: property (text), widget (QPushButton, btGetNew)
-#: emoticonslist.ui:157
+#: emoticonslist.ui:121
 #, fuzzy, kde-format
 #| msgid "Create a new emoticon"
 msgid "Get New Emoticons..."
 msgstr "Vegotina nû biafirîne"
 
+#. i18n: ectx: property (text), widget (QCheckBox, cbStrict)
+#: emoticonslist.ui:138
+#, kde-format
+msgid "Require spaces around emoticons"
+msgstr "Cihê hewce ji bo derdora vegotinan"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, btAdd)
+#: emoticonslist.ui:161
+#, fuzzy, kde-format
+#| msgid "Create a new emoticon"
+msgid "Create New Emoticon..."
+msgstr "Vegotina nû biafirîne"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btAdd)
+#: emoticonslist.ui:164
+#, kde-format
+msgid "Create a new emoticon by assigning it an icon and some text"
+msgstr "Vegotina nû biafirîne bi vê re îkon û hinek nivîsar zêdekirinê ve"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, btRemoveEmoticon)
+#: emoticonslist.ui:177
+#, fuzzy, kde-format
+#| msgid "Add Emoticon"
+msgid "Remove Emoticon"
+msgstr "Vegotin Lê Zêde Bike"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btRemoveEmoticon)
+#: emoticonslist.ui:180
+#, kde-format
+msgid "Remove the selected emoticon from your disk"
+msgstr "Vegotina hilbijartî jê dîska xwe rake"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, btEdit)
+#: emoticonslist.ui:193
+#, fuzzy, kde-format
+#| msgid "Edit Emoticon"
+msgid "Edit Emoticon..."
+msgstr "Vegotin Biguherîne"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btEdit)
+#: emoticonslist.ui:196
+#, kde-format
+msgid "Edit the selected emoticon to change its icon or its text"
+msgstr "Îkon an jî nivîsara vegotina hilbijartî biguherîne"
+
+#~ msgid "Enter the name of the new emoticon theme:"
+#~ msgstr "Navê dirba vegotina nû binivîse:"
+
 #, fuzzy
-#~| msgid "Get New Themes..."
-#~ msgid "Get new Theme"
-#~ msgstr "Dirbê Nû Bîne..."
+#~| msgid "New Theme..."
+#~ msgid "New Theme"
+#~ msgstr "Dirbê Nû..."
+
+#~ msgid "Remove the selected theme from your disk"
+#~ msgstr "Dirbên hatine hilbijartin jê dîska xwe bibe"
+
+#~ msgid "Create a new emoticon"
+#~ msgstr "Vegotina nû biafirîne"
+
+#~ msgid "Add..."
+#~ msgstr "Têxê..."
+
+#~ msgid "Modify the selected emoticon icon or text "
+#~ msgstr "Îkona an jî nivîsara vegotinê yê hilbijartî biguherîne"
+
+#~ msgid "Edit..."
+#~ msgstr "Biguherîne..."
+
+#~ msgid "Remove the selected emoticon"
+#~ msgstr "Vegotina hilbijartî rake"
+
+#~ msgid "Remove"
+#~ msgstr "Rake"
