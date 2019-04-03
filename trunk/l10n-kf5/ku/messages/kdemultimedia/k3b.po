@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: k3b\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2019-04-01 03:28+0200\n"
+"POT-Creation-Date: 2019-04-03 03:30+0200\n"
 "PO-Revision-Date: 2009-02-21 07:27+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -2409,10 +2409,10 @@ msgctxt "%1 and %2 are byte sizes formatted via KFormat::formatByteSize"
 msgid "%1 of %2"
 msgstr "%1 jê %2 MB"
 
-#: k3bjobprogressdialog.cpp:379
+#: k3bjobprogressdialog.cpp:379 k3bjobprogressdialog.cpp:555
 #, fuzzy, kde-format
 #| msgid "Elapsed time"
-msgctxt "@info %1 is a duration formatted using QLocale::toString"
+msgctxt "@info %1 is a duration formatted"
 msgid "Elapsed time: %1"
 msgstr "Demê borî"
 
@@ -2450,13 +2450,6 @@ msgstr ""
 #, kde-format
 msgid "Cancel Confirmation"
 msgstr ""
-
-#: k3bjobprogressdialog.cpp:555
-#, fuzzy, kde-format
-#| msgid "Elapsed time"
-msgctxt "@info %1 is a duration formatted"
-msgid "Elapsed time: %1"
-msgstr "Demê borî"
 
 #: k3bjobprogressdialog.cpp:559
 #, fuzzy, kde-format
@@ -10255,6 +10248,12 @@ msgstr ""
 #, kde-format
 msgid "Subpicture"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Elapsed time"
+#~ msgctxt "@info %1 is a duration formatted using QLocale::toString"
+#~ msgid "Elapsed time: %1"
+#~ msgstr "Demê borî"
 
 #~ msgid "MPEG 1 Layer III"
 #~ msgstr "MPEG 1 Qad III"
