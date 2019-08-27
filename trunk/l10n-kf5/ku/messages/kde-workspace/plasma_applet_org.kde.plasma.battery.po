@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_battery\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-21 03:21+0200\n"
+"POT-Creation-Date: 2019-08-27 03:16+0200\n"
 "PO-Revision-Date: 2008-12-26 00:33+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
@@ -28,8 +28,8 @@ msgstr "Giştî"
 #: package/contents/ui/BatteryItem.qml:53
 #, kde-format
 msgid ""
-"This battery is %1% degraded and should be replaced. Please contact your "
-"hardware vendor for more details."
+"This battery's health is at only %1% and should be replaced. Please contact "
+"your hardware vendor for more details."
 msgstr ""
 
 #: package/contents/ui/BatteryItem.qml:186
@@ -164,14 +164,14 @@ msgid "Time To Empty:"
 msgstr ""
 
 #: package/contents/ui/logic.js:45
-#, kde-format
-msgctxt "The degradation in the battery's energy capacity"
-msgid "Capacity degradation:"
-msgstr ""
+#, fuzzy, kde-format
+#| msgid "On Battery"
+msgid "Battery Health:"
+msgstr "Pîl"
 
 #: package/contents/ui/logic.js:46
 #, kde-format
-msgctxt "Placeholder is battery's capacity degradation"
+msgctxt "Placeholder is battery health percentage"
 msgid "%1%"
 msgstr ""
 
@@ -327,11 +327,6 @@ msgstr ""
 #~| msgid "<b>Battery:</b> %1% (discharging)<br />"
 #~ msgid "<b>%1% (charging)</b>"
 #~ msgstr "<b>Pîl:</b> %1% (şarj tê vala kirin)<br />"
-
-#, fuzzy
-#~| msgid "On Battery"
-#~ msgid "Battery:"
-#~ msgstr "Pîl"
 
 #, fuzzy
 #~| msgid "On Battery"
