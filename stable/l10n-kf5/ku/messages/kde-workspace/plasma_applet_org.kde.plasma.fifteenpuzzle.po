@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_fifteenPuzzle\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:45+0200\n"
+"POT-Creation-Date: 2019-08-29 07:23+0200\n"
 "PO-Revision-Date: 2009-01-11 17:15+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -20,66 +20,59 @@ msgstr ""
 "X-Poedit-SourceCharset: utf8\n"
 
 #: package/contents/config/config.qml:27
+#: package/contents/ui/configAppearance.qml:45
 #, fuzzy, kde-format
 #| msgid "Appearance"
-msgctxt "@title"
 msgid "Appearance"
 msgstr "Xuyakirin"
 
-#: package/contents/ui/configAppearance.qml:54
+#: package/contents/ui/configAppearance.qml:58
 #, kde-format
-msgctxt "@label:spinbox"
-msgid "Grid size:"
+msgid "Size"
 msgstr ""
 
-#: package/contents/ui/configAppearance.qml:63
+#: package/contents/ui/configAppearance.qml:67
 #, kde-format
-msgid "Background:"
+msgid "Piece color"
 msgstr ""
 
-#: package/contents/ui/configAppearance.qml:69
+#: package/contents/ui/configAppearance.qml:76
 #, kde-format
-msgid "Color:"
+msgid "Number color"
 msgstr ""
 
-#: package/contents/ui/configAppearance.qml:84
-#, kde-format
-msgid "Image:"
-msgstr ""
-
-#: package/contents/ui/configAppearance.qml:92
+#: package/contents/ui/configAppearance.qml:86
 #, fuzzy, kde-format
 #| msgid "Use custom image"
-msgctxt "@info:placeholder"
-msgid "Path to custom image..."
+msgid "Use custom image"
 msgstr "Wêneya taybet bi kar bîne"
 
-#: package/contents/ui/configAppearance.qml:110
+#: package/contents/ui/configAppearance.qml:95
+#, fuzzy, kde-format
+#| msgid "Use custom image"
+msgid "Path to custom image"
+msgstr "Wêneya taybet bi kar bîne"
+
+#: package/contents/ui/configAppearance.qml:101
 #, kde-format
-msgctxt "@info:tooltip"
-msgid "Choose image..."
+msgid "Browse..."
 msgstr ""
 
-#: package/contents/ui/configAppearance.qml:117
+#: package/contents/ui/configAppearance.qml:108
 #, kde-format
-msgctxt "@title:window"
-msgid "Choose an Image"
+msgid "Choose an image"
 msgstr ""
 
-#: package/contents/ui/configAppearance.qml:122
+#: package/contents/ui/configAppearance.qml:113
 #, kde-format
 msgid "Image Files (*.png *.jpg *.jpeg *.bmp *.svg *.svgz)"
 msgstr ""
 
-#: package/contents/ui/configAppearance.qml:136
-#, kde-format
-msgid "Tiles:"
-msgstr ""
-
-#: package/contents/ui/configAppearance.qml:140
-#, kde-format
-msgid "Colored numbers:"
-msgstr ""
+#: package/contents/ui/configAppearance.qml:125
+#, fuzzy, kde-format
+#| msgid "Show numerals"
+msgid "Show numerals"
+msgstr "Hejmaran nîşan bide"
 
 #: package/contents/ui/FifteenPuzzle.qml:167
 #, kde-format
@@ -90,38 +83,24 @@ msgstr ""
 #: package/contents/ui/FifteenPuzzle.qml:193
 #, fuzzy, kde-format
 #| msgid "Shuffle Pieces"
-msgctxt "@action:button"
 msgid "Shuffle"
 msgstr "Parî Tevlihev Bike"
 
 #: package/contents/ui/FifteenPuzzle.qml:230
 #, kde-format
-msgctxt "@info"
 msgid "Solved! Try again."
 msgstr ""
 
-#: package/contents/ui/main.qml:41
+#: package/contents/ui/main.qml:40
 #, fuzzy, kde-format
 #| msgid "Configure Fifteen Puzzle"
 msgid "Fifteen Puzzle"
 msgstr "Peydanok 15 Veava Bike"
 
-#: package/contents/ui/main.qml:42
+#: package/contents/ui/main.qml:41
 #, kde-format
 msgid "Solve by arranging in order"
 msgstr ""
-
-#, fuzzy
-#~| msgid "Use custom image"
-#~ msgctxt "@option:check"
-#~ msgid "Use custom image"
-#~ msgstr "Wêneya taybet bi kar bîne"
-
-#, fuzzy
-#~| msgid "Show numerals"
-#~ msgctxt "@option:check"
-#~ msgid "Show numerals"
-#~ msgstr "Hejmaran nîşan bide"
 
 #, fuzzy
 #~| msgid "Appearance"
