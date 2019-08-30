@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_binaryclock\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-29 07:23+0200\n"
+"POT-Creation-Date: 2019-08-30 07:51+0200\n"
 "PO-Revision-Date: 2009-01-11 17:09+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -19,75 +19,74 @@ msgstr ""
 "X-Poedit-Language: Kurdish\n"
 "X-Poedit-SourceCharset: utf8\n"
 
-#: package/contents/config/config.qml:28
-#: package/contents/ui/configGeneral.qml:33
+#: package/contents/config/config.qml:29
 #, fuzzy, kde-format
 #| msgid "Appearance"
+msgctxt "@title"
 msgid "Appearance"
 msgstr "Xuyakirin"
 
-#: package/contents/ui/configGeneral.qml:60
+#: package/contents/ui/configGeneral.qml:47
 #, kde-format
-msgid "Draw grid"
+msgid "Display:"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:64
+#: package/contents/ui/configGeneral.qml:48
+#: package/contents/ui/configGeneral.qml:102
+#, fuzzy, kde-format
+#| msgid "Grid:"
+msgctxt "@option:check"
+msgid "Grid"
+msgstr "Izxere:"
+
+#: package/contents/ui/configGeneral.qml:53
+#: package/contents/ui/configGeneral.qml:89
 #, fuzzy, kde-format
 #| msgid "Inactive LEDs:"
-msgid "Show inactive LEDs:"
+msgctxt "@option:check"
+msgid "Inactive LEDs"
 msgstr "LEDên Neçalak:"
 
-#: package/contents/ui/configGeneral.qml:68
+#: package/contents/ui/configGeneral.qml:58
+#, fuzzy, kde-format
+#| msgid "Seconds:"
+msgctxt "@option:check"
+msgid "Seconds"
+msgstr "Çirkan:"
+
+#: package/contents/ui/configGeneral.qml:63
 #, kde-format
-msgid "Display seconds"
+msgctxt "@option:check"
+msgid "In BCD format (decimal)"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:71
-#, kde-format
-msgid "Colors:"
-msgstr ""
-
-#: package/contents/ui/configGeneral.qml:77
+#: package/contents/ui/configGeneral.qml:72
 #, fuzzy, kde-format
 #| msgid "Use custom grid color:"
-msgid "Use custom color for active LEDs"
+msgid "Use custom color for:"
 msgstr "Rengê taybet yê izxere yê bi kar bîne:"
 
-#: package/contents/ui/configGeneral.qml:95
+#: package/contents/ui/configGeneral.qml:76
 #, fuzzy, kde-format
-#| msgid "Use custom grid color:"
-msgid "Use custom color for inactive LEDs"
-msgstr "Rengê taybet yê izxere yê bi kar bîne:"
-
-#: package/contents/ui/configGeneral.qml:113
-#, fuzzy, kde-format
-#| msgid "Use custom grid color:"
-msgid "Use custom color for grid"
-msgstr "Rengê taybet yê izxere yê bi kar bîne:"
-
-#, fuzzy
-#~| msgid "Grid:"
-#~ msgctxt "@option:check"
-#~ msgid "Grid"
-#~ msgstr "Izxere:"
+#| msgid "Active LEDs:"
+msgctxt "@option:check"
+msgid "Active LEDs"
+msgstr "LEDên Çalak:"
 
 #, fuzzy
 #~| msgid "Inactive LEDs:"
-#~ msgctxt "@option:check"
-#~ msgid "Inactive LEDs"
+#~ msgid "Show inactive LEDs:"
 #~ msgstr "LEDên Neçalak:"
 
 #, fuzzy
-#~| msgid "Seconds:"
-#~ msgctxt "@option:check"
-#~ msgid "Seconds"
-#~ msgstr "Çirkan:"
+#~| msgid "Use custom grid color:"
+#~ msgid "Use custom color for active LEDs"
+#~ msgstr "Rengê taybet yê izxere yê bi kar bîne:"
 
 #, fuzzy
-#~| msgid "Active LEDs:"
-#~ msgctxt "@option:check"
-#~ msgid "Active LEDs"
-#~ msgstr "LEDên Çalak:"
+#~| msgid "Use custom grid color:"
+#~ msgid "Use custom color for inactive LEDs"
+#~ msgstr "Rengê taybet yê izxere yê bi kar bîne:"
 
 #, fuzzy
 #~| msgid "Appearance"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_desktopthemedetails\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-29 07:24+0200\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
 "PO-Revision-Date: 2008-12-28 08:00+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -28,93 +28,98 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "oensari@gmail.com"
 
-#: kcm.cpp:55
+#: kcm.cpp:61
 #, fuzzy, kde-format
-#| msgid "Remove Desktop Theme"
-msgid "Configure Desktop Theme"
-msgstr "Dirba Sermasê Rake"
+#| msgid "Get New Theme..."
+msgid "Plasma Theme"
+msgstr "Temaya Nû Bîne..."
 
-#: kcm.cpp:57
+#: kcm.cpp:63
 #, kde-format
 msgid "David Rosca"
 msgstr ""
 
-#: kcm.cpp:124
+#: kcm.cpp:139
+#, fuzzy, kde-format
+#| msgid "How to Change Desktop Theme"
+msgid "Download New Plasma Themes"
+msgstr "Çawa Dirba Sermasê Biguherînin"
+
+#: kcm.cpp:165
+#, fuzzy, kde-format
+#| msgid "Unable to save theme."
+msgid "Unable to create a temporary file."
+msgstr "Nikare dirbê tomar bike."
+
+#: kcm.cpp:177
+#, fuzzy, kde-format
+#| msgid "Unable to save theme."
+msgid "Unable to download the theme: %1"
+msgstr "Nikare dirbê tomar bike."
+
+#: kcm.cpp:200
 #, kde-format
 msgid "Theme installed successfully."
 msgstr ""
 
-#: kcm.cpp:127 kcm.cpp:134
+#: kcm.cpp:203 kcm.cpp:211
 #, kde-format
 msgid "Theme installation failed."
 msgstr ""
 
-#: kcm.cpp:280 kcm.cpp:288
+#: kcm.cpp:360
 #, kde-format
-msgid "Theme removal failed."
+msgid "Removing theme failed: %1"
 msgstr ""
 
-#: package/contents/ui/main.qml:34
+#: package/contents/ui/main.qml:30
 #, kde-format
-msgid "This module lets you configure the desktop theme."
+msgid "This module lets you choose the Plasma theme."
 msgstr ""
 
-#: package/contents/ui/main.qml:177
+#: package/contents/ui/main.qml:68
 #, fuzzy, kde-format
-#| msgid "Get New Theme..."
-msgid "Get New Themes..."
-msgstr "Temaya Nû Bîne..."
+#| msgid "Theme Item"
+msgid "Edit Theme..."
+msgstr "Hêmana Dirbê"
 
-#: package/contents/ui/main.qml:183
-#, kde-format
-msgid "Install from File..."
-msgstr ""
-
-#: package/contents/ui/main.qml:189
+#: package/contents/ui/main.qml:75
 #, kde-format
 msgid "Remove Theme"
 msgstr "Temayê Rake"
 
-#: package/contents/ui/main.qml:228
+#: package/contents/ui/main.qml:82
+#, fuzzy, kde-format
+#| msgid "Remove Theme"
+msgid "Restore Theme"
+msgstr "Temayê Rake"
+
+#: package/contents/ui/main.qml:120
+#, kde-format
+msgid "Install from File..."
+msgstr ""
+
+#: package/contents/ui/main.qml:126
+#, fuzzy, kde-format
+#| msgid "Get New Theme..."
+msgid "Get New Plasma Themes..."
+msgstr "Temaya Nû Bîne..."
+
+#: package/contents/ui/main.qml:138
 #, fuzzy, kde-format
 #| msgid "Theme Item"
 msgid "Open Theme"
 msgstr "Hêmana Dirbê"
 
-#: package/contents/ui/main.qml:230
+#: package/contents/ui/main.qml:140
 #, kde-format
 msgid "Theme Files (*.zip *.tar.gz *.tar.bz2)"
 msgstr ""
 
 #, fuzzy
-#~| msgid "Get New Theme..."
-#~ msgid "Plasma Theme"
-#~ msgstr "Temaya Nû Bîne..."
-
-#, fuzzy
-#~| msgid "How to Change Desktop Theme"
-#~ msgid "Download New Plasma Themes"
-#~ msgstr "Çawa Dirba Sermasê Biguherînin"
-
-#, fuzzy
-#~| msgid "Unable to save theme."
-#~ msgid "Unable to create a temporary file."
-#~ msgstr "Nikare dirbê tomar bike."
-
-#, fuzzy
-#~| msgid "Unable to save theme."
-#~ msgid "Unable to download the theme: %1"
-#~ msgstr "Nikare dirbê tomar bike."
-
-#, fuzzy
-#~| msgid "Theme Item"
-#~ msgid "Edit Theme..."
-#~ msgstr "Hêmana Dirbê"
-
-#, fuzzy
-#~| msgid "Remove Theme"
-#~ msgid "Restore Theme"
-#~ msgstr "Temayê Rake"
+#~| msgid "Remove Desktop Theme"
+#~ msgid "Configure Desktop Theme"
+#~ msgstr "Dirba Sermasê Rake"
 
 #, fuzzy
 #~| msgid "Export Desktop Theme"
