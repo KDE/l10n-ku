@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-09-01 01:23+0000\n"
+"POT-Creation-Date: 2019-09-10 01:19+0000\n"
 "PO-Revision-Date: 2009-01-06 01:24+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -440,17 +440,20 @@ msgid "Window Manager Effects"
 msgstr "Gerînendeyê Paceyan"
 
 #: kcmkwin/kwinoptions/kwinactions.desktop:12
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Window Information"
 msgctxt "Name"
-msgid "Actions"
-msgstr "Çalakî"
+msgid "Window Actions"
+msgstr "Agahiya Paceyê"
 
 #: kcmkwin/kwinoptions/kwinactions.desktop:102
 #, fuzzy
 #| msgctxt "Comment"
-#| msgid "Configure trash settings"
+#| msgid "Configure web cache settings"
 msgctxt "Comment"
-msgid "Mouse Actions on Windows"
-msgstr "Mîhengên çopê ava bike"
+msgid "Configure mouse actions for windows and titlebars"
+msgstr "Mîhengên pêşbîra webê ava bike"
 
 #: kcmkwin/kwinoptions/kwinactions.desktop:147
 msgctxt "X-KDE-Keywords"
@@ -460,53 +463,65 @@ msgid ""
 msgstr ""
 
 #: kcmkwin/kwinoptions/kwinadvanced.desktop:11
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Window Behavior"
 msgctxt "Name"
-msgid "Advanced"
-msgstr "Pêşketî"
+msgid "Advanced Window Behavior"
+msgstr "Helwesta Paceyan"
 
 #: kcmkwin/kwinoptions/kwinadvanced.desktop:101
 msgctxt "Comment"
-msgid "Advanced Window Management Features"
+msgid "Configure advanced window management options"
 msgstr ""
 
 #: kcmkwin/kwinoptions/kwinadvanced.desktop:146
 msgctxt "X-KDE-Keywords"
 msgid ""
-"shading,border,hover,active borders,tiling,tabs,tabbing,window tabbing,"
-"window grouping,window tiling,window placement,placement of windows,window "
-"advanced behavior"
+"unshade,unshading,shade,shading,border,hover,active borders,tiling,tabs,"
+"tabbing,window,window tabbing,window grouping,window tiling,placement,window "
+"placement,placement of windows,window advanced behavior"
 msgstr ""
 
 #: kcmkwin/kwinoptions/kwinfocus.desktop:11
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Window Behavior"
 msgctxt "Name"
-msgid "Focus"
-msgstr "Nîvend Bike"
+msgid "Window Focus Behavior"
+msgstr "Helwesta Paceyan"
 
 #: kcmkwin/kwinoptions/kwinfocus.desktop:99
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Configure the window behavior"
 msgctxt "Comment"
-msgid "Active Window Policy"
-msgstr ""
+msgid "Configure window activation policy"
+msgstr "Helwesta paceyan veava bike"
 
 #: kcmkwin/kwinoptions/kwinfocus.desktop:142
 msgctxt "X-KDE-Keywords"
 msgid ""
-"focus,placement,auto raise,raise,click raise,keyboard,CDE,alt-tab,all "
-"desktop,focus follows mouse,focus prevention,focus stealing,focus policy,"
-"window focus behavior,window screen behavior"
+"focus,auto raise,raise,click raise,keyboard,CDE,alt-tab,all desktop,focus "
+"follows mouse,focus prevention,focus stealing,focus policy,window focus "
+"behavior,window screen behavior"
 msgstr ""
 
 #: kcmkwin/kwinoptions/kwinmoving.desktop:12
-msgctxt "Name"
-msgid "Moving"
-msgstr "Guhestin"
-
-#: kcmkwin/kwinoptions/kwinmoving.desktop:100
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Window Information"
-msgctxt "Comment"
-msgid "Window Moving"
+msgctxt "Name"
+msgid "Window Movement"
 msgstr "Agahiya Paceyê"
+
+#: kcmkwin/kwinoptions/kwinmoving.desktop:100
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Configure the window behavior"
+msgctxt "Comment"
+msgid "Configure window movement options"
+msgstr "Helwesta paceyan veava bike"
 
 #: kcmkwin/kwinoptions/kwinmoving.desktop:145
 msgctxt "X-KDE-Keywords"
@@ -523,7 +538,7 @@ msgstr "Helwesta Paceyan"
 #| msgctxt "Name"
 #| msgid "Window Behavior"
 msgctxt "Comment"
-msgid "Window Actions and Behavior"
+msgid "Configure window actions and behavior"
 msgstr "Helwesta Paceyan"
 
 #: kcmkwin/kwinoptions/kwinoptions.desktop:148
@@ -827,6 +842,29 @@ msgstr "Gerînendeyê Paceyan"
 msgctxt "Comment"
 msgid "KWin Window Switcher Layout"
 msgstr "Gerînendeyê Paceyan"
+
+#~ msgctxt "Name"
+#~ msgid "Actions"
+#~ msgstr "Çalakî"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Configure trash settings"
+#~ msgctxt "Comment"
+#~ msgid "Mouse Actions on Windows"
+#~ msgstr "Mîhengên çopê ava bike"
+
+#~ msgctxt "Name"
+#~ msgid "Advanced"
+#~ msgstr "Pêşketî"
+
+#~ msgctxt "Name"
+#~ msgid "Focus"
+#~ msgstr "Nîvend Bike"
+
+#~ msgctxt "Name"
+#~ msgid "Moving"
+#~ msgstr "Guhestin"
 
 #, fuzzy
 #~| msgctxt "Name"
