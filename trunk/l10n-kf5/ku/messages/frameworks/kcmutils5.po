@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-09-20 02:46+0200\n"
+"POT-Creation-Date: 2019-10-09 02:43+0200\n"
 "PO-Revision-Date: 2010-08-13 15:45+0200\n"
 "Last-Translator: Erdal Ronahî <erdal.ronahi@nospam.gmail.com>\n"
 "Language-Team: Kurdish Team http://pckurd.net\n"
@@ -60,19 +60,25 @@ msgid ""
 "or the module has been disabled by the administrator.</p></qt>"
 msgstr ""
 
-#: kcmoduleloader.cpp:139
+#: kcmoduleloader.cpp:106
+#, fuzzy, kde-format
+#| msgid "Error loading '%1'.\n"
+msgid "Error loading QML file."
+msgstr "Dema '%1' dihate barkirin çewtî çêbû.\n"
+
+#: kcmoduleloader.cpp:143
 #, kde-format
 msgid "The module %1 is not a valid configuration module."
 msgstr "%1 ne moduleke veavakirinê ya derbasdar e."
 
-#: kcmoduleloader.cpp:140
+#: kcmoduleloader.cpp:144
 #, kde-format
 msgid ""
 "<qt>The diagnosis is:<br />The desktop file %1 does not specify a library.</"
 "qt>"
 msgstr "<qt>Teşhîs:<br />Pelê sermasê ya %1 pirtûkxaneyekê nade nasandin.</qt>"
 
-#: kcmoduleloader.cpp:155
+#: kcmoduleloader.cpp:159
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt><p>Possible reasons:<ul><li>An error occurred during your last KDE "
@@ -7808,9 +7814,6 @@ msgstr "Pêkhênanan Çalak Bike"
 
 #~ msgid "Unknown protocol '%1'.\n"
 #~ msgstr "Protokola ku nenas ya '%1'.\n"
-
-#~ msgid "Error loading '%1'.\n"
-#~ msgstr "Dema '%1' dihate barkirin çewtî çêbû.\n"
 
 #~ msgid ""
 #~ "klauncher: This program is not supposed to be started manually.\n"
