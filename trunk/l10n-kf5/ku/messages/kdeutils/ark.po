@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-14 03:06+0200\n"
+"POT-Creation-Date: 2019-10-21 03:08+0200\n"
 "PO-Revision-Date: 2007-12-22 09:56+0100\n"
 "Last-Translator: Erdal Ronahi <erdal.ronahi@nospam.gmail.com>\n"
 "Language-Team: Kurdish <gnu-ku-wergerandin at lists dot sourceforge dot "
@@ -1307,6 +1307,12 @@ msgstr ""
 msgid "Adding files is not supported for this archive."
 msgstr ""
 
+#: part/archivemodel.cpp:318
+#, fuzzy, kde-format
+#| msgid "Open an archive"
+msgid "You can only add local files to an archive."
+msgstr "Arşîvekê veke"
+
 #. i18n: ectx: Menu (ark_file)
 #: part/ark_part.rc:15
 #, fuzzy, kde-format
@@ -2187,12 +2193,6 @@ msgstr "Arşîvekê veke"
 
 #~ msgid "Add Fo&lder..."
 #~ msgstr "Pel&dankê Lê Zêde Bike..."
-
-#, fuzzy
-#~| msgid "Open an archive"
-#~ msgctxt "@info:tooltip"
-#~ msgid "Click to add a folder to the archive"
-#~ msgstr "Arşîvekê veke"
 
 #, fuzzy
 #~| msgid "Add Folder"
