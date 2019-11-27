@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-09 02:48+0100\n"
+"POT-Creation-Date: 2019-11-27 03:01+0100\n"
 "PO-Revision-Date: 2010-08-13 15:45+0200\n"
 "Last-Translator: Erdal Ronahî <erdal.ronahi@nospam.gmail.com>\n"
 "Language-Team: Kurdish Team http://pckurd.net\n"
@@ -716,12 +716,12 @@ msgstr ""
 
 #: qtquick/qml/EntryDetails.qml:178
 #, fuzzy, kde-format
-#| msgid "Previews"
+#| msgid "View Comments"
 msgctxt ""
-"A link which, when clicked, opens a new sub page with reviews (comments) for "
-"this entry"
-msgid "%1 Reviews"
-msgstr "Pêşdîtin Tune"
+"A link which, when clicked, opens a new sub page with comments (comments "
+"with or without ratings) for this entry"
+msgid "%1 Reviews and Comments"
+msgstr "Şiroveyan Temaşe Bike"
 
 #: qtquick/qml/EntryDetails.qml:183
 #, fuzzy, kde-format
@@ -862,6 +862,29 @@ msgstr ""
 #, kde-format
 msgctxt "Title for the page containing a view of the comments for the entry"
 msgid "Comments and Reviews for %1"
+msgstr ""
+
+#: qtquick/qml/private/EntryCommentsPage.qml:45
+#, fuzzy, kde-format
+#| msgid "All Categories"
+msgctxt "Title for the item which is checked when all comments should be shown"
+msgid "Show All Comments"
+msgstr "Hemû Kategorî"
+
+#: qtquick/qml/private/EntryCommentsPage.qml:51
+#, kde-format
+msgctxt ""
+"Title for the item which is checked when only comments which are reviews "
+"should be shown"
+msgid "Show Reviews Only"
+msgstr ""
+
+#: qtquick/qml/private/EntryCommentsPage.qml:57
+#, kde-format
+msgctxt ""
+"Title for the item which is checked when comments which are reviews, and "
+"their children should be shown"
+msgid "Show Reviews and Replies"
 msgstr ""
 
 #: qtquick/qml/private/entrygriddelegates/BigPreviewDelegate.qml:180
@@ -1372,6 +1395,14 @@ msgstr ""
 #, kde-format
 msgid "Start Upload"
 msgstr "Destpê Barkirinê Bike"
+
+#, fuzzy
+#~| msgid "Previews"
+#~ msgctxt ""
+#~ "A link which, when clicked, opens a new sub page with reviews (comments) "
+#~ "for this entry"
+#~ msgid "%1 Reviews"
+#~ msgstr "Pêşdîtin Tune"
 
 #~ msgid "Overwrite existing file?"
 #~ msgstr "Bila li ser pela heyî were nivîsandin?"
@@ -8882,9 +8913,6 @@ msgstr "Destpê Barkirinê Bike"
 
 #~ msgid "Add Comment"
 #~ msgstr "Şirove lê zêde bike"
-
-#~ msgid "View Comments"
-#~ msgstr "Şiroveyan Temaşe Bike"
 
 #~ msgid "Entries failed to load"
 #~ msgstr "Barbûna têketinan pêk nehat"
