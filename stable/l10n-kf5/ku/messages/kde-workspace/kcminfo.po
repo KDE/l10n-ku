@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcminfo\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-23 08:41+0100\n"
+"POT-Creation-Date: 2020-01-31 08:32+0100\n"
 "PO-Revision-Date: 2008-12-27 02:30+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <ku@li.org>\n"
@@ -28,26 +28,6 @@ msgstr "Omer Ensari"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "oensari@gmail.com"
-
-#: ../base/info_aix.cpp:68 ../base/info_wayland.cpp:88
-#, kde-format
-msgid "Name"
-msgstr "Nav"
-
-#: ../base/info_aix.cpp:69
-#, kde-format
-msgid "Status"
-msgstr "Rewş"
-
-#: ../base/info_aix.cpp:70
-#, kde-format
-msgid "Location"
-msgstr "Cih"
-
-#: ../base/info_aix.cpp:71
-#, kde-format
-msgid "Description"
-msgstr "Rave"
 
 #: ../base/info_fbsd.cpp:89
 #, fuzzy, kde-format
@@ -71,18 +51,6 @@ msgstr ""
 #, kde-format
 msgid "The PCI subsystem could not be queried, this may need root privileges."
 msgstr ""
-
-#: ../base/info_hpux.cpp:128
-#, fuzzy, kde-format
-#| msgid "Processor(s)"
-msgid "PA-RISC Processor"
-msgstr "Kirar(an)"
-
-#: ../base/info_hpux.cpp:130
-#, fuzzy, kde-format
-#| msgid "Revision"
-msgid "PA-RISC Revision"
-msgstr "Revîziyon"
 
 #: ../base/info_linux.cpp:103 main.cpp:51
 #, kde-format
@@ -155,6 +123,11 @@ msgstr ""
 #, kde-format
 msgid "Seat"
 msgstr ""
+
+#: ../base/info_wayland.cpp:88
+#, kde-format
+msgid "Name"
+msgstr "Nav"
 
 #: ../base/info_wayland.cpp:94
 #, kde-format
@@ -562,9 +535,8 @@ msgstr ""
 msgid "Image Byte Order"
 msgstr ""
 
-#: ../base/os_current.h:57 ../base/os_current.h:66 ../base/os_current.h:86
-#: ../base/os_current.h:95 ../base/os_current.h:104 ../base/os_current.h:114
-#: ../base/os_current.h:123 ../base/os_current.h:132
+#: ../base/os_current.h:56 ../base/os_current.h:65 ../base/os_current.h:74
+#: ../base/os_current.h:83
 #, kde-format
 msgid "This system may not be completely supported yet."
 msgstr ""
@@ -633,6 +605,25 @@ msgstr "X-Server"
 #, kde-format
 msgid "Wayland"
 msgstr ""
+
+#~ msgid "Status"
+#~ msgstr "Rewş"
+
+#~ msgid "Location"
+#~ msgstr "Cih"
+
+#~ msgid "Description"
+#~ msgstr "Rave"
+
+#, fuzzy
+#~| msgid "Processor(s)"
+#~ msgid "PA-RISC Processor"
+#~ msgstr "Kirar(an)"
+
+#, fuzzy
+#~| msgid "Revision"
+#~ msgid "PA-RISC Revision"
+#~ msgstr "Revîziyon"
 
 #~ msgid "SCSI"
 #~ msgstr "SCSI"
