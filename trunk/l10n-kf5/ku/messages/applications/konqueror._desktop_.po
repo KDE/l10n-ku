@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-03-28 03:05+0000\n"
+"POT-Creation-Date: 2020-04-16 02:03+0000\n"
 "PO-Revision-Date: 2009-01-06 01:24+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -256,7 +256,7 @@ msgid "Allows the detected UserAgent to be modified"
 msgstr "Dihêle ku UserAgent ên hatine dîtin bên guherandin"
 
 #: settings/bookmarks/bookmarks.desktop:12
-#: sidebar/default_entries/bookmarks.desktop:5
+#: sidebar/default_entries/bookmarks.desktop:12
 #: sidebar/trees/init/bookmarks_module.desktop:5
 msgctxt "Name"
 msgid "Bookmarks"
@@ -447,19 +447,37 @@ msgctxt "X-KDE-Keywords"
 msgid "performance,speed,memory,improve"
 msgstr ""
 
-#: sidebar/default_entries/bookmarks.desktop:97
+#: sidebar/bookmarks_module/konqsidebar_bookmarks.desktop:4
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Web SideBar Module"
+msgctxt "Name"
+msgid "Bookmarks SideBar Module"
+msgstr "Modula Darikê Kêlekê ê Webê"
+
+#: sidebar/default_entries/bookmarks.desktop:104
 #: sidebar/trees/init/bookmarks_module.desktop:97
 msgctxt "Comment"
 msgid "This is the list of your bookmarks, for a faster access"
 msgstr "Ev lîsteya bijareyên te yên ji bo têketineke bileztir e"
 
-#: sidebar/default_entries/history.desktop:5
+#: sidebar/default_entries/fonts.desktop:11
+msgctxt "Name"
+msgid "Fonts"
+msgstr "Curenivîs"
+
+#: sidebar/default_entries/fonts.desktop:12
+msgctxt "Comment"
+msgid "Personal and System fonts list."
+msgstr ""
+
+#: sidebar/default_entries/history.desktop:8
 #: sidebar/history_module/kcmhistory.desktop:11
 msgctxt "Name"
 msgid "History"
 msgstr "Dîrok"
 
-#: sidebar/default_entries/history.desktop:98
+#: sidebar/default_entries/history.desktop:101
 msgctxt "Comment"
 msgid ""
 "This is the history of the URLs you have recently visited. You can sort them "
@@ -468,22 +486,22 @@ msgstr ""
 "Ev dîroka URl'yên ku te di dawiyê de vekirine ye. Dikarî wan bi gelek awayan "
 "rêz bikî"
 
-#: sidebar/default_entries/home.desktop:5
+#: sidebar/default_entries/home.desktop:9
 msgctxt "Name"
 msgid "Home Folder"
 msgstr "Peldanka Malê"
 
-#: sidebar/default_entries/home.desktop:97
+#: sidebar/default_entries/home.desktop:101
 msgctxt "Comment"
 msgid "This folder contains your personal files"
 msgstr "Di vê peldankê de pelên te yên şexsî hene"
 
-#: sidebar/default_entries/places.desktop:4
+#: sidebar/default_entries/places.desktop:9
 msgctxt "Name"
 msgid "Places"
 msgstr "Cih"
 
-#: sidebar/default_entries/places.desktop:80
+#: sidebar/default_entries/places.desktop:85
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "This is the root of the filesystem"
@@ -491,27 +509,43 @@ msgctxt "Comment"
 msgid "This is the list of places."
 msgstr "Ev koka pergala pelan e"
 
-#: sidebar/default_entries/remote.desktop:2
-#: sidebar/trees/init/remote/.directory:2
+#: sidebar/default_entries/remote.desktop:11
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Remote Access"
 msgctxt "Name"
-msgid "Network"
-msgstr "Tor"
+msgid "Remote"
+msgstr "Gihandina Dûr"
 
-#: sidebar/default_entries/root.desktop:5
+#: sidebar/default_entries/root.desktop:10
 msgctxt "Name"
 msgid "Root Folder"
 msgstr "Peldanka Root"
 
-#: sidebar/default_entries/root.desktop:96
+#: sidebar/default_entries/root.desktop:101
 msgctxt "Comment"
 msgid "This is the root of the filesystem"
 msgstr "Ev koka pergala pelan e"
 
-#: sidebar/default_entries/services.desktop:4
+#: sidebar/default_entries/services.desktop:10
 #: sidebar/trees/init/services/.directory:3
 msgctxt "Name"
 msgid "Services"
 msgstr "Xizmet"
+
+#: sidebar/default_entries/settings.desktop:11
+#: sidebar/trees/init/services/settings.desktop:5
+msgctxt "Name"
+msgid "Settings"
+msgstr "Mîheng"
+
+#: sidebar/default_entries/settings.desktop:12
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "System Settings"
+msgctxt "Comment"
+msgid "System settings options."
+msgstr "Mîhengên Pergalê"
 
 #: sidebar/history_module/kcmhistory.desktop:104
 msgctxt "Comment"
@@ -531,7 +565,7 @@ msgctxt "Name"
 msgid "History SideBar Module"
 msgstr "Darikê Dîrokê ê li Kêlekê"
 
-#: sidebar/konq_sidebartng.desktop:4
+#: sidebar/konq_sidebartng.desktop:16
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Slide"
@@ -539,7 +573,7 @@ msgctxt "Name"
 msgid "Sidebar"
 msgstr "Xîş Bike"
 
-#: sidebar/places_module/konqsidebar_places.desktop:4
+#: sidebar/places_module/konqsidebar_places.desktop:3
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Web SideBar Module"
@@ -547,11 +581,24 @@ msgctxt "Name"
 msgid "Places SideBar Module"
 msgstr "Modula Darikê Kêlekê ê Webê"
 
+#: sidebar/tree_module/konqsidebar_tree.desktop:4
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Web SideBar Module"
+msgctxt "Name"
+msgid "Tree SideBar Module"
+msgstr "Modula Darikê Kêlekê ê Webê"
+
 #: sidebar/trees/init/dirtree_module.desktop:5
 #: sidebar/trees/konqsidebar_tree.desktop:4
 msgctxt "Name"
 msgid "Folder"
 msgstr "Peldank"
+
+#: sidebar/trees/init/remote/.directory:2
+msgctxt "Name"
+msgid "Network"
+msgstr "Tor"
 
 #: sidebar/trees/init/remote/ftp/.directory:2
 msgctxt "Name"
@@ -597,11 +644,6 @@ msgstr "Sepan"
 msgctxt "Name"
 msgid "Print System Browser"
 msgstr "Geroka Pergala Çapkirinê"
-
-#: sidebar/trees/init/services/settings.desktop:5
-msgctxt "Name"
-msgid "Settings"
-msgstr "Mîheng"
 
 #: sidebar/web_module/konqsidebar_web.desktop:4
 msgctxt "Name"
@@ -5902,10 +5944,6 @@ msgstr "Motora Lêgerînê"
 #~ msgid "Desktop Theme"
 #~ msgstr "Kitekitên Dirba Sermaseyê"
 
-#~ msgctxt "Name"
-#~ msgid "Fonts"
-#~ msgstr "Curenivîs"
-
 #~ msgctxt "Comment"
 #~ msgid "Font settings"
 #~ msgstr "Mîhengên curenivîsan"
@@ -8969,13 +9007,6 @@ msgstr "Motora Lêgerînê"
 
 #, fuzzy
 #~| msgctxt "Name"
-#~| msgid "System Settings"
-#~ msgctxt "Name"
-#~ msgid "System Settings View"
-#~ msgstr "Mîhengên Pergalê"
-
-#, fuzzy
-#~| msgctxt "Name"
 #~| msgid "Font Viewer"
 #~ msgctxt "Name"
 #~ msgid "Icon View"
@@ -10191,10 +10222,6 @@ msgstr "Motora Lêgerînê"
 #~ msgctxt "Name"
 #~ msgid "GNOME Telnet"
 #~ msgstr "GNOME Telnet"
-
-#~ msgctxt "GenericName"
-#~ msgid "Remote Access"
-#~ msgstr "Gihandina Dûr"
 
 #~ msgctxt "Name"
 #~ msgid "ickle"
