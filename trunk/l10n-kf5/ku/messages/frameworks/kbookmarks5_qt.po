@@ -30,64 +30,66 @@ msgstr "--- veqetîner ---"
 #: kbookmarkcontextmenu.cpp:62
 #, fuzzy
 #| msgid "Properties"
-msgctxt "KBookmarkContextMenu|"
+msgctxt "KBookmarkContextMenu|@action:inmenu"
 msgid "Add Bookmark Here"
 msgstr "Taybetmendî"
 
 #: kbookmarkcontextmenu.cpp:68
-msgctxt "KBookmarkContextMenu|"
+#, fuzzy
+#| msgid "Open in New Tab"
+msgctxt "KBookmarkContextMenu|@action:inmenu"
 msgid "Open Folder in Bookmark Editor"
-msgstr ""
+msgstr "Di Hilfirîna Nû de Veke"
 
 #: kbookmarkcontextmenu.cpp:71
 #, fuzzy
 #| msgid "Delete Folder"
-msgctxt "KBookmarkContextMenu|"
+msgctxt "KBookmarkContextMenu|@action:inmenu"
 msgid "Delete Folder"
 msgstr "Peldankê Jê Bibe"
 
 #: kbookmarkcontextmenu.cpp:76
 #, fuzzy
 #| msgid "Properties"
-msgctxt "KBookmarkContextMenu|"
+msgctxt "KBookmarkContextMenu|@action:inmenu"
 msgid "Properties"
 msgstr "Taybetmendî"
 
 #: kbookmarkcontextmenu.cpp:81
-msgctxt "KBookmarkContextMenu|"
+msgctxt "KBookmarkContextMenu|@action:inmenu"
 msgid "Copy Link Address"
 msgstr ""
 
 #: kbookmarkcontextmenu.cpp:84
 #, fuzzy
 #| msgid "Properties"
-msgctxt "KBookmarkContextMenu|"
+msgctxt "KBookmarkContextMenu|@action:inmenu"
 msgid "Delete Bookmark"
 msgstr "Taybetmendî"
 
 #: kbookmarkcontextmenu.cpp:90
 #, fuzzy
 #| msgid "Open in New Tab"
-msgctxt "KBookmarkContextMenu|"
+msgctxt "KBookmarkContextMenu|@action:inmenu"
 msgid "Open Folder in Tabs"
 msgstr "Di Hilfirîna Nû de Veke"
 
 #: kbookmarkcontextmenu.cpp:116
-msgctxt "KBookmarkContextMenu|"
+msgctxt "KBookmarkContextMenu|@info"
 msgid "Cannot add bookmark with empty URL."
 msgstr ""
 
 #: kbookmarkcontextmenu.cpp:146
 #, fuzzy
 #| msgid "Properties"
-msgctxt "KBookmarkContextMenu|"
+msgctxt "KBookmarkContextMenu|@title:window"
 msgid "Bookmark Folder Deletion"
 msgstr "Taybetmendî"
 
 #: kbookmarkcontextmenu.cpp:147
 #, fuzzy
 #| msgid "Properties"
-msgctxt "KBookmarkContextMenu|"
+msgctxt "KBookmarkContextMenu|@title:window"
 msgid "Bookmark Deletion"
 msgstr "Taybetmendî"
 
@@ -276,67 +278,80 @@ msgstr ""
 #: kbookmarkmenu.cpp:299
 #, fuzzy
 #| msgid "Open in New Tab"
-msgctxt "KBookmarkMenu|"
+msgctxt "KBookmarkMenu|@action:inmenu"
 msgid "Open Folder in Tabs"
 msgstr "Di Hilfirîna Nû de Veke"
 
 #: kbookmarkmenu.cpp:303
-msgctxt "KBookmarkMenu|"
-msgid "Open all bookmarks in this folder as a new tab."
+msgctxt "KBookmarkMenu|@info:tooltip"
+msgid "Open all bookmarks in this folder as a new tab"
 msgstr ""
 
 #: kbookmarkmenu.cpp:319
-msgctxt "KBookmarkMenu|"
+#, fuzzy
+#| msgid "New Folder..."
+msgctxt "KBookmarkMenu|@action:inmenu"
 msgid "Bookmark Tabs as Folder..."
-msgstr ""
+msgstr "Peldanka Nû..."
 
 #: kbookmarkmenu.cpp:327
-msgctxt "KBookmarkMenu|"
-msgid "Add a folder of bookmarks for all open tabs."
+msgctxt "KBookmarkMenu|@info:tooltip"
+msgid "Add a folder of bookmarks for all open tabs"
 msgstr ""
 
 #: kbookmarkmenu.cpp:376
-msgctxt "KBookmarkMenu|"
+msgctxt "KBookmarkMenu|@info:tooltip"
 msgid "Edit your bookmark collection in a separate window"
 msgstr ""
 
 #: kbookmarkmenu.cpp:392
 #, fuzzy
 #| msgid "New Folder..."
-msgctxt "KBookmarkMenu|"
+msgctxt "KBookmarkMenu|@action:inmenu"
 msgid "New Bookmark Folder..."
 msgstr "Peldanka Nû..."
 
+# msgctxt "@title job"
 #: kbookmarkmenu.cpp:394
-msgctxt "KBookmarkMenu|"
+#, fuzzy
+#| msgid "Creating directory"
+msgctxt "KBookmarkMenu|@info:tooltip"
 msgid "Create a new bookmark folder in this menu"
-msgstr ""
-
-#: konqbookmarkmenu.cpp:159 konqbookmarkmenu.cpp:172
-msgctxt "KonqBookmarkContextMenu|"
-msgid "Hide in toolbar"
-msgstr ""
+msgstr "Pelrêç tê afirandin"
 
 #: konqbookmarkmenu.cpp:159 konqbookmarkmenu.cpp:172
 #, fuzzy
 #| msgid "Show Hidden Folders"
-msgctxt "KonqBookmarkContextMenu|"
-msgid "Show in toolbar"
+msgctxt "KonqBookmarkContextMenu|@action:inmenu"
+msgid "Hide in Toolbar"
+msgstr "Peldankên Veşartî Nîşan Bide"
+
+#: konqbookmarkmenu.cpp:159 konqbookmarkmenu.cpp:172
+#, fuzzy
+#| msgid "Show Hidden Folders"
+msgctxt "KonqBookmarkContextMenu|@action:inmenu"
+msgid "Show in Toolbar"
 msgstr "Peldankên Veşartî Nîşan Bide"
 
 #: konqbookmarkmenu.cpp:166
 #, fuzzy
 #| msgid "Open in New Window"
-msgctxt "KonqBookmarkContextMenu|"
+msgctxt "KonqBookmarkContextMenu|@action:inmenu"
 msgid "Open in New Window"
 msgstr "Di Paceyeke nû de Veke"
 
 #: konqbookmarkmenu.cpp:167
 #, fuzzy
 #| msgid "Open in New Tab"
-msgctxt "KonqBookmarkContextMenu|"
+msgctxt "KonqBookmarkContextMenu|@action:inmenu"
 msgid "Open in New Tab"
 msgstr "Di Hilfirîna Nû de Veke"
+
+#, fuzzy
+#~| msgid "Open in New Tab"
+#~ msgctxt "KBookmarkMenu|"
+#~ msgid "Open Folder in Tabs"
+#~ msgstr "Di Hilfirîna Nû de Veke"
 
 #~ msgid "Delete File"
 #~ msgstr "Pelî Jê Bibe"
