@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcomponentchooser\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 09:38+0200\n"
+"POT-Creation-Date: 2020-01-11 03:41+0100\n"
 "PO-Revision-Date: 2009-01-06 14:06+0200\n"
 "Last-Translator: Erdal Ronahi <erdal.ronahi@nospam.gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -66,12 +66,21 @@ msgstr "di vî gerokî de:"
 msgid "..."
 msgstr "..."
 
-#: componentchooser.cpp:134
+#: componentchooser.cpp:145
 #, kde-format
 msgid "Unknown"
 msgstr "Nenas"
 
-#: componentchooser.cpp:150
+#: componentchooser.cpp:162
+#, kde-format
+msgid ""
+"Choose from the list below which component should be used by default for the "
+"%1 service."
+msgstr ""
+"Ji vê lîsta jêr beşa ya ku  jibo bikaranina Standard jibo servîsa %1 "
+"bibijêre."
+
+#: componentchooser.cpp:194
 #, kde-format
 msgid ""
 "<qt>You changed the default component of your choice, do want to save that "
@@ -80,19 +89,10 @@ msgstr ""
 "<qt>Te pêkhênanê standard yê te bijartiye guhert, tu dixwaze vê guhertinê "
 "tomarbike ?</qt>"
 
-#: componentchooser.cpp:154
+#: componentchooser.cpp:199
 #, kde-format
 msgid "No description available"
 msgstr "Ravek ne berdest e"
-
-#: componentchooser.cpp:165 componentchooser.cpp:170
-#, kde-format
-msgid ""
-"Choose from the list below which component should be used by default for the "
-"%1 service."
-msgstr ""
-"Ji vê lîsta jêr beşa ya ku  jibo bikaranina Standard jibo servîsa %1 "
-"bibijêre."
 
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, GroupBox1)
 #: componentchooser_ui.ui:26
@@ -144,17 +144,17 @@ msgstr ""
 "pêkhênanan vexwîne. Livir tu dikare van programê pêkhênanan hibijêrî.</p>\n"
 "</qt>"
 
-#: componentchooserbrowser.cpp:150
+#: componentchooserbrowser.cpp:171
 #, kde-format
 msgid "Select preferred Web browser application:"
 msgstr "Sepanê gerokê torê yê xwestî hilbijêre:"
 
-#: componentchooseremail.cpp:83
+#: componentchooseremail.cpp:93
 #, kde-format
 msgid "Select preferred email client:"
 msgstr "Daxwazkerê epeyamê yê xwestî hilbijêre:"
 
-#: componentchooserterminal.cpp:103
+#: componentchooserterminal.cpp:101
 #, kde-format
 msgid "Select preferred terminal application:"
 msgstr "Sepanê terminal yê xwestî hilbijêre:"
@@ -254,27 +254,20 @@ msgstr ""
 msgid "Other: click Add... in the dialog shown here:"
 msgstr ""
 
-#: kcm_componentchooser.cpp:44
+#: kcm_componentchooser.cpp:43
 #, kde-format
 msgid "Component Chooser"
 msgstr "Hilbijêrê beşan"
 
-#: kcm_componentchooser.cpp:46
+#: kcm_componentchooser.cpp:45
 #, kde-format
 msgid "(c), 2002 Joseph Wenninger"
 msgstr "(c), 2002 Joseph Wenninger"
 
-#: kcm_componentchooser.cpp:48
+#: kcm_componentchooser.cpp:47
 #, kde-format
 msgid "Joseph Wenninger"
 msgstr " Joseph Wenninger"
-
-#: ktimerdialog.cpp:163
-#, kde-format
-msgid "1 second remaining:"
-msgid_plural "%1 seconds remaining:"
-msgstr[0] ""
-msgstr[1] ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, terminalCB)
 #: terminalemulatorconfig_ui.ui:12
