@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_devicenotifier\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-02-09 08:27+0100\n"
+"POT-Creation-Date: 2020-02-09 03:42+0100\n"
 "PO-Revision-Date: 2008-12-25 02:34+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -114,16 +114,15 @@ msgid "Removing..."
 msgstr ""
 
 #: package/contents/ui/devicenotifier.qml:62
-#: package/contents/ui/FullRepresentation.qml:46
-#, kde-format
-msgid "No Devices Available"
-msgstr ""
-
-#: package/contents/ui/devicenotifier.qml:62
 #, fuzzy, kde-format
 #| msgid "Last plugged in device: %1"
 msgid "Most Recent Device"
 msgstr "Demê dawî hatiye girêdan bi cîhaza: %1"
+
+#: package/contents/ui/devicenotifier.qml:62
+#, kde-format
+msgid "No Devices Available"
+msgstr ""
 
 #: package/contents/ui/devicenotifier.qml:239
 #, fuzzy, kde-format
@@ -131,6 +130,12 @@ msgstr "Demê dawî hatiye girêdan bi cîhaza: %1"
 msgctxt "Open auto mounter kcm"
 msgid "Configure Removable Devices"
 msgstr "Agahdarkerê Cîhazan Nû Bimîhengîne"
+
+#: package/contents/ui/FullRepresentation.qml:46
+#, fuzzy, kde-format
+#| msgid "No devices plugged in"
+msgid "No devices available"
+msgstr "Tu cîhaz nehatiye girêdan"
 
 #: package/contents/ui/FullRepresentation.qml:124
 #, fuzzy, kde-format
@@ -162,11 +167,6 @@ msgstr "1 çalakiya ji bo vê cîhazê"
 #| msgid_plural "%1 actions for this device"
 msgid "Click to safely remove this device."
 msgstr "1 çalakiya ji bo vê cîhazê"
-
-#, fuzzy
-#~| msgid "No devices plugged in"
-#~ msgid "No devices available"
-#~ msgstr "Tu cîhaz nehatiye girêdan"
 
 #, fuzzy
 #~| msgid "1 action for this device"
