@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-05-06 02:53+0200\n"
+"POT-Creation-Date: 2020-05-31 18:05+0200\n"
 "PO-Revision-Date: 2009-02-21 06:51+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -2120,6 +2120,7 @@ msgstr "Hunermendên cur bi cur"
 #: browsers/CollectionTreeItemModelBase.cpp:1099
 #: browsers/CollectionTreeView.cpp:342
 #: context/applets/albums/plugin/AlbumsEngine.cpp:271
+#: context/applets/wikipedia/package/contents/ui/main.qml:78
 #: context/applets/wikipedia/plugin/WikipediaApplet.cpp:635
 #: dialogs/transferdialog.cpp:104 musicbrainz/MusicBrainzTagsModel.cpp:38
 #: playlist/PlaylistModel.cpp:930 playlist/view/PlaylistViewCommon.cpp:65
@@ -2148,6 +2149,7 @@ msgid "Album Artist"
 msgstr "Hunermendê Albumê "
 
 #: browsers/CollectionTreeItemModelBase.cpp:1105
+#: context/applets/wikipedia/package/contents/ui/main.qml:71
 #: context/applets/wikipedia/plugin/WikipediaApplet.cpp:629
 #: playlist/PlaylistModel.cpp:928
 #, kde-format
@@ -2240,6 +2242,7 @@ msgid "&Edit Track Details"
 msgstr "&Kitekitên Stranê Biguherîne"
 
 #: browsers/filebrowser/FileBrowser.cpp:70
+#: context/applets/wikipedia/package/contents/ui/main.qml:54
 #, kde-format
 msgid "Refresh"
 msgstr ""
@@ -4018,6 +4021,12 @@ msgstr ""
 msgid "Images"
 msgstr "Wêne"
 
+#: context/applets/albums/package/contents/ui/main.qml:76
+#, fuzzy, kde-format
+#| msgid "First Played"
+msgid "Display"
+msgstr "Lêdana Pêşîn"
+
 #: context/applets/albums/plugin/AlbumItem.cpp:109
 #: statsyncing/ui/MatchedTracksPage.cpp:378
 #, kde-format
@@ -4041,6 +4050,70 @@ msgstr "&Rêz bike"
 #, kde-format
 msgid "Edit Track Details"
 msgstr "&Kitekitên Stranê Biguherîne"
+
+#: context/applets/analyzer/package/contents/ui/main.qml:38
+#, kde-format
+msgctxt "The title of the analyzer config dialog"
+msgid "%1 config"
+msgstr ""
+
+#: context/applets/analyzer/package/contents/ui/main.qml:64
+#, fuzzy, kde-format
+#| msgid "with"
+msgid "Bar width:"
+msgstr "bi"
+
+#: context/applets/analyzer/package/contents/ui/main.qml:79
+#, kde-format
+msgid "%1 pixel"
+msgid_plural "%1 pixels"
+msgstr[0] ""
+msgstr[1] ""
+
+#: context/applets/analyzer/package/contents/ui/main.qml:91
+#, fuzzy, kde-format
+#| msgid "Show Years"
+msgid "Show fadebars:"
+msgstr "Salan Nîşan Bide"
+
+#: context/applets/analyzer/package/contents/ui/main.qml:106
+#, kde-format
+msgid "Bars fall speed:"
+msgstr ""
+
+#: context/applets/analyzer/package/contents/ui/main.qml:124
+#, kde-format
+msgid "Frequency range:"
+msgstr ""
+
+#: context/applets/analyzer/package/contents/ui/main.qml:142
+#: context/applets/analyzer/package/contents/ui/main.qml:147
+#, kde-format
+msgid "%1 Hz"
+msgstr ""
+
+#: context/applets/analyzer/package/contents/ui/main.qml:158
+#, fuzzy, kde-format
+#| msgid "Samplerate:"
+msgid "Sample size:"
+msgstr "Leza Mînak:"
+
+#: context/applets/currenttrack/package/contents/ui/StatsItem.qml:32
+#: playlist/PlaylistModel.cpp:943
+#, kde-format
+msgid "Play Count"
+msgstr "Hejmara Lêdanan"
+
+#: context/applets/currenttrack/package/contents/ui/StatsItem.qml:42
+#: playlist/PlaylistModel.cpp:941
+#, kde-format
+msgid "Score"
+msgstr "Skor"
+
+#: context/applets/currenttrack/package/contents/ui/StatsItem.qml:52
+#, kde-format
+msgid "Last played"
+msgstr "Yê dawî hatiye lêdan"
 
 #: context/applets/currenttrack/plugin/CurrentEngine.cpp:258
 #: transcoding/TranscodingSelectConfigWidget.cpp:35
@@ -4324,6 +4397,85 @@ msgstr "Biguherîne"
 msgid "Remove selected"
 msgstr "Sepanok Rake"
 
+#: context/applets/lyrics/package/contents/ui/ConfigDialog.qml:46
+#, fuzzy, kde-format
+#| msgid "&Settings"
+msgid "Lyrics config"
+msgstr "&Mîheng"
+
+#: context/applets/lyrics/package/contents/ui/ConfigDialog.qml:57
+#, fuzzy, kde-format
+msgid "Font size:"
+msgstr "Meh"
+
+#: context/applets/lyrics/package/contents/ui/ConfigDialog.qml:73
+#, fuzzy, kde-format
+#| msgid "Alignment"
+msgid "Text alignment:"
+msgstr "Bicihkirin"
+
+#: context/applets/lyrics/package/contents/ui/ConfigDialog.qml:80
+#, fuzzy, kde-format
+#| msgid "Alignment"
+msgid "Align left"
+msgstr "Bicihkirin"
+
+#: context/applets/lyrics/package/contents/ui/ConfigDialog.qml:80
+#, fuzzy, kde-format
+#| msgid "Align OSD to"
+msgid "Align right"
+msgstr "DA Rêz Bike li"
+
+#: context/applets/lyrics/package/contents/ui/ConfigDialog.qml:80
+#, fuzzy, kde-format
+#| msgid "Alignment"
+msgid "Align center"
+msgstr "Bicihkirin"
+
+#: context/applets/lyrics/package/contents/ui/ConfigDialog.qml:99
+#, fuzzy, kde-format
+msgid "Font:"
+msgstr "Meh"
+
+#: context/applets/lyrics/package/contents/ui/main.qml:83
+#, fuzzy, kde-format
+#| msgid "Toggle Focus"
+msgid "Toggle auto scroll"
+msgstr "Nîvend Bike"
+
+#: context/applets/lyrics/package/contents/ui/main.qml:90
+#, fuzzy, kde-format
+#| msgid "Reload Lyrics"
+msgid "Reload lyrics"
+msgstr "Gotinên Stranan Nû ve Bar Bike"
+
+#: context/applets/lyrics/package/contents/ui/main.qml:98
+#, fuzzy, kde-format
+#| msgid "No cover found"
+msgid "No lyrics found"
+msgstr "Tu rûgirê albumê nehat dîtin."
+
+#: context/applets/lyrics/package/contents/ui/main.qml:113
+#, kde-format
+msgid "Suggestions: "
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_21)
+#. i18n: ectx: property (text), widget (QLabel, titleLabel)
+#: context/applets/lyrics/package/contents/ui/main.qml:122
+#: dialogs/TagGuessOptions.ui:101 services/opmldirectory/AddOpmlWidget.ui:78
+#, fuzzy, kde-format
+#| msgid "T&itle:"
+msgid "Title:"
+msgstr "S&ernav:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_22)
+#: context/applets/lyrics/package/contents/ui/main.qml:125
+#: dialogs/TagGuessOptions.ui:127
+#, kde-format
+msgid "Artist:"
+msgstr "Hunermend:"
+
 #: context/applets/playlistinfo/PlaylistInfo.cpp:155
 #, kde-format
 msgid "Configure Playlist Info Applet"
@@ -4516,6 +4668,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, artistLabel)
 #: context/applets/tabs/ReloadEditDialog.ui:73
+#: context/applets/wikipedia/package/contents/ui/main.qml:64
 #: context/applets/wikipedia/plugin/WikipediaApplet.cpp:623
 #: dialogs/transferdialog.cpp:103 musicbrainz/MusicBrainzTagsModel.cpp:37
 #: playlist/PlaylistModel.cpp:926 services/jamendo/JamendoInfoParser.cpp:51
@@ -4963,6 +5116,27 @@ msgctxt "@info:tooltip"
 msgid "<strong>Location:</strong><nl/>%1"
 msgstr ""
 
+#: context/applets/wikipedia/package/contents/ui/main.qml:38
+#, fuzzy, kde-format
+#| msgid "&Previous"
+msgid "Previous"
+msgstr "&Paşde"
+
+#: context/applets/wikipedia/package/contents/ui/main.qml:46
+#: statsyncing/ui/ChooseProvidersPage.cpp:35
+#, fuzzy, kde-format
+#| msgid "&Next"
+msgid "Next"
+msgstr "&Pêşve"
+
+#: context/applets/wikipedia/package/contents/ui/main.qml:85
+#: context/applets/wikipedia/plugin/WikipediaApplet.cpp:641
+#: core-impl/collections/audiocd/AudioCdCollection.cpp:366
+#: services/jamendo/JamendoInfoParser.cpp:109
+#, kde-format
+msgid "Track"
+msgstr "Stran"
+
 #: context/applets/wikipedia/plugin/WikipediaApplet.cpp:368
 #: context/applets/wikipedia/plugin/WikipediaApplet.cpp:444
 #, kde-format
@@ -4980,13 +5154,6 @@ msgstr ""
 #, kde-format
 msgid "Wikipedia"
 msgstr "Wîkîpediya"
-
-#: context/applets/wikipedia/plugin/WikipediaApplet.cpp:641
-#: core-impl/collections/audiocd/AudioCdCollection.cpp:366
-#: services/jamendo/JamendoInfoParser.cpp:109
-#, kde-format
-msgid "Track"
-msgstr "Stran"
 
 #: context/applets/wikipedia/plugin/WikipediaApplet.cpp:737
 #, fuzzy, kde-format
@@ -5055,6 +5222,11 @@ msgstr ""
 #| msgid "Rating"
 msgid "Choose Language"
 msgstr "Nirxandin"
+
+#: context/context_qml_package/contents/ui/toolbar/AppletToolbar.qml:128
+#, kde-format
+msgid "Configure Applets..."
+msgstr "Sepanokan Veava Bike..."
 
 #: context/ContextDock.cpp:27
 #, fuzzy, kde-format
@@ -9875,14 +10047,6 @@ msgstr "&Binexêzan bi valahiyan re biguherîne"
 msgid "Result Preview"
 msgstr "Pêşdîtin"
 
-#. i18n: ectx: property (text), widget (QLabel, label_21)
-#. i18n: ectx: property (text), widget (QLabel, titleLabel)
-#: dialogs/TagGuessOptions.ui:101 services/opmldirectory/AddOpmlWidget.ui:78
-#, fuzzy, kde-format
-#| msgid "T&itle:"
-msgid "Title:"
-msgstr "S&ernav:"
-
 #. i18n: ectx: property (text), widget (QLabel, Title_result)
 #. i18n: ectx: property (text), widget (QLabel, Artist_result)
 #. i18n: ectx: property (text), widget (QLabel, Composer_result)
@@ -9900,12 +10064,6 @@ msgstr "S&ernav:"
 #, kde-format
 msgid "<empty>"
 msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_22)
-#: dialogs/TagGuessOptions.ui:127
-#, kde-format
-msgid "Artist:"
-msgstr "Hunermend:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_23)
 #: dialogs/TagGuessOptions.ui:153
@@ -12830,20 +12988,10 @@ msgstr "Leza bit"
 msgid "Sample Rate"
 msgstr "Rêjeya Mînakkirinê"
 
-#: playlist/PlaylistModel.cpp:941
-#, kde-format
-msgid "Score"
-msgstr "Skor"
-
 #: playlist/PlaylistModel.cpp:942 playlist/ProgressiveSearchWidget.cpp:108
 #, kde-format
 msgid "Rating"
 msgstr "Nirxandin"
-
-#: playlist/PlaylistModel.cpp:943
-#, kde-format
-msgid "Play Count"
-msgstr "Hejmara Lêdanan"
 
 #: playlist/PlaylistModel.cpp:944
 #, kde-format
@@ -16601,12 +16749,6 @@ msgstr[1] ""
 msgid "Configure Synchronization..."
 msgstr "Berhevokê Veava Bike"
 
-#: statsyncing/ui/ChooseProvidersPage.cpp:35
-#, fuzzy, kde-format
-#| msgid "&Next"
-msgid "Next"
-msgstr "&Pêşve"
-
 #: statsyncing/ui/ChooseProvidersPage.cpp:146
 #, fuzzy, kde-format
 #| msgid "Transferring: %1"
@@ -17684,9 +17826,6 @@ msgstr ""
 #~ msgid "Save Lyrics"
 #~ msgstr "Gotin"
 
-#~ msgid "Reload Lyrics"
-#~ msgstr "Gotinên Stranan Nû ve Bar Bike"
-
 #, fuzzy
 #~| msgid "No lyrics script is running!"
 #~ msgid "Lyrics: No script is running"
@@ -17732,18 +17871,8 @@ msgstr ""
 #~ "we bên rakirin."
 
 #, fuzzy
-#~| msgid "&Settings"
-#~ msgid "Lyrics Settings"
-#~ msgstr "&Mîheng"
-
-#, fuzzy
 #~ msgid "Font"
 #~ msgstr "Meh"
-
-#, fuzzy
-#~| msgid "Alignment"
-#~ msgid "Alignment"
-#~ msgstr "Bicihkirin"
 
 #, fuzzy
 #~| msgid "Left"
@@ -17842,9 +17971,6 @@ msgstr ""
 #~| msgid "Enter preset name:"
 #~ msgid "no applet name"
 #~ msgstr "Navê pêş-avakirinê têkevê:"
-
-#~ msgid "Configure Applets..."
-#~ msgstr "Sepanokan Veava Bike..."
 
 #, fuzzy
 #~| msgid "Installed Amarok Scripts:"
@@ -19246,9 +19372,6 @@ msgstr ""
 #~ msgid "Album Artist:"
 #~ msgstr "Hunermendê Albumê "
 
-#~ msgid "Last played"
-#~ msgstr "Yê dawî hatiye lêdan"
-
 #~ msgid "Play count"
 #~ msgstr "Hejmara lêdanan"
 
@@ -19959,11 +20082,6 @@ msgstr ""
 #~ msgstr "Nirxa çawaniyê"
 
 #, fuzzy
-#~| msgid "No cover found"
-#~ msgid "No covers found."
-#~ msgstr "Tu rûgirê albumê nehat dîtin."
-
-#, fuzzy
 #~| msgid "Text color:"
 #~ msgid "Text completion"
 #~ msgstr "Rengê nivîsê:"
@@ -20120,11 +20238,6 @@ msgstr ""
 #~ msgstr "lîsteya lêdanê nehate nivisandin (%1)."
 
 #, fuzzy
-#~| msgid "with"
-#~ msgid "width"
-#~ msgstr "bi"
-
-#, fuzzy
 #~| msgid "Disc Number"
 #~ msgid "Disk Number"
 #~ msgstr "Hejmara Dîskê"
@@ -20164,11 +20277,6 @@ msgstr ""
 
 #~ msgid "Canada"
 #~ msgstr "Kanada"
-
-#, fuzzy
-#~| msgid "&Previous"
-#~ msgid "Previous"
-#~ msgstr "&Paşde"
 
 #, fuzzy
 #~| msgid "Enter a name for the playlist:"
