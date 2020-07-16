@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-07-14 02:27+0200\n"
+"POT-Creation-Date: 2020-07-16 02:22+0200\n"
 "PO-Revision-Date: 2009-01-06 02:14+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <ku@li.org>\n"
@@ -1144,13 +1144,13 @@ msgstr[1] ""
 msgid "Select Initial Directory"
 msgstr "Peldanka Pêşî Hilbijêre"
 
-#: EditProfileDialog.cpp:1164
+#: EditProfileDialog.cpp:1159
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Scheme <resource>%1</resource> failed to load."
 msgstr ""
 
-#: EditProfileDialog.cpp:1349
+#: EditProfileDialog.cpp:1344
 #, kde-format
 msgid ""
 "This color scheme uses a transparent background which does not appear to be "
@@ -1159,14 +1159,14 @@ msgstr ""
 "Ev şemaya rengan rûerda zelalî bi kar tîne yê ku sermase ya we wisa xuya "
 "dike ku piştgirî nadî"
 
-#: EditProfileDialog.cpp:1355
+#: EditProfileDialog.cpp:1350
 #, kde-format
 msgid ""
 "Konsole was started before desktop effects were enabled. You need to restart "
 "Konsole to see transparent background."
 msgstr ""
 
-#: EditProfileDialog.cpp:1927
+#: EditProfileDialog.cpp:1866
 #, kde-format
 msgid "AaZz09..."
 msgstr ""
@@ -2168,7 +2168,7 @@ msgctxt "@title Preferences page name"
 msgid "General"
 msgstr "Giştî"
 
-#: MainWindow.cpp:762 Part.cpp:330
+#: MainWindow.cpp:762 Part.cpp:327
 #, fuzzy, kde-format
 #| msgid "New Profile"
 msgctxt "@title Preferences page name"
@@ -2193,7 +2193,7 @@ msgctxt "@title Preferences page name"
 msgid "Thumbnails"
 msgstr ""
 
-#: Part.cpp:336
+#: Part.cpp:333
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Part Info"
@@ -2346,24 +2346,24 @@ msgstr "Konsola Linux"
 msgid "Solaris console"
 msgstr "Konsola Solaris"
 
-#: Session.cpp:127
+#: session/Session.cpp:127
 #, kde-format
 msgid "Bell in session '%1'"
 msgstr "Di danişîna '%1' de zengil"
 
-#: Session.cpp:409
+#: session/Session.cpp:409
 #, kde-format
 msgid "Could not find binary: "
 msgstr "Nikare pela-cot bibîne:"
 
-#: Session.cpp:418
+#: session/Session.cpp:418
 #, fuzzy, kde-format
 #| msgid "Warning: "
 msgctxt "@info:shell Alert the user with red color text"
 msgid "Warning: "
 msgstr "Hişyarî: "
 
-#: Session.cpp:476
+#: session/Session.cpp:476
 #, kde-format
 msgid ""
 "Could not find '%1', starting '%2' instead.  Please check your profile "
@@ -2372,22 +2372,22 @@ msgstr ""
 "Nikare '%1' bibîne, şûna vê '%2' destpê dike. Jê kerema xwe mîhengên profîla "
 "xwe kontrol bike."
 
-#: Session.cpp:479
+#: session/Session.cpp:479
 #, kde-format
 msgid "Could not find an interactive shell to start."
 msgstr "Nikare shell a înteraktîf bibîne û bide destpê kirin."
 
-#: Session.cpp:517
+#: session/Session.cpp:517
 #, kde-format
 msgid "Could not start program '%1' with arguments '%2'."
 msgstr "Nikare bernameya '%1' bi sedema '%2' re bide destpêkirin."
 
-#: Session.cpp:657
+#: session/Session.cpp:657
 #, kde-format
 msgid "Silence in session '%1'"
 msgstr "Di danişîna '%1' de bêdengî"
 
-#: Session.cpp:919
+#: session/Session.cpp:919
 #, kde-format
 msgid ""
 "The D-Bus methods sendText/runCommand were just used.  There are security "
@@ -2396,307 +2396,307 @@ msgid ""
 "warning will only show once for this Konsole instance.</p>"
 msgstr ""
 
-#: Session.cpp:955
+#: session/Session.cpp:955
 #, fuzzy, kde-format
 #| msgid "Finished"
 msgctxt "@info:shell This session is done"
 msgid "Finished"
 msgstr "Bi Dawî Bû"
 
-#: Session.cpp:969 Session.cpp:982
+#: session/Session.cpp:969 session/Session.cpp:982
 #, kde-format
 msgid "Program '%1' crashed."
 msgstr "Bernameya '%1' têk çû."
 
-#: Session.cpp:971
+#: session/Session.cpp:971
 #, kde-format
 msgid "Program '%1' exited with status %2."
 msgstr "Bernameya '%1' bi rewşa %2 re derket."
 
-#: Session.cpp:1414
+#: session/Session.cpp:1414
 #, kde-format
 msgid "ZModem Progress"
 msgstr "Pêşketina ZModem"
 
-#: Session.cpp:1730
+#: session/Session.cpp:1730
 #, kde-format
 msgid "Activity in session '%1'"
 msgstr "Di danişîna '%1' de çalakî"
 
-#: SessionController.cpp:126
+#: session/SessionController.cpp:126
 #, kde-format
 msgid "Konsole"
 msgstr "Konsole"
 
-#: SessionController.cpp:340
+#: session/SessionController.cpp:340
 #, kde-format
 msgid "The process '%1' has finished running in session '%2'"
 msgstr ""
 
-#: SessionController.cpp:420
+#: session/SessionController.cpp:420
 #, kde-format
 msgid "Konsole does not know how to open the bookmark: "
 msgstr ""
 
-#: SessionController.cpp:487
+#: session/SessionController.cpp:487
 #, kde-format
 msgid "Search for '%1' with"
 msgstr ""
 
-#: SessionController.cpp:501
+#: session/SessionController.cpp:501
 #, fuzzy, kde-format
 #| msgid "Manage Profiles..."
 msgid "Configure Web Shortcuts..."
 msgstr "Profîlan Bi Rê Ve Bibe..."
 
-#: SessionController.cpp:592
+#: session/SessionController.cpp:592
 #, fuzzy, kde-format
 #| msgid "Konsole"
 msgid "&Close Session"
 msgstr "Konsole"
 
-#: SessionController.cpp:599
+#: session/SessionController.cpp:599
 #, kde-format
 msgid "Open File Manager"
 msgstr ""
 
-#: SessionController.cpp:617
+#: session/SessionController.cpp:617
 #, fuzzy, kde-format
 #| msgid "&Copy"
 msgid "Copy"
 msgstr "Ji&bergirtin"
 
-#: SessionController.cpp:634
+#: session/SessionController.cpp:634
 #, kde-format
 msgid "Paste Selection"
 msgstr "Hilbijartinê Pê Ve Bike"
 
-#: SessionController.cpp:641
+#: session/SessionController.cpp:641
 #, kde-format
 msgid "Web Search"
 msgstr ""
 
-#: SessionController.cpp:648
+#: session/SessionController.cpp:648
 #, fuzzy, kde-format
 #| msgid "Select All"
 msgid "&Select All"
 msgstr "Hemûyan Hilbijêre "
 
-#: SessionController.cpp:652
+#: session/SessionController.cpp:652
 #, fuzzy, kde-format
 #| msgid "Select"
 msgid "Select &Line"
 msgstr "Hilbijartin"
 
-#: SessionController.cpp:655
+#: session/SessionController.cpp:655
 #, fuzzy, kde-format
 #| msgid "Save Output..."
 msgid "Save Output &As..."
 msgstr "Deranê Tomar Bike..."
 
-#: SessionController.cpp:661
+#: session/SessionController.cpp:661
 #, kde-format
 msgid "&Print Screen..."
 msgstr ""
 
-#: SessionController.cpp:665
+#: session/SessionController.cpp:665
 #, fuzzy, kde-format
 #| msgid "Manage Profiles..."
 msgid "Adjust Scrollback..."
 msgstr "Profîlan Bi Rê Ve Bibe..."
 
-#: SessionController.cpp:669
+#: session/SessionController.cpp:669
 #, fuzzy, kde-format
 #| msgid "Clear && Reset"
 msgid "Clear Scrollback"
 msgstr "Paqij Bike && Vegere Nirxên Destpêkê"
 
-#: SessionController.cpp:673
+#: session/SessionController.cpp:673
 #, fuzzy, kde-format
 #| msgid "Clear && Reset"
 msgid "Clear Scrollback and Reset"
 msgstr "Paqij Bike && Vegere Nirxên Destpêkê"
 
-#: SessionController.cpp:679
+#: session/SessionController.cpp:679
 #, kde-format
 msgid "Edit Current Profile..."
 msgstr "Profîla Heyî Biguherîne..."
 
-#: SessionController.cpp:682
+#: session/SessionController.cpp:682
 #, fuzzy, kde-format
 #| msgid "Edit Profile"
 msgid "Switch Profile"
 msgstr "Jînname yê Biguherîne"
 
-#: SessionController.cpp:706
+#: session/SessionController.cpp:706
 #, fuzzy, kde-format
 #| msgid "Encoding"
 msgid "Set &Encoding"
 msgstr "Şîfre kirin"
 
-#: SessionController.cpp:717
+#: session/SessionController.cpp:717
 #, kde-format
 msgctxt "@item:inmenu A read only (locked) session"
 msgid "Read-only"
 msgstr ""
 
-#: SessionController.cpp:728
+#: session/SessionController.cpp:728
 #, kde-format
 msgid "&Current Tab Settings..."
 msgstr ""
 
-#: SessionController.cpp:734
+#: session/SessionController.cpp:734
 #, kde-format
 msgid "&All Tabs in Current Window"
 msgstr ""
 
-#: SessionController.cpp:741
+#: session/SessionController.cpp:741
 #, fuzzy, kde-format
 #| msgid "&Rename Tab..."
 msgid "&Select Tabs..."
 msgstr "&Navê Hilpekînê Biguherîne..."
 
-#: SessionController.cpp:747
+#: session/SessionController.cpp:747
 #, kde-format
 msgctxt "@action:inmenu Do not select any tabs"
 msgid "&None"
 msgstr ""
 
-#: SessionController.cpp:755
+#: session/SessionController.cpp:755
 #, fuzzy, kde-format
 #| msgid "Copy Input To..."
 msgid "Copy Input To"
 msgstr "Ketanê Ji Ber Bigire Jê..."
 
-#: SessionController.cpp:764
+#: session/SessionController.cpp:764
 #, kde-format
 msgid "&ZModem Upload..."
 msgstr ""
 
-#: SessionController.cpp:769
+#: session/SessionController.cpp:769
 #, kde-format
 msgid "Monitor for &Activity"
 msgstr "Monîtor ji bo &Çalakiyan"
 
-#: SessionController.cpp:774
+#: session/SessionController.cpp:774
 #, kde-format
 msgid "Monitor for &Silence"
 msgstr "Monîtor ji bo &Bêdengî yê"
 
-#: SessionController.cpp:779
+#: session/SessionController.cpp:779
 #, fuzzy, kde-format
 #| msgid "Monitor for &Activity"
 msgid "Monitor for Process Finishing"
 msgstr "Monîtor ji bo &Çalakiyan"
 
-#: SessionController.cpp:785
+#: session/SessionController.cpp:785
 #, kde-format
 msgid "Enlarge Font"
 msgstr ""
 
-#: SessionController.cpp:793
+#: session/SessionController.cpp:793
 #, kde-format
 msgid "Shrink Font"
 msgstr ""
 
-#: SessionController.cpp:798
+#: session/SessionController.cpp:798
 #, fuzzy, kde-format
 #| msgid "Increase Text Size"
 msgid "Reset Font Size"
 msgstr "Mezinahiya Nivîsê Zêdetir Bike"
 
-#: SessionController.cpp:803
+#: session/SessionController.cpp:803
 #, kde-format
 msgid "Send Signal"
 msgstr ""
 
-#: SessionController.cpp:809
+#: session/SessionController.cpp:809
 #, kde-format
 msgid "&Suspend Task"
 msgstr ""
 
-#: SessionController.cpp:814
+#: session/SessionController.cpp:814
 #, fuzzy, kde-format
 #| msgid "&Close Tab"
 msgid "&Continue Task"
 msgstr "Hilpekînê &Bigire"
 
-#: SessionController.cpp:819
+#: session/SessionController.cpp:819
 #, kde-format
 msgid "&Hangup"
 msgstr ""
 
-#: SessionController.cpp:824
+#: session/SessionController.cpp:824
 #, kde-format
 msgid "&Interrupt Task"
 msgstr ""
 
-#: SessionController.cpp:829
+#: session/SessionController.cpp:829
 #, fuzzy, kde-format
 #| msgid "Terminal Features"
 msgid "&Terminate Task"
 msgstr "Taybetiyên Termînalê"
 
-#: SessionController.cpp:834
+#: session/SessionController.cpp:834
 #, kde-format
 msgid "&Kill Task"
 msgstr ""
 
-#: SessionController.cpp:839
+#: session/SessionController.cpp:839
 #, kde-format
 msgid "User Signal &1"
 msgstr ""
 
-#: SessionController.cpp:844
+#: session/SessionController.cpp:844
 #, kde-format
 msgid "User Signal &2"
 msgstr ""
 
-#: SessionController.cpp:968
+#: session/SessionController.cpp:968
 #, kde-format
 msgid ""
 "A program is currently running in this session.  Are you sure you want to "
 "close it?"
 msgstr ""
 
-#: SessionController.cpp:971
+#: session/SessionController.cpp:971
 #, kde-format
 msgid ""
 "The program '%1' is currently running in this session.  Are you sure you "
 "want to close it?"
 msgstr ""
 
-#: SessionController.cpp:977 SessionController.cpp:1007
+#: session/SessionController.cpp:977 session/SessionController.cpp:1007
 #, kde-format
 msgid "Confirm Close"
 msgstr "Girtinê Bipejirîne"
 
-#: SessionController.cpp:1000
+#: session/SessionController.cpp:1000
 #, kde-format
 msgid ""
 "A program in this session would not die.  Are you sure you want to kill it "
 "by force?"
 msgstr ""
 
-#: SessionController.cpp:1003
+#: session/SessionController.cpp:1003
 #, kde-format
 msgid ""
 "The program '%1' is in this session would not die.  Are you sure you want to "
 "kill it by force?"
 msgstr ""
 
-#: SessionController.cpp:1569
+#: session/SessionController.cpp:1569
 #, fuzzy, kde-format
 #| msgid "Shell"
 msgid "Print Shell"
 msgstr "Shell"
 
-#: SessionController.cpp:1840
+#: session/SessionController.cpp:1840
 #, kde-format
 msgid "Save ZModem Download to..."
 msgstr ""
 
-#: SessionController.cpp:1850
+#: session/SessionController.cpp:1850
 #, kde-format
 msgid ""
 "<p>A ZModem file transfer attempt has been detected, but no suitable ZModem "
@@ -2704,32 +2704,32 @@ msgid ""
 "or 'lrzsz' package.</p>"
 msgstr ""
 
-#: SessionController.cpp:1861
+#: session/SessionController.cpp:1861
 #, kde-format
 msgid ""
 "<p>The current session already has a ZModem file transfer in progress.</p>"
 msgstr ""
 
-#: SessionController.cpp:1871
+#: session/SessionController.cpp:1871
 #, kde-format
 msgid ""
 "<p>No suitable ZModem software was found on this system.</p><p>You may wish "
 "to install the 'rzsz' or 'lrzsz' package.</p>"
 msgstr ""
 
-#: SessionController.cpp:1877
+#: session/SessionController.cpp:1877
 #, kde-format
 msgid "Select Files for ZModem Upload"
 msgstr ""
 
-#: SessionListModel.cpp:104
+#: session/SessionListModel.cpp:104
 #, fuzzy, kde-format
 #| msgid "Number"
 msgctxt "@item:intable The session index"
 msgid "Number"
 msgstr "Hejmar"
 
-#: SessionListModel.cpp:106
+#: session/SessionListModel.cpp:106
 #, fuzzy, kde-format
 #| msgid "Title"
 msgctxt "@item:intable The session title"
