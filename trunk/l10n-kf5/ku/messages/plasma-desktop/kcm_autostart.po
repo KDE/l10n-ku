@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_autostart\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-05-12 04:00+0200\n"
+"POT-Creation-Date: 2020-08-12 02:25+0200\n"
 "PO-Revision-Date: 2008-12-25 04:56+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <ku@li.org>\n"
@@ -29,171 +29,136 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "erdal.ronahi@nospam.gmail.com"
 
-#: addscriptdialog.cpp:40
-#, fuzzy, kde-format
-#| msgid "Shell script:"
-msgid "Shell script path:"
-msgstr "Skrîpta shell:"
-
-#: addscriptdialog.cpp:44
+#: autostart.cpp:37
 #, kde-format
-msgid "Create as symlink"
-msgstr "Wekî symlink biafirîne"
-
-#: addscriptdialog.cpp:79
-#, kde-format
-msgid "\"%1\" is not an absolute path."
+msgid "Autostart"
 msgstr ""
 
-#: addscriptdialog.cpp:82
-#, kde-format
-msgid "\"%1\" does not exist."
-msgstr ""
-
-#: addscriptdialog.cpp:85
-#, kde-format
-msgid "\"%1\" is not a file."
-msgstr ""
-
-#: addscriptdialog.cpp:88
-#, kde-format
-msgid "\"%1\" is not readable."
-msgstr ""
-
-#: advanceddialog.cpp:32
-#, fuzzy, kde-format
-#| msgid "Autostart only in KDE"
-msgid "Autostart only in Plasma"
-msgstr "Tenê di KDE de bixwe destpê bike"
-
-#: autostart.cpp:56
-#, kde-format
-msgid "Name"
-msgstr "Nav"
-
-#: autostart.cpp:57
-#, kde-format
-msgid "Command"
-msgstr "Ferman"
-
-#: autostart.cpp:58
-#, kde-format
-msgid "Status"
-msgstr "Rewş"
-
-#: autostart.cpp:59
-#, fuzzy, kde-format
-#| msgctxt ""
-#| "@title:column The name of the column that decides if the program is run "
-#| "on kde startup, on kde shutdown, etc"
-#| msgid "Run On"
-msgctxt ""
-"@title:column The name of the column that decides if the program is run on "
-"session startup, on session shutdown, etc"
-msgid "Run On"
-msgstr "Bidomîne"
-
-#: autostart.cpp:79
-#, fuzzy, kde-format
-#| msgid "KDE Autostart Manager"
-msgid "Session Autostart Manager"
-msgstr "Rêveberê KDE Bixwe-Destpêkirinê"
-
-#: autostart.cpp:81
+#: autostart.cpp:37
 #, fuzzy, kde-format
 #| msgid "KDE Autostart Manager Control Panel Module"
 msgid "Session Autostart Manager Control Panel Module"
 msgstr "Modûla Panela Kontrol Kirinê yê Rêveberê KDE Bixwe-Destpêkirinê"
 
-#: autostart.cpp:83
+#: autostart.cpp:37
 #, fuzzy, kde-format
 #| msgid "(c) 2006-2007-2008 Autostart Manager team"
-msgid "Copyright © 2006–2010 Autostart Manager team"
+msgid "Copyright © 2006–2020 Autostart Manager team"
 msgstr "(c) 2006-2007-2008 Rêveberê Bixwe-Destpêkirinê"
 
-#: autostart.cpp:84
+#: autostart.cpp:38
 #, kde-format
 msgid "Stephen Leaf"
 msgstr "Stephen Leaf"
 
-#: autostart.cpp:85
+#: autostart.cpp:39
 #, kde-format
 msgid "Montel Laurent"
 msgstr "Montel Laurent"
 
-#: autostart.cpp:85
+#: autostart.cpp:39
 #, kde-format
 msgid "Maintainer"
 msgstr "Kesê miqate"
 
-#: autostart.cpp:104 autostart.cpp:120 autostartitem.cpp:62
+#: autostart.cpp:40
 #, kde-format
-msgctxt "The program will be run"
-msgid "Enabled"
-msgstr "Çalak kirî"
-
-#: autostart.cpp:106 autostart.cpp:120
-#, kde-format
-msgctxt "The program won't be run"
-msgid "Disabled"
-msgstr "Neçalak kirî"
-
-#: autostart.cpp:137
-#, kde-format
-msgid "Desktop File"
-msgstr "Pelê Sermasê"
-
-#: autostart.cpp:145
-#, kde-format
-msgid "Script File"
-msgstr "Pelê skrîpt"
-
-#. i18n: ectx: property (text), widget (QPushButton, btnProperties)
-#: autostartconfig.ui:17
-#, fuzzy, kde-format
-#| msgid "&Properties"
-msgid "&Properties..."
-msgstr "&Taybetmendî"
-
-#. i18n: ectx: property (text), widget (QPushButton, btnAddScript)
-#: autostartconfig.ui:24
-#, kde-format
-msgid "Add Script..."
-msgstr "Skrîptê Têxe..."
-
-#. i18n: ectx: property (text), widget (QPushButton, btnRemove)
-#: autostartconfig.ui:46
-#, kde-format
-msgid "&Remove"
-msgstr "&Rake"
-
-#. i18n: ectx: property (text), widget (QPushButton, btnAdvanced)
-#: autostartconfig.ui:53
-#, fuzzy, kde-format
-#| msgid "Advanced"
-msgid "Advanced..."
-msgstr "Pêşketî"
-
-#. i18n: ectx: property (text), widget (QPushButton, btnAddProgram)
-#: autostartconfig.ui:60
-#, kde-format
-msgid "Add Program..."
-msgstr "Bernameyê Têxe..."
-
-#: autostartmodel.cpp:67
-#, kde-format
-msgid "Startup"
-msgstr "Destpêkirin"
-
-#: autostartmodel.cpp:68
-#, kde-format
-msgid "Logout"
+msgid "Nicolas Fella"
 msgstr ""
 
-#: autostartmodel.cpp:69
+#: autostartmodel.cpp:312
 #, kde-format
-msgid "Before session startup"
+msgid "\"%1\" is not an absolute url."
 msgstr ""
+
+#: autostartmodel.cpp:315
+#, kde-format
+msgid "\"%1\" does not exist."
+msgstr ""
+
+#: autostartmodel.cpp:318
+#, kde-format
+msgid "\"%1\" is not a file."
+msgstr ""
+
+#: autostartmodel.cpp:321
+#, kde-format
+msgid "\"%1\" is not readable."
+msgstr ""
+
+#, fuzzy
+#~| msgid "Shell script:"
+#~ msgid "Shell script path:"
+#~ msgstr "Skrîpta shell:"
+
+#~ msgid "Create as symlink"
+#~ msgstr "Wekî symlink biafirîne"
+
+#, fuzzy
+#~| msgid "Autostart only in KDE"
+#~ msgid "Autostart only in Plasma"
+#~ msgstr "Tenê di KDE de bixwe destpê bike"
+
+#~ msgid "Name"
+#~ msgstr "Nav"
+
+#~ msgid "Command"
+#~ msgstr "Ferman"
+
+#~ msgid "Status"
+#~ msgstr "Rewş"
+
+#, fuzzy
+#~| msgctxt ""
+#~| "@title:column The name of the column that decides if the program is run "
+#~| "on kde startup, on kde shutdown, etc"
+#~| msgid "Run On"
+#~ msgctxt ""
+#~ "@title:column The name of the column that decides if the program is run "
+#~ "on session startup, on session shutdown, etc"
+#~ msgid "Run On"
+#~ msgstr "Bidomîne"
+
+#, fuzzy
+#~| msgid "KDE Autostart Manager"
+#~ msgid "Session Autostart Manager"
+#~ msgstr "Rêveberê KDE Bixwe-Destpêkirinê"
+
+#~ msgctxt "The program will be run"
+#~ msgid "Enabled"
+#~ msgstr "Çalak kirî"
+
+#~ msgctxt "The program won't be run"
+#~ msgid "Disabled"
+#~ msgstr "Neçalak kirî"
+
+#~ msgid "Desktop File"
+#~ msgstr "Pelê Sermasê"
+
+#~ msgid "Script File"
+#~ msgstr "Pelê skrîpt"
+
+#, fuzzy
+#~| msgid "&Properties"
+#~ msgid "&Properties..."
+#~ msgstr "&Taybetmendî"
+
+#~ msgid "Add Script..."
+#~ msgstr "Skrîptê Têxe..."
+
+#~ msgid "&Remove"
+#~ msgstr "&Rake"
+
+#, fuzzy
+#~| msgid "Advanced"
+#~ msgid "Advanced..."
+#~ msgstr "Pêşketî"
+
+#~ msgid "Add Program..."
+#~ msgstr "Bernameyê Têxe..."
+
+#~ msgid "Startup"
+#~ msgstr "Destpêkirin"
 
 #, fuzzy
 #~| msgid ""
