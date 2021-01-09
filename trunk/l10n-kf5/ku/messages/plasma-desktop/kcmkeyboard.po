@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkeyboard\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-12-20 02:37+0100\n"
+"POT-Creation-Date: 2021-01-09 02:55+0100\n"
 "PO-Revision-Date: 2007-12-31 15:23+0100\n"
 "Last-Translator: Erdal Ronahi <erdal.ronahi@nospam.gmail.com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
@@ -554,19 +554,29 @@ msgstr "Guherkera Planê Klavyeyê a KDE'yê"
 msgid "Configure Layouts..."
 msgstr "Mîheng..."
 
-#: tastenbrett/main.cpp:64
+#: tastenbrett/main.cpp:67
 #, fuzzy, kde-format
 #| msgid "Keyboard &model:"
 msgctxt "app display name"
 msgid "Keyboard Preview"
 msgstr "Klavye &model:"
 
-#: tastenbrett/main.cpp:66
+#: tastenbrett/main.cpp:69
 #, fuzzy, kde-format
 #| msgid "KDE Keyboard Layout Switcher"
 msgctxt "app description"
 msgid "Keyboard layout visualization"
 msgstr "Guherkera Planê Klavyeyê a KDE'yê"
+
+#: tastenbrett/main.cpp:148
+#, kde-format
+msgctxt "@label"
+msgid ""
+"The keyboard geometry failed to load. This often indicates that the selected "
+"model does not support a specific layout or layout variant. This problem "
+"will likely also present when you try to use this combination of model, "
+"layout and variant."
+msgstr ""
 
 #, fuzzy
 #~| msgid "T&urn on"
