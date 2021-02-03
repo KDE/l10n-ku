@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gwenview\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-02-02 02:33+0100\n"
+"POT-Creation-Date: 2021-02-03 02:57+0100\n"
 "PO-Revision-Date: 2009-01-22 22:46+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -740,7 +740,7 @@ msgstr "Bi bikaranîna teşeyekî din re tomar bike"
 msgid "Gwenview cannot save images in '%1' format."
 msgstr "Gwenview nikare wêneyan di teşeya '%1' de tomar bike."
 
-#: app/gvcore.cpp:427 app/gvcore.cpp:454
+#: app/gvcore.cpp:427 app/gvcore.cpp:456
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info"
 #| msgid "<b>Saving <filename>%1</filename> failed:</b><br>%2"
@@ -750,12 +750,12 @@ msgid ""
 "emphasis><nl />%2"
 msgstr "<b>Tomarkirina <filename>%1</filename> pêk nehat:</b><br>%2"
 
-#: app/gvcore.cpp:474
+#: app/gvcore.cpp:476
 #, kde-format
 msgid "You are now viewing the new document."
 msgstr ""
 
-#: app/gvcore.cpp:476
+#: app/gvcore.cpp:478
 #, kde-format
 msgid "Go back to the original"
 msgstr ""
@@ -1634,6 +1634,20 @@ msgstr "Etîket:"
 #| msgid "Description:"
 msgid "Description"
 msgstr "Daxuyanî:"
+
+#: app/slideshowfileitemaction.cpp:60
+#, fuzzy, kde-format
+#| msgid "Start Slideshow"
+msgctxt "@action:inmenu Start a slideshow Dolphin context menu"
+msgid "Start a Slideshow"
+msgstr "Nîşandana-slaytê Bide Destpêkirin"
+
+#: app/slideshowfileitemaction.cpp:67
+#, fuzzy, kde-format
+#| msgid "Next modified image"
+msgctxt "@action:inmenu Start a slideshow Dolphin context menu"
+msgid "Start a Slideshow with selected images"
+msgstr "Wêneya pêş ya hatiye guhertin"
 
 #: app/startmainpage.cpp:293
 #, fuzzy, kde-format
