@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-04-12 00:15+0000\n"
+"POT-Creation-Date: 2021-04-14 00:15+0000\n"
 "PO-Revision-Date: 2009-01-06 14:34+0200\n"
 "Last-Translator: Erdal Ronahi <erdal.ronahi@nospam.gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -5171,7 +5171,7 @@ msgid ""
 "uploaded it is renamed to its real name."
 msgstr ""
 
-#: kcms/kio/kproxydlg.cpp:538
+#: kcms/kio/kproxydlg.cpp:530
 #, kde-format
 msgid ""
 "<h1>Proxy</h1><p>A proxy server is an intermediate program that sits between "
@@ -5295,7 +5295,7 @@ msgid "Auto D&etect"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, systemProxyHttpLabel)
-#. i18n: ectx: property (whatsThis), widget (KLineEdit, systemProxyHttpEdit)
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, systemProxyHttpEdit)
 #: kcms/kio/kproxydlg.ui:158 kcms/kio/kproxydlg.ui:183
 #, kde-format
 msgid ""
@@ -5316,7 +5316,7 @@ msgid "HTTP Proxy:"
 msgstr "&Cihgir"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, systemProxyHttpsLabel)
-#. i18n: ectx: property (whatsThis), widget (KLineEdit, systemProxyHttpsEdit)
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, systemProxyHttpsEdit)
 #: kcms/kio/kproxydlg.ui:193 kcms/kio/kproxydlg.ui:218
 #, kde-format
 msgid ""
@@ -5337,7 +5337,7 @@ msgid "SSL Proxy:"
 msgstr "&Cihgir"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, systemProxyFtpLabel)
-#. i18n: ectx: property (whatsThis), widget (KLineEdit, systemProxyFtpEdit)
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, systemProxyFtpEdit)
 #: kcms/kio/kproxydlg.ui:228 kcms/kio/kproxydlg.ui:253
 #, kde-format
 msgid ""
@@ -5377,7 +5377,7 @@ msgstr ""
 msgid "SOCKS Proxy:"
 msgstr "&Cihgir"
 
-#. i18n: ectx: property (whatsThis), widget (KLineEdit, systemProxySocksEdit)
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, systemProxySocksEdit)
 #: kcms/kio/kproxydlg.ui:285
 #, kde-format
 msgid ""
@@ -5408,7 +5408,7 @@ msgstr ""
 msgid "Exceptions:"
 msgstr "&Awarte"
 
-#. i18n: ectx: property (whatsThis), widget (KLineEdit, systemNoProxyEdit)
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, systemNoProxyEdit)
 #: kcms/kio/kproxydlg.ui:317
 #, kde-format
 msgid ""
@@ -5436,7 +5436,7 @@ msgstr ""
 msgid "Use manually specified proxy configuration:"
 msgstr ""
 
-#. i18n: ectx: property (whatsThis), widget (KLineEdit, manualProxyHttpEdit)
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, manualProxyHttpEdit)
 #: kcms/kio/kproxydlg.ui:398
 #, kde-format
 msgid "Enter the address of the HTTP proxy server."
@@ -5465,7 +5465,7 @@ msgstr "Navnîşana pêşkêşkara cihgira HTTP binivîse."
 msgid "Use this proxy server for a&ll protocols"
 msgstr ""
 
-#. i18n: ectx: property (whatsThis), widget (KLineEdit, manualProxyHttpsEdit)
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, manualProxyHttpsEdit)
 #: kcms/kio/kproxydlg.ui:464
 #, kde-format
 msgid "Enter the address of the HTTPS proxy server."
@@ -5478,7 +5478,7 @@ msgstr "Navnîşana pêşkêşkara cihgira HTTPS binivîse."
 msgid "Enter the port number of the HTTPS proxy server."
 msgstr "Navnîşana pêşkêşkara cihgira HTTPS binivîse."
 
-#. i18n: ectx: property (whatsThis), widget (KLineEdit, manualProxyFtpEdit)
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, manualProxyFtpEdit)
 #: kcms/kio/kproxydlg.ui:517
 #, kde-format
 msgid "Enter the address of the FTP proxy server."
@@ -5491,7 +5491,7 @@ msgstr "Navnîşana pêşkêşkara cihgira FTP binivîse."
 msgid "Enter the port number of the FTP proxy server."
 msgstr "Navnîşana pêşkêşkara cihgira FTP binivîse."
 
-#. i18n: ectx: property (whatsThis), widget (KLineEdit, manualProxySocksEdit)
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, manualProxySocksEdit)
 #: kcms/kio/kproxydlg.ui:567
 #, fuzzy, kde-format
 #| msgid "Enter the address of the HTTPS proxy server."
@@ -5505,7 +5505,7 @@ msgstr "Navnîşana pêşkêşkara cihgira HTTPS binivîse."
 msgid "Enter the port number of the SOCKS proxy server."
 msgstr "Navnîşana pêşkêşkara cihgira HTTPS binivîse."
 
-#. i18n: ectx: property (whatsThis), widget (KLineEdit, manualNoProxyEdit)
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, manualNoProxyEdit)
 #: kcms/kio/kproxydlg.ui:628
 #, kde-format
 msgid ""
