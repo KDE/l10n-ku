@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaffeine\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-12-24 02:25+0100\n"
+"POT-Creation-Date: 2021-05-01 00:18+0000\n"
 "PO-Revision-Date: 2008-12-20 16:02+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -157,9 +157,9 @@ msgctxt "@action"
 msgid "Edit"
 msgstr ""
 
-#: dvb/dvbchanneldialog.cpp:300 dvb/dvbconfigdialog.cpp:706
-#: dvb/dvbrecordingdialog.cpp:84 playlist/playlisttab.cpp:406
-#: playlist/playlisttab.cpp:426
+#: dvb/dvbchanneldialog.cpp:300 dvb/dvbconfigdialog.cpp:720
+#: dvb/dvbrecordingdialog.cpp:84 playlist/playlisttab.cpp:410
+#: playlist/playlisttab.cpp:430
 #, fuzzy, kde-format
 #| msgid "Remove satellite"
 msgctxt "@action"
@@ -598,161 +598,169 @@ msgstr ""
 msgid "Update Scan Data"
 msgstr ""
 
-#: dvb/dvbconfigdialog.cpp:627
+#: dvb/dvbconfigdialog.cpp:629
 #, kde-format
 msgid "Downloading scan data"
 msgstr ""
 
-#: dvb/dvbconfigdialog.cpp:671 dvb/dvbconfigdialog.cpp:684
+#: dvb/dvbconfigdialog.cpp:670
+#, kde-format
+msgid ""
+"Scan file is becoming bigger than %1 KB.\n"
+"Aborting, as something might be wrong...\n"
+msgstr ""
+
+#: dvb/dvbconfigdialog.cpp:693
+#, kde-format
+msgid ""
+"Scan data successfully updated. %1 KB received.\n"
+"Changes take effect after you have closed\n"
+"the configuration dialog."
+msgstr ""
+
+#: dvb/dvbconfigdialog.cpp:698
 #, fuzzy, kde-format
 #| msgid "Scan file last updated<br>on %1"
 msgid "Scan data update failed."
 msgstr "Pela lê nihêrîn ê dawî yê di <br> %1 de hate rojane kirin"
 
-#: dvb/dvbconfigdialog.cpp:681
-#, kde-format
-msgid ""
-"Scan data successfully updated. Changes take\n"
-"effect after you have closed the configuration dialog."
-msgstr ""
-
-#: dvb/dvbconfigdialog.cpp:693
+#: dvb/dvbconfigdialog.cpp:707
 #, kde-format
 msgid "Name: %1"
 msgstr "Nav: %1"
 
-#: dvb/dvbconfigdialog.cpp:696
+#: dvb/dvbconfigdialog.cpp:710
 #, kde-format
 msgid "Move Left"
 msgstr ""
 
-#: dvb/dvbconfigdialog.cpp:701
+#: dvb/dvbconfigdialog.cpp:715
 #, kde-format
 msgid "Reset"
 msgstr ""
 
-#: dvb/dvbconfigdialog.cpp:711
+#: dvb/dvbconfigdialog.cpp:725
 #, kde-format
 msgid "Move Right"
 msgstr ""
 
-#: dvb/dvbconfigdialog.cpp:717
+#: dvb/dvbconfigdialog.cpp:731
 #, fuzzy, kde-format
 #| msgid "device not connected"
 msgid "Device not connected."
 msgstr "cîhaz nehat girêdan"
 
-#: dvb/dvbconfigdialog.cpp:753
+#: dvb/dvbconfigdialog.cpp:767
 #, kde-format
 msgid "DVB-C"
 msgstr "DVB-C"
 
-#: dvb/dvbconfigdialog.cpp:769
+#: dvb/dvbconfigdialog.cpp:783
 #, fuzzy, kde-format
 #| msgid "DVB-S"
 msgid "DVB-S2"
 msgstr "DVB-S"
 
-#: dvb/dvbconfigdialog.cpp:771
+#: dvb/dvbconfigdialog.cpp:785
 #, kde-format
 msgid "DVB-S"
 msgstr "DVB-S"
 
-#: dvb/dvbconfigdialog.cpp:781
+#: dvb/dvbconfigdialog.cpp:795
 #, fuzzy, kde-format
 #| msgid "DVB-T"
 msgid "DVB-T2"
 msgstr "DVB-T"
 
-#: dvb/dvbconfigdialog.cpp:783
+#: dvb/dvbconfigdialog.cpp:797
 #, kde-format
 msgid "DVB-T"
 msgstr "DVB-T"
 
-#: dvb/dvbconfigdialog.cpp:797
+#: dvb/dvbconfigdialog.cpp:811
 #, kde-format
 msgid "ATSC"
 msgstr "ATSC"
 
-#: dvb/dvbconfigdialog.cpp:810 dvb/dvbconfigdialog.cpp:933
+#: dvb/dvbconfigdialog.cpp:824 dvb/dvbconfigdialog.cpp:947
 #, kde-format
 msgid "ISDB-T"
 msgstr ""
 
-#: dvb/dvbconfigdialog.cpp:895
+#: dvb/dvbconfigdialog.cpp:909
 #, kde-format
 msgid "Cable"
 msgstr "Kablo"
 
-#: dvb/dvbconfigdialog.cpp:904
+#: dvb/dvbconfigdialog.cpp:918
 #, fuzzy, kde-format
 #| msgid "Terrestrial"
 msgid "Terrestrial (T2)"
 msgstr "Herêmî"
 
-#: dvb/dvbconfigdialog.cpp:912
+#: dvb/dvbconfigdialog.cpp:926
 #, kde-format
 msgid "Terrestrial"
 msgstr "Herêmî"
 
-#: dvb/dvbconfigdialog.cpp:921 dvb/dvbconfigdialog.cpp:935
+#: dvb/dvbconfigdialog.cpp:935 dvb/dvbconfigdialog.cpp:949
 #, fuzzy, kde-format
 #| msgid "Stop scan"
 msgid "Autoscan"
 msgstr "Lê nihêrîn ê rawestîne "
 
-#: dvb/dvbconfigdialog.cpp:922
+#: dvb/dvbconfigdialog.cpp:936
 #, kde-format
 msgid "Autoscan with 167 kHz Offsets"
 msgstr ""
 
-#: dvb/dvbconfigdialog.cpp:923
+#: dvb/dvbconfigdialog.cpp:937
 #, kde-format
 msgid "Autoscan Australia"
 msgstr ""
 
-#: dvb/dvbconfigdialog.cpp:924
+#: dvb/dvbconfigdialog.cpp:938
 #, kde-format
 msgid "Autoscan Italy"
 msgstr ""
 
-#: dvb/dvbconfigdialog.cpp:925
+#: dvb/dvbconfigdialog.cpp:939
 #, kde-format
 msgid "Autoscan Taiwan"
 msgstr ""
 
-#: dvb/dvbconfigdialog.cpp:928
+#: dvb/dvbconfigdialog.cpp:942
 #, kde-format
 msgid "Atsc"
 msgstr "Atsc"
 
-#: dvb/dvbconfigdialog.cpp:944 dvb/dvbconfigdialog.cpp:1073
+#: dvb/dvbconfigdialog.cpp:958 dvb/dvbconfigdialog.cpp:1087
 #, kde-format
 msgid "Tuner timeout (ms):"
 msgstr "Dem bihurîna eyarker (mç):"
 
-#: dvb/dvbconfigdialog.cpp:953 dvb/dvbscandialog.cpp:301
+#: dvb/dvbconfigdialog.cpp:967 dvb/dvbscandialog.cpp:301
 #, kde-format
 msgid "Source:"
 msgstr "Çavkanî:"
 
-#: dvb/dvbconfigdialog.cpp:956 dvb/dvbconfigdialog.cpp:1130
+#: dvb/dvbconfigdialog.cpp:970 dvb/dvbconfigdialog.cpp:1144
 #, fuzzy, kde-format
 #| msgid "No source"
 msgid "No Source"
 msgstr "Çavkanî tune ye"
 
-#: dvb/dvbconfigdialog.cpp:962
+#: dvb/dvbconfigdialog.cpp:976
 #, kde-format
 msgid "Name:"
 msgstr "Nav:"
 
-#: dvb/dvbconfigdialog.cpp:1081
+#: dvb/dvbconfigdialog.cpp:1095
 #, kde-format
 msgid "Use Higher LNBf voltage:"
 msgstr ""
 
-#: dvb/dvbconfigdialog.cpp:1087
+#: dvb/dvbconfigdialog.cpp:1101
 #, kde-format
 msgid ""
 "On some DVB devices, there's an extra control that allows to increase the \n"
@@ -764,123 +772,123 @@ msgid ""
 "- tristate (don't send the control)."
 msgstr ""
 
-#: dvb/dvbconfigdialog.cpp:1095
+#: dvb/dvbconfigdialog.cpp:1109
 #, kde-format
 msgid "Configuration:"
 msgstr "Mîhengkirin:"
 
-#: dvb/dvbconfigdialog.cpp:1098
+#: dvb/dvbconfigdialog.cpp:1112
 #, fuzzy, kde-format
 #| msgid "DiSEqC switch"
 msgid "DiSEqC Switch"
 msgstr "Derbasbûna DiSEqC"
 
-#: dvb/dvbconfigdialog.cpp:1099
+#: dvb/dvbconfigdialog.cpp:1113
 #, fuzzy, kde-format
 #| msgid "USALS rotor"
 msgid "USALS Rotor"
 msgstr "Rotora USALS"
 
-#: dvb/dvbconfigdialog.cpp:1100
+#: dvb/dvbconfigdialog.cpp:1114
 #, fuzzy, kde-format
 #| msgid "Positions rotor"
 msgid "Positions Rotor"
 msgstr "Rotor ê bicih bike"
 
-#: dvb/dvbconfigdialog.cpp:1101
+#: dvb/dvbconfigdialog.cpp:1115
 #, fuzzy, kde-format
 #| msgid "Cable"
 msgid "Disable DiSEqC"
 msgstr "Kablo"
 
-#: dvb/dvbconfigdialog.cpp:1119
+#: dvb/dvbconfigdialog.cpp:1133
 #, fuzzy, kde-format
 #| msgid "LNB %1 settings"
 msgid "LNB %1 Settings"
 msgstr "Mîhengên LNB %1"
 
-#: dvb/dvbconfigdialog.cpp:1148 dvb/dvbconfigdialog.cpp:1556
+#: dvb/dvbconfigdialog.cpp:1162 dvb/dvbconfigdialog.cpp:1570
 #, fuzzy, kde-format
 #| msgid "LNB settings"
 msgid "LNB Settings"
 msgstr "Mîhengên LNB"
 
-#: dvb/dvbconfigdialog.cpp:1166 dvb/dvbconfigdialog.cpp:1180
+#: dvb/dvbconfigdialog.cpp:1180 dvb/dvbconfigdialog.cpp:1194
 #, fuzzy, kde-format
 #| msgid "Add satellite"
 msgid "Add Satellite"
 msgstr "Dûvelang lê zêde bike"
 
-#: dvb/dvbconfigdialog.cpp:1189
+#: dvb/dvbconfigdialog.cpp:1203
 #, kde-format
 msgid "Satellite"
 msgstr "Dûvelang"
 
-#: dvb/dvbconfigdialog.cpp:1189
+#: dvb/dvbconfigdialog.cpp:1203
 #, kde-format
 msgid "Position"
 msgstr "Derawa"
 
-#: dvb/dvbconfigdialog.cpp:1206
+#: dvb/dvbconfigdialog.cpp:1220
 #, fuzzy, kde-format
 #| msgid "Remove satellite"
 msgid "Remove Satellite"
 msgstr "Dûvelangê rake"
 
-#: dvb/dvbconfigdialog.cpp:1219
+#: dvb/dvbconfigdialog.cpp:1233
 #, fuzzy, kde-format
 #| msgid "Enter a URL:"
 msgid "Your position:"
 msgstr "URL'ekê binivîse:"
 
-#: dvb/dvbconfigdialog.cpp:1224
+#: dvb/dvbconfigdialog.cpp:1238
 #, kde-format
 msgid "Latitude:"
 msgstr ""
 
-#: dvb/dvbconfigdialog.cpp:1229
+#: dvb/dvbconfigdialog.cpp:1243
 #, kde-format
 msgid "[S -90 ... 90 N]"
 msgstr ""
 
-#: dvb/dvbconfigdialog.cpp:1247
+#: dvb/dvbconfigdialog.cpp:1261
 #, kde-format
 msgid "Longitude:"
 msgstr ""
 
-#: dvb/dvbconfigdialog.cpp:1252
+#: dvb/dvbconfigdialog.cpp:1266
 #, kde-format
 msgid "[W -180 ... 180 E]"
 msgstr ""
 
-#: dvb/dvbconfigdialog.cpp:1601
+#: dvb/dvbconfigdialog.cpp:1615
 #, fuzzy, kde-format
 #| msgid "Switch frequency (MHz)"
 msgid "Low frequency (KHz)"
 msgstr "Derbasbûna frekansê (MHz)"
 
-#: dvb/dvbconfigdialog.cpp:1609
+#: dvb/dvbconfigdialog.cpp:1623
 #, fuzzy, kde-format
 #| msgid "Switch frequency (MHz)"
 msgid "High frequency (MHz)"
 msgstr "Derbasbûna frekansê (MHz)"
 
-#: dvb/dvbconfigdialog.cpp:1617
+#: dvb/dvbconfigdialog.cpp:1631
 #, kde-format
 msgid "Switch frequency (MHz)"
 msgstr "Derbasbûna frekansê (MHz)"
 
-#: dvb/dvbconfigdialog.cpp:1625 dvb/dvbconfigdialog.cpp:1672
+#: dvb/dvbconfigdialog.cpp:1639 dvb/dvbconfigdialog.cpp:1686
 #, kde-format
 msgid "Low range: %1 MHz to %2 MHz"
 msgstr ""
 
-#: dvb/dvbconfigdialog.cpp:1678
+#: dvb/dvbconfigdialog.cpp:1692
 #, kde-format
 msgid "Bandstacked"
 msgstr ""
 
-#: dvb/dvbconfigdialog.cpp:1682
+#: dvb/dvbconfigdialog.cpp:1696
 #, kde-format
 msgid "High range: %1 MHz to %2 MHz"
 msgstr ""
@@ -1714,7 +1722,7 @@ msgstr "SNR"
 msgid "Channels"
 msgstr "Kanal"
 
-#: dvb/dvbscandialog.cpp:288 playlist/playlisttab.cpp:410
+#: dvb/dvbscandialog.cpp:288 playlist/playlisttab.cpp:414
 #, fuzzy, kde-format
 #| msgid "Cable"
 msgctxt "remove all items from a list"
@@ -2799,61 +2807,61 @@ msgctxt "playlist track"
 msgid "Length"
 msgstr ""
 
-#: playlist/playlisttab.cpp:368
+#: playlist/playlisttab.cpp:372
 #, fuzzy, kde-format
 #| msgid "Play"
 msgctxt "playlist browser"
 msgid "Temporary Playlist"
 msgstr "Lê Bide"
 
-#: playlist/playlisttab.cpp:392
+#: playlist/playlisttab.cpp:396
 #, kde-format
 msgctxt "playlist menu"
 msgid "Repeat"
 msgstr ""
 
-#: playlist/playlisttab.cpp:397
+#: playlist/playlisttab.cpp:401
 #, fuzzy, kde-format
 #| msgid "Radio"
 msgctxt "playlist menu"
 msgid "Random"
 msgstr "Radyo"
 
-#: playlist/playlisttab.cpp:402
+#: playlist/playlisttab.cpp:406
 #, fuzzy, kde-format
 #| msgid "Add satellite"
 msgid "Add Subtitle"
 msgstr "Dûvelang lê zêde bike"
 
-#: playlist/playlisttab.cpp:416
+#: playlist/playlisttab.cpp:420
 #, fuzzy, kde-format
 #| msgid "New"
 msgctxt "@action:inmenu playlist"
 msgid "New"
 msgstr "Nû"
 
-#: playlist/playlisttab.cpp:421
+#: playlist/playlisttab.cpp:425
 #, fuzzy, kde-format
 #| msgid "Remove satellite"
 msgctxt "rename an entry in a list"
 msgid "Rename"
 msgstr "Dûvelangê rake"
 
-#: playlist/playlisttab.cpp:630
+#: playlist/playlisttab.cpp:634
 #, fuzzy, kde-format
 #| msgid "Play"
 msgctxt "playlist browser"
 msgid "Unnamed Playlist"
 msgstr "Lê Bide"
 
-#: playlist/playlisttab.cpp:834
+#: playlist/playlisttab.cpp:843
 #, fuzzy, kde-format
 #| msgid "Play Video CD"
 msgctxt "file filter"
 msgid "Subtitle Files"
 msgstr "CD ya Vîdeoyê Lê Bide"
 
-#: playlist/playlisttab.cpp:851
+#: playlist/playlisttab.cpp:860
 #, kde-format
 msgctxt "file filter"
 msgid ""
