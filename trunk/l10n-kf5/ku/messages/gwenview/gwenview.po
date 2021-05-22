@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gwenview\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-05-21 00:14+0000\n"
+"POT-Creation-Date: 2021-05-22 00:14+0000\n"
 "PO-Revision-Date: 2009-01-22 22:46+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -1593,10 +1593,17 @@ msgstr "Biçe wêneya serî ya hatiye guhertin"
 msgid "Go to it"
 msgstr "Biçe vê"
 
-#: app/savebar.cpp:296 app/savebar.cpp:300
+#: app/savebar.cpp:296 app/savebar.cpp:301
 #, kde-format
 msgid "Save All"
 msgstr "Hemûyan Tomar Bike"
+
+#: app/savebar.cpp:297
+#, fuzzy, kde-format
+#| msgid "Next modified image"
+msgctxt "@info:tooltip"
+msgid "Save all modified images"
+msgstr "Wêneya pêş ya hatiye guhertin"
 
 #: app/semanticinfocontextmanageritem.cpp:196
 #, kde-format
