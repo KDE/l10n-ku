@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: joystick\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-01-22 02:48+0100\n"
+"POT-Creation-Date: 2021-06-26 00:19+0000\n"
 "PO-Revision-Date: 2009-01-06 13:56+0200\n"
 "Last-Translator: Erdal Ronahi <erdal.ronahi@nospam.gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -28,32 +28,32 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "ezadin76@gmail.com"
 
-#: caldialog.cpp:42 joywidget.cpp:377
+#: caldialog.cpp:26 joywidget.cpp:344
 #, kde-format
 msgid "Calibration"
 msgstr "Pîvan"
 
-#: caldialog.cpp:56
+#: caldialog.cpp:40
 #, kde-format
 msgid "Next"
 msgstr "Pêşve"
 
-#: caldialog.cpp:68
+#: caldialog.cpp:50
 #, kde-format
 msgid "Please wait a moment to calculate the precision"
 msgstr "Tikaye raweste ta ku hûrî bên jimardin"
 
-#: caldialog.cpp:97
+#: caldialog.cpp:79
 #, kde-format
 msgid "(usually X)"
 msgstr "(bi asayî X)"
 
-#: caldialog.cpp:99
+#: caldialog.cpp:81
 #, kde-format
 msgid "(usually Y)"
 msgstr "(bi asayî Y)"
 
-#: caldialog.cpp:105
+#: caldialog.cpp:87
 #, kde-format
 msgid ""
 "<qt>Calibration is about to check the value range your device delivers.<br /"
@@ -66,7 +66,7 @@ msgstr ""
 ">Bişkokekî amûrê bi kar bîne yanjî  \" Pêşve\" bitepîne jibo bi gava li pêş "
 "berdewam bike .</qt>"
 
-#: caldialog.cpp:128
+#: caldialog.cpp:110
 #, kde-format
 msgid ""
 "<qt>Calibration is about to check the value range your device delivers.<br /"
@@ -79,7 +79,7 @@ msgstr ""
 ">Bişkokekî amûrê bi kar bîne yanjî  \" Pêşve\" bitepîne jibo bi gava li pêş "
 "berdewam bike .</qt>"
 
-#: caldialog.cpp:151
+#: caldialog.cpp:133
 #, kde-format
 msgid ""
 "<qt>Calibration is about to check the value range your device delivers.<br /"
@@ -92,42 +92,42 @@ msgstr ""
 ">Bişkokekî amûrê bi kar bîne yanjî  \" Pêşve\" bitepîne jibo bi gava li pêş "
 "berdewam bike .</qt>"
 
-#: caldialog.cpp:178 joywidget.cpp:367 joywidget.cpp:405
+#: caldialog.cpp:160 joywidget.cpp:334 joywidget.cpp:370
 #, kde-format
 msgid "Communication Error"
 msgstr "Çewtyeke ragihandinî"
 
-#: caldialog.cpp:182
+#: caldialog.cpp:164
 #, kde-format
 msgid "You have successfully calibrated your device"
 msgstr "Te amûra xwe bi serkeftin pîvand"
 
-#: caldialog.cpp:182 joywidget.cpp:407
+#: caldialog.cpp:164 joywidget.cpp:372
 #, kde-format
 msgid "Calibration Success"
 msgstr "Pîvandin bi serket"
 
-#: caldialog.cpp:204
+#: caldialog.cpp:184
 #, kde-format
 msgid "Value Axis %1: %2"
 msgstr "Nirxê tewere %1: %2"
 
-#: joydevice.cpp:59
+#: joydevice.cpp:41
 #, kde-format
 msgid "The given device %1 could not be opened: %2"
 msgstr "Ev Amûr %1 nehat vekirin: %2"
 
-#: joydevice.cpp:63
+#: joydevice.cpp:45
 #, kde-format
 msgid "The given device %1 is not a joystick."
 msgstr "Ev Amûr %1 ne joystick e."
 
-#: joydevice.cpp:67
+#: joydevice.cpp:49
 #, kde-format
 msgid "Could not get kernel driver version for joystick device %1: %2"
 msgstr "Guhertoya ajokarê kernel jibo amûrê joystick peyîde nebû %1: %2"
 
-#: joydevice.cpp:78
+#: joydevice.cpp:60
 #, kde-format
 msgid ""
 "The current running kernel driver version (%1.%2.%3) is not the one this "
@@ -136,58 +136,58 @@ msgstr ""
 "Guherto yê ajokarê kernel yê niha (%1.%2.%3) ne yê ku jêre ev module  berhev "
 "bûye (%4.%5.%6)."
 
-#: joydevice.cpp:89
+#: joydevice.cpp:71
 #, kde-format
 msgid "Could not get number of buttons for joystick device %1: %2"
 msgstr "Hijmara bişkokê amûrê joystick nehatin naskirin%1: %2"
 
-#: joydevice.cpp:93
+#: joydevice.cpp:75
 #, kde-format
 msgid "Could not get number of axes for joystick device %1: %2"
 msgstr "Hijmara tewere yê  amûrê joystick nehatin naskirin%1: %2"
 
-#: joydevice.cpp:97
+#: joydevice.cpp:79
 #, kde-format
 msgid "Could not get calibration values for joystick device %1: %2"
 msgstr "Nirxê pîvanê ya amûrê joystick nehatin naskirin %1: %2"
 
-#: joydevice.cpp:101
+#: joydevice.cpp:83
 #, kde-format
 msgid "Could not restore calibration values for joystick device %1: %2"
 msgstr "Nirxê pîvanê yê amûrê joystick nehatin vegerandin %1: %2"
 
-#: joydevice.cpp:105
+#: joydevice.cpp:87
 #, kde-format
 msgid "Could not initialize calibration values for joystick device %1: %2"
 msgstr "Nirxê pîvanê ya amûrê joystick nehatin destpêkirin %1: %2"
 
-#: joydevice.cpp:109
+#: joydevice.cpp:91
 #, kde-format
 msgid "Could not apply calibration values for joystick device %1: %2"
 msgstr "Nirxê pîvanê ya amûrê joystick  bikar nehatin %1: %2"
 
-#: joydevice.cpp:113
+#: joydevice.cpp:95
 #, kde-format
 msgid "internal error - code %1 unknown"
 msgstr "Çewetîyek hundirî - kod %1 nenas"
 
-#: joystick.cpp:47
+#: joystick.cpp:29
 #, kde-format
 msgid "KDE Joystick Control Module"
 msgstr "KDE Joystick Control Module"
 
-#: joystick.cpp:49
+#: joystick.cpp:31
 #, fuzzy, kde-format
 #| msgid "KDE Control Center Module to test Joysticks"
 msgid "KDE System Settings Module to test Joysticks"
 msgstr "KDE Control Center Module, Joystickan azmûne dike"
 
-#: joystick.cpp:51
+#: joystick.cpp:33
 #, kde-format
 msgid "(c) 2004, Martin Koller"
 msgstr "(c) 2004, Martin Koller"
 
-#: joystick.cpp:56
+#: joystick.cpp:38
 #, kde-format
 msgid ""
 "<h1>Joystick</h1>This module helps to check if your joystick is working "
@@ -215,53 +215,53 @@ msgstr ""
 "ul>(Jibo bihtirîn hûragahîyan temaşke li Linux source/Documentation/input/"
 "joystick.txt)"
 
-#: joywidget.cpp:47
+#: joywidget.cpp:33
 #, kde-format
 msgid "PRESSED"
 msgstr "TEPANDÎ"
 
-#: joywidget.cpp:89
+#: joywidget.cpp:72
 #, kde-format
 msgid "Device:"
 msgstr "Amûr:"
 
-#: joywidget.cpp:108
+#: joywidget.cpp:91
 #, kde-format
 msgctxt "Cue for deflection of the stick"
 msgid "Position:"
 msgstr "Cih:"
 
-#: joywidget.cpp:111
+#: joywidget.cpp:94
 #, kde-format
 msgid "Show trace"
 msgstr "Şopê diyar bike"
 
-#: joywidget.cpp:124
+#: joywidget.cpp:107
 #, kde-format
 msgid "Buttons:"
 msgstr "Bişkok:"
 
-#: joywidget.cpp:128
+#: joywidget.cpp:111
 #, kde-format
 msgid "State"
 msgstr "Rewş"
 
-#: joywidget.cpp:136
+#: joywidget.cpp:119
 #, kde-format
 msgid "Axes:"
 msgstr "Tewere:"
 
-#: joywidget.cpp:140
+#: joywidget.cpp:123
 #, kde-format
 msgid "Value"
 msgstr "Nirx"
 
-#: joywidget.cpp:153
+#: joywidget.cpp:136
 #, kde-format
 msgid "Calibrate"
 msgstr "Pîvan"
 
-#: joywidget.cpp:220
+#: joywidget.cpp:199
 #, kde-format
 msgid ""
 "No joystick device automatically found on this computer.<br />Checks were "
@@ -272,7 +272,7 @@ msgstr ""
 "di /dev/input/js[0-4] hate lêgerîn <br /> Heke tu dizane ku amûrek hatîye "
 "girêdan,tikaye doseya durust ya amûrê bide."
 
-#: joywidget.cpp:262
+#: joywidget.cpp:235
 #, kde-format
 msgid ""
 "The given device name is invalid (does not contain /dev).\n"
@@ -283,27 +283,27 @@ msgstr ""
 "Tikaye amûrekê ji lîstê hilbijêre yan\n"
 "dosya amûrekê bide, wek /dev/js0."
 
-#: joywidget.cpp:265
+#: joywidget.cpp:238
 #, kde-format
 msgid "Unknown Device"
 msgstr "Amûrek neneas"
 
-#: joywidget.cpp:283
+#: joywidget.cpp:256
 #, kde-format
 msgid "Device Error"
 msgstr "Çewtîyek amûrê"
 
-#: joywidget.cpp:303
+#: joywidget.cpp:274
 #, kde-format
 msgid "1(x)"
 msgstr "1(x)"
 
-#: joywidget.cpp:304
+#: joywidget.cpp:275
 #, kde-format
 msgid "2(y)"
 msgstr "2(y)"
 
-#: joywidget.cpp:373
+#: joywidget.cpp:340
 #, kde-format
 msgid ""
 "<qt>Calibration is about to check the precision.<br /><br /><b>Please move "
@@ -314,7 +314,7 @@ msgstr ""
 "navend û dest nede joystick.</b><br /><br />Jibo bidestpêkirna pîvan, Ok "
 "bitepî ne .</qt>"
 
-#: joywidget.cpp:407
+#: joywidget.cpp:372
 #, kde-format
 msgid "Restored all calibration values for joystick device %1."
 msgstr "Hemû nirxê pîvanê yê amûrê joystick vegerîne %1."
