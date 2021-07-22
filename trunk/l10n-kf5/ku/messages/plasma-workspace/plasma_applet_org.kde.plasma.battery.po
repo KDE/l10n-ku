@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_battery\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-05-26 00:21+0000\n"
+"POT-Creation-Date: 2021-07-22 00:18+0000\n"
 "PO-Revision-Date: 2008-12-26 00:33+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
@@ -117,9 +117,20 @@ msgstr ""
 msgid "&Configure Energy Saving…"
 msgstr "Zêdetir..."
 
-#: package/contents/ui/batterymonitor.qml:239
+#: package/contents/ui/batterymonitor.qml:245
 #, kde-format
 msgid "The battery applet has enabled system-wide inhibition"
+msgstr ""
+
+#: package/contents/ui/batterymonitor.qml:296
+#, fuzzy, kde-format
+#| msgid "Screen Brightness"
+msgid "Battery and Brightness"
+msgstr "Ronahiya Dîmenê"
+
+#: package/contents/ui/batterymonitor.qml:299
+#, kde-format
+msgid "Failed to activate %1 mode"
 msgstr ""
 
 #: package/contents/ui/BrightnessItem.qml:69
@@ -184,13 +195,13 @@ msgctxt "Placeholder is battery health percentage"
 msgid "%1%"
 msgstr ""
 
-#: package/contents/ui/PopupDialog.qml:68
+#: package/contents/ui/PopupDialog.qml:73
 #, fuzzy, kde-format
 #| msgid "Screen Brightness"
 msgid "Display Brightness"
 msgstr "Ronahiya Dîmenê"
 
-#: package/contents/ui/PopupDialog.qml:92
+#: package/contents/ui/PopupDialog.qml:97
 #, fuzzy, kde-format
 #| msgid "Screen Brightness"
 msgid "Keyboard Brightness"
@@ -239,6 +250,45 @@ msgctxt "Application name: reason for preventing sleep and screen locking"
 msgid "%1: unknown reason"
 msgstr ""
 
+#: package/contents/ui/PowerProfileItem.qml:51
+#, fuzzy, kde-format
+#| msgid "Power Profile"
+msgid "Power Profile"
+msgstr "Profîla Hêzê"
+
+#: package/contents/ui/PowerProfileItem.qml:59
+#, kde-format
+msgid "Power Save"
+msgstr ""
+
+#: package/contents/ui/PowerProfileItem.qml:63
+#, kde-format
+msgid "Balanced"
+msgstr ""
+
+#: package/contents/ui/PowerProfileItem.qml:67
+#, kde-format
+msgid "Performance"
+msgstr ""
+
+#: package/contents/ui/PowerProfileItem.qml:117
+#, kde-format
+msgid ""
+"Performance mode is unavailable because the computer has detected it is "
+"sitting on your lap."
+msgstr ""
+
+#: package/contents/ui/PowerProfileItem.qml:119
+#, kde-format
+msgid ""
+"Performance mode is unavailable because the computer is running too hot."
+msgstr ""
+
+#: package/contents/ui/PowerProfileItem.qml:121
+#, kde-format
+msgid "Performance may be reduced."
+msgstr ""
+
 #~ msgid "General"
 #~ msgstr "Giştî"
 
@@ -256,11 +306,6 @@ msgstr ""
 #~| msgid "Power Management"
 #~ msgid "Enable Power Management"
 #~ msgstr "Rêveberiya Hezê"
-
-#, fuzzy
-#~| msgid "Screen Brightness"
-#~ msgid "Battery and Brightness"
-#~ msgstr "Ronahiya Dîmenê"
 
 #, fuzzy
 #~| msgctxt "Shown when a time estimate is not available"
@@ -394,11 +439,6 @@ msgstr ""
 #~ msgctxt "tooltip: placeholder is the battery ID"
 #~ msgid "<b>Battery %1:</b>"
 #~ msgstr "<b>Pîl %1:</b> %2% (tê şarj kirin)<br /> "
-
-#, fuzzy
-#~| msgid "Power Profile"
-#~ msgid "Power Profile:"
-#~ msgstr "Profîla Hêzê"
 
 #, fuzzy
 #~| msgid "AC Adapter"
