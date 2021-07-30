@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: systemsettings\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-07-28 00:19+0000\n"
+"POT-Creation-Date: 2021-07-30 00:18+0000\n"
 "PO-Revision-Date: 2008-12-23 02:09+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <ubuntu-l10n-kur@lists.ubuntu.com>\n"
@@ -40,7 +40,7 @@ msgstr ""
 msgid "Show detailed tooltips"
 msgstr ""
 
-#: app/main.cpp:82 app/SettingsBase.cpp:64
+#: app/main.cpp:82 app/SettingsBase.cpp:63
 #, kde-format
 msgid "Info Center"
 msgstr ""
@@ -55,7 +55,7 @@ msgstr ""
 msgid "(c) 2009, Ben Cooksley"
 msgstr ""
 
-#: app/main.cpp:93 app/SettingsBase.cpp:67
+#: app/main.cpp:93 app/SettingsBase.cpp:66 runner/systemsettingsrunner.cpp:215
 #: sidebar/package/contents/ui/introPage.qml:63
 #, kde-format
 msgid "System Settings"
@@ -122,62 +122,56 @@ msgstr ""
 msgid "No description available"
 msgstr ""
 
-#: app/SettingsBase.cpp:56
+#: app/SettingsBase.cpp:55
 #, fuzzy, kde-format
 #| msgid "S&earch:"
 msgctxt "Search through a list of control modules"
 msgid "Search"
 msgstr "&Lêgerîn:"
 
-#: app/SettingsBase.cpp:165
+#: app/SettingsBase.cpp:164
 #, fuzzy, kde-format
 #| msgid "Configure"
 msgid "Configure…"
 msgstr "Veavakirin"
 
-#: app/SettingsBase.cpp:196
+#: app/SettingsBase.cpp:195
 #, kde-format
 msgid "Help"
 msgstr ""
 
-#: app/SettingsBase.cpp:201 app/SettingsBase.cpp:459
-#, fuzzy, kde-format
-#| msgid "About Current Module"
-msgid "About Active Module"
-msgstr "Di Derbarê Modula Derbasdar de"
-
-#: app/SettingsBase.cpp:215
+#: app/SettingsBase.cpp:212
 #, kde-format
 msgctxt "General config for System Settings"
 msgid "General"
 msgstr ""
 
-#: app/SettingsBase.cpp:342
+#: app/SettingsBase.cpp:339
 #, kde-format
 msgid ""
 "System Settings was unable to find any views, and hence nothing is available "
 "to configure."
 msgstr ""
 
-#: app/SettingsBase.cpp:342 app/SettingsBase.cpp:405
+#: app/SettingsBase.cpp:339 app/SettingsBase.cpp:400
 #, kde-format
 msgid "No views found"
 msgstr ""
 
-#: app/SettingsBase.cpp:405
+#: app/SettingsBase.cpp:400
 #, kde-format
 msgid ""
 "System Settings was unable to find any views, and hence has nothing to "
 "display."
 msgstr ""
 
-#: app/SettingsBase.cpp:439
+#: app/SettingsBase.cpp:434
 #, fuzzy, kde-format
 #| msgid "About Current Module"
 msgid "About Active View"
 msgstr "Di Derbarê Modula Derbasdar de"
 
-#: app/SettingsBase.cpp:509
+#: app/SettingsBase.cpp:503
 #, kde-format
 msgid "About %1"
 msgstr ""
@@ -195,7 +189,7 @@ msgid "Internal name for the view used"
 msgstr ""
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: app/systemsettingsui.rc:16
+#: app/systemsettingsui.rc:15
 #, fuzzy, kde-format
 #| msgid "System Settings"
 msgid "About System Settings"
@@ -229,7 +223,7 @@ msgstr ""
 msgid "Reset all current changes to previous values"
 msgstr ""
 
-#: core/ModuleView.cpp:335
+#: core/ModuleView.cpp:325
 #, fuzzy, kde-format
 #| msgid ""
 #| "There are unsaved changes in the active module.\n"
@@ -241,7 +235,7 @@ msgstr ""
 "Di modulên çalak de guhertinên netomarkirî hene.\n"
 "Dixwazî guhertinan bisepînî an jî derbas bibî?"
 
-#: core/ModuleView.cpp:337
+#: core/ModuleView.cpp:327
 #, fuzzy, kde-format
 #| msgid "System Settings"
 msgid "Apply Settings"
@@ -272,6 +266,17 @@ msgstr "Mîhengên Pergalê"
 #: icons/IconMode.cpp:66
 #, kde-format
 msgid "Keyboard Shortcut: %1"
+msgstr ""
+
+#: runner/systemsettingsrunner.cpp:213
+#, fuzzy, kde-format
+#| msgid "System Settings"
+msgid "System Information"
+msgstr "Mîhengên Pergalê"
+
+#: runner/systemsettingsrunner.cpp:241
+#, kde-format
+msgid "Finds system settings modules whose names or descriptions match :q:"
 msgstr ""
 
 #: sidebar/package/contents/ui/CategoriesPage.qml:54
@@ -360,6 +365,11 @@ msgid "<i>Contains 1 item</i>"
 msgid_plural "<i>Contains %1 items</i>"
 msgstr[0] ""
 msgstr[1] ""
+
+#, fuzzy
+#~| msgid "About Current Module"
+#~ msgid "About Active Module"
+#~ msgstr "Di Derbarê Modula Derbasdar de"
 
 #, fuzzy
 #~| msgid "Configure"
