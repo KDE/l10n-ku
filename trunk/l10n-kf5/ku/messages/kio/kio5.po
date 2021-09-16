@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-09-15 00:15+0000\n"
+"POT-Creation-Date: 2021-09-16 00:14+0000\n"
 "PO-Revision-Date: 2009-01-06 14:34+0200\n"
 "Last-Translator: Erdal Ronahi <erdal.ronahi@nospam.gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -336,7 +336,7 @@ msgid ""
 "continue?"
 msgstr ""
 
-#: core/job.cpp:296 ioslaves/file/file_unix.cpp:116
+#: core/job.cpp:296 ioslaves/file/file_unix.cpp:120
 #, fuzzy, kde-format
 #| msgid "&Rename"
 msgid "Rename"
@@ -349,7 +349,7 @@ msgid ""
 msgstr ""
 
 #: core/job.cpp:302 filewidgets/knewfilemenu.cpp:607
-#: ioslaves/file/file_unix.cpp:120
+#: ioslaves/file/file_unix.cpp:124
 #, kde-format
 msgid "Create Symlink"
 msgstr ""
@@ -2083,17 +2083,17 @@ msgstr ""
 msgid "Undocumented Error"
 msgstr ""
 
-#: core/kfileitem.cpp:1325
+#: core/kfileitem.cpp:1349
 #, kde-format
 msgid "(Symbolic Link to %1)"
 msgstr ""
 
-#: core/kfileitem.cpp:1327
+#: core/kfileitem.cpp:1351
 #, kde-format
 msgid "(%1, Link to %2)"
 msgstr ""
 
-#: core/kfileitem.cpp:1330
+#: core/kfileitem.cpp:1354
 #, kde-format
 msgid " (Points to %1)"
 msgstr ""
@@ -3698,89 +3698,89 @@ msgstr ""
 msgid "Could not find program \"umount\""
 msgstr ""
 
-#: ioslaves/file/file_unix.cpp:92
+#: ioslaves/file/file_unix.cpp:96
 #, fuzzy, kde-format
 #| msgid "A&dvanced Permissions"
 msgid "Change File Permissions"
 msgstr "Destûrên &Pêşketî"
 
-#: ioslaves/file/file_unix.cpp:93
+#: ioslaves/file/file_unix.cpp:97
 #, fuzzy, kde-format
 #| msgid "&Permissions"
 msgid "New Permissions: %1"
 msgstr "&Destûr"
 
-#: ioslaves/file/file_unix.cpp:96
+#: ioslaves/file/file_unix.cpp:100
 #, kde-format
 msgid "Change File Owner"
 msgstr ""
 
-#: ioslaves/file/file_unix.cpp:97
+#: ioslaves/file/file_unix.cpp:101
 #, kde-format
 msgid "New Owner: UID=%1, GID=%2"
 msgstr ""
 
-#: ioslaves/file/file_unix.cpp:100
+#: ioslaves/file/file_unix.cpp:104
 #, fuzzy, kde-format
 #| msgid "Remove"
 msgid "Remove File"
 msgstr "Rakirin"
 
-#: ioslaves/file/file_unix.cpp:103
+#: ioslaves/file/file_unix.cpp:107
 #, fuzzy, kde-format
 #| msgid "Directory"
 msgid "Remove Directory"
 msgstr "Pelrêç"
 
 # msgctxt "@title job"
-#: ioslaves/file/file_unix.cpp:106
+#: ioslaves/file/file_unix.cpp:110
 #, fuzzy, kde-format
 #| msgid "Creating directory"
 msgid "Create Directory"
 msgstr "Pelrêç tê afirandin"
 
-#: ioslaves/file/file_unix.cpp:107
+#: ioslaves/file/file_unix.cpp:111
 #, fuzzy, kde-format
 #| msgid "Access Permissions"
 msgid "Directory Permissions: %1"
 msgstr "Destûrên Gihîştinê"
 
-#: ioslaves/file/file_unix.cpp:110
+#: ioslaves/file/file_unix.cpp:114
 #, fuzzy, kde-format
 #| msgid "1 file"
 #| msgid_plural "%1 files"
 msgid "Open File"
 msgstr "1 pel"
 
-#: ioslaves/file/file_unix.cpp:113
+#: ioslaves/file/file_unix.cpp:117
 #, fuzzy, kde-format
 #| msgid "Directory"
 msgid "Open Directory"
 msgstr "Pelrêç"
 
-#: ioslaves/file/file_unix.cpp:117
+#: ioslaves/file/file_unix.cpp:121
 #, fuzzy, kde-format
 #| msgid "File system:"
 msgid "New Filename: %1"
 msgstr "Pergala pelan:"
 
-#: ioslaves/file/file_unix.cpp:121
+#: ioslaves/file/file_unix.cpp:125
 #, kde-format
 msgid "Target: %1"
 msgstr ""
 
-#: ioslaves/file/file_unix.cpp:124
+#: ioslaves/file/file_unix.cpp:128
 #, kde-format
 msgid "Change Timestamp"
 msgstr ""
 
-#: ioslaves/file/file_unix.cpp:127
+#: ioslaves/file/file_unix.cpp:131
 #, fuzzy, kde-format
 #| msgid "Unknown Error"
 msgid "Unknown Action"
 msgstr "Çewtiya Nenas"
 
-#: ioslaves/file/file_unix.cpp:132
+#: ioslaves/file/file_unix.cpp:136
 #, kde-format
 msgid ""
 "Action: %1\n"
@@ -3788,17 +3788,17 @@ msgid ""
 "%3"
 msgstr ""
 
-#: ioslaves/file/file_unix.cpp:889
+#: ioslaves/file/file_unix.cpp:835
 #, kde-format
 msgid "Cannot copy file from %1 to %2. (Errno: %3)"
 msgstr ""
 
-#: ioslaves/file/file_unix.cpp:1131
+#: ioslaves/file/file_unix.cpp:1077
 #, kde-format
 msgid "No media in device for %1"
 msgstr ""
 
-#: ioslaves/file/file_unix.cpp:1357
+#: ioslaves/file/file_unix.cpp:1303
 #, kde-format
 msgctxt ""
 "The first arg is the path to the symlink that couldn't be created, the "
@@ -3808,12 +3808,12 @@ msgid ""
 "The destination filesystem (%2) doesn't support symlinks."
 msgstr ""
 
-#: ioslaves/file/file_unix.cpp:1442
+#: ioslaves/file/file_unix.cpp:1388
 #, kde-format
 msgid "Could not get user id for given user name %1"
 msgstr ""
 
-#: ioslaves/file/file_unix.cpp:1454
+#: ioslaves/file/file_unix.cpp:1400
 #, kde-format
 msgid "Could not get group id for given group name %1"
 msgstr ""
