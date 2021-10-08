@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-09-11 00:14+0000\n"
+"POT-Creation-Date: 2021-10-08 00:14+0000\n"
 "PO-Revision-Date: 2010-08-13 15:45+0200\n"
 "Last-Translator: Erdal Ronahî <erdal.ronahi@nospam.gmail.com>\n"
 "Language-Team: Kurdish Team http://pckurd.net\n"
@@ -36,61 +36,24 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "erdal.ronahi@nospam.gmail.com"
 
-#: kcmoduleloader.cpp:68
-#, kde-format
-msgid "The module %1 could not be found."
-msgstr "Modula %1 nehate dîtin."
-
-#: kcmoduleloader.cpp:69
-#, kde-format
-msgid ""
-"<qt><p>The diagnosis is:<br />The desktop file %1 could not be found.</p></"
-"qt>"
-msgstr "<qt><p>Teşhîs:<br />Pelê sermasê ya %1 nehatiye dîtin.</p></qt>"
-
-#: kcmoduleloader.cpp:75 kcmoduleloader.cpp:164
+#: kcmoduleloader.cpp:57 kcmoduleloader.cpp:142
 #, kde-format
 msgid "The module %1 is disabled."
 msgstr "Modula %1 neçalak e."
 
-#: kcmoduleloader.cpp:76
-#, kde-format
-msgid ""
-"<qt><p>Either the hardware/software the module configures is not available "
-"or the module has been disabled by the administrator.</p></qt>"
-msgstr ""
-
-#: kcmoduleloader.cpp:99 kcmoduleloader.cpp:192
-#, fuzzy, kde-format
-#| msgid "Error loading '%1'.\n"
-msgid "Error loading QML file."
-msgstr "Dema '%1' dihate barkirin çewtî çêbû.\n"
-
-#: kcmoduleloader.cpp:107
-#, fuzzy, kde-format
-#| msgid "Error loading '%1'.\n"
-msgid "Error loading config module"
-msgstr "Dema '%1' dihate barkirin çewtî çêbû.\n"
-
-#: kcmoduleloader.cpp:154
-#, kde-format
-msgid "The module %1 is not a valid configuration module."
-msgstr "%1 ne moduleke veavakirinê ya derbasdar e."
-
-#: kcmoduleloader.cpp:155
-#, kde-format
-msgid ""
-"<qt>The diagnosis is:<br />The desktop file %1 does not specify a library.</"
-"qt>"
-msgstr "<qt>Teşhîs:<br />Pelê sermasê ya %1 pirtûkxaneyekê nade nasandin.</qt>"
-
-#: kcmoduleloader.cpp:165
+#: kcmoduleloader.cpp:58
 #, fuzzy, kde-format
 #| msgid "Please contact your system administrator."
 msgid "The module has been disabled by the system administrator."
 msgstr "Ji kerema xwe re bi gerînendeyê pergalê têkeve têkiliyê."
 
-#: kcmoduleloader.cpp:229
+#: kcmoduleloader.cpp:85 kcmoduleloader.cpp:166
+#, fuzzy, kde-format
+#| msgid "Error loading '%1'.\n"
+msgid "Error loading QML file."
+msgstr "Dema '%1' dihate barkirin çewtî çêbû.\n"
+
+#: kcmoduleloader.cpp:104
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt><p>Possible reasons:<ul><li>An error occurred during your last KDE "
@@ -111,6 +74,43 @@ msgstr ""
 "mijaran baş bihizire û di peyamên çewtiyan de heta ji te hat modula ku tê "
 "bibîranîn jê bibe. Heke ev tişt, pirsê çareser neke hewl bide bi belavkar û "
 "pakêtkerê xwe re têkeve têkiliyê.</p></qt>"
+
+#: kcmoduleloader.cpp:135
+#, kde-format
+msgid "The module %1 could not be found."
+msgstr "Modula %1 nehate dîtin."
+
+#: kcmoduleloader.cpp:136
+#, kde-format
+msgid ""
+"<qt><p>The diagnosis is:<br />The desktop file %1 could not be found.</p></"
+"qt>"
+msgstr "<qt><p>Teşhîs:<br />Pelê sermasê ya %1 nehatiye dîtin.</p></qt>"
+
+#: kcmoduleloader.cpp:143
+#, kde-format
+msgid ""
+"<qt><p>Either the hardware/software the module configures is not available "
+"or the module has been disabled by the administrator.</p></qt>"
+msgstr ""
+
+#: kcmoduleloader.cpp:174
+#, fuzzy, kde-format
+#| msgid "Error loading '%1'.\n"
+msgid "Error loading config module"
+msgstr "Dema '%1' dihate barkirin çewtî çêbû.\n"
+
+#: kcmoduleloader.cpp:221
+#, kde-format
+msgid "The module %1 is not a valid configuration module."
+msgstr "%1 ne moduleke veavakirinê ya derbasdar e."
+
+#: kcmoduleloader.cpp:222
+#, kde-format
+msgid ""
+"<qt>The diagnosis is:<br />The desktop file %1 does not specify a library.</"
+"qt>"
+msgstr "<qt>Teşhîs:<br />Pelê sermasê ya %1 pirtûkxaneyekê nade nasandin.</qt>"
 
 #: kcmoduleproxy.cpp:105
 #, kde-format
@@ -136,7 +136,7 @@ msgstr ""
 msgid "Apply Settings"
 msgstr "Mîheng"
 
-#: kcmultidialog.cpp:245 kpluginselector.cpp:805
+#: kcmultidialog.cpp:259 kpluginselector.cpp:805
 #, kde-format
 msgid "Configure"
 msgstr "Veavakirin"
