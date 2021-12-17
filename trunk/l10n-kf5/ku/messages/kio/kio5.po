@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-16 00:41+0000\n"
+"POT-Creation-Date: 2021-12-17 00:40+0000\n"
 "PO-Revision-Date: 2009-01-06 14:34+0200\n"
 "Last-Translator: Erdal Ronahi <erdal.ronahi@nospam.gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -2100,17 +2100,17 @@ msgstr ""
 msgid "Undocumented Error"
 msgstr ""
 
-#: core/kfileitem.cpp:1348
+#: core/kfileitem.cpp:1352
 #, kde-format
 msgid "(Symbolic Link to %1)"
 msgstr ""
 
-#: core/kfileitem.cpp:1350
+#: core/kfileitem.cpp:1354
 #, kde-format
 msgid "(%1, Link to %2)"
 msgstr ""
 
-#: core/kfileitem.cpp:1353
+#: core/kfileitem.cpp:1357
 #, kde-format
 msgid " (Points to %1)"
 msgstr ""
@@ -2891,39 +2891,45 @@ msgctxt "KFile System Bookmarks"
 msgid "Audio"
 msgstr "Tevî Wêne"
 
-#: filewidgets/kfileplacesmodel.cpp:1373
+#: filewidgets/kfileplacesmodel.cpp:1372
 #, fuzzy, kde-format
 #| msgid "&Safely remove '%1'"
-msgid "&Release '%1'"
+msgctxt "@action:inmenu"
+msgid "&Release"
 msgstr "'%1' bi &ewlehî derxe"
 
-#: filewidgets/kfileplacesmodel.cpp:1375
+#: filewidgets/kfileplacesmodel.cpp:1374
 #, fuzzy, kde-format
 #| msgid "&Safely remove '%1'"
-msgid "&Safely Remove '%1'"
+msgctxt "@action:inmenu"
+msgid "&Safely Remove"
 msgstr "'%1' bi &ewlehî derxe"
 
-#: filewidgets/kfileplacesmodel.cpp:1378
-#, kde-format
-msgid "&Unmount '%1'"
-msgstr "'%1' ve&qetîne"
+#: filewidgets/kfileplacesmodel.cpp:1377
+#, fuzzy, kde-format
+#| msgid "Unmount"
+msgctxt "@action:inmenu"
+msgid "&Unmount"
+msgstr "Veqetandin"
 
-#: filewidgets/kfileplacesmodel.cpp:1398
-#, kde-format
-msgid "&Eject '%1'"
-msgstr " '%1' &biavê derve"
+#: filewidgets/kfileplacesmodel.cpp:1396
+#, fuzzy, kde-format
+#| msgid "Eject"
+msgctxt "@action:inmenu"
+msgid "&Eject"
+msgstr "Avêtin"
 
-#: filewidgets/kfileplacesmodel.cpp:1434
+#: filewidgets/kfileplacesmodel.cpp:1432
 #, kde-format
 msgid "The device '%1' is not a disk and cannot be ejected."
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:1469
+#: filewidgets/kfileplacesmodel.cpp:1467
 #, kde-format
 msgid "An error occurred while accessing '%1', the system responded: %2"
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:1471
+#: filewidgets/kfileplacesmodel.cpp:1469
 #, kde-format
 msgid "An error occurred while accessing '%1'"
 msgstr ""
@@ -8535,6 +8541,12 @@ msgstr ""
 msgid "If you do not trust this program, click Cancel"
 msgstr ""
 
+#~ msgid "&Unmount '%1'"
+#~ msgstr "'%1' ve&qetîne"
+
+#~ msgid "&Eject '%1'"
+#~ msgstr " '%1' &biavê derve"
+
 #, fuzzy
 #~| msgid "&Safely remove '%1'"
 #~ msgid "&Remove Entry '%1'"
@@ -8550,9 +8562,6 @@ msgstr ""
 #~| msgid "Creating directory"
 #~ msgid "Create New File Type"
 #~ msgstr "Pelrêç tê afirandin"
-
-#~ msgid "Eject"
-#~ msgstr "Avêtin"
 
 #, fuzzy
 #~| msgid "File system:"
