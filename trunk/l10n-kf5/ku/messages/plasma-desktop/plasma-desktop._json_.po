@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-18 00:56+0000\n"
+"POT-Creation-Date: 2021-12-22 00:56+0000\n"
 "PO-Revision-Date: 2009-01-06 01:24+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -163,10 +163,18 @@ msgctxt "Name"
 msgid "Background Services"
 msgstr ""
 
-#: kcms/keyboard/keyboard.json
+#: kcms/keyboard/kcm_keyboard.json
 msgctxt "Name"
 msgid "Keyboard"
 msgstr "Klavye"
+
+#: kcms/keyboard/kded_keyboard.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Keyboard Layout"
+msgctxt "Name"
+msgid "Keyboard Daemon"
+msgstr "Rengê Klavyeyê"
 
 #: kcms/keys/kcm_keys.json
 #, fuzzy
@@ -463,13 +471,18 @@ msgctxt "Description"
 msgid "Configure background services"
 msgstr "Mîhengên Dem û Demjimêrê"
 
-#: kcms/keyboard/keyboard.json
+#: kcms/keyboard/kcm_keyboard.json
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Keyboard Layout"
 msgctxt "Description"
 msgid "Keyboard Hardware and Layout"
 msgstr "Rengê Klavyeyê"
+
+#: kcms/keyboard/kded_keyboard.json
+msgctxt "Description"
+msgid "Enables switching keyboard layout through shortcuts or system tray"
+msgstr ""
 
 #: kcms/keys/kcm_keys.json
 #, fuzzy
@@ -856,13 +869,6 @@ msgstr "Parçeyê Bibîne"
 #~ msgctxt "X-KDE-Keywords"
 #~ msgid "KDED,daemon,services,background,ram"
 #~ msgstr "Bergehê Dolphin"
-
-#, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Keyboard Layout"
-#~ msgctxt "Name"
-#~ msgid "Keyboard Daemon"
-#~ msgstr "Rengê Klavyeyê"
 
 #, fuzzy
 #~| msgctxt "Name"
