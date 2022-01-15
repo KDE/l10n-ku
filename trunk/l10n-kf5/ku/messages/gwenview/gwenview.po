@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gwenview\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-01-11 00:42+0000\n"
+"POT-Creation-Date: 2022-01-15 00:41+0000\n"
 "PO-Revision-Date: 2009-01-22 22:46+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
@@ -133,8 +133,8 @@ msgctxt "@action:inmenu a spacer that aligns toolbar buttons with the sidebar"
 msgid "Sidebar Alignment Spacer"
 msgstr ""
 
-#: app/browsemainpage.cpp:146 app/mainwindow.cpp:372 app/viewmainpage.cpp:422
-#: lib/documentview/documentviewcontroller.cpp:66
+#: app/browsemainpage.cpp:146 app/mainwindow.cpp:372 app/viewmainpage.cpp:417
+#: lib/documentview/documentviewcontroller.cpp:57
 #, kde-format
 msgctxt "@title actions category - means actions changing smth in interface"
 msgid "View"
@@ -617,7 +617,7 @@ msgctxt "@info:tooltip"
 msgid "Configure full screen mode"
 msgstr "Moda Dîmender Tijî Veava Bike"
 
-#: app/fullscreencontent.cpp:552 app/viewmainpage.cpp:401
+#: app/fullscreencontent.cpp:552 app/viewmainpage.cpp:396
 #, kde-format
 msgctxt "@info:status %1 current document index, %2 total documents"
 msgid "%1 of %2"
@@ -734,12 +734,12 @@ msgstr ""
 msgid "None"
 msgstr ""
 
-#: app/gvcore.cpp:81
+#: app/gvcore.cpp:80
 #, kde-format
 msgid "Image quality:"
 msgstr ""
 
-#: app/gvcore.cpp:88
+#: app/gvcore.cpp:87
 #, fuzzy, kde-format
 #| msgctxt "@info:tooltip of custom toolbar button"
 #| msgid "%1"
@@ -747,7 +747,7 @@ msgctxt "Spinbox suffix; percentage 1 - 100"
 msgid "%"
 msgstr "%1"
 
-#: app/gvcore.cpp:113
+#: app/gvcore.cpp:112
 #, fuzzy, kde-format
 #| msgctxt "@title:window"
 #| msgid "Open Image"
@@ -1675,31 +1675,31 @@ msgstr ""
 "Lêborîne, nihêrîna bi etîket re tune ye. Baş bizane ku Nepomuk di komputera "
 "te de saz kirî ye."
 
-#: app/viewmainpage.cpp:156 app/viewmainpage.cpp:432
+#: app/viewmainpage.cpp:153 app/viewmainpage.cpp:427
 #, kde-format
 msgid "Synchronize"
 msgstr ""
 
-#: app/viewmainpage.cpp:425
+#: app/viewmainpage.cpp:420
 #, fuzzy, kde-format
 #| msgid "Show thumbnails"
 msgid "Show Thumbnails"
 msgstr "Wêneyên biçûk nîşan bide"
 
-#: app/viewmainpage.cpp:555
+#: app/viewmainpage.cpp:550
 #, fuzzy, kde-format
 #| msgid "&View background color:"
 msgctxt "@item:inmenu"
 msgid "Background Color Mode"
 msgstr "Rengê rûerdê &bibîne:"
 
-#: app/viewmainpage.cpp:747
+#: app/viewmainpage.cpp:742
 #, kde-format
 msgctxt "@action:button"
 msgid "Discard Changes and Reload"
 msgstr "Guherandin û Nû ve Barkirinê Jê Bavêje"
 
-#: app/viewmainpage.cpp:749
+#: app/viewmainpage.cpp:744
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -2127,13 +2127,6 @@ msgstr "Wêneya vekirî hatiye guhertin"
 msgid "Developer"
 msgstr "Pêşvebirê Bingehîn"
 
-#: lib/backgroundcolorwidget/backgroundcolorwidget.cpp:77
-#, fuzzy, kde-format
-#| msgid "&View background color:"
-msgctxt "@label:chooser Describes what a row of buttons control"
-msgid "Background color:"
-msgstr "Rengê rûerdê &bibîne:"
-
 #: lib/crop/cropwidget.cpp:190
 #, fuzzy, kde-format
 #| msgid "Print Image"
@@ -2307,24 +2300,24 @@ msgstr "Gwenview nizane ku belgeyên vê cureyê çawa nîşan bide"
 msgid "Loading <filename>%1</filename> failed"
 msgstr "Barkirina <filename>%1</filename> pêk nehat"
 
-#: lib/documentview/documentviewcontroller.cpp:72
+#: lib/documentview/documentviewcontroller.cpp:63
 #, fuzzy, kde-format
 #| msgid "Zoom to Fit"
 msgid "Zoom to fit"
 msgstr "Bicihbûna Tam"
 
-#: lib/documentview/documentviewcontroller.cpp:74
+#: lib/documentview/documentviewcontroller.cpp:65
 #, kde-format
 msgctxt "@action:button Zoom to fit, shown in status bar, keep it short please"
 msgid "Fit"
 msgstr "Lihevkirin"
 
-#: lib/documentview/documentviewcontroller.cpp:79
+#: lib/documentview/documentviewcontroller.cpp:70
 #, kde-format
 msgid "Zoom to fill window by fitting to width or height"
 msgstr ""
 
-#: lib/documentview/documentviewcontroller.cpp:81
+#: lib/documentview/documentviewcontroller.cpp:72
 #, kde-format
 msgctxt ""
 "@action:button Zoom to fill (fit width or height), shown in status bar, keep "
@@ -2332,30 +2325,30 @@ msgctxt ""
 msgid "Fill"
 msgstr ""
 
-#: lib/documentview/documentviewcontroller.cpp:94
+#: lib/documentview/documentviewcontroller.cpp:85
 #, kde-format
 msgid "Show Bird's Eye View When Zoomed In"
 msgstr ""
 
-#: lib/documentview/documentviewcontroller.cpp:101
+#: lib/documentview/documentviewcontroller.cpp:92
 #, kde-format
 msgctxt "@action"
 msgid "Follow color scheme"
 msgstr ""
 
-#: lib/documentview/documentviewcontroller.cpp:108
+#: lib/documentview/documentviewcontroller.cpp:98
 #, kde-format
 msgctxt "@action"
 msgid "Light Mode"
 msgstr ""
 
-#: lib/documentview/documentviewcontroller.cpp:115
+#: lib/documentview/documentviewcontroller.cpp:104
 #, kde-format
 msgctxt "@action"
 msgid "Neutral Mode"
 msgstr ""
 
-#: lib/documentview/documentviewcontroller.cpp:122
+#: lib/documentview/documentviewcontroller.cpp:110
 #, kde-format
 msgctxt "@action"
 msgid "Dark Mode"
@@ -2786,6 +2779,12 @@ msgstr "&Pel"
 #, kde-format
 msgid "&View"
 msgstr "&Bibîne"
+
+#, fuzzy
+#~| msgid "&View background color:"
+#~ msgctxt "@label:chooser Describes what a row of buttons control"
+#~ msgid "Background color:"
+#~ msgstr "Rengê rûerdê &bibîne:"
 
 #~ msgid "&Plugins"
 #~ msgstr "&Plugin"
