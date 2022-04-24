@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-01-30 00:41+0000\n"
+"POT-Creation-Date: 2022-04-24 00:40+0000\n"
 "PO-Revision-Date: 2010-08-13 15:45+0200\n"
 "Last-Translator: Erdal Ronahî <erdal.ronahi@nospam.gmail.com>\n"
 "Language-Team: Kurdish Team http://pckurd.net\n"
@@ -136,7 +136,7 @@ msgstr ""
 msgid "Apply Settings"
 msgstr "Mîheng"
 
-#: kcmultidialog.cpp:258 kpluginselector.cpp:809 kpluginwidget.cpp:365
+#: kcmultidialog.cpp:258 kpluginselector.cpp:809 kpluginwidget.cpp:327
 #, kde-format
 msgid "Configure"
 msgstr "Veavakirin"
@@ -201,13 +201,13 @@ msgid_plural "%1 plugins automatically removed due to plugin dependencies"
 msgstr[0] "%1 pêvek bixweber hat rakirin gorê girêdayiyên pêvekê"
 msgstr[1] "%1 pêvek bixweber hatin rakirin gorê girêdayiyên pêvekê"
 
-#: kpluginselector.cpp:264 kpluginwidget.cpp:57
+#: kpluginselector.cpp:264 kpluginwidget.cpp:59
 #, fuzzy, kde-format
 #| msgid "Search"
 msgid "Search..."
 msgstr "Lêgerîn"
 
-#: kpluginselector.cpp:804 kpluginwidget.cpp:360
+#: kpluginselector.cpp:804 kpluginwidget.cpp:322
 #, fuzzy, kde-format
 #| msgid "&About"
 msgid "About"
@@ -217,6 +217,73 @@ msgstr "&Derbarê"
 #, kde-format
 msgid "Enable component"
 msgstr "Pêkhênanan Çalak Bike"
+
+#: qml/components/KPluginDelegate.qml:45
+#, fuzzy, kde-format
+#| msgid "&About"
+msgctxt "@info:tooltip"
+msgid "About"
+msgstr "&Derbarê"
+
+#: qml/components/KPluginDelegate.qml:56
+#, fuzzy, kde-format
+#| msgid "Confi&gure..."
+msgctxt "@info:tooltip"
+msgid "Configure..."
+msgstr "&Veavakirin..."
+
+#: qml/components/KPluginSelector.qml:78
+#, kde-format
+msgid "No matches"
+msgstr ""
+
+#: qml/components/KPluginSelector.qml:78
+#, fuzzy, kde-format
+#| msgid "Not found"
+msgid "No plugins found"
+msgstr "Nehate dîtin"
+
+#: qml/components/private/AboutPlugin.qml:42
+#, fuzzy, kde-format
+#| msgctxt "concatenation of dates and time"
+#| msgid "%1 %2"
+msgctxt "Plugin name and plugin version"
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: qml/components/private/AboutPlugin.qml:64
+#, fuzzy, kde-format
+#| msgid "Copy"
+msgid "Copyright"
+msgstr "Jiber bigire"
+
+#: qml/components/private/AboutPlugin.qml:81
+#, kde-format
+msgid "License:"
+msgstr "Lîsans:"
+
+#: qml/components/private/AboutPlugin.qml:100
+#, fuzzy, kde-format
+#| msgid "A&uthors"
+msgid "Authors"
+msgstr "&Nivîskar"
+
+#: qml/components/private/AboutPlugin.qml:117
+#, kde-format
+msgid "Credits"
+msgstr ""
+
+#: qml/components/private/AboutPlugin.qml:134
+#, fuzzy, kde-format
+#| msgid "Translation"
+msgid "Translators"
+msgstr "Werger"
+
+#: qml/components/private/AboutPlugin.qml:161
+#, fuzzy, kde-format
+#| msgid "&Send Email"
+msgid "Send an email to %1"
+msgstr "&E-peyamekê Bişîne"
 
 #~ msgid "Distance between desktop icons"
 #~ msgstr "Navbera nav sembolên sermasê"
@@ -470,9 +537,6 @@ msgstr "Pêkhênanan Çalak Bike"
 #~ "Biresera KAboutData nehate dîtin."
 
 #~ msgid "A&uthor"
-#~ msgstr "&Nivîskar"
-
-#~ msgid "A&uthors"
 #~ msgstr "&Nivîskar"
 
 #~ msgid ""
@@ -1954,10 +2018,6 @@ msgstr "Pêkhênanan Çalak Bike"
 
 #~ msgid "Yesterday"
 #~ msgstr "Do"
-
-#~ msgctxt "concatenation of dates and time"
-#~ msgid "%1 %2"
-#~ msgstr "%1 %2"
 
 #~ msgctxt "concatenation of date/time and time zone"
 #~ msgid "%1 %2"
@@ -3466,9 +3526,6 @@ msgstr "Pêkhênanan Çalak Bike"
 
 #~ msgid "Wishlist"
 #~ msgstr "Lîsteya daxwaz"
-
-#~ msgid "Translation"
-#~ msgstr "Werger"
 
 #~ msgid "S&ubject: "
 #~ msgstr "M&ijar: "
@@ -5005,9 +5062,6 @@ msgstr "Pêkhênanan Çalak Bike"
 #~ msgid "Front"
 #~ msgstr "Pêş"
 
-#~ msgid "Copy"
-#~ msgstr "Jiber bigire"
-
 #~ msgid "Open"
 #~ msgstr "Veke"
 
@@ -5154,9 +5208,6 @@ msgstr "Pêkhênanan Çalak Bike"
 #~ msgctxt "Verb"
 #~ msgid "&Insert"
 #~ msgstr "&Lêzêdekirin"
-
-#~ msgid "Confi&gure..."
-#~ msgstr "&Veavakirin..."
 
 #~ msgid "Add"
 #~ msgstr "Lê Zêde Bike"
@@ -7221,9 +7272,6 @@ msgstr "Pêkhênanan Çalak Bike"
 #~ "Ev malper hewl dide ku bi rêya E-peyamê daxuyaniyan bişîne.\n"
 #~ "Tu dixwazî bidomînî?"
 
-#~ msgid "&Send Email"
-#~ msgstr "&E-peyamekê Bişîne"
-
 #~ msgid ""
 #~ "<qt>The form will be submitted to <br /><b>%1</b><br />on your local "
 #~ "filesystem.<br />Do you want to submit the form?</qt>"
@@ -7585,9 +7633,6 @@ msgstr "Pêkhênanan Çalak Bike"
 #~| msgid "Find Links as You Type"
 #~ msgid "Find &links only"
 #~ msgstr "Dema te dinivîsand de girêdana ku tu lê digeriya bibîne"
-
-#~ msgid "Not found"
-#~ msgstr "Nehate dîtin"
 
 #~ msgid "F&ind:"
 #~ msgstr "Lê&gerîn:"
@@ -8220,9 +8265,6 @@ msgstr "Pêkhênanan Çalak Bike"
 
 #~ msgid "Email address:"
 #~ msgstr "Navnîşana E-Peyamê:"
-
-#~ msgid "License:"
-#~ msgstr "Lîsans:"
 
 #~ msgid "GPL"
 #~ msgstr "GPL"
