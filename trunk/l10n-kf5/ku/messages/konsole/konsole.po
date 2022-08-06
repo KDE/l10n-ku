@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-07-24 00:48+0000\n"
+"POT-Creation-Date: 2022-08-06 00:48+0000\n"
 "PO-Revision-Date: 2009-01-06 02:14+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <ku@li.org>\n"
@@ -1410,9 +1410,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, group)
 #. i18n: ectx: property (currentText), widget (QComboBox, folder)
-#: plugins/QuickCommands/qcwidget.ui:122
-#: plugins/SSHManager/sshmanagermodel.cpp:50
-#: plugins/SSHManager/sshwidget.ui:186
+#: plugins/QuickCommands/qcwidget.ui:122 plugins/SSHManager/sshwidget.ui:186
 #, fuzzy, kde-format
 #| msgid "Set as Default"
 msgid "Default"
@@ -1546,6 +1544,24 @@ msgid "Warnings (*)"
 msgstr "Hişyarî: "
 
 #: plugins/SSHManager/sshmanagermodel.cpp:47
+#, fuzzy, kde-format
+#| msgid "Confirm Close"
+msgctxt "@item:inlistbox Hosts from ssh/config file"
+msgid "SSH Config"
+msgstr "Girtinê Bipejirîne"
+
+#: plugins/SSHManager/sshmanagermodel.cpp:50
+#, fuzzy, kde-format
+#| msgid "Set as Default"
+msgctxt "@item:inlistbox The default list of ssh hosts"
+msgid "Default"
+msgstr "Wekî Standard Ava Bike"
+
+#: plugins/SSHManager/sshmanagermodel.cpp:76
+#, kde-format
+msgid "%1 is a folder for SSH entries"
+msgstr ""
+
 #: plugins/SSHManager/sshmanagermodel.cpp:80
 #: plugins/SSHManager/sshmanagermodel.cpp:303
 #: plugins/SSHManager/sshmanagermodel.cpp:371
@@ -1556,11 +1572,6 @@ msgstr "Hişyarî: "
 #| msgid "Confirm Close"
 msgid "SSH Config"
 msgstr "Girtinê Bipejirîne"
-
-#: plugins/SSHManager/sshmanagermodel.cpp:76
-#, kde-format
-msgid "%1 is a folder for SSH entries"
-msgstr ""
 
 #: plugins/SSHManager/sshmanagermodel.cpp:104
 #, fuzzy, kde-format
@@ -3454,31 +3465,36 @@ msgstr "Biçe Hilpekîna %1"
 #: ViewManager.cpp:1009
 #, fuzzy, kde-format
 #| msgid "Open Link"
+msgctxt "@title:window"
 msgid "Save File"
 msgstr "Lînkê Veke"
 
-#: ViewManager.cpp:1009 ViewManager.cpp:1078
+#: ViewManager.cpp:1009 ViewManager.cpp:1093
 #, kde-format
+msgctxt "@item:inlistbox"
 msgid "Konsole View Layout (*.json)"
 msgstr ""
 
-#: ViewManager.cpp:1012
+#: ViewManager.cpp:1022
 #, kde-format
+msgctxt "@label:textbox"
 msgid ""
 "A problem occurred when saving the Layout.\n"
 "%1"
 msgstr ""
 
-#: ViewManager.cpp:1068
+#: ViewManager.cpp:1083
 #, kde-format
+msgctxt "@label:textbox"
 msgid ""
 "A problem occurred when loading the Layout.\n"
 "%1"
 msgstr ""
 
-#: ViewManager.cpp:1078
+#: ViewManager.cpp:1093
 #, fuzzy, kde-format
 #| msgid "Open Link"
+msgctxt "@title:window"
 msgid "Open File"
 msgstr "Lînkê Veke"
 
