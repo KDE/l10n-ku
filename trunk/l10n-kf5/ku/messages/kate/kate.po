@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-08-24 00:50+0000\n"
+"POT-Creation-Date: 2022-08-27 00:52+0000\n"
 "PO-Revision-Date: 2008-09-22 00:54+0200\n"
 "Last-Translator: Erdal Ronahi <erdal.ronahi@nospam.gmail.com>\n"
 "Language-Team: American English <>\n"
@@ -186,7 +186,7 @@ msgid "&View"
 msgstr "&Dîmen"
 
 #. i18n: ectx: Menu (view-split)
-#: lib/data/kateui.rc:75
+#: lib/data/kateui.rc:75 lib/kateviewspace.cpp:121
 #, kde-format
 msgid "Split View"
 msgstr ""
@@ -1722,17 +1722,17 @@ msgctxt "indicator for more documents"
 msgid "+%1"
 msgstr ""
 
-#: lib/kateviewspace.cpp:106 lib/kateviewspace.cpp:210
+#: lib/kateviewspace.cpp:106 lib/kateviewspace.cpp:211
 #, kde-format
 msgid "Click here to switch to the Quick Open view."
 msgstr ""
 
-#: lib/kateviewspace.cpp:121
+#: lib/kateviewspace.cpp:122
 #, kde-format
 msgid "Control view space splitting"
 msgstr ""
 
-#: lib/kateviewspace.cpp:211
+#: lib/kateviewspace.cpp:212
 #, kde-format
 msgid ""
 "Currently, there is one more document open. To see all open documents, "
@@ -1743,35 +1743,41 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: lib/kateviewspace.cpp:885
+#: lib/kateviewspace.cpp:886
 #, kde-format
 msgid "Close Tab"
 msgstr ""
 
-#: lib/kateviewspace.cpp:902
+#: lib/kateviewspace.cpp:903
 #, fuzzy, kde-format
 #| msgid "&Document"
 msgid "&Close Document"
 msgstr "&Belge"
 
-#: lib/kateviewspace.cpp:903
+#: lib/kateviewspace.cpp:904
 #, fuzzy, kde-format
 #| msgid "&Document"
 msgid "Close Other &Documents"
 msgstr "&Belge"
 
-#: lib/kateviewspace.cpp:912
+#: lib/kateviewspace.cpp:905
+#, fuzzy, kde-format
+#| msgid "&Document"
+msgid "Close &All Documents"
+msgstr "&Belge"
+
+#: lib/kateviewspace.cpp:914
 #, fuzzy, kde-format
 #| msgid "&Document"
 msgid "Compare with active document"
 msgstr "&Belge"
 
-#: lib/kateviewspace.cpp:974
+#: lib/kateviewspace.cpp:981
 #, kde-format
 msgid "Could not start program"
 msgstr ""
 
-#: lib/kateviewspace.cpp:975
+#: lib/kateviewspace.cpp:982
 #, kde-format
 msgid "The selected program could not be started. Maybe it is not installed."
 msgstr ""
