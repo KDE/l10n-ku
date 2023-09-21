@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdepim\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-07-04 00:55+0000\n"
+"POT-Creation-Date: 2023-09-21 00:51+0000\n"
 "PO-Revision-Date: 2007-12-22 09:48+0100\n"
 "Last-Translator: Erdal Ronahi <erdal.ronahi@nospam.gmail.com>\n"
 "Language-Team: Kurdish <gnu-ku-wergerandin at lists dot sourceforge dot "
@@ -79,7 +79,6 @@ msgstr ""
 #: defaultsetup/defaultaddressbook.desktop:4
 #: resources/contacts/contactsresource.desktop:2
 #: resources/contacts/org.kde.akonadi_contacts_resource.desktop:3
-#: resources/contacts/wizard/contactswizard.desktop:2
 msgctxt "Name"
 msgid "Personal Contacts"
 msgstr ""
@@ -118,7 +117,6 @@ msgid ""
 msgstr ""
 
 #: resources/contacts/contactsresource.desktop:56
-#: resources/contacts/wizard/contactswizard.desktop:56
 msgctxt "Comment"
 msgid "The address book with personal contacts"
 msgstr ""
@@ -256,18 +254,6 @@ msgid ""
 "Exchange server using EWS"
 msgstr ""
 
-#: resources/ews/wizard/ewswizard.desktop:2
-#: resources/maildir/maildirresource.desktop:2
-#: resources/maildir/wizard/maildirwizard.desktop:2
-msgctxt "Name"
-msgid "Maildir"
-msgstr ""
-
-#: resources/ews/wizard/ewswizard.desktop:56
-msgctxt "Comment"
-msgid "Exchange account"
-msgstr ""
-
 #: resources/google-groupware/akonadi_google_resource.notifyrc:3
 #: resources/google-groupware/googleresource.desktop:2
 #: resources/google-groupware/org.kde.akonadi_google_resource.desktop:3
@@ -304,13 +290,11 @@ msgid ""
 msgstr ""
 
 #: resources/ical/icalresource.desktop:2
-#: resources/ical/wizard/icalwizard.desktop:2
 msgctxt "Name"
 msgid "iCal Calendar File"
 msgstr ""
 
 #: resources/ical/icalresource.desktop:41
-#: resources/ical/wizard/icalwizard.desktop:42
 msgctxt "Comment"
 msgid "Loads data from an iCal file"
 msgstr ""
@@ -335,18 +319,7 @@ msgctxt "Name"
 msgid "Emails"
 msgstr ""
 
-#: resources/imap/wizard/imapwizard.desktop:2
-msgctxt "Name"
-msgid "Generic IMAP Email Server"
-msgstr ""
-
-#: resources/imap/wizard/imapwizard.desktop:54
-msgctxt "Comment"
-msgid "Imap account"
-msgstr ""
-
 #: resources/kolab/kolabresource.desktop:2
-#: resources/kolab/wizard/kolabwizard.desktop:2
 msgctxt "Name"
 msgid "Kolab Groupware Server"
 msgstr ""
@@ -362,19 +335,14 @@ msgctxt "Name"
 msgid "Kolab Groupware"
 msgstr ""
 
-#: resources/kolab/wizard/kolabwizard.desktop:54
-msgctxt "Comment"
-msgid "Kolab Groupware Server"
+#: resources/maildir/maildirresource.desktop:2
+msgctxt "Name"
+msgid "Maildir"
 msgstr ""
 
 #: resources/maildir/maildirresource.desktop:55
 msgctxt "Comment"
 msgid "Loads data from a local maildir folder"
-msgstr ""
-
-#: resources/maildir/wizard/maildirwizard.desktop:56
-msgctxt "Comment"
-msgid "Maildir account"
 msgstr ""
 
 #: resources/mbox/mboxresource.desktop:2
@@ -385,16 +353,6 @@ msgstr ""
 #: resources/mbox/mboxresource.desktop:54
 msgctxt "Comment"
 msgid "Loads data from a local mbox file"
-msgstr ""
-
-#: resources/mbox/wizard/mailboxwizard.desktop:2
-msgctxt "Name"
-msgid "MailBox"
-msgstr ""
-
-#: resources/mbox/wizard/mailboxwizard.desktop:56
-msgctxt "Comment"
-msgid "Mailbox account"
 msgstr ""
 
 #: resources/mixedmaildir/mixedmaildirresource.desktop:2
@@ -445,16 +403,6 @@ msgctxt "Comment"
 msgid "Connects to a POP3 e-mail server"
 msgstr ""
 
-#: resources/pop3/wizard/pop3wizard.desktop:2
-msgctxt "Name"
-msgid "POP3"
-msgstr ""
-
-#: resources/pop3/wizard/pop3wizard.desktop:47
-msgctxt "Comment"
-msgid "Pop3 account"
-msgstr ""
-
 #: resources/tomboynotes/tomboynotesresource.desktop:2
 msgctxt "Name"
 msgid "Akonadi TomboyNotes Resource"
@@ -467,7 +415,6 @@ msgstr ""
 
 #: resources/vcarddir/org.kde.akonadi_vcarddir_resource.desktop:3
 #: resources/vcarddir/vcarddirresource.desktop:2
-#: resources/vcarddir/wizard/vcarddirwizard.desktop:2
 msgctxt "Name"
 msgid "vCard Directory"
 msgstr ""
@@ -477,14 +424,8 @@ msgctxt "Comment"
 msgid "Loads data from a directory with vCards"
 msgstr ""
 
-#: resources/vcarddir/wizard/vcarddirwizard.desktop:49
-msgctxt "Comment"
-msgid "Loads contact from vCard Directory"
-msgstr ""
-
 #: resources/vcard/org.kde.akonadi_vcard_resource.desktop:3
 #: resources/vcard/vcardresource.desktop:2
-#: resources/vcard/wizard/vcardwizard.desktop:2
 msgctxt "Name"
 msgid "vCard File"
 msgstr ""
@@ -492,11 +433,6 @@ msgstr ""
 #: resources/vcard/vcardresource.desktop:49
 msgctxt "Comment"
 msgid "Loads data from a vCard file"
-msgstr ""
-
-#: resources/vcard/wizard/vcardwizard.desktop:50
-msgctxt "Comment"
-msgid "Loads contact from vCard File"
 msgstr ""
 
 #, fuzzy
