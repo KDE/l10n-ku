@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-12-30 01:06+0000\n"
+"POT-Creation-Date: 2024-01-16 00:45+0000\n"
 "PO-Revision-Date: 2009-01-06 01:24+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -28,18 +28,18 @@ msgctxt "Name"
 msgid "About this System"
 msgstr "Agahiyên der barê protokolên heyî de"
 
+#: Modules/block_devices/kcm_block_devices.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "USB Devices"
+msgctxt "Name"
+msgid "Block Devices"
+msgstr "Cîhazên USB"
+
 #: Modules/cpu/kcm_cpu.json
 msgctxt "Name"
 msgid "CPU"
 msgstr ""
-
-#: Modules/devinfo/devinfo.json
-#, fuzzy
-#| msgctxt "GenericName"
-#| msgid "Picture Viewer"
-msgctxt "Name"
-msgid "Device Viewer"
-msgstr "Temaşekarê Wêneyan"
 
 #: Modules/egl/kcm_egl.json
 #, fuzzy
@@ -128,6 +128,14 @@ msgctxt "Description"
 msgid "Information About This System"
 msgstr "Agahiyên der barê protokolên heyî de"
 
+#: Modules/block_devices/kcm_block_devices.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "USB Devices"
+msgctxt "Description"
+msgid "Block Devices"
+msgstr "Cîhazên USB"
+
 #: Modules/cpu/kcm_cpu.json
 #, fuzzy
 #| msgctxt "Name"
@@ -135,14 +143,6 @@ msgstr "Agahiyên der barê protokolên heyî de"
 msgctxt "Description"
 msgid "Advanced CPU Information"
 msgstr "Agahiya Cîhazê"
-
-#: Modules/devinfo/devinfo.json
-#, fuzzy
-#| msgctxt "GenericName"
-#| msgid "Picture Viewer"
-msgctxt "Description"
-msgid "Device Viewer"
-msgstr "Temaşekarê Wêneyan"
 
 #: Modules/egl/kcm_egl.json
 #, fuzzy
@@ -252,6 +252,20 @@ msgstr "Agahiyên der barê protokolên heyî de"
 msgctxt "Description"
 msgid "X-Server information"
 msgstr "Agahiya Pêşkêşkara X"
+
+#, fuzzy
+#~| msgctxt "GenericName"
+#~| msgid "Picture Viewer"
+#~ msgctxt "Name"
+#~ msgid "Device Viewer"
+#~ msgstr "Temaşekarê Wêneyan"
+
+#, fuzzy
+#~| msgctxt "GenericName"
+#~| msgid "Picture Viewer"
+#~ msgctxt "Description"
+#~ msgid "Device Viewer"
+#~ msgstr "Temaşekarê Wêneyan"
 
 #, fuzzy
 #~| msgctxt "Name"
