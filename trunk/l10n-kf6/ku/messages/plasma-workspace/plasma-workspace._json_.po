@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-06-11 00:47+0000\n"
+"POT-Creation-Date: 2024-06-25 00:46+0000\n"
 "PO-Revision-Date: 2009-01-06 01:24+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <kde-i18n-doc@lists.kde.org>\n"
@@ -34,22 +34,6 @@ msgstr "Demjimêra Analog"
 msgctxt "Name"
 msgid "Global Menu"
 msgstr ""
-
-#: applets/batterymonitor/package/metadata.json
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Power Management"
-msgctxt "Name"
-msgid "Power and Battery"
-msgstr "Gerînendeyê hêzê"
-
-#: applets/brightness/package/metadata.json
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Color"
-msgctxt "Name"
-msgid "Brightness and Color"
-msgstr "Reng"
 
 #: applets/calendar/package/metadata.json
 msgctxt "Name"
@@ -557,11 +541,6 @@ msgctxt "Name"
 msgid "Locations"
 msgstr "Cih"
 
-#: runners/powerdevil/plasma-runner-powerdevil.json
-msgctxt "Name"
-msgid "Power"
-msgstr ""
-
 #: runners/recentdocuments/plasma-runner-recentdocuments.json
 #, fuzzy
 #| msgctxt "Description"
@@ -655,17 +634,6 @@ msgstr ""
 #: applets/appmenu/package/metadata.json
 msgctxt "Description"
 msgid "Global menubar in your Plasma Desktop"
-msgstr ""
-
-#: applets/batterymonitor/package/metadata.json
-msgctxt "Description"
-msgid ""
-"Control power management settings and see the power status of your battery"
-msgstr ""
-
-#: applets/brightness/package/metadata.json
-msgctxt "Description"
-msgid "Control brightness and color of your screens and keyboards"
 msgstr ""
 
 #: applets/calendar/package/metadata.json
@@ -1153,14 +1121,6 @@ msgctxt "Description"
 msgid "Open devices and folder bookmarks"
 msgstr "Cîhazan û Bijareyên Peldankê Veke"
 
-#: runners/powerdevil/plasma-runner-powerdevil.json
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Basic Power Management Operations"
-msgctxt "Description"
-msgid "Basic Power Management Operations"
-msgstr "Çalakiyên Rêveberiya Hêzê yê Bingehîn"
-
 #: runners/services/plasma-runner-services.json
 #, fuzzy
 #| msgctxt "Comment"
@@ -1255,8 +1215,6 @@ msgid "Marco Martin"
 msgstr ""
 
 #: applets/appmenu/package/metadata.json
-#: applets/batterymonitor/package/metadata.json
-#: applets/brightness/package/metadata.json
 #: applets/notifications/package/metadata.json
 #: applets/systemmonitor/coreusage/metadata.json
 #: applets/systemmonitor/cpu/metadata.json
@@ -1265,18 +1223,11 @@ msgctxt "Authors Name"
 msgid "Kai Uwe Broulik"
 msgstr ""
 
-#: applets/batterymonitor/package/metadata.json
-#: applets/brightness/package/metadata.json
 #: applets/calendar/package/metadata.json
 #: applets/mediacontroller/package/metadata.json
 #: runners/recentdocuments/plasma-runner-recentdocuments.json
 msgctxt "Authors Name"
 msgid "Sebastian Kügler"
-msgstr ""
-
-#: applets/brightness/package/metadata.json
-msgctxt "Authors Name"
-msgid "Natalie Clarius"
 msgstr ""
 
 #: applets/cameraindicator/package/metadata.json
@@ -1401,11 +1352,6 @@ msgctxt "Authors Name"
 msgid "David Edmundson"
 msgstr ""
 
-#: runners/powerdevil/plasma-runner-powerdevil.json
-msgctxt "Authors Name"
-msgid "Dario Freddi"
-msgstr ""
-
 #: runners/webshortcuts/plasma-runner-webshortcuts.json
 msgctxt "Authors Name"
 msgid "Teemu Rytilahti"
@@ -1415,6 +1361,27 @@ msgstr ""
 msgctxt "Authors Name"
 msgid "Julius Zint"
 msgstr ""
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Power Management"
+#~ msgctxt "Name"
+#~ msgid "Power and Battery"
+#~ msgstr "Gerînendeyê hêzê"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Color"
+#~ msgctxt "Name"
+#~ msgid "Brightness and Color"
+#~ msgstr "Reng"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Basic Power Management Operations"
+#~ msgctxt "Description"
+#~ msgid "Basic Power Management Operations"
+#~ msgstr "Çalakiyên Rêveberiya Hêzê yê Bingehîn"
 
 #, fuzzy
 #~| msgctxt "GenericName"
