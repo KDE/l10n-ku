@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-07-08 02:39+0000\n"
+"POT-Creation-Date: 2025-07-29 00:43+0000\n"
 "PO-Revision-Date: 2009-01-06 03:15+0200\n"
 "Last-Translator: Omer Ensari <oensari@gmail.com>\n"
 "Language-Team: Kurdish <gnu-ku-wergerandin at lists dot sourceforge dot "
@@ -1316,17 +1316,13 @@ msgid ""
 "Escape or right click to cancel."
 msgstr ""
 
-#: main.cpp:185 plugins/invert/invert_config.cpp:35
-#: plugins/magnifier/magnifier_config.cpp:46
-#: plugins/mouseclick/mouseclick_config.cpp:40
+#: main.cpp:185 plugins/mouseclick/mouseclick_config.cpp:40
 #: plugins/mousemark/mousemark_config.cpp:43
 #: plugins/overview/kcm/overvieweffectkcm.cpp:35
-#: plugins/showpaint/showpaint_config.cpp:32
 #: plugins/thumbnailaside/thumbnailaside_config.cpp:45
 #: plugins/tileseditor/kcm/tileseditoreffectkcm.cpp:31
 #: plugins/trackmouse/trackmouse_config.cpp:44
 #: plugins/windowview/kcm/windowvieweffectkcm.cpp:36
-#: plugins/zoom/zoom_config.cpp:48
 #, kde-format
 msgid "KWin"
 msgstr "KWin"
@@ -1598,19 +1594,19 @@ msgstr ""
 msgid "Window Close Animation"
 msgstr "Pêşeka Xebatên Paceyê"
 
-#: plugins/invert/invert.cpp:43 plugins/invert/invert_config.cpp:38
+#: plugins/invert/invert.cpp:44
 #, fuzzy, kde-format
 #| msgctxt "@action Enables/Disables an effect that makes windows more sharp"
 #| msgid "Toggle Sharpen Effect"
 msgid "Toggle Invert Effect"
 msgstr "Efekta Tûjîtî Veke/Bigire"
 
-#: plugins/invert/invert.cpp:50 plugins/invert/invert_config.cpp:44
+#: plugins/invert/invert.cpp:52
 #, kde-format
 msgid "Toggle Invert Effect on Window"
 msgstr ""
 
-#: plugins/invert/invert.cpp:57
+#: plugins/invert/invert.cpp:59
 #, kde-format
 msgid "Invert Screen Colors"
 msgstr ""
@@ -1775,33 +1771,6 @@ msgstr ""
 msgctxt "Duration of rotation"
 msgid "Default"
 msgstr "Wekî heyî"
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupSize)
-#: plugins/magnifier/magnifier_config.ui:17
-#, kde-format
-msgid "Size"
-msgstr "Mezinahî"
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: plugins/magnifier/magnifier_config.ui:23
-#, kde-format
-msgid "&Width:"
-msgstr "&Firehî:"
-
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_Width)
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_Height)
-#: plugins/magnifier/magnifier_config.ui:42
-#: plugins/magnifier/magnifier_config.ui:74
-#, kde-format
-msgid " px"
-msgstr " px"
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: plugins/magnifier/magnifier_config.ui:55
-#, fuzzy, kde-format
-#| msgid "Top-Right"
-msgid "&Height:"
-msgstr "Rast-Jor"
 
 #: plugins/mouseclick/mouseclick.cpp:39
 #: plugins/mouseclick/mouseclick_config.cpp:43
@@ -2029,25 +1998,25 @@ msgstr ""
 msgid "Arrow draw modifier keys:"
 msgstr ""
 
-#: plugins/nightlight/nightlightmanager.cpp:59
+#: plugins/nightlight/nightlightmanager.cpp:55
 #, kde-format
 msgctxt "Night Light was temporarily disabled"
 msgid "Night Light Suspended"
 msgstr ""
 
-#: plugins/nightlight/nightlightmanager.cpp:60
+#: plugins/nightlight/nightlightmanager.cpp:56
 #, kde-format
 msgctxt "Night Light was reenabled from temporary suspension"
 msgid "Night Light Resumed"
 msgstr ""
 
-#: plugins/nightlight/nightlightmanager.cpp:81
+#: plugins/nightlight/nightlightmanager.cpp:77
 #, kde-format
 msgctxt "Temporarily disable/reenable Night Light"
 msgid "Suspend/Resume Night Light"
 msgstr ""
 
-#: plugins/nightlight/nightlightmanager.cpp:417
+#: plugins/nightlight/nightlightmanager.cpp:393
 #, kde-format
 msgid "Color Temperature Preview"
 msgstr ""
@@ -2119,7 +2088,7 @@ msgctxt "@action Overview is the name of a Kwin effect"
 msgid "Toggle Overview"
 msgstr "Efekta Tûjîtî Veke/Bigire"
 
-#: plugins/overview/overvieweffect.cpp:151
+#: plugins/overview/overvieweffect.cpp:152
 #, fuzzy, kde-format
 #| msgid "Toggle Window Raise/Lower"
 msgctxt "@action Grid view is the name of a Kwin effect"
@@ -2236,12 +2205,6 @@ msgstr "Tevgera Paceyê Veavabek&e..."
 msgctxt "@label"
 msgid "Maximum FPS"
 msgstr ""
-
-#: plugins/showpaint/showpaint.cpp:42 plugins/showpaint/showpaint_config.cpp:37
-#, fuzzy, kde-format
-#| msgid "Toggle Snow on Desktop"
-msgid "Toggle Show Paint"
-msgstr "Efekta Berfê yê Sermasê Veke/Bigire"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_Gaps)
 #: plugins/slide/slide_config.ui:17
@@ -2641,157 +2604,16 @@ msgstr ""
 msgid "Move Zoomed Area Downwards"
 msgstr ""
 
-#: plugins/zoom/zoom.cpp:91 plugins/zoom/zoom_config.cpp:98
+#: plugins/zoom/zoom.cpp:91
 #, kde-format
 msgid "Move Mouse to Focus"
 msgstr ""
 
-#: plugins/zoom/zoom.cpp:98 plugins/zoom/zoom_config.cpp:105
+#: plugins/zoom/zoom.cpp:98
 #, fuzzy, kde-format
 #| msgid "Move Window"
 msgid "Move Mouse to Center"
 msgstr "Paceyê Bikişîne"
-
-#: plugins/zoom/zoom_config.cpp:70
-#, fuzzy, kde-format
-#| msgid "Left"
-msgid "Move Left"
-msgstr "Çep"
-
-#: plugins/zoom/zoom_config.cpp:77
-#, fuzzy, kde-format
-#| msgid "Right"
-msgid "Move Right"
-msgstr "Rast"
-
-#: plugins/zoom/zoom_config.cpp:84
-#, fuzzy, kde-format
-#| msgid "&Move"
-msgid "Move Up"
-msgstr "&Guhestin"
-
-#: plugins/zoom/zoom_config.cpp:91
-#, fuzzy, kde-format
-#| msgid "Move Window"
-msgid "Move Down"
-msgstr "Paceyê Bikişîne"
-
-#. i18n: ectx: property (whatsThis), widget (QLabel, label)
-#. i18n: ectx: property (whatsThis), widget (QDoubleSpinBox, kcfg_ZoomFactor)
-#: plugins/zoom/zoom_config.ui:22 plugins/zoom/zoom_config.ui:35
-#, kde-format
-msgid "On zoom-in and zoom-out change the zoom by the defined zoom-factor."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: plugins/zoom/zoom_config.ui:25
-#, fuzzy, kde-format
-#| msgid "Left"
-msgid "Zoom factor:"
-msgstr "Çep"
-
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: plugins/zoom/zoom_config.ui:57
-#, kde-format
-msgid "Show pixel grid at zoom level:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: plugins/zoom/zoom_config.ui:70
-#, fuzzy, kde-format
-#| msgid "Move Window"
-msgid "Mouse pointer:"
-msgstr "Paceyê Bikişîne"
-
-#. i18n: ectx: property (whatsThis), widget (QComboBox, kcfg_MousePointer)
-#: plugins/zoom/zoom_config.ui:80
-#, kde-format
-msgid "Visibility of the mouse-pointer."
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MousePointer)
-#: plugins/zoom/zoom_config.ui:84
-#, kde-format
-msgid "Scale"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MousePointer)
-#: plugins/zoom/zoom_config.ui:89
-#, kde-format
-msgid "Keep"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MousePointer)
-#: plugins/zoom/zoom_config.ui:94
-#, kde-format
-msgid "Hide"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: plugins/zoom/zoom_config.ui:102
-#, kde-format
-msgid "Mouse tracking:"
-msgstr ""
-
-#. i18n: ectx: property (whatsThis), widget (QComboBox, kcfg_MouseTracking)
-#: plugins/zoom/zoom_config.ui:112
-#, kde-format
-msgid "Track moving of the mouse."
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MouseTracking)
-#: plugins/zoom/zoom_config.ui:116
-#, kde-format
-msgid "Proportional"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MouseTracking)
-#: plugins/zoom/zoom_config.ui:121
-#, fuzzy, kde-format
-#| msgid "Center"
-msgid "Centered"
-msgstr "Navîn"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MouseTracking)
-#: plugins/zoom/zoom_config.ui:126
-#, kde-format
-msgid "Push"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MouseTracking)
-#: plugins/zoom/zoom_config.ui:131
-#, fuzzy, kde-format
-#| msgid "Disabled"
-msgid "Disabled"
-msgstr "Neçalak"
-
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_EnableFocusTracking)
-#: plugins/zoom/zoom_config.ui:142
-#, kde-format
-msgid ""
-"Enable tracking of the focused location. This needs QAccessible to be "
-"enabled per application (\"export QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1\")."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_EnableFocusTracking)
-#: plugins/zoom/zoom_config.ui:145
-#, kde-format
-msgid "Enable focus tracking"
-msgstr ""
-
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_EnableTextCaretTracking)
-#: plugins/zoom/zoom_config.ui:152
-#, kde-format
-msgid ""
-"Enable tracking of the text cursor. This needs QAccessible to be enabled per "
-"application (\"export QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1\")."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_EnableTextCaretTracking)
-#: plugins/zoom/zoom_config.ui:155
-#, kde-format
-msgid "Enable text cursor tracking"
-msgstr ""
 
 #. i18n: ectx: label, entry (count), group (General)
 #: rulebooksettingsbase.kcfg:9
@@ -3670,393 +3492,394 @@ msgctxt "keyboard shortcut '%1' is used by action '%2' in application '%3'"
 msgid "<b>%1</b> is used by %2 in %3"
 msgstr ""
 
-#: useractions.cpp:911
-#, kde-format
-msgid "Window Operations Menu"
-msgstr "Pêşeka Xebatên Paceyê"
+#: useractions.cpp:912
+#, fuzzy, kde-format
+#| msgid "Windows"
+msgid "Window Menu"
+msgstr "Pace"
 
-#: useractions.cpp:913
+#: useractions.cpp:914
 #, kde-format
 msgid "Close Window"
 msgstr "Paceyê Dade"
 
-#: useractions.cpp:915
+#: useractions.cpp:916
 #, kde-format
 msgid "Maximize Window"
 msgstr "Paceyê Mezintirîn bike"
 
-#: useractions.cpp:917
+#: useractions.cpp:918
 #, kde-format
 msgid "Maximize Window Vertically"
 msgstr "Paceyê Tîkane Mezintir Bike"
 
-#: useractions.cpp:919
+#: useractions.cpp:920
 #, kde-format
 msgid "Maximize Window Horizontally"
 msgstr "Paceyê Berwarî Mezintir Bike "
 
-#: useractions.cpp:921
+#: useractions.cpp:922
 #, kde-format
 msgid "Minimize Window"
 msgstr "Paceyê Kêmtirîn bike"
 
-#: useractions.cpp:923
+#: useractions.cpp:924
 #, kde-format
 msgid "Shade Window"
 msgstr "Pace ya bi Sî"
 
-#: useractions.cpp:925
+#: useractions.cpp:926
 #, kde-format
 msgid "Move Window"
 msgstr "Paceyê Bikişîne"
 
-#: useractions.cpp:927
+#: useractions.cpp:928
 #, kde-format
 msgid "Resize Window"
 msgstr "Mezinahiya paceyê biguherîne"
 
-#: useractions.cpp:929
+#: useractions.cpp:930
 #, kde-format
 msgid "Raise Window"
 msgstr "Paceyê bilindtir bike"
 
-#: useractions.cpp:931
+#: useractions.cpp:932
 #, kde-format
 msgid "Lower Window"
 msgstr "Paceyê Nizimtir bike"
 
-#: useractions.cpp:933
+#: useractions.cpp:934
 #, kde-format
 msgid "Toggle Window Raise/Lower"
 msgstr "Paceyê Bilindtir/Biçûktir Bike"
 
-#: useractions.cpp:935
+#: useractions.cpp:936
 #, kde-format
 msgid "Make Window Fullscreen"
 msgstr "Paceyê Bike Dîmender-Tijî"
 
-#: useractions.cpp:937
+#: useractions.cpp:938
 #, fuzzy, kde-format
 #| msgid "Hide Window Border"
 msgid "Toggle Window Titlebar and Frame"
 msgstr "Kêlekên Paceyê Veşêre"
 
-#: useractions.cpp:939
+#: useractions.cpp:940
 #, kde-format
 msgid "Keep Window Above Others"
 msgstr "Paceyê li Ser yên Din Bigire"
 
-#: useractions.cpp:941
+#: useractions.cpp:942
 #, kde-format
 msgid "Keep Window Below Others"
 msgstr "Paceyê li Bin yên Din Bigire"
 
-#: useractions.cpp:943
+#: useractions.cpp:944
 #, kde-format
 msgid "Activate Window Demanding Attention"
 msgstr ""
 
-#: useractions.cpp:945
+#: useractions.cpp:946
 #, kde-format
 msgid "Setup Window Shortcut"
 msgstr "Kurterê yên Paceyê Veava Bike"
 
-#: useractions.cpp:947
+#: useractions.cpp:948
 #, fuzzy, kde-format
 #| msgid "Move Window"
 msgid "Move Window to the Center"
 msgstr "Paceyê Bikişîne"
 
-#: useractions.cpp:949
+#: useractions.cpp:950
 #, fuzzy, kde-format
 #| msgid "Move Window"
 msgid "Move Window Right"
 msgstr "Paceyê Bikişîne"
 
-#: useractions.cpp:951
+#: useractions.cpp:952
 #, fuzzy, kde-format
 #| msgid "Move Window"
 msgid "Move Window Left"
 msgstr "Paceyê Bikişîne"
 
-#: useractions.cpp:953
+#: useractions.cpp:954
 #, fuzzy, kde-format
 #| msgid "Move Window"
 msgid "Move Window Up"
 msgstr "Paceyê Bikişîne"
 
-#: useractions.cpp:955
+#: useractions.cpp:956
 #, fuzzy, kde-format
 #| msgid "Move Window"
 msgid "Move Window Down"
 msgstr "Paceyê Bikişîne"
 
-#: useractions.cpp:957
+#: useractions.cpp:958
 #, fuzzy, kde-format
 #| msgid "Maximize Window Horizontally"
 msgid "Expand Window Horizontally"
 msgstr "Paceyê Berwarî Mezintir Bike "
 
-#: useractions.cpp:959
+#: useractions.cpp:960
 #, fuzzy, kde-format
 #| msgid "Maximize Window Vertically"
 msgid "Expand Window Vertically"
 msgstr "Paceyê Tîkane Mezintir Bike"
 
-#: useractions.cpp:961
+#: useractions.cpp:962
 #, fuzzy, kde-format
 #| msgid "Pack Shrink Window Horizontally"
 msgid "Shrink Window Horizontally"
 msgstr "Loda Paceyê Berwarî Biçûk Bike"
 
-#: useractions.cpp:963
+#: useractions.cpp:964
 #, fuzzy, kde-format
 #| msgid "Pack Shrink Window Vertically"
 msgid "Shrink Window Vertically"
 msgstr "Loda Paceyê Tîkane Biçûk Bike"
 
-#: useractions.cpp:965
+#: useractions.cpp:966
 #, fuzzy, kde-format
 #| msgid "Pack Window to the Left"
 msgid "Quick Tile Window to the Left"
 msgstr "Paceyê lod bike milê Çepê"
 
-#: useractions.cpp:967
+#: useractions.cpp:968
 #, fuzzy, kde-format
 #| msgid "Pack Window to the Right"
 msgid "Quick Tile Window to the Right"
 msgstr "Paceyê lod bike milê Rastê"
 
-#: useractions.cpp:969
+#: useractions.cpp:970
 #, fuzzy, kde-format
 #| msgid "Pack Window to the Left"
 msgid "Quick Tile Window to the Top"
 msgstr "Paceyê lod bike milê Çepê"
 
-#: useractions.cpp:971
+#: useractions.cpp:972
 #, fuzzy, kde-format
 #| msgid "Pack Window to the Left"
 msgid "Quick Tile Window to the Bottom"
 msgstr "Paceyê lod bike milê Çepê"
 
-#: useractions.cpp:973
+#: useractions.cpp:974
 #, fuzzy, kde-format
 #| msgid "Pack Window to the Left"
 msgid "Quick Tile Window to the Top Left"
 msgstr "Paceyê lod bike milê Çepê"
 
-#: useractions.cpp:975
+#: useractions.cpp:976
 #, fuzzy, kde-format
 #| msgid "Pack Window to the Left"
 msgid "Quick Tile Window to the Bottom Left"
 msgstr "Paceyê lod bike milê Çepê"
 
-#: useractions.cpp:977
+#: useractions.cpp:978
 #, fuzzy, kde-format
 #| msgid "Pack Window to the Right"
 msgid "Quick Tile Window to the Top Right"
 msgstr "Paceyê lod bike milê Rastê"
 
-#: useractions.cpp:979
+#: useractions.cpp:980
 #, fuzzy, kde-format
 #| msgid "Pack Window to the Right"
 msgid "Quick Tile Window to the Bottom Right"
 msgstr "Paceyê lod bike milê Rastê"
 
-#: useractions.cpp:981
+#: useractions.cpp:982
 #, fuzzy, kde-format
 #| msgid "Switch to Screen 0"
 msgid "Switch to Window Above"
 msgstr "Biçe Dîmena 0ê"
 
-#: useractions.cpp:983
+#: useractions.cpp:984
 #, fuzzy, kde-format
 #| msgid "Switch to Previous Desktop"
 msgid "Switch to Window Below"
 msgstr "Biçe Sermase ya Paş"
 
-#: useractions.cpp:985
+#: useractions.cpp:986
 #, fuzzy, kde-format
 #| msgid "Pack Window to the Right"
 msgid "Switch to Window to the Right"
 msgstr "Paceyê lod bike milê Rastê"
 
-#: useractions.cpp:987
+#: useractions.cpp:988
 #, fuzzy, kde-format
 #| msgid "Pack Window to the Left"
 msgid "Switch to Window to the Left"
 msgstr "Paceyê lod bike milê Çepê"
 
-#: useractions.cpp:989
+#: useractions.cpp:990
 #, kde-format
 msgid "Increase Opacity of Active Window by 5%"
 msgstr ""
 
-#: useractions.cpp:991
+#: useractions.cpp:992
 #, kde-format
 msgid "Decrease Opacity of Active Window by 5%"
 msgstr ""
 
-#: useractions.cpp:994
+#: useractions.cpp:995
 #, kde-format
 msgid "Keep Window on All Desktops"
 msgstr "Paceyê di Hemû Sermaseyan de Bigire"
 
-#: useractions.cpp:997
+#: useractions.cpp:998
 #, fuzzy, kde-format
 #| msgid "Pack Window to the Left"
 msgid "Custom Quick Tile Window to the Left"
 msgstr "Paceyê lod bike milê Çepê"
 
-#: useractions.cpp:999
+#: useractions.cpp:1000
 #, fuzzy, kde-format
 #| msgid "Pack Window to the Right"
 msgid "Custom Quick Tile Window to the Right"
 msgstr "Paceyê lod bike milê Rastê"
 
-#: useractions.cpp:1001
+#: useractions.cpp:1002
 #, fuzzy, kde-format
 #| msgid "Pack Window to the Left"
 msgid "Custom Quick Tile Window to the Top"
 msgstr "Paceyê lod bike milê Çepê"
 
-#: useractions.cpp:1003
+#: useractions.cpp:1004
 #, fuzzy, kde-format
 #| msgid "Pack Window to the Left"
 msgid "Custom Quick Tile Window to the Bottom"
 msgstr "Paceyê lod bike milê Çepê"
 
-#: useractions.cpp:1014
+#: useractions.cpp:1015
 #, fuzzy, kde-format
 #| msgid "Window to Desktop 1"
 msgid "Window to Desktop %1"
 msgstr "Paceyê bibe Sermase ya 1ê "
 
-#: useractions.cpp:1016
+#: useractions.cpp:1017
 #, kde-format
 msgid "Window to Next Desktop"
 msgstr "Paceyê bibe Sermase ya Pêş"
 
-#: useractions.cpp:1017
+#: useractions.cpp:1018
 #, kde-format
 msgid "Window to Previous Desktop"
 msgstr "Paceyê bibe Sermase ya Paş"
 
-#: useractions.cpp:1018
+#: useractions.cpp:1019
 #, kde-format
 msgid "Window One Desktop to the Right"
 msgstr "Paceyê bibe Sermase ya Rastê"
 
-#: useractions.cpp:1020
+#: useractions.cpp:1021
 #, kde-format
 msgid "Window One Desktop to the Left"
 msgstr "Paceyê bibe Sermase ya Çepê"
 
-#: useractions.cpp:1022
+#: useractions.cpp:1023
 #, kde-format
 msgid "Window One Desktop Up"
 msgstr "Paceyê bibe Sermase ya Jorê"
 
-#: useractions.cpp:1024
+#: useractions.cpp:1025
 #, kde-format
 msgid "Window One Desktop Down"
 msgstr "Paceyê bibe Sermase ya Jêrê"
 
-#: useractions.cpp:1028
+#: useractions.cpp:1029
 #, fuzzy, kde-format
 #| msgid "Window to Screen 1"
 msgid "Move Window to Screen %1"
 msgstr "Paceyê bibe Dîmena 1ê"
 
-#: useractions.cpp:1035
+#: useractions.cpp:1036
 #, fuzzy, kde-format
 #| msgid "Window to Next Screen"
 msgid "Move Window to Next Screen"
 msgstr "Paceyê bibe Dîmena Pêş"
 
-#: useractions.cpp:1037
+#: useractions.cpp:1038
 #, fuzzy, kde-format
 #| msgid "Window to Previous Desktop"
 msgid "Move Window to Previous Screen"
 msgstr "Paceyê bibe Sermase ya Paş"
 
-#: useractions.cpp:1039
+#: useractions.cpp:1040
 #, fuzzy, kde-format
 #| msgid "Window One Desktop to the Right"
 msgid "Move Window One Screen to the Right"
 msgstr "Paceyê bibe Sermase ya Rastê"
 
-#: useractions.cpp:1041
+#: useractions.cpp:1042
 #, fuzzy, kde-format
 #| msgid "Window One Desktop to the Left"
 msgid "Move Window One Screen to the Left"
 msgstr "Paceyê bibe Sermase ya Çepê"
 
-#: useractions.cpp:1043
+#: useractions.cpp:1044
 #, fuzzy, kde-format
 #| msgid "Window to Screen 2"
 msgid "Move Window One Screen Up"
 msgstr "Paceyê bibe Dîmena 2ê"
 
-#: useractions.cpp:1045
+#: useractions.cpp:1046
 #, fuzzy, kde-format
 #| msgid "Window One Desktop Down"
 msgid "Move Window One Screen Down"
 msgstr "Paceyê bibe Sermase ya Jêrê"
 
-#: useractions.cpp:1049
+#: useractions.cpp:1050
 #, fuzzy, kde-format
 #| msgid "Switch to Screen 1"
 msgid "Switch to Screen %1"
 msgstr "Biçe Dîmena 1ê"
 
-#: useractions.cpp:1056
+#: useractions.cpp:1057
 #, kde-format
 msgid "Switch to Next Screen"
 msgstr "Biçe Dîmena Pêş"
 
-#: useractions.cpp:1057
+#: useractions.cpp:1058
 #, fuzzy, kde-format
 #| msgid "Switch to Previous Desktop"
 msgid "Switch to Previous Screen"
 msgstr "Biçe Sermase ya Paş"
 
-#: useractions.cpp:1058
+#: useractions.cpp:1059
 #, fuzzy, kde-format
 #| msgid "Pack Window to the Right"
 msgid "Switch to Screen to the Right"
 msgstr "Paceyê lod bike milê Rastê"
 
-#: useractions.cpp:1060
+#: useractions.cpp:1061
 #, fuzzy, kde-format
 #| msgid "Pack Window to the Left"
 msgid "Switch to Screen to the Left"
 msgstr "Paceyê lod bike milê Çepê"
 
-#: useractions.cpp:1062
+#: useractions.cpp:1063
 #, fuzzy, kde-format
 #| msgid "Switch to Screen 0"
 msgid "Switch to Screen Above"
 msgstr "Biçe Dîmena 0ê"
 
-#: useractions.cpp:1064
+#: useractions.cpp:1065
 #, fuzzy, kde-format
 #| msgid "Switch to Screen 0"
 msgid "Switch to Screen Below"
 msgstr "Biçe Dîmena 0ê"
 
-#: useractions.cpp:1067
+#: useractions.cpp:1068
 #, fuzzy, kde-format
 #| msgid "To &Desktop"
 msgid "Peek at Desktop"
 msgstr "Jê &Sermasê re"
 
-#: useractions.cpp:1070
+#: useractions.cpp:1071
 #, kde-format
 msgid "Kill Window"
 msgstr "Paceyê Bikuje"
 
-#: useractions.cpp:1138
+#: useractions.cpp:1139
 #, kde-format
 msgid "Activate Window (%1)"
 msgstr "Paceyê (%1) Çalak bike"
@@ -4132,7 +3955,7 @@ msgstr ""
 msgid "The driver rejected the output configuration"
 msgstr ""
 
-#: window.cpp:3275
+#: window.cpp:3303
 #, kde-format
 msgctxt "Application is not responding, appended to window title"
 msgid "(Not Responding)"
@@ -4157,6 +3980,68 @@ msgstr ""
 #, kde-format
 msgid "Xwayland has crashed"
 msgstr ""
+
+#~ msgid "Window Operations Menu"
+#~ msgstr "Pêşeka Xebatên Paceyê"
+
+#~ msgid "Size"
+#~ msgstr "Mezinahî"
+
+#~ msgid "&Width:"
+#~ msgstr "&Firehî:"
+
+#~ msgid " px"
+#~ msgstr " px"
+
+#, fuzzy
+#~| msgid "Top-Right"
+#~ msgid "&Height:"
+#~ msgstr "Rast-Jor"
+
+#, fuzzy
+#~| msgid "Left"
+#~ msgid "Move Left"
+#~ msgstr "Çep"
+
+#, fuzzy
+#~| msgid "Right"
+#~ msgid "Move Right"
+#~ msgstr "Rast"
+
+#, fuzzy
+#~| msgid "&Move"
+#~ msgid "Move Up"
+#~ msgstr "&Guhestin"
+
+#, fuzzy
+#~| msgid "Move Window"
+#~ msgid "Move Down"
+#~ msgstr "Paceyê Bikişîne"
+
+#, fuzzy
+#~| msgid "Left"
+#~ msgid "Zoom factor:"
+#~ msgstr "Çep"
+
+#, fuzzy
+#~| msgid "Move Window"
+#~ msgid "Mouse pointer:"
+#~ msgstr "Paceyê Bikişîne"
+
+#, fuzzy
+#~| msgid "Center"
+#~ msgid "Centered"
+#~ msgstr "Navîn"
+
+#, fuzzy
+#~| msgid "Disabled"
+#~ msgid "Disabled"
+#~ msgstr "Neçalak"
+
+#, fuzzy
+#~| msgid "Toggle Snow on Desktop"
+#~ msgid "Toggle Show Paint"
+#~ msgstr "Efekta Berfê yê Sermasê Veke/Bigire"
 
 #, fuzzy
 #~| msgid " msec"
